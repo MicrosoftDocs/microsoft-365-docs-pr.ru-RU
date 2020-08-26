@@ -1,13 +1,13 @@
 ---
 title: Необходимые условия для реализации политик доступа к удостоверениям и устройствам — Microsoft 365 для предприятий | Документы Майкрософт
 description: Описание рекомендаций Майкрософт по применению политик и конфигураций доступа для удостоверений и устройств.
-author: BrendaCarter
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 295e1c713b97740fcf40e9607e650c242a68c035
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a81e17cad1722c58f5bf13b2a36c16fc2ff5cba4
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685882"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898044"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Предварительные действия для реализации политик доступа к удостоверениям и устройствам
 
@@ -67,7 +67,7 @@ ms.locfileid: "46685882"
 ### <a name="recommended-email-clients"></a>Рекомендуемые почтовые клиенты
 Следующие почтовые клиенты поддерживают современные проверки подлинности и условный доступ. 
 
-|Платформа|Client|Версия и заметки|
+|Платформа|Клиентская|Версия и заметки|
 |:-------|:-----|:------------|
 |**Windows**|Outlook|2016, 2013 [включить современная проверка подлинности](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication), [необходимые обновления](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
 |**iOS**|Outlook для iOS|[Установлены](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|
@@ -82,7 +82,7 @@ ms.locfileid: "46685882"
 
 |Платформа|Word/Excel/PowerPoint|OneNote|Приложение OneDrive|Приложение SharePoint|Клиент синхронизации OneDrive|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 7|Поддерживается|Поддерживается|Н/Д|Н/Д|Предварительный просмотр<sup>*</sup>|
+|Windows 7|Поддерживается|Поддерживается|Н/Д|Н/Д|Предварительный просмотр<sup>*</sup>|
 |Windows 8.1|Поддерживается|Поддерживается|Н/Д|Н/Д|Предварительный просмотр<sup>*</sup>|
 |Windows 10|Поддерживается|Поддерживается|Н/Д|Н/Д|Предварительный просмотр<sup>*</sup>|
 |Windows Phone 10|Не поддерживается|Не поддерживается|Не поддерживается|Не поддерживается|Не поддерживается|

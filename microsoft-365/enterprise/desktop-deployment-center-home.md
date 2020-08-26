@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Получение ресурсов, эквивалентных нерекомендуемому центру развертывания настольных систем.
-ms.openlocfilehash: 6db35ba51f06c7cca025112ebd1bb8d718b7842c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0dc5816959c5284739de4dee31dde7cc520bde55
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686134"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898020"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>Центр развертывания настольных систем (не рекомендуется)
 
@@ -33,7 +33,7 @@ ms.locfileid: "46686134"
 
 Вы также можете просматривать [видео из серии развертывания на рабочем столе от Microsoft механики](https://www.aka.ms/watchhowtoshift).
 
-Также вы можете [обратиться за помощью](https://aka.ms/mddhelp) по развертыванию компьютеров к партнерам Майкрософт и службам FastTrack.
+Кроме того, вы можете получить помощь по развертыванию настольных систем от партнеров Майкрософт и [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365).
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 

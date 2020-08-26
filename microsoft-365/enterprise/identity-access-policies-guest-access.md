@@ -1,13 +1,13 @@
 ---
 title: Политики доступа для удостоверений и устройств для предоставления гостевых и внешних беснет прав доступа — Microsoft 365 для предприятий | Документы Майкрософт
 description: Описание рекомендуемых условного доступа и связанных политик для защиты доступа гостей и внешних пользователей.
-author: BrendaCarter
-manager: johmar
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: Laurawi
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 0ab4a2d48a1ac90f48bbfee82239fc0c4c1d55d5
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ad1203543db1c2bd0ea9e9bdd3433aad58db320b
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686830"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898108"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Политики для разрешения гостевых и внешних поправных доступа
 В этой статье описывается, как настроить рекомендуемые политики доступа к удостоверениям и устройствам, чтобы разрешить доступ к учетной записи B2B (гости и внешние пользователи). Это руководство строится на [общих политиках идентификации и доступа к устройствам](identity-access-policies.md).
@@ -37,7 +37,7 @@ ms.locfileid: "46686830"
 
 В следующей таблице перечислены политики, которые необходимо обновить, или создать новую. Общие политики ссылаются на соответствующие инструкции по настройке в статье [Common Identity and Device Access Policies Policies](identity-access-policies.md) .
 
-|Уровень защиты|Политики|Дополнительные сведения|
+|Уровень защиты|Политики|Дополнительная информация|
 |:---------------|:-------|:----------------|
 |**Базовый уровень**|[Требовать постоянного постоянного для гостевых и внешних пользователей](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Создайте новое правило и примените его только к гостям и внешним пользователям. В разделе риск для входа оставьте флажок все параметры снятым, чтобы всегда применять MFA.|
 |        |[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Измените это правило, чтобы исключить гостевых и внешних пользователей.|
@@ -47,7 +47,7 @@ ms.locfileid: "46686830"
 
 ![снимок экрана элементов управления для исключения гостей](../media/identity-access-exclude-guests-ui.png)
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 ### <a name="guests-vs-external-users"></a>Гости и внешние пользователи
 В Azure AD гостевые и внешние пользователи одинаковы. Тип пользователя для обоих из них — гость. Гостевые пользователи — это пользователи B2B.

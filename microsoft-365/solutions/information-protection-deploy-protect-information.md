@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-infoprotection
 ms.custom: ''
 description: Развертывание функций обеспечения безопасности и соответствия требованиям Microsoft 365 и защита личных сведений.
-ms.openlocfilehash: 8e7d037218b4d67e9ba7f450bd1a5235b1ae164f
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 87057d7c823fc9808169efd254300f2b2f5e0487
+ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46520997"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903899"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Защита данных в соответствии с нормами конфиденциальности данных
 
@@ -73,6 +73,7 @@ ms.locfileid: "46520997"
   - Клиентский/контентный уровень
   - Автоматизированная поддержка для данных — для REST в SharePoint и OneDrive
 - Защита от потери данных (DLP)
+- [Защита от потери данных в конечной точке Microsoft 365 (Предварительная версия)](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about?view=o365-worldwide)
 - [Microsoft 365 Message Encryption новые возможности (OME)](../compliance/ome.md) и [Расширенное шифрование сообщений](../compliance/ome-advanced-message-encryption.md) OME
 
 Кроме того, защита на уровне сайта и библиотеки — это важные механизмы, которые необходимо включить в любую схему защиты.

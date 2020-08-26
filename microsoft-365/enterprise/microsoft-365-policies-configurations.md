@@ -1,14 +1,14 @@
 ---
 title: Конфигурации доступа для удостоверений и устройств — Microsoft 365 для предприятий
 description: В этой статье описываются рекомендации Майкрософт и основные понятия, связанные с развертыванием политик и конфигураций Secure электронной почты, документов и приложений.
-author: brendacarter
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 09/11/2018
 f1.keywords:
 - NOCSH
-ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: f39b5d72de630674ea6d58c30eadf211917de10d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: e76ed8869f2e3bc3198eeff6dc4fcec777d0ce26
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686630"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898168"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
@@ -64,15 +64,14 @@ ms.locfileid: "46686630"
 
 В этом руководстве показано, как реализовать защиту для удостоверений и устройств для каждого из этих уровней защиты. Используйте это руководство в качестве отправной точки для Организации и настройте политики в соответствии с конкретными требованиями Организации.
 
-Важно, чтобы уровни защиты данных, удостоверений и устройств согласовывались между собой. Например, если вы реализуете это руководство, обязательно Защитите свои данные на сравнимых уровнях. Эти модели архитектуры показывают, какие возможности сравнимы.
+Важно, чтобы уровни защиты данных, удостоверений и устройств согласовывались между собой. Например, если вы реализуете это руководство, обязательно Защитите свои данные на сравнимых уровнях. 
 
-**Защита идентификации и устройств в Office 365**<br/>
+Модель архитектуры **Office 365 Identity and Device Protection** показывает, какие возможности сравнимы.
+
 ![Эскиз для Афиши "Защита удостоверений и устройств для Office 365"](../media/O365_Identity_device_protection_thumb.png)<br/>
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Другие языки](https://www.microsoft.com/download/details.aspx?id=55032)
 
-**Решения для защиты файлов в Office 365**<br/>
-![Эскиз "решения для защиты файлов в Office 365"](../media/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
-[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+Кроме того, ознакомьтесь со статьей [развертывание защиты информации для обеспечения конфиденциальности данных](../solutions/information-protection-deploy.md) для защиты данных, хранящихся в Microsoft 365.
 
 ## <a name="security-and-productivity-trade-offs"></a>Баланс между безопасностью и производительностью
 
