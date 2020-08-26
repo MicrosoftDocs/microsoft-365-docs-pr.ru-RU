@@ -313,6 +313,8 @@
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
                     - name: Сообщить о нежелательной почте и фишинге в Outlook в Интернете
                       href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+                    - name: Сообщение о нежелательной почте и фишинге в Outlook для iOS и Android
+                      href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md
                     - name: Отправка сообщений в корпорацию Майкрософт вручную
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                     - name: 'Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты'
@@ -382,6 +384,8 @@
                   href: ./office-365-security/support-for-validation-of-dkim-signed-messages.md
                 - name: Использование протокола DMARC для проверки электронной почты
                   href: ./office-365-security/use-dmarc-to-validate-email.md
+            - name: Установка Application Guard для Office
+              href: ./office-365-security/install-app-guard.md
             - name: Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Обзор панели мониторинга безопасности
