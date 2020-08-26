@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6709f9edca2e1436bf1ea9be1a48dda596c2d0a4
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 12f61d84557cda1af518bb78de22f4901ebdc08f
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254458"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898097"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Стандарт безопасности данных в сфере платежных карт (PCI-DSS)
 
@@ -98,6 +98,6 @@ PCI DSS применяется ко всем компаниям, независ�
 
 - [Совет по стандартам безопасности PCI](https://www.pcisecuritystandards.org/)
 - [Стандарт защиты данных PCI](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-1.pdf)
-- [Матрица ответственности Azure PCI DSS 3.2.1](https://aka.ms/pciresponsibilitymatrix)
+- [Схема Azure PCI DSS 3.2.1](https://docs.microsoft.com/azure/governance/blueprints/samples/pci-dss-3.2.1/)
 - [Краткий справочник PCI DSS](https://www.pcisecuritystandards.org/documents/PCISSC%20QRG%20August%202014%20-print.pdf)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)

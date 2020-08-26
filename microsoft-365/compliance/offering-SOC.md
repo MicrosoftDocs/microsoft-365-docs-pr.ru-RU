@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ec4bd2e3244add3b14d614c308fea736c6ceccb6
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 2428109743b408061ead8ad87d5e59ac30417c06
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254302"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898087"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -67,7 +67,7 @@ ms.locfileid: "44254302"
 - Microsoft Graph
 - Intune
 - Компьютеры, управляемые Майкрософт
-- Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI
@@ -107,7 +107,7 @@ ms.locfileid: "44254302"
 
 **Как часто выпускаются отчеты SOC для Azure?**
 
-Отчеты SOC для Azure, Microsoft Cloud App Security, Flow, Microsoft Graph, Intune, Power BI, PowerApps, Microsoft Stream и центров обработки данных Майкрософт основаны на 12-месячном сроке работы (период аудита), а новые отчеты выпускаются раз в полгода (периоды заканчиваются 31 марта и 30 сентября). Связывающие письма рассылаются в январе (за период от 1.10 до 31.12) и в июле (за период от 1.04 до 30.06). Клиенты могут [скачать](https://aka.ms/stp) последние отчеты с портала Service Trust Portal.
+Отчеты SOC для Azure, Microsoft Cloud App Security, Flow, Microsoft Graph, Intune, Power BI, PowerApps, Microsoft Stream и центров обработки данных Майкрософт основаны на 12-месячном сроке работы (период аудита), а новые отчеты выпускаются раз в полгода (периоды заканчиваются 31 марта и 30 сентября). Связывающие письма выпускаются каждый квартал, чтобы охватить предыдущий трехмесячный период. Например, январское письмо охватывает период с 01.10 по 31.12, апрельское письмо — период с 01.01 по 31.03, июльское письмо — период с 01.04 по 30.06, а октябрьское письмо — период с 01.07 по 30.09. Клиенты могут [скачать](https://aka.ms/stp) последние отчеты с портала Service Trust Portal.
 
 **Нужно ли самостоятельно проводить аудит центров обработки данных Майкрософт?**
 
