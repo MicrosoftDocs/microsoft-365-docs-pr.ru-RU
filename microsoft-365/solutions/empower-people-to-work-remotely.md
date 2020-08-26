@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Настройте инфраструктуру безопасности и служб, которая позволит вашим подчиненным работать удаленно, где бы они ни находились и в любое время.
-ms.openlocfilehash: dc1f5a540b261437a0bf94132bd41929ce5d3546
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 17cc826f5cf28ff375deaf1e6a4b192700eebf2f
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560923"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898132"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
 
@@ -69,7 +69,7 @@ Microsoft 365 обеспечивает возможности удаленной
 | Microsoft Teams, Exchange Online, SharePoint Online и OneDrive, Приложения Microsoft 365, Microsoft Power Platform, Yammer, Power Apps | Создание, общение и совместная работа. | Microsoft 365 E3 или E5 |
 ||||
 
-Условия обеспечения безопасности и соответствия требованиям для удаленных сотрудников см. в статье [Развертывание средств безопасности и соответствия требованиям для удаленных сотрудников](empower-people-to-work-remotely-security-compliance.md)
+Условия обеспечения безопасности и соответствия требованиям см. в статье [Развертывание средств безопасности и соответствия требованиям для удаленных сотрудников](empower-people-to-work-remotely-security-compliance.md).
 
 <a name="poster"></a> 2-страничное краткое описание этого решения приведено на [плакате "Возможности для удаленных сотрудников"](../downloads/empower-remote-workers.pdf).
 
