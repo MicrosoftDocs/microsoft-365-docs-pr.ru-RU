@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Узнайте, как администраторы могут настраивать & использовать собственный соединитель для импорта данных со страницы LinkedIn компании в Microsoft 365.
-ms.openlocfilehash: c7801dc7ab00f1193b05a50ae10ee67d78e11065
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 00e4d233efa6ee86111e3497063ad1276b5df041
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818448"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255816"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>Настройка соединителя для архивации данных LinkedIn
 
@@ -68,6 +68,6 @@ ms.locfileid: "44818448"
 
 Чтобы просмотреть дополнительные сведения, выберите соединитель в списке на странице " **соединители данных** ", чтобы отобразить всплывающую страницу. В разделе **состояние**отображаемый диапазон дат указывает фильтр возраста, который был выбран при создании соединителя.
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Элементы LinkedIn импортируются в подпапку LinkedIn в папке "Входящие" почтового ящика хранилища в Microsoft 365. Они отображаются как сообщения электронной почты.

@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Узнайте, как настроить & использовать соединитель в центре соответствия требованиям Microsoft 365 для импорта & архивных данных из бизнес-страниц Facebook в Microsoft 365.
-ms.openlocfilehash: 79f3c3914476a20c07a1c3ab4418b918c8f22c3e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 747f98ff084eaa8536c10b2f4edefcc20d11d7f9
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818468"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255856"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Настройка соединителя для архивации данных Facebook (Предварительная версия)
 
@@ -45,7 +45,7 @@ ms.locfileid: "44818468"
 
 - Ваша организация должна разрешить службе импорта Office 365 доступ к данным почтовых ящиков в Организации. Чтобы согласиться с этим запросом, перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), войдите с помощью учетных данных глобального администратора, а затем примите запрос.
 
-- Пользователю, который настраивает настраиваемый соединитель в центре соответствия требованиям Microsoft 365 (на шаге 5), должна быть назначена роль импорта почтовых ящиков в Exchange Online. По умолчанию эта роль не назначена ни одной группе ролей в Exchange Online. Вы можете добавить роль экспорта для импорта почтовых ящиков в группу ролей Управление организацией в Exchange Online. Вы также можете создать группу ролей, назначить роль импорта для импорта почтовых ящиков, а затем добавить соответствующих пользователей в качестве участников. Для получения дополнительных сведений обратитесь к разделу [Создание](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) групп ролей или [изменение групп ролей](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) статьи "Управление группами ролей в Exchange Online".
+- Пользователю, который настраивает настраиваемый соединитель в центре соответствия требованиям Microsoft 365 (на шаге 5), должна быть назначена роль импорта почтовых ящиков в Exchange Online. По умолчанию эта роль не назначена ни одной группе ролей в Exchange Online. Вы можете добавить роль экспорта для импорта почтовых ящиков в группу ролей Управление организацией в Exchange Online. Вы также можете создать группу ролей, назначить роль импорта для импорта почтовых ящиков, а затем добавить соответствующих пользователей в качестве участников. Для получения дополнительных сведений обратитесь к разделу  [Создание](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) групп ролей или [изменение групп ролей](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) статьи "Управление группами ролей в Exchange Online".
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>Шаг 1: создание приложения в Azure Active Directory
 
@@ -117,6 +117,6 @@ ms.locfileid: "44818468"
 
 - Идентификатор приложения AAD (получено на этапе 1)
 
-- URL-адрес службы приложений Azure (получено на этапе 1; например,https://fbconnector.azurewebsites.net)
+- URL-адрес службы приложений Azure (получено на этапе 1; например, https://fbconnector.azurewebsites.net)
 
 - Аписекреткэй (созданный на этапе 2)
