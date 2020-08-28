@@ -9,12 +9,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e6311c0ad11d68c870b0c8185974b8913735e2a2
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 04c3901155ecd80fad472e07e7e46620c3ddee1f
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530179"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289277"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Подготовка подключенных дисков для компьютеров, управляемых Майкрософт
 
@@ -24,7 +24,7 @@ ms.locfileid: "46530179"
 - Перенос подключенных дисков, используемых Teams, для предоставления общего доступа к файлам в SharePoint Online. 
 - Модернизация или замените все приложения, использующие локальные файловые ресурсы, для удаления этого требования.
   
-Модернизации эти службы обеспечивают наилучшее взаимодействие с пользователями, управляемыми корпорацией Майкрософт. Службы Microsoft FastTrack могут помочь вам в модернизации вашей среды с помощью облачных служб Майкрософт. Вы можете проверить, есть ли у вас права для служб FastTrack, в [соответствующих службах и планах](https://docs.microsoft.com/fasttrack/m365-eligible-services-and-plans) , а затем напрямую обратиться к ним, чтобы подготовиться к работе с Microsoft Managed Desktop. Общие сведения о миграции [данных](https://docs.microsoft.com/fasttrack/o365-data-migration)в FastTrack OneDrive для бизнеса или SharePoint Online см.
+Модернизации эти службы обеспечивают наилучшее взаимодействие с компьютером, управляемым Майкрософт. Службы Microsoft FastTrack могут помочь вам в модернизации вашей среды с помощью облачных служб Майкрософт. Вы можете проверить, есть ли у вас права для служб FastTrack, в [соответствующих службах и планах](https://docs.microsoft.com/fasttrack/m365-eligible-services-and-plans) , а затем напрямую обратиться к ним, чтобы подготовиться к работе с Microsoft Managed Desktop. Общие сведения о миграции [данных](https://docs.microsoft.com/fasttrack/o365-data-migration)в FastTrack OneDrive для бизнеса или SharePoint Online см.
 
 ## <a name="mapped-drives-on-microsoft-managed-desktop"></a>Подключенные диски на настольном компьютере, управляемом Майкрософт
  
@@ -36,7 +36,7 @@ ms.locfileid: "46530179"
 - Группы пользователей, которым требуется доступ к этим расположениям общих папок 
 - Любая буква диска, которая должна быть назначена (при необходимости);
 
-Пример:
+Например:
 
 | Буква диска | UNC-путь | Группа пользователей |
 |--------------|----------|------------|

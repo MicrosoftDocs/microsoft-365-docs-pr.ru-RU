@@ -1,5 +1,5 @@
 ---
-title: Настройка параметров защиты устройств для компьютеров с Windows 10
+title: Изменение или создание параметров защиты устройств для компьютеров с Windows 10
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,32 +22,30 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Узнайте о том, как использовать по умолчанию и другие параметры, доступные в Microsoft 365 для бизнеса, для защиты устройств с Windows 10.
-ms.openlocfilehash: af3f58ba13a1011e65be45337c63ff714bfdaf0c
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Сведения о параметрах, доступных в Microsoft 365 для бизнеса, для защиты устройств с Windows 10.
+ms.openlocfilehash: bd992113403c7134fb32bc6cced5bf216843241b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470854"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289162"
 ---
-# <a name="set-device-protection-settings-for-windows-10-pcs"></a>Настройка параметров защиты устройств для компьютеров с Windows 10
+# <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Изменение или создание параметров защиты устройств для компьютеров с Windows 10
 
 Эта статья относится к Microsoft 365 Business Premium.
 
-## <a name="secure-windows-10-devices"></a>Защита устройств с Windows 10
+После настройки параметров защиты Windows по умолчанию на странице Настройка можно добавить новые объекты, которые применяются ко всем пользователям или к набору пользователей. Кроме того, вы можете редактировать созданные вами объекты.
 
-Посмотрите видео о том, как защитить устройства с Windows 10 с помощью Microsoft 365 для бизнеса.
+## <a name="create-protection-settings-for-windows-10-devices"></a>Создание параметров защиты для устройств с Windows 10
+
+Просмотрите видео о том, как защитить устройства с Windows 10 с помощью Microsoft 365 Business Premium:
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
 1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-    
 2. В левой панели навигации выберите пункт **Devices** \> **политики** устройств \> **Добавить**.
-  
 3. На панели **Добавить политику** введите уникальное имя политики. 
-    
 4. В поле **Тип политики** выберите **Конфигурация устройства с Windows 10**.
-    
 5. Expand **Secure Windows 10 Devices** \> configure the settings how you would like. Для получения дополнительных сведений просмотрите раздел [Доступные параметры](#available-settings). 
     
     Вы всегда можете вернуться к значениям по умолчанию с помощью ссылки **Восстановление параметров по умолчанию**. 
@@ -55,9 +53,15 @@ ms.locfileid: "44470854"
     ![Add policy pane with Windows 10 Device configuration selected](../media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
   
 6. Next decide **Who will get these settings?** If you don't want to use the default **All users** security group, Choose **Change**, search for the security group who will get these settings \> **Select**.
-    
 7. Нажмите кнопку **Готово**, чтобы сохранить политику и назначить ее устройствам. 
-    
+
+## <a name="edit-windows-10-protection-settings"></a>Изменение параметров защиты Windows 10
+ 
+1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.     
+2. В левой панели навигации выберите пункт **Devices** \> **политики** устройств.
+1. Выберите существующую политику устройств Windows и нажмите **изменить**.
+1. Нажмите кнопку **изменить** рядом с параметром, который нужно изменить, а затем **Сохраните**.
+
 ## <a name="available-settings"></a>Доступные параметры
 
 Все параметры **включены** по умолчанию. Доступные параметры перечислены ниже.
@@ -66,7 +70,7 @@ ms.locfileid: "44470854"
   
 |||
 |:-----|:-----|
-|Параметр  <br/> |Описание  <br/> |
+|Setting  <br/> |Описание  <br/> |
 |Использование антивирусной программы "Защитник Windows"  <br/> |Требует включения антивирусной программы "Защитник Windows" для защиты компьютеров, подключенных к Интернету.  <br/> |
 |Защитите компьютеры от угроз из Интернета в Microsoft Edge  <br/> |Включает параметры в Microsoft Edge, которые помогают защитить пользователей от вредоносных сайтов и скачиваний.  <br/> |
 |Использовать правила для ограничения направлений атак на устройства  <br/> |Если этот параметр включен, ограничение направлений атак позволяет блокировать действия и приложения, которые вредоносные программы обычно используют для заражения устройств. Этот параметр доступен, только если включена антивирусная программа "Защитник Windows". Дополнительные сведения см. в статье [Уменьшение уязвимой зоны](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection).  <br/> |

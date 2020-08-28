@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: 'В этой статье приведены инструкции по переносу домена из Майкрософт в другой регистратор. '
-ms.openlocfilehash: 7e00f5ae2c36a06803a3f7a8acd825dcab90805c
-ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
+ms.openlocfilehash: c5c1e98ed14c3ac975e55aadbff65e52165a6f8b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788989"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289175"
 ---
 # <a name="transfer-a-domain-from-microsoft-to-another-host"></a>Перенос домена из Майкрософт на другой узел
 
@@ -43,7 +43,7 @@ ms.locfileid: "46788989"
 
 1. В центре администрирования перейдите в раздел  **Settings**   >  **домены**параметров.
 
-2. <на странице **Domains (домены** ) выберите домен Microsoft 365, который требуется передать другому регистратору доменных имен, а затем выберите пункт **проверить работоспособность**.
+2. На странице **Domains (домены** ) выберите домен Microsoft 365, который требуется передать другому регистратору доменных имен, а затем выберите пункт **проверить работоспособность**.
 
 3. В верхней части страницы выберите пункт **передать домен**.
 
