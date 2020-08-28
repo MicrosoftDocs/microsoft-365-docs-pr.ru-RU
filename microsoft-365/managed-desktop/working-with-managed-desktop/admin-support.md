@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a29fa11e43e9be5c8175118ad5b54817c463e929
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: fb786383e448ad3f5c78b22f3cdbf282c2c9f906
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529903"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289725"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Поддержка администраторов в отношении компьютеров, управляемых Майкрософт
 
@@ -65,6 +65,6 @@ ms.locfileid: "46529903"
 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
-- [Поддержка конечных пользователей для настольных компьютеров, управляемых Майкрософт](end-user-support.md). 
+- [Поддержка пользователей для настольных компьютеров, управляемых Майкрософт](end-user-support.md). 
 - [Поддержка настольного компьютера, управляемого корпорацией Майкрософт](../service-description/support.md). 
 - Если вы уже подписались на настольные компьютеры, управляемые корпорацией Майкрософт, вы можете найти подробные процедуры, обрабатывать процессы, рабочие инструкции и вопросы в руководстве по администрированию рабочих столов Майкрософт в разделе **ресурсы в Интернете** на [портале администрирования настольных компьютеров Майкрософт](https://aka.ms/mwaasportal).

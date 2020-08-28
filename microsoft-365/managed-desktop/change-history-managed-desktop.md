@@ -13,12 +13,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 809f94e6355b7c0fe9155734fd548c9cb466cbe7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 72155563a3249aa61075bc9f246b2a553e7b5191
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528040"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289607"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации по компьютерам, управляемым Майкрософт
 
@@ -33,11 +33,11 @@ ms.locfileid: "46528040"
 [Начало работы с элементом управления приложениями](get-started/get-started-app-control.md) | Обновленная статья
 [Работа с элементом управления приложениями](working-with-managed-desktop/work-with-app-control.md) | Обновленная статья
 [Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
-[Элемент управления App](service-description/app-control.md) | Обновленная статья
+[Управление приложениями](service-description/app-control.md) | Обновленная статья
 [Конфигурация сети для компьютеров, управляемых Майкрософт](get-ready/network.md) | Обновленная статья
 [Новое приложение Microsoft Edge](get-started/edge-browser-app.md) | Обновленная статья
 [Доступ к порталу администрирования](get-started/access-admin-portal.md) | Новая статья
-[Элемент управления App](service-description/app-control.md) | Новая статья
+[Управление приложениями](service-description/app-control.md) | Новая статья
 [Установка Microsoft Project или Microsoft Visio на настольных устройствах, управляемых Майкрософт](get-started/project-visio.md) | Обновленная статья
 
 ## <a name="june-2020"></a>Июнь 2020 г.
@@ -51,7 +51,7 @@ ms.locfileid: "46528040"
 ## <a name="may-2020"></a>Май 2020 г.
 Новая или измененная статья | Описание
 --- | ---
-[Получение справки для конечных пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
+[Справка для пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
 [Этапы регистрации устройств для партнеров](get-started/register-devices-partner.md) | Обновленная статья
 [Управляемые устройства для настольных компьютеров Майкрософт](service-description/device-list.md) | Обновленная статья
 [Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
@@ -121,7 +121,7 @@ ms.locfileid: "46528040"
 Новая или измененная статья | Описание
 --- | ---
 [Исключения в плане обслуживания](service-description/customizing.md) | Новая статья
-[Получение справки для конечных пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
+[Справка для пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
 [Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная статья
 [Изменения служб и обмен информацией](service-description/servicechanges.md) | Новая статья
 [Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
@@ -135,7 +135,7 @@ ms.locfileid: "46528040"
 Новая или измененная статья | Описание
 --- | ---
 [Технологии компьютеров, управляемых Майкрософт](intro/technologies.md) | Обновленная статья
-[Получение справки для конечных пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
+[Справка для пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
 [Управляемые устройства для настольных компьютеров Майкрософт](service-description/device-list.md) | Обновленная статья
 [Развертывание и отслеживание настраиваемых параметров — Рабочий стол, управляемый корпорацией Майкрософт](working-with-managed-desktop/config-setting-deploy.md) | Обновленная статья
 [Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная статья
@@ -150,7 +150,7 @@ ms.locfileid: "46528040"
 --- | ---
 [Работа с консультационными службами Майкрософт](get-ready/apps-mcs.md) | Обновленная статья
 [Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная статья
-[Получение справки для конечных пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
+[Справка для пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
 [Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
 [Технологии компьютеров, управляемых Майкрософт](intro/technologies.md) | Обновленная статья
 
@@ -183,7 +183,7 @@ ms.locfileid: "46528040"
 [Подготовка подключенных дисков для компьютеров, управляемых Майкрософт](get-ready/mapped-drives.md) | Новая статья
 [Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт](get-ready/certs-wifi-lan.md) | Новая статья
 [Заказ управляемых устройств для настольных ПК Майкрософт](get-started/devices.md) | Обновленная статья
-[Получение справки для конечных пользователей](working-with-managed-desktop/end-user-support.md) | Новая статья
+[Справка для пользователей](working-with-managed-desktop/end-user-support.md) | Новая статья
 
 ## <a name="april-2019"></a>Апрель 2019 г.
 Новая или измененная статья | Описание
@@ -226,7 +226,7 @@ ms.locfileid: "46528040"
 
 Новая или измененная статья | Описание
 --- | ---
-[Поддержка для настольных компьютеров, управляемых Майкрософт](service-description/support.md)<br />и [Поддержка конечных пользователей для настольных компьютеров, управляемых Майкрософт](working-with-managed-desktop/end-user-support.md) | Добавлена возможность включения Австралии.
+[Поддержка для настольных компьютеров, управляемых Майкрософт](service-description/support.md)<br />и [Поддержка пользователей для настольных компьютеров, управляемых Майкрософт](working-with-managed-desktop/end-user-support.md) | Добавлена возможность включения Австралии.
 
 ## <a name="october-30-2018"></a>30 октября 2018 г.
 Контент, который был реорганизован: добавлен раздел о [описании службы управляемых рабочих столов Майкрософт](service-description/index.md). 

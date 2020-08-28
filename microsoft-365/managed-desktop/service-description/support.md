@@ -1,17 +1,17 @@
 ---
 title: Поддержка для настольных компьютеров, управляемых Майкрософт
 description: ''
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c68d12ccd339c863c2dd96b2a56cfaf19e604f79
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: de113fd61fbb8fabaea64d58525a2f8aca052e90
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632005"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289785"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Поддержка для настольных компьютеров, управляемых Майкрософт
 
@@ -27,7 +27,7 @@ ms.locfileid: "43632005"
 Поддержка управляемых рабочих столов Майкрософт включает в себя:
 
 - Группа инженеров, выделенных для настольных устройств, управляемых корпорацией Майкрософт
-- Варианты поддержки для конечных пользователей с настольными устройствами, управляемыми Майкрософт
+- Варианты поддержки для пользователей с настольными устройствами, управляемыми Майкрософт
 - Предоставляет ограниченный административный доступ к настольным устройствам Майкрософт для инженеров, управляющих устройствами, управляемыми Майкрософт 
 
 Поддерживаемые продукты:
@@ -48,4 +48,4 @@ ms.locfileid: "43632005"
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Узнайте, как ИТ ИТ администраторы могут получить поддержку](../working-with-managed-desktop/admin-support.md)
-- [Узнайте, как конечные пользователи могут получить поддержку](../working-with-managed-desktop/end-user-support.md)
+- [Узнайте, как пользователи могут получить поддержку](../working-with-managed-desktop/end-user-support.md)

@@ -1,6 +1,6 @@
 ---
 title: Новая версия Microsoft Edge
-description: ''
+description: Сведения о развертывании и обновлении нового браузера пограничного сервера
 keywords: браузер, управляемый Майкрософт Настольный компьютер, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 089d9dc79da568a43c1d5701d7bc52d9bed0f4f5
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 60ffdcddcd069330d3cde2f9cc6b2635cf205a90
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903875"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294678"
 ---
 # <a name="new-microsoft-edge-app"></a>Новое приложение Microsoft Edge
 
@@ -35,7 +35,6 @@ ms.locfileid: "46903875"
 
 Чтобы правильно обеспечить правильное обновление Microsoft EDGE, не изменяйте [политики обновления](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)Microsoft Edge.
 
-### <a name="microsoft-edge-beta-channel"></a>Канал бета-версии Microsoft Edge
 
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Параметры, управляемые настольным компьютером, управляемым Майкрософт
@@ -44,7 +43,7 @@ ms.locfileid: "46903875"
 
 ### <a name="microsoft-edge-extensions"></a>Расширения Microsoft Edge
 
-Базовый план безопасности для Microsoft EDGE на настольных устройствах, управляемых корпорацией Майкрософт, устанавливает две политики для отключения всех расширений Chrome и защищенных конечных пользователей. Чтобы включить и развернуть расширения в вашей среде, просмотрите параметры, которыми вы управляете. 
+Базовый план безопасности для Microsoft EDGE на настольных устройствах, управляемых корпорацией Майкрософт, устанавливает две политики для отключения всех расширений Chrome и защиты пользователей. Чтобы включить и развернуть расширения в вашей среде, просмотрите параметры, которыми вы управляете. 
 
 #### <a name="extension-installation-blocklist"></a>Расширение установки блокклист
 **Значение по умолчанию:** Ко
@@ -77,7 +76,7 @@ ms.locfileid: "46903875"
 
 **Значение по умолчанию:** Доступ
 
-Включено по умолчанию для защиты конечных пользователей.
+Включено по умолчанию для защиты пользователей.
 
 #### <a name="windows-defender-smartscreen-prompts-for-sites"></a>Запросы SmartScreen защитника Windows для сайтов
 
@@ -105,7 +104,7 @@ ms.locfileid: "46903875"
 
 **Значение по умолчанию:** Активирован
 
-Не рекомендуется предоставлять конечным пользователям возможность сохранять пароли на их устройствах.
+Не рекомендуется предоставлять пользователям возможность сохранять пароли на их устройствах.
 
 ### <a name="internet-explorer-mode-in-microsoft-edge"></a>Режим Internet Explorer в Microsoft Edge
 Режим IE в Microsoft Edge упрощает использование всех сайтов, необходимых для Организации, в едином браузере. Он использует интегрированный модуль Чромиум для сайтов, совместимых с модулем отображения Чромиум и использующий обработчик Тридент MSHTML из Internet Explorer 11 (IE11) для сайтов, которые не имеют зависимости от функциональных возможностей IE. [Подробнее] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 

@@ -1,7 +1,7 @@
 ---
-title: Новые возможности Office 365 Advanced Threat Protection
-description: Сведения о новых функциях и возможностях, доступных в последнем выпуске Microsoft Office 365 ATP.
-keywords: новые возможности Office 365 ATP, развитая, общедоступные возможности, возможности, новые возможности
+title: Новые возможности Office 365 Advanced Threat protection
+description: Узнайте о новых функциях и функциях, доступных в последнем выпуске Microsoft Office 365 ATP.
+keywords: новые возможности Office 365 ATP, GA, обычно доступные, возможности, доступные, новые
 search.appverid: met150
 ms.service: O365-seccomp
 ms.sitesec: library
@@ -15,93 +15,93 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 08/20/2020
+ms.date: 08/27/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 39ef79f685c216732aa1e3e0ccb28a4ab6e2b07a
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 8eda787a92228fc9705bd329f0df7203b9a1175c
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845860"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294779"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
 **Область применения:**
 
-- [Office 365 Advanced Threat Protection (Office 365 ATP)](office-365-atp.md)
+- [Office 365 Advanced Threat protection (Office 365 ATP)](office-365-atp.md)
 
-В этой статье перечислены новые возможности последнего выпуска Office 365 ATP. Функции, находятся в предварительной версии, обладают **(предварительная версия).**
+В этой статье перечислены новые функции в последнем выпуске Office 365 ATP. Функции, которые в настоящее время находятся в предварительной версии, обозначены **(Предварительная версия)**.
 
 > [!TIP]
-> У вас еще нет Office 365 ATP? [Чтобы начать пробную версию, свяжитесь со свяжитесь с отделом продаж.](https://go.microsoft.com/fwlink/p/?LinkId=518644)
+> У вас еще нет Office 365 ATP? [Свяжитесь с сбытом, чтобы начать пробную версию](https://go.microsoft.com/fwlink/p/?LinkId=518644).
 
-## <a name="septemberoctober-2020"></a>Сентябрь/октябрь 2020 г. 
+## <a name="septemberoctober-2020"></a>Сентябрь/Октябрь 2020 г. 
 
-- [Проверка своих политик с помощью средства анализа конфигураций](configuration-analyzer-for-security-policies.md)
-- [Переопределение запросов фильтров вручную с помощью списка разрешений или блокировок клиента](tenant-allow-block-list.md)
+- [Проверка политик с помощью анализатора конфигурации](configuration-analyzer-for-security-policies.md)
+- [Переопределение вердиктс фильтров вручную с помощью списка разрешенных и запрещенных клиентов](tenant-allow-block-list.md)
+- [Расширенные возможности в обозревателе угроз, включая наиболее популярные целевые пользователи, правила транспорта и соединители](threat-explorer.md#extended-capabilities-in-Threat-Explorer.md)
+- Отображение переопределяет сведения в [обозревателе угроз](threat-explorer.md) (электронная почта разрешена/заблокирована политикой клиента/пользователя)
+- Угрозы URL-адресов отображение в [обозревателе угроз](threat-explorer.md) (вредоносная программа, фишинг, спам или None)
 
-## <a name="julyaugust-2020"></a>Июль/август 2020 г. 
+## <a name="julyaugust-2020"></a>Июль/Август 2020 
 
-- [Улучшения при выслеживании](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
-- [Легко примените рекомендуемые параметры с помощью предварительно заданных политик безопасности](preset-security-policies.md)
+- [Повышение качества работы при поиске](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
+- [Простота применения рекомендуемых параметров с помощью готовых политик безопасности](preset-security-policies.md)
 
-## <a name="marchapril-2020"></a>Март 2020 г.
+## <a name="marchapril-2020"></a>Март/Апрель 2020
 
-- Теперь доступна [возможность адресации скомпрометированных](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) учетных записей пользователей с автоматизированным анализом угроз и реагированием на них.
+- Возможность [обращаться к скомпрометированным учетным записям пользователей с автоматическим исследованием и откликом](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) теперь доступна.
 
-## <a name="januaryfebruary-2020"></a>Январь/февраль 2020 г.
+## <a name="januaryfebruary-2020"></a>Январь/Февраль 2020
 
-- [Общедоступное представление кампании в Office 365 ATP](campaigns.md)
-- Усовершенствования [обозревателя угроз, которые](threat-explorer.md) позволяют группам операций безопасности выполнять поиск и фильтрацию по нескольким полям при исследовании [электронной почты:](investigate-malicious-email-that-was-delivered.md)
+- [Общая доступность представлений кампаний в Office 365 ATP](campaigns.md)
+- Усовершенствование [обозревателя угроз](threat-explorer.md) , позволяющее Teams выполнять поиск и фильтрацию по нескольким полям при [изучении электронной почты](investigate-malicious-email-that-was-delivered.md):
     - Место доставки и специальные действия
-    - Направление (входящий, исходящий или исходящий трафик)
-    - Переопределения (блокировка или разрешение пользователей)
-    - Защита URL-адреса (вредоносная программа, фишинг, спам или ни как не отображается)
-    - Расширенные НЕ включенные фильтры (это не включенные расширенные параметры фильтрации, которые не содержатся, не включаются и т. д.)
-    - Фильтры дня, полчаса, полчаса 
+    - Направленность (входящая, исходящая или внутренняя)
+    - Advanced NOT Filters (дополнительные параметры фильтрации, включающие не содержащие, не включают и т. д.).
+    - Фильтры по детализированному времени (день, час, половина часа) 
 
-- **Мини-приложение** "Инциденты" теперь является **виджетом "Центр** уведомлений". (Чтобы просмотреть мини-приложения безопасности, в Центре безопасности & соответствия требованиям перейдите в управление **угрозами.**  >  **Проверка.)**
+- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложение безопасности, в центре безопасности & соответствия требованиям перейдите к разделу **Управление**  >  угрозами **Проверка**.)
 
-- [Безопасные документы в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(предварительная версия)**
+- [Безопасные документы в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(Предварительная версия)**
 
 ## <a name="december-2019"></a>Декабрь 2019 г.
 
-- [Экспорт URL-адреса для анализа автономного использования](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP , план 1 или план 2)
+- [Экспорт URL-адреса щелкните данные для анализа в автономном режиме](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP (план 1) или план 2)
 
-- [Использование представлений кампаний в Office 365 ATP (предварительная**версия)**](campaigns.md)
+- [Использование представлений кампаний в Office 365 ATP (**Предварительная версия**)](campaigns.md)
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
-- [Ознакомьтесь с новыми возможностями обнаружения поврежденных пользователей и реагирования на них](address-compromised-users-quickly.md) **(предварительная**версия) (Office 365 ATP, план 2)
+- [Узнайте о новых взломанных функциях обнаружения и ответа пользователей](address-compromised-users-quickly.md) (**Предварительная версия**) (Office 365 ATP, план 2)
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
-- [Использовать возможности автоматизированного анализа угроз и реагирования на](automated-investigation-response-office.md) них (План 2 в Office 365 ATP (план 2)
+- Использование [автоматизированного расследования и возможностей реагирования](automated-investigation-response-office.md) (Office 365 ATP, план 2)
 
-- [Интеграция событий автоматизированного анализа угроз и реагирования на них в Office 365 ATP с помощью API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (план 2)
+- [Интеграция с office 365 ATP: автоматическое исследование и события отклика с помощью API действий управления office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP, план 2)
 
-- [Просмотр заголовков сообщений и скачивание текста](investigate-malicious-email-that-was-delivered.md) сообщения (Office 365 ATP (план 1) или план 2)
+- [Просмотр заголовков электронной почты и Загрузка текста сообщения электронной почты](investigate-malicious-email-that-was-delivered.md) (Office 365 ATP, план 1 или план 2)
 
 ## <a name="august-2019"></a>Август 2019 г.
 
-- [Просмотр временной шкалы электронной](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) почты (План 1 или план 2 для Office 365 ATP
+- [Просмотр временной шкалы электронной почты](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) (Office 365 ATP, план 1 или план 2)
 
 ## <a name="july-2019"></a>Июль 2019 г.
 
-- [Проверка действия доставки и расположения сообщений электронной почты](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (Office 365 ATP (план 1 или 2)
+- [Проверьте действие по доставке и расположение сообщений электронной почты](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (Office 365 ATP, план 1 или 2)
 
 ## <a name="june-2019"></a>Июнь 2019 г.
 
-- [Просмотр данных о фишинговых URL-адресах](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) и щелкните слово (Office 365 ATP (план 1) или план 2)
+- [Просмотрите данные о фишинговых URL-адресах и выберите вредоносности](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Office 365 ATP (план 1) или план 2)
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP (план 1) и Office 365 ATP (план 2)
 
-Вы знаете, что служба Office 365 ATP доступна в двух планах? [Узнайте больше о том, что входит в каждый план.](office-365-atp.md#office-365-atp-plan-1-and-plan-2)
+Знаете ли вы, что Office 365 ATP доступен в двух планах? [Узнайте больше о том, что включает каждый план](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
 ## <a name="see-also"></a>См. также
 
-[Схема развития Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
+[План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Описание службы Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
-
 

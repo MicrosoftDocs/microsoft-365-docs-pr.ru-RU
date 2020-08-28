@@ -15,12 +15,12 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 description: Часто задаваемые вопросы о программе Microsoft для домашнего использования (FAQ).
-ms.openlocfilehash: 9d37afb952374b3d01d3ef3212b82cfd1ccde7a7
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: f4848e5f84081152fb42e41887b581d7290dfe2f
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903501"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294690"
 ---
 # <a name="microsoft-home-use-program-frequently-asked-questions-faq"></a>Часто задаваемые вопросы о программе для домашнего использования Майкрософт (FAQ)
 
@@ -34,14 +34,13 @@ ms.locfileid: "46903501"
 
 Программа Microsoft для домашнего использования (HUP) позволяет сотрудникам компаний, которые могут покупать продукты корпорации Майкрософт, по скидкам. Вы можете проверить текущие скидки для каждого предложения продукта, посетив страницу " [Домашняя страница программы](https://www.microsoft.com/home-use-program)".
 
-## <a name="in-which-countries-is-this-benefit-available"></a>В каких странах доступны эти преимущества?
+## <a name="in-which-markets-is-the-home-use-program-offered"></a>На каких рынках предлагается программа для домашнего использования?
 
-После активации вашей выгоды (в Microsoft Store для бизнеса) скидки программы HUP для продуктов Майкрософт доступны для сотрудников в большинстве стран мира, за исключением следующих:
+Скидки по семейным подпискам и персональным подпискам Microsoft 365 предоставляются компаниям во всем мире со следующими исключениями:
 
-- Россия
-- Венесуэла
-
-Скидки HUP также могут быть доступны для приобретения Surface Devices и аксессуаров и для игры Xbox Ultimate. Сведения о доступности можно найти в [статье Microsoft 365 Subscriptions](https://go.microsoft.com/fwlink/p/linkid=2139192).
+- Макао, Россия и Венесуэла: это предоставление недоступно на этих рынках.
+- Китай и Гонконг: на этих рынках доступна подписка на один год. Для Китая посетите [Microsoft 365 в Китае](https://www.microsoftstore.com.cn/home-use-program/invite). Для Гонконг посетите веб – сайт [покупки Microsoft 365 по цене со скидкой](https://www.microsoftestore.com.hk/partner/hup?locale=en_HK).
+- Япония: семейство Microsoft 365 недоступно.
 
 ## <a name="how-does-an-organization-qualify-for-hup-discounts"></a>Как в Организации выдается скидка на использование программы HUP?
 
@@ -64,12 +63,6 @@ ms.locfileid: "46903501"
 Необходимо создать специальную запись в DNS, чтобы доказать, что вы владеете доменом вашей организации, например:contoso. com.
 
 Пошаговое руководство по выполнению управляемого клиента можно узнать [в статье получение неуправляемого каталога от имени администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover).
-
-## <a name="where-can-i-find-marketing-materials-to-help-promote-the-program-within-my-company"></a>Где можно найти маркетинговые материалы, помогающие повысить уровень программы в компании?
-
-Вы можете найти маркетинговые материалы по переносу компаний в разделе _About (сведения_ ) на портале администрирования в ссылку на программу входящей миграции материалов по программе Microsoft Home use.
-
-Вы также можете быстро находить рекламные материалы на странице ИТ-ресурсы и ресурсы для администраторов отдела кадров. Посетите [домашнюю страницу программы использования для домашнего использования](https://www.microsoft.com/home-use-program/resources) и прокрутите страницу вниз до раздела _рекламные материалы программы для дома_ .
 
 ## <a name="what-resources-are-available-to-help-promote-the-home-use-program-benefit-to-employees"></a>Какие ресурсы могут помочь вам повысить эффективность работы программы в домашней сети?
 

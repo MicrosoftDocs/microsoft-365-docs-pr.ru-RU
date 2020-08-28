@@ -9,36 +9,36 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ab04fb0523d44dd04a002ab9fbf095b88b28fb31
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8f0726215c3bad5616882588360703e218bfaab4
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602866"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289451"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>Подготовка пользователей к работе с устройствами
 
-После того как устройство, управляемое Майкрософт, находится в руки конечного пользователя, приступить к работе с ним быстро и легко. Устройства предварительно настроены в соответствии с текущей версией Windows, а конфигурации и приложения устанавливаются из облака по завершении установки. 
+После того как устройство, управляемое Майкрософт, находится в руки пользователя, приступите к работе, вы сможете быстро и легко приступить к работе. Устройства предварительно настроены в соответствии с текущей версией Windows, а конфигурации и приложения устанавливаются из облака по завершении установки. 
  
 Чтобы сделать это еще проще, мы предлагаем руководство, которое просматривает пользователей с помощью начальной установки и предоставляет справочные ресурсы для настройки и для использования в дальнейшем, если это необходимо. Вы можете настроить это руководство, включив в него определенные сведения, характерные для вашей организации. Затем вы распространяете руководство непосредственно пользователям вместе с устройством. Существует две версии, одна для организаций, использующих систему поддержки Майкрософт (Справочное приложение для получения справки), один для них, предоставляющий альтернативную поддержку пользователям.
 
 ## <a name="to-prepare-the-guide"></a>Подготовка руководства
 
 1. Скачайте версию, соответствующую вашей организации:
-- [Microsoft Managed Desktop — Приступая к работе с устройством (получить справочную версию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v3.pdf) , используйте эту версию, если ваши пользователи будут использовать систему поддержки корпорации Майкрософт.
-- [Microsoft Managed Desktop — Приступая к работе с устройством](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) используйте эту версию, если ваши пользователи *не* будут использовать систему поддержки корпорации Майкрософт.
+- [Microsoft Managed Desktop — Приступая к работе с устройством (получить справочную версию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v3.pdf) , используйте эту версию, если пользователи будут использовать систему поддержки корпорации Майкрософт.
+- [Microsoft Managed Desktop — Приступая к работе с устройством](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) используйте эту версию, если пользователи *не* будут использовать систему поддержки корпорации Майкрософт.
 2. Используйте любое приложение, способное открывать PDF-файлы, чтобы заполнить сведения, относящиеся к вашей организации:
     - Имя сети, к которой пользователи должны подключаться для продолжения установки (шаг 3 в руководстве)
     - Имя учетной записи клиента Azure в Организации (шаг 4 в руководстве)
     - Контактные данные для внутренней ИТ-поддержки вашей организации (верхняя часть второй страницы)
-3. Сохраните измененный PDF-файл, а затем распространите его среди конечных пользователей. 
+3. Сохраните измененный PDF-файл, а затем распространите на пользователей. 
 
 ## <a name="ready-to-use-guide"></a>"Готовые к использованию"
 
 Мы также предоставляем более универсальную версию руководства для тех организаций, которым не требуется настраивать ее. Существует две версии, одна для организаций, использующих систему поддержки Майкрософт (Справочное приложение для получения справки), один для них, предоставляющий альтернативную поддержку пользователям. 
 
-- [Microsoft Managed Desktop — Приступая к работе с устройством (получение справки по версии готов к использованию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v3.pdf) — используйте эту версию, если ваши пользователи будут использовать систему поддержки корпорации Майкрософт.
-- [Microsoft Managed Desktop — Приступая к работе с устройством (готово к использованию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) , используйте эту версию, если ваши пользователи *не* будут использовать систему поддержки корпорации Майкрософт.
+- [Microsoft Managed Desktop — Приступая к работе с устройством (получение справки по версии, готовой к использованию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v3.pdf) — используйте эту версию, если пользователи будут использовать систему поддержки корпорации Майкрософт.
+- [Microsoft Managed Desktop — начало работы с устройством (готов к использованию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) — используйте эту версию, если пользователи *не* будут использовать систему поддержки корпорации Майкрософт.
 
 На этом шаге вы готовы перейти к развертыванию приложений:
 

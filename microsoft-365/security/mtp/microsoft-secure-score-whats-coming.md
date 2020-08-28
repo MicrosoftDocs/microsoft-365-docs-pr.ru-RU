@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4707b95c72200042b17c9e8ff9ae876933522d1f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 596d67d4967886a2df985793f38f968b40d2c3a9
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866923"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289667"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Что поступает в оценку безопасности Майкрософт
 
@@ -30,9 +30,8 @@ ms.locfileid: "46866923"
 
 ## <a name="proposed-changes"></a>Предлагаемые изменения
 
-В зависимости от вашей лицензии эти изменения могут передаваться на ваш рейтинг Майкрософт в ближайшее время. Чтобы узнать о последних изменениях, ознакомьтесь со статьей " [новые возможности оценки безопасности Майкрософт".](microsoft-secure-score-whats-new.md)
-
-- Изменение максимального значения с 7 до 8 для действия по улучшению Azure Active Directory, которое называется "Включение политики для блокирования устаревшей проверки подлинности"
+### <a name="september-2020"></a>Сентябрь 2020 г.
+- Изменения не запланированы
 
 ## <a name="related-resources"></a>Связанные ресурсы
 

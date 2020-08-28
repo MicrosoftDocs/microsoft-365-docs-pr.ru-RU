@@ -22,16 +22,18 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Резервное копирование содержимого Outlook, OneDrive, Yammer и SharePoint перед изменением планов Microsoft 365.
-ms.openlocfilehash: 9acc97f65bb5b471cb992d7f01cd299192b74a52
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 1158a98fc35c586ae900ef64579b52b9d64a85e6
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818535"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294721"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Резервное копирование данных перед переключением Microsoft 365 для бизнес-планов
 
 Если пользователь переключается на другую подписку с меньшим количеством служб, связанных с данными, или пользователь оставляет организацию, копия данных, сохраненных в Microsoft 365, может быть загружена перед переключением на новую подписку.
+
+Если вы перемещаете пользователя в подписку, имеющую одну или несколько служб, резервное копирование пользовательских данных не требуется. Просмотрите раздел [Перемещение пользователей в другую подписку](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/move-users-different-subscription).
   
 ## <a name="save-a-copy-of-outlook-information"></a>Сохранение копии данных Outlook
 
@@ -62,7 +64,7 @@ ms.locfileid: "44818535"
 https://<orgDomain>/_layouts/15/start.aspx#/SitePages/Home.aspx
 ```
 
-где _\<orgDomain\>_ — это URL-адрес Организации.
+где  _\<orgDomain\>_ — это URL-адрес Организации.
   
 Например, если домен организации  contoso.onmicrosoft.com, то URL-адрес для прямого доступа к сайту группы имеет вид https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx.
   
