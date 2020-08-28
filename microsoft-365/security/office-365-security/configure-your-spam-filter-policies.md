@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как просматривать, создавать, изменять и удалять политики защиты от спама в Exchange Online Protection (EOP).
-ms.openlocfilehash: d2abc863468fe66de516e954a53253332f0ad0ee
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e27e32778f908e85fd4bf0b205e7b80fef798859
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827329"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255783"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Настройка политик защиты от спама в EOP
 
@@ -70,7 +70,7 @@ ms.locfileid: "46827329"
     - **Средство считывания сведений о безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
     - **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- Рекомендуемые параметры политик защиты от вредоносных программ см. в разделе [Параметры политики защиты от нежелательной почты EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
+- Рекомендуемые параметры политик защиты от спама см. в разделе [Параметры политики защиты от нежелательной почты EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 
 ## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>Создание политик защиты от нежелательной почты с помощью Центра безопасности и соответствия требованиям
 
@@ -511,7 +511,7 @@ Get-HostedContentFilterRule -Identity "Contoso Executives" | Format-List
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>Изменение политик фильтрации нежелательной почты с помощью PowerShell
 
-За исключением следующих элементов при изменении политики фильтрации вредоносных программ в PowerShell доступны такие же параметры, как и при создании политики, описанной в разделе [Шаг 1. Создание политики фильтрации нежелательной почты с помощью PowerShell](#step-1-use-powershell-to-create-a-spam-filter-policy) выше в этой статье.
+За исключением следующих элементов при изменении политики фильтрации нежелательной почты в PowerShell доступны такие же параметры, как и при создании политики, описанной в разделе [Шаг 1. Создание политики фильтрации нежелательной почты с помощью PowerShell](#step-1-use-powershell-to-create-a-spam-filter-policy) выше в этой статье.
 
 - Параметр _MakeDefault_, преобразующий указанную политику в политику по умолчанию (применяется ко всем пользователям, всегда имеет **минимальный** приоритет, и ее нельзя удалить), доступен только при изменении политики фильтрации нежелательной почты в PowerShell.
 

@@ -78,8 +78,51 @@
     - name: Защищенное хранилище
       href: customer-lockbox-requests.md
 - name: Управление защитой информации
-  href: protect-information.md
   items:
+    - name: 'Владение информацией о данных, защита данных, предотвращение потери данных'
+      href: protect-information.md
+    - name: Типы конфиденциальной информации
+      items:
+        - name: Определения типов конфиденциальной информации
+          href: sensitive-information-type-entity-definitions.md
+        - name: 'Сведения, для обнаружения которых используются функции защиты от потери данных'
+          href: what-the-dlp-functions-look-for.md
+        - name: Расширенный обзор настройки защиты от потери данных
+          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
+        - name: Настройка встроенных типов конфиденциальных данных
+          href: customize-a-built-in-sensitive-information-type.md
+        - name: Пользовательские типы конфиденциальной информации
+          href: custom-sensitive-info-types.md
+        - name: Создание пользовательских типов конфиденциальной информации с помощью точного совпадения данных
+          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям
+          href: create-a-custom-sensitive-information-type.md
+        - name: Создание пользовательского типа конфиденциальной информации — PowerShell
+          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
+        - name: Создание словаря ключевых слов
+          href: create-a-keyword-dictionary.md
+        - name: Создание отпечатка документа
+          href: document-fingerprinting.md
+        - name: Функции защиты от потери данных для конфиденциальной информации
+          href: what-the-dlp-functions-look-for.md
+    - name: Обучаемые классификаторы
+      items:
+        - name: Начало работы с обучаемыми классификаторами (предварительная версия)
+          href: classifier-getting-started-with.md
+        - name: Использование встроенного классификатора (предварительная версия)
+          href: classifier-using-a-ready-to-use-classifier.md
+        - name: Создание и обучение классификатора (предварительная версия)
+          href: classifier-creating-a-trainable-classifier.md
+    - name: Классификация данных
+      items:
+        - name: Общие сведения о классификации данных
+          href: data-classification-overview.md
+        - name: Начало работы с обозревателем контента
+          href: data-classification-content-explorer.md
+        - name: Начало работы с обозревателем действий
+          href: data-classification-activity-explorer.md
+        - name: Заметки о выпуске классификации данных
+          href: data-classification-pub-preview-relnotes.md
     - name: Метки конфиденциальности
       items:
         - name: Сведения о метках конфиденциальности
@@ -100,9 +143,77 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Использование меток конфиденциальности в приложениях Office
           href: sensitivity-labels-office-apps.md
-    - name: Защита от потери данных (DLP)
-      href: data-loss-prevention-policies.md
+    - name: Шифрование
       items:
+        - name: Сведения о шифровании
+          href: encryption.md
+        - name: Шифрование с двойным ключом (предварительная версия)
+          href: double-key-encryption.md
+        - name: Office 365 Сервис шифрования
+          href: office-365-service-encryption.md
+        - name: Ключ клиента
+          items:
+            - name: Шифрование службы с помощью ключа клиента в Office 365
+              href: customer-key-overview.md
+            - name: Настройка ключа клиента для Office 365
+              href: customer-key-set-up.md
+            - name: Управление ключом клиента для Office 365
+              href: customer-key-manage.md
+            - name: Смена или ротация ключа клиента или ключа доступности
+              href: customer-key-availability-key-roll.md
+            - name: Сведения о ключе доступности для ключа клиента
+              href: customer-key-availability-key-understand.md
+        - name: Шифрование электронной почты
+          href: email-encryption.md
+          items:
+            - name: Шифрование сообщений Office 365 (OME)
+              href: ome.md
+            - name: "Настройка новых возможностей шифрования сообщений Office\_365"
+              href: set-up-new-message-encryption-capabilities.md
+            - name: Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365
+              href: define-mail-flow-rules-to-encrypt-email.md
+            - name: Добавление фирменной символики организации в зашифрованные сообщения
+              href: add-your-organization-brand-to-encrypted-messages.md
+            - name: Создание политики типов конфиденциальной информации для организации с помощью шифрования сообщений Office 365
+              href: ome-sensitive-info-types.md
+            - name: Управление шифрованием сообщений Office 365
+              href: manage-office-365-message-encryption.md
+            - name: Расширенное шифрование сообщений Office 365
+              href: ome-advanced-message-encryption.md
+            - name: 'Установка срока действия для электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365'
+              href: ome-advanced-expiration.md
+            - name: 'Отзыв электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365'
+              href: revoke-ome-encrypted-mail.md
+            - name: Сравнение версий OME
+              href: ome-version-comparison.md
+            - name: Вопросы и ответы по шифрованию сообщений Office 365
+              href: ome-faq.md
+            - name: Как Exchange Online защищает секреты вашей электронной почты
+              href: exchange-online-secures-email-secrets.md
+            - name: Использование протокола TLS службой Exchange Online для защиты электронной почты в Office 365
+              href: exchange-online-uses-tls-to-secure-email-connections.md
+            - name: BitLocker и распределенный диспетчер ключей (DKM) для шифрования
+              href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
+            - name: Устаревшая служба OME
+              items:
+                - name: Сведения об устаревших продуктах для службы шифрования сообщений Office 365
+                  href: legacy-information-for-message-encryption.md
+                - name: Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
+                  href: set-up-azure-rms-for-previous-version-message-encryption.md
+        - name: Управление правами на доступ к данным SharePoint
+          href: set-up-irm-in-sp-admin-center.md
+        - name: Техническая справка
+          href: technical-reference-details-about-encryption.md
+        - name: Прекращение поддержки протоколов TLS 1.0 и 1.1 в Office 365
+          href: tls-1.0-and-1.1-deprecation-for-office-365.md
+        - name: Прекращение поддержки протоколов TLS 1.0 и 1.1 в Office 365 GCC и DoD
+          href: tls-1-2-in-office-365-gcc.md
+        - name: TLS 1.2 в Office 365
+          href: prepare-tls-1.2-in-office-365.md
+    - name: Защита от потери данных (DLP)
+      items:
+        - name: О защите от потери данных
+          href: data-loss-prevention-policies.md
         - name: DLP и Microsoft Teams
           href: dlp-microsoft-teams.md
         - name: Сведения о защите от потери данных в конечной точке (предварительная версия)
@@ -131,116 +242,42 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
           href: how-dlp-works-between-admin-centers.md
-    - name: Типы конфиденциальной информации
-      items:
-        - name: Определения типов конфиденциальной информации
-          href: sensitive-information-type-entity-definitions.md
-        - name: 'Сведения, для обнаружения которых используются функции защиты от потери данных'
-          href: what-the-dlp-functions-look-for.md
-        - name: Расширенный обзор настройки защиты от потери данных
-          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
-        - name: Настройка встроенных типов конфиденциальных данных
-          href: customize-a-built-in-sensitive-information-type.md
-        - name: Пользовательские типы конфиденциальной информации
-          href: custom-sensitive-info-types.md
-        - name: Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
-          href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям
-          href: create-a-custom-sensitive-information-type.md
-        - name: Создание пользовательского типа конфиденциальной информации с помощью PowerShell
-          href: create-a-custom-sensitive-information-type-in-scc-powershell.md
-        - name: Создание словаря ключевых слов
-          href: create-a-keyword-dictionary.md
-        - name: Создание отпечатка документа
-          href: document-fingerprinting.md
-        - name: Функции защиты от потери данных для конфиденциальной информации
-          href: what-the-dlp-functions-look-for.md
-    - name: Шифрование в Microsoft 365
-      href: encryption.md
-    - name: Office 365 Сервис шифрования
-      href: office-365-service-encryption.md
-    - name: Технические сведения о шифровании в Office 365
-      href: technical-reference-details-about-encryption.md
-    - name: Прекращение поддержки протоколов TLS 1.0 и 1.1 в Office 365
-      href: tls-1.0-and-1.1-deprecation-for-office-365.md
-    - name: Прекращение поддержки протоколов TLS 1.0 и 1.1 в Office 365 GCC и DoD
-      href: tls-1-2-in-office-365-gcc.md
-    - name: TLS 1.2 в Office 365
-      href: prepare-tls-1.2-in-office-365.md
-    - name: "Шифрование с двойным ключом для общедоступной ознакомительной версии Microsoft\_365"
-      href: double-key-encryption.md
-    - name: Ключ клиента
-      items:
-        - name: Шифрование службы с помощью ключа клиента в Office 365
-          href: customer-key-overview.md
-        - name: Настройка ключа клиента для Office 365
-          href: customer-key-set-up.md
-        - name: Управление ключом клиента для Office 365
-          href: customer-key-manage.md
-        - name: Смена или ротация ключа клиента или ключа доступности
-          href: customer-key-availability-key-roll.md
-        - name: Сведения о ключе доступности для ключа клиента
-          href: customer-key-availability-key-understand.md
-    - name: Шифрование данных при передаче
-      href: office-365-encryption-for-data-in-transit.md
-    - name: Шифрование электронной почты
-      href: email-encryption.md
-      items:
-        - name: Шифрование сообщений Office 365 (OME)
-          href: ome.md
-        - name: "Настройка новых возможностей шифрования сообщений Office\_365"
-          href: set-up-new-message-encryption-capabilities.md
-        - name: Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365
-          href: define-mail-flow-rules-to-encrypt-email.md
-        - name: Добавление фирменной символики организации в зашифрованные сообщения
-          href: add-your-organization-brand-to-encrypted-messages.md
-        - name: Создание политики типов конфиденциальной информации для организации с помощью шифрования сообщений Office 365
-          href: ome-sensitive-info-types.md
-        - name: Управление шифрованием сообщений Office 365
-          href: manage-office-365-message-encryption.md
-        - name: Расширенное шифрование сообщений Office 365
-          href: ome-advanced-message-encryption.md
-        - name: 'Установка срока действия для электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365'
-          href: ome-advanced-expiration.md
-        - name: 'Отзыв электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365'
-          href: revoke-ome-encrypted-mail.md
-        - name: Сравнение версий OME
-          href: ome-version-comparison.md
-        - name: Вопросы и ответы по шифрованию сообщений Office 365
-          href: ome-faq.md
-        - name: Как Exchange Online защищает секреты вашей электронной почты
-          href: exchange-online-secures-email-secrets.md
-        - name: Использование протокола TLS службой Exchange Online для защиты электронной почты в Office 365
-          href: exchange-online-uses-tls-to-secure-email-connections.md
-        - name: BitLocker и распределенный диспетчер ключей (DKM) для шифрования
-          href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
-        - name: Устаревшая служба OME
-          items:
-            - name: Сведения об устаревших продуктах для службы шифрования сообщений Office 365
-              href: legacy-information-for-message-encryption.md
-            - name: Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
-              href: set-up-azure-rms-for-previous-version-message-encryption.md
-    - name: Настройка IRM в Центре администрирования SharePoint
-      href: set-up-irm-in-sp-admin-center.md
-    - name: Общие сведения о классификации данных
-      href: data-classification-overview.md
-      items:
-        - name: Начало работы с обозревателем контента
-          href: data-classification-content-explorer.md
-        - name: Начало работы с обозревателем действий
-          href: data-classification-activity-explorer.md
-        - name: Заметки о выпуске классификации данных
-          href: data-classification-pub-preview-relnotes.md
-        - name: Начало работы с обучаемыми классификаторами (предварительная версия)
-          href: classifier-getting-started-with.md
-        - name: Использование встроенного классификатора (предварительная версия)
-          href: classifier-using-a-ready-to-use-classifier.md
-        - name: Создание и обучение классификатора (предварительная версия)
-          href: classifier-creating-a-trainable-classifier.md
 - name: Организация управления информацией
   items:
-    - name: Организация управления информацией
+    - name: Управление данными
       href: manage-information-governance.md
+    - name: Хранение и удаление данных
+      items:
+        - name: Сведения о хранении
+          items:
+            - name: Политики и метки хранения
+              href: retention.md
+            - name: Хранение в SharePoint и OneDrive
+              href: retention-policies-sharepoint.md
+            - name: Хранение в Microsoft Teams
+              href: retention-policies-teams.md
+            - name: Хранение в Exchange
+              href: retention-policies-exchange.md
+        - name: Начало работы с хранением
+          href: get-started-with-retention.md
+        - name: Создание политик хранения
+          href: create-retention-policies.md
+        - name: Использование плана хранения
+          href: file-plan-manager.md
+        - name: Создание меток хранения и их применение в приложениях
+          href: create-apply-retention-labels.md
+        - name: Автоматическое применение метки хранения к контенту
+          href: apply-retention-labels-automatically.md
+        - name: Соблюдение правила SEC 17a-4
+          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: Создание меток хранения с помощью PowerShell
+          href: bulk-create-publish-labels-using-powershell.md
+        - name: 'Общие сведения о хранении, зависящем от возникновения события'
+          href: event-driven-retention.md
+        - name: Управление жизненным циклом документов с помощью меток хранения
+          href: auto-apply-retention-labels-scenario.md
+        - name: Управление ликвидацией данных
+          href: disposition.md
     - name: Импорт данных почтового ящика
       items:
         - name: Общие сведения об импорте PST-файлов
@@ -287,38 +324,6 @@
           href: enable-unlimited-archiving.md
         - name: Настройка политики архивации и удаления для почтовых ящиков
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
-    - name: Хранение и удаление данных
-      items:
-        - name: Сведения о хранении
-          items:
-            - name: Политики и метки хранения
-              href: retention.md
-            - name: Хранение в SharePoint и OneDrive
-              href: retention-policies-sharepoint.md
-            - name: Хранение в Microsoft Teams
-              href: retention-policies-teams.md
-            - name: Хранение в Exchange
-              href: retention-policies-exchange.md
-        - name: Начало работы с хранением
-          href: get-started-with-retention.md
-        - name: Создание политик хранения
-          href: create-retention-policies.md
-        - name: Использование плана хранения
-          href: file-plan-manager.md
-        - name: Создание меток хранения и их применение в приложениях
-          href: create-apply-retention-labels.md
-        - name: Автоматическое применение метки хранения к контенту
-          href: apply-retention-labels-automatically.md
-        - name: Соблюдение правила SEC 17a-4
-          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: Создание меток хранения с помощью PowerShell
-          href: bulk-create-publish-labels-using-powershell.md
-        - name: 'Общие сведения о хранении, зависящем от возникновения события'
-          href: event-driven-retention.md
-        - name: Управление жизненным циклом документов с помощью меток хранения
-          href: auto-apply-retention-labels-scenario.md
-        - name: Управление ликвидацией данных
-          href: disposition.md
     - name: Управление неактивными почтовыми ящиками
       items:
         - name: Общие сведения о неактивных почтовых ящиках
@@ -333,10 +338,8 @@
           href: restore-an-inactive-mailbox.md
         - name: Удаление неактивного почтового ящика
           href: delete-an-inactive-mailbox.md
-    - name: Дополнительные сведения об управлении данными
-      items:
-        - name: Просмотр видеороликов от группы управления данными Майкрософт
-          href: 'https://go.microsoft.com/fwlink/?linkid=867039'
+    - name: Видеоролики от группы управления данными
+      href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Управление записями
       items:
         - name: Сведения об управлении записями
