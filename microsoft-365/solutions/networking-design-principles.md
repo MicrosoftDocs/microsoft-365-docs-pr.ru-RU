@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 778693787c3d26806b02a2ffbde57e3347326d87
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: a005d56dcca08c05eb433ef75ca3870785b39f19
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522269"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308133"
 ---
 # <a name="networking-up-to-the-cloud--one-architects-viewpoint"></a>Работа в сети (в облаке) — точка зрения одного архитектора
 
@@ -84,9 +84,9 @@ ms.locfileid: "46522269"
 ### <a name="split-tunneling-may-seem-scary"></a>Раздельное туннелирование может показаться страшной
 Но это не так. Все подключения к Office 365 передаются по протоколу TLS. Мы предоставим TLS 1,2 в течение недостаточного времени, и мы будем сразу же отключить старые версии, так как устаревшие клиенты по-прежнему используют их, и это риск.
 
-При принудительном подключении по протоколу TLS (или 32) для последующего перехода к службе не добавляется безопасность. Он добавляет задержку и уменьшает общую пропускную способность. В некоторых VPN-решениях она даже заставляет протокол UDP перетуннельить по протоколу TCP, что опять будет негативно влиять на потоковый трафик. Если вы не выполняете проверку протокола TLS, то нет ни одной перевернутой стороны. Очень распространенная тема между клиентами, теперь, когда большая часть их сотрудников является удаленным, заключается в том, что они могут понаблюдать за пропускной способностью и производительностью, чтобы все пользователи могли подключаться с помощью VPN, а не настраивать раздельное туннелирование для доступа к [оптимизации конечных точек Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#new-office-365-endpoint-categories).
+При принудительном подключении по протоколу TLS (или 32) для последующего перехода к службе не добавляется безопасность. Он добавляет задержку и уменьшает общую пропускную способность. В некоторых VPN-решениях она даже заставляет протокол UDP перетуннельить по протоколу TCP, что опять будет негативно влиять на потоковый трафик. Если вы не выполняете проверку протокола TLS, то нет ни одной перевернутой стороны. Очень распространенная тема между клиентами, теперь, когда большая часть их сотрудников является удаленным, заключается в том, что они могут понаблюдать за пропускной способностью и производительностью, чтобы все пользователи могли подключаться с помощью VPN, а не настраивать раздельное туннелирование для доступа к [оптимизации конечных точек Office 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories).
 
-Это достаточно для упрощения создания разделенного туннелирования. Для получения дополнительных сведений ознакомьтесь со статьей [Оптимизация подключения Office 365 для удаленных пользователей с помощью VPN-туннеля с разделением](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel).
+Это достаточно для упрощения создания разделенного туннелирования. Для получения дополнительных сведений ознакомьтесь со статьей [Оптимизация подключения Office 365 для удаленных пользователей с помощью VPN-туннеля с разделением](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel).
 
 
 ## <a name="the-sins-of-the-past"></a>Грехов прошлого
@@ -108,32 +108,32 @@ ms.locfileid: "46522269"
 
 ## <a name="further-reading"></a>Дополнительные материалы
 
-[Принципы сетевого подключения к Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles)
+[Принципы сетевого подключения к Office 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 
-[URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
-[Управление конечными точками Office 365](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)
+[Управление конечными точками Office 365](https://docs.microsoft.com/microsoft-365/enterprise/managing-office-365-endpoints)
 
-[Веб-служба IP-адресов и URL-адресов в Office 365](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service)
+[Веб-служба IP-адресов и URL-адресов в Office 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-ip-web-service)
 
-[Доступ к сетевому подключению Office 365](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity)
+[Доступ к сетевому подключению Office 365](https://docs.microsoft.com/microsoft-365/enterprise/assessing-network-connectivity)
 
-[Сеть Office 365 и настройка производительности](https://docs.microsoft.com/office365/enterprise/network-planning-and-performance)
+[Сеть Office 365 и настройка производительности](https://docs.microsoft.com/microsoft-365/enterprise/network-planning-and-performance)
 
-[Оценка сетевого подключения к Office 365](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity)
+[Оценка сетевого подключения к Office 365](https://docs.microsoft.com/microsoft-365/enterprise/assessing-network-connectivity)
 
-[Настройка производительности Office 365 с помощью базовых показателей и журнала производительности](https://docs.microsoft.com/office365/enterprise/performance-tuning-using-baselines-and-history)
+[Настройка производительности Office 365 с помощью базовых показателей и журнала производительности](https://docs.microsoft.com/microsoft-365/enterprise/performance-tuning-using-baselines-and-history)
 
-[План устранения проблем с производительностью Office 365](https://docs.microsoft.com/office365/enterprise/performance-troubleshooting-plan)
+[План устранения проблем с производительностью Office 365](https://docs.microsoft.com/microsoft-365/enterprise/performance-troubleshooting-plan)
 
-[Сети доставки содержимого](https://docs.microsoft.com/office365/enterprise/content-delivery-networks)
+[Сети доставки содержимого](https://docs.microsoft.com/microsoft-365/enterprise/content-delivery-networks)
 
-[Проверка возможности подключения Microsoft 365](https://connectivity.office.com/)
+[Проверка подключения Microsoft 365](https://connectivity.office.com/)
 
-[Как корпорация Майкрософт создает свою быструю и надежную глобальную сеть](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
+[Как Майкрософт строит свою быструю и надежную глобальную сеть](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
 
-[Блог сети Office 365](https://techcommunity.microsoft.com/t5/office-365-networking/bd-p/Office365Networking)
+[Блог, посвященный сетям для Office 365](https://techcommunity.microsoft.com/t5/office-365-networking/bd-p/Office365Networking)
 
-[Подключение к Office 365 для удаленных пользователей с использованием Расщепленного туннелирования VPN](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)
+[Подключение к Office 365 для удаленных пользователей с использованием Расщепленного туннелирования VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel)
 
 

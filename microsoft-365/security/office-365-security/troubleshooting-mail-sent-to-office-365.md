@@ -1,5 +1,5 @@
 ---
-title: Устранение неполадок почты, отправленных в Microsoft 365
+title: Письмо с устранением неполадок, отправленное в Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,14 +18,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье содержатся сведения об устранении неполадок, связанных с отправкой электронной почты в папки "Входящие" в Microsoft 365 & рекомендации по массовой рассылке клиентам Microsoft 365.
-ms.openlocfilehash: 0d9c1646aa7491b3da458c7cb0ddeb908873153a
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 4243f46746cb21425fc2dc7493c69818f095e71f
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208601"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307583"
 ---
-# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Устранение неполадок почты, отправленных в Microsoft 365
+# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Письмо с устранением неполадок, отправленное в Microsoft 365
 
 В этой статье приведены сведения об устранении неполадок при отправке сообщений электронной почты в папки "Входящие" в Microsoft 365 и рекомендации по массовой рассылке клиентам.
 
@@ -79,7 +79,7 @@ ms.locfileid: "44208601"
 
 ## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Не удается получать электронную почту от отправителей в Microsoft 365
 
- Чтобы получать сообщения от наших пользователей, убедитесь, что в вашей сети разрешены подключения с IP-адресов, которые EOP использует в наших центрах обработки данных. Для получения дополнительных сведений обратитесь к разделу [IP-адреса Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+ Чтобы получать сообщения от наших пользователей, убедитесь, что в вашей сети разрешены подключения с IP-адресов, которые EOP использует в наших центрах обработки данных. Для получения дополнительных сведений обратитесь к разделу [IP-адреса Exchange Online Protection](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Рекомендации по массовой рассылке почты пользователям Microsoft 365
 

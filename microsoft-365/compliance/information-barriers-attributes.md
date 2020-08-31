@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Эта справочная статья по атрибутам учетной записи пользователя Azure Active Directory, используемой для определения сегментов барьера информации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75a568b4d54432de0b72c379e83077c222acb687
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6b6fb9cbbe5840888114ba99a604d16117ec795d
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035055"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307998"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Атрибуты для политик информационных барьеров
 
@@ -38,7 +38,7 @@ ms.locfileid: "44035055"
 
 2. Убедитесь, что учетные записи пользователей имеют значения, заполненные для атрибутов, выбранных на шаге 1. Просмотр сведений об учетной записи пользователя и, при необходимости, изменение учетных записей пользователей для включения значений атрибутов. 
 
-    - Чтобы изменить несколько учетных записей (или с помощью PowerShell для редактирования одной учетной записи), ознакомьтесь со статьей [Настройка свойств учетной записи пользователя с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).
+    - Чтобы изменить несколько учетных записей (или с помощью PowerShell для редактирования одной учетной записи), ознакомьтесь со статьей [Настройка свойств учетной записи пользователя с помощью Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell).
 
     - Чтобы изменить одну учетную запись, ознакомьтесь со статьей [Добавление или обновление данных профиля пользователя с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
@@ -53,7 +53,7 @@ ms.locfileid: "44035055"
     > [!TIP]
     > При определении сегментов используйте один и тот же атрибут для всех сегментов. Например, если вы определили некоторые сегменты с помощью *отдела*, определите все сегменты с помощью *отдела*. Не определяйте некоторые сегменты, используя *Отдел* и другие, используя *MemberOf*. Убедитесь, что сегменты не перекрываются; Каждый пользователь должен быть назначен только одному сегменту. 
 
-## <a name="reference"></a>Ссылки
+## <a name="reference"></a>Справочные материалы
 
 В следующей таблице перечислены атрибуты, которые можно использовать с барьерами информации.
 
@@ -61,7 +61,7 @@ ms.locfileid: "44035055"
 |---------|---------|
 |Управляющ       | Управляющ        |
 |Company     |Company         |
-|Отдел     |Отдел         |
+|Department     |Department         |
 |От extensionattribute1 |CustomAttribute1  |
 |ExtensionAttribute2 |CustomAttribute2  |
 |ExtensionAttribute3 |CustomAttribute3  |
@@ -82,7 +82,7 @@ ms.locfileid: "44035055"
 |MSExchExtensionCustomAttribute3 |ExtensionCustomAttribute3 |
 |MSExchExtensionCustomAttribute4 |ExtensionCustomAttribute4 |
 |MSExchExtensionCustomAttribute5 |ExtensionCustomAttribute5 |
-|MailNickname |Псевдоним |
+|MailNickname |Alias |
 |фисикалделиверйоффиценаме |Office |
 |PostalCode |PostalCode |
 |ProxyAddresses |EmailAddresses |
@@ -92,7 +92,7 @@ ms.locfileid: "44035055"
 |UserPrincipalName    |UserPrincipalName    |
 |Почта    |WindowsEmailAddress    |
 |Описание    |Описание    |
-|Групп    |мемберофграуп    |
+|Групп    |MemberOfGroup    |
 
 ## <a name="related-topics"></a>Статьи по теме
 

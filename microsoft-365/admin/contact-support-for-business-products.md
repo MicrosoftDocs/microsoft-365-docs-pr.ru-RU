@@ -21,12 +21,12 @@ search.appverid:
 description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов с помощью указанных телефонных номеров для вашей страны или региона, или отправьте запросы на обслуживание через Интернет.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 1db89882db693c2102ca5c8dcb28f7ceb3ebf12e
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: f508607bb19a15fa089cf13eecfd7047f2e6f7bf
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641589"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307365"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Способы обращения в службу поддержки продуктов для бизнеса. Справка для администраторов
 
@@ -35,7 +35,7 @@ ms.locfileid: "46641589"
 > [!IMPORTANT]
 > Для использования этих методов поддержки необходимо иметь права администратора бизнес-подписки. Если вы не являетесь бизнес-администратором, используйте [эту страницу поддержки](https://support.microsoft.com/help/contactus).
 
-Начните с[проверки текущего состояния своих служб](https://docs.microsoft.com/office365/enterprise/view-service-health). Вы можете просмотреть подробную информацию о текущих и уже решенных проблемах на<a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">панели мониторинга работоспособности службы</a>. Если у вас возникла проблема, которая не отображается в списке, вы можете получить поддержку одним из следующих способов:
+Начните с[проверки текущего состояния своих служб](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health). Вы можете просмотреть подробную информацию о текущих и уже решенных проблемах на<a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">панели мониторинга работоспособности службы</a>. Если у вас возникла проблема, которая не отображается в списке, вы можете получить поддержку одним из следующих способов:
 
 ## <a name="online-support"></a>Поддержка через Интернет
 

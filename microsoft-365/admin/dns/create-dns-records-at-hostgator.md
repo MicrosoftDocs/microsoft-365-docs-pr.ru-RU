@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5f0c840e-4140-4571-88ed-cf235ff142d6
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Hostgator для Майкрософт.
-ms.openlocfilehash: 8adfc4b6154dad0da7dd2fe037c73fcfc4f84d58
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 103da87956beae868cda84b727a3401dfd9991d9
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400441"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306975"
 ---
 # <a name="create-dns-records-at-hostgator-for-microsoft"></a>Создание записей DNS на сайте Hostgator для Майкрософт
 
@@ -76,7 +76,7 @@ ms.locfileid: "44400441"
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
   
-1. To get started, go to your cPanel page at Hostgator. You'll be prompted to log in first.
+1. Чтобы приступить к работе, перейдите на свою страницу cPanel на сайте Hostgator. Сначала вам потребуется выполнить вход.
     
     (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. Сообщение о регистрации, полученное из Hostgator, будет указывать этот адрес, а ссылка cPanel также доступна на странице **Размещение** .)
     
@@ -91,8 +91,8 @@ ms.locfileid: "44400441"
     
     |||||
     |:-----|:-----|:-----|:-----|
-    |**Name (Имя)** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Data (Данные TXT)** <br/> |
-    |Используйте *domain_name*. (for example, fourthcoffee.com.)  <br/> **This value MUST end with a period (.)** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |**Имя** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Data (Данные TXT)** <br/> |
+    |Используйте  *domain_name*. (for example, fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. Выберите команду **Add Record** (Добавить запись).
     
@@ -131,13 +131,13 @@ ms.locfileid: "44400441"
  
 3. В области **Email Routing** (Маршрутизация электронной почты) выберите параметр **Remote Mail Exchanger** (Удаленный почтовый обменник).
 
-4. Нажмите кнопку **изменить**.
+4. Выберите **Изменить**.
   
 5. В поля для новой записи в области **Добавление новой записи** введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
     |**Priority (Приоритет)**|**Destination (Назначение)**|
     |:-----|:-----|
-    |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение \< *domain-key*  \> учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание.**  Получите свой \< *domain-key*  \> из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
   
 6. Нажмите кнопку **Добавить новую запись**.
    
@@ -166,7 +166,7 @@ ms.locfileid: "44400441"
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    |**Name (Имя)**|**TTL (Срок жизни)**|**Type (Тип)**|**CNAME**|
+    |**Имя**|**TTL (Срок жизни)**|**Type (Тип)**|**CNAME**|
     |:-----|:-----|:-----|:-----|
     |autodiscover. *domain_name*. (Например: autodiscover.fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |CNAME  <br/> |autodiscover.outlook.com  <br/> |
     |sip. *domain_name*. (Например: sip.fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |CNAME  <br/> |sipdir.online.lync.com  <br/> |
@@ -187,7 +187,7 @@ ms.locfileid: "44400441"
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения для продуктов корпорации Майкрософт в текущую запись. Таким образом, в одной записи SPF будут указаны оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения для продуктов корпорации Майкрософт в текущую запись. Таким образом, в одной записи SPF будут указаны оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
   
 > [!IMPORTANT]
 > Перед этой процедурой необходимо выполнить процедуру [Настройка домена таким образом, чтобы он указывал на учетную запись размещения](#point-your-domain-to-your-hosting-account), описанную в первом разделе. 
@@ -205,9 +205,9 @@ ms.locfileid: "44400441"
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    |**Name (Имя)**|**TTL (Срок жизни)**|**Type (Тип)**|**TXT Data (Данные TXT)**|
+    |**Имя**|**TTL (Срок жизни)**|**Type (Тип)**|**TXT Data (Данные TXT)**|
     |:-----|:-----|:-----|:-----|
-    |Используйте *domain_name*. (for example, fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
+    |Используйте  *domain_name*. (for example, fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
   
 4. Выберите команду **Add Record** (Добавить запись).
     
@@ -233,7 +233,7 @@ ms.locfileid: "44400441"
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    |**Name (Имя)**|**TTL (Срок жизни)**|**Type (Тип)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
+    |**Имя**|**TTL (Срок жизни)**|**Type (Тип)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip. _tls. *domain_name*. (например, _sip. _tls. fourthcoffee. com).  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
     |_sipfederationtls. _tcp. *domain_name*. (например, _sipfederationtls. _tcp. fourthcoffee. com).  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |

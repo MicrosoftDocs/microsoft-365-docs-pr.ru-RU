@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Обзор оценки продуктивности корпорации Майкрософт.
-ms.openlocfilehash: 66ab028282fb8c74087713083e43e22cf6708897
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 47675f37e9146586b3fe0dd8d974887fd2435bf3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868859"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307481"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Оценка производительности Майкрософт (ознакомительная версия)
 
@@ -44,7 +44,7 @@ ms.locfileid: "46868859"
 
 - **Технологический интерфейс:** Производительность зависит от надежных и производительных технологий, а также от эффективного использования Microsoft 365. Мы предоставляем возможность [аналитики конечных точек](https://aka.ms/endpointanalytics), которая поможет вам оценить влияние производительности пользователей на проблемы с производительностью и работоспособностью конечных устройств и программного обеспечения, предоставляя Рекомендуемые действия для их исправления; Мы предоставляем Microsoft 365 для вашей организации.
 
-Узнайте, [что такое аналитика конечной точки](https://docs.microsoft.com/mem/analytics/overview) для обзора и предварительных сведений. Чтобы узнать больше о службе сетевого подключения Microsoft 365, прочтите [Обзор сетевого подключения](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview).
+Узнайте, [что такое аналитика конечной точки](https://docs.microsoft.com/mem/analytics/overview) для обзора и предварительных сведений. Чтобы узнать больше о службе сетевого подключения Microsoft 365, прочтите [Обзор сетевого подключения](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview).
   
 
 ## <a name="how-the-score-is-calculated"></a>Способ вычисления оценки

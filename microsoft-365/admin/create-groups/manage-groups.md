@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Сведения об управлении группами Microsoft 365, в том числе добавление участников группы, изменение адреса электронной почты, имени группы или описания и настройка работы группы.
-ms.openlocfilehash: ba88e35713e889ca85a264b1da1d34d9e1e30671
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 26c6c064e454351366c326e665bacdcc9bb855fb
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780653"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307305"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Управление группой в центре администрирования Microsoft 365
 
@@ -190,7 +190,7 @@ ms.locfileid: "44780653"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Создание группы Microsoft 365](create-groups.md)
 
@@ -202,4 +202,4 @@ ms.locfileid: "44780653"
 
 [Обновление списков рассылки до групп Майкрософт 365](../manage/upgrade-distribution-lists.md)
 
-[Управление группами Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)
+[Управление группами Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/powershell/manage-office-365-groups-with-powershell)

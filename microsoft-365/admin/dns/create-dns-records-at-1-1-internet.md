@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб на 1&1 ИОНОС для Майкрософт.
-ms.openlocfilehash: 983fba73a6f82308d6d1bcf706ff93d72b98976c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 10c135d8fdc1512f0b2c1b341f3524097d5f6494
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400597"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307155"
 ---
 # <a name="create-dns-records-at-11-ionos-for-microsoft"></a>Создание записей DNS на 1&1 ИОНОС для Майкрософт
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 > [!CAUTION]
 > Обратите внимание, что 1&1 ИОНОС не позволяет домену иметь запись MX и запись CNAME верхнего уровня. Это позволяет ограничить способы настройки Exchange Online для Майкрософт. Существует обходной путь, но мы рекомендуем использовать его, **только** если у вас уже есть опыт создания поддоменов на 1&1 ионос 1. > если несмотря на это [ограничение службы](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) вы решили управлять собственными записями Microsoft DNS по адресу 1&1 ионос, выполните действия, описанные в этой статье, чтобы проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и т. д. 
@@ -62,7 +62,7 @@ ms.locfileid: "44400597"
     
 6. In the **Add Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     ||||
     |:-----|:-----|:-----|
@@ -109,7 +109,7 @@ ms.locfileid: "44400597"
     
 4. В области **Параметры домена** выберите **изменить параметры DNS**.
     
-5. В разделе **MX Records** **(запись MX) в области почтовый обменник (запись MX)** выберите **другой почтовый сервер**.<br/>(You may have to scroll down.)<br/>![1 &amp; 1 — BP — configure – 2-1](../../media/b0db72ae-9431-460f-ba7a-3268590b892e.png) <br/>
+5. В разделе **MX Records** **(запись MX) в области почтовый обменник (запись MX)** выберите **другой почтовый сервер**.<br/>(Возможно, потребуется прокрутить страницу вниз.)<br/>![1 &amp; 1 — BP — configure – 2-1](../../media/b0db72ae-9431-460f-ba7a-3268590b892e.png) <br/>
   
 6. Если уже указаны другие записи MX, удалите их, выбрав каждую из них и нажав клавишу **DELETE**.<br/>(Если записи MX не указаны, перейдите к следующему действию.)<br/>![1 &amp; 1 — BP — configure – 2-2](../../media/4a39bac7-7310-481d-bda4-1dd5c220c60f.png)<br/>
   
@@ -117,11 +117,11 @@ ms.locfileid: "44400597"
     
     |**MX 1**|**Priority (Приоритет)**|
     |:-----|:-----|
-    | *\<domain-key\>*. mail.protection.outlook.com  <br/>  Примечание: получите свою \<domain-key\> учетную запись Майкрософт. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | 
+    | *\<domain-key\>*  .mail.protection.outlook.com  <br/>  Примечание: получите свою \<domain-key\> учетную запись Майкрософт. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | 
     
     ![1 и 1 — Настройка 2 и 3](../../media/3afb04d1-7bbf-4147-89ae-561e14ded26d.png)<br/>
   
-8. Нажмите кнопку **Сохранить**.<br/>(You may have to scroll down.)<br/>![1 &amp; 1 — BP — configure – 2-4](../../media/355b3ba7-4d2b-45ed-aa17-ac4affb54fe3.png)
+8. Нажмите кнопку **Сохранить**.<br/>(Возможно, потребуется прокрутить страницу вниз.)<br/>![1 &amp; 1 — BP — configure – 2-4](../../media/355b3ba7-4d2b-45ed-aa17-ac4affb54fe3.png)
   
 9. В диалоговом окне **изменение параметров DNS** нажмите **кнопку Да**.<br/>![Выбор параметра "Да" в диалоговом окне Изменение параметров DNS](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   
@@ -248,7 +248,7 @@ ms.locfileid: "44400597"
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
   
 Воспользуйтесь приведенными ниже инструкциями или [посмотрите видеоролик (начиная с 5:09)](https://docs.microsoft.com/microsoft-365/admin/dns/create-dns-records-at-1-1-internet).
   
@@ -263,11 +263,11 @@ ms.locfileid: "44400597"
     
 4. В области **Параметры домена** выберите **изменить параметры DNS**.
     
-5. В разделе **txt and SRV Records (записи TXT и SRV** ) выберите **Добавить запись**. <br/>(You may have to scroll down.)
+5. В разделе **txt and SRV Records (записи TXT и SRV** ) выберите **Добавить запись**. <br/>(Возможно, потребуется прокрутить страницу вниз.)
     
-6. In the **Add Record** area, in the boxes for the new record, type or copy and paste the values from the following table. <br/>(Choose the **Type** value from the drop-down list.) <br/>
+6. In the **Add Record** area, in the boxes for the new record, type or copy and paste the values from the following table. <br/>В раскрывающемся списке выберите значение параметра **Type** (Тип). <br/>
     
-    |**Тип**|**Prefix (Префикс)**|**Name Value (Значение имени)**|
+    |**Type (Тип)**|**Prefix (Префикс)**|**Name Value (Значение имени)**|
     |:-----|:-----|:-----|
     |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               | 
     
@@ -300,7 +300,7 @@ ms.locfileid: "44400597"
     
     |**Type (Тип)**|**Service (Служба)**|**Protocol (Протокол)**|**Name (Имя)**|**Host (Узел)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV  <br/> |sip  <br/> |tls  <br/> |(Leave this field empty.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (1 ч)  <br/> |
+    |SRV  <br/> |sip  <br/> |tls  <br/> |(Оставьте это поле пустым.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (1 ч)  <br/> |
     |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Оставьте это поле пустым.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (1 ч)  <br/> |  
     
     ![1 &amp; 1 — BP — configure – 5-1](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)

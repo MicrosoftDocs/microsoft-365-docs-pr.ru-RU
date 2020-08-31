@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 196cbc0ebc05683315766b736dd9d5fc2d92afd2
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 02dbb22ad47fbacf964308d2b4a989f34b6d6c9d
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214573"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307686"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Защита информации в соответствии с Общим регламентом по защите данных (GDPR) при помощи возможностей Microsoft 365
 
@@ -32,9 +32,9 @@ ms.locfileid: "44214573"
 
 ## <a name="information-protection"></a>Защита информации
 
-В Office 365 доступно множество возможностей для управления данными. Сведения о поиске, классификации, защите и отслеживании персональных данных см. в статье [Защита информации в Office 365 в соответствии с регламентом GDPR](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr).
+В Office 365 доступно множество возможностей для управления данными. Сведения о поиске, классификации, защите и отслеживании персональных данных см. в статье [Защита информации в Office 365 в соответствии с регламентом GDPR](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr).
 
-Справку по локальным серверам, включая файловые ресурсы, SharePoint Server, Exchange Server, Skype для бизнеса Server, Project Server и Office Online Server, см. в статье [GDPR для локальных серверов Office](https://docs.microsoft.com/office365/enterprise/gdpr-for-office-servers). 
+Справку по локальным серверам, включая файловые ресурсы, SharePoint Server, Exchange Server, Skype для бизнеса Server, Project Server и Office Online Server, см. в статье [GDPR для локальных серверов Office](https://docs.microsoft.com/microsoft-365/compliance/gdpr-for-office-servers). 
 
 ## <a name="identity-and-access-management"></a>Управление идентификацией и доступом
 
@@ -50,7 +50,7 @@ Azure Active Directory и другие компоненты Microsoft 365 пре
 Корпорация Майкрософт рекомендует использовать такие конфигурации в качестве отправных точек:
 
 - [Конфигурации доступа с использованием удостоверений и устройств.](../enterprise/microsoft-365-policies-configurations.md) Рекомендуемые конфигурации политик, обеспечивающие три уровня защиты (базовый, для конфиденциальных данных и предусматривающий жесткую регуляцию). В этом руководстве описаны рекомендуемые политики для Exchange Online и SharePoint Online (включая OneDrive для бизнеса).
-- [Руководство по обеспечению безопасности для организаций, проводящих политические кампании, некоммерческих организаций и других динамичных организаций.](https://docs.microsoft.com/office365/enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o) Включает в себя тот же набор политик, но содержит дополнительные инструкции касательно сред BYOD и учетных записей B2B.
+- [Руководство по обеспечению безопасности для организаций, проводящих политические кампании, некоммерческих организаций и других динамичных организаций.](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o) Включает в себя тот же набор политик, но содержит дополнительные инструкции касательно сред BYOD и учетных записей B2B.
 
 ## <a name="threat-protection"></a>Защита от угроз
 

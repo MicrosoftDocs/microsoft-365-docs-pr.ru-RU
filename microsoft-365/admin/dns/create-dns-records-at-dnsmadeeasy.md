@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу DNSMadeEasy для Майкрософт.
-ms.openlocfilehash: db28ac0cb95bd86bc13a1a1ce47f273989aa4436
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 07cf79b86e02fa79d59882fa51402cccc922c2b6
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400525"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307107"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-microsoft"></a>Создание записей DNS на сайте DNSMadeEasy для Майкрософт
 
@@ -58,16 +58,16 @@ ms.locfileid: "44400525"
     
 3. На странице **Managed DNS** в области **записи TXT** выберите **+** элемент ( **Добавить новый**).
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
 4. In the **Add TXT Records** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
     ||||
     |:-----|:-----|:-----|
-    |**Имя** <br/> |**Value** <br/> |**TTL** (Срок жизни) <br/> |
+    |**Name** <br/> |**Value** (Значение) <br/> |**TTL** (Срок жизни) <br/> |
     |(Оставьте это поле пустым.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
    
-5. Нажмите кнопку **послать**.
+5. Выберите **Отправить**.
     
 6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
@@ -100,7 +100,7 @@ ms.locfileid: "44400525"
   
 3. На странице **управляемых DNS** в области MX- **записи** выберите элемент управления **(+)** ( **Добавить новый**).
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![DNSMadeEasy — BP — configure – 2-1](../../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
   
@@ -108,13 +108,13 @@ ms.locfileid: "44400525"
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-    |**Name**|**Server**|**MX Level (Уровень MX)**|**TTL** (Срок жизни)|
+    |**Name**|**Server**|**MX Level (Уровень MX)**|**TTL (Срок жизни)**|
     |:-----|:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **This value MUST end with a period (.)** <br/> **Примечание:** Получение \<*domain-key*\> учетной записи Майкрософт. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |1800  <br/> |
+    |(Оставьте это поле пустым.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<*domain-key*\> из учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |1800  <br/> |
    
     ![DNSMadeEasy — BP — configure – 2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   
-5. Нажмите кнопку **послать**.
+5. Выберите **Отправить**.
     
     ![DNSMadeEasy — BP — configure – 2-3](../../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
   
@@ -130,7 +130,7 @@ ms.locfileid: "44400525"
     
     ![DNSMadeEasy — BP — configure – 2-5](../../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
   
-## <a name="add-the-five-cname-records-that-are-required-for-microsoft"></a>Добавление пяти записей CNAME, необходимых для Майкрософт
+## <a name="add-the-five-cname-records-that-are-required-for-microsoft"></a>Добавление пяти записей CNAME, необходимых для продуктов корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте DNSMadeEasy по [этой ссылке](https://cp.dnsmadeeasy.com/). Сначала вам потребуется выполнить вход.
@@ -139,7 +139,7 @@ ms.locfileid: "44400525"
     
 3. На странице **УПРАВЛЯЕМЫХ DNS** в области **записи CNAME** выберите элемент управления **("+"** ) ( **Добавить новый**).
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![DNSMadeEasy — BP — configure – 3-1](../../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
   
@@ -157,7 +157,7 @@ ms.locfileid: "44400525"
    
     ![DNSMadeEasy — BP — configure – 3-2](../../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
   
-5. Нажмите кнопку **послать**.
+5. Выберите **Отправить**.
     
     ![DNSMadeEasy — BP — configure – 3-3](../../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
   
@@ -171,7 +171,7 @@ ms.locfileid: "44400525"
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте DNSMadeEasy по [этой ссылке](https://cp.dnsmadeeasy.com/). Сначала вам потребуется выполнить вход.
     
@@ -185,13 +185,13 @@ ms.locfileid: "44400525"
   
 4. In the **Add TXT Records** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    |**Name**|**Value**|**TTL** (Срок жизни)|
+    |**Name**|**Value** (Значение)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|
     |(Оставьте это поле пустым.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |1800  <br/> |
    
     ![DNSMadeEasy — BP — configure – 4-2](../../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
   
-5. Нажмите кнопку **послать**.
+5. Выберите **Отправить**.
     
     ![DNSMadeEasy — BP — configure – 4-3](../../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
   
@@ -214,12 +214,12 @@ ms.locfileid: "44400525"
     
     |**Name (Имя)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Host (Узел)**|**TTL (Срок жизни)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
-    |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
    
     ![DNSMadeEasy — BP — configure – 5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
   
-5. Нажмите кнопку **послать**.
+5. Выберите **Отправить**.
     
     ![DNSMadeEasy — BP — configure – 5-3](../../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
   

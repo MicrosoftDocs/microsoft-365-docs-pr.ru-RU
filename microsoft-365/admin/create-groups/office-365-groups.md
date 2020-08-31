@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о группах Microsoft 365.
-ms.openlocfilehash: 6922e6bf8561d0600c25de9768669d90e959ff26
-ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
+ms.openlocfilehash: 711ab7e7818b266d7cbdbe076e30355d29bc3eeb
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387403"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307269"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Обзор групп Microsoft 365 для администраторов
 
@@ -62,7 +62,7 @@ ms.locfileid: "45387403"
 
 Если вы предпочитаете управлять жизненным циклом ваших групп Microsoft 365, вы можете использовать политики истечения срока действия для групп с заданным интервалом времени. Владельцы группы получат сообщение электронной почты 30, 15 и 1 день до истечения срока действия группы, что позволит им легко продлить группу, если она все еще нужна. См.: [Microsoft 365 политика истечения срока действия группы](office-365-groups-expiration-policy.md).
 
-Вы можете администрировать группы из центра администрирования Microsoft 365 или [с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell).
+Вы можете администрировать группы из центра администрирования Microsoft 365 или [с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershel).
 
 Если у вас много пользователей, например в крупных организациях или на предприятии, у вас может быть множество пользователей, создающих группы для различных целей. Мы настоятельно рекомендуем ознакомиться с [планами для руководства по управлению в группах Microsoft 365](plan-for-groups-governance.md) , чтобы получить рекомендации.
 
@@ -70,7 +70,7 @@ ms.locfileid: "45387403"
 
 К группам Microsoft 365 применяются следующие пределы:
 
-|Максимум...|Value|
+|Максимум...|Значение|
 |:---------|:----|
 |Owners per group|100|
 |Groups a user can create|250|
@@ -114,12 +114,12 @@ ms.locfileid: "45387403"
 > Для всех функций групп, если у вас есть подписка на Azure AD Premium, пользователи могут присоединиться к группе независимо от того, назначена ли им лицензия AAD P1. Лицензирование не применяется.
 > Периодически будут создаваться отчеты об использовании с указанием пользователей, которым не назначена лицензия, и которым назначена одна из них для соответствия требованиям лицензирования. Например, предположим, что у пользователя нет лицензии и они добавлены в группу, в которой применяется политика именования. Отчет будет помечен для того, что ему нужна лицензия.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 [Обновление списков рассылки до групп Майкрософт 365](../manage/upgrade-distribution-lists.md)
 
-[Управление группами Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)
+[Управление группами Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
 
 [Ограничения SharePoint Online](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)

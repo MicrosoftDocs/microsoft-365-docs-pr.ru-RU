@@ -10,12 +10,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: В этой статье обсуждаются классические метки классификации и чувствительностьности Azure Active Directory.
-ms.openlocfilehash: f11473653884392048d5f9a84f8e284dba5f6f27
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 38a3dbe727f3d0759d427944016ae98440f2686f
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755393"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308176"
 ---
 # <a name="azure-active-directory-classification-and-sensitivity-labels-for-microsoft-365-groups"></a>Метки классификации и конфиденциальности Azure Active Directory для групп Microsoft 365
 
@@ -52,7 +52,7 @@ ms.locfileid: "44755393"
 > - Тем не менее, когда пользователь редактирует группу и сохраняет группу с меткой конфиденциальности, выбранная настройка конфиденциальности переопределяется параметром конфиденциальности примененной метки чувствительности.
 > Пользователям рекомендуется выполнить обновление предыдущей версии клиента Outlook до новой версии.
 
-## <a name="scenario-2-tenant-is-already-using-classic-aad-classifications"></a>Сценарий 2: клиент уже использует классическое [классификацию](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization) AAD
+## <a name="scenario-2-tenant-is-already-using-classic-aad-classifications"></a>Сценарий 2: клиент уже использует классическое [классификацию](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell) AAD
 
 ### <a name="case-a-tenant-never-used-sensitivity-labels-for-documents-and-emails"></a>Случай а: клиент никогда не использовал метки чувствительности для документов и сообщений электронной почты
 

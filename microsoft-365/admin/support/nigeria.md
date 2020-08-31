@@ -13,31 +13,31 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1db3deb6be37fc9b22f4de73e55e8f59e2c5d35b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: adce3f2525c92b8cee565f759a94081bc2f75231
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44393921"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306519"
 ---
 # <a name="contact-support-for-nigeria"></a>Обращение в службу поддержки для Нигерия
 
 [Найдите другую страну или регион](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Номер телефона
-01 271 0156
+01 912 5070
 
 Выберите вариант 9
 
 Введите код 7705
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
 Английский: Пн – Пятница 9 AM – 5 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются сборы по местным звонкам

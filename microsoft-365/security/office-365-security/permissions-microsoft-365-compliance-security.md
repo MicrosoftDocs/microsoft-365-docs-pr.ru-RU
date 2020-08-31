@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a7ca90bfc4a8d323b67528ca850f60059abeb12
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c18f50fcad7b934e02c2110fa05196874ab0169a
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652841"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307777"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
 
@@ -101,7 +101,7 @@ ms.locfileid: "46652841"
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Добавление администраторов, политик и параметров, загрузка журналов и выполнение действий системы управления.|
 |[**Центр безопасности Azure**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (ожидается в ближайшее время)|Просмотр политик и состояний безопасности, изменение политик безопасности, просмотр и отклонение оповещений и рекомендаций.|
-|[**Работоспособность службы Office 365**](https://docs.microsoft.com/office365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
+|[**Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
 |
 
 ### <a name="security-operator"></a>Оператор безопасности
@@ -119,7 +119,7 @@ ms.locfileid: "46652841"
 |**EDR и ATP в Защитнике Windows**|Все возможности, доступные роли читателя безопасности. <br/><br/> Просмотр и изучение оповещений, а также реагирование на них.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Все возможности, доступные роли читателя безопасности, плюс просмотр и отклонение оповещений.|
-|[**Работоспособность службы Office 365**](https://docs.microsoft.com/office365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
+|[**Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
 |
 
 ### <a name="security-reader"></a>Читатель безопасности
@@ -138,7 +138,7 @@ ms.locfileid: "46652841"
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Использование разрешений только для чтения с целью просмотра информации. <br/><br/> Управление оповещениями.|
 |[**Центр безопасности Azure**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Просмотр рекомендаций и оповещений. <br/><br/> Просмотр политик безопасности. <br/><br/> Просмотр состояний безопасности, но без внесения изменений.|
-|[**Работоспособность службы Office 365**](https://docs.microsoft.com/office365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
+|[**Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>Глобальный администратор может управлять ролями в Azure Active Directory.

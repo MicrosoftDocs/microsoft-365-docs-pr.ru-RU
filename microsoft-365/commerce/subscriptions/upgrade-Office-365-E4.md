@@ -20,12 +20,12 @@ search.appverid:
 description: Узнайте, как обновить подписку на Office 365 E4.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3ab3ac1c85dc3726585f9c414449ff4847626fc8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2587732a6c4092dcb7b53daf9493e7cee2f1987c
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693369"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308009"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>Обновление с подписки на Office 365 E4
 
@@ -130,7 +130,7 @@ ms.locfileid: "46693369"
 Вы можете использовать центр администрирования Microsoft 365, чтобы переназначить лицензии для пользователей не более чем на 20 пользователей за раз. Сведения о том, как [переместить пользователей в другую подписку](move-users-different-subscription.md).
 
 > [!TIP]
-> Если у вас много пользователей, вы можете [использовать PowerShell Office 365 для массового назначения пользовательских лицензий](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
+> Если у вас много пользователей, вы можете [использовать PowerShell Office 365 для массового назначения пользовательских лицензий](https://docs.microsoft.com/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
 
 ### <a name="step-4-cancel-the-office-365-e4-subscription"></a>Шаг 4: Отмена подписки на Office 365 E4
 

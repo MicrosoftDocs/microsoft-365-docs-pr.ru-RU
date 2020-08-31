@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте о Microsoft 365 для бизнеса, о том, как настроить его и как подготовить устройства и компьютеры пользователей, чтобы убедиться, что они защищены Microsoft 365 для бизнеса.
-ms.openlocfilehash: aedcf78f10707dbe6a1d1527effea7d56283dce0
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: ec50036f589cfd8497b0e7e9af6519b30d25dcd3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080050"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306496"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Начало работы с Microsoft 365 для бизнеса
 
@@ -82,7 +82,7 @@ Microsoft 365 для бизнеса предназначено для лицен
     
     - Если у вас также есть сервер Exchange 2010, Exchange 2013 или Exchange 2016, вы можете [использовать минимальную гибридную среду для быстрой миграции почтовых ящиков Exchange в Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate). Минимальными этапами гибридного развертывания являются однократная синхронизация пользователей с Azure AD и миграция электронной почты из локальной среды в облако. После завершения миграции электронной почты при использовании этого метода Синхронизация службы каталогов автоматически отключается.
     
-    - Используйте мастер синхронизации каталогов для синхронизации пользователей с облаком. Выполните действия, описанные в статье [Настройка синхронизации каталогов для Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) , чтобы завершить этот процесс. После синхронизации пользователей с облаком необходимо [Отключить синхронизацию службы каталогов для Microsoft 365](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization).
+    - Используйте мастер синхронизации каталогов для синхронизации пользователей с облаком. Выполните действия, описанные в статье [Настройка синхронизации каталогов для Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) , чтобы завершить этот процесс. После синхронизации пользователей с облаком необходимо [Отключить синхронизацию службы каталогов для Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/turn-off-directory-synchronization).
     
     Кроме того, вам потребуется предоставить каждому пользователю, который был добавлен таким образом, как лицензия на Microsoft 365 для бизнеса. Это можно сделать в [мастере установки](set-up.md) или [назначить лицензии пользователям](../admin/manage/assign-licenses-to-users.md).
     

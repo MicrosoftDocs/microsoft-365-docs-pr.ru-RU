@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Сведения о том, как Microsoft 365 использует запись в формате TXT инфраструктуры политики отправителей (SPF), чтобы гарантировать, что конечные системы электронной почты доверяют сообщениям, отправленным из личного домена.
-ms.openlocfilehash: a86087f510dca328bb5b56af6fd4802f1f42a454
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 702c5de90c53388a3d55ad752010fbaa04b5556b
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587488"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307653"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Как Microsoft 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга
 
@@ -131,7 +131,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 Воспользуйтесь сведениями о синтаксисе, представленными в этой статье, чтобы создать запись SPF TXT для личного домена. Здесь описаны наиболее часто используемые варианты синтаксиса, но существуют и другие. После создания записи необходимо обновить ее у регистратора доменных имен.
 
-Для получения сведений о доменах, которые необходимо включить в Microsoft 365, просмотрите [внешние DNS-записи, необходимые для SPF](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Используйте пошаговые [инструкции](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) по обновлению записей SPF (txt) для вашего регистратора доменных имен.
+Для получения сведений о доменах, которые необходимо включить в Microsoft 365, просмотрите [внешние DNS-записи, необходимые для SPF](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Используйте пошаговые [инструкции](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) по обновлению записей SPF (txt) для вашего регистратора доменных имен.
 
 ### <a name="spf-txt-record-syntax-for-microsoft-365"></a>Синтаксис записи SPF TXT для Microsoft 365
 <a name="SPFSyntaxO365"> </a>
@@ -156,7 +156,7 @@ v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
 
 - _IP-адрес_ — это IP-адрес, который вы хотите добавить в запись SPF txt. Обычно это IP-адрес сервера исходящей почты для вашей организации. Вы можете перечислить несколько серверов исходящей почты. Дополнительную информацию можно узнать в [статье пример: запись SPF txt для нескольких исходящих почтовых серверов и Microsoft 365](how-office-365-uses-spf-to-prevent-spoofing.md#ExampleSPFMultipleMailServerO365).
 
-- _domain name_ — это домен, который требуется добавить в качестве надежного отправителя. Список доменных имен, которые следует включить в Microsoft 365, приведен в разделе [внешние DNS-записи, необходимые для SPF](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records).
+- _domain name_ — это домен, который требуется добавить в качестве надежного отправителя. Список доменных имен, которые следует включить в Microsoft 365, приведен в разделе [внешние DNS-записи, необходимые для SPF](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records).
 
 - Как правило, используется одно из указанных ниже правил принудительного применения.
 

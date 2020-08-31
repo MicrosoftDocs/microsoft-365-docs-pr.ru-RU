@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Узнайте о Office 365 в Германии.
-ms.openlocfilehash: e17ce259837167dd4b2b0ab894b00318103f73a5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 694f1a2ebbe3740c09cb306a26729b6482497d0b
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386797"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307281"
 ---
 # <a name="learn-about-office-365-germany"></a>Сведения об Office 365 Germany
 
@@ -45,7 +45,7 @@ Office 365 Германия был отличительным вариантом
   
 В некоторых [планах подписки на Office 365 в Германии](https://go.microsoft.com/fwlink/p/?linkid=839016)доступны следующие службы и функции. Кроме того, ознакомьтесь с [терминами веб-служб](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
   
-- Приложения Microsoft 365 для предприятий, Office 2016 и Office 2013<sup>1</sup>. Обратите внимание, что [в office 2013 для клиентов Office требуется использовать office 365 с современной проверкой подлинности](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).
+- Приложения Microsoft 365 для предприятий, Office 2016 и Office 2013<sup>1</sup>. Обратите внимание, что [в office 2013 для клиентов Office требуется использовать office 365 с современной проверкой подлинности](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
     
 - Exchange Online
     
@@ -83,7 +83,7 @@ Office 365 Германия был отличительным вариантом
     
 - Power BI Pro
     
-- Delve
+- Delve;
     
 <sup>1</sup> Планы Office 365 (Германия) включают клиентские приложения, установленные и выполняемые на устройстве конечного пользователя ("клиентские приложения"), например, приложения Microsoft 365 для предприятий, Office 2013 и Office 2016. Клиентские приложения работают не только в Центрах обработки данных в Германии, но могут также предоставлять пользователю доступ к веб-службам, которые не являются [веб-службами Германии](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). В целях выполнения соглашения с корпорацией Майкрософт клиентские приложения не являются [веб-службами Германии](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Обязательства по размещению данных в Германии и контроль доступа со стороны доверительного управляющего данными действуют только в отношении [веб-служб Германии](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
   
@@ -93,7 +93,7 @@ Office 365 Германия был отличительным вариантом
 |-----|-----|
 |Портал для входа  <br/> |[https://portal.office.de](https://portal.office.de)  <br/> |
 |Подписки, выставление счетов и техническая поддержка  <br/> |Поддержка на основе Германии на немецком и английском языках дополнительные сведения см. в статье [Поддержка для бизнес-продуктов: Справка для администраторов](../contact-support-for-business-products.md).  <br/> |
-|IP-адреса и URL-адреса  <br/> |См. статью [Конечные точки Office 365 для Германии](https://docs.microsoft.com/office365/enterprise/office-365-germany-endpoints).      <br/> |
+|IP-адреса и URL-адреса  <br/> |См. статью [Конечные точки Office 365 для Германии](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-germany-endpoints).      <br/> |
 |Yammer  <br/> |Недоступно.  <br/> |
 |Версии Office более ранние, чем Office 2013 или Microsoft 365 приложения для предприятия<sup>1</sup> <br/> |Не поддерживаются.  <br/> |
 |Office Lens  <br/> |Недоступно.  <br/> |

@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Настройка политик безопасных ссылок для защиты Организации от вредоносных ссылок в файлах Word, Excel, PowerPoint и Visio, а также в сообщениях электронной почты.
-ms.openlocfilehash: f935002a300bd5f4553cbab429318dad4104b208
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 121de6137e392ae0c66d9961fd2138f003a9d9fa
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662258"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307765"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Настройка политик безопасных ссылок на Office 365 ATP
 
@@ -59,7 +59,7 @@ ms.locfileid: "46662258"
 
     Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-- Убедитесь, что клиенты Office настроены на использование [современной проверки подлинности](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) (это для защиты безопасных ссылок ATP в документах Office).
+- Убедитесь, что клиенты Office настроены на использование [современной проверки подлинности](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016) (это для защиты безопасных ссылок ATP в документах Office).
 
 - [Сведения о параметрах политики безопасных ссылок ATP](#step-4-learn-about-atp-safe-links-policy-options) (в этой статье).
 

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Сведения о доменах и связанных с ними записями DNS для обучения управлению доменами.
-ms.openlocfilehash: a69f6a34585f7ff033a30e10254f29b89d978d3e
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 9819ec858eecb659f8576d9fa3c1ef426d500e80
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079995"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306567"
 ---
 # <a name="dns-basics"></a>Основы DNS
 
@@ -188,7 +188,7 @@ DNS-записи домена могут быть полезны и другим
   
 Вы можете [найти список значений](information-for-dns-records.md) для настройки домена. Они включены непосредственно в Центр администрирования Microsoft 365. 
   
-Или, если вы планируете развертывание, вы можете просмотреть список всех записей DNS, необходимых для Microsoft 365, их функции и примеры значений. Ознакомьтесь с [Внешними записями доменных имен для Microsoft 365](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records).
+Или, если вы планируете развертывание, вы можете просмотреть список всех записей DNS, необходимых для Microsoft 365, их функции и примеры значений. Ознакомьтесь с [Внешними записями доменных имен для Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records).
   
 ## <a name="how-can-i-learn-more"></a>Как получить более подробные сведения?
 

@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье рассказывается, как использовать безопасные ссылки для защиты Организации от фишинга и других атак.
-ms.openlocfilehash: 5baf18c249d67551c7ae1eeb643a401ea16d2b6c
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: d9b3c981cb282c286a5b6edcea367c8c57ffd4d3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656985"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307641"
 ---
 # <a name="atp-safe-links"></a>Безопасные ссылки ATP
 
@@ -57,7 +57,7 @@ Office 365 ATP Safe Links (часть [office 365 Advanced Threat protection](of
 
 - Политики безопасных ссылок ATP настраиваются для электронной почты и документов Office. (См. раздел [Настройка политик безопасных ссылок ATP](set-up-atp-safe-links-policies.md)).
 
-- Клиентские приложения Microsoft 365 настроены для использования современной проверки подлинности (это относится к защите ссылок ATP в документах Office). (См. [современная проверка подлинности для Office 2016](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)).
+- Клиентские приложения Microsoft 365 настроены для использования современной проверки подлинности (это относится к защите ссылок ATP в документах Office). (См. [современная проверка подлинности для Office 2016](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)).
 
 - Пользователи выполнили вход с помощью рабочей или учебной учетной записи. (См. раздел [Вход в Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)).
 
@@ -67,7 +67,7 @@ Office 365 ATP Safe Links (часть [office 365 Advanced Threat protection](of
 
 ****
 
-|Role|Где/как назначено|
+|Роль|Где/как назначено|
 |---|---|
 |Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
 |Администратор безопасности|Центр администрирования Azure Active Directory ( <https://aad.portal.azure.com> )|

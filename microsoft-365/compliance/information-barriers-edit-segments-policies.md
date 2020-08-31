@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Узнайте, как изменить или удалить политики для барьеров информации.
-ms.openlocfilehash: 5690a1d7a131c006bbff3b087b1ee2983198c068
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6ac739ecff3921b4061d5d22410b2e2b1ada7af2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637891"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307942"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>Изменение (или удаление) политик барьера информации
 
@@ -52,7 +52,7 @@ ms.locfileid: "43637891"
 
     |Синтаксис  |Пример  |
     |---------|---------|
-    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   Можно использовать любое значение, однозначно идентифицирующее каждого пользователя, например, имя, псевдоним, различающееся имя, каноническое имя домена, адрес электронной почты или GUID. <p>   (Вы также можете использовать этот командлет для одного пользователя: `Get-InformationBarrierRecipientStatus -Identity <value>`)      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   В этом примере мы будем называть две учетные записи пользователей в Office 365: *меганб* для *Меган*и *алексв* для *Алекс*.         |
+    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   Можно использовать любое значение, однозначно идентифицирующее каждого пользователя, например, имя, псевдоним, различающееся имя, каноническое имя домена, адрес электронной почты или GUID. <p>   (Вы также можете использовать этот командлет для одного пользователя: `Get-InformationBarrierRecipientStatus -Identity <value>` )      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   В этом примере мы будем называть две учетные записи пользователей в Office 365: *меганб* для *Меган*и *алексв* для *Алекс*.         |
 
 2. Определите атрибут, который вы хотите изменить, для профилей учетных записей пользователей. Для получения дополнительных сведений обратитесь к разделу [Attributes for Information Information барьера](information-barriers-attributes.md) . 
 
@@ -60,7 +60,7 @@ ms.locfileid: "43637891"
 
     - Чтобы изменить одну учетную запись, ознакомьтесь со статьей [Добавление или обновление данных профиля пользователя с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
-    - Чтобы изменить несколько учетных записей (или с помощью PowerShell для редактирования одной учетной записи), ознакомьтесь со статьей [Настройка свойств учетной записи пользователя с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).
+    - Чтобы изменить несколько учетных записей (или с помощью PowerShell для редактирования одной учетной записи), ознакомьтесь со статьей [Настройка свойств учетной записи пользователя с помощью Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell).
 
 ## <a name="edit-a-segment"></a>Изменение сегмента
 
@@ -68,7 +68,7 @@ ms.locfileid: "43637891"
 
 1. Чтобы просмотреть все существующие сегменты, используйте командлет **Get – организатионсегмент** .
     
-    Инструкции`Get-OrganizationSegment`
+    Инструкции `Get-OrganizationSegment`
 
     Вы увидите список сегментов и сведений для каждого из них, например тип сегмента, его значение Усерграупфилтер, кто создал или последним изменил его, GUID и т. д.
 
@@ -87,15 +87,15 @@ ms.locfileid: "43637891"
 
 1. Чтобы просмотреть список текущих политик барьера информации, используйте командлет **Get – информатионбарриерполици** .
 
-    Инструкции`Get-InformationBarrierPolicy`
+    Инструкции `Get-InformationBarrierPolicy`
 
     В списке результатов Определите политику, которую необходимо изменить. Обратите внимание на GUID и имя политики.
 
 2. Используйте командлет **Set – информатионбарриерполици** с параметром **Identity** и укажите изменения, которые необходимо выполнить.
 
-    Пример: Предположим, что политика была определена для блокирования связи между сегментом *исследований* и сегментами *сбыта* и *маркетинга* . Политика была определена с помощью этого командлета:`New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
+    Пример: Предположим, что политика была определена для блокирования связи между сегментом *исследований* и сегментами *сбыта* и *маркетинга* . Политика была определена с помощью этого командлета: `New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
     
-    Предположим, что мы хотим изменить его, чтобы люди в сегменте *исследований* могли общаться только с людьми в сегменте *кадров* . Чтобы внести это изменение, мы используем следующий командлет:`Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
+    Предположим, что мы хотим изменить его, чтобы люди в сегменте *исследований* могли общаться только с людьми в сегменте *кадров* . Чтобы внести это изменение, мы используем следующий командлет: `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
 
     В этом примере мы изменили "Сегментсблоккед" на "Сегментсалловед" и указали сегмент *HR* .
 
@@ -105,7 +105,7 @@ ms.locfileid: "43637891"
 
 1. Чтобы просмотреть список текущих политик барьера информации, используйте командлет **Get – информатионбарриерполици** .
 
-    Инструкции`Get-InformationBarrierPolicy`
+    Инструкции `Get-InformationBarrierPolicy`
 
     В списке результатов Определите политику, которую необходимо изменить (или удалить). Обратите внимание на GUID и имя политики.
 
@@ -117,7 +117,7 @@ ms.locfileid: "43637891"
 
 3. Чтобы применить изменения, используйте командлет **Start – информатионбарриерполиЦиесаппликатион** .
 
-    Инструкции`Start-InformationBarrierPoliciesApplication`
+    Инструкции `Start-InformationBarrierPoliciesApplication`
 
     Для организации применяются изменения, пользовательские пользователи. Если ваша организация имеет большой объем, для завершения этого процесса может потребоваться до 24 часов. (Как правило, для обработки 5 000 учетных записей пользователей требуется около часа.)
 
@@ -130,7 +130,7 @@ ms.locfileid: "43637891"
 
 1. Чтобы просмотреть список текущих политик барьера информации, используйте командлет **Get – информатионбарриерполици** .
 
-    Инструкции`Get-InformationBarrierPolicy`
+    Инструкции `Get-InformationBarrierPolicy`
 
     В списке результатов Определите политику, которую необходимо удалить. Обратите внимание на GUID и имя политики. Убедитесь, что для политики задано состояние неактивно.
 
@@ -146,7 +146,7 @@ ms.locfileid: "43637891"
 
 4. После завершения удаления политик примените изменения. Для этого используйте командлет **Start – информатионбарриерполиЦиесаппликатион** .
 
-    Инструкции`Start-InformationBarrierPoliciesApplication`
+    Инструкции `Start-InformationBarrierPoliciesApplication`
 
     Для организации применяются изменения, пользовательские пользователи. Если ваша организация имеет большой объем, для завершения этого процесса может потребоваться до 24 часов.
 
@@ -156,7 +156,7 @@ ms.locfileid: "43637891"
 
 1. Чтобы просмотреть состояние самого последнего приложения политики барьера данных, используйте командлет **Get – информатионбарриерполиЦиесаппликатионстатус** .
 
-    Инструкции`Get-InformationBarrierPoliciesApplicationStatus`
+    Инструкции `Get-InformationBarrierPoliciesApplicationStatus`
 
     Обратите внимание на GUID приложения.
 
@@ -166,7 +166,7 @@ ms.locfileid: "43637891"
     |---------|---------|
     |`Stop-InformationBarrierPoliciesApplication -Identity GUID`     |`Stop-InformationBarrierPoliciesApplication -Identity 46237888-12ca-42e3-a541-3fcb7b5231d1` <p>В этом примере выполняется остановка применения политик барьера информации.         |
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Обзор информационных препятствий](information-barriers.md)
 

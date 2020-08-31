@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Bluehost для Майкрософт.
-ms.openlocfilehash: 7b241c4635ecc4a8092702f95d19df7ed94ce1cd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c0db0a00b48e6a460b8e21c95b8d8852914ab87b
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400561"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307047"
 ---
 # <a name="create-dns-records-at-bluehost-for-microsoft"></a>Создание записей DNS на сайте BlueHost для Майкрософт
 
@@ -57,7 +57,7 @@ ms.locfileid: "44400561"
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     |||||
     |:-----|:-----|:-----|:-----|
@@ -97,11 +97,11 @@ ms.locfileid: "44400561"
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     |**Host Record**|**TTL (Срок жизни)**|**Type (Тип)**|**Points To (Указывает на)**|**Priority (Приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |14400  <br/> |MX  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/>**Примечание:** Получение \<*domain-key*\> учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |
+    |@  <br/> |14400  <br/> |MX  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/>**Примечание.**  Получите свой \<*domain-key*\> из учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |
    
    ![Выберите тип из раскрывающегося списка.](../../media/70791420-d83c-4a5d-a46c-5cc3bc67f565.png)
   
@@ -135,9 +135,9 @@ ms.locfileid: "44400561"
 4. В разделе **A (Host) (записи узла)** найдите строку для записи **автообнаружения** , а затем выберите команду **Удалить** для этой строки. 
     
     > [!IMPORTANT]
-    > Необходимо удалить существующую запись **автообнаружения** *перед* добавлением записи **автообнаружения** , необходимой корпорации Майкрософт. Bluehost не обеспечивает одновременную поддержку двух записей **autodiscover**. 
+    > Необходимо удалить существующую запись **автообнаружения**  *перед*  добавлением записи **автообнаружения** , необходимой корпорации Майкрософт. Bluehost не обеспечивает одновременную поддержку двух записей **autodiscover**. 
   
-    ![Нажмите кнопку Удалить](../../media/416a447e-3710-4ae7-8bf1-459381af4f6e.png)
+    ![Выберите Delete (Удалить)](../../media/416a447e-3710-4ae7-8bf1-459381af4f6e.png)
   
 5. Нажмите кнопку **ОК**.
     
@@ -147,7 +147,7 @@ ms.locfileid: "44400561"
     
     На странице **DNS Zone Editor** (Редактор зон DNS) в поля для новой записи в области **Add DNS Record** (Добавление записи DNS) введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     |**Host Record**|**TTL (Срок жизни)**|**Type (Тип)**|**Points To (Указывает на)**|
     |:-----|:-----|:-----|:-----|
@@ -173,7 +173,7 @@ ms.locfileid: "44400561"
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). Сначала вам потребуется выполнить вход.
     
@@ -185,7 +185,7 @@ ms.locfileid: "44400561"
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
         
     |**Host Record**|**TTL (Срок жизни)**|**Type (Тип)**|**TXT Value**|
     |:-----|:-----|:-----|:-----|
@@ -212,7 +212,7 @@ ms.locfileid: "44400561"
     
     На странице **DNS Zone Editor** (Редактор зон DNS) в поля для новой записи в области **Add DNS Record** (Добавление записи DNS) введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     |**Служба**|**Protocol (Протокол)**|**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Points To (Указывает на)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
