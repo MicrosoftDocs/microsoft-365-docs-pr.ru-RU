@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Обеспечьте удаленным сотрудникам доступ к локальным ресурсам, одновременно оптимизируя доступ к облачным службам Microsoft 365.
-ms.openlocfilehash: 4327f6d7e4815a8720ecc05c7e4dd48ca89ac3d8
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 7c928718a4d0f0d47fb601e6ab6e51f25c88a04a
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521533"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308395"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Этап 2. Обеспечение удаленного доступа к локальным приложениям и службам
 
@@ -54,13 +54,13 @@ ms.locfileid: "46521533"
 
 При использовании раздельного туннелирования в настройках VPN-клиента можно исключить передачу определенных типов трафика через VPN-подключение в сеть организации.
 
-Чтобы оптимизировать доступ к облачным ресурсам Microsoft 365, в настройках VPN-клиентов с раздельным туннелированием исключите трафик через VPN-подключение к конечным точкам Microsoft 365 категории **оптимизации**. Дополнительные сведения см. в статье [Категории конечных точек Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#new-office-365-endpoint-categories). См. список конечных точек категории оптимизации [здесь](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Чтобы оптимизировать доступ к облачным ресурсам Microsoft 365, в настройках VPN-клиентов с раздельным туннелированием исключите трафик через VPN-подключение к конечным точкам Microsoft 365 категории **оптимизации**. Дополнительные сведения см. в статье [Категории конечных точек Office 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories). См. список конечных точек категории оптимизации [здесь](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ![Сетевой трафик из VPN-клиентов с использованием туннелирования](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
 Эта возможность позволяет VPN-клиенту отправлять и получать необходимый трафик облачных служб Microsoft 365 непосредственно через Интернет в ближайшей точке входа в сеть Microsoft.
 
-Дополнительные сведения и инструкции см. в статье [Оптимизация подключения Office 365 для удаленных пользователей с помощью раздельного VPN-туннелирования](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel).
+Дополнительные сведения и инструкции см. в статье [Оптимизация подключения Office 365 для удаленных пользователей с помощью раздельного VPN-туннелирования](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??).
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Развертывание удаленного доступа при наличии гибридного удостоверения, если все приложения являются веб-приложениями
 
@@ -116,7 +116,7 @@ ms.locfileid: "46521533"
 ## <a name="admin-technical-resources-for-remote-access"></a>Технические ресурсы администраторов для предоставления удаленного доступа
 
 - [Быстрая оптимизация трафика Office 365 для удаленных сотрудников и снижение нагрузки на инфраструктуру](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
-- [Оптимизация подключения Office 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)
+- [Оптимизация подключения Office 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
 
 ## <a name="results-of-step-2"></a>Результаты этапа 2
 

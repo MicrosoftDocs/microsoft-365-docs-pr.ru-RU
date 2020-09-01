@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 427d266ea46c184a87b8b0b4fbe242adfb8deff1
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 7c83d3f202851008e93c3f3e9d0c7bc89c49bf20
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597547"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308371"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Для идентификации и за пределами — одна точка зрения архитектора
 
@@ -113,11 +113,11 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Мы разработали [систему единого входа](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on) (SSO), пока я могу запомнить. Некоторые клиенты считают, что они могут добиться этого, выбрав поставщика службы федерации (STS). Azure AD может способствовать значительному [включению функций SSO](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-sso-deployment) , но STS не волшебная. Существует слишком много "устаревших" методов проверки подлинности, которые все еще используются для критически важных приложений. Расширение Azure AD с помощью [партнерских решений](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list) может решить многие из этих сценариев. Единый вход — это стратегия и путешествие. Вы не можете получить его, не перемещаясь [на стандарты приложений](https://docs.microsoft.com/azure/active-directory/develop/v2-app-types). Связанное с этим разделом — это путешествие к проверке подлинности без [паролей](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless) , в которой также нет ответа Волшебная. 
 
-[Многофакторная проверка подлинности](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) (MFA) важна сегодня ([здесь вы найдете](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984) дополнительные сведения). Добавьте в [аналитику поведение пользователя](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa) , и у вас есть решение, которое предотвращает большинство распространенных кибератакных атак. Даже потребительские службы перемещаются, чтобы требовать MFA. Но я по-прежнему буду отвечать многим клиентам, которые не хотят переходить на современные подходы к [проверке подлинности](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) . Самый большой аргумент я слышал, что он влияет на пользователей и устаревшие приложения. Иногда хороший участник может помочь клиентам перемещаться по Exchange Online, [предобъявил изменения](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282). Теперь вы можете использовать множество [отчетов](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication) Azure AD, чтобы помочь пользователям в этом переходе.
+[Многофакторная проверка подлинности](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) (MFA) важна сегодня ([здесь вы найдете](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984) дополнительные сведения). Добавьте в [аналитику поведение пользователя](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa) , и у вас есть решение, которое предотвращает большинство распространенных кибератакных атак. Даже потребительские службы перемещаются, чтобы требовать MFA. Но я по-прежнему буду отвечать многим клиентам, которые не хотят переходить на современные подходы к [проверке подлинности](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview) . Самый большой аргумент я слышал, что он влияет на пользователей и устаревшие приложения. Иногда хороший участник может помочь клиентам перемещаться по Exchange Online, [предобъявил изменения](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282). Теперь вы можете использовать множество [отчетов](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication) Azure AD, чтобы помочь пользователям в этом переходе.
 
 
 
-### <a name="authorization"></a>Authorization
+### <a name="authorization"></a>Авторизация
 
 "Для авторизации" в " [Википедии](https://en.wikipedia.org/wiki/Authorization)" — определение политики доступа. Многие считают, что это возможность определять элементы управления доступом для объекта (файл, служба и т. д.). В текущем мире угроз кибератак эта концепция быстро развивается до динамической политики, которая может реагировать на различные векторы угроз и быстро настраивать управление доступом в ответ на них. Например, если у меня есть доступ к банковскому счету из нестандартного местоположения, я получаю дополнительные действия по подтверждению. Для этого нам нужно рассмотреть не только саму политику, но и экосистему методологии обнаружения и передачи угроз.
 
@@ -187,12 +187,12 @@ XYZ SaaS поддерживает подготовку по требованию
 
 ### <a name="multi-geo"></a>Поддержка нескольких регионов 
 
-Для [поддержки нескольких регионов](https://docs.microsoft.com/office365/enterprise/office-365-multi-geo) , это вопрос. В Office 365 с поддержкой нескольких регионов можно подготавливать и хранить данные в других географических расположениях, которые вы выбрали для удовлетворения требований [размещению к данным](https://docs.microsoft.com/office365/enterprise/o365-data-locations) . Существует множество непонятий, связанных с этой возможностью. Учитывайте следующее: 
+Для [поддержки нескольких регионов](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) , это вопрос. В Office 365 с поддержкой нескольких регионов можно подготавливать и хранить данные в других географических расположениях, которые вы выбрали для удовлетворения требований [размещению к данным](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations) . Существует множество непонятий, связанных с этой возможностью. Учитывайте следующее: 
 - Это не дает выигрыш в производительности. Если [Структура сети](https://aka.ms/office365networking) неправильная, производительность может быть еще хуже. Получите устройства "близко" к сети Microsoft, а не к данным.
 - Это не решение для [обеспечения соответствия требованиям GDPR](https://www.microsoft.com/trust-center/privacy/gdpr-overview). GDPR не влияет на независимость данных и места хранения. Существуют и другие платформы обеспечения соответствия требованиям.
 - Он не решает делегирование администрирования (см. ниже) или [барьеры информации](https://docs.microsoft.com/microsoft-365/compliance/information-barriers).
 - Это не то же самое, что и поддержка нескольких клиентов, и для них требуются дополнительные рабочие процессы [подготовки пользователей](https:/docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) .
-- Ваш клиент (Azure AD) не [перемещается](https://docs.microsoft.com/office365/enterprise/moving-data-to-new-datacenter-geos) в другую географию. 
+- Ваш клиент (Azure AD) не [перемещается](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) в другую географию. 
 
 ## <a name="delegation-of-administration"></a>Делегирование администрирования
 
@@ -202,7 +202,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Существует длинный и развивающийся список [встроенных ролей](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles). Каждая роль состоит из списка разрешений роли, сгруппированных вместе, чтобы разрешить выполнение определенных действий. Эти разрешения можно просмотреть на вкладке "Описание" в каждой роли. Кроме того, вы можете увидеть более удобное для человека версию этих элементов в центре администрирования Microsoft 365. Определения встроенных ролей изменить нельзя. Как правило, эти группы делятся на три категории:
 
-- **Глобальный администратор** — эта роль "все мощные" должна быть [строго защищена](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) так же, как и в других системах. Ниже приведены типичные рекомендации: нет постоянного назначения и использование службы управления правами Azure AD для управления удостоверениями; строгая проверка подлинности; документов. Что интересно, эта роль не предоставляет доступ ко всем ресурсам по умолчанию. Как правило, я вижу путаницу при доступе на соответствие требованиям и доступе к Azure, который обсуждается далее. Однако эта роль всегда может назначать доступ к другим службам в клиенте. 
+- **Глобальный администратор** — эта роль "все мощные" должна быть [строго защищена](https://docs.microsoft.com/microsoft-365/enterprise/protect-your-global-administrator-accounts) так же, как и в других системах. Ниже приведены типичные рекомендации: нет постоянного назначения и использование службы управления правами Azure AD для управления удостоверениями; строгая проверка подлинности; документов. Что интересно, эта роль не предоставляет доступ ко всем ресурсам по умолчанию. Как правило, я вижу путаницу при доступе на соответствие требованиям и доступе к Azure, который обсуждается далее. Однако эта роль всегда может назначать доступ к другим службам в клиенте. 
 - **Конкретные администраторы служб** — некоторые службы (Exchange, SharePoint, Power BI и т. д.) используют высокоуровневые административные роли из Azure AD. Это не относится ко всем службам и в дальнейшем рассмотрены дополнительные роли, связанные со службами.
 - **Работает** — существует большой (и увеличенный) список ролей, посвященных определенным операциям (приглашенный докладчик и т. д.). Периодически они добавляются в соответствии с потребностями клиентов.
 
@@ -248,8 +248,8 @@ XYZ SaaS поддерживает подготовку по требованию
   + **Ограничения**  -  соответствия требованиям [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries ](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
   + **Расширенное обнаружение электронных**  -  данных [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 ](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
 - **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins) 
-- **Поддержка нескольких регионов** - [https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin) 
-- **Dynamics 365** —[https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
+- **Поддержка нескольких регионов** - [https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin) 
+- **Dynamics 365** — [https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
   Примечание: Эта ссылка относится к корневому каталогу документации. Существует несколько типов служб с вариациями в модели администрирования и делегирования.
 - Платформа управления питанием **Power Platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation ](https://docs.microsoft.com/power-platform/admin/admin-documentation )
   + **Power Apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security ](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>

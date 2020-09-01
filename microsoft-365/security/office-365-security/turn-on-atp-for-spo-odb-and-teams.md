@@ -19,12 +19,12 @@ ms.collection:
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6109cecc79b4db876ee595d4786d176ae7f42f5d
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 8a3a3939603d30e9024f43517ce23a87cf765b84
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656555"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308339"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "46656555"
 
 ****
 
-|Role|Где/как назначено|
+|Роль|Где/как назначено|
 |---|---|
 |Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
 |Администратор безопасности|Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
@@ -72,7 +72,7 @@ ms.locfileid: "46656555"
 
 8. Предложен Перейдите к разделу Настройка оповещений для обнаруженных файлов.
 
-Чтобы узнать больше об использовании PowerShell с Microsoft 365, ознакомьтесь [со статьей управление microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
+Чтобы узнать больше об использовании PowerShell с Microsoft 365, ознакомьтесь [со статьей управление microsoft 365 с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell).
 
 Чтобы узнать больше о пользовательском интерфейсе, когда файл был определен как вредоносный, посмотрите, [что делать, когда вредоносный файл обнаружен в SharePoint Online, OneDrive или Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2).
 
@@ -90,9 +90,9 @@ ms.locfileid: "46656555"
 
 5. В разделе **отправить это оповещение, когда...** выполните следующие действия:
 
-   а. В списке **действия** выберите **обнаруженная вредоносная программа в файле**.
+   а) В списке **действия** выберите **обнаруженная вредоносная программа в файле**.
 
-   б. Оставьте поле **Пользователи** пустым.
+   б) Оставьте поле **Пользователи** пустым.
 
 6. В разделе **отправить это оповещение по...** выберите одного или нескольких глобальных администраторов, администраторов безопасности или средств чтения безопасности, которые должны получать уведомление при обнаружении вредоносного файла.
 

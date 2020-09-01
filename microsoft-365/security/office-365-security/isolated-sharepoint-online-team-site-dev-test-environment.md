@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: Сводка. Настройка сайта группы SharePoint Online, изолированного от остальной части Организации в среде разработки и тестирования Microsoft 365.
-ms.openlocfilehash: 07f3ae349f20fd4498e7809955cf0407d8c31d8c
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 095b0e5098d86f69c21576e72439dde48a092db3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588032"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308407"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Среда разработки и тестирования изолированного сайта группы SharePoint Online
 
@@ -65,7 +65,7 @@ ms.locfileid: "44588032"
 
 ## <a name="phase-2-create-user-accounts-and-access-groups"></a>Этап 2: создание учетных записей пользователей и групп доступа
 
-Воспользуйтесь инструкциями из статьи [Подключение к Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) , чтобы подключиться к пробной подписке с помощью учетной записи глобального администратора:
+Воспользуйтесь инструкциями из статьи [Подключение к Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell) , чтобы подключиться к пробной подписке с помощью учетной записи глобального администратора:
 
 - Компьютер (для упрощенной среды разработки и тестирования Microsoft 365).
 
@@ -170,7 +170,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 11. Выберите **ProjectX — участники** в списке.
 
-12. На странице **Пользователи и группы** нажмите кнопку **Создать**.
+12. На странице **Пользователи и группы** нажмите кнопку **Создание**.
 
 13. В диалоговом окне **Общий доступ** введите **ProjectX-Members**, выберите группу и нажмите **Поделиться**.
 
@@ -178,7 +178,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 15. Выберите **ProjectX — владельцы** в списке.
 
-16. На странице **Пользователи и группы** нажмите кнопку **Создать**.
+16. На странице **Пользователи и группы** нажмите кнопку **Создание**.
 
 17. В диалоговом окне **Общий доступ** введите **ProjectX-Admins**, выберите группу и нажмите **Поделиться**.
 
@@ -236,9 +236,9 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 12. Введите какой-либо текст на странице, дождитесь, пока состояние будет **сохранено**, нажмите кнопку "назад" в браузере, а затем обновите страницу. В папке **Документы** появится новый файл **Документ.docx**.
 
-13. Нажмите кнопку с многоточием в документе **Document. docx** и выберите команду **получить ссылку**.
+13. Нажмите кнопку с многоточием для **Document.docx** документа, а затем щелкните **получить ссылку**.
 
-14. Скопируйте URL-адрес в диалоговом окне **общий доступ к Document. docx** и вставьте его в новую строку в блокноте или в текстовом редакторе, а затем закройте диалоговое окно **общий файл document. docx** .
+14. Скопируйте URL-адрес в диалоговом окне **общий доступ к Document.docxу** и вставьте его в новую строку в блокноте или в текстовом редакторе, а затем закройте диалоговое окно **общий доступ к Document.docx** .
 
 15. Закройте вкладки **ProjectX — Документы** и **SharePoint** в браузере и перейдите на вкладку **Домашняя страница Microsoft Office**.
 
@@ -278,7 +278,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 Теперь изолированный сайт SharePoint Online готов к выполнению дополнительного эксперимента.
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 Когда вы будете готовы выполнить развертывание изолированного сайта группы SharePoint Online в рабочей среде, просмотрите подробные инструкции из статьи [Разработка изолированного сайта группы SharePoint Online](design-an-isolated-sharepoint-online-team-site.md).
 
@@ -286,7 +286,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 [Изолированные сайты групп SharePoint Online](isolated-sharepoint-online-team-sites.md)
 
-[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
 [Базовая конфигурация "имитация предприятия"](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
 

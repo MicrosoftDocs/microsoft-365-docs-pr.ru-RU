@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: Сводка. Сведения о том, как создавать общедоступные, частные, конфиденциальные и строго конфиденциальные сайты групп SharePoint Online в среде разработки и тестирования для политической кампании.
-ms.openlocfilehash: d22ada823877d4c0996be942c379e12929242eaf
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 220056c8bb234d762b44431739c683164d7a9905
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755240"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308431"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Создание сайтов групп в среде разработки и тестирования для политической кампании
 
@@ -420,7 +420,7 @@ ms.locfileid: "44755240"
   
 [Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
   
-[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
   
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
 

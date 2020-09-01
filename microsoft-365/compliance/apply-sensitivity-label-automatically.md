@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначить документу или сообщению электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: 112857d9778cf850613c808474051eb25df74296
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5b466084701d2424aeaf9e7ee644d33861fdd5f3
+ms.sourcegitcommit: 87449335d9a1124ee82fa2e95e4745155a95a62f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656830"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47310890"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -255,7 +255,7 @@ ms.locfileid: "46656830"
     
     ![Страница выбора расположений мастера автоматического применения меток ](../media/locations-auto-labeling-wizard.png)
     
-    Для OneDrive вы должны указать отдельные учетные записи. URL-адрес для хранилища OneDrive пользователя указывается в следующем формате: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
+    Вы должны указать отдельные сайты SharePoint и учетные записи OneDrive. Для OneDrive: URL-адрес для учетной записи OneDrive пользователя указывается в следующем формате: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
     
     Например, для пользователя в клиенте Contoso с именем пользователя "rsimone": `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
     
@@ -312,4 +312,44 @@ ms.locfileid: "46656830"
 
 > [!TIP]
 > Также можно использовать обозреватель содержимого, чтобы определять расположения с документами, содержащими конфиденциальную информацию, но не имеющими меток. Используйте эту информацию, чтобы рассмотреть возможность добавления этих расположений в политику автоматического применения меток. Также включите обнаруженные типы конфиденциальной информации в качестве правил.
+
+### <a name="use-powershell-for-auto-labeling-policies"></a>Использование PowerShell для политик автоматического применения меток
+
+Теперь для создания и настройки политик автоматического применения меток вы можете использовать [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps). Это означает, что теперь можно использовать полноценный сценарий создания и обслуживания политик автоматического применения меток, который также предоставляет более эффективный метод указания нескольких URL-адресов для расположений OneDrive и SharePoint.
+
+Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+
+Создание политики автоматического применения меток: 
+
+```powershell
+New-AutoSensitivityLabelPolicy -Name <AutoLabelingPolicyName> -SharePointLocation "<SharePointSiteLocation>" -ApplySensitivityLabel <Label> -Mode TestWithoutNotifications
+```
+Эта команда создает политику автоматического применения меток для указанного сайта SharePoint. Для расположения OneDrive используйте вместо этого параметр *OneDriveLocation*. 
+
+Добавление других сайтов в существующую политику автоматического применения меток:
+
+```powershell
+$spoLocations = @("<SharePointSiteLocation1>","<SharePointSiteLocation2>")
+Set-AutoSensitivityLabelPolicy -Identity <AutoLabelingPolicyName> -AddSharePointLocation $spoLocations -ApplySensitivityLabel <Label> -Mode TestWithoutNotifications
+```
+
+Эта команда указывает дополнительные URL-адреса SharePoint в переменной, которая затем добавляется в существующую политику автоматического применения меток. Чтобы добавить вместо этого расположение OneDrive, используйте параметр *AddOneDriveLocation* с другой переменной, например *$OneDriveLocations*.
+
+Создание правила политики автоматического применения меток:
+
+```powershell
+New-AutoSensitivityLabelRule -Policy <AutoLabelingPolicyName> -Name <AutoLabelingRuleName> -ContentContainsSensitiveInformation @{"name"= "a44669fe-0d48-453d-a9b1-2cc83f2cba77"; "mincount" = "2"} -Workload SharePoint
+```
+
+Для существующей политики автоматического применения меток эта команда создает новое правило политики для определения типа конфиденциальной информации **номера социального страхования США (SSN)** с идентификатором объекта a44669fe-0d48-453d-a9b1-2cc83f2cba77. Идентификаторы объектов других типов конфиденциальной информации см. в статье [Определения типов конфиденциальной информации](sensitive-information-type-entity-definitions.md).
+
+Дополнительные сведения о командлетах PowerShell, поддерживающих политики автоматического применения меток, их доступные параметры и некоторые примеры, см. в справке по следующим командлетам:
+
+- [Get-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/get-autosensitivitylabelpolicy)
+- [New-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelpolicy?view=exchange-ps)
+- [New-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelrule?view=exchange-ps)
+- [Remove-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelpolicy?view=exchange-ps)
+- [Remove-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelrule?view=exchange-ps)
+- [Set-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelpolicy?view=exchange-ps)
+- [Set-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelrule?view=exchange-ps)
 

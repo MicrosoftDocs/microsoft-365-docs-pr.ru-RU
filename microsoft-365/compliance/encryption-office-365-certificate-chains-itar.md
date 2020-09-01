@@ -1,5 +1,5 @@
 ---
-title: 'Цепочки шифрования Office 365: DOD и GCC High'
+title: Цепочки шифрования Office 365 — DoD и GCC High
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -17,16 +17,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Просмотрите полный список высокодоступных корневых сертификатов DOD и GCC и центров сертификации в Office 365.
-ms.openlocfilehash: 615a62b2ae2a954580ebf82f4c1b70748c991a71
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 19f164669392372c99c562f55cfb05487d9f7ed2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951907"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308282"
 ---
-# <a name="office-365-encryption-chains---dod-and-gcc-high"></a>Цепочки шифрования Office 365: DOD и GCC High
+# <a name="office-365-encryption-chains---dod-and-gcc-high"></a>Цепочки шифрования Office 365 — DoD и GCC High
 
-Office 365 использует несколько различных поставщиков сертификатов. Ниже приведен полный список известных корневых сертификатов Office 365, которые могут возникать при доступе к Office 365 для пользователей с неизвестным **уровнем "DOD" и "GCC** ". Для получения сведений о сертификатах, которые могут потребоваться установить в собственной инфраструктуре, ознакомьтесь со статьей [Plan for СТОРОННЕГО SSL Certificates for Office 365](https://docs.microsoft.com/office365/enterprise/plan-for-third-party-ssl-certificates).
+Office 365 использует несколько различных поставщиков сертификатов. Ниже приведен полный список известных корневых сертификатов Office 365, которые могут возникать при доступе к Office 365 для пользователей с неизвестным **уровнем "DOD" и "GCC** ". Для получения сведений о сертификатах, которые могут потребоваться установить в собственной инфраструктуре, ознакомьтесь со статьей [Plan for СТОРОННЕГО SSL Certificates for Office 365](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates).
 
 Следующие сведения о сертификате применяются ко всем клиентам с вызовом **DOD и GCC High**.
 
@@ -119,7 +119,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-root-certification-authority"></a>**Корневой центр сертификации ентруст**
 
-| **Тема** | CN = Ентруст корневой центр сертификации<br>OU = "(c) 2006 Ентруст, Inc."<br>OU = www. ентруст. NET/CPS включен по ссылке<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = Ентруст корневой центр сертификации<br>OU = "(c) 2006 Ентруст, Inc."<br>OU = www. ентруст. NET/CPS включен по ссылке<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Серийный номер** | 45:6B: 50:54 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -133,7 +133,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Корневой центр сертификации ентруст — G2**
 
-| **Тема** | CN = Ентруст корневой центр сертификации — G2<br>OU =&quot;(c) 2009 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = Ентруст корневой центр сертификации — G2<br>OU = &quot; (c) 2009 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Серийный номер** | 4A: 53:8C: 28 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -147,7 +147,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Центр сертификации Entrust.net (2048)**
 
-| **Тема** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS\_2048. по ссылке ref. (Limit s лиаб.)<br>O = Ентруст. NET |
+| **Тема** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS \_ 2048. по ссылке ref. (Limit s лиаб.)<br>O = Ентруст. NET |
 | --- | --- |
 | **Серийный номер** | 38:63: DE: F8 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -161,9 +161,9 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-certification-authority---l1c"></a>**Центр сертификации ентруст — L1C**
 
-| **Тема** | CN = центр сертификации Ентруст — L1C<br>OU =&quot;(c) 2009 Ентруст, Inc.&quot;<br>OU = www. ентруст. NET/РПА внедряется по ссылке<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = центр сертификации Ентруст — L1C<br>OU = &quot; (c) 2009 ентруст, Inc.&quot;<br>OU = www. ентруст. NET/РПА внедряется по ссылке<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
-| **Издатель** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS\_2048. по ссылке ref. (Limits лиаб.)<br>O = Ентруст. NET |
+| **Издатель** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS \_ 2048. по ссылке ref. (Limits лиаб.)<br>O = Ентруст. NET |
 | **Серийный номер** | 4C: 0E: 8C: 39 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
 | **Алгоритм подписи** | sha1RSA |
@@ -179,9 +179,9 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-certification-authority---l1e"></a>**Центр сертификации ентруст — L1E**
 
-| **Тема** | CN = центр сертификации Ентруст — L1E<br>OU =&quot;(c) 2009 Ентруст, Inc.&quot;<br>OU = www. ентруст. NET/РПА внедряется по ссылке<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = центр сертификации Ентруст — L1E<br>OU = &quot; (c) 2009 ентруст, Inc.&quot;<br>OU = www. ентруст. NET/РПА внедряется по ссылке<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
-| **Издатель** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS\_2048. по ссылке ref. (Limits лиаб.)<br>O = Ентруст. NET |
+| **Издатель** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS \_ 2048. по ссылке ref. (Limits лиаб.)<br>O = Ентруст. NET |
 | **Серийный номер** | 4C: 0E: C9:18 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
 | **Алгоритм подписи** | sha1RSA |
@@ -196,9 +196,9 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-certification-authority---l1k"></a>**Центр сертификации ентруст — L1K**
 
-| **Тема** | CN = центр сертификации Ентруст — L1K<br>OU =&quot;(c) 2012 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = центр сертификации Ентруст — L1K<br>OU = &quot; (c) 2012 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
-| **Издатель** | CN = Ентруст корневой центр сертификации — G2<br>OU =&quot;(c) 2009 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Издатель** | CN = Ентруст корневой центр сертификации — G2<br>OU = &quot; (c) 2009 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | **Серийный номер** | 0E: E9:4C: С3:00:00:00:00:51:: 77:85 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
 | **Алгоритм подписи** | sha256RSA |
@@ -214,9 +214,9 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-certification-authority---l1m"></a>**Центр сертификации ентруст — L1M**
 
-| **Тема** | CN = Ентруст центр сертификации — L1M, OU =&quot;(c) 2014 Ентруст, Inc. — только для авторизованного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = Ентруст центр сертификации — L1M, OU = &quot; (c) 2014 ентруст, Inc. — только для авторизованного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
-| **Издатель** | CN = Ентруст корневой центр сертификации — G2<br>OU =&quot;(c) 2009 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Издатель** | CN = Ентруст корневой центр сертификации — G2<br>OU = &quot; (c) 2009 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | **Серийный номер** | 61: A1: E7: D2:00:00:00:00:51: D3:66: A6 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
 | **Алгоритм подписи** | sha256RSA |
