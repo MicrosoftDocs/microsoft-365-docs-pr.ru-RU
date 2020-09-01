@@ -293,7 +293,7 @@
           items:
             - name: Проверка параметров на устройствах с Android или iOS
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: "Настройка параметров защиты устройств для компьютеров с Windows\_10"
+        - name: "Правка или создание параметров защиты устройств для компьютеров с Windows\_10"
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: Проверка параметров на компьютерах с Windows 10
