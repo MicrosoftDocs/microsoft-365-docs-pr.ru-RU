@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: План настройки облачных служб для Microsoft 365.
-ms.openlocfilehash: 2b6b69f25888305232ba93d9d738319fe5137019
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4e9630ad84b5e442f0c8fd6ab95ca9d0c48c780a
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693375"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315769"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>План облачных служб для Microsoft 365
 
@@ -28,11 +28,11 @@ ms.locfileid: "46693375"
 
 ## <a name="deploy"></a>Развертывание
 
-На этапе развертывания облачных служб:
+Чтобы развернуть облачные службы, выполните указанные ниже действия.
 
 - [Подготовка служб](configure-services-and-applications.md)
 - [Перенос локальных данных в Microsoft 365](migrate-data-to-office-365.md)
-- Развертывание облачных служб
+- Получение облачных служб, настроенных для пользователей
   - [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
   - [SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-online)
   - [Skype для бизнеса](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
@@ -42,7 +42,7 @@ ms.locfileid: "46693375"
 
 ## <a name="manage"></a>Управление
 
-На этапе управления облачными службами: 
+Для управления облачными службами: 
 
 - [Проверка работоспособности службы](view-service-health.md)
 - [Общие сведения о вариантах поддержки](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

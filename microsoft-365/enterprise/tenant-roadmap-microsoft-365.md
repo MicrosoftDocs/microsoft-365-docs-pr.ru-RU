@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: План настройки клиентов для Microsoft 365.
-ms.openlocfilehash: db7054d1f6afc7e4835507dc6415e0b240918c1f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 540d1bc53ac06b85d22a8a60a62e51761e10339c
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693511"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315757"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>План обслуживания клиентов для Microsoft 365
 
@@ -30,7 +30,7 @@ ms.locfileid: "46693511"
 
 ## <a name="plan"></a>План
 
-На этапе планирования реализации клиента:
+Чтобы спланировать реализацию клиента, выполните указанные ниже действия.
 
 - [Общие сведения о подписках, лицензиях и клиентах Azure Active Directory (Azure AD)](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 - [Сведения об использовании сторонних SSL-сертификатов](plan-for-third-party-ssl-certificates.md)
@@ -44,7 +44,7 @@ ms.locfileid: "46693511"
 
 ## <a name="deploy"></a>Развертывание
 
-На этапе развертывания реализации клиента [Добавьте домены DNS](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) для Организации.
+Чтобы развернуть клиент, [Добавьте домены DNS](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) для Организации.
 
 ## <a name="tenants-with-multiple-geographic-locations"></a>Клиенты с несколькими географическими расположениями
 
@@ -52,7 +52,7 @@ ms.locfileid: "46693511"
 
 Приступите к [работе](microsoft-365-multi-geo.md) : Общие сведения, планирование, Настройка и администрирование с помощью Microsoft 365 с поддержкой нескольких регионов.
 
-## <a name="moving-a-tenants-geographic-locations"></a>Перемещение географических расположений клиента
+## <a name="move-a-tenants-geographic-locations"></a>Перемещение географических расположений клиента
 
 Корпорация Майкрософт продолжает открывать новые географические расположения центра обработки данных (жеос) для служб Microsoft 365. Эти новые центры обработки данных жеос добавляют ресурсы емкости и вычислительные ресурсы для поддержки роста требований клиентов и использования. Кроме того, новые центры обработки данных жеос предоставляют размещению данных для основных данных клиентов.
 

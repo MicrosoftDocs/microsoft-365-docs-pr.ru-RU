@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Узнайте, как управлять параметрами сценариев Office для пользователей в Организации.
-ms.openlocfilehash: 12a80f277f6d17a8e7f5228f6948e70b7a93be11
-ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+ms.openlocfilehash: 44e2a5c0e0577db344fdbb00a110674df3e71bdc
+ms.sourcegitcommit: 04f196528a7a91b404478553433af3fa94d7eee7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300841"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47317497"
 ---
 # <a name="manage-office-scripts-settings"></a>Управление параметрами сценариев Office
 
 Сценарии Office позволяют пользователям автоматизировать задачи, записывая, редактируя и запуская скрипты в Excel в Интернете. Сценарии Office работают с автоматизацией управления питанием, а пользователи выполняют сценарии с книгами с помощью соединителя Excel Online (Business). Администраторы Microsoft 365 могут управлять параметрами сценариев Office в центре администрирования Microsoft 365.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Прежде чем начать
 
 - Для управления параметрами сценариев Office необходимо быть глобальным администратором. Более подробную информацию можно узнать в статье [сведения о ролях администратора](../add-users/about-admin-roles.md).
 
@@ -35,7 +35,7 @@ ms.locfileid: "47300841"
 
     - Microsoft 365 бизнес стандарт
     - Приложения Microsoft 365 для бизнеса
-    - Приложения Microsoft 365 для предприятий
+    - Microsoft 365 корпоративные приложения
     - Office 365 E3
     - Office 365 E5
     - Office 365 A3

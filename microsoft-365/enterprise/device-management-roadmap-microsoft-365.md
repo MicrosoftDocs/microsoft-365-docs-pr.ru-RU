@@ -15,12 +15,12 @@ ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
 description: Схема настройки управления устройствами для Microsoft 365.
-ms.openlocfilehash: 1c5a06c75ede11697e2ecf17c47eb035e78dcd27
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1a1bdb449aa1d1ba12cf1de422b3e279df6c1376
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693188"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315745"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Схема управления устройствами для Microsoft 365
 
@@ -47,17 +47,11 @@ Intune предоставляет возможности для управлен
  
 ## <a name="identity-and-device-access-recommendations"></a>Рекомендации по доступу для удостоверений и устройств
 
-Корпорация Майкрософт предоставляет набор рекомендаций для [удостоверений и доступа к устройству](microsoft-365-policies-configurations.md) с целью обеспечения безопасности и эффективности работы сотрудников. Для доступа к устройству используйте рекомендации и параметры, приведенные в следующих статьях, а также действия, описанные на этом этапе:
+Корпорация Майкрософт предоставляет набор рекомендаций для [удостоверений и доступа к устройству](microsoft-365-policies-configurations.md) с целью обеспечения безопасности и эффективности работы сотрудников. В разделе "доступ к устройству" используйте рекомендации и параметры, приведенные в следующих статьях:
 
 - [Необходимые компоненты](identity-access-prerequisites.md)
 - [Основные политики доступа для удостоверений и устройств](identity-access-policies.md)
 
-## <a name="how-microsoft-does-device-management-for-microsoft-365"></a>Как Майкрософт выполняет Управление устройствами для Microsoft 365
-
-Узнайте, как специалисты корпорации Майкрософт [управляют устройствами с помощью EMS](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR8).
-
 ## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Сведения об управлении устройствами компанией Contoso для Microsoft 365
 
 Узнайте, как Корпорация Contoso, вымышленная, но предопределяющая многонациональная организация, [развернула инфраструктуру управления мобильными устройствами](contoso-mdm.md) с Microsoft 365 Cloud Services.
-
-![Корпорация Contoso](../media/contoso-overview/contoso-icon.png)
