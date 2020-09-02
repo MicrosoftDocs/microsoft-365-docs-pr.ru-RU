@@ -1,5 +1,5 @@
 ---
-title: Настройка Microsoft 365 бизнес премиум
+title: Настройка Microsoft 365 бизнес премиум
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -30,20 +30,16 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: В этой статье приведены инструкции по настройке Microsoft 365 Business Premium, в том числе добавление домена и пользователей, Настройка политик безопасности и многое другое.
-ms.openlocfilehash: efa7934ece0dfeac3c4b20daa37da6f1160901e7
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: cc20637d7a78bd34ecb61a4ed46eb06d564d63df
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079813"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324503"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 бизнес премиум в мастере установки
 
 В этом видеоролике приводится обзор программы установки Microsoft 365 Business Premium.<br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
-
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Добавление домена, пользователей и Настройка политик
 

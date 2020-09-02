@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +18,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
-description: Сведения о том, как проверить, какие подписки в организации имеют, перейдя на страницу подписки.
-ms.openlocfilehash: fff76f1a9ac127d061460767a41941f4daf2ea32
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Сведения о том, как проверить, на какую подписку использует ваша организация, перейдя на страницу Products.
+ms.openlocfilehash: bd7b7726c93ee6c5022df7ca72342d8d3b7a1c09
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780509"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324552"
 ---
 # <a name="what-subscription-do-i-have"></a>Какая у меня подписка?
 
@@ -40,8 +37,9 @@ ms.locfileid: "44780509"
 ::: moniker range="o365-worldwide"
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
-
-2. Ваши подписки отображаются на странице " **продукты** ", вместе с именем подписки, сведениями о подписке и ее состоянии. Чтобы просмотреть сжатое представление, выберите **представление таблицы**.
+2. На вкладке **продукты** отображаются все подписки. Каждая строка подписки включает сведения о лицензиях, состоянии подписки и выставлении счетов.
+3. Если требуется изменить столбцы, которые отображаются в списке, выберите **выбрать столбцы**. Измените выбор столбцов, а затем нажмите кнопку **сохранить**.
+4. Чтобы просмотреть дополнительные сведения о одной подписке, выберите эту подписку.
 
 ::: moniker-end
   
@@ -83,6 +81,6 @@ ms.locfileid: "44780509"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
   
 [Подписки и выставление счетов](../../commerce/index.yml)

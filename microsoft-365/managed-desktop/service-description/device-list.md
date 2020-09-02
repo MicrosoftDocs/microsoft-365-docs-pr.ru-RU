@@ -1,6 +1,6 @@
 ---
 title: Управляемые устройства для настольных компьютеров Майкрософт
-description: В этом разделе перечислены спецификации устройств, используемые в Microsoft Managed Desktop.
+description: В этом разделе перечислены спецификации устройств, утвержденных для настольных компьютеров, управляемых корпорацией Майкрософт.
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -8,16 +8,16 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 44db48dc520b0e7a19aae56268cbe03314889979
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: e7d0b88542f9329d10d241e68864333ed1ec1730
+ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529425"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321977"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
-Рабочий стол, управляемый Майкрософт, регулярно оценивает устройства, которые должны быть включены в службу. В этом разделе описываются требования к устройству, которое необходимо зарегистрировать в управляемом рабочем столе Майкрософт, и список определенных устройств, которые в настоящее время поддерживаются.
+Рабочий стол, управляемый Майкрософт, регулярно оценивает устройства, которые должны быть включены в службу. В этой статье описываются требования к устройству, которое необходимо зарегистрировать в управляемом рабочем столе Майкрософт, и список определенных устройств, которые в настоящее время поддерживаются.
 
 Для получения дополнительных сведений об управляемых настольных компьютерах Майкрософт ознакомьтесь [с документацией и ресурсами на рабочем столе Майкрософт](https://docs.microsoft.com/microsoft-365/managed-desktop/). 
 
@@ -31,8 +31,9 @@ ms.locfileid: "46529425"
 >Устройства можно добавлять в эту таблицу в любое время, но мы предоставляем 90 дней уведомления о любых изменениях, затрагивающих архивную или пенсионную дату. Устройства, добавленные последними, помечаются **\*** .
 
 
-**Управляемые устройства для настольных компьютеров Майкрософт**
+## <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт
 
+### <a name="dell"></a>Предоставляет
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архивации   | Дата выбытия   |
 |----------|----------------|---------------------------|----------------|--------------------|
@@ -50,6 +51,11 @@ ms.locfileid: "46529425"
 | **\*[Dell Latitude 7410 2 – in – 1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-7410-business-laptop-or-2-in-1/spd/latitude-14-7410-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 19 мая 2022 г. | 19 мая 2025 г.
 | **\*[Dell Latitude 9410 2 – in – 1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 19 мая 2022 г.  | 19 мая 2025 г.  |
 | [Dell OptiPlex 3070](https://www.dell.com/en-us/work/shop/desktops-n-workstations/3070/spd/optiplex-3070-desktop) | 128 ГБ/Intel i3/8 ГБ ОЗУ | Нет | 1 мая 2022 г.  | 1 мая 2025 г.  |
+
+### <a name="hp"></a>КОМПАНИИ
+
+| Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архивации   | Дата выбытия   |
+|----------|----------------|---------------------------|----------------|--------------------|
 | [HP об 830/840/850 G6 Notebook PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев | 30 ноября 2020 г. | 30 ноября 2023 г. |
 | [HP об x360 830 G6 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев | 30 ноября 2020 г. | 30 ноября 2023 г. |
 | [HP елите x2 G4 для планшетов](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS03AV | 31 июля 2021 г. | 31 июля 2024 г. |
@@ -58,6 +64,11 @@ ms.locfileid: "46529425"
 | [HP елите Драгонфли](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ21AV | 31 декабря 2020 г. | 31 декабря 2023 г. |
 | [HP Z2 Mini G4 Workstation](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8QR48AV| 31 января 2021 г. | 31 января 2024 г. |
 | [HP Збук 14U/15U G6 Mobile Workstation](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS02AV, необходима ИК-камера | 30 ноября 2020 г. | 30 ноября 2023 г. |
+
+### <a name="microsoft"></a>Майкрософт
+
+| Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архивации   | Дата выбытия   |
+|----------|----------------|---------------------------|----------------|--------------------|
 | **\*[Книга Surface 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 21 мая, 2022 | 21 мая, 2027 |
 | **\*[Переход на поверхность 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab)** | 128 ГБ/с Intel Core M3/8 ГБ ОЗУ | Нет | 21 мая, 2022 | 21 мая, 2027 |
 | [Ноутбук 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
