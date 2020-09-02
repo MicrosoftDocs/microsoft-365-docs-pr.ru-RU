@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить ключ клиента для Microsoft 365 для Exchange Online, Skype для бизнеса, SharePoint Online, OneDrive для бизнеса и файлов Teams.
-ms.openlocfilehash: 0743b4339dae8e70960293f51a7869dc61fea606
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 94403e1d76fbc6fdf06d784fbb7bb9025dc06fc0
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868894"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324215"
 ---
 # <a name="set-up-customer-key"></a>Настройка ключа клиента
 
@@ -31,7 +31,9 @@ ms.locfileid: "46868894"
   
 ## <a name="before-you-set-up-customer-key"></a>Перед настройкой ключа клиента
 
-Прежде чем приступить к работе, убедитесь, что у вас есть подходящие лицензии для вашей организации. Ключ клиента в Microsoft 365 предлагается в Office 365 а или в расширенном соответствии с КОНФИГУРАЦИей. Для ознакомления с основными понятиями и процедурами, описанными в этом разделе, ознакомьтесь с документацией по [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Кроме того, ознакомьтесь с терминами, используемыми в Azure, например, " [клиент](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100))".
+Прежде чем приступить к работе, убедитесь, что у вас есть подходящие лицензии для вашей организации. Начиная с 1 апреля 2020 г. ключ клиента в Office 365 предлагается в Office 365, M365, M365 и M365 Information & Protection. Расширенная конфигурация соответствия требованиям Office 365 больше недоступна для новых лицензий приобретение. Существующие лицензии на Office 365 с расширенным соответствием продолжат поддерживаться.
+
+Для ознакомления с основными понятиями и процедурами, описанными в этом разделе, ознакомьтесь с документацией по [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) . Кроме того, ознакомьтесь с терминами, используемыми в Azure, например с [клиентом Azure AD](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant).
 
 FastTrack используется только для сбора необходимых сведений о конфигурации клиента и службы, используемых для регистрации ключа клиента. Клиентские предложения публикуются с помощью FastTrack, чтобы вы и наши партнеры могли отсылать нужную информацию с помощью одного и того же метода. FastTrack также упрощает архивацию данных, предоставленных в предложении.
   
@@ -195,7 +197,7 @@ SharePoint Online и OneDrive для бизнеса:
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   Например,
+   Например:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -319,7 +321,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > В качестве выходного файла выберите сочетание имени хранилища и имени ключа. Это сделает имя файла самоописанием. Кроме того, это гарантирует, что имена файлов резервных копий не будут конфликтовать.
   
-Например,
+Например:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup

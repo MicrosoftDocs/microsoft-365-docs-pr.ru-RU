@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Воспользуйтесь средством поиска обнаружения электронных данных поиска контента для поиска элементов, импортированных в почтовые ящики в Microsoft 365, из стороннего источника данных путем создания запросов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 823d95d6b32a15662004bfc5d92662b130fe4a65
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 24ca63cf78b85f7b8b5181d5babd16058b641128
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527419"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324575"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>Использование поиска контента для поиска данных сторонних поставщиков, импортированных с помощью настраиваемого соединителя партнера
 
@@ -35,7 +35,7 @@ ms.locfileid: "46527419"
   
 ## <a name="creating-a-query-to-search-all-third-party-data"></a>Создание запроса для поиска всех сторонних данных
 
-Чтобы выполнить поиск (или поместиться на удержании) любого типа сторонних данных, импортированных в Office 365, можно использовать параметр `kind:externaldata` Message-value в поле ключевое слово для поиска контента или при создании удержания на основе запроса. Например, чтобы найти элементы, импортированные из стороннего источника данных и содержащие слово "contoso" в свойстве subject импортированного элемента, используйте следующий запрос: 
+Чтобы выполнить поиск (или поместиться на удержании) любого типа сторонних данных, импортированных в Office 365, можно использовать параметр  `kind:externaldata` Message-value в поле ключевое слово для поиска контента или при создании удержания на основе запроса. Например, чтобы найти элементы, импортированные из стороннего источника данных и содержащие слово "contoso" в свойстве subject импортированного элемента, используйте следующий запрос: 
   
 ```powershell
 kind:externaldata AND subject:contoso
@@ -59,9 +59,9 @@ itemclass:ipm.externaldata.<third-party data type>*
 itemclass:ipm.externaldata.Facebook* AND subject:contoso
 ```
 
-В следующей таблице приведены типы данных третьих сторон, которые можно найти, а также значение, которое будет использоваться для `itemclass:` свойства Message для точного поиска этого типа сторонних данных. В синтаксисе запроса регистр не учитывается. 
+В следующей таблице приведены типы данных третьих сторон, которые можно найти, а также значение, которое будет использоваться для  `itemclass:` свойства Message для точного поиска этого типа сторонних данных. В синтаксисе запроса регистр не учитывается. 
   
-|**Сторонний тип данных**|**Значение `itemclass:` Свойства**|
+|**Сторонний тип данных**|**Значение  `itemclass:` Свойства**|
 |:-----|:-----|
 |СТАРАЙТЕСЬ  <br/> | `ipm.externaldata.AIM*` <br/> |
 |American Idol;  <br/> | `ipm.externaldata.AmericanIdol*` <br/> |
@@ -82,7 +82,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |ПИН-код BlackBerry  <br/> | `ipm.externaldata.BlackBerryPIN*` <br/> |
 |BlackBerry SMS  <br/> | `ipm.externaldata.BlackBerrySMS*` <br/> |
 |Bloomberg  <br/> | `ipm.externaldata.Bloomberg*` <br/> |
-|Bloomberg Mail;  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
+|Сообщение Bloomberg  <br/> | `ipm.externaldata.conversation.Bloomberg Message*` <br/> |
 |Обмен сообщениями Bloomberg  <br/> | `ipm.externaldata.BloombergMessaging*` <br/> |
 |Box  <br/> | `ipm.externaldata.Box*` <br/> |
 |Сервер присутствия для обмена мгновенными сообщениями Cisco &amp;  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
@@ -102,10 +102,10 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |хубконнекс  <br/> | `ipm.externaldata.HubConnex*` <br/> |
 |Подключения IBM  <br/> | `ipm.externaldata.Connections*` <br/> |
 |IBM SameTime  <br/> | `ipm.externaldata.Sametime*` <br/> |
-|Чат  <br/> | `ipm.externaldata.ICEChat.Chat` <br/> |
+|ICE Chat  <br/> | `ipm.externaldata.conversation.Ice Chat*` <br/> |
 |Indii Messenger;  <br/> | `ipm.externaldata.Indii*` <br/> |
 |инстаграм  <br/> | `ipm.externaldata.Instagram*` <br/> |
-|Instant Bloomberg;  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |
+|Instant Bloomberg  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |
 |инвестедже  <br/> | `ipm.externaldata.InvestEdge*` <br/> |
 |IRC  <br/> | `ipm.externaldata.IRC*` <br/> |
 |Jive  <br/> | `ipm.externaldata.Jive*` <br/> |

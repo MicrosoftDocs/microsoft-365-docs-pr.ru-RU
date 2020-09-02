@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: После настройки ключа клиента Узнайте, как управлять им с помощью восстановления ключей АКВ и управления разрешениями и политиками шифрования данных.
-ms.openlocfilehash: 21c1fedce1ebc09e6c33b74a1b2c035c90988e12
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 8f5f23fa1b8ce8baa8fafd3f29ca5fb8905887a1
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717310"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324261"
 ---
 # <a name="manage-customer-key"></a>Управление ключом клиента
 
@@ -32,7 +32,7 @@ ms.locfileid: "44717310"
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-Пример:
+Например:
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -50,7 +50,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-Пример:
+Например:
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -62,7 +62,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-Пример:
+Например:
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com
@@ -84,11 +84,11 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
 
 2. Чтобы возвратить все ДЕПС в Организации, выполните командлет Get – Dataencryptionpolicy используется без параметров.
 
-  ```powershell
-  Get-DataEncryptionPolicy
-  ```
+   ```powershell
+   Get-DataEncryptionPolicy
+   ```
 
-  Дополнительные сведения о командлете Get – Dataencryptionpolicy используется можно найти в статье [Get – dataencryptionpolicy используется](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps).
+   Дополнительные сведения о командлете Get – Dataencryptionpolicy используется можно найти в статье [Get – dataencryptionpolicy используется](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps).
 
 ### <a name="assign-a-dep-before-you-migrate-a-mailbox-to-the-cloud"></a>Назначение функции DEP перед переносом почтового ящика в облако
 
@@ -100,11 +100,11 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
 
 2. Выполните командлет Set – MailUser.
 
-  ```powershell
-  Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
-  ```
+   ```powershell
+   Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
+   ```
 
-  Где *женералмаилбоксормаилусеридпараметер* указывает почтовый ящик, а *датаенкриптионполициидпараметер* — идентификатор функции DEP. Дополнительные сведения о командлете Set – MailUser см. в разделе [Set – MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps).
+   Где *женералмаилбоксормаилусеридпараметер* указывает почтовый ящик, а *датаенкриптионполициидпараметер* — идентификатор функции DEP. Дополнительные сведения о командлете Set – MailUser см. в разделе [Set – MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps).
 
 ### <a name="determine-the-dep-assigned-to-a-mailbox"></a>Определение функции DEP, назначенной для почтового ящика
 
@@ -167,6 +167,20 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
   - **Зарегистрировано:** Шифрование ключей клиентов применено, а все файлы на всех сайтах зашифрованы.
 
   - **Пошаговое руководство:** Выполняется основной этап. Если ключ для Geo является скользящим, вы также увидите сведения о том, на каком проценте сайтов выполнялась операция полного выполнения, чтобы можно было отслеживать ход выполнения.
+
+## <a name="unassign-a-dep-from-a-mailbox"></a>Отмена назначения функции DEP для почтового ящика
+
+Вы отменяет назначение DEP для почтового ящика с помощью командлета PowerShell Set — Mailbox и установки `DataEncryptionPolicy` для параметра to `$NULL` . Выполнение этого командлета отменяет Назначение текущей назначенной функции DEP и выполняет повторное шифрование почтового ящика с помощью DEP, связанного с управляемыми ключами Майкрософт по умолчанию. Вы не можете отменить назначение DEP, используемое управляемыми ключами Майкрософт. Если вы не хотите использовать управляемые ключи Майкрософт, вы можете назначить другой компонент DEP для почтового ящика.
+
+Чтобы отменить назначение DEP для почтового ящика с помощью командлета PowerShell Set — Mailbox, выполните указанные ниже действия.
+
+1. С помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в Организации, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+
+2. Запустите командлет Set — Mailbox.
+
+   ```powershell
+   Set-Mailbox -Identity <mailbox> -DataEncryptionPolicy $NULL
+   ```
 
 ## <a name="revoke-your-keys-and-start-the-data-purge-path-process"></a>Отзыв ключей и начало процесса очистки данных
 
