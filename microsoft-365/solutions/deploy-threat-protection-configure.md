@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: fb1290a0f0b884fdbc630cbfcd10cd1102c8acae
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: a5f3f93ad70210143cbe774c2a4e96542b1cfd34
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597513"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332680"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Настройка возможностей защиты от угроз в Microsoft 365
 
@@ -32,12 +32,12 @@ ms.locfileid: "46597513"
 Корпорация Майкрософт проверила и рекомендует определенный набор условного доступа и связанных политик для защиты доступа ко всем приложениям SaaS, особенно Microsoft 365. Политики рекомендуются для базовой, конфиденциальной и строго регулируемой защиты. Начните с реализации политик для базовой защиты. 
 
 
-[ ![ Общие политики для настройки удостоверений и доступа к устройствам](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
- [просмотреть более крупную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+[ ![ Общие политики для настройки удостоверений и доступа к устройствам](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
+ [просмотреть более крупную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
 ### <a name="to-implement-baseline-protection-for-microsoft-365"></a>Реализация базовой защиты для Microsoft 365
 
-![Процесс развертывания средств защиты от угроз](../media/solutions-architecture-center/deploy-threat-protection-identity-access-steps.png) 
+![Процесс развертывания базовой защиты](../media/solutions-architecture-center/deploy-threat-protection-identity-access-steps.png) 
 
 1. [Настройка необходимых компонентов, в том числе защита удостоверений Azure](../enterprise/identity-access-prerequisites.md).
 2. [Настройка общих политик идентификации и доступа к устройствам](../enterprise/identity-access-policies.md) для базовой защиты.
@@ -60,7 +60,7 @@ Azure ATP позволяет аналитикам и специалистам п
 
 ### <a name="to-set-up-azure-atp"></a>Настройка Azure ATP
 
-![Процесс развертывания средств защиты от угроз](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
+![Процесс развертывания Azure ATP](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
 
 1. [Настройте Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) для защиты основных сред.
 2. Защитите все [контроллеры домена](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) и [леса](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest).
@@ -80,7 +80,7 @@ Azure ATP позволяет аналитикам и специалистам п
 
 ### <a name="to-set-up-microsoft-threat-protection"></a>Настройка защиты от угроз Майкрософт
 
-![Процесс развертывания средств защиты от угроз](../media/solutions-architecture-center/deploy-mtp-steps.png) 
+![Процесс развертывания системы защиты от угроз Майкрософт](../media/solutions-architecture-center/deploy-mtp-steps.png) 
 
 1. [Проверьте предварительные требования](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites).
 2. [Включите защиту от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
@@ -97,14 +97,14 @@ Azure ATP позволяет аналитикам и специалистам п
 
 |Возможности настройки, защиты и обнаружения|Возможности автоматизации, исследования, исправления и образования|
 |---|---|
-|[Безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Безопасные ссылки](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Безопасные документы](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Защита от фишинга ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Журналы учета угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Обозреватель угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Автоматизированный анализ угроз и реакция на угрозы](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Эмулятор атак](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
+|[Безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Безопасные ссылки](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Безопасные документы](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Защита от фишинга ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Трекеры угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Обозреватель угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Автоматизированный анализ угроз и реагирование на них](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Эмулятор атак](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
 С помощью Office 365 ATP сотрудники Организации могут общаться и совместно работать более безопасно, с защитой от угроз для содержимого электронной почты и документов Office.
 
 ### <a name="to-set-up-office-365-atp"></a>Настройка Office 365 ATP
 
-![Процесс развертывания средств защиты от угроз](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
+![Процесс развертывания Office 365 ATP](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
 
 1. [Установите и настройте политики Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
 2. [Просмотр и использование отчетов Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).
@@ -122,7 +122,7 @@ Azure ATP позволяет аналитикам и специалистам п
 
 ### <a name="set-up-microsoft-defender-atp"></a>Настройка пакета ATP для защитника Майкрософт
 
-![Процесс развертывания средств защиты от угроз](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
+![Процесс развертывания пакета ATP для защитника Microsoft](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
 
 1. [Подготовка развертывания Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases).
 2. [Настройка развертывания Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
@@ -140,7 +140,7 @@ Azure ATP позволяет аналитикам и специалистам п
 
 ### <a name="set-up-microsoft-cloud-app-security"></a>Настройка Microsoft Cloud App Security
 
-![Процесс развертывания средств защиты от угроз](../media/solutions-architecture-center/deploy-mcas-steps.png) 
+![Процесс развертывания Microsoft Cloud App Security](../media/solutions-architecture-center/deploy-mcas-steps.png) 
 
 1. [Настройка портала и других базовых требований](https://docs.microsoft.com/cloud-app-security/general-setup).
 2. [Настройка облачного обнаружения](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) и [Подключение приложений](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps).
@@ -185,7 +185,7 @@ Microsoft 365 предоставляет следующие материалы �
 |---------|---------|
 |Microsoft 365     |[Настраиваемые пути обучения](https://docs.microsoft.com/office365/customlearning/) <p>Эти ресурсы помогут вам объединить учебные курсы для конечных пользователей в Организации.        |
 |Безопасность Microsoft 365 |[Модуль обучения: Защитите свою организацию с помощью встроенной, интеллектуальной системы безопасности от Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>Этот модуль позволяет описать принципы взаимодействия функций безопасности Microsoft 365 и преимущества этих функций безопасности. |
-|многофакторная проверка подлинности;     | [Две этапа проверки: что такое дополнительная страница проверки?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Эта статья поможет пользователям определить многофакторную проверку подлинности и ее использование в вашей организации.    |
+|Многофакторная проверка подлинности     | [Две этапа проверки: что такое дополнительная страница проверки?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Эта статья поможет пользователям определить многофакторную проверку подлинности и ее использование в вашей организации.    |
 
 В дополнение к этим рекомендациям Корпорация Майкрософт рекомендует выполнять действия, описанные в этой статье: [Защитите свою учетную запись и устройства от хакеров и вредоносных программ](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx). Сюда входят следующие действия:
 - Использование надежных паролей

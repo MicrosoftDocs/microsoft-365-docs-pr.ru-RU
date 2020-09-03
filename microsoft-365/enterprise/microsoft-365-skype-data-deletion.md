@@ -1,7 +1,7 @@
 ---
 title: Удаление данных Office 365 в Skype для бизнеса
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: В этой статье рассказывается об удалении данных в Skype для бизнеса, в том числе о том, какие типы контента не поддерживаются.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf317f2ecd3d547ae8601553a34fb43fb4b5bd9d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0a47df4dd0dfdf5551668f8cafc9baa023bd6db1
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693387"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332716"
 ---
 # <a name="skype-for-business-data-deletion-in-office-365"></a>Удаление данных в Skype для бизнеса в Office 365
 

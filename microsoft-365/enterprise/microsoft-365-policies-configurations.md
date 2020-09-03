@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 9eaea7579faedace50ca76a69997fbfd83e452bb
-ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
+ms.openlocfilehash: 72344e1918a85de65ab7de8a60b7ace0b2629ac6
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321940"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332753"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
@@ -161,7 +161,7 @@ Windows 10 с приложениями Microsoft 365 для предприяти
 ![Действия по настройке идентификации и доступа к устройству.](../media/microsoft-365-policies-configurations/identity-device-access-steps.png)
 
 1. Настройка обязательных компонентов удостоверения и их параметров.
-2. Настройте наиболее распространенные политики условного доступа для удостоверений и доступа.
+2. Настройте общие политики удостоверений и условного доступа к этому доступу.
 3. Настройка политик условного доступа для гостевых и внешних пользователей.
 4. Настройка политик условного доступа для облачных приложений Microsoft 365, таких как Microsoft Teams, Exchange Online и SharePoint.
 

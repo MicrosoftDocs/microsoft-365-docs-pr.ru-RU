@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 71969a58acd64c3e830da398288249cbb8610b5f
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 17c32ea53d860e54a7c9a8fcf70778151c28c539
+ms.sourcegitcommit: 6ad2e4164ed59d5a58a0df9cb8413531c1be0986
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797797"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47334852"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -129,7 +129,7 @@ ms.locfileid: "46797797"
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- Identity 
+- Удостоверение 
 - Идентификация национальной идентификационной карточки 
 - DNI 
 - Национальная реестр пользователей NIC 
@@ -506,9 +506,6 @@ OR
       <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_australian_tax_file_number" />
         <Match idRef="Keyword_Australia_Tax_File_Number" />
-        <Any minMatches="0" maxMatches="0">
-          <Match idRef="Keyword_number_exclusions" />
-        </Any>
       </Pattern>
     </Entity>
 ```
@@ -526,39 +523,6 @@ OR
 - individual tax return
 - tax file number
 - тфн
-
-#### <a name="keyword_number_exclusions"></a>Keyword_number_exclusions
-
-- 00000001
-- 11111111
-- 22222222
-- 33333333
-- 44444444
-- 55555555
-- 66666666
-- 77777777
-- 88888888
-- 99999999
-- 000000000
-- 111111111
-- 222222222
-- 333333333
-- 444444444
-- 555555555
-- 666666666
-- 777777777
-- 888888888
-- 999999999
-- 0000000000
-- 1111111111
-- 2222222222
-- 3333333333
-- 4444444444
-- 5555555555
-- 6666666666
-- 7777777777
-- 8888888888
-- 9999999999
 
 ## <a name="austria-drivers-license-number"></a>Номер водительского удостоверения для Австрии
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
@@ -728,7 +692,9 @@ national id
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_austria_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция "Func_austria_eu_
+
+_or_equivalent ' находит содержимое, которое соответствует шаблону; 
     
 - Найдено ключевое слово FROM  `Keywords_austria_eu_ssn_or_equivalent` . 
     
@@ -1790,7 +1756,7 @@ national id
 - Legal entity 
 - Legal entities 
 - Registration Status 
-- Бизнес 
+- Для бизнеса 
 - Company
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
@@ -2864,20 +2830,28 @@ national id
 
 #### <a name="keyword_cc_verification"></a>Keyword_cc_verification
 
-- card verification
+- 
+card verification
+
 - card identification number
 - квн
 - cid
 - cvc2
 - cvv2
-- pin block
+- 
+pin block
 - security code
+
 - security number
+
 - security no
+
 - issue number
+
 - issue no
 - криптограмме
-- numéro de sécurité
+- 
+numéro de sécurité
 - numero de securite
 - кредиткартенпрüфнуммер
 - кредиткартенпруфнуммер
@@ -2888,24 +2862,32 @@ national id
 - сичерхеитснуммер
 - верфаллдатум
 - codice di verifica
-- наложен. сикурезза
-- cod sicurezza
+- наложен.сикурезза
+- 
+cod sicurezza
 - n autorizzazione
 - кóдиго
 - кодиго
-- наложен. сег
-- cod seg
+- наложен.сег
+- 
+cod seg
 - código de segurança
+
 - codigo de seguranca
+
 - codigo de segurança
+
 - código de seguranca
-- кóд. сегуранçа
-- наложен. сегуранка наложенный платеж. сегуранçа
-- кóд. сегуранка
-- cód segurança
-- наложенный на наложенный сегуранка сегуранçа
-- cód seguranca
+- кóд.сегуранçа
+- наложен.сегуранка
+- наложен.сегуранçа
+- кóд.сегуранка
+- кóд сегуранçа
+- сегуранка наложенного платежа
+- сегуранçа наложенного платежа
+- кóд сегуранка
 - número de verificação
+
 - numero de verificacao
 - аблауф
 - gültig bis
@@ -2913,54 +2895,79 @@ national id
 - gultig bis
 - гултигкеитсдатум
 - скаденза
-- data scad
+- 
+data scad
 - fecha de expiracion
+
 - fecha de venc
 - венЦимиенто
-- válido hasta
+- 
+válido hasta
 - valido hasta
 - вто
-- data de expiração
+- 
+data de expiração
 - data de expiracao
+
 - data em que expira
 - валидаде
 - валор
 - венЦименто
-- венк 
+- операций
+- номер транзакции
+- Справочный номер
+- セキュリティコード
+- セキュリティ コード
+- セキュリティナンバー
+- セキュリティ ナンバー
+- セキュリティ番号
+
 
 #### <a name="keyword_cc_name"></a>Keyword_cc_name
 
 - амекс
 - american express
 - американекспресс
+- americano espresso
+
 - Visa
 - MasterCard
 - master card
-- MC 
+- MC
 - мастеркардс
-- master cards
-- diner's Club
+- 
+master cards
+- Клуб Динер
 - diners club
 - динерсклуб
+- Повтор
 - discover card
 - дисковеркард
 - discover cards
 - JCB
+- брандсмарт
 - japanese card bureau
+
 - carte blanche
 - картебланче
 - credit card
 - Центральной #
 - CC #:
-- expiration date
+- Дата истечения срока действия
 - exp date
-- expiry date
-- Дата д'експиратион
-- date d'exp
-- date expiration
+
+- 
+expiry date
+- 
+date d’expiration
+- 
+date d'exp
+- 
+date expiration
 - bank card
 - банккард
-- card number
+- 
+card number
 - card num
 - карднумбер
 - карднумберс
@@ -2986,14 +2993,36 @@ national id
 - atm cards
 - атмкардс
 - енрауте
-- en route
+- 
+en route
 - card type
+
+- Acct кардмембер
+- Учетная запись кардмембер
+- кардно
+- Корпоративная карта
+- Корпоративные карты
+- Тип карточки
+- номер счета карточки
+- Учетная запись члена карточки
+- Кардмембер acct.
+- card no.
+
+- карточка нет
+- card number
+
 - carte bancaire
+
 - carte de crédit
+
 - carte de credit
+
 - numéro de carte
+
 - numero de carte
+
 - nº de la carte
+
 - nº de carte
 - кредиткарте
 - карте
@@ -3003,61 +3032,124 @@ national id
 - кредиткартенинститут
 - кредиткартентип
 - еижентüмернаме
-- картеннр 
+- картеннр
 - картеннуммер
 - кредиткартеннуммер
 - кредиткартен — нуммер
-- carta di credito
+- 
+carta di credito
 - carta credito
-- Корзина "
+- .\n\n\-.Корзина "
 - n carta
-- НР. Корзина "
-- nr carta
+- НР.Корзина "
+- 
+nr carta
 - numero carta
+
 - numero della carta
+
 - numero di carta
+
 - tarjeta credito
+
 - tarjeta de credito
-- tarjeta crédito
-- tarjeta de crédito
+
+- 
+tarjeta crédito
+- 
+tarjeta de crédito
 - tarjeta de atm
+
 - tarjeta atm
+
 - tarjeta debito
+
 - tarjeta de debito
-- tarjeta débito
-- tarjeta de débito
+
+- 
+tarjeta débito
+- 
+tarjeta de débito
 - nº de tarjeta
-- Нет. de tarjeta
-- no de tarjeta
+- Нет.de tarjeta
+- нет де таржета
 - numero de tarjeta
+
 - número de tarjeta
+
 - tarjeta no
 - таржетахабиенте
-- cartão de crédito
+- 
+cartão de crédito
 - cartão de credito
+
 - cartao de crédito
+
 - cartao de credito
+
 - cartão de débito
+
 - cartao de débito
+
 - cartão de debito
+
 - cartao de debito
+
 - débito automático
 - debito automatico
-- número do cartão
-- numero do cartão 
+
+- 
+número do cartão
+- numero do cartão
+
 - número do cartao
+
 - numero do cartao
+
 - número de cartão
+
 - numero de cartão
+
 - número de cartao
+
 - numero de cartao
-- nº do cartão
+
+- n º Do картãо
 - nº do cartao
-- n º. do cartão
-- no do cartão
-- no do cartao
-- Нет. do cartão
-- Нет. do cartao 
+- n º.do cartão
+- не выполнять картãо
+- не выполнять картао
+- Нет.do cartão
+- Нет.do cartao
+- クレジットカード番号
+- クレジットカードナンバー
+- クレジットカード #
+- クレジットカード
+- クレジット
+- クレカ
+- カード番号
+- カードナンバー
+- カード #
+- アメックス
+- アメリカンエクスプレス
+- アメリカン エクスプレス
+- висаカード
+- カード Visa
+- マスターカード
+- マスター カード
+- マスター
+- ダイナースクラブ
+- ダイナース クラブ
+- ダイナース
+- 有効期限
+- 期限
+- キャッシュカード
+- キャッシュ カード
+- カード名義人
+- カードの名義人
+- カードの名義
+- デビット カード
+- デビットカード
 
 ## <a name="croatia-drivers-license-number"></a>Номер водительского удостоверения для драйвера Хорватия
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
@@ -4894,7 +4986,7 @@ OR
 - [Болгария](#bulgaria-drivers-license-number)
 - [Хорватия](#croatia-drivers-license-number)
 - [Кипр](#cyprus-drivers-license-number)
-- [Czech](#czech-drivers-license-number)
+- [Чешский](#czech-drivers-license-number)
 - [Дания](#denmark-drivers-license-number)
 - [Эстония](#estonia-drivers-license-number)
 - [Финляндия](#finland-drivers-license-number)
@@ -4926,7 +5018,7 @@ OR
 - [Болгария](#bulgaria-national-identification-number)
 - [Хорватия](#croatia-identity-card-number)
 - [Кипр](#cyprus-national-identification-number)
-- [Czech](#czech-personal-identity-number)
+- [Чешский](#czech-personal-identity-number)
 - [Дания](#denmark-personal-identification-number)
 - [Эстония](#estonia-national-identification-number)
 - [Финляндия](#finland-national-identification-number)
@@ -4958,7 +5050,7 @@ OR
 - [Болгария](#bulgaria-passport-number)
 - [Хорватия](#croatia-passport-number)
 - [Кипр](#cyprus-passport-number)
-- [Czech](#czech-passport-number)
+- [Чешский](#czech-passport-number)
 - [Дания](#denmark-passport-number)
 - [Эстония](#estonia-passport-number)
 - [Финляндия](#finland-passport-number)
@@ -4989,7 +5081,7 @@ OR
 - [Австрия](#austria-social-security-number-or-equivalent-identification)
 - [Бельгия](#belgium-social-security-number-or-equivalent-identification)
 - [Хорватия](#croatia-social-security-number-or-equivalent-identification)
-- [Czech](#czech-social-security-number-or-equivalent-identification)
+- [Чешский](#czech-social-security-number-or-equivalent-identification)
 - [Дания](#denmark-social-security-number-or-equivalent-identification)
 - [Финляндия](#finland-social-security-number-or-equivalent-identification)
 - [Франция](#france-social-security-number-insee-or-equivalent-identification)
@@ -5009,7 +5101,7 @@ OR
 - [Болгария](#bulgaria-tax-identification-number)
 - [Хорватия](#croatia-tax-identification-number)
 - [Кипр](#cyprus-tax-identification-number)
-- [Czech](#czech-tax-identification-number)
+- [Чешский](#czech-tax-identification-number)
 - [Дания](#denmark-tax-identification-number)
 - [Эстония](#estonia-tax-identification-number)
 - [Финляндия](#finland-tax-identification-number)
@@ -6724,12 +6816,9 @@ No — Реисепасс НР — Реисепасс
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_indonesia_id_card находит содержимое, которое соответствует шаблону.
 - находится ключевое слово из Keyword_indonesia_id_card.
-
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- регулярное выражение Regex_indonesia_id_card находит содержимое, которое соответствует шаблону.
 
 ```xml
 <!-- Indonesia Identity Card (KTP) Number -->
@@ -6737,10 +6826,6 @@ No — Реисепасс НР — Реисепасс
   <Pattern confidenceLevel="85">
      <IdMatch idRef="Regex_indonesia_id_card"/>
      <Match idRef="Keyword_indonesia_id_card"/>
-  </Pattern>
-  <Pattern confidenceLevel="75">
-     <IdMatch idRef="Regex_indonesia_id_card"/>
-  </Pattern>
 </Entity>
 ```
 
@@ -12258,7 +12343,16 @@ OR
 
 - социальное обеспечение безопасности
 - great britain
-- страхования
+
+- Номер NI
+- NI но.
+- NI #
+- NI #
+- страхования #
+- инсуранценумбер
+- натионалинсуранце #
+- натионалинсуранценумбер
+
     
 ## <a name="uk-tax-identification-number"></a>Королевств идентификационный номер налога
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
@@ -12693,14 +12787,18 @@ OR
 
 #### <a name="keyword_ssn"></a>Keyword_ssn
 
-- Social Security 
-- Social Security# 
-- Soc Sec 
-- SSN 
-- SSNS 
-- SSN # 
-- НН # 
-- SSID 
+- Номер адаптера SSA
+- social security number
+- социальное обеспечение безопасности #
+- социальное обеспечение безопасности #
+- социальное страхование нет
+- Social Security#
+- Soc Sec
+- SSN
+- SSNS
+- SSN #
+- НН #
+- SSID
    
 ## <a name="us--uk-passport-number"></a>США/ВЕЛИКОБРИТАНИЯ passport number
 Великобритания Объект типа конфиденциальной информации номера паспорта доступен в типе конфиденциальной информации номера паспорта ЕС и доступен как отдельный объект типа конфиденциальной информации.
