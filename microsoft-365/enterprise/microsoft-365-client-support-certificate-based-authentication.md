@@ -1,7 +1,7 @@
 ---
 title: Поддержка клиентских приложений Microsoft 365 — проверка подлинности на основе сертификатов
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,16 +16,16 @@ f1.keywords:
 - NOCSH
 description: В этой статье вы найдете сведения о поддержке клиентских приложений Microsoft 365 для проверки подлинности на основе сертификатов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 870e6f39c054752a2a07848c34eecd0996e1816c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 89ae78b4cf5c5bb3cfb1575a5db76047f4299239
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693555"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332632"
 ---
 # <a name="microsoft-365-client-app-support--certificate-based-authentication"></a>Поддержка клиентских приложений Microsoft 365 — проверка подлинности на основе сертификатов
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Проверка подлинности на основе сертификатов позволяет выполнять проверку подлинности в Azure Active Directory с помощью сертификата клиента на устройствах под управлением Windows, Android или iOS. Настройка этой функции исключает необходимость ввода имени пользователя и пароля в определенные приложения электронной почты и приложения Microsoft Office на мобильном устройстве.
 
@@ -48,8 +48,8 @@ ms.locfileid: "46693555"
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Значок Access](../media/o365-access-64x64.png) <br> [Access](https://products.office.com/access) | ![Значок Azure](../media/o365-azure-64x64.png) <br> [Портал Azure AD <br>](https://azure.microsoft.com/features/azure-portal/) | ![Значок портала компании](../media/o365-microsoft-64x64.png) <br> [Корпоративный <br> портал ](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal) | ![Значок delve](../media/o365-delve-64x64.png) <br> [Delve;](https://products.office.com/business/intelligent-search) | ![Значок Dynamics 365](../media/o365-dynamics365-64x64.png) <br> [Dynamics 365](https://dynamics.microsoft.com) 
-| ![Значок пограничного сервера](../media/o365-edge-64x64.png) <br> [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) | ![Значок Excel](../media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) | ![Значок Forms](../media/o365-forms-64x64.png) <br> [Forms](https://flow.microsoft.com/connectors/shared_microsoftforms/microsoft-forms/) | ![Значок Kaizala](../media/o365-kaizala-64x64.png) <br> [Kaizala](https://products.office.com/en/business/microsoft-kaizala) | ![Значок Office.com](../media/o365-office-64x64.png) <br> [Office.com](https://www.office.com/) 
+| ![Значок Access](../media/o365-access-64x64.png) <br> [Access](https://products.office.com/access) | ![Значок Azure](../media/o365-azure-64x64.png) <br> [Портал Azure AD <br>](https://azure.microsoft.com/features/azure-portal/) | ![Значок портала компании](../media/o365-microsoft-64x64.png) <br> [Корпоративный <br> портал ](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal) | ![Значок delve](../media/o365-delve-64x64.png) <br> [Delve](https://products.office.com/business/intelligent-search) | ![Значок Dynamics 365](../media/o365-dynamics365-64x64.png) <br> [Dynamics 365](https://dynamics.microsoft.com) 
+| ![Значок пограничного сервера](../media/o365-edge-64x64.png) <br> [Кромки](https://www.microsoft.com/windows/microsoft-edge) | ![Значок Excel](../media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) | ![Значок Forms](../media/o365-forms-64x64.png) <br> [Forms](https://flow.microsoft.com/connectors/shared_microsoftforms/microsoft-forms/) | ![Значок Kaizala](../media/o365-kaizala-64x64.png) <br> [Kaizala](https://products.office.com/en/business/microsoft-kaizala) | ![Значок Office.com](../media/o365-office-64x64.png) <br> [Office.com](https://www.office.com/) 
 | ![Значок администратора Office 365](../media/o365-o365admin-64x64.png) <br> [Администратор Microsoft 365 <br>](https://products.office.com/business/manage-office-365-admin-app) | ![Значок лупы](../media/o365-lens-64x64.png) <br> [Office Lens](https://www.microsoft.com/p/office-lens/9wzdncrfj3t8?activetab=pivot%3Aoverviewtab) | ![Значок OneDrive для бизнеса](../media/o365-OneDrive-64x64.png) <br> [OneDrive<sup>1</sup>](https://products.office.com/onedrive-for-business/online-cloud-storage) |  ![Значок OneNote](../media/o365-OneNote-64x64.png) <br> [OneNote](https://products.office.com/onenote) | ![Значок Outlook](../media/o365-outlook-64x64.png) <br> [Outlook](https://products.office.com/outlook) 
 | ![Значок Планировщика](../media/o365-planner-64x64.png) <br> [Планировщик](https://products.office.com/business/task-management-software) | ![Значок PowerApps](../media/o365-powerapps-64x64.png) <br> [PowerApps<sup>3</sup>](https://powerapps.microsoft.com) | ![Значок автоматизированного управления питанием](../media/o365-flow-64x64.png) <br> [Автоматизация управления питанием <br>](https://flow.microsoft.com) | ![Значок PowerBI](../media/o365-powerbi-64x64.png) <br> [Power BI](https://powerbi.microsoft.com)| ![Значок PowerPoint](../media/o365-powerpoint-64x64.png) <br> [PowerPoint](https://products.office.com/powerpoint) 
 | ![Значок Project](../media/o365-project-64x64.png) <br> [Project](https://products.office.com/project) | ![Значок Publisher](../media/o365-publisher-64x64.png) <br> [Publisher](https://products.office.com/publisher) | ![Значок SharePoint](../media/o365-sharepoint-64x64.png) <br> [SharePoint](https://products.office.com/sharepoint) | ![Значок Skype для бизнеса](../media/o365-skypeforbusiness-64x64.png) <br> [Skype для <br> бизнеса](https://www.skype.com/business/) | ![Значок клейких заметок](../media/o365-stickynotes-64x64.png) <br> [Клейкие заметки](https://www.microsoft.com/p/microsoft-sticky-notes/9nblggh4qghw) 

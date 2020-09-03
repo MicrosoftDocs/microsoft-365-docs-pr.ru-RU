@@ -1,7 +1,7 @@
 ---
 title: Удаление данных Microsoft 365 Exchange Online
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Сведения о том, как мягкое и жесткое удаление данных для почтовых ящиков и элементов в почтовых ящиках обрабатывается в Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4b4d30da70001967ca73377f10a4cd417577b72
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 63bb5dcde334f7c53554f910b1a8d17e1d0d69cc
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696439"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332524"
 ---
 # <a name="exchange-online-data-deletion-in-microsoft-365"></a>Удаление данных Exchange Online в Microsoft 365
 

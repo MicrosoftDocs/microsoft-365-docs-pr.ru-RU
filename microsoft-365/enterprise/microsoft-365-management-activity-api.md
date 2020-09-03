@@ -1,7 +1,7 @@
 ---
 title: API действий управления Office 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: В этой статье представлены краткие сведения о API действий управления Office 365 и сведения, которые он предоставляет из журналов действий.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea08673f4c26c9ee4b7093ba420b69bed91abc81
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8d51f27f28b0adb84ef43004664ef310567263b9
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693433"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332308"
 ---
 # <a name="office-365-management-activity-api"></a>API действий управления Office 365
 

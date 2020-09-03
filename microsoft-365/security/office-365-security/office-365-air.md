@@ -16,18 +16,22 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: c2020c3d46fcf17194e2560af53d9a26fca30629
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 14742df5d9dbd2f65a032250696dbc7c61210562
+ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327834"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47336683"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Начало работы с автоматизированным исследованием и откликом (AIR) в Office 365
 
 [Office 365 Advanced Threat protection](office-365-atp.md) (Office 365 ATP), план 2 включает мощные возможности автоматического исследования и реагирования (AIR), которые могут сэкономить время и усилия группы по обеспечению безопасности. По мере инициирования оповещений группа действий по обеспечению безопасности может просматривать и отвечать на них, а также определять приоритеты и отвечать на них. Поддержание появления входящих оповещений может быть затруднительной. Автоматизация некоторых из них может помочь. В среде AIR группа управления операциями безопасности может сосредоточиться на задачах с более высоким приоритетом, не теряя уведомления о триггерах.
 
-В этой статье описывается [общий поток](#the-overall-flow-of-air) воздуха, [Получение воздуха](#how-to-get-air)и [необходимые разрешения](#required-permissions-to-use-air-capabilities) для настройки или использования возможностей воздуха. 
+В этой статье содержатся следующие сведения:
+
+- [Общий поток](#the-overall-flow-of-air) воздуха
+- [Как получить воздух](#how-to-get-air)
+- [Необходимые разрешения](#required-permissions-to-use-air-capabilities) для настройки или использования возможностей Air
 
 ## <a name="the-overall-flow-of-air"></a>Общий поток воздуха
 
@@ -97,7 +101,7 @@ Microsoft 365 предоставляет множество встроенных
 Лицензии на [Office 365 ATP 2 (план 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) ) должны быть назначены следующим:
 - Администраторы безопасности (в том числе глобальные администраторы)
 - Группа управления операциями безопасности Организации (включая средства чтения и очистки с ролью поиска и очистки).
-- Конечные пользователи
+- Пользователи
 
 Кроме того, необходимо определить и применить [политики Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) , чтобы обеспечить защиту.
 

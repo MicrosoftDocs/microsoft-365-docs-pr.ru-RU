@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
 description: 'Сводка: Настройка инфраструктуры Microsoft Azure для размещения федеративной проверки подлинности с высоким уровнем доступности для Microsoft 365.'
-ms.openlocfilehash: a99259e8c60346665f76aeba3a8a440e0f9061f0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d2a9fe3c31468cd53576a82639e0e61901192d8e
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693470"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332344"
 ---
 # <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>Этап 1. Федеративная проверка подлинности для обеспечения высокой доступности: настройка Azure
 
@@ -57,7 +57,7 @@ Azure необходимо подготовить к работе с этими 
     
 2. Преобразуйте результат в десятичное число и выразите его как адресное пространство, длина префикса которого соответствует размеру подсети шлюза.
     
-В разделе [Калькулятор адресного пространства для подсетей шлюза Azure](https://gallery.technet.microsoft.com/scriptcenter/Address-prefix-calculator-a94b6eed) для командного блока PowerShell и консольного приложения C# или Python, выполняющего это вычисление.
+В разделе [Калькулятор адресного пространства для подсетей шлюза Azure](address-space-calculator-for-azure-gateway-subnets.md) для командного блока PowerShell и консольного приложения C# или Python, выполняющего это вычисление.
   
 Определите эти адресные пространства из адресного пространства виртуальной сети при поддержке ИТ-отдела.
   

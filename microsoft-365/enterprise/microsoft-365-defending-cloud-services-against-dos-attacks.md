@@ -1,7 +1,7 @@
 ---
 title: Защита облачных служб Microsoft 365 от атак типа "отказ в обслуживании"
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как корпорация Майкрософт защищает облачные службы от атак типа "отказ в обслуживании" (DoS).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26c3df54811ffee06797c635bc565fcbe78b58fa
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 21b38950ec06874f8c1d959eeb6a8b60179636e3
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693442"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332500"
 ---
 # <a name="defending-microsoft-365-cloud-services-against-denial-of-service-attacks"></a>Защита облачных служб Microsoft 365 от атак типа "отказ в обслуживании"
 

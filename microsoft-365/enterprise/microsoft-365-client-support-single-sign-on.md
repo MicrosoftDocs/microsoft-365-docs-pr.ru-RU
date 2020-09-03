@@ -1,7 +1,7 @@
 ---
 title: Поддержка клиентских приложений Microsoft 365 — единый вход
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,16 +16,16 @@ f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, какие платформы, клиенты и модули PowerShell поддерживают единый вход для Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0171e277d6072515e7fe0ca8ede8b8005ad8fe2
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8ab973fcfb0cc61378ee06c115264e308d8ec3ad
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693166"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332008"
 ---
 # <a name="microsoft-365-client-app-support--single-sign-on"></a>Поддержка клиентских приложений Microsoft 365 — единый вход
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Единый вход (SSO) обеспечивает безопасность и удобство при входе пользователей в приложения в Azure Active Directory (Azure AD). При использовании единого входа пользователи могут войти в систему с одной учетной записью, чтобы получить доступ к устройствам, связанным с доменом, ресурсам компании, программному обеспечению и веб-приложениям.
 
@@ -48,7 +48,7 @@ ms.locfileid: "46693166"
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Значок Access](../media/o365-access-64x64.png) <br> [Access](https://products.office.com/access) | ![Значок портала компании](../media/o365-microsoft-64x64.png) <br> [Корпоративный <br> портал<sup>3, 4</sup>](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal) | ![Значок delve](../media/o365-delve-64x64.png) <br> [Delve;](https://products.office.com/business/intelligent-search) | ![Значок пограничного сервера](../media/o365-edge-64x64.png) <br> [Edge<sup>1</sup>](https://www.microsoft.com/windows/microsoft-edge) | ![Значок Excel](../media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) 
+| ![Значок Access](../media/o365-access-64x64.png) <br> [Access](https://products.office.com/access) | ![Значок портала компании](../media/o365-microsoft-64x64.png) <br> [Корпоративный <br> портал<sup>3, 4</sup>](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal) | ![Значок delve](../media/o365-delve-64x64.png) <br> [Delve](https://products.office.com/business/intelligent-search) | ![Значок пограничного сервера](../media/o365-edge-64x64.png) <br> [Edge<sup>1</sup>](https://www.microsoft.com/windows/microsoft-edge) | ![Значок Excel](../media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) 
 | ![Значок Kaizala](../media/o365-kaizala-64x64.png) <br> [Kaizala<sup>1</sup>](https://products.office.com/en/business/microsoft-kaizala) | ![Значок Office.com](../media/o365-office-64x64.png) <br> [Office.com](https://www.office.com/) | ![Значок лупы](../media/o365-lens-64x64.png) <br> [Office Lens](https://www.microsoft.com/p/office-lens/9wzdncrfj3t8?activetab=pivot%3Aoverviewtab) | ![Значок OneDrive для бизнеса](../media/o365-OneDrive-64x64.png) <br> [OneDrive](https://products.office.com/onedrive-for-business/online-cloud-storage) | ![Значок OneNote](../media/o365-OneNote-64x64.png) <br> [OneNote<sup>2</sup>](https://products.office.com/onenote) 
 | ![Значок Outlook](../media/o365-outlook-64x64.png) <br> [Outlook<sup>4</sup>](https://products.office.com/outlook) | ![Значок Планировщика](../media/o365-planner-64x64.png) <br> [Планировщик](https://products.office.com/business/task-management-software) | ![Значок автоматизированного управления питанием](../media/o365-flow-64x64.png) <br> [Автоматизация управления питанием <br>](https://flow.microsoft.com) | ![Значок PowerBI](../media/o365-powerbi-64x64.png) <br> [Power BI<sup>2</sup>](https://powerbi.microsoft.com)| ![Значок PowerPoint](../media/o365-powerpoint-64x64.png) <br> [PowerPoint](https://products.office.com/powerpoint) 
 | ![Значок Project](../media/o365-project-64x64.png) <br> [Project](https://products.office.com/project) | ![Значок Publisher](../media/o365-publisher-64x64.png) <br> [Publisher](https://products.office.com/publisher) | ![Значок SharePoint](../media/o365-sharepoint-64x64.png) <br> [SharePoint](https://products.office.com/sharepoint) | ![Значок клейких заметок](../media/o365-stickynotes-64x64.png) <br> [Клейкие заметки](https://www.microsoft.com/p/microsoft-sticky-notes/9nblggh4qghw)  | ![Значок Sway](../media/o365-sway-64x64.png) <br> [Sway](https://sway.com) 

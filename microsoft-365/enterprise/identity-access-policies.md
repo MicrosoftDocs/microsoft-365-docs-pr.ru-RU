@@ -1,6 +1,6 @@
 ---
 title: Общие политики идентификации и доступа к устройствам — Microsoft 365 для предприятий | Документы Майкрософт
-description: Описание рекомендаций Майкрософт по применению политик и конфигураций доступа для удостоверений и устройств.
+description: Описание рекомендуемых общих политик и конфигураций доступа к удостоверениям и устройствам.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 699bc04c8e286c004e1f47ae6825ae311434d9cb
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 9819c161cc421117730cb4c58d1db06859125476
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898120"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332119"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Основные политики доступа для удостоверений и устройств
 В этой статье описываются распространенные рекомендуемые политики для защиты доступа к облачным службам, в том числе локальные приложения, опубликованные с помощью прокси-сервера приложения Azure AD. 
@@ -32,8 +32,8 @@ ms.locfileid: "46898120"
 
 На следующей схеме показан рекомендуемый набор политик. Здесь показано, к какому уровню защиты применяется каждая политика, а также применяются ли политики к компьютерам, телефонам и планшетам или обеим категориям устройств. Кроме того, здесь указывается, где настроены эти политики.
 
-[ ![ Общие политики для настройки удостоверений и доступа к устройствам](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
- [просмотреть более крупную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+[ ![ Общие политики для настройки удостоверений и доступа к устройствам](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
+ [просмотреть более крупную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
 В оставшейся части этой статьи рассказывается, как настроить эти политики. 
 
@@ -63,13 +63,13 @@ ms.locfileid: "46898120"
 
 На следующем рисунке приведен пример назначения и исключений пользователей.
 
-![Пример назначения и исключения пользователей для правил MFA](../media/identity-access-policies-assignment.png)
+![Пример назначения и исключения пользователей для правил MFA](../media/microsoft-365-policies-configurations/identity-access-policies-assignment.png)
 
 На приведенном ниже рисунке для команды "самый высокий секретный проект X" назначается политика условного доступа, которая должна *всегда*иметь mfa. Будьте разумны при применении более высоких уровней защиты для пользователей. Участники этой группы проекта должны будут предоставлять две формы проверки подлинности при каждом входе в систему, даже если они не просматривают строго регулируемого контента.  
 
-Все группы Azure AD, созданные как часть этих рекомендаций, должны быть созданы как группы Microsoft 365. Это особенно важно для развертывания Azure Information Protection (AIP) при защите документов в SharePoint Online.
+Все группы Azure AD, созданные как часть этих рекомендаций, должны быть созданы как группы Microsoft 365. Это особенно важно для развертывания меток конфиденциальности при защите документов в SharePoint Online.
 
-![Снимок экрана для создания групп Microsoft 365](../media/identity-device-AAD-groups.png)
+![Снимок экрана для создания групп Microsoft 365](../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>Запрос MFA на основе риска входа

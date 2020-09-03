@@ -1,7 +1,7 @@
 ---
 title: Внутреннее ведение журнала Microsoft 365 для разработки Microsoft 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,14 +16,14 @@ f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как работает внутреннее ведение журнала для Microsoft 365 Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4b1db876a6b68ec852adbbd51afe7386a1855
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 08f87ba682a88a7efd93735b160af49bf5468ca2
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696479"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332512"
 ---
-# <a name="internal-logging-for-microsoft-365-engineering"></a>Внутреннее ведение журнала для разработки Microsoft 365
+# <a name="internal-logging-for-microsoft-365-engineering"></a>Внутренняя регистрация для инженеров Microsoft 365
 
 Помимо событий и данных журналов, доступных для клиентов, существует также внутренняя система сбора данных журнала, доступная для инженеров Microsoft 365 в корпорации Майкрософт. Многие типы данных журналов передаются с серверов Microsoft 365 во внутреннюю, общую службу информационных данных с именем Cosmos. Каждая группа обслуживания отправляет журналы аудита из соответствующих серверов в базу данных Cosmos для объединения и анализа. Эта передача данных выполняется через FIPS 140-2-проверенное TLS-подключение на специально утвержденных портах и протоколах с помощью специализированного средства автоматизации, называемого загрузчиком данных Office (ODL). Средства, используемые в Microsoft 365 для сбора и обработки записей аудита, не допускают постоянных или необратимых изменений исходного контента записи аудита или порядка времени.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создавайте и автоматически публикуйте метки хранения для их автоматического применения в приложениях для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: 80a5ef502450a24d9c8aeeb08d571bfcbd51a4e3
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 7528fed52ae3df1a60303c40df35a42de6bc1f31
+ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648808"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "47315823"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Автоматическое применение метки хранения для сохранения или удаления контента
 
@@ -38,8 +38,8 @@ ms.locfileid: "46648808"
     
 - пользователям больше не нужно будет знать о политиках управления данными — они могут сосредоточиться на своей работе.
     
-Метки хранения можно автоматически применять к содержимому, если оно содержит конфиденциальную информацию, ключевые слова или [совпадение для обучаемых классификаторов](classifier-getting-started-with.md).
-    
+Метки хранения можно автоматически применять к контенту, если он содержит конфиденциальную информацию, ключевые слова, доступные для поиска свойства или совпадение для [обучаемых классификаторов](classifier-getting-started-with.md).
+
 Процесс автоматического применения метки хранения основан на этих условиях:
 
 ![Схема ролей и задач для автоматически применяемых меток](../media/32f2f2fd-18a8-43fd-839d-72ad7a43e069.png)
@@ -113,7 +113,7 @@ ms.locfileid: "46648808"
 
 - [конфиденциальную информацию определенных типов](#auto-apply-labels-to-content-with-specific-types-of-sensitive-information);
 
-- [определенные ключевые слова, соответствующие созданному запросу](#auto-apply-labels-to-content-with-keywords-or-searchable-properties);
+- [определенные ключевые слова или доступные для поиска свойства, соответствующие созданному запросу](#auto-apply-labels-to-content-with-keywords-or-searchable-properties);
 
 - [совпадение для обучаемых классификаторов](#auto-apply-labels-to-content-by-using-trainable-classifiers).
 
@@ -135,30 +135,28 @@ ms.locfileid: "46648808"
   
 #### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>Автоматическое применение меток к контенту с ключевыми словами или доступными для поиска свойствами
 
-Вы можете автоматически применять метки к контенту, соответствующему определенным условиям. Имеющиеся в данный момент условия поддерживают применение метки к контенту, содержащему определенные слова, фразы или значения доступных для поиска свойств. Вы можете уточнить запрос с помощью таких операторов поиска, как AND, OR и NOT.
+Метки можно автоматически применять к контенту с помощью запроса, содержащего определенные слова, фразы или значения доступных для поиска свойств. Вы можете уточнить запрос с помощью таких операторов поиска, как AND, OR и NOT.
 
-При автоматическом применении меток к свойствам, доступным для поиска, в запросе нельзя использовать псевдоним управляемого свойства. Должно применяться фактическое имя управляемого свойства, например RefinableString01.
+![Редактор запросов](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
 
-Дополнительные сведения о синтаксисе запросов см. в статье:
+Дополнительные сведения о синтаксисе языка запросов по ключевым словам (KQL) см. в статье [Справочник по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference).
 
-- [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
-
-Метки на основе запросов используют индекс поиска для определения контента. Дополнительные сведения о допустимых свойствах, доступных для поиска, см. в статьях:
+Метки на основе запросов используют индекс поиска для определения контента. Дополнительные сведения о доступных для поиска свойствах, которые можно использовать, см. в статье:
 
 - [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
 - [Обзор свойств для обхода и управляемых свойств в SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview)
 
+> [!NOTE]
+> Хотя управляемые свойства SharePoint поддерживают псевдонимы, не используйте их при настройке меток хранения. Всегда указывайте фактическое имя управляемого свойства, например RefinableString01.
+
 Примеры запросов:
 
-- Exchange
-    - subject:"Квартальное финансирование"
-    - recipients:garthf<!--nolink-->@contoso.com
-- SharePoint и OneDrive
-    - contenttype:контракт
-    - site:https<!--nolink-->://contoso.sharepoint.com/sites/teams/procurement И contenttype:contract
-
-![Редактор запросов](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
-
+| Рабочая нагрузка | Пример |
+|:-----|:-----|
+|Exchange   | `subject:"Quarterly Financials"` |
+|Exchange   | `recipients:garthf@contoso.com` |
+|SharePoint | `contenttype:contract` |
+|SharePoint | `site:https://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract`|
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Автоматическое применение меток к контенту с помощью обучаемых классификаторов
 

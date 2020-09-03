@@ -1,7 +1,7 @@
 ---
 title: Изоляция и управление доступом в Microsoft 365 в Azure Active Directory
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как работа по изоляции и управлению доступом позволяет хранить данные для нескольких клиентов, изолированных друг от друга в Azure Active Directory.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79cfa23b788342ec533ce4f8a2f9c63ee0836c20
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 198e1f37a7378d14d5a4ad28d5bce9d480b2c49e
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693437"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332416"
 ---
 # <a name="microsoft-365-isolation-and-access-control-in-azure-active-directory"></a>Изоляция и управление доступом в Microsoft 365 в Azure Active Directory
 

@@ -1,7 +1,7 @@
 ---
 title: Изоляция клиента в Office 365 - Видео
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -16,19 +16,19 @@ f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как изоляция клиентов хранит сохраненные видеозаписи каждого клиента отдельно в Office 365 Video.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f46812bb2bf9432252c2de6bb46fbb47cb71221
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 626a995fc5a3ac971c48cc87bec1017134e87b88
+ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693287"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47332248"
 ---
 # <a name="tenant-isolation-in-office-365-video"></a>Изоляция клиента в Office 365 - Видео
 
 > [!NOTE]
 > Видео Office 365 будет заменено на Microsoft Stream. Чтобы узнать больше о новой службе Enterprise Video, которая добавляет логику к совместной работе с видео и Узнайте о планах перехода для текущих пользователей Microsoft 365 видео, ознакомьтесь со статьей [Office 365 Video Transition to Microsoft Stream Overview](https://docs.microsoft.com/stream/migrate-from-office-365).
 
-## <a name="introduction"></a>Общие сведения
+## <a name="introduction"></a>Введение
 
 Служба хранилища Azure используется для хранения данных для нескольких служб Office 365, в том числе Office 365 Video и Sway. Хранилище Azure включает хранилище больших двоичных объектов, которое является масштабируемым хранилищем облачных объектов на основе REST, используемым для хранения неструктурированных данных. Служба хранилища Azure использует модель простого управления доступом; Каждая подписка на Azure может создать одну или несколько учетных записей хранения. Каждая учетная запись хранения имеет один секретный ключ, который используется для управления доступом ко всем данным в учетной записи хранения. Это поддерживает типичный сценарий, в котором хранилище связывается с приложениями, и эти приложения имеют полный контроль над связанными с ними данными; Например, Sway хранит контент в хранилище Azure. Весь контент клиента для Sway хранится в общих учетных записях хранения Azure. Контент каждого пользователя находится в отдельном дереве каталогов больших двоичных объектов в хранилище Azure.
 
