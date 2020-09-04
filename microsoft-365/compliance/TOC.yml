@@ -4,7 +4,7 @@
   items:
     - name: Быстрые задачи для начала работы по соответствию требованиям
       href: compliance-quick-tasks.md
-    - name: Новые возможности Центра соответствия требованиям
+    - name: Новые возможности центра соответствия требованиям Microsoft 365
       href: whats-new.md
     - name: "Центр соответствия требованиям Microsoft\_365"
       href: microsoft-365-compliance-center.md

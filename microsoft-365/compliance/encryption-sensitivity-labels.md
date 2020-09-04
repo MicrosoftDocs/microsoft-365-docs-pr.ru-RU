@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Настройте метки конфиденциальности для шифрования, чтобы защитить данные, ограничив доступ к ним и их использование.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae9131b4cd70cfca4cc32116a651bf4642ed94f1
-ms.sourcegitcommit: c4a7b227f7d9abd666dfb93e3ded78ba8288e649
+ms.openlocfilehash: dc7f1e181fcc2ffda6cd9b36596c164f49d23452
+ms.sourcegitcommit: 6ad2e4164ed59d5a58a0df9cb8413531c1be0986
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229439"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47334862"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования 
 
@@ -211,9 +211,9 @@ ms.locfileid: "45229439"
 ### <a name="double-key-encryption"></a>Шифрование с двойным ключом
 
 > [!NOTE]
-> В настоящее время эта функция разворачивается в общедоступной предварительной версии. Дополнительные сведения см. в статье [Объявление об общедоступной предварительной версии шифрования с двойным ключом для Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451).
+> В настоящее время эта функция находится на стадии общедоступной ознакомительной версии. Дополнительные сведения см. в статье [Объявление об общедоступной предварительной версии шифрования с двойным ключом для Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451).
 
-Выбирайте этот параметр, только если вы настроили службу шифрования с двойным ключом и вам необходимо использовать это шифрование для документов и электронных писем с этой меткой.
+Выбирайте этот параметр, только если вы настроили службу шифрования с двойным ключом и вам необходимо использовать это шифрование для файлов и электронных писем с этой меткой.
 
 Дополнительные сведения, предварительные требования и инструкции по настройке см. в статье [Шифрование с двойным ключом (DKE)](double-key-encryption.md).
 

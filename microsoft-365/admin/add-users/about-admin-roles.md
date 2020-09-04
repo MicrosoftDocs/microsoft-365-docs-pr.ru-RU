@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Роли администратора соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования. Например, администратор служб создает запросы в службу поддержки Майкрософт.
-ms.openlocfilehash: 361c6599dfccbe7a80fa520bcd1fa988a1fae536
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: d80207ac264cb1b649f631d358c86809c2992a8e
+ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506289"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47361777"
 ---
 # <a name="about-admin-roles"></a>Роли администраторов
 
@@ -40,6 +40,10 @@ ms.locfileid: "46506289"
 Ищете полный список подробных описаний ролей в Intune, которыми можно управлять в Центре администрирования Microsoft 365?  См. статью [Управление доступом на основе ролей (RBAC) в Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
 
 Подробнее о назначении ролей в центре администрирования Microsoft 365 см. статью [Назначение ролей администратора](assign-admin-roles.md).
+
+### <a name="watch-what-is-an-admin"></a>Видео. Кто такой администратор?
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0]
 
 ## <a name="security-guidelines-for-assigning-roles"></a>Рекомендации по обеспечению безопасности при назначении ролей
 
