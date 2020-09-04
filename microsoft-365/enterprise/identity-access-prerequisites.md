@@ -16,18 +16,18 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: ca898fa76ff45fe15a6dc48e7ad8bcae3e94951c
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 40910c00a91a1e98d01fe2e25a4f9aed828a024a
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332558"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357978"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Предварительные действия для реализации политик доступа к удостоверениям и устройствам
 
 В этой статье описываются предварительные требования, которые необходимо реализовать перед развертыванием рекомендуемых политик идентификации и доступа к устройствам. В этой статье также обсуждается Рекомендуемая конфигурация клиента платформы по умолчанию, чтобы обеспечить оптимальное взаимодействие с единым входом (SSO) для пользователей, а также технические требования для условного доступа.
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные требования
 
 Перед реализацией рекомендуемых политик идентификации и доступа к устройствам необходимо выполнить несколько предварительных условий, которые должны соответствовать вашей организации для этих моделей идентификации и проверки подлинности для Microsoft 365 и Office 365:
 
@@ -116,6 +116,6 @@ ms.locfileid: "47332558"
 
 ## <a name="next-step"></a>Следующий шаг
 
-![Шаг 2: Настройка общих политик условного доступа и удостоверений доступа..](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
+![Шаг 2: Настройка общих политик условного доступа для удостоверений и доступа](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
 
 [Настройка общих политик идентификации и доступа к устройствам](identity-access-policies.md)
