@@ -6,18 +6,18 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Для загрузки результатов поиска из поиска контента и обнаружения электронных данных в центре безопасности и соответствия требованиям необходимо включить поддержку ClickOnce, чтобы использовать последнюю версию Microsoft Edge.
-ms.openlocfilehash: c48e3fb04747306693364a2cdbc6f18047a0fd9e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 317e19c81a606565fcb18f3256fd5bac007747e1
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632384"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357579"
 ---
 # <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Использование средства экспорта eDiscovery в Microsoft Edge
 
@@ -29,15 +29,15 @@ ms.locfileid: "43632384"
 
 2. Если в раскрывающемся списке существующее значение установлено **по умолчанию** или **отключено** , измените его на **Enabled**.
 
-   ![](../media/ClickOnceimage1.png)
+   ![Выберите элемент включено из раскрывающегося списка](../media/ClickOnceimage1.png)
 
 3. Прокрутите окно вниз до конца окна браузера и выберите команду **перезапустить** , чтобы перезапустить пограничный сервер.
 
-   ![](../media/ClickOnceimage2.png)
+   ![Нажмите кнопку перезапустить](../media/ClickOnceimage2.png)
 
 **Примечание:** Для отключения поддержки ClickOnce в организациях можно использовать групповую политику. Чтобы проверить, существует ли политика Организации для поддержки ClickOnce, перейдите в **Edge://Policy**. На следующем снимке экрана показано, что технология ClickOnce включена во всей Организации. Если для этого параметра политики задано значение **false**, необходимо обратиться к администратору в Организации.
 
-![](../media/ClickOnceimage3.png)
+![Список политик пограничных организационных организаций](../media/ClickOnceimage3.png)
 
 ## <a name="install-and-run-the-ediscovery-export-tool"></a>Установка и запуск средства экспорта eDiscovery
 

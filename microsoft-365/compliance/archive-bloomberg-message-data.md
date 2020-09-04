@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить соединитель данных для импорта и архивирования данных из средства электронной почты Bloomberg Message в Microsoft 365. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения для управления сторонними данными Организации.
-ms.openlocfilehash: f9793db545b5298663da7bbfa39a0878854e070d
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: b8b144905ad3ff47f54c06985fca9cfef6b70590
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255866"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358295"
 ---
 # <a name="set-up-a-connector-to-archive-bloomberg-message-data-preview"></a>Настройка соединителя для архивации данных сообщений Bloomberg (Предварительная версия)
 
@@ -43,7 +43,7 @@ ms.locfileid: "47255866"
 
 ## <a name="before-you-begin"></a>Перед началом работы
 
-Многие действия по реализации, необходимые для архивации данных сообщений Bloomberg, являются внешними по отношению к Microsoft 365 и должны быть завершены, прежде чем можно будет создать соединитель в центре соответствия требованиям.
+Некоторые действия по реализации, необходимые для архивации данных сообщений Bloomberg, являются внешними по отношению к Microsoft 365 и должны быть завершены, прежде чем можно будет создать соединитель в центре соответствия требованиям.
 
 - Ваша организация должна разрешить службе импорта Office 365 доступ к данным почтовых ящиков в Организации. Чтобы согласиться с этим запросом, перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), войдите с помощью учетных данных глобального администратора Office 365 и примите запрос. Необходимо выполнить это действие, прежде чем вы сможете успешно создать соединитель сообщений Bloomberg в действии 3.
 

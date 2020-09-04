@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Просмотр таблицы со списком полей метаданных для документов в наборе свидетельств при расследовании данных (Предварительная версия).
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e13d62446cff3efdacaa5f8e1ade8a37006d922
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4462b2031bc50f3d167b9340b6df5dba5a412d78
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035701"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357629"
 ---
 # <a name="document-metadata-fields-in-data-investigations-preview"></a>Поля метаданных документа при расследовании данных (Предварительная версия)
 
@@ -129,4 +129,4 @@ ms.locfileid: "44035701"
 |Тег релевантности (вопрос)      | Да (relevanceTag_issueNum)                     |                         |             |
 |||||
 
-  \*Для этих полей при наличии внедренных значений в документе Поиск будет определять приоритет этих значений; в противном случае будет предпринята попытка отобразить значение из Office 365.
+  \* Для этих полей при наличии внедренных значений в документе Поиск будет определять приоритет этих значений; в противном случае будет предпринята попытка отобразить значение из Office 365.

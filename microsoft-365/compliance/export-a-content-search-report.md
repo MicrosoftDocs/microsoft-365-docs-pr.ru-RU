@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.CustomizeExportReport
 ms.service: O365-seccomp
@@ -22,18 +22,18 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Вместо того чтобы экспортировать фактические результаты поиска контента в центре безопасности & соответствия требованиям в Office 365, можно экспортировать отчет о результатах поиска. Отчет содержит сводку результатов поиска и документ с подробными сведениями о каждом экспортируемом элементе.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 25525a0670f31a7e962fb72f6d1559381e8b33cd
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: de27e25945f14f6a6119b4c1776eebca5e84d8ce
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817778"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358305"
 ---
 # <a name="export-a-content-search-report"></a>Экспорт отчета о поиске контента
 
 Вместо того чтобы экспортировать полный набор результатов поиска из поиска контента в центре безопасности & соответствия требованиям (и из поиска контента, связанного с вариантом обнаружения электронных данных), можно экспортировать те же отчеты, которые создаются при экспорте результатов поиска.
   
-При экспорте отчета он загружается в папку с таким же именем, что и для поиска контента, но добавляется с *_ReportsOnly*. Например, если поиск контента имеет имя *ContosoCase0815*, то отчет загружается в папку с именем *ContosoCase0815_ReportsOnly*. Список документов, включенных в отчет, приведен в разделе сведения, [включенные в отчет](#whats-included-in-the-report).
+При экспорте отчета он загружается в папку с таким же именем, что и для поиска контента, но добавляется с *_ReportsOnly*. Например, если поиск контента имеет имя  *ContosoCase0815*, то отчет загружается в папку с именем *ContosoCase0815_ReportsOnly*. Список документов, включенных в отчет, приведен в разделе сведения, [включенные в отчет](#whats-included-in-the-report).
 
 ## <a name="assign-roles-and-check-system-requirements"></a>Назначение ролей и проверка требований к системе
 
@@ -45,7 +45,7 @@ ms.locfileid: "44817778"
     
   - 32 — разрядная или 64 – разрядная версия Windows 7 и более поздних версий
     
-  - Microsoft .NET Framework 4,7
+  - Microsoft .NET Framework 4.7
     
 - Для запуска средства экспорта eDiscovery<sup>1</sup>необходимо использовать один из следующих поддерживаемых браузеров:
 

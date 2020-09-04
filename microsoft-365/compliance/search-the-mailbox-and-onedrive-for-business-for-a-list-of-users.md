@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: 1/3/2017
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: Используйте поиск контента и сценарий, описанный в этой статье, для поиска группы пользователей в почтовых ящиках и на сайтах OneDrive для бизнеса.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90aab661992ae2f0c19d18939191230dc0469eaa
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: e3a10913cc4d8618e3d25bdf34e30c9d55a43324
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527365"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357801"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>Использование поиска содержимого для поиска списка пользователей в почтовом ящике и на сайте OneDrive для бизнеса
 
@@ -56,7 +56,7 @@ ms.locfileid: "46527365"
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > Users.txt
 ```
 
-После выполнения этой команды не забудьте открыть файл и удалить заголовок, содержащий имя свойства `PrimarySmtpAddress` . Текстовый файл должен содержать только список адресов электронной почты и ничего другое. Убедитесь, что в списке адресов электронной почты нет пустых строк.
+После выполнения этой команды не забудьте открыть файл и удалить заголовок, содержащий имя свойства  `PrimarySmtpAddress` . Текстовый файл должен содержать только список адресов электронной почты и ничего другое. Убедитесь, что в списке адресов электронной почты нет пустых строк.
   
 ## <a name="step-3-run-the-script-to-create-and-start-the-search"></a>Шаг 3: запуск скрипта для создания и запуска поиска
 
@@ -64,7 +64,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
   
 - **Ваши учетные данные пользователя** : сценарий будет использовать ваши учетные данные для доступа к SharePoint Online, чтобы получить URL-адреса OneDrive для бизнеса и подключиться к центру безопасности & соответствия требованиям с помощью удаленной оболочки PowerShell. 
     
-- **Имя домена личного сайта** — домен личного сайта, который содержит все сайты OneDrive для бизнеса в вашей организации. Например, если URL-адрес вашего домена личного времени указан **https://contoso-my.sharepoint.com** , то при вводе `contoso` сценария для имени домена личного сайта необходимо ввести запрос. 
+- **Имя домена личного сайта** — домен личного сайта, который содержит все сайты OneDrive для бизнеса в вашей организации. Например, если URL-адрес вашего домена личного времени указан **https://contoso-my.sharepoint.com** , то при вводе  `contoso` сценария для имени домена личного сайта необходимо ввести запрос. 
     
 - **Путь к текстовому файлу из шага 2** : путь к текстовому файлу, созданному в шаге 2. Если текстовый файл и сценарий находятся в одной папке, введите имя текстового файла. В противном случае введите полный путь к текстовому файлу. 
     

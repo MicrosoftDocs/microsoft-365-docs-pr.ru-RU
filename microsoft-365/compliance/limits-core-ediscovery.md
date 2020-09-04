@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описываются пределы базового случая обнаружения электронных данных в Microsoft 365.
-ms.openlocfilehash: 00df8cff683701ce5ee38dca12b6f7af5b31c8b0
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 6224ce5ecb8fc0439e43ab5e1362f8a618194202
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351900"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358517"
 ---
 # <a name="limits-in-core-ediscovery"></a>Пределы в ядре обнаружения электронных данных
 
@@ -34,7 +34,7 @@ ms.locfileid: "44351900"
   |Максимальное количество удержаний для Организации  <br/> |10 000  <br/> |
   |Максимальное количество почтовых ящиков в едином случае удержания  <br/> |1,000  <br/> |
   |Максимальное количество сайтов SharePoint и OneDrive для бизнеса в случае единого удержания  <br/> |100  <br/> |
-  |Максимальное число обращений, отображаемых на основной странице обнаружения электронных данных, и максимальное количество элементов, отображаемых на вкладках удержания, поиска и экспорта в случае. <sup>1,1</sup> |1,000|
+  |Максимальное число обращений, отображаемых на основной странице обнаружения электронных данных, и максимальное количество элементов, отображаемых на вкладках удержания, поиска и экспорта в случае. <sup>1</sup> |1,000|
   |||
 
    > [!NOTE]

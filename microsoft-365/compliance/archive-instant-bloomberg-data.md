@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Узнайте, как администраторы могут настроить и использовать соединитель данных для импорта и архивирования данных из средства "мгновенный Bloomberg чата" в Microsoft 365.
-ms.openlocfilehash: 248636d1f343b1f314201ce74dacdf2ecd043e68
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: 4df1a67ae9e372efe5c6e8c654f1a6821b5cb30d
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255826"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358241"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Настройка соединителя для архивации данных Instant Bloomberg
 
@@ -44,7 +44,7 @@ ms.locfileid: "47255826"
 
 ## <a name="before-you-begin"></a>Перед началом работы
 
-Многие действия по реализации, необходимые для архивации данных Bloomberg, являются внешними по отношению к Microsoft 365 и должны быть завершены до того, как вы сможете создать соединитель в центре соответствия требованиям.
+Некоторые действия по внедрению, необходимые для архивации данных Bloomberg для обмена мгновенными сообщениями, являются внешними по отношению к Microsoft 365 и должны быть завершены до того, как вы сможете создать соединитель в центре соответствия требованиям.
 
 - Ваша организация должна разрешить службе импорта Office 365 доступ к данным почтовых ящиков в Организации. Чтобы согласиться с этим запросом, перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), войдите с помощью учетных данных глобального администратора, а затем примите запрос. Необходимо выполнить это действие, прежде чем вы сможете успешно создать соединитель Bloomberg в действии 3.
 

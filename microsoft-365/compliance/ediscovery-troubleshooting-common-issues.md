@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Сведения об основных этапах устранения неполадок, которые можно предпринять для решения распространенных проблем, связанных с обнаружением электронных данных в Office 365.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f643f4c3709b811a10618343a4b37ac4114dd8c0
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 2b96ed80ba9f347616fd364b3b97ac960cdaeb8e
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434172"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357999"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Исследование, устранение неполадок и устранение распространенных проблем обнаружения электронных данных
 
@@ -52,7 +52,7 @@ ms.locfileid: "45434172"
    > |Имя|RecipientType|
    > |---|---|
    > |Псевдоним, пользователь|MailUser|
-   > |Псевдоним, пользователь|User|
+   > |Псевдоним, пользователь|Пользователь|
 
 3. Если возвращается несколько пользователей, разместите и устраните конфликтующий объект.
 

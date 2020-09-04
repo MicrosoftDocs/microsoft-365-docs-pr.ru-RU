@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается, как приступить к работе с основными средствами обнаружения электронных данных в Microsoft 365. После назначения разрешений обнаружения электронных данных и создания обращения можно добавить элементы, создать обнаружение электронных данных, а затем выполнить поиск и экспорт данных, относящихся к расследованию.
-ms.openlocfilehash: 5faae81eb81ce8c69e3ae801d153c664ac152bda
-ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
+ms.openlocfilehash: 94c85987be4cbc5da7a378abb7ea74294f6fe740
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280549"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357917"
 ---
 # <a name="get-started-with-core-ediscovery"></a>Начало работы с Core eDiscovery
 
