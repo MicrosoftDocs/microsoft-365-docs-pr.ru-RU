@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить соединитель для импорта и архивации данных Reuters Еикон из Глобанет в Microsoft 365. Этот соединитель позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как судебное хранение, поиск контента и политики хранения для управления сторонними данными Организации.
-ms.openlocfilehash: ee28cd33e6c4531bf769a1e178d733eff453cb75
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: a5cd6e6266c9e5d8b74f50a5712e436e6225c9df
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47362018"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399342"
 ---
 # <a name="set-up-a-connector-to-archive-reuters-eikon-data-preview"></a>Настройка соединителя для архивации данных Еикон Reuters (Предварительная версия)
 
@@ -28,7 +28,7 @@ ms.locfileid: "47362018"
 
 ## <a name="overview-of-archiving-reuters-eikon-data"></a>Обзор архивации данных Еикон Reuters
 
-В следующем обзоре описывается процесс использования соединителя для архивации сведений о Еикон Reuters в Microsoft 365.
+В следующем обзоре описывается процесс использования соединителя для архивации данных Reuters Еикон в Microsoft 365.
 
 ![Рабочий процесс архивации данных Еикон для Reuters](../media/ReutersEikonConnectorWorkflow.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "47362018"
 
 4. Соединитель импортирует элементы в почтовые ящики определенных пользователей, используя значение свойства *Email* для автоматического сопоставления пользователей, как описано в [шаге 3](#step-3-map-users-and-complete-the-connector-setup). Вложенная папка в папке "Входящие" с именем **Reuters еикон** создается в почтовых ящиках пользователей, а элементы импортируются в эту папку. Соединитель выполняет это, используя значение свойства *Email* . Каждый элемент Еикон Reuters содержит это свойство, которое заполняется адресом электронной почты каждого участника элемента.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Прежде чем начать
 
 - Создайте учетную запись Глобанет Merge1, приняв условия и условия для соединителя обнаружения резервных данных. Для этого обратитесь в [службу поддержки клиентов глобанет](https://globanet.com/contact-us). Вы должны войти в эту учетную запись, когда вы создадите соединитель на шаге 1.
 
@@ -62,7 +62,7 @@ ms.locfileid: "47362018"
 
 ## <a name="step-2-configure-the-reuters-eikon-connector-on-the-globanet-merge1-site"></a>Шаг 2: Настройте соединитель Reuters Еикон на сайте Глобанет Merge1
 
-Второй шаг — настройка соединителя Reuters Еикон на сайте Merge1. Сведения о настройке соединителя Reuters Еикон на сайте Глобанет Merge1 можно найти в [руководстве пользователя Merge1 Connectors](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Reuters%20Eikon%20User%20Guide%20.pdf).
+Второй шаг — настройка соединителя Reuters Еикон на сайте Merge1. Сведения о том, как настроить соединитель Reuters Еикон на сайте Глобанет Merge1, можно найти в [руководстве пользователя Merge1 Connectors](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Reuters%20Eikon%20User%20Guide%20.pdf).
 
 После нажатия кнопки **сохранить & готово**вы передаетесь обратно в центр соответствия требованиям Microsoft 365 на страницу **сопоставления пользователей** в мастере соединителей.
 
