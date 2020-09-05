@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: b26250c54c30b2da4dbda50a5909a168f09bbe73
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 40d0ffa779b0ab13a0bdd887b12d69c20892662d
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866687"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399353"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Основные вычисления в отраслевых тестах
 
@@ -37,7 +37,7 @@ ms.locfileid: "46866687"
 
 - ATT&оценки защиты от угроз Майкрософт (а) — 2020: [в начале обнаружения в реальном мире](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
-    Защита от угроз Майкрософт обеспечивает около 100 процентов между стадиями цепочки атак. Она доставила ведущее представление о готовности к действиям злоумышленников. Видимость значительно сокращает трудозатраты, выполняемые вручную, для решений центра безопасности и поставщиков, которые основывались на определенных изменениях конфигурации. Кроме того, при этом уменьшается минимальное количество пропусков, что позволяет злоумышленнику работать без обнаружения.
+    Защита от угроз Майкрософт обеспечивает около 100 процентов между стадиями цепочки атак. Она доставила ведущее представление о готовности к действиям злоумышленников. Видимость значительно сокращает трудозатраты, выполняемые вручную, для решений центра безопасности и поставщиков, которые основывались на определенных изменениях конфигурации. Кроме того, для защиты от угроз корпорации Майкрософт находилось меньшее количество разрывов, что позволяет злоумышленнику работать без обнаружения.
 
 ## <a name="next-generation-protection"></a>Защита нового поколения
 
@@ -45,15 +45,17 @@ ms.locfileid: "46866687"
 
 Антивирусная программа "защитник Майкрософт" — это функция [защиты следующего поколения](https://www.youtube.com/watch?v=Xy3MOxkX_o4) в [стеке безопасности Windows 10 для защитника Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) , которая в настоящее время обращается к последним и наиболее сложным угрозам. В некоторых случаях клиенты могут даже не знать, что они защищены, так как цибераттакк остановлен в [миллисекундах после начала кампании](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign). Это связано с тем, что антивирусная программа "защитник Майкрософт" и другие возможности [платформы защиты от вирусов (EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) в защитнике Майкрософт обнаруживают и останавливают вредоносные программы на первом уровне. Они используют [машинное обучение](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [искусственный интеллект](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), анализ поведения и другие дополнительные технологии.
 
-### <a name="av-test-protection-score-of-5560-in-the-latest-test"></a>AV-TEST: показатель защиты от 5.5/6.0 в последнем тесте
+### <a name="av-test-protection-score-of-6060-in-the-latest-test"></a>AV-TEST: показатель защиты 6.0/6.0 в последнем тесте
 
 В отчете о проверке и сертификации продукта AV-TEST проверяются три категории: защита, производительность и удобство использования. Следующие показатели предназначены для категории защиты с двумя оценками: реальное тестирование и набор справочных материалов "AV-TEST" (называемый распространенной вредоносной программой).
 
 **Скачайте последний отчет о прозрачности: [исследование результатов AV-Test, Январь – февраль 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
 
-- Март — Апрель 2020 AV-тестирование тестового пользователя: [показатель защиты 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/) <sup>**последние**</sup>
+- Май — Июнь 2020 AV-TEST бизнес-тест пользователя: [показатель защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/) <sup>**последним**</sup>
 
-    Антивирусная программа "защитник Майкрософт" заслужила общий показатель защиты от 5.5/6.0, а также примеры использования вредоносных программ для 20 540.
+    Антивирусная программа "защитник Майкрософт" заслужила оптимальным показателем защиты от 6.0 до 6.0, 100% в Май и июнь. 22 190. примеры использования вредоносных программ.
+
+- Март — Апрель 2020 AV-тестирование тестового пользователя: [показатель защиты 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
 
 - Январь — Февраль 2020 AV-Test бизнес-тест пользователя: [Protection Score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
@@ -65,13 +67,13 @@ ms.locfileid: "46866687"
 
 - Май — Июнь 2019 AV-Test бизнес-тест пользователя: анализ [показателя безопасности 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2019/microsoft-windows-defender-antivirus-4.18-192415/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
-### <a name="av-comparatives-protection-rating-of-995-in-the-latest-test"></a>AV-Сравнительный показатель: уровень защиты 99,5% в последнем тесте
+### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-Сравнительный показатель: уровень защиты 99,7% в последнем тесте
 
 Тестирование бизнес-безопасности состоит из трех основных частей: тестирования защиты от вредоносных программ, которые имитируют вредоносные атаки через Интернет, проверку защиты от вредоносных программ, в которой вредоносная программа вводит систему извне из Интернета (например, на USB), а также тест производительности, который просматривает влияние системы на производительность.
 
-- Business Security Test 2020 Фактшит (март – апрель): [реальная скорость защиты 99,5%](https://www.av-comparatives.org/tests/business-security-test-march-april-2020-factsheet/) <sup>**последней версии**</sup>
+- Business Security Test 2020 (март – июнь): [реальная скорость защиты 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**последних**</sup>
 
-    Антивирусная программа "защитник Майкрософт" в последних тестовых скоро пробрала высокий уровень защиты в реальном мире, где 99,5%.
+    Антивирусная программа "защитник Майкрософт" в последних тестовых скоро пробрала высокий уровень защиты в реальном мире, где 99,7%.
 
 - Business Security Test 2019 (Август — Ноябрь): [уровень защиты от реального мира 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
 
@@ -85,9 +87,11 @@ ms.locfileid: "46866687"
 
 **Скачайте последний отчет о прозрачности: [исследование результатов тестирования для лаборатории SE, Январь-март 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
 
-- Корпоративная защита от конечных точек — [AAA award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) Март 2020: анализ премии <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
+- Корпоративная защита от вирусов Апрель — Июнь 2020: [AAA премия](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
 
-    Для защиты следующего поколения корпорации Майкрософт использовался один из ведущих продуктов, что приведет к остановке всех нацеленных атак и всех открытых угроз, кроме одной.
+    Защита следующего поколения Майкрософт называлась одним из ведущих продуктов, защищая от всех общедоступных и нацеленных атак. Антивирусная программа "защитник Майкрософт" обеспечивает такие хорошие результаты, позволяя блокировать вредоносные URL-адреса, обрабатывать эксплойты и правильно классифицировать легальные приложения и веб-сайты.
+
+- Корпоративная защита от конечных точек — [AAA award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) Март 2020: анализ премии <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
 - Enterprise Endpoint Protection Октябрь — Декабрь 2019: [AAA премия](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf) <sup>**PDF**</sup>
 
@@ -101,7 +105,7 @@ ms.locfileid: "46866687"
 
 Возможности [обнаружения и ответа конечных точек](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) в защитнике Майкрософт обеспечивают расширенные возможности обнаружения атак в режиме реального времени и действия. Аналитики систем безопасности могут эффективно определять приоритеты предупреждений, получать полную картину всех возможных брешей в системе безопасности, а также предпринимать действия по реагированию для устранения угроз.
 
-ЕДР и функции защиты от конечных точек в защитнике Майкрософт получили положительные результаты из отраслевых тестов и публикаций. [Средства безопасности для лабораторных занятий](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) , на которые подается оценка, в июне 2020, а для защитника Майкрософт — ATP [5/5 звезд](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/). Они назывались возможностью Office Defender ATP для защиты организаций от современных угроз, используя полный набор возможностей обеспечения безопасности. Кроме того, они определяют решение для обеспечения безопасности конечной точки как целостное и единое. Кроме того, они также подтвердили конвергенцию Endpoint Protection с обнаружением конечных точек и функцией ответа, так как цепочка атак теперь полностью охватывается решениями.
+ЕДР и функции защиты от конечных точек в защитнике Майкрософт получили положительные результаты из отраслевых тестов и публикаций. [Средства безопасности для лабораторных занятий](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) , на которые подается оценка, в июне 2020, а для защитника Майкрософт — ATP [5/5 звезд](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/). Они назывались возможностью Office Defender ATP для защиты организаций от современных угроз, используя полный набор возможностей обеспечения безопасности. В лабораториях SC также определено решение по обеспечению безопасности конечной точки как целостное и единое. Кроме того, они также подтвердили конвергенцию Endpoint Protection с обнаружением конечных точек и функцией ответа, так как цепочка атак теперь полностью охватывается решениями.
 
 ### <a name="mitre-industry-leading-optics-and-detection-capabilities"></a>МИТРЕ: ведущие в отрасли функции оптики и обнаружения
 

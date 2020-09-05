@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75d709cc1f98a12bb6f5a5b6539583a33be500b6
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: ae0105fd5eba134c7896daef34136748802e9010
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255749"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394685"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Защита от угроз (Майкрософт) позволяет осуществлять их расширенное выслеживание на профилактической основе
 
@@ -39,7 +39,7 @@ ms.locfileid: "47255749"
 
 Вы можете использовать одни и те же запросы на поиск угроз для создания пользовательских правил обнаружения. Эти правила выполняются автоматически для проверки различных событий и состояний системы, включая подозрения на действия нарушения, и реагирования на них.
 
-Эта функция аналогична [расширенному поиску в Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview), за исключением того, что в центре безопасности Microsoft 365 Расширенный поиск поддерживает запросы, которые просматривает данные из различных рабочих областей, в том числе сведения об устройствах, сообщениях электронной почты, приложениях и удостоверениях из пакета ATP для Microsoft Defender, Office 365 ATP, Microsoft Cloud App Security и Azure ATP. Воспользоваться расширенным выслеживанием можно, [включив Защиту от угроз (Майкрософт)](mtp-enable.md).
+Эта возможность аналогична [расширению поиска в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview), за исключением расширенного поиска в Microsoft Threat Protection, доступного в центре обеспечения безопасности Microsoft 365, поддерживает запросы, которые проходят данные из различных рабочих областей, в том числе сведения об устройствах, сообщениях электронной почты, приложениях и удостоверениях из пакета ATP, Office 365, Microsoft Cloud App Security и Azure ATP. Воспользоваться расширенным выслеживанием можно, [включив Защиту от угроз (Майкрософт)](mtp-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Начало работы с расширенным выслеживанием
 

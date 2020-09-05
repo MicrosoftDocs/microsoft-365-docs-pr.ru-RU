@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как настроить почтовый ящик для сбора нежелательных сообщений и фишинговых сообщений, сообщаемых пользователями.
-ms.openlocfilehash: 458938105d03cb82dfa4e9a7824f8b026fddec5d
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+ms.openlocfilehash: e482399adb6304840b8286a226800e6b9dcb6813
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47294757"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394727"
 ---
 # <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Выбор почтового ящика для отправки пользователем сообщений о нежелательной почте и фишинговых сообщениях в Exchange Online
 
@@ -43,17 +43,10 @@ ms.locfileid: "47294757"
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на страницу " **отправки пользователя** ", используйте <https://protection.office.com/userSubmissionsReportMessage> .
 
-- Чтобы вы могли выполнить процедуры, упомянутые в этой теме, вам должны быть назначены соответствующие разрешения.
+- Чтобы изменить конфигурацию для отправки пользователей, необходимо быть участником одной из следующих групп ролей:
 
-  - Чтобы изменить конфигурацию для отправки пользователей, необходимо быть участником одной из следующих групп ролей:
-
-    - **[Администратор Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** в Azure AD и **Управление организацией** или **администратор безопасности** , а также в [центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
-    - **Управление организацией** или **Управление санацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
-
-  - Для доступа к отправку пользователей только для чтения необходимо быть членом обеих следующих групп ролей:
-
-    - **Средство считывания сведений о безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
-    - **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Управление организацией** или **Администратор безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+  - **Управление организацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Использование центра безопасности & соответствия требованиям для настройки почтового ящика отправки пользователя
 
