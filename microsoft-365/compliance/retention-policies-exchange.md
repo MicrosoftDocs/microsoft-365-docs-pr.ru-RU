@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как работает хранение в Exchange.
-ms.openlocfilehash: e1860b9ff9c521a5a6a61c58d822a2a893570e99
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: e12f46b68feb4b64ade14cfb046061d89e1a607c
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127446"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394716"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Сведения о хранении для Exchange
 
@@ -70,4 +70,9 @@ ms.locfileid: "45127446"
 
 ## <a name="configuration-guidance"></a>Рекомендации по настройке
 
-Если вы готовы настроить хранение в Microsoft 365, см. статью [Начало работы с политиками хранения и метками хранения](get-started-with-retention.md).
+Если вы не знакомы с хранением в Microsoft 365, см. статью [Начало работы с политиками хранения и метками хранения](get-started-with-retention.md).
+
+Если вы готовы настроить политику хранения или метку хранения для Exchange, см. следующие инструкции:
+- [Создание и настройка политик хранения](create-retention-policies.md)
+- [Создание меток хранения и их применение в приложениях](create-apply-retention-labels.md)
+- [Автоматическое применение метки хранения к контенту](apply-retention-labels-automatically.md)

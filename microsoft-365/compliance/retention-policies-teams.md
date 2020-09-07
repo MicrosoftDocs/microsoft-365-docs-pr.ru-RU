@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: 3dcc0e3ea94d002f603b44b777d7666a65b4a725
-ms.sourcegitcommit: c692bdc186fb29499816e8bb2addcddef34d23d3
+ms.openlocfilehash: cc0d422220d4f3c2ca667a4f0076eb9e62d90518
+ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818325"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47394696"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -118,4 +118,6 @@ ms.locfileid: "46818325"
 
 ## <a name="configuration-guidance"></a>Рекомендации по настройке
 
-Если вы готовы настроить хранение в Microsoft 365, см. статью [Начало работы с политиками хранения и метками хранения](get-started-with-retention.md).
+Если вы не знакомы с хранением в Microsoft 365, см. статью [Начало работы с политиками хранения и метками хранения](get-started-with-retention.md).
+
+Если вы готовы настроить политику хранения для Teams, см. статью [Создание и настройка политик хранения](create-retention-policies.md).

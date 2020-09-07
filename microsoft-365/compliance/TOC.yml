@@ -548,10 +548,10 @@
         - name: Экспорт данных дела
           href: exporting-data-ediscover20.md
           items:
+            - name: Скачивание документов из набора для проверки
+              href: download-documents-from-review-set.md
             - name: Экспорт документов из набора для проверки
               href: export-documents-from-review-set.md
-            - name: Скачивание заданий экспорта
-              href: download-export-jobs.md
         - name: Управление заданиями
           href: managing-jobs-ediscovery20.md
         - name: Настройка параметров дела

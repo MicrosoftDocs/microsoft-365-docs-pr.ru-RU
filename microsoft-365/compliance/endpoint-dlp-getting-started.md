@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте защиту от потери данных Microsoft 365 Endpoint для отслеживания действий с файлами и внедрения защитных действий для конечных точек этих файлов.
-ms.openlocfilehash: 67bd00a83314590d1ca1ab71c32d5a325686dc46
-ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
+ms.openlocfilehash: f24dff993a125de9ecd126b232abfcfa503deb83
+ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46514782"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399226"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Начало работы с функцией защиты от потери данных в конечной точке (предварительная версия)
 
@@ -99,17 +99,17 @@ ms.locfileid: "46514782"
 1. Откройте [Центр соответствия требованиям Microsoft](https://compliance.microsoft.com).
 2. Откройте параметры Центра соответствия требованиям и выберите **Подключение устройств**. 
 
-![включите управление устройствами](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+   ![включите управление устройствами](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
-> [!NOTE]
-> Обычно подключение устройств занимает около 60 секунд, подождите около 30 минут, прежде чем обращаться в службу поддержки Microsoft.
+   > [!NOTE]
+   > Обычно подключение устройств занимает около 60 секунд, но перед обращением в службу поддержки Майкрософт подождите около 30 минут.
 
 3. Выберите **Управление устройствами**, чтобы открыть список **Устройства** Список будет пустым, пока устройства не будут подключены.
 4. Нажмите **Подключение**, чтобы начать процесс.
 5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания**, а затем **загрузите пакет**.
 
-![метод развертывания](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-1. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает страницу доступа к MDATP процедурам, соответствующим пакету развертывания, который вы выбрали на этапе 5:
+   ![метод развертывания](../media/endpoint-dlp-getting-started-3-deployment-method.png)
+6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает страницу доступа к MDATP процедурам, соответствующим пакету развертывания, который вы выбрали на этапе 5:
     - Подключение компьютеров с Windows 10 с помощью групповой политики
     - Подключение компьютеров с Windows с помощью Microsoft Endpoint Configuration Manager
     - Подключение компьютеров с Windows 10 с помощью инструментов управления мобильными устройствами
@@ -152,7 +152,7 @@ ms.locfileid: "46514782"
 ## <a name="next-steps"></a>Следующие шаги
 После того, как вы подключили устройства, вы можете просмотреть данные об активности в обозревателе действий и перейти к этапу создания политик защиты от потери данных для конфиденциальных элементов.
 
-1) [Использование функции защиты от потери данных в конечной точке (предварительная версия)](endpoint-dlp-using.md)
+- [Использование функции защиты от потери данных в конечной точке (предварительная версия)](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>См. также
 
