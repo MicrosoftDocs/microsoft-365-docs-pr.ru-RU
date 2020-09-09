@@ -4,7 +4,7 @@
       href: document-understanding-overview.md
     - name: Обзор обработки форм
       href: form-processing-overview.md
-    - name: Различия между общими моделями документов и моделями обработки форм
+    - name: Разница между общими сведениями о документе и моделями обработки форм
       href: difference-between-document-understanding-and-form-processing-model.md
     - name: Создание центра контента
       href: create-a-content-center.md
