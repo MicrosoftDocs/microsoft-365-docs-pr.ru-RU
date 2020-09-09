@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Обзор функций аудита и создания отчетов в Office 365, Microsoft 365 и гарантиях обслуживания.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 11dbf29faf028ec9ed0274c806fc8c8979a6f1fd
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: 297eba449515eeadf462d4a6d09e585f1da6209d
+ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332584"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47407954"
 ---
 # <a name="auditing-and-reporting-in-microsoft-cloud-services"></a>Аудит и создание отчетов в облачных службах Майкрософт
 
@@ -37,7 +37,7 @@ ms.locfileid: "47332584"
 
 - **Оповещения:** Позволяет управлять оповещениями, просматривать оповещения, связанные с безопасностью, а также управлять расширенными оповещениями с помощью [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security).
 - **Разрешения:** Позволяет [назначать разрешения](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center) , такие как администратор соответствия требованиям, диспетчер обнаружения электронных данных и другие пользователи в вашей организации, чтобы они могли выполнять задачи в этих центрах. Разрешения для большинства функций назначаются в каждом центре, но другие разрешения необходимо настроить с помощью центра администрирования Exchange и центра администрирования SharePoint.
-- **Управление угрозами:** Позволяет создавать и применять политики управления устройствами с помощью [управления мобильными устройствами Microsoft 365](https://support.microsoft.com/office/overview-of-mobile-device-management-mdm-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a), чтобы настроить политики защиты от [потери данных](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) для Организации, настроить фильтрацию электронной почты, защиту от вредоносных программ, DomainKeys identified mail идентификацию почты (DKIM), безопасные вложения, безопасные ссылки и приложения OAuth.
+- **Управление угрозами:** Позволяет создавать и применять политики управления устройствами, используя [базовую мобильность и безопасность для Microsoft 365](https://support.microsoft.com/office/overview-of-basic-mobility-and-security-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a), чтобы настроить политики защиты от [потери данных](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) для Организации, настроить фильтрацию электронной почты, защиту от вредоносных программ, DomainKeys identified mail идентификацию почты (DKIM), безопасные вложения, безопасные ссылки и приложения OAuth.
 - **Управление данными:** Позволяет [импортировать данные электронной почты или SharePoint из других систем в Microsoft 365](https://support.office.com/article/Import-PST-files-or-SharePoint-data-to-Office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84), [настроить архивные почтовые ящики](https://support.office.com/article/Enable-archive-mailboxes-in-the-Office-365-Security-Compliance-Center-268a109e-7843-405b-bb3d-b9393b2342ce)и настроить [политики хранения](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) для электронной почты и другого контента в Организации.
 - **Поиск & расследования:** Предоставляет средства [поиска контента](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a), [журнала аудита](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c), карантина и [обнаружения электронных](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) данных на месте для быстрого перехода к активности через почтовые ящики Exchange Online, группы и общедоступные папки, SharePoint Online и OneDrive для бизнеса.
 - **Отчеты:** Позволяет быстро получать доступ к [отчетам](https://support.office.com/article/Reports-in-the-Office-365-Security-Compliance-Center-7acd33ce-1ec8-49fb-b625-43bac7b58c5a) для SharePoint Online, OneDrive для бизнеса, Exchange Online и Azure AD.

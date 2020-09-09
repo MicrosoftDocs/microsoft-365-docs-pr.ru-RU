@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Получите последнюю версию в разделе изоляция на основе оборудования. Предотвращение текущих и новых атак, таких как эксплойты или вредоносные ссылки, не нарушая продуктивность сотрудников и корпоративную безопасность.
-ms.openlocfilehash: d0a89e8f8874c9ad298bf862384019b9e1ace0bf
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 32a8705255bf4ae4f0e3678de9cd812b64107cfd
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867504"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405545"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard для Office (общедоступная Предварительная версия) для администраторов
 
@@ -45,7 +45,7 @@ ms.locfileid: "46867504"
 
 * **Windows 10**: Windows 10 Enterprise Edition, Клиентская сборка версии 2004 (20H1) Build 19041
 * **Office**: сборка канала Office Beta версии 2008 16.0.13212 или более поздней версии
-* **Пакет обновления**: Windows 10 накопительных обновлений для системы безопасности ( [KB4566782](https://support.microsoft.com/help/4566782/windows-10-update-kb4566782) ) 
+* **Пакет обновления**: Windows 10 накопительных обновлений для системы безопасности ( [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) ) 
 
 Для получения подробных сведений о требованиях к системе обратитесь к разделу [требования к системе для Application Guard в защитнике Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard). Чтобы узнать больше о сборках Insider Preview для Office, ознакомьтесь со статьей [Начало работы по развертыванию сборок для участников программы предварительной оценки Office](https://insider.office.com/business/deploy).
 
@@ -56,28 +56,9 @@ ms.locfileid: "46867504"
 
 ### <a name="enable-application-guard-for-office"></a>Включение Application Guard для Office
 
-1.  Загрузите и установите **накопительные пакеты обновления для системы безопасности KB4566782 для Windows 10**. 
+1.  Загрузите и установите **накопительные пакеты обновления для системы безопасности KB4571756 для Windows 10**. 
 
-2. Скачайте и установите [**пакет включения Application Guard для Office**](https://download.microsoft.com/download/e/4/c/e4c1180a-fcff-462a-8324-4151c44973a8/Windows%20Preview%20-%20WDAG%20Office%20070920%2001.msi). Этот пакет устанавливает групповую политику с именем "KB4559004 Issue 001 Preview" в разделе **Конфигурация компьютера \ административные шаблоны**. Установите для этой групповой политики значение **Enabled**.
-     ![Редактор локальных групповых политик](../../media/ag01-deploy.png)
-
-     ![KB4559004ная ошибка 001 Preview](../../media/ag02-deploy.png)
-
-    Вы также можете напрямую задать следующие разделы реестра: 
-    
-    ```
-    reg add HKLM\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 3457697930 /t REG_DWORD /d 1 
-    ```
-    ```
-    reg add HKLM\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 94539402 /t REG_DWORD /d 1 
-    ```
-    Затем выполните следующую команду PowerShell: 
-    
-    ```powershell
-    Get-ScheduledTask -TaskName "ReconcileFeatures" -TaskPath "\Microsoft\Windows\Flighting\FeatureConfig\" | Start-ScheduledTask 
-    ```
-
-3.  Выберите **Application Guard в защитнике Microsoft** в разделе Компоненты Windows и нажмите кнопку **ОК**. При использовании функции Application Guard будет выдаваться запрос на перезагрузку системы. Вы можете выполнить перезагрузку сейчас или после шага 4.
+2.  Выберите **Application Guard в защитнике Microsoft** в разделе Компоненты Windows и нажмите кнопку **ОК**. При использовании функции Application Guard будет выдаваться запрос на перезагрузку системы. Вы можете выполнить перезагрузку сейчас или после этапа 3.
 
     ![Диалоговое окно "компоненты Windows", в котором отображается AG](../../media/ag03-deploy.png)
     
@@ -87,7 +68,7 @@ ms.locfileid: "46867504"
     Enable-WindowsOptionalFeature -online -FeatureName Windows-Defender-ApplicationGuard 
     ```
 
-4.  Найдите Application Guard в защитнике Майкрософт в групповой политике управляемого режима, расположенном в разделе **Конфигурация компьютера \\ Административные шаблоны \\ Windows компоненты \\ Application Guard в защитнике Microsoft Application Guard**. Включите эту политику, задав значение в разделе параметры как **2** или **3** нажмите **кнопку ОК** или **Применить**.
+3.  Найдите Application Guard в защитнике Майкрософт в групповой политике управляемого режима, расположенном в разделе **Конфигурация компьютера \\ Административные шаблоны \\ Windows компоненты \\ Application Guard в защитнике Microsoft Application Guard**. Включите эту политику, задав значение в разделе параметры как **2** или **3** нажмите **кнопку ОК** или **Применить**.
 
     ![Включение AG в управляемом режиме](../../media/ag04-deploy.png)
   
@@ -98,7 +79,7 @@ ms.locfileid: "46867504"
     <br>Значение: **2**
 
 
-5.  Перезагрузите систему.
+4.  Перезагрузите систему.
 
 ### <a name="set-diagnostics--feedback-to-send-full-data"></a>Настройка диагностики & обратной связи для отправки полных данных
 
