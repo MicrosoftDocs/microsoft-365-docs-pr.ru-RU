@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить соединитель для импорта и архивирования данных из Facebook, который архивируется на сайте Глобанет Merge1, в Microsoft 365. Для настройки соединителя необходимо работать с Глобанет этот соединитель позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридические удержания, поиск контента и политики хранения для управления сторонними данными Организации.
-ms.openlocfilehash: e7cdb81b2b676424c289c42490fe23e7b5441239
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 4bef408f7da93f2ade18fe126d3a1dedaa413a65
+ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399136"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405490"
 ---
 # <a name="set-up-a-connector-to-archive-workplace-from-facebook-data-preview"></a>Настройка соединителя для архивации на рабочем месте из данных Facebook (Предварительная версия)
 
@@ -42,7 +42,7 @@ ms.locfileid: "47399136"
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
-- Создайте учетную запись Merge1, приняв свои условия и условия на рабочем месте из соединителя Facebook Connector. Здесь необходимо обратиться в службу [поддержки клиентов глобанет](https://globanet.com/contact-us/). Вы должны войти в эту учетную запись, когда вы создадите соединитель на шаге 1.
+- Создайте учетную запись Глобанет Merge1 для соединителей Майкрософт. Для этого обратитесь в [службу поддержки клиентов глобанет](https://globanet.com/ms-connectors-contact). Вы должны войти в эту учетную запись, когда вы создадите соединитель на шаге 1.
 
 - Создание настраиваемой интеграции https://my.workplace.com/work/admin/apps/ для получения данных с рабочего места с помощью API для обеспечения соответствия требованиям и обнаружения электронных данных.
 
