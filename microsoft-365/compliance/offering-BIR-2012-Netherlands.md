@@ -3,7 +3,7 @@ title: Стандарт Baseline Informatiebeveiliging Rijksdienst (BIR 2012)
 description: Облачные службы Майкрософт помогают учреждениям государственного сектора Нидерландов соответствовать стандарту BIR 2012.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 765e9b3ed18e15cd458913e7f943d52f791dbafd
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: a2d7d8ea536c567280d1a89ef94e1a40452106bd
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065884"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417760"
 ---
 # <a name="baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>Стандарт Baseline Informatiebeveiliging Rijksdienst (BIR 2012)
 

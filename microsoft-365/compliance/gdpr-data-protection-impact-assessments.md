@@ -3,7 +3,7 @@ title: Оценка влияния на защиту данных
 description: Эти документы предоставляют управляющим данными информацию. которая поможет им определить, требуется ли оценка DPIA, и если да, то какие сведения необходимо в нее включить.
 keywords: Оценка влияния на защиту данных, DPIA, Dynamics 365, профессиональные службы Майкрософт, Microsoft 365, документация по Microsoft 365, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 21bda86075b2ab1e542e482e8c0a1edee640035e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 8bedb6e913e55cdd4cd44d8f343df1ec0433fdf8
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558079"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417973"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>Оценка влияния на защиту данных в рамках GDPR
 

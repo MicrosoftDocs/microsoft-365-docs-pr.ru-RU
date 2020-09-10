@@ -3,7 +3,7 @@ title: Австралийский авторитетный орган (Апра)
 description: Рекомендации корпорации Майкрософт по обеспечению соответствия требованиям клиентов финансовых служб стандартам аутсорсинга в рациональном центре австралийского законодательства.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b344f9c4d750c6e6571c0e76be0c9db0c421271b
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fb964bd6dcf229f362476b68ad87d05053e87f74
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065894"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417763"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>Австралийский авторитетный орган (Апра)
 
@@ -70,7 +70,7 @@ ms.locfileid: "44065894"
 
 Получение практических услуг по переносу данных и рабочих нагрузок в Azure в соответствии с нормативными положениями Апра: [скачать облачные службы Майкрософт: контрольный список соответствия требованиям для финансовых учреждений в Австралии](https://www.microsoft.com/cms/api/am/binary/RE3ez0C).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)

@@ -3,7 +3,7 @@ title: Руководство для управляющих данными, ис
 description: В этом документе управляющим данными предоставлены сведения об Office 365, которые помогут им определить, требуется ли оценка DPIA и какие сведения необходимо в нее включить.
 keywords: DPIA, Office 365, документация Microsoft 365, GDPR
 ms.localizationpriority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d0fe3092d0ea3004097aba9a86e1916025b87841
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+ms.openlocfilehash: 2408445598ab1e474ac1967be6e13f19887144a8
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547569"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417903"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>Оценка влияния на защиту данных: руководство для управляющих данными, использующих Microsoft Office 365 
 

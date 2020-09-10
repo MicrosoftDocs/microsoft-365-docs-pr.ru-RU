@@ -3,7 +3,7 @@ title: Контрольный список готовности к подотч�
 description: Позволяет получить доступ к информации, необходимой для поддержки регламента GDPR при использовании Microsoft Azure.
 keywords: ARC Azure, Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dd94ab9bfcc4ca1c9e8f6b99364fa99dde5ff644
-ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
+ms.openlocfilehash: eb2d4ca52acce338e3afb31852409d441e52cfe0
+ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46815268"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422467"
 ---
 # <a name="azure-and-dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Контрольный список готовности к подотчетности для Azure и Dynamics 365 в рамках GDPR
 
@@ -144,7 +144,7 @@ ms.locfileid: "46815268"
 | 11 <a name="11"> </a> | [Ключевая информация из Azure об оценках влияния на защиту данных клиентов](https://aka.ms/DPIAAzure) |
 | 12 <a name="12"> </a> | [Отчет об аудите SOC 2, тип 2 [12]](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=3c7123a5-f507-48b7-8dce-cd948e6150e6&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC_%2F_SSAE_16_Reports) |
 | 13 <a name="13"> </a> | [Положение о применимости требований ISO/IEC 27001:2013 к СУИБ Microsoft Azure (полностью)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
-| 14 <a name="14"> </a> | [Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт](offering-home.md)  |
+| 14 <a name="14"> </a> | [Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт](offering-home.yml)  |
 | 15 <a name="15"> </a> | [Сведения об ответственном за защиту данных в Майкрософт](https://aka.ms/GDPRDPO) |
 | 16 <a name="16"> </a> | [Ключевая информация из Dynamics 365 о влиянии на защиту данных клиентов](https://servicetrust.microsoft.com/ViewPage/GDPRDPIA?command=Download&downloadType=Document&downloadId=ef2902bb-3137-4f4a-8ca6-af35afaa6bec&docTab=2ba9a350-555c-11e8-b74a-77b1f31da06e_DPIA) |
 | 17 <a name="17"> </a> | [Аудит и отчеты в Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-use-comprehensive-auditing) |

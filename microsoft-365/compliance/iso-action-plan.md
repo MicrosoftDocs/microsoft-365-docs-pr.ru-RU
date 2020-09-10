@@ -4,7 +4,7 @@ description: План действий в порядке приоритета, �
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, ISO, ISO 27001
 author: BrendaCarter
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7415fd8f455d90e791f9dfa6669378e78a5d741d
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a90ed0603a6c64797cafcae66721b86ec109d0b6
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308292"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417893"
 ---
 # <a name="microsoft-365-iso-27001-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>План обеспечения соответствия ISO 27001 для Microsoft 365: основные приоритеты на первые 30, 90 и больше дней
 
