@@ -936,7 +936,7 @@
 - name: Предложения для соответствия требованиям
   items:
     - name: Предложения Майкрософт для соответствия требованиям
-      href: offering-home.md
+      href: offering-home.yml
     - name: Глобальные
       items:
         - name: Контрольные показатели CIS

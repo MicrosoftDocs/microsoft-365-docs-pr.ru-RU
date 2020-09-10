@@ -1,0 +1,45 @@
+- name: Microsoft Bookings
+  href: bookings-overview.md
+  items:
+    - name: Настройка
+      items:
+        - name: Получение доступа к резервированиям
+          href: get-access.md
+        - name: Ввод сведений о компании
+          href: enter-business-information.md
+        - name: Определение услуг
+          href: define-service-offerings.md
+        - name: Планирование нерабочих и нерабочих часов
+          href: schedule-closures-time-off-vacation.md
+        - name: Определение политик планирования
+          href: set-scheduling-policies.md
+        - name: Настройка и публикация страницы резервирования
+          href: customize-booking-page.md
+        - name: Создание ручного резервирования
+          href: create-a-manual-booking.md
+        - name: Планирование нерабочих и нерабочих часов
+          href: schedule-closures-time-off-vacation.md
+        - name: Часы сотрудников
+          href: employee-hours.md
+        - name: Добавление настраиваемых и обязательных вопросов на страницу "резервирование"
+          href: add-questions.md
+        - name: Установка времени буфера
+          href: set-buffer-time.md
+        - name: Показатели и отслеживание активности
+          href: metrics-and-activity-tracking.md
+        - name: Выбор языка и часового пояса
+          href: set-language-time-zones.md
+    - name: Получение приложения для работы с книгами
+      href: get-bookings-app.md
+    - name: Резервирование приложений и виртуальных посетителей в Microsoft Teams
+      href: 'https://docs.microsoft.com/en-us/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+    - name: Диаграмма сравнения — веб-приложение и приложение Teams
+      href: comparison-chart.md
+    - name: Удаление календаря резервирования
+      href: delete-calendar.md
+    - name: Включение и отключение резервирований Майкрософт
+      href: turn-bookings-on-or-off.md
+    - name: Сведения о отчетности для резервирований Майкрософт
+      href: reporting-info.md
+    - name: Часто задаваемые вопросы о Microsoft Books (FAQ)
+      href: bookings-faq.md

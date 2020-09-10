@@ -1,7 +1,7 @@
 ---
-title: Рекомендации по расширенному выслеживанию в службе Защиты от угроз (Майкрософт)
-description: В этой статье можно узнать о том, как формировать оперативные, эффективные и безошибочные запросы в ходе расширенного выслеживания.
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, пользовательские обнаружения, схема, Кусто, предотвращение времени ожидания, командные строки, идентификатор процесса
+title: Расширенные рекомендации по запросу поиска при поиске в Microsoft Threat protection
+description: Сведения о том, как создавать быстрые, эффективные и бесплатные сообщения о поиске угроз с помощью расширенного запроса
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, схема, Кусто, предотвращение времени ожидания, командные строки, идентификатор процесса, оптимизация, рекомендации, анализ, присоединение, подведение итогов
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,66 +17,194 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f66b17fbdaaa58cf12bd0373d0fece59349c3a48
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 3ca475ef6dbdbd66af47216c4130d748788730c2
+ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649503"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47419136"
 ---
-# <a name="advanced-hunting-query-best-practices"></a><span data-ttu-id="31cfb-104">Рекомендации по использованию запросов расширенного выслеживания</span><span class="sxs-lookup"><span data-stu-id="31cfb-104">Advanced hunting query best practices</span></span>
+# <a name="advanced-hunting-query-best-practices"></a><span data-ttu-id="062b0-104">Рекомендации по использованию запросов расширенного выслеживания</span><span class="sxs-lookup"><span data-stu-id="062b0-104">Advanced hunting query best practices</span></span>
 
-<span data-ttu-id="31cfb-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="31cfb-105">**Applies to:**</span></span>
-- <span data-ttu-id="31cfb-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="31cfb-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="062b0-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="062b0-105">**Applies to:**</span></span>
+- <span data-ttu-id="062b0-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="062b0-106">Microsoft Threat Protection</span></span>
 
+<span data-ttu-id="062b0-107">Используйте эти рекомендации для ускорения получения результатов и предотвращения превышения времени ожидания при выполнении сложных запросов.</span><span class="sxs-lookup"><span data-stu-id="062b0-107">Apply these recommendations to get results faster and avoid timeouts while running complex queries.</span></span> <span data-ttu-id="062b0-108">Дополнительные руководства по повышению производительности запросов см. в статье [Рекомендации по использованию запросов Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).</span><span class="sxs-lookup"><span data-stu-id="062b0-108">For more guidance on improving query performance, read [Kusto query best practices](https://docs.microsoft.com/azure/kusto/query/best-practices).</span></span>
 
+## <a name="general-guidance"></a><span data-ttu-id="062b0-109">Общие рекомендации</span><span class="sxs-lookup"><span data-stu-id="062b0-109">General guidance</span></span>
 
-## <a name="optimize-query-performance"></a><span data-ttu-id="31cfb-107">Оптимизация производительности запросов</span><span class="sxs-lookup"><span data-stu-id="31cfb-107">Optimize query performance</span></span>
-<span data-ttu-id="31cfb-108">Использование указанных ниже рекомендаций позволит получать результаты быстрее и избегать временных затрат на ожидание при выполнении сложных запросов.</span><span class="sxs-lookup"><span data-stu-id="31cfb-108">Apply these recommendations to get results faster and avoid timeouts while running complex queries:</span></span>
-- <span data-ttu-id="31cfb-109">Чтобы избежать чрезвычайно больших наборов результатов, при попытках ввода новых запросов нужно всегда использовать `limit`.</span><span class="sxs-lookup"><span data-stu-id="31cfb-109">When trying new queries, always use `limit` to avoid extremely large result sets.</span></span> <span data-ttu-id="31cfb-110">Кроме того, с помощью `count` можно заранее задать размеры набора результатов.</span><span class="sxs-lookup"><span data-stu-id="31cfb-110">You can also initially assess the size of the result set using `count`.</span></span>
-- <span data-ttu-id="31cfb-111">Временные фильтры рекомендуется применять в первую очередь.</span><span class="sxs-lookup"><span data-stu-id="31cfb-111">Use time filters first.</span></span> <span data-ttu-id="31cfb-112">При запросах лучше всего применять ограничения в несколько дней.</span><span class="sxs-lookup"><span data-stu-id="31cfb-112">Ideally, limit your queries to even days.</span></span>
-- <span data-ttu-id="31cfb-113">Рекомендуется устанавливать фильтры, предназначенные для удаления большей части данных в начале запроса, сразу после применения временного фильтра.</span><span class="sxs-lookup"><span data-stu-id="31cfb-113">Put filters that are expected to remove most of the data in the beginning of the query, right after the time filter.</span></span>
-- <span data-ttu-id="31cfb-114">При поиске полных маркеров нужно использовать оператор `has` вместо `contains`.</span><span class="sxs-lookup"><span data-stu-id="31cfb-114">Use the `has` operator over `contains` when looking for full tokens.</span></span>
-- <span data-ttu-id="31cfb-115">Вместо полнотекстового поиска во всех столбцах рекомендуется осуществлять поиск в определенном столбце.</span><span class="sxs-lookup"><span data-stu-id="31cfb-115">Look in a specific column rather than running full text searches across all columns.</span></span>
-- <span data-ttu-id="31cfb-116">При объединении таблиц сначала нужно указать таблицу с меньшим количеством строк.</span><span class="sxs-lookup"><span data-stu-id="31cfb-116">When joining tables, specify the table with fewer rows first.</span></span>
-- <span data-ttu-id="31cfb-117">Использовать оператор`project` следует только для необходимых столбцов объединенных таблиц.</span><span class="sxs-lookup"><span data-stu-id="31cfb-117">`project` only the necessary columns from tables you've joined.</span></span>
+- <span data-ttu-id="062b0-110">**Изменение размера новых запросов**— если вы подозреваете, что запрос возвратит большой набор результатов, сначала оцените его с помощью [оператора Count](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator).</span><span class="sxs-lookup"><span data-stu-id="062b0-110">**Size new queries**—If you suspect that a query will return a large result set, assess it first using the [count operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator).</span></span> <span data-ttu-id="062b0-111">Используйте [ограничения](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) или синонимы `take` , чтобы избежать больших наборов результатов.</span><span class="sxs-lookup"><span data-stu-id="062b0-111">Use [limit](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) or its synonym `take` to avoid large result sets.</span></span>
+- <span data-ttu-id="062b0-112">**Примените фильтры раньше**, примените фильтры времени и другие фильтры для сокращения набора данных, особенно перед использованием функций преобразования и синтаксического анализа, таких как [substring ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [Replace ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [Trim ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [ToUpper ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)или [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction).</span><span class="sxs-lookup"><span data-stu-id="062b0-112">**Apply filters early**—Apply time filters and other filters to reduce the data set, especially before using transformation and parsing functions, such as [substring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [trim()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [toupper()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction), or [parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction).</span></span> <span data-ttu-id="062b0-113">В приведенном ниже примере функция анализа [екстрактжсон ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) используется после уменьшения числа записей в операторах фильтрации.</span><span class="sxs-lookup"><span data-stu-id="062b0-113">In the example below, the parsing function [extractjson()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) is used after filtering operators have reduced the number of records.</span></span>
 
->[!Tip]
-><span data-ttu-id="31cfb-118">Дополнительные руководства по повышению производительности запросов см. в статье [Рекомендации по использованию запросов Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).</span><span class="sxs-lookup"><span data-stu-id="31cfb-118">For more guidance on improving query performance, read [Kusto query best practices](https://docs.microsoft.com/azure/kusto/query/best-practices).</span></span>
+    ```kusto
+    DeviceEvents
+    | where Timestamp > ago(1d)
+    | where ActionType == "UsbDriveMount" 
+    | where DeviceName == "user-desktop.domain.com"
+    | extend DriveLetter = extractjson("$.DriveLetter", AdditionalFields)
+     ```
 
-## <a name="query-tips-and-pitfalls"></a><span data-ttu-id="31cfb-119">Подсказки и ловушки, связанные с запросами</span><span class="sxs-lookup"><span data-stu-id="31cfb-119">Query tips and pitfalls</span></span>
+- <span data-ttu-id="062b0-114">**Содержит ритм**, чтобы избежать необязательного поиска подстрок в словах, используйте оператор, `has` а не `contains` .</span><span class="sxs-lookup"><span data-stu-id="062b0-114">**Has beats contains**—To avoid searching substrings within words unnecessarily, use the `has` operator instead of `contains`.</span></span> [<span data-ttu-id="062b0-115">Сведения об строковых операторах</span><span class="sxs-lookup"><span data-stu-id="062b0-115">Learn about string operators</span></span>](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
+- <span data-ttu-id="062b0-116">**Искать в определенных столбцах**— искать в определенном столбце, а не выполнять полнотекстовый поиск по всем столбцам.</span><span class="sxs-lookup"><span data-stu-id="062b0-116">**Look in specific columns**—Look in a specific column rather than running full text searches across all columns.</span></span> <span data-ttu-id="062b0-117">Не используйте `*` для проверки всех столбцов.</span><span class="sxs-lookup"><span data-stu-id="062b0-117">Don't use `*` to check all columns.</span></span>
+- <span data-ttu-id="062b0-118">**С учетом регистра для скорости**— Поиск с учетом регистра — более конкретный и более производительный.</span><span class="sxs-lookup"><span data-stu-id="062b0-118">**Case-sensitive for speed**—Case-sensitive searches are more specific and generally more performant.</span></span> <span data-ttu-id="062b0-119">Имена [строковых операторов](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)с учетом регистра, такие как `has_cs` и `contains_cs` , как правило, заканчивается на `_cs` .</span><span class="sxs-lookup"><span data-stu-id="062b0-119">Names of case-sensitive [string operators](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators), such as `has_cs` and `contains_cs`, generally end with `_cs`.</span></span> <span data-ttu-id="062b0-120">Кроме того, можно использовать оператор равенства с учетом регистра, `==` а не `~=` .</span><span class="sxs-lookup"><span data-stu-id="062b0-120">You can also use the case-sensitive equals operator `==` instead of `~=`.</span></span>
+- <span data-ttu-id="062b0-121">**Parse, не извлекайте**, когда это возможно, используйте [оператор Parse](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) или функцию синтаксического анализа, например [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction).</span><span class="sxs-lookup"><span data-stu-id="062b0-121">**Parse, don't extract**—Whenever possible, use the [parse operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) or a parsing function like [parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction).</span></span> <span data-ttu-id="062b0-122">Избегайте `matches regex` строкового оператора или [функции extract ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction), в которых используется регулярное выражение.</span><span class="sxs-lookup"><span data-stu-id="062b0-122">Avoid the `matches regex` string operator or the [extract() function](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction), both of which use regular expression.</span></span> <span data-ttu-id="062b0-123">Зарезервируйте использование регулярных выражений для более сложных сценариев.</span><span class="sxs-lookup"><span data-stu-id="062b0-123">Reserve the use of regular expression for more complex scenarios.</span></span> [<span data-ttu-id="062b0-124">Подробнее о функциях синтаксического анализа</span><span class="sxs-lookup"><span data-stu-id="062b0-124">Read more about parsing functions</span></span>](#parse-strings)
+- <span data-ttu-id="062b0-125">**Фильтрация таблиц без выражений**— не отфильтровывайте вычисляемый столбец, если вы можете выполнить фильтрацию по столбцу таблицы.</span><span class="sxs-lookup"><span data-stu-id="062b0-125">**Filter tables not expressions**—Don't filter on a calculated column if you can filter on a table column.</span></span>
+- <span data-ttu-id="062b0-126">**Отсутствие трех символов**— Избегайте сравнения или фильтрации с использованием терминов, состоящих из трех или менее трех символов.</span><span class="sxs-lookup"><span data-stu-id="062b0-126">**No three-character terms**—Avoid comparing or filtering using terms with three characters or fewer.</span></span> <span data-ttu-id="062b0-127">Эти термины не индексируются и их сопоставлению требуют больше ресурсов.</span><span class="sxs-lookup"><span data-stu-id="062b0-127">These terms are not indexed and matching them will require more resources.</span></span>
+- <span data-ttu-id="062b0-128">**Проект выборочно**— Сделайте результаты более понятными, выполнив только необходимые столбцы.</span><span class="sxs-lookup"><span data-stu-id="062b0-128">**Project selectively**—Make your results easier to understand by projecting only the columns you need.</span></span> <span data-ttu-id="062b0-129">Запроектировать определенные столбцы перед выполнением [присоединения](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) или аналогичных операций также помогут увеличить производительность.</span><span class="sxs-lookup"><span data-stu-id="062b0-129">Projecting specific columns prior to running [join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) or similar operations also helps improve performance.</span></span>
 
-### <a name="queries-with-process-ids"></a><span data-ttu-id="31cfb-120">Запросы с идентификаторами процессов</span><span class="sxs-lookup"><span data-stu-id="31cfb-120">Queries with process IDs</span></span>
-<span data-ttu-id="31cfb-121">Идентификаторы процессов (PID) в Windows перерабатываются и используются для новых процессов.</span><span class="sxs-lookup"><span data-stu-id="31cfb-121">Process IDs (PIDs) are recycled in Windows and reused for new processes.</span></span> <span data-ttu-id="31cfb-122">Они не могут служить уникальными идентификаторами для определенных процессов сами по себе.</span><span class="sxs-lookup"><span data-stu-id="31cfb-122">On their own, they can't serve as unique identifiers for specific processes.</span></span>
+## <a name="optimize-the-join-operator"></a><span data-ttu-id="062b0-130">Оптимизация `join` оператора</span><span class="sxs-lookup"><span data-stu-id="062b0-130">Optimize the `join` operator</span></span>
+<span data-ttu-id="062b0-131">[Оператор Join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) объединяет строки из двух таблиц, сопоставляя значения в указанных столбцах.</span><span class="sxs-lookup"><span data-stu-id="062b0-131">The [join operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) merges rows from two tables by matching values in specified columns.</span></span> <span data-ttu-id="062b0-132">Используйте приведенные ниже советы для оптимизации запросов, использующих этот оператор.</span><span class="sxs-lookup"><span data-stu-id="062b0-132">Apply these tips to optimize queries that use this operator.</span></span>
 
-<span data-ttu-id="31cfb-123">Чтобы создать уникальный идентификатор для процесса на определенном компьютере, идентификатор процесса нужно использовать вместе со временем создания процесса.</span><span class="sxs-lookup"><span data-stu-id="31cfb-123">To get a unique identifier for a process on a specific machine, use the process ID together with the process creation time.</span></span> <span data-ttu-id="31cfb-124">При объединении или обобщении данных по процессам рекомендуется включать столбцы для идентификатора компьютера (либо `DeviceId`, либо`DeviceName`), идентификатора процесса (`ProcessId` или `InitiatingProcessId`) и времени создания процесса (`ProcessCreationTime` или `InitiatingProcessCreationTime`)</span><span class="sxs-lookup"><span data-stu-id="31cfb-124">When you join or summarize data around processes, include columns for the machine identifier (either `DeviceId` or `DeviceName`), the process ID (`ProcessId` or `InitiatingProcessId`), and the process creation time (`ProcessCreationTime` or `InitiatingProcessCreationTime`)</span></span>
+- <span data-ttu-id="062b0-133">**Таблица меньшего размера слева**: `join` оператор сопоставляет записи в таблице, расположенной слева от оператора Join, с записями справа.</span><span class="sxs-lookup"><span data-stu-id="062b0-133">**Smaller table to your left**—The `join` operator matches records in the table on the left side of your join statement to records on the right.</span></span> <span data-ttu-id="062b0-134">Если таблица меньше, чем слева, тем меньше записей потребуется сопоставлять, таким образом ускоряя запрос.</span><span class="sxs-lookup"><span data-stu-id="062b0-134">By having the smaller table on the left, fewer records will need to be matched, thus speeding up the query.</span></span> 
 
-<span data-ttu-id="31cfb-125">В приведенном ниже примере запроса обнаружены процессы, имеющие доступ к более чем 10 IP-адресам через порт 445 (SMB) с одновременным возможным сканированием файловых ресурсов.</span><span class="sxs-lookup"><span data-stu-id="31cfb-125">The following example query finds processes that access more than 10 IP addresses over port 445 (SMB), possibly scanning for file shares.</span></span>
+    <span data-ttu-id="062b0-135">В приведенной ниже таблице мы уменьшаем левую таблицу, `DeviceLogonEvents` чтобы охватить только три определенных устройства перед присоединением их с `IdentityLogonEvents` помощью SID учетных записей.</span><span class="sxs-lookup"><span data-stu-id="062b0-135">In the table below, we reduce the left table `DeviceLogonEvents` to cover only three specific devices before joining it with `IdentityLogonEvents` by account SIDs.</span></span>
+ 
+    ```kusto
+    DeviceLogonEvents 
+    | where DeviceName in ("device-1.domain.com", "device-2.domain.com", "device-3.domain.com")
+    | where ActionType == "LogonFailed"
+    | join
+        (IdentityLogonEvents
+        | where ActionType == "LogonFailed"
+        | where Protocol == "Kerberos")
+    on AccountSid
+    ```
 
-<span data-ttu-id="31cfb-126">Пример запроса</span><span class="sxs-lookup"><span data-stu-id="31cfb-126">Example query:</span></span>
+- <span data-ttu-id="062b0-136">**Используйте флаг INNER-JOIN** [, используемый по умолчанию](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) , или [иннеруникуе-Join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) , возвращает строки в левой таблице с помощью ключа соединения, чтобы возвратить строку для каждого совпадения с правой таблицей.</span><span class="sxs-lookup"><span data-stu-id="062b0-136">**Use the inner-join flavor**—The default [join flavor](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) or the [innerunique-join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) deduplicates rows in the left table by the join key before returning a row for each match to the right table.</span></span> <span data-ttu-id="062b0-137">Если в левой таблице есть несколько строк с одинаковым значением для `join` ключа, эти строки будут повторяться, чтобы оставить одну произвольную строку для каждого уникального значения.</span><span class="sxs-lookup"><span data-stu-id="062b0-137">If the left table has multiple rows with the same value for the `join` key, those rows will be deduplicated to leave a single random row for each unique value.</span></span>
+
+    <span data-ttu-id="062b0-138">Это поведение по умолчанию может оставить важную информацию из левой таблицы, которая поможет вам получить полезную информацию.</span><span class="sxs-lookup"><span data-stu-id="062b0-138">This default behavior can leave out important information from the left table that can provide useful insight.</span></span> <span data-ttu-id="062b0-139">Например, приведенный ниже запрос будет содержать только одно сообщение электронной почты, содержащее определенное вложение, даже если оно было отправлено несколькими сообщениями электронной почты:</span><span class="sxs-lookup"><span data-stu-id="062b0-139">For example, the query below will only show one email containing a particular attachment, even if that same attachment was sent using multiple emails messages:</span></span>
+
+    ```kusto
+    EmailAttachmentInfo
+    | where Timestamp > ago(1h)
+    | where Subject == "Document Attachment" and FileName == "Document.pdf"
+    | join (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
+    ```
+
+    <span data-ttu-id="062b0-140">Чтобы устранить это ограничение, мы используем флаг [внутреннего соединения](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) , указав `kind=inner` для отображения всех строк в левой таблице с соответствующими значениями справа:</span><span class="sxs-lookup"><span data-stu-id="062b0-140">To address this limitation, we apply the [inner-join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) flavor by specifying `kind=inner` to show all rows in the left table with matching values in the right:</span></span>
+    
+    ```kusto
+    EmailAttachmentInfo
+    | where Timestamp > ago(1h)
+    | where Subject == "Document Attachment" and FileName == "Document.pdf"
+    | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
+    ```
+- <span data-ttu-id="062b0-141">**Присоединение записей из временного окна**— при изучении событий безопасности аналитики ищут связанные события, происходящие за один и тот же период времени.</span><span class="sxs-lookup"><span data-stu-id="062b0-141">**Join records from a time window**—When investigating security events, analysts look for related events that occur around the same time period.</span></span> <span data-ttu-id="062b0-142">Применение того же подхода при использовании `join` повышения производительности также уменьшает число проверяемых записей.</span><span class="sxs-lookup"><span data-stu-id="062b0-142">Applying the same approach when using `join` also benefits performance by reducing the number of records to check.</span></span>
+    
+    <span data-ttu-id="062b0-143">В запросе ниже выполняется проверка событий входа в систему в течение 30 минут после получения вредоносного файла:</span><span class="sxs-lookup"><span data-stu-id="062b0-143">The query below checks for logon events within 30 minutes of receiving a malicious file:</span></span>
+
+    ```kusto
+    EmailEvents
+    | where Timestamp > ago(7d)
+    | where MalwareFilterVerdict == "Malware" 
+    | project EmailReceivedTime = Timestamp, Subject, SenderFromAddress, AccountName = tostring(split(RecipientEmailAddress, "@")[0])
+    | join (
+    DeviceLogonEvents 
+    | where Timestamp > ago(7d)
+    | project LogonTime = Timestamp, AccountName, DeviceName
+    ) on AccountName 
+    | where (LogonTime - EmailReceivedTime) between (0min .. 30min)
+    ```
+- <span data-ttu-id="062b0-144">**Применить фильтры времени на обеих сторонах**, даже если вы не изучаете конкретное временное окно, применение фильтров времени в левой и правой таблицах позволяет сократить число проверяемых записей и повысить `join` производительность.</span><span class="sxs-lookup"><span data-stu-id="062b0-144">**Apply time filters on both sides**—Even if you're not investigating a specific time window, applying time filters on both the left and right tables can reduce the number of records to check and improve `join` performance.</span></span> <span data-ttu-id="062b0-145">Приведенный ниже запрос применяется `Timestamp > ago(1h)` к обеим таблицам, чтобы присоединяться только к записям за последний час:</span><span class="sxs-lookup"><span data-stu-id="062b0-145">The query below applies `Timestamp > ago(1h)` to both tables so that it joins only records from the past hour:</span></span>
+
+    ```kusto
+    EmailAttachmentInfo
+    | where Timestamp > ago(1h)
+    | where Subject == "Document Attachment" and FileName == "Document.pdf"
+    | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
+    ```  
+
+- <span data-ttu-id="062b0-146">**Использование подсказок для повышения производительности**— используйте подсказки с `join` оператором, чтобы указать, что сервер будет распределять нагрузку при выполнении операций, интенсивно использующих ресурсы.</span><span class="sxs-lookup"><span data-stu-id="062b0-146">**Use hints for performance**—Use hints with the `join` operator to instruct the backend to distribute load when running resource-intensive operations.</span></span> [<span data-ttu-id="062b0-147">Дополнительные сведения о подсказках по объединению</span><span class="sxs-lookup"><span data-stu-id="062b0-147">Learn more about join hints</span></span>](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
+
+    <span data-ttu-id="062b0-148">Например, **[Подсказка в случайном порядке](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** помогает увеличить производительность запросов при соединении таблиц с помощью ключа с большим количеством уникальных значений, например, `AccountObjectId` в следующем запросе:</span><span class="sxs-lookup"><span data-stu-id="062b0-148">For example, the **[shuffle hint](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** helps improve query performance when joining tables using a key with high cardinality—a key with many unique values—such as the `AccountObjectId` in the query below:</span></span>
+
+    ```kusto
+    IdentityInfo
+    | where JobTitle == "CONSULTANT"
+    | join hint.shufflekey = AccountObjectId 
+    (IdentityDirectoryEvents
+        | where Application == "Active Directory"
+        | where ActionType == "Private data retrieval")
+    on AccountObjectId 
+    ```
+    
+    <span data-ttu-id="062b0-149">**[Подсказка о вещании](https://docs.microsoft.com/azure/data-explorer/kusto/query/broadcastjoin)** помогает в том случае, если левая таблица мала (до 100 000 записей), а правая таблица чрезвычайно велика.</span><span class="sxs-lookup"><span data-stu-id="062b0-149">The **[broadcast hint](https://docs.microsoft.com/azure/data-explorer/kusto/query/broadcastjoin)** helps when the left table is small (up to 100,000 records) and the right table is extremely large.</span></span> <span data-ttu-id="062b0-150">Например, приведенный ниже запрос пытается присоединиться к нескольким сообщениям, которые содержат конкретные темы со _всеми_ сообщениями, содержащими ссылки в `EmailUrlInfo` таблице:</span><span class="sxs-lookup"><span data-stu-id="062b0-150">For example, the query below is trying to join a few emails that have specific subjects with _all_ messages containing links in the `EmailUrlInfo` table:</span></span>
+
+    ```kusto
+    EmailEvents 
+    | where Subject in ("Warning: Update your credentials now", "Action required: Update your credentials now")
+    | join hint.strategy = broadcast EmailUrlInfo on NetworkMessageId 
+    ```
+
+## <a name="optimize-the-summarize-operator"></a><span data-ttu-id="062b0-151">Оптимизация `summarize` оператора</span><span class="sxs-lookup"><span data-stu-id="062b0-151">Optimize the `summarize` operator</span></span>
+<span data-ttu-id="062b0-152">[Оператор суммирования](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator) собирает содержимое таблицы.</span><span class="sxs-lookup"><span data-stu-id="062b0-152">The [summarize operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator) aggregates the contents of a table.</span></span> <span data-ttu-id="062b0-153">Используйте приведенные ниже советы для оптимизации запросов, использующих этот оператор.</span><span class="sxs-lookup"><span data-stu-id="062b0-153">Apply these tips to optimize queries that use this operator.</span></span>
+
+- <span data-ttu-id="062b0-154">**Поиск различных значений**— в общем случае используйте `summarize` для поиска различных значений, которые могут быть повторяющимися.</span><span class="sxs-lookup"><span data-stu-id="062b0-154">**Find distinct values**—In general, use `summarize` to find distinct values that can be repetitive.</span></span> <span data-ttu-id="062b0-155">Она может быть ненужной для статистического использования столбцов без повторяющихся значений.</span><span class="sxs-lookup"><span data-stu-id="062b0-155">It can be unnecessary to use it to aggregate columns that don't have repetitive values.</span></span>
+
+    <span data-ttu-id="062b0-156">Хотя одно сообщение электронной почты может быть частью нескольких событий, приведенный ниже пример _не_ является эффективным, `summarize` так как в качестве идентификатора сетевого сообщения для отдельной электронной почты всегда используется уникальный адрес отправителя.</span><span class="sxs-lookup"><span data-stu-id="062b0-156">While a single email can be part of multiple events, the example below is _not_ an efficient use of `summarize` because a network message ID for an individual email always comes with a unique sender address.</span></span>
+ 
+    ```kusto
+    EmailEvents  
+    | where Timestamp > ago(1h)
+    | summarize by NetworkMessageId, SenderFromAddress   
+    ```
+    <span data-ttu-id="062b0-157">`summarize`Оператор можно легко заменять `project` , при этом результат может быть одинаковым при использовании меньшего числа ресурсов:</span><span class="sxs-lookup"><span data-stu-id="062b0-157">The `summarize` operator can be easily replaced with `project`, yielding potentially the same results while consuming fewer resources:</span></span>
+
+    ```kusto
+    EmailEvents  
+    | where Timestamp > ago(1h)
+    | project NetworkMessageId, SenderFromAddress   
+    ```
+    <span data-ttu-id="062b0-158">Ниже приведен пример более эффективного использования, `summarize` так как может быть несколько отдельных экземпляров адреса отправителя, которые отправляют электронную почту на один и тот же адрес получателя.</span><span class="sxs-lookup"><span data-stu-id="062b0-158">The following example is a more efficient use of `summarize` because there can be multiple distinct instances of a sender address sending email to the same recipient address.</span></span> <span data-ttu-id="062b0-159">Такие сочетания не отличаются друг от друга и, скорее всего, имеют дубликаты.</span><span class="sxs-lookup"><span data-stu-id="062b0-159">Such combinations are less distinct and are likely to have duplicates.</span></span>
+
+    ```kusto
+    EmailEvents  
+    | where Timestamp > ago(1h)
+    | summarize by SenderFromAddress, RecipientEmailAddress   
+    ```
+
+- <span data-ttu-id="062b0-160">В **случайном порядке для запроса**— хотя `summarize` в столбцах с повторяющимися значениями одни и те же столбцы также _high cardinality_ могут иметь большое количество уникальных значений.</span><span class="sxs-lookup"><span data-stu-id="062b0-160">**Shuffle the query**—While `summarize` is best used in columns with repetitive values, the same columns can also have _high cardinality_ or large numbers of unique values.</span></span> <span data-ttu-id="062b0-161">Как и `join` оператор, вы также можете применить [подсказку в случайном порядке](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) , `summarize` чтобы распределять нагрузку обработки и потенциально повышать производительность при работе со столбцами с большим количеством элементов.</span><span class="sxs-lookup"><span data-stu-id="062b0-161">Like the `join` operator, you can also apply the [shuffle hint](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) with `summarize` to distribute processing load and potentially improve performance when operating on columns with high cardinality.</span></span>
+
+    <span data-ttu-id="062b0-162">В запросе ниже показано `summarize` , как подсчитать различные адреса электронной почты получателей, которые могут выполняться на сотнях тысяч в крупных организациях.</span><span class="sxs-lookup"><span data-stu-id="062b0-162">The query below uses `summarize` to count distinct recipient email address, which can run in the hundreds of thousands in large organizations.</span></span> <span data-ttu-id="062b0-163">Чтобы увеличить производительность, он включает `hint.shufflekey` :</span><span class="sxs-lookup"><span data-stu-id="062b0-163">To improve performance, it incorporates `hint.shufflekey`:</span></span>
+
+    ```kusto
+    EmailEvents  
+    | where Timestamp > ago(1h)
+    | summarize hint.shufflekey = RecipientEmailAddress count() by Subject, RecipientEmailAddress
+    ```
+
+## <a name="query-scenarios"></a><span data-ttu-id="062b0-164">Сценарии запросов</span><span class="sxs-lookup"><span data-stu-id="062b0-164">Query scenarios</span></span>
+
+### <a name="identify-unique-processes-with-process-ids"></a><span data-ttu-id="062b0-165">Определение уникальных процессов с помощью идентификаторов процессов</span><span class="sxs-lookup"><span data-stu-id="062b0-165">Identify unique processes with process IDs</span></span>
+<span data-ttu-id="062b0-166">Идентификаторы процессов (PID) в Windows перерабатываются и используются для новых процессов.</span><span class="sxs-lookup"><span data-stu-id="062b0-166">Process IDs (PIDs) are recycled in Windows and reused for new processes.</span></span> <span data-ttu-id="062b0-167">Они не могут служить уникальными идентификаторами для определенных процессов сами по себе.</span><span class="sxs-lookup"><span data-stu-id="062b0-167">On their own, they can't serve as unique identifiers for specific processes.</span></span>
+
+<span data-ttu-id="062b0-168">Чтобы создать уникальный идентификатор для процесса на определенном компьютере, идентификатор процесса нужно использовать вместе со временем создания процесса.</span><span class="sxs-lookup"><span data-stu-id="062b0-168">To get a unique identifier for a process on a specific machine, use the process ID together with the process creation time.</span></span> <span data-ttu-id="062b0-169">При объединении или обобщении данных по процессам рекомендуется включать столбцы для идентификатора компьютера (либо `DeviceId`, либо`DeviceName`), идентификатора процесса (`ProcessId` или `InitiatingProcessId`) и времени создания процесса (`ProcessCreationTime` или `InitiatingProcessCreationTime`)</span><span class="sxs-lookup"><span data-stu-id="062b0-169">When you join or summarize data around processes, include columns for the machine identifier (either `DeviceId` or `DeviceName`), the process ID (`ProcessId` or `InitiatingProcessId`), and the process creation time (`ProcessCreationTime` or `InitiatingProcessCreationTime`)</span></span>
+
+<span data-ttu-id="062b0-170">В приведенном ниже примере запроса обнаружены процессы, имеющие доступ к более чем 10 IP-адресам через порт 445 (SMB) с одновременным возможным сканированием файловых ресурсов.</span><span class="sxs-lookup"><span data-stu-id="062b0-170">The following example query finds processes that access more than 10 IP addresses over port 445 (SMB), possibly scanning for file shares.</span></span>
+
+<span data-ttu-id="062b0-171">Пример запроса</span><span class="sxs-lookup"><span data-stu-id="062b0-171">Example query:</span></span>
 ```kusto
 DeviceNetworkEvents
 | where RemotePort == 445 and Timestamp > ago(12h) and InitiatingProcessId !in (0, 4)
-| summarize RemoteIPCount=dcount(RemoteIP) by DeviceName, InitiatingProcessId, InitiatingProcessCreationTime, InitiatingProcessFileName
+| summarize RemoteIPCount=dcount(RemoteIP) by DeviceName, InitiatingProcessId
+InitiatingProcessCreationTime, InitiatingProcessFileName
 | where RemoteIPCount > 10
 ```
 
-<span data-ttu-id="31cfb-127">В запросе указаны одновременно и `InitiatingProcessId`, и `InitiatingProcessCreationTime`. Благодаря этому запрос относится к одному единственному процессу, и при этом исключаются многочисленные другие процессы с аналогичным идентификатором процесса.</span><span class="sxs-lookup"><span data-stu-id="31cfb-127">The query summarizes by both `InitiatingProcessId` and `InitiatingProcessCreationTime` so that it looks at a single process, without mixing multiple processes with the same process ID.</span></span>
+<span data-ttu-id="062b0-172">В запросе указаны одновременно и `InitiatingProcessId`, и `InitiatingProcessCreationTime`. Благодаря этому запрос относится к одному единственному процессу, и при этом исключаются многочисленные другие процессы с аналогичным идентификатором процесса.</span><span class="sxs-lookup"><span data-stu-id="062b0-172">The query summarizes by both `InitiatingProcessId` and `InitiatingProcessCreationTime` so that it looks at a single process, without mixing multiple processes with the same process ID.</span></span>
 
-### <a name="queries-with-command-lines"></a><span data-ttu-id="31cfb-128">Запросы с командными строками</span><span class="sxs-lookup"><span data-stu-id="31cfb-128">Queries with command lines</span></span>
+### <a name="query-command-lines"></a><span data-ttu-id="062b0-173">Строки команд запросов</span><span class="sxs-lookup"><span data-stu-id="062b0-173">Query command lines</span></span>
+<span data-ttu-id="062b0-174">Создать командную строку для выполнения задачи можно разными способами.</span><span class="sxs-lookup"><span data-stu-id="062b0-174">There are numerous ways to construct a command line to accomplish a task.</span></span> <span data-ttu-id="062b0-175">Например, злоумышленник может ссылаться на файл изображения без пути, без расширения имени файла, с использованием переменных среды или с кавычками.</span><span class="sxs-lookup"><span data-stu-id="062b0-175">For example, an attacker could reference an image file without a path, without a file extension, using environment variables, or with quotes.</span></span> <span data-ttu-id="062b0-176">Злоумышленник также может изменить порядок параметров или добавить несколько кавычек и пробелов.</span><span class="sxs-lookup"><span data-stu-id="062b0-176">The attacker could also change the order of parameters or add multiple quotes and spaces.</span></span>
 
-<span data-ttu-id="31cfb-129">Существует множество разнообразных командных строк.</span><span class="sxs-lookup"><span data-stu-id="31cfb-129">Command lines can vary.</span></span> <span data-ttu-id="31cfb-130">При необходимости можно выполнить фильтрацию по названиям файлов и осуществить поиск нечетких соответствий.</span><span class="sxs-lookup"><span data-stu-id="31cfb-130">When applicable, filter on file names and do fuzzy matching.</span></span>
+<span data-ttu-id="062b0-177">Чтобы создать более устойчивые запросы вокруг командных строк, примените следующие рекомендации:</span><span class="sxs-lookup"><span data-stu-id="062b0-177">To create more durable queries around command lines, apply the following practices:</span></span>
 
-<span data-ttu-id="31cfb-131">Создать командную строку для выполнения задачи можно разными способами.</span><span class="sxs-lookup"><span data-stu-id="31cfb-131">There are numerous ways to construct a command line to accomplish a task.</span></span> <span data-ttu-id="31cfb-132">Например, злоумышленник может создать ссылку на файл с изображением с путем или без него, без расширения файла, используя переменные среды, или с кавычками.</span><span class="sxs-lookup"><span data-stu-id="31cfb-132">For example, an attacker could reference an image file with or without a path, without a file extension, using environment variables, or with quotes.</span></span> <span data-ttu-id="31cfb-133">Кроме того, злоумышленник может изменить порядок параметров или добавить несколько кавычек и пробелов.</span><span class="sxs-lookup"><span data-stu-id="31cfb-133">In addition, the attacker could also change the order of parameters or add multiple quotes and spaces.</span></span>
+- <span data-ttu-id="062b0-178">Определите известные процессы (например, *net.exe* или *psexec.exe*), выполнив соответствующую команду в поле имя файла, а не в самом окне командной строки.</span><span class="sxs-lookup"><span data-stu-id="062b0-178">Identify the known processes (such as *net.exe* or *psexec.exe*) by matching on the file name fields, instead of filtering on the command-line itself.</span></span>
+- <span data-ttu-id="062b0-179">Анализ разделов командной строки с помощью [функции parse_command_line ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line)</span><span class="sxs-lookup"><span data-stu-id="062b0-179">Parse command-line sections using the [parse_command_line() function](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line)</span></span> 
+- <span data-ttu-id="062b0-180">При запросе аргументов командной строки искать точное совпадение для нескольких несвязанных аргументов в определенном порядке не имеет смысла.</span><span class="sxs-lookup"><span data-stu-id="062b0-180">When querying for command-line arguments, don't look for an exact match on multiple unrelated arguments in a certain order.</span></span> <span data-ttu-id="062b0-181">Вместо этого используются регулярные выражения или несколько отдельных аргументов, содержащих операторы.</span><span class="sxs-lookup"><span data-stu-id="062b0-181">Instead, use regular expressions or use multiple separate contains operators.</span></span>
+- <span data-ttu-id="062b0-182">Совпадения используются без учета регистра.</span><span class="sxs-lookup"><span data-stu-id="062b0-182">Use case insensitive matches.</span></span> <span data-ttu-id="062b0-183">Например, используйте `=~` , `in~` , и `contains` вместо `==` , `in` и `contains_cs` .</span><span class="sxs-lookup"><span data-stu-id="062b0-183">For example, use `=~`, `in~`, and `contains` instead of `==`, `in`, and `contains_cs`.</span></span>
+- <span data-ttu-id="062b0-184">Чтобы уменьшить методы запутывания командной строки, рекомендуется удалить кавычки, заменив запятые пробелами и заменив несколько последовательных пробелов одним пробелом.</span><span class="sxs-lookup"><span data-stu-id="062b0-184">To mitigate command-line obfuscation techniques, consider removing quotes, replacing commas with spaces, and replacing multiple consecutive spaces with a single space.</span></span> <span data-ttu-id="062b0-185">Существуют более сложные методы запутывания, требующие других подходов, но эти настройки могут помочь в устранении распространенных задач.</span><span class="sxs-lookup"><span data-stu-id="062b0-185">There are more complex obfuscation techniques that require other approaches, but these tweaks can help address common ones.</span></span>
 
-<span data-ttu-id="31cfb-134">Ниже приводятся рекомендации для создания более устойчивых запросов с помощью командных строк.</span><span class="sxs-lookup"><span data-stu-id="31cfb-134">To create more durable queries using command lines, apply the following practices:</span></span>
-
-- <span data-ttu-id="31cfb-135">Указывать известные процессы (такие как *net.exe* или*psexec.exe*) нужно, используя соответствия полей имен файлов вместо применения фильтра для поля командной строки.</span><span class="sxs-lookup"><span data-stu-id="31cfb-135">Identify the known processes (such as *net.exe* or *psexec.exe*) by matching on the filename fields, instead of filtering on the command-line field.</span></span>
-- <span data-ttu-id="31cfb-136">При запросе аргументов командной строки искать точное совпадение для нескольких несвязанных аргументов в определенном порядке не имеет смысла.</span><span class="sxs-lookup"><span data-stu-id="31cfb-136">When querying for command-line arguments, don't look for an exact match on multiple unrelated arguments in a certain order.</span></span> <span data-ttu-id="31cfb-137">Вместо этого используются регулярные выражения или несколько отдельных аргументов, содержащих операторы.</span><span class="sxs-lookup"><span data-stu-id="31cfb-137">Instead, use regular expressions or use multiple separate contains operators.</span></span>
-- <span data-ttu-id="31cfb-138">Совпадения используются без учета регистра.</span><span class="sxs-lookup"><span data-stu-id="31cfb-138">Use case insensitive matches.</span></span> <span data-ttu-id="31cfb-139">Например, следует использовать `=~`, `in~`, и`contains` вместо `==`, `in`, и `contains_cs`.</span><span class="sxs-lookup"><span data-stu-id="31cfb-139">For example, use `=~`, `in~`, and `contains` instead of `==`, `in`, and `contains_cs`</span></span>
-- <span data-ttu-id="31cfb-140">Чтобы предотвратить случаи сокрытия назначения командной строки в DOS, можно удалить кавычки, заменив их пробелами и заменив несколько пробелов одним.</span><span class="sxs-lookup"><span data-stu-id="31cfb-140">To mitigate DOS command-line obfuscation techniques, consider removing quotes, replacing commas with spaces, and replacing multiple consecutive spaces with a single space.</span></span> <span data-ttu-id="31cfb-141">Нужно помнить о том, что существуют более сложные методы маскирования в DOS, для борьбы с которыми требуются другие подходы, но вышеуказанные способы обычно помогают в наиболее распространенных случаях.</span><span class="sxs-lookup"><span data-stu-id="31cfb-141">Note that there are more complex DOS obfuscation techniques that require other approaches, but these can help address the most common ones.</span></span>
-
-<span data-ttu-id="31cfb-142">В приведенных ниже примерах предлагаются различные способы создания запроса для поиска файла *net.exe* для остановки службы брандмауэра Защитника Windows.</span><span class="sxs-lookup"><span data-stu-id="31cfb-142">The following examples show various ways to construct a query that looks for the file *net.exe* to stop the Windows Defender Firewall service:</span></span>
+<span data-ttu-id="062b0-186">В следующих примерах показаны различные способы создания запроса, который ищет *net.exe* файла для остановки службы брандмауэра "MPSSVC":</span><span class="sxs-lookup"><span data-stu-id="062b0-186">The following examples show various ways to construct a query that looks for the file *net.exe* to stop the firewall service "MpsSvc":</span></span>
 
 ```kusto
 // Non-durable query - do not use
@@ -84,7 +212,7 @@ DeviceProcessEvents
 | where ProcessCommandLine == "net stop MpsSvc"
 | limit 10
 
-// Better query - filters on filename, does case-insensitive matches
+// Better query - filters on file name, does case-insensitive matches
 DeviceProcessEvents
 | where Timestamp > ago(7d) and FileName in~ ("net.exe", "net1.exe") and ProcessCommandLine contains "stop" and ProcessCommandLine contains "MpsSvc" 
 
@@ -94,10 +222,42 @@ DeviceProcessEvents
 | extend CanonicalCommandLine=replace("\"", "", ProcessCommandLine)
 | where CanonicalCommandLine contains "stop" and CanonicalCommandLine contains "MpsSvc" 
 ```
-## <a name="related-topics"></a><span data-ttu-id="31cfb-143">См. также</span><span class="sxs-lookup"><span data-stu-id="31cfb-143">Related topics</span></span>
-- [<span data-ttu-id="31cfb-144">Обзор расширенной охоты на угрозы</span><span class="sxs-lookup"><span data-stu-id="31cfb-144">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="31cfb-145">Сведения о языке запросов</span><span class="sxs-lookup"><span data-stu-id="31cfb-145">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="31cfb-146">Работа с результатами запросов</span><span class="sxs-lookup"><span data-stu-id="31cfb-146">Work with query results</span></span>](advanced-hunting-query-results.md)
-- [<span data-ttu-id="31cfb-147">Использование общих запросов</span><span class="sxs-lookup"><span data-stu-id="31cfb-147">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="31cfb-148">Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями</span><span class="sxs-lookup"><span data-stu-id="31cfb-148">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="31cfb-149">Сведения о схеме</span><span class="sxs-lookup"><span data-stu-id="31cfb-149">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+
+### <a name="ingest-data-from-external-sources"></a><span data-ttu-id="062b0-187">Прием данных из внешних источников</span><span class="sxs-lookup"><span data-stu-id="062b0-187">Ingest data from external sources</span></span>
+<span data-ttu-id="062b0-188">Чтобы включить в запрос длинные списки или большие таблицы, используйте [оператор екстерналдата](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) для приема данных из указанного URI.</span><span class="sxs-lookup"><span data-stu-id="062b0-188">To incorporate long lists or large tables into your query, use the [externaldata operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) to ingest data from a specified URI.</span></span> <span data-ttu-id="062b0-189">Вы можете получать данные из файлов в формате TXT, CSV, JSON или [других форматах](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats).</span><span class="sxs-lookup"><span data-stu-id="062b0-189">You can get data from files in TXT, CSV, JSON, or [other formats](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats).</span></span> <span data-ttu-id="062b0-190">В приведенном ниже примере показано, как можно использовать обширный список хеш-кодов SHA-256, предоставляемых службой Малваребазаар (abuse.ch), для проверки вложений в сообщениях электронной почты.</span><span class="sxs-lookup"><span data-stu-id="062b0-190">The example below shows how you can utilize the extensive list of malware SHA-256  hashes provided by MalwareBazaar (abuse.ch) to check attachments on emails:</span></span>
+
+```kusto
+let abuse_sha256 = (externaldata(sha256_hash: string )
+[@"https://bazaar.abuse.ch/export/txt/sha256/recent/"]
+with (format="txt"))
+| where sha256_hash !startswith "#"
+| project sha256_hash;
+abuse_sha256
+| join (EmailAttachmentInfo 
+| where Timestamp > ago(1d) 
+) on $left.sha256_hash == $right.SHA256
+| project Timestamp,SenderFromAddress,RecipientEmailAddress,FileName,FileType,
+SHA256,MalwareFilterVerdict,MalwareDetectionMethod
+```
+
+### <a name="parse-strings"></a><span data-ttu-id="062b0-191">Синтаксический анализ строк</span><span class="sxs-lookup"><span data-stu-id="062b0-191">Parse strings</span></span>
+<span data-ttu-id="062b0-192">Существует несколько функций, которые можно использовать для эффективного обработки строк, требующих синтаксического анализа или преобразования.</span><span class="sxs-lookup"><span data-stu-id="062b0-192">There are various functions you can use to efficiently handle strings that need parsing or conversion.</span></span> 
+
+| <span data-ttu-id="062b0-193">String</span><span class="sxs-lookup"><span data-stu-id="062b0-193">String</span></span> | <span data-ttu-id="062b0-194">Функция</span><span class="sxs-lookup"><span data-stu-id="062b0-194">Function</span></span> | <span data-ttu-id="062b0-195">Пример использования</span><span class="sxs-lookup"><span data-stu-id="062b0-195">Usage example</span></span> |
+|--|--|--|
+| <span data-ttu-id="062b0-196">Командная строка</span><span class="sxs-lookup"><span data-stu-id="062b0-196">Command-lines</span></span> | [<span data-ttu-id="062b0-197">parse_command_line ()</span><span class="sxs-lookup"><span data-stu-id="062b0-197">parse_command_line()</span></span>](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | <span data-ttu-id="062b0-198">Извлеките команду и все аргументы.</span><span class="sxs-lookup"><span data-stu-id="062b0-198">Extract the command and all arguments.</span></span> | 
+| <span data-ttu-id="062b0-199">Пути</span><span class="sxs-lookup"><span data-stu-id="062b0-199">Paths</span></span> | [<span data-ttu-id="062b0-200">parse_path ()</span><span class="sxs-lookup"><span data-stu-id="062b0-200">parse_path()</span></span>](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | <span data-ttu-id="062b0-201">Извлечение разделов пути к файлу или папке.</span><span class="sxs-lookup"><span data-stu-id="062b0-201">Extract the sections of a file or folder path.</span></span> |
+| <span data-ttu-id="062b0-202">Номера версий</span><span class="sxs-lookup"><span data-stu-id="062b0-202">Version numbers</span></span> | [<span data-ttu-id="062b0-203">parse_version ()</span><span class="sxs-lookup"><span data-stu-id="062b0-203">parse_version()</span></span>](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-versionfunction) | <span data-ttu-id="062b0-204">Разработайте номер версии, содержащий до четырех разделов и до восьми символов в разделе.</span><span class="sxs-lookup"><span data-stu-id="062b0-204">Deconstruct a version number with up to four sections and up to eight characters per section.</span></span> <span data-ttu-id="062b0-205">Используйте проанализированные данные для сравнения возраста версий.</span><span class="sxs-lookup"><span data-stu-id="062b0-205">Use the parsed data to compare version age.</span></span> |
+| <span data-ttu-id="062b0-206">IPv4-адреса</span><span class="sxs-lookup"><span data-stu-id="062b0-206">IPv4 addresses</span></span> | [<span data-ttu-id="062b0-207">parse_ipv4 ()</span><span class="sxs-lookup"><span data-stu-id="062b0-207">parse_ipv4()</span></span>](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv4function) | <span data-ttu-id="062b0-208">Преобразование IPv4-адреса в длинное целое число.</span><span class="sxs-lookup"><span data-stu-id="062b0-208">Convert an IPv4 address to a long integer.</span></span> <span data-ttu-id="062b0-209">Для сравнения IPv4-адресов без их преобразования используйте [ipv4_compare ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv4-comparefunction).</span><span class="sxs-lookup"><span data-stu-id="062b0-209">To compare IPv4 addresses without converting them, use [ipv4_compare()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv4-comparefunction).</span></span> |
+| <span data-ttu-id="062b0-210">IPv6-адреса</span><span class="sxs-lookup"><span data-stu-id="062b0-210">IPv6 addresses</span></span> | [<span data-ttu-id="062b0-211">parse_ipv6 ()</span><span class="sxs-lookup"><span data-stu-id="062b0-211">parse_ipv6()</span></span>](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv6function)  | <span data-ttu-id="062b0-212">Преобразование IPv4-или IPv6-адреса в каноническую нотацию IPv6.</span><span class="sxs-lookup"><span data-stu-id="062b0-212">Convert an IPv4 or IPv6 address to the canonical IPv6 notation.</span></span> <span data-ttu-id="062b0-213">Чтобы сравнить IPv6-адреса, используйте [ipv6_compare ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv6-comparefunction).</span><span class="sxs-lookup"><span data-stu-id="062b0-213">To compare IPv6 addresses, use [ipv6_compare()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv6-comparefunction).</span></span> |
+
+<span data-ttu-id="062b0-214">Чтобы узнать обо всех поддерживаемых функциях синтаксического анализа, [прочитайте о функциях строк Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions).</span><span class="sxs-lookup"><span data-stu-id="062b0-214">To learn about all supported parsing functions, [read about Kusto string functions](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions).</span></span> 
+
+## <a name="related-topics"></a><span data-ttu-id="062b0-215">Похожие темы</span><span class="sxs-lookup"><span data-stu-id="062b0-215">Related topics</span></span>
+- [<span data-ttu-id="062b0-216">Документация по языку запросов Кусто</span><span class="sxs-lookup"><span data-stu-id="062b0-216">Kusto query language documentation</span></span>](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
+- [<span data-ttu-id="062b0-217">Обзор расширенной охоты на угрозы</span><span class="sxs-lookup"><span data-stu-id="062b0-217">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="062b0-218">Изучение языка запросов</span><span class="sxs-lookup"><span data-stu-id="062b0-218">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="062b0-219">Работа с результатами запросов</span><span class="sxs-lookup"><span data-stu-id="062b0-219">Work with query results</span></span>](advanced-hunting-query-results.md)
+- [<span data-ttu-id="062b0-220">Использование общих запросов</span><span class="sxs-lookup"><span data-stu-id="062b0-220">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="062b0-221">Охота на различных устройствах, в письмах, приложениях и удостоверениях</span><span class="sxs-lookup"><span data-stu-id="062b0-221">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="062b0-222">Сведения о схеме</span><span class="sxs-lookup"><span data-stu-id="062b0-222">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
