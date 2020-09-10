@@ -3,7 +3,7 @@ title: Финансовый орган Великобритании (ФКА)
 description: Руководство Майкрософт по финансовым фирмам в Великобритании следует за финансовыми органами и рекомендациями по аутсорсингу в облаке.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1a45b101363c3b881161384a241c1ea50e951552
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 03e8bcc51acb1a8210492b6d1ea0f00a886d6cdd
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066392"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417373"
 ---
 # <a name="united-kingdom-financial-conduct-authority-fca"></a>Финансовый орган Великобритании (ФКА)
 
@@ -43,7 +43,7 @@ ms.locfileid: "44066392"
 
 [Скачайте подход корпорации Майкрософт для ФКА завершенного облачного руководства](https://go.microsoft.com/fwlink/p/?linkid=2101561)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune

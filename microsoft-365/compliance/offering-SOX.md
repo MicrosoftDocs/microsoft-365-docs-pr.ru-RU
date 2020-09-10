@@ -3,7 +3,7 @@ title: Акт Сарбейнс-Оксли от 2002 г. (SOX)
 description: Финансовые услуги компании могут использовать отчеты о соответствии требованиям корпорации Майкрософт, чтобы обеспечить соответствие требованиям закона Сарбэйнса – Оксли.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a1ee3987a762d3ff9555a8e992dda67e4a154849
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: ca91606910c38664e74d650f750769121ea11957
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066312"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415357"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Акт Сарбейнс-Оксли от 2002 г. (SOX)
 
@@ -43,7 +43,7 @@ ms.locfileid: "44066312"
 
 Узнайте больше о том, как использовать отчеты о соответствии требованиям в Microsoft Azure для решения ваших обязательств по обеспечению соблюдения требований требованиям SOX: [Загрузка руководства по Azure для закона Сарбэйнса – Оксли](https://aka.ms/Azure-SOX-Guide)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -56,7 +56,7 @@ ms.locfileid: "44066312"
 [SoC 1: Type 2](offering-SOC.md) Reports для:
 
 - Azure и Power BI
-- Dynamics 365
+- Dynamics 365
 - Office 365
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы

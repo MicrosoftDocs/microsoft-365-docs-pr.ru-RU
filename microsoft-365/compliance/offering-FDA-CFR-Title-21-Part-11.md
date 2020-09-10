@@ -3,7 +3,7 @@ title: Администрирование управления питанием 
 description: Корпорация Майкрософт помогает клиентам соблюдать эти нормативные положения по управлению лекарствами и США.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1b24460940d583eeb9ed431b61453e87a218a816
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fa93c78d240c243911e21e687ef5d02c29b714b2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066382"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417343"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Администрирование управления питанием и лекарствами названием CFR 21 часть 11
 
@@ -45,7 +45,7 @@ CFR Title 21 часть 11 устанавливает требования, чт
 
 Узнайте, как ускорить работу с ФДА CFR звание 21 Deployment: [скачайте Руководство по квалификации по Azure ФДА 21](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 Несмотря на отсутствие сертификации с названием CFR 21 часть 11, следующие облачные облачные службы Майкрософт перепрошли независимые сторонние средства аудита, которые могут помочь клиентам в обеспечении соответствия требованиям. К этим службам относятся следующие:
 

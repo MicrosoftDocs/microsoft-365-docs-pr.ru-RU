@@ -3,7 +3,7 @@ title: Резервирование банка Индии (РБИ) и страх
 description: Корпорация Майкрософт опубликовала рекомендации по использованию финансовых учреждений в Индии с внедрением в облаке.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d76289740a117979ec4ac2d91a2e24782995d0fb
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: c037a36154f14cc0db2092bc2eeea6344b5544ff
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066186"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416075"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Резервирование банка Индии (РБИ) и страхового законодательства и центра развития Индии (ИРДАИ)
 
@@ -55,7 +55,7 @@ ms.locfileid: "44066186"
 ## <a name="how-to-implement"></a>Методика реализации
 
 - [Контрольный список соответствия требованиям для Индии](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): финансовые фирмы могут получить помощь в оценке рисков Microsoft Business Cloud Services.
-- [Руководство по оценке риска и соответствия требованиям](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers). Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов.
+- [Руководство по оценке риска и соответствия требованиям](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers). Создание модели управления для оценки рисков облачных служб Майкрософт и уведомлений контролирующих органов.
 - [Финансовые варианты использования Azure](https://docs.microsoft.com/azure/industry/financial/): обзоры вариантов, учебные пособия и другие ресурсы для создания решений Azure для финансовых служб.
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы

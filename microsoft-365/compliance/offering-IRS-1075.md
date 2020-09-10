@@ -3,7 +3,7 @@ title: Публикация службы внутреннего дохода (С
 description: У корпорации Майкрософт есть элементы управления, которые отвечают требованиям для публикации в службе внутреннего дохода (США) 1075.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b64b69d52028a09ddd54863d4e2cbf5f0642bd67
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 83c66bfce39698cfea7833433d337fe7411e0ebe
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066332"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416349"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>Публикация службы внутреннего дохода (США) 1075
 
@@ -43,7 +43,7 @@ ms.locfileid: "44066332"
 - Предоставляет рекомендации по соответствию требованиям для государственных организаций IRS Azure и Office 365 для государственных учреждений Office, в которой описывается, как Агентство может использовать Microsoft Cloud для государственных служб в соответствии со стандартом IRS 1075. Клиенты государственных организаций в НДА могут запрашивать эти документы.
 - Предоставляет клиентам возможность (в свою очередь) общаться со специалистами корпорации Майкрософт или за пределами аудиторий, если это необходимо.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 Авторизация FedRAMP предоставляется на трех уровнях влияния на правила NIST: низкие, средние и высокие. Эти значения приотносятся к снижению степени конфиденциальности, целостности или доступности, которые могут иметься в Организации: низкие (ограниченные), средние (серьезные неблагоприятные последствия) и высокий (серьезный или разрушительный эффект).
 

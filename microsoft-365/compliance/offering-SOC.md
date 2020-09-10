@@ -3,7 +3,7 @@ title: Средства контроля обслуживающей органи
 description: Облачные службы Майкрософт соответствуют стандартам средств контроля обслуживающей организации для операционной безопасности.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2428109743b408061ead8ad87d5e59ac30417c06
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: cdc8835989ada5ebe4089c4d7fed5fd8cf064673
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898087"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415426"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 

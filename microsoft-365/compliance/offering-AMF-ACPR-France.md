@@ -3,7 +3,7 @@ title: Финансовая служба (AMF) и Управление по на
 description: Руководство Майкрософт призвано помочь финансовым учреждениям во Франции перейти на облачные решения.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 931aab574fd5bea59c2dca997fdff02db8a2e1c6
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 21ad1cb8e0c3cabb02fc3ebe2110afe2888ab8fe
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066646"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416155"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>Финансовая служба (AMF) и Управление по надзору (ACPR), Франция
 

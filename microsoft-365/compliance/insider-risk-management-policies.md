@@ -3,7 +3,7 @@ title: Политики управления рисками для предва�
 description: Сведения о политиках управления рисками для предварительной оценки в Microsoft 365
 keywords: Microsoft 365, управление рисками для оценки, управление рисками, соответствие требованиям
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7701932cdd41b673dcc665c71983df9f4d244a8b
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: fa38b81ff02729f1bd874c1ac286712b0a6bbb7a
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632178"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416813"
 ---
 # <a name="insider-risk-management-policies"></a>Политики управления рисками для предварительной оценки
 

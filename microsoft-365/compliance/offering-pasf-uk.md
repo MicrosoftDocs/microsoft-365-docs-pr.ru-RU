@@ -3,7 +3,7 @@ title: Гарантированно-проверенные средства бе
 description: Microsoft Business Cloud Services поддерживает юридическую деятельность в Великобритании, требующих надежной работы средств для обработки и хранения данных в облаке.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3207d0d29c837064ac5c27cc7022a8d0d7e63a22
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 828a16ce825a21a532a22d60cd0005db10c97a75
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065794"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416401"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>Гарантированно-проверенные средства безопасности (ПАСФ), Соединенное Королевство
 
@@ -37,7 +37,7 @@ ms.locfileid: "44065794"
 
 Эти сертификаты поддерживаются мерами, которые мы предпринимаеми для защиты физической безопасности наших центров обработки данных. Мы припринимаем многоуровневый подход, который начинается с того, как мы разрабатываем, создаем и работающим центрами обработки данных, чтобы строго контролировать физический доступ к областям, в которых хранятся данные клиента. Центры обработки данных, управляемые корпорацией Майкрософт, имеют обширный уровень защиты с утверждением доступа, необходимым на периметре средства, на периметре здания, в здании и на этаже центра обработки данных. Это снижает риск незаконного доступа пользователей к данным и ресурсам центра обработки данных.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)

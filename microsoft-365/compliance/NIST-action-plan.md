@@ -4,7 +4,7 @@ description: План действий в порядке приоритета, �
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, NIST, NIST 800-53
 author: BrendaCarter
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 09/14/2018
 f1.keywords:
@@ -15,12 +15,12 @@ audience: itpro
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 355d83c4ad1e51e03f137a1342d00f3693c242e7
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 5624bf3ebf5ce7b443cb7c6a20466e9b701f3440
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308020"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416379"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>План обеспечения соответствия NIST 800-53 для Microsoft 365: основные приоритеты на первые 30, 90 и больше дней
 

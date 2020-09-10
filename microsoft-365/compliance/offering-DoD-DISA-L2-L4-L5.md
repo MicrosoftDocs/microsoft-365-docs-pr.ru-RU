@@ -3,7 +3,7 @@ title: Предварительная проверка подлинности д
 description: Корпорация Майкрософт получила авторизацию подготовки для Отдела по требованию на уровнях 5, 4 и 2.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 333333ad274c569337c2cbab7fd00c7337e26160
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: fee91c384850b5a1593cc17e6215985217ada033
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064770"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415477"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Авторизация подготовки для Отдела по требованию США на уровнях влияния 2, 4 и 5
 
@@ -57,7 +57,7 @@ ms.locfileid: "44064770"
 
 Уровень влияния 2 охватывает неконтролируемые Неклассифицированные сведения — данные, авторизованные для общедоступной версии. Кроме того, она охватывает другие неклассифицированные сведения, которые, хотя и не считаются критическими задачами, по-прежнему требуют минимального уровня управления доступом. Эта авторизация позволяет клиентам федерального правительства США развертывать неконфиденциальную информацию и базовые приложения и веб-сайты в области облачных служб Майкрософт.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 ### <a name="covered-services-for-dod-impact-level-5"></a>Покрываемые службы для уровня влияния на вызов по требованию 5
 

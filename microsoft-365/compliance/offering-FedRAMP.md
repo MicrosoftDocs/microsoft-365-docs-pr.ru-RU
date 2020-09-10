@@ -3,7 +3,7 @@ title: требованиям Федеральной программы упра
 description: Корпорация Майкрософт предоставила Федеральный федеральный риск и программу управления авторизацией P – Атос и Атос.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0ddb997246f2b7a23b25e1b611170c6163e1d670
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: c91c71f199ef36c1c9a0da023c7b26d6cb64282e
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781486"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415783"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>требованиям Федеральной программы управления рисками и авторизацией (FedRAMP);
 

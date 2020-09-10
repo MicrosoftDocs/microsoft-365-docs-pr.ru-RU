@@ -3,7 +3,7 @@ title: Правила для ценных бумаг и Комиссии Exchang
 description: Независимая оценка — Проверка того, что Azure и Office 365 могут помочь финансовым фирмам в секунду хранить записи 17A-4 (f), а также неизменяемые требования к хранению.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 63a7c4f7385ec3d782ff030374ba344406c6d094
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: bd91e2439b501a20396763358f35a94aa31b4672
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126668"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417237"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Правила для ценных бумаг и Комиссии Exchange (с) правило 17A-4 (f), Соединенные Штаты
 

@@ -3,7 +3,7 @@ title: Права на образованию семьи и заявление �
 description: Корпорация Майкрософт применяет требования, предъявляемые к требованиям для образования и конфиденциальности для семейства US.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c7d3120f7094e91157c5a20df435c1c1438677bf
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: cbf8b04fe4e3d301d3ee79c09895093f97c2e785
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254272"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417353"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>Права на образованию семьи и заявление о конфиденциальности (ФЕРПА)
 

@@ -3,7 +3,7 @@ title: ISO 22301:2012 Стандарт управления непрерывно
 description: Корпорация Майкрософт сертифицирована на использование этих стандартов управления непрерывностью бизнеса.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 64a43fc281e5074314ca2b272306a0733297d34e
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 2e470972e1d1549bff5cce107666a930a9b29969
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254438"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416237"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 Стандарт управления непрерывностью бизнеса
 
@@ -40,7 +40,7 @@ Microsoft является первым поставщиком гипермас�
 - Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 Germany
 - Advanced Threat Protection в Microsoft Defender
 - Microsoft Graph
-- Бот Microsoft для здравоохранения
+- Microsoft Healthcare Bot
 - Intune
 - Компьютеры, управляемые Майкрософт
 - Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365

@@ -3,7 +3,7 @@ title: Меры безопасности высокого уровня согл�
 description: Корпорация Майкрософт получила сертификат Esquema Nacional de Seguridad (национальная инфраструктура безопасности) в Испании.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f80167a45379a143d7a96e568aedbc27484090a4
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: f7a3106a2d40d8170127df2a68177f52d119f2d4
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064718"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415487"
 ---
 # <a name="spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>Меры безопасности высокого уровня согласно испанскому стандарту Esquema Nacional de Seguridad (ENS)
 

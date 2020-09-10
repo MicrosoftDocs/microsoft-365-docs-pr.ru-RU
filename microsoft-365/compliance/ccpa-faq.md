@@ -3,7 +3,7 @@ title: 'Закон Калифорнии о защите персональных
 description: 'Службы Майкрософт и Закон Калифорнии о защите персональных данных потребителей (CCPA): вопросы и ответы'
 keywords: Microsoft 365, соответствие требованиям, CCPA, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: f4f6d33d9c8898899486c1c6ab08af5113c4a42a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fa0c37d6a077810668472c2b7feeaf852e497c96
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595956"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416339"
 ---
 # <a name="california-consumer-privacy-act-ccpa-frequently-asked-questions"></a>Закон Калифорнии о защите персональных данных потребителей (CCPA)
 

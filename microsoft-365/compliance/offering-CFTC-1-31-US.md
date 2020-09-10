@@ -3,7 +3,7 @@ title: Правило комиссий по продажам в будущем (
 description: Независимая оценочная проверка того, что Azure и Office 365 могут помочь финансовым фирмам в соответствии с 1,31 правилами КФТК для хранения и неизменяемыми требованиями к хранению.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c327ff759f6a0515f5bb454897f01f831c60653
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 73d52a91620bc0bd50a310c4085fa821fab80da2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127065"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416359"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Правило комиссий по продажам в будущем (КФТК) 1.31 (c-d) США
 

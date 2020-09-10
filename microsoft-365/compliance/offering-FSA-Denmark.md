@@ -3,7 +3,7 @@ title: Служба финансового надзора (FSA), Дания
 description: Руководство Майкрософт призвано помочь финансовым учреждениям в Дании перейти на облачные решения.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7b662c89056525762ad6f9f6e35262a24d098489
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 67b6996bf8f27ad431a180165a13a2998df1f360
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662035"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415843"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>Служба финансового надзора (FSA), Дания
 

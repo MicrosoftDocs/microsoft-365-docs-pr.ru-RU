@@ -3,7 +3,7 @@ title: Кибератак (Великобритания)
 description: Кибератак Essentials PLUS — это схема, определенная правительством Великобритании, которая поможет организациям защититься от распространенных угроз безопасности кибератак.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8a95d2037c95f62b955e830b23e1d1ea46f31bf4
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 6b0d28c853c540e72c4287b141097f12ddf23419
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066432"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415579"
 ---
 # <a name="united-kingdom-cyber-essentials-plus"></a>Кибератак (Великобритания)
 

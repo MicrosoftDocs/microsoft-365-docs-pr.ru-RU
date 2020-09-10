@@ -3,7 +3,7 @@ title: Система управления конфиденциальность�
 description: Стандарт ISO/IEC 27701 предназначен для установления ответственности и соблюдения нормативных требований в отношении конфиденциальности для контролеров и обработчиков данных в глобальной цепочке поставок, работа которой включает обработку данных.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8a4f59a817e8ddd38ee8132e7028a3357d15d578
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: b46a1996d1a86601efe21ec71b19adfc9fa02c61
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254172"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417217"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>Система управления конфиденциальностью ISO/IEC 27701 (PIMS)
 

@@ -3,7 +3,7 @@ title: Запросы субъектов данных Azure в рамках GDPR
 description: Узнайте, как использовать средства администрирования, службы и другие продукты Майкрософт для поиска персональных данных и выполнения действий над ними в ответ на DSR.
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR, CCPA
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 47aca22a5766b39bce513772874bca56de3420c5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b22baa48293e48567d801227996d080e8ee1cce2
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035457"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416653"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>Запросы субъектов данных Azure в рамках GDPR и CCPA
 

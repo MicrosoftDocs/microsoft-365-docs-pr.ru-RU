@@ -3,7 +3,7 @@ title: Совет по анализу финансовых учреждений 
 description: Корпорация Майкрософт помогает клиентам финансовых служб соблюдать требования к аудиту для органов Федерального Совета по анализу финансовых учреждений (ФФИЕК).
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c30f92bbbe3458fe4751f829b02203f622414cda
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: 34feea4f90ddbb4036bb08c5548696f4fcd649a9
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44800100"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417323"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Совет по анализу финансовых учреждений по федеральным учреждениям (ФФИЕК)
 

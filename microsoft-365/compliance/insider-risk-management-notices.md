@@ -3,7 +3,7 @@ title: Шаблоны уведомлений об управлении риск�
 description: Сведения о шаблонах уведомлений об управлении рисками в Microsoft 365
 keywords: Microsoft 365, управление рисками для оценки, управление рисками, соответствие требованиям
 localization_priority: Normal
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 0211eefe3c4a946bbaa4ad4c8c66e5df7b37091e
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 3a74c62e84c1cb9e4c749a364c0e5b6da25a8af9
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199496"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416483"
 ---
 # <a name="insider-risk-management-notice-templates"></a>Шаблоны уведомлений об управлении рисками для участников
 

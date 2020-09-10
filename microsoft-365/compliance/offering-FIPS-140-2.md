@@ -3,7 +3,7 @@ title: Публикация стандарта федеральной обраб
 description: Корпорация Майкрософт удостоверяет, что криптографические модули соответствуют стандарту федеральной обработки информации США.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8288438eed0f658d8058125bc90315e9a2626c08
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: f193e1846b957a26475cdfc48add6679a951841f
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066584"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47415853"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>Публикация стандарта федеральной обработки информации (FIPS) 140-2
 
@@ -35,7 +35,7 @@ ms.locfileid: "44066584"
 
 Для получения технических сведений о криптографических модулях Microsoft Windows, политиках безопасности для каждого модуля и каталоге сведений о сертификате КМВП можно ознакомиться с [содержанием Windows и Windows Server FIPS 140-2](https://aka.ms/AA6ehud).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 Несмотря на то, что текущее руководство по реализации КМВП FIPS 140-2 исключает проверку на соответствие стандарту FIPS 140-2 для самой облачной службы; поставщики облачных служб могут получать и использовать проверенные криптографические модули FIPS 140 для вычислительных элементов, входящих в облачную службу. Службы Microsoft Online Services, включающие компоненты, которые были проверены на стандарт FIPS 140-2, среди других:
 

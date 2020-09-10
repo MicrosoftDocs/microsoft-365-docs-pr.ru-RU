@@ -3,7 +3,7 @@ title: Уведомление о нарушении безопасности д�
 description: Сведения о том, как корпорация Майкрософт защищает от нарушения безопасности персональных данных, реагирует на такие нарушения и оповещает о них.
 keywords: Office 365, Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ae69a8330f5daec275247e718f7eb66a5f0f8bf9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 30e32a38d380806e56f08303eef4f5adbfc47d10
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633444"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416823"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>Уведомление о нарушении безопасности данных согласно GDPR
 

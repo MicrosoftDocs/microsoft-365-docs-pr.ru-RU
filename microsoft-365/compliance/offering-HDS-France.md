@@ -3,7 +3,7 @@ title: Стандарт размещения медицинских данных
 description: Облачные службы Майкрософт сертифицированы на соответствие требованиям стандарта размещения медицинских данных (Hébergeurs de Données de Santé).
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 46118f9fe48e6fe794cdb256384bb88e9a1e0cfa
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 84b7f5959d3bd8c13476059655113ea78495862a
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066472"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417723"
 ---
 # <a name="health-data-hosting-hds-france"></a>Стандарт размещения медицинских данных (HDS) во Франции
 

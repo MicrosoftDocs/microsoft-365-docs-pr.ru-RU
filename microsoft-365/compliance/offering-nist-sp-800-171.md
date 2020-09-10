@@ -3,7 +3,7 @@ title: NIST SP 800 – 171
 description: Облачные службы Майкрософт соответствуют требованиям NIST SP 800 – 171 для защиты контролируемой неклассифицированной информации (CUI) в нефедеральных информационных системах.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 47e001fafedbdcaab6e1aa6365789bc309d9f65c
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 757541aa86049106ad06f02419fee02033c6a0e3
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065814"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417071"
 ---
 # <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
@@ -42,7 +42,7 @@ NIST SP 800 – 171 изначально был опубликован в июн
 
 Любая сущность, которая обрабатывает или хранит США CUI — исследовательские учреждения, консалтинговые компании, производственные подрядчики, должны соответствовать строгим требованиям NIST SP 800 – 171. Эта аттестация означает, что облачные службы Майкрософт находятся в облачных службах, которые хотят развертывать рабочие нагрузки CUI с гарантией, что Майкрософт полностью соответствует требованиям. Например, все подрядчики DoD, которые обрабатывают, хранят или передают информацию об информации о защите с помощью облачных служб Майкрософт в своих информационных системах, соответствуют требованиям к защите ДФАРС, которые требуют соответствия требованиям безопасности NIST SP 800 – 171.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных учреждений США](https://aka.ms/d365-compliance-list)

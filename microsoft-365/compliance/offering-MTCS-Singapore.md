@@ -3,7 +3,7 @@ title: Стандарт многоуровневой облачной безоп
 description: Корпорация Майкрософт получила сертификат соответствия стандарту многоуровневой облачной безопасности для Сингапура.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ab6f199cd27e56a24641ec52ba640cf5e2f5777b
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 47cc5cf10f048640ead85d239881fa9b2603e699
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254468"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47417503"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>Стандарт многоуровневой облачной безопасности (MTCS) для Сингапура
 
@@ -49,7 +49,7 @@ MTCS — это первый стандарт облачной безопасн�
 - Microsoft Cloud App Security
 - Genomics
 - Microsoft Graph
-- Бот Microsoft для здравоохранения
+- Microsoft Healthcare Bot
 - Intune
 - Flow
 - OMS Service Map

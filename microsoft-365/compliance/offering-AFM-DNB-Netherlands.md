@@ -3,7 +3,7 @@ title: Управление по финансовым рынкам Нидерл�
 description: Корпорация Майкрософт опубликовала руководство с целью оказать финансовым учреждениям в Нидерландах поддержку в вопросе внедрения облачных технологий.
 keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: Priority
-ms.prod: Microsoft-365-enterprise
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 09d6514a3b18535820f31b50736591314182d140
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: bab5664054cf4b2ba171887b4e2df754c6edd3cf
+ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066656"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47416175"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>Управление по финансовым рынкам Нидерландов и Центральный банк Нидерландов
 
