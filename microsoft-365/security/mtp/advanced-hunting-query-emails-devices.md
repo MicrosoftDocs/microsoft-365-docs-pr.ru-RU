@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ccb7b049ee3bc2aa25847886b57341ae936d20b9
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: c24f5891573b8541a97a35d228c57642766fe4a0
+ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649347"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47419148"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Поиск угроз для различных устройств, сообщений электронной почты, приложений и удостоверений
 
@@ -62,9 +62,6 @@ EmailEvents
 
 Вы можете получить имена учетных записей и другие сведения об учетных записях, объединив или присоединяясь к [таблице идентитинфо](advanced-hunting-identityinfo-table.md). В запросе ниже показано, как получить список обнаруженных вредоносных программ и вредоносных программ из [таблицы емаилевентс](advanced-hunting-emailevents-table.md) , а затем присоединяет эти сведения к `IdentityInfo` таблице для получения подробных сведений о каждом получателе. 
 
->[!Tip]
-> В этом запросе `kind=inner` указывается [внутреннее соединение](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor), которое предотвращает дедупликацию значений левой стороны или адресов электронной почты получателей.
-
 ```kusto
 EmailEvents
 | where Timestamp > ago(7d)
@@ -81,6 +78,9 @@ Department, City, Country
 
 ### <a name="get-device-information"></a>Получение сведений об устройстве
 [Расширенная схема](advanced-hunting-schema-tables.md) подпоиска предоставляет подробные сведения об устройствах в различных таблицах. Например, [Таблица девицеинфо](advanced-hunting-deviceinfo-table.md) предоставляет исчерпывающие сведения об устройствах на основе регулярно собранных данных о событиях. В этом запросе используется `DeviceInfo` Таблица для проверки того, что потенциально скомпрометированный пользователь ( `<account-name>` ) выполнил вход на любые устройства, а затем выдает список оповещений, активированных на этих устройствах.
+
+>[!Tip]
+> Этот запрос использует `kind=inner` для указания [внутреннего объединения](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor), которое предотвращает дедупликацию значений левой стороны для `DeviceId` .
 
 ```kusto
 DeviceInfo
@@ -192,7 +192,7 @@ DeviceProcessEvents
 | where (TimeProc - TimeEmail) between (0min.. 30min)
 ```
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

@@ -1,0 +1,41 @@
+### YamlMime:Hub
+title: Microsoft Bookings
+summary: Узнайте, как настроить резервирование Майкрософт для предоставления услуг клиентам на основе встреч.
+brand: m365
+metadata:
+  title: Microsoft Bookings
+  description: Узнайте, как настроить резервирование Майкрософт для предоставления услуг клиентам на основе встреч.
+  ms.service: bookings
+  ms.topic: hub-page
+  author: dmaguire
+  ms.author: dmaguire
+  manager: serdars
+  audience: Admin
+  ms.date: 09/04/2020
+  ms.openlocfilehash: 8c7158c72700a7db866051a4de10bbc890ad4478
+  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 09/09/2020
+  ms.locfileid: "47420035"
+additionalContent:
+  sections:
+  - items:
+    - title: Что такое резервирование Майкрософт?
+      summary: Запланируйте встречи и управляйте ими с помощью веб-календаря и приложения для резервирования, в том числе интеграция с Outlook для персонала и автоматизированных уведомлений по электронной почте.
+      url: bookings-overview.md
+    - title: Ввод сведений о компании
+      summary: Введите страницу "создание сведений о нас", в том числе название, адрес, номер телефона, URL-адрес веб-сайта, логотип и рабочие часы в книгах Майкрософт.
+      url: enter-business-information.md
+    - title: Получение приложения для работы с книгами
+      summary: Изменение темы цвета и Настройка внешнего вида страницы бронирования внешнего клиента.
+      url: customize-booking-page.md
+    - title: Добавление сотрудников в резервирования
+      summary: Создание списка сотрудников и управление такими сведениями о сотрудниках, как имя, номер телефона и адрес электронной почты.
+      url: add-staff.md
+    - title: Планирование нерабочих дней и отпусков
+      summary: Запланируйте закрытия Office и время сотрудников из календаря резервирования, чтобы сотрудники были помечены как недоступные для резервирования в указанное время.
+      url: schedule-closures-time-off-vacation.md
+    - title: Рабочие часы сотрудников в резервировании Майкрософт
+      summary: Настройка рабочих часов сотрудников и доступности в книгах Майкрософт.
+      url: employee-hours.md
