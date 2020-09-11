@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как с помощью PowerShell создавать и публиковать метки хранения из командной строки независимо от центра соответствия требованиям Microsoft 365.
-ms.openlocfilehash: 416746bb849020d76bcf950d397768239d17baf1
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 5b8bb7a08c9794139e840d59f9238d858e15dd4e
+ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126370"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47426986"
 ---
 # <a name="create-and-publish-retention-labels-by-using-powershell"></a>Создание и публикация меток хранения с помощью PowerShell
 
@@ -736,7 +736,7 @@ if ($ResultCSV)
 
 ## <a name="step-4-run-the-powershell-script"></a>Шаг 4. Запуск скрипта PowerShell
 
-Сначала [выполните подключение к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)
+Сначала [выполните подключение к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
 Затем запустите сценарий, создающий и публикующий метки хранения.
   

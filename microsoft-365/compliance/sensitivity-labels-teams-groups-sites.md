@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Чтобы защитить контент на сайтах SharePoint и Microsoft Teams, а также в группах Microsoft 365, используйте метки конфиденциальности.
-ms.openlocfilehash: d0ac249483d888b76915e98429b72da88884e135
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: bbed892481571706d8d43c3fa4d5aff7e9fb4c92
+ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357791"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47427018"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Используйте метки конфиденциальности, чтобы защитить контент в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint.
 
@@ -201,13 +201,13 @@ ms.locfileid: "47357791"
 
 ### <a name="use-powershell-to-apply-a-sensitivity-label-to-multiple-sites"></a>Использование PowerShell для применения метки конфиденциальности к нескольким сайтам
 
-Для применения метки конфиденциальности к нескольким сайтам можно использовать командлеты [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps) и [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) с параметром *SensitivityLabel* из текущей [командной консоли SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Это касается любых семейств веб-сайтов SharePoint и сайтов OneDrive.
+Для применения метки конфиденциальности к нескольким сайтам можно использовать командлеты [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) и [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) с параметром *SensitivityLabel* из текущей [командной консоли SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Это касается любых семейств веб-сайтов SharePoint и сайтов OneDrive.
 
 Убедитесь, что используется командная консоль SharePoint Online версии 16.0.19418.12000 или более поздней.
 
 1. Откройте сеанс PowerShell с параметром **Запуск от имени администратора**.
 
-2. Если вы не знаете GUID метки: [подключитесь к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) и получите список меток конфиденциальности с их идентификаторами GUID.
+2. Если вы не знаете GUID метки: [подключитесь к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) и получите список меток конфиденциальности с их идентификаторами GUID.
 
    ```powershell
    Get-Label |ft Name, Guid
@@ -317,7 +317,7 @@ Microsoft 365 больше не поддерживает прежние клас
 
    Например, в сеансе PowerShell, который вы запускаете как администратор, войдите в систему с помощью учетной записи глобального администратора.
 
-2. Получите список меток конфиденциальности с их GUID с помощью командлета [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label?view=exchange-ps).
+2. Получите список меток конфиденциальности с их GUID с помощью командлета [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label).
 
    ```powershell
    Get-Label |ft Name, Guid
@@ -325,7 +325,7 @@ Microsoft 365 больше не поддерживает прежние клас
 
 3. Запишите GUID для меток конфиденциальности, которые нужно применить к группам Microsoft 365.
 
-4. Теперь [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps) в отдельном окне Windows PowerShell.
+4. Теперь [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) в отдельном окне Windows PowerShell.
 
 5. Используйте следующую команду в качестве примера, чтобы получить список групп, использующих в настоящее время классификацию General (Общее).
 
