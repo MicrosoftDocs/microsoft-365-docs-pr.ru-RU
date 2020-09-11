@@ -582,7 +582,7 @@
               href: maintain-group-membership-with-microsoft-365-powershell.md
             - name: Управление группами Microsoft 365
               href: manage-microsoft-365-groups-with-powershell.md
-    - name: Управление SharePoint Online
+    - name: Управление SharePoint
       href: manage-sharepoint-online-with-microsoft-365-powershell.md
       items:
         - name: Создание сайтов и добавление пользователей в SharePoint Online
