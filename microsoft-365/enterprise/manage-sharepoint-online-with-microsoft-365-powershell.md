@@ -1,5 +1,5 @@
 ---
-title: Управление SharePoint Online с помощью PowerShell
+title: Управление SharePoint с помощью PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,23 +19,23 @@ ms.custom:
 - SPO_Content
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: В этой статье рассказывается, как использовать PowerShell для Microsoft 365 для управления пользователями, группами и группами сайтов SharePoint Online.
-ms.openlocfilehash: 6885452441bccff92469587d36bc57c6ba43fa09
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Узнайте, как использовать PowerShell для Microsoft 365 для управления пользователями, группами и группами сайтов.
+ms.openlocfilehash: dd3ae1ee27d0a3e7c46eb4b62b42165279656aeb
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693417"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429810"
 ---
-# <a name="manage-sharepoint-online-with-powershell"></a>Управление SharePoint Online с помощью PowerShell
+# <a name="manage-sharepoint-with-powershell"></a>Управление SharePoint с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Одной из основных задач администратора SharePoint Online является Управление сайтами, группами сайтов и пользователями. Хотя вы можете выполнить некоторые из указанных ниже задач в Центре администрирования Microsoft 365, другие задачи гораздо быстрее и проще выполнить с помощью PowerShell. Дополнительные сведения см. в следующих статьях:
+Администраторам SharePoint необходимо управлять сайтами, группами сайтов и пользователями. Хотя некоторые из этих задач можно выполнить в центре администрирования Microsoft 365, другие проще в PowerShell. Дополнительные сведения см. в следующих статьях:
 
-- [Подключение к PowerShell в SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+- [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
   
-- [Создание сайтов и добавление пользователей в SharePoint Online с помощью PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
+- [Создание сайтов SharePoint Online и Добавление пользователей с помощью PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
     
 - [Управление пользователями и группами SharePoint Online с помощью PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
     
@@ -45,4 +45,4 @@ ms.locfileid: "46693417"
 
 - [Управление Microsoft 365 с помощью PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
 
-- [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
+- [Приступая к работе с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
