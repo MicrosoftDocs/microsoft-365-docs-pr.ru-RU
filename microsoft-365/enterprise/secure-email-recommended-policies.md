@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 9c289006fc1501865b0cf5529c308a0986895504
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 2dfaf33a837a74d92ec9bbbbb7f04b726e7f3744
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898144"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547867"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
 
@@ -33,15 +33,17 @@ ms.locfileid: "46898144"
 
 ## <a name="updating-common-policies-to-include-email"></a>Обновление общих политик для включения электронной почты
 
-На следующей схеме показаны общие политики идентификации и доступа к устройствам, а также указаны политики, которые необходимо обновить для защиты электронной почты. Обратите внимание на добавление нового правила для Exchange Online для блокирования клиентов ActiveSync. Это приводит к принудительному использованию Outlook Mobile.
+Чтобы защитить электронную почту, на схеме ниже показаны политики, которые необходимо обновить на основе общих политик идентификации и доступа к устройствам.
 
-![Сводка обновлений политик для защиты электронной почты](../media/identity-access-ruleset-mail.png)
+[![Сводка по обновлениям политик для защиты доступа к Teams и зависимым службам](../media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
-[Просмотреть увеличенную версию этого изображения](https://raw.githubusercontent.com/MicrosoftDocs/microsoft-365-docs/public/microsoft-365/media/identity-access-ruleset-mail.png)
+[Просмотреть увеличенную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
-Если вы включили Exchange Online и Outlook в область политик при их настройке, вам потребуется создать новую политику, чтобы заблокировать только клиентов ActiveSync. Ознакомьтесь с политиками, приведенными в следующей таблице, и либо сделайте Рекомендуемые дополнения, либо подтвердите, что они уже включены. Каждое правило связывается со связанными инструкциями по настройке в общих правилах [идентификации и доступа к устройствам](identity-access-policies.md).
+Обратите внимание на добавление новой политики для Exchange Online для блокировки клиентов ActiveSync. Это приводит к принудительному использованию Outlook Mobile.
 
-|Уровень защиты|Политики|Дополнительная информация|
+Если вы включили Exchange Online и Outlook в область политик при их настройке, вам потребуется создать новую политику, чтобы заблокировать только клиентов ActiveSync. Ознакомьтесь с политиками, приведенными в следующей таблице, и либо сделайте Рекомендуемые дополнения, либо подтвердите, что они уже включены. Каждая политика содержит ссылки на соответствующие инструкции по настройке в [общих удостоверениях и политиках доступа к устройствам](identity-access-policies.md).
+
+|Уровень защиты|Политики|Дополнительные сведения|
 |:---------------|:-------|:----------------|
 |**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
 |        |[Блокирование клиентов, не поддерживающих современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Exchange Online в назначение облачных приложений|
@@ -55,7 +57,7 @@ ms.locfileid: "46898144"
 
 ## <a name="block-activesync-clients"></a>Блокировка клиентов ActiveSync
 
-Эта политика запрещает клиентам ActiveSync обходить другие правила условного доступа. Настройка правил применяется только к клиентам ActiveSync. Выбрав **[параметр требовать политику защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)**, эта политика блокирует клиентов ActiveSync. Подробные сведения о создании этой политики можно найти в этой политике: " [требовать политику защиты приложений для облачного доступа к облачному приложению с условным доступом](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)".
+Эта политика запрещает клиентам ActiveSync обходить другие политики условного доступа. Настройка политики применяется только к клиентам ActiveSync. Выбрав **[параметр требовать политику защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)**, эта политика блокирует клиентов ActiveSync. Подробные сведения о создании этой политики можно найти в этой политике: " [требовать политику защиты приложений для облачного доступа к облачному приложению с условным доступом](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)".
 
 1. Выполните команду "шаг 2: Настройка политики условного доступа Azure AD для Exchange Online с помощью ActiveSync (EAS)" в [сценарии 1: приложения Office 365 требуют утвержденных приложений с политиками защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), что не позволяет клиентам Exchange ActiveSync использовать обычную проверку подлинности для подключения к Exchange Online.
 
@@ -67,4 +69,9 @@ ms.locfileid: "46898144"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Узнайте о рекомендуемых политиках для защиты сайтов и файлов SharePoint](sharepoint-file-access-policies.md)
+![Шаг 4: политики для облачных приложений Microsoft 365](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+
+Настройка политик условного доступа для:
+
+- [Microsoft Teams](teams-access-policies.md)
+- [SharePoint](secure-email-recommended-policies.md)

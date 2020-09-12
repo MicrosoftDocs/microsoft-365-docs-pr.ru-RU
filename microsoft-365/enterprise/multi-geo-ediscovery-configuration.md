@@ -13,12 +13,12 @@ ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: Узнайте, как использовать параметр Region для настройки обнаружения электронных данных для использования в вспомогательных расположениях в Microsoft 365 с поддержкой нескольких регионов.
-ms.openlocfilehash: 83141f824c76ca5531e1b390b91adcdb4f3874de
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 216012791473776395d27821293e8fc565568c2c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693123"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547954"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Настройка обнаружения электронных данных в Microsoft 365 Multi-Geo
 
@@ -35,7 +35,7 @@ ms.locfileid: "46693123"
 
 Установка фильтра соответствия требованиям безопасности для региона:
 
-1. [Подключение к PowerShell в Центре безопасности и соответствия требованиям Microsoft 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [Подключение к PowerShell в Центре безопасности и соответствия требованиям Microsoft 365](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
 2. Используйте следующий синтаксис:
 
@@ -49,4 +49,4 @@ ms.locfileid: "46693123"
    New-ComplianceSecurityFilter -Action All -FilterName "NAM eDiscovery Managers" -Region NAM -Users adwood@contoso.onmicrosoft.com
    ```
 
-Дополнительные параметры и синтаксис рассматриваются в статье [New-ComplianceSecurityFilter](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesecurityfilter).
+Дополнительные параметры и синтаксис рассматриваются в статье [New-ComplianceSecurityFilter](https://docs.microsoft.com/powershell/module/exchange/new-compliancesecurityfilter).

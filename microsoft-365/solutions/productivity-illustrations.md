@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 043f5882dcaa15576317958523d6e57d4667ef45
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: ae4a8b51111c53c2245005a5d863354737335ae2
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308089"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546193"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Иллюстрации повышения производительности в Microsoft 365
 
@@ -57,13 +57,13 @@ ms.locfileid: "47308089"
 
 
 <a name="BKMK_O365IDP"></a>
-### <a name="identity-and-device-protection-for-office-365"></a>Защита идентификации и устройств для Office 365
+### <a name="identity-and-device-protection-for-microsoft-365"></a>Защита удостоверений и устройств для Microsoft 365
 
-Рекомендуемые возможности для защиты удостоверений и устройств, имеющих доступ к Office 365 и отличных от SaaS-служб и локальных приложений, которые опубликованы с помощью прокси приложения Azure AD.
+Рекомендуемые возможности для защиты удостоверений и устройств, которые обращаются к Microsoft 365, другим службам SaaS и локальным приложениям, публикуемым с помощью прокси приложения Azure AD.
 
 |**Ресурс**|**Описание**|
 |:-----|:-----|
-|[![Плакат модели: защита идентификации и устройств в Office 365 и других приложениях SaaS](../media/solutions-architecture-center/O365-Identity-device-protection-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=55032) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656)  \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657)  \| [Другие языки](https://www.microsoft.com/download/details.aspx?id=55032) <br/> Обновление: ноябрь 2018 г.|Важно, чтобы уровни защиты данных, удостоверений и устройств согласовывались между собой. В этом документе приводится сравнительная характеристика различных возможностей, а также предоставляются дополнительные сведения о возможностях защиты удостоверений и устройств.  <br/> |
+|[![Плакат модели: защита идентификаторов и устройств для Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Просмотр в виде PDF-файла](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Загрузка в виде PDF-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Скачать как Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Обновлено 2020 сентября|Важно, чтобы уровни защиты данных, удостоверений и устройств согласовывались между собой. Эта модель показывает, какие возможности сравнимы с дополнительными сведениями о возможностях защиты удостоверений и устройств.  <br/> |
    
 <!--
 

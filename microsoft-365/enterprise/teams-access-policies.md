@@ -16,16 +16,16 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 41ead64a7a94dcd5afb22a311d7637326949fc7c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4dde82ef9deb4d515ea5223470f7c96c1fe28a26
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685658"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546372"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Рекомендации политики по обеспечению безопасности для чатов, групп и файлов в Teams
 
-В этой статье описывается, как реализовать рекомендуемые политики удостоверений и доступа к устройствам для защиты чатов, групп и контента Teams, таких как файлы и календари. Это руководство строится на [общих политиках идентификации и доступа к устройствам](identity-access-policies.md)с дополнительными сведениями, характерными для Teams. Так как teams интегрируется с другими продуктами, также вы можете ознакомиться с [рекомендациями политики по защите сайтов и файлов SharePoint](sharepoint-file-access-policies.md) и [рекомендациями политики по защите электронной почты](secure-email-recommended-policies.md).
+В этой статье описывается, как реализовать рекомендуемые политики удостоверений и доступа к устройствам для защиты чатов, групп и контента Microsoft Teams, таких как файлы и календари. Это руководство строится на [общих политиках идентификации и доступа к устройствам](identity-access-policies.md)с дополнительными сведениями, характерными для Teams. Так как teams интегрируется с другими продуктами, также вы можете ознакомиться с [рекомендациями политики по защите сайтов и файлов SharePoint](sharepoint-file-access-policies.md) и [рекомендациями политики по защите электронной почты](secure-email-recommended-policies.md).
 
 Эти рекомендации основаны на трех различных уровнях безопасности и защиты для Teams, которые можно применять в зависимости от степени детализации ваших потребностей: базовый, чувствительный и строго регулируемый. Вы можете узнать больше об этих уровнях безопасности и рекомендуемых политиках, указанных в этих рекомендациях, в [конфигурациях удостоверений и доступа к устройствам](microsoft-365-policies-configurations.md).
 
@@ -38,25 +38,27 @@ ms.locfileid: "46685658"
 - Группы Microsoft 365
 - Сайты групп SharePoint
 - OneDrive для бизнеса
-- Почтовые ящики
+- Почтовые ящики Exchange
 - Потоковые видео и планы планировщика (если эти службы включены)
 
 ## <a name="updating-common-policies-to-include-teams"></a>Обновление общих политик для включения Teams
 
-На следующей схеме показан набор рекомендуемых политик для защиты чата, групп и контента в Teams. Значок карандаша указывает, какие политики необходимо повторно посетить, чтобы убедиться в том, что Teams и зависимые службы включены в назначение облачных приложений.
+Чтобы защитить чат, группы и контент в Teams, на следующей схеме показано, какие политики необходимо обновить на основе общих политик идентификации и доступа к устройствам. Для обновления каждой политики убедитесь, что Teams и зависимые службы включены в назначение облачных приложений.
 
-![Схема, в которой показано, как использовать Microsoft Teams на различных устройствах.](../media/identity-access-ruleset-teams.png)
+[![Сводка по обновлениям политик для защиты доступа к Teams и зависимым службам](../media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
+
+[Просмотреть увеличенную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
 
 Ниже приведены зависимые службы, которые необходимо включить в назначение облачных приложений для teams:
 
 - Microsoft Teams
-- SharePoint Online и OneDrive для бизнеса
+- SharePoint и OneDrive для бизнеса
 - Exchange Online
 - Skype для бизнеса Online
 - Microsoft Stream (записи собраний)
 - Планировщик Microsoft (задачи и планирование данных планировщика)
 
-В этой таблице перечислены политики, которые необходимо повторно посетить, и ссылки на каждую политику в [общих политиках идентификации и доступа к устройствам](identity-access-policies.md), в которых для всех приложений Office используется более широкий набор правил.
+В этой таблице перечислены политики, которые необходимо повторно посетить, и ссылки на каждую политику в общих политиках [идентификации и доступа к устройствам](identity-access-policies.md), где для всех приложений Office используется более широкий набор политик.
 
 |Уровень защиты|Политики|Дополнительные сведения о реализации Teams|
 |:---------------|:-------|:----------------|
@@ -76,7 +78,7 @@ ms.locfileid: "46685658"
 
 На приведенной ниже схеме показаны службы, на которые полагаются службы Teams. Для получения дополнительных сведений и дополнительных иллюстраций ознакомьтесь со статьей [Microsoft Teams и соответствующими службами производительности в microsoft 365 для ИТ архитекторов](../solutions/productivity-illustrations.md).
 
-![Диаграмма, на которой показаны зависимости Teams в SharePoint Online, OneDrive для бизнеса и Exchange.](../media/identity-access-logical-architecture-teams.png)
+![Диаграмма, на которой показаны зависимости Teams в SharePoint, OneDrive для бизнеса и Exchange](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
 ## <a name="enabling-guest-and-external-access-for-teams"></a>Включение гостевого и внешнего доступа для Teams
 
@@ -120,6 +122,10 @@ Teams и channels — это два часто используемых элем
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Сведения о включении условного доступа для Exchange Online](secure-email-recommended-policies.md)
+![Шаг 4: политики для облачных приложений Microsoft 365](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
+Настройка политик условного доступа для:
+
+- [Exchange Online](secure-email-recommended-policies.md)
+- [SharePoint](secure-email-recommended-policies.md)
 

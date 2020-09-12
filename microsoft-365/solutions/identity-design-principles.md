@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7c83d3f202851008e93c3f3e9d0c7bc89c49bf20
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: a1e85b2089663208e8b6004462211263a1b27242
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308371"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547807"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Для идентификации и за пределами — одна точка зрения архитектора
 
@@ -117,7 +117,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 
 
-### <a name="authorization"></a>Авторизация
+### <a name="authorization"></a>Authorization
 
 "Для авторизации" в " [Википедии](https://en.wikipedia.org/wiki/Authorization)" — определение политики доступа. Многие считают, что это возможность определять элементы управления доступом для объекта (файл, служба и т. д.). В текущем мире угроз кибератак эта концепция быстро развивается до динамической политики, которая может реагировать на различные векторы угроз и быстро настраивать управление доступом в ответ на них. Например, если у меня есть доступ к банковскому счету из нестандартного местоположения, я получаю дополнительные действия по подтверждению. Для этого нам нужно рассмотреть не только саму политику, но и экосистему методологии обнаружения и передачи угроз.
 
@@ -272,7 +272,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Примеры журналов Microsoft 365, к которым можно получить доступ через другие API, включают следующие:
 - [Azure AD](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (действия, не связанные с Office 365)
-- [Отслеживание сообщений Exchange](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace?view=exchange-ps)
+- [Отслеживание сообщений Exchange](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace)
 - Системы угроз и УЕБА, обсуждаемые выше (например, защита удостоверений Azure AD, Microsoft Cloud App Security, Microsoft Defender ATP и т. д.)
 - [Защита информации Майкрософт](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
 - [ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)

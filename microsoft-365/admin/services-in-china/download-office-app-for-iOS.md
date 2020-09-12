@@ -20,26 +20,26 @@ search.appverid:
 - GEA150
 description: Узнайте больше о приложении Microsoft Office для iOS для Office 365 под управлением 21Vianet и о том, как скачать его для клиентов в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: bd36684f7fa5365c3f680128cbbd0132c6a8876d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a29d645f5f3d5624159cfb0e8416e2223834f3f3
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399054"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545824"
 ---
 # <a name="office-app-for-ios-for-office-365-operated-by-21vianet"></a>Приложение Office для iOS для Office 365 под управлением 21Vianet
 
-Приложение Microsoft Office для iOS сочетает мобильные приложения Word, Excel и PowerPoint с одним приложением, доступным для скачивания на телефоны iOS. С помощью приложения Office для iOS вы можете подключаться к Office 365 так же, как и к мобильным приложениям Word, Excel и PowerPoint. Загрузка приложения Office для iOS не повлияет на существующие установки Word, Excel и PowerPoint.
+Приложение Microsoft Office для iOS сочетает мобильные приложения Word, Excel и PowerPoint с одним приложением, доступным для скачивания на телефоны iOS. С помощью приложения Office для iOS можно подключаться к Office 365 так же, как и к мобильным приложениям Word, Excel и PowerPoint. Загрузка приложения Office для iOS не повлияет на существующие установки Word, Excel и PowerPoint.
 
 Небольшое приложение Office для функций iOS недоступно для пользователей Office 365 под управлением 21Vianet:
 
 - Изображение в текст и изображение в таблице 
 - Преобразование фотографий в документы Word из Лупы 
 - Действие переноса файлов 
-- Примечания не задействуются локально и не синхронизируются с сервером
+- Заметки сохраняют локальные и не синхронизируются с сервером
 - Предварительный просмотр ссылок в пределах проверки QR
 - Карточки Live персоны в разделе Me
-- Классификация, лабеллинг и защита (CLP)
+- Классификация, маркировка и защита (CLP)
 
 
 ## <a name="download-the-office-app-for-ios"></a>Загрузка приложения Office для iOS

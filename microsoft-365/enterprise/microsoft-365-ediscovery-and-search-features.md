@@ -16,14 +16,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Общие сведения о функции обнаружения электронных данных и других функциях поиска в Microsoft 365 для использования аудита и прозрачности.
-ms.openlocfilehash: ea7b221ab8fe2ff41d089bb344d2dce58002d0f5
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: d18d3d4776c434788ee8fef7fb8be9edf339ff04
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331863"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547774"
 ---
-# <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Общие сведения о функциях обнаружения электронных данных и поиска Microsoft 365 
+# <a name="microsoft-365-ediscovery-and-search-features-overview"></a>Общие сведения о функциях обнаружения электронных данных и поиска Microsoft 365
 
 ## <a name="ediscovery"></a>Обнаружение электронных данных
 
@@ -57,7 +57,7 @@ ms.locfileid: "47331863"
 |  | 0 обозначает обычного пользователя. |
 |  | 2 указывает администратора в организации Microsoft 365. |
 |  | 3 указывает учетную запись администратора центра данных Майкрософт или системы центра обработки данных. |
-| Рабочая нагрузка | Служба Microsoft 365, в которой возникло действие. Возможные значения для этого свойства: |
+| Workload | Служба Microsoft 365, в которой возникло действие. Возможные значения для этого свойства: |
 |  | Exchange Online |
 |  | SharePoint Online |
 |  | OneDrive для бизнеса |
@@ -67,6 +67,6 @@ ms.locfileid: "47331863"
 
 ## <a name="search-unified-audit-log"></a>Поиск в журнале аудита единого поиска
 
-Используйте функцию поиска журнала аудита для поиска в едином журнале аудита. Кроме того, Microsoft 365 предоставляет возможность выполнять поиск в этом журнале с помощью удаленной оболочки PowerShell. [Командлет Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?view=exchange-ps) в Exchange Online PowerShell используется для поиска в едином журнале аудита событий, относящихся к операциям пользователей из Exchange Online, SharePoint Online, OneDrive для бизнеса и Azure AD. 
+Используйте функцию поиска журнала аудита для поиска в едином журнале аудита. Кроме того, Microsoft 365 предоставляет возможность выполнять поиск в этом журнале с помощью удаленной оболочки PowerShell. [Командлет Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) в Exchange Online PowerShell используется для поиска в едином журнале аудита событий, относящихся к операциям пользователей из Exchange Online, SharePoint Online, OneDrive для бизнеса и Azure AD.
 
 Можно выполнить поиск по всем событиям в указанном диапазоне дат или отфильтровать результаты на основе определенных критериев, например определенных действий, пользователя, выполнившего действие, или целевого объекта. Администраторы могут использовать до трех одновременно работающих сеансов PowerShell для Exchange Online, чтобы разделить поиск большого диапазона дат.

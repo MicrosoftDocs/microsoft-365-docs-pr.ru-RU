@@ -16,16 +16,16 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3a1ea1a6-edbd-4922-9ad3-0b075f7f9009
 description: Найдите разделы справки по командлетам Microsoft 365 PowerShell для Azure AD, Exchange Online, SharePoint Online, Skype для бизнеса Online и соответствия требованиям безопасности &.
-ms.openlocfilehash: 4905c20216e6df02399fe372ec31fe3bedfde6c4
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8f2aa4b123e3b7e3f92aabee7f9e8adeeb9c154f
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693374"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547122"
 ---
 # <a name="cmdlet-references-for-microsoft-365-services"></a>Сведения о командлетах для служб Microsoft 365
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Разделы справки по командлетам для различных служб Microsoft 365 предоставляют подробные сведения и инструкции по использованию каждого командлета. Кроме того, каждая служба Microsoft 365 с поддержкой PowerShell требует различных инструкций по подключению.
   
@@ -42,7 +42,7 @@ ms.locfileid: "46693374"
   
 ## <a name="exchange-online-powershell-cmdlets"></a>Командлеты Exchange Online PowerShell
 
-Справочные разделы по командлетам Exchange Online находятся в разделе **Справочник** по [документации PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Справочные разделы по командлетам Exchange Online находятся в разделе **Справочник** по [документации PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell).
   
 Для получения инструкций по подключению Exchange Online PowerShell щелкните [подключиться к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
   
@@ -61,17 +61,14 @@ ms.locfileid: "46693374"
   
 Для получения инструкций по подключению Skype для бизнеса Online PowerShell щелкните [Управление Skype для бизнеса Online с помощью PowerShell](manage-skype-for-business-online-with-microsoft-365-powershell.md).
 
-## <a name="security-amp-compliance-center-powershell-cmdlets"></a>Командлеты PowerShell в Центре безопасности и соответствия требованиям
+## <a name="security--compliance-center-powershell-cmdlets"></a>Командлеты PowerShell центра соответствия требованиям & безопасности
 
-&amp;Справочные материалы по командлетам центра соответствия требованиям безопасности (Microsoft 365) находятся в разделе **Справочник** по [документации PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Справочные материалы по командлетам центра безопасности & Microsoft 365, расположенные в разделе **Справочные** материалы по [документации по безопасности для & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell).
   
-Для получения инструкций по подключению к &amp; оболочке PowerShell центра обеспечения соответствия требованиям нажмите кнопку [подключиться к &amp; PowerShell центра безопасности](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps).
+Для получения инструкций по подключению & безопасности для центра соответствия требованиям PowerShell щелкните [подключиться к оболочке безопасности & центра соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
-
-  
 ## <a name="see-also"></a>См. также
 
 [Управление Microsoft 365 с помощью PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

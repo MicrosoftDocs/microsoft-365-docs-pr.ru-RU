@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Используйте это руководство по лаборатории тестирования для включения привилегированного управления доступом в тестовой среде Microsoft 365 для предприятий.
-ms.openlocfilehash: 28fd27c3059fe25da5da8aaf8700b84c5989b408
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d8d92aa86076e323e4b5bb5c8eb1385edcac420c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695150"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545946"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-for-enterprise-test-environment"></a>Управление привилегированным доступом для тестовой среды Microsoft 365 для предприятий
 
@@ -62,7 +62,7 @@ ms.locfileid: "46695150"
 
 ### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>Возможность тестирования для выполнения задачи, не определенной в привилегированной политике доступа
 
-Сначала подключитесь к PowerShell с помощью консоли управления Exchange, указав учетные данные пользователя, настроенного в качестве глобального администратора в тестовой среде, и попытайтесь создать новое правило журнала. В настоящее время задача [New-JournalRule](https://docs.microsoft.com/powershell/module/exchange/new-journalrule?view=exchange-ps) не определена в политике привилегированного доступа для вашей организации.
+Сначала подключитесь к PowerShell с помощью консоли управления Exchange, указав учетные данные пользователя, настроенного в качестве глобального администратора в тестовой среде, и попытайтесь создать новое правило журнала. В настоящее время задача [New-JournalRule](https://docs.microsoft.com/powershell/module/exchange/new-journalrule) не определена в политике привилегированного доступа для вашей организации.
 
 1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange Online в удаленном модуле **PowerShell Microsoft**  >  **Exchange Online** , используя учетную запись глобального администратора для тестовой среды.
 

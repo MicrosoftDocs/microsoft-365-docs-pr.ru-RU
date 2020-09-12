@@ -20,26 +20,26 @@ search.appverid:
 - GEA150
 description: Узнайте больше о приложении Microsoft Office для Android для Office 365 под управлением 21Vianet и о том, как скачать его для клиентов в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 4ebb044835321a91109659ca9e58094345bc0d0c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b2c35c2f9b4ea8e10ace3c9426aed7aadefe0b1d
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399066"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545800"
 ---
 # <a name="office-app-for-android-for-office-365-operated-by-21vianet"></a>Приложение Office для Android для Office 365 под управлением 21Vianet
 
-Приложение Microsoft Office для Android сочетает мобильные приложения Word, Excel и PowerPoint с одним приложением, доступным для скачивания на телефоны Android. С помощью приложения Office для Android вы можете подключаться к Office 365 так же, как и к мобильным приложениям Word, Excel и PowerPoint. Загрузка приложения Office для Android не повлияет на существующие установки Word, Excel и PowerPoint.
+Приложение Microsoft Office для Android сочетает мобильные приложения Word, Excel и PowerPoint с одним приложением, доступным для скачивания на телефоны Android. С помощью приложения Office для Android можно подключаться к Office 365 так же, как и к мобильным приложениям Word, Excel и PowerPoint. Загрузка приложения Office для Android не повлияет на существующие установки Word, Excel и PowerPoint.
 
-Некоторые возможности приложения Office для Android недоступны для пользователей Office 365 под управлением 21Vianet:
+Несколько приложений Office для Android не доступны для пользователей Office 365 под управлением 21Vianet:
 
 - Изображение в текст и изображение в таблице 
 - Преобразование фотографий в документы Word из Лупы 
 - Действие переноса файлов 
-- Примечания не задействуются локально и не синхронизируются с сервером
+- Заметки сохраняют локальные и не синхронизируются с сервером
 - Предварительный просмотр ссылок в пределах проверки QR
 - Карточки Live персоны в разделе Me
-- Классификация, лабеллинг и защита (CLP)
+- Классификация, маркировка и защита (CLP)
 
 
 ## <a name="download-the-office-app-for-android"></a>Загрузка приложения Office для Android

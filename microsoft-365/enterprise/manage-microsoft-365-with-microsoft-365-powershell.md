@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
 description: Сведения о том, как управлять пользователями, лицензиями и 365 для приложений Microsoft 365 с помощью PowerShell.
-ms.openlocfilehash: 0af4a47b713da1f0316ae4be91fb7c6472f0e625
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: ef6146744909755efb974ee57f34ae3b924a7f2c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429906"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547918"
 ---
 # <a name="manage-microsoft-365-with-powershell"></a>Управление Microsoft 365 с помощью PowerShell
 
@@ -47,7 +47,7 @@ PowerShell для Microsoft 365 — это мощное средство упр�
 
     Начните отсюда, если вы установили модули Microsoft 365 и хотите использовать команды автоматизации для управления SharePoint.
 
-- [**Exchange Online PowerShell**](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)
+- [**Exchange Online PowerShell**](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
 
     Ознакомьтесь с этой статьей, если вы хотите использовать команды автоматизации для управления Exchange Online.
 
@@ -55,7 +55,7 @@ PowerShell для Microsoft 365 — это мощное средство упр�
 
     Начните отсюда, если вы установили модули PowerShell 365 и хотите перенести электронную почту из уже существующих систем.
 
-- [**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell)
+- [**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/powershell/exchange/scc-powershell)
 
     Начните отсюда, если вы хотите использовать команды автоматизации для управления безопасностью & центре соответствия требованиям.
 

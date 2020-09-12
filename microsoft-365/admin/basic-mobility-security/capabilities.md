@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Основные возможности обеспечения мобильности и безопасности обеспечивают безопасность и управление мобильными устройствами.
-ms.openlocfilehash: a88afd539209d20046a778f8c6d16cadd51b5a9a
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: aed4f4c2d252e487d24496ac00f3de24bc57ab55
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430289"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545900"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>Возможности базового обеспечения безопасности и мобильности
 
@@ -166,9 +166,9 @@ ms.locfileid: "47430289"
 |Блокировать соединение со съемными носителями |Да|Да|Нет|
 |Блокировать подключение Bluetooth |Да|Да|Нет|
 
-##  <a name="additional-settings"></a>Дополнительные параметры 
+## <a name="additional-settings"></a>Дополнительные параметры
 
-Можно задать следующие параметры дополнительной политики с помощью командлетов PowerShell. Для получения дополнительных сведений см [Центр безопасности & соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
+С помощью командлетов PowerShell центра соответствия требованиям & безопасности можно задать следующие дополнительные параметры политики. Для получения дополнительных сведений см [Центр безопасности & соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell).
 
 |**Имя параметра**|**iOS 7,1 и более поздние версии**|**Android 5 и более поздних версий**|
 |:-----|:-----|:-----|

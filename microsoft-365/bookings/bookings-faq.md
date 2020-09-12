@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Часто задаваемые вопросы о Microsoft Books.
-ms.openlocfilehash: db04c2759187f66503bcc28660b5177f636eaa6c
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: ee0de2d1412aa5ec38759a3a2512de05b9e02621
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420095"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545720"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Часто задаваемые вопросы о книгах Майкрософт
 
@@ -180,7 +180,7 @@ Microsoft Books — это приложение Microsoft 365, которое у
 
 ### <a name="can-email-notifications-be-sent-as-the-tenant-domain-name"></a>Можно ли отправлять уведомления по электронной почте в качестве имени домена клиента?
 
-Адреса электронной почты контролируются и управляются на уровне параметров Microsoft 365 и зависят от параметров конфигурации домена. Дополнительные сведения можно найти [здесь](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-accepteddomain?view=exchange-ps).
+Адреса электронной почты контролируются и управляются на уровне параметров Microsoft 365 и зависят от параметров конфигурации домена. Дополнительные сведения можно найти [здесь](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain).
 
 ### <a name="is-the-ability-to-send-sms-messages-dependent-on-a-different-service-or-specific-configuration"></a>Является ли возможность отправки SMS-сообщений зависимыми от другой службы или определенной конфигурации?
 
@@ -366,7 +366,7 @@ SMS в настоящее время доступны в Северной Аме
 
   - [Настройка и публикация страницы резервирования](customize-booking-page.md)
 
-  - [Настройка почтового ящика клиента](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-accepteddomain?view=exchange-ps)
+  - [Настройка почтового ящика клиента](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
 
   - [Групповые резервирования](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
 

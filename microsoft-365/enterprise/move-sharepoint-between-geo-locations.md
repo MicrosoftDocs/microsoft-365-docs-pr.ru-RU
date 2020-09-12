@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Сведения о том, как переместить сайт SharePoint в другое географическое расположение в среде с поддержкой нескольких регионов и сообщить о ожиданиях изменений пользователей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e96c422b1d2685c9fe3d4c8c45aa8437a6776621
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 819496b9f7612afa1db902e6fc5a0844e99d7a8e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692939"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545640"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>Перемещение сайта SharePoint в другой геообъект
 
@@ -36,13 +36,13 @@ ms.locfileid: "46692939"
 Чтобы переместить сайт между геообъектами, необходимо быть глобальным администратором или администратором SharePoint.
 
 Во время перемещения географического расположения сайта SharePoint возникает промежуток с доступом только для чтения продолжительностью около 4–6 часов в зависимости от содержимого сайта.
- 
+
 ## <a name="best-practices"></a>Рекомендации
 
-- Попробуйте выполнить перемещение сайта SharePoint на тестовом сайте, чтобы познакомиться с процедурой. 
-- Подтвердите возможность перемещения сайта до планирования или выполнения перемещения. 
+- Попробуйте выполнить перемещение сайта SharePoint на тестовом сайте, чтобы познакомиться с процедурой.
+- Подтвердите возможность перемещения сайта до планирования или выполнения перемещения.
 - По возможности планируйте перемещение сайтов между геообъектами в нерабочие часы для уменьшения влияния на пользователей.
-- Перед перемещением сайта оповестите затрагиваемых пользователей. 
+- Перед перемещением сайта оповестите затрагиваемых пользователей.
 
 ## <a name="communicating-to-your-users"></a>Общение с пользователями
 
@@ -62,10 +62,11 @@ ms.locfileid: "46692939"
 
 - Можно запланировать до 4000 перемещений за один раз.
 - После начала перемещения можно продолжить планирование, не превышая 4000 ожидаемых перемещений в очереди в любой момент времени.
- 
+
 Чтобы запланировать перемещение географического расположения сайта SharePoint на более позднее время, укажите один из следующих параметров в начале перемещения:
+
 - `PreferredMoveBeginDate` — предполагаемое время начала перемещения.
-- `PreferredMoveEndDate` — предполагаемое время завершения перемещения (самый короткий период). 
+- `PreferredMoveEndDate` — предполагаемое время завершения перемещения (самый короткий период).
 
 Для обоих параметров время необходимо указывать в формате UTC.
 
@@ -73,19 +74,22 @@ ms.locfileid: "46692939"
 
 Перемещение географического расположения сайта SharePoint требует подключения и выполнения перемещения из URL-адреса администрирования SharePoint в географическом расположении, в котором находится сайт.
 
-Например, если URL-адрес сайта — https://contosohealthcare.sharepoint.com/sites/Turbines, подключитесь к URL-адресу администрирования SharePoint https://contosohealthcare-admin.sharepoint.com:
+Например, если URL-адрес сайта указан <https://contosohealthcare.sharepoint.com/sites/Turbines> , подключитесь к URL-адресу администратора SharePoint по адресу <https://contosohealthcare-admin.sharepoint.com> :
 
-`Connect-SPOService -url https://contosohealthcare-admin.sharepoint.com`
+```powershell
+Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
+```
 
-![](../media/move-onedrive-between-geo-locations-image1.png)
- 
+![Окно командной консоли SharePoint Online, в котором отображается команда Connect-SPOService](../media/move-onedrive-between-geo-locations-image1.png)
+
 ### <a name="validating-the-environment"></a>Проверка среды
 
 Перед планированием перемещения любого сайта рекомендуется выполнить проверку, позволяющую убедиться, что сайт можно перемещать.
 
 Не поддерживается перемещение сайтов со следующими элементами:
--    Службы Business Connectivity Services
--    Формы InfoPath 
+
+- Службы Business Connectivity Services
+- Формы InfoPath
 - Примененные шаблоны управления правами на доступ к данным (IRM)
 
 Чтобы проверить, все ли геообъекты совместимы, выполните команду `Get-SPOGeoMoveCrossCompatibilityStatus`. Она отобразит все ваши геообъекты и укажет, совместима ли среда с целевым географическим расположением.
@@ -102,15 +106,17 @@ Start-SPOSiteContentMove -SourceSiteUrl <SourceSiteUrl> -ValidationOnly -Destina
 
 По умолчанию исходный URL-адрес для сайта изменяется на URL-адрес целевого географического расположения. Пример:
 
-https://Contoso.sharepoint.com/sites/projectx меняется на https://ContosoEUR.sharepoint.com/sites/projectx
+<https://Contoso.sharepoint.com/sites/projectx> меняется на <https://ContosoEUR.sharepoint.com/sites/projectx>
 
 Сайты, не связанные с группой Microsoft 365, также можно переименовать с помощью параметра `-DestinationUrl`. Пример:
 
-https://Contoso.sharepoint.com/sites/projectx меняется на https://ContosoEUR.sharepoint.com/sites/projecty
+<https://Contoso.sharepoint.com/sites/projectx> меняется на <https://ContosoEUR.sharepoint.com/sites/projecty>
 
 Чтобы начать перемещение сайта, выполните такую команду:
 
-`Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>`
+```powershell
+Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation> -DestinationUrl <DestinationSiteURL>
+```
 
 ![Снимок экрана: окно PowerShell с командлетом Start-SPOSiteContentMove](../media/multi-geo-sharepoint-site-move-powershell.png)
 
@@ -124,7 +130,8 @@ https://Contoso.sharepoint.com/sites/projectx меняется на https://Cont
 Set-SPOUnifiedGroup -PreferredDataLocation <PDL> -GroupAlias <GroupAlias>
 Get-SPOUnifiedGroup -GroupAlias <GroupAlias>
 ```
-После обновления атрибута PDL вы можете начать перемещение сайта: 
+
+После обновления атрибута PDL вы можете начать перемещение сайта:
 
 ```PowerShell
 Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <DestinationDataLocation>
@@ -139,19 +146,22 @@ Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <Des
 Вы можете определить состояние перемещения сайта в отношении геообъекта (в расположение или из расположения), к которому подключены, с помощью следующих командлетов:
 
 - [Get-SPOSiteContentMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositecontentmovestate) (сайты, не подключенные к группе)
-- Get-SPOUnifiedGroupMoveState (сайты, подключенные к группе)
+- [Get-спаунифиедграупмовестате](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) (сайты, подключенные к группам)
 
 Используйте параметр `-SourceSiteUrl`, чтобы указать сайт, для которого нужно просмотреть состояние перемещения.
 
 Состояния перемещения описаны в приведенной ниже таблице.
 
+****
+
 |Состояние|Описание|
-|:-----|:----------|
+|---|---|
 |Ready to Trigger|Перемещение не начато.|
 |Scheduled|Перемещение в очереди, но еще не началось.|
 |InProgress (n/4)|Перемещение в процессе и находится в одном из следующих состояний: "проверка" (1/4), "резервное копирование" (2/4), "восстановление" (3/4), "очистка" (4/4).|
 |Success|Перемещение успешно завершено.|
 |Failed|Перемещение не удалось выполнить.|
+|
 
 Вы также можете применить параметр `-Verbose`, чтобы просмотреть дополнительные сведения о перемещении.
 
@@ -215,4 +225,4 @@ Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <Des
 
 ### <a name="data-movement-between-geo-locations"></a>Перемещение данных между географическими расположениями
 
-SharePoint использует хранилище BLOB-объектов Azure для своего содержимого, а метаданные, связанные с сайтами и файлами, хранятся в SharePoint. После перемещения сайта из исходного в новое географическое расположение служба также переместит связанное хранилище BLOB-объектов. Перемещение хранилища BLOB-объектов завершается примерно за 40 дней. 
+SharePoint использует хранилище BLOB-объектов Azure для своего содержимого, а метаданные, связанные с сайтами и файлами, хранятся в SharePoint. После перемещения сайта из исходного в новое географическое расположение служба также переместит связанное хранилище BLOB-объектов. Перемещение хранилища BLOB-объектов завершается примерно за 40 дней.
