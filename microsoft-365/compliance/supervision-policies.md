@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 7ebb2673d1d275075cf32cd18996837ec4024622
-ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
+ms.openlocfilehash: 27c4d4603396089cb58cfed192f09d0db70cac5a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47282607"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547589"
 ---
 # <a name="supervision-policies"></a>Политики контроля
 
@@ -143,7 +143,7 @@ ms.locfileid: "47282607"
 
 #### <a name="custom-keyword-dictionaries"></a>Настраиваемые словари ключевых слов
 
-Настройте словари ключевых слов (или лексикона), чтобы обеспечить простое управление ключевыми словами, характерными для вашей организации или отрасли. Словари ключевых слов поддерживают до 100KB терминов (после сжатия) в словаре и поддерживают любой язык. Предельное число клиентов также 100KB после сжатия. При необходимости можно применить несколько настраиваемых словарей ключевых слов к одной политике или иметь один словарь ключевых слов для каждой политики. Эти словари назначаются в политике контроля и могут быть источниками из файла (например, из файла с расширением CSV или txt) или из списка, который можно [импортировать в центр соответствия требованиям](create-a-keyword-dictionary.md).
+Настройте словари ключевых слов (или лексикона), чтобы обеспечить простое управление ключевыми словами, характерными для вашей организации или отрасли. Словари ключевых слов поддерживают до 100KB терминов (после сжатия) в словаре и поддерживают любой язык. Ограничение клиента также составляет 100 КБ после сжатия. При необходимости можно применить несколько настраиваемых словарей ключевых слов к одной политике или иметь один словарь ключевых слов для каждой политики. Эти словари назначаются в политике контроля и могут быть источниками из файла (например, из файла с расширением CSV или txt) или из списка, который можно [импортировать в центр соответствия требованиям](create-a-keyword-dictionary.md).
 
 #### <a name="offensive-language"></a>Оскорбительный язык
 
@@ -301,7 +301,7 @@ Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -Re
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
 ```
 
-В дополнение к сведениям, представленным в разделе Отчеты и журналы, можно также использовать командлет [Get – супервисориревиевактивити](https://docs.microsoft.com/powershell/module/exchange/get-supervisoryreviewactivity?view=exchange-ps) PowerShell, чтобы получить полный подробный список всех действий политики контроля.
+В дополнение к сведениям, представленным в разделе Отчеты и журналы, можно также использовать командлет [Get – супервисориревиевактивити](https://docs.microsoft.com/powershell/module/exchange/get-supervisoryreviewactivity) PowerShell, чтобы получить полный подробный список всех действий политики контроля.
 
 ## <a name="ready-to-get-started"></a>Готовы приступить к работе?
 

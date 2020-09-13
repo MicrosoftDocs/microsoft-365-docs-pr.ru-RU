@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Office 365 Compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54ff4012767b156bc72289473e289fa4d93d1a2c
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 74244b5288043a1d1bc62e0ae09ee8c25ff7d4e1
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352162"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546781"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Настройка политик контроля для Office 365
 
@@ -54,7 +54,7 @@ ms.locfileid: "44352162"
 
 - **Шаг 2 (обязательный)**: [предоставление контроля в Организации](#step-2-make-supervision-available-in-your-organization-required)
 
-    Добавьте себя в группу ролей супервизора, чтобы можно было настроить политики. Все пользователи, которым назначена эта роль, могут получить доступ к странице **надзора** в центре безопасности & соответствия требованиям. Если перепроверяемые сообщения размещаются в Exchange Online, то у каждого рецензента должен быть [Удаленный доступ PowerShell к Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+    Добавьте себя в группу ролей супервизора, чтобы можно было настроить политики. Все пользователи, которым назначена эта роль, могут получить доступ к странице **надзора** в центре безопасности & соответствия требованиям. Если перепроверяемые сообщения размещаются в Exchange Online, то у каждого рецензента должен быть [Удаленный доступ PowerShell к Exchange Online](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell).
 
 - **Шаг 3 (необязательно)**: [Создание пользовательских типов конфиденциальной информации и пользовательских словарей ключевых слов](#step-3-create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional)
 
@@ -83,7 +83,7 @@ ms.locfileid: "44352162"
 
 Для управления контролируемыми пользователями в крупных корпоративных организациях может потребоваться мониторинг всех пользователей в крупных группах. С помощью PowerShell можно настроить группу рассылки для глобальной политики контроля для назначенной группы. Это позволяет отслеживать тысячи пользователей с помощью одной политики и поддерживать обновление политики контроля по мере того, как новые сотрудники присоединяются к вашей организации.
 
-1. Создайте выделенную [группу рассылки](https://docs.microsoft.com/powershell/module/exchange/new-distributiongroup?view=exchange-ps) для глобальной политики контроля со следующими свойствами: Убедитесь, что эта группа рассылки не используется для других целей или других служб Office 365.
+1. Создайте выделенную [группу рассылки](https://docs.microsoft.com/powershell/module/exchange/new-distributiongroup) для глобальной политики контроля со следующими свойствами: Убедитесь, что эта группа рассылки не используется для других целей или других служб Office 365.
 
     - **Мембердепартрестриктион = закрыто**. Гарантирует, что пользователи не смогут удалять себя из группы рассылки.
     - **Мембержоинрестриктион = закрыто**. Гарантирует, что пользователи не смогут добавлять себя в группу рассылки.
@@ -146,7 +146,7 @@ ms.locfileid: "44352162"
 
 ### <a name="enable-remote-powershell-access-for-reviewers-if-email-is-hosted-on-exchange-online"></a>Разрешение доступа к удаленной оболочке PowerShell для проверяющих (если электронная почта размещена в Exchange Online)
 
-1. Следуйте указаниям в статье [Включение и отключение доступа к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+1. Следуйте указаниям в статье [Включение и отключение доступа к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell).
 
 ## <a name="step-3-create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional"></a>Шаг 3: создание настраиваемых типов конфиденциальной информации и пользовательских словарей ключевых слов (необязательно)
 

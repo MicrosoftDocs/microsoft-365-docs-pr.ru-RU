@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться маршрутизировать спам в папки нежелательной почты пользователя в гибридной среде Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d8ba6aae599ee4dd327bd1ec82b46e8f3ee3ca8
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 15acc9ad87fa0c785998895d026dae036d9ddd7b
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679124"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547668"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Настройка автономных EOP для доставки спама в папку нежелательной почты в гибридных средах
 
@@ -33,11 +33,11 @@ ms.locfileid: "44679124"
 
 В частности, необходимо создать правила для поток обработки почты (также называемые правилами транспорта) в локальной организации Exchange с условиями поиска сообщений, которые имеют любой из следующих заголовков и значений EOP защиты от нежелательной почты, а также действия, которые задают уровень вероятности нежелательной почты (SCL) этих сообщений равным 6:
 
-- `X-Forefront-Antispam-Report: SFV:SPM`(сообщение с пометкой "Нежелательная почта" при фильтрации спама)
+- `X-Forefront-Antispam-Report: SFV:SPM` (сообщение с пометкой "Нежелательная почта" при фильтрации спама)
 
-- `X-Forefront-Antispam-Report: SFV:SKS`(сообщение с пометкой "Нежелательная почта" для правил обработки почты в EOP перед фильтрацией нежелательной почты)
+- `X-Forefront-Antispam-Report: SFV:SKS` (сообщение с пометкой "Нежелательная почта" для правил обработки почты в EOP перед фильтрацией нежелательной почты)
 
-- `X-Forefront-Antispam-Report: SFV:SKB`(сообщение, помеченное фильтром нежелательной почты, в связи с адресом электронной почты отправителя или доменом электронной почты из списка заблокированных отправителей или списка заблокированных доменов в EOP)
+- `X-Forefront-Antispam-Report: SFV:SKB` (сообщение, помеченное фильтром нежелательной почты, в связи с адресом электронной почты отправителя или доменом электронной почты из списка заблокированных отправителей или списка заблокированных доменов в EOP)
 
 Дополнительные сведения об этих значениях заголовков можно узнать в статье [заголовки сообщений по защите от нежелательной почты](anti-spam-message-headers.md).
 
@@ -59,7 +59,7 @@ ms.locfileid: "44679124"
   Подробнее о [порогах вероятности нежелательной почты Exchange (вероятности нежелательной почты)](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl).
 
   - Указывает, включено ли правило нежелательной почты в почтовом ящике (значение параметра _enabled_ $true в командлете [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) в командной консоли Exchange). Это правило нежелательной почты, которое фактически перемещает сообщение в папку "Нежелательная почта" после доставки. По умолчанию правило нежелательной почты включено в почтовых ящиках. Дополнительные сведения см. в статье [Configure Exchange antispam settings on mailboxes](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
-  
+
 - Чтобы открыть центр администрирования Exchange на сервере Exchange Server, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Чтобы открыть командную консоль Exchange, ознакомьтесь [со статьей открытие консоли управления Exchange](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell).
 
 - Дополнительные сведения о правилах обработки почтового ящика в локальном Exchange представлены в следующих разделах:
@@ -78,7 +78,7 @@ ms.locfileid: "44679124"
 
 3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
-   - **Name**: введите уникальное описательное имя правила. Например,
+   - **Name**: введите уникальное описательное имя правила. Пример:
 
      - EOP SFV: SPM на SCL 6
 
@@ -94,7 +94,7 @@ ms.locfileid: "44679124"
 
      - Нажмите **Ввод текста**. В появившемся диалоговом окне **Укажите имя заголовка** введите **X — Forefront – защиты от спама – Report** , а затем нажмите кнопку **ОК**.
 
-     - Нажмите кнопку **ввод слов**. В появившемся диалоговом окне **Укажите слова или фразы** введите одно из значений заголовка нежелательной почты EOP (**SFV: SPM**, **SFV: СКС**или **SFV: СКБ**), нажмите **Добавить** ![ значок Добавить ](../../media/ITPro-EAC-AddIcon.png) , а затем нажмите кнопку **ОК**.
+     - Нажмите кнопку  **ввод слов**. В появившемся диалоговом окне **Укажите слова или фразы** введите одно из значений заголовка нежелательной почты EOP (**SFV: SPM**, **SFV: СКС**или **SFV: СКБ**), нажмите **Добавить** ![ значок Добавить ](../../media/ITPro-EAC-AddIcon.png) , а затем нажмите кнопку **ОК**.
 
    - **Выполните следующие**действия: выберите **изменить свойства сообщения** \> **установите уровень вероятности нежелательной почты (SCL)**.
 
@@ -112,7 +112,7 @@ ms.locfileid: "44679124"
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
 ```
 
-Например,
+Пример:
 
 ```Powershell
 New-TransportRule -Name "EOP SFV:SPM to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SPM" -SetSCL 6

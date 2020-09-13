@@ -12,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Информационные работники в вашей организации обрабатывают конфиденциальные сведения различных типов в течение обычного рабочего дня. Отпечатки документов упрощают защиту этих сведений путем определения стандартных форм, используемых в пределах всей организации. В этом разделе описываются понятия, связанные с использованием отпечатков документов, и способы их создания с помощью PowerShell.
-ms.openlocfilehash: 37b5649e357f24993e41ae93db6737d980ce0c72
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 0c1fb86e4176c042a6ed772b2a18fc14ca81efcd
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352026"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547145"
 ---
 # <a name="document-fingerprinting"></a>Создание отпечатка документа
 
@@ -45,7 +45,7 @@ ms.locfileid: "44352026"
   
 ### <a name="example-of-a-patent-document-matching-a-document-fingerprint-of-a-patent-template"></a>Пример патентного документа, соответствующего отпечатку документа для шаблона патента
 
-![Документ-финжерпринтинг-диаграм. png](../media/Document-Fingerprinting-diagram.png)
+![Document-Fingerprinting-diagram.png](../media/Document-Fingerprinting-diagram.png)
   
 Шаблон патента содержит пустые поля "название патента", "товарные запасы" и "Описание" и описания для каждого из этих полей — это шаблон Word. Когда вы отправляете исходный шаблон патента, он находится в одном из поддерживаемых типов файлов и в виде обычного текста. DLP преобразует этот шаблон Word в отпечаток документа, который представляет собой небольшой XML-файл в формате Юникод с уникальным значением хэша, представляющим исходный текст, а отпечаток сохраняется как классификация данных в Active Directory. (В качестве меры безопасности исходный документ не хранится в службе, сохраняется только значение хэша, и исходный документ нельзя восстановить из хэш-значения.) После этого отпечаток патента становится типом конфиденциальной информации, который можно связать с политикой защиты от потери данных. После связывания отпечатка пальца с политикой защиты от потери данных, DLP определяет все исходящие сообщения, содержащие документы, соответствующие отпечатку патента и работающие с ними в соответствии с политикой Организации. 
 
@@ -65,7 +65,7 @@ ms.locfileid: "44352026"
 
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>Создание пакета правил классификации на основе отпечатков документов с помощью PowerShell
 
-Обратите внимание, что в настоящее время вы можете создать отпечаток документа только с помощью PowerShell в центре безопасности и &amp; соответствия требованиям. Чтобы подключиться, ознакомьтесь [со статьей подключение к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Обратите внимание, что в настоящее время вы можете создать отпечаток документа только с помощью PowerShell в центре безопасности и &amp; соответствия требованиям. Чтобы подключиться, ознакомьтесь [со статьей подключение к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 DLP использует пакеты правил классификации для обнаружения конфиденциального содержимого. Чтобы создать пакет правил классификации на основе отпечатка документа, используйте командлеты **New – длпфинжерпринт** и **New – DlpSensitiveInformationType** . Так как результаты **New-длпфинжерпринт** не хранятся вне правила классификации данных, всегда выполняются командлет **New-длпфинжерпринт** и **New-DlpSensitiveInformationType** или **Set-DlpSensitiveInformationType** в том же сеансе PowerShell. В примере ниже создается новый отпечаток документа на основе файла C:\My Documents\Contoso Employee Template.docx. Новый отпечаток хранится в качестве переменной, поэтому его можно использовать с командлетом **New-DlpSensitiveInformationType** во время одного сеанса PowerShell.
   
@@ -90,13 +90,13 @@ New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerpri
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
 ```
 
-Вы также можете использовать пакет правил классификации данных в правилах обработки почтового ящика в Exchange Online, как показано в следующем примере. Чтобы выполнить эту команду, сначала необходимо [подключиться к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Также обратите внимание на то, что пакет правил должен синхронизироваться с центром безопасности &amp; Exchange в центре администрирования Exchange.
+Вы также можете использовать пакет правил классификации данных в правилах обработки почтового ящика в Exchange Online, как показано в следующем примере. Чтобы выполнить эту команду, сначала необходимо [подключиться к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Также обратите внимание на то, что пакет правил должен синхронизироваться с центром безопасности &amp; Exchange в центре администрирования Exchange.
   
 ```powershell
 New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}
 ```
 
-Теперь DLP обнаруживает документы, которые совпадают с отпечаткой документа Contoso Customer Form. docx.
+Теперь DLP обнаруживает документы, которые совпадают с клиентом Contoso Form.docx отпечатком документа.
   
 Сведения о синтаксисе и параметрах можно найти в следующих статьях:
 

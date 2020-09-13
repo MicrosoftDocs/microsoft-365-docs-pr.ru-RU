@@ -7,16 +7,16 @@ author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 description: Сведения о каталоге решений Microsoft 365, в том числе о том, что он содержит, как получить его и выполнить следующие действия.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c2fad2726b7e923f871c0307f17f28ea3f99b1bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f396801d4241b06c5523e4f3312c9ce597ac015e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637951"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547567"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Каталог решений Microsoft 365
 
@@ -89,7 +89,7 @@ ms.locfileid: "43637951"
 
 Мы всегда работаем над добавлением новых функций в центр соответствия требованиям Microsoft 365 и каталог решений. Если вы не можете найти определенное решение в области навигации, оно будет доступно, когда решение будет доступно в вашей подписке.
 
-Если вы ищете существующее решение соответствия требованиям, которое еще не доступно в центре соответствия требованиям Microsoft 365, вы всегда можете получить доступ к решениям в существующем центре &amp; обеспечения безопасности, перейдя [https://protection.office.com](https://protection.office.com)по адресу. Кроме того, вы можете щелкнуть вкладку **Дополнительные ресурсы** в левой панели навигации центра соответствия требованиям Microsoft 365 и выбрать карточку центра безопасности и соответствия требованиям Office 365.  
+Если вы ищете существующее решение соответствия требованиям, которое еще не доступно в центре соответствия требованиям Microsoft 365, вы всегда можете получить доступ к решениям в существующем центре обеспечения безопасности, &amp; перейдя по адресу [https://protection.office.com](https://protection.office.com) . Кроме того, вы можете щелкнуть вкладку **Дополнительные ресурсы** в левой панели навигации центра соответствия требованиям Microsoft 365 и выбрать карточку центра безопасности и соответствия требованиям Office 365.  
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

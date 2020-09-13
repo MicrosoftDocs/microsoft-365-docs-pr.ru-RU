@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Используйте эту статью в качестве руководства по устранению проблем со сведениями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4e6087d0e1886d833a6cf0472ed467f8577c5d0
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: e19c7d22e2b34d3f8083bcf5b8fb7297dbf86229
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307932"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545673"
 ---
 # <a name="troubleshooting-information-barriers"></a>Устранение проблем с информационными барьерами
 
@@ -28,7 +28,7 @@ ms.locfileid: "47307932"
 В случае возникновения непредвиденных проблем, возникающих при возникновении проблем с информационными барьерами, существует несколько действий, которые можно предпринять для решения этих проблем. Используйте эту статью в качестве руководства.
 
 > [!IMPORTANT]
-> Для выполнения задач, описанных в этой статье, необходимо назначить соответствующую роль, например один из следующих вариантов:<br/>— Корпоративный глобальный администратор Майкрософт 365<br/>— Глобальный администратор<br/>— Администратор соответствия требованиям<br/>-"Управление соответствием требованиям" (это новая роль);<p>Чтобы узнать больше о предварительных требованиях для барьеров информации, ознакомьтесь со статьей [Предварительные требования (для политик барьера информации)](information-barriers-policies.md#prerequisites).<p>Убедитесь, что вы [подключены к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+> Для выполнения задач, описанных в этой статье, необходимо назначить соответствующую роль, например один из следующих вариантов:<br/>— Корпоративный глобальный администратор Майкрософт 365<br/>— Глобальный администратор<br/>— Администратор соответствия требованиям<br/>-"Управление соответствием требованиям" (это новая роль);<p>Чтобы узнать больше о предварительных требованиях для барьеров информации, ознакомьтесь со статьей [Предварительные требования (для политик барьера информации)](information-barriers-policies.md#prerequisites).<p>Убедитесь, что вы [подключены к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 ## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>Вопрос: пользователи неожиданно блокировали связь с другими пользователями в Microsoft Teams 
 
@@ -147,7 +147,7 @@ ms.locfileid: "47307932"
 
 2. В зависимости от результатов предыдущего действия выполните одно из указанных ниже действий.
   
-    |Status  |Следующий этап  |
+    |Status  |Следующий шаг  |
     |---------|---------|
     |**Не запущено**.     |Если после выполнения командлета **Start – информатионбарриерполиЦиесаппликатион** использовался более 45 минут, просмотрите журнал аудита, чтобы проверить наличие ошибок в определениях политик, или причину, по которой приложение не запущено. |
     |**Не удалось выполнить**     |Если произошел сбой приложения, просмотрите журнал аудита. Кроме того, проверьте сегменты и политики. Все пользователи назначены нескольким сегментам? Все сегменты назначены более чем одному полиици? При необходимости [измените сегменты](information-barriers-edit-segments-policies.md#edit-a-segment) и/или [измените политики](information-barriers-edit-segments-policies.md#edit-a-policy), а затем снова запустите командлет **Start-информатионбарриерполиЦиесаппликатион** .  |
@@ -161,11 +161,11 @@ ms.locfileid: "47307932"
 
 Убедитесь, что в вашей организации нет [политик адресных книг Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) . Такие политики предотвращают применение политик к барьеру информации.
 
-1. Подключитесь к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps). 
+1. Подключитесь к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). 
 
-2. Выполните командлет [Get – AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy?view=exchange-ps) и просмотрите результаты.
+2. Выполните командлет [Get – AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy) и просмотрите результаты.
 
-    |Результаты  |Следующий этап  |
+    |Результаты  |Следующий шаг  |
     |---------|---------|
     |Политики адресных книг Exchange перечислены     |[Удаление политик адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy)         |
     |Политика адресных книг не существует |Просмотрите журналы аудита, чтобы выяснить причину сбоя приложения политики |
@@ -200,7 +200,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
 ```powershell
    $DetailedLogs[1] |fl
 ```
- Например:
+ Пример:
 
 > "UserId": Пользователь1
 > 

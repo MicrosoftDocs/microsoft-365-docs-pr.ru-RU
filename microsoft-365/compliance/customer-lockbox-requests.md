@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о запросах на доступ к защищенному хранилище клиентов, позволяющих контролировать доступ к данным с помощью специалиста службы поддержки Майкрософт при работе с проблемами.
-ms.openlocfilehash: 67662c34ed3aedb22c3462a2ba8aff9e338e07c6
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: d71fbaa42fba49bd0f06b26d34d2257f8a4a60ba
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794258"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546505"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Защищенное хранилище для клиентов в Office 365
 
@@ -101,7 +101,7 @@ ms.locfileid: "46794258"
     ![Утверждение или отклонение запросов на доступ к защищенному хранилище клиентов](../media/CustomerLockbox8.png)
 
 > [!NOTE]
-> Используйте командлет Set – Accesstocustomerdatarequest используется, чтобы утвердить, отклонить или отменить запросы к защищенному контакту Microsoft 365, которые контролируют доступ к вашим данным специалистами службы поддержки Майкрософт. Дополнительные сведения см. в статье [Set – accesstocustomerdatarequest используется](https://docs.microsoft.com/powershell/module/exchange/set-accesstocustomerdatarequest?view=exchange-ps).
+> Используйте командлет Set – Accesstocustomerdatarequest используется, чтобы утвердить, отклонить или отменить запросы к защищенному контакту Microsoft 365, которые контролируют доступ к вашим данным специалистами службы поддержки Майкрософт. Дополнительные сведения см. в статье [Set – accesstocustomerdatarequest используется](https://docs.microsoft.com/powershell/module/exchange/set-accesstocustomerdatarequest).
 
 
 ## <a name="auditing-customer-lockbox-requests"></a>Аудит запросов к защищенному хранилище клиентов
@@ -128,7 +128,7 @@ ms.locfileid: "46794258"
 
     б) Дата **начала** и **Дата окончания** — выберите диапазон дат и времени для отображения событий, произошедших в течение этого периода.
 
-    c. **Пользователи** — оставьте это поле пустым.
+    в. **Пользователи** — оставьте это поле пустым.
 
     г. **Файл, папка или сайт** . Оставьте это поле пустым.
 

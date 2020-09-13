@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить ключ клиента для Microsoft 365 для Exchange Online, Skype для бизнеса, SharePoint Online, OneDrive для бизнеса и файлов Teams.
-ms.openlocfilehash: 94403e1d76fbc6fdf06d784fbb7bb9025dc06fc0
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: 8181ccfc988a10813f13e0b61d15f83eef57db76
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324215"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546761"
 ---
 # <a name="set-up-customer-key"></a>Настройка ключа клиента
 
@@ -197,7 +197,7 @@ SharePoint Online и OneDrive для бизнеса:
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   Например:
+   Пример:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -321,7 +321,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > В качестве выходного файла выберите сочетание имени хранилища и имени ключа. Это сделает имя файла самоописанием. Кроме того, это гарантирует, что имена файлов резервных копий не будут конфликтовать.
   
-Например:
+Пример:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -402,7 +402,7 @@ Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date
   
 Чтобы создать DEP, выполните указанные ниже действия.
   
-1. На локальном компьютере с помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в Организации, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) в окне Windows PowerShell.
+1. На локальном компьютере с помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в Организации, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) в окне Windows PowerShell.
 
 2. Чтобы создать DEP, используйте командлет New – Dataencryptionpolicy используется, введя следующую команду:
 
@@ -486,7 +486,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
 ### <a name="validate-file-encryption"></a>Проверка шифрования файлов
 
- Чтобы проверить шифрование SharePoint Online, OneDrive для бизнеса и файлов Teams, [подключитесь к SharePoint Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps), а затем с помощью командлета Get-сподатаенкриптионполици Проверьте состояние клиента. Свойство _State_ возвращает значение " **зарегистрировано** ", если включено шифрование ключей клиентов и все файлы на всех сайтах зашифрованы. Если шифрование все еще выполняется, этот командлет предоставляет сведения о том, какой процент сайтов завершается.
+ Чтобы проверить шифрование SharePoint Online, OneDrive для бизнеса и файлов Teams, [подключитесь к SharePoint Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell), а затем с помощью командлета Get-сподатаенкриптионполици Проверьте состояние клиента. Свойство _State_ возвращает значение " **зарегистрировано** ", если включено шифрование ключей клиентов и все файлы на всех сайтах зашифрованы. Если шифрование все еще выполняется, этот командлет предоставляет сведения о том, какой процент сайтов завершается.
 
 ## <a name="related-articles"></a>Статьи по теме
 

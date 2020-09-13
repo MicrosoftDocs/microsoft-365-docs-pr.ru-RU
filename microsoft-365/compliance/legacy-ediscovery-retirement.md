@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлет Search – Mailbox и Advanced eDiscovery версии 1.0 также удаляются за один и тот же период времени.
-ms.openlocfilehash: 12de88fe3c9de7806b12bd610e0dbeeb404524ca
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 98e04ada0afa03404ba36da2004a9352a01f598a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126946"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546285"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Прекращение поддержки устаревших средств обнаружения электронных данных
 
@@ -44,7 +44,7 @@ ms.locfileid: "45126946"
    > [!NOTE]
    > Командлеты [Get – MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/get-mailboxsearch) и [retired – MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/remove-mailboxsearch) будут доступны после снятия других командлетов * * * * * * * *, чтобы их можно было использовать для перехода к другим средствам обнаружения и удержания. Однако после определенной даты (указанная ниже) служба поддержки Майкрософт больше не будет поддерживать эти два командлета.
 
-- Командлет [Search-Mailbox](https://docs.microsoft.com/powershell/module/exchange/search-mailbox?view=exchange-ps) в Exchange Online PowerShell.
+- Командлет [Search-Mailbox](https://docs.microsoft.com/powershell/module/exchange/search-mailbox) в Exchange Online PowerShell.
 
 - Следующие операции в API веб-служб Exchange:
 
@@ -94,7 +94,7 @@ ms.locfileid: "45126946"
 <tr class="header">
 <th><strong>Функция</strong></th>
 <th><strong>Альтернативное средство</strong></th>
-<th><strong>Comments</strong></th>
+<th><strong>Комментарии</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -111,7 +111,7 @@ ms.locfileid: "45126946"
 </li>
 <li>
 <p>Поиск контента в Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams, группы Yammer, Microsoft 365, а также другие материалы, хранящиеся в приложениях Office 365</p></li></ul>
-<p>Дополнительные сведения: <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations">Управление юридическими исследованиями в Office 365</a>.</td>
+<p>Дополнительные сведения: <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations"> Управление юридическими исследованиями в Office 365</a>.</td>
 </tr>
 <tr class="even">
 <td>Хранение для целей хранения</td>
@@ -124,7 +124,7 @@ ms.locfileid: "45126946"
 <p>Применение политик к определенным расположениям контента, например Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams и Office 365 Groups</p></li>
 <li>
 <p>Применение политик к определенным пользователям</p></li></ul>
-<p>Дополнительные сведения см. в <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">статье сведения о политиках хранения и метках хранения</a>.</td>
+<p>Дополнительные сведения см. в <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies"> статье сведения о политиках хранения и метках хранения</a>.</td>
 </tr>
 <tr class="odd">
 <td>Копирование результатов поиска по электронной почте в почтовый ящик обнаружения для просмотра</td><td>Обзор наборов в Advanced eDiscovery версии 2.0</td>
@@ -197,7 +197,7 @@ ms.locfileid: "45126946"
 <tr class="header">
 <th><strong>Функция</strong></th>
 <th><strong>Альтернативные инструменты</strong></th>
-<th><strong>Comments</strong></th>
+<th><strong>Комментарии</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -276,14 +276,14 @@ ms.locfileid: "45126946"
 <tr class="header">
 <th><strong>Функция</strong></th>
 <th><strong>Альтернативные инструменты</strong></th>
-<th><strong>Comments</strong></th>
+<th><strong>Комментарии</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Поиск в почтовом ящике</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">* — ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">* — ComplianceSearchAction</span></a></p>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">* — ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">* — ComplianceSearchAction</span></a></p>
 <p></a></p></td>
 <td><p>Командлеты ComplianceSearch и ComplianceSearchAction работают вместе, чтобы упростить поиск и экспорт контента. Вы можете создать новый поиск и просмотреть оценку поиска с помощью командлетов <strong>New</strong>, <strong>Get</strong>и <strong>Start – ComplianceSearch</strong> . Затем вы можете использовать команду <strong>New – ComplianceSearchAction – Export</strong> , чтобы экспортировать результаты поиска. Чтобы скачать результаты поиска на локальный компьютер, вам по-прежнему придется использовать основное средство обнаружения электронных данных в центре соответствия требованиям Microsoft 365.</p></p>
 </td>
@@ -307,8 +307,8 @@ ms.locfileid: "45126946"
 </tr>
 <tr class=even>
   <td>Удаление сообщений из почтового ящика</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">* — ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">* — ComplianceSearchAction</span></a></p>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">* — ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">* — ComplianceSearchAction</span></a></p>
 <p></p></td>
 <td><p>Командлеты ComplianceSearch и ComplianceSearchAction работают вместе, чтобы упростить поиск и очистку контента. Вы можете создавать и запускать поиск с помощью командлетов <strong>New – ComplianceSearch</strong> и <strong>New ComplianceSearch</strong> , а затем удалять содержимое можно с помощью команды <strong>New – ComplianceSearchAction/</strong> unpurgetype определяет. Дополнительные сведения см. в статье <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">Поиск и удаление сообщений</span></a>.</p>
 </td>

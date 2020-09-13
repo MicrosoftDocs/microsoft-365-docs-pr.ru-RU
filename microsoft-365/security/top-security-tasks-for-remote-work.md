@@ -7,7 +7,7 @@ author: brendacarter
 manager: johmar
 audience: Admin
 ms.topic: tutorial
-ms.service: o365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Защита бизнес-сообщений и данных от угроз кибератак, в том числе от атак, фишинга и вредоносных вложений.
-ms.openlocfilehash: 1b21c59e95eccced66a7b64ec7c67354de53e59d
-ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
+ms.openlocfilehash: f364b4100efb3d8b9ab4eda2e370794ca4f0f469
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44267183"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547978"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>12 самых популярных задач по обеспечению безопасности Teams для поддержки работы из дома
 
@@ -35,11 +35,11 @@ ms.locfileid: "44267183"
 - Microsoft 365 E3 включает Enterprise Mobility + Security (EMS) E3 и Azure AD P1.
 - Microsoft 365, в том числе EMS и Azure AD P2
   
-||**Task**| Все планы Office 365 для предприятий|**Microsoft 365 E3** |**Microsoft 365 E5**|
+||**Задача**| Все планы Office 365 для предприятий|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
 |1       |[Включение многофакторной проверки подлинности Azure (MFA)](#1-enable-azure-multi-factor-authentication-mfa)   |   ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |2      | [Защита от угроз](#2-protect-against-threats) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
-|4      |  [Настройка Office 365 Advanced Threat protection](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
+|3       |  [Настройка Office 365 Advanced Threat protection](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4       | [Настройка расширенной защиты от угроз Azure (ATP)](#4-configure-azure-advanced-threat-protection)   |   |      |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |5      |   [Включение Защиты от угроз (Майкрософт)](#5-turn-on-microsoft-threat-protection)  |  |      | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |6       | [Настройка защиты мобильных приложений Intune для телефонов и планшетных ПК](#6-configure-intune-mobile-app-protection-for-phones-and-tablets) |    |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)       |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
@@ -47,7 +47,7 @@ ms.locfileid: "44267183"
 |8       |  [Регистрация компьютеров в управлении устройствами и потребовать соответствия требованиям компьютеров](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [Оптимизация сети для подключения к облаку](#9-optimize-your-network-for-cloud-connectivity)  |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10    | [Обучение пользователей](#10-train-users) |    ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|-11:00 |[Начало работы с Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |  |  |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11  |[Начало работы с Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |  |  |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[Отслеживание угроз и выполнение действий](#12-monitor-for-threats-and-take-action) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 

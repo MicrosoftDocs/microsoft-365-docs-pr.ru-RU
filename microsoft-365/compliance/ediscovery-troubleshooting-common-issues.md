@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Сведения об основных этапах устранения неполадок, которые можно предпринять для решения распространенных проблем, связанных с обнаружением электронных данных в Office 365.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b96ed80ba9f347616fd364b3b97ac960cdaeb8e
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 5c9d917306c1a4ffd0dd1e11e1dd87c135e94f05
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357999"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47545957"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Исследование, устранение неполадок и устранение распространенных проблем обнаружения электронных данных
 
@@ -38,7 +38,7 @@ ms.locfileid: "47357999"
 
 Проверьте наличие дубликатов пользователей или списка рассылки с одинаковым ИДЕНТИФИКАТОРом пользователя.
 
-1. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Выполните следующую команду, чтобы получить все экземпляры имени пользователя:
 
@@ -67,7 +67,7 @@ ms.locfileid: "47357999"
 
 При возникновении этой ошибки рекомендуется проверить расположения, в которых произошел сбой, а затем повторить поиск только в расположениях, на которых не удалось выполнить поиск.
 
-1. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду:
+1. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) , а затем выполните следующую команду:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -97,7 +97,7 @@ ms.locfileid: "47357999"
 
 ### <a name="resolution"></a>Решение
 
-1. Подключитесь к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Подключитесь к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Выполните следующую команду, чтобы проверить, синхронизирован ли пользователь с Exchange Online Protection:
 
@@ -115,7 +115,7 @@ ms.locfileid: "47357999"
 
 1. Попробуйте использовать шаги, описанные в статье, чтобы [увеличить скорость загрузки](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
 
-2. Если проблема не устранена, подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду:
+2. Если проблема не устранена, подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) , а затем выполните следующую команду:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -143,7 +143,7 @@ ms.locfileid: "47357999"
 
 1. Разбейте Поиск на небольшие поиски и снова запустите поиск.  Попробуйте использовать меньший диапазон дат или ограничить количество искомых расположений.
 
-2. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду:
+2. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) , а затем выполните следующую команду:
 
    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
    Get-ComplianceSearch <searchname> | FL
@@ -163,7 +163,7 @@ ms.locfileid: "47357999"
 
 ### <a name="resolution"></a>Решение
 
-1. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду, чтобы сохранить регистр для обнаружения электронных данных:
+1. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) , а затем выполните следующую команду, чтобы сохранить регистр для обнаружения электронных данных:
 
    ```powershell
    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
