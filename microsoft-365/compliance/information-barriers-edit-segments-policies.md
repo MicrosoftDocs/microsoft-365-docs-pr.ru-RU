@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Узнайте, как изменить или удалить политики для барьеров информации.
-ms.openlocfilehash: 6ac739ecff3921b4061d5d22410b2e2b1ada7af2
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 7e027d9026818eefacd1c84949e3211c19ae8cf9
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307942"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547467"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>Изменение (или удаление) политик барьера информации
 
@@ -38,7 +38,7 @@ ms.locfileid: "47307942"
 |[Устранение проблем с информационными барьерами](information-barriers-troubleshooting.md)     |Ознакомьтесь с этой статьей при непредвиденных проблемах с информационными барьерами.         |
 
 > [!IMPORTANT]
-> Для выполнения задач, описанных в этой статье, необходимо назначить соответствующую роль, например один из следующих вариантов:<br/>— Корпоративный глобальный администратор Майкрософт 365<br/>— Глобальный администратор<br/>— Администратор соответствия требованиям<br/>-"Управление соответствием требованиям" (это новая роль);<p>Чтобы узнать больше о предварительных требованиях для барьеров информации, ознакомьтесь со статьей [Предварительные требования (для политик барьера информации)](information-barriers-policies.md#prerequisites).<p>Убедитесь, что вы [подключены к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+> Для выполнения задач, описанных в этой статье, необходимо назначить соответствующую роль, например один из следующих вариантов:<br/>— Корпоративный глобальный администратор Майкрософт 365<br/>— Глобальный администратор<br/>— Администратор соответствия требованиям<br/>-"Управление соответствием требованиям" (это новая роль);<p>Чтобы узнать больше о предварительных требованиях для барьеров информации, ознакомьтесь со статьей [Предварительные требования (для политик барьера информации)](information-barriers-policies.md#prerequisites).<p>Убедитесь, что вы [подключены к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 ## <a name="edit-user-account-attributes"></a>Изменение атрибутов учетной записи пользователя
 

@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться создавать правила для поток обработки почты (правила транспорта) для шифрования и расшифровки сообщений с помощью шифрования сообщений Office 365.
-ms.openlocfilehash: 869448ff1f5161fc71d332c1b5956015dca50fa2
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b36a924b41da645bd0fb823c25173fea6e7e2313
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351796"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546173"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>Определение правил для почтового процесса для шифрования сообщений электронной почты
 
@@ -92,7 +92,7 @@ ms.locfileid: "44351796"
 
 7. В списке **выполните следующие** действия, чтобы удалить все действия, назначенные для **изменения безопасности сообщений** , \> **Примените предыдущую версию OME**.
 
-8. Нажмите кнопку **Сохранить**.
+8. Выберите **Сохранить**.
 
 ## <a name="create-mail-flow-rules-to-remove-encryption-for-outgoing-email-messages-with-the-new-ome-capabilities"></a>Создание правил для почтового процесса для удаления шифрования исходящих сообщений электронной почты с новыми возможностями OME
 
@@ -114,7 +114,7 @@ ms.locfileid: "44351796"
 
 7. В разделе **выполните следующие действия**выберите **изменить безопасность сообщения** \> **удалить шифрование и защиту сообщений Office 365**.
 
-8. Нажмите кнопку **Сохранить**.
+8. Нажмите **Сохранить**.
 
 ## <a name="create-mail-flow-rules-for-office-365-message-encryption-without-the-new-capabilities"></a>Создание правил для почтового процесса для шифрования сообщений Office 365 без новых возможностей
 
@@ -154,7 +154,7 @@ ms.locfileid: "44351796"
 
 ### <a name="use-exchange-online-powershell-to-create-a-mail-flow-rule-for-encrypting-email-messages-without-the-new-ome-capabilities"></a>Использование Exchange Online PowerShell для создания правила обработки почтового ящика для шифрования сообщений электронной почты без новых возможностей OME
 
-1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения см. в статье [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения см. в статье [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Создайте правило с помощью командлета **New – TransportRule** и задайте для параметра _апплйоме_ значение `$true` .
 
@@ -194,11 +194,11 @@ ms.locfileid: "44351796"
 
 7. В разделе **выполните следующие действия**выберите **изменить безопасность сообщений** \> **, удалить предыдущую версию OME**.
 
-8. Нажмите кнопку **Сохранить**.
+8. Нажмите **Сохранить**.
 
 #### <a name="use-exchange-online-powershell-to-create-a-rule-to-remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Создание правила для удаления шифрования из ответов на сообщения электронной почты, зашифрованных без новых возможностей OME, с помощью Exchange Online PowerShell
 
-1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения см. в статье [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Подключитесь к Exchange Online PowerShell. Дополнительные сведения см. в статье [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Создайте правило с помощью командлета **New – TransportRule** и задайте для параметра _RemoveOME_ значение `$true` .
 

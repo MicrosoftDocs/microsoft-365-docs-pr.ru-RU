@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Использование расширенного шифрования сообщений Office 365 для расширения безопасности электронной почты путем установки срока действия электронной почты с помощью настраиваемого фирменного шаблона.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e929ce1d948a83a98cca6fa35a65b80a2fc9ef15
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 0dcf9c82f9204f1357b49411d0ca87e87007eb96
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818692"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546163"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Установка срока действия для электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365
 
@@ -40,7 +40,7 @@ ms.locfileid: "44818692"
 
 ## <a name="create-a-custom-branding-template-to-force-mail-expiration-by-using-powershell"></a>Создание настраиваемого шаблона фирменной символики для принудительного истечения срока действия почты с помощью PowerShell
 
-1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) , используя учетную запись с разрешениями глобального администратора в Организации.
+1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) , используя учетную запись с разрешениями глобального администратора в Организации.
 
 2. Запустите командлет New – OMEConfiguration.
 
@@ -50,9 +50,9 @@ ms.locfileid: "44818692"
 
 Где:
 
-- `Identity`— Имя настраиваемого шаблона.
+- `Identity` — Имя настраиваемого шаблона.
 
-- `ExternalMailExpiryInDays`Указывает количество дней, в течение которых получатели могут хранить почту до истечения срока действия. Вы можете использовать любое значение в диапазоне от 1 до 730 дней.
+- `ExternalMailExpiryInDays` Указывает количество дней, в течение которых получатели могут хранить почту до истечения срока действия. Вы можете использовать любое значение в диапазоне от 1 до 730 дней.
 
 ## <a name="more-information-about-office-365-advanced-message-encryption"></a>Дополнительные сведения о расширенном шифровании сообщений в Office 365
 

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: Сведения о том, как администраторы могут удалять элементы в папке "элементы с возможностью восстановления" для почтового ящика Exchange Online, даже если этот почтовый ящик включен в юридическую блокировку.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d0983a3ce10a3980f23af68736acac1382ef938f
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 5f111a19e3baf57f2b6f2e2254df97d21689de2e
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405470"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546153"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold"></a>Удаление элементов в папке "Элементы с возможностью восстановления" облачных почтовых ящиков на удержании
 
@@ -226,7 +226,7 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
 
 ### <a name="ediscovery-holds"></a>удержания электронных данных
   
-Выполните следующие команды в консоли [безопасности & соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , чтобы определить удержание, связанное с вариантом обнаружения электронных данных (называемым *удержанием электронных*данных), который применяется к почтовому ящику. Используйте GUID (не включая  `UniH` префикс) для удержания обнаружения электронных данных, определенного в действии 1. Вторая команда отображает имя случая обнаружения электронных данных, с которым связана удержание. Третья команда отображает имя удержания.
+Выполните следующие команды в консоли [безопасности & соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) , чтобы определить удержание, связанное с вариантом обнаружения электронных данных (называемым *удержанием электронных*данных), который применяется к почтовому ящику. Используйте GUID (не включая  `UniH` префикс) для удержания обнаружения электронных данных, определенного в действии 1. Вторая команда отображает имя случая обнаружения электронных данных, с которым связана удержание. Третья команда отображает имя удержания.
   
 ```powershell
 $CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>
@@ -412,7 +412,7 @@ Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | 
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 Ниже приведена таблица, в которой описывается, как определить различные типы удержаний на основе значений в свойстве  *InPlaceHolds*  при запуске командлетов **Get-Mailbox** или **Get-OrganizationConfig** . Более подробную информацию можно узнать в статье [как определить тип удержания, размещенного в почтовом ящике Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md).
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: В этой статье вы узнаете, как создать, протестировать и настроить политику DLP в соответствии с потребностями Организации.
-ms.openlocfilehash: b8e82e1304cb411a1e73e6f7bdc02fecdda9784f
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: ef88da90d8e009d3ea634c9142d7d917fbfd288a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648786"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546939"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Создание, тестирование и настройка политики защиты от потери данных
 
@@ -218,7 +218,7 @@ Microsoft 365 предоставляет ряд [шаблонов политик
 
 ![Параметр, чтобы включить политику](../media/DLP-create-test-tune-turn-on-policy.png)
  
-Если вы ждете, когда политика вступит в силу, [подключитесь к консоли управления & центра соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) и запустите [командлет Get – dlpcompliancepolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/get-dlpcompliancepolicy?view=exchange-ps) , чтобы увидеть дистрибутионстатус.
+Если вы ждете, когда политика вступит в силу, [подключитесь к консоли управления & центра соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) и запустите [командлет Get – dlpcompliancepolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/get-dlpcompliancepolicy) , чтобы увидеть дистрибутионстатус.
 
 ![Выполнение командлета в PowerShell](../media/DLP-create-test-tune-PowerShell.png)
 
@@ -232,6 +232,6 @@ Microsoft 365 предоставляет ряд [шаблонов политик
 
 ![Подсказка политики, содержимое которой ограничено](../media/DLP-create-test-tune-restrict-warning.png)
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Аннотация
 
 Политики защиты от потери данных используются в организациях всех типов. Тестирование некоторых политик защиты от потери данных — это небольшое снижение риска из-за таких элементов управления, как подсказки политики, переопределение конечных пользователей и отчеты об инцидентах. Вы можете протестировать политики защиты от потери данных, чтобы узнать, какие типы нарушений уже существуют в Организации, а затем с помощью политик с неотрицательным положительным числом проинструктировать пользователей о том, что разрешено и не разрешено, а затем развертывание политик защиты от потери данных в Организации.

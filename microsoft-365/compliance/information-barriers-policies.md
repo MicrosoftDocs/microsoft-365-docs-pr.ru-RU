@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 024b10f86cb38532dc441ebd9c88c050fe2839b7
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: dcf7fd496098032bad075c1679f0081ddf29caef
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308078"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547447"
 ---
 # <a name="define-information-barrier-policies"></a>Определение политик информационных барьеров
 
@@ -71,7 +71,7 @@ ms.locfileid: "47308078"
 - Нет политик адресных книг — прежде чем определять и применять политики барьера данных, убедитесь, что не заданы политики адресных книг Exchange. Информационные барьеры основываются на политиках адресных книг, но не поддерживаются два типа политик. При наличии таких политик обязательно сначала [удалите политики адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) . После включения политик барьера информации и включения иерархической адресной книги все пользователи, ***не включенные*** в сегмент информационного барьера, увидят [иерархическую адресную книгу](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) в Exchange Online.
 
 - В настоящее время PowerShell политики для информационных барьеров определяются и управляются в центре безопасности & безопасности Office 365 с помощью командлетов PowerShell. Хотя в этой статье представлено несколько примеров, необходимо ознакомиться с командлетами и параметрами PowerShell. Кроме того, вам потребуется модуль Azure PowerShell.
-    - [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+    - [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
     - [Установка модуля Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - Согласие администратора для барьеров информации в Microsoft Teams — когда ваши политики настроены, барьеры для работы с данными могут удалять людей из сеансов чата. Это помогает обеспечить соответствие организации политикам и нормативам. Используйте следующую процедуру для включения политик барьера информации в Microsoft Teams в соответствии с ожидаемыми действиями. 
@@ -258,7 +258,7 @@ ms.locfileid: "47308078"
 |Сегменты     |Используйте командлет **Get – организатионсегмент** .<p>Инструкции `Get-OrganizationSegment` <p>Отобразится список всех сегментов, определенных для вашей организации.         |
 |Политики барьера информации     |Используйте командлет **Get – информатионбарриерполици** . <p> Инструкции `Get-InformationBarrierPolicy` <p>Отобразится список определенных политик барьера информации и их состояние.       |
 |Последнее приложение политики барьера информации     | Используйте командлет **Get – информатионбарриерполиЦиесаппликатионстатус** . <p>Инструкции `Get-InformationBarrierPoliciesApplicationStatus`<p>    При этом будут отображены сведения о том, завершено ли выполнение приложения политики, оно завершилось сбоем или находится в процессе выполнения.       |
-|Все приложения политики барьера для информационных заданных|Используйте `Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>При этом будут отображены сведения о том, завершено ли выполнение приложения политики, оно завершилось сбоем или находится в процессе выполнения.|
+|Все приложения политики барьера для информационных заданных|Воспользуйтесь `Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>При этом будут отображены сведения о том, завершено ли выполнение приложения политики, оно завершилось сбоем или находится в процессе выполнения.|
 
 <!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 
