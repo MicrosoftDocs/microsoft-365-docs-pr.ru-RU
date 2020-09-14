@@ -3,7 +3,7 @@ title: Подключение ко всем службам Microsoft 365 с по
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/26/2020
+ms.date: 09/10/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: Сводка. Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell.
-ms.openlocfilehash: af676434017cbe7025baa5e8509e6203a5d59674
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 08d2f4c6ce67aa9fea196d56b2eb5f36a36d7943
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307629"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47430050"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell
 
@@ -39,7 +39,7 @@ ms.locfileid: "47307629"
 
 Существует ряд необходимых условий, которые нужно выполнить, прежде чем приступать к управлению всеми службами Microsoft 365 с помощью единого экземпляра PowerShell:
   
-- Рабочая или учебная учетная запись Microsoft 365, которую вы используете для выполнения этих действий, должна входить в роль администратора Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide). Это требование для PowerShell для Microsoft 365, но не обязательно для других служб Microsoft 365.
+- Рабочая или учебная учетная запись Microsoft 365, которую вы используете для выполнения этих действий, должна входить в роль администратора Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles). Это требование для PowerShell для Microsoft 365, но не обязательно для других служб Microsoft 365.
     
 - Ниже приведены 64-разрядные версии Windows, которые можно использовать.
     
@@ -66,7 +66,7 @@ ms.locfileid: "47307629"
    - [Azure Active Directory V2](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
    - [Командная консоль SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=255251)
    - [Skype для бизнеса Online, модуль PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=532439)
-   - [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+   - [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
    - [Обзор PowerShell в Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
     
 -  Необходимо настроить PowerShell для выполнения подписанных сценариев Skype для бизнеса Online и Центра безопасности &amp; соответствия требованиям. Для этого выполните следующую команду в сеансе PowerShell с повышенными привилегиями (открыв окно PowerShell с помощью команды **Запуск от имени администратора**).
@@ -74,6 +74,12 @@ ms.locfileid: "47307629"
    ```powershell
    Set-ExecutionPolicy RemoteSigned
    ```
+
+## <a name="exchange-online-and-security-amp-compliance-center-with-the-exchange-online-powershell-v2-module"></a>Использование Exchange Online и Центра безопасности &amp; соответствия требованиям вместе с модулем Exchange Online PowerShell V2
+
+В этой статье рассказывается, как использовать модуль Exchange Online PowerShell V2 для подключения к Exchange Online и Центру безопасности &amp; соответствия требованиям. Однако в настоящее время вы не можете подключиться к Exchange Online и к Центру безопасности &amp; соответствия требованиям **в одном и том же окне PowerShell**.
+
+Таким образом, необходимо выбрать подключение к Exchange Online *или* к Центру безопасности &amp; соответствия требованиям при настройке окна PowerShell для нескольких служб Microsoft 365.
 
 ## <a name="connection-steps-when-using-just-a-password"></a>Этапы подключения только с использованием пароля
 
@@ -93,14 +99,14 @@ ms.locfileid: "47307629"
    Connect-AzureAD -Credential $credential
    ```
   
-   Или же, если вы используете модуль Microsoft Azure Active Directory для PowerShell, выполните эту команду.
+   Или же, если вы используете модуль Microsoft Azure Active Directory для Windows PowerShell, выполните эту команду.
       
    ```powershell
    Connect-MsolService -Credential $credential
    ```
 
    > [!Note]
-   > В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для PowerShell и командлеты с компонентом **Msol** в имени. Чтобы использовать эти командлеты, необходимо запустить их из PowerShell.
+   > В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты с компонентом **Msol** в имени. Чтобы использовать эти командлеты, необходимо запустить их из PowerShell.
 
 4. Выполните приведенные ниже команды для подключения к SharePoint Online. Введите название организации для вашего домена. Например, для "litwareinc.onmicrosoft.com", значение названия организации — "litwareinc".
     
@@ -120,13 +126,25 @@ ms.locfileid: "47307629"
 6. Выполните эту команду для подключения к Exchange Online.
     
    ```powershell
+   Import-Module ExchangeOnlineManagement
    Connect-ExchangeOnline -Credential $credential -ShowProgress $true
    ```
 
    > [!Note]
-   > Чтобы подключиться к Exchange Online для не всемирных облаков Microsoft 365, используйте параметр **-ExchangeEnvironmentName**. Дополнительные сведения см. в разделе[Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/powershell-v2-module/connect-exchangeonline?view=exchange-ps)
+   > Чтобы подключиться к Exchange Online для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-7. Выполните следующие команды для подключения к Teams PowerShell.
+7. Поочередно выполните следующие команды для подключения к Центру безопасности &amp; соответствия требованиям.
+    
+   ```powershell
+   $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
+   Import-Module ExchangeOnlineManagement
+   Connect-IPPSSession -UserPrincipalName $acctName
+   ```
+
+   > [!Note]
+   > Чтобы подключиться к Центру безопасности&amp; соответствия требованиям для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+
+8. Выполните следующие команды для подключения к Teams PowerShell.
     
    ```powershell
    Import-Module MicrosoftTeams
@@ -134,19 +152,12 @@ ms.locfileid: "47307629"
    ```
   
    > [!Note]
-   > Чтобы подключиться к облакам Microsoft Teams, отличным от всемирного облака, см. раздел [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps).
+   > Чтобы подключиться к облакам Microsoft Teams, отличным от всемирного облака, см. раздел [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams).
 
-8. Выполните следующие команды для подключения к Центру безопасности &amp; соответствия требованиям.
-    
-   ```powershell
-   $SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication "Basic" -AllowRedirection
-   Import-PSSession $SccSession -Prefix cc
-   ```
 
-   > [!Note]
-   > Чтобы подключиться к Центру безопасности&amp; соответствия требованиям для облаков Microsoft 365, отличных от всемирного облака, см. статью раздел [Подключение к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+### <a name="azure-active-directory-powershell-for-graph-module"></a>Использование модуля Azure Active Directory PowerShell для Graph
 
-Ниже в едином блоке перечислены все команды при использовании модуля Azure Active Directory PowerShell для Graph. Укажите доменное имя узла, а затем запустите их одновременно.
+Ниже, в едином текстовом блоке перечислены команды для всех служб, *за исключением Центра безопасности &amp; соответствия требованиям,* при использовании модуля Azure Active Directory для Graph. Укажите доменное имя узла, а затем запустите их одновременно.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -157,14 +168,33 @@ Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $crede
 Import-Module SkypeOnlineConnector
 $sfboSession = New-CsOnlineSession -Credential $credential
 Import-PSSession $sfboSession
-$SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication "Basic" -AllowRedirection
-Import-PSSession $SccSession -Prefix cc
+Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -Credential $credential -ShowProgress $true
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Или можно использовать перечисленные в едином блоке команды при применении модуля Microsoft Azure Active Directory для PowerShell. Укажите доменное имя узла, а затем запустите их одновременно.
+Ниже, в едином текстовом блоке перечислены команды для всех служб, *за исключением Exchange Online,* при использовании модуля Azure Active Directory PowerShell для Graph. Укажите доменное имя узла и UPN для входа, а затем запустите их одновременно.
+  
+```powershell
+$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
+$acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
+$credential = Get-Credential -UserName $acctName
+Connect-AzureAD -Credential $credential
+Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
+Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
+Import-Module SkypeOnlineConnector
+$sfboSession = New-CsOnlineSession -Credential $credential
+Import-PSSession $sfboSession
+Import-Module ExchangeOnlineManagement
+Connect-IPPSSession -UserPrincipalName $acctName
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams -Credential $credential
+```
+
+### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Модуль Microsoft Azure Active Directory для Windows PowerShell
+
+Ниже, в едином текстовом блоке перечислены команды для всех служб, *за исключением Центра безопасности &amp; соответствия требованиям,* при использовании модуля Microsoft Azure Active Directory для Windows PowerShell. Укажите доменное имя узла, а затем запустите их одновременно.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -175,22 +205,34 @@ Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $crede
 Import-Module SkypeOnlineConnector
 $sfboSession = New-CsOnlineSession -Credential $credential
 Import-PSSession $sfboSession
-$SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication "Basic" -AllowRedirection
-Import-PSSession $SccSession -Prefix cc
+Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -Credential $credential -ShowProgress $true
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-Когда вы будете готовы закрыть окно PowerShell, выполните эту команду, чтобы удалить активные сеансы в Skype для бизнеса Online, SharePoint Online, Центре безопасности &amp; соответствия требованиям, а также в Teams:
+Ниже, в едином текстовом блоке перечислены команды для всех служб, *за исключением Exchange Online,* при использовании модуля Microsoft Azure Active Directory для Windows PowerShell. Укажите доменное имя узла и UPN для входа, а затем запустите их одновременно.
   
 ```powershell
-Remove-PSSession $sfboSession ; Remove-PSSession $SccSession ; Disconnect-SPOService ; Disconnect-MicrosoftTeams 
+$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
+$acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
+$credential = Get-Credential -UserName $acctName
+Connect-AzureAD -Credential $credential
+Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
+Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
+Import-Module SkypeOnlineConnector
+$sfboSession = New-CsOnlineSession -Credential $credential
+Import-PSSession $sfboSession
+Import-Module ExchangeOnlineManagement
+Connect-IPPSSession -UserPrincipalName $acctName
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams -Credential $credential
 ```
+## <a name="connection-steps-when-using-multi-factor-authentication"></a>Этапы подключения при использовании многофакторной идентификации
 
-## <a name="connection-steps-when-using-multi-factor-authentication"></a>Этапы подключения при использовании многофакторной проверки подлинности
+### <a name="azure-active-directory-powershell-for-graph-module"></a>Использование модуля Azure Active Directory PowerShell для Graph
 
-Ниже в едином блоке перечислены все команды для подключения к Azure AD, SharePoint Online, Skype для бизнеса, Exchange Online и Teams с использованием многофакторной проверки подлинности в одном окне с помощью модуля Azure Active Directory PowerShell для Graph. Укажите имя участника-пользователя (UPN) для учетной записи пользователя и доменное имя узла, а затем запустите их одновременно.
+Ниже, в едином текстовом блоке перечислены все команды, которые можно использовать для подключения к нескольким службам Microsoft 365, *за исключением Центра безопасности &amp; соответствия требованиям,* с помощью многофакторной идентификации и при использовании модуля Azure Active Directory PowerShell для Graph.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -203,13 +245,34 @@ Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 $sfboSession = New-CsOnlineSession -UserName $acctName
 Import-PSSession $sfboSession
 #Exchange Online
+Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 #Teams
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
+Ниже в едином текстовом блоке перечислены все команды, которые можно использовать для подключения к нескольким службам Microsoft 365, *за исключением Exchange Online,* с помощью многофакторной идентификации и при использовании модуля Azure Active Directory PowerShell для Graph.
 
-Или можно использовать перечисленные команды при применении модуля Microsoft Azure Active Directory для PowerShell.
+```powershell
+$acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
+$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
+#Azure Active Directory
+Connect-AzureAD
+#SharePoint Online
+Connect-SPOService -Url https://$orgName-admin.sharepoint.com
+#Skype for Business Online
+$sfboSession = New-CsOnlineSession -UserName $acctName
+Import-PSSession $sfboSession
+#Security & Compliance Center
+Import-Module ExchangeOnlineManagement
+Connect-IPPSSession -UserPrincipalName $acctName
+#Teams
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams
+```
+### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Модуль Microsoft Azure Active Directory для Windows PowerShell
+
+Ниже, в едином текстовом блоке перечислены все команды, которые можно использовать для подключения к нескольким службам Microsoft 365, *за исключением Центра безопасности &amp; соответствия требованиям,* с помощью многофакторной идентификации и при использовании модуля Microsoft Azure Active Directory для Windows PowerShell.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -222,13 +285,40 @@ Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 $sfboSession = New-CsOnlineSession -UserName $acctName
 Import-PSSession $sfboSession
 #Exchange Online
+Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 #Teams
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
+Ниже, в едином текстовом блоке перечислены все команды, которые можно использовать для подключения к нескольким службам Microsoft 365, *за исключением Exchange Online,* с помощью многофакторной идентификации и при использовании модуля Microsoft Azure Active Directory для Windows PowerShell.
 
-Сведения о подключении к Центру безопасности &amp; соответствия требованиям с использованием многофакторной проверки подлинности см. в разделе[Подключение к Центру безопасности и соответствия требованиям с использованием многофакторной проверки подлинности](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps):
+```powershell
+$acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
+$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
+#Azure Active Directory
+Connect-MsolService
+#SharePoint Online
+Connect-SPOService -Url https://$orgName-admin.sharepoint.com
+#Skype for Business Online
+$sfboSession = New-CsOnlineSession -UserName $acctName
+Import-PSSession $sfboSession
+#Security & Compliance Center
+Import-Module ExchangeOnlineManagement
+Connect-IPPSSession -UserPrincipalName $acctName
+#Teams
+Import-Module MicrosoftTeams
+Connect-MicrosoftTeams
+```
+
+## <a name="close-the-powershell-window"></a>Закрыть окно PowerShell
+
+Когда вы будете готовы закрыть окно PowerShell, выполните эту команду, чтобы завершить все активные сессии в Skype для бизнеса Online, SharePoint, а также в Teams:
+  
+```powershell
+Remove-PSSession $sfboSession ; Disconnect-SPOService ; Disconnect-MicrosoftTeams 
+```
+
 
 ## <a name="see-also"></a>См. также
 

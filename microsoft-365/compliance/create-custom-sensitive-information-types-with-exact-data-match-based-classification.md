@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Узнайте о создании пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4bbbe8726370297e9ef6317cd468789bb3b3bfe
-ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+ms.openlocfilehash: 1c47d682d7b3c52fa5ca5b71386a764f3b3da693
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300437"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546961"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
 
@@ -141,7 +141,7 @@ ms.locfileid: "47300437"
       </EdmSchema>
       ```
 
-4. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+4. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 5. Чтобы добавить схему базы данных, выполните по отдельности указанные ниже командлеты.
 
@@ -273,7 +273,7 @@ ms.locfileid: "47300437"
 
 1. Измените файл **edm.xml** (файл, обсуждаемый в разделе [Определение схемы](#define-the-schema-for-your-database-of-sensitive-information)  этой статьи).
 
-2. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+2. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 3. Чтобы обновить схему базы данных, выполните по отдельности указанные ниже командлеты.
 
@@ -302,7 +302,7 @@ ms.locfileid: "47300437"
 
 (При необходимости.) Чтобы удалить схему, используемую для классификации на основе EDM, выполните указанные ниже действия.
 
-1. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+1. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Выполните следующие командлеты PowerShell, заменив имя хранилища данных "patient records" на имя удаляемого хранилища.
 
@@ -647,5 +647,5 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 - [Пользовательские типы конфиденциальной информации](custom-sensitive-info-types.md)
 - [Обзор политик защиты от потери данных](data-loss-prevention-policies.md)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
-- [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
+- [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema)
 

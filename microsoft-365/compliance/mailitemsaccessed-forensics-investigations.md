@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Используйте действие аудита почтового ящика MailItemsAccessed для проведения экспертного исследования скомпрометированных учетных записей пользователей.
-ms.openlocfilehash: cd76a49e1f7b6e52d2a21e74162781771a8552a1
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 908c2a22b05d7daef8d55c7e0aac61f25489692a
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327653"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546295"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Исследование скомпрометированных учетных записей с помощью расширенного аудита
 
@@ -67,7 +67,7 @@ ms.locfileid: "44327653"
 
 В процессе аудита почтовых ящиков создаются записи аудита для доступа к сообщениям электронной почты, чтобы можно было убедиться, что эти сообщения не скомпрометированы. В то же время, если мы не уверены в том, что к некоторым данным осуществлялся доступ, предполагается, что он осуществлялся, и записываются все действия доступа к почте.
 
-Записи аудита о MailItemsAccessed обычно используются в целях судебной экспертизы после устранения нарушения безопасности данных и исключения злоумышленника. Чтобы начать исследование, нужно определить, какие почтовые ящики были скомпрометированы и в течение какого времени у злоумышленника был доступ к почтовым ящикам в организации. Затем можно использовать командлет **Search-UnifiedAuditLog** или **Search-MailboxAuditLog** в [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) для поиска записей аудита, связанных с нарушением безопасности данных. 
+Записи аудита о MailItemsAccessed обычно используются в целях судебной экспертизы после устранения нарушения безопасности данных и исключения злоумышленника. Чтобы начать исследование, нужно определить, какие почтовые ящики были скомпрометированы и в течение какого времени у злоумышленника был доступ к почтовым ящикам в организации. Затем можно использовать командлет **Search-UnifiedAuditLog** или **Search-MailboxAuditLog** в [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) для поиска записей аудита, связанных с нарушением безопасности данных. 
 
 Для поиска записей аудита о MailItemsAccessed можно выполнить одну из следующих команд:
 

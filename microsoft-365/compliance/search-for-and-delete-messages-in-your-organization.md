@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: 'Используйте поиск и очистку в Центре безопасности и соответствия требованиям для удаления сообщения из всех почтовых ящиков организации. '
-ms.openlocfilehash: e6183104d8cacf0ae75a2a81073dee85a128fcb2
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: f4bcd012708c0b7e9fa37b06288cda18ad4766cf
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845935"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546537"
 ---
 # <a name="search-for-and-delete-email-messages"></a>Поиск и удаление сообщений электронной почты
 
@@ -105,7 +105,7 @@ Start-ComplianceSearch -Identity $Search.Identity
 
 ## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Шаг 2. Подключение к PowerShell в Центре безопасности и соответствия требованиям
 
-Следующий шаг — подключение к PowerShell в Центре безопасности и соответствия требованиям вашей организации. Пошаговые инструкции см. в статье [Подключение к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Следующий шаг — подключение к PowerShell в Центре безопасности и соответствия требованиям вашей организации. Пошаговые инструкции см. в статье [Подключение к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 После подключения к PowerShell в Центре безопасности и соответствия требованиям запустите командлеты **New-ComplianceSearch** и **Start-ComplianceSearch**, подготовленные на предыдущем шаге.
 

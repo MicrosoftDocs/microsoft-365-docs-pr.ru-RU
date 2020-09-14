@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте о новых возможностях шифрования сообщений Office 365, позволяющих защитить переписку с людьми внутри и за пределами вашей организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d6e37da7456cfbb0b7cbf8d986b54615aca60f0
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4102611d3be43a5bedffc83fba5c83c0b648ca42
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819189"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547621"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений
 
@@ -62,9 +62,9 @@ ms.locfileid: "44819189"
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Проверка новой конфигурации OME в Exchange Online PowerShell
 
-Вы можете убедиться, что клиент Microsoft 365 настроен для использования новых возможностей OME, с помощью [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Вы можете убедиться, что клиент Microsoft 365 настроен для использования новых возможностей OME, с помощью [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell).
   
-1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Microsoft 365.
+1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Microsoft 365.
 
 2. Запустите командлет Get-IRMConfiguration.
 

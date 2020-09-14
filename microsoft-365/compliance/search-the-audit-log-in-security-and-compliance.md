@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте Центр обеспечения безопасности и соответствия требованиям для поиска в едином журнале аудита, чтобы просмотреть активность пользователей и администраторов в вашей организации. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d65b64f80dc9d8c3c799e8044d6fc5d3dfec4321
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 21a8ea6f930efcd106c541021c9b9bd47af43f23
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357811"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547255"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск по журналу аудита в Центре безопасности и соответствия требованиям
 
@@ -828,14 +828,14 @@ Forms поддерживает совместную работу при созд
 
 |Понятное имя|Операция|Описание|
 |:-----|:-----|:-----|
-| Настроены параметры политики хранения |NewRetentionComplianceRule |Администратор настроил параметры хранения для новой политики хранения. Параметры хранения включают срок хранения элементов и действия в отношении элементов по истечении срока хранения (например, удаление, хранение или хранение и последующее удаление элементов). Это действие также соответствует выполнению командлета [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule).|
+| Настроены параметры политики хранения |NewRetentionComplianceRule |Администратор настроил параметры хранения для новой политики хранения. Параметры хранения включают срок хранения элементов и действия в отношении элементов по истечении срока хранения (например, удаление, хранение или хранение и последующее удаление элементов). Это действие также соответствует выполнению командлета [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule).|
 | Создана метка хранения |NewComplianceTag |Администратор создал новую метку хранения.|
 | Создана политика хранения |NewRetentionCompliancePolicy|Администратор создал новую политику хранения.|
 | Удалены параметры из политики хранения| RemoveRetentionComplianceRule<br/>| Администратор удалил параметры конфигурации политики хранения. Скорее всего, это действие регистрируется, когда администратор удаляет политику хранения или запускает командлет [Remove-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/Remove-RetentionComplianceRule).|
 | Удалена метка хранения |RemoveComplianceTag | Администратор удалил метку хранения.|
 | Удалена политика хранения |RemoveRetentionCompliancePolicy<br/> |Администратор удалил политику хранения. |
 | Включен параметр записи, отвечающей нормативным требованиям, для меток хранения<br/> |SetRestrictiveRetentionUI |Администратор запустил командлет [Set-RegulatoryComplianceUI](https://docs.microsoft.com/powershell/module/exchange/set-regulatorycomplianceui), чтобы иметь возможность выбрать параметр конфигурации пользовательского интерфейса, позволяющий пометить содержимое как запись, отвечающую нормативным требованиям, с помощью метки хранения.|
-| Обновлены параметры политики хранения | SetRetentionComplianceRule | Администратор изменил параметры хранения для существующей политики хранения. Параметры хранения включают срок хранения элементов и действия в отношении элементов по истечении срока хранения (например, удаление, хранение или хранение и последующее удаление элементов). Это действие также соответствует выполнению командлета [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule). |
+| Обновлены параметры политики хранения | SetRetentionComplianceRule | Администратор изменил параметры хранения для существующей политики хранения. Параметры хранения включают срок хранения элементов и действия в отношении элементов по истечении срока хранения (например, удаление, хранение или хранение и последующее удаление элементов). Это действие также соответствует выполнению командлета [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule). |
 | Обновлена метка хранения |SetComplianceTag  | Администратор обновил существующую метку хранения.|
 | Обновлена политика хранения |SetRetentionCompliancePolicy |Администратор обновил существующую политику хранения. К обновлениям, запускающим это событие, относятся добавление и исключение расположений контента, к которым применяется политика хранения.|
 

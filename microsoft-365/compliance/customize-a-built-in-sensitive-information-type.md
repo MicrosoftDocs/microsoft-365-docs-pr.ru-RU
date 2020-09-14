@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Получите сведения о том, как создать настраиваемый тип конфиденциальной информации, который позволит пользоваться правилами, соответствующими потребностям вашей организации.
-ms.openlocfilehash: 6e9fb0295f8958584878921c1fac362dc511be8f
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 745cea9a0851168999335e27b970276726b516d0
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086616"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546667"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Настройка встроенных типов конфиденциальных данных
 
@@ -33,7 +33,7 @@ ms.locfileid: "45086616"
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>Экспорт XML-файла с текущими правилами
 
-Чтобы экспортировать XML-файл, нужно [подключиться к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+Чтобы экспортировать XML-файл, нужно [подключиться к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
   
 1. В PowerShell введите указанную ниже команду, чтобы отобразить правила организации на экране. Если вы не создавали собственные правила, вы увидите только стандартные, встроенные правила, отмеченные как "Пакет правил Майкрософт".
 

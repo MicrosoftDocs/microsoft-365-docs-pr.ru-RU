@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначить документу или сообщению электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: efe09796b7c3048fd9c6026a5e6a2ca6fbc234a3
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: 88ad35b2bc07f85a86a1900d9f551b92d4646ba1
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47427038"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546731"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -315,9 +315,9 @@ ms.locfileid: "47427038"
 
 ### <a name="use-powershell-for-auto-labeling-policies"></a>Использование PowerShell для политик автоматического применения меток
 
-Теперь для создания и настройки политик автоматического применения меток вы можете использовать [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell). Это означает, что теперь можно использовать полноценный сценарий создания и обслуживания политик автоматического применения меток, который также предоставляет более эффективный метод указания нескольких URL-адресов для расположений OneDrive и SharePoint.
+Теперь для создания и настройки политик автоматического применения меток вы можете использовать [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell). Это означает, что теперь можно использовать полноценный сценарий создания и обслуживания политик автоматического применения меток, который также предоставляет более эффективный метод указания нескольких URL-адресов для расположений OneDrive и SharePoint.
 
-Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 Создание политики автоматического применения меток: 
 

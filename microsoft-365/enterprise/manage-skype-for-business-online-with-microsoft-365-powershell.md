@@ -13,28 +13,28 @@ f1.keywords:
 - NOCSH
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
-description: Сводка. Управляйте политиками, индивидуальными политиками и настройками собраний Skype для бизнеса Online, используя PowerShell для Microsoft 365.
-ms.openlocfilehash: aea78d135a5d7ffbb5d8480c549d0fdee88f7d51
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Управляйте политиками, индивидуальными политиками и настройками собраний Skype для бизнеса Online, используя PowerShell для Microsoft 365.
+ms.openlocfilehash: d50f35d7d5e81622eb8dfc3bbf8328a8c43e9676
+ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693411"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47430038"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>Управление Skype для бизнеса Online с помощью PowerShell
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Одной из основных задач администратора Skype для бизнеса Online является управление политиками. Хотя вы можете выполнить некоторые из указанных ниже задач в Центре администрирования Microsoft 365, другие задачи гораздо быстрее и проще выполнить с помощью PowerShell. 
+Одной из основных задач администратора Skype для бизнеса Online является управление политиками. Хотя вы можете выполнить некоторые из указанных ниже задач в Центре администрирования Microsoft 365, другие задачи гораздо легче выполнить с помощью PowerShell.
 
 ## <a name="before-you-start"></a>Перед началом работы
 
-Скачайте и установите [модуль соединителя Skype для бизнеса Online](https://www.microsoft.com/download/details.aspx?id=39366), а затем перезапустите компьютер.
+Скачайте и установите [модуль PowerShell для Skype для бизнеса Online](https://www.microsoft.com/download/details.aspx?id=39366), а затем перезапустите компьютер.
 
 
-## <a name="connect-using-a-skype-for-business-online-administrator-account-name-and-password"></a>Подключение с помощью имени и пароля учетной записи администратора Skype для бизнеса Online
+## <a name="connect-using-skype-for-business-online-admin-credentials"></a>Подключение с помощью учетной записи администратора Skype для бизнеса Online
 
-1. Откройте командную строку Windows PowerShell и выполните указанные команды: 
+1. Откройте командную строку Windows PowerShell и выполните следующее:
     
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -46,9 +46,9 @@ ms.locfileid: "46693411"
 2. В диалоговом окне **Запрос учетных данных Windows PowerShell** введите имя и пароль учетной записи администратора Skype для бизнеса Online, а затем нажмите кнопку **ОК**.
 
 
-## <a name="connect-using-a-skype-for-business-online-administrator-account-with-multi-factor-authentication"></a>Подключение с помощью учетной записи администратора Skype для бизнеса Online с многофакторной проверкой подлинности
+## <a name="connect-using-an-admin-account-with-multi-factor-authentication"></a>Подключение с помощью учетной записи администратора Skype для бизнеса Online с многофакторной идентификацией
 
-1. Откройте командную строку Windows PowerShell и выполните указанные команды:
+1. Откройте командную строку Windows PowerShell и выполните следующее:
 
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -60,7 +60,7 @@ ms.locfileid: "46693411"
 
 3. В диалоговом окне **Вход в учетную запись** введите пароль администратора Skype для бизнеса Online, а затем нажмите кнопку **Войти**.
 
-4. Следуя инструкциям в диалоговом окне **Вход в учетную запись**, предоставьте дополнительные сведения для проверки подлинности, например код проверки, а затем нажмите кнопку **Проверить**.
+4. Следуя инструкциям в диалоговом окне **Вход в учетную запись**, предоставьте дополнительные сведения для идентификации, например код проверки, а затем нажмите кнопку **Проверить**.
 
 Дополнительную информацию см. в следующих статьях:
   
@@ -75,4 +75,3 @@ ms.locfileid: "46693411"
 [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
 
 [Справка по командлетам PowerShell в Skype для бизнеса](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-

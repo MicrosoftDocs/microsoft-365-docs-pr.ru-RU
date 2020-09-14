@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: 71e7724873a783f72e8a4088e85f82be68ae75f8
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: b11f2c089f445c73ec43a6030d756c7da4d2f26c
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47427008"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47546895"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
@@ -87,7 +87,7 @@ ms.locfileid: "47427008"
 
 ### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры меток, доступные в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell).
+Дополнительные параметры меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell).
 
 Например:
 
@@ -107,7 +107,7 @@ ms.locfileid: "47427008"
 
 Для языков, которые вам нужны, используйте [идентификаторы языков](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers) в Office (также именуемые тегами языков) и укажите свой перевод для имени метки и подсказки.
 
-Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 
 ```powershell
@@ -178,13 +178,13 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры политики меток в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy) из [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell).
+Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy) из [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell).
 
 Только для клиента унифицированных меток Azure Information Protection вы также можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations), включающие настройку другой метки по умолчанию для Outlook и внедрение всплывающих сообщений в Outlook для предупреждения, объяснения или блокирования отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для политик меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) этого руководства для администраторов клиента.
 
 ## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>Использование PowerShell для меток конфиденциальности и соответствующих политик
 
-Теперь для создания и настройки всех параметров, отображаемых в центре администрирования меток, вы можете использовать [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell). Это означает, что в дополнение к использованию PowerShell для параметров, недоступных в центрах администрирования меток, теперь можно использовать полноценный сценарий создания и настройки меток конфиденциальности и политик меток конфиденциальности. 
+Теперь для создания и настройки всех параметров, отображаемых в центре администрирования меток, вы можете использовать [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell). Это означает, что в дополнение к использованию PowerShell для параметров, недоступных в центрах администрирования меток, теперь можно использовать полноценный сценарий создания и настройки меток конфиденциальности и политик меток конфиденциальности. 
 
 Поддерживаемые параметры и значения см. в следующих документах:
 

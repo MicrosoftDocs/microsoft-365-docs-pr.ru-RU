@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Ознакомьтесь с основными шагами по созданию словаря ключевых слов в Центре безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: bad95e9a5605631de3e8652e7243909f28b2abde
-ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
+ms.openlocfilehash: 7fe425a1f8ac954c6c24752927b218fc7e6f37c7
+ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47282739"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "47547013"
 ---
 # <a name="create-a-keyword-dictionary"></a>Создание словаря ключевых слов
 
@@ -86,7 +86,7 @@ ms.locfileid: "47282739"
     
 ## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a>Создание словаря ключевых слов из файла с помощью PowerShell
 
-Зачастую при необходимости создать большой словарь бывает удобно использовать ключевые слова из файла или списка, экспортированного из какого-то другого источника. В данном случае вы создаете словарь ключевых слов, содержащий список выражений, непригодных для внешних сообщений электронной почты. Сначала [выполните подключение к Центру безопасности&amp; и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Зачастую при необходимости создать большой словарь бывает удобно использовать ключевые слова из файла или списка, экспортированного из какого-то другого источника. В данном случае вы создаете словарь ключевых слов, содержащий список выражений, непригодных для внешних сообщений электронной почты. Сначала [выполните подключение к Центру безопасности&amp; и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
   
 1. Скопируйте ключевые слова в текстовый файл и убедитесь, что каждое ключевое слово находится на отдельной строке.
     
