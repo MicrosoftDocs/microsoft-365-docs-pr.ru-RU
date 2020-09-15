@@ -1,7 +1,7 @@
 ---
-title: Настройка пробной лабораторной среды Майкрософт для защиты от угроз
-description: Доступ к центру обеспечения безопасности Microsoft 365 и Настройка лабораторной среды лаборатории Майкрософт по защите от угроз
-keywords: Пробная версия системы защиты от угроз Майкрософт, проверка Microsoft Threat Protection, Настройка лаборатории оценки защиты от угроз Майкрософт
+title: Настройка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз
+description: Доступ к центру обеспечения безопасности Microsoft 365 и настройка испытательной лаборатории Майкрософт по защите от угроз
+keywords: Пробная установка Microsoft Threat Protection, пилотная программа Microsoft Threat Protection, пробная версия, пробная защита от угроз Майкрософт, Настройка лаборатории оценки защиты от угроз Майкрософт
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: w10
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 69a883263952b7c20225659ae023399e0242606d
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 60c1a39e350a9a1d5d43c9b59ab12c4a6ad3f12a
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650073"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47817185"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Настройка пробной лабораторной среды Майкрософт для защиты от угроз 
 
@@ -28,26 +28,26 @@ ms.locfileid: "47650073"
 - Защита от угроз (Майкрософт) 
 
 
-Создание пробной лабораторной среды Майкрософт для защиты от угроз и развертывание выполняется в три этапа:
+Создание пробной лаборатории или испытательной среды Майкрософт для защиты от угроз и развертывание выполняется в три этапа:
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Подготовка лаборатории оценки Microsoft Threat protection" />
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Подготовка лаборатории оценки Microsoft Threat protection или пилотной среды" />
       <br/>Этап 1: подготовка </a><br>
     </td>
      <td align="center"bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Настройка лаборатории оценки Microsoft Threat protection" />
+        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab or pilot environment" title="Настройка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз" />
       <br/>Этап 2: Настройка </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
         <img src="../../media/config-onboard.png" alt="
-Configure each Microsoft Threat Protection pillar for your Microsoft Threat Protection trial lab environment and onboard your endpoints" title="
-Настройте каждый из принципов защиты от угроз Майкрософт для лаборатории пробной среды Майкрософт по защите от угроз и конечных точек." />
+Configure each Microsoft Threat Protection pillar for your Microsoft Threat Protection trial lab or pilot environment and onboard your endpoints" title="
+Настройте каждый из базовых принципов защиты от угроз Майкрософт для пробной лаборатории или пилотной среды Майкрософт по защите от угроз и применяйте свои конечные точки." />
       <br/>Этап 3: Настройка встроенного & </a><br>
 </td>
 
@@ -55,12 +55,12 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
   </tr>
 </table>
 
-В данный момент вы настраиваете этап настройки. Выполните начальные действия, чтобы получить доступ к центру безопасности Microsoft 365, а затем настройте свою лабораторную среду.
+В настоящее время вы находитесь на этапе настройки. Выполните начальные действия, чтобы получить доступ к центру безопасности Microsoft 365, а затем настройте пробную лабораторию или пилотную среду.
 
 Подпишитесь на Office 365 или Azure Active Directory, чтобы создать клиент *. onmicrosoft.com* , который вы можете использовать для подписки на лицензию Майкрософт 365. 
 
 >[!NOTE]
->Если у вас уже есть подписка на Office 365 или Azure Active Directory, вы можете пропустить этапы создания пробных клиентов Office 365
+>Если у вас уже есть подписка на Office 365 или Azure Active Directory, вы можете пропустить пробные или пилотные этапы создания пробного клиента Office 365.
 
 На этом этапе вы найдете следующие руководства:
 - Создание пробного клиента Office 365
@@ -77,7 +77,7 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 2. Выполните пробную регистрацию, указав свой адрес электронной почты (персональный или корпоративный). Нажмите кнопку **Настройка учетной записи**.
 ![Страница "Настройка of_Office образа 365 для пробной регистрации](../../media/mtp-eval-10.png) <br> 
 
-3. Введите имя, фамилию, номер рабочего телефона, название компании, размер и страну или регион.  
+3. Введите имя, фамилию, номер рабочего телефона, название компании, размер компании и страну или регион.  
 <br>![Of_Office изображений — страница настройки регистрации 365 для пробной регистрации с запросом имени, телефона и сведений о компании](../../media/mtp-eval-11.png) <br>
 >[!NOTE]
 >Страна или регион, которые вы настроили, определяет регион центра обработки данных, в котором будет размещаться Office 365.
@@ -97,7 +97,7 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 8. Подключите корпоративный домен к клиенту Office 365. Необязательно Выберите **подключить домен, который вы уже владеете** , и введите имя своего домена. Нажмите кнопку **Далее**.
 <br>![Image of_Office страницу установки 365 для настройки входа и электронной почты](../../media/mtp-eval-16.png) <br>
  
-9. Чтобы проверить владение доменом, необходимо добавить запись TXT или MX. Добавив запись TXT или MX в свой домен, нажмите кнопку **проверить**.
+9. Добавьте запись TXT или MX для проверки владения доменом. Добавив запись TXT или MX в свой домен, нажмите кнопку **проверить**.
 <br>![Image of_Office 365, где необходимо добавить TXT записи MX для проверки домена](../../media/mtp-eval-17.png) <br>
  
 10. Необязательно Создайте дополнительные учетные записи пользователей для клиента. Вы можете пропустить этот шаг, нажав кнопку **Далее**.
@@ -149,4 +149,4 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 
 
 ## <a name="next-step"></a>Следующий шаг
-![Этап 3: Настройка встроенного &](../../media/config-onboard.png) <br>[Этап 3: Настройка встроенного &](config-mtpeval.md) <br>Настройте каждый из принципов защиты от угроз Майкрософт для лаборатории оценки Microsoft Threat Protection и входящей конечной точки.
+![Этап 3: Настройка встроенного &](../../media/config-onboard.png) <br>[Этап 3: Настройка встроенного &](config-mtpeval.md) <br>Настройте каждую из базовых принципов защиты от угроз Майкрософт для пробной лаборатории или пилотной среды Майкрософт по защите от угроз и применяйте свои конечные точки.

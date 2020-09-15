@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: План настройки облачных служб для Microsoft 365.
-ms.openlocfilehash: 4e9630ad84b5e442f0c8fd6ab95ca9d0c48c780a
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: 9d28b03f17aa0b9de955af824939d0db28faa057
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315769"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775139"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>План облачных служб для Microsoft 365
 
 Для получения преимуществ Microsoft 365 для предприятий, а также для обеспечения творческих преимуществ, разверните облачные службы, соответствующие потребностям вашей организации.
 
-Если у вас есть существующие серверные развертывания для Exchange, SharePoint или Skype для бизнеса, ознакомьтесь со статьей [Схема программного обеспечения клиента и сервера](client-server-software-roadmap-microsoft-365.md) , чтобы перенести всю организацию в Microsoft 365 для предприятий. Эта схема включает в себя клиентские продукты Microsoft Office, локальные продукты Office Server и устройства на основе Microsoft Windows.
+Если у вас есть серверные развертывания для Exchange, SharePoint или Skype для бизнеса, и вы хотите перенести всю организацию в Microsoft 365 для предприятий, ознакомьтесь со статьей [Путеводитель по клиентским и серверному программному обеспечению](client-server-software-roadmap-microsoft-365.md). Эта схема включает в себя клиентские продукты Microsoft Office, локальные продукты Office Server и &ndash; устройства на основе Microsoft Windows.
 
 ## <a name="deploy"></a>Развертывание
 
@@ -56,12 +56,12 @@ ms.locfileid: "47315769"
 
 ## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a>Как корпорация Майкрософт выполняет облачные службы для Microsoft 365
 
-Чтобы узнать о том, как ИТ-подразделение разворачивается или управляет Microsoft 365 Cloud Services, выполните следующие действия:
+Сведения о том, как Microsoft IT развернута или управляет облачными службами Microsoft 365:
 
-1. Перейдите к [демонстрации ИТ Майкрософт](https://www.microsoft.com/itshowcase).
+1. Перейдите на страницу [демонстрации ИТ Microsoft](https://www.microsoft.com/itshowcase).
 2. Выберите **Поиск контента**.
-3. Для **уточнения результатов**выберите **ИТ-специалистов** в разделе **аудитория**и облачная служба, которую вы заинтересованы в разделе **продукт**.
+3. В разделе **Уточнение результатов**выберите **ИТ-специалиста** в разделе **аудитория**, а затем в разделе **продукт**Выберите облачную службу.
 
 ## <a name="next-step"></a>Следующий шаг
 
-Начните внедрение облачных служб с помощью параметра " [Подготовка к работе](configure-services-and-applications.md)".
+Запустите реализацию облачных служб. Руководство по [настройке Microsoft 365 Enterprise Services and Applications](configure-services-and-applications.md).

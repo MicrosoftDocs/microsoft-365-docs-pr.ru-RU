@@ -17,13 +17,13 @@ ms.custom:
 search.appverid:
 - MET150
 description: Здесь вы найдете ответы на часто задаваемые вопросы об самостоятельных покупках.
-ms.date: 08/12/2020
-ms.openlocfilehash: 78a7082a966a866f18ac2aa378198dbb33d8c158
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.date: 09/15/2020
+ms.openlocfilehash: 81143dfe3794bc4f42bea879905bf08750f498b4
+ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653705"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47816929"
 ---
 # <a name="self-service-purchase-faq"></a>Вопросы и ответы по самостоятельной покупке
 
@@ -32,7 +32,7 @@ ms.locfileid: "46653705"
 Самостоятельная Покупка доступна для платформы управления питанием (Power BI, Power Apps и Автоматизация управления питанием), Project и Visio.
 
 > [!NOTE]
-> Самостоятельная Покупка недоступна в Индии и недоступна для правительственных организаций и клиентов для образовательных учреждений.
+> Самостоятельная Покупка недоступна в Индии, а также для государственных организаций и государственных учреждений. Project и Visio недоступны для самостоятельной покупки в Бразилии и Демократической Республика Конго.
 
 ## <a name="making-a-self-service-purchase"></a>Самостоятельная Покупка
 
