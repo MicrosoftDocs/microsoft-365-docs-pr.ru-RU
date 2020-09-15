@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6cba773d0c4bea259db151d5a8f1d8e03954a045
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 69a883263952b7c20225659ae023399e0242606d
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717299"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47650073"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Настройка пробной лабораторной среды Майкрософт для защиты от угроз 
 
@@ -36,19 +36,19 @@ ms.locfileid: "44717299"
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
         <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Подготовка лаборатории оценки Microsoft Threat protection" />
-      <br/>Этап 1: подготовка</a><br>
+      <br/>Этап 1: подготовка </a><br>
     </td>
      <td align="center"bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
         <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Настройка лаборатории оценки Microsoft Threat protection" />
-      <br/>Этап 2: Настройка</a><br>
+      <br/>Этап 2: Настройка </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
         <img src="../../media/config-onboard.png" alt="
 Configure each Microsoft Threat Protection pillar for your Microsoft Threat Protection trial lab environment and onboard your endpoints" title="
 Настройте каждый из принципов защиты от угроз Майкрософт для лаборатории пробной среды Майкрософт по защите от угроз и конечных точек." />
-      <br/>Этап 3: Настройка встроенного &</a><br>
+      <br/>Этап 3: Настройка встроенного & </a><br>
 </td>
 
 
@@ -137,7 +137,7 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 5. Нажмите кнопку **проверить** , чтобы подтвердить пробную версию Microsoft 365.
 <br>![Image of_Microsoft 365, перейдите на страницу Загрузка бесплатной пробной версии, где следует запустить кнопку Try Now](../../media/mtp-eval-27.png) <br>
  
-6. Перейдите в раздел **центр администрирования Microsoft 365**  >  **Users**  >  **Активные пользователи**. Выберите свою учетную запись пользователя, выберите **Управление лицензиями на продукты**, затем замените лицензию из Office 365 в ~ на **Microsoft 365**. Нажмите кнопку **Сохранить**.
+6. Перейдите в раздел **центр администрирования Microsoft 365**  >  **Users**  >  **Активные пользователи**. Выберите свою учетную запись пользователя, выберите **Управление лицензиями на продукты**, затем замените лицензию из Office 365 в ~ на **Microsoft 365**. Щелкните **Сохранить**.
 ![Image of_Microsoft 365. страница центра администрирования, на которой можно выбрать лицензию Майкрософт 365](../../media/mtp-eval-28.png) <br>
  
 7. Снова выберите учетную запись глобального администратора и нажмите кнопку **Управление именем пользователя**.
@@ -149,6 +149,4 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 
 
 ## <a name="next-step"></a>Следующий шаг
-|||
-|:-------|:-----|
-|![Этап 3: Настройка встроенного &](../../media/config-onboard.png) <br>[Этап 3: Настройка встроенного &](config-mtpeval.md) | Настройте каждый из принципов защиты от угроз Майкрософт для лаборатории оценки Microsoft Threat Protection и входящей конечной точки.
+![Этап 3: Настройка встроенного &](../../media/config-onboard.png) <br>[Этап 3: Настройка встроенного &](config-mtpeval.md) <br>Настройте каждый из принципов защиты от угроз Майкрософт для лаборатории оценки Microsoft Threat Protection и входящей конечной точки.

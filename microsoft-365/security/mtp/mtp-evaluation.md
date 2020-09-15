@@ -1,5 +1,5 @@
 ---
-title: Оценка защиты от угроз Майкрософт
+title: Оценка Защиты от угроз (Майкрософт)
 description: Настройте пробную среду лаборатории Майкрософт по защите от угроз, чтобы проверить, как согласованное решение для защиты от угроз предназначено для защиты устройств, удостоверений, данных и приложений, которые могут помочь вашей организации
 keywords: Пробная версия системы защиты от угроз Майкрософт, пробная защита от угроз Майкрософт, Лаборатория Microsoft Threat Protection, Лаборатория Microsoft Threat Protection, Лаборатория оценки безопасности кибератак, повышенная постоянная угроза, Корпоративная защита, устройства, устройства, удостоверения, пользователи, данные, приложения, происшествия, автоматизированное исследование и исправление, расширенное Поиск
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f6ee8147965a29b87d84690535116f096e4c6006
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a9d7b514aac8d1a769c0dabf6dcdb54f4bcb447b
+ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049643"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47649965"
 ---
 # <a name="create-a-microsoft-threat-protection-trial-lab-environment"></a>Создание пробной лабораторной среды Майкрософт для защиты от угроз 
 
@@ -70,14 +70,13 @@ ms.locfileid: "44049643"
     -   Microsoft Cloud App Security
     -   Advanced Threat Protection в Microsoft Defender
 
-## <a name="out-of-scope"></a>Вне области предоставляемых услуг
+## <a name="out-of-scope"></a>Вне области поддержки
 
 Ниже приведены рекомендации по развертыванию.
 
 -   Конфигурация сторонних решений, которые могут интегрироваться с защитником Майкрософт ATP
 -   Тестирование уязвимости в рабочей среде
 
-## <a name="next-step"></a>Следующий этап
-|||
-|:-------|:-----|
-|![Этап 1: подготовка](../../media/prepare.png) <br>[Этап 1: подготовка](prepare-mtpeval.md) | Подготовка лабораторной среды оценки Microsoft Threat protection
+## <a name="next-step"></a>Следующий шаг
+![Этап 1: подготовка](../../media/prepare.png) <br>[Этап 1: подготовка](prepare-mtpeval.md) 
+<br> Подготовка лабораторной среды оценки Microsoft Threat protection
