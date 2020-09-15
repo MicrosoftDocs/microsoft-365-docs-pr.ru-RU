@@ -13,55 +13,55 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: План настройки облачных служб для Microsoft 365.
-ms.openlocfilehash: 4e9630ad84b5e442f0c8fd6ab95ca9d0c48c780a
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: 9d28b03f17aa0b9de955af824939d0db28faa057
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315769"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775139"
 ---
-# <a name="cloud-services-roadmap-for-microsoft-365"></a><span data-ttu-id="0e5cb-103">План облачных служб для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="0e5cb-103">Cloud services roadmap for Microsoft 365</span></span>
+# <a name="cloud-services-roadmap-for-microsoft-365"></a><span data-ttu-id="bd78b-103">План облачных служб для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="bd78b-103">Cloud services roadmap for Microsoft 365</span></span>
 
-<span data-ttu-id="0e5cb-104">Для получения преимуществ Microsoft 365 для предприятий, а также для обеспечения творческих преимуществ, разверните облачные службы, соответствующие потребностям вашей организации.</span><span class="sxs-lookup"><span data-stu-id="0e5cb-104">To get the creativity, teamwork, and productivity benefits of Microsoft 365 for enterprise, deploy the cloud services that best fit your organization's needs.</span></span>
+<span data-ttu-id="bd78b-104">Для получения преимуществ Microsoft 365 для предприятий, а также для обеспечения творческих преимуществ, разверните облачные службы, соответствующие потребностям вашей организации.</span><span class="sxs-lookup"><span data-stu-id="bd78b-104">To get the creativity, teamwork, and productivity benefits of Microsoft 365 for enterprise, deploy the cloud services that best fit your organization's needs.</span></span>
 
-<span data-ttu-id="0e5cb-105">Если у вас есть существующие серверные развертывания для Exchange, SharePoint или Skype для бизнеса, ознакомьтесь со статьей [Схема программного обеспечения клиента и сервера](client-server-software-roadmap-microsoft-365.md) , чтобы перенести всю организацию в Microsoft 365 для предприятий.</span><span class="sxs-lookup"><span data-stu-id="0e5cb-105">If you have existing server-based deployments for Exchange, SharePoint, or Skype for Business, see the [client and server software roadmap](client-server-software-roadmap-microsoft-365.md) to migrate your entire organization to Microsoft 365 for enterprise.</span></span> <span data-ttu-id="0e5cb-106">Эта схема включает в себя клиентские продукты Microsoft Office, локальные продукты Office Server и устройства на основе Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="0e5cb-106">This roadmap includes Microsoft Office client products, on-premises Office Server products, and Microsoft Windows-based devices.</span></span>
+<span data-ttu-id="bd78b-105">Если у вас есть серверные развертывания для Exchange, SharePoint или Skype для бизнеса, и вы хотите перенести всю организацию в Microsoft 365 для предприятий, ознакомьтесь со статьей [Путеводитель по клиентским и серверному программному обеспечению](client-server-software-roadmap-microsoft-365.md).</span><span class="sxs-lookup"><span data-stu-id="bd78b-105">If you have existing server-based deployments for Exchange, SharePoint, or Skype for Business and want to migrate your entire organization to Microsoft 365 for enterprise, see the [client and server software roadmap](client-server-software-roadmap-microsoft-365.md).</span></span> <span data-ttu-id="bd78b-106">Эта схема включает в себя клиентские продукты Microsoft Office, локальные продукты Office Server и &ndash; устройства на основе Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="bd78b-106">This roadmap includes Microsoft Office client products, on-premises Office Server products, and Microsoft Windows&ndash;based devices.</span></span>
 
-## <a name="deploy"></a><span data-ttu-id="0e5cb-107">Развертывание</span><span class="sxs-lookup"><span data-stu-id="0e5cb-107">Deploy</span></span>
+## <a name="deploy"></a><span data-ttu-id="bd78b-107">Развертывание</span><span class="sxs-lookup"><span data-stu-id="bd78b-107">Deploy</span></span>
 
-<span data-ttu-id="0e5cb-108">Чтобы развернуть облачные службы, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="0e5cb-108">To deploy your cloud services:</span></span>
+<span data-ttu-id="bd78b-108">Чтобы развернуть облачные службы, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="bd78b-108">To deploy your cloud services:</span></span>
 
-- [<span data-ttu-id="0e5cb-109">Подготовка служб</span><span class="sxs-lookup"><span data-stu-id="0e5cb-109">Get your services ready</span></span>](configure-services-and-applications.md)
-- [<span data-ttu-id="0e5cb-110">Перенос локальных данных в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="0e5cb-110">Migrate your on-premises data to Microsoft 365</span></span>](migrate-data-to-office-365.md)
-- <span data-ttu-id="0e5cb-111">Получение облачных служб, настроенных для пользователей</span><span class="sxs-lookup"><span data-stu-id="0e5cb-111">Get your cloud services set up for your users</span></span>
-  - [<span data-ttu-id="0e5cb-112">Exchange Online</span><span class="sxs-lookup"><span data-stu-id="0e5cb-112">Exchange Online</span></span>](https://docs.microsoft.com/Exchange/exchange-online)
-  - [<span data-ttu-id="0e5cb-113">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="0e5cb-113">SharePoint Online</span></span>](https://docs.microsoft.com/sharepoint/sharepoint-online)
-  - [<span data-ttu-id="0e5cb-114">Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="0e5cb-114">Skype for Business</span></span>](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
-  - [<span data-ttu-id="0e5cb-115">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0e5cb-115">Microsoft Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
-  - [<span data-ttu-id="0e5cb-116">Yammer</span><span class="sxs-lookup"><span data-stu-id="0e5cb-116">Yammer</span></span>](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
-- [<span data-ttu-id="0e5cb-117">Обучение пользователей</span><span class="sxs-lookup"><span data-stu-id="0e5cb-117">Train your users</span></span>](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
+- [<span data-ttu-id="bd78b-109">Подготовка служб</span><span class="sxs-lookup"><span data-stu-id="bd78b-109">Get your services ready</span></span>](configure-services-and-applications.md)
+- [<span data-ttu-id="bd78b-110">Перенос локальных данных в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="bd78b-110">Migrate your on-premises data to Microsoft 365</span></span>](migrate-data-to-office-365.md)
+- <span data-ttu-id="bd78b-111">Получение облачных служб, настроенных для пользователей</span><span class="sxs-lookup"><span data-stu-id="bd78b-111">Get your cloud services set up for your users</span></span>
+  - [<span data-ttu-id="bd78b-112">Exchange Online</span><span class="sxs-lookup"><span data-stu-id="bd78b-112">Exchange Online</span></span>](https://docs.microsoft.com/Exchange/exchange-online)
+  - [<span data-ttu-id="bd78b-113">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="bd78b-113">SharePoint Online</span></span>](https://docs.microsoft.com/sharepoint/sharepoint-online)
+  - [<span data-ttu-id="bd78b-114">Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="bd78b-114">Skype for Business</span></span>](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
+  - [<span data-ttu-id="bd78b-115">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bd78b-115">Microsoft Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
+  - [<span data-ttu-id="bd78b-116">Yammer</span><span class="sxs-lookup"><span data-stu-id="bd78b-116">Yammer</span></span>](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
+- [<span data-ttu-id="bd78b-117">Обучение пользователей</span><span class="sxs-lookup"><span data-stu-id="bd78b-117">Train your users</span></span>](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
 
-## <a name="manage"></a><span data-ttu-id="0e5cb-118">Управление</span><span class="sxs-lookup"><span data-stu-id="0e5cb-118">Manage</span></span>
+## <a name="manage"></a><span data-ttu-id="bd78b-118">Управление</span><span class="sxs-lookup"><span data-stu-id="bd78b-118">Manage</span></span>
 
-<span data-ttu-id="0e5cb-119">Для управления облачными службами:</span><span class="sxs-lookup"><span data-stu-id="0e5cb-119">To manage your cloud services:</span></span> 
+<span data-ttu-id="bd78b-119">Для управления облачными службами:</span><span class="sxs-lookup"><span data-stu-id="bd78b-119">To manage your cloud services:</span></span> 
 
-- [<span data-ttu-id="0e5cb-120">Проверка работоспособности службы</span><span class="sxs-lookup"><span data-stu-id="0e5cb-120">Check your service health</span></span>](view-service-health.md)
-- [<span data-ttu-id="0e5cb-121">Общие сведения о вариантах поддержки</span><span class="sxs-lookup"><span data-stu-id="0e5cb-121">Understand your support options</span></span>](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-- <span data-ttu-id="0e5cb-122">Администрирование облачных служб</span><span class="sxs-lookup"><span data-stu-id="0e5cb-122">Administer your cloud services</span></span>
-  - [<span data-ttu-id="0e5cb-123">Exchange Online</span><span class="sxs-lookup"><span data-stu-id="0e5cb-123">Exchange Online</span></span>](https://docs.microsoft.com/Exchange/exchange-online)
-  - [<span data-ttu-id="0e5cb-124">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="0e5cb-124">SharePoint Online</span></span>](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
-  - [<span data-ttu-id="0e5cb-125">Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="0e5cb-125">Skype for Business</span></span>](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
-  - [<span data-ttu-id="0e5cb-126">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="0e5cb-126">Microsoft Teams</span></span>](https://docs.microsoft.com//MicrosoftTeams/quality-of-experience-review-guide)
-  - [<span data-ttu-id="0e5cb-127">Yammer</span><span class="sxs-lookup"><span data-stu-id="0e5cb-127">Yammer</span></span>](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
-- [<span data-ttu-id="0e5cb-128">Выполнение настройки производительности для облачных служб</span><span class="sxs-lookup"><span data-stu-id="0e5cb-128">Perform performance tuning for your cloud services</span></span>](tune-microsoft-365-performance.md)
+- [<span data-ttu-id="bd78b-120">Проверка работоспособности службы</span><span class="sxs-lookup"><span data-stu-id="bd78b-120">Check your service health</span></span>](view-service-health.md)
+- [<span data-ttu-id="bd78b-121">Общие сведения о вариантах поддержки</span><span class="sxs-lookup"><span data-stu-id="bd78b-121">Understand your support options</span></span>](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- <span data-ttu-id="bd78b-122">Администрирование облачных служб</span><span class="sxs-lookup"><span data-stu-id="bd78b-122">Administer your cloud services</span></span>
+  - [<span data-ttu-id="bd78b-123">Exchange Online</span><span class="sxs-lookup"><span data-stu-id="bd78b-123">Exchange Online</span></span>](https://docs.microsoft.com/Exchange/exchange-online)
+  - [<span data-ttu-id="bd78b-124">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="bd78b-124">SharePoint Online</span></span>](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
+  - [<span data-ttu-id="bd78b-125">Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="bd78b-125">Skype for Business</span></span>](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
+  - [<span data-ttu-id="bd78b-126">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bd78b-126">Microsoft Teams</span></span>](https://docs.microsoft.com//MicrosoftTeams/quality-of-experience-review-guide)
+  - [<span data-ttu-id="bd78b-127">Yammer</span><span class="sxs-lookup"><span data-stu-id="bd78b-127">Yammer</span></span>](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
+- [<span data-ttu-id="bd78b-128">Выполнение настройки производительности для облачных служб</span><span class="sxs-lookup"><span data-stu-id="bd78b-128">Perform performance tuning for your cloud services</span></span>](tune-microsoft-365-performance.md)
 
-## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a><span data-ttu-id="0e5cb-129">Как корпорация Майкрософт выполняет облачные службы для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="0e5cb-129">How Microsoft does cloud services for Microsoft 365</span></span>
+## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a><span data-ttu-id="bd78b-129">Как корпорация Майкрософт выполняет облачные службы для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="bd78b-129">How Microsoft does cloud services for Microsoft 365</span></span>
 
-<span data-ttu-id="0e5cb-130">Чтобы узнать о том, как ИТ-подразделение разворачивается или управляет Microsoft 365 Cloud Services, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="0e5cb-130">To see how Microsoft's IT division has deployed or is managing Microsoft 365 cloud services:</span></span>
+<span data-ttu-id="bd78b-130">Сведения о том, как Microsoft IT развернута или управляет облачными службами Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="bd78b-130">For information about how Microsoft IT has deployed or is managing Microsoft 365 cloud services:</span></span>
 
-1. <span data-ttu-id="0e5cb-131">Перейдите к [демонстрации ИТ Майкрософт](https://www.microsoft.com/itshowcase).</span><span class="sxs-lookup"><span data-stu-id="0e5cb-131">Go to the [Microsoft IT Showcase](https://www.microsoft.com/itshowcase).</span></span>
-2. <span data-ttu-id="0e5cb-132">Выберите **Поиск контента**.</span><span class="sxs-lookup"><span data-stu-id="0e5cb-132">Select **Search content**.</span></span>
-3. <span data-ttu-id="0e5cb-133">Для **уточнения результатов**выберите **ИТ-специалистов** в разделе **аудитория**и облачная служба, которую вы заинтересованы в разделе **продукт**.</span><span class="sxs-lookup"><span data-stu-id="0e5cb-133">In **Refine results**, select **IT Pro** under **Audience**, and the cloud service you're interested in under **Product**.</span></span>
+1. <span data-ttu-id="bd78b-131">Перейдите на страницу [демонстрации ИТ Microsoft](https://www.microsoft.com/itshowcase).</span><span class="sxs-lookup"><span data-stu-id="bd78b-131">Go to [Microsoft IT Showcase](https://www.microsoft.com/itshowcase).</span></span>
+2. <span data-ttu-id="bd78b-132">Выберите **Поиск контента**.</span><span class="sxs-lookup"><span data-stu-id="bd78b-132">Select **Search content**.</span></span>
+3. <span data-ttu-id="bd78b-133">В разделе **Уточнение результатов**выберите **ИТ-специалиста** в разделе **аудитория**, а затем в разделе **продукт**Выберите облачную службу.</span><span class="sxs-lookup"><span data-stu-id="bd78b-133">Under **Refine results**, select **IT Pro** under **Audience**, and then under **Product**, select a cloud service.</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="0e5cb-134">Следующий шаг</span><span class="sxs-lookup"><span data-stu-id="0e5cb-134">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="bd78b-134">Следующий шаг</span><span class="sxs-lookup"><span data-stu-id="bd78b-134">Next step</span></span>
 
-<span data-ttu-id="0e5cb-135">Начните внедрение облачных служб с помощью параметра " [Подготовка к работе](configure-services-and-applications.md)".</span><span class="sxs-lookup"><span data-stu-id="0e5cb-135">Start your implementation of cloud services with [Get ready](configure-services-and-applications.md).</span></span>
+<span data-ttu-id="bd78b-135">Запустите реализацию облачных служб.</span><span class="sxs-lookup"><span data-stu-id="bd78b-135">Start your cloud services implementation.</span></span> <span data-ttu-id="bd78b-136">Руководство по [настройке Microsoft 365 Enterprise Services and Applications](configure-services-and-applications.md).</span><span class="sxs-lookup"><span data-stu-id="bd78b-136">For guidance, see [Configure Microsoft 365 Enterprise services and applications](configure-services-and-applications.md).</span></span>
