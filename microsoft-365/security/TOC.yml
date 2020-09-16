@@ -7,21 +7,6 @@
           href: top-security-tasks-for-remote-work.md
         - name: "Безопасность в Microsoft\_365 для BDM"
           href: Microsoft-365-security-for-bdm.md
-        - name: Учебный семинар для руководителя по информационной безопасности (CISO)
-          href: ./office-365-security/ciso-workshop.md
-          items:
-            - name: Модуль 1 — информационная справка по кибербезопасности Майкрософт
-              href: ./office-365-security/ciso-workshop-module-1.md
-            - name: Модуль 2 — управление безопасностью
-              href: ./office-365-security/ciso-workshop-module-2.md
-            - name: Модуль 3 — удостоверение и пользовательский доступ с моделью "Никому не доверяй"
-              href: ./office-365-security/ciso-workshop-module-3.md
-            - name: 'Модуль 4a — стратегия защиты от угроз, часть I'
-              href: ./office-365-security/ciso-workshop-module-4a.md
-            - name: 'Модуль 4б — стратегия защиты от угроз, часть II'
-              href: ./office-365-security/ciso-workshop-module-4b.md
-            - name: Модуль 5 — защита информации
-              href: ./office-365-security/ciso-workshop-module-5.md
     - name: Конфигурации доступа для удостоверений и устройств
       href: ../enterprise/microsoft-365-policies-configurations.md
       items:
@@ -87,7 +72,7 @@
               href: mtp/generate-test-alert.md
         - name: Практические руководства
           items:
-            - name: Создание испытательной лабораторной среды
+            - name: Создание испытательной лабораторной или пилотной среды
               href: mtp/mtp-evaluation.md
             - name: Развертывание поддерживаемых служб
               href: mtp/deploy-supported-services.md
@@ -219,22 +204,62 @@
                   href: mtp/monitor-devices.md
                 - name: Мониторинг приложений и создание отчетов
                   href: mtp/monitor-apps.md
+            - name: Программные интерфейсы
+              items: null
+        - name: Справочные материалы
+          items:
             - name: Разрешения и параметры
               items:
                 - name: Управление доступом
                   href: mtp/mtp-permissions.md
                 - name: Установка часового пояса
                   href: mtp/mtp-time-zone.md
-            - name: Просмотр профилей устройств
-              href: mtp/device-profile.md
-            - name: Предоставление отзывов
-              href: mtp/feedback.md
-            - name: Создание запросов и задач ServiceNow
+                - name: Просмотр профилей устройств
+                  href: mtp/device-profile.md
+                - name: Предоставление отзывов
+                  href: mtp/feedback.md
+                - name: Создание запросов и задач ServiceNow
+                  items:
+                    - name: Общие сведения об интеграции с ServiceNow
+                      href: ./mtp/tickets.md
+                    - name: Запросы ServiceNow в Центре безопасности
+                      href: ./mtp/tickets-security-center.md
+            - name: Программные интерфейсы Защиты от угроз (Майкрософт) (ознакомительная версия)
               items:
-                - name: Общие сведения об интеграции с ServiceNow
-                  href: ./mtp/tickets.md
-                - name: Запросы ServiceNow в Центре безопасности
-                  href: ./mtp/tickets-security-center.md
+                - name: Обзор программных интерфейсов Защиты от угроз (Майкрософт) (в ознакомительной версии)
+                  href: mtp/api-overview.md
+                - name: Начало работы с программными интерфейсами Защиты от угроз (Майкрософт) (в ознакомительной версии)
+                  items:
+                    - name: Лицензия и условия использования программных интерфейсов Защиты от угроз (Майкрософт)
+                      href: mtp/api-terms.md
+                    - name: Доступ к программным интерфейсам Защиты от угроз (Майкрософт) (в ознакомительной версии)
+                      href: mtp/api-access.md
+                    - name: Пример Hello World
+                      href: mtp/api-hello-world.md
+                    - name: Получение доступа в контексте приложения
+                      href: mtp/api-create-app-web.md
+                    - name: Получение доступа в контексте пользователя
+                      href: mtp/api-create-app-user-context.md
+                    - name: Получение доступа для партнерских приложений
+                      href: mtp/api-partner-access.md
+                    - name: Другие ресурсы программных интерфейсов
+                      href: mtp/api-articles.md
+                - name: Интерфейсы и схема программных интерфейсов Защиты от угроз (Майкрософт) (ознакомительная версия)
+                  items:
+                    - name: Поддерживаемые программные интерфейсы Защиты от угроз (Майкрософт) (ознакомительная версия)
+                      href: mtp/api-supported.md
+                    - name: Коды распространенных ошибок REST API
+                      href: mtp/api-error-codes.md
+                    - name: Программный интерфейс расширенной охоты
+                      href: mtp/api-advanced-hunting.md
+                    - name: 'Программные интерфейсы, относящиеся к инцидентам'
+                      items:
+                        - name: 'Методы и свойства, относящиеся к инцидентам'
+                          href: mtp/api-incident.md
+                        - name: Получение списка инцидентов
+                          href: mtp/api-list-incidents.md
+                        - name: Обновление данных об инциденте
+                          href: mtp/api-update-incidents.md
     - name: Безопасность Office 365
       items:
         - name: Начало работы
