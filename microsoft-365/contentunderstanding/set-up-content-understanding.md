@@ -1,22 +1,22 @@
 ---
 title: 'Сведения о настройке контента (Предварительная версия) '
 description: Настройка проекта кортекс.
-author: efrene
-ms.author: efrene
-manager: pamgreen
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
 ms.date: 08/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5fcc7f78bfc12faae19ce2a3fbc77c4348da01de
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 05696f99e59cbd51ba004f6007311b4b6af4a839
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612706"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950040"
 ---
 # <a name="set-up-content-understanding-preview"></a>Сведения о настройке контента (Предварительная версия)
 
@@ -32,7 +32,7 @@ ms.locfileid: "46612706"
 Администратор также может вносить изменения в выбранные параметры в любое время после установки через содержание параметры управления в центре администрирования Microsoft 365.
 
 
-## <a name="requirements"></a>Требования 
+## <a name="requirements"></a>Requirements 
 Чтобы получить доступ к центру администрирования Microsoft 365 и настроить общие сведения о контенте, необходимо иметь разрешения глобального администратора или администратора SharePoint.
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "46612706"
     
 5. На странице " **Создание центра содержимого** " можно создать сайт центра контента SharePoint, на котором пользователи могут создавать и управлять моделями документов. </br>
     а. В поле **имя сайта**введите имя, которое вы хотите присвоить сайту центра контента.</br>
-    б. В поле **адрес сайта** отобразится URL-адрес вашего сайта в зависимости от того, что выбрано для имени сайта.</br>
+    b. В поле **адрес сайта** отобразится URL-адрес вашего сайта в зависимости от того, что выбрано для имени сайта.</br>
 
     > [!Note] 
     > Несмотря на то, что вы можете выбрать любой поддерживаемый язык, обратите внимание на то, что основные сведения о моделях можно создавать только для английского языка.</br>

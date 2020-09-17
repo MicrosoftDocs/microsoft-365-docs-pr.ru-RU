@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07f67fc4-c0a4-4d3f-ad20-f40c7f6db524
 description: Узнайте, как получить отчет об активности пользователей Microsoft Teams и получить сведения о действиях Teams в вашей организации.
-ms.openlocfilehash: 59fdeec9979b939524279d938e97baf6993d3cb0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f4becffe44a8ad5998c0b199b3079dfaa7b04738
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387673"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948980"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия пользователей Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "44387673"
 
 Чтобы получить представление о действиях пользователей в Microsoft Teams, взгляните на диаграммы **Действия** и **Пользователи**.<br/>![Microsoft 365 Reports — действия пользователей Microsoft Teams.](../../media/40359f81-25f7-416d-bb1e-37289133ef6b.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |В отчете **Действия пользователей Microsoft Teams** можно отследить тенденции за последние 7, 30, 90 и 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов.  <br/> |

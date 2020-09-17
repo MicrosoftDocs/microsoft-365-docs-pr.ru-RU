@@ -21,12 +21,12 @@ search.appverid:
 - BSA160
 ms.assetid: a91c958f-1279-499d-9959-12f0de08dc8f
 description: Получите отчет об использовании действий SharePoint, чтобы узнать о действиях каждого пользователя SharePoint, количестве общих файлов и использовании хранилища.
-ms.openlocfilehash: de4d4951f98e722a3608e9bccf2c4a1dbfc388d0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b0c628300647e83889e273268bef7abd9e337ed4
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387493"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948872"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия SharePoint
 
@@ -53,7 +53,7 @@ ms.locfileid: "44387493"
 
 Чтобы узнать, какие действия выполняются в SharePoint, откройте представления **Файлы** и **Пользователи**.<br/> ![SharePoint Activity Report](../../media/96ee85af-f213-499b-9e2b-22912bd0b8c2.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |В отчете **Действия с SharePoint** можно отследить тенденции за последние 7, 30, 90 и 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов.  <br/> |

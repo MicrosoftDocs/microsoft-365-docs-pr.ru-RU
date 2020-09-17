@@ -14,12 +14,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Узнайте, как управлять связанными функциями в группах Microsoft 365, Teams, SharePoint и Yammer.
-ms.openlocfilehash: cdef9a4f939c20b34bf32efb5a258deddd885d0e
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: b217dc089eb150d01eed9cd720b2caa290d54bf1
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662773"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950716"
 ---
 # <a name="overview-of-collaboration-governance-in-microsoft-365"></a>Обзор руководства по совместной работе в Microsoft 365
 
@@ -108,16 +108,16 @@ Microsoft 365 поддерживает три основных способа с
 
 Изучите основы и новые нововведения в группах Microsoft 365, в том числе управление и управление на масштабируемости, рекомендации по эффективному использованию и внедрению и самообслуживания.
 
-- [Принятие групп Microsoft 365](https://myignite.techcommunity.microsoft.com/sessions/81553)
+- [Принятие групп Microsoft 365](https://www.youtube.com/watch?v=dAamBF1gb7M)
 
 **Управление**
 
 Сведения о том, как настроить жизненный цикл срока действия групп, политики именования, метки классификации, совместную работу с внешними гостями и управлять разрешениями на создание групп.
 
-- [Преобразование совместной работы и борьбы с теневым копированием с помощью групп Office 365](https://myignite.techcommunity.microsoft.com/sessions/81554)
+- [Преобразование совместной работы и борьбы с теневым копированием с помощью групп Office 365](https://www.youtube.com/watch?v=Bhf_bKx3lAg)
 
 **Пример клиента**
 
 В этом примере показано, как использовать группы Microsoft 365, SharePoint, Teams и Yammer совместно для предоставления глобальной платформы совместной работы.
 
-- [Поиск своей точки взаимодействия с группами Office 365, SharePoint, Teams и Yammer](https://myignite.techcommunity.microsoft.com/sessions/84289)
+- [Поиск своей точки взаимодействия с группами Office 365, SharePoint, Teams и Yammer](https://www.youtube.com/watch?v=Rx9eVwqXeQk)

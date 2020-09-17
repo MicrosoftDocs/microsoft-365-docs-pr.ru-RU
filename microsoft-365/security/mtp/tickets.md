@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 12ac7d0a3d07749e16443e645f50de8fda185658
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: b9e900baf02e9fc866fe6fe520ad1e40ccd565de
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866783"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950704"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Интеграция билетов с ServiceNow в центр безопасности и соответствия требованиям Microsoft 365
 
@@ -32,12 +32,12 @@ ms.locfileid: "46866783"
 
 ServiceNow — это популярная платформа облачных вычислений, которая помогает компаниям управлять цифровыми рабочими процессами для корпоративных операций. На их платформах теперь есть рабочие процессы, рабочие процессы сотрудников и рабочие процессы клиентов. [Дополнительные сведения о ServiceNow](https://www.servicenow.com/)
 
-Корпорация Майкрософт поделилась с ServiceNow, чтобы облегчить ИТ-администраторам управлять своими билетами и задачами на обеих платформах. [Центр безопасности microsoft 365](overview-security-center.md) и [центр соответствия требованиям корпорации майкрософт (Microsoft 365](https://docs.microsoft.commicrosoft-365/compliance/microsoft-365-compliance-center) ) позволяют улучшить создание и отслеживание билетов в ServiceNow.
+Корпорация Майкрософт поделилась с ServiceNow, чтобы облегчить ИТ-администраторам управлять своими билетами и задачами на обеих платформах. [Центр безопасности microsoft 365](overview-security-center.md) и [центр соответствия требованиям корпорации майкрософт (Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) ) позволяют улучшить создание и отслеживание билетов в ServiceNow.
 
 - [**Управление билетами ServiceNow в центре безопасности**](tickets-security-center.md)
 - **Управление билетами ServiceNow в центре соответствия требованиям** (ожидается в ближайшее время)
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Доступ к центру безопасности Microsoft 365 или центру соответствия требованиям и экземпляру ServiceNow с помощью следующих компонентов:  
 

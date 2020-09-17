@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Получите отчет о группах Microsoft 365, чтобы узнать о группах и их действиях.
-ms.openlocfilehash: 5c89cc6b5b211cbba3414f61d6b15c0c62f54c73
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1d329efa4fe7cdf12b6c7452b6480d237fb3d5c1
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387565"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948992"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Отчеты Microsoft 365 в центре администрирования — группы Майкрософт 365
 
@@ -46,7 +46,7 @@ ms.locfileid: "44387565"
   
 ![Microsoft 365 Reports — действия с группами](../../media/852027a4-8eab-47d1-b770-2bb874bdc403.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |Отчет по **группам Microsoft 365** можно просмотреть для тенденций за последние 7 дней, 30 дней, 90 дней или 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов.  <br/> |

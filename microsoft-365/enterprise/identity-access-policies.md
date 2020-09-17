@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8c4b136f30da0499b31102683f1a903e71813142
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1512ba01f78d901177254fce86d0154e97e36496
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547230"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950798"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Основные политики доступа для удостоверений и устройств
 
@@ -35,6 +35,10 @@ ms.locfileid: "47547230"
 
 [ ![ Общие политики для настройки удостоверений и доступа к устройствам](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
  [просмотреть более крупную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+
+Ниже приведена одностраничная сводка PDF-файлов со ссылками на индивидуальные политики:
+
+[![Эскизы для защиты удостоверений и устройств для Microsoft 365 раздаточные материалы](../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br/>  [Просмотр в виде PDF-файла](../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Загрузка в виде PDF-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)  
 
 В оставшейся части этой статьи рассказывается, как настроить эти политики. 
 
@@ -374,7 +378,6 @@ With Conditional Access, organizations can restrict access to approved (modern a
 
 ## <a name="next-step"></a>Следующий шаг
 
-![Шаг 3: политики для гостевых и внешних пользователей](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)
-
+[![Шаг 3: политики для гостевых и внешних пользователей](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)](identity-access-policies-guest-access.md)
 
 [Сведения о рекомендациях по политике для гостевых и внешних пользователей](identity-access-policies-guest-access.md)

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3ca475ef6dbdbd66af47216c4130d748788730c2
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 2259158c566223c39a6b533483551f95c2fa0824
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419136"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949304"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -31,7 +31,12 @@ ms.locfileid: "47419136"
 
 Используйте эти рекомендации для ускорения получения результатов и предотвращения превышения времени ожидания при выполнении сложных запросов. Дополнительные руководства по повышению производительности запросов см. в статье [Рекомендации по использованию запросов Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).
 
-## <a name="general-guidance"></a>Общие рекомендации
+## <a name="understand-cpu-resource-limits"></a>Общие сведения об ограничении ресурсов ЦП
+В зависимости от размера у каждого клиента есть доступ к заданному объему ресурсов ЦП, выделенному для запуска расширенных запросов на поиск. Для получения подробных сведений о различных пределах обслуживания [Ознакомьтесь с дополнительными пределами](advanced-hunting-limits.md).
+
+Клиенты, которые регулярно запускают несколько запросов, должны отслеживать потребление и применять рекомендации по оптимизации, описанные в этой статье, для минимизации сбоев, возникших в результате превышения предельных значений.
+
+## <a name="general-optimization-tips"></a>Общие рекомендации по оптимизации
 
 - **Изменение размера новых запросов**— если вы подозреваете, что запрос возвратит большой набор результатов, сначала оцените его с помощью [оператора Count](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator). Используйте [ограничения](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) или синонимы `take` , чтобы избежать больших наборов результатов.
 - **Примените фильтры раньше**, примените фильтры времени и другие фильтры для сокращения набора данных, особенно перед использованием функций преобразования и синтаксического анализа, таких как [substring ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [Replace ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [Trim ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [ToUpper ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)или [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). В приведенном ниже примере функция анализа [екстрактжсон ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) используется после уменьшения числа записей в операторах фильтрации.
@@ -253,11 +258,9 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 
 Чтобы узнать обо всех поддерживаемых функциях синтаксического анализа, [прочитайте о функциях строк Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions). 
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Документация по языку запросов Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
+- [Пределы служб](advanced-hunting-limits.md)
+- [Обработка дополнительных ошибок при поиске](advanced-hunting-errors.md)
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
-- [Работа с результатами запросов](advanced-hunting-query-results.md)
-- [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
-- [Сведения о схеме](advanced-hunting-schema-tables.md)

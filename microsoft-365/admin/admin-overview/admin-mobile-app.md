@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Получите приложение Microsoft 365 Admin и научитесь управлять своей организацией с телефона или планшета.
-ms.openlocfilehash: 287aafb0be3161c5f100211d6d8169fd133d427b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 1ad44ccc379b5115ad36e657708eed38f58dca34
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780545"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948812"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Сведения о мобильном приложении Microsoft 365 Admin
 
@@ -40,7 +40,7 @@ ms.locfileid: "44780545"
 
 - Получение уведомлений об исправности и изменениях службы
 - Создание запроса на обслуживание
-- Сброс пароля пользователя
+- сбросить пароль пользователя.
 - Назначение лицензий
 - Добавление и удаление сведений о членстве в группах
 - Добавление пользователей 
@@ -58,7 +58,7 @@ ms.locfileid: "44780545"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
  
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
@@ -88,6 +88,10 @@ ms.locfileid: "44780545"
 ### <a name="how-can-i-share-the-service-incidents-and-messages-with-the-rest-of-my-organization"></a>Как рассказать об инцидентах обслуживания и поделиться другими сообщениями с сотрудниками моей организации?
 
 Если вы выберете определенный инцидент службы или сообщение, параметр Общий доступ будет находиться в правом верхнем углу. На данный момент поддерживается отправка этих элементов по электронной почте.
+  
+### <a name="can-i-use-this-app-with-multiple-accounts-or-tenants"></a>Можно ли использовать это приложение с несколькими учетными записями или клиентами?
+
+Да, можно настроить несколько учетных записей или клиентов.
   
 ### <a name="my-app-is-acting-funny-what-can-i-do-to-troubleshoot-weird-app-behavior"></a>С приложением что-то не так. Как можно устранить неполадки?
 

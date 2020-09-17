@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: a88fc5f46a6dafda72a24ba5e80587b24a216955
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: c61526139111885ec345bc4a4dd3cd6b147370e6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546488"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950812"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Политики для разрешения гостевых и внешних поправных доступа
 
@@ -55,7 +55,9 @@ ms.locfileid: "47546488"
 ### <a name="guests-vs-external-users"></a>Гости и внешние пользователи
 В Azure AD гостевые и внешние пользователи одинаковы. Тип пользователя для обоих из них — гость. Гостевые пользователи — это пользователи B2B.
 
-Microsoft Teams различает гостевые пользователи и внешних пользователей в приложении, но они являются пользователями B2B при проверке подлинности. Для получения дополнительных сведений о гостевых и внешних пользователях Teams, ознакомьтесь с разделом [Включение гостевого и внешнего доступа для Teams](teams-access-policies.md#enabling-guest-and-external-access-for-teams).
+Microsoft Teams различает гостевые пользователи и внешних пользователей в приложении. Гостевые пользователи имеют учетные записи Azure AD B2B и могут быть добавлены в Teams. Внешние пользователи могут участвовать только в звонках, разговорах и собраниях. Для получения дополнительных сведений ознакомьтесь [с этим сравнением гостевых и внешних пользователей для Teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access).
+
+Для получения дополнительных сведений о защите удостоверений и доступа к устройствам для Teams ознакомьтесь с [рекомендациями по политике по обеспечению безопасности чатов, групп и файлов Teams](teams-access-policies.md) .
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>Требовать постоянного постоянного для гостевых и внешних пользователей
 Эта политика предлагает гостям регистрироваться для MFA в клиенте независимо от того, зарегистрированы ли они для MFA в своем домашнем клиенте. При доступе к ресурсам в клиенте виртуальные машины и внешние пользователи должны использовать MFA для каждого запроса. 

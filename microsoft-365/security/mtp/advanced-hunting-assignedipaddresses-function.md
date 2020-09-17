@@ -17,30 +17,29 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 72d02bafa168e48c2d588771f5289da09e6d6000
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: 4ee07abe7ce1432921a843d713d0f9b914631174
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794235"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949316"
 ---
-# <a name="assignedipaddresses"></a>Ассигнедипаддрессес ()
+# <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+Используйте `AssignedIPAddresses()` функцию для быстрого получения последних IP-адресов, назначенных устройству. Если указать аргумент timestamp, эта функция получает самые последние IP-адреса в указанное время. 
 
-Используйте `AssignedIPAddresses()` функцию для быстрого получения последних IP-адресов, назначенных устройству или последним IP-адресам из указанного момента времени. Эта функция возвращает таблицу со следующими столбцами:
+Эта функция возвращает таблицу со следующими столбцами:
 
 | Столбец | Тип данных | Описание |
 |------------|-------------|-------------|
-| Timestamp | datetime | Время последнего обнаружения устройства с помощью IP-адреса |
-| IPAddress | string | IP-адрес, используемый устройством |
-| иптипе | string | Указывает, является ли IP-адрес общедоступным или частным адресом |
-| нетворкадаптертипе | int | Тип сетевого адаптера, используемый устройством, которому назначен IP-адрес. Чтобы получить возможные значения, обратитесь к [этому перечислению](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2)  |
-| коннектеднетворкс | int | Сети, к которым подключен адаптер с назначенным IP-адресом. Каждый массив JSON содержит имя сети, категорию (общедоступное, частное, частное или доменное), описание и флаг, указывающий, подключен ли он к Интернету общедоступным |
-
+| `Timestamp` | datetime | Время последнего обнаружения устройства с помощью IP-адреса |
+| `IPAddress` | string | IP-адрес, используемый устройством |
+| `IPType` | string | Указывает, является ли IP-адрес общедоступным или частным адресом |
+| `NetworkAdapterType` | int | Тип сетевого адаптера, используемый устройством, которому назначен IP-адрес. Чтобы получить возможные значения, обратитесь к [этому перечислению](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `ConnectedNetworks` | int | Сети, к которым подключен адаптер с назначенным IP-адресом. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или доменный), описание и флаг, указывающий, подключен ли он к Интернету общедоступным |
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -50,12 +49,12 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Аргументы
 
-- **x** — `DeviceId` или `DeviceName` значение, идентифицирующее устройство
-- значение **y** — `Timestamp` (DateTime), указывающее конкретный момент времени, где можно получить самые последние IP-адреса. Если этот параметр не указан, функция возвращает последние IP-адреса.
+- **x**— `DeviceId` или `DeviceName` значение, идентифицирующее устройство
+- **y**— `Timestamp` значение DateTime, указывающее функции получить последние назначенные IP-адреса с определенного момента времени. Если этот параметр не указан, функция возвращает последние IP-адреса.
 
 ## <a name="examples"></a>Примеры
 
-### <a name="get-the-list-of-ip-addresses-used-by-a-device-as-of-24-hours-ago"></a>Получение списка IP-адресов, используемых устройством на 24 часа назад
+### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>Получение списка IP-адресов, используемых устройством через 24 часа назад
 
 ```kusto
 AssignedIPAddresses('example-device-name', ago(1d))
@@ -76,7 +75,7 @@ AssignedIPAddresses(DeviceName, Date)
 | where Timestamp between ((AssignedTime - 1h) .. (AssignedTime + 1h))
 ```
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

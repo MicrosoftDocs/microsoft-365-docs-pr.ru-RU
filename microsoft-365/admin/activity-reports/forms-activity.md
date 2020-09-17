@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Узнайте, как получить отчет об активности Microsoft Forms с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365.
-ms.openlocfilehash: f835533fb626c8d6e7bd408b90abaa558304e20b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 78b09edfbfeb83c056af16787085b7c4cfe93fc6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387757"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949208"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия с формами
 
@@ -47,7 +47,7 @@ ms.locfileid: "44387757"
 
 ![Отчет о действиях с формами](../../media/adminformsactivity.png)
 
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |Отчет о **действиях с формами** можно просмотреть для тенденций за последние 7, 30, 90 дней или 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов.  <br/> |

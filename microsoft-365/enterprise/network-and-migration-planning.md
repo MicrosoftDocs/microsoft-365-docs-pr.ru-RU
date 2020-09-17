@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
 description: В этой статье содержатся ссылки на сведения о планировании сети, тестировании и миграции в Office 365.
-ms.openlocfilehash: 1e6973f93c65012f4ca007332a47cc6b9e67b3b0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2b08b05b8863fd9351510878f9438264bb2999f5
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693513"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948452"
 ---
 # <a name="network-and-migration-planning-for-office-365"></a>Планирование сети и миграции для Office 365
 
@@ -51,7 +51,7 @@ ms.locfileid: "46693513"
     
 2. Определите, какие службы и функции Office 365 будут доступны для использования клиентами. Скорее всего, у вас будут группы людей с разными службами или профилями использования.
     
-3. Измерьте использование сети для пилотной группы клиентов. Убедитесь, что пилотным клиентам характерны различные профили сотрудников Организации, а также различные географические расположения. Вы можете проанализировать результаты с помощью старых калькуляторов для [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) и [Skype для бизнеса](https://go.microsoft.com/fwlink/p/?LinkId=321551) , а также для [исследования обращений](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) , которые мы выполняли в своей сети. 
+3. Измерьте использование сети для пилотной группы клиентов. Убедитесь, что пилотным клиентам характерны различные профили сотрудников Организации, а также различные географические расположения. Вы можете проверить свои результаты на соответствие старым калькуляторам для [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) и [Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network) , а также [изучить ситуацию](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) , которую мы предоставим в собственной сети. 
     
 4. Используйте измерения из пилотной группы для экстраполяции потребностей Организации и повторной проверки, чтобы проверить оценки перед внесением изменений в сеть.
     
@@ -94,7 +94,7 @@ ms.locfileid: "46693513"
 
 В этих разделах содержатся подробные справочные сведения о сети Office 365.
   
-- [Управление конечными точками Office 365](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
+- [Управление конечными точками Office 365](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
     
 - [Сети доставки содержимого](content-delivery-networks.md)
     

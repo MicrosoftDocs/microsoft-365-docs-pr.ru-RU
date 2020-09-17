@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 94dd92ec-ea73-43c6-b51f-2a11fd78aa31
 description: Получите отчет об активности групп Yammer, чтобы узнать о количестве создаваемых и используемых в организации групп Yammer и их действиях.
-ms.openlocfilehash: a5a9d3d8820241cc3d99a4a08e647bd05dafd5ef
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a8fb1ed4a22420723fa28b7d5a175e2ccf777e77
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387445"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948848"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>Отчеты Microsoft 365 в центре администрирования — отчет о действиях в группах Yammer
 
@@ -45,7 +45,7 @@ ms.locfileid: "44387445"
 
 Чтобы получить представление о действиях пользователей в группах Yammer, взгляните на диаграммы **Группы** и **Активность**.<br/>![Yammer groups activity chart](../../media/4ba4ea03-2f74-4d86-8c63-2b18477c9769.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |В отчете **Действия в группах Yammer** можно отследить тенденции за последние 7, 30, 90 и 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов. <br/> |

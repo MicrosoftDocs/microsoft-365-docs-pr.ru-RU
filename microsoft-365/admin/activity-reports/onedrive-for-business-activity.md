@@ -22,12 +22,12 @@ search.appverid:
 - ODB160
 ms.assetid: 8bbe4bf8-221b-46d6-99a5-2fb3c8ef9353
 description: Получение отчета об использовании OneDrive для Организации и знание активности каждого пользователя OneDrive, количества общих файлов и использования хранилища.
-ms.openlocfilehash: 9de2260049d901b401bd62a9e4d05191222b97a3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: dd5ac1c52d2226b12c75dc92c3407012251a90da
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387541"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948932"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>Отчеты Microsoft 365 в центре администрирования — действие OneDrive для бизнеса
 
@@ -56,7 +56,7 @@ ms.locfileid: "44387541"
   
 ![OneDrive Activity Report](../../media/316b2a03-8e42-447c-aae8-080813eebe84.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |В отчете **Действия в OneDrive для бизнеса** можно отследить тенденции за последние 7, 30, 90 и 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов. <br/>|

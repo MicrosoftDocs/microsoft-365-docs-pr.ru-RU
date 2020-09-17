@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Узнайте, как получить отчет о действиях Microsoft Forms Pro с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365.
-ms.openlocfilehash: df03f3f0300dcd923f43987ee786981b1653b1ce
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 58c7a76c49b7c925a4e7851f7e81c7f47d465d3a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387709"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949196"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-pro-activity"></a>Отчеты Microsoft 365 в центре администрирования: действия с формами Pro
 
@@ -47,7 +47,7 @@ ms.locfileid: "44387709"
 
 ![Отчет о действиях с формами](../../media/formsproactivity.png)
 
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |Отчет по действиям в **формах Pro** позволяет просматривать тенденции за последние 7, 30, 90 дней или 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).   <br/> |
 |2.  <br/> |Данные в каждом отчете обычно являются последними в течение последних 48 часов.  <br/> |

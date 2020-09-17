@@ -22,12 +22,12 @@ search.appverid:
 - ODB160
 ms.assetid: 0de3b312-c4e8-4e4b-a02d-32b2f726a680
 description: 'Получите отчет об использовании OneDrive для бизнеса, который будет знать общее количество файлов и хранилища, используемых в Организации. '
-ms.openlocfilehash: 33c319961adc02ba5b8c937bd14626461bbb7200
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: e08dff4e763479afa197377d37e474384492c012
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560403"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948928"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Отчеты Microsoft 365 в центре администрирования: использование OneDrive для бизнеса
 
@@ -51,7 +51,7 @@ ms.locfileid: "46560403"
   
 ![OneDrive Usage Report](../../media/49c5b93b-d081-436e-8992-236343a6d46b.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |Отчет **Использование OneDrive** показывает тенденции за последние 7, 30, 90 или 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов. <br/>|

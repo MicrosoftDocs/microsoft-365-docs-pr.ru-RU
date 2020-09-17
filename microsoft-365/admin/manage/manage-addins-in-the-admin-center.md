@@ -1,5 +1,5 @@
 ---
-title: Управление надстройками в центре администрирования
+title: Управление надстройками в Центре администрирования
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Узнайте, как развертывать надстройки для пользователей и групп в Организации с помощью централизованного развертывания в центре администрирования.
-ms.openlocfilehash: caaea8404c099f56704d21684323a4b20e61f52d
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 10bca6776173c07a28b097f44c641c3e65a0cf6c
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45103115"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948704"
 ---
-# <a name="manage-add-ins-in-the-admin-center"></a>Управление надстройками в центре администрирования
+# <a name="manage-add-ins-in-the-admin-center"></a>Управление надстройками в Центре администрирования
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -148,11 +148,11 @@ ms.locfileid: "45103115"
   
 2. Выберите **Управление, управляемое администратором** , в левой панели навигации. 
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 
-[Развертывание надстроек в центре администрирования](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
+[Развертывание надстроек в Центре администрирования](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
 
-Получите дополнительные сведения о создании [надстроек Office](https://go.microsoft.com/fwlink/p/?linkid=846362).
+Получите дополнительные сведения о создании [надстроек Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).
   
 [Используйте командлеты PowerShell централизованного развертывания для управления](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)надстройками.
   

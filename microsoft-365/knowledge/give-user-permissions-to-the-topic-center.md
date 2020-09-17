@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сведения о том, как предоставить пользователям разрешения на выполнение задач в центре разделов
-ms.openlocfilehash: 2b7c745146b0386ff7f8bc2dcaf126a530b77598
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: b920c6e444eda7b33b8ec71e1bfa4d3ee5b220b6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612576"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949730"
 ---
 # <a name="give-user-permissions-to-the-topic-center-preview"></a>Предоставление пользователям разрешений для центра справки (Предварительная версия)
 
@@ -45,13 +45,13 @@ ms.locfileid: "46612576"
 7. После добавления пользователя нажмите кнопку **Добавить**.
 3. В разделе **кто может создавать и редактировать темы**выберите **Просмотр**.
 4. Добавьте пользователя в поле **только выбранные пользователи или группы безопасности** .
-5. Нажмите кнопку **Добавить**.
+5. Нажмите кнопку **Add** (Добавить).
 
 Предоставление пользователю разрешений на создание и редактирование разделов:
 
 1. На вкладке **разрешения раздела** в разделе **Пользователи, которые могут создавать и редактировать разделы**выберите **вид**.
 2. Добавьте пользователя в поле **только выбранные пользователи или группы безопасности** .
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
 
 

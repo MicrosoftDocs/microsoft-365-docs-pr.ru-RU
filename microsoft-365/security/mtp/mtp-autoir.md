@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: c45b7d1b01ee776e9519d67ee52d36b8f48bf0ef
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 9fc4c99254f4f27b476930a555b237be093bff24
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552358"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950728"
 ---
 # <a name="automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Автоматизированное исследование и возможности реагирования в защите от угроз Майкрософт
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-По мере инициирования оповещений системы безопасности Группа управления операциями может искать эти оповещения и принимать меры по защите Организации. Определение приоритета и анализ оповещений могут отнимать очень много времени, особенно в условиях постоянного появления новых оповещений во время анализа. Службы обеспечения безопасности могут быть перегружены из-за огромного количества угроз, которые им нужно отслеживать и от которых необходимо защищать. Автоматизированное исследование и возможности реагирования (также называемые *автоматизированными возможностями самовосстановления* ) в Microsoft Threat Protection могут помочь. 
+По мере инициирования оповещений системы безопасности Группа управления операциями может искать эти оповещения и принимать меры по защите Организации. Определение приоритета и анализ оповещений могут отнимать очень много времени, особенно в условиях постоянного появления новых оповещений во время анализа. Службы обеспечения безопасности могут быть перегружены из-за огромного количества угроз, которые им нужно отслеживать и от которых необходимо защищать. Автоматизированное исследование и возможности реагирования (также называемые функциями *самовосстановления* ) в Microsoft Threat Protection могут помочь. 
 
 Просмотрите следующее видео, чтобы узнать, как работают автоматизированные возможности самовосстановления:
 
@@ -72,13 +72,13 @@ ms.locfileid: "46552358"
 
 ## <a name="requirements-for-automated-investigation-and-response-in-microsoft-threat-protection"></a>Требования к автоматическому расследованию и отклику системы защиты от угроз Майкрософт
 
-|Требование |Сведения |
+|Требования |Сведения |
 |--|--|
 |Требования к подписке: |Один из следующих продуктов: <br/>— Microsoft 365 <br/>— Microsoft 365 A5 <br/>— Microsoft 365, безопасность<br/>— Безопасность Microsoft 365 A5<br/>— Office 365 в ~ и Enterprise Mobility + Security/безопасность а, Windows ~<br/><br/>Ознакомьтесь с [требованиями лицензионного соглашения Майкрософт по защите от угроз](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?#licensing-requirements).|
 |Требования к сети: |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) активирована<br/>- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) (MCAS) настроена<br/>- [Интеграция MCAS с Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
 |Требования к компьютеру Windows: |-Windows 10 версии 1709 или более поздней (ознакомьтесь со [сведениями о выпуске Windows 10](https://docs.microsoft.com/windows/release-information/)) со следующими настройками служб защиты от угроз:<br/>- [Пакет ATP для защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) <br/>- [Антивирусная программа "Защитник Windows"](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) |
 |Защита содержимого электронной почты и файлов Office |Настройка [Advanced Threat Protection для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) |
-|Разрешения |-Для настройки автоматического исследования и ответа необходимо, чтобы роль глобального администратора или администратора безопасности была назначена в Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) или в центре администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/><br/>— Чтобы использовать функции автоматического исследования и реагирования, ознакомьтесь с [разрешениями, необходимыми для задач центра уведомлений](mtp-action-center.md#required-permissions-for-action-center-tasks). |
+|Permissions |-Для настройки автоматического исследования и ответа необходимо, чтобы роль глобального администратора или администратора безопасности была назначена в Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) или в центре администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/><br/>— Чтобы использовать функции автоматического исследования и реагирования, ознакомьтесь с [разрешениями, необходимыми для задач центра уведомлений](mtp-action-center.md#required-permissions-for-action-center-tasks). |
 
 ## <a name="next-steps"></a>Дальнейшие действия:
 

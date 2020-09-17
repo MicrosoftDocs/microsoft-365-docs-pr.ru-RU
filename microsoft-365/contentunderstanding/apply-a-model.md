@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как применить опубликованную модель к библиотеке документов SharePoint.
-ms.openlocfilehash: 0658710704273ed04e9f2067413d1141773ef4aa
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 8a4931f4b7a936caeb99d7f8c07deefdac62919b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612684"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950252"
 ---
 # <a name="apply-a-document-understanding-model-preview"></a>Применение модели "Общие сведения о документе" (Предварительная версия)
 
@@ -39,7 +39,7 @@ ms.locfileid: "46612684"
 
 Чтобы применить модель к библиотеке документов SharePoint, выполните следующие действия:
 
-1. На плитке " **применить модель к библиотекам** " на плитке Главная страница модели выберите пункт **опубликовать модель**. Кроме того, вы можете выбрать **+ Добавить библиотеку** в разделе **библиотеки с этой моделью** . </br>
+1. На плитке " **применить модель к библиотекам** " на плитке Главная страница модели выберите пункт **опубликовать модель**. Кроме того, вы можете выбрать  **+ Добавить библиотеку** в разделе **библиотеки с этой моделью** . </br>
 
     ![Добавление модели в библиотеку](../media/content-understanding/apply-to-library.png)</br>
 

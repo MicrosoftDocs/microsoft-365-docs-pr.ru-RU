@@ -1,5 +1,5 @@
 ---
-title: Отчеты Microsoft 365 в центре администрирования — использование устройств Microsoft Teams
+title: Использование устройств Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
 description: Получите подробные сведения о приложениях Microsoft Teams, используемых в вашей организации, выполнив отчет об использовании приложений Microsoft Teams из Microsoft 365 Reports.
-ms.openlocfilehash: c2070f13c790f2a66c5849e68fc2fe3579ffa3e3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9c96f4fce962b49081cc93ff802b1e2bc250ec98
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387722"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949112"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Отчеты Microsoft 365 в центре администрирования — использование устройств Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "44387722"
   
 ![Microsoft 365 Reports — использование приложений Microsoft Teams](../../media/de35c4de-76b4-4109-a806-66774665499b.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |В отчете **Использование устройств в Microsoft Teams** можно отследить тенденции за последние 7, 30, 90 и 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов.  <br/> |

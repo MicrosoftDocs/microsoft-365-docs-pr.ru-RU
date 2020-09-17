@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: Узнайте, как получить отчет об использовании почтовых приложений, чтобы узнать о почтовых приложениях, подключающихся к Exchange Online, и о том, что пользователи используют версию Outlook.
-ms.openlocfilehash: bfd8a911652283685486202203d0302479a8270e
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: c6ee72390f0b9e9ead0f07c41d64bf5b7264fc1b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005760"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948248"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>Отчеты Microsoft 365 в центре администрирования — использование почтовых приложений
 
@@ -46,7 +46,7 @@ ms.locfileid: "45005760"
   
 ![Используемые почтовые клиенты](../../media/2a775e46-750f-4fa6-8197-de4b24614bd7.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |Отчет **об использовании почтовых приложений** можно просмотреть для тенденций за последние 7, 30, 90 дней или 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов.  <br/> |

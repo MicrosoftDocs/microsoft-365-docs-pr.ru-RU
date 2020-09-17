@@ -16,18 +16,18 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2c654cb0ec2afd138c7c9fb4b339b53a8522e5e4
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 034dd31309c783e8b231a113d2bda5ccb1888d5b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547208"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950764"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Предварительные действия для реализации политик доступа к удостоверениям и устройствам
 
 В этой статье описываются предварительные требования, которые необходимо реализовать перед развертыванием рекомендуемых политик идентификации и доступа к устройствам. В этой статье также обсуждается Рекомендуемая конфигурация клиента платформы по умолчанию, чтобы обеспечить оптимальное взаимодействие с единым входом (SSO) для пользователей, а также технические требования для условного доступа.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Перед реализацией рекомендуемых политик идентификации и доступа к устройствам необходимо выполнить несколько предварительных условий, которые должны соответствовать вашей организации для этих моделей идентификации и проверки подлинности для Microsoft 365 и Office 365:
 
@@ -88,7 +88,7 @@ ms.locfileid: "47547208"
 |Платформа|Word/Excel/PowerPoint|OneNote|Приложение OneDrive|Приложение SharePoint|[Клиент синхронизации OneDrive](https://docs.microsoft.com/onedrive/enable-conditional-access)|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
 |Windows 8.1|Поддерживается|Поддерживается|Н/Д|Н/Д|Поддерживается|
-|Windows 10|Поддерживается|Поддерживается|Н/Д|Н/Д|Поддерживается|
+|Windows 10|Поддерживается|Поддерживается|Н/Д|Н/Д|Поддерживается|
 |Android|Поддерживается|Поддерживается|Поддерживается|Поддерживается|Недоступно|
 |iOS|Поддерживается|Поддерживается|Поддерживается|Поддерживается|Недоступно|
 |macOS|Поддерживается|Поддерживается|Н/Д|Н/Д|Не поддерживается|
@@ -116,6 +116,6 @@ ms.locfileid: "47547208"
 
 ## <a name="next-step"></a>Следующий шаг
 
-![Шаг 2: Настройка общих политик условного доступа для удостоверений и доступа](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
+[![Шаг 2: Настройка общих политик условного доступа для удостоверений и доступа](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
 [Настройка общих политик идентификации и доступа к устройствам](identity-access-policies.md)

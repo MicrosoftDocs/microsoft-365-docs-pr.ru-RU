@@ -1,5 +1,5 @@
 ---
-title: Отчеты Microsoft 365 в центре администрирования — действия пользователей Microsoft Teams — Предварительная версия
+title: Отчеты Microsoft 365 в центре администрирования — действия пользователей Microsoft Teams
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,30 +19,34 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как получить отчет об активности пользователей Microsoft Teams и получить сведения о действиях Teams в вашей организации.
-ms.openlocfilehash: 734a4dfd62160c2f4d29b8faffb3268a1962fe4f
-ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
+ms.openlocfilehash: 5b6c67903e7af600cac6ad1fda10962aecc2cc83
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167345"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949046"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity--preview"></a>Отчеты Microsoft 365 в центре администрирования — действия пользователей Microsoft Teams — Предварительная версия
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия пользователей Microsoft Teams
 
 На панели мониторинга **отчетов** Microsoft 365 вы увидите обзор действий по продуктам в вашей организации. Вы можете просмотреть отчеты по отдельным продуктам, чтобы получить более подробные сведения о действиях с каждым приложением. Ознакомьтесь с [общими сведениями о панели отчетов](activity-reports.md). С помощью отчета о действиях пользователей Microsoft Teams вы можете получить представление об активности этих пользователей в вашей организации.
   
 > [!NOTE]
 > Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.  
  
-## <a name="how-to-get-to-the-preview-microsoft-teams-user-activity-report"></a>Как перейти к отчету о действиях в области предварительного просмотра пользователей Microsoft Teams
+## <a name="how-to-get-to-the-microsoft-teams-user-activity-report"></a>Как найти отчет о действиях пользователей Microsoft Teams?
 
 1. В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы.
-2. В раскрывающемся списке **выберите отчет** выберите **Microsoft Teams**.
+2. На домашней странице панели мониторинга нажмите кнопку **More more (дополнительно** ) в карточке активности Microsoft Teams (обзор).
   
-## <a name="interpret-the-preview-microsoft-teams-user-activity-report"></a>Интерпретация отчета о действиях в области предварительного просмотра пользователей Microsoft Teams
+## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Интерпретация отчета о действиях пользователей Microsoft Teams
 
-Вы можете просмотреть действия пользователя в отчете Preview Teams, выбрав вкладку **действия пользователя** .
-  
-|||
+Вы можете просмотреть действия пользователя в отчете Teams, выбрав вкладку **действия пользователя** . <br/>![Microsoft 365 Reports — действия пользователей Microsoft Teams.](../../media/1011877f-3cf0-4417-9447-91d0b2312aab.png)
+
+Выберите **команду Выбрать столбцы** , чтобы добавить столбцы в отчет или удалить их из него.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
+
+Вы также можете экспортировать данные отчета в CSV-файл Excel, щелкнув ссылку **Экспорт** . При этом данные всех пользователей будут экспортированы в формат, позволяющий сортировать и фильтровать их для дальнейшего анализа. Если у вас менее 2000 пользователей, вы можете сортировать и фильтровать значения в самой таблице отчета. Если пользователей больше 2000, для фильтрации и сортировки потребуется экспортировать данные. 
+
+|Item|Описание|
 |:-----|:-----|
 |**Метрика**|**Определение**|
 |Имя пользователя  <br/> |Электронный адрес пользователя. Здесь может отображаться фактический электронный адрес или анонимный идентификатор (при соответствующей настройке).   <br/> |

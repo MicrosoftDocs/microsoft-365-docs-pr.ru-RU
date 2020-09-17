@@ -21,12 +21,12 @@ search.appverid:
 - BSA160
 ms.assetid: 4ecfb843-e5d5-464d-8bf6-7ed512a9b213
 description: 'Получите отчет об использовании сайта SharePoint, чтобы узнать, сколько файлов пользователи хранят на сайтах SharePoint, сколько используется активно и сколько потребляется общее хранилище. '
-ms.openlocfilehash: b39f1588f5c0c68a5972aab3039a8d7d901f9dc5
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: 8c2428a49a42a1d259c69297feff13e5c00a9b8e
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689304"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948860"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Отчеты Microsoft 365 в центре администрирования — использование сайта SharePoint
 
@@ -47,7 +47,7 @@ ms.locfileid: "44689304"
 
 ![SharePoint Site Usage Report](../../media/4f88fb7d-9aa8-470e-9e23-e31caaf77d78.png)
   
-|||
+|Item|Описание|
 |:-----|:-----|
 |1.  <br/> |В отчете **Использование сайтов SharePoint** можно отследить тенденции за последние 7, 30, 90 и 180 дней. Тем не менее, если выбрать определенный день в отчете, в таблице (7) будут отображаться данные в течение 28 дней с текущей даты (не Дата создания отчета).  <br/> |
 |2.  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов. <br/> |

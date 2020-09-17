@@ -19,17 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Ознакомьтесь с обзором того, как ваша организация использует службы Microsoft 365 для общения и сотрудничества.
-ms.openlocfilehash: 6619205fb62cce3ba7c62c3df773f650dc125dac
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fecaed3aa9fc2d0990cb3e7b416cee1bfab21d7e
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402026"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948632"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Аналитика использования Microsoft 365
 ---
-Служба аналитики использования Microsoft 365 пока недоступна для сообщества 365 Майкрософт для государственных учреждений США.
- 
+
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Обзор аналитики использования Microsoft 365
 
 Используйте аналитику использования Microsoft 365 в Power BI, чтобы получить подробные сведения о том, как ваша организация использует различные службы в Microsoft 365 для общения и сотрудничества. Вы можете визуализировать и анализировать данные об использовании Microsoft 365, создавать настраиваемые отчеты и предоставлять общий доступ к аналитическим сведениям в вашей организации, а также получать сведения о том, как определенные регионы или отделы используют Microsoft 365.

@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Создание модели обработки форм в Project кортекс.
-ms.openlocfilehash: 733baf24d8a484571ba9882fdda2633dc2ce0504
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: cec3b9a8b1b58237c4beb745377709d4938a2dba
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612778"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950148"
 ---
 # <a name="create-a-form-processing-model-preview"></a>Создание модели обработки форм (Предварительная версия)
 
@@ -34,7 +34,7 @@ ms.locfileid: "46612778"
  - Шаг 6: использование модели
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 Модель обработки форм можно создать только в библиотеках документов SharePoint, в которых она включена. Если обработка формы включена, **AI-построитель** **"Создание модели обработки формы"** будет доступен в меню " **Автоматизация** " библиотеки документов.  Если вы хотите включить обработку в вашей библиотеке документов, обратитесь к администратору.
 
@@ -48,7 +48,7 @@ ms.locfileid: "46612778"
 1. В библиотеке документов выберите пункт **Автоматизация** меню, выберите **AI Builder**, а затем выберите **создать модель обработки формы**.
 
     ![Создание модели AI-построителя](../media/content-understanding/create-ai-builder-model.png)</br>
-2. В области **Новая модель обработки форм** в поле **имя** введите имя модели (например, *заказы на покупку*).
+2. В области **Новая модель обработки форм** в поле  **имя** введите имя модели (например, *заказы на покупку*).
 
     ![Новая модель обработки форм](../media/content-understanding/new-form-model.png)</br> 
 
