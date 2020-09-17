@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection.
-ms.openlocfilehash: 5f863a3ba61278d0bec5304034ed75d343f93c77
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: f66d447b980cae4a4afbb706f26659c5976bdf37
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656651"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948094"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок ATP
 
@@ -85,14 +85,14 @@ ms.locfileid: "46656651"
 
 |Пример записи|Что он делает|
 |---|---|
-|`contoso.com` или `*contoso.com*`|Блокирует домен, дочерние домены и пути, например `https://www.contoso.com` , `https://sub.contoso.com` и`https://contoso.com/abc`|
-|`https://contoso.com/a`|Блокирует сайт, `https://contoso.com/a` но не дополнительные подпути, такие как`https://contoso.com/a/b`|
-|`https://contoso.com/a*`|Блокирует сайт `https://contoso.com/a` и дополнительные подпути, такие как`https://contoso.com/a/b`|
+|`contoso.com` или `*contoso.com*`|Блокирует домен, дочерние домены и пути, например `https://www.contoso.com` , `https://sub.contoso.com` и `https://contoso.com/abc`|
+|`https://contoso.com/a`|Блокирует сайт, `https://contoso.com/a` но не дополнительные подпути, такие как `https://contoso.com/a/b`|
+|`https://contoso.com/a*`|Блокирует сайт `https://contoso.com/a` и дополнительные подпути, такие как `https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|Блокирует поддомен (в данном случае — "Toys"), но разрешить переход на другие URL-адреса доменов (например `https://contoso.com` , или `https://home.contoso.com` ).|
 |
 
 > [!NOTE]
-> По умолчанию URL-адреса 500 можно добавлять только в список заблокированных URL-адресов в политике по умолчанию безопасных ссылок Office 365 ATP.
+> По умолчанию URL-адреса 500 можно добавлять только в список заблокированных URL-адресов в политике по умолчанию безопасных ссылок Office 365 ATP. Длина URL-адреса отдельного URL-адреса не может превышать 128 символов. Список блокируемых URL-адресов не может превышать 10 000 символов.
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Определение исключений для определенных пользователей в Организации
 

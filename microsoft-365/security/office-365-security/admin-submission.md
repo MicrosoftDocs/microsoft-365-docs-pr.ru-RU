@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как использовать портал отправки в центре безопасности & соответствия требованиям для отправки подозрительных сообщений электронной почты, подозрительных сообщений фишинга, спама и других потенциально опасных сообщений, URL-адресов и файлов в корпорацию Майкрософт для сканирования.
-ms.openlocfilehash: 08d1633142bba7348cbc899f9cf9b2a1288c3743
-ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
+ms.openlocfilehash: ef401f34bb0bc7a9a9718443101924ad09bca8a0
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47394739"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47947976"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Использование функции отправки администратором для отправки подозрительного спама, фишинговых сообщений, URL-адресов и файлов в корпорацию Майкрософт
 
@@ -78,7 +78,7 @@ ms.locfileid: "47394739"
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Отправка подозрительного URL-адреса корпорации Майкрософт
 
-1. В разделе **тип объекта** выберите **URL-адрес**. В появившемся поле введите полный URL-адрес (например, <https://www.fabrikam.com/marketing.html> ).
+1. В разделе **тип объекта** выберите **URL-адрес**. В появившемся поле введите полный URL-адрес (например, `https://www.fabrikam.com/marketing.html` ).
 
 2. В разделе **Причина отправки** выберите один из следующих параметров:
 

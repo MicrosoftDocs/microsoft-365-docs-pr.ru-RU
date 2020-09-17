@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 7cb2ab9c6987900f2b53a17c3eda49001bca4d84
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 727f14e8158f7e024b6029231fed18adb2d56a62
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898056"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949700"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Настройка переадресации внешних сообщений электронной почты в Office 365
 
@@ -31,7 +31,10 @@ ms.locfileid: "46898056"
 
 - **Выкл** . — Автоматическая внешняя переадресация отключена, и для конечного пользователя будет получен отчет о недоставке (NDR).
 
-Подробнее о настройке этих параметров можно узнать [в статье Настройка фильтрации исходящих нежелательных сообщений в EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide) .
+Подробнее о настройке этих параметров можно узнать [в статье Настройка фильтрации исходящих нежелательных сообщений в EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true) .
+
+> [!NOTE]
+> При отключении автоматической пересылки будут также дсабле правила для папки "Входящие", перенаправляющие сообщения на внешние адреса.
 
 ## <a name="controlling-external-email-forwarding"></a>Управление переадресацией внешних сообщений электронной почты
 
@@ -42,7 +45,7 @@ Office 365 не поддерживает автоматическое перен
 > [!NOTE]
 > Отключение автоматической пересылки к внешним адресам в Office 365 выполняется по этапам с подробностями, связанными с помощью posts в [сообщениях центра сообщений](https://admin.microsoft.com/Adminportal/Home?source=applauncher&ref=/MessageCenter) . Чтобы помочь администраторам подготовиться к этим изменениям, необходимо заранее изменить политики, чтобы убедиться в отсутствии нарушений их почтовых пользователей.
 
-Дополнительные сведения о пользователях, которые используют автоматическую пересылку (правила для папки "Входящие" или переадресацию SMTP) в Организации, можно найти в [отчете о автоматических пересылаемых сообщениях](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report?view=o365-worldwide).
+Дополнительные сведения о пользователях, которые используют автоматическую пересылку (правила для папки "Входящие" или переадресацию SMTP) в Организации, можно найти в [отчете о автоматических пересылаемых сообщениях](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report?view=o365-worldwide&preserve-view=true).
 
 ## <a name="how-does-this-policy-work-with-other-automatic-forwarding-controls"></a>Как эта политика работает с другими элементами управления автоматической пересылки
 

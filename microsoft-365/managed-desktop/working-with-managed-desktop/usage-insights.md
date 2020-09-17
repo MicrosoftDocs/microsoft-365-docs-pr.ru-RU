@@ -1,17 +1,18 @@
 ---
 title: Аналитика использования
 description: ''
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 43e1ec21719dd4dcab2d2e285197476d54734a13
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ce23825bd847e610a1d933f4d50635aff4107db3
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085656"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950358"
 ---
 # <a name="usage-insights"></a>Аналитика использования
 Это представление предоставляет метрики использования для настольных устройств, управляемых Майкрософт. В этих целях приложение считается "используемым", если оно работает и в фокусе.

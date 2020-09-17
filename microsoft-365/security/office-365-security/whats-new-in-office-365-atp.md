@@ -15,15 +15,15 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 08/27/2020
+ms.date: 09/10/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 2e6638480ec3a687b1bed9f2a176b6bf21278ef2
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 1aa5d2b59bf1f07c0a74ee7381cbefdb2b5c7506
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308383"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949424"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -40,29 +40,29 @@ ms.locfileid: "47308383"
 
 - [Проверка политик с помощью анализатора конфигурации](configuration-analyzer-for-security-policies.md)
 - [Переопределение вердиктс фильтров вручную с помощью списка разрешенных и запрещенных клиентов](tenant-allow-block-list.md)
-- [Расширенные возможности в обозревателе угроз, включая наиболее популярные целевые пользователи, правила транспорта и соединители](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections)
+- [Расширенные возможности в обозревателе угроз, включая наиболее популярные целевые пользователи, правила транспорта и соединители](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP, план 2)
 - Отображение переопределяет сведения в [обозревателе угроз](threat-explorer.md) (электронная почта разрешена/заблокирована политикой клиента/пользователя)
-- Угрозы URL-адресов отображение в [обозревателе угроз](threat-explorer.md) (вредоносная программа, фишинг, спам или None)
+- Угрозы URL-адресов отображение в [обозревателе угроз](threat-explorer.md) (вредоносная программа, фишинг, спам или None) 
 
 ## <a name="julyaugust-2020"></a>Июль/Август 2020 
 
-- [Повышение качества работы при поиске](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
-- [Простота применения рекомендуемых параметров с помощью готовых политик безопасности](preset-security-policies.md)
+- [Улучшения качества работы](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (Office 365 ATP, план 1 или план 2)
+- [Простота применения рекомендуемых параметров с помощью готовых политик безопасности](preset-security-policies.md) 
 
 ## <a name="marchapril-2020"></a>Март/Апрель 2020
 
-- Возможность [обращаться к скомпрометированным учетным записям пользователей с автоматическим исследованием и откликом](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) теперь доступна.
+- Возможность [обращаться к скомпрометированным учетным записям пользователей с автоматическим исследованием и откликом](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) теперь доступна. (Office 365 ATP, план 2)
 
 ## <a name="januaryfebruary-2020"></a>Январь/Февраль 2020
 
-- [Общая доступность представлений кампаний в Office 365 ATP](campaigns.md)
-- Усовершенствование [обозревателя угроз](threat-explorer.md) , позволяющее Teams выполнять поиск и фильтрацию по нескольким полям при [изучении электронной почты](investigate-malicious-email-that-was-delivered.md):
+- [Общая доступность представлений кампаний в office 365 ATP](campaigns.md) (Office 365, план 2)
+- Расширения в [обозревателе угроз](threat-explorer.md) , позволяющие группам системы безопасности выполнять поиск и фильтрацию по нескольким полям при [изучении электронной почты](investigate-malicious-email-that-was-delivered.md): (Office 365 ATP, план 2)
     - Место доставки и специальные действия
     - Направленность (входящая, исходящая или внутренняя)
     - Advanced NOT Filters (дополнительные параметры фильтрации, включающие не содержащие, не включают и т. д.).
     - Фильтры по детализированному времени (день, час, половина часа) 
 
-- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложение безопасности, в центре безопасности & соответствия требованиям перейдите к разделу **Управление**  >  угрозами **Проверка**.)
+- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложение безопасности, в центре безопасности & соответствия требованиям перейдите к разделу **Управление**  >  угрозами **Проверка**.) (Office 365 ATP, план 2)
 
 - [Безопасные документы в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(Предварительная версия)**
 
@@ -70,7 +70,7 @@ ms.locfileid: "47308383"
 
 - [Экспорт URL-адреса щелкните данные для анализа в автономном режиме](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP (план 1) или план 2)
 
-- [Использование представлений кампаний в Office 365 ATP (**Предварительная версия**)](campaigns.md)
+- [Использование представлений кампаний в office 365 ATP (**Предварительная версия**)](campaigns.md) (Office 365, план 2)
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
