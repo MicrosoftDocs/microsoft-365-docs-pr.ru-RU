@@ -19,14 +19,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection включает безопасные вложения, безопасные ссылки, расширенные антифишинговые средства, инструменты создания отчетов и возможности аналитики угроз.
-ms.openlocfilehash: 2241f48877019cb20484aea0dd1fcf7b9e7b8bb5
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 184ab53059a73de534d9a67a45fc41b20a73f13f
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653609"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949699"
 ---
-# <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
+# <a name="office-365-advanced-threat-protection-atp"></a>Office 365 Advanced Threat Protection (ATP)
 
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Если вы используете Outlook.com, Microsoft 365 для семьи или Microsoft 365 персональный и ищете сведения о функции "Безопасные ссылки"или "Безопасные вложения" в Outlook, см. статью [Расширенные возможности безопасности Outlook.com для подписчиков Microsoft 365](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -41,6 +41,25 @@ Office 365 Advanced Threat Protection (ATP) защищает вашу орган
 
 - **[Автоматизированный анализ угроз и реагирование на них.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)** Экономьте время и усилия при анализе и устранении угроз.
 
+## <a name="getting-started"></a>Начало работы
+
+Если вы не знакомы с Office 365 Advanced Threat Protection или изучаете эту службу на *практике*, вам может помочь разбиение исходной настройки ATP на блоки, изучение и проверка отчетов с использованием этой статьи в качестве справочника. Ниже приведены логические блоки исходной настройки:
+
+- Настраивайте все элементы с добавлением слова "*защита*" к имени.
+    - защита от вредоносных программ
+    - защита от фишинга
+    - защита от нежелательной почты
+- Настраивайте все элементы с добавлением слова "*безопасный*" к имени.
+    - безопасные ссылки
+    - безопасные вложения
+- Защищайте рабочие нагрузки (например, SharePoint Online, OneDrive и Teams) 
+- Защищайте с использованием автоматической очистки
+
+Для изучения на практике [щелкните эту ссылку](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide&preserve-view=true). 
+
+> [!NOTE]
+> ATP предлагается в Планах двух разных типов. Вы используете **План 1**, если у вас есть функция "Обнаружение в режиме реального времени", и **План 2**, если у вас есть обозреватель угроз. Ваш План влияет на средства, которые вы видите, поэтому в процессе обучения вы должны знать, какой у вас План.
+
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP (план 1) и Office 365 ATP (план 2)
 
 В таблице ниже приведена сводка о содержании каждого плана.
@@ -52,7 +71,7 @@ Office 365 Advanced Threat Protection (ATP) защищает вашу орган
 |<br/>Конфигурация, защита и возможности обнаружения: <ul><li>[Безопасные вложения](atp-safe-attachments.md)</li><li>[Безопасные ссылки](atp-safe-links.md)</li><li>[ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Защита от фишинга ATP](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)</li><li>[Обнаружение в режиме реального времени](threat-explorer.md)</li></ul>|Возможности Office 365 ATP (план 1)<br/>--- плюс ---<br/>Автоматизация, исследование, исправления и возможности образования.</li><li>[Трекеры угроз](threat-trackers.md)</li><li>[Обозреватель угроз](threat-explorer.md)</li><li>[Автоматизированный анализ угроз и реагирование на них](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[Эмулятор атак](attack-simulator.md)</li></ul>|
 |
 
-- Пакет Office 365 с Планом 2 входит в состав Office 365 E5, Office 365 A5 и Microsoft 365 E5.
+- Пакет Office 365 ATP с Планом 2 входит в состав Office 365 E5, Office 365 A5, Безопасность Microsoft 365 E5 и Microsoft 365 E5.
 
 - Office 365 ATP с Планом 1 входит в состав Microsoft 365 бизнес премиум.
 
@@ -68,6 +87,8 @@ Office 365 Advanced Threat Protection (ATP) защищает вашу орган
 
 > [!TIP]
 > Краткий список политик для определения см. в статье [Защита от угроз](protect-against-threats.md).
+
+## <a name="advanced-threat-protection-policies"></a>Политики расширенной защиты от угроз
 
 От политик, определенных для организации, зависят поведение и уровень защиты, связанные с предопределенными угрозами. Параметры политик чрезвычайно гибкие. Например, группа специалистов по безопасности в вашей организации может детально настраивать защиту от угроз на уровне пользователя, организации, получателя и домена. Важно регулярно пересматривать политики, потому что новые угрозы и проблемы возникают ежедневно.
 

@@ -110,20 +110,30 @@
               items:
                 - name: Обзор расширенной охоты на угрозы
                   href: mtp/advanced-hunting-overview.md
-                - name: Сведения о языке запросов
-                  href: mtp/advanced-hunting-query-language.md
-                - name: Применение рекомендаций по использованию запросов
-                  href: mtp/advanced-hunting-best-practices.md
+                - name: 'Учеба, обучение и получение примеров'
+                  items:
+                    - name: Сведения о языке запросов
+                      href: mtp/advanced-hunting-query-language.md
+                    - name: Учебные курсы для экспертов
+                      href: mtp/advanced-hunting-expert-training.md
+                    - name: Использование общих запросов
+                      href: mtp/advanced-hunting-shared-queries.md
+                    - name: 'Охота на различных устройствах, в письмах, приложениях и удостоверениях'
+                      href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Работа с результатами запросов
                   href: mtp/advanced-hunting-query-results.md
                 - name: Выполнение действий с результатами запроса
                   href: mtp/advanced-hunting-take-action.md
-                - name: Использование общих запросов
-                  href: mtp/advanced-hunting-shared-queries.md
-                - name: 'Охота на различных устройствах, в письмах, приложениях и удостоверениях'
-                  href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Запуск слежения
                   href: mtp/advanced-hunting-go-hunt.md
+                - name: Оптимизация и обработка ошибок
+                  items:
+                    - name: Применение рекомендаций по использованию запросов
+                      href: mtp/advanced-hunting-best-practices.md
+                    - name: Обработка ошибок
+                      href: mtp/advanced-hunting-errors.md
+                    - name: Ограничения службы
+                      href: mtp/advanced-hunting-limits.md
                 - name: Расширение охвата данных
                   href: mtp/advanced-hunting-extend-data.md
                 - name: Схема данных

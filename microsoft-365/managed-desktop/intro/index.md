@@ -9,17 +9,17 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: abd6a123cdc06a84ce094a93eac06f50fe23a315
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: a126627a4c4d96b2b6918cefb0630801b3674383
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289737"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950500"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Что собой представляют компьютеры, управляемые Майкрософт?
 
 
-Компьютеры, управляемые Microsoft — это облачная служба, объединяющая [Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (включая [Windows 10](https://docs.microsoft.com/windows/windows-10/) Корпоративная и [Office 365 корпоративный](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) и следующие возможности:
+Компьютеры, управляемые Майкрософт, — это облачная служба, объединяющая [Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (включая [Windows 10](https://docs.microsoft.com/windows/windows-10/) Корпоративная и [Office 365 корпоративный](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) и следующие возможности:
 
 - Развертывание устройств пользователя
 - Управление ИТ-службой и ее использование

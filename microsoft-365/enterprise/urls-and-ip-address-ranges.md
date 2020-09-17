@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: Сводка. Для Office 365 требуется подключение к Интернету. Указанные ниже конечные точки должны быть доступны для клиентов, использующих планы Office 365, в том числе входящих в облако сообщества государственных учреждений (GCC).
 hideEdit: true
-ms.openlocfilehash: c190820bfe5c66662c8e66a069a3c9576a9e0a0f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9f0d8696eae10ce9f3dcfb4ad988a13e15ba4b29
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696486"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948012"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>URL-адреса и диапазоны IP-адресов Office 365
 
@@ -70,6 +70,8 @@ ms.locfileid: "46696486"
 [Управление конечными точками Office 365](managing-office-365-endpoints.md)
   
 [Устранение неполадок с подключением к Office 365](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d.aspx)
+
+[Набор корневого ЦС и промежуточного ЦС в системе стороннего приложения](../compliance/encryption-office-365-certificate-chains.md)
   
 [Подключение клиентских компьютеров](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   

@@ -20,18 +20,18 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Microsoft 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: f1902c71b167d6293530eae61fa6c57d63c5f06c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0dcb1fac17a39d1125f9188028d714962c9797d
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387805"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948212"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Отчеты по Microsoft 365 в Центре администрирования
 
-You can easily see how people in your business are using Microsoft 365 services. For example, you can identify who is using a service a lot and reaching quotas, or who may not need an Microsoft 365 license at all.
+Вы можете без труда узнать, как сотрудники вашей компании используют службы Microsoft 365. Например, вы можете выяснить, кто использует службы активно и почти выбрал квоты, а кому лицензия на Microsoft 365, возможно, не нужна совсем.
   
-Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
+Доступны отчеты за последние 7, 30, 90 и 180 дней. В начале каждого из периодов отчетные данные отсутствуют, поэтому отчеты появляются в течение 48 часов.
   
 Смотрите это видео на обзор: о том, как вы можете использовать отчеты:
   
@@ -141,13 +141,25 @@ Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data 
 
 ::: moniker range="o365-worldwide"
 
-- [Действия пользователей Microsoft Teams](microsoft-teams-user-activity.md)
+- [Действия пользователей Microsoft Teams](microsoft-teams-user-activity-preview.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Использование устройств Microsoft Teams](microsoft-teams-device-usage.md)
+- [Действия пользователей Microsoft Teams для облака министерства обороны и государственных организаций](microsoft-teams-user-activity.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Использование устройств Microsoft Teams](microsoft-teams-device-usage-preview.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Использование устройств Microsoft Teams для облака министерства обороны и государственных организаций](microsoft-teams-device-usage.md)
 
 ::: moniker-end
 
@@ -159,7 +171,7 @@ Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data 
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>Просмотр сведений об использовании для определенного пользователя
 
-Use the service reports to research how much a specific user is using the service. For example, to find out how much mailbox storage a specific user has consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel so you filter through the list quickly.
+Чтобы определить, в каком объеме использует службу конкретный пользователь, используйте отчеты по этой службе. Например, чтобы узнать, какой объем хранилища почтовых ящиков использовал конкретный пользователь, откройте отчет "Использование почтового ящика" и отсортируйте пользователей по имени. Если у вас тысячи пользователей, экспортируйте отчет в Excel, чтобы можно было быстро отфильтровать список.
   
 Невозможно создать отчет, в котором указывается учетная запись пользователя и выводится список служб, которые он использует и в каком объеме.
   
@@ -177,7 +189,7 @@ Use the service reports to research how much a specific user is using the servic
   
 ![Отчеты — список анонимных пользователей](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
-It'll take a few minutes for these changes to take effect on the reports in the reports dashboard. This setting also applies to the reports API.
+Изменения будут применены к отчетам на панели мониторинга через несколько минут. Этот параметр также влияет на API отчетов.
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>Что происходит с данными об использовании, когда учетная запись пользователя закрыта?
 

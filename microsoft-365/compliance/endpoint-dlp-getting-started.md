@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте защиту от потери данных Microsoft 365 Endpoint для отслеживания действий с файлами и внедрения защитных действий для конечных точек этих файлов.
-ms.openlocfilehash: f24dff993a125de9ecd126b232abfcfa503deb83
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 43ab2a30570f153f16819ede2eeed1f0e091da74
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399226"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949849"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Начало работы с функцией защиты от потери данных в конечной точке (предварительная версия)
 
@@ -82,7 +82,7 @@ ms.locfileid: "47399226"
 
 1. Устройство работает под управлением Windows 10 сборки 1809 или более поздней версии.
 2. Все устройства должны быть подключены к [Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join) или иметь гибридное присоединение к Azure AD.
-3. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики на загрузку в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
+3. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики к отправке в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
 ## <a name="onboarding-devices-into-device-management"></a>Интеграция устройств в управление устройствами
 
@@ -102,7 +102,7 @@ ms.locfileid: "47399226"
    ![включите управление устройствами](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
 
    > [!NOTE]
-   > Обычно подключение устройств занимает около 60 секунд, но перед обращением в службу поддержки Майкрософт подождите около 30 минут.
+   > Обычно подключение устройств занимает около 60 секунд, подождите около 30 минут, прежде чем обращаться в службу поддержки Microsoft.
 
 3. Выберите **Управление устройствами**, чтобы открыть список **Устройства** Список будет пустым, пока устройства не будут подключены.
 4. Нажмите **Подключение**, чтобы начать процесс.

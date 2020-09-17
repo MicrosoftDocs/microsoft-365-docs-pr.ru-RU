@@ -15,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверять сообщения, отправленные из вашей организации.
-ms.openlocfilehash: 09c06d30d118078e310c5e3d0743ef5236ec77ba
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: 1f014a221334925f5b9c90371d552eb64d026c1f
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632121"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949436"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Использование протокола DMARC для проверки электронной почты
 
@@ -206,7 +206,7 @@ _dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@cont
 
 ## <a name="how-microsoft-365-handles-inbound-email-that-fails-dmarc"></a>Как Microsoft 365 обрабатывает входящую почту, не прошедшую проверку DMARC
 
-Если для отправляющего сервера задана политика отклонения DMARC `p=reject`, EOP будет отмечать сообщения как поддельные, а не отклонять их. Другими словами, в случае исходящей почты служба Microsoft 365 рассматривает политики `p=reject` и `p=quarantine` как одинаковые. Администраторы могут настроить действия для сообщений, классифицированных как поддельные, в [политике защиты от фишинга](set-up-anti-phishing-policies.md).
+Если политика DMARC отправляющего сервера имеет значение `p=reject`, [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) будет отмечать сообщения как поддельные, а не отклонять их. Другими словами, в случае исходящей почты служба Microsoft 365 рассматривает политики `p=reject` и `p=quarantine` как одинаковые. Администраторы могут настроить действия для сообщений, классифицированных как поддельные, в [политике защиты от фишинга](set-up-anti-phishing-policies.md).
 
 Такая конфигурация Microsoft 365 обусловлена тем, что некоторые допустимые сообщения могут не проходить проверки DMARC. Например, сообщение может не пройти проверки DMARC, если оно отправлено в список рассылки, который в последствии пересылает его всем получателям, указанным в списке. Если Microsoft 365 отклонит эти сообщения, получатели могут безвозвратно потерять важную почту. Вместо этого такие сообщения будут по-прежнему не проходить проверки DMARC, однако они будут отмечены как спам, а не отклонены. При необходимости пользователи могут воспользоваться приведенными ниже способами, чтобы получить такие сообщения.
 
