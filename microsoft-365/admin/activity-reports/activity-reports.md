@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Microsoft 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: f0dcb1fac17a39d1125f9188028d714962c9797d
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: e1748cf25fd36787727b0f00f6ddf6553bd454ab
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948212"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104457"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Отчеты по Microsoft 365 в Центре администрирования
 
@@ -58,9 +58,8 @@ ms.locfileid: "47948212"
 
 ::: moniker-end
 
-   
-2. Нажмите кнопку **выберите отчет** в верхней части панели мониторинга, чтобы выбрать один из доступных отчетов. Или выберите виджет активности для службы (такой как электронная почта или OneDrive), чтобы увидеть больше информации. <br/>![Панель мониторинга использования](../../media/usage-report-dashboard.png)
-  
+2. Чтобы просмотреть страницу сведений об отчете, нажмите кнопку **Еще** в карточке активности для службы (например, электронной почты или OneDrive). Там представлены различные отчеты для службы в виде вкладок. <br/>![Панель мониторинга использования](../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png) 
+
 ## <a name="who-can-see-reports"></a>Кто может просматривать отчеты
 
 Просматривать отчеты могут пользователи со следующими разрешениями: 
@@ -147,7 +146,7 @@ ms.locfileid: "47948212"
 
 ::: moniker range="o365-worldwide"
 
-- [Действия пользователей Microsoft Teams для облака министерства обороны и государственных организаций](microsoft-teams-user-activity.md)
+- [Действия пользователей Microsoft Teams для государственных организаций США](microsoft-teams-user-activity.md)
 
 ::: moniker-end
 
@@ -159,7 +158,7 @@ ms.locfileid: "47948212"
 
 ::: moniker range="o365-worldwide"
 
-- [Использование устройств Microsoft Teams для облака министерства обороны и государственных организаций](microsoft-teams-device-usage.md)
+- [Использование устройств в Microsoft Teams для государственных организаций США ](microsoft-teams-device-usage.md)
 
 ::: moniker-end
 

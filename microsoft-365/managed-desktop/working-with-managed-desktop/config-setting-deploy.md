@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b731422e6d981b12ea576ed26b841e7c679266ae
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: a24d0dc64e2262a8b208119c45a4a6bade701c10
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530263"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104538"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>Развертывание и отслеживание настраиваемых параметров — Рабочий стол, управляемый корпорацией Майкрософт
 
@@ -24,7 +24,7 @@ ms.locfileid: "46530263"
 
 Ниже приведены состояния, которые будут отображаться для каждого развертывания.
 
-Status  | Объяснение 
+Статус  | Объяснение 
 --- | --- 
 Развертывание | Ваше изменение ожидает развертывания в этой группе.
 Выполняется | Изменение применяется к активным устройствам в этой группе. 
@@ -38,20 +38,21 @@ Status  | Объяснение
 
 **Развертывание изменений**
 
-1. Вход на [портал администрирования рабочих столов с управляемыми Майкрософт](https://aka.ms/mwaasportal)
-2. В разделе **Параметры**выберите пункт **Настраиваемая**.
+1. Вход в [Диспетчер конечных точек Майкрософт](https://endpoint.microsoft.com/) и переход в меню " **устройства** "
+2. Найдите раздел Рабочий стол, управляемый Майкрософт, выберите **Параметры**.
 3. В рабочей области **состояния развертывания** выберите параметр, который необходимо развернуть, а затем выберите поэтапное развертывание для развертывания.
 4. Нажмите кнопку **развернуть** , чтобы развернуть изменения в одной из групп развертывания.
 
 > [!NOTE] 
 > Оранжевый значок предупреждения указывает, что существует доступ к предыдущей группе, так как ее рекомендуется развертывать по порядку. 
 
-![Рабочая область состояния развертывания. Область надежных сайтов справа. В разделе группы развертывания три столбца: группы развертывания, устройства и состояние. В столбце Состояние выделено значение "развернуть".](../../media/1deployedit.png)
+<!-- Needs picture updated to show MEM ![Deployment status workspace. Trusted sites pane on the right. In the Deployment groups section are three columns: deployment groups, devices, and status. In the status column, "deploy" is highlighted.](../../media/1deployedit.png) -->
+
 Мы рекомендуем развертывать в группах развертывания в следующем порядке: Test, First, Fast, а затем широком. 
 
 По завершении изменений в каждой группе состояние изменится на " **завершено**".
 
-![Рабочая область состояния развертывания со столбцами даты обновления, версии, проверки, первой, быстрой и широкой. Строка прокси-сервера развернута, и в каждой из четырех групп развертывания помечается параметр "завершено" в каждой из четырех групп развертывания.](../../media/2completeedit.png)
+<!-- Needs picture updated to show MEM ![Deployment status workspace with columns for date updated, version, test, first, fast, and broad. The Proxy row is expanded, showing a dated setting flagged as "complete" in each of the four deployment groups.](../../media/2completeedit.png) -->
 
 ## <a name="revert-deployment"></a>Отмена развертывания
 
@@ -60,12 +61,12 @@ Status  | Объяснение
 Мы покажем, как вернуть изменения, используя фоновый рисунок рабочего стола в качестве примера. 
 
 **Отмена изменения**
-1. Вход на [портал администрирования рабочих столов с управляемыми Майкрософт](https://aka.ms/mwaasportal)
-2. В разделе **Параметры**выберите пункт **Настраиваемая**.
+1. Вход в [Диспетчер конечных точек Майкрософт](https://endpoint.microsoft.com/) и переход в меню " **устройства** "
+2. Найдите раздел Рабочий стол, управляемый Майкрософт, выберите **Параметры**.
 3. В рабочей области **состояния развертывания** выберите параметр, который требуется восстановить, а затем выберите поэтапное развертывание для отмены.
 4. В разделе **требуется отменить это изменение**нажмите кнопку **вернуть развертывание**.
 
-![Рабочая область состояния развертывания. Выбраны начальные страницы браузера, открывается область справа с данными о отправленном изменении и его состоянии. В нижней части находится область "необходимо отменить это изменение", в которой можно выбрать пункт "вернуть развертывание".](../../media/3revert.png) 
+<!-- Needs picture updated to show MEM ![Deployment status workspace. Browser start pages is selected, opening a pane on the right side with data about the submitted change and its status. At the bottom is the "need to revert this change" area where you can select "Revert deployment."](../../media/3revert.png) -->
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Общие сведения о настраиваемых параметрах](config-setting-overview.md)

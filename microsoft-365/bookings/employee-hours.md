@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 0968717e-b61f-4b06-987c-6c1464541782
 description: Настройка рабочих часов сотрудников и доступности в книгах Майкрософт.
-ms.openlocfilehash: 656b52992f4da32ae334809bd1a3ee4dd3b89652
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 140ab5732b051931666824cd4290a38c0b11fd65
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420046"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962529"
 ---
 # <a name="employee-working-hours-in-microsoft-bookings"></a>Рабочие часы сотрудников в резервировании Майкрософт
 
@@ -23,9 +23,6 @@ ms.locfileid: "47420046"
 На странице **персонал** можно настроить рабочие часы сотрудников в соответствии с потребностями вашего предприятия и сотрудников.
 
 Если вы хотите добавить нерабочие дни сотрудника, чтобы клиенты не смогли выбрать его, когда его нет на работе, см. статью [Планирование нерабочих дней и отпусков](schedule-closures-time-off-vacation.md).
-
-> [!NOTE]
-> Для клиентов, у которых есть подписки Microsoft 365 бизнес Standard, Microsoft 365 a3 или Microsoft 365 A5, резервирование включается по умолчанию. Кроме того, они доступны пользователям Office 365 корпоративный E3 и Office 365 корпоративный, но по умолчанию она отключена. Чтобы приступить к работе, ознакомьтесь [со статьей получение доступа к книгам Майкрософт](get-access.md). Чтобы включить или отключить резервирование, ознакомьтесь со статьей [Включение или отключение учета для Организации](turn-bookings-on-or-off.md).
 
 ## <a name="customize-employee-working-hours"></a>Настройка рабочих часов для сотрудников
 

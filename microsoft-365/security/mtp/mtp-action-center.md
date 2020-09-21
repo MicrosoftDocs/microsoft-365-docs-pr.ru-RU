@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2dc641d22432e245980b905051bddd3b7dd4ed07
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: 4d4aa8afc7a17d2f9f0ae2d48404d7a3da553d47
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547990"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962267"
 ---
 # <a name="the-action-center"></a>Центр уведомлений
 
@@ -92,11 +94,8 @@ ms.locfileid: "47547990"
 > [!NOTE]
 > Пользователи, которым назначена роль Глобальный администратор в Azure Active Directory, могут утвердить или отклонить любые ожидающие действия в центре уведомлений. Однако рекомендуется ограничить в организации число пользователей, которым назначена роль глобального администратора. Рекомендуем использовать роли Администратор безопасности, Активные действия по исправлению, и Поиск и очистка, указанные выше, в качестве разрешений центра уведомлений.
 
-## <a name="next-steps"></a>Дальнейшие действия 
+## <a name="next-steps"></a>Следующие шаги 
 
-- [Подробнее об инцидентах в службе защиты от угроз (Майкрософт)](incidents-overview.md)
-
+- [Утверждение или отклонение ожидающих действий за автоматическим исследованием](mtp-autoir-actions.md)
 - [Просмотр результатов автоматического исследования](mtp-autoir-results.md)
-
-- [Сведения о выслеживании в службе защиты от угроз (Майкрософт)](advanced-hunting-overview.md)
 

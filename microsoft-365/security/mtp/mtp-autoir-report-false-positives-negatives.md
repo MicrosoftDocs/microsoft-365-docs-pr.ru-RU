@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 01/29/2020
+ms.date: 09/16/2020
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 4030469b54d9a3a9c6f2eaceae384d39ea7f3e20
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.reviewer: evaldm, isco
+ms.openlocfilehash: ace9ab8e5b73e4a4310b476c8954b0be81faaa66
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637084"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962327"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Обработка ложных срабатываний/отрицательных результатов в автоматизированном расследовании и возможностях реагирования
 
@@ -79,10 +80,7 @@ ms.locfileid: "43637084"
 
 7. Чтобы отменить действие, выберите **Удалить исправление**.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="see-also"></a>См. также
 
-- [Утверждение или отклонение действий, относящихся к автоматизированному анализу угроз и реакции на угрозы](mtp-autoir-actions.md)
-
-- [Дополнительные сведения о центре уведомлений](mtp-action-center.md)
-
+- [Просмотр сведений и результатов автоматического исследования](mtp-autoir-results.md)
 - [Защита от угроз (Майкрософт) позволяет осуществлять их расширенное выслеживание на профилактической основе](advanced-hunting-overview.md)

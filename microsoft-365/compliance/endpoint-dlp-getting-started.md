@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте защиту от потери данных Microsoft 365 Endpoint для отслеживания действий с файлами и внедрения защитных действий для конечных точек этих файлов.
-ms.openlocfilehash: 43ab2a30570f153f16819ede2eeed1f0e091da74
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 08e2bd43b4337087b401244b7dc4cf80a26aaf06
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949849"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131673"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Начало работы с функцией защиты от потери данных в конечной точке (предварительная версия)
 
@@ -90,7 +90,7 @@ ms.locfileid: "47949849"
 
 Если вы хотите подключить устройства, которые еще не были подключены, скачайте соответствующий сценарий и разверните его на этих устройствах. Выполните действия, описанные в разделе [Подключение устройств](endpoint-dlp-getting-started.md#onboarding-devices).
 
-Если у вас уже есть устройства, подключенные к [Advanced Threat Protection в Microsoft Defender (MDATP)](https://docs.microsoft.com/windows/security/threat-protection/), они будут отображаться в списке управляемых устройств. Выполните действия, описанные в разделе [Процедура с устройствами подключенными к MDATP](endpoint-dlp-getting-started.md#with-devices-onboarded-into-mdatp).
+Если у вас уже есть устройства, подключенные к [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/), они будут отображаться в списке управляемых устройств. Выполните действия, описанные в разделе [Процедура с устройствами подключенными к Microsoft Defender для конечной точки](endpoint-dlp-getting-started.md#with-devices-onboarded-into-microsoft-defender-for- endpoint).
 
 ### <a name="onboarding-devices"></a>Подключение устройств
 
@@ -109,7 +109,7 @@ ms.locfileid: "47949849"
 5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания**, а затем **загрузите пакет**.
 
    ![метод развертывания](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает страницу доступа к MDATP процедурам, соответствующим пакету развертывания, который вы выбрали на этапе 5:
+6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает страницу доступа к процедурам с Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
     - Подключение компьютеров с Windows 10 с помощью групповой политики
     - Подключение компьютеров с Windows с помощью Microsoft Endpoint Configuration Manager
     - Подключение компьютеров с Windows 10 с помощью инструментов управления мобильными устройствами
@@ -121,16 +121,16 @@ ms.locfileid: "47949849"
 > [!NOTE]
 > Эта возможность включает принудительное применение лицензий. Без необходимой лицензии данные не будут видимы или доступны.
 
-### <a name="with-devices-onboarded-into-mdatp"></a>С устройствами подключенными к MDATP
+### <a name="with-devices-onboarded-into-microsoft-defender-for-endpoint"></a>Процедура с устройствами подключенными к Microsoft Defender для конечной точки
 
-В этом случае MDATP уже развернут, а также присутствуют отчеты о конечных точках. Все конечные точки будут отображаться в списке управляемых устройств. Вы можете продолжать подключать новые устройства к DLP конечной точки, чтобы расширить охват с помощью [Процедуры подключения устройств](endpoint-dlp-getting-started.md#onboarding-devices)
+В этом случае Microsoft Defender для конечной точки уже развернут, а также присутствуют отчеты о конечных точках. Все конечные точки будут отображаться в списке управляемых устройств. Вы можете продолжать подключать новые устройства к DLP конечной точки, чтобы расширить охват с помощью [Процедуры подключения устройств](endpoint-dlp-getting-started.md#onboarding-devices)
 
 1. Откройте [Центр соответствия требованиям Microsoft](https://compliance.microsoft.com).
 2. Откройте параметры Центра соответствия требованиям и выберите **Включить отслеживание устройств**.
-3. Выберите **Управление устройствами**, чтобы открыть список **Устройства** Отобразится список устройств, которые уже отправляют отчеты в MDATP. ![управление устройствами](../media/endpoint-dlp-getting-started-2-device-management.png)
+3. Выберите **Управление устройствами**, чтобы открыть список **Устройства** Отобразится список устройств, которые уже отправляют отчеты в Microsoft Defender для конечной точки. ![управление устройствами](../media/endpoint-dlp-getting-started-2-device-management.png)
 4. Чтобы подключить дополнительные устройства, выберите **Подключение**.
 5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания**, а затем **загрузите пакет**.
-6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает страницу доступа к MDATP процедурам, соответствующим пакету развертывания, который вы выбрали на этапе 5:
+6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает страницу доступа к процедурам с Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
     - Подключение компьютеров с Windows 10 с помощью групповой политики
     - Подключение компьютеров с Windows с помощью Microsoft Endpoint Configuration Manager
     - Подключение компьютеров с Windows 10 с помощью инструментов управления мобильными устройствами

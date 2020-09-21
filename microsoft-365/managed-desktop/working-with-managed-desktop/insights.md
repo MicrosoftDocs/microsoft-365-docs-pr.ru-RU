@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bcb47a7d5e5dc0880ade6a7e5900d1019e13a8d7
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 6b19c5cd1766c07e106897cefeb495f1b98bb548
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529771"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104392"
 ---
 # <a name="work-with-insights"></a>Работа с аналитикой
 
-На рабочем столе Майкрософт имеется ряд панелей мониторинга, которые администраторы могут использовать для представления различных аспектов заполнения устройств. Доступ к ним можно получить с помощью центра администрирования Microsoft 365.
+На рабочем столе Майкрософт имеется ряд панелей мониторинга, которые администраторы могут использовать для представления различных аспектов заполнения устройств. Вы обращаетесь непосредственно к ним в [центре администрирования Microsoft 365](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop).
 
 С помощью этих панелей мониторинга можно найти ответы на такие вопросы, как:
 
@@ -31,10 +31,9 @@ ms.locfileid: "46529771"
 - Каково текущее состояние обновлений для системы безопасности на устройствах?
 - Сколько времени займет 95% устройств с последним обновлением системы безопасности?
 
-Чтобы получить доступ к этим представлениям из центра администрирования Microsoft 365, в области **отчеты** выберите **Просмотр сведений** :
+Чтобы получить доступ к этим представлениям из [диспетчера Microsoft ендопинт](https://endpoint.microsoft.com/), нваигате на домашнюю вкладку рабочего стола Майкрософт и в области **отчеты** выберите **Просмотр сведений** :
 
-![Центр администрирования с областью отчетов в правом верхнем углу, включая карточку отчетов об устройствах и ссылку "просмотреть сведения".](../../media/insights_overview.png)
-
+<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->!
 
 
 ## <a name="usage-insights"></a>Аналитика использования

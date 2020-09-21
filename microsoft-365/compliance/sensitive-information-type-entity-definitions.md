@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 8716a6d4e29f94ff3d7bedaaadece2449fcec8a3
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d29732051f2a7c023992287a131f3bb68bd28a4d
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950287"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104503"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -212,11 +212,11 @@ ms.locfileid: "47950287"
 11 цифр с необязательными ограничителями:
 
 - две цифры
-- параметр "дефис" или "пробел"
+- Необязательный дефис или пробел
 - три цифры
-- параметр "дефис" или "пробел"
+- Необязательный дефис или пробел
 - три цифры
-- параметр "дефис" или "пробел"
+- Необязательный дефис или пробел
 - три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -3811,12 +3811,12 @@ número do cartão
 
 девять цифр (старый формат):
 - шесть цифр, представляющих дату рождения
-- косая черта
+- Необязательная косая черта
 - три цифры
 
 десять цифр (новый формат):
 - шесть цифр, представляющих дату рождения
-- косая черта 
+- Необязательная косая черта 
 - четыре цифры, где последняя цифра является контрольной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -4845,24 +4845,24 @@ número do cartão
 - [Чешский](#czech-personal-identity-number)
 - [Дания](#denmark-personal-identification-number)
 - [Эстония](#estonia-personal-identification-code)
-- [Финляндия](#finland-national-identification-number)
-- [Франция](#france-national-identification-card-cni)
+- [Финляндия](#finland-national-id)
+- [Франция](#france-national-id-card-cni)
 - [Германия](#germany-identity-card-number)
 - [Греция](#greece-national-id-card)
-- [Венгрия](#hungary-national-identification-number)
-- [Ирландия](#ireland-national-identification-number)
-- [Италия](#italy-national-identification-number)
-- [Латвия](#latvia-national-identification-number)
-- [Литва](#lithuania-national-identification-number)
-- [луксембург](#luxemburg-national-identification-number)
-- [Мальта](#malta-national-identification-number)
-- [Нидерланды](#netherlands-national-identification-number)
+- [Венгрия](#hungary-personal-identification-number)
+- [Ирландия](#ireland-personal-public-service-pps-number)
+- [Италия](#italy-fiscal-code)
+- [Латвия](#latvia-personal-code)
+- [Литва](#lithuania-personal-code)
+- [луксембург](#luxemburg-national-identification-number-natural-persons)
+- [Мальта](#malta-identity-card-number)
+- [Нидерланды](#netherlands-citizens-service-bsn-number)
 - [Польша](#poland-national-id-pesel)
 - [Португалия](#portugal-citizen-card-number)
-- [Румыния](#romania-national-identification-number)
-- [Словакия](#slovakia-national-identification-number)
-- [Словения](#slovenia-national-identification-number)
-- [Испания](#spain-national-identification-number)
+- [Румыния](#romania-personal-numeric-code-cnp)
+- [Словакия](#slovakia-personal-number)
+- [Словения](#slovenia-unique-master-citizen-number)
+- [Испания](#spain-dni)
 - [Королевств](#uk-national-insurance-number-nino)                                        
 
 
@@ -4924,26 +4924,33 @@ número do cartão
 Эти сущности находятся в типе конфиденциальной информации по идентификационному номеру ЕС.
 
 - [Австрия](#austria-tax-identification-number)
+- [Бельгия](#belgium-national-number)
+- [Болгария](#bulgaria-uniform-civil-number)
+- [Хорватия](#croatia-identity-card-number)
 - [Кипр](#cyprus-tax-identification-number)
+- [Чешский](#czech-personal-identity-number)
+- [Дания](#denmark-personal-identification-number)
+- [Эстония](#estonia-personal-identification-code)
+- [Финляндия](#finland-national-id)
 - [Франция](#france-tax-identification-number)
 - [Германия](#germany-tax-identification-number)
 - [Греция](#greece-tax-identification-number)
 - [Венгрия](#hungary-tax-identification-number)
-- [Ирландия](#ireland-tax-identification-number)
-- [Италия](#italy-tax-identification-number)
-- [Латвия](#latvia-tax-identification-number)
-- [Литва](#lithuania-tax-identification-number)
-- [луксембург](#luxemburg-tax-identification-number)
+- [Ирландия](#ireland-personal-public-service-pps-number)
+- [Италия](#italy-fiscal-code)
+- [Латвия](#latvia-personal-code)
+- [Литва](#lithuania-personal-code)
+- [луксембург](#luxemburg-national-identification-number-non-natural-persons)
 - [Мальта](#malta-tax-identification-number)
 - [Нидерланды](#netherlands-tax-identification-number)
 - [Польша](#poland-tax-identification-number)
 - [Португалия](#portugal-tax-identification-number)
-- [Румыния](#romania-tax-identification-number)
-- [Словакия](#slovakia-tax-identification-number)
+- [Румыния](#romania-personal-numeric-code-cnp)
+- [Словакия](#slovakia-personal-number)
 - [Словения](#slovenia-tax-identification-number)
 - [Испания](#spain-tax-identification-number)
 - [Швеция](#sweden-tax-identification-number)
-- [Королевств](#uk-tax-identification-number)
+- [Королевств](#uk-unique-taxpayer-reference-number)
 
 
 ## <a name="finland-drivers-license-number"></a>Номер водительского удостоверения для Финляндии
@@ -5054,7 +5061,7 @@ número do cartão
 - тервэйскортти
 
 
-## <a name="finland-national-identification-number"></a>Национальный идентификационный номер Финляндии
+## <a name="finland-national-id"></a>Национальный идентификатор Финляндии
 
 ### <a name="format"></a>Format
 
@@ -5355,7 +5362,7 @@ número do cartão
 - Корзина д'ассурé социальных сетей
 
 
-## <a name="france-national-identification-card-cni"></a>Национальный идентификационный номер страны Франции (CNI)
+## <a name="france-national-id-card-cni"></a>Национальный идентификационный номер страны Франции (CNI)
 
 ### <a name="format"></a>Format
 
@@ -6447,9 +6454,7 @@ No — Реисепасс НР — Реисепасс
 - везетои енжедели
 
 
-## <a name="hungary-national-identification-number"></a>Венгерский идентификационный номер
-
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="hungary-personal-identification-number"></a>Венгрия персональный идентификационный номер
 
 ### <a name="format"></a>Format
 
@@ -6459,7 +6464,7 @@ No — Реисепасс НР — Реисепасс
 
 11 цифр:
   
--  Одна цифра, соответствующая пол (1-м-штекер, 2-гнездо, другие номера также могут иметь гражданские телефоны перед 1900 или гражданами с удвоенной гражданией) 
+- Одна цифра, соответствующая пол (1-м-штекер, 2-гнездо, другие номера также могут иметь гражданские телефоны перед 1900 или гражданами с удвоенной гражданией) 
 - Шесть цифр, соответствующих дате рождения (ГГММДД)
 - Три цифры, соответствующие серийному номеру.
 - Одна контрольная цифра
@@ -6480,15 +6485,20 @@ No — Реисепасс НР — Реисепасс
 - Функция  `Func_hungary_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
     
 ```xml
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Hungary Personal Identification Number -->
+      <Entity id="7b5cc218-7046-47d9-80c9-f325b50896ca" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_hungary_eu_national_id_card" />
           <Match idRef="Keywords_hungary_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_hungary_eu_national_id_card" />
-</Pattern>
-</Entity>
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_hungary_eu_telephone_number" />
+            <Match idRef="Keywords_hungary_eu_mobile_number" />
+          </Any>
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -6612,8 +6622,6 @@ No — Реисепасс НР — Реисепасс
 
 ## <a name="hungary-tax-identification-number"></a>Идентификационный номер венгерского налога
 
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
-
 ### <a name="format"></a>Format
 
 Десять цифр без пробелов и разделителей
@@ -6623,8 +6631,7 @@ No — Реисепасс НР — Реисепасс
 Десять цифр:
   
 - Одна цифра, которая должна быть "8" 
-- Пять цифр, которые соответствуют количеству дней между датой 01/01/1867 и датой рождения отдельного лица.
-- Три цифры, которые соответствуют номеру, созданному шансом выделить людей, которые поставили один и тот же день.
+- восемь цифр.
 - Одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -6643,16 +6650,20 @@ No — Реисепасс НР — Реисепасс
 - Функция  `Func_hungary_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Hungary Tax Identification Number -->
+      <Entity id="ede42eb4-59d9-49eb-9603-d7853fbda91d" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_hungary_eu_tax_file_number" />
           <Match idRef="Keywords_hungary_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_hungary_eu_tax_file_number" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_hungary_eu_telephone_number" />
+            <Match idRef="Keywords_hungary_eu_mobile_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -7127,89 +7138,6 @@ Dictionary
 - цеадúнас тиомáна
 
 
-## <a name="ireland-national-identification-number"></a>Национальный идентификационный номер для Ирландии
-
-Этот объект типа конфиденциальной информации включается только в тип конфиденциальной информации ЕС по национальному идентификационному номеру.
-
-### <a name="format"></a>Format
-
-Сочетание букв, цифр и пробела в указанном шаблоне.
-  
-### <a name="pattern"></a>Шаблон
-
-Сочетание букв, цифр и пробела в указанном шаблоне.
-  
-От 01 января 2013 до Now:
-  
-- семь цифр; 
-- Одна контрольная цифра
-- Один пробел или буква в верхнем регистре "W" (с учетом регистра)
-    
-До 01 января 2013:
-  
-- семь цифр; 
-- Одна контрольная цифра
-- Один пробел или буква в верхнем регистре (с учетом регистра)
-    
-### <a name="checksum"></a>Контрольная сумма
-
-Да
-  
-### <a name="definition"></a>Определение
-
-Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-  
-- Функция находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово FROM.
-    
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-  
-- Функция находит содержимое, которое соответствует шаблону.
-    
-```xml
- <!--Ireland national identification number  -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_ireland_eu_national_id_card" />
-          <Match idRef="Keywords_ireland_eu_national_id_card" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_ireland_eu_national_id_card" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>Keywords
-
-#### <a name="keywords_ireland_eu_national_id_card"></a>Keywords_ireland_eu_national_id_card
-
-- Служба удостоверений клиента
-- identification number
-
-- личный идентификационный номер
-- номер личной общедоступной службы
-- Личная служба
-- феарсанта сеирбхíсе поиблí
-- PPS нет
-- номер PPS
-- Служба PPS нет
-- PPS уимх
-- ппсн
-- ппсно #
-- ппсно
-- общедоступная служба
-- публиксервицено #
-- публиксервицено
-- номер дохода и социального страхования
-- RSI нет
-- номер RSI
-- рсин
-- Клиент сеирбхíс аисеантаис
-- уимх.настроен
-- уимхир аисеантаис чáнач
-- уимхир аисеантаис феарсанта
-- уимхир феарсанта сеирбхíсе поиблí
-
 ## <a name="ireland-passport-number"></a>Номер паспорта для Ирландии
 
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
@@ -7277,7 +7205,7 @@ Dictionary
 Новый формат (1 января 2013 и после):
 - семь цифр 
 - буква (без учета регистра), которая является буквенной контрольной цифрой 
-- буква "A" или "H" (без учета регистра)
+- Необязательная буква в диапазоне A – I или "W"
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -7287,9 +7215,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция Func_ireland_pps находит содержимое, которое соответствует шаблону.
-- Верно одно из условий ниже:
-    - найдено ключевое слово из Keyword_ireland_pps;
-    - функция Func_eu_date находит дату в правильном формате.
+- Найдено ключевое слово из Keywords_ireland_eu_national_id_card.
 - Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
@@ -7297,81 +7223,21 @@ Dictionary
 - Контрольная сумма проходит проверку.
 
 ```xml
-<!-- Ireland Personal Public Service (PPS) Number -->
-<Entity id="1cdb674d-c19a-4fcf-9f4b-7f56cc87345a" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_ireland_pps"/>
-     <Any minMatches="1">
-  <Match idRef="Keyword_ireland_pps"/>
-  <Match idRef="Func_eu_date"/>
-     </Any>
-  </Pattern>
-  <Pattern confidenceLevel="65">
-     <IdMatch idRef="Func_ireland_pps"/>
-  </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>Keywords
-
-#### <a name="keyword_ireland_pps"></a>Keyword_ireland_pps
-
-- Personal Public Service Number 
-- PPS Number 
-- PPS Num 
-- PPS No. 
-- PPS # 
-- PPS # 
-- ппсн 
-- Public Services Card 
-- Uimhir Phearsanta Seirbhíse Poiblí 
-- Уимх. НАСТРОЕН 
-- НАСТРОЕН 
-
-
-## <a name="ireland-tax-identification-number"></a>Идентификационный номер налога для Ирландии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
-
-### <a name="format"></a>Format
-
-семь цифр, за которыми следует буква без пробелов и разделителей
-  
-### <a name="pattern"></a>Шаблон
-
-семь цифр, за которыми следует буква:
-  
-- семь цифр 
-- одна буква (без учета регистра)
-    
-### <a name="checksum"></a>Контрольная сумма
-
-неприменимо
-  
-### <a name="definition"></a>Определение
-
-Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_ireland_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_ireland_eu_tax_file_number` . 
-    
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_ireland_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Ireland Personal Public Service (PPS) Number -->
+      <Entity id="1cdb674d-c19a-4fcf-9f4b-7f56cc87345a" patternsProximity="300" recommendedConfidence="85" relaxProximity="true">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_ireland_eu_tax_file_number" />
-          <Match idRef="Keywords_ireland_eu_tax_file_number" />
+          <IdMatch idRef="Func_ireland_pps" />
+          <Match idRef="Keywords_ireland_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_ireland_eu_tax_file_number" />
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Func_ireland_pps" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
 
-#### <a name="keywords_ireland_eu_tax_file_number"></a>Keywords_ireland_eu_tax_file_number
+#### <a name="keywords_ireland_eu_national_id_card"></a>Keywords_ireland_eu_national_id_card
 
 - Служба удостоверений клиента
 - identification number
@@ -7382,11 +7248,12 @@ Dictionary
 - феарсанта сеирбхíсе поиблí
 - PPS нет
 - номер PPS
+- номер PPS
 - Служба PPS нет
-- PPS уимх
 - ппсн
 - ппсно #
 - ппсно
+- настроен
 - общедоступная служба
 - публиксервицено #
 - публиксервицено
@@ -7395,10 +7262,27 @@ Dictionary
 - номер RSI
 - рсин
 - Клиент сеирбхíс аисеантаис
-- уимх.настроен
+- уимх
 - уимхир аисеантаис чáнач
 - уимхир аисеантаис феарсанта
 - уимхир феарсанта сеирбхíсе поиблí
+- tax id
+
+- Налоговый идентификатор
+- идентификационный номер налога
+- налог без #
+- налог без
+- Налоговый номер
+- Регистрационный номер налогоплательщика
+- такси #
+- таксидно #
+- таксиднумбер #
+- таксно #
+- такснумбер #
+- такснумбер
+- Идентификатор Tin
+- номер Tin
+- ИНН #
 
 
 ## <a name="israel-bank-account-number"></a>Номер банковского счета для Израиля
@@ -7534,8 +7418,7 @@ Dictionary
 - numero di patente di guida 
 - patente di guida 
 
-## <a name="italy-national-identification-number"></a>Национальный идентификационный номер для Италии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="italy-fiscal-code"></a>Финансовый код Италии
 
 ### <a name="format"></a>Format
 
@@ -7566,16 +7449,16 @@ Dictionary
 - Функция  `Func_italy_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
     
 ```xml
-<!-- Italy national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Italy Fiscal Code -->
+      <Entity id="4cd79172-8da9-4ff5-9188-98b1e7e2eca6" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_italy_eu_national_id_card" />
           <Match idRef="Keywords_italy_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_italy_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -7664,90 +7547,6 @@ Dictionary
 - пассапорто нумеро
 - нумéро пассепорт италиен
 - нумéро пассепорт
-
-
-## <a name="italy-tax-identification-number"></a>Идентификационный номер налога для Италии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
-
-### <a name="format"></a>Format
-
-16 букв и цифр в указанном шаблоне
-  
-### <a name="pattern"></a>Шаблон
-
-16 букв и цифр:
-  
-- три буквы, соответствующие первым трем согласным в имени семейства 
-- три буквы, соответствующие первым, третьим и четвертым согласным в имени.
-- две цифры, соответствующие последним цифрам года рождения
-- одна цифра, соответствующая месяцу рождения, буквы используются в алфавитном порядке, но используются только буквы от A до E, H, L, M, P, R — T (то есть Январь — это R, а Октябрь — R)
-- две цифры, которые соответствуют дню рождения, где 40 добавляется к дню рождения женщин, чтобы отличать от мужчин
-- четыре цифры, соответствующие коду города, соответствующему органу государственной власти, в котором был создан пользователь, — коды уровня страны используются для иностранных стран
-- одна контрольная цифра
-    
-### <a name="checksum"></a>Контрольная сумма
-
-Да
-  
-### <a name="definition"></a>Определение
-
-Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_italy_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_italy_eu_tax_file_number` . 
-    
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_italy_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_italy_eu_tax_file_number" />
-          <Match idRef="Keywords_italy_eu_tax_file_number" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_italy_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>Keywords
-
-#### <a name="keywords_italy_eu_tax_file_number"></a>Keywords_italy_eu_tax_file_number
-
-- налоговые кости
-- финансовый отчет по сокостям
-- личные коды для сокодовых костей
-- Персональные подкодеки
-- Финансовый код
-- Нумеро цертификато персональный
-- Нумеро di идентификазионе Фин.
-- личный идентификатор нумеро
-- персональные настройки нумеро
-- личный номер сертификата
-- персональный код
-- личный код
-- личный идентификационный номер
-- персоналкодено #
-- Налоговый код
-- tax id
-
-- Налоговый идентификатор
-- идентификационный номер налога
-- идентификационный номер налогоплательщика
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
 
 
 ## <a name="italy-value-added-tax-number"></a>Налоговый номер добавленной стоимости (Италия)
@@ -8323,14 +8122,15 @@ Dictionary
 - длно #
 - аутовадīтāжа аплиекīба
 
-## <a name="latvia-national-identification-number"></a>Национальный идентификационный номер для Латвии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="latvia-personal-code"></a>Личный код Латвии
 
 ### <a name="format"></a>Format
 
-11 цифр и дефис в указанном формате.
+11 цифр и необязательный дефис
   
 ### <a name="pattern"></a>Шаблон
+
+Старый формат
 
 11 цифр и дефис:
   
@@ -8338,6 +8138,13 @@ Dictionary
 - дефис
 - одна цифра, соответствующая столетию рождения ("0" для 19 века, "1" для 20-й век) и "2" для 21 века)
 - четыре цифры, созданные случайным образом
+
+Новый формат
+
+11 цифр.
+
+- Две цифры "32"
+- девять цифр.
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -8346,23 +8153,39 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_latvia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция  `Func_latvia_eu_national_id_card` или регулярное выражение `Regex_latvia_eu_national_id_card_new_format` выполняет поиск содержимого, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_latvia_eu_national_id_card` . 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_latvia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция  `Func_latvia_eu_national_id_card` или регулярное выражение `Regex_latvia_eu_national_id_card_new_format` выполняет поиск содержимого, которое соответствует шаблону. 
     
 ```xml
-<!-- Latvia national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Latvia Personal Code -->
+      <Entity id="03fcf763-27c2-49ed-9422-2641c6c895c9" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_latvia_eu_national_id_card" />
           <Match idRef="Keywords_latvia_eu_national_id_card" />
         </Pattern>
- <Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_latvia_eu_national_id_card" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_latvia_eu_telephone_number" />
+            <Match idRef="Keywords_latvia_eu_mobile_number" />
+          </Any>
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_latvia_eu_national_id_card_new_format" />
+          <Match idRef="Keywords_latvia_eu_national_id_card" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_latvia_eu_national_id_card_new_format" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_latvia_eu_telephone_number" />
+            <Match idRef="Keywords_latvia_eu_mobile_number" />
+          </Any>
+        </Pattern>
+      </Entity>
+
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -8479,117 +8302,6 @@ registration number
 - паспорт нет
 - ПАСЕ нумурс    
 
-## <a name="latvia-tax-identification-number"></a>Идентификационный номер налога в Латвии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
-
-### <a name="format"></a>Format
-
-11 цифр без пробелов и разделителей
-  
-### <a name="pattern"></a>Шаблон
-
-11 цифр в указанном шаблоне
-  
-- шесть цифр, соответствующих дате рождения (ДДММГГ —) 
-- одна цифра, соответствующая столетию рождения, где "0" соответствует 19 века, "1" соответствует 20 столетию, а "2" соответствует 21 столетию
-- четыре цифры
-    
-### <a name="checksum"></a>Контрольная сумма
-
-Да
-  
-### <a name="definition"></a>Определение
-
-Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_latvia_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_latvia_eu_tax_file_number` . 
-    
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_latvia_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_latvia_eu_tax_file_number" />
-          <Match idRef="Keywords_latvia_eu_tax_file_number" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_latvia_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>Keywords
-
-#### <a name="keywords_latvia_eu_tax_file_number"></a>Keywords_latvia_eu_tax_file_number
-
-- Административный номер
-- алвас нē
-- номер рождения
-- номер для согражданства
-- гражданское число
-- номер электронного переписи
-- электронный номер
-- Финансовый код
-- номер пользователя для сферы здравоохранения
-- кодов #
-- ID — код
-- identification number
-
-- идентификāЦижас нумурс
-- ID — номер
-- индивидуальный номер
-- латвижа Алва
-- Идентификатор наЦионāлаис
-- 
-national id
-- Национальный идентификационный номер
-- Национальный идентификационный номер
-- national insurance number
-
-- номер национальной регистрации
-- нодокļа нумурс
-- Идентификатор нодокļу
-- нодокļу идентификāЦижа нумурс
-- личный номер сертификата
-- персональный код
-- личный код
-- личный идентификационный номер
-- персональный идентификационный код
-- личный идентификатор
-- личный номер удостоверения
-- персональный номер
-- персональный числовой код
-- персоналкодено #
-- Пользователи Кодс
-- код идентификации заполнения
-- номер общедоступной службы
-- 
-registration number
-- номер дохода
-- страховой номер
-- social security number
-
-- Налоговый код штата
-- номер налогового файла
-- tax id
-
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- номер Вотер
 
 ## <a name="lithuania-drivers-license-number"></a>Литва номер водительского удостоверения
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
@@ -8640,8 +8352,7 @@ registration number
 - длно #
 - ваируотожо паžимėжимас
 
-## <a name="lithuania-national-identification-number"></a>Литва Национальный идентификационный номер
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="lithuania-personal-code"></a>Литва персональный код
 
 ### <a name="format"></a>Format
 
@@ -8651,7 +8362,7 @@ registration number
 
 11 цифр без пробелов и разделителей:
   
-- одна цифра, соответствующая пол и век рождения человека
+- одна цифра (1-6), соответствующая пол и век рождения человека
 - шесть цифр, соответствующих дате рождения (ГГММДД) 
 - три цифры, которые соответствуют серийному числу даты рождения.
 - одна контрольная цифра
@@ -8663,23 +8374,27 @@ registration number
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_lithuania_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_lithuania_eu_national_id_card` . 
+- Функция  `Func_lithuania_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Найдено ключевое слово FROM  `Keywords_lithuania_eu_tax_file_number` . 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_lithuania_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция  `Func_lithuania_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
     
 ```xml
-<!-- Lithuania national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Lithuania Personal Code -->
+      <Entity id="cd6d3786-8ec3-4524-a2cf-1e0095379171" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_lithuania_eu_national_id_card" />
-          <Match idRef="Keywords_lithuania_eu_national_id_card" />
-        </Pattern> 
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_lithuania_eu_national_id_card" />
+          <IdMatch idRef="Func_lithuania_eu_tax_file_number" />
+          <Match idRef="Keywords_lithuania_eu_tax_file_number" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_lithuania_eu_tax_file_number" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_lithuania_eu_telephone_number" />
+            <Match idRef="Keywords_lithuania_eu_mobile_number" />
+          </Any>
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -8760,79 +8475,6 @@ registration number
 - паспорт нет
 - Пасо нумерис
 
-## <a name="lithuania-tax-identification-number"></a>Код налога на Литва
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
-
-### <a name="format"></a>Format
-
-11 цифр без пробелов и разделителей
-  
-### <a name="pattern"></a>Шаблон
-
-11 цифр.
-  
-### <a name="checksum"></a>Контрольная сумма
-
-неприменимо
-  
-### <a name="definition"></a>Определение
-
-Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_lithuania_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_lithuania_eu_tax_file_number` . 
-    
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_lithuania_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_lithuania_eu_tax_file_number" />
-          <Match idRef="Keywords_lithuania_eu_tax_file_number" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_lithuania_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>Keywords
-
-#### <a name="keywords_lithuania_eu_tax_file_number"></a>Keywords_lithuania_eu_tax_file_number
-
-- асменинис скаитменинис кодас
-- асменс кодас
-- номер службы для себя
-- Идентификатор мокесčиų
-- мокесčиų идентификавимас нумерис
-- мокесčиų идентификавимо нумерис
-- мокесčиų нумерис
-- Национальный идентификационный номер
-- персональный код
-- пилиеčио паслаугос нумерис
-- tax id
-
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- уникалус идентификавимо кодас
-- уникалус идентификавимо нумерис
-- уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникуеидентитино #
 
 ## <a name="luxemburg-drivers-license-number"></a>Номер водительского удостоверения Луксембург
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
@@ -8883,39 +8525,48 @@ registration number
 - длно #
 - фахрерлаубнис
 
-## <a name="luxemburg-national-identification-number"></a>Национальный идентификационный номер Луксембург
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="luxemburg-national-identification-number-natural-persons"></a>Национальный идентификационный номер Луксембург (для природных людей)
 
 ### <a name="format"></a>Format
 
-11 цифр без пробелов и разделителей
+13 цифр без пробелов и разделителей
   
 ### <a name="pattern"></a>Шаблон
 
-11 цифр.
+13 цифр:
   
-- одна цифра, соответствующая пол и век рождения человека
-- шесть цифр, соответствующих дате рождения (ГГММДД) 
-- три цифры, которые соответствуют серийному числу даты рождения.
-- одна контрольная цифра
+- 11 цифр. 
+- две контрольные цифры
     
 ### <a name="checksum"></a>Контрольная сумма
 
-Неприменимо
+Да
   
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение  `Regex_luxemburg_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция  `Func_luxemburg_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_luxemburg_eu_national_id_card` . 
-    
+
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция  `Func_luxemburg_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+
+
 ```xml
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_luxemburg_eu_national_id_card" />
+      <!-- Luxemburg National Identification Number (Natural persons) -->
+      <Entity id="aaf661ed-29ec-426d-8bf9-880cad298ebb" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_luxemburg_eu_tax_file_number" />
           <Match idRef="Keywords_luxemburg_eu_national_id_card" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_luxemburg_eu_tax_file_number" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_luxemburg_eu_telephone_number" />
+            <Match idRef="Keywords_luxemburg_eu_mobile_number" />
+          </Any>
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -8983,19 +8634,24 @@ registration number
 - паспорт нет
 - пасснуммер
 
-## <a name="luxemburg-tax-identification-number"></a>Идентификационный номер налога на Луксембург
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
+## <a name="luxemburg-national-identification-number-non-natural-persons"></a>Луксембург Национальный идентификационный номер (неестественные пользователи)
 
 ### <a name="format"></a>Format
 
-13 цифр без пробелов и разделителей
+11 цифр.
   
 ### <a name="pattern"></a>Шаблон
 
-13 цифр:
+11 цифр.
   
-- 11 цифр. 
-- две контрольные цифры
+- две цифры
+- необязательный пробел 
+- три цифры 
+- необязательный пробел
+- три цифры 
+- необязательный пробел
+- две цифры
+- одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -9004,23 +8660,27 @@ registration number
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_luxemburg_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция  `Func_luxemburg_eu_tax_file_number_non_natural` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_luxemburg_eu_tax_file_number` . 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_luxemburg_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция  `Func_luxemburg_eu_tax_file_number_non_natural` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Luxemburg National Identification Number (Non-natural persons) -->
+      <Entity id="84bffa3a-d805-4788-a613-b1e4df3804cf" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_luxemburg_eu_tax_file_number" />
+          <IdMatch idRef="Func_luxemburg_eu_tax_file_number_non_natural" />
           <Match idRef="Keywords_luxemburg_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_luxemburg_eu_tax_file_number" />
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_luxemburg_eu_tax_file_number_non_natural" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_luxemburg_eu_telephone_number" />
+            <Match idRef="Keywords_luxemburg_eu_mobile_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -9188,8 +8848,7 @@ registration number
 - длно #
 - лиċензжаные зада Севкан
 
-## <a name="malta-national-identification-number"></a>Национальный идентификационный номер Мальта
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="malta-identity-card-number"></a>Номер идентификационной карточки Мальта
 
 ### <a name="format"></a>Format
 
@@ -9200,7 +8859,7 @@ registration number
 семь цифр, за которыми следует одна буква:
   
 - семь цифр 
-- одна прописная буква (с учетом регистра)
+- одна буква в письмах "M, G, A, P, L, H, B, Z" (без учета регистра)
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -9216,16 +8875,16 @@ registration number
 - Регулярное выражение  `Regex_malta_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!--Malta national identification number  -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Malta Identity Card Number -->
+      <Entity id="854b36b3-a388-4ac8-a4ec-677c2b5e4356" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_malta_eu_national_id_card" />
           <Match idRef="Keywords_malta_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="65">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Regex_malta_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -9289,7 +8948,6 @@ registration number
 - нумру Тал — пассапорт
 
 ## <a name="malta-tax-identification-number"></a>Идентификационный номер налога Мальта
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
 
 ### <a name="format"></a>Format
 
@@ -9317,23 +8975,30 @@ registration number
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_malta_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Регулярное выражение  `Regex_malta_eu_tax_file_number`  или `Regex_malta_eu_tax_file_number_non_maltese_national` ищет содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_malta_eu_tax_file_number` . 
     
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция  `Func_malta_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Регулярное выражение  `Regex_malta_eu_tax_file_number` или `Regex_malta_eu_tax_file_number_non_maltese_national` ищет содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Malta Tax ID Number -->
+      <Entity id="ec830c63-65f4-45d0-9d8c-910dc8334b20" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_malta_eu_tax_file_number" />
+          <IdMatch idRef="Regex_malta_eu_tax_file_number" />
           <Match idRef="Keywords_malta_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="65">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Regex_malta_eu_tax_file_number" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_malta_eu_tax_file_number_non_maltese_national" />
+          <Match idRef="Keywords_malta_eu_tax_file_number" />
+        </Pattern>
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Regex_malta_eu_tax_file_number_non_maltese_national" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -9396,23 +9061,21 @@ registration number
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_netherlands_bsn находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_netherlands_bsn;
-- функция Func_eu_date2 находит дату в правильном формате.
 - Контрольная сумма проходит проверку.
 
 ```xml
-<!-- Netherlands Citizen's Service (BSN) Number -->
-<Entity id="c5f54253-ef7e-44f6-a578-440ed67e946d" patternsProximity="300" recommendedConfidence="85">
-  <Pattern confidenceLevel="85">
-       <IdMatch idRef="Func_netherlands_bsn" /> 
-       <Match idRef="Keyword_netherlands_bsn" /> 
-       <Match idRef="Func_eu_date2" /> 
-  </Pattern>
-</Entity>
+      <!-- Netherlands Citizen's Service (BSN) Number -->
+      <Entity id="c5f54253-ef7e-44f6-a578-440ed67e946d" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_netherlands_bsn" />
+          <Match idRef="Keywords_netherlands_eu_national_id_card" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
 
-#### <a name="keyword_netherlands_bsn"></a>Keyword_netherlands_bsn
+#### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
   
 - BSN #
 - BSN
@@ -9487,68 +9150,6 @@ registration number
 - рижбевижс
 - рижбевижснуммер
 
-## <a name="netherlands-national-identification-number"></a>Национальный идентификационный номер Нидерландов
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
-
-### <a name="format"></a>Format
-
-девять цифр без пробелов и разделителей
-  
-### <a name="pattern"></a>Шаблон
-
-девять цифр
-  
-### <a name="checksum"></a>Контрольная сумма
-
-Да
-  
-### <a name="definition"></a>Определение
-
-Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_netherlands_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM.
-    
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_netherlands_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-    
-```xml
- <!--Netherland national identification number  -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_netherlands_eu_national_id_card" />
-          <Match idRef="Keywords_netherlands_eu_national_id_card" />
-        </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_netherlands_eu_national_id_card" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>Keywords
-
-#### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
-
-- BSN #
-- BSN
-- буржерсервиценуммер
-- номер службы для себя
-- номер пользователя
-- персональный номер
-- персональный числовой код
-- номер, связанный с человеком
-- персунлижк нуммер
-- персунлижке нумериеке код
-- персунсжебонден
-- персунснуммер
-- соЦиаал — фискаал нуммер
-- социальное — финансовый номер
-- софи
-- софинуммер
-- униек идентификатиенуммер
-- униек идентитеитснуммер
-- уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникуеидентитино #
 
 ## <a name="netherlands-passport-number"></a>Номер паспорта Нидерландов
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
@@ -9594,7 +9195,6 @@ registration number
 - паспуртнуммер
 
 ## <a name="netherlands-tax-identification-number"></a>Идентификационный номер налога Нидерландов
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
 
 ### <a name="format"></a>Format
 
@@ -9614,20 +9214,20 @@ registration number
 - Функция  `Func_netherlands_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_netherlands_eu_tax_file_number` . 
     
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - Функция  `Func_netherlands_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Netherlands Tax Identification Number -->
+      <Entity id="01f42a64-eba7-4892-a67b-398237e4ade2" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_netherlands_eu_tax_file_number" />
           <Match idRef="Keywords_netherlands_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Func_netherlands_eu_tax_file_number" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -10242,7 +9842,6 @@ international driving permit
 
    
 ## <a name="poland-national-id-pesel"></a>Национальный идентификатор Польша (PESEL)
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации страны ЕС и доступен как отдельный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -10250,7 +9849,9 @@ international driving permit
 
 ### <a name="pattern"></a>Шаблон
 
-11 последовательных цифр.
+- 6 цифр, представляющих дату рождения, в формате ГГММДД.
+- 4 цифры
+- 1 контрольная цифра
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -10263,14 +9864,21 @@ international driving permit
 - находится ключевое слово из Keyword_pesel_identification_number;
 - Контрольная сумма проходит проверку.
 
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- функция Func_pesel_identification_number находит содержимое, которое соответствует шаблону;
+- Контрольная сумма проходит проверку.
+
 ```xml
-<!-- Poland National ID (PESEL) -->      
-<Entity id="E3AAF206-4297-412F-9E06-BA8487E22456" patternsProximity="300" recommendedConfidence="85">
-      <Pattern confidenceLevel="85">
+      <!-- Poland National ID (PESEL) -->
+      <Entity id="E3AAF206-4297-412F-9E06-BA8487E22456" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_pesel_identification_number" />
           <Match idRef="Keyword_pesel_identification_number" />
-      </Pattern>
-</Entity>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_pesel_identification_number" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -10390,7 +9998,6 @@ international driving permit
 
 
 ## <a name="poland-tax-identification-number"></a>Идентификационный номер для таможенного учета Польша
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
 
 ### <a name="format"></a>Format
 
@@ -10410,20 +10017,15 @@ international driving permit
 - Функция  `Func_poland_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_poland_eu_tax_file_number` . 
     
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_poland_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-    
+  
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Poland Tax Identification Number -->
+      <Entity id="1ff28b4d-40f2-49e9-b677-9606a88e2bca" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_poland_eu_tax_file_number" />
           <Match idRef="Keywords_poland_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
-          <IdMatch idRef="Func_poland_eu_tax_file_number" />
-        </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -10461,9 +10063,6 @@ international driving permit
    
 
 ## <a name="portugal-citizen-card-number"></a>Номер карточки с префиксом "Португалия"
-- Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации страны ЕС и доступен как отдельный объект типа конфиденциальной информации.
-- Этот объект типа конфиденциальной информации включен в номер социального страхования ЕС или эквивалентный тип конфиденциальной информации.
-
 
 ### <a name="format"></a>Format
 
@@ -10616,15 +10215,18 @@ international driving permit
 - нúмеро Do пассапорте
 
 ## <a name="portugal-tax-identification-number"></a>Идентификационный номер для налога на Португалия
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов и разделителей
+девять цифр с необязательными пробелами
   
 ### <a name="pattern"></a>Шаблон
 
-девять цифр
+- 3 цифры
+- необязательный пробел
+- 3 цифры
+- необязательный пробел
+- 3 цифры
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -10636,20 +10238,20 @@ international driving permit
 - Функция  `Func_portugal_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_portugal_eu_tax_file_number` . 
     
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - Функция  `Func_portugal_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Portugal Tax Identification Number -->
+      <Entity id="65372402-3131-4f1e-9983-4439841d1f15" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_portugal_eu_tax_file_number" />
           <Match idRef="Keywords_portugal_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Func_portugal_eu_tax_file_number" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -10733,8 +10335,7 @@ international driving permit
 - длно #
 - разрешение de кондуцере
 
-## <a name="romania-national-identification-number"></a>Национальный идентификационный номер Румыния
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="romania-personal-numeric-code-cnp"></a>Персональный числовой код Румыния (КНП)
 
 ### <a name="format"></a>Format
 
@@ -10742,8 +10343,11 @@ international driving permit
   
 ### <a name="pattern"></a>Шаблон
 
-13 цифр.
-  
+- 1 цифра из 1-9
+- 6 цифр, представляющих дату рождения (ГГММДД)
+- 2 цифры, которые могут быть 01-52 или 99
+- 4 цифры
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
@@ -10758,16 +10362,16 @@ international driving permit
 - Функция  `Func_romania_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!--Romania national identification number  -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Romania Personal Numerical Code (CNP) -->
+      <Entity id="eb5fa399-fe28-4c67-8188-d63a616ed89c" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_romania_eu_national_id_card" />
           <Match idRef="Keywords_romania_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_romania_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -10864,92 +10468,6 @@ national id
 - номер паспорта для румынского языка
 - паспорт нет
 - нумăрул паșапортулуи
-
-## <a name="romania-tax-identification-number"></a>Идентификационный номер для налога на Румыния
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
-
-### <a name="format"></a>Format
-
-13 цифр без пробелов и разделителей
-  
-### <a name="pattern"></a>Шаблон
-
-13 цифр.
-  
-### <a name="checksum"></a>Контрольная сумма
-
-неприменимо
-  
-### <a name="definition"></a>Определение
-
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение  `Regex_romania_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_romania_eu_tax_file_number` . 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_romania_eu_tax_file_number" />
-          <Match idRef="Keywords_romania_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>Keywords
-
-#### <a name="keywords_romania_eu_tax_file_number"></a>Keywords_romania_eu_tax_file_number
-
-- кнп #
-- кнп
-- Личный идентификаре наложенного платежа
-- цифровой платеж, персональный
-- наложенный Уник идентификаре
-- коднумерикперсонал #
-- финансовый НР кодул.
-- идентификареа фискалă НР #
-- ID — UL таксеи
-- страховой номер
-- инсуранценумбер #
-- идентификатор страны #
-- 
-national id
-- Национальный идентификационный номер
-- нумăр идентификаре персональный
-- нумăр идентитате
-- нумăр Personal Уник
-- нумăридентитате #
-- нумăридентитате
-- нумăрперсоналуник #
-- нумăрперсоналуник
-- нумăру де идентификаре фискалă
-- нумăрул де идентификаре фискалă
-- персональный числовой код
-- крепления #
-- крепления
-- Налоговый файл нет
-- номер налогового файла
-- tax id
-
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникуеидентитино #
-- уникуеидентитино
 
 
 ## <a name="russia-passport-number-domestic"></a>Номер паспорта для России (Россия)
@@ -11210,16 +10728,18 @@ national id
 - длно #
 - водиčскý преуказ
 
-## <a name="slovakia-national-identification-number"></a>Словакия Национальный идентификационный номер
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="slovakia-personal-number"></a>Словакия персональный номер
 
 ### <a name="format"></a>Format
 
-десять цифр, содержащих одну обратную косую черту;
+девять или десять цифр, содержащих необязательную обратную косую черту
   
 ### <a name="pattern"></a>Шаблон
 
-десять цифр, содержащих одну обратную косую черту:
+- 6 цифр, представляющих дату рождения
+- Необязательная косая черта (/)
+- 3 цифры
+- 1 обязательная контрольная цифра
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -11231,20 +10751,21 @@ national id
 - Функция  `Func_slovakia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_slovakia_eu_national_id_card` . 
     
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - Функция  `Func_slovakia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- Slovakia national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Slovakia Personal Number -->
+      <Entity id="951c26b7-3b35-4f73-924b-15dd599cb9ab" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_slovakia_eu_national_id_card" />
           <Match idRef="Keywords_slovakia_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Func_slovakia_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
+    </Version>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -11339,89 +10860,6 @@ national id
 - паспорт нет
 - číсло Пасу
 
-## <a name="slovakia-tax-identification-number"></a>Идентификационный номер налогоплательщика (Словакия)
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
-
-### <a name="format"></a>Format
-
-десять цифр без пробелов и разделителей
-  
-### <a name="pattern"></a>Шаблон
-
-десять цифр
-  
-### <a name="checksum"></a>Контрольная сумма
-
-неприменимо
-  
-### <a name="definition"></a>Определение
-
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение  `Regex_slovakia_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_slovakia_eu_tax_file_number` . 
-    
-```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_slovakia_eu_tax_file_number" />
-          <Match idRef="Keywords_slovakia_eu_tax_file_number" />
-        </Pattern>
-</Entity>
-```
-
-### <a name="keywords"></a>Keywords
-
-#### <a name="keywords_slovakia_eu_tax_file_number"></a>Keywords_slovakia_eu_tax_file_number
-
-- азоносíтó сзáм
-- номер рождения
-- číсло нáроднеж идентификаčнеж Карти
-- číсло обčианскéхо преуказу
-- даňовé číсло
-- идентификационный номер
-- Идентификация нет
-- identification number
-
-- идентификаčнá карта č
-- идентификаčнé číсло
-- удостоверение идентификационной карточки
-- Номер идентификационной карточки
-- нáроднá идентификаčнá знаčка č
-- номер страны
-- натионалнумбер #
-- Немзети сземéлязоносíтó игазолвáни
-- персоналиднумбер #
-- рč
-- родне Цисло
-- роднé číсло
-- social security number
-
-- SSN #
-- SSN
-- сземéли игазолвáни сзáм
-- сземéли игазолвáни сзáма
-- сземéлигазолвáни сзáм
-- Налоговый файл нет
-- номер налогового файла
-- tax id
-
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-
 
 ## <a name="slovenia-drivers-license-number"></a>Номер водительского удостоверения для драйвера Словения
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
@@ -11472,8 +10910,7 @@ national id
 - длно #
 - возниšко доволженже
 
-## <a name="slovenia-national-identification-number"></a>Национальный идентификационный номер (Словения)
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="slovenia-unique-master-citizen-number"></a>Словения уникальный номер хозяина
 
 ### <a name="format"></a>Format
 
@@ -11484,7 +10921,7 @@ national id
 13 цифр в указанном шаблоне:
   
 - семь цифр, которые соответствуют дате рождения (ДДММЛЛЛ), где "ЛЛЛ" соответствует последним трем цифрам года рождения 
-- две цифры, соответствующие области рождения
+- две цифры, соответствующие области рождения "50"
 - три цифры, которые соответствуют сочетанию пола и серийного номера для людей, которые приставили один и тот же день (000-499 для пола и 500-999 для розетки)
 - одна контрольная цифра
     
@@ -11502,16 +10939,16 @@ national id
 - Функция  `Func_slovenia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- Slovenia national identification number -->
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
+      <!-- Slovenia Unique Master Citizen Number -->
+      <Entity id="68948b27-803d-41e4-adf1-13e05eb541bb" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_slovenia_eu_national_id_card" />
           <Match idRef="Keywords_slovenia_eu_national_id_card" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_slovenia_eu_national_id_card" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -11591,7 +11028,6 @@ national id
 - Список потнега šтевилка
 
 ## <a name="slovenia-tax-identification-number"></a>Идентификационный номер для налога на Словения
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
 
 ### <a name="format"></a>Format
 
@@ -11599,7 +11035,9 @@ national id
   
 ### <a name="pattern"></a>Шаблон
 
-восемь цифр
+- одна цифра из 1-9
+- шесть цифр
+- одна контрольная цифра
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -11611,20 +11049,20 @@ national id
 - Функция  `Func_slovenia_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_slovenia_eu_tax_file_number` . 
     
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - Функция  `Func_slovenia_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Slovenia Tax Identification Number -->
+      <Entity id="e47b071e-c352-4d70-8241-8c215ad65505" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_nation_eu_tax_file_number" />
-          <Match idRef="Keywords_nation_eu_tax_file_number" />
+          <IdMatch idRef="Func_slovenia_eu_tax_file_number" />
+          <Match idRef="Keywords_slovenia_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="65">
           <IdMatch idRef="Func_slovenia_eu_tax_file_number" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -11826,39 +11264,52 @@ national id
 - El карнет de кондуЦир
 - Карнет кондуЦир
 
-## <a name="spain-national-identification-number"></a>Национальный идентификационный номер Испания
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации ЕС по национальному идентификационному номеру.
+## <a name="spain-dni"></a>Испания, DNI
 
 ### <a name="format"></a>Format
 
-семь цифр, за которыми следует один символ
+восемь цифр, за которыми следует один символ
   
 ### <a name="pattern"></a>Шаблон
 
 семь цифр, за которыми следует один символ
   
-- семь цифр
-- одна цифра или буква (без учета регистра)
+- восемь цифр
+- Необязательный пробел или дефис
+- один проверочный символ (без учета регистра)
     
 ### <a name="checksum"></a>Контрольная сумма
 
-неприменимо
+Да
   
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение  `Regex_spain_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция  `Func_spain_eu_DL_and_NI_number_citizen` или `Func_spain_eu_DL_and_NI_number_foreigner` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_spain_eu_national_id_card"` . 
+
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция  `Func_spain_eu_DL_and_NI_number_citizen` или `Func_spain_eu_DL_and_NI_number_foreigner` находит содержимое, которое соответствует шаблону. 
+
     
 ```xml
-<!-- Spain national identification number -->
- 
-<Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_spain_eu_national_id_card" />
+      <!-- Spain DNI -->
+      <Entity id="8e6251b9-47b4-40e8-a42b-0f80876be192" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
           <Match idRef="Keywords_spain_eu_national_id_card" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
+        </Pattern>
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_foreigner" />
+          <Match idRef="Keywords_spain_eu_national_id_card" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_foreigner" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -11977,7 +11428,6 @@ national id
 Нет
 
 ## <a name="spain-tax-identification-number"></a>Налоговый идентификационный номер Испания
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
 
 ### <a name="format"></a>Format
 
@@ -12021,23 +11471,30 @@ national id
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_spain_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция  `Func_spain_eu_tax_file_number` или `Func_spain_eu_DL_and_NI_number_citizen` находит содержимое, которое соответствует шаблону. 
 - Найдено ключевое слово FROM  `Keywords_spain_eu_tax_file_number` . 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_spain_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция  `Func_spain_eu_tax_file_number` или `Func_spain_eu_DL_and_NI_number_citizen` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Spain Tax Identification Number -->
+      <Entity id="10f0d113-b0e1-47dc-872a-a4f45b9376a3" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_spain_eu_tax_file_number" />
           <Match idRef="Keywords_spain_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_spain_eu_tax_file_number" />
         </Pattern>
-</Entity>
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
+          <Match idRef="Keywords_spain_eu_tax_file_number" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spain_eu_DL_and_NI_number_citizen" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -12205,7 +11662,6 @@ national id
 - кöркорт
 
 ## <a name="sweden-national-id"></a>Национальный идентификатор, Швеция
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации страны ЕС и доступен как отдельный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -12214,9 +11670,9 @@ national id
 ### <a name="pattern"></a>Шаблон
 
 десять или 12 цифр, а также необязательный разделитель:
-- две до четырех цифр (необязательно) 
+- две цифры (необязательно) 
 - Шесть цифр в формате даты ГГММДД. 
-- разделитель "-" или "+" (необязательно), а также
+- разделитель "-" или "+" (необязательно)
 - четыре цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -12226,21 +11682,49 @@ national id
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- функция Func_swedish_national_identifier находит содержимое, которое соответствует шаблону;
+- Функция `Func_swedish_national_identifier` находит содержимое, которое соответствует шаблону.
+- Найдено ключевое слово FROM `Keywords_swedish_national_identifier`
 - Контрольная сумма проходит проверку.
 
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- Функция `Func_swedish_national_identifier` находит содержимое, которое соответствует шаблону.
+- Контрольная сумма проходит проверку.
+
+
 ```xml
-<!-- Sweden National ID -->
-<Entity id="f69aaf40-79be-4fac-8f05-fd1910d272c8" patternsProximity="300" recommendedConfidence="85">
-    <Pattern confidenceLevel="85">
+    <!-- Sweden National ID -->
+    <Entity id="f69aaf40-79be-4fac-8f05-fd1910d272c8" patternsProximity="300" recommendedConfidence="85">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_swedish_national_identifier" />
-    </Pattern>
-</Entity>
+        <Match idRef="Keywords_swedish_national_identifier" />
+      </Pattern>
+      <Pattern confidenceLevel="75">
+        <IdMatch idRef="Func_swedish_national_identifier" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
 
-Нет
+#### <a name="keywords_swedish_national_identifier"></a>Keywords_swedish_national_identifier
+
+- ID No
+- идентификационный номер
+- кодов #
+- Идентификация нет
+- identification number
+
+- идентификатионснумрет #
+- идентификатионснумрет
+- идентитетшандлинг
+- документ Identity
+- Идентификатор
+- идентификационный номер
+- ID — нуммер
+- личный идентификатор
+- персоннуммер #
+- персоннуммер
+- скаттеидентификатионснуммер
    
 ## <a name="sweden-passport-number"></a>Номер паспорта Швеции
 Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера паспорта ЕС и доступен как отдельный объект типа конфиденциальной информации.
@@ -12375,7 +11859,6 @@ national id
 - идентификатионснумрет #
 
 ## <a name="sweden-tax-identification-number"></a>Идентификационный номер налога для Швеции
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
 
 ### <a name="format"></a>Format
 
@@ -12386,7 +11869,7 @@ national id
 десять цифр и символ:
   
 - шесть цифр, соответствующих дате рождения (ГГММДД) 
-- знак плюс, знак минус или обратная косая черта
+- знак плюс или минус
 - три цифры, которые делают идентификационный номер уникальным, где: 
   - для номеров, выпущенных до 1990, седьмой и восьмой цифрой определяют район рождения или пользователей, порожденных иностранным пользователем.
   - цифра в девятой позиции указывает на пол, который нечетен для пола или даже для розетки.
@@ -12406,16 +11889,20 @@ national id
 - Функция  `Func_sweden_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
+      <!-- Sweden Tax Identification Number -->
+      <Entity id="139acba0-a5bc-4fbb-876d-f7a493ae8a40" patternsProximity="300" recommendedConfidence="85">
         <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_sweden_eu_tax_file_number" />
           <Match idRef="Keywords_sweden_eu_tax_file_number" />
         </Pattern>
-<Pattern confidenceLevel="75">
+        <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_sweden_eu_tax_file_number" />
+          <Any minMatches="0" maxMatches="0">
+            <Match idRef="Keywords_sweden_eu_telephone_number" />
+            <Match idRef="Keywords_sweden_eu_mobile_number" />
+          </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords
@@ -13097,23 +12584,20 @@ OR
 - натионалинсуранценумбер
 
     
-## <a name="uk-tax-identification-number"></a>Королевств идентификационный номер налога
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации по идентификационному номеру Европейского налога ЕС.
-
+## <a name="uk-unique-taxpayer-reference-number"></a>Королевств Уникальный номер ссылки налогоплательщика
 
 ### <a name="format"></a>Format
 
-Уникальная справочная информация о налогоплательщиках (утр): 10 цифр без пробелов и разделителей
+10 цифр без пробелов и разделителей
  
   
 ### <a name="pattern"></a>Шаблон
 
-Уникальная справочная информация о налогоплательщиках (утр): 10 цифр
-
+10 цифр.
   
 ### <a name="checksum"></a>Контрольная сумма
 
-Да
+Нет
   
 ### <a name="definition"></a>Определение
 
@@ -13122,13 +12606,13 @@ OR
 - Найдено ключевое слово FROM  `Keywords_uk_eu_tax_file_number` . 
     
 ```xml
- <!-- EU Tax File Number -->
-<Entity id="e09c07d3-66e5-4783-989d-49ac62748f5f" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="75">
+      <!-- U.K. Unique Taxpayer Reference Number -->
+      <Entity id="ad4a8116-0db8-439a-b545-6d967642f0ec" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
           <IdMatch idRef="Func_uk_eu_tax_file_number" />
           <Match idRef="Keywords_uk_eu_tax_file_number" />
         </Pattern>
-</Entity>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Keywords

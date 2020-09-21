@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 828a17db-956a-401e-bb62-d153b6dffd53
 description: Следуйте этим инструкциям, чтобы создать страницу "о нас", в том числе название, адрес, номер телефона, URL-адрес веб-сайта, логотип и рабочие часы в книгах Майкрософт.
-ms.openlocfilehash: 65de115f2217948b1e57a1642ca3c6a105675898
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 0424794d4627d7c6770f86f32d81d4653f889163
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420042"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962505"
 ---
 # <a name="enter-your-business-information"></a>Ввод сведений о компании
 
@@ -25,7 +25,7 @@ ms.locfileid: "47420042"
    ![Пример страницы бизнес-информации в книгах Майкрософт](../media/bookings-business-info.png)
 
 > [!NOTE]
-> Для клиентов, у которых есть подписки Microsoft 365 бизнес Standard, Microsoft 365 a3 или Microsoft 365 A5, резервирование включается по умолчанию. Кроме того, они доступны пользователям Office 365 корпоративный E3 и Office 365 корпоративный, но по умолчанию она отключена. Чтобы приступить к работе, ознакомьтесь [со статьей получение доступа к книгам Майкрософт](get-access.md). Чтобы включить или отключить резервирование, ознакомьтесь со статьей [Включение или отключение учета для Организации](turn-bookings-on-or-off.md).
+> Чтобы приступить к работе, ознакомьтесь [со статьей получение доступа к книгам Майкрософт](get-access.md). Чтобы включить или отключить резервирование, ознакомьтесь со статьей [Включение или отключение учета для Организации](turn-bookings-on-or-off.md).
 
 ## <a name="provide-business-name-and-contact-information"></a>Ввод названия компании и контактных данных
 

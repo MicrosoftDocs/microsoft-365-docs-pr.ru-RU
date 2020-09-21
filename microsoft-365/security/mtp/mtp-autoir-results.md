@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 6b3bc068e5da99e02a64463891e32d137c448d64
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: 62d33c57606aad81607164b1f068c6f6d91063c2
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42261066"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962303"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Сведения и результаты автоматического исследования
 
@@ -80,9 +82,7 @@ ms.locfileid: "42261066"
 |Журнал    |Содержите подробное представление всех действий, выполненных в ходе исследования, и сведения о состоянии.|
 |Ожидающие выполнения действия    |Содержит список элементов, требующих утверждения для продолжения.|
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия:
 
-- [Общие сведения о разрешениях центра уведомлений](mtp-action-center.md#required-permissions-for-action-center-tasks)
-
-- [Утверждение или отклонение действий, относящихся к автоматизированному анализу угроз и реакции на них](mtp-autoir-actions.md)
+- [Утверждение или отклонение действий, относящихся к автоматизированному анализу угроз и реакции на угрозы](mtp-autoir-actions.md)
 

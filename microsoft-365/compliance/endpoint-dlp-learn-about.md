@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Защита от потери данных в конечной точке Microsoft 365 расширяет отслеживание действий с файлами и защитных действий для конечных точек этих файлов. В решениях для обеспечения соответствия требованиям Microsoft 365 файлы являются видимыми '
-ms.openlocfilehash: 2423f45fefe994fbaf5704074c49ce862a59340e
-ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
+ms.openlocfilehash: 7403f20fa7c97c63be0e5001e8d3f5b37b409eee
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46517500"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131551"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)
 
@@ -120,7 +120,7 @@ ms.locfileid: "46517500"
 - имя устройства
 - тип конечного расположения
 - приложение, которое выполнило копирование
-- идентификатор устройства MDATP (если применимо)
+- ИД устройства Microsoft Defender для конечной точки (если применимо)
 - производитель съемного носителя
 - модель съемного носителя
 - серийный номер съемного носителя

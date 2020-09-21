@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f971fb579624c31afb6225d444c326cde4621729
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c2a5c7a95a16b9a29e73b98310e64f403d4d342b
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817153"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104562"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-threat-protection-evaluation-lab"></a>Создание тестового оповещения в лаборатории оценки Microsoft Threat protection  
 
@@ -36,4 +36,6 @@ ms.locfileid: "47817153"
 <br>![Изображение имитационной карточки на панели мониторинга безопасности Microsoft 365](../../media/mtp-eval-73.png) <br>
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Просмотрите [решение и центр архитектуры Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , чтобы получить рекомендации относительно того, как должны быть реализованы решения безопасности в уникальной среде.
+
+Просмотрите решение и [центр архитектуры Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , чтобы узнать, как разработать решение и архитектуру, предназначенные для вашей организации.
+

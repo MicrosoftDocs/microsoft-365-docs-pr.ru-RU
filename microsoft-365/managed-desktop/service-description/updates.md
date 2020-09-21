@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1349b58bdd6243b05323f14197e0ad92c1fc0d7b
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 03a9b19a5b8ba957419e23c2bb12748c9c57e80d
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289499"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104622"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Способ обработки обновлений на настольных компьютерах, управляемых Майкрософт
 
@@ -55,16 +55,15 @@ ms.locfileid: "47289499"
 
 
 <table>
-<tr><th colspan="5">Обновление параметров развертывания</th></tr>
-<tr><th>Тип обновления</th><th>Тест</th><th>Первый</th><th>Быстро</th><th>Общие</th></tr>
-<tr><td>Обновления качества операционной системы</td><td>0 дней</td><td>0 дней</td><td>0 дней</td><td>за 3 дня;</td></tr>
-<tr><td>Обновления компонентов для операционной системы</td><td>0 дней</td><td>30 дней</td><td>60 дней.</td><td>90 дней</td></tr>
-<tr><td>Драйверы и встроенное по</td><td colspan="4">Соответствует календарному плану для обновлений качества</td></tr>
-<tr><td>Определение антивирусной защиты</td><td colspan="4">Обновлено с каждым сканированием</td></tr>
-<tr><td>Приложения Microsoft 365 для предприятий</td><td colspan="4">Соответствует текущему каналу Office
+    <tr><th colspan="5">Обновление параметров развертывания</th></tr>
+    <tr><th>Тип обновления</th><th>Тест</th><th>Первый</th><th>Быстро</th><th>Общие</th></tr>
+    <tr><td>Обновления качества операционной системы</td><td>0 дней</td><td>0 дней</td><td>0 дней</td><td>за 3 дня;</td></tr>
+    <tr><td>Обновления компонентов для операционной системы</td><td>0 дней</td><td>30 дней</td><td>60 дней.</td><td>90 дней</td></tr>
+    <tr><td>Драйверы и встроенное по</td><td colspan="4">Соответствует календарному плану для обновлений качества</td></tr>
+    <tr><td>Определение антивирусной защиты</td><td colspan="4">Обновлено с каждым сканированием</td></tr>
+    <tr><td>Приложения Microsoft 365 для предприятий</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/m365-apps#updates-to-microsoft-365-apps">Подробнее</a></td></tr>
+    <tr><td>Microsoft Edge</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/edge-browser-app#updates-to-microsoft-edge">Подробнее</a></td></tr>
 </table>
-
-Дополнительные сведения о текущем канале для приложений Microsoft 365 для предприятий можно найти в статье [Обзор каналов обновления для приложений microsoft 365](https://docs.microsoft.com/deployoffice/overview-update-channels).
 
 >[!NOTE]
 >Эти периоды задержки предназначены специально для обеспечения высокого уровня безопасности и производительности для всех пользователей. Кроме того, на основе данных, собранных на компьютерах с управляемыми службами Майкрософт и различной области и влиянии на обновления, для настольных систем, управляемых Майкрософт, резервируется гибкость для изменения длины указанных выше периодов задержки для всех групп развертывания на основе ad hoc.
