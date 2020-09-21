@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить соединитель для импорта и архивирования данных из Глобанет масштабирования в Microsoft 365. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения для управления сторонними данными Организации.
-ms.openlocfilehash: 6b2f5f0b61eb2d569ad49d8f58c7e03d11cdbca0
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: c7052e7f51108cac93ad8d87402a07acd12df28a
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405500"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956236"
 ---
 # <a name="set-up-a-connector-to-archive-zoom-meetings-data-preview"></a>Настройка соединителя для архивации данных собраний с увеличением (Предварительная версия)
 
@@ -30,7 +30,7 @@ ms.locfileid: "47405500"
 
 В следующем обзоре описывается процесс использования соединителя для архивации данных о собраниях с масштабом в Microsoft 365.
 
-![Рабочий процесс архивации электронных данных для резервного хранения](../media/ZoomMeetingsConnectorWorkflow.png)
+![Рабочий процесс архивации собраний с масштабированием](../media/ZoomMeetingsConnectorWorkflow.png)
 
 1. Ваша организация работает с масштабированием собраний для установки и настройки сайта для масштабирования собраний.
 

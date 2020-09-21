@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 725d22629d2c81a0edf8f329602214afddde6511
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: d7739ac6184509abe4df3aaf140db66f6039717c
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633927"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962657"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Утверждение или отклонение ожидающих действий за автоматическим исследованием
 
@@ -62,8 +64,5 @@ ms.locfileid: "42633927"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Дополнительные сведения о центре уведомлений](mtp-action-center.md)
-
-- [Дополнительные сведения об инцидентах](incidents-overview.md)
-
-- [Сведения об охоте на угрозы](advanced-hunting-overview.md)
+- [Просмотр сведений и результатов автоматического исследования](mtp-autoir-results.md)
+- [Обработка ложных срабатываний/отрицательных результатов в автоматизированном расследовании и возможностях реагирования](mtp-autoir-report-false-positives-negatives.md)

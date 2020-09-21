@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Сведения о каталоге решений Microsoft 365, в том числе о том, что он содержит, как получить его и выполнить следующие действия.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f396801d4241b06c5523e4f3312c9ce597ac015e
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: ff445711dfd57ec69305c3f8cc7d01e05a66a1cc
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547567"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132173"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Каталог решений Microsoft 365
 
@@ -101,6 +101,6 @@ ms.locfileid: "47547567"
 
 - **Microsoft Information Protection**, Узнайте, как решения Microsoft 365 помогают находить, классифицировать и защищать конфиденциальную информацию везде, где она живет или передается.
     - **Познакомьтесь с настройками Microsoft Cloud App Security**. [В разделе Краткое руководство: Начало работы с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).
-    - Приступите **к работе с классификаторами**. Классификация контента и пометка его для правильной защиты и правильной обработки — это исходное место для дисциплины защиты информации. Узнайте [, как приступить к обучению классификаторов](classifier-getting-started-with.md).
+    - Приступите **к работе с классификаторами**. Классификация контента и пометка его для правильной защиты и правильной обработки — это исходное место для дисциплины защиты информации. [Узнайте больше о классификаторах (Предварительная версия)](classifier-learn-about.md).
 
 - **Посетите Каталог решений Microsoft 365**и обязательно ознакомьтесь с новыми решениями, чтобы обеспечить соответствие требованиям. Войдите в систему [https://compliance.microsoft.com](https://compliance.microsoft.com) , а затем выберите **Каталог** в левой области навигации.

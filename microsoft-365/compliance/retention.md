@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: 7787d3e2e3dead737d7a0e5ed083a851a349d561
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 3d5bf971f65be5fd6ef4fdbed46cc41827657a54
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816762"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132139"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
@@ -83,7 +83,7 @@ ms.locfileid: "47816762"
  
 - Срок хранения можно отсчитывать от момента присваивания метки контенту или от какого-либо события, а также на основе давности контента или даты его последнего изменения.
 
-- Использование [обучаемых классификаторов](classifier-getting-started-with.md) для выявления контента, которому необходимо присвоить метку.
+- Использование [обучаемых классификаторов](classifier-learn-about.md) для выявления контента, которому необходимо присвоить метку.
 
 - Применение метки, заданной по умолчанию, к документам SharePoint.
 

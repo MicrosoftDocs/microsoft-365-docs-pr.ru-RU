@@ -2,7 +2,7 @@
 title: Сбор данных для обращения в Advanced eDiscovery
 f1.keywords:
 - NOCSH
-ms.author: esclee
+ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Узнайте, как определить набор документов для проверки при расследовании с помощью средства поиска в Advanced eDiscovery.
 ms.custom: seo-marvel-2020
-ms.openlocfilehash: 9d8a88ddfc6bcb30f8678f39ad2bc4fbaf717ecc
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 725c289324a8e4d5bd4d7a7b9ddd9e091b6d6241
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034353"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956202"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Сбор данных для обращения в Advanced eDiscovery
 
@@ -42,7 +42,7 @@ ms.locfileid: "44034353"
 
 Когда оценка поиска будет завершена, выберите Поиск, чтобы отобразить всплывающую страницу, в которой будет отображена определенная высокоуровневая статистика о результатах поиска. На этом шаге кнопка **Статистика** будет активна. Вы можете выбрать его для просмотра статистики поиска, например:
 
-- Сводка
+- Аннотация
 - Основные расположения
 - Запросы
 

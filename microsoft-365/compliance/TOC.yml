@@ -107,12 +107,14 @@
           href: what-the-dlp-functions-look-for.md
     - name: Обучаемые классификаторы
       items:
+        - name: Информация об обучаемых классификаторах (предварительная версия)
+          href: classifier-learn-about.md
         - name: Начало работы с обучаемыми классификаторами (предварительная версия)
-          href: classifier-getting-started-with.md
-        - name: Использование встроенного классификатора (предварительная версия)
-          href: classifier-using-a-ready-to-use-classifier.md
-        - name: Создание и обучение классификатора (предварительная версия)
-          href: classifier-creating-a-trainable-classifier.md
+          href: classifier-get-started-with.md
+        - name: Повторное обучение классификаторов в соответствии с требованиями к связи (предварительная версия)
+          href: classifier-how-to-retrain-comms-compliance.md
+        - name: Повторное обучение классификаторов в обозревателе содержимого (предварительная версия)
+          href: classifier-how-to-retrain-content-explorer.md
     - name: Классификация данных
       items:
         - name: Общие сведения о классификации данных

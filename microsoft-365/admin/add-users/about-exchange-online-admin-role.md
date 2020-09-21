@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Администраторы Exchange Online управляют электронной почтой и почтовыми ящиками организации. Например, они восстанавливают удаленные элементы в почтовом ящике пользователя. '
-ms.openlocfilehash: 0b63679883e8329782700085fa0c11a0ac6585ca
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: be4c8a4f1c75402d690cc705dd408c9070e40c9b
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307437"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131774"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Роль администратора Exchange Online
 
@@ -34,15 +34,17 @@ ms.locfileid: "47307437"
   
  **Совет**: при назначении роли администратора Exchange назначить их роли администратора службы. Таким образом, они могут просматривать важную информацию в центре администрирования Microsoft 365, например работоспособность службы Exchange Online, а также изменять и освобождать уведомления.
   
+## <a name="before-you-begin"></a>Прежде чем начать
+
 Ниже описаны некоторые основные задачи, которые пользователи могут выполнять, если им назначена роль администратора Exchange.
   
 - [Восстановление элементов, удаленных из почтового ящика пользователя.](https://docs.microsoft.com/microsoft-365/enterprise/recover-deleted-items-in-a-mailbox)
-    
+
 - [Настройка политики архивации и удаления для почтовых ящиков в Организации](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
-    
+
 - Настройка функций почтового ящика, например политики общего доступа к нему, которая определяет, как пользователи могут делиться данными календаря и контактов с другими людьми за пределами вашей организации.
-    
-- Настройка представителей "[Отправить как](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" и "[отправить на абехалф](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" для почтового ящика пользователя. Например, руководителю может потребоваться, чтобы его помощник имел возможность отправлять почту от его имени. 
+
+- Настройка представителей "[Отправить как](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" и "[отправить на абехалф](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" для почтового ящика пользователя. Например, руководителю может потребоваться, чтобы его помощник имел возможность отправлять почту от его имени.
 
 - [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) , чтобы группа людей могла отслеживать и отправлять электронную почту с общего адреса электронной почты.
 

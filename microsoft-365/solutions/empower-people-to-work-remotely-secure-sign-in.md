@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Необходимо, чтобы удаленные работники входили в систему с помощью многофакторной проверки подлинности (MFA).
-ms.openlocfilehash: a8c0b8ac689407fa871d2373f1ca0a3658bb1668
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 0b655800d27e6836a3848bfb2a94fc9c30439ec7
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521521"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132206"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Этап 1. Повышение безопасности входа для удаленных сотрудников с помощью MFA
 
@@ -86,7 +86,7 @@ ms.locfileid: "46521521"
 
 В этой таблице показаны результаты включения MFA с параметрами безопасности по умолчанию и политиками условного доступа.
 
-|| Включено | Отключено | Дополнительный метод аутентификации |
+| Метод | Включено | Отключено | Дополнительный метод аутентификации |
 |:-------|:-----|:-------|:-------|
 | **Параметры безопасности по умолчанию**  | Невозможно использовать политики условного доступа | Возможно использование политик условного доступа | Приложение Microsoft Authenticator |
 | **Политики условного доступа** | Если включена хотя бы одна из них, то включение параметров безопасности по умолчанию невозможно | Если все отключены, вы можете включить настройки безопасности по умолчанию  | Пользователь указывает при регистрации MFA  |
@@ -104,7 +104,7 @@ ms.locfileid: "46521521"
 
 - [MFA для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
 - [5 основных способов использования Azure AD в организации удаленной работы](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691)
-- [Планирование и развертывание инфраструктуры удостоверений Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure?view=o365-worldwide#plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure)
+- [Стратегия удостоверений для Microsoft 365](../enterprise/identity-roadmap-microsoft-365.md)
 - [Учебные видеоматериалы по Azure AD академии Azure](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
 - [Настройте политику регистрации многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Планирование развертывания самостоятельного сброса пароля в Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)

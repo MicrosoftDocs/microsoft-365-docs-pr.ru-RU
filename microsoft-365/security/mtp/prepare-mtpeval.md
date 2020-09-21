@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a684f49ab8c70a19a17ff43195197677bccbf95b
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 6b87b051d243c11fe2b32fccb50f3ad0d01d0c04
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816773"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956155"
 ---
 # <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Подготовка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз
 
@@ -66,8 +66,8 @@ ms.locfileid: "47816773"
 
 Подготовка — это ключ к любому успешному развертыванию. В этом разделе вы узнаете, что нужно учесть при подготовке пробной лаборатории или пилотной среды к развертыванию Microsoft Threat protection.
 
-## <a name="prerequisites"></a>Предварительные условия
-Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также другие параметры конфигурации для подготовки и использования защиты от угроз Майкрософт. Ознакомьтесь с минимальными требованиями для [защиты от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?view=o365-worldwide), [Microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), [Microsoft Cloud App Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
+## <a name="prerequisites"></a>Предварительные требования
+Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также другие параметры конфигурации для подготовки и использования защиты от угроз Майкрософт. Ознакомьтесь с минимальными требованиями для [защиты от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [Microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), [Microsoft Cloud App Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Заинтересованные стороны и подпись
 Следующий раздел служит для определения всех заинтересованных лиц, вовлеченных в проект, которые могут потребоваться для выхода, проверки или информирования о необходимости оценки или запуска пилотного проекта.
@@ -83,7 +83,7 @@ ms.locfileid: "47816773"
 
 -   I = информирование о проекте
 
-| Имя                 | Role                                                                                                                                                                                                          | Действие |
+| Имя                 | Role                                                                                                                                                                                                          | Action |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Введите имя и адрес электронной почты | **Генеральный директор по безопасности информационных технологий (Цисо)** *— руководитель, который выступает в качестве спонсора в Организации для развертывания нового решения.*                                                  | МОГЛИ     |
 | Введите имя и адрес электронной почты | **Head of кибератак оборонного центра (кдок)** в *группе кдок, ответственной за определение того, как это изменение выровнено с процессами в группе "операции безопасности клиентов".*       | МОГЛИ     |
@@ -126,11 +126,12 @@ ms.locfileid: "47816773"
 
 | Компонент                               | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Ранг заказа конфигурации |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Office 365 Advanced Threat Protection| Office 365 ATP защищает вашу организацию от вредоносных угроз, исносящихся к сообщениям электронной почты, ссылкам (URL-адресам) и средствам для совместной работы. <br> [Подробнее.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)                                                                                                                                                                                                                                             | 1                    |
+| Office 365 Advanced Threat Protection| Office 365 ATP защищает вашу организацию от вредоносных угроз, исносящихся к сообщениям электронной почты, ссылкам (URL-адресам) и средствам для совместной работы. <br> [Подробнее.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                    |
 |Расширенная защита от угроз Azure|Azure ATP использует сигналы Active Directory для определения, обнаружения и исследования сложных угроз, скомпрометированных удостоверений и действий, которые вы направляете в Организации. <br> [Подробнее](https://docs.microsoft.com/azure-advanced-threat-protection/).| 2  |
-|Microsoft Cloud App Security| Microsoft Cloud App Security — это брокер безопасности облачного доступа (КАСБ), работающий в нескольких облаках. Он обеспечивает широкие возможности просмотра и управления путешествием данных, а также интеллектуальную аналитику для выявления и борьбы киберугрозами среди всех облачных служб. <br> [Подробнее](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                    |
+|Microsoft Cloud App Security| Microsoft Cloud App Security — это брокер безопасности облачного доступа (КАСБ), работающий в нескольких облаках. Он обеспечивает широкие возможности просмотра и управления путешествием данных, а также интеллектуальную аналитику для выявления и борьбы киберугрозами среди всех облачных служб. <br> [Подробнее](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |4                   |
 |Advanced Threat Protection в Microsoft Defender | Функции обнаружения угроз и реагирования на них для конечных точек в ATP в Microsoft Defender обеспечивают обнаружение расширенных атак, работают в режиме практически реального времени, а результаты, предоставляемые такими функциями, можно использовать в качестве основания для выполнения тех или иных действий. Аналитики систем безопасности могут эффективно определять приоритеты предупреждений, получать полную картину всех возможных брешей в системе безопасности, а также предпринимать действия по реагированию для устранения угроз. <br> [Подробнее.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Следующий шаг
-![Этап 2: Настройка](../../media/setup.png) <br>[Этап 2: Настройка](setup-mtpeval.md)<br> Настройка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз
+|![Этап 2: Настройка](../../media/setup.png) <br>[Этап 2: Настройка](setup-mtpeval.md) | Настройка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз
+|:-------|:-----|
 

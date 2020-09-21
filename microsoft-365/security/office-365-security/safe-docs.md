@@ -15,53 +15,46 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Сведения о надежных документах в Microsoft 365 и Microsoft 365 для обеспечения безопасности.
-ms.openlocfilehash: 8918c7da26a60c7cfd64b7148d0added82cc6642
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 5e91c226102d60368bf08b09ae5f0239f63599d5
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949458"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132227"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Безопасные документы в Microsoft 365
 
 Безопасные документы — это функция Microsoft 365, а также безопасность Microsoft 365, которая использует [Advanced Threat Protection в защитнике Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для сканирования документов и файлов, которые открываются в [режиме защищенного просмотра](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Безопасные документы теперь доступны пользователям Office версии 2004 (12730. x) или выше. Эта функция отключена по умолчанию и должна быть включена администратором безопасности.
+- Безопасные документы доступны только пользователям, у которых есть лицензии на системы безопасности *microsoft 365* и *Microsoft 365* . Эти лицензии не включены в планы Office 365 Advanced Threat protection (ATP).
 
-- Эта функция доступна только пользователям, у которых есть лицензия на систему безопасности *microsoft 365* и *Microsoft 365* (не входит в планы ATP Office 365).
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com>. Чтобы перейти непосредственно к странице **безопасных вложений ATP** , откройте <https://protection.office.com/safeattachmentv2> .
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
-
-- Дополнительные сведения о 
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Перед выполнением процедур, описанных в этом разделе, необходимо назначить разрешения. Чтобы включить и настроить безопасные документы, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-## <a name="how-does-microsoft-handle-your-data"></a>Как Майкрософт обрабатывает ваши данные?
+- Чтобы защититься от вирусов, безопасные документы отправляют файлы в облако [Microsoft Defender Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для анализа. Подробные сведения об обработке данных в защитнике Майкрософт можно найти здесь: [Хранение и конфиденциальность данных в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
 
-Чтобы защититься от вирусов, безопасные документы отправляют файлы в облако [Microsoft Defender Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для анализа.
-
-- Сведения об обработке данных с помощью Advanced Threat Protection в защитнике Майкрософт можно найти [здесь](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
-- В дополнение к рекомендациям, описанным выше, файлы, отправляемые безопасными документами, не сохраняются в защитнике за пределами времени, необходимого для анализа, что обычно составляет менее 24 часов.
+- Файлы, отправленные безопасными документами, не поддерживаются в защитнике за пределами времени, необходимого для анализа (как правило, меньше 24 часов).
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Использование центра безопасности & соответствия требованиям для настройки безопасных документов
 
-1. Откройте центр соответствия требованиям по безопасности & по адресу <https://protection.office.com> .
+1. В центре безопасности & соответствия требованиям перейдите к разделу политика **управления угрозами** \> **Policy** \> **ATP: безопасные вложения**, а затем щелкните **глобальные параметры**.
 
-2. Перейдите к разделу политика **управления угрозой** \> **Policy** \> **безопасные вложения ATP**.
+2. В открывшемся окне **глобальные параметры** настройте указанные ниже параметры.
 
-3. В разделе **Помогите людям безопасно оставаться безопасными, когда вы доверяете файлу для открытия раздела "защищенный просмотр в приложениях Office** ", настройте один из следующих параметров:
+   - **Включите безопасные документы для клиентов Office**: установите переключатель вправо, чтобы включить компонент: включен ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
-   - **Включение безопасных документов для клиентов Office**
+   - **Разрешить пользователям переход по защищенному просмотру даже в том случае, если безопасные документы определяют файл как вредоносный**: Мы рекомендуем оставить этот параметр отключенным (не устанавливая флажок слева: выключено ![ ](../../media/scc-toggle-off.png) ).
 
-   - **Разрешить пользователям щелкать в режиме защищенного просмотра, даже если документы распознает файл как вредоносный**: не рекомендуется включать этот параметр.
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
-4. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+   ![Параметры безопасных документов после выбора глобальных параметров на странице безопасных вложений ATP.](../../media/safe-docs.png)
 
-![Страница безопасных вложений ATP](../../media/safe-docs.png)
-
-### <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-documents"></a>Настройка безопасных документов с помощью Exchange Online PowerShell или отдельного EOP PowerShell
+### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Настройка безопасных документов с помощью Exchange Online PowerShell
 
 Используйте указанный ниже синтаксис.
 
@@ -70,7 +63,6 @@ Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true 
 ```
 
 - Параметр _енаблесафедокс_ включает или отключает безопасные документы для всей Организации.
-
 - Параметр _алловсафедоксопен_ разрешает или запрещает пользователям оставлять защищенный просмотр (то есть открывать документ), если документ был определен как вредоносный.
 
 В этом примере показано, как включить безопасные документы для всей Организации и запретить пользователям открывать документы, которые были определены как вредоносные из защищенного просмотра.
@@ -85,10 +77,16 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 
 Чтобы убедиться, что вы включили и настроили безопасные документы, выполните одно из указанных ниже действий.
 
-- В центре безопасности & соответствия требованиям перейдите к разделу политика **управления угрозами** для \> **Policy** \> **безопасных вложений ATP**и убедитесь, что параметры, выбранные в **справке, остаются безопасными при доверии файлу для открытия в разделе "защищенный просмотр в приложениях Office** ".
+- В центре безопасности & соответствия требованиям перейдите к разделу политика **управления угрозами** \> **Policy** \> **ATP: безопасные вложения**, щелкните **глобальные параметры**и проверьте, **включены ли безопасные документы для клиентов Office** , и **разрешите пользователям перейти по защищенному просмотру даже в том случае, если они идентифицируют файл как вредоносные** параметры.
 
 - Выполните следующую команду в Exchange Online PowerShell и проверьте значения свойств:
 
   ```powershell
   Get-AtpPolicyForO365 | Format-List *SafeDocs*
   ```
+
+- Ниже приведены файлы, которые можно использовать для тестирования безопасности защищенных документов. Эти документы аналогичны файлу EICAR.TXT для тестирования антивредоносных и антивирусных решений. Файлы не являются вредоносными, но они активируют безопасную защиту документов.
+
+  - [SafeDocsDemo.docx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.docx)
+  - [SafeDocsDemo.pptx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.pptx)
+  - [SafeDocsDemo.xlsx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.xlsx)

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Реализуйте возможности Microsoft Information Protection (МИП) с помощью соответствия требованиям Microsoft 365, которые помогают находить, классифицировать и защищать конфиденциальную информацию везде, где она живет или передается.
-ms.openlocfilehash: ac4499fceae1e4f754753cf91beaf106d855c517
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: f867391243302d0ce912ae5d740ed761ea7317b7
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308350"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131969"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Защита информации Майкрософт в Microsoft 365
 
@@ -41,8 +41,8 @@ ms.locfileid: "47308350"
 |Возможность|Какие проблемы она решает?|Начало работы|
 |:------|:------------|:--------------------|:-----------------------------|
 |[Типы конфиденциальной информации](sensitive-information-type-entity-definitions.md)| Определяет конфиденциальные данные с помощью встроенных или настраиваемых регулярных выражений или функции вместе с свидетельством подкрепляющее, включающим ключевые слова, уровни вероятности и сходства.| [Настройка встроенных типов конфиденциальных данных](customize-a-built-in-sensitive-information-type.md)|
-|[Выученные классификаторы (Предварительная версия)](classifier-getting-started-with.md)| Классификация данных для вас с помощью одного из встроенных классификаторов или обучение классификатора с собственным контентом | [Создание классификатора для обучения (Предварительная версия)](classifier-creating-a-trainable-classifier.md) |
-|[Классификация данных](data-classification-overview.md) | Определяет элементы, которые имеют метку конфиденциальности, метку хранения или классифицируются как тип конфиденциальной информации в Организации и действия, которые используются пользователями.  | [Начало работы с обозревателем контента](data-classification-content-explorer.md)<br /><br /> [Начало работы с обозревателем действий](data-classification-activity-explorer.md) |
+|[Выученные классификаторы (Предварительная версия)](classifier-learn-about.md)| Классификация данных для вас с помощью одного из встроенных классификаторов или обучение классификатора с собственным контентом | [Начало работы с обучаемыми классификаторами (предварительная версия)](classifier-get-started-with.md) |
+|[Классификация данных](data-classification-overview.md) | Определяет элементы, которые имеют метку конфиденциальности, метку хранения или классифицируются как тип конфиденциальной информации в Организации и действия, которые используются пользователями.  | [Начало работы с обозревателем контента](data-classification-content-explorer.md)<br /><br /> [Приступая к работе с обозревателем действий](data-classification-activity-explorer.md) |
 
 ## <a name="protect-your-data"></a>Защита данных
 
@@ -59,7 +59,7 @@ ms.locfileid: "47308350"
 [Соединитель управления правами](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector) |Только Защита для существующих локальных развертываний, использующих Exchange или SharePoint Server, а также файловых серверов, на которых выполняется Windows Server и инфраструктура классификации файлов (FCI) | [Действия по развертыванию соединителя службы управления правами](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector#steps-to-deploy-the-rms-connector)
 |[Сканер единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)| Обнаружение, метки и защита конфиденциальной информации, расположенной в локальных хранилищах данных | [Настройка и установка сканера единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)| Обнаружение, метки и защита конфиденциальной информации, которая находится в хранилищах данных в облаке | [Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|[SDK защиты информации (Майкрософт)](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|Расширение меток конфиденциальности для сторонних приложений и служб  <br /><br /> Пример сценария: [Set и получение метки конфиденциальности (C++)](https://docs.microsoft.com/information-protection/develop/quick-file-set-get-label-cpp) |[Установка и настройка пакета SDK Microsoft Information Protection (МИП)](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)|
+|[SDK защиты информации (Майкрософт)](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|Расширение меток конфиденциальности для сторонних приложений и служб  <br /><br /> Пример сценария: [Set и получение метки конфиденциальности (C++)](https://docs.microsoft.com/information-protection/develop/quick-file-set-get-label-cpp) |[Настройка пакета SDK для Microsoft Information Protection (MIP)](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)|
 
 ## <a name="prevent-data-loss"></a>Защита от потери данных
 

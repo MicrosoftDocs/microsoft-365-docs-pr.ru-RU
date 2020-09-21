@@ -8,7 +8,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.author: heidip
-ms.date: 09/12/2020
+ms.date: 09/18/2020
 ms.reviewer: anmorgan
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: fc2b83fc167a9385383d7085ed6d1e8db15abd42
-ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
+ms.openlocfilehash: 570ef098a3989bf42d641b78e325414350b8e5a5
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651136"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132116"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Рекомендации политики по обеспечению безопасности для чатов, групп и файлов в Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "47651136"
 - Microsoft Teams
 - SharePoint и OneDrive для бизнеса
 - Exchange Online
-- Skype для бизнеса Online
+- Skype для Бизнеса Онлайн
 - Microsoft Stream (записи собраний)
 - Планировщик Microsoft (задачи и планирование данных планировщика)
 
@@ -71,28 +71,49 @@ ms.locfileid: "47651136"
 |        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение Teams и зависимых служб в эту политику.|
 |**Конфиденциально**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье. Включение Teams и зависимых служб в эту политику.|
 |         |[Требовать соответствующие компьютеры *и* мобильные устройства](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включение Teams и зависимых служб в эту политику.|
-|**Строго контролируемый**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Независимо от удостоверения пользователя, MFA будет использоваться вашей организацией. Включение Teams и зависимых служб в эту политику.
+|**Строго контролируемый**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Независимо от удостоверения пользователя, MFA будет использоваться вашей организацией. Включение Teams и зависимых служб в эту политику. |
 | | |
 
 ## <a name="teams-dependent-services-architecture"></a>Архитектура зависимых служб Teams
 
 На приведенной ниже схеме показаны службы, на которые полагаются службы Teams. Для получения дополнительных сведений и дополнительных иллюстраций ознакомьтесь со статьей [Microsoft Teams и соответствующими службами производительности в microsoft 365 для ИТ архитекторов](../solutions/productivity-illustrations.md).
 
-![Диаграмма, на которой показаны зависимости Teams в SharePoint, OneDrive для бизнеса и Exchange](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
+[![Диаграмма, на которой показаны зависимости Teams в SharePoint, OneDrive для бизнеса и Exchange](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
-## <a name="enabling-guest-and-external-access-for-teams"></a>Включение гостевого и внешнего доступа для Teams
+[Просмотреть увеличенную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
-В Azure AD гостевые и внешние пользователи одинаковы. Тип пользователя для обоих из них — гость. Гостевые пользователи — это пользователи B2B. Microsoft Teams различает гостевые пользователи и внешних пользователей в приложении. Важно понимать, как каждый из них рассматривается в Teams, и пользователи с двумя типами пользователей — это пользователи в Azure AD, а рекомендуемые политики для пользователей B2B применяются к обоим продуктам. Для рекомендуемых политик, позволяющих [Разрешить гостевой доступ, см.](identity-access-policies-guest-access.md)
+## <a name="guest-and-external-access-for-teams"></a>Гостевой и внешний доступ для Teams
+
+Microsoft Teams определяет следующие компоненты:
+
+- **Гостевой доступ** использует учетную запись Azure AD B2B для гостей или внешнего пользователя, которые могут быть добавлены в группу и иметь все разрешения на доступ к данным и ресурсам команды.
+
+- **Внешний доступ** предназначен для внешнего пользователя, у которого нет учетной записи Azure AD B2B. Внешний доступ может включать приглашения и участие в звонках, беседах и собраниях, но не включает в себя сведения о членстве в группе и доступе к ресурсам команды.
+
+Политики условного доступа применяются только к гостевой доступу в Teams, так как существует соответствующая учетная запись Azure AD B2B.
+
+<!--
+In Azure AD, guest and external users are the same. The user type for both of these is Guest. Guest users are B2B users. Microsoft Teams differentiates between guest users and external users in the app. While it's important to understand how each of these are treated in Teams, both types of users are B2B users in Azure AD and the recommended policies for B2B users apply to both. 
+
+--> 
+
+Для рекомендуемых политик, позволяющих разрешить доступ для гостей и внешних пользователей с помощью учетной записи Azure AD B2B, можно посмотреть в разделе [политики разрешения доступа гостей и внешней учетной записи B2B](identity-access-policies-guest-access.md).
 
 ### <a name="guest-access-in-teams"></a>Гостевой доступ в Teams
 
-В дополнение к политикам для пользователей, которые являются внутренними для организации или организации, администраторы могут разрешить гостевому абоненту разрешить пользователям, которые являются внешними по отношению к Организации или организации, получать доступ к ресурсам Teams и взаимодействовать с внутренними пользователями для таких вещей, как беседы в группах, чат и собрания. Дополнительные сведения о гостевом доступе можно узнать по следующей ссылке: [гостевой доступ Teams](https://docs.microsoft.com/microsoftteams/guest-access)
+В дополнение к политикам для пользователей, которые являются внутренними для организации или организации, администраторы могут разрешить гостевому абоненту разрешить пользователям, которые являются внешними по отношению к Организации или организации, получать доступ к ресурсам Teams и взаимодействовать с внутренними пользователями для таких вещей, как беседы в группах, чат и собрания. 
+
+Для получения дополнительных сведений о гостевом доступе и способах ее реализации ознакомьтесь с разделом  [гостевой доступ Teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 ### <a name="external-access-in-teams"></a>Внешний доступ в Teams
 
-Внешний доступ иногда путают с гостевым доступом, поэтому важно ясно убедиться в том, что эти два невнутренних механизма доступа сильно отличаются. Хотя гостевой доступ выполняется отдельно для каждого пользователя (вы добавляете одного пользователя за раз), когда администратор включает внешний доступ, он позволяет одновременно добавить в Teams одновременно всех пользователей внешнего домена. Тем не менее доступ и функциональные возможности для внешних пользователей имеют менее, чем у пользователя, добавленного через гостевой доступ. Пользователи внешнего доступа могут общаться с внутренними пользователями с помощью Teams.
+Внешний доступ иногда путают с гостевым доступом, поэтому важно ясно убедиться в том, что эти два невнутренних механизма доступа сильно отличаются. 
 
-Дополнительные сведения о внешнем доступе и его применении в случае необходимости просмотрите [Управление внешним доступом в Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-external-access) .
+Внешний доступ — это способ, с помощью которого пользователи Teams могут находить, звонить, общаться и настраивать собрания с пользователями в Teams. Администраторы Teams настраивают внешний доступ на уровне Организации. Дополнительные сведения см в разделе [Manage External Access в Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-external-access).
+
+Пользователи внешнего доступа имеют меньший доступ и функциональные возможности, чем лица, добавленные через гостевой доступ. Например, пользователи внешнего доступа могут общаться с внутренними пользователями с помощью Teams, но не могут получить доступ к каналам команд, файлам или другим ресурсам.
+
+Внешний доступ не использует учетные записи пользователей Azure AD B2B и поэтому не использует политики условного доступа. 
 
 ## <a name="teams-policies"></a>Политики Teams
 

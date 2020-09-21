@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных, мобильных и веб-приложений, а также о том, какие приложения поддерживают метки конфиденциальности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 513a544239890f2299a7208d2ba2c20c4507a7ef
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 7ad340d84297c716edcfbb39ea7f3aa75c093523
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357781"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962636"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Использование меток конфиденциальности в приложениях Office
 
@@ -63,7 +63,7 @@ ms.locfileid: "47357781"
 |[Предоставление пользователям возможности назначать разрешения](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | [Текущий канал](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2003 +) | 16.35 +   | Раздел "Рецензирование"   | Раздел "Рецензирование"         | Раздел "Рецензирование"                                                        |
 |[Просмотр использования меток с помощью аналитики меток](label-analytics.md) и отправка данных для администраторов                      | Раздел "Рецензирование"            | Раздел "Рецензирование"        | Раздел "Рецензирование"   | Раздел "Рецензирование"         | Раздел "Рецензирование"                                                        |
 |[Требование пользователей применять метку к электронной почте и документам](sensitivity-labels.md#what-label-policies-can-do)   | Раздел "Рецензирование"            | Раздел "Рецензирование"        | Раздел "Рецензирование"   | Раздел "Рецензирование"         | Раздел "Рецензирование"                                                        |
-|[Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)                    | Развертывание на [текущем канале](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2006 г.)                                  | Раздел "Рецензирование" | Раздел "Рецензирование" | Раздел "Рецензирование" | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)                    | Развертывание на [текущем канале](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2006 г.)                                  | Предварительный просмотр для Word и PowerPoint: откат к [текущему каналу (Предварительная версия)](https://office.com/insider) | Раздел "Рецензирование" | Раздел "Рецензирование" | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
 |Поддержка [автосохранения](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) и [совместного редактирования](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) для помеченных и защищенных документов | Раздел "Рецензирование" | Раздел "Рецензирование" | Раздел "Рецензирование" | Раздел "Рецензирование" | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
@@ -80,7 +80,7 @@ ms.locfileid: "47357781"
 |[Предоставление пользователям возможности назначать разрешения](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910 и выше                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Да               |
 |[Просмотр использования меток с помощью аналитики меток](label-analytics.md) и отправка данных для администраторов                      | Раздел "Рецензирование"                       | Раздел "Рецензирование"                    | Раздел "Рецензирование"           | Раздел "Рецензирование"               | Раздел "Рецензирование"               |
 |[Требование пользователей применять метку к электронной почте и документам](sensitivity-labels.md#what-label-policies-can-do)   | Раздел "Рецензирование"                       | Раздел "Рецензирование"                    | Раздел "Рецензирование"           | Раздел "Рецензирование"               | Раздел "Рецензирование"               |
-|[Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)                    | Предварительный просмотр: [канал бета-версии](https://office.com/insider) и откат к [текущему каналу (Предварительная версия)](https://office.com/insider)                      | Раздел "Рецензирование"                    | Раздел "Рецензирование"           | Раздел "Рецензирование"               | Да |
+|[Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)                    | Развертывание на [текущем канале](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) (2006 г.)                      | Раздел "Рецензирование"                    | Раздел "Рецензирование"           | Раздел "Рецензирование"               | Да |
 |
 
 ## <a name="office-built-in-labeling-client-and-other-labeling-solutions"></a>Встроенный клиент наклеек Office и другие решения для маркировки
