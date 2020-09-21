@@ -70,10 +70,24 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Создание тестового оповещения
               href: mtp/generate-test-alert.md
+        - name: Запуск пилотного проекта в рабочей среде
+          items:
+            - name: Обзор пилотного проекта
+              href: mtp/mtp-pilot.md
+            - name: План
+              href: mtp/mtp-pilot-plan.md
+            - name: Подготовка
+              href: mtp/prepare-mtpeval.md
+            - name: Имитация атаки
+              href: mtp/mtp-pilot-simulate.md
+            - name: Закрытие и итоги
+              href: mtp/mtp-pilot-close.md
         - name: Практические руководства
           items:
             - name: Создание испытательной лабораторной или пилотной среды
               href: mtp/mtp-evaluation.md
+            - name: Сборник схем по запуску пилотного проекта
+              href: mtp/mtp-pilot.md
             - name: Развертывание поддерживаемых служб
               href: mtp/deploy-supported-services.md
             - name: Включение Защиты от угроз (Майкрософт)
@@ -92,18 +106,20 @@
                       href: mtp/investigate-incidents.md
                     - name: Управление инцидентами
                       href: mtp/manage-incidents.md
-            - name: Автоматизированный анализ угроз и реагирование на них
+            - name: Автоматическое исследование и реагирование
               items:
-                - name: Обзор Автоматизированного анализа угроз и реагирования на них (AIR)
+                - name: Обзор автоматического исследования и реагирования
                   href: mtp/mtp-autoir.md
-                - name: Действия по исправлению
+                - name: Настройка возможностей автоматического исследования и реагирования
+                  href: mtp/mtp-configure-auto-investigation-response.md
+                - name: Действия по исправлению после автоматических исследований
                   href: mtp/mtp-remediation-actions.md
-                - name: Центр уведомлений
+                - name: Посещение Центра уведомлений
                   href: mtp/mtp-action-center.md
-                - name: Просмотр сведений и результатов автоматического исследования
-                  href: mtp/mtp-autoir-results.md
-                - name: Утверждение или отклонение ожидающих выполнения действий
+                - name: Утверждение или отклонение ожидающих действий по исправлению
                   href: mtp/mtp-autoir-actions.md
+                - name: Просмотр сведений и результатов автоматических исследований
+                  href: mtp/mtp-autoir-results.md
                 - name: Отчет о ложных положительных/отрицательных срабатываниях
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Расширенная охота на угрозы
@@ -214,8 +230,6 @@
                   href: mtp/monitor-devices.md
                 - name: Мониторинг приложений и создание отчетов
                   href: mtp/monitor-apps.md
-            - name: Программные интерфейсы
-              items: null
         - name: Справочные материалы
           items:
             - name: Разрешения и параметры
@@ -452,7 +466,7 @@
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Представления кампании
               href: ./office-365-security/campaigns.md
-            - name: Автоматизированный анализ угроз и реагирование на них
+            - name: Автоматическое исследование и реагирование
               items:
                 - name: Обзор Автоматизированного анализа угроз и реагирования на них (AIR)
                   href: ./office-365-security/office-365-air.md
@@ -497,7 +511,7 @@
                   href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Как работает ATP
               items:
-                - name: Как работает автоматизированный анализ угроз и реагирование на них
+                - name: Как работает автоматическое исследование и реагирование
                   href: ./office-365-security/automated-investigation-response-office.md
                 - name: Как работают безопасные ссылки ATP
                   href: ./office-365-security/how-atp-safe-links-works.md
