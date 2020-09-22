@@ -18,14 +18,17 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Сведения для администраторов об использовании проверки подлинности электронной почты (SPF, DKIM и DMARC) в EOP для предотвращения спуфинга, фишинга и спама.
-ms.openlocfilehash: 1e4ad82dd1c57e089b36e39afde346c47043c546
-ms.sourcegitcommit: eb905c5b4d7e71fc930a207357295b0160c4f065
+ms.openlocfilehash: d490caf600fef9d9caab79a1a97ec29637e10d66
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48137051"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202979"
 ---
 # <a name="email-authentication-in-eop"></a>Проверка подлинности электронной почты в EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Проверка подлинности электронной почты (также известная как проверка адреса электронной почты) — это набор стандартов для борьбы со спуфингом (сообщения электронной почты от поддельных отправителей). Во всех организациях Microsoft 365 EOP использует следующие стандарты для проверки входящих писем:
 

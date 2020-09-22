@@ -16,14 +16,17 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Рекомендации по параметрам безопасности Exchange Online Protection (EOP) и Advanced Threat protection (ATP) Каковы текущие рекомендации по стандартной защите? Что следует использовать, если требуется более высокий ранг? И какие дополнительные возможности вы получаете, если вы также используете Advanced Threat protection (ATP)?
-ms.openlocfilehash: 1022accb992fbc0aee92b8da97f9d8a48cbe35f2
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 78dc1673d20affdfab9228883dbce3b08e8efbb5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405387"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202715"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Рекомендуемые параметры для EOP и безопасности ATP 365 для Office
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 **Exchange Online Protection (EOP)** — это ядро безопасности для подписок на Microsoft 365, которое помогает предотвратить попадание вредоносных сообщений в почтовые ящики сотрудников. Но благодаря новым более сложным атакам, которые создаются каждый день, часто требуются улучшенные средства защиты. **Office 365 Advanced Threat protection (ATP)** ATP Plan 1 или ATP Plan 2 содержат дополнительные функции, которые предоставляют администраторам дополнительные уровни безопасности, контроля и исследования.
 

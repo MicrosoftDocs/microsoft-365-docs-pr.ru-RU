@@ -14,14 +14,17 @@ ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут просматривать часто задаваемые вопросы и ответы о делегированных задачах администрирования в Microsoft 365 для партнеров Майкрософт и торговых посредников.
-ms.openlocfilehash: 3efadc8793778bfabe10922e8e29044747d60ad0
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 6729f276e6afea83568ca59d3bf48c08fcd837d2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866699"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203147"
 ---
 # <a name="delegated-administration-faq"></a>Вопросы и ответы по делегированному администрированию
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 В этой статье приведены часто задаваемые вопросы и ответы по делегированным задачам администрирования в Microsoft 365 для партнеров Майкрософт и торговых посредников. Делегированное администрирование включает в себя возможность управления параметрами Exchange Online Protection (EOP) для других клиентов (компаний).
 

@@ -14,14 +14,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как создавать, изменять и удалять расширенные политики защиты от фишинга, доступные в организациях с Office 365 Advanced Threat protection (Office 365 ATP).
-ms.openlocfilehash: 83f100cab12c91af1405ffc5f386ff51028710a9
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a4b5dc5beac23e267f6b0e5070d91301b589ad4c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547656"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203387"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>Настройка политик защиты от фишинга в ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Антифишинговые политики ATP входят в состав [Office 365 Advanced Threat protection](office-365-atp.md). Антифишинговые политики ATP могут помочь защитить организацию от вредоносных фишинговых атак на основе олицетворений и других типов фишинговых атак. Дополнительные сведения о различиях между политиками защиты от фишинга в Exchange Online Protection (EOP) и ATP антифишинговой политикой можно узнать в статье [Защита от фишинга](anti-phishing-protection.md).
 
@@ -144,7 +147,7 @@ ms.locfileid: "47547656"
 
 4. **Параметр политики**: нажмите кнопку **изменить** , чтобы изменить параметры, которые были доступны при [создании политики](#use-the-security--compliance-center-to-create-atp-anti-phishing-policies) , описанной в предыдущем разделе.
 
-   - **Название**
+   - **Name**
    - **Описание**
    - **Применяется к**
    - **Проверка параметров**
@@ -383,7 +386,7 @@ ms.locfileid: "47547656"
 1. Создайте политику защиты от фишинга.
 2. Создайте правило защиты от фишинга, которое определяет политику защиты от фишинга, к которой применяется правило.
 
- **Примечания**:
+ **Примечания.**
 
 - Вы можете создать новое правило защиты от фишинга и назначить для него существующую, несвязанную политику защиты от фишинга. Правило защиты от фишинга не может быть связано с несколькими политиками защиты от фишинга.
 

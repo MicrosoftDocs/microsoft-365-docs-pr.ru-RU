@@ -19,14 +19,17 @@ ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 ms.custom:
 - seo-marvel-apr2020
 description: В этом разделе описывается рекомендуемая конфигурация параметров на уровне клиента, влияющих на безопасность среды Microsoft 365.
-ms.openlocfilehash: 3a69a27aa544880e428562892832b6d33a2508e4
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 72040469f802c2cb5a4fac132ff1c3cd8999e124
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308223"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202023"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Настройка клиента Microsoft 365 для повышения безопасности
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 В этом разделе описывается рекомендуемая конфигурация параметров на уровне клиента, влияющих на безопасность среды Microsoft 365. Для обеспечения безопасности может потребоваться больше или меньше безопасности. Используйте эти рекомендации в качестве отправной точки.
 

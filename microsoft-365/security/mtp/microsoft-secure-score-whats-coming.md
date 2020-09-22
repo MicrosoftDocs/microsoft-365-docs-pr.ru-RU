@@ -17,14 +17,17 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 596d67d4967886a2df985793f38f968b40d2c3a9
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: c6643b30327b7f362c4649c2be1b1eea81ff3523
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289667"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203640"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Что поступает в оценку безопасности Майкрософт
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Мы внесены некоторые изменения в ближайшем будущем, чтобы сделать [Microsoft Secure рейтинг](microsoft-secure-score.md) более эффективным для обеспечения безопасности и повышения удобства использования. Ваш рейтинг и максимально возможный рейтинг могут измениться.
 

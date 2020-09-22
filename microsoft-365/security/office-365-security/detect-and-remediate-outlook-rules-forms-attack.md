@@ -17,14 +17,17 @@ search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить правила Outlook и функции внедрения пользовательских форм в Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9b5551b8cbda85ac3940bc8f43ec2d7b7eccdb1
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: 7d879d34a925354084e08d82f5e1724725c18825
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811054"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203075"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Обнаружение и исправление правил Outlook и атак с добавлением пользовательских форм
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 **Сводка** Сведения о том, как распознать и исправить правила Outlook и функции внедрения пользовательских форм в Office 365.
 
@@ -227,9 +230,9 @@ ms.locfileid: "44811054"
 
 С помощью сведений, приведенных в статье [Просмотр системного реестра с помощью 64 разрядных версий Windows](https://support.microsoft.com/help/305097), можно проверить, включено ли повторное включение приложения с помощью переопределения в реестре. Проверьте следующие подразделы:
 
-- **Outlook 2016**:`HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\`
+- **Outlook 2016**: `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\`
 
-- **Outlook 2013**:`HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Security\`
+- **Outlook 2013**: `HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Security\`
 
 Найдите раздел Енаблеунсафеклиентмаилрулес. Если он есть и имеет значение 1, то исправление для системы безопасности Outlook было переопределено, а компьютер подвержен атакам форм и правил. Если значение равно 0, действие "Запуск приложения" отключено. Если на компьютере установлена обновленная и исправленная версия Outlook и этот раздел реестра отсутствует, система не подвержена этим атакам.
 

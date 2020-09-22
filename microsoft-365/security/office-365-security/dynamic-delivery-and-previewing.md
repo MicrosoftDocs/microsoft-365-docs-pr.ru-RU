@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Когда вы настраиваете политики безопасных вложений ATP, вы выбираете динамическое предоставление, чтобы избежать задержки сообщений и разрешить пользователям просматривать сканируемые вложения.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e2da24ebac5863ab7852fdf8f9c7af8d507698b
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: c0b19317babbd433ba0914ca2385cf6c9b40d89b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430355"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203039"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Динамическая Доставка и предварительный просмотр с безопасными вложениями ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="basic-features-of-dynamic-delivery"></a>Основные функции динамической доставки
 
@@ -68,7 +71,7 @@ ms.locfileid: "45430355"
 
 ## <a name="additional-considerations"></a>Дополнительные сведения
 
-Существуют некоторые сценарии, в которых безопасные вложения (в том числе динамическая доставка не поддерживается). Они включают:
+Существуют некоторые сценарии, в которых безопасные вложения (в том числе динамическая доставка не поддерживается). Такие законодательные акты перечислены ниже.
 
 - Сообщения электронной почты, которые находятся в общедоступных папках.
 

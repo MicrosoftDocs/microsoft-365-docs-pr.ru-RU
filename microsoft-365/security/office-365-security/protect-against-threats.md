@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать о защите от угроз в Microsoft 365 и настроить способ ее использования в Организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a78bbea2d11360bbfa48fa3da01391471b2e0a4d
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1ad74e9bdcd7b937873108d2ba049c16db8c235b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547366"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202583"
 ---
 # <a name="protect-against-threats"></a>Защита от угроз
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Ниже приведено краткое руководство, которое прерывает настройку Advanced Threat Protection в фрагментах. Если вы не знакомы с функциями защиты от угроз в Office 365, не знаете *, с чего*начать, или если вы узнаете, как использовать это руководство в качестве контрольного списка и отправной точки.
 
@@ -87,7 +90,7 @@ ms.locfileid: "47547366"
 
     - В разделе **фильтр типов вложений** выберите **включено**.
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 Дополнительные сведения о параметрах политики защиты от вредоносных программ приведены в разделе [Настройка политик защиты от вредоносных](configure-anti-malware-policies.md)программ.
 
@@ -143,7 +146,7 @@ ms.locfileid: "47547366"
 
    - В разделе **разрешить списки** просмотрите (и/или измените) разрешенных отправителей и доменов.
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 Дополнительные сведения о параметрах политики защиты от нежелательной почты приведены [в разделе Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md).
 
@@ -295,5 +298,5 @@ ms.locfileid: "47547366"
 |---|---|
 |Узнайте, как функции защиты от угроз работают в вашей организации, просмотрев отчеты|[Панель мониторинга безопасности](security-dashboard.md)<br/>[Отчеты по безопасности электронной почты](view-email-security-reports.md)<br/>[Отчеты для Office 365 ATP](view-reports-for-atp.md)<br/>[Обозреватель угроз](threat-explorer.md)|
 |При необходимости периодически проверяйте и изменяйте политики защиты от угроз.|[Оценка безопасности](../mtp/microsoft-secure-score.md)<br/>[Интеллектуальные отчеты и аналитика](reports-and-insights-in-security-and-compliance.md)<br/>[Исследование угроз и функции ответа Microsoft 365](keep-users-safe-with-office-365-ti.md)|
-|Просмотр новых компонентов и обновлений служб|[Варианты стандартных и целевых выпусков](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Центр сообщений](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Описания служб](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
+|Просмотр новых компонентов и обновлений служб|[Варианты стандартных и целевых выпусков](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Центр сообщений](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Дорожная карта Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Описания служб](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |Сведения о рекомендуемых стандартных и ограниченных конфигурациях безопасности для EOP и ATP | [Рекомендуемые параметры для EOP и безопасности ATP 365 для Office](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwide) |

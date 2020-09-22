@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 16749e22b91afb3d1c2bfdc3c40ca271948a97a7
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: d76992108fb3cda82bd9ad9886a2886f70695788
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650479"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203681"
 ---
 #  <a name="microsoft-threat-protection-apis-license-and-terms-of-use"></a>Лицензионное соглашение и условия использования API Microsoft Threat protection
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
@@ -34,7 +37,7 @@ ms.locfileid: "47650479"
 >Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 
-## <a name="apis"></a>Интерфейсы API
+## <a name="apis"></a>Программные интерфейсы
 
  API защиты от угроз Майкрософт управляются [лицензией и условиями использования API Microsoft API](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
 

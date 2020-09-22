@@ -19,16 +19,19 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 description: Администраторы могут узнать о функциях защиты от фишинга в Exchange Online Protection (EOP) и Office 365 Advanced Threat protection (Office 365 ATP).
-ms.openlocfilehash: f6d864a7f9995de64f3714dffcd1838b2480a627
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 5607a3bf566fabccf3ae55726aca9eefcff9c062
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867179"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202415"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Защита от фишинга в Microsoft 365
 
-*Фишинг* — это атака с использованием электронной почты, которая пытается украсть конфиденциальные данные в сообщениях, которые не являются законными или надежными отправителями. Существуют определенные категории фишинга. Например,
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+*Фишинг* — это атака с использованием электронной почты, которая пытается украсть конфиденциальные данные в сообщениях, которые не являются законными или надежными отправителями. Существуют определенные категории фишинга. Например:
 
 - **Фишинг спеар** использует отсортированный Настраиваемый контент, специально предназначенный для целевых получателей (как правило, после реконнаиссанце от получателей).
 

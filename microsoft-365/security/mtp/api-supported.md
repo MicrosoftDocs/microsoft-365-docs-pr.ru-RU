@@ -1,6 +1,6 @@
 ---
-title: Поддерживаемые API защиты от угроз Майкрософт
-description: Поддерживаемые API защиты от угроз Майкрософт
+title: Поддерживаемые программные интерфейсы Защиты от угроз (Майкрософт) (ознакомительная версия)
+description: Поддерживаемые программные интерфейсы Защиты от угроз (Майкрософт) (ознакомительная версия)
 keywords: MTP, API, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 49fa182a6142748ca7769411fe74389f365ba75f
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: fda90945f09abfadfe56ea11469687130d88b2a7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650480"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203699"
 ---
-# <a name="supported-microsoft-threat-protection-apis"></a>Поддерживаемые API защиты от угроз Майкрософт 
+# <a name="supported-microsoft-threat-protection-apis"></a>Поддерживаемые программные интерфейсы Защиты от угроз (Майкрософт) (ознакомительная версия) 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
@@ -52,5 +55,5 @@ ms.locfileid: "47650480"
 
 Статья | Описание
 :---|:---
-[Расширенный поисковый API](api-advanced-hunting.md) | Выполнение расширенных запросов на поиск с API.
-[API инцидентов](api-incident.md) | Запускать вызовы API, связанные с инцидентами, такие как: Список инцидентов, обновление инцидента и многое другое.
+[Программный интерфейс расширенной охоты](api-advanced-hunting.md) | Выполнение расширенных запросов на поиск с API.
+[Программные интерфейсы, относящиеся к инцидентам](api-incident.md) | Запускать вызовы API, связанные с инцидентами, такие как: Список инцидентов, обновление инцидента и многое другое.

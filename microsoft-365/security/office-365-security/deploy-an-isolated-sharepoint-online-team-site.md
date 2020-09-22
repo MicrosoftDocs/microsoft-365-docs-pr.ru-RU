@@ -16,14 +16,17 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: В этом пошаговом руководстве по развертыванию можно создать и настроить изолированный сайт группы SharePoint Online в Microsoft Office 365.
-ms.openlocfilehash: 3465ec28db8c2045bad6e6c48112861818629524
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: f2800e74149e79e5c3f0444799f454ab8b3caf69
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308419"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203135"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Развертывание изолированного сайта группы SharePoint Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Сводка.** С помощью этих пошаговых инструкций можно развернуть новый изолированный сайт группы SharePoint Online.
   
@@ -187,7 +190,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
 
 4. Установите параметр **Разрешить запросы на доступ** к **выходу**.
 
-5. Щелкните **Сохранить**.
+5. Нажмите кнопку **Сохранить**.
     
 6. В области **разрешения** щелкните **Дополнительные параметры разрешений**.
     

@@ -17,24 +17,27 @@ ms.collection:
 - M365-security-compliance
 description: Сведения о том, как перейти к сведениям о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Teams, а также о том, как выполнять действия с этими файлами.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47b1fea4b3b5713a8f69e8f4b2c0e2ad0f6dd6b8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e6cd0363b546fad063290ae20e8c6c82fd6d0dea
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036648"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201999"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Просмотр сведений о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Microsoft Teams
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 [Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md) защищает вашу организацию от вредоносных файлов в библиотеках документов и на сайтах групп. При обнаружении вредоносного файла этот файл блокируется, чтобы никто не мог открыть, скопировать, переместить или предоставить к нему общий доступ до тех пор, пока не будут предприняты дальнейшие действия группы безопасности Организации. В этой статье приведены инструкции по просмотру сведений об обнаруженных файлах и действиях, которые необходимо выполнить. 
 
-Для выполнения задач, описанных в этой статье, необходимы соответствующие [разрешения для центра безопасности &amp; и соответствия требованиям](permissions-in-the-security-and-compliance-center.md). 
+Для выполнения задач, описанных в этой статье, необходимы соответствующие [разрешения для центра безопасности и &amp; соответствия требованиям](permissions-in-the-security-and-compliance-center.md). 
   
 ## <a name="view-reports-with-information-about-detected-files"></a>Просмотр отчетов с информацией об обнаруженных файлах
 
 Чтобы просмотреть состояние и подробные сведения о файлах, обнаруженных в Office 365 ATP, вы можете использовать отчет о состоянии защиты от угроз.
   
-1. В [центре безопасности &amp; и соответствия требованиям](https://protection.office.com)выберите **состояние защиты от угроз**для **панели мониторинга** \> **отчетов** \> .
+1. В [центре безопасности и &amp; соответствия требованиям](https://protection.office.com)выберите **Reports** \> **Dashboard** \> **состояние защиты от угроз**для панели мониторинга отчетов.
     
 2. В правом верхнем углу отчета выберите пункт **Просмотреть таблицу сведений**.
     
@@ -46,7 +49,7 @@ ms.locfileid: "44036648"
   
 ## <a name="view-and-take-action-on-files-in-quarantine"></a>Просмотр и инициация действий с файлами в карантине
 
-1. В центре безопасности &amp; и соответствия требованиям выберите **Карантин** \> **Обзор** \> **управления угрозами** . (Вы также можете перейти к [https://protection.office.com/quarantine](https://protection.office.com/quarantine).)
+1. В центре безопасности &amp; и соответствия требованиям выберите Карантин обзор **управления угрозами** \> **Review** \> **Quarantine**. (Вы также можете перейти к [https://protection.office.com/quarantine](https://protection.office.com/quarantine) .)
     
 2. В верхнем левом углу раскрывающийся меню следует изменить с **сообщения** на **файлы**. Если список результатов содержит слишком много элементов, используйте функцию **фильтрации** для сужения выделенного фрагмента.
     
