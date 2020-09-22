@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создавайте и автоматически публикуйте метки хранения для их автоматического применения в приложениях для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: b792a03bda6785a8b45472d2eb997bfb00574218
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: dc525a9f7a2ea97f61f03320495eea737465cfd9
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131797"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171307"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Автоматическое применение метки хранения для сохранения или удаления контента
 
@@ -176,6 +176,8 @@ ms.locfileid: "48131797"
 
 Дополнительные сведения об обучаемых классификаторах см. в статье [Информация об обучаемых классификаторах (предварительная версия)](classifier-learn-about.md).
 
+> [!TIP]
+> Если вы используете обучаемые классификаторы для Exchange, см. недавно выпущенную статью [Повторное обучение классификаторов в обозревателе содержимого (предварительная версия)](classifier-how-to-retrain-content-explorer.md).
 
 ## <a name="how-long-it-takes-for-retention-labels-to-take-effect"></a>Срок вступления меток хранения в силу
 
