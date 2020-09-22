@@ -19,23 +19,26 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fd8a09ceb32b8ddacea06b4569a2d2a851daaeb2
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 60795815ae68d640eeac4b9bc9f0188c7751aaf9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235208"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201043"
 ---
-# <a name="set-the-time-zone-for-microsoft-threat-protection"></a><span data-ttu-id="eed73-104">Настройка часового пояса для инструмента Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="eed73-104">Set the time zone for Microsoft Threat Protection</span></span>
+# <a name="set-the-time-zone-for-microsoft-threat-protection"></a><span data-ttu-id="ee16e-104">Настройка часового пояса для инструмента Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="ee16e-104">Set the time zone for Microsoft Threat Protection</span></span>
 
-<span data-ttu-id="eed73-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="eed73-105">**Applies to:**</span></span>
-- <span data-ttu-id="eed73-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="eed73-106">Microsoft Threat Protection</span></span>
-
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="eed73-107">Защита от угроз (Майкрософт) отображает сведения о дате и времени с использованием местного часового пояса или времени UTC.</span><span class="sxs-lookup"><span data-stu-id="eed73-107">Microsoft Threat Protection can display date and time information using either your local time zone or UTC.</span></span> <span data-ttu-id="eed73-108">Выбранный часовой пояс будет применен ко всем сведениям о дате и времени, которые указаны в следующих функциях Центра безопасности Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="eed73-108">The selected time zone will apply to all date and time information shown in the following features in the Microsoft 365 security center:</span></span>
-- <span data-ttu-id="eed73-109">Инциденты</span><span class="sxs-lookup"><span data-stu-id="eed73-109">Incidents</span></span>
-- <span data-ttu-id="eed73-110">Автоматизированное исследование и исправления, включая Центр уведомлений.</span><span class="sxs-lookup"><span data-stu-id="eed73-110">Automated investigation and remediation, including the action center</span></span>
-- <span data-ttu-id="eed73-111">Расширенный поиск</span><span class="sxs-lookup"><span data-stu-id="eed73-111">Advanced hunting</span></span>
+<span data-ttu-id="ee16e-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="ee16e-105">**Applies to:**</span></span>
+- <span data-ttu-id="ee16e-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="ee16e-106">Microsoft Threat Protection</span></span>
 
-<span data-ttu-id="eed73-112">Чтобы задать часовой пояс для этих функций, перейдите в раздел **Параметры** > **Защита от угроз (Майкрософт)** > **Часовой пояс**.</span><span class="sxs-lookup"><span data-stu-id="eed73-112">To set the time zone for these features, go to **Settings** > **Microsoft Threat Protection** > **Time zone**.</span></span>
+
+
+<span data-ttu-id="ee16e-107">Защита от угроз (Майкрософт) отображает сведения о дате и времени с использованием местного часового пояса или времени UTC.</span><span class="sxs-lookup"><span data-stu-id="ee16e-107">Microsoft Threat Protection can display date and time information using either your local time zone or UTC.</span></span> <span data-ttu-id="ee16e-108">Выбранный часовой пояс будет применен ко всем сведениям о дате и времени, которые указаны в следующих функциях Центра безопасности Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="ee16e-108">The selected time zone will apply to all date and time information shown in the following features in the Microsoft 365 security center:</span></span>
+- <span data-ttu-id="ee16e-109">Инциденты</span><span class="sxs-lookup"><span data-stu-id="ee16e-109">Incidents</span></span>
+- <span data-ttu-id="ee16e-110">Автоматизированное исследование и исправления, включая Центр уведомлений.</span><span class="sxs-lookup"><span data-stu-id="ee16e-110">Automated investigation and remediation, including the action center</span></span>
+- <span data-ttu-id="ee16e-111">Расширенный поиск</span><span class="sxs-lookup"><span data-stu-id="ee16e-111">Advanced hunting</span></span>
+
+<span data-ttu-id="ee16e-112">Чтобы задать часовой пояс для этих функций, перейдите в раздел **Параметры** > **Защита от угроз (Майкрософт)** > **Часовой пояс**.</span><span class="sxs-lookup"><span data-stu-id="ee16e-112">To set the time zone for these features, go to **Settings** > **Microsoft Threat Protection** > **Time zone**.</span></span>
