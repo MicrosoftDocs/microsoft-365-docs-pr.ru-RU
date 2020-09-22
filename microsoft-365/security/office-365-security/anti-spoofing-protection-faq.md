@@ -16,14 +16,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут просматривать часто задаваемые вопросы и ответы о защите от спуфинга в Exchange Online Protection (EOP).
-ms.openlocfilehash: 3547b0a0af6d2e541d4ec3546d9bbd4aa34c3a6b
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 207fa9b12c2b39571c72397abfb6a64fe992b43e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867143"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199115"
 ---
 # <a name="anti-spoofing-protection-faq"></a>Вопросы и ответы о защите от спуфинга
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 В этой статье приведены часто задаваемые вопросы и ответы о защите от спуфинга для организаций Microsoft 365 с почтовыми ящиками в Exchange Online или отдельными организациями Exchange Online Protection (EOP) без почтовых ящиков Exchange Online.
 

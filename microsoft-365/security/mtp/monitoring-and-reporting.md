@@ -15,14 +15,17 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90d9fcc45e768abd5fddef948fcafdaf9e77f5fb
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: eb765cf353569e9907352fb3146a12ffe7b34df4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866723"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199963"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Мониторинг и просмотр отчетов в центре безопасности Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Центр безопасности Microsoft 365 предоставляет сводку по состояниям защиты и безопасности в среде Microsoft 365.
 

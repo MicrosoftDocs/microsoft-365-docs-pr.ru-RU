@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: be637bab97083cb857e3983dd9b82290590c1302
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 57ba0eb77ccb855cc0c0224b5321f11809e21ae8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650502"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201423"
 ---
 # <a name="create-an-app-to-access-microsoft-threat-protection-without-a-user"></a>Создание приложения для доступа к защите от угроз Майкрософт без пользователя
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -112,7 +115,7 @@ ms.locfileid: "47650502"
 
 Более подробную информацию о маркерах Azure AD можно узнать в [руководстве по Azure AD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).
 
-### <a name="use-powershell"></a>Использование PowerShell
+### <a name="use-powershell"></a>Воспользуйтесь PowerShell
 
 ```
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
@@ -246,7 +249,7 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
     // Do something useful with the response
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Доступ к API защиты от угроз Майкрософт](api-access.md)
 - [Доступ к защите от угроз Майкрософт с помощью контекста приложения](api-create-app-web.md)
 - [Доступ к защите от угроз Майкрософт с помощью контекста пользователя](api-create-app-user-context.md)

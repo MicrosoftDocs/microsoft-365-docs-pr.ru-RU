@@ -20,14 +20,17 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: f2a0a439996f13cea3823815aceb9dd1c235e2f2
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 2131af5e35aa0cf9f236940d2b4aaa2bed85190a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962669"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199785"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-threat-protection"></a>Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -76,7 +79,7 @@ ms.locfileid: "47962669"
 > Не все оповещения инициируют автоматическое исследование, а не все результаты расследования в ходе автоматизированных действий по исправлению. Это зависит от того, как настроено автоматическое исследование и отклик для вашей организации. Ознакомьтесь [со статьей Настройка автоматизированного расследования и возможности реагирования в Microsoft Threat protection](mtp-configure-auto-investigation-response.md).
 
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Ознакомьтесь с требованиями для автоматического исследования и ответа в разделе Защита от угроз Майкрософт](mtp-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-threat-protection)
 - [Настройка автоматического исследования и отклика для Организации](mtp-configure-auto-investigation-response.md)

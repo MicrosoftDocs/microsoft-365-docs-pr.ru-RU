@@ -17,14 +17,17 @@ ms.collection:
 - M365-security-compliance
 description: Сведения об использовании Explorer и обнаружения в режиме реального времени в &amp; центре соответствия требованиям безопасности для эффективного и эффективного изучения угроз и реагирования на них.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4220c850e5ef7f830f7fc6ec57bb220cca29eaf4
-ms.sourcegitcommit: 4ac96855d7c269a0055ca8943000b762a70ca4ba
+ms.openlocfilehash: f6df9ce21f29cdeaf4943ba930668420a24344ca
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47322038"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201869"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз и обнаружение в режиме реального времени
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Если в вашей организации используется [office 365 Advanced Threat protection](office-365-atp.md) (Office 365 ATP), а у вас есть [необходимые разрешения](#required-licenses-and-permissions), то у вас есть **проводник** или **Обнаружение в режиме реального времени** (ранее отчеты в *режиме реального времени* — [Просмотреть новые](#new-features-in-threat-explorer-and-real-time-detections)возможности!). В центре безопасности & соответствия требованиям перейдите в раздел **Управление угрозами**, а затем выберите **проводник** _или_ **Обнаружение в режиме реального времени**.
 

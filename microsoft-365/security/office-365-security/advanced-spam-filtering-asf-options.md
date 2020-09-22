@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о параметрах расширенного фильтра нежелательной почты (ASF), доступных в политиках защиты от нежелательной почты в Exchange Online Protection (EOP).
-ms.openlocfilehash: 6a670a9aba2204035646840d0f128ca9a90ece15
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: f2c58349bc1ffd2bb231eadf83bd4d70582925a2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867225"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199951"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Параметры расширенного фильтра нежелательной почты (ASF) в EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > В настоящее время параметры ASF, доступные в политиках защиты от нежелательной почты, являются устаревшими. Мы не рекомендуем использовать эти параметры в политиках защиты от нежелательной почты. Функции этих параметров ASF включаются в другие части стека фильтрации. Для получения дополнительных сведений см [EOP параметры политики защиты от нежелательной почты](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).

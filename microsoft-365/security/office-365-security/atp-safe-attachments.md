@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: В этой статье рассказывается о функции безопасных вложений ATP для Office 365 и о том, как получить эту функцию для вашей подписки.
-ms.openlocfilehash: 16b9ae47ead318e200cdf1e5e5beb58c2bc396bc
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 1ff7021f1c9fa64d3f04cbcac7231733399ad2b8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656997"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198779"
 ---
 # <a name="atp-safe-attachments"></a>Безопасные вложения ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="overview-of-office-365-atp-safe-attachments"></a>Обзор безопасных вложений Office 365 ATP
 
@@ -45,7 +48,7 @@ ms.locfileid: "46656997"
 
 Для определения (или изменения) политик ATP необходимо назначить соответствующую роль. Некоторые примеры описаны в таблице ниже.
 
-|Role|Где/как назначено|
+|Роль|Где/как назначено|
 |---|---|
 |Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
 |Администратор безопасности|Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|

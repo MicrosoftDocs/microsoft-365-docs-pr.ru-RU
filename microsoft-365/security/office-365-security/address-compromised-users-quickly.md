@@ -14,14 +14,17 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Узнайте, как ускорить процесс обнаружения и адресации скомпрометированных учетных записей пользователей с помощью автоматизированного расследования и возможностей реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 5a1dd64a0b30bb230af0d96432ae9542ce0370d8
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: fa648b33180cab7d70348dc4d1d6e64930ecff99
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656913"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201235"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Устранение скомпрометированных учетных записей пользователей с помощью автоматического исследования и ответа
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [Office 365 Advanced Threat Protection Plan 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) включает мощные возможности [автоматического исследования и реагирования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR). Такие возможности могут сэкономить множество времени и усилий, связанных с угрозами. Корпорация Майкрософт продолжает совершенствовать возможности обеспечения безопасности. Недавно были улучшены возможности работы с ВОЗДУХом, которые включали скомпрометированный стратегия безопасности (в настоящее время предварительная версия). Прочитайте эту статью, чтобы узнать больше о скомпрометированной безопасности пользователя стратегия. И Узнайте больше о скорости записи в блоге, [чтобы обнаружить и ответить на компромисс пользователей и ограничить область](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) ограниченного действия дополнительными сведениями в Office 365 ATP.
 

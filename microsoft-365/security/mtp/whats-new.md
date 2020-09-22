@@ -15,14 +15,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: da3fd8b97899e302c9b7b24a5c0677534b579981
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d5a7cc491b0a8547848f4e341a605ae0c4b87cc9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47947988"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201288"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Что нового в службе защиты от угроз (Майкрософт)?
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Приведенные ниже функции обычно доступны в новейшей версии Microsoft Threat protection.
 
@@ -54,4 +57,4 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="march-2019"></a>Март 2019 г.
 - Расширенная охота на угрозы <br> Целевая страница для различных функций поиска, позволяющих проактивно обнаружить угрозы, затрагивающие электронную почту и данные, устройства и удостоверения.
 - [Оценка безопасности (Майкрософт)](microsoft-secure-score.md) <br> Единица измерения уровня безопасности Организации с большим номером, указывающим дополнительные действия по улучшению. Следуя рекомендациям по оценке безопасности, можно защитить организацию от угроз. 
-- [Отчеты](monitoring-and-reporting.md) <br>  В этой функции размещаются карты, охватывающие различные области, которые отслеживаются аналитиками и администраторами безопасности в рамках повседневных операций.
+- [Reports](monitoring-and-reporting.md) <br>  В этой функции размещаются карты, охватывающие различные области, которые отслеживаются аналитиками и администраторами безопасности в рамках повседневных операций.

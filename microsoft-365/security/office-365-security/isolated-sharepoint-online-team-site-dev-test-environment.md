@@ -16,14 +16,17 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: Сводка. Настройка сайта группы SharePoint Online, изолированного от остальной части Организации в среде разработки и тестирования Microsoft 365.
-ms.openlocfilehash: 095b0e5098d86f69c21576e72439dde48a092db3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: e21dccb9ef535bb997d6e62b70e5576bf531041c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308407"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199665"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Среда разработки и тестирования изолированного сайта группы SharePoint Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Сводка:** Настройка сайта группы SharePoint Online, изолированного от остальной части Организации в среде разработки и тестирования Microsoft 365.
 
@@ -286,7 +289,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 [Изолированные сайты групп SharePoint Online](isolated-sharepoint-online-team-sites.md)
 
-[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Руководства по лабораториям тестирования (TLG) для принятия облачных решений](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
 [Базовая конфигурация "имитация предприятия"](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
 

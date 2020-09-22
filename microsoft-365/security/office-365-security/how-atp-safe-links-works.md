@@ -16,18 +16,24 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Прочтите эту статью, чтобы узнать, как работают безопасные ссылки ATP.
-ms.openlocfilehash: e79c44b91eb5de7564058b4dc50c94d2a4223f08
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 09357b20173e2609587137764737c8aba044190e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046368"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201476"
 ---
 # <a name="how-atp-safe-links-works"></a>Как работают безопасные ссылки ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 > [!IMPORTANT] 
 > Для правильной работы ссылок на Office 365 ATP для безопасной работы все службы должны иметь одинаковую версию.
          
-## <a name="how-atp-safe-links-works-with-urls-in-email"></a>Как безопасные ссылки ATP работают с URL-адресами в электронной почте
+## <a name="how-atp-safe-links-works"></a>Как работают безопасные ссылки ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+ с URL-адресами в электронной почте
 
 На высоком уровне: в этой статье описывается работа защиты [ATP-ссылок](atp-safe-links.md) в адресах электронной почты (размещенной в Office 365, а не в локальной среде).
   
@@ -51,7 +57,10 @@ ms.locfileid: "44046368"
     
    - Если URL-адрес определен как безопасный, откроется веб-сайт.
     
-## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>Как безопасные ссылки ATP работают с URL-адресами в документах Office 
+## <a name="how-atp-safe-links-works"></a>Как работают безопасные ссылки ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+ с URL-адресами в документах Office 
 
 На высоком уровне ниже показано, как работает защита [ATP: безопасные ссылки](atp-safe-links.md) для URL-адресов в приложениях Microsoft 365 для корпоративных или бизнес-приложений (текущие версии Word, Excel и PowerPoint в Windows, Mac или в браузере, приложения Office на устройствах с iOS или Android, Visio в Windows, OneNote в браузере):
   

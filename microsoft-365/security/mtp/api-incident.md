@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 310e3105c973223ea79373d770eb10f7753b917e
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: ac149ca7263b8ef8bb37a7dd18bf0787a3114b37
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650498"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201307"
 ---
 # <a name="incident-resource-type"></a>Тип ресурса инцидента
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -38,8 +41,8 @@ ms.locfileid: "47650498"
 
 Метод |Возвращаемый тип |Описание
 :---|:---|:---
-[Список инцидентов](api-list-incidents.md) | Список [инцидентов](api-incident.md) | Получение списка инцидентов.
-[Обновление инцидента](api-update-incidents.md) | [Случаях](api-incident.md) | Обновление конкретного инцидента.
+[Получение списка инцидентов](api-list-incidents.md) | Список [инцидентов](api-incident.md) | Получение списка инцидентов.
+[Обновление данных об инциденте](api-update-incidents.md) | [Случаях](api-incident.md) | Обновление конкретного инцидента.
 
 
 ## <a name="properties"></a>Свойства

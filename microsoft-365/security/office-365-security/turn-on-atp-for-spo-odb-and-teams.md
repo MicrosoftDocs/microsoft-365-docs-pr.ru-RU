@@ -19,14 +19,17 @@ ms.collection:
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8a3a3939603d30e9024f43517ce23a87cf765b84
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 0c8c8d0f3caa3e717f8193a3c0d6b7bb1d40dab6
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308339"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201595"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -46,6 +49,9 @@ ms.locfileid: "47308339"
 
 ## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 **Прежде чем приступить к этой процедуре, убедитесь, что ведение журнала аудита для вашей среды Microsoft 365 уже включено**. Это обычно делается для пользователей, которым назначена роль "журналы аудита" в Exchange Online. Дополнительные сведения см. в статье [Включение и отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
 
 1. Перейдите на страницу <https://protection.office.com> и войдите с помощью рабочей или учебной учетной записи.
@@ -58,7 +64,7 @@ ms.locfileid: "47308339"
 
    ![Включение расширенной защиты от угроз для SharePoint Online, OneDrive для бизнеса и Microsoft Teams](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 5. Просмотрите (и, соответственно, измените) [политики безопасных вложений](set-up-atp-safe-attachments-policies.md) в Организации и [политики безопасных ссылок](set-up-atp-safe-links-policies.md).
 
@@ -96,7 +102,7 @@ ms.locfileid: "47308339"
 
 6. В разделе **отправить это оповещение по...** выберите одного или нескольких глобальных администраторов, администраторов безопасности или средств чтения безопасности, которые должны получать уведомление при обнаружении вредоносного файла.
 
-7. Щелкните **Сохранить**.
+7. Нажмите кнопку **Сохранить**.
 
 Чтобы узнать больше об оповещениях, ознакомьтесь со статьей [Создание оповещений о действиях в центре безопасности & соответствия требованиям](../../compliance/create-activity-alerts.md).
 

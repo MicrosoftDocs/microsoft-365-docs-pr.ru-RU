@@ -20,14 +20,17 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 205809bac14cc82e850ea1cbc0349256432bfe68
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 232d19cb0bcb6a2f91c1bdad15d842ec7396499c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962589"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201055"
 ---
 # <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Действия по исправлению, выполняемые после автоматического исследования в защите от угроз Майкрософт
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -63,8 +66,8 @@ ms.locfileid: "47962589"
 > - [Настройка автоматизированного расследования и возможностей реагирования в защите от угроз Майкрософт](mtp-configure-auto-investigation-response.md)
 > - [Способы исправления угроз на устройствах](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-- [Посетите центр уведомлений](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
+- [Посещение Центра уведомлений](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
 - [Утверждение или отклонение ожидающих выполнения действий](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir-actions)
 - [Обработка ложных срабатываний/отрицательных результатов в автоматизированном расследовании и возможностях реагирования](mtp-autoir-report-false-positives-negatives.md)

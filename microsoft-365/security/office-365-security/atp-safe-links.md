@@ -25,14 +25,17 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье рассказывается, как использовать безопасные ссылки для защиты Организации от фишинга и других атак.
-ms.openlocfilehash: d9b3c981cb282c286a5b6edcea367c8c57ffd4d3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 486c19fa0ba47baadf7b3418608a644407e6e1d0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307641"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200437"
 ---
 # <a name="atp-safe-links"></a>Безопасные ссылки ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="overview-of-office-365-atp-safe-links"></a>Обзор безопасных ссылок на Office 365 ATP
 
@@ -47,7 +50,7 @@ Office 365 ATP Safe Links (часть [office 365 Advanced Threat protection](of
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>Как получить защиту от безопасных ссылок ATP
 
-**Сначала убедитесь, что подписка включает [Office 365 Advanced Threat protection](office-365-atp.md) ** План 1 или план 2. Office 365 ATP входит в подписку, например, [microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес, Microsoft бизнес](https://www.microsoft.com/microsoft-365/business), Office 365 корпоративный, Office 365 для образования A5 и т. д. Если у вашей организации есть подписка на Microsoft 365, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в следующих источниках: 
+**Сначала убедитесь, что подписка включает [Office 365 Advanced Threat protection](office-365-atp.md) ** План 1 или план 2. Office 365 ATP входит в подписку, например, [microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес, Microsoft бизнес](https://www.microsoft.com/microsoft-365/business), Office 365 корпоративный, Office 365 для образования A5 и т. д. Если у вашей организации есть подписка на Microsoft 365, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. на следующих ресурсах: 
 
 - [Планы и цены Advanced Threat Protection в Office 365](https://products.office.com/exchange/advance-threat-protection)
 

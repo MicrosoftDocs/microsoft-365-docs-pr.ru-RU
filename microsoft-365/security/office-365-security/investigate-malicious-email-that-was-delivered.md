@@ -19,14 +19,17 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91f16c3aa7ba98467c52fb25e0597f346a810003
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 120cc32a2736858a0f0d99ab37f1d51c70a6071c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949268"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201917"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Исследование вредоносных сообщений электронной почты, доставляемых в Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [Расширенная защита от угроз для Office 365](office-365-atp.md) позволяет исследовать действия, которые приведут к риску людей в вашей организации, а также для защиты Организации. Например, если вы участвуете в группе безопасности Организации, вы можете найти и изучить подозрительные сообщения электронной почты, которые были доставлены. Это можно сделать с помощью [обозревателя угроз (или обнаружения в режиме реального времени)](threat-explorer.md).
 
@@ -193,7 +196,7 @@ ms.locfileid: "47949268"
 > [!IMPORTANT]
 > Перейдите [к разделу, посвященному](remediate-malicious-email-delivered-office-365.md)исправлению.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Исправление вредоносных сообщений электронной почты, доставляемых в Office 365](remediate-malicious-email-delivered-office-365.md)
 

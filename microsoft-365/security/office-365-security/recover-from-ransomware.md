@@ -12,142 +12,145 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Администраторы Microsoft 365 могут узнать, как восстановить систему защиты от атак программ-шумостей.
-ms.openlocfilehash: 2f8e5f5deb18cadfaea7acc1cffe73abbc43010b
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+description: Администраторы Microsoft 365 могут узнать, как восстановить систему от атак с помощью функции "атаки с помощью функции".
+ms.openlocfilehash: c362ffcbb83e8b0fb7ae89bbbf835165e23b8e83
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827837"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201963"
 ---
-# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Восстановление после атаки программ-шумо-служб в Microsoft 365
+# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Восстановление при атаке программой "шантажистом" в Microsoft 365
 
-Даже в случае мероприятиях по защите организации вы можете отказаться от жертвов к атаке [программ-шумостей.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) Программа-шантажист является большим масштабным бизнес-процессом, и они проверяются на избыточном уровне.
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-В этом разделе представлена лучшая возможность восстановления данных, зашифрованных выкупом для пользователей, и прекратит расстановку заражения в организации. Прежде чем приступать к его созданию, учтите следующие факторы:
 
-- Не гарантируется, что выплата выкуп за выкуп не даст вам доступа к вашим файлам. На самом деле платеж за выкуп за выкуп может принудить к вам более широкую техническую поддержку. Если вы уже оплачили, но вы успешно сможете восстановить файлы без использования их разрешения злоумышленника, следует вызвать банк, чтобы узнать, могут ли они блокировать транзакцию. Мы также рекомендуем сообщать об атаке программ-шантажистов вопросам о роботстве, создании масштабов и майкрософт, как описано далее в этом разделе.
+Даже если вы предпримете все меры предосторожности для защиты вашей организации, вы по-прежнему можете жертвой атакой от атаки с помощью [атаки](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) с помощью Эта атака является большим предприятием, а атаки — проверены.
 
-- Очень важно быстро реагировать на атаки и последствия этого. Чем больше вы ожидаете, скорее всего, восстановление затронутых данных невозможно.
+Действия, описанные в этом разделе, помогут вам в восстановлении данных, зашифрованных программой «шантажистом», и приостановить распространение вредоносных программ в Организации. Прежде чем приступать к его созданию, учтите следующие факторы:
 
-## <a name="step-1-verify-your-backups"></a>Этап 1. Проверка резервных копий
+- Нет гарантии, что оплата Рансом возвратит доступ к вашим файлам. На самом деле, оплата Рансом может сделать целевой для дополнительной атаки. Если вы уже оплачиваете, но можете успешно восстановить файлы, не используя разрешение злоумышленника, следует позвонить в банк, чтобы узнать, можно ли заблокировать эту транзакцию. Кроме того, рекомендуется сообщить о том, что атака с помощью средства-шантажистом посвящена законным и мошенническим веб-сайтам Майкрософт, как описано далее в этом разделе.
 
-Если имеются автономные резервные копии, **after** вероятно, можно восстановить зашифрованные данные после того, как вы удалите вредоносные программы-шума (вредоносное ПО) из среды.
+- Очень важно быстро реагировать на атаку и ее последствия. Чем больше время ожидания, тем менее вероятно, что вы можете восстановить затронутые данные.
 
-Если резервные копии не были затронуты или они также затронуты выдачей пользователей, это можно пропустить.
+## <a name="step-1-verify-your-backups"></a>Шаг 1: Проверка резервных копий
 
-## <a name="step-2-disable-activesync-and-onedrive-sync"></a>Шаг 2. Отключение синхронизации ActiveSync и OneDrive
+При наличии автономных резервных копий вы можете восстановить зашифрованные данные **после** удаления из вашей среды полезных данных программы-шантажистом.
 
-Ключевой момент — остановить раскрытие шифрования данных от вымогателя.
+Если вы не обладаете резервными копиями, а также в том случае, если вы также затронули ее, вы можете пропустить этот шаг.
 
-Если вы подозреваете, что письмо является целью, необходимо временно отключить доступ пользователей к почтовым ящикам. Exchange ActiveSync используется мобильными устройствами для синхронизации данных между устройством и почтовым ящиком Exchange Online.
+## <a name="step-2-disable-activesync-and-onedrive-sync"></a>Шаг 2: Отключение синхронизации ActiveSync и OneDrive
 
-Сведения об отключении ActiveSync для почтового ящика см. в [статье Как отключить Exchange ActiveSync для пользователей в Exchange Online.](https://support.microsoft.com/help/2795303)
+Ключевой момент здесь заключается в остановке распространения шифрования данных программой-шантажистом.
 
-Чтобы отключить доступ других типов к почтовому ящику, см. следующие статьи:
+Если вы подозреваете, что электронная почта является целевой, необходимо временно отключить доступ пользователей к почтовым ящикам. Exchange ActiveSync используется мобильными устройствами для синхронизации данных между устройством и почтовым ящиком Exchange Online.
 
-- [Включение и отключение MAPI для почтового ящика.](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi)
+Чтобы отключить ActiveSync для почтового ящика, Узнайте, [как отключить Exchange ActiveSync для пользователей в Exchange Online](https://support.microsoft.com/help/2795303).
+
+Чтобы отключить другие типы доступа к почтовому ящику, ознакомьтесь со статьей:
+
+- [Включение или отключение MAPI для почтового ящика](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi).
 
 - [Включение или отключение доступа по протоколу POP3 или IMAP4 для пользователя](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-Приостановка синхронизации OneDrive поможет защитить облачные данные от обновления данных потенциально зараженными устройствами. Дополнительные сведения см. в статье [Как приостановить и возобновить синхронизацию в OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
+Приостановка синхронизации OneDrive поможет защитить облачные данные от обновления потенциально инфицированных устройств. Для получения дополнительных сведений Узнайте, [как приостановить и возобновить синхронизацию в OneDrive](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e).
 
-## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Шаг 3. Удалите вредоносную программу из устройств, которые затрагивают
+## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Шаг 3: Удаление вредоносных программ с затронутых устройств
 
-Запустите полную проверку на наличие вирусов с помощью последних обновлений на всех подозрительных компьютерах и устройствах, чтобы обнаружить и удалить полезные данные, связанные с программой-шантажистом. Не забывайте забашать устройства, которые синхронизируют данные, или на устройстве, на которые сопоставлены сетевые диски (компьютеры и устройства также должны быть сканированы).
+Запустите полную антивирусную проверку с последними обновлениями на всех подозреваемых компьютерах и устройствах, чтобы обнаружить и удалить полезную нагрузку, связанную с программой. Не забывайте устройства, являющиеся синхронизацией данных, или целевые диски с подключенными сетевыми дисками (эти компьютеры и устройства необходимо проверить).
 
-Вы можете использовать [Защитник Windows](https://www.microsoft.com/windows/comprehensive-security) или (для клиентов предыдущих версий) [Microsoft Security Essentials.](https://www.microsoft.com/download/details.aspx?id=5201)
+В [Microsoft Security Essentials](https://www.microsoft.com/download/details.aspx?id=5201)можно использовать [Защитник Windows](https://www.microsoft.com/windows/comprehensive-security) или (для старых клиентов).
 
-Альтернативным решением, помогающим устранить замканчивания от вредоносных программ или вредоносных [программ, является средство удаления вредоносных программ (MSRT).](https://www.microsoft.com/download/details.aspx?id=9905)
+Кроме того, вы можете удалить программу-шантажистом или вредоносную программу с помощью [средства удаления вредоносных программ (MSRT)](https://www.microsoft.com/download/details.aspx?id=9905).
 
-Если эти параметры не работают, можно попробовать [автономный Защитник Windows](https://support.microsoft.com/help/17466) или устранить [неполадки с обнаружением и удалением вредоносных программ.](https://support.microsoft.com/help/4466982)
+Если эти параметры не работают, можно попробовать [Отключить Защитник Windows](https://support.microsoft.com/help/17466) или [устранить неполадки, связанные с обнаружением и удалением вредоносных программ](https://support.microsoft.com/help/4466982).
 
-## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>Шаг 4. Восстановление файлов на чистом компьютере или устройстве
+## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>Шаг 4: восстановление файлов на очищенном компьютере или устройстве
 
-После того как вы выполнили предыдущий шаг по удалению полезных данных программы-шантажиста (это предотвратит шифрование или удаление файлов программой-шантажистом), можно [попытаться](https://support.microsoft.com/help/17128) восстановить локальные файлы и папки с помощью журнала файлов в Windows 10, Windows 8.1 или System Protection в Windows 7.
+После выполнения предыдущего действия для удаления полезных данных программой-шантажистом из среды (что предотвратит шифрование и удаление файлов программой-шантажистом) можно использовать [историю файлов](https://support.microsoft.com/help/17128) в Windows 10 и Windows 8,1 или системы защиты системы в Windows 7, чтобы попытаться восстановить локальные файлы и папки.
 
-**Примечания**:
+**Примечания.**
 
-- Некоторые программы-штаты также шифруют или удаляют резервные версии, поэтому восстановление файлов с помощью истории файлов или системной защиты невозможна. В этом случае потребуется выполнить резервное копирование на внешних дисках или устройствах, на которые не повлияют выкуп или служба OneDrive, как описано в следующем разделе.
+- Некоторые средства защиты от вирусов также шифруют и удаляют версии резервных копий, поэтому для восстановления файлов невозможно использовать историю файлов или систему защиты системы. В этом случае вам потребуется использовать резервные копии на внешних дисках или устройствах, которые не были затронуты программой "шантажистом" или OneDrive, как описано в следующем разделе.
 
-- Если папка синхронизирована с OneDrive и вы не используете последнюю версию Windows, на использование журнала файлов могут нанестись некоторые ограничения.
+- Если папка синхронизирована с OneDrive и вы не используете последнюю версию Windows, то некоторые ограничения могут быть связаны с использованием истории файлов.
 
-## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Шаг 5. Восстановление файлов в OneDrive для бизнеса
+## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Шаг 5: восстановление файлов в OneDrive для бизнеса
 
-Восстановление файлов в OneDrive для бизнеса позволяет восстановить всю среду OneDrive на момент времени в течение последних 30 дней. Дополнительные сведения см. в [статье "Восстановление OneDrive".](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
+Восстановление файлов в OneDrive для бизнеса позволяет восстановить в течение последних 30 дней весь OneDrive до предыдущего момента времени. Дополнительные сведения см. в статье [Восстановление OneDrive](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 
-## <a name="step-6-recover-deleted-email"></a>Шаг 6. Восстановление удаленной электронной почты
+## <a name="step-6-recover-deleted-email"></a>Шаг 6: восстановление удаленной почты
 
-В редких случаях, когда программа-служба была удалена из всех сообщений электронной почты, можно восстановить удаленные элементы. Дополнительные сведения см. в статьях:
+В редких случаях, когда средство записи в систему удалило всю электронную почту, возможно, вы восстановите удаленные элементы. Дополнительные сведения см. в указанных ниже статьях.
 
 - [Восстановление удаленных сообщений в почтовом ящике пользователя](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 
 - [Восстановление удаленных элементов в Outlook для Windows](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
-## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Шаг 7. Повторное включение синхронизации Exchange ActiveSync и OneDrive
+## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Шаг 7: повторное включение синхронизации Exchange ActiveSync и OneDrive
 
-После очистки компьютеров и устройств и восстановления своих данных вы можете повторно включить синхронизацию ActiveSync и OneDrive, которую вы отключили на [шаге 2.](#step-2-disable-activesync-and-onedrive-sync)
+После очистки компьютеров и устройств и восстановления данных можно повторно включить ActiveSync и синхронизацию OneDrive, которые вы ранее отключили в [действии 2](#step-2-disable-activesync-and-onedrive-sync).
 
-## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Шаг 8 (необязательно). Блокировка синхронизации OneDrive для определенных расширений файлов
+## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Шаг 8 (необязательно): блокировка синхронизации OneDrive для определенных расширений файлов
 
-После восстановления можно запретить клиентам OneDrive для бизнеса синхронизировать типы файлов, на которые повлияло данная выкуп кантортами. Дополнительные сведения см. в [статье Set-SPOTenantSyncClientRestriction](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+После восстановления вы можете запретить клиентам OneDrive для бизнеса синхронизировать типы файлов, затрагиваемые этой программой-шантажистом. Для получения дополнительных сведений см. [Set – SPOTenantSyncClientRestriction](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
-## <a name="report-the-attack"></a>Сообщает об атаке
+## <a name="report-the-attack"></a>Сообщить об атаке
 
-### <a name="contact-law-enforcement"></a>органа цепочки контакта
+### <a name="contact-law-enforcement"></a>Принудительное применение правоохранительных лиц
 
-Вам следует обращаться к местным или федеральным органам управления органами. Например, если вы находятесь в США, вы можете связаться с локальным [офисом FBI,](https://www.fbi.gov/contact-us/field) [IC3 или секретным](http://www.ic3.gov/complaint/default.aspx) [секретным секретным секретом.](http://www.secretservice.gov/)
+Вы должны обратиться к местным или федеральным правоохранительным ведомствам. Например, если вы используете США, вы можете связаться с [местным полем Office](https://www.fbi.gov/contact-us/field), [IC3](http://www.ic3.gov/complaint/default.aspx) или [секретной службой](http://www.secretservice.gov/)ФБР.
 
-### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>Отправка отчета на веб-сайт отчетов по стране вашей страны
+### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>Отправка отчета на веб-сайт мошенничества для отчетности в вашей стране
 
-В веб-сайтах отчетов в области Scam представлены сведения о том, как предотвращать и избегать помех. Они также предоставляют механизмы, о которых сообщается об имеющемся всю нумерацию.
+Веб-сайты для создания отчетов о мошенничестве содержат сведения о том, как предотвратить и избегать мошенничества. Кроме того, они предоставляют механизмы для отчета, если вы стали жертвой мошенничества.
 
-- Австралия: [SCAMwatch](http://www.scamwatch.gov.au/)
+- Австралия: [скамватч](http://www.scamwatch.gov.au/)
 
-- Канада: [канадский антивирусный срез](http://www.antifraudcentre-centreantifraude.ca/)
+- Канада: [канадский (Канада) центр защиты от мошенничества](http://www.antifraudcentre-centreantifraude.ca/)
 
-- Франция: [Агрессия nationale de la sécurité des systémes d'information](http://www.ssi.gouv.fr/)
+- Франция: [аженце National сéкуритé des систèмес д'информатион](http://www.ssi.gouv.fr/)
 
-- Германия: [Bundesamt fêr Sicherheit in der Informationstechnik](https://www.bsi.bund.de/DE/Home/home_node.html)
+- Германия: [бундесамт фüр сичерхеит в Der информатионстечник](https://www.bsi.bund.de/DE/Home/home_node.html)
 
-- Ирландия: [An Garda Sêochána](http://www.garda.ie/)
+- Ирландия: [Гарда сíочáна](http://www.garda.ie/)
 
-- Нью-Зеландия: [пользователи, ладони](http://www.consumeraffairs.govt.nz/scams)
+- Новая Зеландия: [мошенничество по охране потребителей](http://www.consumeraffairs.govt.nz/scams)
 
-- Соединенное Коэффициент: [Мошенничество](http://www.actionfraud.police.uk/)
+- Великобритания: [действие мошенничество](http://www.actionfraud.police.uk/)
 
-- США: [On Guard Online](http://www.onguardonline.gov/)
+- США: [в службе безопасности Online](http://www.onguardonline.gov/)
 
-Если вашей страны нет в списке, попросите спросить местные или федеральные органы управления органами.
+Если ваша страна отсутствует в списке, обратитесь к местным или федеральным правоохранительным ведомствам.
 
-### <a name="submit-email-messages-to-microsoft"></a>Отправка сообщений электронной почты в Майкрософт
+### <a name="submit-email-messages-to-microsoft"></a>Отправка сообщений электронной почты в корпорацию Майкрософт
 
-Можно сообщать о фишинговых сообщениях, содержащих программы-шантажисты, с помощью нескольких способов. Для получения дополнительной информации см. [Отчет о сообщениях и файлах в Microsoft](report-junk-email-messages-to-microsoft.md).
+Вы можете сообщить о phishing-сообщениях, которые содержат средства для работы с программой-шантажистом, одним из нескольких способов. Для получения дополнительной информации см. [Отчет о сообщениях и файлах в Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="see-also"></a>См. также
 
-- [Вымоганизация](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware)
+- [Программой](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware)
 
-- [Реакция с помощью выручки, плата или не заплатяемая?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
+- [Отклик от атаки программой-шантажистом — оплачивается или не оплачивается?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
 
-- [Norsk Hydro реагирует на атаки программ-шантажистов с прозрачностью](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+- [Норск Хидро реагирует на атаку с помощью команды "атаку" с прозрачностью](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
-- [Обнаружение программ-шумостей и восстановление файлов в OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
+- [Обнаружение и восстановление файлов в OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
-- [Microsoft Security Intelligence Report](https://www.microsoft.com/securityinsights/)
+- [Отчет Microsoft Security Intelligence](https://www.microsoft.com/securityinsights/)
 
 - [Включение и отключение макросов в файлах Office](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-- [Рекомендуемые параметры для безопасности EOP и Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp)
+- [Рекомендуемые параметры для EOP и безопасности ATP 365 для Office](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp)
 
-- [Стойкое обновление: безопасность следующего поколения в Windows 10 подтверждает устойчивость от программ-шумостей в 2017 г.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
+- [Обновление стоит: Следующая безопасность поколения для Windows 10 удостоверяется в устойчивости от эпидемий с помощью программы "размыкатель" в 2017](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
-- [Нет массий, Samas. Что такое модули топунсы программ-](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
+- [Нет МАС, Самас: что находится в этой модусе для атаки, операнди?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
 
-- [Блокировка вредоносного ПО маскетрично, чтобы избежать этого](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
+- [Блокировка вредоносных программ, счастливого, чтобы избежать](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
 
-- [MSRT июль 2016 г.: кербер-программа](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
+- [MSRT — Июль 2016: Цербер](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
 
-- [Три заголовка cerberus как Cerberus-Rans- для Cerber-пользу](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
+- [Три головки Церберус, похожего на Цербер.](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
 
-- [Торговая программа-шантажист по влиянию на (код) Дв-Винки](https://www.microsoft.com/security/blog/2016/07/13/troldesh-ransomware-influenced-by-the-da-vinci-code/)
+- [Тролдеш-шантажистом, на которые влияет код Da ВинЦи](https://www.microsoft.com/security/blog/2016/07/13/troldesh-ransomware-influenced-by-the-da-vinci-code/)

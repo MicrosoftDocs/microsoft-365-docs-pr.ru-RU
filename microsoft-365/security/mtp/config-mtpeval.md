@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4d751ec5eb786a91d62ab11988132bfed076984d
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: 1778e8485e859d01e4eec40c7a0d404636e27e8d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956271"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199653"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-or-pilot-environment"></a>Настройка принципов защиты от угроз Майкрософт для испытательной лаборатории или пилотной среды
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -253,6 +256,6 @@ ms.locfileid: "47956271"
 
 Затем вы можете имитировать атаку и узнать, как обнаружение, создание оповещений и автоматический ответ на атаку, не имеющую файлов, на конечную точку.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 |![Этап имитации атаки](../../media/mtp/run-sim.png) <br>[Этап имитации атаки](mtp-pilot-simulate.md) | Запустите моделирование атак для пилотной среды пилотной системы защиты от угроз Майкрософт.
 |:-------|:-----|

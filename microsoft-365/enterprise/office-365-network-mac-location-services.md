@@ -3,7 +3,7 @@ title: Служба расположения сетевых подключени
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/31/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Служба расположения сетевых подключений (Предварительная версия) Microsoft 365
-ms.openlocfilehash: e614e719069a74ea087b07ca624ae0450790c763
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f2ab872f67eca70ab2791d3ad6fe1396b009cc18
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693379"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200785"
 ---
 # <a name="microsoft-365-network-connectivity-location-services-preview"></a>Служба расположения сетевых подключений (Предварительная версия) Microsoft 365
 
@@ -38,3 +38,13 @@ ms.locfileid: "46693379"
 Любой контент, предоставляемый с помощью карт Bing Maps, включая геокод, может использоваться только внутри продукта, в котором предоставляется контент. Использование служб расположения центра администрирования Microsoft 365 с помощью центра администрирования Microsoft регулируется _условиями использования служб Bing Maps_ , доступных на сайте, <https://go.microsoft.com/?linkid=9710837> и _заявлением о конфиденциальности Майкрософт_ , доступным на сайте <https://go.microsoft.com/fwlink/?LinkID=248686.>
 
 Эта функция, предоставляемая с помощью карт Bing Maps, также поддерживается в этих **технологиях**. Как службы Bing Maps используют службы расположений, предоставляемые здесь технологиями, управляются с помощью этих _терминов_ , доступных на сайте <https://legal.here.com/en-gb/terms> .
+
+## <a name="related-topics"></a>Связанные статьи
+
+[Сетевое подключение в центре администрирования Microsoft 365 (Предварительная версия)](office-365-network-mac-perf-overview.md)
+
+[Анализ производительности сети Microsoft 365 (Предварительная версия)](office-365-network-mac-perf-insights.md)
+
+[Оценка сети Microsoft 365 (Предварительная версия)](office-365-network-mac-perf-score.md)
+
+[Проверка подключения Microsoft 365 в центре администрирования M365 (Предварительная версия)](office-365-network-mac-perf-onboarding-tool.md)

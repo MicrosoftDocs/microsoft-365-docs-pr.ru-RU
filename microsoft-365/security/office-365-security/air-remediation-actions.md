@@ -15,18 +15,21 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Сведения о действиях по исправлению в автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 761ae38250dc084a248203dd78b66ed18ea9c401
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c327bdf505b774532600169e9579ffa6acfac1b1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653381"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199905"
 ---
 # <a name="remediation-actions-in-microsoft-365"></a>Действия по исправлению в Microsoft 365
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
 ## <a name="remediation-actions"></a>Действия по исправлению
 
-[Автоматизированное исследование и возможности реагирования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR) в [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (Office 365 ATP) Plan 2 включают некоторые действия по исправлению. При каждом запуске или завершении автоматического исследования обычно отображается одно или несколько действий по исправлению, требующих утверждения командой "Управление операциями безопасности" для продолжения. Такие действия по исправлению могут включать в себя следующее:
+[Автоматизированное исследование и возможности реагирования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR) в [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (Office 365 ATP) Plan 2 включают некоторые действия по исправлению. При каждом запуске или завершении автоматизированного исследования, как правило, отображается одна или несколько мер по исправлению, требующих утверждения службой обеспечения безопасности. Такие действия по исправлению могут включать в себя следующее:
 
 - Обратимое удаление сообщений электронной почты или кластеров
 - Блокирование URL-адреса (во время щелчка)
@@ -42,7 +45,7 @@ ms.locfileid: "46653381"
 
 ****
 
-|Category|Угроза и риск|Действия по исправлению|
+|Категория|Угроза и риск|Действия по исправлению|
 |---|---|---|
 |Электронная почта|Вредоносные программы|Обратимое удаление электронной почты и кластера <br/><br/>Если несколько сообщений электронной почты в кластере содержат вредоносные программы, кластер считается вредоносным.|
 |Электронная почта|Вредоносный URL-адрес<br/>(Безопасный URL-адрес был обнаружен в [Office 365 ATP Safe Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-atp-safe-links-works).)|Обратимое удаление электронной почты и кластера <br/><br/>Сообщение электронной почты, содержащее вредоносный URL-адрес, считается вредоносным.|

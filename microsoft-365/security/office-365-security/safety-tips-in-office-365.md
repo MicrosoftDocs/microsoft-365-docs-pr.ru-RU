@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте, как EOP и Office 365 защищают вас от нежелательной почты, фишинга и предотвращения вредоносных программ, добавив Совет по безопасности в верхнюю часть сообщений электронной почты.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4bcfd2bf05f2f5ae7a51fbc2488cb1aa6e7d2c9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 3da52a8ef2913c30c281fec74f92142847e29792
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949636"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201987"
 ---
 # <a name="safety-tips-in-email-messages"></a>Советы по безопасности в сообщениях электронной почты
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Exchange Online Protection (EOP) и Microsoft 365 защищают вас от нежелательной почты, фишинга и защиты от вредоносных программ. В настоящее время некоторые из этих атак хорошо сконструированы, так как они выглядят законными. Отправка сообщений в папку "Нежелательная почта" не всегда достаточно. Теперь, когда вы проверите свою электронную почту в Outlook или Outlook в Интернете или любом почтовом клиенте, EOP автоматически проверит отправителя и добавит Совет по безопасности в верхнюю часть электронного сообщения.
 

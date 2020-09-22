@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье содержатся сведения об устранении неполадок, связанных с отправкой электронной почты в папки "Входящие" в Microsoft 365 & рекомендации по массовой рассылке клиентам Microsoft 365.
-ms.openlocfilehash: 4243f46746cb21425fc2dc7493c69818f095e71f
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 52b4bb333a92dcaa21f45977b3d59a96053a69c2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307583"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201746"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Письмо с устранением неполадок, отправленное в Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 В этой статье приведены сведения об устранении неполадок при отправке сообщений электронной почты в папки "Входящие" в Microsoft 365 и рекомендации по массовой рассылке клиентам.
 

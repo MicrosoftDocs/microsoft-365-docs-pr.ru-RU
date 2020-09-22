@@ -16,14 +16,17 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут изучить встроенные параметры отчетов о нежелательной почте, нежелательной почте и phishing-атаках в Outlook для iOS и Android.
-ms.openlocfilehash: 216f60eb168190603c7c9aba58cef27c2bf15b01
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: fef519f3fdd5cf46d383c41ad227ab0cd3ed4390
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867499"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201537"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Отправка нежелательных и фишинговых сообщений электронной почты в Outlook для iOS и Android в Exchange Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 В организациях Microsoft 365 с почтовыми ящиками в Exchange Online или локальных почтовых ящиков с помощью [гибридной современной проверки подлинности](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide)можно использовать встроенные параметры отчетов в Outlook для iOS и Android для отправки ложных срабатываний (хороший адрес электронной почты, помеченный как спам), ложные отрицательные (недопустимые сообщения электронной почты) и фишинговые сообщения для Exchange Online Protection
 

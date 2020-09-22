@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как использовать симулятор для атаки для запуска имитации атак фишинга и атак паролей в организациях Microsoft 365 или ATP с планом 2.
-ms.openlocfilehash: 9fc28cdecc07f5325918e3d5176e52d1051a626c
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: 86d365036daa4f24d2c2e3b8e64b5836e291889f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47426997"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200393"
 ---
 # <a name="attack-simulator-in-atp"></a>Симулятор атак в ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Если в вашей организации используется Office 365 Advanced Threat protection (ATP), который включает [расследования и функции реагирования](office-365-ti.md), вы можете использовать симулятор для атаки в центре безопасности & соответствия требованиям, чтобы выполнять сценарии атаки в Организации. Эти имитации атак могут помочь вам определить и найти уязвимых пользователей, прежде чем реальная атака повлияет на нижнюю линию. Ознакомьтесь с этой статьей, чтобы узнать больше.
 

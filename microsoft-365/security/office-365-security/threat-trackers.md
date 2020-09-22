@@ -16,14 +16,17 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Сведения о средствах отслеживания угроз, в том числе о новых отслеживаемых средствах отслеживания, которые помогут Организации в курсе проблем с безопасностью.
-ms.openlocfilehash: 13e8463d88250fe76474311e9df394577949989e
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: e4e157e64da92cf3c9178af1223fbc6c85e3fd95
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755068"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201799"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания угроз — новые и полезные
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [Исследование угроз для Office 365 и возможности реагирования](office-365-ti.md) позволяют группе безопасности Организации обнаруживать угрозы циберсекурити и предпринимать меры по их выполнению. Функции отслеживания угроз и возможности реагирования на Office 365 включают функции отслеживания угроз, в том числе полезные средства отслеживания. В этой статье приводятся общие сведения о новых функциях и дальнейших действиях. 
 

@@ -11,14 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Администраторы могут ознакомиться с отчетом о сообщениях с автоматическим пересылкой в панели мониторинга "Направление почты" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: e9e3a0159671dd4ce62f4fa0b07b7162807fe0e6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b5255a95718fa6624c85e93a19c8accf9c3dcdb2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949860"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199363"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Автоматически переадресованные сообщения в центре безопасности & соответствия требованиям
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 **Автоматически переадресованные сообщения** в [панели мониторинга "Направление почты](mail-flow-insights-v2.md) " в [центре безопасности & соответствия требованиям](https://protection.office.com) отображаются сведения о сообщениях, которые автоматически пересылаются из организации получателям во внешние домены.
 

@@ -17,14 +17,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как защитить организацию от вредоносных файлов с помощью безопасных вложений ATP для Office 365.
-ms.openlocfilehash: f4f355d4def1f108a72854c3796e0e9373cb5ef1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: d13674a5d3e769fc10a1f5fd2fd80a4f07c063de
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819404"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201481"
 ---
 # <a name="how-atp-safe-attachments-works"></a>Как работают безопасные вложения ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Функция безопасных вложений в ATP проверяет вложения электронной почты для людей в вашей организации. Когда политика безопасных вложений ATP находится на месте и кто-то покрылся этой политикой, просматривает свою электронную почту в Office 365, проверяются вложения электронной почты и выполняются соответствующие действия в соответствии с политиками безопасных вложений ATP. В зависимости от того, как определены политики, люди могут продолжать работу, не зная, что они были отправлены вредоносными файлами.
   

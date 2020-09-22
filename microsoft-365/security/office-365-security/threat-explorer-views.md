@@ -15,14 +15,17 @@ ms.collection:
 - M365-security-compliance
 description: Сведения о том, как использовать обозреватель угроз и отчет об обнаружении в реальном времени для изучения угроз и реагирования на них в центре безопасности и &amp; соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5064c3a250ba9e7dcf48d6bc360102b3ab4b8504
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5500a7bff0766159384604e9973b5ad81b3dbc6f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656949"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200111"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Представления в обозревателе угроз и обнаружения в режиме реального времени
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ![Обозреватель угроз](../../media/ThreatExplorerFirstOpened.png)
 

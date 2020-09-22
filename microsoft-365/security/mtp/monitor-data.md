@@ -15,14 +15,17 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79113aa4097da26a3a12a9ed99b1c5a8b3ad3d81
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 861ee8a01f9fba7daeec7375ebb6f33ffcae1fcd
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866747"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199821"
 ---
 # <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Мониторинг данных и отчеты в центре безопасности Майкрософт 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Отчеты категории **Данные** помогают отслеживать активность пользователей, которая может привести к несанкционированному разглашению данных. Они представляют собой переработку существующих отчетов о политиках защиты от потери данных плюс независимый отчет о политике защиты от потери данных.
 

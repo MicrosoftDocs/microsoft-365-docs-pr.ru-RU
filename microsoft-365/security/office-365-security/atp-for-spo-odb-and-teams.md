@@ -21,14 +21,17 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Сведения о Advanced Threat Protection в Office 365 для файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
-ms.openlocfilehash: e4a711d6554ffcb8e291d5b2154120d078995e94
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 9831b61fafc7cb4696fbad3d569f061612f85fe1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815413"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199043"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP для SharePoint, OneDrive и Microsoft Teams
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="overview-of-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Обзор Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -52,7 +55,7 @@ ms.locfileid: "44815413"
 
 ## <a name="keep-these-points-in-mind"></a>Помните об этих моментах
 
-- ATP не будет сканировать каждый отдельный файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams. Это сделано намеренно. Файлы сканируются асинхронно, с помощью процесса, который использует события общего доступа и гостевых действий, а также интеллектуальные эвристики и сигналы угроз для идентификации вредоносных файлов.
+- ATP не будет сканировать каждый отдельный файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams. Данное поведение является особенностью продукта. Файлы сканируются асинхронно, с помощью процесса, который использует события общего доступа и гостевых действий, а также интеллектуальные эвристики и сигналы угроз для идентификации вредоносных файлов.
 
 - Убедитесь, что сайты SharePoint настроены на использование [современного интерфейса](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). Если файл определен как вредоносный и заблокированный, люди могут видеть, что это произошло в современном интерфейсе, но не является классическим представлением. Защита ATP определяет, используется ли современный интерфейс или классическое представление; Однако визуальные индикаторы, заблокированные файлом, присутствуют только в современном интерфейсе.
 

@@ -16,14 +16,17 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Получите обзор страниц предупреждений, которые могут отображаться при работе с Office 365 Advanced Threat protection.
-ms.openlocfilehash: 00052c7212f9f469ca94d83ed53851b65904fd8e
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 7fbca71e7c000cc73b71feeaa777042278e35c4b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588292"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198801"
 ---
 # <a name="atp-safe-links-warning-pages"></a>Страницы предупреждения безопасных ссылок ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы используете Outlook.com, семейство Microsoft 365 или Microsoft 365 персональный, а вы ищете сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
