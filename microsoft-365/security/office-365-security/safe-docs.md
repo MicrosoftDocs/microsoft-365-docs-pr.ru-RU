@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Сведения о надежных документах в Microsoft 365 и Microsoft 365 для обеспечения безопасности.
-ms.openlocfilehash: 5e91c226102d60368bf08b09ae5f0239f63599d5
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: d2220bb088ddf6e739b79212c3c1f7f0ac7bd865
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132227"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173300"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Безопасные документы в Microsoft 365
 
@@ -36,9 +36,11 @@ ms.locfileid: "48132227"
 
 - Перед выполнением процедур, описанных в этом разделе, необходимо назначить разрешения. Чтобы включить и настроить безопасные документы, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-- Чтобы защититься от вирусов, безопасные документы отправляют файлы в облако [Microsoft Defender Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для анализа. Подробные сведения об обработке данных в защитнике Майкрософт можно найти здесь: [Хранение и конфиденциальность данных в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
+### <a name="how-does-microsoft-handle-your-data"></a>Как Майкрософт обрабатывает ваши данные?
 
-- Файлы, отправленные безопасными документами, не поддерживаются в защитнике за пределами времени, необходимого для анализа (как правило, меньше 24 часов).
+Чтобы защититься от вирусов, безопасные документы отправляют файлы в облако [Microsoft Defender Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для анализа. Подробные сведения об обработке данных в защитнике Майкрософт можно найти здесь: [Хранение и конфиденциальность данных в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
+
+Файлы, отправленные безопасными документами, не поддерживаются в защитнике за пределами времени, необходимого для анализа (как правило, меньше 24 часов).
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Использование центра безопасности & соответствия требованиям для настройки безопасных документов
 
