@@ -15,14 +15,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: c3323192e0095ad6693241390cff81d42be9cce1
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: a0997c107e78104619e1e05b8d1073e8690a3667
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956247"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195563"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Настройка пробной лабораторной среды Майкрософт для защиты от угроз 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт) 
@@ -148,6 +151,6 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 
 
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 |![Этап 3: Настройка встроенного &](../../media/config-onboard.png) <br>[Этап 3: Настройка встроенного &](config-mtpeval.md) | Настройте каждую из базовых принципов защиты от угроз Майкрософт для пробной лаборатории или пилотной среды Майкрософт по защите от угроз и применяйте свои конечные точки.
 |:-------|:-----|

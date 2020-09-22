@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Сведения о расследовании угроз и возможностях реагирования в плане Office 365 Advanced Threat Protection Plan.
-ms.openlocfilehash: 6c009a756b30d4b35159b98b145b19b72c9ab541
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: c37129c7c3801ab1e55bd59f9c40c9e65f9cbd8d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656675"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198437"
 ---
 # <a name="threat-investigation-and-response"></a>Анализ угроз и реагирование на них
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Средства расследования и реагирования на угрозы в [Office 365 Advanced Threat protection](office-365-atp.md) помогают аналитикам и администраторам защищать Microsoft 365 для бизнеса, выполнив следующие действия:
 - Упрощение идентификации, отслеживания и представления кибератаки
@@ -44,7 +47,7 @@ ms.locfileid: "46656675"
 - [Обозреватель](#threat-explorer)
 - [Инциденты](#incidents)
 - [Эмулятор атак](#attack-simulator)
-- [Автоматизированный анализ угроз и реакция на угрозы](automated-investigation-response-office.md)
+- [Автоматизированный анализ угроз и реагирование на них](automated-investigation-response-office.md)
 
 ### <a name="threat-dashboard"></a>Панель мониторинга угроз
 
@@ -76,7 +79,7 @@ ms.locfileid: "46656675"
 
 Используйте симулятор для атаки, чтобы настроить и выполнить реалистичные кибератаки в Организации, а затем определить уязвимых людей, прежде чем реальный цибераттакк повлияет на ваш бизнес. Дополнительные сведения см [в симуляторе атак в Office 365](attack-simulator.md).
 
-### <a name="automated-investigation-and-response"></a>Автоматизированный анализ угроз и реагирование на них
+### <a name="automated-investigation-and-response"></a>Автоматическое исследование и реагирование
 
 Используйте возможности автоматического исследования и реагирования (AIR), чтобы сэкономить время и усилия при взаимосвязи контента, устройств и людей с угрозами в вашей организации. Процессы AIR могут начаться при срабатывании определенных оповещений или при запуске группы "Управление средствами безопасности". Чтобы узнать больше, ознакомьтесь со статьей [Автоматическое исследование и ответ в Office 365](automated-investigation-response-office.md).
 

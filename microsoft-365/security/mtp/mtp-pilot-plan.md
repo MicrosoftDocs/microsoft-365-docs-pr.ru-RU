@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 601e81fc5265fe2ec5f41009b6c4fa43c0c8233d
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: d18b3d8ede271cb0d9611d6210a3d1d32849581a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962613"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195655"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>Планирование пилотного проекта Microsoft Threat protection 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -73,7 +76,7 @@ ms.locfileid: "47962613"
 
 Один из способов объединения всех элементов плана можно создать систему показателей. Ниже приведен пример системы показателей.
 
-|**Вариант использования**|**Требования**|**Требования к конфигурации**|**План тестирования**|**Ожидаемый результат**|**Состояние тестирования**|**Оценка**|**Примечания**|
+|**Вариант использования**|**Требования**|**Требования к конфигурации**|**План тестирования**|**Ожидаемый результат**|**Состояние тестирования**|**Оценка**|**Notes**|
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |Управление инцидентами|— Защита от угроз Майкрософт </br></br>— Azure ATP </br></br>— Пакет ATP для защитника Майкрософт </br></br>-Microsoft Cloud App Security (необязательно)|Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Исследование инцидента](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#investigate-an-incident) |С помощью расследований можно оценить область и влияние инцидента и управлять инцидентом.||||
 |аутоир|— Защита от угроз Майкрософт </br></br>— Azure ATP </br></br>— Пакет ATP для защитника Майкрософт |Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке <br>Включение Аутоир  |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Автоматическое исследование](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Оповещения и происшествия автоматически исправляются службой защиты от угроз Майкрософт||||
@@ -81,6 +84,6 @@ ms.locfileid: "47962613"
 
 
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 |![Этап подготовки](../../media/prepare.png) <br>[Этап подготовки](prepare-mtpeval.md) | Подготовка пилотной среды Microsoft Threat protection
 |:-------|:-----|

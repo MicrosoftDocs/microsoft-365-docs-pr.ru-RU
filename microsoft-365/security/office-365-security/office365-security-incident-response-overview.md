@@ -18,14 +18,17 @@ search.appverid:
 description: В этом решении рассказывается о том, какие наиболее распространенные атаки на циберсекурити могут выглядеть в Microsoft 365, и как реагировать на них.
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: c6f5087799a0e3a06d0849f99e9911cf77260e1b
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 221303d43620e89b8200392961d8aa0916c82763
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818799"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198707"
 ---
 # <a name="security-incident-response"></a>Отклик на инцидент безопасности
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Сводка:** В этом решении рассказывается о том, что означают индикаторы для наиболее распространенных атак циберсекурити в Office 365, как однозначно подтверждать любую атаку и как реагировать на нее.
 

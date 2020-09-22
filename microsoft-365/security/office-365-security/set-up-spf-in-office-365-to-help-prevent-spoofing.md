@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как обновить запись службы доменных имен (DNS), чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365.
-ms.openlocfilehash: dfbd5f7091420d079f91b93f7c581ed69572b7bd
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 8beca879669657612b884462488a347d873f4bf2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656615"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197743"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Настройка SPF для предотвращения спуфинга
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Сводка.** В этой статье описано, как обновить запись DNS, чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365. С помощью инфраструктуры политики отправителей можно проверять почту, отправляемую из личного домена.
 

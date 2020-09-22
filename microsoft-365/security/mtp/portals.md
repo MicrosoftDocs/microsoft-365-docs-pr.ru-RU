@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e44411fdc14279dac92b8829503fd636e3225600
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: c4cb142e06835101eae94365ef2d36ea8287ca9b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608237"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195597"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Порталы безопасности Майкрософт и центры администрирования
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 Несмотря на то, что [Центр безопасности Microsoft 365](overview-security-center.md) является новым доменом для мониторинга и управления безопасностью для своих удостоверений, данных, устройств и приложений, вам потребуется доступ к различным порталам для определенных специализированных задач.
 
 > [!TIP] 
@@ -32,7 +35,7 @@ ms.locfileid: "46608237"
 Операторы безопасности и администраторы могут переходить на следующие порталы для управления параметрами безопасности, рассмотрения возможных действий с угрозами, реагирования на активные угрозы и совместной работы с ИТ администраторов для устранения проблем.
 <p></p>
 
-| Имя портала | Описание | Ссылка |
+| Имя портала | Описание | ссылок. |
 |---|---|---| 
 | Центр безопасности Microsoft 365 | Мониторинг и реагирование на действия в отношении угроз и усиление безопасности в рамках ваших удостоверений, электронной почты, данных, конечных точек и приложений с помощью [Microsoft Threat protection](microsoft-threat-protection.md) | [security.microsoft.com](https://security.microsoft.com/) |
 | Центр безопасности защитника Microsoft | Отслеживание и реагирование на действия с угрозами в конечных точках с помощью возможностей, предоставляемых в [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
@@ -47,7 +50,7 @@ ms.locfileid: "46608237"
 Несмотря на то, что эти порталы не предназначены специально для управления безопасностью, они поддерживают различные рабочие нагрузки и задачи, которые могут повлиять на безопасность. Посетите эти порталы, чтобы управлять удостоверениями, разрешениями, параметрами устройств и политиками обработки данных.
 <p></p>
 
-| Имя портала | Описание | Ссылка | 
+| Имя портала | Описание | ссылок. | 
 |---|---|---| 
 | Портал Azure | Просмотр и управление [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) и всеми [ресурсами Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [portal.azure.com](https://portal.azure.com/) |
 | Центр соответствия требованиям Microsoft 365 | Управление политиками обработки данных и обеспечение [соответствия нормативным требованиям](https://docs.microsoft.com/microsoft-365/compliance/offering-home?view=o365-worldwide) | [compliance.microsoft.com](https://compliance.microsoft.com/) |

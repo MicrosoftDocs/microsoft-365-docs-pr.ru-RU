@@ -19,14 +19,17 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 826d8561ba0c9618f21458493416b7dbd75af9e1
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 66b81a474ff81df57c0b2a59672b17061f7235cb
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656865"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196087"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Составление отчетов о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 **Область применения:**
 - Office 365 Advanced Threat Protection
@@ -63,7 +66,7 @@ ms.locfileid: "46656865"
 
 ****
 
-|Сценарий|Параметры отмены|Дополнительные сведения|
+|Сценарий|Параметры отмены|Подробнее|
 |---|---|---|
 |Сообщение электронной почты было перенаправлено в папку нежелательной почты пользователя|— Переместить сообщение в папку "Удаленные" пользователя.<br/>— Переместить сообщение в папку "Входящие" пользователя <br/>— Удалить сообщение.|[Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered)|
 |Сообщение электронной почты или файл помещено в карантин|— Освободите электронную почту или файл. <br/>— Удаление электронной почты или файла|[Управление сообщениями, помещенными в карантин, и файлами в качестве администратора в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files)|

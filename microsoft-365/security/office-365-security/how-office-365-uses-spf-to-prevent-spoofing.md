@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Сведения о том, как Microsoft 365 использует запись в формате TXT инфраструктуры политики отправителей (SPF), чтобы гарантировать, что конечные системы электронной почты доверяют сообщениям, отправленным из личного домена.
-ms.openlocfilehash: 702c5de90c53388a3d55ad752010fbaa04b5556b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c437793a63f3869573b023cbcd9420e4d3c3b554
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307653"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196111"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Как Microsoft 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Сводка:** В этой статье описывается, как Microsoft 365 использует запись The SPF TXT Framework (SPF) в DNS, чтобы обеспечить доверие конечным системам электронной почты к сообщениям, отправленным из личного домена. Это относится к исходящей почте, отправляемой из Microsoft 365. Сообщения, отправляемые из Microsoft 365 получателю в Microsoft 365, всегда будут передавать SPF.
 

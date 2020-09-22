@@ -17,14 +17,17 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться маршрутизировать спам в папки нежелательной почты пользователя в гибридной среде Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15acc9ad87fa0c785998895d026dae036d9ddd7b
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 4c01ad0e8efa4d28e1b5d1e72b3daa87bb01b619
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547668"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196597"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Настройка автономных EOP для доставки спама в папку нежелательной почты в гибридных средах
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > Этот раздел предназначен только для изолированных клиентов EOP в гибридных средах. Эта статья не относится к клиентам Microsoft 365 с почтовыми ящиками Exchange Online.
@@ -78,7 +81,7 @@ ms.locfileid: "47547668"
 
 3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
-   - **Name**: введите уникальное описательное имя правила. Пример:
+   - **Name**: введите уникальное описательное имя правила. Например:
 
      - EOP SFV: SPM на SCL 6
 
@@ -112,7 +115,7 @@ ms.locfileid: "47547668"
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
 ```
 
-Пример:
+Например:
 
 ```Powershell
 New-TransportRule -Name "EOP SFV:SPM to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SPM" -SetSCL 6

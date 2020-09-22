@@ -13,15 +13,18 @@ localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
-description: Из этой статьи вы узнаете, как использовать PowerShell, чтобы применить параметры конфигурации к клиентам в службе Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: 46b7c756171da7687568e5135974841d828f45bd
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+description: В этой статье рассказывается, как использовать PowerShell для применения параметров конфигурации к клиентам в Microsoft Exchange Online Protection (EOP).
+ms.openlocfilehash: 6e33ceb6a9daa88bfefd4ec08ac9f2a9f34a942f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827461"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198683"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Пример скрипта для применения параметров EOP к нескольким клиентам
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Следующий пример скрипта позволяет администраторам Microsoft Exchange Online Protection (EOP), которые управляют несколькими клиентами (компаниями), использовать Windows PowerShell для применения параметров конфигурации к своим клиентам.
 
@@ -33,7 +36,7 @@ ms.locfileid: "46827461"
 
 3. Для каждой строки в CSV-файле добавьте имя администратора клиента в столбец UserName и командлет, который необходимо выполнить для этого клиента, в столбец Cmdlet. Например, введите admin@contoso.com и Get-AcceptedDomain.
 
-4. Скопируйте [RunCmdletOnMultipleTenants.ps1в ](#runcmdletonmultipletenantsps1) Блокнот, а затем сохраните файл в легко найти расположение (например, c:\scripts).
+4. Скопируйте [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) скрипт в блокнот, а затем сохраните файл в месте, которое легко найти (например, c:\scripts).
 
 5. Выполните скрипт, используя следующий синтаксис:
 
@@ -47,7 +50,7 @@ ms.locfileid: "46827461"
    & "c:\scripts\RunCmdletOnMultipleTenants.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. Вход в каждый клиент будет выполнен, а также будет запущен сценарий.
+6. Каждый клиент будет входить в систему, и сценарий будет выполняться.
 
 ## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants.ps1
 

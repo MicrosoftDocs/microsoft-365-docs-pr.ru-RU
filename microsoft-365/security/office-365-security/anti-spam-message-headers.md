@@ -16,14 +16,17 @@ ms.collection:
 - M365-security-compliance
 description: Сведения для администраторов о полях заголовков, которые добавляются в сообщения в Exchange Online Protection (EOP). В этих полях заголовков содержатся сведения о сообщении и его обработке.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5423ccf658843ab22f30dcef99fe0a0c34d512f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 71cefb4a26751b92dd8b5e5a308bbc18b1a5c221
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867191"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197505"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Заголовки сообщений о защите от нежелательной почты в Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Во всех организациях Microsoft 365 служба Exchange Online Protection (EOP) проверяет все входящие сообщения на наличие спама, вредоносных программ и других угроз. Результаты таких проверок добавляются в поля указанных ниже заголовков сообщений.
 

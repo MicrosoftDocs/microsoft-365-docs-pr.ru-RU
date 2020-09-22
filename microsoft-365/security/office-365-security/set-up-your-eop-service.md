@@ -14,14 +14,17 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Администраторы могут научиться настраивать автономную систему Exchange Online Protection (EOP) для защиты локальных почтовых сред.
-ms.openlocfilehash: e6ca3965dd82bf0e6ed7e361984758ab34e3eea0
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 53386b700c2a2832cf16d47da0678dfb91c5b6d7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307595"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197171"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Настройка автономной службы EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 В этом разделе объясняется, как настроить автономную защиту Exchange Online (EOP). Если вы приступите отсюда в мастере доменов Office 365, вернитесь к мастеру доменов Office 365, если вы не хотите использовать Exchange Online Protection. Если вы ищете дополнительные сведения о настройке соединителей, обратитесь к разделу [Настройка обработки почты с помощью соединителей в Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 

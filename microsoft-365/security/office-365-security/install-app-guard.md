@@ -15,14 +15,17 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Получите последнюю версию в разделе изоляция на основе оборудования. Предотвращение текущих и новых атак, таких как эксплойты или вредоносные ссылки, не нарушая продуктивность сотрудников и корпоративную безопасность.
-ms.openlocfilehash: 32a8705255bf4ae4f0e3678de9cd812b64107cfd
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 3a20649338bbcd58ad86f70142c2bd9f1c2fd948
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405545"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197577"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard для Office (общедоступная Предварительная версия) для администраторов
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 
 **Применимо к:** Word, Excel и PowerPoint для Microsoft 365, Windows 10 Корпоративная

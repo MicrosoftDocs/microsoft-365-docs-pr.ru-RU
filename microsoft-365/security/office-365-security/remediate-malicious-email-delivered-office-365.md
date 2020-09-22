@@ -14,14 +14,17 @@ search.appverid: MET150
 description: Исправление угроз
 appliesto:
 - Microsoft Threat Protection
-ms.openlocfilehash: 2542f7af8a34088a79aae8a14f7ccdb8ea8fd121
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 526a88409514127d4fb484f88632bf3185004854
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547244"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197445"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Исправление вредоносных сообщений электронной почты, доставляемых в Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Устранение неполадок означает выполнение действия проскрибед по отношению к угрозе. Вредоносные сообщения электронной почты, отправленные в организацию, могут быть очищены системой с помощью автоматической очистки (ZAP) или группами безопасности с помощью действий по исправлению, например *Перемещение в папку "Входящие"* *, перемещение*в папку " *Удаленные*", " *обратимое удаление*" или " *жесткое удаление*". Office Advanced Threat protection (Office ATP) P2/водофункции позволяет Teams выполнять устранение угроз в функции электронной почты и совместной работы с помощью ручных и автоматических исследований.
 
@@ -92,7 +95,7 @@ ms.locfileid: "47547244"
 
    - **Не**поддаются действию: сообщения из следующих расположений не могут обрабатываться или перемещаться в действиях по исправлению:
 
-     - Quarantine
+     - Карантин
      - Окончательно удаленная папка
      - Локальная/внешняя среда
      - Сбой или удален

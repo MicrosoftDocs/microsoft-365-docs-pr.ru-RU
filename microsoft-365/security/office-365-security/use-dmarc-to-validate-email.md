@@ -15,14 +15,17 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверять сообщения, отправленные из вашей организации.
-ms.openlocfilehash: 1f014a221334925f5b9c90371d552eb64d026c1f
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d5e9daf99e0431a5bcfe73dce6b447933192dc8b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949436"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195895"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Использование протокола DMARC для проверки электронной почты
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Протокол [DMARC](https://dmarc.org) (Domain-based Message Authentication, Reporting, and Conformance) используется в сочетании с инфраструктурой политики отправителей (SPF) и механизмом DKIM (DomainKeys Identified Mail) для проверки подлинности отправителей и подтверждения того, что сообщения, отправленные в конечные почтовые системы из вашего домена, являются доверенными. Реализация DMARC в сочетании с SPF и DKIM обеспечивает дополнительную защиту от спуфинга и фишинга. DMARC помогает получающим почтовым системам определить, что делать с сообщениями, отправленными из вашего домена, которые не прошли проверки SPF или DKIM.
 

@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: bf080fddd7545c4397483c0eba7a010952922e7e
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: 88d92558d86e0aa2e90ef04d88a3cd4676386f15
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956535"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195631"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>Запуск пилотного проекта Microsoft Threat protection 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -57,6 +60,6 @@ ms.locfileid: "47956535"
 | ![Имитация атаки](../../media/mtp/run-sim.png) <br>[Имитация атаки](mtp-pilot-simulate.md) | Чтобы имитировать атаку, необходимо выполнить указанные ниже действия.<br><br>-Проверка требований к тестовой среде <br>Запуск модели <br>— Исследование инцидента <br>— устранение инцидента 
 | ![Заключение и заключение](../../media/mtp/close.png) <br>[Заключение и заключение](mtp-pilot-close.md) | Когда вы достигли конца этого процесса, вы будете участником:<br><br>— Пройти по итоговым выходным данным<br>— Предоставление вашим заинтересованным лицам выходных данных <br>— Оставить отзыв <br>Выполните следующие действия 
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 |![Этап планирования](../../media/mtp/plan.png) <br>[Этап планирования](mtp-pilot-plan.md) | Планирование пилотного проекта Microsoft Threat protection 
 |:-------|:-----|

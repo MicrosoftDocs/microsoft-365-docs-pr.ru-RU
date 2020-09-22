@@ -16,14 +16,17 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать правила для обработки почтовых ящиков (правила транспорта) для идентификации и фильтрации массовой почты (серой почты) в Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62db73ea917139d81a29569d5b452637fd053c92
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: c6a8ad5dd2752f86c0ff9ec96dafe621804b4856
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775199"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197307"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Используйте правила потока почты для фильтрации массовой почты в EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, EOP использует политики защиты от нежелательной почты (также называемые политиками фильтрации нежелательной почты или фильтрами содержимого) для сканирования входящих сообщений для нежелательной почты и массовой почты (также известной как серый Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 

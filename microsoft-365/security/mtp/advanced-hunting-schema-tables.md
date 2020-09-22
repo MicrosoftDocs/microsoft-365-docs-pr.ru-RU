@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d9b5fd9bfe881ec1313afb26da5d19cd96054862
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: f22a046dc5289405aaf59086ed535016cc46bae9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797832"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197671"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -72,7 +75,7 @@ ms.locfileid: "46797832"
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | События электронной почты Microsoft 365, в том числе события доставки и блокировки электронной почты |
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | События безопасности, происходящие после доставки, после того как Microsoft 365 доставляет сообщения в почтовый ящик получателя. |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Сведения об URL-адресах в сообщениях электронной почты |
-| **[идентитидиректоревентс](advanced-hunting-identitydirectoryevents-table.md)** | События, связанные с локальным контроллером домена, на котором работает Active Directory (AD). В этой таблице описываются события, связанные с удостоверениями, а также системные события на контроллере домена. |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | События, связанные с локальным контроллером домена, на котором работает Active Directory (AD). В этой таблице описываются события, связанные с удостоверениями, а также системные события на контроллере домена. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Сведения об учетных записях из различных источников, в том числе Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности в Active Directory и Microsoft Online Services |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Действия запросов, выполняемые для объектов Active Directory, таких как пользователи, группы, устройства и домены |

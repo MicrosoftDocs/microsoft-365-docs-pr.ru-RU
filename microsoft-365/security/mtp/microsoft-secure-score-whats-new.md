@@ -20,14 +20,17 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 8b0fda2d8a0b7d9cb6b2c6a4cca2e8e34a876fec
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: b85b8b801401c7f067de6a8a7d5ea96557225c44
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289427"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196281"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Новые возможности оценки безопасности Майкрософт
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Чтобы сделать Microsoft Secure рейтинг более подходящим для вашей безопасности, мы внесли некоторые изменения. Чтобы узнать о запланированных изменениях, посмотрите, [что поступает в рейтинге безопасности Майкрософт?](microsoft-secure-score-whats-coming.md).
 

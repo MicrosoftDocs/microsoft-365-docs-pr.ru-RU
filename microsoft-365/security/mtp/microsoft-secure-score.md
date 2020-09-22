@@ -20,14 +20,17 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 304967a06c1fec2df6968f12be30ef3001fdb762
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: b378288637baa5b51f74fb63d8c8da33ac5e148f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866875"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196195"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Microsoft Secure Score — это измерение степени безопасности Организации с большим номером, указывающим дополнительные действия по улучшению. Его можно найти https://security.microsoft.com/securescore в [центре безопасности Microsoft 365](overview-security-center.md).
 
@@ -109,7 +112,7 @@ Microsoft Security Score обновил действия по улучшению
 * Администратор службы поддержки
 * Администратор пользователей
 * Администратор служб
-* Читатель сведений о безопасности
+* Читатель безопасности
 * Оператор безопасности
 * Глобальный читатель
 

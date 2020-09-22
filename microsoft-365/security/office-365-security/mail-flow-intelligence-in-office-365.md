@@ -13,14 +13,17 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Администраторы могут узнать о кодах ошибок, связанных с доставкой сообщений с помощью соединителей (также называемых логикой обработки почтового процесса).
-ms.openlocfilehash: e8427f3e0341ccb381121b6cdc83d20727713d4c
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 0d73ea1fe64cda3c3f29f7bd437bba4e93f37529
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307921"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198507"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>Логика обмена корреспонденцией почты в EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или автономной службе Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, обычно используется соединитель для маршрутизации сообщений электронной почты из EOP в локальную среду электронной почты. Вы также можете использовать соединитель для маршрутизации сообщений от Microsoft 365 к партнерской организации. Когда Microsoft 365 не может доставить эти сообщения через соединитель, они помещаются в очередь в Microsoft 365. Microsoft 365 продолжит повторять доставку для каждого сообщения в течение 24 часов. Через 24 часа срок действия сообщения в очереди истечет, и сообщение будет возвращено исходному отправителю в отчете о недоставке (также называемом сообщением о недоставке или сообщении Bounce).
 

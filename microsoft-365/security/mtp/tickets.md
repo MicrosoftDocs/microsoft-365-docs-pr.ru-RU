@@ -19,14 +19,17 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: b9e900baf02e9fc866fe6fe520ad1e40ccd565de
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: ca13234a93ffcc226be45d337880692a3a39c28b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950704"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196123"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Интеграция билетов с ServiceNow в центр безопасности и соответствия требованиям Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 [!include[Prerelease information](../includes/prerelease.md)]
 
@@ -37,7 +40,7 @@ ServiceNow — это популярная платформа облачных �
 - [**Управление билетами ServiceNow в центре безопасности**](tickets-security-center.md)
 - **Управление билетами ServiceNow в центре соответствия требованиям** (ожидается в ближайшее время)
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные требования
 
 Доступ к центру безопасности Microsoft 365 или центру соответствия требованиям и экземпляру ServiceNow с помощью следующих компонентов:  
 

@@ -16,14 +16,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о политиках защиты от фишинга, доступных в Exchange Online Protection (EOP) и Office 365 Advanced Threat protection (Office 365 ATP).
-ms.openlocfilehash: 06307efdc1df03d918e7f0b48c42f6e8ecb1dd79
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 945b346a5ebd4a85776d87c019ee1a06aec73635
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950608"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195919"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Политики для настройки параметров защиты от фишинга доступны в организациях Microsoft 365 с почтовыми ящиками Exchange Online, отдельными организациями Exchange Online Protection (EOP) без почтовых ящиков Exchange Online и организациями Office 365 Advanced Threat protection (Office 365 ATP).
 
@@ -142,10 +145,10 @@ ms.locfileid: "47950608"
 
 Олицетворение отправителя или почтового домена отправителя в сообщении похоже на реальный отправитель или домен:
 
-- Пример олицетворения домена contoso.com — ćóntoso.com.
-- Пример олицетворения пользователя michelle@contoso.com — michele@contoso.com.
+- Пример олицетворения домена contoso.com – ćóntoso.com.
+- Пример олицетворения пользователя michelle@contoso.com – michele@contoso.com.
 
-В противном случае олицетворенный домен может считаться законным (зарегистрированный домен, настроенные записи проверки подлинности электронной почты и т. д.), за исключением того, что децеиве получатели.
+Олицетворенный домен можно считать законным (зарегистрированным доменом, настроенными записями проверки подлинности электронной почты и т. д.), если только он не создан с целью обмана получателей.
 
 Следующие параметры олицетворения доступны только в политиках защиты от фишинга ATP:
 

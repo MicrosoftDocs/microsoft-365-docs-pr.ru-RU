@@ -14,16 +14,19 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Теперь Teams будет иметь доступ к безопасным ссылкам во время щелчка. Если вы используете сеансы разговора 1 — от 1, между группами, в каналах и на вкладках, если у вас есть подписка на Office 365 ATP, вы сможете включить и использовать эту функцию безопасности.
-ms.openlocfilehash: d7586dba86c7ec9f43457b5510a1255e06bb6bf9
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 362fb37b352a77aea07b899b707dbf4ac3d440d5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588280"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198755"
 ---
 <!--06/21/2019-->
 
 # <a name="safe-links-in-teams"></a>Безопасные ссылки в Teams
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > Эта функция доступна в **общедоступной предварительной версии** для клиентов в программе внедрения технологий Microsoft Teams (TAP) на 28 февраля 2020 г. Это примечание будет удалено из статьи, когда безопасные ссылки для Teams более широко доступны.
