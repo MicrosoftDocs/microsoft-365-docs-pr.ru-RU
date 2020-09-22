@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fd8a09ceb32b8ddacea06b4569a2d2a851daaeb2
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 60795815ae68d640eeac4b9bc9f0188c7751aaf9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235208"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201043"
 ---
 # <a name="set-the-time-zone-for-microsoft-threat-protection"></a>Настройка часового пояса для инструмента Защита от угроз (Майкрософт)
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
