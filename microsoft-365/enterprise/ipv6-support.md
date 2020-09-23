@@ -18,16 +18,16 @@ search.appverid:
 - BCS160
 ms.assetid: c08786fb-298e-437c-8222-dab7625fc815
 description: 'Сводка: в этой статье описывается поддержка IPv6 в компонентах Microsoft Office 365 и Office 365 для государственных организаций.'
-ms.openlocfilehash: c4ecd2ef26ecf660eb1d172b1951907724d2238a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f671e8caf868ebbed628a155b73ce6fe413949a9
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693116"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235610"
 ---
 # <a name="ipv6-support-in-office-365-services"></a>Поддержка протокола IPv6 в службах Office 365
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Office 365 поддерживает как IPv6, так и IPv4; Однако не все функции Office 365 полностью включены с IPv6. Это означает, что для подключения к Office 365 необходимо использовать IPv4 и IPv6. Если вы фильтруете исходящий трафик в Office 365, полный список IPv6-адресов, поддерживаемых в Office 365, можно найти в статье [URL-адреса и диапазоны IP-адресов office 365](urls-and-ip-address-ranges.md). После настройки сети и разрешения соответствующих IPv6-адресов можно скачать [план тестирования IPv6 для Office 365](https://go.microsoft.com/fwlink/?LinkId=293447) из центра загрузки Майкрософт.
   
@@ -50,6 +50,10 @@ Office 365 поддерживает как IPv6, так и IPv4; Однако н
 ### <a name="skype-for-business-and-ipv6"></a>Skype для бизнеса и IPv6
 
 Обратите внимание на то, что IPv6 не поддерживается в Skype для бизнеса и больше не может быть включен.
+
+### <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams и IPV6
+
+Маршрутизация Microsoft Teams Direct поддерживает только IPv4. Служба и клиент Microsoft Teams поддерживают как IPv4, так и IPv6. Если требуется управлять связью с Microsoft Teams, используйте диапазоны IP-адресов в URL-адресах [Office 365 и диапазоны IP-адресов](urls-and-ip-address-ranges.md).
   
 ### <a name="exchange-online-protection-and-ipv6"></a>Exchange Online Protection и IPv6
 

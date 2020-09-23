@@ -3,7 +3,7 @@ title: Назначение ролей учетным записям польз�
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,21 +20,21 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: В этой статье рассказывается, как быстро и легко использовать PowerShell для Microsoft 365, чтобы назначать роли учетным записям пользователей.
-ms.openlocfilehash: 4726dcea109490ff28299002bc5263aa15dca949
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9df1b018cf3e89e0afbd5265fdd1ec9f92b34aec
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693000"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235434"
 ---
 # <a name="assign-roles-to-microsoft-365-user-accounts-with-powershell"></a>Назначение ролей учетным записям пользователей Microsoft 365 с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Вы можете быстро и легко назначать роли учетным записям пользователей с помощью PowerShell для Microsoft 365.
 
 >[!Note]
->Чтобы назначить роли учетным записям пользователей с помощью центра администрирования Microsoft 365, ознакомьтесь с приведенными [ниже инструкциями](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
+>[Узнайте, как назначать роли учетным записям пользователей](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) с помощью центра администрирования Microsoft 365. Список дополнительных ресурсов приведен в разделе [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
