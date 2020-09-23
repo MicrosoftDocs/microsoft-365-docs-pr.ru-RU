@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить собственный соединитель для импорта и архивации бизнес-страниц Facebook в Microsoft 365. После импорта этих данных в Microsoft 365 вы можете использовать такие функции обеспечения соответствия, как судебное удержание, поиск контента и политики хранения, для управления управлением данными Facebook Организации.
-ms.openlocfilehash: 240ce3a90cf46a05ab5d6030b9318d42d23904d8
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 065a5c6a1276c1ce37aa48137caf6627e76c8db0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434236"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200864"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Развертывание соединителя для архивации данных бизнес-страниц Facebook
 
@@ -190,7 +190,7 @@ ms.locfileid: "45434236"
 
 1. [https://compliance.microsoft.com](https://compliance.microsoft.com)В левой панели навигации выберите элемент **соединители данных и нажмите кнопку соединители данных** .
 
-2. На странице " **соединители данных (Предварительная версия)** " в разделе **Facebook Business Pages**нажмите кнопку **Просмотр**.
+2. На странице " **соединители данных** " в разделе **Facebook Business Pages**нажмите кнопку **Просмотр**.
 
 3. На странице **Facebook Business Pages** (добавить соединитель) нажмите кнопку **Добавить соединитель**.
 

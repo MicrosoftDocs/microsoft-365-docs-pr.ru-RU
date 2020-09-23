@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: 'Используйте Центр обеспечения безопасности и соответствия требованиям для поиска в едином журнале аудита, чтобы просмотреть активность пользователей и администраторов в вашей организации. '
+description: Используйте Центр обеспечения безопасности и соответствия требованиям для поиска в едином журнале аудита, чтобы просмотреть активность пользователей и администраторов в вашей организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 21a8ea6f930efcd106c541021c9b9bd47af43f23
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 7051e03ca4751d6e97d9af9228765be9e1af6ebe
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547255"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197352"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск по журналу аудита в Центре безопасности и соответствия требованиям
 
@@ -298,19 +298,125 @@ ms.locfileid: "47547255"
 
 Чтобы перейти к определенной таблице, щелкните одну из ссылок.
 
-||||
-|:-----|:-----|:-----|
-|[Действия, связанные с файлами и страницами](#file-and-page-activities)|[Действия, связанные с папками](#folder-activities)|[Действия, связанные со списками SharePoint](#sharepoint-list-activities)|
-|[Действия, связанные с общим доступом и запросами на доступ](#sharing-and-access-request-activities)|[Действия, связанные с синхронизацией](#synchronization-activities)|[Действия, связанные с разрешениями для сайтов](#site-permissions-activities)|
-|[Действия, связанные с администрированием сайта](#site-administration-activities)|[Действия, связанные с почтовыми ящиками Exchange](#exchange-mailbox-activities)|[Действия, связанные с администрированием пользователей](#user-administration-activities)|
-|[Действия, связанные с администрированием групп Azure AD](#azure-ad-group-administration-activities)|[Действия, связанные с администрированием приложений](#application-administration-activities)|[Действия, связанные с администрированием ролей](#role-administration-activities)|
-|[Действия, связанные с администрированием каталогов](#directory-administration-activities)|[Действия, связанные с обнаружением электронных данных](#ediscovery-activities)|[Действия, связанные с Advanced eDiscovery](#advanced-ediscovery-activities)|
-|[Действия, связанные с Power BI](#power-bi-activities)|[Рабочая аналитика (Майкрософт)](#microsoft-workplace-analytics-activities)|[Действия, связанные с Microsoft Teams](#microsoft-teams-activities)|
-|[Действия в сфере здравоохранения, связанные с Microsoft Teams](#microsoft-teams-healthcare-activities)|[Действия, связанные с приложением "Смены" в Microsoft Teams](#microsoft-teams-shifts-activities)|[Действия, связанные с Yammer](#yammer-activities)|
-|[Действия, связанные с Microsoft Power Automate](#microsoft-power-automate-activities)|[Действия, связанные с Microsoft Power Apps](#microsoft-power-apps-activities)|[Действия, связанные с Microsoft Stream](#microsoft-stream-activities)|
-|[Действия, связанные с обозревателем содержимого](#content-explorer-activities)|[Карантинная деятельность](#quarantine-activities)|[Действия Microsoft Forms](#microsoft-forms-activities)|
-|[Действия с метками конфиденциальности](#sensitivity-label-activities)|[Действия, связанные с политикой хранения и метками хранения](#retention-policy-and-retention-label-activities)|[Действия администратора Exchange](#exchange-admin-audit-log)
-|||
+:::row:::
+    :::column:::
+        [Действия, связанные с файлами и страницами](#file-and-page-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с папками](#folder-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные со списками SharePoint](#sharepoint-list-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия, связанные с общим доступом и запросами на доступ](#sharing-and-access-request-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с синхронизацией](#synchronization-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с разрешениями для сайтов](#site-permissions-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия, связанные с администрированием сайта](#site-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с почтовыми ящиками Exchange](#exchange-mailbox-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с администрированием пользователей](#user-administration-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия, связанные с администрированием групп Azure AD](#azure-ad-group-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с администрированием приложений](#application-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с администрированием ролей](#role-administration-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия, связанные с администрированием каталогов](#directory-administration-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с обнаружением электронных данных](#ediscovery-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с Advanced eDiscovery](#advanced-ediscovery-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия, связанные с Power BI](#power-bi-activities)
+    :::column-end:::
+    :::column:::
+        [Рабочая аналитика (Майкрософт)](#microsoft-workplace-analytics-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с Microsoft Teams](#microsoft-teams-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия в сфере здравоохранения, связанные с Microsoft Teams](#microsoft-teams-healthcare-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с приложением "Смены" в Microsoft Teams](#microsoft-teams-shifts-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с Yammer](#yammer-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия, связанные с Microsoft Power Automate](#microsoft-power-automate-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с Microsoft Power Apps](#microsoft-power-apps-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с Microsoft Stream](#microsoft-stream-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия, связанные с обозревателем содержимого](#content-explorer-activities)
+    :::column-end:::
+    :::column:::
+        [Карантинная деятельность](#quarantine-activities)
+    :::column-end:::
+    :::column:::
+        [Действия Microsoft Forms](#microsoft-forms-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Действия с метками конфиденциальности](#sensitivity-label-activities)
+    :::column-end:::
+    :::column:::
+        [Действия, связанные с политикой хранения и метками хранения](#retention-policy-and-retention-label-activities)
+    :::column-end:::
+    :::column:::
+        [Действия администратора Exchange](#exchange-admin-audit-log)
+    :::column-end:::
+:::row-end:::
 
 ### <a name="file-and-page-activities"></a>Действия, связанные с файлами и страницами
 

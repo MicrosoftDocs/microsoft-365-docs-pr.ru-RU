@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: План хранения предоставляет расширенные возможности управления метками хранения.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: a92f835658bdeedbc64d3d4f2349900e30ec6dda
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: c56f71032ccf154e5d9f416b42df1345da03d9a4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47427028"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199020"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>Управление метками хранения с помощью плана хранения
 
@@ -81,6 +81,7 @@ ms.locfileid: "47427028"
 - **Является записью** — указывает, будет ли элемент помечен как запись при применении метки. Допустимые значения:
     - Нет
     - Да
+    - Да (норматив)
 
 - **Период хранения** — определяет период хранения. Допустимые значения:
     - Дни

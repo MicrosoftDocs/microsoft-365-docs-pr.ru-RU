@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 7985d52bcf0cbd4e3e86bc240abb8f692e733743
-ms.sourcegitcommit: 327163f70eac0de568ebe3c9a97a744c3ed408cb
+ms.openlocfilehash: 5d776fcf816359fd30c750b9bebe536269a2b6c5
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177127"
+ms.locfileid: "48208101"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -33,14 +33,6 @@ ms.locfileid: "48177127"
 - Microsoft 365 E3
 - Microsoft 365 E5
 
-Типы конфиденциальной информации можно использовать в:
-- политики защиты от потери данных
-- соответствие требованиям полЦиес
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
-
-  
 ## <a name="aba-routing-number"></a>Номер маршрутизации код банка ABA
 
 ### <a name="format"></a>Format
@@ -2778,7 +2770,7 @@ national id
 
 - National Identification Number 
 - Identity card 
-- ID 
+- Идентификатор 
 - Процедура 
 - Rol Único Nacional 
 - ВЫПОЛНЯЕМ 
@@ -11146,7 +11138,7 @@ national id
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identity card
-- ID
+- Идентификатор
 - Процедура 
    
 ## <a name="south-korea-resident-registration-number"></a>Регистрационный номер резидентной Южной Кореи
@@ -12767,7 +12759,7 @@ OR
 - БИБЛИОТЕК 
 - кдл 
 - кдлс 
-- ID 
+- Идентификатор 
 - Идентификаторы 
 - DL # 
 - БИБЛИОТЕК # 
