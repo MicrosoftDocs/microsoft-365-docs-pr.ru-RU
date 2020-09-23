@@ -17,14 +17,17 @@ search.appverid:
 - MET150
 description: Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c18f50fcad7b934e02c2110fa05196874ab0169a
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 43c98e0b710f5b88c17e089fd974e924728f27f3
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307777"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202679"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Вашей организации необходимо управление сценариями безопасности и соответствия требованиям, которые охватывают все службы Microsoft 365. Также должна быть возможность предоставления необходимых прав администратора соответствующим сотрудникам ИТ-отдела вашей организации. Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
 
@@ -63,7 +66,7 @@ ms.locfileid: "47307777"
 |В этой службе…|Возможности администратора соответствия требованиям|
 |---|---|
 |[**Центр соответствия требованиям Microsoft 365**](https://compliance.microsoft.com/)|Защита данных организации во всех службах Microsoft 365 и управление ими. <br/><br/> Управление оповещениями по соответствию требованиям.|
-|[**Рейтинг соответствия требованиям**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|Отслеживание, назначение и проверка деятельности организации на соответствие требованиям.|
+|[**Диспетчер соответствия требованиям**](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)|Отслеживание, назначение и проверка деятельности организации на соответствие требованиям.|
 |[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Управление данными. <br/><br/> Выполнение юридического расследования и анализа данных. <br/><br/> Управление запросом субъекта данных.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр всех данных проверки Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Разрешения только для чтения; возможность управления оповещениями. <br/><br/> Возможность создания и изменения файловых политик, а также предоставления разрешения на управление файлом. <br/><br/> Возможность просмотра всех встроенных отчетов в разделе "Управление данными".|
@@ -71,14 +74,14 @@ ms.locfileid: "47307777"
 
 ### <a name="compliance-data-administrator"></a>Администратор данных соответствия требованиям
 
-Пользователи с этой ролью имеют разрешения на защиту и отслеживание данных в Центре соответствия требованиям Microsoft 365, Центре администрирования Microsoft 365 и Azure. Пользователи также могут управлять всеми функциями в Центре администрирования Exchange, рейтинге соответствия требованиям и Центре администрирования Teams и Skype для бизнеса, а также создавать запросы в службу поддержки для Azure и Microsoft 365.
+Пользователи с этой ролью имеют разрешения на защиту и отслеживание данных в Центре соответствия требованиям Microsoft 365, Центре администрирования Microsoft 365 и Azure. Пользователи также могут управлять всеми функциями в Центре администрирования Exchange, диспетчере соответствия требованиям и Центре администрирования Teams и Skype для бизнеса, а также создавать запросы в службу поддержки для Azure и Microsoft 365.
 
 ****
 
 |В этой службе…|Возможности администратора данных соответствия требованиям|
 |---|---|
 |[**Центр соответствия требованиям Microsoft 365**](https://compliance.microsoft.com/)|Защита данных организации во всех службах Microsoft 365 и управление ими. <br/><br/> Управление оповещениями по соответствию требованиям. <br/><br/> Управление метками конфиденциальности|
-|[**Рейтинг соответствия требованиям**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|Отслеживание, назначение и проверка деятельности организации на соответствие требованиям.|
+|[**Диспетчер соответствия требованиям**](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)|Отслеживание, назначение и проверка деятельности организации на соответствие требованиям.|
 |[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Управление данными. <br/><br/> Выполнение юридического расследования и анализа данных. <br/><br/> Управление запросом субъекта данных. <br/><br/> Управление метками конфиденциальности|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control) (ожидается в ближайшее время)|Просмотр всех данных проверки Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Использование разрешений только для чтения с целью просмотра информации. <br/>Управление оповещениями. <br/><br/> Создание и изменение файловых политик, а также предоставление разрешения на управление файлом. <br/><br/> Просмотр всех встроенных отчетов в разделе "Управление данными".|
@@ -173,7 +176,7 @@ ms.locfileid: "47307777"
 |Azure Active Directory (Azure AD) и защита идентификации Azure Active Directory|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Расширенная защита от угроз Azure|[Группы ролей Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Рейтинг соответствия требованиям|[Роли рейтинга соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-setup#set-user-permissions-and-assign-roles)|
+|Диспетчер соответствия требованиям|[Диспетчер соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-setup#set-user-permissions-and-assign-roles)|
 |Exchange Online|[Управлении доступом на основе ролей в Exchange](https://docs.microsoft.com/exchange/understanding-role-based-access-control-exchange-2013-help)|
 |Intune|[Управление доступом на основе ролей в Intune](https://docs.microsoft.com/intune/role-based-access-control)|
 |Управляемые компьютеры|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|

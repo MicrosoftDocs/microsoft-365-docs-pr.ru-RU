@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5680cc1bf8f3a0290f82baaccea1de7b982317a7
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 4ca7654482251d86c44a3956c71f704a0cc3f2d4
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416421"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208621"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Политика безопасности преступных информационных служб (CJIS)
 
@@ -43,7 +43,7 @@ ms.locfileid: "47416421"
 
 Узнайте, как ускорить политику безопасности CJIS с помощью плана безопасности и соответствия требованиям Azure: [Скачайте рекомендации по реализации CJIS для облачных служб Microsoft для государственных организаций](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных учреждений США](https://aka.ms/d365-compliance-list)
@@ -77,6 +77,10 @@ ms.locfileid: "47416421"
 **Где можно начать с соблюдением требований по обеспечению соответствия моему органу?**
 
 [Политика безопасности CJIS](https://aka.ms/cjis-security-policy) содержит меры предосторожности, которые должен предпринять ваше агентство для защиты кжи. Кроме того, ваш представитель учетной записи Майкрософт может приобщаться к вам, знакомым с требованиями вашей юрисдикции.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
+
+[Диспетчер соответствия требованиям (Майкрософт](compliance-manager.md) ) — это функция в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам оценить уровень соответствия требованиям организации и предпринять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет расширенный шаблон для создания оценки этих нормативных требований. Найдите шаблон на странице " **шаблоны оценки** " в диспетчере соответствия требованиям. Узнайте, как [создавать оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

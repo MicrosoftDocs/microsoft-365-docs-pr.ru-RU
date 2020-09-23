@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bd91e2439b501a20396763358f35a94aa31b4672
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: c0abd8db3084630a6f848f740f5b1387dc58b704
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417237"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208191"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Правила для ценных бумаг и Комиссии Exchange (с) правило 17A-4 (f), Соединенные Штаты
 
@@ -42,7 +42,7 @@ ms.locfileid: "47417237"
 - **Azure**: [SEC 17A-4 (f) Оценка соответствия требованиям: служба хранилища Microsoft Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), Кохассет проверила, что [неизменное хранилище больших двоичных объектов Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) с параметром Lock политики, при использовании для хранения больших двоичных объектов на основе времени в неудаляемом и неизменяемом (Worm) формате, соответствует неизменяемым требованиям к хранению правила sec. Каждый BLOB-объект (запись) защищен от изменений, перезаписывается или удаляется до истечения срока действия требуемого периода хранения и освобождения всех связанных юридических удержаний. Поставщики программного обеспечения и партнеры с конфиденциальными рабочими нагрузками теперь могут полагаться на неизменное хранилище больших двоичных объектов Azure в качестве облачного решения онестоп для хранения записей и неизменяемого хранилища. Теперь финансовые учреждения могут создавать собственные приложения, используя преимущества этих функций, в то же время обеспечивая их соответствие требованиям.
 - **Office 365**: [Используйте Exchange Online для согласования с 17A-4](https://docs.microsoft.com/office365/securitycompliance/use-exchange-online-to-comply-with-sec-rule-17a-4), Кохассет проверено [, что Office 365 с блокировкой сохранения](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) включает функции архивации, которые позволяют поднадзорным клиентам, в том числе брокерам брокера, хранить данные способом, которые помогают им соответствовать требованиям к хранению записей. Политики хранения в Office 365 помогают сохранить широкий спектр данных, в том числе электронную почту, голосовую почту, Общие документы, мгновенные сообщения и сторонние данные. В частности, архивация в Office 365 позволяет клиентам задавать глобальные политики хранения сообщений для хранения данных за определенный период, а не в неизменяемом формате без удаления.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
@@ -70,6 +70,10 @@ ms.locfileid: "47417237"
 ### <a name="financial-use-cases"></a>Финансовые варианты использования
 
 Используйте обзоры вариантов, учебные пособия и другие ресурсы для создания решений Azure для финансовых служб. [Подробнее](https://docs.microsoft.com/azure/industry/financial/)
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
+
+[Диспетчер соответствия требованиям (Майкрософт](compliance-manager.md) ) — это функция в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам оценить уровень соответствия требованиям организации и предпринять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет расширенный шаблон для создания оценки этих нормативных требований. Найдите шаблон на странице " **шаблоны оценки** " в диспетчере соответствия требованиям. Узнайте, как [создавать оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

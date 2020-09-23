@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cbf8b04fe4e3d301d3ee79c09895093f97c2e785
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 89f7e0ca95144e783b70e23c21008dcc46328522
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417353"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208461"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>Права на образованию семьи и заявление о конфиденциальности (ФЕРПА)
 
@@ -41,7 +41,7 @@ ms.locfileid: "47417353"
 
 В результате этих договорных обязательств клиенты, которые подчиняются ФЕРПА — как образовательные учреждения, так и сторонние лица, которым предоставлен доступ к данным с конфиденциальными студентами, могут уверенно использовать в области облачные службы Microsoft Business для обработки, хранения и передачи этих данных.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 Службы, для которых корпорация Майкрософт соглашается назначить официальным официальным учениям в данных клиентов, включают:
 
@@ -67,6 +67,10 @@ ms.locfileid: "47417353"
 
 - [Федеральный регистр: ФЕРПА итоговое правило](https://aka.ms/ferpa-reg) (Декабрь 2011 г.)
 - [Общие рекомендации по ФЕРПА для родителей](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/parents.html)
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
+
+[Диспетчер соответствия требованиям (Майкрософт](compliance-manager.md) ) — это функция в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам оценить уровень соответствия требованиям организации и предпринять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет расширенный шаблон для создания оценки этих нормативных требований. Найдите шаблон на странице " **шаблоны оценки** " в диспетчере соответствия требованиям. Узнайте, как [создавать оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

@@ -498,6 +498,8 @@
               href: ./office-365-security/attack-simulator.md
             - name: Безопасные документы в Office 365 ATP
               href: ./office-365-security/safe-docs.md
+            - name: Теги пользователя в Office 365 ATP
+              href: ./office-365-security/user-tags.md
             - name: Обозреватель угроз (и обнаружение в режиме реального времени)
               href: ./office-365-security/threat-explorer.md
               items:

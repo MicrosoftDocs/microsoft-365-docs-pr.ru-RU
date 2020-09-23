@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bb1452bc0f33b56cd9fee6bb4846a8e623c0b96a
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 37da9f692b3556bf887d742ece3b99cdc1da60a2
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416853"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208411"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -51,7 +51,7 @@ ms.locfileid: "47416853"
 
 Чтобы узнать, как Microsoft Cloud помогает клиентам поддерживать требования закона об HIPAA и HITECH, посетите [материалы клиентов корпорации Майкрософт](https://customers.microsoft.com).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
@@ -59,7 +59,7 @@ ms.locfileid: "47416853"
 - Microsoft Stream
 - Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для среднего бизнеса и корпоративных клиентов с Microsoft 365 для бизнеса
 - [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
-- Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Intune
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
@@ -102,9 +102,9 @@ ms.locfileid: "47416853"
 - [Практическое руководство по проектированию безопасных решений с использованием Microsoft Azure](https://aka.ms/azureindustrysecurity) помогает лучше понять, что необходимо для успешного внедрения облачной службы в безопасном режиме.
 - Решение [требований к безопасности и конфиденциальности HIPAA в Microsoft Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) предоставляет краткий обзор требований к регулированию. Кроме того, он предоставляет подробные сведения о том, как облачные службы Майкрософт были построены с помощью методологий, соответствующих этим требованиям, и рекомендации по созданию решений, готовых к соответствию требованиям.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
 
-[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)выберите предварительно настроенный [шаблон HIPAA Office 365](https://go.microsoft.com/fwlink/?linkid=2118005) и [шаблон "HIPAA Intune](https://go.microsoft.com/fwlink/?linkid=2118006) " в раскрывающемся меню **шаблон** , чтобы помочь Организации удовлетворить требования, предъявляемые к этому нормативу.
+[Диспетчер соответствия требованиям (Майкрософт](compliance-manager.md) ) — это функция в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам оценить уровень соответствия требованиям организации и предпринять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет расширенный шаблон для создания оценки этих нормативных требований. Найдите шаблон на странице " **шаблоны оценки** " в диспетчере соответствия требованиям. Узнайте, как [создавать оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

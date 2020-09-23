@@ -11,16 +11,15 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить соединитель для импорта и архивирования данных из Глобанет FX Connect в Microsoft 365. Этот соединитель позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как судебное хранение, поиск контента и политики хранения для управления сторонними данными Организации.
-ms.openlocfilehash: d22313ab1de1700c14ee4b35f6a0e3dbcae73ae3
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: e56c0bc1ab16d9790e56bf0baf054057121ff94c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405590"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197250"
 ---
-# <a name="set-up-a-connector-to-archive-fx-connect-data-preview"></a>Настройка соединителя для архивации данных FX Connect (Предварительная версия)
+# <a name="set-up-a-connector-to-archive-fx-connect-data"></a>Настройка соединителя для архивации данных FX Connect
 
 Используйте соединитель Глобанет в центре соответствия требованиям Microsoft 365 для импорта и архивирования данных из платформы FX Connect Collaboration для почтовых ящиков пользователей в организации Microsoft 365. Глобанет предоставляет соединитель [FX Connect](https://globanet.com/fx-connect/) , настроенный для захвата элементов FX Connect и импорта этих элементов в Microsoft 365. Соединитель преобразует содержимое из FX Connect, например, руки, сообщения и другие сведения из учетной записи FX Connect вашей организации, в формат электронного сообщения, а затем импортирует эти элементы в почтовый ящик пользователя в Microsoft 365.
 
@@ -90,4 +89,4 @@ ms.locfileid: "47405590"
 
 ## <a name="known-issues"></a>Известные проблемы
 
-- В настоящее время мы не поддерживаем импорт вложений размером более 10 МБ, но поддержка более крупных элементов будет доступна позже.
+- В настоящее время импорт вложений или элементов, размер которых превышает 10 МБ, не поддерживается. Поддержка элементов с большим сроком действия будет доступна позже.
