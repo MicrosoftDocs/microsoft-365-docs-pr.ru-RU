@@ -14,7 +14,9 @@
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: "Планирование безопасности и соответствия требованиям в Office\_365"
       href: plan-for-security-and-compliance.md
-- name: 'Управление рисками, связанными с инсайдерами'
+    - name: Расширяемость соответствия требованиям
+      href: compliance-extensibility.md
+- name: Управление внутренними рисками
   items:
     - name: 'Управление рисками, связанными с инсайдерами'
       items:
@@ -258,6 +260,8 @@
               href: retention-policies-sharepoint.md
             - name: Хранение в Microsoft Teams
               href: retention-policies-teams.md
+            - name: Хранение в Yammer
+              href: retention-policies-yammer.md
             - name: Хранение в Exchange
               href: retention-policies-exchange.md
         - name: Начало работы с хранением
@@ -310,8 +314,52 @@
               href: archive-instant-bloomberg-data.md
             - name: LinkedIn
               href: archive-linkedin-data.md
+            - name: Данные физического применения бейджей
+              href: import-physical-badging-data.md
             - name: Twitter
               href: archive-twitter-data-with-sample-connector.md
+        - name: Соединители данных Globanet
+          items:
+            - name: EML
+              href: archive-eml-data.md
+            - name: FX Connect
+              href: archive-fxconnect-data.md
+            - name: Reuters Eikon
+              href: archive-reuterseikon-data.md
+            - name: Slack
+              href: archive-slack-data.md
+            - name: Symphony
+              href: archive-symphony-data.md
+            - name: Text-delimited
+              href: archive-text-delimited-data.md
+            - name: Webex Teams
+              href: archive-webexteams-data.md
+            - name: Workplace from Facebook
+              href: archive-workplacefromfacebook-data.md
+            - name: Zoom Meetings
+              href: archive-zoommeetings-data.md
+            - name: Slack
+              href: archive-slack-data.md
+            - name: Zoom Meetings
+              href: archive-zoommeetings-data.md
+        - name: Соединители данных TeleMessage
+          items:
+            - name: Android
+              href: archive-android-archiver-data.md
+            - name: AT&T Network
+              href: archive-att-network-archiver-data.md
+            - name: Bell Network
+              href: archive-bell-network-data.md
+            - name: Enterprise Number
+              href: archive-enterprise-number-data.md
+            - name: O2 Network
+              href: archive-o2-network-data.md
+            - name: TELUS Network
+              href: archive-telus-network-data.md
+            - name: Verizon Network
+              href: archive-verizon-network-data.md
+            - name: WhatsApp
+              href: archive-whatsapp-data.md
         - name: Архивация сторонних данных при помощи партнера
           href: work-with-partner-to-archive-third-party-data.md
         - name: Поиск сторонних данных
@@ -794,31 +842,30 @@
       href: alert-policies.md
 - name: 'Управление рисками, связанными с соответствием требованиям'
   items:
+    - name: Диспетчер соответствия требованиям
+      items:
+        - name: Сведения о диспетчере соответствия требованиям
+          href: compliance-manager.md
+        - name: Быстрое начало работы с диспетчером соответствия требованиям
+          href: compliance-manager-quickstart.md
+        - name: Начало работы с диспетчером соответствия требованиям
+          href: compliance-manager-setup.md
+        - name: Создание оценок и управление ими
+          href: compliance-manager-assessments.md
+        - name: Работа с шаблонами оценки
+          href: compliance-manager-templates.md
+        - name: Список шаблонов диспетчера соответствия требованиям
+          href: compliance-manager-templates-list.md
+        - name: Назначение и выполнение действий по улучшению
+          href: compliance-manager-improvement-actions.md
+        - name: Способ вычисления рейтинга соответствия требованиям
+          href: compliance-score-calculation.md
+        - name: Вопросы и ответы
+          href: compliance-manager-faq.md
+        - name: Диспетчер соответствия требованиям (классический)
+          href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Microsoft Service Trust Portal
       href: get-started-with-service-trust-portal.md
-    - name: Рейтинг соответствия требованиям и диспетчер соответствия требованиям (предварительная версия)
-      items:
-        - name: Рейтинг соответствия требованиям (предварительная версия)
-          href: compliance-score.md
-        - name: Настройка рейтинга соответствия требованиям
-          href: compliance-score-setup.md
-        - name: Настройка рейтинга соответствия требованиям с оценками
-          href: compliance-score-assessments.md
-        - name: Назначение и выполнение работы с действиями по улучшению
-          href: compliance-score-improvement-actions.md
-        - name: Способ вычисления рейтинга
-          href: compliance-score-methodology.md
-        - name: Вопросы и ответы
-          href: compliance-score-faq.md
-        - name: Диспетчер соответствия требованиям (предварительная версия)
-          href: compliance-manager-overview.md
-          items:
-            - name: Что изменилось в диспетчере соответствия требованиям (предварительная версия)
-              href: compliance-manager-release-notes.md
-            - name: Работа с диспетчером соответствия требованиям (предварительная версия)
-              href: working-with-compliance-manager.md
-            - name: Диспетчер соответствия требованиям (классический)
-              href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Средство запросов субъектов данных GDPR
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
     - name: "Защита информации в Office\_365 в соответствии с регламентом GDPR"

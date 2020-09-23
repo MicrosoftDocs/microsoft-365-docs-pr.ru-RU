@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: c54d491aa240154a2ea654661c7cf8c55faae2e8
-  ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+  ms.openlocfilehash: 099b9b21e133ce3c9ffc708bb242c9f2603fd520
+  ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/29/2020
-  ms.locfileid: "47307469"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "48195479"
 productDirectory:
   title: Безопасная удаленная работа с помощью Microsoft 365 бизнес премиум
   items:
@@ -33,9 +33,9 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
     summary: Теперь план Azure AD Premium P1 включен в Microsoft 365 бизнес премиум!
     url: https://aka.ms/aadp1smbblog
-  - title: Присоединяйтесь к вебинару партнера — получение прибыли и снижение риска в мире удаленной работы!
+  - title: Просмотрите вебинар партнера
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: 19 августа, 20:00 — 21:00 (Тихоокеанское время).
+    summary: Получение прибыли и снижение риска в мире удаленной работы!
     url: https://aka.ms/GrowwithMicrosoft365
 conceptualContent:
   items:
