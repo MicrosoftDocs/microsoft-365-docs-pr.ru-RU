@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 5d776fcf816359fd30c750b9bebe536269a2b6c5
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 8ee871ccde30d3ab71dbcb2d5183aafdf11482bd
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208101"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235575"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -206,6 +206,13 @@ ms.locfileid: "48208101"
 - иаеа
 
 ## <a name="australia-business-number"></a>Бизнес-номер Австралии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
+
 
 ### <a name="format"></a>Format
 
@@ -261,6 +268,12 @@ ms.locfileid: "48208101"
 - бусинессно #
 
 ## <a name="australia-company-number"></a>Номер компании Австралии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -689,6 +702,12 @@ OR
 - фухрерсчеин Републик остерреич
 
 ## <a name="austria-identity-card"></a>Австрийская идентификационная карточка
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -762,20 +781,38 @@ national id
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_austria_eu_passport_number" />
-          <Match idRef="Keywords_austria_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_austria_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_austria_eu_passport_number"></a>Keywords_austria_eu_passport_number
 
-- passport number
-- Австрийский номер паспорта
-- паспорт нет
-- реисепасс
-- öстерреичисч реисепасс
+- реисепасснуммер
+- реисепассе
+- Нет — Реисепасс 
+- НР — Реисепасс
+- Реисепасс — НР
+- пасснуммер
+- реисепäссе
 
 ## <a name="austria-social-security-number-or-equivalent-identification"></a>Австрийский номер социального страхования или эквивалентная идентификация
 Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
@@ -906,6 +943,12 @@ national id
 - Налоговый номер
  
 ## <a name="austria-value-added-tax"></a>Налог на добавленную стоимость (Австрия)
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -1626,23 +1669,42 @@ national id
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
-          <IdMatch idRef="Regex_belgium__eu_passport_number" />
-          <Match idRef="Keywords_belgium_eu_passport_number" />
+          <IdMatch idRef="Regex_belgium_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_belgium_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_belgium_eu_passport_number"></a>Keywords_belgium_eu_passport_number
 
-- passport number
-- Бельгийский номер паспорта
-- паспорт нет
-- паспурт
+- нумéро пассепорт
+- паспурт НР
+- паспурт — НР
 - паспуртнуммер
+- паспуртнуммерс
+- Корзина пассепорт
+- Пассепорт ливре
+- Pass — НР
+- пасснуммер
 - реисепасс Кеин
-- реисепасс
 
 ## <a name="belgium-social-security-number-or-equivalent-identification"></a>Бельгийский номер социального страхования или идентификатор эквивалентной идентификации
 Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
@@ -1706,6 +1768,12 @@ national id
 
 
 ## <a name="belgium-value-added-tax-number"></a>Налоговый номер добавленной стоимости (Бельгия)
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -2022,6 +2090,12 @@ Registro de identidade (RIC) (новый формат):
 
 
 ## <a name="bulgaria-uniform-civil-number"></a>Номер унифицированного гражданства Болгария
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -2136,26 +2210,40 @@ national id
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_bulgaria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_bulgaria_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_bulgaria_eu_passport_number` или `Keywords_eu_passport_number_common` . 
 
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_bulgaria_eu_passport_number" />
-          <Match idRef="Keywords_bulgaria_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_bulgaria_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_bulgaria_eu_passport_number"></a>Keywords_bulgaria_eu_passport_number
 
-- passport number
-- номер паспорта для болгарского языка
-- паспорт нет
 - номер на паспорта
-
+- номер на паспорт
+- паспорт нет
 
 ## <a name="canada-bank-account-number"></a>Номер банковского счета для Канады
 
@@ -3346,26 +3434,40 @@ número do cartão
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_croatia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_croatia_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_croatia_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_croatia_eu_passport_number" />
-          <Match idRef="Keywords_croatia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_croatia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_croatia_eu_passport_number"></a>Keywords_croatia_eu_passport_number
 
-- passport number
-- номер паспорта для хорватского языка
-- паспорт нет
 - Брож путовнице
-
+- br. путовнице
+- br путовнице
    
 ## <a name="croatia-personal-identification-oib-number"></a>Номер личного кода (OIB), Хорватия
 
@@ -3553,6 +3655,12 @@ número do cartão
 
 
 ## <a name="cyprus-identity-card"></a>Идентификационная карточка Кипр
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -3613,29 +3721,57 @@ número do cartão
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_cyprus_eu_passport_number` находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово FROM  `Keywords_cyprus_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_cyprus_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_cyprus_eu_passport_number" />
-          <Match idRef="Keywords_cyprus_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_cyprus_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_cyprus_eu_passport_number"></a>Keywords_cyprus_eu_passport_number
 
-- passport number
-- номер паспорта для Кипр
-- паспорт нет
 - αριθμό διαβατηρίου
-
+- пасапорту
+- Αριθμός Διαβατηρίου
+- κυπριακό διαβατήριο
+- διαβατήριο #
+- διαβατήριο
+- αριθμός διαβατηρίου
+- Пасапорт Кимлиğи
+- пасапорт нумарасı
+- Пасапорт но.
+- Αρ. διαβατηρίου
 
 ## <a name="cyprus-tax-identification-number"></a>Идентификационный номер налогоплательщика (Кипр)
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -3782,27 +3918,43 @@ número do cartão
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_czech_republic_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_czech_republic_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_czech_republic_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_czech_republic_eu_passport_number" />
-          <Match idRef="Keywords_czech_republic_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_czech_republic_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_czech_republic_eu_passport_number"></a>Keywords_czech_republic_eu_passport_number
 
-- passport number
-- номер паспорта для чешского языка
-- паспорт нет
 - цестовнí PAS
-- соответствующий
+- číсло Пасу
+- цестовнí Пасу
+- пассепорт нет
+- číсла Пасу
 
 
 ## <a name="czech-personal-identity-number"></a>Номер личного удостоверения для чешского языка
@@ -4039,31 +4191,44 @@ número do cartão
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_denmark_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_denmark_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_denmark_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_denmark_eu_passport_number" />
-          <Match idRef="Keywords_denmark_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_denmark_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_denmark_eu_passport_number"></a>Keywords_denmark_eu_passport_number
 
-- passport number
-- номер паспорта для датского языка
-- паспорт нет
-- соответствующий
 - паснуммер
+- Пассепорт n °
+- паснумре
 
 
 ## <a name="denmark-personal-identification-number"></a>Личный идентификационный номер для Дании
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации страны ЕС и доступен как отдельный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -4332,6 +4497,12 @@ número do cartão
 
 
 ## <a name="estonia-personal-identification-code"></a>Эстонии персональный идентификационный код
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -4432,26 +4603,39 @@ número do cartão
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_estonia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_estonia_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_estonia_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_estonia_eu_passport_number" />
-          <Match idRef="Keywords_estonia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_estonia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_estonia_eu_passport_number"></a>Keywords_estonia_eu_passport_number
 
-- passport number
-- номер паспорта для Эстонии
-- паспорт нет
-- Исти коданику Pass
+Исти коданику Pass Пасси номер пассинумбрид документа номер документа No докуменди НР
 
 ## <a name="eu-debit-card-number"></a>Номер дебетовой карты ЕС
 
@@ -5012,6 +5196,12 @@ número do cartão
 
 
 ## <a name="finland-european-health-insurance-number"></a>Номер страховки для Финляндии (Европейский)
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -5180,22 +5370,44 @@ número do cartão
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_finland_passport_number находит содержимое, которое соответствует шаблону;
-- находится ключевое слово из Keyword_finland_passport_number.
+- Найдено ключевое слово из Keywords_eu_passport_number_common или Keyword_finland_passport_number.
 
 ```xml
 <!-- Finland Passport Number -->
 <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300">
-  <Pattern confidenceLevel="75">
-     <IdMatch idRef="Regex_finland_passport_number"/>
-     <Match idRef="Keyword_finland_passport_number"/>
-  </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_finland_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keyword_finland_passport_number" />
+          </Any>
+        </Pattern>
 </Entity>
 ```
 ### <a name="keywords"></a>Ключевые слова
 
-- Keyword_finland_passport_number
-- Службу
-- пасси
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
+#### <a name="keyword_finland_passport_number"></a>Keyword_finland_passport_number
+
+- суомалаинен Пасси
+- транзитный нумеро
+- Pass Нумеро. #
+- транзитный нумеро #
+- Pass Нумеро.
+- пасси #
+- номер Пасси
 
 
 ## <a name="finland-social-security-number-or-equivalent-identification"></a>Номер социального страхования для Финляндии или эквивалентная идентификация
@@ -5322,6 +5534,12 @@ número do cartão
 
 
 ## <a name="france-health-insurance-number"></a>Номер страховки для Франции
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -5626,6 +5844,12 @@ número do cartão
 
 
 ## <a name="france-value-added-tax-number"></a>Значение налогового номера, добавленного в Франции
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -5909,68 +6133,41 @@ número do cartão
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_german_passport находит содержимое, которое соответствует шаблону;
-- находится любое ключевое слово из пяти соответствующих списков;
-- контрольная сумма проходит проверку.
+- Найдено ключевое слово FROM `Keyword_german_passport` .
+- Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_german_passport_data находит содержимое, которое соответствует шаблону;
-- находится любое ключевое слово из пяти соответствующих списков;
-- контрольная сумма проходит проверку.
+- Найдено ключевое слово FROM `Keyword_german_passport` .
+- Контрольная сумма проходит проверку.
 
 ```xml
-<!-- Germany Passport Number -->
-<Entity id="2e3da144-d42b-47ed-b123-fbf78604e52c" patternsProximity="300" recommendedConfidence="75">
-  <Pattern confidenceLevel="85">
+    <!-- German Passport Number -->
+    <Entity id="2e3da144-d42b-47ed-b123-fbf78604e52c" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_german_passport" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_german_passport" />
-          <Match idRef="Keyword_german_passport_collaborative" />
-          <Match idRef="Keyword_german_passport_number" />
-          <Match idRef="Keyword_german_passport1" />
-          <Match idRef="Keyword_german_passport2" />
-        </Any>
-  </Pattern>
-  <Pattern confidenceLevel="75">
+        <Match idRef="Keyword_german_passport" />
+      </Pattern>
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_german_passport_data" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_german_passport" />
-          <Match idRef="Keyword_german_passport_collaborative" />
-          <Match idRef="Keyword_german_passport_number" />
-          <Match idRef="Keyword_german_passport1" />
-          <Match idRef="Keyword_german_passport2" />
-        </Any>
-  </Pattern>
-</Entity>
+        <Match idRef="Keyword_german_passport" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
 #### <a name="keyword_german_passport"></a>Keyword_german_passport
 
-- реисепасс
 - реисепассе
 - реисепасснуммер
-- службу
-- паспорты
-
-#### <a name="keyword_german_passport_collaborative"></a>Keyword_german_passport_collaborative
-
-- жебуртсдатум
-- аусстеллунгсдатум
-- аусстеллунгсорт
-
-#### <a name="keyword_german_passport_number"></a>Keyword_german_passport_number
-
-No — Реисепасс НР — Реисепасс
-
-#### <a name="keyword_german_passport1"></a>Keyword_german_passport1
-
-Реисепасс — НР
-
-#### <a name="keyword_german_passport2"></a>Keyword_german_passport2
-
-бнатионалит. t
-
+- Нет — Реисепасс 
+- НР — Реисепасс
+- Реисепасс — НР
+- пасснуммер
+- реисепäссе
+- пассепорт но.
+- пассепорт нет
 
 ## <a name="germany-tax-identification-number"></a>Идентификационный номер налогоплательщика (Германия)
 
@@ -6048,6 +6245,12 @@ No — Реисепасс НР — Реисепасс
 
 
 ## <a name="germany-value-added-tax-number"></a>Значение налогового номера добавленного в Германии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -6234,28 +6437,49 @@ No — Реисепасс НР — Реисепасс
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_greece_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_greece_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_greece_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_greece_eu_passport_number" />
-          <Match idRef="Keywords_greece_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_greece_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_greece_eu_passport_number"></a>Keywords_greece_eu_passport_number
 
-- passport number
-- номер паспорта греческого алфавита
-- паспорт нет
-- διαβατηριο
+- αριθμός διαβατηρίου
+- αριθμούς διαβατηρίου
+- αριθμός διαβατηριο
 
 ## <a name="greece-tax-identification-number"></a>Идентификационный номер налога в Греция
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -6459,6 +6683,12 @@ No — Реисепасс НР — Реисепасс
 
 
 ## <a name="hungary-personal-identification-number"></a>Венгрия персональный идентификационный номер
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -6540,26 +6770,40 @@ No — Реисепасс НР — Реисепасс
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_hungary_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_hungary_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_hungary_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_hungary_eu_passport_number" />
-          <Match idRef="Keywords_hungary_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_hungary_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_hungary_eu_passport_number"></a>Keywords_hungary_eu_passport_number
 
-- passport number
-- Венгерский номер паспорта
-- паспорт нет
 - úтлевéл сзáма
-
+- Úтлевелек сзáма
+- úтлевéл сзáм
 
 ## <a name="hungary-social-security-number-or-equivalent-identification"></a>Венгерский номер социального страхования или идентификация эквивалентных прав
 
@@ -6625,6 +6869,12 @@ No — Реисепасс НР — Реисепасс
 
 
 ## <a name="hungary-tax-identification-number"></a>Идентификационный номер венгерского налога
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -6701,6 +6951,12 @@ No — Реисепасс НР — Реисепасс
 
 
 ## <a name="hungary-value-added-tax-number"></a>Венгерский номер добавленного значения налога
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -7166,29 +7422,45 @@ Dictionary
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_ireland_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_ireland_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_ireland_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_ireland_eu_passport_number" />
-          <Match idRef="Keywords_ireland_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_ireland_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_ireland_eu_passport_number"></a>Keywords_ireland_eu_passport_number
 
-- passport number
-- Ирландский номер паспорта
-- паспорт нет
-- соответствующий
-- службу
-- пассепорт
 - пассепорт нумеро
+- уимхреача пасанна
+- уимхир PAS
+- уимхир ФАС
+- уимхреача PAS
+- уимхир кáрта
+- уимхир чáрта
 
 ## <a name="ireland-personal-public-service-pps-number"></a>Номер личной общедоступной службы (PPS) Ирландии
 
@@ -7423,6 +7695,12 @@ Dictionary
 - patente di guida 
 
 ## <a name="italy-fiscal-code"></a>Финансовый код Италии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -7526,34 +7804,53 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_italy_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_italy_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_italy_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_italy_eu_passport_number" />
-          <Match idRef="Keywords_italy_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_italy_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_italy_eu_passport_number"></a>Keywords_italy_eu_passport_number
 
-- номер паспорта для итальянского языка
-- Репубблика итальянский пассапорто
-- пассапорто
+- Итальянский пассапорто
 - пассапорто итальянский
-- passport number
-- Итальянский пассапорто нумеро
 - пассапорто нумеро
-- нумéро пассепорт италиен
 - нумéро пассепорт
-
+- Нумеро di пассапорто
+- нумери del пассапорто
+- пассепорт италиен
 
 ## <a name="italy-value-added-tax-number"></a>Налоговый номер добавленной стоимости (Италия)
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -7782,6 +8079,12 @@ Dictionary
 
 
 ## <a name="japan-my-number---corporate"></a>Мой номер для Японии — корпоративный
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -7837,6 +8140,12 @@ Dictionary
 
 
 ## <a name="japan-my-number---personal"></a>Япония мой номер — личное
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -8285,27 +8594,44 @@ registration number
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_latvia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_latvia_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_latvia_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_latvia_eu_passport_number" />
-          <Match idRef="Keywords_latvia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_latvia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_latvia_eu_passport_number"></a>Keywords_latvia_eu_passport_number
 
-- passport number
-- номер паспорта для Латвии
-- паспорт нет
-- ПАСЕ нумурс    
-
+- ПАСЕ нумурс
+- ПАСЕ нумур
+- ПАСЕС нумури
+- ПАСЕС НР
+- пассепорт нет
+- n ° du Пассепорт
 
 ## <a name="lithuania-drivers-license-number"></a>Литва номер водительского удостоверения
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
@@ -8357,6 +8683,12 @@ registration number
 - ваируотожо паžимėжимас
 
 ## <a name="lithuania-personal-code"></a>Литва персональный код
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -8458,27 +8790,41 @@ registration number
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_lithuania_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_lithuania_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_lithuania_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_lithuania_eu_passport_number" />
-          <Match idRef="Keywords_lithuania_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_lithuania_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_lithuania_eu_passport_number"></a>Keywords_lithuania_eu_passport_number
 
-- passport number
-- номер паспорта лисуниан
-- паспорт нет
 - Пасо нумерис
-
+- Пасо нумериаи
+- Пасо НР
 
 ## <a name="luxemburg-drivers-license-number"></a>Номер водительского удостоверения Луксембург
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
@@ -8530,6 +8876,12 @@ registration number
 - фахрерлаубнис
 
 ## <a name="luxemburg-national-identification-number-natural-persons"></a>Национальный идентификационный номер Луксембург (для природных людей)
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -8853,6 +9205,12 @@ registration number
 - лиċензжаные зада Севкан
 
 ## <a name="malta-identity-card-number"></a>Номер идентификационной карточки Мальта
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -8930,26 +9288,41 @@ registration number
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_malta_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_malta_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_malta_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_malta_eu_passport_number" />
-          <Match idRef="Keywords_malta_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_malta_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_malta_eu_passport_number"></a>Keywords_malta_eu_passport_number
 
-- passport number
-- номер паспорта Мальтийский
-- паспорт нет
 - нумру Тал — пассапорт
+- нумри Тал — пассапорт
+- НРУ Тал — пассапорт
 
 ## <a name="malta-tax-identification-number"></a>Идентификационный номер налога Мальта
 
@@ -9199,6 +9572,12 @@ registration number
 - паспуртнуммер
 
 ## <a name="netherlands-tax-identification-number"></a>Идентификационный номер налога Нидерландов
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -9277,6 +9656,12 @@ registration number
 
 
 ## <a name="netherlands-value-added-tax-number"></a>Номер налога добавленных значений в Нидерландов
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -9333,6 +9718,12 @@ registration number
 
 
 ## <a name="new-zealand-bank-account-number"></a>Номер банковского счета Новой Зеландии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -9389,6 +9780,12 @@ registration number
 
 
 ## <a name="new-zealand-drivers-license-number"></a>Номер водительского удостоверения для Новой Зеландии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -9499,6 +9896,12 @@ international driving permit
 
 
 ## <a name="new-zealand-inland-revenue-number"></a>Номер дохода по некоторому контакту для Новой Зеландии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -9596,6 +9999,12 @@ international driving permit
 
 
 ## <a name="new-zealand-social-wlefare-number"></a>Номер социального влефареа Новой Зеландии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -9942,6 +10351,12 @@ international driving permit
 - пасзпорт
 
 ## <a name="poland-regon-number"></a>Номер РЕГОНа Польша
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -10002,6 +10417,12 @@ international driving permit
 
 
 ## <a name="poland-tax-identification-number"></a>Идентификационный номер для таможенного учета Польша
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -10197,26 +10618,48 @@ international driving permit
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_portugal_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_portugal_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_portugal_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_portugal_eu_passport_number" />
-          <Match idRef="Keywords_portugal_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_portugal_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_portugal_eu_passport_number"></a>Keywords_portugal_eu_passport_number
 
-- passport number
-- номер паспорта для португальского языка
-- паспорт нет
 - нúмеро Do пассапорте
+- пароль для португальского языка
+- Португальский пассепорт
+- Португальский пассапорте
+- пассапорте n º
+- пассепорт n º
+- нúмерос de пассапорте
+- Португальская служба Passport
+- нúмеро пассапорте
+- нúмерос пассапорте
 
 ## <a name="portugal-tax-identification-number"></a>Идентификационный номер для налога на Португалия
 
@@ -10340,6 +10783,12 @@ international driving permit
 - разрешение de кондуцере
 
 ## <a name="romania-personal-numeric-code-cnp"></a>Персональный числовой код Румыния (КНП)
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -10452,29 +10901,47 @@ national id
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_romania_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_romania_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_romania_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_romania_eu_passport_number" />
-          <Match idRef="Keywords_romania_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_romania_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_romania_eu_passport_number"></a>Keywords_romania_eu_passport_number
 
-- passport number
-- номер паспорта для румынского языка
-- паспорт нет
-- нумăрул паșапортулуи
-
+нумăрул паșапортулуи нумарул пасапортулуи нумереле паșапортулуи паșапорт НР
 
 ## <a name="russia-passport-number-domestic"></a>Номер паспорта для России (Россия)
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -10531,6 +10998,12 @@ national id
 
 
 ## <a name="russia-passport-number-international"></a>Номер паспорта для России Международная
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -10733,6 +11206,12 @@ national id
 - водиčскý преуказ
 
 ## <a name="slovakia-personal-number"></a>Словакия персональный номер
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -10843,27 +11322,43 @@ national id
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovakia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_slovakia_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_slovakia_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_slovakia_eu_passport_number" />
-          <Match idRef="Keywords_slovakia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_slovakia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_slovakia_eu_passport_number"></a>Keywords_slovakia_eu_passport_number
 
-- passport number
-- номер паспорта словакиан
-- паспорт нет
 - číсло Пасу
-
+- číсла пасов
+- PAS č.
+- Пассепорт n °
+- n ° Пассепорт
 
 ## <a name="slovenia-drivers-license-number"></a>Номер водительского удостоверения для драйвера Словения
 Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
@@ -10915,6 +11410,12 @@ national id
 - возниšко доволженже
 
 ## <a name="slovenia-unique-master-citizen-number"></a>Словения уникальный номер хозяина
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -11010,28 +11511,52 @@ national id
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovenia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_slovenia_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_slovenia_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_slovenia_eu_passport_number" />
-          <Match idRef="Keywords_slovenia_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_slovenia_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_slovenia_eu_passport_number"></a>Keywords_slovenia_eu_passport_number
 
-- passport number
-- номер паспорта для словенского языка
-- паспорт нет
 - Список потнега šтевилка
+- потек велжавности
+- Список потни #
+- Datum рожства
+- Список потни
+- šтевилке потних листов
 
 ## <a name="slovenia-tax-identification-number"></a>Идентификационный номер для налога на Словения
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -11269,6 +11794,12 @@ national id
 - Карнет кондуЦир
 
 ## <a name="spain-dni"></a>Испания, DNI
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -11365,31 +11896,50 @@ national id
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_spain_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_spain_eu_passport_number` . 
+- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_spain_eu_passport_number` . 
     
 ```xml
  <!-- EU Passport Number -->
 <Entity id="21883626-6245-4f3d-9b61-5cbb43e625ee" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_spain_eu_passport_number" />
-          <Match idRef="Keywords_spain_eu_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_spain_eu_passport_number" />
+          </Any>
         </Pattern>
 </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
+#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+
+- службу #
+- службу #
+- пасспортид
+- паспорты
+- пасспортно
+- паспорт нет
+- пасспортнумбер
+- номер паспорта
+- пасспортнумберс
+- номера паспортов
+
 #### <a name="keywords_spain_eu_passport_number"></a>Keywords_spain_eu_passport_number
 
-- службу
-- Служба Passport, Испания
-- Книга Passport
-- passport number
-- паспорт нет
 - либрета пасапорте
 - нúмеро пасапорте
 - еспаñа пасапорте
-- пасапорте
+- нúмерос de пасапорте
+- нúмеро de пасапорте
+- нúмерос пасапорте
+- пасапорте нет
+- Пассепорт n °
+- n ° Пассепорт
+- пасапорте но.
+- пасапорте n °
+- Служба Passport, Испания
 
 
 ## <a name="spain-social-security-number-ssn"></a>Номер социального страхования (SSN) Испания
@@ -11432,6 +11982,12 @@ national id
 Нет
 
 ## <a name="spain-tax-identification-number"></a>Налоговый идентификационный номер Испания
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -11863,6 +12419,12 @@ national id
 - идентификатионснумрет #
 
 ## <a name="sweden-tax-identification-number"></a>Идентификационный номер налога для Швеции
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -12010,7 +12572,13 @@ national id
 - code identificateur de banque 
 
 
-## <a name="swiss-ssn-ahv-number"></a>Номер АХВа для швейцарского страхования
+## <a name="switzerland-ssn-ahv-number"></a>Номер АХВа для Швейцарии
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -12589,6 +13157,12 @@ OR
 
     
 ## <a name="uk-unique-taxpayer-reference-number"></a>Королевств Уникальный номер ссылки налогоплательщика
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -13083,6 +13657,12 @@ OR
 - Passeportn ° 
 
 ## <a name="ukraine-passport-domestic"></a>Украина Passport Россия
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
@@ -13125,6 +13705,12 @@ OR
 
 
 ## <a name="ukraine-passport-international"></a>Украина Passport International
+Этот тип конфиденциальной информации можно использовать только в следующих целях:
+- политики защиты от потери данных
+- политики соответствия требованиям
+- Управление сведениями
+- Управление записями
+- Microsoft Cloud App Security
 
 ### <a name="format"></a>Format
 
