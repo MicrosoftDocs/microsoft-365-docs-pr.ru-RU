@@ -91,7 +91,7 @@
           href: managing-expressroute-for-connectivity.md
     - name: Партнерская программа Microsoft 365 для поставщиков сетевых устройств и служб
       href: microsoft-365-networking-partner-program.md
-- name: Клиент
+- name: Tenant
   items:
     - name: Стратегия
       href: tenant-roadmap-microsoft-365.md
@@ -269,6 +269,8 @@
       items:
         - name: Добавление домена
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+        - name: Руководства по настройке
+          href: setup-guides-for-microsoft-365.md
     - name: Несколько клиентов
       items:
         - name: Взаимодействие между клиентами
@@ -355,38 +357,40 @@
         - name: Облачное удостоверение
           href: cloud-only-identities.md
         - name: Гибридное удостоверение
-          href: prepare-for-directory-synchronization.md
-        - name: Подготовка немаршрутизируемого домена к синхронизации службы каталогов
-          href: prepare-a-non-routable-domain-for-directory-synchronization.md
-        - name: Настройка синхронизации службы каталогов
-          href: set-up-directory-synchronization.md
+          items:
+            - name: Подготовка к синхронизации службы каталогов
+              href: prepare-for-directory-synchronization.md
+            - name: Подготовка немаршрутизируемого домена к синхронизации службы каталогов
+              href: prepare-a-non-routable-domain-for-directory-synchronization.md
+            - name: Настройка синхронизации службы каталогов
+              href: set-up-directory-synchronization.md
+            - name: Гибридные решения
+              items:
+                - name: Обзор
+                  href: hybrid-solutions.md
+                - name: "Использование Azure Active Directory для проверки подлинности в SharePoint Server\_2016"
+                  href: using-azure-ad-for-sharepoint-server-authentication.md
+                - name: Подключение локальной сети к виртуальной сети Azure
+                  href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
+                - name: Развертывание сервера синхронизации службы каталогов в Azure IaaS
+                  href: deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md
+                - name: Развертывание федеративной проверки подлинности для обеспечения высокой доступности в Azure
+                  href: deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md
+                  items:
+                    - name: Этап 1. Настройка Azure
+                      href: high-availability-federated-authentication-phase-1-configure-azure.md
+                    - name: Этап 2. Настройка контроллеров домена
+                      href: high-availability-federated-authentication-phase-2-configure-domain-controllers.md
+                    - name: Этап 3. Настройка серверов AD FS
+                      href: high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md
+                    - name: Этап 4. Настройка прокси веб-приложений
+                      href: high-availability-federated-authentication-phase-4-configure-web-application-pro.md
+                    - name: Этап 5. Настройка федеративной проверки подлинности
+                      href: high-availability-federated-authentication-phase-5-configure-federated-authentic.md
+                - name: Аварийное восстановление SharePoint Server 2013 в Microsoft Azure
+                  href: sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md
         - name: Защита пользовательских входов
           href: microsoft-365-secure-sign-in.md
-        - name: Гибридные решения
-          items:
-            - name: Обзор
-              href: hybrid-solutions.md
-            - name: "Использование Azure Active Directory для проверки подлинности в SharePoint Server\_2016"
-              href: using-azure-ad-for-sharepoint-server-authentication.md
-            - name: Подключение локальной сети к виртуальной сети Azure
-              href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
-            - name: Развертывание сервера синхронизации службы каталогов в Azure IaaS
-              href: deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md
-            - name: Развертывание федеративной проверки подлинности для обеспечения высокой доступности в Azure
-              href: deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md
-              items:
-                - name: Этап 1. Настройка Azure
-                  href: high-availability-federated-authentication-phase-1-configure-azure.md
-                - name: Этап 2. Настройка контроллеров домена
-                  href: high-availability-federated-authentication-phase-2-configure-domain-controllers.md
-                - name: Этап 3. Настройка серверов AD FS
-                  href: high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md
-                - name: Этап 4. Настройка прокси веб-приложений
-                  href: high-availability-federated-authentication-phase-4-configure-web-application-pro.md
-                - name: Этап 5. Настройка федеративной проверки подлинности
-                  href: high-availability-federated-authentication-phase-5-configure-federated-authentic.md
-            - name: Аварийное восстановление SharePoint Server 2013 в Microsoft Azure
-              href: sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md
     - name: Управление
       items:
         - name: Назначение лицензий учетным записям пользователей
@@ -565,7 +569,7 @@
               href: block-user-accounts-with-microsoft-365-powershell.md
         - name: Лицензии и службы
           items:
-            - name: Просмотр
+            - name: Просмотр лицензий и служб
               href: view-licenses-and-services-with-microsoft-365-powershell.md
             - name: Просмотр лицензированных и нелицензированных пользователей
               href: view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md
@@ -573,6 +577,8 @@
               href: assign-licenses-to-user-accounts-with-microsoft-365-powershell.md
             - name: Просмотр сведений о лицензии и службе учетной записи
               href: view-account-license-and-service-details-with-microsoft-365-powershell.md
+            - name: Удаление лицензий из учетных записей пользователей
+              href: remove-licenses-from-user-accounts-with-microsoft-365-powershell.md
             - name: Отключение доступа к службам
               href: disable-access-to-services-with-microsoft-365-powershell.md
               items:
@@ -580,8 +586,6 @@
                   href: disable-access-to-sway-with-microsoft-365-powershell.md
                 - name: Отключение доступа к службам во время назначения лицензий
                   href: disable-access-to-services-while-assigning-user-licenses.md
-                - name: Удаление лицензий из учетных записей пользователей
-                  href: remove-licenses-from-user-accounts-with-microsoft-365-powershell.md
         - name: Группы
           items:
             - name: Управление участием в группах
