@@ -2,8 +2,8 @@
 title: Создание и использование шаблона для добавления пользователей
 f1.keywords:
 - NOCSH
-ms.author: v-sharos
-author: shars
+ms.author: sirkkuw
+author: Sirkkuw
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Вы можете создать и использовать шаблон для экономии времени и параметров стандартизации при добавлении нескольких пользователей.
-ms.openlocfilehash: 29953eb97476799d74e883ed8b20bd5f3382cbf4
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 92d3bd68a57291586da27eb2d578a26c53d20d78
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45022149"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245861"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Создание и использование шаблона для добавления пользователей
 
@@ -43,13 +43,13 @@ ms.locfileid: "45022149"
 - Место проведения лицензии
 - Варианты лицензирования
 - Варианты выбора приложения
-- Role
+- Роль
 - Большая часть сведений о профиле, таких как **профиль задания**, **Отдел**, **офис**, **офис**и **почтовый адрес** 
 
 Следующие сведения относятся к определенному пользователю и не сохраняются в шаблоне:
 
 - Имя и фамилия
-- Различающееся имя (DN)
+- Отображаемое имя
 - Имя пользователя
 - Выбор для отправки пароля в сообщении электронной почты и отправку по электронной почте пароля
 - Номер мобильного телефона

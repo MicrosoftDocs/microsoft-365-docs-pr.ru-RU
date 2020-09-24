@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Прочтите эту статью, чтобы узнать, как работают безопасные ссылки ATP.
-ms.openlocfilehash: 09357b20173e2609587137764737c8aba044190e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e19d3a1f93d11cd9873e6b5fad9952b018e0a481
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201476"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245885"
 ---
 # <a name="how-atp-safe-links-works"></a>Как работают безопасные ссылки ATP
 
@@ -30,7 +30,7 @@ ms.locfileid: "48201476"
 > [!IMPORTANT] 
 > Для правильной работы ссылок на Office 365 ATP для безопасной работы все службы должны иметь одинаковую версию.
          
-## <a name="how-atp-safe-links-works"></a>Как работают безопасные ссылки ATP
+## <a name="how-atp-safe-links-works-with-urls-in-email"></a>Как безопасные ссылки ATP работают с URL-адресами в электронной почте
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
  с URL-адресами в электронной почте
@@ -57,10 +57,7 @@ ms.locfileid: "48201476"
     
    - Если URL-адрес определен как безопасный, откроется веб-сайт.
     
-## <a name="how-atp-safe-links-works"></a>Как работают безопасные ссылки ATP
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
- с URL-адресами в документах Office 
+## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>Как безопасные ссылки ATP работают с URL-адресами в документах Office
 
 На высоком уровне ниже показано, как работает защита [ATP: безопасные ссылки](atp-safe-links.md) для URL-адресов в приложениях Microsoft 365 для корпоративных или бизнес-приложений (текущие версии Word, Excel и PowerPoint в Windows, Mac или в браузере, приложения Office на устройствах с iOS или Android, Visio в Windows, OneNote в браузере):
   

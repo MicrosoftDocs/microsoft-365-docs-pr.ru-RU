@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Администраторы могут ознакомиться с отчетом о сообщениях с автоматическим пересылкой в панели мониторинга "Направление почты" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: b5255a95718fa6624c85e93a19c8accf9c3dcdb2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d4b772e6392e0af22e6bed475970f637ed03dcb1
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199363"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245951"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Автоматически переадресованные сообщения в центре безопасности & соответствия требованиям
 
@@ -35,7 +35,7 @@ ms.locfileid: "48199363"
 
   - **По правилам для почтового процесса**
   - **Правила для папки "Входящие"**
-  - **С помощью пересылки SMTP**
+  - **С помощью пересылки SMTP**: это автоматическая переадресация, которую администраторы могут настроить для почтового ящика, как описано в разделе [Настройка переадресации электронной почты для почтового ящика](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
   - Ссылка на [отчет о перенаправлении](view-mail-flow-reports.md#forwarding-report) для получения дополнительных сведений.
 
 - **Автоматически перенаправляемые сообщения доменами и пользователями**:
