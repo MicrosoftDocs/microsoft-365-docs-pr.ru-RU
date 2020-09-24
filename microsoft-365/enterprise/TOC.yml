@@ -115,8 +115,6 @@
               href: azure-expressroute.md
             - name: "Современная проверка подлинности в клиентских приложениях Office\_2013 и Office\_2016"
               href: modern-auth-for-office-2013-and-2016.md
-        - name: Взаимодействие между клиентами
-          href: microsoft-365-inter-tenant-collaboration.md
         - name: Поддержка клиентских приложений
           items:
             - name: Проверка подлинности на основе сертификатов
@@ -271,8 +269,12 @@
       items:
         - name: Добавление домена
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
-        - name: Руководства по настройке
-          href: setup-guides-for-microsoft-365.md
+    - name: Несколько клиентов
+      items:
+        - name: Взаимодействие между клиентами
+          href: microsoft-365-inter-tenant-collaboration.md
+        - name: Миграция почтовых ящиков между клиентами
+          href: cross-tenant-mailbox-migration.md
     - name: Поддержка нескольких регионов
       items:
         - name: Microsoft 365 Multi-Geo
