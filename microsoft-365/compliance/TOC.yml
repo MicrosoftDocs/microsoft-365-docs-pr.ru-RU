@@ -246,6 +246,8 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
           href: how-dlp-works-between-admin-centers.md
+        - name: Использование меток конфиденциальности в качестве условия в политиках защиты от потери данных (предварительная версия)
+          href: dlp-sensitivity-label-as-condition.md
 - name: Организация управления информацией
   items:
     - name: Управление данными
