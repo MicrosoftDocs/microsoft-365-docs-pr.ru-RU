@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
 description: В этой статье рассказывается, как выполнять стандартные задачи управления для групп Microsoft 365 в PowerShell.
-ms.openlocfilehash: a02990b2890d9fdfd523209e1d912aafdaeac091
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: c1aa551597644b7f41c3445a791ea27579464f7b
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547930"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277479"
 ---
 # <a name="manage-microsoft-365-groups-with-powershell"></a>Управление группами Microsoft 365 с помощью PowerShell
 
@@ -64,16 +64,16 @@ Add-RecipientPermission -Identity $groupsRecipientDetails.Name -Trustee $userAli
 
 После выполнения командлета пользователи могут перейти в Outlook или Outlook в Интернете для отправки в качестве группы, добавив адрес электронной почты группы в поле " **от** ".
 
-## <a name="create-classifications-for-office-groups-in-your-organization"></a>Создание классификаций для групп Office в Организации
+## <a name="create-classifications-for-microsoft-365-groups-in-your-organization"></a>Создание классификаций для групп Microsoft 365 в Организации
 
 Вы можете создавать метки конфиденциальности, которые пользователи в организации могут установить при создании группы Microsoft 365. Если вы хотите классифицировать группы, мы рекомендуем использовать метки чувствительности вместо функции классификации предыдущих групп. Сведения об использовании меток конфиденциальности приведены в разделе [Использование меток конфиденциальности для защиты содержимого в Microsoft Teams, microsoft 365 Groups и сайтов SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!IMPORTANT]
 > Если вы используете метки классификации, они больше не будут доступны пользователям, которые создают группы после включения меток конфиденциальности.
 
-Вы по-прежнему можете использовать функцию классификации предыдущих групп. Вы можете создавать классификации, которые пользователи в организации могут установить при создании группы Office 365. Например, вы можете разрешить пользователям устанавливать "стандартные", "секрет" и "самый высокий секрет" при создании групп. Классификации групп не задаются по умолчанию и их необходимо создать, чтобы пользователи могли их настраивать. Используйте PowerShell Azure Active Directory, чтобы указать пользователям в Организации рекомендации по использованию для групп Office 365.
+Вы по-прежнему можете использовать функцию классификации предыдущих групп. Вы можете создавать классификации, которые пользователи в организации могут установить при создании группы Microsoft 365. Например, вы можете разрешить пользователям устанавливать "стандартные", "секрет" и "самый высокий секрет" при создании групп. Классификации групп не задаются по умолчанию и их необходимо создать, чтобы пользователи могли их настраивать. Используйте PowerShell Azure Active Directory, чтобы указать пользователям в Организации рекомендации по использованию для групп Microsoft 365.
 
-Изучите [командлеты Azure Active Directory для настройки параметров групп](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets) и следуйте шагам, описанным в разделе **CREATE Settings на уровне каталога** , чтобы определить классификацию для групп Office 365.
+Изучите [командлеты Azure Active Directory для настройки параметров групп](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets) и следуйте шагам, описанным в разделе **CREATE Settings на уровне каталога** , чтобы определить классификацию для групп Microsoft 365.
 
 ```powershell
 $setting["ClassificationList"] = "Low Impact, Medium Impact, High Impact"
@@ -87,7 +87,7 @@ $setting["ClassificationDescriptions"] ="Classification:Description,Classificati
 
 где классификация соответствует строкам в Классификатионлист.
 
-Пример.
+Пример:
 
 ```powershell
 $setting["ClassificationDescriptions"] = "Low Impact: General communication, Medium Impact: Company internal data , High Impact: Data that has regulatory requirements"
@@ -109,21 +109,21 @@ New-UnifiedGroup <HighImpactGroup@constoso.com> -Classification <HighImpact> -Ac
 
 После включения этих параметров владелец группы сможет выбрать классификацию из раскрывающегося меню в Outlook в Интернете и Outlook и сохранить его на странице " **изменение** группы".
 
-![Выбор классификации групп Office 365](../media/f8d4219a-6180-491d-b0e1-4313ac83998b.png)
+![Выберите Microsoft 365 Group Classification](../media/f8d4219a-6180-491d-b0e1-4313ac83998b.png)
 
-## <a name="hide-office-365-groups-from-gal"></a>Скрытие групп Office 365 из глобального списка адресов
+## <a name="hide-microsoft-365-groups-from-the-global-address-list"></a>Скрыть группы Microsoft 365 в глобальном списке адресов.
 <a name="BKMK_CreateClassification"> </a>
 
-Вы можете указать, будет ли группа Office 365 отображаться в глобальном списке адресов (GAL) и других списках в Организации. Например, если у вас есть юридическое лицо, которое не должно отображаться в списке адресов, можно остановить отображение этой группы в ГЛОБАЛЬном списке адресов. Выполните командлет Set – Unified Group, чтобы скрыть список адресов группы, как показано ниже.
+Вы можете указать, будет ли группа Microsoft 365 отображаться в глобальном списке адресов (GAL) и других списках в Организации. Например, если у вас есть юридическое лицо, которое не должно отображаться в списке адресов, можно остановить отображение этой группы в глобальном списке адресов. Выполните командлет Set – Unified Group, чтобы скрыть группу в списке адресов следующим образом:
 
 ```powershell
 Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $true
 ```
 
-## <a name="allow-only-internal-users-to-send-message-to-office-365-group"></a>Разрешить только внутренним пользователям отправлять сообщения в группу Office 365
+## <a name="allow-only-internal-users-to-send-message-to-microsoft-365-groups"></a>Разрешить только внутренним пользователям отправлять сообщения в группы Microsoft 365
 <a name="BKMK_CreateClassification"> </a>
 
-Если вы не хотите, чтобы пользователи из другой организации отправляли почту в группу Office 365, можно изменить параметры этой группы. Она позволит только внутренним пользователям отправлять электронную почту в вашу группу. Если внешний пользователь попытается отправить сообщение в эту группу, оно будет отклонено.
+Если вы не хотите, чтобы пользователи из других организаций отправляли сообщения электронной почты в группу Microsoft 365, можно изменить параметры этой группы. Она позволит только внутренним пользователям отправлять электронную почту в вашу группу. Если внешний пользователь попытается отправить сообщение в эту группу, оно будет отклонено.
 
 Выполните командлет Set – UnifiedGroup, чтобы обновить этот параметр, как показано ниже.
 
@@ -131,10 +131,10 @@ Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $tr
 Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationEnabled $true
 ```
 
-## <a name="add-mailtips-to-the-office-365-groups"></a>Добавление подсказок в группы Office 365
+## <a name="add-mailtips-to-microsoft-365-groups"></a>Добавление подсказок в группы Microsoft 365
 <a name="BKMK_CreateClassification"> </a>
 
-Когда отправитель пытается отправить сообщение в группу Office 365, к ним можно будет отобразить подсказка.
+Когда отправитель пытается отправить сообщение в группу Microsoft 365, к ним можно будет отобразить подсказка.
 
 Выполните командлет Set – Unified Group, чтобы добавить подсказка в группу:
 
@@ -148,18 +148,18 @@ Set-UnifiedGroup -Identity "MailTip Group" -MailTip "This group has a MailTip"
 Set-UnifiedGroup -Identity "MailaTip Group" -MailTip "This group has a MailTip" -MailTipTranslations "@{Add="ES:Esta caja no se supervisa."
 ```
 
-## <a name="change-display-name-of-the-office-365-group"></a>Изменение отображаемого имени группы Office 365
+## <a name="change-the-display-name-of-the-microsoft-365-group"></a>Изменение отображаемого имени группы Microsoft 365
 
-Отображаемое имя указывает имя группы Office 365. Это имя можно увидеть в центре администрирования Exchange или в центре администрирования Microsoft 365. Можно изменить отображаемое имя группы или назначить отображаемое имя существующей группе Office 365, выполнив команду Set – UnifiedGroup:
+Отображаемое имя указывает имя группы Microsoft 365. Это имя можно увидеть в центре администрирования Exchange или в центре администрирования Microsoft 365. Можно изменить отображаемое имя группы или назначить отображаемое имя существующей группе Microsoft 365, выполнив команду Set – UnifiedGroup:
 
 ```powershell
 Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
 ```
 
-## <a name="change-the-default-setting-of-office-365-groups-for-outlook-to-public-or-private"></a>Изменение параметров по умолчанию для групп Office 365 для Outlook как общедоступных или частных
+## <a name="change-the-default-setting-of-microsoft-365-groups-for-outlook-to-public-or-private"></a>Изменение параметров по умолчанию для групп Microsoft 365 для Outlook как общедоступных или частных
 <a name="BKMK_CreateClassification"> </a>
 
-По умолчанию группы Office 365 в Outlook создаются как частные. Если организации требуется, чтобы группы Office 365 были созданы как общедоступные по умолчанию (или обратно в личный), используйте следующий синтаксис командлета PowerShell:
+Группы Microsoft 365 в Outlook по умолчанию создаются как частные. Если организации требуется, чтобы группы Microsoft 365 были созданы как общедоступные по умолчанию (или обратно в личный), используйте следующий синтаксис командлета PowerShell:
 
  `Set-OrganizationConfig -DefaultGroupAccessType Public`
 
@@ -173,29 +173,29 @@ Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
 
 Дополнительные сведения см. в статье [Set – OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) и [Get – OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig).
 
-## <a name="office-365-groups-cmdlets"></a>Командлеты Office 365 Groups
+## <a name="microsoft-365-groups-cmdlets"></a>Командлеты Microsoft 365 Groups
 
-С группами Office 365 можно использовать следующие командлеты.
+С группами Microsoft 365 можно использовать следующие командлеты.
 
 |**Имя командлета**|**Описание**|
 |:-----|:-----|
-|[Get — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616182) <br/> |Используйте этот командлет, чтобы искать существующие группы Office 365 и просматривать свойства объекта Group.  <br/> |
-|[Set — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616189) <br/> |Обновление свойств определенной группы Office 365  <br/> |
-|[New — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |Создайте новую группу Office 365. Этот командлет предоставляет минимальный набор параметров для установки значений расширенных свойств используйте командлет Set – UnifiedGroup после создания новой группы  <br/> |
-|[Remove — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616186) <br/> |Удаление существующей группы Office 365  <br/> |
-|[Get — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616194) <br/> |Получение сведений о членстве и владельце для группы Office 365  <br/> |
-|[Add — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |Добавление сотен или тысяч пользователей или новых владельцев в существующую группу Office 365  <br/> |
-|[Remove — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616195) <br/> |Удаление владельцев и членов существующей группы Office 365  <br/> |
+|[Get — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616182) <br/> |Используйте этот командлет для поиска существующих групп Microsoft 365 и просмотра свойств объекта Group.  <br/> |
+|[Set — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616189) <br/> |Обновление свойств определенной группы Microsoft 365  <br/> |
+|[New — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |Создайте новую группу Microsoft 365. Этот командлет предоставляет минимальный набор параметров. Чтобы задать значения для расширенных свойств, используйте Set – UnifiedGroup после создания новой группы.  <br/> |
+|[Remove — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616186) <br/> |Удаление существующей группы Microsoft 365  <br/> |
+|[Get — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616194) <br/> |Получение сведений о членстве и владельце для группы Microsoft 365  <br/> |
+|[Add — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |Добавление сотен или тысяч пользователей или новых владельцев в существующую группу Microsoft 365  <br/> |
+|[Remove — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616195) <br/> |Удаление владельцев и членов существующей группы Microsoft 365  <br/> |
 |[Get — UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536510) <br/> |Используется для просмотра сведений о фотографии пользователя, связанной с учетной записью. Фотографии пользователей хранятся в Active Directory  <br/> |
 |[Set — UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536511) <br/> |Используется для связывания фотографии пользователя с учетной записью. Фотографии пользователей хранятся в Active Directory  <br/> |
-|[Remove — UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536512) <br/> |Удаление фотографии для группы Office 365  <br/> |
+|[Remove — UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536512) <br/> |Удаление фотографии для группы Microsoft 365  <br/> |
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Обновление списков рассылки до групп Office 365](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
+[Обновление списков рассылки до групп Майкрософт 365](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 
-[Управление пользователями, которые могут создавать группы Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
+[Управление пользователями, которые могут создавать группы Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
 
-[Управление гостевым доступом к Группам Office 365](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Изменение членства статической группы на Dynamic in](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)

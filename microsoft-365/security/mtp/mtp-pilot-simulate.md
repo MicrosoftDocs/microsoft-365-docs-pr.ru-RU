@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f7d00575a0a5757f0662c07e727d7166d571e2ca
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8d4eb6cedbfa9a74eccdbb94e71f9eb32189ccbb
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201199"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277543"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Запуск эмуляции атак Майкрософт для защиты от угроз  
 
@@ -48,7 +48,7 @@ ms.locfileid: "48201199"
 
 Так как вы уже настроили пилотную среду на этапе подготовки, убедитесь, что у вас есть два устройства для этого сценария: тестовое устройство и контроллер домена.
 
-1.  Убедитесь, что клиент имеет [защиту](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
+1.  Убедитесь, что ваш клиент [включил защиту от угроз](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service)Майкрософт для угроз Майкрософт.
 2.  Проверьте конфигурацию контроллера домена:
     - Устройство работает под управлением Windows Server 2008 R2 или более поздней версии.
     - Проверьте контроллер домена до службы [Advanced Threat Protection в Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) и включите [Удаленное управление](https://docs.microsoft.com/windows-server/administration/server-manager/configure-remote-management-in-server-manager).    
@@ -57,9 +57,9 @@ ms.locfileid: "48201199"
 
 3.  Проверьте конфигурацию тестового устройства.
     <br>
-    а)  Устройство работает под управлением Windows 10 версии 1903 или более поздней версии.
+    а.  Устройство работает под управлением Windows 10 версии 1903 или более поздней версии.
     <br>
-    б)  Тестовое устройство присоединяется к тестовому домену.
+    б.  Тестовое устройство присоединяется к тестовому домену.
     <br>
     в.  [Включите антивирусную программу "Защитник Windows"](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Если у вас возникают проблемы с включением антивирусной программы "Защитник Windows", обратитесь к [разделу Устранение неполадок](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy).
     <br>
@@ -277,9 +277,9 @@ ran NetSessionEnum against [DC Name] with return code result 0
 
 1.  Убедитесь, что ваш клиент [включил защиту от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
 2.  Определите целевой почтовый ящик, который будет использоваться для получения электронной почты.
-    а)  Этот почтовый ящик должен отслеживаться в Office 365 ATP b.  Устройству из требования 3 требуется доступ к этому почтовому ящику
+    а.  Этот почтовый ящик должен отслеживаться в Office 365 ATP b.  Устройству из требования 3 требуется доступ к этому почтовому ящику
 3.  Настройка тестового устройства: a.  Убедитесь, что вы используете Windows 10 версии 1903 или более поздней версии.
-    б)  Присоедините тестовое устройство к тестовому домену.
+    б.  Присоедините тестовое устройство к тестовому домену.
     в.  [Включите антивирусную программу "Защитник Windows"](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Если у вас возникают проблемы с включением антивирусной программы "Защитник Windows", обратитесь к [разделу Устранение неполадок](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy).
     г.  [Встроенный в Advanced Threat Protection в защитнике Майкрософт (мдатп)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
@@ -295,8 +295,8 @@ ran NetSessionEnum against [DC Name] with return code result 0
     ![Снимок экрана: Расширенный поиск на панели навигации портала центра обеспечения безопасности M365](../../media/mtp/fig17.png) 
 
 3.  Создание запроса, который начинает сбор событий электронной почты.
-    а)  В области запрос нажмите кнопку Создать.
-    б)  Дважды щелкните таблицу Емаилевентс в схеме.
+    а.  В области запрос нажмите кнопку Создать.
+    б.  Дважды щелкните таблицу Емаилевентс в схеме.
 
 ```
 EmailEvents 
@@ -441,7 +441,7 @@ EmailEvents
 | Эпизод 3: сводка, сведение и визуализация данных|Теперь, когда мы можем отфильтровать данные, управлять ими и присоединяться к ним, настало время начать суммирование, количественное представление, сведение и визуализация. В этом эпизоде мы рассмотрим оператор суммирования и некоторые вычисления, которые вы можете выполнить, чтобы углубляться в дополнительные таблицы в расширенной схеме Поиск. Мы передаем наши наборы данных в диаграммы, которые могут помочь повысить эффективность анализа. | [MP4](https://aka.ms/MTP29JUL20_MP4) | [YouTube](https://youtu.be/UKnk9U1NH6Y) | [Эпизод 3: файл CSL в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
 | Эпизод 4: Давайте добавим! Применение KQL к отслеживанию инцидентов|Время для отслеживания действий злоумышленника! В этом эпизоде мы будем использовать наш усовершенствованный обзор KQL и расширенного поиска в защите от угроз Майкрософт для отслеживания атак. Узнайте о некоторых советах и приемах, используемых в поле для отслеживания действий взломщика, в том числе АБКС циберсекурити и способов применения их к реагированию на инциденты. | [MP4](https://aka.ms/MTP5AUG20_MP4) | [YouTube](https://youtu.be/2EUxOc_LNd8) | [Эпизод 4: файл CSL в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl) |
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 |![Этап закрытия и сводки](../../media/mtp/close.png) <br>[Этап закрытия и сводки](mtp-pilot-close.md) | Проанализируйте результаты пилотного проекта по защите от угроз Майкрософт, представим им заинтересованных лиц и выполните следующий шаг.
 |:-----|:-----|
 
