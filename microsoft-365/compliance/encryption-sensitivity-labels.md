@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Настройте метки конфиденциальности для шифрования, чтобы защитить данные, ограничив доступ к ним и их использование.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3604518be47e35590792689c46bb036cbeb8965
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: 6a1be64f98def6676e27e1e0c1b3f7e031b31cba
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399268"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196624"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования 
 
@@ -159,7 +159,7 @@ ms.locfileid: "47399268"
 
 - Все прошедшие проверку подлинности пользователи. Изучите [требования и ограничения](#requirements-and-limitations-for-add-any-authenticated-users) этого параметра перед его выбором.
 
-- Любой определенный пользователь, группа безопасности с поддержкой электронной почты, группа рассылки или группа Microsoft 365 ([прежнее название — группа Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) в Azure AD. В группах Microsoft 365 может быть статическое или [динамическое членство](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Обратите внимание, что вы не можете использовать [динамическую группу рассылки из Exchange](https://docs.microsoft.com/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups?view=exchserver-2019), поскольку этот тип группы не синхронизируется с Azure AD, и вы не можете использовать группу безопасности, для которой не включена поддержка электронной почты.
+- Любой определенный пользователь, группа безопасности с поддержкой электронной почты, группа рассылки или группа Microsoft 365 ([прежнее название — группа Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) в Azure AD. В группах Microsoft 365 может быть статическое или [динамическое членство](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Обратите внимание, что вы не можете использовать [динамическую группу рассылки из Exchange](https://docs.microsoft.com/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups), поскольку этот тип группы не синхронизируется с Azure AD, и вы не можете использовать группу безопасности, для которой не включена поддержка электронной почты.
 
 - Любой адрес электронной почты или домен. Используйте этот вариант, чтобы указать всех пользователей из другой организации, использующих Azure AD, путем ввода любого доменного имени из этой организации. Вы также можете использовать этот вариант для поставщиков социальных служб, указав их доменное имя, например **gmail.com**, **hotmail.com** или **outlook.com**.
     
@@ -211,7 +211,7 @@ ms.locfileid: "47399268"
 ### <a name="double-key-encryption"></a>Шифрование с двойным ключом
 
 > [!NOTE]
-> В настоящее время эта функция находится на стадии общедоступной ознакомительной версии. Дополнительные сведения см. в статье [Объявление об общедоступной предварительной версии шифрования с двойным ключом для Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451).
+> Эта функция в настоящее время поддерживается только клиентом унифицированных меток Azure Information Protection.
 
 Выбирайте этот параметр, только если вы настроили службу шифрования с двойным ключом и вам необходимо использовать это шифрование для файлов с этой меткой.
 
