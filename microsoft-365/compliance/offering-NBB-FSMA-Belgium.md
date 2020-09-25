@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ad72be958e8d028ff40dcbd483accd0dbe5c0527
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: d35e9893c54367bc62de65300613853408070c33
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415763"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208271"
 ---
 # <a name="national-bank-of-belgium-nbb-and-the-financial-services-and-markets-authority-fsma"></a>Национальный банк Бельгии (NBB) и Служба по финансовым услугам и рынкам (FSMA)
 
@@ -69,6 +69,10 @@ NBB и FSMA действуют совместно с Европейской ба
 **Существуют ли обязательные условия, которые требуется включать в договор с поставщиком облачных служб?**
 
 Да. Финансовые учреждения должны обязательно включать определенные пункты в свои договоры облачного обслуживания. Часть 2 [контрольного списка Майкрософт](https://aka.ms/FinServ-Guide-Belgium) (стр. 49) сопоставляет их с разделами контрактных документов Майкрософт, в которых они рассматриваются.
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
+
+[Диспетчер соответствия требованиям (Майкрософт)](compliance-manager.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет премиум-шаблон для оценки этих нормативных требований. Шаблон находится на странице **шаблонов оценки** в диспетчере соответствия требованиям. См. [Создание оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

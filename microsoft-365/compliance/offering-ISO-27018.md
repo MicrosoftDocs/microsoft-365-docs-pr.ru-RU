@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 176c80309e3a99707191c2dfba37e5147c875b17
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: a83bfef591c0e4baa2a24f0218999189dba7dba7
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417703"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208291"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>ISO/IEC 27018 "Свод правил по защите персональных данных в облаке"
 
@@ -109,9 +109,9 @@ ms.locfileid: "47417703"
 
 Однако вы несете ответственность за привлечение аудитора для оценки реализации на соответствие требованиям, а также оценки средств управления и процессов в рамках вашей организации.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
 
-[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) выберите предварительно настроенный [шаблон ISO 27018](https://go.microsoft.com/fwlink/?linkid=2117523) в раскрывающемся меню **Шаблон**, чтобы обеспечить соответствие вашей организации требованиям этих норм.
+[Диспетчер соответствия требованиям (Майкрософт)](compliance-manager.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет премиум-шаблон для оценки этих нормативных требований. Шаблон находится на странице **шаблонов оценки** в диспетчере соответствия требованиям. См. [Создание оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

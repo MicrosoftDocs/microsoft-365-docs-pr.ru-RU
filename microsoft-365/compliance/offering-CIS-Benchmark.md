@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d8b24885b1d1a80380d0e9ad5c7942bb31ba054c
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 398fdb66623fb668bfc95e8a8a8f8fae44c8163e
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416723"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208611"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Контрольные показатели Center for Internet Security (CIS)
 
@@ -85,6 +85,10 @@ Center for Internet Security (CIS) опубликовал контрольные
 **Кто внес вклад в разработку контрольных показателей CIS для Майкрософт?**
 
 В CIS отмечает, что "контрольные показатели разрабатываются благодаря бескорыстным усилиям волонтеров-экспертов в данной области, поставщиков технологий, членов сообщества CIS Benchmark из государственных и частных организаций, а также команды разработчиков CIS Benchmark". В частности, вы найдете список участников Azure в разделе [Доступен контрольный показатель CIS для ключевых компонентов Microsoft Azure v1.0.0](https://www.cisecurity.org/blog/cis-microsoft-azure-foundations-benchmark-v1-0-0-now-available/).
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
+
+[Диспетчер соответствия требованиям (Майкрософт)](compliance-manager.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет премиум-шаблон для оценки этих нормативных требований. Шаблон находится на странице **шаблонов оценки** в диспетчере соответствия требованиям. См. [Создание оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

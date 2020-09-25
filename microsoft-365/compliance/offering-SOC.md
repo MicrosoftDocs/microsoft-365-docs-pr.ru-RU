@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cdc8835989ada5ebe4089c4d7fed5fd8cf064673
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: a648673d06300190695db52d14e85f114bfe0e87
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47415426"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208151"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -90,7 +90,7 @@ ms.locfileid: "47415426"
 - [Отчет SOC 1 (SSAE 18) для Office 365 Core](https://aka.ms/o365SOC-1)
 - [Отчет SOC 2 (SSAE 18) для Office 365 Core](https://aka.ms/o365SOC-2)
 - [Отчет SOC 3 (SSAE 18) для Office 365 Core](https://aka.ms/o365SOC-3)
-- [Отчет SOC 2 (T1 — SSAE 18, тип I) для микрослужб Office 365](https://aka.ms/o365-MS-SOC-2-type1)
+- [Отчет SOC 2 (T1-SSAE 18, тип I) для микрослужб Office 365](https://aka.ms/o365-MS-SOC-2-type1)
 - [Отчет о результатах аудита SOC 1 (SSAE 16) для защищенного хранилища клиентов](https://aka.ms/Office365CustomerLockboxSOCAuditReport)
 - [Отчет о результатах аудита SOC 2 (AT 101, тип I) для Yammer](https://aka.ms/YammerSOC2Type1AuditReport)
 - [Отчет SOC 2 (тип II) для Yammer](https://aka.ms/yammerSOC-2)
@@ -121,9 +121,9 @@ ms.locfileid: "47415426"
 
 [Набор средств SOC для обслуживающих организаций](https://aka.ms/soc-toolkit) — это полезный ресурс для знакомства с процессами создания отчетов SOC и расширения их использования в организации.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
 
-[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) выберите предварительно настроенный [шаблон SOC 1](https://go.microsoft.com/fwlink/?linkid=2117918) и [шаблон SOC 2](https://go.microsoft.com/fwlink/?linkid=2117919) в раскрывающемся меню **Шаблон**, чтобы обеспечить соответствие вашей организации требованиям этих норм.
+[Диспетчер соответствия требованиям (Майкрософт)](compliance-manager.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет премиум-шаблон для оценки этих нормативных требований. Шаблон находится на странице **шаблонов оценки** в диспетчере соответствия требованиям. См. [Создание оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

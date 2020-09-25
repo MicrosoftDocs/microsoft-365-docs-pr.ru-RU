@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fe9186b45268fee11d011d6a941e244071e31a42
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 775a3d21697103d6ed0b891aef605197741d3dbd
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417543"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208127"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Механизм оценки и обмена Trusted Information Security Assessment Exchange (TISAX), Германия
 
@@ -72,6 +72,10 @@ ms.locfileid: "47417543"
 **Почему я не вижу копию сертификации Microsoft TISAX?**
 
 ENX предоставляет подтверждение сертификации только зарегистрированным отраслевым представителям на портале ENX. Дополнительные сведения о порядке действий приведены в разделе «Аудит, отчеты и сертификаты».
+
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
+
+[Диспетчер соответствия требованиям (Майкрософт)](compliance-manager.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет премиум-шаблон для оценки этих нормативных требований. Шаблон находится на странице **шаблонов оценки** в диспетчере соответствия требованиям. См. [Создание оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b46a1996d1a86601efe21ec71b19adfc9fa02c61
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: e156a8dc71dc9aca4a5d608b29307f4d36f0ec6b
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417217"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208144"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>Система управления конфиденциальностью ISO/IEC 27701 (PIMS)
 
@@ -77,7 +77,7 @@ ms.locfileid: "47417217"
 - Microsoft Healthcare Bot
 - Intune
 - Компьютеры, управляемые Майкрософт
-- Power Automate (прежнее название Microsoft Flow) 
+- Power Automate (прежнее название Microsoft Flow)
 - PowerApps
 - Power BI
 - Power BI Embedded
@@ -86,15 +86,14 @@ ms.locfileid: "47417217"
 - Эксперты Майкрософт по угрозам
 - Advanced Threat Protection в Защитнике Windows
 
-
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 - [Azure, Dynamics 365 и веб-службы: сертификация ISO27701](https://aka.ms/azureiso27701cert)
 - [Azure, Dynamics 365 и веб-службы: отчет об оценке ISO27701](https://aka.ms/azureiso27701report)
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
 
-[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) выберите предварительно настроенный [шаблон ISO 27701](https://go.microsoft.com/fwlink/?linkid=2117915) в раскрывающемся меню **Шаблон**, чтобы обеспечить соответствие вашей организации требованиям этих норм.
+[Диспетчер соответствия требованиям (Майкрософт)](compliance-manager.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет премиум-шаблон для оценки этих нормативных требований. Шаблон находится на странице **шаблонов оценки** в диспетчере соответствия требованиям. См. [Создание оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

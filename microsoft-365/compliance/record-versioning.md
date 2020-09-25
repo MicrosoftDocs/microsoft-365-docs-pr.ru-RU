@@ -17,16 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о записях, которые помогут вам внедрить решение для управления записями в Microsoft 365.
-ms.openlocfilehash: 47a6aee128dbc8375d5860e1e8b1e4e0acc355cb
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 4b8209108564f0a75f8d70efecd57d2526d9face
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778455"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200550"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>Использование управления версиями записей для обновления записей, хранящихся в SharePoint или OneDrive
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+
+>[!NOTE] 
+> Так как нормативные записи блокируют редактирование, управление версиями записей для них недоступно.
 
 Возможность пометить документ как [запись](records-management.md#records) и ограничить действия, которые можно выполнять с записью, является основной целью любого решения по управлению записями. Однако для создания последующих версий может также потребоваться совместная работа.
 

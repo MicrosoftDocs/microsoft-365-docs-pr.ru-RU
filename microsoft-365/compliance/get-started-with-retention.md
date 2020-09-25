@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать реализацию политик хранения и меток хранения для управления данными организации, но не знаете, с чего начинать? Перед началом работы ознакомьтесь с некоторыми практическими руководствами.
-ms.openlocfilehash: 33b2fbd40c19d1f4e2e2ef042eaa2fe21080eec1
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: cc504468611d4a2a2758ef7d52b965c177999217
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778295"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198944"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Начало работы с политиками хранения и метками хранения
 
@@ -60,7 +60,7 @@ ms.locfileid: "46778295"
 
 |Я хочу…|Документация|
 |----------------|---------------|
-|Эффективно настраивайте действия хранения и удаления для организации или по службам Microsoft 365: <br />Exchange  <br />- SharePoint  <br />– OneDrive  <br />- Группы Microsoft 365 <br />– Skype для бизнеса  <br />- Microsoft Teams  |[Создание и настройка политик хранения](create-retention-policies.md)|
+|Эффективно настраивайте действия хранения и удаления для организации или по службам Microsoft 365: <br />Exchange  <br />- SharePoint  <br />– OneDrive  <br />- Группы Microsoft 365 <br />– Skype для бизнеса  <br />- Microsoft Teams <br />– Сеть Yammer |[Создание и настройка политик хранения](create-retention-policies.md)|
 |Позвольте администраторам и пользователям вручную применять набор действий по хранению и удалению для документов и сообщений электронной почты. <br />-  SharePoint <br />- OneDrive <br />- Outlook и Outlook в Интернете|[Создание меток хранения и их применение в приложениях](create-apply-retention-labels.md)|
 |Позвольте администраторам сайта задавать метки хранения по умолчанию ко всему контенту в библиотеке SharePoint, папке или набору документов|[Создание меток хранения и их применение в приложениях](create-apply-retention-labels.md)|
 |Позвольте пользователям автоматически применять метки хранения к сообщениям электронной почты с помощью правил Outlook|[Создание меток хранения и их применение в приложениях](create-apply-retention-labels.md)|

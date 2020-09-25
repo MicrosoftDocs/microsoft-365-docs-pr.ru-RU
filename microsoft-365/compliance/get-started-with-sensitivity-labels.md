@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 4712cc4f2dd042c3564523a565b71db69a18f5bc
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 2c23246f17a8d9ea9681017dca28e144f3088604
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845769"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245962"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -86,6 +86,7 @@ ms.locfileid: "46845769"
 |Включение меток конфиденциальности для Office в Интернете с поддержкой совместного редактирования, обнаружения электронных данных, защиты от потери данных и поиска, даже если документы зашифрованы | [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 |Автоматическое применение меток конфиденциальности документам и сообщениям электронной почты | [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)|
 |Использование меток конфиденциальности для защиты содержимого в Teams и SharePoint |[Использование меток конфиденциальности в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint](sensitivity-labels-teams-groups-sites.md)|
+|Запрет или предупреждение пользователей о предоставлении общего доступа к файлам и сообщениям с определенными метками конфиденциальности |[Использование меток конфиденциальности в качестве условий в политиках защиты от потери данных (предварительная версия)](dlp-sensitivity-label-as-condition.md) |
 |Обнаружение, применение меток и защита файлов, хранящихся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Обнаружение, применение меток и защита файлов, хранящихся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Применение и просмотр меток конфиденциальности в Power BI и защита данных при экспорте|[Защита данных в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
