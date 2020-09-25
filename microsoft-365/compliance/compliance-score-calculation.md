@@ -15,17 +15,19 @@ search.appverid:
 - MET150
 description: Сведения о том, как диспетчер соответствия требованиям Майкрософт вычисляет персонализированный балл на основе действий, предпринимаемых для устранения рисков и повышая уровень соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9fd71b4953dc40a3c1e7601f42f595488fcef98b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f1707e0117d0a61f572716f21d13a02821955401
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204407"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262272"
 ---
 # <a name="compliance-score-calculation"></a>Расчет оценки соответствия требованиям
 
+**В этой статье:** Сведения о том, как диспетчер соответствия требованиям вычисляет оценку соответствия требованиям для вашей организации. В этой статье объясняется, как **интерпретировать оценку**, какова **Базовая оценка защиты данных** , **непрерывное отслеживание**, а **также управление различными типами действий и их оценкам**.
+
 > [!IMPORTANT]
-> Рекомендации от диспетчера соответствия требованиям не интерпретируются как гарантию соответствия требованиям. Вы можете оценивать и проверять эффективность клиентских элементов управления в соответствии с нормативной средой. Эти службы подчиняются условиям и условиям, указанным в [терминах веб-служб](https://go.microsoft.com/fwlink/?linkid=2108910). Кроме того [, вы также найдете рекомендации по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+> Рекомендации диспетчера соответствия требованиям не должны рассматриваться в качестве гарантии соответствия требованиям. Вы можете оценивать и проверять эффективность клиентских элементов управления в соответствии с нормативной средой. Эти службы подчиняются условиям и условиям, указанным в [терминах веб-служб](https://go.microsoft.com/fwlink/?linkid=2108910). Кроме того [, вы также найдете рекомендации по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="how-to-read-your-compliance-score"></a>Просмотр оценки соответствия требованиям
 

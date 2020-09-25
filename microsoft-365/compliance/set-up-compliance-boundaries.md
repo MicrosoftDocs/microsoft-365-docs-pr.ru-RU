@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Узнайте, как использовать границы соответствия требованиям для создания логических границ, управляющих расположением пользовательских контента, которые диспетчер обнаружения электронных данных может выполнять поиск в Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8aaa1128788ba8f2f4ece7fb54f886595770c01
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 1c0d0b4b8c5c43945efad737165acdd2612d33b7
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357771"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269398"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Настройка границ соответствия для исследований обнаружения электронных данных
 
@@ -55,7 +55,7 @@ ms.locfileid: "47357771"
 [Шаг 4: Создание фильтра разрешений поиска для применения границы соответствия требованиям](#step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary)
 
 [Шаг 5: создание дела обнаружения электронных данных для расследования внутри агентств](#step-5-create-an-ediscovery-case-for-intra-agency-investigations)
-  
+
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>Шаг 1: определение атрибута пользователя для определения ваших учреждений
 
 Первый шаг — выбрать атрибут Azure Active Directory, который будет использоваться для определения ваших учреждений. Этот атрибут используется для создания фильтра разрешений поиска, ограничивающего диспетчером обнаружения электронных данных поиском только расположений контента пользователей, которым назначено конкретное значение для этого атрибута. Например, предположим, что компания Contoso решает использовать атрибут **Department** . Значение этого атрибута для пользователей в четвертом представительстве кофе будет равно  `FourthCoffee`  , а значение для пользователей в Coho Wineryной дочерней компании будет `CohoWinery` . На шаге 4 вы используете эту  `attribute:value`  комбинацию (например, *Department: FourthCoffee*), чтобы ограничить места для пользователей, которые руководители обнаружения электронных данных могут выполнять поиск. 
