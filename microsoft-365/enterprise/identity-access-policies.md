@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 1512ba01f78d901177254fce86d0154e97e36496
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 6a8ab25a1bce4355e63482b8450412884a9f0faf
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950798"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269409"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Основные политики доступа для удостоверений и устройств
 
@@ -170,6 +170,8 @@ ms.locfileid: "47950798"
 
 Рассмотрите возможность использования средства " [что если](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) " для проверки политики.
 
+Для Exchange Online можно использовать политики проверки подлинности для [отключения обычной проверки подлинности](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online), что заставляет все запросы клиентского доступа использовать современные проверки подлинности.
+
 ## <a name="high-risk-users-must-change-password"></a>Необходимость смены пароля для пользователей с высоким риском
 
 Чтобы принудительно сменить пароль для всех скомпрометированных учетных записей пользователей с высоким уровнем риска при входе в систему, необходимо применить следующую политику.
@@ -282,7 +284,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 
 Сведения о **работоспособности устройств > правилах оценки работоспособности Windows**приведены в этой таблице.
 
-|Свойства|Value|Action|
+|Свойства|Значение|Action|
 |:---------|:-----|:----|
 |Требовать BitLocker|Обязательность| Выбор |
 |Требовать включения безопасной загрузки на устройстве|Обязательность| Выбор |
@@ -295,7 +297,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 
 В этой таблице представлены сведения о **безопасности системы**.
 
-|Type|Элемент Property|Value|Action|
+|Type|Элемент Property|Значение|Action|
 |:---|:---------|:-----|:----|
 |Password|Запрос пароля для разблокировки мобильных устройств|Обязательность| Выбор |
 ||Простые пароли|Блокировка|Выбор|
@@ -317,7 +319,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 
 **ATP в Microsoft Defender**
 
-|Type|Элемент Property|Value|Action|
+|Type|Элемент Property|Значение|Action|
 |:---|:---------|:-----|:----|
 |Правила Advanced Threat Protection в защитнике Майкрософт|Потребовать, чтобы устройство было в показателе риска или на уровне машины|Средняя|Выбор|
 |||||
