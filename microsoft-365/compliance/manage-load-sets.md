@@ -1,5 +1,5 @@
 ---
-title: Управление наборами загрузки
+title: Управление наборами нагрузки при расследовании данных (Предварительная версия)
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,15 +14,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
-description: ''
-ms.openlocfilehash: 658b5263bdfb918d36a184832e41af01b9b63e31
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ROBOTS: NOINDEX, NOFOLLOW
+description: Сведения об управлении наборами нагрузки при расследовании данных (Предварительная версия).
+ms.openlocfilehash: add4aae0ddfba7f3fc94c6da2278ed586d65f0f9
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071636"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285615"
 ---
-# <a name="manage-load-sets"></a><span data-ttu-id="62d4b-102">Управление наборами загрузки</span><span class="sxs-lookup"><span data-stu-id="62d4b-102">Manage load sets</span></span>
+# <a name="manage-load-sets-in-data-investigations-preview"></a><span data-ttu-id="e341a-103">Управление наборами нагрузки при расследовании данных (Предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="e341a-103">Manage load sets in Data Investigations (preview)</span></span>
 
-<span data-ttu-id="62d4b-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="62d4b-103">Content coming soon.</span></span>
+<span data-ttu-id="e341a-104">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="e341a-104">Content coming soon.</span></span>
