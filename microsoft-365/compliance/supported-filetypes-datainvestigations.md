@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: В таблице перечислены поддерживаемые типы файлов и те средства просмотра, которые они могут просматривать при расследовании данных (Предварительная версия).
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dc4b8efb7c4212261e16f1e307c6ca05fea064ec
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: ca4dab40f5c3098d05323edec0ddbab54ac29273
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817142"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285275"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>Поддерживаемые типы файлов при расследовании данных (Предварительная версия)
 

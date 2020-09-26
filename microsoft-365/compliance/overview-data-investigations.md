@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-mar2020
 description: В этой статье рассказывается о средстве расследования данных (Предварительная версия) в Microsoft 365. Средство анализа данных помогает оценить и исправить ненужные данные.
-ms.openlocfilehash: 6975d554e939481c6ee1c32ec4e76bb25c7bf36c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 21241ad36278bc75a8363b9aeefeaf4caec783b5
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036052"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285995"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Общие сведения о расследовании данных (Предварительная версия) в Microsoft 365
 

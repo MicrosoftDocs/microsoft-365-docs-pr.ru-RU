@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Узнайте, как использовать компонент импорта содержимого, не относящийся к Office 365, для отправки документов, отличных от Office 365, в доказательства, проводимые при расследовании данных.
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 9bfebc6aad9bc37d7d78ec4a0d50e6de967ac7d1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b6d8c2f65a1fa3a43fa2ac4bf3821cc6c1fac514
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815486"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285375"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Загрузка данных, отличных от Microsoft 365, в свидетельство
 
@@ -61,7 +60,7 @@ ms.locfileid: "44815486"
 4. На шаге **Отправка файлов** укажите **путь к расположению файлов**, где находятся данные, не относящиеся к Microsoft 365, которые планируется импортировать.  Задание правильного расположения гарантирует, что команда AzCopy будет правильно обновлена.
 
 > [!NOTE]
-> Если вы еще не установили AzCopy, вы можете сделать это следующим образом:https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
+> Если вы еще не установили AzCopy, вы можете сделать это следующим образом: https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
 
 5. Скопируйте предопределенную команду, щелкнув ссылку **Копировать в буфер обмена** . Запустите командную строку Windows, вставьте команду и нажмите клавишу ВВОД.  Файлы будут отправлены в безопасное хранилище BLOB-объектов Azure для следующего этапа.
 

@@ -1,5 +1,5 @@
 ---
-title: Построение поисковых запросов — обнаружение электронных данных
+title: Создание поисковых запросов в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -7,26 +7,25 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: Использование ключевых слов и условий для сужения области поиска при поиске данных с помощью расширенного обнаружения электронных данных в Microsoft 365.
-ms.openlocfilehash: 86e763577c24473f8f55c5c8dc26d1853509d50a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3ddd9c38f16fc2dd0fcb96e5fffc79ebbacdbda4
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035517"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285805"
 ---
-# <a name="build-search-queries"></a>Создание поисковых запросов
+# <a name="build-search-collection-queries-in-advanced-ediscovery"></a>Создание запросов на поисковые коллекции в Advanced eDiscovery
 
-При создании поисковых запросов можно использовать ключевые слова для поиска определенного содержимого и условий, чтобы сузить область поиска для возврата элементов, наиболее релевантных для вашего судебного разбирательства.
+При создании поисковых запросов для сбора данных в расширенном случае обнаружения электронных данных можно использовать ключевые слова для поиска определенного содержимого и условий, чтобы сузить область поиска для возврата элементов, наиболее релевантных для вашего судебного разбирательства.
 
 ![Использование ключевых слов и условий для сужения результатов поиска](../media/SearchQueryBox.png)
 

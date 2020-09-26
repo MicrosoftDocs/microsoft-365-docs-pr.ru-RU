@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье описывается, как настроить разрешения, необходимые для использования средства расследования данных в Microsoft 365.
-ms.openlocfilehash: 47a7923d38cfa0ea3bad6c4c266f580f8104c429
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 85a800c3e21c270f46de78bdef77d7b7a98e0eca
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637761"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285445"
 ---
 # <a name="assign-permissions-for-data-investigations-preview"></a>Назначение разрешений на расследования данных (Предварительная версия)
 
@@ -29,7 +29,7 @@ ms.locfileid: "43637761"
 
 Чтобы назначить разрешения на расследования данных, выполните указанные ниже действия.
 
-1. Войдите в [https://protection.office.com](https://protection.office.com) систему и войдите, используя учетные данные для учетной записи администратора в Организации.
+1. Войдите в систему [https://protection.office.com](https://protection.office.com) и войдите, используя учетные данные для учетной записи администратора в Организации.
 
 2. В центре безопасности & соответствия требованиям нажмите кнопку **разрешения**.
 

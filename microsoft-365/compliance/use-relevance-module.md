@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Сведения о том, как модуль релевантности анализирует данные в свидетельствах с описанием рабочих процессов релевантности и обучающих курсов в расследовании данных (Предварительная версия).
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64bd0101fd2a0804da9e513241a97bc9f133880e
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: fcfe651402b123ac6ec918c4c8a7170c78e78bd3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528165"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286075"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-evidence"></a>Использование модуля релевантности для анализа данных в свидетельствах
 
@@ -129,7 +129,7 @@ ms.locfileid: "46528165"
 > [!NOTE]
 > Некоторые параметры могут быть отключены после снятия блокировки, так как они не поддерживаются в этой точке процесса. 
   
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 [Понимание оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
   

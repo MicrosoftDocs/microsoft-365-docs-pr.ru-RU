@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Узнайте, как использовать границы соответствия требованиям для создания логических границ, управляющих расположением пользовательских контента, которые диспетчер обнаружения электронных данных может выполнять поиск в Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c0d0b4b8c5c43945efad737165acdd2612d33b7
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: 19165af60d7813134952589831bf94a91bfe7f40
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269398"
+ms.locfileid: "48277102"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Настройка границ соответствия для исследований обнаружения электронных данных
 
@@ -70,7 +70,10 @@ ms.locfileid: "48269398"
 
 - Кабинет
 
-- C (два буквенных кода страны)
+- C (двухбуквенный код страны) <sup>*</sup>
+
+  > [!NOTE]
+  > <sup>*</sup> Этот атрибут сопоставляется со свойством CountryOrRegion, которое возвращается при выполнении командлета **Get-User** в Exchange Online PowerShell. Командлет возвращает локализованное название страны, которое преобразуется из кода страны из двух букв. Для получения дополнительных сведений обратитесь к описанию параметра CountryOrRegion в статье [Set – User](https://docs.microsoft.com/powershell/module/exchange/set-user) Reference Reference.
 
 Хотя доступны дополнительные атрибуты пользователей, особенно для почтовых ящиков Exchange, перечисленные выше атрибуты являются единственными, которые в настоящее время поддерживаются в OneDrive.
   
@@ -243,7 +246,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="using-compliance-boundaries-for-sharepoint-hub-sites"></a>Использование ограничений соответствия требованиям для центральных сайтов SharePoint
 
-[Центральные сайты SharePoint](https://docs.microsoft.com/sharepoint/dev/features/hub-site/hub-site-overview) часто доравниваются с теми же географическими регионами или организациями, которые следуют за границами соответствия eDiscovery. Это означает, что вы можете использовать свойство идентификатора сайта центрального сайта для создания границы соответствия требованиям. Для этого используйте командлет [Get-SPOHubSite](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spohubsite?view=sharepoint-ps#examples) в SharePoint Online PowerShell, чтобы получить идентификатор сайта для центрального сайта, а затем используйте это значение для свойства Department ID, чтобы создать фильтр разрешений поиска.
+[Центральные сайты SharePoint](https://docs.microsoft.com/sharepoint/dev/features/hub-site/hub-site-overview) часто доравниваются с теми же географическими регионами или организациями, которые следуют за границами соответствия eDiscovery. Это означает, что вы можете использовать свойство идентификатора сайта центрального сайта для создания границы соответствия требованиям. Для этого используйте командлет [Get-SPOHubSite](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spohubsite#examples) в SharePoint Online PowerShell, чтобы получить идентификатор сайта для центрального сайта, а затем используйте это значение для свойства Department ID, чтобы создать фильтр разрешений поиска.
 
 Используйте следующий синтаксис, чтобы создать фильтр разрешений поиска для центрального сайта SharePoint:
 

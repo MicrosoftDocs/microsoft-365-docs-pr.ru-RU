@@ -14,18 +14,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
-description: ''
-ms.openlocfilehash: e82f3c90dd931fc23635710c13e5727b1b3add79
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ROBOTS: NOINDEX, NOFOLLOW
+description: Управление свидетельством, которое вы добавили при расследовании данных.
+ms.openlocfilehash: 070429ab96ff903cda70fac0f6decf9c86e7b45d
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600546"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285735"
 ---
 # <a name="manage-evidence-sets-in-data-investigations-preview"></a>Управление наборами свидетельств при расследовании данных (Предварительная версия)  
 
 Содержимое появится в ближайшее время.
-
-  
-

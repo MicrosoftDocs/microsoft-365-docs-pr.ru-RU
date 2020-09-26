@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Реализуйте возможности Microsoft Information Protection (МИП) с помощью соответствия требованиям Microsoft 365, которые помогают находить, классифицировать и защищать конфиденциальную информацию везде, где она живет или передается.
-ms.openlocfilehash: f867391243302d0ce912ae5d740ed761ea7317b7
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: d69395523cb656d23e44b577f01338eb78c7b386
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131969"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277527"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Защита информации Майкрософт в Microsoft 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "48131969"
 |:------|:------------|:--------------------|:-----------------------------|
 |[Типы конфиденциальной информации](sensitive-information-type-entity-definitions.md)| Определяет конфиденциальные данные с помощью встроенных или настраиваемых регулярных выражений или функции вместе с свидетельством подкрепляющее, включающим ключевые слова, уровни вероятности и сходства.| [Настройка встроенных типов конфиденциальных данных](customize-a-built-in-sensitive-information-type.md)|
 |[Выученные классификаторы (Предварительная версия)](classifier-learn-about.md)| Классификация данных для вас с помощью одного из встроенных классификаторов или обучение классификатора с собственным контентом | [Начало работы с обучаемыми классификаторами (предварительная версия)](classifier-get-started-with.md) |
-|[Классификация данных](data-classification-overview.md) | Определяет элементы, которые имеют метку конфиденциальности, метку хранения или классифицируются как тип конфиденциальной информации в Организации и действия, которые используются пользователями.  | [Начало работы с обозревателем контента](data-classification-content-explorer.md)<br /><br /> [Приступая к работе с обозревателем действий](data-classification-activity-explorer.md) |
+|[Классификация данных](data-classification-overview.md) | Определяет элементы, которые имеют метку конфиденциальности, метку хранения или классифицируются как тип конфиденциальной информации в Организации и действия, которые используются пользователями.  | [Начало работы с обозревателем контента](data-classification-content-explorer.md)<br /><br /> [Начало работы с обозревателем действий](data-classification-activity-explorer.md) |
 
 ## <a name="protect-your-data"></a>Защита данных
 
@@ -52,7 +52,7 @@ ms.locfileid: "48131969"
 |:------|:------------|---------------------|:----------------------------|
 |[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для нескольких приложений, служб и устройств для подписи и защиты данных при их пересылке внутри и за пределами Организации <br /><br />Пример сценария: [применение и Просмотр меток конфиденциальности в Power BI и защита данных при экспорте](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[ Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
 |[Клиент единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Для компьютеров под управлением Windows дополнительные функции и функции, включающие метки и защиту всех типов файлов из проводника и PowerShell, расширяются метками конфиденциальности.<br /><br /> Примеры дополнительных функций: [настраиваемые конфигурации для клиента единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Руководство по администратору клиентов единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
-|[Шифрование с двойным ключом](double-key-encryption.md)| Во всех обстоятельствах только вы можете расшифровывать защищенный контент или требования законодательства, которые необходимо удерживать в пределах географической границы | [Развертывание двойного шифрования ключей](double-key-encryption.md#deploy-double-key-encryption)|
+|[Шифрование с двойным ключом](double-key-encryption.md)| Во всех обстоятельствах только вы можете расшифровывать защищенный контент или требования законодательства, которые необходимо удерживать в пределах географической границы | [Развертывание двойного шифрования ключей](double-key-encryption.md)|
 |[Шифрование сообщений в Office 365](ome.md) (OME)| Шифрует сообщения электронной почты и вложенные документы, которые отправляются любому пользователю на любом устройстве, поэтому только авторизованные получатели могут читать электронную информацию.  <br /><br />Пример сценария: [отзыв электронной почты, зашифрованной с помощью расширенного шифрования сообщений](revoke-ome-encrypted-mail.md) | [Начало работы с шифрованием сообщений в Office 365](set-up-new-message-encryption-capabilities.md)|
 |[Шифрование службы с помощью ключа клиента](customer-key-overview.md) | Обеспечивает защиту от просмотра данных неавторизованными системами или персоналом и дополняет шифрование диска BitLocker в центрах обработки данных Майкрософт. | [Настройка ключа клиента для Office 365](customer-key-set-up.md)|
 |[Управление правами на доступ к данным SharePoint (IRM)](set-up-irm-in-sp-admin-center.md#irm-enable-sharepoint-document-libraries-and-lists)|Защищает списки и библиотеки SharePoint таким образом, чтобы когда пользователь извлекает документ, скачанный файл защищен, чтобы только авторизованные пользователи могли просматривать и использовать файл в соответствии с указанными политиками. | [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)|

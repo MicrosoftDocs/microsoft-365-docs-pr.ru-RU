@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: ''
 description: Маркировка документов в наборе рецензирования помогает удалить ненужные материалы и определить релевантный контент в расширенном случае обнаружения электронных данных.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 445bf9a0ee5959c4972920a74e7bd1596d9edca1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 83e7a3c9c097968c4d773e6e2092bb3c50154cc3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034553"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285285"
 ---
-# <a name="tag-documents-in-a-review-set"></a>Добавление тегов к документам в наборе для проверки
+# <a name="tag-documents-in-a-review-set-in-advanced-ediscovery"></a>Поиск документов по тегам в наборе рецензий в Advanced eDiscovery
 
-Организация контента в наборе проверки важна для выполнения различных рабочих процессов в процессе обнаружения электронных данных. Это включает:
+Организация контента в наборе проверки важна для выполнения различных рабочих процессов в процессе обнаружения электронных данных. К ним относятся:
 
 - Отбор ненужного контента
 

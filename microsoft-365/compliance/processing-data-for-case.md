@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,17 +17,17 @@ search.appverid:
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Прочитайте обзор обработки различных форм данных в расширенном средстве обнаружения электронных данных в Office 365.
-ms.openlocfilehash: 0725b38af00ec787869090c5a57f5a865fb421e7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Общие сведения об обработке различных форм данных в Advanced eDiscovery.
+ms.openlocfilehash: c82363a846334ccf47fc28cf0aaa25e92f2bbea9
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527409"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285245"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Работа с ошибками обработки в Advanced eDiscovery
 
-*Обработка* — это процесс идентификации файлов, расширения внедренных документов и вложений, извлечение текста и распознавание текста (оптическое распознавание текста) файлов изображений и последующая индексация этого содержимого.  
+*Обработка* — это процесс идентификации файлов, расширения внедренных документов и вложений, извлечения текста и оптического распознавания текста (OCR), а также последующая индексация этого содержимого.  
 
 Когда вы добавляете источники данных custodians и хранитель в дело на вкладке **источники** , все частично индексированные элементы из Microsoft 365 обрабатываются, чтобы сделать их полным поиском. Аналогично, когда контент добавляется в набор проверки из источников данных Microsoft 365 и не Microsoft 365, этот контент также обрабатывается.
 

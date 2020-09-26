@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Статистика поиска является эффективным способом проверки результатов поиска и отображения всплывающей страницы "сведения о поиске".
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dc6aea96e86388ae7ecfa0fa545bc5571eeff0cd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 24de99cf0a7ae21b5966811b988c93d64abd5148
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035841"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286095"
 ---
-# <a name="search-statistics"></a>Статистика поиска
+# <a name="search-statistics-in-data-investigations-preview"></a>Статистика поиска при расследовании данных (Предварительная версия)
 
 Эффективный способ проверки результатов поиска при изучении инцидента данных — просмотреть статистику результатов поиска, чтобы убедиться в их соответствии ожиданиям. При завершении поиска в разделе **Status (состояние** ) на всплывающей странице сведения о поиске отображается следующая высокоуровневая Статистика:
 
@@ -40,7 +39,7 @@ ms.locfileid: "44035841"
 
 ![Раскрывающийся список статистики поиска](../media/SearchStatisticsDropDownList.png)
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Аннотация
 
 В представлении **сводки** можно просмотреть результаты поиска, разбитые по типу расположения (например, расположения включают почтовые ящики Exchange и сайты SharePoint). Для каждого типа местоположения отображается следующая информация:
 

@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: Узнайте, как настроить параметры поиска и аналитики, такие как почти повторяющиеся, почтовые потоки и темы при управлении расследованиями данных.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3100c83fc027e793f7937a4d27e059ce7e3038a0
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ebc04e68c4d8854c91ceae75b164cc061e77aad4
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527355"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277077"
 ---
-# <a name="configure-search-and-analytics-settings"></a>Настройка параметров поиска и аналитики
+# <a name="configure-search-and-analytics-settings-in-data-investigations"></a>Настройка параметров поиска и аналитики при расследовании данных
 
 ## <a name="near-duplicates-and-email-threading"></a>Почти повторяющиеся элементы и почтовые потоки
 

@@ -17,14 +17,14 @@ search.appverid:
 ms.assetid: ''
 description: Во время расследования данных используйте темы для организации документов, находя общие идеи или концепции.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e05210036ce2db0a06b6450a611908cf2de24f19
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 249d0739e7d83665f3d2a30d544886c43f89e07d
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034513"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285525"
 ---
-# <a name="themes"></a>Темы
+# <a name="themes-in-data-investigations-preview"></a>Темы в исследованиях данных (Предварительная версия)
 
 Когда кто-то попишет документ, он не выбирает слова случайным образом; они пытаются передать некоторые идеи или концепции, и слова будут выбраны соответствующим образом. В модулях Themes документы, которые обсуждаются аналогично тем, чтобы проверяющие могли эффективнее работать с документами.
 

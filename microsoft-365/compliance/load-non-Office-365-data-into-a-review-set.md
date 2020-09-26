@@ -7,22 +7,21 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: Узнайте, как импортировать данные не из Microsoft 365 в набор проверки для анализа в расширенном случае обнаружения электронных данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9b506edc55da1916ae908eaa7ca619ba7300f87
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: ad70207bdc015107a5aba074e2df06a42c0618b3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815466"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285865"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>Загрузка данных, отличных от Microsoft 365, в набор проверки
 

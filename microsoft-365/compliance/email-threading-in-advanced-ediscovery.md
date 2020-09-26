@@ -1,5 +1,5 @@
 ---
-title: Цепочка электронной почты — обнаружение электронных данных
+title: Почтовые потоки в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,17 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
 description: При проведении расширенного анализа обнаружения электронных данных почтовые потоки анализируют электронную беседу и разделяют каждое сообщение на разные категории.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6072650a07f634b8dc19a013907eb36469c443b
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: b087bfc84175f80daaf1c0d2f1394584a70757ac
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527677"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285565"
 ---
-# <a name="email-threading"></a>Потоки почты
+# <a name="email-threading-in-advanced-ediscovery"></a>Почтовые потоки в Advanced eDiscovery
 
 Рассмотрим беседу по электронной почте в течение определенного сеанса. В большинстве случаев последняя электронная почта в потоке будет включать содержимое всех предшествующих сообщений. Просмотр последней электронной почты дает полный контекст беседы, возникшей в цепочке. Поток электронной почты определяет такие сообщения электронной почты, чтобы проверяющие могли просматривать долю собранных документов без потери контекста.
 
