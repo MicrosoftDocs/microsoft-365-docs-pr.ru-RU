@@ -17,12 +17,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eb2d4ca52acce338e3afb31852409d441e52cfe0
-ms.sourcegitcommit: eb3c30d53a5434d8bad7c8f48a5612f3e2675945
+ms.openlocfilehash: 2083b7b6ed208f5681f4e19c276c1d7425999854
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422467"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201526"
 ---
 # <a name="azure-and-dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Контрольный список готовности к подотчетности для Azure и Dynamics 365 в рамках GDPR
 
@@ -33,7 +33,7 @@ ms.locfileid: "47422467"
 - [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736) — требования, относящиеся к методам обеспечения безопасности;
 - [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) — требования, относящиеся к управлению конфиденциальностью.
 
-Вы можете управлять элементами, указанными в этом контрольном списке, в рейтинге соответствия требованиям [[16](gdpr-arc-Azure.md#16)], выбирая идентификаторы и названия средств контроля в списке "Средства контроля в ведении клиента" на плитке GDPR. Такая структура контроля также применяется для упорядочения презентации внутренних средств контроля, реализованных в Microsoft Azure и Dynamics 365 для выполнения требований GDPR, которую можно скачать в центре [Service Trust Center](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
+Вы можете управлять элементами этого контрольного списка в диспетчере соответствия требованиям [[16](gdpr-arc-Azure.md#16)], ориентируясь на идентификаторы и названия контрольных точек в списке Customer Managed Controls (Контрольные точки под управлением клиента) на плитке GDPR. Такая структура контроля также применяется для упорядочения презентации внутренних средств контроля, реализованных в Microsoft Azure и Dynamics 365 для выполнения требований GDPR, которую можно скачать в центре [Service Trust Center](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
 
 Такая структура контроля также применяется для упорядочения презентации [внутренних средств контроля, реализованных в Microsoft Dynamics 365, для выполнения требований GDPR](https://aka.ms/gdprcontrols).
 
