@@ -1,22 +1,44 @@
 - name: Начало работы со сведениями о контенте
   items:
+    - name: Введение в Microsoft SharePoint Синтекс
+      href: microsoft-sharepoint-syntex-overview.md
     - name: Общие сведения о документе
       href: document-understanding-overview.md
     - name: Обзор обработки форм
       href: form-processing-overview.md
     - name: Разница между общими сведениями о документе и моделями обработки форм
       href: difference-between-document-understanding-and-form-processing-model.md
+    - name: Сведения о моделях через пример модели
+      href: learn-about-document-understanding-models-through-the-sample-model.md
     - name: Создание центра контента
       href: create-a-content-center.md
     - name: Создание классификатора
       href: create-a-classifier.md
     - name: Создание средства извлечения
       href: create-an-extractor.md
+    - name: Обзор типов объяснения
+      href: explanation-types-overview.md
     - name: Применение модели
       href: apply-a-model.md
     - name: Создание модели обработки форм
       href: create-a-form-processing-model.md
-- name: Начало работы с программой установки
+    - name: Применение метки хранения
+      href: apply-a-retention-label-to-a-model.md
+    - name: Аналитика использования модели
+      href: model-usage-analytics.md
+- name: Настройка и администрирование
   items:
     - name: Настройка понимания контента
       href: set-up-content-understanding.md
+    - name: Маркировка изображений
+      href: image-tagging.md
+- name: Службы контента
+  items:
+    - name: Импорт с помощью скос
+      href: import-term-set-skos.md
+    - name: Справка по форматированию скос
+      href: skos-format-reference.md
+    - name: Передача типа контента в центр
+      href: push-content-type-to-hub.md
+    - name: Отчеты о банке терминов
+      href: term-store-analytics.md
