@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как перенести бизнес в Microsoft 365 бизнес премиум из Office 365 E3.
-ms.openlocfilehash: d72f0c52a745ff973868b6fdaa95efa1a37a3dbd
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785932"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295297"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Переход с Office 365 E3 на Microsoft 365 бизнес премиум 
 
@@ -39,10 +39,10 @@ Microsoft 365 Business Premium содержит все необходимое д
 
 В этой таблице показаны различия между Microsoft 365 Business Premium и Office 365 E3.
 
-| Функция    | Поддержка в Microsoft 365 Business Premium    | Поддержка в Office 365 E3 | 
+| Компонент    | Поддержка в Microsoft 365 Business Premium    | Поддержка в Office 365 E3 | 
 |:-------|:-----|:-----|
 | **Локальная среда**        | | | 
-| Приложения Office<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Приложения Microsoft 365 для предприятий | 
+| Приложения Office<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Приложения Microsoft 365 для предприятий | 
 | **Облачные приложения для работы**        | | | 
 | Exchange Online и Outlook    | 50 ГБ дискового пространства для почтового ящика и неограниченная Архивация на базе Exchange Online    | 100 ГБ дискового пространства для почтового ящика и неограниченная Архивация на базе Exchange Online | 
 | Teams    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Входит в состав Office 365 E3](../media/check-mark.png) | 
@@ -114,6 +114,11 @@ Microsoft 365 Business Premium содержит все необходимое д
   - Пошаговые инструкции по [настройке устройств Windows для пользователей Microsoft 365 Business Premium](set-up-windows-devices.md) для устройств с Windows. 
     
   - Выполните действия, описанные в статье [Настройка мобильных устройств для пользователей Microsoft 365 Business Premium](set-up-mobile-devices.md) для телефонов с Android и iPhone. 
+  
+### <a name="mailbox-size"></a>Размер почтового ящика
+
+Microsoft 365 Business Premium имеет ограничения на размер хранилища 50 ГБ по мере использования Exchange Online (план 1). При переходе на Microsoft 365 бизнес премиум, если пользователь превышает 50 ГБ хранилища почтовых ящиков, рекомендуется назначить его пользователю Exchange Online (план 2) и удалить Exchange Online (план 1), так как его невозможно назначить обоим пользователям.
+
 
 ### <a name="threat-protection"></a>Защита от угроз
 

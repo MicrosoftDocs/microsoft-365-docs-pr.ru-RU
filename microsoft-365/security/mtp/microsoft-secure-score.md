@@ -1,7 +1,7 @@
 ---
 title: Оценка безопасности (Майкрософт)
 description: В этой статье описывается уровень безопасности Майкрософт в центре безопасности Майкрософт 365, объясняется, как оптимизировать безопасность и какие администраторы могут ожидать.
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, Оценка безопасности, центр безопасности, действия по улучшению
+keywords: Оценка безопасности Майкрософт, Оценка безопасности, Оценка безопасности Office 365, Оценка безопасности Microsoft 365, центр безопасности Майкрософт, действия по улучшению
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b378288637baa5b51f74fb63d8c8da33ac5e148f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ea580ad6b7bb7cc905a299e473f23a4c74fb289e
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196195"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294788"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
 
@@ -102,7 +102,7 @@ Microsoft Security Score обновил действия по улучшению
 * Глобальный администратор
 * Администратор безопасности
 * Администратор Exchange
-* администратор SharePoint.
+* Администратор SharePoint
 * Администратор учетной записи
 
 ### <a name="read-only-roles"></a>Роли, предназначенные только для чтения
@@ -112,7 +112,7 @@ Microsoft Security Score обновил действия по улучшению
 * Администратор службы поддержки
 * Администратор пользователей
 * Администратор служб
-* Читатель безопасности
+* Читатель сведений о безопасности
 * Оператор безопасности
 * Глобальный читатель
 

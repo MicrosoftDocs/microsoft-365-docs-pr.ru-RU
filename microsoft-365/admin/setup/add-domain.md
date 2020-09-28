@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Добавьте свой домен в Microsoft 365 в центре администрирования Microsoft 365, добавив запись DNS на узел DNS. Мастер установки проводит вас через процесс.
-ms.openlocfilehash: a9a0c12d5207db210b4a08ce58abeb44270c8506
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: 09a66b9ac4f97a076d71dd7f259678181378ae48
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775163"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295026"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Добавление домена в Microsoft 365
 
@@ -118,7 +118,7 @@ ms.locfileid: "47775163"
 
 5. Выберите тип записи DNS, которую вы хотите добавить, и введите сведения для новой записи.
     
-6. Нажмите кнопку **Сохранить**.
+6. Нажмите **Сохранить**.
 
 ## <a name="registrars-with-domain-connect"></a>Регистраторы с подключением к домену
 
@@ -135,7 +135,7 @@ ms.locfileid: "47775163"
 - [еуроднс](https://www.eurodns.com/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [GoDaddy](https://www.godaddy.com/)
-- [WordPress](https://wordpress.com/)
+- [WordPress.com](https://wordpress.com/)
 - [плеск](https://www.plesk.com/)
 - [медиатемпле](https://mediatemple.net/)
 - Секуресервер или Вилдвестдомаинс (GoDaddy торговые посредники, использующие службу хостинга на Секуресервер DNS)

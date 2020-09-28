@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Узнайте, как получить доступ к локальным ресурсам, таким как бизнес-приложения, общие файловые ресурсы и принтеры из Azure Active Directory, подключенной к устройству Windows 10.
-ms.openlocfilehash: 9b83781afee746b06bbdf90962de0f55ffbcb118
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 2144268f5cbab67c39d5902622c61c0c35e6481c
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307500"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295317"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 бизнес премиум
 
@@ -36,9 +36,6 @@ ms.locfileid: "47307500"
 
 Чтобы узнать больше, ознакомьтесь со статьей общие сведения об [управлении устройствами в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 Эти действия также описаны в следующих разделах.
-
-> [!IMPORTANT]
-> Эта процедура относится только к OAuth и NTLM. Проверка подлинности Kerberos не поддерживается.
  
 ## <a name="run-azure-ad-connect"></a>Запуск Azure AD Connect
 

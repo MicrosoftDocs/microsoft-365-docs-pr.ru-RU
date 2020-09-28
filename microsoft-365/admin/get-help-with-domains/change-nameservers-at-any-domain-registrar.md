@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Узнайте, как добавить и настроить свой домен в Microsoft 365, чтобы ваши службы, такие как электронная почта и Skype для бизнеса Online, использовали собственное доменное имя.
-ms.openlocfilehash: 6a99ee90db3bb71038309175b32bd4d96097aa5a
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 34e4db5748f9d4c1f1864db09071374bcec73e1d
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662236"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295062"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Изменение серверов доменных имен для настройки Microsoft 365 с помощью любого регистратора доменных имен
 
@@ -122,8 +122,8 @@ ms.locfileid: "46662236"
 |:-----|:-----|
 |Основной сервер доменных имен  <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |Второстепенный сервер доменных имен  <br/> |ns2.bdm.microsoftonline.com  <br/> |
-|Третий сервер доменных имен  <br/> |ns2.bdm.microsoftonline.com  <br/> |
-|Четвертый сервер доменных имен  <br/> |ns2.bdm.microsoftonline.com  <br/> |
+|Третий сервер доменных имен  <br/> |ns3.bdm.microsoftonline.com  <br/> |
+|Четвертый сервер доменных имен  <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
    > [!TIP]
    > Рекомендуется добавить все четыре записи, но если регистратор поддерживает только два, добавьте **NS1.BDM.microsoftonline.com** и **NS2.BDM.microsoftonline.com**. 

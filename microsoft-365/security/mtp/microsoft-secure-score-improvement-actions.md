@@ -1,7 +1,7 @@
 ---
 title: Оценка уровня безопасности с помощью оценки безопасности Майкрософт
 description: В этой статье описывается, как выполнить действия для усовершенствования оценки безопасности Майкрософт в центре безопасности Майкрософт 365.
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, Оценка безопасности, центр безопасности, действия по улучшению
+keywords: Оценка безопасности Майкрософт, Оценка безопасности, Оценка безопасности Office 365, Оценка безопасности Microsoft 365, центр безопасности Майкрософт, действия по улучшению
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 7049845b4c1b240c5ecc72b4f2ebac1acecfbaf6
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: cb2aad70b8ba6ccd9075513b5f383ede42ebd6c0
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203687"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295132"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Оценка уровня безопасности с помощью оценки безопасности Майкрософт
 

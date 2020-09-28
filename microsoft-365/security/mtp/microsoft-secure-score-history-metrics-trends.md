@@ -1,7 +1,7 @@
 ---
 title: Отслеживание журнала оценки безопасности Майкрософт и соответствующих целей
-description: Получите сведения о действиях, которые затронули вашу оценку безопасности. Выявление тенденций и определение целей.
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, Оценка безопасности, центр безопасности, действия по улучшению
+description: Получите подробные сведения о действиях, которые затронули оценку безопасности Майкрософт. Выявление тенденций и определение целей.
+keywords: Оценка безопасности Майкрософт, Оценка безопасности, Оценка безопасности Office 365, Оценка безопасности Microsoft 365, центр безопасности Майкрософт, действия по улучшению
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6c31ea1f7217babd4949bee843b091bb767e210e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4f5d0a59372fb32b2802a094c247e45740ba3946
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196293"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295254"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Отслеживание журнала оценки безопасности Майкрософт и соответствующих целей
 
