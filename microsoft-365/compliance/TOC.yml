@@ -151,8 +151,10 @@
       items:
         - name: Сведения о шифровании
           href: encryption.md
-        - name: Шифрование с двойным ключом (предварительная версия)
+        - name: Шифрование с двойным ключом (DKE)
           href: double-key-encryption.md
+        - name: 'Вопросы и ответы: Шифрование с двойным ключом'
+          href: double-key-encryption-overview.md
         - name: Office 365 Сервис шифрования
           href: office-365-service-encryption.md
         - name: Ключ клиента
@@ -340,10 +342,6 @@
               href: archive-workplacefromfacebook-data.md
             - name: Zoom Meetings
               href: archive-zoommeetings-data.md
-            - name: Slack
-              href: archive-slack-data.md
-            - name: Zoom Meetings
-              href: archive-zoommeetings-data.md
         - name: Соединители данных TeleMessage
           items:
             - name: Android
@@ -425,7 +423,7 @@
               href: configure-edge-to-export-search-results.md
             - name: Поиск и удаление сообщений электронной почты
               href: search-for-and-delete-messages-in-your-organization.md
-            - name: Поиск облачных почтовых ящиков локальных пользователей
+            - name: Поиск данных чата локальных пользователей в Teams
               href: search-cloud-based-mailboxes-for-on-premises-users.md
             - name: Массовое редактирование нескольких поисков контента
               href: bulk-edit-content-searches.md

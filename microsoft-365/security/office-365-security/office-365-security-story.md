@@ -6,6 +6,7 @@ manager: dansimp
 ms.date: 08/13/2020
 audience: Admin
 ms.topic: overview
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -13,12 +14,12 @@ search.appverid:
 ms.collection:
 - microsoft-365-docs-pr
 description: Безопасность в Office 365, с EOP до ATP Plans 1 и 2, стандартные и жесткие конфигурации безопасности и многое другое, чтобы можно было разознать, что у вас и как защитить свойства.
-ms.openlocfilehash: 66a83d99197b8af98ef191b348b1303a8233a990
-ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
+ms.openlocfilehash: 680066f58850f59523ae6fb8a8168459dd813fc1
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/29/2020
-ms.locfileid: "48299324"
+ms.locfileid: "48304850"
 ---
 # <a name="office-365-security-outline"></a>Структура безопасности Office 365
 
@@ -50,7 +51,7 @@ Office 365 Security создает базовые средства защиты,
 
 <!--:::image type="content" source="../../media/tp-EOPATPStack.PNG" alt-text="Placeholder graphic":::-->
 
-:::image type="content" source="../../media/tp_EOPandATPGraphic.png" alt-text="EOP и ATP, а также их связи друг с другом с выделением служб, включая Примечание для проверки подлинности электронной почты.":::
+:::image type="content" source="../../media/tp_EOPandATPGraphic.png" alt-text="Placeholder graphic":::
 
 Хотя каждая из этих служб подчеркивает определенную цель между защитой, обнаружением, изучением и ответом, ***все*** службы могут выполнять ***любые*** задачи, связанные с защитой, обнаружением, обучением и реагированием.
 
@@ -65,7 +66,7 @@ Office 365 Security создает базовые средства защиты,
 
 ## <a name="the-office-365-security-ladder-from-eop-to-atp"></a>Office 365 Security, начиная с EOP до ATP
 
-:::image type="content" source="../../media/tp_EOPATPEmailAuth4.gif" alt-text="EOP и ATP, а также определенные сильные стороны, начиная с защиты и обнаружения для исследования и ответа соответственно. Кроме того, конфигурация проверки подлинности электронной почты отображается по мере необходимости в EOP.":::
+:::image type="content" source="../../media/tp_EOPATPEmailAuth4.gif" alt-text="Placeholder graphic":::
 
 > [!IMPORTANT]
 > Сведения об этих страницах: [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide)и [Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).
