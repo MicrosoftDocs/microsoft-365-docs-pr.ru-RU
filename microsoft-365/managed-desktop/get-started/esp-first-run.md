@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d4083e48033787ca46ad2374ea461b4a77d21e0d
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 84656e2f0ae9d148c61c27af2a53e157cd44c171
+ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48296008"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48299243"
 ---
 # <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Интерфейс первого запуска с автоматическим пилотным развертыванием и страницей состояния регистрации
 
@@ -46,9 +46,10 @@ ms.locfileid: "48296008"
 |Тип учетной записи пользователя     |  Стандартный       |
 |Разрешить белый Глове OOBE     |  Да       |
 |Применение шаблона имени устройства     | Да        |
-|Введите имя     | ММД —% СЛЧИС: 7%        |
+|Введите имя     | ММД —% СЛЧИС: 11%        |
 
-
+> [!NOTE]
+> Несмотря на то, что "White Глове" ровисионинг включен только для клиентов с включенным протоколом ESP, он в настоящее время не поддерживается в управляемом рабочем столе Майкрософт.
 
 ## <a name="enrollment-status-page-settings"></a>Параметры страницы состояния регистрации
 
