@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Реализуйте возможности Microsoft Information Protection (МИП) с помощью соответствия требованиям Microsoft 365, которые помогают находить, классифицировать и защищать конфиденциальную информацию везде, где она живет или передается.
-ms.openlocfilehash: d69395523cb656d23e44b577f01338eb78c7b386
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 66938804a119022b6b44664ecd8f040e3c56123f
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277527"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295471"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Защита информации Майкрософт в Microsoft 365
 
@@ -50,10 +50,10 @@ ms.locfileid: "48277527"
 
 |Возможность|Какие проблемы она решает?|Начало работы|
 |:------|:------------|---------------------|:----------------------------|
-|[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для нескольких приложений, служб и устройств для подписи и защиты данных при их пересылке внутри и за пределами Организации <br /><br />Пример сценария: [применение и Просмотр меток конфиденциальности в Power BI и защита данных при экспорте](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[ Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
+|[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для нескольких приложений, служб и устройств для подписи и защиты данных при их пересылке внутри и за пределами Организации <br /><br />Пример сценария: [применение и Просмотр меток конфиденциальности в Power BI и защита данных при экспорте](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|[ Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
 |[Клиент единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Для компьютеров под управлением Windows дополнительные функции и функции, включающие метки и защиту всех типов файлов из проводника и PowerShell, расширяются метками конфиденциальности.<br /><br /> Примеры дополнительных функций: [настраиваемые конфигурации для клиента единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Руководство по администратору клиентов единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
-|[Шифрование с двойным ключом](double-key-encryption.md)| Во всех обстоятельствах только вы можете расшифровывать защищенный контент или требования законодательства, которые необходимо удерживать в пределах географической границы | [Развертывание двойного шифрования ключей](double-key-encryption.md)|
-|[Шифрование сообщений в Office 365](ome.md) (OME)| Шифрует сообщения электронной почты и вложенные документы, которые отправляются любому пользователю на любом устройстве, поэтому только авторизованные получатели могут читать электронную информацию.  <br /><br />Пример сценария: [отзыв электронной почты, зашифрованной с помощью расширенного шифрования сообщений](revoke-ome-encrypted-mail.md) | [Начало работы с шифрованием сообщений в Office 365](set-up-new-message-encryption-capabilities.md)|
+|[Шифрование с двойным ключом](double-key-encryption.md)| Во всех обстоятельствах только вы можете расшифровывать защищенный контент или требования законодательства, которые необходимо удерживать в пределах географической границы | [Развертывание двойного шифрования ключей](double-key-encryption.md#deploy-dke)|
+|[Шифрование сообщений в Office 365](ome.md) (OME)| Шифрует сообщения электронной почты и вложенные документы, которые отправляются любому пользователю на любом устройстве, поэтому только авторизованные получатели могут читать электронную информацию.  <br /><br />Пример сценария: [отзыв электронной почты, зашифрованной с помощью расширенного шифрования сообщений](revoke-ome-encrypted-mail.md) | [Настройка новых возможностей шифрования сообщений](set-up-new-message-encryption-capabilities.md)|
 |[Шифрование службы с помощью ключа клиента](customer-key-overview.md) | Обеспечивает защиту от просмотра данных неавторизованными системами или персоналом и дополняет шифрование диска BitLocker в центрах обработки данных Майкрософт. | [Настройка ключа клиента для Office 365](customer-key-set-up.md)|
 |[Управление правами на доступ к данным SharePoint (IRM)](set-up-irm-in-sp-admin-center.md#irm-enable-sharepoint-document-libraries-and-lists)|Защищает списки и библиотеки SharePoint таким образом, чтобы когда пользователь извлекает документ, скачанный файл защищен, чтобы только авторизованные пользователи могли просматривать и использовать файл в соответствии с указанными политиками. | [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)|
 [Соединитель управления правами](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector) |Только Защита для существующих локальных развертываний, использующих Exchange или SharePoint Server, а также файловых серверов, на которых выполняется Windows Server и инфраструктура классификации файлов (FCI) | [Действия по развертыванию соединителя службы управления правами](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector#steps-to-deploy-the-rms-connector)
