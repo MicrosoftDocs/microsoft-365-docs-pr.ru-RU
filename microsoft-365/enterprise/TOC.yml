@@ -334,13 +334,15 @@
           href: during-and-after-your-data-move.md
         - name: Ответы на общие вопросы о перемещении данных
           href: data-move-faq.md
-        - name: Microsoft Cloud Deutschland — программа миграции Office 365
-          href: ms-cloud-germany-transition.md
-        - name: Microsoft Cloud Deutschland — участие в миграции
-          href: ms-cloud-germany-migration-opt-in.md
         - name: Где хранятся данные клиента
           href: o365-data-locations.md
-- name: Удостоверение
+        - name: Microsoft Cloud Deutschland
+          items:
+            - name: Обзор
+              href: ms-cloud-germany-transition.md
+            - name: Согласие на миграцию
+              href: ms-cloud-germany-migration-opt-in.md
+- name: Identity
   items:
     - name: Стратегия
       href: identity-roadmap-microsoft-365.md

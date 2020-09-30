@@ -388,8 +388,6 @@
           href: restore-an-inactive-mailbox.md
         - name: Удаление неактивного почтового ящика
           href: delete-an-inactive-mailbox.md
-    - name: Видеоролики от группы управления данными
-      href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Управление записями
       items:
         - name: Сведения об управлении записями

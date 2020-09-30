@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 775a3d21697103d6ed0b891aef605197741d3dbd
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 1c12618b92a84cb7861d1df243a689cd1cf8a17c
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208127"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304839"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Механизм оценки и обмена Trusted Information Security Assessment Exchange (TISAX), Германия
 
 ## <a name="about-tisax"></a>Сведения о TISAX
 
-Чтобы помочь в защите постоянно растущего количества подключений в автомобильной промышленности, Немецкая ассоциация автомобильной промышленности ([Verband der Automobilindustrie](https://www.dict.cc/deutsch-englisch/Verband.html), VDA) разработала каталог критериев для оценки информационной безопасности. Оценка информационной безопасности по VDA ([немецкий](https://www.vda.de/de/themen/sicherheit-und-standards/informationssicherheit/informationssicherheit-sicherheitsanforderungen.html) и [английский](https://www.vda.de/en/topics/safety-and-standards/information-security/information-security-requirements) язык) основана на международных стандартах ISO / IEC 27001 и 27002, адаптированных для автомобильной промышленности. В 2017 году было выполнено обновление, чтобы охватить элементы управления для использования облачных служб.
+Чтобы помочь в защите постоянно растущего количества подключений в автомобильной промышленности, Немецкая ассоциация автомобильной промышленности ([Verband der Automobilindustrie](https://www.vda.de), VDA) разработала каталог критериев для оценки информационной безопасности. Оценка информационной безопасности по VDA ([немецкий](https://www.vda.de/de/themen/sicherheit-und-standards/informationssicherheit/informationssicherheit-sicherheitsanforderungen.html) и [английский](https://www.vda.de/en/topics/safety-and-standards/information-security/information-security-requirements) язык) основана на международных стандартах ISO / IEC 27001 и 27002, адаптированных для автомобильной промышленности. В 2017 году было выполнено обновление, чтобы охватить элементы управления для использования облачных служб.
 
 Компании, которые являются членами VDA, используют этот инструмент как для внутренних оценок безопасности, так и для оценок поставщиков, поставщиков услуг и других партнеров, которые обрабатывают конфиденциальные данные от вашего имени. Тем не менее, поскольку эти оценки выполнялись в индивидуальном порядке каждой компанией, то это создавало нагрузку для партнеров и дублировало усилия со стороны членов VDA.
 

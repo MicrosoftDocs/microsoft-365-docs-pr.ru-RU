@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 22518473a8caf038a0f0f1ef89085c50f4483d5b
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: fcb5f3b96ab62dec8926e2638866775beeb8206b
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416683"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304773"
 ---
 # <a name="shared-assessments-program"></a>Программа общей оценки
 
@@ -52,6 +52,6 @@ ms.locfileid: "47416683"
 
 ## <a name="resources"></a>Ресурсы
 
-- [Стандартное реагирование Azure на запрос сведений](https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6)
+- [Стандартное реагирование Azure на запрос сведений](https://azure.microsoft.com/resources/azure-standard-response-to-rfi-on-security-privacy-and-compliance/)
 - [Майкрософт и самостоятельная оценка CSA STAR](offering-csa-star-self-assessment.md)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
