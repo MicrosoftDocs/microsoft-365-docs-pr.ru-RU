@@ -1,4 +1,4 @@
-- name: Начало работы со сведениями о контенте
+- name: Начало работы с Microsoft SharePoint Синтекс
   items:
     - name: Введение в Microsoft SharePoint Синтекс
       href: microsoft-sharepoint-syntex-overview.md
@@ -16,7 +16,7 @@
       href: create-a-classifier.md
     - name: Создание средства извлечения
       href: create-an-extractor.md
-    - name: Обзор типов объяснения
+    - name: Типы объяснения
       href: explanation-types-overview.md
     - name: Применение модели
       href: apply-a-model.md
@@ -26,9 +26,11 @@
       href: apply-a-retention-label-to-a-model.md
     - name: Аналитика использования модели
       href: model-usage-analytics.md
+    - name: Использование таксономии банка терминов при создании средства извлечения
+      href: leverage-term-store-taxonomy.md
 - name: Настройка и администрирование
   items:
-    - name: Настройка понимания контента
+    - name: Настройка осмысления контента
       href: set-up-content-understanding.md
     - name: Маркировка изображений
       href: image-tagging.md

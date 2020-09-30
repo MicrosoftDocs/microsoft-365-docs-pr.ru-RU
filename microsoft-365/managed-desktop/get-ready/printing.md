@@ -9,18 +9,18 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1588a2c91bcbe0bd381acb6be4f9bd5562810860
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 5198691a38b179a5491a36de95531edb9f32d691
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530251"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322227"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Подготовка ресурсов печати для компьютеров, управляемых Майкрософт
 
 По мере готовности к регистрации на настольном компьютере Майкрософт необходимо оценить требования к печати и определить подходящий подход для вашей среды. У вас есть три варианта:
  
-- Развертывание гибридного облачного решения Майкрософт для упрощения обнаружения принтеров на настольных устройствах, управляемых корпорацией Майкрософт. Дополнительные сведения см в статье [Deploying гибридный Cloud Windows Server](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
+- Развертывание универсального решения печати Майкрософт для упрощения обнаружения принтеров на настольных устройствах, управляемых корпорацией Майкрософт. Для получения дополнительных сведений посмотрите, [что такое Универсальная печать](https://docs.microsoft.com/universal-print/fundamentals/universal-print-whatis).
 - Развертывайте принтеры напрямую с помощью настраиваемого скрипта PowerShell. Чтобы сделать это, выполните действия, описанные в разделе [Настройка локальных принтеров](#set-up-local-printers) .
 - Используйте решение для печати на основе сторонних производителей, совместимое с устройствами Windows 10, которые присоединены к домену Azure Active Directory. Решение должно соответствовать требованиям к программному обеспечению для настольных компьютеров, управляемых корпорацией Майкрософт. Для получения дополнительных сведений см в разделе [требования к приложениям, управляемым корпорацией Майкрософт](../service-description/mmd-app-requirements.md).
  
