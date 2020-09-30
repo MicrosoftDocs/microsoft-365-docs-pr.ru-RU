@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 0a0c0c1dae1d7f03aa9c8328b3fb1b4bae587b9e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: dbd20263fce059bc57b6a19b58f15e3f5223b4e7
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199713"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318211"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Заключение и подведение итогов для пилотной программы Майкрософт по защите от угроз  
 
@@ -37,6 +37,7 @@ ms.locfileid: "48199713"
 Вы достигли конца процесса после завершения всех тестов.
 
 Ниже приведен полный результат.
+
 - Завершенная система показателей
 - Подробный отчет о результатах пилотного проекта
 - Решение о перемещении вперед
@@ -45,9 +46,8 @@ ms.locfileid: "48199713"
 
 Мы надеемся, что вы довольны этой имитацией и готовы приступить к внедрению того, что вы узнали.
 
+## <a name="next-step"></a>Следующий шаг
 
-## <a name="next-step"></a>Следующий этап
-||
-|:-------|
-|Просмотрите решение и [центр архитектуры Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , чтобы узнать, как разработать решение и архитектуру, предназначенные для вашей организации.
+****
 
+Просмотрите решение и [центр архитектуры Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , чтобы узнать, как разработать решение и архитектуру, предназначенные для вашей организации.

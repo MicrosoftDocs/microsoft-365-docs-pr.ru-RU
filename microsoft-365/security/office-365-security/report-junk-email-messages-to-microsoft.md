@@ -16,14 +16,16 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать о различных способах сообщить о хорошем и плохом сообщениях и файлах в корпорацию Майкрософт для анализа.
-ms.openlocfilehash: cff9d1b3524200fba9d7ba1775e0b9851027158d
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: aeaf7a779ac9ba2d879a88dd72f4a457a26096ca
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315867"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318195"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Передача информации о сообщениях и файлах в корпорацию Майкрософт
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, как для пользователей, так и для администраторов, существует несколько различных способов отправки сообщений электронной почты и файлов в корпорацию Майкрософт.
 
@@ -40,6 +42,5 @@ ms.locfileid: "47315867"
 |[Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Узнайте, как создать правило для процесса обработки почты (также называемое правилом транспорта), которое уведомляет вас о том, что пользователи сообщают о сообщениях в корпорацию Майкрософт для анализа.
 |||
 |[Передача вредоносных и невредоносных программ в корпорацию Майкрософт для анализа](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Используйте сайт Microsoft Security Intelligence для отправления вложений и других файлов.|
-|
 
 Если Нежелательная почта или фишинговые сообщения помещены в карантин, а не доставлены, пользователи могут отправлять сообщения в корпорацию Майкрософт из карантинного портала в центре безопасности & соответствия требованиям. Подробные сведения см. [в статье Поиск и освобождение сообщений, помещенных в карантин, в качестве пользователя в Microsoft 365](find-and-release-quarantined-messages-as-a-user.md).

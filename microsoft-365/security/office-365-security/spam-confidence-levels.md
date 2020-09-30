@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о вероятности нежелательной почты (SCL), которая применяется к сообщениям в Exchange Online Protection (EOP).
-ms.openlocfilehash: fbd892b0171cee71f516d7ca3b26b91da664af79
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 51d00b36ae826676f436c0a74617ddbbadf7a30a
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202237"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318244"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>Уровень вероятности нежелательной почты (SCL) в EOP
 
@@ -50,6 +50,6 @@ ms.locfileid: "48202237"
 
 Как и в случае нежелательной почты, уровень жалоб (BCL) определяет неправильные массовые сообщения электронной почты (также называемые _серой почтой_). Более высокий уровень BCL указывает, что массово рассылаемое сообщение часто вызовет жалобы (и поэтому скорее всего является спамом). Вы настраиваете пороговое значение BCL в политиках защиты от нежелательной почты. Дополнительные сведения: [Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md), [массовых жалобах (BCL) в EOP)](bulk-complaint-level-values.md), а также [различия между нежелательной почтой и групповой почтой?](what-s-the-difference-between-junk-email-and-bulk-email.md).
 
-|<!-- -->|
-|---|
-|![Короткий значок LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **, впервые появился в Microsoft 365?** Бесплатные видеокурсы для **администраторов и ИТ-специалистов по Microsoft 365**, которые можно найти в LinkedIn Learning.|
+****
+
+![Короткий значок LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **, впервые появился в Microsoft 365?** Бесплатные видеокурсы для **администраторов и ИТ-специалистов по Microsoft 365**, которые можно найти в LinkedIn Learning.

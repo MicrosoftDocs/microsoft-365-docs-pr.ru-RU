@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут научиться настраивать фильтрацию подключений в Exchange Online Protection (EOP), чтобы разрешить или заблокировать сообщения с почтовых серверов.
-ms.openlocfilehash: d69ec30c9d6d812bf3bbcc6dc5b6df332d9dd0b5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 95e178e34c944c13cd99e4d4a0e9f30ed083842c
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203375"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318256"
 ---
 # <a name="configure-connection-filtering"></a>Настройка фильтрации подключений
 
@@ -141,7 +141,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – hostedconnectionfilterpolicy используется](https://docs.microsoft.com/powershell/module/exchange/set-hostedconnectionfilterpolicy).
 
-## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
+## <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 
 Чтобы убедиться, что политика фильтра подключений по умолчанию успешно изменена, выполните одно из указанных ниже действий.
 
@@ -203,7 +203,6 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 ## <a name="new-to-microsoft-365"></a>Новая возможность для Microsoft 365?
 
-|<!-- a -->|
-|---|
-|![Короткий значок LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **, впервые появился в Microsoft 365?** Бесплатные видеокурсы для **администраторов и**ИТ-специалистов, предоставляемые программой LinkedIn Learning.|
-|
+****
+
+![Короткий значок LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **, впервые появился в Microsoft 365?** Бесплатные видеокурсы для **администраторов и ИТ-специалистов по Microsoft 365**, которые можно найти в LinkedIn Learning.

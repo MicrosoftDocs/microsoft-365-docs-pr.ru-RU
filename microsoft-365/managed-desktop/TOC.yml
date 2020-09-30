@@ -95,6 +95,8 @@
               href: get-started/register-reused-devices-self.md
         - name: Подготовка пользователей к работе с устройствами
           href: get-started/get-started-devices.md
+        - name: Первый запуск с помощью Autopilot и страницы состояния регистрации
+          href: get-started/esp-first-run.md
         - name: Начало работы с элементом управления приложениями
           href: get-started/get-started-app-control.md
         - name: Развертывание приложений
