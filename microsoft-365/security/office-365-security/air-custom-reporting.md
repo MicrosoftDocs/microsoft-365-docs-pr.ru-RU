@@ -1,6 +1,6 @@
 ---
 title: Использование настраиваемых решений для создания отчетов с автоматизированным исследованием и ответом
-keywords: ВОЗДУШный, Аутоир, ATP, автоматизированный, исследование, ответ, исправление, угрозы, усовершенствованный, угроза, защита
+keywords: SIEM, API, AIR, Аутоир, ATP, автоматическое исследование, интеграция, настраиваемый отчет
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -15,19 +15,22 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Сведения о том, как интегрировать автоматическое исследование и отвечать с помощью настраиваемого или стороннего решения для создания отчетов.
-ms.openlocfilehash: 2ff0ef995fc8418c3d57895f00ea96f05b0aaa97
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.date: 09/29/2020
+ms.custom:
+- air
+ms.openlocfilehash: 08502516ae03dc7c6e7b58aa77939723e7532ef0
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195609"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308924"
 ---
 # <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>Использование API действий управления для настраиваемых и сторонних решений для создания отчетов
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-С помощью [Office 365 Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)вы получаете [подробные сведения об автоматическом расследовании](air-view-investigation-results.md). Однако в некоторых организациях также используется собственное или стороннее решение для создания отчетов. Если в Организации требуется интегрировать сведения об автоматическом расследовании с таким решением, вы можете использовать API действий управления Office 365.
+С помощью [защитника Microsoft для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)вы получаете [подробные сведения об автоматическом расследовании](air-view-investigation-results.md). Однако в некоторых организациях также используется собственное или стороннее решение для создания отчетов. Если в Организации требуется интегрировать сведения об автоматическом расследовании с таким решением, вы можете использовать API действий управления Office 365.
 
 Используйте следующие ресурсы для настройки:
 
@@ -41,8 +44,8 @@ ms.locfileid: "48195609"
 |[Схема API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)|В этой статье представлены общие сведения о конкретных типах данных, доступных через API действий управления Office 365, а также сведения о том, как ознакомиться с [общими схемами](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) и сведениями об [анализе и ответе на Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) .|
 |
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="see-also"></a>См. также
 
-- [Office 365 Advanced Threat Protection](office-365-atp.md)
+- [Защитник Майкрософт для Office 365](office-365-atp.md)
 
-- [Сведения об автоматическом расследовании и ответе в защите от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Автоматическое исследование и ответ в защитнике Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

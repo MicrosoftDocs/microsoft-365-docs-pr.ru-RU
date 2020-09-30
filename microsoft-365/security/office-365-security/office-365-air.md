@@ -8,27 +8,29 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
+ms.date: 09/29/2020
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: adee64461d06b46f467682835a493a7eebe89aef
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в защитнике Майкрософт для Office 365.
+ms.custom:
+- air
+- seo-marvel-mar2020
+ms.openlocfilehash: b844e4817bc77d7f6f4e99df53fc4b14c7e7110c
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202655"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308891"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Начало работы с автоматизированным исследованием и откликом (AIR) в Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
-[Office 365 Advanced Threat protection](office-365-atp.md) (Office 365 ATP), план 2 включает мощные возможности автоматического исследования и реагирования (AIR), которые могут сэкономить время и усилия группы по обеспечению безопасности. По мере инициирования оповещений группа действий по обеспечению безопасности может просматривать и отвечать на них, а также определять приоритеты и отвечать на них. Поддержание появления входящих оповещений может быть затруднительной. Автоматизация некоторых из них может помочь. В среде AIR группа управления операциями безопасности может сосредоточиться на задачах с более высоким приоритетом, не теряя уведомления о триггерах.
+[Защитник Майкрософт для Office 365](office-365-atp.md) включает мощные возможности автоматического исследования и реагирования (AIR), которые могут сэкономить время и усилия группы по обеспечению безопасности. По мере инициирования оповещений группа действий по обеспечению безопасности может просматривать и отвечать на них, а также определять приоритеты и отвечать на них. Поддержание появления входящих оповещений может быть затруднительной. Автоматизация некоторых из них может помочь. В среде AIR группа управления операциями безопасности может сосредоточиться на задачах с более высоким приоритетом, не теряя уведомления о триггерах.
 
 В этой статье описаны следующие проблемы:
 - [Общий поток](#the-overall-flow-of-air) воздуха;
@@ -73,7 +75,7 @@ ms.locfileid: "48202655"
 
 ## <a name="how-to-get-air"></a>Как получить воздух
 
-Возможности AIR в Office 365 включены в [план 2 для office 365 Advanced Threat protection (план 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)). Тем не менее, [политики Office 365 ATP должны быть настроены](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) , чтобы воздух работал должным образом. Кроме того, необходимо проверить и, возможно, настроить [политики оповещений](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)в Организации. 
+Возможности воздуха включены в [защитник Майкрософт для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2). Тем не менее, [политики должны быть настроены](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) , чтобы воздух работал должным образом. Кроме того, необходимо проверить и, возможно, настроить [политики оповещений](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)в Организации. 
 
 Microsoft 365 предоставляет множество встроенных политик оповещений, которые помогают определить разрешения администратора Exchange, опасные действия, потенциальные внешние и внутренние угрозы, а также риски управления сведениями. Некоторые [политики оповещений по умолчанию](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) могут инициировать автоматическое расследование. К ним относятся:
 
@@ -100,12 +102,12 @@ Microsoft 365 предоставляет множество встроенных
 |Настройка функций AIR |Одна из следующих ролей: <br/>— Глобальный администратор<br/>— Администратор безопасности <br/>Эти роли можно назначить в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
 |Утверждение или отклонение рекомендуемых действий|Одна из следующих ролей, назначенных в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>— Глобальный администратор <br/>— Администратор безопасности<br/>— Средство чтения безопасности <br/>--- и ---<br/>-Поиск и очистка (эта роль назначается только в [центре безопасности & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Возможно, вам потребуется создать новую группу ролей и добавить роль "Поиск и очистка" в новую группу ролей.)
 
-Лицензии на [Office 365 ATP 2 (план 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) ) должны быть назначены следующим:
+Лицензии [Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) должны быть назначены следующим продуктам:
 - Администраторы безопасности (в том числе глобальные администраторы)
 - Группа управления операциями безопасности Организации (включая средства чтения и очистки с ролью поиска и очистки).
 - Пользователи
 
-Кроме того, необходимо определить и применить [политики Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) , чтобы обеспечить защиту.
+Кроме того, необходимо определить и применить [политики Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) , чтобы обеспечить защиту.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -115,6 +117,6 @@ Microsoft 365 предоставляет множество встроенных
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Автоматическое исследование и устранение неполадок в Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [Автоматическое исследование и исправление в защитнике Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
-- [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Автоматическое исследование и ответ в защитнике Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

@@ -1,6 +1,6 @@
 ---
-title: Составление отчетов о ложных срабатываниях и ложных отрицательных отрицательных результатов в Office 365 автоматизированное исследование и отклик
-description: Было ли что-то пошло или неправильно обнаружено в Office 365 Advanced Threat protection? Сведения о том, как передавать ложные срабатывания или ложные отрицательные результаты в корпорацию Майкрософт для анализа.
+title: Как сообщить о ложных срабатываниях или ложных отрицательных отрицательных результатов при автоматическом расследовании в защитнике Майкрософт для Office 365
+description: Было ли что-то пошло не так, как было обнаружено ВОЗДУХом в защитнике Майкрософт для Office 365? Сведения о том, как передавать ложные срабатывания или ложные отрицательные результаты в корпорацию Майкрософт для анализа.
 keywords: автоматические, исследование, оповещение, триггер, действие, исправление, ложное срабатывание, ложные отрицательные значения
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -11,20 +11,21 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 05/15/2020
+ms.date: 09/29/2020
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
-ms.custom: autoir
-ms.openlocfilehash: 66b81a474ff81df57c0b2a59672b17061f7235cb
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.custom:
+- autoir
+ms.openlocfilehash: fa6b4ae03a3cf62398a270d65a29e6b4c955173a
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196087"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308936"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Составление отчетов о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования
 
@@ -32,7 +33,7 @@ ms.locfileid: "48196087"
 
 
 **Область применения:**
-- Office 365 Advanced Threat Protection
+- Защитник Майкрософт для Office 365
 
 Были ли [автоматизированные функции расследования и реагирования (AIR) в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) пропустили или ошибочно обнаружить что-то? Чтобы устранить эту проблему, выполните указанные ниже действия. Вы можете выполнить указанные ниже действия.
 - [Сообщить о ложных положительных и отрицательных значениях корпорации Майкрософт](#report-a-false-positivenegative-to-microsoft-for-analysis);
@@ -43,7 +44,7 @@ ms.locfileid: "48196087"
 
 ## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Сообщить о ложном положительном/отрицательном виде в корпорацию Майкрософт для анализа
 
-Если в Office 365 воздух пропустил сообщение электронной почты, вложение электронной почты, URL-адрес в сообщении электронной почты или URL-адрес в файле Office, вы можете [отправлять сообщения о подозрениях, фишинг, URL-адреса и файлы в корпорацию Майкрософт для сканирования в office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
+Если воздух в защитнике Microsoft для Office 365 пропустил сообщение электронной почты, вложение электронной почты, URL-адрес в сообщении электронной почты или URL-адрес в файле Office, вы можете [отправлять сообщения о подозрениях, фишинг, URL-адреса и файлы в корпорацию Майкрософт для сканирования в office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
 
 Вы также можете [передать файл в корпорацию Майкрософт для анализа вредоносных программ](https://www.microsoft.com/wdsi/filesubmission).
 
@@ -51,7 +52,7 @@ ms.locfileid: "48196087"
 
 Если оповещение инициировано законным использованием или оповещение неточны, вы можете [управлять оповещениями на портале Cloud App Security](https://docs.microsoft.com/cloud-app-security/managing-alerts).
 
-Если в организации используется [Advanced Threat protection (Майкрософт](https://docs.microsoft.com/windows/security/threat-protection) ) в дополнение к Office 365, а файл, IP-адрес, URL-адрес или домен считаются вредоносными программами на устройстве, даже если это безопасно, можно [создать настраиваемый индикатор с действием "разрешить" для вашего устройства](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators).
+Если в организации используется [защитник Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection) в дополнение к Office 365, а файл, IP-адрес, URL-адрес или домен считаются вредоносными программами на устройстве, даже если это безопасно, можно [создать настраиваемый индикатор с действием "разрешить" для вашего устройства](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators).
 
 ## <a name="undo-a-remediation-action"></a>Отмена действия по исправлению
 
@@ -90,6 +91,6 @@ ms.locfileid: "48196087"
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+[Защитник Майкрософт для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 
-[Начало работы с автоматизированным исследованием и откликом (AIR) в Office 365](office-365-air.md)
+[ВОЗДУХ в защитнике Майкрософт для Office 365](office-365-air.md)
