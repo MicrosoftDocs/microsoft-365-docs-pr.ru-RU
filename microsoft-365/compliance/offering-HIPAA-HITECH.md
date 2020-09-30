@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 37da9f692b3556bf887d742ece3b99cdc1da60a2
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: a6605f7d8561532121e54f02b579de26879baa1a
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208411"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305243"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -51,7 +51,7 @@ ms.locfileid: "48208411"
 
 Чтобы узнать, как Microsoft Cloud помогает клиентам поддерживать требования закона об HIPAA и HITECH, посетите [материалы клиентов корпорации Майкрософт](https://customers.microsoft.com).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
@@ -70,9 +70,9 @@ ms.locfileid: "48208411"
 
 Узнайте, как использовать преимущества облака для решений с данными о работоспособности в плане безопасности и соответствия требованиям Azure — данные об исправности HIPAA/HITRUST и AI. Этот проект содержит инструменты и рекомендации, которые помогут вам начать создавать решения HIPAA/HITRUST сегодня.
 
-[Начало использования чертежа Azure HIPAA/HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
+[Начало использования чертежа Azure HIPAA/HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 
-## <a name="frequently-asked-questions"></a>Вопросы и ответы
+## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 
 **Может ли моя организация войти в BAA с помощью корпорации Майкрософт?**
 
@@ -104,7 +104,7 @@ ms.locfileid: "48208411"
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
 
-[Диспетчер соответствия требованиям (Майкрософт](compliance-manager.md) ) — это функция в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам оценить уровень соответствия требованиям организации и предпринять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет расширенный шаблон для создания оценки этих нормативных требований. Найдите шаблон на странице " **шаблоны оценки** " в диспетчере соответствия требованиям. Узнайте, как [создавать оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
+[Диспетчер соответствия требованиям (Майкрософт)](compliance-manager.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет премиум-шаблон для оценки этих нормативных требований. Шаблон находится на странице **шаблонов оценки** в диспетчере соответствия требованиям. См. [Создание оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 
