@@ -298,7 +298,7 @@
             - name: Настройка поддержки нескольких регионов
               href: multi-geo-tenant-configuration.md
             - name: Настройка предпочтительного расположения данных
-              href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json
+              href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/Enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
             - name: Настройка поиска
               href: configure-search-for-multi-geo.md
         - name: Управление
@@ -395,25 +395,31 @@
           href: microsoft-365-secure-sign-in.md
     - name: Управление
       items:
-        - name: Назначение лицензий учетным записям пользователей
+        - name: Учетные записи пользователей
+          items:
+            - name: Учетные записи пользователей
+              href: manage-microsoft-365-accounts.md
+            - name: Добавление нескольких пользователей одновременно
+              href: add-several-users-at-the-same-time.md
+        - name: Лицензии
           href: assign-licenses-to-user-accounts.md
-        - name: Центр справки Microsoft 365
-          href: 'https://docs.microsoft.com/office365/admin/admin-home'
-        - name: Средства для управления учетными записями пользователей
-          href: manage-microsoft-365-accounts.md
-        - name: Добавление нескольких пользователей одновременно
-          href: add-several-users-at-the-same-time.md
+        - name: Пароли
+          href: manage-microsoft-365-passwords.md
+        - name: Группы
+          href: manage-microsoft-365-groups.md
+        - name: Управление
+          href: manage-microsoft-365-identity-governance.md
         - name: 'Восстановление элементов, удаленных из почтового ящика пользователя'
           href: recover-deleted-items-in-a-mailbox.md
-        - name: Синхронизация службы каталогов
+        - name: Синхронизация каталогов
           items:
-            - name: Просмотр состояния синхронизации службы каталогов
+            - name: Просмотр состояния
               href: view-directory-synchronization-status.md
-            - name: Определение ошибок синхронизации службы каталогов
+            - name: Обнаружение ошибок
               href: identify-directory-synchronization-errors.md
-            - name: Устранение проблем с синхронизацией службы каталогов
+            - name: Устранение проблем
               href: fix-problems-with-directory-synchronization.md
-            - name: Отключение синхронизации службы каталогов
+            - name: Выключение
               href: turn-off-directory-synchronization.md
 - name: Клиентское и серверное программное обеспечение
   items:
@@ -645,9 +651,9 @@
           href: lightweight-base-configuration-microsoft-365-enterprise.md
         - name: Имитированная компания
           href: simulated-ent-base-configuration-microsoft-365-enterprise.md
-    - name: Удостоверение
+    - name: Identity
       items:
-        - name: Синхронизация хэша паролей
+        - name: Синхронизация хэшей паролей
           href: password-hash-sync-m365-ent-test-environment.md
         - name: Сквозная проверка подлинности
           href: pass-through-auth-m365-ent-test-environment.md
