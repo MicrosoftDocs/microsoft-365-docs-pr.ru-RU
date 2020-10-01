@@ -28,6 +28,10 @@
       href: model-usage-analytics.md
     - name: Использование таксономии банка терминов при создании средства извлечения
       href: leverage-term-store-taxonomy.md
+- name: TAP
+  items:
+    - name: Приступая к внедрению
+      href: adoption-getstarted.md
 - name: Настройка и администрирование
   items:
     - name: Настройка осмысления контента
