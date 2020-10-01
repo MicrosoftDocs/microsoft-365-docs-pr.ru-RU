@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9d1f259894fff720452de52c45424f086a31a6bb
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: f4394a66242a981ab179b07f45e82132f68968d7
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208181"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305359"
 ---
 # <a name="north-american-electric-reliability-corporation-nerc"></a>Североамериканская корпорация по обеспечению надежности электросистем (NERC)
 
@@ -88,6 +88,7 @@ ms.locfileid: "48208181"
 ## <a name="resources"></a>Ресурсы
 
 - [Руководство по соблюдению требований NERC](https://www.nerc.com/pa/comp/guidance/)
+- [Кибербезопасность NERC — управление рисками цепочки поставок](https://www.nerc.com/pa/Stand/Pages/CIP0131RI.aspx)
 - [Соблюдение и обеспечение соблюдения требований NERC](https://www.nerc.com/pa/comp/Pages/default.aspx)
 - [Организация и сертификация NERC](https://www.nerc.com/pa/comp/Pages/Registration.aspx)
 - [Майкрософт и FedRAMP](offering-fedramp.md)
