@@ -439,8 +439,6 @@
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Обзор панели мониторинга безопасности
               href: ./office-365-security/security-dashboard.md
-            - name: Просмотр сведений о вредоносных файлах
-              href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
         - name: "Office\_365 Advanced Threat Protection"
           href: ./office-365-security/office-365-atp.md
           items:
@@ -452,19 +450,23 @@
               items:
                 - name: Задачи настройки глобального администратора
                   items:
-                    - name: Настройка политик безопасных ссылок ATP
-                      href: ./office-365-security/set-up-atp-safe-links-policies.md
-                    - name: Настройка политик безопасных вложений ATP
+                    - name: Настройка политик безопасных вложений в Office 365 ATP
                       href: ./office-365-security/set-up-atp-safe-attachments-policies.md
-                    - name: 'Создание настраиваемого списка URL-адресов, не подлежащих переопределению'
-                      href: ./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md
-                    - name: Создание настраиваемого списка блокируемых URL-адресов
-                      href: ./office-365-security/set-up-a-custom-blocked-urls-list-atp.md
+                    - name: Настройка политик безопасных ссылок в Office 365 ATP
+                      href: ./office-365-security/set-up-atp-safe-links-policies.md
+                    - name: Настройка глобальных параметров для безопасных ссылок в Office 365 ATP
+                      href: ./office-365-security/configure-global-settings-for-safe-links.md
                 - name: Задачи настройки администратора ролей
                   items:
                     - name: 'Включить ATP для SharePoint, OneDrive и Microsoft Teams'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
-            - name: Представления кампании
+            - name: Безопасные вложения в Office 365 ATP
+              href: ./office-365-security/atp-safe-attachments.md
+            - name: 'ATP для SharePoint, OneDrive и Microsoft Teams'
+              href: ./office-365-security/atp-for-spo-odb-and-teams.md
+            - name: Безопасные ссылки в Office 365 ATP
+              href: ./office-365-security/atp-safe-links.md
+            - name: "Представления кампаний в Office\_365 ATP"
               href: ./office-365-security/campaigns.md
             - name: Автоматическое исследование и реагирование
               items:
@@ -490,8 +492,6 @@
               href: ./office-365-security/view-reports-for-atp.md
             - name: Использование аналитики угроз для описания последних атак
               href: ./mtp/latest-attack-campaigns.md
-            - name: Значение страниц предупреждения безопасных ссылок ATP
-              href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: Использование журналов учета угроз
               href: ./office-365-security/threat-trackers.md
             - name: Эмулятор атак в Office 365 ATP
@@ -515,14 +515,6 @@
               items:
                 - name: Как работает автоматическое исследование и реагирование
                   href: ./office-365-security/automated-investigation-response-office.md
-                - name: Как работают безопасные ссылки ATP
-                  href: ./office-365-security/how-atp-safe-links-works.md
-                - name: Как работают безопасные вложения ATP
-                  href: ./office-365-security/how-atp-safe-attachments-works.md
-                - name: Сведения о динамической доставке и предварительном просмотре
-                  href: ./office-365-security/dynamic-delivery-and-previewing.md
-                - name: 'ATP для SharePoint, OneDrive и Microsoft Teams'
-                  href: ./office-365-security/atp-for-spo-odb-and-teams.md
                 - name: Как работает анализ угроз и реагирование на них
                   href: ./office-365-security/office-365-ti.md
         - name: 'Управление инцидентами, связанными с безопасностью'
