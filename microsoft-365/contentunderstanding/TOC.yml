@@ -1,13 +1,15 @@
-- name: Начало работы с Microsoft SharePoint Синтекс
+- name: Сведения о Microsoft SharePoint Синтекс
   items:
-    - name: Введение в Microsoft SharePoint Синтекс
-      href: microsoft-sharepoint-syntex-overview.md
+    - name: Введение в SharePoint Синтекс
+      href: index.md
     - name: Общие сведения о документе
       href: document-understanding-overview.md
     - name: Обзор обработки форм
       href: form-processing-overview.md
     - name: Разница между общими сведениями о документе и моделями обработки форм
       href: difference-between-document-understanding-and-form-processing-model.md
+- name: Начало работы с моделями
+  items:
     - name: Сведения о моделях через пример модели
       href: learn-about-document-understanding-models-through-the-sample-model.md
     - name: Создание центра контента
@@ -46,5 +48,5 @@
       href: skos-format-reference.md
     - name: Передача типа контента в центр
       href: push-content-type-to-hub.md
-    - name: Отчеты о банке терминов
+    - name: Отчеты банка терминов
       href: term-store-analytics.md
