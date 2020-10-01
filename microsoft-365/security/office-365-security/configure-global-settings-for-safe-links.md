@@ -1,0 +1,157 @@
+---
+title: Настройка глобальных параметров для параметров безопасных ссылок в Office 365 ATP
+f1.keywords:
+- NOCSH
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+audience: Admin
+ms.topic: article
+ms.date: ''
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+- MOE150
+ms.assetid: ''
+ms.collection:
+- M365-security-compliance
+description: Администраторы могут узнать, как просматривать и настраивать глобальные параметры (список "блокировать следующие URL-адреса" и "Защита для приложений Office 365") для безопасных ссылок в Office 365 Advanced Threat protection (ATP).
+ms.openlocfilehash: 6ca18bfb555419a8f4a61b55715f328ed7da5e88
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328565"
+---
+# <a name="configure-global-settings-for-safe-links-in-office-365-atp"></a>Настройка глобальных параметров для безопасных ссылок в Office 365 ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+> [!IMPORTANT]
+> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о Сафелинкс в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+
+"Безопасные ссылки" это функция в [Office 365 Advanced Threat protection (ATP)](office-365-atp.md) , которая обеспечивает сканирование URL-адресов входящих сообщений электронной почты в почтовом ящике и время нажатия проверки URL-адресов и ссылок в сообщениях электронной почты и других расположениях. Дополнительные сведения см в статье [безопасные ссылки в Office 365 ATP](atp-safe-links.md).
+
+Большинство параметров безопасных ссылок настраиваются в политиках безопасных ссылок. Инструкции приведены в разделе [Настройка политик безопасных ссылок в Office 365 ATP](set-up-atp-safe-links-policies.md).
+
+Однако безопасные ссылки также используют глобальные параметры, которые применяются ко всем пользователям, включенным в активные политики безопасных ссылок. Область глобальных параметров:
+
+- **Заблокируйте следующий список URL-адресов** . Для получения дополнительных сведений см. [список "Блокировка следующих URL-адресов" для безопасных ссылок](atp-safe-links.md#block-the-following-urls-list-for-safe-links)
+- Защита безопасных ссылок для приложений Office 365. Дополнительные сведения приведены в разделе [Параметры безопасных ссылок для приложений Office 365](atp-safe-links.md#safe-links-settings-for-office-365-apps).
+
+Параметры глобальных безопасных ссылок можно настроить в центре безопасности & соответствия требованиям или в PowerShell (Exchange Online PowerShell для подходящих организаций Microsoft 365 с почтовыми ящиками в Exchange Online; автономная оболочка EOP PowerShell для организаций без почтовых ящиков Exchange Online, но с подписками на надстройки Office 365 для Office).
+
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
+
+- Функции, предоставляемые глобальными параметрами для безопасных ссылок, применяются только к пользователям, включенным в активные политики безопасных ссылок. Встроенной политики или безопасной ссылки по умолчанию нет, поэтому необходимо создать хотя бы одну политику безопасных ссылок, чтобы активировать эти глобальные параметры. Инструкции приведены в разделе [Настройка политик безопасных ссылок в Office 365 ATP](set-up-atp-safe-links-policies.md).
+
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на страницу " **безопасные ссылки" ATP** , используйте <https://protection.office.com/safelinksv2> .
+
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+
+- Чтобы просмотреть и настроить глобальные параметры для безопасных ссылок, необходимо быть членом одной из следующих групп ролей:
+
+  - **Управление организацией** или **Администратор безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+  - **Управление организацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+- Для наших рекомендуемых значений глобальных параметров для безопасных ссылок в разделе [Параметры](recommended-settings-for-eop-and-office365-atp.md#safe-links-settings)безопасных ссылок.
+
+- Разрешить применение новой или обновленной политики до 30 минут.
+
+- [Новые функции постоянно добавляются в ATP](office-365-atp.md#new-features-in-office-365-atp). По мере добавления новых функций может потребоваться внести изменения в существующие политики безопасных ссылок.
+
+## <a name="configure-the-block-the-following-urls-list-in-the-security--compliance-center"></a>Настройте список "блокировать следующие URL-адреса" в центре безопасности & соответствия требованиям
+
+В списке **блокировать следующие URL-адреса** указываются ссылки, которые должны всегда блокироваться с помощью поиска безопасных ссылок в поддерживаемых приложениях. Для получения дополнительных сведений см. [список "Блокировка следующих URL-адресов" для безопасных ссылок](atp-safe-links.md#block-the-following-urls-list-for-safe-links).
+
+1. В центре безопасности & соответствия требованиям перейдите к разделу политика **управления угрозой** \> **Policy** \> **безопасных ссылок ATP**и выберите **глобальные параметры**.
+
+2. Когда откроется **Политика безопасных ссылок** , перейдите к полю **блокировать следующие URL-адреса** .
+
+3. Настройте одну или несколько записей, как описано в разделе [синтаксис записи для списка "Блокировка следующих URL-адресов"](atp-safe-links.md#entry-syntax-for-the-block-the-following-urls-list).
+
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+
+### <a name="configure-the-block-the-following-urls-list-in-powershell"></a>Настройка списка "блокировать следующие URL-адреса" в PowerShell
+
+Для получения дополнительных сведений о синтаксисе записей обратитесь к разделу ["Блокировка следующих URL-адресов"](atp-safe-links.md#entry-syntax-for-the-block-the-following-urls-list).
+
+С помощью командлета **Get – AtpPolicyForO365** можно просматривать существующие записи в свойстве _блоккурлс_ .
+
+- Чтобы добавить значения, которые будут заменять все существующие записи, используйте следующий синтаксис в Exchange Online PowerShell или PowerShell Exchange Online Protection:
+
+  ```powershell
+  Set-AtpPolicyForO365 -BlockUrls "Entry1","Entry2",..."EntryN"
+  ```
+
+  В этом примере в список добавляются следующие записи:
+
+  - Блокировать домен, дочерние домены и пути для fabrikam.com.
+  - Блокировка исследований поддоменов, но не родительского домена или других поддоменов в tailspintoys.com
+
+  ```powershell
+  Set-AtpPolicyForO365 -BlockUrls "fabrikam.com","https://research.tailspintoys.com*"
+  ```
+
+- Чтобы добавить или удалить значения, не затрагивая другие существующие записи, используйте следующий синтаксис:
+
+  ```powershell
+  Set-AtpPolicyForO365 -BlockUrls @{Add="Entry1","Entry2"...; Remove="Entry3","Entry4"...}
+  ```
+
+  В этом примере добавляется новая запись для adatum.com и удаляется запись для fabrikam.com.
+
+  ```powershell
+  Set-AtpPolicyForO365 -BlockUrls @{Add="adatum.com"; Remove="fabrikam"}
+  ```
+
+## <a name="configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center"></a>Настройка защиты безопасных ссылок для приложений Office 365 в центре безопасности & соответствия требованиям
+
+Защита безопасных ссылок для приложений Office 365. применяется к документам в поддерживаемых приложениях Office для настольных ПК, мобильных устройств и веб-приложений. Дополнительные сведения приведены в разделе [Параметры безопасных ссылок для приложений Office 365](atp-safe-links.md#safe-links-settings-for-office-365-apps).
+
+1. В центре безопасности & соответствия требованиям перейдите к разделу политика **управления угрозой** \> **Policy** \> **безопасных ссылок ATP**и выберите **глобальные параметры**.
+
+2. В разделе **Политика безопасных ссылок для своей организации** необходимо настроить следующие параметры в **параметрах, которые применяются к содержимому, кроме раздела Электронная почта** :
+
+   - **Приложения office 365**: установите флажок справа, чтобы включить безопасные ссылки для поддерживаемых приложений Office 365: ![ вкл ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+
+   - **Не Отслеживайте, когда пользователи щелкают ссылки "безопасные ссылки**": перемещение переключателя влево для отслеживания нажатий кнопок, связанных с заблокированными URL-адресами в поддерживаемых приложениях Office 365: ![ вкл ](../../media/scc-toggle-off.png) .
+
+   - **Не разрешать пользователям щелкать ссылки по безопасному URL-адресу**: Проверьте переключатель справа, чтобы запретить пользователям переходить к исходному заблокированному URL-адресу в поддерживаемых приложениях Office 365: ![ включить ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+
+### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>Настройка защиты безопасных ссылок для приложений Office 365 в PowerShell
+
+Если вы предпочитаете использовать PowerShell для настройки защиты безопасных ссылок для приложений Office 365, используйте следующий синтаксис в Exchange Online PowerShell или PowerShell Exchange Online Protection:
+
+```powershell
+Set-AtpPolicyForO365 [-EnableSafeLinksForO365Clients <$true | $false> [-AllowClickThrough <$true | $false>] [-TrackClicks <$true | $false>]
+```
+
+В этом примере настраиваются следующие параметры для защиты безопасных ссылок в приложениях Office 365:
+
+- Безопасные ссылки для приложений Office 365 включены (мы не используем параметр _EnableSafeLinksForO365Clients_ , а значение по умолчанию — $true).
+- Отслеживаются нажатия клавиш, связанные с заблокированными URL-адресами в поддерживаемых приложениях Office 365.
+- Пользователям запрещено щелкать по исходному заблокированному URL-адресу в поддерживаемых приложениях Office 365 (мы не используем параметр _алловкликксраугх_ , а значение по умолчанию — $false).
+
+```powershell
+Set-AtpPolicyForO365 -TrackClicks $true
+```
+
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365).
+
+## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
+
+Чтобы убедиться, что вы успешно настроили глобальные параметры для "безопасные ссылки" ( **блокировать следующий список URL-адресов** и параметры защиты приложений Office 365), выполните одно из указанных ниже действий.
+
+- В центре безопасности & соответствия требованиям перейдите к разделу политика **управления угрозой** \> **Policy** \> **безопасных ссылок ATP**, щелкните **глобальные параметры**и проверьте, отображаются ли параметры на лету.
+
+- В PowerShell Exchange Online или Exchange Online Protection выполните следующую команду и проверьте параметры:
+
+  ```powershell
+  Get-AtpPolicyForO365 | Format-List BlockUrls,EnableSafeLinksForO365Clients,AllowClickThrough,TrackClicks
+  ```
+
+  Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/get-atppolicyforo365).

@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Защита бизнес-сообщений и данных от угроз кибератак, в том числе от атак, фишинга и вредоносных вложений.
-ms.openlocfilehash: 6643228a3f71ba3c0c993577ba60b8e365b3d3df
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: 754f3eac884128e0707a02c15d4d3766f5fa4ca5
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318232"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327799"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>12 самых популярных задач по обеспечению безопасности Teams для поддержки работы из дома
 
@@ -100,14 +100,13 @@ Office 365 ATP:
 
 Глобальный администратор может настроить эти параметры защиты:
 
-- [Настройка безопасных ссылок ATP](office-365-security/set-up-atp-safe-links-policies.md)
-- [Настройка политик безопасных вложений ATP](office-365-security/set-up-atp-safe-attachments-policies.md)
-- [Создание настраиваемого списка URL-адресов, не подлежащих переопределению](office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
-- [Создание настраиваемого списка блокируемых URL-адресов](office-365-security/set-up-a-custom-blocked-urls-list-atp.md)
+- [Настройка политик безопасных ссылок](office-365-security/set-up-atp-safe-links-policies.md)
+- [Настройка глобальных параметров для безопасных ссылок](office-365-security/configure-global-settings-for-safe-links.md)
+- [Настройка политик безопасных вложений](office-365-security/set-up-atp-safe-attachments-policies.md)
 
 Для настройки ATP для этих рабочих нагрузок потребуется работать с администратором Exchange Online и администратором SharePoint Online:
 
-- [Включение ATP для SharePoint, OneDrive и Microsoft Teams](office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
+- [ATP для SharePoint, OneDrive и Microsoft Teams](office-365-security/atp-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-azure-advanced-threat-protection"></a>4: Configure Advanced Threat Protection в Azure
 

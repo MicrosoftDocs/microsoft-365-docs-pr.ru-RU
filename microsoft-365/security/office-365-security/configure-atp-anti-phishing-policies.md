@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как создавать, изменять и удалять расширенные политики защиты от фишинга, доступные в организациях с Office 365 Advanced Threat protection (Office 365 ATP).
-ms.openlocfilehash: a4b5dc5beac23e267f6b0e5070d91301b589ad4c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2986102b549b7302a7a4ac533f80846d832aeb41
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203387"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328075"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>Настройка политик защиты от фишинга в ATP
 
@@ -75,7 +75,7 @@ ms.locfileid: "48203387"
     - **Средство считывания сведений о безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
     - **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- Рекомендуемые параметры политик защиты от фишинга ATP приведены в статье [Параметры политики защиты от фишинга в Office ATP](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings).
+- Рекомендуемые параметры политик защиты от фишинга ATP приведены в разделе [Параметры политики защиты от фишинга ATP](recommended-settings-for-eop-and-office365-atp.md#atp-anti-phishing-policy-settings).
 
 - Разрешить применение новой или обновленной политики до 30 минут.
 
@@ -147,7 +147,7 @@ ms.locfileid: "48203387"
 
 4. **Параметр политики**: нажмите кнопку **изменить** , чтобы изменить параметры, которые были доступны при [создании политики](#use-the-security--compliance-center-to-create-atp-anti-phishing-policies) , описанной в предыдущем разделе.
 
-   - **Name**
+   - **Имя**
    - **Описание**
    - **Применяется к**
    - **Проверка параметров**

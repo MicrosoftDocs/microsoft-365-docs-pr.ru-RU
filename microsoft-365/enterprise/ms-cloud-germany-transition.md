@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Сводка: понимание миграции с Microsoft Cloud для Германии (Microsoft Cloud Deutschland) в службы Office 365 в новых регионах центров обработки данных в Германии'
-ms.openlocfilehash: 9d74ec8dd942d022bf1b9d0301f415ef1f0c28e2
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: a77dc43c4c30992d2e50aad94878f9269573db52
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308982"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327121"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Миграция из Microsoft Cloud записей в службы Office 365 в новых регионах центра обработки данных на немецком языке
 
@@ -267,6 +267,8 @@ ms.locfileid: "48308982"
 - Если вы используете Dynamics 365, а также клиент Power BI и Office 365, вы можете сообщить вопросы, используя ссылку на &quot; &quot; [центр администрирования Майкрософт 365](https://portal.office.de/). Варианты поддержки клиентов Dynamics 365 Customer Engagement доступны [здесь](https://docs.microsoft.com/dynamics365/get-started/support/). Варианты поддержки клиентов Power BI доступны [здесь](https://powerbi.microsoft.com/support/).
 
 ## <a name="more-information"></a>Дополнительные сведения
+
+Дополнительные сведения о переходе на новые регионы для немецкого центра обработки данных. Закладка этой страницы, чтобы вы могли вернуть и сохранить текущую.
 
 - [Помощь по миграции Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
 - [Как принять участие в миграции](https://aka.ms/office365germanymoveoptin)

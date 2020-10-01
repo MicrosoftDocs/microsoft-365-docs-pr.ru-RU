@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Во время и после автоматического исследования в Microsoft 365 вы можете просматривать результаты и основные результаты.
 ms.date: 09/29/2020
-ms.openlocfilehash: df0eaa54d8bc1c9cd6c91b6b36958e1eb0d2bfd6
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 4be5f3814ed798a0e7fd42285ed2884a5cc29461
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309110"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327703"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Сведения и результаты автоматического исследования в Microsoft 365
 
@@ -247,7 +247,7 @@ ms.locfileid: "48309110"
 |Исходящая Нежелательная почта и нежелательные расследования|Обнаружение сторонних и исходящих вредоносных программ, фишинга или спама, исходящих от пользователей в Организации|
 |Исследование домена отправителя|Проверка репутации домена с помощью [интеллектуального графа безопасности Майкрософт](https://www.microsoft.com/security/operations/intelligence) и внешних источников системы анализа угроз|
 |IP-расследования отправителя| Проверка репутации IP-адресов на основе [интеллектуального графа безопасности Майкрософт](https://www.microsoft.com/security/operations/intelligence) и внешних источников системы анализа угроз|
-|Нажатие кнопки "проанализировать"| Изучите щелчки пользователей, защищенных в [Office 365 ATP безопасные ссылки](atp-safe-links.md) в вашей организации|
+|Нажатие кнопки "проанализировать"| Исследование щелчков пользователей, защищенных с помощью [безопасных ссылок в Office 365 ATP](atp-safe-links.md) в Организации|
 |Исследование репутации URL-адресов|Проверка на наличие репутации URL-адресов из [интеллектуального графика безопасности Майкрософт](https://www.microsoft.com/security/operations/intelligence) и внешних источников интеллектуального анализа угроз|
 |Исследование активности пользователей|Анализ аномалий действий пользователей в [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|
 |Извлечение индикаторов электронных сообщений, сообщенных пользователями|Извлеките индикаторы из заголовка, основного текста и содержимого [электронного сообщения, сообщенного пользователем](enable-the-report-message-add-in.md) , для расследования|
@@ -271,6 +271,6 @@ ms.locfileid: "48309110"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Просмотр и утверждение ожидающих действий](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions?view=o365-worldwide#approve-or-reject-pending-actions)
+- [Просмотр и утверждение ожидающих действий](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)
 
 - [Сведения об автоматическом расследовании и ответе в защите от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

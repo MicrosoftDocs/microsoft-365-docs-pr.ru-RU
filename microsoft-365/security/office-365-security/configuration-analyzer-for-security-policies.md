@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать анализатор конфигураций для поиска и исправления политик безопасности, которые находятся ниже стандартных политик защиты и предварительно установленных политик безопасности с ограниченной защитой.
-ms.openlocfilehash: d2d37d937f42587ad99e4145d3a9f9fbc6a5a0f4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ac70b7fa2b2d0ecc65cf81ea4e5e5f2e807f2467
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203435"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326583"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-office-365-atp"></a>Анализатор конфигурации для политик защиты в EOP и Office 365 ATP
 
@@ -50,9 +50,9 @@ Configuration Analyzer в центре безопасности & соответ
     - [Параметры олицетворения](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
     - [Расширенные пороговые значения фишинга](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
 
-  - [Политики безопасных ссылок](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings-in-custom-policies-for-specific-users).
+  - [Политики безопасных ссылок](set-up-atp-safe-links-policies.md).
 
-  - [Политики безопасных вложений](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-policy-settings-in-custom-policies-for-specific-users).
+  - [Политики безопасных вложений](set-up-atp-safe-attachments-policies.md).
 
 Значения **стандартных** и **ограниченных** параметров политики, используемые в качестве базовых, описаны в разделе [Рекомендуемые параметры для безопасности EOP и Office 365 ATP](recommended-settings-for-eop-and-office365-atp.md).
 

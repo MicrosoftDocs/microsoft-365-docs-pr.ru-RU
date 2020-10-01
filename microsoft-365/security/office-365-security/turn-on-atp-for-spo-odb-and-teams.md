@@ -19,95 +19,149 @@ ms.collection:
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c8c8d0f3caa3e717f8193a3c0d6b7bb1d40dab6
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1cd345ae74b81c23f92b9e9b7d712efa8b875503
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201595"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326909"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+Office 365 Advanced Threat protection (ATP) для SharePoint, OneDrive и Microsoft Teams защищает организацию от случайного предоставления вредоносных файлов. Для получения дополнительных сведений ознакомьтесь [со статьей ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
-> [!IMPORTANT]
-> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+В этой статье описывается включение и настройка ATP для SharePoint, OneDrive и Microsoft Teams.
 
-[Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md) защищает организацию от случайного предоставления вредоносных файлов. При обнаружении вредоносного файла этот файл блокируется, чтобы никто не мог открыть, скопировать, переместить или предоставить к нему общий доступ до тех пор, пока не будут предприняты дальнейшие действия группы безопасности Организации. В этой статье описано, как включить ATP для SharePoint, OneDrive и Teams, настроить оповещения о обнаруженных файлах и выполнить следующие действия.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-Для определения (или изменения) политик ATP необходимо назначить соответствующую роль. Некоторые примеры описаны в таблице ниже.
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com>. Чтобы перейти непосредственно к странице **безопасных вложений ATP** , откройте <https://protection.office.com/safeattachmentv2> .
 
-****
+- Чтобы включить ATP для SharePoint, OneDrive и Microsoft Teams, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** " в центре безопасности & соответствия требованиям. Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-|Роль|Где/как назначено|
-|---|---|
-|Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
-|Администратор безопасности|Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Управление организациями в Exchange Online|Центр администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
-|
+- Чтобы запретить пользователям загружать вредоносные файлы с помощью PowerShell из SharePoint Online, необходимо быть участником роли [глобального администратора](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) или [администратора SharePoint](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator) в Azure AD.
 
-## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
+- Убедитесь, что ведение журнала аудита включено для вашей организации. Дополнительные сведения см. в статье [Включение и отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+- Дождитесь вступления параметров в силу до 30 минут.
 
+## <a name="step-1-use-the-security--compliance-center-to-turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Шаг 1: воспользуйтесь центром безопасности & соответствия требованиям, чтобы включить ATP для SharePoint, OneDrive и Microsoft Teams.
 
-**Прежде чем приступить к этой процедуре, убедитесь, что ведение журнала аудита для вашей среды Microsoft 365 уже включено**. Это обычно делается для пользователей, которым назначена роль "журналы аудита" в Exchange Online. Дополнительные сведения см. в статье [Включение и отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
+1. В центре безопасности & соответствия требованиям перейдите к разделу политика **управления угрозами** : \> **Policy** \> **безопасные вложения ATP**и щелкните **глобальные параметры**.
 
-1. Перейдите на страницу <https://protection.office.com> и войдите с помощью рабочей или учебной учетной записи.
+2. В открывшемся окне **глобальные параметры** перейдите к параметру **включить ATP для SharePoint, OneDrive и Microsoft Teams** . Установите переключатель вправо, ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) чтобы включить ATP для SharePoint, OneDrive и Microsoft Teams.
 
-2. В центре управления безопасностью & соответствия требованиям в области навигации слева в разделе **Управление угрозами**выберите пункт **Policy** \> **безопасные вложения**политики.
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
-   ![В центре безопасности & соответствия требованиям выберите Политика управления угрозами \>](../../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
+### <a name="use-exchange-online-powershell-to-turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включение ATP для SharePoint, OneDrive и Microsoft Teams с помощью Exchange Online PowerShell
 
-3. Выберите **включить ATP для SharePoint, OneDrive и Microsoft Teams**.
+Если вы предпочитаете использовать PowerShell, чтобы включить ATP для SharePoint, OneDrive и Microsoft Teams, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) и выполните следующую команду:
 
-   ![Включение расширенной защиты от угроз для SharePoint Online, OneDrive для бизнеса и Microsoft Teams](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
+```powershell
+Set-AtpPolicyForO365 -EnableATPForSPOTeamsODB $true
+```
 
-4. Нажмите кнопку **Сохранить**.
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365).
 
-5. Просмотрите (и, соответственно, измените) [политики безопасных вложений](set-up-atp-safe-attachments-policies.md) в Организации и [политики безопасных ссылок](set-up-atp-safe-links-policies.md).
+## <a name="step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files"></a>Шаг 2: (рекомендуется) используйте PowerShell из SharePoint Online, чтобы запретить пользователям скачивать вредоносные файлы
 
-6. Предложен В качестве глобального администратора или администратора SharePoint Online выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** с параметром _дисалловинфектедфиледовнлоад_ , для которого задано *значение true*.
+По умолчанию пользователи не могут открывать, перемещать, копировать и совместно использовать вредоносные файлы, обнаруженные ATP. Тем не менее, они могут удалять и загружать вредоносные файлы.
 
-   - При установке для параметра значения *true* блокируются все действия для обнаруженных файлов (кроме DELETE). Пользователи не могут открывать, перемещать и копировать обнаруженные файлы, а также предоставлять к ним общий доступ.
+Чтобы запретить пользователям скачивать вредоносные файлы, [подключитесь к SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) и выполните следующую команду:
 
-   - Если задать для параметра *значение false* , все действия, кроме DELETE и download, блокируются. Пользователи могут принять решение о риске и скачать обнаруженный файл.
+```powershell
+Set-SPOTenant -DisallowInfectedFileDownload $true
+```
 
-7. Разрешить распространение изменений в центрах обработки данных Microsoft 365 до 30 минут.
+**Примечания.**
 
-8. Предложен Перейдите к разделу Настройка оповещений для обнаруженных файлов.
+- Этот параметр влияет на пользователей и администраторов.
+- Пользователи по-прежнему могут удалить вредоносные файлы.
 
-Чтобы узнать больше об использовании PowerShell с Microsoft 365, ознакомьтесь [со статьей управление microsoft 365 с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant).
 
-Чтобы узнать больше о пользовательском интерфейсе, когда файл был определен как вредоносный, посмотрите, [что делать, когда вредоносный файл обнаружен в SharePoint Online, OneDrive или Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2).
+## <a name="step-3-recommended-use-the-security--compliance-center-to-create-an-alert-policy-for-detected-files"></a>Шаг 3 (рекомендуется) использование центра безопасности & соответствия требованиям для создания политики оповещений для обнаруженных файлов
 
-## <a name="set-up-alerts-for-detected-files"></a>Настройка оповещений для обнаруженных файлов
+Вы можете создать политику оповещений, которая сообщит вам и другим администраторам, когда ATP для SharePoint, OneDrive и Microsoft Teams обнаружит вредоносный файл. Чтобы узнать больше об оповещениях, ознакомьтесь со статьей [Создание оповещений о действиях в центре безопасности & соответствия требованиям](../../compliance/create-activity-alerts.md).
 
-Чтобы получать уведомления о том, что файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams определен как вредоносный, вы можете настроить оповещение.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)перейдите к разделу **оповещения** о \> **политиках оповещений** или откройте окно "оповещения" <https://protection.office.com/alertpolicies> .
 
-1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите **оповещения** \> **Управление оповещениями**.
+2. На странице **политики оповещений** щелкните **создать политику оповещений**.
 
-2. Выберите **создать политику оповещений**.
+3. Мастер **создания политики оповещений** открывается на лету. На странице " **назвать оповещение** " настройте следующие параметры:
 
-3. Укажите имя оповещения. Например, можно ввести в библиотеки вредоносные файлы.
+   - **Name**: введите уникальное описательное имя. Например, вредоносные файлы в библиотеках.
+   - **Описание**: введите необязательное описание. Например, уведомляет администраторов об обнаружении вредоносных файлов в SharePoint Online, OneDrive или Microsoft Teams.
+   - **Severity**: **оставьте значение по** умолчанию — "средний" или " **средний** " или " **высокий**".
+   - **Выберите категорию**: выберите **Управление угрозами**.
 
-4. Введите описание оповещения. Например, вы можете ввести уведомление администраторов об обнаружении вредоносных файлов в SharePoint Online, OneDrive или Microsoft Teams.
+   По завершении нажмите кнопку **Далее**.
 
-5. В разделе **отправить это оповещение, когда...** выполните следующие действия:
+4. На странице " **Создание параметров оповещений** " настройте следующие параметры.
 
-   а) В списке **действия** выберите **обнаруженная вредоносная программа в файле**.
+   - **Что вы хотите оповещать?: действие**: выберите **обнаруженную вредоносную программу в файле**.
+   - **Как вы хотите инициировать оповещение?**: оставьте значение по умолчанию при **каждом соответствии действия выбранному правилу** .
 
-   б) Оставьте поле **Пользователи** пустым.
+   По завершении нажмите кнопку **Далее**.
 
-6. В разделе **отправить это оповещение по...** выберите одного или нескольких глобальных администраторов, администраторов безопасности или средств чтения безопасности, которые должны получать уведомление при обнаружении вредоносного файла.
+5. На странице " **Настройка получателей** " настройте следующие параметры:
 
-7. Нажмите кнопку **Сохранить**.
+   - **Отправлять уведомления по электронной почте**: Убедитесь, что этот параметр выбран. В поле **получатели электронной почты** выберите одного или нескольких глобальных администраторов, администраторов безопасности или средств чтения безопасности, которые должны получать уведомление при обнаружении вредоносного файла.
+   - **Максимальное количество ежедневных уведомлений**: оставьте значение по умолчанию **не** выбрано.
 
-Чтобы узнать больше об оповещениях, ознакомьтесь со статьей [Создание оповещений о действиях в центре безопасности & соответствия требованиям](../../compliance/create-activity-alerts.md).
+   По завершении нажмите кнопку **Далее**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+6. На странице " **Проверка параметров** " Проверьте параметры и нажмите кнопку **изменить** в любом из разделов, чтобы внести изменения.
 
-1. [Просмотр сведений о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
+   В разделе вы **хотите включить политику** сразу же? оставьте значение по умолчанию **Да, включить его сразу после** выбора.
 
-2. [Управление сообщениями и файлами, помещенными в карантин, от имени администратора в Microsoft 365](manage-quarantined-messages-and-files.md)
+   Закончив, нажмите кнопку **Готово**.
+
+### <a name="use-security--compliance-powershell-to-create-an-alert-policy-for-detected-files"></a>Создание политики оповещений для обнаруженных файлов с помощью PowerShell & обеспечения безопасности
+
+Если вы предпочитаете использовать PowerShell, чтобы создать ту же политику оповещений, как описано в предыдущем разделе, [подключитесь к PowerShell центра безопасности & центра соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) и выполните следующую команду:
+
+```powershell
+New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies admins when malicious files are detected in SharePoint Online, OneDrive, or Microsoft Teams" -Category ThreatManagement -Operation FileMalwareDetected -NotifyUser "admin1@contoso.com","admin2@contoso.com"
+```
+
+**Note**: значение _степени серьезности_ по умолчанию — мала. Чтобы указать средний или высокий уровень, включите параметр _Severity_ и значение в команду.
+
+Подробные сведения о синтаксисе и параметрах можно найти в статье [New – ActivityAlert](https://docs.microsoft.com/powershell/module/exchange/new-activityalert).
+
+### <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
+
+- Чтобы убедиться, что вы успешно включили ATP для SharePoint, OneDrive и Microsoft Teams, выполните одно из указанных ниже действий.
+
+  - В [центре безопасности & соответствия требованиям](https://protection.office.com)перейдите к разделу политика **управления угрозами** : \> **Policy** \> **безопасные вложения ATP**, выберите **глобальные параметры**и проверьте значение параметра **включить ATP для SharePoint, OneDrive и Microsoft Teams** .
+
+  - В Exchange Online PowerShell выполните следующую команду, чтобы проверить значение свойства:
+
+    ```powershell
+    Get-AtpPolicyForO365 | Format-List EnableATPForSPOTeamsODB
+    ```
+
+    Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/get-atppolicyforo365).
+
+- Чтобы убедиться, что пользователи успешно заблокировали загрузку вредоносных файлов, Откройте SharePoint Online PowerShell и выполните следующую команду, чтобы проверить значение свойства:
+
+  ```powershell
+  Get-SPOTenant | Format-List DisallowInfectedFileDownload
+  ```
+
+  Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant).
+
+- Чтобы убедиться, что вы успешно настроили политику оповещений для обнаруженных файлов, выполните одно из указанных ниже действий.
+
+  - В центре безопасности & соответствия требованиям перейдите к разделу **оповещения** о политиках оповещений \> **Alert policies** \> , выберите политику оповещений и проверьте параметры.
+
+  - В PowerShell центра безопасности & соответствия требованиям замените \<AlertPolicyName\> имя политики оповещений, выполните следующую команду и проверьте значения свойств:
+
+    ```powershell
+    Get-ActivityAlert -Identity "<AlertPolicyName>"
+    ```
+
+    Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – ActivityAlert](https://docs.microsoft.com/powershell/module/exchange/get-activityalert).
+
+- Используйте [отчет о состоянии защиты от угроз](view-email-security-reports.md#threat-protection-status-report) для просмотра сведений об обнаруженных файлах в SharePoint, OneDrive и Microsoft Teams. В частности, вы можете использовать представление " **Просмотр данных: контент \> от вредоносных программ** ".

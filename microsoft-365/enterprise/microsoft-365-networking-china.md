@@ -12,16 +12,17 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - remotework
+- M365initiative-CoreDeploy
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: В этой статье приводятся рекомендации по оптимизации производительности сети для пользователей в Китае с глобальными клиентами Microsoft 365.
-ms.openlocfilehash: 94de83a94bf6cdf5470b66970efb62094bdc4343
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1f5f51991c5950d46c9d835a98bea86bcb354366
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693094"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327513"
 ---
 # <a name="microsoft-365-global-tenant-performance-optimization-for-china-users"></a>Оптимизация производительности в глобальном клиенте Microsoft 365 для пользователей Китая
 
@@ -72,7 +73,7 @@ ms.locfileid: "46693094"
 
 [Планирование сети и настройка производительности для Microsoft 365](https://aka.ms/tune)
 
-[Принципы сетевого подключения Microsoft 365](microsoft-365-network-connectivity-principles.md)
+[Принципы сетевого подключения к Microsoft 365](microsoft-365-network-connectivity-principles.md)
 
 [Управление конечными точками Office 365](managing-office-365-endpoints.md)
 

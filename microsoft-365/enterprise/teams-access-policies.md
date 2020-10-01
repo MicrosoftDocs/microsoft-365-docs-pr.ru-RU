@@ -8,7 +8,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.author: heidip
-ms.date: 09/18/2020
+ms.date: 09/30/2020
 ms.reviewer: anmorgan
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 570ef098a3989bf42d641b78e325414350b8e5a5
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: b9a9044a063c01724710679682e1edbe458dec0f
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132116"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327145"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Рекомендации политики по обеспечению безопасности для чатов, групп и файлов в Teams
 
@@ -66,7 +66,6 @@ ms.locfileid: "48132116"
 |        |[Блокирование клиентов, не поддерживающих современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Teams и зависимых служб при назначении облачных приложений.|
 |        |[Необходимость смены пароля для пользователей с высоким риском](identity-access-policies.md#high-risk-users-must-change-password)|Заставляет пользователей Teams менять свой пароль при входе в учетную запись, если для их учетных записей обнаружено значительное опасное действие. Убедитесь, что в список приложений включены Teams и зависимые службы.|
 |        |[Применение политик защиты данных приложений](identity-access-policies.md#apply-app-data-protection-policies)|Убедитесь, что в список приложений включены Teams и зависимые службы. Обновите политику для каждой платформы (iOS, Android, Windows).|
-|        |[Требовать утвержденные приложения и защиту приложений](identity-access-policies.md#require-approved-apps-and-app-protection)|Включение Teams и зависимых служб в эту политику.|
 |        |[Определение политик соответствия требованиям устройств](identity-access-policies.md#define-device-compliance-policies)|Включение Teams и зависимых служб в эту политику.|
 |        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение Teams и зависимых служб в эту политику.|
 |**Конфиденциально**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье. Включение Teams и зависимых служб в эту политику.|

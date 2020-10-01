@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как применять стандартные и жесткие параметры политики к функциям защиты в Exchange Online Protection (EOP) и Office 365 Advanced Threat protection (ATP)
-ms.openlocfilehash: 35be2b1ebfcf7ef8b7aad5cc2d4b3dd7032806b2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8431d36779069b0b289a2533fbd6b85abee24536
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202607"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326547"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Предварительно настроенные политики безопасности в EOP и Office 365 ATP
 
@@ -75,9 +75,9 @@ ms.locfileid: "48202607"
     - [Параметры олицетворения](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
     - [Расширенные пороговые значения фишинга](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
 
-  - [Политики безопасных ссылок](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings-in-custom-policies-for-specific-users) : **стандартные предварительно заданные политики безопасности** и **строгая предварительно установленная политика безопасности**.
+  - [Политики безопасных ссылок](set-up-atp-safe-links-policies.md) : **стандартные предварительно заданные политики безопасности** и **строгая предварительно установленная политика безопасности**.
 
-  - [Политики безопасных вложений](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-policy-settings-in-custom-policies-for-specific-users) : **стандартные предварительно настроенные политики безопасности** и **строгая предварительно установленная политика безопасности**.
+  - [Политики безопасных вложений](set-up-atp-safe-attachments-policies.md) : **стандартные предварительно настроенные политики безопасности** и **строгая предварительно установленная политика безопасности**.
 
 Обратите внимание, что вы можете применять системы защиты EOP к разным пользователям, чем защита ATP.
 

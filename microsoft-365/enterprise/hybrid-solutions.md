@@ -3,7 +3,7 @@ title: Гибридные решения
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/20/2020
+ms.date: 09/30/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
 description: Содержит список ссылок на полезную информацию для развертывания рабочих нагрузок Office Server в Microsoft Azure.
-ms.openlocfilehash: bb43b2cc72a8f314b9f3ded007f126f41c5ebffc
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ba294b437d815c81c7747f60b2a82ca0bef05e7a
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693524"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327919"
 ---
 # <a name="hybrid-solutions"></a>Гибридные решения
 
@@ -52,8 +52,6 @@ ms.locfileid: "46693524"
 
 [Центр архитектуры и решений Microsoft 365](../solutions/solution-architecture-center.md)
   
-[Иллюстрации по Microsoft Cloud для корпоративных архитекторов](../solutions/cloud-architecture-models.md)
-  
-[Microsoft 365 для корпоративных руководств по лаборатории тестирования (руководствах TLG)](m365-enterprise-test-lab-guides.md)
+[Иллюстрации "Облако Майкрософт для корпоративных архитекторов"](../solutions/cloud-architecture-models.md)
   
 [Архитектурные модели для SharePoint, Exchange, Skype для бизнеса и Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)

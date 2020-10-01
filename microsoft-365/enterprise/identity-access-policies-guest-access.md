@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 6d6562f528b36acdfbc28da9647d3356a0f585af
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 3afc818f9461ad0cc5ca65ea86d5e90f61f64d9b
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132162"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327871"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Политики для разрешения гостевых и внешних поправных доступа
 
@@ -60,21 +60,11 @@ Microsoft Teams определяет следующие компоненты:
 
 - **Внешний доступ** предназначен для внешнего пользователя, у которого нет учетной записи B2B. Внешний доступ может включать приглашения и участие в звонках, беседах и собраниях, но не включает в себя сведения о членстве в группе и доступе к ресурсам команды.
 
-Для получения дополнительных сведений об [этом сравнении с Teams и внешним доступом для Teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access).
+Более подробную информацию можно узнать в статье [Сравнение гостевого и внешнего доступа для Teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access).
 
 Политики условного доступа применяются только к гостевой доступу в Teams, так как существует соответствующая учетная запись Azure AD B2B.
 
 Для получения дополнительных сведений о защите политик доступа к удостоверениям и устройствам для Teams см. [рекомендации по политике по обеспечению безопасности для чатов, групп и файлов в Teams](teams-access-policies.md) .
-
-<!--
-ount treats guest and external users that have an Azure AD B2B account differently than external access  .
-
-
-to a meeting, call, or chat with
-
-
-differentiates between guest users and external users within the app. Guest users have Azure AD B2B accounts and can be added to teams. External users can only participate in calls, chats, and meetings. 
---> 
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>Требовать постоянного постоянного для гостевых и внешних пользователей
 Эта политика предлагает гостям регистрироваться для MFA в клиенте независимо от того, зарегистрированы ли они для MFA в своем домашнем клиенте. При доступе к ресурсам в клиенте для каждого запроса необходимо использовать для гостей и внешних пользователей MFA. 

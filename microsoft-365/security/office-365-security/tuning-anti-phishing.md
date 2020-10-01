@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Администраторы могут научиться определять причины и способ сообщения фишинга в Microsoft 365, а также что делать, чтобы предотвратить большее количество фишинговых сообщений в будущем.
-ms.openlocfilehash: c62d09a1cf8b586b5c1d4393d7316d6d6d0cc96d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 813a9c263d9cc620606c7a5e272e47bdaf1ff7a7
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201679"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328063"
 ---
 # <a name="tune-anti-phishing-protection"></a>Настройка защиты от фишинга
 
@@ -32,11 +32,11 @@ ms.locfileid: "48201679"
 
 Если ваша подписка включает Advanced Threat protection (ATP), вы можете использовать [Office 365 Threat Intelligence](office-365-ti.md) , чтобы определить других пользователей, которые также получили сообщение фишинга. Вы можете заблокировать фишинговые сообщения с дополнительными параметрами:
 
-- [Безопасные ссылки ATP](set-up-atp-safe-links-policies.md)
+- [Безопасные ссылки в Office 365 ATP](set-up-atp-safe-links-policies.md)
 
-- [Безопасные вложения ATP](set-up-atp-safe-attachments-policies.md)
+- [Безопасные вложения в Office 365 ATP](set-up-atp-safe-attachments-policies.md)
 
-- [Политики защиты от фишинга ATP в Microsoft 365](configure-atp-anti-phishing-policies.md). Обратите внимание, что вы можете временно увеличить **пороговые значения расширенного фишинга** в политике от **стандарта** к **агрессивному**, **более агрессивному**или **наиболее агрессивному**.
+- [Политики защиты от фишинга в Office 365 ATP](configure-atp-anti-phishing-policies.md). Обратите внимание, что вы можете временно увеличить **пороговые значения расширенного фишинга** в политике от **стандарта** к **агрессивному**, **более агрессивному**или **наиболее агрессивному**.
 
 Убедитесь, что функции ATP включены.
 

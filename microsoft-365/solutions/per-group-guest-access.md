@@ -14,16 +14,16 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Блокировка гостевых пользователей из определенной группы
-ms.openlocfilehash: 923a9e5cd09d232f377f55fd6a9f499f8f536a84
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 2e9c9cae13932a33b8c486148f93901904e80006
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662787"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328021"
 ---
-# <a name="block-guest-users-from-a-specific-group"></a>Блокировка гостевых пользователей из определенной группы
+# <a name="block-guest-users-from-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Блокировка гостевых пользователей из определенной группы Microsoft 365 или группы Microsoft Teams
 
-Если вы хотите разрешить гостевой доступ к большинству групп, но если вы хотите запретить гостевой доступ, вы можете заблокировать гостевой доступ для отдельных групп.
+Если вы хотите разрешить гостям доступ к большинству групп и Teams, но у вас есть некоторые из них для предотвращения гостевого доступа, вы можете заблокировать гостевой доступ для отдельных групп и Teams. (Блокировка гостевого доступа к группе выполняется путем блокировки гостевого доступа к связанной группе.)
 
 Если вы используете метки чувствительности в Организации, рекомендуем использовать их для управления гостевым доступом для отдельных групп. Для получения сведений о том, как это сделать, [используйте метки чувствительности для защиты содержимого в Microsoft Teams, microsoft 365 Groups и сайтов SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). Это рекомендуемый подход.
 

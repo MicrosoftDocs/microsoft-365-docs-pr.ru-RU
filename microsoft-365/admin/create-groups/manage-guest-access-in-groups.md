@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Узнайте, как добавлять гостей в группу Microsoft 365, просматривать гостевых пользователей и использовать PowerShell для управления гостевым доступом.
-ms.openlocfilehash: a56d9599824ac1436c6f875661bcd573c1f6b1ca
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 640a35cbb1a3eb395453b224cadcf0d0db82fab8
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204747"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326523"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Управление гостевым доступом в группах Microsoft 365
 
@@ -61,74 +61,15 @@ ms.locfileid: "45204747"
   
 4. Нажмите кнопку **Добавить участников**и выберите имя гостя, которого вы хотите добавить.
     
-5. Нажмите **Save** (Сохранить).
+5. Нажмите **Сохранить**.
 
 Если вы хотите добавить гостя в каталог напрямую, вы можете [Добавить пользователей службы совместной работы Azure Active Directory на портале Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
 Если вы хотите изменить любую информацию гостя, вы можете [Добавить или обновить сведения о профиле пользователя с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
-  
-## <a name="block-guest-users-from-a-specific-group"></a>Блокировка гостевых пользователей из определенной группы
 
-Если вы хотите разрешить гостевой доступ к большинству групп, но если вы хотите запретить гостевой доступ, вы можете заблокировать гостевой доступ для отдельных групп с помощью Microsoft PowerShell.
+## <a name="see-also"></a>Дополнительные сведения
 
-Для изменения параметров гостевого доступа на уровне группы необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (имя модуля **AzureADPreview**):
-
-- Если вы еще не установили ни одной версии модуля Azure AD PowerShell, см. раздел [Установка модуля Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#installing-the-azure-ad-module) и следуйте инструкциям по установке общедоступной предварительной версии.
-
-- Если у вас установлена общедоступная версия 2.0 модуля Azure AD PowerShell (AzureAD), вам требуется удалить ее, выполнив команду `Uninstall-Module AzureAD` в сеансе PowerShell, а затем установить предварительную версию, выполнив команду `Install-Module AzureADPreview`.
-
-- Если вы уже установили предварительную версию, выполните команду `Install-Module AzureADPreview`, чтобы убедиться, что это последняя версия модуля.
-
-> [!NOTE]
-> Для выполнения этих команд требуются права глобального администратора. 
-
-Выполните следующий сценарий, указав */<GroupName/>* имя группы, в которую необходимо заблокировать гостевой доступ.
-
-```PowerShell
-$GroupName = "<GroupName>"
-
-Connect-AzureAD
-
-$template = Get-AzureADDirectorySettingTemplate | ? {$_.displayname -eq "group.unified.guest"}
-$settingsCopy = $template.CreateDirectorySetting()
-$settingsCopy["AllowToAddGuests"]=$False
-$groupID= (Get-AzureADGroup -SearchString $GroupName).ObjectId
-New-AzureADObjectSetting -TargetType Groups -TargetObjectId $groupID -DirectorySetting $settingsCopy
-```
-
-Чтобы проверить параметры, выполните следующую команду:
-
-```PowerShell
-Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
-```
-
-Проверка выглядит следующим образом:
-    
-![Снимок экрана: Окно PowerShell, в котором показано, что для доступа к гостевой группе задано значение false.](../../media/09ebfb4f-859f-44c3-a29e-63a59fd6ef87.png)
-  
-## <a name="allow-or-block-guest-access-based-on-their-domain"></a>Разрешение или блокировка гостевого доступа в зависимости от их домена
-
-Вы можете разрешить или заблокировать доступ для пользователей-гостей, почта которых отправляется с определенного домена. Например, если ваша организация (Contoso) имеет связь с другим предприятием (Fabrikam), вы можете добавить Fabrikam в список разрешений, чтобы пользователи могли добавить этих гостей в свои группы.
-
-Дополнительную информацию можно узнать [в статье разрешение или блокировка приглашений для пользователей B2B из определенных организаций](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
-
-## <a name="add-guests-to-the-global-address-list"></a>Добавление гостей в глобальный список адресов
-
-По умолчанию гости не отображаются в глобальном списке адресов Exchange. Выполните приведенные ниже действия, чтобы сделать гостей видимым в глобальном списке адресов. Убедитесь, что гость отображается в центре администрирования Exchange Online. Для отображения новых гостей может потребоваться некоторое время после добавления.
-
-Найдите ObjectID пользователя гостя, выполнив следующие действия:
-
-```PowerShell
-Get-AzureADUser -Filter "userType eq 'Guest'"
-```
-
-Затем выполните приведенные ниже значения с использованием соответствующих значений для ObjectID, GivenName, фамилия, DisplayName и TelephoneNumber.
-
-```PowerShell
-Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'
-```
-
-## <a name="related-articles"></a>Связанные статьи
+[Блокировка гостевых пользователей из определенной группы](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [Управление членством в группах в центре администрирования Microsoft 365](add-or-remove-members-from-groups.md)
   

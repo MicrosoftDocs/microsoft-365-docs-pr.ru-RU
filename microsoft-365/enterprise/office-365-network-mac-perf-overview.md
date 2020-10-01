@@ -13,13 +13,14 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365initiative-CoreDeploy
 description: Общие сведения о сетевом подключении в центре администрирования Microsoft 365 (Предварительная версия)
-ms.openlocfilehash: 91c931eba5c9f5bdb9f45185581019cc9c754ed2
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: d3ca55a4d8357d10b79bd8e87ddc3350efa2845e
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322203"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326881"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Сетевое подключение в центре администрирования Microsoft 365 (Предварительная версия)
 
@@ -185,7 +186,7 @@ ms.locfileid: "48322203"
 
 Расположение для выхода в Интернет — это расположение, в котором сетевой трафик выходит из корпоративной сети и подключается к Интернету. Это также определяется как расположение, в котором у вас есть устройство преобразования сетевых адресов (NAT) и который обычно используется для подключения к поставщику услуг Интернета. Если вы видите большое расстояние между расположением и расположением для выхода в Интернет, это может указывать на значительное обратное размещение глобальной сети.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Microsoft 365 Network Insights (Предварительная версия)](office-365-network-mac-perf-insights.md)
 

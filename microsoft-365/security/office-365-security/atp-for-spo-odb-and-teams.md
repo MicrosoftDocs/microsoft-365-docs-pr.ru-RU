@@ -2,11 +2,11 @@
 title: ATP для SharePoint, OneDrive и Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: Admin
-ms.date: 03/19/2019
+ms.date: ''
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -21,67 +21,51 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Сведения о Advanced Threat Protection в Office 365 для файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
-ms.openlocfilehash: 9831b61fafc7cb4696fbad3d569f061612f85fe1
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 194b8e45e573ae4c4cd1f3428a1f80c48e1d80c8
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199043"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326869"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP для SharePoint, OneDrive и Microsoft Teams
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+ATP для SharePoint, OneDrive и Microsoft Teams в [Office 365 Advanced Threat protection (ATP)](office-365-atp.md) обеспечивает дополнительный уровень защиты для файлов, которые уже были проверены во время отправки с помощью [общего модуля обнаружения вирусов в Microsoft 365](virus-detection-in-spo.md). ATP для SharePoint, OneDrive и Microsoft Teams помогает обнаруживать и блокировать существующие файлы, которые определены как вредоносные на сайтах групп и библиотеках документов.
 
-## <a name="overview-of-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Обзор Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
+Служба ATP для SharePoint, OneDrive и Microsoft Teams по умолчанию отключена. Чтобы включить его, ознакомьтесь со статьей [Включение ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
-Пользователи регулярно совместно используют файлы и совместно работают с помощью SharePoint, OneDrive и Microsoft Teams. В [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) ваша организация может быть более безопасной совместной работой. ATP позволяет обнаруживать и блокировать файлы, которые определены как вредоносные на сайтах групп и библиотеках документов.
+## <a name="how-atp-for-sharepoint-onedrive-and-microsoft-teams-works"></a>Принципы работы ATP для SharePoint, OneDrive и Microsoft Teams
 
-## <a name="how-office-365-atp-operates"></a>Как работает Office 365 ATP
-
-Когда файл в SharePoint Online, OneDrive для бизнеса и Microsoft Teams определен как вредоносный, ATP напрямую интегрируется с хранилищами файлов для блокировки этого файла. На следующем рисунке показан пример вредоносного файла, обнаруженного в библиотеке.
+Когда ATP для SharePoint, OneDrive и Microsoft Teams включается и определяет файл как вредоносный, файл блокируется с помощью непосредственной интеграции с хранилищами файлов. На следующем рисунке показан пример вредоносного файла, обнаруженного в библиотеке.
 
 ![Файлы в OneDrive для бизнеса с одной обнаруженной вредоносной службой](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
 
-Несмотря на то, что заблокированный файл по-прежнему отображается в библиотеке документов и в веб-приложениях, на мобильных или для настольных компьютерах, заблокированный файл не может быть открыт, скопирован, перемещен или открыт для совместного использования. Тем не менее, пользователи могут удалить заблокированный файл. Вот пример того, что выглядит на мобильном устройстве пользователя:
+Несмотря на то, что заблокированный файл все еще отображается в библиотеке документов, в веб-приложениях, мобильных или настольных компьютерах, пользователи не могут открывать, копировать, перемещать файлы и предоставлять к ним общий доступ. Но они могут удалить заблокированный файл.
+
+Ниже приведен пример того, как выглядит заблокированный файл на мобильном устройстве:
 
 ![Удаление заблокированного файла из OneDrive для бизнеса из мобильного приложения OneDrive](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
-В зависимости от того, как настроена Microsoft 365, пользователи могут или не могут скачать заблокированный файл. Вот как будет выглядеть заблокированный файл на мобильном устройстве пользователя:
+По умолчанию пользователи могут скачать заблокированный файл. Ниже показано, как выполняется загрузка заблокированного файла на мобильном устройстве.
 
 ![Скачивание заблокированного файла в OneDrive для бизнеса](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
-Дополнительные сведения см. в статье [Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
+Администраторы SharePoint Online могут запретить пользователям загружать вредоносные файлы. Инструкции можно найти [в статье Использование PowerShell для SharePoint Online, чтобы запретить пользователям скачивать вредоносные файлы](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files).
+
+Чтобы узнать больше о пользовательском интерфейсе, когда файл был определен как вредоносный, посмотрите, [что делать, когда вредоносный файл обнаружен в SharePoint Online, OneDrive или Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2).
+
+## <a name="view-information-about-malicious-files-detected-by-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Просмотр сведений о вредоносных файлах, обнаруженных ATP для SharePoint, OneDrive и Microsoft Teams
+
+Файлы, идентифицируемые средством ATP, будут отображаться в [отчетах для Office 365 Advanced Threat protection](view-reports-for-atp.md) и в [Проводнике (и обнаружения в режиме реального времени)](threat-explorer.md).
+
+По достижении мая 2018, когда файл определяется как вредоносный для ATP, он также доступен в карантине. Дополнительные сведения можно найти [в статье Использование центра безопасности & соответствия требованиям для управления файлами, помещенными в карантин](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files).
 
 ## <a name="keep-these-points-in-mind"></a>Помните об этих моментах
 
-- ATP не будет сканировать каждый отдельный файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams. Данное поведение является особенностью продукта. Файлы сканируются асинхронно, с помощью процесса, который использует события общего доступа и гостевых действий, а также интеллектуальные эвристики и сигналы угроз для идентификации вредоносных файлов.
+- ATP не будет сканировать каждый отдельный файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams. Данное поведение является особенностью продукта. Файлы сканируются асинхронно. Процесс использует события общего доступа и гостевых действий, а также интеллектуальные эвристики и сигналы угроз для определения вредоносных файлов.
 
-- Убедитесь, что сайты SharePoint настроены на использование [современного интерфейса](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). Если файл определен как вредоносный и заблокированный, люди могут видеть, что это произошло в современном интерфейсе, но не является классическим представлением. Защита ATP определяет, используется ли современный интерфейс или классическое представление; Однако визуальные индикаторы, заблокированные файлом, присутствуют только в современном интерфейсе.
+- Убедитесь, что сайты SharePoint настроены на использование [современного интерфейса](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). Защита ATP определяет, используется ли современный интерфейс или классическое представление; Однако визуальные индикаторы, заблокированные файлом, доступны только в современном интерфейсе.
 
-- Файлы, которые определены как вредоносные в SharePoint Online, OneDrive для бизнеса или Microsoft Teams, будут отображаться в [отчетах для Office 365 Advanced Threat protection](view-reports-for-atp.md) и в [Проводнике (и обнаружения в режиме реального времени)](threat-explorer.md).
-
-- ATP является частью общей стратегии защиты от угроз, включающей защиту от нежелательной почты и вредоносных программ, а также безопасные ссылки и безопасные вложения. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Office 365](protect-against-threats.md).
-
-- Администратор SharePoint Online может определить, следует ли разрешить пользователям загружать файлы, обнаруженные как вредоносные. Для этого необходимо выполнить командлет PowerShell Set-SPOTenant с параметром Дисалловинфектедфиледовнлоад ( [включить Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)).
-
-## <a name="quarantine-in-atp-for-sharepoint-online-onedrive-for-business-and-microsoft-teams"></a>Карантин в ATP для SharePoint Online, OneDrive для бизнеса и Microsoft Teams
-
- Начиная с опоздания, Май 2018, функции [карантина](quarantine-email-messages.md) в &amp; центре безопасности соответствуют расширению ATP для SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
-
-Если файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams определен как вредоносный, помимо того, что ATP блокирует файл из-за открытия или предоставления общего доступа, этот файл включается в список элементов, помещенных в карантин. (В разделе Security &amp; Центр соответствия требованиям, перейдите к разделу **Управление угрозами** \> **Просмотр** \> **карантина** и отфильтруйте **файлы**.)
-
-Если вы участвуете в работе группы безопасности Microsoft 365 для бизнеса и обладаете необходимыми [разрешениями в &amp; центре безопасности](permissions-in-the-security-and-compliance-center.md), можно загружать, освобождать, отчитываться и удалять файлы, обнаруженные как вредоносные, из карантина.
-
-- При **освобождении и составлении отчетов** файл удаляется в файле на соответствующем сайте группы или в библиотеке документов для SharePoint, OneDrive или Microsoft Teams. После этого пользователи смогут открывать, предоставлять к ним общий доступ и скачивать файл. Если выбран параметр **Отправить отчет корпорации Майкрософт** , файл сообщается о ложном срабатывании в корпорацию Майкрософт.
-
-- При **удалении файла** удаляется файл из карантина; Тем не менее, файл по-прежнему заблокирован от открытия или предоставления общего доступа. Файл также должен быть удален в соответствующей библиотеке документов или на сайте группы (SharePoint Online, OneDrive для бизнеса или Microsoft Teams).
-
-- **Загрузка файла** позволяет скачать и проанализировать файл на наличие ложных срабатываний.
-
-## <a name="next-steps"></a>Дальнейшие действия
-
- - [Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)
-
- - [Просмотр сведений о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
-
+- ATP для SharePoint, OneDrive и Microsoft Teams является частью общей стратегии защиты от угроз, включающей защиту от нежелательной почты и вредоносных программ в Exchange Online Protection (EOP), а также безопасные ссылки и безопасные вложения в Office 365 ATP. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Office 365](protect-against-threats.md).

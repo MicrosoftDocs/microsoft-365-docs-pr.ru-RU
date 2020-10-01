@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о политиках защиты от фишинга, доступных в Exchange Online Protection (EOP) и Office 365 Advanced Threat protection (Office 365 ATP).
-ms.openlocfilehash: 945b346a5ebd4a85776d87c019ee1a06aec73635
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 498b6e27b3fca66e388eaa27ba7895056ef7f0fc
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195919"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326941"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
 
@@ -30,7 +30,7 @@ ms.locfileid: "48195919"
 
 Политики для настройки параметров защиты от фишинга доступны в организациях Microsoft 365 с почтовыми ящиками Exchange Online, отдельными организациями Exchange Online Protection (EOP) без почтовых ящиков Exchange Online и организациями Office 365 Advanced Threat protection (Office 365 ATP).
 
-Политики защиты от фишинга ATP доступны только в организациях с Office 365 ATP. Например:
+Политики защиты от фишинга ATP доступны только в организациях с Office 365 ATP. Пример:
 
 - Microsoft 365 корпоративный и т. д., Microsoft 365 для образования A5 и т. д.
 - [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -220,4 +220,4 @@ ms.locfileid: "48195919"
 
 - **4 наиболее агрессивные**: сообщения, которые определены как фишинг с понижением, средней или высокой степенью уверенности, обрабатываются так, как если бы они были идентифицированы очень высокой степенью достоверности.
 
-Вероятность ложного срабатывания (хорошие сообщения помечаются как ошибочные) увеличивается по мере увеличения этого значения. Дополнительные сведения о рекомендуемых параметрах можно найти в разделе [Параметры политики защиты от фишинга Office ATP](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings).
+Вероятность ложного срабатывания (хорошие сообщения помечаются как ошибочные) увеличивается по мере увеличения этого значения. Дополнительные сведения о рекомендуемых параметрах можно найти в разделе [Параметры политики защиты от фишинга ATP](recommended-settings-for-eop-and-office365-atp.md#atp-anti-phishing-policy-settings).

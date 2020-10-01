@@ -1,5 +1,5 @@
 ---
-title: Интеграция SIEM с Advanced Threat Protection
+title: Интеграция SIEM с расширенной защитой угроз
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -16,55 +16,57 @@ ms.assetid: eb56b69b-3170-4086-82cf-ba40a530fa1b
 ms.date: 08/21/2020
 ms.collection:
 - M365-security-compliance
-description: Интеграция сервера SIEM вашей организации с Office 365 Advanced Threat Protection и связанными событиями в API управления действиями Office 365.
+description: Интеграция сервера SIEM в Организации с Office 365 Advanced Threat Protection и связанными событиями угроз в API управления действиями Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8e9dcf24adfb227d0c454b4f5952c879cea511f7
-ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
+ms.openlocfilehash: 544093960570fe0e68ac47dc7bf9965fba2d30a1
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860693"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327169"
 ---
-# <a name="siem-integration-with-advanced-threat-protection"></a>Интеграция SIEM с Advanced Threat Protection
+# <a name="siem-integration-with-advanced-threat-protection"></a>Интеграция SIEM с расширенной защитой угроз
 
-Если ваша организация использует сервер SIEM инцидентов безопасности и событий безопасности, вы можете интегрировать Office 365 Advanced Threat Protection (Office 365 ATP) с сервером SIEM. Эту интеграцию можно настроить с помощью [API управления действиями Office 365.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Интеграция SIEM позволяет просматривать сведения, например вредоносное ПО или фишинг, обнаруженный Office 365 ATP, в отчетах сервера SIEM. 
 
-- Пример интеграции SIEM с Office 365 ATP см. в блоге [Tech Community: Улучшение эффективности SOC с помощью Office 365 ATP и API управления Office 365.](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)
+Если в организации используется сервер управления инцидентами и событиями SIEM, вы можете интегрировать Office 365 Advanced Threat protection (Office 365 ATP) с сервером SIEM. Эту интеграцию можно настроить с помощью [API управления действиями Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
 
-- Дополнительные сведения об API управления Office 365 см. в обзоре API управления [Office 365.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)
+Интеграция SIEM позволяет просматривать сведения, такие как вредоносные и фишингы, обнаруженные в Office 365 ATP, в отчетах сервера SIEM. 
 
-## <a name="how-siem-integration-works"></a>Принцип интеграции SIEM
+- Пример интеграции SIEM с Office 365 ATP можно найти в [блоге технического сообщества: улучшите эффективность SoC с помощью office 365 ATP и API управления O365](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185).
 
-API управления действиями Office 365 получает информацию о действиях и событиях пользователя, администратора, системы и политики из журналов действий Microsoft 365 и Azure Active Directory вашей организации. Если у вашей организации есть План 1, 2 или Office 365 E5, вы можете использовать [схему Office 365 ATP.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema)  
+- Дополнительные сведения об API управления Office 365 можно найти в статье [Обзор API управления office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview).
 
-Недавно события возможностей автоматизированного анализа угроз и реагирования на них в [Office 365 ATP (план 2) были](office-365-atp.md#office-365-atp-plan-1-and-plan-2) добавлены в API действий управления Office 365. Помимо сведений об основных сведениях об исследовании, таких как идентификатор, имя и состояние, API также содержит высокоуровневые сведения о действиях и объектах анализа.
+## <a name="how-siem-integration-works"></a>Как работает интеграция SIEM
 
-Сервер SIEM или другая подобная система опросит **участие audit.general** workload, чтобы получить доступ к событиям обнаружения. Дополнительные сведения см. в статье ["Начало работы с API управления Office 365".](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis) 
+API управления действиями Office 365 извлекает сведения о действиях пользователя, администратора, системы, а также о событиях и политиках из журналов активности Microsoft 365 и Azure Active Directory. Если в вашей организации используется Office 365 ATP, план 1 или 2, или Office 365 в ~, вы можете использовать [схему office 365 ATP](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema).  
 
+Недавно в API действий управления Office 365 были добавлены события автоматизированного исследования и возможности реагирования в [office 365 ATP 2 (план 2](office-365-atp.md#office-365-atp-plan-1-and-plan-2) ). В дополнение к включению данных об основных сведениях расследования, таких как ID, Name и Status, API также содержит подробные сведения о действиях и сущностях расследования.
+
+Сервер SIEM или другая подобная система опрашивает рабочую нагрузку **Audit. General** для доступа к событиям обнаружения. Чтобы узнать больше, ознакомьтесь [со статьей начало работы с API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis). 
 
 ## <a name="enum-auditlogrecordtype---type-edmint32"></a>Enum: AuditLogRecordType; Type: Edm.Int32
 
 ### <a name="auditlogrecordtype"></a>AuditLogRecordType
 
-Значения **свойства AuditLogRecordType,** относящиеся к событиям Office 365 ATP, см. в следующей таблице.
+В следующей таблице приведены значения **аудитлогрекордтипе** , относящиеся к событиям ATP для Office 365:
 
 |Значение|Имя элемента|Описание|
 |---|---|---|
-|28|ThreatIntelligence|События фишинга и вредоносных программ из Exchange Online Protection и Office 365 ATP.|
-|41|ThreatIntelligenceUrl|События времени блокировки безопасных ссылок ATP и переопределения блокировки из Office 365 ATP.|
+|8|ThreatIntelligence|События фишинга и вредоносных программ из Exchange Online Protection и Office 365 ATP.|
+|41|ThreatIntelligenceUrl|События времени блокировки и переопределения блоков для безопасных ссылок из Office 365 ATP.|
 |47|ThreatIntelligenceAtpContent|События фишинга и вредоносных программ для файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams из Office 365 ATP.|
-|64|AirInvestigation|Автоматизированное исследование событий анализа угроз и реагирование на них, например сведения об исследовании и соответствующие артефакты, из Office 365 ATP (план 2).|
+|64|AirInvestigation|Автоматическое исследование и события ответа, такие как сведения об исследовании и необходимые артефакты, из Office 365 ATP (план 2).|
 |
 
 > [!IMPORTANT]
-> Для настройки интеграции SIEM & с Office 365 Advanced Threat Protection вам необходимо быть глобальным администратором или вам должна быть назначена роль администратора безопасности, назначенная в Центре соответствия требованиям безопасности.<br/>Ведение журнала аудита должно быть включено для вашей среды Microsoft 365. Чтобы получить справку, см. раздел ["Включение и отключение поиска в журнале аудита".](../../compliance/turn-audit-log-search-on-or-off.md)
+> Для настройки интеграции SIEM с Office 365 Advanced Threat Protection необходимо быть глобальным администратором или иметь роль администратора безопасности, назначенную для центра безопасности & соответствия требованиям.<br/>Для вашей среды Microsoft 365 должна быть включена функция ведения журнала аудита. Чтобы получить помощь по этому, ознакомьтесь со статьей [Включение и отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные сведения
 
 [Анализ угроз и реагирование на них в Office 365](office-365-ti.md)
 
-[Автоматизированный анализ угроз и реагирование на них (AIR) в Office 365](automated-investigation-response-office.md)
+[Автоматическое исследование и реагирование (AIR) в Office 365](automated-investigation-response-office.md)
 
 
