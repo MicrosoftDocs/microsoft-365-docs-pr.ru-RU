@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a52ba30aa9b89dc78e9bd5a538cb530cd7bf6e00
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 21e6e3294b8fe722214d567963223b9e62737e34
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305370"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333682"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>Планирование пилотного проекта Microsoft Threat protection 
 
@@ -31,8 +31,49 @@ ms.locfileid: "48305370"
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Планирование пилотного проекта Microsoft Threat protection" />
+      <br/>План</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Подготовка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз" />
+      <br/>Подготовка</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Запуск эмуляции атак Майкрософт для защиты от угроз" />
+     <br/>Имитация атаки</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Закрываете и обобщает свой пилотный проект Майкрософт по защите от угроз." />
+     <br/>Закрытие и итоги</a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
 
-Чтобы убедиться, что пилотный проект является успешным, важно тщательно спланировать и получить утверждения от ваших заинтересованных лиц в начале. Элементы планирования включают идентифицирующие область, варианты использования, требования и критерии успеха.. 
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+В настоящее время вы находитесь на этапе планирования.
+
+Чтобы убедиться, что пилотный проект является успешным, важно тщательно спланировать и получить утверждения от ваших заинтересованных лиц в начале. Элементы планирования включают идентифицирующие область, варианты использования, требования и критерии успеха.
 
 В этом руководстве рассказывается, как спланировать пилотный проект. 
 
@@ -53,7 +94,7 @@ ms.locfileid: "48305370"
 
 ## <a name="use-cases"></a>Варианты использования
 
-Варианты использования представляют операторы того, как тестируемое средство предназначено для использования его назначенными пользователями. Их можно сформулировать как пользовательские описания функциональности с точки зрения определенного пользователя, например аналитика SOC. Пример:
+Варианты использования представляют операторы того, как тестируемое средство предназначено для использования его назначенными пользователями. Их можно сформулировать как пользовательские описания функциональности с точки зрения определенного пользователя, например аналитика SOC. Например:
 - Как аналитику SOC необходимо просмотреть, сопоставить, оценить и управлять оповещениями и событиями на устройствах, в сети и в почтовых ящиках. [Управление инцидентами]
 - Как аналитику SOC, мне необходимо средство и процесс, чтобы автоматически исследовать вредоносные события в сети и реагировать на них. [Автоматический ИК-порт]
 - Как аналитику SOC, я должен искать данные из моей среды, чтобы найти известные и потенциальные угрозы, а также подозрительные действия. [Расширенный поиск]
@@ -76,7 +117,7 @@ ms.locfileid: "48305370"
 
 Один из способов объединения всех элементов плана можно создать систему показателей. Ниже приведен пример системы показателей.
 
-|**Вариант использования**|**Требования**|**Требования к конфигурации**|**План тестирования**|**Ожидаемый результат**|**Состояние тестирования**|**Коэффициент**|**Notes**|
+|**Вариант использования**|**Требования**|**Требования к конфигурации**|**План тестирования**|**Ожидаемый результат**|**Состояние тестирования**|**Коэффициент**|**Примечания**|
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |Управление инцидентами|— Защита от угроз Майкрософт </br></br>— Azure ATP </br></br>— Пакет ATP для защитника Майкрософт </br></br>-Microsoft Cloud App Security (необязательно)|Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Исследование инцидента](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |С помощью расследований можно оценить область и влияние инцидента и управлять инцидентом.||||
 |аутоир|— Защита от угроз Майкрософт </br></br>— Azure ATP </br></br>— Пакет ATP для защитника Майкрософт |Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке <br>Включение Аутоир  |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Автоматическое исследование](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Оповещения и происшествия автоматически исправляются службой защиты от угроз Майкрософт||||
@@ -85,5 +126,5 @@ ms.locfileid: "48305370"
 
 
 ## <a name="next-step"></a>Следующий шаг
-|![Этап подготовки](../../media/prepare.png) <br>[Этап подготовки](prepare-mtpeval.md) | Подготовка пилотной среды Microsoft Threat protection
+|![Этап подготовки](../../media/mtp/prep.png) <br>[Этап подготовки](prepare-mtpeval.md) | Подготовка пилотной среды Microsoft Threat protection
 |:-------|:-----|

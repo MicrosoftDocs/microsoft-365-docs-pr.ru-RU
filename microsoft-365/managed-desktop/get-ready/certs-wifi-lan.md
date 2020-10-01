@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7a0af5db4e18bc46436ace6f9fefefc18f0ccd68
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: bccfe9a6a6a0550f96ab33d5fd5142e4eaae7b51
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608279"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333528"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт  
  
@@ -32,9 +32,6 @@ ms.locfileid: "46608279"
  
 - [Шаблон сертификата PKCS](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/PKCS-certificate-template.xlsx) 
 - [Шаблон сертификата SCEP](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/SCEP-certificate-template.xlsx)
-
->[!NOTE]
->В настоящее время только профили сертификатов SCEP поддерживаются для развертывания профилей Wi/Fi на настольном компьютере, управляемом Майкрософт, при использовании типа EAP. Профили сертификатов PKCS не поддерживаются. Обратитесь к разделу [Добавление параметров Wi/Fi для устройств с Windows 10 в Intune](https://docs.microsoft.com/intune/wi-fi-settings-windows) для получения справки.
 
   
 ## <a name="wi-fi-connectivity-requirements"></a>Требования к подключению Wi – Fi

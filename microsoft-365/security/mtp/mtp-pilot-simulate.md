@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 8d4eb6cedbfa9a74eccdbb94e71f9eb32189ccbb
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: be6bf277926cffb77dfcde425ef08a688fb0cf34
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277543"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333982"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Запуск эмуляции атак Майкрософт для защиты от угроз  
 
@@ -31,6 +31,47 @@ ms.locfileid: "48277543"
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" >
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Планирование пилотного проекта Microsoft Threat protection" />
+      <br/>Планирование </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Подготовка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз" />
+      <br/>Подготовка </a><br>
+    </td>
+    <td align="center"bgcolor="#d5f5e3">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Запуск эмуляции атак Майкрософт для защиты от угроз" />
+      <br/>Имитация атаки </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Закрываете и обобщает свой пилотный проект Майкрософт по защите от угроз." />
+      <br/>Закрытие и подведение итогов </a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
+
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+В настоящее время вы находитесь на этапе эмуляции атаки.
 
 После подготовки пилотной среды необходимо протестировать средства управления инцидентами защиты от угроз Майкрософт, а также автоматическое исследование и устранение проблем. Мы поможем вам имитировать сложную атаку, которая использует расширенные методы для скрытия определения. Атака перечисляет открытые сеансы SMB на контроллерах домена и получает последние IP-адреса устройств пользователей. В эту категорию атак обычно нет файлов, отброшенных на устройстве жертвы — они происходят только в памяти. Они «выходят с земли», используя существующие системы и средства администрирования и вводят свой код в системные процессы для скрытия их выполнения, позволяя им обнаруживать избежать и хранить их на устройстве.
 

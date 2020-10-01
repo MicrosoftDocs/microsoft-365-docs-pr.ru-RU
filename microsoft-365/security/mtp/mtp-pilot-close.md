@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: dbd20263fce059bc57b6a19b58f15e3f5223b4e7
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: d820b360f189425cc3913c6d92afc8965a7d1eee
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318211"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333633"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Заключение и подведение итогов для пилотной программы Майкрософт по защите от угроз  
 
@@ -31,6 +31,48 @@ ms.locfileid: "48318211"
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
+
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" >
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Планирование пилотного проекта Microsoft Threat protection" />
+      <br/>Планирование </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Подготовка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз" />
+      <br/>Подготовка </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Запуск эмуляции атак Майкрософт для защиты от угроз" />
+      <br/>Имитация атаки </a><br>
+    </td>
+    <td align="center"bgcolor="#d5f5e3">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Закрываете и обобщает свой пилотный проект Майкрософт по защите от угроз." />
+      <br/>Закрытие и подведение итогов </a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
+
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+В настоящее время вы находитесь на этапе закрытия и создания итогов.
 
 Вы только что настроили расширенную атаку "только для памяти", которая выполняла код удаленно на контроллере домена. Вы узнали, как обнаружение и оповещение защитником Майкрософт и Azure ATP при стеалси вредоносных действиях. Вы также видели, как оповещения из различных источников доставляются вместе с другими контекстными сведениями в один инцидент на портале Центра безопасности Microsoft 365, позволяя аналитикам SOC исследовать и выполнять необходимые действия. Вы также создали Расширенный запрос поиска, который определит входящие сообщения электронной почты, в которых пользователь открыл или сохранил вложение и создал обнаружение на основе этого запроса.
 
@@ -47,7 +89,8 @@ ms.locfileid: "48318211"
 Мы надеемся, что вы довольны этой имитацией и готовы приступить к внедрению того, что вы узнали.
 
 ## <a name="next-step"></a>Следующий шаг
-
-****
-
-Просмотрите решение и [центр архитектуры Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , чтобы узнать, как разработать решение и архитектуру, предназначенные для вашей организации.
+Узнайте больше о базовых средствах защиты от угроз Майкрософт с помощью следующих интерактивных руководств:
+- [Защита Организации с помощью защитника Майкрософт для Office 365](https://aka.ms/O365ATP-Interactive-Guide)
+- [Обнаружение подозрительных действий и потенциальных атак с помощью защитника Майкрософт для удостоверения](https://aka.ms/AATP-Interactive-Guide)
+- [Обнаружение угроз и Управление оповещениями с помощью Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
+- [Исследование и исправление угроз с помощью защитника Майкрософт для конечной точки](https://aka.ms/MDATP-IR-Interactive-Guide)
