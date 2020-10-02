@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1c03d9028205ea392bade15e6dec354bff0be96e
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: d5aaba3d1f8606ab69b360d5916a5c9a8a653a14
+ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235398"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48343287"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Предварительные условия для компьютеров, управляемых Майкрософт
 
@@ -26,7 +26,7 @@ ms.locfileid: "48235398"
 
 Область | Сведения о необходимых компонентах
 --- | ---
-Лицензирование |Для рабочего стола, управляемого корпорацией Майкрософт, необходима одна из следующих лицензий на Microsoft 365 (или аналогичных):<br>— Microsoft 365<br>— Microsoft 365 E3 с надстройкой Microsoft 365 "безопасность"<br><br>Подробные сведения о конкретных планах обслуживания и их ролях на компьютере, управляемом корпорацией Майкрософт, представлены в разделе [Дополнительные сведения о лицензиях](#more-about-licenses) , приведенных в этом разделе.<br>Более подробную информацию о доступных лицензиях можно узнать в [статье Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+Лицензирование |Для рабочего стола, управляемого корпорацией Майкрософт, требуется лицензия Microsoft 365 E3 с защитником Майкрософт для конечной точки и Azure Active Directory Premium 2 (или эквиваленты).<br>Подробные сведения о конкретных планах обслуживания приведены в разделе [Дополнительные сведения о лицензиях](#more-about-licenses) , описанных в этом разделе.<br>Более подробную информацию о доступных лицензиях можно узнать в [статье Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 Подключение |  Все устройства, управляемые корпорацией Майкрософт, требуют подключения к многочисленным конечным точкам служб Майкрософт из корпоративной сети.<br><br>Полный список обязательных IP-адресов и URL-адресов приведен в разделе [Конфигурация сети](../get-ready/network.md). 
 Azure Active Directory |    Azure Active Directory (Azure AD) должен быть источником полномочий для всех учетных записей пользователей, либо учетные записи пользователей должны быть синхронизированы из локальной службы Active Directory с помощью последней поддерживаемой версии Azure AD Connect.<br><br>[Роуминг состояния предприятия](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview) должен быть включен для пользователей настольных компьютеров, управляемых корпорацией Майкрософт.<br><br>Дополнительные сведения см. в статье [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect).<br><br>Дополнительные сведения о поддерживаемых версиях Azure AD Connect можно найти в статье [Azure AD Connect: журнал выпусков версий](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history).
 Проверка подлинности |    Если Azure AD не является источником основной проверки подлинности для учетных записей пользователей, необходимо настроить один из этих параметров в Azure AD Connect:<br>-Синхронизация хэша паролей<br>Сквозная проверка подлинности<br>— Внешний поставщик удостоверений (включая Windows Server ADFS и другие ИДПС), настроенный для удовлетворения требований интеграции с Azure AD. Ознакомьтесь с [рекомендациями](https://www.microsoft.com/download/details.aspx?id=56843) для получения дополнительных сведений. <br><br>При настройке параметров проверки подлинности с помощью Azure AD Connect рекомендуется также использовать обратную запись пароля. Дополнительную информацию можно узнать в статье [обратная запись пароля](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). <br><br>Если реализован внешний поставщик удостоверений, необходимо проверить решение:<br>— Соответствует требованиям к интеграции Azure AD<br>-Поддерживает условный доступ к Azure AD, это позволит настроить политику соответствия требованиям для устройств ММД<br>— Включает регистрацию устройств и использование служб и компонентов Microsoft 365, необходимых в рамках управляемого рабочего стола Майкрософт. <br><br>Для получения дополнительных сведений о параметрах проверки подлинности с помощью Azure AD, обратитесь к разделу [Параметры входа пользователя Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin).
@@ -38,20 +38,20 @@ Microsoft 365 | Служба OneDrive для бизнеса должна быт
 
 ## <a name="more-about-licenses"></a>Дополнительные сведения о лицензиях
 
-Для работы на рабочем столе Майкрософт необходимо иметь определенные варианты лицензирования. Эти параметры доступны в нескольких пакетах лицензий, некоторые из которых могут быть уже присвоены. В этой таблице показано, какие необходимые варианты доступны для лицензий и обобщаются их роли в управляемом рабочем столе Майкрософт.
+Для работы на рабочем столе Майкрософт необходимо иметь определенные варианты лицензирования. Для получения сведений о том, как используются эти лицензии, ознакомьтесь с разработкой [управляемых компьютеров Майкрософт](../intro/technologies.md) .
 
 > [!TIP]
 > Для назначения этих лицензионных параметров определенным пользователям рекомендуется использовать [возможности лицензирования на основе групп](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) Azure Active Directory.
 
+- Azure Active Directory Premium P2
+- Microsoft Intune 
+- Windows 10 Корпоративная  
+- Защитник Майкрософт для конечной точки
+- Приложения Microsoft 365 для предприятий
+- Microsoft Teams
+- [SharePoint Online (план 2)](https://www.microsoft.com/microsoft-365/sharepoint/compare-sharepoint-plans)
+- [Exchange Online (план 2)](https://www.microsoft.com/microsoft-365/exchange/compare-microsoft-exchange-online-plans) 
 
-
-|Вариант лицензирования |Доступно в *любом* из этих лицензионных продуктов |Использование рабочего стола с управляемыми Майкрософт|
-|-------------|-------------|-------------|
-|Azure Active Directory Premium P2     |— Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Enterprise Mobility + Security/Security<br>— Enterprise Mobility + Security E3<br>— Azure Active Directory Premium P2|  Предоставляет доступ к облачным службам Майкрософт; разрешает автопилоту регистрировать устройства      |
-|Microsoft Intune | — Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Enterprise Mobility + Security/Security<br>— Enterprise Mobility + Security E3<br>— Microsoft Intune  |  Необходимые для регистрации устройств, развертывания обновлений и управления устройствами       |
-|Windows 10 Корпоративная  |— Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Windows 10 Корпоративная E3<br>— Windows 10 Корпоративная ~ | Функции корпоративного выпуска Windows 10       |
-|Advanced Threat Protection в Microsoft Defender | — Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Windows 10 Корпоративная ~<br>— Advanced Threat Protection в защитнике Майкрософт   |  Обеспечивает обнаружение, мониторинг, оповещение и реагирование на угрозы  |
-|Приложения Microsoft 365 для предприятий  |— Microsoft 365<br>— Microsoft 365 E3<br>— Office 365<br>— Office 365 E3| Активация средств Office и продуктивности и совместной работы    |
 
 > [!TIP]
 > Ваш менеджер учетных записей Майкрософт поможет вам ознакомиться с текущими лицензиями и планами обслуживания и найти самый эффективный путь для получения дополнительных лицензий или планов обслуживания, в то же время не пробегая дублирования.
