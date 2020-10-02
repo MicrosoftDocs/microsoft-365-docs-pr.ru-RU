@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6b19c5cd1766c07e106897cefeb495f1b98bb548
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: b3ed56dd3e669dbd5a2c3f09d87dfd87fe680aff
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104392"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337185"
 ---
 # <a name="work-with-insights"></a>Работа с аналитикой
 
@@ -31,9 +31,9 @@ ms.locfileid: "48104392"
 - Каково текущее состояние обновлений для системы безопасности на устройствах?
 - Сколько времени займет 95% устройств с последним обновлением системы безопасности?
 
-Чтобы получить доступ к этим представлениям из [диспетчера Microsoft ендопинт](https://endpoint.microsoft.com/), нваигате на домашнюю вкладку рабочего стола Майкрософт и в области **отчеты** выберите **Просмотр сведений** :
+Чтобы получить доступ к этим представлениям из [диспетчера конечных точек Майкрософт](https://endpoint.microsoft.com/), перейдите на вкладку Рабочий стол, управляемую Майкрософт на домашней странице, и в области **отчеты** выберите **Просмотр сведений** :
 
-<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->!
+<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->
 
 
 ## <a name="usage-insights"></a>Аналитика использования
@@ -54,7 +54,6 @@ ms.locfileid: "48104392"
 Узнайте больше о [батарее](battery-insights.md).
 
 ## <a name="windows-security-update-insights"></a>Аналитика центра безопасности Windows
-
-В этом представлении отображаются сведения о состоянии обновлений для системы безопасности для устройств, управляемых Майкрософт. Чтобы просмотреть эти сведения, перейдите на вкладку **Безопасность Windows удатес** .
+В этом представлении отображаются сведения о состоянии обновлений для системы безопасности для устройств, управляемых Майкрософт. Чтобы просмотреть эти сведения, перейдите на вкладку **обновления для системы безопасности Windows** .
 
 Дополнительные сведения об [обновлении для системы безопасности](security-update-insights.md).

@@ -9,14 +9,21 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: В этой статье объясняется, как применить метку хранения к модели понимания документа
-ms.openlocfilehash: 6b42f7df5e14f57f3754e7d65c5f4cf2e8fab6a0
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 8f74187d14620f0c095b19c6f59b2dbd1b3f98d1
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321849"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337221"
 ---
 # <a name="apply-a-retention-label-to-a-document-understanding-model"></a>Применение метки хранения к модели понимания документа
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GydO]  
+
+</br>
+
 
 Вы можете легко применить [метку хранения](https://docs.microsoft.com/microsoft-365/compliance/retention) к модели понимания документа в Microsoft SharePoint Syntex.
 
