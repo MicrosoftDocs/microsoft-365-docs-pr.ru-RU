@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/16/2020
+ms.date: 09/30/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,20 +15,29 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Необходимо, чтобы пользователи безопасно входили в систему с помощью многофакторной проверки подлинности (MFA) и других функций.
-ms.openlocfilehash: 6c8f58e54ae21b4a5e1566dc72673e1d69152863
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 2e6c564e3179d0847710e2bef071dcc9e1cdbdaf
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132249"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327430"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Защита пользовательских входов в ваш клиент Microsoft 365
 
 Чтобы повысить уровень безопасности пользовательских входов, выполните указанные ниже действия.
 
+- Использование Windows Hello для бизнеса
 - Используйте защиту паролем Azure Active Directory (Azure AD)
 - Используйте многофакторную проверку подлинности (MFA)
-- Развертывайте политики доступа для удостоверений и устройств
+- Развертывание конфигураций доступа для удостоверений и устройств
+- Защита идентификации Azure Active Directory для защиты от компрометации учетных данных
+
+## <a name="windows-hello-for-business"></a>Windows Hello для бизнеса
+
+При входе в устройство с Windows Hello для бизнеса в Windows 10 Корпоративная заменяет пароли надежной двухфакторной проверкой подлинности. Два фактора — это новый тип учетных данных пользователей, который связан с устройством и биометрией или ПИН-кодом.
+
+Дополнительные сведения см. в статье [Обзор Windows Hello для бизнеса](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview).
+
 
 ## <a name="azure-ad-password-protection"></a>Защита паролем Azure AD
 
@@ -44,7 +53,7 @@ ms.locfileid: "48132249"
 
 Первым этапом использования MFA является ***обеспечение многофакторной проверки подлинности для всех учетных записей администраторов***, также известных как привилегированные учетные записи.
 
-Помимо этого первого этапа Корпорация Майкрософт настоятельно рекомендует использование MFA для всех пользователей.
+Помимо этого первого этапа корпорация Майкрософт рекомендует использование MFA для всех пользователей.
 
 Обеспечить использование администраторами и пользователями MFA можно тремя способами в зависимости от вашего плана Microsoft 365.
 
@@ -96,7 +105,7 @@ ms.locfileid: "48132249"
 | **Политики условного доступа** | Если включена хотя бы одна из них, то включение параметров безопасности по умолчанию невозможно | Если все отключены, вы можете включить настройки безопасности по умолчанию  | Пользователь указывает при регистрации MFA  |
 ||||
 
-## <a name="identity-and-device-access-policies"></a>Политики доступа для удостоверений и устройств
+## <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
 Параметры и политики доступа для удостоверений и устройств — это рекомендуемые предварительные функции и их параметры в сочетании с политиками условного доступа, Intune и защиты идентификации Azure AD, которые определяют, должен ли конкретный запрос на доступ быть удовлетворен и на каких условиях. Решение принимается исходя из учетной записи пользователя при входе в систему, используемого устройства, приложения, которое используется для доступа, места, откуда выполняется запрос на доступ, и оценки риска запроса. Благодаря этой возможности только утвержденные пользователи и устройства смогут получить доступ к важным ресурсам.
 
@@ -114,27 +123,22 @@ ms.locfileid: "48132249"
 
 Корпорация Майкрософт настоятельно рекомендует настраивать и развертывать в вашей организации политики доступа для удостоверений и устройств, включая отдельные параметры для Microsoft Teams, Exchange Online и SharePoint. Дополнительные сведения см. в статье [Конфигурации доступа для удостоверений и устройств](microsoft-365-policies-configurations.md)
 
-<!--
+## <a name="azure-ad-identity-protection"></a>Защита идентификации Azure AD
 
-## Let your users reset their own passwords
+В этом разделе описано, как настроить политики, которые защищают от кражи учетных данных, когда злоумышленник определяет имя учетной записи пользователя и пароль, чтобы получить доступ к облачным службам и данным организации. Защита идентификации Azure AD обеспечивает недоступность учетных данных пользователей для злоумышленников несколькими способами.
 
-Self-Service Password Reset (SSPR) enables users to reset their own passwords without impacting IT staff. Users can quickly reset their passwords at any time and from any place. Watch [this video](https://go.microsoft.com/fwlink/?linkid=2128524) to set up SSPR.
+С помощью защиты удостоверений Azure AD можно выполнять указанные ниже действия.
 
-## Sign in to SaaS apps with Azure AD
+|Возможность|Описание|
+|:---------|:---------|
+| Определять и устранять потенциальные уязвимости в удостоверениях организации. | В Azure AD используется машинное обучение для выявления отклонений от нормы и подозрительных событий, например входов и действий после входов. Используя эти данные, защита идентификации Azure AD создает отчеты и оповещения, которые помогут вам оценить проблемы и принять соответствующие меры.|
+|Определять подозрительные действия, связанные с удостоверениями организации, и автоматически реагировать на них.|Можно настроить политики на основе рисков, автоматически реагирующие на выявленные проблемы при возникновении риска указанного уровня. Эти политики, а также другие средства контроля условного доступа, предоставляемые службами Azure AD и Microsoft Intune, могут либо автоматически блокировать доступ, либо принимать соответствующие меры, включая сброс паролей и требование многофакторной проверки подлинности Azure для последующих входов. |
+| Исследовать подозрительные происшествия и разрешать их с помощью административных действий. | Вы можете исследовать события, связанные с риском, используя сведения об инцидентах безопасности. Доступны основные рабочие процессы  для отслеживания исследований и принятия мер, например сброс паролей. |
+|||
 
-In addition to providing cloud authentication for users, Azure AD can also be your central way to secure all your apps, whether they’re on-premises, in Microsoft’s cloud, or in another cloud. By [integrating your apps into Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration), you can make it easy for your users to discover the applications they need and sign into them securely.
+См. [дополнительные сведения о защите удостоверений Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection).
 
-## Results of deployment of secure sign-ins
-
-After deployment of MFA, your users:
-
-- Are required to use MFA for sign-ins.
-- Have completed the MFA registration process and are using MFA for all sign-ins.
-- Can use SSPR to reset their own passwords.
-
-- [Plan an Azure AD self-service password reset deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
-
---> 
+См. описание [действий по включению защиты идентификации Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).
 
 ## <a name="admin-technical-resources-for-mfa-and-secure-sign-ins"></a>Технические ресурсы для администраторов по MFA и защите входов
 
@@ -144,3 +148,6 @@ After deployment of MFA, your users:
 - [Настройте политику регистрации многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Конфигурации доступа для удостоверений и устройств](microsoft-365-policies-configurations.md)
 
+## <a name="next-step"></a>Следующий этап
+
+[Управление учетными записями пользователей](manage-microsoft-365-accounts.md)
