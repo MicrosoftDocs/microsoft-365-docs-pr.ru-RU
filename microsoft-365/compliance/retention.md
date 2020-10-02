@@ -16,13 +16,15 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
+- m365solution-mig
+- m365initiative-compliance
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: 49d61a7bbc376121f5a91c1692f292b83abea779
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: be7fc75d9992ba288c29d1bc4783ac00b41a768c
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308947"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338688"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 

@@ -17,13 +17,15 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
+- m365solution-mig
+- m365initiative-compliance
 description: С помощью управления записями в Microsoft 365 вы можете применять графики хранения к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией.
-ms.openlocfilehash: 677196f23430ec19f23c50e05fcc193fde420ca0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: baf03fd5c9f58101454f5f2132700c7e078b3107
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200496"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338344"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Сведения об управлении записями в Microsoft 365
 

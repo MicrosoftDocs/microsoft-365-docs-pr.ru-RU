@@ -9,14 +9,21 @@ ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 03e1be51b35447376be5adfc2f2cd3c944cf89fa
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 6adaef77f6989d541f8028252c5bb1ec7db7a6fc
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321341"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337197"
 ---
 # <a name="push-content-types-to-a-hub"></a>Отправка типов контента на центральный сайт
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GyeV]  
+
+</br>
+
 
 Чтобы обеспечить доступность важных типов контента в библиотеках и списках SharePoint, вы можете отправить их на один из центральных сайтов. Они будут автоматически добавлены в новые списки и библиотеки, созданные на сайтах, связанных с центральным сайтом, и на любые новые сайты, добавляемые в этот центр.
 
