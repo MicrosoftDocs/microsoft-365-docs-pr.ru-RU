@@ -1,6 +1,6 @@
 ---
 title: Работа с аналитикой
-description: ''
+description: Обзор аналитических сведений, доступных на компьютере, управляемом Майкрософт
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b3ed56dd3e669dbd5a2c3f09d87dfd87fe680aff
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: ba91a33da9f4d2187938c27398d5ef7c1cacebcd
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337185"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350834"
 ---
 # <a name="work-with-insights"></a>Работа с аналитикой
 
@@ -31,9 +31,11 @@ ms.locfileid: "48337185"
 - Каково текущее состояние обновлений для системы безопасности на устройствах?
 - Сколько времени займет 95% устройств с последним обновлением системы безопасности?
 
-Чтобы получить доступ к этим представлениям из [диспетчера конечных точек Майкрософт](https://endpoint.microsoft.com/), перейдите на вкладку Рабочий стол, управляемую Майкрософт на домашней странице, и в области **отчеты** выберите **Просмотр сведений** :
 
-<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->
+Чтобы получить доступ к этим представлениям из [диспетчера конечных точек Майкрософт](https://endpoint.microsoft.com/), перейдите на вкладку Рабочий стол, управляемую Майкрософт на домашней странице, и в области **отчетов** выберите **Просмотр сведений** :
+
+
+![Главная страница центра администрирования с областью отчетов в ссылке внизу слева и сведениями о просмотре](../../media/insights-main.png)
 
 
 ## <a name="usage-insights"></a>Аналитика использования

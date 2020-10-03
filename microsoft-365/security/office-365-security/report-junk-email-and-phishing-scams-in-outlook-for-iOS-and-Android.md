@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -16,25 +16,25 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут изучить встроенные параметры отчетов о нежелательной почте, нежелательной почте и phishing-атаках в Outlook для iOS и Android.
-ms.openlocfilehash: fef519f3fdd5cf46d383c41ad227ab0cd3ed4390
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 23668a762301ee442bc805e62863079ee7ae6076
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201537"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350859"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Отправка нежелательных и фишинговых сообщений электронной почты в Outlook для iOS и Android в Exchange Online
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-В организациях Microsoft 365 с почтовыми ящиками в Exchange Online или локальных почтовых ящиков с помощью [гибридной современной проверки подлинности](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide)можно использовать встроенные параметры отчетов в Outlook для iOS и Android для отправки ложных срабатываний (хороший адрес электронной почты, помеченный как спам), ложные отрицательные (недопустимые сообщения электронной почты) и фишинговые сообщения для Exchange Online Protection
+В организациях Microsoft 365 с почтовыми ящиками в Exchange Online или локальных почтовых ящиков с помощью [гибридной современной проверки подлинности](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview)можно использовать встроенные параметры отчетов в Outlook для iOS и Android для отправки ложных срабатываний (хороший адрес электронной почты, помеченный как спам), ложные отрицательные (недопустимые сообщения электронной почты) и фишинговые сообщения для Exchange Online Protection
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Если вы являетесь администратором в Организации с почтовыми ящиками Exchange Online, рекомендуем использовать портал отправки в центре безопасности & соответствия требованиям. Дополнительные сведения см. в [статье Использование отправки администратором для отправки подозреваемой спама, фишинга, URL-адресов и файлов в корпорацию Майкрософт](admin-submission.md).
 
-- Можно настроить копирование или перенаправление сообщений, отправленных в указанный почтовый ящик. Дополнительные сведения см. [в статье определение почтового ящика для отправленных пользователем сообщений о нежелательной почте и фишинговых сообщениях в Exchange Online](user-submission.md).
+- Можно настроить копирование или перенаправление сообщений, отправленных в указанный почтовый ящик. Для получения дополнительных сведений обратитесь к разделу [политики отправки пользователей](user-submission.md).
 
 - Дополнительные сведения о сообщениях отчетов в корпорацию Майкрософт можно найти [в статье сообщения и файлы отчетов в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md).
 

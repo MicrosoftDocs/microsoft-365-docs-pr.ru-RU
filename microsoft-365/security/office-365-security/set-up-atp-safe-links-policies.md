@@ -6,7 +6,7 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.date: ''
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как просматривать, создавать, изменять и удалять политики безопасных ссылок и параметры глобальных безопасных ссылок в Office 365 Advanced Threat protection (ATP).
-ms.openlocfilehash: 58088955a6909238c1fe5202688e0b8d1ab8e6c6
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: b6b013364fc763450ac8bef0d06bd2fad8d55daa
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327229"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350723"
 ---
 # <a name="set-up-safe-links-policies-in-office-365-atp"></a>Настройка политик безопасных ссылок в Office 365 ATP
 
