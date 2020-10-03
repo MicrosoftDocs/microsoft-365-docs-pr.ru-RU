@@ -13,24 +13,26 @@ search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
-- M365-security-compliance
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: ''
 description: В этой статье представлены дополнительные сведения о том, как использовать и настраивать управление привилегированным доступом в Office 365.
-ms.openlocfilehash: 7b3ac9dbc065bcbbdf48e805a3975886a894c645
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d75a8944cdacb6df2d6ee6570c0ce327d0e7ae00
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545999"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341207"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Начало работы с управлением привилегированным доступом
 
 В этом разделе описывается включение и Настройка управления привилегированным доступом в Организации. Для управления привилегированным доступом можно использовать центр администрирования Microsoft 365 или PowerShell управления Exchange.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Прежде чем приступить к управлению привилегированным доступом, необходимо подтвердить вашу [подписку на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) и любую надстройку. Чтобы получить доступ к управлению привилегированным доступом и использовать ее, ваша организация должна иметь одну из следующих подписок или надстроек:
 
@@ -115,7 +117,7 @@ ms.locfileid: "47545999"
 Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccounts @('<systemAccountUPN1>','<systemAccountUPN2>')
 ```
 
-Пример.
+Пример:
 
 ```PowerShell
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
@@ -162,7 +164,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\<exchange management cmdlet name>' -ApprovalType <Manual, Auto> -ApproverGroup '<default/custom approver group>'
 ```
 
-Пример.
+Пример:
 
 ```PowerShell
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType Manual -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
@@ -206,7 +208,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 New-ElevatedAccessRequest -Task 'Exchange\<exchange management cmdlet name>' -Reason '<appropriate reason>' -DurationHours <duration in hours>
 ```
 
-Пример.
+Пример:
 
 ```PowerShell
 New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting to fix the user mailbox error' -DurationHours 4
@@ -234,7 +236,7 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 Get-ElevatedAccessRequest -Identity <request ID> | select RequestStatus
 ```
 
-Пример.
+Пример:
 
 ```PowerShell
 Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | select RequestStatus
@@ -264,7 +266,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 Approve-ElevatedAccessRequest -RequestId <request id> -Comment '<approval comment>'
 ```
 
-Пример.
+Пример:
 
 ```PowerShell
 Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<approval comment>'
@@ -276,7 +278,7 @@ Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -C
 Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 ```
 
-Пример.
+Пример:
 
 ```PowerShell
 Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'

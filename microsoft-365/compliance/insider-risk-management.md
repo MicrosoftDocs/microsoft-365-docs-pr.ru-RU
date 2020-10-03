@@ -11,13 +11,16 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: m365-security-compliance
-ms.openlocfilehash: 92b8802325ea6d80241d59bd506051ad048b8422
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.collection:
+- m365-security-compliance
+- m365solution-insiderrisk
+- m365initiative-compliance
+ms.openlocfilehash: 6045adec673313514243b023dc6ab688387f78d8
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208681"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341405"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Предварительная оценка управления рисками в Microsoft 365
 
@@ -108,7 +111,7 @@ ms.locfileid: "48208681"
 
 ![Исследование рисков по управлению рисками](../media/insider-risk-investigate.png)
 
-### <a name="action"></a>Action
+### <a name="action"></a>Действие
 
 После изучения таких случаев проверяющие могут быстро решить проблему или сотрудничать с другими заинтересованными сторонами в Организации. Если пользователи случайно или случайно нарушают условия политики, можно отправить пользователю простое уведомление с напоминанием о шаблонах, которые можно настроить для Организации. Эти уведомления могут отдаваться как простые напоминания или могут направлять пользователей на новые обучающие материалы или рекомендации по предотвращению нежелательного поведения в будущем. Для получения дополнительных сведений см [шаблоны уведомлений "Управление рисками](insider-risk-management-notices.md)".
 
