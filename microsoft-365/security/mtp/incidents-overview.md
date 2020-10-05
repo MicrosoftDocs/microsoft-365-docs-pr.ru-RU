@@ -19,40 +19,43 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f462e6018f03080b41e46f45629dc4bfe44b3ef9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c9b495b70c8b61188b4db3175b54e406feb87fc8
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200021"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357846"
 ---
-# <a name="incidents-overview-in-microsoft-threat-protection"></a><span data-ttu-id="1f727-104">Обзор инцидентов в службе Защиты от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="1f727-104">Incidents overview in Microsoft Threat Protection</span></span>
+# <a name="incidents-overview-in-microsoft-threat-protection"></a><span data-ttu-id="9190d-104">Обзор инцидентов в службе Защиты от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="9190d-104">Incidents overview in Microsoft Threat Protection</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="1f727-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="1f727-105">**Applies to:**</span></span>
-- <span data-ttu-id="1f727-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="1f727-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="9190d-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="9190d-105">**Applies to:**</span></span>
+- <span data-ttu-id="9190d-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="9190d-106">Microsoft Threat Protection</span></span>
 
 
 
-<span data-ttu-id="1f727-107">Основой всех происшествий являются оповещения.</span><span class="sxs-lookup"><span data-stu-id="1f727-107">The basis of all incidents are alerts.</span></span> <span data-ttu-id="1f727-108">Оповещения создаются в том случае, если в вашей сети встречается вредоносное событие или действие.</span><span class="sxs-lookup"><span data-stu-id="1f727-108">Alerts are created when a malicious event or activity is seen on your network.</span></span> <span data-ttu-id="1f727-109">Отдельные оповещения предоставляют ценные признаки о том, что происходит с конкретными событиями или объектами.</span><span class="sxs-lookup"><span data-stu-id="1f727-109">Individual alerts provide valuable clues in what's happening on individual events or entities.</span></span> <span data-ttu-id="1f727-110">Тем не менее, как правило, атаки используют различные векторы атаки для нарушения безопасности.</span><span class="sxs-lookup"><span data-stu-id="1f727-110">However, attacks typically employ various attack vectors to carry out a breach.</span></span> <span data-ttu-id="1f727-111">Сбор отдельных признаков в единую картину может быть непростой и трудоемкой задачей.</span><span class="sxs-lookup"><span data-stu-id="1f727-111">Piecing individual clues together can be a challenging and time-consuming task.</span></span> 
+<span data-ttu-id="9190d-107">Инциденты основываются на соответствующих предупреждениях.</span><span class="sxs-lookup"><span data-stu-id="9190d-107">Incidents are based on related alerts.</span></span> <span data-ttu-id="9190d-108">Оповещения создаются в том случае, если в вашей сети встречается вредоносное событие или действие.</span><span class="sxs-lookup"><span data-stu-id="9190d-108">Alerts are created when a malicious event or activity is seen on your network.</span></span> <span data-ttu-id="9190d-109">Отдельные оповещения предоставляют важную информацию о том, что происходит при атаках.</span><span class="sxs-lookup"><span data-stu-id="9190d-109">Individual alerts provide valuable clues about an on-going attack.</span></span> <span data-ttu-id="9190d-110">Тем не менее, как правило, атаки используют различные векторы и методы для выполнения нарушений.</span><span class="sxs-lookup"><span data-stu-id="9190d-110">However, attacks typically employ various vectors and techniques to carry out a breach.</span></span> <span data-ttu-id="9190d-111">ПиеЦинг индивидуальные подотчетные лица могут быть проблематичными и занимать много времени.</span><span class="sxs-lookup"><span data-stu-id="9190d-111">Piecing individual clues together can be challenging and time-consuming.</span></span>
 
-<span data-ttu-id="1f727-112">Защита от угроз (Майкрософт) соединяет точки от отдельных оповещений.</span><span class="sxs-lookup"><span data-stu-id="1f727-112">Microsoft Threat Protection connects the dots on individual alerts.</span></span> <span data-ttu-id="1f727-113">Вредоносные события в указанных ниже объектах выводятся в Центре безопасности Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="1f727-113">Malicious events on the following entities are surfaced in the Microsoft 365 security center:</span></span>
-- <span data-ttu-id="1f727-114">Устройства</span><span class="sxs-lookup"><span data-stu-id="1f727-114">Devices</span></span>
-- <span data-ttu-id="1f727-115">Пользователи</span><span class="sxs-lookup"><span data-stu-id="1f727-115">Users</span></span>
-- <span data-ttu-id="1f727-116">Почтовые ящики</span><span class="sxs-lookup"><span data-stu-id="1f727-116">Mailboxes</span></span>
+<span data-ttu-id="9190d-112">В этом кратком видеоролике приводится обзор происшествий в защите от угроз Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="9190d-112">This short video gives an overview of incidents in Microsoft Threat Protection.</span></span>
+<br>
 
-<span data-ttu-id="1f727-117">Подозрительные события, которые демонстрируют характеристики принадлежности к массированной атаке, объединяются в инцидент.</span><span class="sxs-lookup"><span data-stu-id="1f727-117">Suspicious events that show characteristics of being part of a larger attack are aggregated into an incident.</span></span> 
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-<span data-ttu-id="1f727-118">У вас будет точная информация о месте начала атаки и сведения, позволяющие понять весь объем атаки.</span><span class="sxs-lookup"><span data-stu-id="1f727-118">You'll know exactly where an attack started and other details to help you see the extent of the attack.</span></span>
+<span data-ttu-id="9190d-113">Инцидент — это набор коррелированных оповещений, которые составляют историю атак.</span><span class="sxs-lookup"><span data-stu-id="9190d-113">An incident is a collection of correlated alerts that make up the story of an attack.</span></span> <span data-ttu-id="9190d-114">Вредоносные и подозрительные события, обнаруженные в различных объектах устройств, пользователей и почтовых ящиков в сети, автоматически объединяются службой защиты от угроз Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="9190d-114">Malicious and suspicious events that are found in different device, user, and mailbox entities in the network are automatically aggregated by Microsoft Threat Protection.</span></span> <span data-ttu-id="9190d-115">Группировка связанных оповещений в инцидент дает средствам защиты более полное представление о атаках.</span><span class="sxs-lookup"><span data-stu-id="9190d-115">Grouping related alerts into an incident gives security defenders a comprehensive view of an attack.</span></span> 
 
-<span data-ttu-id="1f727-119">Эта платформа предоставляет защитников безопасности с корректными визуальными элементами и презентациями для понимания и устранения сложных межобъектных угроз.</span><span class="sxs-lookup"><span data-stu-id="1f727-119">The platform provides security defenders with the right visuals and data representations to understand and address complex cross-entity threats.</span></span> 
+<span data-ttu-id="9190d-116">Например, защитники безопасности могут видеть, где начался атака, какие тактики использовались и насколько атака пропало в сети.</span><span class="sxs-lookup"><span data-stu-id="9190d-116">For instance, security defenders can see where the attack started, what tactics were used, and how far the attack has gone into the network.</span></span> <span data-ttu-id="9190d-117">Кроме того, они могут просматривать область атаки, например количество устройств, пользователей и почтовых ящиков, влияние на их воздействие и другие сведения об затронутых объектах.</span><span class="sxs-lookup"><span data-stu-id="9190d-117">They can also see the scope of the attack, like how many devices, users, and mailboxes were impacted, how severe the impact was, and other details about affected entities.</span></span>
 
-<span data-ttu-id="1f727-120">У вас будет представление не только о масштабах атаки, но также у вас будет доступ к службам, которые позволят предпринять тактические шаги для сдерживания инцидента.</span><span class="sxs-lookup"><span data-stu-id="1f727-120">Not only will you have visibility on the scope of an attack, but you'll also have access to services that will allow you to take tactical steps to contain an incident.</span></span>
+<span data-ttu-id="9190d-118">Если этот параметр включен, защита от угроз Майкрософт может автоматически исследовать и разрешать отдельные оповещения с помощью автоматизации и искусственного интеллекта.</span><span class="sxs-lookup"><span data-stu-id="9190d-118">If enabled, Microsoft Threat Protection can automatically investigate and resolve the individual alerts through automation and artificial intelligence.</span></span> <span data-ttu-id="9190d-119">Кроме того, защитники безопасности могут выполнять дополнительные действия по исправлению для устранения атак прямо из представления происшествий.</span><span class="sxs-lookup"><span data-stu-id="9190d-119">Security defenders can also perform additional remediation steps to resolve the attack straight from the incidents view.</span></span> 
+
+<span data-ttu-id="9190d-120">Инциденты за последние 30 дней показаны в очереди инцидентов.</span><span class="sxs-lookup"><span data-stu-id="9190d-120">Incidents from the last 30 days are shown in the incident queue.</span></span> <span data-ttu-id="9190d-121">Отсюда, защитники безопасности могут видеть, какие инциденты должны определять приоритет на основе уровня риска и других факторов.</span><span class="sxs-lookup"><span data-stu-id="9190d-121">From here, security defenders can see which incidents should be prioritized based on risk level and other factors.</span></span> 
+
+<span data-ttu-id="9190d-122">Защитники безопасности также могут переименовывать инциденты, назначать их отдельным аналитикам, классифицировать и добавлять теги в инциденты для более эффективного и настраиваемого управления инцидентами.</span><span class="sxs-lookup"><span data-stu-id="9190d-122">Security defenders can also rename incidents, assign them to individual analysts, classify, and add tags to incidents for a better and more customized incident management experience.</span></span>
 
 
-## <a name="related-topics"></a><span data-ttu-id="1f727-121">См. также</span><span class="sxs-lookup"><span data-stu-id="1f727-121">Related topics</span></span>
-- [<span data-ttu-id="1f727-122">Управление приоритетом инцидентов</span><span class="sxs-lookup"><span data-stu-id="1f727-122">Prioritize incidents</span></span>](incident-queue.md)
-- [<span data-ttu-id="1f727-123">Исследование инцидентов</span><span class="sxs-lookup"><span data-stu-id="1f727-123">Investigate incidents</span></span>](investigate-incidents.md)
-- [<span data-ttu-id="1f727-124">Управление инцидентами</span><span class="sxs-lookup"><span data-stu-id="1f727-124">Manage incidents</span></span>](manage-incidents.md)
+
+## <a name="see-also"></a><span data-ttu-id="9190d-123">См. также</span><span class="sxs-lookup"><span data-stu-id="9190d-123">See also</span></span>
+- [<span data-ttu-id="9190d-124">Управление приоритетом инцидентов</span><span class="sxs-lookup"><span data-stu-id="9190d-124">Prioritize incidents</span></span>](incident-queue.md)
+- [<span data-ttu-id="9190d-125">Исследование инцидентов</span><span class="sxs-lookup"><span data-stu-id="9190d-125">Investigate incidents</span></span>](investigate-incidents.md)
+- [<span data-ttu-id="9190d-126">Управление инцидентами</span><span class="sxs-lookup"><span data-stu-id="9190d-126">Manage incidents</span></span>](manage-incidents.md)
