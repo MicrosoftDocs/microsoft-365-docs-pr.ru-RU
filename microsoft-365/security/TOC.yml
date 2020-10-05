@@ -402,13 +402,13 @@
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
             - name: Безопасные документы в Office 365 ATP
               href: ./office-365-security/safe-docs.md
-            - name: Настройка политик безопасных ссылок ATP
+            - name: Настройка политик безопасных ссылок в Office 365 ATP
               href: ./office-365-security/set-up-atp-safe-links-policies.md
-            - name: Настройка политик безопасных вложений ATP
+            - name: Настройка политик безопасных вложений в Office 365 ATP
               href: ./office-365-security/set-up-atp-safe-attachments-policies.md
             - name: Настройка SPF для предотвращения спуфинга
               href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
-            - name: Указание почтового ящика для пользовательской отправки
+            - name: Политики пользовательской отправки
               href: ./office-365-security/user-submission.md
             - name: 'Включение ATP для SharePoint, OneDrive и Microsoft Teams'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
@@ -495,6 +495,8 @@
               href: ./office-365-security/mail-flow-rules-transport-rules-0.md
             - name: Сообщение о нежелательной почте и фишинге в Outlook в Интернете
               href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+            - name: Сообщение о нежелательной почте и фишинге в Outlook для iOS и Android
+              href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
             - name: Запуск отчета группы ролей администратора в автономной службе EOP
               href: ./office-365-security/run-an-administrator-role-group-report-in-eop-eop.md
         - name: Исследование
