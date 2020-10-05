@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Сведения о действиях по настройке Microsoft 365, необходимых для настройки сайта SharePoint для совместной работы с гостями.
-ms.openlocfilehash: cb3cfc52191be4bacfb9d84672131149082ee80e
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 4f4b87a02c3ff3a1a7997aee69e3e1e95e4b2ed5
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277571"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357998"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Совместная работа с гостями на сайте
 
@@ -95,7 +95,7 @@ ms.locfileid: "48277571"
 
 Создание сайта
 1. В Центре администрирования SharePoint в разделе **Сайты** щелкните **Активные сайты**.
-2. Нажмите кнопку **Создать**.
+2. Нажмите **Создать**.
 3. Щелкните **сайт группы**.
 4. Введите имя сайта и введите имя владельца группы (владельца сайта).
 5. В разделе **Дополнительные параметры**выберите, если вы хотите, чтобы это был общедоступный или частный сайт.
@@ -146,3 +146,5 @@ ms.locfileid: "48277571"
 [Создание безопасной среды гостевого общего доступа](create-secure-guest-sharing-environment.md)
 
 [Создание экстрасети B2B с управляемыми гостями](b2b-extranet.md)
+
+[Интеграция SharePoint и OneDrive с помощью Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)

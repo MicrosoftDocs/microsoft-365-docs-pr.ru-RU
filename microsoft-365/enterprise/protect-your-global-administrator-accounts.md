@@ -8,7 +8,9 @@ audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365initiative-coredeploy
 search.appverid:
 - MET150
 - MOE150
@@ -20,12 +22,12 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: В этой статье представлены сведения о защите доступа глобального администратора к вашей подписке на Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0b234c0e5c0ca352f26ff30213f22d59e07de274
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: bcc1a09ca8e7c57d4d6c69400925df3531c53c4f
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327253"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357810"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Защита учетных записей глобального администратора Майкрософт 365
 
@@ -46,7 +48,7 @@ ms.locfileid: "48327253"
 > [!Note]
 > Несмотря на то, что эта статья ориентирована на учетные записи глобальных администраторов, следует учитывать, что дополнительные учетные записи с широкими разрешениями для доступа к данным в вашей подписке, такие как администратор обнаружения электронных данных или учетные записи администраторов соответствия, должны быть защищены одинаковым образом. <br > Учетную запись глобального администратора можно создать без добавления лицензий.
   
-## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>Этап 1. Создание выделенных учетных записей глобального администратора Microsoft 365 и их использование только при необходимости
+## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>Шаг 1. Создание выделенных учетных записей глобального администратора Microsoft 365 и их использование только при необходимости
 
 Существует относительно небольшое количество административных задач, таких как назначение ролей учетным записям пользователей, которым требуются права глобального администратора. Поэтому вместо использования ежедневных учетных записей пользователей, которым назначена роль глобального администратора, выполните следующие действия:
   
@@ -170,7 +172,7 @@ PIM доступна в службе Azure Active Directory Premium P2, кото
 
 Программное обеспечение SIEM, выполняемое на сервере, выполняет анализ оповещений системы безопасности и событий, созданных приложениями и сетевым оборудованием, в режиме реального времени. Чтобы разрешить серверу SIEM включать оповещения и события безопасности Microsoft 365 в функции анализа и создания отчетов, интегрируйте Azure AD в вы СЕИМ. Ознакомьтесь [со статьей введение в службу интеграции журналов Azure](https://docs.microsoft.com/azure/security/security-azure-log-integration-overview).
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Если вы настраиваете удостоверение для подписки на Microsoft 365, ознакомьтесь со статьей:
 
@@ -178,6 +180,6 @@ PIM доступна в службе Azure Active Directory Premium P2, кото
 - [Подготовка к синхронизации службы каталогов](prepare-for-directory-synchronization.md) , если вы используете гибридную идентификацию
 
   
-## <a name="see-also"></a>Дополнительные сведения
+## <a name="see-also"></a>См. также
 
 [План по обеспечению безопасности Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/security-roadmap)

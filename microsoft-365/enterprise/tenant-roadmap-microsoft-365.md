@@ -10,15 +10,17 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: M365-subscription-management
+ms.collection:
+- M365-subscription-management
+- M365initiative-coredeploy
 ms.custom: it-pro
 description: План настройки клиентов для Microsoft 365.
-ms.openlocfilehash: 7834e8b7f9ff8a1b33f2f2a7ccc4a499e4da7c69
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: e4b2af9143070caa1ebd8fd66ef9f367f85d3bb9
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775151"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357914"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>План обслуживания клиентов для Microsoft 365
 
@@ -34,7 +36,6 @@ ms.locfileid: "47775151"
 
 - [Общие сведения о подписках, лицензиях и клиентах Azure Active Directory (Azure AD)](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 - [Сведения об использовании сторонних SSL-сертификатов](plan-for-third-party-ssl-certificates.md)
-- [Доступ к руководствам по настройке в центре администрирования Microsoft 365](setup-guides-for-microsoft-365.md)
 - [Общие сведения о способах интеграции клиента Microsoft 365 со службами Azure AD](integrated-apps-and-azure-ads.md)
 - [Планирование поддержки клиентских приложений](microsoft-365-client-support-certificate-based-authentication.md)
 - [Определение способа использования гибридной современной проверки подлинности](hybrid-modern-auth-overview.md)
@@ -44,7 +45,7 @@ ms.locfileid: "47775151"
 
 ## <a name="deploy"></a>Развертывание
 
-Чтобы развернуть клиент, [Добавьте домены DNS](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) для Организации.
+Чтобы развернуть клиент, [Добавьте домены DNS](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) для Организации и используйте [руководства по настройке в центре администрирования Microsoft 365](setup-guides-for-microsoft-365.md).
 
 ## <a name="tenants-with-multiple-geographic-locations"></a>Клиенты с несколькими географическими расположениями
 
@@ -58,7 +59,7 @@ ms.locfileid: "47775151"
 
 Сведения о центре обработки данных Майкрософт 365, в том числе о том, как запрашивать перемещение географических данных, [начинаются отсюда](moving-data-to-new-datacenter-geos.md).
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Начните планирование клиентов с помощью [подписок, лицензий, учетных записей и клиентов](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md).
 

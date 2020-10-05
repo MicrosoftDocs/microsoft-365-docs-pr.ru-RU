@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Сведения о действиях по настройке Microsoft 365, необходимых для настройки группы для совместной работы с гостями в Teams.
-ms.openlocfilehash: e8d1c75c6172168fc2b0a4b351591289c893869a
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: e92397c7b8d4a4192fb36a52a76679269be53b3b
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322181"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357798"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Совместная работа с гостями в команде
 
@@ -184,3 +184,5 @@ Teams использует группы Microsoft 365 для членства в
 [Создание безопасной среды гостевого общего доступа](create-secure-guest-sharing-environment.md)
 
 [Создание экстрасети B2B с управляемыми гостями](b2b-extranet.md)
+
+[Интеграция SharePoint и OneDrive с помощью Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
