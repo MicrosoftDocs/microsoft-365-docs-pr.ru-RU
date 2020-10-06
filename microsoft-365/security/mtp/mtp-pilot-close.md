@@ -15,14 +15,16 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: d820b360f189425cc3913c6d92afc8965a7d1eee
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: ec8e630c3669b3eb7af8cb012a0ca361f8c77f1e
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333633"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368017"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Заключение и подведение итогов для пилотной программы Майкрософт по защите от угроз  
 
@@ -88,7 +90,7 @@ ms.locfileid: "48333633"
 
 Мы надеемся, что вы довольны этой имитацией и готовы приступить к внедрению того, что вы узнали.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 Узнайте больше о базовых средствах защиты от угроз Майкрософт с помощью следующих интерактивных руководств:
 - [Защита Организации с помощью защитника Майкрософт для Office 365](https://aka.ms/O365ATP-Interactive-Guide)
 - [Обнаружение подозрительных действий и потенциальных атак с помощью защитника Майкрософт для удостоверения](https://aka.ms/AATP-Interactive-Guide)

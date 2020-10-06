@@ -15,16 +15,21 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: 62852dfe75794d5d0e33453f978967fff40813e1
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 3768937fc882fee8d6a744e4fb504095882c7e81
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816941"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368063"
 ---
 # <a name="create-a-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Создание пробной лаборатории или пилотной среды Microsoft Threat protection 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -77,6 +82,6 @@ ms.locfileid: "47816941"
 -   Конфигурация сторонних решений, которые могут интегрироваться с защитой от угроз Майкрософт
 -   Тестирование уязвимости в рабочей среде
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 ![Этап 1: подготовка](../../media/prepare.png) <br>[Этап 1: подготовка](prepare-mtpeval.md) 
 <br> Подготовка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз

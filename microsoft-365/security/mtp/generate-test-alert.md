@@ -15,16 +15,21 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: c2a5c7a95a16b9a29e73b98310e64f403d4d342b
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: be895138ff524fead6cbea903d978cef1cb49bde
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104562"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368109"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-threat-protection-evaluation-lab"></a>Создание тестового оповещения в лаборатории оценки Microsoft Threat protection  
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)

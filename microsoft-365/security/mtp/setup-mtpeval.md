@@ -13,14 +13,16 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: a0997c107e78104619e1e05b8d1073e8690a3667
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 94045834f63569bc2910b1faa02f47ebfebead19
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195563"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368085"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Настройка пробной лабораторной среды Майкрософт для защиты от угроз 
 
@@ -140,7 +142,7 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 5. Нажмите кнопку **проверить** , чтобы подтвердить пробную версию Microsoft 365.
 <br>![Image of_Microsoft 365, перейдите на страницу Загрузка бесплатной пробной версии, где следует запустить кнопку Try Now](../../media/mtp-eval-27.png) <br>
  
-6. Перейдите в раздел **центр администрирования Microsoft 365**  >  **Users**  >  **Активные пользователи**. Выберите свою учетную запись пользователя, выберите **Управление лицензиями на продукты**, затем замените лицензию из Office 365 в ~ на **Microsoft 365**. Нажмите кнопку **Сохранить**.
+6. Перейдите в раздел **центр администрирования Microsoft 365**  >  **Users**  >  **Активные пользователи**. Выберите свою учетную запись пользователя, выберите **Управление лицензиями на продукты**, затем замените лицензию из Office 365 в ~ на **Microsoft 365**. Щелкните **Сохранить**.
 ![Image of_Microsoft 365. страница центра администрирования, на которой можно выбрать лицензию Майкрософт 365](../../media/mtp-eval-28.png) <br>
  
 7. Снова выберите учетную запись глобального администратора и нажмите кнопку **Управление именем пользователя**.
