@@ -9,6 +9,8 @@
           href: enter-business-information.md
         - name: Определение услуг
           href: define-service-offerings.md
+        - name: Добавление сотрудников в резервирования
+          href: add-staff.md
         - name: Планирование нерабочих и нерабочих часов
           href: schedule-closures-time-off-vacation.md
         - name: Определение политик планирования
