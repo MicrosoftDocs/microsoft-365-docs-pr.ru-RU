@@ -11,17 +11,17 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Обзор управления знаниями в Project кортекс.
-ms.openlocfilehash: 80750ee94248b21b8ac7bd3869830a7986de34b9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: c4f7ff7d65ec08740dc14f717712731d839bd903
+ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949376"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361955"
 ---
-# <a name="knowledge-management-0verview-preview"></a>Центр управления знаниями 0verview (Предварительная версия)
+# <a name="knowledge-management-overview-preview"></a>Обзор управления знаниями (Предварительная версия)
 
 > [!Note] 
-> Содержимое этой статьи предназначено для Кортексного предварительного просмотра Project. [Узнайте больше о Project Кортекс](https://aka.ms/projectcortex) 
+> Содержимое этой статьи предназначено для Кортексного предварительного просмотра Project. [Узнайте больше о работе с Project Cortex](https://aka.ms/projectcortex).
 
 Управление знаниями использует технологию Microsoft AI, Microsoft 365, delve, Поиск и другие компоненты и службы для создания сети знаний в среде Microsoft 365. 
 
