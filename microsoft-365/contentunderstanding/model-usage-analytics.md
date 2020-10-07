@@ -9,18 +9,18 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Сведения о применении метки хранения к модели осмысления документа
-ms.openlocfilehash: 6f616dc3d2ebd87bcc70ee01c9f3a88db60b6f17
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 052c137a419c0185010fbd152e73615a4bb093af
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337245"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367957"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>Аналитика использования модели осмысления документа
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJY]  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GnhX]  
 
 </br>
 
@@ -28,7 +28,7 @@ ms.locfileid: "48337245"
 Центр управления контентом Syntex в Microsoft SharePoint предоставляет аналитику использования моделей для получения дополнительных сведений о том, как используются ваши модели, опубликованные в центре управления контентом. Сюда входит следующая сводная информация:
 
 - Где применяются ваши модели
-- Количество файлов, обрабатываемых в течение определенного времени
+- Сколько файлов обрабатываются за определенное время
 
  ![Аналитика модели](../media/content-understanding/model-analytics.png) </br>
 
@@ -53,6 +53,6 @@ ms.locfileid: "48337245"
 
 [Создание средства извлечения](create-an-extractor.md)
 
-[Общие сведения об осмыслении документа](document-understanding-overview.md)
+[Общие сведения об осмыслении документации](document-understanding-overview.md)
 
 [Создание модели обработки форм](create-a-form-processing-model.md)  
