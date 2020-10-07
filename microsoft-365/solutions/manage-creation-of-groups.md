@@ -1,5 +1,5 @@
 ---
-title: Управление пользователями, которые могут создавать группы Microsoft 365
+title: Управление разрешениями пользователей на создание групп Microsoft 365
 f1.keywords: NOCSH
 ms.author: mikeplum
 ms.reviewer: arvaradh
@@ -12,19 +12,19 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
+- m365solution-collabgovernance
 search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как определять, какие пользователи могут создавать группы Microsoft 365.
-ms.openlocfilehash: d6e6c6d9caff2ac7c13d03dad97b73906a509f46
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 44e858286377350f82050b8a1814f761dad9c2fd
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307863"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377321"
 ---
-# <a name="manage-who-can-create-microsoft-365-groups"></a>Управление пользователями, которые могут создавать группы Microsoft 365
+# <a name="manage-who-can-create-microsoft-365-groups"></a>Управление разрешениями пользователей на создание групп Microsoft 365
 
 По умолчанию все пользователи могут создавать группы Microsoft 365. Это рекомендуемый подход, так как он позволяет пользователям начать работать без необходимости помощи.
 
@@ -103,7 +103,7 @@ ms.locfileid: "47307863"
 
 Для изменения параметров гостевого доступа на уровне группы необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (имя модуля **AzureADPreview**):
 
-- Если вы еще не установили ни одной версии модуля Azure AD PowerShell, см. раздел [Установка модуля Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#installing-the-azure-ad-module) и следуйте инструкциям по установке общедоступной предварительной версии.
+- Если вы еще не установили ни одной версии модуля Azure AD PowerShell, см. раздел [Установка модуля Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true) и следуйте инструкциям по установке общедоступной предварительной версии.
 
 - Если у вас установлена общедоступная версия 2.0 модуля Azure AD PowerShell (AzureAD), вам требуется удалить ее, выполнив команду `Uninstall-Module AzureAD` в сеансе PowerShell, а затем установить предварительную версию, выполнив команду `Install-Module AzureADPreview`.
 

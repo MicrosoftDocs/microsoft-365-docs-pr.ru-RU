@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Завершение параметров жизненного цикла для групп, Teams и Yammer.
-ms.openlocfilehash: ab06f06cc65614ee313892a026c2f482d641791f
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 3720f63f99711a09d02675f10a7d639fe1bedc65
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662775"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377179"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Завершение параметров жизненного цикла для групп, Teams и Yammer
 
@@ -39,7 +40,7 @@ ms.locfileid: "46662775"
 |Power Automate|Рабочие процессы|
 |Power BI|Данные, отчеты и панели мониторинга|
 |Проект в Интернете|Планы проекта|
-|План|Схемы|
+|Стратегия|Схемы|
 |SharePoint|Файлы, списки, данные wiki канала Teams|
 |Stream|Видео|
 |Yammer|Беседы|
@@ -52,7 +53,7 @@ ms.locfileid: "46662775"
 
 Существует три основных области, которым владельцы групп и групп и ИТ, которым необходимо учитывать при удалении группы или группы.
 
-**Контент**
+**Content**
 
 Нужно ли хранить контент после того, как команда больше не будет работать или не будет существовать? Достаточно ли полагаться на возможности хранения в Microsoft 365 или какое-либо содержимое в приложениях и службах, которые не поддерживают хранение? Нужно ли хранить контент для целей управления записями, для целей архивации, а также для будущего использования и справочных целей?
 

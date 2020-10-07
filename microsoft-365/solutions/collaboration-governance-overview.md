@@ -10,16 +10,18 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-overview
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Узнайте, как управлять связанными функциями в группах Microsoft 365, Teams, SharePoint и Yammer.
-ms.openlocfilehash: b217dc089eb150d01eed9cd720b2caa290d54bf1
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 8784f14530ec94a3151ef58589944947b5de9514
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950716"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377585"
 ---
 # <a name="overview-of-collaboration-governance-in-microsoft-365"></a>Обзор руководства по совместной работе в Microsoft 365
 
@@ -88,7 +90,7 @@ Microsoft 365 поддерживает три основных способа с
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>Microsoft Teams и связанные службы повышения производительности в Microsoft 365 для ИТ-архитекторов
 Логическая архитектура служб повышения производительности в Microsoft 365, начиная с Microsoft Teams.
 
-|**Ресурс**|**Описание**|
+|**Item**|**Описание**|
 |:-----|:-----|
 |[![Эскиз плаката логической архитектуры Teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Обновление: апрель 2019 г.   |Корпорация Майкрософт предоставляет набор служб повышения производительности, которые взаимодействуют между собой, обеспечивая возможности совместной работы для управления данными, безопасности и соответствия требованиям. <br/> <br/>Этот набор иллюстраций демонстрирует логическую архитектуру служб повышения производительности для корпоративных архитекторов, начиная с Microsoft Teams.|
 
@@ -96,7 +98,7 @@ Microsoft 365 поддерживает три основных способа с
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>Группы в Microsoft 365 для ИТ-архитекторов
 Что следует знать ИТ-архитекторам о группах в Microsoft 365
 
-|**Ресурс**|**Описание**|
+|**Item**|**Описание**|
 |:-----|:-----|
 |[![Эскиз инфографики групп](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> Обновление: июнь 2019 г.|На этих иллюстрациях подробно показаны разные типы групп, как они создаются и управляются, а также приводится несколько рекомендаций по управлению.|
 

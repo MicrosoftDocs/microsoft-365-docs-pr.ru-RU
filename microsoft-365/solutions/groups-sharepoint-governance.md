@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Сведения о взаимодействии параметров между группами Microsoft 365 и SharePoint
-ms.openlocfilehash: 0c9fdd69db82985039bae03768aa0c19f514c99f
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: e8d4189c2d945d5a6d2aa78bd7ea980a77360ce0
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662800"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377561"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-and-sharepoint"></a>Параметры взаимодействия между группами Microsoft 365 и SharePoint
 

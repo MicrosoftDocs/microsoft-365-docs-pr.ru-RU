@@ -11,14 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365solution-threatprotection
+- m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a5f3f93ad70210143cbe774c2a4e96542b1cfd34
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: c6e973e05f9a73736410c9bfedfa2ef73bb583ce
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332680"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377405"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Настройка возможностей защиты от угроз в Microsoft 365
 

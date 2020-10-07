@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Группирует взаимодействия служб
-ms.openlocfilehash: 9632debf1bc6fdd2fce061a4c535906410700175
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 235a897314a784ba3bb1ac50fe8bdfe9986a70d3
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662803"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377633"
 ---
 # <a name="groups-services-interactions"></a>Группирует взаимодействия служб
 
@@ -112,15 +113,15 @@ ms.locfileid: "46662803"
 |:---|:---|:---|:---|:---|
 |Azure AD|Членство, элементы управления группы, гости|Да|Да|Да|
 |Exchange|Календарь, почтовый ящик|Да|Да|Да|
-|Forms|Форма|Да|Нет|Нет|
+|Forms|Form|Да|Нет|Нет|
 |OneNote|Notebook|Да|Нет|Нет|
 |Планировщик|Доска задач|Нет|Да|Да|
 |Приложение Power Apps|Приложение|Да|Нет|Нет|
 |Power Automate|Рабочий процесс|Да|Нет|Нет|
-|Power BI (классическая)|Workspace|Нет|Да|Да|
-|Power BI (Новая)|Workspace|Да|Нет|Да|
+|Power BI (классическая)|Рабочая группа|Нет|Да|Да|
+|Power BI (Новая)|Рабочая группа|Да|Нет|Да|
 |Project в Интернете|План проекта|Да|Да|Нет|
-|План|План|Да|Да|Нет|
+|Стратегия|Стратегия|Да|Да|Нет|
 |SharePoint|Site|Да|Да|Да|
 |Stream|Канал, видео|Да|Да|Да|
 |Teams|Команда|Нет|Да|Да|
@@ -174,7 +175,7 @@ Teams — это Рабочая область для общения в чате
 
 - Беседы
 - Вкладки каналов &
-- Meetings
+- Собрания
 
 **Можно создать группу с помощью Teams?**
 
@@ -499,7 +500,7 @@ Project for Web предоставляет возможность создани
 
 Нет, удаление проекта в Project для Интернета не приведет к удалению группы.
 
-## <a name="roadmap"></a>План
+## <a name="roadmap"></a>Стратегия
 
 Схема позволяет создавать планы проектов в Project для веб-сайта и Project Online.
 

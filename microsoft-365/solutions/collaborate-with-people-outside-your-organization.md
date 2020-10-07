@@ -9,19 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- m365solution-3tiersprotection
 - m365solution-securecollab
+- m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Настройка Microsoft 365 для обеспечения общего доступа и дополнительной защиты при приглашении внешних пользователей к совместной работе в Teams и совместном использовании сайтов SharePoint.
-ms.openlocfilehash: f8dc81ae32bed7a12daf21955ada60ab852d4617
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: 11359e2de358d5673da6c39ca2d419c94349a829
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255795"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377417"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Совместное работа с людьми за прев Организации
 
@@ -58,7 +58,7 @@ ms.locfileid: "47255795"
 
 Если некоторые функции общего доступа в Microsoft 365 конфликтуют с политиками управления, ознакомьтесь с [разделом ограничение общего доступа в microsoft 365](microsoft-365-limit-sharing.md) , чтобы узнать о возможностях ограничения общего доступа.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Введение в совместную работу с файлами в Microsoft 365](https://docs.microsoft.com/sharepoint/intro-to-file-collaboration)
 
