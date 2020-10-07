@@ -9,17 +9,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-compliancemanager
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Настройка разрешений и ролей для диспетчера соответствия требованиям (Майкрософт) и Настройка автоматического тестирования действий. Управление журналом пользователей и фильтрация представления панели мониторинга.
-ms.openlocfilehash: ead4fe60a11bcf78a318601c1de6d72f2490c567
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 043a52e2817e770671c2ef8876049f6bbe0285ee
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48204531"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368142"
 ---
 # <a name="get-started-with-compliance-manager"></a>Начало работы с диспетчером соответствия требованиям
 
@@ -70,7 +73,7 @@ ms.locfileid: "48204531"
 
 Узнайте больше о [разрешениях в центре безопасности Office 365 & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
 
-Если у вас нет доступа к центру безопасности и соответствия требованиям Office 365, или если вам нужно получить доступ к классической версии диспетчера соответствия требованиям на портале доверия службы Майкрософт, параметры администрирования на портале доверия службы предоставляют другой способ назначения ролей ([инструкции по просмотру](/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud?view=o365-worldwide.md#assigning-compliance-manager-roles-to-users)). Обратите внимание на то, что такие роли более ограничены в их функциональных возможностях.
+Если у вас нет доступа к центру безопасности и соответствия требованиям Office 365, или если вам нужно получить доступ к классической версии диспетчера соответствия требованиям на портале доверия службы Майкрософт, параметры администрирования на портале доверия службы предоставляют другой способ назначения ролей ([инструкции по просмотру](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users)). Обратите внимание на то, что такие роли более ограничены в их функциональных возможностях.
 
 ##### <a name="more-about-azure-ad"></a>Дополнительные сведения о Azure AD
 
@@ -352,5 +355,5 @@ ms.locfileid: "48204531"
 
 Дополнительные **сведения:** Узнайте, [как работать с шаблонами оценки](compliance-manager-templates.md).
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 Настройка диспетчера соответствия требованиям путем [настройки оценок](compliance-manager-assessments.md).

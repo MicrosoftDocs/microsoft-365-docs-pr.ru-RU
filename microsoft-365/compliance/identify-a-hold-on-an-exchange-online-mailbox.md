@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как определить различные типы удержаний, которые могут быть размещены в почтовом ящике Exchange Online в Microsoft 365.
-ms.openlocfilehash: a76b02f6345421871c759e1b31bf19207b474e2a
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c0f5d11066169181b524632c7a1340c54f0061f0
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816828"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370339"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Как определить тип удержания, примененного для почтового ящика Exchange Online
 
@@ -78,7 +78,7 @@ Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
 |удержание eDiscovery     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   *Свойство InPlaceHolds* содержит GUID всех удержаний, связанных с вариантом обнаружения электронных данных в центре безопасности и соответствия требованиям. Вы можете сказать, что это удержание для обнаружения электронных данных, так как идентификатор GUID начинается с `UniH` префикса (обозначает единое удержание).      |
 |Хранение на месте     |     `c0ba3ce811b6432a8751430937152491` <br/> или <br/> `cld9c0a984ca74b457fbe4504bf7d3e00de`  |     Свойство *InPlaceHolds* содержит GUID хранения на месте, который размещается в почтовом ящике. Вы можете указать, что это удержание на месте, так как GUID либо не начинается с префикса, либо начинается с `cld` префикса.     |
 |Политика хранения Microsoft 365, специально примененная к почтовому ящику     |    `mbxcdbbb86ce60342489bff371876e7f224:1` <br/> или <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3`     |     Свойство InPlaceHolds содержит идентификаторы GUID для определенной политики хранения местоположения, применяемой к почтовому ящику. Вы можете определить политики хранения, так как идентификатор GUID начинается с `mbx` `skp` префикса или. `skp`Префикс указывает на то, что политика хранения применяется к беседам Skype для бизнеса в почтовом ящике пользователя.    |
-|Исключено из политики хранения Microsoft 365 в масштабе всей Организации     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     Если почтовый ящик исключен из политики хранения Microsoft 365 в масштабе всей Организации, идентификатор GUID политики хранения, из которого исключен почтовый ящик, отображается в свойстве InPlaceHolds и определяется `-mbx` префиксом.    |
+|Исключено из политики хранения Microsoft 365 в масштабе всей Организации     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     Если почтовый ящик исключен из политики хранения Microsoft 365 в масштабе всей Организации, идентификатор GUID политики хранения, из которой исключается почтовый ящик, отображается в свойстве InPlaceHolds и определяется `-mbx` префиксом.    |
 
 ### <a name="get-organizationconfig"></a>Get — OrganizationConfig
 Если при запуске командлета **Get-Mailbox** свойство *InPlaceHolds* не задано, для почтового ящика также могут быть применены одна или несколько политик хранения Microsoft 365 на уровне Организации. Выполните следующую команду в Exchange Online PowerShell, чтобы получить список идентификаторов GUID для политик хранения Microsoft 365 на уровне Организации.
@@ -201,7 +201,7 @@ Get-Mailbox <username> | FL *HoldApplied*
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-или
+ИЛИ
  
 ```powershell
 Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
@@ -215,7 +215,7 @@ Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayHoldApplied
 ```
 
-или
+ИЛИ
 
 ```powershell
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplied
@@ -236,7 +236,7 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 
 Определив удержания, которые применяются к почтовому ящику, можно выполнить такие задачи, как изменение длительности хранения, временное или окончательное удаление удержания или исключение неактивного почтового ящика из политики хранения Microsoft 365. Дополнительные сведения о выполнении задач, связанных с удержаниями, можно найти в следующих статьях:
 
-- Выполните команду [Set – RetentionCompliancePolicy – аддексчанжелокатионексцептион \<user mailbox> ](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в консоли безопасности & соответствия требованиям в PowerShell, чтобы исключить почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации. Эту команду можно использовать только для политик хранения, значение свойства *ExchangeLocation* которых равно `All` .
+- Выполните команду [Set – RetentionCompliancePolicy – Identity \<Policy Name> – аддексчанжелокатионексцептион \<user mailbox> ](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в панели безопасности & соответствия требованиям PowerShell, чтобы исключить почтовый ящик из политики хранения Microsoft 365 на уровне Организации. Эту команду можно использовать только для политик хранения, значение свойства *ExchangeLocation* которых равно `All` .
 
 - Выполните команду [Set-Mailbox-ексклудефроморгхолдс \<hold GUID without prefix or suffix> ](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) в Exchange Online PowerShell, чтобы исключить неактивный почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации.
 
