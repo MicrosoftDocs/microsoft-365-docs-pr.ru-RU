@@ -13,16 +13,35 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a483a03fc913a019f58e80fb2713bb0367a6db44
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 9dec293a26cbc3d239a597e46815d60d79b9ac20
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546274"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370416"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации по компьютерам, управляемым Майкрософт
 
 В этой статье перечислены новые и обновленные статьи, содержащиеся в [управляемой документации на рабочем столе Майкрософт](index.yml). В обновленных статьях, в которые включены дополнения или исправления материалов, незначительные исправления, такие как исправление опечаток, стилей или форматирования, не отображаются. Вы всегда можете просмотреть историю определенных фиксаций (включая сведения об изменениях), посетив [репозиторий на сайте GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+
+## <a name="september-2020"></a>Сентябрь 2020 г.
+Новая или измененная статья | Описание
+--- | ---
+[Конфиденциальность и персональные данные](service-description/privacy-personal-data.md) | Новая статья
+[Подготовка подключенных дисков для компьютеров, управляемых Майкрософт](get-ready/mapped-drives.md) | Обновленная статья
+[Получение справки для пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
+[Справочные сведения о настраиваемых параметрах — управляемый Майкрософт Настольный компьютер](working-with-managed-desktop/config-setting-ref.md) | Обновленная статья
+[Развертывание и отслеживание настраиваемых параметров — Рабочий стол, управляемый корпорацией Майкрософт](working-with-managed-desktop/config-setting-deploy.md) | Обновленная статья
+[Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная статья
+[Microsoft Teams](get-started/teams.md) | Новая статья
+[Доступ к порталу администрирования](get-started/access-admin-portal.md) | Новая статья
+[Подготовка ресурсов печати для компьютеров, управляемых Майкрософт](get-ready/printing.md) | Обновленная статья
+[Первый запуск с помощью Autopilot и страницы состояния регистрации](get-started/esp-first-run.md) | Обновленная статья
+[Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
+[Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт](get-ready/certs-wifi-lan.md) | Обновленная статья
+[Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
+[Работа с аналитикой](working-with-managed-desktop/insights.md) | Обновленная статья
 
 ## <a name="august-2020"></a>Август 2020 г.
 Новая или измененная статья | Описание

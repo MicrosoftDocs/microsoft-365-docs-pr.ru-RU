@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: Узнайте, как использовать функции управления удостоверениями Microsoft 365.
-ms.openlocfilehash: d5bcafb5b452e693bf3ff706c436a9986eeeae76
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: e4c537e7fa3ac099caf8b7dbc44327308751c8f5
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328546"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370350"
 ---
 # <a name="manage-microsoft-365-identity-governance"></a>Управление удостоверениями Microsoft 365
 
@@ -46,8 +46,6 @@ ms.locfileid: "48328546"
 Это особенно важно, если в организации проводятся аудиты безопасности, чтобы определить, обладают ли учетные записи пользователей излишними правами доступа, что может привести к наложению штрафов при нарушении отраслевых или региональных нормативов.
 
 Более подробную информацию можно узнать в статье [Обзор просмотров Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview).
-
-Azure AD Privileged Identity Management (PIM) предоставляет целый ряд средств управления, предназначенных для защиты прав доступа к ресурсам в AAD, Azure и других облачных службах Майкрософт. Azure AD PIM предоставляет полный набор средств управления, помогающих защитить ресурсы компании, такие как каталог, Office 365 и роли ресурсов Azure. Как и для других видов доступа, с помощью проверок доступа можно настроить регулярные сертификации прав доступа для всех пользователей с ролями администратора. Служба Azure AD PIM доступна только в версии E5 Microsoft 365 корпоративный.
 
 Сведения о настройке различных типов проверок доступа см. в следующих статьях:
 
