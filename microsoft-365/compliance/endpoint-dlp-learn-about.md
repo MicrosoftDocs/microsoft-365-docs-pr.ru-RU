@@ -14,16 +14,17 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
-- SPO_Content
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MET150
 description: 'Защита от потери данных в конечной точке Microsoft 365 расширяет отслеживание действий с файлами и защитных действий для конечных точек этих файлов. В решениях для обеспечения соответствия требованиям Microsoft 365 файлы являются видимыми '
-ms.openlocfilehash: 7403f20fa7c97c63be0e5001e8d3f5b37b409eee
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: fe4ce05c1f9dd0ebce9a6c3be6fffbecfb36c2af
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131551"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379237"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)
 

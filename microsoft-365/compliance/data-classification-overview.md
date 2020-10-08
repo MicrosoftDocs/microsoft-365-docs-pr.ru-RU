@@ -12,16 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Панель мониторинга классификации данных дает вам наглядное представление о количестве найденных и классифицированных конфиденциальных данных в вашей организации.
-ms.openlocfilehash: 725dc5d2e9e5cf0638a54c5ee46d77b321ae4796
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 503235ad2ee35760a03cb2427d1e84f5f3639b9f
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131727"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379221"
 ---
 # <a name="know-your-data---data-classification-overview"></a>Знайте свои данные - обзор классификации данных
 

@@ -12,17 +12,19 @@ ms.date: 04/23/2019
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Обзор пользовательских типов конфиденциальной информации для защиты от потери данных, таких как основной шаблон, расстояние между символами и уровень вероятности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b3e30c75641dde16726e1d98c8f12c4437b0df6
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d21d0be23847a8fbd27b6082ca28cdca2d4eed05
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685479"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379173"
 ---
 # <a name="custom-sensitive-information-types"></a>Пользовательские типы конфиденциальной информации
 
