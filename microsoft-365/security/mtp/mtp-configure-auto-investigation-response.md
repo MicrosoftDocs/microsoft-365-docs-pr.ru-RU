@@ -7,19 +7,19 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 09/17/2020
+ms.date: 10/07/2020
 ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection: M365-security-compliance.
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: f7bcfa4f08bee51408de33964f1dfd1e1db3bd33
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f904512f9fd07e2065f3d27a5bd5adc56a3565d5
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199749"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384788"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Настройка автоматизированного расследования и возможностей реагирования в защите от угроз Майкрософт
 
@@ -52,8 +52,6 @@ ms.locfileid: "48199749"
 
 Будет ли выполняться автоматическое расследование, а также будут ли действия по исправлению выполняться автоматически или только при утверждении для ваших устройств, зависят от определенных параметров, таких как политики групп устройств Организации. Просмотрите набор уровней автоматизации для групповых политик устройств.
 
-### <a name="to-review-or-change-your-device-group-policies"></a>Просмотр или изменение политик групп устройств
-
 1. Перейдите в центр безопасности защитника (Майкрософт [https://securitycenter.windows.com](https://securitycenter.windows.com) ) и войдите в него.
 
 2. Перейдите в раздел **Параметры**  >  **разрешений**для  >  **групп устройств**. 
@@ -69,8 +67,6 @@ ms.locfileid: "48199749"
 Корпорация Майкрософт предоставляет встроенные [политики оповещений](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) , помогающие определить некоторые риски. К таким рискам относятся разрешения администратора Exchange, опасные действия, потенциальные внешние и внутренние угрозы, а также риски управления сведениями. Некоторые оповещения могут инициировать [Автоматическое исследование и отклик в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air). Убедитесь, что функции [Advanced Threat Protection в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) настроены правильно.
 
 Хотя определенные оповещения и политики безопасности могут инициировать автоматическое расследование, никакие действия по исправлению не выполняются автоматически для сообщений электронной почты и контента. Вместо этого все действия по исправлению сообщений электронной почты и сообщений электронной почты ожидают утверждения вашей группой управления операциями в [центре уведомлений](mtp-action-center.md).
-
-### <a name="to-view-or-change-your-security-and-alert-policies-in-office-365"></a>Просмотр или изменение политик безопасности и оповещений в Office 365
 
 Параметры безопасности в Office 365 помогают защитить электронную почту и контент. Чтобы просмотреть или изменить эти параметры, следуйте указаниям в статье [Защита от угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
 
@@ -88,13 +84,15 @@ ms.locfileid: "48199749"
 
 5. Убедитесь, что включено [Автоматическое удаление для защиты электронной почты с нулевым временем](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop) . 
 
-8. (Необязательно) Ознакомьтесь со своими [политиками оповещений Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) в центре соответствия требованиям Microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Несколько политик оповещений по умолчанию находятся в категории "Управление угрозами". Некоторые из этих оповещений могут инициировать автоматическое исследование и отклик. Чтобы узнать больше, ознакомьтесь со статьей [Политика оповещений по умолчанию](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?#default-alert-policies).
+8. (Это необязательный параметр.) Ознакомьтесь со своими [политиками оповещений Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) в центре соответствия требованиям Microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Несколько политик оповещений по умолчанию находятся в категории "Управление угрозами". Некоторые из этих оповещений могут инициировать автоматическое исследование и отклик. Чтобы узнать больше, ознакомьтесь со статьей [Политика оповещений по умолчанию](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?#default-alert-policies).
  
 ## <a name="make-sure-microsoft-threat-protection-is-turned-on"></a>Убедитесь, что включена защита от угроз Майкрософт.
 
 1. Перейдите в центр безопасности Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ) и войдите в систему.
 
-2. В области навигации найдите **инциденты**, **Центр уведомлений**и **Поиск, как**показано на следующем рисунке:<br/> :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP в":::
+2. В области навигации найдите **инциденты**, **Центр уведомлений**и **Поиск, как**показано на следующем рисунке:
+
+   :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP в":::
 
    - Если вы видите **инциденты**, **Центр уведомлений**и **Поиск,** включается защита от угроз Майкрософт. Перейдите к следующей процедуре, [Просмотрите или измените уровень автоматизации для групп устройств](#review-or-change-the-automation-level-for-device-groups).
 

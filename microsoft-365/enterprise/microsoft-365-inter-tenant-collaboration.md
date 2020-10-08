@@ -3,7 +3,6 @@ title: Совместная работа Microsoft 365 между клиента
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/21/2020
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как совместная работа Microsoft 365 работает между клиентами и организациями, позволяя различным организациям безопасно работать вместе.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8064543f771927f539d09e3136663bb0df56d5be
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: 00eacfc21d3223b5b9a1ad420cd5d1d85bf4ea8e
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214803"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384831"
 ---
 # <a name="microsoft-365-inter-tenant-collaboration"></a>Совместная работа Microsoft 365 между клиентами
 
@@ -78,8 +77,8 @@ ms.locfileid: "48214803"
 |Цель совместного доступа|Административное действие|Инструкции|
 |:-----|:-----|:-----|
 |Совместное сотрудничество в Teams с пользователями, внешними по отношению к Организации | Глобальный администратор для приглашения клиенту Microsoft 365 необходимо включить внешнюю совместную работу в Teams. Глобальные администраторы и владельцы групп теперь могут приглашать всех пользователей с адресом электронной почты для совместной работы в Teams.  <br/> Администраторы также могут управлять гостями, уже присутствующими в своем клиенте, а также изменять их. |  <ul><li> [Авторизация гостевого доступа](https://docs.microsoft.com/microsoftteams/teams-dependencies) </li><li> [Включение и отключение гостевого доступа в Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) </li><li> [Использование PowerShell для управления гостевым доступом](https://docs.microsoft.com/microsoftteams/guest-access-powershell) </li><li> [Контрольный список гостевого доступа](https://docs.microsoft.com/microsoftteams/guest-access-checklist) </li><li> [Просмотр гостевых пользователей](https://docs.microsoft.com/microsoftteams/view-guests) </li><li> [Изменение сведений о гостевых пользователях](https://docs.microsoft.com/microsoftteams/edit-guests-information) </li></ul> |
-|Владельцы групп могут приглашать и управлять тем, как гости совместно работают в своих командах.  </li><li> |Владельцы команды имеют дополнительные элементы управления, которые могут выполнять гости в своих командах. |  <ul><li> [Добавление гостей](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [Добавление гостя в команду](https://docs.microsoft.com/microsoftteams/add-guests) </li><li> [Управление гостевым доступом в Teams](https://docs.microsoft.com/microsoftteams/manage-guests) </li><li> [Узнайте, кто входит в группу или в канал](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
-|Гости из других клиентов могут просматривать содержимое в Teams и совместно работать с другими участниками. | Отсутствуют. | [Интерфейс гостевого доступа](https://docs.microsoft.com/microsoftteams/guest-experience)| 
+|Владельцы групп могут приглашать и управлять тем, как гости совместно работают в своих командах.  |Владельцы команды имеют дополнительные элементы управления, которые могут выполнять гости в своих командах. |  <ul><li> [Добавление гостей](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [Добавление гостя в команду](https://docs.microsoft.com/microsoftteams/add-guests) </li><li> [Управление гостевым доступом в Teams](https://docs.microsoft.com/microsoftteams/manage-guests) </li><li> [Узнайте, кто входит в группу или в канал](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
+|Гости из других клиентов могут просматривать содержимое в Teams и совместно работать с другими участниками. | Нет. | [Интерфейс гостевого доступа](https://docs.microsoft.com/microsoftteams/guest-experience)| 
 
 ## <a name="power-bi-collaboration-options"></a>Параметры совместной работы Power BI
 
@@ -93,18 +92,18 @@ ms.locfileid: "48214803"
 
 Каждая организация поддерживает свои учетные записи пользователей, удостоверения, группы безопасности, подписки, лицензии и хранилище. Люди используют функции совместной работы в Microsoft 365 вместе с политиками общего доступа и параметрами безопасности для предоставления доступа к необходимой информации при управлении ресурсами компании.
   
-- **Учетные записи пользователей:** Учетные записи нельзя дублировать между клиентами или разделами в локальной службе каталогов Active Directory. 
+- **Учетные записи пользователей:** Учетные записи не могут быть общими или дублироваться между клиентами или разделами в локальных доменных службах Active Directory. 
     
 - **Подписки на лицензии &amp; :** в Microsoft 365 лицензии из планов лицензирования (также называемых конфигурациями и планами Microsoft 365) предоставляют пользователям доступ к службам Microsoft 365, определенным для этих планов. 
     
-- **Хранилище:** В планах Microsoft 365 программные границы и ограничения для SharePoint Online управляются отдельно от ограничений хранилища почтовых ящиков. Пределы хранилища почтовых ящиков настраиваются и управляются с помощью Exchange Online. В обоих сценариях хранилище не может совместно использоваться несколькими клиентами. 
+- **Хранилище:** В планах лицензирования Microsoft 365 программные границы и ограничения для SharePoint Online управляются отдельно от ограничений хранилища почтовых ящиков. Пределы хранилища почтовых ящиков настраиваются и управляются с помощью Exchange Online. В обоих сценариях хранилище не может совместно использоваться несколькими клиентами. 
     
 ### <a name="can-we-share-domain-namespaces-across-microsoft-365-tenants"></a>Можно предоставить общий доступ к пространствам имен доменов для клиентов Microsoft 365?
 
-Нет. Домены запоминающийся, такие как fabrikam.com и tailspintoys.com, могут быть связаны и использоваться только с одним клиентом в каждый момент времени. У каждого клиента должно быть собственное пространство имен; UPN, пространства имен SMTP и SIP не могут совместно использоваться несколькими клиентами.
+Нет. Доменные имена Организации, такие как fabrikam.com или tailspintoys.com, могут быть связаны и использованы только с одним клиентом Microsoft 365. У каждого клиента должно быть собственное пространство имен. Пространства имен UPN, SMTP и SIP не могут совместно использоваться несколькими клиентами.
   
 ### <a name="what-about-hybrid-components-and-microsoft-365-inter-tenant-collaboration"></a>Что делать с гибридными компонентами и совместная работа Microsoft 365 между клиентами?
 
 Локальные Гибридные компоненты, такие как организация Exchange и служба Azure AD Connect, не могут быть распределены между несколькими клиентами.
-  
+ 
 
