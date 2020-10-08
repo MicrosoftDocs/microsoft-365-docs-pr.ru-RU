@@ -9,15 +9,20 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Создание модели обработки форм в Microsoft SharePoint Syntex.
-ms.openlocfilehash: 27e80a7b3626170e45ceaa55f1269e50d8fdab9e
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 784a3e0a918424e599e87852d2a36b613867f62e
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337269"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390189"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Создание модели обработки форм в Microsoft SharePoint Syntex
 
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GnhN]  
+
+</br>
 
 Использование [AI Builder](https://docs.microsoft.com/ai-builder/overview) — функция в Microsoft PowerApps — пользователи SharePoint Syntex могут создавать [модель обработки форм](form-processing-overview.md) непосредственно из библиотеки документов SharePoint. 
 
@@ -30,13 +35,6 @@ ms.locfileid: "48337269"
  - Шаг 6. Использование модели
 
 ## <a name="requirements"></a>Требования
-
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GnhN]  
-
-</br>
-
 
 Модель обработки форм можно создать только в библиотеках документов SharePoint, для которых она включена. Если обработка формы включена, вы можете просмотреть **AI Builder** **«Создать модель обработки форм»** в меню **Автоматизация** в библиотеке документов.  Если вам требуется обработка в библиотеке документов, необходимо обратиться к администратору SharePoint.
 
