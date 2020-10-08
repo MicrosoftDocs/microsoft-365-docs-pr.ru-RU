@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4ebf220472db69d48127b805256e15246bd400cb
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 14785e032d6e4a7a0868308f4029df623456af2a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552741"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197897"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Выполнение действий с расширенными результатами запроса поиска
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -55,10 +58,10 @@ ms.locfileid: "46552741"
 ## <a name="quarantine-files"></a>Файлы на карантине
 Вы можете развернуть действие *карантина* для файлов, чтобы они автоматически помещаются в карантин при обнаружении. При выборе этого действия можно выбрать один из следующих столбцов, чтобы определить, какие файлы в результатах запроса следует присвоить карантину:
 
-- `SHA1`— В большинстве расширенных таблиц поиске это SHA-1 файла, на который влияет записанное действие. Например, если скопировать файл, это будет скопированный файл.
-- `InitiatingProcessSHA1`— В большинстве расширенных таблиц подпоиска это файл, отвечающий за инициирование записанного действия. Например, если был запущен дочерний процесс, это будет родительским процессом. 
-- `SHA256`— Это эквивалент SHA-256 для файла, указанного в `SHA1` столбце.
-- `InitiatingProcessSHA256`— Это эквивалент SHA-256 для файла, указанного в `InitiatingProcessSHA1` столбце.
+- `SHA1` — В большинстве расширенных таблиц поиске это SHA-1 файла, на который влияет записанное действие. Например, если скопировать файл, это будет скопированный файл.
+- `InitiatingProcessSHA1` — В большинстве расширенных таблиц подпоиска это файл, отвечающий за инициирование записанного действия. Например, если был запущен дочерний процесс, это будет родительским процессом. 
+- `SHA256` — Это эквивалент SHA-256 для файла, указанного в `SHA1` столбце.
+- `InitiatingProcessSHA256` — Это эквивалент SHA-256 для файла, указанного в `InitiatingProcessSHA1` столбце.
 
 Чтобы узнать больше о том, как выполняются действия карантина и как можно восстановить файлы, [прочитайте сведения об ответных действиях для файлов](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts).
 
@@ -73,7 +76,7 @@ ms.locfileid: "46552741"
 ## <a name="review-actions-taken"></a>Просмотр выполненных действий
 Каждое действие записывается отдельно в [центре действий](mtp-action-center.md) в **журнале центра уведомлений**  >  **History** ([Security.Microsoft.com/Action-Center/History](https://security.microsoft.com/action-center/history)). Перейдите в центр уведомлений, чтобы проверить состояние каждого действия.
  
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

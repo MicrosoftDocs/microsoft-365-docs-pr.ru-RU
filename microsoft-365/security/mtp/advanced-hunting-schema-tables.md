@@ -75,7 +75,7 @@ ms.locfileid: "48197671"
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | События электронной почты Microsoft 365, в том числе события доставки и блокировки электронной почты |
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | События безопасности, происходящие после доставки, после того как Microsoft 365 доставляет сообщения в почтовый ящик получателя. |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Сведения об URL-адресах в сообщениях электронной почты |
-| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | События, связанные с локальным контроллером домена, на котором работает Active Directory (AD). В этой таблице описываются события, связанные с удостоверениями, а также системные события на контроллере домена. |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | События, связанные с локальным контроллером домена, на котором работает Active Directory (AD). Эта таблица охватывает диапазон событий, связанных с удостоверениями, а также системные события на контроллере домена. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Сведения об учетных записях из различных источников, в том числе Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности в Active Directory и Microsoft Online Services |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Действия запросов, выполняемые для объектов Active Directory, таких как пользователи, группы, устройства и домены |

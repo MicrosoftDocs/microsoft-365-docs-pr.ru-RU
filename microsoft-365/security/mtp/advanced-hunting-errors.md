@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5bc49ddfa93a06bc8f3d84ce7b8492681ee65cb7
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 20133e0f5dda3abc583adf66cc20a1d8fde190cf
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950931"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198005"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Обработка дополнительных ошибок при поиске
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 При расширенном поиске отображаются ошибки, уведомляющие о синтаксических ошибках и о [предопределенных пределах](advanced-hunting-limits.md)запросов. В таблице ниже приведены советы по устранению ошибок и их устранению. 
 
@@ -38,8 +41,8 @@ ms.locfileid: "47950931"
 | Чрезмерное потребление ресурсов | Запрос потребляет чрезмерные объемы ресурсов и был остановлен от завершения. В некоторых случаях Расширенный поиск идентифицирует определенный оператор, который не был оптимизирован. | [Оптимизация запроса](advanced-hunting-best-practices.md) | -`Query stopped due to excessive resource consumption.`<br>-`Query stopped. Adjust use of the <operator name> operator to avoid excessive resource consumption.` |
 | Неизвестные ошибки | Не удалось выполнить запрос по неизвестной причине. | Попробуйте выполнить запрос еще раз. Обращение в корпорацию Майкрософт через портал, если запросы продолжают возвращать неизвестные ошибки. | `An unexpected error occurred during query execution. Please try again in a few minutes.`
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Расширенные рекомендации по поиску](advanced-hunting-best-practices.md)
-- [Пределы служб](advanced-hunting-limits.md)
+- [Ограничения службы](advanced-hunting-limits.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Обзор языка запросов Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/)

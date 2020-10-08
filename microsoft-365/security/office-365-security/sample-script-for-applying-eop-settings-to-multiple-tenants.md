@@ -21,7 +21,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48198683"
 ---
-# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Пример скрипта для применения параметров EOP к нескольким клиентам
+# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Пример сценария для применения параметров EOP к нескольким клиентам
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

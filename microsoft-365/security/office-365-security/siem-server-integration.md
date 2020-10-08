@@ -17,16 +17,19 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Обзор сведений о безопасности и службах управления событиями (SIEM) для интеграции с облачными службами и приложениями Microsoft 365
-ms.openlocfilehash: d2be5e0127adf25b3884e3717caccf60d4db1d28
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 6d657990417cab2a8cbb1b03b8b79a65c095d1a5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653580"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202213"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция серверов и управления событиями (SIEM) с помощью служб и приложений Microsoft 365
 
-## <a name="summary"></a>Сводка
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+## <a name="summary"></a>Аннотация
 
 Используется ли в организации или планируется получение сведений о безопасности и управления событиями (SIEM)? Возможно, вы захотите узнать, как она интегрируется с Microsoft 365 или Office 365. В этой статье представлен список ресурсов, которые можно использовать для интеграции сервера SIEM со службами и приложениями Microsoft 365.
 

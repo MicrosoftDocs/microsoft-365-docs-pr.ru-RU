@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3c63808e503da5474176de11ff5df8d909ab58e3
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: afb6c74c11f1d24583e5b1087e6a3bea5ab6906d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797948"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198161"
 ---
 # <a name="deviceimageloadevents"></a>DeviceImageLoadEvents
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)

@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: c24f5891573b8541a97a35d228c57642766fe4a0
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 5b2ef4881eabea7e546eb8cd3d164b372b0018ee
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419148"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199845"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Поиск угроз для различных устройств, сообщений электронной почты, приложений и удостоверений
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -192,7 +195,7 @@ DeviceProcessEvents
 | where (TimeProc - TimeEmail) between (0min.. 30min)
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

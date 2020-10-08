@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 653c359c324852719688a374a6e863df0a1909ba
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: bccf36f46121caceeb6dc6d97c126f48149d9426
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650512"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197885"
 ---
 # <a name="access-the-microsoft-threat-protection-apis"></a>Доступ к API защиты от угроз Майкрософт
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -72,7 +75,7 @@ ms.locfileid: "47650512"
      Дополнительные сведения можно найти [в разделе Получение доступа с помощью контекста пользователя](api-create-app-user-context.md).
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [API защиты от угроз Майкрософт](api-supported.md)
 - [Доступ к защите от угроз Майкрософт с помощью контекста приложения](api-create-app-web.md)
 - [Доступ к защите от угроз Майкрософт с помощью контекста пользователя](api-create-app-user-context.md)

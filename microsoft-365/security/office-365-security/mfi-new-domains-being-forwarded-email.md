@@ -11,14 +11,17 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Администраторы могут узнать, как использовать новые домены, перенаправляемые по электронной почте, в современном центре администрирования Exchange, чтобы выяснить, когда пользователи в Организации пересылают сообщения на внешние домены, которые никогда не были переадресованы.
-ms.openlocfilehash: 0f0622fc686cb9c90790630e16c187bf9f69d918
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 62e254e324322aec55d692cfe3128e8e4dd60e4b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200739"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Новые домены перенаправляемые сообщения электронной почты в центре безопасности & соответствия требованиям
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Несмотря на то, что вы могли пересылать сообщения электронной почты внешним получателям в определенных доменах, это подозрительно, когда пользователи в вашей организации неожиданно начинают пересылать сообщения на внешние домены, и никто из них не перенаправлял сообщения в эти домены до (новые домены). Это условие может означать, что учетные записи пользователей скомпрометированы. Если вы подозреваете, что учетные записи были скомпрометированы, ознакомьтесь со [статьей ответ на скомпрометированную учетную запись электронной почты](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
 
@@ -36,6 +39,6 @@ ms.locfileid: "47358262"
 
 Чтобы предотвратить автоматическую переадресацию сообщений во внешние домены, настройте удаленный домен для некоторых или всех внешних доменов. Дополнительные сведения см в разделе [Manage Remote Domains in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 Сведения о других аналитиках в панели мониторинга для почтового процесса приведены в статье сведения о [почтовых сообщениях в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).

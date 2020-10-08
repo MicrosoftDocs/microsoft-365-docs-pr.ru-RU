@@ -14,14 +14,17 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как использовать исправление правил обработки медленных почтовых ящиков в центре безопасности & соответствия требованиям, чтобы выявить и исправить неэффективные и нарушенные правила обработки почтовых ящиков (также называемые правилами транспорта) в Организации.
-ms.openlocfilehash: c933a6816c82161d0f4a6199ff1a339dd8a10eae
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 2f9a35534ab4377cff164b38eeb66dd55c48d5b9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357348"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199269"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Устранение медленных почтовых правил в центре безопасности & соответствия требованиям
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Неэффективные правила для поток обработки почты (также называемые правилами транспорта) могут приводить к задержкам обработки почты для вашей организации. Этот отчет содержит правила обработки почты, которые влияют на процесс обработки почты в Организации. Ниже приведены примеры этих типов правил.
 
@@ -46,6 +49,6 @@ ms.locfileid: "47357348"
 
 Дополнительные сведения об условиях и исключениях в правилах обработки почтового ящика в Exchange Online можно узнать в статье [условия и исключения правила обработки почтового процесса в Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 Сведения о других аналитиках в панели мониторинга для почтового процесса приведены в статье сведения о [почтовых сообщениях в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).

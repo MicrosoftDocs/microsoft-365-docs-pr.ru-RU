@@ -16,17 +16,20 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 2435a934065a06c8105f8ac4e0f80dcfbaed8f7f
-ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
+ms.openlocfilehash: 0bc7ada54c0ce67ccbe1fded5970853672e08c1b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43998051"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201039"
 ---
 # <a name="configure-and-manage-microsoft-defender-atp-capabilities"></a>Настройка возможностей пакета ATP для защитника Майкрософт и управление ими
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **Область применения:**
 
-- [Advanced Threat Protection в защитнике Майкрософт (Майкрософт Defender ATP)](https://go.microsoft.com/fwlink/p/?linkid=2069559)
+- [Microsoft Defender Advanced Threat Protection (ATP в Microsoft Defender)](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 
 Настройте все возможности пакета ATP для защитника Майкрософт и управляйте ими, чтобы получить лучшую защиту в Организации. 
 

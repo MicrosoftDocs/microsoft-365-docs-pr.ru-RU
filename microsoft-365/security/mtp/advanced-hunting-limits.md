@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e3fbe29076d541df68dc39754960386fe935c7bc
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: aaba01f5970c9abf55f5fae760d1ba1fed8ba914
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950953"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199881"
 ---
 # <a name="advanced-hunting-service-limits"></a>Расширенные пределы службы поискового значения
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -43,7 +46,7 @@ ms.locfileid: "47950953"
 
 Клиенты, которые регулярно запускают несколько запросов, должны отслеживать потребление и применять рекомендации по [оптимизации](advanced-hunting-best-practices.md) для минимизации сбоев, возникших в результате превышения этих пределов.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Расширенные рекомендации по поиску](advanced-hunting-best-practices.md)
 - [Обработка дополнительных ошибок при поиске](advanced-hunting-errors.md)

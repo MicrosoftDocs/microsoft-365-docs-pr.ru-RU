@@ -1,5 +1,5 @@
 ---
-title: Запустите отчет группы ролей администратора в автономном EOP
+title: Запуск отчета группы ролей администратора в автономной службе EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -21,7 +21,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48200485"
 ---
-# <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Запустите отчет группы ролей администратора в автономном EOP
+# <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Запуск отчета группы ролей администратора в автономной службе EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

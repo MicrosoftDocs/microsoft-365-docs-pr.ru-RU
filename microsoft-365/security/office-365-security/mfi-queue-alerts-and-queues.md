@@ -11,14 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Администраторы могут узнать, как использовать мини-приложение "очереди" в панели мониторинга "почта" в центре безопасности & соответствия требованиям для отслеживания неудачных почтовых сообщений в локальных или партнерских организациях через исходящие соединители.
-ms.openlocfilehash: bcd78a50f017aae65e82185bf167ea7a227656fa
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 3291a21828215d0a2a99c2226147bb1b748b8469
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357392"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199293"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Очереди в центре безопасности & соответствия требованиям
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Если не удается отправить сообщения из вашей организации на локальные или партнерские почтовые серверы с помощью соединителей, сообщения помещаются в очередь Microsoft 365. Распространенные примеры, вызывающие это условие:
 

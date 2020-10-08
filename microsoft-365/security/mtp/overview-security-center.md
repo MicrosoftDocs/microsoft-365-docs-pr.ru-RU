@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: f831e952b20d04796f69a6c3c00ba4d69d332951
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 425956ebd4c3badc54f074b779997d530e2ee1a5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867237"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200995"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Общие сведения о Центре безопасности Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Управление безопасностью предприятия для защиты от постоянно развивающейся системы угроз приводит к большому количеству проблем. У вас может быть слишком много решений системы безопасности с разными местами для настройки большого числа элементов управления. Вы можете столкнуться с проблемами, чтобы узнать, какие элементы управления наиболее эффективны, и что приводит к новым проблемам для ваших сотрудников. Командам безопасности может быть сложно найти правильное сальдо безопасности и производительности.
 

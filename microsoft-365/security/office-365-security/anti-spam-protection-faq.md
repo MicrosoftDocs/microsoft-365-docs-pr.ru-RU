@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48198611"
 ---
-# <a name="anti-spam-protection-faq"></a>Часто задаваемые вопросы о защите от нежелательной почты
+# <a name="anti-spam-protection-faq"></a>Вопросы и ответы о защите от нежелательной почты
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

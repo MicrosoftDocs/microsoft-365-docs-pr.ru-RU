@@ -1,5 +1,5 @@
 ---
-title: Защита локальных почтовых ящиков в Китае с помощью автономного EOP
+title: Защита локальных почтовых ящиков в Китае с помощью автономной службы EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -28,7 +28,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48202487"
 ---
-# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>Защита локальных почтовых ящиков в Китае с помощью автономного EOP
+# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>Защита локальных почтовых ящиков в Китае с помощью автономной службы EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

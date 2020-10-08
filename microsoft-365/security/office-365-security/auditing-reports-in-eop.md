@@ -1,5 +1,5 @@
 ---
-title: Аудиторские отчеты в автономном EOP
+title: Отчеты аудита в автономной службе EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48200337"
 ---
-# <a name="auditing-reports-in-standalone-eop"></a>Аудиторские отчеты в автономном EOP
+# <a name="auditing-reports-in-standalone-eop"></a>Отчеты аудита в автономной службе EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

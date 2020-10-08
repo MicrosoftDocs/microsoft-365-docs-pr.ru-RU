@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Сведения о смарт-отчетах и аналитических данных, доступных в центре безопасности & соответствия требованиям, а также о том, как их использовать для просмотра и просмотра данных, а также для выполнения быстрых действий.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d100aca53f3683d477fd15469ae53ecb7a2901b
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 7f8094c46868118bb88858dab6cd12b2427382be
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652781"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196339"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Если вы являетесь частью группы безопасности Microsoft для бизнеса 365 для бизнеса и у вас есть необходимые [разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md), вы можете получить доступ к разнообразным отчетам, в том числе к интеллектуальным отчетам и аналитике. В этой статье приводятся общие сведения об этих отчетах и аналитических данных, а можно узнать больше о конкретных отчетах.
 

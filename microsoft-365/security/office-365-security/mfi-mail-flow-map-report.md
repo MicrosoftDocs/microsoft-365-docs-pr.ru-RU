@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как использовать карту потока обработки почты в панели мониторинга потока обработки почты в центре безопасности & соответствия требованиям, чтобы визуализировать и отслеживать обмен сообщениями между организациями и их организациями, а не с помощью соединителей.
-ms.openlocfilehash: e144d1d42603fbf2a8f031b1cf7584b6e6ed5c7b
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 74cabb7f7b34be6248d18d71565c8a9729d7e38b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358594"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199375"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>Карта почтовых ящиков в центре безопасности & соответствия требованиям
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 **Схема потока обработки почты** на [панели мониторинга "поток обработки почты](mail-flow-insights-v2.md) " в [центре безопасности & соответствия требованиям](https://protection.office.com) позволяет понять, как почтовые сообщения проходят через организацию. Вы можете использовать эти сведения для изучения шаблонов, выявления аномалий и устранения проблем по мере их появления.
 

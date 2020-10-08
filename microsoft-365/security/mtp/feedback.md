@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 130bd4bd3d4da10c36da041e41486d55ace1f41a
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 832442ce392882951d0b960d5f36a864ba59684b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113606"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199409"
 ---
 # <a name="provide-feedback-on-microsoft-threat-protection"></a>Предоставление отзывов о защите от угроз Майкрософт
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -39,4 +42,4 @@ ms.locfileid: "43113606"
 
 2. Оцените свои возможности и предоставьте подробные сведения о том, что вам понравилось или какое улучшение можно улучшить. Вы также можете связаться с отзывами. 
 
-3. Нажмите кнопку **послать**.
+3. Выберите **Отправить**.

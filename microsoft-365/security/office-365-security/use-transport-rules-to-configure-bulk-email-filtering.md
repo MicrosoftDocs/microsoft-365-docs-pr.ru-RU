@@ -23,7 +23,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48197307"
 ---
-# <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Используйте правила потока почты для фильтрации массовой почты в EOP
+# <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Использование правил потока почты для фильтрации массовой рассылки в EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

@@ -10,17 +10,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: None
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
 description: Классификатор Microsoft 365, предназначенный для обучения, — это средство, которое можно обучить для распознавания различных типов контента, предоставляя им положительные и отрицательные примеры для поиска. После обучения классификатору необходимо убедиться в том, что его результаты точны. Затем вы можете использовать его для поиска в содержимом вашей организации и классифицировать, чтобы применить метки хранения или учета или включить их в предотвращение потери данных (DLP) или политики хранения.
-ms.openlocfilehash: 8b086690faba23e1331e02d8844503c44e7617c0
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 7abfbe101508d24e58464ff38b14ab87447001f0
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322192"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379310"
 ---
 # <a name="learn-about-classifiers-preview"></a>Сведения о классификаторах (Предварительная версия)
 
