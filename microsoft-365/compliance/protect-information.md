@@ -13,16 +13,17 @@ localization_priority: High
 search.appverid:
 - MOE150
 - MET150
+ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: Реализуйте возможности Microsoft Information Protection (МИП) с помощью соответствия требованиям Microsoft 365, которые помогают находить, классифицировать и защищать конфиденциальную информацию везде, где она живет или передается.
-ms.openlocfilehash: b421cf0b81c5ad52282302626b93064f9cd83ce8
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 78aadbba5442d7ec3cdc1beeac6d290a11325861
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338354"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399048"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Защита информации Майкрософт в Microsoft 365
 
@@ -44,7 +45,7 @@ ms.locfileid: "48338354"
 |:------|:------------|:--------------------|:-----------------------------|
 |[Типы конфиденциальной информации](sensitive-information-type-entity-definitions.md)| Определяет конфиденциальные данные с помощью встроенных или настраиваемых регулярных выражений или функции вместе с свидетельством подкрепляющее, включающим ключевые слова, уровни вероятности и сходства.| [Настройка встроенных типов конфиденциальных данных](customize-a-built-in-sensitive-information-type.md)|
 |[Выученные классификаторы (Предварительная версия)](classifier-learn-about.md)| Классификация данных для вас с помощью одного из встроенных классификаторов или обучение классификатора с собственным контентом | [Начало работы с обучаемыми классификаторами (предварительная версия)](classifier-get-started-with.md) |
-|[Классификация данных](data-classification-overview.md) | Определяет элементы, которые имеют метку конфиденциальности, метку хранения или классифицируются как тип конфиденциальной информации в Организации и действия, которые используются пользователями.  | [Начало работы с обозревателем контента](data-classification-content-explorer.md)<br /><br /> [Начало работы с обозревателем действий](data-classification-activity-explorer.md) |
+|[Классификация данных](data-classification-overview.md) | Определяет элементы, которые имеют метку конфиденциальности, метку хранения или классифицируются как тип конфиденциальной информации в Организации и действия, которые используются пользователями.  | [Начало работы с обозревателем контента](data-classification-content-explorer.md)<br /><br /> [Приступая к работе с обозревателем действий](data-classification-activity-explorer.md) |
 
 ## <a name="protect-your-data"></a>Защита данных
 

@@ -13,21 +13,21 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - SPO_Content
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
-- m365solution-mip
-- m365initiative-compliance
 description: Используйте метки конфиденциальности из платформы защиты информации (Майкрософт) для классификации и защиты конфиденциальных данных с помощью шифрования и подложек.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 9a02b5b6f0e78a71ab598b860248422d751c8400
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: 80aad465442ce43d2fef993133c4e49da709a531
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361966"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398996"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Сведения о метках конфиденциальности
 

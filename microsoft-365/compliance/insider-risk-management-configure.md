@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 4fcfec889b4b5005a172037a0df674b45a9e7281
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: 707f2b260ff9d4a452cdb65d75a1a8fe6a13af3f
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341437"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399174"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Начало работы с управлением внутренними рисками
 
@@ -47,6 +47,9 @@ ms.locfileid: "48341437"
 Если у вас нет существующего плана Microsoft 365 корпоративный, и вы хотите испытать ознакомительную версию управления рисками, вы можете [Добавить Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) в существующую подписку или [зарегистрироваться для получения ознакомительной](https://www.microsoft.com/microsoft-365/enterprise) версии Microsoft 365 Enterprise.
 
 ## <a name="step-1-enable-permissions-for-insider-risk-management"></a>Шаг 1: Включение разрешений для управления рисками для оценки безопасности
+
+>[!Important]
+>После настройки групп ролей может потребоваться до 30 минут, чтобы разрешения группы ролей применялись к назначенным пользователям в Организации.
 
 Существует четыре группы ролей, которые используются для настройки разрешений на управление функциями управления рисками для предварительной оценки. Чтобы продолжить выполнение этих действий, администратору клиента необходимо назначить группу ролей **администратора "** **Управление рисками** " или "Управление рисками". Чтобы получить доступ к функциям управления рисками и управлять ими после начальной настройки, пользователи должны быть членами по крайней мере одной группы ролей "Управление рисками".
 

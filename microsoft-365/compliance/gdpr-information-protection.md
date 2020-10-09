@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8716af366e2ec75775f3e34cbd121fe14fbb11f1
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 2c9f0a97869f27cbcf5829a15f50bf2905472c28
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416803"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398488"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Защита информации в соответствии с Общим регламентом по защите данных (GDPR) при помощи возможностей Microsoft 365
 
@@ -49,7 +49,7 @@ Azure Active Directory и другие компоненты Microsoft 365 пре
 
 Корпорация Майкрософт рекомендует использовать такие конфигурации в качестве отправных точек:
 
-- [Конфигурации доступа с использованием удостоверений и устройств.](../enterprise/microsoft-365-policies-configurations.md) Рекомендуемые конфигурации политик, обеспечивающие три уровня защиты (базовый, для конфиденциальных данных и предусматривающий жесткую регуляцию). В этом руководстве описаны рекомендуемые политики для Exchange Online и SharePoint Online (включая OneDrive для бизнеса).
+- [Конфигурации доступа с использованием удостоверений и устройств.](../security/office-365-security/microsoft-365-policies-configurations.md) Рекомендуемые конфигурации политик, обеспечивающие три уровня защиты (базовый, для конфиденциальных данных и предусматривающий жесткую регуляцию). В этом руководстве описаны рекомендуемые политики для Exchange Online и SharePoint Online (включая OneDrive для бизнеса).
 - [Руководство по обеспечению безопасности для организаций, проводящих политические кампании, некоммерческих организаций и других динамичных организаций.](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o) Включает в себя тот же набор политик, но содержит дополнительные инструкции касательно сред BYOD и учетных записей B2B.
 
 ## <a name="threat-protection"></a>Защита от угроз
