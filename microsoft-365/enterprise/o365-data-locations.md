@@ -3,7 +3,6 @@ title: Расположение данных Microsoft 365
 ms.author: deanw
 author: dmwmsft
 manager: laurawi
-ms.date: 07/22/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,19 +15,23 @@ ms.collection:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: 'Сводка: расположение данных Microsoft 365'
-ms.openlocfilehash: 7a2fb85d0d7320770a1ab32efcd024a9e348795e
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+description: Определите, где хранятся данные клиентов Microsoft 365 по всему миру
+ms.openlocfilehash: 9f651cf2bf042a59efcfc9b76fd4349c839e7423
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337161"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384768"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
 -->
 
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Где хранятся данные клиентов Microsoft 365
+
+>[!Note]
+>Обновления в этой статье строго контролируются корпорацией Майкрософт. Прямые изменения не будут опубликованы. Если вы хотите предложить изменения, пожалуйста, отправьте их в виде отзыва через форму в конце статьи.
+>
 
 В приведенных ниже таблицах показано, где хранятся неактивные данные клиентов для служб Microsoft 365 во всех расположениях глобальных облаков Майкрософт. Разверните расположение своей страны выставления счетов, чтобы узнать, где будут храниться данные клиента для каждой службы.
 
@@ -106,6 +109,10 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
   - Предварительные версии, бета-версии и другие предварительные службы: обычно они хранят данные клиентов в США, но могут хранить эти данные и глобально.
 
 Корпорация Майкрософт не контролирует и не ограничивает географические регионы, из которых клиенты или их конечные пользователи могут получать доступ к данным клиента, вне зависимости от расположения. 
+
+### <a name="can-i-edit-the-information-in-this-article"></a>Можно ли редактировать информацию в этой статье?
+
+Нет. Обновления в этой статье строго контролируются корпорацией Майкрософт. Прямые изменения не будут опубликованы. Если вы хотите предложить изменения, пожалуйста, отправьте их в виде отзыва через форму в конце статьи.
 
 ## <a name="data-center-locations"></a>Расположения центров обработки данных
 
@@ -3855,7 +3862,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Intune | Европейский Союз |
 | MyAnalytics | Европейский Союз |
 | Планировщик | Европейский Союз |
-| Sway | США |
+| Sway | Соединенные Штаты |
 | Yammer | Европейский Союз  |
 | Службы OneNote | Европейский Союз |
 | Stream | Европейский Союз |
@@ -5439,7 +5446,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Intune | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | MyAnalytics | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Планировщик | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Sway | Соединенные Штаты |
+| Sway | США |
 | Yammer | Соединенные Штаты |
 | Службы OneNote | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Stream | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
