@@ -15,20 +15,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам с предварительными требованиями для сквозной проверки подлинности.
-ms.openlocfilehash: eeb6c1d1313c95e920b20cce419118fe1e61ad6e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 7741b38a947e58d81192326c412760487d803e36
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685646"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399185"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Предварительные требования к удостоверениям и доступу к устройствам для сквозной проверки подлинности в тестовой среде Microsoft 365
 
 *Это руководство по лаборатории тестирования можно использовать только для Microsoft 365 для тестовых сред предприятия.*
 
-[Конфигурации доступа для удостоверений и устройств](microsoft-365-policies-configurations.md) — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам в Microsoft 365 для предприятий, интегрированных с Azure Active Directory (Azure AD).
+[Конфигурации доступа для удостоверений и устройств](../security/office-365-security/microsoft-365-policies-configurations.md) — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам в Microsoft 365 для предприятий, интегрированных с Azure Active Directory (Azure AD).
 
-В этой статье описано, как можно настроить тестовую среду Microsoft 365, соответствующую требованиям [предварительной настройки сквозной проверки подлинности](identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам.
+В этой статье описано, как можно настроить тестовую среду Microsoft 365, соответствующую требованиям [предварительной настройки сквозной проверки подлинности](../security/office-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам.
 
 Настройка этой тестовой среды состоит из восьми следующих этапов:
 
@@ -111,7 +111,7 @@ ms.locfileid: "46685646"
   Get-CsOAuthConfiguration
   ```
 
-Результатом является тестовая среда, соответствующая требованиям [предварительной настройки сквозной проверки подлинности](identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам. 
+Результатом является тестовая среда, соответствующая требованиям [предварительной настройки сквозной проверки подлинности](../security/office-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам. 
 
 ## <a name="next-step"></a>Следующее действие
 

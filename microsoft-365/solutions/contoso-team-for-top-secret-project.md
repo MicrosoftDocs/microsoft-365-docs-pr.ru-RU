@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: Сводка. сведения о том, как компания Contoso использовала группу с изоляцией безопасности для проекта верхнего уровня, чтобы разработать новый набор продуктов и служб.
-ms.openlocfilehash: ba9a66d2419e81aeb1eac026b16c0475ac6d0614
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 16d10f5d6e5b5939172c02746c9324eb20b6987e
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778598"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399493"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Изолированная группа для верхнего уровня секретного проекта корпорации Contoso
 
@@ -40,7 +40,7 @@ ms.locfileid: "46778598"
 
 ## <a name="step-1-created-a-private-team"></a>Шаг 1: создание частной команды
 
-Во-первых, чтобы защитить доступ к базовому сайту SharePoint для группы, ИТ-администраторы Contoso настроили [Рекомендуемые политики доступа к SharePoint](../enterprise/sharepoint-file-access-policies.md).
+Во-первых, чтобы защитить доступ к базовому сайту SharePoint для группы, ИТ-администраторы Contoso настроили [Рекомендуемые политики доступа к SharePoint](../security/office-365-security/sharepoint-file-access-policies.md).
 
 Затем администратор Contoso создал новую частную группу с именем Project 2X и добавила учетные записи пользователей в качестве участников Project 2X. Кроме того, они настроили группу так, что частные каналы могут создавать только владельцы группы по проекту 2X.
 
@@ -51,7 +51,7 @@ ms.locfileid: "46778598"
 Администраторы Contoso создали новую метку чувствительности с именем **Project 2x** , которая:
 
 - Включенное шифрование.
-- Разрешения для совместного редактирования, разрешенные для группы Microsoft 365 в проекте 2X.
+- Разрешенные Co-Author разрешения для группы Microsoft 365 Project 2X.
 - Разрешенные разрешения средства просмотра для группы высшего руководства.
 - Заблокирован доступ к неуправляемым устройствам.
 
@@ -64,7 +64,7 @@ ms.locfileid: "46778598"
 
 ## <a name="step-3-configured-the-underlying-sharepoint-site"></a>Шаг 3: Настройка базового сайта SharePoint
 
-Во-первых, чтобы защитить доступ к базовому сайту SharePoint для группы, ИТ-администраторы Contoso настроили [Рекомендуемые политики доступа к SharePoint](../enterprise/sharepoint-file-access-policies.md).
+Во-первых, чтобы защитить доступ к базовому сайту SharePoint для группы, ИТ-администраторы Contoso настроили [Рекомендуемые политики доступа к SharePoint](../security/office-365-security/sharepoint-file-access-policies.md).
 
 Затем они настроили дополнительные параметры разрешений для сайта:
 
@@ -100,7 +100,7 @@ ms.locfileid: "46778598"
 
 Из-за среды совместной работы Teams и функций безопасности Microsoft 365 сведения о проекте 2X хранятся в секрете в течение проекта. Компания Contoso объявила о своих планах и в процессе развертывания новых продуктов и служб в сведения своих клиентов и инвесторов и Чагрин конкурентов.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 [Развертывание группы с изоляцией безопасности](secure-teams-security-isolation.md) в Организации.
 

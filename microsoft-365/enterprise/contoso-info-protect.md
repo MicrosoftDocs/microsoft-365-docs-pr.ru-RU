@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как в компании Contoso используются функции защиты информации в Microsoft 365 для организации защиты цифровых ресурсов в облаке.
-ms.openlocfilehash: 67404df9bb2056c226eeb9370190519fc0cc8f3b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1966fdec3de246ca54fd99ab018485b9ee817281
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686026"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399245"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Защита информации в корпорации Contoso
 
@@ -41,7 +41,7 @@ ms.locfileid: "46686026"
 В приведенной ниже таблице перечислены информационные политики Contoso.
 
 
-| Значение | Доступ | Хранение данных | Защита информации |
+| Значение | Access | Хранение данных | Защита информации |
 |:-------|:-----|:-----|:-----|
 | Информация, представляющая малую ценность для бизнеса (уровень 1: базовая информация) | Предоставление доступа всем пользователям  | 6 месяцев | Применение шифрования. |
 | Информация, представляющая среднюю ценность для бизнеса (уровень 2: конфиденциальная информация) | Предоставление доступа сотрудникам, субподрядчикам и партнерам компании Contoso <BR> <BR> Использование многофакторной проверки подлинности, протокола TLS и управления мобильными приложениями (MAM). | 2 года  | Использование хэш-значений для обеспечения целостности данных.  |
@@ -76,9 +76,9 @@ ms.locfileid: "46686026"
 
 В соответствии с имеющейся инфраструктурой управления удостоверениями и мобильными устройствами и в рамках развертывания Exchange Online и SharePoint в компании Contoso настроили указанные ниже политики условного доступа и применили их к соответствующим группам.
 
-- [Управляемый и неуправляемый доступ к приложениям в политиках для устройств](identity-access-policies.md)
-- [Политики доступа Exchange Online](secure-email-recommended-policies.md)
-- [Политики доступа SharePoint](sharepoint-file-access-policies.md)
+- [Управляемый и неуправляемый доступ к приложениям в политиках для устройств](../security/office-365-security/identity-access-policies.md)
+- [Политики доступа Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)
+- [Политики доступа SharePoint](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Ниже представлен итоговый набор политик компании Contoso, предназначенных для защиты информации.
 
@@ -115,7 +115,7 @@ ms.locfileid: "46686026"
 
 [Узнайте](contoso-security-summary.md) , как компания Contoso использовала функции безопасности в Microsoft 365 для предприятий для управления удостоверениями и доступом, защиты от угроз, защиты информации и управления безопасностью.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные ресурсы
 
 [Стратегия повышения безопасности](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: Схема идентификации для Microsoft 365.
-ms.openlocfilehash: 82c2adc753a3446b9ca4f070d8655f526465de55
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 4daf673a35505652bdb8105f304dde8166512660
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357834"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398775"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Стратегия удостоверений для Microsoft 365
 
@@ -60,10 +60,10 @@ ms.locfileid: "48357834"
 
 ### <a name="identity-and-device-access-recommendations"></a>Рекомендации по доступу для удостоверений и устройств
 
-Для обеспечения безопасности и продуктивной работы сотрудников Корпорация Майкрософт предоставляет ряд рекомендаций по [идентификации и доступу к устройствам](microsoft-365-policies-configurations.md). В разделе Identity используйте рекомендации и параметры, приведенные в следующих статьях:
+Для обеспечения безопасности и продуктивной работы сотрудников Корпорация Майкрософт предоставляет ряд рекомендаций по [идентификации и доступу к устройствам](../security/office-365-security/microsoft-365-policies-configurations.md). В разделе Identity используйте рекомендации и параметры, приведенные в следующих статьях:
 
-- [Необходимые компоненты](identity-access-prerequisites.md)
-- [Основные политики доступа для удостоверений и устройств](identity-access-policies.md)
+- [Необходимые компоненты](../security/office-365-security/identity-access-prerequisites.md)
+- [Основные политики доступа для удостоверений и устройств](../security/office-365-security/identity-access-policies.md)
 
 ## <a name="manage"></a>Управление
 

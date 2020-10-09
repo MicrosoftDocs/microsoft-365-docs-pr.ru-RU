@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Основные рекомендации от группы циберсекурити корпорации Майкрософт для реализации возможностей обеспечения безопасности, защищающих среду Microsoft 365. '
-ms.openlocfilehash: 9bdddbbfbb20900a4645d2e17cf298ed018f4c6d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: aae103b93409b2f7fee635b832fce8f10c3d9437
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197433"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399413"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>План безопасности — основные приоритеты для первых 30 дней, 90 дней и более поздних
 
@@ -82,7 +82,7 @@ ms.locfileid: "48197433"
 |---|---|
 |Управление безопасностью|* Проверьте безопасность оценки для рекомендуемых действий в среде ( [https://securescore.office.com](https://securescore.office.com) ).  <br/>  * Продолжайте регулярно просматривать панели мониторинга и отчеты в центре безопасности Майкрософт 365, в средствах Cloud App Security и SIEM. <br/> * Ищите и реализуйте обновления программного обеспечения. <br/> * Выполните имитацию атаки для спеар-фишинга, пароля и атаки методом грубой силы с помощью [симулятора атак](attack-simulator.md) (входит в состав [Office 365 Threat Intelligence](office-365-ti.md)).  <br/> * Найдите риск для общего доступа, просмотрев встроенные отчеты в Cloud App Security (на вкладке "исследование"). <br/> * Установите флажок в [диспетчере соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) , чтобы просмотреть состояние нормативных актов, относящихся к вашей организации (например, GDPR, NIST 800-171).|
 |Защита от угроз| Реализация расширенной защиты для учетных записей администраторов: <br/> * Настройка [привилегированных рабочих станций доступа](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) (павс) для действий администратора. <br/> * Настройка [Azure AD с правами на управление удостоверениями](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure). <br/> * Настройка средств безопасности и управления событиями (SIEM) для сбора данных ведения журнала из Office 365, Cloud App Security и других служб, в том числе служб федерации Active Directory. В журнале аудита хранятся данные только в 90 дней. Захват этих данных в инструменте SIEM позволяет хранить данные в течение более длительного времени.|
-|Управление идентификацией и доступом|* Включение и применение MFA для всех пользователей. <br/> * Реализуйте набор [условного доступа и связанных политик](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations). |
+|Управление идентификацией и доступом|* Включение и применение MFA для всех пользователей. <br/> * Реализуйте набор [условного доступа и связанных политик](microsoft-365-policies-configurations.md). |
 |Защита информации| Адаптируйте и реализуйте политики защиты информации. К этим ресурсам относятся примеры: <br/> * [Office 365 Information Protection для GDPR](https://aka.ms/o365gdpr) <br/> * [Настройка Teams с тремя уровнями защиты](../../solutions/configure-teams-three-tiers-protection.md) <br/> <br> Использование политик защиты от потери данных и средств мониторинга в Microsoft 365 для данных, хранящихся в Microsoft 365 (а не в Cloud App Security). <br><br>Используйте Cloud App Security с Microsoft 365 для расширенных функций оповещения (Кроме защиты от потери данных).|
 |
 

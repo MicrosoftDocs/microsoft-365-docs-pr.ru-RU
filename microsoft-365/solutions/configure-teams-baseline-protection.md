@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как развернуть команды с базовым уровнем защиты.
-ms.openlocfilehash: 4a1843b687155cefd48bf3800be68c3e01abd7f5
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ac6974b5625a4eff0fcd11a17c4607a7c2caf97f
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527864"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398869"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Настройка команд с базовым уровнем защиты
 
@@ -31,7 +31,7 @@ ms.locfileid: "46527864"
 
 ## <a name="initial-protections"></a>Начальная защита
 
-На первом этапе рекомендуется настроить базовые политики удостоверений и доступа к устройствам. Дополнительные сведения см. в статье [Рекомендации по политикам безопасности для чатов, групп и файлов Teams](https://docs.microsoft.com/microsoft-365/enterprise/teams-access-policies).
+На первом этапе рекомендуется настроить базовые политики удостоверений и доступа к устройствам. Дополнительные сведения см. в статье [Рекомендации по политикам безопасности для чатов, групп и файлов Teams](../security/office-365-security/teams-access-policies.md).
 
 Мы также рекомендуем включить основные функции Расширенной защиты от угроз для защиты от вредоносных программ в документах, вложениях и ссылках. Рекомендуем включить все параметры, указанные в таблице ниже.
 

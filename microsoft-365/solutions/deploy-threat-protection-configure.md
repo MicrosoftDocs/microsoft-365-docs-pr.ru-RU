@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: c6e973e05f9a73736410c9bfedfa2ef73bb583ce
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 5183e6f60d825ff523db4da165d16752b3aa3cc8
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377405"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399353"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Настройка возможностей защиты от угроз в Microsoft 365
 
@@ -40,13 +40,13 @@ ms.locfileid: "48377405"
 
 ![Процесс развертывания базовой защиты](../media/solutions-architecture-center/deploy-threat-protection-identity-access-steps.png) 
 
-1. [Настройка необходимых компонентов, в том числе защита удостоверений Azure](../enterprise/identity-access-prerequisites.md).
-2. [Настройка общих политик идентификации и доступа к устройствам](../enterprise/identity-access-policies.md) для базовой защиты.
-3. Настройка политик для [гостевых пользователей](../enterprise/identity-access-policies-guest-access.md), [Microsoft Teams](../enterprise/teams-access-policies.md), [Exchange Online](../enterprise/secure-email-recommended-policies.md)и [SharePoint Online и OneDrive](../enterprise/sharepoint-file-access-policies.md).
+1. [Настройка необходимых компонентов, в том числе защита удостоверений Azure](../security/office-365-security/identity-access-prerequisites.md).
+2. [Настройка общих политик идентификации и доступа к устройствам](../security/office-365-security/identity-access-policies.md) для базовой защиты.
+3. Настройка политик для [гостевых пользователей](../security/office-365-security/identity-access-policies-guest-access.md), [Microsoft Teams](../security/office-365-security/teams-access-policies.md), [Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)и [SharePoint Online и OneDrive](../security/office-365-security/sharepoint-file-access-policies.md).
 
 ### <a name="more-information-about-protecting-identities"></a>Дополнительные сведения о защите удостоверений
 
-- [Конфигурации доступа для удостоверений и устройств](../enterprise/microsoft-365-policies-configurations.md)
+- [Конфигурации доступа для удостоверений и устройств](../security/office-365-security/microsoft-365-policies-configurations.md)
 - [Руководство по безопасности для Azure MFA](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
 ## <a name="step-2-configure-azure-advanced-threat-protection"></a>Шаг 2: Настройка функции "Advanced Threat Protection в Azure"

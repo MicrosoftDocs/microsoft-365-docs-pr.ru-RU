@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как создать команду с уникальной меткой конфиденциальности в целях безопасности.
-ms.openlocfilehash: 544f62e4765388f90874c15504e6656820111ed4
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: fdebfcbfa4aad68f381db4ffb8c9b83a5100187c
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326499"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398719"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Настройка команды с изоляцией для обеспечения безопасности
 
@@ -51,8 +51,8 @@ ms.locfileid: "48326499"
 ## <a name="initial-protections"></a>Начальная защита
 
 Чтобы защитить доступ к команде и базовому сайту SharePoint, ознакомьтесь со следующими рекомендациями.
-- [Политики доступа для удостоверений и устройств](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-policies)
-- [Политики доступа SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)
+- [Политики доступа для удостоверений и устройств](../security/office-365-security/identity-access-policies.md)
+- [Политики доступа SharePoint Online](../security/office-365-security/sharepoint-file-access-policies.md)
 - [Развертывание команд с базовым уровнем защиты](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>Предоставление общего доступа гостям

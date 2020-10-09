@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: a001bb748a9b6e0431c75c0a23637fd47e460a6e
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: a873c003537b98d10db5fc8a660b9d15ac0bcc23
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377621"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399305"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 
@@ -66,7 +66,7 @@ Teams предоставляет платформу для приложений 
 
 В Outlook удаленные сотрудники могут в одном месте поддерживать связь и наводить порядок с помощью писем, календарей, контактов, задач и т. д. Приложение Outlook помогает отслеживать и определять приоритеты дня на основе важных задач. Outlook позволяет делиться вложениями прямо из OneDrive, планировать собрания Teams и присоединяться к ним, просматривать календари и делиться ими, а также предоставлять разрешения делегата другим пользователям. Если удаленные сотрудники в курсе предстоящих рабочих и личных обязательств, требующих внимания, это поможет им сосредоточиться на самых важных задачах. Outlook позволяет удаленным сотрудникам управлять своим временем и легко находить нужное, включая файлы, людей в организации и т. д. 
 
-Ознакомьтесь с [этой статьей](../enterprise/secure-email-recommended-policies.md), чтобы узнать о рекомендуемых политиках доступа для удостоверений и устройств, предназначенных для защиты электронной почты и почтовых клиентов организации, поддерживающих современную проверку подлинности и условный доступ.
+Ознакомьтесь с [этой статьей](../security/office-365-security/secure-email-recommended-policies.md), чтобы узнать о рекомендуемых политиках доступа для удостоверений и устройств, предназначенных для защиты электронной почты и почтовых клиентов организации, поддерживающих современную проверку подлинности и условный доступ.
 
 ## <a name="store-and-collaborate-on-files-with-sharepoint-and-onedrive"></a>Хранение и совместное использование файлов с помощью SharePoint и OneDrive
 
@@ -79,7 +79,7 @@ Teams предоставляет платформу для приложений 
 - [общих папок](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide);
 - [Box](https://docs.microsoft.com/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide).
 
-Рекомендуемые политики удостоверений и доступа с устройств для защиты SharePoint и OneDrive представлены в [этой статье](../enterprise/sharepoint-file-access-policies.md).
+Рекомендуемые политики удостоверений и доступа с устройств для защиты SharePoint и OneDrive представлены в [этой статье](../security/office-365-security/sharepoint-file-access-policies.md).
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Создание и совместное использование контента с помощью приложений Microsoft 365
 
