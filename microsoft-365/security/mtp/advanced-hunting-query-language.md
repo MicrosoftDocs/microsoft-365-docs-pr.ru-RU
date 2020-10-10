@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ffa5e6abf7fb1cb0f93fe1c233ef7e3f0b023faf
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 35de1504d4d7ddd3512b6cc3e478b138c1f43c29
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412626"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418125"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -34,7 +34,7 @@ ms.locfileid: "48412626"
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-Расширенный поиск основывается на [языке запросов Kusto](https://docs.microsoft.com/azure/kusto/query/). С помощью синтаксиса и операторов Кусто можно создавать запросы, которые находят информацию в специализированной [схеме](advanced-hunting-schema-tables.md). Чтобы лучше понять эти концепции, запустите ваш первый запрос.
+Расширенный поиск основывается на [языке запросов Kusto](https://docs.microsoft.com/azure/kusto/query/). Вы можете использовать операторы и операторы Кусто для создания запросов, которые находят информацию в специализированной [схеме](advanced-hunting-schema-tables.md). Чтобы лучше понять эти концепции, запустите ваш первый запрос.
 
 ## <a name="try-your-first-query"></a>Попробуйте выполнить первый запрос
 

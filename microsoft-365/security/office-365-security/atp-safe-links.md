@@ -26,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье администраторы могут узнать о защите от безопасных ссылок в Office 365 Advanced Threat protection (ATP), чтобы защитить свою организацию от фишинга и других атак, использующих вредоносные URL-адреса.
-ms.openlocfilehash: c933ce48483f0263650d0af2994023dfcb24fadf
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 7b10a941d63fd654a61c6d6ec78869f4bafb3edd
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414122"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417264"
 ---
 # <a name="safe-links-in-office-365-atp"></a>Безопасные ссылки в Office 365 ATP
 
@@ -150,7 +150,7 @@ ms.locfileid: "48414122"
 ## <a name="safe-links-settings-for-microsoft-teams"></a>Параметры безопасных ссылок для Microsoft Teams
 
 > [!IMPORTANT]
-> В марте 2020 эта функция доступна только для участников программы внедрения технологий Microsoft Teams (TAP).
+> В марте 2020 эта функция доступна только для участников программы внедрения технологий Microsoft Teams (TAP). За сведениями о расписании выпуска, ознакомьтесь с [планом Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams).
 
 Вы включаете или отключаете защиту безопасных ссылок для Microsoft Teams в политиках безопасных ссылок. В частности, вы используете параметр **выбрать действие для неизвестных или потенциально вредоносных URL-адресов в Microsoft Teams** . Рекомендуемое значение — **On**.
 

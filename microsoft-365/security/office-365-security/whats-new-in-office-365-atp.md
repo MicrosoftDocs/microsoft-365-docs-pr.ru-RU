@@ -17,15 +17,15 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-defender-office365
 ms.topic: conceptual
-ms.date: 09/10/2020
+ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 5bbbda8b2fb13351d0b86d1670910cbaa52ad8cb
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab987652082c93a82fa5bcbd4667f26291c6e9d7
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413262"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417295"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -47,7 +47,8 @@ ms.locfileid: "48413262"
 - [Переопределение вердиктс фильтров вручную с помощью списка разрешенных и запрещенных клиентов](tenant-allow-block-list.md)
 - [Расширенные возможности в обозревателе угроз, включая наиболее популярные целевые пользователи, правила транспорта и соединители](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP, план 2)
 - Отображение переопределяет сведения в [обозревателе угроз](threat-explorer.md) (электронная почта разрешена/заблокирована политикой клиента/пользователя)
-- Угрозы URL-адресов отображение в [обозревателе угроз](threat-explorer.md) (вредоносная программа, фишинг, спам или None) 
+- Угрозы URL-адресов отображение в [обозревателе угроз](threat-explorer.md#threats-in-urls) (вредоносная программа, фишинг, спам или None) 
+- Улучшения, связанные с поиском [угроз в обозревателе угроз](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) с обновлением угроз, дополнительных действий, расположений доставки и обновленного представления временной шкалы
 
 ## <a name="julyaugust-2020"></a>Июль/Август 2020 
 

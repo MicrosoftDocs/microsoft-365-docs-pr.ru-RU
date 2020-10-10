@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Сведения о том, как вносить изменения в профиль организации, такие как название организации, адрес, номер телефона, технический контакт и электронная почта.
-ms.openlocfilehash: 7df4c95bde187dc4922bea3da908b9cd82c5f775
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: f306130e4578284a159c01436d6e2adc6b08add7
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780149"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417202"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Изменение адреса организации и других данных профиля
 
@@ -69,7 +69,7 @@ ms.locfileid: "44780149"
 
 ## <a name="change-your-alternate-email-address"></a>Изменение запасного адреса электронной почты
 
-Как администратор вы можете изменить свой альтернативный адрес электронной почты для сброса паролей.
+Как администратор вы можете изменить запасной адрес электронной почты для сброса паролей.
 
 1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центр администрирования Microsoft 365</a>.
 

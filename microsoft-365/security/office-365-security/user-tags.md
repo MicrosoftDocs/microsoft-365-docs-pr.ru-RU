@@ -15,14 +15,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как идентифицировать определенные группы пользователей с помощью тегов пользователя в Office 365 ATP (план 2). Фильтрация тегов доступна для оповещений, отчетов и исследований в Office 365 ATP, чтобы быстро определить пользователей с тегами.
-ms.openlocfilehash: 16e756b95e16e40f4df738e825e842681c67e22c
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 475bf976a71fb688df8db9ac25f3b397c078d79a
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399389"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417279"
 ---
 # <a name="user-tags-in-office-365-atp"></a>Теги пользователя в Office 365 ATP
+
+> [!NOTE]
+> Функция "Теги пользователей" Предварительная версия, недоступна всем и может быть изменена. За сведениями о расписании выпуска, ознакомьтесь с [планом Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap).
 
 Теги пользователя — это идентификаторы для определенных групп пользователей в [Office 365 Advanced Threat protection (ATP)](office-365-atp.md). Существует два типа тегов пользователя:
 

@@ -9,20 +9,20 @@
         - name: "Безопасность в Microsoft\_365 для BDM"
           href: Microsoft-365-security-for-bdm.md
     - name: Конфигурации доступа для удостоверений и устройств
-      href: ../enterprise/microsoft-365-policies-configurations.md
+      href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
         - name: Необходимая работа
-          href: ../enterprise/identity-access-prerequisites.md
+          href: ./office-365-security/identity-access-prerequisites.md
         - name: Основные политики доступа для удостоверений и устройств
-          href: ../enterprise/identity-access-policies.md
+          href: ./office-365-security/identity-access-policies.md
         - name: Политики для гостей и внешних пользователей
-          href: ../enterprise/identity-access-policies-guest-access.md
+          href: ./office-365-security/identity-access-policies-guest-access.md
         - name: Рекомендуемые политики доступа Teams
-          href: ../enterprise/teams-access-policies.md
+          href: ./office-365-security/teams-access-policies.md
         - name: "Рекомендуемые политики доступа Exchange\_Online"
-          href: ../enterprise/secure-email-recommended-policies.md
+          href: ./office-365-security/secure-email-recommended-policies.md
         - name: "Рекомендуемые политики доступа SharePoint\_Online"
-          href: ../enterprise/sharepoint-file-access-policies.md
+          href: ./office-365-security/sharepoint-file-access-policies.md
     - name: Оценка безопасности (Майкрософт)
       items:
         - name: Обзор оценки безопасности
@@ -422,7 +422,9 @@
               href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
             - name: Создание сайтов групп в среде разработки и тестирования для политической кампании
               href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: S/MIME;
+            - name: Теги пользователя в Office 365 ATP
+              href: ./office-365-security/user-tags.md
+            - name: S/MIME
               href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
               items:
                 - name: S/MIME для подписи и шифрования сообщений
