@@ -13,20 +13,21 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 description: Безопасность в Office 365, с EOP до ATP Plans 1 и 2, стандартные и жесткие конфигурации безопасности и многое другое. Узнайте, что у вас и как защитить свойства.
-ms.openlocfilehash: c5b357dc7a08eeef099b25172169d04cdb81e8c4
-ms.sourcegitcommit: 5abd5ef8c2903b4c3bd875da68049fde26768dcf
+ms.openlocfilehash: d650a02faa21ac6ade39506d2c423dd319951bef
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48359157"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413058"
 ---
 # <a name="office-365-security-overview"></a>Обзор системы безопасности Office 365
 
 В этой статье представлены новые свойства безопасности в облаке. Если вы участвуете в центре управления безопасностью, то вы являетесь администратором системы безопасности, а также хотите, чтобы он был обновлен, приступим к работе.
 
 > [!CAUTION]
-> Привет. Если вы используете **Outlook.com**, **семейство Microsoft 365**или **Microsoft 365 персональный**, и вам требуются *безопасные ссылки* или сведения о *надежных вложениях* , ***щелкните эту ссылку***: [Advanced Outlook.com Security для подписчиков Microsoft 365](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2). Большое!
+> Если вы используете **Outlook.com**, **семейство Microsoft 365**или **Microsoft 365 персональный**, и вам требуются *безопасные ссылки* или сведения о *надежных вложениях* , ***щелкните эту ссылку***: [Advanced Outlook.com Security для подписчиков Microsoft 365](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 ## <a name="office-365-security-spelled-out"></a>Неправильное написание средств безопасности Office 365
 

@@ -15,23 +15,24 @@ search.appverid:
 ms.assetid: 75af74b2-c7ea-4556-a912-8c48e07271d3
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 description: Администраторы могут узнать о функциях защиты от фишинга в Exchange Online Protection (EOP) и Office 365 Advanced Threat protection (Office 365 ATP).
-ms.openlocfilehash: 5607a3bf566fabccf3ae55726aca9eefcff9c062
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9297b241122a3aa316da1594c6b30111bfead308
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202415"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48411786"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Защита от фишинга в Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-*Фишинг* — это атака с использованием электронной почты, которая пытается украсть конфиденциальные данные в сообщениях, которые не являются законными или надежными отправителями. Существуют определенные категории фишинга. Например:
+*Фишинг* — это атака с использованием электронной почты, которая пытается украсть конфиденциальные данные в сообщениях, которые не являются законными или надежными отправителями. Существуют определенные категории фишинга. Например,
 
 - **Фишинг спеар** использует отсортированный Настраиваемый контент, специально предназначенный для целевых получателей (как правило, после реконнаиссанце от получателей).
 

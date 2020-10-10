@@ -16,14 +16,15 @@ search.appverid:
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 description: Поиск и использование отчетов для Office 365 Advanced Threat Protection в центре безопасности и &amp; соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f871432f29138acb8bee3a14b9bb161d87193e3
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: c1e1df0d4c1da228da1e09a626dd388d8d7cf7aa
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48351039"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413452"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -258,7 +259,7 @@ ms.locfileid: "48351039"
 - **Пользователь**
 - **URL-адрес**
 - **Действие**
-- **Программы**
+- **Приложение**
 
 Если щелкнуть **фильтры** в представлении Таблица сведений, можно отфильтровать по тем же критериям, что и в представлении отчета, а также по **доменам** или **получателям** , разделенным запятыми.
 
@@ -308,7 +309,7 @@ ms.locfileid: "48351039"
 
 Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для обеспечения защиты ATP необходимо, чтобы в Организации были определены политики безопасных [ссылок](set-up-atp-safe-links-policies.md) и [политики безопасных вложений](set-up-atp-safe-attachments-policies.md) . Кроме того, вы можете увидеть [защиту от нежелательной почты и вредоносных программ](anti-spam-and-anti-malware-protection.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
   
