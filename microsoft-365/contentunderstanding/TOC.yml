@@ -1,24 +1,24 @@
 - name: Сведения о Microsoft SharePoint Синтекс
   items:
-    - name: Введение в SharePoint Синтекс
+    - name: Общие сведения о SharePoint Syntex
       href: index.md
-    - name: Общие сведения о документе
+    - name: Общие сведения об осмыслении документации
       href: document-understanding-overview.md
-    - name: Обзор обработки форм
+    - name: Общие сведения об обработке форм
       href: form-processing-overview.md
-    - name: Разница между общими сведениями о документе и моделями обработки форм
+    - name: Различия между моделями осмысления документации и моделями обработки форм
       href: difference-between-document-understanding-and-form-processing-model.md
 - name: Начало работы с моделями
   items:
     - name: Сведения о моделях через пример модели
       href: learn-about-document-understanding-models-through-the-sample-model.md
-    - name: Создание центра контента
+    - name: Создание центра управления контентом
       href: create-a-content-center.md
     - name: Создание классификатора
       href: create-a-classifier.md
     - name: Создание средства извлечения
       href: create-an-extractor.md
-    - name: Типы объяснения
+    - name: Типы объяснений
       href: explanation-types-overview.md
     - name: Применение модели
       href: apply-a-model.md
@@ -26,11 +26,11 @@
       href: create-a-form-processing-model.md
     - name: Применение метки хранения
       href: apply-a-retention-label-to-a-model.md
-    - name: Аналитика использования модели
+    - name: Аналитика использования моделей
       href: model-usage-analytics.md
     - name: Использование таксономии банка терминов при создании средства извлечения
       href: leverage-term-store-taxonomy.md
-- name: TAP
+- name: Внедрение
   items:
     - name: Приступая к внедрению
       href: adoption-getstarted.md
@@ -38,8 +38,6 @@
   items:
     - name: Настройка осмысления контента
       href: set-up-content-understanding.md
-    - name: Маркировка изображений
-      href: image-tagging.md
 - name: Службы контента
   items:
     - name: Импорт с помощью скос
