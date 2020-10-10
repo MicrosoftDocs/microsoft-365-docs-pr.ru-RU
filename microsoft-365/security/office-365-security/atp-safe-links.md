@@ -14,6 +14,7 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- m365-initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -25,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье администраторы могут узнать о защите от безопасных ссылок в Office 365 Advanced Threat protection (ATP), чтобы защитить свою организацию от фишинга и других атак, использующих вредоносные URL-адреса.
-ms.openlocfilehash: 742ccc82fe5c6fafa4e6c3463cb471b674b77fa9
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c933ce48483f0263650d0af2994023dfcb24fadf
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326725"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414122"
 ---
 # <a name="safe-links-in-office-365-atp"></a>Безопасные ссылки в Office 365 ATP
 
@@ -248,7 +249,7 @@ ms.locfileid: "48326725"
 
 Список URL-адресов настраивается в глобальных параметрах для безопасных ссылок. Инструкции можно найти [в разделе Настройка списка "Блокировка следующих URL-адресов"](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center).
 
-**Примечания.**
+**Примечания**.
 
 - Для получения действительно универсального списка URL-адресов, которые блокируются везде, ознакомьтесь со статьей [Управление URL-адресами в списке разрешенных и](tenant-allow-block-list.md)запрещенных клиентов.
 
@@ -288,7 +289,7 @@ ms.locfileid: "48326725"
 
 Чтобы добавить записи в список новых или существующих политик безопасных ссылок, ознакомьтесь со статьей Создание политик безопасных [ссылок](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) или [изменение политик безопасных ссылок](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies).
 
-**Примечания.**
+**Примечания**.
 
 - Следующие клиенты не распознают не **переписывать следующие списки URL-адресов** в политиках безопасных ссылок. Пользователи, включенные в политики, могут блокировать доступ к URL-адресам на основе результатов проверки безопасных ссылок в следующих клиентах:
 

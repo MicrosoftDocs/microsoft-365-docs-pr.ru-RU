@@ -6,17 +6,20 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-search.appverid: MET150
-localization_priority: Priority
+search.appverid: ''
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
 description: Сведения о расстановке тегов для изображений в SharePoint Syntex
-ms.openlocfilehash: 7b41422633934593de881bdb0c04f0a845a3fe5f
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
-ms.translationtype: HT
+ms.openlocfilehash: c6d7513db2fd6aadabe5d813f3b49073a8f8c933
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321257"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413738"
 ---
 # <a name="image-tagging-in-sharepoint-syntex"></a>Расстановка тегов для изображений в SharePoint Syntex
+
+(ожидается в ближайшее время).
 
 Расстановка тегов для изображений в SharePoint Syntex помогает пользователям находить нужные изображения и создавать процессы на базе тегов. По умолчанию для SharePoint и OneDrive включена базовая расстановка тегов для изображений. Изображения, отправленные в какое-либо расположение, автоматически сканируются и к ним применяются применимые теги (при наличии) из списка 37 основных тегов. Пользователи могут находить изображения с помощью поиска, выполняя поиск по тегам изображения.
 
