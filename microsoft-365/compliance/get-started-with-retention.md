@@ -13,18 +13,18 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - SPO_Content
+- m365solution-mig
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
-- m365solution-mig
-- m365initiative-compliance
 description: Вы готовы начать реализацию политик хранения и меток хранения для управления данными организации, но не знаете, с чего начинать? Перед началом работы ознакомьтесь с некоторыми практическими руководствами.
-ms.openlocfilehash: 8ff6b05a675053009c3d42587e296ab240b2740d
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: ea5ccdbe0267c2b894e6b69cf8b048925af1b409
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338388"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399514"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Начало работы с политиками хранения и метками хранения
 
@@ -81,6 +81,6 @@ ms.locfileid: "48338388"
 
 Метки хранения, в отличие от политик хранения, содержат сведения о присутствии пользовательского интерфейса в приложениях Microsoft 365. Перед развертыванием меток хранения в производственной сети убедитесь в передаче инструкций конечным пользователям и службе технической поддержки.
 
-Наиболее полезной документацией для конечных пользователей будет специализированное руководство и инструкции, предоставленные для имен меток хранения и выбранных вами конфигураций. Для базовых инструкций вы можете использовать следующую информацию.
+Наиболее полезной документацией для конечных пользователей будет специализированное руководство и инструкции, предоставленные для имен меток хранения и выбранных вами конфигураций. См. следующую запись блога для получения пакета скачивания, который можно использовать для обучения пользователей и успешного внедрения: [Как ускорить внедрение: обучение конечных пользователей работе с метками хранения в M365](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
 
-- [Применение меток хранения вручную](create-apply-retention-labels.md#manually-apply-retention-labels)
+Основные инструкции пользователя также приведены в следующем разделе: [Применение меток хранения вручную](create-apply-retention-labels.md#manually-apply-retention-labels).

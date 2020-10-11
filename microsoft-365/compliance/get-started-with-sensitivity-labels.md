@@ -13,18 +13,18 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - SPO_Content
+- m365solution-mip
+- m365initiative-compliance
 search.appverid:
 - MOE150
 - MET150
-- m365solution-mip
-- m365initiative-compliance
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 80149170fad47366178e9b899bbd5355c1d9e7db
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 12da7f3dd5e6d0d4650d19a8cd5f6f41b51f2558
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338410"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398846"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -96,7 +96,9 @@ ms.locfileid: "48338410"
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Документация по меткам конфиденциальности для пользователей
 
-Наиболее полезной документацией для пользователей будет настроенное руководство и инструкции, предоставленные в отношении имен меток и выбранных вами конфигураций. Для получения основных инструкций также см. приведенные ниже ресурсы.
+Наиболее полезной документацией для пользователей будет настроенное руководство и инструкции, предоставленные в отношении имен меток и выбранных вами конфигураций. См. следующую запись блога для получения пакета скачивания, который можно использовать для обучения пользователей и успешного внедрения: [Как ускорить внедрение: обучение конечных пользователей работе с метками конфиденциальности в M365](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-sensitivity-labels-in-m365-how-to/ba-p/1750880). 
+
+Для получения основных инструкций также см. приведенные ниже ресурсы.
 
 - [Применение меток конфиденциальности к файлам и сообщениям электронной почты в Office](https://support.microsoft.com/ru-RU/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
     - [Известные проблемы при использовании меток конфиденциальности в Office](https://support.microsoft.com/ru-RU/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
