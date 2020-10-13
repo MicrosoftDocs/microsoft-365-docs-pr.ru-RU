@@ -15,17 +15,17 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 description: Сведения о действиях по исправлению, которые следует учитывать при автоматическом расследовании в защитнике Майкрософт для Office 365.
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: a868b5e55bcc46c7134494172d05fb4a34075a0c
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ffd0429d3dc85371e7b6bb1c2d1246d9820d0e2e
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411942"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446711"
 ---
 # <a name="remediation-actions-following-automated-investigation-in-microsoft-defender-for-office-365"></a>Действия по исправлению, выполняемые после автоматического исследования в защитнике Майкрософт для Office 365
 
@@ -67,7 +67,7 @@ ms.locfileid: "48411942"
 |User|Аномальная отправка электронной почты <br/>(Пользователь недавно отправил сообщение электронной почты, а не в течение предыдущих 7-10 дней.)|Автоматическое исследование не приводит к выполнению определенного ожидающего действия. <br/><br/>Отправка большого числа сообщений не является вредоносной. пользователю может быть отправлено сообщение электронной почты большой группе получателей для события. Чтобы определить, что происходит и что нужно действие, используйте [аналитику почтовых ящиков](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-insights-v2), включая [отчет карты обработки почты](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-mail-flow-map-report) .|
 |
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 - [Просмотр сведений и результатов автоматического исследования в защитнике Майкрософт для Office 365](air-view-investigation-results.md)
 

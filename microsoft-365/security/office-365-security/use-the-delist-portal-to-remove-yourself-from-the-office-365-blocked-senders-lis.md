@@ -15,16 +15,16 @@ search.appverid:
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье рассказывается, как использовать портал удаления списков для удаления себя из списка заблокированных отправителей Microsoft 365.
-ms.openlocfilehash: 56972c758d64493782fd105db52b0c6663baf9ae
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 637b610d0dd621e6d922d23354aead8e3824ad6a
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412446"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445535"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Удаление себя из списка заблокированных отправителей с помощью портала удаления из списка
 

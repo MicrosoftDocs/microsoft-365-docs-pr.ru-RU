@@ -2,9 +2,9 @@
 title: Преобразование почтового ящика пользователя в общий почтовый ящик
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: mnirkhe
+ms.author: sharik
+author: SKjerland
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Сведения о преобразовании личного почтового ящика в общий почтовый ящик, к которому можно получить доступ несколько пользователей. '
-ms.openlocfilehash: 027236afb5a77e950083f254a154c491d6abc6ac
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: bc867c9b43656e40149eb7cd7a7e5ce186c10798
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341196"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445691"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Преобразование почтового ящика пользователя в общий почтовый ящик
 
@@ -57,7 +57,7 @@ ms.locfileid: "48341196"
 Все, что вам нужно знать о общих почтовых ящиках, можно узнать в статье [Общие](about-shared-mailboxes.md) почтовые ящики и [создать общий почтовый ящик](create-a-shared-mailbox.md).
 
 > [!NOTE]
-> Для общих почтовых ящиков не нужна отдельная лицензия. Тем не менее, если вы хотите включить архивацию на месте или разместить на месте общий почтовый ящик, необходимо назначить почтовому ящику Exchange Online Plan 1 с помощью архивации на базе Exchange Online или Exchange Online (план 2).
+> Для общих почтовых ящиков не нужна отдельная лицензия. Тем не менее, если вы хотите включить In-Placeный Архив или помещать In-Place удержание или удержание для судебного разбирательства в общий почтовый ящик, необходимо назначить почтовому ящику Exchange Online Plan 1 с помощью архивации на базе Exchange Online или Exchange Online (план 2).
 
 
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>Преобразование почтового ящика удаленного пользователя

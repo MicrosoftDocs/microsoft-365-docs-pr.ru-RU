@@ -2,9 +2,9 @@
 title: Сведения об общих почтовых ящиках
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: mnirkhe
+ms.author: sharik
+author: SKjerland
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Общие почтовые ящики используются, когда нескольким людям необходим доступ к одному и тому же почтовому ящику. Сведения о том, что необходимо знать перед созданием общего почтового ящика.
-ms.openlocfilehash: f6feae1662093ffea2537a62c5e8fdf28c622166
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: d0e0888a71e2a017b3934caa67f8d53ffb787fe7
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269353"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445703"
 ---
 # <a name="about-shared-mailboxes"></a>Сведения об общих почтовых ящиках
 

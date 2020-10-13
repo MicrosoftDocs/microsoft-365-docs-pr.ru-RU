@@ -13,15 +13,15 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365initiative-coredeploy
+- m365initiative-coredeploy
 ms.custom: ''
 description: Необходимо, чтобы пользователи безопасно входили в систему с помощью многофакторной проверки подлинности (MFA) и других функций.
-ms.openlocfilehash: 64b873a243d0ce86ee3700d5150076f88031a483
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: a3a63dfc06f5470c2151cd2ff140ad5dee19b0ce
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399139"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446081"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Защита пользовательских входов в ваш клиент Microsoft 365
 

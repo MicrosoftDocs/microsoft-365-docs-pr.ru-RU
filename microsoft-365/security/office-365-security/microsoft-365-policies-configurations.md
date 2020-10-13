@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 502ceb47a110dd7cd743281d518e542451413672
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: e07c1455cc2799481bc31871d2c3ee07b10492b9
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399750"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446187"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
@@ -118,7 +118,9 @@ Azure AD предоставляет полный набор возможност
 | [Защита паролем в Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | Обнаруживать и блокировать известные слабые пароли и их варианты, а также дополнительные ненадежные термины, характерные для вашей организации. Общие списки заблокированных паролей по умолчанию автоматически применяются ко всем пользователям в клиенте Azure AD. Дополнительные элементы можно определить в настраиваемом списке заблокированных паролей. При изменении или сбросе паролей пользователями эти списки заблокированных паролей проверяются с целью обеспечения использования надежных паролей. |  Microsoft 365 E3 или E5 |
 ||||
 
-![Компоненты идентификации и доступа к устройству.](../../media/microsoft-365-policies-configurations/identity-device-access-components.png)
+Ниже приведены компоненты идентификации и доступа к устройствам, в том числе объекты Intune и Azure AD, параметры и подслужбы.
+
+![Компоненты идентификации и доступа к устройствам](../../media/microsoft-365-policies-configurations/identity-device-access-components.png)
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 

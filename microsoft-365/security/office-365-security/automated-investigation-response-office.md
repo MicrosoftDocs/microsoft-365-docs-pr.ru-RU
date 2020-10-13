@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 keywords: автоматизированное реагирование на инциденты, исследование, исправление, защита от угроз
 ms.date: 09/29/2020
 description: Общие сведения об автоматическом расследовании и возможностях реагирования в защитнике Майкрософт для Office 365
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 850291966c2f2da51782d8e70de23ff4f06d6136
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: d63ba8a6d3ffb653b30448a973e1cd862631d350
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413966"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48447111"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Обзор автоматического исследования и ответа (AIR) в защитнике Майкрософт для Office 365
 
@@ -145,7 +145,7 @@ ms.locfileid: "48413966"
 
 Например, в некоторых случаях организация, в которой настроена система безопасности, позволяет просматривать оповещения о phishing-атаках, которые уже были обработаны ВОЗДУХом. Их решение интегрирует соответствующие оповещения с сервером SIEM Организации и системой управления делами. Решение значительно сокращает количество ложных срабатываний, чтобы команда по обеспечению безопасности могла сосредоточиться на реальных угрозах и усилиях. Чтобы узнать больше об этом пользовательском решении, обратитесь [к блогу технического сообщества: улучшите эффективность SoC с помощью Office 365 ATP и API управления O365](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 - [Начало работы с AIR](office-365-air.md)
 

@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 description: Сведения для администраторов о полях заголовков, которые добавляются в сообщения в Exchange Online Protection (EOP). В этих полях заголовков содержатся сведения о сообщении и его обработке.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a0d2dae09db7b29c28196e2748392311096cd2b1
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: cc174b572f1ba45455cac84ff34bbc962650c988
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411738"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445799"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Заголовки сообщений о защите от нежелательной почты в Microsoft 365
 

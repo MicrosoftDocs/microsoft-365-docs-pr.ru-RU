@@ -9,16 +9,16 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Настройка понимания содержимого в Project Cortex
-ms.openlocfilehash: 8217630d66a097fcc714be80bd4d3dcceb623370
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 410dd9550974ec7b5c1c5b4ae151bc92bf376544
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413714"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446327"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
-Администраторы могут использовать Центр администрирования Microsoft 365 для настройки [Microsoft SharePoint Syntex](document-understanding-overview.md). 
+Администраторы могут использовать Центр администрирования Microsoft 365 для настройки [Microsoft SharePoint Syntex](index.md). 
 
 Прежде чем начать, примите во внимание следующие моменты:
 
@@ -26,8 +26,6 @@ ms.locfileid: "48413714"
 - Как вы назовете свой центр содержимого по умолчанию?
 
 Вы можете изменить параметры после начальной настройки в Центре администрирования Microsoft 365.
-
-Содержание этой статьи предназначено для закрытой предварительной версии Project Cortex. [Узнайте больше о работе с Project Cortex](https://aka.ms/projectcortex).
 
 Перед установкой убедитесь, что вы спланировали наилучший способ настройки понимания содержимого в вашей среде. Например, вам необходимо принять во внимание следующие названия:
 
