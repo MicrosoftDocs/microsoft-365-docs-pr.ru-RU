@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 8ee871ccde30d3ab71dbcb2d5183aafdf11482bd
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: adc1006628b8b4f13d30f2001fee0871b51b18ca
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235575"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430436"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -146,7 +146,7 @@ ms.locfileid: "48235575"
 
 ### <a name="format"></a>Format
 
-шесть – ТВН цифрами с номером филиала банка или без него
+от шести до десяти цифр со номером филиала банка или без него
 
 ### <a name="pattern"></a>Шаблон
 
@@ -808,9 +808,9 @@ national id
 
 - реисепасснуммер
 - реисепассе
-- Нет — Реисепасс 
-- НР — Реисепасс
-- Реисепасс — НР
+- No-Reisepass 
+- Nr-Reisepass
+- Reisepass-Nr
 - пасснуммер
 - реисепäссе
 
@@ -1621,8 +1621,7 @@ national id
 - зарегистрировал
 - регистратионснумме
 - регистриерунг
-- social security number
-
+- номер социального страхования
 - SSN #
 - SSN
 - стеуернуммер
@@ -1702,7 +1701,7 @@ national id
 - паспуртнуммерс
 - Корзина пассепорт
 - Пассепорт ливре
-- Pass — НР
+- Pass-Nr
 - пасснуммер
 - реисепасс Кеин
 
@@ -2162,8 +2161,7 @@ national id
 - личный номер
 - персональный номер
 - персоналиднумбер #
-- social security number
-
+- номер социального страхования
 - SSN #
 - SSN
 - унифицированный гражданский идентификатор
@@ -2858,7 +2856,7 @@ national id
 
 - National Identification Number 
 - Identity card 
-- Идентификатор 
+- ID 
 - Процедура 
 - Rol Único Nacional 
 - ВЫПОЛНЯЕМ 
@@ -3096,7 +3094,7 @@ master cards
 
 - carte blanche
 - картебланче
-- credit card
+- Кредитная карта
 - Центральной #
 - CC #:
 - Дата истечения срока действия
@@ -4037,8 +4035,7 @@ número do cartão
 - роднé číсло
 - SSN
 - SSN #
-- social security number
-
+- номер социального страхования
 - tax id
 
 - Налоговый идентификатор
@@ -4305,8 +4302,7 @@ número do cartão
 - Скат коде
 - Скат нуммер
 - скаттенуммер
-- social security number
-
+- номер социального страхования
 - сундхедсфорсикрингскорт
 - сундхедсфорсикрингснуммер
 - сундхедскорт
@@ -5321,8 +5317,7 @@ número do cartão
 - персоналиднумбер #
 - персонбетеккнинг
 - персоннуммер
-- social security number
-
+- номер социального страхования
 - сосиаалитурватуннус
 - tax id
 
@@ -6026,21 +6021,21 @@ número do cartão
 
 #### <a name="keyword_german_drivers_license_collaborative"></a>Keyword_german_drivers_license_collaborative
 
-- НР — Фüхрерсчеин 
-- НР — Фухрерсчеин 
-- НР — Фуехрерсчеин 
-- Нет — Фüхрерсчеин 
-- Нет — Фухрерсчеин 
-- Нет — Фуехрерсчеин 
+- Nr-Führerschein 
+- Nr-Fuhrerschein 
+- Nr-Fuehrerschein 
+- No-Führerschein 
+- No-Fuhrerschein 
+- No-Fuehrerschein 
 - N — Фüхрерсчеин 
 - N — Фухрерсчеин 
 - N — Фуехрерсчеин
-- НР — Фüхрерсчеин 
-- НР — Фухрерсчеин 
-- НР — Фуехрерсчеин 
-- Нет — Фüхрерсчеин 
-- Нет — Фухрерсчеин 
-- Нет — Фуехрерсчеин 
+- Nr-Führerschein 
+- Nr-Fuhrerschein 
+- Nr-Fuehrerschein 
+- No-Führerschein 
+- No-Fuhrerschein 
+- No-Fuehrerschein 
 - N — Фüхрерсчеин 
 - N — Фухрерсчеин 
 - N — Фуехрерсчеин 
@@ -6161,9 +6156,9 @@ número do cartão
 
 - реисепассе
 - реисепасснуммер
-- Нет — Реисепасс 
-- НР — Реисепасс
-- Реисепасс — НР
+- No-Reisepass 
+- Nr-Reisepass
+- Reisepass-Nr
 - пасснуммер
 - реисепäссе
 - пассепорт но.
@@ -8550,8 +8545,7 @@ national id
 registration number
 - номер дохода
 - страховой номер
-- social security number
-
+- номер социального страхования
 - Налоговый код штата
 - номер налогового файла
 - tax id
@@ -11276,8 +11270,7 @@ national id
 - рč
 - родне Цисло
 - роднé číсло
-- social security number
-
+- номер социального страхования
 - SSN #
 - SSN
 - сземéли игазолвáни сзáм
@@ -11663,7 +11656,7 @@ national id
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identity card
-- Идентификатор
+- ID
 - Процедура 
    
 ## <a name="south-korea-resident-registration-number"></a>Регистрационный номер резидентной Южной Кореи
@@ -12631,8 +12624,7 @@ national id
 - pid
 - страховой номер
 - персоналидно #
-- social security number
-
+- номер социального страхования
 - личный идентификационный номер
 - персональный идентификационный номер
 - инсуранцено #
@@ -13133,8 +13125,7 @@ OR
 
 - protection act
 - страхования
-- social security number
-
+- номер социального страхования
 - insurance application
 
 - medical application
@@ -13333,7 +13324,7 @@ OR
 - БИБЛИОТЕК 
 - кдл 
 - кдлс 
-- Идентификатор 
+- ID 
 - Идентификаторы 
 - DL # 
 - БИБЛИОТЕК # 
