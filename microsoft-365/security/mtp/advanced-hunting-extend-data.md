@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 39beff1ea5e983af53cdb954783c11f13569a022
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 223ef56d7d0d61cd4ae8d90bce974d4086227286
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413954"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430389"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Расширение расширенного контроля за пресроком действия с помощью правильных параметров
 
@@ -52,6 +52,6 @@ ms.locfileid: "48413954"
 | --- | --- | --- | --- |
 | Контроллер домена. | Данные из локальной службы Active Directory, отправленные в Azure ATP, дополнительные сведения об удостоверении, такие как сведения об учетных записях, действиях входа и запросах Active Directory | Несколько таблиц, включая [идентитинфо](advanced-hunting-identityinfo-table.md), [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md)и [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)  | - [Установка датчика Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)<br>- [Включение соответствующих событий Windows](https://docs.microsoft.com/azure-advanced-threat-protection/configure-event-collection) |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

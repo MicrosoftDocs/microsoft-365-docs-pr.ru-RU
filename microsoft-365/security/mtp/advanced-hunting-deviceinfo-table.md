@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 1fa093798b4e7704d5c6c5368dce7cb4081df48b
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 966f329d1d3ce374cc3eed9eccb6c337071f4ee1
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413238"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430083"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -57,7 +57,7 @@ ms.locfileid: "48413238"
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
 | `MachineGroup` | string | Группа компьютеров компьютера. Эта группа используется в управлении доступом на основе ролей для определения доступа к компьютеру. |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

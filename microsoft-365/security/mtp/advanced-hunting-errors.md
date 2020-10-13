@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 939f235a5168766e1ab6982eb9fb554a749ad041
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 27eb3558e00e1fc8f747ee7e88dbb986256ea8ed
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413822"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48429627"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Обработка дополнительных ошибок при поиске
 
@@ -43,7 +43,7 @@ ms.locfileid: "48413822"
 | Чрезмерное потребление ресурсов | Запрос потребляет чрезмерные объемы ресурсов и был остановлен от завершения. В некоторых случаях Расширенный поиск идентифицирует определенный оператор, который не был оптимизирован. | [Оптимизация запроса](advanced-hunting-best-practices.md) | -`Query stopped due to excessive resource consumption.`<br>-`Query stopped. Adjust use of the <operator name> operator to avoid excessive resource consumption.` |
 | Неизвестные ошибки | Не удалось выполнить запрос по неизвестной причине. | Попробуйте выполнить запрос еще раз. Обращение в корпорацию Майкрософт через портал, если запросы продолжают возвращать неизвестные ошибки. | `An unexpected error occurred during query execution. Please try again in a few minutes.`
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Расширенные рекомендации по поиску](advanced-hunting-best-practices.md)
 - [Ограничения службы](advanced-hunting-limits.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

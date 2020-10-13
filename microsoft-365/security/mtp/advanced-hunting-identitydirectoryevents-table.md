@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 9113d12face141b5e8005340af25061c98d5dfe3
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: d93ef3eb3bbf6def0f633aa0f69032e37d10c4c9
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412854"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430386"
 ---
 # <a name="identitydirectoryevents"></a>IdentityDirectoryEvents
 
@@ -67,7 +67,7 @@ ms.locfileid: "48412854"
 | `ReportId` | long | Уникальный идентификатор для события |
 | `AdditionalFields` | string | Дополнительные сведения о сущности или событии |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

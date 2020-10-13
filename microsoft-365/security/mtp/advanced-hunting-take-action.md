@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 3d2df325198c420cb2444a74b6c3507657355012
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 7250feffa69cc1a6cc37908a599dff0fab6c5e6c
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412098"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48429663"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Выполнение действий с расширенными результатами запроса поиска
 
@@ -78,7 +78,7 @@ ms.locfileid: "48412098"
 ## <a name="review-actions-taken"></a>Просмотр выполненных действий
 Каждое действие записывается отдельно в [центре действий](mtp-action-center.md) в **журнале центра уведомлений**  >  **History** ([Security.Microsoft.com/Action-Center/History](https://security.microsoft.com/action-center/history)). Перейдите в центр уведомлений, чтобы проверить состояние каждого действия.
  
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

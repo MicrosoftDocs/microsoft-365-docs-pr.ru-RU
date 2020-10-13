@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f06cb4190f8932f3a472356ba45adcc3bc35423c
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 4e63badee2ca031bdd3ea7682396353d1658981b
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413322"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430413"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Обучение по расширенному поиску в экспертной системе
 
@@ -80,7 +80,7 @@ AppFileEvents
 | sort by Timestamp desc
 ```
      
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Познакомьтесь с языком запросов расширенной охоты](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

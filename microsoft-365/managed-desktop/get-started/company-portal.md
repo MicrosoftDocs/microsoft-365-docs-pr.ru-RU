@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 371656168f32db86ff32f187736d59dbd5dbe749
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: d457c4b96e47485eee041b72a1cf24e96a13bf18
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529699"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430191"
 ---
-# <a name="install-intune-company-portal-on-on-devices"></a>Установка корпоративного портала Intune на устройствах
+# <a name="install-intune-company-portal-on-devices"></a>Установка корпоративного портала Intune на устройствах
 
 Для рабочего стола, управляемого корпорацией Майкрософт, администратору необходимо установить корпоративный портал Intune для пользователей с управляемыми устройствами для настольных компьютеров Майкрософт. Вот некоторые преимущества вашей организации:
 - Пользователи могут использовать одно место для просмотра и установки доступных приложений. 

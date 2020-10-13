@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 2d1b8e871a4139a4e025313fe1bda724e87c9b6d
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 21b8832010cab30f1834c4c6a94b4542c3b2b6a7
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412218"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430095"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -84,7 +84,7 @@ ms.locfileid: "48412218"
 | `SensitivitySubLabel` | string | Подметка, примененная к электронной почте, файлу или другому контенту, чтобы классифицировать ее для защиты информации; Подметки чувствительности группируются в соответствии с метками конфиденциальности, но обрабатываются независимо |
 | `IsAzureInfoProtectionApplied` | boolean | Указывает, шифруется ли файл службой Azure Information Protection |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

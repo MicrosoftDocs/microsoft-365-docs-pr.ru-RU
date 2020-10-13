@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 522f4900bb9d2746c16eaf2172d756e2517e75c3
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: f18a98b19b6a1920d1e4d2094ba0bab74f10035e
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412254"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430143"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -263,7 +263,7 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 
 Чтобы узнать обо всех поддерживаемых функциях синтаксического анализа, [прочитайте о функциях строк Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions). 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Документация по языку запросов Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
 - [Ограничения службы](advanced-hunting-limits.md)
 - [Обработка дополнительных ошибок при поиске](advanced-hunting-errors.md)

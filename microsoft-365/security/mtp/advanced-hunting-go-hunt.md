@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e381793caf49318074bcd096e4301cdf49d12e88
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 4abbedc34b6d77e785c2096d9f334000f9ffb02f
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412194"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430471"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Быстрый поиск сведений об объекте или событии с помощью службы поиска Go
 
@@ -72,7 +72,7 @@ and DeviceName == deviceName
 ### <a name="supported-entity-types"></a>Поддерживаемые типы объектов
 С помощью команды *"слежение"* можно использовать следующие типы сущностей:
 
-- Files
+- Файлы
 - Сообщения электронной почты
 - Кластеры электронной почты
 - Почтовые ящики
@@ -106,7 +106,7 @@ Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 - [Просмотр результатов в виде диаграмм](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
 - [Создание настраиваемого правила обнаружения](custom-detection-rules.md)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

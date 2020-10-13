@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 description: Ознакомьтесь с представлениями кампаний в Office 365 Advanced Threat Protection.
-ms.openlocfilehash: 333e9c03cea9f16393169396ca016b09fd6a359d
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 00af3f241bc1d9fd2cae9ebae0cdec7817679ed2
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413978"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430577"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Представления кампаний в Office 365 ATP
 
@@ -88,7 +88,7 @@ ms.locfileid: "48413978"
 
 - **Тип**: это значение является **фишингом** или **вредоносной программой**.
 
-- **Подтип**: это значение содержит дополнительные сведения о кампании. Например,
+- **Подтип**: это значение содержит дополнительные сведения о кампании. Примеры:
 
   - **Фишинг**: если он доступен, фирменная символика будет поддельной для этой кампании. Например,,,, `Microsoft` `365` `Unknown` `Outlook` , или `DocuSign` .
 

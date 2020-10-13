@@ -16,17 +16,17 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в защитнике Майкрософт для Office 365.
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: c2ce99a2a7033c7cdcf435e237b46438259f37e4
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 340fc4851043ff917eaff6f237c3ad7d5810a4cb
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412962"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430923"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Начало работы с автоматизированным исследованием и откликом (AIR) в Office 365
 
@@ -107,7 +107,7 @@ Microsoft 365 предоставляет множество встроенных
 Лицензии [Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) должны быть назначены следующим продуктам:
 - Администраторы безопасности (в том числе глобальные администраторы)
 - Группа управления операциями безопасности Организации (включая средства чтения и очистки с ролью поиска и очистки).
-- Пользователи
+- Конечные пользователи
 
 Кроме того, необходимо определить и применить [политики Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) , чтобы обеспечить защиту.
 

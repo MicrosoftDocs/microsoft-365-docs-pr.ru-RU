@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365-initiative-m365-defender
+- m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 05812ec1c747c019bdba1c7ecffc2b33bd5f793a
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 36edb4c1da63949b1ec8b914f831c1c5d36b7c7c
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413882"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48429923"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -58,7 +58,7 @@ ms.locfileid: "48413882"
 | `DefaultGateways` | string | Адреса шлюза по умолчанию в формате массива JSON |
 | `IPAddresses` | string | Массив JSON, содержащий все IP-адреса, назначенные адаптеру вместе с соответствующими префиксом и пространством IP-адресов, например общедоступной, частной или локальной локальной связью. |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
