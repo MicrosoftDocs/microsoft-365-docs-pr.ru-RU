@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте защиту от потери данных Microsoft 365 Endpoint для отслеживания действий с файлами и внедрения защитных действий для конечных точек этих файлов.
-ms.openlocfilehash: e0b9ba6afcad0c683aaa7386998a621f279aa9eb
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: c579d0bbfdc72e56d99558ffa7e6812d00098c0d
+ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379241"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48430684"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Начало работы с функцией защиты от потери данных в конечной точке (предварительная версия)
 
@@ -81,7 +81,7 @@ ms.locfileid: "48379241"
 
 Убедитесь, что устройства с Windows 10, на которых вы планируете развертывание защиты от потери данных в конечных точках, соответствуют следующим требованиям.
 
-1. Устройство работает под управлением Windows 10 сборки 1809 или более поздней версии.
+1. Устройство работает под управлением Windows 10 (64-разрядная) сборки 1809 или более поздней версии.
 2. Все устройства должны быть подключены к [Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join) или иметь гибридное присоединение к Azure AD.
 3. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики к отправке в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 

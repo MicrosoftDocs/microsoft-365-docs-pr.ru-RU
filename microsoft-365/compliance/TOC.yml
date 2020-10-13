@@ -250,6 +250,8 @@
           href: how-dlp-works-between-admin-centers.md
         - name: Использование меток конфиденциальности в качестве условия в политиках защиты от потери данных (предварительная версия)
           href: dlp-sensitivity-label-as-condition.md
+        - name: Использование политик защиты от потери данных для облачных приложений сторонних поставщиков (не Майкрософт)
+          href: dlp-use-policies-non-microsoft-cloud-apps.md
 - name: Организация управления информацией
   items:
     - name: Управление данными
