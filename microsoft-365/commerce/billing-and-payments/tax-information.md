@@ -20,168 +20,154 @@ description: 'Узнайте, какой объем налога будет вз
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: de5f05b50138606cd60e8c6ab1999a7ed2090dce
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: d3d1bc1239cb99da33f776e603356ccae95a2353
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434065"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464100"
 ---
-# <a name="tax-information"></a><span data-ttu-id="7ac26-103">Сведения о налогах</span><span class="sxs-lookup"><span data-stu-id="7ac26-103">Tax information</span></span>
+# <a name="tax-information"></a><span data-ttu-id="50e89-103">Сведения о налогах</span><span class="sxs-lookup"><span data-stu-id="50e89-103">Tax information</span></span>
 
-<span data-ttu-id="7ac26-104">Налоги за покупки в Центре администрирования Microsoft 365, которые вы совершаете через Microsoft, определяются вашим служебным адресом или, если он отличается, вашим адресом доставки.</span><span class="sxs-lookup"><span data-stu-id="7ac26-104">Taxes for Microsoft 365 admin center purchases that you make through Microsoft are determined by your business address, or, if it's different, by your shipping address.</span></span> <span data-ttu-id="7ac26-105">В США необходимо указать идентификационный номер (ФЕИН) для федерального нанимателя.</span><span class="sxs-lookup"><span data-stu-id="7ac26-105">If you are in the United States, you must provide a Federal Employer Identification Number (FEIN).</span></span>
+<span data-ttu-id="50e89-104">Когда вы покупаете продукты и службы Microsoft 365, выплачиваемые налоги определяются одним из следующих способов: Ваш рабочий адрес или адрес доставки, если он отличается.</span><span class="sxs-lookup"><span data-stu-id="50e89-104">When you buy Microsoft 365 products and services, the taxes that you pay are determined by one of two things: your business address, or your shipping address, if it's different.</span></span> <span data-ttu-id="50e89-105">Если ваша организация находится в США, необходимо указать идентификационный номер нанимателя (ФЕИН).</span><span class="sxs-lookup"><span data-stu-id="50e89-105">If your organization is in the United States, you must provide a Federal Employer Identification Number (FEIN).</span></span>
 
-<span data-ttu-id="7ac26-106">Компании в этих странах могут предоставлять свои номера НДС:</span><span class="sxs-lookup"><span data-stu-id="7ac26-106">Businesses in these countries can provide their VAT number:</span></span>
+<span data-ttu-id="50e89-106">Компании в следующих странах могут предоставлять свой номер НДС или местный эквивалент:</span><span class="sxs-lookup"><span data-stu-id="50e89-106">Businesses in the following countries can provide their VAT number or local equivalent:</span></span>
 
 :::row:::
     :::column:::
-- <span data-ttu-id="7ac26-107">Австрия</span><span class="sxs-lookup"><span data-stu-id="7ac26-107">Austria</span></span>
-- <span data-ttu-id="7ac26-108">Бельгия</span><span class="sxs-lookup"><span data-stu-id="7ac26-108">Belgium</span></span>
-- <span data-ttu-id="7ac26-109">Болгария</span><span class="sxs-lookup"><span data-stu-id="7ac26-109">Bulgaria</span></span>
-- <span data-ttu-id="7ac26-110">Хорватия</span><span class="sxs-lookup"><span data-stu-id="7ac26-110">Croatia</span></span>
-- <span data-ttu-id="7ac26-111">Кипр</span><span class="sxs-lookup"><span data-stu-id="7ac26-111">Cyprus</span></span>
-- <span data-ttu-id="7ac26-112">Чешская Республика</span><span class="sxs-lookup"><span data-stu-id="7ac26-112">Czech Republic</span></span>
-- <span data-ttu-id="7ac26-113">Дания</span><span class="sxs-lookup"><span data-stu-id="7ac26-113">Denmark</span></span>
-- <span data-ttu-id="7ac26-114">Эстония</span><span class="sxs-lookup"><span data-stu-id="7ac26-114">Estonia</span></span>
-- <span data-ttu-id="7ac26-115">Финляндия</span><span class="sxs-lookup"><span data-stu-id="7ac26-115">Finland</span></span>
-- <span data-ttu-id="7ac26-116">Франция</span><span class="sxs-lookup"><span data-stu-id="7ac26-116">France</span></span>
-- <span data-ttu-id="7ac26-117">Германия</span><span class="sxs-lookup"><span data-stu-id="7ac26-117">Germany</span></span>
-- <span data-ttu-id="7ac26-118">Греция</span><span class="sxs-lookup"><span data-stu-id="7ac26-118">Greece</span></span>
-- <span data-ttu-id="7ac26-119">Венгрия</span><span class="sxs-lookup"><span data-stu-id="7ac26-119">Hungary</span></span>
-- <span data-ttu-id="7ac26-120">Ирландия</span><span class="sxs-lookup"><span data-stu-id="7ac26-120">Ireland</span></span>
-- <span data-ttu-id="7ac26-121">Италия</span><span class="sxs-lookup"><span data-stu-id="7ac26-121">Italy</span></span>
-- <span data-ttu-id="7ac26-122">Латвия</span><span class="sxs-lookup"><span data-stu-id="7ac26-122">Latvia</span></span>
+- <span data-ttu-id="50e89-107">Армения</span><span class="sxs-lookup"><span data-stu-id="50e89-107">Armenia</span></span>
+- <span data-ttu-id="50e89-108">Австралия</span><span class="sxs-lookup"><span data-stu-id="50e89-108">Australia</span></span>
+- <span data-ttu-id="50e89-109">Австрия</span><span class="sxs-lookup"><span data-stu-id="50e89-109">Austria</span></span>
+- <span data-ttu-id="50e89-110">Багамы</span><span class="sxs-lookup"><span data-stu-id="50e89-110">Bahamas</span></span>
+- <span data-ttu-id="50e89-111">Бангладеш</span><span class="sxs-lookup"><span data-stu-id="50e89-111">Bangladesh</span></span>
+- <span data-ttu-id="50e89-112">Беларусь</span><span class="sxs-lookup"><span data-stu-id="50e89-112">Belarus</span></span>
+- <span data-ttu-id="50e89-113">Бельгия</span><span class="sxs-lookup"><span data-stu-id="50e89-113">Belgium</span></span>
+- <span data-ttu-id="50e89-114">Реал</span><span class="sxs-lookup"><span data-stu-id="50e89-114">Brazil\*</span></span>
+- <span data-ttu-id="50e89-115">Болгария</span><span class="sxs-lookup"><span data-stu-id="50e89-115">Bulgaria</span></span>
+- <span data-ttu-id="50e89-116">Чили</span><span class="sxs-lookup"><span data-stu-id="50e89-116">Chile</span></span>
+- <span data-ttu-id="50e89-117">Колумбия</span><span class="sxs-lookup"><span data-stu-id="50e89-117">Colombia</span></span>
+- <span data-ttu-id="50e89-118">Хорватия</span><span class="sxs-lookup"><span data-stu-id="50e89-118">Croatia</span></span>
+- <span data-ttu-id="50e89-119">Кипр</span><span class="sxs-lookup"><span data-stu-id="50e89-119">Cyprus</span></span>
+- <span data-ttu-id="50e89-120">Чешская Республика</span><span class="sxs-lookup"><span data-stu-id="50e89-120">Czech Republic</span></span>
+- <span data-ttu-id="50e89-121">Дания</span><span class="sxs-lookup"><span data-stu-id="50e89-121">Denmark</span></span>
+- <span data-ttu-id="50e89-122">Эстония</span><span class="sxs-lookup"><span data-stu-id="50e89-122">Estonia</span></span>
+- <span data-ttu-id="50e89-123">Финляндия</span><span class="sxs-lookup"><span data-stu-id="50e89-123">Finland</span></span>
+- <span data-ttu-id="50e89-124">Франция</span><span class="sxs-lookup"><span data-stu-id="50e89-124">France</span></span>
+- <span data-ttu-id="50e89-125">Германия</span><span class="sxs-lookup"><span data-stu-id="50e89-125">Germany</span></span>
+- <span data-ttu-id="50e89-126">Греция</span><span class="sxs-lookup"><span data-stu-id="50e89-126">Greece</span></span>
+- <span data-ttu-id="50e89-127">Венгрия</span><span class="sxs-lookup"><span data-stu-id="50e89-127">Hungary</span></span>
+- <span data-ttu-id="50e89-128">Индия</span><span class="sxs-lookup"><span data-stu-id="50e89-128">India\*</span></span>
+- <span data-ttu-id="50e89-129">Индонезия</span><span class="sxs-lookup"><span data-stu-id="50e89-129">Indonesia</span></span>
+- <span data-ttu-id="50e89-130">Ирландия</span><span class="sxs-lookup"><span data-stu-id="50e89-130">Ireland</span></span>
+- <span data-ttu-id="50e89-131">О-в Мэн</span><span class="sxs-lookup"><span data-stu-id="50e89-131">Isle of Man</span></span>
+- <span data-ttu-id="50e89-132">Италия</span><span class="sxs-lookup"><span data-stu-id="50e89-132">Italy</span></span>
     :::column-end:::
     :::column:::
-- <span data-ttu-id="7ac26-123">Лихтенштейн</span><span class="sxs-lookup"><span data-stu-id="7ac26-123">Liechtenstein</span></span>
-- <span data-ttu-id="7ac26-124">Литва</span><span class="sxs-lookup"><span data-stu-id="7ac26-124">Lithuania</span></span>
-- <span data-ttu-id="7ac26-125">Люксембург</span><span class="sxs-lookup"><span data-stu-id="7ac26-125">Luxembourg</span></span>
-- <span data-ttu-id="7ac26-126">Мальта</span><span class="sxs-lookup"><span data-stu-id="7ac26-126">Malta</span></span>
-- <span data-ttu-id="7ac26-127">Монако</span><span class="sxs-lookup"><span data-stu-id="7ac26-127">Monaco</span></span>
-- <span data-ttu-id="7ac26-128">Нидерланды</span><span class="sxs-lookup"><span data-stu-id="7ac26-128">Netherlands</span></span>
-- <span data-ttu-id="7ac26-129">Норвегия</span><span class="sxs-lookup"><span data-stu-id="7ac26-129">Norway</span></span>
-- <span data-ttu-id="7ac26-130">Польша</span><span class="sxs-lookup"><span data-stu-id="7ac26-130">Poland</span></span>
-- <span data-ttu-id="7ac26-131">Португалия</span><span class="sxs-lookup"><span data-stu-id="7ac26-131">Portugal</span></span>
-- <span data-ttu-id="7ac26-132">Румыния</span><span class="sxs-lookup"><span data-stu-id="7ac26-132">Romania</span></span>
-- <span data-ttu-id="7ac26-133">Словакия</span><span class="sxs-lookup"><span data-stu-id="7ac26-133">Slovakia</span></span>
-- <span data-ttu-id="7ac26-134">Южная Африка</span><span class="sxs-lookup"><span data-stu-id="7ac26-134">South Africa</span></span>
-- <span data-ttu-id="7ac26-135">Испания</span><span class="sxs-lookup"><span data-stu-id="7ac26-135">Spain</span></span>
-- <span data-ttu-id="7ac26-136">Швеция</span><span class="sxs-lookup"><span data-stu-id="7ac26-136">Sweden</span></span>
-- <span data-ttu-id="7ac26-137">Швейцария</span><span class="sxs-lookup"><span data-stu-id="7ac26-137">Switzerland</span></span>
-- <span data-ttu-id="7ac26-138">Соединенное Королевство</span><span class="sxs-lookup"><span data-stu-id="7ac26-138">United Kingdom</span></span>
+- <span data-ttu-id="50e89-133">Республика Корея</span><span class="sxs-lookup"><span data-stu-id="50e89-133">Korea</span></span>
+- <span data-ttu-id="50e89-134">Латвия</span><span class="sxs-lookup"><span data-stu-id="50e89-134">Latvia</span></span>
+- <span data-ttu-id="50e89-135">Лихтенштейн</span><span class="sxs-lookup"><span data-stu-id="50e89-135">Liechtenstein</span></span>
+- <span data-ttu-id="50e89-136">Литва</span><span class="sxs-lookup"><span data-stu-id="50e89-136">Lithuania</span></span>
+- <span data-ttu-id="50e89-137">Люксембург</span><span class="sxs-lookup"><span data-stu-id="50e89-137">Luxembourg</span></span>
+- <span data-ttu-id="50e89-138">Малайзия</span><span class="sxs-lookup"><span data-stu-id="50e89-138">Malaysia</span></span>
+- <span data-ttu-id="50e89-139">Мальта</span><span class="sxs-lookup"><span data-stu-id="50e89-139">Malta</span></span>
+- <span data-ttu-id="50e89-140">Мексика</span><span class="sxs-lookup"><span data-stu-id="50e89-140">Mexico</span></span>
+- <span data-ttu-id="50e89-141">Монако</span><span class="sxs-lookup"><span data-stu-id="50e89-141">Monaco</span></span>
+- <span data-ttu-id="50e89-142">Нидерланды</span><span class="sxs-lookup"><span data-stu-id="50e89-142">Netherlands</span></span>
+- <span data-ttu-id="50e89-143">Новая Зеландия</span><span class="sxs-lookup"><span data-stu-id="50e89-143">New Zealand</span></span>
+- <span data-ttu-id="50e89-144">Норвегия</span><span class="sxs-lookup"><span data-stu-id="50e89-144">Norway</span></span>
+- <span data-ttu-id="50e89-145">Польша</span><span class="sxs-lookup"><span data-stu-id="50e89-145">Poland</span></span>
+- <span data-ttu-id="50e89-146">Португалия</span><span class="sxs-lookup"><span data-stu-id="50e89-146">Portugal</span></span>
+- <span data-ttu-id="50e89-147">Румыния</span><span class="sxs-lookup"><span data-stu-id="50e89-147">Romania</span></span>
+- <span data-ttu-id="50e89-148">Саудовская Аравия</span><span class="sxs-lookup"><span data-stu-id="50e89-148">Saudi Arabia</span></span>
+- <span data-ttu-id="50e89-149">Словакия</span><span class="sxs-lookup"><span data-stu-id="50e89-149">Slovakia</span></span>
+- <span data-ttu-id="50e89-150">Словения</span><span class="sxs-lookup"><span data-stu-id="50e89-150">Slovenia</span></span>
+- <span data-ttu-id="50e89-151">Южная Африка</span><span class="sxs-lookup"><span data-stu-id="50e89-151">South Africa</span></span>
+- <span data-ttu-id="50e89-152">Испания</span><span class="sxs-lookup"><span data-stu-id="50e89-152">Spain</span></span>
+- <span data-ttu-id="50e89-153">Швеция</span><span class="sxs-lookup"><span data-stu-id="50e89-153">Sweden</span></span>
+- <span data-ttu-id="50e89-154">Швейцария</span><span class="sxs-lookup"><span data-stu-id="50e89-154">Switzerland</span></span>
+- <span data-ttu-id="50e89-155">Тайвань</span><span class="sxs-lookup"><span data-stu-id="50e89-155">Taiwan</span></span>
+- <span data-ttu-id="50e89-156">Турция</span><span class="sxs-lookup"><span data-stu-id="50e89-156">Turkey</span></span>
+- <span data-ttu-id="50e89-157">Объединенные Арабские Эмираты</span><span class="sxs-lookup"><span data-stu-id="50e89-157">United Arab Emirates</span></span>
+- <span data-ttu-id="50e89-158">Соединенное Королевство</span><span class="sxs-lookup"><span data-stu-id="50e89-158">United Kingdom</span></span>
     :::column-end:::
 :::row-end:::
 
-<span data-ttu-id="7ac26-139">В этих странах можно указать свой номер НДС или местный эквивалент для данных счетов выставления счетов.</span><span class="sxs-lookup"><span data-stu-id="7ac26-139">These countries can provide their VAT number or local equivalent on their billing account information.</span></span>
-
-|<span data-ttu-id="7ac26-140">Рынка</span><span class="sxs-lookup"><span data-stu-id="7ac26-140">Market</span></span>| <span data-ttu-id="7ac26-141">Налоговый идентификатор</span><span class="sxs-lookup"><span data-stu-id="7ac26-141">Tax identifier</span></span> |
-|------|----------------|
-| <span data-ttu-id="7ac26-142">Австралия</span><span class="sxs-lookup"><span data-stu-id="7ac26-142">Australia</span></span> | <span data-ttu-id="7ac26-143">АБН (необязательно)</span><span class="sxs-lookup"><span data-stu-id="7ac26-143">ABN (optional)</span></span> |
-| <span data-ttu-id="7ac26-144">Бразилия</span><span class="sxs-lookup"><span data-stu-id="7ac26-144">Brazil</span></span> | <span data-ttu-id="7ac26-145">CNPJ (обязательный)</span><span class="sxs-lookup"><span data-stu-id="7ac26-145">CNPJ (required)</span></span> |
-| <span data-ttu-id="7ac26-146">Индия</span><span class="sxs-lookup"><span data-stu-id="7ac26-146">India</span></span> | <span data-ttu-id="7ac26-147">ГСТИН (необязательно), PAN ID (обязательно)</span><span class="sxs-lookup"><span data-stu-id="7ac26-147">GSTIN (optional), PAN ID (required)</span></span> |
-| <span data-ttu-id="7ac26-148">О-в Мэн</span><span class="sxs-lookup"><span data-stu-id="7ac26-148">Isle of Man</span></span> | <span data-ttu-id="7ac26-149">Идентификатор НДС (необязательно)</span><span class="sxs-lookup"><span data-stu-id="7ac26-149">VAT ID (optional)</span></span> |
-| <span data-ttu-id="7ac26-150">Новая Зеландия</span><span class="sxs-lookup"><span data-stu-id="7ac26-150">New Zealand</span></span> | <span data-ttu-id="7ac26-151">Регистрационный номер GST (необязательно)</span><span class="sxs-lookup"><span data-stu-id="7ac26-151">GST Registration number (optional)</span></span> |
-| <span data-ttu-id="7ac26-152">Монако</span><span class="sxs-lookup"><span data-stu-id="7ac26-152">Monaco</span></span> | <span data-ttu-id="7ac26-153">Идентификатор НДС (необязательно)</span><span class="sxs-lookup"><span data-stu-id="7ac26-153">VAT ID (optional)</span></span> |
-| <span data-ttu-id="7ac26-154">Тайвань</span><span class="sxs-lookup"><span data-stu-id="7ac26-154">Taiwan</span></span> | <span data-ttu-id="7ac26-155">Идентификатор НДС (необязательно)</span><span class="sxs-lookup"><span data-stu-id="7ac26-155">VAT ID (optional)</span></span> |
+<span data-ttu-id="50e89-159">\* Для большинства стран, указанных в списке, указание номера НДС или локального эквивалента не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="50e89-159">\*For most of the countries listed, providing a VAT number or local equivalent is optional.</span></span> <span data-ttu-id="50e89-160">Для Бразилии и Индии необходимо указать номер налогового идентификатора.</span><span class="sxs-lookup"><span data-stu-id="50e89-160">For Brazil and India, the tax identifier number is required.</span></span>
 
 > [!Note]
-> <span data-ttu-id="7ac26-156">Если вам нужно обратиться в службу поддержки, попросите ФЕИН, номер НДС или местный эквивалент, чтобы предоставить агенту службы поддержки.</span><span class="sxs-lookup"><span data-stu-id="7ac26-156">If you need to contact support, have your FEIN, VAT number, or local equivalent ready to give to the support agent.</span></span>
+> <span data-ttu-id="50e89-161">Если вам нужно обратиться в службу поддержки, попросите ФЕИН, номер НДС или местный эквивалент, чтобы предоставить агенту службы поддержки.</span><span class="sxs-lookup"><span data-stu-id="50e89-161">If you need to contact support, have your FEIN, VAT number, or local equivalent ready to give to the support agent.</span></span>
 
-## <a name="what-tax-will-i-be-charged"></a><span data-ttu-id="7ac26-157">Какой налог будет с меня взиматься?</span><span class="sxs-lookup"><span data-stu-id="7ac26-157">What tax will I be charged?</span></span>
+## <a name="europe-the-middle-east-and-africa-emea"></a><span data-ttu-id="50e89-162">Европа, Ближний Восток и Африка (EMEA)</span><span class="sxs-lookup"><span data-stu-id="50e89-162">Europe, the Middle East, and Africa (EMEA)</span></span>
 
-<span data-ttu-id="7ac26-p102">Узнайте, какой налог взимается в указанных регионах. Вы также можете [подать заявку на освобождение от уплаты налога](tax-information.md#apply-for-tax-exempt-status), предоставив соответствующие документы в службу поддержки.</span><span class="sxs-lookup"><span data-stu-id="7ac26-p102">Find out what tax you're charged in the following regions. You can also [apply for tax exempt status](tax-information.md#apply-for-tax-exempt-status) by providing the proper documentation to Support.</span></span>
+<span data-ttu-id="50e89-163">При покупке служб Microsoft 365 в Европейского союза эта покупка подлежит Value-Added налогообложению (VAT).</span><span class="sxs-lookup"><span data-stu-id="50e89-163">When you buy Microsoft 365 services in the European Union, this purchase is subject to Value-Added Tax (VAT).</span></span>
   
-### <a name="europe-the-middle-east-and-africa-emea"></a><span data-ttu-id="7ac26-160">Европа, Ближний Восток и Африка (EMEA)</span><span class="sxs-lookup"><span data-stu-id="7ac26-160">Europe, the Middle East, and Africa (EMEA)</span></span>
+- <span data-ttu-id="50e89-164">Если вы находитесь в странах Европейского союза и вы не предоставляете действительный идентификатор местного идентификатора НДС, Microsoft Ирландия Operations Ltd. будет применяться текущая локальная ставка НДС на основе страны выставления счета, для которой задано значение.</span><span class="sxs-lookup"><span data-stu-id="50e89-164">If you're located in a European Union Member State and you don't provide your valid local VAT ID, Microsoft Ireland Operations Ltd. will apply the current local VAT rate, based on the billing country your account is set to.</span></span>
 
-<span data-ttu-id="7ac26-161">При покупке служб Microsoft 365 в Европейского союза эта покупка подлежит уплате налога на добавленную стоимость (НДС).</span><span class="sxs-lookup"><span data-stu-id="7ac26-161">When you buy Microsoft 365 services in the European Union, this purchase is subject to Value-Added Tax (VAT).</span></span>
+- <span data-ttu-id="50e89-165">Если вы находитесь в Швейцарии или Лихтенштейне, применяется текущая ставка, действующая в Швейцарии, независимо от того, предоставили ли вы код НДС.</span><span class="sxs-lookup"><span data-stu-id="50e89-165">If you're located in Switzerland or Liechtenstein, the current Swiss VAT rate is applied, whether you provide your VAT ID or not.</span></span>
+
+- <span data-ttu-id="50e89-166">Как правило, если вы находитесь в стране EMEA за преметкой Европейского союза и Швейцарии/Лихтенштейн, НДС не оплачивается в Microsoft Ирландии Operations Ltd.</span><span class="sxs-lookup"><span data-stu-id="50e89-166">Generally, if you're located in an EMEA country outside the European Union and Switzerland/Liechtenstein, VAT isn't charged by Microsoft Ireland Operations Ltd.</span></span>
+
+- <span data-ttu-id="50e89-167">Чтобы мы могли проверить ваш код НДС, он должен быть доступен для проверки в системе обмена информацией НДС (VIES).</span><span class="sxs-lookup"><span data-stu-id="50e89-167">Before we can validate your VAT ID, it must be available for verification in the VAT Information Exchange System (VIES).</span></span> <span data-ttu-id="50e89-168">Если ваш идентификатор НДС не может быть проверен, обратитесь к местным налоговым органам.</span><span class="sxs-lookup"><span data-stu-id="50e89-168">If your VAT ID can't be verified, contact your local tax authority.</span></span>
+
+<span data-ttu-id="50e89-169">Вы можете определить нулевую оценку НДС, если:</span><span class="sxs-lookup"><span data-stu-id="50e89-169">You might qualify for VAT zero-rating if:</span></span>
   
-- <span data-ttu-id="7ac26-162">Если пользователь, проживающий в одной из стран Европейского союза, не предоставляет местный код НДС, компания Microsoft Ireland Operations Ltd. применяет действующую местную ставку НДС (она выбирается с учетом страны выставления счетов, выбранной в вашей учетной записи).</span><span class="sxs-lookup"><span data-stu-id="7ac26-162">If you're located in a European Union Member State and you do not provide your valid local VAT ID, Microsoft Ireland Operations Ltd. will apply current local VAT rate, based on the billing country your account is set to.</span></span>
+- <span data-ttu-id="50e89-170">**Вы находитесь в Европейской области Европейского союза, расположенной снаружи Ирландии:** Вы можете указать действительный идентификатор местного идентификатора НДС.</span><span class="sxs-lookup"><span data-stu-id="50e89-170">**You're in a European Union Member State outside Ireland:** You can provide your valid local VAT ID.</span></span> <span data-ttu-id="50e89-171">Это позволяет Microsoft Ирландии Operations Ltd. to НДС от нулевой ставки для транзакции.</span><span class="sxs-lookup"><span data-stu-id="50e89-171">This lets Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="50e89-172">Однако у вас может быть местное учетное обязательство по НДС.</span><span class="sxs-lookup"><span data-stu-id="50e89-172">However, you might have a local VAT accounting obligation.</span></span> <span data-ttu-id="50e89-173">Если у вас есть какие – либо проблемы, проверяйте свои поставку с налоговыми поставками.</span><span class="sxs-lookup"><span data-stu-id="50e89-173">If you have any concerns, check with your tax advisers.</span></span> <span data-ttu-id="50e89-174">Инструкции можно найти [в разделе Добавление идентификатора НДС](#add-your-vat-id).</span><span class="sxs-lookup"><span data-stu-id="50e89-174">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
 
-- <span data-ttu-id="7ac26-163">Если вы находитесь в Швейцарии или Лихтенштейне, применяется текущая ставка, действующая в Швейцарии, независимо от того, предоставили ли вы код НДС.</span><span class="sxs-lookup"><span data-stu-id="7ac26-163">If you're located in Switzerland or Liechtenstein, the current Swiss VAT rate is applied, whether you provide your VAT ID or not.</span></span>
+- <span data-ttu-id="50e89-175">**Вы находитесь в Ирландии и обладаете соответствующей действительной сертификацией НДС:** Microsoft Ирландии Operations Ltd. может иметь право на исключение транзакции из НДС.</span><span class="sxs-lookup"><span data-stu-id="50e89-175">**You're in Ireland and have the relevant valid VAT exemption certification:** Microsoft Ireland Operations Ltd. may be entitled to exempt the transaction from VAT.</span></span> <span data-ttu-id="50e89-176">В противном случае Microsoft Ирландии Operations Ltd. применяет текущую норму НДС ирландский, независимо от того, вы предоставляете идентификатор НДС или нет.</span><span class="sxs-lookup"><span data-stu-id="50e89-176">If you don't, Microsoft Ireland Operations Ltd. applies the current Irish VAT rate, whether you provide a VAT ID or not.</span></span>
 
-- <span data-ttu-id="7ac26-164">Как правило, если вы находитесь в стране EMEA (кроме стран Европейского союза, Швейцарии и Лихтенштейна), Microsoft Ireland Operations Ltd не взимает НДС.</span><span class="sxs-lookup"><span data-stu-id="7ac26-164">Generally, if you're located in an EMEA country outside the European Union and Switzerland/Liechtenstein, VAT is not charged by Microsoft Ireland Operations Ltd.</span></span>
+## <a name="asia-pacific-countries-apac"></a><span data-ttu-id="50e89-177">Страны/регионы азиатско-тихоокеанского региона (APAC)</span><span class="sxs-lookup"><span data-stu-id="50e89-177">Asia Pacific countries (APAC)</span></span>
 
-- <span data-ttu-id="7ac26-p103">Чтобы мы могли проверить ваш код НДС, он должен быть доступен для проверки в системе обмена информацией НДС (VIES). Если ваш код НДС не удается проверить, свяжитесь с местными налоговыми органами.</span><span class="sxs-lookup"><span data-stu-id="7ac26-p103">Before we can validate your VAT ID, it must be available for verification in the VAT Information Exchange System (VIES). If your VAT ID cannot be verified, please contact your local tax authority.</span></span>
-
-<span data-ttu-id="7ac26-167">Вы можете иметь право на освобождение от НДС:</span><span class="sxs-lookup"><span data-stu-id="7ac26-167">You might qualify for VAT zero-rating:</span></span>
+<span data-ttu-id="50e89-178">Если у вас выставляются счета по региональным офисам продаж корпорации Майкрософт, "Региональный PTE (Microsoft)".</span><span class="sxs-lookup"><span data-stu-id="50e89-178">If you're billed by the Microsoft Regional Sales office, "Microsoft Regional Sales Pte.</span></span> <span data-ttu-id="50e89-179">Ltd. "</span><span class="sxs-lookup"><span data-stu-id="50e89-179">Ltd."</span></span> <span data-ttu-id="50e89-180">отображается в счете и может взиматься плата за любой применимым к добавленной стоимости, продажам или аналогичным налогам.</span><span class="sxs-lookup"><span data-stu-id="50e89-180">appears on your invoice, and you might be charged for any applicable value-added, sales, or similar taxes.</span></span>
   
-- <span data-ttu-id="7ac26-168">**Если вы находитесь в странах Европейского союза, расположенном снаружи Ирландии:** Вы можете указать действительный идентификатор местного идентификатора НДС.</span><span class="sxs-lookup"><span data-stu-id="7ac26-168">**If you're in a European Union Member State outside Ireland:** You can provide your valid local VAT ID.</span></span> <span data-ttu-id="7ac26-169">Это позволит вам направить Microsoft Ирландия Operations Ltd. на НДС проводке с нулевым тарифом.</span><span class="sxs-lookup"><span data-stu-id="7ac26-169">This will entitle Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="7ac26-170">Тем не менее, у вас может быть местное учетное обязательство по НДС, поэтому при наличии каких – либо проблем обратитесь к вашим налоговым представкам.</span><span class="sxs-lookup"><span data-stu-id="7ac26-170">However, you may have a local VAT accounting obligation, so please check with your tax advisers if you have any concerns.</span></span> <span data-ttu-id="7ac26-171">Инструкции приведены ниже в разделе "Добавление идентификатора НДС (только для стран ЕС)".</span><span class="sxs-lookup"><span data-stu-id="7ac26-171">For instructions, see "Add your VAT ID (EU countries only)" below.</span></span>
-
-- <span data-ttu-id="7ac26-p105">**Если вы проживаете в Ирландии и у вас есть действительное свидетельство об освобождении от НДС:** Microsoft Ireland Operations Ltd. может иметь право не взимать НДС с транзакции. В противном случае Microsoft Ireland Operations Ltd. применит текущую ставку НДС, даже если вы предоставите код НДС.</span><span class="sxs-lookup"><span data-stu-id="7ac26-p105">**If you're in Ireland and you have relevant valid VAT exemption certification:** Microsoft Ireland Operations Ltd. may be entitled to exempt the transaction from VAT. If you don't, Microsoft Ireland Operations Ltd. applies the current Irish VAT rate, whether you provide a VAT ID or not.</span></span>
-
-::: moniker range="o365-worldwide"
-
-#### <a name="add-your-vat-id-eu-countries-only"></a><span data-ttu-id="7ac26-174">Как ввести свой ИНН (только для стран ЕС)</span><span class="sxs-lookup"><span data-stu-id="7ac26-174">Add your VAT ID (EU countries only)</span></span>
-
-1. <span data-ttu-id="7ac26-175">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="7ac26-175">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
-
-2. <span data-ttu-id="7ac26-176">Найдите карточку подписки, которую вы хотите обновить.</span><span class="sxs-lookup"><span data-stu-id="7ac26-176">Find the subscription card for the subscription you want to update.</span></span>
-
-3. <span data-ttu-id="7ac26-177">В разделе **параметры & действий** выберите **изменить адрес использования службы**.</span><span class="sxs-lookup"><span data-stu-id="7ac26-177">In the **Settings & Actions** section, select **Edit service usage address**.</span></span>
-
-4. <span data-ttu-id="7ac26-178">На странице " **изменение адреса использования службы** " в поле **номер НДС** введите свой идентификатор НДС, включая префикс, и без пробелов.</span><span class="sxs-lookup"><span data-stu-id="7ac26-178">On the **Edit your service usage address** page, in the **VAT number** box, enter your VAT ID, including the prefix, and without any spaces.</span></span> <span data-ttu-id="7ac26-179">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="7ac26-179">Select **Save**.</span></span>
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-#### <a name="add-your-vat-id-eu-countries-only"></a><span data-ttu-id="7ac26-180">Как ввести свой ИНН (только для стран ЕС)</span><span class="sxs-lookup"><span data-stu-id="7ac26-180">Add your VAT ID (EU countries only)</span></span>
+<span data-ttu-id="50e89-181">Если выставляются счета из одного из следующих расположений, применяется текущий местный налог.</span><span class="sxs-lookup"><span data-stu-id="50e89-181">If you're billed from one of the following locations, the current local tax is applied.</span></span> <span data-ttu-id="50e89-182">Местоположение включается [в счет](view-your-bill-or-invoice.md):</span><span class="sxs-lookup"><span data-stu-id="50e89-182">The location is included [on your invoice](view-your-bill-or-invoice.md):</span></span>
   
-1. <span data-ttu-id="7ac26-181">В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="7ac26-181">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+- <span data-ttu-id="50e89-183">Индия</span><span class="sxs-lookup"><span data-stu-id="50e89-183">India</span></span>
+- <span data-ttu-id="50e89-184">Япония</span><span class="sxs-lookup"><span data-stu-id="50e89-184">Japan</span></span>
+- <span data-ttu-id="50e89-185">Республика Корея</span><span class="sxs-lookup"><span data-stu-id="50e89-185">Korea</span></span>
+- <span data-ttu-id="50e89-186">Сингапур</span><span class="sxs-lookup"><span data-stu-id="50e89-186">Singapore</span></span>
+- <span data-ttu-id="50e89-187">Тайвань</span><span class="sxs-lookup"><span data-stu-id="50e89-187">Taiwan</span></span>
 
-2. <span data-ttu-id="7ac26-182">Выберите имя подписки, а затем нажмите кнопку **другие действия** \> **изменить номер НДС**.</span><span class="sxs-lookup"><span data-stu-id="7ac26-182">Select the subscription name, and then select **More actions** \> **Edit VAT number**.</span></span>
+## <a name="north-central-and-south-america"></a><span data-ttu-id="50e89-188">Северная, Центральная и Южная Америка</span><span class="sxs-lookup"><span data-stu-id="50e89-188">North, Central, and South America</span></span>
+
+<span data-ttu-id="50e89-189">В США, Канаде, Мексики, Чили и Колумбия применяются разные ставки налога в зависимости от природы продукта и местоположения.</span><span class="sxs-lookup"><span data-stu-id="50e89-189">In the United States, Canada, Mexico, Chile, and Colombia, various tax rates apply depending on the product nature and your location.</span></span>
   
-3. <span data-ttu-id="7ac26-183">На странице " **изменение адреса использования службы** " в поле **номер НДС** введите свой идентификатор НДС, включая префикс, и без пробелов.</span><span class="sxs-lookup"><span data-stu-id="7ac26-183">On the **Edit your service usage address** page, in the **VAT number** box, enter your VAT ID, including the prefix, and without any spaces.</span></span> <span data-ttu-id="7ac26-184">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="7ac26-184">Select **Save**.</span></span>
+<span data-ttu-id="50e89-190">Если вы выполнили выставление счетов корпорацией Майкрософт ([обратитесь к своему счету](view-your-bill-or-invoice.md)), и вы зарегистрировались в Microsoft 365 за пределами США, Канады, Пуэрто-Рико, Чили и Колумбия, налог, как правило, не оплачивается.</span><span class="sxs-lookup"><span data-stu-id="50e89-190">If your billing is done by Microsoft Corporation ([see your invoice](view-your-bill-or-invoice.md)), and you signed up for Microsoft 365 outside of the United States, Canada, Puerto Rico, Chile, and Colombia, then tax is generally not charged.</span></span>
 
-::: moniker-end
+## <a name="add-your-vat-id"></a><span data-ttu-id="50e89-191">Добавление идентификатора НДС</span><span class="sxs-lookup"><span data-stu-id="50e89-191">Add your VAT ID</span></span>
 
-### <a name="asia-pacific-countries-apac"></a><span data-ttu-id="7ac26-185">Страны/регионы азиатско-тихоокеанского региона (APAC)</span><span class="sxs-lookup"><span data-stu-id="7ac26-185">Asia Pacific countries (APAC)</span></span>
+1. <span data-ttu-id="50e89-192">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="50e89-192">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+2. <span data-ttu-id="50e89-193">На вкладке **продукты** выберите подписку, которую вы хотите обновить.</span><span class="sxs-lookup"><span data-stu-id="50e89-193">On the **Products** tab, select the subscription that you want to update.</span></span>
+3. <span data-ttu-id="50e89-194">На странице "сведения о подписке" в разделе **адрес использования службы** выберите **изменить адрес использования службы**.</span><span class="sxs-lookup"><span data-stu-id="50e89-194">On the subscription details page, in the **Service usage address** section, select **Edit service usage address**.</span></span>
+4. <span data-ttu-id="50e89-195">В области **изменить адрес для использования службы** в поле **номер НДС** введите свой идентификатор НДС, включая префикс, и без пробелов.</span><span class="sxs-lookup"><span data-stu-id="50e89-195">On the **Edit your service usage address** pane, in the **VAT number** box, enter your VAT ID, including the prefix, and without any spaces.</span></span>
+5. <span data-ttu-id="50e89-196">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="50e89-196">Select **Save**.</span></span>
 
-<span data-ttu-id="7ac26-186">Если счет вам выставляет подразделение Microsoft Regional Sales, в нем будет указано Microsoft Regional Sales. В этом случае потребительский налог или налог на добавленную стоимость (НДС) обычно не взимается, если только продажа не совершается внутри страны или региона.</span><span class="sxs-lookup"><span data-stu-id="7ac26-186">If you're billed by the Microsoft Regional Sales office, "Microsoft Regional Sales" appears on your invoice, and you're usually not charged a consumption or Value-Added Tax (VAT) tax unless it is a domestic sale.</span></span>
-  
-<span data-ttu-id="7ac26-p108">Если счет выставляется из другого подразделения, применяется текущая местная ставка налога. [В вашем счете](view-your-bill-or-invoice.md) будет указан один из перечисленных ниже регионов.</span><span class="sxs-lookup"><span data-stu-id="7ac26-p108">If you're billed from another location, the current local tax is applied. You'll see the following [on your invoice](view-your-bill-or-invoice.md):</span></span>
-  
-- <span data-ttu-id="7ac26-189">Сингапур  Сингапур</span><span class="sxs-lookup"><span data-stu-id="7ac26-189">Singapore to Singapore</span></span>
+## <a name="how-taxes-are-calculated"></a><span data-ttu-id="50e89-197">Способ расчета налогов</span><span class="sxs-lookup"><span data-stu-id="50e89-197">How taxes are calculated</span></span>
 
-- <span data-ttu-id="7ac26-190">Корея  Корея</span><span class="sxs-lookup"><span data-stu-id="7ac26-190">Korea to Korea</span></span>
+<span data-ttu-id="50e89-198">Налоги рассчитываются в соответствии с ценой единицы, а затем обрабатываются.</span><span class="sxs-lookup"><span data-stu-id="50e89-198">Sales taxes are calculated against the unit price, and then aggregated.</span></span>
 
-- <span data-ttu-id="7ac26-191">Япония  Япония</span><span class="sxs-lookup"><span data-stu-id="7ac26-191">Japan to Japan</span></span>
+<span data-ttu-id="50e89-199">Пример:</span><span class="sxs-lookup"><span data-stu-id="50e89-199">For example:</span></span>
 
-- <span data-ttu-id="7ac26-192">Тайвань  Тайвань</span><span class="sxs-lookup"><span data-stu-id="7ac26-192">Taiwan to Taiwan</span></span>
+><span data-ttu-id="50e89-200">*(Цена единицы X ставка налога) X количество = общая сумма налогов*</span><span class="sxs-lookup"><span data-stu-id="50e89-200">*(unit price X tax rate) X quantity = total sales tax*</span></span>
 
-### <a name="north-central-and-south-america"></a><span data-ttu-id="7ac26-193">Северная, Центральная и Южная Америка</span><span class="sxs-lookup"><span data-stu-id="7ac26-193">North, Central, and South America</span></span>
+<span data-ttu-id="50e89-201">-или-</span><span class="sxs-lookup"><span data-stu-id="50e89-201">-or-</span></span>
 
-<span data-ttu-id="7ac26-194">В США и Канаде применяются разные ставки налога в зависимости от вашего расположения.</span><span class="sxs-lookup"><span data-stu-id="7ac26-194">In the United States and Canada, various tax rates apply depending on your location.</span></span> <span data-ttu-id="7ac26-195">В Пуэрто-Рико действуют местные ставки НДС.</span><span class="sxs-lookup"><span data-stu-id="7ac26-195">In Puerto Rico, local Value-Added Tax (VAT) charges apply.</span></span>
-  
-<span data-ttu-id="7ac26-196">Если вы выполнили выставление счетов корпорацией Майкрософт ([обратитесь к своему счету](view-your-bill-or-invoice.md)), и вы зарегистрировались в Microsoft 365 за пределами США, Канады и Пуэрто-Рико, то налог, как правило, не оплачивается.</span><span class="sxs-lookup"><span data-stu-id="7ac26-196">If your billing is done by Microsoft Corporation ([see your invoice](view-your-bill-or-invoice.md)), and you signed up for Microsoft 365 outside of the United States, Canada, and Puerto Rico, then tax is generally not charged.</span></span>
+><span data-ttu-id="50e89-202">($1,29 X 0,095) X 100 = $12,25</span><span class="sxs-lookup"><span data-stu-id="50e89-202">($1.29 X 0.095) X 100 = $12.25</span></span>
 
-## <a name="how-taxes-are-calculated"></a><span data-ttu-id="7ac26-197">Способ расчета налогов</span><span class="sxs-lookup"><span data-stu-id="7ac26-197">How taxes are calculated</span></span>
+## <a name="apply-for-tax-exempt-status"></a><span data-ttu-id="50e89-203">Применять для статуса налогового освобождения</span><span class="sxs-lookup"><span data-stu-id="50e89-203">Apply for tax-exempt status</span></span>
 
-<span data-ttu-id="7ac26-198">Налоги рассчитываются в соответствии с ценой единицы, а затем обрабатываются.</span><span class="sxs-lookup"><span data-stu-id="7ac26-198">Sales taxes are calculated against the unit price, and then aggregated.</span></span>
+<span data-ttu-id="50e89-204">Если вы поддаете статус налогового освобождения на вашем рынке, [запустите запрос на обслуживание](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) , чтобы установить статус исходящего налога для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="50e89-204">If you qualify for tax-exempt status in your market, [start a service request](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) to establish tax exempt status for your organization.</span></span>
 
-<span data-ttu-id="7ac26-199">Например:</span><span class="sxs-lookup"><span data-stu-id="7ac26-199">For example:</span></span>
-
-><span data-ttu-id="7ac26-200">*(Цена единицы X ставка налога) X количество = общая сумма налогов*</span><span class="sxs-lookup"><span data-stu-id="7ac26-200">*(unit price X tax rate) X quantity = total sales tax*</span></span>
-
-<span data-ttu-id="7ac26-201">-или-</span><span class="sxs-lookup"><span data-stu-id="7ac26-201">-or-</span></span>
-
-><span data-ttu-id="7ac26-202">($1,29 X 0,095) X 100 = $12,25</span><span class="sxs-lookup"><span data-stu-id="7ac26-202">($1.29 X 0.095) X 100 = $12.25</span></span>
-
-## <a name="apply-for-tax-exempt-status"></a><span data-ttu-id="7ac26-203">Применять для статуса налогового освобождения</span><span class="sxs-lookup"><span data-stu-id="7ac26-203">Apply for tax-exempt status</span></span>
-
-<span data-ttu-id="7ac26-204">Если вы поддаете статус налогового освобождения на вашем рынке, [запустите запрос на обслуживание](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) , чтобы установить статус исходящего налога для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="7ac26-204">If you qualify for tax-exempt status in your market, [start a service request](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) to establish tax exempt status for your organization.</span></span>
-
-<span data-ttu-id="7ac26-205">Приготовьте следующую документацию:</span><span class="sxs-lookup"><span data-stu-id="7ac26-205">Have the following documentation ready:</span></span>
-
-|<span data-ttu-id="7ac26-206">Страна или языковой стандарт</span><span class="sxs-lookup"><span data-stu-id="7ac26-206">Country or locale</span></span> | <span data-ttu-id="7ac26-207">Документация</span><span class="sxs-lookup"><span data-stu-id="7ac26-207">Documentation</span></span> |
+|<span data-ttu-id="50e89-205">Страна или языковой стандарт</span><span class="sxs-lookup"><span data-stu-id="50e89-205">Country or locale</span></span> | <span data-ttu-id="50e89-206">Документация</span><span class="sxs-lookup"><span data-stu-id="50e89-206">Documentation</span></span> |
 |------------------|----------------|
-| <span data-ttu-id="7ac26-208">Соединенные Штаты</span><span class="sxs-lookup"><span data-stu-id="7ac26-208">United States</span></span> | <span data-ttu-id="7ac26-209">Сертификат налогового освобождения</span><span class="sxs-lookup"><span data-stu-id="7ac26-209">Sales Tax Exemption Certificate</span></span> |
-| <span data-ttu-id="7ac26-210">Канада</span><span class="sxs-lookup"><span data-stu-id="7ac26-210">Canada</span></span> | <span data-ttu-id="7ac26-211">Сертификат исключения (или эквивалентная буква авторизации)</span><span class="sxs-lookup"><span data-stu-id="7ac26-211">Certificate of Exemption (or equivalent letter of authorization)</span></span> |
-| <span data-ttu-id="7ac26-212">Ирландия</span><span class="sxs-lookup"><span data-stu-id="7ac26-212">Ireland</span></span> | <span data-ttu-id="7ac26-213">Свидетельство об освобождении от уплаты налога 13B/56A</span><span class="sxs-lookup"><span data-stu-id="7ac26-213">13B/56A Tax Exemption Certificate</span></span>|
-| <span data-ttu-id="7ac26-214">Международные организации, которые выносят решение об освобождении от налога</span><span class="sxs-lookup"><span data-stu-id="7ac26-214">International organizations that hold tax exemption</span></span> | <span data-ttu-id="7ac26-215">Подтверждение сертификатов и писем от местных налоговых органов</span><span class="sxs-lookup"><span data-stu-id="7ac26-215">Certification / letter confirmation from local tax authorities</span></span> |
-| <span data-ttu-id="7ac26-216">Пуэрто-Рико</span><span class="sxs-lookup"><span data-stu-id="7ac26-216">Puerto Rico</span></span> | <span data-ttu-id="7ac26-217">Цертификадо де Компрас Ексентас</span><span class="sxs-lookup"><span data-stu-id="7ac26-217">Certificado de Compras Exentas</span></span> |
+| <span data-ttu-id="50e89-207">Канада</span><span class="sxs-lookup"><span data-stu-id="50e89-207">Canada</span></span> | <span data-ttu-id="50e89-208">Сертификат исключения (или эквивалентная буква авторизации)</span><span class="sxs-lookup"><span data-stu-id="50e89-208">Certificate of Exemption (or equivalent letter of authorization)</span></span> |
+| <span data-ttu-id="50e89-209">Чили</span><span class="sxs-lookup"><span data-stu-id="50e89-209">Chile</span></span> | <span data-ttu-id="50e89-210">Ива Status/СНИЖАТЬСЯ (Registro Унико Трибутарио)</span><span class="sxs-lookup"><span data-stu-id="50e89-210">IVA status/RUT (Registro Unico Tributario)</span></span> |
+| <span data-ttu-id="50e89-211">Колумбия</span><span class="sxs-lookup"><span data-stu-id="50e89-211">Colombia</span></span> | <span data-ttu-id="50e89-212">Ива Status/СНИЖАТЬСЯ (Registro Унико Трибутарио)</span><span class="sxs-lookup"><span data-stu-id="50e89-212">IVA status/RUT (Registro Unico Tributario)</span></span> |
+| <span data-ttu-id="50e89-213">Международные организации, которые выносят решение об освобождении от налога</span><span class="sxs-lookup"><span data-stu-id="50e89-213">International organizations that hold tax exemption</span></span> | <span data-ttu-id="50e89-214">Подтверждение сертификатов и писем от местных налоговых органов</span><span class="sxs-lookup"><span data-stu-id="50e89-214">Certification / letter confirmation from local tax authorities</span></span> |
+| <span data-ttu-id="50e89-215">Ирландия</span><span class="sxs-lookup"><span data-stu-id="50e89-215">Ireland</span></span> | <span data-ttu-id="50e89-216">Свидетельство об освобождении от уплаты налога 13B/56A</span><span class="sxs-lookup"><span data-stu-id="50e89-216">13B/56A Tax Exemption Certificate</span></span>|
+| <span data-ttu-id="50e89-217">Соединенные Штаты</span><span class="sxs-lookup"><span data-stu-id="50e89-217">United States</span></span> | <span data-ttu-id="50e89-218">Сертификат налогового освобождения</span><span class="sxs-lookup"><span data-stu-id="50e89-218">Sales Tax Exemption Certificate</span></span> |
+| <span data-ttu-id="50e89-219">Пуэрто-Рико</span><span class="sxs-lookup"><span data-stu-id="50e89-219">Puerto Rico</span></span> | <span data-ttu-id="50e89-220">Цертификадо де Компрас Ексентас</span><span class="sxs-lookup"><span data-stu-id="50e89-220">Certificado de Compras Exentas</span></span> |
   
-## <a name="related-content"></a><span data-ttu-id="7ac26-218">Связанные материалы</span><span class="sxs-lookup"><span data-stu-id="7ac26-218">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="50e89-221">Связанные материалы</span><span class="sxs-lookup"><span data-stu-id="50e89-221">Related content</span></span>
   
-<span data-ttu-id="7ac26-219">[Просмотр счета или счета](view-your-bill-or-invoice.md) (статья) </span><span class="sxs-lookup"><span data-stu-id="7ac26-219">[View your bill or invoice](view-your-bill-or-invoice.md) (article)</span></span>\
-<span data-ttu-id="7ac26-220">[Сведения о счете](understand-your-invoice.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="7ac26-220">[Understand your bill or invoice](understand-your-invoice.md) (article)</span></span>
+<span data-ttu-id="50e89-222">[Просмотр счета или счета](view-your-bill-or-invoice.md) (статья) </span><span class="sxs-lookup"><span data-stu-id="50e89-222">[View your bill or invoice](view-your-bill-or-invoice.md) (article)</span></span>\
+<span data-ttu-id="50e89-223">[Сведения о счете](understand-your-invoice.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="50e89-223">[Understand your bill or invoice](understand-your-invoice.md) (article)</span></span>
