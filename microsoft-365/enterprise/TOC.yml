@@ -277,6 +277,8 @@
           href: microsoft-365-inter-tenant-collaboration.md
         - name: Миграция почтовых ящиков между клиентами
           href: cross-tenant-mailbox-migration.md
+        - name: Миграция между клиентами
+          href: microsoft-365-tenant-to-tenant-migrations.md
     - name: Поддержка нескольких регионов
       items:
         - name: Microsoft 365 Multi-Geo
