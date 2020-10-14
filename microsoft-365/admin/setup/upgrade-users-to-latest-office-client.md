@@ -20,18 +20,18 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Узнайте, как обновить пользователей до последней версии клиента Office.
-ms.openlocfilehash: 7cddf1554a5892ddac510fc77238529194c1a2a0
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 40160dc5590144a1132971368da70c6f36ed460c
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545732"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456338"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Обновление Microsoft 365 для бизнеса пользователей до последней версии клиента Office
 
 ## <a name="office-2010-reaches-end-of-support"></a>Office 2010 достиг конца поддержки
 
-До 13 октября 2020 г. Office 2010 дойдет до конца. Когда Office 2010 достигает конца поддержки, корпорация Майкрософт больше не предоставляет следующие возможности:
+В Office 2010 достигнут конец поддержки 13 октября 2020 г. Корпорация Майкрософт больше не будет предоставлять следующие компоненты:
 
 - Техническая поддержка для проблем
 
@@ -39,7 +39,7 @@ ms.locfileid: "47545732"
 
 - Исправления безопасности для обнаруженных уязвимостей
 
-Более подробную информацию вы найдете в статье [Office 2010 End of support](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap) .
+Более подробную информацию вы найдете в статье [Office 2010 End of support](https://docs.microsoft.com/deployoffice/endofsupport/office-2010-end-support-roadmap) .
 
  **Это правильный раздел?**
   
@@ -57,7 +57,7 @@ ms.locfileid: "47545732"
   
 ## <a name="step-1---check-system-requirements"></a>Шаг 1. Проверка требований к системе
 
-[Проверьте требования к системе](https://products.office.com/office-system-requirements) для Office, чтобы убедиться, что устройства совместимы с последней версией Office. Например, на компьютерах под управлением Windows XP или Windows Vista невозможно установить более новые версии Office.
+[Проверьте требования к системе](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources) для Office, чтобы убедиться, что устройства совместимы с последней версией Office. Например, на компьютерах под управлением Windows XP или Windows Vista невозможно установить более новые версии Office.
   
 > [!TIP]
 > Если у вас есть пользователи в вашей организации, на компьютерах которых установлены старые версии Windows, рекомендуем обновить систему до Windows 10. В Windows 7 достигнут конец поддержки. [Поддержка чтения для Windows 7 заканчивается в январе 2020](https://www.microsoft.com/microsoft-365/windows/end-of-windows-7-support?rtc=1) для получения дополнительных сведений.

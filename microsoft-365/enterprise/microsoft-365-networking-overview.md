@@ -13,16 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-- M365initiative-CoreDeploy
+- m365initiative-coredeploy
 f1.keywords:
 - NOCSH
 description: Сведения о том, почему оптимизация сети важна для служб SaaS, цели Microsoft 365 Network, а также от того, как SaaS требует от других рабочих нагрузок другой сети.
-ms.openlocfilehash: acc55868e47ea89cd2357487838a88032dc8538d
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 50137e507021a6b6d26468a8a299c35a613a065a
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327489"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456403"
 ---
 # <a name="microsoft-365-network-connectivity-overview"></a>Обзор сетевого подключения Microsoft 365
 

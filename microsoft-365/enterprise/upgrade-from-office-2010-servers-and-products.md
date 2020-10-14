@@ -23,18 +23,18 @@ f1.keywords:
 - NOCSH
 description: Начните планирование обновления с серверов и клиентских приложений Office 2010, по мере прекращения поддержки и недоступности настраиваемых соглашений о поддержке.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d45075431e23bf3aae0b6052b1db708e704134f
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: 879aae71f703d8a26b3d6e640eff6d30a81febac
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384857"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456355"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2010-servers-and-clients"></a>Ресурсы по обновлению серверов и клиентов Office 2010
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Поддержка Office 2010 и Exchange 2010 будет завершена **13 октября 2020 г**.
+В Office 2010 и Exchange 2010 достигнут конец поддержки **13 октября 2020 г**.
 
 Поддержка SharePoint 2010 и Project Server 2010 будет завершена **13 апреля 2021 г**.
 

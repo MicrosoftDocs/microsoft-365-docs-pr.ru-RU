@@ -12,17 +12,17 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - remotework
-- M365initiative-CoreDeploy
+- m365initiative-coredeploy
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: В этой статье приводятся рекомендации по оптимизации производительности сети для пользователей в Китае с глобальными клиентами Microsoft 365.
-ms.openlocfilehash: 1f5f51991c5950d46c9d835a98bea86bcb354366
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 9b397e60b4a3b80563ed31731a6f7aa8e0bdab7f
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327513"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456367"
 ---
 # <a name="microsoft-365-global-tenant-performance-optimization-for-china-users"></a>Оптимизация производительности в глобальном клиенте Microsoft 365 для пользователей Китая
 
@@ -69,7 +69,7 @@ ms.locfileid: "48327513"
 
 Корпорация Майкрософт непрерывно работает над повышением качества взаимодействия с пользователем Microsoft 365 и производительностью клиентов по самым широкому спектру различных архитектур и характеристик сети. Посетите [сообщество Office 365](https://techcommunity.microsoft.com/t5/office-365/bd-p/Office365General) , чтобы начать или присоединиться к беседе, найти ресурсы, а также отправлять запросы и предложения по функциям.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Планирование сети и настройка производительности для Microsoft 365](https://aka.ms/tune)
 

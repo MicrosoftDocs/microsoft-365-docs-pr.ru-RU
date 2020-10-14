@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Безопасность в Office 365, с EOP до ATP Plans 1 и 2, стандартные и жесткие конфигурации безопасности и многое другое. Узнайте, что у вас и как защитить свойства.
-ms.openlocfilehash: 94fce99d029d21524bc60af4622fda7ee38980e7
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 256a24a7816a40e1bd60c687a875f84e605f5208
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430696"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456475"
 ---
 # <a name="office-365-security-overview"></a>Обзор системы безопасности Office 365
 
@@ -88,7 +88,7 @@ Office 365 Security создает базовые средства защиты,
 |---------|---------|---------|
 | Существуют следующие технологии:<ul><li>уверенности</li><li>фишинговых писем</li><li>от</li><li>Массовая рассылка</li><li>Аналитика подделки</li><li>Обнаружение олицетворения</li><li>Карантин администратора</li><li>Учетные данные администратора и пользователя для ложных срабатываний и ложных отрицательных результатов</li><li>Разрешение или блокировка для URL-адресов и файлов</li><li>Отчеты</li></u1>|<li>Поиск в журнале аудита</li><li>Трассировка сообщений</li>|<li>Автоматическая очистка (ZAP) с нулевым временем</li><li>Уточнение и тестирование списков разрешенных и заблокированных списков</li>|
 
-Если вы хотите перейти к EOP, **[перейдите к этой статье](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-21vianet&branch=tp_EOPOverview)**.
+Если вы хотите перейти к EOP, **[перейдите к этой статье](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide#:~:text=Exchange%20Online%20Protection%20%28EOP%29%20is%20the%20cloud-based%20filtering,is%20also%20available%20in%20the%20following%20on-premises%20scenarios%3A)**.
 
 Так как эти продукты являются накопительными, если вы оцените ATP P1 и решили подписаться на него, вы добавите эти возможности.
 
