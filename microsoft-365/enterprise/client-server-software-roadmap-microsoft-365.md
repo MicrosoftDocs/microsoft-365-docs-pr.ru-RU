@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Путеводитель по настройке клиентского и серверного программного обеспечения для Microsoft 365.
-ms.openlocfilehash: 898464222b8296cee3ab12fe7351295f39a23736
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d3401baa09d27ff9753f9a45ecb537c67701c0e9
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950572"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464412"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Схема программного обеспечения клиента и сервера для Microsoft 365
 
@@ -60,7 +60,7 @@ Microsoft 365 для предприятий включает в себя при�
 
 ### <a name="office-2010"></a>Office 2010
 
-Для версий Office в выпуске Office 2010 поддержка будет прекращена **13 октября 2020**г. Дополнительные сведения см. в статье [План прекращения поддержки Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap).
+Для версий Office в выпуске Office 2010 поддержка закончилась **13 октября 2020 г**. Дополнительные сведения см. в статье [План прекращения поддержки Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap).
 
 Вместо того чтобы обновлять Office 2010 на компьютерах до Office 2013 или Office 2016 (обновление выполняется вручную), вы можете следующее:
 
@@ -117,7 +117,7 @@ Microsoft 365 для предприятий включает в себя обл�
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-Поддержка [Exchange Server 2010](exchange-2010-end-of-support.md) прекращается **13 октября 2020 г**.
+Поддержка [Exchange Server 2010](exchange-2010-end-of-support.md) закончилась **13 октября 2020 г**.
 
 Поддержка [SharePoint Server 2010](upgrade-from-sharepoint-2010.md) прекращается **13 апреля 2021 г**.
 

@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Настройка понимания содержимого в Project Cortex
-ms.openlocfilehash: 410dd9550974ec7b5c1c5b4ae151bc92bf376544
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 43ce7809237d32fb9d2da73e9e00bed9b9a8193e
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446327"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464066"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
@@ -41,7 +41,7 @@ ms.locfileid: "48446327"
 
 ## <a name="to-set-up-sharepoint-syntex"></a>Чтобы настроить SharePoint Syntex, выполните следующие действия:
 
-1. В Центре администрирования Microsoft 365 выберите **Настройка**, затем просмотрите раздел **Файлы и содержимое**.
+1. В Центре администрирования Microsoft 365 выберите **Настройка**, а затем просмотрите раздел **Знания организации**.
 
 2. В разделе **Файлы и содержимое** выберите **Автоматизировать понимание содержимого**.<br/>
 

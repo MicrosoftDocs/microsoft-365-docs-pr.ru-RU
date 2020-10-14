@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о том, как список гостевых пользователей заполняется в центре администрирования Microsoft 365.
-ms.openlocfilehash: b22b23e27c1a0cbb241b75a9a9953537f9fcb819
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: c698332351d525c12659849826d9e822351a347d
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786257"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48463982"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Гостевые пользователи в центре администрирования Microsoft 365
 
@@ -51,7 +51,7 @@ ms.locfileid: "44786257"
 
 Чтобы добавить гостей в Azure Active Directory, ознакомьтесь со статьей [Добавление гостевых пользователей](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
-При добавлении пользователя Вы также можете назначить им группу или предоставить им доступ к приложению в Организации. После добавления уер на портале Azure AD этот пользователь также будет отображаться на странице "гости" в центре администрирования Microsoft 365.
+При добавлении пользователя Вы также можете назначить им группу или предоставить им доступ к приложению в Организации. После добавления пользователя на портале Azure AD этот пользователь также будет отображаться на странице "гости" в центре администрирования Microsoft 365.
 После добавления пользователя в список гостевых пользователей его можно [Добавить в группы](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) центра администрирования Microsoft 365.
 
 Чтобы пригласить нескольких гостей для совместной связи с Организацией, ознакомьтесь со статьей [Добавление гостевых пользователей в пакет](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) .

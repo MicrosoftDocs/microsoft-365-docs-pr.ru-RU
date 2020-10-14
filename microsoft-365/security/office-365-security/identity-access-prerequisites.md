@@ -16,18 +16,20 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: a5a9e6f5d1eb5188a6370cda0c988d2f1dda84cc
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+- m365solution-identitydevice
+- m365solution-scenario
+ms.openlocfilehash: d57709d78cd8b64b740c88362cb99653f6dec681
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399732"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48463994"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Предварительные действия для реализации политик доступа к удостоверениям и устройствам
 
 В этой статье описываются предварительные требования, которые необходимо реализовать перед развертыванием рекомендуемых политик идентификации и доступа к устройствам. В этой статье также обсуждается Рекомендуемая конфигурация клиента платформы по умолчанию, чтобы обеспечить оптимальное взаимодействие с единым входом (SSO) для пользователей, а также технические требования для условного доступа.
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные условия
 
 Перед реализацией рекомендуемых политик идентификации и доступа к устройствам необходимо выполнить несколько предварительных условий, которые должны соответствовать вашей организации для этих моделей идентификации и проверки подлинности для Microsoft 365 и Office 365:
 
@@ -72,7 +74,7 @@ ms.locfileid: "48399732"
 ### <a name="recommended-email-clients"></a>Рекомендуемые почтовые клиенты
 Следующие почтовые клиенты поддерживают современные проверки подлинности и условный доступ. 
 
-|Платформа|Клиент|Версия и заметки|
+|Платформа|Client|Версия и заметки|
 |:-------|:-----|:------------|
 |**Windows**|Outlook|2019, 2016, 2013 <BR> [Включение современной проверки подлинности](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication), [обязательных обновлений](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
 |**iOS**|Outlook для iOS|[Установлены](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|

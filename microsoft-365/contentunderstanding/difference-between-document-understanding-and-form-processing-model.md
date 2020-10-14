@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: В этой статье рассказывается об основных различиях между моделями осмысления документации и моделями обработки форм.
-ms.openlocfilehash: c5d60753e84cb55dc088b79f90fe841b50da1836
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 98d5e9463dedda96c02ed7c3ed80576638941816
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338602"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464232"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Различия между моделями осмысления документации и моделями обработки форм 
 
@@ -54,8 +54,6 @@ ms.locfileid: "48338602"
 Модели обработки форм создаются в PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), но начинается их создание непосредственно в библиотеке документов SharePoint. Чтобы пользователь мог создать модель обработки форм, необходимо включить создание модели обработки форм в библиотеке документов. Администратор может сделать это в параметрах администрирования осмысления контента. Для обработки файлов при загрузке в библиотеку документов моделями обработки форм используются потоки PowerAutomate.
 
 При создании модели осмысления документации создается новый [тип контента SharePoint](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978), который сохраняется в коллекции типов контента SharePoint. Чтобы определить модель, при необходимости можно также использовать существующие типы контента.
-
-Модели обработки форм создаются в PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), но создание начинается непосредственно из библиотеки документов SharePoint. Чтобы пользователь мог создать модель обработки форм, необходимо включить создание модели обработки форм в библиотеке документов. Это может сделать и администратор через параметры администрирования осмысления контента. Для обработки файлов при загрузке в библиотеку документов моделями обработки форм используются потоки PowerAutomate.
 
 Кроме того, с помощью моделей обработки форм создаются новые [типы контента SharePoint](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978), которые также хранятся в коллекции типов контента SharePoint.
 

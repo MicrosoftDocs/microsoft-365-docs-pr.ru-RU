@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье содержатся ресурсы для пользователей, использующих Office 2007 или Office 2010, которые помогут им спланировать обновление.
-ms.openlocfilehash: 0b137b39d671b9746445f9e41a5859732574dbe4
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: 257f66ab2f542f18c0a1eb2d503e0bf87e13d184
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384564"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464424"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>Планирование обновления серверов и клиентов Office 2007 или Office 2010
 
@@ -29,7 +29,7 @@ ms.locfileid: "48384564"
 
 Если в вашей организации используются более ранние версии продуктов и серверов Office, пора начать планирование обновления. [Прекращена поддержка](upgrade-from-office-2007-servers-and-products.md) продуктов и служб Office 2007. Для продуктов и служб Office 2010:
 
-- Поддержка Office 2010 и Exchange 2010 будет завершена **13 октября 2020 г**. 
+- В Office 2010 и Exchange 2010 достигнут конец поддержки **13 октября 2020 г**. 
 - Поддержка SharePoint 2010 и Project Server 2010 будет завершена **13 апреля 2021 г**. 
 
 Дополнительные сведения см. [в статье обновление с серверов и клиентов Office 2010](upgrade-from-office-2010-servers-and-products.md).

@@ -15,12 +15,14 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2e81b17b96b532f8ae26ae1750e884988f116203
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+- m365solution-identitydevice
+- m365solution-scenario
+ms.openlocfilehash: 4a0eb530df2709294bf1c9aa0cf285e59c9fd1f8
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399737"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464208"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Политики для разрешения гостевых и внешних поправных доступа
 
@@ -40,7 +42,7 @@ ms.locfileid: "48399737"
 
 В следующей таблице перечислены политики, которые необходимо создать и обновить. Общие политики ссылаются на соответствующие инструкции по настройке в статье [Common Identity and Device Access Policies Policies](identity-access-policies.md) .
 
-|Уровень защиты|Политики|Дополнительные сведения|
+|Уровень защиты|Политики|Дополнительная информация|
 |:---------------|:-------|:----------------|
 |**Базовый уровень**|[Требовать постоянного постоянного для гостевых и внешних пользователей](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Создайте новую политику и настройте следующие параметры: <ul><li> Для **назначений > пользователей и групп > включить**, выберите **пункт Выбор пользователей и групп**, а затем выберите **все гостевые и внешние пользователи**. </li><li> Для **назначений > условий > входе в систему**не устанавливайте флажок все параметры, чтобы всегда применять многофакторную проверку подлинности (MFA).</li>|
 |        |[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Измените эту политику, чтобы исключить гостевых и внешних пользователей.|
@@ -50,7 +52,7 @@ ms.locfileid: "48399737"
 
 ![снимок экрана элементов управления для исключения гостевых и внешних пользователей](../../media/microsoft-365-policies-configurations/identity-access-exclude-guests-ui.png)
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 ### <a name="guest-and-external-access-with-microsoft-teams"></a>Гость и внешний доступ с помощью Microsoft Teams
 

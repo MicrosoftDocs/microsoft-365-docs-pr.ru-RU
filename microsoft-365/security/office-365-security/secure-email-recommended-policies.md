@@ -16,12 +16,14 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8101373ed50cb5e6464182cc26f2ac2295273f05
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+- m365solution-identitydevice
+- m365solution-scenario
+ms.openlocfilehash: 5e7156a884093ca12fff7020bb045da30882547d
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399756"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464340"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
 
@@ -43,7 +45,7 @@ ms.locfileid: "48399756"
 
 Если вы включили Exchange Online и Outlook в область политик при их настройке, вам потребуется создать новую политику, чтобы заблокировать только клиентов ActiveSync. Ознакомьтесь с политиками, приведенными в следующей таблице, и либо сделайте Рекомендуемые дополнения, либо подтвердите, что они уже включены. Каждая политика содержит ссылки на соответствующие инструкции по настройке в [общих удостоверениях и политиках доступа к устройствам](identity-access-policies.md).
 
-|Уровень защиты|Политики|Дополнительные сведения|
+|Уровень защиты|Политики|Дополнительная информация|
 |:---------------|:-------|:----------------|
 |**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
 |        |[Блокирование клиентов, не поддерживающих современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Exchange Online в назначение облачных приложений|
@@ -69,7 +71,7 @@ ms.locfileid: "48399756"
 
 Дополнительные сведения см. в статье [Настройка новых возможностей шифрования сообщений Office 365](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 ![Шаг 4: политики для облачных приложений Microsoft 365](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 

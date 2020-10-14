@@ -16,12 +16,14 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 6949e72b9f70464221b9aff7137b8ec034a3b04f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+- m365solution-identitydevice
+- m365solution-scenario
+ms.openlocfilehash: 56b712c73d63bfcb06d5d35d627facb229668c59
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399768"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464148"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Рекомендации политики по обеспечению безопасности для чатов, групп и файлов в Teams
 
@@ -140,7 +142,7 @@ Teams и channels — это два часто используемых элем
 
 Для получения дополнительных сведений о политиках разрешений для приложений ознакомьтесь с разделом [Управление политиками разрешений приложений в Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-permission-policies).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 ![Шаг 4: политики для облачных приложений Microsoft 365](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 

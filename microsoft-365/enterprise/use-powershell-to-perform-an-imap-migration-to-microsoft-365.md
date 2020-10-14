@@ -16,16 +16,16 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
 description: Узнайте, как использовать PowerShell для миграции протокола IMAP в Microsoft 365.
-ms.openlocfilehash: 6eb422455d0bdf31fa1859bd0231b68e5568748c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 67621ecfca7ec323a73b91a530f848dd7571f9b2
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693376"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464448"
 ---
 # <a name="use-powershell-to-perform-an-imap-migration-to-microsoft-365"></a>Миграция IMAP в Microsoft 365 с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 В рамках процесса развертывания Microsoft 365 вы можете перенести содержимое почтовых ящиков пользователей из службы электронной почты IMAP в Microsoft 365. В этой статье описаны задачи, которые выполняются при миграции электронной почты IMAP с помощью Exchange Online PowerShell. 
   
@@ -103,7 +103,7 @@ paulc@contoso.edu,paul.cannon,3281986
   
  **Microsoft Exchange**
   
-При переносе электронной почты с реализации IMAP в Microsoft Exchange для атрибута **UserName** в CSV-файле используется формат **домен/имя_администратора/имя_пользователя**. Предположим, выполняется перенос электронной почты Exchange для учетных записей Terry Adams, Ann Beebe и Chris Cannon. Имеется учетная запись администратора почты с именем пользователя **mailadmin** и паролем **P@ssw0rd**. Вот как будет выглядеть CSV-файл.
+If you're migrating email from the IMAP implementation for Microsoft Exchange, use the format **Domain/Admin_UserName/User_UserName** for the **UserName** attribute in the CSV file. Let's say you're migrating email from Exchange for Terry Adams, Ann Beebe, and Paul Cannon. У вас есть учетная запись администратора почты, где имя пользователя — **mailadmin** , а пароль — **P \@ ssw0rd**. Here's what your CSV file would look like:
   
 ```powershell
 EmailAddress,UserName,Password
@@ -114,7 +114,7 @@ paulc@contoso.edu,contoso-students/mailadmin/paul.cannon,P@ssw0rd
 
  **Dovecot**
   
-На серверах IMAP, поддерживающих протокол SASL, например Dovecot, используется формат **имя_пользователя*имя_администратора**, где звездочка (*) является настраиваемым знаком разделения. Допустим, переносится почта тех же пользователей с сервера IMAP Dovecot с использованием учетных данных администратора **mailadmin** и **P@ssw0rd**. Вот как будет выглядеть CSV-файл:
+На серверах IMAP, поддерживающих протокол SASL, например Dovecot, используется формат **имя_пользователя*имя_администратора**, где звездочка ( * ) является настраиваемым знаком разделения. Предположим, что вы переносите сообщения электронной почты пользователей с IMAP сервера Dovecot с помощью учетных данных администратора **mailadmin** и **P \@ ssw0rd**. Вот как будет выглядеть CSV-файл.
   
 ```powershell
 EmailAddress,UserName,Password
@@ -125,7 +125,7 @@ paulc@contoso.edu,paul.cannon*mailadmin,P@ssw0rd
 
  **Mirapoint**
   
-При переносе почты с сервера Mirapoint Message Server для учетных данных администратора используется формат **#пользователь@домен#имя_администратора#**. Для переноса электронной почты с Mirapoint с использованием учетных данных администратора **mailadmin** и **P@ssw0rd** CSV-файл должен выглядеть следующим образом.
+Если вы переносите электронную почту с сервера сообщений Mirapoint, используйте формат **#user \@ домен # Admin_UserName #** для учетных данных администратора. Чтобы перенести электронную почту из Mirapoint с помощью учетных данных администратора **mailadmin** и **P \@ ssw0rd**, CSV-файл будет выглядеть следующим образом:
   
 ```powershell
 EmailAddress,UserName,Password

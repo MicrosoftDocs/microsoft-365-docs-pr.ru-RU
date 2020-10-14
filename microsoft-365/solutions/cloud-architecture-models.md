@@ -12,12 +12,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 355d933c98bba284302c94e0dc9f54ba7ca52762
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9988a822880db43feebb6ef007c39bd59c5ce6c7
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446515"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464460"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Иллюстрации "Облако Майкрософт для корпоративных архитекторов"
 
@@ -59,7 +59,7 @@ ms.locfileid: "48446515"
 
 |**Ресурс**|**Описание**|
 |:-----|:-----|
-|[![Эскиз плаката логической архитектуры Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Обновлено 2019 июля    |Эта модель содержит: <ul><li>Сопоставление бизнес-сценариев для подходов в отношении архитектуры</li><li>Рекомендации по разработке</li><li>Поток миграции одного события</li><li>Поток поэтапной миграции</li><li>Поток перемещения или разделения клиента</li></ul>|
+|[![Эскиз плаката логической архитектуры Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Обновлено 2020 октября    |Эта модель содержит: <ul><li>Сопоставление бизнес-сценариев для подходов в отношении архитектуры</li><li>Рекомендации по разработке</li><li>Пример однопотоковой миграции с одним событием</li><li>Пример поэтапной миграции</li><li>Пример перемещения или разбиения клиента</li></ul>|
 
 <a name="security"></a>
 ### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Обеспечение безопасности в облаке Майкрософт для корпоративных архитекторов
