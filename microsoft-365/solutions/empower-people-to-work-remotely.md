@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 09/02/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -19,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: Настройте инфраструктуру безопасности и служб, которая позволит вашим подчиненным работать удаленно, где бы они ни находились и в любое время.
-ms.openlocfilehash: c68e2e68ea6a5cc1204eda371cf67ca31f58d7cb
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 122df0f81200462f85d52985ccf3e42ce5d925f7
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357870"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446827"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
 
@@ -107,6 +106,6 @@ Microsoft 365 обеспечивает возможности удаленной
 5. [Развертывание служб и приложений для повышения производительности удаленных сотрудников](empower-people-to-work-remotely-teams-productivity-apps.md)
 6. [Обучение сотрудников удаленной работе с учетом их отзывов](empower-people-to-work-remotely-train-monitor-usage.md)
 
-![Действия для повышения эффективности работы удаленных сотрудников с помощью Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)
+[![Действия для повышения эффективности работы удаленных сотрудников с помощью Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
 Последние сведения от корпорации Майкрософт о поддержке удаленных сотрудников, см. в статье [Начало удаленной работы с Tech Community](https://resources.techcommunity.microsoft.com/enabling-remote-work/).

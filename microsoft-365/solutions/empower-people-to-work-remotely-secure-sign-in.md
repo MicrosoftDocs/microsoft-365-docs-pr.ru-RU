@@ -5,7 +5,6 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/22/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -18,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Необходимо, чтобы удаленные работники входили в систему с помощью многофакторной проверки подлинности (MFA).
-ms.openlocfilehash: a5977c1f4b5189f39623399f0b45a31e6edd4de7
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 7f24402dcedd4b544c5e6d8af2a0e18d3b62da27
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399317"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445928"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Этап 1. Повышение безопасности входа для удаленных сотрудников с помощью MFA
 
@@ -39,7 +38,7 @@ ms.locfileid: "48399317"
 |---------|---------|
 |Все планы Microsoft 365 (без лицензий Azure AD Premium P1 или P2)     |[Включите параметры безопасности, по умолчанию заданные в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.   |
 |Microsoft 365 E3 (включает лицензии Azure AD Premium P1)     | Используйте [Общие политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br>- [Обязательное использование MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Обязательное использование MFA для всех пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5 (включает лицензии Azure AD Premium P2)     | Пользуйтесь преимуществами функции защиты идентификации Azure AD, начните применять [Рекомендуемый набор политики условного доступа и связанных с ней политик](../security/office-365-security/identity-access-policies.md) (Майкрософт), создав две следующие политики.<br> - [Обязательное использование MFA при среднем или высоком риске входа в систему](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Необходимость смены пароля для пользователей с высоким риском](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Microsoft 365 E5 (включает лицензии Azure AD Premium P2)     | Пользуйтесь преимуществами защиты идентификации Azure AD, начните применять [рекомендуемый набор политики условного доступа и связанных с ней политик](../security/office-365-security/identity-access-policies.md) (Майкрософт), создав две следующие политики.<br> - [Обязательное использование MFA при среднем или высоком риске входа в систему](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Необходимость смены пароля для пользователей с высоким риском](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ## <a name="security-defaults"></a>Параметры безопасности по умолчанию
@@ -119,5 +118,7 @@ ms.locfileid: "48399317"
 - могут использовать SSPR для сброса своих паролей.
 
 ## <a name="next-step"></a>Следующий этап
+
+[![Этап 2. Обеспечение удаленного доступа к локальным приложениям и службам](../media/empower-people-to-work-remotely/remote-workers-step-grid-2.png)](empower-people-to-work-remotely-remote-access.md)
 
 Перейдите к [этапу 2](empower-people-to-work-remotely-remote-access.md), чтобы обеспечить удаленный доступ к локальным приложениям и службам.

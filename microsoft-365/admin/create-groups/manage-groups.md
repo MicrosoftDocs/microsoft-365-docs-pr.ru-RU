@@ -19,16 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Сведения об управлении группами Microsoft 365, в том числе добавление участников группы, изменение адреса электронной почты, имени группы или описания и настройка работы группы.
-ms.openlocfilehash: 29eaa762116498799d4156b58c8f9bf466f04073
-ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
+ms.openlocfilehash: 7cc9bc6eb79b305c7d20d8075b6dc287e4f8b5d7
+ms.sourcegitcommit: 88c2461b14cd16f74979f4bcd0a9ad18e4422cb3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48343275"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469713"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Управление группой в центре администрирования Microsoft 365
 
-Создав группу [Microsoft 365](create-groups.md) и добавив участников группы, вы можете настроить группу. Вы можете изменить имя или описание группы, управлять владельцами или членами и указать, могут ли внешние отправители отправлять почту группе, а также отправлять копии групповых бесед участникам. 
+Создав группу [Microsoft 365](create-groups.md) и добавив участников группы, вы можете настроить группу. Вы можете изменить имя или описание группы, управлять владельцами или членами и указать, могут ли внешние отправители отправлять почту группе, а также отправлять копии групповых бесед участникам.
+
+Перейдите в центр администрирования Microsoft 365 по адресу [https://admin.microsoft.com](https://admin.microsoft.com) .
 
 ## <a name="edit-the-group-name-or-description"></a>Изменение имени или описания группы
 

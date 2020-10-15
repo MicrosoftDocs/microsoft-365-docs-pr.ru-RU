@@ -5,7 +5,6 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -18,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: a873c003537b98d10db5fc8a660b9d15ac0bcc23
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 879df16b379a82fcdc9478f8b3a787dd74384171
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399305"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445834"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 
@@ -101,6 +100,8 @@ Teams предоставляет платформу для приложений 
 - [Обучение пользователей работе с Office и Microsoft 365](https://support.microsoft.com/office/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c27)
 - [Использование Office в Интернете](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
+
+[![Этап 6. Обучение пользователей и отслеживание освоения ими материала](../media/empower-people-to-work-remotely/remote-workers-step-grid-6.png)](empower-people-to-work-remotely-train-monitor-usage.md)
 
 Перейдите на [этап 6](empower-people-to-work-remotely-train-monitor-usage.md), чтобы приступить к подготовке пользователей и отслеживанию освоения ими материала.

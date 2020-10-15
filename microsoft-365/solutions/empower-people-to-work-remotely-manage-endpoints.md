@@ -5,7 +5,6 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -18,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Используйте Microsoft Endpoint Manager для управления устройствами, компьютерами и другими конечными точками.
-ms.openlocfilehash: 5c6e433918709a55f03d786891ec0fd7ac62a26b
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: b50279166b313742dbfbe8e75dd9788aac6b1daa
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377239"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445969"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Этап 4. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек
 
@@ -94,6 +93,8 @@ Windows Autopilot позволяет ИТ-отделам предварител�
 
 Вы используете набор функций и возможностей Endpoint Manager для управления мобильными устройствами, компьютерами, виртуальными машинами, встроенными устройствами и серверами.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
+
+[![Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников](../media/empower-people-to-work-remotely/remote-workers-step-grid-5.png)](empower-people-to-work-remotely-teams-productivity-apps.md)
 
 Перейдите к [этапу 5](empower-people-to-work-remotely-teams-productivity-apps.md), чтобы дать удаленным сотрудникам возможность использовать приложения Microsoft 365 для повышения производительности, такие как Microsoft Teams.
