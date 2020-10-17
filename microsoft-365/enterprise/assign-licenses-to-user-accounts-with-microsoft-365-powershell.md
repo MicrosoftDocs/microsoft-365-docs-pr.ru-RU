@@ -21,22 +21,26 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 description: В этой статье рассказывается, как использовать PowerShell для назначения лицензии Microsoft 365 нелицензированным пользователям.
-ms.openlocfilehash: f042f8109bf9ac9b634bc66509c60a5181fb1af6
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 8c3165b99477afa14e6d2b0da927b5f64c416ef1
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235622"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580944"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>Назначение лицензий Microsoft 365 для учетных записей пользователей с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Пользователи не могут использовать службы Microsoft 365, пока их учетной записи не назначена лицензия из плана лицензирования. С помощью PowerShell можно быстро назначить лицензии нелицензированным учетным записям. 
 
->[!Note]
->Учетным записям пользователей должно быть назначено расположение. Это можно сделать в свойствах учетной записи пользователя в центре администрирования Microsoft 365 или PowerShell.
->
+Сначала необходимо назначить учетным записям пользователей расположение. Указание расположения является обязательной частью создания новой учетной записи пользователя в [центре администрирования Microsoft 365](../admin/add-users/add-users.md). 
+
+Для учетных записей, синхронизированных из локальных доменных служб Active Directory, по умолчанию не задано расположение. Расположение для этих учетных записей можно настроить из:
+
+- Центр администрирования Microsoft 365
+ - [PowerShell](configure-user-account-properties-with-microsoft-365-powershell.md)
+ - [Портал Azure](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (пользователи**Active Directory**  >  **Users** > учетной записи пользователя, > **Profile**  >  **сведения о контакте**в профиле  >  **страны или региона**).
 
 >[!Note]
 >[Узнайте, как назначать лицензии учетным записям пользователей](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) с помощью центра администрирования Microsoft 365. Список дополнительных ресурсов приведен в разделе [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
@@ -111,7 +115,7 @@ Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
 ```
 
-Пример:
+Например:
 
 ```powershell
 Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US

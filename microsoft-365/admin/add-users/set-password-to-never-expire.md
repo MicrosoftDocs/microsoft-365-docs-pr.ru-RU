@@ -2,8 +2,8 @@
 title: Установка бессрочных пользовательских паролей
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: kwekua
+author: kwekua
 manager: mnirkhe
 audience: Admin
 ms.topic: article
@@ -22,20 +22,20 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Сведения о том, как задать срок действия отдельных паролей для отдельных пользователей с помощью Windows PowerShell.
-ms.openlocfilehash: 01817aba0de1f5ca5f0b9bdf7feb1d03d72f6a24
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: e778ad8a020a6767934d51f8bc227bfc39b13a9b
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361753"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580920"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
 В этой статье объясняется, как настроить пароль для отдельного пользователя без ограничения срока действия. Необходимо выполнить эти действия с помощью PowerShell.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Прежде чем начать
 
-Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Для выполнения этих действий необходимо войти в учетную запись администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md). 
+Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md) 
 
 Для выполнения этих действий необходимо быть [глобальным администратором или администратором паролей](about-admin-roles.md) .
 
@@ -48,7 +48,7 @@ ms.locfileid: "47361753"
 
 ## <a name="how-to-check-the-expiration-policy-for-a-password"></a>Проверка политики истечения срока действия для пароля
 
-Дополнительные сведения о команде Get – AzureADUser в модуле AzureAD можно найти в справочной статье [Get/AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).
+Для получения дополнительных сведений о команде Get-AzureADUser в модуле AzureAD, обратитесь к справочной статье [Get – AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).
 
 Выполните одну из следующих команд:
 
@@ -60,7 +60,7 @@ ms.locfileid: "47361753"
     }
     ```
 
-    Пример.
+    Пример:
 
     ```powershell
     Get-AzureADUser -ObjectId userUPN@contoso.com | Select-Object UserprincipalName,@{

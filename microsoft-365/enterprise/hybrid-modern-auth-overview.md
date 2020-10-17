@@ -4,7 +4,7 @@ ms.author: kvice
 ms.reviewer: smithre4
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 08/25/2020
+ms.date: 10/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: В этой статье вы узнаете о гибридной современной проверке подлинности и необходимых условиях для использования с локальными серверами Skype для бизнеса и Exchange.
-ms.openlocfilehash: 82cd4203e2e9dc53c6add542c5f0ba90530b6548
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: dbd108d9b04445838ce8e88a921af717ebd763be
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361931"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487724"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>Общие сведения о гибридной современной проверке подлинности и предварительные требования для ее использования с локальными серверами Skype для бизнеса Server и Exchange Server
 
@@ -161,6 +161,7 @@ Get-CSOAuthConfiguration
     Клиенты и/или протоколы, которые не указаны в списке (например, POP3), не поддерживают современные проверки подлинности с локальным Exchange и продолжают использовать устаревшие механизмы проверки подлинности даже после включения современной проверки подлинности в среде.
 
 - **Общие предварительные требования**
+  - Сценарии леса ресурсов требуют двустороннего доверия с лесом учетных записей для обеспечения надлежащего поиска SID во время гибридных запросов проверки подлинности. 
   - В случае использования AD FS для федерации необходимо иметь AD FS 3.0 для Windows 2012 R2 и более поздней версии.
   - Конфигурации удостоверений должны быть любых типов, поддерживаемых Azure AD Connect, например синхронизация хэша паролей, сквозная проверка подлинности и локальная служба маркеров безопасности (STS), которую поддерживает Office 365.
   - У вас настроено и работает средство Azure AD Connect для репликации и синхронизации пользователей.

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f18a98b19b6a1920d1e4d2094ba0bab74f10035e
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: e3b29a8182e38fa05e5f791478157c978632fb13
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430143"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477009"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -56,7 +56,7 @@ ms.locfileid: "48430143"
 
 - **Содержит ритм**, чтобы избежать необязательного поиска подстрок в словах, используйте оператор, `has` а не `contains` . [Сведения об строковых операторах](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
 - **Искать в определенных столбцах**— искать в определенном столбце, а не выполнять полнотекстовый поиск по всем столбцам. Не используйте `*` для проверки всех столбцов.
-- **С учетом регистра для скорости**— Поиск с учетом регистра — более конкретный и более производительный. Имена [строковых операторов](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)с учетом регистра, такие как `has_cs` и `contains_cs` , как правило, заканчивается на `_cs` . Кроме того, можно использовать оператор равенства с учетом регистра, `==` а не `~=` .
+- **С учетом регистра для скорости**— Поиск с учетом регистра — более конкретный и более производительный. Имена [строковых операторов](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)с учетом регистра, такие как `has_cs` и `contains_cs` , как правило, заканчивается на `_cs` . Кроме того, можно использовать оператор равенства с учетом регистра, `==` а не `=~` .
 - **Parse, не извлекайте**, когда это возможно, используйте [оператор Parse](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) или функцию синтаксического анализа, например [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). Избегайте `matches regex` строкового оператора или [функции extract ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction), в которых используется регулярное выражение. Зарезервируйте использование регулярных выражений для более сложных сценариев. [Подробнее о функциях синтаксического анализа](#parse-strings)
 - **Фильтрация таблиц без выражений**— не отфильтровывайте вычисляемый столбец, если вы можете выполнить фильтрацию по столбцу таблицы.
 - **Отсутствие трех символов**— Избегайте сравнения или фильтрации с использованием терминов, состоящих из трех или менее трех символов. Эти термины не индексируются и их сопоставлению требуют больше ресурсов.
@@ -263,7 +263,7 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 
 Чтобы узнать обо всех поддерживаемых функциях синтаксического анализа, [прочитайте о функциях строк Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions). 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Документация по языку запросов Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
 - [Ограничения службы](advanced-hunting-limits.md)
 - [Обработка дополнительных ошибок при поиске](advanced-hunting-errors.md)

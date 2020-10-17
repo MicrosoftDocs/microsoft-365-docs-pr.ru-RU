@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как создать команду с уникальной меткой конфиденциальности в целях безопасности.
-ms.openlocfilehash: fdebfcbfa4aad68f381db4ffb8c9b83a5100187c
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 46bc63bab52bf75dc7c215510d49b4d985ff07c3
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398719"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487486"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Настройка команды с изоляцией для обеспечения безопасности
 
@@ -41,6 +41,10 @@ ms.locfileid: "48398719"
 
 > [!IMPORTANT]
 > Включите [метки конфиденциальности для защиты содержимого в Microsoft Teams, группах Office 365 и сайтах SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), прежде чем продолжить выполнение инструкций из этой статьи.
+
+Обзор процесса развертывания показан в приведенном ниже видео.
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
 <a name="poster"></a> 2-страничное краткое описание этого сценария приведено на [плакате "Microsoft Teams с изоляцией для обеспечения безопасности"](../downloads/team-security-isolation-poster.pdf).
 

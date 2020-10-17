@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 1a7b87432ce1eb16c29f462fb4865bfa5c5e2201
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: e56ba8933947c37db3e558ef36dd6d305915040f
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418101"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487628"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Заключение и подведение итогов для пилотной программы Майкрософт по защите от угроз  
 
@@ -87,13 +87,13 @@ ms.locfileid: "48418101"
 - Подробный отчет о результатах пилотного проекта
 - Решение о перемещении вперед
 
-Представьте отчеты из итоговой выводимых внутренних заинтересованных лиц (которые определены на этапе [подготовки](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) ) и контактов Майкрософт. Это гарантирует, что любые отзывы можно использовать для усовершенствования продуктов и документации.
+Предоставление отчетов из итогового выхода внутренним заинтересованным лицам (которые определены на этапе [подготовки](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) ) и контактах Майкрософт. Это гарантирует, что любые отзывы можно использовать для усовершенствования продуктов и документации.
 
 Мы надеемся, что вы довольны этим моделированием. Начните внедрять то, что вы узнали из большого масштаба в вашей организации, чтобы максимально эффективно использовать встроенную систему безопасности.
 
 ## <a name="next-step"></a>Следующий этап
 Узнайте больше о базовых средствах защиты от угроз Майкрософт с помощью следующих интерактивных руководств:
 - [Защита Организации с помощью защитника Майкрософт для Office 365](https://aka.ms/O365ATP-Interactive-Guide)
-- [Обнаружение подозрительных действий и потенциальных атак с помощью защитника Майкрософт для удостоверения](https://aka.ms/AATP-Interactive-Guide)
+- [Обнаружение подозрительных действий и возможных атак с помощью Microsoft Defender для удостоверений](https://aka.ms/AATP-Interactive-Guide)
 - [Обнаружение угроз и Управление оповещениями с помощью Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
 - [Исследование и исправление угроз с помощью защитника Майкрософт для конечной точки](https://aka.ms/MDATP-IR-Interactive-Guide)

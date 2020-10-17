@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 4ec46891248c09f580b19d888573544ad2b4930f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: f49f1afe5461a4f2eff0a3049f1d14d1892f70ce
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446871"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477030"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>Запуск пилотного проекта Microsoft Threat protection 
 
@@ -41,6 +41,16 @@ ms.locfileid: "48446871"
 ## <a name="how-to-use-this-pilot-playbook"></a>Как использовать эту пилотную стратегия
 
 В этом руководстве представлен обзор защиты от угроз Майкрософт и пошаговые инструкции по настройке пилотного проекта. 
+
+Защита от угроз Майкрософт — это единый пакет защиты от "до и после нарушения", который изначально координирует защиту, обнаружение, защиту, исследование и ответ между конечными точками, удостоверениями, электронной почтой и приложениями для обеспечения интегрированной защиты от изощренных атак. Благодаря этому в единое решение для обеспечения безопасности комбинируются и объединяются следующие возможности:
+  - Защитник Майкрософт для конечной точки, новое имя для Advanced Threat Protection в защитнике Майкрософт (конечные точки)
+  - Защитник Майкрософт для Office 365 — новое имя для Office 365 ATP (электронная почта) 
+  - Защитник Майкрософт для удостоверения, новое имя для Azure ATP (Identity) 
+  - Microsoft Cloud App Security (приложения)
+
+![Image of_Microsoft защита от угроз для пользователей, Advanced Threat Protection в Azure, для конечных точек Microsoft Defender Advanced Threat Protection, для облачных приложений, Microsoft Cloud App Security и данных, Office 365 Advanced Threat protection  ](../../media/mtp/m365pillars.png)
+
+Благодаря встроенному решению Майкрософт для защиты от угроз специалисты по безопасности могут объединить сигналы угроз, которые обеспечивают повышенную угрозу безопасности защитником Майкрософт, Office 365 ATP, Azure ATP и Cloud App Security, а также определяют всю область и влияние угрозы, способ ввода среды, то, что он затронет и как в настоящее время влияет на организацию. Защита от угроз Майкрософт выполняет автоматические действия по предотвращению или прекращению атак и автовосстановления, затронутых почтовых ящиков, конечных точек и удостоверений пользователей. Подробные сведения можно найти в [статье Обзор защиты от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) .
 
 ![Этапы запуска пилотного проекта по защите от угроз Майкрософт](../../media/pilotphases.png)
 

@@ -3,7 +3,6 @@ title: Настройка свойств учетной записи польз�
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +18,12 @@ ms.custom:
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
 description: 'Сводка: использование PowerShell для Microsoft 365 для настройки свойств отдельных или нескольких учетных записей пользователей в клиенте Microsoft 365.'
-ms.openlocfilehash: 6a435b3981efa8d8c2be7f6d983a1d062237f0db
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ae797d67b47c637dc95176b92fad8090f8a7ab37
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692920"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580932"
 ---
 # <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>Настройка свойств учетной записи пользователя Microsoft 365 с помощью PowerShell
 
@@ -34,7 +33,7 @@ ms.locfileid: "46692920"
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Чтобы настроить свойства учетных записей пользователей с помощью модуля PowerShell Azure Active Directory для Graph, используйте командлет [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0), указав свойства, которые нужно задать или изменить. 
+Чтобы настроить свойства учетных записей пользователей с помощью модуля PowerShell Azure Active Directory для Graph, используйте командлет [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser), указав свойства, которые нужно задать или изменить. 
 
 Сначала [подключитесь к клиенту Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
    
@@ -74,8 +73,11 @@ ms.locfileid: "46692920"
     
     Это двухбуквенный код страны или региона согласно ISO 3166-1 alpha-2 (A2).
     
-Сведения о дополнительных параметрах см. в статье [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0).
+Сведения о дополнительных параметрах см. в статье [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser).
 
+>[!Note]
+>Перед назначением лицензий учетной записи пользователя необходимо назначить место использования.
+>
 
 Чтобы отобразить имя участника-пользователя для учетных записей пользователей, выполните следующую команду.
   
@@ -264,7 +266,7 @@ Get-MsolUser | Where {$_.Department -eq "Accounting"} | Set-MsolUser -UsageLocat
 - Найдите все учетные записи пользователей, для которых в свойстве Department задано значение "Accounting" (**где {$ _. Department-EQ "Accounting"}**) и отправьте полученные сведения в следующую команду ( **|** ).
     
 - Задайте для расположения пользователя значение Франция (**Set-MsolUser-UsageLocation "fr"**).
-    
+
 
 ## <a name="see-also"></a>См. также
 

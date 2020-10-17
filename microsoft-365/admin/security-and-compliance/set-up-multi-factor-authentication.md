@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения о настройке многофакторной проверки подлинности для организации.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 34133f4204c1ee305b0a249a0ff8e0e9edaf5599
-ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
+ms.openlocfilehash: 320c66e6c9db7827c22cab67df57d75375f009d4
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45153681"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464018"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
@@ -76,7 +76,7 @@ ms.locfileid: "45153681"
 
 Условный доступ могут использовать клиенты, которые приобрели Azure AD Premium P1 или лицензии, в которые входит эта служба, например Microsoft 365 бизнес премиум или Microsoft 365 E3. Для получения дополнительной информации см. статью [Создание политик условного доступа](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa).
 
-Условный доступ с учетом риска можно получить в рамках лицензии Azure AD Premium P2 или в рамках лицензии, в которую входит эта служба, например Microsoft 365 E5. Дополнительные сведения см. в статье [Условный доступ на основе рисков](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk).
+Условный доступ на основе риска доступен в рамках лицензии Azure AD Premium P2 или в рамках лицензий, в которую входит эта служба, например Microsoft 365 E5. Дополнительные сведения см. в статье [Условный доступ на основе рисков](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk).
 
 Дополнительные сведения об Azure AD P1 и P2 см. в статье [Цены для Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
@@ -96,12 +96,11 @@ ms.locfileid: "45153681"
 1. На странице многофакторной проверки подлинности выберите каждого пользователя по отдельности и установите для них многофакторную проверку подлинности в состояние **Отключено**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
-
 - [Как зарегистрировать дополнительный метод проверки подлинности](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+- [Что такое: многофакторная проверка подлинности](https://support.microsoft.com/help/4577374/what-is-multifactor-authentication)
 - [Как войти после регистрации](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
 - [Как изменить дополнительный метод проверки подлинности](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
-- [Что делать в таких ситуациях, как приобретение нового смартфона](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
-- [Устранение неполадок, возникающих при входе с MFA](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
+
 
 
 

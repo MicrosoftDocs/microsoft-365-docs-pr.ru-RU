@@ -1,11 +1,11 @@
 ---
-title: Цепочки шифрования
+title: Цепочки шифрования Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/3/2020
+ms.date: 10/16/2020
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,33 +16,35 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Просмотрите полный список корневых сертификатов и центров сертификации в Office 365.
-ms.openlocfilehash: c0f63f6e4ebc288f8b06d608af81a485e5f71e8a
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+description: Просмотрите полный список корневых сертификатов и центров сертификации в Microsoft 365.
+ms.openlocfilehash: c2a623d1e52318e954efbc843b036f99314a2feb
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307448"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580967"
 ---
-# <a name="encryption-chains"></a>Цепочки шифрования
+# <a name="microsoft-365-encryption-chains"></a>Цепочки шифрования Microsoft 365
 
-Office 365 использует несколько различных поставщиков сертификатов. Ниже приведен полный список известных корневых сертификатов Office 365, с которыми могут столкнуться пользователи при доступе к Office 365. Для получения сведений о сертификатах, которые могут потребоваться установить в собственной инфраструктуре, ознакомьтесь со статьей [Plan for СТОРОННЕГО SSL Certificates for Office 365](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates). Следующие сведения о сертификате применимы ко всем языковым и национальным облачным экземплярам Office 365.
+Microsoft 365 использует несколько различных поставщиков сертификатов. Ниже приведен полный список известных корневых сертификатов Microsoft 365, с которыми могут столкнуться пользователи при доступе к Microsoft 365. Для получения сведений о сертификатах, которые могут потребоваться установить в собственной инфраструктуре, ознакомьтесь со статьей [Plan for СТОРОННЕГО SSL Certificates for Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates). Следующие сведения о сертификате применимы ко всем языковым и национальным облачным экземплярам Microsoft 365.
+
+Последнее обновление: **10/16/2020**
 
 >[!NOTE]
->Сведения о сертификатах, которые относятся к клиентам с **DOD и большим** объемом GCC, приведены в статье [Office 365 Encryption цепочки шифрования — DOD и GCC High](encryption-office-365-certificate-chains-itar.md).
+>Сведения о сертификатах, которые относятся к клиентам с вызовом **DOD и GCC High** , приведены в [статье Microsoft 365 Encryption цепочки шифрования — DOD и GCC High](encryption-office-365-certificate-chains-itar.md).
 
 | **Тип сертификата** | **Скачивание P7b** | **Конечные точки CRL** | **Конечные точки OCSP** | **Конечные точки AIA** |
 | --- | --- | --- | --- | --- |
-| Общедоступные корневые сертификаты | [Пакет корневых сертификатов Office 365 (P7B)](https://download.microsoft.com/download/A/5/A/A5AE01F3-D19B-4A11-9407-801263CEF72C/O365_Root_Certs_20170321.p7b) | crl.globalsign.net<br>www.d-trust.net | Н/Д | Н/Д |
-| Общедоступные промежуточные сертификаты | [Пакет промежуточных сертификатов Office 365 (P7B)](https://download.microsoft.com/download/4/D/5/4D5339A4-0A4A-46AB-AE52-B179DEDA4BEC/O365_Intermediate_Certs_20170321.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
+| Общедоступные корневые сертификаты | [Пакет корневых сертификатов Microsoft 365 (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | Н/Д | Н/Д |
+| Общедоступные промежуточные сертификаты | [Пакет промежуточных сертификатов (P7B) Microsoft 365](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 Разверните корневые и промежуточные разделы ниже, чтобы просмотреть дополнительные сведения о поставщиках сертификатов.
 
-## <a name="office-365-root-certificate-details"></a>**Сведения о корневом сертификате Office 365**
+## <a name="microsoft-365-root-certificate-details"></a>**Сведения о корневом сертификате Microsoft 365**
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
-| **Тема** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
+| **Subject** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | --- | --- |
 | **Серийный номер** | 02:00:00: B9 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -56,7 +58,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="cnnic-root"></a>**КОРЕНЬ КННИК**
 
-| **Тема** | CN = КННИК ROOT<br>O = КННИК<br>C = CN |
+| **Subject** | CN = КННИК ROOT<br>O = КННИК<br>C = CN |
 | --- | --- |
 | **Серийный номер** | 49:33:00:01 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -71,7 +73,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="digicert-global-root-ca"></a>**Глобальный корневой ЦС DigiCert**
 
-| **Тема** | CN = DigiCert глобальный корневой ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = DigiCert глобальный корневой ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Серийный номер** | 08:3B: E0:56:90:42:46: B1: A1:75:6A: C9:59:91: C7:4A |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -84,9 +86,24 @@ Office 365 использует несколько различных поста
 | **Отпечаток (SHA-256)** | 4348A0E9444C78CB265E058D5E8944B4D84F9662BD26DB257F8934A443C70161 |
 | **ПИН-код (SHA-256)** | r/mIkG3eEpVdm + u/Ko/cwxzOMo1bk4TyHIlByibiA5E = |
 
+### <a name="digicert-global-root-g2"></a>**Глобальное корневое DigiCert, G2**
+
+| **Subject** | CN = DigiCert Global Root G2<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Издатель** | CN = DigiCert Global Root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 03:3A:: F1: E6: A7:11: A9: A0: BB: 28:64: B1:1Д: 09 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Четверг, 1 августа 2013 5:00 AM |
+| **Срок действия не до** | Пятница, 15 января 2038 4:00 AM |
+| **Идентификатор ключа субъекта** | 4E2254201895E6E36EE60FFAFAB912ED06178F39 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 4E: 22:54:20:18:95: E6: E3:6e: E6:0F: FA: FA: B9:12: Ed: 06:17:8F: 39 |
+| **Отпечаток (SHA-1)** | DF3C24F9BFD666761B268073FE06D1CC8D4F82A4 |
+| **Отпечаток (SHA-256)** | CB3CCBB76031E5E0138F8DD39A23F9DE47FFC35E43C1144CEA27D46A5AB1CB5F |
+
 ### <a name="digicert-high-assurance-ev-root-ca"></a>**Корневой центр сертификации высокой надежности DigiCert**
 
-| **Тема** | CN = DigiCert (корневой центр сертификации высокой надежности)<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = DigiCert (корневой центр сертификации высокой надежности)<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Серийный номер** | 02: AC: 5C: 26:6A: 0B: 40:9B: 8F: 0B: 79: F2: AE: 46:25:77 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -101,7 +118,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="d-trust-root-class-3-ca-2-2009"></a>**D-корневой класс доверия 3 ЦС 2 2009**
 
-| **Тема** | CN = D-ДОВЕРЯТЬ корневому классу 3 ЦС 2 2009<br>O = D-Trust ГмбХ<br>C = DE |
+| **Subject** | CN = D-ДОВЕРЯТЬ корневому классу 3 ЦС 2 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | --- | --- |
 | **Серийный номер** | 09:83: F3 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -116,7 +133,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="d-trust-root-class-3-ca-2-ev-2009"></a>**D-корневой класс доверия 3 ЦС 2 EV 2009**
 
-| **Тема** | CN = D-TRUST корневой класс 3 ЦС 2 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
+| **Subject** | CN = D-TRUST корневой класс 3 ЦС 2 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | --- | --- |
 | **Серийный номер** | 09:83: F4 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -131,7 +148,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="dst-root-ca-x3"></a>**Корневой ЦС для летнего времени**
 
-| **Тема** | CN = корневой сертификат DST X3<br>O = цифровая подпись — Co. |
+| **Subject** | CN = корневой сертификат DST X3<br>O = цифровая подпись — Co. |
 | --- | --- |
 | **Серийный номер** | 44: AF: AF: 80: D6: A3:27: BA: 89:30:39:86:2E: F8:40:6B |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -145,7 +162,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Корневой центр сертификации ентруст — G2**
 
-| **Тема** | CN = Ентруст корневой центр сертификации — G2<br>OU = &quot; (c) 2009 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
+| **Subject** | CN = Ентруст корневой центр сертификации — G2<br>OU = &quot; (c) 2009 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Серийный номер** | 4A: 53:8C: 28 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -159,7 +176,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Центр сертификации Entrust.net (2048)**
 
-| **Тема** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS \_ 2048. по ссылке ref. (Limit s лиаб.)<br>O = Ентруст. NET |
+| **Subject** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS \_ 2048. по ссылке ref. (Limit s лиаб.)<br>O = Ентруст. NET |
 | --- | --- |
 | **Серийный номер** | 38:63: DE: F8 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -173,7 +190,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign"></a>**глобалсигн**
 
-| **Тема** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R2 |
+| **Subject** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R2 |
 | --- | --- |
 | **Серийный номер** | 04:00:00:00:00:01:0F: 86:26: E6:0D |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -187,9 +204,24 @@ Office 365 использует несколько различных поста
 | **ПИН-код (SHA-256)** | iie1VXtL7HzAMF +/PVPR9xzT80kQxdZeJ + zduCB3uj0 = |
 | **URL-адреса CRL** | http://crl.globalsign.net/root-r2.crl |
 
+### <a name="globalsign"></a>**глобалсигн**
+
+| **Subject** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R3 |
+| --- | --- |
+| **Издатель** | CN = Глобалсигн, O = Глобалсигн, OU = Глобалсигн корневой ЦС — R3 |
+| **Серийный номер** | 04:00:00:00:00:01:21:58:53:08: a2 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Среда, 18 марта 2009 3:00 AM |
+| **Срок действия не до** | Воскресенье, 18 марта 2029 3:00 AM |
+| **Идентификатор ключа субъекта** | 8FF04B7FA82E4524AE4D50FA639A8BDEE2DD1BBC |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 8F:: F0:4b: 7F: A8:2e: 45:24: AE: 4d: 50: FA: 63:9a: 8b: de: E2: дд: 1b: BC |
+| **Отпечаток (SHA-1)** | D69B561148F01C77C54578C10926DF5B856976AD |
+| **Отпечаток (SHA-256)** | CBB522D7B7F127AD6A0113865BDF1CD4102E7D0759AF635A7CF4720DC963C53B |
+
 ### <a name="globalsign-root-ca"></a>**Корневой центр сертификации Глобалсигн**
 
-| **Тема** | CN = Глобалсигн корневой центр сертификации<br>OU = корневой ЦС<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Subject** | CN = Глобалсигн корневой центр сертификации<br>OU = корневой ЦС<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Серийный номер** | 04:00:00:00:00:00:15:4B:/1:94:94 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -203,7 +235,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="thawte-primary-root-ca---g3"></a>**Основной корневой ЦС Thawte — G3**
 
-| **Тема** | CN = Thawte основной корневой ЦС — G3<br>OU = &quot; (c) 2008 Thawte, Inc. — только для уполномоченного использования&quot;<br>OU = разделение служб сертификации<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
+| **Subject** | CN = Thawte основной корневой ЦС — G3<br>OU = &quot; (c) 2008 Thawte, Inc. — только для уполномоченного использования&quot;<br>OU = разделение служб сертификации<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Серийный номер** | 60:01:97: B7:46: A7: A7: B4: B4: B4:9A: D6:4B: 2F: F7:90: ФБ |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -217,7 +249,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="verisign-class-3-public-primary-certification-authority---g5"></a>**Общедоступный основной центр сертификации для класса VeriSign 3 — G5**
 
-| **Тема** | CN = VeriSign класс 3 общедоступный основной центр сертификации — G5<br>OU = &quot; (c) 2006 VeriSign, Inc. — только для уполномоченного использования&quot;<br>OU = сеть организации доверия VeriSign<br>O = &quot; VeriSign, Inc.&quot;<br>C = US |
+| **Subject** | CN = VeriSign класс 3 общедоступный основной центр сертификации — G5<br>OU = &quot; (c) 2006 VeriSign, Inc. — только для уполномоченного использования&quot;<br>OU = сеть организации доверия VeriSign<br>O = &quot; VeriSign, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Серийный номер** | 18: DA: D1:9E: 26:7D: E8: BB: 4A: 21:58: CD: CC: 6B: 3B: 4A |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -229,11 +261,11 @@ Office 365 использует несколько различных поста
 | **Отпечаток (SHA-256)** | 9ACFAB7E43C8D880D06B262A94DEEEE4B4659989C3D0CAF19BAF6405E41AB7DF |
 | **ПИН-код (SHA-256)** | JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg = |
 
-## <a name="office-365-intermediate-certificate-details"></a>**Подробные сведения о промежуточном сертификате Office 365**
+## <a name="microsoft-365-intermediate-certificate-details"></a>**Подробные сведения о промежуточных сертификатах Microsoft 365**
 
 ### <a name="cnnic-sha256-ssl"></a>**КННИК SHA256 SSL**
 
-| **Тема** | CN = КННИК SHA256 SSL <br>O = КННИК SHA256 SSL <br>C = CN |
+| **Subject** | CN = КННИК SHA256 SSL <br>O = КННИК SHA256 SSL <br>C = CN |
 | --- | --- |
 | **Издатель** | CN = КННИК ROOT <br>O = КННИК <br>C = CN |
 | **Серийный номер** | 49:33:00:7C |
@@ -252,7 +284,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="d-trust-ssl-class-3-ca-1-2009"></a>**D-TRUST SSL Class 3 CA 1 2009**
 
-| **Тема** | CN = D-TRUST SSL класс 3 ЦС 1 2009<br>O = D-Trust ГмбХ<br>C = DE |
+| **Subject** | CN = D-TRUST SSL класс 3 ЦС 1 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | --- | --- |
 | **Издатель** | CN = D-ДОВЕРЯТЬ корневому классу 3 ЦС 2 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | **Альтернативное имя субъекта** | RFC822 Name=info@d-trust.net<br>URL-адрес =http://www.d-trust.net |
@@ -271,7 +303,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="d-trust-ssl-class-3-ca-1-ev-2009"></a>**D-TRUST SSL Class 3 ЦС 1 EV 2009**
 
-| **Тема** | CN = D-TRUST SSL класс 3 ЦС 1 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
+| **Subject** | CN = D-TRUST SSL класс 3 ЦС 1 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | --- | --- |
 | **Издатель** | CN = D-TRUST корневой класс 3 ЦС 2 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | **Альтернативное имя субъекта** | RFC822 Name=info@d-trust.net<br>URL-адрес =http://www.d-trust.net |
@@ -288,9 +320,26 @@ Office 365 использует несколько различных поста
 | **URL-адреса CRL** | ldap://directory.d-trust.net/CN=D-TRUST%20Root%20Class%203%20CA%202%20EV%202009,O=D-Trust%20GmbH,C=DE?certificaterevocationlist<br>http://www.d-trust.net/crl/d-trust\_root\_class\_3\_ca\_2\_ev\_2009.crl |
 | **URL-адреса OCSP** | http://root-c3-ca2-ev-2009.ocsp.d-trust.net |
 
+### <a name="digicert-basic-rsa-cn-ca-g2"></a>**DigiCert Basic RSA CN CA CA G2**
+
+| **Subject** | CN = DigiCert Basic RSA CN CA, G2<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Издатель** | CN = DigiCert глобальный корневой ЦС, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 02: #: E1: F9: F9:: 82: В D0:09: AF: F4:7D: C9:57:41: B2: F6 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Среда, 4 марта, 2020 4:04 AM |
+| **Срок действия не до** | Понедельник, 4 марта 2030 4:04 AM |
+| **Идентификатор ключа субъекта** | 06BDA69B60795031BED5A9024AA0D095538B2F34 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 03: de: 50:35:56: D1:4c: BB: 66: F0: A3: E2:1b: 1b: C3:97: B2:3D: D1:55 |
+| **Отпечаток (SHA-1)** | 4D1FA5D1FB1AC3917C08E43F65015E6AEA571179 |
+| **Отпечаток (SHA-256)** | CB57B3FF2040CB269497625BC90FA9D7B4ED4938C6F60F42F69AFDF508AC2993 |
+| **URL-адреса CRL** | http://crl.digicert.cn/DigiCertGlobalRootCA.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.cn |
+
 ### <a name="digicert-cloud-services-ca-1"></a>**ЦС облачных служб DigiCert — 1**
 
-| **Тема** | CN = DigiCert Cloud Services CA (ЦС) — 1<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = DigiCert Cloud Services CA (ЦС) — 1<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Издатель** | CN = DigiCert глобальный корневой ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Серийный номер** | 01: "9E: C6: C6: C6:3F: 59:7B: B2:0C: 33:38:/Д: 51: D8:77 |
@@ -306,9 +355,43 @@ Office 365 использует несколько различных поста
 | **URL-адреса CRL** | http://crl4.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl3.digicert.com/DigiCertGlobalRootCA.crl |
 | **URL-адреса OCSP** | http://ocsp.digicert.com |
 
+### <a name="digicert-cloud-services-ca-1"></a>**ЦС облачных служб DigiCert — 1**
+
+| **Subject** | CN = DigiCert Cloud Services CA (ЦС) — 1<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Издатель** | CN = DigiCert глобальный корневой ЦС, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 0F: 17:1A: 48: C6: F2:23:80:92:18: CD: 2E: D6: DD: C0: E8 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Четверг, 24 сентября 2020 5:00 PM |
+| **Срок действия не до** | Вторник, 24 сентября 2030 4:59 PM |
+| **Идентификатор ключа субъекта** | DD51D0A23173A973AE8FB4017E5D8C57CB9FF0F7 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 03: de: 50:35:56: D1:4c: BB: 66: F0: A3: E2:1b: 1b: C3:97: B2:3D: D1:55 |
+| **Отпечаток (SHA-1)** | B3F6B64A07BB9611F47174407841F564FB991F29 |
+| **Отпечаток (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
+
+### <a name="digicert-sha2-extended-validation-server-ca"></a>**DigiCert SHA2 расширенный ЦС сервера проверки подлинности**
+
+| **Subject** | CN = DigiCert SHA2 расширенный ЦС сервера проверки подлинности<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Издатель** | CN = DigiCert High Assurance (корневой центр сертификации), OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 0C: 79: A9:44: B0:8C: 11:95:20:92:61:5F: E2:6B: 1Д: 83 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Вторник, 22 октября 2013 5:00 AM |
+| **Срок действия не до** | Воскресенье 22 октября 2028 5:00 AM |
+| **Идентификатор ключа субъекта** | 3DD350A5D6A0ADEEF34A600A65D321D4F8F8D60F |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: B1:3E: C3:69:03: в: БФ: 47:01: D4:98:26: стр: 08:02::: C3 |
+| **Отпечаток (SHA-1)** | 7E2F3A4F8FE8FA8A5730AECA029696637E986F3F |
+| **Отпечаток (SHA-256)** | 403E062A2653059113285BAF80A0D4AE422C848C9F78FAD01FC94BC5B87FEF1A |
+| **URL-адреса CRL** | http://crl4.digicert.com/DigiCertHighAssuranceEVRootCA.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
+
 ### <a name="digicert-sha2-high-assurance-server-ca"></a>**Центр сертификации серверов DigiCert SHA2 High Assurance**
 
-| **Тема** | CN = DigiCert SHA2 Server высокой надежности ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = DigiCert SHA2 Server высокой надежности ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Издатель** | CN = DigiCert (корневой центр сертификации высокой надежности)<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Серийный номер** | 04: E1: E7: A4: DC: 5C: F2: F3:6D: C0:2B: 42: B8:5D: 15:9F |
@@ -326,7 +409,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 безопасности ЦС сервера**
 
-| **Тема** | CN = DigiCert SHA2 Secure CA Server<br>O = DigiCert Inc<br>C = US |
+| **Subject** | CN = DigiCert SHA2 Secure CA Server<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Издатель** | CN = DigiCert глобальный корневой ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Серийный номер** | 01: ДЕМО: A3: A3:6E: CA: 75: C8:88:43:8B: 72:4B: CF: BC: 91 |
@@ -342,9 +425,43 @@ Office 365 использует несколько различных поста
 | **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
 | **URL-адреса OCSP** | http://ocsp.digicert.com |
 
+### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 безопасности ЦС сервера**
+
+| **Subject** | CN = DigiCert SHA2 Secure CA Server<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Издатель** | CN = DigiCert глобальный корневой ЦС, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 02:74:2E: AA: 17: CA: 8E: 21: C7:17: BB: 1F: FC: ДЕМОН: 0C: A0 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Вторник, 22 сентября 2020 5:00 PM |
+| **Срок действия не до** | Воскресенье, 22 сентября 2030 4:59 PM |
+| **Идентификатор ключа субъекта** | 0F80611C823161D52F28E78D4638B42CE1C6D9E2 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 03: de: 50:35:56: D1:4c: BB: 66: F0: A3: E2:1b: 1b: C3:97: B2:3D: D1:55 |
+| **Отпечаток (SHA-1)** | 626D44E704D1CEABE3BF0D53397464AC8080142C |
+| **Отпечаток (SHA-256)** | C1AD7778796D20BCA65C889A2655021156528BB62FF5FA43E1B8E5A83E3D2EAA |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
+
+### <a name="digicert-tls-rsa-sha256-2020-ca1"></a>**DigiCert TLS RSA SHA256 2020 CA1**
+
+| **Subject** | CN = DigiCert TLS RSA SHA256 2020 CA1<br>O = DigiCert Inc<br>C = US |
+| --- | --- |
+| **Издатель** | CN = DigiCert глобальный корневой ЦС, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 0A: 35:08: D5:5C: 29:2B: 01:7D: F8: AD: 65: C0:0F: F7: E4 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Среда, 23 сентября 2020 5:00 PM |
+| **Срок действия не до** | Понедельник, 23 сентября 2030 4:59 PM |
+| **Идентификатор ключа субъекта** | B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 03: de: 50:35:56: D1:4c: BB: 66: F0: A3: E2:1b: 1b: C3:97: B2:3D: D1:55 |
+| **Отпечаток (SHA-1)** | 6938FD4D98BAB03FAADB97B34396831E3780AEA1 |
+| **Отпечаток (SHA-256)** | 25768713D3B459F9382D2A594F85F34709FD2A8930731542A4146FFB246BEC69 |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
+
 ### <a name="entrust-certification-authority---l1c"></a>**Центр сертификации ентруст — L1C**
 
-| **Тема** | CN = центр сертификации Ентруст — L1C<br>OU = &quot; (c) 2009 ентруст, Inc.&quot;<br>OU = www. ентруст. NET/РПА внедряется по ссылке<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
+| **Subject** | CN = центр сертификации Ентруст — L1C<br>OU = &quot; (c) 2009 ентруст, Inc.&quot;<br>OU = www. ентруст. NET/РПА внедряется по ссылке<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS \_ 2048. по ссылке ref. (Limits лиаб.)<br>O = Ентруст. NET |
 | **Серийный номер** | 4C: 0E: 8C: 39 |
@@ -362,7 +479,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-certification-authority---l1k"></a>**Центр сертификации ентруст — L1K**
 
-| **Тема** | CN = центр сертификации Ентруст — L1K<br>OU = &quot; (c) 2012 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
+| **Subject** | CN = центр сертификации Ентруст — L1K<br>OU = &quot; (c) 2012 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Ентруст корневой центр сертификации — G2<br>OU = &quot; (c) 2009 ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O = &quot; ентруст, Inc.&quot;<br>C = US |
 | **Серийный номер** | 0E: E9:4C: С3:00:00:00:00:51:: 77:85 |
@@ -378,27 +495,9 @@ Office 365 использует несколько различных поста
 | **URL-адреса CRL** | http://crl.entrust.net/g2ca.crl |
 | **URL-адреса OCSP** | http://ocsp.entrust.net |
 
-### <a name="globalsign"></a>**глобалсигн**
-
-| **Тема** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R3 |
-| --- | --- |
-| **Издатель** | CN = Глобалсигн корневой центр сертификации<br>OU = root Као = Глобалсигн NV — SA<br>C = BE |
-| **Серийный номер** | 04:00:00:00:00:25:07:1Д: F9:: AF |
-| **Длина открытого ключа** | RSA 2048 бит (e 65537) |
-| **Алгоритм подписи** | sha256RSA |
-| **Срок действия не ранее** | Ноя 18 10:00:00 2009 UTC |
-| **Срок действия не позднее** | Мар 18 10:00:00 2019 UTC |
-| **Идентификатор ключа субъекта** | 8F: F0:4b::: A8:2e: 45:24: AE: 4d: 50: FA: 63:9a: 8b: de:: дд: 1b: BC |
-| **Идентификатор ключа центра сертификации** | него значение KeyID: 60:7b: 66:1a: 45:0D: 97: CA: 89:50:2F: 7D: 04: CD: 34: A8: FF: FC:/Демон: 4b |
-| **Отпечаток (SHA-1)** | 4765557AF418C68A641199146A7E556AA8242996 |
-| **Отпечаток (SHA-256)** | FDFC6560B09C237F468B8130EB90996FF85FA13FA266239B8D5863798D6AB898 |
-| **ПИН-код (SHA-256)** | cGuxAXyFXFkWm61cF4HPWX8S0srS9j0aSqN0k4AP + 4A = |
-| **URL-адреса CRL** | http://crl.globalsign.net/root.crl |
-| **URL-адреса OCSP** | http://ocsp.globalsign.com/ExtendedSSLSHA256CACross |
-
 ### <a name="globalsign-extended-validation-ca---sha256---g2"></a>**Глобалсигн расширенной проверки CA — SHA256 – G2**
 
-| **Тема** | CN = Глобалсигн Расширенная проверка ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Subject** | CN = Глобалсигн Расширенная проверка ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R2 |
 | **Серийный номер** | 04:00:00:00:00:01:44:4E: F0:4A: 55 |
@@ -416,7 +515,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-extended-validation-ca---sha256---g3"></a>**Глобалсигн расширенной проверки ЦС — SHA256 – G3**
 
-| **Тема** | CN = Глобалсигн Расширенная проверка ЦС — SHA256 – G3<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Subject** | CN = Глобалсигн Расширенная проверка ЦС — SHA256 – G3<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R3 |
 | **Серийный номер** | 48: A4:02: ДД: 27:92:0D: A2:08:34:9D: D1:99:7B |
@@ -434,7 +533,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2**
 
-| **Тема** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Subject** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R3 |
 | **Серийный номер** | 04:00:00:00:00:00:31:89: C6:44: C9 |
@@ -452,7 +551,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2**
 
-| **Тема** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Subject** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн корневой центр сертификации<br>OU = корневой ЦС<br>O = Глобалсигн NV — SA<br>C = BE |
 | **Серийный номер** | 04:00:00:00:00:01:44:4E: F0:42:47 |
@@ -468,27 +567,43 @@ Office 365 использует несколько различных поста
 | **URL-адреса CRL** | http://crl.globalsign.net/root.crl |
 | **URL-адреса OCSP** | http://ocsp.globalsign.com/rootr1 |
 
-### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2**
+### <a name="globalsign-organization-validation-ca---sha256---g3"></a>**Глобалсигн организация — проверка подлинности ЦС — SHA256 – G3**
 
-| **Тема** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Subject** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G3<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
-| **Издатель** | CN = Глобалсигн корневой центр сертификации<br>OU = корневой ЦС<br>O = Глобалсигн NV — SA<br>C = BE |
-| **Серийный номер** | 04:00:00:00:00:01:44:4E: F0:42:47 |
-| **Длина открытого ключа** | RSA 2048 бит (e 65537) |
+| **Издатель** | CN = Глобалсигн корневой центр сертификации, OU = корневой ЦС, O = Глобалсигн NV — SA, C = BE |
+| **Серийный номер** | 47:07: B1:01:9A: 0C: 57: AD: 39: B3: E1:7D: A9: F9 |
+| **Длина открытого ключа** | RSA 2048 бит |
 | **Алгоритм подписи** | sha256RSA |
-| **Срок действия не ранее** | Фев 20 10:00:00 2014 UTC |
-| **Срок действия не позднее** | Фев 20 10:00:00 2024 UTC |
-| **Идентификатор ключа субъекта** | 96: Немецкий: 61: F1:: ^: 1C: 16:29:53:1C: C0: CC: 7D: 3b: 83:00:40: E6:1a: 7c |
-| **Идентификатор ключа центра сертификации** | него значение KeyID: 60:7b: 66:1a: 45:0D: 97: CA: 89:50:2F: 7D: 04: CD: 34: A8: FF: FC:/Демон: 4b |
-| **Отпечаток (SHA-1)** | 902EF2DEEB3C5B13EA4C3D5193629309E231AE55 |
-| **Отпечаток (SHA-256)** | 74EF335E5E18788307FB9D89CB704BEC112ABD23487DBFF41C4DED5070F241D9 |
-| **ПИН-код (SHA-256)** | Икбннбеифухж + 8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4 = |
-| **URL-адреса CRL** | http://crl.globalsign.net/root.crl |
+| **Срок действия не ранее** | Четверг, 3 сентября 2015 5:00 PM |
+| **Срок действия не до** | Среда, 3 сентября 2025 5:00 PM |
+| **Идентификатор ключа субъекта** | 6886B87D7AD96D496B872F188B15346CD7B47A0E |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 60:7b: 66:1a: 45:0D: 97: CA: 89:50:2F: 7D: 04: CD: 34: A8: FF: FC:/Демон: 4b |
+| **Отпечаток (SHA-1)** | 20D1EBAB5A71587B9116E4C74415D1A85B0DDDA5 |
+| **Отпечаток (SHA-256)** | 699D54B7482A5D329331EA0415CC2EDCD60FDA01D19E71D054196BCE0677735C |
+| **URL-адреса CRL** | http://crl.globalsign.com/root.crl |
 | **URL-адреса OCSP** | http://ocsp.globalsign.com/rootr1 |
+
+### <a name="globalsign-rsa-ov-ssl-ca-2018"></a>**Глобалсигн RSA ов SSL 2018**
+
+| **Subject** | CN = Глобалсигн RSA ов SSL 2018<br>O = Глобалсигн NV — SA<br>C = BE |
+| --- | --- |
+| **Издатель** | CN = Глобалсигн, O = Глобалсигн, OU = Глобалсигн корневой ЦС — R3 |
+| **Серийный номер** | 01: EE: 5F: 22:1Д: FC: 62:3B: D4:33:3A: 85:57 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Вторник, 20 ноября 2018 4:00 PM |
+| **Срок действия не до** | Понедельник, 20 ноября 2028 4:00 PM |
+| **Идентификатор ключа субъекта** | F8EF7FF2CD7867A8DE6F8F248D88F1870302B3EB |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 8F:: F0:4b: 7F: A8:2e: 45:24: AE: 4d: 50: FA: 63:9a: 8b: de: E2: дд: 1b: BC |
+| **Отпечаток (SHA-1)** | DFE83023062B997682708B4EAB8E819AFF5D9775 |
+| **Отпечаток (SHA-256)** | B676FFA3179E8812093A1B5EAFEE876AE7A6AAF231078DAD1BFB21CD2893764A |
+| **URL-адреса CRL** | http://crl.globalsign.com/root-r3.crl |
+| **URL-адреса OCSP** | http://ocsp2.globalsign.com/rootr3 |
 
 ### <a name="lets-encrypt-authority-x3"></a>**Шифровать с помощью службы сертификации X3**
 
-| **Тема** | CN = пошифровать орган X3<br>O = шифрование Давайте<br>C = US |
+| **Subject** | CN = пошифровать орган X3<br>O = шифрование Давайте<br>C = US |
 | --- | --- |
 | **Издатель** | CN = корневой сертификат DST X3<br>O = цифровая подпись — Co. |
 | **Серийный номер** | 0A: 01:41:42:00:00:00:53:85:73:6A: 0B: 85: EC: A7:08 |
@@ -505,44 +620,77 @@ Office 365 использует несколько различных поста
 | **URL-адреса CRL** | http://crl.identrust.com/DSTROOTCAX3CRL.crl |
 | **URL-адреса OCSP** | http://isrg.trustid.ocsp.identrust.com |
 
-### <a name="microsoft-it-ssl-sha2"></a>**Microsoft IT SSL SHA2**
+### <a name="microsoft-azure-tls-issuing-ca-01"></a>**Центр сертификации Microsoft Azure TLS 01**
 
-| **Тема** | CN = Microsoft IT SSL SHA2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Subject** | CN = Microsoft Azure TLS выдача ЦС 01<br>O = Корпорация Майкрософт<br>C = US |
 | --- | --- |
-| **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
-| **Серийный номер** | 07:27:9A: A9 |
-| **Длина открытого ключа** | RSA 4096 бит (e 65537) |
-| **Алгоритм подписи** | sha256RSA |
-| **Срок действия не ранее** | Dec 19 20:07:32 2013 UTC |
-| **Срок действия не позднее** | Dec 19 20:06:55 2017 UTC |
-| **Идентификатор ключа субъекта** | 51: AF: 24:26:9C: F4:68:22:57:80:26:2b: 3b: 46:62:15:7b: 1e: CC: A5 |
-| **Идентификатор ключа центра сертификации** | него значение KeyID: напряжение на: 9d: 59:30:82:47:58: CC: AC: FA: 08:54:36:86:7b: 3A: B5:04:4d: F0 |
-| **Отпечаток (SHA-1)** | 948E1652586240D453287AB69CAEB8F2F4F02117 |
-| **Отпечаток (SHA-256)** | 34BD941A06ED10E2FAC8459F79E4748C1EA08F142C6DE5E557884D0D3CE249FA |
-| **ПИН-код (SHA-256)** | CzdPous1hY3sIkO55pUH7vklXyIHVZAl/Унпрсквпеи = |
-| **URL-адреса CRL** | http://cdp1.public-trust.com/CRL/Omniroot2025.crl |
+| **Издатель** | CN = DigiCert Global Root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 0A: AF: A6: C5: CA: 63: C4:51:41::: 3B: E1: F7: C7:17 |
+| **Длина открытого ключа** | RSA 4096 бит |
+| **Алгоритм подписи** | sha384RSA |
+| **Срок действия не ранее** | Среда, 29 июля, 2020 5:30 AM |
+| **Срок действия не до** | Четверг, 27 июня, 2024 4:59 PM |
+| **Идентификатор ключа субъекта** | 0F205DD7A15795DB92CF2BD0C7C27704CE728076 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 4E: 22:54:20:18:95: E6: E3:6e: E6:0F: FA: FA: B9:12: Ed: 06:17:8F: 39 |
+| **Отпечаток (SHA-1)** | 2F2877C5D778C31E0F29C7E371DF5471BD673173 |
+| **Отпечаток (SHA-256)** | 24C7299864E0A2A6964F551C0E8DF2461532FA8C48E4DBBB6080716691F190E5 |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
 
-### <a name="microsoft-it-ssl-sha2"></a>**Microsoft IT SSL SHA2**
+### <a name="microsoft-azure-tls-issuing-ca-02"></a>**Выставляющий ЦС Microsoft Azure TLS 02**
 
-| **Тема** | CN = Microsoft IT SSL SHA2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Subject** | CN = Microsoft Azure TLS, выставляющий ЦС 02<br>O = Корпорация Майкрософт<br>C = US |
 | --- | --- |
-| **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
-| **Серийный номер** | 07:27: AA: 47 |
-| **Длина открытого ключа** | RSA 4096 бит (e 65537) |
-| **Алгоритм подписи** | sha256RSA |
-| **Срок действия не ранее** | 07 17:04:09 2014 время в формате UTC |
-| **Срок действия не позднее** | 07 17:03:30 2018 время в формате UTC |
-| **Идентификатор ключа субъекта** | 51: AF: 24:26:9C: F4:68:22:57:80:26:2b: 3b: 46:62:15:7b: 1e: CC: A5 |
-| **Идентификатор ключа центра сертификации** | него значение KeyID: напряжение на: 9d: 59:30:82:47:58: CC: AC: FA: 08:54:36:86:7b: 3A: B5:04:4d: F0 |
-| **Отпечаток (SHA-1)** | 97EFF3028677894BDD4F9AC53F789BEE5DF4AD86 |
-| **Отпечаток (SHA-256)** | 2399983E99703EBD01CEA466C10799810C4BA62A8D61B88170A334DCD61BB20F |
-| **ПИН-код (SHA-256)** | CzdPous1hY3sIkO55pUH7vklXyIHVZAl/Унпрсквпеи = |
-| **URL-адреса CRL** | http://cdp1.public-trust.com/CRL/Omniroot2025.crl |
-| **URL-адреса OCSP** | http://ocsp.omniroot.com/baltimoreroot |
+| **Издатель** | CN = DigiCert Global Root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 0C: 6A: E9:7C: CE: D5:99:83:86:90: A0:0A: 9E:: 32:14 |
+| **Длина открытого ключа** | RSA 4096 бит |
+| **Алгоритм подписи** | sha384RSA |
+| **Срок действия не ранее** | Среда, 29 июля, 2020 5:30 AM |
+| **Срок действия не до** | Четверг, 27 июня, 2024 4:59 PM |
+| **Идентификатор ключа субъекта** | 00AB91FC216226979AA8791B61419060A96267FD |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 4E: 22:54:20:18:95: E6: E3:6e: E6:0F: FA: FA: B9:12: Ed: 06:17:8F: 39 |
+| **Отпечаток (SHA-1)** | E7EEA674CA718E3BEFD90858E09F8372AD0AE2AA |
+| **Отпечаток (SHA-256)** | 15A98761EBE011554DA3A46D206B0812CB2EB69AE87AAA11A6DD4CB84ED5142A |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
+
+### <a name="microsoft-azure-tls-issuing-ca-05"></a>**ЦС Microsoft Azure TLS, выставляющий 05**
+
+| **Subject** | CN = Microsoft Azure TLS выдачи ЦС 05<br>O = Корпорация Майкрософт<br>C = US |
+| --- | --- |
+| **Издатель** | CN = DigiCert Global Root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 0D: 7B: ED: E9:7D: 82:09:96:7A: 52:63:1B: 8B: ДД: 18: BD |
+| **Длина открытого ключа** | RSA 4096 бит |
+| **Алгоритм подписи** | sha384RSA |
+| **Срок действия не ранее** | Среда, 29 июля, 2020 5:30 AM |
+| **Срок действия не до** | Четверг, 27 июня, 2024 4:59 PM |
+| **Идентификатор ключа субъекта** | C7B29C7F1CE3B85AEFE9681AA85D94C126526A68 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 4E: 22:54:20:18:95: E6: E3:6e: E6:0F: FA: FA: B9:12: Ed: 06:17:8F: 39 |
+| **Отпечаток (SHA-1)** | 6C3AF02E7F269AA73AFD0EFF2A88A4A1F04ED1E5 |
+| **Отпечаток (SHA-256)** | D6831BA43607F5AC19778D627531562AF55145F191CAB5EFAFA0E0005442B302 |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
+
+### <a name="microsoft-azure-tls-issuing-ca-06"></a>**Центр сертификации Microsoft Azure TLS 06**
+
+| **Subject** | CN = Microsoft Azure TLS выдача ЦС 06<br>O = Корпорация Майкрософт<br>C = US |
+| --- | --- |
+| **Издатель** | CN = DigiCert Global Root G2, OU = www. DigiCert. com, O = DigiCert Inc, C = US |
+| **Серийный номер** | 02: E7:91:71: ФБ: 80:21: E9:3F: E2: D9:83:83:4C: 50: C0 |
+| **Длина открытого ключа** | RSA 4096 бит |
+| **Алгоритм подписи** | sha384RSA |
+| **Срок действия не ранее** | Среда, 29 июля, 2020 5:30 AM |
+| **Срок действия не до** | Четверг, 27 июня, 2024 4:59 PM |
+| **Идентификатор ключа субъекта** | D5C1673AC2A39DF477525B59123829E65568BBA5 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: 4E: 22:54:20:18:95: E6: E3:6e: E6:0F: FA: FA: B9:12: Ed: 06:17:8F: 39 |
+| **Отпечаток (SHA-1)** | 30E01761AB97E59A06B41EF20AF6F2DE7EF4F7B0 |
+| **Отпечаток (SHA-256)** | 48FF8B494668C752304B48BFE818758987DEF6582E5F09B921F4B60BB3D6A8DD |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
 
 ### <a name="microsoft-it-tls-ca-1"></a>**ЦС 1 Microsoft IT TLS**
 
-| **Тема** | CN = ЦС Microsoft IT TLS 1<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Subject** | CN = ЦС Microsoft IT TLS 1<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 08: B8:7A: 50:1B:: 9C: DA: 2D: 16:4D: 3E: 39:51: БФ: 55 |
@@ -560,7 +708,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-tls-ca-2"></a>**ЦС 2 Microsoft IT TLS 2**
 
-| **Тема** | CN = ЦС Microsoft IT TLS 2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Subject** | CN = ЦС Microsoft IT TLS 2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 0F: 2C: 10: C9:5B: 06: C0:93:7F: B8: D4:49. |
@@ -578,7 +726,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-tls-ca-4"></a>**ЦС Microsoft IT TLS 4**
 
-| **Тема** | CN = ЦС Microsoft IT TLS 4<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Subject** | CN = ЦС Microsoft IT TLS 4<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 0B: В: B3: B3: B0:3E: B1: A9: F6: C4:60:92:6A: A8: CD: FE: B3 |
@@ -596,7 +744,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-tls-ca-5"></a>**ЦС Microsoft IT TLS 5**
 
-| **Тема** | CN = ЦС Microsoft IT TLS 5<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Subject** | CN = ЦС Microsoft IT TLS 5<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 08:88:88: CD: 52:5F: 19:24:44:4D: 14: A5:82:91: ДЕ: B9:52 |
@@ -612,9 +760,43 @@ Office 365 использует несколько различных поста
 | **URL-адреса CRL** | http://crl3.digicert.com/Omniroot2025.crl |
 | **URL-адреса OCSP** | http://ocsp.digicert.com |
 
+### <a name="microsoft-rsa-tls-ca-01"></a>**ЦС Microsoft RSA TLS 01**
+
+| **Subject** | CN = Microsoft RSA TLS ЦС 01<br>O = Корпорация Майкрософт<br>C = US |
+| --- | --- |
+| **Издатель** | CN = Балтимор Цибертруст root, OU = Цибертруст, O = Балтимор, C = IE |
+| **Серийный номер** | 0F: 14:96:5F: 20:20:69:99:4F: D5: C7: AC: 78:89:41: E2 |
+| **Длина открытого ключа** | RSA 4096 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Вторник 21 июля, 2020 4:00 PM |
+| **Срок действия не до** | Вторник, 8 октября 2024 12:00 AM |
+| **Идентификатор ключа субъекта** | B5760C3011CEC792424D4CC75C2CC8A90CE80B64 |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: напряжение на: 9d: 59:30:82:47:58: CC: AC: FA: 08:54:36:86:7b: 3A: B5:04:4d: F0 |
+| **Отпечаток (SHA-1)** | 703D7A8F0EBF55AAA59F98EAF4A206004EB2516A |
+| **Отпечаток (SHA-256)** | 04EEEA8E50B4775B3C24797262917EE50002EC4C75B56CDF3EE1C18CFCA5BA52 |
+| **URL-адреса CRL** | http://crl3.digicert.com/Omniroot2025.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
+
+### <a name="microsoft-rsa-tls-ca-02"></a>**ЦС Microsoft RSA TLS 02**
+
+| **Subject** | CN = Microsoft RSA TLS ЦС 02<br>O = Корпорация Майкрософт<br>C = US |
+| --- | --- |
+| **Издатель** | CN = Балтимор Цибертруст root, OU = Цибертруст, O = Балтимор, C = IE |
+| **Серийный номер** | 0F: A7:47:22: C5:3D: 88: C8:0F: 58:9E: ФБ: 1F: 9D: 4A: 3A |
+| **Длина открытого ключа** | RSA 4096 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | Вторник 21 июля, 2020 4:00 PM |
+| **Срок действия не до** | Вторник, 8 октября 2024 12:00 AM |
+| **Идентификатор ключа субъекта** | FF2F7FE106F438F32DED258D98C2FE0EF66CFCFA |
+| **Идентификатор ключа центра сертификации** | Него значение KeyID: напряжение на: 9d: 59:30:82:47:58: CC: AC: FA: 08:54:36:86:7b: 3A: B5:04:4d: F0 |
+| **Отпечаток (SHA-1)** | B0C2D2D13CDD56CDAA6AB6E2C04440BE4A429C75 |
+| **Отпечаток (SHA-256)** | 05E4005DB0C382F3BD66B47729E9011577601BF6F7B287E9A52CED710D258346 |
+| **URL-адреса CRL** | http://crl3.digicert.com/Omniroot2025.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
+
 ### <a name="symantec-class-3-ev-ssl-ca---g3"></a>**Symantec класс 3 EV SSL CA — G3**
 
-| **Тема** | CN = Symantec класс 3 EV SSL CA-G3<br>OU = сеть Symantec Trust<br>O = Корпорация Symantec<br>C = US |
+| **Subject** | CN = Symantec класс 3 EV SSL CA-G3<br>OU = сеть Symantec Trust<br>O = Корпорация Symantec<br>C = US |
 | --- | --- |
 | **Издатель** | CN = VeriSign класс 3 общедоступный основной центр сертификации — G5<br>OU = &quot; (c) 2006 VeriSign, Inc. — только для уполномоченного использования&quot;<br>OU = сеть организации доверия VeriSign<br>O = &quot; VeriSign, Inc.&quot;<br>C = US |
 | **Альтернативное имя субъекта** | Адрес каталога: CN = Симантекпки – 1-533 |
@@ -633,7 +815,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="symantec-class-3-secure-server-ca---g4"></a>**Symantec класс 3 — безопасный ЦС сервера (G4)**
 
-| **Тема** | CN = Symantec класс 3 безопасный ЦС сервера — G4<br>OU = сеть Symantec Trust<br>O = Корпорация Symantec<br>C = US |
+| **Subject** | CN = Symantec класс 3 безопасный ЦС сервера — G4<br>OU = сеть Symantec Trust<br>O = Корпорация Symantec<br>C = US |
 | --- | --- |
 | **Издатель** | CN = VeriSign класс 3 общедоступный основной центр сертификации — G5<br>OU = &quot; (c) 2006 VeriSign, Inc. — только для уполномоченного использования&quot;<br>OU = сеть организации доверия VeriSign<br>O = &quot; VeriSign, Inc.&quot;<br>C = US |
 | **Альтернативное имя субъекта** | Адрес каталога: CN = Симантекпки – 1-534 |
@@ -652,7 +834,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="thawte-sha256-ssl-ca"></a>**SSL-сертификат Thawte SHA256**
 
-| **Тема** | CN = Thawte SHA256 SSL CA<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
+| **Subject** | CN = Thawte SHA256 SSL CA<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Thawte основной корневой ЦС — G3<br>OU = &quot; (c) 2008 Thawte, Inc. — только для уполномоченного использования&quot;<br>OU = разделение служб сертификации<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | **Альтернативное имя субъекта** | Адрес каталога: CN = Верисигнмпки – 2-415 |
@@ -671,7 +853,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="verizon-akamai-sureserver-ca-g14-sha2"></a>**Веризон Akamai Суресервер CA G14 — SHA2**
 
-| **Тема** | CN = Веризон Akamai Суресервер CA G14 — SHA2<br>OU = Цибертруст<br>O = Веризон корпоративные решения<br>L = Амстердам<br>C = NL |
+| **Subject** | CN = Веризон Akamai Суресервер CA G14 — SHA2<br>OU = Цибертруст<br>O = Веризон корпоративные решения<br>L = Амстердам<br>C = NL |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 07:27: A4:6B |

@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: Настройте инфраструктуру безопасности и служб, которая позволит вашим подчиненным работать удаленно, где бы они ни находились и в любое время.
-ms.openlocfilehash: 122df0f81200462f85d52985ccf3e42ce5d925f7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: ca5774c027eebaedd42bcca23292b89d92f1e102
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487748"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
 
@@ -38,7 +38,7 @@ Microsoft 365 обеспечивает возможности удаленной
 ![Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
 Обзор процесса развертывания показан в приведенном ниже видео.
-
+<br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
 
 Это решение предоставляет перечисленные ключевые возможности.
