@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: Сводка. Используйте PowerShell для создания сайтов SharePoint Online и добавления пользователей и групп на эти сайты.
-ms.openlocfilehash: 4c4edbd68343f0eaf3a25a8c60a2af1e83b058b6
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 28a51cc39fe838f6c7f9c50e9d750d28e5d830c4
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693111"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594922"
 ---
 # <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>Создание сайтов и добавление пользователей в SharePoint Online с помощью PowerShell
 
@@ -43,6 +43,9 @@ ms.locfileid: "46693111"
 Командлет PowerShell импортирует CSV-файл и передает его в цикл в фигурных скобках, который считывает первую строку файла в виде заголовков столбцов. Затем командлет PowerShell выполняет итерацию по оставшимся записям, создает новое семейство сайтов для каждой записи и присваивает свойствам семейства веб-сайтов в соответствии с заголовками столбцов.
 
 ### <a name="create-a-csv-file"></a>Создание CSV-файла
+
+> [!NOTE]
+> Параметр квоты ресурсов работает только на классических сайтах. Если вы используете этот параметр на современном сайте, вы можете получить предупреждающее сообщение о том, что оно устарело. 
 
 1. Откройте Блокнот и вставьте в него следующий блок текста:<br/>
 
@@ -164,4 +167,3 @@ c:\users\MyAlias\desktop\UsersAndGroups.ps1
 [Управление Microsoft 365 с помощью PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-
