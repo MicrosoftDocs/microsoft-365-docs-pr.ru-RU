@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 85813659d952fe936c8e8b41f2dc103a60116641
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 55a5ec4a2bfd562b581be9565022483d227f68be
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447075"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600509"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -46,9 +46,9 @@ ms.locfileid: "48447075"
 - [Проверка политик с помощью анализатора конфигурации](configuration-analyzer-for-security-policies.md)
 - [Переопределение вердиктс фильтров вручную с помощью списка разрешенных и запрещенных клиентов](tenant-allow-block-list.md)
 - [Расширенные возможности в обозревателе угроз, включая наиболее популярные целевые пользователи, правила транспорта и соединители](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP, план 2)
-- Отображение переопределяет сведения в [обозревателе угроз](threat-explorer.md) (электронная почта разрешена/заблокирована политикой клиента/пользователя)
-- Угрозы URL-адресов отображение в [обозревателе угроз](threat-explorer.md#threats-in-urls) (вредоносная программа, фишинг, спам или None) 
-- Улучшения, связанные с поиском [угроз в обозревателе угроз](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) с обновлением угроз, дополнительных действий, расположений доставки и обновленного представления временной шкалы
+- Отображение переопределяет сведения в [обозревателе угроз](threat-explorer.md) (электронная почта разрешена/заблокирована политикой клиента/пользователя) (Office 365 ATP, план 2)
+- Угрозы URL-адресов отображение в [обозревателе угроз](threat-explorer.md#threats-in-urls) (вредоносные программы, фишинг, спам или None) (Office 365 ATP, план 2)
+- Улучшения, связанные с поиском [угроз в обозревателе угроз](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) с обновлением угроз, дополнительных действий, расположений доставки и обновленного представления временной шкалы (Office 365 ATP, план 2)
 
 ## <a name="julyaugust-2020"></a>Июль/Август 2020 
 
@@ -111,4 +111,3 @@ ms.locfileid: "48447075"
 [План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Описание службы Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
-

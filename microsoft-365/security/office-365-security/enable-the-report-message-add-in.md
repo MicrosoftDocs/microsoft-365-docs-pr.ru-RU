@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как включить надстройку сообщения отчета для Outlook и Outlook в Интернете для отдельных пользователей или всей Организации.
-ms.openlocfilehash: 601e3850bf046f3a0c807976fd173a6e0ec7ce2a
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: b061d9db44b08a65b59481035c055a1b75eb6e3c
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350627"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600373"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки "Пожаловаться на сообщение"
 
@@ -41,7 +41,7 @@ ms.locfileid: "48350627"
 
 Если вы являетесь отдельным пользователем, вы можете [включить для себя надстройку сообщения отчета](#get-the-report-message-add-in-for-yourself).
 
-Если вы являетесь глобальным администратором или администратором Exchange Online, а Exchange настроен на использование проверки подлинности OAuth, вы можете [включить надстройку сообщения отчета для Организации](#get-and-enable-the-report-message-add-in-for-your-organization). Теперь надстройка сообщений отчета доступна с помощью [централизованного развертывания](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
+Если вы являетесь глобальным администратором или администратором Exchange Online, а Exchange настроен на использование проверки подлинности OAuth, вы можете [включить надстройку сообщения отчета для Организации](#get-and-enable-the-report-message-add-in-for-your-organization). Теперь Add-In сообщения отчетов можно использовать для [централизованного развертывания](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -49,7 +49,7 @@ ms.locfileid: "48350627"
 
   - Outlook в Интернете
   - Outlook 2013 SP1 или более поздней версии
-  - Outlook 2016 для Mac
+  - Outlook 2016 для Mac;
   - Outlook, входящий в состав приложений Microsoft 365 для предприятий
 
 - Надстройка сообщений отчета недоступна для почтовых ящиков в локальных организациях Exchange.
@@ -91,7 +91,7 @@ ms.locfileid: "48350627"
 > [!NOTE]
 > Для отображения надстройки в Организации может потребоваться до 12 часов.
 
-1. В центре администрирования Microsoft 365 перейдите на страницу " **службы & надстроек** " по адресу <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> , а затем нажмите кнопку **развернуть надстройку**.
+1. В центре администрирования Microsoft 365 перейдите на страницу **Параметры, интегрированные приложения & надстройки** по адресу <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> и нажмите кнопку **развернуть надстройку**.
 
    ![Страница "службы и надстройки" в центре администрирования Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -151,7 +151,7 @@ ms.locfileid: "48350627"
 
 1. В центре администрирования Microsoft 365 перейдите на страницу " **службы &** надстроек" по адресу <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
 
-   ![Страница "службы и надстройки" в новом центре администрирования Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Службы и Add-Ins страница в новом центре администрирования Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 2. Найдите и выберите надстройку **сообщения отчета** .
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о порядке приложений для защиты в Exchange Online Protection (EOP), а также о том, как значение приоритета в политиках защиты определяет применяемую политику.
-ms.openlocfilehash: e2da22bfbe0e7df70cf8d8b0d8cfd09eaf6e2ee3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6b17a524fb9dfbf5e33604c2ec26a678befc8834
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196051"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600289"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Порядок и приоритет защиты электронной почты
 
@@ -38,16 +38,16 @@ ms.locfileid: "48196051"
 
   ****
 
-  |Priority|Защита электронной почты|Категория|Где управлять|
+  |Priority|Защита электронной почты|Category|Где управлять|
   |---|---|---|---|
   |1,1|Вредоносная программа|КОТ: МАЛВ|[Настройка политик защиты от вредоносных программ в EOP](configure-anti-malware-policies.md)|
-  |2 |Фишинг|КОТ: ФШ|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
+  |2|Фишинг|КОТ: ФШ|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
   |4|Нежелательное сообщение с высокой степенью уверенности|КОТ: ХСПМ|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
   |4 |Спуфинг|К: ПОДДЕЛКА|[Настройка логики подделки в EOP](learn-about-spoof-intelligence.md)|
-  |5 |Нежелательная почта|КОТ: SPM|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
-  |6 |Массовая рассылка|К: МАССОВЫЕ|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
-  |см<sup>\*</sup>|Олицетворение домена (защищенные пользователи)|DIMP|[Настройка политик защиты от фишинга в ATP](configure-atp-anti-phishing-policies.md)|
-  |8,5<sup>\*</sup>|Олицетворение пользователя (защищенные домены)|UIMP|[Настройка политик защиты от фишинга в ATP](configure-atp-anti-phishing-policies.md)|
+  |17:00<sup>\*</sup>|Олицетворение пользователя (защищенные домены)|UIMP|[Настройка политик защиты от фишинга в ATP](configure-atp-anti-phishing-policies.md)|
+  |ICMPv6<sup>\*</sup>|Олицетворение домена (защищенные пользователи)|DIMP|[Настройка политик защиты от фишинга в ATP](configure-atp-anti-phishing-policies.md)|
+  |7 |Спам|КОТ: SPM|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
+  |8 |Массовая|К: МАССОВЫЕ|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
   |
 
   <sup>\*</sup> Эти функции доступны только в политиках защиты от фишинга ATP.
@@ -63,7 +63,7 @@ ms.locfileid: "48196051"
   |Политика защиты от фишинга ATP|Priority|Олицетворение пользователя|Защита от спуфинга|
   |---|---|---|---|
   |Политика A|1,1|Вкл.|Выкл.|
-  |Политика б|2 |Выкл.|Вкл.|
+  |Политика б|2|Выкл.|Вкл.|
   |
 
 1. Сообщение помечено как поддельное, так как спуфинг имеет более высокий приоритет (4), чем олицетворение пользователя (8).

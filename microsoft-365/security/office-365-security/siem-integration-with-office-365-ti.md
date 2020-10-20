@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Интеграция сервера SIEM в Организации с Office 365 Advanced Threat Protection и связанными событиями угроз в API управления действиями Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 544093960570fe0e68ac47dc7bf9965fba2d30a1
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c4c92fc45546d3d8022a3925baa9c10f9bd0090b
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327169"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600557"
 ---
 # <a name="siem-integration-with-advanced-threat-protection"></a>Интеграция SIEM с расширенной защитой угроз
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Если в организации используется сервер управления инцидентами и событиями SIEM, вы можете интегрировать Office 365 Advanced Threat protection (Office 365 ATP) с сервером SIEM. Эту интеграцию можно настроить с помощью [API управления действиями Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
+Если в Организации используются сведения о безопасности и управление событиями (SIEM), можно интегрировать Office 365 Advanced Threat protection (Office 365 ATP) с сервером SIEM. Эту интеграцию можно настроить с помощью [API управления действиями Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
 
 Интеграция SIEM позволяет просматривать сведения, такие как вредоносные и фишингы, обнаруженные в Office 365 ATP, в отчетах сервера SIEM. 
 
@@ -63,10 +63,9 @@ API управления действиями Office 365 извлекает св
 > [!IMPORTANT]
 > Для настройки интеграции SIEM с Office 365 Advanced Threat Protection необходимо быть глобальным администратором или иметь роль администратора безопасности, назначенную для центра безопасности & соответствия требованиям.<br/>Для вашей среды Microsoft 365 должна быть включена функция ведения журнала аудита. Чтобы получить помощь по этому, ознакомьтесь со статьей [Включение и отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
 
-## <a name="see-also"></a>Дополнительные сведения
+## <a name="see-also"></a>См. также
 
 [Анализ угроз и реагирование на них в Office 365](office-365-ti.md)
 
 [Автоматическое исследование и реагирование (AIR) в Office 365](automated-investigation-response-office.md)
-
 

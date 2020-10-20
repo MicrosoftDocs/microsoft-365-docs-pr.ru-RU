@@ -1,5 +1,5 @@
 ---
-title: Политики пользовательской отправки
+title: Политика отправки пользователей
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,14 +16,14 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Администраторы могут узнать, как настроить почтовый ящик для сбора нежелательных сообщений и фишинговых сообщений, сообщаемых пользователями.
-ms.openlocfilehash: c8dec927442cc83752f7c3497f295008fae85377
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: c4792958d1e59cefd8b56c05b5e159f50be80c8b
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446931"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600485"
 ---
-# <a name="user-submissions-policies"></a>Политики пользовательской отправки
+# <a name="user-submissions-policy"></a>Политика отправки пользователей
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -76,7 +76,7 @@ ms.locfileid: "48446931"
 
 2. На появившейся странице " **отправки пользователей** " выберите один из следующих параметров:
 
-   а. **Включить функцию сообщений отчетов для Outlook (рекомендуется)**: Выберите этот параметр, если вы используете надстройку Report Message или встроенную отчетность в Outlook в Интернете, а затем настроили следующие параметры:
+   1. **Включить функцию сообщений отчетов для Outlook (рекомендуется)**: Выберите этот параметр, если вы используете надстройку Report Message или встроенную отчетность в Outlook в Интернете, а затем настроили следующие параметры:
 
       - **Настройте сообщение для подтверждения пользователя**. Щелкните эту ссылку. В появившемся всплывающем окне **Настройка предупреждающего сообщения** настройте следующие параметры:
 
