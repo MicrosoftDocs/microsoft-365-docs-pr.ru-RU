@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: В таблице перечислены поддерживаемые типы файлов и те средства просмотра, которые они могут просматривать при расследовании данных (Предварительная версия).
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca4dab40f5c3098d05323edec0ddbab54ac29273
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: 826ad69b1fb0074cd0c8bc1b3b0208bb8e77d528
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285275"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600418"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>Поддерживаемые типы файлов при расследовании данных (Предварительная версия)
 
@@ -47,7 +47,7 @@ ms.locfileid: "48285275"
 |Application/ВНД. опенксмлформатс-оффицедокумент. PresentationML. Template | Документ | Да | Да | Да | Нет | . potx |
 | ападшитмл. sheet | Документ | Да | Да | Да | Нет | XLSX |
 |Application/ВНД. опенксмлформатс-оффицедокумент. SpreadsheetML. Template | Документ | Да | Да | Да | Нет | . xltx |
-|Application/vnd.openxmlformats-officedocument.wordproessingml.docумент | Документ | Да | Да | Да | Нет | DOCX |
+|application/vnd.openxmlformats-officedocument.wordprocessingml.document | Документ | Да | Да | Да | Нет | DOCX |
 |Application/ВНД. опенксмлформатс-оффицедокумент. WordprocessingML. Template | Документ | Да | Да | Да | Нет | . dotx |
 |Application/ВНД. Visio | Документ | Да | Да | Да | Нет | . VSD |
 |приложение/x-7z-сжатый | Архив/контейнер | Нет | Нет | Нет | Да | .7z |
