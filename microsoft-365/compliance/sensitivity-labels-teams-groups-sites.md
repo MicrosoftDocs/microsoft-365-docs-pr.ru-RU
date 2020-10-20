@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Чтобы защитить контент на сайтах SharePoint и Microsoft Teams, а также в группах Microsoft 365, используйте метки конфиденциальности.
-ms.openlocfilehash: ac6af4d82b3da507f1fe0081041b347b9f5e4a94
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 7f8337d368c5c9de7cf1d9ff90831777c0811b87
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446856"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600474"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Используйте метки конфиденциальности, чтобы защитить контент в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint.
 
@@ -99,7 +99,7 @@ ms.locfileid: "48446856"
 
 4. Если вы выбрали **Параметры доступа устройства и внешнего доступа**, задайте следующие параметры:
     
-    - **Доступ с неуправляемых устройств**. Этот параметр использует функцию SharePoint, применяющую условный доступ Azure AD для блокировки или ограничения доступа к контенту SharePoint и OneDrive с неуправляемых устройств. Дополнительные сведения см. в статье [Управление доступом с неуправляемых устройств](/sharepoint/control-access-from-unmanaged-devices) из документации по SharePoint. Параметр, который вы указываете для настройки этой метки, эквивалентен запуску команды PowerShell на сайте, как описано в шагах 2–4 раздела [Блокировка или ограничение доступа к определенному сайту SharePoint или OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) инструкций по SharePoint.
+    - **Доступ с неуправляемых устройств**. Этот параметр использует функцию SharePoint, применяющую условный доступ Azure AD для блокировки или ограничения доступа к контенту SharePoint и OneDrive с неуправляемых устройств. Дополнительные сведения см. в статье [Управление доступом с неуправляемых устройств](/sharepoint/control-access-from-unmanaged-devices) из документации по SharePoint. Параметр, который вы указываете для настройки этой метки, эквивалентен запуску команды PowerShell на сайте, как описано в шагах 3–5 раздела [Блокировка или ограничение доступа к определенному сайту SharePoint или OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) инструкций по SharePoint.
         
         См. [Подробнее о зависимостях для параметра неуправляемых устройств](#more-information-about-the-dependencies-for-the-unmanaged-devices-option).
 
