@@ -2,7 +2,7 @@
 title: Отчеты Microsoft 365 в центре администрирования — активные пользователи
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Узнайте, как получить отчет об активных пользователях с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365 и узнать, сколько лицензий на продукт используется.
-ms.openlocfilehash: 7f32059f01163a2a499f1befb9f4e3c519973549
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 162e818e96f6301cf0ec31580950be1ae19a0f35
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387901"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636999"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>Отчеты Microsoft 365 в центре администрирования — активные пользователи
 

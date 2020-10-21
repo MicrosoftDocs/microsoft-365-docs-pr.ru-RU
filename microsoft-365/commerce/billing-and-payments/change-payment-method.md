@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Узнайте, как изменить способ оплаты для вашей бизнес-подписки.
-ms.openlocfilehash: 41cf16397c4b3d2341721e741c6b293005971909
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 0c739597253db8b54b12cacfbaf55fce9cb36dd2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432419"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638607"
 ---
 # <a name="change-your-payment-method"></a>Изменение метода оплаты
 
@@ -147,7 +147,7 @@ ms.locfileid: "44432419"
 1. Перейдите в <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a> и купите ту же подписку, что и у вас в данный момент. При извлечении выберите параметр оплатить по счету.
 
     > [!IMPORTANT]
-    > Вы не можете приобрести подписку с помощью страницы " **продукты** " в центре администрирования. Необходимо использовать <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a>.
+    > Вы не можете приобрести подписку с помощью страницы " **продукты** " в центре администрирования. Необходимо использовать  <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a>.
 
 2. По завершении покупки отмените исходную подписку. Ваши пользователи автоматически перемещаются в новую подписку.
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Узнайте, как обновить свои адреса для выставления счетов для Microsoft 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счетов.
-ms.openlocfilehash: 5e6fc2bad63c445f516ba3cd473bd40c7bfcb2e3
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: d6083a170adddc6bd389e5f33a1050a7e048ad31
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324356"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638487"
 ---
 # <a name="change-your-billing-addresses"></a>Изменение адресов выставления счетов
 
@@ -130,7 +130,7 @@ ms.locfileid: "47324356"
 ::: moniker range="o365-worldwide"
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
-2. На вкладке **продукты** выберите подписку, которую необходимо изменить.
+2. На вкладке **Продукты** выберите подписку, которую хотите изменить.
 3. На странице "сведения о подписке" в разделе **адрес использования службы** выберите **изменить адрес использования службы**.
 4. В области **изменение адреса использования службы** обновите адрес, а затем нажмите кнопку **сохранить**.
 

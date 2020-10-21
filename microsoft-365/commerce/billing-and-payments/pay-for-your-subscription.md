@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-ms.openlocfilehash: baf09d87f6229cb530c328d570fa70dc25729a11
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 778906219c03e8cc79ccebb368b84642639a8467
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407960"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638439"
 ---
 # <a name="pay-for-your-subscription"></a>Оплата подписки
 
@@ -48,7 +48,7 @@ ms.locfileid: "44407960"
 
 ## <a name="pay-by-credit-card-or-bank-account"></a>Оплата с помощью кредитной карты или банковского счета
 
-При оплате с помощью кредитной карты или банковского счета с вас автоматически будет взиматься сбор за подписку в день, следующий за датой выставления счета, вплоть до завершения ее срока. При необходимости вы можете [управлять методами оплаты](manage-payment-methods.md) . Вы также можете [Получение копии выписки по счету по электронной почте](#receive-a-copy-of-your-billing-statement-in-email).
+При оплате с помощью кредитной карты или банковского счета с вас автоматически будет взиматься сбор за подписку в день, следующий за датой выставления счета, вплоть до завершения ее срока. При необходимости вы можете [управлять методами оплаты](manage-payment-methods.md). Вы также можете [Получение копии выписки по счету по электронной почте](#receive-a-copy-of-your-billing-statement-in-email).
 
 ### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>Что произойдет, если кредитная карта будет отклонена и платеж окажется просрочен?
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Начиная с 14 сентября 2019 банки в 31 странах Европейской экономической области необходимы для проверки идентификации сотрудника, осуществляющего покупку в сети, прежде чем оплата может быть обработана.
 keywords: Директива служб оплаты 2, надежная проверка подлинности клиентов, многофакторная проверка подлинности
-ms.openlocfilehash: 571664736ac4c6e825398a076597bf4b69ec31a8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fc8784949cdacea10957660c99795b4ade0f9f7a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402218"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638427"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>Директива служб оплаты 2 и надежная проверка подлинности клиентов для коммерческих клиентов
 

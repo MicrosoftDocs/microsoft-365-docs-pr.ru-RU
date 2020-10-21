@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Сведения о том, как закрыть учетную запись с помощью корпорации Майкрософт.
-ms.openlocfilehash: a92b9f2053d9acf4e8233bee7a42047f51288943
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 9545c43ee27fb000149776527030b04b5e807a5c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44898925"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638379"
 ---
 # <a name="close-your-account"></a>Закрытие учетной записи
 
@@ -49,7 +49,7 @@ ms.locfileid: "44898925"
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Шаг 2: Отмена всех активных подписок
 
-1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. Если список подписок находится в представлении **таблицы** , справа выберите **карточки**.
 
@@ -61,7 +61,7 @@ ms.locfileid: "44898925"
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>Шаг 3: удаление всех отключенных подписок
 
-1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. Если список подписок находится в представлении **таблицы** , справа выберите **карточки**.
 
