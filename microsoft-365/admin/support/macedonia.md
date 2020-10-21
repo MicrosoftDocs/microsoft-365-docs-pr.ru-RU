@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,29 +13,29 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 71249f7c2a0305277f931730865e2b93d30c0d3a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9518f89c28604cedddff127d323e5c096de99cc9
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397254"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48641489"
 ---
-# <a name="contact-support-for-macedonia"></a><span data-ttu-id="bb339-103">Обращение в службу поддержки для Македония</span><span class="sxs-lookup"><span data-stu-id="bb339-103">Contact support for Macedonia</span></span>
+# <a name="contact-support-for-macedonia"></a><span data-ttu-id="ee460-103">Обращение в службу поддержки для Македония</span><span class="sxs-lookup"><span data-stu-id="ee460-103">Contact support for Macedonia</span></span>
 
-<span data-ttu-id="bb339-104">[Найдите другую страну или регион](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="bb339-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="ee460-104">[Найдите другую страну или регион](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="ee460-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="bb339-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="bb339-105">Phone number</span></span>
-<span data-ttu-id="bb339-106">0800 94 288</span><span class="sxs-lookup"><span data-stu-id="bb339-106">0800 94 288</span></span>
+## <a name="phone-number"></a><span data-ttu-id="ee460-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="ee460-105">Phone number</span></span>
+<span data-ttu-id="ee460-106">0800 94 288</span><span class="sxs-lookup"><span data-stu-id="ee460-106">0800 94 288</span></span>
 
-<span data-ttu-id="bb339-107">После набора номера введите</span><span class="sxs-lookup"><span data-stu-id="bb339-107">After dialing, enter</span></span>
+<span data-ttu-id="ee460-107">После набора номера введите</span><span class="sxs-lookup"><span data-stu-id="ee460-107">After dialing, enter</span></span>
 
-<span data-ttu-id="bb339-108">877 663 5075</span><span class="sxs-lookup"><span data-stu-id="bb339-108">877 663 5075</span></span>
+<span data-ttu-id="ee460-108">877 663 5075</span><span class="sxs-lookup"><span data-stu-id="ee460-108">877 663 5075</span></span>
 
-## <a name="hours"></a><span data-ttu-id="bb339-109">Часы</span><span class="sxs-lookup"><span data-stu-id="bb339-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="bb339-110">Поддержка выставления счетов:</span><span class="sxs-lookup"><span data-stu-id="bb339-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="ee460-109">Часы</span><span class="sxs-lookup"><span data-stu-id="ee460-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="ee460-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="ee460-110">Billing Support:</span></span>
 
-<span data-ttu-id="bb339-111">Английский: Пн – Пятница 9 AM – 5 PM</span><span class="sxs-lookup"><span data-stu-id="bb339-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="ee460-111">Английский: Mon-Fri 9 AM – 5 AM</span><span class="sxs-lookup"><span data-stu-id="ee460-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="bb339-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="bb339-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="ee460-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="ee460-112">Technical Support:</span></span>
 
-<span data-ttu-id="bb339-113">Английский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="bb339-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="ee460-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="ee460-113">English: 24 hours a day, 7 days a week</span></span>
