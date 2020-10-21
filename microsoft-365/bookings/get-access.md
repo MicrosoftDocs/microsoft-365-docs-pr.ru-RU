@@ -28,7 +28,7 @@ ms.locfileid: "47420038"
 
 1. <span data-ttu-id="09438-110">Нажмите кнопку **получить сейчас** и выберите команду **Добавить календарь резервирования**.</span><span class="sxs-lookup"><span data-stu-id="09438-110">Select **Get it now** and choose, **Add a booking calendar**.</span></span> <span data-ttu-id="09438-111">Если вы первый раз на этой странице, вы можете выбрать другой календарь резервирования или выполнить поиск другого календаря резервирования.</span><span class="sxs-lookup"><span data-stu-id="09438-111">If this isn't your first time on this page, you can select another booking calendar or do a search for another booking calendar.</span></span>
 
-:::image type="content" source="media/bookings - get it now.png" alt-text="Снимок экрана: страница "получение журналов сейчас". Нажмите кнопку получить, чтобы начать использовать резервирование":::
+:::image type="content" source="media/bookings - get it now.png" alt-text="Снимок экрана: страница &quot;получение журналов сейчас&quot;. Нажмите кнопку получить, чтобы начать использовать резервирование":::
 
 2. <span data-ttu-id="09438-113">Введите название организации и тип бизнеса, а затем нажмите кнопку **продолжить**.</span><span class="sxs-lookup"><span data-stu-id="09438-113">Enter your business name and business type and select **Continue**.</span></span>
 

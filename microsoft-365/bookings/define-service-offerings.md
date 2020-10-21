@@ -62,7 +62,7 @@ ms.locfileid: "47962541"
         - <span data-ttu-id="48621-139">**Отмена резервирования** При этом резервирование отменяется и удаляется из календаря сотрудников.</span><span class="sxs-lookup"><span data-stu-id="48621-139">**Cancel booking** This cancels the booking and removes it from the staff's calendar.</span></span>
         - <span data-ttu-id="48621-140">**Новое резервирование** При выборе этого параметра пользователь будет отображаться на странице самообслуживания со всеми службами и сотрудниками, для планирования нового резервирования.</span><span class="sxs-lookup"><span data-stu-id="48621-140">**New booking** This option brings the user to the Self-Service page with all services and staff listed, for scheduling a new booking.</span></span>
 
-        :::image type="content" source="media/bookings-manage-booking-button.jpg" alt-text="Кнопка "Управление книгами" в разделе резервирования":::
+        :::image type="content" source="media/bookings-manage-booking-button.jpg" alt-text="Пример ссылки для присоединения к собранию Teams в книгах":::
 
         <span data-ttu-id="48621-142">Мы рекомендуем оставить этот параметр включенным, только если у вас есть опыт работы с клиентами, обращающимися к странице самообслуживания.</span><span class="sxs-lookup"><span data-stu-id="48621-142">We only recommend leaving this setting enabled if you are comfortable with customers accessing the Self-Service page.</span></span>
 
@@ -74,7 +74,7 @@ ms.locfileid: "47962541"
 
 9. <span data-ttu-id="48621-148">**Максимальное число участников на событие** Этот параметр позволяет создавать службы, которые требуют, чтобы несколько пользователей могли зарезервировать одно и то же время встречи и один и тот же персонал (например, класс "Фитнес").</span><span class="sxs-lookup"><span data-stu-id="48621-148">**Maximum attendees per event** This setting allows you to create services that require the ability for multiple people to book the same appointment time and the same staff (such as a fitness class).</span></span> <span data-ttu-id="48621-149">Временной интервал встречи для выбранной службы, персонала и времени будет доступен для книги, пока не будет достигнуто максимальное количество участников, указанное вами.</span><span class="sxs-lookup"><span data-stu-id="48621-149">The appointment time slot for the selected service, staff, and time will be available to book until the maximum number of attendees, specified by you, has been reached.</span></span> <span data-ttu-id="48621-150">Текущие возможности встреч и участников можно просматривать на вкладке Календарь в веб-приложении "книги учета".</span><span class="sxs-lookup"><span data-stu-id="48621-150">Current appointment capacity and attendees can be viewed in the Calendar tab in the Bookings Web app.</span></span>
 
-    :::image type="content" source="media/bookings-maximum-attendees.jpg" alt-text="Пример установки максимального количества участников в книгах":::
+    :::image type="content" source="media/bookings-maximum-attendees.jpg" alt-text="Пример ссылки для присоединения к собранию Teams в книгах":::
 
 10. <span data-ttu-id="48621-152">**Цена по умолчанию**  Это цена, которая будет отображаться на странице самостоятельное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="48621-152">**Default price**  This is the price that will display on the Self-Service page.</span></span> <span data-ttu-id="48621-153">Если выбран параметр **Цена не задана** , то не будут отображаться цены или ссылки на затраты или цены.</span><span class="sxs-lookup"><span data-stu-id="48621-153">If **Price not set** is selected, then no price or reference to cost or pricing will appear.</span></span>
 
@@ -92,21 +92,21 @@ ms.locfileid: "47962541"
 
     - <span data-ttu-id="48621-162">По умолчанию для подтверждения и напоминаний указаны основные сведения о встрече, такие как имя клиента или клиента, имя сотрудника, зарезервированная служба или встреча, а также время встречи.</span><span class="sxs-lookup"><span data-stu-id="48621-162">The default confirmation and reminder emails include basic information about the appointment, such as the customer/client name, staff member's name, the service or appointment booked, and the time of the appointment.</span></span> <span data-ttu-id="48621-163">Для собраний по сети также будет включена ссылка на присоединение.</span><span class="sxs-lookup"><span data-stu-id="48621-163">For online meetings, a link to join will also be included.</span></span> <span data-ttu-id="48621-164">Возможность управлять резервированием также может быть включена, если этот параметр включен (как описано выше на шаге 8).</span><span class="sxs-lookup"><span data-stu-id="48621-164">The ability to manage the booking can also be included, if this setting is enabled (as described above in step 8).</span></span>
 
-        :::image type="content" source="media/bookings-remind-confirm.jpg" alt-text="Сообщение электронной почты с подтверждением из резервирований":::
+        :::image type="content" source="media/bookings-remind-confirm.jpg" alt-text="Пример ссылки для присоединения к собранию Teams в книгах":::
 
     - <span data-ttu-id="48621-166">При необходимости можно добавить любой дополнительный текст, например сведения о повторном планировании или о том, какие клиенты должны приложить встречу.</span><span class="sxs-lookup"><span data-stu-id="48621-166">Optionally, you can include any additional text you would like here, such as information about rescheduling or what customers should bring for the appointment.</span></span> <span data-ttu-id="48621-167">Ниже приведен пример настраиваемого текста, добавленного в исходное сообщение электронной почты с подтверждением, которое отображается в поле **Дополнительные сведения для подтверждения электронной почты** :</span><span class="sxs-lookup"><span data-stu-id="48621-167">The following is an example of customized text added to the original confirmation email, seen in the **Additional information for Email Confirmation** field:</span></span>
 
-        :::image type="content" source="media/bookings-additional-info.jpg" alt-text="Дополнительные сведения в адресах электронной почты для резервирования":::
+        :::image type="content" source="media/bookings-additional-info.jpg" alt-text="Пример ссылки для присоединения к собранию Teams в книгах":::
 
 14. <span data-ttu-id="48621-169">**Включение уведомлений о текстовых сообщениях для клиента** Если выбрано, сообщения SMS отправляются клиенту, но только при необходимости.</span><span class="sxs-lookup"><span data-stu-id="48621-169">**Enable text message notifications for your customer** If selected, SMS messages are sent to the customer, but only if they opt-in.</span></span>
 
     - <span data-ttu-id="48621-170">Поле "участие" на странице ручного резервирования и самостоятельного обслуживания:</span><span class="sxs-lookup"><span data-stu-id="48621-170">Opt-in box on the manual booking and Self-Service Page:</span></span>
 
-        :::image type="content" source="media/bookings-opt-In-boc.jpg" alt-text="Поле обязательного использования в резервированиях":::
+        :::image type="content" source="media/bookings-opt-In-boc.jpg" alt-text="Пример ссылки для присоединения к собранию Teams в книгах":::
 
     - <span data-ttu-id="48621-172">Уведомления о текстовых сообщениях будут выглядеть следующим образом (Обратите внимание, что SMS-уведомления в настоящее время доступны только в Северной Америке):</span><span class="sxs-lookup"><span data-stu-id="48621-172">Text message notifications will look like the following (note that SMS notifications are currently only available in North America):</span></span>
 
-        :::image type="content" source="media/bookings-text-notifications.jpg" alt-text="Текстовое уведомление из резервирований":::
+        :::image type="content" source="media/bookings-text-notifications.jpg" alt-text="Пример ссылки для присоединения к собранию Teams в книгах":::
 
 15. <span data-ttu-id="48621-174">**Параметры публикации** Выберите, должна ли эта служба отображаться как резервируемые на странице самообслуживания, или чтобы сделать службу резервируемые только на вкладке "Календарь" в веб-приложении "книги учета".</span><span class="sxs-lookup"><span data-stu-id="48621-174">**Publishing options** Choose whether to have this service appear as bookable on the Self-Service page, or to make the service bookable only on the Calendar tab within the Bookings Web app.</span></span>
 

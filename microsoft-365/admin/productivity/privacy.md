@@ -55,7 +55,7 @@ ms.locfileid: "48287298"
 
 <span data-ttu-id="9123e-124">В рамках взаимодействия с сотрудниками мы предоставляем подробные сведения о действиях на уровне пользователя в формате сетки для каждой страницы сведений о категории.</span><span class="sxs-lookup"><span data-stu-id="9123e-124">Within Employee experience, we provide per-user level activity details in grid format for each category detail page.</span></span> <span data-ttu-id="9123e-125">Так как этот уровень детализации не подходит для всех потенциальных посетителей оценки производительности, мы создали пользовательскую роль в роли читателя сводного отчета об использовании, чтобы предоставить доступ к более широкому набору посетителей в Организации только суммарным показателям и отсутствию сведений на уровне в интерфейсе.</span><span class="sxs-lookup"><span data-stu-id="9123e-125">As this level of detail is not suitable for all potential visitors of Productivity Score, we have created a custom role within Azure AD – Usage Summary Reports Reader role – to enable access to a wider set of visitors within your org to only the aggregate metrics and no per-level details within the experience.</span></span>
 
-:::image type="content" source="../../media/communicationspage.jpg" alt-text="Страница "связь" в отчетах о производительности.":::
+:::image type="content" source="../../media/communicationspage.jpg" alt-text="Страница &quot;связь&quot; в отчетах о производительности.":::
 
 ## <a name="anonymization-of-user-level-metrics"></a><span data-ttu-id="9123e-127">Анонимность метрик уровня пользователя</span><span class="sxs-lookup"><span data-stu-id="9123e-127">Anonymization of user level metrics</span></span>
 
@@ -65,7 +65,7 @@ ms.locfileid: "48287298"
 2. <span data-ttu-id="9123e-131">Выберите  **отчеты** , а затем выберите  **Отображение анонимных идентификаторов для имен пользователей, групп и сайтов в отчетах по показателю эффективности и использованию**.</span><span class="sxs-lookup"><span data-stu-id="9123e-131">Select  **Reports** , and then choose to  **Display anonymous identifiers for user, group and site names in Productivity Score and Usage Reports**.</span></span> <span data-ttu-id="9123e-132">Этот параметр применяется как к отчетам об использовании, так и к приложению шаблона.</span><span class="sxs-lookup"><span data-stu-id="9123e-132">This setting gets applied both to the usage reports as well as to the template app.</span></span>
 3. <span data-ttu-id="9123e-133">Нажмите кнопку  **сохранить изменения**.</span><span class="sxs-lookup"><span data-stu-id="9123e-133">Select  **Save changes**.</span></span>
 
-:::image type="content" source="../../media/orgsettings_anonymous.jpg" alt-text="Предоставление анонимной информации о пользователях для отчетов.":::
+:::image type="content" source="../../media/orgsettings_anonymous.jpg" alt-text="Страница &quot;связь&quot; в отчетах о производительности.":::
 
 ## <a name="capability-to-opt-out-of-employee-experience"></a><span data-ttu-id="9123e-135">Возможность отказаться от взаимодействия с сотрудниками</span><span class="sxs-lookup"><span data-stu-id="9123e-135">Capability to opt out of Employee experience</span></span>
 
@@ -75,4 +75,4 @@ ms.locfileid: "48287298"
 2. <span data-ttu-id="9123e-139">Выберите пункт  **отчеты** , а затем снимите флажок для  **предоставления общего доступа к данным организационного&#39;s с оценками продуктивности работы сотрудников**.</span><span class="sxs-lookup"><span data-stu-id="9123e-139">Select  **Reports** , and then un-check the box that says  **Share your org&#39;s data with Productivity Score Employee Experience insights**.</span></span> <span data-ttu-id="9123e-140">Чтобы узнать, как изменить параметры общего доступа к данным для аналитики конечной точки в диспетчере конфигураций Intune, нажмите кнопку Дополнительные **сведения**.</span><span class="sxs-lookup"><span data-stu-id="9123e-140">To understand how to modify data-sharing settings for Endpoint Analytics in the Intune configuration manager, click on **Learn More**.</span></span>
 3. <span data-ttu-id="9123e-141">Нажмите кнопку  **сохранить изменения**.</span><span class="sxs-lookup"><span data-stu-id="9123e-141">Select  **Save changes**.</span></span>
 
-:::image type="content" source="../../media/orgsettingspageoptout.jpg" alt-text="Страница "Параметры организации", на которой вы можете отказаться от взаимодействия сотрудников.":::
+:::image type="content" source="../../media/orgsettingspageoptout.jpg" alt-text="Страница &quot;связь&quot; в отчетах о производительности.":::

@@ -39,7 +39,7 @@ ms.locfileid: "46868960"
 
 <span data-ttu-id="4154d-117">Администраторы и отправители сообщений могут отозвать сообщения, зашифрованные с помощью шифрования, непосредственно из Outlook в Интернете.</span><span class="sxs-lookup"><span data-stu-id="4154d-117">Admins and message senders can revoke messages that are encrypted using encryption applied directly from Outlook on the web.</span></span> <span data-ttu-id="4154d-118">Например, сообщения, зашифрованные с помощью параметра "только шифровать".</span><span class="sxs-lookup"><span data-stu-id="4154d-118">For example, messages encrypted with the Encrypt Only option.</span></span>
 
-:::image type="content" source="../media/adhocencryptionrevoke.png" alt-text="Снимок экрана: параметр "только шифрование" в Outlook в Интернете.":::
+:::image type="content" source="../media/adhocencryptionrevoke.png" alt-text="Снимок экрана: параметр &quot;только шифрование&quot; в Outlook в Интернете.":::
 
 ## <a name="recipient-experience-for-revoked-encrypted-emails"></a><span data-ttu-id="4154d-120">Получатель отзыва о отозванных зашифрованных сообщениях</span><span class="sxs-lookup"><span data-stu-id="4154d-120">Recipient experience for revoked encrypted emails</span></span>
 
@@ -55,13 +55,13 @@ ms.locfileid: "46868960"
 
    <span data-ttu-id="4154d-126">Если почта ревокабле, вы увидите ссылку "Удаление внешнего доступа" в верхней части сообщения.</span><span class="sxs-lookup"><span data-stu-id="4154d-126">If the mail is revocable, you'll see the "Remove external access" link at the top of the message.</span></span>
 
-    :::image type="content" source="../media/infoprotect-email-encryption/adhocencryptionrevokesentmsg.png" alt-text="Снимок экрана, на котором показаны зашифрованные сообщения, которые вы хотите отозвать в Outlook в Интернете.":::
+    :::image type="content" source="../media/infoprotect-email-encryption/adhocencryptionrevokesentmsg.png" alt-text="Снимок экрана: параметр &quot;только шифрование&quot; в Outlook в Интернете.":::
 
 2. <span data-ttu-id="4154d-128">Чтобы отозвать сообщение, нажмите кнопку **Удалить внешний доступ** .</span><span class="sxs-lookup"><span data-stu-id="4154d-128">Click **Remove external access** to revoke the message.</span></span>
 
    <span data-ttu-id="4154d-129">Сообщение показывает, что его состояние отозвано.</span><span class="sxs-lookup"><span data-stu-id="4154d-129">The message shows that its status is revoked.</span></span>
 
-   :::image type="content" source="../media/adhocencryptionrevokedmsg.png" alt-text="Снимок экрана: отзыв зашифрованного сообщения в Outlook в Интернете.":::
+   :::image type="content" source="../media/adhocencryptionrevokedmsg.png" alt-text="Снимок экрана: параметр &quot;только шифрование&quot; в Outlook в Интернете.":::
 
 ## <a name="how-to-revoke-an-encrypted-message-as-an-administrator"></a><span data-ttu-id="4154d-131">Отзыв зашифрованного сообщения от имени администратора</span><span class="sxs-lookup"><span data-stu-id="4154d-131">How to revoke an encrypted message as an administrator</span></span>
 

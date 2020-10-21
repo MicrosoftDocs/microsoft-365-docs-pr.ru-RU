@@ -143,7 +143,7 @@ ms.locfileid: "48277487"
 
 8. <span data-ttu-id="9dd67-215">Войдите с помощью учетных данных глобального администратора.</span><span class="sxs-lookup"><span data-stu-id="9dd67-215">Sign in with your Global Admin credentials.</span></span> <span data-ttu-id="9dd67-216">Когда появится следующий экран, нажмите кнопку **принять**.</span><span class="sxs-lookup"><span data-stu-id="9dd67-216">When the following screen is presented, select **Accept**.</span></span>
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="Диалоговое окно "принятие разрешений"":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="Подготовка клиента к миграции почтовых ящиков.":::
     
 9. <span data-ttu-id="9dd67-218">Вернитесь к удаленному сеансу PowerShell и нажмите клавишу ВВОД, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="9dd67-218">Switch back to the Remote PowerShell session and hit Enter to proceed.</span></span>
 
@@ -162,11 +162,11 @@ ms.locfileid: "48277487"
 
 1.  <span data-ttu-id="9dd67-223">Войдите в свой почтовый ящик как параметр – Ресаурцетенантадминемаил, заданный целевым администратором во время установки.</span><span class="sxs-lookup"><span data-stu-id="9dd67-223">Sign in to your mailbox as the -ResourceTenantAdminEmail specified by the target admin during their setup.</span></span> <span data-ttu-id="9dd67-224">Найдите приглашение от целевого клиента и нажмите кнопку **Get Start** (начало работы).</span><span class="sxs-lookup"><span data-stu-id="9dd67-224">Find the email invitation from the target tenant, and then select the **Get Started** button.</span></span>
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Диалоговое окно с приглашением":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Подготовка клиента к миграции почтовых ящиков.":::
 
 2. <span data-ttu-id="9dd67-226">Нажмите кнопку **принять** , чтобы принять приглашение.</span><span class="sxs-lookup"><span data-stu-id="9dd67-226">Select **Accept** to accept the invitation.</span></span>
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Диалоговое окно для принятия разрешений":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Подготовка клиента к миграции почтовых ящиков.":::
 
    > [!NOTE]
    > <span data-ttu-id="9dd67-228">Если вы не получаете это сообщение электронной почты или не можете найти его, администратору целевого клиента предоставляется прямой URL-адрес, который можно предоставить для принятия приглашения.</span><span class="sxs-lookup"><span data-stu-id="9dd67-228">If you do not get this email or cannot find it, the target tenant admin was provided a direct URL that can be given to you to accept the invitation.</span></span> <span data-ttu-id="9dd67-229">URL-адрес должен находиться в разделе в записи удаленного сеанса PowerShell администратора целевого клиента.</span><span class="sxs-lookup"><span data-stu-id="9dd67-229">The URL should in the in the transcript of the target tenant admin's Remote PowerShell session.</span></span>
