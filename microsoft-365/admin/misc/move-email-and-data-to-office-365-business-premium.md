@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,16 +22,16 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Сведения о перемещении данных на новый бизнес-идентификатор.
-ms.openlocfilehash: ebbb680baf36386d7f2dafae61fb262bf0220e69
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 4f105e00ab6496a5d1d3edfc0e0f1abd4eced412
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780005"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645039"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>Перемещение электронной почты и данных в Microsoft 365 бизнес Standard
 
-При обновлении до Microsoft 365 Business Standard мы предоставляем Вам новую *бизнес-идентификацию*. Вы получаете новую учетную запись электронной почты и отдельную учетную запись OneDrive для своих бизнес-данных. 
+При обновлении до Microsoft 365 Business Standard мы предоставляем Вам новую  *бизнес-идентификацию*. Вы получаете новую учетную запись электронной почты и отдельную учетную запись OneDrive для своих бизнес-данных. 
   
 Если вы хотите перенести в него свои личные данные, следуйте инструкциям ниже.
   

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб на 1&1 ИОНОС для Майкрософт.
-ms.openlocfilehash: 10c135d8fdc1512f0b2c1b341f3524097d5f6494
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: b88fa4f14104f60f22857bb9cfdc9e6366d2c303
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307155"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646395"
 ---
 # <a name="create-dns-records-at-11-ionos-for-microsoft"></a>Создание записей DNS на 1&1 ИОНОС для Майкрософт
 
@@ -300,8 +300,8 @@ ms.locfileid: "47307155"
     
     |**Type (Тип)**|**Service (Служба)**|**Protocol (Протокол)**|**Name (Имя)**|**Host (Узел)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV  <br/> |sip  <br/> |tls  <br/> |(Оставьте это поле пустым.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (1 ч)  <br/> |
-    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Оставьте это поле пустым.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (1 ч)  <br/> |  
+    |SRV  <br/> |sip  <br/> |tls  <br/> |(Оставьте это поле пустым.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1,1  <br/> |443  <br/> |3600 (1 ч)  <br/> |
+    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Оставьте это поле пустым.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |3600 (1 ч)  <br/> |  
     
     ![1 &amp; 1 — BP — configure – 5-1](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
   

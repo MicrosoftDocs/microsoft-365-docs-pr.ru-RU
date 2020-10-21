@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: Узнайте, как настроить Office 365 под управлением 21Vianet для управления записями DNS, когда 1&1 Интернет-поставщик услуг хостинга DNS.
-ms.openlocfilehash: 79870d534e7d825fd59dbbbec54c796227f5faf1
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 8a783be20d2f8dbdb26e9826018f911289b35235
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780377"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646563"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Измените серверов доменных имен, чтобы настроить Microsoft 365 с 1&1 ИОНОС
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Следуйте этим инструкциям, если вы хотите, чтобы Microsoft 365 управляла записями DNS Майкрософт 365. (При желании вы можете [управлять всеми своими записями DNS для Microsoft 365 на 1&1 ионос](create-dns-records-at-1-1-internet.md).) 
   
@@ -56,7 +56,7 @@ ms.locfileid: "44780377"
     
 5. В разделе **txt and SRV Records (записи TXT и SRV** ) выберите **Добавить запись**.
     
-    (You may have to scroll down.) 
+    (Возможно, потребуется прокрутить страницу вниз.) 
     
 6. In the **Add Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -82,17 +82,17 @@ ms.locfileid: "44780377"
     
 3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
-4. На странице **Проверка домена** выберите **Проверить**.
+4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. Если при добавлении записей DNS возникают проблемы с почтовыми сообщениями или другими проблемами, ознакомьтесь со статьей [Поиск и устранение проблем после добавления домена или записей DNS в Microsoft 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. Тем не менее, иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если при добавлении записей DNS возникают проблемы с почтовыми сообщениями или другими проблемами, ознакомьтесь со статьей [Поиск и устранение проблем после добавления домена или записей DNS в Microsoft 365](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>Изменение записей сервера доменных имен
 
 Чтобы завершить настройку домена с помощью Microsoft 365, измените записи NS домена в регистраторе доменных имен, чтобы они ссылались на основной и дополнительный серверы имен Microsoft 365. При этом Microsoft 365 настраивается на обновление записей DNS домена. Мы добавим все записи, так что электронная почта, Skype для бизнеса online и общедоступный веб-сайт будут работать в вашем домене и вам больше не придется ничего настраивать.
   
 > [!CAUTION]
-> Когда вы изменяете записи NS домена так, чтобы они ссылались на серверы имен Microsoft 365, затрагиваются все службы, которые в настоящее время связаны с вашим доменом. Например, все сообщения электронной почты, отправленные в ваш домен (например, rob@ *your_domain* . com), появятся в Microsoft 365 после внесения этого изменения. 
+> Когда вы изменяете записи NS домена так, чтобы они ссылались на серверы имен Microsoft 365, затрагиваются все службы, которые в настоящее время связаны с вашим доменом. Например, все сообщения электронной почты, отправленные в ваш домен (например, rob@ *your_domain*  . com), появятся в Microsoft 365 после внесения этого изменения. 
   
 Вы готовы изменить записи сервера доменных имен, чтобы Microsoft 365 мог настроить ваш домен? Воспользуйтесь приведенными ниже инструкциями или [посмотрите видеоролик (начиная с 2:47)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
   

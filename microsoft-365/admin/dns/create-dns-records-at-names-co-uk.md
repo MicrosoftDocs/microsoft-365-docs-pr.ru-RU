@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: b6c15128-b456-49b4-8b5e-5b823c700f26
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Names.co.uk для Майкрософт.
-ms.openlocfilehash: 1b519393e70483aa311354b96ebb11ad0feaa933
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d3a3e68558efc3857d343b3298c3c01f0e8d8802
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400380"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645867"
 ---
 # <a name="create-dns-records-at-namescouk-for-microsoft"></a>Создание записей DNS на сайте Names.co.uk для Майкрософт
 
@@ -61,13 +61,13 @@ ms.locfileid: "44400380"
   
 3. On the **Add/Modify DNS Zone** page, in the **A, CNAME, AAAA, TXT and NS records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     (Если необходимо добавить строку, выберите **добавить записи a/CNAME (+)**.)
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
         
-    |**Host Name (Имя узла)**|**Type (Тип)**|**Результат**|
+    |**Host Name (Имя узла)**|**Type (Тип)**|**Result (Результат)**|
     |:-----|:-----|:-----|
     |(Leave this field empty.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)    |
        
@@ -75,7 +75,7 @@ ms.locfileid: "44400380"
   
 4. Нажмите кнопку **Сохранить**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Намесук — BP — Verify – 1-2](../../media/40e991f9-2209-4210-8762-981cca670d70.png)
   
@@ -117,17 +117,17 @@ ms.locfileid: "44400380"
   
 3. На странице **Add/Modify DNS Zone** (Добавить/изменить зону DNS) в разделе **Mail exchange records** (Записи обмена электронной почтой) в поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    |**Host Name (Имя узла)**|**Priority (Приоритет)**|**Результат**|
+    |**Host Name (Имя узла)**|**Priority (Приоритет)**|**Result (Результат)**|
     |:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> |1   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> > [!NOTE]> получить свою *\<domain-key\>* учетную запись Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Оставьте это поле пустым.)  <br/> |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]> получить свою  *\<domain-key\>*  учетную запись Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![Намесук — BP — configure – 2-1](../../media/e211d73d-864f-4114-864b-8e636c69f595.png)
   
 4. Нажмите кнопку **Сохранить**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Намесук — BP — configure – 2-2](../../media/01e6c801-daa2-40ca-84f9-dcac6422257c.png)
   
@@ -137,7 +137,7 @@ ms.locfileid: "44400380"
   
 6. Нажмите кнопку **Сохранить**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Намесук — BP — configure – 2-4](../../media/cd705919-d0bd-408f-82be-b54e732cb05c.png)
   
@@ -156,13 +156,13 @@ ms.locfileid: "44400380"
   
 3. On the **Add/Modify DNS Zone** page, in the **A, CNAME, AAAA, TXT and NS records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     (Если необходимо добавить строку, выберите **добавить записи a/CNAME (+)**.)
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    |**Host Name (Имя узла)**|**Type (Тип)**|**Результат**|
+    |**Host Name (Имя узла)**|**Type (Тип)**|**Result (Результат)**|
     |:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |CNAME  <br/> |sipdir.online.lync.com  <br/> |
@@ -176,11 +176,11 @@ ms.locfileid: "44400380"
     
     ![Намесук — BP — configure – 3-2](../../media/c009795e-7eef-4804-bf23-556f498306cc.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений.
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений.
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Names.co.uk по [этой ссылке](https://account.names.co.uk/dashboard#/). Сначала вам потребуется выполнить вход.
     
@@ -198,13 +198,13 @@ ms.locfileid: "44400380"
   
 4. On the **Add/Modify DNS Zone** page, in the **A, CNAME, AAAA, TXT and NS records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     (Если необходимо добавить строку, выберите **добавить записи a/CNAME (+)**.)
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    |**Host Name (Имя узла)**|**Type (Тип)**|**Результат**|
+    |**Host Name (Имя узла)**|**Type (Тип)**|**Result (Результат)**|
     |:-----|:-----|:-----|
     |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
        
@@ -212,7 +212,7 @@ ms.locfileid: "44400380"
   
 5. Нажмите кнопку **Сохранить**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Намесук — BP — configure – 4-2](../../media/b4d445a1-09c0-46c3-8141-672cc2831a9b.png)
   
@@ -235,8 +235,8 @@ ms.locfileid: "44400380"
     
     |**Name (Имя)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Result (Результат)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![Намесук — BP — configure – 5-1](../../media/97a96523-005a-4058-9e12-19f6c3bf9b3b.png)
   

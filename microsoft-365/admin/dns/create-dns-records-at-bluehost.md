@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Bluehost для Майкрософт.
-ms.openlocfilehash: c0db0a00b48e6a460b8e21c95b8d8852914ab87b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c0ba1b876c939632bc6c43a6e0004fbbe23a7723
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307047"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646239"
 ---
 # <a name="create-dns-records-at-bluehost-for-microsoft"></a>Создание записей DNS на сайте BlueHost для Майкрософт
 
@@ -53,7 +53,7 @@ ms.locfileid: "47307047"
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+3. В области ** _domain_name_*_* в строке редактор зоны _ DNS** выберите **Управление записями DNS**.
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -93,7 +93,7 @@ ms.locfileid: "47307047"
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+3. В области ** _domain_name_*_* в строке редактор зоны _ DNS** выберите **Управление записями DNS**.
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -130,7 +130,7 @@ ms.locfileid: "47307047"
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+3. В области ** _domain_name_*_* в строке редактор зоны _ DNS** выберите **Управление записями DNS**.
     
 4. В разделе **A (Host) (записи узла)** найдите строку для записи **автообнаружения** , а затем выберите команду **Удалить** для этой строки. 
     
@@ -169,7 +169,7 @@ ms.locfileid: "47307047"
     
     Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -181,7 +181,7 @@ ms.locfileid: "47307047"
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+3. В области ** _domain_name_*_* в строке редактор зоны _ DNS** выберите **Управление записями DNS**.
     
 4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -206,7 +206,7 @@ ms.locfileid: "47307047"
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+3. В области ** _domain_name_*_* в строке редактор зоны _ DNS** выберите **Управление записями DNS**.
     
 4. Создайте первую из двух записей SRV.
     
@@ -216,8 +216,8 @@ ms.locfileid: "47307047"
     
     |**Служба**|**Protocol (Протокол)**|**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Points To (Указывает на)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip  <br/> |_tls  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![Копирование значения для новой записи](../../media/e2911bca-c00b-4b8a-837f-f1d438c474c4.png)
   

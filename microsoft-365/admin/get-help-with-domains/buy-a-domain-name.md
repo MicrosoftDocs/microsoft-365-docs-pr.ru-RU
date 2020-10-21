@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -23,66 +23,66 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
-description: Узнайте, как купить доменное имя в Microsoft 365.
-ms.openlocfilehash: c9b4ac4cff7ad8166caa28b89e1195d98b3f6d27
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+description: Узнайте, как приобрести доменное имя в Microsoft 365.
+ms.openlocfilehash: f636b9e6afc1e910a6b0c01a58a4e69127c80772
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814460"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645519"
 ---
 # <a name="buy-a-domain-name"></a>Приобретение имени домена
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
- *Чтобы добавить, измените или удалите домены, **необходимо быть** **глобальным** администратором [корпоративного или корпоративного плана.](https://products.office.com/business/office) Эти изменения затрагивают весь клиент, *настроенные администраторы* и *обычные* пользователи не смогут внести такие изменения.*  
+ *Чтобы добавить, изменить или удалить домены, **необходимо** быть **глобальным администратором** [плана бизнеса или предприятия](https://products.office.com/business/office). Эти изменения затрагивают весь клиент, *Администраторы* или *обычные пользователи* не смогут вносить эти изменения.*  
 
  Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Вход и выберите "Параметры \> \> купить домен"
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Вход и переход к разделу " \> домены параметров" \> Покупка домена
 
 1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
-3. На странице **"Домены"** выберите **"Купить домен".**
+3. На странице **Domains (домены** ) выберите пункт **купить домен**.
     
 Вы можете выбрать один из следующих доменов верхнего уровня:
   
-- .biz
+- . BIZ
     
-- .com
+- . com
     
-- .info
+- . info
     
-- .me
+- . Me
     
-- .mobi
+- . Моби
     
-- .net
+- среды
     
-- .org
+- . org
     
-- .tv
+- . TV
     
-- .co.uk
+- . co.uk
     
 - org.uk
     
 
 > [!NOTE]
-> Если выбрать **домен Buy, то,** возможно, будет выполнено перенаправление на веб-сайт партнера Майкрософт, если клиент приобретается или управляется через партнера Майкрософт.
+> Если вы выбрали **приобрести домен**, вы можете переадресовать на свой веб-сайт партнера Майкрософт, если клиент приобрел/управляет через партнера корпорации Майкрософт.
 
 ### <a name="domain-privacy"></a>Конфиденциальность домена
-Мы предлагаем бесплатную подписку на конфиденциальность домена с покупкой домена. Таким образом ваши контактные данные остываются при регистрации вашего домена с использованием частного iCANN. [Подробнее.](https://whois.icann.org/en/privacy-and-proxy-services)
+Мы предлагаем бесплатную подписку на заявление о конфиденциальности домена, в которой вы приобрели домен. В этом случае контактные данные, прикрепленные к регистрации домена, сохраняются в ИКАНН Private. [Подробнее.](https://whois.icann.org/en/privacy-and-proxy-services)
   
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>Приобретение домена у другого регистратора доменных имен
-Если вы хотите купить домен у другого регистратора доменных имен [(не GoDaddy),](https://www.godaddy.com)рекомендуем использовать следующий способ, который поддерживает автоматическую настройку (Подключение доменов). 
+Если вы хотите приобрести домен у регистратора доменных имен, отличного от [GoDaddy](https://www.godaddy.com), мы рекомендуем использовать один из следующих способов, поддерживающих автоматическую установку (подключение к домену). 
   
-- [1 &amp; 1. ОБЪЕКТЫ СОСТОЯЩИХ ИЗ](https://www.1and1.com/)
+- [1 &amp; 1 ионос](https://www.1and1.com/)
 - [WordPress](https://www.wordpress.com) 
 
    
@@ -102,17 +102,17 @@ ms.locfileid: "46814460"
 
 Если у вас еще нет домена, его легко можно приобрести в Интернете у регистратора доменных имен, посредника или даже у вашего поставщика услуг Интернета. При регистрации в службе Office 365, предоставляемой 21Vianet, вы получаете доменное имя, например contoso.partner.onmschina.cn. Однако при желании можно использовать собственное доменное имя, например fourthcoffee.com.
   
-Чтобы настроить домен в Microsoft 365, необходимо быть владельцем домена и изменить некоторые записи DNS для него.
+Чтобы настроить домен в Microsoft 365, необходимо владеть доменом и изменить некоторые записи DNS для своего домена.
   
 > [!CAUTION]
-> Некоторые регистраторы доменных имен и поставщики услуг размещения DNS не позволяют создать все записи DNS, необходимые Microsoft 365. Указанные ниже регистраторы поддерживают все необходимые записи. Если вы планируете воспользоваться услугами другого поставщика услуг размещения, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
+> Некоторые регистраторы доменных имен или поставщики услуг хостинга DNS не разрешают создавать все записи DNS, необходимые для Microsoft 365. Указанные ниже регистраторы поддерживают все необходимые записи. Если вы планируете воспользоваться услугами другого поставщика услуг размещения, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
   
-После регистрации домена (на сайте регистратора доменных имен) войдите в Microsoft 365 от имени администратора и настройте свой домен, чтобы использовать его в адресе электронной почты и других службах.
+После регистрации домена (у регистратора доменных имен) вы входите в систему Microsoft 365 как администратор и настроили свой домен, чтобы вы могли использовать его с адресом электронной почты и другими службами.
   
 > [!NOTE]
-> The SharePoint Online Public Website information in this article only applies if your organization purchased Microsoft 365 prior to March 9, 2015. 
+> Сведения об общедоступных веб-сайтах SharePoint Online приведены в этой статье только в том случае, если ваша организация приобрела Microsoft 365 до 9 марта 2015. 
 
-## <a name="domain-registrars-that-support-all-dns-records-required-for-microsoft-365"></a>Регистраторы доменных имен, которые поддерживают все записи DNS, необходимые для Microsoft 365
+## <a name="domain-registrars-that-support-all-dns-records-required-for-microsoft-365"></a>Регистраторы доменных имен, поддерживающие все записи DNS, необходимые для Microsoft 365
 
 - [Oray](https://oray.com/)
     
@@ -130,4 +130,4 @@ ms.locfileid: "46814460"
 
 [Вопросы и ответы о доменах](../setup/domains-faq.md)
 
-[Обновите DNS-записи, чтобы сохранить веб-сайт у текущего поставщика услуг размещения.](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider)
+[Обновление DNS-записей для сохранения веб-сайта у текущего поставщика услуг хостинга](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider).

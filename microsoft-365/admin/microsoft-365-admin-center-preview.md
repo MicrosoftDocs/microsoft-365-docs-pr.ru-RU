@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: Сведения о центре администрирования Microsoft 365.
-ms.openlocfilehash: 720130f01000e1f8845d2fa28dbc2d278a258ebf
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 2e54ad576b944153332aaec2012538e84c444db1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560427"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645075"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Сведения о Центре администрирования Microsoft 365
 
@@ -79,7 +79,7 @@ ms.locfileid: "44560427"
 
 ::: moniker range="o365-worldwide"
 
-## <a name="frequently-asked-questions"></a>Вопросы и ответы
+## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 
 Не видите свои вопросы, на которые вы ответили? Перейдите к разделу **обратная связь** в нижней части этой страницы и задайте вопрос. 
   

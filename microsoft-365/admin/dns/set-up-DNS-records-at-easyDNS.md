@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу easyDNS для Майкрософт.
-ms.openlocfilehash: 24f477d240af936975141c53d382e114a24c0ac5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4909a02ec56fc9720a2636e822da0339e89bccf8
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400236"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645555"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>Создание записей DNS на сайте easyDNS для Майкрософт
 
@@ -45,7 +45,7 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 4. Введите в текстовые поля следующие записи:
     
-    |**Host** (Узел)|**Text**|
+    |**Host**|**Text**|
     |:-----|:-----|
     |@  <br/> |MS = Мскскскскскскскскс (используйте значение, указанное на странице "домены центра администрирования")  <br/> |
    
@@ -63,7 +63,7 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 11. На странице **Настройка** выберите пункт **Запуск программы установки.**
     
-12. На странице **Проверка домена** выберите **Проверить**. 
+12. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить). 
     
 ## <a name="add-an-mx-record-to-route-email-to-microsoft"></a>Добавление записи MX для маршрутизации электронной почты в корпорацию Майкрософт
 
@@ -108,7 +108,7 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 6. Убедитесь, что запись верна, а затем нажмите кнопку **подтвердить**. 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 
 1. Перейдите на страницу [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) и войдите с помощью учетных данных. 
     
@@ -118,7 +118,7 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 4. Введите в текстовые поля следующие записи:
     
-    |**Host** (Узел)|**Text**|
+    |**Host**|**Text**|
     |:-----|:-----|
     |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> |
    
@@ -140,8 +140,8 @@ NOTE: записи SRV в настоящее время недоступны в 
     
     |**SERVICE (СЛУЖБА)**|**ЗАДАННОЕ**|**HOST (УЗЕЛ)**|**ОСНОВНОЙ**|**вгт**|**PORT (ПОРТ)**|**TARGET (должно оканчиваться на ".")**|**TTL (Срок жизни)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
-    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
+    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
+    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
    
 5. Нажмите кнопку **Далее**. 
     

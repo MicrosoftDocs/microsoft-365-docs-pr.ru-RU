@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: fbcef2d7-ebaf-40d0-ba1f-cdaeff9f50ef
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в зонах DNS Azure для Майкрософт.
-ms.openlocfilehash: fcc3ea42b7414cdd5fc0c34bfae91104287d2379
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 40fadb81ebd0ae5385bbbdad727b1c579142b227
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400272"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645675"
 ---
 # <a name="create-dns-records-for-azure-dns-zones"></a>Создание записей DNS для зон DNS Azure
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если Azure является поставщиком услуг хостинга DNS, выполните действия, описанные в этой статье, чтобы проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и т. д.
   
@@ -108,9 +108,9 @@ ms.locfileid: "44400272"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Значение**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Единица срока жизни**|**Значение**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |1   <br/> |Часы  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |TXT  <br/> |1,1  <br/> |Часы  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Azure — BP — проверка — 1-1](../../media/7d5a253c-e88f-4565-a00a-79bba52f9970.png)
   
@@ -158,9 +158,9 @@ ms.locfileid: "44400272"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Preference (Предпочтение)**|**Обмен сообщениями**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Единица срока жизни**|**Preference (Предпочтение)**|**Обмен сообщениями**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1   <br/> |Часы  <br/> |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  
+    |@  <br/> |MX  <br/> |1,1  <br/> |Часы  <br/> |10   <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получение  *\<domain-key\>*  учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  
    
     ![Azure — BP — configure – 2-1](../../media/712c23ae-9d38-4af2-94e0-0704e70744fe.png)
   
@@ -207,11 +207,11 @@ ms.locfileid: "44400272"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Alias (Псевдоним)**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Единица срока жизни**|**Alias (Псевдоним)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |CNAME  <br/> |1   <br/> |Часы  <br/> |autodiscover.outlook.com  <br/> |
-    |sip  <br/> |CNAME  <br/> |1   <br/> |Часы  <br/> |sipdir.online.lync.com  <br/> |
-    |lyncdiscover  <br/> |CNAME  <br/> |1   <br/> |Часы  <br/> |webdir.online.lync.com  <br/> |
+    |autodiscover  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |autodiscover.outlook.com  <br/> |
+    |sip  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |sipdir.online.lync.com  <br/> |
+    |lyncdiscover  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |webdir.online.lync.com  <br/> |
     
    
     ![Azure — BP — configure – 3-1](../../media/a1c4d869-da97-43b3-952c-d513a20231dc.png)
@@ -231,16 +231,16 @@ ms.locfileid: "44400272"
 > [!IMPORTANT]
 > Если у вас есть управление мобильными устройствами (MDM) для Майкрософт, необходимо создать две дополнительные записи CNAME. Follow the procedure that you used for the other four CNAME records, but supply the values from the following table. (Если MDM нет, вы можете пропустить этот шаг.) 
   
-|**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Alias (Псевдоним)**|
+|**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Единица срока жизни**|**Alias (Псевдоним)**|
 |:-----|:-----|:-----|:-----|:-----|
-|enterpriseregistration  <br/> |CNAME  <br/> |1   <br/> |Часы  <br/> |enterpriseregistration.windows.net  <br/> |
-|enterpriseenrollment  <br/> |CNAME  <br/> |1   <br/> |Часы  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
+|enterpriseregistration  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |enterpriseregistration.windows.net  <br/> |
+|enterpriseenrollment  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
    
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений. 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений. 
   
 1. Чтобы приступить к работе, перейдите на страницу ваших доменов в Azure, используя [эту ссылку](https://portal.azure.com ). Сначала вам потребуется выполнить вход.
     
@@ -258,9 +258,9 @@ ms.locfileid: "44400272"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Значение**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Единица срока жизни**|**Значение**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |1   <br/> |Часы  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               
+    |@  <br/> |TXT  <br/> |1,1  <br/> |Часы  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               
 
     ![Azure — BP — configure – 4-2](../../media/78e84c43-e0ce-433f-8e74-9157fb093cca.png)
   
@@ -289,10 +289,10 @@ ms.locfileid: "44400272"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Единица срока жизни**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |SRV  <br/> |1   <br/> |Часы  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls. _tcp  <br/> |SRV  <br/> |1   <br/> |Часы  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> 
+    |_sip._tls  <br/> |SRV  <br/> |1,1  <br/> |Часы  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |SRV  <br/> |1,1  <br/> |Часы  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> 
 
     ![Azure — BP — configure – 5-1](../../media/a436e0b4-8bb8-4a66-9c22-4e3b2dcf54ff.png)
   

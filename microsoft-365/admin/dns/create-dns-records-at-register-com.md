@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55bd8c38-3316-48ae-a368-4959b2c1684e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Register.com для Майкрософт.
-ms.openlocfilehash: 7a11fa248f2602eb02fe1242234d26584bd33fd2
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 96ec44875d5bc86f46e4945d4021deb0ca427fed
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780329"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645807"
 ---
 # <a name="create-dns-records-at-registercom-for-microsoft"></a>Создание записей DNS на сайте Register.com для Майкрософт
 
@@ -124,7 +124,7 @@ ms.locfileid: "44780329"
     
     |****Host Name** (Имя узла)**|****Priority** (Приоритет)**|****Mail Server** (Почтовый сервер)**|
     |:-----|:-----|:-----|
-    |@  <br/> |High (Высокий)  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/>  <br/>**Примечание:** Получение \<*domain-key*\> учетной записи Майкрософт. <br> [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |High (Высокий)  <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/>  <br/>**Примечание.**  Получите свой \<*domain-key*\> из учетной записи Майкрософт. <br> [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Скопируйте и вставьте значение из таблицы](../../media/a1a15a14-c3dc-45dc-adcd-90fdb3f7455d.png)
   
@@ -183,7 +183,7 @@ ms.locfileid: "44780329"
     
     ![Нажмите кнопку продолжить.](../../media/3342b570-0633-49c5-9175-5cc8e4a67b53.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -244,8 +244,8 @@ ms.locfileid: "44780329"
     
     |****Service** (Служба)**|****Proto** (Протокол)**|****Name** (Имя)**|****Priority** (Приоритет)**|****Weight** (Вес)**|****Port** (Порт)**|****Target** (Целевое значение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |@  <br/> |High (Высокий)  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/>  <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |High (Высокий)  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/>  <br/> |
+    |_sip  <br/> |_tls  <br/> |@  <br/> |High (Высокий)  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/>  <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |High (Высокий)  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/>  <br/> |
    
     ![Скопируйте и вставьте значения из таблицы](../../media/71304c81-5845-4a8f-b969-d9efc8721184.png)
   

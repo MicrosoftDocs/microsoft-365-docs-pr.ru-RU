@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу cloudflare для Майкрософт.
-ms.openlocfilehash: 9b717ddedaf6435f6599f4f75cc0fa7c4e618d59
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 301ed156584d9a9a2b84b88db7d6969ade5b34a2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400549"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646155"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Создание записей DNS на сайте cloudflare для Майкрософт
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если ваш поставщик услуг размещения DNS  Cloudflare, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб.
   
@@ -88,7 +88,7 @@ ms.locfileid: "44400549"
     
     |**Тип**|**Name (Имя)**|**Automatic TTL**|**Content (Содержимое)**|
     |:-----|:-----|:-----|:----|
-    |TXT  <br/> |@  <br/> |30 мин.  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)    |
+    |TXT  <br/> |@  <br/> |30 minutes  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)    |
   
     
 5. Нажмите кнопку **Сохранить**.
@@ -132,7 +132,7 @@ ms.locfileid: "44400549"
     
     |**Тип**|**Имя**|**Mail Server (Почтовый сервер)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получите свою *\<domain-key\>* учетную запись от вашей учетной записи Microsoft 365.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |1   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/>|30 мин.  <br/> |
+    |MX  <br/> |@  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите свою  *\<domain-key\>*  учетную запись от вашей учетной записи Microsoft 365.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/>|30 минут  <br/> |
    
 
   
@@ -176,7 +176,7 @@ ms.locfileid: "44400549"
 7. Добавьте остальные пять записей CNAME.
 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -192,9 +192,9 @@ ms.locfileid: "44400549"
   
 4. На странице " **Управление DNS** " нажмите кнопку **Добавить запись**, а затем выберите значения из таблицы ниже.  
     
-    |**Тип**|**Имя**|**TTL** (Срок жизни)|**Content (Содержимое)**|
+    |**Тип**|**Name (Имя)**|**TTL (Срок жизни)**|**Content (Содержимое)**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |@  <br/> |30 мин.  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.       |
+    |TXT  <br/> |@  <br/> |30 minutes  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.       |
 
  
 5. Нажмите кнопку **Сохранить**.
@@ -217,10 +217,10 @@ ms.locfileid: "44400549"
 
     На странице " **Управление DNS** " нажмите кнопку **Добавить запись**, а затем выберите значения из первой строки приведенной ниже таблицы.
         
-    |**Тип**|**Service (Служба)**|**Protocol (Протокол)**|**Name** (Имя)|**TTL (Срок жизни)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
+    |**Type (Тип)**|**Service (Служба)**|**Protocol (Протокол)**|**Name (Имя)**|**TTL (Срок жизни)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|_sip |TLS |Использование *domain_name*; Например, contoso.com  |30 мин. | 100|1  |443 |sipfed.online.lync.com  |
-    |SRV|_sipfederationtls | TCP|Использование *domain_name*; Например, contoso.com   |30 мин. |100 |1  |5061 | sipfed.online.lync.com |
+    |SRV|_sip |TLS |Использование *domain_name*; Например, contoso.com  |30 минут | 100|1,1 |443 |sipfed.online.lync.com  |
+    |SRV|_sipfederationtls | TCP|Использование *domain_name*; Например, contoso.com   |30 минут |100 |1,1 |5061 | sipfed.online.lync.com |
 
   
 5. Нажмите кнопку **Сохранить**.

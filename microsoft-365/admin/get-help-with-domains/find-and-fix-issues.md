@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Сведения о том, как отслеживать все проблемы, возникающие при настройке настраиваемого домена, убедившись, что DNS-записи настроены правильно.
-ms.openlocfilehash: 8d46d681e44a0bebd0a9571d18ffa95e1e554dc8
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: ce5aa65601a4fac763616cb67c6a4c466083a4c0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295050"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645339"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Поиск и устранение неполадок после добавления домена и записей DNS
 

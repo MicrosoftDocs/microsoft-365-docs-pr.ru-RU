@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу OVH для Майкрософт.
-ms.openlocfilehash: b462979a3ab1bcf769c78d15d9fd3ad03f307ef0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 87a2a731a253fdc0593a1aae8020e615dca63c4a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400344"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645819"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>Создание записей DNS на сайте OVH для Майкрософт
 
@@ -84,9 +84,9 @@ ms.locfileid: "44400344"
     
     |**Record Type (Тип записи)**|**Sub-domain (Поддомен)**|**TTL**|**Значение**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(Оставьте пустым)  <br/> |3600 (секунд)  <br/> |MS=msxxxxxxxx  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |TXT  <br/> |(оставьте пустым)  <br/> |3600 (секунд)  <br/> |MS=msxxxxxxxx  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
-7. Нажмите кнопку **подтвердить**. 
+7. Выберите **Подтвердить**. 
     
     ![OVH confirm TXT for verification](../../media/bde45596-9a55-4634-b5e7-16d7cde6e1b8.png)
   
@@ -143,7 +143,7 @@ ms.locfileid: "44400344"
   
     |**Примечание.** По умолчанию в OVH используется относительная нотация, при которой в конец целевой записи добавляется доменное имя. Чтобы использовать абсолютную нотацию, добавьте точку в целевую запись, как показано в таблице ниже.|**Sub-domain (Поддомен)**|**Sub-domain (Поддомен)**|**TTL**|**Priority (Приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(оставьте пустым)  <br/> |(Оставьте пустым)  <br/> |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |\<domain-key\>. mail.protection.outlook.com.  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(оставьте пустым)  <br/> |(Оставьте пустым)  <br/> |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |\<domain-key\>. mail.protection.outlook.com.  <br/> **Примечание:** Получение  *\<domain-key\>*  учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![Запись MX OVH для почты](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
@@ -151,7 +151,7 @@ ms.locfileid: "44400344"
     
     ![OVH MX record select Next](../../media/4db62d07-0dc4-49f6-bd19-2b4a07fd764a.png)
   
-8. Нажмите кнопку **подтвердить**.
+8. Выберите **Подтвердить**.
     
     ![OVH MX record select Confirm](../../media/090bfb11-a753-4af0-8982-582a4069a169.png)
   
@@ -159,7 +159,7 @@ ms.locfileid: "44400344"
     
     ![OVH delete MX record](../../media/892b328b-7057-4828-b8c5-fe26284dc8c2.png)
   
-10. Нажмите кнопку **подтвердить**.
+10. Выберите **Подтвердить**.
     
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>Добавление записей CNAME, необходимых для продуктов корпорации Майкрософт
 <a name="bkmk_cname"> </a>
@@ -202,17 +202,17 @@ ms.locfileid: "44400344"
     
     ![OVH Add CNAME values and select Next](../../media/f9481cb1-559d-4da1-9643-9cacb0d80d29.png)
   
-8. Нажмите кнопку **подтвердить**.
+8. Выберите **Подтвердить**.
     
 9. Повторив эти действия, создайте пять других записей CNAME.
     
     Создайте пять других записей CNAME, как описано выше.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений. 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений. 
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте OVH по [этой ссылке](https://www.ovh.com/manager/). Вам потребуется выполнить вход.
     
@@ -236,7 +236,7 @@ ms.locfileid: "44400344"
     
     |**Record type**|**Sub-domain (Поддомен)**|**Sub-domain (Поддомен)**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(оставьте пустым)  <br/> |(оставьте пустым)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
+    |TXT  <br/> |(оставьте пустым)  <br/> |3600 (секунд)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
    
     ![OVH Добавление записи TXT для SPF](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
@@ -244,7 +244,7 @@ ms.locfileid: "44400344"
     
     ![OVH добавить запись TXT для SPF и нажмите кнопку Далее.](../../media/7937eb7c-114f-479f-a916-bcbe476d6108.png)
   
-8. Нажмите кнопку **подтвердить**.
+8. Выберите **Подтвердить**.
     
     ![OVH Add TXT record for SPF and Confirm](../../media/649eefeb-3227-49e3-98a0-1ce19c42fa54.png)
   
@@ -277,8 +277,8 @@ ms.locfileid: "44400344"
     
     |**Record Type (Тип записи)**|**Sub-domain (Поддомен)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**TTL** (Срок жизни)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Service)  <br/> |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (секунд)  <br/> |sipdir.online.lync.com.  <br/> |
-    |SRV (Service)  <br/> |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (секунд)  <br/> |sipfed.online.lync.com.  <br/> |
+    |SRV (Service)  <br/> |_sip._tls  <br/> |100  <br/> |1,1  <br/> |443  <br/> |3600 (секунд)  <br/> |sipdir.online.lync.com.  <br/> |
+    |SRV (Service)  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |3600 (секунд)  <br/> |sipfed.online.lync.com.  <br/> |
        
     ![Запись SRV OVH](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   
@@ -286,7 +286,7 @@ ms.locfileid: "44400344"
     
     ![OVH SRV record select Next](../../media/cb4ad7e2-a8f0-4ab1-9797-d1b51c1d2da9.png)
   
-8. Нажмите кнопку **подтвердить**.
+8. Выберите **Подтвердить**.
     
 9. Повторите эти действия для другой записи SRV. В поля для второй записи введите (или скопируйте и вставьте) значения из второй строки приведенной выше таблицы.
     

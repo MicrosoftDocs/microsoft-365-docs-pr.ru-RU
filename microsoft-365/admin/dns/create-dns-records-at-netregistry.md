@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Netregistry для Майкрософт.
-ms.openlocfilehash: c4e81e92b9f86d0a2974e6f95e397f3584c9a01e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 016df6c61fd6934c1bc46b55c7e110d8442cf1d5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400368"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645975"
 ---
 # <a name="create-dns-records-at-netregistry-for-microsoft"></a>Создание записей DNS на сайте Netregistry для Майкрософт
 
@@ -138,7 +138,7 @@ ms.locfileid: "44400368"
     
     |**Name (Имя)**|**TTL (SEC) (Срок жизни в секундах)**|**Exchange (указывает на адрес или значение)**|**Является полным узлом?**|**Предпочтения (приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(оставьте пустым)  <br/> |3600 (секунд)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      |(установите флажок)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
+    |(оставьте пустым)  <br/> |3600 (секунд)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получение  *\<domain-key\>*  учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      |(установите флажок)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   
@@ -161,13 +161,13 @@ ms.locfileid: "44400368"
     
     ![Netregistry_selectZoneManager](../../media/58384add-0a9d-472b-a5d0-51ec8155fd41.png)
   
-4. В разделе **Добавление записи зоны**выберите **запись CNAME** в списке и нажмите кнопку **создать новую запись**.
+4. В разделе  **Добавление записи зоны**выберите **запись CNAME** в списке и нажмите кнопку **создать новую запись**.
     
     ![Netregistry_CNAME_CreateNewRecord](../../media/7b4f133f-45da-48da-93c0-62f57c786165.png)
   
 5. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**УЗЕЛ (значение "точка" или "адрес")**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**УЗЕЛ (значение "точка" или "адрес")**|
     |:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |3600 (секунд)  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |CNAME  <br/> |3600 (секунд)  <br/> |sipdir.online.lync.com  <br/> |
@@ -185,11 +185,11 @@ ms.locfileid: "44400368"
     
     Создайте пять других записей CNAME, как описано выше.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений.
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений.
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на веб-сайте Netregistry по [этой ссылке](https://theconsole.netregistry.com.au/). Вам потребуется выполнить вход.
     
@@ -212,15 +212,15 @@ ms.locfileid: "44400368"
     > [!NOTE]
     > Перед и после записи в поле TXT необходимо использовать кавычки. 
   
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Данные TXT (Target)**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Данные TXT (Target)**|
     |:-----|:-----|:-----|:-----|
-    |(Оставьте пустым)  <br/> |TXT  <br/> |3600 (секунд)  <br/> |"v = spf1 включает:SPF. Protection. Outlook. com-ALL"  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
+    |(оставьте пустым)  <br/> |TXT  <br/> |3600 (секунд)  <br/> |"v = spf1 включает:SPF. Protection. Outlook. com-ALL"  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
    
-    ![Netregistry_SPF Ткствалуес](../../media/a369345a-d774-48bc-8160-b628ab8247f9.png)
+    ![Netregistry_SPF-TXTvalues](../../media/a369345a-d774-48bc-8160-b628ab8247f9.png)
   
 6. Выберите команду **Add Record** (Добавить запись).
     
-    ![Netregistry_SPF TXTvalues_AddRecord](../../media/063bfbaf-940a-489f-970f-29c026b4b312.png)
+    ![Netregistry_SPF-TXTvalues_AddRecord](../../media/063bfbaf-940a-489f-970f-29c026b4b312.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Добавление двух записей SRV, необходимых для продуктов корпорации Майкрософт
 <a name="bkmk_srv"> </a>
@@ -229,7 +229,7 @@ ms.locfileid: "44400368"
     
     ![Netregistry_login](../../media/accf6584-e5f4-4d68-a641-0f8847f8370f.png)
   
-2. Рядом с доменом, которым вы хотите управлять, выберите **Управление**.
+2. Рядом с доменом, которым вы хотите управлять, выберите  **Управление**.
     
     ![Netregistry_Manage](../../media/e0ddc79e-0123-4e24-8380-9645bdb41aac.png)
   
@@ -237,7 +237,7 @@ ms.locfileid: "44400368"
     
     ![Netregistry_selectZoneManager](../../media/f122888b-3cc5-40ec-adac-0ede04799d9a.png)
   
-4. В разделе **Добавление записи зоны**выберите **запись SRV** из списка и нажмите кнопку **создать новую запись**.
+4. В разделе  **Добавление записи зоны**выберите **запись SRV** из списка и нажмите кнопку **создать новую запись**.
     
     ![Netregistry_SRV_select](../../media/e5dab850-acd1-48b8-8b4a-e3b9777cf508.png)
   
@@ -248,8 +248,8 @@ ms.locfileid: "44400368"
   
     |**Тип**|**Name (Имя)**|**TTL (SEC) (Срок жизни в секундах)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (служба)  <br/> |_sip. _tls  <br/> |3600 (секунд)  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (служба)  <br/> |_sipfederationtls. _tcp  <br/> |3600 (секунд)  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (служба)  <br/> |_sip._tls  <br/> |3600 (секунд)  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV (служба)  <br/> |_sipfederationtls._tcp  <br/> |3600 (секунд)  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![Netregistry_SRV_values](../../media/49292846-1598-4b8c-9940-db6e10675753.png)
   

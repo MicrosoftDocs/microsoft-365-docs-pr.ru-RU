@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в веб-службах Amazon (AWS) для Майкрософт.
-ms.openlocfilehash: dbbf82c9c776108c4d5e34e2eb639f9c36e9f28b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 6fa791db7b1782b14092769c5d9ef911474d63eb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307071"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646371"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Создание записей DNS на веб-службах Amazon (AWS) для Майкрософт
 
@@ -69,7 +69,7 @@ ms.locfileid: "47307071"
     |**Имя** <br/> |**Тип** <br/> |**Alias (Псевдоним)** <br/> |**TTL (Seconds) (Срок жизни, в секундах)** <br/> |**Value (Значение)** <br/> |**Routing Policy (Политика маршрутизации)** <br/> |
     |(Leave this field empty.)  <br/> |TXT - Text  <br/> |Нет  <br/> |300  <br/> |MS=ms *XXXXXXXX*  <br/>**Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Microsoft 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |Simple (Простая)  <br/> |
    
-6. Нажмите **Создать**.
+6. Нажмите кнопку **Создать**.
     
 7. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
@@ -110,7 +110,7 @@ ms.locfileid: "47307071"
        
     ![AWS — BP — configure – 2-1](../../media/94a71ce7-1b3b-4b1a-9ad3-9592db133075.png)
   
-6. Нажмите **Создать**.
+6. Нажмите кнопку **Создать**.
     
     ![AWS-BP-Configure-2-2](../../media/1c050c72-c04f-48d5-a8e9-44cd83ddd33e.png)
   
@@ -158,7 +158,7 @@ ms.locfileid: "47307071"
    
     ![AWS — BP — configure – 3-1](../../media/895c71bd-0e3a-425e-9681-98c1c67e714b.png)
   
-6. Нажмите **Создать**.
+6. Нажмите кнопку **Создать**.
     
     ![AWS-BP-Configure-3-2](../../media/33964846-5282-44a4-b241-62ce02b96735.png)
   
@@ -168,7 +168,7 @@ ms.locfileid: "47307071"
     
     Повторяйте эту процедуру, пока не будут созданы все пять записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -220,7 +220,7 @@ ms.locfileid: "47307071"
    
     ![AWS — BP — configure – 5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   
-6. Нажмите **Создать**.
+6. Нажмите кнопку **Создать**.
     
     ![AWS-BP-Configure-5-2](../../media/1bf5dc58-a46b-47a5-bd69-7c2147dd4e50.png)
   

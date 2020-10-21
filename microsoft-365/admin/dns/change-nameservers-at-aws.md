@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 0ddbe33c-81ea-4c02-8db9-e71d3810c0ec
 description: 'Узнайте, как настроить Майкрософт для управления записями DNS в веб-службах Amazon (AWS). '
-ms.openlocfilehash: 6efe06400652783ffbc6732b5c6327067c5c484c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9f5bfd54020dfb793bbaad9aa8e081e87abc5ce8
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400681"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646491"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-amazon-web-services-aws"></a>Изменение серверов доменных имен для настройки Майкрософт с помощью веб-служб Amazon (AWS)
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями Microsoft DNS на сайте AWS](create-dns-records-at-aws.md).)
   
@@ -59,7 +59,7 @@ ms.locfileid: "44400681"
   
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Name** <br/> |**Тип** <br/> |**Alias (Псевдоним)** <br/> |**TTL (Seconds) (Срок жизни, в секундах)** <br/> |**Value (Значение)** <br/> |**Routing Policy (Политика маршрутизации)** <br/> |
+|**Имя** <br/> |**Тип** <br/> |**Alias (Псевдоним)** <br/> |**TTL (Seconds) (Срок жизни, в секундах)** <br/> |**Value (Значение)** <br/> |**Routing Policy (Политика маршрутизации)** <br/> |
 |(Оставьте это поле пустым)  <br/> |TXT - Text  <br/> |Нет  <br/> |300  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  <br/>  |Simple (Простая) <br/> |
    
 6. Нажмите кнопку **Создать**.
@@ -87,7 +87,7 @@ ms.locfileid: "44400681"
 Чтобы завершить настройку домена с помощью корпорации Майкрософт, измените записи NS своего домена в регистраторе доменных имен, чтобы они ссылались на основной и дополнительный серверы имен Майкрософт. Эта настройка позволяет настроить Microsoft для обновления записей DNS домена. Мы добавим все записи, так что электронная почта, Skype для бизнеса online и общедоступный веб-сайт будут работать в вашем домене и вам больше не придется ничего настраивать.
   
 > [!CAUTION]
-> Когда вы изменяете записи NS домена так, чтобы они ссылались на серверы имен Майкрософт, затрагиваются все службы, связанные с вашим доменом. Например, все сообщения электронной почты, отправленные в ваш домен (например, rob@ *your_domain* . com), появятся в корпорацию Майкрософт после внесения этого изменения. 
+> Когда вы изменяете записи NS домена так, чтобы они ссылались на серверы имен Майкрософт, затрагиваются все службы, связанные с вашим доменом. Например, все сообщения электронной почты, отправленные в ваш домен (например, rob@ *your_domain*  . com), появятся в корпорацию Майкрософт после внесения этого изменения. 
   
 > [!IMPORTANT]
 >  В следующей процедуре показано, как удалить любые другие нежелательные серверов доменных имен из списка, а также как добавить правильный серверов доменных имен, если они еще не указаны. > после выполнения действий, описанных в этом разделе, необходимо указать только следующие четыре серверов доменных имен: > ns1.bdm.microsoftonline.com > ns2.bdm.microsoftonline.com > ns3.bdm.microsoftonline.com > ns4.bdm.microsoftonline.com 
@@ -105,7 +105,7 @@ ms.locfileid: "44400681"
 5. Для набора записей **NS - Name server** (NS -сервер доменных имен) в поле **Value** (Значение) удалите все серверы доменных имен (выберите их все и нажмите клавишу **DELETE** на клавиатуре). 
     
     > [!CAUTION]
-    > Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые *не* называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
+    > Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые  *не*  называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
   
     ![Select and delete all of the nameservers in the Value box](../../media/ecf1e897-fa7d-4abc-b00b-bf55b8ed2139.png)
   
@@ -120,8 +120,8 @@ ms.locfileid: "44400681"
   
 |||
 |:-----|:-----|
-|**Первая строка** <br/> |ns1.bdm.microsoftonline.com.  <br/> **This value MUST end with a period (.)** <br/> |
-|**Вторая строка** <br/> |ns2.bdm.microsoftonline.com.  <br/> **This value MUST end with a period (.)** <br/> |
+|**Первая строка** <br/> |ns1.bdm.microsoftonline.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+|**Вторая строка** <br/> |ns2.bdm.microsoftonline.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
 |**Третья строка** <br/> |ns3.bdm.microsoftonline.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
 |**Четвертая строка** <br/> |ns4.bdm.microsoftonline.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
    

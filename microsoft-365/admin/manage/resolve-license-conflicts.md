@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Узнайте, как устранять конфликты лицензий с подпиской на Microsoft 365 для бизнеса.
-ms.openlocfilehash: 2270fd3ad831ec0ad92ac4eddec5f08a1d07f8be
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: a7f0b5cbca98a0550954e322c6fbe51d93627ee4
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015975"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645087"
 ---
 # <a name="resolve-license-conflicts"></a>Устранение конфликтов лицензий
 
@@ -43,19 +43,19 @@ ms.locfileid: "45015975"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу лицензии **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> .
+1. В Центре администрирования выберите **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу лицензии **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a> .
+1. В Центре администрирования выберите **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Лицензии</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу лицензии **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a> .
+1. В Центре администрирования выберите **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Лицензии</a>.
 
 ::: moniker-end
 

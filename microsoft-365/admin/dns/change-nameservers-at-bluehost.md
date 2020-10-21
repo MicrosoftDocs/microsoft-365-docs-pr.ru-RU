@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 7712b6af-329c-43a0-af7b-c4e4c1befb0e
 description: 'Узнайте, как настроить Майкрософт для управления записями DNS по адресу Bluehost. '
-ms.openlocfilehash: 56ebeab025984f0ecfefa579c8060578a2299073
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c15ba11e0df57deaef61309f5bc6d1b2a60645b8
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400669"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646467"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-bluehost"></a>Изменение серверов доменных имен для настройки Microsoft с помощью Bluehost
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями DNS по адресу Bluehost](create-dns-records-at-bluehost.md).)
   
@@ -51,7 +51,7 @@ ms.locfileid: "44400669"
     
 4. On the **DNS Zone Editor** page, in the Add DNS Record area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
 |||||
 |:-----|:-----|:-----|:-----|
@@ -84,7 +84,7 @@ ms.locfileid: "44400669"
 Чтобы завершить настройку домена с помощью корпорации Майкрософт, необходимо изменить записи NS своего домена в регистраторе доменных имен, чтобы они ссылались на основной и дополнительный серверы имен. Эта настройка позволяет настроить Microsoft для обновления записей DNS домена. Мы добавим все записи, так что электронная почта, Skype для бизнеса online и общедоступный веб-сайт будут работать в вашем домене и вам больше не придется ничего настраивать.
   
 > [!CAUTION]
-> Когда вы изменяете записи NS домена так, чтобы они ссылались на серверы имен Майкрософт, затрагиваются все службы, связанные с вашим доменом. Например, все сообщения электронной почты, отправленные в ваш домен (например, rob@ *your_domain* . com), появятся в корпорацию Майкрософт после внесения этого изменения. 
+> Когда вы изменяете записи NS домена так, чтобы они ссылались на серверы имен Майкрософт, затрагиваются все службы, связанные с вашим доменом. Например, все сообщения электронной почты, отправленные в ваш домен (например, rob@ *your_domain*  . com), появятся в корпорацию Майкрософт после внесения этого изменения. 
   
 > [!IMPORTANT]
 >  В следующей процедуре показано, как удалить любые другие нежелательные серверов доменных имен из списка, а также как добавить правильный серверов доменных имен, если они еще не указаны. > после выполнения действий, описанных в этом разделе, необходимо указать только следующие четыре серверов доменных имен: > ns1.bdm.microsoftonline.com > ns2.bdm.microsoftonline.com > ns3.bdm.microsoftonline.com > ns4.bdm.microsoftonline.com 
@@ -139,7 +139,7 @@ ms.locfileid: "44400669"
 ### <a name="if-there-are-nameservers-already-listed"></a>На странице УКАЗАНЫ серверы доменных имен
 
 > [!CAUTION]
-> Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые *не* называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
+> Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые  *не*  называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
   
 1. Если на странице указаны другие серверы доменных имен, удалите их (выберите каждый сервер и нажмите клавишу **DELETE**). 
     

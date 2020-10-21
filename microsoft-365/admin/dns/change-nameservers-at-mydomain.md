@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: c5f6140a-4a12-401b-9bbd-7dfb0d6b0ba3
 description: Узнайте, как настроить Майкрософт для управления записями DNS в пользовательском домене на MyDomain.
-ms.openlocfilehash: d8fc61c3adbe8b5b865bd82b8c4e0944198921e7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 44d36f872ddbeeba1948ee8a7a4db029895fcb8c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400633"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646419"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-mydomain"></a>Изменение серверов доменных имен для настройки Майкрософт с параметром MyDomain
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**.
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**.
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями Microsoft DNS на сервере mydomain](create-dns-records-at-mydomain.md).)
   
@@ -113,7 +113,7 @@ ms.locfileid: "44400633"
 ### <a name="if-the-correct-nameservers-are-not-already-listed"></a>Если правильные серверы доменных имен не указаны
 
 > [!CAUTION]
-> Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые *не* называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
+> Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые  *не*  называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
   
 1. Удалите существующие серверы доменных имен, выбирая соответствующие записи в поле **Nameserver:** (Сервер доменных имен:) и нажимая на клавиатуре клавишу **DELETE**. 
     

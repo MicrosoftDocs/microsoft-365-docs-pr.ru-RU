@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Сведения о том, как отменить назначение лицензий для учетных записей пользователей.
 ms.date: 07/01/2020
-ms.openlocfilehash: 4441fd253c4cf5304562900bf31869eb4e0f21ff
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 455348e7dba20913e54e5a4059755f9391644e03
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306543"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645099"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
 
@@ -42,7 +42,7 @@ ms.locfileid: "47306543"
 
 ::: moniker-end
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Прежде чем начать
 
 - Чтобы отменить назначение лицензий, вы должны быть глобальной, лицензией и администратором пользователей. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../add-users/about-admin-roles.md).
 - Вы можете [удалить лицензии из учетных записей пользователей с помощью Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell).

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dc55f9f-5309-450f-acc3-b2b4119c8be3
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в сетевых решениях для Майкрософт.
-ms.openlocfilehash: 25e85bf30527b49ada711af9ba5c418409acd24c
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: f488ad3511c9901eae70691f616dcff52036c71d
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780341"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645951"
 ---
 # <a name="create-dns-records-at-network-solutions-for-microsoft"></a>Создание записей DNS в сетевых решениях для Майкрософт
 
@@ -80,7 +80,7 @@ ms.locfileid: "44780341"
   
 4. Выберите **Управление расширенными записями DNS**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Выберите Управление расширенными записями DNS](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -90,7 +90,7 @@ ms.locfileid: "44780341"
   
 6. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-    |**Host (Узел)**|**TTL** (Срок жизни)|**Text (Текст)**|
+    |**Host (Узел)**|**TTL (Срок жизни)**|**Text (Текст)**|
     |:-----|:-----|:-----|
     |@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)   |
        
@@ -149,7 +149,7 @@ ms.locfileid: "44780341"
   
 4. Выберите **Управление расширенными записями DNS**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Выберите Управление расширенными записями DNS](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -161,7 +161,7 @@ ms.locfileid: "44780341"
     
     |**Priority**|**TTL** (Срок жизни)|**Mail Server (Почтовый сервер)**|
     |:-----|:-----|:-----|
-    |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |3600  <br/> | *\<domain-key\>*. mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |3600  <br/> | *\<domain-key\>*  . mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание:** Получение  *\<domain-key\>*  учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![Введите или вставьте значения в поля для новой записи](../../media/0bb96872-cc6e-4dfa-a649-fb7efbbf0012.png)
   
@@ -207,7 +207,7 @@ ms.locfileid: "44780341"
   
 4. Выберите **Управление расширенными записями DNS**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Выберите Управление расширенными записями DNS](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -219,11 +219,11 @@ ms.locfileid: "44780341"
     
     |**Alias (Псевдоним)**|**TTL (Срок жизни)**|**Refers to Host Name (Указывает на имя узла)**|**Other Host          (select the **Other Host** option button)**|
     |:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |3600  <br/> |(Нет значения)  <br/> |autodiscover.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |autodiscover  <br/> |3600  <br/> |(Нет значения)  <br/> |autodiscover.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
     |sip  <br/> |3600  <br/> |(Нет значения)  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
-    |lyncdiscover  <br/> |3600  <br/> |(Нет значения)  <br/> |webdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |lyncdiscover  <br/> |3600  <br/> |(Нет значения)  <br/> |webdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
     |enterpriseregistration  <br/> |3600  <br/> |(Нет значения)  <br/> |enterpriseregistration.windows.net  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
-    |enterpriseenrollment  <br/> |3600  <br/> |(Нет значения)  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **This value MUST end with a period (.)** <br/> |
+    |enterpriseenrollment  <br/> |3600  <br/> |(Нет значения)  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
     
     ![Ввод или Вставка значений для новых записей](../../media/5ce0b30c-b46c-4778-aa5a-fb5e2f0961c1.png)
   
@@ -235,11 +235,11 @@ ms.locfileid: "44780341"
     
     ![Нажмите кнопку Сохранить изменения](../../media/f005c38a-0d8d-4c61-bec6-15e60c89aa5a.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений. 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений. 
   
 Воспользуйтесь приведенными ниже инструкциями или [посмотрите видеоролик (начиная с 5:35)](https://support.microsoft.com/office/c49698c2-6991-47fb-b5ac-18e49a505099).
   
@@ -260,7 +260,7 @@ ms.locfileid: "44780341"
   
 4. Выберите **Управление расширенными записями DNS**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Выберите Управление расширенными записями DNS](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -306,7 +306,7 @@ ms.locfileid: "44780341"
   
 4. Выберите **Управление расширенными записями DNS**.
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
     ![Выберите Управление расширенными записями DNS](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
@@ -320,8 +320,8 @@ ms.locfileid: "44780341"
     
     |**Service (Служба)**|**Protocol (Протокол)**|**TTL (Срок жизни)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
        
     ![Ввод или Вставка значений для новых записей](../../media/86968d1c-8e43-4e61-aeaa-37fc7d7ef7a7.png)
   

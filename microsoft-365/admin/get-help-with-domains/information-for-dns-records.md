@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,16 +24,16 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Сведения о том, как найти значения и сведения, необходимые для создания записей DNS для Microsoft 365. '
-ms.openlocfilehash: fddd1180f2dd80ffeec2aeec49ed821055dd5f15
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: eca9dbe4e40193f76538b639624b827177ff7772
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399912"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645315"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>Сбор сведений, необходимых для создания записей DNS
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 ### <a name="step-1-find-the-txt-record-value-and-verify"></a>Шаг 1: Найдите значение записи TXT и проверьте
 

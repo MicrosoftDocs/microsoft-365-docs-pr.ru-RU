@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 34e57a00-2a7d-469c-beec-089423f18369
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Dyn.com для Майкрософт.
-ms.openlocfilehash: 91ac642a43ba48845ec79d7d13d4bce6afbb716d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 91dbd3fbde8417764a01eb285b267f3981b2f139
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400501"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646143"
 ---
 # <a name="create-dns-records-at-dyncom-for-microsoft"></a>Создание записей DNS на сайте Dyn.com для Майкрософт
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если Dyn.com является поставщиком услуг хостинга DNS, выполните действия, описанные в этой статье, чтобы проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и т. д.
  
@@ -109,7 +109,7 @@ ms.locfileid: "44400501"
     
     |**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Data (Данные)**|
     |:-----|:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |600  <br/> |MX  <br/> |10 *\<domain-key\>* . mail.Protection.Outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **10**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      <br>    Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |
+    |(Leave this field empty.)  <br/> |600  <br/> |MX  <br/> |10  *\<domain-key\>*  . mail.Protection.Outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **10**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание:** Получение  *\<domain-key\>*  учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      <br>    Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
     ![Дин — BP — configure – 2-1](../../media/62ac77b7-c84d-426d-9ec4-a28d6479ad04.png)
   
@@ -144,11 +144,11 @@ ms.locfileid: "44400501"
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    |**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Data (Данные)**|
+    |**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Data** (Данные)|
     |:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |600  <br/> |CNAME  <br/> |autodiscover.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> |
-    |sip  <br/> |600  <br/> |CNAME  <br/> |sipdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
-    |lyncdiscover  <br/> |600  <br/> |CNAME  <br/> |webdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |autodiscover  <br/> |600  <br/> |CNAME  <br/> |autodiscover.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+    |sip  <br/> |600  <br/> |CNAME  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+    |lyncdiscover  <br/> |600  <br/> |CNAME  <br/> |webdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
     |enterpriseregistration  <br/> |600  <br/> |CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
     |enterpriseenrollment  <br/> |600  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
    
@@ -164,11 +164,11 @@ ms.locfileid: "44400501"
     
     Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь *одну* запись SPF, включающую оба набора значений.
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь  *одну*  запись SPF, включающую оба набора значений.
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Dyn.com по [этой ссылке](https://account.dyn.com/dns/). Сначала вам потребуется выполнить вход.
     
@@ -213,10 +213,10 @@ ms.locfileid: "44400501"
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    |**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Data (Данные)**|
+    |**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Данные**|
     |:-----|:-----|:-----|:-----|
-    |_sip. _tls|600|SRV|100 1 443 sipdir.online.lync.com. **This value MUST end with a period (.)**<br>**Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
-    |_sipfederationtls. _tcp|600|SRV|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
+    |_sip._tls|600|SRV|100 1 443 sipdir.online.lync.com. **Это значение ДОЛЖНО оканчиваться точкой (.).**<br>**Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
+    |_sipfederationtls._tcp|600|SRV|100 1 5061 sipfed.online.lync.com. **Это значение ДОЛЖНО оканчиваться точкой (.).**<br> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
    
     ![Дин — BP — configure – 5-1](../../media/a6873411-f4ce-4327-9145-02d435930976.png)
   

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 68a08e94-26c2-4df2-9216-026b8ec907ca
 description: Узнайте, как настроить Майкрософт для управления записями DNS в пользовательском домене в Google Domains.
-ms.openlocfilehash: 65649632b5e28e97909d91ca3e04355375afe3ac
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 05d77ef4cb78351727870a384f4a28c6e4acc4b0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400657"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646431"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-google-domains"></a>Изменение серверов доменных имен для настройки Microsoft с помощью доменов Google
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями DNS в Google Domains](create-dns-records-at-google-domains.md).)
   
@@ -44,22 +44,22 @@ ms.locfileid: "44400657"
   
 1. Чтобы приступить к работе, перейдите на страницу ваших доменов в Google Domains с помощью [этой ссылки](https://domains.google.com/registrar). You'll be prompted to sign in. To do so:
     
-1. Нажмите кнопку **войти**.
+1. Нажмите **Sign In** (Войти).
     
 2. Введите учетные данные для входа и еще раз нажмите кнопку **войти**.
     
-2. На странице **домены** в разделе **домен** выберите **Настройка DNS** для домена, который требуется изменить. 
+2. На странице **Domains** (Домены) в разделе **Domain** (Домен) выберите команду **Configure DNS** (Настроить DNS) для того домена, который вы хотите изменить. 
     
-3. In the **Custom resource records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
+3. В разделе **Custom resource records** (Настраиваемые записи ресурсов) в полях для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
 |||||
 |:-----|:-----|:-----|:-----|
-|**Name** <br/> |**Тип** <br/> |**TTL (Срок жизни)** <br/> |**Data (Данные)** <br/> |
-|@  <br/> |TXT  <br/> |1H  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)       <br/>  |
+|**Имя** <br/> |**Type** (Тип) <br/> |**TTL** (Срок жизни) <br/> |**Data** (Данные) <br/> |
+|@  <br/> |TXT  <br/> |1H (1 ч)  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)       <br/>  |
    
 4. Нажмите кнопку **Add** (Добавить).
     
@@ -93,11 +93,11 @@ ms.locfileid: "44400657"
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Google Domains по [этой ссылке](https://domains.google.com/registrar). Сначала вам потребуется войти. Вот как это сделать.
     
-1. Нажмите кнопку **войти**.
+1. Нажмите **Sign In** (Войти).
     
-2. Введите свои учетные данные для входа, а затем снова нажмите кнопку **войти**.
+2. Введите данные для входа и еще раз нажмите кнопку **Sign In** (Войти).
     
-2. На странице **домены** в разделе **домен** выберите **Настройка DNS** для домена, который требуется изменить. 
+2. На странице **Domains** (Домены) в разделе **Domain** (Домен) выберите команду **Configure DNS** (Настроить DNS) для того домена, который вы хотите изменить. 
     
 3. На странице **Domains** (Домены) в разделе **Name servers** (Серверы доменных имен) выберите параметр **Use custom name servers** (Использовать настраиваемые серверы доменных имен).
     
@@ -146,7 +146,7 @@ ms.locfileid: "44400657"
 1. Если в списке есть другие серверов доменных имен, нажмите кнопку **изменить**.
     
     > [!CAUTION]
-    > Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые *не* называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
+    > Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые  *не*  называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
   
     ![Google-Domains-BP-Redelegate-1-6-1](../../media/fb45d120-55ab-42c2-bdb6-19b130c3c7db.png)
   

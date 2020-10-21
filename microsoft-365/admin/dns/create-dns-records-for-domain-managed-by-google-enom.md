@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Узнайте, как получить доступ к eNom Central и создать DNS через страницу Google Domains.
-ms.openlocfilehash: 6c6698f3d11f42cd0298bdb66710ec3c62bac5ca
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 37fa8836b7511d51ef2dcb137f36d62eebc36443
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400260"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645615"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>Создание записей DNS при управлении доменом с помощью Google (eNom Central)
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Чтобы перенести учетные записи почты в корпорацию Майкрософт, необходимо создать запись DNS у регистратора доменных имен.
   
@@ -75,7 +75,7 @@ ms.locfileid: "44400260"
     
     ![Google — Apps — eNom Central – configure – 1-5](../../media/08b74652-8cdb-4560-a5fd-0899f86deee8.png)
   
-9. На странице " ***domain_name*** " в разделе **записи узла** нажмите кнопку **изменить**.
+9. На странице ** _domain_name_*_ в разделе _* записи узла** нажмите кнопку **изменить**.
     
     ![Google — Apps — eNom Central – configure – 1-6](../../media/d54fec18-b9d1-4796-8397-0393c964eade.png)
   

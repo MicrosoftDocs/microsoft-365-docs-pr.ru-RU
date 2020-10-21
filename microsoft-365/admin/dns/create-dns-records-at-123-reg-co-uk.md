@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу 123-reg.co.uk для Майкрософт.
-ms.openlocfilehash: 51542e1f00153a87ca06ec540d391de6ca621bab
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c7a6db51bd1c2b2af06a1dde8c317850db0d9e35
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307035"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646364"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-microsoft"></a>Создание записей DNS на сайте 123-reg.co.uk для Майкрософт
 
@@ -102,7 +102,7 @@ ms.locfileid: "47307035"
     
     |**Hostname (Имя узла)**|**Type (Тип)**|**Priority (Приоритет)**|**Destination MX (Запись MX назначения)**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*  . mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<domain-key\> из учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*  . mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<domain-key\> из учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Копирование и вставка значений из таблицы](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
   
@@ -151,7 +151,7 @@ ms.locfileid: "47307035"
     
     Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
