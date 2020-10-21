@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad996ca8bde6b540d4c55fc34d4fa315cec04a2c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9a553ccff4b9d034cdd269e5df6cc484ba808682
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388441"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639855"
 ---
 # <a name="contact-support-for-senegal"></a>Обращение в службу поддержки для Сенегал
 
@@ -32,14 +32,14 @@ ms.locfileid: "44388441"
 877 867 2337
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Пн – Пятница 8 AM – 4 AM
+Французский: Mon-Fri 8 AM – 4 AM
 
-Английский: Пн – Пятница 8 AM – 4 AM
+Английский: Mon-Fri 8 AM – 4 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Пн – Пятница 7 AM – 8 PM
+Французский: Mon-Fri 7 AM – 8 AM
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных

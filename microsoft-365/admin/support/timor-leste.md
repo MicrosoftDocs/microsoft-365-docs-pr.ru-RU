@@ -1,10 +1,10 @@
 ---
-title: Сведения о поддержке для Тимор — Лесте
+title: Сведения о поддержке Timor-Leste
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,14 +13,14 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1a0db9a54188fefe107c526e1b2ba821b8207527
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3154c0a84e4f9efe947a57a4ac646d916dc6c13a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401622"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639207"
 ---
-# <a name="contact-support-for-timor-leste"></a>Обращение в службу поддержки для Тимор Лесте
+# <a name="contact-support-for-timor-leste"></a>Обратитесь в службу поддержки Timor-Leste
 
 [Найдите другую страну или регион](../contact-support-for-business-products.md).
 
@@ -28,16 +28,16 @@ ms.locfileid: "44401622"
 + 1 312 843 5155
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Португальский: Пн — Пятница 9 PM – 5 AM
+Португальский (Бразилия): Mon-Fri 9 PM – 5 AM
 
-Английский: Пн – Пятница 9 PM – 5 AM
+Английский: Mon-Fri 9 PM – 5 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Португальский (Бразилия): 24 часа в день от полудня до полудня
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются тарифы на международные звонки

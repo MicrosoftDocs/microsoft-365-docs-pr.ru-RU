@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e0c4cebd1119ef9d5389940a6cfbeb49f40bfa32
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d4c24aafe01beb17bc8368453d32b4ec4b8e9611
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44390929"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640155"
 ---
 # <a name="contact-support-for-reunion"></a>Обращение в службу поддержки для Реюньон
 
@@ -28,16 +28,16 @@ ms.locfileid: "44390929"
 + 1 312 843 5147
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Пн – Пятница, 12:00 — 8 PM
+Французский: Mon-Fri от полудня 8 PM
 
-Английский: Пн – Пятница, 12:00 — 8 PM
+Английский: Mon-Fri от полудня 8 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Пн – Пятница 11 AM – 11 AM
+Французский язык: Mon-Fri 11 00 – 11 00 – 11:00
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются сборы по местным звонкам

@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 57c9f31f6d25637c9325e7006de943c14e6d9113
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d6ea0c0f89d1d9a5cdaf48f6e7bcfad62495f886
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44389257"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639891"
 ---
 # <a name="contact-support-for-san-marino"></a>Обращение в службу поддержки для Сан/Сан
 
@@ -28,16 +28,16 @@ ms.locfileid: "44389257"
 + 1 312 843 5154
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Итальянский: Пн – Пятница, 10 AM – 6 PM
+Итальянский: Mon-Fri 10 AM – 6 PM
 
-Английский: Пн – Пятница, 10 AM – 6 PM
+Английский: Mon-Fri 10 AM – 6 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Итальянский: Пн – Пятница 9 AM – 10 PM
+Итальянский: Mon-Fri 9 – 10 AM
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются тарифы на международные звонки

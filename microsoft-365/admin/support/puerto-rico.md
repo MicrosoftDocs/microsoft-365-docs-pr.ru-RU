@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 482c7cba9f498c1b7bb1147ee7d22ea3af82e82a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c3868a526d895509c970f0d0681bb1801461be6a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44391313"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640287"
 ---
 # <a name="contact-support-for-puerto-rico"></a>Обращение в службу поддержки для Пуэрто-Рико
 
@@ -28,14 +28,14 @@ ms.locfileid: "44391313"
 1 800 865 9408
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Испанский: Пн – Пятница 9 AM – 5 PM
+Испанский: Mon-Fri 9 AM – 5 AM
 
-Английский: Пн – Пятница 9 AM – 5 PM
+Английский: Mon-Fri 9 AM – 5 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Испанский: 24 часа в сутки, 7 дней в неделю
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных

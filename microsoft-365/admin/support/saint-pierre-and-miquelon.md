@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 16696e504a935773582ea39c482d6ac9b7bd2bc8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d91c656459133e21b4e2c6fd032d582f520d1254
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44389761"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640047"
 ---
 # <a name="contact-support-for-saint-pierre-and-miquelon"></a>Обращение в службу поддержки для Сен-Пьер и Микелон
 
@@ -28,16 +28,16 @@ ms.locfileid: "44389761"
 + 1 312 843 5147
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский язык: Пн – Пятница 6 AM 2 PM
+Французский: Mon-Fri 6 AM 2 PM
 
-Английский: Пн – Пятница 6 AM 2 PM
+Английский: Mon-Fri 6 AM 2 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Пн – Пятница 5 AM # 6 PM
+Французский: Mon-Fri 5 AM – 6 PM
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются тарифы на международные звонки

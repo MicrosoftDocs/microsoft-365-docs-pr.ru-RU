@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 271161f5dfc1c403b6201feade265f8a1f5647b0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c3f75c3d30d955b0c61dacafded45ff954f3c519
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388429"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639843"
 ---
 # <a name="contact-support-for-serbia"></a>Обратитесь в службу поддержки для Сербия
 
@@ -28,10 +28,10 @@ ms.locfileid: "44388429"
 0800 190 095
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Пн – Пятница 9 AM – 5 PM
+Английский: Mon-Fri 9 AM – 5 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных

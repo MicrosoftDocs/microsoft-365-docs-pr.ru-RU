@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b9b3f997a03ec5d342bc29770033dc41f3371e07
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 235d4584fdc192983ddb5690df44be9247bbe94e
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44389269"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639879"
 ---
 # <a name="contact-support-for-saudi-arabia"></a>Обращение в службу поддержки для Саудовская Аравия
 
@@ -28,14 +28,14 @@ ms.locfileid: "44389269"
 800 844 4558
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Арабский: Sun четверг 10 AM – 6 AM
+Арабский: Sun-Thu 10 AM – 6 PM
 
-Английский: Пн – Пятница, 10 AM – 6 PM
+Английский: Mon-Fri 10 AM – 6 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Арабский: Sun четверг 10 AM – 6 AM
+Арабский: Sun-Thu 10 AM – 6 PM
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных

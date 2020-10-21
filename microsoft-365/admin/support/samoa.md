@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c6d59a41742ba6d11b5cd66a3e7b35655c6b5cc1
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3d009b2d2508e8c325acd0904990fa2abd996513
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44389234"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639915"
 ---
 # <a name="contact-support-for-samoa"></a>Обратитесь в службу поддержки для получения Самоа
 
@@ -28,12 +28,12 @@ ms.locfileid: "44389234"
 + 1 312 843 5148
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Пн — Пятница 2 PM – 10 PM
+Английский: Mon-Fri 2 PM – 10 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются тарифы на международные звонки

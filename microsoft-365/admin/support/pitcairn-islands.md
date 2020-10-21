@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bfce134dcf94f6472788617e52154dd9f0b95acd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b410b4452b462133e1217eb4c11c571964ab9ff4
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44391577"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640323"
 ---
 # <a name="contact-support-for-pitcairn-islands"></a>Обращение в службу поддержки по островам Питкэрн
 
@@ -28,12 +28,12 @@ ms.locfileid: "44391577"
 + 1 312 843 5148
 
 ## <a name="hours"></a>Часы
-Поддержка выставления счетов:
+Поддержка по выставлению счетов:
 
-Английский: Пн – Пятница 9 AM – 5 PM
+Английский: Mon-Fri 9 AM – 5 AM
 
 Техническая поддержка:
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются тарифы на международные звонки

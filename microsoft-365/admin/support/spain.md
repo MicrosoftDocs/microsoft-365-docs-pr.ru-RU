@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 82829b5620b34eba2b575a6a32e6f12cbfc88880
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b6f4011c318830d211aa96db05b9889c78fa4196
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386453"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639567"
 ---
 # <a name="contact-support-for-spain"></a>Обращение в службу поддержки для Испании
 
@@ -28,17 +28,17 @@ ms.locfileid: "44386453"
 900 814 197
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Испанский: Пн – Пятница 9 AM – 5 PM
+Испанский: Mon-Fri 9 AM – 5 AM
 
-Английский: Пн – Пятница 9 AM – 5 PM
+Английский: Mon-Fri 9 AM – 5 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Испанский: Пн – Пятница 8 AM – 9 AM
+Испанский: Mon-Fri 8 AM – 9 AM
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Альтернативный номер телефона: 912 718 160
 
