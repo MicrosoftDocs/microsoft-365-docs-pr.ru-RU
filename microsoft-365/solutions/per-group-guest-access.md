@@ -1,5 +1,5 @@
 ---
-title: Блокировка гостевых пользователей из определенной группы
+title: Запрет добавления гостевых пользователей в определенную группу
 ms.reviewer: arvaradh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,21 +14,23 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Блокировка гостевых пользователей из определенной группы
-ms.openlocfilehash: 17e5f8f9ab4107a12a0607dca3795d54b7be012c
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: Сведения о том, как запретить добавление гостей в определенную группу
+ms.openlocfilehash: 91c7560186fb0b954075e9ff9c997b34121951cd
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377316"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651354"
 ---
-# <a name="block-guest-users-from-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Блокировка гостевых пользователей из определенной группы Microsoft 365 или группы Microsoft Teams
+# <a name="prevent-guest-users-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Запрет добавления гостевых пользователей в определенную группу Microsoft 365 или группу Microsoft Teams
 
-Если вы хотите разрешить гостям доступ к большинству групп и Teams, но у вас есть некоторые из них для предотвращения гостевого доступа, вы можете заблокировать гостевой доступ для отдельных групп и Teams. (Блокировка гостевого доступа к группе выполняется путем блокировки гостевого доступа к связанной группе.)
+Если вы хотите разрешить гостям доступ к большинству групп и Teams, но у вас есть некоторые из них для предотвращения гостевого доступа, вы можете заблокировать гостевой доступ для отдельных групп и Teams. (Блокировка гостевого доступа к группе выполняется путем блокировки гостевого доступа к связанной группе.) Это предотвратит добавление новых гостей, но не удаляет гостей, уже включенных в группу или группу.
 
 Если вы используете метки чувствительности в Организации, рекомендуем использовать их для управления гостевым доступом для отдельных групп. Для получения сведений о том, как это сделать, [используйте метки чувствительности для защиты содержимого в Microsoft Teams, microsoft 365 Groups и сайтов SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). Это рекомендуемый подход.
 
-Вы также можете заблокировать гостевой доступ к отдельным группам с помощью Microsoft PowerShell.
+## <a name="change-group-settings-using-microsoft-powershell"></a>Изменение параметров группы с помощью Microsoft PowerShell
+
+Вы также можете запретить добавление новых гостей в отдельные группы с помощью PowerShell.
 
 Для изменения параметров гостевого доступа на уровне группы необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (имя модуля **AzureADPreview**):
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Сведения о том, как управлять бесплатными самостоятельными подписками на услуги для Организации.
-ms.openlocfilehash: 81c67292a394c62d6057022babb88aa8796b9b3d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fb70d0c40d4358abc227c8f6ff4a0e0dce1a7265
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403250"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647835"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Управление подписками на самостоятельную регистрацию
 
@@ -44,7 +44,7 @@ ms.locfileid: "44403250"
 > [!IMPORTANT]
 > При удалении подписки на самостоятельную службу подписки все пользователи блокируются для доступа к данным и электронной почте, а также удаляют все данные и электронную почту.
 
-1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 2. Найдите подписку на самостоятельную регистрацию, которую необходимо удалить. В разделе **параметры & действий** выберите **удалить подписку**.
 3. В области **удалить подписку** установите флажок, а затем выберите **удалить подписку**.
 

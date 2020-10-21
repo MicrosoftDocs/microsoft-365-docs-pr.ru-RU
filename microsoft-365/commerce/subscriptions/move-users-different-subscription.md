@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Сведения о том, как перемещать пользователей между подписками.
 ms.date: 07/01/2020
-ms.openlocfilehash: d110ee7c49befa34f5a2cd3bb44dc114aec25b62
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 79f3e4636ff047c4d6f27d83e3644913a8fbb0b5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016552"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647799"
 ---
 # <a name="move-users-to-a-different-subscription"></a>Перевод пользователей на другую подписку
 
@@ -38,15 +38,15 @@ ms.locfileid: "45016552"
 
 Если у вас несколько подписок, попросите пользователей с лицензией на одну подписку, но хотите переместить их в другую подписку, вы можете заменить существующую лицензию на другой.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
-Для назначения лицензий необходимо быть глобальным администратором, лицензией или администратором пользователей. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+Чтобы назначать лицензии необходимо быть глобальным администратором либо администратором лицензией или пользователей. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
 ## <a name="move-users-to-a-different-subscription"></a>Перевод пользователей на другую подписку
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">активные пользователи</a> страницы.
+1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
 2. Выберите кружки рядом с именами пользователей, для которых вы хотите заменить существующие лицензии.
 3. Нажмите вверху **Дополнительные параметры (...)** и выберите **Управление лицензиями на продукты**.
 4. В области **Управление лицензиями на продукты** выберите **Заменить имеющиеся назначения лицензий на продукты** \> **Далее**.
