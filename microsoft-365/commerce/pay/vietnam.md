@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,22 +13,22 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, где отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bc060f591b1c889e76fca78b5594abca116566fe
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 98212cf98051023ff6afb5612850414fd251d084
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404662"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48648039"
 ---
-# <a name="payment-information-for-vietnam"></a><span data-ttu-id="8fb4e-103">Сведения об оплате для Вьетнама</span><span class="sxs-lookup"><span data-stu-id="8fb4e-103">Payment information for Vietnam</span></span>
+# <a name="payment-information-for-vietnam"></a><span data-ttu-id="5391b-103">Сведения об оплате для Вьетнама</span><span class="sxs-lookup"><span data-stu-id="5391b-103">Payment information for Vietnam</span></span>
 
-<span data-ttu-id="8fb4e-104">[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="8fb4e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="5391b-104">[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="5391b-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="8fb4e-105">Платите только USD и указываете номера счетов-фактур на предъявление к оплате счетов.</span><span class="sxs-lookup"><span data-stu-id="8fb4e-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="5391b-105">Платите только USD и указываете номера счетов-фактур на предъявление к оплате счетов.</span><span class="sxs-lookup"><span data-stu-id="5391b-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="8fb4e-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="8fb4e-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="5391b-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="5391b-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="8fb4e-107">**Банк:** Цитибанк, Сингапур</span><span class="sxs-lookup"><span data-stu-id="8fb4e-107">**Bank:** Citibank, Singapore</span></span>  
-<span data-ttu-id="8fb4e-108">**код SWIFT:** Цитисгсг</span><span class="sxs-lookup"><span data-stu-id="8fb4e-108">**SWIFT CODE:** CITISGSG</span></span>  
-<span data-ttu-id="8fb4e-109">**Номер счета:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="8fb4e-109">**Account Number:** 0-817543-138</span></span>  
-<span data-ttu-id="8fb4e-110">**Имя учетной записи:** MICROSOFT РЕГИОНАЛЬНЫЙ ОТДЕЛ ПРОДАЖ (МАЙКРОСОФТ)</span><span class="sxs-lookup"><span data-stu-id="8fb4e-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>  
+<span data-ttu-id="5391b-107">**Банк:** Цитибанк, Сингапур</span><span class="sxs-lookup"><span data-stu-id="5391b-107">**Bank:** Citibank, Singapore</span></span>  
+<span data-ttu-id="5391b-108">**код SWIFT:** Цитисгсг</span><span class="sxs-lookup"><span data-stu-id="5391b-108">**SWIFT CODE:** CITISGSG</span></span>  
+<span data-ttu-id="5391b-109">**Номер счета:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="5391b-109">**Account Number:** 0-817543-138</span></span>  
+<span data-ttu-id="5391b-110">**Имя учетной записи:** MICROSOFT РЕГИОНАЛЬНЫЙ ОТДЕЛ ПРОДАЖ (МАЙКРОСОФТ)</span><span class="sxs-lookup"><span data-stu-id="5391b-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>  
