@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 5e7156a884093ca12fff7020bb045da30882547d
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: c8a1609bed124789229c6ae6d1f80b7d9c70bb66
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464340"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646815"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
 
@@ -33,7 +33,7 @@ ms.locfileid: "48464340"
 
 Для этих рекомендаций пользователям необходимо использовать современные почтовые клиенты, в том числе Outlook для iOS и Android на мобильных устройствах. Outlook для iOS и Android обеспечивает поддержку лучших возможностей Office 365. Эти приложения для мобильных устройств Outlook также основаны на возможностях обеспечения безопасности, которые поддерживают использование мобильных устройств и работают совместно с другими функциями безопасности Microsoft Cloud. Дополнительные сведения можно найти в статье [вопросы и ответы по Outlook для iOS и Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq).
 
-## <a name="updating-common-policies-to-include-email"></a>Обновление общих политик для включения электронной почты
+## <a name="update-common-policies-to-include-email"></a>Обновление общих политик для включения электронной почты
 
 Чтобы защитить электронную почту, на схеме ниже показаны политики, которые необходимо обновить на основе общих политик идентификации и доступа к устройствам.
 
@@ -65,13 +65,48 @@ ms.locfileid: "48464340"
 
 Политики проверки подлинности также можно использовать для [отключения обычной проверки подлинности](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online), что приводит к принудительному использованию современной проверки подлинности для всех запросов клиентского доступа.
 
+## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>Как ограничить доступ к Exchange Online из Outlook в Интернете
+
+Можно ограничить возможность пользователей загружать вложения из Outlook в Интернете на устройствах умнанажед. Пользователи на этих устройствах могут просматривать и редактировать эти файлы с помощью Office Online без потерь и хранения файлов на устройстве. Вы также можете запретить пользователям просматривать вложения на неуправляемом устройстве.
+
+Необходимо выполнить следующие шаги.
+
+1. [Подключитесь к удаленному сеансу PowerShell Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+2. Если у вас еще нет политики почтовых ящиков OWA, создайте ее с помощью командлета [New – OwaMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/new-owamailboxpolicy) .
+3. Если вы хотите разрешить просмотр вложений, но без загрузки, выполните следующую команду:
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnly
+   ```
+
+4. Если вы хотите заблокировать вложения, используйте следующую команду:
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnlyPlusAttachmentsBlocked
+   ```
+
+4. На портале Azure создайте новую политику условного доступа с помощью следующих параметров:
+
+   **Назначения > пользователи и группы**: выберите соответствующих пользователей и группы, которые требуется включить и исключить.
+
+   **Назначения > облачные приложения или действия > облачные приложения > включая > выбор приложений**: select **Office 365 Exchange Online**
+
+   **Управление доступом > сеансе**: выберите **использовать принудительные ограничения приложения**
+
+## <a name="require-that-ios-and-android-devices-must-use-outlook"></a>Требовать, чтобы устройства iOS и Android должны использовать Outlook
+
+Чтобы пользователи устройств с iOS и Android могли получать доступ к рабочему и учебному содержимому с помощью Outlook для iOS и Android, необходима политика условного доступа, предназначенная для этих потенциальных пользователей.
+
+Действия по настройке этой политики в разделе [Управление доступом к совместной работе для обмена сообщениями с помощью Outlook для iOS и Android]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access).
+
+
 ## <a name="set-up-message-encryption"></a>Настройка шифрования сообщений
 
 Благодаря новым возможностям Microsoft 365 Message encryption (OME), которые используют функции защиты в Azure Information Protection, ваша организация может легко обмениваться защищенной электронной почтой с другими пользователями на любом устройстве. Пользователи могут отправлять и получать защищенные сообщения с другими организациями Microsoft 365, а также без клиентов, использующих Outlook.com, Gmail и другие службы электронной почты.
 
 Дополнительные сведения см. в статье [Настройка новых возможностей шифрования сообщений Office 365](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 ![Шаг 4: политики для облачных приложений Microsoft 365](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 

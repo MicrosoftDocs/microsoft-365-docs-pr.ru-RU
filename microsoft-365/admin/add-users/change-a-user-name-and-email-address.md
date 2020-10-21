@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Узнайте, как глобальный администратор может изменить адрес электронной почты и отображаемое имя. '
-ms.openlocfilehash: fedc1532bfec246392180d386a6960dbb08bd137
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 82284f653675ee4f8c89fe52d75bbc0a0efe2e2b
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079717"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646695"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Изменение имени пользователя и адреса электронной почты
 

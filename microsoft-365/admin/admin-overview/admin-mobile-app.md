@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Получите приложение Microsoft 365 Admin и научитесь управлять своей организацией с телефона или планшета.
-ms.openlocfilehash: 1ad44ccc379b5115ad36e657708eed38f58dca34
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 55aaf26d0da922c8d9bfb7c64f16278eb4a705a5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948812"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646647"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Сведения о мобильном приложении Microsoft 365 Admin
 
@@ -61,7 +61,7 @@ ms.locfileid: "47948812"
 Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
  
-## <a name="frequently-asked-questions"></a>Вопросы и ответы
+## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 
 Ниже приведены ответы на часто задаваемые вопросы о приложении.
   

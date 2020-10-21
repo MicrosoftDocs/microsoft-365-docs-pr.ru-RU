@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b14e0ff43242d1abd60267c6f9f71184e78b38f7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a0b265930653c69efe078350726b0d9f7e064c8c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397398"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48641715"
 ---
 # <a name="contact-support-for-kuwait"></a>Обращение в службу поддержки для Кувейт
 
@@ -34,16 +34,16 @@ ms.locfileid: "44397398"
 Введите код 7701
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Арабский: Sun четверг 10 AM – 6 AM
+Арабский: Sun-Thu 10 AM – 6 PM
 
-Английский: Пн – Пятница, 10 AM – 6 PM
+Английский: Mon-Fri 10 AM – 6 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Арабский: Sun четверг 10 AM – 6 AM
+Арабский: Sun-Thu 10 AM – 6 PM
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются сборы по местным звонкам

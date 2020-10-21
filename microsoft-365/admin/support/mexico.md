@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dd792263b24fac7babe06028f9a0224b8f8bfbae
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: cd7790e51ae5c110b00739f608e7dd3e1bc560b2
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397110"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48641067"
 ---
 # <a name="contact-support-for-mexico"></a>Обращение в службу поддержки для Мексики
 
@@ -28,9 +28,9 @@ ms.locfileid: "44397110"
 01 800 563 0605
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Испанский: Пн – Пятница 9 AM – 5 PM
+Испанский: Mon-Fri 9 AM – 5 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
