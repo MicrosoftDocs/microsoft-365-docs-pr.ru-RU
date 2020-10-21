@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,29 +13,29 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3f9308b51517c88325dfb56c1fae5f853f4b6c6c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4e65db4250ea1c81d3c51fb611575817db15e8db
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398598"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644103"
 ---
-# <a name="contact-support-for-bahrain-kingdom-of"></a><span data-ttu-id="72d00-103">Обращение в службу поддержки для Бахрейна, Королевства</span><span class="sxs-lookup"><span data-stu-id="72d00-103">Contact support for Bahrain, Kingdom of</span></span>
+# <a name="contact-support-for-bahrain-kingdom-of"></a><span data-ttu-id="3fb92-103">Обращение в службу поддержки для Бахрейна, Королевства</span><span class="sxs-lookup"><span data-stu-id="3fb92-103">Contact support for Bahrain, Kingdom of</span></span>
 
-<span data-ttu-id="72d00-104">[Найдите другую страну или регион](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="72d00-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="3fb92-104">[Найдите другую страну или регион](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="3fb92-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="72d00-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="72d00-105">Phone number</span></span>
-<span data-ttu-id="72d00-106">800 81 250</span><span class="sxs-lookup"><span data-stu-id="72d00-106">800 81 250</span></span>
+## <a name="phone-number"></a><span data-ttu-id="3fb92-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="3fb92-105">Phone number</span></span>
+<span data-ttu-id="3fb92-106">800 81 250</span><span class="sxs-lookup"><span data-stu-id="3fb92-106">800 81 250</span></span>
 
-## <a name="hours"></a><span data-ttu-id="72d00-107">Часы</span><span class="sxs-lookup"><span data-stu-id="72d00-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="72d00-108">Поддержка выставления счетов:</span><span class="sxs-lookup"><span data-stu-id="72d00-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="3fb92-107">Часы</span><span class="sxs-lookup"><span data-stu-id="3fb92-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="3fb92-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="3fb92-108">Billing Support:</span></span>
 
-<span data-ttu-id="72d00-109">Арабский: Sun четверг 10 AM – 6 AM</span><span class="sxs-lookup"><span data-stu-id="72d00-109">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="3fb92-109">Арабский: Sun-Thu 10 AM – 6 PM</span><span class="sxs-lookup"><span data-stu-id="3fb92-109">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="72d00-110">Английский: Пн – Пятница, 10 AM – 6 PM</span><span class="sxs-lookup"><span data-stu-id="72d00-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="3fb92-110">Английский: Mon-Fri 10 AM – 6 PM</span><span class="sxs-lookup"><span data-stu-id="3fb92-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="72d00-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="72d00-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="3fb92-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="3fb92-111">Technical Support:</span></span>
 
-<span data-ttu-id="72d00-112">Арабский: Sun четверг 10 AM – 6 AM</span><span class="sxs-lookup"><span data-stu-id="72d00-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="3fb92-112">Арабский: Sun-Thu 10 AM – 6 PM</span><span class="sxs-lookup"><span data-stu-id="3fb92-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="72d00-113">Английский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="72d00-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="3fb92-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="3fb92-113">English: 24 hours a day, 7 days a week</span></span>
