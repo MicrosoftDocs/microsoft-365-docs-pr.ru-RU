@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Узнайте больше о Office 365 под управлением 21Vianet, которые предназначены для удовлетворения потребностей в защищенных, надежных и масштабируемых облачных службах в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 133df44635927d185e72c7981953e07162d458a9
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 5906bf961e246f1d707b030ffb4c788da353200c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079741"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644655"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Служба Office 365, предоставляемая 21Vianet
 
@@ -99,7 +99,7 @@ ms.locfileid: "45079741"
 |Предоставление общего доступа к календарю  <br/> |Доступен общий доступ к календарю между локальными и почтовыми ящиками Exchange Online.  <br/> |
 |Общий доступ к контактам  <br/> |Скоро.  <br/> |
 |Отслеживание сообщений  <br/> |Скоро.  <br/> |
-|Apps  <br/> |Скоро.  <br/> |
+|Приложения  <br/> |Скоро.  <br/> |
 |Функция "места"  <br/> |Эта функция показывает карты адресов в электронной почте; так как она может допускать данные вне страны, она недоступна.  <br/> |
 |Подключенные учетные записи  <br/> |Подключение к другим учетным записям, таким как Hotmail (Outlook.com), скоро будет доступно.  <br/> |
    

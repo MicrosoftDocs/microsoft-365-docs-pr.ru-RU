@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Добавьте свой домен в Microsoft 365 в центре администрирования Microsoft 365, добавив запись DNS на узел DNS. Мастер установки проводит вас через процесс.
-ms.openlocfilehash: 09a66b9ac4f97a076d71dd7f259678181378ae48
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 3a4cd31a37eb01570f58e9cdb83940640768a273
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295026"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644619"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Добавление домена в Microsoft 365
 
@@ -118,7 +118,7 @@ ms.locfileid: "48295026"
 
 5. Выберите тип записи DNS, которую вы хотите добавить, и введите сведения для новой записи.
     
-6. Нажмите **Сохранить**.
+6. Нажмите кнопку **Сохранить**.
 
 ## <a name="registrars-with-domain-connect"></a>Регистраторы с подключением к домену
 

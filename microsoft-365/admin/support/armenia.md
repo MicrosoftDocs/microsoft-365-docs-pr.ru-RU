@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dff6c3f50cbbe5399807c53a66803dd960dcda92
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ef32fecef7e615c386efbb03aaa72d138e6afacc
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398682"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644163"
 ---
 # <a name="contact-support-for-armenia"></a>Обращение в службу поддержки для Армения
 
@@ -32,16 +32,16 @@ ms.locfileid: "44398682"
 Введите код 7706
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Русский: Пн – Пятница, 10 AM — 7 — Москва
+Русский: Mon-Fri 10 AM – 7 – 7 – 7 – Москва
 
-Английский: Пн – Пятница 9 AM – 5 PM Лондон
+Английский: Mon-Fri 9 – 5 PM Лондон
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Русский: Пн – Пятница, 7 AM – 8 PM Москва
+Русский: Mon-Fri 7 AM – 8 – 8 РМ
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются сборы по местным звонкам

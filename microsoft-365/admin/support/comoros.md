@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 486410b86fc0ccdcfe7cef43bd224008eab62429
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ede29638d9af979a481701a424500c136c6b01ea
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398214"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48643227"
 ---
 # <a name="contact-support-for-comoros"></a>Обращение в службу поддержки для Коморские острова
 
@@ -28,14 +28,14 @@ ms.locfileid: "44398214"
 + 1 312 843 5147
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Пн – Пятница 11 AM – 7 PM
+Французский: Mon-Fri 11 AM – 7 AM
 
-Английский: Пн – Пятница 11 AM – 7 PM
+Английский: Mon-Fri 11 AM – 7 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Пн – Пятница, 10 AM – 11 AM
+Французский язык: Mon-Fri 10 AM – 11 AM PM
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 20816b8b-8b21-458f-81c1-320b8116597e
 ROBOTS: NOINDEX
 description: 'Узнайте, как подписаться на Office 365 с помощью личного адреса электронной почты, если вы не хотите добавлять собственный домен. '
-ms.openlocfilehash: 0b188754b169f6f0f0fb807a8ba236497a7439ff
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b8e11d7c99ce385d8d5147245ac078b7d46c7caf
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399258"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644883"
 ---
 # <a name="signing-up-for-office-365-with-a-personal-email-address"></a>Регистрация в Office 365 с использованием личного адреса электронной почты
 
@@ -37,7 +37,7 @@ ms.locfileid: "44399258"
   
 |**Функция**|**Office 365 с личной электронной почтой**|**Office 365 с пользовательским доменом**|
 |:-----|:-----|:-----|
-|**OneDrive <sup>1, 2</sup>**| [Личное хранилище OneDrive](https://onedrive.live.com/about/en-us/plans/)| [OneDrive для бизнеса](https://onedrive.live.com/about/en-us/business/) |
+|**OneDrive <sup>1, 2</sup>**| [Личное хранилище OneDrive ](https://onedrive.live.com/about/en-us/plans/)| [OneDrive для бизнеса](https://onedrive.live.com/about/en-us/business/) |
 |**Приложения Office: Word, Excel, PowerPoint, OneNote, Outlook, Access (только для компьютера),**| Да | Да 
 |**Бизнес-приложения <sup>3</sup> : подключения, выставление счетов, списки, книги, Милеик и диспетчер клиентов Outlook**| Нет | Да 
 |**Доступ к центру администрирования Microsoft 365**| Ограниченный доступ (Настройка выставления счетов, поддержка и настройка доменов) | Да

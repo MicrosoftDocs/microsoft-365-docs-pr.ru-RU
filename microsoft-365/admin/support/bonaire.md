@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 118948c6a6fcb61ee06f91534fc414c26cc17e99
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c9c4ece013eb6d59fad013f04f15e0f8684144da
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398478"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48643851"
 ---
 # <a name="contact-support-for-bonaire"></a>Обращение в службу поддержки для Бонаире
 
@@ -28,14 +28,14 @@ ms.locfileid: "44398478"
 + 1 312 843 5146
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка выставления счетов:
+### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Голландский: Пн – Пятница 4 AM – 12:00
+Голландский: Mon-Fri 4 AM – полудня
 
-Английский: Пн – Пятница 4 AM – 12:00
+Английский: Mon-Fri 4 AM – полудня
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Английский: 24 часа в сутки, 7 дней в неделю
+Английский: круглосуточно, без выходных
 
 Применяются тарифы на международные звонки

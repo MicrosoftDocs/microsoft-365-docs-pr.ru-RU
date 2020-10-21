@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: Узнайте больше о службе Azure Information Protection для Office 365 под управлением 21Vianet и о том, как настроить его для клиентов в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: ca30811e77f686b92b8cdd13d624182eb0d3039e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: ad3420483701c83ffef65994996047de56a7085c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445583"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644667"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Четность между службой Azure Information Protection для Office 365 под управлением 21Vianet и коммерческих услуг
 
@@ -55,12 +55,12 @@ ms.locfileid: "48445583"
 
 - Проверьте, включена ли служба управления правами:
   1. Запустите PowerShell от имени администратора.
-  2. Если модуль Аипсервице не установлен, запустите его  `Install-Module AipService` .
+  2. Если модуль Аипсервице не установлен, запустите его `Install-Module AipService` .
   3. Импортируйте модуль с помощью `Import-Module AipService` .
-  4. Подключаться к службе с помощью  `Connect-AipService -environmentname azurechinacloud` .
-  5. Запустите  `(Get-AipServiceConfiguration).FunctionalState`   и проверьте, есть ли состояние  `Enabled` .
+  4. Подключаться к службе с помощью `Connect-AipService -environmentname azurechinacloud` .
+  5. Запустите `(Get-AipServiceConfiguration).FunctionalState` и проверьте, есть ли состояние `Enabled` .
 
-- Если функциональное состояние —  `Disabled` , запустите  `Enable-AipService` .
+- Если функциональное состояние — `Disabled` , запустите `Enable-AipService` .
 
 ### <a name="dns-configuration-for-encryption-windows"></a>Конфигурация DNS для шифрования (Windows)
 
@@ -70,27 +70,27 @@ ms.locfileid: "48445583"
 
 - Получение идентификатора службы управления правами:
   1. Запустите PowerShell от имени администратора.
-  2. Если модуль Аипсервице не установлен, запустите его  `Install-Module AipService` .
-  3. Подключаться к службе с помощью  `Connect-AipService -environmentname azurechinacloud` .
-  4. Запустите  `(Get-AipServiceConfiguration).RightsManagementServiceId`   , чтобы получить идентификатор службы управления правами.
+  2. Если модуль Аипсервице не установлен, запустите его `Install-Module AipService` .
+  3. Подключаться к службе с помощью `Connect-AipService -environmentname azurechinacloud` .
+  4. Запустите `(Get-AipServiceConfiguration).RightsManagementServiceId` , чтобы получить идентификатор службы управления правами.
 
 - Выполните вход в систему поставщика DNS, перейдите к параметрам DNS для домена и добавьте новую запись SRV.
-  - Service = `_rmsredir`
-  - Protocol = `_http`
-  - Name = `_tcp`
-  - Target =  `[GUID].rms.aadrm.cn`   (где GUID — идентификатор RMS)
+  - Service = `_rmsredir`
+  - Protocol = `_http`
+  - Name = `_tcp`
+  - Target = `[GUID].rms.aadrm.cn` (где GUID — идентификатор RMS)
   - Priority, Weight, seconds, TTL = значения по умолчанию
 
-- Свяжите личный домен с клиентом на [портале Azure](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Это приведет к добавлению записи в DNS, что может занять несколько минут, чтобы проверить его после добавления значения в параметры DNS.
+- Свяжите личный домен с клиентом на [портале Azure](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Это приведет к добавлению записи в DNS, что может занять несколько минут, чтобы проверить его после добавления значения в параметры DNS.
 
 - Войдите в центр администрирования Microsoft 365, используя соответствующие учетные данные глобального администратора, и добавьте домен (например, `contoso.cn` ) для создания пользователя. В процессе проверки могут потребоваться дополнительные изменения DNS. После завершения проверки пользователи могут быть созданы.
 
 ### <a name="dns-configuration-for-encryption-mac-ios-android"></a>Конфигурация DNS для шифрования (Mac, iOS, Android)
 
 - Выполните вход в систему поставщика DNS, перейдите к параметрам DNS для домена и добавьте новую запись SRV.
-  - Service = `_rmsdisco`
-  - Protocol = `_http`
-  - Name = `_tcp`
-  - Target = `api.aadrm.cn`
-  - Порт = `80`
+  - Service = `_rmsdisco`
+  - Protocol = `_http`
+  - Name = `_tcp`
+  - Target = `api.aadrm.cn`
+  - Порт = `80`
   - Priority, Weight, seconds, TTL = значения по умолчанию
