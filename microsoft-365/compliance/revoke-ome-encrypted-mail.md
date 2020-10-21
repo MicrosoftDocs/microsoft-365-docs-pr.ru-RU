@@ -39,7 +39,7 @@ ms.locfileid: "46868960"
 
 Администраторы и отправители сообщений могут отозвать сообщения, зашифрованные с помощью шифрования, непосредственно из Outlook в Интернете. Например, сообщения, зашифрованные с помощью параметра "только шифровать".
 
-:::image type="content" source="../media/adhocencryptionrevoke.png" alt-text="Снимок экрана: параметр "только шифрование" в Outlook в Интернете.":::
+:::image type="content" source="../media/adhocencryptionrevoke.png" alt-text="Снимок экрана: параметр &quot;только шифрование&quot; в Outlook в Интернете.":::
 
 ## <a name="recipient-experience-for-revoked-encrypted-emails"></a>Получатель отзыва о отозванных зашифрованных сообщениях
 
@@ -55,13 +55,13 @@ ms.locfileid: "46868960"
 
    Если почта ревокабле, вы увидите ссылку "Удаление внешнего доступа" в верхней части сообщения.
 
-    :::image type="content" source="../media/infoprotect-email-encryption/adhocencryptionrevokesentmsg.png" alt-text="Снимок экрана, на котором показаны зашифрованные сообщения, которые вы хотите отозвать в Outlook в Интернете.":::
+    :::image type="content" source="../media/infoprotect-email-encryption/adhocencryptionrevokesentmsg.png" alt-text="Снимок экрана: параметр &quot;только шифрование&quot; в Outlook в Интернете.":::
 
 2. Чтобы отозвать сообщение, нажмите кнопку **Удалить внешний доступ** .
 
    Сообщение показывает, что его состояние отозвано.
 
-   :::image type="content" source="../media/adhocencryptionrevokedmsg.png" alt-text="Снимок экрана: отзыв зашифрованного сообщения в Outlook в Интернете.":::
+   :::image type="content" source="../media/adhocencryptionrevokedmsg.png" alt-text="Снимок экрана: параметр &quot;только шифрование&quot; в Outlook в Интернете.":::
 
 ## <a name="how-to-revoke-an-encrypted-message-as-an-administrator"></a>Отзыв зашифрованного сообщения от имени администратора
 

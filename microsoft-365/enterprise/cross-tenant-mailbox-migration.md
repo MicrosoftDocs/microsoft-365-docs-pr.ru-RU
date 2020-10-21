@@ -143,7 +143,7 @@ ms.locfileid: "48277487"
 
 8. Войдите с помощью учетных данных глобального администратора. Когда появится следующий экран, нажмите кнопку **принять**.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="Диалоговое окно "принятие разрешений"":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="Подготовка клиента к миграции почтовых ящиков.":::
     
 9. Вернитесь к удаленному сеансу PowerShell и нажмите клавишу ВВОД, чтобы продолжить.
 
@@ -162,37 +162,11 @@ ms.locfileid: "48277487"
 
 1.  Войдите в свой почтовый ящик как параметр – Ресаурцетенантадминемаил, заданный целевым администратором во время установки. Найдите приглашение от целевого клиента и нажмите кнопку **Get Start** (начало работы).
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Диалоговое окно с приглашением":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Подготовка клиента к миграции почтовых ящиков.":::
 
 2. Нажмите кнопку **принять** , чтобы принять приглашение.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Диалоговое окно для принятия разрешений":::
-
-   > [!NOTE]
-   > Если вы не получаете это сообщение электронной почты или не можете найти его, администратору целевого клиента предоставляется прямой URL-адрес, который можно предоставить для принятия приглашения. URL-адрес должен находиться в разделе в записи удаленного сеанса PowerShell администратора целевого клиента.
-
-3. В центре администрирования Microsoft 365 или удаленном сеансе PowerShell создайте одну или несколько групп безопасности с включенной поддержкой почты, чтобы управлять списком почтовых ящиков, разрешенных целевым клиентом для получения (перемещения) из исходного клиента в Целевой клиент. Вам не нужно заполнять эту группу заранее, но для запуска процедуры установки (скрипт) необходимо предоставить хотя бы одну группу. Группы вложений не поддерживаются. 
-
-4. Скачайте скрипт SetupCrossTenantRelationshipForTargetResource.ps1 для установки исходного клиента из репозитория GitHub [здесь](https://github.com/microsoft/cross-tenant/releases/tag/Preview). 
-
-5. Создайте удаленное подключение PowerShell к исходному клиенту с разрешениями администратора Exchange. Разрешения глобального администратора не являются обязательными для настройки исходного клиента, только целевой клиент из-за процесса создания приложения Azure.
-
-6. Измените каталог на расположение скрипта или убедитесь, что сценарий в текущий момент сохранен в удаленном сеансе PowerShell.
-
-7. Выполните скрипт со следующими обязательными параметрами и значениями.
-
-    | Параметр | Значение |
-    |-----|------|
-    | — Саурцемаилбоксмовепублишедскопес | Группа безопасности с включенной поддержкой почты, созданная исходным клиентом для удостоверений и почтовых ящиков, которые находятся в области для миграции. |
-    | — Ресаурцетенантдомаин | Имя домена исходного клиента, например fabrikam \. onmicrosoft.com. |
-    | — Таржеттенантдомаин | Имя конечного домена клиента, например contoso \. onmicrosoft.com. |
-    | — ApplicationId | Идентификатор приложения Azure (GUID) приложения, используемого для миграции. Идентификатор приложения доступен на портале Azure (Azure AD, корпоративные приложения, имя приложения, идентификатор приложения) или включено в приглашение.  |
-    | — Таржеттенантид | Идентификатор клиента целевого клиента. Например, идентификатор клиента Azure AD для \. клиента contoso onmicrosoft.com. |
-    |||
-    
-    Пример:
-    ```powershell
-    SetupCrossTenantRelationshipForResourceTenant.ps1 -SourceMailboxMovePublishedScopes "MigScope","MyGroup" -ResourceTenantDomain contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ApplicationId sdf5e87sa-0753-dd88-ad35-c71a15cs8e44c -TargetTenantId 4sdkfo933-3904-sd93-bf9a-sdi39402834
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Подготовка клиента к миграции почтовых ящиков." -ResourceTenantDomain contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ApplicationId sdf5e87sa-0753-dd88-ad35-c71a15cs8e44c -TargetTenantId 4sdkfo933-3904-sd93-bf9a-sdi39402834
     Exchange setup complete.
 
     ```

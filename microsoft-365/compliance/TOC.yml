@@ -634,6 +634,8 @@
               href: attorney-privilege-detection.md
             - name: Наборы для проверки бесед
               href: conversation-review-sets.md
+            - name: Языковая поддержка CJK
+              href: ediscovery-cjk-support.md
             - name: Назначение разрешений на обнаружение электронных данных
               href: assign-ediscovery-permissions.md
             - name: Запросы ключевых слов и условия поиска
