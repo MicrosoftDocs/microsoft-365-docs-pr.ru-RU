@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,33 +13,33 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f202f7fd71b917cce4b1f3ca255dcec36008c238
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ec908b6e70ee4580829ac7c483c638907700eaca
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397914"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642723"
 ---
-# <a name="contact-support-for-france"></a><span data-ttu-id="8c582-103">Обращение в службу поддержки для Франции</span><span class="sxs-lookup"><span data-stu-id="8c582-103">Contact support for France</span></span>
+# <a name="contact-support-for-france"></a><span data-ttu-id="cf33b-103">Обращение в службу поддержки для Франции</span><span class="sxs-lookup"><span data-stu-id="cf33b-103">Contact support for France</span></span>
 
-<span data-ttu-id="8c582-104">[Найдите другую страну или регион](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="8c582-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="cf33b-104">[Найдите другую страну или регион](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="cf33b-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="8c582-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="8c582-105">Phone number</span></span>
-<span data-ttu-id="8c582-106">0805 540 594</span><span class="sxs-lookup"><span data-stu-id="8c582-106">0805 540 594</span></span>
+## <a name="phone-number"></a><span data-ttu-id="cf33b-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="cf33b-105">Phone number</span></span>
+<span data-ttu-id="cf33b-106">0805 540 594</span><span class="sxs-lookup"><span data-stu-id="cf33b-106">0805 540 594</span></span>
 
-## <a name="hours"></a><span data-ttu-id="8c582-107">Часы</span><span class="sxs-lookup"><span data-stu-id="8c582-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="8c582-108">Поддержка выставления счетов:</span><span class="sxs-lookup"><span data-stu-id="8c582-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="cf33b-107">Часы</span><span class="sxs-lookup"><span data-stu-id="cf33b-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="cf33b-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="cf33b-108">Billing Support:</span></span>
 
-<span data-ttu-id="8c582-109">Французский: Пн – Пятница 9 AM – 5 PM</span><span class="sxs-lookup"><span data-stu-id="8c582-109">French: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="cf33b-109">Французский: Mon-Fri 9 AM – 5 AM</span><span class="sxs-lookup"><span data-stu-id="cf33b-109">French: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="8c582-110">Английский: Пн – Пятница 9 AM – 5 PM</span><span class="sxs-lookup"><span data-stu-id="8c582-110">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="cf33b-110">Английский: Mon-Fri 9 AM – 5 AM</span><span class="sxs-lookup"><span data-stu-id="cf33b-110">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="8c582-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="8c582-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="cf33b-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="cf33b-111">Technical Support:</span></span>
 
-<span data-ttu-id="8c582-112">Французский язык: Пн – Пятница 8 AM – 9 AM</span><span class="sxs-lookup"><span data-stu-id="8c582-112">French: Mon-Fri 8 AM-9 PM</span></span>
+<span data-ttu-id="cf33b-112">Французский: Mon-Fri 8 AM – 9 AM</span><span class="sxs-lookup"><span data-stu-id="cf33b-112">French: Mon-Fri 8 AM-9 PM</span></span>
 
-<span data-ttu-id="8c582-113">Английский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="8c582-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="cf33b-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="cf33b-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="8c582-114">Альтернативный номер телефона: 01 57 32 42 97</span><span class="sxs-lookup"><span data-stu-id="8c582-114">Alternative Phone Number: 01 57 32 42 97</span></span>
+<span data-ttu-id="cf33b-114">Альтернативный номер телефона: 01 57 32 42 97</span><span class="sxs-lookup"><span data-stu-id="cf33b-114">Alternative Phone Number: 01 57 32 42 97</span></span>
 
-<span data-ttu-id="8c582-115">Применяются сборы по местным звонкам</span><span class="sxs-lookup"><span data-stu-id="8c582-115">Local call charges apply</span></span>
+<span data-ttu-id="cf33b-115">Применяются сборы по местным звонкам</span><span class="sxs-lookup"><span data-stu-id="cf33b-115">Local call charges apply</span></span>
