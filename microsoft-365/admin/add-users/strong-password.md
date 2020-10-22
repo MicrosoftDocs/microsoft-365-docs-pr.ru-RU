@@ -1,5 +1,5 @@
 ---
-title: Определение требований к надежному паролю для пользователей
+title: Отключение требований к надежному паролю для пользователей
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -21,14 +21,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как задать требования к надежному паролю для пользователей с помощью Windows PowerShell.
-ms.openlocfilehash: 9f6fd61396d99245ffeabf757d3cb65c5d5cb85e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f9a0b76d024cc18552657144e4ccf8de8a72f0d9
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646623"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655739"
 ---
-# <a name="set-strong-password-requirement-for-users"></a>Определение требований к надежному паролю для пользователей
+# <a name="turn-off-strong-password-requirements-for-users"></a>Отключение требований к надежному паролю для пользователей
 
 В этой статье объясняется, как отключить требования к надежному паролю для пользователей. Требования к надежному паролю включены по умолчанию в организации Microsoft 365 для бизнеса. У вашей организации могут быть требования для отключения надежных паролей. Чтобы отключить требования к надежному паролю, выполните указанные ниже действия. Необходимо выполнить эти действия с помощью PowerShell.
 

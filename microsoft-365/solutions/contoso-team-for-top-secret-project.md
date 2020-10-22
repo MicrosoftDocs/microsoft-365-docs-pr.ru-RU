@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: Сводка. сведения о том, как компания Contoso использовала группу с изоляцией безопасности для проекта верхнего уровня, чтобы разработать новый набор продуктов и служб.
-ms.openlocfilehash: 16d10f5d6e5b5939172c02746c9324eb20b6987e
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: b8794502afcb77a8e597a1b05dfc92acd093f23a
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399493"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48656073"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Изолированная группа для верхнего уровня секретного проекта корпорации Contoso
 
@@ -77,7 +77,7 @@ ms.locfileid: "48399493"
 
 Ниже показана итоговая Конфигурация группы проекта 2X с изоляцией безопасности.
 
-![Итоговая конфигурация команды Project 2X](../media/contoso-team-for-top-secret-project/contoso-team-for-top-secret-project.png)
+![Итоговая конфигурация команды Project 2X](../media/contoso-team-for-top-secret-project.png)
 
  ## <a name="step-4-trained-project-2x-team-members"></a>Шаг 4: квалифицированные участники группы для Project 2X
 
@@ -92,7 +92,7 @@ ms.locfileid: "48399493"
 
 Ниже приведен пример файла, хранящегося на базовом сайте с проектом 2X с назначенной меткой конфиденциальности для проекта 2X.
 
-![Пример файла, хранящегося на сайте базового проекта 2X](../media/contoso-team-for-top-secret-project/contoso-team-for-top-secret-project-example.png)
+![Пример файла, хранящегося на сайте базового проекта 2X](../media/contoso-team-for-top-secret-project-example.png)
 
 В нескольких экземплярах участники группы Project 2X загрузили файлы, защищенные меткой проекта 2X, на локальный диск для работы в автономном режиме. 
 
@@ -100,7 +100,7 @@ ms.locfileid: "48399493"
 
 Из-за среды совместной работы Teams и функций безопасности Microsoft 365 сведения о проекте 2X хранятся в секрете в течение проекта. Компания Contoso объявила о своих планах и в процессе развертывания новых продуктов и служб в сведения своих клиентов и инвесторов и Чагрин конкурентов.
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 [Развертывание группы с изоляцией безопасности](secure-teams-security-isolation.md) в Организации.
 
