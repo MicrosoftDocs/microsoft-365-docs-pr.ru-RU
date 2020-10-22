@@ -82,7 +82,7 @@
           href: services-in-china/apply-for-a-fapiao.md
         - name: Сравнение с Azure Information Protection
           href: services-in-china/parity-between-azure-information-protection.md
-    - name: Управление пользователями и группами
+    - name: 'Управление пользователями, группами и паролями'
       href: add-users/index.yml
       items:
         - name: Пользователи
@@ -109,14 +109,6 @@
               href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: Восстановление пользователя
               href: add-users/restore-user.md
-            - name: Сброс паролей
-              href: add-users/reset-passwords.md
-            - name: Установка бессрочных паролей
-              href: add-users/set-password-to-never-expire.md
-            - name: Разрешение пользователям сбрасывать пароли
-              href: add-users/let-users-reset-passwords.md
-            - name: Повторная отправка паролей пользователей
-              href: add-users/resend-user-password.md
             - name: Создание шаблона для добавления пользователей
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: Перевод пользователей на последние версии приложений
@@ -137,6 +129,20 @@
               href: create-groups/restore-deleted-group.md
             - name: Управление гостевым доступом к группам
               href: create-groups/manage-guest-access-in-groups.md
+        - name: Пароли
+          items:
+            - name: Сброс паролей
+              href: add-users/reset-passwords.md
+            - name: Разрешение пользователям сбрасывать пароли
+              href: add-users/let-users-reset-passwords.md
+            - name: Установка бессрочных паролей
+              href: add-users/set-password-to-never-expire.md
+            - name: Повторная отправка паролей пользователей
+              href: add-users/resend-user-password.md
+            - name: Отключение стойких паролей
+              href: add-users/strong-password.md
+            - name: Установка срока действия паролей
+              href: manage/set-password-expiration-policy.md
     - name: Управление электронной почтой и календарями
       href: email/index.yml
       items:
