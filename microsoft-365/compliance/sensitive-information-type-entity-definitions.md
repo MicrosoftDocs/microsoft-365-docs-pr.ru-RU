@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 8482501dc978433587c431d18ec93b9e78fb8e03
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 288c53d5e9264942e12d5634cec172a65ee79ca6
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487497"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48656056"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -60,14 +60,20 @@ ms.locfileid: "48487497"
 - функция Func_aba_routing находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_ABA_Routing.
 
+Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
+- функция Func_aba_routing находит содержимое, которое соответствует шаблону;
+
 ```xml
-<!-- ABA Routing Number -->
-<Entity id="cb353f78-2b72-4c3c-8827-92ebe4f69fdf" patternsProximity="300" recommendedConfidence="75">
+    <!-- ABA Routing Number -->
+    <Entity id="cb353f78-2b72-4c3c-8827-92ebe4f69fdf" patternsProximity="300" recommendedConfidence="75">
       <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_aba_routing" />
         <Match idRef="Keyword_ABA_Routing" />
       </Pattern>
- </Entity>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_aba_routing" />
+      </Pattern>
+    </Entity>
 ```
 
 
@@ -75,37 +81,36 @@ ms.locfileid: "48487497"
 
 #### <a name="keyword_aba_routing"></a>Keyword_aba_routing
 
-- код банка ABA
-- aba#
-- aba routing #
-- aba routing number
-- код банка ABA #
-- абараутинг #
 - aba number
+- код банка ABA #
+- код банка ABA
+- абараутинг #
 - абараутингнумбер
-- american bank association routing #
-- american bank association routing number
 - американбанкассоЦиатионраутинг #
 - американбанкассоЦиатионраутингнумбер
-- bank routing number
 - банкраутинг #
 - банкраутингнумбер
+- включен #
+- Маршрутизация нет
+- номер маршрутизации
 - routing transit number
-- ртн 
-   
+- включен #
+- ртн
+
+
 ## <a name="argentina-national-identity-dni-number"></a>Внутренний идентификационный номер (DNI), Аргентина
 
 ### <a name="format"></a>Format
 
-Восемь цифр, разделенных точками.
+Восемь цифр с периодами или без них
 
 ### <a name="pattern"></a>Шаблон
 
 Восемь цифр:
 - две цифры
-- точка
+- Необязательный период
 - три цифры
-- точка
+- Необязательный период
 - три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -133,14 +138,14 @@ ms.locfileid: "48487497"
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- Удостоверение 
-- Идентификация национальной идентификационной карточки 
+- цедула 
+- кéдула 
 - DNI 
-- Национальная реестр пользователей NIC 
-- Documento Nacional de Identidad 
-- Registro Nacional de las Personas 
-- идентидад 
-- идентификаЦиóн 
+- документо наЦионал де ИДЕНТИДАД 
+- документо нúмеро 
+- документо нумеро 
+- Registro наЦионал де Лас персонажи 
+- рнп 
    
 ## <a name="australia-bank-account-number"></a>Номер банковского счета для Австралии
 
@@ -697,8 +702,8 @@ OR
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -709,9 +714,9 @@ OR
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -733,9 +738,9 @@ OR
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -786,9 +791,8 @@ OR
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -803,9 +807,7 @@ OR
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -866,8 +868,7 @@ OR
 #### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
 - идентификационный номер
-- 
-national id
+- national id
 - персоналаусвеис Републик öстерреич
 
 ## <a name="austria-passport-number"></a>Номер паспорта для Австрии
@@ -913,13 +914,13 @@ national id
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -1043,7 +1044,6 @@ national id
 - st.nr.
 - стеуернуммер
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -1648,8 +1648,8 @@ national id
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -1660,9 +1660,9 @@ national id
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -1684,9 +1684,9 @@ national id
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -1737,9 +1737,8 @@ national id
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -1754,9 +1753,7 @@ national id
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -1773,8 +1770,7 @@ national id
 - фуехрерсчеин
 - фухрерсчеиннуммер
 - фуехрерсчеиннуммер
-- 
-permis de conduire
+- permis de conduire
 - нумéро разрешение кондуире
 
 
@@ -1850,7 +1846,6 @@ permis de conduire
 - нумéро д'ассурé
 - нумéро de регистре National
 - numéro de sécurité
-
 - numéro d'identification
 - numéro d'immatriculation
 - Национальный нумéро
@@ -1862,12 +1857,11 @@ permis de conduire
 - зарегистрировал
 - регистратионснумме
 - регистриерунг
-- номер социального страхования
+- social security number
 - SSN #
 - SSN
 - стеуернуммер
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -1923,13 +1917,13 @@ permis de conduire
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -2323,8 +2317,8 @@ Registro de identidade (RIC) (новый формат):
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -2335,9 +2329,9 @@ Registro de identidade (RIC) (новый формат):
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -2359,9 +2353,9 @@ Registro de identidade (RIC) (новый формат):
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -2412,9 +2406,8 @@ Registro de identidade (RIC) (новый формат):
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -2429,9 +2422,7 @@ Registro de identidade (RIC) (новый формат):
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -2509,9 +2500,7 @@ Registro de identidade (RIC) (новый формат):
 - егн #
 - егн
 - identification number
-
-- 
-national id
+- national id
 - номер страны
 - натионалнумбер #
 - натионалнумбер
@@ -2519,7 +2508,7 @@ national id
 - личный номер
 - персональный номер
 - персоналиднумбер #
-- номер социального страхования
+- social security number
 - SSN #
 - SSN
 - унифицированный гражданский идентификатор
@@ -2585,13 +2574,13 @@ national id
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -3333,28 +3322,20 @@ national id
 
 #### <a name="keyword_cc_verification"></a>Keyword_cc_verification
 
-- 
-card verification
-
+- card verification
 - card identification number
 - квн
 - cid
 - cvc2
 - cvv2
-- 
-pin block
+- pin block
 - security code
-
 - security number
-
 - security no
-
 - issue number
-
 - issue no
 - криптограмме
-- 
-numéro de sécurité
+- numéro de sécurité
 - numero de securite
 - кредиткартенпрüфнуммер
 - кредиткартенпруфнуммер
@@ -3365,32 +3346,26 @@ numéro de sécurité
 - сичерхеитснуммер
 - верфаллдатум
 - codice di verifica
-- наложен.сикурезза
-- 
-cod sicurezza
+- наложен. сикурезза
+- cod sicurezza
 - n autorizzazione
 - кóдиго
 - кодиго
-- наложен.сег
-- 
-cod seg
+- наложен. сег
+- cod seg
 - código de segurança
-
 - codigo de seguranca
-
 - codigo de segurança
-
 - código de seguranca
-- кóд.сегуранçа
-- наложен.сегуранка
-- наложен.сегуранçа
-- кóд.сегуранка
-- кóд сегуранçа
-- сегуранка наложенного платежа
-- сегуранçа наложенного платежа
-- кóд сегуранка
+- кóд. сегуранçа
+- наложен. сегуранка
+- наложен. сегуранçа
+- кóд. сегуранка
+- cód segurança
+- cod seguranca
+- cod segurança
+- cód seguranca
 - número de verificação
-
 - numero de verificacao
 - аблауф
 - gültig bis
@@ -3398,20 +3373,15 @@ cod seg
 - gultig bis
 - гултигкеитсдатум
 - скаденза
-- 
-data scad
+- data scad
 - fecha de expiracion
-
 - fecha de venc
 - венЦимиенто
-- 
-válido hasta
+- válido hasta
 - valido hasta
 - вто
-- 
-data de expiração
+- data de expiração
 - data de expiracao
-
 - data em que expira
 - валидаде
 - валор
@@ -3431,15 +3401,13 @@ data de expiração
 - american express
 - американекспресс
 - americano espresso
-
 - Visa
 - MasterCard
 - master card
 - MC
 - мастеркардс
-- 
-master cards
-- Клуб Динер
+- master cards
+- diner's Club
 - diners club
 - динерсклуб
 - Повтор
@@ -3449,27 +3417,20 @@ master cards
 - JCB
 - брандсмарт
 - japanese card bureau
-
 - carte blanche
 - картебланче
-- Кредитная карта
+- credit card
 - Центральной #
 - CC #:
-- Дата истечения срока действия
+- expiration date
 - exp date
-
-- 
-expiry date
-- 
-date d’expiration
-- 
-date d'exp
-- 
-date expiration
+- expiry date
+- date d’expiration
+- date d'exp
+- date expiration
 - bank card
 - банккард
-- 
-card number
+- card number
 - card num
 - карднумбер
 - карднумберс
@@ -3495,10 +3456,8 @@ card number
 - atm cards
 - атмкардс
 - енрауте
-- 
-en route
+- en route
 - card type
-
 - Acct кардмембер
 - Учетная запись кардмембер
 - кардно
@@ -3509,22 +3468,14 @@ en route
 - Учетная запись члена карточки
 - Кардмембер acct.
 - card no.
-
 - карточка нет
 - card number
-
 - carte bancaire
-
 - carte de crédit
-
 - carte de credit
-
 - numéro de carte
-
 - numero de carte
-
 - nº de la carte
-
 - nº de carte
 - кредиткарте
 - карте
@@ -3538,91 +3489,57 @@ en route
 - картеннуммер
 - кредиткартеннуммер
 - кредиткартен — нуммер
-- 
-carta di credito
+- carta di credito
 - carta credito
-- .\n\n\-.Корзина "
+- .\n\n\-. Корзина "
 - n carta
-- НР.Корзина "
-- 
-nr carta
+- НР. Корзина "
+- nr carta
 - numero carta
-
 - numero della carta
-
 - numero di carta
-
 - tarjeta credito
-
 - tarjeta de credito
-
-- 
-tarjeta crédito
-- 
-tarjeta de crédito
+- tarjeta crédito
+- tarjeta de crédito
 - tarjeta de atm
-
 - tarjeta atm
-
 - tarjeta debito
-
 - tarjeta de debito
-
-- 
-tarjeta débito
-- 
-tarjeta de débito
+- tarjeta débito
+- tarjeta de débito
 - nº de tarjeta
-- Нет.de tarjeta
-- нет де таржета
+- Нет. de tarjeta
+- no de tarjeta
 - numero de tarjeta
-
 - número de tarjeta
-
 - tarjeta no
 - таржетахабиенте
-- 
-cartão de crédito
+- cartão de crédito
 - cartão de credito
-
 - cartao de crédito
-
 - cartao de credito
-
 - cartão de débito
-
 - cartao de débito
-
 - cartão de debito
-
 - cartao de debito
-
 - débito automático
 - debito automatico
-
-- 
-número do cartão
+- número do cartão
 - numero do cartão
-
 - número do cartao
-
 - numero do cartao
-
 - número de cartão
-
 - numero de cartão
-
 - número de cartao
-
 - numero de cartao
-
-- n º Do картãо
+- nº do cartão
 - nº do cartao
-- n º.do cartão
-- не выполнять картãо
-- не выполнять картао
-- Нет.do cartão
-- Нет.do cartao
+- n º. do cartão
+- no do cartão
+- no do cartao
+- Нет. do cartão
+- Нет. do cartao
 - クレジットカード番号
 - クレジットカードナンバー
 - クレジットカード #
@@ -3701,8 +3618,8 @@ número do cartão
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -3713,9 +3630,9 @@ número do cartão
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -3737,9 +3654,9 @@ número do cartão
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -3790,9 +3707,8 @@ número do cartão
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -3807,9 +3723,7 @@ número do cartão
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -3860,7 +3774,7 @@ número do cartão
 - мажсторски Брож граđана
 - основной номер в соотношении
 - наЦионални идентификаЦижски Брож
-- Национальный идентификационный номер
+- national identification number
 - OIB #
 - OIB
 - особна исказника
@@ -3870,7 +3784,6 @@ número do cartão
 - порезни Брож
 - порезни идентификаЦижски Брож
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -3926,13 +3839,13 @@ número do cartão
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -3989,7 +3902,7 @@ número do cartão
 - мажсторски Брож граđана
 - основной номер в соотношении
 - наЦионални идентификаЦижски Брож
-- Национальный идентификационный номер
+- national identification number
 - OIB #
 - OIB
 - особна исказника
@@ -3999,7 +3912,6 @@ número do cartão
 - порезни Брож
 - порезни идентификаЦижски Брож
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -4124,8 +4036,8 @@ número do cartão
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -4136,9 +4048,9 @@ número do cartão
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -4160,9 +4072,9 @@ número do cartão
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -4213,9 +4125,8 @@ número do cartão
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -4230,9 +4141,7 @@ número do cartão
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -4288,7 +4197,7 @@ número do cartão
 - идентификационный номер карточки
 - Номер идентификационной карточки
 - кимлик Карти
-- Национальный идентификационный номер
+- national identification number
 - личный идентификационный номер
 - ταυτοτητασ
 
@@ -4332,13 +4241,13 @@ número do cartão
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -4407,7 +4316,6 @@ número do cartão
 #### <a name="keywords_cyprus_eu_tax_file_number"></a>Keywords_cyprus_eu_tax_file_number
 
 - tax id
-
 - Налоговый код идентификации
 - Налоговый идентификатор
 - идентификационный номер налога
@@ -4485,8 +4393,8 @@ número do cartão
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -4497,9 +4405,9 @@ número do cartão
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -4521,9 +4429,9 @@ número do cartão
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -4574,9 +4482,8 @@ número do cartão
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -4591,9 +4498,7 @@ número do cartão
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -4646,13 +4551,13 @@ número do cartão
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -4729,7 +4634,7 @@ número do cartão
 - идентитино #
 - идентитино
 - страховой номер
-- Национальный идентификационный номер
+- national identification number
 - натионалнумбер #
 - номер страны
 - особнí číсло
@@ -4745,9 +4650,8 @@ número do cartão
 - роднé číсло
 - SSN
 - SSN #
-- номер социального страхования
+- social security number
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -4874,8 +4778,8 @@ número do cartão
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -4886,9 +4790,9 @@ número do cartão
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -4910,9 +4814,9 @@ número do cartão
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -4963,9 +4867,8 @@ número do cartão
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -4980,9 +4883,7 @@ número do cartão
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -5033,13 +4934,13 @@ número do cartão
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -5106,7 +5007,6 @@ número do cartão
 - номер карточки страхования здоровья
 - номер страховки здоровья
 - identification number
-
 - идентификатионснуммер
 - идентификатионснуммер #
 - идентификационный номер
@@ -5127,7 +5027,7 @@ número do cartão
 - Скат коде
 - Скат нуммер
 - скаттенуммер
-- номер социального страхования
+- social security number
 - сундхедсфорсикрингскорт
 - сундхедсфорсикрингснуммер
 - сундхедскорт
@@ -5140,7 +5040,6 @@ número do cartão
 - Налоговый номер
 - Регистрационный номер налогоплательщика
 - tax id
-
 - идентификационный номер налога
 - такси #
 - такснумбер #
@@ -5237,7 +5136,7 @@ número do cartão
 
 Шаблон должен включать в себя все указанные ниже элементы.
 - одна буква (без учета регистра) из этого набора возможных букв: abcdefghjklmnprstux, который является кодом Регистрант 
-- одна буква (без учета регистра), представляющая собой первую букву фамилии Регистрант 
+- одна буква (без учета регистра), представляющая собой первую букву фамилии Регистрант или цифры 9
 - семь цифр, последняя из которых — контрольная цифра.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -5248,20 +5147,41 @@ número do cartão
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_dea_number находит содержимое, которое соответствует шаблону;
+- Найдено ключевое слово FROM `Keyword_dea_number`
+- Контрольная сумма проходит проверку.
+
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- функция Func_dea_number находит содержимое, которое соответствует шаблону;
 - Контрольная сумма проходит проверку.
 
 ```xml
-<!-- DEA Number -->
-<Entity id="9a5445ad-406e-43eb-8bd7-cac17ab6d0e4" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_dea_number"/>
-  </Pattern>
-</Entity>
+    <!-- DEA Number -->
+    <Entity id="9a5445ad-406e-43eb-8bd7-cac17ab6d0e4" patternsProximity="300" recommendedConfidence="85">
+      <Pattern confidenceLevel="75">
+        <IdMatch idRef="Func_dea_number" />
+      </Pattern>
+      <Version minEngineVersion="15.20.1207.000" maxEngineVersion="15.20.3134.000">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_dea_number" />
+        </Pattern>
+      </Version>
+      <Version minEngineVersion="15.20.3135.000">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_dea_number" />
+          <Match idRef="Keyword_dea_number" />
+        </Pattern>
+      </Version>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
-Нет
+#### <a name="keyword_dea_number"></a>Keyword_dea_number
+
+- DEA
+- DEA #
+- Администрирование принудительного использования лекарства
+- Агентство по принужденным лекарствам
 
 
 ## <a name="estonia-drivers-license-number"></a>Номер водительского удостоверения для драйвера Эстонии
@@ -5313,8 +5233,8 @@ número do cartão
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -5325,9 +5245,9 @@ número do cartão
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -5349,9 +5269,9 @@ número do cartão
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -5402,9 +5322,8 @@ número do cartão
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -5419,9 +5338,7 @@ número do cartão
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -5497,7 +5414,7 @@ número do cartão
 - Идентификатор Максу
 - максукохустусласе идентифитсиримиснумбер
 - максунумбер
-- Национальный идентификационный номер
+- national identification number
 - номер страны
 - персональный код
 - личный идентификационный номер
@@ -5505,7 +5422,6 @@ número do cartão
 - персональный идентификационный номер
 - персоналиднумбер #
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -5562,13 +5478,13 @@ número do cartão
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -6131,8 +6047,8 @@ número do cartão
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -6143,9 +6059,9 @@ número do cartão
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -6167,9 +6083,9 @@ número do cartão
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -6220,9 +6136,8 @@ número do cartão
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -6237,9 +6152,7 @@ número do cartão
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -6372,7 +6285,6 @@ número do cartão
 - ID No
 - идентификационный номер
 - identification number
-
 - идентититти нумеро
 - идентификационный номер
 - иднумбер
@@ -6385,10 +6297,9 @@ número do cartão
 - персоналиднумбер #
 - персонбетеккнинг
 - персоннуммер
-- номер социального страхования
+- social security number
 - сосиаалитурватуннус
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -6452,13 +6363,13 @@ número do cartão
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -6588,8 +6499,8 @@ número do cartão
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -6600,9 +6511,9 @@ número do cartão
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -6624,9 +6535,9 @@ número do cartão
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -6677,9 +6588,8 @@ número do cartão
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -6694,24 +6604,16 @@ número do cartão
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
 - номер списка рассылки
-- 
-permis de conduire
-- 
-licence number
-- 
-license number
-- 
-licence numbers
-- 
-
-license numbers
+- permis de conduire
+- licence number
+- license number
+- licence numbers
+- license numbers
 - нумéрос де лицензия
 
 
@@ -6801,13 +6703,12 @@ license numbers
 #### <a name="keywords_france_eu_national_id_card"></a>Keywords_france_eu_national_id_card
 
 - card number
-
 - Национальный д'идентитé для корзины
 - Национальный д'идените для корзины
 - CNI #
 - CNI
 - Компте банкаире
-- Национальный идентификационный номер
+- national identification number
 - Национальная идентификация
 - натионалидно #
 - нумéро д'ассуранце маладие
@@ -7007,7 +6908,6 @@ license numbers
 
 - нумéро д'идентификатион Фин.
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -7135,22 +7035,18 @@ license numbers
 
 - аусстеллунгсдатум
 - аусстеллунгсорт
-- 
-ausstellende behöde
-- 
-ausstellende behorde
-- 
-
-ausstellende behoerde
+- ausstellende behöde
+- ausstellende behorde
+- ausstellende behoerde
 - фüхрерсчеин
 - фухрерсчеин
 - фуехрерсчеин
 - фüхрерсчеиннуммер
 - фухрерсчеиннуммер
 - фуехрерсчеиннуммер
-- фüхрерсчеин — 
-- фухрерсчеин — 
-- фуехрерсчеин — 
+- фüхрерсчеин — 
+- фухрерсчеин — 
+- фуехрерсчеин — 
 - фüхрерсчеиннуммернр
 - фухрерсчеиннуммернр
 - фуехрерсчеиннуммернр
@@ -7166,8 +7062,7 @@ ausstellende behoerde
 - n — фüхрерсчеин
 - n — фухрерсчеин
 - n — фуехрерсчеин
-- 
-permis de conduire
+- permis de conduire
 - дриверлик
 - дриверликс
 - дриверлиценсе
@@ -7176,8 +7071,8 @@ permis de conduire
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -7188,9 +7083,9 @@ permis de conduire
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -7212,9 +7107,9 @@ permis de conduire
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -7265,9 +7160,8 @@ permis de conduire
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -7282,9 +7176,7 @@ permis de conduire
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - длно
 
@@ -7335,7 +7227,7 @@ permis de conduire
 - процедура
 - идентификатион
 - идентифизиерунгснуммер
-- идентификационная карточка
+- identity card
 - идентификационный номер
 - ID — нуммер
 - личный идентификатор
@@ -7458,7 +7350,6 @@ permis de conduire
 - стеуеридентификатионснуммер
 - стеуернуммер
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -7588,8 +7479,8 @@ permis de conduire
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -7600,9 +7491,9 @@ permis de conduire
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -7624,9 +7515,9 @@ permis de conduire
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -7677,9 +7568,8 @@ permis de conduire
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -7694,9 +7584,7 @@ permis de conduire
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -7763,7 +7651,7 @@ permis de conduire
 - Греческая национальная идентификация
 - Греческая личная идентификационная карточка
 - код греческой политики
-- идентификационная карточка
+- identity card
 - таутотита
 - ταυτότητα
 - ταυτότητας
@@ -7810,13 +7698,13 @@ permis de conduire
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -7872,7 +7760,6 @@ permis de conduire
 - аφμ | аφμ αριθμός
 - аφμ
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -8030,8 +7917,8 @@ permis de conduire
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -8042,9 +7929,9 @@ permis de conduire
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -8066,9 +7953,9 @@ permis de conduire
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -8119,9 +8006,8 @@ permis de conduire
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -8136,9 +8022,7 @@ permis de conduire
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -8211,9 +8095,8 @@ permis de conduire
 
 - идентификационный номер
 - identification number
-
 - СЗ IG
-- СЗ.IG.
+- СЗ. IG.
 - СЗ. IG.
 - сземéлязоносíтó игазолвáни
 - сземéли игазолвáни
@@ -8259,13 +8142,13 @@ permis de conduire
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -8401,7 +8284,6 @@ permis de conduire
 - хунгатиантин #
 - Налоговый орган без
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -8494,29 +8376,39 @@ permis de conduire
 ### <a name="pattern"></a>Шаблон
 
 10 букв или цифр:
-- пять букв (без учета регистра); 
-- четыре цифры; 
-- буква, которая является алфавитным проверочным символом.
+- Три буквы (без учета регистра) 
+- Буква в C, P, H, F, A, T, B, L, J, G (без учета регистра)
+- Буква
+- Четыре цифры 
+- Буква (без учета регистра);
 
 ### <a name="checksum"></a>Контрольная сумма
 
-Да
+Нет
 
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_india_permanent_account_number находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_india_permanent_account_number;
-- Контрольная сумма проходит проверку.
+
+Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
+- регулярное выражение Regex_india_permanent_account_number находит содержимое, которое соответствует шаблону;
+
 
 ```xml
-<!-- India Permanent Account Number -->
-<Entity id="2602bfee-9bb0-47a5-a7a6-2bf3053e2804" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Regex_india_permanent_account_number"/>
-     <Match idRef="Keyword_india_permanent_account_number"/>
-  </Pattern>
-</Entity>
+      <!-- India Permanent Account Number -->
+      <Entity id="2602bfee-9bb0-47a5-a7a6-2bf3053e2804" patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_india_permanent_account_number" />
+          <Match idRef="Keyword_india_permanent_account_number" />
+        </Pattern>
+        <Version minEngineVersion="15.20.3520.000">
+          <Pattern confidenceLevel="65">
+            <IdMatch idRef="Regex_india_permanent_account_number" />
+          </Pattern>
+        </Version>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
@@ -8535,7 +8427,8 @@ permis de conduire
 ### <a name="pattern"></a>Шаблон
 
 12 цифр:
-- четыре цифры; 
+- Цифра, не равная 0 или 1
+- Три цифры 
 - необязательный пробел или тире; 
 - четыре цифры; 
 - необязательный пробел или тире; 
@@ -8572,10 +8465,12 @@ permis de conduire
 ### <a name="keywords"></a>Ключевые слова
    
 #### <a name="keyword_india_aadhar"></a>Keyword_india_aadhar
+- aadhaar
 - аадхар
-- Aadhaar
-- UID
+- аадхар #
+- uid
 - आधार
+- уидаи
    
 ## <a name="indonesia-identity-card-ktp-number"></a>Номер идентификационной карточки Индонезия (KTP)
 
@@ -8864,8 +8759,8 @@ Dictionary
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -8876,9 +8771,9 @@ Dictionary
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -8900,9 +8795,9 @@ Dictionary
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -8953,9 +8848,8 @@ Dictionary
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -8970,9 +8864,7 @@ Dictionary
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -9028,13 +8920,13 @@ Dictionary
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -9103,7 +8995,6 @@ Dictionary
 
 - Служба удостоверений клиента
 - identification number
-
 - личный идентификационный номер
 - номер личной общедоступной службы
 - Личная служба
@@ -9129,7 +9020,6 @@ Dictionary
 - уимхир аисеантаис феарсанта
 - уимхир феарсанта сеирбхíсе поиблí
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -9233,8 +9123,23 @@ Dictionary
 
 #### <a name="keyword_israel_national_id"></a>Keyword_Israel_National_ID
 
-- מספר זהות 
-- National ID Number
+-   מספר זהות
+-   מספר זיה וי
+-   מספר זיהוי ישר אלי      
+-   זהותישר אלית
+-   هو ية اسرائيل ية عدد
+-   هوية إسرائ يلية
+-   رقم الهوية
+-   عدد هوية فريدة من نوعها
+-   иднумбер #
+-   идентификационный номер
+-   Идентификатор        
+-   идентитинумбер #
+-   идентификационный номер
+-   исраелиидентитинумбер       
+-   личный идентификатор
+-   уникальный идентификатор  
+
    
 ## <a name="italy-drivers-license-number"></a>Номер водительского удостоверения для Италии
 Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера лицензии для драйвера ЕС и доступен как отдельный объект типа конфиденциальной информации.
@@ -9352,7 +9257,6 @@ Dictionary
 - персоналкодено #
 - Налоговый код
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - идентификационный номер налогоплательщика
@@ -9413,13 +9317,13 @@ Dictionary
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -9825,10 +9729,9 @@ Dictionary
 #### <a name="keyword_jp_passport"></a>Keyword_jp_passport
 
 - Службу
-- Номер паспорта
+- Passport Number
 - Паспорт No.
 - Passport#
-
 - パスポート
 - パスポート番号
 - パスポートナンバー
@@ -10046,8 +9949,8 @@ Dictionary
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -10058,9 +9961,9 @@ Dictionary
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -10082,9 +9985,9 @@ Dictionary
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -10135,9 +10038,8 @@ Dictionary
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -10152,9 +10054,7 @@ Dictionary
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -10249,18 +10149,15 @@ Dictionary
 - кодов #
 - ID — код
 - identification number
-
 - идентификāЦижас нумурс
 - ID — номер
 - индивидуальный номер
 - латвижа Алва
 - Идентификатор наЦионāлаис
-- 
-national id
+- national id
 - Национальный идентификационный номер
 - Национальный идентификационный номер
 - national insurance number
-
 - номер национальной регистрации
 - нодокļа нумурс
 - Идентификатор нодокļу
@@ -10278,15 +10175,13 @@ national id
 - Пользователи Кодс
 - код идентификации заполнения
 - номер общедоступной службы
-- 
-registration number
+- registration number
 - номер дохода
-- страховой номер
-- номер социального страхования
+- social insurance number
+- social security number
 - Налоговый код штата
-- номер налогового файла
+- tax file number
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -10345,13 +10240,13 @@ registration number
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -10410,8 +10305,8 @@ registration number
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -10422,9 +10317,9 @@ registration number
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -10446,9 +10341,9 @@ registration number
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -10499,9 +10394,8 @@ registration number
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -10516,9 +10410,7 @@ registration number
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -10593,12 +10485,11 @@ registration number
 - мокесčиų идентификавимас нумерис
 - мокесčиų идентификавимо нумерис
 - мокесčиų нумерис
-- Национальный идентификационный номер
+- national identification number
 - персональный код
 - персональный числовой код
 - пилиеčио паслаугос нумерис
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -10659,13 +10550,13 @@ registration number
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -10721,8 +10612,8 @@ registration number
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -10733,9 +10624,9 @@ registration number
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -10757,9 +10648,9 @@ registration number
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -10810,9 +10701,8 @@ registration number
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -10827,9 +10717,7 @@ registration number
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -11017,7 +10905,7 @@ registration number
 - нумéро д'éтаин
 - нумéро д'идентификатион финансовых луксембауржеоис
 - нумéро д'идентификатион Фин.
-- социальное обеспечение безопасности
+- social security
 - созиалунтерстüтзунг
 - созиалверсéчерунг
 - созиалверсичерунгсаусвеис
@@ -11028,7 +10916,6 @@ registration number
 - стеуеридентификатионснуммер
 - стеуернуммер
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -11167,8 +11054,8 @@ registration number
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -11179,9 +11066,9 @@ registration number
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -11203,9 +11090,9 @@ registration number
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -11256,9 +11143,8 @@ registration number
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -11273,9 +11159,7 @@ registration number
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -11392,13 +11276,13 @@ registration number
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -11478,7 +11362,6 @@ registration number
 - нумру ТАТ — такскса
 - персональный числовой код
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -11606,8 +11489,8 @@ registration number
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -11618,9 +11501,9 @@ registration number
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -11642,9 +11525,9 @@ registration number
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -11695,9 +11578,8 @@ registration number
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -11712,9 +11594,7 @@ registration number
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -11838,7 +11718,6 @@ registration number
 - Tin Нидерландов
 - Tin несерланд
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - Тал идентификации налога
@@ -11975,7 +11854,7 @@ registration number
 
 #### <a name="keyword_new_zealand_bank_account_number"></a>Keyword_new_zealand_bank_account_number
 
-- номер счета
+- account number
 - банковский счет
 - bank_acct_id
 - bank_acct_branch
@@ -12041,7 +11920,7 @@ registration number
 - дриверслиценцес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -12057,7 +11936,7 @@ registration number
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
+- driver's licence
 - лицензии на драйвер
 - дриверлик #
 - дриверликс #
@@ -12091,8 +11970,7 @@ registration number
 - ликс драйвера #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- 
-international driving permit
+- international driving permit
 - international driving permits
 - Ассоциация автомобилей
 - связь с автомобилем Новой Зеландии
@@ -12254,7 +12132,7 @@ international driving permit
 
 #### <a name="keyword_new_zealand_social_welfare_number"></a>Keyword_new_zealand_social_welfare_number
 
-- социальные велфаре #
+- социальные велфаре #
 - социальные велфаре #
 - социальное велфаре No.
 - номер социального велфаре
@@ -12410,8 +12288,8 @@ international driving permit
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -12422,9 +12300,9 @@ international driving permit
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -12446,9 +12324,9 @@ international driving permit
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -12499,9 +12377,8 @@ international driving permit
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -12516,9 +12393,7 @@ international driving permit
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -12782,7 +12657,6 @@ international driving permit
 - Нумер идентификакжи податковеж
 - нумеридентификакжиподатковеж #
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -12849,7 +12723,6 @@ international driving permit
 - идентификационный номер
 - Идентификация нет
 - identification number
-
 - удостоверение идентификационной карточки
 - Номер идентификационной карточки
 - номер национальной идентификационной карточки
@@ -12920,8 +12793,8 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -12932,9 +12805,9 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -12956,9 +12829,9 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -13009,9 +12882,8 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -13026,9 +12898,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -13090,13 +12960,13 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -13164,7 +13034,6 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - нúмеро де идентификаçãо Фиска
 - финансовый нумеро
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -13230,8 +13099,8 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -13242,9 +13111,9 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -13266,9 +13135,9 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -13319,9 +13188,8 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -13336,9 +13204,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -13415,9 +13281,8 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - страховой номер
 - инсуранценумбер #
 - идентификатор страны #
-- 
-national id
-- Национальный идентификационный номер
+- national id
+- national identification number
 - нумăр идентификаре персональный
 - нумăр идентитате
 - нумăр Personal Уник
@@ -13431,9 +13296,8 @@ national id
 - крепления #
 - крепления
 - Налоговый файл нет
-- номер налогового файла
+- tax file number
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -13493,13 +13357,13 @@ national id
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -13553,9 +13417,9 @@ national id
 
 #### <a name="keyword_russia_passport_number_domestic"></a>Keyword_russia_passport_number_domestic
 
-- номер паспорта
+- passport number
 - паспорт нет
-- службу #
+- службу #
 - идентификатор паспорта
 - пасспортно #
 - пасспортнумбер #
@@ -13613,9 +13477,9 @@ national id
 
 #### <a name="keywords_russia_passport_number_international"></a>Keywords_russia_passport_number_international
 
-- номер паспорта
+- passport number
 - паспорт нет
-- службу #
+- службу #
 - идентификатор паспорта
 - пасспортно #
 - пасспортнумбер #
@@ -13774,8 +13638,8 @@ national id
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -13786,9 +13650,9 @@ national id
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -13810,9 +13674,9 @@ national id
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -13863,9 +13727,8 @@ national id
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -13880,9 +13743,7 @@ national id
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -13954,7 +13815,6 @@ national id
 - идентификационный номер
 - Идентификация нет
 - identification number
-
 - идентификаčнá карта č
 - идентификаčнé číсло
 - удостоверение идентификационной карточки
@@ -13967,16 +13827,15 @@ national id
 - рč
 - родне Цисло
 - роднé číсло
-- номер социального страхования
+- social security number
 - SSN #
 - SSN
 - сземéли игазолвáни сзáм
 - сземéли игазолвáни сзáма
 - сземéлигазолвáни сзáм
 - Налоговый файл нет
-- номер налогового файла
+- tax file number
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -14032,13 +13891,13 @@ national id
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -14096,8 +13955,8 @@ national id
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -14108,9 +13967,9 @@ national id
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -14132,9 +13991,9 @@ national id
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -14185,9 +14044,8 @@ national id
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -14202,9 +14060,7 @@ national id
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -14273,15 +14129,13 @@ national id
 - единствена šтевилка главнега дрžавлжана
 - емšо
 - енотна матикна šтевилка обкана
-- идентификационная карточка
+- id card
 - identification number
-
 - идентификаЦижска šтевилка
-- идентификационная карточка
+- identity card
 - Идентификатор наЦионална
 - наЦионални потни List
-- 
-national id
+- national id
 - осебна изказника
 - осебни кода
 - осебни Ne
@@ -14295,7 +14149,7 @@ national id
 - уникальный идентификационный номер
 - уникальный основной номер
 - уникальный регистрационный номер
-- уникуеидентитино #
+- уникуеидентитино #
 - уникуеидентитино #
 
 ## <a name="slovenia-passport-number"></a>Номер паспорта для Словения
@@ -14341,13 +14195,13 @@ national id
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -14412,9 +14266,8 @@ national id
 - идентификаЦижска šтевилка Давка
 - šтевилка давčне датотеке
 - Налоговый файл нет
-- номер налогового файла
+- tax file number
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -14595,8 +14448,8 @@ national id
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -14607,9 +14460,9 @@ national id
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -14631,9 +14484,9 @@ national id
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -14684,9 +14537,8 @@ national id
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -14701,9 +14553,7 @@ national id
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -14791,7 +14641,7 @@ national id
 - ИДЕНТИДАД úнико
 - идентидадúнико #
 - страховой номер
-- Национальный идентификационный номер
+- national identification number
 - Национальная идентификация
 - натионалид #
 - натионалидно #
@@ -14848,13 +14698,13 @@ national id
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
 - службу #
-- службу #
+- службу #
 - пасспортид
 - паспорты
 - пасспортно
 - паспорт нет
 - пасспортнумбер
-- номер паспорта
+- passport number
 - пасспортнумберс
 - номера паспортов
 
@@ -15004,9 +14854,8 @@ national id
 - спанишЦифно #
 - спанишЦифно
 - Налоговый файл нет
-- номер налогового файла
+- tax file number
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -15150,8 +14999,8 @@ national id
 - дриверлиценцес
 - драйвер Лик
 - драйвер ликс
-- Лицензия на драйвер
-- лицензии на драйверы
+- driver license
+- driver licenses
 - Лицензия на драйвер
 - лицензии на драйверы
 - дриверслик
@@ -15162,9 +15011,9 @@ national id
 - дриверслиценсес
 - драйверы Лик
 - драйверы ликс
-- Лицензия на драйверы
-- лицензии на драйверы
-- Лицензия на драйверы
+- drivers license
+- drivers licenses
+- drivers licence
 - лицензии на драйверы
 - Driver ' LIC
 - Driver ' LICS
@@ -15186,9 +15035,9 @@ national id
 - дривер'слиценцес
 - Лик драйвера
 - ликс драйвера
-- Лицензия на драйвер
-- лицензии на драйвер
-- Лицензия на драйвер
+- driver's license
+- driver's licenses
+- driver's licence
 - лицензии на драйвер
 - DL #
 - библиотек #
@@ -15239,9 +15088,8 @@ national id
 - лицензии на драйвер #
 - Лицензия на драйвер #
 - лицензии на драйвер #
-- driving licence
- 
-- Управление лицензией
+- driving licence 
+- driving license
 - длно #
 - дрив Лик
 - дрив лицен
@@ -15256,9 +15104,7 @@ national id
 - движущие лицен
 - Управление лицензиями
 - driving licence
-
 - driving licences
-
 - движущие разрешение
 - DL нет
 - длно
@@ -15331,7 +15177,6 @@ national id
 - кодов #
 - Идентификация нет
 - identification number
-
 - идентификатионснумрет #
 - идентификатионснумрет
 - идентитетшандлинг
@@ -15541,7 +15386,6 @@ national id
 - Tin свериже
 - Налоговый файл
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -15598,7 +15442,6 @@ national id
 #### <a name="keyword_swift"></a>Keyword_swift
 
 - international organization for standardization 9362
-
 - iso 9362
 - iso9362
 - SWIFT #
@@ -15606,34 +15449,21 @@ national id
 - свифтнумбер
 - свифтраутингнумбер
 - swift code
-
 - swift number #
-
 - swift routing number
-
 - bic number
-
 - bic code
-
 - bic#
 - БИК #
 - bank identifier code
-
 - Organisation internationale de normalisation 9362
-
 - rapide #
-
 - code SWIFT
-
 - le numéro de swift
-
 - swift numéro d'acheminement
-
 - le numéro BIC
-
-- # <a name="bic"></a>БИК
+- # <a name="bic"></a>БИК
 - code identificateur de banque
-
 - свифтコード
 - свифт番号
 - бик番号
@@ -15705,7 +15535,7 @@ national id
 - pid
 - страховой номер
 - персоналидно #
-- номер социального страхования
+- social security number
 - личный идентификационный номер
 - персональный идентификационный номер
 - инсуранцено #
@@ -15717,8 +15547,7 @@ national id
 - еинзигартиже идентитäт ничт
 - созиалверсичерунгснуммер
 - Идентификация персоннелле ID
-- 
-numéro de sécurité sociale
+- numéro de sécurité sociale
 
    
 ## <a name="taiwan-national-identification-number"></a>Национальный идентификационный номер для Тайваня
@@ -16195,26 +16024,19 @@ OR
 #### <a name="keyword_uk_nino"></a>Keyword_uk_nino
 
 - national insurance number
-
 - national insurance contributions
-
 - protection act
 - страхования
-- номер социального страхования
+- social security number
 - insurance application
-
 - medical application
-
 - social insurance
-
 - medical attention
-
-- социальное обеспечение безопасности
+- social security
 - great britain
-
 - Номер NI
 - NI но.
-- NI #
+- NI #
 - NI #
 - страхования #
 - инсуранценумбер
@@ -16266,7 +16088,6 @@ OR
 - Налоговый номер
 - Налоговый файл
 - tax id
-
 - Налоговый идентификатор
 - идентификационный номер налога
 - налог без #
@@ -16286,11 +16107,11 @@ OR
 
 ### <a name="format"></a>Format
 
-8-17 цифр
+6-17 цифр
 
 ### <a name="pattern"></a>Шаблон
 
-8–17 последовательных цифр
+6-17 последовательных цифр
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -16527,41 +16348,33 @@ OR
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция Func_formatted_itin находит содержимое, которое соответствует шаблону.
-- Верно по меньшей мере одно из условий ниже:
-    - найдено ключевое слово из Keyword_itin;
-    - функция Func_us_address находит адрес в правильном формате;
-    - функция Func_us_date находит дату в правильном формате.
-    - найдено ключевое слово из Keyword_itin_collaborative.
+- найдено ключевое слово из Keyword_itin;
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция Func_unformatted_itin находит содержимое, которое соответствует шаблону.
-- Верно по меньшей мере одно из условий ниже:
-    - найдено ключевое слово из Keyword_itin_collaborative;
-    - функция Func_us_address находит адрес в правильном формате;
-    - функция Func_us_date находит дату в правильном формате.
+- найдено ключевое слово из Keyword_itin;
+
+Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
+- Функция Func_formatted_itin или Func_unformatted_itin находит содержимое, которое соответствует шаблону.
 
 ```xml
-<!-- U.S. Individual Taxpayer Identification Number (ITIN) -->
-<Entity id="e55e2a32-f92d-4985-a35d-a0b269eb687b" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="85">
+    <!-- U.S. Individual Taxpayer Identification Number (ITIN) -->
+    <Entity id="e55e2a32-f92d-4985-a35d-a0b269eb687b" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_formatted_itin" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_itin" />
-          <Match idRef="Func_us_address" />
-          <Match idRef="Func_us_date" />
-          <Match idRef="Keyword_itin_collaborative" />
-        </Any>
-    </Pattern>
-    <Pattern confidenceLevel="75">
+        <Match idRef="Keyword_itin" />
+      </Pattern>
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_unformatted_itin" />
         <Match idRef="Keyword_itin" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_itin_collaborative" />
-          <Match idRef="Func_us_address" />
-          <Match idRef="Func_us_date" />
-        </Any>
-    </Pattern>
-</Entity>
+      </Pattern>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_formatted_itin" />
+      </Pattern>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Func_unformatted_itin" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
@@ -16572,6 +16385,7 @@ OR
 - tax id 
 - tax identification 
 - SharePointв 
+- и.т.и.н.
 - SSN 
 - ИНН 
 - social security 
@@ -16580,14 +16394,6 @@ OR
 - такси 
 - individual taxpayer 
 
-#### <a name="keyword_itin_collaborative"></a>Keyword_itin_collaborative
-
-- Лицензия 
-- DL 
-- доб 
-- Birthdate 
-- Birthday 
-- Date of Birth 
 
 ## <a name="us-social-security-number-ssn"></a>Номер социального страхования (SSN) США
 
@@ -16763,7 +16569,7 @@ OR
 #### <a name="keyword_ukraine_passport_domestic"></a>Keyword_ukraine_passport_domestic
 
 - паспорт "Украина"
-- номер паспорта
+- passport number
 - паспорт нет
 - паспорт України
 - номер паспорта
@@ -16813,7 +16619,7 @@ OR
 #### <a name="keyword_ukraine_passport_international"></a>Keyword_ukraine_passport_international
 
 - паспорт "Украина"
-- номер паспорта
+- passport number
 - паспорт нет
 - паспорт України
 - номер паспорта

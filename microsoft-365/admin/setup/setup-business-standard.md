@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sirkkuw
 author: sirkkuw
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Узнайте, как настроить подписку на Microsoft 365 бизнес стандарт.
-ms.openlocfilehash: cfc198c749cfcaa76bc3fa6323e1dba8a46e7388
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: e69a3c75d77a8b4721558e72526a068df643f284
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324450"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644559"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Настройка Microsoft бизнес стандарт
 
@@ -40,7 +40,7 @@ ms.locfileid: "47324450"
 
 Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
- *Эти инструкции предназначены для коммерческих и [некоммерческих](https://go.microsoft.com/fwlink/p/?LinkId=627221) организаций, использующих **[план подписки Microsoft 365 бизнес стандарт.](https://go.microsoft.com/fwlink/p/?LinkId=627220)***
+ * Эти инструкции предназначены для коммерческих и [некоммерческих](https://go.microsoft.com/fwlink/p/?LinkId=627221) организаций, использующих **[план подписки Microsoft 365 бизнес стандарт.](https://go.microsoft.com/fwlink/p/?LinkId=627220)**
 
 Посмотрите короткое видео о настройке Microsoft 365 бизнес стандарт (прежнее название — Office 365 бизнес премиум).<br><br>
 
@@ -56,7 +56,7 @@ ms.locfileid: "47324450"
 
 1. Войдите в [Центр администрирования Microsoft 365](https://admin.microsoft.com) с учетными данными глобального администратора. 
 
-2. Выберите **Перейти к установке**, чтобы запустить мастер установки.
+2. Выберите *Перейти к установке**, чтобы запустить мастер установки.
 
 3. Со страницы **Установка приложений Office** можно также, если необходимо, установить приложения на своем компьютере.
     

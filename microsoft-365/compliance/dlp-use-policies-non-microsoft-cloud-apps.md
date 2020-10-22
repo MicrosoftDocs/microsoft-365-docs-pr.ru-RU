@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как использовать политики защиты от потери данных для облачных приложений не Майкрософт.
-ms.openlocfilehash: dd5a7a4bc0725d0785daec6b7635047cd91f20a2
-ms.sourcegitcommit: 39af527404cb06e05c5aa4550dbec39aec133016
+ms.openlocfilehash: 0b588bf27738a0f9a8078999311294f74e5193c0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48422761"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649660"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Использование политик защиты от потери данных для облачных приложений не от Майкрософт (Предварительная версия)
 
@@ -45,7 +45,7 @@ ms.locfileid: "48422761"
 
 ### <a name="prepare-your-cloud-app-security-environment"></a>Подготовка среды Cloud App Security
 
-Политики защиты от потери данных в облачных приложениях, отличных от Майкрософт, используют возможности Cloud App Security DLP. Чтобы использовать ее, необходимо подготовить среду Cloud App Security. Инструкции: [Set иснтант Visibility, Protection и Action управления для ваших приложений](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps).
+Политики защиты от потери данных в облачных приложениях, отличных от Майкрософт, используют возможности Cloud App Security DLP. Чтобы использовать ее, необходимо подготовить среду Cloud App Security. Инструкции: [Set Мгновенная видимость, защита и действия по управлению для ваших приложений](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps).
 
 ### <a name="connect-a-non-microsoft-cloud-app"></a>Подключение облачного приложения, не относящегося к корпорации Майкрософт
 

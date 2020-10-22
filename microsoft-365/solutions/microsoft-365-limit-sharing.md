@@ -18,12 +18,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Узнайте о возможностях ограничения и отключения общего доступа в Microsoft 365.
-ms.openlocfilehash: 7397078b6f347858e4ca91a0deeb9a1cf2fb6911
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: 7ed9cc499e16de835c6ba96eb19bcc28a144b68b
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361909"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651422"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Ограничение общего доступа в Microsoft 365
 
@@ -64,7 +64,7 @@ ms.locfileid: "48361909"
 Чтобы запретить гостевой доступ в группах Microsoft 365, отключите параметры гостевого доступа в группах в Центре администрирования Microsoft 365.
 
 Отключение общего доступа для гостей в группах Microsoft 365
-1. В Центре администрирования Microsoft 365 щелкните **Параметры** и выберите пункт **Параметры**.
+1. В Центре администрирования Microsoft 365 щелкните **Параметры** и выберите пункт **Параметры организации**.
 2. На вкладке **Службы** выберите пункт **Группы Microsoft 365**.
 3. Снимите флажки **Разрешить участникам группы, не входящим в организацию, доступ к содержимому группы** и **Разрешить владельцам групп добавлять в свои группы людей, не входящих в организацию**.
 4. Нажмите кнопку **Сохранить изменения**.

@@ -238,6 +238,8 @@
           href: create-test-tune-dlp-policy.md
         - name: Использование уведомлений и подсказок политики в политиках DLP
           href: use-notifications-and-policy-tips.md
+        - name: Настройка и просмотр оповещений для политик DLP (предварительная версия)
+          href: dlp-configure-view-alerts-policies.md
         - name: Что входит в шаблоны политик DLP
           href: what-the-dlp-policy-templates-include.md
         - name: Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
