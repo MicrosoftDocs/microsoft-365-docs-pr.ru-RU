@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Узнайте, как восстановить удаленную группу Microsoft 365.
-ms.openlocfilehash: 8fb2cb3afdf390efae7854a040bb56df731cceaf
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 30e267a149bc18c2425d4ea38423b887116794c6
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307191"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681650"
 ---
 # <a name="restore-a-deleted-group"></a>Восстановление удаленной группы
 
@@ -35,6 +35,9 @@ ms.locfileid: "47307191"
 > Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
+
+> [!NOTE]
+> В этой статье описывается восстановление только групп Microsoft 365. После удаления все другие группы не могут быть восстановлены.
 
 Если вы удалили группу, по умолчанию она будет храниться в течение 30 дней. Этот 30-дневный период считается "обратимым удалением", так как вы по-прежнему можете восстановить группу. По истечении 30 дней группа и связанное с ней содержимое безвозвратно удаляются и не могут быть восстановлены.
 
