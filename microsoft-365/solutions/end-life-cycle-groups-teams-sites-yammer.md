@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Завершение параметров жизненного цикла для групп, Teams и Yammer.
-ms.openlocfilehash: 3720f63f99711a09d02675f10a7d639fe1bedc65
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 31383287f3288cbab68d6e249f98210dec62af2f
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377179"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681714"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Завершение параметров жизненного цикла для групп, Teams и Yammer
 
@@ -225,7 +225,7 @@ ms.locfileid: "48377179"
 **Перемещение файлов**
 
 Кроме того, файлы можно переместить в другое расположение в SharePoint, например в библиотеку на другом сайте.
-Ссылкой https://support.office.com/en-us/article/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc
+Ссылкой https://support.office.com/article/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc
 
 **Экспорт списка** Данные, хранящиеся в списках SharePoint, можно [экспортировать в электронную таблицу Excel](https://support.office.com/article/bfb2ea48-6118-4fa9-abb6-cced9424e5d9), а затем снова импортировать в список на другом сайте.
 
