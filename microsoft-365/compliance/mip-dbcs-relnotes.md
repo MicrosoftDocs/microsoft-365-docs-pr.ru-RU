@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Заметки к выпуску для поддержки наборов двухбайтовых символов.
-ms.openlocfilehash: 13bac873f2ba18bc166451ea73ec0d569fb30f68
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1c2244c49a92aa2c00fad06caa8194cf7e32220e
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695275"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681505"
 ---
 # <a name="support-for-double-byte-character-set-release-notes-preview"></a>Поддержка для заметок к выпуску набора двухбайтовых символов (предварительная версия)
 
@@ -29,15 +29,6 @@ ms.locfileid: "46695275"
 - Китайский (традиционное письмо)
 - Корейский
 - Японский
-
-Эта предварительная версия доступна только в коммерческом облаке, а развертывание ограничено следующими странами:
-
-- Япония
-- Республика Корея
-- Китай
-- Гонконг
-- Макао
-- Тайвань
 
 Эта поддержка доступна для типов конфиденциальной информации и словарей ключевых слов, и она будет отражаться в виде защиты от потери данных, обеспечения соответствия требованиям, Exchange Online, SharePoint Online, OneDrive для бизнеса и решений Teams.
 

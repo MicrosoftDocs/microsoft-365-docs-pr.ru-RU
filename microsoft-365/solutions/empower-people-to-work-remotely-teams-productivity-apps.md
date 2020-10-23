@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: 879df16b379a82fcdc9478f8b3a787dd74384171
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 57e862769533b8c076513874e7f6daafdbe836da
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445834"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681412"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 
@@ -39,9 +39,9 @@ ms.locfileid: "48445834"
 
 Приложение Teams позволяет общаться в чате, проводить собрания, звонить и совместно работать в одном месте. Миллионы людей ежедневно выполняют задачи в Teams, так как в этом центре командной работы объединено все необходимое для удаленной работы. 
 
-Используйте [эту статью](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams) в качестве руководства по поддержке удаленных сотрудников с помощью Teams. 
+Подробные инструкции см. в разделе [Поддержка удаленных сотрудников с помощью Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams). 
 
-Посмотрите [видео "Часть 1"](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity) в качестве руководства и демонстрации использования Teams для удаленной работы.
+Инструкции и демонстрации по использованию Teams для удаленной работы см. в [веб-трансляциях по поддержке гибридной работы с помощью Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
 
 ### <a name="chat-and-conversations"></a>Чаты и беседы
 
@@ -84,12 +84,12 @@ Teams предоставляет платформу для приложений 
 
 Приложения Microsoft 365 — это наиболее эффективный и безопасный интерфейс Office для предприятий, позволяющий пользователям легко взаимодействовать откуда угодно и в любое время. Удаленные сотрудники могут совместно работать над документом одновременно с несколькими людьми: просматривать изменения и вносить их в реальном времени, а также совместно редактировать документы на любом ноутбуке, компьютере или мобильном устройстве.
 
-Ознакомьтесь с [этой статьей](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps), чтобы спланировать и развернуть Приложения Microsoft 365 в корпоративной среде, а также управлять ими.
+Дополнительные сведения см. в [руководстве по развертыванию для Приложений Microsoft 365](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps).
 
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>Технические ресурсы администраторов для приложений и служб повышения производительности
 
 - [Поддержка удаленных сотрудников с помощью Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
-- Видео [Часть 1: Teams для удаленных сотрудников](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity)
+- [Веб-трансляции по поддержке гибридной работы с помощью Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)
 - [Скачивание комплекта для эффективной работы в Teams](https://www.microsoft.com/download/details.aspx?id=54244)
 - [Инструменты для внедрения Teams](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
 - [Создание стратегии управления изменениями для Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)
