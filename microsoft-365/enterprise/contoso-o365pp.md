@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Здесь объясняется, как в компании Contoso используют Microsoft Endpoint Configuration Manager для развертывания приложений Microsoft 365 для предприятий.
-ms.openlocfilehash: 63993a27f23843fd2d75ef9bf08ae064ec46dc77
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2c02c28ddba7c24592ce09d87bf6f5c9df700a2a
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637167"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754356"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Развертывание приложений Microsoft 365 для предприятий в компании Contoso
 
@@ -40,7 +39,7 @@ ms.locfileid: "48637167"
 - Интеллектуальное развертывание языкового пакета, в том числе автоматический развертывание того же языка, что и операционная система.
 - Полностью поддерживаемый и простой в использовании способ удаления существующих версий Office из клиента во время развертывания.
 
-В дополнение к диспетчеру конфигураций компания Contoso использовала [набор средств готовности для надстройки Office и VBA](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps), бесплатный инструмент Майкрософт, чтобы оценить проблемы совместимости с макросами и надстройками Office.
+В дополнение к диспетчеру конфигураций компания Contoso использовала [набор средств готовности для надстроек Office и VBA](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps)— бесплатный инструмент Майкрософт для оценки проблем совместимости с макросами и надстройками Office.
 
 ## <a name="managing-deployment-and-updates"></a>Управление развертыванием и обновлениями
 
@@ -77,11 +76,11 @@ ms.locfileid: "48637167"
 
 ![Инфраструктура развертывания Contoso для приложений Microsoft 365 для предприятий](../media/contoso-o365pp/contoso-o365pp-fig1.png)
  
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
-[Узнайте](contoso-mdm.md) , как компания Contoso использует Microsoft Intune в Microsoft 365 для управления устройствами и приложениями, которые они работают в Организации.
+Узнайте, как компания Contoso [использует Microsoft Intune](contoso-mdm.md) в Microsoft 365 для управления устройствами и приложениями, которые они работают в Организации.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные ресурсы:
 
 [Приложения Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 

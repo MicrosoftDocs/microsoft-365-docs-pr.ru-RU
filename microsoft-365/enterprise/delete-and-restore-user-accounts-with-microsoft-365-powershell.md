@@ -19,40 +19,42 @@ ms.custom:
 - O365ITProTrain
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
-description: В этой статье рассказывается, как использовать различные модули в PowerShell для удаления учетных записей пользователей Microsoft 365.
-ms.openlocfilehash: 0c13b57c13fb3d01d648438a5d6973fea8b9db67
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+description: Узнайте, как использовать различные модули в PowerShell для удаления учетных записей пользователей Microsoft 365.
+ms.openlocfilehash: 39bf57fe7e7aad1bdc9915e503107ad799515030
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235446"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754544"
 ---
 # <a name="delete-microsoft-365-user-accounts-with-powershell"></a>Удаление учетных записей пользователей Microsoft 365 с помощью PowerShell
 
-Для удаления и восстановления учетной записи пользователя можно использовать PowerShell для Microsoft 365.
+Для удаления и восстановления учетных записей пользователей можно использовать PowerShell для Microsoft 365.
 
 >[!Note]
->[Узнайте, как восстановить учетную запись пользователя](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user) с помощью центра администрирования Microsoft 365. Список дополнительных ресурсов приведен в разделе [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
+>Узнайте, как [восстановить учетную запись пользователя](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user) с помощью центра администрирования Microsoft 365.
+>
+>Список дополнительных ресурсов приведен в разделе [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
 >   
    
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
 Сначала [подключитесь к клиенту Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
-После подключения используйте следующий синтаксис, чтобы удалить учетную запись пользователя:
+После подключения используйте следующий синтаксис для удаления отдельной учетной записи пользователя:
   
 ```powershell
 Remove-AzureADUser -ObjectID <sign-in name>
 ```
 
-В этом примере удаляется учетная запись пользователя fabricec@litwareinc.com.
+В этом примере удаляется учетная запись пользователя *фабрицек \@ litwareinc.com*.
   
 ```powershell
 Remove-AzureADUser -ObjectID fabricec@litwareinc.com
 ```
 
 > [!NOTE]
-> Параметр **– ObjectID** в командлете **Remove – AzureADUser** принимает либо имя входа учетной записи, также называемое именем участника пользователя, либо идентификатор объекта учетной записи.
+> Параметр *– ObjectID* в командлете **Remove – AzureADUser** принимает либо имя входа учетной записи, также называемое именем участника пользователя, либо идентификатор объекта учетной записи.
   
 Чтобы отобразить имя учетной записи на основе имени пользователя, используйте следующие команды:
   
@@ -61,7 +63,7 @@ $userName="<User name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-В этом примере отображается имя учетной записи пользователя Caleb Sills.
+В этом примере отображается имя учетной записи пользователя *Caleb Sills*.
   
 ```powershell
 $userName="Caleb Sills"
@@ -77,7 +79,7 @@ Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userN
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-Учетную запись пользователя, удаленную с помощью модуля Microsoft Azure Active Directory для Windows PowerShell, можно восстановить в течение 30 дней.
+При удалении учетной записи пользователя с помощью модуля Microsoft Azure Active Directory для Windows PowerShell эта учетная запись не удаляется окончательно. Вы можете восстановить удаленную учетную запись пользователя в течение 30 дней.
 
 Сначала [подключитесь к клиенту Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
@@ -88,10 +90,10 @@ Remove-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 >[!Note]
->В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты с компонентом **Msol** в имени. Чтобы использовать эти командлеты, необходимо запустить их из Windows PowerShell.
+>Среда PowerShell Core не поддерживает модуль Microsoft Azure Active Directory для модуля Windows PowerShell и командлеты с *MSOL* в имени. Выполните эти командлеты в Windows PowerShell.
 >
 
-В этом примере удаляется учетная запись пользователя BelindaN@litwareinc.com.
+В этом примере удаляется учетная запись пользователя *BelindaN@litwareinc.com*.
   
 ```powershell
 Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
@@ -103,21 +105,20 @@ Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
 Restore-MsolUser -UserPrincipalName <sign-in name>
 ```
 
-В этом примере восстанавливается удаленная учетная запись BelindaN@litwareinc.com.
+В этом примере показано, как восстановить удаленную учетную запись *белиндан \@ litwareinc.com*.
   
 ```powershell
 Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 ```
 
- **Примечания.**
-  
-- Чтобы просмотреть список удаленных пользователей, которых можно восстановить, выполните следующую команду:
-    
-  ```powershell
-  Get-MsolUser -All -ReturnDeletedUsers
-  ```
-
-- Если исходное имя участника-пользователя используется другой учетной записью, замените _NewUserPrincipalName_ параметром _UserPrincipalName_, чтобы указать другое имя участника-пользователя при восстановлении учетной записи.
+>[!Note]
+> Чтобы просмотреть список удаленных пользователей, которых можно восстановить, выполните следующую команду:
+>    
+> ```powershell
+> Get-MsolUser -All -ReturnDeletedUsers
+> ```
+>
+> Если исходное имя участника-пользователя используется другой учетной записью, замените _NewUserPrincipalName_ параметром _UserPrincipalName_, чтобы указать другое имя участника-пользователя при восстановлении учетной записи.
 
 
 ## <a name="see-also"></a>См. также

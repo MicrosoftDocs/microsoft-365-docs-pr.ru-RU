@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,16 +14,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Статья о корпорации Contoso как о деловой организации и о многоуровневой структуре ее офисов по всему миру.
-ms.openlocfilehash: 402c8c1cbb1484d8a0ad2ce4159b90107856167d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b0c00ed5657d914851f28278a2f4cf80660b53b0
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637083"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754272"
 ---
 # <a name="overview-of-contoso-corporation"></a>Обзор корпорации Contoso
-
-![Корпорация Contoso](../media/contoso-overview/contoso-icon.png)
 
 Корпорация Contoso является многонациональной организацией с центральным офисом в Париж. Компания является организацией для производства, продажи и поддержки, включающей более 100 000 продуктов.
 
@@ -38,7 +35,7 @@ ms.locfileid: "48637083"
  
 В компании Contoso есть три уровня офисов:
 
-- Главный офис
+- Headquarters
 
   Contoso headquarters — корпоративный кампус на аутскиртс с десятками зданий для административных, инженерных и производственных производственных мощностей. Все центры обработки данных Contoso и сведения о присутствии в Интернете размещаются в головном офисе Париж.
 
@@ -74,9 +71,9 @@ ms.locfileid: "48637083"
 
 ## <a name="next-step"></a>Следующий шаг
 
-[Узнайте](contoso-infra-needs.md) о локальной ИТ-инфраструктуре корпорации Contoso и о том, как бизнес-потребности компании решаются с помощью Microsoft 365 для предприятий.
+Узнайте о [локальной ИТ-инфраструктуре](contoso-infra-needs.md) корпорации Contoso и о том, как бизнес-потребности компании решаются с помощью Microsoft 365 для предприятий.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные ресурсы:
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 

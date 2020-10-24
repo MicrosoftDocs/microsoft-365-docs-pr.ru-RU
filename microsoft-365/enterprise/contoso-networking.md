@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте о инфраструктуре сети Contoso и о том, как компания использует технологию SD – WAN для оптимальной производительности сети для Microsoft 365 для корпоративных облачных служб.
-ms.openlocfilehash: ca673e6dcbf0f3db4bde33d388598e5f4ffac914
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d5f3581b81d33bdc200321692b82d57a96d09298
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637191"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754018"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Сеть корпорации Contoso
 
@@ -115,11 +114,11 @@ ms.locfileid: "48637191"
 
    Отдельные компьютеры были проверены, чтобы убедиться, что установлены последние обновления операционной системы, и что мониторинг безопасности конечной точки был активен на всех клиентах.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
-[Узнайте,](contoso-identity.md) как специалисты компании Contoso используют локальные доменные службы Active Directory (AD DS) в облаке для сотрудников и федерацию проверки подлинности для клиентов и партнеров по бизнесу.
+Узнайте, как Contoso применяет [локальные доменные службы Active Directory в облаке](contoso-identity.md) для сотрудников и Федерацию проверки подлинности для клиентов и бизнес-партнеров.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные ресурсы:
 
 [Сетевая схема для Microsoft 365](networking-roadmap-microsoft-365.md)
 

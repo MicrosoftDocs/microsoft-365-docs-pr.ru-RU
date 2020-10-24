@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создавайте и автоматически публикуйте метки хранения для их автоматического применения в приложениях для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: 9ab456cd5b1f5f1bf47a1e24a3d7e58b7992ede0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: cb8b6840085a1a044c0bcb7bf8b09c5776a31e0e
+ms.sourcegitcommit: 31f25790b37dfb740530017ef1701db0c5134829
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196382"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48740273"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Автоматическое применение метки хранения для сохранения или удаления контента
 
@@ -213,7 +213,19 @@ ProgID:Media AND ProgID:Meeting
 Когда метки хранения применяются автоматически, может потребоваться до семи дней, чтобы метки хранения были применены ко всему существующему контенту, соответствующему условиям.
   
 ![Схема, иллюстрирующая, когда автоматически применяемые метки вступают в силу](../media/b8c00657-477a-4ade-b914-e643ef97a10d.png)
-  
+
+Если после семи дней ожидаемые метки не появляются, проверьте **Состояние** политики автоматического применения, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)**, а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
+
+1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+
+2. Выполните следующую команду:
+    
+    ``` PowerShell
+    Set-RetentionCompliancePolicy -Identity <policy name> -RetryDistribution
+   ```
+
+
+
 ## <a name="updating-retention-labels-and-their-policies"></a>Обновление меток хранения и их политик
 
 При изменении меток хранения или политики авто-применения, когда метка хранения уже применена к контенту, ваши обновленные параметры автоматически применяются к этому контенту, в дополнение к уже определенному.

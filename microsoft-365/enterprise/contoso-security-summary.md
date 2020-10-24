@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Как в компании Contoso используются функции безопасности Microsoft 365 для предприятий.
-ms.openlocfilehash: 635336b70318acdd4ed013a2705691d160926e84
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d84b1423497a6a4358142902c4e159cc54b3500b
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649705"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754236"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Сводка Microsoft 365 для корпоративной безопасности в корпорации Contoso
 
@@ -40,7 +40,7 @@ ms.locfileid: "48649705"
 
 1. Ограничения учетных записей администраторов для облака
 
-   Компания Contoso проводила обширную проверку существующих учетных записей администраторов доменных служб Active Directory (AD DS) и настройку серии выделенных учетных записей и групп для облачного администратора.
+   В компании Contoso был расширен обзор существующих учетных записей администраторов доменных служб Active Directory (AD DS) и настройка серии выделенных учетных записей и групп для облачного администратора.
 
 2. Классификация данных на трех уровнях безопасности
 

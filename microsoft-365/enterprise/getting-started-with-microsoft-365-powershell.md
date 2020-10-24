@@ -1,5 +1,5 @@
 ---
-title: Приступая к работе с PowerShell для Microsoft 365
+title: Начало работы с PowerShell для Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,19 +16,19 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 4712d6fd-d9c7-4ec2-88c1-3ad9201cbb7f
-description: Сводка. сведения о значении PowerShell для Microsoft 365, о подключении к клиенту Microsoft 365 и получение справки.
-ms.openlocfilehash: 3a57e5188dd4161442ee722a14c2546ef28ccb01
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: Сводка. сведения о значении PowerShell для Microsoft 365, о том, как подключиться к клиенту Microsoft 365 и где получить помощь.
+ms.openlocfilehash: 850d3eea1aa23937bf30795784405119ef6c167c
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429978"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754460"
 ---
-# <a name="get-started-with-powershell-for-microsoft-365"></a>Приступая к работе с PowerShell для Microsoft 365
+# <a name="get-started-with-powershell-for-microsoft-365"></a>Начало работы с PowerShell для Microsoft 365
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете использовать команды и сценарии в PowerShell для Microsoft 365 для управления Microsoft 365 и оптимизации ежедневной работы. Узнайте, почему PowerShell для Microsoft 365 очень важно для управления Microsoft 365, для подключения к вашей подписке Microsoft 365 и создания отчетов, а также для получения дополнительных сведений и помощи в сообществе Майкрософт 365.
+Вы можете использовать команды и сценарии в PowerShell для Microsoft 365 для управления Microsoft 365 и оптимизации ежедневной работы. Используйте следующие сведения, чтобы узнать, почему PowerShell для Microsoft 365 очень важно для управления Microsoft 365, для подключения к вашей подписке Microsoft 365 и создания отчетов, а также для получения дополнительных сведений из сообщества Майкрософт 365.
   
 Выберите из следующих разделов:
   
@@ -54,7 +54,7 @@ ms.locfileid: "47429978"
     
 - [**Ресурсы сообщества Microsoft 365 для PowerShell**](microsoft-365-powershell-community-resources.md)
     
-    Начните отсюда, чтобы подключиться к сообществу PowerShell и получить помощь или дополнительные сведения об использовании PowerShell для Microsoft 365.
+    Начните отсюда, чтобы подключиться к сообществу PowerShell и получить дополнительные сведения об использовании PowerShell для Microsoft 365.
     
 ## <a name="related-topics"></a>Статьи по теме
 

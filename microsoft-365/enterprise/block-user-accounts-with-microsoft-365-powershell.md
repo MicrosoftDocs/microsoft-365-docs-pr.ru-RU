@@ -18,19 +18,19 @@ ms.custom:
 - PowerShell
 - seo-marvel-apr2020
 ms.assetid: 04e58c2a-400b-496a-acd4-8ec5d37236dc
-description: В этой статье объясняется, как заблокировать и разблокировать доступ к учетным записям Microsoft 365 с помощью PowerShell.
-ms.openlocfilehash: a9ade2f41fb601da00ca1c2d1905ca0cb003dcb3
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Использование PowerShell для блокировки и разблокирования доступа к учетным записям Microsoft 365.
+ms.openlocfilehash: c1a79d925965fafd796033182098e68e26a81473
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693199"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754684"
 ---
 # <a name="block-microsoft-365-user-accounts-with-powershell"></a>Блокировка учетных записей пользователей Microsoft 365 с помощью PowerShell
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Блокировка доступа к учетной записи Microsoft 365 запрещает всем пользователям использовать эту учетную запись для входа и доступа к службам и данным в организации Microsoft 365. С помощью PowerShell можно блокировать доступ к отдельным и нескольким учетным записям пользователей.
+Заблокируя доступ к учетной записи Microsoft 365, вы не сможете использовать эту учетную запись для входа и доступа к службам и данным в вашей организации Microsoft 365. С помощью PowerShell можно заблокировать доступ к отдельным или нескольким учетным записям пользователей.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
@@ -45,9 +45,9 @@ Set-AzureADUser -ObjectID <sign-in name of the user account> -AccountEnabled $fa
 ```
 
 > [!NOTE]
-> Параметр – ObjectID в командлете Set – AzureAD принимает либо имя входа учетной записи, также называемое именем участника пользователя, либо идентификатор объекта учетной записи. 
+> Параметр *– ObjectID* в командлете **Set – AzureAD** принимает либо имя входа учетной записи, также называемое именем участника пользователя, либо идентификатор объекта учетной записи.
   
-В этом примере блокируется доступ к учетной записи пользователя fabricec@litwareinc.com.
+В этом примере блокируется доступ к учетной записи пользователя *fabricec@litwareinc.com*.
   
 ```powershell
 Set-AzureADUser -ObjectID fabricec@litwareinc.com -AccountEnabled $false
@@ -67,7 +67,7 @@ Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipa
 
 ```
 
-В этом примере отображается имя участника-пользователя для учетной записи пользователя с именем Caleb Sills.
+В этом примере отображается имя участника-пользователя для учетной записи пользователя  *Caleb Sills*.
   
 ```powershell
 $userName="Caleb Sills"
@@ -82,15 +82,15 @@ Set-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userName
 
 ```
 
-В любое время вы можете проверить состояние блокировки учетной записи пользователя с помощью следующей команды:
+Чтобы проверить состояние блокировки учетной записи пользователя, выполните следующую команду:
   
 ```powershell
 Get-AzureADUser -UserPrincipalName <UPN of user account> | Select DisplayName,AccountEnabled
 ```
 
-### <a name="block-access-to-multiple-user-accounts"></a>Блокировка доступа к нескольким учетным записям пользователей
+### <a name="block-multiple-user-accounts"></a>Блокировка нескольких учетных записей пользователей
 
-Чтобы заблокировать доступ к нескольким учетным записям пользователей, создайте текстовый файл с одним именем входа учетной записи в каждой строке, как показано ниже.
+Чтобы заблокировать доступ к нескольким учетным записям пользователей, создайте текстовый файл, содержащий одно имя учетной записи в каждой строке, как показано ниже.
     
   ```powershell
 akol@contoso.com
@@ -98,7 +98,7 @@ tjohnston@contoso.com
 kakers@contoso.com
   ```
 
-В приведенных ниже командах пример текстового файла — "мой Documents\Accounts.txt". Замените путь и имя файла для текстового файла.
+В приведенных ниже командах пример текстового файла — "мой *Documents\Accounts.txt*". Замените имя этого файла на путь и имя файла текстового файла.
   
 Чтобы заблокировать доступ к учетным записям, перечисленным в текстовом файле, выполните следующую команду:
     
@@ -116,19 +116,18 @@ Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-AzureADUSer -ObjectID
 
 Сначала [подключитесь к клиенту Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
     
-### <a name="block-access-to-individual-user-accounts"></a>Блокировка доступа к отдельным учетным записям пользователей
+### <a name="block-individual-user-accounts"></a>Блокировка отдельных учетных записей пользователей
 
-Используйте следующий синтаксис, чтобы заблокировать доступ к отдельной учетной записи пользователя:
+Чтобы заблокировать доступ для отдельной учетной записи пользователя, используйте следующий синтаксис:
   
 ```powershell
 Set-MsolUser -UserPrincipalName <sign-in name of user account>  -BlockCredential $true
 ```
 
 >[!Note]
->В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты с компонентом **Msol** в имени. Чтобы использовать эти командлеты, необходимо запустить их из Windows PowerShell.
->
+>PowerShell Core не поддерживает модуль Microsoft Azure Active Directory для модулей Windows PowerShell и командлетов, в именах которых *MSOL* . Эти командлеты необходимо запускать в Windows PowerShell.
 
-В этом примере блокируется доступ к учетной записи пользователя fabricec@litwareinc.com.
+В этом примере блокируется доступ к учетной записи пользователя *фабрицек \@ litwareinc.com*.
   
 ```powershell
 Set-MsolUser -UserPrincipalName fabricec@litwareinc.com -BlockCredential $true
@@ -140,13 +139,13 @@ Set-MsolUser -UserPrincipalName fabricec@litwareinc.com -BlockCredential $true
 Set-MsolUser -UserPrincipalName <sign-in name of user account>  -BlockCredential $false
 ```
 
-В любое время вы можете проверить состояние блокировки учетной записи пользователя с помощью следующей команды:
+Чтобы проверить состояние блокировки учетной записи пользователя, выполните следующую команду:
   
 ```powershell
 Get-MsolUser -UserPrincipalName <sign-in name of user account> | Select DisplayName,BlockCredential
 ```
 
-### <a name="block-access-to-multiple-user-accounts"></a>Блокировка доступа к нескольким учетным записям пользователей
+### <a name="block-access-for-multiple-user-accounts"></a>Блокировка доступа для нескольких учетных записей пользователей
 
 Сначала создайте текстовый файл, который содержит одну учетную запись в каждой строке, как показано ниже.
     
@@ -156,7 +155,7 @@ tjohnston@contoso.com
 kakers@contoso.com
 ```
 
-В приведенных ниже командах пример текстового файла — "мой Documents\Accounts.txt". Замените путь и имя файла для текстового файла.
+В приведенных ниже командах пример текстового файла — "мой *Documents\Accounts.txt*". Замените имя этого файла на путь и имя файла текстового файла.
     
 Чтобы заблокировать доступ к учетным записям, перечисленным в текстовом файле, выполните следующую команду:
     

@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как компания Contoso использует Microsoft Intune в Microsoft 365 для управления устройствами и приложениями, которые запускаются на них.
-ms.openlocfilehash: d3f973827a9b05a415efe9225a2bdb3d83ccaf38
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 6d7783e8c2d9b78b63bf9eefe761fbc52d0b280f
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649649"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754001"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Управление мобильными устройствами для Contoso
 
@@ -69,11 +68,11 @@ Contoso не использует Intune для следующих действ�
 
 ![Инфраструктура развертывания управления мобильными устройствами contoso](../media/contoso-mdm/contoso-mdm-fig1.png)
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
-[Узнайте](contoso-info-protect.md) , как компания Contoso использует возможности защиты информации в Microsoft 365 для предприятий для классификации, идентификации и защиты важных цифровых ресурсов в Организации.
+Узнайте, как компания Contoso использует [возможности защиты информации](contoso-info-protect.md) в Microsoft 365 для предприятий для классификации, идентификации и защиты важных цифровых ресурсов в Организации.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные ресурсы:
 
 [Управление устройствами для Microsoft 365](device-management-roadmap-microsoft-365.md)
 

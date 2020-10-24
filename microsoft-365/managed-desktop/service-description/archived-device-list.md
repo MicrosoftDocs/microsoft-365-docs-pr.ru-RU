@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4bfda869972c5650a99395a5fd16c6ad7ddb4f11
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: 4b2c53ee8535c2e99acb83060a2ee04d8f5033db
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48409028"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754520"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Устройства, управляемые корпорацией Майкрософт, архивные устройства
 
@@ -38,9 +38,13 @@ ms.locfileid: "48409028"
 
 | Модель  | Минимальные спецификации  | Дополнительные требования   | Дата выбытия |
 |---------|---------|---------|---------|
-| Dell Precision 3530| 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | **22 мая 2023 г.** |
-| Dell Latitude 5490| 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | **9 января 2023 г.** |
-| Dell Latitude 7390 7390 2 — in – 1/7490 | 256 ГБ/Intel i5/8 ГБ ОЗУ   | Необходима ИК-камера | **9 января 2023 г.** |
+|Dell Precision 3530| 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | **22 мая 2023 г.** |
+|Dell Latitude 5300/5300 2-in-1/5400/5500 | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | **1 июня 2024 г.**  |
+|Dell Latitude 5490 | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | **9 января 2023 г.** |
+|Dell Latitude 7200 2 – in – 1 | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | **1 мая 2024 г.** |
+|Dell Latitude 7300/7400/7400 2-в-1 | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | **1 мая 2024 г.**  |
+|Dell Latitude 7390/7390 2-in-1/7490 | 256 ГБ/Intel i5/8 ГБ ОЗУ   | Необходима ИК-камера | **9 января 2023 г.** |
+|Dell OptiPlex 3070 | 128 ГБ/Intel i3/8 ГБ ОЗУ | Нет | **1 мая 2025 г.**  |
 |HP об 830/840/850 G5| 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев  | **15 февраля 2023 г.** |
 |HP об 830/840/850 G6| 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев  | **30 ноября 2023 г.** |
 |HP елите x2 1013 G3| 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS03AV, необходима ИК-камера |**14 мая 2023 г.** |

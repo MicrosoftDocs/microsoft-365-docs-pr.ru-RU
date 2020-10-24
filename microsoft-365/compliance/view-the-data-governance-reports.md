@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Отчеты для управления данными в Центре безопасности и соответствия требованиям позволяют быстро проверить, применяются ли метки к содержимому так, как задумано.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4d0fb70774dfb03dc0bc674edf09c092d8b498f
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: acd042f73500004014a9c229c2a5f34552888c97
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819009"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681757"
 ---
 # <a name="view-the-data-governance-reports"></a>Просмотр отчетов для управления данными
 
@@ -37,7 +37,7 @@ ms.locfileid: "44819009"
     
 Во всех этих отчетах показано содержимое из Exchange, SharePoint и OneDrive для бизнеса, к которому были применены метки.
   
-Вы найдете эти отчеты, открыв Центр безопасности и соответствия требованиям и выбрав **Управление информацией** \> **Панель мониторинга**.
+Вы найдете эти отчеты, открыв Центр безопасности и соответствия требованиям &amp;\> **Управление информацией** \> [**Панель мониторинга**](https://protection.office.com/datamanagement/dashboard).
   
 ![Диаграмма, показывающая тренды для меток за последние 90 дней](../media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
   
