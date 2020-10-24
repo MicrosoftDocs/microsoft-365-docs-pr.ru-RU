@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Узнайте, как создавать и удалять группы Microsoft 365, добавлять и удалять членов групп, а также настраивать работу группы.
-ms.openlocfilehash: f6023188df1ae796badbf05b85ebaa1afdd914e5
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 9d836e8bb3af297e972c4f252808c551b349fb67
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780449"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753293"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Создание группы в центре администрирования Microsoft 365
   
@@ -118,7 +118,7 @@ ms.locfileid: "44780449"
 
 После создания новой группы и добавления ее участников можно выполнить дальнейшую настройку группы, например изменить имя или описание группы, изменить владельцев или участников, а также указать, могут ли внешние отправители отправлять сообщения группе и как отправлять копии групповых бесед участникам. Сведения об [управлении группой Microsoft 365](manage-groups.md) .
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Управление гостевым доступом к группам Microsoft 365](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 

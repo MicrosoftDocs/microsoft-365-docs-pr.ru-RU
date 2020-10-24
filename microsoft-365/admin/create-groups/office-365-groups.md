@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о группах Microsoft 365.
-ms.openlocfilehash: 5d85204687641e74f9a705162df01cebd7eeee26
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: f3114fdd6eefae0fe226e25907716101dcb6a51f
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337173"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753269"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Обзор групп Microsoft 365 для администраторов
 
@@ -108,7 +108,7 @@ ms.locfileid: "48337173"
 
 Если у вас есть план только для Exchange, вы по-прежнему можете получить доступ к общим папкам "Входящие" и "общий календарь" для групп в Outlook, но вы не получите библиотеку документов, планировщик или какие-либо другие возможности.
 
-Группы Microsoft 365 работают с Azure Active Directory (AAD). Получаемые функции групп зависят от того, какая у вас подписка Azure Active Directory и какие лицензии назначены организатору этой группы.
+Группы Microsoft 365 работают с Azure Active Directory. Получаемые функции групп зависят от того, какая у вас подписка Azure Active Directory и какие лицензии назначены организатору этой группы.
 
 > [!IMPORTANT]
 > Для всех функций групп, если у вас есть подписка на Azure AD Premium, пользователи могут присоединиться к группе независимо от того, назначена ли им лицензия AAD P1. Лицензирование не применяется.

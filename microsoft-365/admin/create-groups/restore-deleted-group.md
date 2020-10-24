@@ -1,10 +1,10 @@
 ---
-title: Восстановление удаленной группы
+title: Восстановление удаленной группы Microsoft 365
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,24 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Узнайте, как восстановить удаленную группу Microsoft 365.
-ms.openlocfilehash: 30e267a149bc18c2425d4ea38423b887116794c6
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 091697be54b1127a5cb336179733d51519947e14
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681650"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753247"
 ---
-# <a name="restore-a-deleted-group"></a>Восстановление удаленной группы
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
-
-::: moniker-end
-
-> [!NOTE]
-> В этой статье описывается восстановление только групп Microsoft 365. После удаления все другие группы не могут быть восстановлены.
+# <a name="restore-a-deleted-microsoft-365-group"></a>Восстановление удаленной группы Microsoft 365
 
 Если вы удалили группу, по умолчанию она будет храниться в течение 30 дней. Этот 30-дневный период считается "обратимым удалением", так как вы по-прежнему можете восстановить группу. По истечении 30 дней группа и связанное с ней содержимое безвозвратно удаляются и не могут быть восстановлены.
 
@@ -59,7 +49,12 @@ ms.locfileid: "48681650"
 
 - Группа Yammer и контент группы (если группа Microsoft 365 была создана из Yammer)
 
-## <a name="restore-a-group-that-you-own-by-using-outlook-on-the-web"></a>Восстановление группы, которой владеет пользователь, с помощью Outlook в Интернете
+> [!NOTE]
+> В этой статье описывается восстановление только групп Microsoft 365. После удаления все другие группы не могут быть восстановлены.
+
+## <a name="restore-a-group"></a>Восстановление группы
+
+# <a name="outlook"></a>[Outlook](#tab/outlook)
 
 Если вы являетесь владельцем группы Microsoft 365, вы можете восстановить эту группу в Outlook в Интернете, выполнив следующие действия:
 
@@ -69,7 +64,7 @@ ms.locfileid: "48681650"
 
 Если удаленная группа не отображается здесь, обратитесь к администратору.
 
-## <a name="restore-a-group-in-the-microsoft-365-admin-center"></a>Восстановление группы в центре администрирования Microsoft 365
+# <a name="admin-center"></a>[Центр администрирования](#tab/admin-center)
 
 Если вы являетесь глобальным администратором или администратором групп, вы можете восстановить удаленную группу в центре администрирования Microsoft 365:
 
@@ -79,28 +74,9 @@ ms.locfileid: "48681650"
 
 > [!NOTE]
 > В некоторых случаях восстановление группы и всех ее данных может занять до 24 часов. 
-  
-## <a name="permanently-delete-a-microsoft-365-group"></a>Окончательное удаление группы Microsoft 365
 
-Иногда может потребоваться окончательно очистить группу, не дожидаясь периода действия 30 дней для мягкого удаления. Для этого запустите PowerShell и выполните эту команду, чтобы получить идентификатор объекта группы:
-  
-```
-Get-AzureADMSDeletedGroup
-```
+---
 
-Запишите идентификатор объекта группы или групп, которые требуется окончательно удалить.
-  
-> [!CAUTION]
-> При этом группа и все ее данные будут удалены навсегда. 
-  
-Чтобы окончательно удалить группу, в PowerShell выполните эту команду:
-  
-```
-Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
-```
-
-Чтобы проверить, удалилась ли группа, снова запустите командлет  *Get-AzureADMSDeletedGroup*  и убедитесь, что группа отсутствует в списке обратимо удаленных. В некоторых случаях процесс полного окончательного удаления группы и всех ее данных может длиться до 24 часов. 
-  
 ## <a name="got-questions-about-microsoft-365-groups"></a>У вас есть вопросы по группам Microsoft 365?
 
 Посетите [сообщество Майкрософт](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) для отправки вопросов и участия в беседах, посвященных группам Microsoft 365. 
