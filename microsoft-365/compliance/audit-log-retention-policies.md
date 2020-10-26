@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Политики хранения журналов аудита являются частью новых возможностей расширенного аудита в Microsoft 365. Политика хранения журнала аудита позволяет задавать срок хранения журналов аудита в Организации.
-ms.openlocfilehash: dba14d5a4132bc9c883c531ceeb83a2a8ff3c6cd
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: c2449ab90d04fd44909999d25b940ee4d2758b15
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398730"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753338"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Управление политиками хранения журнала аудита
 
@@ -125,6 +125,10 @@ Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending 
 > В настоящее время cmdlet **, Get-UnifiedAuditLogRetentionPolicy**, не возвращает политику по умолчанию для журнала аудита в организации.
 
 Дополнительные сведения см. в статье [Get-UnifiedAuditLogRetentionPolicy.](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy)
+
+## <a name="some-audit-log-retention-policies-not-supported-in-the-ui"></a>Некоторые политики хранения журналов аудита не поддерживаются в пользовательском интерфейсе
+
+С помощью нового командлета **New-UnifiedAuditLogRetentionPolicy** можно создать политику хранения журналов аудита для типов записей или действий, недоступных для инструмента **Создание политики хранения аудита** в Центре соответствия требованиям Microsoft 365. В этом случае вы не сможете изменять эту политику (например, изменять срок хранения, добавлять или удалять действия) на вкладке **Политики хранения аудита** в Центре соответствия требованиям. Можно будет только просмотреть или удалить эту политику в Центре соответствия требованиям. Для изменения этой политики потребуется использовать командлет **Set-UnifiedAuditLogRetentionPolicy** в PowerShell безопасности и соответствия требованиям.
 
 ## <a name="more-information"></a>Дополнительные сведения
 

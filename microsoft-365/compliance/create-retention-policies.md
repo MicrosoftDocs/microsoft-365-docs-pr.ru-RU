@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте политику хранения для обеспечения максимального контроля над содержимым, которое пользователи могут создавать в электронных письмах, документах и беседах. Сохраняйте только необходимое, избавляясь от ненужного.
-ms.openlocfilehash: 848ed959b1ed728a5a193641d7df42a477604d30
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 43bfe1b51b730dd41342f95a069645ff15a03437
+ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681787"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48755578"
 ---
 # <a name="create-and-configure-retention-policies"></a>Создание и настройка политик хранения
 
@@ -299,7 +299,7 @@ Yammer — это не только сообщения внутри сообще
 
    ![Список политик хранения в PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
-3. Чтобы разместить блокировку для сохранения в политике хранения, выполните командлет [Set-RetentionCompliancePolicy]( ) с именем политики хранения и параметром *RestrictiveRetention* с присвоенным значением true:
+3. Чтобы разместить блокировку для сохранения в политике хранения, выполните командлет [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) с именем политики хранения и параметром *RestrictiveRetention* с присвоенным значением true:
 
     ```powershell
     Set-RetentionCompliancePolicy -Identity "<Name of Policy>" –RestrictiveRetention $true
