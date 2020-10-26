@@ -17,16 +17,30 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как работает хранение в Exchange.
-ms.openlocfilehash: e12f46b68feb4b64ade14cfb046061d89e1a607c
-ms.sourcegitcommit: 916fa2dacbc13287b49823176375259d7af03f86
+ms.openlocfilehash: 4e8a536aaa81b0117f40b0ce330491fa8430f97c
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47394716"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754439"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Сведения о хранении для Exchange
 
-Сведения в этой статье дополняют [сведения о хранении](retention.md), так как в ней представлена информация, относящаяся к Exchange.
+Сведения в этой статье дополняют [сведения о хранении](retention.md), так как в ней представлена информация, относящаяся к Exchange.  Другие нагрузки:
+
+- [Хранение контента SharePoint и OneDrive](retention-policies-sharepoint.md)
+- [Хранение контента Microsoft Teams](retention-policies-teams.md)
+- [ Хранение контента Yammer](retention-policies-yammer.md)
+
+## <a name="whats-included-for-retention-and-deletion"></a>Что включается в хранение и удаление
+
+Следующие элементы Exchange невозможно хранить и удалять с помощью политик хранения и меток хранения: почтовые сообщения (в том числе черновики) с вложениями, задачи с датой окончания и заметки. 
+
+Элементы календаря с датой окончания поддерживаются политиками хранения, но не поддерживаются метками хранения.
+
+Контакты, задачи и элементы календаря, у которых нет даты окончания, не поддерживаются.
+
+Прочие элементы, хранящиеся в почтовом ящике, например, сохраненные сообщения Skype и Teams, не в политики хранения и метки хранения для Exchange. У этих элементов есть собственные политики хранения.
 
 ## <a name="how-retention-works-for-exchange"></a>Как работает хранение в Exchange
 
