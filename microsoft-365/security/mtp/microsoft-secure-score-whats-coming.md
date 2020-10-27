@@ -17,25 +17,31 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e4a9e5f1606b91e4cd41f29b37db2707f4c7df17
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 5465d1a6dc806cb4f76a34801dee2feb87146ad3
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295086"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769272"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Что поступает в оценку безопасности Майкрософт
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 Мы внесены некоторые изменения в ближайшем будущем, чтобы сделать [Microsoft Secure рейтинг](microsoft-secure-score.md) более эффективным для обеспечения безопасности и повышения удобства использования. Ваш рейтинг и максимально возможный рейтинг могут измениться.
 
 ## <a name="proposed-changes"></a>Предлагаемые изменения
 
+### <a name="november-2020"></a>Ноябрь 2020 г.
+
+Чтобы предоставить общий доступ к > ServiceNow, удалите возможность создавать билеты с помощью безопасной оценки.
+
+- Период предварительной версии для соединителя ServiceNow завершается. Эта возможность больше не будет доступна в конце 2020. Благодарим вас за отзыв и продолжение поддержки, пока мы определим дальнейшие действия.
+
 ### <a name="october-2020"></a>Октябрь 2020 г.
 
-#### <a name="remove-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Удаление действия по улучшению для Advanced Threat Protection в защитнике Майкрософт
+Удаление действия по улучшению, связанного с Advanced Threat Protection в защитнике Майкрософт:
+
 - Настройка фильтра SmartScreen защитника Майкрософт веб-контент приложения Windows Store для предупреждения
 
 ## <a name="related-resources"></a>Связанные ресурсы

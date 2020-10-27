@@ -20,58 +20,24 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 964724ad92c1ae29095b7368167b771b1632b003
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 71316d6c53862b80178d06726f7c249a2491d659
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295074"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769034"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Новые возможности оценки безопасности Майкрософт
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 Чтобы сделать Microsoft Secure рейтинг более подходящим для вашей безопасности, мы внесли некоторые изменения. Чтобы узнать о запланированных изменениях, посмотрите, [что поступает в рейтинге безопасности Майкрософт?](microsoft-secure-score-whats-coming.md).
 
 ## <a name="august-2020"></a>Август 2020 г.
 
-### <a name="update-improvement-action-for-azure-active-directory"></a>Обновление действия по улучшению для Azure Active Directory
+### <a name="updated-improvement-action-for-azure-active-directory"></a>Обновленное действие по улучшению для Azure Active Directory
 
 - Включение политики для блокирования устаревшей проверки подлинности
-
-## <a name="july-2020"></a>Июль 2020 г.
-
-### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a>Добавление действий по улучшению для службы Advanced Threat protection
-
-- Пути перемещения рискованных Латерал
-- Небезопасные атрибуты учетной записи
-- Включение функций безопасности для доверий Active Directory
-- Удаление атрибутов небезопасного журнала SID из сущностей
-
-## <a name="june-2020"></a>Июнь 2020 г.
-
-### <a name="removed-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Удалено действие по улучшению для Advanced Threat Protection в защитнике Майкрософт
-
-* Включение правил сокращения для уязвимой зоны
-
-### <a name="added-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Добавлены действия по улучшению для Advanced Threat Protection в защитнике Microsoft
-
-* Блокировка создания дочерних процессов в Adobe Reader
-* Использование расширенной защиты от атаки с помощью средства защиты от атак
-* Блокировка создания дочерних процессов для всех приложений Office
-* Блокировка создания исполняемого контента приложениями Office
-* Блокировка JavaScript или VBScript для запуска загруженного исполняемого контента
-* Блокировка выполнения потенциально запутанных сценариев
-* Блокировать исполняемый контент из почтового клиента и из почтового ящика
-* Блокировка создания дочерних процессов приложением взаимодействия с Office
-* Блокировка недоверенных и неподписанных процессов, выполняемых с USB
-* Блокировка сохраняемости через подписку на события WMI
-* Блокировка приложений Office при вставке кода в другие процессы
-* Блокировать запуск исполняемых файлов, если они не удовлетворяют условию преобладание, возраст или доверенный список.
-* Блокировка создания процессов, исходящих из команд PSExec и WMI
-* Блокировка переноса учетных данных из подсистемы локального центра безопасности Windows (lsass.exe)
-* Блокировка вызовов API Win32 из макросов Office
 
 ## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Несовместимость с оценками безопасности удостоверения и Graph API
 

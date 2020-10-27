@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Администраторы могут узнать об аналитических отчетах и отчетах, доступных в панели мониторинга "Управление почтой" в центре безопасности & соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 089c6351485712d841691d5b856b1ba28dfe4fc4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f9ac8b8b0d346d78af252a9e427d0ef2b1a4c4ea
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198485"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769022"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 
@@ -60,11 +60,11 @@ ms.locfileid: "48198485"
 
 ## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Разрешения, необходимые для просмотра панели мониторинга для почтового процесса
 
-Панель мониторинга для почтового процесса доступна участникам следующих маршрутных групп:
+Панель мониторинга для почтового процесса доступна участникам следующих групп ролей:
 
 - **Управление организацией** в центре безопасности & соответствия требованиям (глобальными администраторами).
 
-- **[Администратор Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** в Azure AD.
+- **[Администратор Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** в Azure Active Directory.
 
 - **Администратор MailFlow** в центре безопасности & соответствия требованиям: Если член этой группы ролей не является членом группы ролей "Глобальный администратор" или "Администратор Exchange", обратите внимание на следующие вопросы и требования.
 
@@ -76,6 +76,6 @@ ms.locfileid: "48198485"
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Где найти панель мониторинга для почтового процесса
 
-Откройте центр соответствия требованиям & по безопасности <https://protection.office.com> , разверните узел **почта**и выберите **панель мониторинга**.
+Откройте центр соответствия требованиям & по безопасности <https://protection.office.com> , разверните узел **почта** и выберите **панель мониторинга** .
 
 Чтобы перейти непосредственно к панели мониторинга "поток обработки почты", откройте ее <https://protection.office.com/mailflow/dashboard> .
