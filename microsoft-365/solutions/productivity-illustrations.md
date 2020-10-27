@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: ae4a8b51111c53c2245005a5d863354737335ae2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 01ee05c69a9b649ce3f0c3b93cbdb68bb7a87c69
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546193"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48774119"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Иллюстрации повышения производительности в Microsoft 365
 
@@ -64,7 +64,16 @@ ms.locfileid: "47546193"
 |**Ресурс**|**Описание**|
 |:-----|:-----|
 |[![Плакат модели: защита идентификаторов и устройств для Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Просмотр в виде PDF-файла](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Загрузка в виде PDF-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Скачать как Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Обновлено 2020 сентября|Важно, чтобы уровни защиты данных, удостоверений и устройств согласовывались между собой. Эта модель показывает, какие возможности сравнимы с дополнительными сведениями о возможностях защиты удостоверений и устройств.  <br/> |
-   
+ 
+<a name="BKMK_ediscovery"></a>
+### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Расширенная архитектура обнаружения электронных данных в Microsoft 365
+
+Расширенный сквозной поток обработки электронных данных и поток данных, в том числе в средах Microsoft 365 с поддержкой нескольких регионов. 
+
+|**Элемент**|**Описание**|
+|:-----|:-----|
+|[![Плакат модели: Расширенная архитектура обнаружения электронных данных в Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Просмотр в виде изображения](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Загрузка в виде PDF-файла](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Скачать как Visio](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Обновлено 2020 октября|Включаются <ul><li>  Сквозной рабочий процесс в одной среде</li><li>Сквозной рабочий процесс в среде с поддержкой нескольких регионов Microsoft 365 </li><li>Сквозной поток данных, поддерживающий рабочий процесс EDRM</li> |
+  
 <!--
 
 <a name="BKMK_O365fileprotect"></a>
