@@ -1,0 +1,67 @@
+---
+title: Отчеты Microsoft 365 в центре администрирования — отчет об использовании устройств в Yammer
+f1.keywords:
+- NOCSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_NonTOC
+ms.custom: AdminSurgePortfolio
+ROBOTS: NOINDEX, NOFOLLOW
+search.appverid:
+- BCS160
+- MST160
+- MET150
+- MOE150
+description: Получите отчет об использовании устройств Yammer, чтобы узнать, на каких устройствах используются пользователи Yammer.
+ms.openlocfilehash: fae76e9ef769248217140c059004efc7ad330928
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779389"
+---
+# <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a><span data-ttu-id="3f327-103">Отчеты Microsoft 365 в центре администрирования — отчет об использовании устройств в Yammer</span><span class="sxs-lookup"><span data-stu-id="3f327-103">Microsoft 365 Reports in the admin center - Yammer device usage report</span></span>
+
+<span data-ttu-id="3f327-104">На панели мониторинга **отчетов** Microsoft 365 вы увидите обзор действий по продуктам в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="3f327-104">The Microsoft 365 **Reports** dashboard shows you the activity overview across the products in your organization.</span></span> <span data-ttu-id="3f327-105">Вы можете просмотреть отчеты по отдельным продуктам, чтобы получить более подробные сведения о действиях с каждым приложением.</span><span class="sxs-lookup"><span data-stu-id="3f327-105">It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product.</span></span> <span data-ttu-id="3f327-106">Ознакомьтесь со статьей [Обзор отчетов](activity-reports.md).</span><span class="sxs-lookup"><span data-stu-id="3f327-106">Check out [the Reports overview topic](activity-reports.md).</span></span>
+  
+<span data-ttu-id="3f327-p102">Отчеты об использовании устройств в Yammer содержат сведения об устройствах, на которых используется Yammer. Вы можете просмотреть данные о суточном и общем количестве пользователей с разбивкой по типам устройств. Оба показателя можно просмотреть за выбранный период времени. Кроме того, можно получить информацию о каждом пользователе.</span><span class="sxs-lookup"><span data-stu-id="3f327-p102">The Yammer device usage reports give you information about which devices your users are using Yammer on. You can view the number of daily users by device type, and number of users by device type. You can view both over a selected time period. You can also view details per user.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="3f327-111">Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="3f327-111">You must be a global administrator, global reader or reports reader in Microsoft 365 or an Exchange, SharePoint, Teams Service, Teams Communications, or Skype for Business administrator to see reports.</span></span>  
+ 
+## <a name="how-do-i-get-to-the-yammer-device-usage-report"></a><span data-ttu-id="3f327-112">Как открыть отчет об использовании устройств в Yammer?</span><span class="sxs-lookup"><span data-stu-id="3f327-112">How do I get to the Yammer device usage report?</span></span>
+
+1. <span data-ttu-id="3f327-113">В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы.</span><span class="sxs-lookup"><span data-stu-id="3f327-113">In the admin center, go to the **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.</span></span> 
+2. <span data-ttu-id="3f327-114">На домашней странице панели мониторинга нажмите кнопку " **Дополнительные сведения** " на карточке Yammer.</span><span class="sxs-lookup"><span data-stu-id="3f327-114">From the dashboard homepage, click on the **View more** button on the Yammer card.</span></span>
+  
+## <a name="interpret-the-yammer-device-usage-report"></a><span data-ttu-id="3f327-115">Интерпретация отчета об использовании устройств в Yammer</span><span class="sxs-lookup"><span data-stu-id="3f327-115">Interpret the Yammer device usage report</span></span>
+
+<span data-ttu-id="3f327-116">Вы можете просмотреть сведения об использовании в отчете OneDrive, выбрав вкладку **Использование устройства** .</span><span class="sxs-lookup"><span data-stu-id="3f327-116">You can view the usage in the OneDrive report by choosing the **Device usage** tab.</span></span><br/><span data-ttu-id="3f327-117">![Microsoft 365 Reports — отчет об использовании устройств в Yammer Майкрософт.](../../media/e21af4c0-0ad2-4485-8ab1-2f82d7dfa90e.png)</span><span class="sxs-lookup"><span data-stu-id="3f327-117">![Microsoft 365 reports - Microsoft Yammer device usage report.](../../media/e21af4c0-0ad2-4485-8ab1-2f82d7dfa90e.png)</span></span>
+
+<span data-ttu-id="3f327-118">Выберите **команду Выбрать столбцы** , чтобы добавить столбцы в отчет или удалить их из него.</span><span class="sxs-lookup"><span data-stu-id="3f327-118">Select **Choose columns** to add or remove columns from the report.</span></span>  <br/> <span data-ttu-id="3f327-119">![Отчет об использовании устройств в Yammer — выбор столбцов](../../media/fc1fc8db-e197-4878-85c7-7ba0d67b9379.png)</span><span class="sxs-lookup"><span data-stu-id="3f327-119">![Yammer device usage report - choose columns](../../media/fc1fc8db-e197-4878-85c7-7ba0d67b9379.png)</span></span>
+
+<span data-ttu-id="3f327-120">Вы также можете экспортировать данные отчета в CSV-файл Excel, щелкнув ссылку **Экспорт** .</span><span class="sxs-lookup"><span data-stu-id="3f327-120">You can also export the report data into an Excel .csv file by selecting the **Export** link.</span></span> <span data-ttu-id="3f327-121">При этом данные всех пользователей будут экспортированы в формат, позволяющий сортировать и фильтровать их для дальнейшего анализа.</span><span class="sxs-lookup"><span data-stu-id="3f327-121">This exports data of all users and enables you to do simple sorting and filtering for further analysis.</span></span> <span data-ttu-id="3f327-122">Если у вас менее 2000 пользователей, вы можете сортировать и фильтровать значения в самой таблице отчета.</span><span class="sxs-lookup"><span data-stu-id="3f327-122">If you have less than 2000 users, you can sort and filter within the table in the report itself.</span></span> <span data-ttu-id="3f327-123">Если пользователей больше 2000, для фильтрации и сортировки потребуется экспортировать данные.</span><span class="sxs-lookup"><span data-stu-id="3f327-123">If you have more than 2000 users, in order to filter and sort, you will need to export the data.</span></span> 
+  
+|<span data-ttu-id="3f327-124">Item</span><span class="sxs-lookup"><span data-stu-id="3f327-124">Item</span></span>|<span data-ttu-id="3f327-125">Описание</span><span class="sxs-lookup"><span data-stu-id="3f327-125">Description</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="3f327-126">**Метрика**</span><span class="sxs-lookup"><span data-stu-id="3f327-126">**Metric**</span></span>|<span data-ttu-id="3f327-127">**Определение**</span><span class="sxs-lookup"><span data-stu-id="3f327-127">**Definition**</span></span>|
+|<span data-ttu-id="3f327-128">Имя пользователя</span><span class="sxs-lookup"><span data-stu-id="3f327-128">Username</span></span>  <br/> |<span data-ttu-id="3f327-129">Электронный адрес пользователя.</span><span class="sxs-lookup"><span data-stu-id="3f327-129">The email address of the user.</span></span> <span data-ttu-id="3f327-130">Здесь может отображаться фактический электронный адрес или анонимный идентификатор (при соответствующей настройке).</span><span class="sxs-lookup"><span data-stu-id="3f327-130">You can display the actual email address or make this field anonymous.</span></span> <span data-ttu-id="3f327-131">Эта сетка показывает пользователей, выполнивших вход в Yammer с помощью учетной записи Microsoft 365 или которые вошли в сеть с помощью единого входа.</span><span class="sxs-lookup"><span data-stu-id="3f327-131">This grid shows users who logged into Yammer using the Microsoft 365 account or who logged into the network using single sign-on.</span></span> <br/> |
+|<span data-ttu-id="3f327-132">Отображаемое имя</span><span class="sxs-lookup"><span data-stu-id="3f327-132">Display name</span></span>  <br/> |<span data-ttu-id="3f327-133">Полное имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="3f327-133">The full name of the user.</span></span> <span data-ttu-id="3f327-134">Здесь может отображаться фактический электронный адрес или анонимный идентификатор (при соответствующей настройке).</span><span class="sxs-lookup"><span data-stu-id="3f327-134">You can display the actual email address or make this field anonymous.</span></span>  <br/> |
+|<span data-ttu-id="3f327-135">Состояние пользователя</span><span class="sxs-lookup"><span data-stu-id="3f327-135">User state</span></span>  <br/> |<span data-ttu-id="3f327-136">Одно из трех значений: "активно", "удалено" или "приостановлено".</span><span class="sxs-lookup"><span data-stu-id="3f327-136">One of three values: Active, Deleted, or Suspended.</span></span> <span data-ttu-id="3f327-137">В отчетах содержатся данные по активным, приостановленным и удаленным пользователям.</span><span class="sxs-lookup"><span data-stu-id="3f327-137">These reports show data for active, suspended, and deleted users.</span></span> <span data-ttu-id="3f327-138">В них не отражены пользователи, ожидающие утверждения, так как они не могут публиковать, читать сообщения и добавлять пометки "Нравится".</span><span class="sxs-lookup"><span data-stu-id="3f327-138">They do not reflect pending users, because pending users cannot post, read, or like a message.</span></span>   <br/> |
+|<span data-ttu-id="3f327-139">Дата изменения состояния (UTC)</span><span class="sxs-lookup"><span data-stu-id="3f327-139">State change date (UTC)</span></span>  <br/> |<span data-ttu-id="3f327-140">Дата изменения состояния пользователя в Yammer.</span><span class="sxs-lookup"><span data-stu-id="3f327-140">The date on which the user's state was changed in Yammer.</span></span>  <br/> |
+|<span data-ttu-id="3f327-141">Дата последнего действия (UTC)</span><span class="sxs-lookup"><span data-stu-id="3f327-141">Last activity date (UTC)</span></span>  <br/> |<span data-ttu-id="3f327-142">Дата и время последнего действия пользователя в Yammer.</span><span class="sxs-lookup"><span data-stu-id="3f327-142">The last date (UTC) that the user participated in an Yammer activity.</span></span>  <br/> |
+|<span data-ttu-id="3f327-143">Web</span><span class="sxs-lookup"><span data-stu-id="3f327-143">Web</span></span>  <br/> |<span data-ttu-id="3f327-144">Указывает, использовал ли пользователь Yammer в Интернете.</span><span class="sxs-lookup"><span data-stu-id="3f327-144">Indicates if the user has used Yammer on the web.</span></span>  <br/> |
+|<span data-ttu-id="3f327-145">Windows Phone</span><span class="sxs-lookup"><span data-stu-id="3f327-145">Windows phone</span></span>  <br/> | <span data-ttu-id="3f327-146">Указывает, использовалась ли Yammer на Windows Phone.</span><span class="sxs-lookup"><span data-stu-id="3f327-146">Indicates if the user has used Yammer on a Windows phone.</span></span>  <br/> |
+|<span data-ttu-id="3f327-147">Телефон с Android</span><span class="sxs-lookup"><span data-stu-id="3f327-147">Android phone</span></span>  <br/> |<span data-ttu-id="3f327-148">Указывает, используется ли для пользователя Yammer на телефоне с Android.</span><span class="sxs-lookup"><span data-stu-id="3f327-148">Indicates if the user has used Yammer on an Android phone.</span></span> <br/>|
+|<span data-ttu-id="3f327-149">iPhone</span><span class="sxs-lookup"><span data-stu-id="3f327-149">iphone</span></span> <br/> | <span data-ttu-id="3f327-150">Указывает, использовалась ли в Yammer на iPhone пользователь Yammer.</span><span class="sxs-lookup"><span data-stu-id="3f327-150">Indicates if the user has used Yammer on an iPhone.</span></span>  <br/> |
+|<span data-ttu-id="3f327-151">iPad</span><span class="sxs-lookup"><span data-stu-id="3f327-151">ipad</span></span>  <br/> |<span data-ttu-id="3f327-152">Указывает, использовалась ли в Yammer на iPad пользователи Yammer.</span><span class="sxs-lookup"><span data-stu-id="3f327-152">Indicates if the user has used Yammer on an iPad.</span></span> <br/>|
+|<span data-ttu-id="3f327-153">остальные</span><span class="sxs-lookup"><span data-stu-id="3f327-153">other</span></span>  <br/> |<span data-ttu-id="3f327-154">Указывает, использовался ли Yammer на другом устройстве, не указанном ранее.</span><span class="sxs-lookup"><span data-stu-id="3f327-154">Indicates if the user has used Yammer on another device, not listed previously.</span></span> <br/>|
+|||
