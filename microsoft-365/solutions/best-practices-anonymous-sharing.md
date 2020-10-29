@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: В этой статье вы ознакомитесь с рекомендациями по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности.
-ms.openlocfilehash: 511e04e69dae03caafd7c7828dd24cea6e7a8832
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: 18587fc6a718955cd5a752954b614c4d6fa5ee22
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769345"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779264"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Рекомендации по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности
 
@@ -125,8 +125,6 @@ ms.locfileid: "48769345"
 12. Нажмите **Сохранить** , а затем — **Далее** .
 13. Выберите настройки тестирования и нажмите кнопку **Далее** .
 14. Нажмите **Отправить** , а затем — **Готово** .
-
-limit-accidental-exposure-dlp-anyone-links.png
 
 ## <a name="protect-against-malicious-files"></a>Защита от вредоносных файлов
 
