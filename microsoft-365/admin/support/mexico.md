@@ -13,21 +13,23 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cd7790e51ae5c110b00739f608e7dd3e1bc560b2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 08f49d491de8079c9ea3373861f22ed6c4825db3
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641067"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794993"
 ---
 # <a name="contact-support-for-mexico"></a>Обращение в службу поддержки для Мексики
 
 [Найдите другую страну или регион](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Номер телефона
-01 800 563 0605
+
+800 563 0605
 
 ## <a name="hours"></a>Часы
+
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
 Испанский: Mon-Fri 9 AM – 5 AM
@@ -36,6 +38,6 @@ ms.locfileid: "48641067"
 
 Испанский: 24 часа в сутки, 7 дней в неделю
 
-Альтернативный номер телефона: 01 55 4738 6567
+Альтернативный номер телефона: 55 4738 6567
 
 Применяются сборы по местным звонкам

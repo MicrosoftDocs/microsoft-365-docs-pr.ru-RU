@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Защита конфиденциальности с помощью оценки производительности.
-ms.openlocfilehash: 1af2553e67b4f14e9783c23d679a7ac96443512a
-ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
+ms.openlocfilehash: 62ff3a9f0434421cbe1115f13376e92bd9f3cac9
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48770051"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794981"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Управление конфиденциальностью для оценки производительности
 
@@ -55,7 +55,21 @@ ms.locfileid: "48770051"
 
 Назначьте роль читателя отчетов всем, кто отвечает за управление изменениями и принятием изменений. Эта роль дает им доступ к полному интерфейсу, включая метрики на уровне клиента и сведения о уровне пользователя.
 
-Отчет о пользователях содержит сведения об активности для каждой страницы сведений о категориях. Назначьте настраиваемую роль средство чтения сводки отчетов об использовании (доступно с начала 29 октября 2020), чтобы предоставить доступ только суммарным показателям взаимодействия людей.
+Отчет о пользователях содержит сведения об активности для каждой страницы сведений о категориях. Назначьте настраиваемую роль средство чтения сводки отчетов об использовании (доступно с начала 29 октября 2020), чтобы предоставить доступ только суммарным показателям взаимодействия людей. Эту роль необходимо назначить с помощью командлетов PowerShell, пока она не станет доступна из центра администрирования Майкрософт на 11/15/2020.
+
+Чтобы назначить роль читателя сводки отчетов об использовании с помощью PowerShell:
+
+- Выполните следующую команду PowerShell:
+
+```powershell
+Connect-AzureAD
+$role=Get-AzureADDirectoryRole -Filter "roleTemplateId eq '75934031-6c7e-415a-99d7-48dbd49e875e'"
+Get-AzureADDirectoryRoleMember -ObjectId $role.ObjectId
+$u=Get-AzureADUser -ObjectId <user upn>
+Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $u.ObjectId
+```
+
+</br>
 
 :::image type="content" source="../../media/communicationspage.jpg" alt-text="Страница &quot;связь&quot; в отчетах о производительности.":::
 
