@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Инструкции по созданию и публикации меток хранения, которые можно применять в приложениях для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: a9105b404dbeef0ff6ef247ce613f4257c3d3b2a
-ms.sourcegitcommit: 095b1f52f2e73e8d44195916984efeb0908c2ad8
+ms.openlocfilehash: e1504bf4dda8ee2e9f78f84c147bb4f3ebc22887
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48755558"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48774000"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Создание меток хранения и их применение в приложениях
 
@@ -65,15 +65,15 @@ ms.locfileid: "48755558"
     - Если управление записями не используется:
        - **Решения** > **Управление информацией** > вкладка **Метки** > + **Создать метку**
     
-    Не отображается необходимый параметр? Сначала выберите **Показать все**. 
+    Не отображается необходимый параметр? Сначала выберите **Показать все** . 
 
 2. Следуйте указаниям мастера. Если используется управление записями:
     
     - Дополнительные сведения о дескрипторах плана хранения, см. в статье [Использование плана хранения для управления метками хранения](file-plan-manager.md)
     
-    - Чтобы использовать метку хранения для объявления элементов записями, нажмите кнопку **Пометить элементы как записи**или **Пометить элементы как нормативные записи**. Дополнительные сведения см. в статье [Настройка меток хранения для объявления элементов записями](declare-records.md#configuring-retention-labels-to-declare-records)
+    - Чтобы использовать метку хранения для объявления элементов записями, нажмите кнопку **Пометить элементы как записи** или **Пометить элементы как нормативные записи** . Дополнительные сведения см. в статье [Настройка меток хранения для объявления элементов записями](declare-records.md#configuring-retention-labels-to-declare-records)
 
-3. После того как появятся параметры для публикации метки, автоматического применения метки или просто сохранения метки, выберите**Сохранить метку**, и затем нажмите **Готово**.
+3. После того как появятся параметры для публикации метки, автоматического применения метки или просто сохранения метки, выберите **Сохранить метку** , и затем нажмите **Готово** .
 
 4. Повторите эти действия для создания дополнительных меток.
 
@@ -86,18 +86,18 @@ ms.locfileid: "48755558"
 1. В [Центре соответствия требованиям Microsoft 365](https://compliance.microsoft.com/) перейдите в одно из следующих расположений:
     
     - Если используется управление записями:
-        - **Решения** > **Управление записями** > > вкладка**Политики меток** > **Опубликовать метки**
+        - **Решения** > **Управление записями** > > вкладка **Политики меток** > **Опубликовать метки**
     
     - Если управление записями не используется:
         - **Решения** > **Управление информацией** >  вкладка **Политики меток** > **Опубликовать метки**
     
-    Не отображается необходимый параметр? Сначала выберите **Показать все**. 
+    Не отображается необходимый параметр? Сначала выберите **Показать все** . 
 
 2. Следуйте указаниям мастера.
     
     Сведения о расположениях, поддерживаемых метками хранения, см. в разделе [Метки хранения и расположения](retention.md#retention-label-policies-and-locations). 
 
-Чтобы изменить существующую политику меток хранения (тип политики **Опубликовать**), выберите ее и нажмите кнопку **Изменить**, чтобы запустить изменение политики хранения. С помощью этого мастера можно изменить описание политики и любые [допустимые параметры](#updating-retention-labels-and-their-policies) из шага 2.
+Чтобы изменить существующую политику меток хранения (тип политики **Опубликовать** ), выберите ее и нажмите кнопку **Изменить** , чтобы запустить изменение политики хранения. С помощью этого мастера можно изменить описание политики и любые [допустимые параметры](#updating-retention-labels-and-their-policies) из шага 2.
 
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>Доступность меток хранения для применения
@@ -111,7 +111,7 @@ ms.locfileid: "48755558"
 ![Схема, иллюстрирующая, когда вручную применяемые метки вступают в силу](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 
-Если после семи дней метки не появляются, проверьте **Состояние** политики меток, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)**, а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
+Если после семи дней метки не появляются, проверьте **Состояние** политики меток, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)** , а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
 
 1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
@@ -222,7 +222,7 @@ For SharePoint, but not OneDrive, you can create a view of the library that cont
 
 When you publish retention labels to Microsoft 365 groups ([formerly Office 365 groups](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)), the retention labels appear in both the group site and group mailbox in Outlook on the web. The experience of applying a retention label to content is identical to that for email and documents.
 
-To retain content for a Microsoft 365 group, use the **Office 365 groups** location. Even though a Microsoft 365 group has an Exchange mailbox, a retention policy that includes the entire Exchange location won't include content in Microsoft 365 group mailboxes.
+To retain content for a Microsoft 365 group, use the **Microsoft 365 Groups** location. Even though a Microsoft 365 group has an Exchange mailbox, a retention policy that includes the entire Exchange location won't include content in Microsoft 365 group mailboxes.
 
 In addition, it's not possible to use the Exchange location to include or exclude a specific group mailbox. Although the Exchange location initially allows a group mailbox to be selected, when you try to save the retention policy, you receive an error that "RemoteGroupMailbox" is not a valid selection for the Exchange location.
   

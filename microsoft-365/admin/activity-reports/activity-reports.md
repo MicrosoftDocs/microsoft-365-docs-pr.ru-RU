@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Microsoft 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: 4356b287afa56201da7cb644a4056d4c975964e5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dee0f3e586c49c25daafe999d065e743babf020e
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637011"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779124"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Отчеты по Microsoft 365 в Центре администрирования
 
@@ -48,13 +48,13 @@ ms.locfileid: "48637011"
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования </a>откройте вкладку **отчеты** \> **использование**.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>откройте вкладку **отчеты** \> **использование** .
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования </a>откройте вкладку **отчеты** \> **использование**.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>откройте вкладку **отчеты** \> **использование** .
 
 ::: moniker-end
 
@@ -130,19 +130,37 @@ ms.locfileid: "48637011"
   
 ::: moniker range="o365-worldwide"
 
-- [Действия в Yammer](yammer-activity-report.md)
+- [Действия в Yammer](yammer-activity-report-ww.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Использование устройств в Yammer](yammer-device-usage-report.md)
+- [Действия в Yammer для государственных организаций США](yammer-activity-report.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Отчет об активности групп в Yammer](yammer-groups-activity-report.md)
+- [Использование устройств в Yammer](yammer-device-usage-report-ww.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Использование устройств в Yammer для государственных организаций США](yammer-device-usage-report.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Отчет о действиях групп в Yammer](yammer-groups-activity-report-ww.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Отчет действиях групп в Yammer для государственных организаций США](yammer-groups-activity-report.md)
 
 ::: moniker-end
 
@@ -174,7 +192,7 @@ ms.locfileid: "48637011"
 
 - Чтобы узнать количество назначенных и неназначенных лицензий, в центре администрирования перейдите на страницу **выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">лицензий</a>.
     
-- Чтобы узнать, у кого есть лицензия, не лицензия или гость, в центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">активные пользователи</a> страницы. 
+- Чтобы узнать, у кого есть лицензия, не лицензия или гость, в центре администрирования перейдите в раздел **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">активные пользователи</a> страницы. 
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>Просмотр сведений об использовании для определенного пользователя
 
@@ -186,9 +204,9 @@ ms.locfileid: "48637011"
 
 Если вы хотите скрыть информацию на уровне пользователя при создании отчетов, вы можете быстро внести это изменение в центр администрирования.
   
-1. В центре администрирования перейдите в раздел **Параметры ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Услуги&amp;</a> надстроек.
+1. В центре администрирования перейдите в раздел **Параметры** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Услуги&amp;</a> надстроек.
 
-2. Выберите **Отчеты**. 
+2. Выберите **Отчеты** . 
   
 3. В области **отчеты** выберите нужные параметры, а затем сохраните изменения.
   
