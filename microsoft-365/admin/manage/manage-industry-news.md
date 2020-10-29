@@ -15,28 +15,26 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Предоставление пользователям актуальных заголовков новостей о вашей отрасли и информации в вашей организации с помощью службы новостей, чтобы включить настраиваемый канал новостей для Организации.
-ms.openlocfilehash: 718e48c9db90ff7e598dd56c0228bb894b7a3a4d
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: c0758c3a762c39534629095345d935456cb938e9
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779182"
+ms.locfileid: "48791826"
 ---
 # <a name="manage-industry-news"></a>Управление новостями отрасли
 
 Чтобы предоставить пользователям последние новости о вашей отрасли и информации в вашей организации, используйте службу [новостей](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) , чтобы включить настраиваемый канал новостей для своей организации.Кроме того, можно управлять параметрами на странице "Домашняя страница и Microsoft Edge" (начиная с выпуска пограничного сервера 87).
 
 ## <a name="what-your-users-will-see"></a>Сведения о том, что увидят пользователи
-
-:::image type="content" source="../../media/manage-industry-news-1.png" alt-text="Сведение по Microsoft Search для отраслевых обновлений":::
  
 Пользователи, вошедших в домашнюю страницу Bing, увидят ваш канал новостей в соответствии с личными сведениями из вашей организации.
 
-:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Сведение по Microsoft Search для отраслевых обновлений":::
+:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Снимок экрана с почтовыми новостями из Интернета":::
 
 Они также могут просматривать сведения о компании, отрасли и внутренних новостях, а также сведения о работе на новой вкладке Microsoft Edge. 
 
-:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Сведение по Microsoft Search для отраслевых обновлений":::
+:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Снимок экрана с почтовыми новостями из Интернета":::
 
 ## <a name="news-settings"></a>Параметры новостей
 
