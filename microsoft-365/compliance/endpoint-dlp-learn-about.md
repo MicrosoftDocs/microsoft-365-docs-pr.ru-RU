@@ -1,5 +1,5 @@
 ---
-title: Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)
+title: Сведения о защите от потери данных в конечной точке Microsoft 365
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Защита от потери данных в конечной точке Microsoft 365 расширяет отслеживание действий с файлами и защитных действий для конечных точек этих файлов. В решениях для обеспечения соответствия требованиям Microsoft 365 файлы являются видимыми '
-ms.openlocfilehash: fe4ce05c1f9dd0ebce9a6c3be6fffbecfb36c2af
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: d9260da3e007885821441c8217e01650823eb8b4
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379237"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48768967"
 ---
-# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)
+# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Сведения о защите от потери данных в конечной точке Microsoft 365
 
 Защиту от потери данных (DLP) в Microsoft 365 можно использовать для отслеживания действий, принятых в отношении элементов, которые были определены как конфиденциальные, и для защиты от непреднамеренного обмена этими элементами. Подробная информация приведена в статье [Обзор защиты от потери данных](data-loss-prevention-policies.md).
 
