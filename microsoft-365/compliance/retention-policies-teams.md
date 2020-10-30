@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: 32656dc91350e5082171eb4fadd91d3a6287b9b7
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 85f272c5c663a95c749f7971b6e23c178dab2b94
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754065"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48795098"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -38,9 +38,9 @@ ms.locfileid: "48754065"
 
 ## <a name="whats-included-for-retention-and-deletion"></a>Что включается в хранение и удаление
 
-Следующие элементы Teams можно хранить и удалять с помощью политик хранения для Teams: чаты и сообщения в каналах.
+Следующие элементы Teams можно хранить и удалять с помощью политик хранения для Teams: чаты и сообщения в каналах, включая внедренные изображения.
 
-Сообщения Teams в частных каналов не включаются. Реакция других пользователей в виде смайликов также не включается.
+Сообщения Teams частных каналов не включаются. Реакция других пользователей в виде смайликов также не включается.
 
 Сообщения электронной почты и файлы, которые вы используете в Teams, не включаются в политики хранения для Teams. У этих элементов есть собственные политики хранения.
 
