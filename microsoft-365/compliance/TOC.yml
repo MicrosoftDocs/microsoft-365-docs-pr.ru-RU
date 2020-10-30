@@ -89,8 +89,6 @@
           href: sensitive-information-type-entity-definitions.md
         - name: 'Сведения, для обнаружения которых используются функции защиты от потери данных'
           href: what-the-dlp-functions-look-for.md
-        - name: Расширенный обзор настройки защиты от потери данных
-          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
         - name: Настройка встроенных типов конфиденциальных данных
           href: customize-a-built-in-sensitive-information-type.md
         - name: Пользовательские типы конфиденциальной информации
@@ -222,12 +220,26 @@
           href: data-loss-prevention-policies.md
         - name: DLP и Microsoft Teams
           href: dlp-microsoft-teams.md
-        - name: Сведения о защите от потери данных в конечной точке (предварительная версия)
+        - name: Сведения о защите от потери данных в конечной точке
           href: endpoint-dlp-learn-about.md
-        - name: Начало работы с функцией защиты от потери данных в конечной точке (предварительная версия)
+        - name: Начало работы с функцией защиты от потери данных в конечной точке
           href: endpoint-dlp-getting-started.md
-        - name: Использование функции защиты от потери данных в конечной точке (предварительная версия)
+        - name: Использование защиты от потери данных в конечной точке
           href: endpoint-dlp-using.md
+        - name: Средства и методы подключения DLP в конечной точке для устройств с Windows 10
+          items:
+            - name: Средства и методы подключения для устройств с Windows 10
+              href: dlp-configure-endpoints.md
+            - name: Подключение устройств Windows 10 с помощью групповой политики
+              href: dlp-configure-endpoints-gp.md
+            - name: Подключение устройств Windows 10 с помощью средств управления мобильными устройствами
+              href: dlp-configure-endpoints-mdm.md
+            - name: "Подключение устройств Windows\_10 с помощью Configuration Manager"
+              href: dlp-configure-endpoints-sccm.md
+            - name: Подключение устройств Windows 10 с помощью локального сценария
+              href: dlp-configure-endpoints-script.md
+            - name: Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)
+              href: dlp-configure-endpoints-vdi.md
         - name: Рекомендации по началу работы с политикой DLP
           href: get-started-with-dlp-policy-recommendations.md
         - name: Начало работы с политикой защиты от потери данных по умолчанию

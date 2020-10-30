@@ -1,5 +1,5 @@
 ---
-title: Поддержка клиентских приложений Microsoft 365 — проверка подлинности на основе сертификатов
+title: 'Поддержка клиентских приложений Microsoft 365: проверка подлинности на основе сертификатов'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -16,58 +16,72 @@ f1.keywords:
 - NOCSH
 description: В этой статье вы найдете сведения о поддержке клиентских приложений Microsoft 365 для проверки подлинности на основе сертификатов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55d3fa4db6abcd7589cf9fadb9084144cd26c8d7
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: 49ed1e329e83b73441c89de9a142bfb9dcac5395
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384949"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806698"
 ---
-# <a name="microsoft-365-client-app-support--certificate-based-authentication"></a>Поддержка клиентских приложений Microsoft 365 — проверка подлинности на основе сертификатов
+# <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Поддержка клиентских приложений Microsoft 365: проверка подлинности на основе сертификатов
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Проверка подлинности на основе сертификатов позволяет выполнять проверку подлинности в Azure Active Directory (Azure AD) с помощью сертификата клиента на устройствах под управлением Windows, Android или iOS. Настройка этой функции исключает необходимость ввода имени пользователя и пароля в определенные приложения электронной почты и приложения Microsoft Office на мобильном устройстве.
+Проверка подлинности на основе сертификатов позволяет выполнять проверку подлинности в Azure Active Directory с помощью сертификата клиента на устройствах под управлением Windows, Android или iOS. Настройка этой функции исключает необходимость ввода имени пользователя и пароля в определенные приложения электронной почты и приложения Microsoft Office на мобильном устройстве.
 
 Узнайте больше о [проверке подлинности на основе сертификатов](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started).
 
-## <a name="supported-platforms"></a>Поддерживаемые платформы
+## <a name="supported-clients--platforms"></a>Поддерживаемые клиенты & платформы
 
- - Windows 10 Desktop<sup>2</sup>
- - Современные приложения Windows 10
- - Веб-браузеры<sup>3</sup>
- - Android<sup>4</sup>
- - iOS
- - macOS<sup>1</sup> <sup>2</sup>
+Последние версии следующих клиентов и платформ поддерживают проверку подлинности на основе сертификатов. Дополнительные сведения о поддержке платформ в Microsoft 365 приведены в разделе [требования к системе для microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources).
+<br>
+<br>
 
-Дополнительные сведения о поддержке платформ в Microsoft 365 приведены в разделе [требования к системе для microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources).
-
-## <a name="supported-clients"></a>Поддерживаемые клиенты
-
-Последние версии следующих клиентов поддерживают проверку подлинности на основе сертификатов:
-
-| | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Значок Access](../media/o365-access-64x64.png) <br> [Access](https://products.office.com/access) | ![Значок Azure](../media/o365-azure-64x64.png) <br> [Портал Azure AD <br>](https://azure.microsoft.com/features/azure-portal/) | ![Значок портала компании](../media/o365-microsoft-64x64.png) <br> [Корпоративный <br> портал ](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal) | ![Значок delve](../media/o365-delve-64x64.png) <br> [Delve](https://products.office.com/business/intelligent-search) | ![Значок Dynamics 365](../media/o365-dynamics365-64x64.png) <br> [Dynamics 365](https://dynamics.microsoft.com) 
-| ![Значок пограничного сервера](../media/o365-edge-64x64.png) <br> [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) | ![Значок Excel](../media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) | ![Значок Forms](../media/o365-forms-64x64.png) <br> [Forms](https://flow.microsoft.com/connectors/shared_microsoftforms/microsoft-forms/) | ![Значок Kaizala](../media/o365-kaizala-64x64.png) <br> [Kaizala](https://products.office.com/en/business/microsoft-kaizala) | ![Значок Office.com](../media/o365-office-64x64.png) <br> [Office.com](https://www.office.com/) 
-| ![Значок администратора Office 365](../media/o365-o365admin-64x64.png) <br> [Администратор Microsoft 365 <br>](https://products.office.com/business/manage-office-365-admin-app) | ![Значок лупы](../media/o365-lens-64x64.png) <br> [Office Lens](https://www.microsoft.com/p/office-lens/9wzdncrfj3t8?activetab=pivot%3Aoverviewtab) | ![Значок OneDrive для бизнеса](../media/o365-OneDrive-64x64.png) <br> [OneDrive<sup>1</sup>](https://products.office.com/onedrive-for-business/online-cloud-storage) |  ![Значок OneNote](../media/o365-OneNote-64x64.png) <br> [OneNote](https://products.office.com/onenote) | ![Значок Outlook](../media/o365-outlook-64x64.png) <br> [Outlook](https://products.office.com/outlook) 
-| ![Значок Планировщика](../media/o365-planner-64x64.png) <br> [Планировщик](https://products.office.com/business/task-management-software) | ![Значок PowerApps](../media/o365-powerapps-64x64.png) <br> [PowerApps<sup>3</sup>](https://powerapps.microsoft.com) | ![Значок автоматизированного управления питанием](../media/o365-flow-64x64.png) <br> [Автоматизация управления питанием <br>](https://flow.microsoft.com) | ![Значок PowerBI](../media/o365-powerbi-64x64.png) <br> [Power BI](https://powerbi.microsoft.com)| ![Значок PowerPoint](../media/o365-powerpoint-64x64.png) <br> [PowerPoint](https://products.office.com/powerpoint) 
-| ![Значок Project](../media/o365-project-64x64.png) <br> [Project](https://products.office.com/project) | ![Значок Publisher](../media/o365-publisher-64x64.png) <br> [Publisher](https://products.office.com/publisher) | ![Значок SharePoint](../media/o365-sharepoint-64x64.png) <br> [SharePoint](https://products.office.com/sharepoint) | ![Значок Skype для бизнеса](../media/o365-skypeforbusiness-64x64.png) <br> [Skype для <br> бизнеса](https://www.skype.com/business/) | ![Значок клейких заметок](../media/o365-stickynotes-64x64.png) <br> [Клейкие заметки](https://www.microsoft.com/p/microsoft-sticky-notes/9nblggh4qghw) 
-| ![Значок Stream](../media/o365-stream-64x64.png) <br> [Stream](https://stream.microsoft.com) | ![Значок Sway](../media/o365-sway-64x64.png) <br> [Sway](https://sway.com) | ![Значок Teams](../media/o365-teams-64x64.png) <br> [Teams<sup>2</sup>](https://products.office.com/microsoft-teams/group-chat-software) | ![Значок "to do"](../media/o365-todo-64x64.png) <br> [To-Do](https://todo.microsoft.com) | ![Значок Visio](../media/o365-visio-64x64.png) <br> [Visio](https://products.office.com/visio/flowchart-software) 
-| ![Значок Доски](../media/o365-whiteboard-64x64.png) <br> [Доска<sup>3</sup>,<sup>4</sup>](https://whiteboard.microsoft.com/) | ![Значок Word](../media/o365-word-64x64.png) <br> [Word](https://products.office.com/word) | ![Значок Yammer](../media/o365-yammer-64x64.png) <br> [Yammer<sup>2</sup>](https://products.office.com/yammer/yammer-overview) |
+| Клиенты | Android | iOS | "Mac";| Windows 10; <br> Современные приложения| Windows 10; <br> Desktop |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| Администратор Azure Active Directory | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Доступ | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Администратор Azure | Н/Д | Н/Д | Н/Д | Н/Д | Н/Д |
+| Корпоративный портал | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Потребляет | Календар | Календар | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Delve | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
+| Microsoft Edge | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Excel | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
+| Администратор Exchange Online | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Forms | Н/Д | Н/Д | Н/Д | Н/Д | Н/Д |
+| Администратор Office 365 | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |  |
+| Kaizala | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
+| Office Lens| ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Office Mobile | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
+| Портал Office | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| OneDrive | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Календар | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
+| OneNote | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
+| Outlook | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
+| Планировщик | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
+| Power Apps | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Power Automate | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
+| Power BI | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
+| PowerPoint | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
+| Project | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Publisher | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Skype для бизнеса | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Администратор Skype для бизнеса | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| SharePoint | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
+| Администратор SharePoint Online | Календар | Календар | Н/Д | Н/Д | Н/Д |
+| Клейкие заметки | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Stream | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
+| Sway | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Teams | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Календар |
+| To-Do | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Visio | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Доска | Календар | Календар | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Word | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
+| Анализ рабочей области | Н/Д | Н/Д | Н/Д | Н/Д | Н/Д |
+| Yammer | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Календар | Н/Д | Календар |
 
 ## <a name="supported-powershell-modules"></a>Поддерживаемые модули PowerShell
 
-| | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Значок Azure](../media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Значок Exchange](../media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) | ![Значок SharePoint](../media/o365-sharepoint-64x64.png) <br> [PowerShell в SharePoint Online <br>](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+- [PowerShell Azure Active Directory](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)
+- [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
+- [PowerShell в SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
-> [!NOTE]
-> <sup>1</sup> поддержка OneDrive в macOS доступна в ближайшее время. <br>
-> <sup>2</sup> поддержка Yammer на настольных компьютерах с Windows и macOS доступна в ближайшее время. В ближайшее время доступна поддержка Teams на рабочем столе Windows.<br>
-> <sup>3</sup> поддержка PowerApps и доска в веб-приложениях скоро доступна. <br>
-> <sup>4</sup> в скором времени доступна поддержка доски на Android.
-
-## <a name="see-also"></a>См. также
-
-[Обзор Microsoft 365 корпоративный](microsoft-365-overview.md)
