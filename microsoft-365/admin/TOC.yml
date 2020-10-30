@@ -210,6 +210,8 @@
       items:
         - name: Отслеживание активности пользователей с помощью отчетов
           href: activity-reports/activity-reports.md
+        - name: Отслеживание производительности пользователей с помощью оценки производительности
+          href: productivity/productivity-score.md
         - name: Изменение контактных данных организации
           href: manage/change-address-contact-and-more.md
         - name: Обновление контактных данных администратора
