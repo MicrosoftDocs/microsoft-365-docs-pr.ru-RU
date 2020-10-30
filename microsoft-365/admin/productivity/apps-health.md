@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Подробные сведения о производительности приложений Microsoft 365 с поддержкой технологии работоспособности.
-ms.openlocfilehash: bb6454b336caa9ac1e7b8f6049ea46c681c8bd77
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 4242a9b665bc7292232cc15ee0f1ec37915fb1ac
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795458"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804773"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Работоспособность приложений Microsoft 365: технология
 
@@ -112,3 +111,12 @@ ms.locfileid: "48795458"
 - **Состояние:**   Приложения Microsoft 365 поддерживают состояние устройств на основе текущего канала и версии.
 - **Версии:**   Текущие версии приложений Microsoft 365 на устройствах.
 - количество **устройств:**  Количество устройств.
+
+## <a name="related-content"></a>Связанные материалы
+
+[Связь — взаимодействие с пользователями](communication.md) (статья) \
+[Совместная работа с контентом — взаимодействие с пользователями](content-collaboration.md) (статья) \
+[Собрания — взаимодействие с пользователями](meetings.md) (статья) \
+[Мобильность — взаимодействие с пользователями](mobility.md) (статья) \
+[Управление конфиденциальностью для оценки эффективности](privacy.md) (статья) \
+[Совместная работа — люди](teamwork.md) (статья)

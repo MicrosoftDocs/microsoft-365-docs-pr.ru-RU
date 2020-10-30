@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Сведения о собраниях — оценка продуктивности людей.
-ms.openlocfilehash: 09869d92b093304e070d669db7d0e7dea825441f
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: cdb83000e176fb2a88d848a1b7f114499362672a
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795535"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804589"
 ---
 # <a name="meetings--people-experiences"></a>Собрания — взаимодействие с пользователями
 
@@ -147,3 +146,12 @@ Microsoft Teams интегрируется с календарем Outlook и п
 - Только пользователи, имеющие доступ к Microsoft Teams, считаются для оценки.
 - Мы исключим события вещания и определенные события, которые не помечены как собрание или вызов.
 - События, которые начинаются с демонстрации экрана между участниками, делятся на 1:1 звонков (с 2 участниками) или группами вызовов (3 или более участников).
+
+## <a name="related-content"></a>Связанные материалы
+
+[Работоспособность приложений Microsoft 365](apps-health.md) для работы с технологиями (статья) \
+[Связь — взаимодействие с пользователями](communication.md) (статья) \
+[Совместная работа с контентом — взаимодействие с пользователями](content-collaboration.md) (статья) \
+[Мобильность — взаимодействие с пользователями](mobility.md) (статья) \
+[Управление конфиденциальностью для оценки эффективности](privacy.md) (статья) \
+[Совместная работа — люди](teamwork.md) (статья)
