@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Администраторы могут узнать, как использовать теги карантина, чтобы контролировать, какие пользователи могут выполнять действия с сообщениями, помещенными в карантин.
-ms.openlocfilehash: 557a6832807c1768f482e76c76c0e92b027e49a7
-ms.sourcegitcommit: 2810d1347e5016412074b2dd18e654aee7e593de
+ms.openlocfilehash: 89f03795d8f12b3df3e5090648c5a6c8b64c322a
+ms.sourcegitcommit: 676479f1e65492b44c4d0316a765f55ae9fae374
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2020
-ms.locfileid: "48819267"
+ms.locfileid: "48819744"
 ---
 # <a name="quarantine-tags"></a>Теги карантина
 
@@ -477,7 +477,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 Дополнительные сведения о списке надежных отправителей можно найти в статье [предотвращение блокирования надежных отправителей](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) и [использование Exchange Online PowerShell для настройки коллекции списков надежных отправителей в почтовом ящике](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
-### <a name="block-sender-permission"></a>Блокировать разрешение отправителей
+#### <a name="block-sender-permission"></a>Блокировать разрешение отправителей
 
 Разрешение **блокировать отправителя** ( _пермиссионтоблокксендер_ ) управляет доступом к кнопке, позволяющей пользователям легко добавить отправителя сообщения, помещенного в карантин, в список заблокированных отправителей.
 
@@ -491,7 +491,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 Дополнительные сведения о списке заблокированных отправителей можно узнать в статье [Блокировать сообщения от кого-либо с](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) [помощью Exchange Online PowerShell для настройки коллекции списков надежных отправителей для почтового ящика](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
-### <a name="delete-permission"></a>Разрешения на удаление
+#### <a name="delete-permission"></a>Разрешения на удаление
 
 Разрешение **Delete** ( _пермиссионтоделете_ ) управляет возможностью пользователей удалять свои сообщения (сообщения, в которых пользователь является получателем) из карантина.
 
@@ -501,7 +501,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 - **Уведомления конечных пользователей о нежелательной почте** не вступают в противодействия.
 
-### <a name="preview-permission"></a>Разрешение на предварительный просмотр
+#### <a name="preview-permission"></a>Разрешение на предварительный просмотр
 
 Разрешение на **Предварительный просмотр** ( _пермиссионтопревиев_ ) управляет возможностью пользователей просматривать сообщения в карантине.
 
