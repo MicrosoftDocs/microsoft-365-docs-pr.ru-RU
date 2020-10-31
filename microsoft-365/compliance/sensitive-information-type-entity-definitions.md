@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 288c53d5e9264942e12d5634cec172a65ee79ca6
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 498ff1482bd0109903968d1c8fe250311e37a51f
+ms.sourcegitcommit: 2810d1347e5016412074b2dd18e654aee7e593de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48656056"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48819119"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -3162,9 +3162,9 @@ Registro de identidade (RIC) (новый формат):
 
 семь до восьми цифр, а также разделители:
 - одна – две цифры 
-- точка 
+- Необязательный период 
 - три цифры 
-- точка 
+- Необязательный период 
 - три цифры 
 - тире 
 - одна цифра или буква (без учета регистра), которая является контрольной цифрой
@@ -3201,18 +3201,40 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_chile_id_card"></a>Keyword_chile_id_card
 
-- National Identification Number 
-- Identity card 
-- ID 
-- Процедура 
-- Rol Único Nacional 
-- ВЫПОЛНЯЕМ 
-- Rol Único Tributario 
-- СНИЖАТЬСЯ 
-- Cédula de Identidad 
-- Número De Identificación Nacional 
-- Tarjeta de identificación 
-- идентификаЦиóн 
+- кéдула de ИДЕНТИДАД
+- идентификаЦиóн
+- national identification
+- national identification number
+- national id
+- нúмеро де идентификаЦиóн наЦионал
+- рол úнико наЦионал
+- рол úнико трибутарио
+- ВЫПОЛНЯЕМ
+- СНИЖАТЬСЯ
+- таржета de идентификаЦиóн
+- Рол Унико НаЦионал
+- Рол Унико Трибутарио
+- ВЫПОЛНЯЕМ #
+- СНИЖАТЬСЯ #
+- натионалуникуеролеид #
+- наЦионал ИДЕНТИДАД
+- нúмеро идентификаЦиóн
+- ИДЕНТИДАД нúмеро
+- Нумеро идентификаЦион
+- ИДЕНТИДАД нумеро
+- Идентификатор чилеан
+- Идентификационный номер чилеан
+- Удостоверение чилеан #
+- Уникальный налоговый реестр
+- Уникальная роль для распространения
+- Уникальная роль налога
+- Уникальный номер распространения
+- Уникальный национальный номер
+- Уникальная национальная роль
+- Национальная уникальная роль
+- Номер удостоверения Чили
+- Идентификационный номер Чили
+- Удостоверение Чили #
 
    
 ## <a name="china-resident-identity-card-prc-number"></a>Номер почтовых карточек для Китая (КНР)
@@ -12044,7 +12066,9 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-три буквы (без учета регистра), пробел (необязательно) из четырех цифр.
+- три буквы (без учета регистра), за исключением "I" и "O"
+- пробел (необязательно) 
+- четыре цифры
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -12057,27 +12081,38 @@ Dictionary
 - находится ключевое слово из Keyword_nz_terms;
 - Контрольная сумма проходит проверку.
 
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- функция Func_new_zealand_ministry_of_health_number находит содержимое, которое соответствует шаблону;
+- Контрольная сумма проходит проверку.
+
 ```xml
-<!-- New Zealand Health Number -->
-<Entity id="2b71c1c8-d14e-4430-82dc-fd1ed6bf05c7" patternsProximity="300" recommendedConfidence="85">
-    <Pattern confidenceLevel="85">
+    <!-- New Zealand Health Number -->
+    <Entity id="2b71c1c8-d14e-4430-82dc-fd1ed6bf05c7" patternsProximity="300" recommendedConfidence="85">
+      <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_new_zealand_ministry_of_health_number" />
-        <Any minMatches="1">
           <Match idRef="Keyword_nz_terms" />
-        </Any>
-    </Pattern>
-</Entity>
+      </Pattern>
+      <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_new_zealand_ministry_of_health_number" />
+       </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
 
 #### <a name="keyword_nz_terms"></a>Keyword_nz_terms
 
-- нхи 
-- Новая Зеландия 
-- Здравоохранение 
-- обращения 
-
+- нхи
+- Новая Зеландия
+- Здравоохранение
+- обращения
+- Номер индекса национальной работоспособности
+- номер Нхи
+- Нхи но.
+- нхи #
+- Номер индекса национальной работоспособности
+- Идентификатор индекса национальной работоспособности
+- Номер национальной работоспособности #
 
 ## <a name="new-zealand-social-wlefare-number"></a>Номер социального влефареа Новой Зеландии
 Этот тип конфиденциальной информации можно использовать только в следующих целях:
