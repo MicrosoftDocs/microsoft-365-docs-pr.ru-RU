@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Узнайте о Office 365 в Германии.
-ms.openlocfilehash: a9ad8f88f48315c77d17ca51855d75d1c443f6f2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: b0b370399cc7687f3c564903d01bd07f447dc16a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545922"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843334"
 ---
 # <a name="learn-about-office-365-germany"></a>Сведения об Office 365 Germany
 
@@ -73,7 +73,7 @@ Office 365 Германия был отличительным вариантом
     
 - Advanced eDiscovery
     
-- Advanced Threat Protection
+- Защитник Майкрософт для Office 365
     
 - Office 365 Threat Intelligence
     
@@ -89,7 +89,7 @@ Office 365 Германия был отличительным вариантом
   
 ## <a name="general-information"></a>Общие сведения
 
-|Item|Информация|
+|Item|Сведения|
 |-----|-----|
 |Портал для входа  <br/> |[https://portal.office.de](https://portal.office.de)  <br/> |
 |Подписки, выставление счетов и техническая поддержка  <br/> |Поддержка на основе Германии на немецком и английском языках дополнительные сведения см. в статье [Поддержка для бизнес-продуктов: Справка для администраторов](../contact-support-for-business-products.md).  <br/> |

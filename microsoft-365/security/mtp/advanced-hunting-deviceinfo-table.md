@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 966f329d1d3ce374cc3eed9eccb6c337071f4ee1
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1bb48b4332bc9d60de15bb513f04a503d6a6913b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430083"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842718"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430083"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "48430083"
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `ClientVersion` | string | Версия агента конечной точки или датчика, запущенного на компьютере |
-| `PublicIP` | string | Общедоступный IP-адрес, используемый подключенным компьютером для подключения к службе Microsoft Defender ATP. Это может быть IP-адрес самого компьютера, устройства NAT или прокси-сервера. |
+| `PublicIP` | string | Общедоступный IP-адрес, используемый подключенным компьютером для подключения к защитнику Майкрософт для службы конечной точки. Это может быть IP-адрес самого компьютера, устройства NAT или прокси-сервера. |
 | `OSArchitecture` | string | Архитектура операционной системы, используемой на компьютере |
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Это указывает на конкретные операционные системы, в том числе варианты в пределах одного семейства, например Windows 10 и Windows 7. |
 | `OSBuild` | string | Сборка версии операционной системы, запущенной на компьютере |

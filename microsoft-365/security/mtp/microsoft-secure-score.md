@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ea580ad6b7bb7cc905a299e473f23a4c74fb289e
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: a41e05f54a8ba94752c6df91628a2200367ac0f3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294788"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843844"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
 
@@ -76,7 +76,7 @@ Microsoft Secure Score — это измерение степени безопа
 
 ### <a name="products-included-in-secure-score"></a>Продукты, включенные в надежный рейтинг
 
-В настоящее время существуют рекомендации для Microsoft 365 (включая Exchange Online), Azure Active Directory, Office Defender ATP, Azure ATP и Cloud App Security. Рекомендации по другим продуктам безопасности скоро будут доступны. Рекомендации не охватывают все области атак, связанные с каждым продуктом, но они являются хорошим базовым планом. Вы также можете пометить действия по улучшению, как это описано сторонним производителем или альтернативным снижением.
+В настоящее время существуют рекомендации для Microsoft 365 (в том числе Exchange Online), Azure Active Directory, защитника Майкрософт для конечной точки, защитника Майкрософт для удостоверения и Cloud App Security. Рекомендации по другим продуктам безопасности скоро будут доступны. Рекомендации не охватывают все области атак, связанные с каждым продуктом, но они являются хорошим базовым планом. Вы также можете пометить действия по улучшению, как это описано сторонним производителем или альтернативным снижением.
 
 ### <a name="security-defaults"></a>Параметры безопасности по умолчанию
 

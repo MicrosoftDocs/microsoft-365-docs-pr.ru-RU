@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Получите последнюю версию в разделе изоляция на основе оборудования. Предотвращение текущих и новых атак, таких как эксплойты или вредоносные ссылки, не нарушая продуктивность сотрудников и корпоративную безопасность.
-ms.openlocfilehash: 3a20649338bbcd58ad86f70142c2bd9f1c2fd948
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3b31ef639667c7ef761d1d5fa0295f5d767e0c48
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197577"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843010"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard для Office (общедоступная Предварительная версия) для администраторов
 
@@ -40,15 +40,15 @@ ms.locfileid: "48197577"
 
 ### <a name="minimum-hardware-requirements"></a>Минимальные требования к оборудованию
 
-* **ЦП**: 64-разрядный, 4 ядра (физический или виртуальный), расширения виртуализации (Intel VT-x или AMD-V), основной i5 эквивалент или более высокий уровень
-* **Физическая память**: 8 ГБ ОЗУ
-* **Жесткий диск**: 10 ГБ свободного места на системном диске (рекомендуется SSD)
+* **ЦП** : 64-разрядный, 4 ядра (физический или виртуальный), расширения виртуализации (Intel VT-x или AMD-V), основной i5 эквивалент или более высокий уровень
+* **Физическая память** : 8 ГБ ОЗУ
+* **Жесткий диск** : 10 ГБ свободного места на системном диске (рекомендуется SSD)
 
 ### <a name="minimum-software-requirements"></a>Минимальные требования к программному обеспечению
 
-* **Windows 10**: Windows 10 Enterprise Edition, Клиентская сборка версии 2004 (20H1) Build 19041
-* **Office**: сборка канала Office Beta версии 2008 16.0.13212 или более поздней версии
-* **Пакет обновления**: Windows 10 накопительных обновлений для системы безопасности ( [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) ) 
+* **Windows 10** : Windows 10 Enterprise Edition, Клиентская сборка версии 2004 (20H1) Build 19041
+* **Office** : сборка канала Office Beta версии 2008 16.0.13212 или более поздней версии
+* **Пакет обновления** : Windows 10 накопительных обновлений для системы безопасности ( [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) ) 
 
 Для получения подробных сведений о требованиях к системе обратитесь к разделу [требования к системе для Application Guard в защитнике Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard). Чтобы узнать больше о сборках Insider Preview для Office, ознакомьтесь со статьей [Начало работы по развертыванию сборок для участников программы предварительной оценки Office](https://insider.office.com/business/deploy).
 
@@ -92,7 +92,7 @@ ms.locfileid: "48197577"
 
     ![Меню "Пуск"](../../media/ag05-diagnostic.png)
 
-2.  В меню **Параметры Windows**выберите **Конфиденциальность**.
+2.  В меню **Параметры Windows** выберите **Конфиденциальность**.
 
     ![Меню "Параметры Windows"](../../media/ag06-diagnostic.png)
 
@@ -160,9 +160,9 @@ ms.locfileid: "48197577"
 
 4.  Заполните поле **Подробнее в подробном подробностях** , указав подробное описание возникшей вами ситуации и действия, которые вы сделали, а затем нажмите кнопку **Далее**.
 
-5.  Выберите всплывающее сообщение рядом с элементом проблема. Убедитесь, что выбрана категория **безопасность и конфиденциальность \> защитник Microsoft Defender Application Guard — Office**, а затем нажмите кнопку **Далее**.
+5.  Выберите всплывающее сообщение рядом с элементом проблема. Убедитесь, что выбрана категория **безопасность и конфиденциальность \> защитник Microsoft Defender Application Guard — Office** , а затем нажмите кнопку **Далее**.
 
-6.  Выберите **создать отзыв**, а затем нажмите кнопку **Далее**.
+6.  Выберите **создать отзыв** , а затем нажмите кнопку **Далее**.
 
 7.  Сбор трассировок о возникшей ошибке:
 
@@ -188,13 +188,13 @@ ms.locfileid: "48197577"
 
 Вы также можете отправить отзыв в Office, если проблема возникает при открытии документов Office в Application Guard. Сведения о том, как отправить отзыв, можно найти в [руководстве по предварительной работе Office](https://insider.office.com/handbook) .
 
-## <a name="integration-with-microsoft-defender-atp-and-office-atp"></a>Интеграция с защитником Майкрософт и пакетом Office ATP
+## <a name="integration-with-microsoft-defender-for-endpoint-and-microsoft-defender-for-office-365"></a>Интеграция с защитником Майкрософт для конечной точки и защитником Майкрософт для Office 365
 
-Application Guard для Office интегрировано с авансовым защитником Майкрософт (ATP), чтобы обеспечить мониторинг и оповещение о вредоносных действиях, происходящих в изолированной среде.
+Application Guard для Office интегрировано с защитником Майкрософт для конечной точки, чтобы обеспечить мониторинг и оповещение о вредоносных действиях, происходящих в изолированной среде.
 
-Пакет ATP для защитника Майкрософт — это платформа безопасности, позволяющая корпоративным сетям предотвращать, обнаруживать и отвечать на дополнительные угрозы. Для получения дополнительных сведений об этой платформе посетите страницу [Advanced Threat Protection в защитнике Майкрософт](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) . Узнайте больше о переносе устройств на эту платформу на [встроенных устройствах в службу Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure).
+Защитник Майкрософт для конечной точки — это платформа безопасности, призванная помочь корпоративным сетям предотвратить, обнаруживать и отвечать на дополнительные угрозы. Для получения дополнительных сведений об этой платформе посетите страницу [защитник Майкрософт для конечных точек](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) . Узнайте больше о подключенных устройствах к этой платформе на подключенных [устройствах к защитнику Майкрософт для службы конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure).
 
-Вы также можете настроить Office 365 ATP для работы с пакетом ATP для защитника Microsoft. Обратитесь к разделу [Интеграция Office 365 ATP с защитником Microsoft для пакета ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/integrate-office-365-ti-with-wdatp?view=o365-worldwide).
+Кроме того, для работы с защитником для конечной точки можно настроить защитник Майкрософт для Office 365. Обратитесь к разделу [Интеграция защитника для Office 365 с защитником Майкрософт для конечной точки](https://docs.microsoft.com/microsoft-365/security/office-365-security/integrate-office-365-ti-with-wdatp?view=o365-worldwide).
 
 ## <a name="limitations-and-considerations"></a>Ограничения и рекомендации
 

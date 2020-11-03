@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c0bd20ee9b100fcdc53ebf2e5d755ca38c6df545
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 40ee2b6a68438cf703daa2337483bb44d8cbeca9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197755"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841854"
 ---
 # <a name="additional-protection-apis"></a>Дополнительные API защиты
 
@@ -32,13 +32,13 @@ ms.locfileid: "48197755"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 >[!IMPORTANT] 
 >Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-В следующих ресурсах представлены дополнительные сведения о других API, доступных для рабочих процессов в Microsoft Threat protection:
+В следующих ресурсах представлены дополнительные сведения о других API, доступных для рабочих процессов в защитнике Microsoft 365:
 
-- [Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
-- [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office/office-365-management-api/)
+- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
+- [Защитник Майкрософт для Office 365](https://docs.microsoft.com/office/office-365-management-api/)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/api-introduction)

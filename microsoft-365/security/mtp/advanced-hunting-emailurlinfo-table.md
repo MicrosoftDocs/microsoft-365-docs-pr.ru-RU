@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 2d37868af5c582512b543c1e2ca859e63b190425
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 6684f2d56cb30c909cae57e7b3e6593377449f6b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430839"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842564"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -32,9 +32,9 @@ ms.locfileid: "48430839"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
-`EmailUrlInfo`Таблица в схеме [расширенного поиска](advanced-hunting-overview.md) содержит информацию об адресах URL для сообщений электронной почты или вложений, обрабатываемых Office 365 ATP. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+В `EmailUrlInfo` таблице в [расширенной](advanced-hunting-overview.md) схеме Поиск содержатся сведения об URL-адресах в сообщениях электронной почты и вложениях, обработанных защитником майкрософт для Office 365. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 

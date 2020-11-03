@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Используйте защитник Майкрософт для Office 365 вместе с Advanced Threat Protection в защитнике Майкрософт, чтобы получить более подробные сведения об угрозах для ваших устройств и содержимого электронной почты.
+description: Используйте защитник Майкрософт для Office 365 вместе с защитником Майкрософт для конечной точки, чтобы получить более подробные сведения о угрозах для ваших устройств и содержимого электронной почты.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c95e15c3cf16547843f9d2976dbf9df0d5747c0
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 6b8bec8d3ebe52de9b4e1b919b2aceee20b5b5b0
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309241"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842360"
 ---
-# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-advanced-threat-protection"></a>Использование защитника Microsoft для Office 365 вместе с Advanced Threat Protection в защитнике Майкрософт
+# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Использование защитника Microsoft для Office 365 вместе с защитником Майкрософт для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -41,9 +41,9 @@ ms.locfileid: "48309241"
 В этом примере видно, что получатели обнаруженного сообщения электронной почты имеют четыре устройства, а одно — оповещение. Щелчок ссылки на устройство открывает его страницу в центре безопасности защитника (Майкрософт) ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
 > [!TIP]
-> **[Узнайте больше о центре безопасности защитника](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (Майкрософт), также называемом порталом ATP для защитника Майкрософт.
+> **[Узнайте больше о центре безопасности защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (также называемом защитником Майкрософт для портала конечных точек).
   
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 - У вашей организации должен быть защитник Майкрософт для Office 365 (или Office 365 в ~) и защитник Майкрософт для конечной точки.
     
@@ -59,15 +59,15 @@ ms.locfileid: "48309241"
     
 2. В области навигации выберите Обозреватель **управления угрозами**  >  **Explorer**.<br>![Проводник в меню "Управление угрозами"](../../media/ThreatMgmt-Explorer-nav.png)<br>
     
-3. В правом верхнем углу экрана выберите **Параметры вдатп**.
+3. В правом верхнем углу экрана выберите пункт **защитник для параметров конечной точки**.
     
-4. В диалоговом окне защитник (Майкрософт) для подключения к конечной точке включите параметр **подключиться к Windows ATP**.<br>![Защитник Майкрософт для подключения к конечной точке](../../media/Explorer-WDATPConnection-dialog.png)<br>
+4. В диалоговом окне защитник (Майкрософт) для подключения к конечной точке включите параметр **подключиться к защитнику Майкрософт для конечной точки**.<br>![Защитник Майкрософт для подключения к конечной точке](../../media/Explorer-WDATPConnection-dialog.png)<br>
     
 5. Перейдите в центр безопасности защитника (Майкрософт [https://securitycenter.windows.com](https://securitycenter.windows.com) ) ().
 
-6. В панели навигации выберите **Параметры**. Затем в разделе **Общие**выберите **Дополнительные функции**.
+6. В панели навигации выберите **Параметры**. Затем в разделе **Общие** выберите **Дополнительные функции**.
 
-7. Прокрутите список вниз до раздела **Office 365 Threat Intelligence Connection**и включите подключение.<br/>![Подключение к бизнес-аналитике Office 365](../../media/mdatp-oatptoggle.png)<br>
+7. Прокрутите список вниз до раздела **Office 365 Threat Intelligence Connection** и включите подключение.<br/>![Подключение к бизнес-аналитике Office 365](../../media/mdatp-oatptoggle.png)<br>
 
 ## <a name="related-articles"></a>Статьи по теме
 
@@ -75,4 +75,4 @@ ms.locfileid: "48309241"
   
 [Защитник Майкрософт для Office 365](office-365-atp.md)
   
-[Защитник Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection)
+[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection)

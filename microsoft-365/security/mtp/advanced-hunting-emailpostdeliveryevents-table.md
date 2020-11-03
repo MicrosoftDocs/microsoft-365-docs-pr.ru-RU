@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ea54f6b312c473240dba07eae95733d2ea610fe5
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 59e5d0d51997812689c7382d6a27af6f66a27d25
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430553"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842612"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430553"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 `EmailPostDeliveryEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о действиях после доставки, выполняемых в сообщениях электронной почты, обработанных Microsoft 365. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 

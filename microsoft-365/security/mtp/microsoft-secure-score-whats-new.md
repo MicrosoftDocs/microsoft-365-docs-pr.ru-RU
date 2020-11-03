@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: a7d79684a085072e1af113bc0466ab26574ab904
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: d63994778762968962b2a32f026dbb81af39b664
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779240"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843820"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Новые возможности оценки безопасности Майкрософт
 
@@ -35,7 +35,7 @@ ms.locfileid: "48779240"
 
 ## <a name="october-2020"></a>Октябрь 2020 г.
 
-### <a name="remove-improvement-action-related-to-microsoft-defender-advanced-threat-protection"></a>Удаление действия улучшения, связанного с Advanced Threat Protection в защитнике Майкрософт
+### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Удаление действия улучшения, связанного с защитником Майкрософт для конечной точки
 
 - Настройка фильтра SmartScreen защитника Майкрософт веб-контент приложения Windows Store для предупреждения
 
@@ -54,8 +54,8 @@ ms.locfileid: "48779240"
 ## <a name="updated-improvement-actions"></a>Обновленные действия по улучшению
 
 - Добавлены действия по улучшению Azure Active Directory
-- Добавлены действия улучшения улучшенной защиты от угроз Azure
-- Рекомендации по обеспечению безопасности [уязвимостей & угрозам](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) безопасности для защитника Майкрософт
+- Добавлены сведения о защитнике Майкрософт для действий по улучшению удостоверения
+- Рекомендации по обеспечению безопасности уязвимостей защитником Майкрософт для конечных точек [& уязвимостей](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
     - Все выпущенные рекомендации по безопасности, предоставляемые ТВМ, теперь доступны
 
 ## <a name="updated-interface-and-functionality"></a>Обновленный интерфейс и функциональные возможности

@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Узнайте о действиях по настройке Microsoft 365 Business Premium, о том, как подписываться, добавлять домен и пользователей, настраивать политики безопасности и т. д.
-ms.openlocfilehash: 8ec01a58d1a15d5c4aa1cef8b81518b474630d8b
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: 46370166a9d5e8c9308b8947513e631c159f0b86
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841148"
+ms.locfileid: "48842137"
 ---
 # <a name="overview-of-setup"></a>Обзор установки
 
@@ -48,7 +48,7 @@ ms.locfileid: "48841148"
 
    - **[Добавьте домен](set-up.md#add-your-domain-to-personalize-sign-in)** (если вы приобрели домен в ходе [регистрации](sign-up.md), то это действие уже выполнено.)
 
-   - **Добавление пользователей** . Добавить пользователей можно тремя способами:
+   - **Добавление пользователей**. Добавить пользователей можно тремя способами:
         - В [руководстве по установке](set-up.md#add-users-in-the-wizard).
         - Воспользуйтесь синхронизацией каталогов, чтобы [добавить пользователей с помощью Azure AD Connect ](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization), если у вас есть локальная служба каталогов Active Directory.
         - Кроме того, вы сможете [добавить пользователей позже](add-users-m365b.md) в Центре администрирования.
@@ -61,7 +61,7 @@ ms.locfileid: "48841148"
   Помимо параметров безопасности, в мастере установки вы можете повысить уровень безопасности, добавив следующие параметры:
 
 - **Защита от вредоносных программ в электронной почте**
-- **Защита от фишинга ATP**
+- **Защита от фишинга в защитнике для Office 365**
 - **Архивация на базе Exchange Online**
 - **Azure Information Protection (план 1** )
 

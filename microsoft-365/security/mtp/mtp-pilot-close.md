@@ -1,6 +1,6 @@
 ---
-title: Общие сведения о пилотных результатах проекта Microsoft Threat protection
-description: Завершите пилотный проект Microsoft Threat Protection, выполнив систему показателей, анализируя результаты отчета и принимая решение о том, как перемещаться вперед.
+title: Общие сведения о пилотных результатах проекта защитника Microsoft 365
+description: Завершите пилотный проект Microsoft 365 Defender, выполнив систему показателей, анализируя результаты отчета и принимая решение о том, как перемещаться вперед.
 keywords: Пилотный проект по защите от угроз Майкрософт, выберите дальнейшие действия после пробного развертывания Microsoft Threat Protection, что делать после оценки защиты от угроз Майкрософт в рабочей среде, перехода от пилотной системы защиты от угроз Майкрософт к развертыванию, безопасности кибератак, расширенной постоянной угрозе, корпоративной безопасности, устройств, устройств, удостоверений, пользователей, данных, приложений, инцидентов, автоматизированного исследования и исправления
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,42 +20,42 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: e56ba8933947c37db3e558ef36dd6d305915040f
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 1617e7b68346673785c72e90e6f5e94193d96488
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487628"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843022"
 ---
-# <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Заключение и подведение итогов для пилотной программы Майкрософт по защите от угроз  
+# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Заключение и подведение итогов для пилотного проекта защитника Microsoft 365  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" >
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Планирование пилотного проекта Microsoft Threat protection" />
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="Планирование пилотного проекта Microsoft 365 Defender" />
       <br/>Планирование </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Подготовка пробной лаборатории или пилотной среды Майкрософт для защиты от угроз" />
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Подготовка пробной лаборатории или пилотной среды защитника Microsoft 365" />
       <br/>Подготовка </a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Запуск эмуляции атак Майкрософт для защиты от угроз" />
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Запуск имитации атак в защитнике Microsoft 365" />
       <br/>Имитация атаки </a><br>
     </td>
     <td align="center"bgcolor="#d5f5e3">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Закрываете и обобщает свой пилотный проект Майкрософт по защите от угроз." />
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Закрываете и обобщает свой пилотный проект защитника Microsoft 365" />
       <br/>Закрытие и подведение итогов </a><br>
     </td>
   </tr>
@@ -77,7 +77,7 @@ ms.locfileid: "48487628"
 
 В настоящее время вы находитесь на этапе закрытия и создания итогов.
 
-Вы только что выполнили расширенную атаку "только для памяти", которая выполнила код удаленно на контроллере домена. Вы увидели, как обнаружение и определение службой "защитник Майкрософт ATP" и Azure ATP для создания оповещений о вредоносных действиях стеалси. Вы также видели, как оповещения из различных источников доставляются вместе с другими контекстными сведениями в один инцидент на портале центра обеспечения безопасности Microsoft 365. Такая интеграция позволяет аналитикам SOC исследовать и предпринимать необходимые действия. Вы также создали Расширенный запрос поиска, который определит входящие сообщения электронной почты, в которых пользователь открыл или сохранил вложение и создал обнаружение на основе этого запроса.
+Вы только что выполнили расширенную атаку "только для памяти", которая выполнила код удаленно на контроллере домена. Вы видели, как защитник Майкрософт для конечной точки и защитник Майкрософт для обнаружения удостоверения и создания оповещений на стеалси вредоносных действиях. Вы также видели, как оповещения из различных источников доставляются вместе с другими контекстными сведениями в один инцидент на портале центра обеспечения безопасности Microsoft 365. Такая интеграция позволяет аналитикам SOC исследовать и предпринимать необходимые действия. Вы также создали Расширенный запрос поиска, который определит входящие сообщения электронной почты, в которых пользователь открыл или сохранил вложение и создал обнаружение на основе этого запроса.
 
 Вы достигли конца процесса после завершения всех тестов.
 
@@ -92,7 +92,7 @@ ms.locfileid: "48487628"
 Мы надеемся, что вы довольны этим моделированием. Начните внедрять то, что вы узнали из большого масштаба в вашей организации, чтобы максимально эффективно использовать встроенную систему безопасности.
 
 ## <a name="next-step"></a>Следующий этап
-Узнайте больше о базовых средствах защиты от угроз Майкрософт с помощью следующих интерактивных руководств:
+Узнайте больше о возвыстях защитника Microsoft 365 с помощью следующих интерактивных руководств:
 - [Защита Организации с помощью защитника Майкрософт для Office 365](https://aka.ms/O365ATP-Interactive-Guide)
 - [Обнаружение подозрительных действий и возможных атак с помощью Microsoft Defender для удостоверений](https://aka.ms/AATP-Interactive-Guide)
 - [Обнаружение угроз и Управление оповещениями с помощью Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)

@@ -1,5 +1,5 @@
 ---
-title: Таблицы данных в схеме расширенной охоты на угрозы в службе защиты от угроз (Майкрософт)
+title: Таблицы данных в схеме "Расширенный Поиск" защитника Microsoft 365
 description: Ознакомьтесь со сведениями о таблицах в схеме расширенной охоты на угрозы, чтобы понять, для каких типов данных можно выполнять запросы на охоту на угрозы
 keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справочник по схеме, Кусто, таблица, данные
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: c23637f2a26f62e3fa1ca50e9f8c75edb7c2b50a
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: d267219cfa36987c7372a42572d00f4441ccd0cd
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429660"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842492"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429660"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -57,7 +57,7 @@ ms.locfileid: "48429660"
 | Имя таблицы | Описание |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Файлы, IP-адреса, URL-адреса, пользователи или устройства, связанные с оповещениями |
-| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Оповещения от Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security и Azure ATP, включая сведения о степени серьезности и классификацию угроз  |
+| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Оповещения от защитника Майкрософт для конечной точки, защитник Майкрософт для Office 365, Microsoft Cloud App Security и защитник Майкрософт для удостоверения, включая сведения о степени серьезности и классификацию угроз  |
 | **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | Действия, связанные с файлами, в облачных приложениях и службах |
 | **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Несколько типов событий, в том числе события, запускаемые такими элементами управления безопасностью, как антивирусная программа "Защитник Windows" и защита от эксплойтов |
 | **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Сведения о сертификате подписанных файлов, полученные из событий проверки сертификатов в конечных точках |

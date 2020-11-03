@@ -1,5 +1,5 @@
 ---
-title: Выполнение действий с расширенными результатами запроса поиска при поиске в Microsoft Threat protection
+title: Выполнение действий расширенного поиска результатов поиска в защитнике Microsoft 365
 description: Быстрое устранение угроз и затронутых ресурсов в расширенных результатах поиска
 keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, выполнение действий
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 7250feffa69cc1a6cc37908a599dff0fab6c5e6c
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 506af82ec08ad6cd8dbeece5c1c2741e09e4817a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429663"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842468"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Выполнение действий с расширенными результатами запроса поиска
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429663"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "48429663"
 - Файлы на карантине
 
 ## <a name="required-permissions"></a>Обязательные разрешения
-Чтобы обеспечить возможность выполнения действий с помощью расширенного поискового значения, вам потребуется роль в Microsoft Defender ATP с [разрешениями на отправку действий по исправлению на устройствах](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options). Если вы не можете выполнить действие, обратитесь к глобальному администратору, чтобы получить следующее разрешение:
+Чтобы обеспечить возможность выполнения действий с помощью расширенного поискового значения, вам потребуется роль в защитнике Майкрософт для конечной точки с [разрешениями на отправку действий по исправлению на устройствах](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options). Если вы не можете выполнить действие, обратитесь к глобальному администратору, чтобы получить следующее разрешение:
 
 *Действия по устранению неполадок > угроз и уязвимостей управления угрозами — обработка исправлений*
 
@@ -55,7 +55,7 @@ ms.locfileid: "48429663"
 - Запуск автоматического исследования для проверки и исправления угроз на устройстве и на других затронутых устройствах
 - Ограничьте выполнение приложения только исполняемыми файлами, подписанными корпорацией Майкрософт, что предотвращает последующие действия с угрозами с помощью вредоносных программ или других недоверенных исполняемых файлов
 
-Чтобы узнать больше о том, как эти действия отклика выполняются с помощью пакета ATP для защитника Microsoft, [прочитайте о действиях с откликом на устройствах](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts).
+Чтобы узнать больше о том, как эти действия отклика выполняются с помощью защитника Майкрософт для конечной точки, [прочитайте о действиях с откликом на устройствах](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts).
    
 ## <a name="quarantine-files"></a>Файлы на карантине
 Вы можете развернуть действие *карантина* для файлов, чтобы они автоматически помещаются в карантин при обнаружении. При выборе этого действия можно выбрать один из следующих столбцов, чтобы определить, какие файлы в результатах запроса следует присвоить карантину:
@@ -76,7 +76,7 @@ ms.locfileid: "48429663"
 ![Изображение выбранной записи с панелью для проверки записи](../../media/mtp-ah/ah-take-actions.png)
 
 ## <a name="review-actions-taken"></a>Просмотр выполненных действий
-Каждое действие записывается отдельно в [центре действий](mtp-action-center.md) в **журнале центра уведомлений**  >  **History** ([Security.Microsoft.com/Action-Center/History](https://security.microsoft.com/action-center/history)). Перейдите в центр уведомлений, чтобы проверить состояние каждого действия.
+Каждое действие записывается отдельно в [центре действий](mtp-action-center.md) в **журнале центра уведомлений**  >  **History** ( [Security.Microsoft.com/Action-Center/History](https://security.microsoft.com/action-center/history)). Перейдите в центр уведомлений, чтобы проверить состояние каждого действия.
  
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

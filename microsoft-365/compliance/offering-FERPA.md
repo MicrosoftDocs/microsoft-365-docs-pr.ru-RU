@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 89f7e0ca95144e783b70e23c21008dcc46328522
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 668a92bf57e61d68d07a2d40e4405cc7bd111580
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208461"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843121"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>Права на образованию семьи и заявление о конфиденциальности (ФЕРПА)
 
@@ -51,7 +51,7 @@ ms.locfileid: "48208461"
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI, PowerApps и Автоматизация управления питанием (ранее — Microsoft Flow) — как самостоятельная служба или как она входит в план или набор Office 365.
 - Azure DevOps Services
-- ATP в Защитнике Windows
+- Microsoft Defender для конечной точки 
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
@@ -70,7 +70,7 @@ ms.locfileid: "48208461"
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
 
-[Диспетчер соответствия требованиям (Майкрософт](compliance-manager.md) ) — это функция в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам оценить уровень соответствия требованиям организации и предпринять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет расширенный шаблон для создания оценки этих нормативных требований. Найдите шаблон на странице " **шаблоны оценки** " в диспетчере соответствия требованиям. Узнайте, как [создавать оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
+[Диспетчер соответствия требованиям (Майкрософт)](compliance-manager.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. Диспетчер соответствия требованиям предоставляет премиум-шаблон для оценки этих нормативных требований. Шаблон находится на странице **шаблонов оценки** в диспетчере соответствия требованиям. См. [Создание оценки в диспетчере соответствия требованиям](compliance-manager-assessments.md).
 
 ## <a name="resources"></a>Ресурсы
 

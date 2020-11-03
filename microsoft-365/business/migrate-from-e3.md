@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как перенести бизнес в Microsoft 365 бизнес премиум из Office 365 E3.
-ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295297"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842167"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Переход с Office 365 E3 на Microsoft 365 бизнес премиум 
 
@@ -51,7 +51,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 | StaffHub    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Входит в состав Office 365 E3](../media/check-mark.png) | 
 | Диспетчер клиентов Outlook, Милеик    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | | 
 | **Защита от угроз**        | | | 
-| Office 365 Advanced Threat protection (ATP), план 1 | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | Не включено, но его можно добавить на | 
+| Защитник для Office 365, план 1 | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | Не включено, но его можно добавить на | 
 | **управление удостоверениями;**        | | | 
 | Самостоятельный сброс паролей для гибридных учетных записей Azure Active Directory (Azure AD), служба Azure Multi-Factor Authentication (MFA), условный доступ, обратная запись пароля для локальных удостоверений|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    |  | 
 | **Управление устройствами и приложениями**        | | |
@@ -80,7 +80,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 - Конфигурации служб производительности и их данные, такие как Teams, почтовые ящики Exchange Online, сайты SharePoint Online, папки OneDrive для бизнеса и записные книжки OneNote.
 - Приложения Office будут масштабироваться автоматически. Современное лицензирование Office 365 будет проверять назначение лицензии пользователя каждые 72 часов и преобразовывать приложения Office в версию, которая соответствует подписке пользователя.
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10;
 
 Если Windows не находится в обновлении Windows Pro Creator, [обновите их до версии Windows Pro](upgrade-to-windows-pro-creators-update.md)Creators.
 
@@ -95,7 +95,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 
 Вы также можете выполнить следующие действия на странице "устройства":
   
-1. В левой панели навигации центра администрирования перейдите к разделу **Devices** \> **политики**устройств.
+1. В левой панели навигации центра администрирования перейдите к разделу **Devices** \> **политики** устройств.
     
 2. На странице " **политики устройств** " нажмите кнопку **Добавить**.
     
@@ -122,7 +122,7 @@ Microsoft 365 Business Premium имеет ограничения на разме
 
 ### <a name="threat-protection"></a>Защита от угроз
 
-После перехода на Microsoft 365 бизнес премиум у вас есть Office 365 ATP. Обзор [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) для просмотра. Чтобы настроить, ознакомьтесь со статьей [Настройка безопасных ссылок ATP](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [Настройка безопасных вложений ATP](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)и [Настройка антифишинга ATP](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
+После перехода на Microsoft 365 Business Premium вы защитник для Office 365. Общие сведения: [защитник Майкрософт для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) . Чтобы настроить, ознакомьтесь со статьей [Настройка безопасных ссылок](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [Настройка безопасных вложений](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)и [Настройка защиты от фишинга в защитнике для Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности
 
