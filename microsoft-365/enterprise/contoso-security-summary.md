@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Как в компании Contoso используются функции безопасности Microsoft 365 для предприятий.
-ms.openlocfilehash: d84b1423497a6a4358142902c4e159cc54b3500b
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 8d62dba96ecf19f0dc31af2cf5a2d85257ca19d5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754236"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847110"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Сводка Microsoft 365 для корпоративной безопасности в корпорации Contoso
 
@@ -89,9 +89,9 @@ ms.locfileid: "48754236"
 
   С помощью [антивирусной программы "Защитник Windows"](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) Contoso обеспечивает защиту от вредоносных программ и управляет такой защитой на компьютерах и устройствах под управлением Windows 10 Корпоративная.
 
-- Защита потока электронной почты и ведение журнала аудита почтового ящика с помощью Office 365 Advanced Threat Protection 
+- Защита журнала аудита почтовых ящиков и почтовых ящиков с помощью защитника Майкрософт для Office 365 
 
-  С помощью Exchange Online Protection и [Office 365 Advanced Threat Protection (ATP)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) Contoso обеспечивает защиту от неизвестных вредоносных программ, вирусов и вредоносных URL-адресов, передаваемых по электронной почте.
+  Contoso использует Exchange Online Protection и [защитник для Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) для защиты от неизвестных вредоносных программ, вирусов и вредоносных URL-адресов, передаваемых по электронной почте.
 
   Contoso также включает ведение журнала аудита почтовых ящиков, чтобы определить, кто входит в почтовые ящики пользователей, отправляет сообщения и выполняет другие действия, выполняемые владельцем почтового ящика, делегированным пользователем или администратором.
 
@@ -127,9 +127,9 @@ ms.locfileid: "48754236"
 
 ## <a name="security-management"></a>Управление безопасностью
 
-- Центральная панель мониторинга безопасности для ИТ-отдела с центром безопасности Azure
+- Информационная панель центра безопасности для ИТ с помощью защитника Azure *
 
-  Contoso использует [Центр безопасности Azure](https://azure.microsoft.com/services/security-center/) для представления единой системы безопасности и защиты от угроз, управления политиками безопасности в рабочих нагрузках и реагирования на кибератаки.
+  Contoso использует [защитник Azure *](https://azure.microsoft.com/services/security-center/) для представления единой системы безопасности и защиты от угроз, управления политиками безопасности в рабочих нагрузках и реагирования на кибератаки.
 
 - Центральная панель мониторинга безопасности, доступная пользователям на консоли "Безопасность Windows"
 

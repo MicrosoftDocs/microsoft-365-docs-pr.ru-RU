@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 29af3729260d3d87f0cf17b83beec70da6fb7931
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 1d1756a6f5872fb639bca5f2597b1abac55726f4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208391"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843397"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 Стандарт управления непрерывностью бизнеса
 
@@ -37,8 +37,8 @@ Microsoft является первым поставщиком гипермас�
 
 - [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
-- Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 Germany
-- Advanced Threat Protection в Microsoft Defender
+- Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 для Германии
+- Microsoft Defender для конечной точки
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune

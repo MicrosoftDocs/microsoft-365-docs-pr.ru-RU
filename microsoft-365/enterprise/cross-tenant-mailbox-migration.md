@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 06a82fda31e602ed2feb53d00e8839daf801bf7e
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: a9f983cebfbed1482fca7e44b77c200cbd9574ac
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277487"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847122"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Миграция почтовых ящиков между клиентами (Предварительная версия)
 
@@ -43,7 +43,7 @@ ms.locfileid: "48277487"
 
 В этом разделе не приведены действия, необходимые для подготовки объектов пользователя MailUser в целевом каталоге, а также пример команды для подтверждения пакета миграции. Сведения о том, как [подготовить объекты конечного пользователя к миграции](#prepare-target-user-objects-for-migration) , можно найти в этой статье.
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные требования
 
 Для функции перемещения почтовых ящиков с несколькими клиентами требуется [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts) для создания приложения Azure с особым набором клиентов для безопасного хранения и доступа к сертификату или секрету, используемому для проверки подлинности и авторизации миграции почтовых ящиков от одного клиента к другому, удаляя любые требования для совместного использования сертификатов и секретов между клиентами. 
 
@@ -143,7 +143,7 @@ ms.locfileid: "48277487"
 
 8. Войдите с помощью учетных данных глобального администратора. Когда появится следующий экран, нажмите кнопку **принять**.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="Подготовка клиента к миграции почтовых ящиков.":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-dialog.png" alt-text="Диалоговое окно &quot;принятие разрешений&quot;":::
     
 9. Вернитесь к удаленному сеансу PowerShell и нажмите клавишу ВВОД, чтобы продолжить.
 
@@ -162,11 +162,37 @@ ms.locfileid: "48277487"
 
 1.  Войдите в свой почтовый ящик как параметр – Ресаурцетенантадминемаил, заданный целевым администратором во время установки. Найдите приглашение от целевого клиента и нажмите кнопку **Get Start** (начало работы).
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Подготовка клиента к миграции почтовых ящиков.":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Диалоговое окно с приглашением":::
 
 2. Нажмите кнопку **принять** , чтобы принять приглашение.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Подготовка клиента к миграции почтовых ящиков." -ResourceTenantDomain contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ApplicationId sdf5e87sa-0753-dd88-ad35-c71a15cs8e44c -TargetTenantId 4sdkfo933-3904-sd93-bf9a-sdi39402834
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Диалоговое окно для принятия разрешений":::
+
+   > [!NOTE]
+   > Если вы не получаете это сообщение электронной почты или не можете найти его, администратору целевого клиента предоставляется прямой URL-адрес, который можно предоставить для принятия приглашения. URL-адрес должен находиться в разделе в записи удаленного сеанса PowerShell администратора целевого клиента.
+
+3. В центре администрирования Microsoft 365 или удаленном сеансе PowerShell создайте одну или несколько групп безопасности с включенной поддержкой почты, чтобы управлять списком почтовых ящиков, разрешенных целевым клиентом для получения (перемещения) из исходного клиента в Целевой клиент. Вам не нужно заполнять эту группу заранее, но для запуска процедуры установки (скрипт) необходимо предоставить хотя бы одну группу. Группы вложений не поддерживаются. 
+
+4. Скачайте скрипт SetupCrossTenantRelationshipForTargetResource.ps1 для установки исходного клиента из репозитория GitHub [здесь](https://github.com/microsoft/cross-tenant/releases/tag/Preview). 
+
+5. Создайте удаленное подключение PowerShell к исходному клиенту с разрешениями администратора Exchange. Разрешения глобального администратора не являются обязательными для настройки исходного клиента, только целевой клиент из-за процесса создания приложения Azure.
+
+6. Измените каталог на расположение скрипта или убедитесь, что сценарий в текущий момент сохранен в удаленном сеансе PowerShell.
+
+7. Выполните скрипт со следующими обязательными параметрами и значениями.
+
+    | Параметр | Значение |
+    |-----|------|
+    | — Саурцемаилбоксмовепублишедскопес | Группа безопасности с включенной поддержкой почты, созданная исходным клиентом для удостоверений и почтовых ящиков, которые находятся в области для миграции. |
+    | — Ресаурцетенантдомаин | Имя домена исходного клиента, например fabrikam \. onmicrosoft.com. |
+    | — Таржеттенантдомаин | Имя конечного домена клиента, например contoso \. onmicrosoft.com. |
+    | — ApplicationId | Идентификатор приложения Azure (GUID) приложения, используемого для миграции. Идентификатор приложения доступен на портале Azure (Azure AD, корпоративные приложения, имя приложения, идентификатор приложения) или включено в приглашение.  |
+    | — Таржеттенантид | Идентификатор клиента целевого клиента. Например, идентификатор клиента Azure AD для \. клиента contoso onmicrosoft.com. |
+    |||
+    
+    Пример:
+    ```powershell
+    SetupCrossTenantRelationshipForResourceTenant.ps1 -SourceMailboxMovePublishedScopes "MigScope","MyGroup" -ResourceTenantDomain contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ApplicationId sdf5e87sa-0753-dd88-ad35-c71a15cs8e44c -TargetTenantId 4sdkfo933-3904-sd93-bf9a-sdi39402834
     Exchange setup complete.
 
     ```
@@ -249,7 +275,7 @@ OAuthApplicationId         : sd9890342-3243-3242-fe3w2-fsdade93m0
 
 Миграция пользователей должна присутствовать в целевом клиенте и в системе Exchange Online (как Маилусерс), помеченные определенными атрибутами, чтобы включить перемещение между клиентами. Система не будет перемещаться для пользователей, которые не были настроены должным образом в целевом клиенте. В следующем разделе описываются требования к объекту MailUser для целевого клиента.
 
-### <a name="prerequisites"></a>Необходимые компоненты
+### <a name="prerequisites"></a>Предварительные требования
   
 В целевой организации необходимо убедиться в том, что в целевой организации установлены следующие объекты и атрибуты.  
 
@@ -507,7 +533,7 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
 
 - **Вопрос: Cloud Маилусерс с proxyAddress, не принадлежащим владельцу, MRS перемещает фон.** При создании объектов MailUser целевых клиентов необходимо убедиться, что все SMTP-адреса прокси принадлежат целевой организации клиента. Если proxyAddress SMTP существует на целевом почтовом пользователе, который не принадлежит локальному клиенту, преобразование MailUser в почтовый ящик запрещено. Это связано с обеспечением гарантии того, что объекты почтовых ящиков могут отправлять почту только из доменов, для которых клиент является полномочным (домены, заявленные клиентом): 
 - 
-   - При синхронизации пользователей из локальной сети с помощью Azure AD Connect вы предоставляете локальные объекты MailUser с ExternalEmailAddress, указывающие на исходного клиента, где находится почтовый ящик (laran@contoso \. onmicrosoft.com), и вы отписываете PrimarySMTPAddress как домен, находящийся в целевом клиенте (Лара. Newton@northwind \. com). Эти значения синхронизируются с клиентом, и подготавливается подготовка к миграции для соответствующего пользователя почты. Пример объекта показан здесь.
+   - При синхронизации пользователей из локальной системы с помощью Azure AD Connect вы предоставляете локальные объекты MailUser с ExternalEmailAddress, указывающие на исходного клиента, где находится почтовый ящик (laran@contoso \. onmicrosoft.com), и вы отписываете PrimarySMTPAddress как домен, находящийся в целевом клиенте ( \. Lara.Newton@northwind com). Эти значения синхронизируются с клиентом, и подготавливается подготовка к миграции для соответствующего пользователя почты. Пример объекта показан здесь.
      ```powershell
      target/AADSynced user] PS C> Get-MailUser laran | select ExternalEmailAddress, EmailAddresses   
      ExternalEmailAddress               EmailAddresses 
@@ -516,7 +542,7 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
      ```
 
    > [!Note]
-   > В массиве EmailAddresses/proxyAddresses *отсутствует* * \. com-адрес contoso. onmicrosoft* .
+   > В массиве EmailAddresses/proxyAddresses *отсутствует* *\. com-адрес contoso. onmicrosoft* .
 
 - **Вопрос: объекты MailUser с "внешними" основными SMTP-адресами изменены или сброшены на "внутренние" затребованные домены компании**
 
@@ -618,8 +644,8 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
    | Microsoft Business Center                         |
    | Microsoft MyAnalytics (полнофункциональная версия)                      |
    | Office 365 Advanced eDiscovery                    |
-   | Расширенная защита от угроз Office 365 (план 1)    |
-   | Расширенная защита от угроз Office 365 (план 2)    |
+   | Защитник Майкрософт для Office 365 (план 1)    |
+   | Защитник Майкрософт для Office 365 (план 2)    |
    | Office 365 Privileged Access Management           |
    | Outlook Customer Manager                          |
    | Расширенное шифрование в Office 365                  |

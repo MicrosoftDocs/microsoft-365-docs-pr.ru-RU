@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: bf1c57ee93c6f0e007c1b58e73fb9371799e75c6
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 2b163dc39e56c82ef177b71d197c431c744b12d7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431127"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847408"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48431127"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 `IdentityQueryEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о запросах, выполненных для объектов Active Directory, таких как пользователи, группы, устройства и домены. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 

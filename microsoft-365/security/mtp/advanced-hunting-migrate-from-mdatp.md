@@ -1,6 +1,6 @@
 ---
-title: Перенос расширенных запросов на поиск из пакета ATP для защитника Майкрософт
-description: Узнайте, как настроить запросы ATP для защитника Майкрософт, чтобы их можно было использовать в защите от угроз Майкрософт.
+title: Перенос дополнительных запросов на Поиск от защитника Майкрософт для конечной точки
+description: Узнайте, как настроить защитник Майкрософт для запросов к конечным точкам, чтобы их можно было использовать в защитнике Microsoft 365.
 keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, пакет ATP ATP, мдатп, поиск, запрос, телеметрии, пользовательские обнаружения, схема, Кусто, Microsoft 365, сопоставление
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,39 +20,39 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f56360b28a9fe9de4198d97954a64a429d1d99a5
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 8b69dff94cc5d3ba3331fd6d13b1d7de1402ac47
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429699"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846860"
 ---
-# <a name="migrate-advanced-hunting-queries-from-microsoft-defender-atp"></a>Перенос расширенных запросов на поиск из пакета ATP для защитника Майкрософт
+# <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Перенос дополнительных запросов на Поиск от защитника Майкрософт для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
-Перемещение расширенных рабочих процессов поиска из пакета ATP для защитника Майкрософт в профилактическое слежение за угрозами с помощью более широкого набора данных. В целях защиты от угроз Майкрософт вы получаете доступ к данным из других решений Microsoft 365 для обеспечения безопасности, в том числе:
+Перемещение расширенных рабочих процессов поиска из защитника Майкрософт для конечной точки для профилактического поиска угроз с помощью более широкого набора данных. В защитнике Microsoft 365 вы получаете доступ к данным из других решений для обеспечения безопасности Microsoft 365, в том числе:
 
-- Advanced Threat Protection в Microsoft Defender
-- Office 365 Advanced Threat Protection
+- Microsoft Defender для конечной точки
+- Защитник Майкрософт для Office 365
 - Microsoft Cloud App Security
-- Расширенная защита от угроз Azure
+- Microsoft Defender для удостоверений
 
 >[!NOTE]
->Большинство клиентов пакета ATP для защитника Майкрософт могут [использовать защиту от угроз Майкрософт без дополнительных лицензий](prerequisites.md#licensing-requirements). Чтобы начать перевод расширенных рабочих процессов с помощью средства Microsoft Defender ATP, [включите защиту от угроз Майкрософт](mtp-enable.md).
+>Большинство защитника Майкрософт для конечных пользователей могут [использовать защитник microsoft 365 без дополнительных лицензий](prerequisites.md#licensing-requirements). Чтобы начать переводить расширенные рабочие процессы подпоиска из защитника для конечной точки, [включите Защитник Microsoft 365](mtp-enable.md).
 
-Вы можете выполнить переход, не затрагивая существующие рабочие процессы Microsoft Defender ATP. Сохраненные запросы остаются без изменений, а пользовательские правила обнаружения продолжают выполняться и создавать оповещения. Однако они будут отображаться в защите от угроз Майкрософт. 
+Вы можете выполнить переход, не затрагивая существующий защитник для рабочих процессов конечной точки. Сохраненные запросы остаются без изменений, а пользовательские правила обнаружения продолжают выполняться и создавать оповещения. Однако они будут отображаться в защитнике Microsoft 365. 
 
-## <a name="schema-tables-in-microsoft-threat-protection-only"></a>Таблицы схем только в Microsoft Threat protection
-[Расширенная схема подсистемы защиты от угроз Майкрософт](advanced-hunting-schema-tables.md) предоставляет дополнительные таблицы, содержащие данные из различных решений по безопасности Microsoft 365. Следующие таблицы доступны только в Microsoft Threat protection:
+## <a name="schema-tables-in-microsoft-365-defender-only"></a>Таблицы схем только для защитника Microsoft 365
+[Схема расширенного контроля за защитником microsoft 365](advanced-hunting-schema-tables.md) содержит дополнительные таблицы, содержащие данные из различных решений по безопасности Microsoft 365. Следующие таблицы доступны только в защитнике Microsoft 365:
 
 | Имя таблицы | Описание |
 |------------|-------------|
 | [AlertEvidence](advanced-hunting-alertevidence-table.md) | Файлы, IP-адреса, URL-адреса, пользователи или устройства, связанные с оповещениями |
-| [AlertInfo](advanced-hunting-alertinfo-table.md) | Оповещения из пакета ATP, Office 365 ATP, Microsoft Cloud App Security и Azure ATP, в том числе сведения о степени серьезности и категории угроз  |
+| [AlertInfo](advanced-hunting-alertinfo-table.md) | Оповещения от защитника Майкрософт для конечной точки, защитник Майкрософт для Office 365, Microsoft Cloud App Security и защитник Майкрософт для удостоверения, в том числе сведения о степени серьезности и категории угроз  |
 | [AppFileEvents](advanced-hunting-appfileevents-table.md) | Действия, связанные с файлами, в облачных приложениях и службах |
 | [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) | Сведения о файлах, вложенных в сообщения электронной почты |
 | [EmailEvents](advanced-hunting-emailevents-table.md) | События электронной почты Microsoft 365, в том числе события доставки и блокировки электронной почты |
@@ -64,14 +64,14 @@ ms.locfileid: "48429699"
 | [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md) | Запросы для объектов Active Directory, таких как пользователи, группы, устройства и домены |
 
 ## <a name="map-devicealertevents-table"></a>Таблица Девицеалертевентс карты
-Таблицы `AlertInfo` и `AlertEvidence` таблицы заменяют `DeviceAlertEvents` таблицу в схеме Microsoft Defender ATP. В дополнение к данным о предупреждениях устройств эти две таблицы содержат сведения об оповещениях для удостоверений, приложений и сообщений электронной почты.
+Таблицы `AlertInfo` и `AlertEvidence` таблицы заменяют `DeviceAlertEvents` таблицу в схеме "защитник Майкрософт для конечной точки". В дополнение к данным о предупреждениях устройств эти две таблицы содержат сведения об оповещениях для удостоверений, приложений и сообщений электронной почты.
 
 Используйте приведенную ниже таблицу, чтобы проверить `DeviceAlertEvents` , как столбцы сопоставляются со столбцами в `AlertInfo` `AlertEvidence` таблицах и.
 
 >[!TIP]
 >Помимо столбцов, приведенных в следующей таблице, `AlertEvidence` таблица включает многие другие столбцы, которые обеспечивают более целостное изображение оповещений из различных источников. [Просмотр всех столбцов Алертевиденце](advanced-hunting-alertevidence-table.md) 
 
-| Столбец Девицеалертевентс | Где найти те же данные в защите от угроз Майкрософт |
+| Столбец Девицеалертевентс | Где найти те же данные в защитнике Microsoft 365 |
 |-------------|-----------|-------------|-------------|
 | `AlertId` | `AlertInfo` и  `AlertEvidence` таблицы |
 | `Timestamp` | `AlertInfo` и  `AlertEvidence` таблицы |
@@ -85,17 +85,17 @@ ms.locfileid: "48429699"
 | `RemoteUrl` | `AlertEvidence` приведен |
 | `RemoteIP` | `AlertEvidence` приведен |
 | `AttackTechniques` | `AlertInfo` приведен |
-| `ReportId` | Этот столбец, как правило, используется в Microsoft Defender ATP для обнаружения связанных записей в других таблицах. В целях защиты от угроз Майкрософт можно получить связанные данные непосредственно из `AlertEvidence` таблицы. |
-| `Table` | Этот столбец, как правило, используется в журнале Microsoft Defender ATP для получения дополнительных сведений о событиях в других таблицах. В целях защиты от угроз Майкрософт можно получить связанные данные непосредственно из `AlertEvidence` таблицы. |
+| `ReportId` | Этот столбец обычно используется в защитнике Майкрософт для конечной точки для обнаружения связанных записей в других таблицах. В защитнике Microsoft 365 можно получить связанные данные непосредственно из `AlertEvidence` таблицы. |
+| `Table` | Этот столбец обычно используется в защитнике Майкрософт для конечной точки для дополнительных сведений о событиях в других таблицах. В защитнике Microsoft 365 можно получить связанные данные непосредственно из `AlertEvidence` таблицы. |
 
-## <a name="adjust-existing-microsoft-defender-atp-queries"></a>Настройка существующих запросов ATP для защитника Microsoft
-Запросы ATP для защитника Майкрософт будут работать как есть, если они не ссылаются на `DeviceAlertEvents` таблицу. Чтобы использовать эти запросы в защите от угроз Майкрософт, примените следующие изменения:
+## <a name="adjust-existing-microsoft-defender-for-endpoint-queries"></a>Настройка существующего защитника Майкрософт для запросов к конечным точкам
+Защитник Майкрософт для запросов к конечным точкам будет работать как есть, если они не ссылаются на `DeviceAlertEvents` таблицу. Чтобы использовать эти запросы в защитнике Microsoft 365, примените следующие изменения:
 
 - Замените `DeviceAlertEvents` на `AlertInfo` .
 - Присоединитесь к `AlertInfo` `AlertEvidence` таблицам, `AlertId` чтобы получить эквивалентные данные.
 
 ### <a name="original-query"></a>Исходный запрос
-В следующем запросе `DeviceAlertEvents` для получения оповещений, включающих _powershell.exe_, используется пакет ATP для защитника:
+Следующий запрос использует `DeviceAlertEvents` в защитнике Майкрософт для конечной точки, чтобы получать оповещения, включающие _powershell.exe_ :
 
 ```kusto
 DeviceAlertEvents
@@ -103,7 +103,7 @@ DeviceAlertEvents
 | where AttackTechniques has "PowerShell (T1086)" and FileName == "powershell.exe"
 ```
 ### <a name="modified-query"></a>Измененный запрос
-Приведенный ниже запрос был скорректирован для использования в защите от угроз Майкрософт. Вместо того чтобы проверять имя файла непосредственно из `DeviceAlertEvents` , он присоединяется `AlertEvidence` и проверяет имя файла в этой таблице.
+Следующий запрос был настроен для использования в защитнике Microsoft 365. Вместо того чтобы проверять имя файла непосредственно из `DeviceAlertEvents` , он присоединяется `AlertEvidence` и проверяет имя файла в этой таблице.
 
 ```kusto
 AlertInfo 
@@ -114,7 +114,7 @@ AlertInfo
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Включение Защиты от угроз (Майкрософт)](advanced-hunting-query-language.md)
+- [Включение защитника Microsoft 365](advanced-hunting-query-language.md)
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Расширенные функции Поиск в защитнике Майкрософт ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+- [Расширенный поиск в защитнике Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)

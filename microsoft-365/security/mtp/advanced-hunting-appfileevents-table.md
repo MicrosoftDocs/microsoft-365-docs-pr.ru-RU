@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 5cab6e3fe7a3b4b74989dde360c03d58e0bad46f
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1a7f523e96c0a46c29098f7e5bb2fbb83a4db4bb
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430155"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847660"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430155"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 `AppFileEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о действиях, связанных с файлами, в облачных приложениях и службах, отслеживаемых Microsoft Cloud App Security. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 

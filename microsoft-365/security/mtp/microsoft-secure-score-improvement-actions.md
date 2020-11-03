@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: cb2aad70b8ba6ccd9075513b5f383ede42ebd6c0
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: ff81b6e1a290d928d68cb43b455713183d24f75b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295132"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846644"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Оценка уровня безопасности с помощью оценки безопасности Майкрософт
 
@@ -38,7 +38,7 @@ Microsoft Secure Score — это измерение степени безопа
 
 * Identity (роли & учетных записей Azure Active Directory)
 * Data (Microsoft Information Protection)
-* Device (Microsoft Defender ATP, называемый [рейтингом безопасности Майкрософт для устройств](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
+* Устройство (защитник Майкрософт для конечной точки, известное как [Оценка безопасности Майкрософт для устройств](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * Приложение (электронная почта и облачные приложения, в том числе Office 365 и Microsoft Cloud App Security)
 * Инфраструктура (дальнейшие действия по улучшению сейчас отсутствуют)
 
@@ -57,9 +57,9 @@ Microsoft Secure Score — это измерение степени безопа
 
 Ниже приведены показатели, которые можно добавить в представление общей оценки, чтобы получить более полное изображение общей оценки.
 
-- **Плановая оценка**: показывать планируемую оценку при завершении запланированных действий
-- **Текущий показатель лицензии**: показать оценку, которую можно получить с помощью текущей лицензии корпорации Майкрософт
-- **Достижимый показатель**: показать оценку, которую можно получить с помощью лицензий Майкрософт и принятия текущего риска
+- **Плановая оценка** : показывать планируемую оценку при завершении запланированных действий
+- **Текущий показатель лицензии** : показать оценку, которую можно получить с помощью текущей лицензии корпорации Майкрософт
+- **Достижимый показатель** : показать оценку, которую можно получить с помощью лицензий Майкрософт и принятия текущего риска
 
 Это представление будет выглядеть, как если бы вы включали все возможные представления показателей:
 

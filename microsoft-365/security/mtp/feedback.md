@@ -1,6 +1,6 @@
 ---
-title: Предоставление отзывов о защите от угроз Майкрософт
-description: Обратная связь по продукту с защитой от угроз Майкрософт
+title: Предоставление отзывов о защитнике Microsoft 365
+description: Обратная связь по продукту в защитнике Microsoft 365
 keywords: Отзывы, безопасность m365, безопасность, 365, возможности
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,20 +19,20 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 832442ce392882951d0b960d5f36a864ba59684b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 56f8bd0ff303ff38f8b3a577f6bc7aa58f21a745
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199409"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846737"
 ---
-# <a name="provide-feedback-on-microsoft-threat-protection"></a>Предоставление отзывов о защите от угроз Майкрософт
+# <a name="provide-feedback-on-microsoft-365-defender"></a>Предоставление отзывов о защитнике Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 Ваши отзывы помогут нам лучше защищать среду от расширенных атак. Поделитесь своими впечатлениями, впечатлениями и запросами, предоставив отзыв.
 

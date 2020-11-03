@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Сводка: понимание миграции с Microsoft Cloud для Германии (Microsoft Cloud Deutschland) в службы Office 365 в новых регионах центров обработки данных в Германии'
-ms.openlocfilehash: a77dc43c4c30992d2e50aad94878f9269573db52
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 23ccc30bab5d1045e4716cd637899e20362fc597
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327121"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846944"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Миграция из Microsoft Cloud записей в службы Office 365 в новых регионах центра обработки данных на немецком языке
 
@@ -133,7 +133,7 @@ ms.locfileid: "48327121"
 3. Группы (современные группы)
 4. Профиль Delve
 5. Exchange Online Protection
-6. Расширенная защита от угроз (ATP)
+6. Defender для Office 365
 7. Advanced eDiscovery
 8. Расширенное управление данными
 9. SharePoint Online
@@ -153,7 +153,7 @@ ms.locfileid: "48327121"
 5. MyAnalytics
 6. Рабочая аналитика
 7. Exchange Online Protection
-8. Расширенная защита от угроз (ATP)
+8. Defender для Office 365
 9. Advanced eDiscovery
 10. Расширенное управление безопасностью
 11. Управление правами на доступ к данным
@@ -221,7 +221,7 @@ ms.locfileid: "48327121"
 | Office 365 a1 для преподавателей \_ de (стандардвоффпакк \_ факультет \_ de) | Office 365 a1 для преподавателей ( \_ факультет стандардвоффпакк) |
 | Office 365 a1 для учащихся \_ de (стандардвоффпакк \_ Student \_ de) | Office 365 a1 для учащихся (СТАНДАРДВОФФПАКК \_ Student) |
 | Office 365 Advanced соответствие \_ "de" (EQUIVIO \_ Analytics \_ de) | Соответствие требованиям Microsoft 365 ( \_ соответствие требованиям к защите информации \_ ) |
-| Office 365 Advanced Threat protection (план 1) \_ de (ATP \_ Enterprise \_ de) | Office 365 Advanced Threat protection (план 1) (ATP \_ Enterprise) |
+|Защитник Майкрософт для Office 365 (план 1) \_ de (ATP \_ Enterprise \_ de) |Защитник Майкрософт для Office 365 (план 1) (ATP \_ Enterprise) |
 | Office 365 бизнес Essentials \_ de (O365 \_ бизнес \_ основные компоненты \_ de) | Microsoft 365 бизнес базовый (Office 365 \_ бизнес основные \_ компоненты) |
 | Office 365 бизнес премиум \_ de (O365 \_ бизнес \_ премиум \_ de) | Microsoft 365 бизнес Standard (O365 \_ бизнес \_ премиум) |
 | Office 365 для бизнеса \_ de (Office 365 для бизнеса \_ \_ de) | Приложения Microsoft 365 для бизнеса (Office 365 \_ бизнес) |

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 212189c89f354b186072bb109f119cf048680d08
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 176f131ad020d001b72b97332d54be71feef5548
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431091"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847420"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -32,9 +32,9 @@ ms.locfileid: "48431091"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
-`IdentityLogonEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о действиях проверки подлинности, выполненных в локальной службе Active Directory, захваченных службой Azure ATP и действиями проверки подлинности, связанными со службами Microsoft Online, записанными в Microsoft Cloud App Security. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+`IdentityLogonEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о действиях проверки подлинности, выполненных администратором Майкрософт в локальной службе Active Directory для действий идентификации и проверки подлинности, относящихся к службам Microsoft Online, захваченным Microsoft Cloud App Security. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 >[!TIP]
 > Для получения подробных сведений о типах событий ( `ActionType` значений), поддерживаемых таблицей, используйте [встроенную справочную](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) информацию о схеме, доступную в центре обеспечения безопасности.

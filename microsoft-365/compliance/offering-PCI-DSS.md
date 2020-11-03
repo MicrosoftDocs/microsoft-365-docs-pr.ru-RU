@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1151fd74e5f40a91107467b6004049081c4a9a69
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 00f9832eadb55b3056ca3fcd3a79ee12afe83034
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208241"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841888"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Стандарт безопасности данных в сфере платежных карт (PCI-DSS)
 
@@ -44,7 +44,7 @@ ms.locfileid: "48208241"
 - Облачная служба Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Microsoft Graph
 - Intune
-- [Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 - OneDrive для бизнеса и SharePoint Online (только Соединенные Штаты)

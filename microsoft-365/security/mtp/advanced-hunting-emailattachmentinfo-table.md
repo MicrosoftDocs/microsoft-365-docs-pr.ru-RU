@@ -19,12 +19,12 @@ mms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: dcacc31f8ea2546cbf90e45a4323a60670a98458
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 87ebf4ca0ff773dd5622097385173f538d990afc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429843"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847480"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -32,11 +32,11 @@ ms.locfileid: "48429843"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 
 
-Таблица `EmailAttachmentInfo` в схеме [расширенного поиска](advanced-hunting-overview.md) содержит информацию о вложениях в сообщения электронной почты, обрабатываемых Office 365 ATP. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+`EmailAttachmentInfo`Таблица в схеме [Advanced поиске](advanced-hunting-overview.md) содержит сведения о вложениях в сообщениях, обработанных защитником майкрософт для Office 365. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -51,7 +51,7 @@ ms.locfileid: "48429843"
 | `FileType` | string | Тип расширения файла |
 | `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `MalwareFilterVerdict` | string | Решение модуля фильтрации электронной почты о том, содержит ли это сообщение вредоносную программу: "Вредоносное" или "Не вредоносное" |
-| `MalwareDetectionMethod` | string | Метод, используемый для обнаружения вредоносных программ в сообщении электронной почты: модуль защиты от вредоносных программ, репутация файлов, безопасные вложения ATP |
+| `MalwareDetectionMethod` | string | Метод, используемый для обнаружения вредоносных программ в сообщении электронной почты: антивредоносный механизм, репутация файлов, безопасные вложения |
 
 ## <a name="related-topics"></a>См. также
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

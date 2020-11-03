@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 33a2bf0b85b9b8561a5dcf32eae6e4cd0cb53765
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 294a3c6c54e28fa03ff6264898e7763325f78c3e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950488"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847772"
 ---
 # <a name="privacy-and-personal-data"></a>Конфиденциальность и персональные данные
 
@@ -56,7 +56,7 @@ ms.locfileid: "47950488"
 |---------|---------|
 |Данные Azure Active Directory     | Используется в отчетах, созданных для администраторов клиентов, доступных на портале администрирования настольных компьютеров Майкрософт.        |
 |Данные Intune     | Используется в отчетах, созданных для администраторов клиентов, доступных на портале администрирования настольных компьютеров Майкрософт.        |
-|Расширенная защита от угроз (ATP) в Microsoft Defender     |  Используется для устранения угроз безопасности, обнаруженных на зарегистрированных устройствах центром безопасности (SOC), управляемом Майкрософт.  |
+|Microsoft Defender для конечной точки     |  Используется для устранения угроз безопасности, обнаруженных на зарегистрированных устройствах центром безопасности (SOC), управляемом Майкрософт.  |
 |Диагностические данные Windows     |Используется для определения состояния обновления управляемых устройств, а также для предоставления и усовершенствования предлагаемого для настольного компьютера ИТ-решения корпорации Майкрософт (Итаас).         |
 |Данные контактов для администратора     | Используется на компьютере, управляемом Майкрософт, для общения с администраторами клиентов.        |
 
@@ -73,7 +73,7 @@ ms.locfileid: "47950488"
 - Данные клиента
 - Ресурсы Azure Active Directory
 - Данные политики и конфигурации
-- Метаданные ATP для защитника Майкрософт
+- Защитник Майкрософт для метаданных конечной точки
 - Диагностические данные Windows
 - Данные об использовании продуктов и служб
 
@@ -87,11 +87,11 @@ ms.locfileid: "47950488"
 
 Данные Intune могут храниться в нескольких разных регионах, например в Европе Севера (Ирландия) и Западной Западной (Нидерланды). Администратор ИТ создает учетную запись клиента и выбирает страну, в которой будут храниться данные при первоначальной регистрации в службах Intune. Список расположений центров обработки данных, используемых Intune, вы найдете в [статье Microsoft Intune — где находятся данные о моих клиентах?](http://intunedatacentermap.azurewebsites.net/). Дополнительные сведения о хранении данных и использовании в Intune см. [в статье сбор данных в Intune](https://docs.microsoft.com/intune/privacy-data-collect).
 
-### <a name="microsoft-defender-advanced-threat-protection"></a>Advanced Threat Protection в Microsoft Defender
+### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender для конечной точки
 
-Данные Advanced Threat protection (ATP) защитника Майкрософт могут храниться в нескольких регионах. По этой причине служба Microsoft Defender ATP работает в центрах обработки данных Microsoft Azure в Европейского союза, Великобритании и США, как указано в разделе ["защитник Майкрософт"](http://intunedatacentermap.azurewebsites.net/). Для получения дополнительных сведений о хранении данных и использовании в защитнике Майкрософт ATP Узнайте, [какие данные собирает сбор данных для пакета ATP для защитника Майкрософт?](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect)
+Защитник Майкрософт для данных конечной точки можно хранить в нескольких регионах. По этой причине защитник для конечной точки работает в центрах обработки данных Microsoft Azure в Европейском профсоюзе, Великобритании и США, как указано в разделе [защитник Майкрософт для конечной точки — места хранения данных](http://intunedatacentermap.azurewebsites.net/). Для получения дополнительных сведений о хранении данных и использовании защитником для конечной точки проверьте, [какие данные выполняет сбор защитника Майкрософт для конечной точки.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect)
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10;
 
 Как указано в заявлении [о конфиденциальности корпорации Майкрософт](https://privacy.microsoft.com/privacystatement), "персональные данные, собранные корпорацией Майкрософт, могут храниться и обрабатываться в вашем регионе, в США и других странах, где корпорации Майкрософт или ее аффилированных лиц, дочерних компаний или поставщиков услуг работают с функциями. [...] Обычно основное место хранения находится в регионе клиента или в США, часто с резервным копированием в центр обработки данных в другом регионе. Места хранения выбираются для эффективного функционирования, повышения производительности и создания избыточности для защиты данных при возникновении сбоя или другой проблемы. Мы предоставим, чтобы данные, собранные в этом заявлении о конфиденциальности, обрабатывались в соответствии с положениями этого заявления и требованиями применимого законодательства везде, где расположены данные. "
 
@@ -138,5 +138,5 @@ ms.locfileid: "47950488"
 
 - [Azure Active Directory](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure?view=o365-worldwide)
 - [Microsoft Intune](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-intune?view=o365-worldwide)
-- [ATP в Microsoft Defender](https:/docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
-- [Windows 10](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance)
+- [Защитник Майкрософт для конечной точки](https:/docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [Windows 10](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance)

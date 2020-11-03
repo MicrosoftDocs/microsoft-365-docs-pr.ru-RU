@@ -1,5 +1,5 @@
 ---
-title: Обработка ошибок в расширенном поиске для защиты от угроз Майкрософт
+title: Обработка ошибок в расширенном поиске для защитника Microsoft 365
 description: Общие сведения об ошибках, отображаемых при расширенном поиске
 keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, схема, Кусто, время ожидания, ресурсы, ошибки, неизвестная ошибка, ограничения, квота, параметры, выделение
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 8b9c46e312d28c7a08efbfa74f96dc33b90fee0a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a5379db66034ecfe537f7d9effdd83f6c41bfd58
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636897"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846896"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Обработка дополнительных ошибок при поиске
 
@@ -45,6 +45,6 @@ ms.locfileid: "48636897"
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Расширенные рекомендации по поиску](advanced-hunting-best-practices.md)
-- [Параметры квот и использования](advanced-hunting-limits.md)
+- [Квоты и параметры использования](advanced-hunting-limits.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Обзор языка запросов Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/)

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Предотвращение нарушений персональных данных с помощью удостоверений, устройств и служб защиты от угроз Microsoft 365.
-ms.openlocfilehash: e084036860f5d15a14ca6c75305583b86a5fc53f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 321b60efbdabe62b14502df4a16dd2dcec4b9cef
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398695"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847182"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Использование удостоверений, устройств и защиты от угроз для обеспечения конфиденциальности данных
 
@@ -70,12 +70,12 @@ Microsoft 365 предоставляет ряд возможностей, кот
 - Потребовать, чтобы мобильные устройства блокировались после неактивности.
 - Потребовать от мобильных устройств очистки при сбоях нескольких входов.
 
-Используйте [Exchange Online Protection и Office 365 Advanced Threat protection (ATP)](../security/office-365-security/office-365-atp.md) для категории **Защита от угроз** , с помощью которой можно выполнить следующие действия:
+Используйте [Exchange Online Protection и защитник Майкрософт для Office 365](../security/office-365-security/office-365-atp.md) для категории **Защита от угроз** , с помощью которой можно выполнить следующие действия:
 
 - Включите проверку подлинности отправителей (SPF, DMARC и DKIM).
-- Настройка политик защиты от фишинга для Office 365 Advanced Threat protection (ATP).
-- Реализация безопасных вложений ATP.
-- Реализация безопасных ссылок ATP.
+- Настройте защитник Майкрософт для политик защиты от фишинга в Office 365.
+- Реализуйте безопасные вложения.
+- Реализуйте безопасные ссылки.
 - Внедрение политик обнаружения и ответа на вредоносные программы.
 - Реализуйте политики исходящей и входящей нежелательной почты.
 
@@ -83,6 +83,6 @@ Microsoft 365 предоставляет ряд возможностей, кот
 
 - [Основные политики доступа для удостоверений и устройств](../security/office-365-security/identity-access-policies.md)
 - [Защита от угроз в Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [Безопасные вложения ATP](../security/office-365-security/atp-safe-attachments.md)
-- [Безопасные ссылки ATP](../security/office-365-security/atp-safe-links.md)
-- [Безопасные документы ATP](../security/office-365-security/safe-docs.md)
+- [Безопасные вложения](../security/office-365-security/atp-safe-attachments.md)
+- [Безопасные ссылки](../security/office-365-security/atp-safe-links.md)
+- [Безопасные документы](../security/office-365-security/safe-docs.md)

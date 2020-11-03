@@ -1,6 +1,6 @@
 ---
-title: Создание тестового оповещения Майкрософт по защите от угроз
-description: Создание тестового оповещения для проверки работы среды лаборатории Microsoft Threat protection
+title: Создание тестового оповещения защитника Microsoft 365
+description: Создание тестового оповещения для пробной работы среды лаборатории защитника Microsoft 365
 keywords: Моделирование защиты от угроз Майкрософт, пробная защита от угроз Майкрософт, создание тестового оповещения в Microsoft Threat Protection, тестовое оповещение в лаборатории оценки защиты от угроз Майкрософт
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,25 +19,25 @@ ms.collection:
 - M365-security-compliance
 - m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: be895138ff524fead6cbea903d978cef1cb49bde
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: a3183ce2651e118a663de0923a90f1223e34bc49
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368109"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846738"
 ---
-# <a name="generate-a-test-alert-in-your-microsoft-threat-protection-evaluation-lab"></a>Создание тестового оповещения в лаборатории оценки Microsoft Threat protection  
+# <a name="generate-a-test-alert-in-your-microsoft-365-defender-evaluation-lab"></a>Создание тестового оповещения в лаборатории оценки защитника Microsoft 365  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
-Теперь, когда вы завершили настройку и настройку лаборатории оценки Microsoft Threat Protection, вы можете запустить моделирование атак с помощью угроз, чтобы воспользоваться возможностями обнаружения, корреляции предупреждений и самовосстановлением решений интегрированной системы безопасности.  
+Теперь, когда вы завершили настройку и настройку лаборатории оценки защитника Microsoft 365, вы можете запустить моделирование атак с помощью угроз, чтобы воспользоваться возможностями обнаружения, корреляции предупреждений и самовосстановлением встроенного решения для обеспечения безопасности.  
 
 1. Вход в https://security.microsoft.com
-2. На домашней странице найдите плитку под названием " **имитация**".  Ознакомьтесь с руководством по созданию тестового инцидента в защите от угроз Майкрософт.
+2. На домашней странице найдите плитку под названием " **имитация** ".  Изучите руководство по созданию тестового инцидента в защитнике Microsoft 365.
 <br>![Изображение имитационной карточки на панели мониторинга безопасности Microsoft 365](../../media/mtp-eval-73.png) <br>
 
 ## <a name="next-steps"></a>Дальнейшие действия

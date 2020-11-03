@@ -17,21 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Объявление элементов записями с использованием меток хранения.
-ms.openlocfilehash: 490f81ba9c1d2d291539107650ec3c3f5938eba8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 34b5272a8bed9be01c3965dae258c88facec0145
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198928"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830608"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Объявление элементов записями с использованием меток хранения
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 Для объявления документов и писем [записями](records-management.md#records) используются [метки хранения](retention.md#retention-labels), помечающие контент как **запись** или как **нормативную запись**.
-
-> [!NOTE]
-> В настоящий момент работа с нормативными записями возможна в предварительной версии.
 
 Если вы не знаете, какой вариант нужно выбрать (запись или нормативную запись), см. статью [Сравнение ограничений на разрешенные или блокируемые действия](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked). Если вам нужно использовать нормативные записи, нужно сначала запустить команду PowerShell, как описано в следующем разделе.
 
@@ -53,7 +50,7 @@ ms.locfileid: "48198928"
     ````
     Этот параметр вводится немедленно без запроса подтверждения.
 
-Если вы передумали и больше не хотите, чтобы этот параметр отображался в мастере меток хранения, вы можете снова скрыть его, запустив тот же командлет со значением **false**: `Set-RegulatoryComplianceUI -Enabled $false` 
+Если вы передумали и больше не хотите, чтобы этот параметр отображался в мастере меток хранения, вы можете снова скрыть его, запустив тот же командлет со значением **false** : `Set-RegulatoryComplianceUI -Enabled $false` 
 
 ## <a name="configuring-retention-labels-to-declare-records"></a>Настройка меток хранения для объявления элементов записями
 

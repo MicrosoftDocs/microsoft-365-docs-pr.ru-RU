@@ -1,5 +1,5 @@
 ---
-title: Функция Ассигнедипаддрессес () в расширенном поиске для защиты от угроз Майкрософт
+title: Функция Ассигнедипаддрессес () в расширенном поиске для защитника Microsoft 365
 description: Узнайте, как использовать функцию Ассигнедипаддрессес () для получения последних IP-адресов, назначенных устройству.
 keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справочник по схемам, Кусто, Филепрофиле, профиле файла, функция, обогащение
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 462a4884e2b17f9ae75ea3bdc1531b180dcc5934
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: cb9dffca148c95f284a6a7e920f3a08a839b748d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430131"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847648"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430131"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 Используйте `AssignedIPAddresses()` функцию в [расширенных](advanced-hunting-overview.md) запросах на поиск для быстрого получения последних IP-адресов, назначенных устройству. Если указать аргумент timestamp, эта функция получает самые последние IP-адреса в указанное время. 
 
@@ -54,8 +54,8 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Аргументы
 
-- **x**— `DeviceId` или `DeviceName` значение, идентифицирующее устройство
-- **y**— `Timestamp` значение DateTime, указывающее функции получить последние назначенные IP-адреса с определенного момента времени. Если этот параметр не указан, функция возвращает последние IP-адреса.
+- **x** — `DeviceId` или `DeviceName` значение, идентифицирующее устройство
+- **y** — `Timestamp` значение DateTime, указывающее функции получить последние назначенные IP-адреса с определенного момента времени. Если этот параметр не указан, функция возвращает последние IP-адреса.
 
 ## <a name="examples"></a>Примеры
 
