@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте защиту от потери данных Microsoft 365 Endpoint для отслеживания действий с файлами и внедрения защитных действий для конечных точек этих файлов.
-ms.openlocfilehash: 82ba434d1874ce57abcf0bcc4b60858e0e2ccbf8
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: 95446e15e656e3c1aa658f897863608311b350e0
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779217"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842043"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Начало работы с функцией защиты от потери данных в конечной точке (предварительная версия)
 
@@ -110,7 +110,7 @@ ms.locfileid: "48779217"
 
 1. Откройте [Центр соответствия требованиям Microsoft](https://compliance.microsoft.com).
 
-2. Откройте параметры Центра соответствия требованиям и выберите **Подключение устройств** . 
+2. Откройте параметры Центра соответствия требованиям и выберите **Подключение устройств**. 
 
    > [!div class="mx-imgBorder"]
    > ![включение управления устройствами](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
@@ -122,7 +122,7 @@ ms.locfileid: "48779217"
 
 4. Нажмите **Подключение** , чтобы начать процесс.
 
-5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания** , а затем **загрузите пакет** .
+5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания** , а затем **загрузите пакет**.
 
    > [!div class="mx-imgBorder"]
    > ![метод развертывания](../media/endpoint-dlp-getting-started-3-deployment-method.png)
@@ -146,16 +146,16 @@ ms.locfileid: "48779217"
 
 1. Откройте [Центр соответствия требованиям Microsoft](https://compliance.microsoft.com).
 
-2. Откройте параметры Центра соответствия требованиям и выберите **Включить отслеживание устройств** .
+2. Откройте параметры Центра соответствия требованиям и выберите **Включить отслеживание устройств**.
 
 3. Выберите **Управление устройствами** , чтобы открыть список **Устройства** Отобразится список устройств, которые уже отправляют отчеты в Microsoft Defender для конечной точки.
 
    > [!div class="mx-imgBorder"]
    > ![управление устройствами](../media/endpoint-dlp-getting-started-2-device-management.png)
    
-4. Чтобы подключить дополнительные устройства, выберите **Подключение** .
+4. Чтобы подключить дополнительные устройства, выберите **Подключение**.
 
-5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания** , а затем **загрузите пакет** .
+5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания** , а затем **загрузите пакет**.
 
 6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает страницу доступа к процедурам с Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
 
@@ -165,7 +165,7 @@ ms.locfileid: "48779217"
     - Подключение компьютеров с Windows 10 с помощью локального сценария
     - Подключение временных компьютеров инфраструктуры виртуальных рабочих столов (VDI).
 
-После подключения конечная точка будет отображаться в таблице **устройств** , а также начнет отправлять отчеты из журнала аудита в **обозреватель действий** .
+После подключения конечная точка будет отображаться в таблице **устройств** , а также начнет отправлять отчеты из журнала аудита в **обозреватель действий**.
 
 > [!NOTE]
 >Эта возможность включает принудительное применение лицензий. Без необходимой лицензии данные не будут видимы или доступны.
@@ -191,7 +191,7 @@ ms.locfileid: "48779217"
 - [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
-- [Microsoft Defender Advanced Threat Protection (ATP в Microsoft Defender)](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)
 - [Средства и методы подключения для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Устройства, подключенные к Azure AD](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)

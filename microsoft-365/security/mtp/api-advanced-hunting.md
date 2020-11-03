@@ -1,6 +1,6 @@
 ---
 title: Расширенные API поисковых интерфейсов
-description: Узнайте, как выполнять расширенные поисковые запросы с помощью API Microsoft Threat protection
+description: Узнайте, как запускать расширенные запросы на поиск с помощью API защитника Microsoft 365.
 keywords: Расширенный поиск, API, API, MTP
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: dd7b02200e370588bbb9470a3d7e897b30234ead
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c43d263009578af6280ffdc780ab0f9a174a3b97
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197813"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844036"
 ---
 # <a name="advanced-hunting-apis"></a>Расширенные API поисковых интерфейсов
 
@@ -32,7 +32,7 @@ ms.locfileid: "48197813"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 >[!IMPORTANT] 
 >Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -46,7 +46,7 @@ ms.locfileid: "48197813"
 
 
 ## <a name="permissions"></a>Разрешения
-Для вызова этого API требуется одно из следующих разрешений. Дополнительные сведения, в том числе выбор разрешений, приведены [в статье Access API защиты от угроз Майкрософт](api-access.md)
+Для вызова этого API требуется одно из следующих разрешений. Дополнительные сведения, в том числе выбор разрешений, приведены [в статье доступ к API защитника Microsoft 365](api-access.md)
 
 Тип разрешения |   Разрешение  |   Отображаемое имя разрешения
 :---|:---|:---
@@ -70,7 +70,7 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
 Авторизация | Bearer {Token}. **Обязательное поле**.
 Content-Type    | application/json
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 В теле запроса добавьте объект JSON со следующими параметрами:
 
 Параметр | Тип    | Описание
@@ -82,7 +82,7 @@ Content-Type    | application/json
 
 Объект Response разделен на 3 части (свойств):<br>
 1) ```Stats``` — Статистика производительности запросов.<br>
-2) ```Schema``` — Схема ответа, список пар "имя — тип" для каждого столбца. <br>
+2) ```Schema``` — Схема ответа, список пар Name-Type для каждого столбца. <br>
 3) ```Results``` — Список событий расширенного поискового элемента.
 
 ## <a name="example"></a>Пример
@@ -168,4 +168,4 @@ Content-Type    | application/json
 ```
 
 ## <a name="related-topic"></a>Связанная тема
-- [Доступ к API защиты от угроз Майкрософт](api-access.md)
+- [Доступ к API-интерфейсам защитника Microsoft 365](api-access.md)

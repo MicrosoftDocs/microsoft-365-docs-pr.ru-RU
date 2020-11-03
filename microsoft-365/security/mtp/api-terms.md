@@ -1,6 +1,6 @@
 ---
-title: Лицензионное соглашение и условия использования API Microsoft Threat protection
-description: Описание лицензии и условий использования API в защите от угроз Майкрософт
+title: Лицензия и условия использования API-интерфейсов Защитника Microsoft 365
+description: Описание лицензии и условий использования API в защитнике Microsoft 365
 keywords: API, API, лицензия, условия, API, юридические, уведомления, кодекс поведения
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,27 +19,27 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d76992108fb3cda82bd9ad9886a2886f70695788
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e88b59ea28f9e71c677c25d95edc2f91cc2e56d4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203681"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844900"
 ---
-#  <a name="microsoft-threat-protection-apis-license-and-terms-of-use"></a>Лицензионное соглашение и условия использования API Microsoft Threat protection
+#  <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Лицензия и условия использования API-интерфейсов Защитника Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 >[!IMPORTANT] 
 >Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 
-## <a name="apis"></a>Программные интерфейсы
+## <a name="apis"></a>Интерфейсы API
 
- API защиты от угроз Майкрософт управляются [лицензией и условиями использования API Microsoft API](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
+ API-интерфейсы защитника Microsoft 365 управляются [лицензионными условиями и условиями использования API Microsoft](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
 
 ### <a name="throttling-limits"></a>Пределы регулирования
 

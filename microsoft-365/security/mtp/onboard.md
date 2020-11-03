@@ -1,7 +1,7 @@
 ---
-title: Настройка возможностей пакета ATP для защитника Майкрософт и управление ими
+title: Настройка и управление защитником Майкрософт для возможностей конечных точек
 ms.reviewer: ''
-description: Настройка и Управление возможностями Microsoft Defender ATP, таких как сокращение возможных направлений атак, защита от следующего поколения и контроль безопасности
+description: Настройка и управление защитником Майкрософт для обеспечения конечных точек, таких как снижение уязвимой зоны и защита следующего поколения
 keywords: Настройка, управление, возможности, сокращение возможных направлений атак, защита следующего поколения, защита от обнаружения конечных точек и ответ, автоматическое исследование и исправление, элементы управления безопасностью, элементы управления
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,33 +18,33 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 64c6e5f7eefad50aa59301de3fd46cae60d6876f
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: b202b30e218448794eac7588078ff3ac9cfe9ee3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429435"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844816"
 ---
-# <a name="configure-and-manage-microsoft-defender-atp-capabilities"></a>Настройка возможностей пакета ATP для защитника Майкрософт и управление ими
+# <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>Настройка и управление защитником Майкрософт для возможностей конечных точек
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
 
-- [Microsoft Defender Advanced Threat Protection (ATP в Microsoft Defender)](https://go.microsoft.com/fwlink/p/?linkid=2069559)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 
-Настройте все возможности пакета ATP для защитника Майкрософт и управляйте ими, чтобы получить лучшую защиту в Организации. 
+Настройте и управляйте всеми защитником Майкрософт для возможностей конечных точек, чтобы обеспечить лучшую защиту в Организации. 
 
 
 ## <a name="in-this-section"></a>В этом разделе 
 Статья | Описание 
 :---|:---
-[Настройка возможностей по уменьшению уязвимой зоны](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Обеспечивая правильную настройку параметров конфигурации и применение методик, связанных с устранением проблем, эти возможности выдают резисторы и используют их. 
+[Настройка возможностей по уменьшению уязвимой зоны](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Обеспечивая правильную настройку параметров конфигурации и применение методик преодоления последствий, эти возможности выделяются от атак на резисторы и в эксплуатацию. 
 [Настройка защиты следующего поколения](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | Настройте защиту следующего поколения для перехвата всех типов новых угроз.
 [Настройка возможностей экспертов по угрозам Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Настраивать и управлять тем, как вы хотели бы получать циберсекуритиную логику угроз от экспертов Майкрософт по угрозе.
-[Настройка интеграции Microsoft Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Настройка других решений, которые интегрируются с защитником Майкрософт ATP.
+[Настройка интеграции защитника Microsoft 365](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Настройка других решений, которые интегрируются с защитником Майкрософт для конечной точки.
 [Поддержка управления и API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| Получение оповещений о SIEM или использование API для создания настраиваемых оповещений. Создавайте и создавайте отчеты Power BI. 
-[Настройка параметров центра безопасности защитника Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  Настройка параметров, связанных с порталом, таких как общие параметры, расширенные функции, разрешение предварительной версии и других.
+[Настройка параметров центра безопасности защитника Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  Настройка параметров, относящихся к порталу, таких как общие параметры, расширенные функции, разрешение предварительной версии и других.
 
 
 

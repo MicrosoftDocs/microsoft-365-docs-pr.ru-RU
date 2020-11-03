@@ -21,19 +21,19 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Сведения о Advanced Threat Protection в Office 365 для файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
-ms.openlocfilehash: e536809c74abbe87e1250acda3f3922180cfae97
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Узнайте о защитнике Майкрософт для Office 365 для файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
+ms.openlocfilehash: 7b007671a7fecb3ae074fd07ce38d17fb025f6b4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446267"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844336"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP для SharePoint, OneDrive и Microsoft Teams
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-ATP для SharePoint, OneDrive и Microsoft Teams в [Office 365 Advanced Threat protection (ATP)](office-365-atp.md) обеспечивает дополнительный уровень защиты для файлов, которые уже были проверены во время отправки с помощью [общего модуля обнаружения вирусов в Microsoft 365](virus-detection-in-spo.md). ATP для SharePoint, OneDrive и Microsoft Teams помогает обнаруживать и блокировать существующие файлы, которые определены как вредоносные на сайтах групп и библиотеках документов.
+ATP для SharePoint, OneDrive и Microsoft Teams в [защитнике Майкрософт для Office 365](office-365-atp.md) обеспечивает дополнительный уровень защиты для файлов, которые уже были проверены во время отправки с помощью [общего модуля обнаружения вирусов в Microsoft 365](virus-detection-in-spo.md). ATP для SharePoint, OneDrive и Microsoft Teams помогает обнаруживать и блокировать существующие файлы, которые определены как вредоносные на сайтах групп и библиотеках документов.
 
 Служба ATP для SharePoint, OneDrive и Microsoft Teams по умолчанию отключена. Чтобы включить его, ознакомьтесь со статьей [Включение ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
@@ -59,14 +59,14 @@ ATP для SharePoint, OneDrive и Microsoft Teams в [Office 365 Advanced Threa
 
 ## <a name="view-information-about-malicious-files-detected-by-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Просмотр сведений о вредоносных файлах, обнаруженных ATP для SharePoint, OneDrive и Microsoft Teams
 
-Файлы, идентифицируемые средством ATP, будут отображаться в [отчетах для Office 365 Advanced Threat protection](view-reports-for-atp.md) и в [Проводнике (и обнаружения в режиме реального времени)](threat-explorer.md).
+Файлы, которые определены как вредоносные защитником Майкрософт для Office 365, будут отображаться в [отчетах для защитника Майкрософт для office 365](view-reports-for-atp.md) и в [Проводнике (в режиме обнаружения в режиме реального времени)](threat-explorer.md).
 
-По достижении мая 2018, когда файл определяется как вредоносный для ATP, он также доступен в карантине. Дополнительные сведения можно найти [в статье Использование центра безопасности & соответствия требованиям для управления файлами, помещенными в карантин](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files).
+В случае мая 2018, если файл определен как вредоносный защитником Майкрософт для Office 365, файл также доступен в карантине. Дополнительные сведения можно найти [в статье Использование центра безопасности & соответствия требованиям для управления файлами, помещенными в карантин](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files).
 
 ## <a name="keep-these-points-in-mind"></a>Помните об этих моментах
 
-- ATP не будет сканировать каждый отдельный файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams. Данное поведение является особенностью продукта. Файлы сканируются асинхронно. Процесс использует события общего доступа и гостевых действий, а также интеллектуальные эвристики и сигналы угроз для определения вредоносных файлов.
+- Защитник для Office 365 не проверяет каждый отдельный файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams. Данное поведение является особенностью продукта. Файлы сканируются асинхронно. Процесс использует события общего доступа и гостевых действий, а также интеллектуальные эвристики и сигналы угроз для определения вредоносных файлов.
 
-- Убедитесь, что сайты SharePoint настроены на использование [современного интерфейса](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). Защита ATP определяет, используется ли современный интерфейс или классическое представление; Однако визуальные индикаторы, заблокированные файлом, доступны только в современном интерфейсе.
+- Убедитесь, что сайты SharePoint настроены на использование [современного интерфейса](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). Защитник для Office 365 Protection определяет, используется ли современный интерфейс или классическое представление; Однако визуальные индикаторы, заблокированные файлом, доступны только в современном интерфейсе.
 
-- ATP для SharePoint, OneDrive и Microsoft Teams является частью общей стратегии защиты от угроз, включающей защиту от нежелательной почты и вредоносных программ в Exchange Online Protection (EOP), а также безопасные ссылки и безопасные вложения в Office 365 ATP. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Office 365](protect-against-threats.md).
+- ATP для SharePoint, OneDrive и Microsoft Teams является частью общей стратегии защиты от угроз, включающей защиту от нежелательной почты и вредоносных программ в Exchange Online Protection (EOP), а также безопасные ссылки и безопасные вложения в защитнике Майкрософт для Office 365. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Office 365](protect-against-threats.md).

@@ -1,6 +1,6 @@
 ---
-title: Работать с расширенными результатами запроса поиска при поиске в Microsoft Threat protection
-description: Предоставление большей части результатов запроса, возвращаемых расширенным поиском в защите от угроз Майкрософт
+title: Работать с расширенными результатами запроса поиска в защитнике Microsoft 365
+description: Пошаговое выполнение большинства результатов запроса, возвращаемых расширенным поиском в защитнике Microsoft 365
 keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, пользовательские обнаружения, схема, Кусто, Microsoft 365, защита от угроз Майкрософт, визуализация, диаграмма, фильтры, детализация
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e19859189b57bbc9a6a4bbfb87fb224b2735331b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: de26989b9092b783a45d27ad2a529720d21169f8
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431079"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844132"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Работать с расширенными результатами запроса поиска
 
@@ -32,7 +32,7 @@ ms.locfileid: "48431079"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 

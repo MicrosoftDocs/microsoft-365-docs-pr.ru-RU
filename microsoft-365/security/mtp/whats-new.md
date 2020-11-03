@@ -1,6 +1,6 @@
 ---
-title: Что нового в службе защиты от угроз (Майкрософт)?
-description: Перечисляет новые функции и функции системы защиты от угроз Майкрософт
+title: Новые возможности защитника Microsoft 365
+description: Список новых функций и функций защитника Microsoft 365
 keywords: новые возможности Microsoft Threat Protection, GA, обычно доступные, возможности, доступные, новые
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 1b3cc273b61fcdff3c01b30c9ef64619a0e7a368
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 5214f7c399ab511ec16231e4dda97a2c33b37668
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430401"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844708"
 ---
-# <a name="whats-new-in-microsoft-threat-protection"></a>Что нового в службе защиты от угроз (Майкрософт)?
+# <a name="whats-new-in-microsoft-365-defender"></a>Новые возможности защитника Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-Приведенные ниже функции обычно доступны в новейшей версии Microsoft Threat protection.
+В последней версии защитника Microsoft 365 доступны следующие функции (GA).
 
 RSS-канал: получите уведомление, когда эта страница будет обновлена, скопировав и вставив следующий URL-адрес в устройство чтения веб-каналов:
 ```http

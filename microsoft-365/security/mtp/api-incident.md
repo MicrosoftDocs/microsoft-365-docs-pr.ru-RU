@@ -1,6 +1,6 @@
 ---
-title: Тип ресурса "инцидент" в API Microsoft Threat protection
-description: Сведения о методах и свойствах типа ресурса инцидента в защите от угроз Майкрософт
+title: Тип ресурса "инцидент" в API защитника Microsoft 365
+description: Сведения о методах и свойствах типа ресурса происшествий в защитнике Microsoft 365
 keywords: инцидент, происшествия, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ac149ca7263b8ef8bb37a7dd18bf0787a3114b37
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 68bee647cdd5687dbaad08ce3cd01b427dabf030
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201307"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844024"
 ---
 # <a name="incident-resource-type"></a>Тип ресурса инцидента
 
@@ -32,7 +32,7 @@ ms.locfileid: "48201307"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 >[!IMPORTANT] 
 >Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.

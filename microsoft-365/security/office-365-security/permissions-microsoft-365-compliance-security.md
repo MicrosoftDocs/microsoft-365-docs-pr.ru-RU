@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43c98e0b710f5b88c17e089fd974e924728f27f3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9ad17933592b860fb81e469fd55a454c90b71320
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202679"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845760"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
 
@@ -99,12 +99,12 @@ ms.locfileid: "48202679"
 |**Центр защиты идентификации**|Все возможности, доступные роли читателя безопасности, плюс выполнение всех операций Центра защиты идентификации, кроме сброса пролей.|
 |[**Управление привилегированными пользователями (PIM)**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Все возможности, доступные роли читателя безопасности. <br/><br/> **Нет возможности** управления назначениями роли Azure Active Directory или ее параметрами.|
 |[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Управление политиками безопасности. <br/><br/> Просмотр и изучение угроз безопасности, а также реагирование на них. <br/><br/> Просмотр отчетов. <br/><br/> Управление метками конфиденциальности.|
-|**Расширенная защита от угроз Azure**|Отслеживание подозрительных действий и реагирование.|
-|**EDR и ATP в Защитнике Windows**|Назначение ролей. <br/><br/> Управление группами компьютеров. <br/><br/> Настройка выявления угроз в конечной точке и автоматизированного исправления. <br/><br/> Просмотр и изучение оповещений, а также реагирование на них.|
+|**Microsoft Defender для удостоверений**|Отслеживание подозрительных действий и реагирование.|
+|**Microsoft Defender для конечной точки и EDR**|Назначение ролей. <br/><br/> Управление группами компьютеров. <br/><br/> Настройка выявления угроз в конечной точке и автоматизированного исправления. <br/><br/> Просмотр и изучение оповещений, а также реагирование на них.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Добавление администраторов, политик и параметров, загрузка журналов и выполнение действий системы управления.|
-|[**Центр безопасности Azure**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (ожидается в ближайшее время)|Просмотр политик и состояний безопасности, изменение политик безопасности, просмотр и отклонение оповещений и рекомендаций.|
-|[**Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
+|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (ожидается в ближайшее время)|Просмотр политик и состояний безопасности, изменение политик безопасности, просмотр и отклонение оповещений и рекомендаций.|
+|[_ *Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
 |
 
 ### <a name="security-operator"></a>Оператор безопасности
@@ -119,7 +119,7 @@ ms.locfileid: "48202679"
 |**Центр защиты идентификации** (ожидается в ближайшее время)|Все возможности, доступные роли читателя безопасности.|
 |[**Управление привилегированными пользователями (PIM)**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Все возможности, доступные роли читателя безопасности.|
 |[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Все возможности, доступные роли читателя безопасности. <br/><br/> Просмотр и изучение угроз безопасности, а также реагирование на них.|
-|**EDR и ATP в Защитнике Windows**|Все возможности, доступные роли читателя безопасности. <br/><br/> Просмотр и изучение оповещений, а также реагирование на них.|
+|**Microsoft Defender для конечной точки и EDR**|Все возможности, доступные роли читателя безопасности. <br/><br/> Просмотр и изучение оповещений, а также реагирование на них.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Все возможности, доступные роли читателя безопасности, плюс просмотр и отклонение оповещений.|
 |[**Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
@@ -134,14 +134,14 @@ ms.locfileid: "48202679"
 |В этой службе…|Возможности читателя сведений о безопасности|
 |---|---|
 |[**Центр безопасности Microsoft 365**](https://security.microsoft.com/)|Просмотр политик, связанных с безопасностью, во всех службах Microsoft 365. <br/><br/> Просмотр угроз безопасности и оповещений. <br/><br/> Просмотр отчетов.|
-|**Центр защиты идентификации**|Чтение всех отчетов безопасности и сведений о параметрах функций безопасности: защита от спама, шифрование, защита от потери данных (DLP), защита от вредоносных программ, расширенная защита от фишинга и правила обработки почты (также называемые правилами транспорта).|
+|**Центр защиты идентификации**|Чтение всех отчетов безопасности и сведений о параметрах функций безопасности: защита от спама, шифрование, защита от потери данных (DLP), защита от вредоносных программ, Defender для Office 365, защита от фишинга и правила обработки почты (также называемые правилами транспорта).|
 |[**Управление привилегированными пользователями (PIM)**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Использует доступ только для чтения для просмотра всех сведений, отображаемых в службе управления привилегированными пользователями (PIM) Azure Active Directory: политик и отчетов для назначения ролей Azure Active Directory, проверок безопасности, а в будущем также данных политик и отчетов, относящихся к сценариям, помимо назначения ролей Azure Active Directory. <br/><br/> **Нет возможности** регистрироваться в службе управления привилегированными пользователями Azure Active Directory или вносить в нее какие-либо изменения. Используя портал службы управления привилегированными пользователями или PowerShell, кто-то в этой роли может активировать дополнительные роли (например, глобальный администратор или администратор привилегированных ролей), если пользователь является допустимым.|
 |[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Просмотр политик безопасности. <br/><br/> Просмотр и изучение угроз безопасности. <br/><br/> Просмотр отчетов.|
-|**EDR и ATP в Защитнике Windows**|Просмотр и изучение оповещений.|
+|**Microsoft Defender для конечной точки и EDR**|Просмотр и изучение оповещений.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Использование разрешений только для чтения с целью просмотра информации. <br/><br/> Управление оповещениями.|
-|[**Центр безопасности Azure**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Просмотр рекомендаций и оповещений. <br/><br/> Просмотр политик безопасности. <br/><br/> Просмотр состояний безопасности, но без внесения изменений.|
-|[**Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
+|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Просмотр рекомендаций и оповещений. <br/><br/> Просмотр политик безопасности. <br/><br/> Просмотр состояний безопасности, но без внесения изменений.|
+|[_ *Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>Глобальный администратор может управлять ролями в Azure Active Directory.
@@ -162,7 +162,7 @@ ms.locfileid: "48202679"
 
 Важно понимать, что когда выполняется управление этими ролями в Azure Active Directory, оно выполняется централизованно для **всех** служб Microsoft 365. Тем не менее, если вы управляете ролью в определенной службе, например в Центре безопасности и соответствия требованиям, вы управляете ролью **только** для такой отдельной службы. Назначения и разрешения для роли в службе переопределяют любые разрешения, предоставленные роли Azure Active Directory.
 
-Это может быть полезно — например, если пользователю назначена роль администратора безопасности, у него не будет разрешений на управление инцидентами. Но вы можете использовать разрешения в службе Advanced Threat Protection в Защитнике Windows для предоставления специального разрешения на управление инцидентами конкретно в этой службе.
+Это может быть полезно — например, если пользователю назначена роль администратора безопасности, у него не будет разрешений на управление инцидентами. Но вы можете использовать разрешения в Microsoft Defender для конечной точки, чтобы предоставить специальное разрешение на управление инцидентами конкретно в этой службе.
 
 ## <a name="where-to-find-role-information-for-each-microsoft-365-service"></a>Где найти сведения о ролях для каждой службы Microsoft 365?
 
@@ -174,7 +174,7 @@ ms.locfileid: "48202679"
 |---|---|
 |Роли администратора в планах Office 365 и Microsoft 365 для бизнеса|[Роли администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)|
 |Azure Active Directory (Azure AD) и защита идентификации Azure Active Directory|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Расширенная защита от угроз Azure|[Группы ролей Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
+|Microsoft Defender для удостоверений|[Группы ролей Microsoft Defender для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Диспетчер соответствия требованиям|[Диспетчер соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-setup#set-user-permissions-and-assign-roles)|
 |Exchange Online|[Управлении доступом на основе ролей в Exchange](https://docs.microsoft.com/exchange/understanding-role-based-access-control-exchange-2013-help)|
@@ -186,7 +186,7 @@ ms.locfileid: "48202679"
 |Оценка безопасности|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |SharePoint Online|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <br/><br/> [Сведения о роли администратора SharePoint в Office 365](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)|
 |Teams и Skype для бизнеса|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Advanced Threat Protection в Защитнике Windows|[Управление доступом на основе ролей в ATP в Защитнике Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)|
+|Microsoft Defender для конечной точки|[Управление доступом на основе ролей в Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)|
 |
 
 ## <a name="what-is-coming-soon"></a>Ожидается в ближайшее время

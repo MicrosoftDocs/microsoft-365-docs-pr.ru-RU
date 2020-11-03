@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ee93840cb6855d776d8fd3007bc6ec7c7f44fa29
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 28f438c80f2da5740f7fcd0a2927fede1af6eb50
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308067"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844072"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для компьютеров, управляемых Майкрософт
 
@@ -57,10 +57,10 @@ URL-адрес компьютера, управляемого Майкрософ
 --- | ---
 Windows 10 Корпоративная, включая обновление Windows для бизнеса | [Управление конечными точками подключений для Windows 10, версия 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)
 Оптимизация доставки | [Настройка оптимизации доставки для обновлений Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
-Microsoft 365 | [Диапазоны URL-адресов и IP-адресов Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
+Microsoft 365 | [Диапазоны URL-адресов и IP-адресов Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | Для [гибридных удостоверений требуются порты и протоколы](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) и [требования к портам доменных служб Active Directory и Active Directory](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Требования к настройке сети Intune](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Конечные точки сети для Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
-Расширенная защита от угроз (ATP) в Microsoft Defender | [Конечные точки ATP защитника (Майкрософт)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
+Microsoft Defender для конечной точки | [Требования к Microsoft Defender для конечных точек](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 Windows Autopilot | [Требования к сети для автопилота Windows](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements)
 
 <!---

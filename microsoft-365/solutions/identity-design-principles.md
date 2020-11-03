@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a1e85b2089663208e8b6004462211263a1b27242
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: fc975610e24980c6a552179359bb643eb9ac040c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547807"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845256"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Для идентификации и за пределами — одна точка зрения архитектора
 
@@ -117,7 +117,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 
 
-### <a name="authorization"></a>Authorization
+### <a name="authorization"></a>Авторизация
 
 "Для авторизации" в " [Википедии](https://en.wikipedia.org/wiki/Authorization)" — определение политики доступа. Многие считают, что это возможность определять элементы управления доступом для объекта (файл, служба и т. д.). В текущем мире угроз кибератак эта концепция быстро развивается до динамической политики, которая может реагировать на различные векторы угроз и быстро настраивать управление доступом в ответ на них. Например, если у меня есть доступ к банковскому счету из нестандартного местоположения, я получаю дополнительные действия по подтверждению. Для этого нам нужно рассмотреть не только саму политику, но и экосистему методологии обнаружения и передачи угроз.
 
@@ -132,11 +132,11 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Если вы соглашаетесь с этим расширенным определением авторизации, вам потребуется реализовать дополнительные решения. Решения, которые вы реализуете, зависят от того, насколько динамично нужна политика и какие угрозы необходимо назначить. Вот некоторые примеры таких систем:
 - [Защита идентификации Azure AD](https://docs.microsoft.com/azure/active-directory/identity-protection/) 
-- Служба [Advanced Threat Protection в Azure](https://docs.microsoft.com/azure-advanced-threat-protection/) (Azure ATP)
-- [Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) (Майкрософт Defender ATP)
-- [Office 365 Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) (Office 365 ATP)
+- [Microsoft Defender для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/)
+- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Защитник Майкрософт для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/) (МКАС)
-- [Защита от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide) (MTP)
+- [Защитник Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide)
 - [Microsoft Intune](https://docs.microsoft.com/mem/intune/)
 - [Защита информации Майкрософт](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) (МИП)
 - [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/) 
@@ -208,7 +208,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Невозможно делегировать все (хотя зазор уменьшается), что означает, что в некоторых случаях потребуется использовать глобальную роль администратора. Следует рассматривать конфигурацию как код и автоматизацию вместо членства в роли сотрудников.
 
-**Note**: центр администрирования Microsoft 365 имеет более удобный для пользователя интерфейс, но обладает подмножеством возможностей по сравнению с интерфейсом администратора Azure AD. Оба портала используют одни и те же роли Azure AD, поэтому изменения происходят в одном месте. Совет. Если вы хотите использовать пользовательский интерфейс администратора управления удостоверениями без несрочных действий Azure, используйте [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
+**Note** : центр администрирования Microsoft 365 имеет более удобный для пользователя интерфейс, но обладает подмножеством возможностей по сравнению с интерфейсом администратора Azure AD. Оба портала используют одни и те же роли Azure AD, поэтому изменения происходят в одном месте. Совет. Если вы хотите использовать пользовательский интерфейс администратора управления удостоверениями без несрочных действий Azure, используйте [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
 
 Что находится в имени? Не следует делать предположения от имени роли. Язык не является очень точным средством. Цель должен быть определением операций, которые необходимо делегировать перед просмотром необходимых ролей. Добавление роли "средство чтения безопасности" не приводит к отображению параметров безопасности для всех. 
 
@@ -242,27 +242,27 @@ XYZ SaaS поддерживает подготовку по требованию
 
 - **Exchange Online** - [https://docs.microsoft.com/exchange/permissions-exo/permissions-exo](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) 
 - **SharePoint Online** - [https://docs.microsoft.com/sharepoint/manage-site-collection-administrators](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators) 
-- **Microsoft Teams**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness ](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
+- **Microsoft Teams**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
 - **Обнаружения электронных данных** - [https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions](https://docs.microsoft.com/microsoft-365/compliance/) 
-  + **Фильтрация разрешений**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search ](https://docs.microsoft.com/microsoft-365/compliance/)
-  + **Ограничения**  -  соответствия требованиям [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries ](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
-  + **Расширенное обнаружение электронных**  -  данных [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 ](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
+  + **Фильтрация разрешений**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search](https://docs.microsoft.com/microsoft-365/compliance/)
+  + **Ограничения**  -  соответствия требованиям [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
+  + **Расширенное обнаружение электронных**  -  данных [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
 - **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins) 
 - **Поддержка нескольких регионов** - [https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin) 
 - **Dynamics 365** — [https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
   Примечание: Эта ссылка относится к корневому каталогу документации. Существует несколько типов служб с вариациями в модели администрирования и делегирования.
-- Платформа управления питанием **Power Platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation ](https://docs.microsoft.com/power-platform/admin/admin-documentation )
-  + **Power Apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security ](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
+- Платформа управления питанием **Power Platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation](https://docs.microsoft.com/power-platform/admin/admin-documentation )
+  + **Power Apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
     Примечание: существует несколько типов с вариантами в моделях администрирования и делегирования.
-  + Автоматизация управления питанием **Power Automate**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin ](https://docs.microsoft.com/power-automate/environments-overview-admin )
-  + **PowerBI**  -  [https://docs.microsoft.com/power-bi/service-admin-governance ](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
+  + Автоматизация управления питанием **Power Automate**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin](https://docs.microsoft.com/power-automate/environments-overview-admin )
+  + **PowerBI**  -  [https://docs.microsoft.com/power-bi/service-admin-governance](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
 Примечание: безопасность платформы данных и делегирование (то есть компонент Power BI является компонентом) — сложная область.
-- **Mem/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control ](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
-- **Пакет ATP**  -  для защитника Майкрософт [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
-- **Защита от угроз Майкрософт** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions)
+- **Mem/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
+- **Защитник Майкрософт для конечной точки**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
+- **Защитник Microsoft 365** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions)
 - **Microsoft Cloud App Security** - [https://docs.microsoft.com/cloud-app-security/manage-admins](https://docs.microsoft.com/cloud-app-security/manage-admins)
-- **Stream (поток**  -  ) [https://docs.microsoft.com/stream/assign-administrator-user-role ](https://docs.microsoft.com/stream/assign-administrator-user-role )
-- **Препятствия**  -  для информации [https://docs.microsoft.com/microsoft-365/compliance/information-barriers ](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
+- **Stream (поток**  -  ) [https://docs.microsoft.com/stream/assign-administrator-user-role](https://docs.microsoft.com/stream/assign-administrator-user-role )
+- **Препятствия**  -  для информации [https://docs.microsoft.com/microsoft-365/compliance/information-barriers](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
 
 Для REST Поиск в документах действительно хорош в последнее: [https://docs.microsoft.com/](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) . 
 
@@ -273,9 +273,9 @@ XYZ SaaS поддерживает подготовку по требованию
 Примеры журналов Microsoft 365, к которым можно получить доступ через другие API, включают следующие:
 - [Azure AD](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (действия, не связанные с Office 365)
 - [Отслеживание сообщений Exchange](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace)
-- Системы угроз и УЕБА, обсуждаемые выше (например, защита удостоверений Azure AD, Microsoft Cloud App Security, Microsoft Defender ATP и т. д.)
+- Системы угроз и УЕБА, обсуждаемые выше (например, Защита идентификации Azure AD, Microsoft Cloud App Security, защитник Майкрософт для конечной точки и т. д.)
 - [Защита информации Майкрософт](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
-- [ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
+- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
 Важно сначала определить все источники журналов, необходимые для программы безопасности и соответствия требованиям. Кроме того, обратите внимание на то, что разные журналы имеют разные пределы хранения в локальной системе. 
@@ -292,7 +292,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Журналы не обязательно должны направляться только в одну позицию. Также может оказаться полезным интегрировать [журналы Office 365 с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) или настраиваемую модель RBAC в [Power BI](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics?view=o365-worldwide). Разные репозитории имеют разные преимущества и аудитории.
 
-Стоит упомянуть о том, что существует очень полнофункциональная встроенная система аналитики для безопасности, угроз, уязвимостей и т. д. в службе под названием [Защита от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide).
+Стоит упомянуть о том, что существует очень полнофункциональная встроенная система аналитики для безопасности, угроз, уязвимостей и т. д. в службе, именуемой [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide).
 
 Многие крупные клиенты хотят перенести эти данные журнала в систему стороннего производителя (например, SIEM). Для этого существуют различные подходы, но в [основном концентраторе событий Azure](https://docs.microsoft.com/azure/azure-monitor/platform/stream-monitoring-data-event-hubs) и [графике](https://docs.microsoft.com/graph/security-integration) являются хорошей отправной точкой.
 
@@ -305,7 +305,7 @@ XYZ SaaS поддерживает подготовку по требованию
 -   Отправьте каждую из них с помощью процесса утверждения (Power Platform).
 -   как только все компоненты будут утверждены, соберите их в единый интерфейс (s) [Microsoft Graph](https://docs.microsoft.com/azure/active-directory/develop/microsoft-graph-intro) , который лучше всего подходит для этих служб.  Невозможен, но значительно сложнее проектировать решение, охватывающее [несколько клиентов](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps).
 
-Управление доступом на основе ролей в Azure (RBAC) обеспечивает детальное управление доступом для Azure. С помощью RBAC можно управлять доступом к ресурсам, предоставляя пользователям минимальные разрешения, необходимые для выполнения заданий. Сведения выходят за рамки этого документа, но дополнительные сведения об [управлении доступом на основе ролей (RBAC) в Azure можно узнать в статье Управление доступом на основе ролей (RBAC).](https://docs.microsoft.com/azure/role-based-access-control/overview) RBAC имеет важное значение, но только часть рекомендаций по управлению для Azure. [Инфраструктура внедрения в облаке](https://docs.microsoft.com/azure/cloud-adoption-framework/govern/) — отличная отправная точка для получения дополнительных сведений. Мне нравится, как мой дружественный пользователь, Андрес Равинет, пошаговое руководство по использованию различных компонентов для принятия решения по подходу. Представление высокого уровня для различных элементов (не так хорошо, как при возврате к реальной клиентской модели) выглядит примерно так:
+Azure Role-Based Access Control (RBAC) обеспечивает детальное управление доступом для Azure. С помощью RBAC можно управлять доступом к ресурсам, предоставляя пользователям минимальные разрешения, необходимые для выполнения заданий. Сведения выходят за рамки этого документа, но дополнительные сведения об [управлении доступом на основе ролей (RBAC) в Azure можно узнать в статье Управление доступом на основе ролей (RBAC).](https://docs.microsoft.com/azure/role-based-access-control/overview) RBAC имеет важное значение, но только часть рекомендаций по управлению для Azure. [Инфраструктура внедрения в облаке](https://docs.microsoft.com/azure/cloud-adoption-framework/govern/) — отличная отправная точка для получения дополнительных сведений. Мне нравится, как мой дружественный пользователь, Андрес Равинет, пошаговое руководство по использованию различных компонентов для принятия решения по подходу. Представление высокого уровня для различных элементов (не так хорошо, как при возврате к реальной клиентской модели) выглядит примерно так:
 
 ![Высокоуровневое представление компонентов Azure для делегированного администрирования](../media/solutions-architecture-center/identity-beyond-illustration-5.png)
 

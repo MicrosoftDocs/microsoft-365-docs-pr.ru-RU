@@ -1,6 +1,6 @@
 ---
-title: Hello World для REST API для защиты от угроз Майкрософт
-description: Узнайте, как создать приложение и использовать маркер для доступа к API Microsoft Threat protection
+title: Hello World для REST API защитника Microsoft 365
+description: Узнайте, как создать приложение и использовать маркер для доступа к API-интерфейсам защитника Microsoft 365.
 keywords: приложение, маркер, доступ, AAD, App, регистрация приложений, PowerShell, сценарий, глобальный администратор, разрешение
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,20 +19,20 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: cdf3f6a0c007763d2772233b1a299d59c931b2e5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: bd4f7e5485d67cf74477900ae2cc5c77f1a6ee41
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201331"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844048"
 ---
-# <a name="hello-world-for-microsoft-threat-protection-rest-api"></a>Hello World для REST API для защиты от угроз Майкрософт 
+# <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Hello World для REST API защитника Microsoft 365 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 >[!IMPORTANT] 
 >Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -52,18 +52,18 @@ ms.locfileid: "48201331"
 
 1. Войдите в [Azure](https://portal.azure.com) с помощью учетной записи **глобального администратора** .
 
-2. Перейдите к разделу Регистрация приложений **Azure Active Directory**с  >  **App registrations**  >  **новой регистрацией**. 
+2. Перейдите к разделу Регистрация приложений **Azure Active Directory** с  >  **App registrations**  >  **новой регистрацией**. 
 
    ![Изображение Microsoft Azure и переход к регистрации приложения](../../media/atp-azure-new-app2.png)
 
 3. В форме регистрации выберите имя приложения и нажмите кнопку **зарегистрировать**.
 
-4. Разрешите приложению получать доступ к пакету Office Defender ATP и назначить ему разрешение " **чтение всех происшествий** ":
+4. Разрешите приложению получить доступ к защитнику Майкрософт для конечной точки и назначить ему разрешение " **чтение всех происшествий** ":
 
-   - На странице приложения выберите **разрешения API**  >  **Добавление разрешений**  >  **интерфейсы API для моей организации используется** > введите **Microsoft Threat protection** и выберите **защиту от угроз Майкрософт**.
+   - На странице приложение выберите **разрешения API**  >  **Добавление разрешений**  >  **API "Моя организация использует** > введите **Microsoft 365 защитник** и выберите **защитник Microsoft 365**.
 
    >[!NOTE]
-   >Защита от угроз Майкрософт не отображается в исходном списке. Чтобы отобразить его имя, необходимо сначала начать его ввод в текстовое поле.
+   >Защитник Microsoft 365 не отображается в исходном списке. Чтобы отобразить его имя, необходимо сначала начать его ввод в текстовое поле.
 
    ![Изображение доступа к API и выбора API](../../media/apis-in-my-org-tab.PNG)
 
@@ -87,7 +87,7 @@ ms.locfileid: "48201331"
 
 6. Добавьте секрет в приложение.
 
-    - Выберите **сертификаты & секреты**, добавьте описание к секрету и нажмите кнопку **Добавить**.
+    - Выберите **сертификаты & секреты** , добавьте описание к секрету и нажмите кнопку **Добавить**.
 
     >[!IMPORTANT]
     > После нажатия кнопки **Добавить** **скопируйте созданное значение секрета**. Вы не сможете получить его после выхода из!
@@ -105,8 +105,8 @@ ms.locfileid: "48201331"
 
 ### <a name="step-2---get-a-token-using-the-app-and-use-this-token-to-access-the-api"></a>Шаг 2. Получите маркер с помощью приложения и используйте этот маркер для доступа к API.
 
--   Скопируйте приведенный ниже скрипт в PowerShell ISE или в текстовый редактор и сохраните его как "**Get-Token.ps1**".
--   При выполнении этого скрипта будет создан маркер, который будет сохранен в рабочей папке под именем "**Latest-token.txt**".
+-   Скопируйте приведенный ниже скрипт в PowerShell ISE или в текстовый редактор и сохраните его как " **Get-Token.ps1** ".
+-   При выполнении этого скрипта будет создан маркер, который будет сохранен в рабочей папке под именем " **Latest-token.txt** ".
 
 ```
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
@@ -143,7 +143,7 @@ return $token
 ### <a name="lets-get-the-incidents"></a>Позволяет получить инциденты!
 
 -   Приведенный ниже скрипт будет использовать **Get-Token.ps1** для доступа к API и будет получать последние обновленные происшествия за последние 48 часов.
--   Сохраните этот скрипт в той же папке, в которой вы сохранили предыдущий **Get-Token.ps1**сценария. 
+-   Сохраните этот скрипт в той же папке, в которой вы сохранили предыдущий **Get-Token.ps1** сценария. 
 -   Сценарий — файл JSON с данными в той же папке, что и скрипты.
 
 ```
@@ -188,6 +188,6 @@ Out-File -FilePath $outputJsonPath -InputObject $incidents
 
 
 ## <a name="related-topic"></a>Связанная тема
-- [Доступ к API защиты от угроз Майкрософт](api-access.md)
-- [Доступ к защите от угроз Майкрософт с помощью контекста приложения](api-create-app-web.md)
-- [Доступ к защите от угроз Майкрософт с помощью контекста пользователя](api-create-app-user-context.md)
+- [Доступ к API-интерфейсам защитника Microsoft 365](api-access.md)
+- [Доступ к защитнику Microsoft 365 с контекстом приложения](api-create-app-web.md)
+- [Доступ к защитнику Microsoft 365 с контекстом пользователя](api-create-app-user-context.md)

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Сведения о том, как SharePoint Online обнаруживает вирусы в файлах, отправляемых пользователями, и запрещает пользователям загружать или синхронизировать эти файлы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38d6111fe665e0af79cbd93f534b1058881ff76c
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: f774c9afd0988c504d6207b0e71ee9561312e6b4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327991"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844240"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Встроенная защита от вирусов в SharePoint Online, OneDrive и Microsoft Teams
 
@@ -65,10 +65,10 @@ Microsoft 365 использует общий модуль обнаружени�
 
 Клиенты синхронизации OneDrive не будут скачивать файлы, содержащие вирусы. Клиент выведет уведомление о том, что файл невозможно синхронизировать.
 
-## <a name="extended-capabilities-with-office-365-advanced-threat-protection"></a>Расширенные возможности с Office 365 Advanced Threat protection
+## <a name="extended-capabilities-with-microsoft-defender-for-office-365"></a>Расширенные возможности с помощью защитника Майкрософт для Office 365
 
-В организациях Microsoft 365 с поддержкой [Office 365 Advanced Threat protection (ATP)](office-365-atp.md) , включенных в свою подписку или приобретенных в качестве надстройки, можно включить ATP для SharePoint, OneDrive и Microsoft Teams для расширенных отчетов и защиты. Для получения дополнительных сведений ознакомьтесь [со статьей ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md).
+Microsoft 365 организации с [защитником Майкрософт для Office 365](office-365-atp.md) , включенным в свою подписку или приобретенными в качестве надстройки, могут включить ATP для SharePoint, OneDrive и Microsoft Teams для расширенных отчетов и защиты. Для получения дополнительных сведений ознакомьтесь [со статьей ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Для получения дополнительных сведений о антивирусной борьбе в SharePoint Online, OneDrive и Microsoft Teams, ознакомьтесь со статьей [Защита от угроз](protect-against-threats.md) и [Включение ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).

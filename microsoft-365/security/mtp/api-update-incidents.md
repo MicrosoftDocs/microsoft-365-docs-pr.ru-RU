@@ -1,6 +1,6 @@
 ---
 title: API обновления инцидентов
-description: Узнайте, как обновлять инциденты с помощью API защиты от угроз Майкрософт
+description: Сведения об обновлении инцидентов с помощью API защитника Microsoft 365
 keywords: обновление, API, инцидент
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8ad47453c7163bfac99c17f42986b818cdca603f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3f77980863b0c232166d736a6b557444df98c8ac
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203644"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844840"
 ---
 # <a name="update-incidents-api"></a>API обновления инцидентов
 
@@ -32,7 +32,7 @@ ms.locfileid: "48203644"
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 >[!IMPORTANT] 
 >Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -49,7 +49,7 @@ ms.locfileid: "48203644"
 
 
 ## <a name="permissions"></a>Разрешения
-Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, в том числе как выбирать разрешения, ознакомьтесь со статьей [доступ к API Microsoft Threat protection](api-access.md).
+Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, в том числе как выбирать разрешения, ознакомьтесь со статьей [доступ к API защитника Microsoft 365](api-access.md).
 
 Тип разрешения |   Разрешение  |   Отображаемое имя разрешения
 :---|:---|:---
@@ -75,7 +75,7 @@ PATCH /api/incidents/{id}
 Content-Type | String | application/json. **Обязательное поле**.
 
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 В тексте запроса укажите значения для соответствующих полей, которые необходимо обновить.
 <br>Предыдущие значения существующих свойств, не включенных в текст запроса, будут сохранены или вычислены повторно с учетом изменений, внесенных в значения других свойств. 
 <br>Для лучшей производительности не следует включать существующие значения, которые не были изменены.

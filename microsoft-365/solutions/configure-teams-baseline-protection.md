@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как развернуть команды с базовым уровнем защиты.
-ms.openlocfilehash: ac6974b5625a4eff0fcd11a17c4607a7c2caf97f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 76b60a61812c4d30884825b41ee7220d6686b58b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398869"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845304"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Настройка команд с базовым уровнем защиты
 
@@ -33,13 +33,13 @@ ms.locfileid: "48398869"
 
 На первом этапе рекомендуется настроить базовые политики удостоверений и доступа к устройствам. Дополнительные сведения см. в статье [Рекомендации по политикам безопасности для чатов, групп и файлов Teams](../security/office-365-security/teams-access-policies.md).
 
-Мы также рекомендуем включить основные функции Расширенной защиты от угроз для защиты от вредоносных программ в документах, вложениях и ссылках. Рекомендуем включить все параметры, указанные в таблице ниже.
+Мы также рекомендуем включить основные функции Defender для Office 365 с целью защиты от вредоносных программ в документах, вложениях и ссылках. Рекомендуем включить все параметры, указанные в таблице ниже.
 
-|Параметр|Информация|
+|Параметр|Сведения|
 |:------|:-----------|
-|Безопасные вложения ATP для SPO, OneDrive и Teams|[Безопасные вложения Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
-|Безопасные документы ATP|[Безопасные документы в Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-|Безопасные ссылки ATP для Teams|[Безопасные ссылки Office 365 в Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Безопасные ссылки Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
+|Безопасные вложения для SPO, OneDrive и Teams|[Безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Defender для Office 365 — SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
+|Безопасные документы|[Безопасные документы в Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
+|Безопасные ссылки для Teams|[Безопасные ссылки Office 365 в Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Безопасные ссылки](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
 
 ## <a name="teams-guest-sharing"></a>Предоставление общего доступа гостям в Teams
 
@@ -88,7 +88,7 @@ ms.locfileid: "48398869"
 2. Щелкните **Открыть в SharePoint**.
 3. На панели инструментов сайта SharePoint щелкните значок параметров и выберите **Разрешения для сайта**.
 4. В области **Разрешения для сайта** в разделе **Параметры общего доступа** щелкните **Изменить параметры общего доступа**.
-5. В разделе **Разрешения общего доступа** выберите **Владельцы и участники сайта, и пользователи с правами «Редактировать» могут предоставлять общий доступ к файлам и папкам, но только владельцы сайта могут делиться сайтом**, а затем нажмите кнопку **Сохранить**.
+5. В разделе **Разрешения общего доступа** выберите **Владельцы и участники сайта, и пользователи с правами «Редактировать» могут предоставлять общий доступ к файлам и папкам, но только владельцы сайта могут делиться сайтом** , а затем нажмите кнопку **Сохранить**.
 
 ## <a name="additional-protections"></a>Дополнительная защита
 

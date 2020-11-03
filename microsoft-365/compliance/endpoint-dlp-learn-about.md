@@ -1,5 +1,5 @@
 ---
-title: Сведения о защите от потери данных в конечной точке Microsoft 365
+title: Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Защита от потери данных в конечной точке Microsoft 365 расширяет отслеживание действий с файлами и защитных действий для конечных точек этих файлов. В решениях для обеспечения соответствия требованиям Microsoft 365 файлы являются видимыми '
-ms.openlocfilehash: d9260da3e007885821441c8217e01650823eb8b4
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: cbf4a53658885102226d2b874180f5cc5f264a91
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48768967"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841865"
 ---
-# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Сведения о защите от потери данных в конечной точке Microsoft 365
+# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a>Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)
 
 Защиту от потери данных (DLP) в Microsoft 365 можно использовать для отслеживания действий, принятых в отношении элементов, которые были определены как конфиденциальные, и для защиты от непреднамеренного обмена этими элементами. Подробная информация приведена в статье [Обзор защиты от потери данных](data-loss-prevention-policies.md).
 
@@ -69,7 +69,7 @@ ms.locfileid: "48768967"
 
  Для подключения устройств используйте процедуры, описанные в статье [Начало работы с Защитой от потери данных в конечной точке в Microsoft 365](endpoint-dlp-getting-started.md).
 
-При наличии подключенных устройств с помощью [службы Advanced Threat Protection (ATP в Microsoft Defender)](https://docs.microsoft.com/windows/security/threat-protection/) эти устройства будут автоматически отображаться в списке устройств.
+Если вы подключили устройства с помощью [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/), эти устройства будут автоматически отображаться в списке устройств.
 
 ![список управляемых устройств](../media/endpoint-dlp-learn-about-2-device-list.png)
 
@@ -142,5 +142,5 @@ ms.locfileid: "48768967"
 - [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
-- [Microsoft Defender Advanced Threat Protection (ATP в Microsoft Defender)](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)
 - [Управление рисками в рамках программы предварительной оценки](insider-risk-management.md)

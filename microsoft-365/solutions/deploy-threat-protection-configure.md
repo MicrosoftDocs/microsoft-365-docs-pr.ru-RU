@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7699b31052ecc1bda33630fcf97e9d43875f4ae3
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: f3fa5c82efad0a51adf5e798bd89860e78256e15
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681594"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845316"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Настройка возможностей защиты от угроз в Microsoft 365
 
@@ -49,91 +49,91 @@ ms.locfileid: "48681594"
 - [Конфигурации доступа для удостоверений и устройств](../security/office-365-security/microsoft-365-policies-configurations.md)
 - [Руководство по безопасности для Azure MFA](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
-## <a name="step-2-configure-azure-advanced-threat-protection"></a>Шаг 2: Настройка функции "Advanced Threat Protection в Azure"
+## <a name="step-2-configure-microsoft-defender-for-identity"></a>Шаг 2: Настройка защитника Майкрософт для удостоверения
 
-Служба [Advanced Threat Protection в Azure](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) (Azure ATP) — это решение для обеспечения безопасности на основе облака, которое работает с вашими локальными оповещениями [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) для определения, обнаружения и исследования сложных угроз, скомпрометированных удостоверений и действий по предварительной программе предварительной оценки, направленных в организацию.
+[Защитник Майкрософт для удостоверения](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) — это облачное решение для обеспечения безопасности, которое работает с вашими локальными оповещениями [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) для определения, обнаружения и исследования сложных угроз, скомпрометированных удостоверений и действий по предварительной программе предварительной оценки, направленных в организацию.
 
-Azure ATP позволяет аналитикам и специалистам по безопасности (Секопс), которые испытывают возможность обнаруживать расширенные атаки в гибридных средах, для выполнения следующих операций.
+Защитник Майкрософт для идентификации позволяет аналитикам и специалистам по безопасности, которые испытывают возможность обнаруживать расширенные атаки в гибридных средах, в следующих случаях:
 - Наблюдение за пользователями, поведением сущностей и действиями с помощью анализа на основе обучения.
 - Защищать удостоверения и учетные данные пользователей, хранящиеся в Active Directory.
 - Выявление и расследование подозрительных действий пользователей и продвинутых атак по всей цепочке уничтожений.
 - Предоставьте четкую информацию об инциденте на простой временной шкале для быстрой сортировки.
 
-### <a name="to-set-up-azure-atp"></a>Настройка Azure ATP
+### <a name="to-set-up-microsoft-defender-for-identity"></a>Настройка защитника Майкрософт для удостоверения
 
-![Процесс развертывания Azure ATP](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
+![Процесс развертывания защитника Майкрософт для удостоверения](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
 
-1. [Настройте Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) для защиты основных сред.
+1. [Настройте защитник Майкрософт для удостоверения](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) , чтобы защитить основные среды.
 2. Защитите все [контроллеры домена](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) и [леса](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest).
-3. Интеграция [оповещений Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) в рабочий процесс операций безопасности (секопс).
+3. Интегрируйте [защитник Майкрософт для оповещений об удостоверениях](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) в рабочий процесс операций безопасности (секопс).
 
-### <a name="more-information-about-azure-atp"></a>Дополнительные сведения о Azure ATP
+### <a name="more-information-about-microsoft-defender-for-identity"></a>Дополнительные сведения о защитнике Майкрософт для удостоверения
 
-- [Что такое Azure ATP?](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
-- [Видео: введение в Azure ATP](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
-- [Развертывание Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next)
+- [Что такое защитник Майкрософт для идентификации?](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
+- [Видео: введение в защитник Майкрософт для удостоверения](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
+- [Защитник Майкрософт для развертывания удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next)
 
-## <a name="step-3-turn-on-microsoft-threat-protection"></a>Шаг 3: Включение защиты от угроз Майкрософт
+## <a name="step-3-turn-on-microsoft-365-defender"></a>Шаг 3: включение защитника Microsoft 365
 
-[Защита от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) сочетает в себе сигналы и сочетает в себе возможности в едином решении. Благодаря встроенному решению для защиты от угроз Майкрософт, специалисты по безопасности могут объединить угрозу, чтобы каждый из этих продуктов получал и определил полную область и влияние угрозы. сведения о том, как она была введена в среду, каковы ее влияние и как в настоящее время влияет на организацию. Защита от угроз Майкрософт выполняет автоматические действия по предотвращению или прекращению атак и автовосстановления, затронутых почтовых ящиков, конечных точек и удостоверений пользователей.
+[Защитник Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) сочетает в себе сигналы и сочетает в себе возможности в едином решении. С помощью встроенного решения для защитника Microsoft 365 специалисты по безопасности могут объединить угрозу, чтобы каждый из этих продуктов получал и определил всю область и влияние угрозы. сведения о том, как она была введена в среду, каковы ее влияние и как в настоящее время влияет на организацию. Защитник Microsoft 365 выполняет автоматическое действие, чтобы предотвратить или прекратить атаку и самостоятельное почтовые ящики, конечные точки и удостоверения пользователей.
 
-Защита от угроз Майкрософт объединяет оповещения, происшествия, автоматическое исследование и ответ на рабочие нагрузки (Azure ATP, Office 365 ATP, Microsoft Defender ATP и Microsoft Cloud App Security) в единую область интерфейса прозрачности. После того как вы настроили одну или несколько служб Advanced Threat Protection, включите защиту от угроз Майкрософт. Новые возможности постоянно добавляются к защите от угроз Майкрософт; Рассмотрите возможность принимать функции предварительного просмотра.
+Защитник Microsoft 365 объединяет оповещения, происшествия, автоматическое исследование и ответ на рабочие нагрузки (защитник Майкрософт для удостоверения, защитник Майкрософт для Office 365, защитник Майкрософт для конечной точки и Microsoft Cloud App Security) в единую область интерфейса прозрачности. После настройки одного или нескольких защитника для служб Office 365 включите Защитник Microsoft 365. Новые возможности постоянно добавляются в защитник Microsoft 365; Рассмотрите возможность принимать функции предварительного просмотра.
 
-### <a name="to-set-up-microsoft-threat-protection"></a>Настройка защиты от угроз Майкрософт
+### <a name="to-set-up-microsoft-365-defender"></a>Настройка защитника Microsoft 365
 
-![Процесс развертывания системы защиты от угроз Майкрософт](../media/solutions-architecture-center/deploy-mtp-steps.png) 
+![Процесс развертывания защитника Microsoft 365](../media/solutions-architecture-center/deploy-mtp-steps.png) 
 
 1. [Проверьте предварительные требования](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites).
-2. [Включите защиту от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
+2. [Включите Защитник Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
 3. [Обязательное участие в функциях предварительного просмотра](https://docs.microsoft.com/microsoft-365/security/mtp/preview).
 
-### <a name="more-information-about-microsoft-threat-protection"></a>Дополнительные сведения о защите от угроз Майкрософт
+### <a name="more-information-about-microsoft-365-defender"></a>Дополнительные сведения о защитнике Microsoft 365
 
-- [Что такое защита от угроз (Майкрософт)?](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
-- [Что нового в службе защиты от угроз (Майкрософт)?](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
+- [Что такое защитник Microsoft 365?](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
+- [Новые возможности защитника Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
 
-## <a name="step-4-configure-office-365-advanced-threat-protection"></a>Шаг 4: Настройка Office 365 Advanced Threat protection
+## <a name="step-4-configure-microsoft-defender-for-office-365"></a>Шаг 4: Настройка защитника Майкрософт для Office 365
 
-[Office 365 Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (Office 365 ATP) защищает организацию от вредоносных угроз в сообщениях электронной почты (вложения и URL-адреса), документов Office и средств для совместной работы. В следующей таблице перечислены функции и возможности Office 365 ATP, включенные в Microsoft 365:
+[Защитник Майкрософт для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) защищает организацию от вредоносных угроз в сообщениях электронной почты (вложения и URL-адреса), документов Office и средств для совместной работы. В следующей таблице перечислены функции и возможности Microsoft Defender для Office 365, которые входят в состав Microsoft 365:
 
 |Возможности настройки, защиты и обнаружения|Возможности автоматизации, исследования, исправления и образования|
 |---|---|
-|[Безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Безопасные ссылки](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Безопасные документы](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Защита от фишинга ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Трекеры угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Обозреватель угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Автоматизированный анализ угроз и реагирование на них](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Эмулятор атак](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
+|[Безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Безопасные ссылки](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Безопасные документы](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Защита от фишинга в защитнике для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Трекеры угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Обозреватель угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Автоматизированный анализ угроз и реагирование на них](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Эмулятор атак](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
-С помощью Office 365 ATP сотрудники Организации могут общаться и совместно работать более безопасно, с защитой от угроз для содержимого электронной почты и документов Office.
+С помощью защитника Microsoft для Office 365 сотрудники Организации могут общаться и совместно работать более безопасно, с защитой от угроз для содержимого электронной почты и документов Office.
 
-### <a name="to-set-up-office-365-atp"></a>Настройка Office 365 ATP
+### <a name="to-set-up-microsoft-defender-for-office-365"></a>Настройка защитника Майкрософт для Office 365
 
-![Процесс развертывания Office 365 ATP](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
+![Процесс развертывания защитника Майкрософт для Office 365](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
 
-1. [Установите и настройте политики Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
-2. [Просмотр и использование отчетов Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).
+1. [Установите и настройте защитник Майкрософт для политик Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
+2. [Просмотр и использование защитника Майкрософт для отчетов Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).
 3. [Используйте функцию расследования угроз и возможности реагирования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti).
 
-### <a name="more-information-about-office-365-atp"></a>Дополнительные сведения о пакете Office 365 ATP
+### <a name="more-information-about-microsoft-defender-for-office-365"></a>Дополнительные сведения о защитнике Майкрософт для Office 365
 
-- [Обзор Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
-- [Новые возможности Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
+- [Обзор защитника Майкрософт для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+- [Новые возможности защитника Microsoft для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
 
-## <a name="step-5-configure-microsoft-defender-advanced-threat-protection"></a>Шаг 5: Настройка Advanced Threat Protection в защитнике Майкрософт
+## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>Шаг 5: Настройка защитника Майкрософт для конечной точки
 
-[Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection) (Майкрософт Defender ATP) защищает устройства Организации (также называемые конечными точками) из киберугрозами, расширенных атак и нарушений данных. Группы безопасности могут эффективнее управлять безопасностью конечных точек. Мощные средства помогают организациям справиться с неисправленными системами с помощью обнаружения уязвимостей [и управления угрозами и уязвимости](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt). Автоматизированные функции обнаружения и устранения неполадок, такие [как уменьшение](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)уязвимой зоны, [Защита следующего поколения](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10), [обнаружение конечных точек и ответ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)на них, а также [Автоматическое исследование и устранение](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) помогают обеспечить безопасность устройств от вредоносных программ. Поверх этих возможностей клиенты могут получать уведомления об профилактическых уведомлениях и обращаться к экспертным специалистам Майкрософт по требованию в рамках управляемой службы поискового запроса. 
+[Защитник Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection) защищает устройства Организации (также называемые конечными точками) из киберугрозами, расширенных атак и нарушений данных. Группы безопасности могут эффективнее управлять безопасностью конечных точек. Мощные средства помогают организациям справиться с неисправленными системами с помощью обнаружения уязвимостей [и управления угрозами и уязвимости](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt). Автоматизированные функции обнаружения и устранения неполадок, такие [как уменьшение](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)уязвимой зоны, [Защита следующего поколения](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10), [обнаружение конечных точек и ответ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)на них, а также [Автоматическое исследование и устранение](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) помогают обеспечить безопасность устройств от вредоносных программ. Поверх этих возможностей клиенты могут получать уведомления об профилактическых уведомлениях и обращаться к экспертным специалистам Майкрософт по требованию в рамках управляемой службы поискового запроса. 
 
 
-### <a name="set-up-microsoft-defender-atp"></a>Настройка пакета ATP для защитника Майкрософт
+### <a name="set-up-microsoft-defender-for-endpoint"></a>Настройка защитника Майкрософт для конечной точки
 
-![Процесс развертывания пакета ATP для защитника Microsoft](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
+![Процесс развертывания защитника Майкрософт для конечной точки](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
 
-1. [Подготовка развертывания Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases).
-2. [Настройка развертывания Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
-3. Подключение [к службе Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboarding).
+1. [Подготовьте свой защитник Майкрософт к развертыванию конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases).
+2. [Настройка защитника Майкрософт для развертывания конечных точек](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
+3. Подключение [к защитнику Майкрософт для службы конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboarding).
 4. [Заполните основные задачи администрирования безопасности](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation).
 
-### <a name="more-information-about-microsoft-defender-atp"></a>Дополнительные сведения о программе Microsoft Defender ATP
+### <a name="more-information-about-microsoft-defender-for-endpoint"></a>Дополнительные сведения о защитнике Майкрософт для конечной точки
 
-- [Узнайте больше о защитнике Майкрософт для ATP](https://docs.microsoft.com/windows/security/threat-protection).
-- [Попробуйте пробную версию ATP для защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab).
+- [Узнайте больше о защитнике Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection).
+- [Попробуйте использовать защитник Майкрософт для оценки конечных точек](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab).
 
 ## <a name="step-6-configure-microsoft-cloud-app-security"></a>Шаг 6: Настройка Microsoft Cloud App Security
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e2caa6dd9a2e6838877edb2000e020ddb682ffd5
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: 7d026a91cca3b077e1aeb0d01701b9b496fe8a45
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47417663"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843345"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>Стандарты ISO 9001:2015 "Системы менеджмента качества"
 
@@ -38,7 +38,7 @@ ISO 9001:2015 — это международный стандарт, опред
 - Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 — Германия
 - Microsoft Graph
 - Intune
-- Advanced Threat Protection в Microsoft Defender
+- Microsoft Defender для конечной точки
 - Microsoft Healthcare Bot
 - Компьютеры, управляемые Майкрософт
 - Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365

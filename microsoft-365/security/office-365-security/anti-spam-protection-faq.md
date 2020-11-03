@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут просматривать часто задаваемые вопросы и ответы о защите от нежелательной почты в Exchange Online Protection (EOP).
-ms.openlocfilehash: 2bf2808cc0da6124a0377b52dc46f88b2c8a69e0
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: d2505eea572e512b306cf26c7a57d1dc1b705c0b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445739"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844468"
 ---
 # <a name="anti-spam-protection-faq"></a>Вопросы и ответы о защите от нежелательной почты
 
@@ -59,7 +59,7 @@ ms.locfileid: "48445739"
 
 Дополнительную информацию см. в следующих статьях:
 
-[Рекомендуемые параметры для EOP и безопасности ATP 365 для Office](recommended-settings-for-eop-and-office365-atp.md)
+[Рекомендуемые параметры для EOP и Microsoft Defender для Office 365 Security](recommended-settings-for-eop-and-office365-atp.md)
 
 [Настройка фильтрации подключений в EOP](configure-the-connection-filter-policy.md)
 
@@ -105,9 +105,9 @@ ms.locfileid: "48445739"
 
 Да. Несмотря на то, что мы рекомендуем указать, что запись MX будет направляться в корпорацию Майкрософт, мы понимаем, что вы должны быть законными бизнес-причинами для маршрутизации электронной почты в другое место, кроме Майкрософт.
 
-- **Входящие**: измените записи MX так, чтобы они ссылались на стороннего поставщика, а затем перенаправляют сообщения в EOP для дополнительной обработки. Более подробную информацию можно узнать [в статье Расширенная фильтрация соединителей в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+- **Входящие** : измените записи MX так, чтобы они ссылались на стороннего поставщика, а затем перенаправляют сообщения в EOP для дополнительной обработки. Более подробную информацию можно узнать [в статье Расширенная фильтрация соединителей в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-- **Исходящий трафик**: Настройка маршрутизации промежуточных узлов из Microsoft 365 в конечный сторонний поставщик.
+- **Исходящий трафик** : Настройка маршрутизации промежуточных узлов из Microsoft 365 в конечный сторонний поставщик.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Есть ли у корпорации Майкрософт какая-либо документация о том, как защитить себя от фишинговых сообщений?
 
