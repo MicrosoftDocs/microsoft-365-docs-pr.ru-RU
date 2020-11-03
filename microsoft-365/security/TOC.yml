@@ -410,6 +410,8 @@
               href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
             - name: Политики пользовательской отправки
               href: ./office-365-security/user-submission.md
+            - name: Теги пользователя в Office 365 ATP
+              href: ./office-365-security/user-tags.md
             - name: 'Включение ATP для SharePoint, OneDrive и Microsoft Teams'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Проверка исходящей электронной почты с помощью DKIM
@@ -487,6 +489,8 @@
           items:
             - name: Использование журналов учета угроз
               href: ./office-365-security/threat-trackers.md
+            - name: Просмотр оповещений
+              href: ../compliance/alert-policies.md
             - name: Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Включение надстройки "Пожаловаться на сообщение"
