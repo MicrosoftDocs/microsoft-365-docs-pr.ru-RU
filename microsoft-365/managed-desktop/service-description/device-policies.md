@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a76bae70adeb07d9ea0574a25bac14f89a0a790d
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: 5533284d4a3f55a51b3017a64e4c353b4ec71352
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262221"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846232"
 ---
 # <a name="device-configuration"></a>Конфигурация устройства
 
@@ -53,5 +53,5 @@ ms.locfileid: "48262221"
  ### <a name="additional-security-policies"></a>Дополнительные политики безопасности
 
  Эти политики добавляются для повышения безопасности для строго регулируемых отраслей. 
- - **Мониторинг безопасности**: Корпорация Майкрософт будет отслеживать устройства с помощью [Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Если обнаружена угроза, корпорация Майкрософт уведомляет клиента, изолирует устройство и устранит неполадку удаленно. 
- - **Отключить PowerShell v2**: Microsoft PowerShell версии 2 в августе 2017. Эта функция отключена на всех настольных устройствах, управляемых корпорацией Майкрософт. Дополнительные сведения об этом изменении приведены в статье [Windows PowerShell 2,0 об устаревании](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).
+ - **Мониторинг безопасности** : Корпорация Майкрософт будет отслеживать устройства с помощью [защитника Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Если обнаружена угроза, корпорация Майкрософт уведомляет клиента, изолирует устройство и устранит неполадку удаленно. 
+ - **Отключить PowerShell v2** : Microsoft PowerShell версии 2 в августе 2017. Эта функция отключена на всех настольных устройствах, управляемых корпорацией Майкрософт. Дополнительные сведения об этом изменении приведены в статье [Windows PowerShell 2,0 об устаревании](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).

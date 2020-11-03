@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Обзор сведений о безопасности и службах управления событиями (SIEM) для интеграции с облачными службами и приложениями Microsoft 365
-ms.openlocfilehash: 6d657990417cab2a8cbb1b03b8b79a65c095d1a5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0e582333615d11c500b114225435903cea386ade
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202213"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846404"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция серверов и управления событиями (SIEM) с помощью служб и приложений Microsoft 365
 
@@ -52,13 +52,13 @@ ms.locfileid: "48202213"
 
 |Служба или приложение Microsoft 365|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
 |---|---|---|
-|[Office 365 Advanced Threat Protection](office-365-atp.md)|Журналы аудита|[Интеграция SIEM с Office 365 Advanced Threat protection](siem-integration-with-office-365-ti.md)|
-|[Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)|Конечная точка HTTPS, размещенная в Azure <br/>REST API|[Получение оповещений о средствах SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
+|[Защитник Майкрософт для Office 365](office-365-atp.md)|Журналы аудита|[Интеграция SIEM с защитником Майкрософт для Office 365](siem-integration-with-office-365-ti.md)|
+|[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)|Конечная точка HTTPS, размещенная в Azure <br/>REST API|[Получение оповещений о средствах SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Интеграция журналов|[Интеграция SIEM с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem)|
 |
 
 > [!TIP]
-> Рассмотрим [метку Azure](https://docs.microsoft.com/azure/sentinel/overview). В составе Azure Sentinel имеются соединители для решений Майкрософт. Эти соединители доступны "из поля" и обеспечивают интеграцию в режиме реального времени. Вы можете использовать метку Azure с решениями для защиты от угроз Майкрософт и службами Microsoft 365, в том числе Office 365, Azure AD, Azure ATP, Microsoft Cloud App Security и т. д.
+> Рассмотрим [метку Azure](https://docs.microsoft.com/azure/sentinel/overview). В составе Azure Sentinel имеются соединители для решений Майкрософт. Эти соединители доступны "из поля" и обеспечивают интеграцию в режиме реального времени. Вы можете использовать Azure Sentinel с вашими решениями для защитника Microsoft 365 и службами Microsoft 365, в том числе Office 365, Azure AD, защитник Майкрософт для идентификации, Microsoft Cloud App Security и т. д.
 
 ### <a name="audit-logging-must-be-turned-on"></a>Необходимо включить ведение журнала аудита
 
@@ -70,6 +70,6 @@ ms.locfileid: "48202213"
 
 ## <a name="more-resources"></a>Дополнительные ресурсы
 
-[Интеграция решений безопасности в центре безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
+[Интеграция решений безопасности в защитнике Azure *](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
 [Интеграция оповещений API безопасности Microsoft Graph с SIEM](https://docs.microsoft.com/graph/security-integration)

@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям для автономной защиты Exchange Online (EOP), чтобы настроить их для успешной работы и избежать распространенных ошибок конфигурации.
-ms.openlocfilehash: b734fe87b82c243531944bbd9cf53d22d5b42f53
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: abf68e361293b2a55cd0a382cc376cbfe21236e7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414038"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845952"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Рекомендации по настройке автономной EOP
 
@@ -35,7 +35,7 @@ ms.locfileid: "48414038"
 
 ## <a name="recommended-settings"></a>Рекомендуемые параметры
 
-Мы поможем администраторам безопасности настроить параметры безопасности для удовлетворения потребностей Организации. Несмотря на то, что как правило, в EOP и Office 365 ATP рекомендуется использовать два уровня безопасности: Standard и Option. Эти параметры перечислены в разделе [Рекомендуемые параметры безопасности для EOP и Office 365 ATP](recommended-settings-for-eop-and-office365-atp.md).
+Мы поможем администраторам безопасности настроить параметры безопасности для удовлетворения потребностей Организации. Несмотря на то, что в качестве общего правила существует два уровня безопасности в EOP и защитник Майкрософт для Office 365, рекомендуем: Standard и Option. Эти параметры перечислены в разделе [Рекомендуемые параметры для системы безопасности EOP и защитника Майкрософт для Office 365](recommended-settings-for-eop-and-office365-atp.md).
 
 ### <a name="miscellaneousnon-policy-settings"></a>Параметры прочих и неизменяемых политик
 
@@ -43,7 +43,7 @@ ms.locfileid: "48414038"
 
 ****
 
-|Имя компонента безопасности|Стандартный|Жестк|Примечание|
+|Имя компонента безопасности|Стандартный|Жестк|Комментарий|
 |---|---|---|---|
 |[Настройка SPF для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Да|Да||
 |[Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)|Да|Да||

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a01a0599776c33d46850bcd0a5fbc6c3377056fa
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 3c57f608a8abdb9ce08efa663b7a88d9e4a684aa
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48208301"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843365"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 "Свод правил по управлению информационной безопасностью"
 
@@ -46,7 +46,7 @@ ISO/IEC 27017 является уникальным стандартом, пре
 - [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
 - [Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 — Германия](https://aka.ms/d365-compliance-list)
-- Advanced Threat Protection в Microsoft Defender
+- Microsoft Defender для конечной точки
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune

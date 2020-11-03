@@ -1,6 +1,6 @@
 ---
-title: Общие коды ошибок REST API для защиты от угроз Майкрософт
-description: Сведения об общих кодах ошибок REST API для защиты от угроз Майкрософт
+title: Общие коды ошибок REST API защитника Microsoft 365
+description: Сведения о распространенных кодах ошибок REST API защитника Microsoft 365
 keywords: API, ошибка, коды, распространенные ошибки, MTP, коды ошибок API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,25 +19,25 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 81375b919b52ff895e5ec7014feb747b1a0eae65
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: aceb376662f2b27397aa2332f8929a57d5a3ee03
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201343"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846012"
 ---
-# <a name="common-microsoft-threat-protection-rest-api-error-codes"></a>Общие коды ошибок REST API для защиты от угроз Майкрософт
+# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Общие коды ошибок REST API защитника Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защита от угроз (Майкрософт)
+- Защитник Microsoft 365
 
 >[!IMPORTANT] 
 >Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-Коды ошибок, перечисленные в следующей таблице, могут быть возвращены операцией на любом из API Microsoft Threat protection.
+Коды ошибок, перечисленные в следующей таблице, могут быть возвращены операцией для любого API-интерфейса защитника Microsoft 365.
 
 Каждый ответ на сообщение об ошибке содержит сообщение об ошибке, которое поможет решить эту проблему.
 

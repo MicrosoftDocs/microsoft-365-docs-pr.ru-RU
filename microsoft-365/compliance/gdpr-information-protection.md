@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c9f0a97869f27cbcf5829a15f50bf2905472c28
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 547d79093b65fba37a020781fbfce938d122c943
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398488"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846381"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Защита информации в соответствии с Общим регламентом по защите данных (GDPR) при помощи возможностей Microsoft 365
 
@@ -58,8 +58,8 @@ Azure Active Directory и другие компоненты Microsoft 365 пре
 
 - [Схема для обеспечения безопасности в Office 365: приоритеты на первые 30 и 90 дней, а также на большее количество дней.](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) Эта схема включает рекомендации по реализации возможностей. 
 - [Защита от угроз в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats). Сведения о мерах защиты, которые вы можете принять, см. в центре безопасности Microsoft 365.
-- [Защита от угроз в Windows.](https://docs.microsoft.com/windows/security/threat-protection/) Сведения об Advanced Threat Protection в Защитнике Windows и других возможностях Windows 10.
+- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/). Дополнительные сведения о Microsoft Defender для конечной точки и других возможностях в Windows 10.
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 
 [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/trust-center/privacy/gdpr-overview)
