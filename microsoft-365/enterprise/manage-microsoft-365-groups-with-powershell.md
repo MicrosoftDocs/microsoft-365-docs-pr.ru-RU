@@ -21,16 +21,16 @@ search.appverid:
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
 description: В этой статье рассказывается, как выполнять стандартные задачи управления для групп Microsoft 365 в PowerShell.
-ms.openlocfilehash: c1aa551597644b7f41c3445a791ea27579464f7b
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 1cad2aa39a6b106cbb4dbfbafa995899b2442ed1
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277479"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830619"
 ---
 # <a name="manage-microsoft-365-groups-with-powershell"></a>Управление группами Microsoft 365 с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 В этой статье приводятся инструкции по выполнению стандартных задач управления для групп в Microsoft PowerShell. Кроме того, в нем перечислены командлеты PowerShell для групп. Сведения об управлении сайтами SharePoint можно найти [в статье Управление сайтами SharePoint Online с помощью PowerShell](https://docs.microsoft.com/sharepoint/manage-team-and-communication-sites-in-powershell).
 
@@ -87,7 +87,7 @@ $setting["ClassificationDescriptions"] ="Classification:Description,Classificati
 
 где классификация соответствует строкам в Классификатионлист.
 
-Пример:
+Пример.
 
 ```powershell
 $setting["ClassificationDescriptions"] = "Low Impact: General communication, Medium Impact: Company internal data , High Impact: Data that has regulatory requirements"
@@ -114,7 +114,7 @@ New-UnifiedGroup <HighImpactGroup@constoso.com> -Classification <HighImpact> -Ac
 ## <a name="hide-microsoft-365-groups-from-the-global-address-list"></a>Скрыть группы Microsoft 365 в глобальном списке адресов.
 <a name="BKMK_CreateClassification"> </a>
 
-Вы можете указать, будет ли группа Microsoft 365 отображаться в глобальном списке адресов (GAL) и других списках в Организации. Например, если у вас есть юридическое лицо, которое не должно отображаться в списке адресов, можно остановить отображение этой группы в глобальном списке адресов. Выполните командлет Set – Unified Group, чтобы скрыть группу в списке адресов следующим образом:
+Вы можете указать, будет ли группа Microsoft 365 отображаться в глобальном списке адресов (GAL) и других списках в Организации. Например, если у вас есть юридическое лицо, которое не должно отображаться в списке адресов, можно остановить отображение этой группы в глобальном списке адресов. Выполните командлет Set-Unified Group, чтобы скрыть группу из списка адресов следующим образом:
 
 ```powershell
 Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $true
@@ -125,7 +125,7 @@ Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $tr
 
 Если вы не хотите, чтобы пользователи из других организаций отправляли сообщения электронной почты в группу Microsoft 365, можно изменить параметры этой группы. Она позволит только внутренним пользователям отправлять электронную почту в вашу группу. Если внешний пользователь попытается отправить сообщение в эту группу, оно будет отклонено.
 
-Выполните командлет Set – UnifiedGroup, чтобы обновить этот параметр, как показано ниже.
+Выполните командлет Set-UnifiedGroup, чтобы обновить этот параметр, как показано ниже.
 
 ```powershell
 Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationEnabled $true
@@ -136,7 +136,7 @@ Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationE
 
 Когда отправитель пытается отправить сообщение в группу Microsoft 365, к ним можно будет отобразить подсказка.
 
-Выполните командлет Set – Unified Group, чтобы добавить подсказка в группу:
+Выполните командлет Set-Unified Group, чтобы добавить подсказка в группу:
 
 ```powershell
 Set-UnifiedGroup -Identity "MailTip Group" -MailTip "This group has a MailTip"
@@ -150,7 +150,7 @@ Set-UnifiedGroup -Identity "MailaTip Group" -MailTip "This group has a MailTip" 
 
 ## <a name="change-the-display-name-of-the-microsoft-365-group"></a>Изменение отображаемого имени группы Microsoft 365
 
-Отображаемое имя указывает имя группы Microsoft 365. Это имя можно увидеть в центре администрирования Exchange или в центре администрирования Microsoft 365. Можно изменить отображаемое имя группы или назначить отображаемое имя существующей группе Microsoft 365, выполнив команду Set – UnifiedGroup:
+Отображаемое имя указывает имя группы Microsoft 365. Это имя можно увидеть в центре администрирования Exchange или в центре администрирования Microsoft 365. Можно изменить отображаемое имя группы или назначить отображаемое имя существующей группе Microsoft 365, выполнив команду Set-UnifiedGroup:
 
 ```powershell
 Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
@@ -181,10 +181,10 @@ Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
 |:-----|:-----|
 |[Get — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616182) <br/> |Используйте этот командлет для поиска существующих групп Microsoft 365 и просмотра свойств объекта Group.  <br/> |
 |[Set — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616189) <br/> |Обновление свойств определенной группы Microsoft 365  <br/> |
-|[New — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |Создайте новую группу Microsoft 365. Этот командлет предоставляет минимальный набор параметров. Чтобы задать значения для расширенных свойств, используйте Set – UnifiedGroup после создания новой группы.  <br/> |
+|[New — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |Создайте новую группу Microsoft 365. Этот командлет предоставляет минимальный набор параметров. Чтобы задать значения для расширенных свойств, используйте Set-UnifiedGroup после создания новой группы  <br/> |
 |[Remove — UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616186) <br/> |Удаление существующей группы Microsoft 365  <br/> |
 |[Get — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616194) <br/> |Получение сведений о членстве и владельце для группы Microsoft 365  <br/> |
-|[Add — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |Добавление сотен или тысяч пользователей или новых владельцев в существующую группу Microsoft 365  <br/> |
+|[Add — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |Добавление участников, владельцев и подписчиков в существующую группу Microsoft 365 <br/> |
 |[Remove — Унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616195) <br/> |Удаление владельцев и членов существующей группы Microsoft 365  <br/> |
 |[Get — UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536510) <br/> |Используется для просмотра сведений о фотографии пользователя, связанной с учетной записью. Фотографии пользователей хранятся в Active Directory  <br/> |
 |[Set — UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536511) <br/> |Используется для связывания фотографии пользователя с учетной записью. Фотографии пользователей хранятся в Active Directory  <br/> |
@@ -194,7 +194,7 @@ Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
 
 [Обновление списков рассылки до групп Майкрософт 365](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 
-[Управление пользователями, которые могут создавать группы Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
+[Управление разрешениями пользователей на создание групп Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
 
 [Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
