@@ -16,15 +16,15 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Сведения о действиях по исправлению в автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 1df963a77054e1adc9a290e976be5998d6298436
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Сведения о действиях по исправлению в автоматическом расследовании и возможностях реагирования в защитнике Майкрософт для Office 365 (план 2).
+ms.openlocfilehash: 7dc5c0ba2e320e3f140d26e79e5c2e4a8fde79d7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446631"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844564"
 ---
-# <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a><span data-ttu-id="d927c-104">Просмотр ожидающих или завершенных действий по исправлению, следующих за автоматическим исследованием в Office 365</span><span class="sxs-lookup"><span data-stu-id="d927c-104">View pending or completed remediation actions following an automated investigation in Office 365</span></span>
+# <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a><span data-ttu-id="75b68-104">Просмотр ожидающих или завершенных действий по исправлению, следующих за автоматическим исследованием в Office 365</span><span class="sxs-lookup"><span data-stu-id="75b68-104">View pending or completed remediation actions following an automated investigation in Office 365</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -32,29 +32,29 @@ ms.locfileid: "48446631"
 
 ![Страница "действия по расследованию воздуха"](../../media/air-investigationactionspage.png)
 
-## <a name="approve-or-reject-pending-actions"></a><span data-ttu-id="d927c-106">Утверждение (или отклонение) ожидающих действий</span><span class="sxs-lookup"><span data-stu-id="d927c-106">Approve (or reject) pending actions</span></span>
+## <a name="approve-or-reject-pending-actions"></a><span data-ttu-id="75b68-106">Утверждение (или отклонение) ожидающих действий</span><span class="sxs-lookup"><span data-stu-id="75b68-106">Approve (or reject) pending actions</span></span>
 
-<span data-ttu-id="d927c-107">При просмотре [сведений об исследовании](air-view-investigation-results.md)вы можете утвердить или отклонить все ожидающие действия по исправлению.</span><span class="sxs-lookup"><span data-stu-id="d927c-107">While viewing the [details of an investigation](air-view-investigation-results.md), you can approve or reject any pending remediation actions.</span></span> <span data-ttu-id="d927c-108">Мы рекомендуем сделать это как можно скорее, чтобы завершить автоматическое расследование.</span><span class="sxs-lookup"><span data-stu-id="d927c-108">We recommend doing this as soon as possible so that your automated investigations complete.</span></span>
+<span data-ttu-id="75b68-107">При просмотре [сведений об исследовании](air-view-investigation-results.md)вы можете утвердить или отклонить все ожидающие действия по исправлению.</span><span class="sxs-lookup"><span data-stu-id="75b68-107">While viewing the [details of an investigation](air-view-investigation-results.md), you can approve or reject any pending remediation actions.</span></span> <span data-ttu-id="75b68-108">Мы рекомендуем сделать это как можно скорее, чтобы завершить автоматическое расследование.</span><span class="sxs-lookup"><span data-stu-id="75b68-108">We recommend doing this as soon as possible so that your automated investigations complete.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="d927c-109">Для утверждения или отклонения действий по исправлению необходимы соответствующие разрешения.</span><span class="sxs-lookup"><span data-stu-id="d927c-109">Appropriate permissions are required to approve or reject remediation actions.</span></span> <span data-ttu-id="d927c-110">Ознакомьтесь [с разрешениями, необходимыми для использования возможностей Air](office-365-air.md#required-permissions-to-use-air-capabilities).</span><span class="sxs-lookup"><span data-stu-id="d927c-110">See [Required permissions to use AIR capabilities](office-365-air.md#required-permissions-to-use-air-capabilities).</span></span>
+> <span data-ttu-id="75b68-109">Для утверждения или отклонения действий по исправлению необходимы соответствующие разрешения.</span><span class="sxs-lookup"><span data-stu-id="75b68-109">Appropriate permissions are required to approve or reject remediation actions.</span></span> <span data-ttu-id="75b68-110">Ознакомьтесь [с разрешениями, необходимыми для использования возможностей Air](office-365-air.md#required-permissions-to-use-air-capabilities).</span><span class="sxs-lookup"><span data-stu-id="75b68-110">See [Required permissions to use AIR capabilities](office-365-air.md#required-permissions-to-use-air-capabilities).</span></span>
 
-1. <span data-ttu-id="d927c-111">Перейдите на страницу [https://protection.office.com](https://protection.office.com) и войдите.</span><span class="sxs-lookup"><span data-stu-id="d927c-111">Go to [https://protection.office.com](https://protection.office.com) and sign in.</span></span> <span data-ttu-id="d927c-112">Откроется Центр безопасности & соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="d927c-112">This takes you to the the Security & Compliance Center.</span></span>
+1. <span data-ttu-id="75b68-111">Перейдите на страницу [https://protection.office.com](https://protection.office.com) и войдите.</span><span class="sxs-lookup"><span data-stu-id="75b68-111">Go to [https://protection.office.com](https://protection.office.com) and sign in.</span></span> <span data-ttu-id="75b68-112">Откроется Центр безопасности & соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="75b68-112">This takes you to the the Security & Compliance Center.</span></span>
 
-2. <span data-ttu-id="d927c-113">Перейдите на страницу расследования по **управлению угрозами**  >  **Investigations**.</span><span class="sxs-lookup"><span data-stu-id="d927c-113">Go to **Threat management** > **Investigations**.</span></span>
+2. <span data-ttu-id="75b68-113">Перейдите на страницу расследования по **управлению угрозами**  >  **Investigations**.</span><span class="sxs-lookup"><span data-stu-id="75b68-113">Go to **Threat management** > **Investigations**.</span></span>
 
-3. <span data-ttu-id="d927c-114">В списке исследований выберите элемент в столбце **идентификатор** .</span><span class="sxs-lookup"><span data-stu-id="d927c-114">In the list of investigations, select an item in the **ID** column.</span></span> 
+3. <span data-ttu-id="75b68-114">В списке исследований выберите элемент в столбце **идентификатор** .</span><span class="sxs-lookup"><span data-stu-id="75b68-114">In the list of investigations, select an item in the **ID** column.</span></span> 
 
-4. <span data-ttu-id="d927c-115">Перейдите на вкладку **действия** .</span><span class="sxs-lookup"><span data-stu-id="d927c-115">Select the **Actions** tab.</span></span>
+4. <span data-ttu-id="75b68-115">Перейдите на вкладку **действия** .</span><span class="sxs-lookup"><span data-stu-id="75b68-115">Select the **Actions** tab.</span></span>
 
-5. <span data-ttu-id="d927c-116">Выберите элемент в списке.</span><span class="sxs-lookup"><span data-stu-id="d927c-116">Select an item in the list.</span></span> <span data-ttu-id="d927c-117">(При этом становятся активными кнопки утвердить и отклонить.)</span><span class="sxs-lookup"><span data-stu-id="d927c-117">(This activates the Approve and Reject buttons.)</span></span>
+5. <span data-ttu-id="75b68-116">Выберите элемент в списке.</span><span class="sxs-lookup"><span data-stu-id="75b68-116">Select an item in the list.</span></span> <span data-ttu-id="75b68-117">(При этом становятся активными кнопки утвердить и отклонить.)</span><span class="sxs-lookup"><span data-stu-id="75b68-117">(This activates the Approve and Reject buttons.)</span></span>
 
-6. <span data-ttu-id="d927c-118">Просмотрите доступные сведения о выбранных элементах, а затем либо утвердите, либо отклоните действия.</span><span class="sxs-lookup"><span data-stu-id="d927c-118">Review available information for the item(s) you selected, and then either approve or reject the action(s).</span></span> 
-   - <span data-ttu-id="d927c-119">**Одобрить** разрешает запуск исправления.</span><span class="sxs-lookup"><span data-stu-id="d927c-119">**Approve** allows remediation to begin.</span></span>
-   - <span data-ttu-id="d927c-120">**Отклонить** не предпринимать дальнейших действий</span><span class="sxs-lookup"><span data-stu-id="d927c-120">**Reject** takes no further action</span></span>
+6. <span data-ttu-id="75b68-118">Просмотрите доступные сведения о выбранных элементах, а затем либо утвердите, либо отклоните действия.</span><span class="sxs-lookup"><span data-stu-id="75b68-118">Review available information for the item(s) you selected, and then either approve or reject the action(s).</span></span> 
+   - <span data-ttu-id="75b68-119">**Одобрить** разрешает запуск исправления.</span><span class="sxs-lookup"><span data-stu-id="75b68-119">**Approve** allows remediation to begin.</span></span>
+   - <span data-ttu-id="75b68-120">**Отклонить** не предпринимать дальнейших действий</span><span class="sxs-lookup"><span data-stu-id="75b68-120">**Reject** takes no further action</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="d927c-121">Следующие шаги</span><span class="sxs-lookup"><span data-stu-id="d927c-121">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="75b68-121">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="75b68-121">Next steps</span></span>
 
-- [<span data-ttu-id="d927c-122">Сведения и результаты автоматического исследования в Office 365</span><span class="sxs-lookup"><span data-stu-id="d927c-122">Details and results of an automated investigation in Office 365</span></span>](air-view-investigation-results.md)
+- [<span data-ttu-id="75b68-122">Сведения и результаты автоматического исследования в Office 365</span><span class="sxs-lookup"><span data-stu-id="75b68-122">Details and results of an automated investigation in Office 365</span></span>](air-view-investigation-results.md)
 
-- [<span data-ttu-id="d927c-123">Использование обозревателя угроз</span><span class="sxs-lookup"><span data-stu-id="d927c-123">Use Threat Explorer</span></span>](threat-explorer.md)
+- [<span data-ttu-id="75b68-123">Использование обозревателя угроз</span><span class="sxs-lookup"><span data-stu-id="75b68-123">Use Threat Explorer</span></span>](threat-explorer.md)
