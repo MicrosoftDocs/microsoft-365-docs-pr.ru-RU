@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Узнайте о действиях по настройке Microsoft 365 Business Premium, о том, как подписываться, добавлять домен и пользователей, настраивать политики безопасности и т. д.
-ms.openlocfilehash: fa9c02fa9546437c83b9cc6c1f1e6e0d723ec868
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 8ec01a58d1a15d5c4aa1cef8b81518b474630d8b
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306476"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841148"
 ---
 # <a name="overview-of-setup"></a>Обзор установки
 
@@ -40,21 +40,21 @@ ms.locfileid: "47306476"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Большинство действий по установке можно выполнить с помощью мастера установки, но есть и другие варианты.
+Большинство действий по настройке можно выполнить в руководстве по установке, но Кроме того, указаны другие параметры.
 
 ## <a name="step-1-add-your-domain-and-users"></a>Действие 1. Добавление домена и пользователей
 
-   - **[Добавьте домен](set-up.md#add-your-domain-to-personalize-sign-in)** (если вы приобрели домен в ходе[регистрации](sign-up.md), то это действие уже выполнено.)
+   - **[Добавьте домен](set-up.md#add-your-domain-to-personalize-sign-in)** (если вы приобрели домен в ходе [регистрации](sign-up.md), то это действие уже выполнено.)
 
-   - **Добавление пользователей**. Добавить пользователей можно тремя способами:
-        - В этом [мастере](set-up.md#add-users-in-the-wizard).
+   - **Добавление пользователей** . Добавить пользователей можно тремя способами:
+        - В [руководстве по установке](set-up.md#add-users-in-the-wizard).
         - Воспользуйтесь синхронизацией каталогов, чтобы [добавить пользователей с помощью Azure AD Connect ](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization), если у вас есть локальная служба каталогов Active Directory.
         - Кроме того, вы сможете [добавить пользователей позже](add-users-m365b.md) в Центре администрирования.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Действие 2. Настройка политик безопасности и настройка устройств 
 
-  - Чтобы настроить политики устройств, воспользуйтесь этим [мастером установки](set-up.md#protect-your-organization). 
+  - Использование [интерактивной установки](set-up.md#protect-your-organization) для настройки политик устройств. 
   - Кроме того, вы сможете добавлять новых пользователей или редактировать их в [Центре администрирования](view-policies-and-devices.md) и на [портале Intune](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
   - Мастер установки также настроит основные параметры защиты от угроз и защиты от потери данных.
   
@@ -63,15 +63,15 @@ ms.locfileid: "47306476"
 - **Защита от вредоносных программ в электронной почте**
 - **Защита от фишинга ATP**
 - **Архивация на базе Exchange Online**
-- **Azure Information Protection (план 1**)
+- **Azure Information Protection (план 1** )
 
 Чтобы приступить к работе, ознакомьтесь со статьей [повышение защиты от угроз](increase-threat-protection.md) и [Настройка функций обеспечения соответствия требованиям](set-up-compliance.md).
 
-Кроме того, вы можете ознакомиться с десятью рекомендациями по [обеспечению безопасности Microsoft 365 бизнес премиум](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) в плане рекомендаций по обеспечению безопасности.
+Кроме того, вы можете ознакомиться с десятью рекомендациями по [обеспечению безопасности Microsoft 365 бизнес премиум](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) для достижения дорогого соответствия рекомендациям по обеспечению безопасности.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Действие 3. Настройка устройств с Windows 10 и управление ими
 
-После запуска мастера установки рекомендуется обеспечить защиту всех компьютеров с Windwos 10 в вашей организации.
+По завершении работы с программой установки необходимо защитить все компьютеры с Windows 10 в Организации.
   
 - Windows 10 профессиональная является [необходимым условием](pre-requisites-for-data-protection.md) для Microsoft 365 Business премиум, но если у вас есть Windows 7 Профессиональная, Windows 8 Профессиональная или Windows 8,1 Pro, ваша подписка позволит вам выполнить [обновление до Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
 - Чтобы настроить политики для устройств с Windows 10, выполните действия, описанные в разделе [защита компьютеров с Windows 10](secure-win-10-pcs.md).
@@ -85,7 +85,7 @@ ms.locfileid: "47306476"
 ## <a name="advanced"></a>Дополнительно
 - **Использование Autopilot для настройки новых устройств**
             
-     Вы можете воспользоваться[Windows Autopilot](add-autopilot-devices-and-profile.md)для автоматической предварительной настройки **новых** устройств с Windows 10 для пользователя, но возможно, что будет проще найти [партнера](https://www.microsoft.com/solution-providers/search), который сделает это за вас. Кроме того, вы можете перейти в [магазин Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) и попросить эксперта по облачным технологиям настроить приобретаемые вами новые устройства.
+     Вы можете воспользоваться [Windows Autopilot](add-autopilot-devices-and-profile.md)для автоматической предварительной настройки **новых** устройств с Windows 10 для пользователя, но возможно, что будет проще найти [партнера](https://www.microsoft.com/solution-providers/search), который сделает это за вас. Кроме того, вы можете перейти в [магазин Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) и попросить эксперта по облачным технологиям настроить приобретаемые вами новые устройства.
 
 - **Доступ к локальным ресурсам**
 
