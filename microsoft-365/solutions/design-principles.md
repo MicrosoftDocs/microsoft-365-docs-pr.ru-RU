@@ -12,19 +12,18 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 0ea88fc46f5e83dcce6ce0883b05c41a4f293c62
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 0d50b553094b5b57554c72a83b20231b7d90e660
+ms.sourcegitcommit: 371249d3dde12092b820cd11ed3e02b31e88636a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521593"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48897193"
 ---
 # <a name="microsoft-365-enterprise-architecture-design-principles"></a>Принципы проектирования архитектуры Microsoft 365 Enterprise
 
-![Принципы проектирования символов структуры и навигации Познакомьтесь ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **Design principles** с ключевыми принципами, необходимыми для изучения архитектур сети, удостоверений, безопасности и многоязычности.
+Ознакомьтесь с основными принципами, необходимыми для понимания архитектуры сетей, удостоверений, защиты и транснациональных систем.
 
-
-|  |  | |
+| Квалифицирован | Subject | О экспертной программе |
 |---------|---------|---------|
 |![Штэйнберг Алекс фотография](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)   |    [Идентификация](identity-design-principles.md)     | Алекс Штэйнберг, основной технический архитектор корпорации Майкрософт по технологиям в Нью Йорк (Microsoft), выполняет шаг, который описывает принципы GUID и базовые разделы, посвященные идентификации для корпоративных организаций, использующих Microsoft 365 и Azure [для идентификации и превышения](identity-design-principles.md). |
 | ![Козетта Гарретт фото](../media/solutions-architecture-center/kozeta-garrett-security.jpg)   |     [Безопасность](security-design-principles.md)    |  Козета Гарретт, Циберсекурити архитектор в корпорации Майкрософт описывает наиболее популярные проблемы с безопасностью в корпоративных организациях и рекомендации по проблемам [безопасности, которые](security-design-principles.md)можно выполнить Саил.  |
