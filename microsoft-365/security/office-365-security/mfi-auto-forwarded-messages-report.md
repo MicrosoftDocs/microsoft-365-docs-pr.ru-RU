@@ -2,7 +2,7 @@
 title: Анализ автоматически пересылаемых сообщений
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Администраторы могут ознакомиться с отчетом о сообщениях с автоматическим пересылкой в панели мониторинга "Направление почты" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: d4b772e6392e0af22e6bed475970f637ed03dcb1
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: 01a094b8531672708fc024e8ed0c5833786dbb0c
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245951"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877793"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Автоматически переадресованные сообщения в центре безопасности & соответствия требованиям
 
@@ -31,14 +31,14 @@ ms.locfileid: "48245951"
 
 Если щелкнуть число сообщений в мини-приложении, отобразится раскрывающаяся меню с дополнительными сведениями об автоматически пересылаемых сообщениях:
 
-- **Автоматически переадресованные сообщения пересылаются методами пересылки**:
+- **Автоматически переадресованные сообщения пересылаются методами пересылки** :
 
   - **По правилам для почтового процесса**
   - **Правила для папки "Входящие"**
-  - **С помощью пересылки SMTP**: это автоматическая переадресация, которую администраторы могут настроить для почтового ящика, как описано в разделе [Настройка переадресации электронной почты для почтового ящика](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
+  - **С помощью пересылки SMTP** : это автоматическая переадресация, которую администраторы могут настроить для почтового ящика, как описано в разделе [Настройка переадресации электронной почты для почтового ящика](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
   - Ссылка на [отчет о перенаправлении](view-mail-flow-reports.md#forwarding-report) для получения дополнительных сведений.
 
-- **Автоматически перенаправляемые сообщения доменами и пользователями**:
+- **Автоматически перенаправляемые сообщения доменами и пользователями** :
 
   - **5 самых популярных доменов, переадресованных**
   - **Новые домены (за последнюю неделю)**

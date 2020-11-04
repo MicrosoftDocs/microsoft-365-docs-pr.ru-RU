@@ -2,7 +2,7 @@
 title: Анализ новых доменов, на которые пересылаются сообщения электронной почты
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Администраторы могут узнать, как использовать новые домены, перенаправляемые по электронной почте, в современном центре администрирования Exchange, чтобы выяснить, когда пользователи в Организации пересылают сообщения на внешние домены, которые никогда не были переадресованы.
-ms.openlocfilehash: 62e254e324322aec55d692cfe3128e8e4dd60e4b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7dfdd63a9358b1057313962bc21424a325d7bc52
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200739"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877745"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Новые домены перенаправляемые сообщения электронной почты в центре безопасности & соответствия требованиям
 
@@ -35,10 +35,10 @@ ms.locfileid: "48200739"
 
 ![Всплывающее окно со сведениями, которое появляется после щелчка новых доменов, которые пересылаются по электронной почте](../../media/mfi-new-domains-being-forwarded-details.png)
 
-Кроме того, вы можете перейти к этой странице сведений при выборе команды **Просмотреть все** в верхней области сведений **& рекомендации** (**Reports** \> **панель мониторинга** отчетов или <https://protection.office.com/insightdashboard> ).
+Кроме того, вы можете перейти к этой странице сведений при выборе команды **Просмотреть все** в верхней области сведений **& рекомендации** ( **Reports** \> **панель мониторинга** отчетов или <https://protection.office.com/insightdashboard> ).
 
 Чтобы предотвратить автоматическую переадресацию сообщений во внешние домены, настройте удаленный домен для некоторых или всех внешних доменов. Дополнительные сведения см в разделе [Manage Remote Domains in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 Сведения о других аналитиках в панели мониторинга для почтового процесса приведены в статье сведения о [почтовых сообщениях в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).

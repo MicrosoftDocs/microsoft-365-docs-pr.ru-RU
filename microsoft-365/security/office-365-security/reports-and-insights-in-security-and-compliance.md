@@ -2,7 +2,7 @@
 title: Интеллектуальные отчеты, Insights — центр безопасности Microsoft 365 & соответствия требованиям
 f1.keywords:
 - NOCSH
-ms.author: deniseb
+ms.author: siosulli
 author: denisebmsft
 manager: dansimp
 ms.date: ''
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Сведения о смарт-отчетах и аналитических данных, доступных в центре безопасности & соответствия требованиям, а также о том, как их использовать для просмотра и просмотра данных, а также для выполнения быстрых действий.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6a73e93de79f346fb1bce8da23e25194d202191
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 384ae51a514c31c659ce80f30e0b8c09976ec44b
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845520"
+ms.locfileid: "48877353"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
 

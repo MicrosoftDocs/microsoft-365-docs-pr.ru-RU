@@ -2,7 +2,7 @@
 title: Обзор панели мониторинга безопасности
 f1.keywords:
 - NOCSH
-ms.author: deniseb
+ms.author: siosulli
 author: denisebmsft
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Используйте новую панель мониторинга безопасности для просмотра состояния защиты от угроз Office 365, просмотра и действия оповещений системы безопасности.
-ms.openlocfilehash: f7576de9db1403c3c010b2fd826866ec11a7e20a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b49422621e70d597251cd342559e59ffa0e128f6
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843628"
+ms.locfileid: "48877329"
 ---
 # <a name="security-dashboard"></a>Панель мониторинга безопасности
 
@@ -70,7 +70,7 @@ ms.locfileid: "48843628"
 |Если ваша подписка включает...|Вы увидите эти сведения|
 |---|---|
 |EOP, но не защитник Майкрософт для Office 365|Вредоносные сообщения электронной почты, обнаруженные и заблокированные в EOP.<br><br> Просмотрите [отчет о состоянии защиты от угроз (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Защитник Майкрософт для Office 365|Вредоносный контент и вредоносная электронная почта обнаружены и заблокированы EOP и защитником для Office 365<br><br>Суммарное количество уникальных сообщений электронной почты с вредоносным содержимым, заблокированным ядром защиты от вредоносных программ, [автоматической очисткой с нулевым временем](zero-hour-auto-purge.md)и защитником для Office 365 (включая [безопасные ссылки](atp-safe-links.md), [безопасные вложения](atp-safe-attachments.md)и [Защита от фишинга в защитнике для Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)).<br><br>Просмотр [отчета о состоянии защиты от угроз](view-reports-for-atp.md#threat-protection-status-report).|
+|Microsoft Defender для Office 365|Вредоносный контент и вредоносная электронная почта обнаружены и заблокированы EOP и защитником для Office 365<br><br>Суммарное количество уникальных сообщений электронной почты с вредоносным содержимым, заблокированным ядром защиты от вредоносных программ, [автоматической очисткой с нулевым временем](zero-hour-auto-purge.md)и защитником для Office 365 (включая [безопасные ссылки](atp-safe-links.md), [безопасные вложения](atp-safe-attachments.md)и [Защита от фишинга в защитнике для Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)).<br><br>Просмотр [отчета о состоянии защиты от угроз](view-reports-for-atp.md#threat-protection-status-report).|
 
 Чтобы просмотреть или получить доступ к мини-приложения "состояние защиты от угроз", необходимо иметь разрешения на просмотр защитника для Office 365 отчеты. Для получения дополнительных сведений ознакомьтесь с [разрешениями, необходимыми для просмотра отчетов защитник для Office 365.](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 

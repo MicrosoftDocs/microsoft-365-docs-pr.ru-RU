@@ -2,7 +2,7 @@
 title: Отправка нежелательных и фишинговых сообщений электронной почты в Outlook для iOS и Android
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут изучить встроенные параметры отчетов о нежелательной почте, нежелательной почте и phishing-атаках в Outlook для iOS и Android.
-ms.openlocfilehash: 23668a762301ee442bc805e62863079ee7ae6076
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 1c842ac5349f9c2804c637fa4c5598b06e8f489f
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350859"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877295"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Отправка нежелательных и фишинговых сообщений электронной почты в Outlook для iOS и Android в Exchange Online
 
@@ -54,7 +54,7 @@ ms.locfileid: "48350859"
 
    ![Сообщить о нежелательных или фишинговых сообщениях](../../media/Android-report-junk-or-phishing.png)
 
-4. В появившемся диалоговом окне можно выбрать пункт **отчет** или **нет**. При выборе **нет**, если вы нажали **нежелательную** почту, сообщение перемещается в папку "Нежелательная почта", если вы нажали **поддельное** сообщение перемещается в папку "Удаленные". Выберите **отчет** , чтобы отправить копию сообщения в корпорацию Майкрософт.
+4. В появившемся диалоговом окне можно выбрать пункт **отчет** или **нет**. При выборе **нет** , если вы нажали **нежелательную** почту, сообщение перемещается в папку "Нежелательная почта", если вы нажали **поддельное** сообщение перемещается в папку "Удаленные". Выберите **отчет** , чтобы отправить копию сообщения в корпорацию Майкрософт.
 
    ![Отправка отчетов о нежелательных и фишинговых сообщениях электронной почты](../../media/Android-junk-email-reporting-options.png)
 

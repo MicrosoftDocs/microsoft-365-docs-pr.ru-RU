@@ -2,7 +2,7 @@
 title: Отправка сообщений в корпорацию Майкрософт для анализа вручную
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы и конечные пользователи могут узнать, как почтовые сообщения (хорошая почта, помеченная как плохая или плохая почта) в корпорацию Майкрософт для анализа.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6673dc7e7ac263ea9f734c002d0ffac410fadc07
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 68a0921f85e5b916cd53ebe84e4ea7d35e39967e
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202207"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877709"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Отправка сообщений в корпорацию Майкрософт для анализа вручную
 
@@ -48,9 +48,9 @@ ms.locfileid: "48202207"
 
 1. Создайте новое пустое сообщение электронной почты с одним из следующих получателей:
 
-   - **Нежелательная почта**: `junk@office365.microsoft.com`
+   - **Нежелательная почта** : `junk@office365.microsoft.com`
 
-   - **Фишинг**: `phish@office365.microsoft.com`
+   - **Фишинг** : `phish@office365.microsoft.com`
 
 2. Перетащите нежелательное или мошенническое сообщение в новое сообщение. Это приведет к сохранению нежелательного или фишингового сообщения в виде вложения в новом сообщении. Не копируйте и не вставляйте содержимое сообщения или пересылаете сообщение (вам нужно исходное сообщение, чтобы мы могли проверить заголовки сообщений).
 

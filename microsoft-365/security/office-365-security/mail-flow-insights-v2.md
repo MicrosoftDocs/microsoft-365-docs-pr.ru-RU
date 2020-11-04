@@ -2,7 +2,7 @@
 title: Сведения о почтовых процессах в панели мониторинга почтового процесса
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Администраторы могут узнать об аналитических отчетах и отчетах, доступных в панели мониторинга "Управление почтой" в центре безопасности & соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9ac8b8b0d346d78af252a9e427d0ef2b1a4c4ea
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: d252b9d898d4ee5a0df854a871f821c2b02bb482
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769022"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877781"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 
@@ -76,6 +76,6 @@ ms.locfileid: "48769022"
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Где найти панель мониторинга для почтового процесса
 
-Откройте центр соответствия требованиям & по безопасности <https://protection.office.com> , разверните узел **почта** и выберите **панель мониторинга** .
+Откройте центр соответствия требованиям & по безопасности <https://protection.office.com> , разверните узел **почта** и выберите **панель мониторинга**.
 
 Чтобы перейти непосредственно к панели мониторинга "поток обработки почты", откройте ее <https://protection.office.com/mailflow/dashboard> .

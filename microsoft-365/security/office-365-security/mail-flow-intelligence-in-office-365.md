@@ -2,7 +2,7 @@
 title: Аналитика почтового процесса
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,14 +13,14 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Администраторы могут узнать о кодах ошибок, связанных с доставкой сообщений с помощью соединителей (также называемых логикой обработки почтового процесса).
-ms.openlocfilehash: 0d73ea1fe64cda3c3f29f7bd437bba4e93f37529
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 461d9bfa91d88b8bbec52d5aad6ec7a2e534bc96
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198507"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877805"
 ---
-# <a name="mail-flow-intelligence-in-eop"></a>Логика обмена корреспонденцией почты в EOP
+# <a name="mail-flow-intelligence-in-eop"></a>Аналитика потока обработки почты в EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -71,7 +71,7 @@ Microsoft 365 создает сообщение об ошибке, если со
 
   - В [центре администрирования Exchange](https://docs.microsoft.com/Exchange/exchange-admin-center)отключите или удалите соединитель, который доставляет электронную почту от Microsoft 365 в локальную почтовую среду:
 
-    1. В центре администрирования Exchange перейдите в **Mail flow** раздел \> **соединители**поток обработки почты.
+    1. В центре администрирования Exchange перейдите в **Mail flow** раздел \> **соединители** поток обработки почты.
 
     2. Выберите соединитель со значением " **от** " **Office 365** и укажите значение в поле " **Кому** " **почтового сервера организации** и выполните одно из следующих действий:
 
