@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_smb
+- seo-marvel-may2020
 - AdminSurgePortfolio
 search.appverid:
 - MET150
@@ -26,68 +27,66 @@ search.appverid:
 - MOL140
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
-description: 'Узнайте, как импортировать контакты, календари, электронные письма из Gmail или другого поставщика электронной почты в Microsoft 365. '
-ms.openlocfilehash: 4cc7a68929bdcc4cb79f3c7b78e07023a8952f81
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Узнайте, как импортировать контакты, календари и сообщения электронной почты из Gmail или другого поставщика электронной почты и перенести их в Microsoft 365.
+ms.openlocfilehash: eb82711bc8fb431c6e29272b601b898566446f02
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779013"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906385"
 ---
-# <a name="migrate-email-and-contacts-to-microsoft-365"></a><span data-ttu-id="cd672-103">Перенос электронной почты и контактов в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="cd672-103">Migrate email and contacts to Microsoft 365</span></span>
+# <a name="migrate-email-and-contacts-to-microsoft-365"></a><span data-ttu-id="236b1-103">Перенос электронной почты и контактов в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="236b1-103">Migrate email and contacts to Microsoft 365</span></span>
 
-<span data-ttu-id="cd672-104">Импортируйте или скопируйте электронную почту из Gmail или другого поставщика электронной почты в Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="cd672-104">Import or copy email from Gmail or another email provider to Microsoft 365.</span></span>
+<span data-ttu-id="236b1-104">Импортируйте или перенесите электронную почту из Gmail или другого поставщика электронной почты в Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="236b1-104">Import or migrate email from Gmail or another email provider to Microsoft 365.</span></span>
   
- <span data-ttu-id="cd672-105">**Нужна помощь?**</span><span class="sxs-lookup"><span data-stu-id="cd672-105">**Want help with this?**</span></span>  <span data-ttu-id="cd672-106">[Обратитесь в службу поддержки Microsoft 365 для бизнеса](../contact-support-for-business-products.md) .</span><span class="sxs-lookup"><span data-stu-id="cd672-106">[Contact Microsoft 365 for business support](../contact-support-for-business-products.md) .</span></span> 
+ <span data-ttu-id="236b1-105">**Нужна помощь?**</span><span class="sxs-lookup"><span data-stu-id="236b1-105">**Want help with this?**</span></span>  <span data-ttu-id="236b1-106">[Обратитесь в службу поддержки Microsoft 365 для бизнеса](../contact-support-for-business-products.md) .</span><span class="sxs-lookup"><span data-stu-id="236b1-106">[Contact Microsoft 365 for business support](../contact-support-for-business-products.md) .</span></span> 
   
-<span data-ttu-id="cd672-107">Для выполнения этой задачи необходимо использовать версию Outlook, установленную на рабочем столе.</span><span class="sxs-lookup"><span data-stu-id="cd672-107">You need to use a version of Outlook that is installed on your desktop for this task.</span></span> <span data-ttu-id="cd672-108">Outlook включен в большинство [планов](https://go.microsoft.com/fwlink/p/?LinkId=723731)Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="cd672-108">Outlook is included in most Microsoft 365 [plans](https://go.microsoft.com/fwlink/p/?LinkId=723731).</span></span>
+<span data-ttu-id="236b1-107">Для выполнения этой задачи необходимо использовать версию Outlook, установленную на рабочем столе.</span><span class="sxs-lookup"><span data-stu-id="236b1-107">You need to use a version of Outlook that is installed on your desktop for this task.</span></span> <span data-ttu-id="236b1-108">Outlook включен в большинство [планов](https://go.microsoft.com/fwlink/p/?LinkId=723731)Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="236b1-108">Outlook is included in most Microsoft 365 [plans](https://go.microsoft.com/fwlink/p/?LinkId=723731).</span></span>
   
-### <a name="import-from-gmail"></a><span data-ttu-id="cd672-109">Импорт из Gmail</span><span class="sxs-lookup"><span data-stu-id="cd672-109">Import from Gmail</span></span>
+### <a name="migrate-gmail-to-microsoft-365"></a><span data-ttu-id="236b1-109">Перенос Gmail в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="236b1-109">Migrate Gmail to Microsoft 365</span></span>
 
-<span data-ttu-id="cd672-110">Выполните следующие действия, чтобы импортировать электронную почту, контакты и календарь из Gmail в Outlook с помощью Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="cd672-110">Follow these steps to import email, contacts, and calendar from Gmail into Outlook with Microsoft 365:</span></span>
+<span data-ttu-id="236b1-110">Выполните следующие действия, чтобы импортировать или перенести электронную почту, контакты и календарь из Gmail в Outlook с помощью Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="236b1-110">Follow these steps to import or migrate email, contacts, and calendar from Gmail into Outlook with Microsoft 365:</span></span>
   
-- [<span data-ttu-id="cd672-111">Импорт Gmail в Outlook</span><span class="sxs-lookup"><span data-stu-id="cd672-111">Import Gmail to Outlook</span></span>](https://support.microsoft.com/office/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7)
+- [<span data-ttu-id="236b1-111">Импорт Gmail в Outlook</span><span class="sxs-lookup"><span data-stu-id="236b1-111">Import Gmail to Outlook</span></span>](https://support.microsoft.com/office/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7)
     
-- [<span data-ttu-id="cd672-112">Импорт контактов в Outlook</span><span class="sxs-lookup"><span data-stu-id="cd672-112">Import contacts to Outlook</span></span>](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
+- [<span data-ttu-id="236b1-112">Импорт контактов в Outlook</span><span class="sxs-lookup"><span data-stu-id="236b1-112">Import contacts to Outlook</span></span>](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
-- [<span data-ttu-id="cd672-113">Импорт календаря Google</span><span class="sxs-lookup"><span data-stu-id="cd672-113">Import Google Calendar</span></span>](https://support.microsoft.com/office/098ed60c-936b-41fb-83d6-7e3786437330)
+- [<span data-ttu-id="236b1-113">Импорт календаря Google</span><span class="sxs-lookup"><span data-stu-id="236b1-113">Import Google Calendar</span></span>](https://support.microsoft.com/office/098ed60c-936b-41fb-83d6-7e3786437330)
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
-### <a name="import-from-outlook-desktop"></a><span data-ttu-id="cd672-114">Импорт из Outlook (на рабочем столе)</span><span class="sxs-lookup"><span data-stu-id="cd672-114">Import from Outlook (desktop)</span></span>
+### <a name="import-outlook-pst-files-to-microsoft-365-desktop"></a><span data-ttu-id="236b1-114">Импорт PST-файлов Outlook в Microsoft 365 (Рабочий стол)</span><span class="sxs-lookup"><span data-stu-id="236b1-114">Import Outlook pst files to Microsoft 365 (desktop)</span></span>
 
-<span data-ttu-id="cd672-115">Выполните указанные ниже действия, чтобы экспортировать электронную почту, контакты и календари из Outlook в PST-файл, а затем импортировать этот файл в Outlook с помощью Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="cd672-115">Follow these steps to export email, contacts and calendars from Outlook to a .pst file, and then import that file to Outlook with Microsoft 365:</span></span>
+<span data-ttu-id="236b1-115">Выполните указанные ниже действия, чтобы экспортировать электронную почту, контакты и календари из Outlook в PST-файл, а затем импортировать этот файл в Outlook с помощью Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="236b1-115">Follow these steps to export email, contacts and calendars from Outlook to a .pst file, and then import that file to Outlook with Microsoft 365:</span></span>
   
-1. [<span data-ttu-id="cd672-116">Экспорт электронной почты, контактов и календаря</span><span class="sxs-lookup"><span data-stu-id="cd672-116">Export email, contacts, and calendar</span></span>](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91)
+1. [<span data-ttu-id="236b1-116">Экспорт электронной почты, контактов и календаря</span><span class="sxs-lookup"><span data-stu-id="236b1-116">Export email, contacts, and calendar</span></span>](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91)
     
-2. [<span data-ttu-id="cd672-117">Импорт почты, контактов и календаря</span><span class="sxs-lookup"><span data-stu-id="cd672-117">Import mail, contacts, and calendar</span></span>](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)
+2. [<span data-ttu-id="236b1-117">Импорт почты, контактов и календаря</span><span class="sxs-lookup"><span data-stu-id="236b1-117">Import mail, contacts, and calendar</span></span>](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)
     
-<span data-ttu-id="cd672-118">Если вы хотите только контакты, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cd672-118">If you just want contacts, follow these steps:</span></span>
+<span data-ttu-id="236b1-118">Если вы хотите только контакты, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="236b1-118">If you just want contacts, follow these steps:</span></span>
   
-1. [<span data-ttu-id="cd672-119">Экспорт контактов из Outlook</span><span class="sxs-lookup"><span data-stu-id="cd672-119">Export contacts from Outlook</span></span>](https://support.microsoft.com/office/10f09abd-643c-4495-bb80-543714eca73f)
+1. [<span data-ttu-id="236b1-119">Экспорт контактов из Outlook</span><span class="sxs-lookup"><span data-stu-id="236b1-119">Export contacts from Outlook</span></span>](https://support.microsoft.com/office/10f09abd-643c-4495-bb80-543714eca73f)
     
-2. [<span data-ttu-id="cd672-120">Импорт контактов в Outlook</span><span class="sxs-lookup"><span data-stu-id="cd672-120">Import contacts to Outlook</span></span>](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
+2. [<span data-ttu-id="236b1-120">Импорт контактов в Outlook</span><span class="sxs-lookup"><span data-stu-id="236b1-120">Import contacts to Outlook</span></span>](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
-<span data-ttu-id="cd672-121">Чтобы запустить процесс, откройте Outlook и выберите **файл** \> \*\*открыть &amp; \*\* \> **Импорт и экспорт**.</span><span class="sxs-lookup"><span data-stu-id="cd672-121">To start the process, open Outlook and choose **File** \> **Open &amp; Export** \> **Import/Export**.</span></span>
+<span data-ttu-id="236b1-121">Чтобы запустить процесс, откройте Outlook и выберите **файл** \> **открыть &amp;** \> **Импорт и экспорт**.</span><span class="sxs-lookup"><span data-stu-id="236b1-121">To start the process, open Outlook and choose **File** \> **Open &amp; Export** \> **Import/Export**.</span></span>
   
 ![Меню "файл" в Outlook 2016](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![&amp;Команда Open Export в Outlook 2016](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Кнопка "Импорт и экспорт" в Outlook 2016](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
-## <a name="see-other-email-accounts-in-outlook"></a><span data-ttu-id="cd672-125">Просмотр других учетных записей электронной почты в Outlook</span><span class="sxs-lookup"><span data-stu-id="cd672-125">See other email accounts in Outlook</span></span>
+## <a name="see-other-email-accounts-in-outlook"></a><span data-ttu-id="236b1-125">Просмотр других учетных записей электронной почты в Outlook</span><span class="sxs-lookup"><span data-stu-id="236b1-125">See other email accounts in Outlook</span></span>
 
-<span data-ttu-id="cd672-126">Хотите ли вы видеть свою электронную почту у другого поставщика (например, Gmail, Yahoo или Live.com) в Outlook?</span><span class="sxs-lookup"><span data-stu-id="cd672-126">Just want to see your email from another provider (like Gmail, Yahoo, or Live.com) in Outlook?</span></span> <span data-ttu-id="cd672-127">Нет необходимости в импорте или переносе.</span><span class="sxs-lookup"><span data-stu-id="cd672-127">No need to import or migrate.</span></span> <span data-ttu-id="cd672-128">Вы можете настроить Outlook или Outlook Web App, чтобы получать доступ к другим учетным записям с того же места, что и ваш почтовый ящик Microsoft 365, а также отправлять, получать и читать электронную почту, отправленную на эти учетные записи.</span><span class="sxs-lookup"><span data-stu-id="cd672-128">You can set up Outlook or Outlook Web App so you can access your other accounts from the same place as your Microsoft 365 mailbox and send, receive, and read email sent to those accounts.</span></span>
+<span data-ttu-id="236b1-126">Хотите ли вы видеть свою электронную почту у другого поставщика (например, Gmail, Yahoo или Live.com) в Outlook?</span><span class="sxs-lookup"><span data-stu-id="236b1-126">Just want to see your email from another provider (like Gmail, Yahoo, or Live.com) in Outlook?</span></span> <span data-ttu-id="236b1-127">Нет необходимости в импорте или переносе.</span><span class="sxs-lookup"><span data-stu-id="236b1-127">No need to import or migrate.</span></span> <span data-ttu-id="236b1-128">Вы можете настроить Outlook или Outlook Web App, чтобы получать доступ к другим учетным записям с того же места, что и ваш почтовый ящик Microsoft 365, а также отправлять, получать и читать электронную почту, отправленную на эти учетные записи.</span><span class="sxs-lookup"><span data-stu-id="236b1-128">You can set up Outlook or Outlook Web App so you can access your other accounts from the same place as your Microsoft 365 mailbox and send, receive, and read email sent to those accounts.</span></span>
   
-### <a name="outlook-desktop"></a><span data-ttu-id="cd672-129">Outlook (для настольных ПК)</span><span class="sxs-lookup"><span data-stu-id="cd672-129">Outlook (desktop)</span></span>
+### <a name="outlook-desktop"></a><span data-ttu-id="236b1-129">Outlook (для настольных ПК)</span><span class="sxs-lookup"><span data-stu-id="236b1-129">Outlook (desktop)</span></span>
 
-<span data-ttu-id="cd672-130">Добавьте учетную запись, например личную учетную запись Gmail, в Outlook.</span><span class="sxs-lookup"><span data-stu-id="cd672-130">Add an account, such as your private Gmail account, to Outlook.</span></span>
+<span data-ttu-id="236b1-130">Добавьте учетную запись, например личную учетную запись Gmail, в Outlook.</span><span class="sxs-lookup"><span data-stu-id="236b1-130">Add an account, such as your private Gmail account, to Outlook.</span></span>
   
-- <span data-ttu-id="cd672-131">Откройте Outlook, а затем в меню **файл** \> **добавьте учетную запись**.</span><span class="sxs-lookup"><span data-stu-id="cd672-131">Open Outlook, then go to **File** \> **Add account**.</span></span>
+- <span data-ttu-id="236b1-131">Откройте Outlook, а затем в меню **файл** \> **добавьте учетную запись**.</span><span class="sxs-lookup"><span data-stu-id="236b1-131">Open Outlook, then go to **File** \> **Add account**.</span></span>
     
-<span data-ttu-id="cd672-132">Нужны более подробные инструкции?</span><span class="sxs-lookup"><span data-stu-id="cd672-132">Need more detailed steps?</span></span> <span data-ttu-id="cd672-133">Ознакомьтесь [со статьей Добавление учетной записи](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b).</span><span class="sxs-lookup"><span data-stu-id="cd672-133">See [Add an account](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b).</span></span>
+<span data-ttu-id="236b1-132">Нужны более подробные инструкции?</span><span class="sxs-lookup"><span data-stu-id="236b1-132">Need more detailed steps?</span></span> <span data-ttu-id="236b1-133">Ознакомьтесь [со статьей Добавление учетной записи](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b).</span><span class="sxs-lookup"><span data-stu-id="236b1-133">See [Add an account](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b).</span></span>
   
-<span data-ttu-id="cd672-134">[![Снимок экрана: страница сведений об учетной записи Outlook в представлении Backstage.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)</span><span class="sxs-lookup"><span data-stu-id="cd672-134">[![Screenshot showing Outlook account information page in the backstage view.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)</span></span>
+<span data-ttu-id="236b1-134">[![Снимок экрана: страница сведений об учетной записи Outlook в представлении Backstage.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)</span><span class="sxs-lookup"><span data-stu-id="236b1-134">[![Screenshot showing Outlook account information page in the backstage view.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)</span></span>
   
-## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a><span data-ttu-id="cd672-135">Несколько почтовых ящиков: Администраторы могут выполнять массовый импорт электронной почты, контактов и календарей в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="cd672-135">Multiple mailboxes: Admins can bulk import email, contacts, and calendars to Microsoft 365</span></span>
+## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a><span data-ttu-id="236b1-135">Несколько почтовых ящиков: Администраторы могут выполнять массовый импорт электронной почты, контактов и календарей в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="236b1-135">Multiple mailboxes: Admins can bulk import email, contacts, and calendars to Microsoft 365</span></span>
 
-<span data-ttu-id="cd672-136">В зависимости от исходной почтовой системы можно выбрать один из нескольких способов массового переноса.</span><span class="sxs-lookup"><span data-stu-id="cd672-136">Depending on your source email system, you can choose from several bulk migration methods.</span></span> <span data-ttu-id="cd672-137">Прочитайте [способы переноса нескольких учетных записей электронной почты в Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) , чтобы определить, какой способ работает.</span><span class="sxs-lookup"><span data-stu-id="cd672-137">Read [Ways to migrate multiple email accounts to Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) to decide which method works for you.</span></span> 
-  
-
+<span data-ttu-id="236b1-136">В зависимости от исходной почтовой системы можно выбрать один из нескольких способов массового переноса.</span><span class="sxs-lookup"><span data-stu-id="236b1-136">Depending on your source email system, you can choose from several bulk migration methods.</span></span> <span data-ttu-id="236b1-137">Прочитайте [способы переноса нескольких учетных записей электронной почты в Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) , чтобы определить, какой способ работает.</span><span class="sxs-lookup"><span data-stu-id="236b1-137">Read [Ways to migrate multiple email accounts to Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) to decide which method works for you.</span></span>
