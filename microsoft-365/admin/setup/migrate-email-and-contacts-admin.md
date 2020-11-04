@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_smb
+- seo-marvel-may2020
 - AdminSurgePortfolio
 search.appverid:
 - MET150
@@ -26,25 +27,25 @@ search.appverid:
 - MOL140
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
-description: 'Узнайте, как импортировать контакты, календари, электронные письма из Gmail или другого поставщика электронной почты в Microsoft 365. '
-ms.openlocfilehash: 4cc7a68929bdcc4cb79f3c7b78e07023a8952f81
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Узнайте, как импортировать контакты, календари и сообщения электронной почты из Gmail или другого поставщика электронной почты и перенести их в Microsoft 365.
+ms.openlocfilehash: eb82711bc8fb431c6e29272b601b898566446f02
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779013"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906385"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Перенос электронной почты и контактов в Microsoft 365
 
-Импортируйте или скопируйте электронную почту из Gmail или другого поставщика электронной почты в Microsoft 365.
+Импортируйте или перенесите электронную почту из Gmail или другого поставщика электронной почты в Microsoft 365.
   
  **Нужна помощь?**  [Обратитесь в службу поддержки Microsoft 365 для бизнеса](../contact-support-for-business-products.md) . 
   
 Для выполнения этой задачи необходимо использовать версию Outlook, установленную на рабочем столе. Outlook включен в большинство [планов](https://go.microsoft.com/fwlink/p/?LinkId=723731)Microsoft 365.
   
-### <a name="import-from-gmail"></a>Импорт из Gmail
+### <a name="migrate-gmail-to-microsoft-365"></a>Перенос Gmail в Microsoft 365
 
-Выполните следующие действия, чтобы импортировать электронную почту, контакты и календарь из Gmail в Outlook с помощью Microsoft 365:
+Выполните следующие действия, чтобы импортировать или перенести электронную почту, контакты и календарь из Gmail в Outlook с помощью Microsoft 365:
   
 - [Импорт Gmail в Outlook](https://support.microsoft.com/office/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7)
     
@@ -54,7 +55,7 @@ ms.locfileid: "44779013"
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
-### <a name="import-from-outlook-desktop"></a>Импорт из Outlook (на рабочем столе)
+### <a name="import-outlook-pst-files-to-microsoft-365-desktop"></a>Импорт PST-файлов Outlook в Microsoft 365 (Рабочий стол)
 
 Выполните указанные ниже действия, чтобы экспортировать электронную почту, контакты и календари из Outlook в PST-файл, а затем импортировать этот файл в Outlook с помощью Microsoft 365:
   
@@ -68,7 +69,7 @@ ms.locfileid: "44779013"
     
 2. [Импорт контактов в Outlook](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
-Чтобы запустить процесс, откройте Outlook и выберите **файл** \> **открыть &amp; ** \> **Импорт и экспорт**.
+Чтобы запустить процесс, откройте Outlook и выберите **файл** \> **открыть &amp;** \> **Импорт и экспорт**.
   
 ![Меню "файл" в Outlook 2016](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![&amp;Команда Open Export в Outlook 2016](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Кнопка "Импорт и экспорт" в Outlook 2016](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
@@ -88,6 +89,4 @@ ms.locfileid: "44779013"
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>Несколько почтовых ящиков: Администраторы могут выполнять массовый импорт электронной почты, контактов и календарей в Microsoft 365
 
-В зависимости от исходной почтовой системы можно выбрать один из нескольких способов массового переноса. Прочитайте [способы переноса нескольких учетных записей электронной почты в Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) , чтобы определить, какой способ работает. 
-  
-
+В зависимости от исходной почтовой системы можно выбрать один из нескольких способов массового переноса. Прочитайте [способы переноса нескольких учетных записей электронной почты в Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) , чтобы определить, какой способ работает.

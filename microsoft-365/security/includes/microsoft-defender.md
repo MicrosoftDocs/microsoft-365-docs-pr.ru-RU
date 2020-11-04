@@ -1,17 +1,17 @@
 ---
-ms.author: daniha
-author: danihalfin
+ms.author: dansimp
+author: dansimp
 ms.service: microsoft-365-enterprise
 ms.topic: include
 ms.date: 09/21/2020
 f1.keywords:
 - NOCSH
-ms.openlocfilehash: d71917168a1aeda4b6333c101c009034c5d4467c
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: e653e3086e803305a9cce82124ada5d93fb0753e
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779235"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906844"
 ---
 > [!IMPORTANT]
-> Добро пожаловать в **Microsoft 365 Defender** — новое название **Защиты от угроз (Майкрософт)** . Дополнительные сведения об этом и других обновлениях см. [здесь](https://www.microsoft.com/security/blog/?p=91813).  В ближайшее время мы будем обновлять названия в продуктах и документах.
+> Добро пожаловать в **Microsoft 365 Defender** — новое название **Защиты от угроз (Майкрософт)**. Дополнительные сведения об этом и других обновлениях см. [здесь](https://www.microsoft.com/security/blog/?p=91813). 

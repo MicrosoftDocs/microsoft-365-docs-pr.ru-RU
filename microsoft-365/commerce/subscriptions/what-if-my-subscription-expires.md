@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Сведения о том, что происходит с данными при истечении срока действия подписки на Microsoft 365 для бизнеса, отключается или при отмене.
-ms.openlocfilehash: 77b65931056ca504d6f3efd7ca86560496495f5d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b09f56fefb7791af012c9dab2ba4e5684b9bf89f
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646875"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906827"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Что происходит с данными и доступом при завершении подписки Microsoft 365 для бизнеса?
 
@@ -203,6 +203,10 @@ ms.locfileid: "48646875"
 > [!NOTE]
 > Добавление новой подписки того же типа, который был удален, не восстанавливает данные, связанные с отменой подписки.
 
+
+> [!NOTE]
+> Если срок действия лицензии поставщика CSP приостанавливается, срок действия 30 дней не отключается, а службы немедленно отключаются. Данные будут удалены по истечении 90 дней, если клиент не повторно активируется добавлением новой лицензии.
+
 ### <a name="what-happens-when-my-trial-ends"></a>Что происходит при завершении пробной версии?
 
 По окончании пробной версии вы не сможете продолжить использовать Microsoft 365 бесплатно. У вас есть несколько вариантов:
@@ -237,3 +241,4 @@ ms.locfileid: "48646875"
 [Отмена подписки](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription) (статья) \
 [Обновление Microsoft 365 для бизнеса](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription) (статья) \
 [Повторная активация подписки](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription) (статья)
+

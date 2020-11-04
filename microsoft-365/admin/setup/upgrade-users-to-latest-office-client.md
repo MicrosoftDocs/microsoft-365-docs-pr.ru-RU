@@ -1,5 +1,5 @@
 ---
-title: Обновление Microsoft 365 для бизнеса пользователей до последней версии клиента Office
+title: Обновление Office 2010 до Microsoft 365 — администратор Майкрософт 365
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -16,16 +16,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.custom:
+- fwlink 824861; CampaignID
+- O365_Comm_SR_UpgradeOffice
+- seo-marvel-may2020
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
-description: Узнайте, как обновить пользователей до последней версии клиента Office.
-ms.openlocfilehash: 40160dc5590144a1132971368da70c6f36ed460c
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+description: Сведения о том, как обновить Microsoft Office до последней версии клиента Office для пользователей в вашей организации.
+ms.openlocfilehash: 596dfc8f4a005d01c0bf330243bf1fb3c639f97e
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456338"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906445"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Обновление Microsoft 365 для бизнеса пользователей до последней версии клиента Office
 
@@ -47,7 +50,7 @@ ms.locfileid: "48456338"
 
  Если вы не являетесь администратором и у вас есть продукт [семейства Microsoft 365](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) , ознакомьтесь со статьей [Обновление Office](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) для получения сведений об обновлении старой версии Office для дома.
 
-## <a name="get-ready-to-upgrade"></a>Подготовка к обновлению
+## <a name="get-ready-to-upgrade-to-microsoft-365"></a>Подготовьтесь к обновлению до Microsoft 365
 
 Администратор управляет тем, какие версии Office могут устанавливать сотрудники Организации. Настоятельно рекомендуется помочь пользователям в вашей организации, на котором запущены более ранние версии Office, например Office 2010, Office 2013 или Office 2016, до последней версии, чтобы воспользоваться преимуществами безопасности и повышения производительности.
 

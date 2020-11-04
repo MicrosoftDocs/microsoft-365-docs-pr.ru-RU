@@ -1,6 +1,6 @@
 ---
-title: Для идентификации и за пределами — одна точка зрения архитектора
-description: Описание.
+title: Microsoft 365 корпоративный планирование ресурсов — архитектура безопасности
+description: Ознакомьтесь с основными стратегиями проектирования для корпоративных архитектур от Алекс Штэйнберг, технического архитектора в корпорации Майкрософт.
 ms.author: bcarter
 author: brendacarter
 manager: bcarter
@@ -11,14 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.custom: ''
+- M365solutions
+ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: fc975610e24980c6a552179359bb643eb9ac040c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e691b47a2d508064243886957ac491088df2f8ae
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845256"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906899"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Для идентификации и за пределами — одна точка зрения архитектора
 
@@ -134,9 +135,9 @@ XYZ SaaS поддерживает подготовку по требованию
 - [Защита идентификации Azure AD](https://docs.microsoft.com/azure/active-directory/identity-protection/) 
 - [Microsoft Defender для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/)
 - [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Защитник Майкрософт для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
+- [Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/) (МКАС)
-- [Защитник Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide)
+- [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide)
 - [Microsoft Intune](https://docs.microsoft.com/mem/intune/)
 - [Защита информации Майкрософт](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) (МИП)
 - [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/) 
@@ -284,7 +285,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Схема высокого уровня:
 
-![Схема высокого уровня для процесса ведения журнала](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
+![Схема источников журналов для программы безопасности и соответствия требованиям](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
 
 На схеме выше представлены встроенные возможности для отправки журналов в концентратор событий и/или в службу хранилища Azure и/или в аналитику журналов Azure. Не все системы входят в комплект. Но существуют и другие подходы к отправке этих журналов в один и тот же репозиторий. Например, в этой статье приведены сведения о том, как [защитить команды с помощью Azure Sentinel](https://techcommunity.microsoft.com/t5/azure-sentinel/protecting-your-teams-with-azure-sentinel/ba-p/1265761).
 

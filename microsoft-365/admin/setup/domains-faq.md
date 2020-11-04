@@ -1,5 +1,5 @@
 ---
-title: Вопросы и ответы о доменах
+title: Часто задаваемые вопросы о доменах
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- seo-marvel-may2020
 search.appverid:
 - BCS160
 - MET150
@@ -23,20 +24,20 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
-description: Дополнительные сведения о доменах можно найти в ответах на часто задаваемые вопросы.
-ms.openlocfilehash: b51b5fe56bbae56dd473dd831ec91e629d9233f3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Узнайте больше о доменах (onmicrosoft Domain and транфер domain), найдя ответы на свои вопросы в разделе "вопросы и ответы".
+ms.openlocfilehash: 8d504711f46383000697736d6825a813f01fbe69
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644588"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906481"
 ---
 # <a name="domains-faq"></a>Вопросы и ответы о доменах
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview).
 
 ::: moniker-end
 
@@ -85,7 +86,7 @@ ms.locfileid: "48644588"
 
 Домен  это уникальное имя, которое указано после символа **@** в адресах электронной почты и после **www.** в веб-адресах. Как правило, за основу берется название вашей организации, к которому добавляется стандартный суффикс, например  *vasha_kompaniya.com*  или  *universitet.edu*  . 
   
-Использование собственного домена, например "**роб \@ contoso.com**" с Microsoft 365, поможет вам создавать сведения о доходе и распознавание для вашей фирменной символики. 
+Использование собственного домена, например " **роб \@ contoso.com** " с Microsoft 365, поможет вам создавать сведения о доходе и распознавание для вашей фирменной символики. 
   
 Вы можете [приобрести домен в Microsoft 365, а также настроить его автоматически](../get-help-with-domains/buy-a-domain-name.md)или приобрести у регистратора доменных имен, которым вы уже владеете.
     
@@ -206,9 +207,9 @@ ms.locfileid: "48644588"
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>Почему у меня есть домен onmicrosoft.com?
 
-Microsoft 365 создает домен, например *contoso.onmicrosoft.com*, при регистрации в службе. Идентификатор пользователя, который вы создаете при регистрации, включает домен, например *Alan@contoso.onmicrosoft.com*. 
+Microsoft 365 создает домен, например *contoso.onmicrosoft.com* , при регистрации в службе. Идентификатор пользователя, который вы создаете при регистрации, включает домен, например *Alan@contoso.onmicrosoft.com*. 
   
- **Если вы хотите, чтобы ваша электронная почта выглядела как *Сергей \@ contoso.com*:** [купите домен](../get-help-with-domains/buy-a-domain-name.md) или просто выполните действия, описанные в статье [Добавление пользователей и доменов в Microsoft 365](add-domain.md) , если у вас уже есть. 
+ **Если вы хотите, чтобы ваша электронная почта выглядела как *Сергей \@ contoso.com* :** [купите домен](../get-help-with-domains/buy-a-domain-name.md) или просто выполните действия, описанные в статье [Добавление пользователей и доменов в Microsoft 365](add-domain.md) , если у вас уже есть. 
   
 - **Домен onmicrosoft невозможно переименовать после регистрации.** Например, если первоначально вы выбрали домен fourthcoffee.onmicrosoft.com, его не удастся переименовать в fabrikam.onmicrosoft.com. Чтобы использовать другой домен onmicrosoft.com, вам потребуется начать новую подписку с помощью Microsoft 365. 
     
@@ -223,9 +224,9 @@ Microsoft 365 создает домен, например *contoso.onmicrosoft.c
 ::: moniker range="o365-germany"
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>Почему у меня есть домен "onmicrosoft.de"?
 
-Microsoft 365 создает домен, например *contoso.onmicrosoft.de*, при регистрации в службе. Идентификатор пользователя, который вы создаете при регистрации, включает домен, например *Alan@contoso.onmicrosoft.de*. 
+Microsoft 365 создает домен, например *contoso.onmicrosoft.de* , при регистрации в службе. Идентификатор пользователя, который вы создаете при регистрации, включает домен, например *Alan@contoso.onmicrosoft.de*. 
   
- **Если вы хотите, чтобы ваша электронная почта выглядела как *Alan@contoso.de*:** [купите домен](../get-help-with-domains/buy-a-domain-name.md) или просто выполните действия, описанные в [статье Добавление пользователей и доменов в Microsoft 365](add-domain.md) , если вы уже являетесь ее владельцем. 
+ **Если вы хотите, чтобы ваша электронная почта выглядела как *Alan@contoso.de* :** [купите домен](../get-help-with-domains/buy-a-domain-name.md) или просто выполните действия, описанные в [статье Добавление пользователей и доменов в Microsoft 365](add-domain.md) , если вы уже являетесь ее владельцем. 
   
 - **Домен onmicrosoft невозможно переименовать после регистрации.** Например, если исходный домен, который вы выбрали, был fourthcoffee.onmicrosoft.de, его нельзя изменить на fabrikam.onmicrosoft.de. Чтобы использовать другой домен onmicrosoft.de, вам потребуется начать новую подписку с помощью Microsoft 365. 
     

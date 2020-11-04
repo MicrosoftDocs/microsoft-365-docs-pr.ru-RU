@@ -1,6 +1,6 @@
 ---
 title: Иллюстрации повышения производительности в Microsoft 365
-description: Используйте эти иллюстрации, чтобы ознакомиться с основами архитектуры для реализации решений повышения производительности в Microsoft 365.
+description: Используйте эти иллюстрации, такие как схема архитектуры Teams, чтобы ознакомиться с основами архитектуры для реализации решений Microsoft 365 для продуктивной работы.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -13,23 +13,23 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 160211fe481d14749bd778255e6844b12aa80672
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: f84c1c4a8d507ae9a4be3cb69a816a8494e08cc3
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847240"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906791"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Иллюстрации повышения производительности в Microsoft 365
 
-В серии "Корпоративные решения для Microsoft 365" представлены инструкции по реализации возможностей Microsoft 365, особенно при их пересечении с технологиями.
+В статье Microsoft 365 Enterprise Solution Series представлены рекомендации по реализации возможностей Microsoft 365, особенно в тех случаях, когда возможности перекрестные технологии, включая схемы архитектуры Teams.
 
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>Microsoft Teams и связанные службы повышения производительности в Microsoft 365 для ИТ-архитекторов
 Логическая архитектура служб повышения производительности в Microsoft 365, начиная с Microsoft Teams.
 
 | Item | Описание |
 |:-----|:-----|
-|[![Эскиз плаката логической архитектуры Teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Обновление: апрель 2019 г.   |Корпорация Майкрософт предоставляет набор служб повышения производительности, которые взаимодействуют между собой, обеспечивая возможности совместной работы для управления данными, безопасности и соответствия требованиям. <br/> <br/>Этот набор иллюстраций демонстрирует логическую архитектуру служб повышения производительности для корпоративных архитекторов, начиная с Microsoft Teams.|
+|[![Плакат о логической архитектуре Teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Обновление: апрель 2019 г.   |Корпорация Майкрософт предоставляет набор служб повышения производительности, которые взаимодействуют между собой, обеспечивая возможности совместной работы для управления данными, безопасности и соответствия требованиям. <br/> <br/>Этот набор иллюстраций демонстрирует логическую архитектуру служб повышения производительности для корпоративных архитекторов, начиная с Microsoft Teams.|
 
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>Группы в Microsoft 365 для ИТ-архитекторов
@@ -56,7 +56,7 @@ Microsoft 365 включает широкий набор возможносте�
 
 | Item | Описание |
 |:-----|:-----|
-|[![Эскиз инфографики для межрегиональных организаций](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Обновление: март 2020 г. |Использование единого клиента Microsoft 365 для глобальной организации является оптимальным вариантом, обеспечивающим максимально комфортную работу, по многим причинам. Тем не менее, многие архитекторы ломают голову над тем, как соответствовать требованиям безопасности и защиты информации в разных регионах. В этой подборке разделов содержатся рекомендации. |
+|[![Инфографики с несколькими регионами](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Обновление: март 2020 г. |Использование единого клиента Microsoft 365 для глобальной организации является оптимальным вариантом, обеспечивающим максимально комфортную работу, по многим причинам. Тем не менее, многие архитекторы ломают голову над тем, как соответствовать требованиям безопасности и защиты информации в разных регионах. В этой подборке разделов содержатся рекомендации. |
 
 ### <a name="microsoft-defender-for-endpoint-deployment-strategy"></a>Стратегия развертывания защитника (Майкрософт) для конечных точек
 
@@ -125,7 +125,7 @@ This guidance includes Test Lab Guides. For more information, see [Microsoft Sec
 Корпорация Майкрософт поддерживает несколько вариантов начала работы с Teams в облаке Майкрософт. Этот плакат поможет вам определить, какие решения Майкрософт для телефонии (телефонная система в облаке или локальная корпоративная голосовая связь) оптимальны для пользователей в вашей организации, а также как организация может подключаться к телефонной сети общего пользования (ТСОП).
 
 
-[![Эскиз плаката решений Майкрософт для телефонии](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[![Плакат.](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) <br>
 Обновление: январь 2019 г.
 
