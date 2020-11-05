@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Администраторы могут узнать об аналитических отчетах и отчетах, доступных в панели мониторинга "Управление почтой" в центре безопасности & соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d252b9d898d4ee5a0df854a871f821c2b02bb482
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: f7781dca48e1eae4716dbe6c7c3b40da4bae0cd8
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877781"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920012"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 
@@ -66,13 +66,12 @@ ms.locfileid: "48877781"
 
 - **[Администратор Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** в Azure Active Directory.
 
-- **Администратор MailFlow** в центре безопасности & соответствия требованиям: Если член этой группы ролей не является членом группы ролей "Глобальный администратор" или "Администратор Exchange", обратите внимание на следующие вопросы и требования.
-
+- **Администратор MailFlow** в центре безопасности & соответствия требованиям. Если учетная запись не является участником группы ролей "Управление организацией" или "Администратор Exchange", рассмотрите следующие вопросы:
   - Пользователь должен войти в центр безопасности & соответствия требованиям непосредственно по адресу <https://protection.office.com> .
   - Пользователь будет иметь разрешение только на чтение для панели мониторинга почтового процесса.
   - У пользователя не будет доступа к центру администрирования Microsoft 365.
 
-Дополнительные сведения о разрешениях в центре безопасности & соответствия требованиям приведены [в разделе разрешения в центре безопасности &](permissions-in-the-security-and-compliance-center.md) и [предоставление пользователям доступа к центру безопасности & соответствия требованиям](grant-access-to-the-security-and-compliance-center.md).
+Для получения дополнительных сведений о разрешениях просмотрите раздел [разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md) и [Предоставьте пользователям доступ к центру безопасности & соответствия требованиям](grant-access-to-the-security-and-compliance-center.md).
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Где найти панель мониторинга для почтового процесса
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о политиках защиты от фишинга, доступных в Exchange Online Protection (EOP) и защитнике Майкрософт для Office 365.
-ms.openlocfilehash: 5c3b79dcf462dbab4fc67b75952ca0ef39b80e75
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: c1254ccdc678bd25c2d3481b0a43cca5ff9816c0
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844300"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919780"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
 
@@ -57,7 +57,7 @@ ms.locfileid: "48844300"
 
 - [Настройка политик защиты от фишинга в EOP](configure-anti-phishing-policies-eop.md)
 
-- [Настройка политик защиты от фишинга в защитнике Майкрософт для Office 365 в Microsoft 365](configure-atp-anti-phishing-policies.md)
+- [Настройка политик защиты от фишинга в защитнике Майкрософт для Office 365](configure-atp-anti-phishing-policies.md)
 
 В оставшейся части этой статьи описываются параметры, доступные в политиках защиты от фишинга в EOP и защитнике для Office 365.
 

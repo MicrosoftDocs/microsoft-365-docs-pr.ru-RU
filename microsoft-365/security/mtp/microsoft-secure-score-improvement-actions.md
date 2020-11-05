@@ -20,24 +20,23 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ff81b6e1a290d928d68cb43b455713183d24f75b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 02c79edaa05e7903a8797cdf83c18a4ce69716dc
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846644"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920540"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Оценка уровня безопасности с помощью оценки безопасности Майкрософт
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
 
 Microsoft Secure Score — это измерение степени безопасности Организации с большим номером, указывающим дополнительные действия по улучшению. Его можно найти https://security.microsoft.com/securescore в [центре безопасности Microsoft 365](overview-security-center.md).
 
 Чтобы получить более быструю информацию, действия по улучшению качества Майкрософт организованы в группы.
 
 * Identity (роли & учетных записей Azure Active Directory)
-* Data (Microsoft Information Protection)
+* Данные (в настоящее время действия по улучшению отсутствуют)
 * Устройство (защитник Майкрософт для конечной точки, известное как [Оценка безопасности Майкрософт для устройств](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * Приложение (электронная почта и облачные приложения, в том числе Office 365 и Microsoft Cloud App Security)
 * Инфраструктура (дальнейшие действия по улучшению сейчас отсутствуют)

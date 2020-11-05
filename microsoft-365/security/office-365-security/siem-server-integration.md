@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Обзор сведений о безопасности и службах управления событиями (SIEM) для интеграции с облачными службами и приложениями Microsoft 365
-ms.openlocfilehash: 0e582333615d11c500b114225435903cea386ade
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 17e21d19463187744afe855b2304ac71956545d2
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846404"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919768"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция серверов и управления событиями (SIEM) с помощью служб и приложений Microsoft 365
 
@@ -52,7 +52,7 @@ ms.locfileid: "48846404"
 
 |Служба или приложение Microsoft 365|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
 |---|---|---|
-|[Защитник Майкрософт для Office 365](office-365-atp.md)|Журналы аудита|[Интеграция SIEM с защитником Майкрософт для Office 365](siem-integration-with-office-365-ti.md)|
+|[Microsoft Defender для Office 365](office-365-atp.md)|Журналы аудита|[Интеграция SIEM с защитником Майкрософт для Office 365](siem-integration-with-office-365-ti.md)|
 |[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)|Конечная точка HTTPS, размещенная в Azure <br/>REST API|[Получение оповещений о средствах SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Интеграция журналов|[Интеграция SIEM с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem)|
 |
@@ -70,6 +70,6 @@ ms.locfileid: "48846404"
 
 ## <a name="more-resources"></a>Дополнительные ресурсы
 
-[Интеграция решений безопасности в защитнике Azure *](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
+[Интеграция решений безопасности в защитнике Azure](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
 [Интеграция оповещений API безопасности Microsoft Graph с SIEM](https://docs.microsoft.com/graph/security-integration)

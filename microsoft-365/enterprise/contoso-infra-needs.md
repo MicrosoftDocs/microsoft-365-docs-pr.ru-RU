@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите базовую структуру локальной ИТ-инфраструктуры компании Contoso и ее соответствие требованиям Microsoft 365 для предприятий.
-ms.openlocfilehash: 0a837a457869fc579d94ee5e5f9bb114cb93f641
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b3b67429faccc5d22d49a2921fff4c8b3c3c062e
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847134"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920458"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>ИТ-инфраструктура и бизнес-потребности компании Contoso
 
@@ -122,9 +122,9 @@ ms.locfileid: "48847134"
 |  | Повышение уровня креативности и инноваций | Windows Ink, Кортана на рабочем месте, PowerPoint |
 | Безопасность |  |  |
 |  | Управление удостоверениями и доступом | Выделенные учетные записи глобальных администраторов с многофакторной проверкой подлинности (MFA) Azure и Azure AD Privileged Identity Management (PIM) <BR> Многофакторная проверка подлинности для всех учетных записей пользователей <BR> Условный доступ <BR> Windows Hello <BR> Credential Guard в Защитнике Windows |
-|  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Defender для Office 365 <BR> Защитник Майкрософт для Office 365 <BR> Исследование угроз и ответ Microsoft 365 <BR> |
+|  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Defender для Office 365 <BR> Microsoft Defender для Office 365 <BR> Исследование угроз и ответ Microsoft 365 <BR> |
 |  | Защита информации | Azure Information Protection <BR> Защита от потери данных (DLP) <BR> Windows Information Protection (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
-|  | Управление безопасностью | Защитник Azure *  <BR> Центр безопасности Защитника Windows |
+|  | Управление безопасностью | Защитник Azure  <BR> Центр безопасности Защитника Windows |
 | Удаленный доступ, доступ с мобильных устройств и работа с бизнес-партнерами |  |  |
 |  | Повышение уровня безопасности для удаленных и мобильных сотрудников | Microsoft Intune |
 |  | Уменьшение инфраструктуры удаленного доступа для сотрудников | Рабочие нагрузки Microsoft 365 и облачные данные |

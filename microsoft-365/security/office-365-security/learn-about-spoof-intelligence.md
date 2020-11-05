@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут ознакомиться со сведениями об управлении подменой в Exchange Online Protection (EOP), где можно разрешить или запретить использование определенных поддельных отправителей.
-ms.openlocfilehash: 4ebc32a6c87c58edcceb0d57ee8d55be43f2dd20
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4d40dae9518b451affc11c6666ee8f7454eceff3
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841832"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920648"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Настройка логики подделки в EOP
 
@@ -181,7 +181,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 - [Настройка политик защиты от фишинга в EOP](configure-anti-phishing-policies-eop.md).
 
-- [Настройте политики защиты от фишинга в защитнике Майкрософт для Office 365 в microsoft 365](configure-atp-anti-phishing-policies.md).
+- [Настройка политик защиты от фишинга в защитнике Майкрософт для Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 

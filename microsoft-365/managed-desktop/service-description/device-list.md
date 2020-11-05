@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 37a43717ebb003c10a65e14da46012dab164916d
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 2af301fcac2f02a415972f8bf7857fa7b6ee0c1e
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429387"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919836"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
@@ -28,7 +28,7 @@ ms.locfileid: "48429387"
 Ссылки на устройства приведены только для справки. Если вы хотите заказать устройства, работайте с контактами коммерческого канала, чтобы убедиться, что выбраны правильные конфигурации. В этой таблице *архивная Дата* — это дата, к которой будут относиться более короткие жизненные циклы обслуживания настольных систем корпорации Майкрософт; все такие устройства, встроенные после этой даты, не будут получать срок поддержания поддержки из системы, управляемой корпорацией Майкрософт. Архивные устройства также указаны в [архивных устройствах, управляемых на настольных компьютерах Майкрософт](archived-device-list.md). *Дата выбытия* — это дата, с которой эта модель больше не будет поддерживаться на настольном компьютере, управляемом Майкрософт. В этот день все зарегистрированные устройства этой модели будут удалены с компьютера, управляемого корпорацией Майкрософт, независимо от того, когда они были зарегистрированы.
 
 >[!NOTE]
->Устройства можно добавлять в эту таблицу в любое время, но мы предоставляем 90 дней уведомления о любых изменениях, затрагивающих архивную или пенсионную дату. Устройства, добавленные последними, помечаются **\*** .
+>Устройства можно добавлять в эту таблицу в любое время, но мы предоставляем 90 дней уведомления о любых изменениях, затрагивающих архивную или пенсионную дату. Последние добавленные устройства помечаются символом * *\** _.
 
 
 ## <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт
@@ -37,7 +37,7 @@ ms.locfileid: "48429387"
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архивации   | Дата выбытия   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| **\*[Dell Precision 5310 2 – в – 1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г.  | 28 апреля 2025 г. |
+| _ *\* [Dell Precision 5310 2 – в — 1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г.  | 28 апреля 2025 г. |
 | **\*[Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г.  |
 | **\*[Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г. |
 | **\*[Dell Latitude 7310/7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 4 мая 2022 г.  | 4 мая 2025 г.  |
@@ -59,7 +59,7 @@ ms.locfileid: "48429387"
 | [HP об x360 1040 G7](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1040-g7-notebook-pc-customizable-8wa57av-mb) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8XW08AV| 31 августа 2021 г. | 31 августа 2024 г. |
 | [HP елите Драгонфли](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ21AV | 31 марта 2021 г. | 31 марта 2024 г. |
 | [HP Z2 Mini G5 Рабочая станция](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8QR48AV| 31 декабря 2021 г. | 31 декабря 2024 г. |
-| [HP Збук 14U/15U G6 Mobile Workstation](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9JD63AV, необходима ИК-камера | 30 ноября 2020 г. | 30 ноября 2023 г. |
+| **\*[HP Збук Фирефли 14/15 G7 Mobile Workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ22AV, необходима ИК-камера | 30 ноября 2021 г. | 30 ноября 2024 г. |
 
 ### <a name="microsoft"></a>Майкрософт
 
