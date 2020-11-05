@@ -35,15 +35,15 @@
           href: mtp/microsoft-secure-score-whats-coming.md
         - name: Новые возможности
           href: mtp/microsoft-secure-score-whats-new.md
-    - name: Защита от угроз (Майкрософт)
+    - name: Microsoft 365 Defender
       items:
         - name: Обзор
           items:
-            - name: Что такое защита от угроз (Майкрософт)?
+            - name: Что такое Microsoft 365 Defender?
               href: mtp/microsoft-threat-protection.md
-            - name: Что нового в службе защиты от угроз (Майкрософт)?
+            - name: Новые возможности Microsoft 365 Defender
               href: mtp/whats-new.md
-            - name: Предварительные функции
+            - name: Предварительные версии функций
               href: mtp/preview.md
             - name: "Центр безопасности Microsoft\_365"
               href: mtp/overview-security-center.md
@@ -67,7 +67,7 @@
               href: mtp/setup-mtpeval.md
             - name: Настройка и внедрение
               href: mtp/config-mtpeval.md
-            - name: Запуск службы защиты от угроз (Майкрософт)
+            - name: Запуск службы Microsoft 365 Defender
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Создание тестового оповещения
               href: mtp/generate-test-alert.md
@@ -91,7 +91,7 @@
               href: mtp/mtp-pilot.md
             - name: Развертывание поддерживаемых служб
               href: mtp/deploy-supported-services.md
-            - name: Включение Защиты от угроз (Майкрософт)
+            - name: Включение Microsoft 365 Defender
               href: mtp/mtp-enable.md
             - name: Включение вопросов и ответов
               href: mtp/mtp-enable-faq.md
@@ -137,7 +137,7 @@
                       href: mtp/advanced-hunting-shared-queries.md
                     - name: 'Охота на различных устройствах, в письмах, приложениях и удостоверениях'
                       href: mtp/advanced-hunting-query-emails-devices.md
-                    - name: Переход с ATP в Защитнике Microsoft
+                    - name: Переход с Defender for Endpoint
                       href: mtp/advanced-hunting-migrate-from-mdatp.md
                 - name: Работа с результатами запросов
                   href: mtp/advanced-hunting-query-results.md
@@ -251,15 +251,15 @@
                       href: ./mtp/tickets.md
                     - name: Запросы ServiceNow в Центре безопасности
                       href: ./mtp/tickets-security-center.md
-            - name: Программные интерфейсы Защиты от угроз (Майкрософт) (ознакомительная версия)
+            - name: API Microsoft 365 Defender (предварительная версия)
               items:
-                - name: Обзор программных интерфейсов Защиты от угроз (Майкрософт) (в ознакомительной версии)
+                - name: Обзор API Microsoft 365 Defender (предварительная версия)
                   href: mtp/api-overview.md
-                - name: Начало работы с программными интерфейсами Защиты от угроз (Майкрософт) (в ознакомительной версии)
+                - name: Начало работы с API Microsoft 365 Defender (предварительная версия)
                   items:
-                    - name: Лицензия и условия использования программных интерфейсов Защиты от угроз (Майкрософт)
+                    - name: Лицензия и условия использования API Microsoft 365 Defender
                       href: mtp/api-terms.md
-                    - name: Доступ к программным интерфейсам Защиты от угроз (Майкрософт) (в ознакомительной версии)
+                    - name: Доступ к API Microsoft 365 Defender
                       href: mtp/api-access.md
                     - name: Пример Hello World
                       href: mtp/api-hello-world.md
@@ -269,11 +269,11 @@
                       href: mtp/api-create-app-user-context.md
                     - name: Получение доступа для партнерских приложений
                       href: mtp/api-partner-access.md
-                    - name: Другие ресурсы программных интерфейсов
+                    - name: Другие ресурсы API
                       href: mtp/api-articles.md
-                - name: Интерфейсы и схема программных интерфейсов Защиты от угроз (Майкрософт) (ознакомительная версия)
+                - name: Схема и API Microsoft 365 Defender (предварительная версия)
                   items:
-                    - name: Поддерживаемые программные интерфейсы Защиты от угроз (Майкрософт) (ознакомительная версия)
+                    - name: Поддерживаемые API Microsoft 365 Defender
                       href: mtp/api-supported.md
                     - name: Коды распространенных ошибок REST API
                       href: mtp/api-error-codes.md
@@ -310,11 +310,11 @@
                   href: ./office-365-security/quarantine-email-messages.md
                 - name: Отчеты аудита в автономной службе EOP
                   href: ./office-365-security/auditing-reports-in-eop.md
-            - name: "Office\_365 Advanced Threat Protection"
+            - name: Defender для Office 365
               href: ./office-365-security/office-365-atp.md
-            - name: "Новые возможности Office\_365\_ATP"
+            - name: "Новые возможности Defender для Office\_365"
               href: office-365-security/whats-new-in-office-365-atp.md
-            - name: 'ATP для SharePoint, OneDrive и Microsoft Teams'
+            - name: 'Defender для Office 365 в SharePoint, OneDrive и Microsoft Teams'
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: "Новый Центр безопасности Microsoft\_365"
               href: ./mtp/overview-security-center.md
@@ -336,9 +336,9 @@
               href: ./office-365-security/anti-phishing-protection.md
             - name: Защита от спуфинга
               href: ./office-365-security/anti-spoofing-protection.md
-            - name: Безопасные вложения в Office 365 ATP
+            - name: Безопасные вложения в Defender для Office 365
               href: ./office-365-security/atp-safe-attachments.md
-            - name: Безопасные ссылки в Office 365 ATP
+            - name: Безопасные ссылки в Defender для Office 365
               href: ./office-365-security/atp-safe-links.md
             - name: Защита от исходящего спама
               href: ./office-365-security/outbound-spam-controls.md
@@ -368,15 +368,15 @@
                   href: ./office-365-security/set-up-your-eop-service.md
             - name: Защита от угроз
               href: ./office-365-security/protect-against-threats.md
-            - name: Интеграция ATP Office 365 с ATP в Защитнике Microsoft
+            - name: Интеграция Defender для Office 365 с Defender for Endpoint
               href: ./office-365-security/integrate-office-365-ti-with-wdatp.md
             - name: Разрешения в Центре безопасности и соответствия требованиям
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
             - name: Интеграция сервера SIEM
               href: ./office-365-security/siem-server-integration.md
-            - name: Интеграция SIEM с Office 365 ATP
+            - name: Интеграция SIEM с Defender для Office 365
               href: ./office-365-security/siem-integration-with-office-365-ti.md
-            - name: Настройка политик защиты от фишинга в ATP
+            - name: Настройка политик защиты от фишинга
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Настройка политик защиты от вредоносных программ
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -384,7 +384,7 @@
               href: ./office-365-security/configure-your-spam-filter-policies.md
             - name: Настройка фильтрации подключений
               href: ./office-365-security/configure-the-connection-filter-policy.md
-            - name: Настройка глобальных параметров для безопасных ссылок в Office 365 ATP
+            - name: Настройка глобальных параметров для безопасных ссылок в Defender для Office 365
               href: ./office-365-security/configure-global-settings-for-safe-links.md
             - name: Настройка параметров нежелательной почты в почтовых ящиках Exchange Online
               href: ./office-365-security/configure-junk-email-settings-on-exo-mailboxes.md
@@ -400,19 +400,19 @@
               href: ./office-365-security/email-validation-and-authentication.md
             - name: Предоставление пользователям доступа к Центру безопасности
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
-            - name: Безопасные документы в Office 365 ATP
+            - name: Безопасные документы в Defender для Office 365
               href: ./office-365-security/safe-docs.md
-            - name: Настройка политик безопасных ссылок в Office 365 ATP
+            - name: Настройка политик безопасных ссылок в Defender для Office 365
               href: ./office-365-security/set-up-atp-safe-links-policies.md
-            - name: Настройка политик безопасных вложений в Office 365 ATP
+            - name: Настройка политик безопасных вложений в Defender для Office 365
               href: ./office-365-security/set-up-atp-safe-attachments-policies.md
             - name: Настройка SPF для предотвращения спуфинга
               href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
             - name: Политики пользовательской отправки
               href: ./office-365-security/user-submission.md
-            - name: Теги пользователя в Office 365 ATP
+            - name: Теги пользователя в Defender для Office 365
               href: ./office-365-security/user-tags.md
-            - name: 'Включение ATP для SharePoint, OneDrive и Microsoft Teams'
+            - name: 'Включение Defender для Office 365 в SharePoint, OneDrive и Microsoft Teams'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Проверка исходящей электронной почты с помощью DKIM
               href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -424,7 +424,7 @@
               href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
             - name: Создание сайтов групп в среде разработки и тестирования для политической кампании
               href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: Теги пользователя в Office 365 ATP
+            - name: Теги пользователя в Defender для Office 365
               href: ./office-365-security/user-tags.md
             - name: S/MIME
               href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
@@ -457,11 +457,11 @@
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: Готовые политики безопасности
               href: ./office-365-security/preset-security-policies.md
-            - name: Анализатор конфигураций для готовых политик безопасности
+            - name: Анализатор конфигурации для предустановленных политик безопасности
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
-            - name: Эмулятор атак в Office 365 ATP
+            - name: Эмулятор атак в Defender для Office 365
               href: ./office-365-security/attack-simulator.md
-            - name: Рекомендуемые параметры для настройки безопасности EOP и Office 365 ATP
+            - name: Рекомендуемые параметры для настройки EOP и Безопасности Defender для Office 365
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: Рекомендации по настройке EOP
               href: ./office-365-security/best-practices-for-configuring-eop.md
@@ -513,7 +513,7 @@
               href: ./office-365-security/campaigns.md
             - name: Исследование вредоносной электронной почты
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: Просмотр отчетов ATP в Центре безопасности и соответствия требованиям
+            - name: Просмотр отчетов в Центре безопасности и соответствия требованиям
               href: ./office-365-security/view-reports-for-atp.md
             - name: Просмотр сведений и результатов автоматического исследования
               href: ./office-365-security/air-view-investigation-results.md
@@ -553,7 +553,7 @@
               href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
             - name: Анализ очередей
               href: ./office-365-security/mfi-queue-alerts-and-queues.md
-            - name: Обзор сведений аналитики спуфинга в ATP
+            - name: "Пошаговое руководство\_— результаты аналитики спуфинга"
               href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
         - name: Реагирование
           items:

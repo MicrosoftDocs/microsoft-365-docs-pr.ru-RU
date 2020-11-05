@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создавайте и автоматически публикуйте метки хранения для их автоматического применения в приложениях для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: 9a4b19bd30201f5a5ff75b49ec384b451526b91b
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 5833684c729876315ce3866a8af52d79b924caef
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877306"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920023"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Автоматическое применение метки хранения для сохранения или удаления контента
 
@@ -224,8 +224,6 @@ ProgID:Media AND ProgID:Meeting
     Set-RetentionCompliancePolicy -Identity <policy name> -RetryDistribution
    ```
 
-
-
 ## <a name="updating-retention-labels-and-their-policies"></a>Обновление меток хранения и их политик
 
 При изменении меток хранения или политики авто-применения, когда метка хранения уже применена к контенту, ваши обновленные параметры автоматически применяются к этому контенту, в дополнение к уже определенному.
@@ -233,6 +231,10 @@ ProgID:Media AND ProgID:Meeting
 Некоторые параметры невозможно изменить после создания и сохранения метки или политики, в том числе:
 - Параметры хранения, за исключением срока хранения, если только метка не настроена на хранение или удаление содержимого в зависимости от момента его создания.
 - Параметр, помечающий элементы как запись.
+
+## <a name="locking-the-policy-to-prevent-changes"></a>Блокировка политики для предотвращения изменений
+
+Чтобы гарантировать, что никто не сможет отключить политику, удалить ее или сделать ее менее строгой, см. раздел [Использование блокировки для сохранения для ограничения изменений политик хранения и политик меток хранения](retention-preservation-lock.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

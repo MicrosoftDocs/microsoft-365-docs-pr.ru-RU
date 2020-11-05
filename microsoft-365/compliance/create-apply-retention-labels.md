@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Инструкции по созданию и публикации меток хранения, которые можно применять в приложениях для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: e1504bf4dda8ee2e9f78f84c147bb4f3ebc22887
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: e13da466e10a347270d4b1097d36476d974557a7
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774000"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920343"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Создание меток хранения и их применение в приложениях
 
@@ -65,15 +65,15 @@ ms.locfileid: "48774000"
     - Если управление записями не используется:
        - **Решения** > **Управление информацией** > вкладка **Метки** > + **Создать метку**
     
-    Не отображается необходимый параметр? Сначала выберите **Показать все** . 
+    Не отображается необходимый параметр? Сначала выберите **Показать все**. 
 
 2. Следуйте указаниям мастера. Если используется управление записями:
     
     - Дополнительные сведения о дескрипторах плана хранения, см. в статье [Использование плана хранения для управления метками хранения](file-plan-manager.md)
     
-    - Чтобы использовать метку хранения для объявления элементов записями, нажмите кнопку **Пометить элементы как записи** или **Пометить элементы как нормативные записи** . Дополнительные сведения см. в статье [Настройка меток хранения для объявления элементов записями](declare-records.md#configuring-retention-labels-to-declare-records)
+    - Чтобы использовать метку хранения для объявления элементов записями, нажмите кнопку **Пометить элементы как записи** или **Пометить элементы как нормативные записи**. Дополнительные сведения см. в статье [Настройка меток хранения для объявления элементов записями](declare-records.md#configuring-retention-labels-to-declare-records)
 
-3. После того как появятся параметры для публикации метки, автоматического применения метки или просто сохранения метки, выберите **Сохранить метку** , и затем нажмите **Готово** .
+3. После того как появятся параметры для публикации метки, автоматического применения метки или просто сохранения метки, выберите **Сохранить метку** , и затем нажмите **Готово**.
 
 4. Повторите эти действия для создания дополнительных меток.
 
@@ -91,7 +91,7 @@ ms.locfileid: "48774000"
     - Если управление записями не используется:
         - **Решения** > **Управление информацией** >  вкладка **Политики меток** > **Опубликовать метки**
     
-    Не отображается необходимый параметр? Сначала выберите **Показать все** . 
+    Не отображается необходимый параметр? Сначала выберите **Показать все**. 
 
 2. Следуйте указаниям мастера.
     
@@ -272,7 +272,11 @@ When you edit a retention label or retention label policy, and the retention lab
 
 Some settings can't be changed after the label or policy is created and saved, which include:
 - The retention settings except the retention period, unless you've configured the label to retain or delete the content based on when it was created.
-- The option to classify as a record.
+- The option to mark items as a record.
+
+## Locking the policy to prevent changes
+
+If you need to ensure that that no one can turn off the policy, delete the policy, or make it less restrictive, see [Use Preservation Lock to restrict changes to retention policies and retention label policies](retention-preservation-lock.md).
 
 ## Next steps
 
