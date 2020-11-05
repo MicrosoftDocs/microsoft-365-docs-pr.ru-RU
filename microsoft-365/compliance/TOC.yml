@@ -296,8 +296,8 @@
           href: create-apply-retention-labels.md
         - name: Автоматическое применение метки хранения к контенту
           href: apply-retention-labels-automatically.md
-        - name: Соблюдение правила SEC 17a-4
-          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: Блокировка политик для ограничения изменений
+          href: retention-preservation-lock.md
         - name: Создание меток хранения с помощью PowerShell
           href: bulk-create-publish-labels-using-powershell.md
         - name: 'Общие сведения о хранении, зависящем от возникновения события'
@@ -426,6 +426,8 @@
           href: declare-records.md
         - name: Использование управления версиями записей
           href: record-versioning.md
+        - name: Ресурсы для нормативных требований
+          href: retention-regulatory-requirements.md
 - name: Управление обнаружением электронных данных
   items:
     - name: eDiscovery в Microsoft 365
@@ -531,6 +533,8 @@
               href: data-spillage-scenariosearch-and-purge.md
             - name: Сохранение получателей скрытой копии для поиска
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+            - name: Расшифровка в средствах обнаружения электронных данных
+              href: ediscovery-decryption.md
             - name: Устранение распространенных проблем с обнаружением электронных данных
               href: ediscovery-troubleshooting-common-issues.md
             - name: Повторение неудачного поиска
@@ -660,6 +664,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Настройка границ обеспечения соответствия требованиям
               href: set-up-compliance-boundaries.md
+            - name: Расшифровка в средствах обнаружения электронных данных
+              href: ediscovery-decryption.md
             - name: Поиск действий по обнаружению электронных данных в журнале аудита
               href: search-for-ediscovery-activities-in-the-audit-log.md
             - name: Устранение неполадок AzCopy
