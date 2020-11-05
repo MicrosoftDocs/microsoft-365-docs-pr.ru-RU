@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 73d52a91620bc0bd50a310c4085fa821fab80da2
-ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
+ms.openlocfilehash: bff804e726a62563621b11932e590ffcb631835a
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47416359"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920401"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Правило комиссий по продажам в будущем (КФТК) 1.31 (c-d) США
 
@@ -41,11 +41,11 @@ ms.locfileid: "47416359"
 
 ### <a name="microsoft-office-365"></a>Microsoft Office 365
 
-Чтобы оценить соответствие требованиям Office 365 с помощью правила КФТК 1.31 (c-d), корпорация Майкрософт выводила независимая юридическая фирма, которая специализируется на нормативных проблемах, Ковингтон & Бурлинг, ЛЛП. В полученном отчете: [Архивация в Microsoft Office 365, хранение данных и правило 17A – 4](https://go.microsoft.com/fwlink/?linkid=830440)Ковингтон проверено, что [Office 365 с блокировкой сохранения](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) включает функции архивации, которые позволяют пользователям поднадзорно хранить данные, чтобы обеспечить соответствие требованиям кфтк для хранения записей.
+Чтобы оценить соответствие требованиям Office 365 с помощью правила КФТК 1.31 (c-d), корпорация Майкрософт выводила независимая юридическая фирма, которая специализируется на нормативных проблемах, Ковингтон & Бурлинг, ЛЛП. В полученном отчете: [Архивация в Microsoft Office 365, хранение данных и правило 17A – 4](https://go.microsoft.com/fwlink/?linkid=830440)Ковингтон проверено, что [Office 365 с блокировкой сохранения](retention-preservation-lock.md) включает функции архивации, которые позволяют пользователям поднадзорно хранить данные, чтобы обеспечить соответствие требованиям кфтк для хранения записей.
 
 Архивация в Office 365 помогает сохранить широкий спектр данных, в том числе электронную почту, голосовую почту, Общие документы, мгновенные сообщения и сторонние данные. В частности, архивация в Office 365 позволяет клиентам настраивать глобальные и детализированные политики хранения сообщений для хранения данных за определенный период, а не в неизменяемом формате без удаления.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/o365-compliance-framework)
@@ -59,7 +59,7 @@ ms.locfileid: "47416359"
 ## <a name="how-to-implement"></a>Методика реализации
 
 - [Регламентированные финансовые услуги](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): карта соответствия требованиям основных принципов и норм США для облачных вычислений и Microsoft Online Services.
-- [Руководство по оценке риска и соответствия требованиям](https://aka.ms/RiskGovernanceGuide). Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов.
+- [Руководство по оценке риска и соответствия](https://aka.ms/RiskGovernanceGuide): создание модели управления для оценки риски облачных служб Майкрософт и уведомления контролирующих органов.
 - [Сценарии финансового использования](https://docs.microsoft.com/azure/industry/financial/): использование обзоров сценариев, учебных руководств и прочих ресурсов для создания решений Azure для сферы финансовых услуг.
 
 ## <a name="resources"></a>Ресурсы
