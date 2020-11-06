@@ -1,0 +1,68 @@
+### YamlMime:Landing
+title: Защита устройств и данных приложений и управление ими
+summary: Изучите эти ресурсы, чтобы помочь администраторам выбрать один из методов управления данными для устройств и приложений.
+metadata:
+  title: Защита устройств и данных приложений и управление ими
+  description: Управление устройствами и данными приложений и их защита
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: Sirkkuw
+  ms.author: sirkkuw
+  ms.date: 09/09/2020
+  localization_priority: Priority
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: a70d8471d8344f7bf479e050c59d6c6b3d97f5fe
+  ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 11/06/2020
+  ms.locfileid: "48930277"
+landingContent:
+- title: Различные методы MDM и MAM
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Проверка параметров защиты данных для устройств и приложений
+      url: choose-device-security.md
+- title: Управление устройствами и данными приложений с помощью Microsoft Intune
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о регистрации устройств
+      url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка автоматической регистрации устройств с Windows 10
+      url: https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment
+    - text: Настройка регистрации для Android
+      url: https://docs.microsoft.com/mem/intune/enrollment/android-enroll
+    - text: Настройка регистрации iOS и Ипадос
+      url: https://docs.microsoft.com/mem/intune/enrollment/ios-enroll
+- title: Управление устройствами и данными приложений с помощью Microsoft 365 бизнес премиум
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Просмотр политик управления приложениями и устройствами и управление ими
+      url: ../../business/view-policies-and-devices.md
+    - text: Удаление данных организации с устройств
+      url: ../../business/remove-company-data.md
+    - text: Восстановление заводских настроек устройств с Windows
+      url: ../../business/reset-devices-to-factory-settings.md
+- title: Управление устройствами и данными приложений с помощью Microsoft 365 для предприятий
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Обзор Microsoft 365 для предприятий
+      url: ../../enterprise/microsoft-365-overview.md
+    - text: Дорожка управления устройствами — карта для Microsoft 365 для предприятий
+      url: ../../enterprise/device-management-roadmap-microsoft-365.md
+- title: Управление устройствами и данными приложений с помощью базовых функций мобильной связи и безопасности
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о базовом мобильном и системном обеспечении безопасности
+      url: ../basic-mobility-security/overview.md
+    - text: Настройка базовых функций мобильной связи и безопасности
+      url: ../basic-mobility-security/set-up.md
+    - text: Возможности базового обеспечения безопасности и мобильности
+      url: ../basic-mobility-security/capabilities.md
