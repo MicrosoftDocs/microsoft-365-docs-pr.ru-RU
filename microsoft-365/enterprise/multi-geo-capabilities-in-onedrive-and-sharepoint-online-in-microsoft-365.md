@@ -13,15 +13,17 @@ ms.custom: ''
 ms.collection:
 - Strat_SP_gtc
 - SPO_Content
+- m365solution-scenario
+- m365solution-spintranet
 localization_priority: Normal
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: Расширьте свою географию присутствия Microsoft 365 с поддержкой нескольких регионов в OneDrive Online.
-ms.openlocfilehash: 73561e8420d12687474e3cd69eb389fc69c2038e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 84abfc01d5073889e998347f58d4a3e8bb29ea33
+ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693126"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48930181"
 ---
 # <a name="multi-geo-capabilities-in-onedrive-and-sharepoint-online"></a>Поддержка нескольких регионов в OneDrive и SharePoint Online
 
