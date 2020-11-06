@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ad17933592b860fb81e469fd55a454c90b71320
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0f7dcddd7070f95ae61b17b9623dfcbab4a62e5f
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845760"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920636"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
 
@@ -103,8 +103,8 @@ ms.locfileid: "48845760"
 |**Microsoft Defender для конечной точки и EDR**|Назначение ролей. <br/><br/> Управление группами компьютеров. <br/><br/> Настройка выявления угроз в конечной точке и автоматизированного исправления. <br/><br/> Просмотр и изучение оповещений, а также реагирование на них.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Добавление администраторов, политик и параметров, загрузка журналов и выполнение действий системы управления.|
-|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (ожидается в ближайшее время)|Просмотр политик и состояний безопасности, изменение политик безопасности, просмотр и отклонение оповещений и рекомендаций.|
-|[_ *Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
+|[**Azure Defender**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (ожидается в ближайшее время)|Просмотр политик и состояний безопасности, изменение политик безопасности, просмотр и отклонение оповещений и рекомендаций.|
+|[**Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
 |
 
 ### <a name="security-operator"></a>Оператор безопасности
@@ -140,8 +140,8 @@ ms.locfileid: "48845760"
 |**Microsoft Defender для конечной точки и EDR**|Просмотр и изучение оповещений.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Использование разрешений только для чтения с целью просмотра информации. <br/><br/> Управление оповещениями.|
-|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Просмотр рекомендаций и оповещений. <br/><br/> Просмотр политик безопасности. <br/><br/> Просмотр состояний безопасности, но без внесения изменений.|
-|[_ *Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
+|[**Azure Defender**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Просмотр рекомендаций и оповещений. <br/><br/> Просмотр политик безопасности. <br/><br/> Просмотр состояний безопасности, но без внесения изменений.|
+|[**Работоспособность службы Office 365**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|Просмотр состояния служб Office 365.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>Глобальный администратор может управлять ролями в Azure Active Directory.
