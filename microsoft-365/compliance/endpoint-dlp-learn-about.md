@@ -1,5 +1,5 @@
 ---
-title: Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)
+title: Сведения о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -18,129 +18,136 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
-description: 'Защита от потери данных в конечной точке Microsoft 365 расширяет отслеживание действий с файлами и защитных действий для конечных точек этих файлов. В решениях для обеспечения соответствия требованиям Microsoft 365 файлы являются видимыми '
-ms.openlocfilehash: cbf4a53658885102226d2b874180f5cc5f264a91
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: 'Защита от потери данных в конечной точке Microsoft 365 расширяет отслеживание действий с файлами и защитных действий с этими файлами до конечных точек. В решениях для обеспечения соответствия требованиям Microsoft 365 файлы являются видимыми '
+ms.openlocfilehash: 3dedf8f3134dbdd00c45e6b0aed741a3b3173984
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841865"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931973"
 ---
-# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a><span data-ttu-id="29f68-104">Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="29f68-104">Learn about Microsoft 365 Endpoint data loss prevention (preview)</span></span>
+# <a name="learn-about-microsoft-365-endpoint-data-loss-prevention-preview"></a><span data-ttu-id="43c2b-104">Узнайте о защите от потери данных в конечной точке Microsoft 365 (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="43c2b-104">Learn about Microsoft 365 Endpoint data loss prevention (preview)</span></span>
 
-<span data-ttu-id="29f68-105">Защиту от потери данных (DLP) в Microsoft 365 можно использовать для отслеживания действий, принятых в отношении элементов, которые были определены как конфиденциальные, и для защиты от непреднамеренного обмена этими элементами.</span><span class="sxs-lookup"><span data-stu-id="29f68-105">You can use Microsoft 365 data loss prevention (DLP) to monitor the actions that are being taken on items you've determined to be sensitive and to help prevent the unintentional sharing of those items.</span></span> <span data-ttu-id="29f68-106">Подробная информация приведена в статье [Обзор защиты от потери данных](data-loss-prevention-policies.md).</span><span class="sxs-lookup"><span data-stu-id="29f68-106">For more information on DLP, see [Overview of data loss prevention](data-loss-prevention-policies.md).</span></span>
+<span data-ttu-id="43c2b-105">Защиту от потери данных (DLP) в Microsoft 365 можно использовать для отслеживания действий, принятых в отношении элементов, которые были определены как конфиденциальные, и для защиты от непреднамеренного обмена этими элементами.</span><span class="sxs-lookup"><span data-stu-id="43c2b-105">You can use Microsoft 365 data loss prevention (DLP) to monitor the actions that are being taken on items you've determined to be sensitive and to help prevent the unintentional sharing of those items.</span></span> <span data-ttu-id="43c2b-106">Подробная информация приведена в статье [Обзор защиты от потери данных](data-loss-prevention-policies.md).</span><span class="sxs-lookup"><span data-stu-id="43c2b-106">For more information on DLP, see [Overview of data loss prevention](data-loss-prevention-policies.md).</span></span>
 
-<span data-ttu-id="29f68-107">**Защита от потери данных в конечной точке (DLP в конечной точке)** расширяет возможности отслеживания действий и защиты от потери данных для конфиденциальных элементов на устройствах с Windows 10.</span><span class="sxs-lookup"><span data-stu-id="29f68-107">**Endpoint data loss prevention** (Endpoint DLP) extends the activity monitoring and protection capabilities of DLP to sensitive items that are on Windows 10 devices.</span></span> <span data-ttu-id="29f68-108">После того как устройства будут подключены к решениям по обеспечению соответствия требованиям Microsoft 365, сведения о действиях пользователей с конфиденциальными элементами становятся видимыми в [обозревателе действий](data-classification-activity-explorer.md) и вы можете принудительно применять защитные действия к ним с помощью [политик защиты от потери данных](create-test-tune-dlp-policy.md).</span><span class="sxs-lookup"><span data-stu-id="29f68-108">Once devices are onboarded into the Microsoft 365 compliance solutions, the information about what users are doing with sensitive items is made visible in [activity explorer](data-classification-activity-explorer.md) and you can enforce protective actions on those items via [DLP policies](create-test-tune-dlp-policy.md).</span></span>
+<span data-ttu-id="43c2b-107">**Защита от потери данных в конечной точке (DLP в конечной точке)** расширяет возможности отслеживания действий и защиты от потери данных для конфиденциальных элементов на устройствах с Windows 10.</span><span class="sxs-lookup"><span data-stu-id="43c2b-107">**Endpoint data loss prevention** (Endpoint DLP) extends the activity monitoring and protection capabilities of DLP to sensitive items that are on Windows 10 devices.</span></span> <span data-ttu-id="43c2b-108">После того как устройства будут подключены к решениям по обеспечению соответствия требованиям Microsoft 365, сведения о действиях пользователей с конфиденциальными элементами становятся видимыми в [обозревателе действий](data-classification-activity-explorer.md) и вы можете принудительно применять защитные действия к ним с помощью [политик защиты от потери данных](create-test-tune-dlp-policy.md).</span><span class="sxs-lookup"><span data-stu-id="43c2b-108">Once devices are onboarded into the Microsoft 365 compliance solutions, the information about what users are doing with sensitive items is made visible in [activity explorer](data-classification-activity-explorer.md) and you can enforce protective actions on those items via [DLP policies](create-test-tune-dlp-policy.md).</span></span>
 
-## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a><span data-ttu-id="29f68-109">Действия в конечных точках, которые вы можете отслеживать и реагировать на них</span><span class="sxs-lookup"><span data-stu-id="29f68-109">Endpoint activities you can monitor and take action on</span></span>
+## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a><span data-ttu-id="43c2b-109">Действия в конечных точках, которые вы можете отслеживать и реагировать на них</span><span class="sxs-lookup"><span data-stu-id="43c2b-109">Endpoint activities you can monitor and take action on</span></span>
 
-<span data-ttu-id="29f68-110">Защита от потери данных в конечной точке от Майкрософт позволяет проверять и управлять следующими типами действий, выполняемыми пользователями в отношении конфиденциальных элементов на устройствах с Windows 10.</span><span class="sxs-lookup"><span data-stu-id="29f68-110">Microsoft Endpoint DLP enables you to audit and manage the following types of activities users take on sensitive items on devices running Windows 10.</span></span> <span data-ttu-id="29f68-111">К ним относятся:</span><span class="sxs-lookup"><span data-stu-id="29f68-111">This includes:</span></span>
+<span data-ttu-id="43c2b-110">Защита от потери данных в конечной точке от Майкрософт позволяет проверять и управлять следующими типами действий, выполняемыми пользователями в отношении конфиденциальных элементов на устройствах с Windows 10.</span><span class="sxs-lookup"><span data-stu-id="43c2b-110">Microsoft Endpoint DLP enables you to audit and manage the following types of activities users take on sensitive items on devices running Windows 10.</span></span> <span data-ttu-id="43c2b-111">К ним относятся:</span><span class="sxs-lookup"><span data-stu-id="43c2b-111">This includes:</span></span>
 
 
-|<span data-ttu-id="29f68-112">действие с элементом</span><span class="sxs-lookup"><span data-stu-id="29f68-112">activity on item</span></span> |<span data-ttu-id="29f68-113">проверяемое/ограниченное</span><span class="sxs-lookup"><span data-stu-id="29f68-113">auditable/restrictable</span></span>  |
+|<span data-ttu-id="43c2b-112">действие с элементом</span><span class="sxs-lookup"><span data-stu-id="43c2b-112">activity on item</span></span> |<span data-ttu-id="43c2b-113">проверяемое/ограниченное</span><span class="sxs-lookup"><span data-stu-id="43c2b-113">auditable/restrictable</span></span>  |
 |---------|---------|
-|<span data-ttu-id="29f68-114">создано</span><span class="sxs-lookup"><span data-stu-id="29f68-114">created</span></span>    | <span data-ttu-id="29f68-115">проверяемое</span><span class="sxs-lookup"><span data-stu-id="29f68-115">auditable</span></span>      |
-|<span data-ttu-id="29f68-116">переименовано</span><span class="sxs-lookup"><span data-stu-id="29f68-116">renamed</span></span>    |  <span data-ttu-id="29f68-117">проверяемое</span><span class="sxs-lookup"><span data-stu-id="29f68-117">auditable</span></span>       |
-|<span data-ttu-id="29f68-118">скопировано на съемные носители или созданное на них</span><span class="sxs-lookup"><span data-stu-id="29f68-118">copied to or created on removable media</span></span>     |     <span data-ttu-id="29f68-119">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="29f68-119">auditable and restrictable</span></span>|
-|<span data-ttu-id="29f68-120">скопировано в общую сетевую папку, например \\my-server\fileshare</span><span class="sxs-lookup"><span data-stu-id="29f68-120">copied to network share, e.g. \\my-server\fileshare</span></span>   |     <span data-ttu-id="29f68-121">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="29f68-121">auditable and restrictable</span></span>    |
-|<span data-ttu-id="29f68-122">напечатано</span><span class="sxs-lookup"><span data-stu-id="29f68-122">printed</span></span> |    <span data-ttu-id="29f68-123">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="29f68-123">auditable and restrictable</span></span>       |
-|<span data-ttu-id="29f68-124">скопировано в облако с помощью Chromium Edge</span><span class="sxs-lookup"><span data-stu-id="29f68-124">copied to cloud via Chromium Edge</span></span>    |   <span data-ttu-id="29f68-125">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="29f68-125">auditable and restrictable</span></span>        |
-|<span data-ttu-id="29f68-126">получен доступ посредством неразрешенных приложений и браузеров</span><span class="sxs-lookup"><span data-stu-id="29f68-126">accessed by unallowed apps and browsers</span></span>    |  <span data-ttu-id="29f68-127">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="29f68-127">auditable and restrictable</span></span>       |
+|<span data-ttu-id="43c2b-114">создано</span><span class="sxs-lookup"><span data-stu-id="43c2b-114">created</span></span>    | <span data-ttu-id="43c2b-115">проверяемое</span><span class="sxs-lookup"><span data-stu-id="43c2b-115">auditable</span></span>      |
+|<span data-ttu-id="43c2b-116">переименовано</span><span class="sxs-lookup"><span data-stu-id="43c2b-116">renamed</span></span>    |  <span data-ttu-id="43c2b-117">проверяемое</span><span class="sxs-lookup"><span data-stu-id="43c2b-117">auditable</span></span>       |
+|<span data-ttu-id="43c2b-118">скопировано на съемные носители или созданное на них</span><span class="sxs-lookup"><span data-stu-id="43c2b-118">copied to or created on removable media</span></span>     |     <span data-ttu-id="43c2b-119">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="43c2b-119">auditable and restrictable</span></span>|
+|<span data-ttu-id="43c2b-120">скопировано в общую сетевую папку, например \\my-server\fileshare</span><span class="sxs-lookup"><span data-stu-id="43c2b-120">copied to network share, e.g. \\my-server\fileshare</span></span>   |     <span data-ttu-id="43c2b-121">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="43c2b-121">auditable and restrictable</span></span>    |
+|<span data-ttu-id="43c2b-122">напечатано</span><span class="sxs-lookup"><span data-stu-id="43c2b-122">printed</span></span> |    <span data-ttu-id="43c2b-123">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="43c2b-123">auditable and restrictable</span></span>       |
+|<span data-ttu-id="43c2b-124">скопировано в облако с помощью Chromium Edge</span><span class="sxs-lookup"><span data-stu-id="43c2b-124">copied to cloud via Chromium Edge</span></span>    |   <span data-ttu-id="43c2b-125">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="43c2b-125">auditable and restrictable</span></span>        |
+|<span data-ttu-id="43c2b-126">получен доступ посредством неразрешенных приложений и браузеров</span><span class="sxs-lookup"><span data-stu-id="43c2b-126">accessed by unallowed apps and browsers</span></span>    |  <span data-ttu-id="43c2b-127">проверяемое и ограниченное</span><span class="sxs-lookup"><span data-stu-id="43c2b-127">auditable and restrictable</span></span>       |
 
-## <a name="whats-different-in-endpoint-dlp"></a><span data-ttu-id="29f68-128">Чем отличается защита от потери данных в конечной точке</span><span class="sxs-lookup"><span data-stu-id="29f68-128">What's different in Endpoint DLP</span></span>
+## <a name="whats-different-in-endpoint-dlp"></a><span data-ttu-id="43c2b-128">Чем отличается защита от потери данных в конечной точке</span><span class="sxs-lookup"><span data-stu-id="43c2b-128">What's different in Endpoint DLP</span></span>
 
-<span data-ttu-id="29f68-129">Перед началом глубокой работы с защитой от потери данных в конечной точке необходимо учитывать ряд дополнительных понятий.</span><span class="sxs-lookup"><span data-stu-id="29f68-129">There are a few extra concepts that you need to be aware of before you dig into Endpoint DLP.</span></span>
+<span data-ttu-id="43c2b-129">Перед началом глубокой работы с защитой от потери данных в конечной точке необходимо учитывать ряд дополнительных понятий.</span><span class="sxs-lookup"><span data-stu-id="43c2b-129">There are a few extra concepts that you need to be aware of before you dig into Endpoint DLP.</span></span>
 
-### <a name="enabling-device-management"></a><span data-ttu-id="29f68-130">Включение управления мобильными устройствами</span><span class="sxs-lookup"><span data-stu-id="29f68-130">Enabling Device management</span></span>
+### <a name="enabling-device-management"></a><span data-ttu-id="43c2b-130">Включение управления мобильными устройствами</span><span class="sxs-lookup"><span data-stu-id="43c2b-130">Enabling Device management</span></span>
 
-<span data-ttu-id="29f68-131">Управление устройствами — это функция, позволяющая осуществлять сбор данных телеметрии с устройств и преобразование их в решения для обеспечения соответствия требованиям Microsoft 365, такие как Защита от потери данных в конечной точке и [Управление рисками в рамках программы предварительной оценки](insider-risk-management.md).</span><span class="sxs-lookup"><span data-stu-id="29f68-131">Device management is the functionality that enables the collection of telemetry from devices and brings it into Microsoft 365 compliance solutions like Endpoint DLP and [Insider Risk management](insider-risk-management.md).</span></span> <span data-ttu-id="29f68-132">Вам потребуется подключить все устройства, которые вы хотите использовать в качестве расположений в политиках защиты от потери данных.</span><span class="sxs-lookup"><span data-stu-id="29f68-132">You'll need to onboard all devices you want to use as locations in DLP policies.</span></span>
+<span data-ttu-id="43c2b-131">Управление устройствами — это функция, позволяющая осуществлять сбор данных телеметрии с устройств и преобразование их в решения для обеспечения соответствия требованиям Microsoft 365, такие как Защита от потери данных в конечной точке и [Управление рисками в рамках программы предварительной оценки](insider-risk-management.md).</span><span class="sxs-lookup"><span data-stu-id="43c2b-131">Device management is the functionality that enables the collection of telemetry from devices and brings it into Microsoft 365 compliance solutions like Endpoint DLP and [Insider Risk management](insider-risk-management.md).</span></span> <span data-ttu-id="43c2b-132">Вам потребуется подключить все устройства, которые вы хотите использовать в качестве расположений в политиках защиты от потери данных.</span><span class="sxs-lookup"><span data-stu-id="43c2b-132">You'll need to onboard all devices you want to use as locations in DLP policies.</span></span>
 
-![включение управления устройствами](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
+> [!div class="mx-imgBorder"]
+> <span data-ttu-id="43c2b-133">![включение управления устройствами](../media/endpoint-dlp-learn-about-1-enable-device-management.png)</span><span class="sxs-lookup"><span data-stu-id="43c2b-133">![enable device management](../media/endpoint-dlp-learn-about-1-enable-device-management.png)</span></span>
 
-<span data-ttu-id="29f68-134">Подключение и отключение выполняется с помощью сценариев, скачанных из Центра управления устройствами.</span><span class="sxs-lookup"><span data-stu-id="29f68-134">Onboarding and offboarding are handled via scripts you download from the Device management center.</span></span> <span data-ttu-id="29f68-135">В центре есть настраиваемые сценарии для каждого из этих методов развертывания:</span><span class="sxs-lookup"><span data-stu-id="29f68-135">The center has custom scripts for each of these deployment methods:</span></span>
+<span data-ttu-id="43c2b-134">Подключение и отключение выполняется с помощью сценариев, скачанных из Центра управления устройствами.</span><span class="sxs-lookup"><span data-stu-id="43c2b-134">Onboarding and offboarding are handled via scripts you download from the Device management center.</span></span> <span data-ttu-id="43c2b-135">В центре есть настраиваемые сценарии для каждого из этих методов развертывания:</span><span class="sxs-lookup"><span data-stu-id="43c2b-135">The center has custom scripts for each of these deployment methods:</span></span>
 
-- <span data-ttu-id="29f68-136">локальный сценарий (до 10 компьютеров)</span><span class="sxs-lookup"><span data-stu-id="29f68-136">local script (up to 10 machines)</span></span>
-- <span data-ttu-id="29f68-137">Групповая политика</span><span class="sxs-lookup"><span data-stu-id="29f68-137">Group policy</span></span>
-- <span data-ttu-id="29f68-138">System Center Configuration Manager (версия 1610 или более поздняя)</span><span class="sxs-lookup"><span data-stu-id="29f68-138">System Center Configuration Manager (version 1610 or later)</span></span>
-- <span data-ttu-id="29f68-139">Управление мобильными устройствами/Microsoft Intune</span><span class="sxs-lookup"><span data-stu-id="29f68-139">Mobile Device Management/Microsoft Intune</span></span>
-- <span data-ttu-id="29f68-140">Сценарии подключения в инфраструктуре виртуальных рабочих столов (VDI) для временных компьютеров</span><span class="sxs-lookup"><span data-stu-id="29f68-140">VDI onboarding scripts for non-persistent machines</span></span>
+- <span data-ttu-id="43c2b-136">локальный сценарий (до 10 компьютеров)</span><span class="sxs-lookup"><span data-stu-id="43c2b-136">local script (up to 10 machines)</span></span>
+- <span data-ttu-id="43c2b-137">Групповая политика</span><span class="sxs-lookup"><span data-stu-id="43c2b-137">Group policy</span></span>
+- <span data-ttu-id="43c2b-138">System Center Configuration Manager (версия 1610 или более поздняя)</span><span class="sxs-lookup"><span data-stu-id="43c2b-138">System Center Configuration Manager (version 1610 or later)</span></span>
+- <span data-ttu-id="43c2b-139">Управление мобильными устройствами/Microsoft Intune</span><span class="sxs-lookup"><span data-stu-id="43c2b-139">Mobile Device Management/Microsoft Intune</span></span>
+- <span data-ttu-id="43c2b-140">Сценарии подключения в инфраструктуре виртуальных рабочих столов (VDI) для временных компьютеров</span><span class="sxs-lookup"><span data-stu-id="43c2b-140">VDI onboarding scripts for non-persistent machines</span></span>
 
-![страница подключения устройств](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)
+> [!div class="mx-imgBorder"]
+> <span data-ttu-id="43c2b-141">![страница подключения устройств](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)</span><span class="sxs-lookup"><span data-stu-id="43c2b-141">![device onboarding page](../media/endpoint-dlp-learn-about-3-device-onboarding-page.png)</span></span>
 
- <span data-ttu-id="29f68-142">Для подключения устройств используйте процедуры, описанные в статье [Начало работы с Защитой от потери данных в конечной точке в Microsoft 365](endpoint-dlp-getting-started.md).</span><span class="sxs-lookup"><span data-stu-id="29f68-142">Use the procedures in [Getting started with Microsoft 365 Endpoint DLP](endpoint-dlp-getting-started.md) to onboard devices.</span></span>
+ <span data-ttu-id="43c2b-142">Для подключения устройств используйте процедуры, описанные в статье [Начало работы с функцией защиты от потери данных в конечной точке Microsoft 365](endpoint-dlp-getting-started.md).</span><span class="sxs-lookup"><span data-stu-id="43c2b-142">Use the procedures in [Getting started with Microsoft 365 Endpoint DLP](endpoint-dlp-getting-started.md) to onboard devices.</span></span>
 
-<span data-ttu-id="29f68-143">Если вы подключили устройства с помощью [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/), эти устройства будут автоматически отображаться в списке устройств.</span><span class="sxs-lookup"><span data-stu-id="29f68-143">If you have onboarded devices through [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/), those devices will automatically show up in the list of devices.</span></span>
+<span data-ttu-id="43c2b-143">Если вы подключили устройства с помощью [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/), эти устройства будут автоматически отображаться в списке устройств.</span><span class="sxs-lookup"><span data-stu-id="43c2b-143">If you have onboarded devices through [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/), those devices will automatically show up in the list of devices.</span></span>
 
-![список управляемых устройств](../media/endpoint-dlp-learn-about-2-device-list.png)
+> [!div class="mx-imgBorder"]
+> <span data-ttu-id="43c2b-144">![список управляемых устройств](../media/endpoint-dlp-learn-about-2-device-list.png)</span><span class="sxs-lookup"><span data-stu-id="43c2b-144">![managed devices list](../media/endpoint-dlp-learn-about-2-device-list.png)</span></span>
 
-### <a name="viewing-endpoint-dlp-data"></a><span data-ttu-id="29f68-145">Просмотр данных защиты от потери данных в конечной точке</span><span class="sxs-lookup"><span data-stu-id="29f68-145">Viewing Endpoint DLP data</span></span>
+### <a name="viewing-endpoint-dlp-data"></a><span data-ttu-id="43c2b-145">Просмотр данных защиты от потери данных в конечной точке</span><span class="sxs-lookup"><span data-stu-id="43c2b-145">Viewing Endpoint DLP data</span></span>
 
- <span data-ttu-id="29f68-146">Защита от потери данных в конечной точке зависит от типа MIME, поэтому действия будут записываться даже при изменении расширения файла.</span><span class="sxs-lookup"><span data-stu-id="29f68-146">Endpoint DLP monitors activity based om MIME type, so activities will be captured even if the file extension is changed.</span></span> <span data-ttu-id="29f68-147">В общедоступном предварительном просмотре просматривается все:</span><span class="sxs-lookup"><span data-stu-id="29f68-147">At public preview it watches all:</span></span>
+ <span data-ttu-id="43c2b-146">Защита от потери данных в конечной точке зависит от типа MIME, поэтому действия будут записываться даже при изменении расширения файла.</span><span class="sxs-lookup"><span data-stu-id="43c2b-146">Endpoint DLP monitors activity-based on MIME type, so activities will be captured even if the file extension is changed.</span></span> <span data-ttu-id="43c2b-147">В общедоступной предварительной версии просматривается все:</span><span class="sxs-lookup"><span data-stu-id="43c2b-147">At public preview it watches all:</span></span>
 
-- <span data-ttu-id="29f68-148">Файлы Word</span><span class="sxs-lookup"><span data-stu-id="29f68-148">Word files</span></span>
-- <span data-ttu-id="29f68-149">Файлы PowerPoint</span><span class="sxs-lookup"><span data-stu-id="29f68-149">PowerPoint files</span></span>
-- <span data-ttu-id="29f68-150">Файлы Excel</span><span class="sxs-lookup"><span data-stu-id="29f68-150">Excel files</span></span>
-- <span data-ttu-id="29f68-151">PDF-файлы</span><span class="sxs-lookup"><span data-stu-id="29f68-151">PDF files</span></span>
-- <span data-ttu-id="29f68-152">CSV-файлы</span><span class="sxs-lookup"><span data-stu-id="29f68-152">.csv files</span></span>
-- <span data-ttu-id="29f68-153">ТSV-файлы</span><span class="sxs-lookup"><span data-stu-id="29f68-153">.tsv files</span></span>
-- <span data-ttu-id="29f68-154">С-файлы</span><span class="sxs-lookup"><span data-stu-id="29f68-154">c files</span></span>
-- <span data-ttu-id="29f68-155">Файлы классов</span><span class="sxs-lookup"><span data-stu-id="29f68-155">class files</span></span>
-- <span data-ttu-id="29f68-156">CPP-файлы</span><span class="sxs-lookup"><span data-stu-id="29f68-156">cpp files</span></span>
-- <span data-ttu-id="29f68-157">CS-файлы</span><span class="sxs-lookup"><span data-stu-id="29f68-157">cs files</span></span>
-- <span data-ttu-id="29f68-158">H-файлы</span><span class="sxs-lookup"><span data-stu-id="29f68-158">h files</span></span>
-- <span data-ttu-id="29f68-159">Файлы Java</span><span class="sxs-lookup"><span data-stu-id="29f68-159">java files</span></span>
+- <span data-ttu-id="43c2b-148">Файлы Word</span><span class="sxs-lookup"><span data-stu-id="43c2b-148">Word files</span></span>
+- <span data-ttu-id="43c2b-149">Файлы PowerPoint</span><span class="sxs-lookup"><span data-stu-id="43c2b-149">PowerPoint files</span></span>
+- <span data-ttu-id="43c2b-150">Файлы Excel</span><span class="sxs-lookup"><span data-stu-id="43c2b-150">Excel files</span></span>
+- <span data-ttu-id="43c2b-151">PDF-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-151">PDF files</span></span>
+- <span data-ttu-id="43c2b-152">CSV-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-152">.csv files</span></span>
+- <span data-ttu-id="43c2b-153">ТSV-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-153">.tsv files</span></span>
+- <span data-ttu-id="43c2b-154">TXT-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-154">.txt files</span></span>
+- <span data-ttu-id="43c2b-155">RTF-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-155">.rtf files</span></span>
+- <span data-ttu-id="43c2b-156">С-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-156">.c files</span></span>
+- <span data-ttu-id="43c2b-157">CLASS-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-157">.class files</span></span>
+- <span data-ttu-id="43c2b-158">CPP-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-158">.cpp files</span></span>
+- <span data-ttu-id="43c2b-159">CS-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-159">.cs files</span></span>
+- <span data-ttu-id="43c2b-160">H-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-160">.h files</span></span>
+- <span data-ttu-id="43c2b-161">JAVA-файлы</span><span class="sxs-lookup"><span data-stu-id="43c2b-161">.java files</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="29f68-160">Файлы. txt и исходного кода не подлежат аудиту по умолчанию, а система защиты от потери данных оценивает их согласно применяемым политикам, после чего выполняет аудит или блокировку действий пользователя, соответственно.</span><span class="sxs-lookup"><span data-stu-id="29f68-160">.txt and source code files are not audited by default, DLP evaluates them against the applied policies and then user actions are audited or blocked accordingly.</span></span>
+> <span data-ttu-id="43c2b-162">Защита от потери данных в конечной точке оценивает файлы всех указанных выше типов на соответствие политике защиты от потери данных и применяет соответствующие защитные действия.</span><span class="sxs-lookup"><span data-stu-id="43c2b-162">Endpoint DLP evaluates files of all the above types against the DLP policy and applies protection actions accordingly.</span></span> <span data-ttu-id="43c2b-163">Все файлы, соответствующие политике защиты от потери данных, подвергаются аудиту для всех поддерживаемых действий, даже если они не заблокированы.</span><span class="sxs-lookup"><span data-stu-id="43c2b-163">All files that match a DLP policy are audited for all supported actions, even if they aren't blocked.</span></span> <span data-ttu-id="43c2b-164">Кроме того, по умолчанию аудит выполняется для всех файлов Word, PowerPoint, Excel, PDF и CSV, независимо от наличия политики защиты от потери данных или ее соответствия этим файлам.</span><span class="sxs-lookup"><span data-stu-id="43c2b-164">In addition, file activity performed on any Word, PowerPoint, Excel, PDF, and .csv file is audited by default, independent of whether a DLP policy exists or matches these files.</span></span>
 
-<span data-ttu-id="29f68-161">После подключения устройства сведения о действиях, прошедших аудит, передаются в обозреватель действий даже до настройки и развертывания любой политики защиты от потери данных с устройствами в качестве расположения.</span><span class="sxs-lookup"><span data-stu-id="29f68-161">Once a device is onboarded, information about audited activities flows into Activity explorer even before you configure and deploy any DLP policies that have devices as a location.</span></span>
+<span data-ttu-id="43c2b-165">После подключения устройства сведения о действиях, прошедших аудит, передаются в обозреватель действий даже до настройки и развертывания любой политики защиты от потери данных с устройствами в качестве расположения.</span><span class="sxs-lookup"><span data-stu-id="43c2b-165">Once a device is onboarded, information about audited activities flows into Activity explorer even before you configure and deploy any DLP policies that have devices as a location.</span></span>
 
-![события защиты от потери данных в конечной точке в обозревателе действий](../media/endpoint-dlp-learn-about-4-activity-explorer.png)
+> [!div class="mx-imgBorder"]
+> <span data-ttu-id="43c2b-166">![события защиты от потери данных в конечной точке в обозревателе действий](../media/endpoint-dlp-learn-about-4-activity-explorer.png)</span><span class="sxs-lookup"><span data-stu-id="43c2b-166">![endpoint dlp events in activity explorer](../media/endpoint-dlp-learn-about-4-activity-explorer.png)</span></span>
 
-<span data-ttu-id="29f68-163">Защита от потери данных в конечной точке собирает подробную информацию о действиях, прошедших аудит.</span><span class="sxs-lookup"><span data-stu-id="29f68-163">Endpoint DLP collects extensive information on audited activity.</span></span>
+<span data-ttu-id="43c2b-167">Защита от потери данных в конечной точке собирает подробную информацию о действиях, прошедших аудит.</span><span class="sxs-lookup"><span data-stu-id="43c2b-167">Endpoint DLP collects extensive information on audited activity.</span></span>
 
-<span data-ttu-id="29f68-164">Например, если файл копируется на съемный USB-носитель, то в подробных сведениях о действиях будут отображаться указанные ниже атрибуты:</span><span class="sxs-lookup"><span data-stu-id="29f68-164">For example, if a file is copied to removable USB media, you'd see these attributes in the activity details:</span></span>
+<span data-ttu-id="43c2b-168">Например, если файл копируется на съемный USB-носитель, то в подробных сведениях о действиях будут отображаться указанные ниже атрибуты:</span><span class="sxs-lookup"><span data-stu-id="43c2b-168">For example, if a file is copied to removable USB media, you'd see these attributes in the activity details:</span></span>
 
-- <span data-ttu-id="29f68-165">тип действия</span><span class="sxs-lookup"><span data-stu-id="29f68-165">activity type</span></span>
-- <span data-ttu-id="29f68-166">IP-адрес клиента</span><span class="sxs-lookup"><span data-stu-id="29f68-166">client IP</span></span>
-- <span data-ttu-id="29f68-167">путь к целевому файлу</span><span class="sxs-lookup"><span data-stu-id="29f68-167">target file path</span></span>
-- <span data-ttu-id="29f68-168">временная метка события</span><span class="sxs-lookup"><span data-stu-id="29f68-168">happened timestamp</span></span>
-- <span data-ttu-id="29f68-169">имя файла</span><span class="sxs-lookup"><span data-stu-id="29f68-169">file name</span></span>
-- <span data-ttu-id="29f68-170">пользователь</span><span class="sxs-lookup"><span data-stu-id="29f68-170">user</span></span>
-- <span data-ttu-id="29f68-171">расширение файла</span><span class="sxs-lookup"><span data-stu-id="29f68-171">file extension</span></span>
-- <span data-ttu-id="29f68-172">размер файла</span><span class="sxs-lookup"><span data-stu-id="29f68-172">file size</span></span>
-- <span data-ttu-id="29f68-173">типы конфиденциальной информации (если применимо)</span><span class="sxs-lookup"><span data-stu-id="29f68-173">sensitive information type (if applicable)</span></span>
-- <span data-ttu-id="29f68-174">значение SHA1</span><span class="sxs-lookup"><span data-stu-id="29f68-174">sha1 value</span></span>
-- <span data-ttu-id="29f68-175">значение SHA256</span><span class="sxs-lookup"><span data-stu-id="29f68-175">sha256 value</span></span>
-- <span data-ttu-id="29f68-176">предыдущее имя файла</span><span class="sxs-lookup"><span data-stu-id="29f68-176">previous file name</span></span>
-- <span data-ttu-id="29f68-177">расположение</span><span class="sxs-lookup"><span data-stu-id="29f68-177">location</span></span>
-- <span data-ttu-id="29f68-178">родитель</span><span class="sxs-lookup"><span data-stu-id="29f68-178">parent</span></span>
-- <span data-ttu-id="29f68-179">путь к файлу</span><span class="sxs-lookup"><span data-stu-id="29f68-179">filepath</span></span>
-- <span data-ttu-id="29f68-180">тип исходного расположения</span><span class="sxs-lookup"><span data-stu-id="29f68-180">source location type</span></span>
-- <span data-ttu-id="29f68-181">платформа</span><span class="sxs-lookup"><span data-stu-id="29f68-181">platform</span></span>
-- <span data-ttu-id="29f68-182">имя устройства</span><span class="sxs-lookup"><span data-stu-id="29f68-182">device name</span></span>
-- <span data-ttu-id="29f68-183">тип конечного расположения</span><span class="sxs-lookup"><span data-stu-id="29f68-183">destination location type</span></span>
-- <span data-ttu-id="29f68-184">приложение, которое выполнило копирование</span><span class="sxs-lookup"><span data-stu-id="29f68-184">application that performed the copy</span></span>
-- <span data-ttu-id="29f68-185">ИД устройства Microsoft Defender для конечной точки (если применимо)</span><span class="sxs-lookup"><span data-stu-id="29f68-185">Microsoft Defender for Endpoint device ID (if applicable)</span></span>
-- <span data-ttu-id="29f68-186">производитель съемного носителя</span><span class="sxs-lookup"><span data-stu-id="29f68-186">removable media device manufacturer</span></span>
-- <span data-ttu-id="29f68-187">модель съемного носителя</span><span class="sxs-lookup"><span data-stu-id="29f68-187">removable media device model</span></span>
-- <span data-ttu-id="29f68-188">серийный номер съемного носителя</span><span class="sxs-lookup"><span data-stu-id="29f68-188">removable media device serial number</span></span>
+- <span data-ttu-id="43c2b-169">тип действия</span><span class="sxs-lookup"><span data-stu-id="43c2b-169">activity type</span></span>
+- <span data-ttu-id="43c2b-170">IP-адрес клиента</span><span class="sxs-lookup"><span data-stu-id="43c2b-170">client IP</span></span>
+- <span data-ttu-id="43c2b-171">путь к целевому файлу</span><span class="sxs-lookup"><span data-stu-id="43c2b-171">target file path</span></span>
+- <span data-ttu-id="43c2b-172">временная метка события</span><span class="sxs-lookup"><span data-stu-id="43c2b-172">happened timestamp</span></span>
+- <span data-ttu-id="43c2b-173">имя файла</span><span class="sxs-lookup"><span data-stu-id="43c2b-173">file name</span></span>
+- <span data-ttu-id="43c2b-174">пользователь</span><span class="sxs-lookup"><span data-stu-id="43c2b-174">user</span></span>
+- <span data-ttu-id="43c2b-175">расширение файла</span><span class="sxs-lookup"><span data-stu-id="43c2b-175">file extension</span></span>
+- <span data-ttu-id="43c2b-176">размер файла</span><span class="sxs-lookup"><span data-stu-id="43c2b-176">file size</span></span>
+- <span data-ttu-id="43c2b-177">типы конфиденциальной информации (если применимо)</span><span class="sxs-lookup"><span data-stu-id="43c2b-177">sensitive information type (if applicable)</span></span>
+- <span data-ttu-id="43c2b-178">значение SHA1</span><span class="sxs-lookup"><span data-stu-id="43c2b-178">sha1 value</span></span>
+- <span data-ttu-id="43c2b-179">значение SHA256</span><span class="sxs-lookup"><span data-stu-id="43c2b-179">sha256 value</span></span>
+- <span data-ttu-id="43c2b-180">предыдущее имя файла</span><span class="sxs-lookup"><span data-stu-id="43c2b-180">previous file name</span></span>
+- <span data-ttu-id="43c2b-181">расположение</span><span class="sxs-lookup"><span data-stu-id="43c2b-181">location</span></span>
+- <span data-ttu-id="43c2b-182">родитель</span><span class="sxs-lookup"><span data-stu-id="43c2b-182">parent</span></span>
+- <span data-ttu-id="43c2b-183">путь к файлу</span><span class="sxs-lookup"><span data-stu-id="43c2b-183">filepath</span></span>
+- <span data-ttu-id="43c2b-184">тип исходного расположения</span><span class="sxs-lookup"><span data-stu-id="43c2b-184">source location type</span></span>
+- <span data-ttu-id="43c2b-185">платформа</span><span class="sxs-lookup"><span data-stu-id="43c2b-185">platform</span></span>
+- <span data-ttu-id="43c2b-186">имя устройства</span><span class="sxs-lookup"><span data-stu-id="43c2b-186">device name</span></span>
+- <span data-ttu-id="43c2b-187">тип конечного расположения</span><span class="sxs-lookup"><span data-stu-id="43c2b-187">destination location type</span></span>
+- <span data-ttu-id="43c2b-188">приложение, которое выполнило копирование</span><span class="sxs-lookup"><span data-stu-id="43c2b-188">application that performed the copy</span></span>
+- <span data-ttu-id="43c2b-189">ИД устройства Microsoft Defender для конечной точки (если применимо)</span><span class="sxs-lookup"><span data-stu-id="43c2b-189">Microsoft Defender for Endpoint device ID (if applicable)</span></span>
+- <span data-ttu-id="43c2b-190">производитель съемного носителя</span><span class="sxs-lookup"><span data-stu-id="43c2b-190">removable media device manufacturer</span></span>
+- <span data-ttu-id="43c2b-191">модель съемного носителя</span><span class="sxs-lookup"><span data-stu-id="43c2b-191">removable media device model</span></span>
+- <span data-ttu-id="43c2b-192">серийный номер съемного носителя</span><span class="sxs-lookup"><span data-stu-id="43c2b-192">removable media device serial number</span></span>
 
-![копирование атрибутов действий на USB](../media/endpoint-dlp-learn-about-5-activity-attributes.png)
+> [!div class="mx-imgBorder"]
+> <span data-ttu-id="43c2b-193">![атрибуты действий копирования на USB](../media/endpoint-dlp-learn-about-5-activity-attributes.png)</span><span class="sxs-lookup"><span data-stu-id="43c2b-193">![copy to usb activity attributes](../media/endpoint-dlp-learn-about-5-activity-attributes.png)</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="29f68-190">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="29f68-190">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="43c2b-194">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="43c2b-194">Next steps</span></span>
 
-<span data-ttu-id="29f68-191">Теперь, когда вы узнали о защите от потери данных в конечной точке, ознакомьтесь со следующим:</span><span class="sxs-lookup"><span data-stu-id="29f68-191">Now that you've learned about Endpoint DLP, your next steps are:</span></span>
+<span data-ttu-id="43c2b-195">Теперь, когда вы узнали о защите от потери данных в конечной точке, ознакомьтесь со следующим:</span><span class="sxs-lookup"><span data-stu-id="43c2b-195">Now that you've learned about Endpoint DLP, your next steps are:</span></span>
 
-1) [<span data-ttu-id="29f68-192">Начало работы с защитой от потери данных в конечной точке от Майкрософт (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="29f68-192">Getting started with Microsoft Endpoint data loss prevention (preview)</span></span>](endpoint-dlp-getting-started.md)
-2) [<span data-ttu-id="29f68-193">Использование защиты от потери данных в конечной точке от Майкрософт (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="29f68-193">Using Microsoft Endpoint data loss prevention (preview)</span></span>](endpoint-dlp-using.md)
+1) [<span data-ttu-id="43c2b-196">Начало работы с защитой от потери данных в конечной точке от Майкрософт (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="43c2b-196">Getting started with Microsoft Endpoint data loss prevention (preview)</span></span>](endpoint-dlp-getting-started.md)
+2) [<span data-ttu-id="43c2b-197">Использование защиты от потери данных в конечной точке от Майкрософт (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="43c2b-197">Using Microsoft Endpoint data loss prevention (preview)</span></span>](endpoint-dlp-using.md)
 
-## <a name="see-also"></a><span data-ttu-id="29f68-194">См. также</span><span class="sxs-lookup"><span data-stu-id="29f68-194">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="43c2b-198">См. также</span><span class="sxs-lookup"><span data-stu-id="43c2b-198">See also</span></span>
 
-- [<span data-ttu-id="29f68-195">Начало работы с защитой от потери данных в конечной точке от Майкрософт (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="29f68-195">Getting started with Microsoft Endpoint data loss prevention (preview)</span></span>](endpoint-dlp-getting-started.md)
-- [<span data-ttu-id="29f68-196">Использование защиты от потери данных в конечной точке от Майкрософт (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="29f68-196">Using Microsoft Endpoint data loss prevention (preview)</span></span>](endpoint-dlp-using.md)
-- [<span data-ttu-id="29f68-197">Общие сведения о защите от потери данных</span><span class="sxs-lookup"><span data-stu-id="29f68-197">Overview of data loss prevention</span></span>](data-loss-prevention-policies.md)
-- [<span data-ttu-id="29f68-198">Создание, тестирование и настройка политики защиты от потери данных</span><span class="sxs-lookup"><span data-stu-id="29f68-198">Create, test, and tune a DLP policy</span></span>](create-test-tune-dlp-policy.md)
-- [<span data-ttu-id="29f68-199">Начало работы с обозревателем действий</span><span class="sxs-lookup"><span data-stu-id="29f68-199">Get started with Activity explorer</span></span>](data-classification-activity-explorer.md)
-- [<span data-ttu-id="29f68-200">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="29f68-200">Microsoft Defender for Endpoint</span></span>](https://docs.microsoft.com/windows/security/threat-protection/)
-- [<span data-ttu-id="29f68-201">Управление рисками в рамках программы предварительной оценки</span><span class="sxs-lookup"><span data-stu-id="29f68-201">Insider Risk management</span></span>](insider-risk-management.md)
+- [<span data-ttu-id="43c2b-199">Начало работы с защитой от потери данных в конечной точке от Майкрософт (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="43c2b-199">Getting started with Microsoft Endpoint data loss prevention (preview)</span></span>](endpoint-dlp-getting-started.md)
+- [<span data-ttu-id="43c2b-200">Использование защиты от потери данных в конечной точке от Майкрософт (предварительная версия)</span><span class="sxs-lookup"><span data-stu-id="43c2b-200">Using Microsoft Endpoint data loss prevention (preview)</span></span>](endpoint-dlp-using.md)
+- [<span data-ttu-id="43c2b-201">Общие сведения о защите от потери данных</span><span class="sxs-lookup"><span data-stu-id="43c2b-201">Overview of data loss prevention</span></span>](data-loss-prevention-policies.md)
+- [<span data-ttu-id="43c2b-202">Создание, тестирование и настройка политики защиты от потери данных</span><span class="sxs-lookup"><span data-stu-id="43c2b-202">Create, test, and tune a DLP policy</span></span>](create-test-tune-dlp-policy.md)
+- [<span data-ttu-id="43c2b-203">Начало работы с обозревателем действий</span><span class="sxs-lookup"><span data-stu-id="43c2b-203">Get started with Activity explorer</span></span>](data-classification-activity-explorer.md)
+- [<span data-ttu-id="43c2b-204">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="43c2b-204">Microsoft Defender for Endpoint</span></span>](https://docs.microsoft.com/windows/security/threat-protection/)
+- [<span data-ttu-id="43c2b-205">Управление рисками в рамках программы предварительной оценки</span><span class="sxs-lookup"><span data-stu-id="43c2b-205">Insider Risk management</span></span>](insider-risk-management.md)
