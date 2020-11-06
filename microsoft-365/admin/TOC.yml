@@ -288,40 +288,61 @@
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
         - name: Руководство по соответствию требованиям GDPR
           href: security-and-compliance/gdpr-compliance.md
-    - name: Управление устройствами
+    - name: Управление данными устройств и приложений
+      href: devices/index.yml
       items:
-        - name: Просмотр и изменение политик и устройств
-          href: ../business/view-policies-and-devices.md
-        - name: Удаление данных компании
-          href: ../business/remove-company-data.md
-        - name: Восстановление заводских параметров для устройств
-          href: ../business/reset-devices-to-factory-settings.md
-        - name: Сопоставление функций защиты с параметрами Intune
-          href: ../business/map-protection-features-to-intune-settings.md
-        - name: Состояния устройств
-          href: ../business/device-states.md
-        - name: Параметры защиты приложений для компьютеров с Windows 10
-          href: ../business/protection-settings-for-windows-10-devices.md
-        - name: Настойка параметров защиты приложений для Android и iOS
-          href: ../business/app-protection-settings-for-android-and-ios.md
+        - name: Методы защиты данных устройств и приложений
+          href: devices/choose-device-security.md
+        - name: Документация по Microsoft Intune
+          href: 'https://docs.microsoft.com/mem/intune/'
+        - name: Microsoft 365 бизнес премиум
           items:
-            - name: Проверка параметров на устройствах с Android или iOS
-              href: ../business/validate-settings-on-android-or-ios.md
-        - name: "Правка или создание параметров защиты устройств для компьютеров с Windows\_10"
-          href: ../business/protection-settings-for-windows-10-pcs.md
+            - name: Просмотр и изменение политик и устройств
+              href: ../business/view-policies-and-devices.md
+            - name: Удаление данных компании
+              href: ../business/remove-company-data.md
+            - name: Восстановление заводских параметров для устройств
+              href: ../business/reset-devices-to-factory-settings.md
+            - name: Сопоставление функций защиты с параметрами Intune
+              href: ../business/map-protection-features-to-intune-settings.md
+            - name: Состояния устройств
+              href: ../business/device-states.md
+            - name: Параметры защиты приложений для компьютеров с Windows 10
+              href: ../business/protection-settings-for-windows-10-devices.md
+            - name: Настойка параметров защиты приложений для Android и iOS
+              href: ../business/app-protection-settings-for-android-and-ios.md
+              items:
+                - name: Проверка параметров на устройствах с Android или iOS
+                  href: ../business/validate-settings-on-android-or-ios.md
+            - name: "Правка или создание параметров защиты устройств для компьютеров с Windows\_10"
+              href: ../business/protection-settings-for-windows-10-pcs.md
+              items:
+                - name: Проверка параметров на компьютерах с Windows 10
+                  href: ../business/validate-settings-on-windows-10-pcs.md
+            - name: Autopilot
+              items:
+                - name: Добавление профиля и устройств Autopilot
+                  href: ../business/add-autopilot-devices-and-profile.md
+                - name: Создание и изменение профилей AutoPilot
+                  href: ../business/create-and-edit-autopilot-profiles.md
+                - name: Создание и изменение устройств AutoPilot
+                  href: ../business/create-and-edit-autopilot-devices.md
+                - name: Параметры профилей AutoPilot
+                  href: ../business/autopilot-profile-settings.md
+        - name: "Документация по Microsoft\_365 для предприятий"
+          href: ../enterprise/index.yml
+        - name: Basic Mobility + Security
           items:
-            - name: Проверка параметров на компьютерах с Windows 10
-              href: ../business/validate-settings-on-windows-10-pcs.md
-        - name: Autopilot
-          items:
-            - name: Добавление профиля и устройств Autopilot
-              href: ../business/add-autopilot-devices-and-profile.md
-            - name: Создание и изменение профилей AutoPilot
-              href: ../business/create-and-edit-autopilot-profiles.md
-            - name: Создание и изменение устройств AutoPilot
-              href: ../business/create-and-edit-autopilot-devices.md
-            - name: Параметры профилей AutoPilot
-              href: ../business/autopilot-profile-settings.md
+            - name: Обзор Basic Mobility + Security
+              href: basic-mobility-security/overview.md
+            - name: Сравнение Basic Mobility + Security и Intune
+              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
+            - name: Вопросы и ответы по Basic Mobility + Security
+              href: basic-mobility-security/frequently-asked-questions.md
+            - name: Возможности Basic Mobility + Security
+              href: basic-mobility-security/capabilities.md
+            - name: Сравнение Basic Mobility + Security и Intune
+              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
     - name: Работа с клиентами
       href: work-with-customers/index.yml
       items:
