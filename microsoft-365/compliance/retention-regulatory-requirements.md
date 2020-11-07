@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Вспомогательные ресурсы для соблюдения нормативных требований к управлению данными и записями.
-ms.openlocfilehash: 2aa413400d9d60b759b35d04175b674cedb0a733
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: f8641af2ec839c9ed3f4d029b4f6de52fe7033e3
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930192"
+ms.locfileid: "48941424"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>Нормативные требования к управлению данными и записями
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-Использование ресурсов, находящихся на этой странице, помогает соблюдать конкретные нормативные требования к управлению данными и записями в Microsoft 365. В каждом разделе этого документа рассматривается одно или несколько нормативных требований и приводятся инструкции или сторонние оценки по настройке Microsoft 365, которые помогут при выполнении описанных требований.
+Use the resources on this page to help you meet specific regulatory requirements for information governance and records management in Microsoft 365. Each section of this document focuses on one or more related regulations and includes any existing guidance or third-party assessment of how to configure Microsoft 365 to help with the requirements outlined.
 
 Эти ресурсы можно скачать на странице [Часто задаваемые вопросы и техническая документация по ресурсам, связанным с защитой данных](https://servicetrust.microsoft.com/ViewPage/TrustDocuments) сайта Service Trust Portal.
 
@@ -36,7 +36,7 @@ ms.locfileid: "48930192"
 
 Применимые рабочие нагрузки: SharePoint, OneDrive, Teams, Exchange и Skype для бизнеса
 
-Этот отчет, опубликованный в октябре 2020 г., был подготовлен совместно с компанией Cohasset Associates, Inc. (Cohasset) для оценки возможностей служб Microsoft 365 в отношении создания и хранения электронных записей, а также управления ими в соответствии с требованиями, указанными:  
+Этот отчет, опубликованный в ноябре 2020 г., был подготовлен совместно с компанией Cohasset Associates, Inc. (Cohasset) для оценки возможностей служб Microsoft 365 в отношении создания и хранения электронных записей, а также управления ими в соответствии с требованиями, указанными:  
 
 - Комиссией по ценным бумагам и биржам США (SEC) в 17 CFR § 240.17a-4(f), где содержатся требования для участников биржи, брокеров и дилеров.  
 
