@@ -292,6 +292,8 @@
       items:
         - name: Обзор
           items:
+            - name: Стратегия повышения безопасности
+              href: ./office-365-security/security-roadmap.md
             - name: Exchange Online Protection
               items:
                 - name: Обзор Exchange Online Protection
@@ -318,8 +320,6 @@
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: "Новый Центр безопасности Microsoft\_365"
               href: ./mtp/overview-security-center.md
-            - name: Стратегия повышения безопасности
-              href: ./office-365-security/security-roadmap.md
             - name: Обозреватель угроз (и обнаружение в режиме реального времени)
               href: ./office-365-security/threat-explorer.md
             - name: Обзор автоматического исследования и реагирования
@@ -376,7 +376,9 @@
               href: ./office-365-security/siem-server-integration.md
             - name: Интеграция SIEM с Defender для Office 365
               href: ./office-365-security/siem-integration-with-office-365-ti.md
-            - name: Настройка политик защиты от фишинга
+            - name: Защита по умолчанию
+              href: ./office-365-security/secure-by-default.md
+            - name: Настройка политик защиты от фишинга в ATP
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Настройка политик защиты от вредоносных программ
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -461,6 +463,12 @@
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
             - name: Эмулятор атак в Defender для Office 365
               href: ./office-365-security/attack-simulator.md
+            - name: Эмуляция фишинговой атаки в обучении имитации атаки
+              href: ./office-365-security/attack-simulation-training.md
+            - name: Создание пользовательских полезных данных для обучения имитации атаки
+              href: ./office-365-security/attack-simulation-training-payloads.md
+            - name: Получение аналитики с помощью обучения имитации атаки
+              href: ./office-365-security/attack-simulation-training-insights.md
             - name: Рекомендуемые параметры для настройки EOP и Безопасности Defender для Office 365
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: Рекомендации по настройке EOP

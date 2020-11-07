@@ -68,6 +68,11 @@
           items:
             - name: Работа с консультационными службами Майкрософт
               href: get-ready/apps-MCS.md
+        - name: Использование средства проверки готовности
+          href: get-ready/readiness-assessment-tool.md
+          items:
+            - name: 'Исправление проблем, обнаруженных средством проверки готовности'
+              href: get-ready/readiness-assessment-fix.md
     - name: 'Начало работы с компьютерами, управляемыми Майкрософт'
       href: get-started/index.md
       items:
