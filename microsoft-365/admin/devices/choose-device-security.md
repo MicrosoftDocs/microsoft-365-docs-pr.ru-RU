@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Выберите один из двух методов MDM и MAM.
-ms.openlocfilehash: 6231b7c82f280a60ae9d30bcf27697dc131b2471
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: 2866aa8cf172361b2b5f5055932717154cd6ddd1
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930282"
+ms.locfileid: "48941301"
 ---
 # <a name="options-for-protecting-your-devices-and-app-data"></a>Варианты защиты устройств и данных приложений
 
@@ -37,8 +37,6 @@ ms.locfileid: "48930282"
 - Microsoft 365 корпоративный план, включающий повышенную безопасность и защиту от угроз.
 
 ## <a name="device-management-options"></a>Параметры управления устройствами
-
-![Рисунок, на котором показано, какие подписки должны использовать методы MDM и MAM.](../../m365-mam-mdm.png)
 
 - **Базовая мобильность и безопасность** предлагается для большинства планов Microsoft 365 и является единственным встроенным вариантом, предлагаемым для Microsoft 365 бизнес Standard и Microsoft 365 бизнес базовый. Для получения дополнительных сведений ознакомьтесь с разрешениями [базовых возможностей мобильной работы и безопасности](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune). 
 
