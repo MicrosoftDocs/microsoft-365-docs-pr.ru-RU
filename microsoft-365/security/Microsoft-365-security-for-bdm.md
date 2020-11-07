@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: наиболее распространенные сценарии угроз и атак, которые в настоящее время сталкиваются организациями для своих сред Microsoft 365, и рекомендуемые действия по устранению этих рисков.
-ms.openlocfilehash: b359b16042d419a06096a48ddcbc50affbcc4cd6
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 64f4491db3dc4ef18411b166fb23c4388383dae2
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843132"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944308"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 Security для лиц, принимающих решения в Организации (вариантах развертывания)
 
@@ -30,6 +30,8 @@ ms.locfileid: "48843132"
 [![Изображение эскиза Microsoft 365 BDM, электронная таблица рекомендаций по безопасности](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
 Корпорация Майкрософт предоставляет вам средство безопасного оценки в рамках клиента для автоматического анализа уровня безопасности на основе регулярных действий, назначения оценки и предоставления рекомендаций по улучшению безопасности. Прежде чем приступать к действиям, рекомендуемым в этой статье, запишите текущие оценки и рекомендации. Рекомендуемые действия, описанные в этой статье, увеличивают рейтинг. Цель не допустить максимальной оценки, но знать о возможностях защиты среды не так, чтобы они не влияли на производительность ваших пользователей. Просмотр [оценки безопасности Майкрософт](mtp/microsoft-secure-score.md).
+
+![Выполните указанные ниже действия, чтобы снизить риски, связанные с бизнесом.](../media/security/security-for-bdms-overview.png)
 
 Еще одну вещь, прежде чем начать работу. . . обязательно [включите журнал аудита](../compliance/search-the-audit-log-in-security-and-compliance.md). Эти данные понадобятся позже, в случае необходимости изучения инцидента или нарушения. 
 
