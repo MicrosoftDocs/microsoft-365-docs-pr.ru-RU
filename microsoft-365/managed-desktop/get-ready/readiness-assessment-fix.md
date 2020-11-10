@@ -1,5 +1,5 @@
 ---
-title: Устранение проблем, обнаруженных средством оценки готовности
+title: Исправление проблем, обнаруженных средством проверки готовности
 description: Подробные действия, которые необходимо выполнить для каждой из выпусков, которые обнаруживает средство
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 642de80e1a133f212b7afb6774d9aab2eeaabdbf
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: c342ea9f662d883883755d2f67e5c25ffabddf83
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941413"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948413"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Устранение проблем, обнаруженных средством оценки готовности
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Исправление проблем, обнаруженных средством проверки готовности
 
 Для каждой проверки средство сообщит один из четырех возможных результатов:
 
@@ -242,7 +242,7 @@ Windows Hello для бизнеса не настроена. Включите е
 
 **Рекомендация**
 
-Убедитесь, что все политики обновления звонков не исключают всю группу Azure AD в **современном рабочем месте** . Дополнительные сведения: [Управление обновлениями программного обеспечения Windows 10 в Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure). " **Современные рабочие устройства — все** группы Azure AD" — это динамическая группа, которая создается при регистрации на настольном компьютере, управляемом Майкрософт, поэтому необходимо вернуться к исключению этой группы после регистрации.
+Убедитесь, что все политики обработки звонков, которые исключают **устройства современного рабочего места — все** группы Azure AD. Если этим политикам назначена группа пользователей Azure AD, убедитесь, что все политики обработки звонков, Кроме того, были исключены из группы Azure AD, которая включает в себя пользователей, **управляемых с помощью** Microsoft. Дополнительные сведения: [Управление обновлениями программного обеспечения Windows 10 в Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure). **Все** группы Azure AD на **современном** рабочем месте — все группы Azure AD назначаются группам, которые мы создаваем при регистрации на компьютере под управлением Microsoft Managed Desktop, поэтому необходимо вернуться к исключению этой группы после регистрации.
 
 
 ## <a name="azure-active-directory-settings"></a>Параметры Azure Active Directory

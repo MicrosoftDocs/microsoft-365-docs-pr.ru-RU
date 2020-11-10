@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: План настройки клиентов для Microsoft 365.
-ms.openlocfilehash: 038d9b0d94b84d184f0d9d9b250d0ee4d2c19de9
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: d2640a036eedda0b0962a15a03dcf0211ea0209b
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753970"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948401"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>План обслуживания клиентов для Microsoft 365
 
@@ -66,7 +66,7 @@ ms.locfileid: "48753970"
 
 Более подробную информацию можно найти в [статье Microsoft 365 с поддержкой нескольких регионов](microsoft-365-multi-geo.md).
 
-## <a name="manage-multiple-microsoft-365-tenant"></a>Управление несколькими клиентами Microsoft 365 
+## <a name="manage-multiple-microsoft-365-tenants"></a>Управление несколькими клиентами Microsoft 365 
 
 Несмотря на то, что у вас есть один клиент для вашего оганизатион, вы можете столкнуться с несколькими организациями, у которых есть несколько клиентов. Причинами могут быть слияния и приобретения, Административная изоляция или децентрализованная.
 
@@ -76,6 +76,6 @@ ms.locfileid: "48753970"
 - [Миграция почтовых ящиков между клиентами](cross-tenant-mailbox-migration.md)
 - [Миграция между клиентами](microsoft-365-tenant-to-tenant-migrations.md)
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 Начните планирование клиентов с помощью [подписок, лицензий, учетных записей и клиентов](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md).
