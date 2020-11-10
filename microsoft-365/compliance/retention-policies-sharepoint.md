@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о том, как работает хранение для SharePoint и OneDrive
-ms.openlocfilehash: 258cc8e777ca39d2528e520ff5634086bff302c7
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 84191cf7df1c8382b336ecce47c50ca24bc2aede
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804544"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951112"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Узнайте о хранении для SharePoint и OneDrive
 
@@ -38,16 +38,20 @@ ms.locfileid: "48804544"
 
 ## <a name="whats-included-for-retention-and-deletion"></a>Что включается в хранение и удаление
 
-Можно сохранить все файлы, хранящиеся на сайтах SharePoint и OneDrive, путем применения политики хранения или метки хранения.
+Можно сохранить все файлы, хранящиеся на сайтах SharePoint и OneDrive, путем применения политики хранения или метки хранения. 
 
 Следующие файлы можно удалить:
 
-- При использовании политики хранения: все файлы в библиотеках документов, включая автоматически созданные библиотеки документов SharePoint, например **Ресурсы сайта** .
+- При использовании политики хранения: все файлы в библиотеках документов, включая автоматически созданные библиотеки документов SharePoint, например **Ресурсы сайта**.
     
 - При использовании меток хранения: все файлы во всех библиотеках документов, а также все файлы, находящиеся на корневом уровне (а не в папках).
     
-    При использовании [запроса KQL с автоматическим применением политики для метки хранения](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties) можно исключать библиотеки документов с помощью следующей записи: `NOT(DocumentLink:"<URL to document library>")`
+> [!TIP]
+> При использовании [запроса с автоматическим применением политики для метки хранения](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties) можно исключить определенные библиотеки документов с помощью следующей записи: `NOT(DocumentLink:"<URL to document library>")`
 
+Параметры хранения не применяются к организационным структурам, включающим библиотеки, списки и папки. Или к элементам системных списков, которые являются скрытыми и используются в SharePoint для управления системой. К ним относятся каталог главной страницы, каталог решений и источники данных.
+
+Для политик хранения и политик автоматического применения меток: сайты SharePoint должны быть индексированы для применения параметров хранения. Однако если элементы в библиотеках документов SharePoint настроены таким образом, чтобы не отображаться в результатах поиска, эта настройка не исключает файлы из параметров хранения.
 
 ## <a name="how-retention-works-for-sharepoint-and-onedrive"></a>Как работает хранение для SharePoint и OneDrive
 
