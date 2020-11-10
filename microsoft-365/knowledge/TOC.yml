@@ -11,6 +11,6 @@
 - name: Начало работы с программой установки
   items:
     - name: Настройка управления знаниями
-      href: set-up-knowledge-network.md
+      href: set-up-topic-experiences.md
     - name: Управление сетью управления знаниями
-      href: manage-knowledge-network.md
+      href: topic-experiences-discovery.md
