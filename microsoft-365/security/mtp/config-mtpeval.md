@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 88db2182ec1a3250d2f4308858026fec97a2f91b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5259c7b74446ad273ff9b1ae0baccd339e34baa3
+ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844108"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48984954"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Настройка базовых принципов защитника Microsoft 365 для испытательной лаборатории или пилотной среды
 
@@ -33,7 +33,7 @@ ms.locfileid: "48844108"
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
 
 Создание пробной лаборатории или пилотной среды защитника Microsoft 365 и развертывание этого процесса состоит из трех этапов:
@@ -68,10 +68,10 @@ ms.locfileid: "48844108"
 ## <a name="microsoft-365-defender-pillars"></a>Основы защитника Microsoft 365
 Защитник Microsoft 365 состоит из четырех базовых принципов. Несмотря на то, что один из них уже может обеспечить безопасность вашей организации, что позволит четыре основные основы защитника Microsoft 365 придать вашей организации наибольшее значение.
 
-![Image of_Microsoftо решение для защитника 365 для пользователей, защитник Майкрософт для удостоверения, для конечных точек Microsoft Defender для конечной точки, для облачных приложений, Microsoft Cloud App Security и для данных, защитник Майкрософт для Office 365](../../media/mtp-eval-31.png)
+![Image of_Microsoftо решение для защитника 365 для пользователей, защитник Майкрософт для удостоверения, для конечных точек Microsoft Defender для конечной точки, для облачных приложений, Microsoft Cloud App Security и для данных, защитник Майкрософт для Office 365](../../media/mtp/m365pillars.png)
 
 В этом разделе приведутся инструкции по настройке:
--   Защитник Майкрософт для Office 365
+-   Microsoft Defender для Office 365
 -   Microsoft Defender для удостоверений 
 -   Microsoft Cloud App Security
 -   Microsoft Defender для конечной точки
@@ -288,7 +288,7 @@ ms.locfileid: "48844108"
 
     ![Изображение of_Save кнопка "Параметры", которую нужно щелкнуть](../../media/mtp-eval-72.png)
 
-## <a name="start-the-microsoft-365-defender-service"></a>Запуск службы защитника Microsoft 365
+## <a name="start-the-microsoft-365-defender-service"></a>Запуск службы Microsoft 365 Defender
 
 >[!NOTE]
 >Начиная с 1 июня 2020 г. Корпорация Майкрософт автоматически включает функции защитника Microsoft 365 для всех соответствующих клиентов. Подробные сведения можно узнать [в этой статье сообщества Майкрософт в конференции](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) . 
@@ -307,6 +307,6 @@ ms.locfileid: "48844108"
 
 Затем вы можете имитировать атаку и узнать, как обнаружение, создание оповещений и автоматический ответ на атаку, не имеющую файлов, на конечную точку.
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 |![Этап имитации атаки](../../media/mtp/run-sim.png) <br>[Этап имитации атаки](mtp-pilot-simulate.md) | Выполните имитацию атаки для вашей пилотной среды защитника Microsoft 365.
 |:-------|:-----|
