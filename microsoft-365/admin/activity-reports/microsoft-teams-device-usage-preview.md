@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Получите подробные сведения о приложениях Microsoft Teams, используемых в вашей организации, выполнив отчет об использовании приложений Microsoft Teams из Microsoft 365 Reports.
-ms.openlocfilehash: deda550b3ffc4209f718d36a3010605edbc1102b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 928ba7bbe4d4753499e71b347baffafa7441f5b5
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636977"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988532"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Отчеты Microsoft 365 в центре администрирования — использование устройств Microsoft Teams
 
@@ -61,5 +61,4 @@ ms.locfileid: "48636977"
 |Web  <br/> |Выбирается, если пользователь был активен в веб-клиенте Teams на устройствах.|
 |Дата последнего действия (UTC)  <br/> |Дата и время последнего действия пользователя в Teams (в формате UTC).  <br/> |
 |Лицензирован|Выбирается, если пользователь лицензируется для использования Teams.|
-|Общее количество действий Teams|Общее количество действий Teams за выбранный период времени. |
 |||

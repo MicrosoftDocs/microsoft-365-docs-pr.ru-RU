@@ -11,12 +11,12 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d2fd3df200ab350ca3e6595402bab17034d960a7
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 464a926b99cceeb652756ad6d1456c5e17d2a925
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906923"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988742"
 ---
 # <a name="work-with-topics-in-the-topic-center-preview"></a>Работать с подразделами в центре справки (Предварительная версия)
 
@@ -28,7 +28,7 @@ ms.locfileid: "48906923"
 
 ## <a name="requirements"></a>Requirements
 
-Для работы в центре разделов необходимы необходимые разрешения. Администратор может добавить вас во время [установки управления знаниями](set-up-knowledge-network.md)или добавить новых пользователей [позже](give-user-permissions-to-the-topic-center.md).
+Для работы в центре разделов необходимы необходимые разрешения. Администратор может добавить вас во время [установки управления знаниями](set-up-topic-experiences.md)или добавить новых пользователей [позже](give-user-permissions-to-the-topic-center.md).
 
 Пользователям центра разделов могут быть предоставлены два набора разрешений:
 
@@ -72,7 +72,7 @@ ms.locfileid: "48906923"
 3. Вы можете отклонить его.
 
 ## <a name="review-published-topics"></a>Обзор опубликованных разделов
-Опубликованные разделы были изменены таким образом, что сведения о спеифик всегда будут отображаться для всех енкаунтрс страницы. Здесь показаны разделы, созданные вручную.
+Опубликованные разделы были изменены таким образом, что конкретные сведения всегда будут отображаться на странице. Здесь показаны разделы, созданные вручную.
 
    
 ## <a name="create-a-new-topic"></a>Создание раздела

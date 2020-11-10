@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как использовать симулятор для атаки для запуска имитации фишинговых атак и атак с использованием паролей в Microsoft 365, а также в защитнике Майкрософт для Office 365 с планом 2.
-ms.openlocfilehash: b7d04b3c81791bfc107b48176373ffc84fc8f6c5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0698d5d97dcedec05e76728379971fad2ab669c6
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846000"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988568"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Симулятор атак в защитнике Майкрософт для Office 365
 
@@ -35,6 +35,9 @@ ms.locfileid: "48846000"
 
 > [!NOTE]
 > Моделирование атак и связанные с обучениеми данные хранятся вместе с другими данными клиентов для служб Microsoft 365. Дополнительные сведения см. в [статье Microsoft 365 Data Locations](/microsoft-365/enterprise/o365-data-locations).
+
+> [!TIP]
+> Обучение по моделированию атак доступно для общедоступной предварительной версии в центре безопасности Майкрософт 365. Ознакомьтесь с этой статьей, чтобы узнать больше [об атаках через фишинг с помощью защитника Майкрософт для Office 365](attack-simulation-training.md) .
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 

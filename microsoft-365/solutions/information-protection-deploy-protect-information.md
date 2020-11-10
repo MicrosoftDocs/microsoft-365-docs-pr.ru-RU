@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Развертывание функций обеспечения безопасности и соответствия требованиям Microsoft 365 и защита личных сведений.
-ms.openlocfilehash: 97c34ca236ea4be98b9412518788630732259d5a
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: f17568c5a19446644cfb7ee64aac3e0f9eae5793
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377155"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988486"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Защита данных в соответствии с нормами конфиденциальности данных
 
@@ -65,7 +65,7 @@ ms.locfileid: "48377155"
 
 ## <a name="managing-information-protection-in-microsoft-365"></a>Управление защитой информации в Microsoft 365
 
-[Решения для защиты информации](../compliance/protect-information.md) Майкрософт включают ряд интегрированных возможностей в Microsoft 365, Microsoft Azure и Microsoft Windows. В Microsoft 365 решения для защиты информации включают:
+[Решения для защиты информации](../compliance/information-protection.md) Майкрософт включают ряд интегрированных возможностей в Microsoft 365, Microsoft Azure и Microsoft Windows. В Microsoft 365 решения для защиты информации включают:
 
 - [Шифрование службы с помощью ключа клиента](../compliance/customer-key-overview.md)
 - [Типы конфиденциальной информации](../compliance/what-the-sensitive-information-types-look-for.md) (описанные в [статье Оценка рисков конфиденциальности данных и определение конфиденциальных элементов](information-protection-deploy-assess.md))
