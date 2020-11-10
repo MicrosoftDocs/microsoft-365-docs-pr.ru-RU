@@ -1,5 +1,5 @@
 ---
-title: Получение ценных сведений через обучение по моделированию атак
+title: Получение аналитики с помощью обучения имитации атаки
 ms.author: daniha
 author: danihalfin
 manager: dansimp
@@ -10,15 +10,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: Узнайте, как учебные курсы по моделированию атак в центре безопасности Microsoft 365 влияют на сотрудников и изменяют результаты моделирования и изучения.
-ms.openlocfilehash: 180ddc773b5a299692e40ddc558d3b3a89f4093b
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+description: В этой статье рассказывается о том, как обучение по моделированию атак в центре безопасности Microsoft 365 влияет на сотрудников и получение ценных сведений из результатов имитации и обучения.
+ms.openlocfilehash: 80b8c275d1d64dd3dbd6509309fb88cd641734e3
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944532"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950987"
 ---
-# <a name="gain-insights-through-attack-simulation-training"></a>Получение ценных сведений через обучение по моделированию атак
+# <a name="gain-insights-through-attack-simulation-training"></a>Получение аналитики с помощью обучения имитации атаки
 
 В учебном курсе по моделированию атак Майкрософт предоставляет подробные сведения, основанные на результатах имитации и обучающих сотрудников. Эти сведения помогут вам сообщать о ходе выполнения ваших сотрудников, а также рекомендовать дальнейшие действия по подготовке ваших сотрудников и среды к атакам.
 
@@ -38,14 +38,20 @@ ms.locfileid: "48944532"
 
 Кроме того, `<number> less susceptible to phishing` отражает разницу между фактическим числом сотрудников, скомпрометированных атакой, и прогнозируемым коэффициентом компромисса. Это количество сотрудников менее вероятно снижается при схожих атаках в будущем, а `<percent%> better than predicted rate` также показывает, как сотрудники в целом отличаются в соответствии с прогнозируемой скоростью компромиссов.
 
-![Карточка, влияющая на поведение при работе с моделированием атак обзор](../../media/attack-sim-preview-behavior-impact-card.png)
+> [!div class="mx-imgBorder"]
+> ![Карточка, влияющая на поведение при работе с моделированием атак обзор](../../media/attack-sim-preview-behavior-impact-card.png)
 
 Чтобы просмотреть более подробный отчет, щелкните **Просмотр имитаций и обучающий еффикаци отчет** , который предоставляет одни и те же сведения с дополнительным контекстом от модели, такой как методика имитации и общее число целевых пользователей.
 
 ## <a name="recommended-actions"></a>Рекомендуемые действия
 
-На [вкладке " **имитация** "](https://security.microsoft.com/attacksimulator?viewid=simulations) при выборе любой из эмуляции вы перейдете к сведениям о моделировании. Здесь вы найдете раздел **Рекомендуемые действия** .
+На вкладке [ **имитация**](https://security.microsoft.com/attacksimulator?viewid=simulations)при выборе любой из моделей будет выбрана информация о моделировании. Здесь вы найдете раздел **Рекомендуемые действия** .
 
 Раздел Рекомендуемые действия подробно описывает рекомендации, доступные в [Microsoft Secure Score](../mtp/microsoft-secure-score.md). Эти рекомендации основаны на полезных данных, используемых в имитации, и помогут защитить сотрудников и окружающую среду. Щелкнув каждое действие улучшения, вы получите дополнительные сведения.
 
-![Рекомендации по использованию руководства по моделированию атак](../../media/attack-sim-preview-recommended-actions.png)
+> [!div class="mx-imgBorder"]
+> ![Рекомендации по использованию руководства по моделированию атак](../../media/attack-sim-preview-recommended-actions.png)
+
+## <a name="related-links"></a>Дополнительные ссылки
+
+**Симулятор атак** [создает имитацию атаки фишинга](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide) и [создает полезные данные для обучения людей](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training-payloads?view=o365-worldwide)
