@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a6605f7d8561532121e54f02b579de26879baa1a
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 6e0f8e2661692930469aff85e0a7eeef2dd647e0
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305243"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948390"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -55,6 +55,7 @@ ms.locfileid: "48305243"
 
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
+- [Microsoft Cloud для здравоохранения](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
 - Служба Microsoft здравоохранения (Microsoft здравоохранения)
 - Microsoft Stream
 - Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для среднего бизнеса и корпоративных клиентов с Microsoft 365 для бизнеса
@@ -72,7 +73,7 @@ ms.locfileid: "48305243"
 
 [Начало использования чертежа Azure HIPAA/HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 
-## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
+## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
 **Может ли моя организация войти в BAA с помощью корпорации Майкрософт?**
 
