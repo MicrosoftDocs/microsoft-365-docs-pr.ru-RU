@@ -487,7 +487,9 @@
               href: de-duplication-in-ediscovery-search-results.md
             - name: Различия между ожидаемыми и фактическими результатами поиска
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
-        - name: Запуск сценариев PowerShell поиска контента
+            - name: Расшифровка в средствах обнаружения электронных данных
+              href: ediscovery-decryption.md
+        - name: Сценарии PowerShell для поиска контента
           items:
             - name: Использование поиска контента для целевых коллекций
               href: use-content-search-for-targeted-collections.md

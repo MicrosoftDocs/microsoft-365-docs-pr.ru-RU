@@ -469,8 +469,10 @@
               href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
             - name: Project Server 2010
               href: project-server-2010-end-of-support.md
-- name: Безопасность и соответствие требованиям
-  href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap'
+- name: Безопасность
+  href: 'https://docs.microsoft.com/microsoft-365/security/'
+- name: Соответствие требованиям
+  href: 'https://docs.microsoft.com/microsoft-365/compliance/'
 - name: Облачные службы
   items:
     - name: Стратегия
