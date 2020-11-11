@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Узнайте о Office 365 в Германии.
-ms.openlocfilehash: b0b370399cc7687f3c564903d01bd07f447dc16a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8b999ecbd2e429ad8a60fa60de1ad3a06664f085
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843334"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995861"
 ---
 # <a name="learn-about-office-365-germany"></a>Сведения об Office 365 Germany
 
@@ -43,7 +43,7 @@ Office 365 Германия был отличительным вариантом
 
 План Office 365 для Германии обеспечивает соответствие глобальным предложениям максимально возможной степени в этой изолированной среде. Исключение составляют планы, связанные с Yammer, планы, которые приближаются к окончанию своего жизненного цикла, и планы, доступные по программам для некоммерческих организаций. Office 365, SPE и другие службы будут доступны после общего доступа к Office 365 Германия. 
   
-В некоторых [планах подписки на Office 365 в Германии](https://go.microsoft.com/fwlink/p/?linkid=839016)доступны следующие службы и функции. Кроме того, ознакомьтесь с [терминами веб-служб](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
+В некоторых [планах подписки на Office 365 в Германии](https://go.microsoft.com/fwlink/p/?linkid=839016)доступны следующие службы и функции. Кроме того, ознакомьтесь с [терминами веб-служб](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
   
 - Приложения Microsoft 365 для предприятий, Office 2016 и Office 2013<sup>1</sup>. Обратите внимание, что [в office 2013 для клиентов Office требуется использовать office 365 с современной проверкой подлинности](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
     
@@ -73,7 +73,7 @@ Office 365 Германия был отличительным вариантом
     
 - Advanced eDiscovery
     
-- Защитник Майкрософт для Office 365
+- Microsoft Defender для Office 365
     
 - Office 365 Threat Intelligence
     
@@ -85,11 +85,11 @@ Office 365 Германия был отличительным вариантом
     
 - Delve
     
-<sup>1</sup> Планы Office 365 (Германия) включают клиентские приложения, установленные и выполняемые на устройстве конечного пользователя ("клиентские приложения"), например, приложения Microsoft 365 для предприятий, Office 2013 и Office 2016. Клиентские приложения работают не только в Центрах обработки данных в Германии, но могут также предоставлять пользователю доступ к веб-службам, которые не являются [веб-службами Германии](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). В целях выполнения соглашения с корпорацией Майкрософт клиентские приложения не являются [веб-службами Германии](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Обязательства по размещению данных в Германии и контроль доступа со стороны доверительного управляющего данными действуют только в отношении [веб-служб Германии](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
+<sup>1</sup> Планы Office 365 (Германия) включают клиентские приложения, установленные и выполняемые на устройстве конечного пользователя ("клиентские приложения"), например, приложения Microsoft 365 для предприятий, Office 2013 и Office 2016. Клиентские приложения работают не только в Центрах обработки данных в Германии, но могут также предоставлять пользователю доступ к веб-службам, которые не являются [веб-службами Германии](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). В целях выполнения соглашения с корпорацией Майкрософт клиентские приложения не являются [веб-службами Германии](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Обязательства по размещению данных в Германии и контроль доступа со стороны доверительного управляющего данными действуют только в отношении [веб-служб Германии](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
   
 ## <a name="general-information"></a>Общие сведения
 
-|Item|Сведения|
+|Элемент|Сведения|
 |-----|-----|
 |Портал для входа  <br/> |[https://portal.office.de](https://portal.office.de)  <br/> |
 |Подписки, выставление счетов и техническая поддержка  <br/> |Поддержка на основе Германии на немецком и английском языках дополнительные сведения см. в статье [Поддержка для бизнес-продуктов: Справка для администраторов](../contact-support-for-business-products.md).  <br/> |
