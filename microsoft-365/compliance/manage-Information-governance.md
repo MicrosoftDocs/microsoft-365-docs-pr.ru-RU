@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Реализация возможностей управления информацией Майкрософт в Microsoft 365 для управления данными на соответствие требованиям или нормативным требованиям.
-ms.openlocfilehash: b02c724ee812e622a45939d11b78f87245e2f194
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 7e516c42071272e9d38381dbf9d84e774271566c
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866954"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988429"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Управление сведениями Майкрософт в Microsoft 365
 
@@ -29,7 +29,7 @@ ms.locfileid: "46866954"
 
 ![Управление управлением данными и управлением записями](../media/information-governance-records-management.png)
 
-Хотите защитить свои данные? Обратитесь к разделу [Защита информации Майкрософт в microsoft 365](protect-information.md).
+Хотите защитить свои данные? Обратитесь к разделу [Защита информации Майкрософт в microsoft 365](information-protection.md).
 
 ## <a name="information-governance"></a>Управление сведениями
 

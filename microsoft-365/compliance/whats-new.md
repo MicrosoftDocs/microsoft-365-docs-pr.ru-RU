@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Следует ли добавлять новые решения в центр соответствия требованиям, обновлять существующие компоненты в соответствии с вашими отзывами или обновлять свежую и обновленную документацию, Microsoft 365 поможет вам оставаться на самом верху постоянно меняющихся нормативных требований. Узнайте, что мы использовали до этого месяца.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ebe91e94b286e7d9a1b46b7fd7abf625881a6a9
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: cf019e15b1d5b915c58325c7d7c6f160acffe03e
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847805"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988857"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "48847805"
 
 
 > [!TIP]
-> Хотите узнать, что происходит в других центрах администрирования? Ознакомьтесь со следующими статьями:<br>[Новые возможности центра администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[Новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Новые возможности защитника Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
+> Хотите узнать, что происходит в других центрах администрирования? Ознакомьтесь со следующими статьями:<br>[Новые возможности центра администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[Новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Новые возможности Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 И посетите [план microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) , чтобы узнать о возможностях Microsoft 365, которые были запущены, выходят из развертывания, были отменены или выпущены ранее.
 
 ## <a name="august-2020"></a>Август 2020 г.
@@ -43,7 +43,7 @@ ms.locfileid: "48847805"
 
 Несколько новых и улучшенных функций, которые доступны в общедоступной предварительной версии в этом месяце:
 
-**Управление рисками, связанными с инсайдерами**
+**Внутреннее управление рисками**
 
 - Ознакомьтесь с шестью новыми [шаблонами политик](insider-risk-management-policies.md#policy-templates):
     - Утечки данных по приоритетным пользователям
@@ -100,7 +100,7 @@ ms.locfileid: "48847805"
 
 Чтобы узнать, какие решения для обеспечения соответствия используются для защиты и управления конфиденциальными данными Организации, мы создали две новые целевые страницы с обзором того, как эти решения работают вместе для достижения этих целей, в том числе ссылки на связанные документы, чтобы вы могли освоить дальнейшие действия.
 
-[Защита информации Майкрософт в Microsoft 365](protect-information.md)<br>
+[Защита информации Майкрософт в Microsoft 365](information-protection.md)<br>
 [Управление сведениями Майкрософт в Microsoft 365](manage-Information-governance.md)
 
 ### <a name="advanced-ediscovery-add-non-custodial-data-sources-to-your-cases"></a>Расширенное обнаружение электронных данных: Добавление источников данных, не относящихся к кустодиал, к вашим случаям
