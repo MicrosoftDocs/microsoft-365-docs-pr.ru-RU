@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте, как настроить политики защиты от потери данных (DLP), чтобы использовать соответствующие расположения защиты от потери данных в конечной точке Microsoft 365.
-ms.openlocfilehash: 95c470a3dfc90f9c7b9a36d282c016781e4e13a8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6de6443dc0d276c862db43963ac28bd762e3756f
+ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847193"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48984923"
 ---
-# <a name="using-endpoint-data-loss-prevention-preview"></a>Использование функции защиты от потери данных в конечной точке (предварительная версия)
+# <a name="using-endpoint-data-loss-prevention"></a>Использование защиты от потери данных в конечной точке
 
 В этой статье описаны три сценария создания и изменения политики защиты от потери данных, которая использует устройства как расположение.
 
