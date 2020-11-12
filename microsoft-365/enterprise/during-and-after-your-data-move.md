@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Перемещения данных — это фоновые операции, происходящие, когда корпорация Майкрософт перемещает службы и связанные данные для клиента в новый Geo центра обработки данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d2e63dd046f62f07e367b3632f96bf7261b99c9c
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 63536a46e28f264f49e8071710221b0847f62414
+ms.sourcegitcommit: 86e878849a8bdd456cee6a3f49939d26223fb626
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333704"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48997795"
 ---
 # <a name="during-and-after-your-data-move"></a>Во время и после перемещения данных
 
@@ -45,7 +45,7 @@ ms.locfileid: "48333704"
 |Южная Африка  <br/> |1 июля 2022 г.  <br/> |
 |Швейцария, Лихтенштейн  <br/> |1 июля 2022 г.  <br/> |
 |Норвегия  <br/> |1 ноября 2022 г.  <br/> |
-|Германия  <br/> |1 апреля 2023 г.  <br/> |
+|Германия  <br/> |1 мая 2023 г.  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 
