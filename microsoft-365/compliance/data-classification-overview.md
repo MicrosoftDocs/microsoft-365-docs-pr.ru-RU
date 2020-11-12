@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Панель мониторинга классификации данных дает вам наглядное представление о количестве найденных и классифицированных конфиденциальных данных в вашей организации.
-ms.openlocfilehash: 503235ad2ee35760a03cb2427d1e84f5f3639b9f
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 7bf9a7151f8df45716ab032dd3c62a33f4f5adc8
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379221"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999399"
 ---
 # <a name="know-your-data---data-classification-overview"></a>Знайте свои данные - обзор классификации данных
 
@@ -47,14 +47,9 @@ ms.locfileid: "48379221"
 
 Классификация данных будет сканировать ваш конфиденциальный контент и помеченный контент, прежде чем создавать какие-либо политики. Она называется **управлением изменениями нулевого состояния**. Такая возможность позволит вам определить влияние всех меток хранения и меток конфиденциальности в вашей среде и начать оценку требований политики защиты и управления.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
-Каждой учетной записи, которая осуществляет доступ и использует классификацию данных, необходимо назначить лицензию из одной из следующих подписок:
-
-- Microsoft 365 (E5/A5)
-- Office 365 (E5)
-- Дополнение Advanced Compliance (E5)
-- Дополнение Advanced Threat Intelligence (E5)
+Защиту от потери данных в конечной точке поддерживают несколько разных подписок. Параметры лицензирования для защиты от потери данных в конечной точке см. в [руководстве по лицензированию Information Protection](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection). 
 
 ### <a name="permissions"></a>Разрешения
 
