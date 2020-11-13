@@ -11,18 +11,19 @@ ms.collection:
 - M365-collaboration
 - m365solution-securecollab
 - m365solution-scenario
+- m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Узнайте, как настроить приложения Microsoft 365, такие как Teams, OneDrive и SharePoint, для совместной работы с пользователями за пределами вашей организации.
-ms.openlocfilehash: 9a15ea06cec6982977ec88edf5ee95b35591a33c
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 60789041abca98769fa25e2f299ee2d7eebe0726
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906993"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49029985"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Совместное работа с людьми за прев Организации
 
@@ -59,7 +60,7 @@ ms.locfileid: "48906993"
 
 Если некоторые функции общего доступа в Microsoft 365 конфликтуют с политиками управления, ознакомьтесь с [разделом ограничение общего доступа в microsoft 365](microsoft-365-limit-sharing.md) , чтобы узнать о возможностях ограничения общего доступа.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Введение в совместную работу с файлами в Microsoft 365](https://docs.microsoft.com/sharepoint/intro-to-file-collaboration)
 

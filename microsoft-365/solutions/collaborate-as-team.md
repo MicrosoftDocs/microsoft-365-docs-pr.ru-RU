@@ -11,17 +11,18 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Сведения о действиях по настройке Microsoft 365, необходимых для настройки группы для сотрудничества задач, обсуждений и документации с гостями в Teams.
-ms.openlocfilehash: b4eea473f03441144a0236ec53dcecde9080fc7a
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 7f00acb7b7b58169d6a66bfa4cabdc5a3035f67f
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906863"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030033"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Совместная работа с гостями в команде
 
