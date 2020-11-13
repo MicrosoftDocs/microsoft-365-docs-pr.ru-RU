@@ -415,8 +415,6 @@
           href: manage-microsoft-365-groups.md
         - name: Управление
           href: manage-microsoft-365-identity-governance.md
-        - name: 'Восстановление элементов, удаленных из почтового ящика пользователя'
-          href: recover-deleted-items-in-a-mailbox.md
         - name: Синхронизация каталогов
           items:
             - name: Просмотр состояния
