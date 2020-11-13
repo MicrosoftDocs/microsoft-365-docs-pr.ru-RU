@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: f1b1a8f03b7a11a0467826281bc2b789140dbcee
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 7e40a5eb7144fef3d330e0e8fc3c711af15d4c49
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327060"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071447"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>Этапы регистрации устройств для партнеров
 
@@ -46,7 +46,7 @@ ms.locfileid: "44327060"
 >[!NOTE]
 > Вы должны получить этот CSV-файл с помощью покупки устройства. Если вы не получили CSV-файл, вы можете создать его самостоятельно, выполнив действия, описанные в статье [Добавление устройств в Windows "Автопилот](https://docs.microsoft.com/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell)". Сценарий Windows PowerShell отличается от того, который используется для [портала администрирования рабочих столов, управляемого Майкрософт](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/register-devices-self?view=o365-worldwide#obtain-the-hardware-hash). Партнеры должны использовать [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) для регистрации устройств для компьютеров, управляемых Майкрософт, в центре партнеров.
 
-Если при попытке отправить CSV-файл появляется сообщение об ошибке, проверьте формат файла. Вы можете использовать только хэш оборудования или имя изготовителя оборудования, серийный номер и модель (в этом порядке) или идентификатор продукта Windows. Вы также можете использовать пример CSV-файла, приведенный в ссылке рядом с пунктом **Add Devices to Create Devices** to Create Device List (устройства). 
+Если при попытке отправить CSV-файл появляется сообщение об ошибке, проверьте формат файла. Убедитесь, что порядок столбцов соответствует сведениям, описанным в статье [Использование профилей Windows для автопилота на новых устройствах для настройки пользовательского интерфейса](https://docs.microsoft.com/partner-center/autopilot#add-devices-to-a-customers-account). Вы также можете использовать пример CSV-файла, приведенный в ссылке рядом с пунктом **Add Devices to Create Devices** to Create Device List (устройства). 
 
 Дополнительные сведения об автопилоте в сценариях-партнерах приведены в статье [Добавление устройств для учетной записи клиента](https://docs.microsoft.com/partner-center/autopilot#add-devices-to-a-customers-account).
 
@@ -55,7 +55,7 @@ ms.locfileid: "44327060"
 
 Прежде чем завершить регистрацию клиента, необходимо сначала установить связь с ними. Вы должны иметь уникальную ссылку для предоставления соответствующим клиентам. Узнайте [, как установить связь с ИВТ](https://docs.microsoft.com/windows/deployment/windows-autopilot/registration-auth#oem-authorization).
 
-После установления связи вы можете начать регистрацию устройств для клиентов, используя **Microsoft365Managed_Autopilot**тег группы.
+После установления связи вы можете начать регистрацию устройств для клиентов, используя **Microsoft365Managed_Autopilot** тег группы.
 
 > [!IMPORTANT]
 > Имя группы должно полностью соответствовать **Microsoft365Managed_Autopilot** , включая регистр букв и специальные символы. Это позволит назначить новым зарегистрированным устройствам профиль автопилота для управляемого рабочего стола Майкрософт.
