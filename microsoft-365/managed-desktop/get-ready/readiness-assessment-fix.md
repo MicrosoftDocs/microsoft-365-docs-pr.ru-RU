@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b77313a18a5744549e492de991e282bc34dbb6da
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 0459de8974fe6bae98e6984fd7dc65afeb04b4e7
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002421"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021089"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Исправление проблем, обнаруженных средством проверки готовности
 
@@ -29,6 +29,8 @@ ms.locfileid: "49002421"
 |Error | Используемая роль Azure Active Directory (AD) не обладает разрешениями, достаточными для запуска этой проверки. |
 
 ## <a name="microsoft-intune-settings"></a>Параметры Microsoft Intune
+
+Вы можете получить доступ к параметрам Intune в [центре администрирования](https://endpoint.microsoft.com)Microsoft Endpoint Manager.
 
 ### <a name="autopilot-deployment-profile"></a>Профиль развертывания для автопилота
 
@@ -247,6 +249,7 @@ Windows Hello для бизнеса не настроена. Включите е
 
 ## <a name="azure-active-directory-settings"></a>Параметры Azure Active Directory
 
+Вы можете получить доступ к параметрам Azure Active Directory на [портале Azure](https://portal.azure.com).
 
 ### <a name="ad-hoc-subscriptions"></a>Подписки на ad hoc
 
@@ -326,7 +329,7 @@ Windows Hello для бизнеса не настроена. Включите е
 
 ### <a name="onedrive"></a>OneDrive
 
-Параметр **Разрешить синхронизацию только на компьютерах, присоединенных к определенным доменам** , будет конфликтовать с управляемым рабочим столом Майкрософт.
+Параметр **Разрешить синхронизацию только на компьютерах, присоединенных к определенным доменам** , будет конфликтовать с управляемым рабочим столом Майкрософт. Вы можете получить доступ к параметрам OneDrive в [центре администрирования](https://admin.onedrive.com)onedrive.
 
 **Рекомендация**
 

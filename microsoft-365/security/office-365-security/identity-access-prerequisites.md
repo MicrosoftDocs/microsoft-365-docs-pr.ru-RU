@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: d57709d78cd8b64b740c88362cb99653f6dec681
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: db0f001d20f46c5c248ec153238fe394b8e9721c
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48463994"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49020977"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Предварительные действия для реализации политик доступа к удостоверениям и устройствам
 
@@ -60,7 +60,7 @@ ms.locfileid: "48463994"
 ### <a name="windows-devices"></a>Устройства Windows
 Мы рекомендуем использовать Windows 10 (версии 2004 или более поздней), так как Azure обеспечивает оптимальный способ единого входа для локальных и Azure AD. Рабочие и учебные устройства должны быть настроены на присоединение к Azure AD напрямую или если организация использует локальное присоединение к домену Active Directory, эти устройства должны быть [настроены на автоматическую и автоматическую регистрацию в Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup).
 
-Для устройств с Windows BYOD пользователи могут использовать " **Добавить рабочую или учебную учетную запись**". Обратите внимание, что пользователям браузера Google Chrome на устройствах с Windows 10 необходимо [установить расширение](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) , чтобы обеспечить одинаковый способ входа для пользователей Microsoft Edge. Кроме того, если в Организации есть подключенные к домену устройства Windows 8 или 8,1, можно установить присоединение к рабочему месту Майкрософт для компьютеров, отличных от Windows 10. [Скачайте пакет, чтобы зарегистрировать](https://www.microsoft.com/download/details.aspx?id=53554) устройства в Azure AD.
+Для устройств с Windows BYOD пользователи могут использовать " **Добавить рабочую или учебную учетную запись** ". Обратите внимание, что пользователям браузера Google Chrome на устройствах с Windows 10 необходимо [установить расширение](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) , чтобы обеспечить одинаковый способ входа для пользователей Microsoft Edge. Кроме того, если в Организации есть подключенные к домену устройства Windows 8 или 8,1, можно установить присоединение к рабочему месту Майкрософт для компьютеров, отличных от Windows 10. [Скачайте пакет, чтобы зарегистрировать](https://www.microsoft.com/download/details.aspx?id=53554) устройства в Azure AD.
 
 ### <a name="ios-devices"></a>Устройства iOS
 Перед развертыванием политик условного доступа или MFA рекомендуется установить [приложение Microsoft Authenticator](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) на устройствах пользователей. Как минимум, приложение должно быть установлено, когда пользователям предлагается зарегистрировать свое устройство с помощью Azure AD, добавив рабочую или учебную учетную запись или установив приложение "Корпоративный портал Intune", чтобы зарегистрировать свое устройство в управлении. Это зависит от настроенной политики условного доступа.
@@ -74,7 +74,7 @@ ms.locfileid: "48463994"
 ### <a name="recommended-email-clients"></a>Рекомендуемые почтовые клиенты
 Следующие почтовые клиенты поддерживают современные проверки подлинности и условный доступ. 
 
-|Платформа|Client|Версия и заметки|
+|Платформа|Клиент|Версия и заметки|
 |:-------|:-----|:------------|
 |**Windows**|Outlook|2019, 2016, 2013 <BR> [Включение современной проверки подлинности](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication), [обязательных обновлений](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
 |**iOS**|Outlook для iOS|[Установлены](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|
@@ -90,9 +90,9 @@ ms.locfileid: "48463994"
 |Платформа|Word/Excel/PowerPoint|OneNote|Приложение OneDrive|Приложение SharePoint|[Клиент синхронизации OneDrive](https://docs.microsoft.com/onedrive/enable-conditional-access)|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
 |Windows 8.1|Поддерживается|Поддерживается|Н/Д|Н/Д|Поддерживается|
-|Windows 10|Поддерживается|Поддерживается|Н/Д|Н/Д|Поддерживается|
-|Android|Поддерживается|Поддерживается|Поддерживается|Поддерживается|Недоступно|
-|iOS|Поддерживается|Поддерживается|Поддерживается|Поддерживается|Недоступно|
+|Windows 10|Поддерживается|Поддерживается|Н/Д|Н/Д|Поддерживается|
+|Android|Поддерживается|Поддерживается|Поддерживается|Поддерживается|Н/Д|
+|iOS|Поддерживается|Поддерживается|Поддерживается|Поддерживается|Н/Д|
 |macOS|Поддерживается|Поддерживается|Н/Д|Н/Д|Не поддерживается|
 |Linux|Не поддерживается|Не поддерживается|Не поддерживается|Не поддерживается|Не поддерживается|
 
@@ -116,7 +116,7 @@ ms.locfileid: "48463994"
 - Создайте и используйте отдельные учетные записи, которым назначены [роли администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) *только для администрирования*. Администраторы должны иметь собственную учетную запись для обычного неадминистративного использования и при необходимости использовать учетную запись администратора, чтобы выполнить задачу, связанную с должностной ролью или должностной функцией. 
 - Следуйте [рекомендациям по обеспечению](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices) безопасности привилегированных учетных записей в Azure AD.
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 [![Шаг 2: Настройка общих политик условного доступа для удостоверений и доступа](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
