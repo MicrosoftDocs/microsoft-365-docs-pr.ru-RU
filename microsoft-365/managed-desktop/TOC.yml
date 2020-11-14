@@ -61,6 +61,8 @@
           href: get-ready/mapped-drives.md
         - name: Подготовка сертификатов и сетевых профилей
           href: get-ready/certs-wifi-lan.md
+        - name: Предварительные требования для гостевых учетных записей
+          href: get-ready/guest-accounts.md
         - name: Подготовка ресурсов для печати
           href: get-ready/printing.md
         - name: Подготовка приложений

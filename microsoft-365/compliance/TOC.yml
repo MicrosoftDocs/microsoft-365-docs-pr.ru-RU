@@ -914,6 +914,8 @@
           href: compliance-manager-improvement-actions.md
         - name: Способ вычисления рейтинга соответствия требованиям
           href: compliance-score-calculation.md
+        - name: Средство анализа конфигурации соответствия требованиям
+          href: compliance-manager-mcca.md
         - name: Вопросы и ответы
           href: compliance-manager-faq.md
         - name: Диспетчер соответствия требованиям (классический)
