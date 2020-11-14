@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Защита от потери данных в конечных точках Microsoft 365 расширяет возможности мониторинга действий с файлами и защитных действий с этими файлами до уровня конечных точек. Файлы отображаются в решениях Центра соответствия требованиям Microsoft 365. '
-ms.openlocfilehash: 0f69261cb5617c7d6de7900b85a5a254a04bc45e
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: e469872dac19db08f7b525c8a5ada725c75bfa10
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999472"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072978"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Сведения о защите от потери данных в конечных точках Microsoft 365
 
@@ -147,13 +147,13 @@ ms.locfileid: "48999472"
 
 Теперь, когда вы узнали о защите от потери данных в конечной точке, ознакомьтесь со следующим:
 
-1) [Начало работы с защитой от потери данных в конечной точке от Майкрософт (предварительная версия)](endpoint-dlp-getting-started.md)
-2) [Использование защиты от потери данных в конечной точке от Майкрософт (предварительная версия)](endpoint-dlp-using.md)
+1) [Начало работы с защитой от потери данных в конечной точке Майкрософт](endpoint-dlp-getting-started.md)
+2) [Использование защиты от потери данных в конечной точке Майкрософт](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>См. также
 
-- [Начало работы с защитой от потери данных в конечной точке от Майкрософт (предварительная версия)](endpoint-dlp-getting-started.md)
-- [Использование защиты от потери данных в конечной точке от Майкрософт (предварительная версия)](endpoint-dlp-using.md)
+- [Начало работы с защитой от потери данных в конечной точке Майкрософт](endpoint-dlp-getting-started.md)
+- [Использование защиты от потери данных в конечной точке Майкрософт](endpoint-dlp-using.md)
 - [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
