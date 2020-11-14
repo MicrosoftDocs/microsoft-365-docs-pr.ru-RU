@@ -15,34 +15,30 @@ ms.collection:
 - commerce
 - Adm_NonTOC
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-ms.assetid: 0199dd39-7c46-4875-af9b-588df3a9afea
 ROBOTS: NOINDEX
 description: Сведения о том, как активировать стандартный ключ продукта Microsoft 365, приобретенный в розничном магазине.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 9dcf38937e6140f1b0b20688d1dac0a9f3962cbe
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 1c647efaa880096a9fc7713aa28960d563eff69d
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638367"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072751"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Ввод ключа продукта для Microsoft 365 Business Standard
 
-Если вы приобрели Microsoft 365 бизнес Standard из розничного магазина, эта статья поможет вам активировать подписку. 
+Если вы приобрели Microsoft 365 бизнес Standard из розничного магазина, эта статья поможет вам активировать подписку.
   
  **Нужно выполнить другую задачу?**
- **Для получения справки по семейству microsoft 365 или microsoft 365 персональный**обратитесь к [разделу Использование ключей продуктов с Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).  
+ **Для получения справки по семейству microsoft 365 или microsoft 365 персональный** обратитесь к [разделу Использование ключей продуктов с Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).  
  **Участвуете в программе корпоративного лицензирования?** Если вы приобрели Microsoft 365 для бизнеса в рамках [программы Microsoft Open License](https://go.microsoft.com/fwlink/p/?LinkID=613298), ознакомьтесь со статьей, чтобы [ввести ключ продукта, приобретенный в Microsoft Open](purchases-from-microsoft-open.md).
   
 ## <a name="activate-a-new-subscription"></a>Активация новой подписки
 
-1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?LinkId=839911" target="_blank">Office.com/setupkey</a>.
+1. Перейдите по ссылке <a href="https://go.microsoft.com/fwlink/p/?LinkId=839911" target="_blank">https://microsoft365.com/setupbusiness</a>.
 
 2. Введите ключ продукта и нажмите кнопку **Далее**.
 
@@ -59,7 +55,7 @@ ms.locfileid: "48638367"
 
 ## <a name="extend-the-expiration-date-or-add-a-license-to-an-existing-subscription"></a>Расширение даты окончания срока действия или добавление лицензии на существующую подписку
 
-Чтобы использовать ключ продукта для продления срока действия или добавления лицензии на существующую подписку Microsoft 365 Business Standard, вам потребуется новый и неиспользуемый ключ для одного и того же плана Microsoft 365. Ввод исходного ключа продукта Microsoft 365 не будет работать, так как ключ, который уже был погашен, не может быть использован повторно. Ознакомьтесь с [разделом Add Licenses to or Расширьте подписку, уплаченную с помощью ключа продукта](licenses/add-licenses-using-product-key.md).
+Чтобы продлить срок действия или добавить лицензию в существующую подписку на Microsoft 365 бизнес, используйте новый и неиспользованный ключ для одного и того же плана Microsoft 365. Ввод исходного ключа продукта Microsoft 365 не будет работать, так как ключ, который уже был погашен, не может быть использован повторно. Ознакомьтесь с [разделом Add Licenses to or Расширьте подписку, уплаченную с помощью ключа продукта](licenses/add-licenses-using-product-key.md).
 
 ## <a name="whats-next"></a>Что дальше?
 
