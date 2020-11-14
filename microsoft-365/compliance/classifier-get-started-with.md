@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Классификатор Microsoft 365 — это инструмент, который можно обучить для распознавания различных типов контента, предоставляя им примеры для поиска. В этой статье описывается создание и обучение настраиваемого классификатора и его реобучение для повышения точности.
-ms.openlocfilehash: f0d3659c1ee03fe69a5513f24d15b295400a24dc
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 9fe50f7faada77492fd93a86d0c3549cc8e1d361
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906350"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072968"
 ---
 # <a name="get-started-with-trainable-classifiers-preview"></a>Начало работы с обучаемыми классификаторами (предварительная версия)
 
@@ -33,7 +33,7 @@ ms.locfileid: "48906350"
 
 Чтобы узнать больше о различных типах классификаторов, ознакомьтесь со статьей [сведения о классификаторах (Предварительная версия)](classifier-learn-about.md).
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 ### <a name="licensing-requirements"></a>Требования к лицензированию
 
@@ -53,7 +53,7 @@ ms.locfileid: "48906350"
 - Политика соответствия требованиям к общению: администратору управления рисками для участников программы, администратору Супервизорной проверки 
 
 > [!IMPORTANT]
-> По умолчанию только пользователь, создающий настраиваемый классификатор, может обучать и просматривать прогнозы, выполненные этим классификатором. Если вы хотите, чтобы другие пользователи могли обучать и просматривать прогнозы классификаторов, ознакомьтесь со статьей [предоставление другим пользователям прав на обучение и изучение](#give-others-train-and-review-rights).
+> По умолчанию только пользователь, создающий настраиваемый классификатор, может обучать и просматривать прогнозы, выполненные этим классификатором.
 
 ## <a name="prepare-for-a-custom-trainable-classifier"></a>Подготовка к созданию настраиваемого классификатора для обучения 
 
@@ -156,21 +156,3 @@ ms.locfileid: "48906350"
 20. Опубликуйте классификатор.
 
 21. После публикации классификатор будет доступен в качестве условия [автоматической метки в Office с метками чувствительности](apply-sensitivity-label-automatically.md), [автоматически применять политику меток хранения на основе условия](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels) и в [соответствии с соответствием связью](communication-compliance.md).
-
-## <a name="give-others-train-and-review-rights"></a>Предоставление другим пользователям прав на обучение и пересмотр
-
-Используйте эту процедуру, чтобы предоставить другим пользователям разрешения на обучение, просмотр и настройка настраиваемого классификатора для обучения.  
- 
-1. Создатель классификатора глобальному администратору или администратору обнаружения электронных данных подключается к центру соответствия требованиям с помощью PowerShell с помощью процедур, описанных в разделе [Connect to Security to Security & Center соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps&preserve-view=true).
-
-2. Выполните следующую команду:
-
-   ```powershell
-   Add-ComplianceCaseMember -Case "<classifier name>" -Member "<user or role group>"
-   ```
-   
-   Примеры:
-   
-   `Add-ComplianceCaseMember -Case "Financial Contract Classifier" -Member johnevans@contoso.com`
-
-   Эту команду можно выполнить несколько раз, чтобы добавить нескольких пользователей. Обратите внимание, что вы можете добавлять только группы ролей Exchange Online Protection (EOP), а не группы ролей Azure.

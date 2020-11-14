@@ -467,10 +467,10 @@
               href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
             - name: Project Server 2010
               href: project-server-2010-end-of-support.md
-- name: Безопасность
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
 - name: Соответствие требованиям
-  href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+  href: ../compliance/index.yml
+- name: Безопасность
+  href: ../security/index.yml
 - name: Облачные службы
   items:
     - name: Стратегия
@@ -564,7 +564,7 @@
           href: cmdlet-references-for-microsoft-365-services.md
         - name: Ресурсы сообщества PowerShell
           href: microsoft-365-powershell-community-resources.md
-    - name: 'Управление учетными записями пользователей, лицензиями и группами с помощью PowerShell'
+    - name: 'Управление учетными записями пользователей, паролями, лицензиями и группами с помощью PowerShell'
       href: manage-user-accounts-and-licenses-with-microsoft-365-powershell.md
       items:
         - name: Учетные записи пользователей
@@ -581,6 +581,8 @@
               href: delete-and-restore-user-accounts-with-microsoft-365-powershell.md
             - name: Блокировка
               href: block-user-accounts-with-microsoft-365-powershell.md
+            - name: Пароли
+              href: manage-passwords-with-microsoft-365-powershell.md
         - name: Лицензии и службы
           items:
             - name: Просмотр лицензий и служб
@@ -602,7 +604,9 @@
                   href: disable-access-to-services-while-assigning-user-licenses.md
         - name: Группы
           items:
-            - name: Управление участием в группах
+            - name: Управление группами безопасности
+              href: manage-security-groups-with-microsoft-365-powershell.md
+            - name: Управление участием в группах безопасности
               href: maintain-group-membership-with-microsoft-365-powershell.md
             - name: Управление группами Microsoft 365
               href: manage-microsoft-365-groups-with-powershell.md
@@ -723,10 +727,6 @@
       href: contoso-info-protect.md
     - name: Сводка по безопасности
       href: contoso-security-summary.md
-- name: Соответствие требованиям Microsoft 365
-  href: ../compliance/index.yml
-- name: "Безопасность Microsoft\_365"
-  href: ../security/index.yml
 - name: "Архитектура и решения Microsoft\_365"
   href: ../solutions/index.yml
 - name: Управление непрерывностью бизнес-процессов в компании (УНБК) с помощью облачных служб

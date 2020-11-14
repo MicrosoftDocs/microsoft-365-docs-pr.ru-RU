@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте руководство по диспетчеру соответствия требованиям, чтобы помочь вам в изучении, настройке и использовании диспетчера соответствия требованиям.
-ms.openlocfilehash: 895f03482c0af9603aa96d907d7339a853ef5e9d
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 9f24a0495b7d453b70a28ad54d76ccf835000ed6
+ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791795"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071977"
 ---
 # <a name="compliance-manager-quickstart"></a>Быстрое начало работы с диспетчером соответствия требованиям
 
@@ -43,6 +43,7 @@ ms.locfileid: "48791795"
 - [Фильтрация представления панели мониторинга](compliance-manager-setup.md#filtering-your-dashboard-view)
 - [Сведения о действиях по улучшению](compliance-manager-setup.md#improvement-actions-page)
 - [Общие сведения о оценках](compliance-manager.md#assessments)
+- [Быстрая проверка среды с помощью диспетчера конфигураций соответствия требованиям Майкрософт](compliance-manager-mcca.md)
 
 ## <a name="ramping-up-configure-compliance-manager-to-manage-your-compliance-activities"></a>Увеличение: Настройка диспетчера соответствия требованиям для управления действиями по обеспечению соответствия требованиям
 

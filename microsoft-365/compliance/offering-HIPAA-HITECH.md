@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6e0f8e2661692930469aff85e0a7eeef2dd647e0
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: bdfb99531035054e0d6a27bc2c8b82c7f641ff2d
+ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948390"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071945"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -114,5 +114,5 @@ ms.locfileid: "48948390"
 - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Общие сведения о соответствии требованиям HIPAA с Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 мая, 2016)
-- [Пример чертежа Azure HIPAA HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
+- [Пример чертежа Azure HIPAA HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
