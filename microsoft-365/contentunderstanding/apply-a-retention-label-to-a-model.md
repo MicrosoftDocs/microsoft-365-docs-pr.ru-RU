@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: В этой статье объясняется, как применить метку хранения к модели понимания документа
-ms.openlocfilehash: b6ace2a11a7205919fdcf767b888401a5c28db0c
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 2e6d300b63a173d01488406485cffa44fab4278e
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338629"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087479"
 ---
 # <a name="apply-a-retention-label-to-a-document-understanding-model"></a>Применение метки хранения к модели понимания документа
 

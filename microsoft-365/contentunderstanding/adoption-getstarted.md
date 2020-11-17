@@ -8,15 +8,16 @@ ms.date: 7/20/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
+ms.collection: enabler-strategic
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: f6bb4f5e09adcb1be6323a5d3d182cc3d1bc6017
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: db54ff053dcb1c9c1c608608ab1a37da8090cdb3
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337233"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087515"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Внедрение Microsoft SharePoint Синтекс: Начало работы
 
@@ -155,7 +156,7 @@ SharePoint Синтекс интегрируется со средствами �
 
 Определите заинтересованных лиц для вашего проекта.
 
-|Роль |Несут |Department |
+|Role |Несут |Department |
 |:-------|:-------|:--------|
 | Руководящий спонсор   | Обмен концепциями и значениями высокого уровня для компании   |  Руководящий лидер   |
 | Ведущие в проект (ы) | Наблюдение за выполнением всего процесса запуска и развертывания | Управление проектами |

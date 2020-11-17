@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Сведения о применении метки хранения к модели осмысления документа
-ms.openlocfilehash: 052c137a419c0185010fbd152e73615a4bb093af
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: b71f75006a856d4fd551bffe232cbe044f7726a5
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367957"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087141"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>Аналитика использования модели осмысления документа
 

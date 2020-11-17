@@ -6,15 +6,16 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
+ms.collection: enabler-strategic
 search.appverid: MET150
 localization_priority: Priority
 description: Настройка понимания содержимого в Project Cortex
-ms.openlocfilehash: 8f1ebd70f932bce874efc19f525b549f6717f532
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: dfbcc8e41a28e3107b58ac6b8d471e3a2a08d036
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988688"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087575"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
@@ -22,12 +23,12 @@ ms.locfileid: "48988688"
 
 Прежде чем начать, примите во внимание следующие моменты:
 
-- На каких сайтах SharePoint будет включена обработка форм? На всех, некоторых из них или выбранных сайтах?
+- Which SharePoint sites will you enable form processing? All of them, some, or select sites?
 - Как вы назовете свой центр содержимого по умолчанию?
 
 Вы можете изменить параметры после начальной настройки в Центре администрирования Microsoft 365.
 
-Перед установкой убедитесь, что вы спланировали наилучший способ настройки понимания содержимого в вашей среде. Например, вам необходимо принять во внимание следующие названия:
+Prior to setup, make sure to plan for the best way to set up and configure content understanding in your environment. For example, you need to make considerations about the following names of:
 
 - Сайтов SharePoint, на которых вы хотите включить обработку форм — всех из них, некоторых или выбранных сайтах
 - Центра содержимого и имени главного администратора сайта
@@ -41,21 +42,21 @@ ms.locfileid: "48988688"
 
 ## <a name="to-set-up-sharepoint-syntex"></a>Чтобы настроить SharePoint Syntex, выполните следующие действия:
 
-1. В Центре администрирования Microsoft 365 выберите **Настройка** , затем просмотрите раздел **Файлы и содержимое**.
+1. В Центре администрирования Microsoft 365 выберите **Настройка**, затем просмотрите раздел **Файлы и содержимое**.
 
 2. В разделе **Файлы и содержимое** выберите **Автоматизировать понимание содержимого**.<br/>
 
-3. На странице **Автоматизировать понимание содержимого** , нажмите **Начать** , чтобы начать процесс настройки.<br/>
+3. На странице **Автоматизировать понимание содержимого**, нажмите **Начать** , чтобы начать процесс настройки.<br/>
 
     > [!div class="mx-imgBorder"]
     > ![Начало настройки](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
-4. На странице **Настройка обработки форм** можно выбрать, хотите ли вы, чтобы пользователи могли создавать модели обработки форм в определенных библиотеках документов SharePoint. На ленте библиотеки документов будет доступен параметр меню **Создать модель обработки форм** в библиотеках документов SharePoint, в которых он включен.
+4. On the **Configure Form Processing** page, you can choose if you want to let users be able to create form processing models in specific SharePoint document libraries. A menu option will be available in the document library ribbon to **Create a form processing model** in SharePoint document libraries in which it is enabled.
  
-     Для **каких библиотек SharePoint должен отображаться параметр создания модели обработки форм** , вы можете выбрать:</br>
-      - **Все библиотеки SharePoint** , чтобы сделать его доступным для всех библиотек SharePoint в вашей организации.</br>
-      - **Только библиотеки на выбранных сайтах** , а затем выберите сайты, в которых вы хотите сделать его доступным, или загрузите список, содержащий до 50 сайтов.</br>
-      - **Не в библиотеках SharePoint** , если вы не хотите, чтобы он был доступен для всех сайтов (после настройки вы можете изменить эту настройку).
+     Для **каких библиотек SharePoint должен отображаться параметр создания модели обработки форм**, вы можете выбрать:</br>
+      - **Все библиотеки SharePoint**, чтобы сделать его доступным для всех библиотек SharePoint в вашей организации.</br>
+      - **Только библиотеки на выбранных сайтах**, а затем выберите сайты, в которых вы хотите сделать его доступным, или загрузите список, содержащий до 50 сайтов.</br>
+      - **Не в библиотеках SharePoint**, если вы не хотите, чтобы он был доступен для всех сайтов (после настройки вы можете изменить эту настройку).
 
    > [!div class="mx-imgBorder"]
    > ![Настройка обработки форм](../media/content-understanding/admin-configforms.png)
@@ -67,18 +68,18 @@ ms.locfileid: "48988688"
 
     1. В поле **Имя сайта** введите имя, которое вы хотите дать сайту Центра содержимого.
     
-    1. В **адресе сайта** будет отображаться URL-адрес вашего сайта в зависимости от выбранного имени сайта. Если вы хотите его изменить, нажмите **Изменить**.
+    1. The **Site address** will show the URL for your site, based on what you selected for the site name. If you want to change it, click **Edit**.
 
        > [!div class="mx-imgBorder"]
        > ![Создание Центра содержимого](../media/content-understanding/admin-cu-create-cc.png)</br>
 
        Нажмите кнопку **Далее**.
 
-6. На странице **Проверка и завершение** можно просмотреть выбранный параметр и внести в него изменения. Если выбор вас устраивает, нажмите кнопку **Активировать**.
+6. On the **Review and finish** page, you can look at your selected setting and choose to make changes. If you are satisfied with your selections, select **Activate**.
 
 7. На странице подтверждения нажмите кнопку **Готово**.
 
-8. Вы вернетесь к странице **Автоматизировать понимание содержимого**. На этой странице можно выбрать **Управлять** , чтобы внести изменения в параметры настройки. 
+8. You'll be returned to your **Automate content understanding** page. From this page, you can select **Manage** to make any changes to your configuration settings. 
 
 ## <a name="assign-licenses"></a>Назначение лицензий
 
@@ -86,13 +87,13 @@ ms.locfileid: "48988688"
 
 Чтобы назначить лицензии, выполните следующие действия:
 
-1. В Центре администрирования Microsoft 365 в разделе **Пользователи** , щелкните **Активные пользователи**.
+1. В Центре администрирования Microsoft 365 в разделе **Пользователи**, щелкните **Активные пользователи**.
 
 2. Выберите пользователей, которых вы хотите лицензировать, и щелкните **Управление лицензиями продуктов**.
 
 3. Выберите **Назначить еще**.
 
-4. Выберите **SharePoint Syntex**. В разделе **Приложения** , убедитесь, что выбраны **Common Data Service для SharePoint Syntex** , **SharePoint Syntex** , и **SharePoint Syntex - тип SPO**.
+4. Select **SharePoint Syntex**. Under **Apps**, make sure **Common Data Service for SharePoint Syntex**, **SharePoint Syntex**, and **SharePoint Syntex - SPO type** are all selected.
 
     > [!div class="mx-imgBorder"]
     > ![Лицензии SharePoint Syntex в Центре администрирования Microsoft 365](../media/content-understanding/sharepoint-syntex-licenses.png)
@@ -101,7 +102,7 @@ ms.locfileid: "48988688"
 
 ## <a name="ai-builder-credits"></a>Титры AI Builder
 
-Если у вас есть 300 или более лицензий SharePoint Syntex в вашей организации, вам будет выделен миллион титров AI Builder. Если у вас менее 300 лицензий, необходимо купить титры AI Builder, чтобы использовать обработку форм.
+If you have 300 or more SharePoint Syntex licenses for SharePoint Syntex in your organization, you will be allocated one million AI Builder credits. If you have fewer than 300 licenses, you must purchase AI Builder credits in order to use forms processing.
 
 Вы можете оценить мощность AI Builder, которая подходит именно вам, с помощью [калькулятора AI Builder](https://powerapps.microsoft.com/ai-builder-calculator).
 

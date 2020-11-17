@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Узнайте об осмыслении документации в инструменте Microsoft SharePoint Syntex.
-ms.openlocfilehash: 1265dfa06db323e23d63a044a1a95a6b67c525cf
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: b26ed9a9ed9b8d1f332ccf14377660e634349b3d
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333562"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087371"
 ---
 # <a name="document-understanding-overview"></a>Общие сведения об осмыслении документации
 
@@ -30,7 +31,7 @@ ms.locfileid: "48333562"
 > [!NOTE]
 > Дополнительные сведения о примерах сценариев осмысления документации см. в статье [Внедрение SharePoint Syntex: руководство по началу работы](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted#document-understanding-scenario-example).
 
-Модели осмысления документации создаются и управляются с помощью сайтов SharePoint особого типа, который называется*центр управления контентом*. В модели, применяемой к библиотеке документов SharePoint и связанной с некоторым типом контента, для хранения извлеченных сведений используются столбцы. Созданный вами тип контента сохраняется в галерее типов контента SharePoint. Вы также можете пользоваться существующими типами контента, чтобы применять их схемы.
+Модели осмысления документации создаются и управляются с помощью сайтов SharePoint особого типа, который называется *центр управления контентом*. В модели, применяемой к библиотеке документов SharePoint и связанной с некоторым типом контента, для хранения извлеченных сведений используются столбцы. Созданный вами тип контента сохраняется в галерее типов контента SharePoint. Вы также можете пользоваться существующими типами контента, чтобы применять их схемы.
 
 Добавляйте *классификаторы* и *экстракторы* в свои модели осмысления документации для выполнения следующих задач. 
 

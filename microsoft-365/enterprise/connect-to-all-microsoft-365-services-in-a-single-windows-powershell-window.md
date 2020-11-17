@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: Сводка. Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell.
-ms.openlocfilehash: 04be916f745e2bde70554045340fc8ec03f87413
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 4128e360a3664d3a61559139bc4e6e346418fa61
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754320"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087031"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell
 
@@ -109,7 +109,7 @@ ms.locfileid: "48754320"
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
+   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $Credential
    ```
 
 5. Выполните следующие команды для подключения к Skype для бизнеса Online. При первом подключении появится предупреждение об увеличении значения параметра `WSMan NetworkDelayms`. Игнорируйте его.

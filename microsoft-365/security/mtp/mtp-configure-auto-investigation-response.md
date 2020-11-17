@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: 5ba17c414b6f6470d2e9af14d1f484b435cb4f51
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 3c8477ce16249cb4d21c736da60d619774175041
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846500"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123611"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Настройка функций автоматического исследования и реагирования в защитнике Microsoft 365
 
@@ -41,7 +41,7 @@ ms.locfileid: "48846500"
 
 ## <a name="prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender"></a>Необходимые условия для автоматического исследования и ответа в защитнике Microsoft 365
 
-|Требования |Сведения |
+|Требование |Сведения |
 |--|--|
 |Требования к подписке: |Одна из подписок: <br/>— Microsoft 365 <br/>— Microsoft 365 A5 <br/>— Microsoft 365, безопасность<br/>— Безопасность Microsoft 365 A5<br/>— Office 365 в ~ и Enterprise Mobility + Security/безопасность а, Windows ~<br/><br/>Ознакомьтесь с [требованиями к лицензированию защитника Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?#licensing-requirements).|
 |Требования к сети: |- [Защитник Майкрософт для удостоверения](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) включен<br/>- Настроенная [система безопасности облачного приложения Майкрософт](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)<br/>- [Microsoft Cloud App Security, интегрированное с защитником Майкрософт для удостоверения](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
@@ -91,13 +91,13 @@ ms.locfileid: "48846500"
 
 1. Перейдите в центр безопасности Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ) и войдите в систему.
 
-2. В области навигации найдите **инциденты** , **Центр уведомлений** и **Поиск, как** показано на следующем рисунке:
+2. В области навигации найдите **инциденты**, **Центр уведомлений** и **Поиск, как** показано на следующем рисунке:
 
    :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP в":::
 
-   - Если вы видите **инциденты** , **центр поддержки** и **Поиск, защитник** Microsoft 365 включен. Перейдите к следующей процедуре, [Просмотрите или измените уровень автоматизации для групп устройств](#review-or-change-the-automation-level-for-device-groups).
+   - Если вы видите **инциденты**, **центр поддержки** и **Поиск, защитник** Microsoft 365 включен. В этой статье описана процедура, [Обзор или изменение уровня автоматизации для групп устройств](#review-or-change-the-automation-level-for-device-groups) (в этой статье).
 
-   - Если вы *не* видите **инциденты** , **Центр уведомлений** **или поиск** , возможно, защитник Microsoft 365 не включен. В этом случае перейдите к следующему шагу.
+   - Если вы *не* видите **инциденты**, **Центр уведомлений** **или поиск**, возможно, защитник Microsoft 365 не включен. В этом случае перейдите к следующему шагу ([Проверьте отложенные и завершенные действия](#review-pending-and-completed-actions-in-the-action-center)в этой статье).
 
 3. В области навигации выберите **Параметры**  >  **защитник Microsoft 365**. Убедитесь, что защитник Microsoft 365 включен. 
 

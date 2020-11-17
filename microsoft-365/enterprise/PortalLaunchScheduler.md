@@ -17,90 +17,126 @@ search.appverid:
 - SPO160
 - MET150
 description: В этой статье описывается, как можно запустить портал с помощью планировщика запуска портала.
-ms.openlocfilehash: 929492742fd140654bd13be8165093ee10647c6d
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: 6a191cf323e180fa77614eb09bae4185228a5029
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999595"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087671"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>Запуск портала с помощью планировщика запуска портала
 
-Вы можете запустить портал с помощью планировщика запуска портала, сначала проверив возможность настройки волн для нового портала администратором клиента. Затем администратор может проверить перенаправление запросов на основании существования пользователя в активных волнах.
+Портал — это сайт SharePoint в вашей интрасети, у которого есть большое количество посетителей сайта, использующих его содержимое. Запуск портала в волне является важной частью обеспечения гладкого и производительного взаимодействия пользователей с доступом к новому порталу SharePoint Online. 
 
-Для получения дополнительных сведений о запуске успешного портала следуйте основным принципам, рекомендациям и рекомендациям, описанным в разделе [Создание, запуск и обслуживание работоспособного портала](https://go.microsoft.com/fwlink/?linkid=2105838). 
+Запуск в волнах — это ключевой способ развертывания портала, как описано в разделе [Планирование развертывания портала для запуска в SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide). Планировщик запуска портала предназначен для выполнения поэтапного и поэтапного развертывания с помощью управления перенаправлениями для нового портала. Во время каждой волны вы можете собирать отзывы пользователей и мониторинг производительности во время каждой волны развертывания. Благодаря этому вы можете приостановить и устранить проблемы, прежде чем переходить к следующему волнам, и в конечном счете обеспечить положительную работу пользователей. 
 
-## <a name="app-setup"></a>Установка приложения
-1. Удалить, если вы уже наступили `Microsoft.Online.SharePoint.PowerShell` с компьютера с помощью панели управления.
-2. На этапе PowerShell `Install-Module -Name Microsoft.Online.SharePoint.PowerShell` .
+Существует два типа перенаправления: 
+- Двунаправленная: запуск нового современного портала SharePoint Online для замены существующего классического или современного портала SharePoint 
+- временное перенаправление страниц: запуск нового современного портала SharePoint Online без существующего портала SharePoint
 
-## <a name="connect-to-sharepoint-online"></a>Подключение к SharePoint Online
-1. Откройте [командную консоль SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) в Windows.
-2. Подключитесь к клиенту от имени администратора.
-   - `Connect-SPOService -Url "https://*-admin.sharepoint.com" -Credential "username”`
-3.  При появлении соответствующего запроса введите пароль.
+Планировщик запуска портала доступен только для запуска современных порталов SharePoint Online, таких как сайты для общения и современные сайты групп. Запуск должен быть запланирован по крайней мере на 7 дней заранее. Количество требуемых волн определяется ожидаемым количеством пользователей. Перед планированием запуска портала необходимо запустить [средство диагностики страниц для SharePoint](https://aka.ms/perftool) , чтобы убедиться, что домашняя страница на портале работоспособна. После запуска портала все пользователи с разрешениями на сайт смогут получить доступ к новому сайту. 
 
-## <a name="command-to-get-an-existing-setup"></a>Команда для получения существующей программы установки
+Для получения дополнительных сведений о запуске успешного портала следуйте основным принципам, рекомендациям и рекомендациям, описанным в разделе [Создание, запуск и обслуживание работоспособного портала](https://docs.microsoft.com/sharepoint/portal-health). 
 
-Чтобы просмотреть существующие конфигурации запуска портала, выполните указанные ниже действия.
+> [!NOTE]
+> Эта функция недоступна для Office 365 Германия, Office 365 под управлением 21Vianet (Китай) или Microsoft 365 для государственных организаций США.
 
-1. Pass `Get-SPOPortalLaunchWaves  -LaunchSiteUrl  https://*.sharepoint.com/sites/newsite` .
-2. Передайте дополнительный параметр, `-DisplayFormat Raw` Если вы хотите просмотреть коллекцию волн, отформатированную как необработанный входной формат.
+## <a name="app-setup-and-connecting-to-sharepoint-online"></a>Установка приложений и подключение к SharePoint Online
+1. [Скачайте последнюю версию командной консоли SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-## <a name="commands-for-bi-directional-redirection"></a>Команды для перенаправления с двунаправленным письмом
+    > [!NOTE]
+    > Если вы установили предыдущую версию командной консоли SharePoint Online, перейдите к разделу "Установка и удаление программ" и удалите компонент "Командная консоль SharePoint Online".<br>На странице Центра загрузки выберите нужный язык и нажмите кнопку "Скачать". Вам будет предложено скачать версию x64 или x86 файла MSI. Для 64-разрядной версии Windows скачайте файл x64, а для 32-разрядной — файл x86. Если вы не знаете свою разрядность, см. статью [Какая у меня версия операционной системы Windows?](https://support.microsoft.com/help/13443/windows-which-operating-system) После скачивания файла запустите его и следуйте инструкциям мастера настройки.
 
-Для поэтапной миграции старых пользователей сайта на новый сайт:
+2. Подключите SharePoint, используя [права глобального администратора или администратора SharePoint](/sharepoint/sharepoint-admin-role) в Microsoft 365. Сведения о том, как это сделать, см. в статье [Начало работы с командной консолью SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-1. Создание волновых спусков.
-   - Это относится только к этапам проверки раннего выпуска.
-   - Чтобы протестировать влияние изменения немедленно, убедитесь, что для первой волновой записи `LaunchDateUtc` задана текущая дата. Если этот флаг не указан, будет выведено сообщение об ошибке. Эта ошибка возникает, так как запуск в рабочей среде должен быть запланирован по крайней мере на 7 дней заранее.
 
-  `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/newsite" -RedirectionType Bidirectional -RedirectUrl "https://*.sharepoint.com/sites/oldsite" -ExpectedNumberOfUsers LessThan10kUsers -WaveOverrideUsers "*@microsoft.com" -Waves ' [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
+## <a name="view-any-existing-portal-launch-setups"></a>Просмотр всех существующих настроек запуска портала
 
-2. Выполнение проверки.
-  - Перенаправление для завершения настройки в службе может занять до 5 минут, поэтому необходимо подождать, прежде чем продолжить.
-  - Если вы выполняете вход с указанным пользователем `WaveOverrideUsers` , ничего не изменится. Вы должны находиться на сайте, на который вы перемещаетесь.
-  - Войдите в систему, используя пользователя, который входит в число *посетителей SG1*.
-    - Перейдите на старый сайт, и вы должны быть перенаправлены на новый сайт.
-    - Перейдите к новому сайту, и вы должны остаться на новом сайте.
-    - Войдите в систему с помощью средства "Пользователи" *SG2* и перейдите к старому сайту и оставайтесь на старом сайте.
-    - Перейдите к новому сайту, и вы должны быть перенаправлены на старый сайт.
+Чтобы проверить наличие существующих конфигураций запуска портала:
 
-3. Приостановка запуска портала.
-  - Если необходимо приостановить номера выпуска, можно приостановить их для "x" дней. Установка `Status` флага приостановить предотвращает все будущие волновые прогрессии. 
-  - `Set-SPOPortalLaunchWaves -Status Pause - LaunchSiteUrl  https://*.sharepoint.com/sites/NewSite`.
-  - При этом будут проверены, что все пользователи перенаправляются на старый сайт.
+   ```PowerShell
+   Get-SPOPortalLaunchWaves -LaunchSiteUrl <object> -DisplayFormat <object>
+   ```
 
-4. Перезапустите процесс запуска портала. 
-  - `Set-SPOPortalLaunchWaves -Status Restart - LaunchSiteUrl  https://*.sharepoint.com/sites/NewSite`.
-  - Проверка того, что перенаправление восстановлено.
+## <a name="schedule-a-portal-launch-on-the-site"></a>Планирование запуска портала на сайте
 
-5. Удаление параметров запуска портала.
-  - `Remove-SPOPortalLaunchWaves -LaunchSiteUrl https://*.sharepoint.com/sites/NewSite`.
-  - Проверка того, что перенаправление не выполняется для всех пользователей.
+Количество требуемых волн зависит от предполагаемого размера запуска. 
+- Менее 10 000 пользователей: 1 волна
+- 10 000 к пользователям 30k: 3 волны 
+- 30k + до 100 000 пользователей: 5 волн
+- Более 100 КБ пользователей: 5 волнах и обращение к группе учетных записей Майкрософт
 
-## <a name="commands-for-redirection-to-temporary-page"></a>Команды для перенаправления на временную страницу
+### <a name="steps-for-bi-directional-redirection"></a>Действия для перенаправления с двунаправленным письмом
 
-Выполните указанные ниже действия, если вы не используете предыдущий сайт и хотите опустить пользователей, не включенных в элемент "волна" на новой странице портала.
+Двунаправленное перенаправление включает в себя запуск нового современного портала SharePoint Online для замены существующего классического или современного портала SharePoint. Пользователи в активных волнах будут перенаправляться на новый сайт независимо от того, переходить на старый или новый сайт. Пользователи в незапущенной волне, который пытается получить доступ к новому сайту, будут перенаправлены на старый сайт, пока не будет запущена звуковая волна. Если у вас есть администраторы или владельцы, которым необходим доступ к старым и новым сайтам без перенаправления, убедитесь, что они указаны с помощью `WaveOverrideUsers` параметра. 
 
-Чтобы создать временную страницу на любом из сайтов:
+Для поэтапной миграции пользователей с существующего сайта SharePoint на новый сайт SharePoint выполните указанные ниже действия.
 
+1. Выполните следующую команду, чтобы назначить запускаемые волны портала.
+   
+   ```PowerShell
+    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
+    ```
+
+Пример.
+   ```PowerShell
+   New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType Bidirectional -RedirectUrl "https://contoso.sharepoint.com/teams/oldsite" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
+[{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
+{Name:"Wave 2", Groups:["Viewers 2"], LaunchDateUtc:"2020/10/15"}, 
+{Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
+   ```
+
+2. Выполнение проверки. Перенаправление для завершения настройки в службе может занять 5-10 минут. 
+
+### <a name="steps-for-redirection-to-temporary-page"></a>Действия для перенаправления на временную страницу
+
+Временное перенаправление страницы следует использовать, если существующий портал SharePoint не существует. В поэтапной манере пользователи направлены на новый современный портал SharePoint Online. Если пользователь находится в волне, который еще не запущен, он будет перенаправлен на временную страницу (любой URL-адрес). 
+
+1. Выполните следующую команду, чтобы назначить запускаемые волны портала.
+   
+      ```PowerShell
+    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
+    ```
+
+Пример.
+   ```PowerShell
+   New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType ToTemporaryPage -RedirectUrl "https://portal.contoso.com/UnderConstruction.aspx" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
+[{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
+{Name:"Wave 2", Groups:["Viewers 2"], LaunchDateUtc:"2020/10/15"}, 
+{Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
+   ```
+
+2. Выполнение проверки. Перенаправление для завершения настройки в службе может занять 5-10 минут. 
+   - `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/newsite" -RedirectionType Bidirectional -RedirectUrl "https://*.sharepoint.com/sites/oldsite" -ExpectedNumberOfUsers LessThan10kUsers -WaveOverrideUsers "*@microsoft.com" -Waves ' [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
+
+## <a name="pause-or-restart-a-portal-launch-on-the-site"></a>Приостановка и перезапуск запуска портала на сайте
+
+1. Чтобы приостановить запуск портала в ходе выполнения и временно предотвратить появление будущих поступающих в нее действий, выполните следующую команду:
+
+   ```PowerShell
+   Set-SPOPortalLaunchWaves -Status Pause - LaunchSiteUrl <object>
+   ```
+2. Проверка того, что все пользователи перенаправляются на старый сайт. 
+
+3. Чтобы перезапустить приостановленный запуск портала, выполните следующую команду:
+
+   ```PowerShell
+   Set-SPOPortalLaunchWaves -Status Restart - LaunchSiteUrl <object>
+   ```
+   
+4. Проверка того, что перенаправление восстановлено. 
+
+## <a name="delete-a-portal-launch-on-the-site"></a>Удаление запуска портала на сайте
 1. Создайте Звукозапись для запуска портала.
-   - `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/NewSite" -RedirectionType ToTemporaryPage -RedirectUrl "https://*.sharepoint.com/sites/OldSite" -ExpectedNumberOfUsers From10kTo30kUsers -WaveOverrideUsers *@microsoft.com -Waves [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
+  - `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/NewSite" -RedirectionType ToTemporaryPage -RedirectUrl "https://*.sharepoint.com/sites/OldSite" -ExpectedNumberOfUsers From10kTo30kUsers -WaveOverrideUsers *@microsoft.com -Waves [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
 
-2. Выполнение проверки.
+2. Выполните приведенную ниже команду, чтобы удалить запланированное или выполняемое для сайта время запуска портала.
 
-  - Подождите пять минут, прежде чем продолжить, так как выполнение действия может занять до пяти минут.
-  - Войдите в систему пользователя, который входит в состав *посетителей SG1* и:
-     - Перейдите к новому сайту, и вы должны остаться на новом сайте.
-     - Перейдите на страницу Temp, и вы должны остаться на странице Temp.
-  - Войдите в систему пользователя, который входит в состав *посетителей SG2* и:
-     - Перейдите к новому сайту, и вы будете перенаправлены на страницу Temp.
-     - Перейдите на страницу Temp, и вы должны остаться на странице Temp.
+   ```PowerShell
+   Remove-SPOPortalLaunchWaves -LaunchSiteUrl <object>
+   ```
 
-3. Удаление параметров запуска портала.
-  - `Remove-SPOPortalLaunchWaves - LaunchSiteUrl  https://*.sharepoint.com/sites/NewSite`.
-  - Проверка того, что перенаправление не выполняется для всех пользователей.
+3. Проверка того, что перенаправление не выполняется для всех пользователей.
 
 ## <a name="learn-more"></a>Подробнее
 [Планирование развертывания портала для запуска в SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out)

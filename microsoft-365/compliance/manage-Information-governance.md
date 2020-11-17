@@ -13,13 +13,13 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: Реализуйте возможности управления информацией (Майкрософт) в Microsoft 365 для управления своими данными с целью соответствия требованиям или выполнения нормативных обязательств.
-ms.openlocfilehash: c85fd74f0e3259c40f16bc2faa766b3313239134
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+description: Реализуйте возможности управления информацией (Майкрософт) для управления своими данными с целью соответствия требованиям или выполнения нормативных обязательств.
+ms.openlocfilehash: 6b06de54f18ce4081c3b13d108a5c0ceae6d24a7
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071470"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087118"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Управление информацией (Майкрософт) в Microsoft 365
 
