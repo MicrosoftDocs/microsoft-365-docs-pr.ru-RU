@@ -7,48 +7,49 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сведения о расстановке тегов для изображений в SharePoint Syntex
-ms.openlocfilehash: c6d7513db2fd6aadabe5d813f3b49073a8f8c933
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 3eaf72659cf14f05943159a6e7cd2d357a9f5e88
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413738"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087623"
 ---
-# <a name="image-tagging-in-sharepoint-syntex"></a><span data-ttu-id="37e05-103">Расстановка тегов для изображений в SharePoint Syntex</span><span class="sxs-lookup"><span data-stu-id="37e05-103">Image tagging in SharePoint Syntex</span></span>
+# <a name="image-tagging-in-sharepoint-syntex"></a><span data-ttu-id="910b9-103">Расстановка тегов для изображений в SharePoint Syntex</span><span class="sxs-lookup"><span data-stu-id="910b9-103">Image tagging in SharePoint Syntex</span></span>
 
-<span data-ttu-id="37e05-104">(ожидается в ближайшее время).</span><span class="sxs-lookup"><span data-stu-id="37e05-104">(Coming soon)</span></span>
+<span data-ttu-id="910b9-104">(ожидается в ближайшее время).</span><span class="sxs-lookup"><span data-stu-id="910b9-104">(Coming soon)</span></span>
 
-<span data-ttu-id="37e05-105">Расстановка тегов для изображений в SharePoint Syntex помогает пользователям находить нужные изображения и создавать процессы на базе тегов.</span><span class="sxs-lookup"><span data-stu-id="37e05-105">With image tagging in SharePoint Syntex, users can find images through search by searching on image tags, and create workflows based on image tags.</span></span> <span data-ttu-id="37e05-106">По умолчанию для SharePoint и OneDrive включена базовая расстановка тегов для изображений.</span><span class="sxs-lookup"><span data-stu-id="37e05-106">By default, basic image tagging is turned on for SharePoint and OneDrive.</span></span> <span data-ttu-id="37e05-107">Изображения, отправленные в какое-либо расположение, автоматически сканируются и к ним применяются применимые теги (при наличии) из списка 37 основных тегов.</span><span class="sxs-lookup"><span data-stu-id="37e05-107">Images uploaded to either location are automatically scanned and applicable tags are applied, if available, from a list of 37 basic tags.</span></span> <span data-ttu-id="37e05-108">Пользователи могут находить изображения с помощью поиска, выполняя поиск по тегам изображения.</span><span class="sxs-lookup"><span data-stu-id="37e05-108">Users can find images through search by searching on the image tags.</span></span>
+<span data-ttu-id="910b9-105">Расстановка тегов для изображений в SharePoint Syntex помогает пользователям находить нужные изображения и создавать процессы на базе тегов.</span><span class="sxs-lookup"><span data-stu-id="910b9-105">With image tagging in SharePoint Syntex, users can find images through search by searching on image tags, and create workflows based on image tags.</span></span> <span data-ttu-id="910b9-106">По умолчанию для SharePoint и OneDrive включена базовая расстановка тегов для изображений.</span><span class="sxs-lookup"><span data-stu-id="910b9-106">By default, basic image tagging is turned on for SharePoint and OneDrive.</span></span> <span data-ttu-id="910b9-107">Изображения, отправленные в какое-либо расположение, автоматически сканируются и к ним применяются применимые теги (при наличии) из списка 37 основных тегов.</span><span class="sxs-lookup"><span data-stu-id="910b9-107">Images uploaded to either location are automatically scanned and applicable tags are applied, if available, from a list of 37 basic tags.</span></span> <span data-ttu-id="910b9-108">Пользователи могут находить изображения с помощью поиска, выполняя поиск по тегам изображения.</span><span class="sxs-lookup"><span data-stu-id="910b9-108">Users can find images through search by searching on the image tags.</span></span>
 
-<span data-ttu-id="37e05-109">Процесс расстановки тегов запускается автоматически при отправке изображения.</span><span class="sxs-lookup"><span data-stu-id="37e05-109">When a user uploads an image, the  tagging process runs automatically.</span></span> <span data-ttu-id="37e05-110">Если изображение будет изменено, процесс расстановки тегов запустится снова, чтобы обновить теги.</span><span class="sxs-lookup"><span data-stu-id="37e05-110">If an image is edited, the tagging process runs again to update the tags.</span></span>
+<span data-ttu-id="910b9-109">Процесс расстановки тегов запускается автоматически при отправке изображения.</span><span class="sxs-lookup"><span data-stu-id="910b9-109">When a user uploads an image, the  tagging process runs automatically.</span></span> <span data-ttu-id="910b9-110">Если изображение будет изменено, процесс расстановки тегов запустится снова, чтобы обновить теги.</span><span class="sxs-lookup"><span data-stu-id="910b9-110">If an image is edited, the tagging process runs again to update the tags.</span></span>
 
-<span data-ttu-id="37e05-111">Пользователи с разрешениями на доступ к файлу изображения могут просматривать и редактировать теги на панели сведений о файле или на странице результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="37e05-111">Users with permissions to the image file can see and edit the tags in the file information panel or in the search results page.</span></span> <span data-ttu-id="37e05-112">Если пользователь изменит теги изображения, система больше не будет автоматически расставлять теги для этого изображения, даже если оно будет изменено.</span><span class="sxs-lookup"><span data-stu-id="37e05-112">Once a user edits an image's tags, the system no longer auto-tags that image, even if it's edited.</span></span>
+<span data-ttu-id="910b9-111">Пользователи с разрешениями на доступ к файлу изображения могут просматривать и редактировать теги на панели сведений о файле или на странице результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="910b9-111">Users with permissions to the image file can see and edit the tags in the file information panel or in the search results page.</span></span> <span data-ttu-id="910b9-112">Если пользователь изменит теги изображения, система больше не будет автоматически расставлять теги для этого изображения, даже если оно будет изменено.</span><span class="sxs-lookup"><span data-stu-id="910b9-112">Once a user edits an image's tags, the system no longer auto-tags that image, even if it's edited.</span></span>
 
-<span data-ttu-id="37e05-113">Если вы отключите расстановку тегов, изображения больше не будут автоматически ими помечаться.</span><span class="sxs-lookup"><span data-stu-id="37e05-113">If you turn tagging off, images will no longer be automatically tagged.</span></span> <span data-ttu-id="37e05-114">Существующие теги не будут удалены.</span><span class="sxs-lookup"><span data-stu-id="37e05-114">Existing tags won't be removed.</span></span>
+<span data-ttu-id="910b9-113">Если вы отключите расстановку тегов, изображения больше не будут автоматически ими помечаться.</span><span class="sxs-lookup"><span data-stu-id="910b9-113">If you turn tagging off, images will no longer be automatically tagged.</span></span> <span data-ttu-id="910b9-114">Существующие теги не будут удалены.</span><span class="sxs-lookup"><span data-stu-id="910b9-114">Existing tags won't be removed.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="37e05-115">Теги, созданные системой, могут измениться в связи с изменением изображения или нашей технологии тегов.</span><span class="sxs-lookup"><span data-stu-id="37e05-115">System generated tags may change with updates to the image or our tag technology.</span></span>
+> <span data-ttu-id="910b9-115">Теги, созданные системой, могут измениться в связи с изменением изображения или нашей технологии тегов.</span><span class="sxs-lookup"><span data-stu-id="910b9-115">System generated tags may change with updates to the image or our tag technology.</span></span>
 
 
-## <a name="configure-image-tagging"></a><span data-ttu-id="37e05-116">Настройка расстановки тегов для изображений</span><span class="sxs-lookup"><span data-stu-id="37e05-116">Configure image tagging</span></span>
+## <a name="configure-image-tagging"></a><span data-ttu-id="910b9-116">Настройка расстановки тегов для изображений</span><span class="sxs-lookup"><span data-stu-id="910b9-116">Configure image tagging</span></span>
 
-<span data-ttu-id="37e05-117">После [настройки SharePoint Syntex](set-up-content-understanding.md) вы можете настроить расстановку тегов для изображений в центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="37e05-117">After you [set up SharePoint Syntex](set-up-content-understanding.md), you can configure image tagging in the Microsoft 365 admin center.</span></span>  
+<span data-ttu-id="910b9-117">После [настройки SharePoint Syntex](set-up-content-understanding.md) вы можете настроить расстановку тегов для изображений в центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="910b9-117">After you [set up SharePoint Syntex](set-up-content-understanding.md), you can configure image tagging in the Microsoft 365 admin center.</span></span>  
 
-<span data-ttu-id="37e05-118">Включение и отключение расстановки тегов для изображений</span><span class="sxs-lookup"><span data-stu-id="37e05-118">To turn image tagging on or off</span></span>
+<span data-ttu-id="910b9-118">Включение и отключение расстановки тегов для изображений</span><span class="sxs-lookup"><span data-stu-id="910b9-118">To turn image tagging on or off</span></span>
 
-1. <span data-ttu-id="37e05-119">В Центре администрирования Microsoft 365 щелкните **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="37e05-119">In the Microsoft 365 admin center, click **Setup**.</span></span>
+1. <span data-ttu-id="910b9-119">В Центре администрирования Microsoft 365 щелкните **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="910b9-119">In the Microsoft 365 admin center, click **Setup**.</span></span>
 
-2. <span data-ttu-id="37e05-120">В разделе **Знания организации** выберите **Автоматическое осмысление контента**.</span><span class="sxs-lookup"><span data-stu-id="37e05-120">Under **Organizational knowledge**, click **Automate content understanding**.</span></span>
+2. <span data-ttu-id="910b9-120">В разделе **Знания организации** выберите **Автоматическое осмысление контента**.</span><span class="sxs-lookup"><span data-stu-id="910b9-120">Under **Organizational knowledge**, click **Automate content understanding**.</span></span>
 
-3. <span data-ttu-id="37e05-121">Нажмите кнопку **Управление**.</span><span class="sxs-lookup"><span data-stu-id="37e05-121">Click **Manage**.</span></span>
+3. <span data-ttu-id="910b9-121">Нажмите кнопку **Управление**.</span><span class="sxs-lookup"><span data-stu-id="910b9-121">Click **Manage**.</span></span>
 
-4. <span data-ttu-id="37e05-122">На вкладке **Расстановка тегов для изображений** нажмите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="37e05-122">On the **Image tagging** tab, click **Edit**.</span></span>
+4. <span data-ttu-id="910b9-122">На вкладке **Расстановка тегов для изображений** нажмите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="910b9-122">On the **Image tagging** tab, click **Edit**.</span></span>
 
-5. <span data-ttu-id="37e05-123">Выберите разрешить **Базовую расстановку тегов** или **Отключить** расстановку тегов.</span><span class="sxs-lookup"><span data-stu-id="37e05-123">Choose to allow **Basic tagging** or turn tagging **Off**.</span></span>
+5. <span data-ttu-id="910b9-123">Выберите разрешить **Базовую расстановку тегов** или **Отключить** расстановку тегов.</span><span class="sxs-lookup"><span data-stu-id="910b9-123">Choose to allow **Basic tagging** or turn tagging **Off**.</span></span>
 
-6. <span data-ttu-id="37e05-124">Щелкните **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="37e05-124">Click **Save**.</span></span>
+6. <span data-ttu-id="910b9-124">Щелкните **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="910b9-124">Click **Save**.</span></span>
 
     ![Снимок экрана элемента управления расстановкой тегов для изображений](../media/content-understanding/sharepoint-syntex-image-tagging-control.png)
