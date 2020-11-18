@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 47f4ceeebd50784b1880a028ebe2698012c406da
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 503b7a6a6b3ad6394293e9f70dbdd336f6bee9dd
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844828"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131313"
 ---
 # <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Настройка пробной лабораторной среды защитника Microsoft 365 
 
@@ -31,35 +31,15 @@ ms.locfileid: "48844828"
 
 
 **Область применения:**
-- Защитник Microsoft 365 
+- Microsoft 365 Defender 
 
 
 Создание пробной лаборатории или пилотной среды защитника Microsoft 365 и развертывание этого процесса состоит из трех этапов:
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Подготовка лаборатории оценки защитника Microsoft 365 или пилотной среды" />
-      <br/>Этап 1: подготовка </a><br>
-    </td>
-     <td align="center"bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab or pilot environment" title="Настройка пробной лаборатории или пилотной среды защитника Microsoft 365" />
-      <br/>Этап 2: Настройка </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
-        <img src="../../media/config-onboard.png" alt="
-Configure each Microsoft 365 Defender pillar for your Microsoft 365 Defender trial lab or pilot environment and onboard your endpoints" title="
-Настройте каждую из базовых принципов защитника Microsoft 365 для пробной лаборатории или пилотной среды защитника Microsoft 365, а также применяя свои конечные точки." />
-      <br/>Этап 3: Настройка встроенного & </a><br>
-</td>
+|[![Этап 1: подготовка](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)<br/>[Этап 1: подготовка](prepare-mtpeval.md) |![Этап 2: Настройка](../../media/phase-diagrams/setup.png)<br/>Этап 2: Настройка |[![Этап 3: встроенный](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[Этап 3: встроенный](config-mtpeval.md) | [![Вернуться к пилотному проекту](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[Возврат к пилотному стратегия](mtp-pilot.md) |
+|--|--|--|--|
+||*Вот что вам!*  | | |
 
-
-  </tr>
-</table>
 
 В настоящее время вы находитесь на этапе настройки. Выполните начальные действия, чтобы получить доступ к центру безопасности Microsoft 365, а затем настройте пробную лабораторию или пилотную среду.
 
@@ -163,7 +143,7 @@ Configure each Microsoft 365 Defender pillar for your Microsoft 365 Defender tri
 
    ![Image of_Microsoft 365, перейдите на страницу Загрузка бесплатной пробной версии, где следует запустить кнопку Try Now](../../media/mtp-eval-27.png)
  
-6. Перейдите в раздел **центр администрирования Microsoft 365**  >  **Users**  >  **Активные пользователи**. Выберите свою учетную запись пользователя, выберите **Управление лицензиями на продукты** , затем замените лицензию из Office 365 в ~ на **Microsoft 365**. Щелкните **Сохранить**.
+6. Перейдите в раздел **центр администрирования Microsoft 365**  >  **Users**  >  **Активные пользователи**. Выберите свою учетную запись пользователя, выберите **Управление лицензиями на продукты**, затем замените лицензию из Office 365 в ~ на **Microsoft 365**. Щелкните **Сохранить**.
 
    ![Image of_Microsoft 365. страница центра администрирования, на которой можно выбрать лицензию Майкрософт 365](../../media/mtp-eval-28.png)
  
@@ -177,6 +157,6 @@ Configure each Microsoft 365 Defender pillar for your Microsoft 365 Defender tri
 
 
 
-## <a name="next-step"></a>Следующий этап
-|![Этап 3: Настройка встроенного &](../../media/config-onboard.png) <br>[Этап 3: Настройка встроенного &](config-mtpeval.md) | Настройте каждую из базовых принципов защитника Microsoft 365 для пробной лаборатории или пилотной среды защитника Microsoft 365, а также присвоить конечные точки.
+## <a name="next-step"></a>Следующий шаг
+|[Этап 3: Настройка встроенного &](config-mtpeval.md) | Настройте каждую из базовых принципов защитника Microsoft 365 для пробной лаборатории или пилотной среды защитника Microsoft 365, а также присвоить конечные точки.
 |:-------|:-----|

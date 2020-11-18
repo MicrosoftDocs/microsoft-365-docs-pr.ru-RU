@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: e0801fb26b0bc7c4d37ab9455d9fcd2630f0fe51
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5aa1d5fe14f6213931e089c2f97fcf06c96397b3
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842848"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131157"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Новые возможности защитника Microsoft для Office 365
 
@@ -34,12 +34,16 @@ ms.locfileid: "48842848"
 
 **Область применения:**
 
-- [Защитник Майкрософт для Office 365](office-365-atp.md)
+- [Microsoft Defender для Office 365](office-365-atp.md)
 
 В этой статье перечислены новые возможности в последнем выпуске защитника Майкрософт для Office 365. Функции, которые в настоящее время находятся в предварительной версии, обозначены **(Предварительная версия)**.
 
 > [!TIP]
 > У вас еще нет защитника Microsoft для Office 365? [Свяжитесь с сбытом, чтобы начать пробную версию](https://go.microsoft.com/fwlink/p/?LinkId=518644).
+
+## <a name="november-2020"></a>Ноябрь 2020 г. 
+
+- Обновленные пределы экспорта в центре уведомлений > > исправлений от отправки почты и журнала действий (защитник для Office 365, план 2)
 
 ## <a name="septemberoctober-2020"></a>Сентябрь/Октябрь 2020 г. 
 
@@ -75,11 +79,11 @@ ms.locfileid: "48842848"
 
 - [Экспорт URL-адреса щелкните данные для анализа в автономном режиме](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (защитник Майкрософт для Office 365, план 1 или план 2)
 
-- [Использование представлений кампаний в защитнике Майкрософт для Office 365 ( **Предварительная версия** )](campaigns.md) (защитник Майкрософт для Office 365, план 2)
+- [Использование представлений кампаний в защитнике Майкрософт для Office 365 (**Предварительная версия**)](campaigns.md) (защитник Майкрософт для Office 365, план 2)
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
-- [Узнайте о новых взломанных функциях обнаружения и ответа пользователей](address-compromised-users-quickly.md) ( **Предварительная версия** ) (защитник Майкрософт для Office 365, план 2)
+- [Узнайте о новых взломанных функциях обнаружения и ответа пользователей](address-compromised-users-quickly.md) (**Предварительная версия**) (защитник Майкрософт для Office 365, план 2)
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
@@ -101,7 +105,7 @@ ms.locfileid: "48842848"
 
 - [Просмотрите данные о фишинговых URL-адресах и нажмите вредоносности](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (защитник Майкрософт для Office 365, план 1 или план 2)
 
-## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Защитник Майкрософт для Office 365, план 1 и план 2
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender для Office 365 (план 1 и план 2)
 
 Знаете ли вы, что защитник Майкрософт для Office 365 доступен в двух планах? [Узнайте больше о том, что включает каждый план](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
 

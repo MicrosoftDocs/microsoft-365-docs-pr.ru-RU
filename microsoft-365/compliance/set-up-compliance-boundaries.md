@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Узнайте, как использовать границы соответствия требованиям для создания логических границ, управляющих расположением пользовательских контента, которые диспетчер обнаружения электронных данных может выполнять поиск в Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c57689cc6e626b62ae976bac9f9771205431bc8a
-ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
+ms.openlocfilehash: afc01ea88e9a2de6550741dcaac105ef764a752f
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48370405"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131134"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Настройка границ соответствия для исследований обнаружения электронных данных
 
@@ -179,7 +179,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 2. В списке вариантов обнаружения электронных данных щелкните имя созданного вами случая.
 
-3. На всплывающей странице **Управление этим обращением** в разделе **Управление группами ролей**нажмите кнопку ![ Добавить значок ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **Добавить**.
+3. На всплывающей странице **Управление этим обращением** в разделе **Управление группами ролей** нажмите кнопку ![ Добавить значок ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **Добавить**.
 
     ![Добавление группы ролей в качестве участника дела eDiscovery](../media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
   
@@ -219,6 +219,8 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     |JPN  <br/> |Азиатско-Тихоокеанский регион  <br/> |
     |IND  <br/> |Азиатско-Тихоокеанский регион  <br/> |
     |Лам  <br/> |Россия  <br/> |
+    |Протокол  <br/> |Европа |
+    |бра  <br/> |Центры обработки данных для Северной Америки |
     |||
 
    Если вы не укажете параметр **Region** для фильтра разрешений поиска, будет выполнен поиск основной области SharePoint организации. Результаты поиска экспортируются в ближайший центр обработки данных.

@@ -20,59 +20,21 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 700bd7a3f4ba8d152cf66a27c0f66aa375872698
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fac3a79f1522e5e7777b2b54bce2b8bd695f8d7a
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842066"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131349"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Запуск имитации атак в защитнике Microsoft 365  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-**Область применения:**
-- Защитник Microsoft 365
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="Планирование пилотного проекта Microsoft 365 Defender" />
-      <br/>Планирование </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Подготовка пробной лаборатории или пилотной среды защитника Microsoft 365" />
-      <br/>Подготовка </a><br>
-    </td>
-    <td align="center"bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Запуск имитации атак в защитнике Microsoft 365" />
-      <br/>Имитация атаки </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Закрываете и обобщает свой пилотный проект защитника Microsoft 365" />
-      <br/>Закрытие и подведение итогов </a><br>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
-
-</td>    
-    <td valign="top" style="width:25%; border:0;">
-
-</td>
-  </tr>
-</table>
+|[![Планирование](../../media/phase-diagrams/1-planning.png)](mtp-pilot-plan.md)<br/>[Планирование](mtp-pilot-plan.md) |[![Подготовка](../../media/phase-diagrams/2-prepare.png)](prepare-mtpeval.md)<br/>[Предваритель](prepare-mtpeval.md) | ![Имитация атаки](../../media/phase-diagrams/3-simluate.png)<br/>Имитация атаки| [![Закрытие и итоги](../../media/phase-diagrams/4-summary.png)](mtp-pilot-close.md)<br/>[Закрытие и итоги](mtp-pilot-close.md)|
+|--|--|--|--|
+|| |*Вот что вам!* | |
 
 В настоящее время вы находитесь на этапе эмуляции атаки.
 
@@ -369,9 +331,9 @@ ran NetSessionEnum against [DC Name] with return code result 0
 
     1.  Просмотрите результаты и проверьте, можно ли определить открытое сообщение электронной почты.  Отображение сообщения в расширенном поиске может занять до 2 часов. Если среда электронной почты велика и существует много результатов, можно использовать **параметр Показать фильтры** , чтобы найти сообщение. 
 
-   В этом примере сообщение электронной почты было отправлено с помощью учетной записи Yahoo. Щелкните **+** значок рядом с **Yahoo.com** в разделе сендерфромдомаин, а затем нажмите кнопку **Применить** , чтобы добавить выбранный домен в запрос.  Используйте домен или учетную запись электронной почты, которая использовалась для отправки тестового сообщения, на этапе 1 запуска имитации для фильтрации результатов.  Выполните запрос еще раз, чтобы получить меньший набор результатов, чтобы убедиться, что вы видите сообщение от имитации.
+           В этом примере сообщение электронной почты было отправлено с помощью учетной записи Yahoo. Щелкните **+** значок рядом с **Yahoo.com** в разделе сендерфромдомаин, а затем нажмите кнопку **Применить** , чтобы добавить выбранный домен в запрос.  Используйте домен или учетную запись электронной почты, которая использовалась для отправки тестового сообщения, на этапе 1 запуска имитации для фильтрации результатов.  Выполните запрос еще раз, чтобы получить меньший набор результатов, чтобы убедиться, что вы видите сообщение от имитации.
    
-        ![Screenshot of the filters. Use filters to narrow down the search, and find what you’re looking for faster.](../../media/mtp/fig20.png) 
+        ![Снимок экрана с фильтрами. Используйте фильтры для сужения поиска и поиска тех, которые вы ищете быстрее.](../../media/mtp/fig20.png) 
 
         ```console
         EmailEvents 
@@ -394,7 +356,7 @@ ran NetSessionEnum against [DC Name] with return code result 0
 
 5.  Затем укажите сведения о вложении (например, имя файла, хэши) в наборе результатов. Для этого присоединитесь к таблице **емаилаттачментинфо** . Общие поля, используемые для присоединения, в данном случае — **нетворкмессажеид** и **реЦипиентобжектид**.
 
-Следующий запрос также включает дополнительную строку "| **Project – Rename емаилтиместамп = timestamp** ", который поможет определить, какая временная метка связана с электронной почтой, а также с отметками времени, связанными с действиями с файлами, которые вы добавите на следующем этапе.
+    Следующий запрос также включает дополнительную строку "| **Project – Rename емаилтиместамп = timestamp**", который поможет определить, какая временная метка связана с электронной почтой, а также с отметками времени, связанными с действиями с файлами, которые вы добавите на следующем этапе.
 
     ```console
     EmailEvents 
@@ -473,9 +435,9 @@ ran NetSessionEnum against [DC Name] with return code result 0
 
     ![Снимок экрана: страница правил обнаружения, на которой отображаются сведения о правиле и выполнении](../../media/mtp/fig27b.png) 
 
-На этой странице можно выбрать правило обнаружения, в котором будет открыта страница сведений. 
+    На этой странице можно выбрать правило обнаружения, в котором будет открыта страница сведений. 
 
-    ![Screenshot of the email attachments page where you can see the status of the rule execution, triggered alerts and actions, edit the detection, and so on](../../media/mtp/fig28.png) 
+    ![Снимок экрана со страницей вложения электронной почты, на которой можно просмотреть состояние выполнения правила, инициированные оповещения и действия, изменить обнаружение и т. д.](../../media/mtp/fig28.png) 
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>Дополнительные упражнения с дополнительными руководствами по поиску
 
@@ -491,7 +453,7 @@ ran NetSessionEnum against [DC Name] with return code result 0
 | Эпизод 3: сводка, сведение и визуализация данных|Теперь, когда мы можем отфильтровать данные, управлять ими и присоединяться к ним, настало время начать суммирование, количественное представление, сведение и визуализация. В этом эпизоде мы рассмотрим оператор суммирования и некоторые вычисления, которые вы можете выполнить, чтобы углубляться в дополнительные таблицы в расширенной схеме Поиск. Мы передаем наши наборы данных в диаграммы, которые могут помочь повысить эффективность анализа. | [MP4](https://aka.ms/MTP29JUL20_MP4) | [YouTube](https://youtu.be/UKnk9U1NH6Y) | [Эпизод 3: файл CSL в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
 | Эпизод 4: Давайте добавим! Применение KQL к отслеживанию инцидентов|Время для отслеживания действий злоумышленника! В этом эпизоде мы будем использовать наш усовершенствованный обзор KQL и расширенного поиска в защитнике Microsoft 365 для отслеживания атак. Узнайте о некоторых советах и приемах, используемых в поле для отслеживания действий взломщика, в том числе АБКС циберсекурити и способов применения их к реагированию на инциденты. | [MP4](https://aka.ms/MTP5AUG20_MP4) | [YouTube](https://youtu.be/2EUxOc_LNd8) | [Эпизод 4: файл CSL в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl) |
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 |![Этап закрытия и сводки](../../media/mtp/close.png) <br>[Этап закрытия и сводки](mtp-pilot-close.md) | Проанализируйте результаты пилотного проекта защитника Microsoft 365, представим им заинтересованных лиц и выполните следующий шаг.
 |:-----|:-----|
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: a255c74db030325ba22c2095fba732a93b8c269c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7149524de868a3670807556f5f423ba0ee4a772a
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844852"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131269"
 ---
 # <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Подготовка пробной лаборатории или пилотной среды защитника Microsoft 365
 
@@ -31,48 +31,20 @@ ms.locfileid: "48844852"
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
 Создание пробной лаборатории или пилотной среды защитника Microsoft 365 и развертывание этого процесса состоит из трех этапов:
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab environment" title="Подготовка пробной лаборатории или пилотной среды защитника Microsoft 365" />
-      <br/>Этап 1: подготовка </a><br>
-    </td>
-     <td align="center"  >
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab environment" title="Настройка пробной лаборатории или пилотной среды защитника Microsoft 365" />
-      <br/>Этап 2: Настройка </a><br>
-        </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval">
-        <img src="../../media/config-onboard.png" alt="Configure each Microsoft 365 Defender pillar" title="Настройте каждую из базовых и встроенных конечных точек защитника Microsoft 365." />
-      <br/>Этап 3: Настройка встроенного &</a><br>
-</td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
-
-</td>    
-  </tr>
-</table>
+|![Этап 1: подготовка](../../media/phase-diagrams/prepare.png)<br/>Этап 1: подготовка |[![Этап 2: Настройка](../../media/phase-diagrams/setup.png)](setup-mtpeval.md)<br/>[Этап 2: Настройка](setup-mtpeval.md) |[![Этап 3: встроенный](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[Этап 3: встроенный](config-mtpeval.md) | [![Вернуться к пилотному проекту](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[Возврат к пилотному стратегия](mtp-pilot.md) |
+|--|--|--|--|
+|*Вот что вам!* | || |
 
 В настоящее время вы находитесь на этапе подготовки.
 
 
 Подготовка — это ключ к любому успешному развертыванию. В этом разделе вы узнаете, что нужно учесть при подготовке пробной лаборатории или пилотной среды к развертыванию защитника Microsoft 365.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также другие параметры конфигурации для подготовки и использования защитника Microsoft 365. Ознакомьтесь с минимальными требованиями для [защитника microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [защитника Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), защитника Майкрософт для [Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [защитника Майкрософт для удостоверения](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), [Microsoft Cloud App Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Заинтересованные стороны и подпись
@@ -132,12 +104,12 @@ ms.locfileid: "48844852"
 
 | Компонент                               | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Ранг заказа конфигурации |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-|Защитник Майкрософт для Office 365|Защитник Майкрософт для Office 365 защищает организацию от вредоносных угроз, исносящихся к сообщениям электронной почты, ссылкам (URL-адресам) и средствам совместной работы. <br> [Подробнее.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1,1                   |
+|Microsoft Defender для Office 365|Microsoft Defender для Office 365 защищает вашу организацию от угроз, которые могут представлять электронные сообщения, ссылки (URL-адреса) и средства совместной работы. <br> [Подробнее.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1,1                   |
 |Microsoft Defender для удостоверений|Защитник Майкрософт для удостоверения использует сигналы Active Directory для определения, обнаружения и исследования сложных угроз, скомпрометированных удостоверений и действий по предварительной попытке, направленным в Организации. <br> [Подробнее](https://docs.microsoft.com/azure-advanced-threat-protection/).| 2 |
 |Microsoft Cloud App Security| Microsoft Cloud App Security — это брокер безопасности облачного доступа (КАСБ), работающий в нескольких облаках. Он обеспечивает широкие возможности просмотра и управления путешествием данных, а также интеллектуальную аналитику для выявления и борьбы киберугрозами среди всех облачных служб. <br> [Подробнее](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |4                   |
 |Microsoft Defender для конечной точки | Защитник Майкрософт для обнаружения конечных точек конечных точек и возможности реагирования обеспечивают расширенные возможности обнаружения атак в режиме реального времени и действия. Аналитики систем безопасности могут эффективно определять приоритеты предупреждений, получать полную картину всех возможных брешей в системе безопасности, а также предпринимать действия по реагированию для устранения угроз. <br> [Подробнее.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 |![Этап 2: Настройка](../../media/setup.png) <br>[Этап 2: Настройка](setup-mtpeval.md) | Настройка пробной лаборатории или пилотной среды защитника Microsoft 365
 |:-------|:-----|
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: ec2bfe52308231577e4f2749e1f4cdf24a36f604
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4420342f964564305bb113c45ee0e3107f8a822e
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846024"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130985"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>Планирование пилотного проекта Microsoft 365 Defender 
 
@@ -33,46 +33,11 @@ ms.locfileid: "48846024"
 
 
 **Область применения:**
-- Защитник Microsoft 365
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="Планирование пилотного проекта Microsoft 365 Defender" />
-      <br/>Планирование</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Подготовка пробной лаборатории или пилотной среды защитника Microsoft 365" />
-      <br/>Подготовка</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Запуск имитации атак в защитнике Microsoft 365" />
-     <br/>Имитация атаки</a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Закрываете и обобщает свой пилотный проект защитника Microsoft 365" />
-     <br/>Закрытие и итоги</a><br>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
+- Microsoft 365 Defender
 
-</td>    
-    <td valign="top" style="width:25%; border:0;">
-
-</td>
-  </tr>
-</table>
+|![Планирование](../../media/phase-diagrams/1-planning.png)<br/>Планирование|[![Подготовка](../../media/phase-diagrams/2-prepare.png)](prepare-mtpeval.md)<br/>[Предваритель](prepare-mtpeval.md) | [![Имитация атаки](../../media/phase-diagrams/3-simluate.png)](mtp-pilot-simulate.md)<br/>[Имитация атаки](mtp-pilot-simulate.md) | [![Закрытие и итоги](../../media/phase-diagrams/4-summary.png)](mtp-pilot-close.md)<br/>[Закрытие и итоги](mtp-pilot-close.md)|
+|--|--|--|--|
+|*Вот что вам!*| | | |
 
 В настоящее время вы находитесь на этапе планирования.
 
@@ -97,14 +62,14 @@ ms.locfileid: "48846024"
 
 ## <a name="use-cases"></a>Варианты использования
 
-Варианты использования представляют операторы того, как тестируемое средство предназначено для использования его назначенными пользователями. Их можно сформулировать как пользовательские описания функциональности с точки зрения определенного пользователя, например аналитика SOC. Пример:
+Варианты использования представляют операторы того, как тестируемое средство предназначено для использования его назначенными пользователями. Их можно сформулировать как пользовательские описания функциональности с точки зрения определенного пользователя, например аналитика SOC. Например:
 - Как аналитику SOC необходимо просмотреть, сопоставить, оценить и управлять оповещениями и событиями на устройствах, в сети и в почтовых ящиках. [Управление инцидентами]
 - Как аналитику SOC, мне необходимо средство и процесс, чтобы автоматически исследовать вредоносные события в сети и реагировать на них. [Автоматический ИК-порт]
 - Как аналитику SOC, я должен искать данные из моей среды, чтобы найти известные и потенциальные угрозы, а также подозрительные действия. [Расширенный поиск]
 
 Помните, что эти варианты использования следует создавать в параметрах определенной области. Если, например, область тестирования не включает оценку таких средств, как Microsoft Cloud App Security, то не следует создавать варианты использования, основанные на этом качестве источника данных.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 В списке вариантов использования можно приступить к созданию требований. Требования включают функции, необходимые для удовлетворения вариантов использования. Эти требования можно разделить на категории, такие как настройка и обслуживание, поддержка интеграции и зависящие от функций требования, такие как возможность находить и возможность создания настраиваемых оповещений.
 
@@ -120,7 +85,7 @@ ms.locfileid: "48846024"
 
 Один из способов объединения всех элементов плана можно создать систему показателей. Ниже приведен пример системы показателей.
 
-| Вариант использования | Requirements | Требования к конфигурации | План тестирования | Ожидаемый результат | Состояние тестирования | Оценка | Примечания |
+| Вариант использования | Требования | Требования к конфигурации | План тестирования | Ожидаемый результат | Состояние тестирования | Оценка | Примечания |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |Управление инцидентами|— Защитник Microsoft 365  </br></br>— Защитник Майкрософт для удостоверения </br></br>— Защитник Майкрософт для конечной точки </br></br>-Microsoft Cloud App Security (необязательно)|Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Исследование инцидента](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |С помощью расследований можно оценить область и влияние инцидента и управлять инцидентом.||||
 |аутоир|— Защитник Microsoft 365 </br></br>— Защитник Майкрософт для удостоверения </br></br>— Защитник Майкрософт для конечной точки |Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке <br>Включение Аутоир  |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Автоматическое исследование](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Оповещения и происшествия автоматически исправляются защитником Microsoft 365||||
@@ -128,6 +93,6 @@ ms.locfileid: "48846024"
 
 
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 |![Этап подготовки](../../media/mtp/prep.png) <br>[Этап подготовки](prepare-mtpeval.md) | Подготовка пилотной среды защитника Microsoft 365
 |:-------|:-----|
