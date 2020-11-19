@@ -1,5 +1,5 @@
 ---
-title: Защитник Microsoft 365
+title: Microsoft 365 Defender
 description: Защитник Microsoft 365 — это решение защиты от угроз, разработанное для защиты устройств, удостоверений, данных и приложений.
 keywords: Общие сведения о защите от угроз Майкрософт, безопасности кибератак, повышенной постоянной угрозе, корпоративной безопасности, устройствах, устройствах, удостоверениях, пользователях, данных, приложениях, инцидентах, автоматическом расследовании и исправлении, расширенное Поиск
 search.product: eADQiWindows 10XVcnh
@@ -19,22 +19,23 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: a8d25ba0b36ad6ba1651ffe19e3e2f6e241548c7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 573f30dc3d8a43a337a4333dbaf05baf916857fa
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843808"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357907"
 ---
-# <a name="microsoft-365-defender"></a>Защитник Microsoft 365
+# <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
-
+> Хотите работать с защитником Microsoft 365? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или [запустить пилотный проект в рабочей](https://aka.ms/m365d-pilotplaybook)среде.
+>
 
 Защитник Microsoft 365 является единым готовым пакетом защиты от ненарушений, который управляет обнаружением, предотвращением, исследованием и ответами на конечные точки, удостоверения, сообщения электронной почты и приложения для обеспечения интегрированной защиты от изощренных атак.
 
@@ -90,4 +91,4 @@ ms.locfileid: "48843808"
 ## <a name="get-started"></a>Начало работы
 Для включения службы в центре безопасности Microsoft 365 по адресу [Security.Microsoft.com](https://security.microsoft.com)должны быть выполнены требования к лицензированию защитника Microsoft 365. Для получения дополнительных сведений прочитайте:
 - [Требования к лицензированию](prerequisites.md#licensing-requirements)
-- [Включение защитника Microsoft 365](mtp-enable.md)
+- [Включение Microsoft 365 Defender](mtp-enable.md)

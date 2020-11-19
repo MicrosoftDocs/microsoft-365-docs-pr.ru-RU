@@ -14,12 +14,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Как вымышленная, но репрезентативная глобальная организация применяет Microsoft 365 для предприятий.
-ms.openlocfilehash: 980146a2a9c2a909d0b65c20e460841dce9fecee
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: eef22b372df36a4e5d14351df342268c195d04ce
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754672"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356995"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 для предприятий в корпорации Contoso
 
@@ -67,6 +67,12 @@ Contoso Corporation — это вымышленная, но представит
 
   В компании Contoso используется весь спектр Microsoft 365 для корпоративных функций обеспечения безопасности для управления удостоверениями и доступом, защиты от угроз, защиты информации и управления безопасностью.
 
+Ознакомьтесь со следующими дополнительными сценариями и конфигурациями:
+
+- [Отклики и инфраструктура КОВИД – 19 для гибридных сотрудников](../solutions/contoso-hybrid-workforce.md)
+
+  Узнайте, как компания Contoso обновила инфраструктуру удаленного доступа для КОВИД – 19 пандемик и новую инфраструктуру установки и обновлений для гибридных сотрудников.
+
 - [Команда для сверхсекретного проекта](../solutions/contoso-team-for-top-secret-project.md)
 
   Чтобы создать безопасную среду совместной работы для верхнего уровня проекта, в компании Contoso использовалась группа с изоляцией безопасности.
@@ -75,12 +81,12 @@ Contoso Corporation — это вымышленная, но представит
 
   Узнайте, как компания Contoso выполнила миграцию своих локальных пользователей в Microsoft Teams для единой единой системы обмена сообщениями, совместной работы и голосовой связи.
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 Сведения [о корпорации Contoso](contoso-overview.md) и рекомендации по проектированию, решаемые при развертывании Microsoft 365 для предприятий.
 
 
-## <a name="see-also"></a>Дополнительные ресурсы:
+## <a name="see-also"></a>См. также
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 

@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Дополнительные сведения о безопасности по умолчанию в Exchange Online Protection (EOP)
-ms.openlocfilehash: 9f676dcd89f0322792bd40e06879b9758082d94e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 23c0cad2b96b3a2002f235db7739b903cf862366
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131101"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357867"
 ---
 # <a name="secure-by-default-in-office-365"></a>Обеспечение безопасности по умолчанию в Office 365
 
@@ -47,7 +47,7 @@ ms.locfileid: "49131101"
 - Надежные отправители Outlook
 - Белый список IP-адресов (фильтрация подключений)
 
-Дополнительные сведения об этих переопределениях можно найти в подокне [Создание списков надежных отправителей](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365).
+Дополнительные сведения об этих переопределениях можно найти в подокне [Создание списков надежных отправителей](create-safe-sender-lists-in-office-365.md).
 
 Обеспечение безопасности по умолчанию не является параметром, который может быть включен или отключен, но способ фильтрации в поле позволяет оставить потенциально опасные или нежелательные сообщения из почтовых ящиков. Фишинг и фишинг с высокой достоверностью отправляются в карантин. Только администраторы могут управлять сообщениями, помещенными в карантин или фишингом с высокой достоверностью, а также сообщать корпорации Майкрософт о ложных срабатываниях. Дополнительные сведения см в разделе [Manage a карантинных сообщений и файлов в качестве администратора в EOP](manage-quarantined-messages-and-files.md)
 

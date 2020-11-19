@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e5ac3e9a02c333d3168c328aa6ad5532c48af99e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6149b6f128b3c96d2338e325caa8df835c292b13
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846692"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357615"
 ---
 # <a name="incidents-overview-in-microsoft-365-defender"></a>Общие сведения о происшествиях в защитнике Microsoft 365
 
@@ -34,8 +34,10 @@ ms.locfileid: "48846692"
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
+> Хотите работать с защитником Microsoft 365? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или [запустить пилотный проект в рабочей](https://aka.ms/m365d-pilotplaybook)среде.
+>
 
 
 Инциденты основываются на соответствующих предупреждениях. Оповещения создаются в том случае, если в вашей сети встречается вредоносное событие или действие. Отдельные оповещения предоставляют важную информацию о том, что происходит при атаках. Тем не менее, как правило, атаки используют различные векторы и методы для выполнения нарушений. ПиеЦинг индивидуальные подотчетные лица могут быть проблематичными и занимать много времени.

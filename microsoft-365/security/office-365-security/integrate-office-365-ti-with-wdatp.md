@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Используйте защитник Майкрософт для Office 365 вместе с защитником Майкрософт для конечной точки, чтобы получить более подробные сведения о угрозах для ваших устройств и содержимого электронной почты.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b8bec8d3ebe52de9b4e1b919b2aceee20b5b5b0
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7f668aa1234509789dacd2b018b94f1bfbc79e2c
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842360"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357783"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Использование защитника Microsoft для Office 365 вместе с защитником Майкрософт для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[Защитник Майкрософт для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) можно настроить для работы с [защитником Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection).
+[Защитник Майкрософт для Office 365](office-365-atp.md) можно настроить для работы с [защитником Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection).
 
 Интеграция защитника Microsoft для Office 365 с помощью защитника Майкрософт для конечной точки может помочь вашей группе управления операциями безопасности и быстро выполнить действия в случае риска на устройствах пользователей. Например, если интеграция включена, Группа операций безопасности сможет видеть устройства, на которые потенциально влияет обнаруженное сообщение электронной почты, а также количество последних оповещений, созданных для этих устройств в Microsoft Defender для конечной точки. 
 
@@ -43,7 +43,7 @@ ms.locfileid: "48842360"
 > [!TIP]
 > **[Узнайте больше о центре безопасности защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (также называемом защитником Майкрософт для портала конечных точек).
   
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 - У вашей организации должен быть защитник Майкрософт для Office 365 (или Office 365 в ~) и защитник Майкрософт для конечной точки.
     
@@ -73,6 +73,6 @@ ms.locfileid: "48842360"
 
 [Исследование угроз и возможности реагирования в Office 365](office-365-ti.md)
   
-[Защитник Майкрософт для Office 365](office-365-atp.md)
+[Microsoft Defender для Office 365](office-365-atp.md)
   
 [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection)

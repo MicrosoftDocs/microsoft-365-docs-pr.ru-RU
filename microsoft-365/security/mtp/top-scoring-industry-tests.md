@@ -14,21 +14,23 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: b88a06a61f1f7664f9c2e39ceba09df427f97454
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 824864ffd69a1f885c56a55957fc369fec4f640a
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844696"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357301"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Основные вычисления в отраслевых тестах
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Хотите работать с защитником Microsoft 365? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или [запустить пилотный проект в рабочей](https://aka.ms/m365d-pilotplaybook)среде.
+>
 
 Технологии [защитника Microsoft 365](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) согласованно обеспечивают высокие показатели в независимых тестах, демонстрирующие надежность корпоративной системы защиты от угроз. Корпорация Майкрософт должна быть прозрачной для этих оценок тестирования. Эта страница обобщает результаты и предоставляет анализ.
 
-## <a name="microsoft-365-defender"></a>Защитник Microsoft 365
+## <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
 [Защитник Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) — это единый пакет защиты от "до и после нарушения". В основном она координирует обнаружение, защиту, исследование и ответ между конечными точками, удостоверениями, электронной почтой и приложениями для обеспечения интегрированной защиты от изощренных атак.
 

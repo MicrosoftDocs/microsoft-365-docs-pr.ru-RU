@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 56b712c73d63bfcb06d5d35d627facb229668c59
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: fa22d445b0e4517bedd1c04378271e561ecb6703
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464148"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357507"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Рекомендации политики по обеспечению безопасности для чатов, групп и файлов в Teams
 
@@ -63,17 +63,17 @@ ms.locfileid: "48464148"
 В этой таблице перечислены политики, которые необходимо повторно посетить, и ссылки на каждую политику в общих политиках [идентификации и доступа к устройствам](identity-access-policies.md), где для всех приложений Office используется более широкий набор политик.
 
 |Уровень защиты|Политики|Дополнительные сведения о реализации Teams|
-|:---------------|:-------|:----------------|
+|---|---|---|
 |**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Убедитесь, что в список приложений включены Teams и зависимые службы. Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье.|
-|        |[Блокирование клиентов, не поддерживающих современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Teams и зависимых служб при назначении облачных приложений.|
-|        |[Необходимость смены пароля для пользователей с высоким риском](identity-access-policies.md#high-risk-users-must-change-password)|Заставляет пользователей Teams менять свой пароль при входе в учетную запись, если для их учетных записей обнаружено значительное опасное действие. Убедитесь, что в список приложений включены Teams и зависимые службы.|
-|        |[Применение политик защиты данных приложений](identity-access-policies.md#apply-app-data-protection-policies)|Убедитесь, что в список приложений включены Teams и зависимые службы. Обновите политику для каждой платформы (iOS, Android, Windows).|
-|        |[Определение политик соответствия требованиям устройств](identity-access-policies.md#define-device-compliance-policies)|Включение Teams и зависимых служб в эту политику.|
-|        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение Teams и зависимых служб в эту политику.|
+||[Блокирование клиентов, не поддерживающих современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Teams и зависимых служб при назначении облачных приложений.|
+||[Необходимость смены пароля для пользователей с высоким риском](identity-access-policies.md#high-risk-users-must-change-password)|Заставляет пользователей Teams менять свой пароль при входе в учетную запись, если для их учетных записей обнаружено значительное опасное действие. Убедитесь, что в список приложений включены Teams и зависимые службы.|
+||[Применение политик защиты данных приложений](identity-access-policies.md#apply-app-data-protection-policies)|Убедитесь, что в список приложений включены Teams и зависимые службы. Обновите политику для каждой платформы (iOS, Android, Windows).|
+||[Определение политик соответствия требованиям устройств](identity-access-policies.md#define-device-compliance-policies)|Включение Teams и зависимых служб в эту политику.|
+||[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение Teams и зависимых служб в эту политику.|
 |**Конфиденциально**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье. Включение Teams и зависимых служб в эту политику.|
-|         |[Требовать соответствующие компьютеры *и* мобильные устройства](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включение Teams и зависимых служб в эту политику.|
+||[Требовать соответствующие компьютеры *и* мобильные устройства](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включение Teams и зависимых служб в эту политику.|
 |**Строго контролируемый**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Независимо от удостоверения пользователя, MFA будет использоваться вашей организацией. Включение Teams и зависимых служб в эту политику. |
-| | |
+|
 
 ## <a name="teams-dependent-services-architecture"></a>Архитектура зависимых служб Teams
 
@@ -94,27 +94,27 @@ Microsoft Teams определяет следующие компоненты:
 Политики условного доступа применяются только к гостевой доступу в Teams, так как существует соответствующая учетная запись Azure AD B2B.
 
 <!--
-In Azure AD, guest and external users are the same. The user type for both of these is Guest. Guest users are B2B users. Microsoft Teams differentiates between guest users and external users in the app. While it's important to understand how each of these are treated in Teams, both types of users are B2B users in Azure AD and the recommended policies for B2B users apply to both. 
+In Azure AD, guest and external users are the same. The user type for both of these is Guest. Guest users are B2B users. Microsoft Teams differentiates between guest users and external users in the app. While it's important to understand how each of these are treated in Teams, both types of users are B2B users in Azure AD and the recommended policies for B2B users apply to both.
 
---> 
+-->
 
 Для рекомендуемых политик, позволяющих разрешить доступ для гостей и внешних пользователей с помощью учетной записи Azure AD B2B, можно посмотреть в разделе [политики разрешения доступа гостей и внешней учетной записи B2B](identity-access-policies-guest-access.md).
 
 ### <a name="guest-access-in-teams"></a>Гостевой доступ в Teams
 
-В дополнение к политикам для пользователей, которые являются внутренними для организации или организации, администраторы могут разрешить гостевому абоненту разрешить пользователям, которые являются внешними по отношению к Организации или организации, получать доступ к ресурсам Teams и взаимодействовать с внутренними пользователями для таких вещей, как беседы в группах, чат и собрания. 
+В дополнение к политикам для пользователей, которые являются внутренними для организации или организации, администраторы могут разрешить гостевому абоненту разрешить пользователям, которые являются внешними по отношению к Организации или организации, получать доступ к ресурсам Teams и взаимодействовать с внутренними пользователями для таких вещей, как беседы в группах, чат и собрания.
 
 Для получения дополнительных сведений о гостевом доступе и способах ее реализации ознакомьтесь с разделом  [гостевой доступ Teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 ### <a name="external-access-in-teams"></a>Внешний доступ в Teams
 
-Внешний доступ иногда путают с гостевым доступом, поэтому важно ясно убедиться в том, что эти два невнутренних механизма доступа сильно отличаются. 
+Внешний доступ иногда путают с гостевым доступом, поэтому важно ясно убедиться в том, что эти два невнутренних механизма доступа сильно отличаются.
 
 Внешний доступ — это способ, с помощью которого пользователи Teams могут находить, звонить, общаться и настраивать собрания с пользователями в Teams. Администраторы Teams настраивают внешний доступ на уровне Организации. Дополнительные сведения см в разделе [Manage External Access в Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-external-access).
 
 Пользователи внешнего доступа имеют меньший доступ и функциональные возможности, чем лица, добавленные через гостевой доступ. Например, пользователи внешнего доступа могут общаться с внутренними пользователями с помощью Teams, но не могут получить доступ к каналам команд, файлам или другим ресурсам.
 
-Внешний доступ не использует учетные записи пользователей Azure AD B2B и поэтому не использует политики условного доступа. 
+Внешний доступ не использует учетные записи пользователей Azure AD B2B и поэтому не использует политики условного доступа.
 
 ## <a name="teams-policies"></a>Политики Teams
 
@@ -142,7 +142,7 @@ Teams и channels — это два часто используемых элем
 
 Для получения дополнительных сведений о политиках разрешений для приложений ознакомьтесь с разделом [Управление политиками разрешений приложений в Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-permission-policies).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 ![Шаг 4: политики для облачных приложений Microsoft 365](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
@@ -150,4 +150,3 @@ Teams и channels — это два часто используемых элем
 
 - [Exchange Online](secure-email-recommended-policies.md)
 - [SharePoint](sharepoint-file-access-policies.md)
-

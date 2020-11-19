@@ -17,17 +17,19 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e434f6088fa1cd08e6b14e3808007e89f32b83a3
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: d52c401c4b2e995e5ec18895c158f77ce0fce746
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431043"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356887"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Мониторинг и просмотр отчетов в центре безопасности Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Хотите работать с защитником Microsoft 365? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или [запустить пилотный проект в рабочей](https://aka.ms/m365d-pilotplaybook)среде.
+>
 
 Центр безопасности Microsoft 365 предоставляет сводку по состояниям защиты и безопасности в среде Microsoft 365.
 

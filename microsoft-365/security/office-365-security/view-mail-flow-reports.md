@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать о отчетах о движении по почте, доступных в панели мониторинга отчетов в центре безопасности & соответствия требованиям.
 ms.custom: ''
-ms.openlocfilehash: 807166ea0c6ea8a26716bc7017387499382c9e7e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 840b9920fc3f994140702eae0bf5ddbdeac4b465
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131337"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357927"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Просмотр отчетов о движении почты в панели мониторинга отчетов в центре безопасности & соответствия требованиям
 
@@ -541,7 +541,7 @@ ms.locfileid: "49131337"
 
   -Управление организацией — администратор безопасности (это можно также сделать в [центре администрирования Azure Active Directory](https://aad.portal.azure.com) — средство чтения безопасности
 
-  Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
+  Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 - В Exchange Online необходимо быть участником одной из следующих групп ролей:
 

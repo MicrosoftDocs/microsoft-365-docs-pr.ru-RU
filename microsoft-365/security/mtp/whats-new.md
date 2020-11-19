@@ -1,5 +1,5 @@
 ---
-title: Новые возможности защитника Microsoft 365
+title: Новые возможности Microsoft 365 Defender
 description: Список новых функций и функций защитника Microsoft 365
 keywords: новые возможности Microsoft Threat Protection, GA, обычно доступные, возможности, доступные, новые
 search.product: eADQiWindows 10XVcnh
@@ -17,17 +17,19 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 5214f7c399ab511ec16231e4dda97a2c33b37668
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: ade93bf8c89077c117ada764478cc74f4a5f14cc
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844708"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357323"
 ---
-# <a name="whats-new-in-microsoft-365-defender"></a>Новые возможности защитника Microsoft 365
+# <a name="whats-new-in-microsoft-365-defender"></a>Новые возможности Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Хотите работать с защитником Microsoft 365? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или [запустить пилотный проект в рабочей](https://aka.ms/m365d-pilotplaybook)среде.
+>
 
 В последней версии защитника Microsoft 365 доступны следующие функции (GA).
 
@@ -35,6 +37,9 @@ RSS-канал: получите уведомление, когда эта ст�
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+> Хотите работать с защитником Microsoft 365? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или [запустить пилотный проект в рабочей](https://aka.ms/m365d-pilotplaybook) среде
+>
+
 ## <a name="september-2020"></a>Сентябрь 2020 г.
 - [Таблица Идентитидиректоревентс](advanced-hunting-identitydirectoryevents-table.md) <br> Поиск событий, связанных с локальным контроллером домена, на котором работает Active Directory (AD). Эта таблица [расширенной](advanced-hunting-overview.md) схемы подсистемы Поиск охватывает диапазон событий, связанных с удостоверениями, и системные события на контроллере домена.
 - [Функция Ассигнедипаддрессес ()](advanced-hunting-assignedipaddresses-function.md) <br> Используйте эту функцию в расширенных запросах на поиск, чтобы быстро получить последние IP-адреса, назначенные устройству или последним IP-адресам за определенное время.

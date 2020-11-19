@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 4420342f964564305bb113c45ee0e3107f8a822e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 649f3e777a330e1b60faf4f3513a470b51e56a80
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130985"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356983"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>Планирование пилотного проекта Microsoft 365 Defender 
 
@@ -88,8 +88,8 @@ ms.locfileid: "49130985"
 | Вариант использования | Требования | Требования к конфигурации | План тестирования | Ожидаемый результат | Состояние тестирования | Оценка | Примечания |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |Управление инцидентами|— Защитник Microsoft 365  </br></br>— Защитник Майкрософт для удостоверения </br></br>— Защитник Майкрософт для конечной точки </br></br>-Microsoft Cloud App Security (необязательно)|Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Исследование инцидента](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |С помощью расследований можно оценить область и влияние инцидента и управлять инцидентом.||||
-|аутоир|— Защитник Microsoft 365 </br></br>— Защитник Майкрософт для удостоверения </br></br>— Защитник Майкрософт для конечной точки |Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке <br>Включение Аутоир  |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Автоматическое исследование](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Оповещения и происшествия автоматически исправляются защитником Microsoft 365||||
-|Расширенная охота на угрозы|— Защитник Microsoft 365 </br></br>— Защитник Майкрософт для конечной точки </br></br>— Защитник Майкрософт для Office 365 |Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке|[Сценарий расширенного подпоиска](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Исследования могут находить данные с помощью расширенного поиска, сведение к затронутым сущностям и создание пользовательских обнаружений||||
+|аутоир|— Защитник Microsoft 365 </br></br>— Защитник Майкрософт для удостоверения </br></br>— Защитник Майкрософт для конечной точки |Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке <br>Включение Аутоир  |[Имитация атаки](mtp-pilot-simulate.md) <br></br>[Автоматическое исследование](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#automated-investigation-and-remediation) |Оповещения и происшествия автоматически исправляются защитником Microsoft 365||||
+|Расширенная охота на угрозы|— Защитник Microsoft 365 </br></br>— Защитник Майкрософт для конечной точки </br></br>— Защитник Майкрософт для Office 365 |Сведения о [предварительных требованиях](https://aka.ms/mtp-trial-lab) к подготовке, настройке и настройке|[Сценарий расширенного подпоиска](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#advanced-hunting-scenario) |Исследования могут находить данные с помощью расширенного поиска, сведение к затронутым сущностям и создание пользовательских обнаружений||||
 
 
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f7dcddd7070f95ae61b17b9623dfcbab4a62e5f
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: a6c0ceee2b07dd93affc75fae1111aad9d7f5198
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920636"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357879"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
 
@@ -172,7 +172,7 @@ ms.locfileid: "48920636"
 
 |Служба Microsoft 365|Сведения о роли|
 |---|---|
-|Роли администратора в планах Office 365 и Microsoft 365 для бизнеса|[Роли администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)|
+|Роли администратора в планах Office 365 и Microsoft 365 для бизнеса|[Роли администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Azure Active Directory (Azure AD) и защита идентификации Azure Active Directory|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Microsoft Defender для удостоверений|[Группы ролей Microsoft Defender для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
