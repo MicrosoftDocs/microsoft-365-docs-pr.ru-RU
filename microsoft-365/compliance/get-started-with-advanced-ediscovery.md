@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается, как приступить к работе с расширенным обнаружением электронных данных в Microsoft 365. После выполнения нескольких быстрых действий расширенное средство обнаружения электронных данных готово к использованию. Сначала необходимо создать обращение, а затем начать использовать расширенные функции обнаружения электронных данных и функции.
-ms.openlocfilehash: 13a4bfac34201e81ba13b76791e097891409dd0b
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: dd3ddb3e5ef3a46fc0b7b4925b639975167c15d2
+ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130844"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350727"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Начало работы с Advanced eDiscovery
 

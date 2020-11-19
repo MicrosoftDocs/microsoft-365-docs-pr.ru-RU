@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте о новых возможностях Office 365 Datacenter жеос и о том, как использовать параметр data размещению, чтобы запросить перемещение основных данных на новый Geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17b8d5c828a8c528aba180c260510345e77226d5
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 6c5e63a973ca6fdf6aaaaca884df306ff790c325
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333716"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349248"
 ---
 # <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>Перемещение основных данных в новые жеос центра обработки данных Майкрософт 365
 
@@ -48,6 +48,7 @@ ms.locfileid: "48333716"
 |**Швейцария, Лихтенштейн**| Европейский Союз | Швейцария | Декабрь 2019 г. |
 |**Германия**| Европейский Союз | Германия | Декабрь 2019 г. |
 |**Норвегия**| Европейский Союз | Норвегия | Апрель 2020 г. |
+|**Бразилия**| Северная и Южная Америка | Бразилия | Ноябрь 2020 г. |
 
 На 1 октября 2020 клиенты с подпиской на Office 365 для образовательных учреждений, включенной в клиент, не подходят для миграции.
 

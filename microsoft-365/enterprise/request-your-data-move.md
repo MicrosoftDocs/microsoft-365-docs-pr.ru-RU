@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Существующие пользователи Office 365 должны отправить запрос перед крайним сроком их страны для того, чтобы их данные службы Microsoft 365 были перемещены на новые географические учетные данные.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6ad699830389ef405b005bf8675a2bd0fb4f20b
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 216cd3b0cb55cbbe6be89945b98a01ae469ec4e2
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877259"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349236"
 ---
 # <a name="how-to-request-your-data-move"></a>Как запросить перемещение данных
 
@@ -45,6 +45,7 @@ ms.locfileid: "48877259"
 |Швейцария, Лихтенштейн  <br/> |10 декабря 2019 г.  <br/> |30 июня 2020 г.  <br/> |
 |Норвегия  <br/> |15 апреля 2020 г.  <br/> |31 октября 2020 г.  <br/> |
 |Германия  <br/> |1 ноября 2020 г.  <br/> |30 апреля 2021 г.  <br/> |
+|Бразилия  <br/> |18 ноября 2020 г.  <br/> |31 мая 2021 г.  <br/> |
 
 ## <a name="how-to-request-a-move"></a>Запрос на перемещение
 
