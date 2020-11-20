@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
 description: Узнайте, как управлять учетными записями пользователей, лицензиями и группами Microsoft 365 с помощью PowerShell.
-ms.openlocfilehash: ec60fcfe3c3d2c0e26cb2cca6a56741067d154c0
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: d3745b9365c67615efe32881408d1a717b8dbbed
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073129"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371540"
 ---
 # <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>Управление учетными записями пользователей Microsoft 365, лицензиями и группами с помощью PowerShell
 
@@ -53,5 +53,6 @@ ms.locfileid: "49073129"
 - [Удаление лицензий из учетных записей пользователей](remove-licenses-from-user-accounts-with-microsoft-365-powershell.md)
 
 ## <a name="groups"></a>Группы
-- [Управление участием в группах](maintain-group-membership-with-microsoft-365-powershell.md)
+- [Управление группами безопасности](manage-security-groups-with-microsoft-365-powershell.md)
+- [Ведение членства в группе безопасности](maintain-group-membership-with-microsoft-365-powershell.md)
 - [Управление группами Microsoft 365](manage-microsoft-365-groups-with-powershell.md)

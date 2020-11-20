@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Пример развертывания решений Microsoft 365 в вымышленной, но показательной глобальной организации
-ms.openlocfilehash: 8ee25baa9c412e51de7d70e35662d03d1c148369
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 8ba1661a2a4257409b7622b6d78dca4bcd103929
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521641"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357699"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Решения Microsoft 365 для корпорации Contoso
 
@@ -31,6 +31,8 @@ ms.locfileid: "46521641"
 Сначала познакомьтесь с [корпорацией Contoso](../enterprise/contoso-overview.md), с ее расположенными по всему миру офисами и особенности среды, учтенные при развертывании Microsoft 365 корпоративный.
 
 Затем узнайте, как Contoso использует Microsoft 365 для этих решений и сценариев:
+
+- [Отклик на COVID – 19 и поддержка гибридных рабочих ресурсов](contoso-hybrid-workforce.md)
 
 - [Изолированная команда для сверхсекретного проекта](contoso-team-for-top-secret-project.md)
 
