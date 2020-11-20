@@ -17,27 +17,30 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5627358db1b762db772b8f4ee61569968dc73a73
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 3e9a8b34f8f112cadc0377dd73ba846c88b8604c
+ms.sourcegitcommit: aa8d2de6ffac0157fffd14d0ea7f51ef0c287607
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367123"
+ms.locfileid: "49374011"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Что поступает в оценку безопасности Майкрософт
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Мы внесены некоторые изменения в ближайшем будущем, чтобы сделать [Microsoft Secure рейтинг](microsoft-secure-score.md) более эффективным для обеспечения безопасности и повышения удобства использования. Ваш рейтинг и максимально возможный рейтинг могут измениться.
+Оценку безопасности Майкрософт можно найти https://security.microsoft.com/securescore в [центре безопасности Майкрософт 365](overview-security-center.md).
 
 ## <a name="proposed-changes"></a>Предлагаемые изменения
 
+Мы внесены некоторые изменения в ближайшем будущем, чтобы сделать [Microsoft Secure рейтинг](microsoft-secure-score.md) более эффективным для обеспечения безопасности и повышения удобства использования. Ваш рейтинг и максимально возможный рейтинг могут измениться.
+
 ### <a name="november-2020"></a>Ноябрь 2020 г.
 
-Чтобы **предоставить общий доступ к > ServiceNow**, удалите возможность создавать билеты с помощью безопасной оценки.
+#### <a name="removing-the-ability-to-create-servicenow-tickets-through-secure-score"></a>Удаление возможности создавать билеты ServiceNow с помощью безопасной оценки 
 
-- Период предварительной версии для соединителя ServiceNow завершается. Эта возможность больше не будет доступна в конце 2020. Благодарим вас за отзыв и продолжение поддержки, пока мы определим дальнейшие действия.
+Возможность создавать билеты с помощью безопасной оценки с помощью **предоставления общего доступа к > ServiceNow** будет удалена.
 
+Период предварительной версии для соединителя ServiceNow завершается. Эта возможность больше не будет доступна в конце 2020. Благодарим вас за отзыв и продолжение поддержки, пока мы определим дальнейшие действия.
 
 ## <a name="related-resources"></a>Связанные ресурсы
 
