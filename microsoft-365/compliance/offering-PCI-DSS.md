@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cb4d1a4c4632763506fd2d3b05431acb9233f744
-ms.sourcegitcommit: d333d82fd5e4f3265e8b9372094e85875bee6fe5
+ms.openlocfilehash: 57164e08128080f90cb3985b3a3f887521f4c3d5
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071974"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126614"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Стандарт безопасности данных в сфере платежных карт (PCI-DSS)
 
@@ -92,7 +92,7 @@ PCI DSS применяется ко всем компаниям, независ�
 
 **Какое содержимое OneDrive для бизнеса и SharePoint Online затрагивает стандарт?**
 
-В настоящее время соответствовать PCI DSS будут только файлы и документы, загруженные в OneDrive для бизнеса и SharePoint Online.
+В настоящее время соответствовать PCI DSS будут только файлы и документы, отправленные в OneDrive для бизнеса и SharePoint Online.
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Оценка риска с помощью диспетчера соответствия требованиям (Майкрософт)
 
