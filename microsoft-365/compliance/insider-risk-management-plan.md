@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b2aa72dea55d4c75f6e73161e07cf0a9bb5ecf1c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e8bf55cf3c27170c471dd45a68fd1ec2fa4a615b
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846277"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357448"
 ---
 # <a name="plan-for-insider-risk-management"></a>Планирование управления внутренними рисками
 
@@ -57,7 +57,7 @@ ms.locfileid: "48846277"
 
 В зависимости от того, как вы планируете внедрить политики управления рисками для оценки, вам необходимо иметь соответствующие подписки на лицензирование Microsoft 365, а также изучить и спланировать некоторые компоненты решения.
 
-**Лицензирование:** Управление рисками для предварительной оценки доступно в рамках широкого выбора подписок на лицензирование Microsoft 365. Дополнительные сведения можно найти в статье [Начало работы со статьей по управлению рисками для участников](insider-risk-management-configure.md#before-you-begin) .
+**Лицензирование:** Управление рисками для предварительной оценки доступно в рамках широкого выбора подписок на лицензирование Microsoft 365. Дополнительные сведения можно найти в статье [Начало работы со статьей по управлению рисками для участников](insider-risk-management-configure.md#subscriptions-and-licensing) .
 
 Если у вас нет существующего плана Microsoft 365 корпоративный, и вы хотите испытать ознакомительную версию управления рисками, вы можете [Добавить Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) в существующую подписку или [зарегистрироваться для получения ознакомительной](https://www.microsoft.com/microsoft-365/enterprise) версии Microsoft 365 Enterprise.
 

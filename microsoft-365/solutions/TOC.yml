@@ -171,6 +171,8 @@
       items:
         - name: Решения Microsoft 365 для корпорации Contoso
           href: contoso-case-study-solutions.md
+        - name: Отклик на COVID – 19 и поддержка гибридных рабочих ресурсов
+          href: contoso-hybrid-workforce.md
         - name: Изолированная команда для сверхсекретного проекта
           href: contoso-team-for-top-secret-project.md
         - name: Миграция голосовых служб Teams
