@@ -860,7 +860,7 @@
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Управление политиками аудита и оповещений
   items:
-    - name: Единый аудит
+    - name: Базовый аудит
       items:
         - name: Поиск в журнале аудита
           href: search-the-audit-log-in-security-and-compliance.md
