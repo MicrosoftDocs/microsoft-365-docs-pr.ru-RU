@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Включите все функции в Microsoft 365, чтобы повысить производительность удаленных сотрудников и обеспечить безопасный доступ к вашим серверам, данным и облаку.
-ms.openlocfilehash: b886341adc49ba728856dc39786e926ebfadd3ef
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 6cf956d7d7e895dc328c8551f98e78d0fc42d86c
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906743"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357041"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
 
@@ -113,3 +113,5 @@ Microsoft 365 обеспечивает возможности удаленной
 [![Действия для повышения эффективности работы удаленных сотрудников с помощью Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
 Последние сведения от корпорации Майкрософт о поддержке удаленных сотрудников, см. в статье [Смешанный режим работы с использованием сайта Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
+
+Сведения о том, как вымышленная показательная транснациональная компания повысила эффективность работы удаленных сотрудников, см. в статье [Реакция Contoso на COVD-19 и инфраструктура для сотрудников со смешанным режимом работы](contoso-hybrid-workforce.md).
