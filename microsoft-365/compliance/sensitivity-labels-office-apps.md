@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных, мобильных и веб-приложений, а также о том, какие приложения поддерживают метки конфиденциальности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: de005e40cf346c8dd6e02e0394272a97b186920f
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 415f9345c3634adf62c42b9e13192be5ad7ea795
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131112"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371697"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Использование меток конфиденциальности в приложениях Office
 
@@ -258,6 +258,41 @@ ms.locfileid: "49131112"
 
 > [!NOTE]
 > В синтаксисе этих переменных учитывается регистр.
+
+#### <a name="setting-different-visual-markings-for-word-excel-powerpoint-and-outlook"></a>Настройка различных визуальных меток для Word, Excel, PowerPoint и Outlook
+
+В качестве дополнительной переменной можно настроить визуальные метки для каждого типа приложения Office с помощью оператора переменной "If. App" в текстовой строке и определить тип приложения с помощью значений **Word**, **Excel**, **PowerPoint** или **Outlook**. Кроме того, можно сократить эти значения, которые необходимы, если вы хотите указать более одного оператора в одном операторе if. app.
+
+> [!NOTE]
+> Для полноты, инструкции для Outlook включены, несмотря на то, что в настоящее время поддерживается только клиент единой метки Azure Information Protection.
+
+Используйте указанный ниже синтаксис.
+
+```
+${If.App.<application type>}<your visual markings text> ${If.End}
+```
+
+Как и в случае с другими динамическими визуальными метками, синтаксис задается с учетом регистра.
+
+Примеры:
+
+- **Задать текст заголовка только для документов Word:**
+
+    `${If.App.Word}This Word document is sensitive ${If.End}`
+
+    В заголовках документов Word подпись применяет текст заголовка "Этот документ Word является конфиденциальным". Текст заголовка не применяется к другим приложениям Office.
+
+- **Настройка текста нижнего колонтитула для Word, Excel и Outlook, а другой текст нижнего колонтитула для PowerPoint:**
+
+    `${If.App.WXO}This content is confidential. ${If.End}${If.App.PowerPoint}This presentation is confidential. ${If.End}`
+
+    В Word, Excel и Outlook метка применяет текст нижнего колонтитула "это содержимое конфиденциально". В PowerPoint метка применяет текст нижнего колонтитула "Эта презентация конфиденциальна".
+
+- **Задать определенный текст водяного знака для Word и PowerPoint, а затем текст подложки для Word, Excel и PowerPoint:**
+
+    `${If.App.WP}This content is ${If.End}Confidential`
+
+    В Word и PowerPoint метка применяет текст водяного знака "это содержимое конфиденциально". В Excel эта метка применяет текст подложки "конфиденциально". В Outlook метка не применяет текст водяного знака, так как подложки не поддерживаются для Outlook.
 
 ## <a name="end-user-documentation"></a>Документация для конечных пользователей
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 84628cdf1e56bfcdf72bc5aca7aed61eba6a7782
-ms.sourcegitcommit: 2beefb695cead03cc21d6066f589572d3ae029aa
+ms.openlocfilehash: 0feb98c6a0040ad67b4607062abdf0be5b5fbdb8
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349695"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376332"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
 
@@ -62,7 +62,7 @@ ms.locfileid: "49349695"
 
 Если вы защищаете документы в SharePoint с помощью службы управления правами на доступ к данным (IRM), обязательно ознакомьтесь со разделом " [Управление правами на доступ к данным (IRM)" и "метки конфиденциальности](#sharepoint-information-rights-management-irm-and-sensitivity-labels) " на этой странице. 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 Эти новые возможности работают только с [метками конфиденциальности](sensitivity-labels.md) . Если у вас есть метки Azure Information Protection, сначала необходимо перенести их в метки конфиденциальности, чтобы можно было включить эти функции для новых файлов, которые вы отправляете. Инструкции по [переносу меток Azure Information Protection в единые метки чувствительности](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
@@ -218,6 +218,26 @@ ms.locfileid: "49349695"
     ``` 
 
 Дополнительные сведения об использовании управляемых свойств можно найти [в статье Управление схемой поиска в SharePoint](https://docs.microsoft.com/sharepoint/manage-search-schema).
+
+## <a name="remove-encryption-for-a-labeled-document"></a>Удаление шифрования для подписанного документа
+
+В некоторых случаях администратору SharePoint необходимо удалить шифрование из документа, хранящегося в SharePoint. Любой пользователь, имеющий [право на использование управления правами](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Export или полный доступ к ним для этого документа, может удалить шифрование, которое было применено службой управления правами Azure из Azure Information Protection. Например, пользователи с любой из этих прав могут заменить метку, которая применяет шифрование к метке без шифрования. Кроме того, [супер пользователь](https://docs.microsoft.com/azure/information-protection/configure-super-users) может скачать файл и сохранить локальную копию без шифрования.
+
+В качестве альтернативы глобальный администратор или [администратор SharePoint](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) может выполнить командлет [Unlock – спосенситивитилабеленкриптедфиле](https://docs.microsoft.com/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) , который удаляет как метку конфиденциальности, так и шифрование. Этот командлет выполняется, даже если у администратора нет разрешений на доступ к сайту или файлу, или если служба управления правами Azure недоступна. 
+
+Например:
+
+```powershell
+Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"
+```
+
+Требования:
+
+- Оболочка управления SharePoint Online версии 16.0.20616.12000 или более поздней.
+
+- Шифрование было применено с помощью метки конфиденциальности с параметрами шифрования, заданными администратором (параметр [назначить разрешения сейчас](encryption-sensitivity-labels.md#assign-permissions-now) ). [Шифрование с двойным ключом](encryption-sensitivity-labels.md#double-key-encryption) для этого командлета не поддерживается.
+
+Текст обоснования добавляется в [событие аудита](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) **с удалением метки конфиденциальности из файла**, а действие расшифровки также записывается в [Журнал использования защиты для Azure Information Protection](https://docs.microsoft.com/azure/information-protection/log-analyze-usage).
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>Как отключить метки конфиденциальности для SharePoint и OneDrive (отказаться)
 
