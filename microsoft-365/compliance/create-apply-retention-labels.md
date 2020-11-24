@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Инструкции по созданию и публикации меток хранения, которые можно применять в приложениях для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: e13da466e10a347270d4b1097d36476d974557a7
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: ea67d5942f5134e4e34c3add9bdfc48771201e2d
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920343"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385191"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Создание меток хранения и их применение в приложениях
 
@@ -73,7 +73,7 @@ ms.locfileid: "48920343"
     
     - Чтобы использовать метку хранения для объявления элементов записями, нажмите кнопку **Пометить элементы как записи** или **Пометить элементы как нормативные записи**. Дополнительные сведения см. в статье [Настройка меток хранения для объявления элементов записями](declare-records.md#configuring-retention-labels-to-declare-records)
 
-3. После того как появятся параметры для публикации метки, автоматического применения метки или просто сохранения метки, выберите **Сохранить метку** , и затем нажмите **Готово**.
+3. После того как появятся параметры для публикации метки, автоматического применения метки или просто сохранения метки, выберите **Сохранить метку**, и затем нажмите **Готово**.
 
 4. Повторите эти действия для создания дополнительных меток.
 
@@ -97,7 +97,7 @@ ms.locfileid: "48920343"
     
     Сведения о расположениях, поддерживаемых метками хранения, см. в разделе [Метки хранения и расположения](retention.md#retention-label-policies-and-locations). 
 
-Чтобы изменить существующую политику меток хранения (тип политики **Опубликовать** ), выберите ее и нажмите кнопку **Изменить** , чтобы запустить изменение политики хранения. С помощью этого мастера можно изменить описание политики и любые [допустимые параметры](#updating-retention-labels-and-their-policies) из шага 2.
+Чтобы изменить существующую политику меток хранения (тип политики **Опубликовать**), выберите ее и нажмите кнопку **Изменить**, чтобы запустить изменение политики хранения. С помощью этого мастера можно изменить описание политики и любые [допустимые параметры](#updating-retention-labels-and-their-policies) из шага 2.
 
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>Доступность меток хранения для применения
@@ -111,7 +111,7 @@ ms.locfileid: "48920343"
 ![Схема, иллюстрирующая, когда вручную применяемые метки вступают в силу](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 
-Если после семи дней метки не появляются, проверьте **Состояние** политики меток, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)** , а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
+Если после семи дней метки не появляются, проверьте **Состояние** политики меток, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)**, а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
 
 1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
@@ -271,7 +271,7 @@ Although the UI refers to retention policies, it's your retention labels that di
 When you edit a retention label or retention label policy, and the retention label or policy is already applied to content, your updated settings will automatically be applied to this content in addition to content that's newly identified.
 
 Some settings can't be changed after the label or policy is created and saved, which include:
-- The retention settings except the retention period, unless you've configured the label to retain or delete the content based on when it was created.
+- The retention label and policy name, and the retention settings except the retention period. However, you can't change the retention period when the retention period is based on when items were labeled.
 - The option to mark items as a record.
 
 ## Locking the policy to prevent changes
