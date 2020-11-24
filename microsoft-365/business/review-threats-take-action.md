@@ -1,5 +1,5 @@
 ---
-title: Проверка обнаруженных угроз и выполнение действий
+title: Просмотр обнаруженных угроз и выполнение необходимых действий
 f1.keywords: NOCSH
 ms.author: sharik
 author: SKjerland
@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Сведения о том, как просматривать и управлять угрозами, обнаруженными антивирусной программой "защитником Майкрософт" на устройствах с Windows 10.
-ms.openlocfilehash: 21830b91bfbb88fdd5d5139ee07c4dfb35f5b875
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: ffdf5cffb50d6145d6059233e0850839f4dfb582
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376706"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385244"
 ---
-# <a name="review-detected-threats-and-take-action"></a>Проверка обнаруженных угроз и выполнение действий
+# <a name="review-detected-threats-and-take-action"></a>Просмотр обнаруженных угроз и выполнение необходимых действий
 
 Как только будет обнаружен вредоносный файл или программное обеспечение, антивирусная программа "защитник Майкрософт" блокирует его и не запускает ее. Кроме того, с включенной облачной защитной защитой новые обнаруженные угрозы добавляются в антивирусную программу и модуль защиты от вредоносных программ, что также защищает другие устройства и пользователи.
 
@@ -58,7 +58,7 @@ ms.locfileid: "49376706"
 
 ## <a name="manage-threat-detections-on-the-active-threats-page"></a>Управление обнаружением угроз на странице **активных угроз**
 
-Следующая процедура применима к клиентам, у которых есть Microsoft 365 Business. [Устройства с Windows 10 должны быть защищены](/microsoft-365/business/secure-win-10-pcs) и [зарегистрированы в Intune](/mem/intune/enrollment/windows-enrollment-methods).
+Следующая процедура применима к клиентам с Microsoft 365 Business Premium. [Устройства с Windows 10 должны быть защищены](/microsoft-365/business/secure-win-10-pcs) и [зарегистрированы в Intune](/mem/intune/enrollment/windows-enrollment-methods).
 
 > [!NOTE]
 > Страница **антивирусной программы "защитник Майкрософт"** и **активных угроз** выводятся поэтапно, поэтому доступ к ним может быть недоступен.
