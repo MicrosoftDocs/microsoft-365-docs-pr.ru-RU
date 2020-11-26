@@ -141,7 +141,9 @@
                       href: mtp/advanced-hunting-shared-queries.md
                     - name: 'Охота на различных устройствах, в письмах, приложениях и удостоверениях'
                       href: mtp/advanced-hunting-query-emails-devices.md
-                    - name: Переход с Defender for Endpoint
+                    - name: Охота на программу-шантажиста
+                      href: mtp/advanced-hunting-find-ransomware.md
+                    - name: Переход с Defender для конечной точки
                       href: mtp/advanced-hunting-migrate-from-mdatp.md
                 - name: Работа с результатами запросов
                   href: mtp/advanced-hunting-query-results.md

@@ -477,8 +477,6 @@
           items:
             - name: Настройка фильтрации разрешений для поиска контента
               href: permissions-filtering-for-content-search.md
-            - name: Увеличение скорости скачивания при экспорте результатов поиска
-              href: increase-download-speeds-when-exporting-ediscovery-results.md
             - name: Изменение размера PST-файлов при экспорте результатов поиска
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: Отключение отчетов при экспорте результатов поиска
