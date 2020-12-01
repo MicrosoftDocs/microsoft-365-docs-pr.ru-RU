@@ -119,12 +119,12 @@
               href: microsoft-365-client-support-certificate-based-authentication.md
             - name: Условный доступ
               href: microsoft-365-client-support-conditional-access.md
-            - name: Выбор между Basic Mobility + Security и Intune
-              href: 'https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune'
             - name: Современная проверка подлинности
               href: microsoft-365-client-support-modern-authentication.md
             - name: Единый вход
               href: microsoft-365-client-support-single-sign-on.md
+            - name: Выбор между Basic Mobility + Security и Intune
+              href: 'https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune'
         - name: Гибридная современная проверка подлинности
           items:
             - name: Обязательные требования к Skype для бизнеса Server и Exchange Server
@@ -187,84 +187,6 @@
               href: microsoft-365-isolation-in-microsoft-365-video.md
             - name: Изоляция клиента в Office Graph и Delve
               href: microsoft-365-isolation-in-graph-and-delve.md
-        - name: Контроль качества обслуживания
-          items:
-            - name: Контроль качества обслуживания в Центре безопасности и соответствия требованиям
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/service-assurance'
-            - name: Административные элементы управления доступом
-              href: microsoft-365-administrative-access-controls-overview.md
-              items:
-                - name: Элементы управления доступом к мониторингу и аудиту
-                  href: microsoft-365-monitoring-and-auditing-access-controls.md
-                - name: Элементы управления изоляцией
-                  href: microsoft-365-isolation-controls.md
-                - name: Элементы управления персоналом
-                  href: microsoft-365-personnel-controls.md
-                - name: Технологические элементы управления
-                  href: microsoft-365-technology-controls.md
-                - name: Элементы управления доступом к Yammer корпоративный
-                  href: microsoft-365-yammer-enterprise-access-controls.md
-            - name: Аудит и отчетность
-              href: microsoft-365-auditing-and-reporting-overview.md
-              items:
-                - name: Функции создания отчетов
-                  href: microsoft-365-reporting-features.md
-                - name: Функции обнаружения электронных данных и поиска
-                  href: microsoft-365-ediscovery-and-search-features.md
-                - name: Внутренняя регистрация для инженеров Microsoft 365
-                  href: microsoft-365-internal-logging.md
-                - name: Перенос почтовых ящиков
-                  href: microsoft-365-mailbox-migrations.md
-                - name: API действий управления
-                  href: microsoft-365-management-activity-api.md
-            - name: Устойчивость данных
-              href: microsoft-365-data-resiliency-overview.md
-              items:
-                - name: Меры в отношении повреждения данных
-                  href: microsoft-365-dealing-with-data-corruption.md
-                - name: Устойчивость данных Exchange Online
-                  href: microsoft-365-exchange-data-resiliency.md
-                - name: Защита от вредоносных программ и программ-шантажистов
-                  href: microsoft-365-malware-and-ransomware-protection.md
-                - name: Мониторинг и самовосстановление
-                  href: microsoft-365-monitoring-and-self-healing.md
-            - name: 'Хранение, удаление и уничтожение данных'
-              href: microsoft-365-data-retention-deletion-and-destruction-overview.md
-              items:
-                - name: Уничтожение данных
-                  href: microsoft-365-data-destruction.md
-                - name: Неизменность данных
-                  href: microsoft-365-data-immutability.md
-                - name: Удаление данных в Exchange Online
-                  href: microsoft-365-exchange-online-data-deletion.md
-                - name: Удаление данных в SharePoint Online
-                  href: microsoft-365-sharepoint-online-data-deletion.md
-                - name: Удаление данных в Skype для бизнеса
-                  href: microsoft-365-skype-data-deletion.md
-            - name: Защита от атак типа "отказ в обслуживании"
-              href: microsoft-365-defending-cloud-services-against-dos-attacks.md
-              items:
-                - name: Стратегия защиты от атак типа "отказ в обслуживании" корпорации Майкрософт
-                  href: microsoft-365-microsoft-dos-defense-strategy.md
-                - name: Основные принципы защиты от атак типа "отказ в обслуживании"
-                  href: microsoft-365-core-principles-of-defense-against-dos-attacks.md
-            - name: Шифрование в Microsoft Cloud
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview'
-              items:
-                - name: Служба шифрования Microsoft 365
-                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-service-encryption'
-                - name: Шифрование данных при передаче
-                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-for-data-in-transit'
-                - name: Возможности шифрования под управлением клиента
-                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-customer-managed-encryption-features'
-                - name: Риски шифрования и средства защиты
-                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections'
-                - name: 'Шифрование для Skype для бизнеса, OneDrive для бизнеса, SharePoint Online и Exchange Online'
-                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange'
-                - name: Шифрование в Microsoft Dynamics 365
-                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365'
-                - name: Шифрование в Azure
-                  href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-azure-encryption'
     - name: Развертывание
       items:
         - name: Добавление домена
