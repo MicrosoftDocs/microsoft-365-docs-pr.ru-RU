@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Диспетчер соответствия требованиям (Майкрософт) предоставляет шаблоны для создания оценок, которые соответствуют национальным, региональным и отраслевым нормативам, стандартам и законам.
-ms.openlocfilehash: f02c4f5a1be9a3cec61a29efa2f42151a291943a
-ms.sourcegitcommit: aa8d2de6ffac0157fffd14d0ea7f51ef0c287607
+ms.openlocfilehash: 2127daddaf44d25d9a43969e8bfafe5def39a260
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49374022"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519286"
 ---
 # <a name="compliance-manager-templates-list"></a>Список шаблонов диспетчера соответствия требованиям
 
@@ -52,8 +52,8 @@ ms.locfileid: "49374022"
 ## <a name="included-templates"></a>Включенные шаблоны
 
 - [Базовый уровень защиты данных (Майкрософт)](compliance-manager-assessments.md#data-protection-baseline-default-assessment)
-- [Европейский союз GDPR](gdpr.md) (Microsoft 365, Office 365, Intune)
-- [ISO 27001:2013](offering-iso-27001.md)
+- [Европейский союз GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr) (Microsoft 365, Office 365, Intune)
+- [ISO 27001:2013](https://docs.microsoft.com/compliance/regulatory/offering-iso-27001)
 - NIST 800-53 Rev. 4
 
 ## <a name="premium-templates"></a>Шаблоны Premium
@@ -64,7 +64,7 @@ ms.locfileid: "49374022"
 - Албания — закон по защите персональных данных No. 9887
 - Функции Антигуа и Barbuda-Data Protection Protection/2013 (Microsoft 365)
 - Приложение III для ОМБ циклического No A – 130 – безопасность федеральных автоматизированных информационных ресурсов
-- [Аргентина — Персональная защита данных 25,326](offering-pdpa-argentina.md) (Майкрософт 365)
+- [Аргентина — Персональная защита данных 25,326](https://docs.microsoft.com/compliance/regulatory/offering-pdpa-argentina) (Майкрософт 365)
 - Арканзас — ACT персональной защиты данных (Microsoft 365)
 - Инфраструктура конфиденциальности для экономических АПЕК для Азиатско-Тихоокеанского региона
 - Австралия-ASD Essential 8 (Microsoft 365)
@@ -73,13 +73,13 @@ ms.locfileid: "49374022"
 - Австралия: "Нежелательная почта" 2003 (Майкрософт 365)
 - Конфиденциальность в Австралии (отчет по кредиту) код 2014 (версия 2,1)
 - Инфраструктура безопасности кибератак для Австралии для Австралии (АЕСКСФ) (Microsoft 365)
-- [Программа проверки информационной безопасности Австралии (ирап) версии 2](offering-ccsl-irap-australia.md) (Microsoft 365)
-- [Австралийский авторитетный орган с ненормативным регулированием](offering-apra-australia.md) (Microsoft 365)
+- [Программа проверки информационной безопасности Австралии (ирап) версии 2](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia) (Microsoft 365)
+- [Австралийский авторитетный орган с ненормативным регулированием](https://docs.microsoft.com/compliance/regulatory/offering-apra-australia) (Microsoft 365)
 - Австрийская телекоммуникация 2003 (Майкрософт 365)
 - Багамы — ACT по защите данных (Microsoft 365)
 - Барбадос-Data Protection Билл 2019 (Microsoft 365)
 - Беларусь-Law для информации, расформатирования и защиты информации (Microsoft 365)
-- [Бельгия НББ Dec 2015](offering-nbb-fsma-belgium.md) (Майкрософт 365)
+- [Бельгия НББ Dec 2015](https://docs.microsoft.com/compliance/regulatory/offering-nbb-fsma-belgium) (Майкрософт 365)
 - Бермуда — функции электронных транзакций (Microsoft 365)
 - Босния и Герцеговина — Закон о защите персональных данных
 - Код закона для защиты от пользователей в Бразилии. 8078 (Office 365)
@@ -90,22 +90,22 @@ ms.locfileid: "49374022"
 - Калифорния — код учреждения — центр EDC, Title 3, отделения 14, часть 65, глава 2,5 — конфиденциальность социальных сетей
 - Калифорния-SB-327 информация конфиденциальность: подключенные устройства (Microsoft 365)
 - ACT (Microsoft 365) для кредитных отчетности для потребителей в Калифорнии
-- [Закон о конфиденциальности для потребителей в Калифорнии (ККПА)](offering-ccpa.md) (Microsoft 365)
+- [Закон о конфиденциальности для потребителей в Калифорнии (ККПА)](https://docs.microsoft.com/compliance/regulatory/offering-ccpa) (Microsoft 365)
 - Канада — нарушение нормативных мер безопасности (Microsoft 365)
 - Канада-Британская Колумбия — сведения & Security-ФОИППА (Microsoft 365)
-- [Канада — Office суперинтендент финансовых учреждений](offering-osfi-canada.md) (Microsoft 365)
+- [Канада — Office суперинтендент финансовых учреждений](https://docs.microsoft.com/compliance/regulatory/offering-osfi-canada) (Microsoft 365)
 - Канада — ACT персональной защиты информации о работоспособности (PHIPA) (Microsoft 365)
 - Канада — Закон о защите персональных данных и электронных документах (Microsoft 365)
 - Защита от Канады б
 - Канада Циберсекуре (Microsoft 365)
 - CAN-спам (Microsoft 365)
-- [Кдса защита контента & стандарт безопасности](offering-cdsa.md) (Microsoft 365)
-- [CFR-код федерального законодательства с названием 21](offering-fda-cfr-title-21-part-11.md) (Microsoft 365)
+- [Кдса защита контента & стандарт безопасности](https://docs.microsoft.com/compliance/regulatory/offering-cdsa) (Microsoft 365)
+- [CFR-код федерального законодательства с названием 21](https://docs.microsoft.com/compliance/regulatory/offering-fda-cfr-title-21-part-11) (Microsoft 365)
 - Химические стандарты защиты от террорисм (КФАТС) (Microsoft 365)
 - Правило защиты конфиденциальности в сети детей (Коппа) (Microsoft 365)
 - Китай — Спецификация безопасности персональных данных (Microsoft 365)
-- [СНГ Группа реализации 1, Группа 2, Группа 3](offering-cis-benchmark.md)
-- [Матрица облачных элементов управления Cloud Security Alliance (CSA)](offering-csa-star-attestation.md)
+- [СНГ Группа реализации 1, Группа 2, Группа 3](https://docs.microsoft.com/compliance/regulatory/offering-cis-benchmark)
+- [Матрица облачных элементов управления Cloud Security Alliance (CSA)](https://docs.microsoft.com/compliance/regulatory/offering-csa-star-attestation)
 - КММК уровня 1, уровень 2, уровень 3, уровень 4, уровень 5 (Microsoft 365)
 - КОБИТ 5 (Microsoft 365)
 - Колумбия — Декри No. 1377/2013 (используется в качестве закона Колумбия 1581/2012)
@@ -117,7 +117,7 @@ ms.locfileid: "49374022"
 - Общие законодательные акты Коннектикут — общие положения для подрядчиков, которые получают конфиденциальную информацию (Microsoft 365)
 - Коннектикут-законное нарушение безопасности переданных компьютеров, содержащих персональные данные (Microsoft 365)
 - Уведомление о нарушении безопасности личных сведений о потребителях (Microsoft 365)
-- [Политика безопасности преступных информационных служб (CJIS)](offering-cjis.md) (Microsoft 365)
+- [Политика безопасности преступных информационных служб (CJIS)](https://docs.microsoft.com/compliance/regulatory/offering-cjis) (Microsoft 365)
 - Хорватия — персональный Закон о защите данных (Microsoft 365)
 - Циберсекурити закон в КНР (Microsoft 365)
 - Кипр обработка персональных данных (Microsoft 365)
@@ -126,7 +126,7 @@ ms.locfileid: "49374022"
 - Нарушение безопасности компьютера Делавэр — название коммерческого и коммерческого подзаголовка II — 12B – 100 до 12B 104
 - Дания — действие по защите данных
 - Дания — Руководящий заказ на получение сведений и согласия в случае хранения и доступа к информации в End-User терминалов
-- [Дфарс](offering-dfars.md) (Microsoft 365)
+- [Дфарс](https://docs.microsoft.com/compliance/regulatory/offering-dfars) (Microsoft 365)
 - Директива 2013/40/ЕС для Европы Парлиамент и Совета (Microsoft 365)
 - Дубаи — регулирование данных о работоспособности (Microsoft 365)
 - Требования к защите потребителей Дубаи (Microsoft 365)
@@ -139,10 +139,10 @@ ms.locfileid: "49374022"
 - ЕС-Еудралекс объем 4 — рекомендации по ГМП, приложение 11
 - Директива ЕС 2006 года/24/EC
 - Правила конфиденциальности ФДИК (Microsoft 365)
-- [Брошюра по безопасности информации об отчетных учреждениях по федеральным финансовым учреждениям (ффиек)](offering-ffiec-us.md) (Microsoft 365, Intune)
-- [Элементы управления FedRamp с высоким уровнем безопасности](offering-fedramp.md) (Office 365)
-- [FedRamp High Security Controls_NIST 800-53](offering-fedramp.md) (Майкрософт 365)
-- [FedRAMP средний](offering-fedramp.md)
+- [Брошюра по безопасности информации об отчетных учреждениях по федеральным финансовым учреждениям (ффиек)](https://docs.microsoft.com/compliance/regulatory/offering-ffiec-us) (Microsoft 365, Intune)
+- [Элементы управления FedRamp с высоким уровнем безопасности](https://docs.microsoft.com/compliance/regulatory/offering-fedramp) (Office 365)
+- [FedRamp High Security Controls_NIST 800-53](https://docs.microsoft.com/compliance/regulatory/offering-fedramp) (Майкрософт 365)
+- [FedRAMP средний](https://docs.microsoft.com/compliance/regulatory/offering-fedramp)
 - Финляндия — ACT по защите данных
 - Финские критерии для оценки информационной безопасности облачных служб (Microsoft 365)
 - ФИНРА Циберсекурити контрольный список
@@ -151,30 +151,30 @@ ms.locfileid: "49374022"
 - FTC конфиденциальности финансовых сведений о потребителях (Microsoft 365)
 - Действие функции защиты данных Гана
 - Обычно принятые принципы Рекордкипинг (Microsoft 365)
-- [Германия — Управление соответствием облачных вычислений в каталоге (C5)](offering-c5-germany.md) (Microsoft 365)
+- [Германия — Управление соответствием облачных вычислений в каталоге (C5)](https://docs.microsoft.com/compliance/regulatory/offering-c5-germany) (Microsoft 365)
 - Германия — Федеральный закон о защите данных (Microsoft 365)
 - [Акт Грэмма-Лича-Блили ACT, title V, субтитр а, финансовая конфиденциальность](offering-glba.md) (Microsoft 365)
 - Греция-Law 2472/1997 для защиты отдельных пользователей от обработки персональных данных (Microsoft 365)
 - Гавайи — нарушение безопасности персональных данных глава 487N
-- [HIPAA/HiTech](offering-hipaa-hitech.md) (Microsoft 365, Intune)
-- [HITRUST](offering-hitrust.md) (Microsoft 365)
+- [HIPAA/HiTech](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech) (Microsoft 365, Intune)
+- [HITRUST](https://docs.microsoft.com/compliance/regulatory/offering-hitrust) (Microsoft 365)
 - Гонконг — персональные данные (конфиденциальность) Ординанце (Microsoft 365)
 - Индии — ИТ-Act 2000 (Майкрософт 365)
 - Правила для информационных технологий Индии (разумные методики безопасности и процедуры и конфиденциальные персональные данные или сведения)
 - Индонезия-Law 11/2008 (Майкрософт 365)
 - Индонезия-Пературан Пемеринтах No. 82 Тахун 2012-государственные регулирования — регулирование данных (Microsoft 365)
 - ИРАП v3
-- [IRS-P1075](offering-irs-1075.md) (Microsoft 365)
+- [IRS-P1075](https://docs.microsoft.com/compliance/regulatory/offering-irs-1075) (Microsoft 365)
 - IRS — процедура дохода 98-25 автоматизированные записи
 - ISO 15489 (Майкрософт 365)
-- [ISO 22301:2019](offering-iso-22301.md) (Майкрософт 365)
+- [ISO 22301:2019](https://docs.microsoft.com/compliance/regulatory/offering-iso-22301) (Майкрософт 365)
 - ISO 27005:2018 (Майкрософт 365)
-- [ISO 27017:2015](offering-iso-27017.md) (Майкрософт 365)
+- [ISO 27017:2015](https://docs.microsoft.com/compliance/regulatory/offering-iso-27017) (Майкрософт 365)
 - Информатикс работоспособности ISO 27799 — Управление безопасностью информации в работоспособности с использованием ISO/IEC 27002 (Майкрософт 365)
 - ISO 31000:2018 (Майкрософт 365)
 - ISO 80001-1 применение управления рисками для ИТ-сетей, включающих медицинские устройства (Microsoft 365)
-- [ISO/IEC 27018:2014](offering-iso-27018.md)
-- [ISO/IEC 27701:2019](offering-iso-27701.md) (Майкрософт 365)
+- [ISO/IEC 27018:2014](https://docs.microsoft.com/compliance/regulatory/offering-iso-27018)
+- [ISO/IEC 27701:2019](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701) (Майкрософт 365)
 - Израиль — защита конфиденциальности (передача данных в другие базы данных) нормативные требования (Microsoft 365)
 - ITU X. 1052 Information Management Framework (Microsoft 365)
 - Япония — действие при запрете несанкционированного доступа к компьютеру (Microsoft 365)
@@ -198,11 +198,11 @@ ms.locfileid: "49374022"
 - Закон о защите потребителей на основе Мексики (Microsoft 365)
 - Закон о федеральной защите данных для Мексики (Microsoft 365)
 - Минимально допустимые стандарты риска для Exchange (MARS-E) 2,0 (Microsoft 365)
-- Рекомендации по [обеспечению безопасности контента связи между фотографиями](offering-mpaa.md) (Майкрософт 365)
+- Рекомендации по [обеспечению безопасности контента связи между фотографиями](https://docs.microsoft.com/compliance/regulatory/offering-mpaa) (Майкрософт 365)
 - Мьянма — юридический закон, защищающий конфиденциальность и безопасность граждан
 - Наик-стандарты для обеспечения безопасности модели сведений о клиентах MDL-673 (Майкрософт 365)
 - Непал — право на действие со сведениями
-- [НЕРК CIP](offering-nerc-cip.md) (Microsoft 365)
+- [НЕРК CIP](https://docs.microsoft.com/compliance/regulatory/offering-nerc-cip) (Microsoft 365)
 - Нидерланды-Персональная защита данных ACT/1999 (Microsoft 365)
 - Невада глава 603A — безопасность и конфиденциальность персональных данных (Microsoft 365)
 - Закон о конфиденциальности в Нью-Йорке — черновик (Microsoft 365)
@@ -216,8 +216,8 @@ ms.locfileid: "49374022"
 - NIST 800-37 (Майкрософт 365)
 - NIST 800-53
 - Рекомендации по использованию цифровых удостоверений NIST 800-63 (Microsoft 365)
-- [NIST 800-171](offering-nist-sp-800-171.md) (Майкрософт 365)
-- [NIST CSF](offering-nist-csf.md) (Microsoft 365)
+- [NIST 800-171](https://docs.microsoft.com/compliance/regulatory/offering-nist-sp-800-171) (Майкрософт 365)
+- [NIST CSF](https://docs.microsoft.com/compliance/regulatory/offering-nist-csf) (Microsoft 365)
 - Инфраструктура безопасности NIST
 - Специальная публикация NIST 800-128 (Майкрософт 365)
 - Специальная публикация NIST 1800-1 Защита электронных записей работоспособности на мобильных устройствах (Microsoft 365)
@@ -227,7 +227,7 @@ ms.locfileid: "49374022"
 - Оман — электронные транзакции (Microsoft 365)
 - ОВАСП Профилактическых контроля для разработчиков 2018 версии 3.0 (Майкрософт 365)
 - Пакистан (Microsoft 365) — приложение для защиты электронных данных (Майкрософт) 2005-черновик
-- [PCI DSS v 3.2.1](offering-pci-dss.md) (Microsoft 365)
+- [PCI DSS v 3.2.1](https://docs.microsoft.com/compliance/regulatory/offering-pci-dss) (Microsoft 365)
 - Перувиан законодательный закон 29733 закону о защите конфиденциальности данных
 - Рекомендации по управлению безопасностью информации для системы Филиппины (Microsoft 365)
 - Закон о конфиденциальности данных Филиппины для 2012 (Майкрософт 365)
@@ -236,23 +236,23 @@ ms.locfileid: "49374022"
 - Катар — политика безопасности Cloud
 - РБНЗ BS11 политика аутсорсинга (Microsoft 365)
 - Республика Молдова в соответствии с персональной защитой данных (Microsoft 365)
-- [Резервирование банка кибератак безопасности Индии](offering-rbi-irdai-india.md) (Microsoft 365)
+- [Резервирование банка кибератак безопасности Индии](https://docs.microsoft.com/compliance/regulatory/offering-rbi-irdai-india) (Microsoft 365)
 - Румыния — Закон о защите данных 190/2018 (Майкрософт 365)
 - Россия — Федеральный закон 149 — ФЗ сведения, информационные технологии и информационные системы
-- [Федеральный закон Федерации РФ о персональных данных](offering-russia-data-localization.md) (Microsoft 365)
+- [Федеральный закон Федерации РФ о персональных данных](https://docs.microsoft.com/compliance/regulatory/offering-russia-data-localization) (Microsoft 365)
 - ACT Люсия Data Protection (Microsoft 365)
-- [С 17-4 (a)](offering-sec-17a-4.md) (Microsoft 365)
+- [С 17-4 (a)](https://docs.microsoft.com/compliance/regulatory/offering-sec-17a-4) (Microsoft 365)
 - SIG (Microsoft 365)
 - Сингапур — банковская работа (Cap. 19)
 - Сингапур-Циберсекурити 2018 (Майкрософт 365)
 - Сингапур-ИМДА IoT кибератак Security Guide (Microsoft 365)
 - Сингапур — денежный орган управления ИТ-инфраструктурой (Майкрософт 365)
-- [Сингапур — многоуровневая Cloud Cloud (мткс) Standard](offering-mtcs-singapore.md) (Microsoft 365)
+- [Сингапур — многоуровневая Cloud Cloud (мткс) Standard](https://docs.microsoft.com/compliance/regulatory/offering-mtcs-singapore) (Microsoft 365)
 - Сингапур — отчет аудита поставщика услуг (ОСПАР) (Microsoft 365)
 - Сингапур-Персональная защита данных ACT/2012 (Майкрософт 365)
 - Сингапур (Microsoft 365) — действие управления нежелательной почтой
-- [SoC 1](offering-soc.md) (Microsoft 365)
-- [SoC 2](offering-soc.md) (Microsoft 365)
+- [SoC 1](https://docs.microsoft.com/compliance/regulatory/offering-soc) (Microsoft 365)
+- [SoC 2](https://docs.microsoft.com/compliance/regulatory/offering-soc) (Microsoft 365)
 - ACT 68 2008 для Южной Африки (Майкрософт 365)
 - ACT 68 2008 для Южной Африки (Майкрософт 365)
 - Действующие электронные коммуникации и транзакции Южной Африки, 2002 (Майкрософт 365)
@@ -269,17 +269,17 @@ ms.locfileid: "49374022"
 - Таиланд ПДПА (Microsoft 365)
 - Коммерческий набор китайского народного Республика (Microsoft 365)
 - Тринидад и Тобаго Data Protection (ACT 13 из 2011) (Майкрософт 365)
-- [Обмен достоверными данными для оценки безопасности](offering-tisax-germany.md)
+- [Обмен достоверными данными для оценки безопасности](https://docs.microsoft.com/compliance/regulatory/offering-tisax-germany)
 - КВКК Защита персональных данных 6698 (Майкрософт 365)
 - Федеральный закон в ОАЭ — Федеральный закон без 2 из 2019 при использовании информационных технологий и коммуникационных технологий (ICT) в полях работоспособности
 - Великобритания — правила бурения в оффшорной деятельности/2011 (Майкрософт 365)
-- [Великобритания кибератак Essentials](offering-cyber-essentials-plus-uk.md) (Microsoft 365)
+- [Великобритания кибератак Essentials](https://docs.microsoft.com/compliance/regulatory/offering-cyber-essentials-plus-uk) (Microsoft 365)
 - Великобритания-кибератак Security для поставщиков оборон Standard (Microsoft 365)
 - Конфиденциальность в Великобритании и электронные коммуникации (Microsoft 365)
 - Украина-Защита персональных данных Закон (Microsoft 365)
 - США, часть 810 (Майкрософт 365)
 - US-Федеральная информация о безопасности модернизации Act of 2014 (FISMA) (Майкрософт 365)
-- [US ФЕРПА](offering-ferpa.md) (Microsoft 365)
+- [US ФЕРПА](https://docs.microsoft.com/compliance/regulatory/offering-ferpa) (Microsoft 365)
 - US-Cloud ACT (Microsoft 365)
 - Закон о защите Солт потребителей (Microsoft 365)
 - Узбекистан (Узбекистан) для персональных данных
