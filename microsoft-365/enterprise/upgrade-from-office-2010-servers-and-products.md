@@ -21,14 +21,14 @@ search.appverid:
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
 f1.keywords:
 - NOCSH
-description: Начните планирование обновления с серверов и клиентских приложений Office 2010, по мере прекращения поддержки и недоступности настраиваемых соглашений о поддержке.
+description: Начните планирование обновления с серверов Office 2010 и клиентских приложений, по мере завершения поддержки и недоступности настраиваемых соглашений о поддержке.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 879aae71f703d8a26b3d6e640eff6d30a81febac
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+ms.openlocfilehash: b9dcf5c36cff5e14828b1a6540ed920577537c49
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456355"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519784"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2010-servers-and-clients"></a>Ресурсы по обновлению серверов и клиентов Office 2010
 
@@ -38,19 +38,19 @@ ms.locfileid: "48456355"
 
 Поддержка SharePoint 2010 и Project Server 2010 будет завершена **13 апреля 2021 г**.
 
-При планировании обновления самое время рассмотреть переход на Microsoft 365.
+При планировании обновления рассмотрите возможность перехода на Microsoft 365.
 
-- Microsoft 365 содержит облачные службы для серверных продуктов Office 2010, например Exchange Server и SharePoint Server, и такие службы, как Teams и OneDrive для бизнеса.
+- В Microsoft 365 имеются облачные службы для серверных продуктов Office 2010, такие как Exchange Server и SharePoint Server, а также службы, такие как teams и OneDrive для бизнеса.
 
-- Приложения Microsoft 365 для предприятий (прежнее название — Office 365 профессиональный плюс), входящие в состав Microsoft 365 E3 и E5, — это набор клиентских приложений Office, устанавливаемых на локальном устройстве. В них регулярно добавляются новые функции для повышения производительности и безопасности путем обновлений из облака Майкрософт.
+- Приложения Microsoft 365 для предприятий (ранее именуемые *Office 365 профессиональный плюс*), которые входят в состав Microsoft 365 E3 и "е", — это набор клиентских приложений Office, устанавливаемых на локальном устройстве. Они регулярно обновляют новые возможности работы и обеспечения безопасности в Microsoft Cloud.
 
-Визуальное представление возможностей обновления, миграции и перехода на облачные решения для клиентов и серверов Office 2010, а также Windows 7 см. на плакате [Прекращение поддержки](../downloads/Office2010Windows7EndOfSupport.pdf).
+Сведения о возможностях обновления, миграции и переезда на облачные варианты для Office 2010 для клиентов и серверов и Windows 7 приведены в [конце афиши поддержки](../downloads/Office2010Windows7EndOfSupport.pdf).
 
-[![Изображение плаката "Прекращение поддержки клиентов и серверов Office 2010 и Windows 7"](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![Завершение поддержки клиентов и серверов Office 2010 и афиши Windows 7](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
-Этот одностраничный плакат поможет быстро ознакомиться с различными методами, которые можно использовать, чтобы предотвратить прекращение поддержки клиентских и серверных продуктов Office 2010 и Windows 7. В нем указаны предпочтительные методы и возможности поддержки в Microsoft 365 корпоративный.
+В этой одностраничной афише собраны различные пути, которые можно предпринять для обработки клиентских и серверных продуктов Office 2010 и Windows 7 от достижения конца поддержки. Предпочтительные пути и поддержка вариантов в Microsoft 365 Enterprise выделены.
 
-Вы также можете [скачать](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) этот плакат и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
+Вы также можете [скачать](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) этот плакат и напечатать его в формате Letter, Legal или таблоид (11 x 17).
 
 ## <a name="office-2010-client-and-server-upgrade-planning"></a>Планирование обновления клиентов и серверов Office 2010
 
@@ -64,7 +64,7 @@ ms.locfileid: "48456355"
 
 ## <a name="im-a-home-user-what-do-i-do"></a>Я использую версию для дома. Что мне делать?
 
-Если вы используете продукты и приложения Office 2010 дома, см. [эти сведения](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
+Если вы используете продукты и приложения Office 2010 на домашней странице, ознакомьтесь с [этими сведениями](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
 
 ## <a name="related-topics"></a>Статьи по теме
 

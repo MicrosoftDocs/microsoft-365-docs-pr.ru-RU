@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: Узнайте больше о службе Azure Information Protection для Office 365 под управлением 21Vianet и о том, как настроить его для клиентов в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: ad3420483701c83ffef65994996047de56a7085c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 7be40466c43a49cf51a2a2c1c273cef035bee831
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644667"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519345"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Четность между службой Azure Information Protection для Office 365 под управлением 21Vianet и коммерческих услуг
 
@@ -42,8 +42,6 @@ ms.locfileid: "48644667"
 - Общий доступ к документам и вложениям электронной почты для пользователей в коммерческом облаке в настоящее время недоступен. Это включает Office 365 под управлением 21Vianet в коммерческом облаке, а не в Office 365, который управляется пользователями 21Vianet в коммерческом облаке, и пользователями с лицензией RMS для индивидуальных пользователей.
   
 - IRM с SharePoint (сайты и библиотеки, защищенные службой управления правами), в настоящее время недоступна.
-  
-- В настоящее время соединитель управления правами недоступен.
   
 - Расширение мобильных устройств для AD RMS в настоящее время недоступно.
 

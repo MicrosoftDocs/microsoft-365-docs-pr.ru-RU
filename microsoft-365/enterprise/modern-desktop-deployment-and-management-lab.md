@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: bf49a815c0d3d952187f863120865ab3aa4674fc
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 65c251b2cd161687eb0a2e9c7ece29f453fcaae8
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171414"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519626"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Набор для лаборатории по развертыванию Windows и Office
 
@@ -34,9 +34,9 @@ ms.locfileid: "48171414"
 
 На этих практических занятиях вы будете использовать автоматически подготовленную к работе виртуальную лабораторную среду, которая включает присоединенные к домену клиенты для настольных ПК, контроллер домена, шлюз Интернета и полностью настроенный экземпляр Configuration Manager. В лаборатории содержатся последние ознакомительные версии следующих продуктов:
 
-  - НОВИНКА! Windows 10 Корпоративная, версия 2004
+  - НОВИНКА! Windows 10 Корпоративная, версия 20H2
   - Windows 7 Корпоративная
-  - НОВИНКА! Microsoft Endpoint Configuration Manager, версия 2002
+  - Microsoft Endpoint Configuration Manager, версия 2002
   - Комплект средств для развертывания и оценки Windows для Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -90,11 +90,11 @@ ms.locfileid: "48171414"
 ### <a name="deploy-windows-virtual-desktop"></a>Развертывание виртуального рабочего стола Windows  
 - Подготовка, развертывание, оптимизация
  
-### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Скачать комплект Deployment Lab Kit для Windows и Office
+## <a name="download-the-windows-and-office-deployment-lab-kit"></a>Скачать комплект Deployment Lab Kit для Windows и Office
 
 [Скачать комплект Deployment Lab Kit для Windows и Office](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*Используйте широкую пропускную способность для загрузки этого содержимого, чтобы улучшить загрузку и разрешить 30-45 минут для автоматической подготовки. Лабораторная среда требует минимум 16 ГБ памяти и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется 32 ГБ доступной памяти. Срок действия лаборатории истечет 5 декабря 2020 г. Новая версия будет опубликована до истечения срока действия.*
+* Используйте широкую пропускную способность для загрузки этого содержимого, чтобы улучшить загрузку и разрешить 30-45 минут для автоматической подготовки. Лабораторная среда требует минимум 16 ГБ памяти и 300 ГБ свободного места на диске. Для оптимальной производительности рекомендуется 32 ГБ доступной памяти. Срок действия лаборатории истечет 2020 февраля. Новая версия будет опубликована до истечения срока действия.
 
 ## <a name="additional-guidance"></a>Дополнительные рекомендации
 

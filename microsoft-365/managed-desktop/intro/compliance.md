@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7674777214cb5684bb02039f739458352bc701ad
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: 65d1d18037a10cd36c3be9498a4373fa67b6afd9
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262283"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519614"
 ---
 # <a name="compliance"></a>Соответствие требованиям
 
@@ -24,17 +24,17 @@ ms.locfileid: "48262283"
 
 Для компьютера, управляемого Майкрософт, получены следующие сертификаты:
 
-- [Стандарты управления информационной безопасностью стандарта ISO 27001 (К СУИБ)](../../compliance/offering-ISO-27001.md)
-- [Система управления сведениями о конфиденциальности для ISO 27701 (ПИМС)](../../compliance/offering-iso-27701.md)
-- [ISO 27017 код практики для управления информационной безопасностью](../../compliance/offering-ISO-27017.md)
-- [ISO 27018 код практических рекомендаций по защите персональных данных в облаке](../../compliance/offering-ISO-27018.md)
-- [Стандарты системы управления качеством ISO 9001](../../compliance/offering-ISO-9001.md)
-- [Управление службой информационных технологий стандарта ISO 20000-1](../../compliance/offering-ISO-20000-1-2011.md)
-- [Стандарт управления непрерывной работы стандарта ISO 22301](../../compliance/offering-ISO-22301.md)
-- [Аттестация Cloud Security Alliance (CSA) STAR ](../../compliance/offering-CSA-STAR-Attestation.md)
-- [Сертификация Cloud Security Alliance (CSA) STAR](../../compliance/offering-CSA-Star-Certification.md)
-- [Управление организацией службы (SOC) 1, 2, 3](../../compliance/offering-SOC.md)
-- [Стандарт безопасности данных в сфере платежных карт (PCI-DSS)](../../compliance/offering-PCI-DSS.md)
+- [Стандарты управления информационной безопасностью стандарта ISO 27001 (К СУИБ)](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
+- [Система управления сведениями о конфиденциальности для ISO 27701 (ПИМС)](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
+- [ISO 27017 код практики для управления информационной безопасностью](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27017)
+- [ISO 27018 код практических рекомендаций по защите персональных данных в облаке](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27018)
+- [Стандарты системы управления качеством ISO 9001](https://docs.microsoft.com/compliance/regulatory/offering-ISO-9001)
+- [Управление службой информационных технологий стандарта ISO 20000-1](https://docs.microsoft.com/compliance/regulatory/offering-ISO-20000-1-2011)
+- [Стандарт управления непрерывной работы стандарта ISO 22301](https://docs.microsoft.com/compliance/regulatory/offering-ISO-22301)
+- [Аттестация Cloud Security Alliance (CSA) STAR ](https://docs.microsoft.com/compliance/regulatory/offering-CSA-STAR-Attestation)
+- [Сертификация Cloud Security Alliance (CSA) STAR](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
+- [Управление организацией службы (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
+- [Стандарт безопасности данных в сфере платежных карт (PCI-DSS)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Отчеты аудиторов и сертификаты соответствия требованиям
 

@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 66e4e5c305947f90f935563a3baf0592ce42480a
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: deeced350ad867a374a486967c2cbd278ba91710
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371674"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519333"
 ---
 # <a name="access-the-admin-portal"></a>Доступ к порталу администрирования
 
@@ -59,7 +59,7 @@ ms.locfileid: "49371674"
 Если вам нужна помощь в назначении ролей Azure Active Directory, ознакомьтесь [с разрешениями роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
 
 Для упрощения управления встроенными ролями создана группа безопасности для каждой настраиваемой роли (например, "современные роли в рабочем месте — диспетчер безопасности"). Чтобы назначить пользователей одной из групп безопасности, выполните следующие действия:
-1.  Перейдите на портал Azure и перейдите к колонке Azure Active Directory.
+1.  Перейдите на портал Microsoft Endpoint Manager.
 2.  Выберите группы в левой части.
 3.  Выполните поиск ролей на современном рабочем месте, а затем выберите группу, связанную с ролью, которую вы хотите назначить. 
 4.  Выберите элементы в левой части, а затем нажмите кнопку + Добавить участников на панели команд.

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 347266f71dada3de1bbd9b1434cb1e6628249147
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: e2d1c68c3fe963c957e4c3e18fce441b92c96bf1
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931928"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519825"
 ---
 # <a name="readiness-assessment-tool"></a>Средство оценки готовности
 
@@ -22,7 +22,7 @@ ms.locfileid: "48931928"
 
 Средство проверяет параметры в диспетчере конечных точек Майкрософт (в частности, Microsoft Intune), Azure Active Directory (Azure AD) и Microsoft 365, чтобы убедиться, что они будут работать с настольным компьютером, управляемым корпорацией Майкрософт. На рабочем столе корпорации Майкрософт хранятся данные, связанные с этими проверками, в течение 12 месяцев после последнего запуска проверки в Организации Azure AD (клиенте). По истечении 12 месяцев он сохраняется в неопознанной форме.  Вы можете удалить собранные данные.
 
-Любой пользователь, имеющий по крайней мере роль администратора Intune, сможет запускать это средство, но две проверки ([соединители сертификатов](readiness-assessment-fix.md#certificate-connectors) и [многофакторной проверки подлинности](readiness-assessment-fix.md#multi-factor-authentication) требуют дополнительных разрешений.
+Любой пользователь, у которого есть по крайней мере роль администратора Intune, сможет запускать это средство, но две проверки ([политики условного доступа](readiness-assessment-fix.md#conditional-access-policies) и [многофакторная проверка подлинности](readiness-assessment-fix.md#multi-factor-authentication) требуют дополнительных разрешений).
  
 Средство оценки проверяет следующие элементы:
 
