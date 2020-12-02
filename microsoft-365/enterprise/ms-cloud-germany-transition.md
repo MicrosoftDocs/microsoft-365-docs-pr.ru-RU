@@ -3,7 +3,7 @@ title: Миграция из Microsoft Cloud записей в службы Offi
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 09/30/2020
+ms.date: 12/01/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Сводка: понимание миграции с Microsoft Cloud для Германии (Microsoft Cloud Deutschland) в службы Office 365 в новых регионах центров обработки данных в Германии'
-ms.openlocfilehash: 23ccc30bab5d1045e4716cd637899e20362fc597
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 37bf052739bf15c1a0d3712539779e9dff31d9e8
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846944"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551538"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Миграция из Microsoft Cloud записей в службы Office 365 в новых регионах центра обработки данных на немецком языке
 
@@ -59,7 +59,7 @@ ms.locfileid: "48846944"
 
 \*\*\*Необходимые условия и влияние миграции для этих служб описаны в статье [Dynamics 365 "участие клиента](https://aka.ms/d365ceoptin) ".
 
-1 марта 2021 г. прекращается поддержка Office 365 Видео. Если вы решили перенести свой клиент Office 365 в новые регионы центров обработки данных в Германии, Office 365 Видео не будет поддерживаться после завершения миграции SharePoint Online. Щелкните [здесь](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline) , чтобы узнать больше.
+1 марта 2021 г. прекращается поддержка Office 365 Видео. Если вы решили перенести свой клиент Office 365 в новые регионы центров обработки данных в Германии, Office 365 Видео не будет поддерживаться после завершения миграции SharePoint Online. Дополнительные сведения см. в разделе [временная шкала Microsoft Cloud записей](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline).
 
 ## <a name="how-is-the-migration-organized"></a>Как организуется миграция?
 
@@ -69,7 +69,10 @@ ms.locfileid: "48846944"
 
 Миграция выполняется по этапам, которые запускаются при выборе [для миграции](https://aka.ms/office365germanymoveoptin). Большая часть этапов миграции выполняется как серверные операции с минимальным участием клиента и выполняются на один этап после другого. Начало дополнительных задач с индикатором клиента и общее состояние миграции будут передаваться через центр сообщений центра администрирования Microsoft 365 в процессе миграции. Например, задачи могут включать в себя обновления DNS, которые управляются клиентами, перенастройка гибридной настройки для гибридных клиентов Exchange или миграция Azure.
 
-Миграция не начинается сразу же после получения согласия пользователя. Ваша организация будет добавлена в список клиентов, для которых запланирована дальнейшая миграция. Вы можете приступить к этапам предварительной работы, так как они важны для обеспечения успешной миграции и использования после завершения.
+Миграция не начинается сразу же после получения согласия пользователя. Ваша организация будет добавлена в список клиентов, для которых запланирована дальнейшая миграция. Вы можете приступить к этапам предварительной работы, так как они критически важны для обеспечения успешной миграции и использования после завершения:
+
+- [Действия и влияние этапов миграции](ms-cloud-germany-transition-phases.md)
+- [Дополнительные предварительные действия](ms-cloud-germany-transition-add-pre-work.md)
 
 За одну неделю до начала миграции клиента вы получите уведомление в службе центра сообщений как Последнее предупреждение о том, что все необходимые компоненты должны быть завершены.
 
@@ -102,6 +105,7 @@ ms.locfileid: "48846944"
 Первый шаг — сообщить корпорации Майкрософт о том, что у вас есть ваше разрешение на перенос подписок и данных из Microsoft Cloud записей в службы Office 365 в новых регионах центра обработки данных на немецком языке. Ознакомьтесь с инструкциями и обратите внимание [на то,](https://aka.ms/office365germanymoveoptin) что:
 
 - Для всех миграций клиентов необходимо проверить возможность подключения к [URL-адресам и IP-адресам office 365](urls-and-ip-address-ranges.md)для служб Office 365, в том числе новых регионов центров обработки данных на немецком языке. Действие может привести к сбою служб и клиентов.
+- Просмотрите список [предварительных](ms-cloud-germany-transition-add-pre-work.md) действий, чтобы обеспечить информирование Организации об изменениях и подготовить их к работе.
 - Ознакомьтесь с описанием службы платформы Office 365, чтобы узнать, какие функции и службы станут доступны вашей организации после миграции в регион для немецкого языка.
 - Пробные подписки не будут перенесены и будут блокировать перенос всех платных подписок. Перед началом миграции необходимо отменить все пробные или преобразованные подписки в платные подписки.
 
@@ -125,6 +129,7 @@ ms.locfileid: "48846944"
 - Доступны через существующие контракты веб-служб.
 
 ### <a name="what-is-the-service-availability-between-the-different-office-365-cloud-service-offerings"></a>Какова доступность службы между различными предложениями облачных служб Office 365?
+<h2 id="serv-avail"></h2>
 
 В облачной службе Microsoft Cloud записей доступны следующие 15 служб. Мы не добавляем новые службы в Microsoft Cloud записей.
 
@@ -133,7 +138,7 @@ ms.locfileid: "48846944"
 3. Группы (современные группы)
 4. Профиль Delve
 5. Exchange Online Protection
-6. Defender для Office 365
+6. Защитник для Office 365
 7. Advanced eDiscovery
 8. Расширенное управление данными
 9. SharePoint Online
@@ -153,7 +158,7 @@ ms.locfileid: "48846944"
 5. MyAnalytics
 6. Рабочая аналитика
 7. Exchange Online Protection
-8. Defender для Office 365
+8. Защитник для Office 365
 9. Advanced eDiscovery
 10. Расширенное управление безопасностью
 11. Управление правами на доступ к данным
@@ -180,7 +185,9 @@ ms.locfileid: "48846944"
 
 **Azure**
 
-Если вы только клиент Azure, вы можете приступить к [переносу](https://docs.microsoft.com/azure/germany/germany-migration-main) ресурсов Azure в другой регион. Если у вас есть Azure с Office 365, Dynamics 365 или Power BI, выполните указанные ниже действия.
+Если вы только клиент Azure, вы можете приступить к [переносу](https://docs.microsoft.com/azure/germany/germany-migration-main) ресурсов Azure в другой регион. 
+
+Если у вас есть Azure с Office 365, Dynamics 365 или Power BI, необходимо выполнить процесс миграции, чтобы обеспечить успешную миграцию AzureAD, прежде чем приступать к самонаправленной миграции Azure. Перед закрытием службы необходимо выполнить миграцию Azure, чтобы поддерживать рабочие нагрузки Azure с вашей AzureAD и организацией Office 365.
 
 **Office 365**
 
@@ -266,13 +273,27 @@ ms.locfileid: "48846944"
 - Для Office 365 вы можете отдать вопросы с помощью &quot; &quot; ссылки на [центр администрирования Microsoft 365](https://portal.office.de/).
 - Если вы используете Dynamics 365, а также клиент Power BI и Office 365, вы можете сообщить вопросы, используя ссылку на &quot; &quot; [центр администрирования Майкрософт 365](https://portal.office.de/). Варианты поддержки клиентов Dynamics 365 Customer Engagement доступны [здесь](https://docs.microsoft.com/dynamics365/get-started/support/). Варианты поддержки клиентов Power BI доступны [здесь](https://powerbi.microsoft.com/support/).
 
+
+## <a name="next-step"></a>Следующий этап
+
+[Согласие на миграцию](ms-cloud-germany-migration-opt-in.md)
+
 ## <a name="more-information"></a>Дополнительные сведения
 
-Дополнительные сведения о переходе на новые регионы для немецкого центра обработки данных. Закладка этой страницы, чтобы вы могли вернуть и сохранить текущую.
+Начало работы:
 
 - [Помощь по миграции Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
-- [Как принять участие в миграции](https://aka.ms/office365germanymoveoptin)
+- [Как принять участие в миграции](ms-cloud-germany-migration-opt-in.md)
+- [Взаимодействие с пользователем во время миграции](ms-cloud-germany-transition-experience.md)
+
+Перемещение по переходу:
+
+- [Действия и влияние этапов миграции](ms-cloud-germany-transition-phases.md)
+- [Дополнительные предварительные действия](ms-cloud-germany-transition-add-pre-work.md)
+- Дополнительные сведения о [службах](ms-cloud-germany-transition-add-general.md), [устройствах](ms-cloud-germany-transition-add-devices.md), [опыте](ms-cloud-germany-transition-add-experience.md)и службах [федерации Active Directory](ms-cloud-germany-transition-add-adfs.md).
+
+Облачные приложения:
+
 - [Сведения о программе миграции Dynamics 365](https://aka.ms/d365ceoptin)
 - [Сведения о программе миграции Power BI](https://aka.ms/pbioptin)
-- [URL-адреса и диапазоны IP-адресов для Office 365](https://aka.ms/o365endpoints)
 - [Начало перехода на Microsoft Teams](https://aka.ms/SkypeToTeams-Home)

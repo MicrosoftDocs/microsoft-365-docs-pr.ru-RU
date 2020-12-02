@@ -3,7 +3,7 @@ title: Как дать согласие на миграцию с Microsoft Cloud
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 09/30/2020
+ms.date: 12/01/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Сводка. '
-ms.openlocfilehash: 41f3e928bde0b366b17f698c30f33359a471e757
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 76cad72d742f6bf7ab6ddd1f90bfe0e5a2435df1
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327193"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49552091"
 ---
 # <a name="how-to-opt-in-for-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Как дать согласие на миграцию с Microsoft Cloud для Германии (Microsoft Cloud Deutschland) в службы Office 365 в новых регионах центров обработки данных в Германии
 
@@ -62,10 +62,27 @@ ms.locfileid: "48327193"
 
 Администраторам клиентов и партнеров рекомендуется согласиться на миграцию в центре администрирования, чтобы процесс миграции мог начаться как можно скорее.
 
+
+## <a name="next-step"></a>Следующий этап
+
+[Сведения о взаимодействии с пользователем во время миграции](ms-cloud-germany-transition-experience.md)
+
 ## <a name="more-information"></a>Дополнительные сведения
 
+Начало работы:
+
+- [Миграция из Microsoft Cloud записей в службы Office 365 в новых регионах центра обработки данных на немецком языке](ms-cloud-germany-transition.md)
 - [Помощь по миграции Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
-- [Программа миграции Office 365 для клиентов Microsoft Cloud Deutschland](https://aka.ms/office365germanymove)
-- [Программа миграции Dynamics 365 для клиентов Microsoft Cloud Deutschland](https://aka.ms/d365ceoptin)
-- [Программа миграции Power BI для клиентов Microsoft Cloud Deutschland](https://aka.ms/pbioptin)
-- Задайте свои вопросы с помощью ссылки "Нужна помощь?" в [Центре администрирования Microsoft 365](https://portal.office.de/)
+- [Взаимодействие с пользователем во время миграции](ms-cloud-germany-transition-experience.md)
+
+Перемещение по переходу:
+
+- [Действия и влияние этапов миграции](ms-cloud-germany-transition-phases.md)
+- [Дополнительные предварительные действия](ms-cloud-germany-transition-add-pre-work.md)
+- Дополнительные сведения о [службах](ms-cloud-germany-transition-add-general.md), [устройствах](ms-cloud-germany-transition-add-devices.md), [опыте](ms-cloud-germany-transition-add-experience.md)и службах [федерации Active Directory](ms-cloud-germany-transition-add-adfs.md).
+
+Облачные приложения:
+
+- [Сведения о программе миграции Dynamics 365](https://aka.ms/d365ceoptin)
+- [Сведения о программе миграции Power BI](https://aka.ms/pbioptin)
+- [Начало перехода на Microsoft Teams](https://aka.ms/SkypeToTeams-Home)

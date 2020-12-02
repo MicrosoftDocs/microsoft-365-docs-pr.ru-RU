@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Администраторы Exchange Online управляют электронной почтой и почтовыми ящиками организации. Например, они восстанавливают удаленные элементы в почтовом ящике пользователя. '
-ms.openlocfilehash: cd2c4c10554cbaf425fa6ae9156a8ceeb1a21503
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8e332e886ca25221fefbbc5d1bb790bd4f513f00
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646707"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527517"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Роль администратора Exchange Online
 
@@ -44,7 +44,7 @@ ms.locfileid: "48646707"
 
 - Настройка функций почтового ящика, например политики общего доступа к нему, которая определяет, как пользователи могут делиться данными календаря и контактов с другими людьми за пределами вашей организации.
 
-- Настройка представителей "[Отправить как](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" и "[отправить на абехалф](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" для почтового ящика пользователя. Например, руководителю может потребоваться, чтобы его помощник имел возможность отправлять почту от его имени.
+- Настройка представителей "[Отправить от](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)имени" и "[Отправить от имени](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" для почтового ящика другого пользователя. Например, руководителю может потребоваться, чтобы его помощник имел возможность отправлять почту от его имени.
 
 - [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) , чтобы группа людей могла отслеживать и отправлять электронную почту с общего адреса электронной почты.
 
@@ -58,7 +58,7 @@ ms.locfileid: "48646707"
   
  Например, администратор Exchange может назначить пользователю группу ролей "Управление обнаружением", чтобы он мог искать в почтовых ящиках данные, которые соответствуют определенным критериям. Дополнительные сведения см. в статьях [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) и [Управление группами ролей](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help).
   
-## <a name="learn-about-other-admin-role"></a>Сведения о других ролях администратора
+## <a name="learn-about-other-admin-roles"></a>Сведения о других ролях администратора
 
 - [О ролях администратора Microsoft 365](about-admin-roles.md)
 

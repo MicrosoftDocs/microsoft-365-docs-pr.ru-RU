@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: Сведения о том, как администрировать параметры Multi-Geo Exchange Online в среде Microsoft 365 с помощью PowerShell.
-ms.openlocfilehash: c9219d29a1fdae68075d296404a6c2aeab30f1aa
-ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+ms.openlocfilehash: 63eb1957611fd57e216012435188a6ddd1b232d3
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993380"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49552011"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Администрирование почтовых ящиков Exchange Online в среде с поддержкой нескольких регионов
 
@@ -37,7 +37,9 @@ ms.locfileid: "48993380"
 
 Пользователям Microsoft 365 или Microsoft 365 GCC обычно не требуется использовать параметр _ConnectionURI_ для подключения к Exchange Online PowerShell. Но чтобы подключиться к определенному географическому расположению, необходимо использовать параметр _ConnectionURI_ , чтобы можно было использовать `?email=<emailaddress>` его в значении.
 
-### <a name="connect-to-a-geo-location-in-exchange-online-powershell-using-multi-factor-authentication-mfa"></a>Подключение к географическому расположению в Exchange Online PowerShell с использованием многофакторной проверки подлинности (MFA)
+### <a name="connect-to-a-geo-location-in-exchange-online-powershell"></a>Подключение к географическому расположению в Exchange Online PowerShell
+
+Приведенные ниже инструкции по подключению работают для учетных записей, которые не настроены для многофакторной проверки подлинности (MFA).
 
 1. В окне Windows PowerShell загрузите модуль EXO V2, выполнив следующую команду:
 
@@ -47,31 +49,11 @@ ms.locfileid: "48993380"
 
 2. В следующем примере admin@contoso.onmicrosoft.com является учетной записью администратора, а целевой географическое расположение — там, где находится olga@contoso.onmicrosoft.com почтового ящика.
 
-  ```powershell
-  Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
-  ```
-
-### <a name="connect-to-a-geo-location-in-exchange-online-powershell-without-using-mfa"></a>Подключение к географическому расположению в Exchange Online PowerShell без использования MFA
-
-1. В окне Windows PowerShell загрузите модуль EXO V2, выполнив следующую команду:
-
    ```powershell
-   Import-Module ExchangeOnlineManagement
+   Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
    ```
 
-2. Выполните следующую команду:
-
-   ```powershell
-   $UserCredential = Get-Credential
-   ```
-
-   В диалоговом окне **Запрос учетных данных Windows PowerShell** введите название своей рабочей или учебной учетной записи и пароль, а затем нажмите **ОК**.
-
-3. В следующем примере целевое географическое расположение расположено там, где находится olga@contoso.onmicrosoft.com почтовых ящиков.
-
-   ```powershell
-   Connect-ExchangeOnline -Credential $UserCredential -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
-   ```
+3. Введите пароль для admin@contoso.onmicrosoft.com в появившемся приглашении. Если учетная запись настроена для MFA, также необходимо ввести код безопасности.
 
 ## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>Просмотр доступных географических расположений, настроенных в организации Exchange Online
 
@@ -186,7 +168,7 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 
 7. Снова сделайте почтовый ящик неактивным, удалив учетную запись пользователя, связанную с почтовым ящиком. Инструкции см в разделе [Удаление пользователя из Организации](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user). На этом этапе также освобождается лицензия на Exchange Online (план 2) для других целей.
 
-**Note** : при перемещении неактивного почтового ящика в другое географическое расположение может повлиять на результаты поиска контента, а также на возможность поиска в почтовом ящике из прежнего географического расположения. Дополнительные сведения см в разделе [Поиск и экспорт контента в средах с поддержкой нескольких регионов](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments).
+**Note**: при перемещении неактивного почтового ящика в другое географическое расположение может повлиять на результаты поиска контента, а также на возможность поиска в почтовом ящике из прежнего географического расположения. Дополнительные сведения см в разделе [Поиск и экспорт контента в средах с поддержкой нескольких регионов](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments).
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>Создание новых облачных почтовых ящиков в определенном географическом расположении
 
@@ -208,7 +190,7 @@ New-MsolUser -UserPrincipalName <UserPrincipalName> -DisplayName "<Display Name>
 - Имя: Elizabeth
 - Фамилия: Brunner
 - Отображаемое имя: Elizabeth Brunner
-- Пароль: создается случайным образом и отображается в результатах команды (так как не используется параметр *Password* )
+- Пароль: создается случайным образом и отображается в результатах команды (так как не используется параметр *Password*)
 - Лицензия: `contoso:ENTERPRISEPREMIUM` (E5)
 - Расположение: Австралия (AUS)
 
@@ -219,13 +201,13 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
 Дополнительные сведения о создании учетных записей пользователей и поиске значений LicenseAssignment в Azure AD PowerShell см. в статьях [Создание учетных записей пользователей с помощью PowerShell](create-user-accounts-with-microsoft-365-powershell.md) и [Просмотр лицензий и служб с помощью PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md).
 
 > [!NOTE]
-> Если вы используете Exchange Online PowerShell, чтобы включить почтовый ящик, и вам нужно создать почтовый ящик непосредственно в географическом расположении, указанном в параметре **PreferredDataLocation** , необходимо использовать командлет Exchange Online, например, **Enable-Mailbox** или **New-Mailbox** , прямо в облачной службе. Если вы используете командлет **Enable-RemoteMailbox** в локальной среде Exchange PowerShell, почтовый ящик будет создан в центральном географическом расположении.
+> Если вы используете Exchange Online PowerShell, чтобы включить почтовый ящик, и вам нужно создать почтовый ящик непосредственно в географическом расположении, указанном в параметре **PreferredDataLocation**, необходимо использовать командлет Exchange Online, например, **Enable-Mailbox** или **New-Mailbox**, прямо в облачной службе. Если вы используете командлет **Enable-RemoteMailbox** в локальной среде Exchange PowerShell, почтовый ящик будет создан в центральном географическом расположении.
 
 ## <a name="onboard-existing-on-premises-mailboxes-in-a-specific-geo-location"></a>Перенос существующих локальных почтовых ящиков в определенное географическое расположение
 
 Можно использовать стандартные средства и процедуры переноса для перемещения почтового ящика из локальной организации Exchange в Exchange Online, включая [информационную панель миграции в Центре администрирования Exchange](https://support.office.com/article/d164b35c-f624-4f83-ac58-b7cae96ab331) и командлет [New-MigrationBatch](https://docs.microsoft.com/powershell/module/exchange/new-migrationbatch) в Exchange Online PowerShell.
 
-Сначала нужно подтвердить, что объект пользователя существует для каждого переносимого почтового ящика, и проверить правильность значения **PreferredDataLocation** , настроенного в Azure AD. Средства переноса учитывают значение **PreferredDataLocation** и переносят почтовые ящики непосредственно в указанное географическое расположение.
+Сначала нужно подтвердить, что объект пользователя существует для каждого переносимого почтового ящика, и проверить правильность значения **PreferredDataLocation**, настроенного в Azure AD. Средства переноса учитывают значение **PreferredDataLocation** и переносят почтовые ящики непосредственно в указанное географическое расположение.
 
 Или можно использовать указанные ниже действия для переноса почтовых ящиков непосредственно в определенное географическое расположение с помощью командлета [New-MoveRequest](https://docs.microsoft.com/powershell/module/exchange/new-moverequest) в Exchange Online PowerShell.
 
@@ -239,7 +221,7 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
    $RC = Get-Credential
    ```
 
-4. В Exchange Online PowerShell, создайте новый командлет **New-MoveRequest** , как в следующем примере:
+4. В Exchange Online PowerShell, создайте новый командлет **New-MoveRequest**, как в следующем примере:
 
    ```powershell
    New-MoveRequest -Remote -RemoteHostName mail.contoso.com -RemoteCredential $RC -Identity user@contoso.com -TargetDeliveryDomain <YourAppropriateDomain>

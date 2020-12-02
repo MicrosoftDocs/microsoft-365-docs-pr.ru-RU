@@ -1,5 +1,5 @@
 ---
-title: Настройка условного доступа
+title: Настройка параметров после регистрации
 description: Как исключить некоторые учетные записи Майкрософт
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
@@ -9,29 +9,36 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8844c50f5faba609b3f5f53adc5ab45ba1dbaa74
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 76a73372cc7517c3241390e58c28b0b02bffd664
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529687"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527701"
 ---
-# <a name="adjust-conditional-access"></a>Настройка условного доступа
+# <a name="adjust-settings-after-enrollment"></a>Настройка параметров после регистрации
 
-Если вы используете политики [условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) в Организации, необходимо настроить их для исключения определенных учетных записей, чтобы обеспечить правильную работу управляемого рабочего стола Майкрософт.
+После того как вы закончите регистрацию на рабочем столе Майкрософт, необходимо настроить некоторые параметры Microsoft Intune и Azure Active Directory (Azure AD), чтобы разрешить управление и обеспечить безопасность. Задайте следующие параметры, чтобы исключить группы Azure AD, которые содержат устройства и пользователей, управляемые корпорацией Майкрософт. Действия по исключению групп см в разделе [Условный доступ: пользователи и группы](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users).
 
-Для этого выполните следующие действия:
+## <a name="microsoft-intune-settings"></a>Параметры Microsoft Intune
 
-1. Ознакомьтесь с разделом "откатить действия", [чтобы: планирование развертывания условного доступа в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access#rollback-steps).
-2. Выполните действия, чтобы исключить группу *служебных учетных записей современного рабочего места* для всех политик.
+- Профиль развертывания для автопилота: исключите **современные устройства "современные рабочие места" — все**  группы Azure AD. Для получения инструкций обратитесь к разделу [Регистрация устройств Windows в Intune с помощью Windows автопилота](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot).
+- Политики условного доступа: исключите группу Azure AD **служебных учетных записей современного рабочего места** . Для получения инструкций обратитесь [к разделу условный доступ: пользователи и группы](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups).
+- Многофакторная проверка подлинности: Убедитесь, что все политики условного доступа, требующие многофакторной проверки подлинности, исключают группу Azure AD **учетных записей служб современного рабочего** Дополнительные сведения см. в статье [политики условного доступа](../get-ready/readiness-assessment-fix.md#conditional-access-policies) и [Условный доступ: требовать MFA для всех пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
+- Базовый план безопасности: исключите **устройства современного рабочего места — все**  группы Azure AD. В разделе [Использование базовых показателей безопасности для настройки устройств с Windows 10 в Intune](https://docs.microsoft.com/mem/intune/protect/security-baselines).
+- Windows 10 Update Ring: исключите **устройства современного рабочего места — все**  группы Azure AD. Дополнительные сведения: [Управление обновлениями программного обеспечения Windows 10 в Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure).
 
 
-Если у вас возникли сложности с использованием условного доступа, обратитесь в [службу поддержки](../working-with-managed-desktop/admin-support.md)администраторов.
+## <a name="azure-active-directory-settings"></a>Параметры Azure Active Directory
+
+Самостоятельный сброс пароля: выберите параметр **выбрано** , а затем выберите " **современные устройства" — все** группы Azure AD. Дополнительные сведения см. [в разделе Tutorial: разрешить пользователям разблокировать свою учетную запись или сбросить пароли с помощью функции самообслуживания Azure Active Directory для самостоятельного сброса пароля](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+
+
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Действия для начала работы с управляемым рабочим столом Майкрософт
 
 1. [Добавление и проверка контактов администратора на портале администрирования](add-admin-contacts.md)
-2. Настройка условного доступа (этот раздел)
+2. Настройка параметров после регистрации (Эта статья)
 3. [Назначение лицензий](assign-licenses.md)
 4. [Развертывание корпоративного портала Intune](company-portal.md)
 5. [Включение службы Enterprise State Roaming](enterprise-state-roaming.md)
