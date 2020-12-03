@@ -15,23 +15,23 @@
       items:
         - name: Обзор
           href: empower-people-to-work-remotely.md
-        - name: Шаг 1. Повышение безопасности входа
+        - name: Этап 1. Повышение безопасности входа
           href: empower-people-to-work-remotely-secure-sign-in.md
-        - name: Шаг 2. Обеспечение удаленного доступа
+        - name: "Этап\_2. Обеспечение удаленного доступа"
           href: empower-people-to-work-remotely-remote-access.md
-        - name: "Шаг\_3. Развертывание служб безопасности и соответствия требованиям"
+        - name: Этап 3. Развертывание служб безопасности и соответствия требованиям
           href: empower-people-to-work-remotely-security-compliance.md
-        - name: Шаг 4. Развертывание управления конечными точками
+        - name: "Этап\_4. Развертывание управления конечными точками"
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: Шаг 5. Развертывание служб и приложений для повышения производительности
+        - name: "Этап\_5. Развертывание служб и приложений для повышения производительности"
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: Шаг 6. Обучение удаленных сотрудников
+        - name: Этап 6. Обучение удаленных сотрудников
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Настройка безопасной совместной работы с помощью Microsoft 365
       items:
         - name: Обзор
           href: setup-secure-collaboration-with-teams.md
-        - name: Шаг 1. Настройка трех уровней защиты в Microsoft Teams
+        - name: Этап 1. Настройка трех уровней защиты в Microsoft Teams
           items:
             - name: Обзор трех уровней защиты
               href: configure-teams-three-tiers-protection.md
@@ -43,7 +43,7 @@
               href: configure-teams-highly-sensitive-protection.md
             - name: Настройка команды с изоляцией для обеспечения безопасности
               href: secure-teams-security-isolation.md
-        - name: Шаг 2. Настройка внешнего общего доступа
+        - name: "Этап\_2. Настройка внешнего общего доступа"
           items:
             - name: Обзор внешнего общего доступа
               href: collaborate-with-people-outside-your-organization.md
@@ -109,14 +109,16 @@
           items:
             - name: Обзор
               href: collaboration-governance-overview.md
-            - name: Управление как отправной пункт
+            - name: Создание плана управления
               href: collaboration-governance-first.md
-            - name: Группы с SharePoint
-              href: groups-sharepoint-governance.md
-            - name: 'Группы, SharePoint и Teams'
-              href: groups-sharepoint-teams-governance.md
-            - name: Справочник по взаимодействию служб
-              href: groups-services-interactions.md
+            - name: Параметры в службах
+              items:
+                - name: Группы с SharePoint
+                  href: groups-sharepoint-governance.md
+                - name: 'Группы, SharePoint и Teams'
+                  href: groups-sharepoint-teams-governance.md
+                - name: Группы с другими службами
+                  href: groups-services-interactions.md
             - name: Доступ
               href: groups-teams-access-governance.md
             - name: Соответствие требованиям

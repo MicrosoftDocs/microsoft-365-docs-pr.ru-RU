@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Определите, где хранятся данные клиентов Microsoft 365 по всему миру
-ms.openlocfilehash: 6ad35082cbed602325e2a32edb825a17b5cb9f4a
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 4b1e0d30d37ec9bc7a333216854e8eb602e07cc1
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376519"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519731"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -29,7 +29,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Где хранятся данные клиентов Microsoft 365
 
-В таблицах ниже показано, где хранятся неактивные данные клиентов для служб Microsoft 365 во всех расположениях глобальных облаков Майкрософт. Разверните расположение своей страны выставления счетов, чтобы узнать, где будут храниться данные клиента для каждой службы.
+В приведенных ниже таблицах показано, где хранятся неактивные данные клиентов для служб Microsoft 365 во всех расположениях глобальных облаков Майкрософт. Разверните расположение своей страны выставления счетов, чтобы узнать, где будут храниться данные клиента для каждой службы.
 
 Если ваша компания находится в Европейском союзе, см. дополнительные сведения в статье [Расположения данных для Европейского союза](EU-data-storage-locations.md). 
 
@@ -143,7 +143,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Соединенное Королевство | Дарем, Лондон, Кардифф |
 | Соединенные Штаты |  Бойдтон, Шайенн, Чикаго, Де-Мойн, Куинси, Сан-Антонио, Санта-Клара, Сан-Хосе |
 
-Новые клиенты Microsoft 365 по умолчанию располагаются в регионе на основе страны адреса выставления счетов, связанного с первой подпиской этого клиента. Чтобы подтвердить место хранения данных клиента для существующих служб Office 365, просмотрите сведения о расположении данных для конкретных клиентов в своем Центре администрирования Office 365 в разделе "Параметры" | "Профиль организации" | Карточка "Расположение данных". Кроме того, вы можете развернуть в списке ниже страну, в которой находится ваша организация, чтобы узнать, где будут храниться данные клиента, если вы начнете использовать службу Microsoft 365 сегодня.
+Новые клиенты Microsoft 365 по умолчанию располагаются в регионе на основе страны адреса выставления счетов, связанного с первой подпиской этого клиента. Чтобы подтвердить место хранения данных клиента для существующих служб Office 365, просмотрите сведения о расположении данных для конкретных клиентов в своем Центре администрирования Office 365 в разделе "Параметры" | "Параметры организации" | "Профиль организации" | Карточка "Расположение данных". Кроме того, вы можете развернуть в списке ниже страну, в которой находится ваша организация, чтобы узнать, где будут храниться данные клиента, если вы начнете использовать службу Microsoft 365 сегодня.
 
 ## <a name="afghanistan"></a>Афганистан
 <details><summary>Щелкните, чтобы развернуть</summary><p>
@@ -251,7 +251,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Skype для бизнеса | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Microsoft Teams | Соединенные Штаты |
-| Office Online &amp; Mobile | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Office Online и Mobile | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | EOP | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Intune | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | MyAnalytics | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
@@ -324,8 +324,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -348,8 +348,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -372,8 +372,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -397,7 +397,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -419,7 +419,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -444,8 +444,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -515,7 +515,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -540,8 +540,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -612,8 +612,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -684,8 +684,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -732,8 +732,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -781,7 +781,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -805,7 +805,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -876,8 +876,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -899,9 +899,9 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Бразилия |
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Бразилия |
-| Office Online &amp; Mobile | Бразилия |
+| Office Online и Mobile | Бразилия |
 | EOP | Бразилия |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Бразилия |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -923,7 +923,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Skype для бизнеса | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Office Online и Mobile | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | EOP | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Intune | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | MyAnalytics | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
@@ -948,8 +948,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1019,7 +1019,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -1117,7 +1117,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Канада |
 | Office Online и Mobile | Канада |
 | EOP | Канада |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Канада |
 | Планировщик | Канада |
 | Sway | Соединенные Штаты |
@@ -1164,8 +1164,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1237,7 +1237,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1332,8 +1332,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1452,8 +1452,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1525,7 +1525,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1644,8 +1644,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1668,8 +1668,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1693,7 +1693,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1740,8 +1740,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -1859,9 +1859,9 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 3 — Северная и Южная Америка |
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
+| Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2005,7 +2005,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2052,8 +2052,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2123,7 +2123,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -2243,9 +2243,9 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| Office Online и Mobile | Соединенные Штаты |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2268,8 +2268,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2292,8 +2292,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2340,8 +2340,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2437,7 +2437,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2460,8 +2460,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2484,8 +2484,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2556,8 +2556,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2820,8 +2820,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -2915,7 +2915,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -2987,7 +2987,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Республика Корея |
 | Skype для бизнеса | Республика Корея |
 | Microsoft Teams | Республика Корея |
-| Office Online &amp; Mobile | Республика Корея |
+| Office Online и Mobile | Республика Корея |
 | EOP | Республика Корея |
 | Intune | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | MyAnalytics | Республика Корея |
@@ -3059,7 +3059,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -3468,8 +3468,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -3564,8 +3564,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -3684,8 +3684,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -3876,8 +3876,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -3948,8 +3948,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4091,7 +4091,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Норвегия |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Норвегия |
-| Office Online &amp; Mobile | Норвегия |
+| Office Online и Mobile | Норвегия |
 | EOP | Норвегия |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Норвегия |
@@ -4139,7 +4139,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -4187,7 +4187,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Skype для бизнеса | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Office Online и Mobile | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | EOP | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Intune | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | MyAnalytics | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
@@ -4212,8 +4212,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4261,7 +4261,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4285,7 +4285,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4404,8 +4404,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4451,7 +4451,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -4596,8 +4596,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4620,8 +4620,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4643,9 +4643,9 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| Office Online и Mobile | Соединенные Штаты |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4667,9 +4667,9 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| Office Online и Mobile | Соединенные Штаты |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4692,8 +4692,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4716,8 +4716,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -4955,9 +4955,9 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| Office Online и Mobile | Соединенные Штаты |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -5099,9 +5099,9 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| Office Online и Mobile | Соединенные Штаты |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -5172,8 +5172,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -5315,7 +5315,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -5484,8 +5484,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -5555,7 +5555,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -5580,8 +5580,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -5628,8 +5628,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -5748,8 +5748,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -5773,7 +5773,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Глобальный географический регион 3 — Северная и Южная Америка |
 | EOP | Глобальный географический регион 3 — Северная и Южная Америка |
-| Intune | США |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Глобальный географический регион 3 — Северная и Южная Америка |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
@@ -5819,7 +5819,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -5868,8 +5868,8 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Соединенные Штаты |
 | Office Online и Mobile | Соединенные Штаты |
-| EOP | США |
-| Intune | США |
+| EOP | Соединенные Штаты |
+| Intune | Соединенные Штаты |
 | MyAnalytics | Соединенные Штаты |
 | Планировщик | Соединенные Штаты |
 | Sway | Соединенные Штаты |
