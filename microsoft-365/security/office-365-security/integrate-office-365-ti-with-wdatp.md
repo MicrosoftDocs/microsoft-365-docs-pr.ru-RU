@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Используйте защитник Майкрософт для Office 365 вместе с защитником Майкрософт для конечной точки, чтобы получить более подробные сведения о угрозах для ваших устройств и содержимого электронной почты.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f668aa1234509789dacd2b018b94f1bfbc79e2c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 8a598dce3a8049d97d43b742477ca8f7a2bfeadb
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357783"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561223"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Использование защитника Microsoft для Office 365 вместе с защитником Майкрософт для конечной точки
 
@@ -43,11 +43,11 @@ ms.locfileid: "49357783"
 > [!TIP]
 > **[Узнайте больше о центре безопасности защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (также называемом защитником Майкрософт для портала конечных точек).
   
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 - У вашей организации должен быть защитник Майкрософт для Office 365 (или Office 365 в ~) и защитник Майкрософт для конечной точки.
     
-- Вы должны быть глобальным администратором или иметь роль администратора безопасности (например, администратора безопасности), назначенную [в &amp; центре безопасности и соответствия требованиям](https://protection.office.com). (См. [разрешения в центре безопасности и &amp; соответствия требованиям](permissions-in-the-security-and-compliance-center.md))
+- Вы должны быть глобальным администратором или иметь роль администратора безопасности (например, администратора безопасности), назначенную в [центре безопасности & соответствия требованиям](https://protection.office.com). (См. [разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md))
     
 - Необходимо иметь доступ к [проводнику (или обнаружениям в режиме реального времени)](threat-explorer.md) в центре безопасности & соответствия требованиям и центре безопасности защитника Майкрософт.
     
@@ -69,10 +69,10 @@ ms.locfileid: "49357783"
 
 7. Прокрутите список вниз до раздела **Office 365 Threat Intelligence Connection** и включите подключение.<br/>![Подключение к бизнес-аналитике Office 365](../../media/mdatp-oatptoggle.png)<br>
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Исследование угроз и возможности реагирования в Office 365](office-365-ti.md)
   
-[Microsoft Defender для Office 365](office-365-atp.md)
+[Защитник Майкрософт для Office 365](office-365-atp.md)
   
-[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection)
+[Защитник Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection)

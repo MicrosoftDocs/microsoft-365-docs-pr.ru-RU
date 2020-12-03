@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Защита бизнес-сообщений и данных от угроз кибератак, в том числе от атак, фишинга и вредоносных вложений.
-ms.openlocfilehash: 8f170079a5542f703376139cdd6ec4550712d0fd
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: df6d837c31244efb1b6cea804972601acdb5dc17
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944381"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558542"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>12 самых популярных задач по обеспечению безопасности Teams для поддержки работы из дома
 
@@ -42,17 +42,17 @@ ms.locfileid: "48944381"
 
 |Шаг|Задача|Все планы Office 365 для предприятий|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
-|1,1|[Включение многофакторной проверки подлинности Azure (MFA)](#1-enable-azure-multi-factor-authentication-mfa)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2|[Защита от угроз](#2-protect-against-threats)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|4|[Настройка защитника Майкрософт для Office 365](#3-configure-microsoft-defender-for-office-365)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1 |[Включение многофакторной проверки подлинности Azure AD (MFA)](#1-enable-azure-ad-multi-factor-authentication-mfa)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2 |[Защита от угроз](#2-protect-against-threats)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3 |[Настройка защитника Майкрософт для Office 365](#3-configure-microsoft-defender-for-office-365)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[Настройка защитника Майкрософт для удостоверения](#4-configure-microsoft-defender-for-identity)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|5 |[Включение Microsoft 365 Defender](#5-turn-on-microsoft-365-defender)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|5 |[Включение защитника Microsoft 365](#5-turn-on-microsoft-365-defender)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[Настройка защиты мобильных приложений Intune для телефонов и планшетных ПК](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[Настройка MFA и условный доступ для гостей, в том числе защита приложений Intune](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[Регистрация компьютеров в управлении устройствами и потребовать соответствия требованиям компьютеров](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |9 |[Оптимизация сети для подключения к облаку](#9-optimize-your-network-for-cloud-connectivity)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |10 |[Обучение пользователей](#10-train-users)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|-11:00|[Начало работы с Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|11 |[Начало работы с Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |12 |[Отслеживание угроз и выполнение действий](#12-monitor-for-threats-and-take-action)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
 
@@ -60,7 +60,7 @@ ms.locfileid: "48944381"
 
 ![Снимок экрана: Оценка безопасности (Майкрософт)](../media/secure-score.png)
 
-## <a name="1-enable-azure-multi-factor-authentication-mfa"></a>1: включение многофакторной проверки подлинности Azure (MFA)
+## <a name="1-enable-azure-ad-multi-factor-authentication-mfa"></a>1: включение многофакторной проверки подлинности Azure AD (MFA)
 
 Для улучшения безопасности сотрудников, работающих из дома, можно использовать для этого функцию MFA. Если вы еще не настроили процессы, обработайте ее в качестве экстренного пилотного проекта и убедитесь, что у вас есть поддержка, позволяющая сотрудникам, которые зависает. Так как вы, вероятно, не можете распространять аппаратные устройства защиты, используйте средства проверки подлинности Windows Hello и приложения проверки подлинности для смартфонов, например
 
@@ -70,7 +70,7 @@ ms.locfileid: "48944381"
 
 ****
 
-|План|Рекомендация|
+|Планирование|Рекомендация|
 |---|---|
 |Планы Microsoft 365 (без Azure AD P1 или P2)|[Включите параметры безопасности, по умолчанию заданные в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.|
 |Microsoft 365 E3 (с Azure AD P1)|Используйте [Общие политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br/>- [Обязательное использование MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br/>- [Обязательное использование MFA для всех пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br/> - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)|
@@ -112,7 +112,7 @@ ms.locfileid: "48944381"
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Настройка защитника Майкрософт для удостоверения
 
-[Microsoft Defender для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) — это облачное решение для обеспечения безопасности, использующее ваши локальные сигналы Active Directory для выявления, обнаружения и исследования расширенных угроз, скомпрометированных удостоверений и вредоносных внутренних действий, направленных против вашей организации. Обратите внимание на следующее, так как она защищает локальную среду и облачную инфраструктуру, не имеет зависимостей и предварительных требований, а также может обеспечить немедленную пользу.
+[Защитник Майкрософт для удостоверения](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) — это решение для обеспечения безопасности на основе облака, которое использует локальные сигналы Active Directory для определения, обнаружения и исследования сложных угроз, скомпрометированных удостоверений и действий по предварительной программе предварительной оценки, направленных в организацию. Обратите внимание на следующее, так как она защищает локальную среду и облачную инфраструктуру, не имеет зависимостей и предварительных требований, а также может обеспечить немедленную пользу.
 
 - Познакомьтесь с [краткими руководствами по идентификации](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) , чтобы быстро получить доступ к программе установки.
 - Просмотрите [видео: введение в защитник Майкрософт для удостоверения](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)

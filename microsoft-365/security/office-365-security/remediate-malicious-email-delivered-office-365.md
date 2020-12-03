@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Исправление угроз
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: 5568a296697c7cdbbada333d45f498a2876603f9
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: 4adabe3e85b2bff26167bfad92a9a7fcbf24e58e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350738"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561295"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Исправление вредоносных сообщений электронной почты, доставляемых в Office 365
 
@@ -85,7 +85,7 @@ ms.locfileid: "49350738"
       > В настоящее время только пользователь, имеющий доступ к почтовому ящику, может восстанавливать элементы из папки с обратимым удалением.
 
   - **Не** поддаются действию: сообщения из следующих расположений не могут обрабатываться или перемещаться в действиях по исправлению:
-    - Quarantine
+    - Карантин
     - Окончательно удаленная папка
     - Локальная/внешняя среда
     - Сбой или удален

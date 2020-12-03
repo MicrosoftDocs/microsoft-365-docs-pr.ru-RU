@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Дополнительные сведения об устройствах в службах при переходе с Microsoft Cloud Германии (Microsoft Cloud записей) на службы Office 365 в новом регионе для немецкого центра обработки данных.
-ms.openlocfilehash: da05a3c2eb6a8d579c53d403a1ef575c389eda12
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 941b836871f4ffb7f39f6e144675e9ee15510270
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551957"
+ms.locfileid: "49560865"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Дополнительные сведения об устройстве для миграции с Microsoft Cloud записей
 
@@ -136,6 +136,12 @@ Private key state : Okay
 
 
 ## <a name="windows-azure-ad-join"></a>Присоединение к Windows Azure AD
+
+**Важно!** Субъект службы Intune будет включен после миграции в Commerce, что означает активацию регистрации устройств Azure AD. Если вы заблокировали регистрацию устройств Azure AD перед миграцией, необходимо отключить субъект службы Intune с PowerShell, чтобы отключить регистрацию устройств Azure AD с помощью портала Azure AD. Вы можете отключить субъект службы Intune с помощью этой команды в модуле PowerShell Azure Active Directory PowerShell для Graph.
+
+```powershell
+Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
+```
 
 ### <a name="unjoin"></a>Не присоединение
 

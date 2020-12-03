@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите базовую структуру локальной ИТ-инфраструктуры компании Contoso и ее соответствие требованиям Microsoft 365 для предприятий.
-ms.openlocfilehash: b3b67429faccc5d22d49a2921fff4c8b3c3c062e
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 72d502b5078a1e572eeba27832550af52907e209
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920458"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558410"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>ИТ-инфраструктура и бизнес-потребности компании Contoso
 
@@ -114,15 +114,15 @@ ms.locfileid: "48920458"
 ИТ-отдел Contoso определил следующее сопоставление бизнес-потребностей для функций Microsoft 365/с и до развертывания:
 
 
-| Категория | Потребности бизнеса | Microsoft 365 для корпоративных продуктов и функций |
+| Category | Потребности бизнеса | Microsoft 365 для корпоративных продуктов и функций |
 |:-------|:-----|:-----|
 | Производительность труда |  |  |
 |  | Упрощение совместной работы | Microsoft Teams, SharePoint, OneDrive |
 |  | Повышение производительности труда удаленных и мобильных сотрудников | Рабочие нагрузки Microsoft 365 и облачные данные |
 |  | Повышение уровня креативности и инноваций | Windows Ink, Кортана на рабочем месте, PowerPoint |
 | Безопасность |  |  |
-|  | Управление удостоверениями и доступом | Выделенные учетные записи глобальных администраторов с многофакторной проверкой подлинности (MFA) Azure и Azure AD Privileged Identity Management (PIM) <BR> Многофакторная проверка подлинности для всех учетных записей пользователей <BR> Условный доступ <BR> Windows Hello <BR> Credential Guard в Защитнике Windows |
-|  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Defender для Office 365 <BR> Microsoft Defender для Office 365 <BR> Исследование угроз и ответ Microsoft 365 <BR> |
+|  | Управление удостоверениями и доступом | Выделенные учетные записи глобальных администраторов с многофакторной проверкой подлинности в Azure AD (MFA) и управление удостоверениями Azure AD (PIM) <BR> Многофакторная проверка подлинности для всех учетных записей пользователей <BR> Условный доступ <BR> Windows Hello <BR> Credential Guard в Защитнике Windows |
+|  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Защитник для Office 365 <BR> Защитник Майкрософт для Office 365 <BR> Исследование угроз и ответ Microsoft 365 <BR> |
 |  | Защита информации | Azure Information Protection <BR> Защита от потери данных (DLP) <BR> Windows Information Protection (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Управление безопасностью | Защитник Azure  <BR> Центр безопасности Защитника Windows |
 | Удаленный доступ, доступ с мобильных устройств и работа с бизнес-партнерами |  |  |

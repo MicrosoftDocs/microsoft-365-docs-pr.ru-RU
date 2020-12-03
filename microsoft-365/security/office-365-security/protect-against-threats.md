@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 description: Администраторы могут узнать о защите от угроз в Microsoft 365 и настроить способ ее использования в Организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d80e81ab5648d186bb72f29acc010442877aba7c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 98a20c8805ff9eb735ca880cfc24a0acf9698b3e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356683"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561211"
 ---
 # <a name="protect-against-threats"></a>Защита от угроз
 
@@ -36,7 +36,7 @@ ms.locfileid: "49356683"
 > [!IMPORTANT]
 > **Начальные Рекомендуемые параметры включены для каждого типа политики, но многие варианты доступны, и вы можете настроить параметры в соответствии с потребностями конкретной организации**. Разрешите около 30 минут, чтобы политики или изменения работали с центром обработки данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Подписки
 
@@ -54,9 +54,9 @@ ms.locfileid: "49356683"
 |Защита от фишинга|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Защита от нежелательной почты|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Автоматическая очистка нулевого времени (для электронной почты)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|Защита от вредоносных URL-адресов и файлов в электронной почте и документах Office (безопасные ссылки и безопасные вложения)|[Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Защита от вредоносных URL-адресов и файлов в электронной почте и документах Office (безопасные ссылки и безопасные вложения)|[Защитник Майкрософт для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 |Включение ATP для рабочих нагрузок SharePoint, OneDrive и Microsoft Teams|[Защитник для Office 365 ](atp-for-spo-odb-and-teams.md)|
-|Расширенная защита от фишинга|[Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Расширенная защита от фишинга|[Защитник для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Роли и разрешения
 
@@ -71,7 +71,7 @@ ms.locfileid: "49356683"
 |Управление организациями в Exchange Online|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |
 
-Чтобы узнать больше, ознакомьтесь [с разрешениями в центре безопасности и &amp; соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+Дополнительные сведения см. [в разделе разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="before-you-begin-turn-on-audit-logging-for-reporting-and-investigation"></a>Прежде чем начать, включите ведение журнала аудита для создания отчетов и исследований
 

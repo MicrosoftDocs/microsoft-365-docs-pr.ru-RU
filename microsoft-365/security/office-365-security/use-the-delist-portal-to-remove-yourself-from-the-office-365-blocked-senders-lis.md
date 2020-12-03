@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье рассказывается, как использовать портал удаления списков для удаления себя из списка заблокированных отправителей Microsoft 365.
-ms.openlocfilehash: 637b610d0dd621e6d922d23354aead8e3824ad6a
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: f4e7bcc13ac6c133880eb0ebe69ba3f724d0a84e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445535"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561427"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Удаление себя из списка заблокированных отправителей с помощью портала удаления из списка
 
@@ -39,13 +39,13 @@ ms.locfileid: "48445535"
 
 Если ваш адрес внесен в список заблокированных отправителей, то в ответ на отправленное письмо вы получаете сообщение об ошибке примерно следующего вида:
 
-> 550 5.7.606-649 доступ запрещен, запрещена отправка IP [_IP-адрес_]; Чтобы запросить удаление из этого списка, перейдите https://sender.office.com/ к ним и следуйте инструкциям. Дополнительные сведения см. [в статье Exchange Online Reports не о доставке](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
+> 550 5.7.606-649 доступ запрещен, запрещена отправка IP [_IP-адрес_]; Чтобы запросить удаление из этого списка, перейдите <https://sender.office.com/> к ним и следуйте инструкциям. Дополнительные сведения см. [в статье Exchange Online Reports не о доставке](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
 
 где  _IP address_  IP-адрес компьютера, на котором запущен почтовый сервер.
 
 ### <a name="to-use-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Удаление себя из списка заблокированных отправителей с помощью портала удаления из списка
 
-1. В веб-браузере перейдите по адресу [https://sender.office.com](https://sender.office.com)
+1. В веб-браузере перейдите по адресу <https://sender.office.com>
 
 2. и следуйте инструкциям на странице. Убедитесь, что указали тот адрес электронной почты, на который пришло сообщение об ошибке, и введите указанный в нем IP-адрес. За одно посещение можно указать только один адрес электронной почты и IP-адрес.
 

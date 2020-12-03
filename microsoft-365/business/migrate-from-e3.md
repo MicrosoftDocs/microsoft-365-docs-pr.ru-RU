@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как перенести бизнес в Microsoft 365 бизнес премиум из Office 365 E3.
-ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: eebf78c24ed4bfd1a4fc2d843f37aebbe3d35e31
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842167"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558265"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Переход с Office 365 E3 на Microsoft 365 бизнес премиум 
 
@@ -53,7 +53,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 | **Защита от угроз**        | | | 
 | Защитник для Office 365, план 1 | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | Не включено, но его можно добавить на | 
 | **управление удостоверениями;**        | | | 
-| Самостоятельный сброс паролей для гибридных учетных записей Azure Active Directory (Azure AD), служба Azure Multi-Factor Authentication (MFA), условный доступ, обратная запись пароля для локальных удостоверений|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    |  | 
+| Самостоятельный сброс паролей для гибридных учетных записей Azure Active Directory (Azure AD), Multi-Factor Authentication (MFA) Azure AD (MFA), условный доступ, обратная запись пароля для локальных удостоверений|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    |  | 
 | **Управление устройствами и приложениями**        | | |
 | Microsoft Intune, Windows для автопилота|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    |  |
 | Активация совместно используемого компьютера|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Входит в состав Office 365 E3](../media/check-mark.png)| 
@@ -80,7 +80,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 - Конфигурации служб производительности и их данные, такие как Teams, почтовые ящики Exchange Online, сайты SharePoint Online, папки OneDrive для бизнеса и записные книжки OneNote.
 - Приложения Office будут масштабироваться автоматически. Современное лицензирование Office 365 будет проверять назначение лицензии пользователя каждые 72 часов и преобразовывать приложения Office в версию, которая соответствует подписке пользователя.
 
-### <a name="windows-10"></a>Windows 10;
+### <a name="windows-10"></a>Windows 10
 
 Если Windows не находится в обновлении Windows Pro Creator, [обновите их до версии Windows Pro](upgrade-to-windows-pro-creators-update.md)Creators.
 

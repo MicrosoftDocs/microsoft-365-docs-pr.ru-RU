@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: Узнайте, как получить отчет об использовании почтовых ящиков, чтобы узнать о действиях пользователей с почтовым ящиком пользователя.
-ms.openlocfilehash: 8d942f507c1e3102f909fb33eb16e00f7ebf05ea
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: 988f6e638e01cb5929e2ad9dd74e3d08f8e51c97
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126571"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561463"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>Отчеты Microsoft 365 в центре администрирования — использование почтовых ящиков
 
@@ -36,9 +36,9 @@ ms.locfileid: "49126571"
 ## <a name="how-to-get-to-the-mailbox-usage-report"></a>Просмотр отчета об использовании почтового ящика
 
 1. В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы.
-
 2. Выберите пункт **Просмотреть больше** в разделе **Активные пользователи — Microsoft 365 Services**. 
 3. В раскрывающемся списке **Активные пользователи** выберите **Exchange** \> **использование почтовых ящиков** Exchange.
+
   
 ## <a name="interpret-the-mailbox-usage-report"></a>Анализ отчета об использовании почтового ящика
 

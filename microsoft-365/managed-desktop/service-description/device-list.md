@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2af301fcac2f02a415972f8bf7857fa7b6ee0c1e
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 2cca4850227716fe5f7d7d21f3220b46e9761420
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919836"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561187"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
@@ -37,16 +37,16 @@ ms.locfileid: "48919836"
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архивации   | Дата выбытия   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| _ *\* [Dell Precision 5310 2 – в — 1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г.  | 28 апреля 2025 г. |
-| **\*[Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г.  |
-| **\*[Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г. |
-| **\*[Dell Latitude 7310/7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 4 мая 2022 г.  | 4 мая 2025 г.  |
+| [Dell Precision 5310 2 – в – 1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г.  | 28 апреля 2025 г. |
+| [Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г.  |
+| [Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)_ * | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г. |
+| [Dell Latitude 7310/7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 4 мая 2022 г.  | 4 мая 2025 г.  |
 | [Dell Latitude 7410/7410 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-7410-business-laptop-or-2-in-1/spd/latitude-14-7410-2-in-1-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 19 мая 2022 г.  | 19 мая 2025 г.  |
 | [Dell Latitude 9410 2 – in – 1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 5 мая 2022 г.  | 5 мая 2025 г.  |
-| **\*[Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 5 мая 2022 г.  | 5 мая 2025 г.  |
-| **\*[Dell OptiPlex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop)** | 128 ГБ/Intel i3/8 ГБ ОЗУ | Нет | 27 мая 2022 г.  | 27 мая 2025 г.  |
-| **\*[Dell OptiPlex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio)** | 128 ГБ/Intel i3/8 ГБ ОЗУ | Нет | 15 мая 2022 г.  | 15 мая 2025 г.  |
-| **\*[Рабочая станция Dell 5550](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 27 мая 2022 г.  | 27 мая 2025 г.  |
+| [Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 5 мая 2022 г.  | 5 мая 2025 г.  |
+| [Dell OptiPlex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | 128 ГБ/Intel i3/8 ГБ ОЗУ | Нет | 27 мая 2022 г.  | 27 мая 2025 г.  |
+| [Dell OptiPlex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | 128 ГБ/Intel i3/8 ГБ ОЗУ | Нет | 15 мая 2022 г.  | 15 мая 2025 г.  |
+| [Рабочая станция Dell 5550](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 27 мая 2022 г.  | 27 мая 2025 г.  |
 
 ### <a name="hp"></a>КОМПАНИИ
 
@@ -55,9 +55,10 @@ ms.locfileid: "48919836"
 | [HP об 830/840/850 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-830-g7-notebook-pc-customizable-8pv71av-mb) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ21AV | 30 ноября 2021 г. | 30 ноября 2024 г. |
 | [HP об x360 830 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g7-notebook-pc-p-1f6c0ut-aba-1) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ21AV | 30 ноября 2021 г. | 30 ноября 2024 г. |
 | [HP елите x2 G4 для планшетов](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS03AV | 31 июля 2021 г. | 31 июля 2024 г. |
-| [HP об x360 1030 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8XW08AV | 31 августа 2021 г. | 31 августа 2024 г. |
-| [HP об x360 1040 G7](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1040-g7-notebook-pc-customizable-8wa57av-mb) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8XW08AV| 31 августа 2021 г. | 31 августа 2024 г. |
+| [HP об x360 1030/1040 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8XW08AV | 31 августа 2021 г. | 31 августа 2024 г. |
 | [HP елите Драгонфли](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ21AV | 31 марта 2021 г. | 31 марта 2024 г. |
+| **\*[HP Елитеоне 800 G6 24/27 на одном компьютере](https://store.hp.com/us/en/pdp/hp-eliteone-800-g6-all-in-one-touch-pc)** | 256/Intel i5/8 ГБ ОЗУ | SKU с 9XM14AV | 30 июня 2022 г. | 30 июня 2025 г. |
+| **\*[HP Елитедеск 800 G6 Desktop Mini PC](https://store.hp.com/us/en/pdp/hp-elitedesk-800-g6-desktop-mini-pc#!)** | 256/Intel i5/8 ГБ ОЗУ | SKU с 9XM14AV | 30 июня 2022 г. | 30 июня 2025 г. |
 | [HP Z2 Mini G5 Рабочая станция](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8QR48AV| 31 декабря 2021 г. | 31 декабря 2024 г. |
 | **\*[HP Збук Фирефли 14/15 G7 Mobile Workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ22AV, необходима ИК-камера | 30 ноября 2021 г. | 30 ноября 2024 г. |
 
@@ -65,8 +66,8 @@ ms.locfileid: "48919836"
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архивации   | Дата выбытия   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| **\*[Книга Surface 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 21 мая, 2022 | 21 мая, 2027 |
-| **\*[Переход на поверхность 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab)** | 128 ГБ/с Intel Core M3/8 ГБ ОЗУ | Нет | 21 мая, 2022 | 21 мая, 2027 |
+| [Книга Surface 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 21 мая, 2022 | 21 мая, 2027 |
+| [Переход на поверхность 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 ГБ/с Intel Core M3/8 ГБ ОЗУ | Нет | 21 мая, 2022 | 21 мая, 2027 |
 | [Поверхность портативного компьютера](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 12 октября 2022 г. | 12 октября 2025 г. |
 | [Ноутбук 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
 | [Портативный компьютер Surface 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 22 октября, 2021 | 22 октября, 2024 |

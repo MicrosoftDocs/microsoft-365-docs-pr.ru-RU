@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Настройка переадресации электронной почты на одну или несколько учетных записей электронной почты с помощью Office365.
-ms.openlocfilehash: acdca0b19eda70d7da34ce1093a4a1b11052fd79
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: c821d4363a053b432c4376d7b4fec4926df7b568
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551838"
+ms.locfileid: "49560796"
 ---
 # <a name="configure-email-forwarding"></a>Настройка переадресации электронной почты
 
@@ -39,6 +39,9 @@ ms.locfileid: "49551838"
 ::: moniker-end
   
 Администратор организации может иметь требования к настройке переадресации электронной почты для почтового ящика пользователя. Переадресация позволяет пересылать сообщения, отправленные в почтовый ящик пользователя, в другой почтовый ящик в организации или за ее пределами.
+
+> [!IMPORTANT]
+> Для управления автоматической пересылкой внешним получателям можно использовать политики фильтрации исходящей нежелательной почты. Дополнительные сведения см. [в статье Управление автоматическим перенаправлением внешних сообщений электронной почты в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/external-email-forwarding?view=o365-worldwide#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls).
 
   
 ## <a name="configure-email-forwarding"></a>Настройка переадресации электронной почты
@@ -102,5 +105,6 @@ ms.locfileid: "49551838"
      В центре администрирования [Создайте группу рассылки](../setup/create-distribution-lists.md), [добавьте в нее адреса](add-user-or-contact-to-distribution-list.md), а затем настройте перенаправление на адрес списка рассылки, выполнив инструкции, приведенные в этой статье.
     
 5. Не удаляйте учетную запись пользователя, который пересылается или удаляет лицензию.  В противном случае переадресация электронной почты прекратится. 
+
 
 ::: moniker-end 

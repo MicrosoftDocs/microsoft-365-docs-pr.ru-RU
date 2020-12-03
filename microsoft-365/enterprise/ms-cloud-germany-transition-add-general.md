@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Дополнительные сведения о службах при переходе с Microsoft Cloud Германии (Microsoft Cloud записей) на службы Office 365 в новом регионе для Германии.
-ms.openlocfilehash: 6fa09165f8aaa68e0f9fc567d96a4e53baaa594e
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 93692200f2519dbc647bb4e81b4bd8c646815858
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551786"
+ms.locfileid: "49558434"
 ---
 # <a name="additional-general-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Дополнительные общие сведения о миграции с Microsoft Cloud записей
 
@@ -49,14 +49,14 @@ ms.locfileid: "49551786"
 
 Приложение может быть одним из следующих:
 
-- Одностраничное приложение (SPA)
-- Веб-приложение, которое подписывает пользователей
-- Веб-приложение, вызывающее веб-API
-- Защищенный веб-API
-- Веб-API, вызывающий веб-API
-- Классическое приложение
-- Приложение демона
-- Мобильное приложение
+- [Одностраничное приложение (SPA)](https://docs.microsoft.com/azure/active-directory/develop/scenario-spa-overview)
+- [Веб-приложение, которое подписывает пользователей](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-sign-user-overview)
+- [Веб-приложение, вызывающее веб-API](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-call-api-overview)
+- [Защищенный веб-API](https://docs.microsoft.com/azure/active-directory/develop/scenario-protected-web-api-overview)
+- [Веб-API, вызывающий веб-API](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-api-call-api-overview)
+- [Классическое приложение](https://docs.microsoft.com/azure/active-directory/develop/scenario-desktop-overview)
+- [Приложение демона](https://docs.microsoft.com/azure/active-directory/develop/scenario-daemon-overview)
+- [Мобильное приложение](https://docs.microsoft.com/azure/active-directory/develop/scenario-mobile-overview)
  
 > [!NOTE] 
 > Когда приложение переключается на использование `login.microsoftonline.com` в качестве своего центра, маркеры будут подписываться этим новым центром. Если вы размещаете какие бы то ни было приложения ресурсов, в которые потребуются другие приложения, необходимо разрешить нестрогую проверку маркеров. Это означает, что ваше приложение должно разрешить маркеры, подписанные и общедоступными облаками Azure AD, Германии и Azure AD. Эта нестрогая проверка маркера необходима до тех пор, пока все клиентские приложения, которые вызывают вашу службу, полностью переносятся в общедоступное облако Azure AD. После миграции ваше приложение ресурсов должно принимать только те маркеры, которые подписаны общедоступным облаком Azure AD.
@@ -76,10 +76,10 @@ ms.locfileid: "49551786"
 
 5. Обновление параметров среды `AzurePublic` (а не `AzureGermany` ) в средствах администрирования и сценариях для:
 
-    - Azure PowerShell
-    - Azure AD PowerShell (MSOnline)
-    - Azure AD PowerShell (AzureAD)
-    - Azure CLI
+    - [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.8.0&viewFallbackFrom=azurermps-5.6.0)
+    - [Azure AD PowerShell (MSOnline)](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    - [Azure AD PowerShell (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+    - [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)
  
 **Сведения о публикуемых приложениях**
 
