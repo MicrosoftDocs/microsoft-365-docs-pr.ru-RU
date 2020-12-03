@@ -272,7 +272,23 @@
               href: ms-cloud-germany-transition.md
             - name: Согласие на миграцию
               href: ms-cloud-germany-migration-opt-in.md
-- name: Identity
+            - name: Взаимодействие с клиентами
+              href: ms-cloud-germany-transition-experience.md
+            - name: Действия и влияние этапов миграции
+              href: ms-cloud-germany-transition-phases.md
+            - name: Дополнительные сведения
+              items:
+                - name: Общие сведения
+                  href: ms-cloud-germany-transition-add-general.md
+                - name: Устройства
+                  href: ms-cloud-germany-transition-add-devices.md
+                - name: Предварительная подготовка
+                  href: ms-cloud-germany-transition-add-pre-work.md
+                - name: Интерфейс
+                  href: ms-cloud-germany-transition-add-experience.md
+                - name: Шаги миграции AD FS
+                  href: ms-cloud-germany-transition-add-adfs.md
+- name: Удостоверение
   items:
     - name: Стратегия
       href: identity-roadmap-microsoft-365.md

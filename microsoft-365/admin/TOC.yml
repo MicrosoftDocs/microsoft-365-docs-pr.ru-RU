@@ -121,6 +121,8 @@
               href: create-groups/compare-groups.md
             - name: Создание группы
               href: create-groups/create-groups.md
+            - name: Знакомство с группами
+              href: create-groups/explain-groups-knowledge-worker.md
             - name: Управление группами
               href: create-groups/manage-groups.md
             - name: Добавление и удаление участников группы
@@ -208,9 +210,9 @@
     - name: Управление данными и службами
       href: manage/index.yml
       items:
-        - name: Отслеживание активности пользователей с помощью отчетов
+        - name: Отслеживание активности Microsoft 365 с помощью отчетов
           href: activity-reports/activity-reports.md
-        - name: Отслеживание производительности пользователей с помощью оценки производительности
+        - name: Оценка производительности (Майкрософт) — обзор
           href: productivity/productivity-score.md
           items:
             - name: Совместная работа над контентом
