@@ -1,5 +1,5 @@
 ---
-title: Просмотр отчетов для защитника для Office 365
+title: Просмотр отчетов о защитнике Office 365 в панели мониторинга отчетов
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-office365
 description: В центре безопасности & соответствия требованиям найдите и используйте отчеты для защитника Майкрософт для Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5efaef018c78bd161c9cde81af36be92173479ae
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: a237049c9ebbccf1c01feeb21129496e16d437b2
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561731"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572493"
 ---
-# <a name="view-reports-for-microsoft-defender-for-office-365"></a>Просмотр отчетов для защитника Майкрософт для Office 365
+# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Просмотр отчетов защитник для Office 365 в панели мониторинга отчетов в центре безопасности & соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -338,27 +338,16 @@ ms.locfileid: "49561731"
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Какие разрешения необходимы для просмотра отчетов защитника для Office 365?
 
-Для просмотра и использования отчетов, описанных в этом разделе, **необходимо назначить соответствующую роль для центра безопасности & соответствия требованиям и центра администрирования Exchange**.
+Для просмотра и использования отчетов, описанных в этом разделе, необходимо быть участником одной из следующих групп ролей в центре безопасности & соответствия требованиям:
 
-- Для центра безопасности & соответствия требованиям необходимо назначить одну из следующих ролей:
+- **Управление организацией**
+- **Администратор безопасности**
+- **Средство чтения безопасности**
+- **Глобальный читатель**
 
-  - Управление организацией
-  - Администратор безопасности (это можно назначить в центре администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )).
-  - Оператор безопасности (это можно назначить в центре администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )).
-  - Читатель сведений о безопасности
+Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-- Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)):
-
-  - Управление организацией
-  - Управление организацией с правами только на просмотр
-  - Роль получателей с правами только на просмотр
-  - Управление соответствием требованиям
-
-Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами.
-
-- [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
-
-- [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+**Примечание**: при добавлении пользователей в соответствующую роль Azure Active Directory в центре администрирования Microsoft 365 пользователям предоставляются необходимые разрешения в центре безопасности & соответствия требованиям _и_ разрешениях для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Что делать, если в отчетах данные не отображаются?
 

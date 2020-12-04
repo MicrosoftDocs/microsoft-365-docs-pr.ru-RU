@@ -1,5 +1,5 @@
 ---
-title: Создание сайта для общения
+title: Создание коммуникационного сайта
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создание коммуникационного сайта для кампании.
-ms.openlocfilehash: 3435ede554c16bb787b87a6ea76e0c41f62b8fe5
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 5bd0dd36188f5ec1d550c9baa875e18debd99528
+ms.sourcegitcommit: 26c2f01d6f88f6c288b04f9f08062d68dd1e67e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165725"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49569967"
 ---
 # <a name="create-a-communications-site-for-your-campaign"></a>Создание коммуникационного сайта для кампании
 
@@ -40,7 +40,7 @@ ms.locfileid: "44165725"
 
 1. Добавление логотипа и цвета для кампании в качестве изображения и темы заголовка
 2. Попросите вашей стратегии, сообщений, важных документов, каталога и вопросов и ответов в **веб-части главный Имиджевый баннер**.
-3. Добавьте в команду в **текстовую веб-часть**оператор кандидатов.
+3. Добавьте в команду в **текстовую веб-часть** оператор кандидатов.
 4. Добавьте события кампании в **веб-часть Events** , чтобы все могли видеть, что поступило.
 5. Добавлять фотографии, которые пользователи могут использовать в **веб-части "коллекция изображений**" или предоставлять к ним общий доступ.
 
@@ -51,12 +51,12 @@ ms.locfileid: "44165725"
 
 [![Изображение для инфографикиного сайта для общения](../media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
 
-[PDF](downloads/M365CampaignsCreateCommunicationSite.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsCreateCommunicationSite.pptx) в формате PDF
+[PDF-файл](downloads/M365CampaignsCreateCommunicationSite.pdf)  |  [PowerPoint](downloads/M365CampaignsCreateCommunicationSite.pptx)
 
 
 ## <a name="set-it-up"></a>Настройка
 
-1. Выполните вход в https://Office.comсистему.
+1. Вход в https://Office.com.
 2. В левом верхнем углу страницы щелкните значок средства запуска приложений, а затем выберите плитку **SharePoint** . Если плитка **SharePoint** не отображается, щелкните плитку **сайты** или **все** , если SharePoint не отображается.
 3. В верхней части домашней страницы SharePoint нажмите кнопку **+ создать сайт** и выберите параметр сайт для **общения** .
 

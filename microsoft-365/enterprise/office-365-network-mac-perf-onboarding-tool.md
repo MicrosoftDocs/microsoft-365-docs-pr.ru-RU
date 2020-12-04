@@ -14,16 +14,19 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Средство проверки сетевого подключения Microsoft 365 (Предварительная версия)
-ms.openlocfilehash: 4fc12645ccd6a022e4ef4ebe849ac91ba431129b
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: b29eb29cd390c3febd0992e942cf8ab39f652fb2
+ms.sourcegitcommit: 26c2f01d6f88f6c288b04f9f08062d68dd1e67e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087083"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49569991"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Средство проверки сетевого подключения Microsoft 365 (Предварительная версия)
 
 Средство тестирования сетевых подключений (Майкрософт) 365 находится по адресу <https://connectivity.office.com> . Это средство аджункт для оценки сети и сведений о сети, доступных в центре администрирования Microsoft 365 в области **работоспособность | Меню подключения** .
+
+> [!IMPORTANT]
+> Важно войти в клиент Microsoft 365, так как все тестовые отчеты предоставляются администратором и отправляются в клиент во время входа.
 
 ![Средство проверки подключения](../media/m365-mac-perf/m365-mac-perf-test-tool-page.png)
 

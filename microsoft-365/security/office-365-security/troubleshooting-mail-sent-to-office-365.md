@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье содержатся сведения об устранении неполадок, связанных с отправкой электронной почты в папки "Входящие" в Microsoft 365 & рекомендации по массовой рассылке клиентам Microsoft 365.
-ms.openlocfilehash: 52b4bb333a92dcaa21f45977b3d59a96053a69c2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 895f2651529cd46968d053fefac10cb22b6a5d86
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201746"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568558"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Письмо с устранением неполадок, отправленное в Microsoft 365
 
@@ -51,9 +51,7 @@ ms.locfileid: "48201746"
 Мы можем не принять почту от отправителей после неудачного обратного запроса DNS. В некоторых случаях добропорядочные отправители неправильно сообщают, что их IP-адрес не поддерживает маршрутизацию в Интернете, при попытке подключиться к EOP. Ниже перечислены IP-адреса, зарезервированные для частных сетей (не поддерживающих маршрутизацию).
 
 - 192.168.0.0/16 (или 192.168.0.0-192.168.255.255)
-
 - 10.0.0.0/8 (или 10.0.0.0-10.255.255.255)
-
 - 172.16.0.0/11 (или 172.16.0.0-172.31.255.255)
 
 ## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Вы получили отчет о недоставке при отправке сообщения электронной почты пользователю в Office 365
