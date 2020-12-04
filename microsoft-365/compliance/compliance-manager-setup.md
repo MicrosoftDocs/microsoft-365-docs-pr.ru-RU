@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Настройка разрешений и ролей для диспетчера соответствия требованиям (Майкрософт) и Настройка автоматического тестирования действий. Управление журналом пользователей и фильтрация представления панели мониторинга.
-ms.openlocfilehash: bcb75943df88578b30063d8e35877cb2e3e6250b
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 9a09e12457d39e2f4aab99d3bec68b77c1a3a975
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376560"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572398"
 ---
 # <a name="get-started-with-compliance-manager"></a>Начало работы с диспетчером соответствия требованиям
 
@@ -72,7 +72,7 @@ ms.locfileid: "49376560"
 
 8. Завершив назначение пользователей, нажмите кнопку **Готово**, а затем нажмите кнопку **сохранить**, а затем **Закрыть**.
 
-##### <a name="more-about-the-office-365-secruity--compliance-center"></a>Дополнительные сведения о центре соответствия требованиям Office 365 Секруити &
+##### <a name="more-about-the-office-365-security--compliance-center"></a>Дополнительные сведения о центре безопасности Office 365 & соответствия требованиям
 
 Узнайте больше о [разрешениях в центре безопасности Office 365 & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
 
@@ -361,5 +361,5 @@ ms.locfileid: "49376560"
 
 Дополнительные **сведения:** Узнайте, [как работать с шаблонами оценки](compliance-manager-templates.md).
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 Настройка диспетчера соответствия требованиям путем [настройки оценок](compliance-manager-assessments.md).

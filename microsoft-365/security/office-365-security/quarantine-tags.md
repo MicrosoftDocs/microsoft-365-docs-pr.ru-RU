@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Администраторы могут узнать, как использовать теги карантина, чтобы контролировать, какие пользователи могут выполнять действия с сообщениями, помещенными в карантин.
-ms.openlocfilehash: e194aabf57a1a105f01d8d34815312d3c2fa153d
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 68f28e2dff3bdeada2685ef6806489f5e57f5daf
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357651"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572673"
 ---
 # <a name="quarantine-tags"></a>Теги карантина
 
@@ -62,9 +62,7 @@ ms.locfileid: "49357651"
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Чтобы просматривать, создавать, изменять или удалять теги карантина, необходимо быть участником одной из следующих групп ролей:
-  - **Управление организацией** или **Администратор безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
-  - **Управление организацией** или **Управление санацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+- Чтобы просматривать, создавать, изменять или удалять теги карантина, необходимо быть участником ролей " **Управление организацией** " или " **администратор безопасности** " в [центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="step-1-create-quarantine-tags-in-the-security--compliance-center"></a>Шаг 1: Создание тегов карантина в центре безопасности & соответствия требованиям
 
@@ -131,13 +129,13 @@ New-QuarantineTag -Name "<UniqueName>" -EndUserQuarantinePermissionsValue <0 to 
 
 |Разрешение|Нет доступа|Ограниченный доступ|Полный доступ|
 |---|:---:|:---:|:---:|
-|пермиссионтоалловсендер|нуль|нуль|1,1|
-|пермиссионтоблокксендер|нуль|1,1|1,1|
-|пермиссионтоделете|нуль|1,1|1,1|
+|пермиссионтоалловсендер|нуль|нуль|1 |
+|пермиссионтоблокксендер|нуль|1 |1 |
+|пермиссионтоделете|нуль|1 |1 |
 |пермиссионтодовнлоад<sup>\*</sup>|нуль|нуль|нуль|
-|пермиссионтопревиев|нуль|1,1|1,1|
-|пермиссионторелеасе<sup>\*\*</sup>|нуль|нуль|1,1|
-|пермиссионторекуестрелеасе<sup>\*\*</sup>|нуль|1,1|нуль|
+|пермиссионтопревиев|нуль|1 |1 |
+|пермиссионторелеасе<sup>\*\*</sup>|нуль|нуль|1 |
+|пермиссионторекуестрелеасе<sup>\*\*</sup>|нуль|1 |нуль|
 |пермиссионтовиевхеадер<sup>\*</sup>|нуль|нуль|нуль|
 |Двоичное значение|00000001|01101010|11101100|
 |Используемое десятичное значение|нуль|106|236|
@@ -491,7 +489,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 Дополнительные сведения о списке заблокированных отправителей можно узнать в статье [Блокировать сообщения от кого-либо с](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) [помощью Exchange Online PowerShell для настройки коллекции списков надежных отправителей для почтового ящика](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
-#### <a name="delete-permission"></a>Разрешения на удаление
+#### <a name="delete-permission"></a>Удаление разрешения
 
 Разрешение **Delete** (_пермиссионтоделете_) управляет возможностью пользователей удалять свои сообщения (сообщения, в которых пользователь является получателем) из карантина.
 
