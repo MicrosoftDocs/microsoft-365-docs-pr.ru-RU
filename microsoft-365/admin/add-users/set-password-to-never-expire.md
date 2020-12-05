@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Сведения о том, как задать срок действия отдельных паролей для отдельных пользователей с помощью Windows PowerShell.
-ms.openlocfilehash: 9497dfb5793ddbfc3d6845ec1efba91ad972ea38
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2d60a8312be070d3f56cfef7cfb93e6c5da32991
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646659"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580641"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
@@ -107,6 +107,9 @@ Run one of the following commands:
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
     ```
 
+> [!WARNING]
+> Учетные записи пользователей, настроенные с `-PasswordPolicies DisablePasswordExpiration` параметром, по-прежнему имеют срок действия на основе `pwdLastSet` атрибута. В зависимости от `pwdLastSet` атрибута, если вы измените срок действия на, то для `-PasswordPolicies None` всех паролей с пвдластсет старше 90 дней необходимо, чтобы пользователь изменил их при следующем входе. Это изменение может повлиять на большое количество пользователей.
+
 ### <a name="set-a-password-to-expire"></a>Установка срока действия пароля
 
 Выполните одну из следующих команд:
@@ -122,9 +125,6 @@ Run one of the following commands:
     ```powershell
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
     ```
-
-> [!WARNING]
-> Учетные записи пользователей, настроенные с `-PasswordPolicies DisablePasswordExpiration` параметром, по-прежнему возрастются на основе `pwdLastSet` атрибута учетной записи пользователя. Например, если вы настроили пароли пользователей, срок действия которых не истечет, а затем — 90 или более дней, срок действия паролей не истечет. На основе `pwdLastSet` атрибута учетной записи пользователя для учетных записей пользователей, настроенных с помощью этого `-PasswordPolicies None` параметра, все пароли, имеющие `pwdLastSet` старше 90 дней, должны изменить их при следующем входе в систему. Это изменение может повлиять на большое количество пользователей.
 
 ## <a name="related-content"></a>Связанные материалы
 

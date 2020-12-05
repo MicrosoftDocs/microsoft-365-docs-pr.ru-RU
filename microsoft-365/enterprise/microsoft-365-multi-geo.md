@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как расширить сведения о присутствии Microsoft 365 в несколько географических регионов с помощью Microsoft 365 с поддержкой нескольких регионов.
-ms.openlocfilehash: 10f941549fd4899d5b3a14c97e6f301339702722
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: cf5f655e2b205001c6c16ed05abc33d68324ff15
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171330"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580701"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -52,7 +52,8 @@ ms.locfileid: "48171330"
 
 Microsoft 365 с поддержкой нескольких регионов доступен как надстройка для планов подписки Microsoft 365 для клиентов EA с не менее чем 250 рабочих мест Microsoft 365 в клиенте и не менее чем 5% из этих рабочих мест, для которых используется поддержка нескольких регионов. За дополнительной информацией обращайтесь к команде, в которую входит ваша учетная запись.
 
-- Microsoft 365 F1, E1, E3 или E5
+- Microsoft 365 F1, F3, E3 или "f 1"
+- Office 365 F3, E1, E3 или в ~
 - Exchange Online (план 1 или план 2)
 - OneDrive для бизнеса (план 1 или план 2)
 - SharePoint Online (план 1 или план 2)
