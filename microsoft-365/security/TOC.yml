@@ -527,7 +527,7 @@
               href: ./office-365-security/campaigns.md
             - name: Исследование вредоносной электронной почты
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: Просмотр отчетов в Центре безопасности и соответствия требованиям
+            - name: Просмотр отчетов Defender для Office 365 в Центре безопасности и соответствия требованиям
               href: ./office-365-security/view-reports-for-atp.md
             - name: Просмотр сведений и результатов автоматического исследования
               href: ./office-365-security/air-view-investigation-results.md
