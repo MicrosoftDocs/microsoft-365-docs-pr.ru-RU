@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 12da7f3dd5e6d0d4650d19a8cd5f6f41b51f2558
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 79dc57e545c3063cae641bab2603e3011c5a1769
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398846"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568605"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -81,18 +81,20 @@ ms.locfileid: "48398846"
 
 |Я хочу…|Документация|
 |----------------|---------------|
-|Управление метками конфиденциальности в приложениях Office для их применения к содержимому при его создании — включая поддержку присвоения меток вручную на всех платформах |[Использование меток конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md)|
-|Разрешение пользователям помечать и защищать файлы на компьютерах с Windows с помощью приложений Office, проводника и PowerShell|[Клиент унифицированных меток Azure Information Protection для Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
-|Шифрование документов и сообщений электронной почты с помощью меток конфиденциальности, а также ограничение доступа к этому содержимому и его использования |[Ограничение доступа к содержимому при использовании меток конфиденциальности для шифрования](encryption-sensitivity-labels.md)|
-|Включение меток конфиденциальности для Office в Интернете с поддержкой совместного редактирования, обнаружения электронных данных, защиты от потери данных и поиска, даже если документы зашифрованы | [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
-|Автоматическое применение меток конфиденциальности документам и сообщениям электронной почты | [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)|
-|Использование меток конфиденциальности для защиты содержимого в Teams и SharePoint |[Использование меток конфиденциальности в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint](sensitivity-labels-teams-groups-sites.md)|
-|Запрет или предупреждение пользователей о предоставлении общего доступа к файлам и сообщениям с определенными метками конфиденциальности |[Использование меток конфиденциальности в качестве условий в политиках защиты от потери данных (предварительная версия)](dlp-sensitivity-label-as-condition.md) |
-|Обнаружение, применение меток и защита файлов, хранящихся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
-|Обнаружение, применение меток и защита файлов, хранящихся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Применение и просмотр меток конфиденциальности в Power BI и защита данных при экспорте|[Применение меток конфиденциальности в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|
-|Отслеживание и понимание использования меток конфиденциальности в организации|[Знайте свои данные — обзор классификации данных](data-classification-overview.md) <br /><br /> [Просмотр использования меток с помощью аналитики меток](label-analytics.md)|
-|Расширение применения меток конфиденциальности на сторонние приложения и службы|[SDK защиты информации (Майкрософт)](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
+|Управлять метками конфиденциальности в приложениях Office для их применения к содержимому при его создании — включая поддержку присвоения меток вручную на всех платформах |[Использование меток конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md)|
+|Разрешить пользователям помечать и защищать файлы на компьютерах с Windows с помощью приложений Office, проводника и PowerShell|[Клиент унифицированных меток Azure Information Protection для Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
+|Шифровать документы и сообщения электронной почты с помощью меток конфиденциальности, а также ограничить доступ к этому содержимому и его использование |[Ограничение доступа к содержимому при использовании меток конфиденциальности для шифрования](encryption-sensitivity-labels.md)|
+|Включить метки конфиденциальности для Office в Интернете с поддержкой совместного редактирования, обнаружения электронных данных, защиты от потери данных и поиска, даже если документы зашифрованы | [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
+|Автоматически применять метки конфиденциальности документам и сообщениям электронной почты | [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)|
+|Использовать метки конфиденциальности для защиты содержимого в Teams и SharePoint |[Использование меток конфиденциальности в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint](sensitivity-labels-teams-groups-sites.md)|
+|Запрещать или предупреждать пользователей о предоставлении общего доступа к файлам и сообщениям с определенными метками конфиденциальности |[Использование меток конфиденциальности в качестве условий в политиках защиты от потери данных (предварительная версия)](dlp-sensitivity-label-as-condition.md) |
+|Обнаруживать, применять метки и защищать файлы, хранящиеся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
+|Обнаруживать, применять метки и защищать файлы, хранящиеся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
+|Применять и просматривать метки конфиденциальности в Power BI и защищать данные при экспорте|[Применение меток конфиденциальности в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|
+|Отслеживать и понимать использования меток конфиденциальности в организации|[Изучение данных — обзор классификации данных](data-classification-overview.md) <br /><br /> [Просмотр использования меток с помощью аналитики меток](label-analytics.md)|
+|Расширить применение меток конфиденциальности на сторонние приложения и службы|[Пакет SDK для Microsoft Information Protection](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
+|Расширить применение меток конфиденциальности на содержимое в хранилище BLOB-объектов Azure, файлы Azure, Azure Data Lake Storage 1-го поколения и Azure Data Lake Storage 12-го поколения|[Автоматическое применение меток к содержимому в Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label) |
+
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Документация по меткам конфиденциальности для пользователей
 

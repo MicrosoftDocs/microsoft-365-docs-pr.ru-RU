@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Внедрение Microsoft Information Protection (MIP) для защиты конфиденциальной информации в любом расположении, где она находится или куда перемещается.
-ms.openlocfilehash: 4c8f4af11779cd8b3df043bc92187625c41f4ac9
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 4afc73b5a2cefe88d2e3af5fd6665ec64e5c0ee3
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519814"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568321"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection в Microsoft 365
 
@@ -36,7 +36,10 @@ ms.locfileid: "49519814"
 
 Сведения об управлении данными см. в статье [Microsoft Information Governance в Microsoft 365](manage-Information-governance.md).
 
-## <a name="know-your-data"></a>Знание структуры данных
+## <a name="know-your-data"></a>Изучение данных
+
+> [!NOTE]
+> Сведения о классификации данных и присвоении им меток в Azure Purview (в настоящее время доступно в предварительной версии) см. в статье [Автоматическое применение меток к содержимому в Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
 
 Чтобы ознакомиться с ландшафтом данных и идентифицировать важные данные в гибридной среде, используйте следующие возможности:
  
@@ -62,6 +65,7 @@ ms.locfileid: "49519814"
 |[Сканер унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)| Поиск, добавление меток и защита конфиденциальной информации, находящейся в локальных хранилищах данных | [Настройка и установка сканера унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)| Поиск, добавление меток и защита конфиденциальной информации, находящейся в облачных хранилищах данных | [Поиск, классификация, добавление меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |[Пакет SDK для Microsoft Information Protection](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|Расширение применения меток конфиденциальности для сторонних приложений и служб  <br /><br /> Пример сценария: [Задание и получение метки конфиденциальности (C++)](https://docs.microsoft.com/information-protection/develop/quick-file-set-get-label-cpp) |[Настройка пакета SDK для Microsoft Information Protection (MIP)](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)|
+
 
 ## <a name="prevent-data-loss"></a>Защита от потери данных
 
