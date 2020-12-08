@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: a3c9aabd370117c085574144ff9450e74ae277c7
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: e88b26fcfbcc9cbb0c2c53ed8fdb6b875ef4adc9
+ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527528"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49585309"
 ---
 # <a name="get-started-with-communication-compliance"></a>Начало работы с соответствием требованиям к обмену данными
 
@@ -137,6 +137,35 @@ ms.locfileid: "49527528"
 
 >[!IMPORTANT]
 >Вы должны подать запрос в службу поддержки Майкрософт, чтобы в вашей организации для поиска данных чата Teams локальных пользователей мог использоваться графический пользовательский интерфейс в Центре безопасности и соответствия требованиям. Дополнительные сведения см в разделе [Поиск в облачных почтовых ящиках для локальных пользователей](search-cloud-based-mailboxes-for-on-premises-users.md).
+
+Для управления контролируемыми пользователями в крупных корпоративных организациях может потребоваться мониторинг всех пользователей в крупных группах. С помощью PowerShell можно настроить группу рассылки для глобальной политики соответствия требованиям для назначенной группы. Это позволяет отслеживать тысячи пользователей с помощью одной политики и поддерживать обновление политики соответствия для связи по мере того, как новые сотрудники присоединяются к вашей организации.
+
+1. Создайте выделенную [группу рассылки](https://docs.microsoft.com/powershell/module/exchange/new-distributiongroup) для глобальной политики соответствия требованиям для глобальной связи со следующими свойствами: Убедитесь, что эта группа рассылки не используется для других целей или других служб Office 365.
+
+    - **Мембердепартрестриктион = закрыто**. Гарантирует, что пользователи не смогут удалять себя из группы рассылки.
+    - **Мембержоинрестриктион = закрыто**. Гарантирует, что пользователи не смогут добавлять себя в группу рассылки.
+    - **ModerationEnabled задано = true**. Гарантирует, что все сообщения, отправляемые в эту группу, будут подвергаться утверждению и что эта группа не будет использоваться для взаимодействия за прев конфигурации политики соответствия.
+
+    ```PowerShell
+    New-DistributionGroup -Name <your group name> -Alias <your group alias> -MemberDepartRestriction 'Closed' -MemberJoinRestriction 'Closed' -ModerationEnabled $true
+    ```
+
+2. Выберите неиспользуемый [настраиваемый атрибут Exchange](https://docs.microsoft.com/Exchange/recipients/mailbox-custom-attributes) для отслеживания пользователей, добавленных в политику соответствия требованиям в Организации.
+
+3. Выполните следующий скрипт PowerShell для повторяющегося расписания, чтобы добавить пользователей в политику соответствия требованиям к связи:
+
+    ```PowerShell
+    $Mbx = (Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited -Filter {CustomAttribute9 -eq $Null})
+    $i = 0
+    ForEach ($M in $Mbx) 
+    {
+      Write-Host "Adding" $M.DisplayName
+      Add-DistributionGroupMember -Identity <your group name> -Member $M.DistinguishedName -ErrorAction SilentlyContinue
+      Set-Mailbox -Identity $M.Alias -<your custom attribute name> SRAdded 
+      $i++
+    }
+    Write-Host $i "Mailboxes added to supervisory review distribution group."
+    ```
 
 Более подробную информацию о настройке групп можно узнать в следующих статьях:
 
