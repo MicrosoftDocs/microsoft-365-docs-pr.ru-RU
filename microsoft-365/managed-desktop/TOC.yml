@@ -125,9 +125,6 @@
           items:
             - name: Отчет об инвентаризации устройств
               href: working-with-managed-desktop/device-inventory-report.md
-        - name: Работа с аналитикой
-          href: working-with-managed-desktop/insights.md
-          items:
             - name: Аналитика использования
               href: working-with-managed-desktop/usage-insights.md
             - name: Аналитика надежности
