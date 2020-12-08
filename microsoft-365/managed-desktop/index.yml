@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Документация по компьютерам, управляемым Майкрософт
-summary: Компьютеры, управляемые Microsoft — это сочетание Microsoft 365 корпоративного с облачным управлением устройствами, осуществляемым Microsoft, и мониторингом безопасности, позволяющее вам высвободить группы ИТ для нужд основного бизнеса.
+summary: Компьютеры, управляемые Майкрософт — это уникальное решение ITaaS, объединяющее управление конечными точками и мониторинг безопасности, что обеспечивает пользователям защищенный и эффективный интерфейс, которому могут доверять ИТ-специалисты.
 metadata:
   title: Документация по компьютерам, управляемым Майкрософт
   description: Компьютеры, управляемые Microsoft — это сочетание Microsoft 365 корпоративного с облачным управлением устройствами, осуществляемым Microsoft, и мониторингом безопасности, позволяющее вам высвободить группы ИТ для нужд основного бизнеса.
@@ -9,13 +9,13 @@ metadata:
   ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.date: 07/13/2020
-  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
-  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.date: 12/04/2020
+  ms.openlocfilehash: 59d8d4ae0986af58c086ea08f486feca5cb23f71
+  ms.sourcegitcommit: 9d5ddfc856926ce6919498c9c42a7421fef78328
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/05/2020
-  ms.locfileid: "46564147"
+  ms.lasthandoff: 12/04/2020
+  ms.locfileid: "49576779"
 landingContent:
 - title: Сведения о компьютерах, управляемых Майкрософт
   linkLists:
@@ -33,21 +33,33 @@ landingContent:
       url: get-started/index.md
     - text: Работа с компьютерами, управляемыми Майкрософт
       url: /microsoft-365/managed-desktop/working-with-managed-desktop/
-- title: Новые статьи и записи блогов
+- title: Статьи и записи блогов
   linkLists:
-  - linkListType: whats-new
+  - linkListType: learn
     links:
-    - text: '[План] Полный план по компьютерам, управляемым Майкрософт'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
-    - text: '[Технический документ] Исследование: растущий спрос на службы управляемых компьютеров'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
-    - text: '[Электронная книга] Порадуйте свою компанию современным рабочим местом'
-      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
-- title: Видео
+    - text: '[Блог] Устройства рабочего пространства и новые "бесплатные лакомства"'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/workplace-devices-are-the-new-free-snacks/ba-p/1675936
+    - text: '[Технический документ] Исследование: компьютеры, управляемые Майкрософт, экономят время и средства'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/study-microsoft-managed-desktop-saves-time-and-costs/ba-p/1403408
+    - text: '[Технический документ] Компьютеры, управляемые Майкрософт, могут улучшить взаимодействие'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/microsoft-managed-desktop-can-help-boost-engagement/ba-p/1031932
+    - text: '[Технический документ] Компания SA Power Networks развертывает компьютеры, управляемые Майкрософт, чтобы удовлетворять меняющимся потребностям пользователей'
+      url: https://customers.microsoft.com/story/832888-sa-power-networks-case-study-energy-microsoft-managed-desktop
+- title: Преимущества и основные возможности
   linkLists:
   - linkListType: video
     links:
-    - text: Узнайте о преимуществах использования компьютеров, управляемых Майкрософт, от технического директора Lloyds Banking Group.
+    - text: Компьютеры, управляемые Майкрософт — интерфейс ИТ-администратора
+      url: https://www.youtube.com/watch?v=UQ8VRSysUXw&feature=youtu.be
+    - text: Почему организациям нравятся компьютеры, управляемые Майкрософт
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4yjfL
+    - text: Компьютеры, управляемые Майкрософт — потрясающие интерфейсы устройств
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE41urx?autoplay=false
+    - text: Компьютеры, управляемые Майкрософт — операции, связанные с безопасностью
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: Компьютеры, управляемые Майкрософт — процесс изменения и выпуска
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: The Shiproom / IGM / эпизод 29 — безопасность в качестве приоритета для пользовательского интерфейса
+      url: https://www.youtube.com/watch?v=im11J9C1MTA&feature=youtu.be
+    - text: The Shiproom / Lloyds Banking Group / эпизод 25 — лидерство в условиях резких преобразований
       url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
-    - text: Основные сведения о компьютерах, управляемых Майкрософт, в рамках ежегодной конференции Ignite
-      url: /microsoft-365/managed-desktop/service-description
