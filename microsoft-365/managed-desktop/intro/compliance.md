@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 65d1d18037a10cd36c3be9498a4373fa67b6afd9
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: d47757e8e9b36baf060c86436bd7840ded7c324d
+ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519614"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586677"
 ---
 # <a name="compliance"></a>Соответствие требованиям
 
-При использовании для настольного компьютера, управляемого корпорацией Майкрософт, Майкрософт предоставляет исчерпывающий набор требований для обеспечения соответствия требованиям. Это помогает организациям соблюдать различные требования соответствия требованиям.
+При использовании настольного компьютера, управляемого корпорацией Майкрософт, корпорация Майкрософт предоставляет исчерпывающий набор требований для обеспечения соответствия требованиям. Это помогает организациям соблюдать различные требования соответствия требованиям.
 
 ## <a name="compliance-coverage"></a>Покрытие соответствия требованиям
 
@@ -35,6 +35,9 @@ ms.locfileid: "49519614"
 - [Сертификация Cloud Security Alliance (CSA) STAR](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
 - [Управление организацией службы (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
 - [Стандарт безопасности данных в сфере платежных карт (PCI-DSS)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
+- [ACT и отчетности по страхованию здравоохранения (HIPAA)](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech)
+- [Зарегистрированная программа-биоinformation Security для Австралии государственных учреждений (ИРАП)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
+
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Отчеты аудиторов и сертификаты соответствия требованиям
 
@@ -45,4 +48,4 @@ ms.locfileid: "49519614"
 
 ## <a name="shared-responsibility"></a>Общая ответственность
 
-Соответствие облачным службам является общей ответственностью между поставщиками облачных служб и клиентами. Для получения дополнительных сведения [об облачных вычислениях](https://gallery.technet.microsoft.com/Shared-Responsibilities-81d0ff91) в коллекции TechNet: общие обязанности.
+Соответствие облачным службам является общей ответственностью между поставщиками облачных служб и клиентами. Дополнительные сведения [об облачных вычислениях](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility)приведены в разделе Общие обязанности.
