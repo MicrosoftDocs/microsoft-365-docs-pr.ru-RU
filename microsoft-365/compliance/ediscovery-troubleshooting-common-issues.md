@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Сведения об основных этапах устранения неполадок, которые можно предпринять для решения распространенных проблем, связанных с обнаружением электронных данных в Office 365.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2db7fac04f29587f451b8feff5b641624e0cf45
-ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
+ms.openlocfilehash: 4f1bad23705729c15976959a3902501f05da7600
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "49422868"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602040"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Исследование, устранение неполадок и устранение распространенных проблем обнаружения электронных данных
 
@@ -58,8 +58,7 @@ ms.locfileid: "49422868"
 
 ## <a name="errorissue-search-fails-on-specific-locations"></a>Ошибка/Ошибка: сбой поиска в определенных расположениях
 
-Поиск обнаружения электронных данных или контента может привести к возникновению следующей ошибки:
->Поиск завершился с ошибками (#).  Вы хотите повторить поиск в расположениях с ошибками?
+Поиск обнаружения электронных данных или контента может привести к возникновению следующей ошибки: `This search completed with (#) errors.  Would you like to retry the search on the failed locations?`
 
 ![Снимок экрана с расположением для поиска со сбоем](../media/edisc-tshoot-specific-location-search-fails.png)
 
@@ -194,6 +193,14 @@ ms.locfileid: "49422868"
    ```
 
 4. Обратитесь в службу поддержки корпорации Майкрософт.
+
+## <a name="error-the-condition-specified-using-http-conditional-headers-is-not-met"></a>Ошибка: "условие, указанное с использованием условных заголовков HTTP, не выполнено"
+
+При загрузке результатов поиска с помощью средства экспорта eDiscovery возможно возникновение следующей ошибки: `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` это временная ошибка, которая обычно возникает в расположении хранилища Azure.
+
+### <a name="resolution"></a>Решение
+
+Чтобы устранить эту проблему, повторно попытайтесь [скачать результаты поиска](export-search-results.md#step-2-download-the-search-results), перезапустите средство экспорта eDiscovery.
 
 ## <a name="see-also"></a>См. также
 
