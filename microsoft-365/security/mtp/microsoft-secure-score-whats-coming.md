@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e42c65fdb4d409c1da7b85fbe7eca13170b9b974
-ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
+ms.openlocfilehash: 950daef315ef27fe5d6bc40528eb0104974c8c00
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49409237"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604399"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Что поступает в оценку безопасности Майкрософт
 
@@ -44,14 +44,6 @@ ms.locfileid: "49409237"
 - Установите для параметра "минимальный срок действия пароля" значение "1 или больше дней"
 - Отключение встроенной учетной записи администратора
 - Отключение встроенной учетной записи гостя
-
-### <a name="november-2020"></a>Ноябрь 2020 г.
-
-#### <a name="removing-the-ability-to-create-servicenow-tickets-through-secure-score"></a>Удаление возможности создавать билеты ServiceNow с помощью безопасной оценки 
-
-Возможность создавать билеты с помощью безопасной оценки с помощью **предоставления общего доступа к > ServiceNow** будет удалена.
-
-Период предварительной версии для соединителя ServiceNow завершается. Эта возможность больше не будет доступна в конце 2020. Благодарим вас за отзыв и продолжение поддержки, пока мы определим дальнейшие действия.
 
 ## <a name="related-resources"></a>Связанные ресурсы
 

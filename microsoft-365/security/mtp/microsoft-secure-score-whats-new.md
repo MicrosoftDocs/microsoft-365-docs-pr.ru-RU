@@ -20,22 +20,26 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6d1358da465bd7e31ca7b234f140aa8e48bb7508
-ms.sourcegitcommit: aa8d2de6ffac0157fffd14d0ea7f51ef0c287607
+ms.openlocfilehash: 4b25f701aca24563dc4f1a15f78a80e1e2064367
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49373999"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604387"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Новые возможности оценки безопасности Майкрософт
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Чтобы сделать Microsoft Secure рейтинг более подходящим для вашей безопасности, мы внесли некоторые изменения. Чтобы узнать о запланированных изменениях, посмотрите, [что поступает в рейтинге безопасности Майкрософт?](microsoft-secure-score-whats-coming.md).
+Чтобы сделать Microsoft Secure рейтинг более подходящим для вашей безопасности, мы внесли некоторые изменения. Чтобы узнать о запланированных изменениях, посмотрите, [что поступает в оценке безопасности Майкрософт?](microsoft-secure-score-whats-coming.md)
 
 Оценку безопасности Майкрософт можно найти https://security.microsoft.com/securescore в [центре безопасности Майкрософт 365](overview-security-center.md).
 
 ## <a name="november-2020"></a>Ноябрь 2020 г.
+
+### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>Удалена возможность создавать билеты ServiceNow с помощью безопасной оценки 
+
+Возможность создавать билеты ServiceNow с помощью безопасной оценки за счет **предоставления общего доступа к > ServiceNow** больше недоступна. Благодарим вас за отзыв и продолжение поддержки, пока мы определим дальнейшие действия.
 
 ### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Добавлено 3 действия по улучшению, связанные со службами, для защитника Майкрософт для конечной точки (ранее для защитника Майкрософт):
 
@@ -77,7 +81,7 @@ ms.locfileid: "49373999"
 * Управляйте своими будущими целями, используя проекции оценок и запланированные действия
 * И многое другое!
 
-## <a name="we-want-to-hear-from-you"></a>Мы хотим услышать вас
+## <a name="we-want-to-hear-from-you"></a>Мы ждем ваших отзывов!
 
 Если у вас возникли какие – либо проблемы, сообщите нам о публикации в разделе [безопасность, конфиденциальность & соответствие требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . Мы отслеживаем сообщество и предоставите вам помощь.
 

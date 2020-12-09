@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c5b8cae9e4eabcb2b3c6a7eb76971784193a221d
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: fbe98b814b253551432ea35102f2bd6eeba921f8
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920506"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602095"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Включение защитника Microsoft 365
 
@@ -52,13 +52,13 @@ ms.locfileid: "48920506"
 Чтобы получить лучшую защиту и оптимизировать защитник Microsoft 365, рекомендуем развернуть все поддерживаемые службы в сети. Для получения дополнительных сведений [Ознакомьтесь с разворачиванием поддерживаемых служб](deploy-supported-services.md).
 
 ## <a name="before-starting-the-service"></a>Перед запуском службы
-Перед включением службы центр безопасности Microsoft 365 ( [Security.Microsoft.com](https://security.microsoft.com)) отображает страницу параметров защитника Microsoft 365, когда вы выбираете **инциденты** , **Центр уведомлений** **или поиск** в области навигации. Эти элементы навигации не отображаются, если вы не можете использовать защитник Microsoft 365.
+Перед включением службы центр безопасности Microsoft 365 ([Security.Microsoft.com](https://security.microsoft.com)) отображает страницу параметров защитника Microsoft 365, когда вы выбираете **инциденты**, **Центр уведомлений** **или поиск** в области навигации. Эти элементы навигации не отображаются, если вы не можете использовать защитник Microsoft 365.
 
 ![Изображение страницы параметров защитника Microsoft 365, которая отображается, если защитник Microsoft 365 не включен в ](../../media/mtp-enable/mtp-settings.png)
  *параметрах защитника Microsoft 365 в центре безопасности Майкрософт 365*
 
 ## <a name="starting-the-service"></a>Запуск службы
-Чтобы включить защитник Microsoft 365, просто выберите **включить защитник microsoft 365** и примените изменение. Вы также можете получить доступ к этому параметру, выбрав **Параметры** ( [Security.Microsoft.com/Settings](https://security.microsoft.com/settings)) в области навигации, а затем выбрав **Microsoft 365 защитник**.
+Чтобы включить защитник Microsoft 365, просто выберите **включить защитник microsoft 365** и примените изменение. Вы также можете получить доступ к этому параметру, выбрав **Параметры** ([Security.Microsoft.com/Settings](https://security.microsoft.com/settings)) в области навигации, а затем выбрав **Microsoft 365 защитник**.
 
 >[!NOTE]
 >Если вы не видите **Параметры** в области навигации или не смогли получить доступ к странице, проверьте свои разрешения и лицензии.
@@ -84,11 +84,6 @@ ms.locfileid: "48920506"
 ### <a name="getting-microsoft-defender-for-identity-data"></a>Сбор данных об удостоверении для защитника Майкрософт
 Чтобы предоставить доступ к защитнику Майкрософт для данных удостоверений с помощью защитника Microsoft 365, убедитесь, что Microsoft Cloud App Security и защитник Майкрософт для интеграции удостоверений включены. [Подробнее об этой интеграции](https://docs.microsoft.com/cloud-app-security/aatp-integration)
 
-
-## <a name="turn-off-microsoft-365-defender"></a>Отключение защитника Microsoft 365
-Чтобы прекратить работу с защитником Microsoft 365, перейдите к разделу **Параметры** ,  >  покрывающийся 365 в центре безопасности Майкрософт для участия в **защитнике Майкрософт 365**  >  **Opt-in / Opt-out** . Снимите флажок **включить защитник Microsoft 365** и примените изменения.
-
-Соответствующие функции будут удалены из центра безопасности Microsoft 365.
 
 ## <a name="get-assistance"></a>Получение помощи
 

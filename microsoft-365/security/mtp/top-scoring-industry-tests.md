@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 824864ffd69a1f885c56a55957fc369fec4f640a
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: a1e8c083c0769031fcc17cc799e7edc29fc9bc57
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357301"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604411"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Основные вычисления в отраслевых тестах
 
@@ -40,7 +40,7 @@ ms.locfileid: "49357301"
 
 Подход к тестированию для МИТРЕ заключается в имитации реальных атак, чтобы определить, могут ли решения обнаруживаться и реагировать на них. Несмотря на то, что проверка, ориентированная на обнаружение и ответ конечной точки МИТРЕ, имитация атаки APT29 на несколько доменов атак занимает несколько доменов атак, создавая возможности для расширения возможностей защитника за пределами Endpoint Protection. Область видимости расширенных защитников Майкрософт за пределами конечной точки с помощью защитника Microsoft 365.
 
-- ATT&на основе а-защитника Microsoft 365 — Май 2020: [в начале обнаружения в реальном мире](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
+- ATT&а, основанный на 365, — Май 2020: [в начале обнаружения в реальном мире](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
     Защитник Microsoft 365 предоставил почти 100 процентов покрытия на этапах цепочки атак. Она доставила ведущее представление о готовности к действиям злоумышленников. Видимость значительно сокращает трудозатраты, выполняемые вручную, для решений центра безопасности и поставщиков, которые основывались на определенных изменениях конфигурации. Кроме того, защитник Microsoft 365 имеет наименьшее количество разрывов в видимости, что позволяет злоумышленнику работать без обнаружения.
 
@@ -56,33 +56,33 @@ ms.locfileid: "49357301"
 
 **Скачайте последний отчет о прозрачности: [исследование результатов AV-Test, January-February 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
 
-- Июль — Август 2020 AV-ТЕСТовый тест пользователя: [Оценка защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2020/microsoft-defender-antivirus-4.18-203215/) <sup>**Последняя**</sup>
+- Сентябрь-Октябрь 2020 AV-тестировать бизнес-тест пользователя: [показатель защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2020/microsoft-defender-antivirus-4.18-204116/) <sup>**последним**</sup>
 
-    Антивирусная программа "защитник Майкрософт" заслужила оптимальным показателем защиты от 6.0 до 6.0 и 100% в июле и августе. 13 941. примеры использования вредоносных программ.
+    Антивирусная программа "защитник Майкрософт" заслужила оптимальным показателем защиты от 6.0 до 6.0 и 100% в сентябре и октябрь. 12 650. примеры использования вредоносных программ.
 
-- Май — Июнь 2020 AV-TEST бизнес-тест пользователя: [показатель защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/)
+- Июль-Август 2020 AV-TEST User Test: [показатель защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2020/microsoft-defender-antivirus-4.18-203215/)
 
-- Март — Апрель 2020 AV-тестирование тестового пользователя: [показатель защиты 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
+- Май – Июнь 2020 AV-тестирование бизнес-тестов пользователей: [показатель защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/)
 
-- Январь — Февраль 2020 AV-Test бизнес-тест пользователя: [Protection Score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
+- Март-Апрель 2020 AV-тестирование тестового пользователя: [показатель защиты 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
 
-- Ноябрь — Декабрь 2019 AV-тестирование тестового пользователя: [показатель защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
+- Январь-Февраль 2020 AV-Test бизнес-тест пользователя: [показатель защиты 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
-- Сентябрь-Октябрь 2019 AV-TEST Test User Test: [Protection Score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2019/microsoft-windows-defender-antivirus-4.18-194115/)
+- Ноябрь-Декабрь 2019 AV-ТЕСТовый тест пользователя: [показатель защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
 
-- Июль — Август 2019 AV-Test User test test: [Оценка защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2019/microsoft-windows-defender-antivirus-4.18-193215/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
+- Сентябрь-Октябрь 2019 AV-тестировать бизнес-тест пользователя: [показатель защиты 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2019/microsoft-windows-defender-antivirus-4.18-194115/)
 
 ### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-Сравнительный показатель: уровень защиты 99,7% в последнем тесте
 
 Тестирование бизнес-безопасности состоит из трех основных частей: тест защиты Real-World, имитирующий вредоносные атаки через Интернет, проверку защиты от вредоносных программ, в которой вредоносная программа вводит систему извне из Интернета (например, на USB), а также тест производительности, который просматривает влияние системы на производительность системы.
 
-- Business Security Test 2020 (март – июнь): [реальная скорость защиты 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**последних**</sup>
+- Business Security Test 2020 (март-июнь): [реальная скорость защиты 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**последних**</sup>
 
     Антивирусная программа "защитник Майкрософт" постоянно находится в Real-World скорость защиты за последний год с 99,7% в последней проверке.
 
-- Business Security Test 2019 (Август — Ноябрь): [уровень защиты от реального мира 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
+- Business Security Test 2019 (Август – Ноябрь): [скорость защиты в реальном мире 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
 
-- Business Security Test 2019 (март – июнь): [реальная скорость защиты 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
+- Business Security Test 2019 (март-июнь): [реальная скорость защиты 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
 ### <a name="se-labs-aaa-award-in-the-latest-test"></a>SE Labs: AAA премий в последнем тесте
 
@@ -90,17 +90,17 @@ ms.locfileid: "49357301"
 
 **Скачайте последнюю версию отчета о прозрачности: [исследование результатов тестирования для лаборатории SE, January-March 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
 
-- Корпоративная защита от вирусов Июль — Сентябрь 2020: <sup>**версия**</sup> [AAA премии](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/)
+- Корпоративная конечная точка защита от июля 2020: <sup>**последние**</sup> [премии AAA](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/)
 
     Продукт для защиты следующего поколения Майкрософт остановил все целевые атаки, но не пропустили несколько общедоступных угроз.
 
-- Корпоративная защита от вирусов Апрель — Июнь 2020: [AAA премия](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
+- Корпоративная защита конечных точек Апрель 2020: [AAA премия](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
 
-- Корпоративная защита от конечных точек — [AAA award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) Март 2020: анализ премии <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
+- Корпоративная защита от конечных точек за [AAA award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) Март 2020: анализ премии <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
-- Enterprise Endpoint Protection Октябрь — Декабрь 2019: [AAA премия](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf) <sup>**PDF**</sup>
+- Корпоративная Endpoint Protection за Октябрь 2019: [AAA премия](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf) <sup>**PDF**</sup>
 
-- Корпоративная защита от вирусов Июль — Сентябрь [AAA award](https://selabs.uk/download/enterprise/epp/2019/jul-sep-2019-enterprise.pdf) 2019: анализ премии <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
+- Корпоративная защита от вирусов за Июль 2019 [AAA award](https://selabs.uk/download/enterprise/epp/2019/jul-sep-2019-enterprise.pdf) : <sup>**pdf**</sup>  |  [анализ](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp) премии PDF
 
 
 ## <a name="endpoint-detection--response"></a>Обнаружение конечных точек & ответ
@@ -113,7 +113,7 @@ ms.locfileid: "49357301"
 
 МИТРЕ проверила способность продуктов обнаруживать приемы, часто используемые целевой группой атак APT3 (также известной как борон или UPS). Чтобы изолировать функции обнаружения, все функции защиты и предотвращения отключены. Корпорация Майкрософт довольны одним из первых поставщиков ЕДР, чтобы выполнять оценку МИТРЕ на основе платформы ATT&а. Платформа широко применяется в настоящее время в качестве наиболее полного каталога приемов и тактик атак.
 
-- ATT&оценки защитника Майкрософт для конечной точки — Декабрь 2018: [Начальная Оптика и анализ возможностей обнаружения](https://www.microsoft.com/security/blog/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)  |  [Analysis](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/MITRE-evaluation-highlights-industry-leading-EDR-capabilities-in/ba-p/369831)
+- ATT&оценки защитник Майкрософт для конечной точки — Декабрь 2018: [Начальная Оптика и анализ возможностей обнаружения](https://www.microsoft.com/security/blog/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)  |  [Analysis](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/MITRE-evaluation-highlights-industry-leading-EDR-capabilities-in/ba-p/369831)
 
     Защитник Майкрософт для конечной точки доставил исчерпывающее покрытие атак на всю цепь атак. Подсвети включали широту дистанционного отслеживания, надежность системы отслеживания угроз и расширенные возможности автоматического обнаружения с помощью машинного обучения, эвристики и наблюдения за поведением.
 
