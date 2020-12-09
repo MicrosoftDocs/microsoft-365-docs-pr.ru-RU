@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Настройте метки конфиденциальности для шифрования, чтобы защитить данные, ограничив доступ к ним и их использование.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3856b92126d660ed0cdbfd1280d778ac9f072424
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: b862cbffcc4268876444618f7c2708c04b63630e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446173"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561720"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования
 
@@ -43,15 +43,15 @@ ms.locfileid: "48446173"
 Наконец, являясь администратором, при настройке метки конфиденциальности для применения шифрования вы можете по своему усмотрению выбрать одно из действий ниже.
 
 - **Назначить разрешения**, чтобы указать конкретных пользователей и разрешения, которые они получат на содержимое с такой меткой.
-- **Let users assign permissions** when they apply the label to content. This way, you can allow people in your organization some flexibility that they might need to collaborate and get their work done.
+- **Разрешить пользователям назначать разрешения** при применении метки к содержимому. Таким образом, вы обеспечите пользователям вашей организации определенную гибкость, которая может быть необходима для совместной работы и выполнения рабочих задач.
 
 Параметры шифрования доступны при [создании метки конфиденциальности](create-sensitivity-labels.md) в Центре соответствия требованиям Microsoft 365, Центре безопасности Microsoft 365 и Центре безопасности и соответствия требованиям.
 
 ## <a name="understand-how-the-encryption-works"></a>Как осуществляется шифрование
 
-Encryption uses the Azure Rights Management service (Azure RMS) from Azure Information Protection. This protection solution uses encryption, identity, and authorization policies. To learn more, see [What is Azure Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) from the Azure Information Protection documentation. 
+При шифровании используется служба управления правами Azure (Azure RMS) из Azure Information Protection. Это решение защиты использует политики шифрования, удостоверений и авторизации. Дополнительные сведения см. в статье [Управление правами Azure](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) из документации по Azure Information Protection. 
 
-When you use this encryption solution, the **super user** feature ensures that authorized people and services can always read and inspect the data that has been encrypted for your organization. If necessary, the encryption can then be removed or changed. For more information, see [Configuring super users for Azure Information Protection and discovery services or data recovery](https://docs.microsoft.com/azure/information-protection/configure-super-users).
+При использовании этого решения шифрования функция **суперпользователей** гарантирует, что авторизованные пользователи и службы всегда смогут считывать и проверять данные, зашифрованные для вашей организации. При необходимости шифрование затем можно удалить или изменить. Дополнительные сведения см. в статье [Настройка суперпользователей для Azure Information Protection и служб обнаружения или восстановления данных](https://docs.microsoft.com/azure/information-protection/configure-super-users).
 
 ## <a name="how-to-configure-a-label-for-encryption"></a>Настройка метки для шифрования
 
@@ -85,7 +85,7 @@ When you use this encryption solution, the **super user** feature ensures that a
 
 В следующей таблице указано, что происходит с существующим шифрованием при применении к содержимому метки конфиденциальности.
 
-| |**Шифрование: не выбрано**|**Шифрование: настроено**|**Шифрование: Удалить**|
+| | Шифрование: не выбрано | Шифрование: настроено | Шифрование: удаление |
 |:-----|:-----|:-----|:-----|
 |**Разрешения, указанные пользователем**|Исходное шифрование сохраняется|Применяется новое шифрование|Исходное шифрование удаляется|
 |**Шаблон защиты**|Исходное шифрование сохраняется|Применяется новое шифрование|Исходное шифрование удаляется|
@@ -276,7 +276,7 @@ When you use this encryption solution, the **super user** feature ensures that a
 
 - Windows: вкладка **Файл** > **Сведения** > **Защитить документ** > **Ограничить доступ** > **Ограниченный доступ**
 
-- MacOS: вкладка **Рецензирование** > **Защита** > **Разрешения** > **Ограниченный доступ**
+- macOS: вкладка **Рецензирование** > **Защита** > **Разрешения** > **Ограниченный доступ**
 
 ## <a name="example-configurations-for-the-encryption-settings"></a>Примеры настроек параметров шифрования
 
@@ -384,6 +384,8 @@ When you use this encryption solution, the **super user** feature ensures that a
 - Функция [автосохранения](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) в приложениях Office (Windows, Mac, Android и iOS) отключена для зашифрованных файлов. Для пользователей отображается сообщение о том, что в файле есть ограниченные разрешения, которые требуется удалить, чтобы можно было включить автосохранение.
 
 - Открытие зашифрованных файлов в приложениях Office (Windows, Mac, Android и iOS) может выполняться дольше.
+
+- Если метка, применяющая шифрование, добавлена с помощью приложения Office, когда документ [извлечен из SharePoint](https://support.microsoft.com/office/check-out-check-in-or-discard-changes-to-files-in-a-library-7e2c12a9-a874-4393-9511-1378a700f6de) и пользователь отменяет извлечение, документ сохраняет метку и остается зашифрованным.
 
 - Следующие действия с зашифрованными файлами не поддерживаются в приложениях Office (Windows, Mac, Android и iOS), а для пользователей отображается сообщение об ошибке. Однако в качестве альтернативы можно использовать возможности SharePoint:
 
