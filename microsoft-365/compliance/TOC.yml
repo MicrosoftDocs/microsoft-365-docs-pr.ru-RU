@@ -18,8 +18,32 @@
       href: compliance-extensibility.md
 - name: Управление внутренними рисками
   items:
-    - name: 'Управление рисками, связанными с инсайдерами'
+    - name: Решения для внутренних рисков в Microsoft 365
+      href: insider-risk-solution-overview.md
+    - name: Соответствие требованиям к обмену данными
       items:
+        - name: Обзор
+          href: communication-compliance-solution-overview.md
+        - name: Сведения о соответствии требованиям к обмену данными
+          href: communication-compliance.md
+        - name: Планирование соответствия требованиям к обмену данными
+          href: communication-compliance-plan.md
+        - name: Начало работы с соответствием требованиям к обмену данными
+          href: communication-compliance-configure.md
+        - name: Анализ и устранений оповещений соответствия требованиям к обмену данными
+          href: communication-compliance-investigate-remediate.md
+        - name: Справка по соответствию требованиям к обмену данными
+          href: communication-compliance-feature-reference.md
+        - name: Пример — быстрая настройка политики ненормативной лексики в Contoso
+          href: communication-compliance-case-study.md
+        - name: "Политики контроля в Office\_365"
+          href: supervision-policies.md
+        - name: "Настройка политик контроля в Office\_365"
+          href: configure-supervision-policies.md
+    - name: Управление внутренними рисками
+      items:
+        - name: Обзор
+          href: insider-risk-management-solution-overview.md
         - name: Сведения об управлении внутренними рисками
           href: insider-risk-management.md
         - name: Планирование управления внутренними рисками
@@ -40,27 +64,12 @@
           href: insider-risk-management-users.md
         - name: Создание шаблонов выявления внутренних рисков
           href: insider-risk-management-notices.md
-    - name: Соответствие требованиям к обмену данными
-      items:
-        - name: Сведения о соответствии требованиям к обмену данными
-          href: communication-compliance.md
-        - name: Планирование соответствия требованиям к обмену данными
-          href: communication-compliance-plan.md
-        - name: Начало работы с соответствием требованиям к обмену данными
-          href: communication-compliance-configure.md
-        - name: Анализ и устранений оповещений соответствия требованиям к обмену данными
-          href: communication-compliance-investigate-remediate.md
-        - name: Справка по соответствию требованиям к обмену данными
-          href: communication-compliance-feature-reference.md
-        - name: Пример — быстрая настройка политики ненормативной лексики в Contoso
-          href: communication-compliance-case-study.md
-        - name: "Политики контроля в Office\_365"
-          href: supervision-policies.md
-        - name: "Настройка политик контроля в Office\_365"
-          href: configure-supervision-policies.md
     - name: Информационные барьеры
-      href: information-barriers.md
       items:
+        - name: Обзор
+          href: information-barriers-solution-overview.md
+        - name: Сведения об информационных барьерах
+          href: information-barriers.md
         - name: Определение политик информационных барьеров
           href: information-barriers-policies.md
         - name: Атрибуты для политик информационных барьеров
@@ -71,6 +80,8 @@
           href: information-barriers-edit-segments-policies.md
     - name: Управление привилегированным доступом
       items:
+        - name: Обзор
+          href: privileged-access-management-solution-overview.md
         - name: Подробнее об управлении привилегированным доступом
           href: privileged-access-management-overview.md
         - name: Начало работы с управлением привилегированным доступом

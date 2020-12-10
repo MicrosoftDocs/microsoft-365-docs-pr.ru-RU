@@ -3,7 +3,7 @@ title: Настройка команд с базовым уровнем защи
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как развернуть команды с базовым уровнем защиты.
-ms.openlocfilehash: 76b60a61812c4d30884825b41ee7220d6686b58b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 16f37175c3aa7b420745e6126de1aa96368d618a
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845304"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613446"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Настройка команд с базовым уровнем защиты
 
@@ -35,7 +35,7 @@ ms.locfileid: "48845304"
 
 Мы также рекомендуем включить основные функции Defender для Office 365 с целью защиты от вредоносных программ в документах, вложениях и ссылках. Рекомендуем включить все параметры, указанные в таблице ниже.
 
-|Параметр|Сведения|
+|Параметр|Информация|
 |:------|:-----------|
 |Безопасные вложения для SPO, OneDrive и Teams|[Безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Defender для Office 365 — SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
 |Безопасные документы|[Безопасные документы в Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
@@ -88,13 +88,13 @@ ms.locfileid: "48845304"
 2. Щелкните **Открыть в SharePoint**.
 3. На панели инструментов сайта SharePoint щелкните значок параметров и выберите **Разрешения для сайта**.
 4. В области **Разрешения для сайта** в разделе **Параметры общего доступа** щелкните **Изменить параметры общего доступа**.
-5. В разделе **Разрешения общего доступа** выберите **Владельцы и участники сайта, и пользователи с правами «Редактировать» могут предоставлять общий доступ к файлам и папкам, но только владельцы сайта могут делиться сайтом** , а затем нажмите кнопку **Сохранить**.
+5. В разделе **Разрешения общего доступа** выберите **Владельцы и участники сайта, и пользователи с правами «Редактировать» могут предоставлять общий доступ к файлам и папкам, но только владельцы сайта могут делиться сайтом**, а затем нажмите кнопку **Сохранить**.
 
 ## <a name="additional-protections"></a>Дополнительная защита
 
 В Microsoft 365 доступны дополнительные методы защиты контента. Рассмотрите возможность использования следующих параметров для улучшения защиты вашей организации.
 
-- Ваши пользователи должны согласиться с [условиями использования](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
+- Ваши гости должны согласиться с [условиями использования](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
 - Настройте [политику времени ожидания сеанса](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) для гостей.
 - Создайте [типы конфиденциальной информации](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) и используйте [защиту от потери данных](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) для настройки политик доступа к конфиденциальной информации.
 
