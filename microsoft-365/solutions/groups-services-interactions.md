@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Группирует взаимодействия служб
-ms.openlocfilehash: 235a897314a784ba3bb1ac50fe8bdfe9986a70d3
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 6d5681b11cdbd837f784b6c8364cce23f964b167
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377633"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613230"
 ---
 # <a name="groups-services-interactions"></a>Группирует взаимодействия служб
 
@@ -109,7 +109,7 @@ ms.locfileid: "48377633"
 
 В следующей таблице представлен обзор групп Microsoft 365, взаимодействий с различными службами.
 
-|Продукт|Функции|Служба<br>Существует без группы?|Может служба<br>создать группу?|После удаления<br>экземпляр удалить группу?|
+|Продукт|Возможности|Служба<br>Существует без группы?|Может служба<br>создать группу?|После удаления<br>экземпляр удалить группу?|
 |:---|:---|:---|:---|:---|
 |Azure AD|Членство, элементы управления группы, гости|Да|Да|Да|
 |Exchange|Календарь, почтовый ящик|Да|Да|Да|
@@ -639,4 +639,10 @@ Yammer — это корпоративная социальная платфор
 **Удаляет ли группа Yammer удаление группы Microsoft 365?**
 
 Да, удаление группы в Yammer приведет к удалению связанных групп и связанных с группами служб и контента Майкрософт.
+
+## <a name="related-topics"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
 

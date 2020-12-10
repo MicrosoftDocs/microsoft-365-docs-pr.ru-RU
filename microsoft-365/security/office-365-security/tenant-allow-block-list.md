@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться настраивать записи URL-адресов в списке разрешенных и запрещенных клиентов центра безопасности & соответствия требованиям.
-ms.openlocfilehash: 1aae54ffd6026a7fc131017a10f9676d96be9b69
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 0fdfa23ba22b240032e7a6888948de180aa0f6ae
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572649"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614968"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>Управление URL-адресами в списке разрешенных и заблокированных клиентов
 
@@ -52,16 +52,16 @@ ms.locfileid: "49572649"
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Прежде чем выполнять процедуры, описанные в этой статье, необходимо назначить разрешения в центре безопасности & соответствия требованиям.
+- Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в Центре безопасности и соответствия требованиям:
   - Чтобы добавить или удалить значения из списка разрешенных и заблокированных клиентов, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ".
   - Для доступа только для чтения к списку разрешенных и запрещенных клиентов необходимо быть членом группы ролей " **глобальный читатель** " или " **читатель безопасности** ".
 
   Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-  **Примечания**:
+  **Примечания**.
 
-  - Добавление пользователей в соответствующую роль Azure Active Directory в центре администрирования Microsoft 365 предоставляет пользователям необходимые разрешения в центре безопасности & соответствия требованиям _и_ разрешениях для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
-  - Группа ролей **Управление организацией только для просмотра** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ к компоненту только для чтения.
+  - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения в Центре безопасности и соответствия требованиям _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Использование центра безопасности & соответствия требованиям для создания записей URL-адресов в списке разрешенных и запрещенных клиентов
 
@@ -296,7 +296,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - test.com/q=contoso.com
   - www.contoso.com
   - www. contoso. com/q = a@contoso. com
-  
+
 - **Согласование блока**:
 
   - contoso.com
@@ -324,7 +324,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - contoso.com
   - test.com/contoso.com
   - www.contoso.com/abc
-  
+
 #### <a name="scenario-right-wildcard-at-top-of-path"></a>Сценарий: подстановочный знак "справа" в верхней части пути
 
 **Запись**: `contoso.com/a/*`
@@ -341,7 +341,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - contoso.com/a
   - www.contoso.com
   - www. contoso. com/q = a@contoso. com
-  
+
 #### <a name="scenario-left-tilde"></a>Сценарий: левая тильда
 
 **Запись**: `~contoso.com`

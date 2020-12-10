@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о политиках защиты от фишинга, доступных в Exchange Online Protection (EOP) и защитнике Майкрософт для Office 365.
-ms.openlocfilehash: 839d76c1e07b457f671f1f0eccd0a9160e4039a3
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 9d3c8c0bf2b1c440892a1099d3d0812d95027156
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568580"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615772"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
 
@@ -30,7 +30,7 @@ ms.locfileid: "49568580"
 
 Политики для настройки параметров защиты от фишинга доступны в организациях Microsoft 365 с почтовыми ящиками Exchange Online, отдельными организациями Exchange Online Protection (EOP) без почтовых ящиков Exchange Online и защитником Майкрософт для Office 365.
 
-Политики защиты от фишинга в защитнике Microsoft для Office 365 доступны только в организациях с защитником для Office 365. Пример:
+Политики защиты от фишинга в защитнике Microsoft для Office 365 доступны только в организациях с защитником для Office 365. Например,
 
 - Microsoft 365 корпоративный и т. д., Microsoft 365 для образования A5 и т. д.
 - [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -129,7 +129,6 @@ ms.locfileid: "49568580"
 - Разрешите отправителю подмену в политике аналитики подделки. Это действие предотвратит отображение тега Via в сообщениях от отправителя при отключении идентификации отправителей, не прошедших проверку подлинности. Инструкции приведены [в статье Настройка логики операций подделки в Microsoft 365](learn-about-spoof-intelligence.md).
 
 - [Настройте проверку подлинности электронной почты](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) для домена отправителя.
-  
   - Для вопросительного знака в фотографии отправителя это наиболее важная информация: SPF или DKIM.
   - Для тега Via подтвердите, что домен в подписи DKIM или адрес **электронной почты** соответствует домену, указанному в поле адрес отправителя.
 

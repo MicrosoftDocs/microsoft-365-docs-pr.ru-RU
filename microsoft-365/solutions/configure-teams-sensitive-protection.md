@@ -3,7 +3,7 @@ title: Настройте группы с защитой для конфиден
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как развернуть группы с защитой для конфиденциальных данных.
-ms.openlocfilehash: 3c68e6690d9fdab28a5dd1369876bec5b3fd9bc7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ad1cf437bdbe3bd7b25347bb49698314097462ab
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528198"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49612956"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Настройте группы с защитой для конфиденциальных данных
 
@@ -80,7 +80,7 @@ ms.locfileid: "46528198"
 1. В командах нажмите **Teams** в левой части приложения, затем нажмите **Присоединиться или создать группу** в нижней части списка команд.
 2. Нажмите **Создать группу** (первая карта, верхний левый угол).
 3. Выберите **Создать группу с нуля**.
-4. В списке **Чувствительность**выберите **конфиденциальный** ярлык, который вы только что создали.
+4. В списке **Чувствительность** выберите **конфиденциальный** ярлык, который вы только что создали.
 5. В разделе **Конфиденциальность** нажмите **Приватный**.
 6. Введите имя для группы и нажмите кнопку **Создать**.
 7. Добавьте пользователей в группу и нажмите кнопку **Закрыть**.

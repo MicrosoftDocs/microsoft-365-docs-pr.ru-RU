@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Узнайте, как создать политику именования для групп Microsoft 365.
-ms.openlocfilehash: 55faf5c61d577b35b34923efc7b65457fe46de29
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 15fcbace737398c6edd2062e72622e8551ebd222
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377609"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613506"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Политика именования групп Microsoft 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "48377609"
 
 Это также необходимо для администратора, который создает политику именования групп.
 
-## <a name="prefix-suffix-naming-policy"></a>Политика именования префикса суффикса
+## <a name="prefix-suffix-naming-policy"></a>Политика именования Prefix-Suffix
 
 Префиксы и суффиксы могут быть либо фиксированными строками, либо пользовательскими атрибутами.
 
@@ -123,14 +123,18 @@ ms.locfileid: "48377609"
 Настройка политики именования:
 
 1. В разделе **Управление** [Azure Active Directory](https://aad.portal.azure.com)щелкните **группы**.
-2. В разделе **Параметры**выберите пункт **Политика именования**.
+2. В разделе **Параметры** выберите пункт **Политика именования**.
 3. Выберите вкладку **Политика именования групп** .
-4. В разделе **Текущая политика**выберите необходимость использования префикса или суффикса или обеих этих флажков, а также установите соответствующие флажки.
+4. В разделе **Текущая политика** выберите необходимость использования префикса или суффикса или обеих этих флажков, а также установите соответствующие флажки.
 5. Выберите между **атрибутом** и **строкой** для каждой строки, а затем укажите атрибут или строку.
 6. Добавив необходимые префиксы и суффиксы, нажмите кнопку **сохранить**.
 
 ![Снимок экрана параметров политики именования групп в Azure Active Directory](../media/groups-naming-policy-azure.png)
 
 ## <a name="related-topics"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
 
 [Командлеты Azure Active Directory для настройки параметров группы](https://go.microsoft.com/fwlink/?linkid=868341)

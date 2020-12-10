@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как использовать технологию DomainKeys Identified Mail (DKIM) для Microsoft 365, чтобы обеспечить доверие конечных почтовых систем к сообщениям, отправленным из вашего личного домена.
-ms.openlocfilehash: 66f352b6c3a5d3b3beff3043a3f0d1a435d1e5d1
-ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
+ms.openlocfilehash: f8ae6334a078d635de069d2fe7af351ad42d8df3
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49560888"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615364"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена
 
@@ -90,7 +90,7 @@ Microsoft 365 автоматически настраивает DKIM для св
    1. [Подключитесь к рабочим нагрузкам Office 365 с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (Командлет из Exchange Online.)
    1. Выполните следующую команду:
 
-      ```powershell 
+      ```powershell
       Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
       ```
 
@@ -131,7 +131,7 @@ Microsoft 365 автоматически настраивает DKIM для св
 Для каждого домена, для которого требуется добавить подпись DKIM в DNS, необходимо опубликовать две записи CNAME.
 
 > [!NOTE]
-> Если вы не ознакомились с полной статьей, вы могли пропустить эти сведения о подключении PowerShell, экономящие время: [Подключение к рабочим нагрузкам Office 365 с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (Командлет из Exchange Online.) 
+> Если вы не ознакомились с полной статьей, вы могли пропустить эти сведения о подключении PowerShell, экономящие время: [Подключение к рабочим нагрузкам Office 365 с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (Командлет из Exchange Online.)
 
 Чтобы создать записи селектора, выполните следующие команды:
 
@@ -254,7 +254,7 @@ TTL:                3600
 
 Действия, описанные в этой статье, необходимо выполнить для каждого дополнительного личного домена, для которого требуется включить DKIM. В частности, выполните все шаги в разделе [Что нужно сделать, чтобы вручную настроить DKIM](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365).
 
-## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>Отключение политики подписи DKIM для пользовательского домена 
+## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>Отключение политики подписи DKIM для пользовательского домена
 <a name="DisableDKIMSigningPolicy"> </a>
 
 Отключение политики подписывания полностью не отключает DKIM. Через некоторое время Microsoft 365 автоматически применит политику по умолчанию для вашего домена. Для получения дополнительной информации см. [Поведение по умолчанию для DKIM и Microsoft 365](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior).
@@ -336,7 +336,7 @@ Return-Path: <communication@bulkemailprovider.com>
    > sender@**contoso.com**
 
    > d=**contoso.com**
-   
+
 ## <a name="identify-domains-that-do-not-send-email"></a>Идентификация доменов, с которых не отправляется почта
 
 Организациям следует явно указать, отправляется ли почта с домена, с помощью `v=DKIM1; p=` в записи DKIM для этих доменов. При этом почтовым серверам получателя сообщается об отсутствии допустимых открытых ключей для этого домена и необходимости отклонить любое сообщение из него. Это нужно сделать для каждого домена и поддомена, использующего DKIM.

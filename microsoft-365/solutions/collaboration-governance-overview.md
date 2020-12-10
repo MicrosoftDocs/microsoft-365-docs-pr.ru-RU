@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Узнайте, как управлять связанными функциями в группах Microsoft 365, Teams, SharePoint и Yammer.
-ms.openlocfilehash: 2e4064ec64c52d4d3afe3d2e83f34079b3749f97
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 2319a0f5b8c74925569d00eb781d247fe61a5a76
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568448"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613036"
 ---
 # <a name="what-is-collaboration-governance"></a>Что такое управление совместным рабочими данными?
 
@@ -141,7 +141,7 @@ Microsoft 365 поддерживает три основных способа с
 |Политика истечения срока действия групп|Настройка истечения срока действия неактивных групп и команд и их удаление через заданный период времени.|Microsoft 365 в качестве лицензий на Azure AD Premium|
 |Гостевой доступ по группам|Разрешите или запретите совместное использование групп и групп пользователями, не входящими в вашу организацию, на уровне отдельных групп.|Microsoft 365 в ~ или E3|
 
-## <a name="create-your-governance-plan"></a>Создание плана управления
+## <a name="collaboration-governance-planning-step-by-step"></a>Планирование управления совместной работой — пошаговое руководство
 
 Чтобы создать план управления, выполните следующие основные действия:
 
@@ -208,12 +208,12 @@ Microsoft 365 поддерживает три основных способа с
 
 Microsoft 365 включает широкий набор возможностей защиты информации и соответствия требованиям. Вместе с инструментами для повышения продуктивности корпорации Майкрософт эти возможности предназначены для того, чтобы помочь организациям совместно работать в режиме реального времени и придерживаться строгих нормативных требований. 
 
-В этом наборе иллюстраций используется одна из наиболее поднадзорных отраслей, финансовых служб, чтобы продемонстрировать, как эти возможности можно применять для удовлетворения распространенных нормативных требований. Вы можете адаптировать эти иллюстрации для собственного использования. 
+В этом наборе иллюстраций используется одна из наиболее поднадзорных отраслей, финансовых служб, чтобы продемонстрировать, как эти возможности можно применять для удовлетворения распространенных нормативных требований. Вы можете адаптировать эти изображения для собственного применения. 
 
 
-| Item | Описание |
+| Элемент | Описание |
 |:-----|:-----|
-|[![Плакат модели: Microsoft 365 Information Protection и обеспечение соответствия требованиям](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> Английский: [скачать как файл в формате PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [как Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Японский: [скачать как файл в формате PDF](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf) \| [как Visio](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx)   <br/> Обновлено 2020 ноября|Включаются <ul><li>  Защита информации Майкрософт и защита от потери данных</li><li>Политики и метки хранения </li><li>Информационные барьеры</li><li>Соответствие требованиям к обмену данными</li><li>Риск для оценки</li><li>Сторонние приемы данных</li>|
+|[![Плакат модели: возможности защиты информации и соответствия требованиям Microsoft 365](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> Английский язык: [Скачать в виде PDF-файла](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Скачать в виде файла Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Японский язык: [Скачать в виде PDF-файла](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Скачать в виде файла Visio](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> Обновление: ноябрь 2020 г.|Содержимое: <ul><li>  Защита информации (Майкрософт) и защита от потери данных</li><li>Политики и метки хранения </li><li>Информационные барьеры</li><li>Соответствие требованиям к обмену данными</li><li>Внутренний риск</li><li>Внедрение сторонних данных</li>|
 
 ## <a name="conference-sessions"></a>Conference sessions (Сеансы конференций)
 

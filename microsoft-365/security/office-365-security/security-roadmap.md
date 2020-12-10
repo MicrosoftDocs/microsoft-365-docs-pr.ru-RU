@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Основные рекомендации от группы циберсекурити корпорации Майкрософт для реализации возможностей обеспечения безопасности, защищающих среду Microsoft 365. '
-ms.openlocfilehash: d62db9206a98078ae5adaad220a7c9b53ff116cd
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 452ce2a303f02cadfcdcbe12310f2538d33a24e7
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561703"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615808"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>План безопасности — основные приоритеты для первых 30 дней, 90 дней и более поздних
 
@@ -77,7 +77,7 @@ ms.locfileid: "49561703"
 
 |Область|Задача|
 |---|---|
-|Управление безопасностью|<ul><li>Проверка безопасности оценки для рекомендуемых действий в среде ( [https://securescore.office.com](https://securescore.office.com) ).</li><li>Продолжайте регулярно просматривать панели мониторинга и отчеты в центре безопасности Microsoft 365, Cloud App Security и средствах SIEM.</li><li>Ищите и реализуйте обновления программного обеспечения.</li><li>Имитация атаки на спеар-фишинг, распыление паролей и атаки с использованием пароля прямого доступа с помощью [симулятора атак](attack-simulator.md) (входит в состав [Office 365 Threat Intelligence](office-365-ti.md)).</li><li>Найдите риск для общего доступа, просмотрев встроенные отчеты в Cloud App Security (на вкладке "исследование").</li><li>В [диспетчере соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) просмотрите состояние нормативных требований, которые применяются к вашей организации (например, GDPR, NIST 800-171).</li></ul>|
+|Управление безопасностью|<ul><li>Проверка безопасности оценки для рекомендуемых действий в среде ( <https://securescore.office.com> ).</li><li>Продолжайте регулярно просматривать панели мониторинга и отчеты в центре безопасности Microsoft 365, Cloud App Security и средствах SIEM.</li><li>Ищите и реализуйте обновления программного обеспечения.</li><li>Имитация атаки на спеар-фишинг, распыление паролей и атаки с использованием пароля прямого доступа с помощью [симулятора атак](attack-simulator.md) (входит в состав [Office 365 Threat Intelligence](office-365-ti.md)).</li><li>Найдите риск для общего доступа, просмотрев встроенные отчеты в Cloud App Security (на вкладке "исследование").</li><li>В [диспетчере соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) просмотрите состояние нормативных требований, которые применяются к вашей организации (например, GDPR, NIST 800-171).</li></ul>|
 |Защита от угроз|Реализация расширенной защиты для учетных записей администраторов: <ul><li>Настройка [привилегированных рабочих станций доступа](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) (павс) для действий администратора.</li><li>Настройка [управления привилегированными удостоверениями Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure).</li><li>Настройте средство управления сведениями о безопасности и событиями (SIEM) для сбора данных ведения журнала из Office 365, Cloud App Security и других служб, в том числе AD FS. В журнале аудита хранятся данные только в 90 дней. Захват этих данных в инструменте SIEM позволяет хранить данные в течение более длительного времени.</li></ul>|
 |Управление идентификацией и доступом|<ul><li>Включение и применение MFA для всех пользователей.</li><li>Реализация набора [условного доступа и связанных политик](microsoft-365-policies-configurations.md).</li></ul>|
 |Защита информации| Адаптируйте и реализуйте политики защиты информации. К этим ресурсам относятся примеры: <ul><li>[Защита информации в Office 365 в соответствии с GDPR](https://aka.ms/o365gdpr)</li><li>[Настройте Teams с тремя уровнями защиты](../../solutions/configure-teams-three-tiers-protection.md)</li></ul> <p> Использование политик защиты от потери данных и средств мониторинга в Microsoft 365 для данных, хранящихся в Microsoft 365 (а не в Cloud App Security). <p> Используйте Cloud App Security с Microsoft 365 для расширенных функций оповещения (Кроме защиты от потери данных).|

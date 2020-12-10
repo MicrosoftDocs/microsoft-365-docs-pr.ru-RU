@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Сведения о том, как объяснить группы Microsoft 365 для пользователей.
-ms.openlocfilehash: 179452800fb28c193622b47dce85dd6419ae5ac2
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 2f983d69f8b3138634739a82e35de9e62821d252
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49554806"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613012"
 ---
 # <a name="explaining-microsoft-365-groups-to-your-users"></a>Объяснение групп Microsoft 365 для пользователей
 
@@ -39,6 +39,8 @@ ms.locfileid: "49554806"
 
 Если вы Научите пользователей всегда использовать метод создания группы, который в большей степени соответствует своему способу работы, когда им требуется место для совместной работы с другими пользователями, можно избежать путаницы и дублирования ресурсов. По мере того, как пользователи становятся более опытными, они будут лучше распознавать коллекцию служб, которые поставляются с группой, и что разные методы создания приведут к одному и тому же результату.
 
-## <a name="related-topics"></a>Статьи по теме
+В качестве отправной точки для обучающих презентаций для пользователей можно использовать [шаблон Microsoft 365 "бизнес-пользователь — шаблон PowerPoint](https://www.microsoft.com/download/details.aspx?id=102396) ".
+
+## <a name="related-topics"></a>Связанные статьи
 
 [Сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)

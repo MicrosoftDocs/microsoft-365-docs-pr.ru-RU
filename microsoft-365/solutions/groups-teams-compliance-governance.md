@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Узнайте о вариантах соответствия требованиям для групп Microsoft 365, Teams и SharePoint для совместной работы.
-ms.openlocfilehash: 0383b0728d9b8ea12ce75de8bf0e250932d14ae5
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: e1ca6e638b2d44ae3b04e2a0f13222424e89714d
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377537"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613634"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Варианты соответствия требованиям для групп Microsoft 365, групп и совместной работы SharePoint
 
@@ -113,8 +113,10 @@ DLP в Microsoft Teams помогает защитить конфиденциа�
 
 ## <a name="related-topics"></a>Связанные статьи
 
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
+
 [Безопасность и соответствие требованиям для Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance)
 
 [Защита информации](https://docs.microsoft.com/microsoft-365/compliance/protect-information)
-
-

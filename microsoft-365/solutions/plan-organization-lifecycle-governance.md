@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Экономичность параметров управления жизненным циклом средств для совместной работы в Microsoft 365
-ms.openlocfilehash: 706f1aaecf22c4088d4539c208fef68320c5e710
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 4d779701d241fc7178ab759063be1b8cdf2e960c
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377191"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613024"
 ---
 # <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Планирование управления Организацией и жизненным циклом для групп Microsoft 365 и Microsoft Teams
 
@@ -74,3 +74,9 @@ ms.locfileid: "48377191"
 - Любую удаленную группу можно восстановить в течение 30 дней с помощью владельца группы или администратора.
 
 Политики истечения срока действия являются хорошим способом ограничения числа групп, что позволяет удалять группы, которые больше не используются. Если вы хотите создать политику истечения срока действия групп, ознакомьтесь со статьей " [политика истечения срока действия групп Microsoft 365](microsoft-365-groups-expiration-policy.md)".
+
+## <a name="related-topics"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)

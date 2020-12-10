@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Узнайте, как создать план управления совместным рабочими процессами
-ms.openlocfilehash: 2fb2db16df3c83347831f4ea3489835e5037bbec
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: c27ac401d06808d1a4337e9ec7ec0700bfba19ea
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568286"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613300"
 ---
 # <a name="create-your-collaboration-governance-plan"></a>Создание плана по управлению совместной работой
 
@@ -132,7 +132,9 @@ ms.locfileid: "49568286"
 
 - Можно создать программу Microsoft 365 лидеров для вашей организации? Кроме того, рекомендуется присоединяться к [программе microsoft 365 лидеров](https://aka.ms/O365Champions) для получения идей и подходов к собственной программе лидеров, а также для связи с пользователями с напоминаниями и идейными руководителями от Майкрософт.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
 [Управление в платформе Microsoft Cloud TAP для Azure](https://docs.microsoft.com/azure/cloud-adoption-framework/govern)
 

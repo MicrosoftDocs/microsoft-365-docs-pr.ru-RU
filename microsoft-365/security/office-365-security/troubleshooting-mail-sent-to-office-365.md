@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье содержатся сведения об устранении неполадок, связанных с отправкой электронной почты в папки "Входящие" в Microsoft 365 & рекомендации по массовой рассылке клиентам Microsoft 365.
-ms.openlocfilehash: 895f2651529cd46968d053fefac10cb22b6a5d86
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 8b7c008f827a579e234d8a8feab008d36ecfe064
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568558"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615412"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Письмо с устранением неполадок, отправленное в Microsoft 365
 
@@ -92,11 +92,11 @@ ms.locfileid: "49568558"
 
 Правильный вариант:
 
-> От: marketing@shoppershandbag.com <br/> Тема: обновлен каталог для Рождество!
+> От: marketing@shoppershandbag.com <br> Тема: обновлен каталог для Рождество!
 
 Неправильный вариант:
 
-> От: someone@outlook.com <br/> Тема: Каталоги
+> От: someone@outlook.com <br> Тема: Каталоги
 
 Чем проще пользователям узнать, кто вы и чем занимаетесь, тем выше вероятность того, что сообщение будет доставлено через большинство фильтров спама.
 

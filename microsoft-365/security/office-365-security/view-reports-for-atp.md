@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-office365
 description: В центре безопасности & соответствия требованиям найдите и используйте отчеты для защитника Майкрософт для Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a237049c9ebbccf1c01feeb21129496e16d437b2
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 2818362eea4071430bb2c784ceb0ce0eeb970a79
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572493"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615580"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Просмотр отчетов защитник для Office 365 в панели мониторинга отчетов в центре безопасности & соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Защитник Майкрософт для Office 365 (например, подписки 365 Microsoft для Office или защитник Майкрософт для Office 365, план 1 или защитник Microsoft для Office 365 Plan 2) содержат различные отчеты, связанные с безопасностью. Если у вас есть [необходимые разрешения](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports), вы можете просмотреть эти отчеты в центре безопасности & соответствия требованиям, перейдя **Reports** на \> **панель мониторинга** отчетов. Чтобы перейти непосредственно к панели мониторинга отчетов, откройте ее <https://protection.office.com/insightdashboard> .
+Защитник Майкрософт для Office 365 (например, подписки 365 Microsoft для Office или защитник Майкрософт для Office 365, план 1 или защитник Microsoft для Office 365 Plan 2) содержат различные отчеты, связанные с безопасностью. Если у вас есть [необходимые разрешения](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports), вы можете просмотреть эти отчеты в центре безопасности & соответствия требованиям, перейдя  на \> **панель мониторинга** отчетов. Чтобы перейти непосредственно к панели мониторинга отчетов, откройте ее <https://protection.office.com/insightdashboard> .
 
 ![Панель мониторинга отчетов в центре безопасности & соответствия требованиям](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "49572493"
 
  Сводное представление отчета поддерживает 90 дней фильтрации, в то время как в подробном представлении допускается не более 10 дней фильтрации.
 
-Чтобы просмотреть отчет, откройте [Центр безопасности & соответствия требованиям](https://protection.office.com), откройте **Reports** \> **панель мониторинга "** отчеты" и выберите **"защитник для Office 365 типы файлов"**. Чтобы перейти непосредственно к отчету, откройте его <https://protection.office.com/reportv2?id=ATPFileReport> .
+Чтобы просмотреть отчет, откройте [Центр безопасности & соответствия требованиям](https://protection.office.com), откройте  \> **панель мониторинга "** отчеты" и выберите **"защитник для Office 365 типы файлов"**. Чтобы перейти непосредственно к отчету, откройте его <https://protection.office.com/reportv2?id=ATPFileReport> .
 
 ![Защитник для Office 365 Type Files Widget в панели мониторинга отчетов](../../media/atp-file-types-report-widget.png)
 
@@ -123,7 +123,7 @@ ms.locfileid: "49572493"
 
 В отчете об **ликвидации сообщений ATP** отображаются действия, предпринятые для сообщений электронной почты, которые были обнаружены как вредоносный контент.
 
-Чтобы просмотреть отчет, откройте [Центр безопасности & соответствия требованиям](https://protection.office.com), перейдите в **Reports** \> **панель мониторинга** отчетов и выберите **защитник для Office 365 Message Disposition**. Чтобы перейти непосредственно к отчету, откройте его <https://protection.office.com/reportv2?id=ATPMessageReport> .
+Чтобы просмотреть отчет, откройте [Центр безопасности & соответствия требованиям](https://protection.office.com), перейдите в  \> **панель мониторинга** отчетов и выберите **защитник для Office 365 Message Disposition**. Чтобы перейти непосредственно к отчету, откройте его <https://protection.office.com/reportv2?id=ATPMessageReport> .
 
 ![Защитник для Office 365, Мини-приложение для размещения сообщений на панели мониторинга отчетов](../../media/atp-message-disposition-report-widget.png)
 
@@ -211,7 +211,7 @@ ms.locfileid: "49572493"
 
 Задержка на стороне клиента и сети не включается.
 
-Чтобы просмотреть отчет, откройте [Центр безопасности & соответствия требованиям](https://protection.office.com), перейдите в **Reports** \> **панель мониторинга** отчетов и выберите **отчет о задержке почты**. Чтобы перейти непосредственно к отчету, откройте его <https://protection.office.com/mailLatencyReport?viewid=P50> .
+Чтобы просмотреть отчет, откройте [Центр безопасности & соответствия требованиям](https://protection.office.com), перейдите в  \> **панель мониторинга** отчетов и выберите **отчет о задержке почты**. Чтобы перейти непосредственно к отчету, откройте его <https://protection.office.com/mailLatencyReport?viewid=P50> .
 
 ![Мини-приложение "отчет о задержке почты" на панели мониторинга отчетов](../../media/mail-latency-report-widget.png)
 
@@ -264,7 +264,7 @@ ms.locfileid: "49572493"
 
 В **отчете защита от угроз URL** представлены сводные и трендовые представления для обнаруженных угроз и действий, выполняемых с помощью URL-адресов в составе [безопасных ссылок](atp-safe-links.md). В этот отчет не будут выбраны данные о пользователях, к которым применяется политика безопасных ссылок, выбран параметр **не отслеживать нажатия пользователем** .
 
-Чтобы просмотреть отчет, откройте [Центр безопасности & соответствия требованиям](https://protection.office.com), перейдите в **Reports** \> **панель мониторинга** отчетов и выберите **отчет по защите URL-адресов**. Чтобы перейти непосредственно к отчету, откройте его <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
+Чтобы просмотреть отчет, откройте [Центр безопасности & соответствия требованиям](https://protection.office.com), перейдите в  \> **панель мониторинга** отчетов и выберите **отчет по защите URL-адресов**. Чтобы перейти непосредственно к отчету, откройте его <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
 
 ![Мини-приложение отчета по защите URL-адресов в панели мониторинга отчетов](../../media/url-protection-report-widget.png)
 
@@ -353,8 +353,8 @@ ms.locfileid: "49572493"
 
 Если вы не видите данные в отчете "защитник для Office 365", проверьте правильность настройки политик. Организация должна иметь политики безопасных [ссылок](set-up-atp-safe-links-policies.md) и [политики безопасных вложений](set-up-atp-safe-attachments-policies.md) , определенные для обеспечения защиты от защитника Office 365. Кроме того, вы можете увидеть [защиту от нежелательной почты и вредоносных программ](anti-spam-and-anti-malware-protection.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
-  
+
 [Разрешения ролей (Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

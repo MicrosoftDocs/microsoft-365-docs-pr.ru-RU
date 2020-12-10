@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-overview
-ms.openlocfilehash: 0144e9478e74e252e0c4ccc0c902df376129c388
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: c5c6dae49943aba4288ef2a0dfe9662b02d3b054
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558290"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616372"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
@@ -43,9 +43,8 @@ ms.locfileid: "49558290"
 
 Если у вашей организации есть уникальные требования к среде или сложности, используйте эти рекомендации в качестве отправной точки. Тем не менее, в большинстве организаций эти рекомендации могут быть реализованы в соответствии с предписанными рекомендациями.
 
->[!Note]
->Кроме того, корпорация Майкрософт продает лицензии на Enterprise Mobility + Security (EMS) для подписок на Office 365. Возможности EMS E3 и EMS эквивалентны функциям в Microsoft 365 E3 и Microsoft 365 е. Подробные сведения приведены в разделе [Plans EMS](https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) .
->
+> [!NOTE]
+> Кроме того, корпорация Майкрософт продает лицензии на Enterprise Mobility + Security (EMS) для подписок на Office 365. Возможности EMS E3 и EMS эквивалентны функциям в Microsoft 365 E3 и Microsoft 365 е. Подробные сведения приведены в разделе [Plans EMS](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) .
 
 ## <a name="intended-audience"></a>Целевая аудитория
 
@@ -83,7 +82,7 @@ ms.locfileid: "49558290"
 
 **Защита удостоверений и устройств для модели архитектуры Microsoft 365** показывает, какие возможности сравнимы.
 
-[![Эскизы для защиты удостоверений и устройств для Microsoft 365 афиши](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Просмотр в виде PDF-файла](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Загрузка в виде PDF-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Скачать как Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
+[![Эскизы для защиты удостоверений и устройств для Microsoft 365 афиши](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [Просмотр в виде PDF-файла](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Загрузка в виде PDF-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Скачать как Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
 
 Кроме того, ознакомьтесь со статьей [развертывание защиты информации для обеспечения конфиденциальности данных](../../solutions/information-protection-deploy.md) для защиты данных, хранящихся в Microsoft 365.
 

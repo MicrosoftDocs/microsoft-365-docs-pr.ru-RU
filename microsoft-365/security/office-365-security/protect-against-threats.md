@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 description: Администраторы могут узнать о защите от угроз в Microsoft 365 и настроить способ ее использования в Организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98a20c8805ff9eb735ca880cfc24a0acf9698b3e
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 646fff4550de2e07342c0fef04952846db65a8eb
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561211"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615124"
 ---
 # <a name="protect-against-threats"></a>Защита от угроз
 
@@ -36,7 +36,7 @@ ms.locfileid: "49561211"
 > [!IMPORTANT]
 > **Начальные Рекомендуемые параметры включены для каждого типа политики, но многие варианты доступны, и вы можете настроить параметры в соответствии с потребностями конкретной организации**. Разрешите около 30 минут, чтобы политики или изменения работали с центром обработки данных.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 ### <a name="subscriptions"></a>Подписки
 
@@ -56,7 +56,7 @@ ms.locfileid: "49561211"
 |Автоматическая очистка нулевого времени (для электронной почты)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Защита от вредоносных URL-адресов и файлов в электронной почте и документах Office (безопасные ссылки и безопасные вложения)|[Защитник Майкрософт для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 |Включение ATP для рабочих нагрузок SharePoint, OneDrive и Microsoft Teams|[Защитник для Office 365 ](atp-for-spo-odb-and-teams.md)|
-|Расширенная защита от фишинга|[Защитник для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Расширенная защита от фишинга|[Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Роли и разрешения
 
@@ -68,7 +68,7 @@ ms.locfileid: "49561211"
 |---|---|
 |Глобальный администратор|[О ролях администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Администратор безопасности|[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Управление организациями в Exchange Online|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
+|Управление организациями в Exchange Online|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <p> и <p> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |
 
 Дополнительные сведения см. [в разделе разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
@@ -81,7 +81,7 @@ ms.locfileid: "49561211"
 
 [Защита от вредоносных программ](anti-malware-protection.md) доступна в подписках, включающих [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
 
-1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политику **управления угрозами** для  >  **Policy**  >  **защиты от вредоносных программ**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политику **управления угрозами** для \>  \> **защиты от вредоносных программ**.
 
 2. Дважды щелкните политику **по умолчанию** , а затем выберите **Параметры**.
 
@@ -101,7 +101,7 @@ ms.locfileid: "49561211"
 
 В следующей процедуре описывается настройка политики защиты от фишинга в защитнике Майкрософт для Office 365. Эти действия похожи на настройку политики защиты от фишинга в EOP.
 
-1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политику **управления угрозами** для  >  **Policy**  >  **защиты от фишинга ATP**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политику **управления угрозами** для \>  \> **защиты от фишинга ATP**.
 
 2. Щелкните **Политика по умолчанию**.
 
@@ -135,7 +135,7 @@ ms.locfileid: "49561211"
 
 [Защита от нежелательной почты](anti-spam-protection.md) доступна в подписках, включающих [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
 
-1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политика **управления угрозами**  >  **Policy**  >  **защиты от нежелательной почты**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политика **управления угрозами** \>  \> **защиты от нежелательной почты**.
 
 2. На вкладке **Настраиваемый** включите параметр настраиваемые параметры.
 
@@ -157,7 +157,7 @@ ms.locfileid: "49561211"
 
 Чтобы настроить [безопасные вложения](atp-safe-attachments.md), создайте по крайней мере одну политику безопасных ссылок.
 
-1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политика **управления угрозами**  >  **Policy**  >  **безопасные вложения ATP** и нажмите кнопку **создать**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политика **управления угрозами** \>  \> **безопасные вложения ATP** и нажмите кнопку **создать**.
 
 2. В открывшемся мастере **создания политики безопасных вложений** настройте следующие параметры:
 
@@ -177,7 +177,7 @@ ms.locfileid: "49561211"
 
 Чтобы настроить [безопасные ссылки](atp-safe-links.md), просмотрите и измените глобальные параметры для безопасных ссылок и создайте по крайней мере одну политику безопасных ссылок.
 
-1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политику **управления угрозой**  >  **Policy**  >  **безопасные ссылки ATP** и щелкните **глобальные параметры**, а затем настройте следующие параметры:
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политику **управления угрозой** \>  \> **безопасные ссылки ATP** и щелкните **глобальные параметры**, а затем настройте следующие параметры:
 
    - Проверка **использования безопасных ссылок в: приложения Office 365** включены: ![ включается ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
    - **Не Отслеживайте, когда пользователи щелкают ссылки "безопасные ссылки**": этот параметр отключен для отслеживания щелчков мышью: ![ вкл ](../../media/scc-toggle-off.png) .
@@ -214,7 +214,7 @@ ms.locfileid: "49561211"
 > [!IMPORTANT]
 > **Прежде чем приступить к этой процедуре, убедитесь, что ведение журнала аудита для вашей среды Microsoft 365 уже включено**. Это обычно делается для пользователей, которым назначена роль "журналы аудита" в Exchange Online. Дополнительную информацию можно узнать [в статье Включение или отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
 
-1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политика **управления угрозами**  >  **Policy**  >  **безопасные вложения ATP**, а затем — **глобальные параметры**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите политика **управления угрозами** \>  \> **безопасные вложения ATP**, а затем — **глобальные параметры**.
 
 2. Убедитесь, что флажок **включить ATP для SharePoint, OneDrive и Microsoft Teams** находится справа: ![ включить ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) , а затем нажмите кнопку **сохранить**.
 
@@ -284,7 +284,7 @@ ms.locfileid: "49561211"
 
 |Действия|Дополнительные ресурсы|
 |---|---|
-|Узнайте, как функции защиты от угроз работают в вашей организации, просмотрев отчеты|[Панель мониторинга безопасности](security-dashboard.md)<br/>[Отчеты по безопасности электронной почты](view-email-security-reports.md)<br/>[Отчеты для защитника Майкрософт для Office 365](view-reports-for-atp.md)<br/>[Обозреватель угроз](threat-explorer.md)|
-|При необходимости периодически проверяйте и изменяйте политики защиты от угроз.|[Оценка безопасности](../mtp/microsoft-secure-score.md)<br/>[Интеллектуальные отчеты и аналитика](reports-and-insights-in-security-and-compliance.md)<br/>[Исследование угроз и функции ответа Microsoft 365](keep-users-safe-with-office-365-ti.md)|
-|Просмотр новых компонентов и обновлений служб|[Варианты стандартных и целевых выпусков](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Центр сообщений](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Дорожная карта Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Описания служб](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
+|Узнайте, как функции защиты от угроз работают в вашей организации, просмотрев отчеты|[Панель мониторинга безопасности](security-dashboard.md) <p> [Отчеты по безопасности электронной почты](view-email-security-reports.md) <p> [Отчеты для защитника Майкрософт для Office 365](view-reports-for-atp.md) <p> [Обозреватель угроз](threat-explorer.md)|
+|При необходимости периодически проверяйте и изменяйте политики защиты от угроз.|[Оценка безопасности](../mtp/microsoft-secure-score.md) <p> [Интеллектуальные отчеты и аналитика](reports-and-insights-in-security-and-compliance.md) <p> [Исследование угроз и функции ответа Microsoft 365](keep-users-safe-with-office-365-ti.md)|
+|Просмотр новых компонентов и обновлений служб|[Варианты стандартных и целевых выпусков](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365) <p> [Центр сообщений](https://docs.microsoft.com/microsoft-365/admin/manage/message-center) <p> [Дорожная карта Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection) <p> [Описания служб](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |Сведения о рекомендуемых стандартных и ограниченных конфигурациях безопасности для EOP и защитника для Office 365|[Рекомендуемые параметры для EOP и Microsoft Defender для Office 365 Security](recommended-settings-for-eop-and-office365-atp.md)|

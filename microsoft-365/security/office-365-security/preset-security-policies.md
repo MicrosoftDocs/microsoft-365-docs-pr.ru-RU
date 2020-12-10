@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как применять стандартные и жесткие параметры политики к функциям защиты в Exchange Online Protection (EOP) и защитником Майкрософт для Office 365
-ms.openlocfilehash: e968f7ea768ac8a0b402c28f3830a52b44afa342
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: fb613916ec375214b33b8b842c6817561920715d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572781"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616048"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Предварительно настроенные политики безопасности в EOP и защитнике Майкрософт для Office 365
 
@@ -62,7 +62,7 @@ ms.locfileid: "49572781"
 Предварительно заданные политики безопасности используют соответствующие политики из различных функций защиты в EOP и Microsoft Defender для Office 365. Эти политики создаются _после_ назначения пользователям **стандартных** политик безопасности или установки с **ограниченной защитой** . Эти политики нельзя изменить.
 
 - **Политики Exchange Online Protection (EOP)**: Это включает в себя организации Microsoft 365 с почтовыми ящиками Exchange Online и автономными организациями EOP без почтовых ящиков Exchange Online:
-  
+
   - [Политики защиты от нежелательной почты](configure-your-spam-filter-policies.md) под названием **standardd Policy Policy** и **строгая предварительно установленная политика безопасности**.
   - Политики защиты от [вредоносных программ](configure-anti-malware-policies.md) под названием **standardd Policy Policy** и **строгая предварительно установленная политика безопасности**.
   - [EOP антифишинговые политики](set-up-anti-phishing-policies.md#spoof-settings) с именем **Standardd Security Policy Policy** и **строгая предварительно установленная политика безопасности** (параметры подделки).
@@ -112,7 +112,7 @@ ms.locfileid: "49572781"
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Использование центра безопасности & соответствия требованиям для назначения готовых политик безопасности пользователям
 
-1. В центре безопасности & соответствия требованиям перейдите к разделу политики безопасности политики **управления угрозами** \> **Policy** \> **Preset security policies**.
+1. В центре безопасности & соответствия требованиям перейдите к разделу политики безопасности политики **управления угрозами** \>  \> .
 
 2. В разделе **Стандартная защита** или **ограниченная защита** нажмите кнопку **изменить**.
 

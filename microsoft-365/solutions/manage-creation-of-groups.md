@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как определять, какие пользователи могут создавать группы Microsoft 365.
-ms.openlocfilehash: 3a0ac5ef48eabfd06e0df3f509c7d8e4be3cff10
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 2954f68dce289d43b37bf8f5c6ff43fe1b5c48c7
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602023"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613567"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Управление пользователями, которые могут создавать группы Microsoft 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "49602023"
 - Microsoft Teams
 - Microsoft Stream
 - Планировщик
-- PowerBI (классический)
+- Power BI (классическая)
 - Проект для веб-сайта или плана
 
 Вы можете ограничить создание групп Microsoft 365 членами определенной группы безопасности. Чтобы настроить это, используйте Windows PowerShell. В этой статье рассказывается о необходимых действиях.
@@ -98,7 +98,7 @@ ms.locfileid: "49602023"
 
 Скопируйте приведенный ниже скрипт в текстовый редактор, например "Блокнот" или [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Замените *\<SecurityGroupName\>* именем группы безопасности, которую вы создали. Примеры:
+Замените *\<SecurityGroupName\>* именем группы безопасности, которую вы создали. Например,
 
 `$GroupName = "Group Creators"`
 
@@ -167,7 +167,11 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > Если участники группы безопасности не могут создавать группы, убедитесь, что они не блокируются с помощью [политики почтовых ящиков OWA](https://go.microsoft.com/fwlink/?linkid=852135).
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-topics"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
 
 [Начало работы с Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
 

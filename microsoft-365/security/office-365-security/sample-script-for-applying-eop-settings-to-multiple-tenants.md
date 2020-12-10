@@ -14,12 +14,12 @@ ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье рассказывается, как использовать PowerShell для применения параметров конфигурации к клиентам в Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: dbb4135c89ac8d351c40bd7d9ce5301500a9b81b
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: b18fc71171a93e2a2f415800bcf2b5abd5c5a526
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376571"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615868"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Пример сценария для применения параметров EOP к нескольким клиентам
 
@@ -90,7 +90,7 @@ Import-Module ExchangeOnlineManagement
 
 # Loop through each entry from the .csv file.
 ForEach ($Company in $CompanyList) {
-  
+
 # Get the current entry's UserName.
 $UserName = $Company.UserName
 

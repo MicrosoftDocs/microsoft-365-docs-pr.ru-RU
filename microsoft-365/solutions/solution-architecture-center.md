@@ -12,12 +12,13 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 61947c940a5079574954344ab72d86594ac3ba48
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ROBOTS: NOINDEX
+ms.openlocfilehash: 2da8d423f2fcebdf7a2663dee8cadfd92f82803a
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906207"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613646"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Центр архитектуры и решений Microsoft 365
 
@@ -36,5 +37,5 @@ ms.locfileid: "48906207"
 
 ![Рекомендации по ](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) работе с лентой, **[относящиеся к отраслевым](industry-specific-guidance-overview.md)**  рекомендациям, чтобы найти рекомендации по вашей отрасли (финансы, здравоохранение и образование).
 
-![Принципы проектирования символов структуры и навигации Познакомьтесь ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[Design principles](design-principles.md)** с ключевыми принципами, необходимыми для изучения архитектур сети, удостоверений, безопасности и многоязычности.
+![Принципы проектирования символов структуры и навигации Познакомьтесь ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[](design-principles.md)** с ключевыми принципами, необходимыми для изучения архитектур сети, удостоверений, безопасности и многоязычности.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 description: Сведения о том, как выбрать домен для использования при создании групп Microsoft 365 путем настройки политик адресов электронной почты с помощью PowerShell.
-ms.openlocfilehash: bb6137a3dfce17bc9c94648e5ea9e12ec2776195
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 1e56268c3994b1ac822869d154be826326039bfc
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377441"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49612944"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Выбор домена, который будет использоваться при создании групп Microsoft 365
 
@@ -118,6 +118,10 @@ Remove-EmailAddressPolicy -Identity StudentsGroups
     
 - В организации можно настроить не более 100 политик адресов электронной почты.
     
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
 
 [Создание группы Microsoft 365 в центре администрирования](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)

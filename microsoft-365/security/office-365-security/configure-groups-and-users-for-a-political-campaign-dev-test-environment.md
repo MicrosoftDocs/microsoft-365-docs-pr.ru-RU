@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: Сводка. Сведения о создании пробных подписок на Office 365 и Enterprise Mobility + Security (EMS) с пользователями и группами в случае среды разработки и тестирования для политической кампании.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 80454477bc55ab54ae7edf14ded5b4fa49fe1530
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1fac15cc0b2a512745e0538ec689bd5f17555419
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203363"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614910"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
@@ -68,7 +68,7 @@ ms.locfileid: "48203363"
 
 Сначала создайте набор групп для обычной политической кампании на портале Azure.
 
-1. Откройте портал Azure ([https://portal.azure.com](https://portal.azure.com)) на отдельной вкладке браузера. Если необходимо, выполните вход, используя данные учетной записи глобального администратора для пробной подписки на Office 365 E5.
+1. Откройте портал Azure (<https://portal.azure.com>) на отдельной вкладке браузера. Если необходимо, выполните вход, используя данные учетной записи глобального администратора для пробной подписки на Office 365 E5.
 
 2. На портале Azure последовательно выберите **Azure Active Directory > Пользователи и группы > Все группы**.
 
@@ -175,7 +175,7 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
 1. На вкладке браузера **Домашняя страница Microsoft Office** щелкните плитку **Администрирование**.
 
-2. На новой вкладке браузера**Центр администрирования Microsoft 365** щелкните **Пользователи**.
+2. На новой вкладке браузера **Центр администрирования Microsoft 365** щелкните **Пользователи**.
 
 3. В списке пользователей выберите **Кандидат**.
 

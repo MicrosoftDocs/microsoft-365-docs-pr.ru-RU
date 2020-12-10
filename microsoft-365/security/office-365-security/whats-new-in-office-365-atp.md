@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 01a5e374396b1f7ef79dff436cd9ecc4e0c4abf1
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: d219895767919c2a0658f8b83150fe6edde01b5b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357241"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615556"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Новые возможности защитника Microsoft для Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "49357241"
 
 **Область применения:**
 
-- [Microsoft Defender для Office 365](office-365-atp.md)
+- [Защитник Майкрософт для Office 365](office-365-atp.md)
 
 В этой статье перечислены новые возможности в последнем выпуске защитника Майкрософт для Office 365. Функции, которые в настоящее время находятся в предварительной версии, обозначены **(Предварительная версия)**.
 
@@ -56,7 +56,7 @@ ms.locfileid: "49357241"
 ## <a name="julyaugust-2020"></a>Июль/Август 2020
 
 - [Улучшение качества работы](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (защитник Майкрософт для Office 365, план 1 или план 2)
-- [Простота применения рекомендуемых параметров с помощью готовых политик безопасности](preset-security-policies.md) 
+- [Простота применения рекомендуемых параметров с помощью готовых политик безопасности](preset-security-policies.md)
 
 ## <a name="marchapril-2020"></a>Март/Апрель 2020
 
@@ -71,7 +71,7 @@ ms.locfileid: "49357241"
   - Advanced NOT Filters (дополнительные параметры фильтрации, включающие не содержащие, не включают и т. д.).
   - Фильтры по детализированному времени (день, час, половина часа)
 
-- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложение безопасности, в центре безопасности & соответствия требованиям перейдите к разделу **Управление**  >  угрозами **Проверка**.) (Защитник Майкрософт для Office 365, план 2)
+- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложение безопасности, в центре безопасности & соответствия требованиям перейдите к разделу **Управление** \> угрозами **Проверка**.) (Защитник Майкрософт для Office 365, план 2)
 
 - [Безопасные документы в Microsoft 365](safe-docs.md) **(Предварительная версия)**
 
@@ -105,7 +105,7 @@ ms.locfileid: "49357241"
 
 - [Просмотрите данные о фишинговых URL-адресах и нажмите вредоносности](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (защитник Майкрософт для Office 365, план 1 или план 2)
 
-## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender для Office 365 (план 1 и план 2)
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Защитник Майкрософт для Office 365, план 1 и план 2
 
 Знаете ли вы, что защитник Майкрософт для Office 365 доступен в двух планах? [Узнайте больше о том, что включает каждый план](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
 

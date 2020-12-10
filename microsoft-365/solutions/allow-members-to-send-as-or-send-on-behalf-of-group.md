@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Сведения о том, как разрешить участникам отправлять электронную почту как группу Microsoft 365 или отправлять электронную почту от имени группы Майкрософт 365.
-ms.openlocfilehash: 9ccaeff49914dd5b510beb80f40a3a3b790ce831
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 2abf0668411ccd08db5bbd8408605dcd0aa2d832
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377597"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613576"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Разрешение пользователям отправлять сообщения от имени группы или отправлять от него
 
@@ -42,7 +42,7 @@ ms.locfileid: "48377597"
 
 В этом разделе объясняется, как разрешить пользователям отправлять электронную почту как группу в [центре администрирования Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104) в Exchange Online.
   
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> .
     
 2. Выберите команду **изменить** ![ значок редактирования группы для ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) группы, которую нужно разрешить пользователям отправлять.   
     
@@ -60,7 +60,7 @@ ms.locfileid: "48377597"
 
 В этом разделе объясняется, как разрешить пользователям отправлять электронную почту от имени группы в центре администрирования Exchange в Exchange Online.
   
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> .
     
 2. Выберите команду **изменить** ![ значок редактирования группы для ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) группы, которую нужно разрешить пользователям отправлять. 
     
@@ -74,7 +74,11 @@ ms.locfileid: "48377597"
     
     ![Введите текст для поиска или выберите пользователя из списка.](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
 
 [Дополнительные сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 

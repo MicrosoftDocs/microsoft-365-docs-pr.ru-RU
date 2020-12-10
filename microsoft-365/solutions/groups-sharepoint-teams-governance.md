@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Сведения о взаимодействии параметров между группами Microsoft 365, Teams и SharePoint
-ms.openlocfilehash: 3a6d4e057f88410a8808ea133bf7e579d0041228
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 23ef7a316417109ae51c221f1a25524dea3abeca
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377549"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613670"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-teams-and-sharepoint"></a>Параметры взаимодействия между группами Microsoft 365, Teams и SharePoint
 
@@ -48,6 +48,10 @@ ms.locfileid: "48377549"
 |Политика истечения срока действия групп|Задает период времени, по истечении которого неактивно используемые группы будут автоматически удалены.|При удалении группы также удаляются группа и связанный сайт SharePoint. Сохраняется содержимое, защищенное политиками хранения.|Используйте политики истечения срока действия, чтобы избежать растянутости неиспользуемых команд, групп и сайтов.|
 
 ## <a name="related-topics"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
 
 [Совместное работа с людьми за прев Организации](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 

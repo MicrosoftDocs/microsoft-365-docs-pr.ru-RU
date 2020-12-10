@@ -1,5 +1,5 @@
 ---
-title: Запрет добавления гостевых пользователей в определенную группу
+title: Запрет добавления гостей в определенную группу
 ms.reviewer: arvaradh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,14 +15,14 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Сведения о том, как запретить добавление гостей в определенную группу
-ms.openlocfilehash: 91c7560186fb0b954075e9ff9c997b34121951cd
-ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
+ms.openlocfilehash: 99e78932b29d25054922b56fcadb608a7dfca432
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48651354"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613060"
 ---
-# <a name="prevent-guest-users-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Запрет добавления гостевых пользователей в определенную группу Microsoft 365 или группу Microsoft Teams
+# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Запрет добавления гостей в определенную группу Microsoft 365 или группу Microsoft Teams
 
 Если вы хотите разрешить гостям доступ к большинству групп и Teams, но у вас есть некоторые из них для предотвращения гостевого доступа, вы можете заблокировать гостевой доступ для отдельных групп и Teams. (Блокировка гостевого доступа к группе выполняется путем блокировки гостевого доступа к связанной группе.) Это предотвратит добавление новых гостей, но не удаляет гостей, уже включенных в группу или группу.
 
@@ -69,7 +69,7 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
   
 ## <a name="allow-or-block-guest-access-based-on-their-domain"></a>Разрешение или блокировка гостевого доступа в зависимости от их домена
 
-Вы можете разрешить или заблокировать доступ для пользователей-гостей, почта которых отправляется с определенного домена. Например, если ваша организация (Contoso) имеет связь с другим предприятием (Fabrikam), вы можете добавить Fabrikam в список разрешений, чтобы пользователи могли добавить этих гостей в свои группы.
+Вы можете разрешить или запретить гостям, которые используют определенный домен. Например, если ваша организация (Contoso) имеет связь с другим предприятием (Fabrikam), вы можете добавить Fabrikam в список разрешений, чтобы пользователи могли добавить этих гостей в свои группы.
 
 Дополнительную информацию можно узнать [в статье разрешение или блокировка приглашений для пользователей B2B из определенных организаций](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
 
@@ -77,7 +77,7 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
 
 По умолчанию гости не отображаются в глобальном списке адресов Exchange. Выполните приведенные ниже действия, чтобы сделать гостей видимым в глобальном списке адресов.
 
-Найдите ObjectID пользователя гостя, выполнив следующие действия:
+Найдите ObjectID гостя, выполнив следующие действия:
 
 ```PowerShell
 Get-AzureADUser -Filter "userType eq 'Guest'"
@@ -89,7 +89,11 @@ Get-AzureADUser -Filter "userType eq 'Guest'"
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'
 ```
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
 
 [Управление членством в группах в центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/add-or-remove-members-from-groups)
   

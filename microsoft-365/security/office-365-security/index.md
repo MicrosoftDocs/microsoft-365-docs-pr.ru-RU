@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Безопасность в Office 365 от EOP до Defender для Office 365 планы 1 и 2, стандартные и жесткие конфигурации безопасности и многое другое. Узнайте, что у вас и как защитить свойства.
-ms.openlocfilehash: 008488149a403fdafef9de0b0f64a9a43616debe
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 84d7dcfc68ce78bfde92f3d7096cd4104355ce94
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357759"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616252"
 ---
 # <a name="office-365-security-overview"></a>Обзор системы безопасности Office 365
 
@@ -124,16 +124,16 @@ Office 365 Security создает базовые средства защиты,
 
 |Защитник для Office 365, план 1|Защитник для Office 365, план 2|
 |---|---|
-|Конфигурация, защита и возможности обнаружения: <ul><li>[Безопасные вложения](atp-safe-attachments.md)</li><li>[Безопасные ссылки](atp-safe-links.md)</li><li>[ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Защита от фишинга в защитнике для Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Обнаружение в режиме реального времени](threat-explorer.md)</li></ul>|Защитник для Office 365, план 1 возможности<br/>--- плюс ---<br/>Автоматизация, исследование, исправления и возможности образования.</li><li>[Трекеры угроз](threat-trackers.md)</li><li>[Обозреватель угроз](threat-explorer.md)</li><li>[Автоматизированный анализ угроз и реагирование на них](office-365-air.md)</li><li>[Эмулятор атак](attack-simulator.md)</li></ul>|
+|Конфигурация, защита и возможности обнаружения: <ul><li>[Безопасные вложения](atp-safe-attachments.md)</li><li>[Безопасные ссылки](atp-safe-links.md)</li><li>[ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Защита от фишинга в защитнике для Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Обнаружение в режиме реального времени](threat-explorer.md)</li></ul>|Защитник для Office 365, план 1 возможности <p> --- плюс --- <p> Автоматизация, исследование, исправления и возможности образования. <ul><li>[Трекеры угроз](threat-trackers.md)</li><li>[Обозреватель угроз](threat-explorer.md)</li><li>[Автоматизированный анализ угроз и реагирование на них](office-365-air.md)</li><li>[Эмулятор атак](attack-simulator.md)</li></ul>|
 |
 
 - Защитник Майкрософт для Office 365 (план 2) включен в Office 365, Office 365 A5 и Microsoft 365.
 
-- Microsoft Defender для Office 365 с планом 1 входит в состав Microsoft 365 бизнес премиум.
+- Защитник Майкрософт для Office 365 (план 1) входит в состав Microsoft 365 бизнес премиум.
 
 - Защитник Майкрософт для Office 365, план 1 и защитник для Office 365 (план 2) доступны в качестве надстройки для некоторых подписок. Для получения дополнительных сведений о [планах для Office 365 в рамках защитника Microsoft для Office](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans): еще один компонент ссылки.
 
-- Функция [безопасных документов](safe-docs.md) доступна только пользователям с лицензией Microsoft 365 E5 или Безопасность Microsoft 365 E5 (не предусмотренные планами Microsoft Defender для Office 365).
+- Функция " [безопасные документы](safe-docs.md) " доступна только пользователям, у которых есть лицензии на систему безопасности Microsoft 365, а также Microsoft 365, которые не включены в планах Microsoft Defender для Office 365.
 
 - Если текущая подписка не включает защитник Майкрософт для Office 365 и вы хотите, обратитесь в [отдел продаж, чтобы начать пробную версию](https://go.microsoft.com/fwlink/p/?LinkId=518644), и Узнайте, как защитник Майкрософт для Office 365 может работать в вашей организации.
 

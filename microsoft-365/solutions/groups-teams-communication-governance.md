@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Сведения о сценариях совместной работы управления связью.
-ms.openlocfilehash: 05644b5d86fc3ca83e7d140a73666a172937bd54
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 4b60f0be3cde23330880d652bc62110cf4e55175
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377525"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613682"
 ---
 # <a name="communications-governance-for-collaboration-scenarios"></a>Управление мгновенными сообщениями для сценариев совместной работы
 
@@ -67,6 +67,10 @@ Microsoft 365 предлагает ряд элементов управлени�
 [Соответствие требованиям в Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
 
 ## <a name="related-topics"></a>Связанные статьи
+
+[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Создание плана по управлению совместной работой](collaboration-governance-first.md)
 
 [Управление параметрами Microsoft Teams для Организации](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
 
