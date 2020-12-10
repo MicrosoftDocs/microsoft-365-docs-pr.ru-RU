@@ -18,60 +18,58 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
 description: Узнайте об изолированных сайтах групп SharePoint Online, в том числе об использовании, требованиях и функциях, которые они поддерживают.
-ms.openlocfilehash: 51e71288bd070c0a3c74c7ce74cb8f5655bdb2b2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e4e45c8adffcf86d56a71e5b9935e634f2de9254
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198731"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616456"
 ---
-# <a name="isolated-sharepoint-online-team-sites"></a><span data-ttu-id="fdcad-103">Изолированные сайты групп SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="fdcad-103">Isolated SharePoint Online team sites</span></span>
+# <a name="isolated-sharepoint-online-team-sites"></a><span data-ttu-id="b0816-103">Изолированные сайты групп SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="b0816-103">Isolated SharePoint Online team sites</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
- <span data-ttu-id="fdcad-104">**Сводка.** Сведения о том, как использовать изолированные сайты групп SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="fdcad-104">**Summary:** Learn about the uses for isolated SharePoint Online team sites.</span></span>
-  
-<span data-ttu-id="fdcad-p101">Сайты групп SharePoint Online позволяют быстро создать пространство для совместной работы над заметками, статьями и документами. Кроме того, вы получаете доступ к календарю и другим ресурсам Microsoft Office 365. В основе сайтов групп SharePoint Online лежит группа Microsoft 365 и упрощенная модель администрирования, позволяющая организовать совместную работу как отдельных участников группы, так и всех сотрудников организации. Сайт группы SharePoint Online, используемый по умолчанию, позволяет участникам группы Microsoft 365 приглашать других пользователей и настраивать разрешения.</span><span class="sxs-lookup"><span data-stu-id="fdcad-p101">SharePoint Online team sites are an easy way to quickly create a space for collaboration of notes, documents, articles, a calendar, and other resources in Microsoft Office 365. SharePoint Online team sites are based on a Microsoft 365 group and have a simplified administration model to allow open collaboration with a private set of group members or the entire organization. A default SharePoint Online team site allows members of the Microsoft 365 group to invite other users and control permissions settings.</span></span>
-  
-<span data-ttu-id="fdcad-p102">Но в некоторых случаях необходимо создать такой сайт группы SharePoint Online для совместной работы, над разрешениями для которого ведется более строгий контроль. Он возможен благодаря настройке членства в группе и уровней разрешений в SharePoint Online, которыми управляют только администраторы SharePoint. Такой сайт называется изолированным. Доступ к нему получает ограниченный круг пользователей, которые могут совместно работать над документами, просматривать содержимое сайта или выполнять роль администраторов. Изолированный сайт предназначен для:</span><span class="sxs-lookup"><span data-stu-id="fdcad-p102">However, in some cases, you want to create a SharePoint Online team site for collaboration where the permissions of that site are more tightly controlled through group membership and SharePoint Online permission levels, which are only managed by SharePoint administrators. We call this an isolated site, which is isolated to the set of users that are either collaborating, viewing its contents, or administering the site. You might need an isolated site for the following:</span></span>
-  
-- <span data-ttu-id="fdcad-111">размещения секретного проекта внутри организации;</span><span class="sxs-lookup"><span data-stu-id="fdcad-111">A secret project within your organization.</span></span>
-    
-- <span data-ttu-id="fdcad-112">хранения конфиденциальной информации или ценной интеллектуальной собственности организации;</span><span class="sxs-lookup"><span data-stu-id="fdcad-112">The location for highly-sensitive or valuable intellectual property for your organization.</span></span>
-    
-- <span data-ttu-id="fdcad-113">размещения ресурсов, связанных с судебными исками, в которых организация может выступать как в роли истца, так и ответчика;</span><span class="sxs-lookup"><span data-stu-id="fdcad-113">The resources for a legal action taken by your organization or that to which it is being subjected.</span></span>
-    
-- <span data-ttu-id="fdcad-114">совместного использования подписки Microsoft 365 несколькими связанными между собой организациями, которые являются отдельными бизнес-структурами.</span><span class="sxs-lookup"><span data-stu-id="fdcad-114">To share a Microsoft 365 subscription between multiple organizations that have some overlap, but for the most part exist as separate business entities.</span></span>
-    
-<span data-ttu-id="fdcad-115">Требования к изолированным сайтам:</span><span class="sxs-lookup"><span data-stu-id="fdcad-115">Here are the requirements of an isolated site:</span></span>
-  
-- <span data-ttu-id="fdcad-116">Управлять сайтом могут только администраторы SharePoint Online, которые предоставляют членство в группе для доступа к сайту и настраивают пользовательские разрешения.</span><span class="sxs-lookup"><span data-stu-id="fdcad-116">Only SharePoint Online administrators can perform site administration, which includes group membership for access to the site and configuring custom permissions.</span></span>
-    
-- <span data-ttu-id="fdcad-117">Участники сайта не могут приглашать других членов на сайт группы.</span><span class="sxs-lookup"><span data-stu-id="fdcad-117">Members of the site cannot invite other members to the team site.</span></span>
-    
-- <span data-ttu-id="fdcad-p103">Пользователи, не являющиеся участниками изолированного сайта, не могут запрашивать доступ к сайту. При попытке доступа к любому URL-адресу, связанному с этим сайтом, отображается веб-страница "Отказано в доступе".</span><span class="sxs-lookup"><span data-stu-id="fdcad-p103">Users who are not members of the isolated site cannot request access to the site. They will receive an access denied web page when they attempt to access any URL associated with the site.</span></span>
-    
-<span data-ttu-id="fdcad-p104">Обязательное централизованное управление доступом и назначение пользовательских разрешений администраторами SharePoint Online приводит к тому, что сайт остается изолированным все время. Например, существующие участники группы не могут ни намеренно, ни случайно пригласить других пользователей, имеющих подписку Microsoft 365, но не являющихся участниками сайта, или настроить для них пользовательские разрешения.</span><span class="sxs-lookup"><span data-stu-id="fdcad-p104">The tradeoff of requiring centralized access control and custom permissions by SharePoint Online administrators is that the site remains isolated over time. For example, current members cannot, either intentionally or accidentally, invite or configure custom permissions for other users within the Microsoft 365 subscription who should not be members of the site.</span></span>
-  
-<span data-ttu-id="fdcad-122">Доступны также другие функции изолированного сайта, например:</span><span class="sxs-lookup"><span data-stu-id="fdcad-122">An isolated site can be used with other features, such as:</span></span>
-  
-- <span data-ttu-id="fdcad-123">управление правами на доступ к данным, благодаря чему ресурсы на сайте остаются зашифрованными даже при скачивании в локальное расположение и последующем добавлении на другой сайт, доступ к которому есть у всех сотрудников организации;</span><span class="sxs-lookup"><span data-stu-id="fdcad-123">Information Rights Management to ensure that the resources on the site remain encrypted, even if they are downloaded locally and uploaded to another site that is available to the entire organization.</span></span>
-    
-- <span data-ttu-id="fdcad-124">защита от потери данных, предотвращающая отправку ресурсов сайта, например файлов, в электронных сообщениях.</span><span class="sxs-lookup"><span data-stu-id="fdcad-124">Data loss prevention to prevent users from sending the resources of the site, such as files, in email.</span></span>
-    
-## <a name="next-steps"></a><span data-ttu-id="fdcad-125">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="fdcad-125">Next steps</span></span>
+ <span data-ttu-id="b0816-104">**Сводка.** Сведения о том, как использовать изолированные сайты групп SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="b0816-104">**Summary:** Learn about the uses for isolated SharePoint Online team sites.</span></span>
 
-<span data-ttu-id="fdcad-126">Пошаговые инструкции из статьи [Изолированный сайт группы SharePoint Online в среде разработки и тестирования Office 365](isolated-sharepoint-online-team-site-dev-test-environment.md) помогут разобраться с пробной подпиской на изолированный сайт группы SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="fdcad-126">To try out an isolated SharePoint Online team site in a trial subscription, see the step-by-step instructions in [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md).</span></span>
-  
-<span data-ttu-id="fdcad-127">Когда вы будете готовы выполнить развертывание изолированного сайта группы SharePoint Online в рабочей среде, просмотрите подробные инструкции из статьи [Разработка изолированного сайта группы SharePoint Online](design-an-isolated-sharepoint-online-team-site.md).</span><span class="sxs-lookup"><span data-stu-id="fdcad-127">When you are ready to deploy an isolated SharePoint Online team site in production, see the step-by-step design considerations in [Design an isolated SharePoint Online team site](design-an-isolated-sharepoint-online-team-site.md).</span></span>
-  
-## <a name="related-topics"></a><span data-ttu-id="fdcad-128">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="fdcad-128">Related topics</span></span>
+<span data-ttu-id="b0816-p101">Сайты групп SharePoint Online позволяют быстро создать пространство для совместной работы над заметками, статьями и документами. Кроме того, вы получаете доступ к календарю и другим ресурсам Microsoft Office 365. В основе сайтов групп SharePoint Online лежит группа Microsoft 365 и упрощенная модель администрирования, позволяющая организовать совместную работу как отдельных участников группы, так и всех сотрудников организации. Сайт группы SharePoint Online, используемый по умолчанию, позволяет участникам группы Microsoft 365 приглашать других пользователей и настраивать разрешения.</span><span class="sxs-lookup"><span data-stu-id="b0816-p101">SharePoint Online team sites are an easy way to quickly create a space for collaboration of notes, documents, articles, a calendar, and other resources in Microsoft Office 365. SharePoint Online team sites are based on a Microsoft 365 group and have a simplified administration model to allow open collaboration with a private set of group members or the entire organization. A default SharePoint Online team site allows members of the Microsoft 365 group to invite other users and control permissions settings.</span></span>
 
-[<span data-ttu-id="fdcad-129">Разработка изолированного сайта группы SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="fdcad-129">Design an isolated SharePoint Online team site</span></span>](design-an-isolated-sharepoint-online-team-site.md)
-  
-[<span data-ttu-id="fdcad-130">Управление изолированным сайтом группы SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="fdcad-130">Manage an isolated SharePoint Online team site</span></span>](manage-an-isolated-sharepoint-online-team-site.md)
+<span data-ttu-id="b0816-p102">Но в некоторых случаях необходимо создать такой сайт группы SharePoint Online для совместной работы, над разрешениями для которого ведется более строгий контроль. Он возможен благодаря настройке членства в группе и уровней разрешений в SharePoint Online, которыми управляют только администраторы SharePoint. Такой сайт называется изолированным. Доступ к нему получает ограниченный круг пользователей, которые могут совместно работать над документами, просматривать содержимое сайта или выполнять роль администраторов. Изолированный сайт предназначен для:</span><span class="sxs-lookup"><span data-stu-id="b0816-p102">However, in some cases, you want to create a SharePoint Online team site for collaboration where the permissions of that site are more tightly controlled through group membership and SharePoint Online permission levels, which are only managed by SharePoint administrators. We call this an isolated site, which is isolated to the set of users that are either collaborating, viewing its contents, or administering the site. You might need an isolated site for the following:</span></span>
 
-[<span data-ttu-id="fdcad-131">Развертывание изолированного сайта группы SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="fdcad-131">Deploy an isolated SharePoint Online team site</span></span>](deploy-an-isolated-sharepoint-online-team-site.md)
+- <span data-ttu-id="b0816-111">размещения секретного проекта внутри организации;</span><span class="sxs-lookup"><span data-stu-id="b0816-111">A secret project within your organization.</span></span>
 
+- <span data-ttu-id="b0816-112">хранения конфиденциальной информации или ценной интеллектуальной собственности организации;</span><span class="sxs-lookup"><span data-stu-id="b0816-112">The location for highly-sensitive or valuable intellectual property for your organization.</span></span>
 
+- <span data-ttu-id="b0816-113">размещения ресурсов, связанных с судебными исками, в которых организация может выступать как в роли истца, так и ответчика;</span><span class="sxs-lookup"><span data-stu-id="b0816-113">The resources for a legal action taken by your organization or that to which it is being subjected.</span></span>
+
+- <span data-ttu-id="b0816-114">совместного использования подписки Microsoft 365 несколькими связанными между собой организациями, которые являются отдельными бизнес-структурами.</span><span class="sxs-lookup"><span data-stu-id="b0816-114">To share a Microsoft 365 subscription between multiple organizations that have some overlap, but for the most part exist as separate business entities.</span></span>
+
+<span data-ttu-id="b0816-115">Требования к изолированным сайтам:</span><span class="sxs-lookup"><span data-stu-id="b0816-115">Here are the requirements of an isolated site:</span></span>
+
+- <span data-ttu-id="b0816-116">Управлять сайтом могут только администраторы SharePoint Online, которые предоставляют членство в группе для доступа к сайту и настраивают пользовательские разрешения.</span><span class="sxs-lookup"><span data-stu-id="b0816-116">Only SharePoint Online administrators can perform site administration, which includes group membership for access to the site and configuring custom permissions.</span></span>
+
+- <span data-ttu-id="b0816-117">Участники сайта не могут приглашать других членов на сайт группы.</span><span class="sxs-lookup"><span data-stu-id="b0816-117">Members of the site cannot invite other members to the team site.</span></span>
+
+- <span data-ttu-id="b0816-p103">Пользователи, не являющиеся участниками изолированного сайта, не могут запрашивать доступ к сайту. При попытке доступа к любому URL-адресу, связанному с этим сайтом, отображается веб-страница "Отказано в доступе".</span><span class="sxs-lookup"><span data-stu-id="b0816-p103">Users who are not members of the isolated site cannot request access to the site. They will receive an access denied web page when they attempt to access any URL associated with the site.</span></span>
+
+<span data-ttu-id="b0816-p104">Обязательное централизованное управление доступом и назначение пользовательских разрешений администраторами SharePoint Online приводит к тому, что сайт остается изолированным все время. Например, существующие участники группы не могут ни намеренно, ни случайно пригласить других пользователей, имеющих подписку Microsoft 365, но не являющихся участниками сайта, или настроить для них пользовательские разрешения.</span><span class="sxs-lookup"><span data-stu-id="b0816-p104">The tradeoff of requiring centralized access control and custom permissions by SharePoint Online administrators is that the site remains isolated over time. For example, current members cannot, either intentionally or accidentally, invite or configure custom permissions for other users within the Microsoft 365 subscription who should not be members of the site.</span></span>
+
+<span data-ttu-id="b0816-122">Доступны также другие функции изолированного сайта, например:</span><span class="sxs-lookup"><span data-stu-id="b0816-122">An isolated site can be used with other features, such as:</span></span>
+
+- <span data-ttu-id="b0816-123">управление правами на доступ к данным, благодаря чему ресурсы на сайте остаются зашифрованными даже при скачивании в локальное расположение и последующем добавлении на другой сайт, доступ к которому есть у всех сотрудников организации;</span><span class="sxs-lookup"><span data-stu-id="b0816-123">Information Rights Management to ensure that the resources on the site remain encrypted, even if they are downloaded locally and uploaded to another site that is available to the entire organization.</span></span>
+
+- <span data-ttu-id="b0816-124">защита от потери данных, предотвращающая отправку ресурсов сайта, например файлов, в электронных сообщениях.</span><span class="sxs-lookup"><span data-stu-id="b0816-124">Data loss prevention to prevent users from sending the resources of the site, such as files, in email.</span></span>
+
+## <a name="next-steps"></a><span data-ttu-id="b0816-125">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="b0816-125">Next steps</span></span>
+
+<span data-ttu-id="b0816-126">Пошаговые инструкции из статьи [Изолированный сайт группы SharePoint Online в среде разработки и тестирования Office 365](isolated-sharepoint-online-team-site-dev-test-environment.md) помогут разобраться с пробной подпиской на изолированный сайт группы SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="b0816-126">To try out an isolated SharePoint Online team site in a trial subscription, see the step-by-step instructions in [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md).</span></span>
+
+<span data-ttu-id="b0816-127">Когда вы будете готовы выполнить развертывание изолированного сайта группы SharePoint Online в рабочей среде, просмотрите подробные инструкции из статьи [Разработка изолированного сайта группы SharePoint Online](design-an-isolated-sharepoint-online-team-site.md).</span><span class="sxs-lookup"><span data-stu-id="b0816-127">When you are ready to deploy an isolated SharePoint Online team site in production, see the step-by-step design considerations in [Design an isolated SharePoint Online team site](design-an-isolated-sharepoint-online-team-site.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="b0816-128">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="b0816-128">Related topics</span></span>
+
+[<span data-ttu-id="b0816-129">Разработка изолированного сайта группы SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="b0816-129">Design an isolated SharePoint Online team site</span></span>](design-an-isolated-sharepoint-online-team-site.md)
+
+[<span data-ttu-id="b0816-130">Управление изолированным сайтом группы SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="b0816-130">Manage an isolated SharePoint Online team site</span></span>](manage-an-isolated-sharepoint-online-team-site.md)
+
+[<span data-ttu-id="b0816-131">Развертывание изолированного сайта группы SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="b0816-131">Deploy an isolated SharePoint Online team site</span></span>](deploy-an-isolated-sharepoint-online-team-site.md)
