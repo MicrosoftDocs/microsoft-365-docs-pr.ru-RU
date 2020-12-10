@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Внедрение Microsoft Information Protection (MIP) для защиты конфиденциальной информации в любом расположении, где она находится или куда перемещается.
-ms.openlocfilehash: 4afc73b5a2cefe88d2e3af5fd6665ec64e5c0ee3
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 59f57c920f2b753994f2335a6f2ed9ac5b7b77d1
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568321"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613091"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection в Microsoft 365
 
@@ -40,6 +40,10 @@ ms.locfileid: "49568321"
 
 > [!NOTE]
 > Сведения о классификации данных и присвоении им меток в Azure Purview (в настоящее время доступно в предварительной версии) см. в статье [Автоматическое применение меток к содержимому в Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
+> 
+> Сведения об этом новом выпуске см. в записи блога [Microsoft Information Protection и Microsoft Azure Purview: вместе еще лучше](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-microsoft-azure-purview/ba-p/1957481).
+
+
 
 Чтобы ознакомиться с ландшафтом данных и идентифицировать важные данные в гибридной среде, используйте следующие возможности:
  
