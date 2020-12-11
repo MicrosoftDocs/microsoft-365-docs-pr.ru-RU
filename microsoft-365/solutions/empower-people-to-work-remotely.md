@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Включите все функции в Microsoft 365, чтобы повысить производительность удаленных сотрудников и обеспечить безопасный доступ к вашим серверам, данным и облаку.
-ms.openlocfilehash: 833f0351c3eb78afb7218ea1c1c51151d70bb608
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: c6f17f2a80fa37abe43ceabc7a06c86c80eeadbd
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371506"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616360"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
 
@@ -99,9 +99,19 @@ Microsoft 365 обеспечивает возможности удаленной
 
 [![Плакат "Возможности для удаленных сотрудников"](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
 
-Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
+Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) или [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
-Следуйте приведенным ниже инструкциям, чтобы защитить и оптимизировать доступ к серверам и облачным службам вашей организации и максимально повысить эффективность удаленных сотрудников.
+## <a name="provide-remote-working-for-all-of-your-workers"></a>Предоставление удаленной работы для всех сотрудников
+
+Обеспечивайте продуктивность работы всех сотрудников отовсюду с любого устройства.
+
+- С современного устройства, например Surface Laptop и Windows 10 с функционалом, безопасностью и производительностью для доступа к облачным приложениям и службам Microsoft 365 непосредственно через Интернет.
+
+- С любого устройства, включая более старые ноутбуки или настольные компьютеры, которые используются из дома, и имеют доступ к облачным приложениям и службам Microsoft 365 с помощью [виртуального рабочего стола под управлением Windows 10](empower-people-to-work-remotely-remote-access.md#deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices), который быстро разворачивается. Эта возможность обеспечивает высокую производительность, надежную защиту и упрощает управление ИТ.
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+Следуйте указанным инструкциям, чтобы защитить и оптимизировать доступ к серверам и облачным службам вашей организации и максимально повысить эффективность удаленных сотрудников.
 
 1. [Повышение уровня безопасности входа в систему с помощью MFA](empower-people-to-work-remotely-secure-sign-in.md)
 2. [Обеспечение удаленного доступа к локальным приложениям и службам](empower-people-to-work-remotely-remote-access.md)
