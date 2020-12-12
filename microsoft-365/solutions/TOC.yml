@@ -169,6 +169,18 @@
           href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Соответствие требованиям
       items:
+        - name: Решения для внутренних рисков в Microsoft 365
+          items:
+            - name: Обзор
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/insider-risk-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Соответствие требованиям к обмену данными
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Управление внутренними рисками
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Информационные барьеры
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/information-barriers-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Управление привилегированным доступом
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Планы действий по соответствию нормативным требованиям
           items:
             - name: 'ISO: рекомендуемый план действий'
@@ -179,6 +191,8 @@
               href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: 'GDPR: рекомендуемый план действий'
               href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Пример соответствия требованиям корпорации Contoso
+          href: 'https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-case-study?view=o365-worldwide?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Примеры Contoso
       items:
         - name: Решения Microsoft 365 для корпорации Contoso

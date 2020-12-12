@@ -3,7 +3,7 @@ title: Настройка команды с изоляцией для обесп
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 localization_priority: Priority
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как создать команду с уникальной меткой конфиденциальности в целях безопасности.
-ms.openlocfilehash: 46bc63bab52bf75dc7c215510d49b4d985ff07c3
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: c7230f23a21804530863f125003e4db0eaeeeb60
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487486"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616300"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Настройка команды с изоляцией для обеспечения безопасности
 
@@ -50,7 +50,7 @@ ms.locfileid: "48487486"
 
 [![Плакат "Microsoft Teams с изоляцией для обеспечения безопасности"](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
-Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
+Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) или [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
 ## <a name="initial-protections"></a>Начальная защита
 
@@ -153,7 +153,7 @@ ms.locfileid: "48487486"
 1. Откройте [Центр администрирования SharePoint](https://admin.microsoft.com/sharepoint).
 2. В разделе **Сайты** выберите **Активные сайты**.
 3. Щелкните сайт, связанный с командой.
-4. На вкладке **Политики** в разделе **Конфиденциальность ** щелкните **Изменить**.
+4. На вкладке **Политики** в разделе **Конфиденциальность** щелкните **Изменить**.
 5. Выберите созданную метку и нажмите **Сохранить**.
 
 ## <a name="sharepoint-settings"></a>Параметры SharePoint
@@ -221,7 +221,7 @@ ms.locfileid: "48487486"
 
 В Microsoft 365 доступны дополнительные методы защиты контента. Рассмотрите возможность использования следующих параметров для улучшения защиты вашей организации.
 
-- Ваши пользователи должны согласиться с [условиями использования](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
+- Ваши гости должны согласиться с [условиями использования](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
 - Настройте [политику времени ожидания сеанса](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) для гостей.
 - Создайте [типы конфиденциальной информации](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) и используйте [защиту от потери данных](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) для настройки политик доступа к конфиденциальной информации.
 - Используйте проверки [доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview), чтобы периодически проверять доступ к команде и участие в ней.

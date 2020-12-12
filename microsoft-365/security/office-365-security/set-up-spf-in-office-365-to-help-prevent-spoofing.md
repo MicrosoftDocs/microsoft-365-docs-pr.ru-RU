@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как обновить запись службы доменных имен (DNS), чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365.
-ms.openlocfilehash: ce8a982b875632ad58b34ae240c02b507c4656fe
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 137937b106be9ce0cf782a84b988913e2c6dac4b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021065"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615724"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Настройка SPF для предотвращения спуфинга
 
@@ -69,11 +69,11 @@ ms.locfileid: "49021065"
    |---|---|---|---|
    |1|Любая почтовая система (обязательно)|Распространенная. Все записи SPF TXT начинаются с этого значения|`v=spf1`|
    |2|Exchange Online|Распространенная|`include:spf.protection.outlook.com`|
-   |3|Только для Exchange Online|Нераспространенная|`ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com`|
+   |3|Только для Exchange Online|Нераспространенная|`ip4:23.103.224.0/19` <br> `ip4:206.191.224.0/19` <br> `ip4:40.103.0.0/16` <br> `include:spf.protection.outlook.com`|
    |4|Office 365 Germany, только Microsoft Cloud Germany|Нераспространенная|`include:spf.protection.outlook.de`|
-   |5|Сторонняя почтовая система|Нераспространенная|`include:<domain_name>`  <br/> где \<domain_name\> — это домен сторонней почтовой системы.|
-   |6|Локальная почтовая система, например Exchange Online Protection с другой почтовой системой|Нераспространенная|Используйте один из следующих параметров для каждой дополнительной почтовой системы: <br> `ip4:<IP_address>` <br/> `ip6:<IP_address>` <br/> `include:<domain_name>` <br/> Где \<IP_address\> и \<domain_name\> — это IP-адрес и домен другой почтовой системы, которая отправляет почту от имени вашего домена.|
-   |7|Любая почтовая система (обязательно)|Распространенная. Все записи SPF TXT заканчиваются этим значением|`<enforcement rule>` <br/> Это может быть одно из нескольких значений. Рекомендуется значение "-all"|
+   |5|Сторонняя почтовая система|Нераспространенная|`include:<domain_name>` <p> \<domain_name\> — это домен сторонней почтовой системы.|
+   |6|Локальная почтовая система, например Exchange Online Protection с другой почтовой системой|Нераспространенная|Используйте один из следующих параметров для каждой дополнительной почтовой системы: <p> `ip4:<IP_address>` <br> `ip6:<IP_address>` <br> `include:<domain_name>` <p> \<IP_address\> и \<domain_name\> — это IP-адрес и домен другой почтовой системы, отправляющей почту от имени вашего домена.|
+   |7|Любая почтовая система (обязательно)|Распространенная. Все записи SPF TXT заканчиваются этим значением|`<enforcement rule>` <p> Это может быть одно из нескольких значений. Рекомендуется значение `-all`.|
    |
 
 2. Создайте запись SPF TXT (если вы еще не сделали этого), используя синтаксис из таблицы.

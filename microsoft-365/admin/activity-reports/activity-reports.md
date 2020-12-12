@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Microsoft 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: 9c3416f415c43377669b2c032e10696343c4416f
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: d2c5b4f67d93500f7341463a01313271d182dc38
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988462"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611356"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Отчеты по Microsoft 365 в Центре администрирования
 
@@ -90,9 +90,13 @@ ms.locfileid: "48988462"
     
 - [Использование почтовых ящиков](mailbox-usage.md)
     
-- [Активации Office](microsoft-office-activations.md)
+- [Активации Office](microsoft-office-activations-ww.md)
 
-- [Активные пользователи](active-users.md)
+- [Активации Office для государственных учреждений США](microsoft-office-activations.md)
+
+- [Активные пользователи](active-users-ww.md)
+
+- [Активные пользователи для государственных учреждений США](active-users.md)
   
 - [Использование почтовых приложений](email-apps-usage.md)
 
@@ -104,25 +108,29 @@ ms.locfileid: "48988462"
   
 - [Активность в Dynamics 365 Customer Voice для государственных учреждений США](forms-pro-activity.md)
 
-- [Группы Microsoft 365](office-365-groups.md)
+- [Группы Microsoft 365](office-365-groups-ww.md)
+
+- [Группы Microsoft 365 для государственных учреждений США](office-365-groups.md)
   
 - [Действия пользователей в OneDrive для бизнеса](onedrive-for-business-activity-ww.md)
 
-- [Действия пользователей в OneDrive для бизнеса для государственных организаций США](onedrive-for-business-activity.md)
+- [Действия пользователей в OneDrive для бизнеса для государственных учреждений США](onedrive-for-business-activity.md)
 
 - [Использование OneDrive для бизнеса](onedrive-for-business-usage-ww.md)
 
-- [Использование OneDrive для бизнеса для государственных организаций США](onedrive-for-business-usage.md)
+- [Использование OneDrive для бизнеса для государственных учреждений США](onedrive-for-business-usage.md)
 
-- [Использование приложений Microsoft 365](microsoft365-apps-usage.md)
+- [Использование Приложений Microsoft 365](microsoft365-apps-usage-ww.md)
+
+- [Использование Приложений Microsoft 365 для государственных учреждений США](microsoft365-apps-usage.md)
   
 - [Использование сайтов SharePoint](sharepoint-site-usage-ww.md)
 
-- [Использование сайтов SharePoint для государственных организаций США](sharepoint-site-usage.md)
+- [Использование сайтов SharePoint для государственных учреждений США](sharepoint-site-usage.md)
   
 - [Действия в SharePoint](sharepoint-activity-ww.md)
 
-- [Действия в SharePoint для государственных организаций США](sharepoint-activity.md)
+- [Действия в SharePoint для государственных учреждений США](sharepoint-activity.md)
   
 - [Действия в Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
   
@@ -140,7 +148,7 @@ ms.locfileid: "48988462"
 
 ::: moniker range="o365-worldwide"
 
-- [Действия в Yammer для государственных организаций США](yammer-activity-report.md)
+- [Действия в Yammer для государственных учреждений США](yammer-activity-report.md)
 
 ::: moniker-end
 
@@ -152,7 +160,7 @@ ms.locfileid: "48988462"
 
 ::: moniker range="o365-worldwide"
 
-- [Использование устройств в Yammer для государственных организаций США](yammer-device-usage-report.md)
+- [Использование устройств в Yammer для государственных учреждений США](yammer-device-usage-report.md)
 
 ::: moniker-end
 
@@ -164,7 +172,7 @@ ms.locfileid: "48988462"
 
 ::: moniker range="o365-worldwide"
 
-- [Отчет действиях групп в Yammer для государственных организаций США](yammer-groups-activity-report.md)
+- [Отчет действиях групп в Yammer для государственных учреждений США](yammer-groups-activity-report.md)
 
 ::: moniker-end
 
@@ -176,7 +184,7 @@ ms.locfileid: "48988462"
 
 ::: moniker range="o365-worldwide"
 
-- [Действия пользователей Microsoft Teams для государственных организаций США](microsoft-teams-user-activity.md)
+- [Действия пользователей Microsoft Teams для государственных учреждений США](microsoft-teams-user-activity.md)
 
 ::: moniker-end
 
@@ -188,7 +196,7 @@ ms.locfileid: "48988462"
 
 ::: moniker range="o365-worldwide"
 
-- [Использование устройств в Microsoft Teams для государственных организаций США ](microsoft-teams-device-usage.md)
+- [Использование устройств в Microsoft Teams для государственных учреждений США ](microsoft-teams-device-usage.md)
 
 ::: moniker-end
 
@@ -203,6 +211,8 @@ ms.locfileid: "48988462"
 Чтобы определить, в каком объеме использует службу конкретный пользователь, используйте отчеты по этой службе. Например, чтобы узнать, какой объем хранилища почтовых ящиков использовал конкретный пользователь, откройте отчет "Использование почтового ящика" и отсортируйте пользователей по имени. Если у вас тысячи пользователей, экспортируйте отчет в Excel, чтобы можно было быстро отфильтровать список.
   
 Невозможно создать отчет, в котором указывается учетная запись пользователя и выводится список служб, которые он использует и в каком объеме.
+
+Существуют условия, при которых новые пользователи отображаются как **неизвестные**. Обычно это связано с периодическими задержками при создании профилей пользователей.  
   
 ## <a name="hide-user-details-in-the-reports"></a>Скрытие сведений о пользователях в отчетах
 

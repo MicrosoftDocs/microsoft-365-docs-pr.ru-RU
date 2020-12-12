@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверять сообщения, отправленные из вашей организации.
-ms.openlocfilehash: 4ff2c93e420957714815100243a6502e7ea087a7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9dd97b1fc60f0b6198bb6c55af291c7dd103ac5d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446375"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615340"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Использование протокола DMARC для проверки электронной почты
 
@@ -191,7 +191,7 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 3. Запросите у внешних почтовых систем не принимать сообщения, не прошедшие проверки DMARC
 
     Последним шагом является реализация политики отклонения. Политика отклонения  это запись DMARC TXT, в которой параметру политики присвоено значение "reject" (p=reject). Таким образом вы просите получателей DMARC не принимать сообщения, которые не прошли проверки DMARC.
-    
+
 4. Как настроить DMARC для поддомена?
 
 DMARC реализуется путем публикации политики в виде TXT-записи в DNS и является иерархическим объектом (например, политика, опубликованная для contoso.com, будет применяться к sub.domain.contonos.com, если для этого поддомена явным образом не определена другая политика). Это удобно, так как организации могут указывать меньшее число записей DMARC для большего покрытия. Следует проявлять осторожность при настройке явных записей DMARC поддомена, где не нужно, чтобы дочерние домены наследовали запись DMARC домена верхнего уровня.
