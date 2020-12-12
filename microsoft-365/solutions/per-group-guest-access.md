@@ -1,5 +1,5 @@
 ---
-title: Запрет добавления гостей в определенную группу
+title: Запретить добавление гостей в определенную группу
 ms.reviewer: arvaradh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,25 +14,25 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Сведения о том, как запретить добавление гостей в определенную группу
-ms.openlocfilehash: 99e78932b29d25054922b56fcadb608a7dfca432
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+description: Узнайте, как запретить гостям добавляться в определенную группу
+ms.openlocfilehash: 8bee26bf5ec323536ca1ac6f25ce96927634cee7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613060"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49660052"
 ---
-# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Запрет добавления гостей в определенную группу Microsoft 365 или группу Microsoft Teams
+# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Запретить гостям добавляться в определенную группу Microsoft 365 или команду Microsoft Teams
 
-Если вы хотите разрешить гостям доступ к большинству групп и Teams, но у вас есть некоторые из них для предотвращения гостевого доступа, вы можете заблокировать гостевой доступ для отдельных групп и Teams. (Блокировка гостевого доступа к группе выполняется путем блокировки гостевого доступа к связанной группе.) Это предотвратит добавление новых гостей, но не удаляет гостей, уже включенных в группу или группу.
+Если вы хотите разрешить гостевой доступ для большинства групп и команд, но хотите запретить гостевой доступ, вы можете заблокировать гостевой доступ для отдельных групп и команд. (Блокировка гостевого доступа к команде делается путем блокирования гостевого доступа к связанной группе.) Это предотвращает добавление новых гостей, но не удаляет гостей, которые уже находятся в группе или команде.
 
-Если вы используете метки чувствительности в Организации, рекомендуем использовать их для управления гостевым доступом для отдельных групп. Для получения сведений о том, как это сделать, [используйте метки чувствительности для защиты содержимого в Microsoft Teams, microsoft 365 Groups и сайтов SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). Это рекомендуемый подход.
+Если в вашей организации используются метки конфиденциальности, мы рекомендуем использовать их для управления гостевом доступом на уровне группы. Сведения о том, как это сделать, можно получить с помощью меток конфиденциальности для защиты контента в Microsoft Teams, группах [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)и на сайтах SharePoint. Это рекомендуемый подход.
 
 ## <a name="change-group-settings-using-microsoft-powershell"></a>Изменение параметров группы с помощью Microsoft PowerShell
 
-Вы также можете запретить добавление новых гостей в отдельные группы с помощью PowerShell.
+Вы также можете запретить добавление новых гостей в отдельные группы с помощью PowerShell. (Помните, что связанный с командой сайт SharePoint имеет отдельные [элементы управления гостевых общий доступ.)](https://docs.microsoft.com/sharepoint/change-external-sharing-site)
 
-Для изменения параметров гостевого доступа на уровне группы необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (имя модуля **AzureADPreview**):
+Чтобы изменить параметр гостевого доступа на уровне группы, необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (имя модуля **AzureADPreview):**
 
 - Если вы еще не установили ни одной версии модуля Azure AD PowerShell, см. раздел [Установка модуля Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true) и следуйте инструкциям по установке общедоступной предварительной версии.
 
@@ -41,9 +41,9 @@ ms.locfileid: "49613060"
 - Если вы уже установили предварительную версию, выполните команду `Install-Module AzureADPreview`, чтобы убедиться, что это последняя версия модуля.
 
 > [!NOTE]
-> Для выполнения этих команд требуются права глобального администратора. 
+> Для запуска этих команд необходимо иметь права глобального администратора. 
 
-Выполните следующий сценарий, указав */<GroupName/>* имя группы, в которую необходимо заблокировать гостевой доступ.
+Запустите следующий сценарий, заменив имя группы, в которой необходимо */<GroupName/>* заблокировать гостевой доступ.
 
 ```PowerShell
 $GroupName = "<GroupName>"
@@ -57,33 +57,33 @@ $groupID= (Get-AzureADGroup -SearchString $GroupName).ObjectId
 New-AzureADObjectSetting -TargetType Groups -TargetObjectId $groupID -DirectorySetting $settingsCopy
 ```
 
-Чтобы проверить параметры, выполните следующую команду:
+Чтобы проверить параметры, запустите команду:
 
 ```PowerShell
 Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
 ```
 
-Проверка выглядит следующим образом:
+Проверка выглядит так:
     
-![Снимок экрана: Окно PowerShell, в котором показано, что для доступа к гостевой группе задано значение false.](../media/09ebfb4f-859f-44c3-a29e-63a59fd6ef87.png)
+![Screenshot of PowerShell window showing that guest group access has been set to false.](../media/09ebfb4f-859f-44c3-a29e-63a59fd6ef87.png)
   
-## <a name="allow-or-block-guest-access-based-on-their-domain"></a>Разрешение или блокировка гостевого доступа в зависимости от их домена
+## <a name="allow-or-block-guest-access-based-on-their-domain"></a>Разрешение или блокировка гостевого доступа в зависимости от домена
 
-Вы можете разрешить или запретить гостям, которые используют определенный домен. Например, если ваша организация (Contoso) имеет связь с другим предприятием (Fabrikam), вы можете добавить Fabrikam в список разрешений, чтобы пользователи могли добавить этих гостей в свои группы.
+Вы можете разрешить или заблокировать гостей, использующих определенный домен. Например, если ваш бизнес (Contoso) имеет партнерство с другим предприятием (Fabrikam), вы можете добавить Fabrikam в список "Разрешить", чтобы пользователи могли добавлять этих гостей в свои группы.
 
-Дополнительную информацию можно узнать [в статье разрешение или блокировка приглашений для пользователей B2B из определенных организаций](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
+Дополнительные сведения см. в сведениях о том, как разрешить или заблокировать приглашения пользователям [B2B из определенных организаций.](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
 
 ## <a name="add-guests-to-the-global-address-list"></a>Добавление гостей в глобальный список адресов
 
-По умолчанию гости не отображаются в глобальном списке адресов Exchange. Выполните приведенные ниже действия, чтобы сделать гостей видимым в глобальном списке адресов.
+По умолчанию гости не видны в глобальном списке адресов Exchange. С помощью указанных ниже действий можно сделать гостя видимым в глобальном списке адресов.
 
-Найдите ObjectID гостя, выполнив следующие действия:
+Найдите ObjectID гостя, выдав:
 
 ```PowerShell
 Get-AzureADUser -Filter "userType eq 'Guest'"
 ```
 
-Затем выполните приведенные ниже значения с использованием соответствующих значений для ObjectID, GivenName, фамилия, DisplayName и TelephoneNumber.
+Затем запустите следующее, используя соответствующие значения для ObjectID, GivenName, Surname, DisplayName и TelephoneNumber.
 
 ```PowerShell
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'
@@ -91,12 +91,12 @@ Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressLis
 
 ## <a name="related-topics"></a>Связанные статьи
 
-[Планирование управления совместной работой — пошаговое руководство](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Пошаговая пошаговая работа по планированию управления совместной работой](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[Создание плана по управлению совместной работой](collaboration-governance-first.md)
+[Создание плана управления совместной работой](collaboration-governance-first.md)
 
-[Управление членством в группах в центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/add-or-remove-members-from-groups)
+[Управление членством в группах в Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/add-or-remove-members-from-groups)
   
-[Проверка доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
+[Проверки доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 
-[Set — AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser)
+[Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser)

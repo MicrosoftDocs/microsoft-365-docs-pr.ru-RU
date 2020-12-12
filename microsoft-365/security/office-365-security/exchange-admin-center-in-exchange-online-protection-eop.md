@@ -1,5 +1,5 @@
 ---
-title: Центр администрирования Exchange в автономном EOP
+title: Центр администрирования Exchange в автономной службе EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,65 +15,65 @@ search.appverid:
 ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
-description: Сведения об интерфейсе веб-управления в автономной службе Exchange Online Protection (EOP).
-ms.openlocfilehash: 732991befa9084b62c152295d10a2bbf94bc36ec
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Узнайте об интерфейсе управления веб-сайтами в автономных системах Exchange Online Protection (EOP).
+ms.openlocfilehash: fc76ecd6dafcf9453a0c6de14917c96c950f8370
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202955"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659670"
 ---
-# <a name="exchange-admin-center-in-standalone-eop"></a>Центр администрирования Exchange в автономном EOP
+# <a name="exchange-admin-center-in-standalone-eop"></a>Центр администрирования Exchange в автономной службе EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Центр администрирования Exchange — это веб-консоль управления для отдельной Exchange Online Protection (EOP).
+Центр администрирования Exchange (EAC) — это веб-консоль управления для автономных служб Exchange Online Protection (EOP).
 
-Ищете версию этой статьи для Exchange Online? Обратитесь к [центру администрирования Exchange в Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+Ищете версию этой темы для Exchange Online? См. [Центр администрирования Exchange в Exchange Online.](https://docs.microsoft.com/exchange/exchange-admin-center)
 
-## <a name="open-the-eac-in-eop"></a>Открытие центра администрирования Exchange в EOP
+## <a name="open-the-eac-in-eop"></a>Открытие EAC в EOP
 
-Автономные клиенты EOP могут получать доступ к центру администрирования Exchange с помощью следующих методов:
+Клиенты автономных EOP могут получить доступ к EAC с помощью следующих методов:
 
-- **В центре администрирования Microsoft 365**:
+- **Из Центра администрирования Microsoft 365:**
 
-  1. Перейдите к разделу <https://admin.microsoft.com> и выберите команду **Показать все**.
+  1. Go to <https://admin.microsoft.com> and click Show **all**.
 
-     ![Щелкните Показать все в центре администрирования Microsoft 365](../../media/m365-center-show-all.png)
+     ![Щелкните "Показать все" в Центре администрирования Microsoft 365](../../media/m365-center-show-all.png)
 
-  2. В открывшемся разделе **центры администрирования** выберите **все центры администрирования**.
+  2. В разделе **"Центры администрирования"** щелкните **"Все центры администрирования".**
 
-     ![Выберите пункт все центры администрирования в центре администрирования Microsoft 365](../../media/m365-center-select-all-admin-centers.png)
+     ![Щелкните все центры администрирования в Центре администрирования Microsoft 365](../../media/m365-center-select-all-admin-centers.png)
 
-  3. На открывшейся странице **все центры администрирования** выберите **Exchange Online Protection**.
+  3. На странице **"Все центры администрирования"** щелкните **Exchange Online Protection.**
 
-- Перейдите непосредственно к `https://admin.protection.outlook.com/ecp/` .
+- Перейдите непосредственно по этой `https://admin.protection.outlook.com/ecp/` теме.
 
-## <a name="common-user-interface-elements-in-the-eac-in-eop"></a>Общие элементы пользовательского интерфейса в центре администрирования Exchange в EOP
+## <a name="common-user-interface-elements-in-the-eac-in-eop"></a>Общие элементы пользовательского интерфейса в EAC в EOP
 
 В этом разделе рассматриваются элементы интерфейса пользователя в Центре администрирования Exchange.
 
-![EOP — Админцентер](../../media/EOP-AdminCenter.png)
+![Центр администрирования Exchange в Exchange Online Protection](../../media/EOP-AdminCenter.png)
 
 ### <a name="feature-pane"></a>Панель "Функции"
 
 Это первый уровень навигации для большинства заданий, выполняемых в Центре администрирования Exchange. Панель функций состоит из областей функций.
 
-- **Получатели**: в этой области отображаются группы и внешние контакты.
+- **Получатели:** здесь вы будете просматривать группы и внешние контакты.
 
-- **Разрешения**: здесь вы будете управлять ролями администраторов.
+- **Разрешения :** здесь вы будете управлять ролями администраторов.
 
-- **Управление соответствием**: здесь вы найдете отчет группы ролей администраторов и отчет по журналу аудита действий администратора.
+- **Управление соответствием** требованиям : здесь вы найдете отчет о группе ролей администраторов и журнал аудита администратора.
 
-- **Protection**: в этой области можно управлять политиками защиты от вредоносных программ, политикой фильтрации подключений по умолчанию и DKIM.
+- **Защита**: здесь можно управлять политиками защиты от вредоносных программ, политикой фильтрации подключений по умолчанию и DKIM.
 
   > [!NOTE]
-  > Следует управлять политиками защиты от вредоносных программ и политикой фильтрации подключений по умолчанию в центре безопасности & соответствия требованиям. Дополнительную информацию можно узнать [в статье Настройка политик защиты от вредоносных программ в EOP](configure-anti-malware-policies.md) и [Настройка ФИЛЬТРАЦИИ подключений в EOP](configure-the-connection-filter-policy.md).
+  > В Центре безопасности & и соответствия требованиям следует управлять политиками защиты от вредоносных программ и политикой фильтрации подключений по умолчанию. Дополнительные сведения см. в сведениях о настройке политик борьбы с вредоносными [программами в EOP](configure-anti-malware-policies.md) и настройке фильтрации подключений [в EOP.](configure-the-connection-filter-policy.md)
 
-- **Поток обработки почты**: здесь вы будете управлять правилами потока обработки почты (также называемыми правилами транспорта), обслуживаемыми доменами и соединителями, а также с местом, где можно запустить трассировку сообщений.
+- **Поток почты**: здесь вы сможете управлять правилами потока почты (также известными как правила транспорта), принятыми доменами и соединитетелями, а также где можно запускать трассировку сообщений.
 
-- **Гибридная**среда: в этой области можно запустить [Мастер гибридной конфигурации](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard), а также установить [модуль PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell).
+- **Гибридная** конфигурация: здесь можно запустить мастер гибридной конфигурации [и](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)установить модуль Exchange [Online PowerShell.](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell)
 
 ### <a name="tabs"></a>Вкладки
 
@@ -107,25 +107,21 @@ ms.locfileid: "48202955"
 
 ### <a name="me-tile-and-help"></a>Иконка "Я" и справка
 
-Плитка **Я** позволяет выйти из Центра администрирования Exchange и войти в него как другой пользователь. При помощи раскрывающегося меню справки **Справка**![Значок справки](../../media/ITPro-EAC-HelpIcon.gif) можно выполнять следующие действия:
+Плитка **Я** позволяет выйти из Центра администрирования Exchange и войти в него как другой пользователь. В **выпадаемом** меню "Значок справки" ![ можно сделать следующие ](../../media/ITPro-EAC-HelpIcon.gif) действия:
 
-- **Справка**: щелкните ![ значок справки, ](../../media/ITPro-EAC-HelpIcon.gif) чтобы просмотреть содержимое справки в Интернете.
-
-- **Обратная связь**: Оставьте отзыв.
-
-- **Сообщество**: опубликуйте вопрос для поиска ответов на форумах сообщества.
-
-- **Отключить всплывающее**окно справки: при создании или редактировании объекта всплывающая справка отображается в контекстной справке для полей. Вы можете отключить подменю справки или включить его, если оно отключено.
-
-- **Показать ведение журнала команды**: откроется новое окно с эквивалентными командами PowerShell в зависимости от того, что было настроено в центре администрирования Exchange.
+- **Справка:** ![ щелкните значок ](../../media/ITPro-EAC-HelpIcon.gif) справки, чтобы просмотреть содержимое справки в Интернете.
+- **Обратная** связь: оставьте отзыв.
+- **Сообщество:** зайдите на форумы сообщества, чтобы найти ответы на них.
+- **Disable Help bubble**: The Help bubble displays contextual help for fields when you create or edit an object. Вы можете отключить пузырьок справки или включить его, если он отключен.
+- **Show Command Logging**: A new window opens that shows the equivalent PowerShell commands based on what you configured in EAC.
 
 ## <a name="supported-browsers"></a>Поддерживаемые веб-браузеры
 
-Для оптимальной работы с центром администрирования Exchange рекомендуется всегда использовать новейшие браузеры, клиенты Office и приложения. We also recommend that you install software updates when they become available. Дополнительные сведения о поддерживаемых браузерах и требованиях к системе для службы приведены в разделе [требования к системе для Office](https://products.office.com/office-system-requirements).
+Для лучшего использования EAC рекомендуется всегда использовать новейшие браузеры, клиенты Office и приложения. We also recommend that you install software updates when they become available. Дополнительные сведения о поддерживаемых браузерах и системных требованиях для службы см. в требованиях к [системе для Office.](https://products.office.com/office-system-requirements)
 
 ## <a name="supported-languages"></a>Поддерживаемые языки
 
-Следующие языки поддерживаются и доступны для центра администрирования Exchange в автономной EOP.
+Следующие языки поддерживаются и доступны для EAC в автономных EOP.
 
 - Амхарский
 - Арабский
