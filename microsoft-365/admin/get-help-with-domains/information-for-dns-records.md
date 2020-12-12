@@ -23,67 +23,67 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
-description: 'Сведения о том, как найти значения и сведения, необходимые для создания записей DNS для Microsoft 365. '
-ms.openlocfilehash: eca9dbe4e40193f76538b639624b827177ff7772
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: 'Узнайте, как найти значения и сведения, необходимые для создания записей DNS для Microsoft 365. '
+ms.openlocfilehash: db9aff1fdcd9fa52c90cc96b1a32cd3908c30edb
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645315"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658511"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>Сбор сведений, необходимых для создания записей DNS
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
-### <a name="step-1-find-the-txt-record-value-and-verify"></a>Шаг 1: Найдите значение записи TXT и проверьте
+### <a name="step-1-find-the-txt-record-value-and-verify"></a>Шаг 1. Поиск значения записи TXT и проверка
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования Microsoft 365 перейдите на страницу " **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> установки".
+1. В Центре администрирования Microsoft 365 перейдите на страницу **"Домены** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">установки".</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу " **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> установки".
+1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">установки".</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу " **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> установки".
+1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">установки".</a>
 
 ::: moniker-end
     
-2. На странице **домены** выберите свой домен, а затем нажмите кнопку **запустить программу установки**. Вы вернетесь в мастер настройки доменов, чтобы просмотреть значение, которое нужно добавить.
+2. На странице **"Домены"** выберите свой домен, а затем выберите **"Начать установку".** Вы вернетесь в мастер настройки доменов, чтобы просмотреть значение, которое нужно добавить.
     
-3. На странице **Проверка домена** выберите **Добавить запись типа TXT**, а затем нажмите кнопку **Далее**.
+3. На странице **"Проверка домена"** выберите "Добавить **запись TXT",** а затем выберите **"Далее".**
     
-4. Скопируйте отображаемое **значение txt** . Он выглядит следующим образом: **MS = мскскскскскскскскс**. 
+4. Скопируйте **показанные значения TXT.** Выглядит так: **MS=msXXXXXXXXX.** 
     
-5. Перейдите к разделу [Создание записей DNS для любого поставщика услуг размещения DNS](create-dns-records-at-any-dns-hosting-provider.md)и выберите узел DNS из списка регистраторов, чтобы просмотреть пошаговые инструкции.
+5. Перейдите к созданию [записей DNS](create-dns-records-at-any-dns-hosting-provider.md)у любого поставщика услуг размещения DNS и выберите свой хост DNS в списке регистраторов, чтобы увидеть пошаговых инструкций.
     
-6. Выполните действия, необходимые для создания записи TXT (или записи MX) на узле DNS, а затем убедитесь, что домен возвращен в Microsoft 365.
+6. Выполните действия по созданию TXT-записи (или записи MX) на своем DNS-сайте, а затем проверьте домен обратно в Microsoft 365.
 
-7. Удалите запись TXT (или запись MX) с узла DNS после проверки домена в Microsoft 365.
+7. Удалите запись TXT (или запись MX) с хоста DNS после проверки домена в Microsoft 365.
     
-### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a>Шаг 2: поиск значения записи MX для электронной почты и т. д.
+### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a>Шаг 2. Поиск значения записи MX для электронной почты и других
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования Microsoft 365 перейдите на страницу " **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> установки".
+1. В Центре администрирования Microsoft 365 перейдите на страницу **"Домены** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">установки".</a>
 
 ::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу " **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> установки".
+1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">установки".</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу " **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> установки".
+1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">установки".</a>
 
 ::: moniker-end
     
@@ -95,6 +95,6 @@ ms.locfileid: "48645315"
     
     То, какие группы записей DNS будут перечислены на странице, зависит от выбранных вами параметров в разделе **Назначение домена**.
     
-4. Перейдите к разделу [Создание DNS-записей на любом поставщике услуг размещения DNS](create-dns-records-at-any-dns-hosting-provider.md), а затем выберите узел DNS из списка регистраторов, чтобы просмотреть пошаговые инструкции по добавлению записей на веб-сайте узла DNS.
+4. Перейдите к созданию записей DNS у любого поставщика услуг размещения [DNS,](create-dns-records-at-any-dns-hosting-provider.md)а затем выберите свой DNS-сайт в списке регистраторов, чтобы увидеть пошаговых инструкций по добавлению записей на веб-сайте этого DNS-сайта.
     
 5. Следуйте указаниям, чтобы создать записи в своем узле DNS.

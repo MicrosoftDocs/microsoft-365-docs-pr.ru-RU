@@ -1,5 +1,5 @@
 ---
-title: Использование подключения к домену
+title: Использование Подключения к домену
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,39 +21,39 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ec6f4bd8-5996-4505-ba68-afaf8a141fb9
-description: Узнайте, как работать с регистраторами с поддержкой подключения к домену и добавлять свой домен в Microsoft 365.
-ms.openlocfilehash: e907317ec5b606c2fe73232a73c9abdfce26feea
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Узнайте, как работать с регистраторами с поддержкой Domain Connect и добавлять домен в Microsoft 365.
+ms.openlocfilehash: 109255d82100e636e3472242866a519ff64a9e54
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645351"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655616"
 ---
-# <a name="using-domain-connect"></a>Использование подключения к домену
+# <a name="using-domain-connect"></a>Использование Подключения к домену
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**.
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**.
   
-Регистраторы с поддержкой [подключения к домену](https://www.domainconnect.org/) позволяют добавить свой домен в Microsoft 365 в процессе, сокоторый в течение трех этапов. 
+[Регистраторы ](https://www.domainconnect.org/) с включенным подключением к домену позволяют добавлять домен в Microsoft 365 в течение трех этапов, который занимает несколько минут. 
   
-В мастере мы просто подтверждаю, что вы владеете доменом и автоматически настроили записи вашего домена, поэтому электронная почта поступает в Microsoft 365 и другие службы Майкрософт 365, например команды, работающие с доменом.
+В мастере мы просто подтвердим, что вы владеете доменом, а затем автоматически настроим записи домена, поэтому электронная почта поступает в Microsoft 365 и другие службы Microsoft 365, например Teams, работают с вашим доменом.
   
 > [!NOTE]
 > Прежде чем запускать мастер установки, убедитесь, что в браузере отключено блокирование всплывающих окон.
   
-## <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Служба регистраторов подключений к доменам интеграция с Microsoft 365
+## <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Интеграция регистраторов Domain Connect с Microsoft 365
 
-- [1 &amp; 1 ионос](https://www.1and1.com/)
+- [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [123Reg](https://www.123-reg.co.uk/)
 - [GoDaddy](https://www.godaddy.com/)
 - [WordPress](https://wordpress.com/)
-- [плеск](https://www.plesk.com/)
-- [медиатемпле](https://mediatemple.net/)
-- Секуресервер или Вилдвестдомаинс (GoDaddy торговые посредники, использующие службу хостинга на Секуресервер DNS)
-    - [Домены Маддог](https://www.maddogdomains.com/)
-    - [чеапнамес](https://www.cheapnames.com)
+- [Plesk](https://www.plesk.com/)
+- [MediaTemple](https://mediatemple.net/)
+- SecureServer или WildWestDomains (resellers GoDaddy using SecureServer DNS hosting)
+    - [Домены MadDog](https://www.maddogdomains.com/)
+    - [CheapNames](https://www.cheapnames.com)
 
 ## <a name="what-happens-to-my-email-and-website"></a>Что происходит с электронной почтой и веб-сайтом?
 
-После завершения установки запись MX для вашего домена будет обновлена, чтобы она ссылалась на Microsoft 365, а вся электронная почта для вашего домена будет начинаться с Microsoft 365. Убедитесь, что вы добавили пользователей и настроили почтовые ящики в Microsoft 365 для всех, кто получает электронную почту в вашем домене.
+После завершения настройки запись MX для вашего домена будет обновлена так, чтобы она указыировала на Microsoft 365, и вся электронная почта для вашего домена начнет приходить в Microsoft 365. Убедитесь, что вы добавили пользователей и настроили почтовые ящики в Microsoft 365 для всех, кто получает электронную почту в вашем домене!
   
-Если у вас есть веб-сайт, который вы используете для бизнеса, он будет работать как прежде. Действия по настройке подключения к домену не повлияют на ваш веб-сайт.
+Если у вас есть веб-сайт, который вы используете для бизнеса, он будет работать как прежде. Действия по настройке Domain Connect не влияют на ваш веб-сайт.
