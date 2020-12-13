@@ -1,5 +1,5 @@
 ---
-title: Добавление фирменной символики Организации в зашифрованные сообщения
+title: Добавление фирменой марки организации в зашифрованные сообщения
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -20,319 +20,319 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Узнайте, как глобальные администраторы Office 365 могут применять фирменную символику к зашифрованным сообщениям электронной почты & содержимым портала шифрования.
-ms.openlocfilehash: 6ec13a9d986019e6eb91d1b7a395f1c6199fe12a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Узнайте, как глобальные администраторы Office 365 могут применять фирменный код организации к зашифрованным & в содержимом портала шифрования.
+ms.openlocfilehash: 77fd5e08afa1a4d8ae5f6386fa65b88b6ea2be4d
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818662"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663236"
 ---
-# <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Добавление фирменной символики организации в зашифрованные сообщения
+# <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Добавление торговой марки организации в зашифрованные сообщения шифрования сообщений Microsoft 365 для бизнеса
 
-Как администратор Exchange Online или Exchange Online Protection, вы можете применить фирменную символику компании, чтобы настроить внешний вид сообщений электронной почты в службе шифрования сообщений Microsoft 365 для бизнеса, а также содержимое портала шифрования. С помощью командлетов Windows PowerShell Get – OMEConfiguration и Set – OMEConfiguration можно настроить следующие аспекты просмотра для получателей зашифрованных сообщений электронной почты:
+Вы можете применить фирменую марку компании, чтобы настроить внешний вид сообщений электронной почты вашей организации и портала шифрования. Перед началом работы необходимо применить разрешения глобального администратора к своей учетной записи работы или учебного заведения. После получения этих разрешений используйте Get-OMEConfiguration и Set-OMEConfiguration Windows PowerShell для настройки этих частей зашифрованных сообщений электронной почты:
   
-- Вводный текст зашифрованного сообщения электронной почты
+- Вводный текст
 
-- Текст заявления об отказе зашифрованного сообщения электронной почты
+- Disclaimer text
 
-- URL-адрес заявления о конфиденциальности для Организации
+- URL-адрес заявления о конфиденциальности вашей организации
 
-- Текст, который отображается на портале OME
+- Текст на портале OME
 
-- Логотип, который отображается в сообщении электронной почты и на портале OME, а также указывает, следует ли использовать логотип.
+- Логотип, который отображается в сообщении электронной почты и на портале OME или используется ли логотип вообще
 
 - Цвет фона в сообщении электронной почты и на портале OME
 
 Кроме того, в любое время вы можете восстановить интерфейс по умолчанию.
 
-Если вы хотите расширить возможности управления, вы можете использовать расширенное шифрование сообщений Office 365 и создать несколько шаблонов для зашифрованных сообщений электронной почты, исходящих из вашей организации. С помощью этих шаблонов можно управлять не только внешним видом и поведением сообщений электронной почты, но и управлять частями конечного пользователя. Например, можно указать, будут ли Получатели почты, к которым применен этот шаблон, и пользователи, использующие учетные записи Google, Yahoo и Майкрософт, использовать эти учетные записи для входа на портал Office 365 для шифрования сообщений. Вы можете использовать шаблоны для выполнения нескольких вариантов использования, таких как:
+Если вы хотите больше контроля, используйте Office 365 Advanced Message Encryption, чтобы создать несколько шаблонов для зашифрованных сообщений электронной почты из вашей организации. Используйте эти шаблоны для управления частями пользовательского интерфейса. Например, укажите, могут ли получатели использовать учетные записи Google, Yahoo и Microsoft для входов на портал шифрования. Используйте шаблоны для выполнения нескольких вариантов использования, например:
 
-- Шаблоны для каждого отдела, такие как финансы, продажи и т. д.
+- Отдельные отделы, такие как "Финансы", "Продажи" и так далее.
 
-- Шаблоны для разных продуктов
+- Различные продукты
 
-- Шаблоны для различных географических регионов или стран
+- Различные географические регионы или страны
 
-- Следует ли разрешить отзыв сообщений электронной почты
+- Хотите ли вы разрешить отзыв сообщений электронной почты
 
-- Следует ли срок действия сообщений электронной почты, отправляемых внешним получателям, через определенное количество дней.
+- Указывает, следует ли отправлять сообщения электронной почты внешним получателям по истечении указанного количества дней.
 
-Создав шаблоны, вы можете применить их к зашифрованным сообщениям электронной почты с помощью правил для почтовых ящиков Exchange. Если вы используете расширенное шифрование сообщений Office 365, вы можете отозвать любое электронное письмо, имеющее фирменную символику, с помощью этих шаблонов.
+После создания шаблонов их можно применять к зашифрованным электронным письмам с помощью правил потока почты Exchange. Если у вас есть Office 365 Advanced Message Encryption, вы можете отоискить все сообщения электронной почты, которые вы добавили в фирменую марку, используя эти шаблоны.
 
-## <a name="work-with-ome-branding-templates"></a>Работайте с шаблонами фирменной символики OME
+## <a name="work-with-ome-branding-templates"></a>Работа с шаблонами фирменного оформления OME
 
-В шаблоне фирменной символики можно изменить несколько компонентов. Шаблон по умолчанию можно изменить, но не удалить. При наличии расширенного шифрования сообщений можно также создавать, изменять и удалять настраиваемые шаблоны. Используйте Windows PowerShell для работы с одним шаблоном фирменного стиля за раз. Чтобы использовать эти командлеты, вам потребуется рабочая или учебная учетная запись с разрешениями глобального администратора в Организации.
+В шаблоне фирменой марки можно изменить несколько функций. Шаблон по умолчанию можно изменять, но не удалять. Если у вас есть advanced Message Encryption, вы также можете создавать, изменять и удалять настраиваемые шаблоны. Используйте Windows PowerShell для одновременной работы с одним шаблоном фирменой марки.
 
-- [Set — OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) — изменить шаблон фирменной символики по умолчанию или созданный пользовательский шаблон фирменной символики.
-- [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) — создание нового шаблона фирменного стиля, только расширенного шифрования сообщений.
-- [Remove – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) — удалить настраиваемый шаблон фирменного стиля, только расширенное шифрование сообщения. Шаблон фирменной символики по умолчанию удалить невозможно.
+- [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) — изменение шаблона фирменения по умолчанию или созданного вами настраиваемого шаблона фирменения.
+- [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) : создание нового шаблона фирменности, только advanced Message Encryption.
+- [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) — удаление настраиваемого шаблона фирменности, только advanced Message Encryption. Вы не можете удалить шаблон фирменой марки по умолчанию.
   
-## <a name="modify-an-ome-branding-template"></a>Изменение шаблона фирменной символики OME
+## <a name="modify-an-ome-branding-template"></a>Изменение шаблона фирменного оформления OME
 
-Используйте Windows PowerShell, чтобы изменить один шаблон фирменного стиля за раз. При наличии расширенного шифрования сообщений можно также создавать, изменять и удалять настраиваемые шаблоны.
+Используйте Windows PowerShell для одновременного изменения одного шаблона фирменой марки. Если у вас есть advanced Message Encryption, вы также можете создавать, изменять и удалять настраиваемые шаблоны.
 
-1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в Организации запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используя учетную запись для работы или учебного заведения с разрешениями глобального администратора в организации, Windows PowerShell сеанс и подключите его к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Измените шаблон с помощью командлета Set – OMEConfiguration, как описано в командлете [Set – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) , или используйте приведенную ниже графику и таблицу, чтобы получить рекомендации.
+2. Используйте Set-OMEConfiguration, как описано в [set-OMEConfiguration,](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) или воспользуйтесь следующей графикой и таблицей для указания.
 
 ![Настраиваемые части электронной почты](../media/ome-template-breakout.png)
 
 |**Настройка этой функции шифрования**|**Используйте эти команды**|
 |:-----|:-----|
-|Цвет фона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> Более подробную информацию о цветах фона можно узнать в разделе [цвета фона](#background-color-reference) далее в этом разделе.|
-|Логотип|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Поддерживаемые форматы файлов: PNG, JPG, BMP, TIFF  <br/> Оптимальный размер файла эмблемы: менее 40 КБ  <br/> Оптимальный размер изображения логотипа: 170x70 пикселей. Если изображение превышает эти размеры, служба изменяет размер логотипа для отображения на портале. Служба не изменяет сам графический файл. Для достижения лучших результатов используйте оптимальный размер.|
-|Текст рядом с именем отправителя и адресом электронной почты|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -IntroductionText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
-|Текст, который отображается на кнопке "чтение сообщения"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -ReadButtonText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
-|Текст, который отображается под кнопкой "прочитать сообщение"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
-|URL-адрес для ссылки на заявление о конфиденциальности|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PrivacyStatementURL "<URL>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
+|Цвет фона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> Дополнительные сведения о цветах фона см. в разделе ["Цвета](#background-color-reference) фона" далее в этой статье.|
+|Логотип|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Поддерживаемые форматы файлов: PNG, JPG, BMP, TIFF  <br/> Оптимальный размер файла эмблемы: менее 40 КБ  <br/> Оптимальный размер изображения логотипа: 170x70 пикселей. Если изображение превышает эти размеры, служба меняет размер логотипа для отображения на портале. Служба не изменяет сам графический файл. Для наилучших результатов используйте оптимальный размер.|
+|Текст рядом с именем и адресом электронной почты отправитель|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -IntroductionText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
+|Текст, который отображается на кнопке "Прочитать сообщение"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -ReadButtonText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
+|Текст, который отображается под кнопкой "Прочитать сообщение"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
+|URL-адрес ссылки на заявление о конфиденциальности|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PrivacyStatementURL "<URL>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
 |Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."`|
 |Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."`|
-|Включение или отключение проверки подлинности с помощью кода одноразового этапа для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **Примеры:** <br/>Включение одноразовых секретных кодов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Отключение одноразовых секретных кодов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
-|Включение или отключение проверки подлинности с помощью удостоверений Microsoft, Google или Yahoo для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **Примеры:** <br/>Включение социальных идентификаторов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> Отключение социальных идентификаторов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
+|Чтобы включить или отключить проверку подлинности с помощью разового кода прохода для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **Примеры:** <br/>Чтобы включить одновейные парольные коды для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Отключение одновейных паролей для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
+|Чтобы включить или отключить проверку подлинности с помощью удостоверений Майкрософт, Google или Yahoo для этого пользовательского шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **Примеры:** <br/>Чтобы включить социальные ID для этого пользовательского шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> Отключение социальных ИД для этого пользовательского шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
 
-## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Создание шаблона фирменной символики OME (расширенное шифрование сообщений)
+## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Создание шаблона фирменной марки OME (advanced Message Encryption)
 
-Если вы используете расширенное шифрование сообщений Office 365, вы можете создать настраиваемые шаблоны фирменного стиля для своей организации с помощью командлета [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) . После создания шаблона измените шаблон с помощью командлета Set – OMEConfiguration, как описано в статье [изменение шаблона фирменной символики OME](#modify-an-ome-branding-template). Можно создать несколько шаблонов.
+Если у вас есть Office 365 Advanced Message Encryption, вы можете создать настраиваемые шаблоны фирменного оформления для своей организации с помощью [cmdlet New-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) После создания шаблона его можно изменить с помощью Set-OMEConfiguration, как описано в описании изменения шаблона [фирменного оформления OME.](#modify-an-ome-branding-template) Можно создать несколько шаблонов.
 
-Чтобы создать новый настраиваемый шаблон фирменной символики:
+Чтобы создать новый настраиваемый шаблон фирменой настройки:
 
-1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в Организации запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используя учетную запись для работы или учебного заведения с разрешениями глобального администратора в организации, Windows PowerShell сеанс и подключите его к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Используйте командлет [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) для создания нового шаблона.
+2. Используйте для создания нового шаблона с помощью [cmdlet New-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration)
 
    ```powershell
    New-OMEConfiguration -Identity "<OMEConfigurationName>"
    ```
 
-   For example,
+   Пример.
 
    ```powershell
    New-OMEConfiguration -Identity "Custom branding template"
    ```
 
-## <a name="return-the-default-branding-template-to-its-original-values"></a>Возврат к исходным значениям шаблона фирменной символики по умолчанию
+## <a name="return-the-default-branding-template-to-its-original-values"></a>Возврат шаблона фирменки по умолчанию к исходным значениям
 
-Чтобы удалить все изменения из шаблона по умолчанию, включая настройки фирменного стиля и т. д., выполните указанные ниже действия.
+Чтобы удалить все изменения из шаблона по умолчанию, включая настройки торговой марки и т. с., выполните следующие действия:
   
-1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в Организации запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используя учетную запись для работы или учебного заведения с разрешениями глобального администратора в организации, Windows PowerShell сеанс и подключите его к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Используйте командлет **Set – OMEConfiguration** , как описано в командлете [Set – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration). Чтобы удалить настройки фирменной символики Организации из значений DisclaimerText, EmailText и PortalText, установите для этого параметра пустую строку `""` . Для всех значений изображений, например Logo, установите значение `"$null"` .
+2. Используйте **cmdlet Set-OMEConfiguration,** как описано в [set-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) Чтобы удалить фирменные настройки организации из значений DisclaimerText, EmailText и PortalText, запишите в качестве значения пустую `""` строку. Для всех значений изображения, таких как логотип, установите значение  `"$null"` .
 
    В следующей таблице описываются параметры настройки шифрования по умолчанию.
 
    **Сброс функции шифрования к тексту и изображению по умолчанию**|**Используйте эти команды**|
    |:-----|:-----|
-   |Текст по умолчанию, сопровождающий зашифрованные сообщения электронной почты.  <br/> Текст по умолчанию, отображающийся над инструкциями по просмотру зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
+   |Текст по умолчанию, который поставляется с зашифрованными сообщениями электронной почты  <br/> Текст по умолчанию, отображающийся над инструкциями по просмотру зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
    |Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
-   |Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **Пример возврата к значению по умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
-   |Логотип|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **Пример возврата к значению по умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
-   |Цвет фона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **Пример возврата к значению по умолчанию:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
+   |Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **Пример обратного обратного значения по умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
+   |Логотип|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **Пример обратного обратного значения по умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
+   |Цвет фона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **Пример обратного обратного значения по умолчанию:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
    |
 
-## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>Удаление настраиваемого шаблона фирменного стиля (расширенного шифрования сообщений)
+## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>Удаление пользовательского шаблона фирменой настройки (advanced Message Encryption)
 
-Вы можете удалять и удалять только созданные вами шаблоны фирменного стиля. Шаблон фирменной символики по умолчанию удалить невозможно.
+Вы можете удалять только шаблоны фирменой марки, которые вы сделали. Шаблон фирменой настройки по умолчанию удалить нельзя.
 
-Чтобы удалить настраиваемый шаблон фирменной символики:
+Удаление пользовательского шаблона фирменой настройки:
   
-1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в Организации запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используя учетную запись для работы или учебного заведения с разрешениями глобального администратора в организации, Windows PowerShell сеанс и подключите его к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Используйте командлет **Remove – OMEConfiguration** следующим образом:
+2. Используйте **cmdlet Remove-OMEConfiguration** следующим образом:
 
    ```powershell
    Remove-OMEConfiguration -Identity ""<OMEConfigurationName>"
    ```
 
-   For example,
+   Пример.
 
    ```powershell
    Remove-OMEConfiguration -Identity "Branding template 1"
    ```
 
-   Дополнительные сведения см. в разделе [Remove – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration).
+   Дополнительные сведения см. в [подстройки Remove-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration)
 
-## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>Создание правила для процесса обработки почты Exchange, которое применяет настраиваемую фирменную символику к зашифрованным сообщениям электронной почты
+## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>Создание правила потока почты Exchange, которое применяет настраиваемую фирмовую марку к зашифрованным электронным письмам
 
-После того как вы изменяли шаблон по умолчанию или создали новые шаблоны фирменного стиля, вы можете создать правила для почтовых ящиков Exchange, чтобы применить собственную фирменную символику на основе определенных условий. Такое правило будет применять настраиваемую фирменную символику в следующих сценариях:
+После изменения шаблона по умолчанию или создания новых шаблонов фирменности можно создать правила потока почты Exchange, чтобы применить настраиваемую фирменную марку на основе определенных условий. Такое правило будет применять настраиваемую фирменую марку в следующих сценариях:
 
-- Если пользователь вручную зашифровал сообщение из Outlook или Outlook в Интернете (прежнее название — Outlook Web App)
+- Если сообщение было зашифровано пользователем вручную с помощью Outlook или Outlook в Интернете, ранее Outlook Web App
 
-- Если сообщение было автоматически зашифровано правилом для обработки почтового ящика Exchange или политикой защиты от потери данных
+- Если сообщение было автоматически зашифровано правилом потока обработки почты Exchange или политикой защиты от потери данных
 
-Сведения о том, как создать правило для процесса обработки почты Exchange, которое применяет шифрование, можно узнать в статье [Определение правил обработки почтового процесса для шифрования сообщений электронной почты в Office 365](define-mail-flow-rules-to-encrypt-email.md).
+Сведения о создании правила потока почты Exchange, которое применяет шифрование, см. в подпишитесь на правила потока почты для шифрования сообщений электронной почты [в Office 365.](define-mail-flow-rules-to-encrypt-email.md)
 
-1. В веб-браузере с помощью рабочей или учебной учетной записи, которой предоставлены разрешения глобального администратора, [Войдите в Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser).
+1. В веб-браузере, используя учетную запись для работы или учебного заведения, которая получила разрешения глобального администратора, во sign [in to Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser).
 
-2. Выберите плитку **Администратор** .
+2. Выберите **плитку** "Администратор".
 
-3. В центре администрирования Microsoft 365 выберите Exchange **центры администрирования** \> **Exchange**.
+3. В Центре администрирования Microsoft 365 выберите **"Центры администрирования** \> **Exchange".**
 
-4. В центре администрирования Exchange перейдите к разделу правила обработки **почтового процесса** \> **Rules** и выберите **Новый** ![ новый значок ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **создать новое правило**. Дополнительные сведения об использовании [центра администрирования Exchange можно найти в центре администрирования Exchange в Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. В EAC перейдите в **"Правила потока** почты" и выберите \>  **"Создать** новый ![ ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **значок" "Создать новое правило".** Дополнительные сведения об использовании Центра администрирования Exchange см. в [Центре администрирования Exchange в Exchange Online.](https://docs.microsoft.com/exchange/exchange-admin-center)
 
-5. В поле **имя**введите имя правила, например фирменный стиль для отдела продаж.
+5. **Введите** имя правила, например Branding for sales department.
 
-6. В поле **Применить это правило, если**выберите условие, **которое отправитель находится в Организации** , а также другие необходимые условия из списка доступных условий. Например, может потребоваться применить определенный шаблон фирменной символики к:
+6. **Применив это правило,** выберите условие, которое отправитель находится внутри организации, и другие условия, которые необходимо в списке доступных условий.  Например, можно применить определенный шаблон фирменой марки к:
 
-   - Все зашифрованные сообщения электронной почты, отправленные участниками отдела финансов
-   - Зашифрованные сообщения электронной почты, отправленные с определенным ключевым словом, например "External" или "Partner"
-   - Зашифрованные сообщения электронной почты, отправленные на определенный домен
+   - Все зашифрованные сообщения от сотрудников финансового отдела
+   - Зашифрованные сообщения электронной почты, отправленные с помощью определенного ключевого слова, например "Внешний" или "Партнер"
+   - Зашифрованные сообщения электронной почты, отправленные в определенный домен
 
-7. В **разделе выполните следующие действия**выберите **изменить безопасность сообщений**  >  **применение настраиваемой фирменной символики к сообщениям OME**. Затем в раскрывающемся списке выберите шаблон фирменной символики из созданного или измененного.
+7. From **Do the following**, select Modify the message **security** Apply \> **custom branding to OME messages**. Затем в выпадаемом меню выберите шаблон фирменой марки.
 
-8. Необязательно Если вы хотите, чтобы правило обработки почтового ящика применяло шифрование в дополнение к настраиваемой фирменной символике, **выполните следующие действия**, выберите **изменить безопасность сообщений**, а затем нажмите **применить шифрование и защиту сообщений Office 365**. Выберите шаблон RMS в списке и нажмите кнопку **сохранить**, а затем нажмите кнопку **ОК**.
+8. (Необязательно) Вы можете настроить правило потока почты для применения шифрования и пользовательской фирменой настройки. From **Do the following**, select Modify the message **security**, and then choose Apply **Office 365 Message Encryption and rights protection**. Выберите шаблон RMS из списка, выберите **"Сохранить"** и "ОК". 
   
-   Список шаблонов включает все шаблоны и параметры по умолчанию, а также пользовательские шаблоны, созданные для использования в Office 365. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с помощью новых возможностей, как описано в статье [Настройка новых возможностей шифрования сообщений office 365](set-up-new-message-encryption-capabilities.md). Сведения о шаблонах по умолчанию можно узнать в статье [Настройка шаблонов для Azure Information Protection и управление ими](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). Сведения о параметре "не **пересылать** " можно узнать в статье не [пересылать сообщения](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails). Для получения дополнительных сведений о параметре " **только шифрование** " в разделе [шифрование только для сообщений электронной почты](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
+   Список шаблонов включает шаблоны и параметры по умолчанию, а также все созданные вами настраиваемые шаблоны. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с новыми возможностями. Инструкции см. в настройках новых возможностей шифрования [сообщений Office 365.](set-up-new-message-encryption-capabilities.md) Сведения о шаблонах по умолчанию см. в сведениях о настройке и управлении [шаблонами для Azure Information Protection.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) Сведения о параметре **"Не переад вперед"** см. в параметре ["Не переададантов" для сообщений электронной почты.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) Сведения о параметре **"Только шифрование"** см. в параметре ["Только шифрование" для сообщений электронной почты.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
-   Выберите команду **Добавить действие** , если хотите указать другое действие.
+   Выберите **действие "Добавить",** если нужно указать другое действие.
 
-## <a name="background-color-reference"></a>Справочник по цвету фона
+## <a name="background-color-reference"></a>Справочные данные по цвету фона
 
-Имена цветов, которые можно использовать для фонового цвета, ограничены. Вместо имени цвета можно использовать шестнадцатеричное значение кода (#RRGGBB). Можно использовать шестнадцатеричное значение кода, которое соответствует имени цвета, или можно использовать собственное значение шестнадцатеричного кода. Обязательно заключите шестнадцатеричное значение кода в кавычки (например, `"#f0f8ff"` ).
+Имена цветов, которые можно использовать для фонового цвета, ограничены. Вместо имени цвета можно использовать значение 6-го кода (#RRGGBB). Вы можете использовать значение кодов в hex, соответствующее имени цвета, или пользовательское значение кода. Не забудьте заключить значение кода в кавычках (например, `"#f0f8ff"` ).
 
-В приведенной ниже таблице описаны имена доступных фоновых цветов и соответствующие им шестнадцатеричные значения кода.
+Доступные имена цветов фона и соответствующие им значения кодов описаны в следующей таблице.
 
 |||
 |---|---|
 |**Название цвета**|**Код цвета**|
-|алицеблуе|#f0f8ff|
-|антикуевхите|#faebd7|
-|волны|#00ffff|
-|акуамарине|#7fffd4|
-|службу|#f0ffff|
-|цвет|#f5f5dc|
-|бискуе|#ffe4c4|
-|black|#000000|
-|бланчедалмонд|#ffebcd|
-|blue|#0000ff|
-|блуевиолет|#8a2be2|
-|Иванов|#a52a2a|
-|бурливуд|#deb887|
-|кадетблуе|#5f9ea0|
-|чартреусе|#7fff00|
-|рецепт|#d2691e|
-|Территория|#ff7f50|
-|корнфловерблуе|#6495ed|
-|корнсилк|#fff8dc|
-|Crimson|#dc143c|
-|цвет|#00ffff|
-|даркблуе|#00008b|
-|даркциан|#008b8b|
-|даркголденрод|#b8860b|
-|даркграй|#a9a9a9|
-|даркгрин|#006400|
-|дарккхаки|#bdb76b|
-|даркмажента|#8b008b|
-|дарколивегрин|#556b2f|
-|darkorange|#ff8c00|
-|даркорчид|#9932cc|
-|даркред|#8b0000|
-|дарксалмон|#e9967a|
-|дарксеагрин|#8fbc8f|
-|даркслатеблуе|#483d8b|
-|даркслатеграй|#2f4f4f|
-|дарктуркуоисе|#00ced1|
-|дарквиолет|#9400d3|
-|диппинк|#ff1493|
-|дипскиблуе|#00bfff|
-|димграй|#696969|
-|доджерблуе|#1e90ff|
-|фиребрикк|#b22222|
-|флоралвхите|#fffaf0|
-|форестгрин|#228b22|
-|фучсиа|#ff00ff|
-|гаинсборо|#dcdcdc|
-|гхоствхите|#f8f8ff|
-|цвет|#ffd700|
-|голденрод|#daa520|
-|участка|#808080|
-|green|#008000|
-|гринеллов|#adff2f|
-|хонэйдев|#f0fff0|
-|хотпинк|#ff69b4|
-|индианред|#cd5c5c|
-|Индиго|#4b0082|
-|ивори|#fffff0|
-|кхаки|#f0e68c|
-|лавендер|#e6e6fa|
-|лавендерблуш|#fff0f5|
-|лавнгрин|#7cfc00|
-|лемончиффон|#fffacd|
-|lightblue|#add8e6|
-|лигхткорал|#f08080|
-|лигхтциан|#e0ffff|
-|лигхтголденроделлов|#fafad2|
-|лигхтграй|#d3d3d3|
-|лигхтгрэй|#d3d3d3|
-|lightgreen|#90ee90|
-|лигхтпинк|#ffb6c1|
-|лигхтсалмон|#ffa07a|
-|лигхтсеагрин|#20b2aa|
-|лигхтскиблуе|#87cefa|
-|лигхтслатеграй|#778899|
-|лигхтстилблуе|#b0c4de|
-|лигхтеллов|#ffffe0|
-|желт|#00ff00|
-|лимегрин|#32cd32|
-|линен|#faf0e6|
-|фиолетовый|#ff00ff|
-|марун|#800000|
-|медиумакуамарине|#66cdaa|
-|медиумблуе|#0000cd|
-|медиуморчид|#ba55d3|
-|медиумпурпле|#9370db|
-|медиумсеагрин|#3cb371|
-|медиумслатеблуе|#7b68ee|
-|медиумспринггрин|#00fa9a|
-|медиумтуркуоисе|#48d1cc|
-|медиумвиолетред|#c71585|
-|миднигхтблуе|#191970|
-|минткреам|#f5fffa|
-|мистиросе|#ffe4e1|
-|моккасин|#ffe4b5|
-|наважовхите|#ffdead|
-|нави|#000080|
-|олдлаце|#fdf5e6|
-|темно|#808000|
-|оливедраб|#6b8e23|
-|orange|#ffa500|
-|оранжеред|#ff4500|
-|орчид|#da70d6|
-|палеголденрод|#eee8aa|
-|палегрин|#98fb98|
-|палетуркуоисе|#afeeee|
-|палевиолетред|#db7093|
-|папайавхип|#ffefd5|
-|пеачпуфф|#ffdab9|
-|Перу|#cd853f|
-|pink|#ffc0cb|
-|сливовая|#dda0dd|
-|повдерблуе|#b0e0e6|
-|purple|#800080|
-|red|#ff0000|
-|росибровн|#bc8f8f|
-|ройалблуе|#4169e1|
-|саддлебровн|#8b4513|
-|салмон|#fa8072|
-|сандибровн|#f4a460|
-|сеагрин|
-|сеашелл|#fff5ee|
-|сиенна|#a0522d|
-|носят|#c0c0c0|
-|скиблуе|#87ceeb|
-|слатеблуе|#6a5acd|
-|слатеграй|#708090|
-|Snow|#fffafa|
-|спринггрин|#00ff7f|
-|стилблуе|#4682b4|
-|Tan|#d2b48c|
-|teal|#008080|
-|систле|#d8bfd8|
-|томато|#ff6347|
-|Turquoise|#40e0d0|
-|красн|#ee82ee|
-|вхеат|#f5deb3|
-|white|#ffffff|
-|вхитесмоке|#f5f5f5|
-|yellow|#ffff00|
-|елловгрин|#9acd32|
+|`aliceblue`|#f0f8ff|
+|`antiquewhite`|#faebd7|
+|`aqua`|#00ffff|
+|`aquamarine`|#7fffd4|
+|`azure`|#f0ffff|
+|`beige`|#f5f5dc|
+|`bisque`|#ffe4c4|
+|`black`|#000000|
+|`blanchedalmond`|#ffebcd|
+|`blue`|#0000ff|
+|`blueviolet`|#8a2be2|
+|`brown`|#a52a2a|
+|`burlywood`|#deb887|
+|`cadetblue`|#5f9ea0|
+|`chartreuse`|#7fff00|
+|`chocolate`|#d2691e|
+|`coral`|#ff7f50|
+|`cornflowerblue`|#6495ed|
+|`cornsilk`|#fff8dc|
+|`crimson`|#dc143c|
+|`cyan`|#00ffff|
+|`darkblue`|#00008b|
+|`darkcyan`|#008b8b|
+|`darkgoldenrod`|#b8860b|
+|`darkgray`|#a9a9a9|
+|`darkgreen`|#006400|
+|`darkkhaki`|#bdb76b|
+|`darkmagenta`|#8b008b|
+|`darkolivegreen`|#556b2f|
+|`darkorange`|#ff8c00|
+|`darkorchid`|#9932cc|
+|`darkred`|#8b0000|
+|`darksalmon`|#e9967a|
+|`darkseagreen`|#8fbc8f|
+|`darkslateblue`|#483d8b|
+|`darkslategray`|#2f4f4f|
+|`darkturquoise`|#00ced1|
+|`darkviolet`|#9400d3|
+|`deeppink`|#ff1493|
+|`deepskyblue`|#00bfff|
+|`dimgray`|#696969|
+|`dodgerblue`|#1e90ff|
+|`firebrick`|#b22222|
+|`floralwhite`|#fffaf0|
+|`forestgreen`|#228b22|
+|`fuchsia`|#ff00ff|
+|`gainsboro`|#dcdcdc|
+|`ghostwhite`|#f8f8ff|
+|`gold`|#ffd700|
+|`goldenrod`|#daa520|
+|`gray`|#808080|
+|`green`|#008000|
+|`greenyellow`|#adff2f|
+|`honeydew`|#f0fff0|
+|`hotpink`|#ff69b4|
+|`indianred`|#cd5c5c|
+|`indigo`|#4b0082|
+|`ivory`|#fffff0|
+|`khaki`|#f0e68c|
+|`lavender`|#e6e6fa|
+|`lavenderblush`|#fff0f5|
+|`lawngreen`|#7cfc00|
+|`lemonchiffon`|#fffacd|
+|`lightblue`|#add8e6|
+|`lightcoral`|#f08080|
+|`lightcyan`|#e0ffff|
+|`lightgoldenrodyellow`|#fafad2|
+|`lightgray`|#d3d3d3|
+|`lightgrey`|#d3d3d3|
+|`lightgreen`|#90ee90|
+|`lightpink`|#ffb6c1|
+|`lightsalmon`|#ffa07a|
+|`lightseagreen`|#20b2aa|
+|`lightskyblue`|#87cefa|
+|`lightslategray`|#778899|
+|`lightsteelblue`|#b0c4de|
+|`lightyellow`|#ffffe0|
+|`lime`|#00ff00|
+|`limegreen`|#32cd32|
+|`linen`|#faf0e6|
+|`magenta`|#ff00ff|
+|`maroon`|#800000|
+|`mediumaquamarine`|#66cdaa|
+|`mediumblue`|#0000cd|
+|`mediumorchid`|#ba55d3|
+|`mediumpurple`|#9370db|
+|`mediumseagreen`|#3cb371|
+|`mediumslateblue`|#7b68ee|
+|`mediumspringgreen`|#00fa9a|
+|`mediumturquoise`|#48d1cc|
+|`mediumvioletred`|#c71585|
+|`midnightblue`|#191970|
+|`mintcream`|#f5fffa|
+|`mistyrose`|#ffe4e1|
+|`moccasin`|#ffe4b5|
+|`navajowhite`|#ffdead|
+|`navy`|#000080|
+|`oldlace`|#fdf5e6|
+|`olive`|#808000|
+|`olivedrab`|#6b8e23|
+|`orange`|#ffa500|
+|`orangered`|#ff4500|
+|`orchid`|#da70d6|
+|`palegoldenrod`|#eee8aa|
+|`palegreen`|#98fb98|
+|`paleturquoise`|#afeeee|
+|`palevioletred`|#db7093|
+|`papayawhip`|#ffefd5|
+|`peachpuff`|#ffdab9|
+|`peru`|#cd853f|
+|`pink`|#ffc0cb|
+|`plum`|#dda0dd|
+|`powderblue`|#b0e0e6|
+|`purple`|#800080|
+|`red`|#ff0000|
+|`rosybrown`|#bc8f8f|
+|`royalblue`|#4169e1|
+|`saddlebrown`|#8b4513|
+|`salmon`|#fa8072|
+|`sandybrown`|#f4a460|
+|`seagreen`|#00ff00|
+|`seashell`|#fff5ee|
+|`sienna`|#a0522d|
+|`silver`|#c0c0c0|
+|`skyblue`|#87ceeb|
+|`slateblue`|#6a5acd|
+|`slategray`|#708090|
+|`snow`|#fffafa|
+|`springgreen`|#00ff7f|
+|`steelblue`|#4682b4|
+|`tan`|#d2b48c|
+|`teal`|#008080|
+|`thistle`|#d8bfd8|
+|`tomato`|#ff6347|
+|`turquoise`|#40e0d0|
+|`violet`|#ee82ee|
+|`wheat`|#f5deb3|
+|`white`|#ffffff|
+|`whitesmoke`|#f5f5f5|
+|`yellow`|#ffff00|
+|`yellowgreen`|#9acd32|

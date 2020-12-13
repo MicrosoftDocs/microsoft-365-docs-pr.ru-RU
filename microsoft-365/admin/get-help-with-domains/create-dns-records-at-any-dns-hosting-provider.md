@@ -20,12 +20,12 @@ description: Узнайте, как проверить свой домен и с
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: bc22dbd3a050516f518c9ddc9ccf5a3af9c76f12
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 01fd78033afb6add41975826ed8daddf052826b2
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519297"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655604"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Добавление записей DNS для подключения своего домена
 
@@ -35,7 +35,7 @@ ms.locfileid: "49519297"
 
 Если вы не добавите домен, сотрудники вашей организации будут использовать домен onmicrosoft.com в своих адресах электронной почты до тех пор, пока вы не добавите домен. Перед добавлением пользователей важно добавить свой домен, поэтому вам не нужно было настраивать их дважды.
 
-Если вы не нашли то, что вы ищете, см. раздел [Вопросы и ответы по доменам](../setup/domains-faq.md) ниже.
+Если вы не нашли то, что вы ищете, см. раздел [Вопросы и ответы по доменам](../setup/domains-faq.yml) ниже.
 
 ## <a name="step-1-add-a-txt-or-mx-record-to-verify-you-own-the-domain"></a>Этап 1. Добавление записи типа TXT или MX для подтверждения права собственности на домен
 
