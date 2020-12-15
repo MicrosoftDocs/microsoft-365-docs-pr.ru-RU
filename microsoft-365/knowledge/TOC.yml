@@ -1,16 +1,26 @@
-- name: Приступая к работе с управлением знаниями
+- name: Начало работы с управлением знаниями
   items:
     - name: Обзор управления знаниями
       href: knowledge-management-overview.md
-    - name: Обзор центра разделов
+    - name: Обзор центра тем
       href: topic-center-overview.md
-    - name: Работать с разделами в центре разделов
+    - name: Работа с разделами в центре тем
       href: work-with-topics.md
-    - name: Предоставление пользователям разрешений на доступ к центру разделов
+    - name: Предоставить пользователям разрешения на доступ к центру тем
       href: give-user-permissions-to-the-topic-center.md
-- name: Начало работы с программой установки
+- name: Установка и администрирование
   items:
-    - name: Настройка управления знаниями
+    - name: Безопасность тем
+      href: topic-experiences-security-privacy.md
+    - name: Планирование тем
+      href: plan-topic-experiences.md
+    - name: Настройка тем
       href: set-up-topic-experiences.md
-    - name: Управление сетью управления знаниями
+    - name: Управление обнаружением тем
       href: topic-experiences-discovery.md
+    - name: Управление видимостью тем
+      href: topic-experiences-knowledge-rules.md
+    - name: Управление разрешениями для тем
+      href: topic-experiences-user-permissions.md
+    - name: Изменение имени центра тем
+      href: topic-experiences-administration.md
