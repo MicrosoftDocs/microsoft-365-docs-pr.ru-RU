@@ -1,5 +1,5 @@
 ---
-title: Утверждение или отклонение ожидающих действий за автоматическим исследованием
+title: Утверждение или отклонение ожидающих действий после автоматического исследования
 description: Используйте центр уведомлений для управления действиями, связанными с автоматизированным анализом угроз и реакцией на угрозы
 keywords: действие, центр, автоматизированный анализ угроз и реакция на угрозы, автоматизированный, анализ угроз, реакция на угрозы, исправление
 search.appverid: met150
@@ -20,31 +20,31 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 09/16/2020
-ms.openlocfilehash: ed0b9afa576f65d33cd9a49dfacd96ffaf173d28
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.date: 12/09/2020
+ms.openlocfilehash: b34f4a532571d6215500ab2bec022489fd462d0f
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846536"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683371"
 ---
-# <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Утверждение или отклонение ожидающих действий за автоматическим исследованием
+# <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Утверждение или отклонение ожидающих действий после автоматического исследования
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
 При выполнении автоматического анализа угроз может возникать одно или несколько [действий по исправлению](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions), для которых требуется утверждение. Например, может потребоваться удалить кластер сообщений электронной почты или файл из карантина. Необходимо как можно скорее утвердить (или отклонить) ожидающие выполнения действия, чтобы автоматизированный анализ угроз мог продолжить работу и своевременно завершить ее. 
 
 > [!TIP]
-> Если вы считаете, что что-то пошло не так или неправильно, с помощью функции автоматического исследования и ответа в защитнике Microsoft 365, дайте нам знать! Сведения о [том, как сообщить о ложных срабатываниях и негативах в возможностях автоматического исследования и реагирования (AIR) в защитнике Microsoft 365](mtp-autoir-report-false-positives-negatives.md).
+> Если вы считаете, что функции автоматического исследования и реагирования в Защитнике Microsoft 365 что-то было пропущено или неправильно обнаружено, дайте нам знать! Узнайте, как сообщать о ложных срабатываах и отрицательных результатах в автоматизированных исследованиях и [ответах (AIR) в Microsoft 365 Defender.](mtp-autoir-report-false-positives-negatives.md)
 
-Ожидающие действия могут быть просмотрены и утверждены с помощью [центра уведомлений](#review-a-pending-action-in-the-action-center) или [представления сведений об исследовании](#review-a-pending-action-in-the-investigation-details-view).
+Ожидающих действий можно просмотреть и утвердить с помощью Центра действий [или](#review-a-pending-action-in-the-action-center) представления [сведений об анализе.](#review-a-pending-action-in-the-investigation-details-view)
 
 > [!NOTE]
-> Чтобы утвердить или отклонить действия по исправлению, необходимы [соответствующие разрешения](mtp-action-center.md#required-permissions-for-action-center-tasks).
+> Чтобы утвердить или отклонить действия по исправлению, необходимы [соответствующие разрешения](mtp-action-center.md#required-permissions-for-action-center-tasks). Дополнительные сведения см. в предварительных условия для автоматического исследования и реагирования [в Microsoft 365 Defender.](mtp-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
 
 ## <a name="review-a-pending-action-in-the-action-center"></a>Просмотр ожидающего действия в центре уведомлений
 
@@ -62,11 +62,11 @@ ms.locfileid: "48846536"
 
 ![Сведения об анализе](../../media/mtp-air-investdetails.png)
 
-1. На странице [сведений анализа](mtp-autoir-results.md) выберите вкладку **Ожидающие действия** (или **Действия** ). Здесь перечислены элементы, ожидающие утверждения.
+1. На странице [сведений анализа](mtp-autoir-results.md) выберите вкладку **Ожидающие действия** (или **Действия**). Здесь перечислены элементы, ожидающие утверждения.
 
 2. Выберите элемент в списке, а затем выберите **утвердить** или **отклонить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Просмотр сведений и результатов автоматического исследования](mtp-autoir-results.md)
-- [Обработка ложных срабатываний/отрицательных результатов в автоматизированном расследовании и возможностях реагирования](mtp-autoir-report-false-positives-negatives.md)
+- [Обработка ложных срабатывавай и отрицательных результатов в автоматизированном расследовании и реагировании на них](mtp-autoir-report-false-positives-negatives.md)

@@ -8,6 +8,8 @@
       href: work-with-topics.md
     - name: Предоставить пользователям разрешения на доступ к центру тем
       href: give-user-permissions-to-the-topic-center.md
+    - name: Подготовьтесь к среде
+      href: topic-experiences-get-ready.md
 - name: Установка и администрирование
   items:
     - name: Безопасность тем
@@ -24,3 +26,7 @@
       href: topic-experiences-user-permissions.md
     - name: Изменение имени центра тем
       href: topic-experiences-administration.md
+- name: Внедрение
+  items:
+    - name: Начало внедрения
+      href: topics-adoption-getstarted.md

@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Узнайте о безопасных документах в Microsoft 365 E5 или Microsoft 365 E5 Security.
-ms.openlocfilehash: 0acb5d4ee0c80deebc4d0b040b046d63037037a7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 1bf802422dc05babaf5e2616468f8326b7007dc8
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659877"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682941"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Безопасные документы в Microsoft 365 E5
 
@@ -52,21 +52,21 @@ ms.locfileid: "49659877"
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Как Майкрософт обрабатывает ваши данные?
 
-Чтобы защитить вас, служба "Безопасные документы" отправляет файлы в [облако Microsoft Defender для конечных](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) точек для анализа. Подробные сведения о том, как Microsoft Defender для конечной точки обрабатывает ваши данные, можно найти здесь: Microsoft Defender для хранения данных и конфиденциальности [конечной точки.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+Для защиты безопасные документы отправляют файлы в [облако Microsoft Defender для конечных](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) точек для анализа. Подробные сведения о том, как Microsoft Defender для конечной точки обрабатывает ваши данные, можно найти здесь: Microsoft Defender для хранения данных и конфиденциальности [конечной точки.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 
 Файлы, отправленные с помощью безопасных документов, не сохраняются в Защитнике после времени, необходимого для анализа (обычно менее 24 часов).
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Использование Центра безопасности & соответствия требованиям для настройки безопасных документов
 
-1. In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP Safe Attachments,** and then click **Global settings**.
+1. В Центре безопасности & соответствия требованиям  перейдите в центр безопасных вложений ATP политики управления угрозами, а затем щелкните \>  \>  **"Глобальные параметры".**
 
 2. Во время **отлета "Глобальные** параметры" настройте следующие параметры:
 
-   - **Включив функцию**"Безопасные документы" для клиентов Office: переместите выключаель вправо, чтобы включить функцию: ![ "Включить". ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
+   - **Включив функцию**"Безопасные документы" для клиентов Office: переместите выключаель вправо, чтобы включить функцию: ![ "Включить". ](../../media/scc-toggle-on.png)
 
    - Разрешите пользователям переходить через защищенный просмотр, даже если "Безопасные документы" идентифицируют файл как вредоносный. Рекомендуется оставить этот параметр отключенным (оставьте этот параметр выключенным (оставьте этот параметр слева: "Отключить"). ![ ](../../media/scc-toggle-off.png)
 
-   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+   По завершении нажмите кнопку **Сохранить**.
 
    ![Параметры безопасных документов после выбора глобальных параметров на странице "Безопасные вложения".](../../media/safe-docs.png)
 
@@ -101,7 +101,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
   Get-AtpPolicyForO365 | Format-List *SafeDocs*
   ```
 
-- Для проверки защиты безопасных документов доступны следующие файлы. Эти документы похожи на EICAR.TXT для тестирования антивирусных и антивирусных решений. Файлы не являются вредоносными, но они запускают защиту безопасных документов.
+- Для проверки защиты безопасных документов доступны следующие файлы. Эти документы похожи на EICAR.TXT для тестирования антивирусных и антивирусных решений. Файлы не являются вредоносными, но они инициирует защиту безопасных документов.
 
   - [SafeDocsDemo.docx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.docx)
   - [SafeDocsDemo.pptx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.pptx)

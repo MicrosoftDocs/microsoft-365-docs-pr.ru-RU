@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как настроить url-адреса в списке "Разрешить или заблокировать клиента" в Центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 4bf5e2e29a9f48c434be527a2447ca4bf98c4208
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: f60e2f29bf9b880e9d2247fa59554300ae348a03
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49660002"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683215"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>Управление URL-адресами в списке разрешенных и заблокированных клиентов
 
@@ -34,13 +34,13 @@ ms.locfileid: "49660002"
 
 Список "Разрешить или заблокировать клиента" в Центре безопасности & соответствия требованиям позволяет вручную переопределять решения фильтров Microsoft 365. Список "Разрешить/заблокировать" клиента используется во время потока почты и во время нажатия пользователем. Вы можете указать URL-адреса, которые необходимо разрешить или заблокировать, в списке "Разрешить или заблокировать клиента".
 
-В этом разделе описывается настройка записей в списке разрешения и блокировки клиентов в Центре безопасности & и соответствия требованиям или в PowerShell (Exchange Online PowerShell для организаций Microsoft 365 с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без почтовых ящиков Exchange Online).
+В этом разделе описывается настройка записей в списке разрешения и блокировки клиентов в Центре безопасности и соответствия требованиям & или в PowerShell (Exchange Online PowerShell для организаций Microsoft 365 с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без почтовых ящиков Exchange Online).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на **страницу "Список заблокированных** и разрешаний клиентов", используйте <https://protection.office.com/tenantAllowBlockList> .
 
-- Доступные значения URL-адресов описаны в [синтаксисах](#url-syntax-for-the-tenant-allowblock-list) URL-адресов для раздела "Список допустимого и заблокированного клиента" далее в этой статье.
+- Доступные значения URL-адресов описаны в синтаксисах [URL-адресов](#url-syntax-for-the-tenant-allowblock-list) для раздела "Список допустимого и заблокированного клиента" далее в этой статье.
 
 - Список "Разрешить/заблокировать" клиента позволяет использовать не более 500 записей для URL-адресов.
 
@@ -54,7 +54,7 @@ ms.locfileid: "49660002"
 
 - Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в Центре безопасности и соответствия требованиям:
   - Чтобы добавить и удалить значения из списка "Разрешить или заблокировать клиента",  необходимо быть членом группы ролей "Управление организацией" или "Администратор безопасности". 
-  - Для доступа только для чтения к списку разрешаний и блокировок  клиентов необходимо быть членом группы ролей **"Глобальное** чтение" или "Читатель безопасности".
+  - Для доступа только для чтения к списку разрешаний и блокировок  клиентов необходимо быть членом группы ролей **"Глобальное** читатель" или "Читатель безопасности".
 
   Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
@@ -83,13 +83,13 @@ ms.locfileid: "49660002"
 
      или
 
-     - Чтобы настроить срок действия записей, переместите его вправо: ![Включенный переключатель](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+     - Чтобы настроить срок действия записей, переместите его вправо: ![Включенный переключатель](../../media/scc-toggle-on.png).
 
-   - **Необязательное примечание.** Введите описательный текст для записей.
+   - **Необязательное примечание.** Введите описательное текст для записей.
 
 4. По завершению нажмите кнопку **"Добавить".**
 
-## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Использование Центра безопасности & соответствия требованиям для просмотра записей в списке "Разрешить или заблокировать клиента"
+## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Просмотр запис & ей в списке "Разрешить или заблокировать" с помощью Центра безопасности и соответствия требованиям
 
 1. В Центре безопасности & соответствия требованиям  перейдите в список "Политики управления угрозами" в списке \>  \> **"Разрешить/заблокировать клиента".**
 
@@ -111,7 +111,7 @@ ms.locfileid: "49660002"
 
 - **Действие:** выберите **"Разрешить",** **"Заблокировать"** или "И то, и другое".
 
-- **Никогда не истекает:** select off ( ![ Toggle ](../../media/scc-toggle-off.png) off) or on ( ![ Toggle on ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) ).
+- **Никогда не истекает:** выключите: ![ отключите ](../../media/scc-toggle-off.png) или включите: ![ включите. ](../../media/scc-toggle-on.png)
 
 - **Last updated**: Select a start date (**From),** an end date (**To**) or both.
 
@@ -141,11 +141,11 @@ ms.locfileid: "49660002"
 
      или
 
-     - Переместите его вправо, чтобы настроить срок действия записи: ![Включенный переключатель](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+     - Переместите его вправо, чтобы настроить срок действия записи: ![Включенный переключатель](../../media/scc-toggle-on.png).
 
-   - **Необязательное примечание.** Введите описательное текст для записи.
+   - **Необязательное примечание.** Введите описательный текст для записи.
 
-5. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+5. По завершении нажмите кнопку **Сохранить**.
 
 ## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Использование Центра безопасности & соответствия требованиям для удаления записей из списка "Разрешить или заблокировать клиента"
 
@@ -167,7 +167,7 @@ ms.locfileid: "49660002"
 New-TenantAllowBlockListItems -ListType Url -Action <Allow | Block> -Entries <String[]> [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
 ```
 
-В этом примере добавляется запись блока URL-адресов для contoso.com и всех поддоменов (например, contoso.com, www.contoso.com и xyz.abc.contoso.com). Так как мы не использовали параметры ExpirationDate или NoExpiration, срок действия записи истекает через 30 дней.
+В этом примере добавляется запись блокировки URL-contoso.com всех поддоменов (например, contoso.com, www.contoso.com и xyz.abc.contoso.com). Так как мы не использовали параметры ExpirationDate или NoExpiration, срок действия записи истекает через 30 дней.
 
 ```powershell
 New-TenantAllowBlockListItem -ListType Url -Action Block -Entries ~contoso.com
@@ -225,7 +225,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 Подробные сведения о синтаксисе и параметрах см. в описании [remove-TenantAllowBlockListItems.](https://docs.microsoft.com/powershell/module/exchange/remove-tenantallowblocklistitems)
 
-## <a name="url-syntax-for-the-tenant-allowblock-list"></a>Синтаксис URL-адресов для списка допустимого или заблокированного клиента
+## <a name="url-syntax-for-the-tenant-allowblock-list"></a>Синтаксис URL-адресов для списка допустимого и заблокированного клиента
 
 - Ip4v- и IPv6-адреса разрешены, а порты TCP/UDP — нет.
 
@@ -245,7 +245,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
   Например, `contoso.com` не включает `contoso.com/a` .
 
-- В следующих сценариях допускаются поддиаными знаками (*):
+- В следующих сценариях допускается использовать поддиамографию (*):
 
   - Чтобы указать поддомен, необходимо следовать за левый поддиакон.
 
@@ -279,7 +279,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 ### <a name="url-entry-scenarios"></a>Сценарии ввода URL-адреса
 
-Допустимые url-адреса и их результаты описаны в следующих разделах.
+Допустимые URL-адреса и их результаты описаны в следующих разделах.
 
 #### <a name="scenario-no-wildcards"></a>Сценарий: поддиаными знаками не является
 
@@ -297,7 +297,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
 
-- **Блокировка совпадения:**
+- **Блокировка совпадений:**
 
   - contoso.com
   - contoso.com/a
@@ -325,7 +325,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - test.com/contoso.com
   - www.contoso.com/abc
 
-#### <a name="scenario-right-wildcard-at-top-of-path"></a>Сценарий: правый поддиа знак в верхней части пути
+#### <a name="scenario-right-wildcard-at-top-of-path"></a>Сценарий: правый под wildcard в верхней части пути
 
 **Запись:**`contoso.com/a/*`
 
@@ -358,7 +358,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - contoso.com/abc
   - www.contoso.com/abc
 
-#### <a name="scenario-right-wildcard-suffix"></a>Сценарий: правый суффикс подстановки
+#### <a name="scenario-right-wildcard-suffix"></a>Сценарий: правый суффикс с подстановными знаками
 
 **Запись:**`contoso.com/*`
 
@@ -455,7 +455,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - \*
   - \*.\*
 
-- **Поддиакаограммы среднего звена:**
+- **Средние подикаки:**
 
   - conto \* so.com
   - conto~so.com

@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5c558529360d84d5872649e41b95f509e5b52663
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 15778f076d4122b23449f66bd9781a7037c52c58
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663635"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683131"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для компьютеров, управляемых Майкрософт
 
@@ -29,7 +29,7 @@ ms.locfileid: "49663635"
 
 Клиенты могут оптимизировать свою сеть, отправив все доверенные сетевые запросы Microsoft 365 напрямую через брандмауэр или прокси-сервер, минуя проверку подлинности и все дополнительные проверки и обработки на уровне пакетов. Это сокращает время задержки и снижает требования к пропускной способности периметра. 
 
-Кроме того, для оптимизации производительности облачных служб, управляемых Майкрософт для настольных пк, эти конечные точки нуждаются в специальной обработке браузерами клиентов и устройствами в их сети. К этим устройствам относятся брандмауэры, SSL Break and Inspect, устройства проверки пакетов и системы защиты от потери данных.
+Кроме того, для оптимизации производительности облачных служб, управляемых Майкрософт на настольных компьютерах, эти конечные точки нуждаются в специальной обработке браузерами клиентов и устройствами в их сети. К этим устройствам относятся брандмауэры, SSL Break and Inspect, устройства проверки пакетов и системы защиты от потери данных.
 
 ### <a name="proxy-requirement"></a>Требование к прокси-серверу
 
@@ -44,14 +44,14 @@ URL-адрес компьютера, управляемого Майкрософ
 Служба Майкрософт  | URL-адреса, необходимые для списка разрешить 
 --- | ---
 Компьютеры, управляемые Майкрософт | prod-mwaas-services-customerapi.azurewebsites.net
-Получить справку | \*.support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
+Получить справку | \*.support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net  <br>concierge.live.com
 Быстрая помощь | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*.lync.com
 Помощник по поддержке и восстановлению (Майкрософт) | \*.apibasic.diagnostics.office.com  <br>\*.api.diagnostics.office.com
  
 
 ### <a name="endpoints-allowed-used-by-other-microsoft-products"></a>Конечные точки, разрешенные другими продуктами Майкрософт
 
-Существуют URL-адреса из нескольких продуктов Майкрософт, которые должны быть в списке разрешенных, чтобы устройства, управляемые Майкрософт, могли взаимодействовать с этими службами Майкрософт. Используйте ссылки, чтобы увидеть полный список для каждого продукта. 
+Есть URL-адреса из нескольких продуктов Майкрософт, которые должны быть в списке разрешенных, чтобы устройства, управляемые Майкрософт, могли взаимодействовать с этими службами Майкрософт. Используйте ссылки, чтобы увидеть полный список для каждого продукта. 
 
 Служба Майкрософт | Документация
 --- | ---

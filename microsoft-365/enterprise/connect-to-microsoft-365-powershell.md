@@ -26,18 +26,18 @@ ms.locfileid: "49002409"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Подключение к Microsoft 365 с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 С помощью PowerShell для Microsoft 365 можно управлять параметрами Microsoft 365 из командной строки. Для подключения к PowerShell достаточно лишь установить необходимое программное обеспечения, а затем подключиться к организации Microsoft 365.
 
 Существует две версии модуля PowerShell, которые используются для подключения к Microsoft 365 и управления учетными записями пользователей, группами и лицензиями:
 
-- Azure Active Directory PowerShell для Graph (имена командлетов содержат *AzureAD* )
-- Модуль Microsoft Azure Active Directory для Windows PowerShell (имена командлетов содержат *Msol* )
+- Azure Active Directory PowerShell для Graph (имена командлетов содержат *AzureAD*)
+- Модуль Microsoft Azure Active Directory для Windows PowerShell (имена командлетов содержат *Msol*)
 
 В настоящее время модуль Azure Active Directory PowerShell для Graph не полностью заменяет функциональность модуля Microsoft Azure Active Directory для Windows PowerShell в отношении администрирования пользователей, групп и лицензий. В некоторых случаях необходимо использовать обе версии. Вы можете безопасно установить обе версии на одном компьютере.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
 
 
 **Операционная система**
@@ -144,7 +144,7 @@ ms.locfileid: "49002409"
 
 ### <a name="how-do-you-know-it-worked"></a>Как узнать, что все прошло успешно?
 
-Если нет сообщений об ошибках, подключение успешно установлено. Для проверки запустите любой командлет Microsoft 365, например **Get-MsolUser** , и проверьте результаты.
+Если нет сообщений об ошибках, подключение успешно установлено. Для проверки запустите любой командлет Microsoft 365, например **Get-MsolUser**, и проверьте результаты.
   
 Если появится сообщение об ошибке, проверьте следующее:
   
@@ -165,11 +165,11 @@ ms.locfileid: "49002409"
   (Get-Item C:\Windows\System32\WindowsPowerShell\v1.0\Modules\MSOnline\Microsoft.Online.Administration.Automation.PSModule.dll).VersionInfo.FileVersion
   ```
 
-    Если возвращенный номер версии меньше *1.0.8070.2* , удалите модуль Microsoft Azure Active Directory для Windows PowerShell и выполните установку с [шага 1](#step-1-install-the-required-software), описанного выше.
+    Если возвращенный номер версии меньше *1.0.8070.2*, удалите модуль Microsoft Azure Active Directory для Windows PowerShell и выполните установку с [шага 1](#step-1-install-the-required-software), описанного выше.
 
-- **Если появится сообщение об ошибке подключение** , см. статью [Ошибка "Connect-MsolService: исключение типа"](https://go.microsoft.com/fwlink/p/?LinkId=532377).
+- **Если появится сообщение об ошибке подключение**, см. статью [Ошибка "Connect-MsolService: исключение типа"](https://go.microsoft.com/fwlink/p/?LinkId=532377).
     
-- **Если появляется сообщение об ошибке "Get-Item: не удается найти путь"** , выполните следующую команду:
+- **Если появляется сообщение об ошибке "Get-Item: не удается найти путь"**, выполните следующую команду:
 
 
    ```powershell
