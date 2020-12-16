@@ -8,7 +8,7 @@
       href: try-or-buy-microsoft-365.md
     - name: Продление пробной версии
       href: extend-your-trial.md
-    - name: Приобретение или изменение надстройки
+    - name: Приобретение и управление надстройками
       href: buy-or-edit-an-add-on.md
     - name: Добавление дискового пространства
       href: add-storage-space.md
@@ -56,7 +56,7 @@
       href: billing-and-payments/change-payment-method.md
     - name: Изменение частоты выставления счетов
       href: billing-and-payments/change-payment-frequency.md
-    - name: Управление профилями выставления счетов
+    - name: Общие сведения о профилях выставления счетов
       href: billing-and-payments/manage-billing-profiles.md
     - name: Изменение адресов выставления счетов
       href: billing-and-payments/change-your-billing-addresses.md

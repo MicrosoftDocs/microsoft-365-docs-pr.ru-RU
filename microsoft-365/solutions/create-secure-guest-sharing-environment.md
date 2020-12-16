@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Узнайте о доступных вариантах создания безопасной среды гостевого общего доступа в Microsoft 365, чтобы обеспечить гостевой доступ для улучшения совместной работы.
-ms.openlocfilehash: 4e2045113a6c98e2b3839a3a2cdd83105be94023
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: c52feeb8e5c85d38dfa1623ecdd7c2ee2a381fbd
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558192"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667709"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Создание безопасной среды гостевого общего доступа
 
@@ -162,7 +162,7 @@ ms.locfileid: "49558192"
 
 Для групп Microsoft 365 и Teams в подобных случаях используется политика условного доступа Azure AD. Для SharePoint настройка производится в Центре администрирования SharePoint. (Также можно и[использовать метки конфиденциальности, чтобы предоставить гостям доступ только для чтения](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).)
 
-Ограничение гостевого доступа к группам и командам: только веб-доступ
+Чтобы ограничить доступ гостей к группам и командам только веб-доступом:
 
 1. Перейдите в раздел [Политики условного доступа Azure](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade).
 2. В колонке **Условный доступ — Политики** щелкните **Новая политика**.

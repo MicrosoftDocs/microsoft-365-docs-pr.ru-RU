@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: cddbb0ef9cf48147e33b93a4a8def15576edfab5
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 02ec704e400af76c25c0eb54de10291e2ef3caa2
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655534"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688265"
 ---
 # <a name="remove-a-domain"></a>Удаление домена
 
@@ -56,7 +56,7 @@ ms.locfileid: "49655534"
 
 4. Выберите **дополнительные параметры** **(...**) в верхней части страницы и выберите **"Изменить домены".**
 
-5. В области **"Изменение доменов"** выберите другой домен.
+5. В области **"Изменить домены"** выберите другой домен.
 
 Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.
 
@@ -66,11 +66,11 @@ ms.locfileid: "49655534"
 
 1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центр администрирования</a>.  
 
-2. Выберите **"Пользователи** > **активные пользователи"**.
+2. Выбор  > **активных пользователей пользователей.**
 
 3. Выберите поля рядом с именами всех пользователей, которых нужно переместить.
 
-4. В верхней части страницы выберите **"Дополнительные** > **домены редактирования".**
+4. В верхней части страницы выберите  > **"Дополнительные домены редактирования".**
 
 5. В области **"Изменение доменов"** выберите другой домен.
   
@@ -86,7 +86,7 @@ ms.locfileid: "49655534"
 
 3. Выберите поля рядом с именами всех пользователей, которых нужно переместить.
 
-4. В верхней части страницы выберите  > **"Дополнительные домены редактирования".**
+4. В верхней части страницы выберите **"Дополнительные** > **домены редактирования".**
 
 5. В области **"Изменение доменов"** выберите другой домен.
   
@@ -108,7 +108,7 @@ ms.locfileid: "49655534"
 
 5. Во sign in with the new domain and your same password.
 
-Вы также можете использовать PowerShell для перемещения пользователей в другой домен. Дополнительные сведения см. в под названием [Set-MsolUserPrincipalName.](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) Чтобы установить домен по умолчанию, используйте [Set-MsolDomain.](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)
+Вы также можете использовать PowerShell для перемещения пользователей в другой домен. Дополнительные сведения см. в перенастройке [Set-MsolUserPrincipalName.](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) Чтобы установить домен по умолчанию, используйте [Set-MsolDomain.](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)
 
 ::: moniker-end
 
@@ -140,7 +140,7 @@ ms.locfileid: "49655534"
 
 5. Во sign in with the new domain and your same password.
 
-Вы также можете использовать PowerShell для перемещения пользователей в другой домен. Дополнительные сведения см. в под названием [Set-MsolUserPrincipalName.](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) Чтобы установить домен по умолчанию, используйте [Set-MsolDomain.](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)
+Вы также можете использовать PowerShell для перемещения пользователей в другой домен. Дополнительные сведения см. в перенастройке [Set-MsolUserPrincipalName.](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) Чтобы установить домен по умолчанию, используйте [Set-MsolDomain.](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)
 
 ::: moniker-end
 
@@ -172,7 +172,7 @@ ms.locfileid: "49655534"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">администрирования перейдите</a>на **страницу** > **"Группы** групп".
+1. В Центре <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">администрирования перейдите</a>на **страницу** > **"Группы групп".**
 
 2. Выберите имя группы, а затем выберите **"Изменить** рядом с **именем".**
 
@@ -219,7 +219,7 @@ ms.locfileid: "49655534"
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> Не удается удалить домен [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) из вашей учетной записи.
+> Не удается удалить домен [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) из вашей учетной записи. После удаления домена учетные записи пользователей будут возвращаться к адресу .onmicrosoft.com в качестве основного SMTP/UserprincipalName.
   
 Не получилось? Возможно, ваш домен необходимо удалить вручную. [Позвоните нем](../contact-support-for-business-products.md), и мы поможем вам это сделать.
   

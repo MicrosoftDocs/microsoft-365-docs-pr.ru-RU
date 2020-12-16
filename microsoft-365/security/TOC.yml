@@ -111,6 +111,8 @@
                       href: mtp/investigate-incidents.md
                     - name: Управление инцидентами
                       href: mtp/manage-incidents.md
+                - name: Получение уведомлений по электронной почте
+                  href: mtp/get-incident-notifications.md
             - name: Автоматическое исследование и реагирование
               items:
                 - name: Обзор автоматического исследования и реагирования
@@ -410,6 +412,8 @@
               href: ./office-365-security/email-validation-and-authentication.md
             - name: Предоставление пользователям доступа к Центру безопасности
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
+            - name: Рекомендации по безопасности приоритетных учетных записей
+              href: ./office-365-security/security-recommendations-for-priority-accounts.md
             - name: Безопасные документы в Defender для Office 365
               href: ./office-365-security/safe-docs.md
             - name: Настройка политик безопасных ссылок в Defender для Office 365
