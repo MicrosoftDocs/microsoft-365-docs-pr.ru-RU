@@ -119,7 +119,7 @@
                   href: mtp/mtp-autoir.md
                 - name: Настройка возможностей автоматического исследования и реагирования
                   href: mtp/mtp-configure-auto-investigation-response.md
-                - name: Действия по исправлению после автоматических исследований
+                - name: Действия по исправлению
                   href: mtp/mtp-remediation-actions.md
                 - name: Посещение Центра уведомлений
                   href: mtp/mtp-action-center.md

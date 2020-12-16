@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: c2c01278831433c02e5c869dba83f223eea57d27
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 376845d8e3657b91b9efe0357e94f4bec3a84078
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683239"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688289"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Политики, разрешающие гостевой и внешний доступ к B2B
 
@@ -44,8 +44,8 @@ ms.locfileid: "49683239"
 
 |Уровень защиты|Политики|Дополнительная информация|
 |---|---|---|
-|**Базовый уровень**|[Требовать многофаксную многофайловую многофайловую раз для гостевых и внешних пользователей](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Создайте эту новую политику и настройте: <ul><li> For **Assignments > Users and groups > Include,** choose **Select users and groups,** and then select All guest and external **users**. </li><li> Для **заданий > условий > входе** оставьте все параметры невызванными, чтобы всегда применять многофакторную проверку подлинности (MFA).</li>|
-||[Требовать многофаксную оценку, если риск при входе средний *или* *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Измените эту политику, чтобы исключить гостевых и внешних пользователей.|
+|**Базовый уровень**|[Всегда требовать многофаксную многофаксную раз для гостевых и внешних пользователей](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Создайте эту новую политику и настройте: <ul><li>For **Assignments > Users and groups > Include, choose** **Select users and groups**, and then select All guest and **external users**.</li><li>Для **заданий > условий > входе** оставьте все параметры невызванными, чтобы всегда применять многофакторную проверку подлинности (MFA).</li></ul>|
+||[Требовать многофаксную оценку, если риск при *входе* средний или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Измените эту политику, чтобы исключить гостевых и внешних пользователей.|
 ||[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Измените эту политику, чтобы исключить гостевых и внешних пользователей.|
 
 Чтобы включить или исключить гостевых и внешних пользователей в политиках **условного** доступа, для > Пользователей и групп > Включить или исключить, проверьте всех гостевых и **внешних пользователей.**
@@ -66,7 +66,7 @@ Microsoft Teams определяет следующее:
 
 Дополнительные сведения о защите политик доступа к удостоверениям и устройствам для Teams см. в рекомендациях по защите [чатов,](teams-access-policies.md) групп и файлов Teams.
 
-### <a name="require-mfa-always-for-guest-and-external-users"></a>Требовать многофаксную многофайловую многофайловую раз для гостевых и внешних пользователей
+### <a name="require-mfa-always-for-guest-and-external-users"></a>Всегда требовать многофаксную многофаксную раз для гостевых и внешних пользователей
 
 Эта политика побуждает гостей зарегистрироваться для MFA в клиенте независимо от того, зарегистрированы ли они для MFA в домашнем клиенте. При доступе к ресурсам в клиенте гостевых и внешних пользователей необходимо использовать MFA для каждого запроса.
 
