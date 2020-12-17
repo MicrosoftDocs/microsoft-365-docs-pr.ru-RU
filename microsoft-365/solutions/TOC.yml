@@ -1,5 +1,5 @@
 - name: Центр архитектуры и решений Microsoft 365
-  href: solution-architecture-center.md
+  href: index.yml
   displayName: Home
 - name: Иллюстрации архитектуры и решений
   items:
@@ -7,10 +7,10 @@
       href: productivity-illustrations.md
     - name: Модели облачной архитектуры Майкрософт
       href: cloud-architecture-models.md
+    - name: Значки и шаблоны архитектуры
+      href: architecture-icons-templates.md
 - name: Основные решения Microsoft 365
   items:
-    - name: Обзор
-      href: foundation-solutions-overview.md
     - name: "Повышение эффективности работы удаленных сотрудников с помощью Microsoft\_365"
       items:
         - name: Обзор
@@ -93,8 +93,6 @@
           href: information-protection-deploy-monitor-respond.md
 - name: Решения и сценарии для рабочей нагрузки
   items:
-    - name: Обзор
-      href: workload-solutions-scenarios-overview.md
     - name: Командная и совместная работа
       items:
         - name: Плакаты с архитектурой Teams
@@ -211,8 +209,6 @@
           href: team-security-isolation-dev-test.md
 - name: Специализированные отраслевые руководства
   items:
-    - name: Обзор
-      href: industry-specific-guidance-overview.md
     - name: Финансы
       items:
         - name: Безопасность и соответствие требованиям для финансовых услуг

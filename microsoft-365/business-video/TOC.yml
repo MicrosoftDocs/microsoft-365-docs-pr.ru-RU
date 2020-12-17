@@ -1,0 +1,159 @@
+- name: Обучение Microsoft 365 для малого бизнеса
+  href: index.yml
+  items:
+    - name: Начало работы
+      items:
+        - name: Что такое Microsoft 365
+          href: what-is-microsoft-365.md
+        - name: Обзор установки
+          href: setup-overview.md
+        - name: Выбор подписки
+          href: Choose-subscription.md
+    - name: Настройка облака
+      items:
+        - name: Подписка на регистрацию
+          href: sign-up.md
+        - name: Настройка службы
+          href: set-up.md
+        - name: Защита компьютеров с Windows 10
+          href: secure-win10-pcs.md
+        - name: Создание веб-сайта GoDaddy
+          href: create-web-site.md
+    - name: Настройка устройства
+      items:
+        - name: Обновление до Windows 10 Pro
+          href: upgrade.md
+        - name: Подключение компьютеров к Microsoft 365
+          href: connect.md
+        - name: Установка Microsoft Office приложений
+          href: install-office.md
+        - name: Настройка Outlook для работы с электронной почтой
+          href: setup-outlook.md
+        - name: Импорт и перенаправление почты
+          href: import-email.md
+        - name: Перемещение файлов в OneDrive
+          href: files-to-onedrive.md
+        - name: Перемещение файлов компании в SharePoint
+          href: files-to-sharepoint.md
+    - name: Для мобильных устройств
+      items:
+        - name: Работа из любого места
+          href: work-from-anywhere.md
+        - name: Установка приложений Office на Android
+          href: install-apps-android.md
+        - name: Установка приложений Office на iOS
+          href: install-apps-ios.md
+        - name: Получить мобильное приложение "Администратор"
+          href: admin-mobile.md
+    - name: Сотрудничество
+      items:
+        - name: Использование Outlook и Teams
+          href: collab-outlook-teams.md
+        - name: Создание адреса электронной почты группы
+          href: group-email.md
+        - name: Создание общего календаря
+          href: shared-calendar.md
+        - name: Создание команды для всей организации
+          href: org-wide-team.md
+        - name: Создание команды с гостями
+          href: team-with-guests.md
+        - name: Присоединение к команде в качестве гостя
+          href: join-team-guest.md
+        - name: Общение в чате с сотрудниками и клиентами
+          href: start-and-pin-chats.md
+        - name: Обзор собраний по сети
+          href: overview-online-meetings.md
+        - name: Запланировать собрание с гостями
+          href: schedule-guest-meeting.md
+        - name: Присоединяйтесь к собранию с гостями
+          href: join-guest-meeting.md
+    - name: Облачное хранилище
+      items:
+        - name: Обзор общего доступа
+          href: overview-file-sharing.md
+        - name: Место хранения файлов
+          href: store-files.md
+        - name: Безопасное внешнее совместное воздействие на файлы
+          href: securely-share-files-externally.md
+        - name: Простое внешнее совместное воздействие на файлы
+          href: share-files-externally.md
+    - name: Business Voice
+      items:
+        - name: Обзор business Voice
+          href: business-voice.md
+        - name: Покупка надстройки Business Voice
+          href: buy-business-voice.md
+    - name: Приложения для повышения производительности
+      items:
+        - name: Обзор Bookings
+          href: overview-bookings.md
+        - name: Планирование события
+          href: plan-event.md
+    - name: Управление службами
+      items:
+        - name: Что такое администратор
+          href: what-is-admin.md
+        - name: Обзор Центра администрирования
+          href: admin-center-overview.md
+        - name: 'Просмотр, скачивание или печать счета'
+          href: view-bill.md
+        - name: Обновление метода оплаты
+          href: update-payment.md
+        - name: Сброс паролей пользователей
+          href: reset-user-passwords.md
+        - name: Настройка самостоятельного сброса паролей
+          href: set-up-self-serve-password-reset.md
+        - name: Добавление пользователя
+          href: add-user.md
+        - name: Удалить пользователя
+          href: delete-user.md
+        - name: Добавление другого администратора
+          href: add-admin.md
+        - name: Изменение имени пользователя или сообщения электронной почты
+          href: change-user-name-email.md
+        - name: Перевод пользователей на другую подписку
+          href: change-subscription.md
+        - name: Создание подписи для всей компании
+          href: company-wide-signature.md
+        - name: Действие с отчетом об использовании
+          href: act-on-report.md
+        - name: Добавление другого домена
+          href: add-domain.md
+    - name: Управление устройствами
+      items:
+        - name: Защита устройств с Windows 10 Pro
+          href: secure-win-10-pro-devices.md
+        - name: Защита приложений Office в iOS
+          href: secure-office-on-ios.md
+    - name: Соответствие & безопасности
+      items:
+        - name: Обзор безопасности Microsoft 365 бизнес премиум
+          href: overview-m365-security.md
+        - name: Защита учетных записей сотрудников с помощью MFA
+          href: turn-on-mfa.md
+        - name: Настройка двух коэффициентов для регистрации на телефоне
+          href: set-up-mfa.md
+        - name: Включить обнаружение вредоносных программ
+          href: anti-malware.md
+        - name: Создание правил электронной почты для программ-вымогателей
+          href: prevent-ransom-in-email.md
+        - name: Остановка автоматической переададки сообщений электронной почты
+          href: stop-email-auto-forward.md
+        - name: Настройка защиты от фишинга
+          href: setup-anti-phishing.md
+        - name: Управление безопасными вложениями
+          href: safe-attachments.md
+        - name: Управление безопасными ссылками
+          href: safe-links.md
+        - name: Защита от потери данных
+          href: set-up-dlp.md
+        - name: Создание меток конфиденциальности
+          href: create-sensitivity-labels.md
+    - name: Поддержка
+      items:
+        - name: Поиск ответов и справки
+          href: find-help-answers.md
+        - name: Справка или поддержка
+          href: get-help-support.md
+        - name: Быстрая настройка сотрудников
+          href: employee-quick-setup.md

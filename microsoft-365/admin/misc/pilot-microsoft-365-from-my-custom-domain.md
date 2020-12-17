@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как протестировать пересылку электронной почты из личного домена в почтовый ящик Microsoft 365, используя всего две тестовые учетные записи.
-ms.openlocfilehash: 8bb04edc9a7879edc2094f1fed667d5956174ea3
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 6cc5b1163f666af4bd13047ab3b1fda7fd747b5f
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295038"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688221"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>Тестирование Microsoft 365 с личного домена
 
@@ -39,6 +39,8 @@ ms.locfileid: "48295038"
 - Администраторы не могут управлять всеми учетными записями пользователей из одного расположения.
 
 - Возможно, пользователи не смогут использовать фильтрацию нежелательной почты Microsoft 365.
+
+- Это рекомендуется для небольшого числа пользователей и относится только к использованию электронной почты для пилотного проекта.
 
 ## <a name="set-up-a-microsoft-365-pilot"></a>Подготовка к тестированию Microsoft 365
 
@@ -189,4 +191,3 @@ ms.locfileid: "48295038"
 
 После импорта в почтовый ящик Microsoft 365 к элементам можно будет получить доступ с любого устройства.
 
-При наличии дополнительных почтовых ящиков или если сотрудники не используют Outlook, можно воспользоваться инструментами миграции, доступными в Центре администрирования Exchange. Для этого перейдите в Центр администрирования Exchange и следуйте указаниям в статье [Перенос электронной почты с сервера IMAP в почтовые ящики Exchange Online](https://docs.microsoft.com/exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes).

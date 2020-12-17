@@ -1,0 +1,84 @@
+### YamlMime:Hub
+title: Обучение Microsoft 365 для малого бизнеса
+summary: Узнайте, как настроить Microsoft 365 для своей компании и управлять им.
+brand: m365
+metadata:
+  title: Обучение Microsoft 365 для малого бизнеса
+  description: Настройка Microsoft 365 и управление им в Центре администрирования Microsoft 365.
+  ms.service: O365-administration
+  ms.prod: microsoft-365-business
+  ms.topic: hub-page
+  author: Sirkkuw
+  ms.author: sirkkuw
+  ms.date: 12/16/2020
+  localization_priority: Priority
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: d66e3a5c56fbc6676a21ec9729d44fac64e3abe3
+  ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "49702493"
+productDirectory:
+  items:
+  - title: Начало работы
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    summary: Запланируйте переход на Microsoft 365 для бизнеса.
+    url: what-is-microsoft-365.md
+  - title: Настройка Microsoft 365 для бизнеса
+    imageSrc: https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg
+    summary: Добавление домена, добавление пользователей, настройка политик безопасности...
+    url: sign-up.md
+  - title: Настройка компьютеров
+    imageSrc: https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg
+    summary: Установка Office, настройка электронной почты, перенос файлов...
+    url: upgrade.md
+  - title: Настройка мобильных устройств
+    imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
+    summary: Установите приложения Office на мобильных устройствах.
+    url: work-from-anywhere.md
+  - title: Сотрудничество с другими людьми
+    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
+    summary: Работа с сотрудниками и клиентами в Teams.
+    url: collab-outlook-teams.md
+  - title: Хранение и совместное хранение файлов
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg
+    summary: Безопасное хранение файлов и доступ из любого места.
+    url: overview-file-sharing.md
+  - title: Настройка business Voice
+    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
+    summary: Настройка телефонной службы и видеоконференций.
+    url: business-voice.md
+  - title: Настройка бизнес-приложений
+    imageSrc: https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg
+    summary: Настройка и узнайте о Bookings, списках, задачах...
+    url: overview-bookings.md
+  - title: Управление подпиской
+    imageSrc: https://docs.microsoft.com/office/media/icons/settings.svg
+    summary: Управление пользователями, сброс паролей, просмотр счета...
+    url: what-is-admin.md
+  - title: Управление устройствами
+    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-blue.svg
+    summary: Настройка политик для личных и work устройств.
+    url: secure-win-10-pro-devices.md
+  - title: Защита компании
+    imageSrc: https://docs.microsoft.com/office/media/icons/security-blue.svg
+    summary: Настройка функций безопасности и соответствия требованиям.
+    url: overview-m365-security.md
+  - title: Получение поддержки
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-blue.svg
+    summary: Получите справку по Microsoft 365 для бизнеса.
+    url: find-help-answers.md
+additionalContent:
+  sections:
+  - title: Дополнительные сведения
+    items:
+    - title: Узнайте об Office
+      summary: Узнайте, как использовать Word, Excel, PowerPoint и другие приложения Office.
+      url: https://support.microsoft.com/training
+    - title: Переход с Google Workspace
+      summary: Узнайте, как перейти на Microsoft 365 для бизнеса.
+      url: https://support.microsoft.com/office/cff9f9fb-956e-4cb9-8b64-d7ebc1911123
+    - title: Дополнительные ресурсы для администраторов
+      summary: Перейдите на сайт справки Центра администрирования Microsoft 365.
+      url: ../admin/index.yml

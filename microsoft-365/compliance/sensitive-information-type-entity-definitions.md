@@ -17,23 +17,23 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 feedback_system: None
-description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 498ff1482bd0109903968d1c8fe250311e37a51f
-ms.sourcegitcommit: 2810d1347e5016412074b2dd18e654aee7e593de
+description: Предотвращение потери данных (DLP) в Центре соответствия требованиям безопасности включает 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от &amp; потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
+ms.openlocfilehash: cb45d613da95c977f56b82e64ad3332434e08cd8
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48819119"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698512"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
-Защита от потери данных (DLP) в центре соответствия требованиям включает множество типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип. Тип конфиденциальной информации определяется шаблоном, который можно идентифицировать регулярным выражением или функцией. Кроме того, для идентификации типа конфиденциальной информации могут использоваться подкрепляющие доказательства, такие как ключевые слова и контрольные суммы. Уровень вероятности и расположение слов и знаков также используются в процессе оценки.
+Предотвращение потери данных (DLP) в Центре соответствия требованиям включает множество типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип. Тип конфиденциальной информации определяется шаблоном, который можно идентифицировать регулярным выражением или функцией. Кроме того, для идентификации типа конфиденциальной информации могут использоваться подкрепляющие доказательства, такие как ключевые слова и контрольные суммы. Уровень вероятности и расположение слов и знаков также используются в процессе оценки.
 
-Для типов конфиденциальной информации требуется одна из следующих подписок:
+Для типов конфиденциальной информации требуется одна из этих подписок:
 - Microsoft 365 E3
 - Microsoft 365 E5
 
-## <a name="aba-routing-number"></a>Номер маршрутизации код банка ABA
+## <a name="aba-routing-number"></a>Номер маршрутки ABA
 
 ### <a name="format"></a>Format
 
@@ -41,14 +41,14 @@ ms.locfileid: "48819119"
 
 ### <a name="pattern"></a>Шаблон
 
-Форматируемые
-- четыре цифры, начинающиеся с 0, 1, 2, 3, 6, 7 или 8.
+Формат:
+- четыре цифры, начиная с 0, 1, 2, 3, 6, 7 или 8
 - дефис
 - четыре цифры
 - дефис
 - цифра
 
-Неформатированный: девять последовательных цифр, начиная с 0, 1, 2, 3, 6, 7 или 8. 
+Неформатированные: девять последовательных цифр, начиная с 0, 1, 2, 3, 6, 7 или 8 
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -82,23 +82,23 @@ ms.locfileid: "48819119"
 #### <a name="keyword_aba_routing"></a>Keyword_aba_routing
 
 - aba number
-- код банка ABA #
-- код банка ABA
-- абараутинг #
-- абараутингнумбер
-- американбанкассоЦиатионраутинг #
-- американбанкассоЦиатионраутингнумбер
-- банкраутинг #
-- банкраутингнумбер
-- включен #
-- Маршрутизация нет
-- номер маршрутизации
+- aba #
+- aba
+- abarouting #
+- abaroutingnumber
+- americanbankassociationrouting #
+- americanbankassociationroutingnumber
+- bankrouting #
+- bankroutingnumber
+- routing #
+- no routing
+- номер маршрутной маршрутки
 - routing transit number
-- включен #
-- ртн
+- routing #
+- RTN
 
 
-## <a name="argentina-national-identity-dni-number"></a>Внутренний идентификационный номер (DNI), Аргентина
+## <a name="argentina-national-identity-dni-number"></a>Номер удостоверения личности (DNI) для Аргентины
 
 ### <a name="format"></a>Format
 
@@ -108,9 +108,9 @@ ms.locfileid: "48819119"
 
 Восемь цифр:
 - две цифры
-- Необязательный период
+- необязательный период
 - три цифры
-- Необязательный период
+- необязательный период
 - три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -138,24 +138,24 @@ ms.locfileid: "48819119"
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- цедула 
-- кéдула 
-- DNI 
-- документо наЦионал де ИДЕНТИДАД 
-- документо нúмеро 
-- документо нумеро 
-- Registro наЦионал де Лас персонажи 
-- рнп 
+- cedula 
+- cédula 
+- dni 
+- documento nacional de identidad 
+- documento número 
+- documento numero 
+- registro nacional de las personas 
+- rnp 
    
 ## <a name="australia-bank-account-number"></a>Номер банковского счета для Австралии
 
 ### <a name="format"></a>Format
 
-от шести до десяти цифр со номером филиала банка или без него
+от шести до десяти цифр с номером филиала банковского состояния или без него
 
 ### <a name="pattern"></a>Шаблон
 
-Номер счета — от шести до десяти цифр.
+Номер учетной записи — от шести до десяти цифр.
 
 Номер филиала государственного банка Австралии
 - три цифры 
@@ -208,31 +208,31 @@ ms.locfileid: "48819119"
 - bank details
 - banking information
 - full names
-- иаеа
+- овсяная
 
-## <a name="australia-business-number"></a>Бизнес-номер Австралии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="australia-business-number"></a>Номер компании для Австралии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 
 ### <a name="format"></a>Format
 
-11 цифр с необязательными ограничителями
+11 цифр с необязательными делегаторами
 
 ### <a name="pattern"></a>Шаблон
 
-11 цифр с необязательными ограничителями:
+11 цифр с необязательными делегаторами:
 
 - две цифры
-- Необязательный дефис или пробел
+- необязательный дефис или пробел
 - три цифры
-- Необязательный дефис или пробел
+- необязательный дефис или пробел
 - три цифры
-- Необязательный дефис или пробел
+- необязательный дефис или пробел
 - три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -242,11 +242,11 @@ ms.locfileid: "48819119"
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_australian_business_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_australian_business_number.
+- Функция Func_australian_business_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_australian_business_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_australian_business_number находит содержимое, которое соответствует шаблону;
+- Функция Func_australian_business_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Australia Business Number -->
@@ -264,29 +264,29 @@ ms.locfileid: "48819119"
 
 #### <a name="keyword_australia_business_number"></a>Keyword_australia_business_number
 
-- Бизнес-деятельность Австралии
-- Рабочий номер
-- абн #
-- бусинессид #
-- Идентификатор бизнеса
-- абн
-- бусинессно #
+- australia business no
+- бизнес-номер
+- abn #
+- businessid #
+- business id
+- abn
+- businessno #
 
-## <a name="australia-company-number"></a>Номер компании Австралии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="australia-company-number"></a>Номер компании для Австралии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-девять цифр с разделителями
+девять цифр с делетерами
 
 ### <a name="pattern"></a>Шаблон
 
-девять цифр с разделителями:
+девять цифр с делетерами:
 
 - три цифры
 - пробел
@@ -302,11 +302,11 @@ ms.locfileid: "48819119"
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_Australian_Company_Number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_Australian_Company_Number.
+- Функция Func_Australian_Company_Number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Australian_Company_Number.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция Func_Australian_Company_Number находит содержимое, которое соответствует шаблону;
+- Функция Func_Australian_Company_Number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Australia Company Number -->
@@ -324,13 +324,13 @@ ms.locfileid: "48819119"
 
 #### <a name="keyword_australia_company_number"></a>Keyword_australia_company_number
 
-- можно
-- номер компании Австралии
-- номер компании Австралии #
-- номер компании Австралии
-- Компания No для Австралии (Австралия)
-- Компания No для Австралии (Австралия) #
-- Австралийский номер компании
+- can
+- australia company no
+- australia company no #
+- номер компании в Австралии
+- нет в австралийской компании
+- нет в австралийской компании #
+- номер компании в Австралии
 
 ## <a name="australia-drivers-license-number"></a>Номер водительского удостоверения для Австралии
 
@@ -342,18 +342,18 @@ ms.locfileid: "48819119"
 
 девять букв и цифр: 
 
-- две цифры или буквы (без учета регистра). 
+- две цифры или буквы (без чувствительность к буквам) 
 - две цифры 
-- пять цифр или букв (без учета регистра)
+- пять цифр или букв (без чувствительность к буквам)
 
 OR
 
-- один-два необязательных буквы (без учета регистра) 
-- от четырех до девяти цифр
+- от одной до двух необязательных букв (без чувствительность к букве) 
+- от четырех до девяти цифр.
 
 OR
 
-- девять цифр или букв (без учета регистра);
+- девять цифр или букв (без чувствительность к буквам)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -386,62 +386,62 @@ OR
 - international driving permits
 - australian automobile association
 - international driving permit
-- дриверлиценце
-- дриверлиценцес
+- DriverLicence
+- DriverLicences
 - Driver Lic
 - Driver Licence
 - Driver Licences
-- дриверслик
-- дриверслиценце
-- дриверслиценцес
+- DriversLic
+- DriversLicence
+- DriversLicences
 - Drivers Lic
 - Drivers Lics
 - Drivers Licence
 - Drivers Licences
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' Licence
-- Driver ' Licences
+- Driver'Lic
+- Driver'Lics
+- Driver'licence
+- Driver'Licences
 - Driver' Lic
 - Driver' Lics
 - Driver' Licence
 - Driver' Licences
-- дривер'слик
-- дривер'сликс
-- дривер'слиценце
-- дривер'слиценцес
+- Driver'sLic
+- Driver'sLics
+- Driver'sLicence
+- Driver'sLicences
 - Driver's Lic
 - Driver's Lics
 - Driver's Licence
 - Driver's Licences
-- дриверлик #
-- дриверликс #
-- дриверлиценце #
-- дриверлиценцес #
+- DriverLic #
+- DriverLics #
+- DriverLicence #
+- DriverLicences #
 - Driver Lic#
 - Driver Lics#
 - Driver Licence#
 - Driver Licences#
-- дриверслик #
-- дриверсликс #
-- дриверслиценце #
-- дриверслиценцес #
+- DriversLic #
+- DriversLics #
+- DriversLicence #
+- DriversLicences #
 - Drivers Lic#
 - Drivers Lics#
 - Drivers Licence#
 - Drivers Licences#
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' Licence #
-- Driver ' Licences #
+- Driver'Lic #
+- Driver'Lics #
+- Driver'licence #
+- Driver'Licences #
 - Driver' Lic#
 - Driver' Lics#
 - Driver' Licence#
 - Driver' Licences#
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценце #
-- дривер'слиценцес #
+- Driver'sLic #
+- Driver'sLics #
+- Driver'sLicence #
+- Driver'sLicences #
 - Driver's Lic#
 - Driver's Lics#
 - Driver's Licence#
@@ -449,41 +449,41 @@ OR
 
 #### <a name="keyword_australia_drivers_license_number_exclusions"></a>Keyword_australia_drivers_license_number_exclusions
 
-- AAA
-- дриверлиценсе
-- дриверлиценсес
+- aaa
+- DriverLicense
+- DriverLicenses
 - Driver License
 - Driver Licenses
-- дриверслиценсе
-- дриверслиценсес
+- DriversLicense
+- DriversLicenses
 - Drivers License
 - Drivers Licenses
-- Driver ' License
-- Driver ' Licenses
+- Driver'ы License
+- Driver'licenses
 - Driver' License
 - Driver' Licenses
-- дривер'слиценсе
-- дривер'слиценсес
+- Driver'sLicense
+- Driver'sLicenses
 - Driver's License
 - Driver's Licenses
-- дриверлиценсе #
-- дриверлиценсес #
+- DriverLicense #
+- DriverLicenses #
 - Driver License#
 - Driver Licenses#
-- дриверслиценсе #
-- дриверслиценсес #
+- DriversLicense #
+- DriversLicenses #
 - Drivers License#
 - Drivers Licenses#
-- Driver ' License #
-- Driver ' Licenses #
+- Driver'license #
+- Driver'licenses #
 - Driver' License#
 - Driver' Licenses#
-- дривер'слиценсе #
-- дривер'слиценсес #
+- Driver'sLicense #
+- Driver'sLicenses #
 - Driver's License#
 - Driver's Licenses#
    
-## <a name="australia-medical-account-number"></a>Номер медицинской учетной записи Австралии
+## <a name="australia-medical-account-number"></a>Номер медицинской учетной записи для Австралии
 
 ### <a name="format"></a>Format
 
@@ -492,10 +492,10 @@ OR
 ### <a name="pattern"></a>Шаблон
 
 10–11 цифр.
-- Первая цифра находится в диапазоне 2-6
-- девятая цифра — это контрольная цифра
-- Десятая цифра — это цифра, связанная с вопросом
-- Одиннадцатая цифра (необязательно) — индивидуальный номер
+- первая цифра находится в диапазоне от 2 до 6
+- девятая цифра является провероной цифрой
+- десятая цифра — это цифра проблемы
+- одиннадцатая цифра (необязательно) — это отдельный номер
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -531,10 +531,10 @@ OR
 - credit card loan
 - department of human services
 - local service
-- медикаре
+- 1
 
    
-## <a name="australia-passport-number"></a>Номер паспорта для Австралии
+## <a name="australia-passport-number"></a>Номер паспорта гражданина Австралии
 
 ### <a name="format"></a>Format
 
@@ -552,7 +552,7 @@ OR
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_australia_passport_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_passport или Keyword_australia_passport_number.
+- Находится ключевое слово Keyword_passport или Keyword_australia_passport_number.
 
 ```xml
 <!-- Australia Passport Number -->
@@ -574,38 +574,38 @@ OR
 - Passport Number
 - Passport No
 - Passport#
-- Службу #
-- пасспортид
-- пасспортно
-- пасспортнумбер
+- Passport #
+- PassportID
+- Passportno
+- passportnumber
 - パスポート
 - パスポート番号
-- パスポートのнум
+- パポк.
 - パスポート＃ 
 - Numéro de passeport
 - Passeport n °
 - Passeport Non
 - Passeport#
-- пассепорт #
-- пассепортнон
+- Passeport #
+- PasseportNon
 - Passeportn °
 
 #### <a name="keyword_australia_passport_number"></a>Keyword_australia_passport_number
 
-- службу
+- passport
 - passport details
 - immigration and citizenship
 - commonwealth of australia
 - department of immigration
 - residential address
 - department of immigration and citizenship
-- Visa
+- visa
 - national identity card
 - passport number
 - travel document
 - issuing authority
    
-## <a name="australia-tax-file-number"></a>Номер файла налога для Австралии
+## <a name="australia-tax-file-number"></a>Номер налогового файла для Австралии
 
 ### <a name="format"></a>Format
 
@@ -613,12 +613,12 @@ OR
 
 ### <a name="pattern"></a>Шаблон
 
-от восьми до девяти цифр, как правило, представляются пробелы следующим образом:
+От восьми до девяти цифр, как правило, представлены пробелами следующим образом:
 - три цифры 
-- необязательный пробел 
+- дополнительное пространство 
 - три цифры 
-- необязательный пробел 
-- две и три цифры, где последняя цифра — проверочная.
+- дополнительное пространство 
+- две-три цифры, где последняя цифра является провероной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -653,14 +653,13 @@ OR
 - withholding tax
 - individual tax return
 - tax file number
-- тфн
+- tfn
 
-## <a name="austria-drivers-license-number"></a>Номер водительского удостоверения для Австрии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="austria-drivers-license-number"></a>Номер водительского удостоверения для Австрия
 
 ### <a name="format"></a>Format
 
-восемь цифр без пробелов и разделителей
+восемь цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -675,7 +674,7 @@ OR
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_austria_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_austria_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_austria_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Austria Driver's License Number -->
@@ -692,155 +691,155 @@ OR
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_austria_eu_drivers_license_number"></a>Keywords_austria_eu_driver "s_license_number
+#### <a name="keywords_austria_eu_drivers_license_number"></a>Keywords_austria_eu_driver s_license_number
 
-- фухрерсчеин
-- фüхрерсчеин
-- фüхрерсчеине
-- фüхрерсчеиннуммер
-- фüхрерсчеиннуммерн
+- fuhrerschein
+- fhrerschein
+- Fhrerscheine
+- Fhrerscheinnummer
+- Fhrerscheinnummern
 
-## <a name="austria-identity-card"></a>Австрийская идентификационная карточка
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="austria-identity-card"></a>Удостоверение личности для Австрия
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-24 – символическое сочетание букв, цифр и специальных символов;
+24-значное сочетание букв, цифр и специальных символов
   
 ### <a name="pattern"></a>Шаблон
 
 24 символа:
   
--  22 буквы (без учета регистра), цифры, обратные косые черты, косые черты и знаки плюса 
+-  22 буквы (без чувствительность к буквам), цифры, косые черты, косые черты или знаки плюса 
     
-- две буквы (без учета регистра), цифры, обратные косые черты, знаки косой черты, знаки плюса и знаки равенства.
+- две буквы (без чувствительность к буквам), цифры, косые черты, косые черты, знаки плюс или знаки равного знака
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -851,7 +850,7 @@ OR
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_austria_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_austria_eu_national_id_card` . 
+- Найдено ключевое  `Keywords_austria_eu_national_id_card` слово. 
    
 ```xml
       <!-- Austria Identity Card -->
@@ -867,12 +866,12 @@ OR
 
 #### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
-- идентификационный номер
+- идентификациный номер
 - national id
-- персоналаусвеис Републик öстерреич
+- personalausweis repubich österreich
 
-## <a name="austria-passport-number"></a>Номер паспорта для Австрии
-Этот объект типа конфиденциальной информации доступен только в типе сенситивеинформатион Passport Number.
+## <a name="austria-passport-number"></a>Номер паспорта гражданина Австрия
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
@@ -882,8 +881,8 @@ OR
 
 Сочетание одной буквы, семи цифр и одного пробела:
   
-- одна буква (без учета регистра)
-- один пробел (необязательно)
+- одна буква (без чувствительность к букве)
+- одно пространство (необязательно)
 - семь цифр
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -894,7 +893,7 @@ OR
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_austria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_austria_eu_passport_number` . 
+- Найдено ключевое  `Keywords_austria_eu_passport_number` слово. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -913,29 +912,29 @@ OR
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_austria_eu_passport_number"></a>Keywords_austria_eu_passport_number
 
-- реисепасснуммер
-- реисепассе
+- reisepassnummer
+- reisepasse
 - No-Reisepass 
 - Nr-Reisepass
 - Reisepass-Nr
-- пасснуммер
-- реисепäссе
+- Passnummer
+- reisepгsse
 
-## <a name="austria-social-security-number-or-equivalent-identification"></a>Австрийский номер социального страхования или эквивалентная идентификация
-Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
+## <a name="austria-social-security-number-or-equivalent-identification"></a>Номер социального обеспечения для Австрия или эквивалентная идентификация
+Этот объект типа конфиденциальной информации доступен только в номере социального обеспечения ЕС или типе конфиденциальной информации эквивалентного ИД.
 
 ### <a name="format"></a>Format
 
@@ -945,9 +944,9 @@ OR
 
 10 цифр:
   
-- три цифры, соответствующие серийному номеру. 
+- три цифры, соответствующие серийному номеру 
 - одна контрольная цифра
-- шесть цифр, соответствующих дате рождения (ДДММГГ —)
+- шесть цифр, соответствующих дате рождения (ДДММАЙ)
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -957,11 +956,11 @@ OR
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция "Func_austria_eu_
-- _or_equivalent ' находит содержимое, которое соответствует шаблону; 
-- Найдено ключевое слово FROM  `Keywords_austria_eu_ssn_or_equivalent` . 
+- _or_equivalent' находит содержимое, которое соответствует шаблону. 
+- находится ключевое слово  `Keywords_austria_eu_ssn_or_equivalent` из. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_austria_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_austria_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -980,29 +979,29 @@ OR
 
 #### <a name="keywords_austria_eu_ssn_or_equivalent"></a>Keywords_austria_eu_ssn_or_equivalent
 
-- социальное страхование нет
+- social security no
 - social security number
 - social security code
 - страховой номер
-- Австрийский SSN
-- SSN #
-- SSN
-- код страхования
-- код страхования #
-- соЦиалсекуритино #
-- созиалверсичерунгснуммер
-- созиале сичерхеит Кеин
-- версичерунгснуммер
+- ssn
+- ssn #
+- ssn
+- страховой код
+- страховой код #
+- socialsecurityno #
+- sozialversicherungsnummer
+- soziale sicherheit kein
+- versicherungsnummer
 
-## <a name="austria-tax-identification-number"></a>Налоговый идентификационный номер для Австрии
+## <a name="austria-tax-identification-number"></a>Идентификационный номер налога для Австрия
 
 ### <a name="format"></a>Format
 
-девять цифр с необязательным дефисом и косой чертой.
+девять цифр с необязательным дефишем и косой чертой
   
 ### <a name="pattern"></a>Шаблон
 
-девять цифр с необязательным дефисом и косой чертой.
+девять цифр с необязательным дефишем и косой чертой:
   
 - две цифры
 - дефис (необязательно)
@@ -1017,11 +1016,11 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_austria_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_austria_eu_tax_file_number` . 
+- Функция находит  `Func_austria_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_austria_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция  `Func_austria_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_austria_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Austria Tax Identification Number -->
@@ -1040,52 +1039,52 @@ OR
 
 #### <a name="keywords_austria_eu_tax_file_number"></a>Keywords_austria_eu_tax_file_number
 
-- öстерреич
+- österreich
 - st.nr.
-- стеуернуммер
+- steuernummer
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- Налоговый номер
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- ыdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
+- налоговый номер
  
-## <a name="austria-value-added-tax"></a>Налог на добавленную стоимость (Австрия)
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="austria-value-added-tax"></a>Налог на добавленную стоимость для Австрия
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-11-буквенно-буквенно-буквенный шаблон
+11-символьный буквонумерный шаблон
 
 ### <a name="pattern"></a>Шаблон
 
-11-буквенно-цифровой буквенно-значный шаблон:
+11-символьный буквонумерный шаблон:
 
 - A или a
 - T или t
-- Необязательный пробел
+- Дополнительное пространство
 - U или u
-- необязательный пробел
+- дополнительное пространство
 - две или три цифры
-- необязательный пробел
+- дополнительное пространство
 - четыре цифры
-- необязательный пробел
+- дополнительное пространство
 - одна или две цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -1095,11 +1094,11 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_Austria_Value_Added_Tax находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_Austria_Value_Added_Tax.
+- Функция Func_Austria_Value_Added_Tax находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Austria_Value_Added_Tax.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_Austria_Value_Added_Tax находит содержимое, которое соответствует шаблону;
+- Функция Func_Austria_Value_Added_Tax находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Austria Value Added Tax -->
@@ -1117,36 +1116,36 @@ OR
 
 #### <a name="keyword_austria_value_added_tax"></a>Keyword_austria_value_added_tax
 
-- номер НДС
-- процент #
-- Австрийский номер НДС
-- НДС номер
-- ватно #
-- Налоговый номер добавленной стоимости
-- Австрийский НДС
-- мвст
-- умсатзстеуернуммер
-- мвстнуммер
-- уст. идентификатионснуммер
-- умсатзстеуер — идентификатионснуммер
-- идентификационный номер НДС
-- номер Ату
-- UID Number
+- номер плательщика НДС
+- vat #
+- номер плательщика НДС
+- vat no.
+- vatno #
+- номер налога на добавленную стоимость
+- vat
+- mwst
+- umsatzsteuernummer
+- mwstnummer
+- ust.-identifikationsnummer
+- umsatzsteuer-identifikationsnummer
+- идентификационный номер плательщика НДС
+- atu number
+- UID-номер
 
 
-## <a name="azure-documentdb-auth-key"></a>Ключ проверки подлинности Azure DocumentDB
+## <a name="azure-documentdb-auth-key"></a>Ключ проверки auth Azure DocumentDB
 
 ### <a name="format"></a>Format
 
-Строка "DocumentDb", за которой следуют символы и строки, описанные в приведенном ниже шаблоне.
+Строка DocumentDb, за которой следуют символы и строки, описанные в шаблоне ниже.
 
 ### <a name="pattern"></a>Шаблон
 
-- Строка "DocumentDb"
-- Любая комбинация из 3-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- Символ "больше" (>), знак равенства (=), кавычки (") или апостроф (')
-- Любая комбинация 86 строчных или прописных букв, цифр, символов косой черты (/) или знака плюса (+).
-- Два знака равенства (=)
+- Строка DocumentDb
+- Любое сочетание от 3 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- Больше символа (>), знака равного (=), кавычка (") или апостроф (')
+- Любое сочетание 86 букв нижнего или верхнего регистра, цифр, косой черты (/) или знака плюса (+)
+- Два знака равного (=)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1155,8 +1154,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzureDocumentDBAuthKey находит содержимое, которое соответствует шаблону;
-- Регулярное выражение CEP_CommonExampleKeywords не **находит содержимое** , которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureDocumentDBAuthKey находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
 ```xml
 <!-- Azure Document DB Auth Key -->
@@ -1174,39 +1173,39 @@ OR
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- компанией
-- компании
-- базу
-- песочниц
-- онебокс
+- contoso
+- fabrikam
+- northwind
+- песочница
+- onebox
 - localhost
 - 127.0.0.1
-- тестакс.<!--no-hyperlink-->порта
-- s — int.<!--no-hyperlink-->команде
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>Строка подключения к базе данных Azure IAAS и строка подключения к SQL Azure
+## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>Строка подключения к базе данных Azure IAAS и строка подключения Azure SQL Azure
 
 ### <a name="format"></a>Format
 
-Строка "Server", "Server" или "Data Source", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строку "клаудапп. Azure".<!--no-hyperlink-->com "или" клаудапп. Azure.<!--no-hyperlink-->NET "или" Database. Windows.<!--no-hyperlink-->NET ", а также строку" Password "или" Password "или" pwd ".
+Строка "Server", "server" или "data source", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, включая строку "cloudapp.azure".<!--no-hyperlink-->com или cloudapp.azure.<!--no-hyperlink-->net" или "database.windows.<!--no-hyperlink-->net и строку "Password", "password" или "pwd".
 
 ### <a name="pattern"></a>Шаблон
 
-- строка "Server", "Server" или "Data Source"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- Строка "клаудапп. Azure.<!--no-hyperlink-->com "," клаудапп. Azure.<!--no-hyperlink-->NET "или" Database. Windows.<!--no-hyperlink-->команде
-- Любая комбинация из 1-300 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- строка "Password", "Password" или "pwd"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- один или несколько символов, не отделяющая точку с запятой (;), кавычки (") или апостроф (')
-- точка с запятой (;), кавычки (") или апостроф (')
+- строка "Сервер", "сервер" или "источник данных"
+- от нуля до двух символов из белого пространства
+- знак равного (=)
+- от нуля до двух символов из белого пространства
+- любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- Строка "cloudapp.azure.<!--no-hyperlink-->com, "cloudapp.azure.<!--no-hyperlink-->net или database.windows.<!--no-hyperlink-->net"
+- любое сочетание от 1 до 300 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- строка "Password", "password" или "pwd"
+- от нуля до двух символов из белого пространства
+- знак равного (=)
+- от нуля до двух символов из белого пространства
+- один или несколько символов, которые не являются пустяковой (;), кавычка (") или апостроф (')
+- точка с зачетом (;), кавычка (") или апостроф (')
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1215,8 +1214,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzureConnectionString находит содержимое, которое соответствует шаблону;
-- Регулярное выражение CEP_CommonExampleKeywords не **находит содержимое** , которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureConnectionString находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
 ```xml
 <!--Azure IAAS Database Connection String and Azure SQL Connection String-->
@@ -1234,39 +1233,39 @@ OR
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- компанией
-- компании
-- базу
-- песочниц
-- онебокс
+- contoso
+- fabrikam
+- northwind
+- песочница
+- onebox
 - localhost
 - 127.0.0.1
-- тестакс.<!--no-hyperlink-->порта
-- s — int.<!--no-hyperlink-->команде
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
 ## <a name="azure-iot-connection-string"></a>Строка подключения Azure IoT
 
 ### <a name="format"></a>Format
 
-Строка "HostName", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, включая строки "Azure — Devices.<!--no-hyperlink-->NET "и" Шаредакцесскэй ".
+Строка HostName, за которой следуют символы и строки, описанные в приведенном ниже шаблоне, включая строки "azure-devices".<!--no-hyperlink-->net" и "SharedAccessKey".
 
 ### <a name="pattern"></a>Шаблон
 
 - строка "HostName"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- строка "Azure — Devices.<!--no-hyperlink-->команде
-- Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- строка "Шаредакцесскэй"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- Любая комбинация 43 строчных или прописных букв, цифр, символов косой черты (/) или знака плюса (+).
-- знак равенства (=);
+- от нуля до двух символов в белом пространстве
+- знак равного (=)
+- от нуля до двух символов из белого пространства
+- любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- строка "azure-devices.<!--no-hyperlink-->net"
+- любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- строка "SharedAccessKey"
+- от нуля до двух символов из белого пространства
+- знак равного (=)
+- от нуля до двух символов из белого пространства
+- любое сочетание 43 букв нижнего или верхнего регистра, цифр, косой черты (/) или знака плюса (+)
+- знак равного (=)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1275,8 +1274,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzureIoTConnectionString находит содержимое, которое соответствует шаблону;
-- Регулярное выражение CEP_CommonExampleKeywords не **находит содержимое** , которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureIoTConnectionString находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
 ```xml
 <!--Azure IoT Connection String-->
@@ -1294,29 +1293,29 @@ OR
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- компанией
-- компании
-- базу
-- песочниц
-- онебокс
+- contoso
+- fabrikam
+- northwind
+- песочница
+- onebox
 - localhost
 - 127.0.0.1
-- тестакс.<!--no-hyperlink-->порта
-- s — int.<!--no-hyperlink-->команде
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-publish-setting-password"></a>Пароль для параметра публикации Azure
+## <a name="azure-publish-setting-password"></a>Пароль параметра публикации Azure
 
 ### <a name="format"></a>Format
 
-Строка "усерпвд =", за которой следует буквенно-цифровая строка.
+Строка "userpwd=", за которой следует букво-цифровая строка.
 
 ### <a name="pattern"></a>Шаблон
 
-- строка "усерпвд ="
-- Любая комбинация букв или цифр в нижнем регистре 60
-- знак кавычек (")
+- строка "userpwd="
+- любая комбинация из 60 строчная букв или цифр
+- кавычка ("")
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1325,8 +1324,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzurePublishSettingPasswords находит содержимое, которое соответствует шаблону;
-- Регулярное выражение CEP_CommonExampleKeywords не **находит содержимое** , которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzurePublishSettingPasswords находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
 
 ```xml
@@ -1345,34 +1344,34 @@ OR
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- компанией
-- компании
-- базу
-- песочниц
-- онебокс
+- contoso
+- fabrikam
+- northwind
+- песочница
+- onebox
 - localhost
 - 127.0.0.1
-- тестакс.<!--no-hyperlink-->порта
-- s — int.<!--no-hyperlink-->команде
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-redis-cache-connection-string"></a>Строка подключения к кэшу Azure Redis
+## <a name="azure-redis-cache-connection-string"></a>Строка подключения кэша Azure Redis
 
 ### <a name="format"></a>Format
 
-Строка "Redis. Cache. Windows.<!--no-hyperlink-->NET, за которыми следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строку "Password" или "pwd".
+Строка redis.cache.windows.<!--no-hyperlink-->net, за которыми следуют символы и строки, описанные в приведенной ниже схеме, включая строку "password" или "pwd".
 
 ### <a name="pattern"></a>Шаблон
 
-- строка "Redis. Cache. Windows.<!--no-hyperlink-->команде
-- Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- строка "Password" или "pwd"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- любое сочетание 43 символов, которые представляют собой буквы нижнего или верхнего регистра, цифры, косую черту (/) или знак плюса (+).
-- знак равенства (=);
+- строка redis.cache.windows.<!--no-hyperlink-->net"
+- любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- строка "password" или "pwd"
+- от нуля до двух символов в белом пространстве
+- знак равного (=)
+- от нуля до двух символов в белом пространстве
+- любое сочетание 43 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком "плюс" (+)
+- знак равного (=)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1381,8 +1380,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzureRedisCacheConnectionString находит содержимое, которое соответствует шаблону..
-- Регулярное выражение CEP_CommonExampleKeywords не **находит содержимое** , которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureRedisCacheConnectionString находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
 ```xml
 <!--Azure Redis Cache Connection String-->
@@ -1400,32 +1399,32 @@ OR
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- компанией
-- компании
-- базу
-- песочниц
-- онебокс
+- contoso
+- fabrikam
+- northwind
+- песочница
+- onebox
 - localhost
 - 127.0.0.1
-- тестакс.<!--no-hyperlink-->порта
-- s — int.<!--no-hyperlink-->команде
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-sas"></a>SAS Azure
+## <a name="azure-sas"></a>Azure SAS
 
 ### <a name="format"></a>Format
 
-Строка "SIG", за которой следуют символы и строки, описанные в приведенном ниже шаблоне.
+Строка "sig", за которой следуют символы и строки, описанные в шаблоне ниже.
 
 ### <a name="pattern"></a>Шаблон
 
-- строка "SIG"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- любое сочетание 43-53 символов, которые являются буквами нижнего или верхнего регистра, цифрами или знаком процента (%)
-- строка "% 3D"
+- строка "sig"
+- от нуля до двух символов в белом пространстве
+- знак равного (=)
+- от нуля до двух символов в белом пространстве
+- любое сочетание между 43–53 символами, которые являются буквами нижнего или верхнего регистра, цифрами или знаком процента (%)
+- строка "%3d"
 - любой символ, который не является буквой нижнего или верхнего регистра, цифрой или знаком процента (%)
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -1435,7 +1434,7 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzureSAS находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_Regex_AzureSAS находит содержимое, которое соответствует шаблону.
 
 ```xml
 <!--Azure SAS-->
@@ -1446,27 +1445,27 @@ OR
 </Entity>
 ```
 
-## <a name="azure-service-bus-connection-string"></a>Строка подключения к служебной шине Azure
+## <a name="azure-service-bus-connection-string"></a>Строка подключения к шине обслуживания Azure
 
 ### <a name="format"></a>Format
 
-Строка "EndPoint", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строки "сервицебус. Windows.<!--no-hyperlink-->NET "и" Шаредакцескэй ".
+Строка "EndPoint", за которой следуют символы и строки, описанные в приведенной ниже схеме, включая строки "servicebus.windows".<!--no-hyperlink-->net" и "SharedAccesKey".
 
 ### <a name="pattern"></a>Шаблон
 
 - строка "EndPoint"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- строка "сервицебус. Windows.<!--no-hyperlink-->команде
-- Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- строка "Шаредакцесскэй"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- любое сочетание 43 символов, которые представляют собой буквы нижнего или верхнего регистра, цифры, косую черту (/) или знак плюса (+).
-- знак равенства (=);
+- от нуля до двух символов из белого пространства
+- знак равного (=)
+- от нуля до двух символов в белом пространстве
+- любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- строка "servicebus.windows.<!--no-hyperlink-->net"
+- любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- строка "SharedAccessKey"
+- от нуля до двух символов из белого пространства
+- знак равного (=)
+- от нуля до двух символов из белого пространства
+- любое сочетание 43 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком "плюс" (+)
+- знак равного (=)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1475,8 +1474,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzureServiceBusConnectionString находит содержимое, которое соответствует шаблону..
-- Регулярное выражение CEP_CommonExampleKeywords не **находит содержимое** , которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureServiceBusConnectionString находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
 ```xml
 <!--Azure Service Bus Connection String-->
@@ -1494,37 +1493,37 @@ OR
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- компанией
-- компании
-- базу
-- песочниц
-- онебокс
+- contoso
+- fabrikam
+- northwind
+- песочница
+- onebox
 - localhost
 - 127.0.0.1
-- тестакс.<!--no-hyperlink-->порта
-- s — int.<!--no-hyperlink-->команде
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-storage-account-key"></a>Ключ учетной записи хранилища Azure
+## <a name="azure-storage-account-key"></a>Ключ учетной записи хранения Azure
 
 ### <a name="format"></a>Format
 
-Строка "Дефаултендпоинтспротокол", за которой следуют символы и строки, описанные в приведенном ниже шаблоне, в том числе строку "AccountKey".
+Строка "DefaultEndpointsProtocol", за которой следуют символы и строки, описанные в приведенной ниже схеме, включая строку AccountKey.
 
 ### <a name="pattern"></a>Шаблон
 
-- строка "Дефаултендпоинтспротокол"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- строка "AccountKey"
-- ноль — два символа пробела
-- знак равенства (=);
-- ноль — два символа пробела
-- любое сочетание 86 символов, которые представляют собой буквы нижнего или верхнего регистра, цифры, косую черту (/) или знак плюса (+).
-- два знака равенства (=)
+- строка "DefaultEndpointsProtocol"
+- от нуля до двух символов в белом пространстве
+- знак равного (=)
+- от нуля до двух символов из белого пространства
+- любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- строка AccountKey
+- от нуля до двух символов в белом пространстве
+- знак равного (=)
+- от нуля до двух символов в белом пространстве
+- любое сочетание 86 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком плюса (+)
+- два знака равного (=)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1533,9 +1532,9 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzureStorageAccountKey находит содержимое, которое соответствует шаблону;
-- Регулярное выражение CEP_AzureEmulatorStorageAccountFilter не **находит содержимое** , которое соответствует шаблону.
-- Регулярное выражение CEP_CommonExampleKeywords не **находит содержимое** , которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_AzureStorageAccountKey находит содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_AzureEmulatorStorageAccountFilter **не находит** содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
 ```xml
 <!--Azure Storage Account Key-->
@@ -1554,35 +1553,35 @@ OR
 
 #### <a name="cep_azure_emulator_storage_account_filter"></a>CEP_azure_emulator_storage_account_filter
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/Кбхбексогмгв = =
+- Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==
 
 #### <a name="cep_common_example_keywords"></a>CEP_common_example_keywords
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- компанией
-- компании
-- базу
-- песочниц
-- онебокс
+- contoso
+- fabrikam
+- northwind
+- песочница
+- onebox
 - localhost
 - 127.0.0.1
-- тестакс.<!--no-hyperlink-->порта
-- s — int.<!--no-hyperlink-->команде
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="azure-storage-account-key-generic"></a>Ключ учетной записи хранилища Azure (общий)
+## <a name="azure-storage-account-key-generic"></a>Ключ учетной записи хранилища Azure (универсальный)
 
 ### <a name="format"></a>Format
 
-Любая комбинация 86 строчных или прописных букв, цифр, знаков косой черты (/) или знака плюса (+) перед или за ними следуют символы, указанные в приведенном ниже шаблоне.
+Любое сочетание 86 букв нижнего или верхнего регистра, цифр, косой черты (/) или знака плюса (+), предшествующего или за которым следуют символы, описанные в приведенном ниже шаблоне.
 
 ### <a name="pattern"></a>Шаблон
 
-- ноль к одному символу "больше" (>), апостроф ('), знак равенства (=), кавычки (") или решетку (#)
-- любое сочетание 86 символов, которые представляют собой буквы в нижнем или верхнем регистре, цифры, косую черту (/) или знак плюса (+).
-- два знака равенства (=)
+- от нуля до одного из символов больше чем (>), апострофа ('), знака равного (=), кавычка (") или знака числа (#)
+- любое сочетание 86 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком "плюс" (+)
+- два знака равного (=)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1591,7 +1590,7 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_AzureStorageAccountKeyGeneric находит содержимое, которое соответствует шаблону;
+- Регулярное выражение CEP_Regex_AzureStorageAccountKeyGeneric находит содержимое, которое соответствует шаблону.
 
 ```xml
 <!--Azure Storage Account Key (Generic)-->
@@ -1601,12 +1600,11 @@ OR
   </Pattern>
 </Entity>
 ```
-## <a name="belgium-drivers-license-number"></a>Номер водительского удостоверения для бельгийского драйвера
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="belgium-drivers-license-number"></a>Номер водительского удостоверения для Бельгии
 
 ### <a name="format"></a>Format
 
-десять цифр без пробелов и разделителей
+десять цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -1620,7 +1618,7 @@ OR
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_belgium_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM `Keywords_eu_driver's_license_number` или `Keywords_belgium_eu_driver's_license_number` .
+- Ключевое слово `Keywords_eu_driver's_license_number` из или `Keywords_belgium_eu_driver's_license_number` найдено.
     
 ```xml
       <!-- Belgium Driver's License Number -->
@@ -1638,155 +1636,155 @@ OR
 ### <a name="keywords"></a>Ключевые слова
 
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- управление лицензиями
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
-#### <a name="keywords_belgium_eu_drivers_license_number"></a>Keywords_belgium_eu_driver "s_license_number
+#### <a name="keywords_belgium_eu_drivers_license_number"></a>Keywords_belgium_eu_driver s_license_number
 
-- рижбевижс
-- рижбевижснуммер
-- фüхрерсчеин
-- фüхрерсчеиннуммер
-- фüехрерсчеиннуммер
-- фухрерсчеин
-- фуехрерсчеин
-- фухрерсчеиннуммер
-- фуехрерсчеиннуммер
+- rijbewijs
+- rijbewijsnummer
+- fhrerschein
+- fhrerscheinnummer
+- füehrerscheinnummer
+- fuhrerschein
+- fuehrerschein
+- fuhrerscheinnummer
+- fuehrerscheinnummer
 - permis de conduire
-- нумéро разрешение кондуире
+- numéro permis conduire
 
 
-## <a name="belgium-national-number"></a>Бельгийский национальный номер
+## <a name="belgium-national-number"></a>Национальный номер для Бельгии
 
 ### <a name="format"></a>Format
 
-11 цифр, а также необязательные разделители
+11 цифр, а также необязательные селитари
 
 ### <a name="pattern"></a>Шаблон
 
 11 цифр, а также разделители:
-- шесть цифр и две дополнительные точки в формате гг. Мм. DD для даты рождения 
-- Необязательный разделитель из точки, тире, пробела 
-- три последовательные цифры (нечетные для мужчин, даже для женщин). 
-- Необязательный разделитель из точки, тире, пробела 
+- шесть цифр и два необязательных периода в формате YY. MM.DD для даты рождения 
+- Необязательный выбор точки, тире, пробела 
+- три последовательной цифры (нечетные для самцов, даже для самок) 
+- Необязательный выбор точки, тире, пробела 
 - две контрольные цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -1821,73 +1819,73 @@ OR
 
 #### <a name="keyword_belgium_national_number"></a>Keyword_belgium_national_number
 
-- аантал
-- бнн #
-- бнн
-- д'идентитé корзины
-- Идентификация National
-- идентифиантнатионал #
-- идентификатие
-- процедура
-- идентификатион
-- идентификатионснуммер
-- идентифизиерунг
-- идентитé
-- идентитеит
-- идентитеитскаарт
-- хищения
-- инскриптион
-- номер страны
-- Национальный регистр
-- натионалнумбер #
-- натионалнумбер
-- включена #
-- включена
-- нумéро д'ассурé
-- нумéро de регистре National
+- belasting aantal
+- bnn #
+- bnn
+- carte d'identité
+- identifiant national
+- identifiantnational #
+- identificatie
+- identification
+- identifikation
+- identifikationsnummer
+- identifizierung
+- identité
+- identiteit
+- identiteitskaart
+- identity
+- 2016
+- national number
+- national register
+- nationalnumber #
+- nationalnumber
+- nif #
+- nif
+- numéro d'assuré
+- numéro de registre national
 - numéro de sécurité
 - numéro d'identification
 - numéro d'immatriculation
-- Национальный нумéро
-- нумéронатионал #
-- личный идентификационный номер
-- персоналаусвеис
-- персоналиднумбер #
-- регистратие
-- зарегистрировал
-- регистратионснумме
-- регистриерунг
+- numéro national
+- numéronational #
+- личный номер
+- personalausweis
+- personalidnumber #
+- registratie
+- registration
+- registrationsnumme
+- registrierung
 - social security number
-- SSN #
-- SSN
-- стеуернуммер
+- ssn #
+- ssn
+- steuernummer
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
-## <a name="belgium-passport-number"></a>Номер паспорта Бельгии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="belgium-passport-number"></a>Номер паспорта гражданина Бельгии
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-две буквы, за которыми следуют шесть цифр без пробелов и разделителей
+две буквы, за которыми следуют шесть цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
-две буквы, за которыми следуют шесть цифр.
+две буквы, за которыми следуют шесть цифр
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1897,7 +1895,7 @@ OR
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_belgium_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_belgium_eu_passport_number` .
+- Найдено ключевое  `Keywords_belgium_eu_passport_number` слово.
 
 ```xml
  <!-- EU Passport Number -->
@@ -1916,36 +1914,36 @@ OR
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_belgium_eu_passport_number"></a>Keywords_belgium_eu_passport_number
 
-- нумéро пассепорт
-- паспурт НР
-- паспурт — НР
-- паспуртнуммер
-- паспуртнуммерс
-- Корзина пассепорт
-- Пассепорт ливре
+- numéro passeport
+- paspoort nr
+- paspoort-nr
+- paspoortnummer
+- paspoortnummers
+- Карт-порт
+- Livre Passeport
 - Pass-Nr
-- пасснуммер
-- реисепасс Кеин
+- Passnummer
+- reisepass kein
 
-## <a name="belgium-social-security-number-or-equivalent-identification"></a>Бельгийский номер социального страхования или идентификатор эквивалентной идентификации
-Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
+## <a name="belgium-social-security-number-or-equivalent-identification"></a>Номер социального обеспечения в Бельгии или эквивалентная идентификация
+Этот объект типа конфиденциальной информации доступен только в номере социального обеспечения ЕС или типе конфиденциальной информации эквивалентного ИД.
 
 ### <a name="format"></a>Format
 
-11 цифр без пробелов и разделителей
+11 цифр без пробелов или селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -1959,11 +1957,11 @@ OR
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_belgium_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_belgium_eu_ssn_or_equivalent` . 
+- Функция находит  `Func_belgium_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_belgium_eu_ssn_or_equivalent` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_belgium_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_belgium_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -1982,48 +1980,48 @@ OR
 
 #### <a name="keywords_belgium_eu_ssn_or_equivalent"></a>Keywords_belgium_eu_ssn_or_equivalent
 
-- Бельгийский национальный номер
-- номер страны
+- national number
+- national number
 - social security number
-- натионалнумбер #
-- SSN #
-- SSN
-- натионалнумбер
-- бнн #
-- бнн
-- личный идентификационный номер
-- персоналиднумбер #
-- Национальный нумéро
+- nationalnumber #
+- ssn #
+- ssn
+- nationalnumber
+- bnn #
+- bnn
+- личный номер
+- personalidnumber #
+- numéro national
 - numéro de sécurité
-- нумéро д'ассурé
-- Идентификация National
-- идентифиантнатионал #
-- нумéронатионал #
+- numéro d'assuré
+- identifiant national
+- identifiantnational #
+- numéronational #
 
 
-## <a name="belgium-value-added-tax-number"></a>Налоговый номер добавленной стоимости (Бельгия)
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="belgium-value-added-tax-number"></a>Номер налога на добавленную стоимость в Бельгии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-12-буквенно-буквенно-буквенный шаблон
+12-символьный буквонумерный шаблон
 
 ### <a name="pattern"></a>Шаблон
 
-12-буквенно-буквенно-символьный шаблон:
+12-символьный буквонумерный шаблон:
 
 - буква B или b
 - буква E или e
 - цифра 0
 - цифра от 1 до 9
-- Необязательная точка или дефис или пробел
+- необязательная точка, дефис или пробел
 - четыре цифры
-- Необязательная точка или дефис или пробел
+- необязательная точка, дефис или пробел
 - четыре цифры
 
 
@@ -2035,11 +2033,11 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_belgium_value_added_tax_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_belgium_value_added_tax_number.
+- Функция Func_belgium_value_added_tax_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_belgium_value_added_tax_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_belgium_value_added_tax_number находит содержимое, которое соответствует шаблону;
+- Функция Func_belgium_value_added_tax_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Belgium Value Added Tax Number -->
@@ -2058,15 +2056,15 @@ OR
 
 #### <a name="keyword_belgium_value_added_tax_number"></a>Keyword_belgium_value_added_tax_number
 
-- n º тва
-- номер НДС
-- НДС No
-- нумéро t. v. a
-- умсатзстеуер — идентификатионснуммер
-- умсатзстеуернуммер
-- бтв
-- бтв #
-- процент #
+- nº tva
+- номер плательщика НДС
+- vat no
+- numéro t.v.a
+- umsatzsteuer-identifikationsnummer
+- umsatzsteuernummer
+- btw
+- btw #
+- vat #
 
 
 ## <a name="brazil-cpf-number"></a>Номер CPF для Бразилии
@@ -2077,16 +2075,16 @@ OR
 
 ### <a name="pattern"></a>Шаблон
 
-Форматируемые
+Формат:
 - три цифры
 - точка
 - три цифры
 - точка
 - три цифры
 - дефис
-- две цифры, которые проверяются
+- две цифры, которые являются провероными цифрами
 
-Неформатированные
+Неформатированные:
 - 11 цифр, где две последние цифры — проверочные.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -2122,17 +2120,17 @@ OR
 #### <a name="keyword_brazil_cpf"></a>Keyword_brazil_cpf
 
 - CPF
-- Процедура
+- Идентификация
 - Registration
-- Реализации
+- Доход
 - Cadastro de Pessoas Físicas 
-- импосто 
-- идентификаçãо 
-- инскриçãо 
-- рецеита 
+- Imposto 
+- Identificação 
+- Inscrição 
+- Receita 
 
    
-## <a name="brazil-legal-entity-number-cnpj"></a>Номер юридического лица в Бразилии (CNPJ)
+## <a name="brazil-legal-entity-number-cnpj"></a>Номер юридического лица для Бразилии (CNPJ)
 
 ### <a name="format"></a>Format
 
@@ -2146,11 +2144,11 @@ OR
 - точка 
 - три цифры 
 - точка 
-- три цифры (эти первые восемь цифр — регистрационный номер). 
+- три цифры (эти первые восемь цифр являются регистрационным номером) 
 - косая черта 
-- номер филиала из четырех цифр 
+- четырехзначный номер филиала 
 - дефис 
-- две цифры, которые проверяются
+- две цифры, которые являются провероными цифрами
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -2186,7 +2184,7 @@ OR
 
 - CNPJ 
 - CNPJ/MF 
-- CNPJ – MF 
+- CNPJ-MF 
 - National Registry of Legal Entities 
 - Taxpayers Registry 
 - Legal entity 
@@ -2197,21 +2195,21 @@ OR
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
 - Cadastro Geral de Contribuintes 
-- кгк 
+- CGC 
 - Pessoa jurídica 
 - Pessoas jurídicas 
 - Situação cadastral 
-- инскриçãо 
-- емпреса 
+- Inscrição 
+- Empresa 
 
    
-## <a name="brazil-national-identification-card-rg"></a>Национальная идентификационная карточка Бразилии (RG)
+## <a name="brazil-national-identification-card-rg"></a>Национальный идентификационный номер для Бразилии (RG)
 
 ### <a name="format"></a>Format
 
 Registro Geral (старый формат): девять цифр
 
-Registro de identidade (RIC) (новый формат): 11 цифр
+Registro de Identidade (RIC) (новый формат): 11 цифр
 
 ### <a name="pattern"></a>Шаблон
 
@@ -2222,12 +2220,12 @@ Registro Geral (старый формат):
 - точка 
 - три цифры 
 - дефис 
-- одна цифра, представляющая собой контрольная цифра
+- одна цифра, которая является провероной цифрой
 
-Registro de identidade (RIC) (новый формат):
+Registro de Identidade (RIC) (новый формат):
 - десять цифр 
 - дефис 
-- одна цифра, представляющая собой контрольная цифра
+- одна цифра, которая является провероной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -2271,12 +2269,11 @@ Registro de identidade (RIC) (новый формат):
 - RIC (ключевое слово с учетом регистра) 
 
 
-## <a name="bulgaria-drivers-license-number"></a>Номер водительского удостоверения для Болгария
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="bulgaria-drivers-license-number"></a>Номер водительского удостоверения для Болгарии
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов и разделителей
+девять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -2290,7 +2287,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_bulgaria_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_bulgaria_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_bulgaria_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Bulgaria Driver's License Number -->
@@ -2307,155 +2304,155 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_bulgaria_eu_drivers_license_number"></a>Keywords_bulgaria_eu_driver "s_license_number
+#### <a name="keywords_bulgaria_eu_drivers_license_number"></a>Keywords_bulgaria_eu_driver s_license_number
 
-- свидетелство за управление на МПС
+- свидетелство за управление на мпс
 - свидетелство за управление на моторно превозно средство
 - сумпс
 - шофьорска книжка
 - шофьорски книжки
 
-## <a name="bulgaria-uniform-civil-number"></a>Номер унифицированного гражданства Болгария
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="bulgaria-uniform-civil-number"></a>Однородный номер для Болгарии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-десять цифр без пробелов и разделителей
+десять цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
-десять цифр без пробелов и разделителей
+десять цифр без пробелов и селитров
   
-- шесть цифр, соответствующих дате рождения (ГГММДД) 
+- шесть цифр, соответствующие дате рождения (YYMMDD) 
 - две цифры, соответствующие порядку рождения
-- одна цифра, соответствующая Пол: четное число для пола и нечетная цифра для розетки
+- одна цифра, соответствующая полу: четная цифра для самца и нечетная цифра для женщина
 - одна контрольная цифра
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -2465,11 +2462,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_bulgaria_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_bulgaria_eu_national_id_card` . 
+- Функция находит  `Func_bulgaria_eu_national_id_card` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_bulgaria_eu_national_id_card` слово. 
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_bulgaria_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_bulgaria_eu_national_id_card` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Bulgaria Uniform Civil Number -->
@@ -2492,33 +2489,33 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_bulgaria_eu_national_id_card"></a>Keywords_bulgaria_eu_national_id_card
 
-- бнн #
-- бнн
-- букн #
-- букн
-- единен граздански номер
-- егн #
-- егн
+- bnn #
+- bnn
+- bucn #
+- bucn
+- edinenskihski nomer
+- egn #
+- egn
 - identification number
 - national id
-- номер страны
-- натионалнумбер #
-- натионалнумбер
-- личный идентификатор
+- national number
+- nationalnumber #
+- nationalnumber
+- личный ид
+- personal no
 - личный номер
-- персональный номер
-- персоналиднумбер #
+- personalidnumber #
 - social security number
-- SSN #
-- SSN
-- унифицированный гражданский идентификатор
-- равномерный гражданский номер
-- единое гражданское число
-- униформЦивилно #
-- униформЦивилно
-- униформЦивилнумбер #
-- униформЦивилнумбер
-- уникальный номер гражданства
+- ssn #
+- ssn
+- uniform uniform id
+- uniform uniform no
+- однородный гражданский номер
+- uniformcivilno #
+- uniformcivilno
+- uniformcivilnumber #
+- uniformcivilnumber
+- уникальный номер гражданина
 - егн #
 - егн
 - единен граждански номер
@@ -2528,20 +2525,20 @@ Registro de identidade (RIC) (новый формат):
 - лично не
 - национален номер
 - номер на гражданството
-- Идентификатор униформ
-- униформ граждански ID
+- ид
+- ид
 - униформ граждански не
 - униформ граждански номер
-- униформгражданскиид #
+- 000 000 #
 - униформгражданскине. #
 
 
-## <a name="bulgaria-passport-number"></a>Номер паспорта для Болгария
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="bulgaria-passport-number"></a>Номер паспорта гражданина Болгарии
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов и разделителей
+девять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -2555,7 +2552,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_bulgaria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_bulgaria_eu_passport_number` или `Keywords_eu_passport_number_common` . 
+- Ключевое слово  `Keywords_bulgaria_eu_passport_number` из или `Keywords_eu_passport_number_common` найдено. 
 
 ```xml
  <!-- EU Passport Number -->
@@ -2573,22 +2570,22 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_bulgaria_eu_passport_number"></a>Keywords_bulgaria_eu_passport_number
 
 - номер на паспорта
 - номер на паспорт
-- паспорт нет
+- No
 
 ## <a name="canada-bank-account-number"></a>Номер банковского счета для Канады
 
@@ -2603,7 +2600,7 @@ Registro de identidade (RIC) (новый формат):
 Транзитный номер банковского счета в Канаде имеет указанный ниже формат.
 - пять цифр 
 - дефис 
-- три цифры или
+- три цифры ИЛИ
 - ноль "0" 
 - восемь цифр
 
@@ -2743,7 +2740,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_ [province_name] _drivers_license_name
+#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_[province_name]_drivers_license_name
 
 - Аббревиатура провинции, например AB.
 - Название провинции, например Альберта.
@@ -2751,51 +2748,51 @@ Registro de identidade (RIC) (новый формат):
 #### <a name="keyword_canada_drivers_license"></a>Keyword_canada_drivers_license
 
 - DL
-- БИБЛИОТЕК
-- кдл
-- кдлс
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
+- DLS
+- CDL
+- CDLS
+- DriverLic
+- DriverLics
+- DriverLicense
+- DriverLicenses
+- DriverLicence
+- DriverLicences
 - Driver Lic
 - Driver Lics
 - Driver License
 - Driver Licenses
 - Driver Licence
 - Driver Licences
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
+- DriversLic
+- DriversLics
+- DriversLicence
+- DriversLicences
+- DriversLicense
+- DriversLicenses
 - Drivers Lic
 - Drivers Lics
 - Drivers License
 - Drivers Licenses
 - Drivers Licence
 - Drivers Licences
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
+- Driver'Lic
+- Driver'Lics
+- Driver'license
+- Driver'licenses
+- Driver'licence
+- Driver'Licences
 - Driver' Lic
 - Driver' Lics
 - Driver' License
 - Driver' Licenses
 - Driver' Licence
 - Driver' Licences
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
+- Driver'sLic
+- Driver'sLics
+- Driver'sLicense
+- Driver'sLicenses
+- Driver'sLicence
+- Driver'sLicences
 - Driver's Lic
 - Driver's Lics
 - Driver's License
@@ -2811,60 +2808,60 @@ Registro de identidade (RIC) (новый формат):
 - idcard #s
 - idcard card
 - idcard cards
-- идкард
+- idcard
 - identification number
 - identification numbers
 - identification #
 - identification #s
 - identification card
 - identification cards
-- процедура 
+- identification 
 - DL #
-- БИБЛИОТЕК # 
-- кдл # 
-- кдлс # 
-- дриверлик # 
-- дриверликс # 
-- дриверлиценсе # 
-- дриверлиценсес # 
-- дриверлиценце # 
-- дриверлиценцес # 
+- DLS # 
+- CDL # 
+- CDLS # 
+- DriverLic # 
+- DriverLics # 
+- DriverLicense # 
+- DriverLicenses # 
+- DriverLicence # 
+- DriverLicences # 
 - Driver Lic#
 - Driver Lics# 
 - Driver License# 
 - Driver Licenses# 
 - Driver License# 
 - Driver Licences# 
-- дриверслик # 
-- дриверсликс # 
-- дриверслиценсе # 
-- дриверслиценсес # 
-- дриверслиценце # 
-- дриверслиценцес # 
+- DriversLic # 
+- DriversLics # 
+- DriversLicense # 
+- DriversLicenses # 
+- DriversLicence # 
+- DriversLicences # 
 - Drivers Lic# 
 - Drivers Lics# 
 - Drivers License# 
 - Drivers Licenses# 
 - Drivers Licence# 
 - Drivers Licences# 
-- Driver ' LIC # 
-- Driver ' LICS # 
-- Driver ' License # 
-- Driver ' Licenses # 
-- Driver ' Licence # 
-- Driver ' Licences # 
+- Driver'Lic # 
+- Driver'Lics # 
+- Driver'license # 
+- Driver'licenses # 
+- Driver'licence # 
+- Driver'Licences # 
 - Driver' Lic# 
 - Driver' Lics# 
 - Driver' License# 
 - Driver' Licenses# 
 - Driver' Licence# 
 - Driver' Licences# 
-- дривер'слик # 
-- дривер'сликс # 
-- дривер'слиценсе # 
-- дривер'слиценсес # 
-- дривер'слиценце # 
-- дривер'слиценцес # 
+- Driver'sLic # 
+- Driver'sLics # 
+- Driver'sLicense # 
+- Driver'sLicenses # 
+- Driver'sLicence # 
+- Driver'sLicences # 
 - Driver's Lic# 
 - Driver's Lics# 
 - Driver's License# 
@@ -2872,14 +2869,14 @@ Registro de identidade (RIC) (новый формат):
 - Driver's Licence# 
 - Driver's Licences# 
 - Permis de Conduire# 
-- кодов # 
-- идентификаторы # 
+- id # 
+- ids # 
 - idcard card# 
 - idcard cards# 
-- идкард # 
+- idcard # 
 - identification card# 
 - identification cards# 
-- процедура # 
+- identification # 
 
    
 ## <a name="canada-health-service-number"></a>Номер службы здравоохранения для Канады
@@ -2924,20 +2921,20 @@ Registro de identidade (RIC) (новый формат):
 - speciality services
 - automobile accident
 - patient hospital
-- псичиатрист
+- 2016
 - workers compensation
-- ограничен
+- disability
 
       
-## <a name="canada-passport-number"></a>Номер паспорта для Канады
+## <a name="canada-passport-number"></a>Номер паспорта гражданина Канады
 
 ### <a name="format"></a>Format
 
-две прописные буквы, за которыми следуют шесть цифр.
+две буквы в верхнем регистре, за которыми следуют шесть цифр
 
 ### <a name="pattern"></a>Шаблон
 
-две прописные буквы, за которыми следуют шесть цифр.
+две буквы в верхнем регистре, за которыми следуют шесть цифр
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -2947,7 +2944,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_canada_passport_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_canada_passport_number или Keyword_passport.
+- Находится ключевое слово Keyword_canada_passport_number или Keyword_passport.
 
 ```xml 
 <!-- Canada Passport Number -->
@@ -2980,24 +2977,24 @@ Registro de identidade (RIC) (новый формат):
 - Passport Number
 - Passport No
 - Passport#
-- Службу #
-- пасспортид
-- пасспортно
-- пасспортнумбер
+- Passport #
+- PassportID
+- Passportno
+- passportnumber
 - パスポート
 - パスポート番号
-- パスポートのнум
-- パスポート #
+- パкポ.
+- パスポート#
 - Numéro de passeport
 - Passeport n °
 - Passeport Non
 - Passeport#
-- пассепорт #
-- пассепортнон
+- Passeport #
+- PasseportNon
 - Passeportn °
 
    
-## <a name="canada-personal-health-identification-number-phin"></a>Идентификационный номер персонального контроля работоспособности для Канады (PHIN)
+## <a name="canada-personal-health-identification-number-phin"></a>Персональный идентификационный номер медицинского удостоверения для Канады (PHIN)
 
 ### <a name="format"></a>Format
 
@@ -3015,7 +3012,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_canada_phin находит содержимое, которое соответствует шаблону;
-- Найдены по крайней мере два ключевых слова от Keyword_canada_phin или Keyword_canada_provinces.
+- Найдено по крайней мере два ключевых Keyword_canada_phin или Keyword_canada_provinces.
 
 ```xml
 <!-- Canada PHIN -->
@@ -3052,15 +3049,15 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_canada_provinces"></a>Keyword_canada_provinces
 
-- нунавут
-- Квебека
+- Юнавут
+- Канада
 - Northwest Territories
-- Онтарио
+- Висяк
 - British Columbia
-- Альберта
+- Алберта
 - Саскачеван
 - Манитоба
-- Yukon
+- Юйккон
 - Newfoundland and Labrador
 - New Brunswick
 - Nova Scotia
@@ -3076,7 +3073,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="pattern"></a>Шаблон
 
-Форматируемые
+Формат:
 - три цифры 
 - дефис или пробел 
 - три цифры 
@@ -3129,14 +3126,14 @@ Registro de identidade (RIC) (новый формат):
 - sin 
 - social insurance 
 - numero d'assurance sociale 
-- грехов 
-- SSN 
-- ssNS 
+- sins 
+- ssn 
+- ssns 
 - social security 
 - numero d'assurance social 
 - national identification number 
 - national id 
-- Синус # 
+- sin # 
 - soc ins 
 - social ins 
 
@@ -3146,28 +3143,28 @@ Registro de identidade (RIC) (новый формат):
 - drivers license 
 - driver's licence 
 - drivers licence 
-- доб 
+- DOB 
 - Birthdate 
 - Birthday 
 - Date of Birth 
 
    
-## <a name="chile-identity-card-number"></a>Номер идентификационной карточки Чили
+## <a name="chile-identity-card-number"></a>Номер удостоверения личности для Чили
 
 ### <a name="format"></a>Format
 
-семь и 8 цифр, а также разделители и контрольная цифра или буква
+от семи до восьми цифр, а также делегировка контрольной цифры или буквы
 
 ### <a name="pattern"></a>Шаблон
 
-семь до восьми цифр, а также разделители:
-- одна – две цифры 
-- Необязательный период 
+семь–восемь цифр, а также делегаторы:
+- одна–две цифры 
+- необязательный период 
 - три цифры 
-- Необязательный период 
+- необязательный период 
 - три цифры 
 - тире 
-- одна цифра или буква (без учета регистра), которая является контрольной цифрой
+- одна цифра или буква (без чувствительность к букве), которая является провероной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -3201,43 +3198,43 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_chile_id_card"></a>Keyword_chile_id_card
 
-- кéдула de ИДЕНТИДАД
-- идентификаЦиóн
+- cédula de identidad
+- identificación
 - national identification
 - national identification number
 - national id
-- нúмеро де идентификаЦиóн наЦионал
-- рол úнико наЦионал
-- рол úнико трибутарио
-- ВЫПОЛНЯЕМ
-- СНИЖАТЬСЯ
-- таржета de идентификаЦиóн
-- Рол Унико НаЦионал
-- Рол Унико Трибутарио
-- ВЫПОЛНЯЕМ #
-- СНИЖАТЬСЯ #
-- натионалуникуеролеид #
-- наЦионал ИДЕНТИДАД
-- нúмеро идентификаЦиóн
-- ИДЕНТИДАД нúмеро
-- Нумеро идентификаЦион
-- ИДЕНТИДАД нумеро
-- Идентификатор чилеан
-- Идентификационный номер чилеан
-- Удостоверение чилеан #
+- número de identificación nacional
+- rol único nacional
+- rol único tributario
+- RUN
+- RUT
+- tarjeta de identificación
+- Rol Unico Nacional
+- Rol Unico Tributario
+- RUN #
+- RUT #
+- nationaluniqueroleID #
+- nacional identidad
+- número identificación
+- identidad número
+- numero identificacion
+- identidad numero
+- Удостоверение для чилийского пользователя нет.
+- Номер удостоверения для чилийского пользователя
+- Чилийское удостоверение #
 - Уникальный налоговый реестр
-- Уникальная роль для распространения
-- Уникальная роль налога
-- Уникальный номер распространения
-- Уникальный национальный номер
-- Уникальная национальная роль
-- Национальная уникальная роль
-- Номер удостоверения Чили
-- Идентификационный номер Чили
-- Удостоверение Чили #
+- Уникальная роль трибутаря
+- Уникальная налоговая роль
+- Уникальный трибутарный номер
+- Уникальный номер для страны
+- Уникальная роль для страны
+- Национальные уникальные роли
+- Удостоверение для Чили нет.
+- Номер удостоверения для Чили
+- Удостоверение чили #
 
    
-## <a name="china-resident-identity-card-prc-number"></a>Номер почтовых карточек для Китая (КНР)
+## <a name="china-resident-identity-card-prc-number"></a>Номер удостоверения личности резидента Китая (КНР)
 
 ### <a name="format"></a>Format
 
@@ -3247,9 +3244,9 @@ Registro de identidade (RIC) (новый формат):
 
 18 цифр:
 - шесть цифр, которые являются кодом адреса 
-- восемь цифр в формате ГГГГММДД, представляющие собой дату рождения 
+- восемь цифр в формате YYYYMMDD, которые являются датой рождения 
 - три цифры, которые являются кодом заказа 
-- одна цифра, представляющая собой контрольная цифра
+- одна цифра, которая является провероной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -3284,7 +3281,7 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="keyword_china_resident_id"></a>Keyword_china_resident_id
 
 - Resident Identity Card 
-- NO7 
+- КНР 
 - National Identification Card 
 - 身份证 
 - 居民 身份证 
@@ -3299,7 +3296,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="format"></a>Format
 
-14 – 16 цифр, которые можно форматировать или неформатированные (цццццццццццццццц) и которые должны пройти проверку Луна.
+От 14 до 16 цифр, которые могут быть отформатированы или неформатированы (dd), и которые должны пройти проверку Luhn.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -3346,7 +3343,7 @@ Registro de identidade (RIC) (новый формат):
 
 - card verification
 - card identification number
-- квн
+- cvn
 - cid
 - cvc2
 - cvv2
@@ -3356,61 +3353,61 @@ Registro de identidade (RIC) (новый формат):
 - security no
 - issue number
 - issue no
-- криптограмме
+- cryptogramme
 - numéro de sécurité
 - numero de securite
-- кредиткартенпрüфнуммер
-- кредиткартенпруфнуммер
-- прüфзиффер
-- пруфзиффер
+- kreditprtenprüfnummer
+- kreditprtenprufnummer
+- prüfziffer
+- prufziffer
 - sicherheits Kode
-- сичерхеитскоде
-- сичерхеитснуммер
-- верфаллдатум
+- sicherheitscode
+- sicherheitsnummer
+- verfalldatum
 - codice di verifica
-- наложен. сикурезза
+- cod. sicurezza
 - cod sicurezza
 - n autorizzazione
-- кóдиго
-- кодиго
-- наложен. сег
+- código
+- codigo
+- cod. seg
 - cod seg
 - código de segurança
 - codigo de seguranca
 - codigo de segurança
 - código de seguranca
-- кóд. сегуранçа
-- наложен. сегуранка
-- наложен. сегуранçа
-- кóд. сегуранка
+- cód. segurança
+- cod. seguranca
+- cod. segurança
+- cód. seguranca
 - cód segurança
 - cod seguranca
 - cod segurança
 - cód seguranca
 - número de verificação
 - numero de verificacao
-- аблауф
+- ablauf
 - gültig bis
-- гüлтигкеитсдатум
+- gültigkeitsdatum
 - gultig bis
-- гултигкеитсдатум
-- скаденза
+- gultigkeitsdatum
+- scadenza
 - data scad
 - fecha de expiracion
 - fecha de venc
-- венЦимиенто
+- vencimiento
 - válido hasta
 - valido hasta
-- вто
+- vto
 - data de expiração
 - data de expiracao
 - data em que expira
-- валидаде
-- валор
-- венЦименто
-- операций
+- validade
+- valor
+- vencimento
+- transaction
 - номер транзакции
-- Справочный номер
+- номер ссылки
 - セキュリティコード
 - セキュリティ コード
 - セキュリティナンバー
@@ -3419,31 +3416,31 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_cc_name"></a>Keyword_cc_name
 
-- амекс
+- amex
 - american express
-- американекспресс
+- americanexpress
 - americano espresso
 - Visa
-- MasterCard
+- mastercard
 - master card
-- MC
-- мастеркардс
+- mc
+- mastercards
 - master cards
 - diner's Club
 - diners club
-- динерсклуб
-- Повтор
+- док-1
+- обнаружение
 - discover card
-- дисковеркард
+- discovercard
 - discover cards
 - JCB
-- брандсмарт
+- BrandSmart
 - japanese card bureau
 - carte blanche
-- картебланче
+- carteblanche
 - credit card
-- Центральной #
-- CC #:
+- cc #
+- cc#:
 - expiration date
 - exp date
 - expiry date
@@ -3451,46 +3448,46 @@ Registro de identidade (RIC) (новый формат):
 - date d'exp
 - date expiration
 - bank card
-- банккард
+- bankcard
 - card number
 - card num
-- карднумбер
-- карднумберс
+- cardnumber
+- cardnumbers
 - card numbers
-- кредиткард
+- creditcard
 - credit cards
-- кредиткардс
-- CCN
+- creditcards
+- ccn
 - card holder
-- банков
+- cardholder
 - card holders
-- карты
+- cardholders
 - check card
-- чекккард
+- checkcard
 - check cards
-- чекккардс
+- checkcards
 - debit card
-- дебиткард
+- debitcard
 - debit cards
-- дебиткардс
+- debitcards
 - atm card
-- атмкард
+- atmcard
 - atm cards
-- атмкардс
-- енрауте
+- atmcards
+- enroute
 - en route
 - card type
-- Acct кардмембер
-- Учетная запись кардмембер
-- кардно
-- Корпоративная карта
-- Корпоративные карты
+- Cardmember Acct
+- учетная запись cardmember
+- Cardno
+- Корпоративная карточка
+- Корпоративные карточки
 - Тип карточки
-- номер счета карточки
-- Учетная запись члена карточки
-- Кардмембер acct.
+- номер учетной записи карточки
+- учетная запись участника карточки
+- Cardmember Acct.
 - card no.
-- карточка нет
+- card no
 - card number
 - carte bancaire
 - carte de crédit
@@ -3499,23 +3496,23 @@ Registro de identidade (RIC) (новый формат):
 - numero de carte
 - nº de la carte
 - nº de carte
-- кредиткарте
-- карте
-- картенинхабер
-- картенинхаберс
-- кредиткартенинхабер
-- кредиткартенинститут
-- кредиткартентип
-- еижентüмернаме
-- картеннр
-- картеннуммер
-- кредиткартеннуммер
-- кредиткартен — нуммер
+- kreditkarte
+- karte
+- karteninhaber
+- karteninhabers
+- kredithabteninhaber
+- kreditkarteninstitut
+- kreditkartentyp
+- eigentümername
+- kartennr
+- kartennummer
+- kreditkartennummer
+- kreditkarten-nummer
 - carta di credito
 - carta credito
-- .\n\n\-. Корзина "
+- n. carta
 - n carta
-- НР. Корзина "
+- nr. carta
 - nr carta
 - numero carta
 - numero della carta
@@ -3536,7 +3533,7 @@ Registro de identidade (RIC) (новый формат):
 - numero de tarjeta
 - número de tarjeta
 - tarjeta no
-- таржетахабиенте
+- tarjetahabiente
 - cartão de crédito
 - cartão de credito
 - cartao de crédito
@@ -3557,25 +3554,25 @@ Registro de identidade (RIC) (новый формат):
 - numero de cartao
 - nº do cartão
 - nº do cartao
-- n º. do cartão
+- nº. do cartão
 - no do cartão
 - no do cartao
 - Нет. do cartão
 - Нет. do cartao
 - クレジットカード番号
 - クレジットカードナンバー
-- クレジットカード #
+- クレジットカード#
 - クレジットカード
 - クレジット
 - クレカ
 - カード番号
 - カードナンバー
-- カード #
+- カード#
 - アメックス
 - アメリカンエクスプレス
 - アメリカン エクスプレス
-- висаカード
-- カード Visa
+- Visaカкド
+- Visa カド
 - マスターカード
 - マスター カード
 - マスター
@@ -3593,12 +3590,11 @@ Registro de identidade (RIC) (новый формат):
 - デビットカード
 
 
-## <a name="croatia-drivers-license-number"></a>Номер водительского удостоверения для драйвера Хорватия
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="croatia-drivers-license-number"></a>Номер водительского удостоверения для Хорватии
 
 ### <a name="format"></a>Format
 
-восемь цифр без пробелов и разделителей
+восемь цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -3613,7 +3609,7 @@ Registro de identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_croatia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM `Keywords_eu_driver's_license_number` или `Keywords_croatia_eu_driver's_license_number` . 
+- Ключевое слово `Keywords_eu_driver's_license_number` из или `Keywords_croatia_eu_driver's_license_number` найдено. 
 
 ```xml
       <!-- Croatia Driver's License Number -->
@@ -3630,136 +3626,136 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- управление лицензиями
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_croatia_eu_drivers_license_number"></a>Keywords_croatia_eu_driver "s_license_number
+#### <a name="keywords_croatia_eu_drivers_license_number"></a>Keywords_croatia_eu_driver s_license_number
 
-- возаčка дозвола
-- возаčке дозволе
+- vozazka dozvola
+- vozazke dozvole
 
 
-## <a name="croatia-identity-card-number"></a>Номер идентификационной карточки (Хорватия)
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации страны ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="croatia-identity-card-number"></a>Номер удостоверения личности для Хорватии
+Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации для национального идентификационных номеров ЕС и доступен в качестве отдельного объекта типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -3793,42 +3789,42 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_croatia_id_card"></a>Keyword_croatia_id_card
 
-- мажсторски Брож граđана
-- основной номер в соотношении
-- наЦионални идентификаЦижски Брож
+- majstorski broj graсана
+- master citizen number
+- nacionalni identifciocijski broj
 - national identification number
-- OIB #
-- OIB
-- особна исказника
-- Идентификатор особни
-- особни идентификаЦижски Брож
+- oib #
+- oib
+- osobna iskazвяз
+- osobni id
+- osobni identifikacijski broj
 - персональный идентификационный номер
-- порезни Брож
-- порезни идентификаЦижски Брож
+- broj
+- ezni identifskicijski broj
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- ыdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="croatia-passport-number"></a>Номер паспорта для выхорватия
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="croatia-passport-number"></a>Номер паспорта гражданина Хорватии
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов и разделителей
+девять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -3842,7 +3838,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_croatia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_croatia_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_croatia_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -3860,24 +3856,24 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_croatia_eu_passport_number"></a>Keywords_croatia_eu_passport_number
 
-- Брож путовнице
-- br. путовнице
-- br путовнице
+- broj putovnice
+- br. Putovnice
+- br putovnice
    
-## <a name="croatia-personal-identification-oib-number"></a>Номер личного кода (OIB), Хорватия
+## <a name="croatia-personal-identification-oib-number"></a>Индивидуальный идентификационный номер (OIB) для Хорватии
 
 ### <a name="format"></a>Format
 
@@ -3887,7 +3883,7 @@ Registro de identidade (RIC) (новый формат):
 
 11 цифр:
 - десять цифр 
-- Последняя цифра — контрольная цифра
+- окончательная цифра — это провероальная цифра
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -3897,7 +3893,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_croatia_oib_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_croatia_eu_tax_file_number.
+- Находится ключевое слово из Keywords_croatia_eu_tax_file_number.
 - Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
@@ -3921,41 +3917,41 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_croatia_oib_number"></a>Keyword_croatia_oib_number
 
-- мажсторски Брож граđана
-- основной номер в соотношении
-- наЦионални идентификаЦижски Брож
+- majstorski broj graсана
+- master citizen number
+- nacionalni identifciocijski broj
 - national identification number
-- OIB #
-- OIB
-- особна исказника
-- Идентификатор особни
-- особни идентификаЦижски Брож
+- oib #
+- oib
+- osobna iskazвяз
+- osobni id
+- osobni identifskicijski broj
 - персональный идентификационный номер
-- порезни Брож
-- порезни идентификаЦижски Брож
+- broj
+- ezni identifskicijski broj
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
-## <a name="croatia-social-security-number-or-equivalent-identification"></a>Хорватия номер социального страхования или эквивалентная идентификация
-Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
+## <a name="croatia-social-security-number-or-equivalent-identification"></a>Номер социального обеспечения хорватии или эквивалентная идентификация
+Этот объект типа конфиденциальной информации доступен только в номере социального обеспечения ЕС или типе конфиденциальной информации эквивалентного ИД.
 
 ### <a name="format"></a>Format
 
-11 цифр без пробелов и разделителей
+11 цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -3972,12 +3968,12 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_croatia_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_croatia_eu_ssn_or_equivalent` . 
+- Функция находит  `Func_croatia_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_croatia_eu_ssn_or_equivalent` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_croatia_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_croatia_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -3997,27 +3993,26 @@ Registro de identidade (RIC) (новый формат):
 #### <a name="keywords_croatia_eu_ssn_or_equivalent"></a>Keywords_croatia_eu_ssn_or_equivalent
 
 - персональный идентификационный номер
-- основной номер в соотношении
+- master citizen number
 - national identification number
 - social security number
-- натионалнумбер #
-- SSN #
-- SSN
-- натионалнумбер
-- бнн #
-- бнн
-- личный идентификационный номер
-- персоналиднумбер #
-- OIB
-- особни идентификаЦижски Брож
+- nationalnumber #
+- ssn #
+- ssn
+- nationalnumber
+- bnn #
+- bnn
+- личный номер
+- personalidnumber #
+- oib
+- osobni identifikacijski broj
 
    
-## <a name="cyprus-drivers-license-number"></a>Номер лицензии на драйверы Кипр
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="cyprus-drivers-license-number"></a>Номер водительского удостоверения для Кипра
 
 ### <a name="format"></a>Format
 
-12 цифр без пробелов и разделителей
+12 цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -4031,7 +4026,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_cyprus_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_cyprus_eu_driver's_license_number` .
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_cyprus_eu_driver's_license_number` найдено.
 
 ```xml
       <!-- Cyprus Driver's License Number -->
@@ -4048,145 +4043,145 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
-#### <a name="keywords_cyprus_eu_drivers_license_number"></a>Keywords_cyprus_eu_driver "s_license_number
+#### <a name="keywords_cyprus_eu_drivers_license_number"></a>Keywords_cyprus_eu_driver s_license_number
 
 - άδεια οδήγησης
 - αριθμό άδειας οδήγησης
 - άδειες οδήγησης
 
 
-## <a name="cyprus-identity-card"></a>Идентификационная карточка Кипр
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="cyprus-identity-card"></a>Удостоверение личности для Кипра
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-десять цифр без пробелов и разделителей
+десять цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -4200,7 +4195,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_cyprus_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_cyprus_eu_national_id_card` . 
+- Найдено ключевое  `Keywords_cyprus_eu_national_id_card` слово. 
     
 ```xml 
       <!-- Cyprus Identity Card -->
@@ -4216,24 +4211,24 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_cyprus_eu_national_id_card"></a>Keywords_cyprus_eu_national_id_card
 
-- идентификационный номер карточки
-- Номер идентификационной карточки
-- кимлик Карти
+- id card number
+- номер удостоверения личности
+- kim kimti
 - national identification number
-- личный идентификационный номер
+- личный номер
 - ταυτοτητασ
 
 
-## <a name="cyprus-passport-number"></a>Номер паспорта для Кипр
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="cyprus-passport-number"></a>Номер паспорта гражданина Кипра
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-одна буква, за которой следуют 6-8 цифр без пробелов и разделителей
+одна буква, за которой следуют 6–8 цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
-одна буква, за которой следуют шесть и восемь цифр
+одна буква, за которой следуют от шести до восьми цифр
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -4243,7 +4238,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_cyprus_eu_passport_number` находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_cyprus_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_cyprus_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -4262,38 +4257,38 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_cyprus_eu_passport_number"></a>Keywords_cyprus_eu_passport_number
 
 - αριθμό διαβατηρίου
-- пасапорту
+- pasaportu
 - Αριθμός Διαβατηρίου
 - κυπριακό διαβατήριο
 - διαβατήριο #
 - διαβατήριο
 - αριθμός διαβατηρίου
-- Пасапорт Кимлиğи
-- пасапорт нумарасı
-- Пасапорт но.
-- Αρ. διαβατηρίου
+- Pasaport Kimliii
+- pasaport numaras
+- Pasaport no.
+- Αρ. Διαβατηρίου
 
-## <a name="cyprus-tax-identification-number"></a>Идентификационный номер налогоплательщика (Кипр)
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="cyprus-tax-identification-number"></a>Идентификационный номер налога на Кипре
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
@@ -4305,7 +4300,7 @@ Registro de identidade (RIC) (новый формат):
   
 - "0" или "9"
 - семь цифр
-- одна буква (без учета регистра)
+- одна буква (без чувствительность к букве)
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -4314,11 +4309,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_cyprus_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_cyprus_eu_tax_file_number` . 
+- Функция находит  `Func_cyprus_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_cyprus_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_cyprus_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_cyprus_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Cyprus Tax Identification Number -->
@@ -4338,44 +4333,43 @@ Registro de identidade (RIC) (новый формат):
 #### <a name="keywords_cyprus_eu_tax_file_number"></a>Keywords_cyprus_eu_tax_file_number
 
 - tax id
-- Налоговый код идентификации
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- тик #
-- тик
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- Верги кимлик коду
-- Верги кимлик нумарасı
+- идентификационный код налога
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- ыdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tic #
+- tic
+- tin id
+- tin no
+- tin #
+- vergi kim kodu
+- vergi kim kim де нумарас
 - αριθμός φορολογικού μητρώου
 - κωδικός φορολογικού μητρώου
 - φορολογική ταυτότητα
 - φορολογικού κωδικού
 
 
-## <a name="czech-drivers-license-number"></a>Номер водительского удостоверения для чешского языка
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="czech-drivers-license-number"></a>Номер водительского удостоверения для Чешский
 
 ### <a name="format"></a>Format
 
-две буквы, за которыми следуют шесть цифр.
+две буквы, за которыми следуют шесть цифр
   
 ### <a name="pattern"></a>Шаблон
 
 восемь букв и цифр:
   
-- буква "E" (без учета регистра)
+- буква "E" (без чувствительного к букве)
 - буква
 - пробел (необязательно)
 - шесть цифр
@@ -4388,7 +4382,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_czech_republic_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_czech_republic_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_czech_republic_eu_driver's_license_number` найдено. 
 
 ```xml
       <Entity id="86b40d3b-d8ea-4c36-aab0-ef9416a6769c" patternsProximity="300" recommendedConfidence="75">
@@ -4405,145 +4399,145 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- управление лицензиями
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
-#### <a name="keywords_czech_republic_eu_drivers_license_number"></a>Keywords_czech_republic_eu_driver "s_license_number
+#### <a name="keywords_czech_republic_eu_drivers_license_number"></a>Keywords_czech_republic_eu_driver s_license_number
 
-- řидиčскý прúказ
-- řидиčскé прůкази
-- číсло řидиčскéхо прůказу
-- číсла řидиčскýч прůказů
+- úidiúskú prúkaz
+- idiiské prфикац
+- íslo íidiíského prфиках
+- ísla íidiískích przkaz
 
 
-## <a name="czech-passport-number"></a>Номер паспорта для чешского языка
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="czech-passport-number"></a>Номер паспорта гражданина Чешский
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-восемь цифр без пробелов и разделителей
+восемь цифр без пробелов или делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
-восемь цифр без пробелов и разделителей
+восемь цифр без пробелов или делегаторов
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -4553,7 +4547,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_czech_republic_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_czech_republic_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_czech_republic_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -4572,43 +4566,43 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_czech_republic_eu_passport_number"></a>Keywords_czech_republic_eu_passport_number
 
-- цестовнí PAS
-- číсло Пасу
-- цестовнí Пасу
-- пассепорт нет
-- číсла Пасу
+- cestovní pas
+- íslo pasu
+- cestovní pasu
+- passeport no
+- ísla pasu
 
 
-## <a name="czech-personal-identity-number"></a>Номер личного удостоверения для чешского языка
+## <a name="czech-personal-identity-number"></a>Номер личного удостоверения для Чешский
 
 ### <a name="format"></a>Format
 
-девять цифр с необязательной косой чертой (старый формат), десять цифрами с необязательной косой чертой (новый формат)
+девять цифр с необязательной косой чертой (старый формат) десятью цифрами с необязательной косой чертой (новый формат)
 
 ### <a name="pattern"></a>Шаблон
 
 девять цифр (старый формат):
-- шесть цифр, представляющих дату рождения
-- Необязательная косая черта
+- шесть цифр, которые представляют дату рождения
+- необязательная косая черта
 - три цифры
 
 десять цифр (новый формат):
-- шесть цифр, представляющих дату рождения
-- Необязательная косая черта 
-- четыре цифры, где последняя цифра является контрольной цифрой
+- шесть цифр, которые представляют дату рождения
+- необязательная косая черта 
+- четыре цифры, где последняя цифра является провероной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -4624,7 +4618,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 
-- Функция Func_czech_id_card_new_format находит содержимое, которое соответствует шаблону;
+- Функция Func_czech_id_card_new_format находит содержимое, которое соответствует шаблону.
 - Контрольная сумма проходит проверку.
 
 ```xml
@@ -4646,67 +4640,67 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_czech_id_card"></a>Keyword_czech_id_card
 
-- номер рождения
-- идентификационный номер Чешской Республики
-- кзечидно #
-- даňовé číсло
-- идентификаčнí číсло
-- Идентификатор
-- идентификационный номер
-- идентитино #
-- идентитино
+- birth number
+- czech republic id
+- czechidno #
+- daíové ííslo
+- identifííní ííslo
+- identity no
+- identity number
+- identityno #
+- identityno
 - страховой номер
 - national identification number
-- натионалнумбер #
-- номер страны
-- особнí číсло
-- персоналиднумбер #
-- личный идентификационный номер
+- nationalnumber #
+- national number
+- osobní ííslo
+- personalidnumber #
+- личный номер
 - персональный идентификационный номер
-- персональный номер
-- вязки #
+- личный номер
+- pid #
 - pid
-- пожиšтěнí číсло
-- рč
-- родне Цисло
-- роднé číсло
-- SSN
-- SSN #
+- pojiítíní ííslo
+- r.
+- rodne cislo
+- rodné ííslo
+- ssn
+- ssn #
 - social security number
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- ыdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 - уникальный идентификационный номер
 
 
-## <a name="czech-social-security-number-or-equivalent-identification"></a>Номер социального страхования для чешского или эквивалентного кода
+## <a name="czech-social-security-number-or-equivalent-identification"></a>Чешский номер социального обеспечения или эквивалентная идентификация
 
-Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
+Этот объект типа конфиденциальной информации доступен только в номере социального обеспечения ЕС или типе конфиденциальной информации эквивалентного ИД.
 
 ### <a name="format"></a>Format
 
-десять цифр и обратная косая черта в указанном шаблоне
+десять цифр и знаки заднего знака в указанном шаблоне
   
 ### <a name="pattern"></a>Шаблон
 
-десять цифр и обратная косая черта:
+десять цифр и знаки задней знаки:
   
-- шесть цифр, соответствующих дате рождения (ГГММДД): 
-- Обратная косая черта
-- три цифры, которые соответствуют серийному номеру, которые отделяют пользователей на одну и ту же дату.
+- шесть цифр, соответствующих дате рождения (YYMMDD): 
+- замещенная на задний ряд
+- три цифры, соответствующие серийному номеру, отделяемого от пользователей в ту же дату
 - одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -4716,11 +4710,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_czech_republic_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_czech_republic_eu_ssn_or_equivalent` . 
+- Функция находит  `Func_czech_republic_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_czech_republic_eu_ssn_or_equivalent` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_czech_republic_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_czech_republic_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
 
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -4739,27 +4733,26 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_czech_republic_eu_ssn_or_equivalent"></a>Keywords_czech_republic_eu_ssn_or_equivalent
 
-- номер рождения
+- birth number
 - national identification number
 - персональный идентификационный номер
 - social security number
-- натионалнумбер #
-- SSN #
-- SSN
-- номер страны
-- личный идентификационный номер
-- персоналиднумбер #
-- рč
-- роднé číсло
-- родне Цисло
+- nationalnumber #
+- ssn #
+- ssn
+- national number
+- личный номер
+- personalidnumber #
+- r.
+- rodné ííslo
+- rodne cislo
 
 
 ## <a name="denmark-drivers-license-number"></a>Номер водительского удостоверения для Дании
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
 
 ### <a name="format"></a>Format
 
-восемь цифр без пробелов и разделителей
+восемь цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -4773,7 +4766,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_denmark_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_denmark_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_denmark_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Denmark Driver's License Number -->
@@ -4790,139 +4783,139 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
-#### <a name="keywords_denmark_eu_drivers_license_number"></a>Keywords_denmark_eu_driver "s_license_number
+#### <a name="keywords_denmark_eu_drivers_license_number"></a>Keywords_denmark_eu_driver s_license_number
 
-- кøрекорт
-- кøрекортнуммер
+- kгrekort
+- kнеkortnummer
 
 
-## <a name="denmark-passport-number"></a>Номер паспорта для Дании
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="denmark-passport-number"></a>Номер паспорта гражданина Дании
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов и разделителей
+девять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -4936,7 +4929,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_denmark_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_denmark_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_denmark_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -4955,36 +4948,36 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_denmark_eu_passport_number"></a>Keywords_denmark_eu_passport_number
 
-- паснуммер
-- Пассепорт n °
-- паснумре
+- pasnummer
+- Passeport n°
+- pasnumre
 
 
-## <a name="denmark-personal-identification-number"></a>Личный идентификационный номер для Дании
+## <a name="denmark-personal-identification-number"></a>Персональный идентификационный номер для Дании
 
 ### <a name="format"></a>Format
 
-десять цифр, содержащие дефис
+десять цифр, содержащих дефис
 
 ### <a name="pattern"></a>Шаблон
 
 десять цифр:
-- шесть цифр в формате ддммгг — Дата рождения; 
+- шесть цифр в формате ДДММАЙ, которые являются датой рождения 
 - дефис 
-- четыре цифры, где последняя цифра является контрольной цифрой
+- четыре цифры, где последняя цифра является провероной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -4993,12 +4986,12 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Func_denmark_eu_tax_file_number находит содержимое, которое соответствует шаблону;
+- Регулярное выражение Func_denmark_eu_tax_file_number находит содержимое, которое соответствует шаблону.
 - находится ключевое слово из Keyword_denmark_id;
 - Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Регулярное выражение Func_denmark_eu_tax_file_number находит содержимое, которое соответствует шаблону;
+- Регулярное выражение Func_denmark_eu_tax_file_number находит содержимое, которое соответствует шаблону.
 - Контрольная сумма проходит проверку.
 
 ```xml
@@ -5019,91 +5012,91 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_denmark_id"></a>Keyword_denmark_id
 
-- централе персонрегистер
-- Гражданский регистрерингссистем
-- CPR
-- CPR #
-- жесундхеитскарте нуммер
-- жесундхеитсверсичерунгкарте нуммер
-- карточка работоспособности
-- номер карточки страхования здоровья
-- номер страховки здоровья
+- centrale personregister
+- civilt registreringssystem
+- cpr
+- cpr #
+- gesundheitskarte nummer
+- gesundheitsversicherungcherte nummer
+- карточка состояния
+- номер карты медицинского страхования
+- номер медицинского страхования
 - identification number
-- идентификатионснуммер
-- идентификатионснуммер #
-- идентификационный номер
-- кранкенкассеннуммер
-- натионалид #
-- натионалнумбер #
-- номер страны
-- персоналиднумбер #
-- персоналидентитино #
-- личный идентификационный номер
-- персоннуммер
-- персоннуммер #
-- реисекранкенверсичерунгскартенуммер
-- режсесижесикрингскорт
-- SSN
-- SSN #
-- Идентификатор Скат
-- Скат коде
-- Скат нуммер
-- скаттенуммер
+- identifikationsnummer
+- identifikationsnummer #
+- identity number
+- kassennummer
+- nationalid #
+- nationalnumber #
+- national number
+- personalidnumber #
+- personalidentityno #
+- личный номер
+- personnummer
+- personnummer #
+- reisekrankenversicherungschertenummer
+- rejsesygesikringskort
+- ssn
+- ssn #
+- id
+- kode
+- nummer
+- доктенуммер
 - social security number
-- сундхедсфорсикрингскорт
-- сундхедсфорсикрингснуммер
-- сундхедскорт
-- сундхедскортнуммер
-- сижесикринг
-- сижесикрингкортнуммер
-- Налоговый код
-- Карточка страхования здравоохранения
-- уникуеидентитино #
-- Налоговый номер
-- Регистрационный номер налогоплательщика
+- sundhedsforsikringskort
+- sundhedsforsikringsnummer
+- sundhedskort
+- sundhedskortnummer
+- sygesikring
+- sygesikringkortnummer
+- налоговый код
+- карта медицинского страхования для путешествий
+- uniqueidentityno #
+- налоговый номер
+- налоговый регистрационный номер
 - tax id
-- идентификационный номер налога
-- такси #
-- такснумбер #
-- налог без
-- таксно #
-- такснумбер
-- Налоговый идентификатор
-- ИНН #
-- таксидно #
-- таксиднумбер #
-- налог без #
-- Идентификатор Tin
-- номер Tin
+- налоговый идентификационный номер
+- ыd #
+- taxnumber #
+- tax no
+- taxno #
+- taxnumber
+- tax identification no
+- tin #
+- ыdno #
+- ыdnumber #
+- tax no #
+- tin id
+- tin no
 - cpr.nr
-- кпрнр
-- кпрнуммер
-- персоннр
-- персонрегистер
-- сижесикрингсбевис
-- сижесикрингсбевиснр
-- сижесикрингсбевиснуммер
-- сижесикрингскорт
-- сижесикрингскортнр
-- сижесикрингскортнуммер
-- сижесикрингснр
-- сижесикрингснуммер
+- cprnr
+- cprnummer
+- personnr
+- personregister
+- sygesikringsbevis
+- sygesikringsbevisnr
+- sygesikringsbevisnummer
+- sygesikringskort
+- sygesikringskortnr
+- sygesikringskortnummer
+- sygesikringsnr
+- sygesikringsnummer
 
 
-## <a name="denmark-social-security-number-or-equivalent-identification"></a>Номер социального страхования для Дании или эквивалентная идентификация
-Этот объект типа конфиденциальной информации доступен только для номера социального страхования ЕС или эквивалентного типа конфиденциальной информации.
+## <a name="denmark-social-security-number-or-equivalent-identification"></a>Номер социального обеспечения для Дании или эквивалентная идентификация
+Этот объект типа конфиденциальной информации доступен только для номера социального обеспечения ЕС или типа конфиденциальной информации эквивалентного ИД.
 
 ### <a name="format"></a>Format
 
-десять цифр и дефис в заданном шаблоне
+десять цифр и дефис в указанном шаблоне
   
 ### <a name="pattern"></a>Шаблон
 
 десять цифр и дефис:
   
-- шесть цифр, соответствующих дате рождения (ДДММГГ —) 
+- шесть цифр, соответствующие дате рождения (ДДММАЙ) 
 - дефис
-- четыре цифры, которые соответствуют порядковому номеру
+- четыре цифры, соответствующие последовательному номеру
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -5112,11 +5105,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_denmark_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_denmark_eu_ssn_or_equivalent` . 
+- Функция находит  `Func_denmark_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_denmark_eu_ssn_or_equivalent` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_denmark_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_denmark_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -5138,28 +5131,28 @@ Registro de identidade (RIC) (новый формат):
 - персональный идентификационный номер
 - national identification number
 - social security number
-- натионалнумбер #
-- SSN #
-- SSN
-- номер страны
-- личный идентификационный номер
-- персоналиднумбер #
-- CPR — нуммер
-- персоннуммер
+- nationalnumber #
+- ssn #
+- ssn
+- national number
+- личный номер
+- personalidnumber #
+- cpr-nummer
+- personnummer
 
 
-## <a name="drug-enforcement-agency-dea-number"></a>Номер агентства для применения наркотиков (DEA)
+## <a name="drug-enforcement-agency-dea-number"></a>Номер агентства по правоохранительным органам (DEA)
 
 ### <a name="format"></a>Format
 
-две буквы, за которыми следуют семь цифр.
+две буквы, за которыми следуют семь цифр
 
 ### <a name="pattern"></a>Шаблон
 
 Шаблон должен включать в себя все указанные ниже элементы.
-- одна буква (без учета регистра) из этого набора возможных букв: abcdefghjklmnprstux, который является кодом Регистрант 
-- одна буква (без учета регистра), представляющая собой первую букву фамилии Регистрант или цифры 9
-- семь цифр, последняя из которых — контрольная цифра.
+- одна буква (без регистра) из этого набора возможных букв: abcdefghjklmnprstux, который является регистратором кода 
+- одна буква (без регистра), которая является первой буквой фамилии или цифры "9" регистратора.
+- семь цифр, последняя из которых является провероной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -5169,7 +5162,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_dea_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово FROM `Keyword_dea_number`
+- Найдено ключевое `Keyword_dea_number` слово
 - Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
@@ -5200,24 +5193,23 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_dea_number"></a>Keyword_dea_number
 
-- DEA
-- DEA #
-- Администрирование принудительного использования лекарства
-- Агентство по принужденным лекарствам
+- dea
+- dea #
+- администрирование принудительных органы
+- агентство по правоохранительным органам
 
 
-## <a name="estonia-drivers-license-number"></a>Номер водительского удостоверения для драйвера Эстонии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="estonia-drivers-license-number"></a>Номер водительского удостоверения для Эстонии
 
 ### <a name="format"></a>Format
 
-две буквы, за которыми следуют шесть цифр.
+две буквы, за которыми следуют шесть цифр
   
 ### <a name="pattern"></a>Шаблон
 
 две буквы и шесть цифр:
   
-- буквы "ET" (без учета регистра); 
+- буквы "ET" (без чувствительность к буквам) 
 - шесть цифр
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -5228,7 +5220,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_estonia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_estonia_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_estonia_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Estonia Driver's License Number -->
@@ -5245,154 +5237,154 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- управление лицензиями
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
-#### <a name="keywords_estonia_eu_drivers_license_number"></a>Keywords_estonia_eu_driver "s_license_number
+#### <a name="keywords_estonia_eu_drivers_license_number"></a>Keywords_estonia_eu_driver s_license_number
 
-— разрешение de кондуире
-- жухилубаде нумбрид
-- номер жухилоа
-- жухилуба
+-- permis de conduire
+- juhilubade
+- juhiloa number
+- juhiluba
 
 
-## <a name="estonia-personal-identification-code"></a>Эстонии персональный идентификационный код
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="estonia-personal-identification-code"></a>Персональный идентификационный код Для Эстонии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-11 цифр без пробелов и разделителей
+11 цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
 11 цифр:
   
-- одна цифра, соответствующая упоминанию секса и столетию рождения (нечетный номер, четная розетка), 1-2:19 века; 3-4:20 века; 5-6:21 столетие)
-- шесть цифр, соответствующих дате рождения (ГГММДД)
-- три цифры, которые соответствуют порядковому номеру, разделенному на одну и ту же дату.
+- одна цифра, соответствующая полу и минуте рождения (нечетное число самца, четное число женщина; 1-2: 19-е время; 3-4: 20-й год; 5-6: 21-й год)
+- шесть цифр, соответствующих дате рождения (YYMMDD)
+- три цифры, соответствующие серийному номеру, отделяющие пользователей от одной и той же даты
 - одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -5402,11 +5394,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_estonia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_estonia_eu_national_id_card` . 
+- Функция находит  `Func_estonia_eu_national_id_card` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_estonia_eu_national_id_card` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_estonia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_estonia_eu_national_id_card` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Estonia Personal Identification Code -->
@@ -5429,48 +5421,48 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_estonia_eu_national_id_card"></a>Keywords_estonia_eu_national_id_card
 
-- ID — каарт
-- фигуры
-- исикукуд #
-- исикукуд
-- Идентификатор Максу
-- максукохустусласе идентифитсиримиснумбер
-- максунумбер
+- id-kaart
+- ik
+- isikukood #
+- isikukood
+- maksu id
+- maksukohustuslase identifitseerimisnumber
+- maksunumber
 - national identification number
-- номер страны
-- персональный код
-- личный идентификационный номер
+- national number
+- личный код
+- личный номер
 - персональный идентификационный код
 - персональный идентификационный номер
-- персоналиднумбер #
+- personalidnumber #
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="estonia-passport-number"></a>Номер паспорта для Эстонии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="estonia-passport-number"></a>Номер паспорта гражданина Эстонии
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-одна буква, за которой следуют семь цифр без пробелов и разделителей
+одна буква, за которой следуют семь цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
-одна буква, за которой следуют семь цифр.
+одна буква, за которой следуют семь цифр
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -5480,7 +5472,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_estonia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_estonia_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_estonia_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -5499,22 +5491,22 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_estonia_eu_passport_number"></a>Keywords_estonia_eu_passport_number
 
-Исти коданику Pass Пасси номер пассинумбрид документа номер документа No докуменди НР
+eesti kodaniku passi passi number passinumbrid document number document no dokumendi nr
 
-## <a name="eu-debit-card-number"></a>Номер дебетовой карты ЕС
+## <a name="eu-debit-card-number"></a>Номер банковской карты для ЕС
 
 ### <a name="format"></a>Format
 
@@ -5564,7 +5556,7 @@ Registro de identidade (RIC) (новый формат):
 - card number 
 - card no. 
 - security number 
-- Центральной # 
+- cc # 
 
 #### <a name="keyword_card_terms_dict"></a>Keyword_card_terms_dict
 
@@ -5572,19 +5564,19 @@ Registro de identidade (RIC) (новый формат):
 - acct num 
 - acct no 
 - american express 
-- американекспресс 
+- americanexpress 
 - americano espresso 
-- амекс 
+- amex 
 - atm card 
 - atm cards 
 - atm kaart 
-- атмкард 
-- атмкардс 
-- атмкаарт 
-- атмкаартен 
-- банконтакт 
+- atmcard 
+- atmcards 
+- atmkaart 
+- atmkaarten 
+- bancontact 
 - bank card 
-- банккаарт 
+- bankkaart 
 - card holder 
 - card holders 
 - card num 
@@ -5592,10 +5584,10 @@ Registro de identidade (RIC) (новый формат):
 - card numbers 
 - card type 
 - cardano numerico 
-- банков 
-- карты 
-- карднумбер 
-- карднумберс 
+- cardholder 
+- cardholders 
+- cardnumber 
+- cardnumbers 
 - carta bianca 
 - carta credito 
 - carta di credito 
@@ -5609,76 +5601,76 @@ Registro de identidade (RIC) (новый формат):
 - carte de credit 
 - carte de crédit 
 - carte di credito 
-- картебланче 
+- carteblanche 
 - cartão de credito 
 - cartão de crédito 
 - cartão de debito 
 - cartão de débito 
 - cb 
-- CCN 
+- ccn 
 - check card 
 - check cards 
-- чекккард
-- чекккардс 
-- чекуекаарт 
-- Logic 
-- Cirrus центр EDC — Маестро 
-- контролекаарт 
-- контролекаартен 
+- checkcard
+- checkcards 
+- quekaart 
+- cirrus 
+- cirrus-edc-maestro 
+- controlekaart 
+- controlekaarten 
 - credit card 
 - credit cards 
-- кредиткард 
-- кредиткардс 
-- дебеткаарт 
-- дебеткаартен 
+- creditcard 
+- creditcards 
+- debetkaart 
+- debetkaarten 
 - debit card 
 - debit cards 
-- дебиткард 
-- дебиткардс 
+- debitcard 
+- debitcards 
 - debito automatico 
 - diners club 
-- динерсклуб 
-- Повтор 
+- док-1 
+- обнаружение 
 - discover card 
 - discover cards 
-- дисковеркард 
-- дисковеркардс 
+- discovercard 
+- discovercards 
 - débito automático
-- центр EDC 
-- еижентüмернаме 
+- edc 
+- eigentümername 
 - european debit card 
-- хуфдкаарт 
-- хуфдкаартен 
+- hoofdkaart 
+- hoofdkaarten 
 - in viaggio 
 - japanese card bureau 
 - japanse kaartdienst 
-- JCB 
-- каарт 
+- jcb 
+- kaart 
 - kaart num 
-- каартаантал 
-- каартаанталлен 
-- каарсаудер 
-- каарсаудерс 
-- карте  
-- картенинхабер 
-- картенинхаберс
-- картеннр 
-- картеннуммер 
-- кредиткарте 
-- кредиткартен — нуммер 
-- кредиткартенинхабер 
-- кредиткартенинститут 
-- кредиткартеннуммер 
-- кредиткартентип 
-- маестро 
+- kaartaantal 
+- kaartallenllen 
+- kaarthouder 
+- kaarthouders 
+- karte  
+- karteninhaber 
+- karteninhabers
+- kartennr 
+- kartennummer 
+- kreditkarte 
+- kreditkarten-nummer 
+- kredithabteninhaber 
+- kreditkarteninstitut 
+- kreditkartennummer 
+- kreditkartentyp 
+- maestro 
 - master card 
 - master cards 
-- MasterCard 
-- мастеркардс 
-- MC 
+- mastercard 
+- mastercards 
+- mc 
 - mister cash 
 - n carta 
-- Корзина " 
+- carta 
 - no de tarjeta 
 - no do cartao 
 - no do cartão 
@@ -5686,7 +5678,7 @@ Registro de identidade (RIC) (новый формат):
 - Нет. do cartao 
 - Нет. do cartão 
 - nr carta 
-- НР. Корзина " 
+- nr. carta 
 - numeri di scheda 
 - numero carta 
 - numero de cartao 
@@ -5705,7 +5697,7 @@ Registro de identidade (RIC) (новый формат):
 - nº de tarjeta 
 - nº do cartao 
 - nº do cartão 
-- n º. do cartão 
+- nº. do cartão 
 - número de cartao 
 - número de cartão 
 - número de tarjeta 
@@ -5723,10 +5715,10 @@ Registro de identidade (RIC) (новый формат):
 - schede matrici 
 - scoprono la scheda 
 - scoprono le schede 
-- ОС 
+- 1 
 - supporti di scheda 
 - supporto di scheda 
-- отключен 
+- switch 
 - tarjeta atm 
 - tarjeta credito 
 - tarjeta de atm 
@@ -5734,18 +5726,18 @@ Registro de identidade (RIC) (новый формат):
 - tarjeta de debito 
 - tarjeta debito 
 - tarjeta no
-- таржетахабиенте 
+- tarjetahabiente 
 - tipo della scheda 
 - ufficio giapponese della 
-- счеда 
+- scheda 
 - v pay 
-- v — оплата 
-- Visa 
+- v-pay 
+- visa 
 - visa plus 
 - visa electron 
-- висто 
-- висум 
-- впай   
+- visto 
+- visum 
+- vpay   
 
 #### <a name="keyword_card_security_terms_dict"></a>Keyword_card_security_terms_dict
 
@@ -5757,46 +5749,46 @@ Registro de identidade (RIC) (новый формат):
 - cod seguranca 
 - cod segurança 
 - cod sicurezza 
-- наложен. сег 
-- наложен. сегуранка 
-- наложен. сегуранçа 
-- наложен. сикурезза 
+- cod. seg 
+- cod. seguranca 
+- cod. segurança 
+- cod. sicurezza 
 - codice di sicurezza 
 - codice di verifica 
-- кодиго 
+- codigo 
 - codigo de seguranca 
 - codigo de segurança 
-- криттограмма 
-- криптограм 
-- криптограмме 
+- crittogramma 
+- cryptogram 
+- cryptogramme 
 - cv2 
-- квк 
+- cvc 
 - cvc2 
-- квн 
-- квв 
+- cvn 
+- cvv 
 - cvv2 
 - cód seguranca 
 - cód segurança 
-- кóд. сегуранка 
-- кóд. сегуранçа 
-- кóдиго 
+- cód. seguranca 
+- cód. segurança 
+- código 
 - código de seguranca 
 - código de segurança 
 - de kaart controle 
 - geeft nr uit 
 - issue no 
 - issue number 
-- каартидентификатиенуммер 
-- кредиткартенпруфнуммер 
-- кредиткартенпрüфнуммер 
-- квестиеаантал 
-- Нет. делл'едизионе 
+- kaartidentificatienummer 
+- kreditprtenprufnummer 
+- kreditprtenprüfnummer 
+- kwestieaantal 
+- Нет. dell'edizione 
 - Нет. di sicurezza 
 - numero de securite 
 - numero de verificacao 
 - numero dell'edizione 
 - numero di identificazione della 
-- счеда 
+- scheda 
 - numero di sicurezza 
 - numero van veiligheid 
 - numéro de sécurité 
@@ -5804,24 +5796,24 @@ Registro de identidade (RIC) (новый формат):
 - número de verificação 
 - perno il blocco 
 - pin block 
-- пруфзиффер 
-- прüфзиффер 
+- prufziffer 
+- prüfziffer 
 - security code 
 - security no 
 - security number 
 - sicherheits kode 
-- сичерхеитскоде 
-- сичерхеитснуммер 
-- спелдблок 
+- sicherheitscode 
+- sicherheitsnummer 
+- speldblok 
 - veiligheid nr 
-- веилигхеидсаантал 
-- веилигхеидскоде 
-- веилигхеидснуммер 
-- верфаллдатум 
+- veilig иsaantal 
+- veiligcodescode 
+- veiligмеsnummer 
+- verfalldatum 
 
 #### <a name="keyword_card_expiration_terms_dict"></a>Keyword_card_expiration_terms_dict
 
-- аблауф 
+- ablauf 
 - data de expiracao 
 - data de expiração 
 - data del exp 
@@ -5834,39 +5826,39 @@ Registro de identidade (RIC) (новый формат):
 - datum afloop 
 - datum van exp 
 - de afloop 
-- еспира 
-- еспира 
+- espira 
+- espira 
 - exp date 
 - exp datum 
-- срока действия 
-- истекает 
-- истекает 
-- окончания срока действия 
+- expiration 
+- expire 
+- истечении срока действия 
+- истечение срока действия 
 - fecha de expiracion 
 - fecha de venc 
 - gultig bis 
-- гултигкеитсдатум 
+- gultigkeitsdatum 
 - gültig bis 
-- гüлтигкеитсдатум 
+- gültigkeitsdatum 
 - la scadenza 
-- скаденза 
-- валабле 
-- валидаде 
+- scadenza 
+- valable 
+- validade 
 - valido hasta 
-- валор 
-- венк 
-- венЦименто 
-- венЦимиенто 
-- верлупт 
-- вервалдаг 
-- вервалдатум 
-- вто 
+- valor 
+- venc 
+- vencimento 
+- vencimiento 
+- verloopt 
+- vervaldag 
+- vervaldatum 
+- vto 
 - válido hasta 
 
 
-## <a name="eu-drivers-license-number"></a>Номер водительского удостоверения для драйвера ЕС
+## <a name="eu-drivers-license-number"></a>Номер водительского удостоверения для ЕС
 
-Это сущности в типе конфиденциальной информации номера водительского удостоверения.
+Это объекты в типе конфиденциальной информации "Номер водительского удостоверения для ЕС".
 
 - [Австрия](#austria-drivers-license-number) 
 - [Бельгия](#belgium-drivers-license-number)
@@ -5885,7 +5877,7 @@ Registro de identidade (RIC) (новый формат):
 - [Италия](#italy-drivers-license-number)
 - [Латвия](#latvia-drivers-license-number)
 - [Литва](#lithuania-drivers-license-number)
-- [луксембург](#luxemburg-drivers-license-number)
+- [Мякременский](#luxemburg-drivers-license-number)
 - [Мальта](#malta-drivers-license-number)
 - [Нидерланды](#netherlands-drivers-license-number)
 - [Польша](#poland-drivers-license-number) 
@@ -5895,12 +5887,12 @@ Registro de identidade (RIC) (новый формат):
 - [Словения](#slovenia-drivers-license-number)
 - [Испания](#spain-drivers-license-number)
 - [Швеция](#sweden-drivers-license-number)
-- [Королевств](#uk-drivers-license-number)
+- [Сша](#uk-drivers-license-number)
 
 
-## <a name="eu-national-identification-number"></a>Национальный идентификационный номер ЕС
+## <a name="eu-national-identification-number"></a>Национальный идентификационный номер для ЕС
 
-Это сущности в типе конфиденциальной информации национальной идентификационной информации ЕС.
+Это объекты в типе конфиденциальной информации для номеров национальных идентификационных номеров ЕС.
 
 - [Австрия](#austria-identity-card)
 - [Бельгия](#belgium-national-number)
@@ -5919,7 +5911,7 @@ Registro de identidade (RIC) (новый формат):
 - [Италия](#italy-fiscal-code)
 - [Латвия](#latvia-personal-code)
 - [Литва](#lithuania-personal-code)
-- [луксембург](#luxemburg-national-identification-number-natural-persons)
+- [Мякременский](#luxemburg-national-identification-number-natural-persons)
 - [Мальта](#malta-identity-card-number)
 - [Нидерланды](#netherlands-citizens-service-bsn-number)
 - [Польша](#poland-national-id-pesel)
@@ -5928,12 +5920,12 @@ Registro de identidade (RIC) (новый формат):
 - [Словакия](#slovakia-personal-number)
 - [Словения](#slovenia-unique-master-citizen-number)
 - [Испания](#spain-dni)
-- [Королевств](#uk-national-insurance-number-nino)                                        
+- [Сша](#uk-national-insurance-number-nino)                                        
 
 
-## <a name="eu-passport-number"></a>Номер паспорта ЕС 
+## <a name="eu-passport-number"></a>Номер паспорта для ЕС 
 
-Это сущности в номере паспорта ЕС конфиденциальной информации Типесесе являются сущностями в пакете номеров паспорта ЕС.
+Это сущности в типе конфиденциальной информации для номера паспорта ЕС. Это сущности в пакете номеров паспортов ЕС.
 
 - [Австрия](#austria-passport-number)
 - [Бельгия](#belgium-passport-number)
@@ -5952,7 +5944,7 @@ Registro de identidade (RIC) (новый формат):
 - [Италия](#italy-passport-number)
 - [Латвия](#latvia-passport-number)
 - [Литва](#lithuania-passport-number)
-- [луксембург](#luxemburg-passport-number)
+- [Мякременский](#luxemburg-passport-number)
 - [Мальта](#malta-passport-number)
 - [Нидерланды](#netherlands-passport-number)
 - [Польша](#poland-passport-number)
@@ -5962,12 +5954,12 @@ Registro de identidade (RIC) (новый формат):
 - [Словения](#slovenia-passport-number)
 - [Испания](#spain-passport-number)
 - [Швеция](#sweden-passport-number)
-- [Королевств](#us--uk-passport-number)
+- [Сша](#us--uk-passport-number)
 
 
-## <a name="eu-social-security-number-or-equivalent-identification"></a>Номер социального страхования ЕС или эквивалентная идентификация
+## <a name="eu-social-security-number-or-equivalent-identification"></a>Номер социального обеспечения ЕС или эквивалентная идентификация
 
-Это сущности, которые входят в номер социального страхования ЕС или эквивалентный тип конфиденциальной информации.
+Это сущности, которые имеют номер социального обеспечения ЕС или эквивалентный тип конфиденциальной информации для идентификации.
 
 - [Австрия](#austria-social-security-number-or-equivalent-identification)
 - [Бельгия](#belgium-social-security-number-or-equivalent-identification)
@@ -5984,9 +5976,9 @@ Registro de identidade (RIC) (новый формат):
 - [Швеция](#sweden-social-security-number-or-equivalent-identification)
 
 
-## <a name="eu-tax-identification-number"></a>Идентификационный номер налогоплательщика ЕС
+## <a name="eu-tax-identification-number"></a>Идентификационный номер налога для ЕС
 
-Эти сущности находятся в типе конфиденциальной информации по идентификационному номеру ЕС.
+Эти сущности находятся в типе конфиденциальной информации идентификационных номеров для идентификации налогов в ЕС.
 
 - [Австрия](#austria-tax-identification-number)
 - [Бельгия](#belgium-national-number)
@@ -6005,7 +5997,7 @@ Registro de identidade (RIC) (новый формат):
 - [Италия](#italy-fiscal-code)
 - [Латвия](#latvia-personal-code)
 - [Литва](#lithuania-personal-code)
-- [луксембург](#luxemburg-national-identification-number-non-natural-persons)
+- [Мякременский](#luxemburg-national-identification-number-non-natural-persons)
 - [Мальта](#malta-tax-identification-number)
 - [Нидерланды](#netherlands-tax-identification-number)
 - [Польша](#poland-tax-identification-number)
@@ -6015,11 +6007,10 @@ Registro de identidade (RIC) (новый формат):
 - [Словения](#slovenia-tax-identification-number)
 - [Испания](#spain-tax-identification-number)
 - [Швеция](#sweden-tax-identification-number)
-- [Королевств](#uk-unique-taxpayer-reference-number)
+- [Сша](#uk-unique-taxpayer-reference-number)
 
 
 ## <a name="finland-drivers-license-number"></a>Номер водительского удостоверения для Финляндии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
 
 ### <a name="format"></a>Format
 
@@ -6032,7 +6023,7 @@ Registro de identidade (RIC) (новый формат):
 - шесть цифр 
 - дефис
 - три цифры 
-- цифра или буква;
+- цифра или буква
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -6042,7 +6033,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_finland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_finland_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_finland_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Finland Driver's License Number -->
@@ -6059,156 +6050,156 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_finland_eu_drivers_license_number"></a>Keywords_finland_eu_driver "s_license_number
+#### <a name="keywords_finland_eu_drivers_license_number"></a>Keywords_finland_eu_driver s_license_number
 
-- ажокортти
+- ajokortti
 - permis de conduire
-- ажокортин нумеро
-- кулжеттажа лик.
-- кöркорт
-- кöркортнуммер
-- фöраре лик.
-- ажокортит
-- ажокортин нумерот
+- ajokortin numero
+- kuljja lic.
+- körkort
+- körkortnummer
+- förare lic.
+- ajokortit
+- ajokortin numerot
 
 
-## <a name="finland-european-health-insurance-number"></a>Номер страховки для Финляндии (Европейский)
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="finland-european-health-insurance-number"></a>Номер медицинского страхования для Финляндии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-20 цифр номер
+20-значный номер
 
 ### <a name="pattern"></a>Шаблон
 
-20 – значный номер:
+20-значный номер:
 
 - десять цифр — 8024680246
 - необязательный пробел или дефис
@@ -6221,8 +6212,8 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Regex_Finland_European_Health_Insurance_Number находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово из Keyword_Finland_European_Health_Insurance_Number.
+- Regex Regex_Finland_European_Health_Insurance_Number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Finland_European_Health_Insurance_Number.
 
 ```xml
       <!-- Finland European Health Insurance Number -->
@@ -6237,36 +6228,36 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_finland_european_health_insurance_number"></a>Keyword_finland_european_health_insurance_number
 
-- ехик #
-- ехик
-- финландехикнумбер #
-- финска сжукфöрсäкрингскорт
-- карточка работоспособности
-- Карточка страхования здоровья
-- номер страховки здоровья
-- хäлсокорт
-- саираанхоитокортин
-- саираусвакуутускортти
-- саираусвакуутуснумеро
-- сжукфöрсäкринг нуммер
-- сжукфöрсäкрингскорт
-- Суомен саираусвакуутускортти
-- тервэйскортти
+- ehic #
+- ehic
+- finlandehicnumber #
+- finska sjukförsökringskort
+- карточка состояния
+- карта медицинского страхования
+- номер медицинского страхования
+- hlsokort
+- sairaanhoitokortin
+- sairausvakuutuskortti
+- sairausvakuutusnumero
+- sjukförsökring nummer
+- sjukförsökringskort
+- suomen sairausvakuutuskortti
+- terveyskortti
 
 
-## <a name="finland-national-id"></a>Национальный идентификатор Финляндии
+## <a name="finland-national-id"></a>Национальный ИД Финляндии
 
 ### <a name="format"></a>Format
 
-шесть цифр плюс символ, указывающий на столетие плюс три цифры плюс контрольная цифра
+шесть цифр плюс символ, указывающий на время года, а также три цифры плюс контрольная цифра
 
 ### <a name="pattern"></a>Шаблон
 
 Шаблон должен включать в себя все указанные ниже элементы.
-- шесть цифр в формате формата ддммгг —, представляющие собой дату рождения 
-- маркер века ("-", "+" или "a") 
-- трехзначный идентификационный номер, соличный с тремя цифрами 
-- цифра или буква (без учета регистра), которая является контрольной цифрой
+- шесть цифр в формате DDMMYY, которые являются датой рождения 
+- маркер "-", "+" или "a" 
+- трехзначный персональный идентификационный номер 
+- цифра или буква (без регистрации буквы), которая является проверокой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -6275,13 +6266,13 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_finnish_national_id находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_finnish_national_id
-- Контрольная сумма проходит
+- функция Func_finnish_national_id находит содержимое, которое соответствует шаблону
+- находится ключевое слово из Keyword_finnish_national_id,
+- контрольнаяума передается
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_finnish_national_id находит содержимое, которое соответствует шаблону;
-- Контрольная сумма проходит
+- функция Func_finnish_national_id находит содержимое, которое соответствует шаблону
+- контрольнаяума передается
 
 ```xml
       <!-- Finnish National ID-->
@@ -6298,64 +6289,64 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-- аинутлаатуинен хенкилöкохтаинен туннус
-- хенкилöкохтаинен туннус
-- хенкилöтуннус
-- хенкилöтуннуснумеро #
-- хенкилöтуннуснумеро
-- хету
-- ID No
-- идентификационный номер
+- htutlaatuinen henkilökohtainen tunnus
+- henkilkokohtainen tunnus
+- henkilötunnus
+- henkilötunnusnumero #
+- henkilötunnusnumero
+- hetu
+- id no
+- id number
 - identification number
-- идентититти нумеро
-- идентификационный номер
-- иднумбер
-- кансаллинен хенкилöтуннус
-- кансаллисен хенкилöкортин
-- номер национальной идентификационной карточки
-- код страны
-- личный идентификатор
-- код персонального удостоверения
-- персоналиднумбер #
-- персонбетеккнинг
-- персоннуммер
+- identitedent numero
+- identity number
+- idnumber
+- kansallinen henkilötunnus
+- kansaаsen henkilökortin
+- national id card
+- national id no.
+- личный ид
+- персональный код удостоверения
+- personalidnumber #
+- personbeteckning
+- personnummer
 - social security number
-- сосиаалитурватуннус
+- sosiaaliturvatunnus
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- туннистенумеро
-- туннус нумеро
-- туннуслуку
-- туннуснумеро
-- верокортти
-- веронумеро
-- веротуннисте
-- веротуннус
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- ыdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
+- tunnistenumero
+- число tunnus
+- tunnusluku
+- tunnusnumero
+- verokortti
+- veronumero
+- verotunniste
+- verotunnus
 
 
-## <a name="finland-passport-number"></a>Номер паспорта для Финляндии
-Этот объект типа конфиденциальной информации доступен в типе конфиденциальной информации номера паспорта ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="finland-passport-number"></a>Номер паспорта гражданина Финляндии
+Этот объект типа конфиденциальной информации доступен в типе конфиденциальной информации номера паспорта ЕС и доступен как автономный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
-сочетание девяти букв и цифр
+сочетание девяти букв и цифр.
 
 ### <a name="pattern"></a>Шаблон
-сочетание девяти букв и цифр:
-- две буквы (без учета регистра) 
+сочетание из девяти букв и цифр:
+- две буквы (без чувствительность к буквам) 
 - семь цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6366,7 +6357,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - регулярное выражение Regex_finland_passport_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_eu_passport_number_common или Keyword_finland_passport_number.
+- Находится ключевое слово Keywords_eu_passport_number_common или Keyword_finland_passport_number.
 
 ```xml
 <!-- Finland Passport Number -->
@@ -6384,34 +6375,34 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keyword_finland_passport_number"></a>Keyword_finland_passport_number
 
-- суомалаинен Пасси
-- транзитный нумеро
-- Pass Нумеро. #
-- транзитный нумеро #
-- Pass Нумеро.
-- пасси #
-- номер Пасси
+- suomaomaomaen passi
+- passin numero
+- passin numero. #
+- passin numero #
+- passin numero.
+- passi #
+- passi number
 
 
-## <a name="finland-social-security-number-or-equivalent-identification"></a>Номер социального страхования для Финляндии или эквивалентная идентификация
-Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
+## <a name="finland-social-security-number-or-equivalent-identification"></a>Номер социального обеспечения Финляндии или эквивалентная идентификация
+Этот объект типа конфиденциальной информации доступен только в номере социального обеспечения ЕС или типе конфиденциальной информации эквивалентного ИД.
 
 ### <a name="format"></a>Format
 
-11 символов в указанном формате.
+Сочетание из 11 символов в указанном формате
   
 ### <a name="pattern"></a>Шаблон
 
@@ -6419,9 +6410,9 @@ Registro de identidade (RIC) (новый формат):
   
 - шесть цифр 
 - один из следующих экземпляров:
-  - символ "плюс"
-  - символ "минус"
-  - буква "A" (без учета регистра)
+  - символ плюса
+  - символ минус
+  - буква "A" (без чувствительность к букве)
 - три цифры
 - одна буква или одна цифра
     
@@ -6432,11 +6423,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_finland_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_finland_eu_ssn_or_equivalent` . 
+- Функция находит  `Func_finland_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_finland_eu_ssn_or_equivalent` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_finland_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_finland_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -6456,30 +6447,29 @@ Registro de identidade (RIC) (новый формат):
 #### <a name="keywords_finland_eu_ssn_or_equivalent"></a>Keywords_finland_eu_ssn_or_equivalent
 
 - identification number
-- личный идентификатор
-- идентификационный номер
-- Финский национальный идентификационный номер
-- персоналиднумбер #
+- личный ид
+- идентификациный номер
+- финский национальный ид-номер
+- personalidnumber #
 - national identification number
-- идентификационный номер
-- код страны
-- Национальный идентификационный номер
-- ID No
-- туннистенумеро
-- хенкилöтуннус
-- иксилöллинен хенкилöкохтаинен туннистенумеро
-- аинутлаатуинен хенкилöкохтаинен туннус
-- идентититти нумеро
-- Суомен кансаллинен хенкилöтуннус
-- хенкилöтуннуснумеро #
-- кансаллисен туннистенумеро
-- туннуснумеро
-- кансаллинен туннус нумеро
-- хету
+- id number
+- national id no.
+- national id number
+- id no
+- tunnistenumero
+- henkilötunnus
+- yksilöllinen henkilkohtainen tunnistenumero
+- htutlaatuinen henkilökohtainen tunnus
+- identitedent numero
+- suomen kansallinen henkilötunnus
+- henkilötunnusnumero #
+- kansa обрезка tunnistenumero
+- tunnusnumero
+- kansallinen tunnus numero
+- hetu
 
 
 ## <a name="france-drivers-license-number"></a>Номер водительского удостоверения для Франции
-Этот объект типа конфиденциальной информации доступен в типе конфиденциальной информации номера водительского удостоверения для ЕС и доступен как отдельный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -6496,8 +6486,8 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_french_drivers_license находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_french_drivers_license.
+- функция Func_french_drivers_license находит содержимое, которое соответствует шаблону.
+- находится ключевое слово из Keyword_french_drivers_license.
 
 ```xml
     <!-- France Driver's License Number -->
@@ -6513,152 +6503,152 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_french_drivers_license"></a>Keyword_french_drivers_license
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- управление лицензиями
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 - permis de conduire
 - licence number
 - license number
 - licence numbers
 - license numbers
-- нумéрос де лицензия
+- numéros de licence
 
 
-## <a name="france-health-insurance-number"></a>Номер страховки для Франции
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="france-health-insurance-number"></a>Номер медицинского страхования для Франции
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-21 цифра цифра
+21-значный номер
 
 ### <a name="pattern"></a>Шаблон
 
-21 цифра:
+21-значный номер:
 
 - десять цифр
-- необязательный пробел
+- дополнительное пространство
 - десять цифр
-- необязательный пробел
+- дополнительное пространство
 - цифра
 
 
@@ -6669,8 +6659,8 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- регулярное выражение Regex_France_Health_Insurance_Number находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово из Keyword_France_Health_Insurance_Number.
+- Regex Regex_France_Health_Insurance_Number находит содержимое, которое соответствует шаблону.
+- находится ключевое слово из Keyword_France_Health_Insurance_Number.
 
 ```xml
       <!-- France Health Insurance Number -->
@@ -6685,12 +6675,12 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_france_health_insurance_number"></a>Keyword_France_health_insurance_number
 
-- Карточка страхования
-- Витале корзины
-- Корзина д'ассурé социальных сетей
+- страховая карта
+- carte vitale
+- carte d'assuré social
 
 
-## <a name="france-national-id-card-cni"></a>Национальный идентификационный номер страны Франции (CNI)
+## <a name="france-national-id-card-cni"></a>Национальный удостоверение личности для Франции (CNI)
 
 ### <a name="format"></a>Format
 
@@ -6708,7 +6698,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - регулярное выражение Regex_france_cni находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово из Keywords_france_eu_national_id_card.
+- Находится ключевое слово из Keywords_france_eu_national_id_card.
 
 ```xml
     <!-- France CNI -->
@@ -6725,20 +6715,20 @@ Registro de identidade (RIC) (новый формат):
 #### <a name="keywords_france_eu_national_id_card"></a>Keywords_france_eu_national_id_card
 
 - card number
-- Национальный д'идентитé для корзины
-- Национальный д'идените для корзины
-- CNI #
-- CNI
-- Компте банкаире
+- carte nationale d'identité
+- carte nationale d'idenite no
+- cni #
+- cni
+- compte bancaire
 - national identification number
-- Национальная идентификация
-- натионалидно #
-- нумéро д'ассуранце маладие
-- нумéро де корзина Витале
+- national identity
+- nationalidno #
+- numéro d'assurance maladie
+- numéro de carte vitale
 
    
-## <a name="france-passport-number"></a>Номер паспорта для Франции
-Этот объект типа конфиденциальной информации доступен в типе конфиденциальной информации номера паспорта ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="france-passport-number"></a>Номер паспорта гражданина Франции
+Этот объект типа конфиденциальной информации доступен в типе конфиденциальной информации номера паспорта ЕС и доступен как автономный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -6748,7 +6738,7 @@ Registro de identidade (RIC) (новый формат):
 
 девять цифр и букв:
 - две цифры 
-- две буквы (без учета регистра) 
+- две буквы (без чувствительность к буквам) 
 - пять цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6778,25 +6768,25 @@ Registro de identidade (RIC) (новый формат):
 - Passport Number
 - Passport No
 - Passport#
-- Службу #
-- пасспортид
-- пасспортно
-- пасспортнумбер
+- Passport #
+- PassportID
+- Passportno
+- passportnumber
 - パスポート
 - パスポート番号
-- パスポートのнум
+- パкポ.
 - パスポート＃ 
 - Numéro de passeport
 - Passeport n °
 - Passeport Non
 - Passeport#
-- пассепорт #
-- пассепортнон
+- Passeport #
+- PasseportNon
 - Passeportn °
 
       
-## <a name="france-social-security-number-insee-or-equivalent-identification"></a>Номер социального страхования для Франции (INSEE) или эквивалентная идентификация
-Этот объект типа конфиденциальной информации включен в номер социального страхования ЕС и эквивалентный тип конфиденциальной информации и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="france-social-security-number-insee-or-equivalent-identification"></a>Номер социального обеспечения для Франции (INSEE) или эквивалентная идентификация
+Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации номера социального обеспечения ЕС и эквивалентного ИД и доступен как автономный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -6805,7 +6795,7 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="pattern"></a>Шаблон
 
 Должен соответствовать одному из двух шаблонов:
-- 13 цифр, за которыми следует пробел, за которым следуют две цифры.<br/>
+- 13 цифр, за которыми следуют пробелы, за которыми следуют две цифры<br/>
 или
 - 15 последовательных цифр.
 
@@ -6849,17 +6839,17 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_fr_insee"></a>Keyword_fr_insee
 
-- INSEE
+- insee
 - securité sociale
 - securite sociale
 - national id
 - national identification
 - numéro d'identité
 - no d'identité
-- Нет. д'идентитé
+- Нет. d'identité
 - numero d'identite
 - no d'identite
-- Нет. д'идентите
+- Нет. d'identite
 - social security number
 - social security code
 - social insurance number
@@ -6871,7 +6861,7 @@ Registro de identidade (RIC) (новый формат):
 - numéro de sécu
 - code sécu 
 
-## <a name="france-tax-identification-number"></a>Налоговый идентификационный номер для Франции
+## <a name="france-tax-identification-number"></a>Идентификационный номер налога для Франции
 
 ### <a name="format"></a>Format
 
@@ -6881,7 +6871,7 @@ Registro de identidade (RIC) (новый формат):
 
 13 цифр.
   
-- Одна цифра, которая должна быть равна 0, 1, 2 или 3
+- Одна цифра, которая должна быть 0, 1, 2 или 3
 - 1 цифра
 - пробел (необязательно); 
 - 2 цифры 
@@ -6890,7 +6880,7 @@ Registro de identidade (RIC) (новый формат):
 - пробел (необязательно); 
 - 3 цифры 
 - пробел (необязательно); 
-- 3 контрольные цифры 
+- 3 проверок цифры 
 
   
 ### <a name="checksum"></a>Контрольная сумма
@@ -6900,11 +6890,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_france_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_france_eu_tax_file_number` . 
+- Функция находит  `Func_france_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_france_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_france_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_france_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- France Tax Identification Number (numéro SPI.) -->
@@ -6928,49 +6918,49 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_france_eu_tax_file_number"></a>Keywords_france_eu_tax_file_number
 
-- нумéро д'идентификатион Фин.
+- numéro d'identification fiscale
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="france-value-added-tax-number"></a>Значение налогового номера, добавленного в Франции
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="france-value-added-tax-number"></a>Номер налога на добавленную стоимость для Франции
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-13-буквенно-буквенно-цифровой шаблон
+13-символьный буквонумерный шаблон
 
 ### <a name="pattern"></a>Шаблон
 
-13 символов буквенно-цифрового шаблона:
+13 символов букв и цифр:
 
-- две буквы — FR (без учета регистра)
+- две буквы — FR (без чувствительность к делу)
 - необязательный пробел или дефис
 - две буквы или цифры
-- необязательный пробел, точка, дефис или запятая
+- дополнительное пространство, точка, дефис или запятая
 - три цифры
-- необязательный пробел, точка, дефис или запятая
+- дополнительное пространство, точка, дефис или запятая
 - три цифры
-- необязательный пробел, точка, дефис или запятая
+- дополнительное пространство, точка, дефис или запятая
 - три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6980,11 +6970,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_france_value_added_tax_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_france_value_added_tax_number.
+- Функция Func_france_value_added_tax_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_france_value_added_tax_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_france_value_added_tax_number находит содержимое, которое соответствует шаблону;
+- Функция Func_france_value_added_tax_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- France Value Added Tax Number -->
@@ -7002,20 +6992,19 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_france_value_added_tax_number"></a>Keyword_France_value_added_tax_number
 
-- номер НДС
-- НДС No
-- процент #
+- номер плательщика НДС
+- vat no
+- vat #
 - налог на добавленную стоимость
-- Siren идентификация No нумéро д'идентификатион таксе Сур валеур ажаутéе
-- таксе валеур ажаутéе
-- таксе Сур Ла валеур ажаутéе
-- n ° тва
-- нумéро de тва
-- нумéро д'идентификатион Siren
+- siren identification no numéro d'identification taxe sur valeur ajoutée
+- taxe valeur ajoutée
+- taxe sur la valeur ajoutée
+- n° tva
+- numéro de tva
+- numéro d'identification siren
 
 
 ## <a name="germany-drivers-license-number"></a>Номер водительского удостоверения для Германии
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера лицензии для драйвера ЕС и доступен как отдельный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -7024,11 +7013,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="pattern"></a>Шаблон
 
 11 цифр и букв (без учета регистра)
-- цифра или буква; 
+- цифра или буква 
 - две цифры 
 - шесть цифр или букв 
 - цифра 
-- цифра или буква;
+- цифра или буква
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -7055,169 +7044,169 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_german_drivers_license_number"></a>Keyword_german_drivers_license_number
 
-- аусстеллунгсдатум
-- аусстеллунгсорт
+- ausstellungsdatum
+- ausstellungsort
 - ausstellende behöde
 - ausstellende behorde
 - ausstellende behoerde
-- фüхрерсчеин
-- фухрерсчеин
-- фуехрерсчеин
-- фüхрерсчеиннуммер
-- фухрерсчеиннуммер
-- фуехрерсчеиннуммер
-- фüхрерсчеин — 
-- фухрерсчеин — 
-- фуехрерсчеин — 
-- фüхрерсчеиннуммернр
-- фухрерсчеиннуммернр
-- фуехрерсчеиннуммернр
-- фüхрерсчеиннуммерклассе
-- фухрерсчеиннуммерклассе
-- фуехрерсчеиннуммерклассе
-- НР — фüхрерсчеин
-- НР — фухрерсчеин
-- НР — фуехрерсчеин
-- нет — фüхрерсчеин
-- нет — фухрерсчеин
-- нет — фуехрерсчеин
-- n — фüхрерсчеин
-- n — фухрерсчеин
-- n — фуехрерсчеин
+- fhrerschein
+- fuhrerschein
+- fuehrerschein
+- fhrerscheinnummer
+- fuhrerscheinnummer
+- fuehrerscheinnummer
+- fhrerschein- 
+- fuhrerschein- 
+- fuehrerschein- 
+- fhrerscheinnummernr
+- fuhrerscheinnummernr
+- fuehrerscheinnummernr
+- fhrerscheinnummerklasse
+- fuhrerscheinnummerklasse
+- fuehrerscheinnummerklasse
+- nr-fhrerschein
+- nr-fuhrerschein
+- nr-fuehrerschein
+- no-fhrerschein
+- no-fuhrerschein
+- no-fuehrerschein
+- n-fhrerschein
+- n-fuhrerschein
+- n-fuehrerschein
 - permis de conduire
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- длно
+- driving permit
+- dlno
 
 
-## <a name="germany-identity-card-number"></a>Номер идентификационной карточки для Германии
+## <a name="germany-identity-card-number"></a>Номер удостоверения личности для Германии
 
 ### <a name="format"></a>Format
 
-с 1 ноября 2010: девять букв и цифр
+с 1 ноября 2010 г.: девять букв и цифр
 
-от 1 апреля 1987 до 31 октября 2010:10 цифр.
+с 1 апреля 1987 г. по 31 октября 2010 г.: 10 цифр
 
 ### <a name="pattern"></a>Шаблон
 
-с 1 ноября 2010:
-- одна буква (без учета регистра) 
+с 1 ноября 2010 г.:
+- одна буква (без чувствительность к букве) 
 - восемь цифр
 
-от 1 апреля 1987 до 31 октября 2010:
+с 1 апреля 1987 г. по 31 октября 2010 г.:
 - десять цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -7244,23 +7233,23 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_germany_id_card"></a>Keyword_germany_id_card
 
-- аусвеис
-- гпид
-- процедура
-- идентификатион
-- идентифизиерунгснуммер
+- ausweis
+- gpid
+- identification
+- identifikation
+- identifizierungsnummer
 - identity card
-- идентификационный номер
-- ID — нуммер
-- личный идентификатор
-- персоналаусвеис
-- Идентификатор персöнличе нуммер
-- персöнличе идентификатионснуммер
-- персöнличе — ID — нуммер
+- идентификациный номер
+- id-nummer
+- личный ид
+- personalausweis
+- persönliche id nummer
+- persönliche identifikationsnummer
+- persönliche-id-nummer
 
 
-## <a name="germany-passport-number"></a>Номер паспорта для Германии
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера паспорта ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="germany-passport-number"></a>Номер паспорта гражданина Германии
+Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации номера паспорта ес и доступен как автономный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -7269,9 +7258,9 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="pattern"></a>Шаблон
 
 Шаблон должен включать в себя все указанные ниже элементы.
-- Первый символ — цифра или буква из этого набора (C, F, G, H, J, K) 
+- первый символ — это цифра или буква из этого набора (C, F, G, H, J, K) 
 - три цифры 
-- пять цифр или букв из этого набора (C,-H, J-N, P, R, T, V-Z) 
+- пять цифр или букв из этого набора (C, -H, J-N, P, R, T, V-Z) 
 - цифра
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -7282,12 +7271,12 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_german_passport находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово FROM `Keyword_german_passport` .
+- Найдено ключевое `Keyword_german_passport` слово.
 - Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_german_passport_data находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово FROM `Keyword_german_passport` .
+- Найдено ключевое `Keyword_german_passport` слово.
 - Контрольная сумма проходит проверку.
 
 ```xml
@@ -7308,21 +7297,21 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_german_passport"></a>Keyword_german_passport
 
-- реисепассе
-- реисепасснуммер
+- reisepasse
+- reisepassnummer
 - No-Reisepass 
 - Nr-Reisepass
 - Reisepass-Nr
-- пасснуммер
-- реисепäссе
-- пассепорт но.
-- пассепорт нет
+- Passnummer
+- reisepгsse
+- passeport no.
+- passeport no
 
-## <a name="germany-tax-identification-number"></a>Идентификационный номер налогоплательщика (Германия)
+## <a name="germany-tax-identification-number"></a>Идентификационный номер налога для Германии
 
 ### <a name="format"></a>Format
 
-11 цифр без пробелов и разделителей
+11 цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -7344,11 +7333,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_germany_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_germany_eu_tax_file_number` . 
+- Функция находит  `Func_germany_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_germany_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_germany_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_germany_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Germany Tax Identification Number -->
@@ -7367,50 +7356,50 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_germany_eu_tax_file_number"></a>Keywords_germany_eu_tax_file_number
 
-- идентификатионснуммер
-- Идентификатор стеуер
-- стеуеридентификатионснуммер
-- стеуернуммер
+- identifikationsnummer
+- steuer id
+- steueridentifikationsnummer
+- steuernummer
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- зинн #
-- зинн
-- зинннуммер
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- ыdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
+- zinn #
+- zinn
+- zinnnummer
 
 
-## <a name="germany-value-added-tax-number"></a>Значение налогового номера добавленного в Германии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="germany-value-added-tax-number"></a>Номер налога на добавленную стоимость в Германии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-11 буквенно-цифрового шаблона
+11 символов букв и цифр
 
 ### <a name="pattern"></a>Шаблон
 
-11-буквенно-цифровой буквенно-значный шаблон:
+11-символьный буквонумерный шаблон:
 
 - буква D или d
 - буква E или e
-- необязательный пробел
+- дополнительное пространство
 - три цифры
 - необязательный пробел или запятая
 - три цифры
@@ -7424,11 +7413,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_germany_value_added_tax_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_germany_value_added_tax_number.
+- Функция Func_germany_value_added_tax_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_germany_value_added_tax_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_germany_value_added_tax_number находит содержимое, которое соответствует шаблону;
+- Функция Func_germany_value_added_tax_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Germany Value Added Tax Number -->
@@ -7446,21 +7435,20 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_germany_value_added_tax_number"></a>Keyword_germany_value_added_tax_number
 
-- номер НДС
-- НДС No
-- процент #
-- НДС # мехрвертстеуер
-- мвст
-- мехрвертстеуер идентификатионснуммер
-- мехрвертстеуер нуммер
+- номер плательщика НДС
+- vat no
+- vat #
+- vat# mehrwertsteuer
+- mwst
+- mehrwertsteuer identifikationsnummer
+- mehrwertsteuer nummer
 
 
-## <a name="greece-drivers-license-number"></a>Номер водительского удостоверения для драйвера Греция
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера лицензии для драйвера ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="greece-drivers-license-number"></a>Номер водительского удостоверения для Греция
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов и разделителей
+девять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -7474,7 +7462,7 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_greece_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_greece_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_greece_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Greece Driver's License Number -->
@@ -7491,137 +7479,137 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_greece_eu_drivers_license_number"></a>Keywords_greece_eu_driver "s_license_number
+#### <a name="keywords_greece_eu_drivers_license_number"></a>Keywords_greece_eu_driver s_license_number
 
 - δεια οδήγησης
-- Адеиа одигисис
+- Adeia odigisis
 - Άδεια οδήγησης
 - Δίπλωμα οδήγησης
 
 
-## <a name="greece-national-id-card"></a>Национальный идентификационный номер карты (Греция)
+## <a name="greece-national-id-card"></a>Карточка национального удостоверения личности для Греция
 
 ### <a name="format"></a>Format
 
@@ -7669,23 +7657,23 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_greece_id_card"></a>Keyword_greece_id_card
 
-- Греческий идентификатор
-- Греческая национальная идентификация
-- Греческая личная идентификационная карточка
-- код греческой политики
+- греческий ид
+- греческий национальный ид
+- греческий персональный id-карта
+- греческий ид полиции
 - identity card
-- таутотита
+- tautotita
 - ταυτότητα
 - ταυτότητας
 
 
-## <a name="greece-passport-number"></a>Номер паспорта для Греция
+## <a name="greece-passport-number"></a>Номер паспорта гражданина Греция
 
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-Две буквы, за которыми следуют семь цифр без пробелов и разделителей
+Две буквы, за которыми следуют семь цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -7700,7 +7688,7 @@ Registro de identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_greece_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_greece_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_greece_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -7719,16 +7707,16 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_greece_eu_passport_number"></a>Keywords_greece_eu_passport_number
 
@@ -7736,17 +7724,17 @@ Registro de identidade (RIC) (новый формат):
 - αριθμούς διαβατηρίου
 - αριθμός διαβατηριο
 
-## <a name="greece-tax-identification-number"></a>Идентификационный номер налога в Греция
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="greece-tax-identification-number"></a>Идентификационный номер налога для Греция
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-Девять цифр без пробелов и разделителей
+Девять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -7761,7 +7749,7 @@ Registro de identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_greece_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_greece_eu_tax_file_number` . 
+- Найдено ключевое  `Keywords_greece_eu_tax_file_number` слово. 
     
 ```xml
       <!-- Greek Tax Identification Number -->
@@ -7777,35 +7765,35 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_greece_eu_tax_file_number"></a>Keywords_greece_eu_tax_file_number
 
-- афм #
-- афм
-- аφμ | аφμ αριθμός
-- аφμ
+- afm #
+- afm
+- aкат|a αριθμός
+- aката
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- реестр налога нет
-- Налоговый номер реестра
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- таксрегистрино #
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- tax registry no
+- налоговый номер реестра
+- ыd #
+- ыdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- taxregistryno #
+- tin id
+- tin no
+- tin #
 - αριθμός φορολογικού μητρώου
 - τον αριθμό φορολογικού μητρώου
-- φορολογικού μητρώου Νο
+- φορολογικού μητρώου νο
 
 
-## <a name="hong-kong-identity-card-hkid-number"></a>Номер идентификационной карточки Гонконг (HKID)
+## <a name="hong-kong-identity-card-hkid-number"></a>Номер удостоверения личности в Гонконге (HKID)
 
 ### <a name="format"></a>Format
 
@@ -7851,12 +7839,12 @@ Registro de identidade (RIC) (новый формат):
 #### <a name="keyword_hong_kong_id_card"></a>Keyword_hong_kong_id_card
 
 - hkid
-- идентификационная карточка Гонконг
-- хкидк
+- удостоверение личности в Гонконге
+- HKIDC
 - id card
 - identity card
-- идентификационная карточка HK
-- Идентификатор Гонконг
+- удостоверение hk
+- ид в Гонконге
 - 香港身份證
 - 香港永久性居民身份證
 - 身份證
@@ -7889,19 +7877,17 @@ Registro de identidade (RIC) (новый формат):
 - 香港特別行政區非永久性居民身分証
 
    
-## <a name="hungary-drivers-license-number"></a>Номер водительского удостоверения для драйвера Венгрии
-
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="hungary-drivers-license-number"></a>Номер водительского удостоверения для Венгрии
 
 ### <a name="format"></a>Format
 
-Две буквы, за которыми следуют шесть цифр.
+Две буквы, за которыми следуют шесть цифр
   
 ### <a name="pattern"></a>Шаблон
 
 Две буквы и шесть цифр:
   
-- Две буквы (без учета регистра) 
+- Две буквы (без чувствительность к буквам) 
 - шесть цифр.
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -7913,7 +7899,7 @@ Registro de identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_hungary_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_hungary_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_hungary_eu_driver's_license_number` найдено. 
     
 ```xml
       <Entity id="9d31c46b-6e6b-444c-aeb1-6dd7e604bb24" patternsProximity="300" recommendedConfidence="75">
@@ -7929,142 +7915,142 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- управление лицензиями
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_hungary_eu_drivers_license_number"></a>Keywords_hungary_eu_driver "s_license_number
+#### <a name="keywords_hungary_eu_drivers_license_number"></a>Keywords_hungary_eu_driver s_license_number
 
-- везетои енжедели
-- везетőи енжедéли
-- везетőи енжедéлек
+- vezetoi engedely
+- vezetфи engedély
+- vezetфи engedélyek
 
 
-## <a name="hungary-personal-identification-number"></a>Венгрия персональный идентификационный номер
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="hungary-personal-identification-number"></a>Персональный идентификационный номер для Венгрии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
@@ -8074,9 +8060,9 @@ Registro de identidade (RIC) (новый формат):
 
 11 цифр:
   
-- Одна цифра, соответствующая пол (1-м-штекер, 2-гнездо, другие номера также могут иметь гражданские телефоны перед 1900 или гражданами с удвоенной гражданией) 
-- Шесть цифр, соответствующих дате рождения (ГГММДД)
-- Три цифры, соответствующие серийному номеру.
+- Одна цифра, соответствующая полу (1- и 2-женская, другая цифра также возможна для граждан, которые раньше 1900 г., или граждан с двойным паспортом) 
+- Шесть цифр, соответствующих дате рождения (YYMMDD)
+- Три цифры, соответствующие серийному номеру
 - Одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -8087,12 +8073,12 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_hungary_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_hungary_eu_national_id_card` . 
+- Функция находит  `Func_hungary_eu_national_id_card` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_hungary_eu_national_id_card` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_hungary_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_hungary_eu_national_id_card` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Hungary Personal Identification Number -->
@@ -8115,26 +8101,26 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_hungary_eu_national_id_card"></a>Keywords_hungary_eu_national_id_card
 
-- идентификационный номер
+- id number
 - identification number
-- СЗ IG
-- СЗ. IG.
-- СЗ. IG.
-- сземéлязоносíтó игазолвáни
-- сземéли игазолвáни
+- sz ig
+- sz. ig.
+- sz.ig.
+- személyazonosító igazolvány
+- személyi igazolvány
 
 
-## <a name="hungary-passport-number"></a>Номер паспорта для Венгрии
+## <a name="hungary-passport-number"></a>Номер паспорта гражданина Венгрии
 
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-Две буквы, за которыми следуют шесть или семь цифр без пробелов и разделителей
+Две буквы, за которыми следуют шесть или семь цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
-Две буквы, за которыми следуют шесть или семь цифр.
+Две буквы, за которыми следуют шесть или семь цифр
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -8145,7 +8131,7 @@ Registro de identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_hungary_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_hungary_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_hungary_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -8163,30 +8149,30 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_hungary_eu_passport_number"></a>Keywords_hungary_eu_passport_number
 
-- úтлевéл сзáма
-- Úтлевелек сзáма
-- úтлевéл сзáм
+- útlevél száma
+- Útlevelek száma
+- útlevél szám
 
-## <a name="hungary-social-security-number-or-equivalent-identification"></a>Венгерский номер социального страхования или идентификация эквивалентных прав
+## <a name="hungary-social-security-number-or-equivalent-identification"></a>Номер социального обеспечения для Венгрии или эквивалентная идентификация
 
-Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
+Этот объект типа конфиденциальной информации доступен только в номере социального обеспечения ЕС или типе конфиденциальной информации эквивалентного ИД.
 
 ### <a name="format"></a>Format
 
-Девять цифр без пробелов и разделителей
+Девять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -8200,12 +8186,12 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_hungary_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_hungary_eu_ssn_or_equivalent` . 
+- Функция находит  `Func_hungary_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_hungary_eu_ssn_or_equivalent` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_hungary_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_hungary_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -8224,36 +8210,36 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_hungary_eu_ssn_or_equivalent"></a>Keywords_hungary_eu_ssn_or_equivalent
 
-- Венгерский номер социального страхования
+- венгерский номер социального обеспечения
 - social security number
-- соЦиалсекуритинумбер #
-- хссн #
-- соЦиалсекуритинно
-- хссн
-- таж
-- таж #
-- SSN
-- SSN #
-- социальное страхование нет
-- áфа
-- кöзöссéги адóсзáм
-- áлталáнос форгалми адó сзáм
-- хоззáадоттéртéк адó
-- áфа сзáм
-- магяр áфа сзáм
+- socialsecuritynumber #
+- hssn #
+- socialsecuritynno
+- hssn
+- taj
+- taj #
+- ssn
+- ssn #
+- social security no
+- áfa
+- közösségi adószám
+- általános forgalmi adó szám
+- hozzáadottérték adó
+- áfa szám
+- magyar áfa szám
 
 
-## <a name="hungary-tax-identification-number"></a>Идентификационный номер венгерского налога
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="hungary-tax-identification-number"></a>Идентификационный номер налога для Венгрии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-Десять цифр без пробелов и разделителей
+Десять цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
@@ -8271,12 +8257,12 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_hungary_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_hungary_eu_tax_file_number` . 
+- Функция находит  `Func_hungary_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_hungary_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция  `Func_hungary_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_hungary_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Hungary Tax Identification Number -->
@@ -8299,49 +8285,49 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keywords_hungary_eu_tax_file_number"></a>Keywords_hungary_eu_tax_file_number
 
-- адóазоносíтó сзáм
-- адóхатóсáг сзáм
-- адóсзáм
-- Венгерский Tin
-- хунгатиантин #
-- Налоговый орган без
+- adóazonosító szám
+- adóhatóság szám
+- adószám
+- венгерский оголовье
+- hungatiantin #
+- tax authority no
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- номер НДС
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- ыdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
+- номер плательщика НДС
 
 
-## <a name="hungary-value-added-tax-number"></a>Венгерский номер добавленного значения налога
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="hungary-value-added-tax-number"></a>Номер налога на добавленную стоимость для Венгрии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-10-буквенно-буквенно-цифровой шаблон
+10-символьный буквонумерный шаблон
 
 ### <a name="pattern"></a>Шаблон
 
-10 буквенно-цифровых буквенных символов:
+10 символов букв и цифр:
 
-- 2 буквы — HU или HU
-- необязательный пробел
+- 2 буквы — HU или hu
+- дополнительное пространство
 - 8 цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -8352,12 +8338,12 @@ Registro de identidade (RIC) (новый формат):
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 
-- Функция Func_hungarian_value_added_tax_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_hungarian_value_added_tax_number.
+- Функция Func_hungarian_value_added_tax_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_hungarian_value_added_tax_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 
-- Функция Func_hungarian_value_added_tax_number находит содержимое, которое соответствует шаблону;
+- Функция Func_hungarian_value_added_tax_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Hungarian Value Added Tax Number -->
@@ -8376,20 +8362,20 @@ Registro de identidade (RIC) (новый формат):
 
 #### <a name="keyword_hungary_value_added_tax_number"></a>Keyword_Hungary_value_added_tax_number
 
-- процент
-- Налоговый номер добавленной стоимости
-- процент #
-- ватно #
-- хунгарианватно #
-- налог но.
-- налог на добавленное значение áфа
-- кöзöссéги адóсзáм
-- áлталáнос форгалми адó сзáм
-- хоззáадоттéртéк адó
-- áфа сзáм
+- vat
+- номер налога на добавленную стоимость
+- vat #
+- vatno #
+- hungarianvatno #
+- tax no.
+- налог на добавленную стоимость ( áfa)
+- közösségi adószám
+- általános forgalmi adó szám
+- hozzáadottérték adó
+- áfa szám
 
 
-## <a name="india-permanent-account-number-pan"></a>Номер постоянного счета Индии (PAN)
+## <a name="india-permanent-account-number-pan"></a>Постоянный номер учетной записи Для Индии (PAN)
 
 ### <a name="format"></a>Format
 
@@ -8398,11 +8384,11 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="pattern"></a>Шаблон
 
 10 букв или цифр:
-- Три буквы (без учета регистра) 
-- Буква в C, P, H, F, A, T, B, L, J, G (без учета регистра)
+- Три буквы (без чувствительность к буквам) 
+- Буква в C, P, H, F, A, T, B, L, J, G (без чувствительность к букве)
 - Буква
 - Четыре цифры 
-- Буква (без учета регистра);
+- Буква (без чувствительность к букве)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -8438,9 +8424,9 @@ Registro de identidade (RIC) (новый формат):
 #### <a name="keyword_india_permanent_account_number"></a>Keyword_india_permanent_account_number
 
 - Permanent Account Number 
-- ПАНОРАМИРОВАНИЕ 
+- PAN 
    
-## <a name="india-unique-identification-aadhaar-number"></a>Уникальный идентификационный номер (Aadhaar) Индии
+## <a name="india-unique-identification-aadhaar-number"></a>Уникальный идентификационный номер (Aadhaar) для Индии
 
 ### <a name="format"></a>Format
 
@@ -8449,7 +8435,7 @@ Registro de identidade (RIC) (новый формат):
 ### <a name="pattern"></a>Шаблон
 
 12 цифр:
-- Цифра, не равная 0 или 1
+- Цифра, которая не является 0 или 1
 - Три цифры 
 - необязательный пробел или тире; 
 - четыре цифры; 
@@ -8488,13 +8474,13 @@ Registro de identidade (RIC) (новый формат):
    
 #### <a name="keyword_india_aadhar"></a>Keyword_india_aadhar
 - aadhaar
-- аадхар
-- аадхар #
+- aadhar
+- aadhar #
 - uid
 - आधार
-- уидаи
+- uidai
    
-## <a name="indonesia-identity-card-ktp-number"></a>Номер идентификационной карточки Индонезия (KTP)
+## <a name="indonesia-identity-card-ktp-number"></a>Номер удостоверения личности (KTP) для Индонезии
 
 ### <a name="format"></a>Format
 
@@ -8583,7 +8569,7 @@ ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, 
 Нет
 
    
-## <a name="international-classification-of-diseases-icd-10-cm"></a>Международная классификация Diseases (ICD-10-CM)
+## <a name="international-classification-of-diseases-icd-10-cm"></a>Международная классификация болезни (ICD-10-CM)
 
 ### <a name="format"></a>Format
 
@@ -8600,11 +8586,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Найдено ключевое слово из Dictionary_icd_10_updated.
-- Найдено ключевое слово из Dictionary_icd_10_codes.
+- Находится ключевое слово из Dictionary_icd_10_updated.
+- Находится ключевое слово из Dictionary_icd_10_codes.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Найдено ключевое слово из Dictionary_icd_10_ "Обновлено".
+- Находится ключевое слово из Dictionary_icd_10_, обновленное.
 
 ```xml
       <!-- ICD-10 CM -->
@@ -8621,11 +8607,11 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-Любой термин из словаря Dictionary_icd_10_updated ключевых слов, основанный на [международной классификации Diseases, десятой версии, Клиникал модификации (ICD-10-cm)](https://go.microsoft.com/fwlink/?linkid=852604). Этот тип ищет только термин, а не коды страхования.
+Любой термин из словаря Dictionary_icd_10_updated ключевых слов, который основан на международной классификации "Болезни", "Десятая редакция", "Модификация" [(ICD-10-CM).](https://go.microsoft.com/fwlink/?linkid=852604) Этот тип ищет только термин, а не страховые коды.
 
-Любой термин из словаря Dictionary_icd_10_codes ключевых слов, основанный на [международной классификации Diseases, десятой версии, Клиникал модификации (ICD-10-cm)](https://go.microsoft.com/fwlink/?linkid=852604). Этот тип ищет только страховые коды, а не описание.
+Любой термин из словаря ключевых слов Dictionary_icd_10_codes, который основан на международной классификации "Болезни", "Десятая редакция", "Модификация" [(ICD-10-CM).](https://go.microsoft.com/fwlink/?linkid=852604) Этот тип ищет только страховые коды, а не описание.
 
-## <a name="international-classification-of-diseases-icd-9-cm"></a>Международная классификация Diseases (ICD-9-CM)
+## <a name="international-classification-of-diseases-icd-9-cm"></a>Международная классификация болезни (ICD-9-CM)
 
 ### <a name="format"></a>Format
 
@@ -8642,11 +8628,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Найдено ключевое слово из Dictionary_icd_9_updated.
-- Найдено ключевое слово из Dictionary_icd_9_codes.
+- Находится ключевое слово из Dictionary_icd_9_updated.
+- Находится ключевое слово из Dictionary_icd_9_codes.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Найдено ключевое слово из Dictionary_icd_9_updated.
+- Находится ключевое слово из Dictionary_icd_9_updated.
 
 ```xml
     <Entity id="fa3f9c74-ee07-4c52-b5f2-085d6b2c0ec4" patternsProximity="300" recommendedConfidence="85">
@@ -8662,18 +8648,18 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-Любой термин из словаря Dictionary_icd_9_updated ключевых слов, основанный на [международной классификации Diseases, девятой редакции, Клиникал модификации (ICD-9-cm)](https://go.microsoft.com/fwlink/?linkid=852605). Этот тип ищет только термин, а не коды страхования.
+Любой термин из словаря Dictionary_icd_9_updated ключевых слов, который основан на международной классификации "Болезни", "Девятая редакция", "Модификация" [(ICD-9-CM).](https://go.microsoft.com/fwlink/?linkid=852605) Этот тип ищет только термин, а не страховые коды.
 
-Любой термин из словаря Dictionary_icd_9_codes ключевых слов, основанный на [международной классификации Diseases, девятой редакции, Клиникал модификации (ICD-9-cm)](https://go.microsoft.com/fwlink/?linkid=852605). Этот тип ищет только страховые коды, а не описание.
+Любой термин из словаря Dictionary_icd_9_codes ключевых слов, который основан на международной классификации "Болезни", "Девятая редакция", "Модификация" [(ICD-9-CM).](https://go.microsoft.com/fwlink/?linkid=852605) Этот тип ищет только страховые коды, а не описание.
 
 ## <a name="ip-address"></a>IP-адрес
 
 ### <a name="format"></a>Format
 
-#### <a name="ipv4"></a>IPv4
+#### <a name="ipv4"></a>IPv4:
 Сложный шаблон, ответственный за форматированные (с точками) и неформатированные (без точек) версии IPv4-адресов.
 
-#### <a name="ipv6"></a>Поддерживающ
+#### <a name="ipv6"></a>IPv6:
  Сложный шаблон, ответственный за форматированные номера IPv6 (вместе с двоеточиями).
 
 ### <a name="pattern"></a>Шаблон
@@ -8732,8 +8718,6 @@ Dictionary
 
 ## <a name="ireland-drivers-license-number"></a>Номер водительского удостоверения для Ирландии
 
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
-
 ### <a name="format"></a>Format
 
 Шесть цифр, за которыми следуют четыре буквы
@@ -8743,7 +8727,7 @@ Dictionary
 Шесть цифр и четыре буквы:
   
 - Шесть цифр
-- Четыре буквы (без учета регистра)
+- Четыре буквы (без чувствительность к буквам)
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -8754,7 +8738,7 @@ Dictionary
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_ireland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_ireland_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_ireland_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Ireland Driver's License Number -->
@@ -8771,140 +8755,140 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_ireland_eu_drivers_license_number"></a>Keywords_ireland_eu_driver "s_license_number
+#### <a name="keywords_ireland_eu_drivers_license_number"></a>Keywords_ireland_eu_driver s_license_number
 
-- цеадúнас тиомáна
-- цеадúнаис тиомáна
+- ceadúnas tiomána
+- ceadúnais tiomána
 
-## <a name="ireland-passport-number"></a>Номер паспорта для Ирландии
+## <a name="ireland-passport-number"></a>Номер паспорта гражданина Ирландии
 
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-Две буквы или цифры, за которыми следуют семь цифр без пробелов и разделителей
+Две буквы или цифры, за которыми следуют семь цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
@@ -8922,7 +8906,7 @@ Dictionary
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
 - Регулярное выражение  `Regex_ireland_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_ireland_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_ireland_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -8941,47 +8925,47 @@ Dictionary
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_ireland_eu_passport_number"></a>Keywords_ireland_eu_passport_number
 
-- пассепорт нумеро
-- уимхреача пасанна
-- уимхир PAS
-- уимхир ФАС
-- уимхреача PAS
-- уимхир кáрта
-- уимхир чáрта
+- passeport numero
+- uimhreacha pasanna
+- uimhir pas
+- uimhir phas
+- uimhreacha pas
+- uimhir cárta
+- uimhir chárta
 
-## <a name="ireland-personal-public-service-pps-number"></a>Номер личной общедоступной службы (PPS) Ирландии
+## <a name="ireland-personal-public-service-pps-number"></a>Номер личной службы (PPS) для Ирландии
 
 ### <a name="format"></a>Format
 
-Старый формат (до 31 декабря 2012):
-- семь цифр, за которыми следует 1-2 букв 
+Старый формат (до 31 декабря 2012 г.):
+- семь цифр, за которыми следуют 1–2 буквы 
 
-Новый формат (1 января 2013 и после):
+Новый формат (1 января 2013 г. и после):
 - семь цифр, за которыми следуют две буквы
 
 ### <a name="pattern"></a>Шаблон
 
-Старый формат (до 31 декабря 2012):
+Старый формат (до 31 декабря 2012 г.):
 - семь цифр 
-- одна-2 буквы (без учета регистра) 
+- от одной до двух букв (без чувствительность к буквам); 
 
-Новый формат (1 января 2013 и после):
+Новый формат (1 января 2013 г. и после):
 - семь цифр 
-- буква (без учета регистра), которая является буквенной контрольной цифрой 
-- Необязательная буква в диапазоне A – I или "W"
+- буква (без чувствительность к букве), которая является алфавитной провероной цифрой 
+- Необязательная буква в диапазоне A-I или W
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -8991,7 +8975,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция Func_ireland_pps находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово из Keywords_ireland_eu_national_id_card.
+- Находится ключевое слово из Keywords_ireland_eu_national_id_card.
 - Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
@@ -9015,51 +8999,51 @@ Dictionary
 
 #### <a name="keywords_ireland_eu_national_id_card"></a>Keywords_ireland_eu_national_id_card
 
-- Служба удостоверений клиента
+- служба удостоверений клиентов
 - identification number
-- личный идентификационный номер
-- номер личной общедоступной службы
-- Личная служба
-- феарсанта сеирбхíсе поиблí
-- PPS нет
-- номер PPS
-- номер PPS
-- Служба PPS нет
-- ппсн
-- ппсно #
-- ппсно
-- настроен
-- общедоступная служба
-- публиксервицено #
-- публиксервицено
-- номер дохода и социального страхования
-- RSI нет
-- номер RSI
-- рсин
-- Клиент сеирбхíс аисеантаис
-- уимх
-- уимхир аисеантаис чáнач
-- уимхир аисеантаис феарсанта
-- уимхир феарсанта сеирбхíсе поиблí
+- личный номер
+- личный общедоступный номер службы
+- personal service no
+- phearsanta seirbhíse poiblí
+- pps no
+- PPS-номер
+- pps num
+- PPS service no
+- ppsn
+- ppsno #
+- ppsno
+- psp
+- public service no
+- publicserviceno #
+- publicserviceno
+- доход и номер социального страхования
+- rsi no
+- RSI-номер
+- rsin
+- клиент seirbhís aitheantais
+- uimh
+- uimhir aitheantais chánach
+- uimhir aitheantais phearsanta
+- uimhir phearsanta seirbhíse poiblí
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="israel-bank-account-number"></a>Номер банковского счета для Израиля
+## <a name="israel-bank-account-number"></a>Номер банковского счета для Израиль
 
 ### <a name="format"></a>Format
 
@@ -9067,14 +9051,14 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-Форматируемые
+Формат:
 - две цифры 
 - тире 
 - три цифры 
 - тире 
 - восемь цифр
 
-Неформатированные
+Неформатированные:
 - 	13 последовательных цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -9108,7 +9092,7 @@ Dictionary
 - Account Number 
 - מספר חשבון בנק 
    
-## <a name="israel-national-identification-number"></a>Национальный идентификационный номер Израиля
+## <a name="israel-national-identification-number"></a>Национальный идентификационный номер для Израиля
 
 ### <a name="format"></a>Format
 
@@ -9153,30 +9137,29 @@ Dictionary
 -   هوية إسرائ يلية
 -   رقم الهوية
 -   عدد هوية فريدة من نوعها
--   иднумбер #
--   идентификационный номер
--   Идентификатор        
--   идентитинумбер #
--   идентификационный номер
--   исраелиидентитинумбер       
--   личный идентификатор
--   уникальный идентификатор  
+-   idnumber #
+-   id number
+-   identity no        
+-   identitynumber #
+-   identity number
+-   многоядерный объект       
+-   личный ид
+-   уникальный ид  
 
    
-## <a name="italy-drivers-license-number"></a>Номер водительского удостоверения для Италии
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера лицензии для драйвера ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="italy-drivers-license-number"></a>Номер водительского удостоверения для Италия
 
 ### <a name="format"></a>Format
 
-сочетание из 10 букв и цифр
+сочетание 10 букв и цифр.
 
 ### <a name="pattern"></a>Шаблон
 
 сочетание из 10 букв и цифр:
-- одна буква (без учета регистра) 
-- буква "A" или "V" (без учета регистра) 
+- одна буква (без чувствительность к букве) 
+- буква "A" или "V" (без чувствительность к букве) 
 - семь цифр
-- одна буква (без учета регистра)
+- одна буква (без чувствительность к букве)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -9204,33 +9187,33 @@ Dictionary
 
 #### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
-- патентный нумеро
+- numero di patente
 - patente di guida 
-- патентный идентификатор GUID
-- патенти di GUID
-- патенти GUID
+- patente guida
+- patenti di guida
+- patenti guida
 
-## <a name="italy-fiscal-code"></a>Финансовый код Италии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="italy-fiscal-code"></a>Финансовый код Для Италия
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-16 – символическое сочетание букв и цифр в указанном шаблоне.
+16-значное сочетание букв и цифр в указанном шаблоне
   
 ### <a name="pattern"></a>Шаблон
 
-16 – буквенное сочетание букв и цифр:
-- три буквы, соответствующие первым трем согласным в имени семейства
-- три буквы, соответствующие первым, третьим и четвертым согласным в имени.
+16-значное сочетание букв и цифр:
+- три буквы, соответствующие первым трем consonants в имени семейства
+- три буквы, соответствующие первому, третьему и четвертому consonants в первом имени
 - две цифры, соответствующие последним цифрам года рождения
-- одна буква, соответствующая букве дня рождения, буквы используются в алфавитном порядке, но используются только буквы от A до E, H, L, M, P, R — T (то есть Январь — это R, а Октябрь — R)
-- две цифры, которые соответствуют дню месяца рождения, для различения пола, 40 добавляется в день рождения для женщин
-- четыре цифры, соответствующие коду города, который относится к органу государственной власти, в котором был создан пользователь, (для иностранных стран используются коды уровня страны).
+- одна буква, соответствующая букве месяца рождения, — буквы используются в алфавитном порядке, но используются только буквы A к E, H, L, M, P, R to T (таким образом, январь A, а октябрь — R)
+- две цифры, соответствующие дню месяца рождения, чтобы различать полы, 40 добавляется в день рождения для
+- четыре цифры, соответствующие коду региона, относя к замурованию человека (коды для разных стран используются для внешних стран)
 - одна цифра четности
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -9240,11 +9223,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_italy_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_italy_eu_national_id_card` . 
+- Функция находит  `Func_italy_eu_national_id_card` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_italy_eu_national_id_card` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_italy_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_italy_eu_national_id_card` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Italy Fiscal Code -->
@@ -9263,52 +9246,52 @@ Dictionary
 
 #### <a name="keywords_italy_eu_national_id_card"></a>Keywords_italy_eu_national_id_card
 
-- налоговые кости
-- финансовый отчет по сокостям
-- личные коды для сокодовых костей
-- Персональные подкодеки
-- Финансовый код
-- Нумеро цертификато персональный
-- Нумеро di идентификазионе Фин.
-- личный идентификатор нумеро
-- персональные настройки нумеро
+- codice fiscal
+- codice fiscale
+- codice id personale
+- codice personale
+- финансовый код
+- numero certificato personale
+- numero di identificone fiscale
+- numero id personale
+- numero personale
 - личный номер сертификата
-- персональный код
 - личный код
-- личный идентификационный номер
-- персоналкодено #
-- Налоговый код
+- код личного кода
+- личный номер
+- personalcodeno #
+- налоговый код
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- идентификационный номер налогоплательщика
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- номер налогового удостоверения
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="italy-passport-number"></a>Номер паспорта для Италии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="italy-passport-number"></a>Номер паспорта гражданина Италия
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-две буквы или цифры, за которыми следуют семь цифр без пробелов и разделителей
+две буквы или цифры, за которыми следуют семь цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
 две буквы или цифры, за которыми следуют семь цифр:
   
-- две цифры или буквы (без учета регистра).
+- две цифры или буквы (без чувствительность к буквам)
 - семь цифр
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -9319,7 +9302,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_italy_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_italy_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_italy_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -9338,46 +9321,46 @@ Dictionary
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_italy_eu_passport_number"></a>Keywords_italy_eu_passport_number
 
-- Итальянский пассапорто
-- пассапорто итальянский
-- пассапорто нумеро
-- нумéро пассепорт
-- Нумеро di пассапорто
-- нумери del пассапорто
-- пассепорт италиен
+- italiana passaporto
+- passaporto italiana
+- passaporto numero
+- numéro passeport
+- numero di passaporto
+- numeri del passaporto
+- passeport italien
 
-## <a name="italy-value-added-tax-number"></a>Налоговый номер добавленной стоимости (Италия)
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="italy-value-added-tax-number"></a>Номер налога на добавленную стоимость для Италия
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-13-буквенно-цифровой буквенный шаблон с необязательными ограничителями
+13-символьный буквонумерный шаблон с необязательными делетерами
 
 ### <a name="pattern"></a>Шаблон
 
-13-буквенно-цифровой буквенно-цифровой шаблон с необязательными ограничителями:
+13 символов букв и цифр с необязательными делетерами:
 
 - I или i
 - T или t
-- необязательный пробел, точка, дефис или запятая
+- дополнительное пространство, точка, дефис или запятая
 - 11 цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -9387,11 +9370,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_italy_value_added_tax_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_italy_value_added_tax_number.
+- Функция Func_italy_value_added_tax_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_italy_value_added_tax_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_italy_value_added_tax_number находит содержимое, которое соответствует шаблону;
+- Функция Func_italy_value_added_tax_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Italy Value Added Tax -->
@@ -9410,11 +9393,11 @@ Dictionary
 
 #### <a name="keyword_italy_value_added_tax_number"></a>Keyword_italy_value_added_tax_number
 
-- номер НДС
-- НДС No
-- процент #
-- ива
-- ива #
+- номер плательщика НДС
+- vat no
+- vat #
+- iva
+- iva #
 
 
 ## <a name="japan-bank-account-number"></a>Номер банковского счета для Японии
@@ -9554,16 +9537,16 @@ Dictionary
 
 #### <a name="keyword_jp_drivers_license_number"></a>Keyword_jp_drivers_license_number
 
-- дриверлиценсе
-- дриверслиценсе
-- дривер'слиценсе
-- дриверслиценсес
-- дривер'слиценсес
-- дриверлиценсес
-- DL #
-- библиотек #
-- лик #
-- ликс #
+- driverlicense
+- driverslicense
+- driver'slicense
+- driverslicenses
+- срезы драйверов
+- driverlicenses
+- dl #
+- dls #
+- lic #
+- lics #
 - 運転免許証
 - 運転免許
 - 免許証
@@ -9575,16 +9558,16 @@ Dictionary
 - 運転免許証ナンバー
 - 運転免許ナンバー
 - 免許証ナンバー
-- 運転免許証но
-- 運転免許но
-- 免許証но
-- 免許но
+- 運転免許証no
+- 運転免許no
+- 免許証no
+- 免許no
 - 運転経歴証明書番号
 - 運転経歴証明書
-- 運転免許証но.
-- 運転免許но.
-- 免許証но.
-- 免許но.
+- 運転免許証No.
+- 運転免許No.
+- 免許証No.
+- 免許No.
 - 運転免許証 #
 - 運転免許 #
 - 免許証 #
@@ -9592,22 +9575,22 @@ Dictionary
 
 
 ## <a name="japan-my-number---corporate"></a>Мой номер для Японии — корпоративный
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-13 цифра, цифра
+13-значный номер
 
 ### <a name="pattern"></a>Шаблон
 
-13 цифра:
+13 цифр:
 
-- одна цифра от 1 до девяти
+- одна цифра от одной до девяти
 - 12 цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -9617,11 +9600,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_japanese_my_number_corporate находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_japanese_my_number_corporate.
+- Функция Func_japanese_my_number_corporate находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_japanese_my_number_corporate.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_japanese_my_number_corporate находит содержимое, которое соответствует шаблону;
+- Функция Func_japanese_my_number_corporate находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Japanese My Number – Corporate -->
@@ -9652,26 +9635,26 @@ Dictionary
 - 指定通知書
 
 
-## <a name="japan-my-number---personal"></a>Япония мой номер — личное
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="japan-my-number---personal"></a>Мой номер для Японии — личный
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-12 цифр номера
+12-значный номер
 
 ### <a name="pattern"></a>Шаблон
 
 12 цифр:
 
 - четыре цифры
-- необязательный пробел, точка или дефис
+- дополнительное пространство, точка или дефис
 - четыре цифры
-- необязательный пробел, точка или дефис
+- дополнительное пространство, точка или дефис
 - четыре цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -9681,11 +9664,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_japanese_my_number_personal находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_japanese_my_number_personal.
+- Функция Func_japanese_my_number_personal находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_japanese_my_number_personal.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция Func_japanese_my_number_personal находит содержимое, которое соответствует шаблону;
+- Функция Func_japanese_my_number_personal находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Japanese My Number – Personal -->
@@ -9716,15 +9699,15 @@ Dictionary
 - 通知カード
 
    
-## <a name="japan-passport-number"></a>Номер паспорта для Японии
+## <a name="japan-passport-number"></a>Номер паспорта гражданина Японии
 
 ### <a name="format"></a>Format
 
-две буквы, за которыми следуют семь цифр.
+две буквы, за которыми следуют семь цифр
 
 ### <a name="pattern"></a>Шаблон
 
-две буквы (без учета регистра), за которыми следуют семь цифр.
+две буквы (без чувствительность к буквам), за которыми следуют семь цифр
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -9750,23 +9733,23 @@ Dictionary
 
 #### <a name="keyword_jp_passport"></a>Keyword_jp_passport
 
-- Службу
+- Passport
 - Passport Number
-- Паспорт No.
+- Passport No.
 - Passport#
 - パスポート
 - パスポート番号
 - パスポートナンバー
+- パスポート#
 - パスポート #
-- パスポート #
-- パスポートно.
+- パポ>.
 - 旅券番号
-- 旅券番号 #
-- 旅券番号 ♯
+- 旅券番号#
+- 旅券番号♯
 - 旅券ナンバー
 
 
-## <a name="japan-residence-card-number"></a>Номер карточки для Японии (Япония)
+## <a name="japan-residence-card-number"></a>Номер карты для проживания в Японии
 
 ### <a name="format"></a>Format
 
@@ -9775,9 +9758,9 @@ Dictionary
 ### <a name="pattern"></a>Шаблон
 
 12 букв и цифр:
-- две буквы (без учета регистра)
+- две буквы (без чувствительность к буквам)
 - восемь цифр 
-- две буквы (без учета регистра)
+- две буквы (без чувствительность к буквам)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -9786,8 +9769,8 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Regex_jp_residence_card_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_jp_residence_card_number.
+- Регулярное выражение Regex_jp_residence_card_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_jp_residence_card_number.
 
 ```xml
 <!--Japan Residence Card Number-->
@@ -9803,14 +9786,14 @@ Dictionary
 
 #### <a name="keyword_jp_residence_card_number"></a>Keyword_jp_residence_card_number
 
-- Номер карточки проживания
-- Номер карточки проживания
-- Карточка проживания #
+- Номер карты для проживания
+- Карты проживания нет
+- Карточка для проживания #
 - 在留カード番号
 - 在留カード
 - 在留番号
 
-## <a name="japan-resident-registration-number"></a>Номер резидентного регистрационного номера для Японии
+## <a name="japan-resident-registration-number"></a>Номер регистрации резидента Японии
 
 ### <a name="format"></a>Format
 
@@ -9867,7 +9850,7 @@ Dictionary
 7–12 цифр
 - четыре цифры 
 - дефис (необязательно) 
-- шесть цифр или
+- шесть цифр ИЛИ
 - 7–12 последовательных цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -9912,7 +9895,7 @@ Dictionary
 - 雇用保険番号
 - 保険証番号
 - 社会保険番号
-- 社会保険но.
+- 社会保険No.
 - 社会保険
 - 介護保険
 - 介護保険被保険者番号
@@ -9923,17 +9906,16 @@ Dictionary
 
 
 ## <a name="latvia-drivers-license-number"></a>Номер водительского удостоверения для Латвии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
 
 ### <a name="format"></a>Format
 
-три буквы, за которыми следуют шесть цифр.
+три буквы, за которыми следуют шесть цифр
   
 ### <a name="pattern"></a>Шаблон
 
 три буквы и шесть цифр:
   
-- три буквы (без учета регистра) 
+- три буквы (без чувствительность к буквам) 
 - шесть цифр
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -9944,7 +9926,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_latvia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_latvia_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_latvia_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Latvia Driver's License Number -->
@@ -9961,135 +9943,135 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_latvia_eu_drivers_license_number"></a>Keywords_latvia_eu_driver "s_license_number
+#### <a name="keywords_latvia_eu_drivers_license_number"></a>Keywords_latvia_eu_driver s_license_number
 
-- аутовадīтāжа аплиекīба
-- аутовадīтāжа аплиекīбас
-- вадīтāжа аплиекīба
+- autovadja apliec
+- autovadja apliecࡉ
+- vadja apliec
 
-## <a name="latvia-personal-code"></a>Личный код Латвии
+## <a name="latvia-personal-code"></a>Персональный код для Латвии
 
 ### <a name="format"></a>Format
 
@@ -10101,10 +10083,10 @@ Dictionary
 
 11 цифр и дефис:
   
-- шесть цифр, соответствующих дате рождения (ДДММГГ —) 
+- шесть цифр, соответствующих дате рождения (ДДММАЙ) 
 - дефис
-- одна цифра, соответствующая столетию рождения ("0" для 19 века, "1" для 20-й век) и "2" для 21 века)
-- четыре цифры, созданные случайным образом
+- одна цифра, соответствующая годовщине рождения ("0" для 19-го, "1" для 20-го и "2" для 21-го)
+- четыре цифры, генерируемые случайным образом
 
 Новый формат
 
@@ -10120,11 +10102,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_latvia_eu_national_id_card` или регулярное выражение `Regex_latvia_eu_national_id_card_new_format` выполняет поиск содержимого, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_latvia_eu_national_id_card` . 
+- Функция или  `Func_latvia_eu_national_id_card` regex находит `Regex_latvia_eu_national_id_card_new_format` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_latvia_eu_national_id_card` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_latvia_eu_national_id_card` или регулярное выражение `Regex_latvia_eu_national_id_card_new_format` выполняет поиск содержимого, которое соответствует шаблону. 
+- Функция или  `Func_latvia_eu_national_id_card` regex находит `Regex_latvia_eu_national_id_card_new_format` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Latvia Personal Code -->
@@ -10159,79 +10141,79 @@ Dictionary
 
 #### <a name="keywords_latvia_eu_national_id_card"></a>Keywords_latvia_eu_national_id_card
 
-- Административный номер
-- алвас нē
-- номер рождения
-- номер для согражданства
-- гражданское число
-- номер электронного переписи
+- административный номер
+- a дейс n
+- birth number
+- номер гражданина
+- number
+- электронный номер переписи
 - электронный номер
-- Финансовый код
-- номер пользователя для сферы здравоохранения
-- кодов #
-- ID — код
+- финансовый код
+- номер пользователя в сфере здравоохранения
+- id #
+- id-code
 - identification number
-- идентификāЦижас нумурс
-- ID — номер
-- индивидуальный номер
-- латвижа Алва
-- Идентификатор наЦионāлаис
+- identifikjas nu nu
+- id-number
+- отдельный номер
+- latvija a де aтхат
+- nacionclais id
 - national id
-- Национальный идентификационный номер
-- Национальный идентификационный номер
+- national identifying number
+- national identity number
 - national insurance number
-- номер национальной регистрации
-- нодокļа нумурс
-- Идентификатор нодокļу
-- нодокļу идентификāЦижа нумурс
+- national register number
+- nodokokoka nu nu
+- nodoku id
+- nodoku identifikcija nu nudents
 - личный номер сертификата
-- персональный код
 - личный код
-- личный идентификационный номер
+- код личного кода
+- личный номер
 - персональный идентификационный код
 - личный идентификатор
 - личный номер удостоверения
-- персональный номер
-- персональный числовой код
-- персоналкодено #
-- Пользователи Кодс
-- код идентификации заполнения
-- номер общедоступной службы
+- личный номер
+- личный числовой код
+- personalcodeno #
+- personas kods
+- идентификационный код для людей
+- общедоступный номер службы
 - registration number
-- номер дохода
+- revenue number
 - social insurance number
 - social security number
-- Налоговый код штата
+- налоговый код штата
 - tax file number
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- номер Вотер
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
+- номер голосуемого
 
-## <a name="latvia-passport-number"></a>Номер паспорта для Латвии
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="latvia-passport-number"></a>Номер паспорта гражданина Латвии
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-две буквы или цифры, за которыми следуют семь цифр без пробелов и разделителей
+две буквы или цифры, за которыми следуют семь цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
 две буквы или цифры, за которыми следуют семь цифр:
   
-- две цифры или буквы (без учета регистра).
+- две цифры или буквы (без чувствительность к буквам)
 - семь цифр
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -10242,7 +10224,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_latvia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_latvia_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_latvia_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10261,32 +10243,31 @@ Dictionary
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_latvia_eu_passport_number"></a>Keywords_latvia_eu_passport_number
 
-- ПАСЕ нумурс
-- ПАСЕ нумур
-- ПАСЕС нумури
-- ПАСЕС НР
-- пассепорт нет
-- n ° du Пассепорт
+- pase nu nu
+- pase nu nu
+- pases numuri
+- pases nr
+- passeport no
+- n° du Passeport
 
-## <a name="lithuania-drivers-license-number"></a>Литва номер водительского удостоверения
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="lithuania-drivers-license-number"></a>Номер водительского удостоверения для Литвы
 
 ### <a name="format"></a>Format
 
-восемь цифр без пробелов и разделителей
+восемь цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -10300,7 +10281,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_lithuania_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_lithuania_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_lithuania_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Lithuania Driver's License Number -->
@@ -10317,153 +10298,153 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_lithuania_eu_drivers_license_number"></a>Keywords_lithuania_eu_driver "s_license_number
+#### <a name="keywords_lithuania_eu_drivers_license_number"></a>Keywords_lithuania_eu_driver s_license_number
 
-- ваируотожо паžимėжимас
-- ваируотожо паžимėжимо нумерис
-- ваируотожо паžимėжимо нумериаи
+- vairuotojo paymjimas
+- vairuotojo paymjimo numeris
+- vairuotojo paymjimo numeriai
 
-## <a name="lithuania-personal-code"></a>Литва персональный код
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="lithuania-personal-code"></a>Персональный код Для Литвы
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-11 цифр без пробелов и разделителей
+11 цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
-11 цифр без пробелов и разделителей:
+11 цифр без пробелов и селитров:
   
-- одна цифра (1-6), соответствующая пол и век рождения человека
-- шесть цифр, соответствующих дате рождения (ГГММДД) 
-- три цифры, которые соответствуют серийному числу даты рождения.
+- одна цифра (1–6), соответствующая полу и возрасту человека при рождения
+- шесть цифр, соответствующие дате рождения (YYMMDD) 
+- три цифры, соответствующие серийному номеру даты рождения
 - одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -10473,11 +10454,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_lithuania_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_lithuania_eu_tax_file_number` . 
+- Функция находит  `Func_lithuania_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_lithuania_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_lithuania_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_lithuania_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Lithuania Personal Code -->
@@ -10500,49 +10481,49 @@ Dictionary
 
 #### <a name="keywords_lithuania_eu_national_id_card"></a>Keywords_lithuania_eu_national_id_card
 
-- асменинис скаитменинис кодас
-- асменс кодас
-- номер службы для себя
-- Идентификатор мокесčиų
-- мокесčиų идентификавимас нумерис
-- мокесčиų идентификавимо нумерис
-- мокесčиų нумерис
+- asmeninis skaitmeninis kodas
+- asmens kodas
+- citizen service number
+- mokesвичi ид
+- mokes трагикций identifmasvimas numeris
+- mokes трагик. identifikavimo numeris
+- mokesщуi. число
 - national identification number
-- персональный код
-- персональный числовой код
-- пилиеčио паслаугос нумерис
+- личный код
+- личный числовой код
+- pilieio paslaugos numeris
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- уникалус идентификавимо кодас
-- уникалус идентификавимо нумерис
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
+- unlus identifikavimo kodas
+- unlus identifikavimo numeris
 - уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникуеидентитино #
+- уникальный идентификациный номер
+- uniqueidentityno #
 
-## <a name="lithuania-passport-number"></a>Литва номер паспорта
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="lithuania-passport-number"></a>Номер паспорта гражданина Литвы
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-восемь цифр или букв без пробелов и разделителей
+восемь цифр или букв без пробелов или селитров
   
 ### <a name="pattern"></a>Шаблон
 
-восемь цифр или букв (без учета регистра)
+восемь цифр или букв (без чувствительность к буквам)
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -10552,7 +10533,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_lithuania_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_lithuania_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_lithuania_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10571,29 +10552,28 @@ Dictionary
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_lithuania_eu_passport_number"></a>Keywords_lithuania_eu_passport_number
 
-- Пасо нумерис
-- Пасо нумериаи
-- Пасо НР
+- paso numeris
+- paso numeriai
+- paso nr
 
-## <a name="luxemburg-drivers-license-number"></a>Номер водительского удостоверения Луксембург
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="luxemburg-drivers-license-number"></a>Номер водительского удостоверения Химмхета
 
 ### <a name="format"></a>Format
 
-шесть цифр без пробелов и разделителей
+шесть цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -10607,7 +10587,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_luxemburg_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_luxemburg_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_luxemburg_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Luxemburg Driver's License Number -->
@@ -10624,144 +10604,144 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_luxemburg_eu_drivers_license_number"></a>Keywords_luxemburg_eu_driver "s_license_number
+#### <a name="keywords_luxemburg_eu_drivers_license_number"></a>Keywords_luxemburg_eu_driver s_license_number
 
-- фахрерлаубнис
-- фüхрерсчäин
+- fahrerlaubnis
+- Fhrerschüin
 
-## <a name="luxemburg-national-identification-number-natural-persons"></a>Национальный идентификационный номер Луксембург (для природных людей)
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="luxemburg-national-identification-number-natural-persons"></a>Национальный идентификационный номер (естественные лица) для Нюксемнеса
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-13 цифр без пробелов и разделителей
+13 цифр без пробелов или селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -10777,11 +10757,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_luxemburg_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_luxemburg_eu_national_id_card` . 
+- Функция находит  `Func_luxemburg_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_luxemburg_eu_national_id_card` слово. 
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_luxemburg_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_luxemburg_eu_tax_file_number` содержимое, которое соответствует шаблону. 
 
 
 ```xml
@@ -10805,37 +10785,37 @@ Dictionary
 
 #### <a name="keywords_luxemburg_eu_national_id_card"></a>Keywords_luxemburg_eu_national_id_card
 
-- Идентификатор еиндеутиже
-- Идентификатор еиндеутиже — нуммер
-- еиндеутижеид #
-- ID персоннелле
-- идперсоннелле #
-- идперсоннелле
+- eindeutige id
+- eindeutige id-nummer
+- eindeutigeid #
+- id personnelle
+- idpersonnelle #
+- idpersonnelle
 - отдельный код
-- индивидуальный идентификатор
+- отдельный ид
 - индивидуальная идентификация
-- индивидуальное удостоверение
-- нумéро д'идентификатион сотрудники
-- личный идентификатор
-- Личная идентификация
+- отдельное удостоверение
+- numéro d'identification personnel
+- личный ид
+- личная идентификация
 - личное удостоверение
-- персоналидно #
-- персоналиднумбер #
-- персöнличе идентификатионснуммер
-- уникальный идентификатор
+- personalidno #
+- personalidnumber #
+- persönliche identifikationsnummer
+- уникальный ид
 - уникальное удостоверение
-- уникуеидкэй #
+- uniqueidkey #
 
-## <a name="luxemburg-passport-number"></a>Номер паспорта Луксембург
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="luxemburg-passport-number"></a>Номер паспорта Химмхета
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-восемь цифр или букв без пробелов и разделителей
+восемь цифр или букв без пробелов или селитров
   
 ### <a name="pattern"></a>Шаблон
 
-восемь цифр или букв (без учета регистра)
+восемь цифр или букв (без чувствительность к буквам)
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -10845,7 +10825,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_nation_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_nation_eu_passport_number` . 
+- Найдено ключевое  `Keywords_nation_eu_passport_number` слово. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10862,11 +10842,11 @@ Dictionary
 #### <a name="keywords_nation_eu_passport_number"></a>Keywords_nation_eu_passport_number
 
 - passport number
-- номер паспорта для Латвии
-- паспорт нет
-- пасснуммер
+- номер паспорта в Латышском
+- passport no
+- passnummer
 
-## <a name="luxemburg-national-identification-number-non-natural-persons"></a>Луксембург Национальный идентификационный номер (неестественные пользователи)
+## <a name="luxemburg-national-identification-number-non-natural-persons"></a>Национальный идентификационный номер для Фемнеса (не является лицом)
 
 ### <a name="format"></a>Format
 
@@ -10877,11 +10857,11 @@ Dictionary
 11 цифр.
   
 - две цифры
-- необязательный пробел 
+- дополнительное пространство 
 - три цифры 
-- необязательный пробел
+- дополнительное пространство
 - три цифры 
-- необязательный пробел
+- дополнительное пространство
 - две цифры
 - одна контрольная цифра
     
@@ -10892,11 +10872,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_luxemburg_eu_tax_file_number_non_natural` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_luxemburg_eu_tax_file_number` . 
+- Функция находит  `Func_luxemburg_eu_tax_file_number_non_natural` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_luxemburg_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_luxemburg_eu_tax_file_number_non_natural` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_luxemburg_eu_tax_file_number_non_natural` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Luxemburg National Identification Number (Non-natural persons) -->
@@ -10919,46 +10899,46 @@ Dictionary
 
 #### <a name="keywords_luxemburg_eu_tax_file_number"></a>Keywords_luxemburg_eu_tax_file_number
 
-- Корзина де сéкуритé социального страхования
-- éтаин не
-- éтаин #
-- Идентификация д'импôт
-- налог на Люксембург идентификатиаунснуммер
-- нумéро д'éтаин
-- нумéро д'идентификатион финансовых луксембауржеоис
-- нумéро д'идентификатион Фин.
+- carte de sécurité sociale
+- étain non
+- étain #
+- identifiant d'impôt
+- tax identifikatiounsnummer
+- numéro d'étain
+- numéro d'identification fiscaleois
+- numéro d'identification fiscale
 - social security
-- созиалунтерстüтзунг
-- созиалверсéчерунг
-- созиалверсичерунгсаусвеис
-- Идентификатор стеиер
-- стеиер идентификатиаунснуммер
-- стеиер нуммер
-- Идентификатор стеуер
-- стеуеридентификатионснуммер
-- стеуернуммер
+- sozialunterstzitzung
+- sozialversécherung
+- sozialversicherungsausweis
+- steier id
+- steier identifiertiounsnummer
+- steier nummer
+- steuer id
+- steueridentifikationsnummer
+- steuernummer
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- зинн #
-- зинн
-- зиннзахл
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
+- zinn #
+- zinn
+- zinnzahl
 
 
-## <a name="malaysia-identification-card-number"></a>Идентификационный номер карты Малайзии
+## <a name="malaysia-identification-card-number"></a>Номер идентификационных карт для Малайзии
 
 ### <a name="format"></a>Format
 
@@ -10967,12 +10947,12 @@ Dictionary
 ### <a name="pattern"></a>Шаблон
 
 12 цифр:
-- шесть цифр в формате ГГММДД Дата рождения; 
-- тире (необязательно) 
-- код места рождения из двух букв 
-- тире (необязательно) 
+- шесть цифр в формате YYMMDD, которые являются датой рождения 
+- Тире (необязательно) 
+- двух буквный код места рождения 
+- Тире (необязательно) 
 - три случайные цифры 
-- код пола из одной цифры;
+- однозначный код пола
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -10999,33 +10979,32 @@ Dictionary
    
 #### <a name="keyword_malaysia_id_card_number"></a>Keyword_malaysia_id_card_number
 
-- карточка цифрового приложения
+- цифровая карточка приложения
 - i/c
-- i/c нет
-- внутренних
-- МФ нет
+- i/c no
+- ic
+- ic no
 - id card
-- идентификационная карточка
+- идентификация карточки
 - identity card
 - k/p
-- k/p
-- кад акуан Дири
-- кад апликаси Digital
-- кад пенженалан Малайзии
-- ключев
-- ключевой номер
-- микад
-- микас
-- микид
-- мипр
-- митентера
-- идентификационная карточка Малайзии
-- идентификационная карточка малайсиан
-- NRIC
-- Личная идентификационная карточка
+- k/p no
+- kad akuan diri
+- kad aplikasi digital
+- kad pengenalan malaysia
+- kp
+- kp no
+- mykad
+- mykas
+- mykid
+- mypr
+- mytentera
+- удостоверение личности в Малайзии
+- удостоверение личности для малайзии
+- nric
+- личная идентификация
 
-## <a name="malta-drivers-license-number"></a>Номер водительского удостоверения для драйвера Мальта
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="malta-drivers-license-number"></a>Номер водительского удостоверения для Мальты
 
 ### <a name="format"></a>Format
 
@@ -11035,7 +11014,7 @@ Dictionary
 
 сочетание двух символов и шести цифр:
   
-- два символа (цифры или буквы без учета регистра);
+- два символа (цифры или буквы без чувствительность к буквам)
 - пробел (необязательно)
 - три цифры
 - пробел (необязательно)
@@ -11049,7 +11028,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_malta_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_malta_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_malta_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Malta Driver's License Number -->
@@ -11066,141 +11045,141 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_malta_eu_drivers_license_number"></a>Keywords_malta_eu_driver "s_license_number
+#### <a name="keywords_malta_eu_drivers_license_number"></a>Keywords_malta_eu_driver s_license_number
 
-- лиċензжаные зада Севкан
-- лиċензжиные зада севвиек
+- liċenzja tas-sewqan
+- liċenzji tas-sewwieq
 
 
-## <a name="malta-identity-card-number"></a>Номер идентификационной карточки Мальта
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="malta-identity-card-number"></a>Номер удостоверения личности для Мальты
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
@@ -11211,7 +11190,7 @@ Dictionary
 семь цифр, за которыми следует одна буква:
   
 - семь цифр 
-- одна буква в письмах "M, G, A, P, L, H, B, Z" (без учета регистра)
+- одна буква в "M, G, A, P, L, H, B, Z" (без чувствительность к делу)
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -11221,7 +11200,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_malta_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_malta_eu_national_id_card` . 
+- Найдено ключевое  `Keywords_malta_eu_national_id_card` слово. 
     
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - Регулярное выражение  `Regex_malta_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
@@ -11243,28 +11222,28 @@ Dictionary
 
 #### <a name="keywords_malta_eu_national_id_card"></a>Keywords_malta_eu_national_id_card
 
-- номер службы для себя
-- ID ТАТ — такскса
-- идентифика нумру Тал билжетт
-- кодиċи нумерали персонали
-- нумру Ta ' идентификаззжони персонали
-- нумру Ta ' идентификаззжони ТАТ такскса
-- нумру Ta ' идентификаззжони унику
-- нумру Ta ' идентитà унику
-- нумруные зада сервизз таċ ċиттадин
-- нумру ТАТ — такскса
-- персональный числовой код
+- citizen service number
+- id9-taxxa
+- identifika numru tal-jett
+- kodiċi numerali personali
+- numru ta 'identifzzjoni personali
+- numru ta 'identifzzjonident-taxxa
+- numru ta 'identifzzjoni uniku
+- numru ta' identità uniku
+- numru tas-servizz taċ-ċittadin
+- numruru-taxxa
+- личный числовой код
 - уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникуеидентитино #
+- уникальный идентификациный номер
+- uniqueidentityno #
 
 
-## <a name="malta-passport-number"></a>Номер паспорта для Мальта
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="malta-passport-number"></a>Номер паспорта гражданина Мальты
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-семь цифр без пробелов и разделителей
+семь цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
@@ -11278,7 +11257,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_malta_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_malta_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_malta_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -11297,41 +11276,41 @@ Dictionary
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_malta_eu_passport_number"></a>Keywords_malta_eu_passport_number
 
-- нумру Тал — пассапорт
-- нумри Тал — пассапорт
-- НРУ Тал — пассапорт
+- numru tal-passaport
+- numri tal-passaport
+- Nru tal-passaport
 
-## <a name="malta-tax-identification-number"></a>Идентификационный номер налога Мальта
+## <a name="malta-tax-identification-number"></a>Идентификационный номер налога на Мальте
 
 ### <a name="format"></a>Format
 
-Для национальных Мальтийский:
+Для граждан Тайваня:
 - семь цифр и одна буква в указанном шаблоне
   
-Мальтийскийные страны и Мальтийский, не являющиеся субъектами:
+Неконвионские граждане и подмайства:
 - девять цифр
   
 ### <a name="pattern"></a>Шаблон
 
-Мальтийский Nationals: семь цифр и одна буква
+Граждане Тайваня: семь цифр и одна буква
   
 - семь цифр 
-- одна буква (без учета регистра)
+- одна буква (без чувствительность к букве)
     
-Мальтийскийные страны и Мальтийский, не связанные с организациями: девять цифр
+Нефрумовские граждане и сущностями, не относягими к сша: девять цифр
   
 - девять цифр 
     
@@ -11342,11 +11321,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение  `Regex_malta_eu_tax_file_number`  или `Regex_malta_eu_tax_file_number_non_maltese_national` ищет содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_malta_eu_tax_file_number` . 
+- Regex  `Regex_malta_eu_tax_file_number`  или `Regex_malta_eu_tax_file_number_non_maltese_national` находит содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_malta_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Регулярное выражение  `Regex_malta_eu_tax_file_number` или `Regex_malta_eu_tax_file_number_non_maltese_national` ищет содержимое, которое соответствует шаблону. 
+- Regex  `Regex_malta_eu_tax_file_number` или `Regex_malta_eu_tax_file_number_non_maltese_national` находит содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Malta Tax ID Number -->
@@ -11372,51 +11351,51 @@ Dictionary
 
 #### <a name="keywords_malta_eu_tax_file_number"></a>Keywords_malta_eu_tax_file_number
 
-- номер службы для себя
-- ID ТАТ — такскса
-- идентифика нумру Тал билжетт
-- кодиċи нумерали персонали
-- нумру Ta ' идентификаззжони персонали
-- нумру Ta ' идентификаззжони ТАТ такскса
-- нумру Ta ' идентификаззжони унику
-- нумру Ta ' идентитà унику
-- нумруные зада сервизз таċ ċиттадин
-- нумру ТАТ — такскса
-- персональный числовой код
+- citizen service number
+- id9-taxxa
+- identifika numru tal-jett
+- kodiċi numerali personali
+- numru ta 'identifzzjoni personali
+- numru ta 'identifzzjonident-taxxa
+- numru ta 'identifzzjoni uniku
+- numru ta' identità uniku
+- numru tas-servizz taċ-ċittadin
+- numruru-taxxa
+- личный числовой код
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 - уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникуеидентитино #
+- уникальный идентификациный номер
+- uniqueidentityno #
 
-## <a name="netherlands-citizens-service-bsn-number"></a>Номер службы (BSN) для Нидерландов
+## <a name="netherlands-citizens-service-bsn-number"></a>Номер службы гражданина Нидерландов (BSN)
 
 ### <a name="format"></a>Format
 
-восемь девяти цифр, содержащих необязательные пробелы
+восемь-девять цифр, содержащих необязательные пробелы
 
 ### <a name="pattern"></a>Шаблон
 
-восемь девяти цифр:
+восемь-девять цифр:
 - три цифры 
 - пробел (необязательно) 
 - три цифры 
 - пробел (необязательно) 
-- две три цифры
+- две-три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -11443,34 +11422,33 @@ Dictionary
 
 #### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
   
-- BSN #
-- BSN
-- буржерсервиценуммер
-- номер службы для себя
-- номер пользователя
-- персональный номер
-- персональный числовой код
+- bsn #
+- bsn
+- servicenummer
+- citizen service number
+- person number
+- личный номер
+- личный числовой код
 - номер, связанный с человеком
-- персунлижк нуммер
-- персунлижке нумериеке код
-- персунсжебонден
-- персунснуммер
-- соЦиаал — фискаал нуммер
-- социальное — финансовый номер
-- софи
-- софинуммер
-- униек идентификатиенуммер
-- униек идентитеитснуммер
+- persoonlijk nummer
+- persoonlijke numerieke code
+- persoonsgebonden
+- persoonsnummer
+- sociaal-fiscaal nummer
+- social-fiscal number
+- sofi
+- sofinummer
+- uniek identificatienummer
+- uniek identiteitsnummer
 - уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникуеидентитино #
+- уникальный идентификациный номер
+- uniqueidentityno #
 
 ## <a name="netherlands-drivers-license-number"></a>Номер водительского удостоверения для Нидерландов
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
 
 ### <a name="format"></a>Format
 
-десять цифр без пробелов и разделителей
+десять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -11484,7 +11462,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_netherlands_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_netherlands_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_netherlands_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Netherlands Driver's License Number -->
@@ -11501,148 +11479,148 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_netherlands_eu_drivers_license_number"></a>Keywords_netherlands_eu_driver "s_license_number
+#### <a name="keywords_netherlands_eu_drivers_license_number"></a>Keywords_netherlands_eu_driver s_license_number
 
 - permis de conduire
-- рижбевижс
-- рижбевижснуммер
-- рижбевижзен
-- рижбевижс нуммер
-- рижбевижснуммерс
+- rijbewijs
+- rijbewijsnummer
+- rijbewijцен
+- rijbewijs nummer
+- rijbewijsnummers
 
 
-## <a name="netherlands-passport-number"></a>Номер паспорта Нидерландов
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="netherlands-passport-number"></a>Номер паспорта гражданина Нидерландов
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-девять букв или цифр без пробелов и разделителей
+девять букв или цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
-девять букв или цифр;
+девять букв или цифр
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -11652,7 +11630,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_netherlands_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_netherlands_eu_passport_number` . 
+- Найдено ключевое  `Keywords_netherlands_eu_passport_number` слово. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -11668,25 +11646,25 @@ Dictionary
 
 #### <a name="keywords_netherlands_eu_passport_number"></a>Keywords_netherlands_eu_passport_number
 
-- номер паспорта для нидерландского языка
+- номер паспорта гражданина Нидерландов
 - passport number
-- номер паспорта Нидерландов
-- недерланден паспурт нуммер
-- паспурт
-- недерланден паспуртнуммер
-- паспуртнуммер
+- номер паспорта гражданина Нидерландов
+- nederlanden paspoort nummer
+- paspoort
+- nederlanden paspoortnummer
+- paspoortnummer
 
-## <a name="netherlands-tax-identification-number"></a>Идентификационный номер налога Нидерландов
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="netherlands-tax-identification-number"></a>Налоговый идентификационный номер для Нидерландов
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов и разделителей
+девять цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
@@ -11699,11 +11677,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_netherlands_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_netherlands_eu_tax_file_number` . 
+- Функция находит  `Func_netherlands_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_netherlands_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция  `Func_netherlands_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_netherlands_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Netherlands Tax Identification Number -->
@@ -11722,64 +11700,64 @@ Dictionary
 
 #### <a name="keywords_netherlands_eu_tax_file_number"></a>Keywords_netherlands_eu_tax_file_number
 
-- БТВ нуммер
-- Идентификация налога на холлâнске
-- идентификационный номер импуесто хуландес
-- хуландес импуесто идентификация
-- идентификатиенуммер
-- идентификатиенуммер Van
-- идентификационный номер импуесто
-- номер импуесто
-- Недерландс — идентификатор нуммер
-- Недерландс идентификатие
-- Недерландс идентификатиенуммер
-- Недерландс беластингнуммер
-- Недерландсе идентификатие
-- Идентификация налога Нидерландов
-- Налоговый код несерланд
-- Tin Нидерландов
-- Tin несерланд
+- btw nummer
+- hollânske tax identification
+- hulandes impuesto id number
+- hulandes impuesto identification
+- identificatienummer belasting
+- identificatienummer van belasting
+- идентификационный номер impuesto
+- impuesto number
+- nederlands belasting id nummer
+- nederlands belasting identificatie
+- nederlands belasting identificatienummer
+- nederlands belastingnummer
+- nederlandse belasting identificatie
+- идентификация налогов в Нидерландах
+- идентификация налогов в Нидерландах
+- нидерланды, олово
+- олово Нидерландов
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- Тал идентификации налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- Налоговая Тал
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax identification tal
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- tax tal
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="netherlands-value-added-tax-number"></a>Номер налога добавленных значений в Нидерландов
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="netherlands-value-added-tax-number"></a>Номер налога на добавленную стоимость для Нидерландов
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-14-буквенно-буквенно-цифровой шаблон
+14-символьный буквонумерный шаблон
 
 ### <a name="pattern"></a>Шаблон
 
-14-буквенно-буквенно-символьный шаблон:
+14-символьный буквонумерный шаблон:
 
 - N или n
 - L или l
-- необязательный пробел, точка или дефис
+- необязательное пространство, точка или дефис
 - девять цифр
-- необязательный пробел, точка или дефис
+- необязательное пространство, точка или дефис
 - B или b
 - две цифры
 
@@ -11790,11 +11768,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_netherlands_value_added_tax_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_netherlands_value_added_tax_number.
+- Функция Func_netherlands_value_added_tax_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_netherlands_value_added_tax_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_netherlands_value_added_tax_number находит содержимое, которое соответствует шаблону;
+- Функция Func_netherlands_value_added_tax_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Netherlands Value Added Tax Number -->
@@ -11813,38 +11791,38 @@ Dictionary
 
 #### <a name="keyword_netherlands_value_added_tax_number"></a>Keyword_netherlands_value_added_tax_number
 
-- номер НДС
-- НДС No
-- процент #
-- веарде тафоеже налога на жетал
-- БТВ нûмер
-- БТВ — нуммер
+- номер плательщика НДС
+- vat no
+- vat #
+- tax getal для wearde tafoege
+- btw n уmer
+- btw-nummer
 
 
-## <a name="new-zealand-bank-account-number"></a>Номер банковского счета Новой Зеландии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="new-zealand-bank-account-number"></a>Номер банковского счета для Новой Зеландии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-шаблон с 14 до 16 цифр с необязательным разделителем
+Шаблон из 14-16 цифр с необязательными делегаторами
 
 ### <a name="pattern"></a>Шаблон
 
-шаблон с 14 до 16 цифр с необязательным разделителем:
+Шаблон из 14–16 цифр с необязательными делегаторами:
 
 - две цифры
-- Необязательный дефис или пробел
+- необязательный дефис или пробел
 - от трех до четырех цифр
-- Необязательный дефис или пробел
+- необязательный дефис или пробел
 - семь цифр
-- Необязательный дефис или пробел
-- две до трех цифр
-- Параметры дефис или пробел
+- необязательный дефис или пробел
+- две-три цифры
+- дефис или пробел для параметров
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -11853,11 +11831,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_new_zealand_bank_account_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_new_zealand_bank_account_number.
+- Функция Func_new_zealand_bank_account_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_new_zealand_bank_account_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_new_zealand_bank_account_number находит содержимое, которое соответствует шаблону;
+- Функция Func_new_zealand_bank_account_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- New Zealand Bank Account Number -->
@@ -11877,27 +11855,27 @@ Dictionary
 #### <a name="keyword_new_zealand_bank_account_number"></a>Keyword_new_zealand_bank_account_number
 
 - account number
-- банковский счет
+- bank account
 - bank_acct_id
 - bank_acct_branch
 - bank_acct_nbr
 
 
 ## <a name="new-zealand-drivers-license-number"></a>Номер водительского удостоверения для Новой Зеландии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-8-буквенно-цифровой шаблон
+восьми символьный букво-цифровая схема
 
 ### <a name="pattern"></a>Шаблон
 
-8-буквенно-цифровой шаблон
+восьми символьный букво-цифровая схема
 
 - две буквы 
 - шесть цифр
@@ -11909,11 +11887,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_newzealand_driver_license_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_newzealand_driver_license_number.
+- Функция Func_newzealand_driver_license_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_newzealand_driver_license_number.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция Func_newzealand_driver_license_number находит содержимое, которое соответствует шаблону;
+- Функция Func_newzealand_driver_license_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- New Zealand Driver License Number -->
@@ -11932,87 +11910,87 @@ Dictionary
 
 #### <a name="keyword_new_zealand_drivers_license_number"></a>Keyword_new_zealand_drivers_license_number
 
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверслиценце
-- дриверслиценцес
-- драйверы Лик
-- драйверы ликс
+- driverlicence
+- driverlicences
+- driver lic
+- driver licence
+- driver licences
+- driverslic
+- driverslicence
+- driverslicences
+- drivers lic
+- drivers lics
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's licence
-- лицензии на драйвер
-- дриверлик #
-- дриверликс #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- driverlic #
+- driverlics #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver licence #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's licence #
+- driver's licences #
 - international driving permit
 - international driving permits
-- Ассоциация автомобилей
-- связь с автомобилем Новой Зеландии
+- Связь автомобилей nz
+- новая зеландия, автомобильная связь
 
 
-## <a name="new-zealand-inland-revenue-number"></a>Номер дохода по некоторому контакту для Новой Зеландии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="new-zealand-inland-revenue-number"></a>Номер выручки для новой Зеландии в стране
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-восемь или девять цифр с необязательными ограничителями
+восемь или девять цифр с необязательными делегаторами
 
 ### <a name="pattern"></a>Шаблон
 
-восемь или девять цифр с необязательными ограничителями
+восемь или девять цифр с необязательными делегаторами
 
 - две или три цифры
 - необязательный пробел или дефис
@@ -12027,11 +12005,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_new_zealand_inland_revenue_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_new_zealand_inland_revenue_number.
+- Функция Func_new_zealand_inland_revenue_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_new_zealand_inland_revenue_number.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_new_zealand_inland_revenue_number находит содержимое, которое соответствует шаблону;
+- Функция Func_new_zealand_inland_revenue_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- New Zealand Inland Revenue Number -->
@@ -12050,15 +12028,15 @@ Dictionary
 
 #### <a name="keyword_new_zealand_inland_revenue_number"></a>Keyword_new_zealand_inland_revenue_number
 
-- ИРД но.
-- ИРД нет #
-- NZ ИРД
-- Новая Зеландия ИРД
-- номер ИРД
-- номер дохода на землю
+- ird no.
+- ird no #
+- nz ird
+- новая Зеландия ird
+- ird number
+- inland revenue number
 
 
-## <a name="new-zealand-ministry-of-health-number"></a>Номер министерства здоровья Новой Зеландии
+## <a name="new-zealand-ministry-of-health-number"></a>Министерство здравоохранения Новой Зеландии
 
 ### <a name="format"></a>Format
 
@@ -12066,7 +12044,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-- три буквы (без учета регистра), за исключением "I" и "O"
+- три буквы (без чувствительность к буквам), кроме "I" и "O"
 - пробел (необязательно) 
 - четыре цифры
 
@@ -12102,25 +12080,25 @@ Dictionary
 
 #### <a name="keyword_nz_terms"></a>Keyword_nz_terms
 
-- нхи
+- NHI
 - Новая Зеландия
 - Здравоохранение
-- обращения
-- Номер индекса национальной работоспособности
-- номер Нхи
-- Нхи но.
-- нхи #
-- Номер индекса национальной работоспособности
-- Идентификатор индекса национальной работоспособности
-- Номер национальной работоспособности #
+- обработка
+- National Health Index Number
+- nhi number
+- nhi no.
+- NHI #
+- National Health Index No.
+- National Health Index Id
+- National Health Index #
 
-## <a name="new-zealand-social-wlefare-number"></a>Номер социального влефареа Новой Зеландии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="new-zealand-social-wlefare-number"></a>Номер социальной сети Новой Зеландии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
@@ -12131,9 +12109,9 @@ Dictionary
 девять цифр
 
 - три цифры
-- Необязательный перенос
+- необязательный дефис
 - три цифры
-- Необязательный перенос
+- необязательный дефис
 - три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -12143,11 +12121,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_newzealand_social_welfare_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_newzealand_social_welfare_number.
+- Функция Func_newzealand_social_welfare_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_newzealand_social_welfare_number.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция Func_newzealand_social_welfare_number находит содержимое, которое соответствует шаблону;
+- Функция Func_newzealand_social_welfare_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Newzealand Social Welfare Number -->
@@ -12167,14 +12145,14 @@ Dictionary
 
 #### <a name="keyword_new_zealand_social_welfare_number"></a>Keyword_new_zealand_social_welfare_number
 
-- социальные велфаре #
-- социальные велфаре #
-- социальное велфаре No.
-- номер социального велфаре
-- свн #
+- социальные сети #
+- social welfare #
+- social welfare No.
+- номер социальных сетей
+- swn #
 
    
-## <a name="norway-identification-number"></a>Идентификационный номер Норвегии
+## <a name="norway-identification-number"></a>Идентификационный номер для Норвегии
 
 ### <a name="format"></a>Format
 
@@ -12183,8 +12161,8 @@ Dictionary
 ### <a name="pattern"></a>Шаблон
 
 11 цифр:
-- шесть цифр в формате ддммгг — Дата рождения; 
-- индивидуальный номер из трех цифр 
+- шесть цифр в формате ДДММАЙ, которые являются датой рождения 
+- трехзначный индивидуальный номер 
 - две контрольные цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -12222,12 +12200,12 @@ Dictionary
 - Personal identification number
 - Norwegian ID Number
 - ID Number
-- Процедура
-- персоннуммер
-- фøдселснуммер
+- Идентификация
+- Personnummer
+- Fфdselsnummer
 
    
-## <a name="philippines-unified-multi-purpose-identification-number"></a>Идентификационный номер единой системы для различных целей Филиппины
+## <a name="philippines-unified-multi-purpose-identification-number"></a>Единый многонамерный идентификационный номер для Филиппин
 
 ### <a name="format"></a>Format
 
@@ -12267,20 +12245,19 @@ Dictionary
 #### <a name="keyword_philippines_id"></a>Keyword_philippines_id
 
 - Unified Multi-Purpose ID 
-- умид 
+- UMID 
 - Identity Card 
 - Pinag-isang Multi-Layunin ID
 
-## <a name="poland-drivers-license-number"></a>Номер водительского удостоверения для драйвера Польша
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="poland-drivers-license-number"></a>Номер водительского удостоверения для Польша
 
 ### <a name="format"></a>Format
 
-14 цифр, содержащих 2 косых черты.
+14 цифр, содержащих 2 косой черты
   
 ### <a name="pattern"></a>Шаблон
 
-14 цифр и 2 косых черт:
+14 цифр и 2 косой черты:
   
 - пять цифр 
 - косая черта
@@ -12296,7 +12273,7 @@ Dictionary
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_poland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_poland_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_poland_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Poland Driver's License Number -->
@@ -12313,142 +12290,142 @@ Dictionary
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_poland_eu_drivers_license_number"></a>Keywords_poland_eu_driver "s_license_number
+#### <a name="keywords_poland_eu_drivers_license_number"></a>Keywords_poland_eu_driver s_license_number
 
-- право жазди
-- права жазди
+- prawo jazdy
+- prawa jazdy
 
-## <a name="poland-identity-card"></a>Идентификационная карточка Польша
+## <a name="poland-identity-card"></a>Удостоверение личности для Польша
 
 ### <a name="format"></a>Format
 
-три буквы и шесть цифр.
+три буквы и шесть цифр
 
 ### <a name="pattern"></a>Шаблон
 
-три буквы (без учета регистра), за которыми следуют шесть цифр.
+три буквы (без чувствительность к буквам), за которыми следуют шесть цифр
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -12475,16 +12452,16 @@ Dictionary
 
 #### <a name="keyword_poland_national_id_passport_number"></a>Keyword_poland_national_id_passport_number
 
-- Довóд особисти
-- Нумер доводу особистего
-- Назва i нумер доводу особистего
-- Назва i НР доводу особистего
+- Dowód osobisty
+- Numer dowodu osobistego
+- Nazwa i numer dowodu osobistego
+- Nazwa i nr dowodu osobistego
 - Nazwa i nr dowodu tożsamości
 - Dowód Tożsamości
-- Dow. совместим.
+- dow. os.
 
    
-## <a name="poland-national-id-pesel"></a>Национальный идентификатор Польша (PESEL)
+## <a name="poland-national-id-pesel"></a>Национальный ИД для Польша (PESEL)
 
 ### <a name="format"></a>Format
 
@@ -12492,7 +12469,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-- 6 цифр, представляющих дату рождения, в формате ГГММДД.
+- 6 цифр, представляющих дату рождения в формате YYMMDD
 - 4 цифры
 - 1 контрольная цифра
 
@@ -12528,23 +12505,23 @@ Dictionary
 
 #### <a name="keyword_pesel_identification_number"></a>Keyword_pesel_identification_number
 
-- довóд особисти
-- довóдособисти
-- ниеповтарзални нумер
-- ниеповтарзалнинумер
-- НР. PESEL
-- НР — PESEL
-- Нумер идентификацижни
-- PESEL
-- тоżсамоśЦи народовеж
+- dowód osobisty
+- dowódosobisty
+- niepowtarzalny numer
+- niepowtarzalnynumer
+- nr.-pesel
+- nr-pesel
+- numer identyfcyjny
+- pesel
+- tosamoraswej
 
    
-## <a name="poland-passport-number"></a>Номер паспорта для Польша
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера паспорта ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="poland-passport-number"></a>Номер паспорта гражданина Польша
+Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации номера паспорта ес и доступен как автономный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
-две буквы и семь цифр.
+две буквы и семь цифр
 
 ### <a name="pattern"></a>Шаблон
 
@@ -12576,29 +12553,29 @@ Dictionary
 
 #### <a name="keyword_poland_national_id_passport_number"></a>Keyword_poland_national_id_passport_number
 
-- Нумер пасзпорту
-- НР. пасзпорту
-- пасзпорт
+- Numer paszportu
+- Nr. Paszportu
+- Paszport
 
-## <a name="poland-regon-number"></a>Номер РЕГОНа Польша
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="poland-regon-number"></a>Номер REGON для Польша
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-девять цифр или номер из 14 цифр
+девятизначный или 14-значный номер
 
 ### <a name="pattern"></a>Шаблон
 
-девять цифр или 14 цифр:
+девятизначное или 14-значное число:
 
 - девять цифр или 
 - девять цифр
-- дискрецион
+- дефис
 - пять цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -12608,11 +12585,11 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_polish_regon_number находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_polish_regon_number.
+- Функция Func_polish_regon_number находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_polish_regon_number.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция Func_polish_regon_number находит содержимое, которое соответствует шаблону;
+- Функция Func_polish_regon_number находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Polish REGON Number  -->
@@ -12630,33 +12607,33 @@ Dictionary
 
 #### <a name="keywords_poland_regon_number"></a>Keywords_poland_regon_number
 
-- Идентификатор РЕГОН
-- Статистический номер
-- Идентификатор статистики
-- Статистическая нет
-- номер РЕГОН
-- регонид #
-- регонно #
-- Код компании
-- компанид #
-- компанидно #
-- Нумер статистикзни
-- нумеру РЕГОН
-- нумерстатистикзни #
-- нумерурегон #
+- regon id
+- статистический номер
+- статистический ид
+- статистический нет
+- regon number
+- regonid #
+- regonno #
+- company id
+- companyid #
+- companyidno #
+- numer statystyczny
+- numeru regon
+- numerstatystyczny #
+- numeruregon #
 
 
-## <a name="poland-tax-identification-number"></a>Идентификационный номер для таможенного учета Польша
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="poland-tax-identification-number"></a>Налоговый идентификационный номер для Польша
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-11 цифр без пробелов и разделителей
+11 цифр без пробелов или селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -12669,8 +12646,8 @@ Dictionary
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_poland_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_poland_eu_tax_file_number` . 
+- Функция находит  `Func_poland_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_poland_eu_tax_file_number` слово. 
     
   
 ```xml
@@ -12687,36 +12664,36 @@ Dictionary
 
 #### <a name="keywords_poland_eu_tax_file_number"></a>Keywords_poland_eu_tax_file_number
 
-- нип #
-- нип
-- Нумер идентификакжи податковеж
-- нумеридентификакжиподатковеж #
+- nip #
+- nip
+- numer identyfkocji podatkowej
+- numeridentyfkocjipodatkowej #
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
-- Код НДС #
-- Код НДС
-- НДС No
-- номер НДС
-- ватид #
-- ватид
-- ватно #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
+- vat id #
+- vat id
+- vat no
+- номер плательщика НДС
+- vatid #
+- vatid
+- vatno #
    
 
-## <a name="portugal-citizen-card-number"></a>Номер карточки с префиксом "Португалия"
+## <a name="portugal-citizen-card-number"></a>Номер карты гражданина Португалии
 
 ### <a name="format"></a>Format
 
@@ -12750,43 +12727,42 @@ Dictionary
 
 #### <a name="keyword_portugal_citizen_card"></a>Keyword_portugal_citizen_card
 
-- билхете de identidade
-- картãо de Цидадãо
-- карточка "гражданская"
+- de identidade
+- cartão de cidadão
+- citizen card
 - номер документа
-- документо de идентификаçãо
-- идентификационный номер
-- Идентификация нет
+- documento de identificação
+- id number
+- identification no
 - identification number
-- удостоверение идентификационной карточки
-- Номер идентификационной карточки
-- номер национальной идентификационной карточки
-- используемый
-- нúмеро BI — немецкий (Португалия)
-- нúмеро де идентификаçãо граждан
-- нúмеро de идентификаçãо Фин.
-- нúмеро Do документо
-- номер бизнес-аналитики (Португалия)
+- identity card no
+- номер удостоверения личности
+- national id card
+- nic
+- número bi de portugal
+- número de identificação civil
+- número de identificação fiscal
+- número do documento
+- номер bi в Португалии
 
 
-## <a name="portugal-drivers-license-number"></a>Номер водительского удостоверения для драйвера Португалия
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="portugal-drivers-license-number"></a>Номер водительского удостоверения для Португалии
 
 ### <a name="format"></a>Format
 
-два образца — две буквы, за которыми следуют 5-8 цифр со специальными символами
+два шаблона: две буквы, за которыми следуют 5–8 цифр со специальными символами
   
 ### <a name="pattern"></a>Шаблон
 
-Pattern 1: две буквы, за которыми следует 5/6 со специальными символами:
-- Две буквы (без учета регистра)
+Шаблон 1: две буквы, за которыми следуют 5/6 со специальными символами:
+- Две буквы (без чувствительность к буквам)
 - дефис;
 - Пять или шесть цифр
 - Пробел
 - Одна цифра
 
-Шаблон 2: одна буква, за которой следуют 6/8 цифры со специальными символами:
-- Одна буква (без учета регистра)
+Шаблон 2: одна буква, за которой следуют 6/8 цифр со специальными символами:
+- Одна буква (без чувствительность к букве)
 - дефис;
 - Шесть или восемь цифр
 - Пробел
@@ -12801,7 +12777,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_portugal_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_portugal_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_portugal_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Portugal Driver's License Number -->
@@ -12818,153 +12794,153 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_portugal_eu_drivers_license_number"></a>Keywords_portugal_eu_driver "s_license_number
+#### <a name="keywords_portugal_eu_drivers_license_number"></a>Keywords_portugal_eu_driver s_license_number
 
-- картеира de моториста
-- картеира моториста
-- картеира de хабилитаçãо
-- картеира хабилитаçãо
-- нúмеро de лиценçа
-- нúмеро лиценçа
-- пермиссãо de кондуçãо
-- пермиссãо кондуçãо
-- Лиценçа кондуçãо Португалия
-- Корзина де кондуçãо
+- cart де motor де motor де
+- автомагистрали корзины
+- cartita de habilitação
+- cartita habilitação
+- número de licença
+- número licença
+- permissão de condução
+- permissão condução
+- Licença condução Portugal
+- carta de condução
 
-## <a name="portugal-passport-number"></a>Номер паспорта для Португалия
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="portugal-passport-number"></a>Номер паспорта гражданина Португалии
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-одна буква, за которой следуют шесть цифр без пробелов и разделителей
+одна буква, за которой следуют шесть цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
 одна буква, за которой следуют шесть цифр:
   
-- одна буква (без учета регистра)
+- одна буква (без чувствительность к букве)
 - шесть цифр
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -12975,7 +12951,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_portugal_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_portugal_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_portugal_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -12994,31 +12970,31 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_portugal_eu_passport_number"></a>Keywords_portugal_eu_passport_number
 
-- нúмеро Do пассапорте
-- пароль для португальского языка
-- Португальский пассепорт
-- Португальский пассапорте
-- пассапорте n º
-- пассепорт n º
-- нúмерос de пассапорте
-- Португальская служба Passport
-- нúмеро пассапорте
-- нúмерос пассапорте
+- número do passaporte
+- португальский паспорт
+- португальский порт
+- португальский passaporte
+- passaporte nº
+- passeport n°
+- números de passaporte
+- португальские паспорта
+- número passaporte
+- números passaporte
 
-## <a name="portugal-tax-identification-number"></a>Идентификационный номер для налога на Португалия
+## <a name="portugal-tax-identification-number"></a>Идентификационный номер налога для Португалии
 
 ### <a name="format"></a>Format
 
@@ -13027,9 +13003,9 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="pattern"></a>Шаблон
 
 - 3 цифры
-- необязательный пробел
+- дополнительное пространство
 - 3 цифры
-- необязательный пробел
+- дополнительное пространство
 - 3 цифры
   
 ### <a name="checksum"></a>Контрольная сумма
@@ -13039,11 +13015,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_portugal_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_portugal_eu_tax_file_number` . 
+- Функция находит  `Func_portugal_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_portugal_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция  `Func_portugal_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_portugal_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Portugal Tax Identification Number -->
@@ -13062,41 +13038,40 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_portugal_eu_tax_file_number"></a>Keywords_portugal_eu_tax_file_number
 
-- CPF #
-- CPF
-- включена #
-- включена
-- нúмеро де идентификаçãо Фиска
-- финансовый нумеро
+- cpf #
+- cpf
+- nif #
+- nif
+- número de identificação fisca
+- numero fiscal
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="romania-drivers-license-number"></a>Номер водительского удостоверения для драйвера Румыния
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="romania-drivers-license-number"></a>Номер водительского удостоверения в Румынии
 
 ### <a name="format"></a>Format
 
-один символ, за которым следуют восемь цифр
+один символ, за которым следует восемь цифр
   
 ### <a name="pattern"></a>Шаблон
 
-один символ, за которым следуют восемь цифр:
-- одна буква (без учета регистра) или цифра 
+один символ, за которым следует восемь цифр:
+- одна буква (без чувствительность к букве) или цифра 
 - восемь цифр
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -13107,7 +13082,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_romania_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_romania_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_romania_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Romania Driver's License Number -->
@@ -13124,154 +13099,154 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_romania_eu_drivers_license_number"></a>Keywords_romania_eu_driver "s_license_number
+#### <a name="keywords_romania_eu_drivers_license_number"></a>Keywords_romania_eu_driver s_license_number
 
-- разрешение de кондуцере
-- пермисулуи de кондуцере
-- пермисулуи кондуцере
-- пермиселе de кондуцере
-- пермиселе кондуцере
-- разрешение кондуцере
+- permis deягольник
+- permisului deжегольник
+- permisului
+- permisele deремене
+- permisele дейспер
+- permis демилидер
 
-## <a name="romania-personal-numeric-code-cnp"></a>Персональный числовой код Румыния (КНП)
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="romania-personal-numeric-code-cnp"></a>Личный числовой код Румынии (CNP)
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-13 цифр без пробелов и разделителей
+13 цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
-- 1 цифра из 1-9
-- 6 цифр, представляющих дату рождения (ГГММДД)
-- 2 цифры, которые могут быть 01-52 или 99
+- 1 цифра от 1 до 9
+- 6 цифр, представляющих дату рождения (YYMMDD)
+- 2 цифры, которые могут быть 01–52 или 99
 - 4 цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -13281,11 +13256,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_romania_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_romania_eu_national_id_card` . 
+- Функция находит  `Func_romania_eu_national_id_card` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_romania_eu_national_id_card` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_romania_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_romania_eu_national_id_card` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Romania Personal Numerical Code (CNP) -->
@@ -13304,61 +13279,61 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_romania_eu_national_id_card"></a>Keywords_romania_eu_national_id_card
 
-- кнп #
-- кнп
-- Личный идентификаре наложенного платежа
-- цифровой платеж, персональный
-- наложенный Уник идентификаре
-- коднумерикперсонал #
-- финансовый НР кодул.
-- идентификареа фискалă НР #
-- ID — UL таксеи
+- cnp #
+- cnp
+- cod identificare personal
+- cod numeric personal
+- cod unic identificare
+- codnumericpersonal #
+- codul fiscal nr.
+- identificarea fiscal nr #
+- id-ul taxei
 - страховой номер
-- инсуранценумбер #
-- идентификатор страны #
+- insurancenumber #
+- national id #
 - national id
 - national identification number
-- нумăр идентификаре персональный
-- нумăр идентитате
-- нумăр Personal Уник
-- нумăридентитате #
-- нумăридентитате
-- нумăрперсоналуник #
-- нумăрперсоналуник
-- нумăру де идентификаре фискалă
-- нумăрул де идентификаре фискалă
-- персональный числовой код
-- крепления #
-- крепления
-- Налоговый файл нет
+- numфиr identificare personal
+- num себя
+- num онкологическое
+- numsridentitate #
+- numsridentitate
+- numrpersonalunic #
+- numrpersonalunic
+- numru de identificare fiscal
+- num траула de identificare fiscal
+- личный числовой код
+- pin #
+- pin
+- tax file no
 - tax file number
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 - уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникуеидентитино #
-- уникуеидентитино
+- уникальный идентификациный номер
+- uniqueidentityno #
+- uniqueidentityno
 
-## <a name="romania-passport-number"></a>Номер паспорта для Румыния
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="romania-passport-number"></a>Номер паспорта гражданина Румынии
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-восемь или девять цифр без пробелов и разделителей
+восемь или девять цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -13372,7 +13347,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_romania_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_romania_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_romania_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -13391,41 +13366,41 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_romania_eu_passport_number"></a>Keywords_romania_eu_passport_number
 
-нумăрул паșапортулуи нумарул пасапортулуи нумереле паșапортулуи паșапорт НР
+numsrul paулaportului numarul pasaportului numerele pasaportului nr
 
-## <a name="russia-passport-number-domestic"></a>Номер паспорта для России (Россия)
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="russia-passport-number-domestic"></a>Внутренний номер паспорта гражданина России
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-номер из десяти цифр
+десятизначный номер
 
 ### <a name="pattern"></a>Шаблон
 
-номер из десяти цифр:
+десятизначный номер:
 
 - две цифры
 - необязательный пробел или дефис
 - две цифры
-- необязательный пробел
+- дополнительное пространство
 - шесть цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -13435,8 +13410,8 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Regex_Russian_Passport_Number_Domestic находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово из Keyword_Russian_Passport_Number.
+- Regex Regex_Russian_Passport_Number_Domestic находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Russian_Passport_Number.
 
 ```xml
       <!-- Russian Passport Number Domestic -->
@@ -13453,36 +13428,36 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 #### <a name="keyword_russia_passport_number_domestic"></a>Keyword_russia_passport_number_domestic
 
 - passport number
+- passport no
+- passport #
+- passport id
+- passportno #
+- passportnumber #
 - паспорт нет
-- службу #
-- идентификатор паспорта
-- пасспортно #
-- пасспортнумбер #
-- паспорт нет
-- Идентификатор паспорт
-- поссийской паспорт
-- пусский номер паспорта
+- id
+- pss
+- p++.
 - паспорт #
-- паспортид #
+- 000 000 #
 - номер паспорта
 - номерпаспорта #
 
 
-## <a name="russia-passport-number-international"></a>Номер паспорта для России Международная
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="russia-passport-number-international"></a>Международный номер паспорта гражданина России
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-девять цифр
+девятизначный номер
 
 ### <a name="pattern"></a>Шаблон
 
-девять цифр:
+девятизначный номер:
 
 - две цифры
 - необязательный пробел или дефис
@@ -13495,8 +13470,8 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Regex_Russian_Passport_Number_International находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово из Keyword_Russian_Passport_Number.
+- Regex Regex_Russian_Passport_Number_International находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Russian_Passport_Number.
 
 ```xml
       <!-- Russian Passport Number International -->
@@ -13513,17 +13488,17 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 #### <a name="keywords_russia_passport_number_international"></a>Keywords_russia_passport_number_international
 
 - passport number
+- passport no
+- passport #
+- passport id
+- passportno #
+- passportnumber #
 - паспорт нет
-- службу #
-- идентификатор паспорта
-- пасспортно #
-- пасспортнумбер #
-- паспорт нет
-- Идентификатор паспорт
-- поссийской паспорт
-- пусский номер паспорта
+- id
+- pss
+- p++.
 - паспорт #
-- паспортид #
+- 000 000 #
 - номер паспорта
 - номерпаспорта #
 
@@ -13570,7 +13545,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - الوطنية الهوية بطاقة رقم 
 
    
-## <a name="singapore-national-registration-identity-card-nric-number"></a>Номер национальной идентификационной карточки для регистрации (NRIC), Сингапур
+## <a name="singapore-national-registration-identity-card-nric-number"></a>Номер удостоверения личности для национальной регистрации Сингапура (NRIC)
 
 ### <a name="format"></a>Format
 
@@ -13579,9 +13554,9 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="pattern"></a>Шаблон
 
 - девять букв и цифр:
-- буква "F", "G", "S" или "T" (без учета регистра) 
+- буква "F", "G", "S" или "T" (без чувствительность к букве) 
 - семь цифр 
-- цифра алфавитной проверки
+- алфавитная проверочные цифры
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -13618,24 +13593,23 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - National Registration Identity Card 
 - Identity Card Number 
 - NRIC 
-- ВНУТРЕННИХ 
+- IC 
 - Foreign Identification Number 
-- ПРОЦЕНТ 
+- FIN 
 - 身份证 
 - 身份證 
 
-## <a name="slovakia-drivers-license-number"></a>Номер водительского удостоверения для драйвера Словакия
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="slovakia-drivers-license-number"></a>Номер водительского удостоверения для Словакии
 
 ### <a name="format"></a>Format
 
-один символ, за которым следуют семь цифр.
+один символ, за которым следует семь цифр
   
 ### <a name="pattern"></a>Шаблон
 
-один символ, за которым следуют семь цифр.
+один символ, за которым следует семь цифр
   
-- одна буква (без учета регистра) или цифра
+- одна буква (без чувствительность к букве) или цифра
 - семь цифр 
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -13646,7 +13620,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovakia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_slovakia_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_slovakia_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Slovakia Driver's License Number -->
@@ -13663,153 +13637,153 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_slovakia_eu_drivers_license_number"></a>Keywords_slovakia_eu_driver "s_license_number
+#### <a name="keywords_slovakia_eu_drivers_license_number"></a>Keywords_slovakia_eu_driver s_license_number
 
-- водиčскý преуказ
-- водиčскé преукази
-- водиčскéхо преуказу
-- водиčскýч преуказов
+- vodizski prezz
+- vodiéské pre pre
+- vodiированнаяského preтхо
+- vodizskzch preovzov
 
-## <a name="slovakia-personal-number"></a>Словакия персональный номер
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="slovakia-personal-number"></a>Персональный номер для Словакии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-девять или десять цифр, содержащих необязательную обратную косую черту
+девять или десять цифр, содержащих необязательные знаки backslash
   
 ### <a name="pattern"></a>Шаблон
 
 - 6 цифр, представляющих дату рождения
-- Необязательная косая черта (/)
+- необязательная косая черта (/)
 - 3 цифры
-- 1 обязательная контрольная цифра
+- 1 дополнительная проверотельная цифра
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -13818,11 +13792,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_slovakia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_slovakia_eu_national_id_card` . 
+- Функция находит  `Func_slovakia_eu_national_id_card` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_slovakia_eu_national_id_card` слово. 
     
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция  `Func_slovakia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_slovakia_eu_national_id_card` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Slovakia Personal Number -->
@@ -13842,61 +13816,61 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_slovakia_eu_national_id_card"></a>Keywords_slovakia_eu_national_id_card
 
-- азоносíтó сзáм
-- номер рождения
-- číсло нáроднеж идентификаčнеж Карти
-- číсло обčианскéхо преуказу
-- даňовé číсло
-- идентификационный номер
-- Идентификация нет
+- azonosító szám
+- birth number
+- íslo národnej identifánej karty
+- íslo obíianského preísí
+- daíové ííslo
+- id number
+- identification no
 - identification number
-- идентификаčнá карта č
-- идентификаčнé číсло
-- удостоверение идентификационной карточки
-- Номер идентификационной карточки
-- нáроднá идентификаčнá знаčка č
-- номер страны
-- натионалнумбер #
-- Немзети сземéлязоносíтó игазолвáни
-- персоналиднумбер #
-- рč
-- родне Цисло
-- роднé číсло
+- identifááná karta á
+- identifííné ííslo
+- identity card no
+- номер удостоверения личности
+- národná identifkaáná znaáka á
+- national number
+- nationalnumber #
+- nemzeti személyazonosító igazolvány
+- personalidnumber #
+- r.
+- rodne cislo
+- rodné ííslo
 - social security number
-- SSN #
-- SSN
-- сземéли игазолвáни сзáм
-- сземéли игазолвáни сзáма
-- сземéлигазолвáни сзáм
-- Налоговый файл нет
+- ssn #
+- ssn
+- személyi igazolvány szám
+- személyi igazolvány száma
+- személyigazolvány szám
+- tax file no
 - tax file number
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
-## <a name="slovakia-passport-number"></a>Словакия — номер паспорта
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="slovakia-passport-number"></a>Номер паспорта гражданина Словакии
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-одна цифра или буква, за которой следуют семь цифр без пробелов и разделителей
+одна цифра или буква, за которой следуют семь цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
-одна цифра или буква (без учета регистра), за которой следуют семь цифр.
+одна цифра или буква (без чувствительность к букве), за которой следуют семь цифр.
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -13906,7 +13880,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovakia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_slovakia_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_slovakia_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -13925,31 +13899,30 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_slovakia_eu_passport_number"></a>Keywords_slovakia_eu_passport_number
 
-- číсло Пасу
-- číсла пасов
-- PAS č.
-- Пассепорт n °
-- n ° Пассепорт
+- íslo pasu
+- ísla pasov
+- pas i.
+- Passeport n°
+- n° Passeport
 
-## <a name="slovenia-drivers-license-number"></a>Номер водительского удостоверения для драйвера Словения
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="slovenia-drivers-license-number"></a>Номер водительского удостоверения для Словении
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов и разделителей
+девять цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
@@ -13963,7 +13936,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovenia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_slovenia_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_slovenia_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Slovenia Driver's License Number -->
@@ -13980,155 +13953,155 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_slovenia_eu_drivers_license_number"></a>Keywords_slovenia_eu_driver "s_license_number
+#### <a name="keywords_slovenia_eu_drivers_license_number"></a>Keywords_slovenia_eu_driver s_license_number
 
-- возниšко доволженже
-- возниšка šтевилка лицензия
-- возниšких доволженж
-- šтевилка возниšкега доволженжа
-- šтевилке возниšких доволженж
+- vozniko dovoljenje
+- лицензия voznizka ztevilka
+- voznihkih dovoljenj
+- ztevilka voznizkega dovoljenja
+- ztevilke voznihkih dovoljenj
 
-## <a name="slovenia-unique-master-citizen-number"></a>Словения уникальный номер хозяина
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="slovenia-unique-master-citizen-number"></a>Уникальный номер гражданина Словении
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-13 цифр без пробелов и разделителей
+13 цифр без пробелов или селитров
   
 ### <a name="pattern"></a>Шаблон
 
 13 цифр в указанном шаблоне:
   
-- семь цифр, которые соответствуют дате рождения (ДДММЛЛЛ), где "ЛЛЛ" соответствует последним трем цифрам года рождения 
+- семь цифр, соответствующих дате рождения (DDMMLLL), где "LLL" соответствует последним трем цифрам года рождения 
 - две цифры, соответствующие области рождения "50"
-- три цифры, которые соответствуют сочетанию пола и серийного номера для людей, которые приставили один и тот же день (000-499 для пола и 500-999 для розетки)
+- три цифры, соответствующие комбинации пола и серийного номера для людей, которые были в один день (000–499 для детей и 500–999 для детей)
 - одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -14138,11 +14111,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_slovenia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_slovenia_eu_national_id_card` . 
+- Функция находит  `Func_slovenia_eu_national_id_card` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_slovenia_eu_national_id_card` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_slovenia_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_slovenia_eu_national_id_card` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Slovenia Unique Master Citizen Number -->
@@ -14161,45 +14134,45 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_slovenia_eu_national_id_card"></a>Keywords_slovenia_eu_national_id_card
 
-- единствена šтевилка главнега дрžавлжана
-- емšо
-- енотна матикна šтевилка обкана
+- edinstvena гtevilka glavnega drjaavljana
+- emфио
+- enotna maticna otvilka obcana
 - id card
 - identification number
-- идентификаЦижска šтевилка
+- identifskacijska текvilka
 - identity card
-- Идентификатор наЦионална
-- наЦионални потни List
+- nacionalna id
+- список потани nacionalni
 - national id
-- осебна изказника
-- осебни кода
-- осебни Ne
-- осебни šтевилка
-- персональный код
-- персональный номер
-- персональный числовой код
-- šтевилка дрžавлжана
-- уникальный номер соряда
-- уникальный идентификационный номер
-- уникальный идентификационный номер
-- уникальный основной номер
+- osebna izkazт
+- osebni koda
+- osebni ne
+- osebni ebni ebvilka
+- личный код
+- личный номер
+- личный числовой код
+- гtevilka drjaavljana
+- уникальный номер гражданина
+- уникальный номер
+- уникальный идентификациный номер
+- уникальный номер гражданина
 - уникальный регистрационный номер
-- уникуеидентитино #
-- уникуеидентитино #
+- uniqueidentityno #
+- uniqueidentityno #
 
-## <a name="slovenia-passport-number"></a>Номер паспорта для Словения
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="slovenia-passport-number"></a>Номер паспорта гражданина Словении
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-две буквы, за которыми следуют семь цифр без пробелов и разделителей
+две буквы, за которыми следуют семь цифр без пробелов или седиметров
   
 ### <a name="pattern"></a>Шаблон
 
 две буквы, за которыми следуют семь цифр:
   
 - буква "P"
-- одна прописная буква
+- одна буква в верхнем регистре
 - семь цифр
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -14210,7 +14183,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovenia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_slovenia_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_slovenia_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -14229,41 +14202,41 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_slovenia_eu_passport_number"></a>Keywords_slovenia_eu_passport_number
 
-- Список потнега šтевилка
-- потек велжавности
-- Список потни #
-- Datum рожства
-- Список потни
-- šтевилке потних листов
+- гtevilka potnega lista
+- potek veljavnosti
+- список potni #
+- datum rojstva
+- список potni
+- гtevilke potnih listov
 
-## <a name="slovenia-tax-identification-number"></a>Идентификационный номер для налога на Словения
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="slovenia-tax-identification-number"></a>Идентификационный номер налога для Словении
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-восемь цифр без пробелов и разделителей
+восемь цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
-- одна цифра из 1-9
+- одна цифра от 1 до 9
 - шесть цифр
 - одна контрольная цифра
   
@@ -14274,11 +14247,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_slovenia_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_slovenia_eu_tax_file_number` . 
+- Функция находит  `Func_slovenia_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_slovenia_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
-- Функция  `Func_slovenia_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_slovenia_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Slovenia Tax Identification Number -->
@@ -14297,30 +14270,30 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_slovenia_eu_tax_file_number"></a>Keywords_slovenia_eu_tax_file_number
 
-- давčна šтевилка
-- идентификаЦижска šтевилка Давка
-- šтевилка давčне датотеке
-- Налоговый файл нет
+- davчатая ултеносилка
+- identifskacijska текvilka davka
+- огтевилка davne datoatoatoe
+- tax file no
 - tax file number
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="south-africa-identification-number"></a>Идентификационный номер Южно-Африканского Республика
+## <a name="south-africa-identification-number"></a>Идентификационный номер для Южной Африки
 
 ### <a name="format"></a>Format
 
@@ -14329,11 +14302,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="pattern"></a>Шаблон
 
 13 цифр:
-- шесть цифр в формате ГГММДД Дата рождения; 
+- шесть цифр в формате YYMMDD, которые являются датой рождения 
 - четыре цифры 
-- Индикатор гражданства, состоящих из одной цифры 
+- индикатор гражданства из одной цифры 
 - цифра "8" или "9" 
-- одна цифра контрольной суммы
+- одна цифра, которая является цифрой контрольной суммы
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -14361,10 +14334,10 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identity card
-- ID
-- Процедура 
+- Идентификатор
+- Идентификация 
    
-## <a name="south-korea-resident-registration-number"></a>Регистрационный номер резидентной Южной Кореи
+## <a name="south-korea-resident-registration-number"></a>Регистрационный номер резидента Южной Кореи
 
 ### <a name="format"></a>Format
 
@@ -14373,10 +14346,10 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="pattern"></a>Шаблон
 
 13 цифр:
-- шесть цифр в формате ГГММДД Дата рождения; 
+- шесть цифр в формате YYMMDD, которые являются датой рождения 
 - дефис 
-- одна цифра, определяемая столетием и пол 
-- код региона рождения из четырех цифр 
+- одна цифра, определяемая возрастом и полом 
+- четырехзначный код региона рождения 
 - одна цифра, используемая для различения людей, для которых предыдущие числа идентичны 
 - контрольная цифра.
 
@@ -14415,11 +14388,10 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - National ID card 
 - Citizen's Registration Number 
 - Jumin deungnok beonho 
-- ррн 
+- RRN 
 - 주민등록번호
 
 ## <a name="spain-drivers-license-number"></a>Номер водительского удостоверения для Испании
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
 
 ### <a name="format"></a>Format
 
@@ -14430,7 +14402,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 восемь цифр, за которыми следует один символ:
   
 - восемь цифр 
-- одна цифра или буква (без учета регистра)
+- одна цифра или буква (без чувствительность к букве)
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -14439,11 +14411,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_spain_eu_DL_and_NI_number_citizen` или `Func_spain_eu_DL_and_NI_number_foreigner` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_spain_eu_driver's_license_number` . 
+- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` находит `Func_spain_eu_DL_and_NI_number_foreigner` содержимое, которое соответствует шаблону. 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_spain_eu_driver's_license_number` найдено. 
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_spain_eu_DL_and_NI_number_citizen` или `Func_spain_eu_DL_and_NI_number_foreigner` находит содержимое, которое соответствует шаблону. 
+- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` находит `Func_spain_eu_DL_and_NI_number_foreigner` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Spain Driver's License Number -->
@@ -14473,150 +14445,150 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_spain_eu_drivers_license_number"></a>Keywords_spain_eu_driver "s_license_number
+#### <a name="keywords_spain_eu_drivers_license_number"></a>Keywords_spain_eu_driver s_license_number
 
-- пермисо de кондукЦиóн
-- пермисо кондукЦиóн
-- лиценЦиа de кондуЦир
-- лиценЦиа кондуЦир
-- пермисо кондуЦир
-- пермисо de кондуЦир
-- пермисос de кондуЦир
-- пермисос кондуЦир
-- Карнет кондуЦир
-- Карнет de кондуЦир
-- лиценЦиа de манежо
-- лиценЦиа манежо
+- permiso deóción
+- permisoóón
+- licencia de деакриб
+- licencia
+- permiso демикодировка
+- permiso deааir
+- permisos de деакриб
+- permisos
+- carnet демилиру
+- carnet de деавия
+- licencia de manejo
+- licencia manejo
 
-## <a name="spain-dni"></a>Испания, DNI
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="spain-dni"></a>DNI для Испании
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
@@ -14628,7 +14600,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
   
 - восемь цифр
 - Необязательный пробел или дефис
-- один проверочный символ (без учета регистра)
+- одна контрольная буква (без чувствительность к букве)
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -14637,11 +14609,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_spain_eu_DL_and_NI_number_citizen` или `Func_spain_eu_DL_and_NI_number_foreigner` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_spain_eu_national_id_card"` . 
+- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` находит `Func_spain_eu_DL_and_NI_number_foreigner` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_spain_eu_national_id_card"` слово. 
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_spain_eu_DL_and_NI_number_citizen` или `Func_spain_eu_DL_and_NI_number_foreigner` находит содержимое, которое соответствует шаблону. 
+- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` находит `Func_spain_eu_DL_and_NI_number_foreigner` содержимое, которое соответствует шаблону. 
 
     
 ```xml
@@ -14668,38 +14640,38 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_spain_eu_national_id_card"></a>Keywords_spain_eu_national_id_card
 
-- карнé de ИДЕНТИДАД
-- DNI #
-- DNI
-- днинúмеро #
-- документо наЦионал де ИДЕНТИДАД
-- ИДЕНТИДАД úнико
-- идентидадúнико #
+- carné de identidad
+- dni #
+- dni
+- dninúmero #
+- documento nacional de identidad
+- identidad único
+- identidadúnico #
 - страховой номер
 - national identification number
-- Национальная идентификация
-- натионалид #
-- натионалидно #
-- ние #
-- ние
-- ниенúмеро #
-- нúмеро de идентификаЦиóн
-- нúмеро наЦионал ИДЕНТИДАД
+- national identity
+- nationalid #
+- nationalidno #
+- nie #
+- nie
+- nienúmero #
+- número de identificación
+- número nacional identidad
 - персональный идентификационный номер
-- личный идентификатор
-- уникальный идентификационный номер
-- уникальным #
+- личное удостоверение нет
+- уникальный идентификациный номер
+- uniqueid #
 
-## <a name="spain-passport-number"></a>Номер паспорта для Испании
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ЕС.
+## <a name="spain-passport-number"></a>Номер паспорта гражданина Испании
+Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера паспорта ес.
 
 ### <a name="format"></a>Format
 
-сочетание букв и цифр из восьми или девяти символов без пробелов и разделителей
+сочетание букв и чисел из восьми или девяти символов без пробелов или делений.
   
 ### <a name="pattern"></a>Шаблон
 
-сочетание букв и цифр из восьми или девяти символов:
+восьми- или девяти символьное сочетание букв и чисел:
   
 - две цифры или буквы 
 - одна цифра или буква (необязательно)
@@ -14713,7 +14685,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_spain_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_passport_number_common` или `Keywords_spain_eu_passport_number` . 
+- Ключевое слово  `Keywords_eu_passport_number_common` из или `Keywords_spain_eu_passport_number` найдено. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -14732,35 +14704,35 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
 
-- службу #
-- службу #
-- пасспортид
-- паспорты
-- пасспортно
-- паспорт нет
-- пасспортнумбер
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
 - passport number
-- пасспортнумберс
-- номера паспортов
+- passportnumbers
+- passport numbers
 
 #### <a name="keywords_spain_eu_passport_number"></a>Keywords_spain_eu_passport_number
 
-- либрета пасапорте
-- нúмеро пасапорте
-- еспаñа пасапорте
-- нúмерос de пасапорте
-- нúмеро de пасапорте
-- нúмерос пасапорте
-- пасапорте нет
-- Пассепорт n °
-- n ° Пассепорт
-- пасапорте но.
-- пасапорте n °
-- Служба Passport, Испания
+- libreta pasaporte
+- número pasaporte
+- espa espa pasaporte
+- números de pasaporte
+- número de pasaporte
+- números pasaporte
+- pasaporte no
+- Passeport n°
+- n° Passeport
+- pasaporte no.
+- pasaporte n°
+- паспорт испании
 
 
-## <a name="spain-social-security-number-ssn"></a>Номер социального страхования (SSN) Испания
-Этот объект типа конфиденциальной информации включен в номер социального страхования ЕС или эквивалентный тип конфиденциальной информации и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="spain-social-security-number-ssn"></a>Номер социального обеспечения в Испании (SSN)
+Этот объект типа конфиденциальной информации включается в номер социального обеспечения ЕС или тип конфиденциальной информации эквивалентного ИД и доступен как автономный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -14768,10 +14740,10 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 ### <a name="pattern"></a>Шаблон
 
-11-12 цифр:
+11–12 цифр:
 - две цифры 
 - косая черта (необязательно) 
-- семь и восемь цифр 
+- семь-восемь цифр 
 - косая черта (необязательно) 
 - две цифры
 
@@ -14798,48 +14770,48 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Нет
 
-## <a name="spain-tax-identification-number"></a>Налоговый идентификационный номер Испания
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="spain-tax-identification-number"></a>Идентификационный номер налога для Испании
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-семь или восемь цифр, а также одна или две буквы в указанном шаблоне
+семь или восемь цифр и одна или две буквы в указанном шаблоне
   
 ### <a name="pattern"></a>Шаблон
 
-Испанские пользователи с национальной идентификационной карточкой Испании Испания:
+Испанские персональные лица с национальные удостоверения личности для Испании:
   
 - восемь цифр 
-- одна прописная буква (с учетом регистра) 
+- одна буква в верхнем регистре (с чувствительностью к регистру) 
     
-Нерезидентские Спаниардс без национальной идентификационной карточки Испании
+Нерезиденты без национального удостоверения личности для Испании
   
-- одна прописная буква L (с учетом регистра)
+- одна буква в верхнем регистре "L" (с чувствительностью к регистру)
 - семь цифр
-- одна прописная буква (с учетом регистра) 
+- одна буква в верхнем регистре (с чувствительностью к регистру) 
     
-Резидентный Спаниардс в течение 14 лет без международной идентификационной карточки для Испании:
+Resident Resident Residents under the age of 14 years without a Spain National Identity Card :
   
-- одна прописная буква K (с учетом регистра)
+- одна буква в верхнем регистре "K" (с чувствительностью к регистру)
 - семь цифр 
-- одна прописная буква (с учетом регистра)
+- одна буква в верхнем регистре (с чувствительностью к регистру)
     
-Фореигнерс с идентификационным номером внешнего получателя
+Подмена идентификационных номеров
   
-- одна прописная буква "X", "Y" или "Z" (с учетом регистра) 
+- одна буква в верхнем регистре, которая является "X", "Y" или "Z" (с чувствительностью к регистру) 
 - семь цифр
-- одна прописная буква (с учетом регистра) 
+- одна буква в верхнем регистре (с чувствительностью к регистру) 
     
-Фореигнерс без идентификационного номера внешнего получателя
+Подмены без идентификационных номеров
   
-- одна прописная буква "M" (с учетом регистра) 
+- одна буква в верхнем регистре с буквой "M" (с чувствительностью к регистру) 
 - семь цифр
-- одна прописная буква (с учетом регистра) 
+- одна буква в верхнем регистре (с чувствительностью к регистру) 
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -14848,11 +14820,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_spain_eu_tax_file_number` или `Func_spain_eu_DL_and_NI_number_citizen` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_spain_eu_tax_file_number` . 
+- Функция или  `Func_spain_eu_tax_file_number` находит `Func_spain_eu_DL_and_NI_number_citizen` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_spain_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_spain_eu_tax_file_number` или `Func_spain_eu_DL_and_NI_number_citizen` находит содержимое, которое соответствует шаблону. 
+- Функция или  `Func_spain_eu_tax_file_number` находит `Func_spain_eu_DL_and_NI_number_citizen` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Spain Tax Identification Number -->
@@ -14878,51 +14850,51 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_spain_eu_tax_file_number"></a>Keywords_spain_eu_tax_file_number
 
-- CIF
-- Цифид #
-- Цифнúмеро #
-- нúмеро de контрибуйенте
-- нúмеро de идентификаЦиóн Фин.
-- нúмеро де импуесто корпоративо
-- спанишЦифид #
-- спанишЦифид
-- спанишЦифно #
-- спанишЦифно
-- Налоговый файл нет
+- cif
+- cifid #
+- cifnúmero #
+- número de contribuyú
+- número de identificación fiscal
+- número de impuesto corporativo
+- spanishcifid #
+- spanishcifid
+- spanishcifno #
+- spanishcifno
+- tax file no
 - tax file number
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
-## <a name="sql-server-connection-string"></a>Строка подключения к SQL Server
+## <a name="sql-server-connection-string"></a>SQL Server подключения
 
 ### <a name="format"></a>Format
 
-Строка "идентификатор пользователя", "идентификатор пользователя", "UID" или "UserId", за которыми следуют символы и строки, описанные в приведенном ниже шаблоне.
+Строка "User Id", "User ID", "uid" или "UserId", за которой следуют символы и строки, описанные в шаблоне ниже.
 
 ### <a name="pattern"></a>Шаблон
 
-- строка "идентификатор пользователя", "идентификатор пользователя", "UID" или "UserId"
-- Любая комбинация из 1-200 прописных или строчных букв, цифр, символов, специальных символов и пробелов.
-- строка "Password" или "pwd", где "pwd" не предшествует буква нижнего регистра
-- знак равенства (=);
-- любой символ, не являющийся знаком доллара ($), символ процента (%), символ "больше" (>), символ "@", "символ" (@), знак кавычек ("), точка с запятой (;), левая фигурная скобка ([) или левая квадратная скобка ({)
-- Любая комбинация 7-128 символов, не отделяющая точку с запятой (;), косая черта (/) или кавычки (").
-- точка с запятой (;) или кавычки (")
+- строка "User Id", "User ID", "uid" или "UserId"
+- любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
+- строка "Password" или "pwd", где "pwd" не предшествует строчная буква
+- знак равного (=)
+- любой символ, который не является знаком доллара ($), символом процента (%), больше символа (>), в символе (@), кавычках ("), точка с зазнаковкой (;), левая скобка ([) или левая скобка ({)
+- любое сочетание 7–128 символов, которые не являются точками с за точками (;) косая черта (/) или кавычка ()
+- точка с зачетом (;) или кавычка (")
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -14931,10 +14903,10 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение CEP_Regex_SQLServerConnectionString находит содержимое, которое соответствует шаблону;
-- **Не** найдено ключевое слово из CEP_GlobalFilter.
-- Регулярное выражение CEP_PasswordPlaceHolder не **находит содержимое** , которое соответствует шаблону.
-- Регулярное выражение CEP_CommonExampleKeywords не **находит содержимое** , которое соответствует шаблону.
+- Регулярное выражение CEP_Regex_SQLServerConnectionString находит содержимое, которое соответствует шаблону.
+- Ключевое слово из CEP_GlobalFilter **не найдено.**
+- Регулярное выражение CEP_PasswordPlaceHolder **не находит** содержимое, которое соответствует шаблону.
+- Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
 ```sql
 <!---SQL Server Connection String>
@@ -14954,42 +14926,41 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="cep_globalfilter"></a>CEP_GlobalFilter
 
-- Некоторые пароли
-- сомепассворд
-- секретпассворд
-- примером
+- some-password
+- somepassword
+- secretPassword
+- пример
 
 #### <a name="cep_passwordplaceholder"></a>CEP_PasswordPlaceHolder
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- Пароль или pwd, за которым следует 0-2 пробелов, знак равенства (=), 0-2 пробелы и звездочка (*)--или--
-- Пароль или pwd, а затем:
-    - Знак равенства (=)
-    - Символ "меньше" (<)
-    - Любое сочетание 1-200 символов, которые являются буквами верхнего или нижнего регистра, цифрами, звездочкой (*), дефисом (-), подчеркиванием (_) или символом пробела
-    - Символ "больше" (>)
+- Пароль или пробелы, за которыми следует 0-2 пробела, знаки равного (=), 0-2 пробела и звездочка (*) --OR--
+- Пароль или pwd, за которым следует:
+    - Знак равного (=)
+    - Символ "Меньше символа" (<)
+    - Любое сочетание из 1–200 символов, которые являются буквами верхнего или нижнего регистра, цифрами, звездочкой (*), дефисом (-), подчеркнутой (_) или символом белого пространства
+    - Символ "Больше" (>)
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
-(Технически, обратите внимание, что этот тип конфиденциальной информации определяет эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
+(Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- компанией
-- компании
-- базу
-- песочниц
-- онебокс
+- contoso
+- fabrikam
+- northwind
+- песочница
+- onebox
 - localhost
 - 127.0.0.1
-- тестакс.<!--no-hyperlink-->порта
-- s — int.<!--no-hyperlink-->команде
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
-## <a name="sweden-drivers-license-number"></a>Номер водительского удостоверения драйвера Швеции
-Этот объект типа конфиденциальной информации доступен только в типе конфиденциальной информации номера лицензии для драйвера ЕС.
+## <a name="sweden-drivers-license-number"></a>Номер водительского удостоверения для Швеции
 
 ### <a name="format"></a>Format
 
-десять цифр, содержащие дефис
+десять цифр, содержащих дефис
   
 ### <a name="pattern"></a>Шаблон
 
@@ -15007,7 +14978,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_sweden_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_eu_driver's_license_number` или `Keywords_sweden_eu_driver's_license_number` . 
+- Ключевое слово  `Keywords_eu_driver's_license_number` из или `Keywords_sweden_eu_driver's_license_number` найдено. 
     
 ```xml
       <!-- Sweden Driver's License Number -->
@@ -15024,154 +14995,154 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 ### <a name="keywords"></a>Ключевые слова
 
-#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver "s_license_number
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- дриверлик
-- дриверликс
-- дриверлиценсе
-- дриверлиценсес
-- дриверлиценце
-- дриверлиценцес
-- драйвер Лик
-- драйвер ликс
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
 - driver license
 - driver licenses
-- Лицензия на драйвер
-- лицензии на драйверы
-- дриверслик
-- дриверсликс
-- дриверслиценце
-- дриверслиценцес
-- дриверслиценсе
-- дриверслиценсес
-- драйверы Лик
-- драйверы ликс
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
 - drivers license
 - drivers licenses
 - drivers licence
-- лицензии на драйверы
-- Driver ' LIC
-- Driver ' LICS
-- Driver ' License
-- Driver ' Licenses
-- Driver ' Licence
-- Driver ' Licences
-- драйвер "Лик
-- драйвер "ЛИКС
-- Лицензия "Driver"
-- лицензии на драйвер
-- Лицензия на драйвер
-- лицензии на драйвер
-- дривер'слик
-- дривер'сликс
-- дривер'слиценсе
-- дривер'слиценсес
-- дривер'слиценце
-- дривер'слиценцес
-- Лик драйвера
-- ликс драйвера
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- срезы драйверов
+- driver'slicence
+- срезы драйверов
+- driver's lic
+- driver's lics
 - driver's license
 - driver's licenses
 - driver's licence
-- лицензии на драйвер
-- DL #
-- библиотек #
-- дриверлик #
-- дриверликс #
-- дриверлиценсе #
-- дриверлиценсес #
-- дриверлиценце #
-- дриверлиценцес #
-- драйвер Лик #
-- драйвер ликс #
-- Лицензия на драйвер #
-- лицензии на драйверы #
-- лицензии на драйверы #
-- дриверслик #
-- дриверсликс #
-- дриверслиценсе #
-- дриверслиценсес #
-- дриверслиценце #
-- дриверслиценцес #
-- драйверы Лик #
-- драйверы ликс #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Лицензия на драйверы #
-- лицензии на драйверы #
-- Driver ' LIC #
-- Driver ' LICS #
-- Driver ' License #
-- Driver ' Licenses #
-- Driver ' Licence #
-- Driver ' Licences #
-- драйвер "Лик #
-- драйвер "ЛИКС #
-- Лицензия "Driver" #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- дривер'слик #
-- дривер'сликс #
-- дривер'слиценсе #
-- дривер'слиценсес #
-- дривер'слиценце #
-- дривер'слиценцес #
-- Лик драйвера #
-- ликс драйвера #
-- Лицензия на драйвер #
-- лицензии на драйвер #
-- Лицензия на драйвер #
-- лицензии на драйвер #
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- срезы драйверов #
+- driver'slicence #
+- срезы драйверов #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
 - driving license
-- длно #
-- дрив Лик
-- дрив лицен
-- Лицензия дрив
-- лицензии дрив
-- дрив лицензия
-- лицензии дрив
-- драйвер лицен
-- драйверы лицен
-- лицен драйвера
-- движущие Лик
-- движущие лицен
-- Управление лицензиями
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- licen драйвера
+- driving lic
+- driving licen
+- driving licenses
 - driving licence
 - driving licences
-- движущие разрешение
-- DL нет
-- длно
-- номер списка рассылки
+- driving permit
+- dl no
+- dlno
+- dl number
 
 
-#### <a name="keywords_sweden_eu_drivers_license_number"></a>Keywords_sweden_eu_driver "s_license_number
+#### <a name="keywords_sweden_eu_drivers_license_number"></a>Keywords_sweden_eu_driver s_license_number
 
-- ажокортти
-- разрешение de кондуцере
-- ажокортин нумеро
-- кулжеттажат лик.
-- Лик Drivers.
-- кöркорт
-- нумăрул пермисулуи де кондуцере
+- ajokortti
+- permis deягольник
+- ajokortin numero
+- kuljjat lic.
+- drivere lic.
+- körkort
+- numulurul permisului deлюсере
 -  שאָפער דערלויבעניש נומער
-- фöраре лик.
+- förare lic.
 -  דריווערס דערלויבעניש
-- кöркортснуммер
+- körkortsnummer
 
-## <a name="sweden-national-id"></a>Национальный идентификатор, Швеция
+## <a name="sweden-national-id"></a>Национальный ИД Швеции
 
 ### <a name="format"></a>Format
 
-десять или 12 цифр и необязательный разделитель
+10 или 12 цифр и необязательный седиметр
 
 ### <a name="pattern"></a>Шаблон
 
-десять или 12 цифр, а также необязательный разделитель:
+10 или 12 цифр и необязательный седиметр:
 - две цифры (необязательно) 
 - Шесть цифр в формате даты ГГММДД. 
-- разделитель "-" или "+" (необязательно)
+- либо "-" или "+" (необязательно)
 - четыре цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15181,12 +15152,12 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция `Func_swedish_national_identifier` находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово FROM `Keywords_swedish_national_identifier`
+- Функция находит `Func_swedish_national_identifier` содержимое, которое соответствует шаблону.
+- Найдено ключевое `Keywords_swedish_national_identifier` слово
 - Контрольная сумма проходит проверку.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция `Func_swedish_national_identifier` находит содержимое, которое соответствует шаблону.
+- Функция находит `Func_swedish_national_identifier` содержимое, которое соответствует шаблону.
 - Контрольная сумма проходит проверку.
 
 
@@ -15207,25 +15178,25 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_swedish_national_identifier"></a>Keywords_swedish_national_identifier
 
-- ID No
-- идентификационный номер
-- кодов #
-- Идентификация нет
+- id no
+- id number
+- id #
+- identification no
 - identification number
-- идентификатионснумрет #
-- идентификатионснумрет
-- идентитетшандлинг
-- документ Identity
-- Идентификатор
-- идентификационный номер
-- ID — нуммер
-- личный идентификатор
-- персоннуммер #
-- персоннуммер
-- скаттеидентификатионснуммер
+- identifikationsnumret #
+- identifikationsnumret
+- identitetshandling
+- документ удостоверения
+- identity no
+- identity number
+- id-nummer
+- личный ид
+- personnummer #
+- personnummer
+- кальтейдentifikationsnummer
    
-## <a name="sweden-passport-number"></a>Номер паспорта Швеции
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера паспорта ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="sweden-passport-number"></a>Номер паспорта гражданина Швеции
+Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации номера паспорта ес и доступен как автономный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -15242,10 +15213,10 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- регулярное выражение Regex_sweden_passport_number находит содержимое, которое соответствует шаблону;
-- выполняется одно из следующих условий:
-    - Найдено ключевое слово из Keyword_passport.
-    - Найдено ключевое слово из Keyword_sweden_passport.
+- регулярное выражение Regex_sweden_passport_number находит содержимое, которое соответствует шаблону.
+- Верно одно из следующих:
+    - находится ключевое слово из Keyword_passport.
+    - находится ключевое слово из Keyword_sweden_passport.
 
 ```xml
 <!-- Sweden Passport Number -->
@@ -15279,37 +15250,37 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - Passport Number 
 - Passport No 
 - Passport# 
-- Службу # 
-- пасспортид 
-- пасспортно 
-- пасспортнумбер 
+- Passport # 
+- PassportID 
+- Passportno 
+- passportnumber 
 - パスポート 
 - パスポート番号 
-- パスポートのнум 
-- パスポート # 
+- パкポ. 
+- パスポート# 
 - Numéro de passeport 
 - Passeport n ° 
 - Passeport Non 
 - Passeport# 
-- пассепорт # 
-- пассепортнон 
+- Passeport # 
+- PasseportNon 
 - Passeportn ° 
 
-## <a name="sweden-social-security-number-or-equivalent-identification"></a>Номер социального страхования для Швеции или эквивалентная идентификация
-Этот объект типа конфиденциальной информации доступен только в номере социального страхования ЕС или эквивалентного идентификатора.
+## <a name="sweden-social-security-number-or-equivalent-identification"></a>Номер социального обеспечения швеции или эквивалентная идентификация
+Этот объект типа конфиденциальной информации доступен только в номере социального обеспечения ЕС или типе конфиденциальной информации эквивалентного ИД.
 
 ### <a name="format"></a>Format
 
-12 цифр без пробелов и разделителей
+12 цифр без пробелов и селитров
   
 ### <a name="pattern"></a>Шаблон
 
 12 цифр:
   
-- восемь цифр, которые соответствуют дате рождения (ГГГГММДД) 
-- три цифры, которые соответствуют серийному номеру, где: 
-  - Последняя цифра в числовом номере указывает на пол, назначая нечетное число для пола и четное число для розетки.
-  - до 1990, назначение серийного номера соответствует району, в котором был выпущен номер, или (если он родился до 1947), где он был удален, в соответствии с налоговыми записями на 1 января 1947 с особым кодом (как правило, 9 в седьмой цифре) для иммигрантс 
+- восемь цифр, соответствующих дате рождения (YYYYMMDD) 
+- три цифры, соответствующие серийному номеру, где: 
+  - Последняя цифра в серийном номере указывает пол по назначению нечетного номера для самца и четного номера для женщина
+  - До 1990 г. назначение серийного номера соответствовало округу, в котором был носителем номера, или (если это было до 1947 г.), где он или она были проживающих, в соответствии с налоговыми записями, 1 января 1947 г. со специальным кодом (обычно 9 в качестве 7-й цифры) для 
 - одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -15319,11 +15290,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_sweden_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_sweden_eu_ssn_or_equivalent` . 
+- Функция находит  `Func_sweden_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_sweden_eu_ssn_or_equivalent` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_sweden_eu_ssn_or_equivalent` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_sweden_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -15342,41 +15313,41 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_sweden_eu_ssn_or_equivalent"></a>Keywords_sweden_eu_ssn_or_equivalent
 
-- личный идентификационный номер
+- личный номер
 - identification number
-- личный идентификатор
-- Идентификатор
-- Идентификация нет
-- персональный идентификационный номер
-- Идентификатор персоннуммер
-- Идентификатор персонлигт — нуммер
-- Идентификатор уникт — нуммер
-- персоннуммер
-- идентификатионснумрет
-- персоннуммер #
-- идентификатионснумрет #
+- personal id no
+- identity no
+- identification no
+- personal identification no
+- personnummer id
+- personligt id-nummer
+- unikt id-nummer
+- personnummer
+- identifikationsnumret
+- personnummer #
+- identifikationsnumret #
 
 ## <a name="sweden-tax-identification-number"></a>Идентификационный номер налога для Швеции
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-десять цифр и символ в указанном шаблоне;
+десять цифр и символ в указанном шаблоне
   
 ### <a name="pattern"></a>Шаблон
 
 десять цифр и символ:
   
-- шесть цифр, соответствующих дате рождения (ГГММДД) 
-- знак плюс или минус
+- шесть цифр, соответствующие дате рождения (YYMMDD) 
+- знак "плюс" или "минус"
 - три цифры, которые делают идентификационный номер уникальным, где: 
-  - для номеров, выпущенных до 1990, седьмой и восьмой цифрой определяют район рождения или пользователей, порожденных иностранным пользователем.
-  - цифра в девятой позиции указывает на пол, который нечетен для пола или даже для розетки.
+  - для номеров, выдавшихся до 1990 г., седьмая и восьмая цифры определяют округ рождения или инородных людей
+  - цифра в девятой позиции указывает пол по нечетным для самцов или даже для самцов
 - одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -15386,11 +15357,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_sweden_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_sweden_eu_tax_file_number` . 
+- Функция находит  `Func_sweden_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_sweden_eu_tax_file_number` слово. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_sweden_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_sweden_eu_tax_file_number` содержимое, которое соответствует шаблону. 
     
 ```xml
       <!-- Sweden Tax Identification Number -->
@@ -15413,45 +15384,45 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keywords_sweden_eu_tax_file_number"></a>Keywords_sweden_eu_tax_file_number
 
-- личный идентификационный номер
-- персоннуммер
-- Идентификатор СКАТТ нуммер
-- СКАТТ идентификатион
-- скаттебеталаренс идентификатионснуммер
-- Tin свериже
-- Налоговый файл
+- личный номер
+- personnummer
+- nummer с ид
+- dentifikation
+- bettebetalarens identifikationsnummer
+- sverige tin
+- налоговый файл
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Налоговый номер
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый номер
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
 
 ## <a name="swift-code"></a>Код SWIFT
 
 ### <a name="format"></a>Format
 
-четыре буквы, за которыми следует 5-31 букв или цифр
+четыре буквы, за которыми следуют от 5 до 31 буквы или цифры
 
 ### <a name="pattern"></a>Шаблон
 
-четыре буквы, за которыми следует 5-31 букв или цифр:
-- код банка из четырех букв (без учета регистра) 
-- необязательный пробел 
+четыре буквы, за которыми следуют 5–31 буква или цифры:
+- 4-буква банковского кода (без чувствительность к буквам) 
+- дополнительное пространство 
 - 4–28 букв или цифр (основной номер банковского счета, BBAN) 
-- необязательный пробел 
-- одна – три буквы или цифры (остаток от BBAN)
+- дополнительное пространство 
+- от одной до трех букв или цифр (оставшаяся часть BBAN);
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -15479,17 +15450,17 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - international organization for standardization 9362
 - iso 9362
 - iso9362
-- SWIFT #
-- свифткоде
-- свифтнумбер
-- свифтраутингнумбер
+- swift #
+- swiftcode
+- swiftnumber
+- swiftroutingnumber
 - swift code
 - swift number #
 - swift routing number
 - bic number
 - bic code
 - bic#
-- БИК #
+- bic #
 - bank identifier code
 - Organisation internationale de normalisation 9362
 - rapide #
@@ -15497,42 +15468,42 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - le numéro de swift
 - swift numéro d'acheminement
 - le numéro BIC
-- # <a name="bic"></a>БИК
+- # <a name="bic"></a>BIC
 - code identificateur de banque
-- свифтコード
-- свифт番号
-- бик番号
-- бикコード
-- SWIFT コード
+- SWIFTコкド
+- SWIFT番号
+- BIC番号
+- BICコкド
+- SWIFT コкド
 - SWIFT 番号
-- БИК 番号
-- БИК コード
+- BIC 番号
+- BIC コド
 - 金融機関識別コード
 - 金融機関コード
 - 銀行コード
 
-## <a name="switzerland-ssn-ahv-number"></a>Номер АХВа для Швейцарии
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="switzerland-ssn-ahv-number"></a>Номер ADV для SSN в Швейцарии
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-13 цифра, цифра
+13-значный номер
 
 ### <a name="pattern"></a>Шаблон
 
-13 цифра:
+13 цифр:
 
 - три цифры — 756
-- Необязательная точка
+- необязательная точка
 - четыре цифры
-- Необязательная точка
+- необязательная точка
 - четыре цифры
-- Необязательная точка
+- необязательная точка
 - две цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15542,11 +15513,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_swiss_social_security_number_ahv находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keywords_swiss_social_security_number_ahv.
+- Функция Func_swiss_social_security_number_ahv находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keywords_swiss_social_security_number_ahv.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_swiss_social_security_number_ahv находит содержимое, которое соответствует шаблону;
+- Функция Func_swiss_social_security_number_ahv находит содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Swiss SSN AHV Number -->
@@ -15565,23 +15536,23 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keyword_swiss_ssn_ahv_number"></a>Keyword_swiss_ssn_AHV_number
 
-- ахв
-- SSN
+- ahv
+- ssn
 - pid
 - страховой номер
-- персоналидно #
+- personalidno #
 - social security number
-- личный идентификационный номер
-- персональный идентификационный номер
-- инсуранцено #
-- уникуеидно #
-- уникальный идентификационный номер
-- номер AVS
-- личное удостоверение нет версичерунгснуммер
-- идентификатионснуммер
-- еинзигартиже идентитäт ничт
-- созиалверсичерунгснуммер
-- Идентификация персоннелле ID
+- личный номер
+- персональный идентификационный номер нет.
+- insuranceno #
+- uniqueidno #
+- уникальный идентификационный номер.
+- avs number
+- personal identity no versicherungsnummer
+- identifikationsnummer
+- einzigartige identitchtt nicht
+- sozialversicherungsnummer
+- идентификационный ид персонала
 - numéro de sécurité sociale
 
    
@@ -15589,12 +15560,12 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 ### <a name="format"></a>Format
 
-одна буква (на английском языке), за которой следуют девять цифр.
+одна буква (на английском языке), за которой следуют девять цифр
 
 ### <a name="pattern"></a>Шаблон
 
 одна буква (на английском языке), за которой следуют девять цифр:
-- одна буква (на английском языке, без учета регистра) 
+- одна буква (на английском языке без чувствительность к букве) 
 - цифра "1" или "2" 
 - восемь цифр
 
@@ -15645,19 +15616,19 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - 簽名或蓋章 
 - 簽章   
    
-## <a name="taiwan-passport-number"></a>Номер паспорта для Тайваня
+## <a name="taiwan-passport-number"></a>Номер паспорта гражданина Тайваня
 
 ### <a name="format"></a>Format
 
-- номер биометрического паспорта: девять цифр
-- номер биометрической службы Passport: девять цифр
+- биометрический номер паспорта: девять цифр
+- Номер не биометрического паспорта: девять цифр
 
 ### <a name="pattern"></a>Шаблон
-номер биометрического паспорта:
+биометрический номер паспорта:
 - символ "3" 
 - восемь цифр
 
-номер биометрической службы Passport:
+не биометрический номер паспорта:
 - девять цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15693,7 +15664,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - 中華民國護照 
 - Zhōnghuá Mínguó hùzhào
    
-## <a name="taiwan-resident-certificate-arctarc-number"></a>Номер сертификата резидента (ARC/TARC) для Тайваня
+## <a name="taiwan-resident-certificate-arctarc-number"></a>Номер сертификата резидента Тайваня (ARC/TARC)
 
 ### <a name="format"></a>Format
 
@@ -15702,7 +15673,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="pattern"></a>Шаблон
 
 десять букв и цифр:
-- две буквы (без учета регистра) 
+- две буквы (без чувствительность к буквам) 
 - восемь цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15741,7 +15712,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - 外僑居留證 
 - 台灣地區居留證 
 
-## <a name="thai-population-identification-code"></a>Код идентификации для тайского заполнения
+## <a name="thai-population-identification-code"></a>Идентификационный код для тайских пользователей
 
 ### <a name="format"></a>Format
 
@@ -15750,7 +15721,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="pattern"></a>Шаблон
 
 13 цифр:
-- Первая цифра не равна нулю или девять 
+- первая цифра не ноль или девять 
 - 12 цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15760,11 +15731,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_Thai_Citizen_Id находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_Thai_Citizen_Id.
+- Функция Func_Thai_Citizen_Id находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Thai_Citizen_Id.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_Thai_Citizen_Id находит содержимое, которое соответствует шаблону;
+- Функция Func_Thai_Citizen_Id находит содержимое, которое соответствует шаблону.
 
 ```xml
 <!-- Thai Citizen ID -->
@@ -15790,7 +15761,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - บัตรประชาชน
 - รหัสบัตรประชาชน
   
-## <a name="turkish-national-identification-number"></a>Турецкий национальный идентификационный номер
+## <a name="turkish-national-identification-number"></a>Идентификационный номер гражданина Турецкий
 
 ### <a name="format"></a>Format
 
@@ -15807,11 +15778,11 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_Turkish_National_Id находит содержимое, которое соответствует шаблону;
-- Найдено ключевое слово из Keyword_Turkish_National_Id.
+- Функция Func_Turkish_National_Id находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Turkish_National_Id.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция Func_Turkish_National_Id находит содержимое, которое соответствует шаблону;
+- Функция Func_Turkish_National_Id находит содержимое, которое соответствует шаблону.
 
 ```xml
 <!-- Turkish National Identity -->
@@ -15830,13 +15801,13 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keyword_turkish_national_id"></a>Keyword_turkish_national_id
 
-- TC Кимлик No
-- TC Кимлик нумарасı
-- Ватандаşлıк нумарасı
-- Ватандаşлıк нет
+- TC Kim kim
+- TC Kim numaras TC Kimmaras.
+- Vat vat vatandalLK numaras.
+- Vatanda vat vatk no
 
-## <a name="uk-drivers-license-number"></a>Королевств номер водительского удостоверения
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера лицензии для драйвера ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="uk-drivers-license-number"></a>Сша номер водительского удостоверения
+Этот объект типа конфиденциальной информации включен в тип конфиденциальной информации номера водительского удостоверения ЕС и доступен в качестве отдельного объекта типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -15845,10 +15816,10 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="pattern"></a>Шаблон
 
 18 букв и цифр
-- пять букв (без учета регистра) или цифра 9 вместо буквы 
+- пять букв (без чувствительность к букве) или цифра "9" в качестве буквы 
 - одна цифра 
-- пять цифр в формате даты ММДДИ для даты рождения (седьмой символ увеличивается на 50, если драйвер — гнездо, то есть 51 – 62, а не с 01 – 12)
-- две буквы (без учета регистра) или цифра "9" вместо буквы 
+- пять цифр в формате даты MMDDY для даты рождения (7-й знак приращен на 50, если драйвер — женщина, то есть от 51 до 62 вместо 01–12)
+- две буквы (без чувствительность к букве) или цифра "9" в качестве буквы 
 - пять цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15876,14 +15847,14 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keyword_uk_drivers_license"></a>Keyword_uk_drivers_license
 
-- двла 
+- DVLA 
 - light vans 
-- куадбикес 
+- quadbikes 
 - motor cars 
 - 125cc 
-- сидекар 
-- трициклес 
-- моторциклес 
+- sidecar 
+- трициклы 
+- ы 
 - photocard licence 
 - learner drivers 
 - licence holder 
@@ -15892,15 +15863,15 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - driving licence 
 - dual control car 
    
-## <a name="uk-electoral-roll-number"></a>Королевств номер рулона електорал
+## <a name="uk-electoral-roll-number"></a>Сша roll number
 
 ### <a name="format"></a>Format
 
-две буквы, за которыми следуют 1-4 цифр.
+две буквы, за которыми следуют 1–4 цифры
 
 ### <a name="pattern"></a>Шаблон
 
-две буквы (без учета регистра), за которыми следуют 1-4 номера
+две буквы (без чувствительность к буквам), за которыми следуют 1–4 числа
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -15934,7 +15905,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 - electoral roll
 
    
-## <a name="uk-national-health-service-number"></a>Королевств Национальный номер службы работоспособности
+## <a name="uk-national-health-service-number"></a>Сша national health service number
 
 ### <a name="format"></a>Format
 
@@ -15943,7 +15914,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 ### <a name="pattern"></a>Шаблон
 
 10-17 цифр
-- либо три, либо десять цифр. 
+- три или десять цифр. 
 - пробел 
 - три цифры 
 - пробел 
@@ -15982,7 +15953,7 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 #### <a name="keyword_uk_nhs_number"></a>Keyword_uk_nhs_number
 
 - national health service 
-- NHS 
+- nhs 
 - health services authority 
 - health authority
 
@@ -15995,14 +15966,14 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 #### <a name="keyword_uk_nhs_number_dob"></a>Keyword_uk_nhs_number_dob
 
-- ГРУПП 
-- доб 
-- D. O. B 
+- GP 
+- DOB 
+- D.O.B 
 - Date of Birth 
 - Birth Date 
    
-## <a name="uk-national-insurance-number-nino"></a>Королевств Национальный страховой номер (Нино)
-Этот объект типа конфиденциальной информации включен в тип конфиденциальной конфиденциальной информации ЕС Идентификаитон и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="uk-national-insurance-number-nino"></a>Сша national insurance number (NINO)
+Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации "National Identificaiton Number" в ЕС и доступен в качестве отдельного объекта типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -16012,9 +15983,9 @@ Pattern 1: две буквы, за которыми следует 5/6 со сп
 
 два возможных шаблона:
 
-- две буквы (допустимые Нинос используют только определенные символы в этом префиксе, которые пропускаются при проверке этого шаблона; без учета регистра)
+- две буквы (допустимые niNOs используют только определенные символы в этом префиксе, который проверяется этим шаблоном; без чувствительность к букве)
 - шесть цифр
-- "A", "B", "C", или "'D" (например, префикс, в суффиксе допускаются только определенные символы; без учета регистра)
+- либо "A", "B", "C", либо "D" (как и префикс, в суффиксе разрешены только определенные символы, без чувствительность к буквам)
 
 OR
 
@@ -16026,7 +15997,7 @@ OR
 - пробел или тире
 - две цифры
 - пробел или тире
-- значение "A", "B", "C" или "'D"
+- "A", "B", "C" или "D"
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -16061,7 +16032,7 @@ OR
 - national insurance number
 - national insurance contributions
 - protection act
-- страхования
+- insurance
 - social security number
 - insurance application
 - medical application
@@ -16069,27 +16040,27 @@ OR
 - medical attention
 - social security
 - great britain
-- Номер NI
-- NI но.
+- Номер ni
+- NI No.
 - NI #
 - NI #
-- страхования #
-- инсуранценумбер
-- натионалинсуранце #
-- натионалинсуранценумбер
+- insurance #
+- insurancenumber
+- nationalinsurance #
+- nationalinsurancenumber
 
     
-## <a name="uk-unique-taxpayer-reference-number"></a>Королевств Уникальный номер ссылки налогоплательщика
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="uk-unique-taxpayer-reference-number"></a>Сша Уникальный справочный номер налогоплательщика
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-10 цифр без пробелов и разделителей
+10 цифр без пробелов и селитров
  
   
 ### <a name="pattern"></a>Шаблон
@@ -16103,8 +16074,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Функция  `Func_uk_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое слово FROM  `Keywords_uk_eu_tax_file_number` . 
+- Функция находит  `Func_uk_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Найдено ключевое  `Keywords_uk_eu_tax_file_number` слово. 
     
 ```xml
       <!-- U.K. Unique Taxpayer Reference Number -->
@@ -16120,33 +16091,33 @@ OR
 
 #### <a name="keywords_uk_eu_tax_file_number"></a>Keywords_uk_eu_tax_file_number
 
-- Налоговый номер
-- Налоговый файл
+- налоговый номер
+- налоговый файл
 - tax id
-- Налоговый идентификатор
-- идентификационный номер налога
-- налог без #
-- налог без
-- Регистрационный номер налогоплательщика
-- такси #
-- таксидно #
-- таксиднумбер #
-- таксно #
-- такснумбер #
-- такснумбер
-- Идентификатор Tin
-- номер Tin
-- ИНН #
+- tax identification no
+- налоговый идентификационный номер
+- tax no #
+- tax no
+- налоговый регистрационный номер
+- ыd #
+- аdno #
+- ыdnumber #
+- taxno #
+- taxnumber #
+- taxnumber
+- tin id
+- tin no
+- tin #
 
-## <a name="us-bank-account-number"></a>Номер банковского счета США
+## <a name="us-bank-account-number"></a>Номер банковского счета в США
 
 ### <a name="format"></a>Format
 
-6-17 цифр
+6–17 цифр
 
 ### <a name="pattern"></a>Шаблон
 
-6-17 последовательных цифр
+6–17 последовательных цифр
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -16200,7 +16171,7 @@ OR
 - Debit Acct No. 
 - Debit Account No. 
 
-## <a name="us-drivers-license-number"></a>Номер водительского удостоверения для драйвера США
+## <a name="us-drivers-license-number"></a>Номер водительского удостоверения для США
 
 ### <a name="format"></a>Format
 
@@ -16208,9 +16179,9 @@ OR
 
 ### <a name="pattern"></a>Шаблон
 
-зависит от штата — например, Нью Йорк:
-- девять цифр, отформатированных как DDD DDD DDD, будут совпадают.
-- девять цифр, такие как ццццццццц, не совпадают.
+зависит от состояния, например Нью-Йорк:
+- будут совпадать девять цифр в формате ddd ddd ddd.
+- девять цифр, например dddddd, не будут совпадать.
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -16252,52 +16223,52 @@ OR
 #### <a name="keyword_us_drivers_license_abbreviations"></a>Keyword_us_drivers_license_abbreviations
 
 - DL 
-- БИБЛИОТЕК 
-- кдл 
-- кдлс 
-- ID 
-- Идентификаторы 
+- DLS 
+- CDL 
+- CDLS 
+- Идентификатор 
+- IDs 
 - DL # 
-- БИБЛИОТЕК # 
-- кдл # 
-- кдлс # 
-- КОДОВ #
-- Идентификаторы # 
+- DLS # 
+- CDL # 
+- CDLS # 
+- ID #
+- IDs # 
 - ID number 
 - ID numbers 
-- лик 
-- лик # 
+- LIC 
+- LIC # 
 
 #### <a name="keyword_us_drivers_license"></a>Keyword_us_drivers_license
 
-- дриверлик 
-- дриверликс 
-- дриверлиценсе 
-- дриверлиценсес 
+- DriverLic 
+- DriverLics 
+- DriverLicense 
+- DriverLicenses 
 - Driver Lic 
 - Driver Lics 
 - Driver License 
 - Driver Licenses 
-- дриверслик 
-- дриверсликс 
-- дриверслиценсе 
-- дриверслиценсес 
+- DriversLic 
+- DriversLics 
+- DriversLicense 
+- DriversLicenses 
 - Drivers Lic 
 - Drivers Lics 
 - Drivers License 
 - Drivers Licenses 
-- Driver ' LIC 
-- Driver ' LICS 
-- Driver ' License 
-- Driver ' Licenses 
+- Driver'Lic 
+- Driver'Lics 
+- Driver'ы License 
+- Driver'licenses 
 - Driver' Lic 
 - Driver' Lics 
 - Driver' License 
 - Driver' Licenses
-- дривер'слик 
-- дривер'сликс 
-- дривер'слиценсе 
-- дривер'слиценсес 
+- Driver'sLic 
+- Driver'sLics 
+- Driver'sLicense 
+- Driver'sLicenses 
 - Driver's Lic 
 - Driver's Lics 
 - Driver's License 
@@ -16309,34 +16280,34 @@ OR
 - id cards 
 - identification card 
 - identification cards 
-- дриверлик # 
-- дриверликс # 
-- дриверлиценсе # 
-- дриверлиценсес # 
+- DriverLic # 
+- DriverLics # 
+- DriverLicense # 
+- DriverLicenses # 
 - Driver Lic# 
 - Driver Lics# 
 - Driver License# 
 - Driver Licenses# 
-- дриверслик # 
-- дриверсликс # 
-- дриверслиценсе # 
-- дриверслиценсес # 
+- DriversLic # 
+- DriversLics # 
+- DriversLicense # 
+- DriversLicenses # 
 - Drivers Lic# 
 - Drivers Lics# 
 - Drivers License# 
 - Drivers Licenses# 
-- Driver ' LIC # 
-- Driver ' LICS # 
-- Driver ' License # 
-- Driver ' Licenses # 
+- Driver'Lic # 
+- Driver'Lics # 
+- Driver'ы License # 
+- Driver'licenses # 
 - Driver' Lic# 
 - Driver' Lics# 
 - Driver' License# 
 - Driver' Licenses# 
-- дривер'слик # 
-- дривер'сликс # 
-- дривер'слиценсе # 
-- дривер'слиценсес # 
+- Driver'sLic # 
+- Driver'sLics # 
+- Driver'sLicense # 
+- Driver'sLicenses # 
 - Driver's Lic# 
 - Driver's Lics# 
 - Driver's License# 
@@ -16347,20 +16318,20 @@ OR
 - identification cards# 
 
 
-#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_ [state_name] _drivers_license_name
+#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_[state_name]_drivers_license_name
 
-- сокращение состояния (например, "Москва") 
-- имя состояния (например, "Нью-Йорк")
+- аббревиатура состояния (например, "NY") 
+- название штата (например, "Нью-Йорк")
 
-## <a name="us-individual-taxpayer-identification-number-itin"></a>Индивидуальный идентификационный номер налогоплательщика (SHAREPOINTВ) для США
+## <a name="us-individual-taxpayer-identification-number-itin"></a>Идентификационный номер налогоплательщика (ITIN) для США
 
 ### <a name="format"></a>Format
 
-девять цифр, начинающиеся с цифры "9" и содержащие "7" или "8" в качестве четвертой цифры, при необходимости отформатированные с помощью пробелов или тире
+девять цифр, которые начинаются с "9" и содержат цифру "7" или "8" в качестве четвертой цифры, при желании отформатированные с пробелами или тире
 
 ### <a name="pattern"></a>Шаблон
 
-форматируемые
+отформатированный:
 - цифра "9" 
 - две цифры 
 - пробел или тире 
@@ -16369,7 +16340,7 @@ OR
 - пробел или тире 
 - четыре цифры
 
-неформатированные
+unformatted:
 - цифра "9" 
 - две цифры 
 - "7" или "8" 
@@ -16416,21 +16387,21 @@ OR
 
 #### <a name="keyword_itin"></a>Keyword_itin
 
-- дубликат 
+- налогоплательщик 
 - tax id 
 - tax identification 
-- SharePointв 
-- и.т.и.н.
-- SSN 
-- ИНН 
+- itin 
+- i.t.i.n.
+- ssn 
+- tin 
 - social security 
 - tax payer 
-- итинс 
-- такси 
+- itins 
+- ыd 
 - individual taxpayer 
 
 
-## <a name="us-social-security-number-ssn"></a>Номер социального страхования (SSN) США
+## <a name="us-social-security-number-ssn"></a>Номер социального обеспечения (SSN) для США
 
 ### <a name="format"></a>Format
 
@@ -16441,7 +16412,7 @@ OR
 
 ### <a name="pattern"></a>Шаблон
 
-четыре функции ищут служб SSNs в четырех различных шаблонах:
+четыре функции искать SSNs в четырех различных шаблонах:
 - Func_ssn находит SSN со строгим форматированием с тире или пробелами, выданные до 2011 г. (ццц-цц-цццц ИЛИ ццц цц цццц);
 - Func_unformatted_ssn находит SSN со строгим форматированием, выданные до 2011 г. (без форматирования в виде девяти последовательных цифр — ццццццццц);
 - Func_randomized_formatted_ssn находит SSN с тире или пробелами, выданные после 2011 г. (ццц-цц-цццц ИЛИ ццц цц цццц);
@@ -16497,21 +16468,21 @@ OR
 
 #### <a name="keyword_ssn"></a>Keyword_ssn
 
-- Номер адаптера SSA
+- Номер SSA
 - social security number
-- социальное обеспечение безопасности #
-- социальное обеспечение безопасности #
-- социальное страхование нет
+- social security #
+- social security #
+- social security no
 - Social Security#
 - Soc Sec
 - SSN
 - SSNS
 - SSN #
-- НН #
+- SS #
 - SSID
    
-## <a name="us--uk-passport-number"></a>США/ВЕЛИКОБРИТАНИЯ passport number
-Великобритания Объект типа конфиденциальной информации номера паспорта доступен в типе конфиденциальной информации номера паспорта ЕС и доступен как отдельный объект типа конфиденциальной информации.
+## <a name="us--uk-passport-number"></a>США и Сша passport number
+Сша Объект типа конфиденциальной информации passport number доступен в типе конфиденциальной информации номера паспорта ЕС и доступен как автономный объект типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -16547,29 +16518,29 @@ OR
 - Passport Number 
 - Passport No 
 - Passport# 
-- Службу # 
-- пасспортид 
-- пасспортно 
-- пасспортнумбер 
+- Passport # 
+- PassportID 
+- Passportno 
+- passportnumber 
 - パスポート 
 - パスポート番号 
-- パスポートのнум 
-- パスポート # 
+- パкポ. 
+- パスポート# 
 - Numéro de passeport 
 - Passeport n ° 
 - Passeport Non 
 - Passeport# 
-- пассепорт # 
-- пассепортнон 
+- Passeport # 
+- PasseportNon 
 - Passeportn ° 
 
-## <a name="ukraine-passport-domestic"></a>Украина Passport Россия
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="ukraine-passport-domestic"></a>Внутренний паспорт гражданина Украины
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
@@ -16586,8 +16557,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Regex_Ukraine_Passport_Domestic находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово из Keyword_Ukraine_Passport_Domestic.
+- Regex Regex_Ukraine_Passport_Domestic находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Ukraine_Passport_Domestic.
 
 ```xml
       <!-- Ukraine Passport Domestic -->
@@ -16603,29 +16574,29 @@ OR
 
 #### <a name="keyword_ukraine_passport_domestic"></a>Keyword_ukraine_passport_domestic
 
-- паспорт "Украина"
+- паспорта гражданина Украины
 - passport number
-- паспорт нет
+- passport no
 - паспорт України
 - номер паспорта
 - персональний
 
 
-## <a name="ukraine-passport-international"></a>Украина Passport International
-Этот тип конфиденциальной информации можно использовать только в следующих целях:
+## <a name="ukraine-passport-international"></a>Паспорт гражданина Украины
+Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
-- политики соответствия требованиям
-- Управление сведениями
-- Управление записями
-- Microsoft Cloud App Security
+- политики соответствия коммуникациям
+- управление информацией
+- управление записями
+- Безопасность облачных приложений Майкрософт
 
 ### <a name="format"></a>Format
 
-буквенно-цифровой шаблон из восьми символов
+восьми-символьный буквонумерный шаблон
 
 ### <a name="pattern"></a>Шаблон
 
-8-значный буквенно-цифровой шаблон:
+восьми-символьный буквонумерный шаблон:
 - две буквы или цифры
 - шесть цифр
 
@@ -16636,8 +16607,8 @@ OR
 ### <a name="definition"></a>Определение
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- Регулярное выражение Regex_Ukraine_Passport_International находит содержимое, которое соответствует шаблону.
-- Найдено ключевое слово из Keyword_Ukraine_Passport_International.
+- Regex Regex_Ukraine_Passport_International находит содержимое, которое соответствует шаблону.
+- Находится ключевое слово из Keyword_Ukraine_Passport_International.
 
 ```xml
       <!-- Ukraine Passport International -->
@@ -16653,8 +16624,8 @@ OR
 
 #### <a name="keyword_ukraine_passport_international"></a>Keyword_ukraine_passport_international
 
-- паспорт "Украина"
+- паспорта гражданина Украины
 - passport number
-- паспорт нет
+- passport no
 - паспорт України
 - номер паспорта

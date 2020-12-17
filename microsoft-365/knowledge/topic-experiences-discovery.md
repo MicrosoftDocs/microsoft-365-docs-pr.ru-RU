@@ -11,12 +11,12 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как администрировать обнаружение тем в Microsoft 365.
-ms.openlocfilehash: 035fb74f1989dc7ef5b7fcf8e9c6d59b63cf2b42
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: dec8aeef9dda390fb19f5067638c2ebea6b6a2fe
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667894"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698547"
 ---
 # <a name="manage-topic-discovery-in-microsoft-365"></a>Управление обнаружением тем в Microsoft 365
 
@@ -67,7 +67,7 @@ Site name,URL
 3. Если необходимо создать список, скачайте шаблон CSV и добавьте разделы, которые нужно исключить (см. раздел "Работа с шаблоном *CSV" ниже).* Когда файл будет готов, нажмите **кнопку "Обзор"** и загрузите файл. Если существует существующий список, вы можете скачать CSV-файл, содержащий этот список.
 4. Щелкните **Сохранить**.
 
-    ![Снимок экрана: пользовательский интерфейс исключений](../media/km-manage-exclude-topics.png)
+    ![Снимок экрана: пользовательский интерфейс исключаемой темы](../media/km-manage-exclude-topics.png)
 
 ### <a name="working-with-the-csv-template"></a>Работа с шаблоном CSV
 
@@ -81,7 +81,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 - **Name**: Type the name of the topic you want to exclude. Это можно сделать двумя способами:
     - Точное совпадение: можно включить точное имя или аббревиатуру (например, *Contoso* или *ATL).*
-    - Частичное совпадение: можно исключить все темы, в них есть определенное слово.  Например,  arc исключит все темы со словом *arc* в нем, такие как "Arc *circle",* *"Arc arc welding"* или *"Training arc".* Обратите внимание, что он не будет исключать темы, в которых текст включается как часть слова, например *"Архитектура".*
+    - Частичное совпадение: можно исключить все темы, в них есть определенное слово.  Например,  arc исключит все темы с словом *arc* в нем, такие как "Arc *circle",* *"Arc arc welding"* или *"Training arc".* Обратите внимание, что он не будет исключать темы, в которых текст включается как часть слова, например *"Архитектура".*
 - **Означает (необязательно).** Если вы хотите исключить аббревиатуру, введите слова, за которые стоит аббревиатура.
 - **MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.
 
@@ -94,4 +94,3 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 [Управление разрешениями тем в Microsoft 365](topic-experiences-user-permissions.md)
 
 [Изменение имени центра тем в Microsoft 365](topic-experiences-administration.md)
-

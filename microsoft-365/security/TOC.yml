@@ -366,7 +366,7 @@
           items:
             - name: Exchange Online Protection
               items:
-                - name: Настройка стандартной политики защиты от фишинга в EOP
+                - name: Настройка политик защиты от фишинга в EOP
                   href: ./office-365-security/configure-anti-phishing-policies-eop.md
                 - name: Настройка автономной службы EOP для доставки спама в папку нежелательной почты
                   href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
