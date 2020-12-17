@@ -1,0 +1,47 @@
+---
+title: Просмотр отчетов об использовании
+f1.keywords:
+- NOCSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- adminvideo
+monikerRange: o365-worldwide
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+description: Узнайте, как использовать сведения из отчетов об использовании.
+ms.openlocfilehash: 898f72f3c89981cc7ea8112cd157239d42b08d20
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49702798"
+---
+# <a name="review-usage-reports-in-microsoft-365"></a><span data-ttu-id="b7891-103">Просмотр отчетов об использовании в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="b7891-103">Review usage reports in Microsoft 365</span></span>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SOFC?autoplay=false]
+
+<span data-ttu-id="b7891-104">Узнайте, как сотрудники используют службы Microsoft 365, такие как электронная почта или OneDrive, и примите меры.</span><span class="sxs-lookup"><span data-stu-id="b7891-104">Find out how employees are using Microsoft 365 services such as email or OneDrive, and take action.</span></span>
+
+<span data-ttu-id="b7891-105">В Центре [администрирования](https://admin.microsoft.com)можно увидеть все доступные отчеты.</span><span class="sxs-lookup"><span data-stu-id="b7891-105">In the [admin center](https://admin.microsoft.com), you can see all the reports available.</span></span>
+
+## <a name="try-it"></a><span data-ttu-id="b7891-106">Проверьте, как это работает!</span><span class="sxs-lookup"><span data-stu-id="b7891-106">Try it!</span></span>
+
+1. <span data-ttu-id="b7891-107">Перейдите **в "Отчеты",** а затем **"Использование".**</span><span class="sxs-lookup"><span data-stu-id="b7891-107">Go to **Reports**, and then **Usage**.</span></span> <span data-ttu-id="b7891-108">Найдите сведения о любом отчете, выбрав его.</span><span class="sxs-lookup"><span data-stu-id="b7891-108">Find details for any report by selecting one.</span></span> <span data-ttu-id="b7891-109">Отчет "Активные пользователи" показывает, какие службы чаще всего используются пользователями в вашей компании.</span><span class="sxs-lookup"><span data-stu-id="b7891-109">The Active users report shows which services are used most by the people in your business.</span></span>
+1. <span data-ttu-id="b7891-110">В качестве примера рассмотрим отчет OneDrive.</span><span class="sxs-lookup"><span data-stu-id="b7891-110">As an example, let's go ahead and look at the OneDrive report.</span></span> <span data-ttu-id="b7891-111">Здесь мы видим, сколько людей имеет учетную запись, вы также можете просмотреть общее количество активных и активных файлов, а также используемого хранилища.</span><span class="sxs-lookup"><span data-stu-id="b7891-111">Here we can see how many people have an account, you can also view the number of total and active files, as well as storage used.</span></span> <span data-ttu-id="b7891-112">Чтобы увидеть все остальные отчеты, перейдите в меню в выпадаемом меню.</span><span class="sxs-lookup"><span data-stu-id="b7891-112">To see all the other reports, go to the drop down menu.</span></span>
+1. <span data-ttu-id="b7891-113">Здесь мы можем посмотреть на отчет об использовании почтового приложения и узнать, какие методы ваши сотрудники используют больше всего для доступа к своей электронной почте.</span><span class="sxs-lookup"><span data-stu-id="b7891-113">Here we can take a look at the email app usage report and see which methods your employees use the most to access their email.</span></span> <span data-ttu-id="b7891-114">Вы также можете просматривать информацию, относяную к отдельному лицу, но по умолчанию они скрыты.</span><span class="sxs-lookup"><span data-stu-id="b7891-114">You can also view information specific to an individual, but the details are hidden by default.</span></span> <span data-ttu-id="b7891-115">Чтобы показать сведения об отдельных пользователях, перейдите в "Параметры" и & **надстройки.**</span><span class="sxs-lookup"><span data-stu-id="b7891-115">To show the individual user details, go over to **Settings**, and then **Services & add-ins**.</span></span>
+1. <span data-ttu-id="b7891-116">В панели отчетов можно включить анонимный идентификатор.</span><span class="sxs-lookup"><span data-stu-id="b7891-116">In the report panel, we can turn the anonymous identifier on.</span></span> <span data-ttu-id="b7891-117">Теперь закроем панель и вернемся к активности **"Отчеты",** **"Использование"** и **"Электронная почта".**</span><span class="sxs-lookup"><span data-stu-id="b7891-117">Now let's close the panel and come back over to **Reports**, **Usage**, and **Email activity**.</span></span> <span data-ttu-id="b7891-118">Здесь мы можем увидеть информацию, относяную к отдельному лицу.</span><span class="sxs-lookup"><span data-stu-id="b7891-118">Here we can see information specific to an individual.</span></span>
+
+    <span data-ttu-id="b7891-119">Помните, что если вы когда-либо зависаете, вы всегда можете вернуться к справке, которая предоставляет сведения о конкретном отчете, который вы просматриваете.</span><span class="sxs-lookup"><span data-stu-id="b7891-119">Remember, if you ever get stuck, you can always go back up to Help which gives you information about the specific report you are viewing.</span></span>

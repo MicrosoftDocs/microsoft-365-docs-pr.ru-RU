@@ -1,0 +1,73 @@
+---
+title: Справка или поддержка
+f1.keywords:
+- NOCSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- adminvideo
+monikerRange: o365-worldwide
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+description: Узнайте, как получить справку или поддержку для администраторов в Microsoft 365 бизнес премиум.
+ms.openlocfilehash: f33778c5c8b8ebfe71bd7acc6d203327a2fd7e94
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49702922"
+---
+# <a name="get-help-or-support"></a><span data-ttu-id="561e6-103">Получить помощь или поддержку</span><span class="sxs-lookup"><span data-stu-id="561e6-103">Get help or support</span></span>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
+
+<span data-ttu-id="561e6-104">Вам нужно поговорить с кем-то сразу?</span><span class="sxs-lookup"><span data-stu-id="561e6-104">Need to speak to someone right away?</span></span> <span data-ttu-id="561e6-105">При вызове в службу поддержки у администраторов должны быть готовы сведения об учетной записи.</span><span class="sxs-lookup"><span data-stu-id="561e6-105">Admins, have your account details ready when you call Support.</span></span>
+
+<span data-ttu-id="561e6-106">Вы не являетесь администратором?</span><span class="sxs-lookup"><span data-stu-id="561e6-106">Not an admin?</span></span> <span data-ttu-id="561e6-107">Попробуйте [поддержку Майкрософт](https://go.microsoft.com/fwlink/?linkid=860695) для домашних и бизнес-пользователей.</span><span class="sxs-lookup"><span data-stu-id="561e6-107">Try [Microsoft support](https://go.microsoft.com/fwlink/?linkid=860695) for Home and business end users.</span></span>
+
+- <span data-ttu-id="561e6-108">**В США позвоните по телефону 1 800 865 9408.**</span><span class="sxs-lookup"><span data-stu-id="561e6-108">**In the United States, call 1 800 865 9408**.</span></span>
+- <span data-ttu-id="561e6-109">**В Австралии позвоните по телефону 1 800 197 503.**</span><span class="sxs-lookup"><span data-stu-id="561e6-109">**In Australia, call 1 800 197 503**.</span></span>
+- <span data-ttu-id="561e6-110">**В Канаде позвоните по телефону 1 800 865 9408.**</span><span class="sxs-lookup"><span data-stu-id="561e6-110">**In Canada, call 1 800 865 9408**.</span></span>
+- <span data-ttu-id="561e6-111">**В Соединенном Королевстве позвоните по телефону 0800 032 6417.**</span><span class="sxs-lookup"><span data-stu-id="561e6-111">**In the United Kingdom, call 0800 032 6417**.</span></span>
+
+<span data-ttu-id="561e6-112">Поддержка вы выставления счета предоставляется на английском языке с 9:00 до 17:00 (9:00–18:00 в Австралии), с понедельника по пятницу.</span><span class="sxs-lookup"><span data-stu-id="561e6-112">Billing support is provided in English from 9 AM–5 PM (9 AM–6 PM in Australia), Monday–Friday.</span></span>
+<span data-ttu-id="561e6-113">Техническая поддержка предоставляется на английском языке круглосуточно, без выходных.</span><span class="sxs-lookup"><span data-stu-id="561e6-113">Technical support is provided in English 24 hours a day, 7 days a week.</span></span>
+
+<span data-ttu-id="561e6-114">Чтобы найти номер телефона службы поддержки Microsoft 365 или Microsoft 365 бизнес премиум для вашей страны или региона, обратитесь в службу поддержки по продуктам [для бизнеса.](https://support.microsoft.com/office/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="561e6-114">To find the Microsoft 365 or Microsoft 365 Business Premium support phone number for your country or region, see [Contact support for business products](https://support.microsoft.com/office/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span></span>
+
+## <a name="try-it"></a><span data-ttu-id="561e6-115">Проверьте, как это работает!</span><span class="sxs-lookup"><span data-stu-id="561e6-115">Try it!</span></span>
+
+<span data-ttu-id="561e6-116">В Microsoft 365 бизнес премиум существует несколько способов получения справки или помощи.</span><span class="sxs-lookup"><span data-stu-id="561e6-116">In Microsoft 365 Business Premium, there are several ways to get help or assistance.</span></span> <span data-ttu-id="561e6-117">Справку можно найти в Центре администрирования Майкрософт, в Microsoft Store или у поставщика решений Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="561e6-117">You can find help in the Microsoft admin center, at a Microsoft store, or from a Microsoft solution provider.</span></span>
+
+### <a name="get-help-in-the-admin-center"></a><span data-ttu-id="561e6-118">Справка в Центре администрирования</span><span class="sxs-lookup"><span data-stu-id="561e6-118">Get help in the admin center</span></span>
+
+1. <span data-ttu-id="561e6-119">Во sign in to [office.com](https://office.com) with your work credentials, and select Admin.</span><span class="sxs-lookup"><span data-stu-id="561e6-119">Sign in to [office.com](https://office.com) with your work credentials, and select Admin.</span></span>
+1. <span data-ttu-id="561e6-120">At the bottom of the page, choose **Need help?** to open the support assistant.</span><span class="sxs-lookup"><span data-stu-id="561e6-120">At the bottom of the page, choose **Need help?** to open the support assistant.</span></span>
+1. <span data-ttu-id="561e6-121">Введите свой вопрос и выберите значок **отправки сообщения.**</span><span class="sxs-lookup"><span data-stu-id="561e6-121">Type your question, and then select the **Send message** icon.</span></span>
+1. <span data-ttu-id="561e6-122">Просмотрите результаты и выберите нужный вариант.</span><span class="sxs-lookup"><span data-stu-id="561e6-122">Review the results, and choose the option you want.</span></span>
+1. <span data-ttu-id="561e6-123">Если вам нужна дополнительные помощь, выберите **значок контакта.**</span><span class="sxs-lookup"><span data-stu-id="561e6-123">If you need more help, choose the **Contact** icon.</span></span>
+1. <span data-ttu-id="561e6-124">На странице **"Обратиться в службу** поддержки" введите сведения о своем вопросе, а затем введите контактные данные.</span><span class="sxs-lookup"><span data-stu-id="561e6-124">On the **Contact support** page, enter information about your question, and then enter your contact information.</span></span> <span data-ttu-id="561e6-125">Выберите, как к вам будет обращаться, а затем выберите **"Связаться со мной".**</span><span class="sxs-lookup"><span data-stu-id="561e6-125">Choose how you want to be contacted, and then select **Contact me**.</span></span>
+
+    <span data-ttu-id="561e6-126">Ваш запрос на обслуживание отправлен.</span><span class="sxs-lookup"><span data-stu-id="561e6-126">Your service request has been sent.</span></span> <span data-ttu-id="561e6-127">Вы увидите сводку запроса на странице запроса **на обслуживание.**</span><span class="sxs-lookup"><span data-stu-id="561e6-127">You'll see a summary of your request on the **Service request** page.</span></span>
+
+### <a name="work-with-a-solution-provider"></a><span data-ttu-id="561e6-128">Работа с поставщиком решений</span><span class="sxs-lookup"><span data-stu-id="561e6-128">Work with a solution provider</span></span>
+
+1. <span data-ttu-id="561e6-129">Если у вас более крупный проект или проблема, и вы хотите поговорить с консультантом, рассмотрите вопрос о поставщике решений Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="561e6-129">If you have a larger project or problem and would like to speak with a consultant, consider a Microsoft solution provider.</span></span>
+1. <span data-ttu-id="561e6-130">Чтобы найти поставщика решений, найдите "Поставщики решений Майкрософт" в браузере.</span><span class="sxs-lookup"><span data-stu-id="561e6-130">To locate a solution provider, search for "Microsoft solution providers" in your browser.</span></span>
+1. <span data-ttu-id="561e6-131">Выберите **страницу поставщика** решений Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="561e6-131">Select the **Microsoft Solution Provider** s page.</span></span>
+1. <span data-ttu-id="561e6-132">Введите расположение, размер организации и тип поддержки, который вы ищете.</span><span class="sxs-lookup"><span data-stu-id="561e6-132">Enter your location, the size of your organization, and the type of support you are looking for.</span></span> <span data-ttu-id="561e6-133">Select **Go**.</span><span class="sxs-lookup"><span data-stu-id="561e6-133">Select **Go**.</span></span>
+1. <span data-ttu-id="561e6-134">На странице **"Поиск поставщика решений Майкрософт"** выберите нужного поставщика решений из списка.</span><span class="sxs-lookup"><span data-stu-id="561e6-134">On the **Find a Microsoft solution provider** page, select the solution provider you want from the list.</span></span>
+
+    <span data-ttu-id="561e6-135">Поставщик услуг, который вы выберете, свяься с вами.</span><span class="sxs-lookup"><span data-stu-id="561e6-135">The service provider that you choose will contact you.</span></span>

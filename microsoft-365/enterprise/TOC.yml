@@ -274,20 +274,20 @@
               href: ms-cloud-germany-transition.md
             - name: Согласие на миграцию
               href: ms-cloud-germany-migration-opt-in.md
-            - name: Взаимодействие с клиентами
+            - name: Изменения
               href: ms-cloud-germany-transition-experience.md
-            - name: Действия и влияние этапов миграции
+            - name: Предварительная подготовка
+              href: ms-cloud-germany-transition-add-pre-work.md
+            - name: Действия и влияние этапов миграции (общие)
               href: ms-cloud-germany-transition-phases.md
+            - name: Действия и влияние этапов миграции (дополнительные)
+              href: ms-cloud-germany-transition-add-experience.md
             - name: Дополнительные сведения
               items:
-                - name: Общие сведения
-                  href: ms-cloud-germany-transition-add-general.md
+                - name: Azure AD
+                  href: ms-cloud-germany-transition-azure-ad.md
                 - name: Устройства
                   href: ms-cloud-germany-transition-add-devices.md
-                - name: Предварительная подготовка
-                  href: ms-cloud-germany-transition-add-pre-work.md
-                - name: Интерфейс
-                  href: ms-cloud-germany-transition-add-experience.md
                 - name: Шаги миграции AD FS
                   href: ms-cloud-germany-transition-add-adfs.md
 - name: Удостоверение
