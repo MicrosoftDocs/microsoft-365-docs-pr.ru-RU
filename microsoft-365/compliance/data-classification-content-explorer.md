@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Обозреватель содержимого позволяет легко просматривать элементы с присвоенными метками.
-ms.openlocfilehash: 7977d30881a4229f99f4c5976d4c41377573a6ca
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 9beeab0c0b00ac1ac37c9df53e14a2f3f2914422
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379212"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701156"
 ---
 # <a name="get-started-with-content-explorer"></a>Начало работы с обозревателем контента
 
@@ -39,6 +39,9 @@ ms.locfileid: "48379212"
 - Office 365 (E5)
 - Дополнение Advanced Compliance (E5)
 - Дополнение Advanced Threat Intelligence (E5)
+- Защита информации и управление данными в Microsoft 365 E5 или A5
+- Соответствие требованиям Microsoft 365 E5 или A5
+
 
 ### <a name="permissions"></a>Разрешения
 
@@ -119,7 +122,7 @@ ms.locfileid: "48379212"
 
 Областью действия средства поиска является то, что отображается в панели **Все расположения**, а возможное место поиска зависит от выбранного расположения. 
 
-Если выбрано расположение ** Exchange**, то поиск можно выполнить по полному адресу электронной почты в почтовом ящике, например `user@domainname.com`.
+Если выбрано расположение **Exchange**, то поиск можно выполнить по полному адресу электронной почты в почтовом ящике, например `user@domainname.com`.
 
 Если выбрано расположение **SharePoint** или **OneDrive**, то при детализации имен сайтов, папок и файлов будет выводиться средство "Поиск". 
 
