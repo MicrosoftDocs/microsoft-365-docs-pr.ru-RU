@@ -10,14 +10,14 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Сведения о применении опубликованной модели к библиотеке документов SharePoint
-ms.openlocfilehash: 0ca58e863d42d41b634978f53f55201a10a5ed93
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 9c99ede49633b5ae70cbb67c30d83c111084df95
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087491"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701145"
 ---
-# <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a><span data-ttu-id="2b9d6-103">Применение модели осмысления документации в Microsoft SharePoint Syntex</span><span class="sxs-lookup"><span data-stu-id="2b9d6-103">Apply a document understanding model in Microsoft SharePoint Syntex</span></span>
+# <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a><span data-ttu-id="bcba9-103">Применение модели осмысления документации в Microsoft SharePoint Syntex</span><span class="sxs-lookup"><span data-stu-id="bcba9-103">Apply a document understanding model in Microsoft SharePoint Syntex</span></span>
 
 </br>
 
@@ -25,64 +25,67 @@ ms.locfileid: "49087491"
 
 </br>
 
-<span data-ttu-id="2b9d6-104">После публикации модель осмысления документации можно применить к одной или нескольким библиотекам документов SharePoint в клиенте Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-104">After publishing your document understanding model, you can apply it to one or more SharePoint document library in your Microsoft 365 tenant.</span></span>
+<span data-ttu-id="bcba9-104">После публикации модель осмысления документации можно применить к одной или нескольким библиотекам документов SharePoint в клиенте Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="bcba9-104">After publishing your document understanding model, you can apply it to one or more SharePoint document library in your Microsoft 365 tenant.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2b9d6-105">Вы можете применить модель только к тем библиотекам документов, к которым у вас есть доступ.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-105">You are only able to apply the model to document libraries that you have access to.</span></span>
+> <span data-ttu-id="bcba9-105">Вы можете применить модель только к тем библиотекам документов, к которым у вас есть доступ.</span><span class="sxs-lookup"><span data-stu-id="bcba9-105">You are only able to apply the model to document libraries that you have access to.</span></span>
 
 
-## <a name="apply-your-model-to-a-document-library"></a><span data-ttu-id="2b9d6-106">Примените модель к библиотеке документов.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-106">Apply your model to a document library.</span></span>
+## <a name="apply-your-model-to-a-document-library"></a><span data-ttu-id="bcba9-106">Примените модель к библиотеке документов.</span><span class="sxs-lookup"><span data-stu-id="bcba9-106">Apply your model to a document library.</span></span>
 
-<span data-ttu-id="2b9d6-107">Чтобы применить модель к библиотеке документов SharePoint, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-107">To apply your model to to a SharePoint document library:</span></span>
+<span data-ttu-id="bcba9-107">Чтобы применить модель к библиотеке документов SharePoint, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="bcba9-107">To apply your model to to a SharePoint document library:</span></span>
 
-1. <span data-ttu-id="2b9d6-108">На домашней странице модели на плитке **Применение модели к библиотекам** выберите **Опубликовать модель**.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-108">On model home page, on the **Apply model to libraries** tile, select **Publish model**.</span></span> <span data-ttu-id="2b9d6-109">Вы также можете выбрать пункт **+ Добавить библиотеку** в разделе **Библиотеки с этой моделью**.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-109">Or you can select  **+Add Library** in the **Libraries with this model** section.</span></span> </br>
+1. <span data-ttu-id="bcba9-108">На домашней странице модели на плитке **Применение модели к библиотекам** выберите **Опубликовать модель**.</span><span class="sxs-lookup"><span data-stu-id="bcba9-108">On model home page, on the **Apply model to libraries** tile, select **Publish model**.</span></span> <span data-ttu-id="bcba9-109">Вы также можете выбрать пункт **+ Добавить библиотеку** в разделе **Библиотеки с этой моделью**.</span><span class="sxs-lookup"><span data-stu-id="bcba9-109">Or you can select  **+Add Library** in the **Libraries with this model** section.</span></span> </br>
 
     ![Добавление модели в библиотеку](../media/content-understanding/apply-to-library.png)</br>
 
-2. <span data-ttu-id="2b9d6-111">Затем вы можете выбрать сайт SharePoint, содержащий библиотеку документов, к которой нужно применить модель.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-111">You can then select the SharePoint site that contains the document library that you want to apply the model to.</span></span> <span data-ttu-id="2b9d6-112">Если сайт не отображается в списке, используйте поле поиска, чтобы найти его.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-112">If the site does not show in the list, use the search box to find it.</span></span></br>
+2. <span data-ttu-id="bcba9-111">Затем вы можете выбрать сайт SharePoint, содержащий библиотеку документов, к которой нужно применить модель.</span><span class="sxs-lookup"><span data-stu-id="bcba9-111">You can then select the SharePoint site that contains the document library that you want to apply the model to.</span></span> <span data-ttu-id="bcba9-112">Если сайт не отображается в списке, используйте поле поиска, чтобы найти его.</span><span class="sxs-lookup"><span data-stu-id="bcba9-112">If the site does not show in the list, use the search box to find it.</span></span></br>
 
     ![Выбор сайта](../media/content-understanding/site-search.png)</br>
 
     > [!NOTE]
-    > <span data-ttu-id="2b9d6-114">Вам потребуются разрешения *Управление списком* или права на *редактирование* для библиотеки документов, к которой применяется модель.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-114">You must have *Manage List* permissions or *Edit* rights to the document library you are applying the model to.</span></span></br>
+    > <span data-ttu-id="bcba9-114">Вам потребуются разрешения *Управление списком* или права на *редактирование* для библиотеки документов, к которой применяется модель.</span><span class="sxs-lookup"><span data-stu-id="bcba9-114">You must have *Manage List* permissions or *Edit* rights to the document library you are applying the model to.</span></span></br>
 
-3. <span data-ttu-id="2b9d6-115">Выбрав сайт, выберите библиотеку документов, к которой нужно применить модель.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-115">After selecting the site, select the document library to which you want to apply the model.</span></span> <span data-ttu-id="2b9d6-116">В приведенном примере выберите библиотеку документов *Документы* на сайте *Отслеживание обращения в Contoso*.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-116">In the sample, select the *Documents* document library from the *Contoso Case Tracking* site.</span></span></br>
+3. <span data-ttu-id="bcba9-115">Выбрав сайт, выберите библиотеку документов, к которой нужно применить модель.</span><span class="sxs-lookup"><span data-stu-id="bcba9-115">After selecting the site, select the document library to which you want to apply the model.</span></span> <span data-ttu-id="bcba9-116">В приведенном примере выберите библиотеку документов *Документы* на сайте *Отслеживание обращения в Contoso*.</span><span class="sxs-lookup"><span data-stu-id="bcba9-116">In the sample, select the *Documents* document library from the *Contoso Case Tracking* site.</span></span></br>
 
     ![Выбор библиотеки документов](../media/content-understanding/select-doc-library.png)</br>
 
-4. <span data-ttu-id="2b9d6-118">Поскольку модель связана с типом контента, при ее применении к библиотеке будет добавлен тип контента и его представление с извлеченными метками в виде столбцов.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-118">Since the model is associated to a content type, when you apply it to the library it will add the content type and its view with the labels you extracted showing as columns.</span></span> <span data-ttu-id="2b9d6-119">Это представление по умолчанию является представлением библиотеки по умолчанию, но при желании можно не использовать его как таковое. Для этого выберите **Дополнительные параметры** и отмените выбор пункта **Использовать это новое представление по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-119">This view is the library's default view by default, but you can optionally choose to not have it be the default view by selecting **Advanced settings** and deselecting **Set this new view as default**.</span></span></br>
+4. <span data-ttu-id="bcba9-118">Поскольку модель связана с типом контента, при ее применении к библиотеке будет добавлен тип контента и его представление с извлеченными метками в виде столбцов.</span><span class="sxs-lookup"><span data-stu-id="bcba9-118">Since the model is associated to a content type, when you apply it to the library it will add the content type and its view with the labels you extracted showing as columns.</span></span> <span data-ttu-id="bcba9-119">Это представление по умолчанию является представлением библиотеки по умолчанию, но при желании можно не использовать его как таковое. Для этого выберите **Дополнительные параметры** и отмените выбор пункта **Использовать это новое представление по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="bcba9-119">This view is the library's default view by default, but you can optionally choose to not have it be the default view by selecting **Advanced settings** and deselecting **Set this new view as default**.</span></span></br>
 
     ![Представление библиотеки](../media/content-understanding/library-view.png)</br>
 
-5. <span data-ttu-id="2b9d6-121">Нажмите кнопку **Добавить**, чтобы применить модель к библиотеке.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-121">Select **Add** to apply the model to the library.</span></span> 
-6. <span data-ttu-id="2b9d6-122">На домашней странице модели в разделе **Библиотеки с этой моделью** вы увидите URL-адрес указанного сайта SharePoint.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-122">On the model home page, in the **Libraries with this model** section, you should see the URL to the SharePoint site listed.</span></span></br>
+5. <span data-ttu-id="bcba9-121">Нажмите кнопку **Добавить**, чтобы применить модель к библиотеке.</span><span class="sxs-lookup"><span data-stu-id="bcba9-121">Select **Add** to apply the model to the library.</span></span> 
+6. <span data-ttu-id="bcba9-122">На домашней странице модели в разделе **Библиотеки с этой моделью** вы увидите URL-адрес указанного сайта SharePoint.</span><span class="sxs-lookup"><span data-stu-id="bcba9-122">On the model home page, in the **Libraries with this model** section, you should see the URL to the SharePoint site listed.</span></span></br>
 
     ![Выбранная библиотека](../media/content-understanding/selected-library.png)</br>
 
-7. <span data-ttu-id="2b9d6-124">Перейдите в библиотеку документов и убедитесь, что вы находитесь в представлении библиотеки документов, к которой применяется модель.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-124">Go to your document library and make sure you are in the model's document library view.</span></span> <span data-ttu-id="2b9d6-125">Обратите внимание, что при нажатии кнопки сведений рядом с именем библиотеки документов появляется сообщение о том, что модель применена к библиотеке документов.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-125">Notice that if you select the information button next to the document library name, a message notes that your model has been applied to the document library.</span></span>
+7. <span data-ttu-id="bcba9-124">Перейдите в библиотеку документов и убедитесь, что вы находитесь в представлении библиотеки документов, к которой применяется модель.</span><span class="sxs-lookup"><span data-stu-id="bcba9-124">Go to your document library and make sure you are in the model's document library view.</span></span> <span data-ttu-id="bcba9-125">Обратите внимание, что при нажатии кнопки сведений рядом с именем библиотеки документов появляется сообщение о том, что модель применена к библиотеке документов.</span><span class="sxs-lookup"><span data-stu-id="bcba9-125">Notice that if you select the information button next to the document library name, a message notes that your model has been applied to the document library.</span></span>
 
     ![Представление сведений](../media/content-understanding/info-du.png)</br> 
 
 
-<span data-ttu-id="2b9d6-127">После применения модели к библиотеке документов можно начать отправку документов на сайт и просмотр результатов.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-127">After applying the model to the document library, you can begin uploading documents to the site and see the results.</span></span>
+<span data-ttu-id="bcba9-127">После применения модели к библиотеке документов можно начать отправку документов на сайт и просмотр результатов.</span><span class="sxs-lookup"><span data-stu-id="bcba9-127">After applying the model to the document library, you can begin uploading documents to the site and see the results.</span></span>
 
-<span data-ttu-id="2b9d6-128">Модель определяет все файлы со связанным типом контента и выводит их в представлении.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-128">The model identifies any files with model’s associated content type and lists them in your view.</span></span> <span data-ttu-id="2b9d6-129">Если модель содержит средства извлечения, в представлении отображаются столбцы для данных, извлекаемых из каждого файла.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-129">If your model has any extractors, the view displays columns for the data you are extracting from each file.</span></span>
+<span data-ttu-id="bcba9-128">Модель определяет все файлы со связанным типом контента и выводит их в представлении.</span><span class="sxs-lookup"><span data-stu-id="bcba9-128">The model identifies any files with model’s associated content type and lists them in your view.</span></span> <span data-ttu-id="bcba9-129">Если модель содержит средства извлечения, в представлении отображаются столбцы для данных, извлекаемых из каждого файла.</span><span class="sxs-lookup"><span data-stu-id="bcba9-129">If your model has any extractors, the view displays columns for the data you are extracting from each file.</span></span>
 
-### <a name="apply-the-model-to-files-already-in-the-document-library"></a><span data-ttu-id="2b9d6-130">Применение модели к файлам, уже находящимся в библиотеке документов</span><span class="sxs-lookup"><span data-stu-id="2b9d6-130">Apply the model to files already in the document library</span></span>
+### <a name="apply-the-model-to-files-already-in-the-document-library"></a><span data-ttu-id="bcba9-130">Применение модели к файлам, уже находящимся в библиотеке документов</span><span class="sxs-lookup"><span data-stu-id="bcba9-130">Apply the model to files already in the document library</span></span>
 
-<span data-ttu-id="2b9d6-131">В результате применения модели выполняется обработка всех файлов, отправленных в библиотеку документов. Чтобы запустить модель для файлов, которые уже находились в библиотеке документов до применения модели, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-131">While an applied model processes all files uploaded to the document library after it is applied, you can also do the following to run the model on files that already exists in the document library prior to the model being applied:</span></span>
+<span data-ttu-id="bcba9-131">В результате применения модели выполняется обработка всех файлов, отправленных в библиотеку документов. Чтобы запустить модель для файлов, которые уже находились в библиотеке документов до применения модели, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="bcba9-131">While an applied model processes all files uploaded to the document library after it is applied, you can also do the following to run the model on files that already exists in the document library prior to the model being applied:</span></span>
 
-1. <span data-ttu-id="2b9d6-132">В библиотеке документов выберите файлы, которые нужно обработать с помощью модели.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-132">In your document library, select the files that you want to be processed by your model.</span></span>
-2. <span data-ttu-id="2b9d6-133">После того как вы выберете файлы, на ленте библиотеки документов появится элемент **Классификация и извлечение**.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-133">After selecting your files, **Classify and extract** will appear in the document library ribbon.</span></span> <span data-ttu-id="2b9d6-134">Выберите элемент **Классификация и извлечение**.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-134">Select **Classify and extract**.</span></span>
-3. <span data-ttu-id="2b9d6-135">Выбранные файлы будут добавлены в очередь на обработку.</span><span class="sxs-lookup"><span data-stu-id="2b9d6-135">The files you selected will be added to the queue to be processed.</span></span>
+1. <span data-ttu-id="bcba9-132">В библиотеке документов выберите файлы, которые нужно обработать с помощью модели.</span><span class="sxs-lookup"><span data-stu-id="bcba9-132">In your document library, select the files that you want to be processed by your model.</span></span>
+2. <span data-ttu-id="bcba9-133">После того как вы выберете файлы, на ленте библиотеки документов появится элемент **Классификация и извлечение**.</span><span class="sxs-lookup"><span data-stu-id="bcba9-133">After selecting your files, **Classify and extract** will appear in the document library ribbon.</span></span> <span data-ttu-id="bcba9-134">Выберите элемент **Классификация и извлечение**.</span><span class="sxs-lookup"><span data-stu-id="bcba9-134">Select **Classify and extract**.</span></span>
+3. <span data-ttu-id="bcba9-135">Выбранные файлы будут добавлены в очередь на обработку.</span><span class="sxs-lookup"><span data-stu-id="bcba9-135">The files you selected will be added to the queue to be processed.</span></span>
 
       ![Классификация и извлечение](../media/content-understanding/extract-classify.png)</br> 
 
-## <a name="see-also"></a><span data-ttu-id="2b9d6-137">См. также</span><span class="sxs-lookup"><span data-stu-id="2b9d6-137">See Also</span></span>
-[<span data-ttu-id="2b9d6-138">Создание классификатора</span><span class="sxs-lookup"><span data-stu-id="2b9d6-138">Create a classifier</span></span>](create-a-classifier.md)
+> [!NOTE]
+> <span data-ttu-id="bcba9-137">Вы можете скопировать отдельные файлы в библиотеку и применить их к модели, но не к папкам.</span><span class="sxs-lookup"><span data-stu-id="bcba9-137">You can copy individual files to a library and apply them to a model, but not folders.</span></span>
 
-[<span data-ttu-id="2b9d6-139">Создание средства извлечения</span><span class="sxs-lookup"><span data-stu-id="2b9d6-139">Create an extractor</span></span>](create-an-extractor.md)
+## <a name="see-also"></a><span data-ttu-id="bcba9-138">См. также</span><span class="sxs-lookup"><span data-stu-id="bcba9-138">See Also</span></span>
+[<span data-ttu-id="bcba9-139">Создание классификатора</span><span class="sxs-lookup"><span data-stu-id="bcba9-139">Create a classifier</span></span>](create-a-classifier.md)
 
-[<span data-ttu-id="2b9d6-140">Общие сведения об осмыслении документации</span><span class="sxs-lookup"><span data-stu-id="2b9d6-140">Document Understanding overview</span></span>](document-understanding-overview.md)
+[<span data-ttu-id="bcba9-140">Создание средства извлечения</span><span class="sxs-lookup"><span data-stu-id="bcba9-140">Create an extractor</span></span>](create-an-extractor.md)
+
+[<span data-ttu-id="bcba9-141">Общие сведения об осмыслении документации</span><span class="sxs-lookup"><span data-stu-id="bcba9-141">Document Understanding overview</span></span>](document-understanding-overview.md)
 
 
