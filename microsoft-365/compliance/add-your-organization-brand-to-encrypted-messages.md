@@ -20,17 +20,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Узнайте, как глобальные администраторы Office 365 могут применять фирменный код организации к зашифрованным & в содержимом портала шифрования.
-ms.openlocfilehash: 77fd5e08afa1a4d8ae5f6386fa65b88b6ea2be4d
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+description: Узнайте, как глобальные администраторы Office 365 могут применять фирменую марку организации к зашифрованным электронным & содержимому портала шифрования.
+ms.openlocfilehash: 56b948fc941da4fb221d929ecd59c5300b135e39
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663236"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709501"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Добавление торговой марки организации в зашифрованные сообщения шифрования сообщений Microsoft 365 для бизнеса
 
-Вы можете применить фирменую марку компании, чтобы настроить внешний вид сообщений электронной почты вашей организации и портала шифрования. Перед началом работы необходимо применить разрешения глобального администратора к своей учетной записи работы или учебного заведения. После получения этих разрешений используйте Get-OMEConfiguration и Set-OMEConfiguration Windows PowerShell для настройки этих частей зашифрованных сообщений электронной почты:
+Вы можете применить фирменую марку компании, чтобы настроить внешний вид сообщений электронной почты организации и портала шифрования. Перед началом работы необходимо применить разрешения глобального администратора к своей учетной записи работы или учебного заведения. После получения этих разрешений используйте Get-OMEConfiguration и Set-OMEConfiguration Windows PowerShell для настройки этих частей зашифрованных сообщений электронной почты:
   
 - Вводный текст
 
@@ -46,7 +46,7 @@ ms.locfileid: "49663236"
 
 Кроме того, в любое время вы можете восстановить интерфейс по умолчанию.
 
-Если вы хотите больше контроля, используйте Office 365 Advanced Message Encryption, чтобы создать несколько шаблонов для зашифрованных сообщений электронной почты из вашей организации. Используйте эти шаблоны для управления частями пользовательского интерфейса. Например, укажите, могут ли получатели использовать учетные записи Google, Yahoo и Microsoft для входов на портал шифрования. Используйте шаблоны для выполнения нескольких вариантов использования, например:
+Если вы хотите больше контроля, используйте office 365 Advanced Message Encryption, чтобы создать несколько шаблонов для зашифрованных сообщений электронной почты из вашей организации. Используйте эти шаблоны для управления частями пользовательского интерфейса. Например, укажите, могут ли получатели использовать учетные записи Google, Yahoo и Microsoft для входов на портал шифрования. Используйте шаблоны для выполнения нескольких вариантов использования, например:
 
 - Отдельные отделы, такие как "Финансы", "Продажи" и так далее.
 
@@ -66,7 +66,7 @@ ms.locfileid: "49663236"
 
 - [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) — изменение шаблона фирменения по умолчанию или созданного вами настраиваемого шаблона фирменения.
 - [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) : создание нового шаблона фирменности, только advanced Message Encryption.
-- [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) — удаление настраиваемого шаблона фирменности, только advanced Message Encryption. Вы не можете удалить шаблон фирменой марки по умолчанию.
+- [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) — удаление настраиваемого шаблона фирменности, только advanced Message Encryption. Шаблон фирменой настройки по умолчанию удалить нельзя.
   
 ## <a name="modify-an-ome-branding-template"></a>Изменение шаблона фирменного оформления OME
 
@@ -88,12 +88,12 @@ ms.locfileid: "49663236"
 |URL-адрес ссылки на заявление о конфиденциальности|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PrivacyStatementURL "<URL>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
 |Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."`|
 |Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."`|
-|Чтобы включить или отключить проверку подлинности с помощью разового кода прохода для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **Примеры:** <br/>Чтобы включить одновейные парольные коды для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Отключение одновейных паролей для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
-|Чтобы включить или отключить проверку подлинности с помощью удостоверений Майкрософт, Google или Yahoo для этого пользовательского шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **Примеры:** <br/>Чтобы включить социальные ID для этого пользовательского шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> Отключение социальных ИД для этого пользовательского шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
+|Чтобы включить или отключить проверку подлинности с помощью разового кода прохода для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **Примеры.** <br/>Чтобы включить одновейные парольные коды для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Отключение одновейных паролей для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
+|Чтобы включить или отключить проверку подлинности с помощью удостоверений Майкрософт, Google или Yahoo для этого пользовательского шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **Примеры.** <br/>Чтобы включить социальные ID для этого пользовательского шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> Отключение социальных ИД для этого пользовательского шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
 
 ## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Создание шаблона фирменной марки OME (advanced Message Encryption)
 
-Если у вас есть Office 365 Advanced Message Encryption, вы можете создать настраиваемые шаблоны фирменного оформления для своей организации с помощью [cmdlet New-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) После создания шаблона его можно изменить с помощью Set-OMEConfiguration, как описано в описании изменения шаблона [фирменного оформления OME.](#modify-an-ome-branding-template) Можно создать несколько шаблонов.
+Если у вас есть Office 365 Advanced Message Encryption, вы можете создать настраиваемые шаблоны фирменой настройки для своей организации с помощью [cmdlet New-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) После создания шаблона его можно изменить с помощью Set-OMEConfiguration, как описано в описании изменения шаблона [фирменного оформления OME.](#modify-an-ome-branding-template) Можно создать несколько шаблонов.
 
 Чтобы создать новый настраиваемый шаблон фирменой настройки:
 
@@ -117,7 +117,7 @@ ms.locfileid: "49663236"
   
 1. Используя учетную запись для работы или учебного заведения с разрешениями глобального администратора в организации, Windows PowerShell сеанс и подключите его к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Используйте **cmdlet Set-OMEConfiguration,** как описано в [set-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) Чтобы удалить фирменные настройки организации из значений DisclaimerText, EmailText и PortalText, запишите в качестве значения пустую `""` строку. Для всех значений изображения, таких как логотип, установите значение  `"$null"` .
+2. Используйте **cmdlet Set-OMEConfiguration,** как описано в [set-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) Чтобы удалить фирменные настройки организации из значений DisclaimerText, EmailText и PortalText, запишите в качестве значения пустую `""` строку. Для всех значений изображений, таких как логотип, установите значение  `"$null"` .
 
    В следующей таблице описываются параметры настройки шифрования по умолчанию.
 
@@ -160,7 +160,7 @@ ms.locfileid: "49663236"
 
 - Если сообщение было автоматически зашифровано правилом потока обработки почты Exchange или политикой защиты от потери данных
 
-Сведения о создании правила потока почты Exchange, которое применяет шифрование, см. в подпишитесь на правила потока почты для шифрования сообщений электронной почты [в Office 365.](define-mail-flow-rules-to-encrypt-email.md)
+Сведения о том, как создать правило потока почты Exchange, которое применяет шифрование, см. в подмене правил потока почты для шифрования сообщений электронной почты [в Office 365.](define-mail-flow-rules-to-encrypt-email.md)
 
 1. В веб-браузере, используя учетную запись для работы или учебного заведения, которая получила разрешения глобального администратора, во sign [in to Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser).
 
@@ -192,9 +192,8 @@ ms.locfileid: "49663236"
 
 Доступные имена цветов фона и соответствующие им значения кодов описаны в следующей таблице.
 
-|||
-|---|---|
 |**Название цвета**|**Код цвета**|
+|---|---|
 |`aliceblue`|#f0f8ff|
 |`antiquewhite`|#faebd7|
 |`aqua`|#00ffff|

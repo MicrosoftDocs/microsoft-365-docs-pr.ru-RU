@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Сведения о применении опубликованной модели к библиотеке документов SharePoint
-ms.openlocfilehash: 0ca58e863d42d41b634978f53f55201a10a5ed93
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 9c99ede49633b5ae70cbb67c30d83c111084df95
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087491"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701145"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Применение модели осмысления документации в Microsoft SharePoint Syntex
 
@@ -77,6 +77,9 @@ ms.locfileid: "49087491"
 3. Выбранные файлы будут добавлены в очередь на обработку.
 
       ![Классификация и извлечение](../media/content-understanding/extract-classify.png)</br> 
+
+> [!NOTE]
+> Вы можете скопировать отдельные файлы в библиотеку и применить их к модели, но не к папкам.
 
 ## <a name="see-also"></a>См. также
 [Создание классификатора](create-a-classifier.md)
