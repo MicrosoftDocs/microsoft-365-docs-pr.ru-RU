@@ -1,20 +1,20 @@
-- name: Начало работы с управлением знаниями
+- name: Начало работы с Темами
   items:
-    - name: Обзор управления знаниями
-      href: knowledge-management-overview.md
-    - name: Обзор центра тем
-      href: topic-center-overview.md
-    - name: Работа с разделами в центре тем
-      href: work-with-topics.md
-    - name: Предоставить пользователям разрешения на доступ к центру тем
-      href: give-user-permissions-to-the-topic-center.md
-    - name: Подготовьтесь к среде
+    - name: Общие сведения о Темах
+      href: index.md
+    - name: Обзор Тем
+      href: topic-experiences-overview.md
+    - name: Обнаружение и управление Темами
+      href: topic-experiences-discovery-curation.md
+    - name: Роли Тем
+      href: topic-experiences-roles.md
+    - name: Подготовка среды
       href: topic-experiences-get-ready.md
-- name: Установка и администрирование
+- name: Настройка и администрирование
   items:
     - name: Безопасность тем
       href: topic-experiences-security-privacy.md
-    - name: Планирование тем
+    - name: Планирование работы с темами
       href: plan-topic-experiences.md
     - name: Настройка тем
       href: set-up-topic-experiences.md
@@ -22,11 +22,23 @@
       href: topic-experiences-discovery.md
     - name: Управление видимостью тем
       href: topic-experiences-knowledge-rules.md
-    - name: Управление разрешениями для тем
+    - name: Управление разрешениями тем
       href: topic-experiences-user-permissions.md
-    - name: Изменение имени центра тем
+    - name: Изменение названия центра тем
       href: topic-experiences-administration.md
+- name: Работа с темами
+  items:
+    - name: Обзор Центра тем
+      href: topic-center-overview.md
+    - name: Управление темами в центре тем
+      href: manage-topics.md
+    - name: Создание темы
+      href: create-a-topic.md
+    - name: Редактирование темы
+      href: edit-a-topic.md
+    - name: Фильтрация по ролям безопасности
+      href: topic-experiences-security-trimming.md
 - name: Внедрение
   items:
-    - name: Начало внедрения
+    - name: Начало работы по внедрению
       href: topics-adoption-getstarted.md

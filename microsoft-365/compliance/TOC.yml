@@ -106,6 +106,8 @@
           href: custom-sensitive-info-types.md
         - name: Создание пользовательских типов конфиденциальной информации с помощью точного совпадения данных
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Использование мастера точного соответствия данных и типа конфиденциальной информации
+          href: sit-edm-wizard.md
         - name: Изменение схемы точного соответствия данных для использования настраиваемого совпадения
           href: sit-modify-edm-schema-configurable-match.md
         - name: Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям

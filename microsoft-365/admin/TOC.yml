@@ -223,10 +223,10 @@
               href: productivity/mobility.md
             - name: Командная работа
               href: productivity/teamwork.md
+            - name: Собрания
+              href: productivity/meetings.md
             - name: Работоспособность Приложений Microsoft 365
               href: productivity/apps-health.md
-            - name: Создание записей DNS в любом узле DNS
-              href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
         - name: Изменение контактных данных организации
           href: manage/change-address-contact-and-more.md
         - name: Обновление контактных данных администратора
