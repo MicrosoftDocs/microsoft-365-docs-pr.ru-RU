@@ -1,7 +1,7 @@
 ---
-title: Hello World для REST API защитника Microsoft 365
-description: Узнайте, как создать приложение и использовать маркер для доступа к API-интерфейсам защитника Microsoft 365.
-keywords: приложение, маркер, доступ, AAD, App, регистрация приложений, PowerShell, сценарий, глобальный администратор, разрешение
+title: Hello World для REST API Защитника Microsoft 365
+description: Узнайте, как создать приложение и использовать маркер для доступа к API Microsoft 365 Defender
+keywords: приложение, маркер, доступ, aad, приложение, регистрация приложения, powershell, сценарий, глобальный администратор, разрешение, Защитник Microsoft 365
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,175 +19,162 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bd4f7e5485d67cf74477900ae2cc5c77f1a6ee41
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b36a6acca5880a455a66b03b5355cdf1fb85b29b
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844048"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719314"
 ---
-# <a name="hello-world-for-microsoft-365-defender-rest-api"></a><span data-ttu-id="9e051-104">Hello World для REST API защитника Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9e051-104">Hello World for Microsoft 365 Defender REST API</span></span> 
+# <a name="hello-world-for-microsoft-365-defender-rest-api"></a><span data-ttu-id="f4779-104">Hello World для REST API Защитника Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="f4779-104">Hello World for Microsoft 365 Defender REST API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+<span data-ttu-id="f4779-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="f4779-105">**Applies to:**</span></span>
 
-<span data-ttu-id="9e051-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="9e051-105">**Applies to:**</span></span>
-- <span data-ttu-id="9e051-106">Защитник Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9e051-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="f4779-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f4779-106">Microsoft 365 Defender</span></span>
 
->[!IMPORTANT] 
-><span data-ttu-id="9e051-107">Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска.</span><span class="sxs-lookup"><span data-stu-id="9e051-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="9e051-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="9e051-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="f4779-107">Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска.</span><span class="sxs-lookup"><span data-stu-id="f4779-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="f4779-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="f4779-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
 
+## <a name="get-incidents-using-a-simple-powershell-script"></a><span data-ttu-id="f4779-109">Получить инциденты с помощью простого сценария PowerShell</span><span class="sxs-lookup"><span data-stu-id="f4779-109">Get incidents using a simple PowerShell script</span></span>
 
-## <a name="get-incidents-using-a-simple-powershell-script"></a><span data-ttu-id="9e051-109">Получение инцидентов с помощью простого скрипта PowerShell</span><span class="sxs-lookup"><span data-stu-id="9e051-109">Get incidents using a simple PowerShell script</span></span>
+<span data-ttu-id="f4779-110">Этот проект должен занять от 5 до 10 минут.</span><span class="sxs-lookup"><span data-stu-id="f4779-110">It should take 5 to 10 minutes to complete this project.</span></span> <span data-ttu-id="f4779-111">В этот раз оценка включает регистрацию приложения и применение кода из примера сценария PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f4779-111">This time estimate includes registering the application, and applying the code from the PowerShell sample script.</span></span>
 
-### <a name="how-long-it-takes-to-go-through-this-example"></a><span data-ttu-id="9e051-110">Сколько времени потребуется проделать через этот пример?</span><span class="sxs-lookup"><span data-stu-id="9e051-110">How long it takes to go through this example?</span></span>
-<span data-ttu-id="9e051-111">Выполнение выполняется в течение 5 минут в два этапа:</span><span class="sxs-lookup"><span data-stu-id="9e051-111">It only takes 5 minutes done in two steps:</span></span>
-- <span data-ttu-id="9e051-112">Регистрация приложения</span><span class="sxs-lookup"><span data-stu-id="9e051-112">Application registration</span></span>
-- <span data-ttu-id="9e051-113">Примеры: требуется только копирование и вставка короткого скрипта PowerShell</span><span class="sxs-lookup"><span data-stu-id="9e051-113">Use examples: only requires copy/paste of a short PowerShell script</span></span>
+### <a name="register-an-app-in-azure-active-directory"></a><span data-ttu-id="f4779-112">Регистрация приложения в Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="f4779-112">Register an app in Azure Active Directory</span></span>
 
-### <a name="do-i-need-a-permission-to-connect"></a><span data-ttu-id="9e051-114">Требуется ли разрешение на подключение?</span><span class="sxs-lookup"><span data-stu-id="9e051-114">Do I need a permission to connect?</span></span>
-<span data-ttu-id="9e051-115">Для этапа регистрации приложений необходимо иметь роль **глобального администратора** в клиенте Azure Active Directory (Azure AD).</span><span class="sxs-lookup"><span data-stu-id="9e051-115">For the Application registration stage, you must have a **Global administrator** role in your Azure Active Directory (Azure AD) tenant.</span></span>
+1. <span data-ttu-id="f4779-113">Во sign in to [Azure](https://portal.azure.com) as a user with the **Global administrator** role.</span><span class="sxs-lookup"><span data-stu-id="f4779-113">Sign in to [Azure](https://portal.azure.com) as a user with the **Global administrator** role.</span></span>
 
-### <a name="step-1---create-an-app-in-azure-active-directory"></a><span data-ttu-id="9e051-116">Шаг 1: создание приложения в Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="9e051-116">Step 1 - Create an App in Azure Active Directory</span></span>
+2. <span data-ttu-id="f4779-114">Перейдите к регистрации приложений **Azure Active Directory**  >  **— новая**  >  **регистрация.**</span><span class="sxs-lookup"><span data-stu-id="f4779-114">Navigate to **Azure Active Directory** > **App registrations** > **New registration**.</span></span>
 
-1. <span data-ttu-id="9e051-117">Войдите в [Azure](https://portal.azure.com) с помощью учетной записи **глобального администратора** .</span><span class="sxs-lookup"><span data-stu-id="9e051-117">Log on to [Azure](https://portal.azure.com) with your **Global administrator** user.</span></span>
+   ![Изображение Microsoft Azure и переход к регистрации приложений](../../media/atp-azure-new-app2.png)
 
-2. <span data-ttu-id="9e051-118">Перейдите к разделу Регистрация приложений **Azure Active Directory** с  >  **App registrations**  >  **новой регистрацией**.</span><span class="sxs-lookup"><span data-stu-id="9e051-118">Navigate to **Azure Active Directory** > **App registrations** > **New registration**.</span></span> 
+3. <span data-ttu-id="f4779-116">В форме регистрации выберите имя приложения, а затем выберите **"Регистрация".**</span><span class="sxs-lookup"><span data-stu-id="f4779-116">In the registration form, choose a name for your application, then select **Register**.</span></span> <span data-ttu-id="f4779-117">Выбор URI перенаправления необязателен.</span><span class="sxs-lookup"><span data-stu-id="f4779-117">Selecting a redirect URI is optional.</span></span> <span data-ttu-id="f4779-118">Для выполнения этого примера он не потребуется.</span><span class="sxs-lookup"><span data-stu-id="f4779-118">You won't need one to complete this example.</span></span>
 
-   ![Изображение Microsoft Azure и переход к регистрации приложения](../../media/atp-azure-new-app2.png)
+4. <span data-ttu-id="f4779-119">На странице приложения выберите "API Разрешения для добавления разрешений" **API,** которые моя организация использует >, введите "Защита от угроз (Майкрософт)" и выберите "Защита от  >    >   **угроз (Майкрософт)".** </span><span class="sxs-lookup"><span data-stu-id="f4779-119">On your application page, select **API Permissions** > **Add permission** > **APIs my organization uses** >, type **Microsoft Threat Protection**, and select **Microsoft Threat Protection**.</span></span> <span data-ttu-id="f4779-120">Теперь ваше приложение может получить доступ к Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="f4779-120">Your app can now access Microsoft 365 Defender.</span></span>
 
-3. <span data-ttu-id="9e051-120">В форме регистрации выберите имя приложения и нажмите кнопку **зарегистрировать**.</span><span class="sxs-lookup"><span data-stu-id="9e051-120">In the registration form, choose a name for your application and then select **Register**.</span></span>
+   > [!TIP]
+   > <span data-ttu-id="f4779-121">*Защита от угроз (Майкрософт)* — это прежнее имя Защитника Microsoft 365, которое не будет отображаться в исходном списке.</span><span class="sxs-lookup"><span data-stu-id="f4779-121">*Microsoft Threat Protection* is a former name for Microsoft 365 Defender, and will not appear in the original list.</span></span> <span data-ttu-id="f4779-122">Чтобы увидеть, как оно появляется, необходимо начать писать его имя в текстовом поле.</span><span class="sxs-lookup"><span data-stu-id="f4779-122">You need to start writing its name in the text box to see it appear.</span></span>
+   <span data-ttu-id="f4779-123">![Изображение выбора разрешений API](../../media/apis-in-my-org-tab.PNG)</span><span class="sxs-lookup"><span data-stu-id="f4779-123">![Image of API permission selection](../../media/apis-in-my-org-tab.PNG)</span></span>
 
-4. <span data-ttu-id="9e051-121">Разрешите приложению получить доступ к защитнику Майкрософт для конечной точки и назначить ему разрешение " **чтение всех происшествий** ":</span><span class="sxs-lookup"><span data-stu-id="9e051-121">Allow your Application to access Microsoft Defender for Endpoint and assign it **Read all incidents** permission:</span></span>
-
-   - <span data-ttu-id="9e051-122">На странице приложение выберите **разрешения API**  >  **Добавление разрешений**  >  **API "Моя организация использует** > введите **Microsoft 365 защитник** и выберите **защитник Microsoft 365**.</span><span class="sxs-lookup"><span data-stu-id="9e051-122">On your application page, select **API Permissions** > **Add permission** > **APIs my organization uses** > type **Microsoft 365 Defender** and select on **Microsoft 365 Defender**.</span></span>
-
-   >[!NOTE]
-   ><span data-ttu-id="9e051-123">Защитник Microsoft 365 не отображается в исходном списке.</span><span class="sxs-lookup"><span data-stu-id="9e051-123">Microsoft 365 Defender does not appear in the original list.</span></span> <span data-ttu-id="9e051-124">Чтобы отобразить его имя, необходимо сначала начать его ввод в текстовое поле.</span><span class="sxs-lookup"><span data-stu-id="9e051-124">You need to start writing its name in the text box to see it appear.</span></span>
-
-   ![Изображение доступа к API и выбора API](../../media/apis-in-my-org-tab.PNG)
-
-   - <span data-ttu-id="9e051-126">Выберите **разрешения для приложений**  >  **происшествие инцидент. Read. ALL** > SELECT for **Permissions Permissions**</span><span class="sxs-lookup"><span data-stu-id="9e051-126">Choose **Application permissions** > **Incident.Read.All** > Select on **Add permissions**</span></span>
+   - <span data-ttu-id="f4779-124">Выберите **разрешения приложения**  >  **Incident.Read.All** и выберите **"Добавить разрешения".**</span><span class="sxs-lookup"><span data-stu-id="f4779-124">Choose **Application permissions** > **Incident.Read.All** and select **Add permissions**.</span></span>
 
    ![Изображение доступа к API и выбора API](../../media/request-api-permissions.PNG)
 
-   >[!IMPORTANT]
-   ><span data-ttu-id="9e051-128">Необходимо выбрать соответствующие разрешения.</span><span class="sxs-lookup"><span data-stu-id="9e051-128">You need to select the relevant permissions.</span></span> 
+5. <span data-ttu-id="f4779-126">Выберите **"Предоставить согласие администратора".**</span><span class="sxs-lookup"><span data-stu-id="f4779-126">Select **Grant admin consent**.</span></span> <span data-ttu-id="f4779-127">При каждом добавлении разрешения  необходимо выбрать разрешение администратора, чтобы оно вступает в силу.</span><span class="sxs-lookup"><span data-stu-id="f4779-127">Every time you add a permission, you must select **Grant admin consent** for it to take effect.</span></span>
 
-     <span data-ttu-id="9e051-129">Например,</span><span class="sxs-lookup"><span data-stu-id="9e051-129">For instance,</span></span>
+    ![Изображение разрешения на предоставление](../../media/grant-consent.PNG)
 
-     - <span data-ttu-id="9e051-130">Чтобы определить, какое разрешение необходимо, просмотрите раздел **разрешения** в API, который вы хотите вызвать.</span><span class="sxs-lookup"><span data-stu-id="9e051-130">To determine which permission you need, please look at the **Permissions** section in the API you are interested to call.</span></span>
+6. <span data-ttu-id="f4779-129">Добавьте секрет в приложение.</span><span class="sxs-lookup"><span data-stu-id="f4779-129">Add a secret to the application.</span></span> <span data-ttu-id="f4779-130">Select **Certificates & secrets,** add a description to the secret, then select **Add**.</span><span class="sxs-lookup"><span data-stu-id="f4779-130">Select **Certificates & secrets**, add a description to the secret, then select **Add**.</span></span>
 
-5. <span data-ttu-id="9e051-131">Выбор **предоставления согласия администратора**</span><span class="sxs-lookup"><span data-stu-id="9e051-131">Select **Grant admin consent**</span></span>
+    > [!TIP]
+    > <span data-ttu-id="f4779-131">После выбора **"Добавить"** выберите **"Скопировать сгенерированную секретную копию".**</span><span class="sxs-lookup"><span data-stu-id="f4779-131">After you select **Add**, select **copy the generated secret value**.</span></span> <span data-ttu-id="f4779-132">После этого вы не сможете получить значение секрета.</span><span class="sxs-lookup"><span data-stu-id="f4779-132">You won't be able to retrieve the secret value after you leave.</span></span>
 
-    - >[!NOTE]
-      > <span data-ttu-id="9e051-132">Каждый раз, когда вы добавляете разрешение, для вступления в силу нового разрешения необходимо выбрать разрешение на **предоставление** разрешения.</span><span class="sxs-lookup"><span data-stu-id="9e051-132">Every time you add permission you must select on **Grant consent** for the new permission to take effect.</span></span>
+    ![Изображение создания ключа приложения](../../media/webapp-create-key2.png)
 
-    ![Изображение разрешений GRANT](../../media/grant-consent.PNG)
+7. <span data-ttu-id="f4779-134">Зафиксировать свой ИД приложения и ид клиента в надежном месте.</span><span class="sxs-lookup"><span data-stu-id="f4779-134">Record your application ID and your tenant ID somewhere safe.</span></span> <span data-ttu-id="f4779-135">Они перечислены в **списке "Обзор"** на странице приложения.</span><span class="sxs-lookup"><span data-stu-id="f4779-135">They're listed under **Overview** on your application page.</span></span>
 
-6. <span data-ttu-id="9e051-134">Добавьте секрет в приложение.</span><span class="sxs-lookup"><span data-stu-id="9e051-134">Add a secret to the application.</span></span>
+   ![Изображение созданного ид приложения](../../media/app-and-tenant-ids.png)
 
-    - <span data-ttu-id="9e051-135">Выберите **сертификаты & секреты** , добавьте описание к секрету и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="9e051-135">Select **Certificates & secrets** , add description to the secret and select **Add**.</span></span>
+### <a name="get-a-token-using-the-app-and-use-the-token-to-access-the-api"></a><span data-ttu-id="f4779-137">Получите маркер с помощью приложения и используйте его для доступа к API</span><span class="sxs-lookup"><span data-stu-id="f4779-137">Get a token using the app and use the token to access the API</span></span>
 
-    >[!IMPORTANT]
-    > <span data-ttu-id="9e051-136">После нажатия кнопки **Добавить** **скопируйте созданное значение секрета**.</span><span class="sxs-lookup"><span data-stu-id="9e051-136">After selecting **Add** , **copy the generated secret value**.</span></span> <span data-ttu-id="9e051-137">Вы не сможете получить его после выхода из!</span><span class="sxs-lookup"><span data-stu-id="9e051-137">You won't be able to retrieve after you leave!</span></span>
+<span data-ttu-id="f4779-138">Дополнительные сведения о маркерах Azure Active Directory см. в руководстве [по Azure AD.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)</span><span class="sxs-lookup"><span data-stu-id="f4779-138">For more information on Azure Active Directory tokens, see the [Azure AD tutorial](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).</span></span>
 
-    ![Изображение ключа "создать приложение"](../../media/webapp-create-key2.png)
+> [!IMPORTANT]
+> <span data-ttu-id="f4779-139">Несмотря на то, что в примере в этом демонстрационных приложениях  рекомендуется в целях тестирования в paste in your secret value, никогда не следует жестко кодировать секреты в приложение, запущенное в производственной версии.</span><span class="sxs-lookup"><span data-stu-id="f4779-139">Although the example in this demo app encourage you to paste in your secret value for testing purposes, you should **never hardcode secrets** into an application running in production.</span></span> <span data-ttu-id="f4779-140">Третья сторона может использовать ваш секрет для доступа к ресурсам.</span><span class="sxs-lookup"><span data-stu-id="f4779-140">A third party could use your secret to access resources.</span></span> <span data-ttu-id="f4779-141">Вы можете обеспечить безопасность секретов приложения с помощью [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates)</span><span class="sxs-lookup"><span data-stu-id="f4779-141">You can help keep your app's secrets secure by using [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates).</span></span> <span data-ttu-id="f4779-142">Практический пример того, как можно защитить приложение, см. в под управлением секретов в серверных приложениях [с помощью Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)</span><span class="sxs-lookup"><span data-stu-id="f4779-142">For a practical example of how you can protect your app, see [Manage secrets in your server apps with Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/).</span></span>
 
-7. <span data-ttu-id="9e051-139">Запишите идентификатор своего приложения и идентификатор клиента:</span><span class="sxs-lookup"><span data-stu-id="9e051-139">Write down your application ID and your tenant ID:</span></span>
+1. <span data-ttu-id="f4779-143">Скопируйте сценарий ниже и в paste его в избранный текстовый редактор.</span><span class="sxs-lookup"><span data-stu-id="f4779-143">Copy the script below and paste it into your favorite text editor.</span></span> <span data-ttu-id="f4779-144">Сохраните как **Get-Token.ps1**.</span><span class="sxs-lookup"><span data-stu-id="f4779-144">Save as **Get-Token.ps1**.</span></span> <span data-ttu-id="f4779-145">Вы также можете запустить код как есть в PowerShell ISE, но его следует сохранить, так как нам потребуется запустить его снова, когда мы будем использовать сценарий получения инцидентов в следующем разделе.</span><span class="sxs-lookup"><span data-stu-id="f4779-145">You can also run the code as-is in PowerShell ISE, but you should save it, because we'll need to run it again when we use the incident-fetching script in the next section.</span></span>
 
-   - <span data-ttu-id="9e051-140">На странице приложения перейдите в раздел **Overview (обзор** ) и скопируйте следующее:</span><span class="sxs-lookup"><span data-stu-id="9e051-140">On your application page, go to **Overview** and copy the following:</span></span>
+    <span data-ttu-id="f4779-146">Этот сценарий создает маркер и сохраняет его в рабочей папке под именем *Latest-token.txt.*</span><span class="sxs-lookup"><span data-stu-id="f4779-146">This script will generate a token and save it in the working folder under the name, *Latest-token.txt*.</span></span>
 
-   ![Изображение идентификатора созданного приложения](../../media/app-and-tenant-ids.png)
+    ```PowerShell
+    # This script gets the app context token and saves it to a file named "Latest-token.txt" under the current directory.
+    # Paste in your tenant ID, client ID and app secret (App key).
 
+    $tenantId = '' # Paste your directory (tenant) ID here
+    $clientId = '' # Paste your application (client) ID here
+    $appSecret = '' # # Paste your own app secret here to test, then store it in a safe place!
 
-<span data-ttu-id="9e051-142">Договорились!</span><span class="sxs-lookup"><span data-stu-id="9e051-142">Done!</span></span> <span data-ttu-id="9e051-143">Вы успешно зарегистрировали приложение.</span><span class="sxs-lookup"><span data-stu-id="9e051-143">You have successfully registered an application.</span></span>
+    $resourceAppIdUri = 'https://api.security.microsoft.com'
+    $oAuthUri = "https://login.windows.net/$tenantId/oauth2/token"
+    $authBody = [Ordered] @{
+      resource = $resourceAppIdUri
+      client_id = $clientId
+      client_secret = $appSecret
+      grant_type = 'client_credentials'
+    }
+    $authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
+    $token = $authResponse.access_token
+    Out-File -FilePath "./Latest-token.txt" -InputObject $token
+    return $token
+    ```
 
-### <a name="step-2---get-a-token-using-the-app-and-use-this-token-to-access-the-api"></a><span data-ttu-id="9e051-144">Шаг 2. Получите маркер с помощью приложения и используйте этот маркер для доступа к API.</span><span class="sxs-lookup"><span data-stu-id="9e051-144">Step 2 - Get a token using the App and use this token to access the API.</span></span>
+#### <a name="validate-the-token"></a><span data-ttu-id="f4779-147">Проверка маркера</span><span class="sxs-lookup"><span data-stu-id="f4779-147">Validate the token</span></span>
 
--   <span data-ttu-id="9e051-145">Скопируйте приведенный ниже скрипт в PowerShell ISE или в текстовый редактор и сохраните его как " **Get-Token.ps1** ".</span><span class="sxs-lookup"><span data-stu-id="9e051-145">Copy the script below to PowerShell ISE or to a text editor, and save it as " **Get-Token.ps1** "</span></span>
--   <span data-ttu-id="9e051-146">При выполнении этого скрипта будет создан маркер, который будет сохранен в рабочей папке под именем " **Latest-token.txt** ".</span><span class="sxs-lookup"><span data-stu-id="9e051-146">Running this script will generate a token and will save it in the working folder under the name " **Latest-token.txt** ".</span></span>
+1. <span data-ttu-id="f4779-148">Скопируйте и в paste маркер, полученный в [JWT,](https://jwt.ms) чтобы декодировать его.</span><span class="sxs-lookup"><span data-stu-id="f4779-148">Copy and paste the token you received into [JWT](https://jwt.ms) to decode it.</span></span>
+1. <span data-ttu-id="f4779-149">*JWT* означает *веб-маркер JSON.*</span><span class="sxs-lookup"><span data-stu-id="f4779-149">*JWT* stands for *JSON Web Token*.</span></span> <span data-ttu-id="f4779-150">Раскодированный маркер будет содержать ряд элементов или утверждений в формате JSON.</span><span class="sxs-lookup"><span data-stu-id="f4779-150">The decoded token will contain a number of JSON-formatted items or claims.</span></span> <span data-ttu-id="f4779-151">Убедитесь, что *утверждение ролей* внутри раскодирования маркера содержит нужные разрешения.</span><span class="sxs-lookup"><span data-stu-id="f4779-151">Make sure that the *roles* claim within the decoded token contains the desired permissions.</span></span>
 
-```
-# That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
-# Paste below your Tenant ID, App ID and App Secret (App key).
+    <span data-ttu-id="f4779-152">На следующем изображении можно увидеть раскодный маркер, полученный из приложения, с ```Incidents.Read.All``` разрешениями ```Incidents.ReadWrite.All``` и ```AdvancedHunting.Read.All``` разрешениями:</span><span class="sxs-lookup"><span data-stu-id="f4779-152">In the following image, you can see a decoded token acquired from an app, with ```Incidents.Read.All```, ```Incidents.ReadWrite.All```, and ```AdvancedHunting.Read.All``` permissions:</span></span>
 
-$tenantId = '' ### Paste your tenant ID here
-$appId = '' ### Paste your Application ID here
-$appSecret = '' ### Paste your Application secret here
+    ![Изображение jwt.ms](../../media/api-jwt-ms.png)
 
-$resourceAppIdUri = 'https://api.security.microsoft.com'
-$oAuthUri = "https://login.windows.net/$TenantId/oauth2/token"
-$authBody = [Ordered] @{
-    resource = "$resourceAppIdUri"
-    client_id = "$appId"
-    client_secret = "$appSecret"
-    grant_type = 'client_credentials'
-}
-$authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
-$token = $authResponse.access_token
-Out-File -FilePath "./Latest-token.txt" -InputObject $token
-return $token
-```
+### <a name="get-a-list-of-recent-incidents"></a><span data-ttu-id="f4779-154">Получить список последних инцидентов</span><span class="sxs-lookup"><span data-stu-id="f4779-154">Get a list of recent incidents</span></span>
 
--   <span data-ttu-id="9e051-147">Проверка санити:</span><span class="sxs-lookup"><span data-stu-id="9e051-147">Sanity Check:</span></span><br>
-<span data-ttu-id="9e051-148">Запустите сценарий.</span><span class="sxs-lookup"><span data-stu-id="9e051-148">Run the script.</span></span><br>
-<span data-ttu-id="9e051-149">В браузере перейдите по адресу: https://jwt.ms/</span><span class="sxs-lookup"><span data-stu-id="9e051-149">In your browser go to: https://jwt.ms/</span></span> <br>
-<span data-ttu-id="9e051-150">Скопируйте маркер (содержимое файла Latest-token.txt).</span><span class="sxs-lookup"><span data-stu-id="9e051-150">Copy the token (the content of the Latest-token.txt file).</span></span><br>
-<span data-ttu-id="9e051-151">Вставьте в верхнее поле.</span><span class="sxs-lookup"><span data-stu-id="9e051-151">Paste in the top box.</span></span><br>
-<span data-ttu-id="9e051-152">Найдите раздел "роли".</span><span class="sxs-lookup"><span data-stu-id="9e051-152">Look for the "roles" section.</span></span> <span data-ttu-id="9e051-153">Найдите ```Incidents.Read.All``` роль.</span><span class="sxs-lookup"><span data-stu-id="9e051-153">Find the ```Incidents.Read.All``` role.</span></span><br>
-<span data-ttu-id="9e051-154">Ниже приведен пример из приложения с ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` ```AdvancedHunting.Read.All``` разрешениями и разрешениями.</span><span class="sxs-lookup"><span data-stu-id="9e051-154">The below example is from an app that has ```Incidents.Read.All```, ```Incidents.ReadWrite.All``` and ```AdvancedHunting.Read.All``` permissions.</span></span>
+<span data-ttu-id="f4779-155">Сценарий ниже **будет** использоватьGet-Token.ps1для доступа к API.</span><span class="sxs-lookup"><span data-stu-id="f4779-155">The script below will use **Get-Token.ps1** to access the API.</span></span> <span data-ttu-id="f4779-156">Затем он извлекает список инцидентов, которые были в последний раз обновлены в течение последних 48 часов, и сохраняет список в JSON-файле.</span><span class="sxs-lookup"><span data-stu-id="f4779-156">It then retrieves a list of incidents that were last updated within the past 48 hours, and saves the list as a JSON file.</span></span>
 
-![Jwt.ms изображений](../../media/api-jwt-ms.png)
+> [!IMPORTANT]
+> <span data-ttu-id="f4779-157">Сохраните этот сценарий в той же папке, в **Get-Token.ps1.**</span><span class="sxs-lookup"><span data-stu-id="f4779-157">Save this script in the same folder you saved **Get-Token.ps1**.</span></span>
 
-### <a name="lets-get-the-incidents"></a><span data-ttu-id="9e051-156">Позволяет получить инциденты!</span><span class="sxs-lookup"><span data-stu-id="9e051-156">Lets get the Incidents!</span></span>
+```PowerShell
+# This script returns incidents last updated within the past 48 hours.
 
--   <span data-ttu-id="9e051-157">Приведенный ниже скрипт будет использовать **Get-Token.ps1** для доступа к API и будет получать последние обновленные происшествия за последние 48 часов.</span><span class="sxs-lookup"><span data-stu-id="9e051-157">The script below will use **Get-Token.ps1** to access the API and will get the incidents last updated in past 48 hours.</span></span>
--   <span data-ttu-id="9e051-158">Сохраните этот скрипт в той же папке, в которой вы сохранили предыдущий **Get-Token.ps1** сценария.</span><span class="sxs-lookup"><span data-stu-id="9e051-158">Save this script in the same folder you saved the previous script **Get-Token.ps1**.</span></span> 
--   <span data-ttu-id="9e051-159">Сценарий — файл JSON с данными в той же папке, что и скрипты.</span><span class="sxs-lookup"><span data-stu-id="9e051-159">The script a json file with the data in the same folder as the scripts.</span></span>
+$token = ./Get-Token.ps1
 
-```
-# Returns Incidents last updated in the past 48 hours.
-
-$token = ./Get-Token.ps1       #run the script Get-Token.ps1  - make sure you are running this script from the same folder of Get-Token.ps1
-
-# Get Incidents from the last 48 hours. Make sure you have incidents in that time frame.
+# Get incidents from the past 48 hours.
+# The script may appear to fail if you don't have any incidents in that time frame.
 $dateTime = (Get-Date).ToUniversalTime().AddHours(-48).ToString("o")
 
-# The URL contains the type of query and the time filter we created above
+# This URL contains the type of query and the time filter we created above.
+# Note that `$filter` does not refer to a local variable in our script --
+# it's actually an OData operator and part of the API's syntax.
 $url = "https://api.security.microsoft.com/api/incidents?$filter=lastUpdateTime+ge+$dateTime"
 
-# Set the WebRequest headers
-$headers = @{ 
+# Set the webrequest headers
+$headers = @{
     'Content-Type' = 'application/json'
     'Accept' = 'application/json'
     'Authorization' = "Bearer $token"
 }
 
-# Send the webrequest and get the results. 
+# Send the request and get the results.
 $response = Invoke-WebRequest -Method Get -Uri $url -Headers $headers -ErrorAction Stop
 
-# Extract the incidents from the results. 
+# Extract the incidents from the results.
 $incidents =  ($response | ConvertFrom-Json).value | ConvertTo-Json -Depth 99
 
-# Get string with the execution time. We concatenate that string to the output file to avoid overwrite the file
-$dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}    
+# Get a string containing the execution time. We concatenate that string to the name 
+# of the output file to avoid overwriting the file on consecutive runs of the script.
+$dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}
 
 # Save the result as json
-$outputJsonPath = "./Latest Incidents $dateTimeForFileName.json"     
+$outputJsonPath = "./Latest Incidents $dateTimeForFileName.json"
 
-Out-File -FilePath $outputJsonPath -InputObject $incidents 
+Out-File -FilePath $outputJsonPath -InputObject $incidents
 ```
 
-<span data-ttu-id="9e051-160">Все готово.</span><span class="sxs-lookup"><span data-stu-id="9e051-160">You're all done!</span></span> <span data-ttu-id="9e051-161">Вы только что успешно:</span><span class="sxs-lookup"><span data-stu-id="9e051-161">You have just successfully:</span></span>
--   <span data-ttu-id="9e051-162">Создано, зарегистрировано и приложение</span><span class="sxs-lookup"><span data-stu-id="9e051-162">Created and registered and application</span></span>
--   <span data-ttu-id="9e051-163">Разрешение на чтение оповещений для этого приложения</span><span class="sxs-lookup"><span data-stu-id="9e051-163">Granted permission for that application to read alerts</span></span>
--   <span data-ttu-id="9e051-164">Подключен API</span><span class="sxs-lookup"><span data-stu-id="9e051-164">Connected the API</span></span>
--   <span data-ttu-id="9e051-165">Использование скрипта PowerShell для возврата инцидентов, созданных за прошедшие 48 часов</span><span class="sxs-lookup"><span data-stu-id="9e051-165">Used a PowerShell script to return incidents created in the past 48 hours</span></span>
+<span data-ttu-id="f4779-158">Все готово!</span><span class="sxs-lookup"><span data-stu-id="f4779-158">You're all done!</span></span> <span data-ttu-id="f4779-159">Вы успешно выполнили:</span><span class="sxs-lookup"><span data-stu-id="f4779-159">You've successfully:</span></span>
 
+- <span data-ttu-id="f4779-160">Создано и зарегистрировано приложение.</span><span class="sxs-lookup"><span data-stu-id="f4779-160">Created and registered an application.</span></span>
+- <span data-ttu-id="f4779-161">Предоставлено разрешение для этого приложения на чтение оповещений.</span><span class="sxs-lookup"><span data-stu-id="f4779-161">Granted permission for that application to read alerts.</span></span>
+- <span data-ttu-id="f4779-162">Подключен к API.</span><span class="sxs-lookup"><span data-stu-id="f4779-162">Connected to the API.</span></span>
+- <span data-ttu-id="f4779-163">Использовал сценарий PowerShell для возврата инцидентов, обновленных за последние 48 часов.</span><span class="sxs-lookup"><span data-stu-id="f4779-163">Used a PowerShell script to return incidents updated in the past 48 hours.</span></span>
 
+## <a name="related-articles"></a><span data-ttu-id="f4779-164">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="f4779-164">Related articles</span></span>
 
-## <a name="related-topic"></a><span data-ttu-id="9e051-166">Связанная тема</span><span class="sxs-lookup"><span data-stu-id="9e051-166">Related topic</span></span>
-- [<span data-ttu-id="9e051-167">Доступ к API-интерфейсам защитника Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9e051-167">Access the Microsoft 365 Defender APIs</span></span>](api-access.md)
-- [<span data-ttu-id="9e051-168">Доступ к защитнику Microsoft 365 с контекстом приложения</span><span class="sxs-lookup"><span data-stu-id="9e051-168">Access  Microsoft 365 Defender with application context</span></span>](api-create-app-web.md)
-- [<span data-ttu-id="9e051-169">Доступ к защитнику Microsoft 365 с контекстом пользователя</span><span class="sxs-lookup"><span data-stu-id="9e051-169">Access  Microsoft 365 Defender with user context</span></span>](api-create-app-user-context.md)
+- [<span data-ttu-id="f4779-165">Обзор API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f4779-165">Microsoft 365 Defender APIs overview</span></span>](api-overview.md)
+- [<span data-ttu-id="f4779-166">Доступ к API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f4779-166">Access the Microsoft 365 Defender APIs</span></span>](api-access.md)
+- [<span data-ttu-id="f4779-167">Создание приложения для доступа к Microsoft 365 Defender без пользователя</span><span class="sxs-lookup"><span data-stu-id="f4779-167">Create an app to access Microsoft 365 Defender without a user</span></span>](api-create-app-web.md)
+- [<span data-ttu-id="f4779-168">Создание приложения для доступа к API Microsoft 365 Defender от имени пользователя</span><span class="sxs-lookup"><span data-stu-id="f4779-168">Create an app to access Microsoft 365 Defender APIs on behalf of a user</span></span>](api-create-app-user-context.md)
+- [<span data-ttu-id="f4779-169">Создание приложения с мультиязычным доступом партнеров к API Защитника Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="f4779-169">Create an app with multi-tenant partner access to Microsoft 365 Defender APIs</span></span>](api-partner-access.md)
+- [<span data-ttu-id="f4779-170">Управление секретами в серверных приложениях с помощью Azure Key Vault</span><span class="sxs-lookup"><span data-stu-id="f4779-170">Manage secrets in your server apps with Azure Key Vault</span></span>](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+- [<span data-ttu-id="f4779-171">Авторизация OAuth 2.0 для доступа пользователя к API и входу в нее</span><span class="sxs-lookup"><span data-stu-id="f4779-171">OAuth 2.0 Authorization for user sign in and API access</span></span>](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

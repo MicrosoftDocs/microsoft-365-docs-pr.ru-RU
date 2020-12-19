@@ -1,7 +1,7 @@
 ---
-title: Расширенные API поисковых интерфейсов
-description: Узнайте, как запускать расширенные запросы на поиск с помощью API защитника Microsoft 365.
-keywords: Расширенный поиск, API, API, MTP
+title: API расширенных поисков в Защитнике Microsoft 365
+description: Узнайте, как запускать запросы на расширенный поиск с помощью API advanced hunting в Microsoft 365 Defender
+keywords: Расширенный поиск, API, API, MTP, Защитник M365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,78 +19,89 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c43d263009578af6280ffdc780ab0f9a174a3b97
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e7cd9192ec25e01ed06b77cb2b39357cb9df79bd
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844036"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719384"
 ---
-# <a name="advanced-hunting-apis"></a><span data-ttu-id="f2e86-104">Расширенные API поисковых интерфейсов</span><span class="sxs-lookup"><span data-stu-id="f2e86-104">Advanced hunting APIs</span></span>
+# <a name="microsoft-365-defender-advanced-hunting-api"></a><span data-ttu-id="5f349-104">Microsoft 365 Defender Advanced hunting API</span><span class="sxs-lookup"><span data-stu-id="5f349-104">Microsoft 365 Defender Advanced hunting API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+<span data-ttu-id="5f349-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="5f349-105">**Applies to:**</span></span>
 
-<span data-ttu-id="f2e86-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="f2e86-105">**Applies to:**</span></span>
-- <span data-ttu-id="f2e86-106">Защитник Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="f2e86-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="5f349-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="5f349-106">Microsoft Threat Protection</span></span>
 
->[!IMPORTANT] 
-><span data-ttu-id="f2e86-107">Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска.</span><span class="sxs-lookup"><span data-stu-id="f2e86-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="f2e86-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="f2e86-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="5f349-107">Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска.</span><span class="sxs-lookup"><span data-stu-id="5f349-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="5f349-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="5f349-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
 
-## <a name="limitations"></a><span data-ttu-id="f2e86-109">Ограничения</span><span class="sxs-lookup"><span data-stu-id="f2e86-109">Limitations</span></span>
-1. <span data-ttu-id="f2e86-110">Запрос данных можно выполнить только за последние 30 дней.</span><span class="sxs-lookup"><span data-stu-id="f2e86-110">You can only run a query on data from the last 30 days.</span></span>
-2. <span data-ttu-id="f2e86-111">В результаты будет включено не более 100 000 строк.</span><span class="sxs-lookup"><span data-stu-id="f2e86-111">The results will include a maximum of 100,000 rows.</span></span>
-3. <span data-ttu-id="f2e86-112">Количество выполнений ограничено для каждого клиента: до 10 вызовов в минуту, 10 минут времени выполнения в час и 4 часа выполнения в день.</span><span class="sxs-lookup"><span data-stu-id="f2e86-112">The number of executions is limited per tenant: up to 10 calls per minute, 10 minutes of running time every hour and 4 hours of running time a day.</span></span>
-4. <span data-ttu-id="f2e86-113">Максимальное время выполнения одного запроса составляет 10 минут.</span><span class="sxs-lookup"><span data-stu-id="f2e86-113">The maximal execution time of a single request is 10 minutes.</span></span>
-5. <span data-ttu-id="f2e86-114">429 ответ будет представлять предельную квоту либо по количеству запросов, либо по ЦП.</span><span class="sxs-lookup"><span data-stu-id="f2e86-114">429 response will represent reaching quota limit either by number of requests or by CPU.</span></span> <span data-ttu-id="f2e86-115">Текст ответа 429 также будет указывать время до продления квоты.</span><span class="sxs-lookup"><span data-stu-id="f2e86-115">The 429 response body will also indicate the time until the quota is renewed.</span></span> 
+<span data-ttu-id="5f349-109">[Расширенный поиск](advanced-hunting-overview.md) — это средство [](advanced-hunting-query-language.md) охоты на угрозы, которое использует специально построенные запросы для изучения данных событий за последние 30 дней в Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="5f349-109">[Advanced hunting](advanced-hunting-overview.md) is a threat-hunting tool that uses [specially constructed queries](advanced-hunting-query-language.md) to examine the past 30 days of event data in Microsoft 365 Defender.</span></span> <span data-ttu-id="5f349-110">Вы можете использовать расширенные поисковые запросы для проверки необычных действий, обнаружения возможных угроз и даже реагирования на атаки.</span><span class="sxs-lookup"><span data-stu-id="5f349-110">You can use advanced hunting queries to inspect unusual activity, detect possible threats, and even respond to attacks.</span></span> <span data-ttu-id="5f349-111">API расширенных запросов позволяет программным образом запрашивать данные событий.</span><span class="sxs-lookup"><span data-stu-id="5f349-111">The advanced hunting API allows you to programatically query event data.</span></span>
 
+## <a name="quotas-and-resource-allocation"></a><span data-ttu-id="5f349-112">Квоты и выделение ресурсов</span><span class="sxs-lookup"><span data-stu-id="5f349-112">Quotas and resource allocation</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="f2e86-116">Разрешения</span><span class="sxs-lookup"><span data-stu-id="f2e86-116">Permissions</span></span>
-<span data-ttu-id="f2e86-117">Для вызова этого API требуется одно из следующих разрешений.</span><span class="sxs-lookup"><span data-stu-id="f2e86-117">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="f2e86-118">Дополнительные сведения, в том числе выбор разрешений, приведены [в статье доступ к API защитника Microsoft 365](api-access.md)</span><span class="sxs-lookup"><span data-stu-id="f2e86-118">To learn more, including how to choose permissions, see [Access the Microsoft 365 Defender APIs](api-access.md)</span></span>
+<span data-ttu-id="5f349-113">Следующие условия относятся к всем запросам.</span><span class="sxs-lookup"><span data-stu-id="5f349-113">The following conditions relate to all queries.</span></span>
 
-<span data-ttu-id="f2e86-119">Тип разрешения</span><span class="sxs-lookup"><span data-stu-id="f2e86-119">Permission type</span></span> |   <span data-ttu-id="f2e86-120">Разрешение</span><span class="sxs-lookup"><span data-stu-id="f2e86-120">Permission</span></span>  |   <span data-ttu-id="f2e86-121">Отображаемое имя разрешения</span><span class="sxs-lookup"><span data-stu-id="f2e86-121">Permission display name</span></span>
-:---|:---|:---
-<span data-ttu-id="f2e86-122">Для приложений</span><span class="sxs-lookup"><span data-stu-id="f2e86-122">Application</span></span> |   <span data-ttu-id="f2e86-123">Адванцедхунтинг. Read. ALL</span><span class="sxs-lookup"><span data-stu-id="f2e86-123">AdvancedHunting.Read.All</span></span> |  <span data-ttu-id="f2e86-124">"Выполнение расширенных запросов"</span><span class="sxs-lookup"><span data-stu-id="f2e86-124">'Run advanced queries'</span></span>
-<span data-ttu-id="f2e86-125">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="f2e86-125">Delegated (work or school account)</span></span> | <span data-ttu-id="f2e86-126">Адванцедхунтинг. Read</span><span class="sxs-lookup"><span data-stu-id="f2e86-126">AdvancedHunting.Read</span></span> | <span data-ttu-id="f2e86-127">"Выполнение расширенных запросов"</span><span class="sxs-lookup"><span data-stu-id="f2e86-127">'Run advanced queries'</span></span>
+1. <span data-ttu-id="5f349-114">Запросы изучают и возвращают данные за последние 30 дней.</span><span class="sxs-lookup"><span data-stu-id="5f349-114">Queries explore and return data from the past 30 days.</span></span>
+2. <span data-ttu-id="5f349-115">Результаты могут возвращать до 100 000 строк.</span><span class="sxs-lookup"><span data-stu-id="5f349-115">Results can return up to 100,000 rows.</span></span>
+3. <span data-ttu-id="5f349-116">Вы можете делать до 10 вызовов в минуту на клиента.</span><span class="sxs-lookup"><span data-stu-id="5f349-116">You can make up to 10 calls per minute per tenant.</span></span>
+4. <span data-ttu-id="5f349-117">У вас есть 10 минут времени работы в час на клиента.</span><span class="sxs-lookup"><span data-stu-id="5f349-117">You have 10 minutes of running time per hour per tenant.</span></span>
+5. <span data-ttu-id="5f349-118">Общее время работы клиента составляет четыре часа.</span><span class="sxs-lookup"><span data-stu-id="5f349-118">You have four total hours of running time day per tenant.</span></span>
+6. <span data-ttu-id="5f349-119">Если один запрос выполняется более 10 минут, время его времени и возвратит ошибку.</span><span class="sxs-lookup"><span data-stu-id="5f349-119">If a single request runs for more than 10 minutes, it will time out and return an error.</span></span>
+7. <span data-ttu-id="5f349-120">Код http-ответа указывает, что вы достигли квоты по количеству отправленных запросов или по выделению `429` времени работы.</span><span class="sxs-lookup"><span data-stu-id="5f349-120">A `429` HTTP response code indicates that you've reached a quota, either by number of requests sent, or by allotted running time.</span></span> <span data-ttu-id="5f349-121">Тело ответа будет включать время, пока квота не будет сброшена.</span><span class="sxs-lookup"><span data-stu-id="5f349-121">The response body will include the time until the quota you reached will be reset.</span></span>
+
+## <a name="permissions"></a><span data-ttu-id="5f349-122">Разрешения</span><span class="sxs-lookup"><span data-stu-id="5f349-122">Permissions</span></span>
+
+<span data-ttu-id="5f349-123">Для вызова API advanced hunting требуется одно из следующих разрешений.</span><span class="sxs-lookup"><span data-stu-id="5f349-123">One of the following permissions is required to call the advanced hunting API.</span></span> <span data-ttu-id="5f349-124">Дополнительные возможности, включая выбор разрешений, см. в API Access для Защиты От защитника [Microsoft 365](api-access.md)</span><span class="sxs-lookup"><span data-stu-id="5f349-124">To learn more, including how to choose permissions, see [Access the Microsoft 365 Defender Protection APIs](api-access.md)</span></span>
+
+<span data-ttu-id="5f349-125">Тип разрешения</span><span class="sxs-lookup"><span data-stu-id="5f349-125">Permission type</span></span> | <span data-ttu-id="5f349-126">Разрешение</span><span class="sxs-lookup"><span data-stu-id="5f349-126">Permission</span></span> | <span data-ttu-id="5f349-127">Отображаемая имя разрешения</span><span class="sxs-lookup"><span data-stu-id="5f349-127">Permission display name</span></span>
+-|-|-
+<span data-ttu-id="5f349-128">Приложение</span><span class="sxs-lookup"><span data-stu-id="5f349-128">Application</span></span> | <span data-ttu-id="5f349-129">AdvancedАting.Read.All</span><span class="sxs-lookup"><span data-stu-id="5f349-129">AdvancedHunting.Read.All</span></span> | <span data-ttu-id="5f349-130">Выполнение расширенных запросов</span><span class="sxs-lookup"><span data-stu-id="5f349-130">Run advanced queries</span></span>
+<span data-ttu-id="5f349-131">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="5f349-131">Delegated (work or school account)</span></span> | <span data-ttu-id="5f349-132">AdvancedАting.Read</span><span class="sxs-lookup"><span data-stu-id="5f349-132">AdvancedHunting.Read</span></span> | <span data-ttu-id="5f349-133">Выполнение расширенных запросов</span><span class="sxs-lookup"><span data-stu-id="5f349-133">Run advanced queries</span></span>
 
 >[!Note]
-> <span data-ttu-id="f2e86-128">При получении маркера с использованием учетных данных пользователя:</span><span class="sxs-lookup"><span data-stu-id="f2e86-128">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="f2e86-129">Пользователь должен иметь роль AD "View Data"</span><span class="sxs-lookup"><span data-stu-id="f2e86-129">The user needs to have 'View Data' AD role</span></span>
->- <span data-ttu-id="f2e86-130">Пользователь должен иметь доступ к устройству на основе параметров группы устройств.</span><span class="sxs-lookup"><span data-stu-id="f2e86-130">The user needs to have access to the device, based on device group settings.</span></span>
+> <span data-ttu-id="5f349-134">При получении маркера с использованием учетных данных пользователя:</span><span class="sxs-lookup"><span data-stu-id="5f349-134">When obtaining a token using user credentials:</span></span>
+>
+>- <span data-ttu-id="5f349-135">Пользователю требуется роль AD "Просмотр данных"</span><span class="sxs-lookup"><span data-stu-id="5f349-135">The user needs to have the 'View Data' AD role</span></span>
+>- <span data-ttu-id="5f349-136">Пользователь должен иметь доступ к устройству на основе параметров группы устройств.</span><span class="sxs-lookup"><span data-stu-id="5f349-136">The user needs to have access to the device, based on device group settings.</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="f2e86-131">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="f2e86-131">HTTP request</span></span>
-```
+## <a name="http-request"></a><span data-ttu-id="5f349-137">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="5f349-137">HTTP request</span></span>
+
+```HTTP
 POST https://api.security.microsoft.com/api/advancedhunting/run
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="f2e86-132">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="f2e86-132">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="5f349-138">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="5f349-138">Request headers</span></span>
 
-<span data-ttu-id="f2e86-133">Заголовок</span><span class="sxs-lookup"><span data-stu-id="f2e86-133">Header</span></span> | <span data-ttu-id="f2e86-134">Значение</span><span class="sxs-lookup"><span data-stu-id="f2e86-134">Value</span></span> 
-:---|:---
-<span data-ttu-id="f2e86-135">Авторизация</span><span class="sxs-lookup"><span data-stu-id="f2e86-135">Authorization</span></span> | <span data-ttu-id="f2e86-136">Bearer {Token}.</span><span class="sxs-lookup"><span data-stu-id="f2e86-136">Bearer {token}.</span></span> <span data-ttu-id="f2e86-137">**Обязательное поле**.</span><span class="sxs-lookup"><span data-stu-id="f2e86-137">**Required**.</span></span>
-<span data-ttu-id="f2e86-138">Content-Type</span><span class="sxs-lookup"><span data-stu-id="f2e86-138">Content-Type</span></span>    | <span data-ttu-id="f2e86-139">application/json</span><span class="sxs-lookup"><span data-stu-id="f2e86-139">application/json</span></span>
+<span data-ttu-id="5f349-139">Заголовок</span><span class="sxs-lookup"><span data-stu-id="5f349-139">Header</span></span> | <span data-ttu-id="5f349-140">Значение</span><span class="sxs-lookup"><span data-stu-id="5f349-140">Value</span></span>
+-|-
+<span data-ttu-id="5f349-141">Авторизация</span><span class="sxs-lookup"><span data-stu-id="5f349-141">Authorization</span></span> | <span data-ttu-id="5f349-142">Bearer {token} **Note: required**</span><span class="sxs-lookup"><span data-stu-id="5f349-142">Bearer {token} **Note: required**</span></span>
+<span data-ttu-id="5f349-143">Content-Type</span><span class="sxs-lookup"><span data-stu-id="5f349-143">Content-Type</span></span> | <span data-ttu-id="5f349-144">application/json</span><span class="sxs-lookup"><span data-stu-id="5f349-144">application/json</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="f2e86-140">Тело запроса</span><span class="sxs-lookup"><span data-stu-id="f2e86-140">Request body</span></span>
-<span data-ttu-id="f2e86-141">В теле запроса добавьте объект JSON со следующими параметрами:</span><span class="sxs-lookup"><span data-stu-id="f2e86-141">In the request body, supply a JSON object with the following parameters:</span></span>
+## <a name="request-body"></a><span data-ttu-id="5f349-145">Текст запроса</span><span class="sxs-lookup"><span data-stu-id="5f349-145">Request body</span></span>
 
-<span data-ttu-id="f2e86-142">Параметр</span><span class="sxs-lookup"><span data-stu-id="f2e86-142">Parameter</span></span> | <span data-ttu-id="f2e86-143">Тип</span><span class="sxs-lookup"><span data-stu-id="f2e86-143">Type</span></span>    | <span data-ttu-id="f2e86-144">Описание</span><span class="sxs-lookup"><span data-stu-id="f2e86-144">Description</span></span>
-:---|:---|:---
-<span data-ttu-id="f2e86-145">Запрос</span><span class="sxs-lookup"><span data-stu-id="f2e86-145">Query</span></span> | <span data-ttu-id="f2e86-146">Текст</span><span class="sxs-lookup"><span data-stu-id="f2e86-146">Text</span></span> |  <span data-ttu-id="f2e86-147">Выполняемый запрос.</span><span class="sxs-lookup"><span data-stu-id="f2e86-147">The query to run.</span></span> <span data-ttu-id="f2e86-148">**Обязательное поле**.</span><span class="sxs-lookup"><span data-stu-id="f2e86-148">**Required**.</span></span>
+<span data-ttu-id="5f349-146">В теле запроса укажу объект JSON со следующими параметрами:</span><span class="sxs-lookup"><span data-stu-id="5f349-146">In the request body, supply a JSON object with the following parameters:</span></span>
 
-## <a name="response"></a><span data-ttu-id="f2e86-149">Отклик</span><span class="sxs-lookup"><span data-stu-id="f2e86-149">Response</span></span>
-<span data-ttu-id="f2e86-150">В случае успешного выполнения этот метод возвращает 200 ОК и объект _куериреспонсе_ в тексте отклика.</span><span class="sxs-lookup"><span data-stu-id="f2e86-150">If successful, this method returns 200 OK, and _QueryResponse_ object in the response body.</span></span> <br><br>
+<span data-ttu-id="5f349-147">Параметр</span><span class="sxs-lookup"><span data-stu-id="5f349-147">Parameter</span></span> | <span data-ttu-id="5f349-148">Тип</span><span class="sxs-lookup"><span data-stu-id="5f349-148">Type</span></span> | <span data-ttu-id="5f349-149">Описание</span><span class="sxs-lookup"><span data-stu-id="5f349-149">Description</span></span>
+-|-|-
+<span data-ttu-id="5f349-150">Запрос</span><span class="sxs-lookup"><span data-stu-id="5f349-150">Query</span></span> | <span data-ttu-id="5f349-151">Текст</span><span class="sxs-lookup"><span data-stu-id="5f349-151">Text</span></span> | <span data-ttu-id="5f349-152">Запрос, который необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="5f349-152">The query to run.</span></span> <span data-ttu-id="5f349-153">**Примечание. обязательно**</span><span class="sxs-lookup"><span data-stu-id="5f349-153">**Note: required**</span></span>
 
-<span data-ttu-id="f2e86-151">Объект Response разделен на 3 части (свойств):</span><span class="sxs-lookup"><span data-stu-id="f2e86-151">The response object is divided to 3 parts (properties):</span></span><br>
-1) <span data-ttu-id="f2e86-152">```Stats``` — Статистика производительности запросов.</span><span class="sxs-lookup"><span data-stu-id="f2e86-152">```Stats``` - Query performance statistics.</span></span><br>
-2) <span data-ttu-id="f2e86-153">```Schema``` — Схема ответа, список пар Name-Type для каждого столбца.</span><span class="sxs-lookup"><span data-stu-id="f2e86-153">```Schema``` - The schema of the response, a list of Name-Type pairs for each column.</span></span> <br>
-3) <span data-ttu-id="f2e86-154">```Results``` — Список событий расширенного поискового элемента.</span><span class="sxs-lookup"><span data-stu-id="f2e86-154">```Results``` - A list of Advanced Hunting events.</span></span>
+## <a name="response"></a><span data-ttu-id="5f349-154">Отклик</span><span class="sxs-lookup"><span data-stu-id="5f349-154">Response</span></span>
 
-## <a name="example"></a><span data-ttu-id="f2e86-155">Пример</span><span class="sxs-lookup"><span data-stu-id="f2e86-155">Example</span></span>
+<span data-ttu-id="5f349-155">В случае успешного выполнения этот метод возвращает объект `200 OK` _QueryResponse_ в теле отклика.</span><span class="sxs-lookup"><span data-stu-id="5f349-155">If successful, this method will return `200 OK`, and a _QueryResponse_ object in the response body.</span></span>
 
-<span data-ttu-id="f2e86-156">Запрос</span><span class="sxs-lookup"><span data-stu-id="f2e86-156">Request</span></span>
+<span data-ttu-id="5f349-156">Объект ответа содержит три свойства верхнего уровня:</span><span class="sxs-lookup"><span data-stu-id="5f349-156">The response object contains three top-level properties:</span></span>
 
-<span data-ttu-id="f2e86-157">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="f2e86-157">Here is an example of the request.</span></span>
+1. <span data-ttu-id="5f349-157">Статистика — словарь статистики производительности запросов.</span><span class="sxs-lookup"><span data-stu-id="5f349-157">Stats - A dictionary of query performance statistics.</span></span>
+2. <span data-ttu-id="5f349-158">Схема — схема ответа, список Name-Type для каждого столбца.</span><span class="sxs-lookup"><span data-stu-id="5f349-158">Schema - The schema of the response, a list of Name-Type pairs for each column.</span></span>
+3. <span data-ttu-id="5f349-159">Результаты — список событий расширенных охоты.</span><span class="sxs-lookup"><span data-stu-id="5f349-159">Results - A list of advanced hunting events.</span></span>
 
+## <a name="example"></a><span data-ttu-id="5f349-160">Пример</span><span class="sxs-lookup"><span data-stu-id="5f349-160">Example</span></span>
+
+<span data-ttu-id="5f349-161">В следующем примере пользователь отправляет запрос ниже и получает объект ответа API, содержащий `Stats` , `Schema` и `Results` .</span><span class="sxs-lookup"><span data-stu-id="5f349-161">In the following example, a user sends the query below and receives an API response object containing `Stats`, `Schema`, and `Results`.</span></span>
+
+### <a name="query"></a><span data-ttu-id="5f349-162">Запрос</span><span class="sxs-lookup"><span data-stu-id="5f349-162">Query</span></span>
 
 ```json
 {
@@ -99,10 +110,7 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
 
 ```
 
-<span data-ttu-id="f2e86-158">Отклик</span><span class="sxs-lookup"><span data-stu-id="f2e86-158">Response</span></span>
-
-<span data-ttu-id="f2e86-159">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="f2e86-159">Here is an example of the response.</span></span>
-
+### <a name="response-object"></a><span data-ttu-id="5f349-163">Объект Response</span><span class="sxs-lookup"><span data-stu-id="5f349-163">Response object</span></span>
 
 ```json
 {
@@ -164,8 +172,11 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
         }
     ]
 }
-
 ```
 
-## <a name="related-topic"></a><span data-ttu-id="f2e86-160">Связанная тема</span><span class="sxs-lookup"><span data-stu-id="f2e86-160">Related topic</span></span>
-- [<span data-ttu-id="f2e86-161">Доступ к API-интерфейсам защитника Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="f2e86-161">Access the Microsoft 365 Defender APIs</span></span>](api-access.md)
+## <a name="related-articles"></a><span data-ttu-id="5f349-164">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="5f349-164">Related articles</span></span>
+
+- [<span data-ttu-id="5f349-165">Доступ к API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="5f349-165">Access the Microsoft 365 Defender APIs</span></span>](api-access.md)
+- [<span data-ttu-id="5f349-166">Узнайте об ограничениях API и лицензировании</span><span class="sxs-lookup"><span data-stu-id="5f349-166">Learn about API limits and licensing</span></span>](api-terms.md)
+- [<span data-ttu-id="5f349-167">Коды ошибок</span><span class="sxs-lookup"><span data-stu-id="5f349-167">Understand error codes</span></span>](api-error-codes.md)
+- [<span data-ttu-id="5f349-168">Обзор расширенной охоты на угрозы</span><span class="sxs-lookup"><span data-stu-id="5f349-168">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
