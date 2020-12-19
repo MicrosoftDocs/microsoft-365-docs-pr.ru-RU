@@ -3,45 +3,45 @@
   items:
     - name: Настройка
       items:
-        - name: Получение доступа к резервированиям
+        - name: Получение доступа к Bookings
           href: get-access.md
         - name: Ввод сведений о компании
           href: enter-business-information.md
         - name: Определение услуг
           href: define-service-offerings.md
-        - name: Добавление сотрудников в резервирования
+        - name: Добавление сотрудников в Bookings
           href: add-staff.md
-        - name: Планирование нерабочих и нерабочих часов
+        - name: Планирование нерабочих дней и отгулов
           href: schedule-closures-time-off-vacation.md
-        - name: Определение политик планирования
+        - name: Задание политик планирования
           href: set-scheduling-policies.md
         - name: Настройка и публикация страницы резервирования
           href: customize-booking-page.md
-        - name: Создание ручного резервирования
+        - name: Создание резервирования вручную
           href: create-a-manual-booking.md
-        - name: Планирование нерабочих и нерабочих часов
+        - name: Планирование нерабочих дней и отгулов
           href: schedule-closures-time-off-vacation.md
-        - name: Часы сотрудников
+        - name: Часы работы сотрудников
           href: employee-hours.md
-        - name: Добавление настраиваемых и обязательных вопросов на страницу "резервирование"
+        - name: Добавление обязательных и пользовательских вопросов на страницу резервирования
           href: add-questions.md
-        - name: Установка времени буфера
+        - name: Настройка буферного времени
           href: set-buffer-time.md
-        - name: Показатели и отслеживание активности
+        - name: Метрики и отслеживание действий
           href: metrics-and-activity-tracking.md
-        - name: Выбор языка и часового пояса
+        - name: Настройка языка и часового пояса
           href: set-language-time-zones.md
-    - name: Получение приложения для работы с книгами
+    - name: Получение приложения Bookings
       href: get-bookings-app.md
-    - name: Резервирование приложений и виртуальных посетителей в Microsoft Teams
+    - name: Приложение Bookings и виртуальные посещения в Microsoft Teams
       href: 'https://docs.microsoft.com/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
-    - name: Диаграмма сравнения — веб-приложение и приложение Teams
+    - name: 'Сравнительная диаграмма: веб-приложение и приложение Teams'
       href: comparison-chart.md
     - name: Удаление календаря резервирования
       href: delete-calendar.md
-    - name: Включение и отключение резервирований Майкрософт
+    - name: Включение и отключение Microsoft Bookings
       href: turn-bookings-on-or-off.md
-    - name: Сведения о отчетности для резервирований Майкрософт
+    - name: Сведения по отчетности для Microsoft Bookings
       href: reporting-info.md
-    - name: Часто задаваемые вопросы о Microsoft Books (FAQ)
+    - name: Часто задаваемые вопросы о Microsoft Bookings
       href: bookings-faq.md

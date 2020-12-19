@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Внедрение Microsoft Information Protection (MIP) для защиты конфиденциальной информации в любом расположении, где она находится или куда перемещается.
-ms.openlocfilehash: 59f57c920f2b753994f2335a6f2ed9ac5b7b77d1
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 2a1ec47ce888dc6d31868d65f9c4c113fa9b968c
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613091"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709511"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection в Microsoft 365
 
@@ -59,7 +59,7 @@ ms.locfileid: "49613091"
 
 |Возможность|Устраняемая проблема|Начало работы|
 |:------|:------------|---------------------|:----------------------------|
-|[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для приложений, служб и устройств, предназначенное для добавления меток и защиты данных в процессе их перемещения внутри организации и за ее пределами <br /><br />Пример сценария: [Применение и просмотр меток конфиденциальности в Power BI и защита данных при экспорте](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|[Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
+|[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для приложений, служб и устройств, предназначенное для добавления меток и защиты данных в процессе их перемещения внутри организации и за ее пределами <br /><br />Пример сценария: [Применение и просмотр меток в Power BI и защита данных при сохранении за пределами службы](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|[Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
 |[Клиент унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Расширение применения меток конфиденциальности для дополнительных функций и возможностей на компьютерах Windows, включая добавление меток и защиту всех типов файлов из проводника и PowerShell<br /><br /> Примеры дополнительных возможностей: [Настраиваемые конфигурации для клиента унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Руководство администратора по клиенту унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
 |[Шифрование с двойным ключом](double-key-encryption.md)| В любых обстоятельствах только вы сможете расшифровать защищенное содержимое. В соответствии с нормативными требованиями может потребоваться хранить ключи шифрования в определенных географических границах | [Развертывание шифрования с двойным ключом](double-key-encryption.md#deploy-dke)|
 |[Шифрование сообщений Office 365 (OME)](ome.md)| Шифрование сообщений электронной почты и вложенных документов, отправленных любому пользователю на любое устройство, позволяющее только авторизованным получателям прочитать отправленную информацию  <br /><br />Пример сценария: [Отзыв электронных писем, зашифрованных с помощью расширенного шифрования сообщений](revoke-ome-encrypted-mail.md) | [Настройка новых возможностей шифрования сообщений](set-up-new-message-encryption-capabilities.md)|

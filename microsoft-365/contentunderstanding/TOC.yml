@@ -1,18 +1,18 @@
-- name: Сведения о Microsoft SharePoint Синтекс
+- name: Сведения о Microsoft SharePoint Syntex
   items:
-    - name: Общие сведения о SharePoint Syntex
+    - name: Введение в SharePoint Syntex
       href: index.md
-    - name: Общие сведения об осмыслении документации
+    - name: Обзор осмысления документации
       href: document-understanding-overview.md
-    - name: Общие сведения об обработке форм
+    - name: Обзор обработки форм
       href: form-processing-overview.md
-    - name: Различия между моделями осмысления документации и моделями обработки форм
+    - name: Различия между моделями осмысления документации и обработки форм
       href: difference-between-document-understanding-and-form-processing-model.md
 - name: Начало работы с моделями
   items:
-    - name: Сведения о моделях через пример модели
+    - name: Сведения о моделях на примере модели
       href: learn-about-document-understanding-models-through-the-sample-model.md
-    - name: Создание центра управления контентом
+    - name: Создание центра контента
       href: create-a-content-center.md
     - name: Создание классификатора
       href: create-a-classifier.md
@@ -30,9 +30,9 @@
       href: model-usage-analytics.md
     - name: Использование таксономии банка терминов при создании средства извлечения
       href: leverage-term-store-taxonomy.md
-- name: Внедрение
+- name: Принятие
   items:
-    - name: Приступая к внедрению
+    - name: Начало работы по принятию
       href: adoption-getstarted.md
 - name: Настройка и администрирование
   items:
@@ -40,11 +40,11 @@
       href: set-up-content-understanding.md
 - name: Службы контента
   items:
-    - name: Импорт с помощью скос
+    - name: Импорт с использованием SKOS
       href: import-term-set-skos.md
-    - name: Справка по форматированию скос
+    - name: Справочные материалы по форматированию SKOS
       href: skos-format-reference.md
-    - name: Передача типа контента в центр
+    - name: Отправка типов контента на центральный сайт
       href: push-content-type-to-hub.md
     - name: Отчеты банка терминов
       href: term-store-analytics.md
