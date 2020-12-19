@@ -1,7 +1,7 @@
 ---
-title: Доступ к API-интерфейсам защитника Microsoft 365
-description: Узнайте, как получить доступ к API защитника Microsoft 365
-keywords: доступ, API, контекст приложения, контекст пользователя, приложение AAD, маркер доступа
+title: Доступ к API Microsoft 365 Defender
+description: Узнайте, как получить доступ к API Microsoft 365 Defender
+keywords: доступ, API, контекст приложения, контекст пользователя, приложение aad, маркер доступа
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,63 +19,75 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bf7a6a70cefda7bfac83d42f8e8dd6355c479914
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5e01aaf2ee9255fd909b26278346fd4ccf54729a
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845024"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719242"
 ---
-# <a name="access-the-microsoft-365-defender-apis"></a>Доступ к API-интерфейсам защитника Microsoft 365
+# <a name="access-the-microsoft-365-defender-apis"></a>Доступ к API Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 **Область применения:**
-- Защитник Microsoft 365
 
->[!IMPORTANT] 
->Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+- Microsoft 365 Defender
 
+> [!IMPORTANT]
+> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
- Защитник Microsoft 365 предоставляет множество своих данных и действий через набор программных интерфейсов API. Эти API позволяют автоматизировать рабочие процессы и внедрять их на основе возможностей защитника Microsoft 365. Для доступа к API требуется проверка подлинности OAuth 2.0. Для получения дополнительных сведений см [код авторизации OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+Защитник Microsoft 365 предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогают автоматизировать процессы и в полной мере использовать возможности Защитника Microsoft 365.
 
+В общем, для использования API необходимо сделать следующее:
 
-В общем случае необходимо выполнить следующие действия, чтобы использовать API:
-- Создание приложения AAD
+- Создание приложения Azure Active Directory
 - Получение маркера доступа с помощью этого приложения
-- Использование маркера для доступа к API защитника Microsoft 365
+- Использование маркера для доступа к API Защитника Microsoft 365
 
+> [!NOTE]
+> Для доступа к API требуется проверка подлинности OAuth2.0. Дополнительные сведения см. в потоке кода авторизации [OAuth 2.0.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
-Вы можете получить доступ к API защитника Microsoft 365 с **контекстом приложения** или **контекстом пользователя**.
+После выполнения этих действий вы можете получить доступ к API Защитника Microsoft 365 с использованием определенного контекста.
 
-- **Контекст приложения: (рекомендуется)** <br>
-    Используется приложениями, которые запускаются без наличия вошедшего пользователя. Например, приложения, запускаемые как фоновые службы или управляющие программы.
+## <a name="application-context-recommended"></a>Контекст приложения (рекомендуется)
 
-    Действия, которые необходимо предпринять для доступа к API защитника Microsoft 365 с контекстом приложения:
+Используйте этот контекст для приложений, которые работают без выписаного пользователя, например фоновых служб или мям.
 
-  1. Создайте веб-приложение AAD.
-  2. Назначьте нужное разрешение для примера Аппликатионфор, " **инцидент. Read. ALL** ", **адванцедхунтинг. Read. ALL**. 
-  3. Создайте ключ для этого приложения.
-  4. Получение маркера с помощью приложения с ключом.
-  5. Использование маркера для доступа к API защитника Microsoft 365
+1. Создайте веб-приложение Azure Active Directory.
+2. Назначьте приложению нужные разрешения.
+3. Создайте ключ для приложения.
+4. Получение маркера безопасности с помощью приложения и его ключа.
+5. Используйте маркер для доступа к API Защитника Microsoft 365.
 
-     Дополнительные сведения приведены в разделе [Get Access with context](api-create-app-web.md).
+Дополнительные сведения см. в **[теме "Создание приложения для доступа к Защитнику Microsoft 365 без пользователя".](api-create-app-web.md)**
 
+## <a name="user-context"></a>Контекст пользователя
 
-- **Контекст пользователя:** <br>
-    Используется для выполнения действий в API от имени пользователя.
+Используйте этот контекст для выполнения действий от имени одного пользователя.
 
-    Действия, которые необходимо предпринять для доступа к API защитника Microsoft 365 с контекстом приложения:
-  1. Создание собственного приложения AAD.
-  2. Назначьте нужное разрешение приложению. Например, " **происшествия. чтение** ", " **адванцедхунтинг. Read** ".
-  3. Получение маркера с помощью приложения с учетными данными пользователя.
-  4. Использование маркера для доступа к API защитника Microsoft 365
+1. Создание нативного приложения Azure Active Directory.
+2. Назначьте приложению нужное разрешение.
+3. Получение маркера безопасности с использованием учетных данных пользователя для приложения.
+4. Используйте маркер для доступа к API Защитника Microsoft 365.
 
-     Дополнительные сведения можно найти [в разделе Получение доступа с помощью контекста пользователя](api-create-app-user-context.md).
+Дополнительные сведения см. в записи "Создание приложения для доступа к API Защитника **[Microsoft 365 от имени пользователя".](api-create-app-user-context.md)**
 
+## <a name="partner-context"></a>Контекст партнера
 
-## <a name="related-topics"></a>Статьи по теме
-- [API-интерфейсы защитника Microsoft 365](api-supported.md)
-- [Доступ к защитнику Microsoft 365 с контекстом приложения](api-create-app-web.md)
-- [Доступ к защитнику Microsoft 365 с контекстом пользователя](api-create-app-user-context.md)
+Используйте этот контекст, если вам нужно предоставить приложение множеству пользователей в [нескольких клиентах.](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps)
+
+1. Создайте мультиантивное приложение Azure Active Directory.
+2. Назначьте приложению нужное разрешение.
+3. Получите [согласие администратора](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) для приложения от каждого клиента.
+4. Получите маркер безопасности, используя учетные данные пользователя на основе ИД клиента.
+5. Используйте маркер для доступа к API Защитника Microsoft 365.
+
+Дополнительные сведения см. в записи "Создание приложения с партнерским **[доступом к API Защитника Microsoft 365".](api-partner-access.md)**
+
+## <a name="related-articles"></a>Статьи по теме
+
+- [Обзор API Microsoft 365 Defender](api-overview.md)
+- [Авторизация OAuth 2.0 для доступа пользователя к API и входу в нее](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+- [Управление секретами в серверных приложениях с помощью Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+- [Создание приложения "Hello world", которое имеет доступ к API Microsoft 365](api-hello-world.md)

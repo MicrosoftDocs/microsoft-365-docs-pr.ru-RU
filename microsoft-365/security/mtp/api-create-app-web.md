@@ -1,6 +1,6 @@
 ---
-title: Создание приложения для доступа к защитнику Microsoft 365 без пользователя
-description: Узнайте, как создать приложение для доступа к защитнику Microsoft 365 без пользователя
+title: Создание приложения для доступа к Защитнику Microsoft 365 без пользователя
+description: Узнайте, как создать приложение для доступа к Microsoft 365 Defender без пользователя.
 keywords: приложение, доступ, API, создание
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,165 +19,178 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 446db803cc47bfd519642928a4a0257c4b3d57c8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: de925fa52056a051592fe5024c0abd40b51ad57b
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846072"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719360"
 ---
-# <a name="create-an-app-to-access-microsoft-365-defender-without-a-user"></a>Создание приложения для доступа к защитнику Microsoft 365 без пользователя
+# <a name="create-an-app-to-access-microsoft-365-defender-without-a-user"></a>Создание приложения для доступа к Защитнику Microsoft 365 без пользователя
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 **Область применения:**
-- Защитник Microsoft 365
 
->[!IMPORTANT] 
->Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+- Microsoft 365 Defender
 
-На этой странице описано, как создать приложение для получения программного доступа к защитнику Microsoft 365 без пользователя. Если вам необходим программный доступ к защитнику Microsoft 365 от имени пользователя, обратитесь [к разделу Получение доступа с помощью контекста пользователя](api-create-app-user-context.md). Если вы не знаете, какой необходим доступ, ознакомьтесь со [статьей начало работы](api-access.md).
+> [!IMPORTANT]
+> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-Защитник Microsoft 365 предоставляет множество своих данных и действий через набор программных интерфейсов API. Эти API помогут вам автоматизировать рабочие процессы и внедрять их на основе возможностей защитника Microsoft 365. Для доступа к API требуется проверка подлинности OAuth 2.0. Для получения дополнительных сведений см [код авторизации OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+На этой странице описывается создание приложения для получения программного доступа к Microsoft 365 Defender без определенного пользователя, например, если вы создаете программу или фоновую службу.
 
-В общем случае необходимо выполнить следующие действия, чтобы использовать API:
+Если вам нужен программный доступ к Защитнику Microsoft 365 от имени одного или более пользователей, см. статью "Создание приложения для доступа к API Microsoft [365 Defender](api-create-app-user-context.md) от имени пользователя" и создание приложения с партнерским доступом к API [Microsoft 365 Defender.](api-partner-access.md) Если вы не знаете, какой тип доступа вам нужен, см. ["Начало работы".](api-access.md)
+
+Защитник Microsoft 365 предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогают автоматизировать процессы и использовать возможности Защитника Microsoft 365. Для доступа к этому API требуется проверка подлинности OAuth2.0. Дополнительные сведения см. в потоке кода авторизации [OAuth 2.0.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+
+Как правило, для использования этих API необходимо сделать следующее:
+
 - Создайте приложение Azure Active Directory (Azure AD).
 - Получение маркера доступа с помощью этого приложения.
-- Используйте маркер для доступа к API защитника Microsoft 365.
+- Используйте маркер для доступа к API Защитника Microsoft 365.
 
-В этой статье объясняется, как создать приложение Azure AD, получить маркер доступа для защитника Microsoft 365 и проверить маркер.
+В этой статье объясняется, как:
 
-## <a name="create-an-app"></a>Создание приложения
+- Создание приложения Azure AD
+- Получите маркер доступа к Защитнику Microsoft 365
+- Проверка маркера.
 
-1. Войдите в [Azure](https://portal.azure.com) с помощью пользователя с ролью **глобального администратора** .
+## <a name="create-an-app"></a>Создать приложение
 
-2. Перейдите к разделу Регистрация приложений **Azure Active Directory** с  >  **App registrations**  >  **новой регистрацией**. 
+1. Во sign in to [Azure](https://portal.azure.com) as a user with the **Global Administrator** role.
 
-   ![Изображение Microsoft Azure и переход к регистрации приложения](../../media/atp-azure-new-app2.png)
+2. Перейдите к регистрации нового приложения **Azure Active Directory.**  >    >  
 
-3. В форме регистрации выберите имя приложения и нажмите кнопку **зарегистрировать**.
+   ![Изображение Microsoft Azure и переход к регистрации приложений](../../media/atp-azure-new-app2.png)
 
-4. Чтобы разрешить приложению доступ к защитнику Microsoft 365 и назначить ему разрешения, на странице приложения выберите **разрешения API**  >  **добавления разрешений**  >  **интерфейсы API** , которые использует >, введите **Microsoft 365 защитник** , а затем выберите **защитник Microsoft 365**.
+3. В форме выберите имя приложения, а затем выберите **"Регистрация".**
 
-   > [!NOTE]
-   > Защитник Microsoft 365 не отображается в исходном списке. Чтобы отобразить его имя, необходимо сначала начать его ввод в текстовое поле.
+4. На странице приложения выберите API "Разрешения для добавления разрешений" **API,** которые моя организация использует >, введите "Защита от угроз (Майкрософт)" и выберите "Защита от  >    >   **угроз (Майкрософт)".**  Теперь ваше приложение может получить доступ к Microsoft 365 Defender.
 
-   ![Изображение доступа к API и выбора API](../../media/apis-in-my-org-tab.PNG)
+   > [!TIP]
+   > *Защита от угроз (Майкрософт)* — это прежнее имя Защитника Microsoft 365, которое не будет отображаться в исходном списке. Чтобы увидеть, как оно появляется, необходимо начать писать его имя в текстовом поле.
 
-   - Выберите **разрешения приложений** > выберите соответствующие разрешения для вашего сценария, например, " **инцидент. Read. ALL** ", а затем выберите **Добавить разрешения**.
+   ![Изображение выбора разрешений API](../../media/apis-in-my-org-tab.PNG)
+
+5. Выберите **разрешения для приложений.** Выберите соответствующие разрешения для сценария (например, **Incident.Read.All),** а затем выберите **"Добавить разрешения".**
 
    ![Изображение доступа к API и выбора API](../../media/request-api-permissions.PNG)
 
-    >[!NOTE]
-    >Необходимо выбрать соответствующие разрешения для вашего сценария, например, **"читать все инциденты"** — только пример. Чтобы определить, какое разрешение необходимо, просмотрите раздел **разрешения** в API, который вы хотите вызвать.
-
-5. Выберите **согласие Grant**.
-
-     > [!NOTE]
-     > Каждый раз, когда вы добавляете разрешение, необходимо выбрать разрешение **Grant Grant** , чтобы новое разрешение вступило в силу.
-
-    ![Изображение разрешений GRANT](../../media/grant-consent.PNG)
-
-6. Чтобы добавить секрет в приложение, выберите **сертификаты & секреты** , добавьте описание к секрету, а затем нажмите кнопку **Добавить**.
-
     > [!NOTE]
-    > После того как вы нажмите кнопку **Добавить** , выберите **Копировать созданное секретное значение**. После выхода вы не сможете получить это значение.
+    > Необходимо выбрать соответствующие разрешения для сценария. *Прочитать все инциденты* можно только в качестве примера. Чтобы определить необходимые разрешения, обратитесь к разделу **"Разрешения"** в API, который требуется вызвать.
+    >
+    > Например, чтобы выполнить [расширенные запросы,](api-advanced-hunting.md)выберите разрешение "Выполнение расширенных запросов"; чтобы [изолировать устройство,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/isolate-machine)выберите разрешение "Изолировать компьютер".
 
-    ![Изображение ключа "создать приложение"](../../media/webapp-create-key2.png)
+6. Выберите **"Предоставить согласие администратора".** При каждом добавлении разрешения  необходимо выбрать разрешение администратора, чтобы оно вступает в силу.
 
-7. Запишите идентификатор своего приложения и идентификатор клиента. На странице приложения перейдите в раздел **Overview (обзор** ) и скопируйте приведенный ниже пример.
+    ![Изображение разрешения на предоставление](../../media/grant-consent.PNG)
 
-   ![Изображение идентификатора созданного приложения](../../media/app-and-tenant-ids.png)
+7. Чтобы добавить секрет в приложение, выберите "& **сертификаты",** добавьте описание в секрет, а затем выберите **"Добавить".**
 
-8. **Только для партнеров защитника Microsoft 365**. [Следуйте инструкциям в этой статье](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access). Настройте приложение для нескольких клиентов (доступно во всех клиентах после согласия). Это **необходимо** для сторонних приложений (например, при создании приложения, предназначенного для запуска в клиенте с несколькими клиентами). Это **не требуется** , если вы создаете службу, которую нужно запустить только в своем клиенте (например, если вы создаете приложение для собственного использования, которое будет работать только с собственными данными). Чтобы настроить приложение для поддержки нескольких клиентов:
+    > [!TIP]
+    > После выбора **"Добавить"** выберите **"Скопировать сгенерированную секретную копию".** После этого вы не сможете получить значение секрета.
 
-    - Перейдите к разделу **Проверка подлинности** и добавьте в https://portal.azure.com качестве **URI перенаправления**.
+    ![Изображение создания ключа приложения](../../media/webapp-create-key2.png)
 
-    - В нижней части страницы в разделе **Поддерживаемые типы учетных записей** выберите **учетные записи в любом** согласии приложения каталога организации для приложения с несколькими клиентами.
+8. Зафиксировать свой ИД приложения и ид клиента в надежном месте. Они перечислены в списке **"Обзор"** на странице приложения.
 
-    Приложение должно быть утверждено в каждом клиенте, где вы планируете его использовать. Это связано с тем, что ваше приложение взаимодействует с защитником Microsoft 365 от имени вашего клиента.
+   ![Изображение созданного ид приложения](../../media/app-and-tenant-ids.png)
 
-    Вы (или ваш клиент, если вы пишете стороннее приложение), должны выбрать ссылку согласие и одобрить ваше приложение. Разрешение следует выполнять у пользователя с правами администратора в Active Directory.
+9. Только для партнеров Microsoft **365 Defender:** следуйте этим инструкциям для доступа партнеров через API Microsoft 365 Defender, задайте для вашего приложения мультиантивное, чтобы оно было доступно всем арендаторам после получения согласия администратора. [](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access) Для приложений **сторонних** разработчиков необходим доступ партнеров, например, если вы создаете приложение, предназначенное для работы в клиентах нескольких клиентов. Это не **требуется,** если вы создаете службу, которую вы хотите запускать только в клиенте, например приложение для собственного использования, которое будет взаимодействовать только с вашими данными. Чтобы сделать приложение мультиантивным, с помощью:
 
-    Ссылка на согласие выглядит следующим образом: 
+    - Перейдите **к проверке подлинности** и добавьте https://portal.azure.com в качестве **URI перенаправления.**
 
+    - В нижней части страницы в области "Поддерживаемые типы учетных записей" выберите "Учетные записи" в любом приложении каталога организации для мульти клиента. 
+
+    Так как ваше приложение взаимодействует с Microsoft 365 Defender от имени пользователей, оно должно быть утверждено для каждого клиента, в котором вы собираетесь его использовать.
+
+    Глобальный администратор Active Directory для каждого клиента должен выбрать ссылку на согласие и утвердить ваше приложение.
+
+    Ссылка согласия имеет следующую структуру:
+
+    ```http
+    https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=<00000000-0000-0000-0000-000000000000>&response_type=code&sso_reload=true
     ```
-    https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=00000000-0000-0000-0000-000000000000&response_type=code&sso_reload=true
-    ```
 
-    Где 00000000-0000-0000-0000-000000000000 заменяется ИДЕНТИФИКАТОРом приложения.
+    Цифры `00000000-0000-0000-0000-000000000000` следует заменить на ваш ИД приложения.  
 
-
-**Договорились!** Вы успешно зарегистрировали приложение! В примерах ниже показано, как для получения и проверки маркера.
+**Договорились!** Вы успешно зарегистрировали приложение! Примеры получения и проверки маркеров см. в примерах ниже.
 
 ## <a name="get-an-access-token"></a>Получение токена доступа
 
-Более подробную информацию о маркерах Azure AD можно узнать в [руководстве по Azure AD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).
+Дополнительные сведения о маркерах Azure Active Directory см. в руководстве [по Azure AD.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
-### <a name="use-powershell"></a>Воспользуйтесь PowerShell
+> [!IMPORTANT]
+> Несмотря на то что в примерах в этом разделе рекомендуется в  секрете в целях тестирования вовать секретные значения, никогда не следует жестко кодировать секреты в приложение, запущенное в производственной области. Третья сторона может использовать ваш секрет для доступа к ресурсам. Вы можете обеспечить безопасность секретов приложения с помощью [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Практический пример того, как можно защитить приложение, см. в под управлением секретов серверных приложений [с помощью Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 
-```
-# That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
-# Paste below your Tenant ID, App ID and App Secret (App key).
+### <a name="get-an-access-token-using-powershell"></a>Получить маркер доступа с помощью PowerShell
 
-$tenantId = '' ### Paste your tenant ID here
-$appId = '' ### Paste your Application ID here
-$appSecret = '' ### Paste your Application key here
+```PowerShell
+# This code gets the application context token and saves it to a file named "Latest-token.txt" under the current directory.
+
+$tenantId = '' # Paste your directory (tenant) ID here
+$clientId = '' # Paste your application (client) ID here
+$appSecret = '' # Paste your own app secret here to test, then store it in a safe place, such as the Azure Key Vault!
 
 $resourceAppIdUri = 'https://api.security.microsoft.com'
-$oAuthUri = "https://login.windows.net/$TenantId/oauth2/token"
+$oAuthUri = "https://login.windows.net/$tenantId/oauth2/token"
+
 $authBody = [Ordered] @{
-    resource = "$resourceAppIdUri"
-    client_id = "$appId"
-    client_secret = "$appSecret"
+    resource = $resourceAppIdUri
+    client_id = $clientId
+    client_secret = $appSecret
     grant_type = 'client_credentials'
 }
+
 $authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
 $token = $authResponse.access_token
+
 Out-File -FilePath "./Latest-token.txt" -InputObject $token
+
 return $token
 ```
 
-### <a name="use-c"></a>Используйте C#:
+### <a name="get-an-access-token-using-c"></a>Получить маркер доступа с помощью C\#
 
-Приведенный ниже код был протестирован с использованием NuGet Microsoft. IdentityModel. Clients. ActiveDirectory 3.19.8.
+> [!NOTE]
+> Следующий код был протестирован с помощью Nuget Microsoft.IdentityModel.Clients.ActiveDirectory 3.19.8.
 
 1. Создайте новое консольное приложение.
-1. Установите NuGet [Microsoft. IdentityModel. Clients. ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
-1. Добавьте следующие компоненты:
 
-    ```
+1. Установите NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory.](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)
+
+1. Добавьте следующую строку:
+
+    ```C#
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     ```
 
-1. Скопируйте и вставьте следующий код в свое приложение (не забудьте обновить три переменные: ```tenantId, appId, appSecret``` ):
+1. Скопируйте и вкопируйте в приложение следующий код (не забудьте обновить три переменные: `tenantId` `clientId` , , `appSecret` ):
 
-    ```
-    string tenantId = "00000000-0000-0000-0000-000000000000"; // Paste your own tenant ID here
-    string appId = "11111111-1111-1111-1111-111111111111"; // Paste your own app ID here
-    string appSecret = "22222222-2222-2222-2222-222222222222"; // Paste your own app secret here for a test, and then store it in a safe place! 
+    ```C#
+    string tenantId = ""; // Paste your directory (tenant) ID here
+    string clientId = ""; // Paste your application (client) ID here
+    string appSecret = ""; // Paste your own app secret here to test, then store it in a safe place, such as the Azure Key Vault!
 
     const string authority = "https://login.windows.net";
     const string wdatpResourceId = "https://api.security.microsoft.com";
 
     AuthenticationContext auth = new AuthenticationContext($"{authority}/{tenantId}/");
-    ClientCredential clientCredential = new ClientCredential(appId, appSecret);
+    ClientCredential clientCredential = new ClientCredential(clientId, appSecret);
     AuthenticationResult authenticationResult = auth.AcquireTokenAsync(wdatpResourceId, clientCredential).GetAwaiter().GetResult();
     string token = authenticationResult.AccessToken;
     ```
 
+### <a name="get-an-access-token-using-python"></a>Получить маркер доступа с помощью Python
 
-### <a name="use-python"></a>Использование Python 
-
-```
+```Python
 import json
 import urllib.request
 import urllib.parse
 
-tenantId = '00000000-0000-0000-0000-000000000000' # Paste your own tenant ID here
-appId = '11111111-1111-1111-1111-111111111111' # Paste your own app ID here
-appSecret = '22222222-2222-2222-2222-222222222222' # Paste your own app secret here
+tenantId = '' # Paste your directory (tenant) ID here
+clientId = '' # Paste your application (client) ID here
+appSecret = '' # Paste your own app secret here to test, then store it in a safe place, such as the Azure Key Vault!
 
 url = "https://login.windows.net/%s/oauth2/token" % (tenantId)
 
@@ -185,7 +198,7 @@ resourceAppIdUri = 'https://api.securitycenter.windows.com'
 
 body = {
     'resource' : resourceAppIdUri,
-    'client_id' : appId,
+    'client_id' : clientId,
     'client_secret' : appSecret,
     'grant_type' : 'client_credentials'
 }
@@ -197,59 +210,67 @@ response = urllib.request.urlopen(req)
 jsonResponse = json.loads(response.read())
 aadToken = jsonResponse["access_token"]
 ```
-### <a name="use-curl"></a>Использование фигурного скобки
+
+### <a name="get-an-access-token-using-curl"></a>Получить маркер доступа с помощью маркера доступа
 
 > [!NOTE]
-> В приведенной ниже процедуре предполагается, что на компьютере уже установлена функция "фигурное" для Windows.
+> Она предварительно установлена в Windows 10 версии 1803 и более поздних версий. Для других версий Windows скачайте и установите средство непосредственно с [официального веб-сайта в Интернете.](https://curl.haxx.se/windows/)
 
-1. Откройте командную строку и присвойте CLIENT_ID ИДЕНТИФИКАТОРу приложения Azure.
-1. Задайте для CLIENT_SECRET секрета приложения Azure.
-1. Присвойте TENANT_ID ИДЕНТИФИКАТОРу клиента Azure, который хочет использовать ваше приложение для доступа к защитнику Microsoft 365.
+1. Откройте командную подсказку и CLIENT_ID в качестве ИД приложения Azure.
+
+1. За CLIENT_SECRET в секрете приложения Azure.
+
+1. Задайте TENANT_ID в ИД клиента Azure, который хочет использовать ваше приложение для доступа к Защитнику Microsoft 365.
+
 1. Выполните следующую команду:
 
-```
-curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
-```
+   ```bash
+   curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
+   ```
 
-Вы получите ответ в следующей форме:
+   Успешный ответ будет выглядеть так:
 
-```
-{"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}
-```
+   ```bash
+   {"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}
+   ```
 
 ## <a name="validate-the-token"></a>Проверка маркера
 
-Убедитесь, что вы получили правильный маркер:
+1. Скопируйте и в paste маркер на веб-сайте проверки веб-маркеров [JSON, JWT,](https://jwt.ms) чтобы декодировать его.
 
-1. Скопируйте и вставьте маркер, полученный на предыдущем шаге, в [JWT](https://jwt.ms) , чтобы его можно было декодировать.
-1. Проверка наличия утверждения "роли" с нужными разрешениями
-1. На следующем рисунке показан Раскодированный маркер, полученный из приложения с ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` ```AdvancedHunting.Read.All``` разрешениями:
+1. Убедитесь, что *утверждение ролей* внутри раскодирования маркера содержит нужные разрешения.
 
-![Изображение проверки маркера](../../media/webapp-decoded-token.png)
+   На следующем изображении можно увидеть раскодный маркер, полученный из приложения, с `Incidents.Read.All` разрешениями `Incidents.ReadWrite.All` и `AdvancedHunting.Read.All` разрешениями:
 
-## <a name="use-the-token-to-access-microsoft-365-defender-api"></a>Использование маркера для доступа к API защитника Microsoft 365
+   ![Изображение проверки маркера](../../media/webapp-decoded-token.png)
 
-1. Выберите API, который хотите использовать. Дополнительные сведения см в разделе [Поддерживаемые API-интерфейсы защитника Microsoft 365](api-supported.md).
+## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>Использование маркера для доступа к API Защитника Microsoft 365
 
-2. Задайте заголовок Authorization в HTTP-запросе, отправляемом пользователю "Bearer {token}" (Bearer является схемой авторизации).
+1. Выберите нужный API (инциденты или расширенный поиск). Дополнительные сведения [см. в поддерживаемых API Microsoft 365 Defender.](api-supported.md)
 
-3. Срок действия маркера равен одному часу. Можно отправить больше одного запроса с одним и тем же маркером.
+2. В http-запросе, который вы будете отправлять, задайте для загона авторизации `"Bearer" <token>` *(Bearer)* схему авторизации, а маркер — ваш проверенный маркер. 
 
-Ниже приведен пример отправки запроса на получение списка инцидентов, **использующих C#** : 
+3. Срок действия маркера истекает в течение одного часа. За это время можно отправить несколько запросов с одним маркером.
 
-```
+В следующем примере показано, как отправить запрос, чтобы получить список инцидентов с **помощью C#**.
+
+```C#
     var httpClient = new HttpClient();
-
     var request = new HttpRequestMessage(HttpMethod.Get, "https://api.security.microsoft.com/api/incidents");
 
     request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
     var response = httpClient.SendAsync(request).GetAwaiter().GetResult();
-
-    // Do something useful with the response
 ```
 
-## <a name="related-topics"></a>Статьи по теме
-- [Доступ к API-интерфейсам защитника Microsoft 365](api-access.md)
-- [Доступ к защитнику Microsoft 365 с контекстом приложения](api-create-app-web.md)
-- [Доступ к защитнику Microsoft 365 с контекстом пользователя](api-create-app-user-context.md)
+## <a name="related-articles"></a>Статьи по теме
+
+- [Обзор API Microsoft 365 Defender](api-overview.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)
+- [Создание приложения "Hello world"](api-hello-world.md)
+- [Создание приложения для доступа к API Microsoft 365 Defender от имени пользователя](api-create-app-user-context.md)
+- [Создание приложения с мультиязычным доступом партнеров к API Защитника Microsoft 365](api-partner-access.md)
+- [Узнайте об ограничениях API и лицензировании](api-terms.md)
+- [Коды ошибок](api-error-codes.md)
+- [Управление секретами в серверных приложениях с помощью Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+- [Авторизация OAuth 2.0 для доступа к API и входу пользователя](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

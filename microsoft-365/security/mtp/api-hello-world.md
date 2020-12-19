@@ -1,7 +1,7 @@
 ---
-title: Hello World для REST API защитника Microsoft 365
-description: Узнайте, как создать приложение и использовать маркер для доступа к API-интерфейсам защитника Microsoft 365.
-keywords: приложение, маркер, доступ, AAD, App, регистрация приложений, PowerShell, сценарий, глобальный администратор, разрешение
+title: Hello World для REST API Защитника Microsoft 365
+description: Узнайте, как создать приложение и использовать маркер для доступа к API Microsoft 365 Defender
+keywords: приложение, маркер, доступ, aad, приложение, регистрация приложения, powershell, сценарий, глобальный администратор, разрешение, Защитник Microsoft 365
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,175 +19,162 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bd4f7e5485d67cf74477900ae2cc5c77f1a6ee41
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b36a6acca5880a455a66b03b5355cdf1fb85b29b
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844048"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719314"
 ---
-# <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Hello World для REST API защитника Microsoft 365 
+# <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Hello World для REST API Защитника Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 **Область применения:**
-- Защитник Microsoft 365
 
->[!IMPORTANT] 
->Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+- Microsoft 365 Defender
 
+> [!IMPORTANT]
+> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-## <a name="get-incidents-using-a-simple-powershell-script"></a>Получение инцидентов с помощью простого скрипта PowerShell
+## <a name="get-incidents-using-a-simple-powershell-script"></a>Получить инциденты с помощью простого сценария PowerShell
 
-### <a name="how-long-it-takes-to-go-through-this-example"></a>Сколько времени потребуется проделать через этот пример?
-Выполнение выполняется в течение 5 минут в два этапа:
-- Регистрация приложения
-- Примеры: требуется только копирование и вставка короткого скрипта PowerShell
+Этот проект должен занять от 5 до 10 минут. В этот раз оценка включает регистрацию приложения и применение кода из примера сценария PowerShell.
 
-### <a name="do-i-need-a-permission-to-connect"></a>Требуется ли разрешение на подключение?
-Для этапа регистрации приложений необходимо иметь роль **глобального администратора** в клиенте Azure Active Directory (Azure AD).
+### <a name="register-an-app-in-azure-active-directory"></a>Регистрация приложения в Azure Active Directory
 
-### <a name="step-1---create-an-app-in-azure-active-directory"></a>Шаг 1: создание приложения в Azure Active Directory
+1. Во sign in to [Azure](https://portal.azure.com) as a user with the **Global administrator** role.
 
-1. Войдите в [Azure](https://portal.azure.com) с помощью учетной записи **глобального администратора** .
+2. Перейдите к регистрации приложений **Azure Active Directory**  >  **— новая**  >  **регистрация.**
 
-2. Перейдите к разделу Регистрация приложений **Azure Active Directory** с  >  **App registrations**  >  **новой регистрацией**. 
+   ![Изображение Microsoft Azure и переход к регистрации приложений](../../media/atp-azure-new-app2.png)
 
-   ![Изображение Microsoft Azure и переход к регистрации приложения](../../media/atp-azure-new-app2.png)
+3. В форме регистрации выберите имя приложения, а затем выберите **"Регистрация".** Выбор URI перенаправления необязателен. Для выполнения этого примера он не потребуется.
 
-3. В форме регистрации выберите имя приложения и нажмите кнопку **зарегистрировать**.
+4. На странице приложения выберите "API Разрешения для добавления разрешений" **API,** которые моя организация использует >, введите "Защита от угроз (Майкрософт)" и выберите "Защита от  >    >   **угроз (Майкрософт)".**  Теперь ваше приложение может получить доступ к Microsoft 365 Defender.
 
-4. Разрешите приложению получить доступ к защитнику Майкрософт для конечной точки и назначить ему разрешение " **чтение всех происшествий** ":
+   > [!TIP]
+   > *Защита от угроз (Майкрософт)* — это прежнее имя Защитника Microsoft 365, которое не будет отображаться в исходном списке. Чтобы увидеть, как оно появляется, необходимо начать писать его имя в текстовом поле.
+   ![Изображение выбора разрешений API](../../media/apis-in-my-org-tab.PNG)
 
-   - На странице приложение выберите **разрешения API**  >  **Добавление разрешений**  >  **API "Моя организация использует** > введите **Microsoft 365 защитник** и выберите **защитник Microsoft 365**.
-
-   >[!NOTE]
-   >Защитник Microsoft 365 не отображается в исходном списке. Чтобы отобразить его имя, необходимо сначала начать его ввод в текстовое поле.
-
-   ![Изображение доступа к API и выбора API](../../media/apis-in-my-org-tab.PNG)
-
-   - Выберите **разрешения для приложений**  >  **происшествие инцидент. Read. ALL** > SELECT for **Permissions Permissions**
+   - Выберите **разрешения приложения**  >  **Incident.Read.All** и выберите **"Добавить разрешения".**
 
    ![Изображение доступа к API и выбора API](../../media/request-api-permissions.PNG)
 
-   >[!IMPORTANT]
-   >Необходимо выбрать соответствующие разрешения. 
+5. Выберите **"Предоставить согласие администратора".** При каждом добавлении разрешения  необходимо выбрать разрешение администратора, чтобы оно вступает в силу.
 
-     Например,
+    ![Изображение разрешения на предоставление](../../media/grant-consent.PNG)
 
-     - Чтобы определить, какое разрешение необходимо, просмотрите раздел **разрешения** в API, который вы хотите вызвать.
+6. Добавьте секрет в приложение. Select **Certificates & secrets,** add a description to the secret, then select **Add**.
 
-5. Выбор **предоставления согласия администратора**
+    > [!TIP]
+    > После выбора **"Добавить"** выберите **"Скопировать сгенерированную секретную копию".** После этого вы не сможете получить значение секрета.
 
-    - >[!NOTE]
-      > Каждый раз, когда вы добавляете разрешение, для вступления в силу нового разрешения необходимо выбрать разрешение на **предоставление** разрешения.
+    ![Изображение создания ключа приложения](../../media/webapp-create-key2.png)
 
-    ![Изображение разрешений GRANT](../../media/grant-consent.PNG)
+7. Зафиксировать свой ИД приложения и ид клиента в надежном месте. Они перечислены в **списке "Обзор"** на странице приложения.
 
-6. Добавьте секрет в приложение.
+   ![Изображение созданного ид приложения](../../media/app-and-tenant-ids.png)
 
-    - Выберите **сертификаты & секреты** , добавьте описание к секрету и нажмите кнопку **Добавить**.
+### <a name="get-a-token-using-the-app-and-use-the-token-to-access-the-api"></a>Получите маркер с помощью приложения и используйте его для доступа к API
 
-    >[!IMPORTANT]
-    > После нажатия кнопки **Добавить** **скопируйте созданное значение секрета**. Вы не сможете получить его после выхода из!
+Дополнительные сведения о маркерах Azure Active Directory см. в руководстве [по Azure AD.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
-    ![Изображение ключа "создать приложение"](../../media/webapp-create-key2.png)
+> [!IMPORTANT]
+> Несмотря на то, что в примере в этом демонстрационных приложениях  рекомендуется в целях тестирования в paste in your secret value, никогда не следует жестко кодировать секреты в приложение, запущенное в производственной версии. Третья сторона может использовать ваш секрет для доступа к ресурсам. Вы можете обеспечить безопасность секретов приложения с помощью [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Практический пример того, как можно защитить приложение, см. в под управлением секретов в серверных приложениях [с помощью Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 
-7. Запишите идентификатор своего приложения и идентификатор клиента:
+1. Скопируйте сценарий ниже и в paste его в избранный текстовый редактор. Сохраните как **Get-Token.ps1**. Вы также можете запустить код как есть в PowerShell ISE, но его следует сохранить, так как нам потребуется запустить его снова, когда мы будем использовать сценарий получения инцидентов в следующем разделе.
 
-   - На странице приложения перейдите в раздел **Overview (обзор** ) и скопируйте следующее:
+    Этот сценарий создает маркер и сохраняет его в рабочей папке под именем *Latest-token.txt.*
 
-   ![Изображение идентификатора созданного приложения](../../media/app-and-tenant-ids.png)
+    ```PowerShell
+    # This script gets the app context token and saves it to a file named "Latest-token.txt" under the current directory.
+    # Paste in your tenant ID, client ID and app secret (App key).
 
+    $tenantId = '' # Paste your directory (tenant) ID here
+    $clientId = '' # Paste your application (client) ID here
+    $appSecret = '' # # Paste your own app secret here to test, then store it in a safe place!
 
-Договорились! Вы успешно зарегистрировали приложение.
+    $resourceAppIdUri = 'https://api.security.microsoft.com'
+    $oAuthUri = "https://login.windows.net/$tenantId/oauth2/token"
+    $authBody = [Ordered] @{
+      resource = $resourceAppIdUri
+      client_id = $clientId
+      client_secret = $appSecret
+      grant_type = 'client_credentials'
+    }
+    $authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
+    $token = $authResponse.access_token
+    Out-File -FilePath "./Latest-token.txt" -InputObject $token
+    return $token
+    ```
 
-### <a name="step-2---get-a-token-using-the-app-and-use-this-token-to-access-the-api"></a>Шаг 2. Получите маркер с помощью приложения и используйте этот маркер для доступа к API.
+#### <a name="validate-the-token"></a>Проверка маркера
 
--   Скопируйте приведенный ниже скрипт в PowerShell ISE или в текстовый редактор и сохраните его как " **Get-Token.ps1** ".
--   При выполнении этого скрипта будет создан маркер, который будет сохранен в рабочей папке под именем " **Latest-token.txt** ".
+1. Скопируйте и в paste маркер, полученный в [JWT,](https://jwt.ms) чтобы декодировать его.
+1. *JWT* означает *веб-маркер JSON.* Раскодированный маркер будет содержать ряд элементов или утверждений в формате JSON. Убедитесь, что *утверждение ролей* внутри раскодирования маркера содержит нужные разрешения.
 
-```
-# That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
-# Paste below your Tenant ID, App ID and App Secret (App key).
+    На следующем изображении можно увидеть раскодный маркер, полученный из приложения, с ```Incidents.Read.All``` разрешениями ```Incidents.ReadWrite.All``` и ```AdvancedHunting.Read.All``` разрешениями:
 
-$tenantId = '' ### Paste your tenant ID here
-$appId = '' ### Paste your Application ID here
-$appSecret = '' ### Paste your Application secret here
+    ![Изображение jwt.ms](../../media/api-jwt-ms.png)
 
-$resourceAppIdUri = 'https://api.security.microsoft.com'
-$oAuthUri = "https://login.windows.net/$TenantId/oauth2/token"
-$authBody = [Ordered] @{
-    resource = "$resourceAppIdUri"
-    client_id = "$appId"
-    client_secret = "$appSecret"
-    grant_type = 'client_credentials'
-}
-$authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
-$token = $authResponse.access_token
-Out-File -FilePath "./Latest-token.txt" -InputObject $token
-return $token
-```
+### <a name="get-a-list-of-recent-incidents"></a>Получить список последних инцидентов
 
--   Проверка санити:<br>
-Запустите сценарий.<br>
-В браузере перейдите по адресу: https://jwt.ms/ <br>
-Скопируйте маркер (содержимое файла Latest-token.txt).<br>
-Вставьте в верхнее поле.<br>
-Найдите раздел "роли". Найдите ```Incidents.Read.All``` роль.<br>
-Ниже приведен пример из приложения с ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` ```AdvancedHunting.Read.All``` разрешениями и разрешениями.
+Сценарий ниже **будет** использоватьGet-Token.ps1для доступа к API. Затем он извлекает список инцидентов, которые были в последний раз обновлены в течение последних 48 часов, и сохраняет список в JSON-файле.
 
-![Jwt.ms изображений](../../media/api-jwt-ms.png)
+> [!IMPORTANT]
+> Сохраните этот сценарий в той же папке, в **Get-Token.ps1.**
 
-### <a name="lets-get-the-incidents"></a>Позволяет получить инциденты!
+```PowerShell
+# This script returns incidents last updated within the past 48 hours.
 
--   Приведенный ниже скрипт будет использовать **Get-Token.ps1** для доступа к API и будет получать последние обновленные происшествия за последние 48 часов.
--   Сохраните этот скрипт в той же папке, в которой вы сохранили предыдущий **Get-Token.ps1** сценария. 
--   Сценарий — файл JSON с данными в той же папке, что и скрипты.
+$token = ./Get-Token.ps1
 
-```
-# Returns Incidents last updated in the past 48 hours.
-
-$token = ./Get-Token.ps1       #run the script Get-Token.ps1  - make sure you are running this script from the same folder of Get-Token.ps1
-
-# Get Incidents from the last 48 hours. Make sure you have incidents in that time frame.
+# Get incidents from the past 48 hours.
+# The script may appear to fail if you don't have any incidents in that time frame.
 $dateTime = (Get-Date).ToUniversalTime().AddHours(-48).ToString("o")
 
-# The URL contains the type of query and the time filter we created above
+# This URL contains the type of query and the time filter we created above.
+# Note that `$filter` does not refer to a local variable in our script --
+# it's actually an OData operator and part of the API's syntax.
 $url = "https://api.security.microsoft.com/api/incidents?$filter=lastUpdateTime+ge+$dateTime"
 
-# Set the WebRequest headers
-$headers = @{ 
+# Set the webrequest headers
+$headers = @{
     'Content-Type' = 'application/json'
     'Accept' = 'application/json'
     'Authorization' = "Bearer $token"
 }
 
-# Send the webrequest and get the results. 
+# Send the request and get the results.
 $response = Invoke-WebRequest -Method Get -Uri $url -Headers $headers -ErrorAction Stop
 
-# Extract the incidents from the results. 
+# Extract the incidents from the results.
 $incidents =  ($response | ConvertFrom-Json).value | ConvertTo-Json -Depth 99
 
-# Get string with the execution time. We concatenate that string to the output file to avoid overwrite the file
-$dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}    
+# Get a string containing the execution time. We concatenate that string to the name 
+# of the output file to avoid overwriting the file on consecutive runs of the script.
+$dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}
 
 # Save the result as json
-$outputJsonPath = "./Latest Incidents $dateTimeForFileName.json"     
+$outputJsonPath = "./Latest Incidents $dateTimeForFileName.json"
 
-Out-File -FilePath $outputJsonPath -InputObject $incidents 
+Out-File -FilePath $outputJsonPath -InputObject $incidents
 ```
 
-Все готово. Вы только что успешно:
--   Создано, зарегистрировано и приложение
--   Разрешение на чтение оповещений для этого приложения
--   Подключен API
--   Использование скрипта PowerShell для возврата инцидентов, созданных за прошедшие 48 часов
+Все готово! Вы успешно выполнили:
 
+- Создано и зарегистрировано приложение.
+- Предоставлено разрешение для этого приложения на чтение оповещений.
+- Подключен к API.
+- Использовал сценарий PowerShell для возврата инцидентов, обновленных за последние 48 часов.
 
+## <a name="related-articles"></a>Статьи по теме
 
-## <a name="related-topic"></a>Связанная тема
-- [Доступ к API-интерфейсам защитника Microsoft 365](api-access.md)
-- [Доступ к защитнику Microsoft 365 с контекстом приложения](api-create-app-web.md)
-- [Доступ к защитнику Microsoft 365 с контекстом пользователя](api-create-app-user-context.md)
+- [Обзор API Microsoft 365 Defender](api-overview.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)
+- [Создание приложения для доступа к Microsoft 365 Defender без пользователя](api-create-app-web.md)
+- [Создание приложения для доступа к API Microsoft 365 Defender от имени пользователя](api-create-app-user-context.md)
+- [Создание приложения с мультиязычным доступом партнеров к API Защитника Microsoft 365](api-partner-access.md)
+- [Управление секретами в серверных приложениях с помощью Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+- [Авторизация OAuth 2.0 для доступа пользователя к API и входу в нее](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

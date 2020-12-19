@@ -1,6 +1,6 @@
 ---
-title: Лицензия и условия использования API-интерфейсов Защитника Microsoft 365
-description: Описание лицензии и условий использования API в защитнике Microsoft 365
+title: Лицензия и условия использования API Microsoft 365 Defender
+description: Описание лицензии и условий использования API в Microsoft 365 Defender
 keywords: API, API, лицензия, условия, API, юридические, уведомления, кодекс поведения
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,40 +19,60 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e88b59ea28f9e71c677c25d95edc2f91cc2e56d4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: d9b3c48e4b9e89ef7648086b05c9fdd9f078f51e
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844900"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719302"
 ---
-#  <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Лицензия и условия использования API-интерфейсов Защитника Microsoft 365
+# <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Лицензия и условия использования API Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
-- Защитник Microsoft 365
 
->[!IMPORTANT] 
->Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+- Microsoft 365 Defender
 
+> [!IMPORTANT]
+> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-## <a name="apis"></a>Интерфейсы API
+## <a name="official-terms"></a>Официальные термины
 
- API-интерфейсы защитника Microsoft 365 управляются [лицензионными условиями и условиями использования API Microsoft](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
-
-### <a name="throttling-limits"></a>Пределы регулирования
-
-У каждого API есть собственные ограничения на регулирование.<br>
-Ограничения на регулирование задаются по часам и по минутам.<br>
-Например, ограничения на регулирование для API происшествий: 50 вызовов в минуту и 1500 в час.<br>
-Код состояния ответа HTTP в случае регулирования будет 429.
-
+API Microsoft 365 Defender управляются лицензией на API Microsoft и [условиями использования.](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
 
 ## <a name="legal-notices"></a>Юридические уведомления
 
-Корпорация Майкрософт и другие участники предоставляют вам лицензию на документацию корпорации Майкрософт и другой контент в этом репозитории в международной общедоступной лицензии Creative Commons 4,0.
+Корпорация Майкрософт и все участники выдают вам лицензию на документацию Майкрософт и другой контент в этом репозитории в рамках международной открытой лицензии Creative Commons Attribution 4.0. [](https://github.com/MicrosoftDocs/microsoft-365-docs) Дополнительные сведения см. в [файле LICENSE.](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/LICENSE)
 
-Microsoft, Windows, Microsoft Azure и/или другие продукты и службы Майкрософт, указанные в документации, могут быть товарными знаками или зарегистрированными товарными знаками корпорации Майкрософт в США и других странах. Лицензии для этого проекта не предоставляют вам прав на использование любых названий, логотипов или торговых марок Майкрософт. Общие рекомендации по использованию товарных знаков Майкрософт можно найти по адресу https://go.microsoft.com/fwlink/?LinkID=254653 .
+Microsoft, Windows, Microsoft Azure и/или другие продукты и службы Майкрософт, на которые ссылается документация, могут быть товарными знаками или зарегистрированными товарными знаками Корпорации Майкрософт в США и/или других странах.
 
-Сведения о конфиденциальности можно найти в https://privacy.microsoft.com/en-us/ корпорации Майкрософт, а все участники Зарезервируйте свои права, независимо от того, являются ли они соответствующими авторскими правами, патентами или товарными знаками, будь то неоспариваемые или иным.
+Лицензии для этого проекта не предоставляет вам права на использование имен, логотипов или товарных знаков Майкрософт. Общие рекомендации по товарным знакам корпорации Майкрософт можно найти на сайте [Microsoft Trademarks.](https://go.microsoft.com/fwlink/?LinkID=254653)
+
+Сведения о конфиденциальности можно найти на [веб-сайте "Конфиденциальность" в Корпорации Майкрософт.](https://privacy.microsoft.com)
+
+Корпорация Майкрософт и любые участники резервировать все остальные права, в соответствии с соответствующими авторскими правами, патентами или товарными знаками, как по последствию, так и по-другому.
+
+## <a name="other-restrictions"></a>Другие ограничения
+
+API расширенных поисков [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api#limitations) имеет некоторые ограничения на количество возвращаемого результата и данных, которые можно запрошагов.
+
+1. Вы можете запрашивать данные только за последние 30 дней.
+1. Результаты включают не более 100 000 строк.
+
+### <a name="quotas-and-resource-allocation"></a>Квоты и выделение ресурсов
+
+API Microsoft 365 Defender имеют пороговые значения регулирования.
+
+- **API инцидентов:** до 50 вызовов в минуту или 1500 вызовов в час.
+- **API advanced Hunting**: до 15 вызовов в минуту, 10 минут времени работы в час и 4 часа работы в день.
+
+Код состояния http-ответа, указывающий на то, что регулирование имеет состояние `429` .
+
+Если ваш запрос был регулирование, в теле ответа будет указано время, когда вы можете снова начать делать запросы.
+
+## <a name="related-articles"></a>Статьи по теме
+
+- [Обзор API Microsoft 365 Defender](api-overview.md)
+- [Поддерживаемые API Microsoft 365 Defender](api-supported.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)

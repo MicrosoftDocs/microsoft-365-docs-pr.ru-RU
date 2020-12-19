@@ -1,7 +1,7 @@
 ---
-title: Поддерживаемые API-интерфейсы защитника Microsoft 365
-description: Поддерживаемые API-интерфейсы защитника Microsoft 365
-keywords: MTP, API, API
+title: Поддерживаемые API Microsoft 365 Defender
+description: Поддерживаемые API Microsoft 365 Defender
+keywords: MTP, API, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,41 +19,45 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b7c0accf2d649d4ad6177260294922ee17783f2c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: dbb7613dae3755b0fb794a3d68b5b424d765cc62
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844964"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719326"
 ---
-# <a name="supported-microsoft-365-defender-apis"></a>Поддерживаемые API-интерфейсы защитника Microsoft 365 
+# <a name="supported-microsoft-365-defender-apis"></a>Поддерживаемые API Microsoft 365 Defender 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
->[!IMPORTANT] 
->Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-
-### <a name="end-point-uris"></a>URI конечных точек:
-
-- Базовый URI службы: https://api.security.microsoft.com <br>
-
->[!NOTE]
->Для повышения производительности можно использовать сервер ближе к географическому расположению:
-> - api-us.security.microsoft.com
-> - api-eu.security.microsoft.com
-> - api-uk.security.microsoft.com
-
- - Ресурс для получения маркера должен быть следующим: https://api.security.microsoft.com
-
- - Все API в ```/api``` пути являются API OData. т. ```https://api.security.microsoft.com/api/incidents```
-
-## <a name="list-of-available-apis"></a>Список доступных API:
+## <a name="list-of-available-apis"></a>Список доступных API
 
 Статья | Описание
-:---|:---
-[Программный интерфейс расширенной охоты](api-advanced-hunting.md) | Выполнение расширенных запросов на поиск с API.
-[Программные интерфейсы, относящиеся к инцидентам](api-incident.md) | Запускать вызовы API, связанные с инцидентами, такие как: Список инцидентов, обновление инцидента и многое другое.
+-|-
+[Программный интерфейс расширенной охоты](api-advanced-hunting.md) | Выполнение запросов "Расширенный поиск".
+[Программные интерфейсы, относящиеся к инцидентам](api-incident.md) | Список и обновление инцидентов, а также другие практические задачи.
+
+### <a name="endpoint-uris"></a>IS конечных точек
+
+Базовый URI для обоих основных API: https://api.security.microsoft.com . Для улучшения производительности используйте сервер, ближе к географическому местонахождению:
+
+- США: api-us.security.microsoft.com
+- Европа: api-eu.security.microsoft.com
+- Соединенное Королевство: api-uk.security.microsoft.com
+
+Маркеры можно получить с помощью https://api.security.microsoft.com доступа.
+
+Все API на пути используют протокол `/api` [OData,](https://docs.microsoft.com/odata/overview) например https://api.security.microsoft.com/api/incidents .
+
+## <a name="related-articles"></a>Статьи по теме
+
+- [Обзор API Microsoft 365 Defender](api-overview.md)
+- [Доступ к API Защиты от угроз (Майкрософт)](api-access.md)
+- [Узнайте об ограничениях API и лицензировании](api-terms.md)
+- [Коды ошибок](api-error-codes.md)
