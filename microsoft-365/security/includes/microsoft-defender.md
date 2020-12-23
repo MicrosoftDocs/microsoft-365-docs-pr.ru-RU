@@ -1,17 +1,13 @@
 ---
+manager: dansimp
 ms.author: dansimp
 author: dansimp
-ms.service: microsoft-365-enterprise
+ms.prod: w10
 ms.topic: include
-ms.date: 09/21/2020
-f1.keywords:
-- NOCSH
-ms.openlocfilehash: e653e3086e803305a9cce82124ada5d93fb0753e
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 12313f998e2fe61c3c2c43e49715d7d886bb4f3b
+ms.sourcegitcommit: b390a17f1ce38ffa048e3eef40c1e0cadcb6d420
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906844"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49726282"
 ---
-> [!IMPORTANT]
-> <span data-ttu-id="2d1a0-101">Добро пожаловать в **Microsoft 365 Defender** — новое название **Защиты от угроз (Майкрософт)**.</span><span class="sxs-lookup"><span data-stu-id="2d1a0-101">Welcome to **Microsoft 365 Defender** , the new name for **Microsoft Threat Protection**.</span></span> <span data-ttu-id="2d1a0-102">Дополнительные сведения об этом и других обновлениях см. [здесь](https://www.microsoft.com/security/blog/?p=91813).</span><span class="sxs-lookup"><span data-stu-id="2d1a0-102">Read more about this and other updates [here](https://www.microsoft.com/security/blog/?p=91813).</span></span> 
