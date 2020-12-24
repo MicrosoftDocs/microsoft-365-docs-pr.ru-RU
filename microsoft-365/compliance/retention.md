@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: 9745a93139f591185e7457f5ba5c0b9b2fd56348
-ms.sourcegitcommit: 16e018f8b6eef5dad48eabf179691ead3cebe533
+ms.openlocfilehash: 8d50e03827026100689d9b380570fa59c93e6d08
+ms.sourcegitcommit: 5756896ad87e28fac20f7981eaaeacfb0c098254
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "49725180"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49730180"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
@@ -465,7 +465,7 @@ ms.locfileid: "49725180"
 - [Ограничения и спецификации для Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
 - [Вспомогательные ресурсы для соблюдения нормативных требований к управлению данными и записями](retention-regulatory-requirements.md)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="configuration-guidance"></a>Рекомендации по настройке
 
 Если вы готовы создать политики хранения, см. статью [Создание и настройка политик хранения](create-retention-policies.md).
 

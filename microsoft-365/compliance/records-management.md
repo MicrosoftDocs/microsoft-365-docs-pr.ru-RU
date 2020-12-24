@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: С помощью управления записями в Microsoft 365 вы можете применять графики хранения к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией.
-ms.openlocfilehash: 6648a3a671e40dd5218eba1a1e8bafe42120f0de
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+ms.openlocfilehash: 883fd65e3fba716018a1ed35cc457c2eb8f06c52
+ms.sourcegitcommit: 5756896ad87e28fac20f7981eaaeacfb0c098254
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830530"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49730170"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Сведения об управлении записями в Microsoft 365
 
@@ -109,7 +109,7 @@ ms.locfileid: "48830530"
 > 
 > В связи с необратимостью этих действий убедитесь, что вам действительно нужно использовать нормативные записи, прежде чем выбрать этот параметр для меток хранения. Чтобы предотвратить случайную настройку, этот параметр недоступен по умолчанию, его необходимо включить с помощью PowerShell. Инструкции содержатся в статье [Объявление записей с помощью меток хранения](declare-records.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="configuration-guidance"></a>Рекомендации по настройке
 
 См. статью [Начало работы с управлением записями](get-started-with-records-management.md).
 
