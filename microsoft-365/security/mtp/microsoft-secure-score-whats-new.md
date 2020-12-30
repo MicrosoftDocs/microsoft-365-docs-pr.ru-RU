@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 253e85da7bb85a0722831851f00051a50a96153e
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 61ac8c627dd701ac354a5d60d4774a6443b4d41e
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688415"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737991"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Новые возможности оценки безопасности (Майкрософт)
 
@@ -37,10 +37,10 @@ ms.locfileid: "49688415"
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 
-### <a name="added-6-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Добавлены 6 действий по улучшению, связанных с учетной записью, для Microsoft Defender для конечной точки (ранее ATP в Microsoft Defender):
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Добавлено шесть действий по улучшению, связанных с учетной записью, для Microsoft Defender для конечной точки (ранее ATP в Microsoft Defender):
 
 - Установите "Минимальная длина пароля" в 14 или более символов
-- Установите для "Принудительного применения истории паролей" "24 или более паролей".
+- Установите для "Принудительного применения истории паролей" (24 или более паролей)
 - Установите для "Максимального возраста пароля" значение "60 или меньше дней, но не 0"
 - Установите для "Минимального возраста пароля" (1 или более дней)
 - Отключение встроенной учетной записи администратора
@@ -52,7 +52,7 @@ ms.locfileid: "49688415"
 
 Возможность создавать билеты ServiceNow с помощью оценки безопасности с помощью share **> ServiceNow** больше недоступна. Благодарим вас за отзывы и поддержку, пока мы определяем дальнейшие действия.
 
-### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Добавлены три действия по улучшению, связанные со службами, для Microsoft Defender для конечной точки (ранее ATP в Microsoft Defender):
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Добавлены три действия по улучшению, связанные со службами, для Microsoft Defender для конечной точки (ранее ATP в Microsoft Defender):
 
 - Исправление unquoted service path for Windows services
 - Изменение пути исполняемого исполняемого пути службы к общей защищенной области
@@ -74,7 +74,7 @@ ms.locfileid: "49688415"
 
 В недавнем выпуске оценки безопасности (Майкрософт) была выпущена улучшенная модель показателей. Эти изменения позволяют более гибко и точно с точки зрения безопасности. Однако эти обновления временно несовместимы с оценкой безопасности удостоверений и API Graph.
 
-Со временем оценка безопасности удостоверений и API Graph будут переначерять новую модель показателей. До этого момента клиенты будут видеть различия в оценках, относяхся к оценке безопасности (Майкрософт), оценке безопасности удостоверений и API Graph. Мы приносим извинения за все неудобства, связанные с этим, и работаем над тем, чтобы обеспечить их совместимость в будущем.
+Со временем оценка безопасности удостоверений и API Graph будут принятия новой модели показателей. До этого момента клиенты будут видеть различия в оценках, относяхся к оценке безопасности (Майкрософт), оценке безопасности удостоверений и API Graph. Мы приносим извинения за все неудобства, связанные с этим, и работаем над обеспечением более совместимости этих приложений в будущем.
 
 ## <a name="updated-improvement-actions"></a>Обновленные действия по улучшению
 
@@ -85,7 +85,7 @@ ms.locfileid: "49688415"
 
 ## <a name="updated-interface-and-functionality"></a>Обновленный интерфейс и функциональные возможности
 
-* Все новые метрики и тенденции для обсуждений CISO и уровня ведущие
+* Все новые метрики и тенденции для обсуждений CISO и на уровне ведущими
 * Новые способы отслеживания и оценки показателей
 * Улучшение отслеживания и понимания регрессии показателей
 * Фильтрация, тег, поиск и группировка действий по улучшению
@@ -99,5 +99,5 @@ ms.locfileid: "49688415"
 ## <a name="related-resources"></a>Связанные ресурсы
 
 - [Оценка уровня безопасности](microsoft-secure-score-improvement-actions.md)
-- [Отслеживание истории оценки безопасности (Майкрософт) и обеспечение достижения целей](microsoft-secure-score-history-metrics-trends.md)
+- [Отслеживание истории оценки безопасности (Майкрософт) и достижения целей](microsoft-secure-score-history-metrics-trends.md)
 - [Что вскоре появится](microsoft-secure-score-whats-coming.md)
