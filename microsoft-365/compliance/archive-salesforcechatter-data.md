@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить соединители для импорта и архивации данных Salesforce Chatter из Globanet в Microsoft 365. Этот соединитатель позволяет архивировать данные из сторонних источников данных в Microsoft 365. После архива этих данных можно использовать такие функции соответствия требованиям, как удержание по юридическим основаниям, поиск контента и политики хранения для управления сторонними данными.
-ms.openlocfilehash: 60d86cd01ef8da3a02839d4a3f815be02dc1ee01
-ms.sourcegitcommit: a3215cc22faa47e935d22300c481e47ab2680b44
+ms.openlocfilehash: 518eb38756d86812a8b3d41e4bc2cd46d5a23386
+ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49723024"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "49740316"
 ---
-# <a name="set-up-a-connector-to-archive-salesforce-chatter-data-preview"></a>Настройка соединители для архивации данных Salesforce Chatter (предварительная версия)
+# <a name="set-up-a-connector-to-archive-salesforce-chatter-data"></a>Настройка соединитела для архивации данных Salesforce Chatter
 
 Используйте соединиталь Globanet в Центре соответствия требованиям Microsoft 365 для импорта и архивации данных с платформы Salesforce Chatter в почтовые ящики пользователей в организации Microsoft 365. Globanet предоставляет [соединители Salesforce Chatter,](http://globanet.com/chatter/) которые захватывают элементы из стороннего источника данных и импортируют их в Microsoft 365. Соединиталь преобразует содержимое, например чаты, вложения и публикации из Salesforce Chatter, в формат сообщений электронной почты, а затем импортирует эти элементы в почтовый ящик пользователя в Microsoft 365.
 
@@ -63,7 +63,7 @@ ms.locfileid: "49723024"
 
 ## <a name="step-2-configure-the-salesforce-chatter-on-the-globanet-merge1-site"></a>Шаг 2. Настройка Salesforce Chatter на сайте Globanet Merge1
 
-Второй шаг — настройка соединители Salesforce Chatter на сайте Globanet Merge1. Сведения о настройке соединители Salesforce Chatter см. в руководстве пользователя [Merge1 Third-Party Connectors.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20SalesForce%20Chatter%20User%20Guide%20.pdf)
+На втором этапе необходимо настроить соединители Salesforce Chatter на сайте Globanet Merge1. Сведения о настройке соединители Salesforce Chatter см. в руководстве пользователя [Merge1 Third-Party Connectors.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20SalesForce%20Chatter%20User%20Guide%20.pdf)
 
 После  **нажатия кнопки "Сохранить & Готово"** отображается страница сопоставления пользователей в мастере соединители в Центре соответствия требованиям Microsoft 365.
 
@@ -71,7 +71,7 @@ ms.locfileid: "49723024"
 
 Чтобы связать пользователей и завершить настройку соединители в Центре соответствия требованиям Microsoft 365, выполните следующие действия:
 
-1. На странице **"Сопоставление пользователей Salesforce Chatter с пользователями Microsoft 365"** включите автоматическое сопоставление пользователей. Элементы Salesforce Chatter содержат свойство *Email,* которое содержит адреса электронной почты для пользователей в вашей организации. Если соединители могут связать этот адрес с пользователем Microsoft 365, элементы будут импортироваться в почтовый ящик этого пользователя.
+1. На странице **"Сопоставление пользователей Salesforce Chatter с пользователями Microsoft 365"** включите автоматическое сопоставление пользователей. Элементы Salesforce Chatter содержат свойство *Email,* которое содержит адреса электронной почты для пользователей в организации. Если соединители могут связать этот адрес с пользователем Microsoft 365, элементы будут импортироваться в почтовый ящик этого пользователя.
 
 2. Нажмите **кнопку**"Далее", просмотрите  параметры и перейдите на страницу "Соединители данных", чтобы просмотреть ход процесса импорта нового соединитела.
 
@@ -81,7 +81,7 @@ ms.locfileid: "49723024"
 
 1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com/) and click **Data connectors** in the left nav.
 
-2. Перейдите **на вкладку** "Соединители", а затем щелкните соединиталь **Salesforce Chatter,** чтобы отобразить страницу с информацией о соединителе и свойствами.
+2. Перейдите **на вкладку** "Соединители", а затем щелкните соединителет **Salesforce Chatter,** чтобы отобразить на экране страницу с свойствами и сведениями о соединителе.
 
 3. В **состоянии соединители с источником** щелкните ссылку журнала загрузки, чтобы открыть (или сохранить) журнал состояния для соединитела.  Этот журнал содержит данные, импортируемые в облако Майкрософт.
 
