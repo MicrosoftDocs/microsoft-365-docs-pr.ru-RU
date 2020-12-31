@@ -589,7 +589,7 @@
           items:
             - name: Добавление хранителей в дело
               href: add-custodians-to-case.md
-            - name: Массовое добавление хранителей в дело
+            - name: Импорт нескольких хранителей в дело
               href: bulk-add-custodians.md
             - name: Управление хранителями
               href: manage-new-custodians.md
