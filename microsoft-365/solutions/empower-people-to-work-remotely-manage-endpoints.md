@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Используйте Microsoft Endpoint Manager для управления устройствами, компьютерами и другими конечными точками.
-ms.openlocfilehash: 291c1111bbfaf9a549c0d2ac22dab450a32a6a96
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: bca3e8e79264a2218dd1036e50be1c9ab29d2b8a
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845268"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749603"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Этап 4. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек
 
@@ -87,11 +87,11 @@ Windows Autopilot позволяет ИТ-отделам предварител�
 - [Способы регистрации различных типов устройств для управления мобильными устройствами](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Инструкции по использованию Microsoft Intune для конечных пользователей](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  
-## <a name="results-of-step-3"></a>Результаты этапа 3
+## <a name="results-of-step-4"></a>Результаты шага 4
 
 Вы используете набор функций и возможностей Endpoint Manager для управления мобильными устройствами, компьютерами, виртуальными машинами, встроенными устройствами и серверами.
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 [![Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников](../media/empower-people-to-work-remotely/remote-workers-step-grid-5.png)](empower-people-to-work-remotely-teams-productivity-apps.md)
 

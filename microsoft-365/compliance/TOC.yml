@@ -122,13 +122,13 @@
           href: what-the-dlp-functions-look-for.md
     - name: Обучаемые классификаторы
       items:
-        - name: Информация об обучаемых классификаторах (предварительная версия)
+        - name: Информация об обучаемых классификаторах
           href: classifier-learn-about.md
-        - name: Начало работы с обучаемыми классификаторами (предварительная версия)
+        - name: Начало работы с обучаемыми классификаторами
           href: classifier-get-started-with.md
-        - name: Повторное обучение классификаторов в соответствии с требованиями к связи (предварительная версия)
+        - name: Повторное обучение классификаторов в соответствии с требованиями к обмену данными
           href: classifier-how-to-retrain-comms-compliance.md
-        - name: Повторное обучение классификаторов в обозревателе содержимого (предварительная версия)
+        - name: Повторное обучение классификаторов в обозревателе содержимого
           href: classifier-how-to-retrain-content-explorer.md
     - name: Классификация данных
       items:
@@ -629,7 +629,7 @@
             - name: Запросы ключевых слов и условия поиска
               href: keyword-queries-and-search-conditions.md
             - name: Статистика поиска
-              href: search-statistics.md
+              href: search-statistics-in-advanced-ediscovery.md
             - name: Добавление результатов поиска в набор для проверки
               href: add-data-to-review-set.md
         - name: Управление наборами для проверки
@@ -792,83 +792,6 @@
               href: run-reports-in-advanced-ediscovery.md
     - name: Прекращение поддержки устаревших средств обнаружения электронных данных
       href: legacy-ediscovery-retirement.md
-- name: Управление исследованиями данных
-  items:
-    - name: Общие сведения об исследовании данных
-      href: overview-data-investigations.md
-    - name: Управление инцидентом утечки данных
-      href: manage-data-spillage-incidents.md
-    - name: Назначение разрешений для исследований данных
-      href: data-investigations-permissions.md
-    - name: Создание нового исследования
-      href: create-new-investigation.md
-    - name: Поиск данных в исследовании
-      href: search-for-data.md
-      items:
-        - name: Создание поисковых запросов
-          href: build-search-queries.md
-        - name: Статистика поиска
-          href: search-statistics.md
-    - name: Просмотр данных в свидетельстве
-      href: review-data-in-evidence.md
-      items:
-        - name: Запрос данных
-          href: evidence-query.md
-        - name: Метки для документов
-          href: tag-documents.md
-        - name: Заметки и внесение исправлений в документы
-          href: annotate-and-redact-documents.md
-        - name: Загрузка данных не из Office 365
-          href: load-non-office365-data.md
-        - name: Исправление ошибок при обработке данных
-          href: error-remediation.md
-        - name: Удаление элементов из исходного расположения
-          href: delete-items-from-original-locations.md
-    - name: Запуск аналитики для ускорения исследования
-      href: run-analytics-to-investigate-faster.md
-      items:
-        - name: Потоки почты
-          href: email-threading.md
-        - name: Обнаружение схожих документов (почти дубликатов)
-          href: near-duplicates.md
-        - name: Темы
-          href: themes.md
-        - name: Использование модуля релевантности
-          href: use-relevance-module.md
-    - name: 'Управление пользователями, заинтересованными в исследовании'
-      href: manage-people-of-interest.md
-      items:
-        - name: 'Индекс данных людей, участвующих в исследовании'
-          href: index-data-people-of-interest.md
-        - name: Просмотр аудита действий пользователей в исследовании
-          href: view-people-of-interest-activity.md
-    - name: Экспорт данных из исследования
-      href: export-data.md
-      items:
-        - name: Экспорт документов из свидетельства
-          href: export-documents-from-incident.md
-        - name: Скачивание заданий экспорта
-          href: download-export-jobs-from-a-data-investigation.md
-    - name: Настройка параметров исследования
-      items:
-        - name: Добавление и удаление участников исследования
-          href: add-remove-members.md
-        - name: Настройка параметров поиска и аналитики
-          href: configure-search-analytics-settings.md
-        - name: Закрытие или удаление исследования
-          href: close-or-delete-investigation.md
-    - name: Справочные материалы по исследованиям данных
-      items:
-        - name: Заметки о выпуске
-          href: data-investigations-release-notes.md
-        - name: Ограничения для исследований данных
-          href: limits-datainvestigations.md
-        - name: Поддерживаемые типы файлов
-          href: supported-filetypes-datainvestigations.md
-        - name: Поля метаданных документа
-          href: document-metadata-fields.md
-        - name: Управление заданиями
-          href: manage-jobs.md
 - name: Управление удержаниями
   items:
     - name: 'Как определить тип удержания, примененного для почтового ящика'

@@ -12,39 +12,39 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-description: In-Place обнаружение электронных данных и In-Place удержание (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлет Search-Mailbox и Advanced eDiscovery версии 1.0 также удаляются за один и тот же период времени.
-ms.openlocfilehash: e8edda9436d62e07d0f64126a012791080766aba
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+description: In-Place eDiscovery и In-Place удержания (и соответствующие cmdlets PowerShell) в Exchange Online будут отменены в первой половине 2020 г. Кроме Search-Mailbox и Advanced eDiscovery 1.0, в течение того же периода времени также неактуален.
+ms.openlocfilehash: a40cc67b29e33d61d6750792f6a773622a73f678
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877470"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750882"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Прекращение поддержки устаревших средств обнаружения электронных данных
 
 > [!IMPORTANT]
-> Корпорация Майкрософт оценивает ситуацию с общественностью о работоспособности, и мы понимаем, что у наших клиентов возникли проблемы. Мы хотим быть надежными партнерами и ответственными глобальными гражданами. Чтобы упростить одну из многочисленных накладных расходов, мы будем отложить запланированное выбытие для стандартных средств обнаружения электронных данных, описанных в этой статье, на три месяца. **Обновленные даты выбытия показаны ниже.**
+> Корпорация Майкрософт оценивает состояние системы здравоохранения, и мы понимаем, как это влияет на наших клиентов. Мы хотим быть партнерами и ответственными глобальными гражданами. Чтобы облегчить одну из многих проблем, с которыми вы столкнулись, мы собираемся отложить запланированное уволение устаревших средств eDiscovery, описанных в этой статье, на три месяца. **Обновленные даты выхода из системы приведены ниже.**
 
-В течение нескольких лет корпорация Майкрософт предоставила средства обнаружения электронных данных, которые позволяют выполнять поиск, предварительный просмотр и экспорт содержимого электронной почты из Exchange Online. Тем не менее, эти средства не предоставляют эффективный способ поиска контента, не относящегося к Exchange, в других службах Microsoft 365, таких как группы SharePoint Online и Microsoft 365. Для решения этой вопросы Корпорация Майкрософт предлагает другие средства обнаружения электронных данных, которые помогают искать широкий спектр содержимого Microsoft 365. Мы работаем над внедрением самых последних и мощных функций обнаружения электронных [данных в центре соответствия требованиям Microsoft 365](https://compliance.microsoft.com). Это позволяет организациям отвечать на юридические, внутренние и другие запросы на документы для контента во многих службах Microsoft 365, в том числе Exchange Online.
+На протяжении многих лет корпорация Майкрософт предоставляла средства eDiscovery, которые обеспечивают поиск, предварительный просмотр и экспорт содержимого электронной почты из Exchange Online. Однако эти средства больше не предоставляют эффективный способ поиска контента, не относящемся к Exchange, в других службах Microsoft 365, таких как SharePoint Online и группы Microsoft 365. Для решения этой проблемы корпорация Майкрософт предлагает другие средства eDiscovery, которые помогают искать широкий спектр контента Microsoft 365. Мы работаем над тем, чтобы включить самые современные и мощные функции eDiscovery в Центр соответствия требованиям [Microsoft 365.](https://compliance.microsoft.com) Это позволяет организациям отвечать на юридические, внутренние и другие запросы документов на содержимое во многих службах Microsoft 365, включая Exchange Online.
 
-В результате этой новой и улучшенной функции обнаружения электронных данных в центре соответствия требованиям Microsoft 365 мы проделам следующие функции, связанные с обнаружением электронных данных, и функциональные возможности, связанные с поиском сообщений электронной почты в Exchange Online и Microsoft 365:
+В результате этой новой и улучшенной функции eDiscovery в Центре соответствия требованиям Microsoft 365 мы удаляем следующие функции и функции, связанные с eDiscovery, связанные с поиском содержимого электронной почты в Exchange Online и Microsoft 365:
 
-- [Обнаружение электронных](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) данных на месте и [удержание на месте](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds) в центре администрирования Exchange.
+- [EDiscovery](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) и [in-Place Holds](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds) в Центре администрирования Exchange.
 
-- Командлеты Exchange Online PowerShell, поддерживающие In-Place обнаружения электронных данных и In-Place (эти командлеты обозначаются как командлеты * *-MailboxSearch* ). К ним относятся следующие командлеты:
+- The Exchange Online PowerShell cmdlets that support In-Place eDiscovery and In-Place Holds (these cmdlets are collectively identified as **-MailboxSearch* cmdlets). К ним относятся следующие cmdlets:
 
-  - [New — MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/new-mailboxsearch)
+  - [New-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/new-mailboxsearch)
 
-  - [Start — MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/start-mailboxsearch)
+  - [Start-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/start-mailboxsearch)
 
-  - [Stop — MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/stop-mailboxsearch)
+  - [Stop-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/stop-mailboxsearch)
 
-  - [Set — MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/set-mailboxsearch)
+  - [Set-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/set-mailboxsearch)
 
    > [!NOTE]
-   > Командлеты [Get – MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/get-mailboxsearch) и [retired – MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/remove-mailboxsearch) будут доступны после снятия других командлетов * * * * * * _, чтобы их можно было использовать для перехода к другим средствам обнаружения и удержания. Однако после определенной даты (указанная ниже) служба поддержки Майкрософт больше не будет поддерживать эти два командлета.
+   > The [Get-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/get-mailboxsearch) and [Remove-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/remove-mailboxsearch) cmdlets will be available after the other **-MailboxSearch***_ cmdlets are retired so that you can use them to help in your transition to other eDiscovery and hold tools. Однако после определенной даты (приведенной ниже) служба поддержки Майкрософт больше не будет поддерживать эти два cmdlet.
 
-- Командлет [Search-Mailbox](https://docs.microsoft.com/powershell/module/exchange/search-mailbox) в Exchange Online PowerShell.
+- The [Search-Mailbox](https://docs.microsoft.com/powershell/module/exchange/search-mailbox) cmdlet in Exchange Online PowerShell.
 
 - Следующие операции в API веб-служб Exchange:
 
@@ -56,240 +56,240 @@ ms.locfileid: "48877470"
 
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
 
-- [Office 365 Advanced eDiscovery 1.0](office-365-advanced-ediscovery.md), которая является первой версией расширенного обнаружения электронных данных, доступ к которым осуществляется с помощью основного случая обнаружения электронных данных в центре безопасности & соответствия требованиям Office 365. Выбытие расширенного обнаружения электронных данных версии 1.0 не влияет на возможность создания и управления основными случаями обнаружения электронных данных.
+- [Office 365 Advanced eDiscovery 1.0](office-365-advanced-ediscovery.md)— первая версия Advanced eDiscovery, доступ к которой можно получить с помощью основного дела eDiscovery в Центре безопасности & соответствия требованиям Office 365. Отставку Advanced eDiscovery 1.0 не влияет на возможность создания основных дел eDiscovery и управления ими.
 
 > [!NOTE]
-> Функция обнаружения электронных данных применяется только к облачным версиям Microsoft 365 и Office 365. функции обнаружения электронных данных в локальных версиях Exchange и SharePoint по-прежнему будут поддерживаться до появления дальнейших уведомлений.
+> Функции eDiscovery, которые больше не применяются, применимы только к облачным версиям Microsoft 365 и Office 365. Функции eDiscovery в локальной версии Exchange и SharePoint будут по-прежнему поддерживаться до дальнейшего уведомления.
 
-В следующих разделах этой статьи приведены рекомендации по каждой из функций, которые будут отменены. Эти сведения, в том числе временные шкалы и альтернативные инструменты, которые можно использовать вместо неотмененного средства.
+В следующих разделах этой статьи представлены рекомендации по каждой удаляемой функции. Эти сведения, включая временные шкалы и альтернативные средства, которые можно использовать вместо средства для выхода из использования.
 
-## <a name="in-place-ediscovery-and-in-place-holds-in-the-exchange-admin-center"></a>In-Place обнаружения электронных данных и In-Place в центре администрирования Exchange 
+## <a name="in-place-ediscovery-and-in-place-holds-in-the-exchange-admin-center"></a>In-Place eDiscovery и In-Place в Центре администрирования Exchange 
 
-Как и в In-Place случае с исходным объявлением 1 июля 2017, функции удержания & обнаружения электронных данных в центре администрирования Exchange отменяются. Страница & обнаружения электронных данных на In-Place обнаружения электронных данных в центре администрирования Exchange позволяла выполнять поиск, удержание и экспорт контента в Exchange Online. In-Place обнаружения электронных данных также позволяет копировать результаты поиска в почтовый ящик найденных сообщений, чтобы вы или другие менеджеры по обнаружению электронных данных могли просматривать контент и сделать его доступным для юридических, законодательных и общедоступных запросов.
+По первоначальному сообщению от 1 июля 2017 г. функция In-Place eDiscovery & Hold в Центре администрирования Exchange (EAC) больше не используется. Страница In-Place с удержанием электронных & в EAC позволяет искать, удерживать и экспортировать контент из Exchange Online. In-Place eDiscovery также позволит вам копировать результаты поиска в почтовый ящик обнаружения, чтобы вы или другие менеджеры по обнаружению электронных данных могли просмотреть контент и сделать его доступным для юридических, нормативных и общедоступных запросов.
 
-Так как все эти возможности (за исключением копирования результатов поиска в почтовый ящик найденных сообщений) теперь доступны в центре обеспечения соответствия требованиям и расширенных средствах обнаружения электронных данных в [центре соответствия требованиям microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) (с улучшенными функциональными возможностями, надежностью и поддержкой широкого спектра служб Microsoft 365), рекомендуется приступить к работе с этими средствами как можно скорее. В приведенной ниже таблице перечислены средства, которые можно использовать вместо In-Place обнаружения электронных данных и In-Place удержания.
+Так как все эти возможности (кроме копирования результатов поиска в почтовый ящик обнаружения) теперь доступны в средствах поиска контента, обнаружения электронных данных и Advanced eDiscovery в Центре соответствия требованиям [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) (с улучшенными функциональными возможностями, надежностью и поддержкой широкого спектра служб Microsoft 365), рекомендуется начать использовать эти средства как можно скорее. В таблице ниже перечислены средства, которые можно использовать вместо In-Place eDiscovery и In-Place удержания.
 
 ### <a name="scope-of-affected-organizations"></a>Область затронутых организаций
 
-- Office 365 и Microsoft 365 корпоративный Организации
+- Организации Office 365 и Microsoft 365 корпоративный
 
 - Организации Office 365 и Microsoft 365 для образования
 
-- Office 365 и Microsoft 365 правительственные организации; в том числе GCC, GCC High и DoD
+- Организации Office 365 и Microsoft 365 для государственных организаций; это относится к GCC, GCC High и DoD
 
 - Office 365 Germany
 
-### <a name="timeline-for-retirement"></a>Временная шкала для выбытия
+### <a name="timeline-for-retirement"></a>Временная шкала для выхода из нее
 
-- 1 июля 2020 г.: вы не сможете создавать новые операции поиска и удержания, но вы можете выполнять, редактировать и удалять существующие поисковые запросы на свой риск. Служба поддержки Майкрософт больше не будет In-Place удержания электронных данных & в центре администрирования Exchange.
+- 1 июля 2020 г. Вы не сможете создавать новые поисковые запросы и запросы на удерживаемую среду, но вы по-прежнему можете запускать, редактировать и удалять существующие поисковые запросы на свой риск. Служба поддержки Майкрософт больше не In-Place eDiscovery & в EAC.
 
-- 1 октября 2020 г.: In-Place обнаружение электронных данных & обнаружения электронных данных в центре администрирования Exchange включается в режиме только для чтения. Это означает, что вы можете только удалять существующие поисковые запросы и удержания.
+- 1 октября 2020 г. функция In-Place eDiscovery & в EAC будет помещена в режим только для чтения. Это означает, что вы сможете удалять только существующие запросы на поиск и удерживая их.
 
-### <a name="alternative-tools"></a>Альтернативные инструменты
+### <a name="alternative-tools"></a>Альтернативные средства
 
-В следующей таблице описаны другие средства, которые можно использовать для замены существующих функций, которые будут отменены.
+В следующей таблице описываются другие средства, которые можно использовать для замены существующих функций, которые больше не используются.
 
 <table>
 <thead>
 <tr class="header">
 <th>функциональность.</th>
 <th>Альтернативное средство</th>
-<th>Комментарии</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Поиск, экспорт и удержание для юридических целей</td>
-<td>Основные случаи обнаружения электронных данных в центре соответствия требованиям Microsoft 365 </td>
-<td><p>Использование возможностей базовых случаев обнаружения электронных данных обеспечивает функциональную четность In-Place обнаружения электронных данных и In-Place. Эта кнопка предоставляет доступ ко следующим командам:</p>
+<td>Основные дела eDiscovery в Центре соответствия требованиям Microsoft 365 </td>
+<td><p>Использование возможностей основных дел eDiscovery обеспечивает функциональный четность для In-Place eDiscovery и In-Place. Эта кнопка предоставляет доступ ко следующим командам:</p>
 <ul>
 <li>
-<p>Поиск с масштабированием до миллионов расположений</p>
+<p>Масштабы поиска до миллионов местоположений</p>
 </li>
 <li>
-<p>Повышенная надежность поиска, экспорта и размещения содержимого на удержании</p>
+<p>Высокая надежность поиска, экспорта и помещения контента на удержание</p>
 </li>
 <li>
-<p>Поиск контента в Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams, группы Yammer, Microsoft 365, а также другие материалы, хранящиеся в приложениях Office 365</p></li></ul>
-<p>Дополнительные сведения: <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations"> Управление юридическими исследованиями в Office 365</a>.</td>
+<p>Поиск контента в Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams, групп Yammer, групп Microsoft 365 и другого контента, хранящемся в приложениях Office 365</p></li></ul>
+</td>
 </tr>
 <tr class="even">
-<td>Хранение для целей хранения</td>
-<td>Политики хранения в центре соответствия требованиям Microsoft 365</td>
-<td><p>Вы можете использовать политики хранения для хранения контента и при необходимости удалять его по истечении срока хранения. К другим возможностям относятся:</p>
+<td>Удержание для целей хранения</td>
+<td>Политики хранения в Центре соответствия требованиям Microsoft 365</td>
+<td><p>Политики хранения можно использовать для хранения контента и при желании удаления его по истечении срока хранения. Другие возможности:</p>
 <ul>
 <li>
-<p>Применение политик ко всей Организации </p>
+<p>Применение политик для всей организации </p>
 </li><li>
-<p>Применение политик к определенным расположениям контента, например Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams и Office 365 Groups</p></li>
+<p>Применение политик к определенным расположениям контента, таким как Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams и группы Office 365</p></li>
 <li>
 <p>Применение политик к определенным пользователям</p></li></ul>
-<p>Дополнительные сведения см. в <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies"> статье сведения о политиках хранения и метках хранения</a>.</td>
+<p>Дополнительные сведения <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">см. в сведениях о политиках хранения и метах хранения.</a></td>
 </tr>
 <tr class="odd">
-<td>Копирование результатов поиска по электронной почте в почтовый ящик обнаружения для просмотра</td><td>Обзор наборов в Advanced eDiscovery версии 2.0</td>
-<td><p>Просмотр содержимого в Microsoft 365 никогда не было проще. В наборах рецензирования существует множество замечательных возможностей для сокращения времени и данных, необходимых для проверки, в том числе:</p>
+<td>Копирование результатов поиска электронной почты в почтовый ящик обнаружения для проверки</td><td>Наборы для проверки в Advanced eDiscovery 2.0</td>
+<td><p>Просмотр контента в Microsoft 365 никогда не был проще. Наборы для проверки имеют множество отличных возможностей, которые помогают сократить время и данные, необходимые для проверки, в том числе:</p>
 <ul>
-<li><p>Выполнение запросов FAST Search и фильтрация содержимого в наборе рецензирования</p></li>
-<li><p>Анализ контента в наборе рецензирования; Это включает почтовые потоки, обнаружение почти повторяющихся элементов, анализ тем и прогнозирование кода.</p></li>
+<li><p>Выполнение запросов быстрого поиска и фильтрация содержимого в наборе для проверки</p></li>
+<li><p>Анализ контента в наборе для проверки; это включает потоки электронной почты, обнаружение практически дублирующихся сообщений, анализ тем и прогнозирование кодирования</p></li>
 <li><p>Добавление тегов к документам в наборе для проверки</p></li>
-<li><p>Рекомендации по разметке для определения содержимого полномочий клиента юриста</p></li></ul>
+<li><p>Предложения по тегированию для определения содержимого адвокатской привилегии клиента</p></li></ul>
 <p>Дополнительные сведения см. в статье <a href="https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20">Обзор решения Advanced eDiscovery в Microsoft 365</a>.</p>
 <p>
-<p>Кроме того, вы можете экспортировать результаты поиска в PST-файлы и затем использовать службу импорта Microsoft 365 для импорта PST-файлов в почтовый ящик найденных сообщений. Пошаговые инструкции приведены <a href="https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files">в разделе Использование отправки по сети для импорта PST-файлов в Office 365</a>.
+<p>Кроме того, вы можете экспортировать результаты поиска в PST-файлы, а затем импортировать PST-файлы в почтовый ящик обнаружения с помощью службы импорта Microsoft 365. Пошаговая инструкция по импорту PST-файлов в <a href="https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files">Office 365:</a>с помощью отправки по сети.
 </tr>
 <tr class=even>
   <td>Копирование сообщений из одного почтового ящика в другой</td>
-  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений для почтового ящика</a></td>
-  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает организацию и вам нужно предоставить другому человеку доступ к электронной почте бывшего сотрудника), мы рекомендуем назначить ему разрешения на доступ к почтовому ящику бывшего сотрудника. Поэтому вместо того чтобы копировать элементы почтового ящика в другой почтовый ящик пользователя или в общий почтовый ящик, просто Назначьте разрешения пользователя на доступ к исходному почтовому ящику.</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений почтовому ящику</a></td>
+  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает вашу организацию и вам необходимо предоставить другому пользователю доступ к электронной почте бывшего сотрудника), рекомендуется назначить ему разрешения на доступ к почтовому ящику бывшего сотрудника. Поэтому вместо копирования элементов почтового ящика в другой почтовый ящик пользователя или общий почтовый ящик просто назначьте пользователю разрешения на доступ к исходным почтовым ящикам.</td>
   
   </tr>
 <tr class="odd">
-<td>Восстановление элементов из папки "элементы с возможностью восстановления"</td>
-  <td><a href="https://docs.microsoft.com/powershell/module/exchange/Restore-RecoverableItems">Restore — RecoverableItems</td>
-  <td>Вы можете восстановить в почтовых ящиках навсегда удаленные элементы (также называемые <i>обратимыми</i> элементами), если срок хранения удаленных элементов для элемента не истек. Дополнительные сведения см. <a href="https://docs.microsoft.com/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">в папке "элементы с возможностью восстановления" в Exchange Online</a>.</td>
+<td>Восстановление элементов из папки "Элементы с функцией восстановления"</td>
+  <td><a href="https://docs.microsoft.com/powershell/module/exchange/Restore-RecoverableItems">Restore-RecoverableItems</td>
+  <td>Вы можете восстановить окончательно удаленные элементы <i></i> (также известные как элементы с возможностью восстановления) в почтовых ящиках, если срок хранения удаленных элементов для элемента не истек. Дополнительные сведения см. в папке "Элементы с <a href="https://docs.microsoft.com/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">восстановления" в Exchange Online.</a></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="faqs-about-in-place-ediscovery-and-in-place-holds"></a>Вопросы и ответы о In-Place обнаружения электронных данных и In-Place
+### <a name="faqs-about-in-place-ediscovery-and-in-place-holds"></a>FAQs about In-Place eDiscovery and In-Place Holds
 
-_ *Я использую функцию копирования результатов поиска In-Place обнаружения электронных данных & содержатся в центре администрирования Exchange, чтобы скопировать результаты поиска в почтовый ящик найденных юристов. Какие параметры теперь у меня есть?**
+_ Я использую функцию копирования результатов поиска In-Place обнаружения электронных & в EAC для копирования результатов поиска в почтовый ящик обнаружения для проверки *адвокатами. Какие параметры у меня есть?**
 
-Существует два способа репликации этих функций сегодня. Во-первых, используйте [наборы проверки в Advanced eDiscovery версии 2.0](https://docs.microsoft.com/microsoft-365/compliance/view-documents-in-review-set). Для рецензирования наборов доступны многие возможности традиционного просмотра, такие как быстрый поиск документов, маркировка, почтовые потоки, появление дублирующихся групп, анализ тем и прогнозирование кода. Если вы все равно хотите использовать почтовые ящики обнаружения для проверки, второй вариант — экспортировать результаты поиска в PST-файлы, а затем импортировать их в почтовый ящик найденных файлов с помощью [функции импорта PST](use-network-upload-to-import-pst-files.md) -файлов в центре соответствия требованиям корпорации Майкрософт.
+Репликацию этой функции можно реплицировать двумя способами. Во-первых, необходимо использовать [наборы для проверки в Advanced eDiscovery 2.0.](https://docs.microsoft.com/microsoft-365/compliance/view-documents-in-review-set) Наборы для проверки имеют многие из тех же возможностей, которые вы видите в традиционном средстве проверки, например быстрый поиск документов, добавление тегов, потоки электронной почты, почти дублирование групп, анализ тем и прогнозирование кодирования. Если вы все еще хотите использовать почтовые ящики обнаружения для проверки, второй вариант — экспортировать результаты поиска в PST-файлы, а затем импортировать PST-файлы в почтовый ящик обнаружения с помощью функции импорта [PST-файлов](use-network-upload-to-import-pst-files.md) в Центре соответствия требованиям Майкрософт.
 
-**Как контролировать, какие расположения контента (например, почтовые ящики или сайты) могут ли осуществлять поиск в диспетчере обнаружения электронных данных с помощью новых средств?**
+**Как управлять расположениями контента (например, почтовыми ящиками или сайтами), которые менеджер по обнаружению электронных сообщений может искать с помощью новых средств?**
 
-Центр соответствия требованиям Microsoft 365 также использует [границы соответствия требованиям](set-up-compliance-boundaries.md) для управления расположением содержимого, которое может выполнять диспетчер обнаружения электронных данных. Ограничения на соответствие требованиям используются в правительственных учреждениях, которые должны оставаться в пределах границ органов или многоязычных компаний, необходимых для использования географических плат.
+Центр соответствия требованиям Microsoft 365 также использует границы соответствия требованиям для контроля того, какие расположения контента может искать менеджер по обнаружению электронных данных. [](set-up-compliance-boundaries.md) Границы соответствия требованиям полезны в правительственных организациях, которые должны оставаться в границах агентства, или в нескольких национальных корпорациях, которые должны соблюдать географические доски.
 
-**Как переместить текущие операции поиска и удержания в центр соответствия требованиям Microsoft 365?**
+**Как переместить текущие поисковые запросы и запросы в Центр соответствия требованиям Microsoft 365?**
 
-Миграцию In-Place обнаружения электронных данных и удержания из центра администрирования Exchange можно перенести с помощью PowerShell. Инструкции можно найти в разделе [Миграция поиска и удержание из центра администрирования Exchange в центр соответствия требованиям Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2114224).
+С помощью PowerShell можно In-Place поиск и удерживаемую eDiscovery из EAC. Инструкции см. в инструкциях по переносу поисковых запросов и удерживаний из EAC в Центр соответствия требованиям [Microsoft 365.](https://go.microsoft.com/fwlink/?linkid=2114224)
 
-## <a name="-mailboxsearch-cmdlets"></a>\*Командлеты MailboxSearch
+## <a name="-mailboxsearch-cmdlets"></a>\*-MailboxSearch cmdlets
 
-Согласно исходному уведомлению 1 июля 2017 в In-Place центре администрирования Exchange & функции удержания обнаружения электронных данных и соответствующие командлеты **\* MailboxSearch** будут отменены. Эти командлеты предоставляют пользователям возможность поиска, хранения и экспорта содержимого почтовых ящиков для юридических, законодательных и общедоступных запросов.
+По первоначальному уведомлению, объявленному 1 июля 2017 г. в Центре администрирования Exchange, функции удержания In-Place eDiscovery & и соответствующие cmdlets **\* -MailboxSearch** отошедали. Эти cmdlets предоставляют пользователям возможность поиска, удержания и экспорта содержимого почтовых ящиков для юридических, нормативных и общедоступных запросов.
 
-Так как эти возможности теперь доступны в [<span class="underline">центре соответствия требованиям Microsoft 365</span>](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) и Office 365 & безопасности в PowerShell с повышенной производительностью и масштабируемостью, следует использовать эти усовершенствованные командлеты. Эти командлеты включают [<span class="underline"> \* — ComplianceCase</span>](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase), [<span class="underline"> \* ComplianceSearch</span>](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch), [<span class="underline"> \* – caseholdpolicy позволяет</span>](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy), [<span class="underline"> \* caseholdrule позволяет</span>](https://docs.microsoft.com/powershell/module/exchange/get-caseholdrule)и [<span class="underline"> \* ComplianceSearchAction</span>](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction).
+Так как эти возможности теперь доступны в Центре соответствия требованиям [<span class="underline">Microsoft 365</span>](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) и PowerShell Центра безопасности и соответствия требованиям Office 36 & 5 с улучшенной производительностью и масштабируемостью, следует использовать эти улучшенные команды. These cmdlets include [<span class="underline"> \* -ComplianceCase</span>](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase), [<span class="underline"> \* -ComplianceSearch</span>](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch), [<span class="underline"> \* -CaseHoldPolicy</span>](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy), [<span class="underline"> \* -CaseHoldRule</span>](https://docs.microsoft.com/powershell/module/exchange/get-caseholdrule), and [<span class="underline"> \* -ComplianceSearchAction</span>](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction).
 
 ### <a name="scope-of-affected-organizations"></a>Область затронутых организаций
 
-- Office 365 и Microsoft 365 корпоративный Организации
+- Организации Office 365 и Microsoft 365 корпоративный
 
 - Организации Office 365 и Microsoft 365 для образования
 
-- Office 365 и Microsoft 365 правительственные организации; в том числе GCC, GCC High и DoD
+- Организации Office 365 и Microsoft 365 для государственных организаций; это относится к GCC, GCC High и DoD
 
 - Office 365 Germany
 
 ### <a name="timeline"></a>Временная шкала
 
-- 1 июля 2020 г.: невозможно использовать командлет **New-MailboxSearch** для создания новых In-Place поисковых запросов на обнаружение электронных данных и In-Place удержания, но вы по-прежнему можете использовать командлеты для запуска, изменения и удаления существующих поисков и удержания на вашем собственном риске. Служба поддержки Майкрософт больше не будет предоставлять помощь для таких типов поиска и удержаний.
+- 1 июля 2020 г.: вы не сможете использовать **New-MailboxSearch** для создания новых поисковых запросов In-Place eDiscovery и In-Place Holds, но вы по-прежнему можете использовать их для запуска, изменения и удаления существующих поисковых запросов и справок на свой риск. Служба поддержки Майкрософт больше не будет предоставлять помощь по таким типам поиска и оказания услуг.
 
-- 1 октября 2020 г.: как было сказано ранее, In-Place обнаружения & электронных данных в центре администрирования Exchange хранит функции в центре администрирования Exchange, предназначенные только для чтения. Это также означает, что вы не сможете использовать командлеты **New – MailboxSearch** , **Start MailboxSearch** или **Set/MailboxSearch** . Вы сможете получать и удалять существующие поисковые запросы и удержания.
+- 1 октября 2020 г. Как было сказано ранее, функции In-Place eDiscovery & Holds в EAC будут размещены в режиме только для чтения. Это также означает, что вы не сможете использовать **new-MailboxSearch,** **Start-MailboxSearch** или **Set-MailboxSearch.** Вы сможете получать и удалять только существующие поисковые запросы и запросы.
 
-### <a name="alternative-tools"></a>Альтернативные инструменты
+### <a name="alternative-tools"></a>Альтернативные средства
 
-В следующей таблице описаны другие средства, которые можно использовать для замены существующих функций, которые будут отменены.
+В следующей таблице описываются другие средства, которые можно использовать для замены существующих функций, которые больше не используются.
 
 <table>
 <thead>
 <tr class="header">
 <th>функциональность.</th>
-<th>Альтернативные инструменты</th>
-<th>Комментарии</th>
+<th>Альтернативные средства</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Поиск и экспорт</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">* — ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">* — ComplianceSearchAction</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancecase"><span class="underline">* — ComplianceCase</span></a></p>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
 <p> </p></td>
-<td><p>Командлеты ComplianceSearch и ComplianceSearchAction работают вместе, чтобы упростить поиск и экспорт контента. Вы можете создать новый поиск и просмотреть оценку поиска с помощью командлетов <strong>New</strong>, <strong>Get</strong>и <strong>Start – ComplianceSearch</strong> . Затем вы можете использовать командлет <strong>New – ComplianceSearchAction</strong> для экспорта результатов поиска. Чтобы скачать результаты поиска на локальный компьютер, вам по-прежнему придется использовать основное средство обнаружения электронных данных в центре соответствия требованиям Microsoft 365.</p>
+<td><p>Для поиска и экспорта контента можно совместно работать с помощью cmdlets ComplianceSearch и ComplianceSearchAction. Вы можете создать новый поиск и просмотреть оценку поиска с помощью <strong>новых,</strong> <strong>Get-</strong>и <strong>Start-ComplianceSearch-cmdlets.</strong> Затем вы можете экспортировать результаты поиска с помощью cmdlet <strong>New-ComplianceSearchAction.</strong> Вам по-прежнему придется использовать основное средство eDiscovery в Центре соответствия требованиям Microsoft 365, чтобы скачать эти результаты поиска на локальный компьютер.</p>
 <p>
-<p><strong>Примечание:</strong> При использовании этих командлетов для создания поисковых запросов, не связанных с основным вариантом обнаружения электронных данных, эти запросы будут отображаться на странице " <strong>Поиск контента</strong> " в центре соответствия требованиям Microsoft 365.</p></td>
+<p><strong>Примечание.</strong> Если вы используете эти cmdlets для создания поисковых запросов, которые не связаны с основным <strong></strong> делом eDiscovery, эти поисковые запросы будут расположены на странице "Поиск контента" в Центре соответствия требованиям Microsoft 365.</p></td>
 </tr>
 <tr class="even">
-<td>Удержание контента в почтовом ящике</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy"><span class="underline">* — Caseholdpolicy позволяет</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-caseholdrule"><span class="underline">* — Caseholdrule позволяет</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancecase"><span class="underline">* — ComplianceCase</span></a></p>
+<td>Удержание содержимого в почтовом ящике</td>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy"><span class="underline">*-CaseHoldPolicy</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-caseholdrule"><span class="underline">*-CaseHoldRule</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
 <p> </p></td>
-<td><p>Удержания в центре соответствия требованиям Microsoft 365 должны быть связаны с ComplianceCase. Сначала создайте регистр соответствия требованиям, а затем создайте Caseholdpolicy позволяет и Caseholdrule позволяет.</p>
-<p><strong>Примечание:</strong> Создание Caseholdpolicy позволяет без создания Caseholdrule позволяет будет отрисовывать неработоспособное удержание, пока не будет создано Caseholdrule позволяет и не сопоставлено с Caseholdpolicy позволяет. Для получения дополнительных сведений обратитесь к документации по командлетам.</p></td>
+<td><p>В Центре соответствия требованиям Microsoft 365 необходимо связывать с регистром соответствия требованиям. Сначала создайте дело соответствия требованиям, а затем создайте CaseHoldPolicy и CaseHoldRule.</p>
+<p><strong>Примечание.</strong> Создание CaseHoldPolicy без создания CaseHoldRule сделает удержание неоперабельным, пока Не будет создан CaseHoldRule и не связан с CaseHoldPolicy. Дополнительные сведения см. в документации по cmdlet.</p></td>
 </tr>
 <tr class="odd">
 <td>Копирование результатов поиска в почтовый ящик обнаружения</td>
 <td>Нет</td>
-<td>Для этой функции нет прямого замены, так как он не предоставляет доступ ко всем службам Microsoft 365. Ниже приведены вопросы и ответы по альтернативным решениям.</td>
+<td>Прямой замены этой функции нет, так как она не предоставляет доступ ко всем службам Microsoft 365. Альтернативные решения см. в следующих вопросы и вопросы.</td>
 </tr>
   <tr class=even>
   <td>Копирование сообщений из одного почтового ящика в другой</td>
-  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений для почтового ящика</a></td>
-  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает организацию и вам нужно предоставить другому человеку доступ к электронной почте бывшего сотрудника), мы рекомендуем назначить ему разрешения на доступ к почтовому ящику бывшего сотрудника. Поэтому вместо того чтобы копировать элементы почтового ящика в другой почтовый ящик пользователя или в общий почтовый ящик, просто Назначьте разрешения пользователя на доступ к исходному почтовому ящику.</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений почтовому ящику</a></td>
+  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает вашу организацию и вам необходимо предоставить другому пользователю доступ к электронной почте бывшего сотрудника), рекомендуется назначить ему разрешения на доступ к почтовому ящику бывшего сотрудника. Поэтому вместо копирования элементов почтового ящика в другой почтовый ящик пользователя или общий почтовый ящик просто назначьте пользователю разрешения на доступ к исходным почтовым ящикам.</td>
   
   </tr>
 
 </tbody>
 </table>
 
-### <a name="faqs-about--mailboxsearch-cmdlets"></a>Вопросы и ответы о командлетах * **– MailboxSearch**
+### <a name="faqs-about--mailboxsearch-cmdlets"></a>FaQs about ***-MailboxSearch** cmdlets
 
-**Мы используем копию Поиск для экспорта сообщений электронной почты или мгновенных сообщений в целях других eDiscovery и судебного исследования. Какие еще варианты существуют после прекращения действия этих командлетов?**
+**Мы используем поиск по копированию для экспорта сообщений электронной почты или мгновенных сообщений для других расследований eDiscovery и юридических расследований. Какие другие параметры у нас есть после с выхода из них?**
 
-[<span class="underline">API Microsoft Graph</span>](https://developer.microsoft.com/en-us/graph) предоставляют ряд методов для извлечения данных для анализа и других целей, которые являются более гибкими и масштабируемыми по сравнению с использованием командлетов **\* -MailboxSearch** .
+API [<span class="underline">Microsoft Graph</span>](https://developer.microsoft.com/en-us/graph) предоставляют ряд методов для извлечения данных для анализа и других целей, которые гораздо более устойчивы и масштабируемы, чем при использовании с помощью cmdlets **\* -MailboxSearch.**
 
-**Как перенести Поиск и удержания в центр соответствия требованиям Microsoft 365?**
+**Как перенести поиск и удерживание в Центр соответствия требованиям Microsoft 365?**
 
-Можно перенести In-Place поиск eDiscovery и удержания из центра администрирования Exchange с помощью сценария PowerShell. Дополнительные сведения см. [в статье миграция стандартных поисков электронных данных и удержаний в центр соответствия требованиям Microsoft 365](migrate-legacy-eDiscovery-searches-and-holds.md).
+С помощью скрипта PowerShell можно In-Place поиск и удерживаемую возможность eDiscovery из Центра администрирования Exchange. Дополнительные сведения см. в записях миграции старых поисковых запросов и запросов на поиск при обнаружении электронных данных в Центре соответствия требованиям [Microsoft 365.](migrate-legacy-eDiscovery-searches-and-holds.md)
 
-**Когда командлеты будут отменены, можно ли удалить или получить Поиск?**
+**После удаления из них я по-прежнему могу удалить или получить поиск?**
 
-Да, несмотря на то что мы удаляем возможность создавать и изменять поисковые запросы, вы по-прежнему можете использовать командлеты **Get-MailboxSearch** и **Remove-MailboxSearch** , пока не получите дальнейшие уведомления. Тем не менее, использование этих командлетов будет иметь ответственность за то, что после завершения сроков выбытия и поддержки Майкрософт больше не сможет предоставить помощь.
+Да, хотя мы удаляем возможность создания и изменения поиска, вы по-прежнему сможете использовать **Get-MailboxSearch** и **Remove-MailboxSearch** до дальнейшего уведомления. Тем не менее, после даты выхода из службы поддержки Майкрософт вы будете сами себе на риск, и служба поддержки Майкрософт больше не сможет предоставить помощь.
 
-## <a name="search-mailbox-cmdlet"></a>Командлет Search-Mailbox
+## <a name="search-mailbox-cmdlet"></a>Search-Mailbox
 
-Командлет **Search-Mailbox** в Exchange Online PowerShell отменяется из-за того, что в выходных данных командлета, начинающегося с начала, выводится предупреждение, начинающееся с 2018. Командлет **Search — Mailbox** изначально использовался для поиска в почтовом ящике пользователя и очистки вредоносного контента. Для поиска и очистки контента рекомендуется начать с использования командлетов **New – ComplianceSearch** и **New ComplianceSearchAction** в Office 365 & Security. PowerShell центра соответствия требованиям. Для встроенного интерфейса безопасности [<span class="underline">функции microsoft 365 Security</span>](https://docs.microsoft.com/microsoft-365/security/) обеспечивают надежную защиту от угроз для электронной почты и многих других служб Майкрософт.
+The **Search-Mailbox** cmdlet in Exchange Online PowerShell is being retired as originally announced in a warning in the cmdlet output starting back in 2018. Изначально **для поиска** в почтовом ящике пользователя и очистки вредоносного содержимого использовался его почтовый ящик. Для поиска и очистки контента рекомендуется использовать в PowerShell Центра безопасности и соответствия требованиям Office 36 & 5 с помощью cmdlets **New-ComplianceSearch** и **New-ComplianceSearchAction.** Встроенные функции безопасности [<span class="underline">Microsoft 365</span>](https://docs.microsoft.com/microsoft-365/security/) обеспечивают надежную защиту от угроз для электронной почты и многих других служб Майкрософт.
 
 ### <a name="scope-of-affected-organizations"></a>Область затронутых организаций
 
-- Office 365 и Microsoft 365 корпоративный Организации
+- Организации Office 365 и Microsoft 365 корпоративный
 
 - Организации Office 365 и Microsoft 365 для образования
 
-- Office 365 и Microsoft 365 правительственные организации; в том числе GCC, GCC High и DoD
+- Организации Office 365 и Microsoft 365 для государственных организаций; это относится к GCC, GCC High и DoD
 
 - Office 365 Germany
 
 ### <a name="timeline"></a>Временная шкала
 
--  1 июля 2020 г.: командлет **Search — Mailbox** больше не будет доступен, и служба поддержки Майкрософт больше не будет предоставлять помощь.
+-  1 июля 2020  г.: больше не будет доступен и служба поддержки Майкрософт больше не будет предоставлять помощь.
 
-### <a name="alternative-tools"></a>Альтернативные инструменты
+### <a name="alternative-tools"></a>Альтернативные средства
 
-В следующей таблице описаны другие средства, которые можно использовать для замены существующих функций, которые будут отменены.
+В следующей таблице описываются другие средства, которые можно использовать для замены существующих функций, которые больше не используются.
 
 <table>
 <thead>
 <tr class="header">
 <th>функциональность.</th>
-<th>Альтернативные инструменты</th>
-<th>Комментарии</th>
+<th>Альтернативные средства</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Поиск в почтовом ящике</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">* — ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">* — ComplianceSearchAction</span></a></p>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></a></p></td>
-<td><p>Командлеты ComplianceSearch и ComplianceSearchAction работают вместе, чтобы упростить поиск и экспорт контента. Вы можете создать новый поиск и просмотреть оценку поиска с помощью командлетов <strong>New</strong>, <strong>Get</strong>и <strong>Start – ComplianceSearch</strong> . Затем вы можете использовать команду <strong>New – ComplianceSearchAction – Export</strong> , чтобы экспортировать результаты поиска. Чтобы скачать результаты поиска на локальный компьютер, вам по-прежнему придется использовать основное средство обнаружения электронных данных в центре соответствия требованиям Microsoft 365.</p></p>
+<td><p>Для поиска и экспорта контента можно совместно работать с помощью cmdlets ComplianceSearch и ComplianceSearchAction. Вы можете создать новый поиск и просмотреть оценку поиска с помощью <strong>новых,</strong> <strong>Get-</strong>и <strong>Start-ComplianceSearch-cmdlets.</strong> Затем можно использовать команду <strong>New-ComplianceSearchAction -Export</strong> для экспорта результатов поиска. Вам по-прежнему придется использовать основное средство eDiscovery в Центре соответствия требованиям Microsoft 365, чтобы скачать эти результаты поиска на локальный компьютер.</p></p>
 </td>
 </tr>
 <tr class="even">
-<td>Удаление групповых сообщений электронной почты из почтового ящика</td>
+<td>Удаление массовых рассылок электронной почты из почтового ящика</td>
 <td><p><a href="https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Настройка политики архивации и удаления для почтовых ящиков</span></a></p>
 <p></p></td>
 <td><p>Администраторы могут создать политику архивации и удаления, которая автоматически перемещает элементы в архивный почтовый ящик пользователя и автоматически удаляет элементы из почтового ящика.</p>
@@ -298,87 +298,87 @@ _ *Я использую функцию копирования результа�
 <tr class="even">
 <td>Копирование результатов поиска в почтовый ящик обнаружения</td>
 <td> </td>
-<td>Для этой функции нет прямого замены, так как он не предоставляет доступ ко всем службам Microsoft 365. Альтернативные решения можно найти в разделе вопросы и ответы в разделе <strong>командлетов * – MailboxSearch</strong> . </td>
+<td>Прямой замены этой функции нет, так как она не предоставляет доступ ко всем службам Microsoft 365. Альтернативные решения см. в разделе "FaQs in the <strong>*-MailboxSearch cmdlets".</strong> </td>
 </tr>
 <tr class=odd>
   <td>Копирование сообщений из одного почтового ящика в другой</td>
-  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений для почтового ящика</a></td>
-  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает организацию и вам нужно предоставить другому человеку доступ к электронной почте бывшего сотрудника), мы рекомендуем назначить ему разрешения на доступ к почтовому ящику бывшего сотрудника. Поэтому вместо того чтобы копировать элементы почтового ящика в другой почтовый ящик пользователя или в общий почтовый ящик, просто Назначьте разрешения пользователя на доступ к исходному почтовому ящику.</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений почтовому ящику</a></td>
+  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает вашу организацию и вам необходимо предоставить другому пользователю доступ к электронной почте бывшего сотрудника), рекомендуется назначить ему разрешения на доступ к почтовому ящику бывшего сотрудника. Поэтому вместо копирования элементов почтового ящика в другой почтовый ящик пользователя или общий почтовый ящик просто назначьте пользователю разрешения на доступ к исходным почтовым ящикам.</td>
 </tr>
 <tr class=even>
-  <td>Удаление сообщений из почтового ящика</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">* — ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">* — ComplianceSearchAction</span></a></p>
+  <td>Очистка сообщений из почтового ящика</td>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></p></td>
-<td><p>Командлеты ComplianceSearch и ComplianceSearchAction работают вместе, чтобы упростить поиск и очистку контента. Вы можете создавать и запускать поиск с помощью командлетов <strong>New – ComplianceSearch</strong> и <strong>New ComplianceSearch</strong> , а затем удалять содержимое можно с помощью команды <strong>New – ComplianceSearchAction/</strong> unpurgetype определяет. Дополнительные сведения см. в статье <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">Поиск и удаление сообщений</span></a>.</p>
+<td><p>Для поиска и очистки контента совместно работают с помощью cmdlets ComplianceSearch и ComplianceSearchAction. Вы можете создать и запустить поиск с помощью командлетов <strong>New-ComplianceSearch</strong> и <strong>New-ComplianceSearch,</strong> а затем очистить контент с помощью команды <strong>New-ComplianceSearchAction -Purge -PurgeType.</strong> Дополнительные сведения <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">см. в поиске и удалении сообщений.</span></a></p>
 </td>
 </tr>
 <tr class="odd"> 
-<td>Удаление сообщений из почтового ящика</td>
-<td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений для почтового ящика</a></td>
-<td>Чтобы удалить сообщения из почтового ящика, назначьте права администратора для доступа к почтовому ящику сотрудника. При необходимости сообщения можно удалять и перезапускать, чтобы использовать встроенные возможности поиска и просмотра в Outlook.</td>
+<td>Очистка сообщений из почтового ящика</td>
+<td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений почтовому ящику</a></td>
+<td>Чтобы очистить сообщения из почтового ящика, назначьте администратору разрешения на доступ к почтовому ящику сотрудника. Сообщения можно удалять и перезасылать при необходимости, пользуясь встроенными возможностями поиска и просмотра в Outlook.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="exchange-web-services-api-operations"></a>Операции API веб-служб Exchange
 
-Эти операции в API веб-служб Exchange используются функцией In-Place обнаружения электронных данных & в центре администрирования Exchange и соответствующими командлетами **\* MailboxSearch** в Exchange Online PowerShell. Они также будут отключены в ходе снятия других средств обнаружения электронных данных.
+Эти операции в API веб-служб Exchange используются функцией In-Place eDiscovery & Holds в Центре администрирования Exchange и соответствующими cmdlets **\* -MailboxSearch** в Exchange Online PowerShell. Кроме того, они будут отменены в рамках выхода других устаревших средств eDiscovery.
 
 ### <a name="scope-of-affected-organizations"></a>Область затронутых организаций
 
-- Office 365 и Microsoft 365 корпоративный Организации
+- Организации Office 365 и Microsoft 365 корпоративный
 
 - Организации Office 365 и Microsoft 365 для образования
 
-- Office 365 и Microsoft 365 правительственные организации; в том числе GCC, GCC High и DoD
+- Организации Office 365 и Microsoft 365 для государственных организаций; это относится к GCC, GCC High и DoD
 
 - Office 365 Germany
 
 ### <a name="timeline"></a>Временная шкала
 
-- 1 июля 2020: операции GetSearchableMailboxes, SearchMailboxes, SetHoldOnMailboxes и GetHoldOnMailboxes больше не будут доступны, и служба поддержки Майкрософт больше не будет предоставлять помощь.
+- 1 июля 2020 г.: операции GetSearchableMailboxes, SearchMailboxes, SetHoldOnMailboxes и GetHoldOnMailboxes будут недоступны, и служба поддержки Майкрософт больше не будет предоставлять помощь.
 
-## <a name="advanced-ediscovery-v10"></a>Расширенное обнаружение электронных данных v 1.0
+## <a name="advanced-ediscovery-v10"></a>Advanced eDiscovery 1.0
 
-Advanced eDiscovery 1.0, которая является версией расширенного обнаружения электронных данных в базовом варианте обнаружения электронных данных путем нажатия кнопки **переключиться на расширенный режим обнаружения электронных** данных, будет снят. Его функции заменены новым [расширенным решением обнаружения электронных](https://aka.ms/edisco) данных в центре соответствия требованиям Microsoft 365.
+Advanced eDiscovery версии 1.0, которая является версией Advanced eDiscovery, доступной в случае основного eDiscovery, нажав кнопку "Переключиться на **Advanced eDiscovery",** больше не будет. Его функциональность заменена новым [решением Advanced eDiscovery](https://aka.ms/edisco) в Центре соответствия требованиям Microsoft 365.
 
-Чтобы определить, использует ли ваша организация Расширенное обнаружение электронных данных версии 1.0:
+Чтобы определить, использует ли ваша организация Advanced eDiscovery 1.0:
 
-1. Перейдите в [Центр обеспечения безопасности & Office 365](https://protection.office.com).
+1. Перейдите в [Центр безопасности и соответствия & Office 365.](https://protection.office.com)
 
-2. В левой области навигации центра & соответствия требованиям безопасности щелкните **Обнаружение электронных данных > обнаружения электронных** данных и откройте основное дело обнаружения электронных данных.
+2. В левой области навигации Центра безопасности & соответствия требованиям щелкните **eDiscovery > eDiscovery** и откройте дело основного eDiscovery.
 
-3. Если вы видите кнопку **Advanced eDiscovery (Advanced eDiscovery** ), то она попытается перейти в 1,0 версию Advanced eDiscovery, которая будет удалена. Возможность создания и управления обращениями в ядре обнаружения электронных данных не затрагивается. Отменяется только возможность добавлять и анализировать данные о делах в Advanced eDiscovery версии 1.0 (нажав кнопку **переключиться на Advanced eDiscovery** ).
+3. Если вы видите кнопку "Переключиться на **Advanced eDiscovery",** нажмите ее, чтобы перейти к версии 1.0 Advanced eDiscovery, которая больше не существует. Возможность создания дел и управления ими в Core eDiscovery не затрагивается. Больше не будет возможности добавлять и анализировать данные дела в Advanced eDiscovery 1.0 (щелкнув "Переключиться на **advanced eDiscovery").**
 
-Новое решение для обнаружения электронных данных в Microsoft 365 (также известное как *Advanced eDiscovery 2.0* ) предоставляет все возможности исходного решения, но теперь включает основанный на хранитель подход к идентификации контента в других службах Microsoft 365, сбор этого содержимого и добавление его в набор рецензирования, в котором рецензенты могут использовать преимущества запросов FAST Search, маркировки и анализа, чтобы помочь отключать важные документы. Расширенное обнаружение электронных данных теперь включает в себя улучшенную обработку и собственные средства просмотра для типов файлов Майкрософт и других типов, [здесь](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) перечислены все типы файлов, а также поля, поддерживаемые в [метаданных.](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery) Кроме того, новое расширенное решение обнаружения электронных данных предоставляет мощную функцию управления хранитель, которая позволяет применять удержания к содержимому в различных службах, уведомлять пользователей о удержаниях и отслеживать ответы хранитель, все в рамках расширенного случая обнаружения электронных данных.
+Новое решение Advanced eDiscovery в Microsoft 365 (также известное как *Advanced eDiscovery 2.0)* предоставляет все возможности исходного решения, но теперь включает основанный на хранителях подход к идентификации контента в других службах Microsoft 365, сбору этого контента и его добавлению в набор для проверки, в котором проверяющие могут использовать быстрые поисковые запросы, теги и функции аналитики для сбора релевантного документа. Advanced eDiscovery теперь включает улучшенную обработку и просмотр файлов как от Майкрософт, так [](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) и для других типов файлов. Здесь вы можете найти полный список типов файлов, а также поддерживаемые поля [метаданных.](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery) Кроме того, новое решение Advanced eDiscovery предоставляет мощную функцию управления хранением данных, которая позволяет применять хранение к контенту в различных службах, уведомлять пользователей об этом и отслеживать ответы хранителя в рамках дела Advanced eDiscovery.
 
-Для доступа к расширенной функции обнаружения электронных данных версии 2.0:
+Чтобы получить доступ к Advanced eDiscovery 2.0:
 
-1. Перейдите в [центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com).
+1. Перейдите в [Центр соответствия требованиям Microsoft 365.](https://compliance.microsoft.com)
 
-2. В левой области навигации центра соответствия требованиям Microsoft 365 щелкните **Показать все** , а затем выберите **> обнаружения электронных** данных.
+2. В левой области навигации Центра соответствия требованиям Microsoft 365 щелкните "Показать **все"** и выберите "> **Advanced".**
 
-В настоящее время мы рекомендуем начать перевод рабочего процесса обнаружения электронных данных на новые расширенные функции обнаружения электронных данных. При необходимости вы можете архивировать расширенные случаи обнаружения электронных данных 1,0, экспортировав содержимое и сохранив его в автономном режиме. Несмотря на то что вы по-прежнему можете получать доступ к расширенному функции обнаружения электронных данных версии 1.0 в существующих случаях до 31 декабря 2020 г., поддержка Майкрософт не будет предоставляться после 1 октября 2020 г. Для получения дополнительных сведений посетите следующую временную шкалу.
+В настоящее время рекомендуется приступить к переходу рабочего процесса eDiscovery на новые функции Advanced eDiscovery. При необходимости вы можете архивировать дела Advanced eDiscovery 1.0, экспортировать содержимое и хранить его в автономном режиме. Хотя вы по-прежнему сможете получить доступ к Advanced eDiscovery 1.0 в существующих случаях до 31 декабря 2020 г., служба поддержки Майкрософт не будет предоставлять поддержку после 1 октября 2020 г. Дополнительные сведения см. на следующей временной шкале.
 
 ### <a name="scope-of-affected-organizations"></a>Область затронутых организаций
 
-- Office 365 и Microsoft 365 корпоративный Организации
+- Организации Office 365 и Microsoft 365 корпоративный
 
 - Организации Office 365 и Microsoft 365 для образования
 
-- Office 365 и Microsoft 365 правительственные организации; в том числе GCC, GCC High и DoD
+- Организации Office 365 и Microsoft 365 для государственных организаций; это относится к GCC, GCC High и DoD
 
 - Office 365 Germany
 
 ### <a name="timeline"></a>Временная шкала
 
-- 1 июля 2020 г.: вы не сможете создавать новые расширенные варианты обнаружения электронных данных версии 1.0.
+- 1 июля 2020 г.: вы не сможете создать новые дела Advanced eDiscovery 1.0.
 
-- 1 октября 2020 г.: в любые случаи невозможно добавить новые данные (подготовьте результаты поиска для расширенного обнаружения электронных данных). Вы сможете продолжать работу с данными в существующих случаях на свой риск. Служба поддержки Майкрософт больше не будет предоставлять помощь. 
+- 1 октября 2020 г.: вы не сможете добавлять новые данные (подготовка результатов поиска для Advanced eDiscovery) в любые дела. Вы сможете продолжать работать с данными в существующих случаях на свой собственный риск. Служба поддержки Майкрософт больше не будет предоставлять помощь. 
 
-- 31 декабря 2020 г.: вы не сможете получить доступ к дополнительным случаям обнаружения электронных данных версии 1.0.
+- 31 декабря 2020 г. Вы не сможете получить доступ к делам Advanced eDiscovery 1.0.
 
-### <a name="alternative-tools"></a>Альтернативные инструменты
+### <a name="alternative-tools"></a>Альтернативные средства
 
-[Расширенное решение обнаружения электронных](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) данных в центре соответствия требованиям Microsoft 365.
+Решение [Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) в Центре соответствия требованиям Microsoft 365.

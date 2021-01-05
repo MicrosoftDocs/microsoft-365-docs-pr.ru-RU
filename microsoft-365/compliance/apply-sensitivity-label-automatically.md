@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначать файлам или сообщениям электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: dafb31f823dc8c63fa19ad8dba0624ee2037b859
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 3f789396c3ee6746277e01f8b5c6a772bcd528ac
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682834"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751425"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -128,11 +128,13 @@ ms.locfileid: "49682834"
 
 ![Типы конфиденциальной информации для автоматического присвоения меток в приложениях Office](../media/sensitivity-labels-sensitive-info-types.png)
 
-Выбрав типы конфиденциальной информации, вы можете уточнить условия, изменив количество экземпляров или точность совпадения. Дополнительные сведения см. в разделе [Настройка правил для упрощения или усложнения сопоставления](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
+Аналогично настройке политик защиты от потери данных вы можете затем уточнить условие, изменив количество экземпляров и точность совпадений. Например:
 
-Более того, можно задать условие, чтобы определялись все типы конфиденциальной информации или только один из них. Чтобы условия были более гибкими или сложными, можно добавлять группы и использовать логические операторы в отношении групп. Дополнительные сведения см. в разделе [Группировка и логические операторы](data-loss-prevention-policies.md#grouping-and-logical-operators).
+![Параметры точности совпадения и количества экземпляров](../media/sensitivity-labels-instance-count-match-accuracy.png)
 
-![Параметры количества экземпляров и точности совпадения](../media/Sensitivity-labels-instance-count-match-accuracy.png)
+Дополнительные сведения об этих параметрах настройки см. в документации по защите от потери данных [Настройка более или менее строгих правил](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
+
+По аналогии с настройкой политики от защиты данных вы также можете задать условие, чтобы определялись все типы конфиденциальной информации или только один из них. Чтобы условия были более гибкими или сложными, можно добавлять [группы и использовать логические операторы в отношении групп](data-loss-prevention-policies.md#grouping-and-logical-operators).
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>Настройка обучаемых классификаторов для метки
 
