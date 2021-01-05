@@ -17,26 +17,26 @@ search.appverid:
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Общие сведения об обработке различных форм данных в Advanced eDiscovery.
-ms.openlocfilehash: c82363a846334ccf47fc28cf0aaa25e92f2bbea9
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+description: Обзор обработки различных форм данных в Advanced eDiscovery.
+ms.openlocfilehash: d7969b1ef77fc161cccc85a8dee020ebe21acdb0
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285245"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751516"
 ---
-# <a name="work-with-processing-errors-in-advanced-ediscovery"></a><span data-ttu-id="40add-103">Работа с ошибками обработки в Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="40add-103">Work with processing errors in Advanced eDiscovery</span></span>
+# <a name="work-with-processing-errors-in-advanced-ediscovery"></a><span data-ttu-id="c3e19-103">Работа с ошибками обработки в Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="c3e19-103">Work with processing errors in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="40add-104">*Обработка* — это процесс идентификации файлов, расширения внедренных документов и вложений, извлечения текста и оптического распознавания текста (OCR), а также последующая индексация этого содержимого.</span><span class="sxs-lookup"><span data-stu-id="40add-104">*Processing* is the process of file identification, expansion of embedded documents and attachments, text extraction, and Optical Character Recognition (OCR)) of image files and the subsequent indexing of that content.</span></span>  
+<span data-ttu-id="c3e19-104">*Обработка* — это процесс идентификации файлов, расширения внедренных документов и вложений, извлечения текста и распознавания текста (OCR) файлов изображений и последующей индексации этого содержимого.</span><span class="sxs-lookup"><span data-stu-id="c3e19-104">*Processing* is the process of file identification, expansion of embedded documents and attachments, text extraction, and Optical Character Recognition (OCR)) of image files and the subsequent indexing of that content.</span></span>  
 
-<span data-ttu-id="40add-105">Когда вы добавляете источники данных custodians и хранитель в дело на вкладке **источники** , все частично индексированные элементы из Microsoft 365 обрабатываются, чтобы сделать их полным поиском.</span><span class="sxs-lookup"><span data-stu-id="40add-105">When you add custodians and non-custodian data sources to a case on the **Sources** tab, all partially indexed items from Microsoft 365 are processed to make them fully searchable.</span></span> <span data-ttu-id="40add-106">Аналогично, когда контент добавляется в набор проверки из источников данных Microsoft 365 и не Microsoft 365, этот контент также обрабатывается.</span><span class="sxs-lookup"><span data-stu-id="40add-106">Likewise, when content is added to a review set from both Microsoft 365 and non-Microsoft 365 data sources, this content is also processed.</span></span>
+<span data-ttu-id="c3e19-105">При добавлении хранителей и источников данных, не  относящемся к хранителям, в дело на вкладке "Источники" обрабатываются все частично индексируемые элементы из Microsoft 365, чтобы сделать их полностью поисковыми.</span><span class="sxs-lookup"><span data-stu-id="c3e19-105">When you add custodians and non-custodian data sources to a case on the **Sources** tab, all partially indexed items from Microsoft 365 are processed to make them fully searchable.</span></span> <span data-ttu-id="c3e19-106">Аналогичным образом, при добавлении контента в набор для проверки из источников данных Microsoft 365 и других источников данных также обрабатывается этот контент.</span><span class="sxs-lookup"><span data-stu-id="c3e19-106">Likewise, when content is added to a review set from both Microsoft 365 and non-Microsoft 365 data sources, this content is also processed.</span></span>
 
-<span data-ttu-id="40add-107">На вкладке **Обработка** расширенного обнаружения электронных данных представлены сведения о состоянии расширенной индексации для различных сценариев обработки.</span><span class="sxs-lookup"><span data-stu-id="40add-107">The **Processing** tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios.</span></span>
+<span data-ttu-id="c3e19-107">Вкладка **"Обработка"** в Advanced eDiscovery позволяет получить представление о состоянии расширенных индексов для различных сценариев обработки.</span><span class="sxs-lookup"><span data-stu-id="c3e19-107">The **Processing** tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios.</span></span>
 
-<span data-ttu-id="40add-108">Дополнительные сведения см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="40add-108">For more information, see the following articles:</span></span>
+<span data-ttu-id="c3e19-108">Дополнительные сведения см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="c3e19-108">For more information, see the following articles:</span></span>
 
-- [<span data-ttu-id="40add-109">Расширенная индексация данных хранителя</span><span class="sxs-lookup"><span data-stu-id="40add-109">Advanced indexing of custodian data</span></span>](indexing-custodian-data.md)
+- [<span data-ttu-id="c3e19-109">Расширенная индексация данных хранителя</span><span class="sxs-lookup"><span data-stu-id="c3e19-109">Advanced indexing of custodian data</span></span>](indexing-custodian-data.md)
 
-- [<span data-ttu-id="40add-110">Исправление ошибок при обработке данных</span><span class="sxs-lookup"><span data-stu-id="40add-110">Error remediation when processing data</span></span>](error-remediation.md)
+- [<span data-ttu-id="c3e19-110">Исправление ошибок при обработке данных</span><span class="sxs-lookup"><span data-stu-id="c3e19-110">Error remediation when processing data</span></span>](error-remediation-when-processing-data-in-advanced-ediscovery.md)
 
-- [<span data-ttu-id="40add-111">Исправление ошибки одного элемента</span><span class="sxs-lookup"><span data-stu-id="40add-111">Single item error remediation</span></span>](single-item-error-remediation.md)
+- [<span data-ttu-id="c3e19-111">Исправление ошибки одного элемента</span><span class="sxs-lookup"><span data-stu-id="c3e19-111">Single item error remediation</span></span>](single-item-error-remediation.md)
