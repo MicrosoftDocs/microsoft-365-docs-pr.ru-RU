@@ -1,7 +1,7 @@
 ---
-title: Устранение проблем со службой защитника Microsoft 365
-description: Поиск решений и обход известных проблем защитника Microsoft 365
-keywords: Устранение неполадок в защите от угроз Майкрософт, устранение неполадок, Azure ATP, проблемы, надстройка, страница параметров
+title: Устранение неполадок службы Microsoft 365 Defender
+description: Поиск решений и решений для известных проблем с Защитником Microsoft 365
+keywords: устранение неполадок Защиты от угроз (Майкрософт), устранение неполадок, Azure ATP, проблемы, надстройка, страница параметров
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,35 +19,35 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 16cb1116f400c8d0a83ccc4cac23da06cd1be2a4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b7b6ea55d084c114b79dfee0e061b09c8ede8632
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844672"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760462"
 ---
-# <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Устранение проблем со службой защитника Microsoft 365
+# <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Устранение неполадок службы Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
-В этом разделе рассматриваются проблемы, которые могут возникнуть при использовании службы защитника Microsoft 365.
+В этом разделе решается проблема, которая может возникнуть при использовании службы Защитника Microsoft 365.
 
+## <a name="i-dont-see-microsoft-365-defender-content"></a>Содержимое Защитника Microsoft 365 не видно
 
-## <a name="i-dont-see-microsoft-365-defender-content"></a>Я не вижу содержимого защитника Microsoft 365
-Если вы не видите возможности в области навигации, такие как инциденты, Центр уведомлений или поиск на портале, необходимо убедиться, что у клиента есть соответствующие лицензии. 
+Если в области навигации нет таких возможностей, как "Инциденты", "Центр действий" или "Охота" на портале, необходимо убедиться, что у вашего клиента есть соответствующие лицензии.
 
 Дополнительные сведения см. в статье [Предварительные требования](prerequisites.md).
 
-## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Защитник Майкрософт для оповещений об удостоверениях не отображается в происшествиях защитника Microsoft 365
-Если у вас есть защитник Майкрософт для удостоверения, развернутого в вашей среде, но вы не видите компонент "уведомления об удостоверениях" в ходе инцидентов защитника Microsoft 365, то необходимо убедиться в том, что Microsoft Cloud App Security and защитник для интеграции удостоверений включен. 
+## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Оповещения Microsoft Defender для удостоверений не отображаются в инцидентах Защитника Microsoft 365
 
-Для получения дополнительных сведений обратитесь [к защитнику Майкрософт для интеграции удостоверений](https://docs.microsoft.com/cloud-app-security/aatp-integration).
+Если в вашей среде развернут Microsoft Defender для удостоверений, но оповещения Защитника удостоверений не видятся как часть инцидентов в Microsoft 365 Defender, необходимо убедиться, что интеграция Microsoft Cloud App Security и Защитника удостоверений включена.
 
-## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Где находится страница параметров для включения службы?
-Чтобы включить защитник Microsoft 365, **Параметры** доступа из области навигации центра безопасности Майкрософт 365. Этот элемент навигации отображается, только если у вас есть необходимые [разрешения и лицензии](mtp-enable.md#check-license-eligibility-and-required-permissions).
- 
+Дополнительные сведения см. в [microsoft Defender для интеграции удостоверений.](https://docs.microsoft.com/cloud-app-security/mdi-integration)
 
+## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Где находится страница параметров для включаемой службы?
+
+Чтобы включить Microsoft 365  Defender, можно получить доступ к параметрам из области навигации в Центре безопасности Microsoft 365. Этот элемент навигации виден, только если у вас есть необходимые [разрешения и лицензии.](mtp-enable.md#check-license-eligibility-and-required-permissions)

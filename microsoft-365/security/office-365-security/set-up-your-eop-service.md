@@ -14,19 +14,19 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Администраторы могут узнать, как настроить автономный exchange Online Protection (EOP) для защиты локальной среды электронной почты.
-ms.openlocfilehash: 2d63057e77e6965616e19452de824a94ba0ccda8
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: ca95f7dce30e8e751e293bf4e5de9caf0c845d29
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659421"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760498"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Настройка автономных служб EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-В этом разделе объясняется, как настроить автономный Exchange Online Protection (EOP). Если вы вернулись сюда из мастера доменов Office 365, перейти в мастер доменов Office 365, если вы не хотите использовать Exchange Online Protection. Дополнительные сведения о настройке соединители см. в подстройке "Настройка потока почты с помощью соединители [в Office 365".](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
+В этом разделе объясняется, как настроить автономный exchange Online Protection (EOP). Если вы вернулись сюда из мастера доменов Office 365, перейти в мастер доменов Office 365, если вы не хотите использовать Exchange Online Protection. Дополнительные сведения о настройке соединители см. в подключении к настройке потока почты с помощью соединители [в Office 365.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
 
 > [!NOTE]
 > В этом разделе предполагается, что у вас есть почтовые ящики и вы хотите защитить их с помощью EOP, известного как автономный сценарий. Если вы хотите, чтобы все почтовые ящики были в облаке с exchange Online, вам не нужно выполнить все действия, которые данная статья должна выполнить. [Сравните планы Exchange Online,](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) чтобы зарегистрироваться и приобрести облачные почтовые ящики.
@@ -41,7 +41,7 @@ ms.locfileid: "49659421"
 
 - Если вы не подписаны на EOP, посетите [Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection) и приобретите службу или получите ее пробную версию.
 
-- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" для Центра администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
+- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" в Центре администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
 
 > [!TIP]
 > Возникли проблемы? Обратитесь за помощью на форум по [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351).
@@ -80,9 +80,9 @@ ms.locfileid: "49659421"
 
 Если вы не хотите перемещать сообщения в папку нежелательной почты каждого пользователя, вы можете выбрать другое действие, отредактировать политики борьбы с нежелательной почтой. Дополнительные сведения см. в разделе [Настройка политик защиты от спама в Office 365](configure-your-spam-filter-policies.md).
 
-## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6. Использование Центра администрирования Microsoft 365 для указать запись MX на EOP
+## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6. Использование Центра администрирования Microsoft 365 для ссылки записи MX на EOP
 
-Выполните действия по настройке домена, чтобы обновить запись MX для своего домена, чтобы входящие сообщения электронной почты проходят через EOP. Не забудьте указать запись MX непосредственно на EOP, а не на стороне службы фильтрации, ретранслировать электронную почту в EOP. Для получения дополнительных сведений вы снова можете ссылаться [на создание записей DNS для Office 365.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+Выполните действия по настройке домена, чтобы обновить запись MX для своего домена, чтобы входящие сообщения электронной почты проходят через EOP. Не забудьте указать запись MX непосредственно на EOP, а не на стороную службу фильтрации, ретранслятор электронной почты в EOP. Для получения дополнительных сведений вы снова можете ссылаться [на создание записей DNS для Office 365.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
 
 > [!NOTE]
 > Если необходимо указать запись MX на другой сервер или службу, расположенную перед EOP, см. статью "Расширенная фильтрация для соединителю" [в Exchange Online.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
@@ -98,6 +98,6 @@ ms.locfileid: "49659421"
 - Если нужно запустить тест для исходящей почты, вы можете отправить электронное сообщение от пользователя в вашей организации на учетную запись электронной почты в Интернете и подтвердить получение сообщения.
 
 > [!TIP]
-> После завершения настройки вам не нужно выполнять дополнительные действия, чтобы EOP удалил спам и вредоносные программы. EOP удаляет нежелательную почту и вредоносные программы автоматически. Однако вы можете точно настроить параметры в зависимости от бизнес-требований. Дополнительные сведения см. в дополнительных сведениях о защите от нежелательной почты и вредоносных программ [в Office 365](anti-spam-and-anti-malware-protection.md) и настройке аналитики [спуфингов.](learn-about-spoof-intelligence.md)
+> Завершив настройку, вам не нужно выполнять дополнительные действия, чтобы EOP удалила спам и вредоносные программы. EOP удаляет нежелательную почту и вредоносные программы автоматически. Однако вы можете точно настроить параметры в зависимости от бизнес-требований. Дополнительные сведения см. в дополнительных сведениях о защите от нежелательной почты и вредоносных программ [в Office 365](anti-spam-and-anti-malware-protection.md) и настройке аналитики [спуфингов.](learn-about-spoof-intelligence.md)
 >
 > Теперь, когда служба запущена, рекомендуем прочитать рекомендации по настройке [EOP,](best-practices-for-configuring-eop.md)в которой описываются рекомендуемые параметры и рекомендации после настройки EOP.
