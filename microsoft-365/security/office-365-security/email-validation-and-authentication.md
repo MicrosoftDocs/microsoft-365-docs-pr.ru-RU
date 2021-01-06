@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Сведения для администраторов об использовании проверки подлинности электронной почты (SPF, DKIM и DMARC) в EOP для предотвращения спуфинга, фишинга и спама.
-ms.openlocfilehash: 7c196b68d88187da2890cc886f646c5416ef9a11
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 6a0bf6fd7958f44a9cfbe7ae0600aeb064170437
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131077"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760522"
 ---
 # <a name="email-authentication-in-eop"></a>Проверка подлинности электронной почты в EOP
 
