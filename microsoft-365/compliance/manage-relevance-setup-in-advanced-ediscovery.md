@@ -14,13 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
+ROBOTS: NOINDEX, NOFOLLOW
 description: Прочтите рекомендации по настройке обучения релевантности в Advanced eDiscovery для оценки файлов по их релевантности и получения результатов анализа.
-ms.openlocfilehash: a6bec149e11fa80fb57cb811120218fa7f2cc45b
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 8ba09babc91f233514cd0195c3e1da08b07ccb3c
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662874"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760213"
 ---
 # <a name="manage-relevance-setup-in-advanced-ediscovery-classic"></a>Управление настройкой релевантности в Advanced eDiscovery (классическая версия)
 
@@ -69,15 +70,4 @@ ms.locfileid: "49662874"
 
 - Точно определяйте и упорядочивайте вопросы, так как это может повлиять на результаты обучения релевантности.
 
-После настройки параметров проверяющий или специалист может начать обучение на файлах, открыв вкладку **Релевантность**. 
-  
-## <a name="see-also"></a>См. также
-
-[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
-  
-[Определение вопросов и назначение пользователей](define-issues-and-assign-users.md)
-  
-[Настройка полных пакетов для добавления импортированных файлов](set-up-loads-to-add-imported-files.md)
-  
-[Определение выделенных ключевых слов и дополнительных параметров](define-highlighted-keywords-and-advanced-options.md)
-
+После настройки параметров проверяющий или специалист может начать обучение на файлах, открыв вкладку **Релевантность**.
