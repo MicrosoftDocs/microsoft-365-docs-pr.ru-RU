@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверять сообщения, отправленные из вашей организации.
-ms.openlocfilehash: 9dd97b1fc60f0b6198bb6c55af291c7dd103ac5d
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: bcf1c0b3dc0a1a8dd8a679af815fbdc2173cabb7
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615340"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759860"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Использование протокола DMARC для проверки электронной почты
 
@@ -194,13 +194,13 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 
 4. Как настроить DMARC для поддомена?
 
-DMARC реализуется путем публикации политики в виде TXT-записи в DNS и является иерархическим объектом (например, политика, опубликованная для contoso.com, будет применяться к sub.domain.contonos.com, если для этого поддомена явным образом не определена другая политика). Это удобно, так как организации могут указывать меньшее число записей DMARC для большего покрытия. Следует проявлять осторожность при настройке явных записей DMARC поддомена, где не нужно, чтобы дочерние домены наследовали запись DMARC домена верхнего уровня.
+   DMARC реализуется путем публикации политики в виде TXT-записи в DNS и является иерархическим объектом (например, политика, опубликованная для contoso.com, будет применяться к sub.domain.contonos.com, если для этого поддомена явным образом не определена другая политика). Это удобно, так как организации могут указывать меньшее число записей DMARC верхнего уровня для большего покрытия. Следует проявлять осторожность при настройке явных записей DMARC поддомена, где не нужно, чтобы дочерние домены наследовали запись DMARC домена верхнего уровня.
 
-Кроме того, вы можете добавить политику с подстановочным знаком для DMARC, если поддомены не должны отправлять почту, добавив значение `sp=reject`. Например:
+   Кроме того, вы можете добавить политику с подстановочным знаком для DMARC, если поддомены не должны отправлять почту, добавив значение `sp=reject`. Например:
 
-```console
-_dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
-```
+   ```text
+   _dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
+   ```
 
 ## <a name="how-microsoft-365-handles-outbound-email-that-fails-dmarc"></a>Как Microsoft 365 обрабатывает исходящую почту, не прошедшую проверку DMARC
 
