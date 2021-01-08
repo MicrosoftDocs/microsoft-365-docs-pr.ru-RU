@@ -3,7 +3,7 @@ title: Калькулятор адресного пространства для
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/01/2020
+ms.date: 01/07/2021
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -15,28 +15,28 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 - seo-marvel-apr2020
-description: 'Сводка: расчет адресного пространства подсети шлюза Azure с помощью C3, Python или PowerShell.'
-ms.openlocfilehash: 5e119f1ddefb5877886042b835ffdd093a34f0f8
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+description: Сводка. Расчет адресного пространства подсети шлюза Azure с помощью C3, Python или PowerShell.
+ms.openlocfilehash: d92bea5c36fde6277154d19365ed0bdaa5df4254
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332798"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780572"
 ---
 # <a name="address-space-calculator-for-azure-gateway-subnets"></a>Калькулятор адресного пространства для подсетей шлюза Azure
 
-Виртуальная сеть (VNet) в службах инфраструктуры Azure, подключенных к другим сетям, должна иметь подсеть шлюза. Ниже приведены рекомендации по определению этой подсети.
+Виртуальная сеть в службах инфраструктуры Azure, подключенная к другим сетям, должна иметь подсеть шлюза. Для определения подсети шлюза лучше всего:
 
-- Длина префикса подсети шлюза может быть равна 29 (например, 10.119.255.248/29), но текущая рекомендация состоит в том, что длина префикса равна 27 (например, 10.119.255.224/27).
-- При определении адресного пространства подсети шлюза используйте самую последнюю часть адресного пространства виртуальной сети.
+- Длина префикса подсети шлюза может иметь максимальную длину префикса 29 (например, 10.119.255.248/29), но по текущей рекомендации используется длина префикса 27 (например, 10.119.255.224/27).
+- При определении адресного пространства подсети шлюза используйте последнюю часть адресного пространства VNet.
 
-Во второй рекомендации можно определить адресное пространство подсети шлюза, указав для битов, используемых для подсети шлюза, значение 0, а для остальных переменных в адресном пространстве виртуальной сети — значение 1. Чтобы быстро рассчитать адресное пространство подсети шлюза без преобразования в двоичный формат и обратно в десятичное, можно использовать консольное приложение, написанное на языке C# или Python или с блоком команд PowerShell.
+Во второй рекомендации можно определить адресное пространство подсети шлюза, установив для битов, используемых для подсети шлюза, 0, а для остальных битов в адресной области VNet - 1. Чтобы быстро рассчитать адресное пространство подсети шлюза без преобразования в двоичное и обратное в десятичное, можно использовать консольное приложение, написанное на C# или Python, или с блоком команд PowerShell.
 
-В этой статье содержатся блоки кода C#, Python и PowerShell, собирающие пять целых чисел — значения w. x. y. z/n для префикса адреса виртуальной сети и длина префикса подсети шлюза — и вычисляется адресное пространство подсети шлюза.
+В этой статье содержатся блоки кода C#, Python и PowerShell, которые вычисляют адресное пространство подсети шлюза на основе значений w.x.y.z/n для префикса адреса VNet и длины префикса подсети шлюза.
 
 ## <a name="c-code-block"></a>Блок кода C#
 
-Используйте этот блок кода для создания консольного приложения на языке C#.
+Используйте этот блок кода для создания консольного приложения на C#.
 
 ```c#
 using System; 
@@ -62,8 +62,8 @@ namespace ConsoleApplication1
  
             // Get the five values needed from the keyboard. 
             Console.WriteLine("**************************************************************************"); 
-            Console.WriteLine("*** Gateway subnet address space calculator for Azure virtual networks ***");             
-            Console.WriteLine("**************************************************************************");  
+            Console.WriteLine("**_ Gateway subnet address space calculator for Azure virtual networks _*_");             
+            Console.WriteLine("_*************************************************************************");  
             Console.WriteLine(); 
             Console.WriteLine("Please supply your virtual network address space in the form of w.x.y.z/n."); 
             Console.WriteLine(); 
@@ -110,14 +110,14 @@ namespace ConsoleApplication1
 
 ## <a name="python-code-block"></a>Блок кода Python
 
-Используйте этот блок кода для создания консольного приложения в Python.
+Используйте этот блок кода для создания консольного приложения на Python.
 
 ```python
 import math 
 # Collect the values of w.x.y.z/n for your VNet address space and g, the prefix length of your gateway subnet 
 print("**************************************************************************")  
-print("*** Gateway subnet address space calculator for Azure virtual networks ***")  
-print("**************************************************************************\n")   
+print("**_ Gateway subnet address space calculator for Azure virtual networks _*_")  
+print("_*************************************************************************\n")   
 print("Please supply your virtual network address space in the form of w.x.y.z/n.");  
 w=int(input("w = ")) 
 x=int(input("x = ")) 
@@ -149,7 +149,7 @@ print(gwAddrPref)
 
 ## <a name="powershell-command-block"></a>Блок команд PowerShell
 
-Заполните значения и запустите получившийся блок команд в окне PowerShell или в ИНТЕГРИРОВАНной среде выполнения PowerShell.
+Заполните значения и запустите итоговый блок команд в окне PowerShell или интегрированной среде сценариев (ISE) PowerShell.
 
 ```powershell
 # Specify the values of w.x.y.z/n for your VNet address space and g, the prefix length of your gateway subnet: 
@@ -180,4 +180,3 @@ Write-Host "Your gateway address prefix is: " $dx
 ## <a name="related-topics"></a>Статьи по теме
 
 [Управление Microsoft 365 с помощью PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
-

@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: Сводка. В новой веб-службе конечных точек отсутствует небольшое количество конечных точек для определенных сценариев.
 hideEdit: true
-ms.openlocfilehash: 8e1d464a4bb24594ae783a8e1e272050b6c038bb
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: d5c97fa2399392b03e00644f270e8726570aefb5
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682857"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780584"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Дополнительные конечные точки не включены в веб-службу IP-адресов и URL-адресов Office 365
 
@@ -74,12 +74,18 @@ ms.locfileid: "49682857"
 
 [Управление конечными точками Office 365](managing-office-365-endpoints.md)
   
-[Мониторинг подключения Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
+[Проверка подключения Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
   
 [Подключение клиентских компьютеров](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   
 [Сети доставки содержимого](https://support.office.com/article/content-delivery-networks-0140f704-6614-49bb-aa6c-89b75dcd7f1f)
   
-[Диапазоны IP-адресов центра обработки данных Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653)
+[Диапазоны IP-адресов и теги служб Azure — общечное облако](https://www.microsoft.com/download/details.aspx?id=56519)
+
+[Диапазоны IP-адресов и теги служб Azure — облако для государственных органов США](https://www.microsoft.com/download/details.aspx?id=57063)
+
+[Диапазоны IP-адресов и теги служб Azure — облако в Германии](https://www.microsoft.com/download/details.aspx?id=57064)
+
+[Диапазоны IP-адресов и теги служб Azure — Облако Китая](https://www.microsoft.com/download/details.aspx?id=57062)
   
 [Пространство публичных IP-адресов корпорации Майкрософт](https://www.microsoft.com/download/details.aspx?id=53602)
