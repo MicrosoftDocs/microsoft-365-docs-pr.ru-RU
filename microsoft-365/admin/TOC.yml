@@ -66,6 +66,8 @@
           href: whats-new-in-preview.md
         - name: Отслеживание изменений
           href: manage/stay-on-top-of-updates.md
+        - name: Управление несколькими клиентами
+          href: multi-tenant/manage.md
     - name: 'Служба Office 365, предоставляемая 21Vianet'
       items:
         - name: 'Сведения о службе Office 365, предоставляемой 21Vianet'
