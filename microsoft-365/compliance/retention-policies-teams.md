@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: 5e460c75bf51dd23e662696c725623d3b7eab39d
-ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
+ms.openlocfilehash: 12338c1679a8e0c5921ec3f4f05df85989413ccd
+ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49409229"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49784314"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -107,7 +107,7 @@ ms.locfileid: "49409229"
 
 ## <a name="when-a-user-leaves-the-organization"></a>Когда пользователь покидает организацию 
 
-Если пользователь покидает организацию, а его учетная запись Microsoft 365 удаляется, его подлежащие хранению сообщения чата находятся в неактивном почтовом ящике. Сообщения чата не удаляются, но при этом подчиняются любой политике хранения, которая была установлена для почтового ящика до того, как он стал неактивным, и содержимое доступно для поиска eDiscovery. Дополнительные сведения см. в разделе [Неактивные почтовые ящики в Exchange Online](inactive-mailboxes-in-office-365.md). 
+Если пользователь, у которого есть почтовый ящик в Exchange Online, покидает организацию, а его учетная запись Microsoft 365 удаляется, его сообщения чата, подлежащие хранению, находятся в неактивном почтовом ящике. Сообщения чата не удаляются, но при этом подчиняются любой политике хранения, которая была установлена для почтового ящика до того, как он стал неактивным, и содержимое доступно для поиска eDiscovery. Дополнительные сведения см. в разделе [Неактивные почтовые ящики в Exchange Online](inactive-mailboxes-in-office-365.md). 
 
 Если пользователь хранил файлы в Teams, см. [аналогичный раздел](retention-policies-sharepoint.md#when-a-user-leaves-the-organization) в SharePoint и OneDrive.
 
