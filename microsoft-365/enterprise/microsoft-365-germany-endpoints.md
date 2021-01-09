@@ -1,7 +1,7 @@
 ---
 title: Конечные точки Office 365 для Германии
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 01/04/2021
 audience: ITPro
@@ -20,12 +20,12 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: В этой статье вы найдете конечные точки, которые будут досяжимы для клиентов, использующих Office 365 в Германии.
 hideEdit: true
-ms.openlocfilehash: 767c7dd570ac03ae1ceb784b4917ee816837530a
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 7c4a65780892d6e257c1c03832cd640bdd4573f3
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751631"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787919"
 ---
 # <a name="office-365-germany-endpoints"></a>Конечные точки Office 365 Germany
 
@@ -37,7 +37,7 @@ Office 365 требует подключения к Интернету. Коне
   
 |||
 |:-----|:-----|
-|**Last updated:** 01/04/2021 - ![ RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/Germany?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) |**Скачивание:** все обязательные и необязательные назначения в одном списке [в формате JSON](https://endpoints.office.com/endpoints/Germany?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> |
+|**Последнее обновление:** 04.01.2021, ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [подписка на журнал изменений](https://endpoints.office.com/version/Germany?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) |**Скачивание:** все обязательные и необязательные назначения в одном списке [в формате JSON](https://endpoints.office.com/endpoints/Germany?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> |
 
 Начните [с управления конечными точками Office 365,](managing-office-365-endpoints.md) чтобы понять наши рекомендации по управлению сетевым подключением с помощью этих данных. Данные конечных точек обновляются в начале каждого месяца с новыми IP-адресами и URL-адресами, опубликованными за 30 дней до начала активности. Это позволяет клиентам, у которых еще нет автоматических обновлений, завершить свои процессы до того, как потребуется новое подключение. Конечные точки также могут обновляться в течение месяца, если это необходимо для устранения эскалаций поддержки, инцидентов безопасности или других непосредственных эксплуатационных требований. Вы всегда можете ссылаться на [подписку на журнал изменений.](https://endpoints.office.com/version/Germany?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)
 

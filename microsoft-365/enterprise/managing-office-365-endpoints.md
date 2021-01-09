@@ -1,7 +1,7 @@
 ---
 title: Управление конечными точками Office 365
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: ITPro
 ms.topic: conceptual
@@ -18,12 +18,12 @@ ms.custom:
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
 description: Узнайте, как управлять конечными точками Office 365, чтобы они работали с сетевой архитектурой вашей организации.
-ms.openlocfilehash: dcacb10492f4377dbcdf6e74c848a404f1b64c6f
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.openlocfilehash: a616e5f45fee77a02e7b4df7e19ed9e1b0d31d22
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780488"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787955"
 ---
 # <a name="managing-office-365-endpoints"></a>Управление конечными точками Office 365
 
