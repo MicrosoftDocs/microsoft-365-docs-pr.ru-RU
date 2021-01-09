@@ -8,6 +8,8 @@
           href: top-security-tasks-for-remote-work.md
         - name: "Безопасность в Microsoft\_365 для BDM"
           href: Microsoft-365-security-for-bdm.md
+        - name: Рекомендации по безопасности приоритетных учетных записей
+          href: ./office-365-security/security-recommendations-for-priority-accounts.md
     - name: Конфигурации доступа для удостоверений и устройств
       href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
@@ -420,8 +422,6 @@
               href: ./office-365-security/email-validation-and-authentication.md
             - name: Предоставление пользователям доступа к Центру безопасности
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
-            - name: Рекомендации по безопасности приоритетных учетных записей
-              href: ./office-365-security/security-recommendations-for-priority-accounts.md
             - name: Безопасные документы в Defender для Office 365
               href: ./office-365-security/safe-docs.md
             - name: Настройка политик безопасных ссылок в Defender для Office 365
