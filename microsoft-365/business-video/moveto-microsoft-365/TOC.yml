@@ -1,0 +1,22 @@
+- name: Переход с Google Workspace на Microsoft 365
+  items:
+    - name: Обзор
+      href: move-from-google-workspace-overview.md
+    - name: Регистрация в Microsoft 365
+      href: ../sign-up.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: Настройка Миграции Microsoft 365 для Google
+      href: set-up-microsoft-365-forgoogle.md
+    - name: Настройка политик безопасности для устройств с Windows
+      href: ../secure-win10-pcs.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: Добавление домена Google Workspace
+      href: add-google-domain.md
+    - name: Установка приложений Office и Microsoft Teams
+      href: ../install-office.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: 'Перенос электронной почты, календаря и контактов в Microsoft 365'
+      href: migrate-email.md
+    - name: Подключение домена к Microsoft 365
+      href: connect-domain-tom365.md
+    - name: Использование Mover для перемещения данных всех пользователей
+      href: mover-migrate-files.md
+    - name: Отмена Google Workspace
+      href: cancel-google.md
