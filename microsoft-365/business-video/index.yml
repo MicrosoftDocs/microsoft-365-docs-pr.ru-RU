@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Обучение Microsoft 365 для малого бизнеса
+title: Обучение по Microsoft 365 для малого бизнеса
 summary: Узнайте, как настроить Microsoft 365 для своей компании и управлять им.
 brand: m365
 metadata:
-  title: Обучение Microsoft 365 для малого бизнеса
+  title: Обучение по Microsoft 365 для малого бизнеса
   description: Настройка Microsoft 365 и управление им в Центре администрирования Microsoft 365.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
@@ -13,12 +13,12 @@ metadata:
   ms.date: 12/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: d66e3a5c56fbc6676a21ec9729d44fac64e3abe3
-  ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+  ms.openlocfilehash: 2a874179c9a3da778ff0757d9a883af44a462141
+  ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 12/17/2020
-  ms.locfileid: "49702493"
+  ms.lasthandoff: 01/11/2021
+  ms.locfileid: "49794164"
 productDirectory:
   items:
   - title: Начало работы
@@ -35,7 +35,7 @@ productDirectory:
     url: upgrade.md
   - title: Настройка мобильных устройств
     imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
-    summary: Установите приложения Office на мобильных устройствах.
+    summary: Установка приложений Office на мобильных устройствах.
     url: work-from-anywhere.md
   - title: Сотрудничество с другими людьми
     imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
@@ -71,14 +71,14 @@ productDirectory:
     url: find-help-answers.md
 additionalContent:
   sections:
-  - title: Дополнительные сведения
+  - title: Подробнее
     items:
     - title: Узнайте об Office
       summary: Узнайте, как использовать Word, Excel, PowerPoint и другие приложения Office.
       url: https://support.microsoft.com/training
     - title: Переход с Google Workspace
       summary: Узнайте, как перейти на Microsoft 365 для бизнеса.
-      url: https://support.microsoft.com/office/cff9f9fb-956e-4cb9-8b64-d7ebc1911123
+      url: moveto-microsoft-365/move-from-google-workspace-overview.md
     - title: Дополнительные ресурсы для администраторов
       summary: Перейдите на сайт справки Центра администрирования Microsoft 365.
       url: ../admin/index.yml
