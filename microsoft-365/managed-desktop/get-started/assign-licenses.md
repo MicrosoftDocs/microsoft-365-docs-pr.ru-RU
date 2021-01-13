@@ -1,6 +1,6 @@
 ---
 title: Назначение лицензий
-description: В процессе регистрации вам необходимо назначить лицензии, уже полученные пользователям.
+description: В рамках регистрации необходимо назначить лицензии, которые вы уже получили для пользователей
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -9,27 +9,27 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4bd4dcd522848c91c4c8494504dd4c917a7eb776
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: c370b37b805544c49e4e9e951d0b8de9c6af1589
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529747"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841041"
 ---
 # <a name="assign-licenses"></a>Назначение лицензий
 
-В процессе подготовки к регистрации на настольном компьютере под управлением Microsoft необходимо убедиться, что вы приобрели необходимые лицензии. Если вы еще не сделали это, ознакомьтесь с [дополнительными сведениями о лицензиях](../get-ready/prerequisites.md#more-about-licenses) для получения сведений о том, какие лицензии вам нужны.
+При подготовке к регистрации на компьютере, управляемом Майкрософт, необходимо убедиться, что вы получили необходимые лицензии. Если вы еще не получили лицензии, дополнительные сведения о лицензиях см. в подробных сведениях о необходимых лицензиях. [](../get-ready/prerequisites.md#more-about-licenses)
 
 
-Если ваша лицензия состоит из всех строк, настало время назначить их пользователям. Для этого мы рекомендуем использовать [возможности лицензирования на основе групп](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) Azure Active Directory.
+Если все ваши лицензии выстроили в очередь, пришло время назначить их вашим пользователям. Чтобы назначить лицензии, рекомендуем воспользоваться функцией лицензирования azure Active Directory на [основе](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) групп.
 
-Если у вас возникли проблемы с назначением лицензии, обратитесь в [службу поддержки](../working-with-managed-desktop/admin-support.md)администраторов.
+Если у вас есть трудности с назначением лицензии, обратитесь в службу поддержки [администраторов.](../working-with-managed-desktop/admin-support.md)
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Действия для начала работы с управляемым рабочим столом Майкрософт
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Действия по началу работы с компьютером, управляемым Майкрософт
 
 1. [Добавление и проверка контактов администратора на портале администрирования](add-admin-contacts.md)
 2. [Настройка условного доступа](conditional-access.md)
-3. Назначение лицензий (этот раздел)
+3. Назначение лицензий (в этой статье)
 4. [Развертывание корпоративного портала Intune](company-portal.md)
 5. [Включение службы Enterprise State Roaming](enterprise-state-roaming.md)
 6. [Настройка устройств](set-up-devices.md)

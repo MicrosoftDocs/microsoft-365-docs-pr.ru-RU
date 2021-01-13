@@ -1,6 +1,6 @@
 ---
-title: Настольные устройства, управляемые Майкрософт
-description: В этом разделе перечислены спецификации для устройств, утвержденных для компьютеров, управляемых Майкрософт.
+title: Управляемые Майкрософт настольные устройства
+description: В этой статье перечислены спецификации для устройств, утвержденных для компьютеров, управляемых Майкрософт.
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -8,18 +8,18 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e858ae1fc564fdcacbe181930ae1489d131965e7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: fff44098e3da17c68e4347fb14690945154edfdb
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659682"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841191"
 ---
-# <a name="microsoft-managed-desktop-devices"></a>Настольные устройства, управляемые Майкрософт 
+# <a name="microsoft-managed-desktop-devices"></a>Управляемые Майкрософт настольные устройства 
 
 Компьютеры, управляемые Майкрософт, регулярно оценивают устройства, которые необходимо включить в службу. В этой статье описаны требования к устройству для регистрации на компьютере, управляемом Майкрософт, и перечислены конкретные поддерживаемые в настоящее время устройства.
 
-Дополнительные сведения о компьютере, управляемом Майкрософт, см. в документации и ресурсах по компьютерам, управляемым [Майкрософт.](https://docs.microsoft.com/microsoft-365/managed-desktop/) 
+Дополнительные сведения о компьютере, управляемом Майкрософт, см. в документации и ресурсах для [управляемых Майкрософт компьютеров.](https://docs.microsoft.com/microsoft-365/managed-desktop/) 
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
@@ -57,7 +57,7 @@ ms.locfileid: "49659682"
 | [HP Elite x2 G4 Tablet](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 ГБ / ОЗУ Intel i5 / 8 ГБ | SKU с 5VS03AV | 31 июля 2021 г. | 31 июля 2024 г. |
 | [HP EliteBook x360 1030 / 1040 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 ГБ / ОЗУ Intel i5 / 8 ГБ | SKU с 8XW08AV | 31 августа 2021 г. | 31 августа 2024 г. |
 | [HP EliteSfly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 ГБ / ОЗУ Intel i5 / 8 ГБ | SKU с 9MZ21AV | 31 марта 2021 г. | 31 марта 2024 г. |
-| **\*[ПК HP EliteOne 800 G6 24/27 "Все в одном"](https://store.hp.com/us/en/pdp/hp-eliteone-800-g6-all-in-one-touch-pc)** | 256 / ОЗУ Intel i5 / 8 ГБ | SKU с 9XM14AV | 30 июня 2022 г. | 30 июня 2025 г. |
+| **\*[ПК HP EliteOne 800 G6 24/27 "Все на одном компьютере"](https://store.hp.com/us/en/pdp/hp-eliteone-800-g6-all-in-one-touch-pc)** | 256 / Intel i5 / 8 ГБ ОЗУ | SKU с 9XM14AV | 30 июня 2022 г. | 30 июня 2025 г. |
 | **\*[HP EliteDesk 800 G6 Desktop Mini PC](https://store.hp.com/us/en/pdp/hp-elitedesk-800-g6-desktop-mini-pc#!)** | 256 / Intel i5 / 8 ГБ ОЗУ | SKU с 9XM14AV | 30 июня 2022 г. | 30 июня 2025 г. |
 | [HP Z2 Mini G5 Workstation](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 ГБ / ОЗУ Intel i5 / 8 ГБ | SKU с 8QR48AV| 31 декабря 2021 г. | 31 декабря 2024 г. |
 | **\*[HP ZBook Firefly 14/15 G7 Mobile Workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 ГБ / ОЗУ Intel i5 / 8 ГБ | SKU с 9MZ22AV, требуется камера IR | 30 ноября 2021 г. | 30 ноября 2024 г. |
@@ -79,12 +79,12 @@ ms.locfileid: "49659682"
 - Регистрация на компьютере, управляемом Майкрософт, с помощью [функции регистрации](https://aka.ms/mmddrhelp) устройств
 
 >[!NOTE]
->Устройства с процессором с тактовой скоростью 2,0 ГГц и более быстрыми процессорами обеспечивают гораздо лучший опыт для пользователей, участвующих в таких действиях:
+>Устройства с процессором с тактовой скоростью 2,0 ГГц обеспечивают гораздо лучший опыт для пользователей, участвующих в этих действиях:
 >- Использование видеоконференций с Teams. Подробные [сведения см. в требованиях к оборудованию для Microsoft Teams.](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)
 >-  Использование одного устройства для нескольких различных рабочих нагрузок.
 >- Использование нескольких мониторов.
 
-**Дополнительная справка**
+**Дополнительные справки**
 
 Эти ресурсы помогут вам ответить на вопросы о конкретных устройствах:
 

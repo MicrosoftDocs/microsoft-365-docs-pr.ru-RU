@@ -1,9 +1,10 @@
 ---
-title: Четность между службой Azure Information Protection для Office 365 под управлением 21Vianet и коммерческих услуг
+title: Четность между Azure Information Protection для Office 365 под управлением 21Vianet и коммерческими предложениями
 f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
+ms.reviewer: arthurj
 manager: scotv
 audience: Admin
 ms.topic: overview
@@ -18,77 +19,122 @@ search.appverid:
 - MET150
 - GEU150
 - GEA150
-description: Узнайте больше о службе Azure Information Protection для Office 365 под управлением 21Vianet и о том, как настроить его для клиентов в Китае.
+description: Узнайте больше об Azure Information Protection (AIP) для Office 365 под управлением 21Vianet и ее настройке для клиентов в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 7be40466c43a49cf51a2a2c1c273cef035bee831
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 50269749b5f4e544263f790ec9c7e4474af57219
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519345"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840305"
 ---
-# <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Четность между службой Azure Information Protection для Office 365 под управлением 21Vianet и коммерческих услуг
+# <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Четность между Azure Information Protection для Office 365 под управлением 21Vianet и коммерческими предложениями
 
-Несмотря на то, что наша цель состоит в том, чтобы предоставить клиентам в Китае все коммерческие функции и функции с помощью Azure Information Protection для Office 365, предоставляемого компанией 21Vianet, есть некоторые функции, которые мы хотели бы выделить.
+Хотя наша цель — предоставить все коммерческие функции клиентам в Китае с помощью нашей службы Azure Information Protection (AIP) для Office 365 под управлением 21Vianet, мы хотим выделить некоторые отсутствующие функции.
 
-В приведенном ниже списке перечислены существующие промежутки между службой Azure Information Protection для Office 365 под управлением 21Vianet и наших коммерческих услуг на 2019 июля:
+В следующем списке содержатся существующие пробелы между Azure Information Protection для Office 365 под управлением 21Vianet и нашими коммерческими предложениями с января 2021 г.:
 
-- Управление правами на доступ к данным (IRM) поддерживается только для приложений Microsoft 365 для предприятий (сборка 11731,10000 или более поздняя). Office 2010, Office 2013 и другие версии Office 2016 не поддерживаются.
+- Управление правами на управление правами на данные (IRM) поддерживается только для приложений Microsoft 365 для предприятий (сборка 11731.10000 или выше). Office 2010, Office 2013 и другие версии Office 2016 не поддерживаются.
 
-- Миграция из службы управления правами Active Directory (AD RMS) в Azure Information Protection в настоящее время недоступна.
+- Миграция служба управления правами Active Directory (AD RMS) в Azure Information Protection в настоящее время недоступна.
   
-- Поддерживается общий доступ к защищенным сообщениям электронной почты для пользователей в коммерческом облаке.
+- Общий доступ к защищенным электронным письмам пользователям в коммерческом облаке поддерживается.
   
-- Общий доступ к документам и вложениям электронной почты для пользователей в коммерческом облаке в настоящее время недоступен. Это включает Office 365 под управлением 21Vianet в коммерческом облаке, а не в Office 365, который управляется пользователями 21Vianet в коммерческом облаке, и пользователями с лицензией RMS для индивидуальных пользователей.
+- Общий доступ к документам и вложениям электронной почты пользователям в коммерческом облаке в настоящее время не доступен. К ним относятся пользователи Office 365 под управлением 21Vianet в коммерческом облаке, пользователи не из Office 365, управляемые пользователями 21Vianet в коммерческом облаке, а также пользователи с лицензией RMS для физических лиц.
   
-- IRM с SharePoint (сайты и библиотеки, защищенные службой управления правами), в настоящее время недоступна.
+- IRM с SharePoint (сайты и библиотеки, защищенные с помощью IRM) в настоящее время не доступен.
   
-- Расширение мобильных устройств для AD RMS в настоящее время недоступно.
+- Расширение мобильного устройства для AD RMS в настоящее время не доступно.
+
+- Приложение ["Просмотр мобильных устройств"](/azure/information-protection/rms-client/mobile-app-faq) не поддерживается azure China 21Vianet.
 
 ## <a name="configuring-azure-information-protection-for-customers-in-china"></a>Настройка Azure Information Protection для клиентов в Китае
 
-### <a name="enable-rights-management-for-the-tenant"></a>Включение управления правами для клиента
+### <a name="enable-rights-management-for-the-tenant"></a>Включить управление правами для клиента
 
-Для правильной работы шифрования необходимо включить службу управления правами для клиента.
+Чтобы шифрование работало правильно, необходимо включить для клиента RMS.
 
-- Проверьте, включена ли служба управления правами:
-  1. Запустите PowerShell от имени администратора.
-  2. Если модуль Аипсервице не установлен, запустите его `Install-Module AipService` .
-  3. Импортируйте модуль с помощью `Import-Module AipService` .
-  4. Подключаться к службе с помощью `Connect-AipService -environmentname azurechinacloud` .
-  5. Запустите `(Get-AipServiceConfiguration).FunctionalState` и проверьте, есть ли состояние `Enabled` .
+- Проверьте, включена ли RMS:
+  1. Запустите PowerShell от учетной записи администратора.
+  2. Если модуль AIPService не установлен, запустите `Install-Module AipService` .
+  3. Импорт модуля с помощью `Import-Module AipService` .
+  4. Подключите службу с помощью `Connect-AipService -environmentname azurechinacloud` .
+  5. Запустите `(Get-AipServiceConfiguration).FunctionalState` и проверьте `Enabled` состояние.
 
-- Если функциональное состояние — `Disabled` , запустите `Enable-AipService` .
+- Если это функциональное `Disabled` состояние, запустите `Enable-AipService` .
 
 ### <a name="dns-configuration-for-encryption-windows"></a>Конфигурация DNS для шифрования (Windows)
 
-Чтобы шифрование работало правильно, клиентские приложения Office должны подключаться к экземпляру службы Китая и выполнять начальную загрузку. Чтобы перенаправить клиентские приложения на правильный экземпляр службы, администратор клиента должен настроить запись DNS SRV со сведениями об URL-адресе Azure RMS. При отсутствии DNS-записи SRV клиентское приложение попытается подключиться к экземпляру общедоступного облака по умолчанию и завершится с ошибками.
+Чтобы шифрование работало правильно, клиентские приложения Office должны подключаться к экземпляру службы в Китае и из нее подключаться к первой загрузке. Чтобы перенаправить клиентские приложения в нужный экземпляр службы, администратор клиента должен настроить запись DNS SRV с информацией об URL-адресе Azure RMS. Без DNS-записи SRV клиентские приложения по умолчанию попытаются подключиться к экземпляру общего облака и не будут работать.
 
-Кроме того, предполагается, что пользователи выполняют вход с именем пользователя, основанным на домене, принадлежащем клиенту (например, `joe@contoso.cn` ), а не `onmschina` именем пользователя (например, `joe@contoso.onmschina.cn` ). Имя домена из имени пользователя используется для перенаправления DNS на соответствующий экземпляр службы.
+Кроме того, предположим, что пользователи будут входить с помощью имени пользователя, основанного на домене, владельцем клиента (например, ), а не ином пользователем `joe@contoso.cn` `onmschina` (например). `joe@contoso.onmschina.cn` Доменное имя из имени пользователя используется для перенаправления DNS на правильный экземпляр службы.
 
-- Получение идентификатора службы управления правами:
-  1. Запустите PowerShell от имени администратора.
-  2. Если модуль Аипсервице не установлен, запустите его `Install-Module AipService` .
-  3. Подключаться к службе с помощью `Connect-AipService -environmentname azurechinacloud` .
-  4. Запустите `(Get-AipServiceConfiguration).RightsManagementServiceId` , чтобы получить идентификатор службы управления правами.
+- Получите ИД RMS:
+  1. Запустите PowerShell от учетной записи администратора.
+  2. Если модуль AIPService не установлен, запустите `Install-Module AipService` .
+  3. Подключите службу с помощью `Connect-AipService -environmentname azurechinacloud` .
+  4. `(Get-AipServiceConfiguration).RightsManagementServiceId`Запустите, чтобы получить ИД RMS.
 
-- Выполните вход в систему поставщика DNS, перейдите к параметрам DNS для домена и добавьте новую запись SRV.
-  - Service = `_rmsredir`
-  - Protocol = `_http`
+- Войдите к поставщику DNS, перейдите к настройкам DNS для домена и добавьте новую запись SRV.
+  - Служба = `_rmsredir`
+  - Протокол = `_http`
   - Name = `_tcp`
-  - Target = `[GUID].rms.aadrm.cn` (где GUID — идентификатор RMS)
-  - Priority, Weight, seconds, TTL = значения по умолчанию
+  - Target = `[GUID].rms.aadrm.cn` (где GUID — это ИД RMS)
+  - Приоритет, вес, секунды, TTL = значения по умолчанию
 
-- Свяжите личный домен с клиентом на [портале Azure](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Это приведет к добавлению записи в DNS, что может занять несколько минут, чтобы проверить его после добавления значения в параметры DNS.
+- Связать пользовательский домен с клиентом на [портале Azure.](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains) Это добавит запись в DNS, проверка которой может занять несколько минут после добавления значения в параметры DNS.
 
-- Войдите в центр администрирования Microsoft 365, используя соответствующие учетные данные глобального администратора, и добавьте домен (например, `contoso.cn` ) для создания пользователя. В процессе проверки могут потребоваться дополнительные изменения DNS. После завершения проверки пользователи могут быть созданы.
+- Войдите в Центр администрирования Microsoft 365 с соответствующими учетными данными глобального администратора и добавьте домен (например, `contoso.cn` ) для создания пользователя. В процессе проверки могут потребоваться дополнительные изменения DNS. После проверки пользователи могут быть созданы.
 
 ### <a name="dns-configuration-for-encryption-mac-ios-android"></a>Конфигурация DNS для шифрования (Mac, iOS, Android)
 
-- Выполните вход в систему поставщика DNS, перейдите к параметрам DNS для домена и добавьте новую запись SRV.
-  - Service = `_rmsdisco`
-  - Protocol = `_http`
-  - Name = `_tcp`
-  - Target = `api.aadrm.cn`
-  - Порт = `80`
-  - Priority, Weight, seconds, TTL = значения по умолчанию
+Войдите к поставщику DNS, перейдите к настройкам DNS для домена и добавьте новую запись SRV.
+
+- Служба = `_rmsdisco`
+- Протокол = `_http`
+- Name = `_tcp`
+- Target = `api.aadrm.cn`
+- Порт = `80`
+- Приоритет, вес, секунды, TTL = значения по умолчанию
+
+### <a name="aip-client-configuration"></a>Конфигурация клиента AIP
+
+Унифицированный клиент AIP можно скачать в [Центре загрузки Майкрософт.](https://www.microsoft.com/download/details.aspx?id=53018)
+
+Дополнительные сведения см. в указанных ниже статьях.
+
+- [Документация по Azure Information Protection](/azure/information-protection/)
+- [История версий AIP и политика поддержки](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
+- [Требования к системе AIP](/azure/information-protection/requirements)
+- [Краткое развертывание клиента AIP](/azure/information-protection/quickstart-deploy-client)
+- [Руководство администратора AIP](/azure/information-protection/rms-client/clientv2-admin-guide)
+- [Руководство пользователя по AIP](/azure/information-protection/rms-client/clientv2-user-guide)
+- [Узнайте о метах конфиденциальности Microsoft 365](/microsoft-365/compliance/sensitivity-labels)
+
+### <a name="aip-apps-configuration-unified-labeling-client-only"></a>Конфигурация приложений AIP (только для клиента унифицированных меток)
+
+Для решения унифицированных меток приложениям AIP в Windows необходим следующий ключ реестра, чтобы указать им правильное независимое облако для Azure в Китае:
+
+- Узел реестра = `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP`
+- Name = `CloudEnvType`
+- Значение = `6` (по умолчанию = 0)
+- Type = `REG_DWORD`
+
+> [!IMPORTANT]
+> Убедитесь, что не удаляйте ключ реестра после удаления. Если ключ пустой, неправильный или несуществующий, функция будет действовать как значение по умолчанию (значение по умолчанию = 0 для коммерческого облака). Если ключ пустой или неправильный, в журнал также добавляется ошибка печати.
+
+### <a name="manage-azure-information-protection-content-scan-jobs"></a>Управление заданиями проверки контента Azure Information Protection
+
+Чтобы управлять заданиями сканирования контента Azure Information Protection на сервере сканера Azure в Китае, используйте вместо портала Azure следующие cmdlets:<br><br>
+
+| Командлет | Описание |
+|--|--|
+| [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | Добавляет новый репозиторий в задание проверки содержимого. |
+| [Get-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/get-aipscannercontentscanjob) | Получает сведения о вашем задание проверки содержимого. |
+| [Get-AIPScannerRepository](/powershell/module/azureinformationprotection/get-aipscannerrepository) | Получает сведения о репозиториях, определенных для задания сканирования содержимого. |
+| [Remove-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/remove-aipscannercontentscanjob) | Удаляет задание проверки содержимого. |
+| [Remove-AIPScannerRepository](/powershell/module/azureinformationprotection/remove-aipscannerrepository) | Удаляет репозиторий из задания сканирования содержимого. |
+| [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | Определяет параметры задания проверки содержимого. |
+| [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Определяет параметры существующего репозитория в заданиях сканирования содержимого. |
+
+Дополнительные сведения см. в под [управление заданиями проверки содержимого только с помощью PowerShell.](/azure/information-protection/deploy-aip-scanner-prereqs#use-powershell-with-a-disconnected-computer)
