@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: Сводка. Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell.
-ms.openlocfilehash: 4128e360a3664d3a61559139bc4e6e346418fa61
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 4266b4f216b4c9df48f0c19d1d2123269eb32cae
+ms.sourcegitcommit: 00d231bf0100e843a5a93161695e87ceff9e1349
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087031"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49849597"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell
 
@@ -243,7 +243,7 @@ Connect-AzureAD
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
 Import-Module MicrosoftTeams
-$sfboSession = New-CsOnlineSession -UserName $acctName
+$sfboSession = New-CsOnlineSession
 Import-PSSession $sfboSession
 #Exchange Online
 Import-Module ExchangeOnlineManagement
@@ -263,7 +263,7 @@ Connect-AzureAD
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
 Import-Module MicrosoftTeams
-$sfboSession = New-CsOnlineSession -UserName $acctName
+$sfboSession = New-CsOnlineSession
 Import-PSSession $sfboSession
 #Security & Compliance Center
 Import-Module ExchangeOnlineManagement
@@ -285,7 +285,7 @@ Connect-MsolService
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
 Import-Module MicrosoftTeams
-$sfboSession = New-CsOnlineSession -UserName $acctName
+$sfboSession = New-CsOnlineSession
 Import-PSSession $sfboSession
 #Exchange Online
 Import-Module ExchangeOnlineManagement
@@ -305,7 +305,7 @@ Connect-MsolService
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
 Import-Module MicrosoftTeams
-$sfboSession = New-CsOnlineSession -UserName $acctName
+$sfboSession = New-CsOnlineSession
 Import-PSSession $sfboSession
 #Security & Compliance Center
 Import-Module ExchangeOnlineManagement
