@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте защиту от потери данных Microsoft 365 Endpoint для отслеживания действий с файлами и внедрения защитных действий для конечных точек этих файлов.
-ms.openlocfilehash: 7dbceb97b7ccb542a0a4933f3e3cccf5a38026ea
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: 5a5c8e77679b55f20269b135da52bc0498fd7c11
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604267"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840928"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Начало работы с функцией защиты от потери данных в конечной точке
 
@@ -98,6 +98,8 @@ ms.locfileid: "49604267"
 5. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики к отправке в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
 6. Если вы используете Ежемесячный канал (корпоративный) для Приложений Microsoft 365 версий 2004–2008, в них существует известная проблема с классификацией контента Office функцией защиты от потери данных в конечной точке и вам требуется обновиться до версии 2009 или более поздней. Текущие версии см. в [журнале обновлений для Приложений Microsoft 365 (по дате)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date). Дополнительные сведения об этой проблеме см. в разделе "Набор Office" [заметок о выпусках Актуального канала в 2020 г.](https://docs.microsoft.com/officeupdates/current-channel#version-2010-october-27)
+
+7. Если у вас есть конечные точки, которые используют прокси-устройство для подключения к Интернету, выполните действия, описанные в разделе [Настройка прокси-сервера и параметров подключения к Интернету для защиты от потери данных в конечной точке](endpoint-dlp-configure-proxy.md).
 
 ## <a name="onboarding-devices-into-device-management"></a>Интеграция устройств в управление устройствами
 

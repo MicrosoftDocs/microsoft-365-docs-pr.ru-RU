@@ -521,6 +521,8 @@
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Включение надстройки "Пожаловаться на сообщение"
               href: ./office-365-security/enable-the-report-message-add-in.md
+            - name: Включение надстройки "Пожаловаться на фишинг"
+              href: ./office-365-security/enable-the-report-phish-add-in.md
             - name: Установка и использование надстройки "Отчеты о нежелательной почте"
               href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
             - name: Правила потока почты (правила транспорта) в автономной службе EOP
