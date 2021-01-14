@@ -241,6 +241,8 @@
           href: endpoint-dlp-learn-about.md
         - name: Начало работы с функцией защиты от потери данных в конечной точке
           href: endpoint-dlp-getting-started.md
+        - name: Настройка параметров прокси-сервера и подключения к Интернету для конечной точки защиты от потери данных
+          href: endpoint-dlp-configure-proxy.md
         - name: Использование защиты от потери данных в конечной точке
           href: endpoint-dlp-using.md
         - name: Средства и методы подключения DLP в конечной точке для устройств с Windows 10
@@ -463,7 +465,7 @@
           href: retention-regulatory-requirements.md
 - name: Управление обнаружением электронных данных
   items:
-    - name: eDiscovery в Microsoft 365
+    - name: Решения Microsoft 365 eDiscovery
       href: ediscovery.md
     - name: Поиск контента
       items:
@@ -580,9 +582,11 @@
       items:
         - name: Обзор Advanced eDiscovery
           href: overview-ediscovery-20.md
-        - name: Начало работы с Advanced eDiscovery
+        - name: Настройка Advanced eDiscovery
           href: get-started-with-advanced-ediscovery.md
-        - name: Взаимодействие с охраняемыми и не охраняемыми источниками данных
+        - name: Создание варианта использования Advanced eDiscovery
+          href: create-and-manage-advanced-ediscoveryv2-case.md
+        - name: Управление охраняемыми и не охраняемыми источниками данных
           href: managing-custodians.md
           items:
             - name: Добавление хранителей в дело
@@ -595,7 +599,7 @@
               href: view-custodian-activity.md
             - name: Добавление не охраняемых источников данных в дело
               href: non-custodial-data-sources.md
-        - name: Работа с взаимодействием
+        - name: Управление связями хранителя
           href: managing-custodian-communications.md
           items:
             - name: Создание уведомления об удержании
@@ -608,7 +612,7 @@
               href: acknowledge-hold-notification.md
         - name: Управление удержаниями
           href: managing-holds.md
-        - name: Работа с ошибками обработки
+        - name: Управление ошибками обработки
           href: processing-data-for-case.md
           items:
             - name: Расширенная индексация данных хранителя
@@ -677,6 +681,8 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: Справочник по Advanced eDiscovery
           items:
+            - name: Расширенные возможности выравнивания eDiscovery с EDRM
+              href: advanced-ediscovery-edrm.md
             - name: Ограничения Advanced eDiscovery
               href: limits-ediscovery20.md
             - name: Поддерживаемые типы файлов
