@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Используйте действие аудита почтового ящика MailItemsAccessed для проведения экспертного исследования скомпрометированных учетных записей пользователей.
-ms.openlocfilehash: 908c2a22b05d7daef8d55c7e0aac61f25489692a
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 15379a5c24ee222cf097e94d46dc46de0e385820
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546295"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868007"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Исследование скомпрометированных учетных записей с помощью расширенного аудита
 
@@ -178,8 +178,8 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
 
 |Запись аудита 1  |Запись аудита 2  |Запись аудита 3|
 |---------|---------|---------|
-|ClientIPAddress**1**<br/>SessionId**2**|ClientIPAddress**2**<br/>SessionId**2**|ClientIPAddress**1**<br/>SessionId**3**|
-|InternetMessageId**A**<br/>InternetMessageId**D**<br/>InternetMessageId**E**<br/>InternetMessageId**F**<br/>|InternetMessageId**A**<br/>InternetMessageId**C**|InternetMessageId**B** |
+|ClientIPAddress **1**<br/>SessionId **2**|ClientIPAddress **2**<br/>SessionId **2**|ClientIPAddress **1**<br/>SessionId **3**|
+|InternetMessageId **A**<br/>InternetMessageId **D**<br/>InternetMessageId **E**<br/>InternetMessageId **F**<br/>|InternetMessageId **A**<br/>InternetMessageId **C**|InternetMessageId **B** |
 ||||
 
 Если какое-либо из свойств, приведенных в таблице в [предыдущем разделе](#filtering-of-duplicate-audit-records), отличается, для отслеживания нового контекста создается отдельная запись аудита. В зависимости от контекста, в котором выполняется действие, доступ будет отсортирован по разным записям аудита.
@@ -187,3 +187,9 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
 Например, в записях аудита, показанных на приведенном ниже снимке экрана, доступ к почте осуществляется одновременно из EWSEditor и OWA, однако действие доступа сортируется в разных записях аудита в зависимости от контекста доступа. В этом случае контекст определяется разными значениями свойства ClientInfoString.
 
 ![Разные записи аудита в зависимости от контекста](../media/MailItemsAccessed4.png)
+
+Ниже приведен синтаксис команды, показанной на предыдущем снимке экрана:
+
+```powershell
+Search-MailboxAuditLog -Identity admin -ShowDetails -Operations MailItemsAccessed -ResultSize 2000 | Select LastAccessed,Operation,AuditOperationsCountInAggregatedRecord,ClientInfoString
+``` 
