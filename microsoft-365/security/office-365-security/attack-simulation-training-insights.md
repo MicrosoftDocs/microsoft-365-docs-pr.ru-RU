@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Администраторы могут узнать, как обучение моделированию атак в Центре безопасности Microsoft 365 влияет на сотрудников и может получить представление о результатах моделирования и обучения.
-ms.openlocfilehash: 54855a4ce8e64f4d58b9ff2697395ed684be2773
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: c283819550872691d8dd23d3921c22cb23637633
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794560"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870959"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Получение аналитики с помощью обучения имитации атаки
 
@@ -40,7 +40,7 @@ ms.locfileid: "49794560"
 > [!div class="mx-imgBorder"]
 > ![Обзор обучения моделированию атак на карточку влияния на поведение](../../media/attack-sim-preview-behavior-impact-card.png)
 
-Чтобы просмотреть более подробный отчет, щелкните **"Просмотр имитаций и учебный отчет".** В этом отчете предоставляется та же информация с дополнительным контекстом из самого моделирования (например, метод моделирования и общее количество целевых пользователей).
+Чтобы просмотреть более подробный отчет, щелкните **"Просмотр имитаций и учебный отчет".** В этом отчете предоставляется та же информация с дополнительным контекстом из самого моделирования (например, методика моделирования и общее количество целевых пользователей).
 
 ## <a name="recommended-actions"></a>Рекомендуемые действия
 
@@ -53,4 +53,8 @@ ms.locfileid: "49794560"
 
 ## <a name="related-links"></a>Дополнительные ссылки
 
-**Имитатор атак:** [создание имитации фишинговых](attack-simulation-training.md) атак и создание [полезной нагрузки для обучения сотрудников](attack-simulation-training-payloads.md)
+[Начало работы с обучением моделированию атак](attack-simulation-training-get-started.md)
+
+[Создание имитации фишинговой атаки](attack-simulation-training.md)
+
+[создание полезной нагрузки для обучения сотрудников](attack-simulation-training-payloads.md)
