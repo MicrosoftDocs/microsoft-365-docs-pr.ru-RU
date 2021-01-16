@@ -24,6 +24,8 @@
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: Защита компьютеров с Windows 10
           href: ../business/secure-win-10-pcs.md
+        - name: Скачивание программного обеспечения и ключей продуктов
+          href: setup/download-software-licenses-csp.md
         - name: Установка приложений Office
           href: setup/install-applications.md
         - name: Настройка устройств с Windows
@@ -360,12 +362,32 @@
               href: basic-mobility-security/overview.md
             - name: Сравнение Basic Mobility + Security и Intune
               href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
-            - name: Вопросы и ответы по Basic Mobility + Security
-              href: basic-mobility-security/frequently-asked-questions.md
             - name: Возможности Basic Mobility + Security
               href: basic-mobility-security/capabilities.md
-            - name: Сравнение Basic Mobility + Security и Intune
-              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
+            - name: Настройка Basic Mobility + Security
+              href: basic-mobility-security/set-up.md
+            - name: Создание политик безопасности устройств
+              href: basic-mobility-security/create-device-security-policies.md
+            - name: Создание сертификата APN для устройств с iOS
+              href: basic-mobility-security/create-an-apns-certificate-for-ios-devices.md
+            - name: Управление параметрами доступа устройств
+              href: basic-mobility-security/manage-device-access-settings.md
+            - name: Подробности об управляемых устройствах
+              href: basic-mobility-security/get-details-about-managed-devices.md
+            - name: Управление зарегистрированными устройствами
+              href: basic-mobility-security/manage-enrolled-devices.md
+            - name: Регистрация мобильного устройства
+              href: basic-mobility-security/enroll-your-mobile-device.md
+            - name: Конфиденциальность и безопасность
+              href: basic-mobility-security/privacy-and-security.md
+            - name: Вопросы и ответы
+              href: basic-mobility-security/frequently-asked-questions.md
+            - name: Очистка мобильных устройств
+              href: basic-mobility-security/wipe-mobile-device.md
+            - name: Отключение Basic Mobility + Security
+              href: basic-mobility-security/turn-off.md
+            - name: Устранение неполадок
+              href: basic-mobility-security/troubleshoot.md
     - name: Работа с клиентами
       href: work-with-customers/index.yml
       items:

@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: Предотвращение потери данных (DLP) в Центре соответствия требованиям безопасности включает 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от &amp; потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 10f45403703130c191f4cbb26d1c0cba168b05ae
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 584e2fe2353c1f80545a3742a44163cb26ee2c29
+ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751286"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49881788"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -98,7 +98,7 @@ ms.locfileid: "49751286"
 - RTN
 
 
-## <a name="argentina-national-identity-dni-number"></a>Номер удостоверения личности (DNI) для Аргентины
+## <a name="argentina-national-identity-dni-number"></a>Номер удостоверения личности для Аргентины
 
 ### <a name="format"></a>Format
 
@@ -208,7 +208,7 @@ ms.locfileid: "49751286"
 - bank details
 - banking information
 - full names
-- овсяная
+- овся
 
 ## <a name="australia-business-number"></a>Номер компании для Австралии
 Этот тип конфиденциальной информации доступен только в:
@@ -349,7 +349,7 @@ ms.locfileid: "49751286"
 OR
 
 - от одной до двух необязательных букв (без чувствительность к буквам); 
-- от четырех до девяти цифр
+- от четырех до девяти цифр.
 
 OR
 
@@ -804,7 +804,7 @@ OR
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -839,7 +839,7 @@ OR
   
 -  22 буквы (без чувствительность к буквам), цифры, косые черты, косые черты или знаки плюса 
     
-- две буквы (без чувствительность к буквам), цифры, косые черты, косая черта, знаки плюс или знаки равного знака
+- две буквы (без чувствительность к буквам), цифры, косые черты, косые черты, знаки плюс или знаки равного знака
     
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -866,7 +866,7 @@ OR
 
 #### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
-- идентификациный номер
+- identity number
 - national id
 - personalausweis repubich österreich
 
@@ -893,7 +893,7 @@ OR
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_austria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_austria_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_austria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -971,7 +971,7 @@ OR
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция находит  `Func_austria_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
-- находится ключевое  `Keywords_austria_eu_ssn_or_equivalent` слово из. 
+- находится ключевое слово  `Keywords_austria_eu_ssn_or_equivalent` из. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция находит  `Func_austria_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
@@ -1078,7 +1078,7 @@ OR
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -1222,9 +1222,9 @@ OR
 ### <a name="pattern"></a>Шаблон
 
 - строка "Сервер", "сервер" или "источник данных"
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
 - Строка "cloudapp.azure.<!--no-hyperlink-->com, "cloudapp.azure.<!--no-hyperlink-->net или database.windows.<!--no-hyperlink-->net"
 - любое сочетание от 1 до 300 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
@@ -1282,16 +1282,16 @@ OR
 ### <a name="pattern"></a>Шаблон
 
 - строка "HostName"
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
 - строка "azure-devices.<!--no-hyperlink-->net"
 - любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
 - строка "SharedAccessKey"
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание 43 букв нижнего или верхнего регистра, цифр, косой черты (/) или знака плюса (+)
 - знак равного (=)
 
@@ -1395,9 +1395,9 @@ OR
 - строка redis.cache.windows.<!--no-hyperlink-->net"
 - любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
 - строка "password" или "pwd"
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание 43 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком плюса (+)
 - знак равного (=)
 
@@ -1443,17 +1443,17 @@ OR
 
 ### <a name="format"></a>Format
 
-Строка "sig", за которой следуют символы и строки, описанные в шаблоне ниже.
+Строка "sig", за которой следуют символы и строки, описанные в приведенной ниже схеме.
 
 ### <a name="pattern"></a>Шаблон
 
 - строка "sig"
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание между 43–53 символами, которые являются буквами нижнего или верхнего регистра, цифрами или знаком процента (%)
 - строка "%3d"
-- любой символ, не верхней или нижней буквы, цифры или знака процента (%)
+- любой символ, который не является буквой нижнего или верхнего регистра, цифрой или знаком процента (%)
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -1482,16 +1482,16 @@ OR
 ### <a name="pattern"></a>Шаблон
 
 - строка "EndPoint"
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
 - строка "servicebus.windows.<!--no-hyperlink-->net"
 - любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
 - строка "SharedAccessKey"
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание 43 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком плюса (+)
 - знак равного (=)
 
@@ -1542,14 +1542,14 @@ OR
 ### <a name="pattern"></a>Шаблон
 
 - строка "DefaultEndpointsProtocol"
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание от 1 до 200 букв нижнего или верхнего регистра, цифр, символов, специальных символов или пробелов
 - строка AccountKey
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - знак равного (=)
-- от нуля до двух символов в белом пространстве
+- от нуля до двух символов из белого пространства
 - любое сочетание 86 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком плюса (+)
 - два знака равного (=)
 
@@ -1608,7 +1608,7 @@ OR
 ### <a name="pattern"></a>Шаблон
 
 - от нуля до одного из символов больше чем (>), апострофа ('), знака равного (=), кавычка (") или знака номера (#)
-- любое сочетание 86 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком "плюс" (+)
+- любое сочетание 86 символов, которые являются буквами нижнего или верхнего регистра, цифрами, косой чертой (/) или знаком плюса (+)
 - два знака равного (=)
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -1777,7 +1777,7 @@ OR
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -1895,7 +1895,7 @@ OR
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -1908,7 +1908,7 @@ OR
 
 ### <a name="format"></a>Format
 
-две буквы, за которыми следуют шесть цифр без пробелов или седиметров
+две буквы, за которыми следуют шесть цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
@@ -1978,7 +1978,7 @@ OR
 - paspoortnummer
 - paspoortnummers
 - Карт-порт
-- Livre Passeport
+- Passeport livre
 - Pass-Nr
 - Passnummer
 - reisepass kein
@@ -2402,7 +2402,7 @@ Registro de Identidade (RIC) (новый формат):
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -2537,7 +2537,7 @@ Registro de Identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_bulgaria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_bulgaria_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_bulgaria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -3249,7 +3249,7 @@ Registro de Identidade (RIC) (новый формат):
 
 18 цифр:
 - шесть цифр, которые являются кодом адреса 
-- восемь цифр в виде YYYYMMDD, которые являются датой рождения 
+- восемь цифр в формате YYYYMMDD, которые являются датой рождения 
 - три цифры, которые являются кодом заказа 
 - одна цифра, которая является провероной цифрой
 
@@ -3744,7 +3744,7 @@ Registro de Identidade (RIC) (новый формат):
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -3802,7 +3802,7 @@ Registro de Identidade (RIC) (новый формат):
 - oib
 - osobna iskazвяз
 - osobni id
-- osobni identifskicijski broj
+- osobni identifikacijski broj
 - персональный идентификационный номер
 - broj
 - ezni identifskicijski broj
@@ -3814,7 +3814,7 @@ Registro de Identidade (RIC) (новый формат):
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -3843,7 +3843,7 @@ Registro de Identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_croatia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_croatia_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_croatia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -3945,7 +3945,7 @@ Registro de Identidade (RIC) (новый формат):
 - oib
 - osobna iskazвяз
 - osobni id
-- osobni identifskicijski broj
+- osobni identifikacijski broj
 - персональный идентификационный номер
 - broj
 - ezni identifskicijski broj
@@ -3957,7 +3957,7 @@ Registro de Identidade (RIC) (новый формат):
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -3971,7 +3971,7 @@ Registro de Identidade (RIC) (новый формат):
 
 ### <a name="format"></a>Format
 
-12 цифр без пробелов и селитров
+12 цифр без пробелов и делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -4115,7 +4115,7 @@ Registro de Identidade (RIC) (новый формат):
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -4172,7 +4172,7 @@ Registro de Identidade (RIC) (новый формат):
 
 - id card number
 - номер удостоверения личности
-- kim kimti
+- kim karti
 - national identification number
 - личный номер
 - ταυτοτητασ
@@ -4186,7 +4186,7 @@ Registro de Identidade (RIC) (новый формат):
   
 ### <a name="pattern"></a>Шаблон
 
-одна буква, за которой следуют от шести до восьми цифр.
+одна буква, за которой следуют от шести до восьми цифр
   
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -4251,7 +4251,7 @@ Registro de Identidade (RIC) (новый формат):
 - διαβατήριο #
 - διαβατήριο
 - αριθμός διαβατηρίου
-- Pasaport Kimlii
+- Pasaport Kimliii
 - pasaport numaras
 - Pasaport no.
 - Αρ. Διαβατηρίου
@@ -4321,7 +4321,7 @@ Registro de Identidade (RIC) (новый формат):
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -4492,7 +4492,7 @@ Registro de Identidade (RIC) (новый формат):
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -4504,7 +4504,7 @@ Registro de Identidade (RIC) (новый формат):
 
 - úidiúskú prúkaz
 - idiidiidiské prфика).
-- íslo íidiíského príkakaka
+- íslo íidiíského prфиках
 - ísla íidiískích przkaz
 
 
@@ -4527,7 +4527,7 @@ Registro de Identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_czech_republic_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_czech_republic_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_czech_republic_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -4586,7 +4586,7 @@ Registro de Identidade (RIC) (новый формат):
 - дата окончания срока действия
 
 
-## <a name="czech-personal-identity-number"></a>Номер личного удостоверения для чешских пользователей
+## <a name="czech-personal-identity-number"></a>Номер личного удостоверения для Чешский
 
 ### <a name="format"></a>Format
 
@@ -4641,12 +4641,12 @@ Registro de Identidade (RIC) (новый формат):
 #### <a name="keyword_czech_id_card"></a>Keyword_czech_id_card
 
 - birth number
-- czech republic id
+- чешский ид
 - czechidno #
 - daíové ííslo
 - identifííní ííslo
 - identity no
-- идентификациный номер
+- identity number
 - identityno #
 - identityno
 - страховой номер
@@ -4675,7 +4675,7 @@ Registro de Identidade (RIC) (новый формат):
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -4834,7 +4834,7 @@ Registro de Identidade (RIC) (новый формат):
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -4845,7 +4845,7 @@ Registro de Identidade (RIC) (новый формат):
 #### <a name="keywords_denmark_eu_drivers_license_number"></a>Keywords_denmark_eu_driver s_license_number
 
 - kнеrekort
-- kнеkortnummer
+- kнутrekortnummer
 
 
 ## <a name="denmark-passport-number"></a>Номер паспорта гражданина Дании
@@ -4867,7 +4867,7 @@ Registro de Identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_denmark_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_denmark_eu_passport_number` найдено. 
-- Регулярное выражение `Regex_eu_passport_date2` находит дату в формате ДД ММ YY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date2` находит дату в формате ДД ММ YY или ключевое слово `Keywords_eu_passport_date` из найденного
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_denmark_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -4978,12 +4978,12 @@ Registro de Identidade (RIC) (новый формат):
 - gesundheitskarte nummer
 - gesundheitsversicherungcherte nummer
 - карточка состояния
-- номер карты медицинской страхования
+- номер карты медицинского страхования
 - номер медицинского страхования
 - identification number
 - identifikationsnummer
 - identifikationsnummer #
-- идентификациный номер
+- identity number
 - kassennummer
 - nationalid #
 - nationalnumber #
@@ -5022,7 +5022,7 @@ Registro de Identidade (RIC) (новый формат):
 - taxnumber
 - tax identification no
 - tin #
-- аdno #
+- ыdno #
 - ыdnumber #
 - tax no #
 - tin id
@@ -5042,7 +5042,7 @@ Registro de Identidade (RIC) (новый формат):
 - sygesikringsnummer
 
 
-## <a name="drug-enforcement-agency-dea-number"></a>Номер агентства по правоохранительным органам (DEA)
+## <a name="drug-enforcement-agency-dea-number"></a>Номер Агентства по правоохранительным органам (DEA)
 
 ### <a name="format"></a>Format
 
@@ -5053,7 +5053,7 @@ Registro de Identidade (RIC) (новый формат):
 Шаблон должен включать в себя все указанные ниже элементы.
 - одна буква (без регистра) из этого набора возможных букв: abcdefghjklmnprstux, который является регистратором кода 
 - одна буква (без регистра), которая является первой буквой фамилии или цифры "9" регистратора.
-- семь цифр, последняя из которых является провероной.
+- семь цифр, последняя из которых является провероной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -5251,7 +5251,7 @@ Registro de Identidade (RIC) (новый формат):
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -5283,7 +5283,7 @@ Registro de Identidade (RIC) (новый формат):
 
 11 цифр:
   
-- одна цифра, соответствующая полу и минуте рождения (нечетное число самца, четное число самка; 1-2: 19-й год; 3-4: 20-й год; 5-6: 21-й год)
+- одна цифра, соответствующая полу и минуте рождения (нечетное число самца, четное число женщина; 1-2: 19-е время; 3-4: 20-й год; 5-6: 21-й год)
 - шесть цифр, соответствующих дате рождения (YYMMDD)
 - три цифры, соответствующие серийному номеру, отделяющие пользователей от одной и той же даты
 - одна контрольная цифра
@@ -5344,7 +5344,7 @@ Registro de Identidade (RIC) (новый формат):
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -5373,7 +5373,7 @@ Registro de Identidade (RIC) (новый формат):
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_estonia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_estonia_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_estonia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -5845,7 +5845,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - [Сша](#uk-national-insurance-number-nino)                                        
 
 
-## <a name="eu-passport-number"></a>Номер паспорта гражданина ЕС 
+## <a name="eu-passport-number"></a>Номер паспорта для ЕС 
 
 Это сущности в типе конфиденциальной информации для номера паспорта ЕС. Это сущности в пакете номеров паспортов ЕС.
 
@@ -6085,7 +6085,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -6179,7 +6179,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - шесть цифр в формате DDMMYY, которые являются датой рождения 
 - маркер "-", "+" или "a" 
 - трехзначный персональный идентификационный номер 
-- цифра или буква (без чувствительность к делу), которая является проверокой
+- цифра или буква (без регистрации буквы), которая является проверокой
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -6221,10 +6221,10 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - id number
 - identification number
 - identitedent numero
-- идентификациный номер
+- identity number
 - idnumber
 - kansallinen henkilötunnus
-- kansaаsen henkilökortin
+- kansa обрезка henkilökortin
 - national id card
 - national id no.
 - личный ид
@@ -6242,7 +6242,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -6463,7 +6463,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -6776,7 +6776,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -6796,7 +6796,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 
 ### <a name="format"></a>Format
 
-13 символов букв и цифр
+13-символьный буквонумерный шаблон
 
 ### <a name="pattern"></a>Шаблон
 
@@ -7034,7 +7034,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -7088,7 +7088,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - identifikation
 - identifizierungsnummer
 - identity card
-- идентификациный номер
+- identity number
 - id-nummer
 - личный ид
 - personalausweis
@@ -7175,7 +7175,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - passport numbers
 
 
-## <a name="germany-tax-identification-number"></a>Идентификационный номер налога для Германии
+## <a name="germany-tax-identification-number"></a>Налоговый идентификационный номер для Германии
 
 ### <a name="format"></a>Format
 
@@ -7236,7 +7236,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -7460,7 +7460,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -7539,7 +7539,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 
 ### <a name="format"></a>Format
 
-Две буквы, за которыми следуют семь цифр без пробелов или седиметров
+Две буквы, за которыми следуют семь цифр без пробелов или делегировок
   
 ### <a name="pattern"></a>Шаблон
 
@@ -7719,7 +7719,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - tax registry no
 - налоговый номер реестра
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -7784,7 +7784,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - id card
 - identity card
 - удостоверение hk
-- hong kong id
+- ид в Гонконге
 - 香港身份證
 - 香港永久性居民身份證
 - 身份證
@@ -7968,7 +7968,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -8240,7 +8240,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - adóazonosító szám
 - adóhatóság szám
 - adószám
-- венгерский олово
+- венгерский оголовье
 - hungatiantin #
 - tax authority no
 - tax id
@@ -8251,7 +8251,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -8272,7 +8272,7 @@ eesti kodaniku passi passi number passinumbrid document number document no dokum
 
 ### <a name="format"></a>Format
 
-10 символов букв и цифр
+10-символьный буквонумерный шаблон
 
 ### <a name="pattern"></a>Шаблон
 
@@ -8561,7 +8561,7 @@ Dictionary
 
 Любой термин из словаря Dictionary_icd_10_updated ключевых слов, который основан на международной классификации "Болезни", "Десятая редакция", "Модификация с точки зрения правки" [(ICD-10-CM).](https://go.microsoft.com/fwlink/?linkid=852604) Этот тип ищет только термин, а не страховые коды.
 
-Любой термин из словаря Dictionary_icd_10_codes ключевых слов, который основан на международной классификации "Болезни", "Десятая редакция", "Модификация" [(ICD-10-CM).](https://go.microsoft.com/fwlink/?linkid=852604) Этот тип ищет только страховые коды, а не описание.
+Любой термин из словаря ключевых слов Dictionary_icd_10_codes, который основан на международной классификации "Болезни", "Десятая редакция", "Модификация" [(ICD-10-CM).](https://go.microsoft.com/fwlink/?linkid=852604) Этот тип ищет только страховые коды, а не описание.
 
 ## <a name="international-classification-of-diseases-icd-9-cm"></a>Международная классификация болезни (ICD-9-CM)
 
@@ -8820,7 +8820,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -8935,7 +8935,7 @@ Dictionary
 
 Новый формат (1 января 2013 г. и после):
 - семь цифр 
-- буква (без чувствительность к букве), которая является алфавитной провероной цифрой 
+- буква (без чувствительной к букве), которая является алфавитной провероной цифрой 
 - Необязательная буква в диапазоне A-I или W
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -9004,7 +9004,7 @@ Dictionary
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -9112,7 +9112,7 @@ Dictionary
 -   id number
 -   identity no        
 -   identitynumber #
--   идентификациный номер
+-   identity number
 -   многоядерный объект       
 -   личный ид
 -   уникальный ид  
@@ -9122,7 +9122,7 @@ Dictionary
 
 ### <a name="format"></a>Format
 
-сочетание из 10 букв и цифр.
+сочетание 10 букв и цифр.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -9241,7 +9241,7 @@ Dictionary
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -9348,7 +9348,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-13 символов букв и цифр с необязательными разнородных символами:
+13 символов букв и цифр с необязательными делетерами:
 
 - I или i
 - T или t
@@ -9644,7 +9644,7 @@ Dictionary
 12 цифр:
 
 - четыре цифры
-- дополнительное пространство, точка или дефис
+- необязательный пробел, точка или дефис
 - четыре цифры
 - необязательный пробел, точка или дефис
 - четыре цифры
@@ -9699,7 +9699,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-две буквы (без чувствительность к буквам), за которыми следуют семь цифр
+две буквы (без чувствительность к буквам), за которыми следуют семь цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -9779,7 +9779,7 @@ Dictionary
 #### <a name="keyword_jp_residence_card_number"></a>Keyword_jp_residence_card_number
 
 - Номер карты для проживания
-- Карты проживания нет
+- Карточка", "Без карты проживания"
 - Карточка для проживания #
 - 在留カード番号
 - 在留カード
@@ -10048,7 +10048,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -10060,7 +10060,7 @@ Dictionary
 #### <a name="keywords_latvia_eu_drivers_license_number"></a>Keywords_latvia_eu_driver s_license_number
 
 - autovadja apliec
-- autovadja apliecࡉ
+- autovadja apliec
 - vadja apliec
 
 ## <a name="latvia-personal-code"></a>Персональный код для Латвии
@@ -10157,7 +10157,7 @@ Dictionary
 - national register number
 - nodokokoka nu nu
 - nodoku id
-- nodoku identifik
+- nodoku identifikcija nu nudents
 - личный номер сертификата
 - личный код
 - код личного кода
@@ -10169,7 +10169,7 @@ Dictionary
 - личный числовой код
 - personalcodeno #
 - personas kods
-- идентификационный код для пользователей
+- идентификационный код для людей
 - общедоступный номер службы
 - registration number
 - revenue number
@@ -10184,7 +10184,7 @@ Dictionary
 - tax no
 - налоговый номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -10216,7 +10216,7 @@ Dictionary
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_latvia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_latvia_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_latvia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -10424,7 +10424,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -10456,7 +10456,7 @@ Dictionary
 11 цифр без пробелов и селитров:
   
 - одна цифра (1–6), соответствующая полу и возрасту человека при рождения
-- шесть цифр, соответствующие дате рождения (YYMMDD) 
+- шесть цифр, соответствующих дате рождения (YYMMDD) 
 - три цифры, соответствующие серийному номеру даты рождения
 - одна контрольная цифра
     
@@ -10497,14 +10497,14 @@ Dictionary
 - asmeninis skaitmeninis kodas
 - asmens kodas
 - citizen service number
-- mokesвичi. id
-- mokes трагик. identifmasvimas numeris
+- mokesвичi ид
+- mokes трагикций identifmasvimas numeris
 - mokes трагик. identifikavimo numeris
 - mokesщуi. число
 - national identification number
 - личный код
 - личный числовой код
-- numeris pilieio paslaugos
+- pilieio paslaugos numeris
 - tax id
 - tax identification no
 - налоговый идентификационный номер
@@ -10513,7 +10513,7 @@ Dictionary
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -10603,7 +10603,7 @@ Dictionary
 - дата окончания срока действия
 
 
-## <a name="luxemburg-drivers-license-number"></a>Номер водительского удостоверения Химмхета
+## <a name="luxemburg-drivers-license-number"></a>Номер водительского удостоверения Химнюка
 
 ### <a name="format"></a>Format
 
@@ -10751,7 +10751,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -10840,7 +10840,7 @@ Dictionary
 - уникальное удостоверение
 - uniqueidkey #
 
-## <a name="luxemburg-passport-number"></a>Номер паспорта Химмхета
+## <a name="luxemburg-passport-number"></a>Номер паспорта Химмюна
 
 ### <a name="format"></a>Format
 
@@ -11006,7 +11006,7 @@ Dictionary
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -11095,7 +11095,7 @@ Dictionary
 
 сочетание двух символов и шести цифр:
   
-- два символа (цифры или буквы без чувствительность к буквам)
+- два символа (цифры или буквы, без чувствительность к буквам)
 - пробел (необязательно)
 - три цифры
 - пробел (необязательно)
@@ -11239,7 +11239,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -11323,7 +11323,7 @@ Dictionary
 
 ### <a name="format"></a>Format
 
-семь цифр без пробелов или делегировок
+семь цифр без пробелов или делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -11409,7 +11409,7 @@ Dictionary
 - семь цифр 
 - одна буква (без чувствительность к букве)
     
-Нефрумовские граждане и сущностями, не относягими к сша: девять цифр
+Негитюзские граждане и сущностями, не относягими к сущностям: девять цифр
   
 - девять цифр 
     
@@ -11469,7 +11469,7 @@ Dictionary
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -11691,7 +11691,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -11788,7 +11788,7 @@ Dictionary
 
 ### <a name="format"></a>Format
 
-девять цифр без пробелов или делегировок
+девять цифр без пробелов или делегаторов
   
 ### <a name="pattern"></a>Шаблон
 
@@ -11851,7 +11851,7 @@ Dictionary
 - налоговый регистрационный номер
 - tax tal
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -12216,7 +12216,8 @@ Dictionary
 - National Health Index Id
 - National Health Index #
 
-## <a name="new-zealand-social-wlefare-number"></a>Номер социальной сети Для Новой Зеландии
+## <a name="new-zealand-social-welfare-number"></a>Номер социальных сетей Новой Зеландии
+
 Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
 - политики соответствия коммуникациям
@@ -12527,7 +12528,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -12549,7 +12550,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-три буквы (без чувствительность к буквам), за которыми следуют шесть цифр
+три буквы (без чувствительность к буквам), за которыми следуют шесть цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -12637,7 +12638,7 @@ Dictionary
 - nr-pesel
 - numer identyfcyjny
 - pesel
-- tosamoraswej
+- tosamorasamowej
 
    
 ## <a name="poland-passport-number"></a>Номер паспорта гражданина Польша
@@ -12790,7 +12791,7 @@ Dictionary
 
 - nip #
 - nip
-- numer identyfjicji podatkowej
+- numer identyfkocji podatkowej
 - numeridentyfkocjipodatkowej #
 - tax id
 - tax identification no
@@ -12800,7 +12801,7 @@ Dictionary
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -13031,7 +13032,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -13075,7 +13076,7 @@ Dictionary
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_portugal_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_portugal_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_portugal_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -13197,7 +13198,7 @@ Dictionary
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -13357,7 +13358,7 @@ Dictionary
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -13373,7 +13374,7 @@ Dictionary
 - permisului висячий
 - permisele deремене
 - permisele дейспер
-- permis демилидер
+- permisтere
 
 ## <a name="romania-personal-numeric-code-cnp"></a>Личный числовой код Румынии (CNP)
 Этот тип конфиденциальной информации доступен только в:
@@ -13438,15 +13439,15 @@ Dictionary
 - national id #
 - national id
 - national identification number
-- numфикr identificare personal
+- numфиr identificare personal
 - num себя
-- num он же личная unic
+- num онкологическое
 - numsridentitate #
 - numsridentitate
 - numrpersonalunic #
 - numrpersonalunic
 - numru de identificare fiscal
-- numsrul de identificare fiscal
+- num траула de identificare fiscal
 - личный числовой код
 - pin #
 - pin
@@ -13460,7 +13461,7 @@ Dictionary
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -13916,7 +13917,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -13994,7 +13995,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 - identifííné ííslo
 - identity card no
 - номер удостоверения личности
-- národná identifááná znaáka á
+- národná identifkaáná znaáka á
 - national number
 - nationalnumber #
 - nemzeti személyazonosító igazolvány
@@ -14018,7 +14019,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -14046,7 +14047,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovakia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_slovakia_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovakia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -14253,7 +14254,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -14370,7 +14371,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovenia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
 - Ключевое слово  `Keywords_eu_passport_number` из или `Keywords_slovenia_eu_passport_number` найдено. 
-- Регулярное выражение находит дату в формате `Regex_eu_passport_date1` ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
+- Регулярное выражение `Regex_eu_passport_date1` находит дату в формате ДД.ММ.YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение  `Regex_slovenia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
@@ -14480,7 +14481,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 
 - davчатая ултеносилка
 - identifskacijska циtevilka davka
-- огтевилка davne datoatoatoe
+- гитевка dav детобайт
 - tax file no
 - tax file number
 - tax id
@@ -14491,7 +14492,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -14542,7 +14543,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identity card
-- ID
+- Идентификатор
 - Идентификация 
    
 ## <a name="south-korea-resident-registration-number"></a>Регистрационный номер резидента Южной Кореи
@@ -14766,7 +14767,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -14783,9 +14784,9 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 - licencia
 - permiso демикодировка
 - permiso deааir
-- permisos de деакриб
+- permisos deааir
 - permisos
-- carnet демилиру
+- carnet детоуниар
 - carnet de деавия
 - licencia de manejo
 - licencia manejo
@@ -14959,7 +14960,7 @@ numsrul paулaportului numarul pasaportului numerele pasaportului nr
 - дата окончания срока действия
 
 
-## <a name="spain-social-security-number-ssn"></a>Номер социального обеспечения Испании (SSN)
+## <a name="spain-social-security-number-ssn"></a>Номер социального обеспечения в Испании (SSN)
 
 ### <a name="format"></a>Format
 
@@ -15030,11 +15031,11 @@ Resident Resident Residents under the age of 14 years without a Spain National I
     
 Подмена идентификационных номеров
   
-- одна буква в верхнем регистре, которая является "X", "Y" или "Z" (с чувствительностью к регистру) 
+- одна буква в верхнем регистре, которая имеет буквы "X", "Y" или "Z" (с чувствительностью к регистру) 
 - семь цифр
 - одна буква в верхнем регистре (с чувствительностью к регистру) 
     
-Подмены без идентификационных номеров
+Подмена без идентификации по идентификационным номерам
   
 - одна буква в верхнем регистре с буквой "M" (с чувствительностью к регистру) 
 - семь цифр
@@ -15097,7 +15098,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -15120,7 +15121,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - строка "Password" или "pwd", где "pwd" не предшествует строчная буква
 - знак равного (=)
 - любой символ, который не является знаком доллара ($), символом процента (%), больше символа (>), в символе (@), кавычках ("), точка с зазнаковкой (;), левая скобка ([) или левая скобка ({)
-- любое сочетание 7–128 символов, которые не являются точками с за точками (;) косая черта (/) или кавычка ()
+- любое сочетание 7–128 символов, которые не являются пустяковой (;) косой черты (/) или кавычка ()
 - точка с зачетом (;) или кавычка (")
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15131,7 +15132,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Регулярное выражение CEP_Regex_SQLServerConnectionString находит содержимое, которое соответствует шаблону.
-- Ключевое слово из CEP_GlobalFilter **не найдено.**
+- Ключевое слово из CEP_GlobalFilter **не** найдено.
 - Регулярное выражение CEP_PasswordPlaceHolder **не находит** содержимое, которое соответствует шаблону.
 - Регулярное выражение CEP_CommonExampleKeywords **не находит** содержимое, которое соответствует шаблону.
 
@@ -15162,7 +15163,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 
 (Обратите внимание, что технически этот тип конфиденциальной информации идентифицирует эти ключевые слова с помощью регулярного выражения, а не списка ключевых слов.)
 
-- Пароль или пробелы, за которыми следует 0-2 пробела, знаки равного (=), 0-2 пробела и звездочка (*) --OR--
+- Пароль или пробел 0–2, знаки равного (=), 0-2 пробела и звездочка (*) --OR--
 - Пароль или pwd, за которым следует:
     - Знак равного (=)
     - Символ "Меньше символа" (<)
@@ -15335,7 +15336,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - licen драйвера
 - driving lic
 - driving licen
-- driving licenses
+- управление лицензиями
 - driving licence
 - driving licences
 - driving permit
@@ -15366,7 +15367,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 
 ### <a name="pattern"></a>Шаблон
 
-10 или 12 цифр и необязательный седиметр:
+10 или 12 цифр и необязательный делегатор:
 - две цифры (необязательно) 
 - Шесть цифр в формате даты ГГММДД. 
 - либо "-" или "+" (необязательно)
@@ -15415,12 +15416,12 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - identitetshandling
 - документ удостоверения
 - identity no
-- идентификациный номер
+- identity number
 - id-nummer
 - личный ид
 - personnummer #
 - personnummer
-- ikteidentifikationsnummer
+- кальтейдentifikationsnummer
    
 ## <a name="sweden-passport-number"></a>Номер паспорта гражданина Швеции
 Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации номера паспорта ес и доступен как автономный объект типа конфиденциальной информации.
@@ -15514,7 +15515,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - знак "плюс" или "минус"
 - три цифры, которые делают идентификационный номер уникальным, где: 
   - для номеров, выдавшихся до 1990 г., седьмая и восьмая цифры определяют округ рождения или инородных людей
-  - цифра в девятой позиции указывает пол по нечетным для самцов или даже для самцов
+  - цифра в девятом положении указывает пол по нечетным для самцов или даже для женщина
 - одна контрольная цифра
     
 ### <a name="checksum"></a>Контрольная сумма
@@ -15557,7 +15558,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - dentifikation
 - bettebetalarens identifikationsnummer
 - sverige tin
-- tax file
+- налоговый файл
 - tax id
 - tax identification no
 - налоговый идентификационный номер
@@ -15566,7 +15567,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - налоговый номер
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -15649,7 +15650,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - 金融機関コード
 - 銀行コード
 
-## <a name="switzerland-ssn-ahv-number"></a>Номер ADV для SSN в Швейцарии
+## <a name="switzerland-ssn-ahv-number"></a>Номер АЧЧ для швейцарии SSN
 Этот тип конфиденциальной информации доступен только в:
 - политики защиты от потери данных
 - политики соответствия коммуникациям
@@ -15719,7 +15720,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - identifikationsnummer
 - einzigartige identitchtt nicht
 - sozialversicherungsnummer
-- идентификационный ид персонала
+- identification personnelle id
 - numéro de sécurité sociale
 
    
@@ -15888,7 +15889,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 ### <a name="pattern"></a>Шаблон
 
 13 цифр:
-- первая цифра не ноль или девять 
+- первая цифра не нуль или девять 
 - 12 цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15970,7 +15971,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 
 - TC Kim kim
 - TC Kim numaras TC Kimmaras.
-- Vatanda vat vatk numaras.
+- Vat vat vatandalLK numaras.
 - Vatanda vat vatk no
 
 ## <a name="uk-drivers-license-number"></a>Сша номер водительского удостоверения
@@ -15983,7 +15984,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 ### <a name="pattern"></a>Шаблон
 
 18 букв и цифр
-- пять букв (без чувствительность к букве) или цифра "9" в качестве буквы 
+- пять букв (без чувствительность к букве) или цифра "9" на месте буквы 
 - одна цифра 
 - пять цифр в формате даты MMDDY для даты рождения (7-й знак приращен на 50, если драйвер — женщина, то есть от 51 до 62 вместо 01–12)
 - две буквы (без чувствительность к букве) или цифра "9" в качестве буквы 
@@ -16021,7 +16022,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - 125cc 
 - sidecar 
 - трициклы 
-- ы 
+- 10 
 - photocard licence 
 - learner drivers 
 - licence holder 
@@ -16140,7 +16141,7 @@ Resident Resident Residents under the age of 14 years without a Spain National I
 - Birth Date 
    
 ## <a name="uk-national-insurance-number-nino"></a>Сша national insurance number (NINO)
-Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации "Номер государственного номера для ЕС" и доступен в качестве отдельного объекта типа конфиденциальной информации.
+Этот объект типа конфиденциальной информации включается в тип конфиденциальной информации "National Identificaiton Number" в ЕС и доступен в качестве отдельного объекта типа конфиденциальной информации.
 
 ### <a name="format"></a>Format
 
@@ -16259,7 +16260,7 @@ OR
 #### <a name="keywords_uk_eu_tax_file_number"></a>Keywords_uk_eu_tax_file_number
 
 - налоговый номер
-- tax file
+- налоговый файл
 - tax id
 - tax identification no
 - налоговый идентификационный номер
@@ -16267,7 +16268,7 @@ OR
 - tax no
 - налоговый регистрационный номер
 - ыd #
-- аdno #
+- ыdno #
 - ыdnumber #
 - taxno #
 - taxnumber #
@@ -16393,7 +16394,7 @@ OR
 - DLS 
 - CDL 
 - CDLS 
-- ID 
+- Идентификатор 
 - IDs 
 - DL # 
 - DLS # 

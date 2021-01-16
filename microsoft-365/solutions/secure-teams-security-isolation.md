@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как создать команду с уникальной меткой конфиденциальности в целях безопасности.
-ms.openlocfilehash: d5cfe33d4f254832ccf26552d8ca392cf1dc440c
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 439dee40d1501801fc09d570614a591259c6f09c
+ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870983"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49881709"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Настройка команды с изоляцией для обеспечения безопасности
 
@@ -46,7 +46,7 @@ ms.locfileid: "49870983"
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
-<a name="poster"></a> 2-страничное краткое описание этого сценария приведено на [плакате "Microsoft Teams с изоляцией для обеспечения безопасности"](../downloads/team-security-isolation-poster.pdf).
+<a name="poster"></a> 1-страничное краткое описание этого сценария приведено на [плакате "Microsoft Teams с изоляцией для обеспечения безопасности"](../downloads/team-security-isolation-poster.pdf).
 
 [![Плакат "Microsoft Teams с изоляцией для обеспечения безопасности"](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
