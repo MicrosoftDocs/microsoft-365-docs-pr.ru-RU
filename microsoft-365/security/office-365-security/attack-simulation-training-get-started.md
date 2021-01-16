@@ -1,5 +1,5 @@
 ---
-title: Начало работы с обучением моделированию атак
+title: Начало использования обучения имитации атаки
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -19,18 +19,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут научиться использовать обучение моделированию атак для запуска имитации фишинга и атак с использованием паролей в организациях Microsoft 365 E5 или Microsoft Defender для Office 365 (план 2).
-ms.openlocfilehash: 9d97816edf7d59c002658fc8bb3f39e72dbc2430
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 2c00fb27748887c6b8e2fa1458b10f0c3405eef7
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871252"
+ms.locfileid: "49877168"
 ---
-# <a name="get-started-using-attack-simulation-training"></a>Начало работы с обучением моделированию атак
+# <a name="get-started-using-attack-simulation-training"></a>Начало использования обучения имитации атаки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Если в вашей организации есть Microsoft 365 E5 или Microsoft Defender для Office 365 (план 2), который включает возможности [анализа](office-365-ti.md)угроз и реагирования на них, вы можете использовать обучение моделированию атак в Центре безопасности Майкрософт для запуска реалистичных сценариев атак в организации. Эти имитации атак могут помочь вам определить и найти уязвимых пользователей, прежде чем реальные атаки повяжют на вашу жнюю линию. Чтобы узнать больше, ознакомьтесь с этой статьей.
 

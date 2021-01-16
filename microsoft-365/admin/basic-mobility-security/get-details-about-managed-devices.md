@@ -1,5 +1,5 @@
 ---
-title: Получение сведений об основных управляемых устройствах для мобильных устройств и безопасности
+title: Сведения об управляемых устройствах Basic Mobility и Security
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,189 +17,172 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Используйте Windows PowerShell для получения сведений об основных устройствах для мобильных устройств и безопасности в Организации.
-ms.openlocfilehash: d34263ee215c568834034f2735bb69d9cef9ac6d
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: Используйте Windows PowerShell для получения сведений об основных мобильных устройствах и устройствах безопасности в организации.
+ms.openlocfilehash: 7c6a0365dfd573377c3675bbcee8ee8280e33816
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430283"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876892"
 ---
-# <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Получение сведений об основных управляемых устройствах для мобильных устройств и безопасности
+# <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Сведения об управляемых устройствах Basic Mobility и Security
 
-В этой статье показано, как использовать Windows PowerShell для получения сведений об устройствах в Организации, которые вы настроили для обеспечения базовой мобильной работы и безопасности.
+В этой статье показано, как использовать Windows PowerShell для получения сведений об устройствах в организации, которые вы настроили для Базовой мобильности и безопасности.
 
-Ниже приведена подразделение сведений об устройствах, доступных вам.
+Ниже вы можете получить подробные сведения об устройстве.
 
-|**Detail**|**Что искать в PowerShell**|
+|**Detail**|**Что нужно искать в PowerShell**|
 |:----------------|:------------------------------------------------------------------------------|
-|Устройство регистрируется в базовой мобильной связи и безопасности. Дополнительные сведения см. в статье [Регистрация мобильного устройства с помощью базовой мобильной работы и безопасности](enroll-your-mobile-device.md)|Параметр "для *управления*"   имеет следующий тип:<br/>**True**= устройство зарегистрировано.<br/>**False**= устройство не зарегистрировано. |
-|Устройство соответствует политикам безопасности устройств. Дополнительные сведения см в разделе [Создание политик безопасности устройств](create-device-security-policies.md)|Значение параметра "параметром" *соответствует*   :<br/>**Значение true**   = устройство соответствует политикам.<br/>**False (ложь**   ) = устройство несовместимо с политиками.|
+|Устройство зарегистрировать в Basic Mobility and Security. Дополнительные сведения [см.](enroll-your-mobile-device.md) в записи мобильного устройства с помощью Basic Mobility and Security|Значение параметра *isManaged:*  <br/>**True**= устройство зарегистрировать.<br/>**False**= устройство не зарегистрировать. |
+|Устройство соответствует политикам безопасности устройства. Дополнительные сведения см. в [дополнительных сведениях о создании политик безопасности устройств](create-device-security-policies.md)|Значение параметра *isCompliant:*  <br/>**True**   = устройство соответствует политикам.<br/>**False**   = устройство не соответствует политикам.|
 
-:::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="Основные параметры PowerShell для обеспечения мобильности и безопасности":::
+:::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="Параметры Basic Mobility and Security PowerShell":::
 
 >[!NOTE]
->Команды и сценарии также возвращают сведения обо всех устройствах под управлением [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
+>Команды и сценарии в этой статье также возвращают сведения о любых устройствах, управляемых [Microsoft Intune.](https://www.microsoft.com/cloud-platform/microsoft-intune)
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
-Для выполнения команд и сценариев, описанных в этой статье, необходимо настроить несколько моментов.
+Существует несколько вещей, которые необходимо настроить для запуска команд и сценариев, описанных в этой статье.
 
-### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Шаг 1: Скачайте и установите модуль Azure Active Directory для Windows PowerShell
+### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Шаг 1. Скачайте и установите модуль Azure Active Directory для Windows PowerShell
 
-Для получения дополнительных сведений об этих действиях обратитесь к разделу [Подключение к Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
+Дополнительные сведения об этих действиях см. в [подключении к Microsoft 365 с помощью PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell)
 
-1. Перейдите на страницу [Помощник по входу в Microsoft Online Services для ИТ-специалистов ртвл](https://www.microsoft.com/download/details.aspx?id=41950)   и выберите пункт  **Загрузка для помощника по входу в Microsoft Online Services**.   
+1. Перейдите Microsoft Online Services Sign-In помощника для ИТ-специалистов [по RTWl](https://www.microsoft.com/download/details.aspx?id=41950)и выберите "Загрузить для Microsoft Online Services помощника по    **входу".**   
 
-2. Чтобы установить модуль Microsoft Azure Active Directory для Windows PowerShell, сделайте следующее:   
+2. Чтобы установить модуль Microsoft Azure Active Directory для Windows PowerShell, сделайте следующее:
 
     1. Откройте командную строку для уровня администратора PowerShell.  
 
     2. Выполните команду Install-Module MSOnline.
-    
-    3. Если отобразится запрос на установку поставщика NuGet, введите Y и нажмите клавишу ВВОД.   
 
-    4. Если отобразится запрос на установку модуля из репозитория PSGallery, введите Y и нажмите клавишу ВВОД.   
+    3. Если отобразится запрос на установку поставщика NuGet, введите Y и нажмите клавишу ВВОД.
+
+    4. Если отобразится запрос на установку модуля из репозитория PSGallery, введите Y и нажмите клавишу ВВОД.
 
     5. После установки закройте командное окно PowerShell.
-    
-### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Шаг 2: подключение к вашей подписке на Microsoft 365
 
-1. В модуле Windows Azure Active Directory для Windows PowerShell выполните следующую команду.  
+### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Шаг 2. Подключение к подписке Microsoft 365
+
+1. В модуле Windows Azure Active Directory для Windows PowerShell запустите следующую команду.  
 
     $UserCredential = Get-Credential
 
-2. В диалоговом окне Запрос учетных данных Windows PowerShell введите имя пользователя и пароль для учетной записи глобального администратора Microsoft 365, а затем нажмите кнопку **ОК**.
-    
-3. Выполните следующую команду.
-    
-    Connect — MsolService — $UserCredential учетных данных
+2. В диалоговом Windows PowerShell запроса учетных данных введите имя пользователя и пароль для учетной записи глобального администратора Microsoft 365, а затем выберите **"ОК".**
 
-### <a name="step-3-make-sure-youre-able-to-run-powershell-scripts"></a>Шаг 3: Убедитесь, что вы можете запускать сценарии PowerShell.
+3. Выполните следующую команду.
+
+    Connect-MsolService -Credential $UserCredential
+
+### <a name="step-3-make-sure-youre-able-to-run-powershell-scripts"></a>Шаг 3. Убедитесь, что вы можете запускать сценарии PowerShell
 
 >[!NOTE]
->Вы можете пропустить этот шаг, если вы уже настроили выполнение сценариев PowerShell.
+>Этот шаг можно пропустить, если вы уже настроены на запуск сценариев PowerShell.
 
-Чтобы запустить скрипт Get-MsolUserDeviceComplianceStatus.ps1, необходимо включить выполнение сценариев PowerShell.
+Чтобы запустить сценарий Get-MsolUserDeviceComplianceStatus.ps1, необходимо включить запуск сценариев PowerShell.
 
-1. На рабочем столе Windows нажмите кнопку **Пуск**и введите Windows PowerShell. Щелкните правой кнопкой мыши Windows PowerShell, а затем выберите пункт **Запуск от имени администратора**.
+1. На рабочем столе Windows выберите **"Начните"** и введите Windows PowerShell. Щелкните правой кнопкой мыши Windows PowerShell выберите "Запуск **от администратора".**
 
 2. Выполните следующую команду.
-    
-    Set — ExecutionPolicy RemoteSigned
 
-3. При появлении соответствующего запроса введите Y и нажмите клавишу ВВОД.
-    
-**Выполните командлет Get – Мсолдевице, чтобы отобразить сведения для всех устройств в Организации.**
+    Set-ExecutionPolicy RemoteSigned
+
+3. При запросе введите Y и нажмите ввод.
+
+**Запустите Get-MsolDevice для отображения сведений о всех устройствах в организации**
 
 1. Откройте модуль Microsoft Azure Active Directory для Windows PowerShell.  
 
 2. Выполните следующую команду.
-    
-    Get – Мсолдевице — ALL – Ретурнрегистередовнерс | Where – Object {$ _. RegisteredOwners. Count — gt 0}
 
-Дополнительные примеры приведены в статье  [Get – мсолдевице](https://go.microsoft.com/fwlink/?linkid=841721).
+    Get-MsolDevice -All -ReturnRegisteredOwners | Where-Object {$_. RegisteredOwners.Count -gt 0}
 
-## <a name="run-a-script-to-get-device-details"></a>Запуск скрипта для получения сведений об устройстве
+Дополнительные примеры см. в  [примере Get-MsolDevice.](https://go.microsoft.com/fwlink/?linkid=841721)
 
-Сначала сохраните сценарий на своем компьютере.
+## <a name="run-a-script-to-get-device-details"></a>Запуск сценария для получения сведений об устройстве
 
-1. Скопируйте и вставьте приведенный ниже текст в Блокнот.  
+Сначала сохраните сценарий на компьютере.
 
-2.  Param
-    
+1. Скопируйте и в paste следующий текст в Блокноте.  
 
-3.  [PSObject []] $users = @ (),
-    
+2.  param (
 
-4.  [Переключатель] $export,
-    
+3.  [PSObject[]]$users = @(),
 
-5.  [Строка] $exportFileName = "UserDeviceComplianceStatus_" + (Get-Date-format "yyMMdd_HHMMss") + ". csv",
-    
+4.  [Switch]$export,
 
-6.  [Строка] $exportPath = [среда]:: Жетфолдерпас ("Рабочий стол")
-    
+5.  [String]$exportFileName = "UserDeviceComplianceStatus_" + (Get-Date -Format "yyMMdd_HHMMss") + ".csv",
+
+6.  [String]$exportPath = [Environment]::GetFolderPath("Desktop")
 
 7.  )
+
+9.  [System.Collections.IDictionary]$script:schema = @{
+
+11.  DeviceId = ''
+
+12.  DeviceOSType = ''
+
+13.  DeviceOSVersion = ''
+
+14.  DeviceTrustLevel = ''
+
+15.  DisplayName = ''
+
+16.  IsCompliant = ''
+
+17.  IsManaged = ''
+
+18.  ApproximateLastLogonTimestamp = ''
+
+19.  DeviceObjectId = ''
+
+20.  RegisteredOwnerUpn = ''
+
+21.  RegisteredOwnerObjectId = ''
     
 
-9.  [System. Collections. IDictionary] $script: schema = @ {
-    
-
-11.  DeviceId = ' '
-    
-
-12.  Девицеостипе = ' '
-    
-
-13.  Девицеосверсион = ' '
-    
-
-14.  Девицетрустлевел = ' '
-    
-
-15.  DisplayName = ' '
-    
-
-16.  Является совместимым = ' '
-    
-
-17.  Managed = ' '
-    
-
-18.  Аппроксимателастлогонтиместамп = ' '
-    
-
-19.  Девицеобжектид = ' '
-    
-
-20.  Регистередовнерупн = ' '
-    
-
-21.  Регистередовнеробжектид = ' '
-    
-
-22.  Регистередовнердисплайнаме = ' '
+22.  RegisteredOwnerDisplayName = ''
     
 
 23.  }
     
 
-25.  Функция Креатересултобжект
+25.  function createResultObject
     
 
 26.  {
     
 
-28.  [PSObject] $resultObject = New – Object: TypeName PSObject — Property $script: schema
+28.  [PSObject]$resultObject = New-Object -TypeName PSObject -Property $script:schema
     
 
-30.  Возврат $resultObject
+30.  возвращаемая $resultObject
     
 
 31.  }
     
 
-33.  Если ($users. Count-EQ 0)
+33.  If ($users. Count -eq 0)
     
 
 34.  {
     
 
-35.  $users = Get MsolUser
+35.  $users = Get-MsolUser
     
 
 36.  }
     
 
-38.  [PSObject []] $result = foreach ($u в $users)
+38.  [PSObject[]]$result = foreach ($u в $users)
     
 
 39.  {
     
 
-41.  [PSObject] $devices = Get – мсолдевице — Регистередовнерупн $u. UserPrincipalName
+41.  [PSObject]$devices = get-msoldevice -RegisteredOwnerUpn $u.UserPrincipalName
     
 
 42.  foreach ($d в $devices)
@@ -208,43 +191,43 @@ ms.locfileid: "47430283"
 43.  {
     
 
-44.  [PSObject] $deviceResult = Креатересултобжект
+44.  [PSObject]$deviceResult = createResultObject
     
 
-45.  $deviceResult. DeviceId = $d. DeviceId
+45.  $deviceResult.DeviceId = $d.DeviceId
     
 
-46.  $deviceResult. Девицеостипе = $d. Девицеостипе
+46.  $deviceResult.DeviceOSType = $d.DeviceOSType
     
 
-47.  $deviceResult. Девицеосверсион = $d. Девицеосверсион
+47.  $deviceResult.DeviceOSVersion = $d.DeviceOSVersion
     
 
-48.  $deviceResult. Девицетрустлевел = $d. Девицетрустлевел
+48.  $deviceResult.DeviceTrustLevel = $d.DeviceTrustLevel
     
 
-49.  $deviceResult. DisplayName = $d. DisplayName
+49.  $deviceResult.DisplayName = $d.DisplayName
     
 
-50.  $deviceResult. с соответствующим = $d. Графдевицеобжект. ALL
+50.  $deviceResult.IsCompliant = $d.GraphDeviceObject.IsCompliant
     
 
-51.  $deviceResult. Графдевицеобжект. Managed = $d...
+51.  $deviceResult.IsManaged = $d.GraphDeviceObject.IsManaged
     
 
-52.  $deviceResult. Девицеобжектид = $d. ObjectId
+52.  $deviceResult.DeviceObjectId = $d.ObjectId
     
 
-53.  $deviceResult. Регистередовнерупн = $u. UserPrincipalName
+53.  $deviceResult.RegisteredOwnerUpn = $u.UserPrincipalName
     
 
-54.  $deviceResult. Регистередовнеробжектид = $u. ObjectId
+54.  $deviceResult.RegisteredOwnerObjectId = $u.ObjectId
     
 
-55.  $deviceResult. Регистередовнердисплайнаме = $u. DisplayName
+55.  $deviceResult.RegisteredOwnerDisplayName = $u.DisplayName
     
 
-56.  $deviceResult. Аппроксимателастлогонтиместамп = $d. Аппроксимателастлогонтиместамп
+56.  $deviceResult.ApproximateLastLogonTimestamp = $d.ApproximateLastLogonTimestamp
     
 
 58.  $deviceResult
@@ -256,13 +239,13 @@ ms.locfileid: "47430283"
 61.  }
     
 
-63.  Если ($export)
+63.  If ($export)
     
 
 64.  {
     
 
-65.  $result | Export-CSV-Path ($exportPath + " \" + $exportFileName) — нотипеинформатион
+65.  $result | Export-Csv -path ($exportPath + " \" + $exportFileName) -NoTypeInformation
     
 
 66.  }
@@ -280,48 +263,48 @@ ms.locfileid: "47430283"
 70.  }
     
 
-71.  Сохраните его как файл сценария Windows PowerShell, используя расширение File. ps1; Например, Get-MsolUserDeviceComplianceStatus.ps1.   
+71.  Сохраните его в Windows PowerShell с помощью расширения PS1; например, Get-MsolUserDeviceComplianceStatus.ps1.   
 
 ## <a name="run-the-script-to-get-device-information-for-a-single-user-account"></a>Запуск сценария для получения сведений об устройстве для одной учетной записи пользователя
 
 1. Откройте модуль Microsoft Azure Active Directory для Windows PowerShell.
     
-2. Перейдите к папке, в которой был сохранен сценарий. Например, если вы сохранили его в К:\пс-скриптс, выполните следующую команду.
+2. Перейдите в папку, в которой сохранен сценарий. Например, если вы сохранили его в C:\PS-Scripts, запустите следующую команду.
     
-    CD К:\пс-скриптс
+    cd C:\PS-Scripts
 
-3. Выполните следующую команду, чтобы определить пользователя, для которого необходимо получить сведения об устройстве. В этом примере показано получение сведений для bar@example.com.
+3. Чтобы определить пользователя, для который вы хотите получить сведения об устройстве, запустите следующую команду. В этом примере по bar@example.com.
     
-    $u = Get MsolUser — UserPrincipalName bar@example.com
+    $u = Get-MsolUser -UserPrincipalName bar@example.com
 
-4. Выполните следующую команду, чтобы запустить скрипт.
+4. Чтобы запустить сценарий, запустите следующую команду.
 
-    .\Get-MsolUserDeviceComplianceStatus.ps1 $u экспорта
+    .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
-Информация экспортируется на Рабочий стол Windows в виде CSV-файла. Вы можете использовать дополнительные параметры, чтобы указать имя файла и путь для CSV-файла.
+Эти сведения экспортируются на рабочий стол Windows в CSV-файле. Вы можете использовать дополнительные параметры, чтобы указать имя файла и путь CSV-файла.
 
-## <a name="run-the-script-to-get-device-information-for-a-group-of-users"></a>Запуск скрипта для получения сведений об устройстве для группы пользователей
+## <a name="run-the-script-to-get-device-information-for-a-group-of-users"></a>Запуск сценария для получения сведений об устройстве для группы пользователей
 
 1. Откройте модуль Microsoft Azure Active Directory для Windows PowerShell.
     
-2. Перейдите к папке, в которой был сохранен сценарий. Например, если вы сохранили его в К:\пс-скриптс, выполните следующую команду.   
+2. Перейдите в папку, в которой сохранен сценарий. Например, если вы сохранили его в C:\PS-Scripts, запустите следующую команду.   
 
-    CD К:\пс-скриптс
+    cd C:\PS-Scripts
 
-3. Выполните следующую команду, чтобы определить группу, для которой требуется получить сведения об устройстве. В этом примере показано получение сведений для пользователей в группе Финанцестафф. 
+3. Чтобы определить группу, для получения сведений об устройстве, запустите следующую команду. В этом примере возвращается информация о пользователях в группе FinanceStaff. 
 
-    $u = Get – Мсолграупмембер — Сеарчстринг "Финанцестафф" | % {Get – MsolUser – ObjectId $ _. ИД
+    $u = Get-MsolGroupMember -SearchString "FinanceStaff" | % { Get-MsolUser -ObjectId $_. ObjectId }
 
-4. Выполните следующую команду, чтобы запустить скрипт.   
+4. Чтобы запустить сценарий, запустите следующую команду.   
 
-    .\Get-MsolUserDeviceComplianceStatus.ps1 $u экспорта
+    .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
-Информация экспортируется на Рабочий стол Windows в виде CSV-файла. Вы можете использовать дополнительные параметры, чтобы указать имя файла и путь для CSV-файла.
+Эти сведения экспортируются на рабочий стол Windows в CSV-файле. Вы можете использовать дополнительные параметры, чтобы указать имя файла и путь CSV-файла.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
-[Microsoft Connect снят](https://docs.microsoft.com/collaborate/connect-redirect)
+[Microsoft Connect больше не установлен](https://docs.microsoft.com/collaborate/connect-redirect)
 
-[Общие сведения о базовом мобильном и системном обеспечении безопасности](overview.md)
+[Обзор Basic Mobility + Security](overview.md)
 
-[Get — Мсолдевице](https://go.microsoft.com/fwlink/?linkid=841721)
+[Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=841721)

@@ -1,5 +1,5 @@
 ---
-title: Выбор между базовыми мобильностью и безопасностью и Intune
+title: Выбор между базовой мобильностью и безопасностью и Intune
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,23 +17,23 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Базовые мобильность и безопасность входят в планы Microsoft 365.
-ms.openlocfilehash: 75fef5bd70d7b8926d31b80f16952aa996bc625c
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+description: Базовые функции мобильности и безопасности являются частью планов Microsoft 365.
+ms.openlocfilehash: cfd1a68c313d1a1335490e2b8d6938de192fe3f3
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580665"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49877096"
 ---
-# <a name="choose-between-basic-mobility-and-security-or-intune"></a>Выбор между базовыми мобильностью и безопасностью или Intune
+# <a name="choose-between-basic-mobility-and-security-or-intune"></a>Выбор между базовой мобильностью и безопасностью или Intune
 
-[Microsoft Intune](https://docs.microsoft.com/mem/intune/) — это автономный продукт, включенный в определенные планы Microsoft 365, в то время как базовые мобильность и безопасность являются частью планов Microsoft 365. 
+[Microsoft Intune](https://docs.microsoft.com/mem/intune/) — это автономный продукт, включенный в некоторые планы Microsoft 365, в то время как Basic Mobility and Security входит в состав планов Microsoft 365. 
 
- ## <a name="availability-of-basic-mobility-and-security-and-intune"></a>Доступность базовых служб мобильной связи и безопасности и Intune
+ ## <a name="availability-of-basic-mobility-and-security-and-intune"></a>Доступность базовой мобильности и безопасности и Intune
  
-Как базовые мобильность, так и безопасность и Intune включены в различные планы, описанные в следующей таблице.
+Базовые мобильность и безопасность и Intune включены в различные планы, описанные в следующей таблице.
 
-| Планирование | Базовые мобильность и безопасность | Microsoft Intune |
+| План | Basic Mobility + Security | Microsoft Intune |
 |:-----|:-----|:-----|
 |Приложения Microsoft 365|Да|Нет|
 |Microsoft 365 бизнес базовый|Да|Нет|
@@ -42,64 +42,65 @@ ms.locfileid: "49580665"
 |Office 365 E3 |Да|Нет|
 |Office 365 E5 |Да|Нет|
 |Microsoft 365 бизнес премиум |Да|Да|
-|Microsoft 365 задействование 3 |Да|Да|
+|Microsoft 365 Firstline 3 |Да|Да|
 |Microsoft 365 корпоративный E3 |Да|Да|
 |Microsoft 365 корпоративный E5 |Да|Да|
-|Microsoft 365 для образования a1 |Да|Да|
+|Microsoft 365 для образования A1 |Да|Да|
 |Microsoft 365 для образования A3 |Да|Да|
 |Microsoft 365 для образования A5 |Да|ДА|
 |Microsoft Intune |Нет|Да|
-|Корпоративная мобильность & Security E3 |Нет|Да|
-|Корпоративная мобильная & безопасность |Нет|Да|
+|Enterprise Mobility & Security E3 |Нет|Да|
+|Enterprise Mobility & Security E5 |Нет|Да|
 
 >[!NOTE]
->Вы не можете приступать к использованию базовых функций мобильной связи и безопасности, если вы уже используете Microsoft Intune.
+>Если вы уже используете Microsoft Intune, вы не можете начать использовать Basic Mobility and Security.
 
- Дополнительные сведения см. в [статье Microsoft 365 и описание службы платформы Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description). 
+ Подробные сведения см. в описании служб [платформы Microsoft 365 и Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) 
 
 ## <a name="differences-in-capabilities"></a>Различия в возможностях
 
-Microsoft Intune и Встроенная базовая поддержка мобильности и безопасности предоставляют возможность управлять мобильными устройствами в Организации, но в приведенной ниже таблице есть основные различия в возможности.
+Microsoft Intune и встроенные функции Basic Mobility и Security дают возможность управлять мобильными устройствами в организации, но существуют ключевые различия в возможностях, описанные в следующей таблице.
 
 >[!NOTE]
->Вы можете управлять пользователями и их мобильными устройствами, используя Intune и Basic Mobility и Security в одной организации Microsoft 365 бизнес Standard, *настраивая базовую мобильность и безопасность, а затем добавляя Microsoft Intune*. Это позволяет выбрать базовые мобильность и безопасность, а также более широкие возможности решения Intune. Назначьте лицензию Intune, чтобы включить функции Intune.
+>Вы можете управлять пользователями и их мобильными устройствами с помощью Intune и Basic Mobility and Security в одной организации Microsoft 365 бизнес стандартный, сначала настроив Basic Mobility and Security, а затем добавив *Microsoft Intune.* Это позволяет выбрать базовые функции мобильности и безопасности или более функции решения Intune. Назначьте лицензию Intune, чтобы включить функции Intune.
 
-| Функциональная область | Основные функции | Базовые мобильность и безопасность | Microsoft Intune |
+| Функциональная область | Выделения функций | Basic Mobility + Security | Microsoft Intune |
 |:-----|:-----|:-----|:-----|
-|Типы устройств|Управление различными платформами ОС и основными вариантами режима управления. |Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>Mac OS, iPad OS|
-|Соответствие устройства требованиям|Задание и управление политиками безопасности, такими как блокировка ПИН-кода на уровне устройства и обнаружение жаилбреак. |Ограничения на устройствах с Android 9 и более поздних версий. [Подробнее](capabilities.md). |Да|
-|Условный доступ на основе соответствия требованиям устройств |Предотвращение доступа несоответствующих требованиям устройств к корпоративным электронным письмам и данным из облака. |Не поддерживается в Windows 10.<br/>Ограниченный контроль доступа к Exchange Online, SharePoint Online и Outlook. |Да |
-|Конфигурация устройства  |Настройка параметров устройств (например, отключение камеры)|Ограниченный набор параметров.|Да|Соответствие устройства требованиям|Задание и управление политиками безопасности, такими как блокировка ПИН-кода на уровне устройства и обнаружение жаилбреак. |Ограничения на устройствах с Android 9 и более поздних версий. [Подробнее](capabilities.md). |Да|
-|Профили электронной почты  |Подготовка собственного профиля электронной почты на устройстве. |Да|Да|
-|Профили Wi-Fi |Подготовка собственного профиля Wi-Fi на устройстве. |Нет|Да|
-|Профили VPN |Подготовка собственного профиля VPN на устройстве. |Нет|Да|
-|Управление приложениями MDM |Развертывайте внутренние бизнес-приложения и из магазинов приложений для пользователей. |Нет|Да|
-|MAM |Убедитесь, что ваши пользователи могут безопасно получать доступ к корпоративной информации с помощью приложений Office Mobile и бизнес-приложений, помогая ограничить действия, такие как копирование, вырезать, вставить и сохранить как, только для тех приложений, которые утверждены для корпоративных данных. |Нет|Да|
-|Managed Browser  |Включение более безопасного веб-обзора с помощью пограничного приложения. |Нет|Да|
-|Автопилот для программ регистрации с нулевым управлением. |Зарегистрировать большое количество корпоративных устройств, а затем упростить настройку пользователей. |Нет|Да|
+|Типы устройств|Управление различными платформами ОС и основными вариантами режима управления. |Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>mac OS, iPad OS|
+|Соответствие устройства требованиям|Установите и управляйте политиками безопасности, например блокировкой ПИН-кодов на уровне устройства и обнаружением разбейки. |Ограничения на устройствах с Android 9 и более поздних версий. См. [сведения.](capabilities.md) |Да|
+|Условный доступ на основе соответствия устройств требованиям |Запретить несоотвершенным устройствам доступ к корпоративной электронной почте и данным из облака. |Не поддерживается в Windows 10.<br/>Ограничивается управлением доступом к Exchange Online, SharePoint Online и Outlook. |Да |
+|Конфигурация устройства  |Настройка параметров устройства (например, отключение камеры)|Ограниченный набор параметров.|Да|
+|Соответствие устройства требованиям  |Установите и управляйте политиками безопасности, например блокировкой ПИН-кодов на уровне устройства и обнаружением разбейки. |Ограничения на устройствах с Android 9 и более поздних версий. См. [сведения.](capabilities.md) |Да|
+|Профили электронной почты  |Подготовка на устройстве своего профиля электронной почты. |Да|Да|
+|Профили Wi-Fi |Подготовка на устройстве своего профиля Wi-Fi. |Нет|Да|
+|Профили VPN |Подготовка на устройстве своего VPN-профиля. |Нет|Да|
+|Базовое управление приложениями Mobility and Security  |Развертывание внутренних бизнес-приложений и из магазинов приложений для пользователей. |Нет|Да|
+|Защита мобильных приложений  |Включите для пользователей безопасный доступ к корпоративной информации с помощью мобильных и бизнес-приложений Office, которые они знают, обеспечивая безопасность данных, помогая ограничить такие действия, как копирование, вырезание, ветвь и сохранение, только тем приложениям, которым удалось управлять для корпоративных данных. Работает, даже если устройства не зарегистрированы в Basic Mobility and Security. См. "Защита данных приложения с помощью политик MAM". |Нет|Да|
+|Управляемый браузер  |Включить более безопасный просмотр веб-страниц с помощью приложения Edge. |Нет|Да|
+|Программы автоматической регистрации Autopilot) |Регистрация большого количества корпоративных устройств, упрощая настройку пользователей. |Нет|Да|
 |||
 
-В дополнение к функциям, перечисленным в предыдущей таблице, базовые мобильность и безопасность и Intune включают набор удаленных действий, которые отправляют команды на устройства через Интернет. Например, вы можете удалить данные Office с устройства сотрудника, оставив личные данные на месте (не выполняя), удалять приложения Office с устройства (стирания) сотрудника или сбрасывать их в заводские настройки (полная очистка). 
+Помимо функций, перечисленных в предыдущей таблице, basic Mobility and Security и Intune включают набор удаленных действий, которые отправляют команды на устройства через Интернет. Например, вы можете удалить данные Office с устройства сотрудника, оставив персональные данные на месте (удалить), удалить приложения Office с устройства сотрудника (стирать) или сбросить заводские параметры устройства (полная стирка). 
 
-Основные удаленные действия для мобильности и безопасности включают снятие с учета, очистку и полную очистку. Более подробную информацию об основных действиях по обеспечению мобильности и безопасности можно узнать в статье [возможности базового обеспечения безопасности и обеспечения безопасности](capabilities.md).
+Основные удаленные действия по мобильности и безопасности включают в себя отставку, стираемость и полную стираемость. Дополнительные сведения о действиях с базовой мобильностью и безопасностью см. в сведениях о возможностях [Basic Mobility and Security.](capabilities.md)
 
-С помощью Intune можно получить следующий набор действий:
+В Intune имеется следующий набор действий:
 
--   Автопилотный сброс (только для Windows)
--  [Ротация](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys)   ключей BitLocker (Только для Windows)
--  [Отмена регистрации устройства с помощью очистки, снятия с учета или вручную](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal)
--  [Отключить активацию Loc](https://docs.microsoft.com/mem/intune/remote-actions/device-activation-lock-disable)   (только для iOS)
--  [Начало обновления](https://docs.microsoft.com/mem/intune/remote-actions/device-fresh-start)   (Только для Windows)
-- [Полная проверка](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)   (Только для Windows 10)
-- [Обнаружение устройства](https://docs.microsoft.com/mem/intune/remote-actions/device-locate)   (только для iOS)
-- Режим "потеряно" [Lost mode](https://docs.microsoft.com/mem/intune/remote-actions/device-lost-mode)   (только для iOS) — [Быстрая проверка](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)(только для Windows 10)
+-   Сброс Autopilot (только для Windows)
+-  [Поворот клавиш BitLocker](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys)   (только для Windows)
+-  [Использование стирки, стирать или вручную открепить устройство](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal)
+-  [Отключение местонахождения активации](https://docs.microsoft.com/mem/intune/remote-actions/device-activation-lock-disable)   (только для iOS)
+-  [Новое начало](https://docs.microsoft.com/mem/intune/remote-actions/device-fresh-start)   (только для Windows)
+- [Полная проверка](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)   (Только в Windows 10)
+- [Поиск устройства](https://docs.microsoft.com/mem/intune/remote-actions/device-locate)   (только для iOS)
+- [Режим потери](https://docs.microsoft.com/mem/intune/remote-actions/device-lost-mode)   (только для iOS) — [быстрая проверка](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)(только для Windows 10)
 - [Удаленное управление для Android](https://docs.microsoft.com/mem/intune/remote-actions/teamviewer-support)
 - [Удаленная блокировка](https://docs.microsoft.com/mem/intune/remote-actions/device-remote-lock)
 - [Переименование устройства](https://docs.microsoft.com/mem/intune/remote-actions/device-rename)
--  [Сброс секретного кода](https://docs.microsoft.com/mem/intune/remote-actions/device-passcode-reset) при [перезапуске](https://docs.microsoft.com/mem/intune/remote-actions/device-restart)   (только для Windows)
--  Обновление службы анализа безопасности защитника Windows (только для Windows)
--  Сброс ПИН-кода Windows 10 (только для Windows)
--  [Отправка настраиваемых уведомлений](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device)   (Android, iOS, iPad OS)
+-  [Сброс перезапуска](https://docs.microsoft.com/mem/intune/remote-actions/device-passcode-reset) [пароля](https://docs.microsoft.com/mem/intune/remote-actions/device-restart)   (только для Windows)
+-  Обновление Защитник Windows безопасности (только для Windows)
+-  Сброс ПИН-кода в Windows 10 (только для Windows)
+-  [Отправка пользовательских уведомлений](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device)   (Android, iOS, iPad OS)
 -  [Синхронизация устройства](https://docs.microsoft.com/mem/intune/remote-actions/device-sync)
 
-Для получения дополнительных сведений о действиях Intune обратитесь [к документации по Microsoft Intune](https://docs.microsoft.com/mem/intune/).
+Дополнительные сведения о действиях Intune см. в документации [по Microsoft Intune.](https://docs.microsoft.com/mem/intune/)

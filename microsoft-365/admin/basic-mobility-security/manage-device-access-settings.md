@@ -1,5 +1,5 @@
 ---
-title: Управление параметрами доступа к устройствам в базовом мобильном и системном обеспечении безопасности
+title: Управление настройками доступа к устройствам в Basic Mobility and Security
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,33 +17,33 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Основные возможности обеспечения мобильности и безопасности обеспечивают безопасность и управление мобильными устройствами.
-ms.openlocfilehash: e66465d312c4268aca82677fa4e517aaeb822ce3
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: Базовые функции мобильности и безопасности помогают защитить мобильные устройства и управлять ими.
+ms.openlocfilehash: dd9d777798c2c96776a8f9b40a3c4dfe0b95702a
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430272"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876952"
 ---
-# <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>Управление параметрами доступа к устройствам в базовом мобильном и системном обеспечении безопасности
+# <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>Управление настройками доступа к устройствам в Basic Mobility and Security
 
-Если вы используете базовые возможности мобильной работы и обеспечения безопасности, могут быть устройства, которыми нельзя управлять с помощью базовых функций мобильной связи и безопасности. В этом случае следует заблокировать доступ приложений Exchange ActiveSync к электронной почте Microsoft 365 для мобильных устройств, которые не поддерживаются базовыми мобильностью и безопасностью. Это помогает защитить информацию Организации между несколькими устройствами.
+Если вы используете Basic Mobility and Security, возможно, вы не сможете управлять устройствами с помощью Basic Mobility and Security. В этом случае следует заблокировать доступ Exchange ActiveSync к электронной почте Microsoft 365 для мобильных устройств, которые не поддерживаются basic Mobility and Security. Это помогает защитить информацию организации на других устройствах.
 
-Выполните указанные ниже действия.
+Используйте следующие действия:
 
-1. Войдите в Microsoft 365 с помощью учетной записи глобального администратора.
-    
+1. Во sign in to Microsoft 365 with your global admin account.
+
 2. В браузере введите:  [https://protection.office.com](https://protection.office.com/) .    
 
     >[!IMPORTANT]
-    >Если вы впервые используете MDM для Microsoft 365 Business Standard, активируйте его здесь: [Активация управления мобильными устройствами](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx). После активации вы Управляйте своими устройствами с помощью [Office 365 Security & соответствия требованиям](https://protection.office.com/).
+    >Если вы впервые используете Basic Mobility and Security для Microsoft 365 business Standard, активируйте его здесь: [Activate Basic Security and Mobility](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx). После активации системы управляйте устройствами с помощью [office 365 Security & Compliance.](https://protection.office.com/)
 
-3. Перейдите к разделу защита от  **Device management**потери данных >  >  **политик устройств**управления устройствами и выберите пункт **Управление параметрами доступа к устройствам в масштабах Организации**.
-    
-4. Выберите пункт **блокировать**.
+3. Перейдите в >политики  **** устройств управления устройствами и выберите "Управление настройками доступа устройств для всей   >  **** **организации".**
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="Флажок основного доступа к мобильному и защищенному блокам безопасности":::
+4. Выберите **блок**.
 
-5. Нажмите кнопку **сохранить**. 
+    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="Элемент блокировки доступа Basic Mobility and Security":::
 
-Чтобы узнать, какие устройства поддерживаются базовыми возможностями и мобильностью, ознакомьтесь с разрешениями [основной мобильной работы и обеспечения безопасности](capabilities.md).
+5. Выберите **"Сохранить"**.
+
+Чтобы узнать, какие устройства поддерживаются в Basic Mobility and Security, см. ["Возможности базовой мобильности и безопасности".](capabilities.md)
