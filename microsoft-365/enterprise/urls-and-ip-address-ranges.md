@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: Сводка. Для Office 365 требуется подключение к Интернету. Указанные ниже конечные точки должны быть доступны для клиентов, использующих планы Office 365, в том числе входящих в облако сообщества государственных учреждений (GCC).
 hideEdit: true
-ms.openlocfilehash: 9b705c6cad0387efb16f3fc5494b1ba2fe337732
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 386c92d0856b3faa88fb8a05f8ddff58a81e3c4f
+ms.sourcegitcommit: a92b150da1e11d4a204c556ab98a4776727dbc22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794404"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49883340"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>URL-адреса и диапазоны IP-адресов Office 365
 
@@ -62,7 +62,7 @@ ms.locfileid: "49794404"
 [!INCLUDE [Office 365 worldwide endpoints](../includes/office-365-worldwide-endpoints.md)]
 
 >[!Note]
->Рекомендации по IP-адресам и URL-адресам Yammer см. в [этой записи блога](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592).
+>Рекомендации по IP- и URL-адресам Yammer см. в статье [Использование жестко закодированных IP-адресов для Yammer не рекомендуется](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592) в блоге Yammer.
 >
 
 ## <a name="related-topics"></a>Статьи по теме
@@ -71,7 +71,7 @@ ms.locfileid: "49794404"
 
 [Общие конечные точки Microsoft Stream](https://docs.microsoft.com/stream/network-overview#general-microsoft-stream-endpoints)
   
-[Проверка подключения Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
+[Проверка подключения Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity)
 
 [Набор корневого ЦС и промежуточного ЦС в системе стороннего приложения](../compliance/encryption-office-365-certificate-chains.md)
   
@@ -88,3 +88,5 @@ ms.locfileid: "49794404"
 [Диапазоны IP-адресов и теги служб Microsoft Azure — облако в Китае](https://www.microsoft.com/download/details.aspx?id=57062)
   
 [Пространство публичных IP-адресов корпорации Майкрософт](https://www.microsoft.com/download/details.aspx?id=53602)
+
+[Реестр имен служб и номеров портов транспортного протокола](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
