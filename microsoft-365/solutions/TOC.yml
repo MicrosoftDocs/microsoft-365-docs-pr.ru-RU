@@ -93,6 +93,22 @@
           href: information-protection-deploy-monitor-respond.md
 - name: Решения и сценарии для рабочей нагрузки
   items:
+    - name: Обзор
+      href: workload-solutions-scenarios-overview.md
+    - name: Управление клиентами
+      items:
+        - name: Обзор
+          href: tenant-management-overview.md
+        - name: Этап 1. Ваши клиенты
+          href: tenant-management-tenants.md
+        - name: "Этап\_2. Оптимальная сеть"
+          href: tenant-management-networking.md
+        - name: "Этап\_3. Удостоверение"
+          href: tenant-management-identity.md
+        - name: "Этап\_4. Миграция"
+          href: tenant-management-migration.md
+        - name: "Этап\_5. Управление устройствами и приложениями"
+          href: tenant-management-device-management.md
     - name: Командная и совместная работа
       items:
         - name: Плакаты с архитектурой Teams
