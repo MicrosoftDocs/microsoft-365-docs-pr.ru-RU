@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Настройте метки конфиденциальности для шифрования, чтобы защитить данные, ограничив доступ к ним и их использование.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b862cbffcc4268876444618f7c2708c04b63630e
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 83ed515d5ac6ea853c3e6a822fae0a03f73fc37c
+ms.sourcegitcommit: 9e4b3df05eff94fe1be4ef8618a7ce6f2fca3658
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561720"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49904034"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования
 
@@ -177,6 +177,9 @@ ms.locfileid: "49561720"
 ##### <a name="requirements-and-limitations-for-add-any-authenticated-users"></a>Требования и ограничения для параметра "Добавление всех пользователей, прошедших проверку подлинности"
 
 Этот параметр не ограничивает список пользователей, которым доступно содержимое, зашифрованное меткой, при этом он шифрует содержимое и предоставляет возможности ограничить использование содержимого (разрешения) и доступ к нему (срок действия и автономный доступ). Однако приложение, открывающее зашифрованное содержимое, должно поддерживать используемую проверку подлинности. По этой причине федеративные поставщики социальных служб, такие как Google, и проверка подлинности с одноразовым секретным кодом поддерживаются только для электронной почты и только при использовании Exchange Online. Учетные записи Майкрософт можно использовать в приложениях Office 365 и [средстве просмотра Azure Information Protection](https://portal.azurerms.com/#/download).
+
+> [!NOTE]
+> Рассмотрите возможность использования этого параметра с [интеграцией SharePoint и OneDrive с Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) при включенных метках конфиденциальности [для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
 
 Некоторые типичные сценарии для параметра добавления всех пользователей, прошедших проверку подлинности:
 
@@ -413,3 +416,6 @@ ms.locfileid: "49561720"
     - Для Exchange Online см. инструкции для [Exchange Online: настройка IRM](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration).
     - Для использования Exchange в локальной среде необходимо развертывание [соединителя RMS и настройка серверов Exchange](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector). 
 
+## <a name="next-steps"></a>Дальнейшие действия
+
+Требуется предоставить общий доступ к помеченным зашифрованным документам пользователям за пределами вашей организации?  См. раздел [Совместное использование зашифрованных документов с внешними пользователями](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users).

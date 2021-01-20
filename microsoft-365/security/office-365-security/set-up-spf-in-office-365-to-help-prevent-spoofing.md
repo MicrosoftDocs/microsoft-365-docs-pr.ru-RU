@@ -18,33 +18,34 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как обновить запись службы доменных имен (DNS), чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365.
-ms.openlocfilehash: a6cd2a0cf60812bb874c1be63fb2d294cda6d6aa
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.openlocfilehash: 536f727ee71db70490259179ff8e47009c547f89
+ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881721"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905227"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Настройка SPF для предотвращения спуфинга
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-- [Предварительные условия <a name="UpdateSPFTXT"></a>](#updating-your-spf-txt-record-for-office-365-a-nameUpdateSPFTXT)
-- [Создание или обновление записи SPF TXT для Office 365 <a name="CreateUpdateSPFTXT"></a>](#to-create-or-update-your-spf-txt-record-a-namecreateupdatespftxta)
-    - [Как работать с поддоменами? <a name="SPFandSubdomains"></a>](#how-to-handle-subdomains-a-namespfandsubdomainsa)
-- [Устранение неполадок с SPF и рекомендации <a name="TshootingSPF"></a>](#next-steps-after-you-set-up-spf-for-office-365-a-nametshootingspfa)
-- [Дополнительные примеры SPF <a name="AdvancedSPFexs"></a>](#more-information-about-spf-a-nameadvancedspfexsa)
+- [Необходимые компоненты](#prerequisites)
+- [Создание или обновление записи SPF TXT](#create-or-update-your-spf-txt-record)   
+  - [Как работать с поддоменами?](#how-to-handle-subdomains)
+- [Какие действия выполняет проверка подлинности электронной почты инфраструктуры политики отправителей?](#what-does-spf-email-authentication-actually-do)   
+   - [Устранение неполадок инфраструктуры политики отправителей](#troubleshooting-spf)
+- [Дополнительные сведения об инфраструктуре политики отправителей](#more-information-about-spf)
 
 В этой статье описано, как обновить запись DNS, чтобы использовать проверку подлинности электронной почты в инфраструктуре политики отправителей (SPF) с личным доменом в Office 365.
 
 С помощью инфраструктуры политики отправителей можно проверять исходящую почту, отправляемую из личного домена. Это первый шаг при настройке других рекомендуемых методов проверки подлинности электронной почты DMARC и DKIM (два дополнительных метода проверки подлинности электронной почты, поддерживаемых в Office 365).
 
-## <a name="updating-your-spf-txt-record-for-office-365"></a>Обновление записи SPF TXT для Office 365 <a name="UpdateSPFTXT"></a>
+## <a name="prerequisites"></a>Предварительные условия
 
 > [!IMPORTANT]
 > Если вы управляете **малым предприятием** или не знакомы с IP-адресами и настройкой DNS, обратитесь к своему регистратору доменных имен (например, GoDaddy, Bluehost, web.com) за помощью с настройкой DNS в SPF (и любых других методов проверки подлинности электронной почты). *Кроме того*, если вы еще не приобрели или не используете собственный URL-адрес (т. е. URL-адрес, на который вы и ваши клиенты переходите для доступа к Office 365, заканчивается на **onmicrosoft.com**), в службе Office 365 для вас настроена инфраструктура политики отправителей (SPF). В этом случае не требуется выполнять никаких дополнительных действий. Спасибо за внимание.
 
-Прежде чем обновлять запись TXT в службе DNS, вам требуется собрать некоторые сведения, необходимые для создания записи. Расширенные примеры и подробное обсуждение поддерживаемых команд для инфраструктуры политики отправителей см. в разделе [Как инфраструктура политики отправителей помогает предотвратить спуфинг и фишинг в Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks).
+Прежде чем создать или обновить запись SPF TXT для Office 365 во внешней службе DNS, требуется собрать некоторые сведения, необходимые для создания записи. Расширенные примеры и подробное обсуждение поддерживаемых команд для инфраструктуры политики отправителей см. в разделе [Как инфраструктура политики отправителей помогает предотвратить спуфинг и фишинг в Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks).
 
 Подготовьте указанные ниже данные.
 
@@ -59,7 +60,7 @@ ms.locfileid: "49881721"
 > [!IMPORTANT]
 > Чтобы использовать личный домен в Office 365, в запись DNS необходимо добавить запись SPF TXT для предотвращения спуфинга.
 
-## <a name="create-or-update-your-spf-txt-record"></a>Создание или обновление записи SPF TXT <a name="CreateUpdateSPFTXT"></a>
+## <a name="create-or-update-your-spf-txt-record"></a>Создание или обновление записи SPF TXT
 
 1. Убедитесь, что вы знакомы с синтаксисом SPF из следующей таблицы.
 
@@ -98,7 +99,7 @@ ms.locfileid: "49881721"
 
 4. Проверьте свою запись SPF TXT.
 
-## <a name="how-to-handle-subdomains"></a>Как работать с поддоменами? <a name="SPFandSubdomains"></a>
+## <a name="how-to-handle-subdomains"></a>Как работать с поддоменами?
 
 Важно отметить, что *вам требуется создать отдельную запись для каждого поддомена, так как поддомены не наследуют запись SPF от своего домена верхнего уровня*.
 
@@ -108,7 +109,7 @@ ms.locfileid: "49881721"
 *.subdomain.contoso.com. IN TXT "v=spf1 -all"
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия <a name="TshootingSPF"></a>
+## <a name="troubleshooting-spf"></a>Устранение неполадок инфраструктуры политики отправителей
 
 Возникли проблемы с записью типа TXT инфраструктуры политики отправителей? Прочитайте статью [Устранение неполадок: советы и рекомендации по инфраструктуре политики отправителей в Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot).
 
@@ -129,7 +130,7 @@ ms.locfileid: "49881721"
 
 - Вы планируете настроить DKIM и DMARC (рекомендуется).
 
-## <a name="more-information-about-spf"></a>Дополнительные сведения об инфраструктуре политики отправителей <a name="AdvancedSPFexs"></a>
+## <a name="more-information-about-spf"></a>Дополнительные сведения об инфраструктуре политики отправителей
 
 Расширенные примеры, подробное обсуждение поддерживаемого синтаксиса для инфраструктуры политики отправителей и сведения о спуфинге, устранении неполадок и о том, как Office 365 поддерживает инфраструктуру политики отправителей, см. в разделе [Как инфраструктура политики отправителей помогает предотвратить спуфинг и фишинг в Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks).
 
