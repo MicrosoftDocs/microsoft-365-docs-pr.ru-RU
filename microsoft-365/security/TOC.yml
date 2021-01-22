@@ -338,7 +338,7 @@
               href: ./office-365-security/office-365-evaluation.md
             - name: "Новые возможности Defender для Office\_365"
               href: office-365-security/whats-new-in-office-365-atp.md
-            - name: 'Defender для Office 365 в SharePoint, OneDrive и Microsoft Teams'
+            - name: 'Безопасные вложения для SharePoint, OneDrive и Microsoft Teams'
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: "Новый Центр безопасности Microsoft\_365"
               href: ./mtp/overview-security-center.md
@@ -400,7 +400,7 @@
               href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Защита по умолчанию
               href: ./office-365-security/secure-by-default.md
-            - name: Настройка политик защиты от фишинга в ATP
+            - name: Настройка политик защиты от фишинга в Microsoft Defender для Office 365
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Настройка политик защиты от вредоносных программ
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -436,7 +436,7 @@
               href: ./office-365-security/user-submission.md
             - name: Теги пользователя в Defender для Office 365
               href: ./office-365-security/user-tags.md
-            - name: 'Включение Defender для Office 365 в SharePoint, OneDrive и Microsoft Teams'
+            - name: 'Включение безопасных вложений для SharePoint, OneDrive и Microsoft Teams'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Проверка исходящей электронной почты с помощью DKIM
               href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -457,7 +457,7 @@
                   href: ./office-365-security/configure-s-mime-settings-for-outlook-web-app.md
                 - name: 'Отправка и получение электронной почты, подписанной и зашифрованной с помощью S/MIME'
                   href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
-                - name: Синхронизация сертификатов пользователей с Office 365 для S/MIME
+                - name: Синхронизация сертификатов пользователей с Microsoft 365 для S/MIME
                   href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
                 - name: Настройка коллекции виртуальных сертификатов для проверки S/MIME
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
@@ -501,7 +501,7 @@
               href: ./office-365-security/air-custom-reporting.md
             - name: Параметры расширенного фильтра спама (ASF)
               href: ./office-365-security/advanced-spam-filtering-asf-options.md
-            - name: Управление URL-адресами в списке разрешенных и заблокированных клиентов
+            - name: Управление списком разрешенных и запрещенных клиентов
               href: ./office-365-security/tenant-allow-block-list.md
             - name: Трассировка сообщений в Центре безопасности и соответствия требованиям
               href: ./office-365-security/message-trace-scc.md
