@@ -3,7 +3,7 @@ title: Переход в центр уведомлений для просмот
 description: Используйте центр уведомлений для просмотра сведений об автоматическом исследовании и утверждения ожидающих действий
 keywords: Центр уведомлений, защита от угроз, исследование, оповещение, ожидание, автоматически, обнаружение
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 12/09/2020
-ms.openlocfilehash: aa9f433bc60949aa625d9346421b025121347a2c
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: m365d
+ms.openlocfilehash: 45e02e4ce7d5d813cc8215a1f27ed9c415707cb1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683323"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930430"
 ---
 # <a name="the-action-center"></a>Центр уведомлений
 
@@ -47,7 +48,7 @@ ms.locfileid: "49683323"
 - просмотр журнала аудита утвержденных действий по исправлению; и
 - проверка выполненных действий по исправлению.
 
-Ваша группа операций безопасности может работать эффективнее и эффективнее, так как Центр действий предоставляет комплексное представление о Защитнике Microsoft 365 в работе.
+Группа операций безопасности может работать эффективнее и эффективнее, так как Центр действий предоставляет комплексное представление о Работе Защитника Microsoft 365.
 
 ## <a name="go-to-the-action-center"></a>Переход в центр уведомлений
 
@@ -87,7 +88,7 @@ ms.locfileid: "49683323"
 - Остановка и карантин 
 
 > [!NOTE]
-> Помимо действий по исправлению, которые принимаются автоматически, группа по работе с безопасностью может вручную устранять обнаруженные угрозы. Дополнительные сведения об автоматических и ручных действиях по исправлению см. [в действиях по исправлению.](mtp-remediation-actions.md)
+> Помимо действий по исправлению, которые принимаются автоматически, ваша группа по работе с безопасностью может вручную устранять обнаруженные угрозы. Дополнительные сведения об автоматических и ручных действиях по исправлению см. [в действиях по исправлению.](mtp-remediation-actions.md)
 
 ## <a name="action-source"></a>Источник действия
 
@@ -99,11 +100,11 @@ ms.locfileid: "49683323"
 |:-----|:---|
 | **Действие устройства вручную** | Ручное действие на устройстве. Примеры: [изоляция устройства](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network) [или карантин файлов.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts#stop-and-quarantine-files) |
 | **Действие по электронной почте вручную** | Ручное действие с электронной почтой. Пример включает в себя удаление электронных сообщений с возможностью восстановления или исправление сообщения [электронной почты.](https://docs.microsoft.com/microsoft-365/security/office-365-security/remediate-malicious-email-delivered-office-365) |
-| **Автоматическое действие устройства** | Автоматическое действие с объектом, например файл или процесс. Примеры автоматизированных действий: отправка файла в карантин, остановка процесса и удаление ключа реестра. [(См. действия по исправлению в Microsoft Defender для конечной точки.)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-auto-investigation#remediation-actions) |
+| **Автоматическое действие устройства** | Автоматическое действие с объектом, например файл или процесс. Примерами автоматизированных действий являются отправка файла в карантин, остановка процесса и удаление ключа реестра. [(См. действия по исправлению в Microsoft Defender для конечной точки.)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-auto-investigation#remediation-actions) |
 | **Автоматическое действие электронной почты** | Автоматическое действие с содержимым электронной почты, например сообщением электронной почты, вложением или URL-адресом. Примеры автоматизированных действий включают обратимые удаления сообщений электронной почты, блокировку URL-адресов и отключение внешней пересылки почты. [(См. действия по исправлению в Microsoft Defender для Office 365.)](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions) |
 | **Действие "Расширенный поиск"** | Действия, предпринятые на устройствах или в электронной почте с [расширенным поиском.](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-overview) |
-| **Действие проводника** | Действия, предпринятые с содержимым электронной почты с [помощью проводника.](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) |
-| **Действие ответа вручную в режиме онлайн** | Действия, предпринятые на устройстве с [ответом в прямом отклике.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) Примеры: удаление файла, остановка процесса и удаление запланированной задачи. |
+| **Действие проводника** | Действия, предпринятые с содержимым электронной почты с помощью [проводника.](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) |
+| **Действие ответа вручную в режиме онлайн** | Действия, принятые на устройстве с [ответом в прямом отклике.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) Примеры: удаление файла, остановка процесса и удаление запланированной задачи. |
 | **Действие live response** | Действия, предпринятые на устройстве с [API конечных точек в Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis) К примерам действий относятся изоляция устройства, запуск антивирусной проверки и получение сведений о файле. |
 
 ## <a name="required-permissions-for-action-center-tasks"></a>Обязательные разрешения для задач центра уведомлений

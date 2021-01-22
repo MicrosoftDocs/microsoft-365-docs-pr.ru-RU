@@ -1,9 +1,9 @@
 ---
-title: Безопасность данных и конфиденциальность защитника Microsoft 365
+title: Безопасность и конфиденциальность данных в Защитнике Microsoft 365
 description: В этой статье описаны конфиденциальность и безопасность данных службы.
 keywords: конфиденциальность, данные, безопасность, центр управления безопасностью, сбор сведений
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,27 +19,28 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8ed9c4c2601e0026d074aeb05964a8282239b55e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 70a3c881c2f68aacdeac00e615f3d09ed90c9f1e
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843904"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932050"
 ---
-# <a name="microsoft-365-defender-data-security-and-privacy"></a>Безопасность данных и конфиденциальность защитника Microsoft 365
+# <a name="microsoft-365-defender-data-security-and-privacy"></a>Безопасность и конфиденциальность данных в Защитнике Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
-Защитник Microsoft 365 работает в центрах обработки данных Microsoft Azure в Европейского союза, Великобритании и США. Данные клиентов, собранные службой, хранятся в (а) географическом расположении клиента, как определено во время наполнения, или (б), если защитник Microsoft 365 использует другую службу Майкрософт для обработки таких данных, географическое расположение в соответствии с правилами хранения данных другой веб-службы.
+Защитник Microsoft 365 работает в центрах обработки данных Microsoft Azure в Ес, Соединенном Королевстве и США. Данные клиента, собранные службой, хранятся в (a) географическом расположении клиента, определенном во время предоставления, или (b) если Microsoft 365 Defender использует другую веб-службу Майкрософт для обработки таких данных, географическое положение, определенное правилами хранения данных другой веб-службы.
 
-Данные клиента в форме анонимные могут также храниться в центральном хранилище и системах обработки в США.
+Данные клиента в анонимизированной форме также могут храниться в центральных системах хранения и обработки данных в США.
 
 
-Дополнительные сведения о хранении данных и конфиденциальности конкретных продуктов приведены в следующих статьях:
-- [Защитник Майкрософт для хранения и конфиденциальности данных конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+Дополнительные сведения о хранении данных и конфиденциальности определенных продуктов см. в:
+- [Microsoft Defender для хранения данных и конфиденциальности конечных точек](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 - [Безопасность и конфиденциальность данных в Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/cas-compliance-trust)
-- [Microsoft 365 privacy, безопасность и прозрачность](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)
+- [Конфиденциальность, безопасность и прозрачность Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)

@@ -3,7 +3,7 @@ title: Действия по исправлению в Защитнике Micros
 description: Обзор действий по исправлению, которые следуют автоматизированным исследованиям в Microsoft 365 Defender
 keywords: автоматизированный, анализ, оповещение, триггер, действие, исправление
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 12/09/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 9e489e3b0100aa138b11d4bfb4ccc8048a2113f4
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: m365d
+ms.openlocfilehash: c6b0275335f32419b470c789d83b069be7839c36
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683299"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932854"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Действия по исправлению в Защитнике Microsoft 365
 
@@ -50,7 +51,7 @@ ms.locfileid: "49683299"
 
 |Действия по исправлению устройства (конечной точки)  |Действия по исправления для электронной почты  |
 |---------|---------|
-|- Сбор пакета исследования <br/>- Изолировать устройство (это действие можно отменить)<br/>- Отключение компьютера <br/>- Освободить выполнение кода <br/>- Освобождение из карантина <br/>- Пример запроса <br/>- Ограничить выполнение кода (это действие можно отменить) <br/>- Запуск антивирусной проверки <br/>- Остановка и карантин      |- URL-адрес блокировки (время щелчка)<br/>- Мягкое удаление сообщений электронной почты или кластеров<br/>- Карантин электронной почты<br/>- Карантин вложения электронной почты<br/>- Отключить внешнюю пересылку почты          |
+|- Сбор пакета исследования <br/>- Изолировать устройство (это действие можно отменить)<br/>- Отключение компьютера <br/>- Освободить выполнение кода <br/>- Освобождение из карантина <br/>- Пример запроса <br/>- Ограничить выполнение кода (это действие можно отменить) <br/>- Запуск антивирусной проверки <br/>- Остановка и карантин      |- Url-адрес блокировки (время щелчка)<br/>- Мягкое удаление сообщений электронной почты или кластеров<br/>- Карантин электронной почты<br/>- Карантин вложения электронной почты<br/>- Отключение внешней пересылки почты          |
 
 Действия по исправлению, ожидающих утверждения или уже завершенных, можно просмотреть в центре [действий.](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
 
@@ -75,9 +76,9 @@ ms.locfileid: "49683299"
 - Ручное действие устройства, например изоляция устройства или карантин файлов.
 - Ручное действие по электронной почте, например удаление электронных сообщений. 
 - [Действие "Расширенный поиск"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) на устройствах или сообщениях электронной почты.
-- [Действие проводника](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) в отношении содержимого электронной почты, например перемещение электронной почты в нежелательные сообщения, мягкое удаление электронной почты или неутвердимая электронная почта.
+- [Действие проводника](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) в отношении содержимого электронной почты, например перемещение электронной почты в нежелательное, удаленное или неутвердимые сообщения.
 - Действие [ответа вручную,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) например удаление файла, остановка процесса и удаление запланированной задачи.
-- Действие ответа в прямом отклике с помощью Microsoft Defender для [API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis)конечных точек, например изоляция устройства, запуск антивирусной проверки и получение сведений о файле. 
+- Live response action with [Microsoft Defender for Endpoint API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis), such as isolating a device, running an antivirus scan, and getting information about a file. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

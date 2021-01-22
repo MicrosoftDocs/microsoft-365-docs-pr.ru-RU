@@ -1,10 +1,10 @@
 ---
-title: Таблица девицеимажелоадевентс в схеме расширенного поискового окна
-description: Сведения о загрузке DLL событий в таблице Девицеимажелоадевентс расширенной схемы подсистемы Поиск
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, описание, имажелоадевентс, Девицеимажелоадевентс, загрузка DLL, Библиотека, изображение файла
+title: Таблица DeviceImageLoadEvents в схеме advanced hunting
+description: Узнайте о событиях загрузки DLL в таблице DeviceImageLoadEvents схемы расширенных охоты
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, imageloadevents, DeviceImageLoadEvents, DLL loading, library, file image
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 37c8d1a6c0ac8afd8e8cf856f573769a6245cb5a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 924d465d90086bcfffe29660b7f281ff3d5b07aa
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846036"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931294"
 ---
 # <a name="deviceimageloadevents"></a>DeviceImageLoadEvents
 
@@ -32,14 +33,14 @@ ms.locfileid: "48846036"
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
 
 
-`DeviceImageLoadEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о событиях загрузки DLL. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица `DeviceImageLoadEvents` в схеме [advanced hunting](advanced-hunting-overview.md) содержит сведения о событиях загрузки DLL. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 >[!TIP]
-> Для получения подробных сведений о типах событий ( `ActionType` значений), поддерживаемых таблицей, используйте [встроенную справочную](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) информацию о схеме, доступную в центре обеспечения безопасности.
+> Для получения подробных сведений о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в Центре безопасности. [](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center)
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -48,30 +49,30 @@ ms.locfileid: "48846036"
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
-| `ActionType` | string | Тип действия, вызвавшего событие. Дополнительные сведения см. [в справочнике по схемам на портале](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) |
+| `ActionType` | string | Тип действия, которое вызвало событие. Подробные сведения см. в справке [по схеме портала](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
-| `FolderPath` | string | Папка, содержащая файл, к которому было применено записанное действие |
+| `FolderPath` | string | Папка, содержащая файл, к которой было применено записано действие |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
-| `MD5` | string | Хэш MD5 файла, к которому было применено записанное действие |
-| `InitiatingProcessAccountDomain` | string | Домен учетной записи, в которой выполнялся процесс, ответственный за событие. |
-| `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, в которой выполнялся процесс, ответственный за событие. |
-| `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, в которой выполнялся процесс, ответственный за событие. |
-| `InitiatingProcessIntegrityLevel` | string | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам на основе определенных характеристик, например, если они были запущены при загрузке из Интернета. Эти уровни целостности влияют на разрешения для ресурсов |
-| `InitiatingProcessTokenElevation` | string | Тип маркера, указывающий на присутствие или отсутствие повышения привилегий контроля доступа пользователей (UAC), примененного к процессу, который инициировал событие. |
-| `InitiatingProcessSHA1` | string | SHA-1 процесса (файл изображения), который инициировал событие |
-| `InitiatingProcessSHA256` | string | SHA-256 процесса (файл изображения), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
-| `InitiatingProcessMD5` | string | Хеш MD5 для процесса (файла изображения), который инициировал событие |
+| `MD5` | string | Hash MD5 файла, к который было применено записано действие |
+| `InitiatingProcessAccountDomain` | string | Домен учетной записи, которая запустила процесс, отвечающий за событие |
+| `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, которая запустила процесс, отвечающий за событие |
+| `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, которая запустила процесс, отвечающий за событие |
+| `InitiatingProcessIntegrityLevel` | string | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам на основе определенных характеристик, например, если они были запущены из скачивания из Интернета. Эти уровни целостности влияют на разрешения для ресурсов |
+| `InitiatingProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие повышения привилегий контроля доступа пользователей (UAC), примененного к процессу, который инициировал событие |
+| `InitiatingProcessSHA1` | string | SHA-1 процесса (файла изображения), который инициировал событие |
+| `InitiatingProcessSHA256` | string | SHA-256 процесса (файла изображения), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
+| `InitiatingProcessMD5` | string | Hash MD5 процесса (файл изображения), который инициировал событие |
 | `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
-| `InitiatingProcessId` | int | Идентификатор процесса (PID), который инициировал событие |
+| `InitiatingProcessId` | int | ИД процесса, который инициировал событие |
 | `InitiatingProcessCommandLine` | string | Командная строка, используемая для запуска процесса, который инициировал событие |
-| `InitiatingProcessCreationTime` | datetime | Дата и время начала процесса, инициировавшего событие |
+| `InitiatingProcessCreationTime` | datetime | Дата и время начала процесса, инициа |
 | `InitiatingProcessFolderPath` | string | Папка, содержащая процесс (файл изображения), который инициировал событие |
-| `InitiatingProcessParentId` | int | Идентификатор процесса (PID) родительского процесса, который попытался выполнить процесс, ответственный за событие. |
-| `InitiatingProcessParentFileName` | string | Имя родительского процесса, который попытался выполнить процесс, ответственный за событие. |
-| `InitiatingProcessParentCreationTime` | datetime | Дата и время начала родительского объекта процесса, ответственного за событие. |
-| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться в сочетании со столбцами DeviceName и timestamp |
-| `AppGuardContainerId` | string | Идентификатор виртуального контейнера, используемого Application Guard для изоляции активности браузера |
+| `InitiatingProcessParentId` | int | ИД (PID) родительского процесса, который ил процесса, ответственного за событие |
+| `InitiatingProcessParentFileName` | string | Имя родительского процесса, который ил процесса, ответственного за событие |
+| `InitiatingProcessParentCreationTime` | datetime | Дата и время начала родительского процесса, ответственного за событие |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp |
+| `AppGuardContainerId` | string | Идентификатор виртуализированного контейнера, используемого Application Guard для изоляции активности браузера |
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

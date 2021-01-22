@@ -1,10 +1,10 @@
 ---
-title: Изменение имен в схеме advanced hunting в Microsoft 365 Defender
-description: Отслеживание и проверка изменений именования таблиц и столбцов в схеме расширенных поисков
-keywords: расширенный поиск, охота на угрозы, поиск киберугроз, защита от угроз (Майкрософт), Microsoft 365, mtp, m365, поиск, запрос, телеметрия, справочник по схеме, kusto, таблица, данные, изменения именования, переименование, Защита от угроз (Майкрософт)
+title: Изменения именования в схеме advanced hunting в Microsoft 365 Defender
+description: Отслеживание и проверка именования таблиц и столбцов в схеме расширенных поисков
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, data, naming changes, rename, Microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 0bef5f4abcaf0d57af9c160ff31f859c2536ccd2
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.technology: m365d
+ms.openlocfilehash: 483fedd1fb152e3df5311c981b305e621ec2aec3
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780815"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932206"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Схема "Расширенный поиск" — изменения именования
 
@@ -36,7 +37,7 @@ ms.locfileid: "49780815"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Схема [расширенных поисков регулярно](advanced-hunting-schema-tables.md) обновляется для добавления новых таблиц и столбцов. В некоторых случаях существующие имена столбцов переименовываются или заменяются для улучшения пользовательского интерфейса. В этой статье вы можете просмотреть изменения именования, которые могут повлиять на ваши запросы.
+Схема [advanced hunting регулярно](advanced-hunting-schema-tables.md) обновляется для добавления новых таблиц и столбцов. В некоторых случаях существующие имена столбцов переименовываются или заменяются для улучшения пользовательского интерфейса. В этой статье вы можете просмотреть изменения именования, которые могут повлиять на запросы.
 
 Изменения именования автоматически применяются к запросам, сохраненным в центре безопасности, включая запросы, используемые пользовательскими правилами обнаружения. Вам не нужно обновлять эти запросы вручную. Однако вам потребуется обновить следующие запросы:
 - Запросы, которые запускаются с помощью API

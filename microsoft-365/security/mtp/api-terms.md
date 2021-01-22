@@ -3,7 +3,7 @@ title: Лицензия и условия использования API Microso
 description: Описание лицензии и условий использования API в Microsoft 365 Defender
 keywords: API, API, лицензия, условия, API, юридические, уведомления, кодекс поведения
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d9b3c48e4b9e89ef7648086b05c9fdd9f078f51e
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 82f31c449ae2e102ac7464e0fef75277660844d1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719302"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930958"
 ---
 # <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Лицензия и условия использования API Microsoft 365 Defender
 
@@ -55,7 +56,7 @@ Microsoft, Windows, Microsoft Azure и/или другие продукты и �
 
 ## <a name="other-restrictions"></a>Другие ограничения
 
-API расширенных поисков [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api#limitations) имеет некоторые ограничения на количество возвращаемого результата и данных, которые можно запрошагов.
+API расширенных поисков [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api#limitations) имеет некоторые ограничения на число возвращаемого результата и данные, которые можно запрошагов.
 
 1. Вы можете запрашивать данные только за последние 30 дней.
 1. Результаты включают не более 100 000 строк.

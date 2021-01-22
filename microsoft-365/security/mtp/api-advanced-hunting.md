@@ -3,7 +3,7 @@ title: API расширенных поисков в Защитнике Microsoft
 description: Узнайте, как запускать запросы на расширенный поиск с помощью API advanced hunting в Microsoft 365 Defender
 keywords: Расширенный поиск, API, API, MTP, Защитник M365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e7cd9192ec25e01ed06b77cb2b39357cb9df79bd
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 4213773c3305c28f0913013d8f7634c083811f52
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719384"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932086"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender Advanced hunting API
 
@@ -51,9 +52,9 @@ ms.locfileid: "49719384"
 6. Если один запрос выполняется более 10 минут, время его времени и возвратит ошибку.
 7. Код http-ответа указывает, что вы достигли квоты по количеству отправленных запросов или по выделению `429` времени работы. Тело ответа будет включать время, пока квота не будет сброшена.
 
-## <a name="permissions"></a>Разрешения
+## <a name="permissions"></a>Permissions
 
-Для вызова API advanced hunting требуется одно из следующих разрешений. Дополнительные возможности, включая выбор разрешений, см. в API Access для Защиты От защитника [Microsoft 365](api-access.md)
+Для вызова API advanced hunting требуется одно из следующих разрешений. Дополнительные узнать, в том числе о том, как выбрать разрешения, см. в API Access для Защиты [Защитника Microsoft 365](api-access.md)
 
 Тип разрешения | Разрешение | Отображаемая имя разрешения
 -|-|-
@@ -76,7 +77,7 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
 
 Заголовок | Значение
 -|-
-Авторизация | Bearer {token} **Note: required**
+Authorization | Bearer {token} **Note: required**
 Content-Type | application/json
 
 ## <a name="request-body"></a>Текст запроса

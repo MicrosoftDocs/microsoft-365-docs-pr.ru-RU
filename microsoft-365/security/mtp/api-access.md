@@ -3,7 +3,7 @@ title: Доступ к API Microsoft 365 Defender
 description: Узнайте, как получить доступ к API Microsoft 365 Defender
 keywords: доступ, API, контекст приложения, контекст пользователя, приложение aad, маркер доступа
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5e01aaf2ee9255fd909b26278346fd4ccf54729a
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: ea787adfba0afb425da5f6ea0f6609f96e06b378
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719242"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932158"
 ---
 # <a name="access-the-microsoft-365-defender-apis"></a>Доступ к API Microsoft 365 Defender
 
@@ -66,7 +67,7 @@ ms.locfileid: "49719242"
 
 Используйте этот контекст для выполнения действий от имени одного пользователя.
 
-1. Создание нативного приложения Azure Active Directory.
+1. Создайте приложение Azure Active Directory.
 2. Назначьте приложению нужное разрешение.
 3. Получение маркера безопасности с использованием учетных данных пользователя для приложения.
 4. Используйте маркер для доступа к API Защитника Microsoft 365.
@@ -88,6 +89,6 @@ ms.locfileid: "49719242"
 ## <a name="related-articles"></a>Статьи по теме
 
 - [Обзор API Microsoft 365 Defender](api-overview.md)
-- [Авторизация OAuth 2.0 для доступа пользователя к API и входу в нее](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+- [Авторизация OAuth 2.0 для доступа к API и входу пользователя](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 - [Управление секретами в серверных приложениях с помощью Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 - [Создание приложения "Hello world", которое имеет доступ к API Microsoft 365](api-hello-world.md)

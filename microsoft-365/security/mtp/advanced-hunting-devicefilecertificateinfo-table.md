@@ -1,10 +1,10 @@
 ---
-title: Таблица девицефилецертификатеинфо в схеме расширенного поискового окна
-description: Сведения о подписывании файлов в таблице Девицефилецертификатеинфо расширенной схемы поискового подсистемы
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, цифровая подпись, сертификат, подписывание файлов, Девицефилецертификатеинфо
+title: Таблица DeviceFileCertificateInfo в схеме advanced hunting
+description: Сведения о подписи файлов в таблице DeviceFileCertificateInfo схемы advanced hunting
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, digital signature, certificate, file signing, DeviceFileCertificateInfo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 9291d9f113fdc1c082b38d92399c1dee646b523d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: e35e8e86f6814a5f90a7921f71ccab7247fcc1bc
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846174"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931318"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -32,9 +33,9 @@ ms.locfileid: "48846174"
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
-`DeviceFileCertificateInfo`Таблица в схеме [Advanced поиске](advanced-hunting-overview.md) содержит сведения о сертификатах подписи файлов. В этой таблице используются данные, полученные из действий по проверке сертификатов, которые регулярно выполняются для файлов в конечных точках.
+Таблица `DeviceFileCertificateInfo` в схеме [advanced hunting](advanced-hunting-overview.md) содержит сведения о сертификатах подписи файлов. В этой таблице используются данные, полученные из действий по проверке сертификатов, которые регулярно выполняются с файлами на конечных точках.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -45,19 +46,19 @@ ms.locfileid: "48846174"
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `IsSigned` | boolean | Указывает, подписан ли файл |
-| `SignatureType` | string | Указывает, были ли сведения о подписи прочитаны как внедренный контент в самом файле или прочитаны из внешнего файла каталога |
-| `Signer` | string | Сведения о подписавшем файла |
-| `SignerHash` | string | Уникальное значение хэша, идентифицирующее подписывающий |
-| `Issuer` | string | Сведения о выдающем центре сертификации (ЦС) |
-| `IssuerHash` | string | Уникальное хэш-значение, идентифицирующее выставляющий центр сертификации (CA) |
-| `CertificateSerialNumber` | string | Идентификатор сертификата, который является уникальным для выдающего центра сертификации (CA). |
-| `CrlDistributionPointUrls` | string |  Массив JSON список URL-адресов сетевых ресурсов, содержащих сертификаты и списки отзыва сертификатов (CRL) |
+| `SignatureType` | string | Указывает, считылась ли информация о подписи как встроенное содержимое в самом файле или из файла внешнего каталога |
+| `Signer` | string | Сведения о подписании файла |
+| `SignerHash` | string | Уникальное значение hash, определяющие подписывающий |
+| `Issuer` | string | Сведения о выдавливом ЦС |
+| `IssuerHash` | string | Уникальное значение hash, определяющие выдавающий ЦС |
+| `CertificateSerialNumber` | string | Идентификатор сертификата, уникального для выдавливания сертификата (ЦС) |
+| `CrlDistributionPointUrls` | string |  Массив JSON с URL-адресами сетевых сетей, которые содержат сертификаты и списки отзыва сертификатов (CRLs) |
 | `CertificateCreationTime` | datetime | Дата и время создания сертификата |
 | `CertificateExpirationTime` | datetime | Дата и время истечения срока действия сертификата |
-| `CertificateCountersignatureTime` | datetime | Дата и время, когда сертификат был каунтерсигнед |
-| `IsTrusted` | boolean | Указывает, является ли файл доверенным на основе результатов функции Винверифитруст, который проверяет наличие неизвестных сведений о корневых сертификатах, недопустимые подписи, отозванные сертификаты и другие сомнительные атрибуты |
-| `IsRootSignerMicrosoft` | boolean | Указывает, является ли подписывающий корневой сертификат корпорацией Майкрософт |
-| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться вместе со столбцами DeviceName и timestamp. | 
+| `CertificateCountersignatureTime` | datetime | Дата и время, когда сертификат был подписан |
+| `IsTrusted` | boolean | Указывает, является ли файл доверенным на основе результатов функции WinVerifyTrust, которая проверяет неизвестные сведения корневого сертификата, недопустимые подписи, отозванные сертификаты и другие сомнительные атрибуты |
+| `IsRootSignerMicrosoft` | boolean | Указывает, является ли подписыватель корневого сертификата корпорацией Майкрософт |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец необходимо использовать вместе со столбцами DeviceName и Timestamp. | 
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

@@ -3,7 +3,7 @@ title: Сведения и результаты автоматического �
 description: Во время и после автоматического исследования вы можете просматривать результаты и основные выводы
 keywords: автоматически, исследование, результаты, анализ, сведения, исправление, автоматизированный анализ угроз и реакция на них
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 39f6be70ad7a611f9919bb0529e8c8ed7f9dc339
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: m365d
+ms.openlocfilehash: c050683bb3ed052ae4752ffdee66fe51fb99b88b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683364"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930370"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Сведения и результаты автоматического исследования
 
