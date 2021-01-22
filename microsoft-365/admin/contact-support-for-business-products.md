@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - MET150
 description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов с помощью указанных телефонных номеров для вашей страны или региона, или отправьте запросы на обслуживание через Интернет.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: f508607bb19a15fa089cf13eecfd7047f2e6f7bf
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 06f78d50901f279bf27f55f1b8f7ad867682d784
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307365"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925582"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Способы обращения в службу поддержки продуктов для бизнеса. Справка для администраторов
 
@@ -45,7 +46,7 @@ ms.locfileid: "47307365"
 
 2. Нажмите кнопку **Нужна помощь?**
 
-3. В области **Нужна помощь?** расскажите, какая именно помощь вам нужна, и нажмите клавишу**Enter**.
+3. В области **Нужна помощь?** расскажите, какая именно помощь вам нужна, и нажмите клавишу **Enter**.
 
 4. Если результаты не помогли, выберите **Обратиться в службу поддержки**.
 

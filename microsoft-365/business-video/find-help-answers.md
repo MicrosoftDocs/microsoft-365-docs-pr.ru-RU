@@ -1,5 +1,5 @@
 ---
-title: Поиск ответов и справки
+title: Поиск ответов и справка
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как найти справку администратора для Microsoft 365 бизнес премиум.
-ms.openlocfilehash: 0fb3e3ae2521353b9185e5b7f27b681e1d9c743c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Узнайте, как найти справку для администраторов Microsoft 365 бизнес премиум.
+ms.openlocfilehash: 3eaf5d63d681076386643e28f0270ae5cd532971
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703210"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925138"
 ---
 # <a name="find-answers-and-help-for-admins"></a>Поиск ответов и справки для администраторов
 
@@ -48,6 +49,6 @@ ms.locfileid: "49703210"
 
 Вы также можете воспользоваться следующими ресурсами, чтобы получить помощь по вашей проблеме:
 
-- [aka.ms/learn365admin](https://aka.ms/learn365admin), чтобы найти все задачи, связанные с администрированием, и справку, например сброс паролей и назначение подписок Майкрософт.
+- [aka.ms/learn365admin](https://aka.ms/learn365admin), чтобы найти все связанные с администратором задачи и справку, например сброс паролей и назначение подписок Майкрософт.
 - [answers.microsoft.com](https://answers.microsoft.com), чтобы найти ответы, начать обсуждение и задать вопросы от других пользователей.
 - [techcommunity.microsoft.com](https://techcommunity.microsoft.com), чтобы присоединиться к сообществу экспертов и найти советы и советы по Microsoft 365 для вашего бизнеса.

@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как создать веб-сайт GoDaddy для своей компании.
-ms.openlocfilehash: db3a3133626577f9dc2665a61053cb587e9b7b3a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 44f1a82706ff2dc025fc9dcc6f74a71dc0a987e5
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702568"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927338"
 ---
 # <a name="create-a-website"></a>Создание веб-сайта
 
@@ -34,7 +35,7 @@ ms.locfileid: "49702568"
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
-Microsoft 365 не включает общедоступный веб-сайт для вашего бизнеса. Чтобы настроить его, рассмотрите возможность использования компании веб-хостинга, например GoDaddy, Wix или WordPress.
+Microsoft 365 не включает общедоступный веб-сайт для вашей компании. Чтобы настроить его, рассмотрите возможность использования компании веб-хостинга, например GoDaddy, Wix или WordPress.
 
 1. Найщите поставщика услуг размещения веб-сайтов, где можно создать свой веб-сайт.
 

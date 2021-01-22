@@ -1,5 +1,5 @@
 ---
-title: Добавление фирменной символики компании на страницу входа
+title: Добавление фирменой марки компании на страницу "Вход"
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -13,31 +13,33 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
-description: Настройка страницы входа в Microsoft 365 с помощью Azure Active Directory. Вы можете добавить иллюстрацию, логотип и текст на страницу входа.
-ms.openlocfilehash: 2f6df71a46e7510413601fe7dc00143280b4e6aa
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Настройте страницу для входов в Microsoft 365 с помощью Azure Active Directory. На страницу для входов можно добавить иллюстрацию, логотип и текст.
+ms.openlocfilehash: 9a4e18aeb050fe128ded1ea83756256a386a0fb4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398946"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926910"
 ---
-# <a name="add-your-company-branding-to-the-sign-in-page"></a>Добавление фирменной символики компании на страницу входа
+# <a name="add-your-company-branding-to-the-sign-in-page"></a>Добавление фирменой марки компании на страницу "Вход"
 
- Теперь вы можете использовать подписку на Azure Active Directory (AD), включенную в подписку на Microsoft 365, чтобы настроить страницу входа, которую видят пользователи. 
+ Теперь вы можете использовать подписку Azure Active Directory (AD), включенную в вашу подписку на Microsoft 365, для настройки страницы входов, которую видят ваши пользователи. 
   
 ## <a name="add-company-branding-to-your-sign-in-page-and-access-panel-pages"></a>Добавление фирменной символики компании на страницы входа и панели доступа
 
-Если у вас есть платная подписка на Microsoft 365 для бизнеса, Microsoft Dynamics CRM Online, Enterprise Mobility Suite или других служб Майкрософт, у вас есть бесплатная подписка на Azure Active Directory. Вы можете использовать Azure Active Directory для создания учетных записей пользователей и групп и управления ими, а также для добавления фирменной символики компании на страницы. Чтобы активировать эту подписку и получать доступ к порталу управления Microsoft Azure, необходимо выполнить однократный процесс регистрации. После этого вы можете получить доступ к Azure Active Directory из службы Майкрософт, которая использует ее. Инструкции по регистрации подписки на Microsoft 365: [регистрация бесплатной бесплатной подписки на Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966), а также инструкции по управлению [каталогом для подписки на Microsoft 365 в Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076) для общих инструкций по управлению. 
+Если у вас есть платная подписка на Microsoft 365 для бизнеса, Microsoft Dynamics CRM Online Enterprise Mobility Suite или другие службы Майкрософт, у вас есть бесплатная подписка на Azure Active Directory. Azure Active Directory можно использовать для создания учетных записей пользователей и групп, а также для управления ими, а также для добавления фирменой марки компании на свои страницы. Чтобы активировать эту подписку и получить доступ к порталу управления Microsoft Azure, необходимо выполнить разовую регистрацию. После этого вы сможете получить доступ к Azure Active Directory из службы Майкрософт, которая ее использует. Инструкции по регистрации подписки на Microsoft 365 см. в подстановок на регистрацию бесплатной подписки [Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966)и в общих инструкциях по управлению каталогом подписки [на Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=620076) в Azure. 
   
 На рисунке ниже показано, какие элементы страницы входа можно изменить в Azure.
   
-![Области страницы входа, которые можно настроить.](../../media/screenshotbranding.png)
+![Области страницы для регистрации, которые можно настроить.](../../media/screenshotbranding.png)
   
 1. Большое изображение и цвет его фона
     

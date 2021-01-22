@@ -1,5 +1,5 @@
 ---
-title: Справка или поддержка
+title: Получение справки или поддержки
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,20 +16,21 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как получить справку или поддержку для администраторов в Microsoft 365 бизнес премиум.
-ms.openlocfilehash: f33778c5c8b8ebfe71bd7acc6d203327a2fd7e94
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: bcfe140ec87b50048db570ad4efe4575135b3191
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702922"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927179"
 ---
-# <a name="get-help-or-support"></a>Получить помощь или поддержку
+# <a name="get-help-or-support"></a>Получение справки или поддержки
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 
@@ -64,9 +65,9 @@ ms.locfileid: "49702922"
 
 ### <a name="work-with-a-solution-provider"></a>Работа с поставщиком решений
 
-1. Если у вас более крупный проект или проблема, и вы хотите поговорить с консультантом, рассмотрите вопрос о поставщике решений Майкрософт.
+1. Если у вас есть более крупный проект или проблема и вы хотите поговорить с консультантом, рассмотрите вопрос о поставщике решений Майкрософт.
 1. Чтобы найти поставщика решений, найдите "Поставщики решений Майкрософт" в браузере.
-1. Выберите **страницу поставщика** решений Майкрософт.
+1. Выберите **страницу поставщика решений** Майкрософт.
 1. Введите расположение, размер организации и тип поддержки, который вы ищете. Select **Go**.
 1. На странице **"Поиск поставщика решений Майкрософт"** выберите нужного поставщика решений из списка.
 

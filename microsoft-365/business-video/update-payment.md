@@ -1,5 +1,5 @@
 ---
-title: Обновление метода оплаты
+title: Изменение метода оплаты
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как обновить способ оплаты для Microsoft 365 для бизнеса.
-ms.openlocfilehash: a7424b4d104b83921f46024a1493444c9de547d1
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: b29aea838e2682035ac56ef31291a5628854df79
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702578"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925866"
 ---
 # <a name="update-yor-payment-method-for-your-subscription"></a>Обновление метода оплаты yor для подписки
 

@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как переместить файлы в OneDrive.
-ms.openlocfilehash: 8fa6439472389ad851dca3961a515ebfb967f402
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 5a708ba797dbb735c71f181fc287fb831004112b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702753"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927218"
 ---
 # <a name="move-files-to-onedrive"></a>Перемещение файлов в OneDrive
 

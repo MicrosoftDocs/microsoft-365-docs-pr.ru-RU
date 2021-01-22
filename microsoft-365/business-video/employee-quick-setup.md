@@ -16,20 +16,21 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Помогите своим сотрудникам узнать, как настроить приложения Office, которые они получают с помощью Microsoft 365 бизнес премиум.
-ms.openlocfilehash: 9a610b9de2ddb64aeaf7447721d8fa500dbdf0c9
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 1715562a648af42bff07ab9a3e62647e386125cb
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702951"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927254"
 ---
-# <a name="employee-quick-setup"></a>Быстрая настройка сотрудников
+# <a name="employee-quick-setup"></a>Быстрая настройка для сотрудника
 
 Вы впервые в Microsoft 365 для бизнеса? :::image type="icon" source="../media/video-call-icon.png" border="false":::[Посмотрите это видео,](https://support.microsoft.com/office/d6466f0d-5d13-464a-adcb-00906ae87029) чтобы узнать об этом. Затем выполните указанные ниже действия.
 
@@ -72,7 +73,7 @@ ms.locfileid: "49702951"
     > [!TIP]
     > Вы также можете хранить файлы на [сайтах](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) в Microsoft 365.
 
-## <a name="5-share-documents"></a>5. Совместное документами
+## <a name="5-share-documents"></a>5. Совместное документам
 
 1. Поделитесь своими документами с другими пользователями, выбрав команду **Поделиться**.
 
@@ -83,7 +84,7 @@ ms.locfileid: "49702951"
 
 ## <a name="6-get-outlook-on-your-phone"></a>6. Получите Outlook на телефоне
 
-- Get **Outlook** on your phone from App Store or Google Play store. Откройте его и выберите **"Начало работы"** и добавьте свой адрес электронной почты и пароль.
+- Получите **Outlook** на телефоне из Магазина приложений или Магазина Google Play. Откройте его и выберите **"Начало работы"** и добавьте свой адрес электронной почты и пароль.
 - Или откройте Outlook на устройстве с системой iOS или Android и перейдите в раздел **Параметры**.
 
     Выберите команду **Добавить учетную запись**, затем - **Добавить учетную запись электронной почты**, а после этого введите свой адрес электронной почты и пароль.

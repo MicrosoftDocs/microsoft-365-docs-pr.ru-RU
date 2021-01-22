@@ -1,5 +1,5 @@
 ---
-title: Установка приложений Office на Android
+title: Установка приложений Office на устройстве с Android
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как установить Outlook и другие приложения Office на устройства с Android.
-ms.openlocfilehash: ba9e37a3012dd8d9e7000bf2af61c014df58023a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 3b449d98a9e19e8f4ce8a3cc84dbbdce058dc310
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702728"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925126"
 ---
 # <a name="install-outlook-and-office-apps-on-android-devices"></a>Установка приложений Outlook и Office на устройствах Android
 
@@ -39,7 +40,7 @@ ms.locfileid: "49702728"
 1. На своем устройстве выберите Магазин Google Play.
 2. Найди приложение Office, которое вы хотите установить. В&#39;мы будем использовать Outlook.
 3. На экране приветствия Outlook выберите **"Начало работы".**
-4. На странице **"Добавление учетной записи"** введите свой адрес электронной почты Microsoft 365 и выберите **"Продолжить".**
+4. На странице **"Добавление учетной записи"** введите свой адрес электронной почты Microsoft 365 и выберите "Продолжить". 
 5. Введите **пароль в области "Введите** пароль" и выберите **"Войти".**
 6. На следующей странице выберите  **"Продолжить",**  если вы хотите добавить другую учетную запись. В противном случае выберите **"Пропустить".**
 7. Когда вам будет предложено добавить приложение "Портал компании Intune", выберите **"Перейти в магазин".**

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор оценки производительности (Майкрософт).
-ms.openlocfilehash: e052d1189379bb00a05b574e6568e9e718285d50
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 8ba1ceb57cd322a67e7b154700a8ac90c62f5ef0
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688335"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921246"
 ---
 # <a name="microsoft-productivity-score"></a>Оценка производительности (Майкрософт) 
 
@@ -87,6 +87,9 @@ ms.locfileid: "49688335"
 - Администратор Teams 
 - Глобальный читатель 
 - Читатель отчетов 
+
+> [!NOTE]
+> Только ИТ-специалист с ролью глобального администратора может зарегистрироваться или согласиться на использование клиента для оценки производительности.
 
 Обратите внимание, что эта информация предназначена только для дальнейшего цифрового преобразования с помощью Microsoft 365, и должна передаваться по собственному усмотрению. 
 

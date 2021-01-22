@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как проводить собрания по сети для своей компании.
-ms.openlocfilehash: b0a95ff30fbff4da46ebcf0d8c236ba1023deebb
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 178091c5233da5e96ed6c9f074b5418cc00c4155
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702508"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926130"
 ---
 # <a name="host-online-meetings-for-your-business"></a>Проведение собраний по сети для бизнеса
 
@@ -70,7 +71,7 @@ ms.locfileid: "49702508"
  
 ## <a name="3-have-an-impromptu-meeting"></a>3. Импровизированный собрание
 
-Вы можете легко преобразовать чат в Microsoft Teams в собрание. Просто выберите **кнопку "Видеозвук"** или :::image type="icon" source="../media/video-call-icon.png" border="false":::  :::image type="icon" source="../media/audio-call-icon.png" border="false"::: "Аудиозвук", чтобы начать вызов. Вы также можете добавить людей к вызову, если он должен превратиться в групповое обсуждение.
+Вы можете легко преобразовать чат в Microsoft Teams в собрание. Просто выберите **кнопку "Видеозвук"** или :::image type="icon" source="../media/video-call-icon.png" border="false":::  :::image type="icon" source="../media/audio-call-icon.png" border="false"::: "Аудиозвук", чтобы начать вызов. Вы также можете добавить к вызову людей, если он должен превратиться в групповое обсуждение.
 
 Нужна помощь? См. [Начните звонок из чата в Teams.](https://support.microsoft.com/office/f5138c9d-df4c-43d8-9cf6-53400c1a7798)
 

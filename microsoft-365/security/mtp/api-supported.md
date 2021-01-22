@@ -3,7 +3,7 @@ title: Поддерживаемые API Microsoft 365 Defender
 description: Поддерживаемые API Microsoft 365 Defender
 keywords: MTP, API, api
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: dbb7613dae3755b0fb794a3d68b5b424d765cc62
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: ee03e5a255a88c084403842e7bf0319c06c0517b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719326"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926202"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>Поддерживаемые API Microsoft 365 Defender 
 

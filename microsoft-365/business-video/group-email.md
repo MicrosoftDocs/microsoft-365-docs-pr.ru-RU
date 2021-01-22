@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как создать адрес электронной почты группы.
-ms.openlocfilehash: 4a0716d4289fc937e90f660cabe4b34b1540600d
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 8ebbd311e77b509b1d4c2b00ed59012a2e08399d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702915"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927127"
 ---
 # <a name="create-a-group-email-address"></a>Создание адреса электронной почты группы
 

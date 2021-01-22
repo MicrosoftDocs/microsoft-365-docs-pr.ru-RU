@@ -13,7 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Узнайте, как устанавливать политику срока действия паролей для организации в Центре администрирования Microsoft 365.
-ms.openlocfilehash: 96e9159f3228fb6b7725f2f0d6eb515b108bc32e
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 471a881bd9808861b9fa2c67d007f1ebe1c10885
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751505"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926178"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Установка политики срока действия паролей в организации
 

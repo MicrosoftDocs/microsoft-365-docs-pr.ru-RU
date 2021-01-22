@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Microsoft 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: d2c5b4f67d93500f7341463a01313271d182dc38
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.openlocfilehash: 4ec7690e5300b2ac08a98fbec3f4c253e970738c
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611356"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921174"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Отчеты по Microsoft 365 в Центре администрирования
 
@@ -86,7 +86,9 @@ ms.locfileid: "49611356"
 
 В зависимости от вашей подписки, здесь доступны доступные отчеты.
   
-- [Действия с почтой](email-activity.md)
+- [Действия с почтой](email-activity-ww.md)
+
+- [Действия с почтой для государственных учреждений США](email-activity.md)
     
 - [Использование почтовых ящиков](mailbox-usage.md)
     
@@ -98,7 +100,9 @@ ms.locfileid: "49611356"
 
 - [Активные пользователи для государственных учреждений США](active-users.md)
   
-- [Использование почтовых приложений](email-apps-usage.md)
+- [Использование почтовых приложений](email-apps-usage-ww.md)
+
+- [Использование почтовых приложений для государственных учреждений США](email-apps-usage.md)
 
 - [Активность в Forms](forms-activity-ww.md)
 

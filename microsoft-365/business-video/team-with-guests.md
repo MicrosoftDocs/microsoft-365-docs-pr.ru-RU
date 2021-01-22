@@ -1,5 +1,5 @@
 ---
-title: Создание команды с гостями
+title: Создание команды с доступом для гостей
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,19 +16,20 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как создать команду с гостями в Microsoft Teams.
-ms.openlocfilehash: 83d474e057e3400e0fae4eac17c2eb6d501e519a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: ea195b64f3d4d048d78648b19f1820842570b2b0
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702867"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925878"
 ---
-# <a name="create-a-team-with-guests"></a>Создание команды с гостями
+# <a name="create-a-team-with-guests"></a>Создание команды с доступом для гостей
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp?autoplay=false]
 
@@ -45,4 +46,4 @@ ms.locfileid: "49702867"
 1. Choose  **Add** , and then choose  **Close**.
 2. В нижней части страницы введите короткое приветствие для новой команды и выберите команду **"Отправить".** :::image type="icon" source="../media/teams-send-icon.png" border="false":::   
 
-Ваш клиент получит приглашение по электронной почте от Teams, в котором будет сообщаться о том, что ему нужна бесплатная учетная запись Майкрософт, чтобы присоединиться к команде. Они могут создать учетную запись, используя существующий адрес электронной почты, следуя инструкциям. Затем они могут использовать Teams в Интернете или установить приложение Teams на своем компьютере.
+Ваш клиент получит приглашение по электронной почте от Teams, в котором он получит сообщение о том, что для присоединиться к команде ему нужна бесплатная учетная запись Майкрософт. Они могут создать учетную запись, используя существующий адрес электронной почты, следуя инструкциям. Затем они могут использовать Teams в Интернете или установить приложение Teams на своем компьютере.

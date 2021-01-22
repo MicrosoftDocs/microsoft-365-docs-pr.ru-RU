@@ -1,5 +1,5 @@
 ---
-title: Установка приложений Office на iOS
+title: Установка приложений Office на устройстве с iOS
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как установить приложения Office на устройствах с iOS.
-ms.openlocfilehash: 4b92b21d1002d63f00cec322495cdc7d122c2f7c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: e3b703f3bc0bfe6972ac73e9ad7de955d773a812
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702503"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927112"
 ---
 # <a name="install-outlook-and-office-apps-on-ios-devices"></a>Установка приложений Outlook и Office на устройствах с iOS
 

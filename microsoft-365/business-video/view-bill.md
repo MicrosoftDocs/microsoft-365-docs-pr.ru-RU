@@ -1,5 +1,5 @@
 ---
-title: Просмотр, скачивание или печать счета
+title: Просмотр, скачивание и печать счета
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как просматривать, скачивать и печатать свой счет.
-ms.openlocfilehash: 30069930282113afc4ccc5d6bbed5555bb608e08
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: e814878dce99dcda665f98afa2e147dc3249375f
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702588"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925770"
 ---
 # <a name="view-download-or-print-your-bill-for-microsoft-365"></a>Просмотр, скачивание или печать счета за Microsoft 365
 

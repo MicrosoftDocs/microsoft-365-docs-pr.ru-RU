@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как подключить домен к Microsoft 365.
-ms.openlocfilehash: c7827b93b56560579b31bd2abb5a852467565103
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 1bec66a43026321ddf1979c73902a533bee3a07b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794706"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925114"
 ---
 # <a name="connect-your-domain-to-microsoft-365-for-business"></a>Подключение домена к Microsoft 365 для бизнеса
 
@@ -39,7 +40,7 @@ ms.locfileid: "49794706"
 ## <a name="try-it"></a>Проверьте, как это работает!
 
 1. Во sign into your Google Workspace admin console at [admin.google.com](https://admin.google.com).
-1. Выберите **"Домены",** **"Управление доменами",** **"Просмотр сведений",** **"Управление доменом",** **"DNS"** в левой области.
+1. Select **Domains**, **Manage domains**, **View details**, Manage **domain**, then **DNS** in the left nav.
 1. Прокрутите вниз до **искусственных записей,** откройте **Google Workspace,** выберите **"Удалить"** и **"Удалить** еще раз".
 1. **Прокрутите** вниз до пользовательских записей ресурсов и удалите все существующие записи DNS, которые отображаются, включая те, которые вы могли создать ранее для Microsoft 365.
 1. Перейдите в [Центр администрирования Microsoft 365.](https://admin.microsoft.com)

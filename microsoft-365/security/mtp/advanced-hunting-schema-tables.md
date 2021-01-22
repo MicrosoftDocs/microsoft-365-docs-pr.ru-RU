@@ -1,10 +1,10 @@
 ---
-title: Таблицы данных в схеме "Расширенный Поиск" защитника Microsoft 365
+title: Таблицы данных в схеме advanced hunting в Microsoft 365 Defender
 description: Ознакомьтесь со сведениями о таблицах в схеме расширенной охоты на угрозы, чтобы понять, для каких типов данных можно выполнять запросы на охоту на угрозы
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справочник по схеме, Кусто, таблица, данные
+keywords: расширенный поиск, охота на угрозы, поиск киберугроз, защита от угроз (Майкрософт), Microsoft 365, mtp, m365, поиск, запрос, телеметрия, справочник по схеме, kusto, таблица, данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ed5c7084e899c99237074a46af21454a4c21dfe8
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.technology: m365d
+ms.openlocfilehash: b335ba90479c670d918226caa18f80ee5535f0a1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087019"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925056"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
 
@@ -36,52 +37,52 @@ ms.locfileid: "49087019"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-[Расширенная](advanced-hunting-overview.md) схема подстановки состоит из нескольких таблиц, которые предоставляют либо сведения о событиях, либо сведения об устройствах, оповещениях, удостоверениях и других типах сущностей. Для эффективного построения запросов, охватывающих несколько таблиц, необходимо понимать, что такое таблицы и столбцы в схеме расширенной охоты на угрозы
+Схема [повышенной охоты](advanced-hunting-overview.md) состоит из нескольких таблиц, которые предоставляют сведения о событиях или сведения об устройствах, оповещениях, удостоверениях и других типах сущений. Для эффективного построения запросов, охватывающих несколько таблиц, необходимо понимать, что такое таблицы и столбцы в схеме расширенной охоты на угрозы
 
-## <a name="get-schema-information-in-the-security-center"></a>Получение сведений о схеме в центре безопасности
+## <a name="get-schema-information-in-the-security-center"></a>Получить сведения о схеме в Центре безопасности
 При построении запросов используйте встроенную ссылку на схему, чтобы быстро получить следующие сведения о каждой таблице в схеме:
 
-- **Описание таблиц**— тип данных, которые содержит таблица, и источник этих данных.
-- **Columns (столбцы**) — все столбцы таблицы.
-- **Типы действий**— возможные значения в `ActionType` столбце, представляющие типы событий, поддерживаемые в таблице. Эти сведения предоставляются только для таблиц, содержащих сведения о событиях.
-- **Пример запроса**— примеры запросов, в которых описывается, как можно использовать таблицу.
+- **Описание таблиц**— тип данных, содержащихся в таблице, и источник этих данных.
+- **Столбцы**— все столбцы в таблице.
+- **Типы действий**— возможные значения в столбце, представляющие типы событий, `ActionType` поддерживаемые таблицей. Эти сведения предоставляются только для таблиц, содержащих сведения о событиях.
+- **Пример запроса**— примеры запросов с возможностью использования таблицы.
 
-### <a name="access-the-schema-reference"></a>Доступ к Справочнику по схеме
-Для быстрого доступа к ссылке на схему выберите действие **Просмотр ссылки** рядом с именем таблицы в представлении схемы. Вы также можете выбрать **ссылку на схему** , чтобы выполнить поиск таблицы.   
+### <a name="access-the-schema-reference"></a>Доступ к справочнику по схеме
+Чтобы быстро получить доступ к  ссылке на схему, выберите действие ссылки "Просмотр" рядом с именем таблицы в представлении схемы. Вы также можете выбрать **ссылку на схему** для поиска таблицы.   
 
-![Изображение, на котором показано, как получить ссылку на схему портала ](../../media/mtp-ah/ah-reference.png) 
+![Изображение доступа к справке по схеме портала ](../../media/mtp-ah/ah-reference.png) 
 
-## <a name="learn-the-schema-tables"></a>Сведения о таблицах схемы
-В приведенной ниже ссылке перечислены все таблицы в схеме. Каждое название таблицы содержит ссылку на страницу, описывающую имена столбцов для этой таблицы. Имена таблиц и столбцов также перечислены в центре безопасности как часть представления схемы на экране Расширенный поиск.
+## <a name="learn-the-schema-tables"></a>Изучите таблицы схемы
+В приведенной ниже ссылке перечислены все таблицы в схеме. Каждое название таблицы содержит ссылку на страницу, описывающую имена столбцов для этой таблицы. Имена таблиц и столбцов также перечислены в Центре безопасности как часть представления схемы на экране "Расширенный поиск".
 
 | Имя таблицы | Описание |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Файлы, IP-адреса, URL-адреса, пользователи или устройства, связанные с оповещениями |
-| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Оповещения от защитника Майкрософт для конечной точки, защитник Майкрософт для Office 365, Microsoft Cloud App Security и защитник Майкрософт для удостоверения, включая сведения о степени серьезности и классификацию угроз  |
+| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Оповещения из Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender для удостоверений, включая сведения о серьезности и категоризации угроз  |
 | **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | Действия, связанные с файлами, в облачных приложениях и службах |
-| **[клаудаппевентс](advanced-hunting-cloudappevents-table.md)** | События, связанные с учетными записями и объектами в Office 365 и других облачных приложениях и службах |
+| **[CloudAppEvents](advanced-hunting-cloudappevents-table.md)** | События, включающие учетные записи и объекты в Office 365 и других облачных приложениях и службах |
 | **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Несколько типов событий, в том числе события, запускаемые такими элементами управления безопасностью, как антивирусная программа "Защитник Windows" и защита от эксплойтов |
-| **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Сведения о сертификате подписанных файлов, полученные из событий проверки сертификатов в конечных точках |
+| **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Сведения о сертификате подписанных файлов, полученных из событий проверки сертификатов на конечных точках |
 | **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Создание файла, изменение и другие события файловой системы |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | События загрузки библиотек DLL |
-| **[девицеинфо](advanced-hunting-deviceinfo-table.md)** | Сведения о компьютере, в том числе данные об ОС |
+| **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Сведения о компьютере, в том числе данные об ОС |
 | **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Входы и другие события проверки подлинности на устройствах |
 | **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | Сетевое подключение и связанные события |
-| **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Сетевые свойства устройств, включая физические адаптеры, IP-адреса и MAC-адреса, а также подключенные сети и домены |
+| **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Свойства сети устройств, включая физические адаптеры, IP- и MAC-адреса, а также подключенные сети и домены |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Создание процессов и связанных с ними событий |
 | **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | Создание и изменение записей реестра |
 | **[DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md)** | События по оценке контроля угроз и уязвимостей, указывающие состояние различных конфигураций безопасности на устройствах |
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)** | База знаний различных конфигураций безопасности, используемых системой контроля угроз и уязвимостей для оценки устройств; включает в себя сопоставления с различными стандартами и контрольными показателями  |
-| **[DeviceTvmSoftwareInventoryVulnerabilities](advanced-hunting-devicetvmsoftwareinventoryvulnerabilities-table.md)** | Инвентаризация программного обеспечения на устройствах и известных уязвимостей в этих программных продуктах |
+| **[DeviceTvmSoftwareInventoryVulnerabilities](advanced-hunting-devicetvmsoftwareinventoryvulnerabilities-table.md)** | Инвентаризация программного обеспечения на устройствах и все известные уязвимости в этих программных продуктах |
 | **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md)** | База знаний уязвимостей, о которых сообщалось в открытых источниках, включая информацию о том, является ли эксплойт общедоступным. |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Сведения о файлах, вложенных в сообщения электронной почты |
-| **[EmailEvents](advanced-hunting-emailevents-table.md)** | События электронной почты Microsoft 365, в том числе события доставки и блокировки электронной почты |
-| **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | События безопасности, происходящие после доставки, после того как Microsoft 365 доставляет сообщения в почтовый ящик получателя. |
-| **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Сведения об URL-адресах в сообщениях электронной почты |
-| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | События, связанные с локальным контроллером домена, на котором работает Active Directory (AD). В этой таблице описываются события, связанные с удостоверениями, и системные события на контроллере домена. |
-| **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Сведения об учетных записях из различных источников, в том числе Azure Active Directory |
-| **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности в Active Directory и Microsoft Online Services |
-| **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Запросы для объектов Active Directory, таких как пользователи, группы, устройства и домены |
+| **[EmailEvents](advanced-hunting-emailevents-table.md)** | События электронной почты Microsoft 365, включая события доставки и блокирования электронной почты |
+| **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | События безопасности, которые происходят после доставки, после того как Microsoft 365 доставляет сообщения электронной почты в почтовый ящик получателя |
+| **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Сведения об URL-адресах в электронных письмах |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | События с использованием локального контроллера домена с Active Directory (AD). В этой таблице описывается ряд событий, связанных с удостоверением, и системных событий на контроллере домена. |
+| **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Сведения об учетной записи из различных источников, включая Azure Active Directory |
+| **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности в Active Directory и веб-службах Майкрософт |
+| **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Запросы объектов Active Directory, таких как пользователи, группы, устройства и домены |
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
