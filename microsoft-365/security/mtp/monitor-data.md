@@ -1,8 +1,8 @@
 ---
-title: Мониторинг данных & отчеты — центр безопасности
-description: Сведения о том, как отслеживать действия пользователей, которые могут привести к раскрытию несанкционированных данных в центре безопасности Microsoft 365.
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, данные
-ms.prod: microsoft-365-enterprise
+title: Отчеты & мониторинга данных — Центр безопасности
+description: Узнайте, как отслеживать действия пользователей, которые могут привести к несанкционированному раскрытию данных в Центре безопасности Microsoft 365.
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, Центр безопасности, мониторинг, отчет, данные
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -17,25 +17,26 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5763c3e3152586285d27bcbc8214e1ee36641c3
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.technology: m365d
+ms.openlocfilehash: a71f7a7284c2734c4cab2d4e9501a17f4e9ec6e7
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429399"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930442"
 ---
-# <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a><span data-ttu-id="72291-104">Мониторинг данных и отчеты в центре безопасности Майкрософт 365</span><span class="sxs-lookup"><span data-stu-id="72291-104">Data monitoring and reporting in the Microsoft 365 security center</span></span>
+# <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a><span data-ttu-id="9cd77-104">Мониторинг данных и отчетность в Центре безопасности Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9cd77-104">Data monitoring and reporting in the Microsoft 365 security center</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="72291-105">Отчеты категории **Данные** помогают отслеживать активность пользователей, которая может привести к несанкционированному разглашению данных.</span><span class="sxs-lookup"><span data-stu-id="72291-105">The **Data** category helps track user activity that could lead to unauthorized data disclosure.</span></span> <span data-ttu-id="72291-106">Они представляют собой переработку существующих отчетов о политиках защиты от потери данных плюс независимый отчет о политике защиты от потери данных.</span><span class="sxs-lookup"><span data-stu-id="72291-106">They are the rework of existing DLP policy reports plus a third-party DLP policy match report.</span></span>
+<span data-ttu-id="9cd77-105">Отчеты категории **Данные** помогают отслеживать активность пользователей, которая может привести к несанкционированному разглашению данных.</span><span class="sxs-lookup"><span data-stu-id="9cd77-105">The **Data** category helps track user activity that could lead to unauthorized data disclosure.</span></span> <span data-ttu-id="9cd77-106">Они являются работой существующих отчетов о политиках DLP, а также отчета о совпадениях с политикой DLP сторонних сторон.</span><span class="sxs-lookup"><span data-stu-id="9cd77-106">They are the rework of existing DLP policy reports plus a third-party DLP policy match report.</span></span>
 
-<span data-ttu-id="72291-107">Вы можете отслеживать:</span><span class="sxs-lookup"><span data-stu-id="72291-107">You can see:</span></span>
+<span data-ttu-id="9cd77-107">Вы можете отслеживать:</span><span class="sxs-lookup"><span data-stu-id="9cd77-107">You can see:</span></span>
 
-- <span data-ttu-id="72291-108">пользователей, предоставляющих больше всего файлов из облачных приложений;</span><span class="sxs-lookup"><span data-stu-id="72291-108">Users who share the most files from cloud apps</span></span>
-- <span data-ttu-id="72291-109">Количество совпадений политики защиты от потери данных</span><span class="sxs-lookup"><span data-stu-id="72291-109">How many DLP policy matches occurred</span></span>
-- <span data-ttu-id="72291-110">количество переопределений политик DLP или ложных срабатываний;</span><span class="sxs-lookup"><span data-stu-id="72291-110">How many DLP policies overrides or false positives are reported</span></span>
-- <span data-ttu-id="72291-111">Сколько совпадений политики защиты от потери данных произошло в сторонних облачных службах через Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="72291-111">How many DLP policy matches happened in third-party cloud services via Microsoft Cloud App Security</span></span>
+- <span data-ttu-id="9cd77-108">пользователей, предоставляющих больше всего файлов из облачных приложений;</span><span class="sxs-lookup"><span data-stu-id="9cd77-108">Users who share the most files from cloud apps</span></span>
+- <span data-ttu-id="9cd77-109">Количество совпадений с политикой DLP</span><span class="sxs-lookup"><span data-stu-id="9cd77-109">How many DLP policy matches occurred</span></span>
+- <span data-ttu-id="9cd77-110">количество переопределений политик DLP или ложных срабатываний;</span><span class="sxs-lookup"><span data-stu-id="9cd77-110">How many DLP policies overrides or false positives are reported</span></span>
+- <span data-ttu-id="9cd77-111">Количество совпадений с политикой DLP в сторонних облачных службах через Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="9cd77-111">How many DLP policy matches happened in third-party cloud services via Microsoft Cloud App Security</span></span>
 
-![Категория данных на странице "отчеты"](../../media/data.png)
+![Страница "Категория данных отчетов"](../../media/data.png)
