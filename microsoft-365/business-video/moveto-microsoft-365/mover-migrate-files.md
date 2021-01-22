@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как перенести файлы Google в Microsoft 365 для бизнеса с помощью Mover.
-ms.openlocfilehash: a6f9dbf7803cb552c23b6c6abb13d13d6f3eda5d
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 99040e4846aba084f40536e88f0aed70998f48be
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794703"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928202"
 ---
 # <a name="migrate-google-files-to-microsoft-365-for-business"></a>Перенос файлов Google в Microsoft 365 для бизнеса 
 
@@ -73,12 +74,12 @@ ms.locfileid: "49794703"
 1. Выберите **"Свойства"** и убедитесь, что назначение пользователя **обязательно?** Включено.
 1. Вернись в приложение Mover, измените **отображаемую** именем , если вы хотите, выберите **Авторизировать**, а затем выберите учетную запись администратора Майкрософт.
 
-    Mover сообщит вам о количестве обнаруженных сайтов SharePoint Online (или SPO).
+    Mover сообщит вам о количестве обнаруженных сайтов SharePoint Online (или SPO) и пользователей.
 1. Choose **Continue Migration Setup,** select **Add Users**, then **Automatically Discover and Add Users**.
 
     Приложение Mover попытается соединять диски из пути к источнику в Google с пунктом назначения в Microsoft 365. 
 
-    Если диск не сопоает автоматически, добавьте его конечный путь в CSV-файл, который мы позже будем использовать для переноса общего диска в библиотеку документов SharePoint. 
+    Если диск не сопоает автоматически, добавьте его конечный путь в CSV-файл, который мы будем использовать позже для переноса общего диска в библиотеку документов SharePoint. 
 
 1. В этом случае мы добавили сайт SharePoint с и названием "Перенесенные файлы" и занося url-адрес страницы документов. 
 1. Затем мы создали CSV-файл в формате "Исходный путь", "Путь назначения" и "Теги". 

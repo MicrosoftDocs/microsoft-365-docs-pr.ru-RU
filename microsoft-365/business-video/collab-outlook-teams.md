@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как использовать Outlook и Microsoft Teams для совместной работы.
-ms.openlocfilehash: aac1782de441db7521f4f9b7da540b417cb25f14
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 3d5ac6dd157b0469800a3dd6f841ec1a5c1d1ed9
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703035"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927350"
 ---
 # <a name="use-outlook-and-teams-together"></a>Одновременное использование Outlook и Teams
 

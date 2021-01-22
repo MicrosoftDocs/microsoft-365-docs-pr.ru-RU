@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как изменить имя или адрес электронной почты пользователя.
-ms.openlocfilehash: 43e267c31a62d4f91be6a872c99186a1418f94ec
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: c54665a774803c0386801b226b3f76f019b20321
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703059"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927410"
 ---
 # <a name="change-a-users-name-or-email-address"></a>Изменение имени или адреса электронной почты пользователя
 
@@ -48,8 +49,8 @@ ms.locfileid: "49703059"
 
 ### <a name="add-an-email-alias"></a>Добавление псевдонима электронной почты
 
-1. В Центре администрирования Microsoft 365 выберите "Пользователи", а затем **"Активные пользователи".**
-1. Выберите пользователя из списка активных пользователей.
+1. В Центре администрирования Microsoft 365 выберите **"Пользователи"** и **"Активные пользователи".**
+1. Выберите пользователя в списке активных пользователей.
 1. Выберите **"Управление псевдонимами электронной почты".**
 1. Введите новый псевдоним, проверьте домен и выберите "Сохранить **изменения".**
 

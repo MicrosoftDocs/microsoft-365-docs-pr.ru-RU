@@ -96,16 +96,17 @@
       href: information-protection.md
     - name: Типы конфиденциальной информации
       items:
+        - name: Дополнительные сведения о типах конфиденциальной информации
+          href: sensitive-information-type-learn-about.md
         - name: Определения типов конфиденциальной информации
           href: sensitive-information-type-entity-definitions.md
         - name: 'Сведения, для обнаружения которых используются функции защиты от потери данных'
           href: what-the-dlp-functions-look-for.md
         - name: Настройка встроенных типов конфиденциальных данных
           href: customize-a-built-in-sensitive-information-type.md
-        - name: Пользовательские типы конфиденциальной информации
-          href: custom-sensitive-info-types.md
         - name: Создание пользовательских типов конфиденциальной информации с помощью точного совпадения данных
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Начало работы с пользовательскими типами конфиденциальной информации
         - name: Использование мастера точного соответствия данных и типа конфиденциальной информации
           href: sit-edm-wizard.md
         - name: Изменение схемы точного соответствия данных для использования настраиваемого совпадения

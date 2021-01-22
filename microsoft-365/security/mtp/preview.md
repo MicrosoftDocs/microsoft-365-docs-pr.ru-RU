@@ -3,7 +3,7 @@ title: Предварительные версии функций в Microsoft 3
 description: Сведения о новых функциях безопасности Microsoft 365
 keywords: предварительная версия, новое, безопасность m365, безопасность, 365, возможности
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 15f599f425e20540f5f7889efa632f5a9f11a4e8
-ms.sourcegitcommit: 25ac2736a66bb72c0d574c3fbde7472ac98d5321
+ms.technology: m365d
+ms.openlocfilehash: ce0f1ae41b57db398c7ec84e078897a7345c1b9a
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "49741061"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930082"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Функции предварительной версии Защитника Microsoft 365
 

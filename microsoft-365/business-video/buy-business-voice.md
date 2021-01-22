@@ -17,23 +17,24 @@ monikerRange: o365-worldwide
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как приобрести надстройку Microsoft 365 business Voice.
-ms.openlocfilehash: b90f974f5cf8b752b8a9e87fd25a39cb9ba55ebe
-ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
+ms.openlocfilehash: b52d10587ce00cc2a9cd3bdb5364a0ba54cd2dbf
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712513"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927482"
 ---
 # <a name="buy-business-voice"></a>Покупка бизнес-голосовой почты
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Gryk?autoplay=false]
 
-С помощью Microsoft 365 business Voice вы можете делать и принимать звонки, использовать аудиоконференцию и настроить систему меню звонков для маршрутов клиентов в нужный отдел. Для начала необходимо приобрести надстройку Business Voice.
+С помощью Microsoft 365 Business Voice вы можете делать и принимать звонки, использовать аудиоконференцию и настроить систему меню звонков для маршрутов клиентов в нужный отдел. Для начала необходимо приобрести надстройку Business Voice.
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 

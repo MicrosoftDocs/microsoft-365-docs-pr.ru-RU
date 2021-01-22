@@ -5,18 +5,19 @@ author: danihalfin
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Администраторы могут научиться создавать пользовательские полезной нагрузки для обучения моделированию атак в Microsoft Defender для Office 365.
-ms.openlocfilehash: 86a962dc3117708ac71195b9efc336fa30c573dd
-ms.sourcegitcommit: 99a7354e6a6b4d9d5202674ef57852d52a43fef6
+ms.technology: mdo
+ms.openlocfilehash: 6cc5dd4a48ab89193133cfaf823d0a1b1868fa79
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908345"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929194"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Создание пользовательских полезных данных для обучения имитации атаки
 

@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как обновить Windows 10 Домашняя до Windows 10 Pro.
-ms.openlocfilehash: 64393e1b5c3f6652835fe5f5cd5859a6f4cf4320
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 3f775130728eb6f00b1adb008c697fb84254827b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703107"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927758"
 ---
 # <a name="upgrade-from-windows-10-home-to-windows-10-pro"></a>Обновление с Windows 10 Домашняя до Windows 10 Pro
 
@@ -36,10 +37,10 @@ ms.locfileid: "49703107"
 
 Для защиты данных в Microsoft 365 бизнес требуется Windows 10 Pro. Если у вас есть компьютер под управлением Windows 10 Домашняя, выполните следующие действия для обновления до Windows 10 Pro.
 
-1. На рабочем столе выберите меню  **"Пуск",**  наберите  **Microsoft Store и** выберите его.
+1. На рабочем столе выберите меню "Пуск", найщите **Microsoft Store** и выберите его. 
 2. В Microsoft Store щелкните на панели поиска, введите **Windows 10 Pro,** а затем выберите "Обновить **до Windows 10 Pro".**
 3. В **области обновления до Windows 10 Pro** выберите **"Подробнее"** и выберите **"Купить".**
 4. В поле  **"Безопасность Windows"**  введите ПИН-код для проверки личности.
-5. Просмотрите страницу оплаты, прочитайте условия продажи, внести изменения в метод оплаты, если хотите, а затем выберите **"Купить".**
-6. В **области обновления до Windows 10 Pro** выберите **"Установить".**
+5. Просмотрите страницу оплаты, ознакомьтесь с условиями продажи, приостановите внесение изменений в метод оплаты и выберите **"Купить".**
+6. В **области "Обновление до Windows 10 Pro"** выберите **"Установить".**
 7. При необходимости сохраните все файлы и выберите "Да",  **&#39;начать**  установку Windows.

@@ -1,10 +1,10 @@
 ---
 title: Таблица AADSpnSignInEventsBeta в схеме advanced hunting
 description: Сведения о сведениях, связанных с участником-службой Azure Active Directory и таблицой событий управляемого удостоверения для регистрации в службе advanced hunting schema
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, user, account, identity, AAD
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, file, IP address, device, user, account, identity, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 42acf24ce9b941fffb1ce0ed4b67216bd8c1de47
-ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
+ms.technology: m365d
+ms.openlocfilehash: 172c400df3adea70a2e2d2e37547fa39e0d3b9cf
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784303"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928622"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -33,12 +34,12 @@ ms.locfileid: "49784303"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> Таблица в настоящее время находится в бета-версии и предлагается на краткосрочной основе, чтобы вы могли использовать события регистрации в azure `AADSpnSignInEventsBeta` Active Directory (AAD) и основного пользователя службы и управляемого удостоверения. Со временем все сведения о схеме для входов будут перемещаться в `IdentityLogonEvents` таблицу.<br><br>
-> Клиенты, которые могут получить доступ к Microsoft 365 Defender через интегрированное решение Microsoft Defender для конечных точек в Центре безопасности Azure, но не имеют лицензий на Microsoft Defender для Office, Microsoft Defender для удостоверений или Microsoft Cloud App Security, не смогут просматривать эту схему. 
+> В настоящее время таблица находится в бета-версии и предлагается на краткосрочной основе, чтобы разрешить вам искать события для основного пользователя службы `AADSpnSignInEventsBeta` Azure Active Directory (AAD) и управляемого удостоверения. Со временем все сведения о схеме для входов будут перемещаться в `IdentityLogonEvents` таблицу.<br><br>
+> Пользователи, которые могут получить доступ к Microsoft 365 Defender через интегрированное решение Microsoft Defender для конечных точек в Центре безопасности Azure, но не имеют лицензий на Microsoft Defender для Office, Microsoft Defender для удостоверений или Microsoft Cloud App Security, не смогут просмотреть эту схему. 
 
 
 
-Таблица в схеме advanced hunting содержит сведения о основном службе Azure Active Directory и управляемых входов `AADSpnSignInEventsBeta` удостоверений. Вы можете узнать больше о различных типах входов в Отчеты о действиях при входе [в Azure Active Directory ( предварительная версия).](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins)
+Таблица в схеме advanced hunting содержит сведения о основном и управляемом входе в службу `AADSpnSignInEventsBeta` Azure Active Directory. Вы можете узнать больше о различных типах входов в Отчеты о действиях при входе [в Azure Active Directory —](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins)предварительная версия.
 
 Используйте этот справочник для создания запросов, возвращающих данные из таблицы.
 
@@ -52,23 +53,23 @@ ms.locfileid: "49784303"
 | ----- | ----- | ---- |
 | `Timestamp` | datetime      | Дата и время создания записи                                                                                                     |
 | `Application`          | string        | Приложение, которое выполнило записанную действие                                                                                                   |
-| `ApplicationId`        | Строка        | Уникальный идентификатор приложения                                                                                                           |
+| `ApplicationId`        | string        | Уникальный идентификатор приложения                                                                                                           |
 | `IsManagedIdentity`    | boolean       | Указывает, инициировался ли вход с помощью управляемого удостоверения                                                                               |
 | `ErrorCode`            | int        | Содержит код ошибки при ошибке при входе. Чтобы найти описание определенного кода ошибки, посетите <https://aka.ms/AADsigninsErrorCodes> сайт . |
-| `CorrelationId`        | Строка        | Уникальный идентификатор события для регистрации                                                                                                          |
-| `ServicePrincipalName` | Строка        | Имя основного службы, инициа которого был инициирован вход                                                                                        |
-| `ServicePrincipalId`   | Строка        | Уникальный идентификатор основного службы, инициировал вход                                                                           |
-| `ResourceDisplayName`  | Строка        | Отображаемого имени ресурса, к который был доступ                                                                                                           |
-| `ResourceId`           | Строка        | Уникальный идентификатор доступного ресурса                                                                                                      |
-| `ResourceTenantId`     | Строка        | Уникальный идентификатор клиента доступного ресурса                                                                                        |
-| `IPAddress`            | Строка        | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях                                                              |
-| `CountryCode`          | Строка        | Двух буквный код, указывающий страну, в которой расположен IP-адрес клиента                                                                |
-| `State`                | Строка        | Состояние, в котором произошел вход, если доступно                                                                                                  |
-| `City`                 | Строка        | Город, где находится пользователь учетной записи                                                                                                          |
-| `Latitude`             | Строка        | Координаты расположения для входов с севера на север и на север                                                                                          |
-| `Longitude`            | Строка        | Координаты расположения для входов с востока на запад                                                                                            |
-| `RequestId`            | Строка        | Уникальный идентификатор запроса                                                                                                                |
-|`ReportId` | Строка | Уникальный идентификатор события | 
+| `CorrelationId`        | string        | Уникальный идентификатор события для регистрации                                                                                                          |
+| `ServicePrincipalName` | string        | Имя основного службы, инициа которого был инициирован вход                                                                                        |
+| `ServicePrincipalId`   | string        | Уникальный идентификатор основного службы, инициировал вход                                                                           |
+| `ResourceDisplayName`  | string        | Отображаемого имени ресурса, к который был доступ                                                                                                           |
+| `ResourceId`           | string        | Уникальный идентификатор доступного ресурса                                                                                                      |
+| `ResourceTenantId`     | string        | Уникальный идентификатор клиента доступного ресурса                                                                                        |
+| `IPAddress`            | string        | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях                                                              |
+| `CountryCode`          | string        | Двух буквный код, указывающий страну, в которой расположен IP-адрес клиента                                                                |
+| `State`                | string        | Состояние, в котором произошел вход, если доступно                                                                                                  |
+| `City`                 | string        | Город, где находится пользователь учетной записи                                                                                                          |
+| `Latitude`             | string        | Координаты расположения для входов с севера на север и на север                                                                                          |
+| `Longitude`            | string        | Координаты расположения для входов с востока на запад                                                                                            |
+| `RequestId`            | string        | Уникальный идентификатор запроса                                                                                                                |
+|`ReportId` | string | Уникальный идентификатор события | 
 
  
 

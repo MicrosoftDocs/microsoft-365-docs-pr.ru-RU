@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как переместить пользователей в другую подписку.
-ms.openlocfilehash: 7da8db17e0cb29f50cd2320293d8b0f1c7f22d5a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: b3b82dcf029395dbbe49d0e0ea87f87f4494b4f0
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703066"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927422"
 ---
 # <a name="move-users-to-different-subscriptions"></a>Перемещение пользователей в разные подписки
 
@@ -41,7 +42,7 @@ ms.locfileid: "49703066"
 
 1. В Центре администрирования Microsoft 365 в области навигации слева выберите "Выставление счета" **и** **"Приобретение служб".**
 1. Выберите подписку, которая вы хотите добавить, и выберите **"Купить".**
-1. Выберите, как вы хотите оплачивать лицензии и сколько лицензий вам нужно, а затем выберите **"Найти".**
+1. Выберите, как вы будете оплачивать лицензии и сколько лицензий вам нужно, а затем выберите **"И выйми сейчас".**
 1. Просмотрите заказ и выберите **"Далее".**
 1. Подтвердите общее количество и выберите **"Place order" (Место).**
 

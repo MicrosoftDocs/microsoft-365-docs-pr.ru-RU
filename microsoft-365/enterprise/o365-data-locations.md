@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Определите, где хранятся данные клиентов Microsoft 365 по всему миру
-ms.openlocfilehash: 4b1e0d30d37ec9bc7a333216854e8eb602e07cc1
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 4830a10bed1f95686fb69ab577f6c89f93e9818f
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519731"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921672"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -130,7 +130,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Австралия | Сидней, Мельбурн |
 | Бразилия | Рио-де-Жанейро, Кампинас |
 | Канада | г. Квебек, Торонто |
-| Европейский союз | Австрия (Вена), Финляндия (Хельсинки), Франция (Париж, Марсель), Ирландия (Дублин), Нидерланды (Амстердам) |
+| Европейский Союз | Австрия (Вена), Финляндия (Хельсинки), Франция (Париж, Марсель), Ирландия (Дублин), Нидерланды (Амстердам) |
 | Франция | Париж, Марсель |
 | Германия | Франкфурт, Берлин |
 | Индия | Ченнаи, Мумбаи, Пуна |
@@ -250,7 +250,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | SharePoint Online | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Skype для бизнеса | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
-| Microsoft Teams | Соединенные Штаты |
+| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Office Online и Mobile | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | EOP | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
 | Intune | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
@@ -318,7 +318,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -342,7 +342,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -366,7 +366,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -418,7 +418,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -438,7 +438,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -486,22 +486,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -514,7 +514,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -534,7 +534,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -606,7 +606,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -654,22 +654,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -678,7 +678,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -726,7 +726,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -870,7 +870,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -899,7 +899,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Бразилия |
 | Skype для бизнеса | Соединенные Штаты |
 | Microsoft Teams | Бразилия |
-| Office Online и Mobile | Бразилия |
+| Office Online &amp; Mobile | Бразилия |
 | EOP | Бразилия |
 | Intune | Соединенные Штаты |
 | MyAnalytics | Бразилия |
@@ -942,7 +942,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -990,22 +990,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -1019,7 +1019,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
 | Microsoft Teams | Глобальный географический регион 1 — EMEA |
-| Office Online &amp; Mobile | Глобальный географический регион 1 — EMEA |
+| Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
 | MyAnalytics | Глобальный географический регион 1 — EMEA |
@@ -1158,7 +1158,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -1326,7 +1326,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -1446,7 +1446,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -1494,22 +1494,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -1542,22 +1542,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -1566,22 +1566,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -1590,22 +1590,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -1638,7 +1638,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -1662,7 +1662,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -1734,7 +1734,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -1806,22 +1806,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -1950,22 +1950,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -1977,19 +1977,19 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Exchange Online | Франция |
 | OneDrive для бизнеса | Франция |
 | SharePoint Online | Франция |
-| Skype для бизнеса | Европейский союз |
+| Skype для бизнеса | Европейский Союз |
 | Microsoft Teams | Франция |
 | Office Online и Mobile | Франция |
 | EOP | Франция |
-| Intune | Европейский союз |
+| Intune | Европейский Союз |
 | MyAnalytics | Франция |
-| Планировщик | Европейский союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз |
+| Yammer | Европейский Союз |
 | Службы OneNote | Франция |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -2046,7 +2046,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2122,7 +2122,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -2145,19 +2145,19 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Exchange Online | Германия |
 | OneDrive для бизнеса | Германия |
 | SharePoint Online | Германия |
-| Skype для бизнеса | Европейский союз |
+| Skype для бизнеса | Европейский Союз |
 | Microsoft Teams | Германия |
 | Office Online и Mobile | Германия |
 | EOP | Германия |
-| Intune | Европейский союз |
+| Intune | Европейский Союз |
 | MyAnalytics | Германия |
-| Планировщик | Европейский союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз |
+| Yammer | Европейский Союз |
 | Службы OneNote | Германия |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -2214,22 +2214,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -2238,7 +2238,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2262,7 +2262,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2286,7 +2286,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2334,7 +2334,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2454,7 +2454,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2478,7 +2478,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2550,7 +2550,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2598,22 +2598,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -2718,22 +2718,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -2790,22 +2790,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -2814,7 +2814,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -2914,7 +2914,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -3058,7 +3058,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -3102,22 +3102,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -3246,22 +3246,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -3270,22 +3270,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -3414,22 +3414,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -3462,7 +3462,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -3558,7 +3558,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -3678,7 +3678,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -3846,22 +3846,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -3870,7 +3870,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -3942,7 +3942,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4206,7 +4206,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4350,22 +4350,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -4374,22 +4374,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -4398,7 +4398,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4450,7 +4450,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -4494,22 +4494,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -4590,7 +4590,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4614,7 +4614,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4638,7 +4638,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4662,7 +4662,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4686,7 +4686,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4710,7 +4710,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4950,7 +4950,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -4974,22 +4974,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -4998,22 +4998,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -5094,7 +5094,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -5118,22 +5118,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -5166,7 +5166,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -5238,22 +5238,22 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | Европейский союз |
-| OneDrive для бизнеса | Европейский союз |
-| SharePoint Online | Европейский союз |
-| Skype для бизнеса | Европейский союз |
-| Microsoft Teams | Европейский союз |
-| Office Online и Mobile | Европейский союз |
-| EOP | Европейский союз |
-| Intune | Европейский союз |
-| MyAnalytics | Европейский союз |
-| Планировщик | Европейский союз |
+| Exchange Online | Европейский Союз |
+| OneDrive для бизнеса | Европейский Союз |
+| SharePoint Online | Европейский Союз |
+| Skype для бизнеса | Европейский Союз |
+| Microsoft Teams | Европейский Союз |
+| Office Online и Mobile | Европейский Союз |
+| EOP | Европейский Союз |
+| Intune | Европейский Союз |
+| MyAnalytics | Европейский Союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз  |
-| Службы OneNote | Европейский союз |
-| Stream | Европейский союз |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Yammer | Европейский Союз  |
+| Службы OneNote | Европейский Союз |
+| Stream | Европейский Союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -5314,7 +5314,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -5478,7 +5478,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -5554,7 +5554,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -5574,7 +5574,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -5622,7 +5622,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -5725,15 +5725,15 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | Microsoft Teams | Соединенное Королевство |
 | Office Online и Mobile | Соединенное Королевство |
 | EOP | Великобритания |
-| Intune | Европейский союз |
+| Intune | Европейский Союз |
 | MyAnalytics | Соединенное Королевство |
-| Планировщик | Европейский союз |
+| Планировщик | Европейский Союз |
 | Sway | Соединенные Штаты |
-| Yammer | Европейский союз |
+| Yammer | Европейский Союз |
 | Службы OneNote | Соединенное Королевство |
 | Stream | Соединенное Королевство |
-| Доска | Европейский союз |
-| Forms | Европейский союз |
+| Доска | Европейский Союз |
+| Forms | Европейский Союз |
 | Рабочая аналитика | Соединенные Штаты |
 </p></details>
 
@@ -5742,7 +5742,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |
@@ -5818,7 +5818,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 | OneDrive для бизнеса | Глобальный географический регион 1 — EMEA |
 | SharePoint Online | Глобальный географический регион 1 — EMEA |
 | Skype для бизнеса | Глобальный географический регион 1 — EMEA |
-| Microsoft Teams | Глобальный географический регион 2 — Азиатско-Тихоокеанский регион |
+| Microsoft Teams | Глобальный географический регион 1 — EMEA |
 | Office Online и Mobile | Глобальный географический регион 1 — EMEA |
 | EOP | Глобальный географический регион 1 — EMEA |
 | Intune | Глобальный географический регион 1 — EMEA |
@@ -5862,7 +5862,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 | Служба | Расположение |
 | --- | --- |
-| Exchange Online | США |
+| Exchange Online | Соединенные Штаты |
 | OneDrive для бизнеса | Соединенные Штаты |
 | SharePoint Online | Соединенные Штаты |
 | Skype для бизнеса | Соединенные Штаты |

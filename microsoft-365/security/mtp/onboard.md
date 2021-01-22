@@ -1,11 +1,11 @@
 ---
-title: Настройка и управление защитником Майкрософт для возможностей конечных точек
+title: Настройка возможностей конечных точек в Microsoft Defender и управление ими
 ms.reviewer: ''
-description: Настройка и управление защитником Майкрософт для обеспечения конечных точек, таких как снижение уязвимой зоны и защита следующего поколения
-keywords: Настройка, управление, возможности, сокращение возможных направлений атак, защита следующего поколения, защита от обнаружения конечных точек и ответ, автоматическое исследование и исправление, элементы управления безопасностью, элементы управления
+description: Настройка и управление Возможностями конечных точек в Microsoft Defender, такими как уменьшение поверхности атаки и защита нового поколения
+keywords: настройка, управление, возможности, уменьшение поверхности атаки, защита нового поколения, средства управления безопасностью, обнаружение конечных точек и реагирование, автоматическое исследование и исправление, средства контроля безопасности, элементы управления
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: w10
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -18,14 +18,15 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: b202b30e218448794eac7588078ff3ac9cfe9ee3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d04177ef38c1bd04b0b73e29de9d8ab6fc0893ce
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844816"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930130"
 ---
-# <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>Настройка и управление защитником Майкрософт для возможностей конечных точек
+# <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>Настройка возможностей конечных точек в Microsoft Defender и управление ими
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -33,18 +34,18 @@ ms.locfileid: "48844816"
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 
-Настройте и управляйте всеми защитником Майкрософт для возможностей конечных точек, чтобы обеспечить лучшую защиту в Организации. 
+Настройте и управляйте всеми возможностями Конечной точки в Microsoft Defender для обеспечения наилучшей защиты системы безопасности в организации. 
 
 
 ## <a name="in-this-section"></a>В этом разделе 
 Статья | Описание 
 :---|:---
-[Настройка возможностей по уменьшению уязвимой зоны](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Обеспечивая правильную настройку параметров конфигурации и применение методик преодоления последствий, эти возможности выделяются от атак на резисторы и в эксплуатацию. 
-[Настройка защиты следующего поколения](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | Настройте защиту следующего поколения для перехвата всех типов новых угроз.
-[Настройка возможностей экспертов по угрозам Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Настраивать и управлять тем, как вы хотели бы получать циберсекуритиную логику угроз от экспертов Майкрософт по угрозе.
-[Настройка интеграции защитника Microsoft 365](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Настройка других решений, которые интегрируются с защитником Майкрософт для конечной точки.
-[Поддержка управления и API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| Получение оповещений о SIEM или использование API для создания настраиваемых оповещений. Создавайте и создавайте отчеты Power BI. 
-[Настройка параметров центра безопасности защитника Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  Настройка параметров, относящихся к порталу, таких как общие параметры, расширенные функции, разрешение предварительной версии и других.
+[Настройка возможностей уменьшения поверхности атаки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Убедившись, что параметры конфигурации настроены правильно и применяются методы противодействия эксплойту, эти наборы возможностей по-настоящему противяются атакам и атакам. 
+[Настройка защиты нового поколения](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | Настройте защиту нового поколения, чтобы перехватить все типы возникающих угроз.
+[Настройка возможностей экспертов по угрозам (Майкрософт)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Настройте и управляйте тем, как вы хотите получать аналитику киберугроз от экспертов по угрозам Майкрософт.
+[Настройка интеграции с Microsoft 365 Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Настройте другие решения, интегрируемые с Microsoft Defender для конечной точки.
+[Поддержка управления и API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| Извлеките оповещения в SIEM или используйте API для создания пользовательских оповещений. Создание и создание отчетов Power BI. 
+[Настройка параметров Центра безопасности Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  Настройте параметры, связанные с порталом, такие как общие параметры, расширенные функции, включить предварительный просмотр и другие.
 
 
 

@@ -3,7 +3,7 @@ title: Создание приложения для доступа к API Micros
 description: Узнайте, как получить доступ к API Microsoft 365 Defender от имени пользователя.
 keywords: доступ от имени пользователя, API, приложения, пользователя, маркер доступа, маркер,
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f1c0caea9ff7810f79026c789241a4f250ec5303
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: d443334a00b5247525a2cdba98a11cfe0f515193
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719420"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928466"
 ---
 # <a name="create-an-app-to-access-microsoft-365-defender-apis-on-behalf-of-a-user"></a>Создание приложения для доступа к API Microsoft 365 Defender от имени пользователя
 
@@ -76,7 +77,7 @@ ms.locfileid: "49719420"
    - **Тип приложения:** Общедоступный клиент
    - **URI перенаправления:**https://portal.azure.com
 
-4. На странице приложения выберите API "Разрешения для добавления разрешений" **API,** которые моя организация использует >, введите "Защита от угроз (Майкрософт)" и выберите "Защита от  >    >   **угроз (Майкрософт)".**  Теперь ваше приложение может получить доступ к Microsoft 365 Defender.
+4. На странице приложения выберите "API Разрешения для добавления разрешений" **API,** которые моя организация использует >, введите "Защита от угроз (Майкрософт)" и выберите "Защита от  >    >   **угроз (Майкрософт)".**  Теперь ваше приложение может получить доступ к Microsoft 365 Defender.
 
    > [!TIP]
    > *Защита от угроз (Майкрософт)* — это прежнее имя Защитника Microsoft 365, которое не будет отображаться в исходном списке. Чтобы увидеть, как оно появляется, необходимо начать писать его имя в текстовом поле.
@@ -133,7 +134,7 @@ $response.AccessToken
 
 ## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>Использование маркера для доступа к API Защитника Microsoft 365
 
-1. Выберите нужный API (инциденты или расширенный поиск). Дополнительные сведения [см. в поддерживаемых API Microsoft 365 Defender.](api-supported.md)
+1. Выберите нужный API (инциденты или расширенный поиск). Дополнительные сведения см. в [поддерживаемых API Microsoft 365 Defender.](api-supported.md)
 2. В http-запросе, который вы будете отправлять, задайте для загона авторизации `"Bearer" <token>` *,Bearer* является схемой авторизации, а маркер является вашим проверенным  маркером.
 3. Срок действия маркера истекает в течение одного часа. За это время можно отправить несколько запросов с одним маркером.
 
@@ -153,8 +154,8 @@ $response.AccessToken
 - [Обзор API Microsoft 365 Defender](api-overview.md)
 - [Доступ к API Microsoft 365 Defender](api-access.md)
 - [Создание приложения "Hello world"](api-hello-world.md)
-- [Создание приложения для доступа к Защитнику Microsoft 365 без пользователя](api-create-app-web.md)
-- [Создание приложения с мультиязычным доступом партнеров к API Защитника Microsoft 365](api-partner-access.md)
+- [Создание приложения для доступа к Microsoft 365 Defender без пользователя](api-create-app-web.md)
+- [Создание приложения с мультиязычным доступом партнеров к API Microsoft 365 Defender](api-partner-access.md)
 - [Узнайте об ограничениях API и лицензировании](api-terms.md)
 - [Коды ошибок](api-error-codes.md)
 - [Авторизация OAuth 2.0 для доступа к API и входу пользователя](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

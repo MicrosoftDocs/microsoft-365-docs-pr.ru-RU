@@ -1,10 +1,10 @@
 ---
-title: Таблица идентитилогоневентс в схеме расширенного поискового окна
-description: Сведения о событиях проверки подлинности, регистрируемых Active Directory в таблице Идентитилогоневентс расширенной схемы подсчета
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, описание, Идентитилогоневентс, Azure AD, Active Directory, Azure ATP, удостоверения
+title: Таблица IdentityLogonEvents в схеме advanced hunting
+description: Узнайте о событиях проверки подлинности, записанных Active Directory в таблице IdentityLogonEvents схемы advanced hunting
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, IdentityLogonEvents, Azure AD, Active Directory, Azure ATP, identities
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 176f131ad020d001b72b97332d54be71feef5548
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 1df1295b3386b94e3737c53ac8226c719c8bfa08
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847420"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929926"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -32,44 +33,44 @@ ms.locfileid: "48847420"
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
-`IdentityLogonEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о действиях проверки подлинности, выполненных администратором Майкрософт в локальной службе Active Directory для действий идентификации и проверки подлинности, относящихся к службам Microsoft Online, захваченным Microsoft Cloud App Security. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в схеме advanced hunting содержит сведения о действиях проверки подлинности, совершенных с помощью локальной службы Active Directory, захваченной Microsoft Defender для идентификации и действий проверки подлинности, связанных с веб-службами Майкрософт, захваченными `IdentityLogonEvents` Microsoft Cloud App Security. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 >[!TIP]
-> Для получения подробных сведений о типах событий ( `ActionType` значений), поддерживаемых таблицей, используйте [встроенную справочную](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) информацию о схеме, доступную в центре обеспечения безопасности.
+> Для получения подробных сведений о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в Центре безопасности. [](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center)
 
 >[!NOTE]
->В этой таблице рассматриваются действия входа в систему Azure Active Directory (AD), отслеживаемые Cloud App Security, а именно интерактивные входы и действия проверки подлинности с помощью ActiveSync и других устаревших протоколов. Неинтерактивные входы, недоступные в этой таблице, можно просматривать в журнале аудита Azure AD. [Дополнительные сведения о подключении Cloud App Security к Microsoft 365](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
+>В этой таблице освещаются действия по входу в Azure Active Directory (AD), отслеживаемые Cloud App Security, в частности интерактивные входы и действия проверки подлинности с помощью ActiveSync и других устаревших протоколов. Неинструктивные входы, недоступные в этой таблице, можно просмотреть в журнале аудита Azure AD. [Узнайте больше о подключении Cloud App Security к Microsoft 365](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
-| `ActionType` | string | Тип действия, вызвавшего событие. Дополнительные сведения см. [в справочнике по схемам на портале](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) |
-| `LogonType` | string | Тип сеанса входа в систему, в частности:<br><br> - **Интерактивный** пользователь физически взаимодействует с компьютером с помощью локальной клавиатуры и экрана<br><br> - **Удаленный интерактивный вход (RDP)** — пользователь взаимодействует с компьютером удаленно с помощью удаленного рабочего стола, служб терминалов, удаленного помощника или других клиентов RDP<br><br> - **Network** — сеанс, запущенный при доступе к компьютеру с помощью PsExec или при доступе к общим ресурсам на компьютере, например принтерам и общим папкам.<br><br> - **Пакетный** сеанс, инициированный запланированными задачами<br><br> - **Служба** — сеанс, инициированный службами при запуске |
-| `Application` | string | Приложение, которое выполнило записанное действие |
+| `ActionType` | string | Тип действия, которое вызвало событие. Подробные сведения см. в справке [по схеме портала](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) |
+| `LogonType` | string | Тип сеанса для работы с логотипом, в частности:<br><br> - **Интерактивный** — пользователь физически взаимодействует с компьютером с помощью локальной клавиатуры и экрана<br><br> - **Удаленные интерактивные учетные** записи для работы с пользователями ( RDP) — пользователь удаленно взаимодействует с компьютером с помощью удаленного рабочего стола, служб терминалов, удаленной помощи или других клиентов RDP.<br><br> - **Сеть** — сеанс, инициированный при доступе к компьютеру с помощью PsExec или при доступе к общим ресурсам на компьютере, таким как принтеры и общие папки<br><br> - **Batch —** сеанс, инициированный запланированными задачами<br><br> - **Служба** — сеанс, инициированный службами при их запуске |
+| `Application` | string | Приложение, которое выполнило записанную действие |
 | `Protocol` | string | Используемый сетевой протокол |
-| `FailureReason` | string | Сведения о том, почему не удалось выполнить записанное действие |
+| `FailureReason` | string | Сведения о причине сбой записанного действия |
 | `AccountName` | string | Имя пользователя учетной записи |
 | `AccountDomain` | string | Домен учетной записи |
-| `AccountUpn` | string | Имя участника-пользователя (UPN) учетной записи |
+| `AccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи |
 | `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
 | `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure AD |
-| `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемое в адресной книге. Как правило, это сочетание определенного или имени, посрединное инициирование, фамилия или фамилия. |
-| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
+| `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемой в адресной книге. Обычно сочетание заданного или имени, инициации по середине и фамилии или фамилии. |
+| `DeviceName` | string | Полное доменное имя устройства |
 | `DeviceType` | string | Тип устройства |
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
-| `IPAddress` | string | IP-адрес, назначенный конечной точке и используемый во время связанных сетевых коммуникаций |
-| `DestinationDeviceName` | string | Имя устройства, на котором работает серверное приложение, которое обработало записанное действие |
-| `DestinationIPAddress` | string | IP-адрес устройства, на котором запущено серверное приложение, которое обработало записанное действие |
-| `TargetDeviceName` | string | Полное доменное имя (FQDN) устройства, к которому было применено записанное действие |
-| `TargetAccountDisplayName` | string | Отображаемое имя учетной записи, к которой было применено записанное действие |
+| `IPAddress` | string | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях |
+| `DestinationDeviceName` | string | Имя устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
+| `DestinationIPAddress` | string | IP-адрес устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
+| `TargetDeviceName` | string | Полное доменное имя (FQDN) устройства, к которого было применено записанное действие |
+| `TargetAccountDisplayName` | string | Отображаемого имени учетной записи, к которую было применено записанное действие |
 | `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
-| `Isp` | string | Поставщик услуг Интернета (ISP), связанный с IP-адресом конечной точки. |
-| `ReportId` | long | Уникальный идентификатор для события |
-| `AdditionalFields` | string | Дополнительные сведения о сущности или событии |
+| `Isp` | string | Поставщик услуг Интернета, связанный с IP-адресом конечной точки |
+| `ReportId` | long | Уникальный идентификатор события |
+| `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

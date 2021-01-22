@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как создать общий календарь.
-ms.openlocfilehash: 8f060e9557b8213be4cce01022ec84bbf82ca304
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 8851f801eafc11348e35551c06309eb0115c2212
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702603"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927854"
 ---
 # <a name="create-a-shared-calendar"></a>Создание общего календаря
 

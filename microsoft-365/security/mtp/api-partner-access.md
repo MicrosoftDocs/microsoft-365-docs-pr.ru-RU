@@ -1,9 +1,9 @@
 ---
-title: Доступ партнеров через API Защитника Microsoft 365
+title: Доступ партнеров через API Microsoft 365 Defender
 description: Узнайте, как создать приложение для получения программного доступа к Microsoft 365 Defender от имени пользователей.
 keywords: партнер, доступ, API, мульти клиента, согласие, маркер доступа, приложение
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5de113c8f8419b3af2a287bd7ba7e41dc06b4121
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 07afb0baf5c115f2029abfe03795b081a4f253a8
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719444"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929402"
 ---
 # <a name="create-an-app-with-partner-access-to-microsoft-365-defender-apis"></a>Создание приложения с партнерским доступом к API Microsoft 365 Defender
 
@@ -53,7 +54,7 @@ ms.locfileid: "49719444"
 
 В этой статье объясняется, как:
 
-- Создание **многоканального приложения** Azure AD
+- Создание **многоязычного приложения** Azure AD
 - Получите авторизованный согласие администратора пользователя на доступ к Защитнику Microsoft 365, который ему необходим.
 - Получите маркер доступа к Защитнику Microsoft 365
 - Проверка маркера
@@ -81,7 +82,7 @@ ms.locfileid: "49719444"
 
    - Выберите имя приложения.
    - Из **поддерживаемых типов учетных** записей выберите "Учетные записи" в любом каталоге организации **(любой каталог Azure AD) — "Мультитенантный".**
-   - Заполните раздел **URI перенаправления.** Выберите тип **Web** и придать URI перенаправления как **https://portal.azure.com** .
+   - Заполните раздел **URI перенаправления.** Выберите тип **Web** и придай URI перенаправления как **https://portal.azure.com** .
 
    После заполнения формы выберите **"Регистрация".**
 
@@ -103,11 +104,11 @@ ms.locfileid: "49719444"
     >
     > Например, чтобы выполнить [расширенные запросы,](api-advanced-hunting.md)выберите разрешение "Выполнение расширенных запросов"; чтобы [изолировать устройство,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/isolate-machine)выберите разрешение "Изолировать компьютер".
 
-6. Выберите **"Предоставить согласие администратора".** При каждом добавлении разрешения необходимо выбрать "Предоставить согласие **администратора",** чтобы оно вступает в силу.
+6. Выберите **"Предоставить согласие администратора".** При каждом добавлении разрешения  необходимо выбрать разрешение администратора, чтобы оно вступает в силу.
 
     ![Изображение разрешения на предоставление](../../media/grant-consent.PNG)
 
-7. Чтобы добавить секрет в приложение, выберите "& **сертификаты",** добавьте описание в секрет, а затем выберите **"Добавить".**
+7. Чтобы добавить секрет в приложение, выберите сертификаты & **секреты,** добавьте описание в секрет, а затем выберите **"Добавить".**
 
     > [!TIP]
     > После выбора **"Добавить"** выберите **"Скопировать сгенерированную секретную копию".** После этого вы не сможете получить значение секрета.
@@ -146,7 +147,7 @@ ms.locfileid: "49719444"
 Дополнительные сведения о маркерах Azure AD см. в руководстве [по Azure AD.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 > [!IMPORTANT]
-> Несмотря на то что в примерах этого раздела рекомендуется в секрете  в целях тестирования, никогда не следует жестко зашифровывать секреты в приложении, запущенное в производственной окне. Третья сторона может использовать ваш секрет для доступа к ресурсам. Вы можете обеспечить безопасность секретов приложения с помощью [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Практический пример того, как можно защитить приложение, см. в под управлением секретов в серверных приложениях [с помощью Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+> Несмотря на то что в примерах в этом разделе рекомендуется в  секрете в целях тестирования вовать секретные значения, никогда не следует жестко кодировать секреты в приложение, запущенное в производственной области. Третья сторона может использовать ваш секрет для доступа к ресурсам. Вы можете обеспечить безопасность секретов приложения с помощью [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Практический пример того, как можно защитить приложение, см. в под управлением секретов в серверных приложениях [с помощью Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 
 > [!TIP]
 > В следующих примерах используйте ИД клиента пользователя, чтобы проверить, работает ли сценарий.
@@ -288,7 +289,7 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
 - [Обзор API Microsoft 365 Defender](api-overview.md)
 - [Доступ к API Microsoft 365 Defender](api-access.md)
 - [Создание приложения "Hello world"](api-hello-world.md)
-- [Создание приложения для доступа к Защитнику Microsoft 365 без пользователя](api-create-app-web.md)
+- [Создание приложения для доступа к Microsoft 365 Defender без пользователя](api-create-app-web.md)
 - [Создание приложения для доступа к API Microsoft 365 Defender от имени пользователя](api-create-app-user-context.md)
 - [Узнайте об ограничениях API и лицензировании](api-terms.md)
 - [Коды ошибок](api-error-codes.md)

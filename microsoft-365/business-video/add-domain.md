@@ -16,20 +16,21 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как добавить в подписку другой домен.
-ms.openlocfilehash: 16f6c4e416ede560d69014e320eb32c4453fd3f5
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: a5df440f3b7e28c2bdbc69f9383a8399ef193ed0
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702788"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927614"
 ---
-# <a name="add-another-domain"></a>Добавление другого домена
+# <a name="add-another-domain"></a>Добавление еще одного домена
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4dN8c?autoplay=false]
 

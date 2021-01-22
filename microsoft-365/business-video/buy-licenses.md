@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как приобрести новые лицензии Microsoft 365 для бизнеса.
-ms.openlocfilehash: a4bc66188b064227821ddc66cc764c83caad5f64
-ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
+ms.openlocfilehash: 7cec05256cb67c82caf367c10ac10546cb63b369
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784245"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927458"
 ---
 # <a name="buy-microsoft-365-licenses"></a>Покупка лицензий Microsoft 365
 
@@ -40,7 +41,7 @@ ms.locfileid: "49784245"
 1. В Центре администрирования Microsoft 365 выберите "Выставление **счета"** **и**"Ваши продукты", а затем выберите свою подписку.
 1. Choose **Buy licenses**.
 1. Введите количество лицензий, которые вы хотите приобрести.
-1. Нажмите **Сохранить**.
+1. Выберите **Сохранить**.
 1. Затем закроем окно.
 1. Новые лицензии добавляются в подписку.
 1. Чтобы назначить новые лицензии, выберите **"Назначить лицензии".**

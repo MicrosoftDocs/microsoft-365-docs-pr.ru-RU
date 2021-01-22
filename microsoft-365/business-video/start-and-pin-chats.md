@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как начинать и закрепление чатов в Microsoft Teams.
-ms.openlocfilehash: 9cc3c3b3cc287955a733a20047a0dd8973ef644a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 22a24a533f4d3627ac66ab8e0472071ff88eb516
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703126"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927818"
 ---
 # <a name="chat-with-employees-and-customers"></a>Общение в чате с сотрудниками и клиентами
 
@@ -38,7 +39,7 @@ ms.locfileid: "49703126"
 
 Начните чаты с 1:1 или групповые чаты для совместной работы с небольшой группой или для общения в приватном чате и закрепления чатов для быстрого доступа.
 
-1. В  **чатах** вы можете общаться с людьми по 1:1 или в групповом чате.
+1. В  **чатах** можно использовать чаты 1:1 или групповые чаты с людьми.
 2. Выберите **"Новый чат"** :::image type="icon" source="../media/new-chat-icon.png" border="false"::: .  
 3. Введите имя человека или людей, с которых вы хотите связаться.
 4. Выберите стрелку вниз, чтобы добавить имя в группу чата.

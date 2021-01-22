@@ -3,7 +3,7 @@ title: Hello World для REST API Защитника Microsoft 365
 description: Узнайте, как создать приложение и использовать маркер для доступа к API Microsoft 365 Defender
 keywords: приложение, маркер, доступ, aad, приложение, регистрация приложения, powershell, сценарий, глобальный администратор, разрешение, Защитник Microsoft 365
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b36a6acca5880a455a66b03b5355cdf1fb85b29b
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 66afa27d0fa7a092d3f9e9ed6c3b6abc6020cb8d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719314"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928382"
 ---
 # <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Hello World для REST API Защитника Microsoft 365
 
@@ -45,7 +46,7 @@ ms.locfileid: "49719314"
 
 1. Во sign in to [Azure](https://portal.azure.com) as a user with the **Global administrator** role.
 
-2. Перейдите к регистрации приложений **Azure Active Directory**  >  **— новая**  >  **регистрация.**
+2. Перейдите к регистрации нового приложения **Azure Active Directory.**  >    >  
 
    ![Изображение Microsoft Azure и переход к регистрации приложений](../../media/atp-azure-new-app2.png)
 
@@ -72,7 +73,7 @@ ms.locfileid: "49719314"
 
     ![Изображение создания ключа приложения](../../media/webapp-create-key2.png)
 
-7. Зафиксировать свой ИД приложения и ид клиента в надежном месте. Они перечислены в **списке "Обзор"** на странице приложения.
+7. Зафиксировать свой ИД приложения и ид клиента в надежном месте. Они перечислены в списке **"Обзор"** на странице приложения.
 
    ![Изображение созданного ид приложения](../../media/app-and-tenant-ids.png)
 
@@ -83,7 +84,7 @@ ms.locfileid: "49719314"
 > [!IMPORTANT]
 > Несмотря на то, что в примере в этом демонстрационных приложениях  рекомендуется в целях тестирования в paste in your secret value, никогда не следует жестко кодировать секреты в приложение, запущенное в производственной версии. Третья сторона может использовать ваш секрет для доступа к ресурсам. Вы можете обеспечить безопасность секретов приложения с помощью [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Практический пример того, как можно защитить приложение, см. в под управлением секретов в серверных приложениях [с помощью Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 
-1. Скопируйте сценарий ниже и в paste его в избранный текстовый редактор. Сохраните как **Get-Token.ps1**. Вы также можете запустить код как есть в PowerShell ISE, но его следует сохранить, так как нам потребуется запустить его снова, когда мы будем использовать сценарий получения инцидентов в следующем разделе.
+1. Скопируйте сценарий ниже и в paste его в избранный текстовый редактор. Сохраните как **Get-Token.ps1**. Вы также можете запустить код в is-is в PowerShell ISE, но вам следует сохранить его, так как нам потребуется запустить его снова, когда мы будем использовать сценарий получения инцидентов в следующем разделе.
 
     Этот сценарий создает маркер и сохраняет его в рабочей папке под именем *Latest-token.txt.*
 
@@ -175,6 +176,6 @@ Out-File -FilePath $outputJsonPath -InputObject $incidents
 - [Доступ к API Microsoft 365 Defender](api-access.md)
 - [Создание приложения для доступа к Microsoft 365 Defender без пользователя](api-create-app-web.md)
 - [Создание приложения для доступа к API Microsoft 365 Defender от имени пользователя](api-create-app-user-context.md)
-- [Создание приложения с мультиязычным доступом партнеров к API Защитника Microsoft 365](api-partner-access.md)
+- [Создание приложения с мультиязычным доступом партнеров к API Microsoft 365 Defender](api-partner-access.md)
 - [Управление секретами в серверных приложениях с помощью Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 - [Авторизация OAuth 2.0 для доступа пользователя к API и входу в нее](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

@@ -5,18 +5,19 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Администраторы могут научиться имитировать фишинговые атаки и обучить пользователей предотвращению фишинга с помощью обучения имитации атак в Microsoft Defender для Office 365.
-ms.openlocfilehash: 56ee8b7c11187ee6883bffc9b41961d2783e1ff4
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.technology: mdo
+ms.openlocfilehash: f22fe8633d8ffa8856f851369739a0f12364342b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877156"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929206"
 ---
 # <a name="simulate-a-phishing-attack"></a>Имитация фишинговой атаки
 

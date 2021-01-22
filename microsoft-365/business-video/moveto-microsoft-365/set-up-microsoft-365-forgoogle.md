@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как настроить Microsoft 365, чтобы она была готова к миграции из Google Workspace.
-ms.openlocfilehash: ec8813f62febbd1c4ee2afa6877e4be505a75a81
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Узнайте, как настроить Microsoft 365, чтобы он был готов к миграции из Google Workspace.
+ms.openlocfilehash: 42b8cd86ec03c4d4b43a4d32a1cee56e94bb7147
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794698"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928190"
 ---
 # <a name="set-up-microsoft-365-for-google-workspace-migration"></a>Настройка миграции Microsoft 365 для Google Workspace
 

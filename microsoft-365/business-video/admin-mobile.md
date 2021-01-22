@@ -1,5 +1,5 @@
 ---
-title: Получить мобильное приложение "Администратор"
+title: Получение мобильного приложения для администрирования
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,23 +16,24 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как установить мобильное приложение Microsoft 365 Admin на телефоне.
-ms.openlocfilehash: cb69dbe02e91ab4eb29b14ac5e71e91bed6cdb88
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 110e691858537a90a7bee03b4318a5f415b3e83f
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702773"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927542"
 ---
 # <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>Установка мобильного приложения Microsoft 365 Admin на телефоне
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWe8Kw?autoplay=false]
 
-Вы можете использовать мобильное приложение "Администратор Microsoft 365" для управления пользователями, отслеживания состояния службы и выполнения других задач администрирования с телефона.
+Вы можете использовать мобильное приложение Microsoft 365 Admin для управления пользователями, отслеживания состояния службы и выполнения других задач администрирования с телефона.
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
@@ -42,7 +43,7 @@ ms.locfileid: "49702773"
 
 ### <a name="reset-a-users-password"></a>сбросить пароль пользователя.
 
-1. В **области быстрых ссылок** выберите **"Пользователи".**
+1. В  **области быстрых ссылок** выберите  **"Пользователи"**.
 2. На странице **"Пользователи"** выберите имя пользователя, а затем выберите **"Сбросить пароль".**
 3. Если вы хотите, чтобы пользователь изменил свой новый пароль при  первом входе, выберите "Изменить при первом входе" и выберите "Сбросить". 
 4. При запросе подтверждения выберите **"Да"** и **"ОК".**

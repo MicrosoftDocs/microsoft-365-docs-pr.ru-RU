@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, какая подписка На Microsoft 365 у вас есть.
-ms.openlocfilehash: 34a7da132004cc73b66d9244f143dfc80a0e5f86
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 81ec93f5295fe9eb39538e74fc82b41b26641302
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703054"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927374"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>Выбор подписки на Microsoft 365
 
@@ -48,7 +49,7 @@ ms.locfileid: "49703054"
 | **Область обслуживания** | **Функция** | **Microsoft 365 бизнес стандарт** | **Microsoft 365 бизнес премиум** | **Office 365 корпоративный E3** |
 | --- | --- | --- | --- | --- |
 | **Доступные лицензии** | Максимальное количество пользователей | 300 | 300 | Без ограничений |
-| **Приложения Office** | Установка Office на пяти компьютерах с Mac и Mac + 5 смартфонов на пользователя (Word, Excel, PowerPoint, OneNote, Access), Office Online | Для бизнеса | Для бизнеса | Профессиональныйplus |
+| **Приложения Office** | Установка Office на 5 пк или macs + 5 смартфонов на пользователя (Word, Excel, PowerPoint, OneNote, Access), Office Online | Для бизнеса | Для бизнеса | Профессиональныйplus |
 | **Календарь &amp; электронной почты** | Outlook, Exchange Online | 50 ГБ | 50 ГБ | 100 ГБ |
 | **Концентратор для командной работы** | Рабочее пространство на основе чата, собрания по сети и другие чаты в Microsoft Teams | Да | Да | Да |
 | **Хранилище файлов** | OneDrive для бизнеса | 1 ТБ на пользователя | 1 ТБ на пользователя | Без ограничений |

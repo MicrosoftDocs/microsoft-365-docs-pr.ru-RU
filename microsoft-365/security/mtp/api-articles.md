@@ -1,9 +1,9 @@
 ---
 title: Другие API безопасности и защиты от угроз
-description: Просмотр списка API, связанных с продуктами Майкрософт для обеспечения безопасности и защиты от угроз.
+description: Просмотреть список API, связанных с продуктами Майкрософт для обеспечения безопасности и защиты от угроз.
 keywords: API, безопасность, защита от угроз, mde, Microsoft Defender для конечной точки, atp в Microsoft Defender, office 365 Advanced Threat Protection, advanced threat protection в Microsoft Defender, безопасность облачных приложений
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e0b1301341538110d563f446c4a2d603f41078c4
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 3d9eb6b255aefa55da811e779503242c240baf58
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719372"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929770"
 ---
 # <a name="other-security-and-threat-protection-apis"></a>Другие API безопасности и защиты от угроз
 

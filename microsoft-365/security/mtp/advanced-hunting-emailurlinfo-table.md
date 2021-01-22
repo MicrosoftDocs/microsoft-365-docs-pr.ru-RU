@@ -1,10 +1,10 @@
 ---
 title: Таблица EmailUrlInfo в схеме расширенного поиска
 description: Информация об URL или ссылках приведена в таблице EmailUrlInfo схемы расширенного поиска.
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, описание, Емаилурлинфо, идентификатор сетевого сообщения, URL-адрес, ссылка
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailUrlInfo, network message id, url, link
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6684f2d56cb30c909cae57e7b3e6593377449f6b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 56d35e2812d895215cbe76deb6791695380abc50
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842564"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929722"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -32,9 +33,9 @@ ms.locfileid: "48842564"
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
-В `EmailUrlInfo` таблице в [расширенной](advanced-hunting-overview.md) схеме Поиск содержатся сведения об URL-адресах в сообщениях электронной почты и вложениях, обработанных защитником майкрософт для Office 365. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в схеме advanced hunting содержит сведения о URL-адресах сообщений электронной почты и вложений, обрабатываемых `EmailUrlInfo` Microsoft Defender для Office 365. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -42,7 +43,7 @@ ms.locfileid: "48842564"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
 | `UrlId` | string | Уникальный идентификатор URL в теме, основном тексте или вложении сообщения электронной почты |
-| `NetworkMessageId` | string | Уникальный идентификатор электронного сообщения, созданного Microsoft 365 |
+| `NetworkMessageId` | string | Уникальный идентификатор электронной почты, созданный Microsoft 365 |
 | `Url` | string | Уникальный идентификатор URL в теме, основном тексте или вложении |
 
 ## <a name="related-topics"></a>См. также

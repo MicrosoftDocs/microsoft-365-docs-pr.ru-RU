@@ -1,10 +1,10 @@
 ---
-title: Обучение по расширенному поиску в экспертной системе
-description: Бесплатные учебные курсы от расширенных экспертов по поиску
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, язык, обучение, сценарии, базовый для расширенных, видео, пошаговые инструкции
+title: Получите экспертное обучение по расширенным охотам
+description: Бесплатное обучение и рекомендации специалистов по расширенным охотам
+keywords: расширенный поиск, охота на угрозы, поиск киберугроз, защита от угроз (Майкрософт), Microsoft 365, mtp, m365, поиск, запрос, язык, обучение, сценарии, базовые для расширенных, видео, пошаг
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,35 +19,36 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: c2772d0fc77e563bc80b0f29815349d1bfb3e2ea
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d7c2ccb12cb096359e558af9e1b4a962a9130be5
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842516"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929638"
 ---
-# <a name="get-expert-training-on-advanced-hunting"></a>Обучение по расширенному поиску в экспертной системе
+# <a name="get-expert-training-on-advanced-hunting"></a>Получите экспертное обучение по расширенным охотам
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- Защитник Microsoft 365
+- Microsoft 365 Defender
 
-Быстро Повысьте свои знания о расширенном _поиске с_ учетом противодействия, серии веб-трансляций для новых аналитиков безопасности и хунтерсных угроз. С помощью этой серии вы узнаете, как создавать собственные сложные запросы. Начните с первого видео на основных понятиях или переходите к дополнительным видеороликам, которые соответствуют вашему уровню работы.
+Быстро повысьте знания о расширенных охотах с помощью _"Отслеживание_ злоумышленника", серии веб-трансляций для новых аналитиков безопасности и опытных угроз. В ряду статей вы сможете с основами создать собственные сложные запросы. Начните с первого видео об основах или переначните с более сложных видео, которые подходят для вашего уровня работы.
 
 
 | Название | Описание | Часы | Запросы | 
 |--|--|--|--|
-| Эпизод 1: базовые понятия KQL | В этой серии представлены основные сведения о расширенном поиске в защитнике Microsoft 365. Сведения о доступных дополнительных данных по поиску и базовому синтаксису KQL и операторам. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [Файл CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
-| Эпизод 2: объединения | Продолжайте изучать данные в расширенном поиске, а также как объединять таблицы. Узнайте о `inner` `outer` `unique` `semi` нюансах соединения Кусто по умолчанию, а также присоединитесь к ним и Узнайте о них `innerunique` . | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [Файл CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
-| Эпизод 3: сводка, сведение и визуализация данных | Теперь, когда вы узнали, как фильтровать, управлять и присоединять данные, можно подвести итог, количественное представление, сведение и визуализация. В этом эпизоде обсуждается `summarize` оператор и различные вычисления, в результате чего в схему добавляются дополнительные таблицы. Вы также узнаете, как превратить наборы данных в диаграммы, которые помогут вам извлекать информацию. | [YouTube](https://youtu.be/UKnk9U1NH6Y?t=296) (48:52) | [Файл CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
-| Эпизод 4: Давайте добавим! Применение KQL к отслеживанию инцидентов | В этом эпизоде вы узнаете, как отслеживать действия злоумышленников. Мы используем наше усовершенствованное понимание Кусто и расширенного поиска для отслеживания атак. Узнайте о фактических приемах, используемых в этом поле, в том числе о Абксе циберсекурити и о том, как применить их к реагированию на инциденты. | [YouTube](https://youtu.be/2EUxOc_LNd8?t=291) (59:36) | [Файл CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)
+| Серия 1. Основы KQL | В этом выпуске освещаются основы расширенных охот в Microsoft 365 Defender. Сведения о доступных расширенных данных охоты и базовом синтаксис и операторах KQL. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [CSL-файл](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
+| Серия 2. Joins | Продолжайте изучение данных в расширенных охотах и о том, как объединить таблицы. Узнайте о , , и присоединяется, и понять нюансы `inner` `outer` `unique` `semi` присоединить Kusto по `innerunique` умолчанию. | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [CSL-файл](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
+| Видео 3. Суммирование, списание и визуализация данных | Теперь, когда вы научились фильтровать, управлять данными и присоединять их, пришло время суммировать, оценить, свести итоги и визуализировать их. В этом выпуске обсуждается оператор и различные вычисления, в то же время в схеме вводятся `summarize` дополнительные таблицы. Вы также узнаете, как превратить наборы данных в диаграммы, которые помогут вам извлечь данные. | [YouTube](https://youtu.be/UKnk9U1NH6Y?t=296) (48:52) | [CSL-файл](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
+| Серия 4. Давайте поохотимся! Применение KQL к отслеживанию инцидентов | В этом выпуске вы узнаете, как отслеживать действия злоумышленников. Мы используем улучшенное понимание Kusto и расширенный поиск для отслеживания атаки. Узнайте о фактических приемах, используемых в этой области, в том числе о правилах кибербезопасности и о том, как применять их к реагированию на инциденты. | [YouTube](https://youtu.be/2EUxOc_LNd8?t=291) (59:36) | [CSL-файл](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)
 
-## <a name="how-to-use-the-csl-file"></a>Использование файла CSL
-Перед запуском эпизода получите доступ к соответствующему [файлу Кусто CSL на сайте GitHub](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/tree/master/Webcasts/TrackingTheAdversary) и скопируйте его содержимое в редактор запросов расширенного поиска. При просмотре эпизода вы можете использовать скопированное содержимое, чтобы следить за динамиком и выполнять запросы. 
+## <a name="how-to-use-the-csl-file"></a>Использование CSL-файла
+Прежде чем начинать видео, перезапуските соответствующий [CSL-файл Kusto на GitHub](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/tree/master/Webcasts/TrackingTheAdversary) и скопируйте его содержимое в редактор запросов на расширенный поиск. При просмотре видео можно использовать скопированные материалы для просмотра динамика и запуска запросов. 
 
-Приведенный ниже фрагмент файла CSL содержит полный набор руководств, помеченных как комментарии `//` .
+В следующем фрагменте CSL-файла показан полный набор рекомендаций, помеченных как `//` комментарии.
 
 ```kusto
 // DeviceLogonEvents
@@ -60,7 +61,7 @@ ms.locfileid: "48842516"
 // - Timestamp
 ```
 
-Один и тот же файл CSL включает запросы до и после комментариев, как показано ниже. Чтобы запустить определенный запрос с [несколькими запросами в редакторе](advanced-hunting-query-language.md#work-with-multiple-queries-in-the-editor), переместите курсор в этот запрос и выберите команду **выполнить запрос**.   
+Тот же CSL-файл содержит запросы до и после комментариев, как показано ниже. Чтобы выполнить определенный запрос с несколькими [запросами](advanced-hunting-query-language.md#work-with-multiple-queries-in-the-editor)в редакторе, переместийте курсор в этот запрос и выберите запрос **"Выполнить".**   
 
 ```kusto
 DeviceLogonEvents

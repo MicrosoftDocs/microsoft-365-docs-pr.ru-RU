@@ -3,7 +3,7 @@ title: API обновления инцидентов
 description: Узнайте, как обновлять инциденты с помощью API Защитника Microsoft 365
 keywords: обновление, API, инцидент
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 6fc1ff730994f03aa500ad9a4559b66970e32d87
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 18be4565c2611457d0f5fdc135f99a301bb39e2a
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719408"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929074"
 ---
 # <a name="update-incidents-api"></a>API обновления инцидентов
 
@@ -50,7 +51,7 @@ ms.locfileid: "49719408"
 
 ## <a name="permissions"></a>Разрешения
 
-Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, включая выбор разрешений, [см. API Access в Microsoft 365 Defender.](api-access.md)
+Для вызова этого API требуется одно из следующих разрешений. Дополнительные возможности, включая выбор разрешений, см. в [API Access в Microsoft 365 Defender.](api-access.md)
 
 Тип разрешения | Разрешение | Отображаемая имя разрешения
 -|-|-
@@ -70,16 +71,16 @@ PATCH /api/incidents/{id}
 
 Имя | Тип | Описание
 -|-|-
-Авторизация | String | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 Content-Type | String | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
 
-В теле запроса укавите значения для полей, которые необходимо обновить. Существующие свойства, не включенные в тело запроса, сохраняют свои значения, если их не придется пересчитывать из-за изменений связанных значений. Для лучшей производительности следует опустить существующие значения, которые не изменились.
+В теле запроса укавите значения для полей, которые необходимо обновить. Существующие свойства, не включенные в тело запроса, сохраняют свои значения, если их не нужно пересчитывать из-за изменений связанных значений. Для лучшей производительности следует опустить существующие значения, которые не изменились.
 
 Свойство | Тип | Описание
 -|-|-
-status | Перечисление | Указывает текущее состояние оповещения. Возможные значения: ```Active``` , ```Resolved``` и ```Redirected``` .
+status | Перечисление | Указывает текущее состояние оповещения. Возможные значения: ```Active``` , , и ```Resolved``` ```Redirected``` .
 assignedTo | string | Владелец инцидента.
 classification | Перечисление | Спецификация оповещения. Возможные значения: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 определение | Перечисление | Определяет определение оповещения. Возможные значения: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.

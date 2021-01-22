@@ -8,7 +8,6 @@ manager: dansimp
 audience: Admin
 ms.topic: conceptual
 ms.date: ''
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -19,12 +18,14 @@ ms.collection:
 - m365solution-overview
 - m365solution-protecthve
 description: Администраторы могут узнать, как повысить уровень параметров безопасности и использовать отчеты, оповещения и расследования для учетных записей приоритетов в организациях Microsoft 365.
-ms.openlocfilehash: 8a1d92ef12070a722a1b618bf51ab6d8130f49c0
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 10890a5fe797439de0bfc28bf28a216318016908
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881803"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929310"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Рекомендации по безопасности для учетных записей с приоритетом в Microsoft 365
 
