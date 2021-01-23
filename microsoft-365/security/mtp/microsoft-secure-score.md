@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: a0f4307cc0ed42a8ed53cdeefdb0a7b32eb36d35
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 39abcbde82c2902b091b42db3dbc8e1ee2cbd924
+ms.sourcegitcommit: 8b3ff6e9f8931327b6f0541fd882107687cd123e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930586"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49942794"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
 
@@ -82,6 +82,7 @@ ms.locfileid: "49930586"
 - Microsoft Defender для конечной точки
 - Microsoft Defender для удостоверений
 - Cloud App Security
+- Microsoft Teams
 
 Рекомендации по другим продуктам безопасности будут готовы в ближайшее время. Рекомендации охватывают не все поверхности атаки, связанные с каждым продуктом, но они хорошо за основу. Вы также можете пометить действия по улучшению, охватываемых сторонними или альтернативными мерами.
 

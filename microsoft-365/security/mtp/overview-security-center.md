@@ -18,12 +18,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 831b205d0839f6347ac887db0d3c3f0b1d9a4f3d
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: b47ec915bc9f5f51df8ed425e7bfd76966bb989e
+ms.sourcegitcommit: 8b3ff6e9f8931327b6f0541fd882107687cd123e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932830"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49942782"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Общие сведения о Центре безопасности Microsoft 365
 
@@ -44,12 +44,20 @@ ms.locfileid: "49932830"
 > [!NOTE]
 > Для доступа к Центру безопасности Microsoft 365 вам должна быть назначена соответствующая роль, например глобальный администратор, администратор безопасности, оператор безопасности или читатель безопасности в Azure Active Directory.
 
-
-## <a name="lets-take-a-closer-look"></a>Рассмотрим подробнее
+## <a name="at-a-glance-view-of-your-microsoft-365-environment"></a>Обзор среды Microsoft 365
 
 На **домашней** странице показаны многие распространенные карточки, необходимые группам безопасности. Композиция карточек и данных зависит от роли пользователя. Так как Центр безопасности Microsoft 365 использует управление доступом на основе ролей, различные роли будут видеть карточки, которые более значимы для их ежедневного задания.  
 
 Эти обзорные сведения помогают вам следить за последними действиями в организации. Центр безопасности Microsoft 365 объединяет сигналы из разных источников, чтобы представить целостное представление среды Microsoft 365.
+
+Свободно карточки подпадают под эти категории:
+
+- **Удостоверения**— отслеживайте удостоверения в организации и отслеживайте подозрительные или рискованные действия. [Дополнительные данные о защите удостоверений](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
+- **Data** - help track user activity that could lead to unauthorized data disclosure.
+- **Устройства** . Получите сведения об оповещениях, нарушениях безопасности и других угрозах на ваших устройствах.
+- **Приложения** . Получите представление о том, как облачные приложения используются в вашей организации. [Узнайте больше об обнаруженных приложениях Cloud App Security](https://docs.microsoft.com/cloud-app-security/discovered-apps)
+
+## <a name="explore-what-the-security-center-has-to-offer"></a>Узнайте, что может предложить Центр безопасности
 
 Разделы Центра безопасности Microsoft 365 перечислены ниже.
 

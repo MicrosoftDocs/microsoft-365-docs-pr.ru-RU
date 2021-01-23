@@ -1,84 +1,85 @@
 ---
-title: Использование защитника Microsoft для Office 365 вместе с защитником Майкрософт для конечной точки
+title: Использование Microsoft Defender для Office 365 вместе с Microsoft Defender для конечной точки
 f1.keywords:
 - NOCSH
-keywords: интеграция, защитник Майкрософт, ATP
+keywords: интеграция, Microsoft Defender, ATP
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/29/2020
+ms.date: 01/21/2021
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Используйте защитник Майкрософт для Office 365 вместе с защитником Майкрософт для конечной точки, чтобы получить более подробные сведения о угрозах для ваших устройств и содержимого электронной почты.
+description: Используйте Microsoft Defender для Office 365 вместе с Microsoft Defender for Endpoint, чтобы получить более подробные сведения об угрозах для устройств и содержимого электронной почты.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cc78e7d674facb371ea98125b6857502031d26e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 24b81bb4c445c44d7c0228fa1c4440faff642816
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616516"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939336"
 ---
-# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Использование защитника Microsoft для Office 365 вместе с защитником Майкрософт для конечной точки
+# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Использование Microsoft Defender для Office 365 вместе с Microsoft Defender для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[Защитник Майкрософт для Office 365](office-365-atp.md) можно настроить для работы с [защитником Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection).
+[Microsoft Defender для Office 365](office-365-atp.md) можно настроить для работы с [Microsoft Defender для конечной точки.](https://docs.microsoft.com/windows/security/threat-protection)
 
-Интеграция защитника Microsoft для Office 365 с помощью защитника Майкрософт для конечной точки может помочь вашей группе управления операциями безопасности и быстро выполнить действия в случае риска на устройствах пользователей. Например, если интеграция включена, Группа операций безопасности сможет видеть устройства, на которые потенциально влияет обнаруженное сообщение электронной почты, а также количество последних оповещений, созданных для этих устройств в Microsoft Defender для конечной точки.
+Интеграция Microsoft Defender для Office 365 с Microsoft Defender для конечной точки может помочь группе безопасности отслеживать и быстро действовать, если устройства пользователей находятся под угрозой. Например, после включения интеграции группа операций безопасности сможет увидеть устройства, на которые может повлиять обнаруженное сообщение электронной почты, а также количество последних оповещений для этих устройств в Microsoft Defender для конечной точки.
 
-На следующем рисунке показано, как выглядит эта вкладка " **устройства** " с включенным защитником Майкрософт для интеграции конечных точек:
+На следующем рисунке по изображена вкладка **"Устройства",** на которой включена интеграция с Microsoft Defender для конечных точек:
 
-![Если защитник Майкрософт для конечной точки включен, вы можете просмотреть список устройств с оповещениями.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
+![Когда Microsoft Defender для конечной точки включен, вы можете увидеть список устройств с оповещениями.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
 
-В этом примере видно, что получатели обнаруженного сообщения электронной почты имеют четыре устройства, а одно — оповещение. Щелчок ссылки на устройство открывает его страницу в центре безопасности защитника (Майкрософт) ( <https://securitycenter.windows.com> ).
+В этом примере видно, что у получателей обнаруженного сообщения электронной почты четыре устройства, а на одном из них есть оповещение. Щелкнув ссылку для устройства, вы откроете свою страницу в Центре безопасности Microsoft Defender ( <https://securitycenter.windows.com> ).
 
 > [!TIP]
-> **[Узнайте больше о центре безопасности защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (также называемом защитником Майкрософт для портала конечных точек).
+> **[Узнайте больше о Центре](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** безопасности Microsoft Defender (также называется порталом Microsoft Defender для конечных точек).)
 
 ## <a name="requirements"></a>Требования
 
-- У вашей организации должен быть защитник Майкрософт для Office 365 (или Office 365 в ~) и защитник Майкрософт для конечной точки.
+- Ваша организация должна иметь Microsoft Defender для Office 365 (или Office 365 E5) и Microsoft Defender для конечной точки.
 
-- Вы должны быть глобальным администратором или иметь роль администратора безопасности (например, администратора безопасности), назначенную в [центре безопасности & соответствия требованиям](https://protection.office.com). (См. [разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md))
+- Вы должны быть глобальным администратором или иметь роль администратора безопасности (например, администратора безопасности), назначенную в Центре безопасности [& соответствия требованиям.](https://protection.office.com) [(См. "Разрешения" в Центре безопасности & соответствия требованиям)](permissions-in-the-security-and-compliance-center.md)
 
-- Необходимо иметь доступ к [проводнику (или обнаружениям в режиме реального времени)](threat-explorer.md) в центре безопасности & соответствия требованиям и центре безопасности защитника Майкрософт.
+- У вас должен быть доступ к [проводнику (или](threat-explorer.md) обнаружению в режиме реального времени) в Центре безопасности & соответствия требованиям и Центре безопасности Microsoft Defender.
 
-## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a>Интеграция защитника Microsoft для Office 365 с защитником Майкрософт для конечной точки
+## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a>Интеграция Microsoft Defender для Office 365 с Microsoft Defender для конечной точки
 
-Интеграция защитника Microsoft для Office 365 с защитником Майкрософт для конечной точки настраивается с помощью центра безопасности & соответствия требованиям и центра безопасности защитника Майкрософт.
+Интеграция Microsoft Defender для Office 365 с Microsoft Defender для конечной точки настроена с помощью Центра безопасности & соответствия требованиям и Центра безопасности Microsoft Defender.
 
-1. Как глобальный администратор или администратор безопасности перейдите на страницу <https://protection.office.com> и войдите в нее. (Откроется центр соответствия требованиям & безопасности Office 365.)
+1. В качестве глобального администратора или администратора безопасности войдите <https://protection.office.com> и войдите в нее. (Вы можете ться в Центре безопасности и соответствия & Office 365.)
 
-2. В области навигации выберите Обозреватель **управления угрозами** \> .
+2. В области навигации выберите **обозреватель управления** \> **угрозами.**
 
    ![Проводник в меню "Управление угрозами"](../../media/ThreatMgmt-Explorer-nav.png)
 
-3. В правом верхнем углу экрана выберите пункт **защитник для параметров конечной точки**.
+3. В правом верхнем углу экрана выберите "Защитник для параметров конечных точек **(параметры MDE)**".
 
-4. В диалоговом окне защитник (Майкрософт) для подключения к конечной точке включите параметр **подключиться к защитнику Майкрософт для конечной точки**.
+4. В диалоговом окне подключения Microsoft Defender для конечной точки включите подключение к **Microsoft Defender для конечной точки.**
 
-   ![Защитник Майкрософт для подключения к конечной точке](../../media/Explorer-WDATPConnection-dialog.png)
+   ![Microsoft Defender для подключения к конечной точке](../../media/Explorer-WDATPConnection-dialog.png)
 
-5. Перейдите в центр безопасности защитника (Майкрософт <https://securitycenter.windows.com> ) ().
+5. Перейдите в Центр безопасности Microsoft Defender ( <https://securitycenter.windows.com> ).
 
-6. В панели навигации выберите **Параметры**. Затем в разделе **Общие** выберите **Дополнительные функции**.
+6. На панели навигации выберите **"Параметры".** Затем в области **"Общие"** выберите **дополнительные функции.**
 
-7. Прокрутите список вниз до раздела **Office 365 Threat Intelligence Connection** и включите подключение.
+7. Прокрутите вниз до **подключения Office 365 Threat Intelligence** и включите подключение.
 
-   ![Подключение к бизнес-аналитике Office 365](../../media/mdatp-oatptoggle.png)
+   ![Подключение аналитики угроз Office 365](../../media/mdatp-oatptoggle.png)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
-[Исследование угроз и возможности реагирования в Office 365](office-365-ti.md)
+[Возможности исследования угроз и реагирования на них в Office 365](office-365-ti.md)
 
-[Защитник Майкрософт для Office 365](office-365-atp.md)
+[Microsoft Defender для Office 365](office-365-atp.md)
 
 [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection)
