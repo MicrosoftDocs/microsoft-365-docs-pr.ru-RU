@@ -1,84 +1,85 @@
 ---
-title: Использование защитника Microsoft для Office 365 вместе с защитником Майкрософт для конечной точки
+title: Использование Microsoft Defender для Office 365 вместе с Microsoft Defender для конечной точки
 f1.keywords:
 - NOCSH
-keywords: интеграция, защитник Майкрософт, ATP
+keywords: интеграция, Microsoft Defender, ATP
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/29/2020
+ms.date: 01/21/2021
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Используйте защитник Майкрософт для Office 365 вместе с защитником Майкрософт для конечной точки, чтобы получить более подробные сведения о угрозах для ваших устройств и содержимого электронной почты.
+description: Используйте Microsoft Defender для Office 365 вместе с Microsoft Defender for Endpoint, чтобы получить более подробные сведения об угрозах для устройств и содержимого электронной почты.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cc78e7d674facb371ea98125b6857502031d26e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 24b81bb4c445c44d7c0228fa1c4440faff642816
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616516"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939336"
 ---
-# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a><span data-ttu-id="6ecf7-104">Использование защитника Microsoft для Office 365 вместе с защитником Майкрософт для конечной точки</span><span class="sxs-lookup"><span data-stu-id="6ecf7-104">Use Microsoft Defender for Office 365 together with Microsoft Defender for Endpoint</span></span>
+# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a><span data-ttu-id="38d71-104">Использование Microsoft Defender для Office 365 вместе с Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="38d71-104">Use Microsoft Defender for Office 365 together with Microsoft Defender for Endpoint</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-<span data-ttu-id="6ecf7-105">[Защитник Майкрософт для Office 365](office-365-atp.md) можно настроить для работы с [защитником Майкрософт для конечной точки](https://docs.microsoft.com/windows/security/threat-protection).</span><span class="sxs-lookup"><span data-stu-id="6ecf7-105">[Microsoft Defender for Office 365](office-365-atp.md) can be configured to work with [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection).</span></span>
+<span data-ttu-id="38d71-105">[Microsoft Defender для Office 365](office-365-atp.md) можно настроить для работы с [Microsoft Defender для конечной точки.](https://docs.microsoft.com/windows/security/threat-protection)</span><span class="sxs-lookup"><span data-stu-id="38d71-105">[Microsoft Defender for Office 365](office-365-atp.md) can be configured to work with [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection).</span></span>
 
-<span data-ttu-id="6ecf7-106">Интеграция защитника Microsoft для Office 365 с помощью защитника Майкрософт для конечной точки может помочь вашей группе управления операциями безопасности и быстро выполнить действия в случае риска на устройствах пользователей.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-106">Integrating Microsoft Defender for Office 365 with Microsoft Defender for Endpoint can help your security operations team monitor and take action quickly if users' devices are at risk.</span></span> <span data-ttu-id="6ecf7-107">Например, если интеграция включена, Группа операций безопасности сможет видеть устройства, на которые потенциально влияет обнаруженное сообщение электронной почты, а также количество последних оповещений, созданных для этих устройств в Microsoft Defender для конечной точки.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-107">For example, once integration is enabled, your security operations team will be able to see the devices that are potentially affected by a detected email message, as well as how many recent alerts were generated for those devices in Microsoft Defender for Endpoint.</span></span>
+<span data-ttu-id="38d71-106">Интеграция Microsoft Defender для Office 365 с Microsoft Defender для конечной точки может помочь группе безопасности отслеживать и быстро действовать, если устройства пользователей находятся под угрозой.</span><span class="sxs-lookup"><span data-stu-id="38d71-106">Integrating Microsoft Defender for Office 365 with Microsoft Defender for Endpoint can help your security operations team monitor and take action quickly if users' devices are at risk.</span></span> <span data-ttu-id="38d71-107">Например, после включения интеграции группа операций безопасности сможет увидеть устройства, на которые может повлиять обнаруженное сообщение электронной почты, а также количество последних оповещений для этих устройств в Microsoft Defender для конечной точки.</span><span class="sxs-lookup"><span data-stu-id="38d71-107">For example, once integration is enabled, your security operations team will be able to see the devices that are potentially affected by a detected email message, as well as how many recent alerts were generated for those devices in Microsoft Defender for Endpoint.</span></span>
 
-<span data-ttu-id="6ecf7-108">На следующем рисунке показано, как выглядит эта вкладка " **устройства** " с включенным защитником Майкрософт для интеграции конечных точек:</span><span class="sxs-lookup"><span data-stu-id="6ecf7-108">The following image depicts what the **Devices** tab looks like have Microsoft Defender for Endpoint integration enabled:</span></span>
+<span data-ttu-id="38d71-108">На следующем рисунке по изображена вкладка **"Устройства",** на которой включена интеграция с Microsoft Defender для конечных точек:</span><span class="sxs-lookup"><span data-stu-id="38d71-108">The following image depicts what the **Devices** tab looks like have Microsoft Defender for Endpoint integration enabled:</span></span>
 
-![Если защитник Майкрософт для конечной точки включен, вы можете просмотреть список устройств с оповещениями.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
+![Когда Microsoft Defender для конечной точки включен, вы можете увидеть список устройств с оповещениями.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
 
-<span data-ttu-id="6ecf7-110">В этом примере видно, что получатели обнаруженного сообщения электронной почты имеют четыре устройства, а одно — оповещение.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-110">In this example, you can see that the recipients of the detected email message have four devices and one has an alert.</span></span> <span data-ttu-id="6ecf7-111">Щелчок ссылки на устройство открывает его страницу в центре безопасности защитника (Майкрософт) ( <https://securitycenter.windows.com> ).</span><span class="sxs-lookup"><span data-stu-id="6ecf7-111">Clicking the link for a device opens its page in the Microsoft Defender Security Center (<https://securitycenter.windows.com>).</span></span>
+<span data-ttu-id="38d71-110">В этом примере видно, что у получателей обнаруженного сообщения электронной почты четыре устройства, а на одном из них есть оповещение.</span><span class="sxs-lookup"><span data-stu-id="38d71-110">In this example, you can see that the recipients of the detected email message have four devices and one has an alert.</span></span> <span data-ttu-id="38d71-111">Щелкнув ссылку для устройства, вы откроете свою страницу в Центре безопасности Microsoft Defender ( <https://securitycenter.windows.com> ).</span><span class="sxs-lookup"><span data-stu-id="38d71-111">Clicking the link for a device opens its page in the Microsoft Defender Security Center (<https://securitycenter.windows.com>).</span></span>
 
 > [!TIP]
-> <span data-ttu-id="6ecf7-112">**[Узнайте больше о центре безопасности защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (также называемом защитником Майкрософт для портала конечных точек).</span><span class="sxs-lookup"><span data-stu-id="6ecf7-112">**[Learn more about the Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (also referred to as the Microsoft Defender for Endpoint portal.)</span></span>
+> <span data-ttu-id="38d71-112">**[Узнайте больше о Центре](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** безопасности Microsoft Defender (также называется порталом Microsoft Defender для конечных точек).)</span><span class="sxs-lookup"><span data-stu-id="38d71-112">**[Learn more about the Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (also referred to as the Microsoft Defender for Endpoint portal.)</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="6ecf7-113">Требования</span><span class="sxs-lookup"><span data-stu-id="6ecf7-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="38d71-113">Требования</span><span class="sxs-lookup"><span data-stu-id="38d71-113">Requirements</span></span>
 
-- <span data-ttu-id="6ecf7-114">У вашей организации должен быть защитник Майкрософт для Office 365 (или Office 365 в ~) и защитник Майкрософт для конечной точки.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-114">Your organization must have Microsoft Defender for Office 365 (or Office 365 E5) and Microsoft Defender for Endpoint.</span></span>
+- <span data-ttu-id="38d71-114">Ваша организация должна иметь Microsoft Defender для Office 365 (или Office 365 E5) и Microsoft Defender для конечной точки.</span><span class="sxs-lookup"><span data-stu-id="38d71-114">Your organization must have Microsoft Defender for Office 365 (or Office 365 E5) and Microsoft Defender for Endpoint.</span></span>
 
-- <span data-ttu-id="6ecf7-115">Вы должны быть глобальным администратором или иметь роль администратора безопасности (например, администратора безопасности), назначенную в [центре безопасности & соответствия требованиям](https://protection.office.com).</span><span class="sxs-lookup"><span data-stu-id="6ecf7-115">You must be a global administrator or have a security administrator role (such as Security Administrator) assigned in the [Security & Compliance Center](https://protection.office.com).</span></span> <span data-ttu-id="6ecf7-116">(См. [разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md))</span><span class="sxs-lookup"><span data-stu-id="6ecf7-116">(See [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md))</span></span>
+- <span data-ttu-id="38d71-115">Вы должны быть глобальным администратором или иметь роль администратора безопасности (например, администратора безопасности), назначенную в Центре безопасности [& соответствия требованиям.](https://protection.office.com)</span><span class="sxs-lookup"><span data-stu-id="38d71-115">You must be a global administrator or have a security administrator role (such as Security Administrator) assigned in the [Security & Compliance Center](https://protection.office.com).</span></span> <span data-ttu-id="38d71-116">[(См. "Разрешения" в Центре безопасности & соответствия требованиям)](permissions-in-the-security-and-compliance-center.md)</span><span class="sxs-lookup"><span data-stu-id="38d71-116">(See [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md))</span></span>
 
-- <span data-ttu-id="6ecf7-117">Необходимо иметь доступ к [проводнику (или обнаружениям в режиме реального времени)](threat-explorer.md) в центре безопасности & соответствия требованиям и центре безопасности защитника Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-117">You must have access to both [Explorer (or real-time detections)](threat-explorer.md) in the Security & Compliance Center and the Microsoft Defender Security Center.</span></span>
+- <span data-ttu-id="38d71-117">У вас должен быть доступ к [проводнику (или](threat-explorer.md) обнаружению в режиме реального времени) в Центре безопасности & соответствия требованиям и Центре безопасности Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="38d71-117">You must have access to both [Explorer (or real-time detections)](threat-explorer.md) in the Security & Compliance Center and the Microsoft Defender Security Center.</span></span>
 
-## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a><span data-ttu-id="6ecf7-118">Интеграция защитника Microsoft для Office 365 с защитником Майкрософт для конечной точки</span><span class="sxs-lookup"><span data-stu-id="6ecf7-118">To integrate Microsoft Defender for Office 365 with Microsoft Defender for Endpoint</span></span>
+## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a><span data-ttu-id="38d71-118">Интеграция Microsoft Defender для Office 365 с Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="38d71-118">To integrate Microsoft Defender for Office 365 with Microsoft Defender for Endpoint</span></span>
 
-<span data-ttu-id="6ecf7-119">Интеграция защитника Microsoft для Office 365 с защитником Майкрософт для конечной точки настраивается с помощью центра безопасности & соответствия требованиям и центра безопасности защитника Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-119">Integrating Microsoft Defender for Office 365 with Microsoft Defender for Endpoint is set up by using both the Security & Compliance Center AND the Microsoft Defender Security Center.</span></span>
+<span data-ttu-id="38d71-119">Интеграция Microsoft Defender для Office 365 с Microsoft Defender для конечной точки настроена с помощью Центра безопасности & соответствия требованиям и Центра безопасности Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="38d71-119">Integrating Microsoft Defender for Office 365 with Microsoft Defender for Endpoint is set up by using both the Security & Compliance Center AND the Microsoft Defender Security Center.</span></span>
 
-1. <span data-ttu-id="6ecf7-120">Как глобальный администратор или администратор безопасности перейдите на страницу <https://protection.office.com> и войдите в нее.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-120">As a global administrator or a security administrator, go to <https://protection.office.com> and sign in.</span></span> <span data-ttu-id="6ecf7-121">(Откроется центр соответствия требованиям & безопасности Office 365.)</span><span class="sxs-lookup"><span data-stu-id="6ecf7-121">(This takes you to the Office 365 Security & Compliance Center.)</span></span>
+1. <span data-ttu-id="38d71-120">В качестве глобального администратора или администратора безопасности войдите <https://protection.office.com> и войдите в нее.</span><span class="sxs-lookup"><span data-stu-id="38d71-120">As a global administrator or a security administrator, go to <https://protection.office.com> and sign in.</span></span> <span data-ttu-id="38d71-121">(Вы можете ться в Центре безопасности и соответствия & Office 365.)</span><span class="sxs-lookup"><span data-stu-id="38d71-121">(This takes you to the Office 365 Security & Compliance Center.)</span></span>
 
-2. <span data-ttu-id="6ecf7-122">В области навигации выберите Обозреватель **управления угрозами** \> .</span><span class="sxs-lookup"><span data-stu-id="6ecf7-122">In the navigation pane, choose **Threat management** \> **Explorer**.</span></span>
+2. <span data-ttu-id="38d71-122">В области навигации выберите **обозреватель управления** \> **угрозами.**</span><span class="sxs-lookup"><span data-stu-id="38d71-122">In the navigation pane, choose **Threat management** \> **Explorer**.</span></span>
 
    ![Проводник в меню "Управление угрозами"](../../media/ThreatMgmt-Explorer-nav.png)
 
-3. <span data-ttu-id="6ecf7-124">В правом верхнем углу экрана выберите пункт **защитник для параметров конечной точки**.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-124">In the upper right corner of the screen, choose **Defender for Endpoint Settings**.</span></span>
+3. <span data-ttu-id="38d71-124">В правом верхнем углу экрана выберите "Защитник для параметров конечных точек **(параметры MDE)**".</span><span class="sxs-lookup"><span data-stu-id="38d71-124">In the upper right corner of the screen, choose **Defender for Endpoint Settings (MDE Settings)**.</span></span>
 
-4. <span data-ttu-id="6ecf7-125">В диалоговом окне защитник (Майкрософт) для подключения к конечной точке включите параметр **подключиться к защитнику Майкрософт для конечной точки**.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-125">In the Microsoft Defender for Endpoint connection dialog box, turn on **Connect to Microsoft Defender for Endpoint**.</span></span>
+4. <span data-ttu-id="38d71-125">В диалоговом окне подключения Microsoft Defender для конечной точки включите подключение к **Microsoft Defender для конечной точки.**</span><span class="sxs-lookup"><span data-stu-id="38d71-125">In the Microsoft Defender for Endpoint connection dialog box, turn on **Connect to Microsoft Defender for Endpoint**.</span></span>
 
-   ![Защитник Майкрософт для подключения к конечной точке](../../media/Explorer-WDATPConnection-dialog.png)
+   ![Microsoft Defender для подключения к конечной точке](../../media/Explorer-WDATPConnection-dialog.png)
 
-5. <span data-ttu-id="6ecf7-127">Перейдите в центр безопасности защитника (Майкрософт <https://securitycenter.windows.com> ) ().</span><span class="sxs-lookup"><span data-stu-id="6ecf7-127">Go to the Microsoft Defender Security Center (<https://securitycenter.windows.com>).</span></span>
+5. <span data-ttu-id="38d71-127">Перейдите в Центр безопасности Microsoft Defender ( <https://securitycenter.windows.com> ).</span><span class="sxs-lookup"><span data-stu-id="38d71-127">Go to the Microsoft Defender Security Center (<https://securitycenter.windows.com>).</span></span>
 
-6. <span data-ttu-id="6ecf7-128">В панели навигации выберите **Параметры**.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-128">In the navigation bar, choose **Settings**.</span></span> <span data-ttu-id="6ecf7-129">Затем в разделе **Общие** выберите **Дополнительные функции**.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-129">Then, under **General**, choose **Advanced features**.</span></span>
+6. <span data-ttu-id="38d71-128">На панели навигации выберите **"Параметры".**</span><span class="sxs-lookup"><span data-stu-id="38d71-128">In the navigation bar, choose **Settings**.</span></span> <span data-ttu-id="38d71-129">Затем в области **"Общие"** выберите **дополнительные функции.**</span><span class="sxs-lookup"><span data-stu-id="38d71-129">Then, under **General**, choose **Advanced features**.</span></span>
 
-7. <span data-ttu-id="6ecf7-130">Прокрутите список вниз до раздела **Office 365 Threat Intelligence Connection** и включите подключение.</span><span class="sxs-lookup"><span data-stu-id="6ecf7-130">Scroll down to **Office 365 Threat Intelligence connection**, and turn the connection on.</span></span>
+7. <span data-ttu-id="38d71-130">Прокрутите вниз до **подключения Office 365 Threat Intelligence** и включите подключение.</span><span class="sxs-lookup"><span data-stu-id="38d71-130">Scroll down to **Office 365 Threat Intelligence connection**, and turn the connection on.</span></span>
 
-   ![Подключение к бизнес-аналитике Office 365](../../media/mdatp-oatptoggle.png)
+   ![Подключение аналитики угроз Office 365](../../media/mdatp-oatptoggle.png)
 
-## <a name="related-articles"></a><span data-ttu-id="6ecf7-132">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="6ecf7-132">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="38d71-132">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="38d71-132">Related articles</span></span>
 
-[<span data-ttu-id="6ecf7-133">Исследование угроз и возможности реагирования в Office 365</span><span class="sxs-lookup"><span data-stu-id="6ecf7-133">Threat investigation and response capabilities in Office 365</span></span>](office-365-ti.md)
+[<span data-ttu-id="38d71-133">Возможности исследования угроз и реагирования на них в Office 365</span><span class="sxs-lookup"><span data-stu-id="38d71-133">Threat investigation and response capabilities in Office 365</span></span>](office-365-ti.md)
 
-[<span data-ttu-id="6ecf7-134">Защитник Майкрософт для Office 365</span><span class="sxs-lookup"><span data-stu-id="6ecf7-134">Microsoft Defender for Office 365</span></span>](office-365-atp.md)
+[<span data-ttu-id="38d71-134">Microsoft Defender для Office 365</span><span class="sxs-lookup"><span data-stu-id="38d71-134">Microsoft Defender for Office 365</span></span>](office-365-atp.md)
 
-[<span data-ttu-id="6ecf7-135">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="6ecf7-135">Microsoft Defender for Endpoint</span></span>](https://docs.microsoft.com/windows/security/threat-protection)
+[<span data-ttu-id="38d71-135">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="38d71-135">Microsoft Defender for Endpoint</span></span>](https://docs.microsoft.com/windows/security/threat-protection)
