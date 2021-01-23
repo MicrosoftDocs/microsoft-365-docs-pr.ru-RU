@@ -241,18 +241,6 @@
                       href: mtp/custom-detections-overview.md
                     - name: Создание и управление правилами обнаружения
                       href: mtp/custom-detection-rules.md
-            - name: Отчеты
-              items:
-                - name: Мониторинг и просмотр отчетов
-                  href: mtp/monitoring-and-reporting.md
-                - name: Мониторинг удостоверений и создание отчетов
-                  href: mtp/monitor-and-report-identities.md
-                - name: Мониторинг данных и создание отчетов
-                  href: mtp/monitor-data.md
-                - name: Мониторинг устройств и создание отчетов
-                  href: mtp/monitor-devices.md
-                - name: Мониторинг приложений и создание отчетов
-                  href: mtp/monitor-apps.md
         - name: Справочные материалы
           items:
             - name: Разрешения и параметры
