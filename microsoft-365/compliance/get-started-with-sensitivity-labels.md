@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 36cd6a82363c330688de071d1e09ce8f0bfdd16c
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+ms.openlocfilehash: 4568fd59734153d2f0fc3cffde21ad8319ddc04b
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709564"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921615"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -54,7 +54,7 @@ ms.locfileid: "49709564"
 
 Метки конфиденциальности поддерживаются в рамках нескольких разных подписок, а требования конфиденциальности для пользователей зависят от используемых функций.
 
-Чтобы узнать о вариантах лицензирования пользователей, которые позволят получить максимальную пользу от функций соответствия требованиям Microsoft 365 по состоянию на 1 апреля 2020 г., см. [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD). Сведения об использовании меток конфиденциальности см. в разделе [Защита информации](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) и связанном PDF или Excel файле для скачивания.
+Чтобы узнать о вариантах лицензирования пользователей, которые позволят получить максимальную пользу от функций соответствия требованиям Microsoft 365, см. [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD). Сведения об использовании меток конфиденциальности см. в разделе [Защита информации](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) и связанном PDF или Excel файле для скачивания.
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>Разрешения, необходимые для создания меток конфиденциальности и управления ими
 
@@ -73,7 +73,7 @@ ms.locfileid: "49709564"
 
 С помощью таблицы в следующем разделе мы рекомендуем определить основные один-два сценария, соответствующие наиболее важным бизнес-требованиям. После развертывания этих сценариев вернитесь к списку, чтобы определить следующие один или два приоритета для развертывания.
 
-Дополнительные инструкции по общему развертыванию доступны в скачиваемом руководстве по ускорению развертывания защиты данных и соответствия требованиям Microsoft 365. Дополнительные сведения см. в записи блога [Руководство по ускорению развертывания защиты данных и соответствия требованиям Майкрософт](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-compliance-deployment/ba-p/1403493).
+Дополнительные инструкции по общему развертыванию доступны в скачиваемом руководстве по профилактике потери данных и ускорению развертывания защиты информации Майкрософт. Дополнительные сведения см. в записи блога [Руководство по ускорению развертывания защиты данных и соответствия требованиям Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-365-information-protection-and-compliance-deployment/ba-p/2076404).
 
 ## <a name="common-scenarios-for-sensitivity-labels"></a>Обычные сценарии использования меток конфиденциальности
 
