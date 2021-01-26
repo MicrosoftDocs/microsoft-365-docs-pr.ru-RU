@@ -1,22 +1,24 @@
 ---
 title: 'Редактирование существующего раздела в разделе "Опыт работы с разделами" (предварительная версия) '
-description: Изменение существующей темы в разделе "Опыт работы с разделами".
+description: Изменение существующего раздела в разделе "Опыт работы с разделами".
 author: efrene
 ms.author: efrene
 manager: pamgreen
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-topics
 ms.service: ''
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 809d3936ed27275873f63526e7dfc8f91a15a0cc
-ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
+ms.openlocfilehash: 79321ce7fc661fd95090c280eae0bcecd332221a
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731359"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976297"
 ---
 # <a name="edit-an-existing-topic-preview"></a>Редактирование существующего раздела (предварительная версия)
 
@@ -35,10 +37,10 @@ ms.locfileid: "49731359"
 
 Чтобы изменить существующий раздел, необходимо:
 - Лицензия "Опыт работы с разделами".
-- Разрешения на создание и редактирование тем для [**who.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Администраторы знаний могут предоставить пользователям это разрешение в разделе "Параметры разрешений сети знаний". 
+- Разрешения на создание и [**редактирование**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)разделов. Администраторы знаний могут предоставить пользователям это разрешение в параметрах разрешений раздела "Сеть знаний". 
 
 > [!Note] 
-> Пользователи, у которых есть разрешения на управление разделами в Центре тем (менеджеры по знаниям), уже имеют разрешения на создание и редактирование тем.
+> Пользователи, у которых есть разрешения на управление темами в Центре тем (менеджеры по знаниям), уже имеют разрешения на создание и редактирование тем.
 
 ## <a name="edit-a-topic-page"></a>Изменение страницы темы
 

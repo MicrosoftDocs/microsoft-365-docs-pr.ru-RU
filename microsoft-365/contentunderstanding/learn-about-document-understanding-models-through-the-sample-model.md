@@ -7,15 +7,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 localization_priority: Priority
 description: Подробнее о моделях осмысления документации на примере образца модели
-ms.openlocfilehash: 664b0ad7cb00a4570fbe8a4bd8a2c6f319cf8800
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: f455e1ec854b4f9a6eea3fa6560ae5390892a640
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087383"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976415"
 ---
 # <a name="learn-about-document-understanding-models-through-a-sample-model"></a>Подробнее о моделях осмысления документации на примере образца модели
 

@@ -7,15 +7,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 localization_priority: Priority
 description: Сведения о применении опубликованной модели к библиотеке документов SharePoint
-ms.openlocfilehash: 9c99ede49633b5ae70cbb67c30d83c111084df95
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 742c6b7088619579f6157e20de63fe311039d6e2
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701145"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49975935"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Применение модели осмысления документации в Microsoft SharePoint Syntex
 

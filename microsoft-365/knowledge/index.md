@@ -8,16 +8,18 @@ audience: ''
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
 description: Узнайте, как найти ресурсы для работы с разделами.
-ms.openlocfilehash: 9141f6b445932234ebfa5a3d77833f64110ceeb4
-ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
+ms.openlocfilehash: a9069b8723cb23a406fcce3b96a53b3de2a07568
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731347"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976183"
 ---
 # <a name="introduction-to-topic-experiences-preview"></a>Введение в темы (предварительная версия)
 
@@ -71,9 +73,9 @@ ms.locfileid: "49731347"
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Узнайте, как работать с разделами|[Обзор Центра тем](topic-center-overview.md)<br><br>[Управление темами](manage-topics.md)<br><br>[Создание темы](create-a-topic.md)<br><br>[Редактирование существующего раздела](edit-a-topic.md)<br><br>|
+|Узнайте, как работать с разделами|[Обзор Центра тем](topic-center-overview.md)<br><br>[Управление темами](manage-topics.md)<br><br>[Создание темы](create-a-topic.md)<br><br>[Изменение существующего раздела](edit-a-topic.md)<br><br>|
 |Понимание ролей пользователей|[Роли "Опыт работы с разделами"](topic-experiences-roles.md)|
-|Понять, почему разделы могут отличаться для разных пользователей|[Обрезка по роли безопасности "Опыт работы с разделами"](topic-experiences-security-trimming.md)|
+|Понять, почему темы могут отличаться для разных пользователей|[Обрезка по роли безопасности "Опыт работы с разделами"](topic-experiences-security-trimming.md)|
 |Узнайте, как предотвратить идентифицирование и просмотр определенных разделов|[Ограничение доступа к темам](restrict-access-to-topics.md)|
 
 

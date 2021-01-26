@@ -7,15 +7,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 localization_priority: Priority
 description: Сведения о применении метки хранения к модели осмысления документа
-ms.openlocfilehash: b71f75006a856d4fd551bffe232cbe044f7726a5
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 793ae34fa5f033b10023811887af89c1785f7cda
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087141"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976403"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>Аналитика использования модели осмысления документа
 
@@ -54,6 +56,6 @@ ms.locfileid: "49087141"
 
 [Создание средства извлечения](create-an-extractor.md)
 
-[Общие сведения об осмыслении документации](document-understanding-overview.md)
+[Общие сведения об осмыслении документа](document-understanding-overview.md)
 
 [Создание модели обработки форм](create-a-form-processing-model.md)  

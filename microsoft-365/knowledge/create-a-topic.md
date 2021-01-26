@@ -7,17 +7,19 @@ manager: pamgreen
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-topics
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b17bca88df4bc0db9569800df2c89e6246c88bf8
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 982cb4b0f750db9aecbaab6696f57be3f2390d1d
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49699073"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976355"
 ---
 # <a name="create-a-new-topic-preview"></a>Создание нового раздела (предварительная версия)
 
@@ -30,7 +32,7 @@ ms.locfileid: "49699073"
 
 Чтобы создать новый раздел, необходимо:
 - Лицензия "Опыт работы с разделами".
-- Разрешения на создание и редактирование тем для [**who.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Администраторы знаний могут предоставить пользователям это разрешение в разделе "Параметры разрешений сети знаний". 
+- Разрешения на создание и [**редактирование**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)разделов. Администраторы знаний могут предоставить пользователям это разрешение в параметрах разрешений раздела "Сеть знаний". 
 
 > [!Note] 
 > Пользователи, у которых есть разрешения на управление темами в Центре тем (менеджеры по знаниям), уже имеют разрешения на создание и редактирование тем.
