@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: e3cd36fe6a7f075516d7778094ff5dd29480bfd9
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: ec5085b2d0a828300cb90fb260cb293eda4b9433
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794131"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988185"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -38,7 +38,10 @@ ms.locfileid: "49794131"
 
 ## <a name="whats-included-for-retention-and-deletion"></a>Что включается в хранение и удаление
 
-С помощью политик хранения для Teams можно хранить и удалять следующие элементы Teams: сообщения чатов и каналов, включая внедренные изображения, таблицы, гипертекстовые ссылки и ссылки на другие сообщения и файлы Teams. В сообщения чата входят все имена пользователей в чате, а в сообщения канала — имя команды и заголовок сообщения (если он есть). 
+С помощью политик хранения для Teams можно хранить и удалять следующие элементы Teams: сообщения чатов и каналов, включая внедренные изображения, таблицы, гипертекстовые ссылки и ссылки на другие сообщения и файлы Teams, а также [содержимое карточек](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards). В сообщения чата входят все имена пользователей в чате, а в сообщения канала — имя команды и заголовок сообщения (если он есть). 
+
+> [!NOTE]
+> Содержимое карточек является недавним дополнением, которое в настоящее время разворачивается для клиентов. Дополнительные сведения см. в статье [Теперь доступны возможности соответствия требованиям Microsoft 365 для содержимого адаптивных карточек через приложения в Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
 Сообщения Teams частных каналов в число указанных элементов не включаются, как и реакция других пользователей в виде смайликов.
 
