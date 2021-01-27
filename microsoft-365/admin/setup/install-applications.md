@@ -21,13 +21,13 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
-description: Теперь, когда вы настроили Microsoft 365, узнайте, как установить отдельные приложения Office на компьютерах Mac, ПК или мобильных устройствах и настроить электронную почту в Outlook.
-ms.openlocfilehash: b05a61f9579ee98a8b0be9d01b6a507b06c29321
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Теперь, когда вы настроили Microsoft 365, узнайте, как установить отдельные приложения Office на mac, пк или мобильные устройства и настроить электронную почту в Outlook.
+ms.openlocfilehash: dc8a4c3670dacf4b3cc85637c3e18c51a8c8e350
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926850"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988036"
 ---
 # <a name="install-office-applications"></a>Установка приложений Office
 
@@ -36,6 +36,8 @@ ms.locfileid: "49926850"
 Для получения сведений о том, как:
   
 - Установка приложений Office:  [установка Office на компьютере или Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+
+- Установка других приложений: [Project,](https://support.microsoft.com/office/install-project-7059249b-d9fe-4d61-ab96-5c5bf435f281) [Visio](https://support.microsoft.com/office/install-visio-f98f21e3-aa02-4827-9167-ddab5b025710)или [Skype для бизнеса](https://support.microsoft.com/office/install-skype-for-business-8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
 
 - Настройка мобильных устройств: [настройка мобильных устройств Microsoft 365 — справка](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
 

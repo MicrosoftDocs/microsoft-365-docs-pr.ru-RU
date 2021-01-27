@@ -3,7 +3,6 @@ title: Новые возможности Microsoft Defender для Office 365
 description: Узнайте о новых функциях, доступных в последнем выпуске Microsoft Defender для Office 365.
 keywords: новые возможности Office 365 atp, ga, общедоступная, возможности, доступные, новые возможности
 search.appverid: met150
-ms.service: O365-seccomp
 ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
@@ -17,15 +16,17 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 ms.topic: conceptual
-ms.date: 10/09/2020
+ms.date: 01/12/2021
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: fb588320461ab44d1ce0f10c0776bcc9ee61b551
-ms.sourcegitcommit: 0ecac0387be6b49025b79ce8eb949a8cf62481e2
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 3544f1ccb760c461b7ab72c6dc037fd653136db9
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724406"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988164"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Новые возможности Microsoft Defender для Office 365
 
@@ -41,14 +42,17 @@ ms.locfileid: "49724406"
 > [!TIP]
 > У вас еще нет Microsoft Defender для Office 365? [Свяжитесь с отделом продаж, чтобы начать пробную пробную версия.](https://go.microsoft.com/fwlink/p/?LinkId=518644)
 
+## <a name="december-2020"></a>Декабрь 2020 г.
+
+- [Защита по умолчанию в Office 365](secure-by-default.md)
+
 ## <a name="november-2020"></a>Ноябрь 2020 г.
 
-- Обновленные ограничения на экспорт в Центре > действий > исправление из журнала отправки почты и действий (Защитник Для Office 365 (план 2)
+- Обновленные ограничения на экспорт в Центре > действий > исправление из журнала отправки почты и действий (Защитник Office 365 (план 2)
 
 ## <a name="septemberoctober-2020"></a>Сентябрь/октябрь 2020 г.
 
 - [Проверка политик с помощью анализатора конфигурации](configuration-analyzer-for-security-policies.md)
-- [Вручную переопределять решения фильтра с помощью списка "Разрешить/заблокировать" клиента](tenant-allow-block-list.md)
 - Расширенные возможности в обозревателе угроз, включая самых целевых [пользователей,](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) правила транспорта и соединители (сведения о Защитнике office 365 в [обозревателе](threat-explorer.md) угроз (электронная почта была разрешена/заблокирована политикой клиента или пользователя) (Защитник для Office 365 (план 2)
 - Поиск угроз URL-адресов в [обозревателе угроз](threat-explorer.md#threats-in-urls) (вредоносные программы, фишинг, спам или нет) (Защитник для Office 365 (план 2)
 - [Улучшения обозревателя](threat-explorer.md#improvements-to-the-threat-hunting-experience-upcoming) угроз в области охоты на угрозы с обновлениями в отношении угроз, дополнительных действий, местоположений доставки и обновленного представления временной шкалы (Defender для Office 365 (план 2)
@@ -83,7 +87,7 @@ ms.locfileid: "49724406"
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
-- [Ознакомьтесь с новыми возможностями](address-compromised-users-quickly.md) обнаружения скомпрометированного пользователя и реагирования на них (предварительная **версия)**(Microsoft Defender для Office 365 (план 2)
+- [Ознакомьтесь с новыми возможностями](address-compromised-users-quickly.md) обнаружения скомпрометированного пользователя и реагирования **(предварительная** версия) (Microsoft Defender для Office 365 (план 2)
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
@@ -91,11 +95,11 @@ ms.locfileid: "49724406"
 
 - Интеграция с Microsoft Defender для событий автоматического исследования и реагирования на них [в Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) с помощью API действий управления Office 365 (Defender для Office 365 (план 2)
 
-- [Просмотр заголовок электронной почты и загрузка](investigate-malicious-email-that-was-delivered.md) его тела (Microsoft Defender для Office 365 (план 1) или План 2)
+- [Просмотр заголовок электронной почты и скачивание](investigate-malicious-email-that-was-delivered.md) его тела (Microsoft Defender для Office 365 (план 1) или План 2)
 
 ## <a name="august-2019"></a>Август 2019 г.
 
-- [Просмотр временной шкалы электронной](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) почты (Microsoft Defender для Office 365 (план 1) или План 2)
+- [Просмотр временной шкалы электронной](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) почты (Microsoft Defender для Office 365 (план 1 или план 2)
 
 ## <a name="july-2019"></a>Июль 2019 г.
 
