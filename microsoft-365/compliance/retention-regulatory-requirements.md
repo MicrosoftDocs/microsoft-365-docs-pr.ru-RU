@@ -15,20 +15,32 @@ search.appverid:
 - MOE150
 - MET150
 description: Вспомогательные ресурсы для соблюдения нормативных требований к управлению данными и записями.
-ms.openlocfilehash: f8641af2ec839c9ed3f4d029b4f6de52fe7033e3
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 891dd3f37e70ae94dbae96baaa7c38b71456305b
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941424"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032570"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>Нормативные требования к управлению данными и записями
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-Use the resources on this page to help you meet specific regulatory requirements for information governance and records management in Microsoft 365. Each section of this document focuses on one or more related regulations and includes any existing guidance or third-party assessment of how to configure Microsoft 365 to help with the requirements outlined.
+Использование ресурсов, находящихся на этой странице, помогает соблюдать конкретные нормативные требования к управлению данными и записями в Microsoft 365. В каждом разделе этого документа рассматривается одно или несколько нормативных требований и приводятся инструкции или сторонние оценки по настройке Microsoft 365, которые помогут при выполнении описанных требований.
 
 Эти ресурсы можно скачать на странице [Часто задаваемые вопросы и техническая документация по ресурсам, связанным с защитой данных](https://servicetrust.microsoft.com/ViewPage/TrustDocuments) сайта Service Trust Portal.
+
+## <a name="new-zealand-public-records-act"></a>Закон Новой Зеландии об общественных записях
+
+**Поддержка обязательств по соблюдению Закона Новой Зеландии об общественных записях с помощью Microsoft 365** - [Скачать оценку](https://aka.ms/NZPRA)
+
+Применимые рабочие нагрузки: SharePoint, OneDrive, Teams, Exchange и Skype для бизнеса
+
+Этот отчет, опубликованный в январе 2021 г., был подготовлен совместно с корпорацией Майкрософт Новая Зеландия для оценки возможностей служб Microsoft 365 в отношении создания и хранения электронных записей, а также управления ими в соответствии с требованиями, указанными: 
+
+- Закон Новой Зеландии об общественных записях 2005 года, который устанавливает правила хранения государственных архивов и архивов местных органов власти в Новой Зеландии.
+
+В этом отчете приведены сведения, как достичь системных аспектов Закона Новой Зеландии об общественных записях 2005 г. (PRA) при использовании Microsoft 365.
 
 ## <a name="sec-17a-4f-finra-4511c-and-cftc-131c-d"></a>SEC 17a-4(f), FINRA 4511(c) и CFTC 1.31(c)-(d)
 
