@@ -84,7 +84,7 @@
           href: services-in-china/view-your-bill-or-get-a-fapiao.md
         - name: Заявление на получение счета фапьяо
           href: services-in-china/apply-for-a-fapiao.md
-        - name: Сравнение с Azure Information Protection
+        - name: Поддержка Azure Information Protection
           href: services-in-china/parity-between-azure-information-protection.md
     - name: 'Управление пользователями, группами и паролями'
       href: add-users/index.yml
