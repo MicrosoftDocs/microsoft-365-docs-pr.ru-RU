@@ -1,6 +1,6 @@
 ---
 title: Соответствие требованиям
-description: В этой статье перечислены стандарты соответствия требованиям, которые относятся к управляемому рабочему столу Майкрософт.
+description: В этой статье перечислены стандарты соответствия требованиям, соответствующие компьютеру, управляемому Майкрософт.
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -9,43 +9,43 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d47757e8e9b36baf060c86436bd7840ded7c324d
-ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
+ms.openlocfilehash: f2fae1e41562d1ae743ecd964b42082b3d6486e8
+ms.sourcegitcommit: 05657b39eaafc0503b01c6adcc5d8a5e615dc02c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49586677"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50031355"
 ---
 # <a name="compliance"></a>Соответствие требованиям
 
-При использовании настольного компьютера, управляемого корпорацией Майкрософт, корпорация Майкрософт предоставляет исчерпывающий набор требований для обеспечения соответствия требованиям. Это помогает организациям соблюдать различные требования соответствия требованиям.
+При использовании компьютеров, управляемых Майкрософт, корпорация Майкрософт предоставляет полный набор предложений для обеспечения соответствия требованиям. Эти усилия помогают вашей организации соответствовать различным требованиям соответствия требованиям.
 
-## <a name="compliance-coverage"></a>Покрытие соответствия требованиям
+## <a name="compliance-coverage"></a>Соответствие требованиям
 
-Для компьютера, управляемого Майкрософт, получены следующие сертификаты:
+Компьютеры, управляемые Майкрософт, достигли следующих сертификатов:
 
-- [Стандарты управления информационной безопасностью стандарта ISO 27001 (К СУИБ)](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
-- [Система управления сведениями о конфиденциальности для ISO 27701 (ПИМС)](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
-- [ISO 27017 код практики для управления информационной безопасностью](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27017)
-- [ISO 27018 код практических рекомендаций по защите персональных данных в облаке](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27018)
-- [Стандарты системы управления качеством ISO 9001](https://docs.microsoft.com/compliance/regulatory/offering-ISO-9001)
-- [Управление службой информационных технологий стандарта ISO 20000-1](https://docs.microsoft.com/compliance/regulatory/offering-ISO-20000-1-2011)
-- [Стандарт управления непрерывной работы стандарта ISO 22301](https://docs.microsoft.com/compliance/regulatory/offering-ISO-22301)
+- [Стандарты управления информационной безопасностью ISO 27001 (ISMS)](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
+- [IsO 27701 Privacy Information Management System (PIMS)](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
+- [ISO 27017 Code of Practice for Information Security Controls](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27017)
+- [ISO 27018 Code of Practice for Protecting Personal Data in the Cloud](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27018)
+- [Стандарты систем управления качеством ISO 9001](https://docs.microsoft.com/compliance/regulatory/offering-ISO-9001)
+- [Управление службами информационных технологий ISO 20000-1](https://docs.microsoft.com/compliance/regulatory/offering-ISO-20000-1-2011)
+- [Стандарт управления непрерывности бизнеса ISO 22301](https://docs.microsoft.com/compliance/regulatory/offering-ISO-22301)
 - [Аттестация Cloud Security Alliance (CSA) STAR ](https://docs.microsoft.com/compliance/regulatory/offering-CSA-STAR-Attestation)
 - [Сертификация Cloud Security Alliance (CSA) STAR](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
-- [Управление организацией службы (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
+- [Управление организацией-службой (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
 - [Стандарт безопасности данных в сфере платежных карт (PCI-DSS)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
-- [ACT и отчетности по страхованию здравоохранения (HIPAA)](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech)
-- [Зарегистрированная программа-биоinformation Security для Австралии государственных учреждений (ИРАП)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
+- [Акт HIPAA о переносимости и подотчетности медицинского страхования](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech)
+- [Программа зарегистрированных оценаторов информационной безопасности (IRAP)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
 
 
-## <a name="auditor-reports-and-compliance-certificates"></a>Отчеты аудиторов и сертификаты соответствия требованиям
+## <a name="auditor-reports-and-compliance-certificates"></a>Отчеты аудитора и сертификаты соответствия требованиям
 
-Вы можете найти соответствующие сведения, в том числе контроль и технические требования, на [портале доверия служб (STP)](https://servicetrust.microsoft.com/)— центральном репозитории для таких сведений о решениях облачных служб Майкрософт. Вы можете скачать отчеты аудиторий, сертификаты соответствия требованиям и другие сведения в разделе [Отчеты аудита](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) в STP.
+Соответствующую информацию, в том числе контрольные и технические требования, можно найти на портале [Service Trust Portal (STP)](https://servicetrust.microsoft.com/)— центральном репозитории для получения таких сведений о предложениях microsoft Cloud Service. Вы можете скачать отчеты аудитора, сертификаты соответствия требованиям и другие скачать из раздела ["Отчеты аудита"](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) STP.
 
 > [!NOTE]
-> Так как рабочий стол, управляемый Майкрософт, работает в Azure, в соответствующих документах обычно есть имена файлов, такие как "Microsoft Azure, Dynamics 365 и другие веб-службы". В этих документах обычно можно найти управляемый Рабочий стол Майкрософт в категории "Microsoft Online Services" или "мониторинг + управление".
+> Так как компьютеры, управляемые Майкрософт, работает в Azure, соответствующие документы обычно имеют такие имена файлов, как "Microsoft Azure, Dynamics 365 и другие веб-службы". В этих документах обычно можно найти компьютеры, управляемые Майкрософт, в категории "Microsoft Online Services" или "Мониторинг и управление".
 
 ## <a name="shared-responsibility"></a>Общая ответственность
 
-Соответствие облачным службам является общей ответственностью между поставщиками облачных служб и клиентами. Дополнительные сведения [об облачных вычислениях](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility)приведены в разделе Общие обязанности.
+Соответствие требованиям для облачных служб — это общая ответственность между поставщиками облачных служб и их клиентами. Дополнительные сведения см. в [подложных сведениях об общей ответственности в облаке.](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility)
