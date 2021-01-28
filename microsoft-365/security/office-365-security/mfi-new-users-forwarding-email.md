@@ -3,20 +3,21 @@ title: Анализ новых пользователей, которые пер
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Администраторы могут узнать, как использовать сведения о новых пользователях, которые перенаследуют данные электронной почты в Центре безопасности & соответствия требованиям, для изучения того, когда пользователи в своей организации перенаследуют сообщения в новые домены.
-ms.openlocfilehash: cf1852169279e19ac00e5e29dd1c26e155936039
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: af991cb0af20a0f48bc5283d4e4fb26ea75d6ba6
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49660021"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029874"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Новые пользователи, переадлиющие данные электронной почты в Центре & соответствия требованиям
 
@@ -27,7 +28,7 @@ ms.locfileid: "49660021"
 
 Новые **домены,** переадружающие данные электронной почты в Центре безопасности & [соответствия](https://protection.office.com) требованиям, будут извещение о том, когда только что созданные пользователи в организации переадружали сообщения на внешние домены. Это условие может указывать на то, что для создания новых пользователей использовались скомпрометированные учетные записи администраторов. Если вы подозреваете, что учетные записи были скомпрометированы, см. ответ на компрометации учетной [записи электронной почты.](responding-to-a-compromised-email-account.md)
 
-Эта информация отображается только при обнаружении проблемы и отображается на странице отчета ["Переадпорт".](view-mail-flow-reports.md#forwarding-report)
+Эта информация отображается только при обнаружении проблемы и отображается на странице отчета ["Переад](view-mail-flow-reports.md#forwarding-report) сообщений".
 
 ![Анализ новых пользователей, которые пересылают сообщения электронной почты](../../media/mfi-new-users-forwarding-email.png)
 
@@ -35,7 +36,7 @@ ms.locfileid: "49660021"
 
 ![Flyout Details that appears after clicking on the New users forwarding email insight](../../media/mfi-new-users-forwarding-email-details.png)
 
-Вы также можете вернуться на эту страницу  сведений при выборе статистики после нажатия кнопки "Просмотреть все в области "Лучшие **сведения&** рекомендации"**(** панель мониторинга отчетов \>  или <https://protection.office.com/insightdashboard> ).
+Вы также можете вернуться на эту страницу  сведений при выборе статистики после нажатия кнопки "Просмотреть все" в области "Лучшие **сведения&** **рекомендации"** (панель мониторинга отчетов или \>  <https://protection.office.com/insightdashboard> панель мониторинга).
 
 Вы можете щелкнуть ссылку  **"Просмотр отчета, связанного** с данными", чтобы перейти к отчету об изменениях в переадэинге, как описано в следующем разделе.
 
@@ -50,7 +51,7 @@ ms.locfileid: "49660021"
 
 Отчет содержит данные за 90 дней. По умолчанию в отчете показаны данные за последние 7 дней.
 
-Этот отчет не доступен напрямую на панели мониторинга потока [почты](mail-flow-insights-v2.md) или в панели [отчетов.](view-mail-flow-reports.md) Помимо нажатия отчета "Просмотр", связанного  со ссылкой **"Анализ"** в сообщении "Новые пользователи, перена которые перенабовыют данные электронной почты", к отчету можно получить:
+Этот отчет не доступен напрямую на панели мониторинга потока [почты](mail-flow-insights-v2.md) или в панели [отчетов.](view-mail-flow-reports.md) Помимо нажатия отчета  "Просмотр", связанного  со ссылкой "Анализ" в сообщении "Новые пользователи, переадлижимые по электронной почте", вы можете получить к отчету:
 
 - Щелкните ссылку **отчета "Уведомления** о переададаторе" в сведениях о новых доменах, перена которые будут перена отправляться по [электронной почте.](mfi-new-domains-being-forwarded-email.md)
 - Открытие <https://protection.office.com/reportv2?id=MailFlowNewForwarding> .
@@ -97,7 +98,7 @@ ms.locfileid: "49660021"
 
 - **Name**: this is either the sender's email address (from **Show data for: New forwarding users** view) or the sender's email domain (from Show data **for: New forwarding domains** view).
 - **Тип переад вперед**
-- **Получатель**
+- **Recipient**
 - **Details**
 - **Count**
 - **Дата начала**

@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 - m365initiative-defender-office365
 description: Администраторы могут просматривать часто задаваемые вопросы и ответы о сообщениях на карантине в Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 58ddb5847706aef3d2c3b8ea8cd9a96fd65a9b3d
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: abd2304e83d2814cab55d13312535bd94308d8be
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794416"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032605"
 ---
 # <a name="quarantined-messages-faq"></a>Quarantined messages FAQ
 
@@ -32,9 +33,9 @@ ms.locfileid: "49794416"
 
 В этом разделе даны вопросы и ответы о сообщениях электронной почты, отправленных на карантин, для организаций Microsoft 365 с почтовыми ящиками в Exchange Online или автономных организаций Exchange Online Protection (EOP) без почтовых ящиков Exchange Online.
 
-Вопросы и ответы о защите от нежелательной почты см. в вопросах о защите от нежелательной [почты.](anti-spam-protection-faq.md)
+Вопросы и ответы о защите от нежелательной почты см. в ответах на вопросы о защите от нежелательной [почты.](anti-spam-protection-faq.md)
 
-Вопросы и ответы о защите от вредоносных программ см. в вопросах о защите от [вредоносных программ.](anti-malware-protection-faq-eop.md)
+Вопросы и ответы о защите от вредоносных программ см. в ответах на вопросы о защите от [вредоносных программ.](anti-malware-protection-faq-eop.md)
 
 Вопросы и ответы о защите от спуфинга см. в ответах на вопросы о защите от [спуфинга.](anti-spoofing-protection-faq.md)
 
@@ -52,7 +53,7 @@ ms.locfileid: "49794416"
 
 ## <a name="what-messages-can-end-users-access-in-quarantine"></a>Какие сообщения могут быть доступны конечным пользователям в карантине?
 
-Пользователи могут получать доступ к нежелательным, массовым рассылкам и (в апреле 2020 г.) фишинговыми сообщениями, в которых они являются получателями. Конечные пользователи не могут получить доступ к вредоносным программам, отправленным на карантин, фишингу с высокой достоверности или сообщениям, которые были отправлены в карантин из-за действия "Доставка сообщения на карантин" в правилах потока почты (также известных как правила транспорта).  Дополнительные сведения о пользователях, которые имеют доступ к сообщениям на карантине, см. в подсети "Поиск и освобождение сообщений на карантине" в [качестве пользователя.](find-and-release-quarantined-messages-as-a-user.md)
+Пользователи могут получать доступ к нежелательным, массовым рассылкам и (в апреле 2020 г.) фишинговыми сообщениями, в которых они являются получателями. Конечные пользователи не могут получить доступ к вредоносным программам, которые были отправлены  на карантин, фишингу с высокой достоверности или сообщениям, которые были отправлены в карантин из-за действия "Доставить сообщение в карантин" в правилах потока почты (также известных как правила транспорта). Дополнительные сведения о пользователях, которые имеют доступ к сообщениям на карантине, см. в подсети "Поиск и освобождение сообщений на карантине" в [качестве пользователя.](find-and-release-quarantined-messages-as-a-user.md)
 
 ## <a name="how-long-are-messages-kept-in-the-quarantine"></a>Как долго сообщения хранятся в карантине?
 
@@ -64,24 +65,47 @@ ms.locfileid: "49794416"
 
 ## <a name="can-i-release-or-report-more-than-one-quarantined-message-at-a-time"></a>Можно ли освободить одновременно несколько сообщений, помещенных на карантин, или сообщить о них?
 
-В Центре безопасности & соответствия требованиям можно выбрать и освободить до 100 сообщений одновременно.
+В Центре & соответствия требованиям можно выбрать и освободить до 100 сообщений одновременно.
 
 Администраторы могут использовать [](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage) в Exchange Online PowerShell [](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage) или автономных EOP PowerShell для массового поиска и освобождения сообщений из карантина и массовой рассылки сообщений в карантине и массового сообщения о ложных срабатываниях.
 
 ## <a name="are-wildcards-supported-when-searching-for-quarantined-messages-can-i-search-for-quarantined-messages-for-a-specific-domain"></a>Поддерживаются ли подстановочные знаки при поиске сообщений, помещенных на карантин? Можно ли искать помещенные на карантин сообщения для определенного домена?
 
-Wildcards aren't supported in the Security & Compliance Center. Например, при поиске отправители необходимо указать полный адрес электронной почты. Но вы можете использовать поддиапные знаки в Exchange Online PowerShell или в автономных EOP PowerShell.
+В Центре безопасности и соответствия & не поддерживаются поддеревные знаки. Например, при поиске отправители необходимо указать полный адрес электронной почты. Но вы можете использовать поддиапные знаки в Exchange Online PowerShell или в автономных EOP PowerShell.
 
-Например, чтобы найти нежелательные сообщения на карантине от всех отправителей в домене, contoso.com:
+Например, скопируйте следующий код PowerShell в Блокнот и сохраните файл как PS1 в расположении, которое легко найти (например, C:\Data\QuarantineRelease.ps1).
+
+Затем после подключения к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) или [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)запустите следующую команду, чтобы запустить сценарий:
 
 ```powershell
-$CQ = Get-QuarantineMessage -Type Spam | where {$_.SenderAddress -like "*@contoso.com"}
+& C:\Data\QuarantineRelease.ps1
 ```
 
-Затем запустите следующую команду, чтобы освободить эти сообщения для всех исходных получателей:
+Сценарий делает следующие действия:
+
+- Найдите неоформленные сообщения, которые были на карантине как спам от всех отправителей в домене fabrikam. Максимальное число результатов — 50 000 (50 страниц с 1000 результатов).
+- Сохраните результаты в CSV-файле.
+- Отпустите совпадающие сообщения на карантине для всех исходных получателей.
 
 ```powershell
-$CQ | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+$Page = 1
+$List = $null
+
+Do
+{
+Write-Host "Getting Page " $Page
+
+$List = (Get-QuarantineMessage -Type Spam -PageSize 1000 -Page $Page | where {$_.Released -like "False" -and $_.SenderAddress -like "*fabrikam.com"})
+Write-Host "                     " $List.count " rows in this page match"
+Write-Host "                                                             Exporting list to appended CSV for logging"
+$List | Export-Csv -Path "C:\Data\Quarantined Message Matches.csv" -Append -NoTypeInformation
+
+Write-Host "Releasing page " $Page
+$List | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+
+$Page = $Page + 1
+
+} Until ($Page -eq 50)
 ```
 
 После освобождения сообщения вы не сможете освободить его снова.

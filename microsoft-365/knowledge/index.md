@@ -14,12 +14,12 @@ ms.collection:
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
 description: Узнайте, как найти ресурсы для работы с разделами.
-ms.openlocfilehash: a9069b8723cb23a406fcce3b96a53b3de2a07568
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: afba6930c30ad59dc95abb255eadab501b01f189
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976183"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029612"
 ---
 # <a name="introduction-to-topic-experiences-preview"></a>Введение в темы (предварительная версия)
 
@@ -43,12 +43,12 @@ ms.locfileid: "49976183"
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Дополнительные сведения об осмыслении документации|[Обзор "Опыт работы с разделами"](topic-experiences-overview.md)|
-|Узнайте, как ИИ обнаруживает и создает разделы|[Обнаружение тематических опытом](topic-experiences-discovery.md)|
-|Узнайте о безопасности тем|[Безопасность и конфиденциальность в разделе "Опыт работы с разделами"](topic-experiences-security-privacy.md)|
+|Узнайте больше о темах|[Обзор "Опыт работы с разделами"](topic-experiences-overview.md)|
+|Узнайте, как ИИ обнаруживает и предлагает темы|[Обнаружение тематических опытом](topic-experiences-discovery.md)|
+|Узнайте о безопасности тем|[Topic Experiences security and privacy](topic-experiences-security-privacy.md)|
 
 
-## <a name="adoption"></a>Принятие
+## <a name="adoption"></a>Внедрение
 
 Узнайте больше о том, как использовать и реализовать в организации разделы, которые помогут вам решить бизнес-проблемы: 
 
@@ -75,7 +75,7 @@ ms.locfileid: "49976183"
 |:-----|:-----|
 |Узнайте, как работать с разделами|[Обзор Центра тем](topic-center-overview.md)<br><br>[Управление темами](manage-topics.md)<br><br>[Создание темы](create-a-topic.md)<br><br>[Изменение существующего раздела](edit-a-topic.md)<br><br>|
 |Понимание ролей пользователей|[Роли "Опыт работы с разделами"](topic-experiences-roles.md)|
-|Понять, почему темы могут отличаться для разных пользователей|[Обрезка по роли безопасности "Опыт работы с разделами"](topic-experiences-security-trimming.md)|
+|Понять, почему разделы могут отличаться для разных пользователей|[Обрезка по роли безопасности "Опыт работы с разделами"](topic-experiences-security-trimming.md)|
 |Узнайте, как предотвратить идентифицирование и просмотр определенных разделов|[Ограничение доступа к темам](restrict-access-to-topics.md)|
 
 

@@ -3,12 +3,11 @@ title: Сообщение о спаме, не спаме и фишинговых
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,12 +15,14 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать о различных способах сообщить о сообщениях и файлах в корпорацию Майкрософт для анализа.
-ms.openlocfilehash: 52ca0287e65fa338b06dc7df7c1e6c214af860c2
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 52133756ffab28975c1d384c7e455892ce6b0dfc
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865096"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029178"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Передача информации о сообщениях и файлах в корпорацию Майкрософт
 
@@ -34,8 +35,8 @@ ms.locfileid: "49865096"
 |Метод|Описание|
 |---|---|
 |[Использование функции отправки администратором для отправки подозрительного спама, фишинговых сообщений, URL-адресов и файлов в корпорацию Майкрософт](admin-submission.md)|Рекомендуемый способ отчетности для администраторов в организациях с почтовыми ящиками Exchange Online (недоступны в автономных EOP).|
-|[Включение надстройки Report Message](enable-the-report-message-add-in.md)|Работает с Outlook и Outlook в Интернете (прежнее название — Outlook Web App). <p> В зависимости от вашей подписки сообщения, о которых пользователи [](admin-submission.md)сообщили с помощью надстройки, доступны на портале отправки администраторов, в результатах автоматического анализа и реагирования [на них,](air-view-investigation-results.md)отчете о сообщениях, [](view-email-security-reports.md#user-reported-messages-report)сообщаемом пользователем, и в обозревателе [угроз.](threat-explorer-views.md#email--submissions) <p> Вы можете настроить копирование или перенаправление сообщений в задаемый почтовый ящик. Дополнительные сведения [см. в политиках отправки пользователей.](user-submission.md)
-|[Включить фишинговую надстройку report](enable-the-report-phish-add-in.md)|Работает с Outlook и Outlook в Интернете (прежнее название — Outlook Web App). <p> В зависимости от вашей подписки сообщения, о которых пользователи [](admin-submission.md)сообщили с помощью надстройки, доступны на портале отправки администраторов, в результатах автоматического анализа и реагирования [на них,](air-view-investigation-results.md)отчете о сообщениях, [](view-email-security-reports.md#user-reported-messages-report)сообщающих о пользователе, и в обозревателе [угроз.](threat-explorer-views.md#email--submissions) <p> Вы можете настроить копирование или перенаправление сообщений в задаемый почтовый ящик. Дополнительные сведения [см. в политиках отправки пользователей.](user-submission.md)|
+|[Включение надстройки Report Message](enable-the-report-message-add-in.md)|Работает с Outlook и Outlook в Интернете (прежнее название — Outlook Web App). <p> В зависимости от вашей подписки сообщения, о которых пользователи [](admin-submission.md)сообщили с помощью надстройки, доступны на портале отправки администраторов, в результатах автоматического анализа и реагирования [на них,](air-view-investigation-results.md)отчете о сообщениях, [](view-email-security-reports.md#user-reported-messages-report)сообщающих о пользователе, и в обозревателе [угроз.](threat-explorer-views.md#email--submissions) <p> Вы можете настроить копирование или перенаправление сообщений в задаемый почтовый ящик. Дополнительные сведения [см. в политиках отправки пользователей.](user-submission.md)
+|[Включение надстройки "Пожаловаться на фишинг"](enable-the-report-phish-add-in.md)|Работает с Outlook и Outlook в Интернете (прежнее название — Outlook Web App). <p> В зависимости от вашей подписки сообщения, о которых пользователи [](admin-submission.md)сообщили с помощью надстройки, доступны на портале отправки администраторов, в результатах автоматического анализа и реагирования [на них,](air-view-investigation-results.md)отчете о сообщениях, [](view-email-security-reports.md#user-reported-messages-report)сообщаемом пользователем, и в обозревателе [угроз.](threat-explorer-views.md#email--submissions) <p> Вы можете настроить копирование или перенаправление сообщений в задаемый почтовый ящик. Дополнительные сведения [см. в политиках отправки пользователей.](user-submission.md)|
 |[Установка и использование надстройки "Отчеты о нежелательной почте" для Microsoft Outlook](junk-email-reporting-add-in-for-microsoft-outlook.md)|Работает только в Outlook.|
 |[Отправка отчетов о нежелательной и фишинговой почте в Outlook в Интернете](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Используйте встроенные возможности Outlook в Интернете для организаций с почтовыми ящиками Exchange Online (недоступны в автономных EOP). <p> Сообщения, о которых сообщают пользователи, доступны на [портале отправки администраторов.](admin-submission.md) <p> Вы можете настроить копирование или перенаправление сообщений в задаемый почтовый ящик. Дополнительные сведения [см. в политиках отправки пользователей.](user-submission.md)|
 |[Сообщение о нежелательной и фишинговой почте в Outlook для iOS и Android](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)|Используйте встроенные возможности Outlook для iOS и Android для организаций с почтовыми ящиками Exchange Online (недоступны в автономных EOP). <p> Сообщения, о которых сообщают пользователи, доступны на [портале отправки администраторов.](admin-submission.md) <p> Вы можете настроить копирование или перенаправление сообщений в задаемый почтовый ящик. Дополнительные сведения [см. в политиках отправки пользователей.](user-submission.md)|

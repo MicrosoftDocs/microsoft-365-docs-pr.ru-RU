@@ -19,6 +19,8 @@
           href: service-description/regions-languages.md
         - name: Жизненный цикл продукта
           href: service-description/device-lifecycle.md
+        - name: Требования к устройству
+          href: service-description/device-requirements.md
         - name: Программные устройства
           href: service-description/device-list.md
           items:
