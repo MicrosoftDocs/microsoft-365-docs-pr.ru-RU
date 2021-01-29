@@ -1,5 +1,5 @@
 ---
-title: Вырезкое обеспечение защиты от кампании
+title: Обеспечение безопасности для вашей кампании или бизнеса
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -23,28 +23,28 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как защитить свою кампанию, увеличив уровень безопасности с помощью Microsoft 365 для кампаний.
-ms.openlocfilehash: 0be3a3ef766686c830ffffc8aaee451b67c0b81f
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Узнайте, как защитить свою кампанию или бизнес, увеличив безопасность с помощью Microsoft 365.
+ms.openlocfilehash: d2486f7160bef57a91d76fba756ff75ba319b8fa
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527094"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044376"
 ---
-# <a name="bump-up-security-protection-for-your-campaign"></a><span data-ttu-id="99f88-103">Вырезкое обеспечение защиты от кампании</span><span class="sxs-lookup"><span data-stu-id="99f88-103">Bump up security protection for your campaign</span></span>
+# <a name="bump-up-security-protection-for-your-campaign-or-business"></a><span data-ttu-id="2cd73-103">Обеспечение безопасности для вашей кампании или бизнеса</span><span class="sxs-lookup"><span data-stu-id="2cd73-103">Bump up security protection for your campaign or business</span></span>
 
 
-## <a name="overview"></a><span data-ttu-id="99f88-104">Обзор</span><span class="sxs-lookup"><span data-stu-id="99f88-104">Overview</span></span> 
-<span data-ttu-id="99f88-105">Просмотрите это видео, чтобы узнать, как можно защитить свою кампанию:</span><span class="sxs-lookup"><span data-stu-id="99f88-105">Watch this video to see how you can protect your campaign:</span></span>
+## <a name="overview"></a><span data-ttu-id="2cd73-104">Обзор</span><span class="sxs-lookup"><span data-stu-id="2cd73-104">Overview</span></span> 
+<span data-ttu-id="2cd73-105">Посмотрите это видео, чтобы узнать, как защитить свою кампанию или бизнес:</span><span class="sxs-lookup"><span data-stu-id="2cd73-105">Watch this video to see how you can protect your campaign or business:</span></span>
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3cfV1]  
 
 
-<span data-ttu-id="99f88-106">Затем выполните указанные ниже действия, чтобы выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="99f88-106">Then follow the steps to:</span></span>
-- [<span data-ttu-id="99f88-107">Защита от вредоносных программ и других угроз</span><span class="sxs-lookup"><span data-stu-id="99f88-107">Protect against malware and other threats</span></span>](m365-campaigns-increase-protection.md)
-- <span data-ttu-id="99f88-108">[Защита доступа к данным кампании](m365-campaigns-conditional-access.md) путем защиты учетных записей и приложений</span><span class="sxs-lookup"><span data-stu-id="99f88-108">[Protect access to your campaign data](m365-campaigns-conditional-access.md) by protecting your accounts and apps</span></span>
-- [<span data-ttu-id="99f88-109">Защита учетных записей администраторов</span><span class="sxs-lookup"><span data-stu-id="99f88-109">Protect admin accounts</span></span>](m365-campaigns-protect-admin-accounts.md)
-- [<span data-ttu-id="99f88-110">Настройка мобильных устройств</span><span class="sxs-lookup"><span data-stu-id="99f88-110">Set up mobile devices</span></span>](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
-- [<span data-ttu-id="99f88-111">Обучение пользователей</span><span class="sxs-lookup"><span data-stu-id="99f88-111">Train your users</span></span>](m365-campaigns-users.md) 
+<span data-ttu-id="2cd73-106">Затем выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="2cd73-106">Then follow the steps to:</span></span>
 
+- [<span data-ttu-id="2cd73-107">Защита от вредоносных программ и других угроз</span><span class="sxs-lookup"><span data-stu-id="2cd73-107">Protect against malware and other threats</span></span>](m365-campaigns-increase-protection.md)
+- <span data-ttu-id="2cd73-108">[Защита доступа к данным кампании](m365-campaigns-conditional-access.md) путем защиты учетных записей и приложений</span><span class="sxs-lookup"><span data-stu-id="2cd73-108">[Protect access to your campaign data](m365-campaigns-conditional-access.md) by protecting your accounts and apps</span></span>
+- [<span data-ttu-id="2cd73-109">Защита учетных записей администраторов</span><span class="sxs-lookup"><span data-stu-id="2cd73-109">Protect admin accounts</span></span>](m365-campaigns-protect-admin-accounts.md)
+- [<span data-ttu-id="2cd73-110">Настройка мобильных устройств</span><span class="sxs-lookup"><span data-stu-id="2cd73-110">Set up mobile devices</span></span>](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
+- [<span data-ttu-id="2cd73-111">Обучение пользователей</span><span class="sxs-lookup"><span data-stu-id="2cd73-111">Train your users</span></span>](m365-campaigns-users.md)

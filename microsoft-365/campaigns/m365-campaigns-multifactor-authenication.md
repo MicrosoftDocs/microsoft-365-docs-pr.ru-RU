@@ -24,21 +24,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка многофакторной проверки подлинности.
-ms.openlocfilehash: feb0a4be07b09ed3e8f00c6d19edca3355f374ab
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 35f96bc41eba9a903bdb3d377a523e2b82e8c428
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131958"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044436"
 ---
-# <a name="set-up-multifactor-authentication"></a><span data-ttu-id="92173-103">Настройка многофакторной проверки подлинности</span><span class="sxs-lookup"><span data-stu-id="92173-103">Set up multifactor authentication</span></span>
+# <a name="set-up-multifactor-authentication"></a><span data-ttu-id="44b1b-103">Настройка многофакторной проверки подлинности</span><span class="sxs-lookup"><span data-stu-id="44b1b-103">Set up multifactor authentication</span></span>
 
-<span data-ttu-id="92173-104">Многофакторная проверка подлинности обеспечивает дополнительную безопасность для вашего бизнеса.</span><span class="sxs-lookup"><span data-stu-id="92173-104">Multi-factor authentication provides more security for your business.</span></span> <span data-ttu-id="92173-105">После того как администратор запрашивает использование MFA, вы можете настроить приложение Microsoft Authenticator для безопасного входа в ключевые приложения с телефона.</span><span class="sxs-lookup"><span data-stu-id="92173-105">After your admin has required you to use MFA, you can set up the Microsoft Authenticator app to let you log into key apps securely with your phone.</span></span> 
+<span data-ttu-id="44b1b-104">Многофакторная проверка подлинности обеспечивает больше безопасности для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="44b1b-104">Multi-factor authentication provides more security for your business.</span></span> <span data-ttu-id="44b1b-105">После того как администратору потребуется использовать MFA, вы можете настроить приложение Microsoft Authenticator, чтобы обеспечить безопасный вход в ключевые приложения с помощью телефона.</span><span class="sxs-lookup"><span data-stu-id="44b1b-105">After your admin has required you to use MFA, you can set up the Microsoft Authenticator app to let you log into key apps securely with your phone.</span></span> 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR]
 
-<span data-ttu-id="92173-106">Дополнительные сведения о [настройке многофакторной проверки подлинности в Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span><span class="sxs-lookup"><span data-stu-id="92173-106">See more at [Set up multifactor authentication in Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span></span>
+<span data-ttu-id="44b1b-106">Дополнительные [см. в настройках многофакторной проверки подлинности в Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span><span class="sxs-lookup"><span data-stu-id="44b1b-106">See more at [Set up multifactor authentication in Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span></span>
 
-## <a name="use-the-outlook-app-in-your-devices"></a><span data-ttu-id="92173-107">Использование приложения Outlook на устройствах</span><span class="sxs-lookup"><span data-stu-id="92173-107">Use the Outlook app in your devices</span></span>
+## <a name="use-the-outlook-app-in-your-devices"></a><span data-ttu-id="44b1b-107">Использование приложения Outlook на устройствах</span><span class="sxs-lookup"><span data-stu-id="44b1b-107">Use the Outlook app in your devices</span></span>
 
-<span data-ttu-id="92173-108">После того как администратору потребуется использовать MFA и вы настроили приложение проверки подлинности в качестве второй формы проверки подлинности, рекомендуется установить и использовать приложение Outlook только для доступа к электронной почте Microsoft 365 для кампаний.</span><span class="sxs-lookup"><span data-stu-id="92173-108">After your admin has required you to use MFA and you've set up an authenticator app as a second form of authentication, we recommend that you install and only use the Outlook app to access your Microsoft 365 for Campaigns email.</span></span> <span data-ttu-id="92173-109">В разделе [Настройка мобильных устройств](../business/set-up-mobile-devices.md) для установки приложений Office, в том числе Outlook, на телефоне.</span><span class="sxs-lookup"><span data-stu-id="92173-109">See [Set up mobile devices](../business/set-up-mobile-devices.md) for how to install Office apps, including Outlook, on your phone.</span></span>
+<span data-ttu-id="44b1b-108">После того как администратору потребуется использовать MFA и вы настроили приложение для проверки подлинности как вторую форму проверки подлинности, рекомендуем установить и использовать только приложение Outlook для доступа к электронной почте Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="44b1b-108">After your admin has required you to use MFA and you've set up an authenticator app as a second form of authentication, we recommend that you install and only use the Outlook app to access your Microsoft 365 email.</span></span> <span data-ttu-id="44b1b-109">Узнайте, [как установить](../business/set-up-mobile-devices.md) приложения Office, в том числе Outlook, на мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="44b1b-109">See [Set up mobile devices](../business/set-up-mobile-devices.md) for how to install Office apps, including Outlook, on your phone.</span></span>
