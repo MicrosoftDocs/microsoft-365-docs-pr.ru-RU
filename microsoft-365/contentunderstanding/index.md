@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте, как найти ресурсы по Microsoft SharePoint Syntex.
-ms.openlocfilehash: 558559efc0387eebb1be7a57c8f7c3aeacfc149e
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 02f3da4e03d13b0710590336e49292ac6df70560
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975731"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044760"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Общие сведения о Microsoft SharePoint Syntex
 
@@ -72,7 +72,7 @@ Microsoft SharePoint Syntex — это служба Office 365, которая �
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Узнайте, как работать с моделями|[Создание центра управления контентом](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-content-center)<br><br>[Создание классификатора](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier)<br><br>[Создание средства извлечения](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-an-extractor)<br><br>[Создание модели обработки форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)<br><br>[Типы объяснения](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)<br><br>[Применение модели осмысления документации](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-model)<br><br>[Подробнее о моделях осмысления документации на примере модели](https://docs.microsoft.com/microsoft-365/contentunderstanding/learn-about-document-understanding-models-through-the-sample-model)<br><br>|
+|Узнайте, как работать с моделями|[Создание центра управления контентом](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-content-center)<br><br>[Создание классификатора](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier)<br><br>[Создание средства извлечения](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-an-extractor)<br><br>[Создание модели обработки форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)<br><br>[Типы объяснения](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview)<br><br>[Применение модели осмысления документации](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-model)<br><br>[Подробнее о моделях осмысления документации на примере модели](https://docs.microsoft.com/microsoft-365/contentunderstanding/learn-about-document-understanding-models-through-the-sample-model)<br><br>|
 |Применение меток хранения к модели|[Применение метки хранения к модели осмысления документации](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
 |Использование таксономии банка терминов служб управляемых метаданных при создании средства извлечения|[Использование таксономии банка терминов при создании средства извлечения](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
 |Узнайте, как просмотреть сведения о моделях|[Аналитика использования моделей](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|

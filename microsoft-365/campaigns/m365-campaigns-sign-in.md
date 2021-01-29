@@ -1,5 +1,5 @@
 ---
-title: Вход в Microsoft 365 для кампаний
+title: Вход в Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,24 +22,26 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Войдите в Microsoft 365 для кампаний. Защитите свою кампанию от угроз циберсекурити для электронной почты, данных и общения.
-ms.openlocfilehash: a11db9a16718d435842508504d7e7f0cba5df898
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+description: Во sign in to Microsoft 365. Защитите свой бизнес, методику или кампанию от угроз кибербезопасности для электронной почты, данных и коммуникаций.
+ms.openlocfilehash: d2bc0ddbfbc839f1b389b844544f33c444012fb4
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131992"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044208"
 ---
-# <a name="sign-in-to-microsoft-365-for-campaigns"></a>Вход в Microsoft 365 для кампаний
+# <a name="sign-in-to-microsoft-365"></a>Вход в Microsoft 365
 
-## <a name="for-campaign-admins"></a>Для администраторов кампании
-Если вы зарегистрировались в Microsoft 365 для кампаний, вы являетесь администратором Microsoft 365. Вот как выполнить вход: 
-1. Найдите имя пользователя и пароль, которые мы отправили на адрес электронной почты, который вы дали в шаге 2 [действий для регистрации](m365-campaigns-sign-up.md#steps-to-sign-up).
-2. В браузере перейдите в центр администрирования Microsoft 365 по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
+## <a name="for-business-or-campaign-admins"></a>Для администраторов бизнеса или кампаний
+
+Если вы подписаны на Microsoft 365, вы администратор Microsoft 365. Вот как войти:
+
+1. Найдите имя пользователя и пароль, отправленные на адрес электронной почты, который вы предоставили в шаге 2 действий [по регистрации.](m365-campaigns-sign-up.md#steps-to-sign-up)
+2. В браузере перейдите в Центр администрирования Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> по
 3. Введите имя пользователя и пароль. Щелкните ссылку **Вход**.
-4. В правом верхнем углу страницы найдите **Предварительный просмотр на** панели управления. Нажмите кнопку **Предварительный просмотр** , чтобы вы могли использовать все элементы управления, описанные в разделе "как сделать так, чтобы обеспечить [защиту кампании](m365-campaigns-security-overview.md)".
+4. В правом верхнем окне страницы найдите **предварительный просмотр в окне** управления. Выберите **"Предварительный просмотр",** чтобы можно было использовать все элементы управления, описанные в описании защиты ["Нагромохоть" для вашей кампании.](m365-campaigns-security-overview.md)
 
-## <a name="for-campaign-staff"></a>Для персонала кампании
-Настройка персонала кампании, как описано в статье [Добавление пользователей](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) также можно сбросить и повторно отправить пароли на странице " **Добавление пользователей** ".
-Все сотрудники кампании могут входить в систему <a href="https://office.com" target="_blank">https://Office.com</a> .
+## <a name="for-staff"></a>Для сотрудников
 
+Задайте персонал, как описано [в](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) описании "Добавление пользователей". Вы также можете сбросить и повторно вводить пароли на странице **"Добавление** пользователей".
+Все сотрудники могут войти в <a href="https://office.com" target="_blank">https://Office.com</a> нее.

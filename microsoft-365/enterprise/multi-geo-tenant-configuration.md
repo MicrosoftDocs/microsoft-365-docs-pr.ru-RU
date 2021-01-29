@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Из этой статьи вы узнаете, как добавить периферийные расположения и настроить клиент для Microsoft 365 Multi-Geo.
-ms.openlocfilehash: 4276d8ff70fed99e74f2cbab29386c81da06d17b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fb907c02a4714c5a2d8e47245321252e7186a8a7
+ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693118"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50040572"
 ---
 # <a name="microsoft-365-multi-geo-tenant-configuration"></a>Конфигурация клиента Microsoft 365 Multi-Geo
 
@@ -110,7 +110,10 @@ ms.locfileid: "46693118"
 
 ## <a name="onedrive-provisioning-and-the-effect-of-pdl"></a>Подготовка к работе OneDrive и влияние PDL
 
-Если у пользователя уже есть сайт OneDrive, созданный в клиенте, при настройке его PDL не будет автоматически выполняться перемещение его сайта OneDrive. Чтобы переместить сайт OneDrive пользователя, см. статью [Перемещение OneDrive для бизнеса в отношении геообъекта](move-onedrive-between-geo-locations.md). Выполните инструкции из раздела о перемещении OneDrive из одного геообъекта в другой. (Обратите внимание, что почтовый ящик Exchange пользователя не перемещается автоматически при настройке PDL пользователя.)
+Если у пользователя уже есть сайт OneDrive, созданный в клиенте, при настройке его PDL не будет автоматически выполняться перемещение его сайта OneDrive. Чтобы переместить oneDrive пользователя, см. ["Перемещение OneDrive для бизнеса в географическом движении".](move-onedrive-between-geo-locations.md)
+
+> [!NOTE]
+> Exchange Online автоматически пересылает почтовый ящик пользователя, если PLD-код изменяется и MailboxRegion больше не соответствует коду географического расположения базы данных почтовых ящиков. Дополнительные сведения см. в администрировании почтовых ящиков [Exchange Online в среде с несколькими географическими средами.](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo)
 
 Если у пользователя нет сайта OneDrive в клиенте, для этого пользователя будет выполнена подготовка OneDrive к работе в соответствии со значением его PDL (при условии, что PDL пользователя соответствует одному из периферийных расположений компании).
 
