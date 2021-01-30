@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 8a4fb7da33a9f689b13a516b7a3066c492bd7de9
-ms.sourcegitcommit: ddbc6f8ebadf2f8149dff910b743535cbc3fa3c8
+ms.openlocfilehash: 953dc90a7e4e09cb75e45347b30dd6b409754bd0
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49992494"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055558"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Иллюстрации повышения производительности в Microsoft 365
 
@@ -27,26 +27,26 @@ ms.locfileid: "49992494"
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>Microsoft Teams и связанные службы повышения производительности в Microsoft 365 для ИТ-архитекторов
 Логическая архитектура служб повышения производительности в Microsoft 365, начиная с Microsoft Teams.
 
-| Item | Описание |
+| Элемент | Описание |
 |:-----|:-----|
-|[![Плакат логической архитектуры Teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Обновлено в январе 2021 г.   |Корпорация Майкрософт предоставляет набор служб повышения производительности, которые взаимодействуют между собой, обеспечивая возможности совместной работы для управления данными, безопасности и соответствия требованиям. <br/> <br/>Этот набор иллюстраций демонстрирует логическую архитектуру служб повышения производительности для корпоративных архитекторов, начиная с Microsoft Teams.|
+|[![Плакат логической архитектуры Teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Обновлено в январе 2021 г.   |Корпорация Майкрософт предоставляет набор служб повышения производительности, которые взаимодействуют между собой, обеспечивая возможности совместной работы для управления данными, безопасности и соответствия требованиям. <br/> <br/>Этот набор иллюстраций демонстрирует логическую архитектуру служб повышения производительности для корпоративных архитекторов, начиная с Microsoft Teams.|
 
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>Группы в Microsoft 365 для ИТ-архитекторов
 Что следует знать ИТ-архитекторам о группах в Microsoft 365
 
-| Item | Описание |
+| Элемент | Описание |
 |:-----|:-----|
 |[![Эскиз инфографики групп](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> Обновлено в мае 2020 г.|На этих иллюстрациях подробно показаны разные типы групп, как они создаются и управляются, а также приводится несколько рекомендаций по управлению.|
 
-### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Возможности Защиты информации и соответствия требованиям Microsoft 365
+### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Возможности защиты информации и соответствия требованиям Microsoft 365
 
 Microsoft 365 включает широкий набор возможностей защиты информации и соответствия требованиям. Вместе со средствами майкрософт для повышения производительности эти возможности призваны помочь организациям совместно работать в режиме реального времени, придерживаясь строгих нормативных требований. 
 
 Этот набор иллюстраций использует одну из самых регулируемых отраслей , финансовые услуги, для демонстрации того, как эти возможности могут применяться для решения общих нормативных требований. Вы можете адаптировать эти изображения для собственного применения. 
 
 
-| Item | Описание |
+| Элемент | Описание |
 |:-----|:-----|
 |[![Плакат модели: возможности защиты информации и соответствия требованиям Microsoft 365](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> Английский язык: [Скачать в виде PDF-файла](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Скачать в виде файла Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Японский язык: [Скачать в виде PDF-файла](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Скачать в виде файла Visio](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> Обновление: ноябрь 2020 г.|Содержимое: <ul><li>  Защита информации (Майкрософт) и защита от потери данных</li><li>Политики и метки хранения </li><li>Информационные барьеры</li><li>Соответствие требованиям к обмену данными</li><li>Внутренний риск</li><li>Внедрение сторонних данных</li>|
 
@@ -54,7 +54,7 @@ Microsoft 365 включает широкий набор возможносте�
 ### <a name="security-and-information-protection-for-multi-region-organizations"></a>Безопасность и защита информации для межрегиональных организаций
 Безопасность и защита информации для межрегиональных организаций с единым клиентом Microsoft 365
 
-| Item | Описание |
+| Элемент | Описание |
 |:-----|:-----|
 |[![Инфографика с несколькими регионами](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Обновление: март 2020 г. |Использование единого клиента Microsoft 365 для глобальной организации является оптимальным вариантом, обеспечивающим максимально комфортную работу, по многим причинам. Тем не менее, многие архитекторы ломают голову над тем, как соответствовать требованиям безопасности и защиты информации в разных регионах. В этой подборке разделов содержатся рекомендации. |
 
@@ -63,7 +63,7 @@ Microsoft 365 включает широкий набор возможносте�
 В зависимости от среды некоторые средства лучше подходят для определенных архитектур.
 
 
-| Item | Описание |
+| Элемент | Описание |
 |:-----|:-----|
 |[![Эскиз стратегии развертывания Конечной точки в Microsoft Defender](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Обновление: февраль 2020 г.| Материалы по архитектуре помогут вам спланировать развертывание для следующих архитектур: <ul><li> Облачное развертывание </li><li> Совместное управление </li><li> Локальное развертывание</li><li>Оценка и локальное внедрение</li>
 
@@ -73,16 +73,16 @@ Microsoft 365 включает широкий набор возможносте�
 
 Рекомендуемые возможности для защиты удостоверений и устройств, которые имеют доступ к Microsoft 365, другим службам SaaS и приложениям, опубликованным с помощью прокси приложения Azure AD.
 
-| Item | Описание |
+| Элемент | Описание |
 |:-----|:-----|
 |[![Плакат модели: защита удостоверений и устройств для Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Представление в формате PDF](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Скачивание в формате PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Скачивание в качестве Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Обновлено в сентябре 2020 г.|Важно, чтобы уровни защиты данных, удостоверений и устройств согласовывались между собой. В этой модели показано, какие возможности сравнимы с дополнительными сведениями о возможностях защиты удостоверений и устройств.  <br/> |
  
 <a name="BKMK_ediscovery"></a>
 ### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Архитектура Advanced eDiscovery в Microsoft 365
 
-Расширенный рабочий процесс и поток данных Advanced eDiscovery, в том числе в средах Microsoft 365 с несколькими географическими средами. 
+Сложный рабочий процесс и поток данных Advanced eDiscovery, в том числе в средах Microsoft 365 с несколькими географическими средами. 
 
-| Item | Описание |
+| Элемент | Описание |
 |:-----|:-----|
 |[![Плакат модели: архитектура Advanced eDiscovery в Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Представление в качестве изображения](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Скачивание в формате PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Скачивание в качестве Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Обновлено в октябре 2020 г.|Содержимое: <ul><li>  Конечный рабочий процесс в одной среде</li><li>Конечный рабочий процесс в среде Microsoft 365 с несколькими географическими средами </li><li>Поток данных с поддержкой рабочего процесса EDRM</li> |
   
