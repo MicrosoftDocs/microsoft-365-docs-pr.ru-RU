@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Включите все функции в Microsoft 365, чтобы повысить производительность удаленных сотрудников и обеспечить безопасный доступ к вашим серверам, данным и облаку.
-ms.openlocfilehash: c6f17f2a80fa37abe43ceabc7a06c86c80eeadbd
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: aa72ba0c47acdd507bf86a082c9b4c2a87e3f1ef
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616360"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055523"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
 
@@ -37,11 +37,16 @@ Microsoft 365 обеспечивает возможности удаленной
 
 ![Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
+>[!Note]
+>Если вы еще не работали с Microsoft 365, см. [эти ресурсы](https://www.microsoft.com/microsoft-365).
+>
+
 Обзор процесса развертывания показан в приведенном ниже видео.
+<br>
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
 
-Это решение предоставляет перечисленные ключевые возможности.
+Это решение предоставляет следующие ключевые возможности ИТ-специалистам, управляющим местной и облачной инфраструктурой с целью повышения производительности сотрудников.
 
 - Подключение
 
