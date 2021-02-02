@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 10/16/2020
+ms.date: 2/1/2021
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -17,16 +17,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Полный список корневых сертификатов и ЦС в Microsoft 365.
-ms.openlocfilehash: 96499cbf2eae554ecddc9bc7bcf622db2515f980
-ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
+ms.openlocfilehash: 3dd85ae9ec4e691c8b3dce03256e1afb1fcb6274
+ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905268"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50068935"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Цепочки шифрования Microsoft 365
 
-Microsoft 365 использует несколько различных поставщиков сертификатов. Ниже приводится полный список известных корневых сертификатов Microsoft 365, с которыми клиенты могут столкнуться при доступе к Microsoft 365. Дополнительные сведения о сертификатах, которые может потребоваться установить в собственной инфраструктуре, см. в планировании сторонних [SSL-сертификатов для Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates) Следующая информация о сертификате применяется ко всем экземплярам Microsoft 365 во всем мире и национальных облачных службах.
+Microsoft 365 использует несколько различных поставщиков сертификатов. Ниже приводится полный список известных корневых сертификатов Microsoft 365, с которыми клиенты могут столкнуться при доступе к Microsoft 365. Дополнительные сведения о сертификатах, которые может потребоваться установить в собственной инфраструктуре, см. в планировании сторонних [SSL-сертификатов для Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates) Следующие сведения о сертификате применимы ко всем экземплярам Microsoft 365 во всем мире и национальных облачных службах.
 
 Last updated: **10/16/2020**
 
@@ -58,7 +58,7 @@ Last updated: **10/16/2020**
 
 ### <a name="cnnic-root"></a>**КОРНЕВОЙ КОРНЕВОЙ**
 
-| **Тема** | CN=IC ROOT<br>O=THEIC<br>C=CN |
+| **Тема** | CN=ROOT<br>O=THEIC<br>C=CN |
 | --- | --- |
 | **Серийный номер** | 49:33:00:01 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -249,7 +249,7 @@ Last updated: **10/16/2020**
 
 ### <a name="cnnic-sha256-ssl"></a>**CNNIC SHA256 SSL**
 
-| **Тема** | CN=THEIC SHA256 SSL <br>O=IC SHA256 SSL <br>C=CN |
+| **Тема** | CN=THEIC SHA256 SSL <br>O=THEIC SHA256 SSL <br>C=CN |
 | --- | --- |
 | **Издатель** | CN=IC ROOT <br>O=THEIC <br>C=CN |
 | **Серийный номер** | 49:33:00:7C |
@@ -313,7 +313,7 @@ Last updated: **10/16/2020**
 | **Длина открытого ключа** | RSA 2048 бит |
 | **Алгоритм подписи** | sha256RSA |
 | **Срок действия не ранее** | Среда, 4 марта 2020 г., 4:04 |
-| **Срок действия : "Не до"** | Понедельник, 4 марта 2030 г., 4:04 |
+| **Срок действия не до** | Понедельник, 4 марта 2030 г., 4:04 |
 | **Идентификатор ключа субъекта** | 06BDA69B60795031BED5A9024AA0D095538B2F34 |
 | **Идентификатор ключа полномочия** | KeyID:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **Thumbprint (SHA-1)** | 4D1FA5D1FB1AC3917C08E43F65015E6AEA571179 |
@@ -321,6 +321,23 @@ Last updated: **10/16/2020**
 | **URL-адреса CRL** | http://crl.digicert.cn/DigiCertGlobalRootCA.crl |
 | **URL-адреса OCSP** | http://ocsp.digicert.cn |
 
+### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
+
+| **Тема** | CN=DigiCert Cloud Services CA-1<br>O=DigiCert Inc<br>C=US |
+| --- | --- |
+| **Издатель** | CN=DigiCert Global Root CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
+| **Серийный номер** | 01:9E:C1:C6:BD:3F:59:7B:B2:0C:33:38:E5:51:D8:77 |
+| **Длина открытого ключа** | RSA 2048 бит |
+| **Алгоритм подписи** | sha256RSA |
+| **Срок действия не ранее** | 4 августа 2015 г. 12:00 |
+| **Срок действия : "Не до"** | 4 августа 2030 г. 12:00 |
+| **Идентификатор ключа субъекта** | dd:51:d0:a2:31:73:a9:73:ae:8f:b4:01:7e:5d:8c:57:cb:9f:f0:f7 |
+| **Идентификатор ключа полномочия** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **Thumbprint (SHA-1)** | 81B68D6CD2f221F8F534E677523BB236BBA1DC56 |
+| **Thumbprint (SHA-256)** | 2F6889961A7CA7067E8BA103C2CF9B9A924F8CA293F11178E23A1978D2F133D3 |
+| **Pin (SHA-256)** | UgpUVparimk8QCjtWQaUQ7EGrtrykc/L8N66EhFY3VE= |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com |
 
 ### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
 
@@ -330,15 +347,15 @@ Last updated: **10/16/2020**
 | **Серийный номер** | 0F:17:1A:48:C6:F2:23:80:92:18:CD:2E:D6:DD:C0:E8 |
 | **Длина открытого ключа** | RSA 2048 бит |
 | **Алгоритм подписи** | sha256RSA |
-| **Срок действия не ранее** | Четверг, 24 сентября 2020 г., 17:00 |
-| **Срок действия : "Не до"** | Вторник, 24 сентября 2030 г., 16:59 |
-| **Идентификатор ключа субъекта** | DD51D0A23173A973AE8FB4017E5D8C57CB9FF0F7 |
-| **Идентификатор ключа полномочия** | KeyID:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **Срок действия не ранее** | 25 сентября 2020 г. 00:00 |
+| **Срок действия не после** | 24 сентября 2030 г. 23:59 |
+| **Идентификатор ключа субъекта** | dd:51:d0:a2:31:73:a9:73:ae:8f:b4:01:7e:5d:8c:57:cb:9f:f0:f7 |
+| **Идентификатор ключа полномочия** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **Thumbprint (SHA-1)** | B3F6B64A07BB9611F47174407841F564FB991F29 |
-| **Thumbprint (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 |
+| **Thumbprint (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 | -
 | **Pin (SHA-256)** | UgpUVparimk8QCjtWQaUQ7EGrtrykc/L8N66EhFY3VE= |
-| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl <br> http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
-| **URL-адреса OCSP** | http://ocsp.digicert.com |
+| **URL-адреса CRL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **URL-адреса OCSP** | http://ocsp.digicert.com
 
 ### <a name="digicert-sha2-extended-validation-server-ca"></a>**ЦС расширенного сервера проверки DigiCert SHA2**
 
@@ -348,7 +365,7 @@ Last updated: **10/16/2020**
 | **Серийный номер** | 0C:79:A9:44:B0:8C:11:95:20:92:61:5F:E2:6B:1D:83 |
 | **Длина открытого ключа** | RSA 2048 бит |
 | **Алгоритм подписи** | sha256RSA |
-| **Срок действия не ранее** | Вторник, 22 октября 2013 г., 5:00 |
+| **Срок действия не ранее** | Вторник, 22 октября 2013 г. 5:00 |
 | **Срок действия : "Не до"** | Воскресенье, 22 октября 2028 г., 5:00 |
 | **Идентификатор ключа субъекта** | 3DD350A5D6A0ADEEF34A600A65D321D4F8F8D60F |
 | **Идентификатор ключа полномочия** | KeyID:b1:3e:c3:69:03:f8:bf:47:01:d4:98:26:1a:08:02:ef:63:64:2b:c3 |
@@ -402,7 +419,7 @@ Last updated: **10/16/2020**
 | **Длина открытого ключа** | RSA 2048 бит |
 | **Алгоритм подписи** | sha256RSA |
 | **Срок действия не ранее** | Вторник, 22 сентября 2020 г., 17:00 |
-| **Срок действия : "Не до"** | Воскресенье, 22 сентября 2030 г., 16:59 |
+| **Срок действия не до** | Воскресенье, 22 сентября 2030 г., 16:59 |
 | **Идентификатор ключа субъекта** | 0F80611C823161D52F28E78D4638B42CE1C6D9E2 |
 | **Идентификатор ключа полномочия** | KeyID:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **Thumbprint (SHA-1)** | 626D44E704D1CEABE3BF0D53397464AC8080142C |
@@ -419,7 +436,7 @@ Last updated: **10/16/2020**
 | **Длина открытого ключа** | RSA 2048 бит |
 | **Алгоритм подписи** | sha256RSA |
 | **Срок действия не ранее** | Среда, 23 сентября 2020 г. 17:00 |
-| **Срок действия : "Не до"** | Понедельник, 23 сентября 2030 г. 16:59 |
+| **Срок действия не до** | Понедельник, 23 сентября 2030 г. 16:59 |
 | **Идентификатор ключа субъекта** | B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4 |
 | **Идентификатор ключа полномочия** | KeyID:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **Thumbprint (SHA-1)** | 6938FD4D98BAB03FAADB97B34396831E3780AEA1 |
@@ -447,9 +464,9 @@ Last updated: **10/16/2020**
 
 ### <a name="entrust-certification-authority---l1k"></a>**Надзорный орган сертификации — L1K**
 
-| **Тема** | CN=Certification Certification Authority - L1K<br>OU= &quot; (c) 2012 Доверенности, Inc. — только для авторизованного использования&quot;<br>OU=See www.entrust.net/legal-terms<br>O= &quot; Доверен, Inc.&quot;<br>C=US |
+| **Тема** | CN=Certification Certification Authority - L1K<br>OU= &quot; (c) 2012 Доверенности, Inc. — только для авторизованного использования&quot;<br>OU=See www.entrust.net/legal-terms<br>O= &quot; Доверенный, Inc.&quot;<br>C=US |
 | --- | --- |
-| **Издатель** | CN=Root Certification Authority ( Корневой ЦС по надзору за корневыми сертификатами) — G2<br>OU= &quot; (c) 2009 Доверенное, Inc. — только для авторизованного использования&quot;<br>OU=See www.entrust.net/legal-terms<br>O= &quot; Доверен, Inc.&quot;<br>C=US |
+| **Издатель** | CN=Root Certification Authority ( Корневой ЦС по надзору за корневыми сертификатами) — G2<br>OU= &quot; (c) 2009 Доверенное, Inc. — только для авторизованного использования&quot;<br>OU=See www.entrust.net/legal-terms<br>O= &quot; Доверенный, Inc.&quot;<br>C=US |
 | **Серийный номер** | 0E:E9:4C:C3:00:00:00:00:51:D3:77:85 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
 | **Алгоритм подписи** | sha256RSA |
@@ -463,7 +480,7 @@ Last updated: **10/16/2020**
 | **URL-адреса CRL** | http://crl.entrust.net/g2ca.crl |
 | **URL-адреса OCSP** | http://ocsp.entrust.net |
 
-### <a name="globalsign-extended-validation-ca---sha256---g2"></a>**Глобальный ЦС для расширенной проверки — SHA256 — G2**
+### <a name="globalsign-extended-validation-ca---sha256---g2"></a>**Глобальный ЦС для расширенной проверки SHA256 - G2**
 
 | **Тема** | CN=GlobalSign Extended Validation CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |
@@ -631,7 +648,7 @@ Last updated: **10/16/2020**
 | **Длина открытого ключа** | RSA 4096 бит |
 | **Алгоритм подписи** | sha384RSA |
 | **Срок действия не ранее** | Среда, 29 июля 2020 г. 5:30 |
-| **Срок действия : "Не до"** | Четверг, 27 июня 2024 г., 16:59 |
+| **Срок действия не до** | Четверг, 27 июня 2024 г., 16:59 |
 | **Идентификатор ключа субъекта** | C7B29C7F1CE3B85AEFE9681AA85D94C126526A68 |
 | **Идентификатор ключа полномочия** | KeyID:4e:22:54:20:18:95:e6:e3:6e:e6:0f:fa:b9:12:ed:06:17:8f:39 |
 | **Thumbprint (SHA-1)** | 6C3AF02E7F269AA73AFD0EFF2A88A4A1F04ED1E5 |
@@ -754,7 +771,7 @@ Last updated: **10/16/2020**
 | **Длина открытого ключа** | RSA 4096 бит |
 | **Алгоритм подписи** | sha256RSA |
 | **Срок действия не ранее** | Вторник, 21 июля 2020 г., 16:00 |
-| **Срок действия : "Не до"** | Вторник, 8 октября 2024 г., 12:00 |
+| **Срок действия не до** | Вторник, 8 октября 2024 г., 12:00 |
 | **Идентификатор ключа субъекта** | FF2F7FE106F438F32DED258D98C2FE0EF66CFCFA |
 | **Идентификатор ключа полномочия** | KeyID:e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **Thumbprint (SHA-1)** | B0C2D2D13CDD56CDAA6AB6E2C04440BE4A429C75 |
@@ -783,7 +800,7 @@ Last updated: **10/16/2020**
 
 ### <a name="symantec-class-3-secure-server-ca---g4"></a>**Symantec Class 3 Secure Server CA — G4**
 
-| **Тема** | CN=Symantec Class 3 Secure Server CA - G4<br>OU=Symantec Trust Network<br>O=Symantec Corporation<br>C=US |
+| **Тема** | CN=Symantec Class 3 Secure Server CA — G4<br>OU=Symantec Trust Network<br>O=Symantec Corporation<br>C=US |
 | --- | --- |
 | **Издатель** | CN=VeriSign Class 3 Public Primary Certification Authority - G5<br>OU= &quot; (c) 2006 VeriSign, Inc. — только для авторизованного использования&quot;<br>OU=VeriSign Trust Network<br>O= &quot; VeriSign, Inc.&quot;<br>C=US |
 | **Альтернативное имя субъекта** | Адрес каталога: CN=SymantecPKI-1-534 |

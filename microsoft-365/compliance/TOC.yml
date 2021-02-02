@@ -152,8 +152,6 @@
           href: encryption-sensitivity-labels.md
         - name: Автоматическое применение метки конфиденциальности к содержимому
           href: apply-sensitivity-label-automatically.md
-        - name: Просмотр использования меток с помощью аналитики меток
-          href: label-analytics.md
         - name: 'Использование меток конфиденциальности для команд, групп и сайтов'
           href: sensitivity-labels-teams-groups-sites.md
         - name: Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
