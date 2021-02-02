@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: 307687a277ade03f3ba40852eff15378928465e6
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.openlocfilehash: 751b88ea3dde0c4cf2a33dded26a032a1e320b5e
+ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49788001"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50071314"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
@@ -224,7 +224,7 @@ ms.locfileid: "49788001"
 
 Центр безопасности и соответствия требованиям Office 365 содержит аналогичные общие сведения о метках хранения в разделе **Управление сведениями** > **Панель мониторинга**, а также более подробные сведения в разделе **Управление сведениями** > **Обозреватель действий с метками**. Дополнительные сведения об отслеживании меток хранения в старом центре администрирования см. в следующей документации:
 - [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
-- [Просмотр использования меток с помощью аналитики меток](label-analytics.md)
+- [Начало работы с классификацией данных](data-classification-overview.md)
 - [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
 
 #### <a name="using-content-search-to-find-all-content-with-a-specific-retention-label"></a>Использование средства "Поиск контента" для поиска содержимого с определенной меткой хранения
