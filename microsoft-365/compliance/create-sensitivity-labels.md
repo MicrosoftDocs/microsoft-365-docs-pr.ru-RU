@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: 816da1001593dc36d625a48d12a1e0ace86578bf
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: 60865b40582416ac2ac963c4a8c68353b06fc6d4
+ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058502"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50071294"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
@@ -239,4 +239,4 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 - [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 
-Сведения об отслеживании использования меток см. в статье [Просмотр использования меток с помощью аналитики меток](label-analytics.md).
+Сведения о контроле использования меток см. в статье [Начало работы с классификацией данных](data-classification-overview.md).
