@@ -232,57 +232,63 @@
     - name: Защита от потери данных (DLP)
       items:
         - name: О защите от потери данных
-          href: data-loss-prevention-policies.md
-        - name: DLP и Microsoft Teams
-          href: dlp-microsoft-teams.md
-        - name: Сведения о защите от потери данных в конечной точке
-          href: endpoint-dlp-learn-about.md
-        - name: Начало работы с функцией защиты от потери данных в конечной точке
-          href: endpoint-dlp-getting-started.md
-        - name: Настройка параметров прокси-сервера и подключения к Интернету для конечной точки защиты от потери данных
-          href: endpoint-dlp-configure-proxy.md
-        - name: Использование защиты от потери данных в конечной точке
-          href: endpoint-dlp-using.md
-        - name: Средства и методы подключения DLP в конечной точке для устройств с Windows 10
           items:
-            - name: Средства и методы подключения для устройств с Windows 10
-              href: dlp-configure-endpoints.md
-            - name: Подключение устройств Windows 10 с помощью групповой политики
-              href: dlp-configure-endpoints-gp.md
-            - name: Подключение устройств Windows 10 с помощью средств управления мобильными устройствами
-              href: dlp-configure-endpoints-mdm.md
-            - name: "Подключение устройств Windows\_10 с помощью Configuration Manager"
-              href: dlp-configure-endpoints-sccm.md
-            - name: Подключение устройств Windows 10 с помощью локального сценария
-              href: dlp-configure-endpoints-script.md
-            - name: Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)
-              href: dlp-configure-endpoints-vdi.md
-        - name: Начало работы с политикой защиты от потери данных по умолчанию
-          href: get-started-with-the-default-dlp-policy.md
-        - name: Создание политики защиты от потери данных на основе шаблона
-          href: create-a-dlp-policy-from-a-template.md
-        - name: 'Создание, тестирование и настройка политики защиты от потери данных'
-          href: create-test-tune-dlp-policy.md
-        - name: Использование уведомлений и подсказок политики в политиках DLP
-          href: use-notifications-and-policy-tips.md
-        - name: Настройка и просмотр оповещений для политик DLP (предварительная версия)
-          href: dlp-configure-view-alerts-policies.md
-        - name: Что входит в шаблоны политик DLP
-          href: what-the-dlp-policy-templates-include.md
-        - name: Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
-          href: protect-documents-that-have-fci-or-other-properties.md
-        - name: Просмотр отчетов о защите от потери данных
-          href: view-the-dlp-reports.md
-        - name: 'Формирование запроса для поиска конфиденциальных данных, которые хранятся на сайтах'
-          href: form-a-query-to-find-sensitive-data-stored-on-sites.md
-        - name: Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
-          href: how-dlp-works-between-admin-centers.md
-        - name: Использование меток конфиденциальности в качестве условия в политиках защиты от потери данных (предварительная версия)
-          href: dlp-sensitivity-label-as-condition.md
-        - name: Использование политик защиты от потери данных для облачных приложений сторонних поставщиков (не Майкрософт)
-          href: dlp-use-policies-non-microsoft-cloud-apps.md
-        - name: Условия и исключения политики защиты от потери данных (предварительная версия)
-          href: dlp-conditions-and-exceptions.md
+            - name: О защите от потери данных
+              href: data-loss-prevention-policies.md
+            - name: Сведения о защите от потери данных в конечной точке
+              href: endpoint-dlp-learn-about.md
+        - name: Начало работы с защитой от потери данных
+          items:
+            - name: Начало работы с политикой защиты от потери данных по умолчанию
+              href: get-started-with-the-default-dlp-policy.md
+            - name: Создание политики защиты от потери данных на основе шаблона
+              href: create-a-dlp-policy-from-a-template.md
+            - name: 'Создание, тестирование и настройка политики защиты от потери данных'
+              href: create-test-tune-dlp-policy.md
+            - name: Начало работы с функцией защиты от потери данных в конечной точке
+              href: endpoint-dlp-getting-started.md
+            - name: Настройка параметров прокси-сервера и подключения к Интернету для конечной точки защиты от потери данных
+              href: endpoint-dlp-configure-proxy.md
+            - name: Средства и методы подключения DLP в конечной точке для устройств с Windows 10
+              items:
+                - name: Средства и методы подключения для устройств с Windows 10
+                  href: dlp-configure-endpoints.md
+                - name: Подключение устройств Windows 10 с помощью групповой политики
+                  href: dlp-configure-endpoints-gp.md
+                - name: Подключение устройств Windows 10 с помощью средств управления мобильными устройствами
+                  href: dlp-configure-endpoints-mdm.md
+                - name: "Подключение устройств Windows\_10 с помощью Configuration Manager"
+                  href: dlp-configure-endpoints-sccm.md
+                - name: Подключение устройств Windows 10 с помощью локального сценария
+                  href: dlp-configure-endpoints-script.md
+                - name: Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)
+                  href: dlp-configure-endpoints-vdi.md
+        - name: Использование защиты от потери данных
+          items:
+            - name: DLP и Microsoft Teams
+              href: dlp-microsoft-teams.md
+            - name: Использование защиты от потери данных в конечной точке
+              href: endpoint-dlp-using.md
+            - name: Использование уведомлений и подсказок политики в политиках DLP
+              href: use-notifications-and-policy-tips.md
+            - name: Что входит в шаблоны политик DLP
+              href: what-the-dlp-policy-templates-include.md
+            - name: Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
+              href: protect-documents-that-have-fci-or-other-properties.md
+            - name: Просмотр отчетов о защите от потери данных
+              href: view-the-dlp-reports.md
+            - name: 'Формирование запроса для поиска конфиденциальных данных, которые хранятся на сайтах'
+              href: form-a-query-to-find-sensitive-data-stored-on-sites.md
+            - name: Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
+              href: how-dlp-works-between-admin-centers.md
+            - name: Настройка и просмотр оповещений для политик DLP (предварительная версия)
+              href: dlp-configure-view-alerts-policies.md
+            - name: Использование меток конфиденциальности в качестве условия в политиках защиты от потери данных (предварительная версия)
+              href: dlp-sensitivity-label-as-condition.md
+            - name: Использование политик защиты от потери данных для облачных приложений сторонних поставщиков (не Майкрософт)
+              href: dlp-use-policies-non-microsoft-cloud-apps.md
+            - name: Условия и исключения политики защиты от потери данных (предварительная версия)
+              href: dlp-conditions-and-exceptions.md
 - name: Организация управления информацией
   items:
     - name: Управление данными
@@ -729,6 +735,8 @@
       items:
         - name: Поиск в журнале аудита
           href: search-the-audit-log-in-security-and-compliance.md
+        - name: Поиск по журналу аудита с помощью сценария PowerShell
+          href: audit-log-search-script.md
         - name: Включение и отключение поиска в журнале аудита
           href: turn-audit-log-search-on-or-off.md
         - name: Подробные свойства в журнале аудита

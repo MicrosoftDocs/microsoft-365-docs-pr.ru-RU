@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте, как создать средство извлечения в Microsoft SharePoint Syntex.
-ms.openlocfilehash: 7417805f51bb3a1c7b993ce2cd72137478abbc02
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: dd26b049f71688804cd5110a5a0bb7c87950be94
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976547"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080495"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Создание средства извлечения в Microsoft SharePoint Syntex
 
@@ -57,6 +57,14 @@ ms.locfileid: "49976547"
 
  
 После того, как вы отметите пять файлов, отобразится баннер с уведомлением о переходе к обучению. Вы можете добавить метки для большего количества документов или перейти к обучению. 
+
+### <a name="use-find-to-search-your-file"></a>Обнаружение файлов с помощью функции "Найти"
+Вы можете использовать функцию <b>Найти</b> для поиска в документе объекта, который нужно пометить.
+
+   ![Найти в файле](../media/content-understanding/find-feature.png) 
+
+Функция "Найти" удобна, если выполняется поиск в большом документе или при наличии нескольких вхождений объекта в документе. Если вы нашли несколько вхождений, в результатах поиска можно выбрать одно из них, чтобы перейти к его расположению в средстве просмотра и пометить его.
+
 
 ## <a name="add-an-explanation"></a>Добавление объяснений
 
