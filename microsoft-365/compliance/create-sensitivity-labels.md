@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: 60865b40582416ac2ac963c4a8c68353b06fc6d4
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: b7943259d3a20cbf4fd6d8b0b57ca7c027e74d3f
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071294"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084660"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
@@ -186,7 +186,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 При нажатии этой кнопки запустится мастер **создания политики**, позволяющий изменить метки, которые будут включены, и параметры меток. После завершения работы мастера все изменения автоматически реплицируются для выбранных пользователей и служб.
 
-Если вы используете встроенные метки для Windows, macOS, iOS и Android, пользователи увидят новые метки в своих приложениях Office в течение четырех часов, а в Office для Интернета — в течение одного часа. Однако репликация этих изменений для всех приложений и служб может занять до 24 часов.
+Если вы используете встроенные метки в приложениях Office для Windows, macOS, iOS и Android, пользователи увидят новые метки в течение четырех часов, а в Office для Интернета — в течение одного часа. Однако репликация этих изменений для всех приложений и служб может занять до 24 часов.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры политики меток в PowerShell в Центре безопасности и соответствия требованиям
 
