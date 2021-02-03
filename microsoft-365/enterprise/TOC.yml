@@ -478,16 +478,20 @@
   href: 'https://docs.microsoft.com/windows/deployment/'
 - name: Приложения Microsoft 365 для предприятий
   href: 'https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps'
+- name: Устройства Surface
+  href: 'https://docs.microsoft.com/surface/deploy'
+- name: Управление устройствами
+  items:
+    - name: Стратегия
+      href: device-management-roadmap-microsoft-365.md
+- name: Microsoft Edge
+  href: 'https://docs.microsoft.com/deployedge/deploy-edge-plan-deployment'
 - name: Примеры конфигураций каналов развертывания и обновления
   items:
     - name: Обзор
       href: deploy-update-channels-examples.md
     - name: Широкое развертывание новых выпусков
       href: deploy-update-channels-examples-rapid-deploy.md
-- name: Управление устройствами
-  items:
-    - name: Стратегия
-      href: device-management-roadmap-microsoft-365.md
 - name: Управление Microsoft 365 с помощью PowerShell
   href: manage-microsoft-365-with-microsoft-365-powershell.md
   items:
