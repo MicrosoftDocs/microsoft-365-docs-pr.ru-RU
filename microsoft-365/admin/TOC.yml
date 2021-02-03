@@ -184,8 +184,6 @@
               href: email/resolve-issues-with-shared-mailboxes.md
         - name: Настройка сортировки почты
           href: setup/configure-focused-inbox.md
-        - name: Сведения о совместной работе в электронной почте
-          href: email/email-collaboration.md
         - name: Добавление пользователя или контакта в группу рассылки
           href: email/add-user-or-contact-to-distribution-list.md
         - name: Управление функцией "Несрочные" для организации
