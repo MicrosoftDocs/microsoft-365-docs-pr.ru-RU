@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Расширенный аудит в Microsoft 365 предоставляет новые функции аудита, помогающие организации при расследованиях и анализе соответствия требованиям.
-ms.openlocfilehash: 83ff462ada02c9b262cfcaadb6bd48e47376cc0f
-ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
+ms.openlocfilehash: f265a30a3d43b592a7d297e2137fd6b9ff4acfb4
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "49740366"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097155"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Расширенный аудит в Microsoft 365
 
@@ -116,7 +116,9 @@ ms.locfileid: "49740366"
 В Exchange Online PowerShell также можно выполнить [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog).
 
 > [!NOTE]
-> В Exchange Online PowerShell необходимо выполнить указанную ниже команду, чтобы события SearchQueryInitiatedExchange, выполненные указанным пользователем E5, были включены в результаты поиска в журнале аудита: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.
+> В Exchange Online PowerShell необходимо выполнить указанную ниже команду, чтобы события SearchQueryInitiatedExchange, выполненные указанным пользователем E5, были включены в результаты поиска в журнале аудита: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
+В среде с поддержкой нескольких регионов необходимо выполнить команду **Set-Mailbox** в лесу, в котором находится почтовый ящик пользователя. Чтобы определить расположение почтового ящика пользователя, выполните следующую команду: `Get-Mailbox <user identity> | FL MailboxLocations`.
+Если команда `Set-Mailbox -AuditOwner @{Add="SearchQueryInitiated"}` ранее выполнялась в лесу, отличном от того, в котором находится почтовый ящик пользователя, то необходимо удалить значение SearchQueryInitiated из почтового ящика пользователя (запустив `Set-Mailbox -AuditOwner @{Remove="SearchQueryInitiated"}`), а затем добавить его в почтовый ящик пользователя в лес, в котором находится почтовый ящик пользователя.
 
 ### <a name="searchqueryinitiatedsharepoint"></a>SearchQueryInitiatedSharePoint
 
@@ -129,7 +131,9 @@ ms.locfileid: "49740366"
 В Exchange Online PowerShell также можно выполнить [Search-UnifiedAuditLog -Operations SearchQueryInitiatedSharePoint](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog).
 
 > [!NOTE]
-> В Exchange Online PowerShell необходимо выполнить указанную ниже команду, чтобы события SearchQueryInitiatedSharePoint, выполненные указанным пользователем E5, были включены в результаты поиска в журнале аудита: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.
+> В Exchange Online PowerShell необходимо выполнить указанную ниже команду, чтобы события SearchQueryInitiatedExchange, выполненные указанным пользователем E5, были включены в результаты поиска в журнале аудита: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
+В среде с поддержкой нескольких регионов необходимо выполнить команду **Set-Mailbox** в лесу, в котором находится почтовый ящик пользователя. Чтобы определить расположение почтового ящика пользователя, выполните следующую команду: `Get-Mailbox <user identity> | FL MailboxLocations`.
+Если команда `Set-Mailbox -AuditOwner @{Add="SearchQueryInitiated"}` ранее выполнялась в лесу, отличном от того, в котором находится почтовый ящик пользователя, то необходимо удалить значение SearchQueryInitiated из почтового ящика пользователя (запустив `Set-Mailbox -AuditOwner @{Remove="SearchQueryInitiated"}`), а затем добавить его в почтовый ящик пользователя в лес, в котором находится почтовый ящик пользователя.
 
 ## <a name="high-bandwidth-access-to-the-office-365-management-activity-api"></a>Доступ с высокой пропускной способностью к API действий управления Office 365
 

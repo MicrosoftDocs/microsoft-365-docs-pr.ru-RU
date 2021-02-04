@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: ebf1efe99e57084e2384e7499b3f72dab2b872c2
-ms.sourcegitcommit: b8e9b2ecdc4927b67088c5fffb1585424c66fb10
+ms.openlocfilehash: efbdee1fd5ee3c8c48aca9cbaf9e5a85a107edb4
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50050393"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094692"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "50050393"
 > [!NOTE]
 > Содержимое карточек является недавним дополнением, которое в настоящее время разворачивается для клиентов. Дополнительные сведения см. в статье [Теперь доступны возможности соответствия требованиям Microsoft 365 для содержимого адаптивных карточек через приложения в Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
-Сообщения Teams частных каналов в число указанных элементов не включаются, как и реакция других пользователей в виде смайликов.
+Сообщения Teams частных каналов в число указанных элементов не включаются, как и фрагменты кода, а также реакция других пользователей в виде смайликов.
 
 Сообщения электронной почты и файлы, которые вы используете в Teams, не включаются в политики хранения для Teams. У этих элементов есть собственные политики хранения.
 
