@@ -113,14 +113,16 @@
               href: azure-integration.md
             - name: Azure ExpressRoute
               href: azure-expressroute.md
-        - name: Поддержка клиентских приложений
+        - name: Поддержка приложений клиента и служб
           items:
+            - name: Поддержка приложений клиента и служб
+              href: microsoft-365-client-services-app-support.md
             - name: Проверка подлинности на основе сертификатов
               href: microsoft-365-client-support-certificate-based-authentication.md
             - name: Условный доступ
               href: microsoft-365-client-support-conditional-access.md
-            - name: Современная проверка подлинности
-              href: microsoft-365-client-support-modern-authentication.md
+            - name: Многофакторная проверка подлинности
+              href: microsoft-365-client-support-multi-factor-authentication.md
             - name: Единый вход
               href: microsoft-365-client-support-single-sign-on.md
             - name: Выбор между Basic Mobility + Security и Intune
