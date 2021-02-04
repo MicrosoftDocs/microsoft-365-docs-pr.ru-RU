@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Необходимо, чтобы удаленные работники входили в систему с помощью многофакторной проверки подлинности (MFA).
-ms.openlocfilehash: 85bac90085b47b5114db875c822d98aa1365cf97
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 7df6b1335c0ca45c06eee98eeff89f59b6365807
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558168"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097144"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Этап 1. Повышение безопасности входа для удаленных сотрудников с помощью MFA
 
@@ -38,12 +38,12 @@ ms.locfileid: "49558168"
 |---------|---------|
 |Все планы Microsoft 365 (без лицензий Azure AD Premium P1 или P2)     |[Включите параметры безопасности, по умолчанию заданные в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.   |
 |Microsoft 365 E3 (включает лицензии Azure AD Premium P1)     | Используйте [Общие политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br>- [Обязательное использование MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Обязательное использование MFA для всех пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5 (включает лицензии Azure AD Premium P2)     | Пользуйтесь преимуществами Защиты идентификации Azure AD и начните применять [рекомендуемый набор политик условного доступа и связанных с ними политик](../security/office-365-security/identity-access-policies.md) (Майкрософт), создав следующие политики.<br> - [Обязательное использование MFA при среднем или высоком риске входа в систему](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Необходимость смены пароля для пользователей с высоким риском](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Microsoft 365 E5 (включает лицензии Azure AD Premium P2)     | Пользуйтесь преимуществами Защиты идентификации Azure AD и начните применять [рекомендуемый набор политик условного доступа и связанных с ними политик](../security/office-365-security/identity-access-policies.md) (Майкрософт), создав следующие политики.<br> - [Обязательное использование MFA при среднем или высоком риске входа в систему](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br>- [Необходимость смены пароля для пользователей с высоким риском](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ## <a name="security-defaults"></a>Параметры безопасности по умолчанию
 
-Параметры безопасности по умолчанию — новая функция в платных и пробных подписках Microsoft 365 и Office 365, появившаяся после 21 октября 2019 г. В этих подписках включены параметры безопасности по умолчанию, что ***обязывает всех пользователей использовать MFA в приложении Microsoft Authenticator** _.
+Параметры безопасности по умолчанию — новая функция в платных и пробных подписках Microsoft 365 и Office 365, появившаяся после 21 октября 2019 г. В этих подписках включены параметры безопасности по умолчанию, что ***обязывает всех пользователей применять MFA в приложении Microsoft Authenticator***.
  
 На регистрацию MFA в приложении Microsoft Authenticator с помощью смартфонов у пользователей есть 14 дней с момента первого входа в систему после включения параметров безопасности по умолчанию. По истечении 14 дней пользователь не сможет войти в систему до завершения регистрации MFA.
 
@@ -91,7 +91,7 @@ ms.locfileid: "49558168"
 
 | Метод | Включено | Отключено | Дополнительный метод аутентификации |
 |:-------|:-----|:-------|:-------|
-| _ *Параметры безопасности по умолчанию**  | Невозможно использовать политики условного доступа | Возможно использование политик условного доступа | Приложение Microsoft Authenticator |
+| **Параметры безопасности по умолчанию**  | Невозможно использовать политики условного доступа | Возможно использование политик условного доступа | Приложение Microsoft Authenticator |
 | **Политики условного доступа** | Если включена хотя бы одна из них, то включение параметров безопасности по умолчанию невозможно | Если все отключены, вы можете включить настройки безопасности по умолчанию  | Пользователь указывает при регистрации MFA  |
 ||||
 

@@ -1,5 +1,5 @@
 ---
-title: 'Поддержка клиентских приложений Microsoft 365: условный доступ'
+title: 'Поддержка клиентских приложений Microsoft 365: многофакторная проверка подлинности'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -7,34 +7,36 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MET150
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
+search.appverid:
+- MET150
 f1.keywords:
 - NOCSH
-description: В этой статье вы узнаете, какие платформы, клиенты и модули PowerShell поддерживают условный доступ для Microsoft 365.
+description: В этой статье вы узнаете, какие платформы, клиенты и модули PowerShell поддерживают многофакторную проверку подлинности для Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 969dd9d712fe124458273144b3e7974e03ade9e0
+ms.openlocfilehash: fdec611fc595cdc15abb0fc1fb7a998f7a615ff7
 ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097250"
+ms.locfileid: "50097484"
 ---
-# <a name="microsoft-365-client-app-support-conditional-access"></a>Поддержка клиентских приложений Microsoft 365: условный доступ
+# <a name="microsoft-365-client-app-support-multi-factor-authentication"></a>Поддержка клиентских приложений Microsoft 365: многофакторная проверка подлинности
 
-На современном рабочем месте пользователи могут получать доступ к ресурсам организации с помощью различных устройств и приложений из любого места. В результате недостаточно сосредоточиться на том, кто может получить доступ к ресурсу. Организация также должна поддерживать доступ к ресурсу в инфраструктуре управления доступом и его местонахождении.
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Благодаря устройству, расположению и условному доступу на основе многофакторной проверки подлинности Azure Active Directory вы можете выполнить это новое требование. Условный доступ — это возможность Azure Active Directory, которая позволяет применять элементы управления для доступа к приложениям в вашей среде на основе определенных условий и управления из центрального расположения.
+Чтобы обеспечить дополнительный уровень безопасности для входов, клиенты могут быть настроены на использование многофакторной проверки подлинности (MFA), которая использует как пароль пользователя, так и дополнительный метод проверки пользователя на основе:
 
-Узнайте больше об [условном доступе Azure Active Directory.](/azure/active-directory/conditional-access/)
+- Что-то в их распоряжении, которое не так просто дублировать, например смартфон.
+- Что-то, что есть у пользователя однозначно и однозначно, например отпечатки пальцев, лицо или другой биометрический атрибут
+
+Узнайте больше о [многофакторной проверке подлинности.](/azure/active-directory/authentication/multi-factor-authentication)
 
 ## <a name="supported-clients--platforms"></a>Поддерживаемые клиенты & платформ
 
-Последние версии следующих клиентов и платформ поддерживают условный доступ. Дополнительные сведения о поддержке платформы в Microsoft 365 см. в требованиях к системе [для Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
-
+Последние версии следующих клиентов и платформ поддерживают многофакторную проверку подлинности. Дополнительные сведения о поддержке платформы в Microsoft 365 см. в требованиях к системе [для Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 
@@ -44,7 +46,7 @@ ms.locfileid: "50097250"
 | Access | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
 | Администратор Azure | Н/Д | Н/Д | Н/Д | Н/Д | Н/Д |
 | Портал компании | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно |
-| Кортана | Planned | Planned | Недоступно | ![Поддерживается](../media/check-mark.png) | Недоступно |
+| Кортана | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно | ![Поддерживается](../media/check-mark.png) | Недоступно |
 | Delve | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
 | Microsoft Edge | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
 | Excel | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
@@ -59,13 +61,14 @@ ms.locfileid: "50097250"
 | OneNote | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
 | Outlook | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
 | Планировщик | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
-| Power Apps | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно | Planned | Недоступно |
+| Power Apps | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно | ![Поддерживается](../media/check-mark.png) | Недоступно |
 | Power Automate | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
 | Power BI | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
 | PowerPoint | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
 | Project | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
 | Publisher | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
-| Skype для бизнеса | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д ||
+| Skype для бизнеса | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно | ![Поддерживается](../media/check-mark.png) |
+| Администратор Skype для бизнеса | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
 | SharePoint | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
 | Администратор SharePoint Online | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
 | Примечания | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) | Недоступно |

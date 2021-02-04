@@ -14,65 +14,65 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: В этой статье рассказывается о том, какие платформы, клиенты и модули PowerShell поддерживают единый вход для Microsoft 365.
+description: В этой статье вы узнаете, какие платформы, клиенты и модули PowerShell поддерживают единый вход для Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b70f0c1ec4a6e94651b987830c8b29993732a3c2
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: 5a685f04ed64a89cda026ff9380aac7c6c2b3ea4
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806671"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097202"
 ---
 # <a name="microsoft-365-client-app-support-single-sign-on"></a>Поддержка клиентских приложений Microsoft 365: один Sign-On
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Единый вход (SSO) обеспечивает безопасность и удобство при входе пользователей в приложения в Azure Active Directory. При использовании единого входа пользователи могут войти в систему один раз с одной учетной записью, чтобы получить доступ к локальным доменным службам Active Directory (AD DS), программному обеспечению и приложениям в виде службы (SaaS) и веб-приложениям.
+Единый вход (SSO) повышает безопасность и удобство при входе пользователей в приложения в Azure Active Directory. При едином входе пользователи вошел один раз с одной учетной записью для доступа к устройствам, присоединенным к домену доменных служб Active Directory (AD DS), приложениям SaaS и веб-приложениям.
 
-Дополнительные сведения об использовании [единого входа](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on).
+Узнайте больше об [едином входе.](/azure/active-directory/manage-apps/what-is-single-sign-on)
 
-## <a name="supported-clients--platforms"></a>Поддерживаемые клиенты & платформы
+## <a name="supported-clients--platforms"></a>Поддерживаемые клиенты & платформ
 
-Последние версии следующих клиентов и платформ поддерживают единый вход. Дополнительные сведения о поддержке платформ в Microsoft 365 приведены в разделе [требования к системе для microsoft 365](https://products.office.com/office-system-requirements).
+Последние версии следующих клиентов и платформ поддерживают единый вход. Дополнительные сведения о поддержке платформы в Microsoft 365 см. в требованиях к системе [для Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 
 | Клиенты | Android | iOS | "Mac";| Windows 10; <br> Современные приложения| Windows 10; <br> Desktop |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| Доступ | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
-| Корпоративный портал | Н/Д | ![Поддерживается](../media/check-mark.png) | Календар | ![Поддерживается](../media/check-mark.png) | Н/Д |
-| Потребляет | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
-| Delve | Календар | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
-| Microsoft Edge | ![Поддерживается](../media/check-mark.png) | Календар | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Access | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Портал компании | Недоступно | ![Поддерживается](../media/check-mark.png) | Planned | ![Поддерживается](../media/check-mark.png) | Недоступно |
+| Кортана | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) | Недоступно |
+| Delve | Planned | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
+| Microsoft Edge | ![Поддерживается](../media/check-mark.png) | Planned | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
 | Excel | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
-| Kaizala | ![Поддерживается](../media/check-mark.png) | Календар | Н/Д | Н/Д | Н/Д |
+| Kaizala | ![Поддерживается](../media/check-mark.png) | Planned | Н/Д | Н/Д | Н/Д |
 | Office Lens| ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
 | Office Mobile | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
-| Портал Office | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
-| OneDrive | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Календар | ![Поддерживается](../media/check-mark.png) | Календар |
-| OneNote | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Календар |
-| Outlook | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Календар | ![Поддерживается](../media/check-mark.png) |
+| Портал Office | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) | Недоступно |
+| OneDrive | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Planned | ![Поддерживается](../media/check-mark.png) | Planned |
+| OneNote | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Planned |
+| Outlook | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Planned | ![Поддерживается](../media/check-mark.png) |
 | Планировщик | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
-| Power Apps | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Календар | Н/Д |
+| Power Apps | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно | Planned | Недоступно |
 | Power Automate | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
-| Power BI | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | ![Поддерживается](../media/check-mark.png) | Календар |
+| Power BI | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно | ![Поддерживается](../media/check-mark.png) | Planned |
 | PowerPoint | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
 | Project | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
 | Publisher | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
-| Skype для бизнеса | Календар | Календар | Н/Д | Н/Д | Н/Д |
+| Skype для бизнеса | Planned | Planned | Н/Д | Н/Д | Н/Д |
 | SharePoint | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Н/Д |
-| Клейкие заметки | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
-| Stream | Календар | Календар | Н/Д | Н/Д | Н/Д |
+| Примечания | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Stream | Planned | Planned | Н/Д | Н/Д | Н/Д |
 | Sway | Н/Д | Н/Д | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
-| Teams | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Календар | Н/Д | Календар |
-| To-Do | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
-| Visio | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
-| Доска | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д | ![Поддерживается](../media/check-mark.png) | Н/Д |
+| Teams | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Planned | Недоступно | Planned |
+| To Do | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Недоступно | ![Поддерживается](../media/check-mark.png) | Недоступно |
+| Visio | Недоступно | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | ![Поддерживается](../media/check-mark.png) |
+| Доска | Недоступно | ![Поддерживается](../media/check-mark.png) | Недоступно | ![Поддерживается](../media/check-mark.png) | Недоступно |
 | Word | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) |
-| Yammer | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Календар |
+| Yammer | ![Поддерживается](../media/check-mark.png) | ![Поддерживается](../media/check-mark.png) | Н/Д | Н/Д | Planned |
 
 ## <a name="supported-powershell-modules"></a>Поддерживаемые модули PowerShell
 
-- [PowerShell Azure Active Directory](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)
-- [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
-- [PowerShell в SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+- [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
+- [PowerShell в SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)

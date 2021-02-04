@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 description: Ответы на часто задаваемые вопросы о перемещении основных данных в новый центр обработки данных Office 365.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 49ddcbf3a1aa8d91bd8202894e114fe50624720a
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.openlocfilehash: a7e59622e35604ebd9befbbe17a8a125ed15e101
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780264"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094659"
 ---
 # <a name="data-move-general-faq"></a>Ответы на общие вопросы о перемещении данных
 
@@ -108,7 +108,7 @@ ms.locfileid: "49780264"
   
 ## <a name="what-happens-if-we-are-in-process-of-email-data-migration-to-microsoft-365-during-the-exchange-online-move"></a>Что произойдет при переносе данных электронной почты в Microsoft 365 во время перемещения Exchange Online?
 
-Это очень распространенный сценарий, который полностью поддерживается. Облачная миграция между геообъекторами центра обработки данных не препятствует миграции из локальной организации в облачные почтовые ящики.
+Это очень распространенный сценарий, который полностью поддерживается.  Облачная миграция между геообъекторами центра обработки данных не препятствует миграции из локальной организации в облачные почтовые ящики.
   
  ## <a name="can-i-pilot-some-users"></a>Можно ли пилотное пилотное несколько пользователей?
   

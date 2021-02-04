@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 4e008488bdd733c9a7ce5b418fb838e0fe880d9d
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 521b5fc2a8efee83b6a2931e7dbc1c713bd63cd2
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080748"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094811"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Перенос запросов на расширенный поиск из Microsoft Defender для конечной точки
 
@@ -35,7 +35,7 @@ ms.locfileid: "50080748"
 **Область применения:**
 - Microsoft 365 Defender
 
-Переместите расширенные процессы охоты из Microsoft Defender для конечной точки, чтобы заблаговременно искать угрозы с использованием более широкого набора данных. В Microsoft 365 Defender вы получаете доступ к данным из других решений для обеспечения безопасности Microsoft 365, в том числе:
+Переместите ваши расширенные процессы выслеки из Microsoft Defender для конечной точки, чтобы заблаговременно искать угрозы с использованием более широкого набора данных. В Microsoft 365 Defender вы получаете доступ к данным из других решений для обеспечения безопасности Microsoft 365, в том числе:
 
 - Microsoft Defender для конечной точки
 - Microsoft Defender для Office 365
@@ -56,10 +56,10 @@ ms.locfileid: "50080748"
 | [AlertInfo](advanced-hunting-alertinfo-table.md) | Оповещения из Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender для удостоверений, включая сведения о серьезности и категории угроз  |
 | [AppFileEvents](advanced-hunting-appfileevents-table.md) | Действия, связанные с файлами, в облачных приложениях и службах |
 | [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) | Сведения о файлах, вложенных в сообщения электронной почты |
-| [EmailEvents](advanced-hunting-emailevents-table.md) | События электронной почты Microsoft 365, включая события доставки и блокирования электронной почты |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | События электронной почты Microsoft 365, в том числе события доставки и блокирования электронной почты |
 | [EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) | События безопасности, которые происходят после доставки, после того как Microsoft 365 доставляет сообщения электронной почты в почтовый ящик получателя |
 | [EmailUrlInfo](advanced-hunting-emailurlinfo-table.md) | Сведения об URL-адресах в электронных письмах |
-| [IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) | События с использованием локального контроллера домена с Active Directory (AD). В этой таблице описывается ряд событий, связанных с удостоверением, и системных событий на контроллере домена. |
+| [IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) | События, связанные с контроллером локального домена под управлением Active Directory (AD). В этой таблице описывается ряд событий, связанных с удостоверением, и системных событий на контроллере домена. |
 | [IdentityInfo](advanced-hunting-identityinfo-table.md) | Сведения об учетной записи из различных источников, включая Azure Active Directory |
 | [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md) | События проверки подлинности в Active Directory и веб-службах Майкрософт |
 | [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md) | Запросы объектов Active Directory, таких как пользователи, группы, устройства и домены |
@@ -114,64 +114,7 @@ AlertInfo
 | where FileName == "powershell.exe"
 ```
 
-## <a name="migrate-custom-detection-rules"></a>Перенос пользовательских правил обнаружения
 
-При редактировании правил Microsoft Defender для конечных точек в Microsoft 365 они продолжают работать так же, как и раньше, если в результате запроса только таблицы устройств. Например, оповещения, созданные пользовательскими правилами обнаружения, которые запрашивают только таблицы устройств, будут по-прежнему доставляться в SIEM и создавать уведомления по электронной почте в зависимости от того, как вы настроили их в Microsoft Defender для конечной точки. Все существующие правила подавления в Защитнике для конечной точки также будут применяться.
-
-После изменения правила Защитника для конечной точки, чтобы оно запрашивает таблицы удостоверений и электронной почты, доступные только в Microsoft 365 Defender, правило автоматически перемещается в Microsoft 365 Defender. 
-
-Оповещения, созданные правилом переноса:
-
-- Больше не видны на портале Защитника конечных точек (Центр безопасности Microsoft Defender)
-- Прекратить доставку в SIEM или создавать уведомления по электронной почте. Чтобы обойти это изменение, настройте уведомления через Microsoft 365 Defender для получения оповещений. Вы можете использовать [API Защитника Microsoft 365](api-incident.md) для получения уведомлений об оповещениях об обнаружении клиентов или связанных инцидентах.
-- Microsoft Defender не будет подавлять правила подавления конечных точек. Чтобы предотвратить генерирование оповещений для определенных пользователей, устройств или почтовых ящиков, измените соответствующие запросы, чтобы исключить эти сущности явным образом.
-
-Если вы изменяете правило таким образом, вам будет предложено подтвердить, прежде чем эти изменения будут применены.
-
-Новые оповещения, созданные пользовательскими правилами обнаружения на портале Защитника Microsoft 365, отображаются на странице оповещений со следующими сведениями:
-
-- Название и описание оповещения 
-- Активы, на которые влияют ресурсы
-- Действия, принятые в ответ на оповещение
-- Результаты запроса, которые инициировали оповещение 
-- Сведения о настраиваемом правиле обнаружения 
- 
-![Изображение новой страницы оповещений](../../media/newalertpage.png)
-
-## <a name="write-queries-without-devicealertevents"></a>Написание запросов без DeviceAlertEvents
-
-В схеме Защитника Microsoft 365 предоставляются таблицы и таблицы для размещения разнообразных сведений, сопровождающих оповещения из `AlertInfo` `AlertEvidence` различных источников. 
-
-Чтобы получить те же сведения оповещений, которые использовались для получения из таблицы в схеме Microsoft Defender для конечной точки, отфильтруем таблицу по каждому уникальному ИД с таблицей, которая предоставляет подробные сведения о событиях и `DeviceAlertEvents` `AlertInfo` `ServiceSource` `AlertEvidence` объектах. 
-
-См. пример запроса ниже:
-
-```kusto
-AlertInfo
-| where Timestamp > ago(7d)
-| where ServiceSource == "Microsoft Defender for Endpoint"
-| join AlertEvidence on AlertId
-```
-
-Этот запрос дает намного больше столбцов, чем `DeviceAlertEvents` в схеме Microsoft Defender для конечной точки. Чтобы управлять результатами, используйте для получения только интересуемых `project` столбцов. В примере ниже проектов столбцов, которые могут вас заинтересовать, когда исследование обнаружило активность PowerShell:
-
-```kusto
-AlertInfo
-| where Timestamp > ago(7d)
-| where ServiceSource == "Microsoft Defender for Endpoint"
-    and AttackTechniques has "powershell"
-| join AlertEvidence on AlertId
-| project Timestamp, Title, AlertId, DeviceName, FileName, ProcessCommandLine 
-```
-
-Если вы хотите отфильтровать определенные объекты, участвующие в оповещениях, это можно сделать, указав тип сущности и значение, которое вы хотите `EntityType` отфильтровать. В следующем примере ищется определенный IP-адрес:
-
-```kusto
-AlertInfo
-| where Title == "Insert_your_alert_title"
-| join AlertEvidence on AlertId 
-| where EntityType == "Ip" and RemoteIP == "192.88.99.01" 
-```
 
 ## <a name="see-also"></a>См. также
 - [Включить Защитник Microsoft 365](advanced-hunting-query-language.md)
