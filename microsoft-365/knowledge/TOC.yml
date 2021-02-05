@@ -1,12 +1,12 @@
-- name: Начало работы с Темами
+- name: Начало работы с Microsoft Viva
   items:
-    - name: Общие сведения о Темах
+    - name: Общие сведения о Microsoft Viva
       href: index.md
-    - name: Обзор Тем
+    - name: Обзор Microsoft Viva
       href: topic-experiences-overview.md
-    - name: Обнаружение и управление Темами
+    - name: Обнаружение и настройка Microsoft Viva
       href: topic-experiences-discovery-curation.md
-    - name: Роли Тем
+    - name: Роли Microsoft Viva
       href: topic-experiences-roles.md
     - name: Подготовка среды
       href: topic-experiences-get-ready.md
@@ -14,7 +14,7 @@
   items:
     - name: Безопасность тем
       href: topic-experiences-security-privacy.md
-    - name: Планирование работы с темами
+    - name: Планирование тем
       href: plan-topic-experiences.md
     - name: Настройка тем
       href: set-up-topic-experiences.md
@@ -38,6 +38,8 @@
       href: edit-a-topic.md
     - name: Фильтрация по ролям безопасности
       href: topic-experiences-security-trimming.md
+    - name: Поиск тем
+      href: search.md
 - name: Внедрение
   items:
     - name: Начало работы по внедрению
