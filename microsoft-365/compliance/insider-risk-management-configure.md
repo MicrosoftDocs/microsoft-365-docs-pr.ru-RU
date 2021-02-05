@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 3eaa6481c2f1b0d41066a8cea1b28d776f786a1b
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: 3a88c48e6915b03316b29d80d2a0f7550d4b5d32
+ms.sourcegitcommit: b88ffaf3409e02a9847f030f8468f96d36efa398
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094780"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50105166"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Начало работы с управлением внутренними рисками
 
@@ -41,10 +41,13 @@ ms.locfileid: "50094780"
 - Подписка на Microsoft 365 A5 (платная или пробная версия)
 - Подписка на Microsoft 365 A3 + надстройка соответствия требованиям Microsoft 365 A5
 - Подписка на Microsoft 365 A3 + надстройка microsoft 365 A5 Insider Risk Management
+- Подписка на Microsoft 365 G5 (платная или пробная версия)
+- Подписка на Microsoft 365 G5 + надстройка соответствия требованиям Microsoft 365 G5
+- Подписка на Microsoft 365 G5 + надстройка Microsoft 365 G5 Insider Risk Management
 
 Пользователям, включенным в внутренние политики управления рисками, должна быть назначена одна из вышеуказанных лицензий.
 
-Если у вас нет существующего плана Microsoft 365 корпоративный E5 и вы хотите попробовать управление рисками [](https://www.microsoft.com/microsoft-365/enterprise) внутри организации, вы можете добавить [Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) в существующую подписку или зарегистрироваться для пробной подписки на Microsoft 365 корпоративный E5.
+Если у вас нет существующего плана Microsoft 365 корпоративный E5 и вы хотите попробовать управление рисками [](https://www.microsoft.com/microsoft-365/enterprise) внутри организации, вы можете добавить [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) в существующую подписку или зарегистрироваться для пробной подписки на Microsoft 365 корпоративный E5.
 
 ## <a name="step-1-enable-permissions-for-insider-risk-management"></a>Шаг 1. Разрешение на управление рисками внутри организации
 
@@ -63,7 +66,7 @@ ms.locfileid: "50094780"
 | **Исследователи управления внутренними рисками** | Используйте эту группу для назначения разрешений пользователям, которые будут выступать в качестве участников расследования по данным о рисках. Пользователи в этой группе ролей могут получать доступ ко всем оповещениям, делам, шаблонам уведомлений и обозревателю содержимого для управления рисками внутри организации. |
 
 > [!NOTE]
-> В настоящее время эти группы ролей не поддерживаются в privileged Identity Management (PIM). Дополнительные данные о PIM см. в руководстве "Назначение ролей [Azure AD в privileged Identity Management".](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user)
+> В настоящее время эти группы ролей не поддерживаются в privileged Identity Management (PIM). Дополнительные данные о PIM см. в руководстве "Назначение ролей [Azure AD в privileged Identity Management".](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user)
 
 ### <a name="add-users-to-an-insider-risk-management-role-group"></a>Добавление пользователей в группу ролей управления рисками внутри организации
 

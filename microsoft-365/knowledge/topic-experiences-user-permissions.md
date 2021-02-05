@@ -1,5 +1,5 @@
 ---
-title: Управление разрешениями тем в Microsoft 365
+title: Управление разрешениями тем в microsoft Viva Topics
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,18 +9,17 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-description: Узнайте, как администрировать разрешения тем в Microsoft 365.
-ms.openlocfilehash: b42bcf25f7b7516fb2b8b6e6b052d94fa6c4ea94
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+description: Узнайте, как администрировать разрешения тем в Microsoft Viva Topics.
+ms.openlocfilehash: 6592103526a86671a3ff42c698c1243f63be7fef
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668299"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107416"
 ---
-# <a name="manage-topic-permissions-in-microsoft-365"></a>Управление разрешениями тем в Microsoft 365
+# <a name="manage-topic-permissions-in-microsoft-viva-topics"></a>Управление разрешениями тем в microsoft Viva Topics
 
-Вы можете управлять настройками разрешений темы в Центре администрирования [Microsoft 365.](https://admin.microsoft.com) Для выполнения этих задач необходимо быть глобальным администратором или администратором SharePoint.
+Вы можете управлять настройками разрешений тем в Центре администрирования [Microsoft 365.](https://admin.microsoft.com) Для выполнения этих задач необходимо быть глобальным администратором или администратором SharePoint.
 
 С помощью параметров разрешений темы можно выбрать:
 
@@ -30,7 +29,7 @@ ms.locfileid: "49668299"
 ## <a name="to-access-topics-management-settings"></a>Чтобы получить доступ к настройкам управления разделами:
 
 1. В Центре администрирования Microsoft 365 выберите **"Параметры"** и **"Параметры организации".**
-2. На **вкладке "Службы"** щелкните **"Сеть знаний".**
+2. На **вкладке "Службы"** щелкните **"Раздел".**
 
     ![Подключение людей к знаниям](../media/admin-org-knowledge-options-completed.png) 
 
@@ -50,7 +49,7 @@ ms.locfileid: "49668299"
 
     ![Создание и редактирование разделов](../media/k-manage-who-can-create-and-edit.png)  
 
-3. Нажмите **Сохранить**.
+3. Нажмите кнопку **Сохранить**.
 
 Обновление разрешений на управление разделами:
 
@@ -61,12 +60,12 @@ ms.locfileid: "49668299"
 
     ![Управление темами](../media/k-manage-who-can-manage-topics.png)  
 
-3. Нажмите **Сохранить**.
+3. Нажмите кнопку **Сохранить**.
 
 ## <a name="see-also"></a>См. также
 
-[Управление обнаружением тем в Microsoft 365](topic-experiences-discovery.md)
+[Управление обнаружением тем в Microsoft Viva Topics](topic-experiences-discovery.md)
 
-[Управление видимостью тем в Microsoft 365](topic-experiences-knowledge-rules.md)
+[Управление видимостью тем в microsoft Viva Topics](topic-experiences-knowledge-rules.md)
 
-[Изменение имени центра тем в Microsoft 365](topic-experiences-administration.md)
+[Изменение имени центра тем в Microsoft Viva Topics](topic-experiences-administration.md)

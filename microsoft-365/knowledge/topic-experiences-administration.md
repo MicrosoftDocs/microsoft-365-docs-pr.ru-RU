@@ -1,5 +1,5 @@
 ---
-title: Изменение имени центра тем в Microsoft 365
+title: Изменение имени центра тем в Microsoft Viva Topics
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,23 +9,22 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-description: Узнайте, как изменить имя центра тем в Microsoft 365.
-ms.openlocfilehash: 63ce6b75d26ad600d1241a70fcbd616ecc98a4d2
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+description: Узнайте, как изменить имя центра тем в Microsoft Viva Topics.
+ms.openlocfilehash: 91f0693ba24e412812e1b8db19cfcf0febd2ec66
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668209"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107733"
 ---
-# <a name="change-the-name-of-the-topic-center-in-microsoft-365"></a>Изменение имени центра тем в Microsoft 365
+# <a name="change-the-name-of-the-topic-center-in-microsoft-viva-topics"></a>Изменение имени центра тем в Microsoft Viva Topics
 
 Вы можете изменить имя центра тем в Центре администрирования [Microsoft 365.](https://admin.microsoft.com) Для выполнения этих задач необходимо быть глобальным администратором или администратором SharePoint.
 
 ## <a name="to-access-topics-management-settings"></a>Чтобы получить доступ к настройкам управления разделами:
 
 1. В Центре администрирования Microsoft 365 выберите **"Параметры"** и **"Параметры организации".**
-2. На **вкладке "Службы"** щелкните **"Сеть знаний".**
+2. На **вкладке "Службы"** щелкните **"Раздел".**
 
     ![Подключение людей к знаниям](../media/admin-org-knowledge-options-completed.png) 
 
@@ -45,8 +44,8 @@ ms.locfileid: "49668209"
 
 ## <a name="see-also"></a>См. также
 
-[Управление обнаружением тем в Microsoft 365](topic-experiences-discovery.md)
+[Управление обнаружением тем в Microsoft Viva Topics](topic-experiences-discovery.md)
 
-[Управление видимостью тем в Microsoft 365](topic-experiences-knowledge-rules.md)
+[Управление видимостью тем в microsoft Viva Topics](topic-experiences-knowledge-rules.md)
 
-[Управление разрешениями тем в Microsoft 365](topic-experiences-user-permissions.md)
+[Управление разрешениями тем в microsoft Viva Topics](topic-experiences-user-permissions.md)
