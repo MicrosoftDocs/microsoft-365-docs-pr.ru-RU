@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вспомогательные ресурсы для соблюдения нормативных требований к управлению данными и записями.
-ms.openlocfilehash: 891dd3f37e70ae94dbae96baaa7c38b71456305b
-ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
+ms.openlocfilehash: e46abc4efec356cfd058414063d3e76ffe8ff224
+ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50032570"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50109938"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>Нормативные требования к управлению данными и записями
 
@@ -34,7 +34,7 @@ ms.locfileid: "50032570"
 
 **Поддержка обязательств по соблюдению Закона Новой Зеландии об общественных записях с помощью Microsoft 365** - [Скачать оценку](https://aka.ms/NZPRA)
 
-Применимые рабочие нагрузки: SharePoint, OneDrive, Teams, Exchange и Skype для бизнеса
+Применимые рабочие нагрузки: SharePoint, OneDrive, Teams и Exchange
 
 Этот отчет, опубликованный в январе 2021 г., был подготовлен совместно с корпорацией Майкрософт Новая Зеландия для оценки возможностей служб Microsoft 365 в отношении создания и хранения электронных записей, а также управления ими в соответствии с требованиями, указанными: 
 
