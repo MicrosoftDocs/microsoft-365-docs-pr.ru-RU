@@ -15,25 +15,24 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как список гостевых пользователей заполняется в Центре администрирования Microsoft 365.
-ms.openlocfilehash: 338b86d7f32eb2a2ecbacc3d7d1e00124c3804e4
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 7610e22be5cf229c9c0b71dd1282f8138452fe67
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751440"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126097"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Гостевых пользователей в Центре администрирования Microsoft 365
 
 Все гости, добавленные в Microsoft Teams, SharePoint или Azure Active  Directory, также добавляются в список гостевых пользователей в Центре администрирования Майкрософт. Гости могут посетить собрания, просматривать документы и общаться в чате в Teams, на которые они приглашены.
 После того как пользователь появляется в **списке** гостевых пользователей, вы можете удалить его доступ к нему.
 
-Чтобы просмотреть гостевых пользователей, в Центре администрирования Microsoft 365 в левой области nav разберем "Пользователи" и выберите **гостевых пользователей.** 
+Чтобы просмотреть гостевых пользователей, в Центре администрирования Microsoft 365 в области слева разберем "Пользователи" и выберите гостевых **пользователей.** 
 
 ## <a name="add-guests-to-teams"></a>Добавление гостей в Teams
 
@@ -62,4 +61,4 @@ ms.locfileid: "49751440"
 1. В Центре администрирования Microsoft 365 разберем пользователей и выберите **гостевых пользователей.** 
 1. На странице **"Гостевых пользователей"** выберите пользователя, который нужно удалить, а затем выберите **"Удалить пользователя".** 
 
-Чтобы удалить пользователей на портале Azure AD, см. удаление [гостевого пользователя и ресурсов.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)
+Чтобы удалить пользователей на портале Azure AD, см. удаление гостевого пользователя [и ресурсов.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)

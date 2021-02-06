@@ -13,16 +13,16 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5e7815dbcfc6129685322a250351276476f8a9e3
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: c45a2733c1fa7cf6d05cff747a9cfcdba1b124cc
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980053"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126166"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Атрибуты для политик информационных барьеров
 
-Для сегментации пользователей можно использовать определенные атрибуты в Azure Active Directory. После определения сегментов эти сегменты можно использовать в качестве фильтров для политик информационных барьеров. Например, можно использовать  отдел для определения сегментов пользователей по отделам в организации (при условии, что ни один сотрудник не работает для двух отделов одновременно).
+Некоторые атрибуты в Azure Active Directory можно использовать для сегментации пользователей. После определения сегментов эти сегменты можно использовать в качестве фильтров для политик информационных барьеров. Например, можно использовать  отдел для определения сегментов пользователей по отделам в организации (при условии, что ни один сотрудник не работает для двух отделов одновременно).
 
 В этой статье описывается, как использовать атрибуты с информационными барьерами, а также приводится список атрибутов, которые можно использовать. Дополнительные сведения о информационных барьерах см. в следующих ресурсах:
 
@@ -38,16 +38,16 @@ ms.locfileid: "49980053"
 
 2. Убедитесь, что для учетных записей пользователей заполнены значения атрибутов, выбранных на шаге 1. Просмотр сведений об учетной записи пользователя и при необходимости изменение учетных записей пользователей, включив значения атрибутов. 
 
-    - Чтобы изменить несколько учетных записей (или изменить одну учетную запись с помощью PowerShell), см. статью "Настройка свойств учетной записи пользователя с помощью [PowerShell в Office 365".](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
+    - Чтобы изменить несколько учетных записей (или изменить одну учетную запись с помощью PowerShell), см. статью "Настройка свойств учетной записи пользователя с [помощью PowerShell в Office 365".](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
 
-    - Чтобы изменить одну учетную запись, см. статью "Добавление или обновление сведений профиля пользователя [с помощью Azure Active Directory".](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+    - Чтобы изменить одну учетную запись, см. статью "Добавление или обновление сведений профиля пользователя [с помощью Azure Active Directory".](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 3. [Определите сегменты с помощью PowerShell,](information-barriers-policies.md#define-segments-using-powershell)как в следующих примерах:
 
     |**Пример**|**Командлет**|
     |:----------|:---------|
     | Определение сегмента Segment1 с помощью атрибута Department | `New-OrganizationSegment -Name "Segment1" -UserGroupFilter "Department -eq 'Department1'"` |
-    | Определите сегмент SegmentA с помощью атрибута MemberOf (предположим, что этот атрибут содержит имена групп, например BlueGroup) | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"` |
+    | Определите сегмент SegmentA с помощью атрибута MemberOf (предположим, что этот атрибут содержит имена групп, например BlueGroup). | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"` |
     | Определите сегмент DayTraders с помощью ExtensionAttribute1 (предположим, что этот атрибут содержит должности, такие как DayTrader) | `New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
 
     > [!TIP]

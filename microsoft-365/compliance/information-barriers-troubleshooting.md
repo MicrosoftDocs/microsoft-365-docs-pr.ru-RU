@@ -13,12 +13,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 39ac5c2f12b8947bce26d426cac83e57cd4c87ae
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: 3810dd977ef0d25642ba86a2b62a036c9a4ace06
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980042"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126566"
 ---
 # <a name="troubleshooting-information-barriers"></a>Устранение проблем с информационными барьерами
 
@@ -27,7 +27,7 @@ ms.locfileid: "49980042"
 Если после на месте информационных барьеров у людей могут быть непредвиденные проблемы, для их решения можно выполнить несколько действий. Используйте эту статью в качестве руководства.
 
 > [!IMPORTANT]
-> Для выполнения задач, описанных в этой статье, вам должна быть назначена соответствующая роль, например одна из следующих:<br/>- Глобальный администратор Microsoft 365 корпоративный<br/>- глобальный администратор<br/>- Администратор соответствия требованиям<br/>- Управление соответствием требованиям IB (это новая роль!)<p>Дополнительные сведения о предварительных условиях для информационных барьеров см. в предварительных условия [(для политик информационных барьеров).](information-barriers-policies.md#prerequisites)<p>Не забудьте [подключиться к PowerShell Центра & безопасности.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+> Для выполнения задач, описанных в этой статье, вам должна быть назначена соответствующая роль, например одна из следующих:<br/>- Глобальный администратор Microsoft 365 корпоративный<br/>- глобальный администратор<br/>- Администратор соответствия требованиям<br/>- Управление соответствием требованиям IB (это новая роль!)<p>Дополнительные сведения о предварительных условиях для информационных барьеров см. в дополнительных сведениях [(для политик информационных барьеров).](information-barriers-policies.md#prerequisites)<p>Не забудьте [подключиться к PowerShell Центра & безопасности.](/powershell/exchange/connect-to-scc-powershell)
 
 ## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>Проблема: пользователи неожиданно не могут общаться с другими пользователями в Microsoft Teams 
 
@@ -45,7 +45,7 @@ ms.locfileid: "49980042"
 
     |**Синтаксис**|**Пример**|
     |:---------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity` <p> Можно использовать любое уникальное значение удостоверения, идентифицируя каждого получателя, например имя, псевдоним, различающийся домен, каноническое различающийся имя, адрес электронной почты или ИДЕНТИФИКАТОР GUID. |`Get-InformationBarrierRecipientStatus -Identity meganb` <p> В этом примере для параметра Identity используется псевдоним *(meganb).* Этот cmdlet возвращает сведения, которые указывают, влияет ли на пользователя политика информационных барьеров. (Найди *ExoPolicyId: \<GUID> .) |
+    | `Get-InformationBarrierRecipientStatus -Identity` <p> Можно использовать любое уникальное значение удостоверения, идентифицируя каждого получателя, например имя, псевдоним, различающийся домен, каноническое различающийся имя, адрес электронной почты или ИДЕНТИФИКАТОР GUID. |`Get-InformationBarrierRecipientStatus -Identity meganb` <p> В этом примере мы используем псевдоним *(meganb)* для параметра Identity. Этот cmdlet возвращает сведения, которые указывают, влияет ли на пользователя политика информационных барьеров. (Найди *ExoPolicyId: \<GUID> .) |
 
     Если пользователи не включены в политики информационных **барьеров, обратитесь в службу поддержки.** В противном случае переходите к следующему шагу.
 
@@ -65,7 +65,7 @@ ms.locfileid: "49980042"
     SegmentsBlocked : {Research}
     ```
 
-    В этом случае мы видим, что политика информационных барьеров влияет на людей, которые находятся в сегментах продаж и исследований. В этом случае людям из отдела продаж не позволяет общаться с людьми, которые находятся в отделе исследований.
+    В этом случае мы видим, что политика информационных барьеров влияет на людей, которые находятся в сегментах продаж и исследований. В этом случае люди из отдела продаж не могут общаться с людьми в отделе исследований.
 
     Если это кажется правильным, информационные барьеры работают правильно. Если нет, перейдите к следующему шагу.
 
@@ -77,7 +77,7 @@ ms.locfileid: "49980042"
 
     Просмотрите сведения о сегменте. При необходимости [отредактировать сегмент](information-barriers-edit-segments-policies.md#edit-a-segment)и повторно использовать `Start-InformationBarrierPoliciesApplication` его.
 
-    **Если у вас по-прежнему возникли проблемы с политикой информационных барьеров, обратитесь в службу поддержки.**
+    Если у вас по-прежнему возникли проблемы с **политикой информационных барьеров, обратитесь в службу поддержки.**
 
 ## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>Проблема: разрешена связь между пользователями, которые должны быть заблокированы в Microsoft Teams
 
@@ -91,10 +91,10 @@ ms.locfileid: "49980042"
 
     |**Синтаксис** _|_ *Example**|
     |:----------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> Можно использовать любое уникальное значение, идентифицируя каждого пользователя, например имя, псевдоним, различающейся имя, каноническое доменное имя, адрес электронной почты или ИДЕНТИФИКАТОР GUID. |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> В этом примере мы ссылаемся на две учетные записи пользователей в Office 365: *meganb* для Марта и *alexw* для  *Алекса*. |
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> Можно использовать любое уникальное значение, идентифицируя каждого пользователя, например имя, псевдоним, различающейся имя, каноническое доменное имя, адрес электронной почты или ИДЕНТИФИКАТОР GUID. |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> В этом примере мы ссылаемся на две учетные записи пользователей в Office 365: *meganb* для Марта *и* *alexw* для *Алекса*. |
 
     > [!TIP]
-    > Этот cmdlet также можно использовать для одного пользователя: `Get-InformationBarrierRecipientStatus -Identity <value>`
+    > Этот также можно использовать для одного пользователя: `Get-InformationBarrierRecipientStatus -Identity <value>`
 
 2. Просмотрите результаты. The **Get-InformationBarrierRecipientStatus** cmdlet returns information about users, such as attribute values and any information barrier policies that are applied.
 
@@ -102,7 +102,7 @@ ms.locfileid: "49980042"
 
     |**Results**|**Что делать дальше**|
     |:----------|:------------------|
-    | Сегменты для выбранных пользователей не перечислены | Выполните одно из указанных ниже действий.<br/>– Назначьте пользователей существующему сегменту, изредактив их профили пользователей в Azure Active Directory. [(См. "Настройка свойств учетной записи пользователя с помощью PowerShell в Office 365".)](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>– Определите сегмент с помощью [поддерживаемого атрибута для информационных барьеров.](information-barriers-attributes.md) Затем определите [новую политику или отредактируете](information-barriers-policies.md#part-2-define-information-barrier-policies) [существующую](information-barriers-edit-segments-policies.md#edit-a-policy) политику, чтобы включить этот сегмент. |
+    | Сегменты для выбранных пользователей не указаны | Выполните одно из указанных ниже действий.<br/>– Назначьте пользователей существующему сегменту, изредактив их профили пользователей в Azure Active Directory. [(См. "Настройка свойств учетной записи пользователя с помощью PowerShell в Office 365".)](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>– Определите сегмент с помощью [поддерживаемого атрибута для информационных барьеров.](information-barriers-attributes.md) Затем определите [новую политику или отредактируете](information-barriers-policies.md#part-2-define-information-barrier-policies) [существующую политику,](information-barriers-edit-segments-policies.md#edit-a-policy) чтобы включить этот сегмент. |
     | Сегменты перечислены, но этим сегментам не назначены политики информационных барьеров | Выполните одно из указанных ниже действий.<br/>- [Определение новой политики информационных барьеров](information-barriers-policies.md#part-2-define-information-barrier-policies) для каждого из этих сегментов <br/>- [Изменение существующей политики информационных барьеров для](information-barriers-edit-segments-policies.md#edit-a-policy) назначения ее правильному сегменту |
     | Перечислены сегменты, каждый из которых включен в политику информационных барьеров | — Запустите `Get-InformationBarrierPolicy` этот cmdlet, чтобы убедиться, что политики информационных барьеров активны<br/>- Запустите `Get-InformationBarrierPoliciesApplicationStatus` этот cmdlet, чтобы подтвердить, что политики применены<br/>— Запустите `Start-InformationBarrierPoliciesApplication` этот cmdlet, чтобы применить все активные политики информационных барьеров |
 
@@ -118,16 +118,16 @@ ms.locfileid: "49980042"
 
     |**Синтаксис**|**Пример**|
     |:---------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> Можно использовать любое уникальное значение, идентифицируя каждого пользователя, например имя, псевдоним, различающейся имя, каноническое доменное имя, адрес электронной почты или ИДЕНТИФИКАТОР GUID. | `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> В этом примере мы ссылаемся на две учетные записи пользователей в Office 365: *meganb* для Марта и *alexw* для  *Алекса*.          |
-    | `Get-InformationBarrierRecipientStatus -Identity <value>` <p> Можно использовать любое уникальное значение, идентифицируя пользователя, например имя, псевдоним, различается имя, каноническое доменное имя, адрес электронной почты или ИДЕНТИФИКАТОР GUID.|`Get-InformationBarrierRecipientStatus -Identity jeanp`<p> В этом примере мы ссылаемся на одну учетную запись в Office 365: |
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> Можно использовать любое уникальное значение, идентифицируя каждого пользователя, например имя, псевдоним, различающейся имя, каноническое доменное имя, адрес электронной почты или ИДЕНТИФИКАТОР GUID. | `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> В этом примере мы ссылаемся на две учетные записи пользователей в Office 365: *meganb* для Марта *и* *alexw* для *Алекса*.          |
+    | `Get-InformationBarrierRecipientStatus -Identity <value>` <p> Можно использовать любое уникальное значение, идентифицируя пользователя, например имя, псевдоним, различающейся имя, каноническое доменное имя, адрес электронной почты или ИДЕНТИФИКАТОР GUID.|`Get-InformationBarrierRecipientStatus -Identity jeanp`<p> В этом примере мы ссылаемся на одну учетную запись в Office 365: |
 
 2. Просмотрите результаты, чтобы узнать, назначены ли политики информационных барьеров и к каков сегментам принадлежат пользователи.
 
-3. Чтобы удалить пользователя из сегмента, затронутого информационными барьерами, обновите данные профиля пользователя [в Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+3. Чтобы удалить пользователя из сегмента, затронутого информационными барьерами, обновите данные профиля пользователя [в Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 4. Подождите около 30 минут, пока произойдет FwdSync. Или запустите этот `Start-InformationBarrierPoliciesApplication` cmdlet, чтобы применить все активные политики информационных барьеров.
 
-## <a name="issue-the-information-barrier-application-process-is-taking-too-long"></a>Проблема: процесс приложения информационного барьера слишком длинный
+## <a name="issue-the-information-barrier-application-process-is-taking-too-long"></a>Проблема: процесс приложения информационного барьера проходит слишком долго
 
 После запуска **cmdlet Start-InformationBarrierPoliciesApplication** процесс завершается очень долго.
 
@@ -148,7 +148,7 @@ ms.locfileid: "49980042"
     |**Состояние**|**Следующий этап**|
     |:---------|:------------|
     | **Не запущено**. | Если с момента запуска cmdlet **Start-InformationBarrierPoliciesApplication** прошло более 45 минут, просмотрите журнал аудита, чтобы узнать, есть ли ошибки в определениях политик или по какой-либо другой причине, по которой приложение не запущено. |
-    | **Не удалось выполнить** | Если приложение не сбой, просмотрите журнал аудита. Также просмотрите сегменты и политики. Назначены ли пользователям несколько сегментов? Назначены ли какие-либо сегменты более чем одному политикам? При необходимости [отредактировать](information-barriers-edit-segments-policies.md#edit-a-segment) сегменты и/или [](information-barriers-edit-segments-policies.md#edit-a-policy)изменить политики, а затем снова запустите cmdlet **Start-InformationBarrierPoliciesApplication.** |
+    | **Не удалось выполнить** | Если приложение не сбой, просмотрите журнал аудита. Также просмотрите сегменты и политики. Назначены ли пользователям несколько сегментов? Назначены ли какие-либо сегменты более чем одному политикам? При необходимости [отредактирование](information-barriers-edit-segments-policies.md#edit-a-segment) сегментов и/или [](information-barriers-edit-segments-policies.md#edit-a-policy)изменение политик, а затем снова запустите cmdlet **Start-InformationBarrierPoliciesApplication.** |
     | **В процессе выполнения** | Если приложение все еще находится в процессе выполнения, у вас будет больше времени на его завершение. Если это было несколько дней, соберите журналы аудита и обратитесь в службу поддержки. |
 
 ## <a name="issue-information-barrier-policies-are-not-being-applied-at-all"></a>Проблема: политики информационных барьеров вообще не применяются
@@ -157,15 +157,15 @@ ms.locfileid: "49980042"
 
 ### <a name="what-to-do"></a>Действия
 
-Убедитесь, что в вашей организации не имеются политики адресных книг [Exchange.](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) Такие политики не будут применять политики информационных барьеров.
+Убедитесь, что в вашей организации не имеются политики адресных книг [Exchange.](/exchange/address-books/address-book-policies/address-book-policies) Такие политики не будут применять политики информационных барьеров.
 
-1. Подключитесь к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. Подключитесь к [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Запустите [cmdlet Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy) и просмотрите результаты.
+2. Запустите [cmdlet Get-AddressBookPolicy](/powershell/module/exchange/get-addressbookpolicy) и просмотрите результаты.
 
     |**Results**|**Следующий этап**|
     |:----------|:------------|
-    | В списке перечислены политики адресных книг Exchange | [Удаление политик адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
+    | Перечислены политики адресных книг Exchange | [Удаление политик адресных книг](/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
     | Политики адресных книг не существуют |Просмотрите журналы аудита, чтобы узнать, почему приложение политики не сбой |
 
 3. [Просмотр состояния учетных записей пользователей, сегментов, политик или приложений политик.](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)
@@ -187,7 +187,7 @@ ms.locfileid: "49980042"
 
 ### <a name="what-to-do"></a>Действия
 
-1. Поиск в журнале `<application guid>` аудита. Вы можете скопировать этот код PowerShell и изменить его для переменных.
+1. Поиск по журналу `<application guid>` аудита. Вы можете скопировать этот код PowerShell и изменить его для переменных.
 
 ```powershell
 $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
@@ -199,7 +199,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
    $DetailedLogs[1] |fl
 ```
 
-Например,
+Например:
 
 > "UserId": User1
 >

@@ -1,5 +1,5 @@
 ---
-title: Использование скрипта для добавления пользователей в удержание в базовом варианте обнаружения электронных данных
+title: Использование сценария для добавления пользователей в удержание в случае core eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -19,87 +19,79 @@ search.appverid:
 - MET150
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
-description: Узнайте, как запустить сценарий для добавления почтовых ящиков & сайтов OneDrive для бизнеса в новое удержание, связанное с вариантом обнаружения электронных данных в центре соответствия требованиям Microsoft 365.
-ms.openlocfilehash: 31c3bfef4eda4802618020f607bc7706780f3629
-ms.sourcegitcommit: 4a9e1b6851b988bcd31e87b184fc185be949840d
+description: Узнайте, как запустить сценарий для добавления почтовых ящиков & сайтов OneDrive для бизнеса в новое удержание, связанное с делом eDiscovery в Центре соответствия требованиям Microsoft 365.
+ms.openlocfilehash: 72fd9b8e7b63b36399d055e2eb710e8b53967e44
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49525618"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126442"
 ---
-# <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>Использование скрипта для добавления пользователей в удержание в базовом варианте обнаружения электронных данных
+# <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>Использование сценария для добавления пользователей в удержание в случае core eDiscovery
 
-& безопасности центр соответствия требованиям PowerShell содержит командлеты, позволяющие автоматизировать задачи, связанные с созданием и управлением делами обнаружения электронных данных. В настоящее время с помощью базового случая обнаружения электронных данных в центре безопасности & соответствия требованиям для размещения большого количества расположений содержимого хранитель на удержание занимается время и подготовка. Например, перед созданием удержания необходимо собрать URL-адрес для каждого сайта OneDrive для бизнеса, который необходимо разместить на удержании. Затем для каждого пользователя, который необходимо разместить на удержании, необходимо добавить свой почтовый ящик и сайт OneDrive для бизнеса в удержание. Этот процесс можно автоматизировать с помощью сценария, описанного в этой статье.
+PowerShell & Центра безопасности и соответствия требованиям предоставляет cmdlets, которые повысят время, связанное с созданием дел eDiscovery и управлением ними. В настоящее время применение основного дела eDiscovery в Центре безопасности & соответствия требованиям для применения большого количества местоположений контента хранителя на удержание требует времени и подготовки. Например, перед созданием удержания необходимо собрать URL-адрес для каждого сайта OneDrive для бизнеса, который вы хотите разместить на удержании. Затем для каждого пользователя, для которых необходимо наложить удержание, необходимо добавить к удержанию его почтовый ящик и сайт OneDrive для бизнеса. Для автоматизации этого процесса можно использовать сценарий, который используется в этой статье.
   
-Сценарий запрашивает имя домена личных сайтов Организации (например, `contoso` в URL-адресе https://contoso-my.sharepoint.com) , имя существующего случая обнаружения электронных данных, имя нового удержания, связанное с обращением, список адресов электронной почты пользователей, которые необходимо включить в удержание, и поисковый запрос, который будет использоваться, если необходимо создать удержание на основе запроса. Затем сценарий получает URL-адрес сайта OneDrive для бизнеса для каждого пользователя в списке, создает новое удержание, а затем добавляет сайт "почтовый ящик и OneDrive для бизнеса" для каждого пользователя из списка в удержание. Скрипт также создает файлы журнала, содержащие сведения о новом удержании.
+Сценарий запрашивает имя домена "Мой сайт" вашей организации (например, в URL-адресе, имя существующего дела `contoso` eDiscovery, имя нового удержания, связанного с делом, список адресов электронной почты пользователей, которые нужно поместить на удержание, и поисковый запрос, который будет применяться, если вы хотите создать удержание на основе https://contoso-my.sharepoint.com) запроса. Затем сценарий получает URL-адрес сайта OneDrive для бизнеса для каждого пользователя в списке, создает новое удержание, а затем добавляет почтовый ящик и сайт OneDrive для бизнеса для каждого пользователя в списке в удержание. Сценарий также создает файлы журналов, содержащие сведения о новом удержании.
   
-Выполните следующие действия:
+Чтобы это произошло, сделайте вот что:
   
 [Шаг 1. Установка командной консоли SharePoint Online](#step-1-install-the-sharepoint-online-management-shell)
   
-[Шаг 2: Создание списка пользователей](#step-2-generate-a-list-of-users)
+[Шаг 2. Создание списка пользователей](#step-2-generate-a-list-of-users)
   
-[Шаг 3: запуск скрипта для создания удержания и добавления пользователей](#step-3-run-the-script-to-create-a-hold-and-add-users)
+[Шаг 3. Запуск сценария для создания удержания и добавления пользователей](#step-3-run-the-script-to-create-a-hold-and-add-users)
   
 ## <a name="before-you-add-users-to-a-hold"></a>Перед добавлением пользователей в удержание
 
-- Необходимо быть участником группы ролей "Диспетчер обнаружения электронных данных" в центре безопасности & соответствия требованиям и администратор SharePoint Online для запуска сценария на шаге 3. Дополнительные сведения см в статье [Назначение разрешений обнаружения электронных данных в центре безопасности & соответствия требованиям Office 365](assign-ediscovery-permissions.md).
+- Для запуска сценария на шаге 3 необходимо быть членом группы ролей "Руководитель службы eDiscovery" в Центре безопасности и соответствия требованиям & и администратором SharePoint Online. Дополнительные сведения см. в центре безопасности и соответствия требованиям [Office 365 & назначить разрешения на & eDiscovery.](assign-ediscovery-permissions.md)
 
-- Максимальное количество почтовых ящиков 1 000 и 100 можно добавить в удержание, связанное с вариантом обнаружения электронных данных в центре безопасности & соответствия требованиям. Если предполагается, что у каждого пользователя, который вы хотите разместить на удержании, есть сайт OneDrive для бизнеса, вы можете добавить в удержание не более 100 пользователей с помощью сценария, описанного в этой статье.
+- К удержанию, связанному с делом eDiscover & y в Центре безопасности и соответствия требованиям, можно добавить не более 1000 почтовых ящиков и 100 сайтов. Предположим, что у каждого пользователя, который вы хотите разместить на удержании, есть сайт OneDrive для бизнеса, вы можете добавить в удержание не более 100 пользователей с помощью сценария, написанного в этой статье.
 
-- Не забудьте сохранить список пользователей, созданных в действии 2, и сценарий, приведенный в шаге 3, в ту же папку. Это облегчит выполнение скрипта.
+- Обязательно сохраните список пользователей, который вы создали на шаге 2, и скрипт на шаге 3 в ту же папку. Это упростит запуск сценария.
 
-- Сценарий добавляет список пользователей в новое удержание, связанное с существующим обращением. Перед выполнением скрипта убедитесь, что вы хотите связать удержание с учетом.
+- Сценарий добавляет список пользователей к новому удержанию, связанному с существующим делом. Убедитесь, что перед запуском сценария создается дело, с которое вы хотите связать удержание.
 
-- Сценарий, описанный в этой статье, поддерживает современные проверки подлинности при подключении к оболочке безопасности & центра соответствия требованиям. Вы можете использовать сценарий как есть, если вы используете Microsoft 365 или Microsoft 365 GCC. Если вы являетесь организацией Office 365 Германия, высокоорганизационной организацией Microsoft 365 или Microsoft 365 DoD, вам потребуется изменить сценарий, чтобы успешно запустить его. В частности, необходимо изменить строку `Connect-IPPSSession` и использовать параметры *ConnectionURI* и *азуреадаусоризатионендпоинтури* (и соответствующие значения для типа организации), чтобы подключиться к PowerShell центра безопасности & соответствия требованиям. Дополнительные сведения см. в примерах, приведенных в статье [Connect to Security & The Windows Security Center соответствие требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa).
+- Сценарий в этой статье поддерживает современную проверку подлинности при подключении к PowerShell Центра & безопасности и sharePoint Online Management Shell. Вы можете использовать сценарий как есть, если вы — microsoft 365 или организация Microsoft 365 GCC. Если вы — организация Office 365 Germany, Microsoft 365 GCC High или Microsoft 365 DoD, вам придется изменить сценарий, чтобы успешно запустить его. В частности, необходимо изменить строку и использовать параметры `Connect-IPPSSession` *ConnectionUri* и *AzureADAuthorizationEndpointUri* (и соответствующие значения для типа организации) для подключения к PowerShell Центра безопасности & соответствия требованиям. Дополнительные сведения см. в примерах [в PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)Центра & безопасности.
 
-- Каждый раз при запуске скрипта создаются новые сеансы безопасности & соответствия PowerShell и Командная консоль SharePoint Online. Таким образом, вы можете использовать все сеансы PowerShell, доступные вам. Чтобы избежать этого, можно выполнить следующие команды, чтобы отключить активные сеансы PowerShell.
+- Сценарий автоматически отключается от PowerShell центра & безопасности и sharePoint Online Management Shell.
 
-  ```powershell
-  Get-PSSession | Remove-PSSession
-  ```
-
-   ```powershell
-   Disconnect-SPOService
-   ```
-
-- Сценарий включает в себя минимальную обработку ошибок. Его основная цель — быстро и легко разместить почтовый ящик и сайт OneDrive для бизнеса для каждого пользователя на удержании.
+- Сценарий включает минимальную обработку ошибок. Его основная цель — быстро и легко разместить почтовый ящик и сайт OneDrive для бизнеса каждого пользователя на удержание.
 
 - Примеры скриптов, представленные в этой статье, не поддерживаются ни одной из стандартных программ поддержки или служб Майкрософт. Примеры скриптов предоставляются КАК ЕСТЬ и без каких-либо гарантий. Кроме того, корпорация Майкрософт не дает никаких обязательств в отношении подразумеваемых гарантий, в том числе гарантий товарного качества и пригодности для использования по назначению. Ответственность за риск, возникающий в результате выполнения примеров скриптов и использования документации, полностью возлагается на вас. Корпорация Майкрософт, ее авторы и все, кто принимает участие в создании, подготовке и публикации скриптов, не несут ответственности за какой-либо ущерб (в том числе потерю прибыли предприятия, приостановку его деятельности, потерю бизнес-данных и другой денежный ущерб), вызванный использованием или неспособностью использования примеров скриптов или документации, даже если корпорации Майкрософт было известно о возможности такого ущерба.
 
 ## <a name="step-1-install-the-sharepoint-online-management-shell"></a>Шаг 1. Установка командной консоли SharePoint Online
 
-Первый шаг — установка командной консоли SharePoint Online, если она еще не установлена на локальном компьютере. В этой процедуре не нужно использовать командную консоль, но ее необходимо установить, так как она содержит необходимые условия, необходимые для сценария, выполняемого на шаге 3. Эти условия позволяют сценарию связываться с SharePoint Online для получения URL-адресов сайтов OneDrive для бизнеса.
+Первый шаг — установка оболочки управления SharePoint Online, если она еще не установлена на локальном компьютере. Вам не нужно использовать оболочку в этой процедуре, но ее необходимо установить, так как она содержит необходимые порядок, необходимые для скрипта, который вы запустите в шаге 3. Эти необходимые условия позволяют сценарию взаимодействовать с SharePoint Online для получения URL-адресов сайтов OneDrive для бизнеса.
   
-Перейдите к разделу [Настройка среды Windows PowerShell в командной консоли SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=286318) и выполните действия 1 и 2, чтобы установить командную консоль SharePoint Online на локальный компьютер. 
+Перейдите к разделу "Настройка среды управления [Windows PowerShell SharePoint Online"](https://go.microsoft.com/fwlink/p/?LinkID=286318) и выполните шаг 1 и шаг 2, чтобы установить на локальном компьютере оболочку управления SharePoint Online.
 
-## <a name="step-2-generate-a-list-of-users"></a>Шаг 2: Создание списка пользователей
+## <a name="step-2-generate-a-list-of-users"></a>Шаг 2. Создание списка пользователей
 
-Сценарий в действии 3 создаст удержание, связанное с вариантом обнаружения электронных данных, а также сайты "Добавление почтовых ящиков и OneDrive для бизнеса" списка пользователей в удержание. Вы можете просто ввести адреса электронной почты в текстовом файле или выполнить команду в Windows PowerShell, чтобы получить список адресов электронной почты и сохранить их в файле (расположенном в той же папке, в которой вы сохранили сценарий на шаге 3).
+Сценарий в шаге 3 создаст удержание, связанное с делом eDiscovery, и добавит почтовые ящики и сайты OneDrive для бизнеса списка пользователей в удержание. Вы можете просто ввести адреса электронной почты в текстовый файл или выполнить команду в Windows PowerShell, чтобы получить список адресов электронной почты и сохранить их в файл (расположенный в той же папке, в которую вы сохраните сценарий на шаге 3).
   
-Вот команда PowerShell (которая запускается с помощью удаленной оболочки PowerShell, подключенной к организации Exchange Online), чтобы получить список адресов электронной почты для всех пользователей в Организации и сохранить их в текстовый файл с именем HoldUsers.txt.
+Вот команда PowerShell (которую вы запустите с помощью удаленной powerShell, подключенной к организации Exchange Online), чтобы получить список адресов электронной почты для всех пользователей в организации и сохранить его в текстовый файл с именем HoldUsers.txt.
   
 ```powershell
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > HoldUsers.txt
 ```
 
-После выполнения этой команды откройте текстовый файл и удалите заголовок, содержащий имя свойства  `PrimarySmtpAddress` . Затем удалите все адреса электронной почты, кроме тех, для пользователей, которые нужно добавить в удержание, созданное на шаге 3. Убедитесь, что в списке адресов электронной почты нет пустых строк.
+После запуска этой команды откройте текстовый файл и удалите заглавную папку с именем  `PrimarySmtpAddress` свойства. Затем удалите все адреса электронной почты, кроме тех, для которых вы хотите добавить удержание, которое вы создадим на шаге 3. Убедитесь, что до или после списка адресов электронной почты нет пустых строк.
   
-## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a>Шаг 3: запуск скрипта для создания удержания и добавления пользователей
+## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a>Шаг 3. Запуск сценария для создания удержания и добавления пользователей
 
-При выполнении скрипта на этом этапе будут предложены следующие сведения. Перед выполнением скрипта обязательно убедитесь, что эти сведения готовы к работе.
+При запуске скрипта на этом этапе вам будут предложены следующие сведения. Перед запуском сценария обязательно подготовьтесь к этим данным.
   
-- **Ваши учетные данные пользователя:** Сценарий будет использовать ваши учетные данные для подключения к центру безопасности & соответствия требованиям с помощью удаленной оболочки PowerShell. Он также будет использовать эти учетные данные для доступа к SharePoint Online, чтобы получить URL-адреса OneDrive для бизнеса для списка пользователей.
+- **Учетные данные пользователя:** Сценарий будет использовать ваши учетные данные для подключения к Центру безопасности & соответствия требованиям с помощью удаленной службы PowerShell. Они также будут использовать эти учетные данные для доступа к SharePoint Online, чтобы получить URL-адреса OneDrive для бизнеса для списка пользователей.
 
-- **Имя домена личных сайтов:** Домен личных сайтов — это домен, который содержит все сайты OneDrive для бизнеса в вашей организации. Например, если URL-адрес вашего домена "мой сайт" **https://contoso-my.sharepoint.com** , то при вводе  `contoso` скрипта для имени домена личного сайта необходимо ввести запрос.
+- **Имя домена "Мой сайт":** Домен "Мой сайт" — это домен, содержащий все сайты OneDrive для бизнеса в организации. Например, если URL-адрес вашего домена мой сайт , то вы введите, когда сценарий запросит имя вашего домена **https://contoso-my.sharepoint.com**  `contoso` my Site.
 
-- **Имя дела:** Имя существующего дела. Скрипт создаст новое удержание, связанное с этим случаем.
+- **Имя дела:** Имя существующего дела. Сценарий создаст новое удержание, связанное с этим делом.
 
-- **Имя удержания:** Имя удержания скрипта, который будет создан и связан с заданным регистром.
+- **Имя удержания:** Имя удержания, которое скрипт создает и связывает с указанным делом.
 
-- **Поисковый запрос на удержание на основе запроса:** Вы можете создать удержание на основе запроса, чтобы на хранение помещается только контент, соответствующий указанным условиям поиска. Чтобы поместить все содержимое на удержании, просто нажмите клавишу **Ввод** , когда появится запрос на поисковый запрос.
+- **Поиск запроса на удержание на основе запроса:** Можно создать удержание на основе запроса, чтобы на удержание помещалось только содержимое, которое соответствует указанным условиям поиска. Чтобы разместить все содержимое на удержании, просто **нажмите** ввод, когда вам будет предложено найти поисковый запрос.
 
-- **Включение удержания или нет:** Вы можете сделать так, чтобы сценарий включил удержание после того, как оно будет создано, или вы можете создать блокировку без включения. Если у вас нет скрипта, который включает удержание, вы можете включить его позже в центре безопасности & соответствия требованиям или выполнив следующие команды PowerShell:
+- **Включив удержание, или нет:** Вы можете включить удержание после его создания или создать удержание, не включив его. Если сценарий не включит удержание, его можно включить позже в Центре безопасности & соответствия требованиям или с помощью следующих команд PowerShell:
 
   ```powershell
   Set-CaseHoldPolicy -Identity <name of the hold> -Enabled $true
@@ -109,202 +101,194 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
   Set-CaseHoldRule -Identity <name of the hold> -Disabled $false
   ```
 
-- **Имя текстового файла со списком пользователей** — имя текстового файла из шага 2, содержащего список пользователей, которые требуется добавить в удержание. Если этот файл находится в той же папке, что и скрипт, просто введите имя файла (например, HoldUsers.txt). Если текстовый файл находится в другой папке, введите полный путь к файлу.
+- **Имя текстового файла** со списком пользователей — имя текстового файла из шага 2, который содержит список пользователей, добавляемого в удержание. Если этот файл находится в той же папке, что и сценарий, просто введите имя файла (например, HoldUsers.txt). Если текстовый файл находится в другой папке, введите полное имя пути к файлу.
 
-После сбора сведений, которые будут предлагаться сценарием, последним этапом является выполнение сценария для создания нового удержания и добавления в него пользователей.
+После того как вы соберите сведения, которые будет предложено выполнить сценарий, запустите сценарий, чтобы создать удержание и добавить в него пользователей.
   
-1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell с помощью суффикса имени файла `.ps1` . Например, `AddUsersToHold.ps1`.
+1. Сохраните следующий текст в Windows PowerShell сценария, используя суффикс имени файла `.ps1` . Например, `AddUsersToHold.ps1`.
 
-   ```powershell
-   #script begin
-   " "
-   write-host "***********************************************"
-   write-host "   Security & Compliance Center   " -foregroundColor yellow -backgroundcolor darkgreen
-   write-host "   eDiscovery cases - Add users to a hold   " -foregroundColor yellow -backgroundcolor darkgreen 
-   write-host "***********************************************"
-   " "
-   # Connect to SCC PowerShell using modern authentication
-   if (!$SccSession)
-   {
-     Import-Module ExchangeOnlineManagement
-     Connect-IPPSSession
-   }
-   # Get user credentials to connect to SPO Management Shell
-   $credentials = Get-Credential -Message "Type your credentials again to connect to SharePoint Online Management Shell"
-   # Load the SharePoint assemblies from the SharePoint Online Management Shell
-   # To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
-   if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
-   {
-       $SharePointClient = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client")
-       $SPRuntime = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.Runtime")
-       $SPUserProfile = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.UserProfiles")
-       if (!$SharePointClient)
-       {
-           Write-Error "The SharePoint Online Management Shell isn't installed. Please install it from: https://go.microsoft.com/fwlink/p/?LinkId=255251 and then re-run this script."
-           return;
-       }
-   }
-   if (!$spCreds)
-   {
-       $spCreds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($credentials.UserName, $credentials.Password)
-   }
-   # Get the user's MySite domain name. We use this to create the admin URL and root URL for OneDrive for Business
-   ""
-   $mySiteDomain = Read-Host "Enter the name of your organization's MySite domain. For example, 'contoso' for 'https://contoso-my.sharepoint.com'"
-   ""
-   # Get other required information
-   do{
-   $casename = Read-Host "Enter the name of the case"
-   $caseexists = (get-compliancecase -identity "$casename" -erroraction SilentlyContinue).isvalid
-   if($caseexists -ne 'True')
-   {""
-   write-host "A case named '$casename' doesn't exist. Please specify the name of an existing case, or create a new case and then re-run the script." -foregroundColor Yellow
-   ""}
-   }While($caseexists -ne 'True')
-   ""
-   do{
-   $holdName = Read-Host "Enter the name of the new hold"
-   $holdexists=(get-caseholdpolicy -identity "$holdname" -case "$casename" -erroraction SilentlyContinue).isvalid
-   if($holdexists -eq 'True')
-   {""
-   write-host "A hold named '$holdname' already exists. Please specify a new hold name." -foregroundColor Yellow
-   ""}
-   }While($holdexists -eq 'True')
-   ""
-   $holdQuery = Read-Host "Enter a search query to create a query-based hold, or press Enter to hold all content"
-   ""
-   $holdstatus = read-host "Do you want the hold enabled after it's created? (Yes/No)"
-   do{
-   ""
-   $inputfile = read-host "Enter the name of the text file that contains the email addresses of the users to add to the hold"
-   ""
-   $fileexists = test-path -path $inputfile
-   if($fileexists -ne 'True'){write-host "$inputfile doesn't exist. Please enter a valid file name." -foregroundcolor Yellow}
-   }while($fileexists -ne 'True')
-   #Import the list of addresses from the txt file.  Trim any excess spaces and make sure all addresses 
-       #in the list are unique.
-     [array]$emailAddresses = Get-Content $inputfile -ErrorAction SilentlyContinue | where {$_.trim() -ne ""}  | foreach{ $_.Trim() }
-     [int]$dupl = $emailAddresses.count
-     [array]$emailAddresses = $emailAddresses | select-object -unique
-     $dupl -= $emailAddresses.count
-   #Validate email addresses so the hold creation does not run in to an error.
-   if($emailaddresses.count -gt 0){
-   write-host ($emailAddresses).count "addresses were found in the text file. There were $dupl duplicate entries in the file." -foregroundColor Yellow
-   ""
-   Write-host "Validating the email addresses. Please wait..." -foregroundColor Yellow
-   ""
-   $finallist =@()
-   foreach($emailAddress in $emailAddresses)
-   {
-   if((get-recipient $emailaddress -erroraction SilentlyContinue).isvalid -eq 'True')
-   {$finallist += $emailaddress}
-   else {"Unable to find the user $emailaddress"
-   [array]$excludedlist += $emailaddress}
-   }
-   ""
-   #find user's OneDrive Site URL using email address
-   Write-Host "Getting the URL for each user's OneDrive for Business site." -foregroundColor Yellow 
-   ""
-   $AdminUrl = "https://$mySiteDomain-admin.sharepoint.com"
-   $mySiteUrlRoot = "https://$mySiteDomain-my.sharepoint.com"
-   # Add the path of the User Profile Service to the SPO admin URL, then create a new webservice proxy to access it
-   $proxyaddr = "$AdminUrl/_vti_bin/UserProfileService.asmx?wsdl"
-   $UserProfileService= New-WebServiceProxy -Uri $proxyaddr -UseDefaultCredential False 
-   $UserProfileService.Credentials = $credentials
-   # Take care of auth cookies
-   $strAuthCookie = $spCreds.GetAuthenticationCookie($AdminUrl)
-   $uri = New-Object System.Uri($AdminUrl)
-   $container = New-Object System.Net.CookieContainer
-   $container.SetCookies($uri, $strAuthCookie)
-   $UserProfileService.CookieContainer = $container
-   $urls = @()
-   foreach($emailAddress in $emailAddresses)
-   {
-        try{
-          $prop = $UserProfileService.GetUserProfileByName("i:0#.f|membership|$emailAddress") | Where-Object { $_.Name -eq "PersonalSpace" }
-          $url = $prop.values[0].value
-        if($url -ne $null){
-          $furl = $mySiteUrlRoot + $url
-          $urls += $furl
-          Write-Host "- $emailAddress => $furl"
-        [array]$ODadded += $furl}
-    else{    
-          Write-Warning "Couldn't locate OneDrive for $emailAddress"
-        [array]$ODExluded += $emailAddress
-      }}
-    catch { 
-    Write-Warning "Could not locate OneDrive for $emailAddress"
-    [array]$ODExluded += $emailAddress
-    Continue }
-   }
-   if(($finallist.count -gt 0) -or ($urls.count -gt 0)){
-   ""
-   Write-Host "Creating the hold named $holdname. Please wait..." -foregroundColor Yellow
-   if(($holdstatus -eq "Y") -or ($holdstatus -eq  "y") -or ($holdstatus -eq "yes") -or ($holdstatus -eq "YES")){
-   New-CaseHoldPolicy -Name "$holdName" -Case "$casename" -ExchangeLocation $finallist -SharePointLocation $urls -Enabled $True | out-null
-   New-CaseHoldRule -Name "$holdName" -Policy "$holdname" -ContentMatchQuery $holdQuery | out-null
-   }
-   else{
-   New-CaseHoldPolicy -Name "$holdName" -Case "$casename" -ExchangeLocation $finallist -SharePointLocation $urls -Enabled $false | out-null
-   New-CaseHoldRule -Name "$holdName" -Policy "$holdname" -ContentMatchQuery $holdQuery -disabled $true | out-null
-   }
-   ""
-   }
-   else {"No valid locations were identified. Therefore, the hold wasn't created."}
-   #write log files (if needed)
-   $newhold=Get-CaseHoldPolicy -Identity "$holdname" -Case "$casename" -erroraction SilentlyContinue
-   $newholdrule=Get-CaseHoldRule -Identity "$holdName" -erroraction SilentlyContinue
-   if(($ODAdded.count -gt 0) -or ($ODExluded.count -gt 0) -or ($finallist.count -gt 0) -or ($excludedlist.count -gt 0) -or ($newhold.isvalid -eq 'True') -or ($newholdrule.isvalid -eq 'True'))
-   {
-   Write-Host "Generating output files..." -foregroundColor Yellow
-   if($ODAdded.count -gt 0){
-   "OneDrive Locations" | add-content .\LocationsOnHold.txt
-   "==================" | add-content .\LocationsOnHold.txt 
-   $newhold.SharePointLocation.name | add-content .\LocationsOnHold.txt}
-   if($ODExluded.count -gt 0){ 
-   "Users without OneDrive locations" | add-content .\LocationsNotOnHold.txt
-   "================================" | add-content .\LocationsNotOnHold.txt
-   $ODExluded | add-content .\LocationsNotOnHold.txt}
-   if($finallist.count -gt 0){
-   " " | add-content .\LocationsOnHold.txt
-   "Exchange Locations" | add-content .\LocationsOnHold.txt
-   "==================" | add-content .\LocationsOnHold.txt 
-   $newhold.ExchangeLocation.name | add-content .\LocationsOnHold.txt}
-   if($excludedlist.count -gt 0){
-   " "| add-content .\LocationsNotOnHold.txt
-   "Mailboxes not added to the hold" | add-content .\LocationsNotOnHold.txt
-   "===============================" | add-content .\LocationsNotOnHold.txt
-   $excludedlist | add-content .\LocationsNotOnHold.txt}
-   $FormatEnumerationLimit=-1
-   if($newhold.isvalid -eq 'True'){$newhold|fl >.\GetCaseHoldPolicy.txt}
-   if($newholdrule.isvalid -eq 'True'){$newholdrule|Fl >.\GetCaseHoldRule.txt}
-   }
-   }
-   else {"The hold wasn't created because no valid entries were found in the text file."}
-   ""
-   Write-host "Script complete!" -foregroundColor Yellow
-   ""
-   #script end
-   ```
+```powershell
+#script begin
+" "
+write-host "***********************************************"
+write-host "   Security & Compliance Center PowerShell  " -foregroundColor yellow -backgroundcolor darkgreen
+write-host "   Core eDiscovery cases - Add users to a hold   " -foregroundColor yellow -backgroundcolor darkgreen 
+write-host "***********************************************"
+" "
+# Connect to SCC PowerShell using modern authentication
+if (!$SccSession)
+{
+  Import-Module ExchangeOnlineManagement
+  Connect-IPPSSession
+}
 
-2. На локальном компьютере откройте Windows PowerShell и перейдите к папке, в которой был сохранен сценарий.
+# Get the organization's domain name. We use this to create the SharePoint admin URL and root URL for OneDrive for Business.
+""
+$mySiteDomain = Read-Host "Enter the domain name for your SharePoint organization. We use this name to connect to SharePoint admin center and for the OneDrive URLs in your organization. For example, 'contoso' in 'https://contoso-admin.sharepoint.com' and 'https://contoso-my.sharepoint.com'"
+""
 
-3. Запуск скрипта; Например:
+# Connect to PnP Online using modern authentication
+Import-Module PnP.PowerShell
+Connect-PnPOnline -Url https://$mySiteDomain-admin.sharepoint.com -UseWebLogin
+
+# Load the SharePoint assemblies from the SharePoint Online Management Shell
+# To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
+if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
+{
+    $SharePointClient = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client")
+    $SPRuntime = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.Runtime")
+    $SPUserProfile = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.UserProfiles")
+    if (!$SharePointClient)
+    {
+        Write-Error "The SharePoint Online Management Shell isn't installed. Please install it from: https://go.microsoft.com/fwlink/p/?LinkId=255251 and then re-run this script."
+        return;
+    }
+}
+
+# Get other required information
+do{
+$casename = Read-Host "Enter the name of the case"
+$caseexists = (get-compliancecase -identity "$casename" -erroraction SilentlyContinue).isvalid
+if($caseexists -ne 'True')
+{""
+write-host "A case named '$casename' doesn't exist. Please specify the name of an existing case, or create a new case and then re-run the script." -foregroundColor Yellow
+""}
+}While($caseexists -ne 'True')
+""
+do{
+$holdName = Read-Host "Enter the name of the new hold"
+$holdexists=(get-caseholdpolicy -identity "$holdname" -case "$casename" -erroraction SilentlyContinue).isvalid
+if($holdexists -eq 'True')
+{""
+write-host "A hold named '$holdname' already exists. Please specify a new hold name." -foregroundColor Yellow
+""}
+}While($holdexists -eq 'True')
+""
+$holdQuery = Read-Host "Enter a search query to create a query-based hold, or press Enter to hold all content"
+""
+$holdstatus = read-host "Do you want the hold enabled after it's created? (Yes/No)"
+do{
+""
+$inputfile = read-host "Enter the name of the text file that contains the email addresses of the users to add to the hold"
+""
+$fileexists = test-path -path $inputfile
+if($fileexists -ne 'True'){write-host "$inputfile doesn't exist. Please enter a valid file name." -foregroundcolor Yellow}
+}while($fileexists -ne 'True')
+#Import the list of addresses from the txt file.  Trim any excess spaces and make sure all addresses 
+    #in the list are unique.
+  [array]$emailAddresses = Get-Content $inputfile -ErrorAction SilentlyContinue | where {$_.trim() -ne ""}  | foreach{ $_.Trim() }
+  [int]$dupl = $emailAddresses.count
+  [array]$emailAddresses = $emailAddresses | select-object -unique
+  $dupl -= $emailAddresses.count
+#Validate email addresses so the hold creation does not run in to an error.
+if($emailaddresses.count -gt 0){
+write-host ($emailAddresses).count "addresses were found in the text file. There were $dupl duplicate entries in the file." -foregroundColor Yellow
+""
+Write-host "Validating the email addresses. Please wait..." -foregroundColor Yellow
+""
+$finallist =@()
+foreach($emailAddress in $emailAddresses)
+{
+if((get-recipient $emailaddress -erroraction SilentlyContinue).isvalid -eq 'True')
+{$finallist += $emailaddress}
+else {"Unable to find the user $emailaddress"
+[array]$excludedlist += $emailaddress}
+}
+""
+#Find user's OneDrive account URL using email address
+Write-Host "Getting the URL for each user's OneDrive for Business site." -foregroundColor Yellow 
+""
+$AdminUrl = "https://$mySiteDomain-admin.sharepoint.com"
+$mySiteUrlRoot = "https://$mySiteDomain-my.sharepoint.com"
+$urls = @()
+foreach($emailAddress in $emailAddresses)
+{
+try
+{
+$url=Get-PnPUserProfileProperty -Account $emailAddress | Select PersonalUrl
+$urls += $url.PersonalUrl
+       Write-Host "- $emailAddress => $url"
+       [array]$ODadded += $url.PersonalUrl
+       }catch { 
+ Write-Warning "Could not locate OneDrive for $emailAddress"
+ [array]$ODExluded += $emailAddress
+ Continue }
+}
+$urls | FL
+if(($finallist.count -gt 0) -or ($urls.count -gt 0)){
+""
+Write-Host "Creating the hold named $holdname. Please wait..." -foregroundColor Yellow
+if(($holdstatus -eq "Y") -or ($holdstatus -eq  "y") -or ($holdstatus -eq "yes") -or ($holdstatus -eq "YES")){
+New-CaseHoldPolicy -Name "$holdName" -Case "$casename" -ExchangeLocation $finallist -SharePointLocation $urls -Enabled $True | out-null
+New-CaseHoldRule -Name "$holdName" -Policy "$holdname" -ContentMatchQuery $holdQuery | out-null
+}
+else{
+New-CaseHoldPolicy -Name "$holdName" -Case "$casename" -ExchangeLocation $finallist -SharePointLocation $urls -Enabled $false | out-null
+New-CaseHoldRule -Name "$holdName" -Policy "$holdname" -ContentMatchQuery $holdQuery -disabled $true | out-null
+}
+""
+}
+else {"No valid locations were identified. Therefore, the hold wasn't created."}
+#write log files (if needed)
+$newhold=Get-CaseHoldPolicy -Identity "$holdname" -Case "$casename" -erroraction SilentlyContinue
+$newholdrule=Get-CaseHoldRule -Identity "$holdName" -erroraction SilentlyContinue
+if(($ODAdded.count -gt 0) -or ($ODExluded.count -gt 0) -or ($finallist.count -gt 0) -or ($excludedlist.count -gt 0) -or ($newhold.isvalid -eq 'True') -or ($newholdrule.isvalid -eq 'True'))
+{
+Write-Host "Generating output files..." -foregroundColor Yellow
+if($ODAdded.count -gt 0){
+"OneDrive Locations" | add-content .\LocationsOnHold.txt
+"==================" | add-content .\LocationsOnHold.txt 
+$newhold.SharePointLocation.name | add-content .\LocationsOnHold.txt}
+if($ODExluded.count -gt 0){ 
+"Users without OneDrive locations" | add-content .\LocationsNotOnHold.txt
+"================================" | add-content .\LocationsNotOnHold.txt
+$ODExluded | add-content .\LocationsNotOnHold.txt}
+if($finallist.count -gt 0){
+" " | add-content .\LocationsOnHold.txt
+"Exchange Locations" | add-content .\LocationsOnHold.txt
+"==================" | add-content .\LocationsOnHold.txt 
+$newhold.ExchangeLocation.name | add-content .\LocationsOnHold.txt}
+if($excludedlist.count -gt 0){
+" "| add-content .\LocationsNotOnHold.txt
+"Mailboxes not added to the hold" | add-content .\LocationsNotOnHold.txt
+"===============================" | add-content .\LocationsNotOnHold.txt
+$excludedlist | add-content .\LocationsNotOnHold.txt}
+$FormatEnumerationLimit=-1
+if($newhold.isvalid -eq 'True'){$newhold|fl >.\GetCaseHoldPolicy.txt}
+if($newholdrule.isvalid -eq 'True'){$newholdrule|Fl >.\GetCaseHoldRule.txt}
+}
+}
+else {"The hold wasn't created because no valid entries were found in the text file."}
+""
+#Disconnect from SCC PowerShell and PnPOnline
+
+Write-host "Disconnecting from SCC PowerShell and PnP Online" -foregroundColor Yellow
+Get-PSSession | Remove-PSSession
+Disconnect-PnPOnline
+
+Write-host "Script complete!" -foregroundColor Yellow
+""
+#script end
+```
+
+2. На локальном компьютере откройте Windows PowerShell и перейдите в папку, в которой сохранен сценарий.
+
+3. Запустите сценарий; Например:
 
    ```powershell
    .\AddUsersToHold.ps1
    ```
 
-4. Введите сведения, которые будут запрашиваться сценарием.
+4. Введите сведения, которые вам будет предложено ввести в сценарии.
 
-   Сценарий подключается к PowerShell центра безопасности & соответствия требованиям, а затем создает новое удержание в случае обнаружения электронных данных и добавляет почтовые ящики и OneDrive для бизнеса для пользователей из списка. Вы можете перейти к этому случаю на странице **Обнаружение электронных** данных в центре безопасности & соответствия требованиям для просмотра нового удержания.
+   Сценарий подключается к PowerShell Центра безопасности и & соответствия требованиям, а затем создает новое удержание в деле eDiscovery и добавляет почтовые ящики и OneDrive для бизнеса для пользователей в списке. Чтобы просмотреть новое удержание, можно перейти к делу на странице **"EDiscovery"** в Центре & соответствия требованиям.
 
-После завершения выполнения скрипта он создает следующие файлы журнала и сохраняет их в папке, в которой расположен сценарий.
+После завершения работы скрипта он создает следующие файлы журнала и сохраняет их в папке, в которой находится сценарий.
   
-- **LocationsOnHold.txt:** Содержит список почтовых ящиков и сайтов OneDrive для бизнеса, которые сценарий успешно поместил в удержание.
+- **LocationsOnHold.txt:** Содержит список почтовых ящиков и сайтов OneDrive для бизнеса, которые сценарий успешно поместил на удержание.
 
-- **LocationsNotOnHold.txt:** Содержит список почтовых ящиков и сайтов OneDrive для бизнеса, которые не были размещены в сценарии на удержании. Если у пользователя есть почтовый ящик, но не сайт OneDrive для бизнеса, он будет включен в список сайтов OneDrive для бизнеса, не включенных в удержание.
+- **LocationsNotOnHold.txt:** Содержит список почтовых ящиков и сайтов OneDrive для бизнеса, которые сценарий не удерживал. Если у пользователя есть почтовый ящик, но не сайт OneDrive для бизнеса, он будет включен в список сайтов OneDrive для бизнеса, не помещенных на удержание.
 
-- **GetCaseHoldPolicy.txt:** Содержит выходные данные командлета **Get – caseholdpolicy позволяет** для нового удержания, который выполнялся сценарием после создания нового удержания. Сведения, возвращаемые этим командлетом, включают список пользователей, чьи почтовые ящики и сайты OneDrive для бизнеса были размещены при удержании, а также включено или отключено удержание. 
+- **GetCaseHoldPolicy.txt:** Содержит выходные данные для нового **удержания,** которое сценарий запустил после создания нового удержания. Информация, возвращаемая этим cmdlet, включает список пользователей, чьи почтовые ящики и сайты OneDrive для бизнеса были помещены на удержание и включено ли удержание. 
 
-- **GetCaseHoldRule.txt:** Содержит выходные данные командлета **Get – caseholdrule позволяет** для нового удержания, который выполнялся сценарием после создания нового удержания. Сведения, возвращаемые этим командлетом, включают поисковый запрос, если вы использовали сценарий для создания удержания на основе запроса.
+- **GetCaseHoldRule.txt:** Содержит выходные данные для нового **удержания,** который сценарий запустил после создания нового удержания. Сведения, возвращаемые этим cmdlet, включают поисковый запрос, если вы использовали сценарий для создания удержания на основе запроса.

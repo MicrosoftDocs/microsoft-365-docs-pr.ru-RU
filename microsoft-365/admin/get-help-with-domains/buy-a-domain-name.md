@@ -16,7 +16,6 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Узнайте, как приобрести доменное имя в Microsoft 365.
-ms.openlocfilehash: 40fc44dfa3bc3e608b590157b7db423302af748d
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: d7215db61577968bb2b21f708bda9d42acd7e675
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50113967"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126397"
 ---
 # <a name="buy-a-domain-name"></a>Приобретение имени домена
 

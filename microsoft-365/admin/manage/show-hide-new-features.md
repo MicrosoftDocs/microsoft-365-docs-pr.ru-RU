@@ -1,14 +1,31 @@
 ---
-title: "Manage which Office features appear in What's New" f1.keywords:
-- NOCSH ms.author: danbrown author: DHB-MSFT manager: scotv audience: Admin ms.topic: article ms.service: o365-administration localization_priority: Normal ms.collection:
-- Управление подпиской на M365
+title: Управление функциями Office, которые отображаются в новых
+f1.keywords:
+- NOCSH
+ms.author: danbrown
+author: DHB-MSFT
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
 - Adm_O365
-- Adm_TOC ms.custom: AdminSurgePortfolio search.appverid:
+- Adm_TOC
+ms.custom: AdminSurgePortfolio
+search.appverid:
 - BCS160
 - MET150
-- Описание MOE150: "Решите, какие функции Office необходимо показывать или скрывать, когда пользователь выбирает "Справка > Что нового в приложении Office для Windows" с помощью функции "Новые возможности Office" в Центре администрирования Microsoft 365".
+- MOE150
+description: Решите, какие функции Office будут показываться или скрываться, когда пользователь выбирает "Справка > Новые возможности" в своем приложении Office для Windows, используя функцию "Новые возможности Office" в Центре администрирования Microsoft 365.
+ms.openlocfilehash: d0b5bc3e643b306d9a38a707fed50ab546249c2b
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122352"
 ---
-
 # <a name="manage-which-office-features-appear-in-whats-new"></a>Управление функциями Office, которые отображаются в новых
 
 Когда выпустят важную функцию Office, пользователи получат сообщение о ней при выборе "Справка, что нового" в приложении  >   Office для Windows.
@@ -17,7 +34,7 @@ title: "Manage which Office features appear in What's New" f1.keywords:
 
 > [!NOTE]
 > - Скрытие сообщения о функции от пользователей не отключит эту функцию в приложении Office.
-> - Для использования функции "Новые возможности Office" вам должна быть назначена роль глобального администратора или роль администратора **приложений Office.**
+> - Для использования функции "Новые возможности Office" вам должна быть назначена роль глобального администратора или администратора **приложений Office.**
 
 ## <a name="show-or-hide-new-features"></a>Отображение и скрытие новых функций 
 

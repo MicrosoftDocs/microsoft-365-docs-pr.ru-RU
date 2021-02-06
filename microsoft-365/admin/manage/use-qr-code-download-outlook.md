@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Узнайте, как использовать QR-код для проверки подлинности и скачивания Outlook Mobile.
-ms.openlocfilehash: 2d62a49b93fa7bd5f2d747525de7244e8014e6a7
-ms.sourcegitcommit: b8e9b2ecdc4927b67088c5fffb1585424c66fb10
+ms.openlocfilehash: b9e433e0c7d3f5f3466924b318e242e5ac29181c
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50050782"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122376"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>Использование QR-кода для вход в мобильные приложения Outlook
 
@@ -42,9 +42,9 @@ ms.locfileid: "50050782"
 2. С помощью PowerShell можно отключить уведомления, информирующие пользователей о мобильных приложениях Outlook. Это также предотвратит поток входов в QR-код.
 
 ```powershell
-Set-Organization -MobileAppEducationEnabled <Boolean>
+Set-OrganizationConfig -MobileAppEducationEnabled <Boolean>
 ```
 
-Статьи по теме
+Связанные статьи
 
 [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig?view=exchange-ps)

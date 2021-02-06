@@ -16,7 +16,6 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Узнайте, как найти значения и сведения, необходимые для создания записей DNS для Microsoft 365. '
-ms.openlocfilehash: db9aff1fdcd9fa52c90cc96b1a32cd3908c30edb
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 45994139b11a2fd5a03b2e979dd6af334bc1f00b
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658511"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126375"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>Сбор сведений, необходимых для создания записей DNS
 
@@ -45,7 +44,7 @@ ms.locfileid: "49658511"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">установки".</a>
+1. В Центре администрирования перейдите на страницу **"Настройка** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">доменов".</a>
 
 ::: moniker-end
 
@@ -57,9 +56,9 @@ ms.locfileid: "49658511"
     
 2. На странице **"Домены"** выберите свой домен, а затем выберите **"Начать установку".** Вы вернетесь в мастер настройки доменов, чтобы просмотреть значение, которое нужно добавить.
     
-3. На странице **"Проверка домена"** выберите "Добавить **запись TXT",** а затем выберите **"Далее".**
+3. На странице **"Проверка домена"** выберите **"Добавить запись TXT",** а затем выберите **"Далее".**
     
-4. Скопируйте **показанные значения TXT.** Выглядит так: **MS=msXXXXXXXXX.** 
+4. Скопируйте **показанные значения TXT.** Он выглядит так: **MS=msXXXXXXXXX.** 
     
 5. Перейдите к созданию [записей DNS](create-dns-records-at-any-dns-hosting-provider.md)у любого поставщика услуг размещения DNS и выберите свой хост DNS в списке регистраторов, чтобы увидеть пошаговых инструкций.
     
@@ -77,13 +76,13 @@ ms.locfileid: "49658511"
     
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">установки".</a>
+1. В Центре администрирования перейдите на страницу **"Настройка** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">доменов".</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">установки".</a>
+1. В Центре администрирования перейдите на страницу **"Настройка** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">доменов".</a>
 
 ::: moniker-end
     
