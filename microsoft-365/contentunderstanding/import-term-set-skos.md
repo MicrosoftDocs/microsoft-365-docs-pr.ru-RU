@@ -11,16 +11,16 @@ ms.service: ''
 ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: ba0f240caa8b3452783436e9a35c53d44baba894
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 3d6efce9b6414444793da54d9c6d7be47d6a9a5c
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976439"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145083"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>Импорт набора терминов в формате SKOS
 
-Можно импортировать набор терминов в формате SKOS. Дополнительные сведения о формате см. в статье [Справка по формату SKOS для таксономии SharePoint](skos-format-reference.md).
+Можно импортировать набор терминов в формате SKOS. Дополнительные сведения о формате см. в статье [Справка по формату SKOS для таксономии SharePoint](skos-format-reference.md). Для использования этой функции требуется лицензия [SharePoint Syntex](index.md).
 
 Рекомендуем хранить в файлах импорта не более 20 000 терминов. Большие файлы могут увеличить время, необходимое для проверки и импорта.
 

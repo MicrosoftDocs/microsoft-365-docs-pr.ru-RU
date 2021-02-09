@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0ed696f36737a4102895369e1254b4215cad4def
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: c9509c76e5fa945c693e67f394b6432f939b58a5
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931222"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145335"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -62,6 +62,7 @@ ms.locfileid: "49931222"
 | `InitiatingProcessSHA256` | string | SHA-256 процесса (файла изображения), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `InitiatingProcessMD5` | string | Hash MD5 процесса (файл изображения), который инициировал событие |
 | `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
+| `InitiatingProcessFileSize` | long | Размер файла, который запустил процесс, отвечающий за событие |
 | `InitiatingProcessId` | int | ИД процесса, который инициировал событие |
 | `InitiatingProcessCommandLine` | string | Командная строка, используемая для запуска процесса, который инициировал событие |
 | `InitiatingProcessCreationTime` | datetime | Дата и время начала процесса, инициа |
@@ -72,12 +73,14 @@ ms.locfileid: "49931222"
 | `InitiatingProcessAccountDomain` | string | Домен учетной записи, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, которая запустила процесс, отвечающий за событие |
+| `InitiatingProcessAccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessIntegrityLevel` | string | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам на основе определенных характеристик, например, если они были запущены из скачивания из Интернета. Эти уровни целостности влияют на разрешения для ресурсов |
 | `InitiatingProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие повышения привилегий контроля доступа пользователей (UAC), примененного к процессу, который инициировал событие |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp |
 | `AppGuardContainerId` | string | Идентификатор виртуализированного контейнера, используемого Application Guard для изоляции активности браузера |
+| `AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

@@ -15,17 +15,21 @@ ms.custom:
 description: Администраторы могут узнать, как использовать анализ правил медленного потока обработки почты в Центре безопасности и соответствия требованиям &, чтобы выявлять и исправлять неэффективные или неработоспособные правила потока обработки почты (также известные как правила транспорта) в своей организации.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef9f26994f563a5f9dad411f2276fd42c28496f9
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: f7f084735decda922b5bcc57c029f2b384114d30
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029130"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150788"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Исправление анализа медленных правил потока обработки почты в Центре & соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Относится к**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1) и план 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Неэффективные правила потока почты (также известные как правила транспорта) могут привести к задержкам потока почты в организации. Эта информация сообщает о правилах потока почты, которые влияют на поток почты организации. Примеры таких типов правил:
 

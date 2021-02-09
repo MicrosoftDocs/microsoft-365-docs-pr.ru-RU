@@ -12,16 +12,18 @@ ms.collection:
 - enabler-strategic
 - m365initiative-topics
 localization_priority: Priority
-ms.openlocfilehash: ad777fde5179b8425fad3ead4d4733a9a455e657
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 5ac0513b100c120366138b1f2a7b4a35f4435cfb
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976343"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145095"
 ---
 # <a name="term-store-reports"></a>Отчеты банка терминов
 
-Вы можете получить доступ к отчетам о банке терминов в Центре администрирования SharePoint. Разверните раздел **Отчеты** и щелкните **Службы контента**.
+Вы можете получить доступ к отчетам о банке терминов в Центре администрирования SharePoint. Для использования этой функции требуется лицензия [SharePoint Syntex](index.md).
+
+Разверните раздел **Отчеты** и щелкните **Службы контента**.
 
 Возможна работа со следующими отчетами:
 

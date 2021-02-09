@@ -1,6 +1,6 @@
 ---
-title: Использование настраиваемых решений для создания отчетов с автоматизированным исследованием и ответом
-keywords: SIEM, API, AIR, Аутоир, ATP, автоматическое исследование, интеграция, настраиваемый отчет
+title: Пользовательские решения для отчетов с автоматизированным исследованием и реагированием
+keywords: SIEM, API, AIR, autoIR, ATP, автоматизированное исследование, интеграция, настраиваемый отчет
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -8,7 +8,6 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,38 +15,34 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Сведения о том, как интегрировать автоматическое исследование и отвечать с помощью настраиваемого или стороннего решения для создания отчетов.
-ms.date: 09/29/2020
+description: Узнайте, как интегрировать автоматизированное исследование и реагирование на них с пользовательским или сторонним решением для отчетности.
+ms.date: 01/29/2021
 ms.custom:
 - air
-ms.openlocfilehash: 7b0b0570624b2e0dd40d40b178951a747698afe2
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 3d8363ada4de60d37cb0d247d8b1af74df4226d1
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357471"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142979"
 ---
-# <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>Использование API действий управления для настраиваемых и сторонних решений для создания отчетов
+# <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Пользовательские или сторонние решения для отчетов в Microsoft Defender для Office 365
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+С [помощью Microsoft Defender для Office 365](office-365-atp.md)вы получаете подробные сведения об [автоматизированных расследованиях.](air-view-investigation-results.md) Однако в некоторых организациях также используется пользовательское или стороне решение для отчетов. Если вашей организации нужно [](office-365-air.md) интегрировать сведения об автоматизированных расследованиях с таким решением, можно использовать API действий управления Office 365.
 
+Ресурсы для настройки интеграции
 
-С помощью [защитника Microsoft для Office 365](office-365-atp.md)вы получаете [подробные сведения об автоматическом расследовании](air-view-investigation-results.md). Однако в некоторых организациях также используется собственное или стороннее решение для создания отчетов. Если в Организации требуется интегрировать сведения об автоматическом расследовании с таким решением, вы можете использовать API действий управления Office 365.
-
-Используйте следующие ресурсы для настройки:
-
-****
-
-|Resource|Описание|
-|---|---|
-|[Обзор API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)|API действий управления Office 365 предоставляет сведения о различных действиях и событиях пользователя, администратора, системы и политики из Microsoft 365 и журналов активности Azure Active Directory.|
-|[Начало работы с API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)|API управления Office 365 использует Azure AD для предоставления службам проверки подлинности приложениям доступа к данным Microsoft 365. Выполните действия, описанные в этой статье, чтобы настроить ее.|
-|[Справочник по API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)|Вы можете использовать API действий управления Office 365 для получения сведений о действиях пользователя, администратора, системы, а также событиях и событиях из Microsoft 365 и журналов активности Azure AD. Прочтите эту статью, чтобы узнать больше о том, как это работает.|
-|[Схема API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)|В этой статье приводится обзор [общей схемы](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) , а также схема защиты от [защитника для Office 365 и угроз и схема ответов](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) , чтобы узнать о конкретных типах данных, доступных через API действий управления Office 365.|
+|Ресурс|Описание|
+|:---|:---|
+|[Обзор API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)|API действий управления Office 365 предоставляет сведения о различных действиях и событиях пользователей, администраторов, систем и политик из журналов действий Microsoft 365 и Azure Active Directory.|
+|[Начало работы с API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)|API управления Office 365 использует Azure AD для предоставления служб проверки подлинности вашему приложению для доступа к данным Microsoft 365. Чтобы настроить эту возможность, выполните действия, которые необходимо предпринять в этой статье.|
+|[Справочник по API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)|Вы можете использовать API действий управления Office 365 для получения сведений о действиях и событиях пользователей, администраторов, систем и политик из журналов действий Microsoft 365 и Azure AD. Прочитайте эту статью, чтобы узнать больше о том, как это работает.|
+|[Схема API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)|Обзор общей схемы и Защитника [Office 365,](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) а также схемы анализа угроз и реагирования на них, чтобы узнать о конкретных типах данных, доступных через API действий управления Office 365. [](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema)|
 |
 
 ## <a name="see-also"></a>См. также
 
 - [Microsoft Defender для Office 365](office-365-atp.md)
-
-- [Автоматическое исследование и ответ в защитнике Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Автоматическое исследование и реагирование в Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

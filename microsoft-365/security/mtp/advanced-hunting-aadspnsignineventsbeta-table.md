@@ -1,7 +1,7 @@
 ---
 title: Таблица AADSpnSignInEventsBeta в схеме advanced hunting
 description: Сведения о сведениях, связанных с участником-службой Azure Active Directory и таблицой событий управляемого удостоверения для регистрации в службе advanced hunting schema
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, file, IP address, device, user, account, identity, AAD
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, user, account, identity, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 172c400df3adea70a2e2d2e37547fa39e0d3b9cf
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3eba2459fd9a0af1963ca8d1446b22fc0b1bdb93
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928622"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145407"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -34,8 +34,8 @@ ms.locfileid: "49928622"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> В настоящее время таблица находится в бета-версии и предлагается на краткосрочной основе, чтобы разрешить вам искать события для основного пользователя службы `AADSpnSignInEventsBeta` Azure Active Directory (AAD) и управляемого удостоверения. Со временем все сведения о схеме для входов будут перемещаться в `IdentityLogonEvents` таблицу.<br><br>
-> Пользователи, которые могут получить доступ к Microsoft 365 Defender через интегрированное решение Microsoft Defender для конечных точек в Центре безопасности Azure, но не имеют лицензий на Microsoft Defender для Office, Microsoft Defender для удостоверений или Microsoft Cloud App Security, не смогут просмотреть эту схему. 
+> Таблица в настоящее время находится в бета-версии и предлагается на краткосрочной основе, чтобы вы могли использовать события регистрации в azure `AADSpnSignInEventsBeta` Active Directory (AAD) и основного пользователя службы и управляемого удостоверения. Со временем все сведения о схеме для входов будут перемещаться в `IdentityLogonEvents` таблицу.<br><br>
+> Клиенты, которые могут получить доступ к Microsoft 365 Defender через интегрированное решение Microsoft Defender для конечных точек в Центре безопасности Azure, но не имеют лицензий на Microsoft Defender для Office, Microsoft Defender для удостоверений или Microsoft Cloud App Security, не смогут просматривать эту схему. 
 
 
 
@@ -63,7 +63,7 @@ ms.locfileid: "49928622"
 | `ResourceId`           | string        | Уникальный идентификатор доступного ресурса                                                                                                      |
 | `ResourceTenantId`     | string        | Уникальный идентификатор клиента доступного ресурса                                                                                        |
 | `IPAddress`            | string        | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях                                                              |
-| `CountryCode`          | string        | Двух буквный код, указывающий страну, в которой расположен IP-адрес клиента                                                                |
+| `Country`          | string        | Двух буквный код, указывающий страну, в которой расположен IP-адрес клиента                                                                |
 | `State`                | string        | Состояние, в котором произошел вход, если доступно                                                                                                  |
 | `City`                 | string        | Город, где находится пользователь учетной записи                                                                                                          |
 | `Latitude`             | string        | Координаты расположения для входов с севера на север и на север                                                                                          |

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 536d95f7226ba907d913df58a47508e44b50147a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 1340464fbe71e919a60668cf7d1b2f535eb6d260
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931354"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145329"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -55,7 +55,7 @@ ms.locfileid: "49931354"
 | `FolderPath` | string | Папка, содержащая файл, к которой было применено записано действие |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
-| `MD5` | string | Hash MD5 файла, к который было применено записано действие |
+| `MD5` | string | MD5 hash of the file that the recorded action was applied to |
 | `AccountDomain` | string | Домен учетной записи |
 | `AccountName` | string | Имя пользователя учетной записи |
 | `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
@@ -64,7 +64,7 @@ ms.locfileid: "49931354"
 | `ProcessId` | int | ИД процесса (PID) только что созданного процесса |
 | `ProcessCommandLine` | string | Командная строка, используемая для создания нового процесса |
 | `ProcessCreationTime` | datetime | Дата и время создания процесса |
-| `ProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие повышения привилегий контроля доступа пользователей (UAC), примененного к только что созданному процессу |
+| `ProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие повышения привилегий контроля доступа пользователей (UAC), примененного к созданному процессу |
 | `LogonId` | string | Идентификатор сеанса logon. Этот идентификатор уникален на одном компьютере только между перезапусками |
 | `RegistryKey` | string | Ключ реестра, к который было применено записано действие |
 | `RegistryValueName` | string | Имя значения реестра, к которое было применено записанное действие |
@@ -76,6 +76,8 @@ ms.locfileid: "49931354"
 | `FileOriginUrl` | string | URL-адрес для скачивания файла |
 | `FileOriginIP` | string | IP-адрес, с которых был загружен файл |
 | `AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
+| `InitiatingProcessFileSize` | long | Размер файла, который запустил процесс, отвечающий за событие |
+| `FileSize` | long | Размер файла в ветвях |
 | `InitiatingProcessSHA1` | string | SHA-1 процесса (файла изображения), который инициировал событие |
 | `InitiatingProcessSHA256` | string | SHA-256 процесса (файла изображения), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
@@ -86,15 +88,17 @@ ms.locfileid: "49931354"
 | `InitiatingProcessParentId` | int | ИД (PID) родительского процесса, который ил процесса, ответственного за событие |
 | `InitiatingProcessParentFileName` | string | Имя родительского процесса, который ил процесса, ответственного за событие |
 | `InitiatingProcessParentCreationTime` | datetime | Дата и время начала родительского процесса, ответственного за событие |
-| `InitiatingProcessMD5` | string | Hash MD5 процесса (файл изображения), который инициировал событие |
+| `InitiatingProcessMD5` | string | AD5 hash of the process (image file) that initiated the event |
 | `InitiatingProcessAccountDomain` | string | Домен учетной записи, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, которая запустила процесс, отвечающий за событие |
+| `InitiatingProcessAccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи, которая запустила процесс, отвечающий за событие |
+| `InitiatingProcessAccountObjectId` | string | ИД объекта Azure AD учетной записи пользователя, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessLogonId` | string | Идентификатор сеанса для процесса, который инициировал событие. Этот идентификатор уникален на одном компьютере только между перезапусками |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp |
 | `AppGuardContainerId` | string | Идентификатор виртуализированного контейнера, используемого Application Guard для изоляции активности браузера |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

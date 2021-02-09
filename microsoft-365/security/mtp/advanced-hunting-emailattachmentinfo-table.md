@@ -1,7 +1,7 @@
 ---
 title: Таблица EmailAttachmentInfo в схеме расширенного поиска
 description: Сведения о вложениях электронной почты в таблице EmailAttachmentInfo схемы расширенного поиска
-keywords: расширенный поиск, охота на угрозы, поиск киберугроз, защита от угроз (Майкрософт), Microsoft 365, mtp, m365, поиск, запрос, телеметрия, справочник по схеме, kusto, таблица, столбец, тип данных, описание, EmailAttachmentInfo, код сетевого сообщения, отправитель, получатель, ид вложения, имя вложения, решение о вредоносных программах
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailAttachmentInfo, network message id, sender, recipient, attachment id, attachment name, malware verdict
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ mms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3d4c72d78fc6a31ec3075d4e7a889e191e639829
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: b810d7b15ef47a33a0675086219d2193cea00f2e
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029378"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145023"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -46,6 +46,8 @@ ms.locfileid: "50029378"
 | `Timestamp` | datetime | Дата и время записи события |
 | `NetworkMessageId` | string | Уникальный идентификатор электронной почты, созданный Microsoft 365 |
 | `SenderFromAddress` | string | Адрес электронной почты отправителя в заголовке "ОТ", который получатели электронной почты видят в своих почтовых клиентах |
+| `SenderDisplayName` | string | Имя отправитель, отображаемого в адресной книге, обычно сочетание имени или имени, отчего инициал и фамилия или фамилия |
+| `SenderObjectId` | string | Уникальный идентификатор учетной записи отправитель в Azure AD |
 | `RecipientEmailAddress` | string | Адрес электронной почты получателя или адрес электронной почты получателя после расширения списка рассылки |
 | `RecipientObjectId` | string | Уникальный идентификатор получателя электронной почты в Azure AD |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
@@ -53,12 +55,10 @@ ms.locfileid: "50029378"
 | `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `MalwareFilterVerdict` | string | Решение модуля фильтрации электронной почты о том, содержит ли это сообщение вредоносную программу: "Вредоносное" или "Не вредоносное" |
 | `MalwareDetectionMethod` | string | Метод, используемый для обнаружения вредоносных программ в электронной почте: антивредоносный механизм, репутация файла, безопасные вложения |
-| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец необходимо использовать вместе со столбцами DeviceName и Timestamp. |
-| `SenderDisplayName` | string | Имя отправитель, отображаемого в адресной книге, обычно сочетание имени или имени, отчего инициал и фамилия или фамилия |
-| `SenderObjectId` | string | Уникальный идентификатор учетной записи отправитель в Azure AD |
 | `ThreatTypes` | string | Решение из стека фильтрации электронной почты о том, содержит ли электронная почта вредоносные программы, фишинг или другие угрозы |
 | `ThreatNames` | string | Имя обнаружения вредоносных программ или других найденных угроз |
 | `DetectionMethods` | string | Методы обнаружения вредоносных программ, фишинга и других угроз, обнаруженных в сообщении электронной почты |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец необходимо использовать в сочетании со столбцами DeviceName и Timestamp. |
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

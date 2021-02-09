@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c01b0aae1eff3d9b4add632aff0f13cb56941a30
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 7457084d49c5a9fef4ef79abc7702c6b473efcd2
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932314"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145305"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -59,6 +59,7 @@ ms.locfileid: "49932314"
 | `AccountDomain` | string | Домен учетной записи |
 | `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
 | `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure Active Directory |
+| `AccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи |
 | `DeviceId` | string | Уникальный идентификатор устройства в службе |
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `LocalIP` | string | IP-адрес, присвоенный локальному устройству, используемму во время связи |
@@ -68,8 +69,11 @@ ms.locfileid: "49932314"
 | `Application` | string | Приложение, которое выполнило записанную действие |
 | `ProcessCommandLine` | string | Командная строка, используемая для создания нового процесса |
 | `AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
+| `RegistryKey` |string | Ключ реестра, к который было применено записано действие |
+| `RegistryValueName` |string | Имя значения реестра, к которое было применено записанное действие |
+| `RegistryValueData` |string | Данные значения реестра, к которое было применено записано действие |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

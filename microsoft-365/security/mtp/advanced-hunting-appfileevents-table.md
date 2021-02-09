@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 59e9affc53398f2a1b06fbab9774e4b53e146425
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8406d1f9e3d56555b1699d191933c6f9735c9574
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932878"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145491"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -54,6 +54,7 @@ ms.locfileid: "49932878"
 | `Protocol` | string | Используемый сетевой протокол |
 | `AccountName` | string | Имя пользователя учетной записи |
 | `AccountDomain` | string | Домен учетной записи |
+| `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
 | `AccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи |
 | `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure AD |
 | `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемой в адресной книге. Обычно сочетание заданного или имени, инициации по середине и фамилии или фамилии. |
@@ -61,14 +62,16 @@ ms.locfileid: "49932878"
 | `DeviceType` | string | Тип устройства | 
 | `OSPlatform` | string | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
 | `IPAddress` | string | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях |
+| `Port` | string | TCP-порт, используемый во время связи  |
 | `DestinationDeviceName` | string | Имя устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
 | `DestinationIPAddress` | string | IP-адрес устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
+| `DestinationPort` | string | Порт назначения связанных сетевых коммуникаций |
 | `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
 | `Isp` | string | Поставщик услуг Интернета, связанный с IP-адресом конечной точки |
 | `ReportId` | long | Уникальный идентификатор события |
 | `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

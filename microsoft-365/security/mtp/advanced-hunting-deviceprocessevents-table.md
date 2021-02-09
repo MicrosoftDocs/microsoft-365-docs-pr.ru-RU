@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7ad4fa530c3bc44169f7785aad95a3205f2cb8d9
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6f94b861aa73d01f9e906d41bc52a9724552cd33
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931150"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145515"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 
@@ -54,19 +54,23 @@ ms.locfileid: "49931150"
 | `FolderPath` | string | Папка, содержащая файл, к которой было применено записано действие |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
-| `MD5` | string | Hash MD5 файла, к который было применено записано действие |
+| `MD5` | string | MD5 hash of the file that the recorded action was applied to |
 | `ProcessId` | int | ИД процесса (PID) только что созданного процесса |
 | `ProcessCommandLine` | string | Командная строка, используемая для создания нового процесса |
 | `ProcessIntegrityLevel` | string | Уровень целостности только что созданного процесса. Windows назначает уровни целостности процессам на основе определенных характеристик, например, если они были запущены из скачаного интернета. Эти уровни целостности влияют на разрешения для ресурсов |
-| `ProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие повышения привилегий контроля доступа пользователей (UAC), примененного к только что созданному процессу |
+| `ProcessTokenElevation` | string | Указывает тип повышения прав маркера, примененного к только что созданному процессу. Возможные значения: TokenElevationTypeLimited (restricted), TokenElevationTypeDefault (стандартный) и TokenElevationTypeFull (с повышенными уровнями) |
 | `ProcessCreationTime` | datetime | Дата и время создания процесса |
 | `AccountDomain` | string | Домен учетной записи |
 | `AccountName` | string | Имя пользователя учетной записи |
 | `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
+| `AccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи |
+| `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure AD |
 | `LogonId` | string | Идентификатор сеанса logon. Этот идентификатор уникален на одном компьютере только между перезапусками |
 | `InitiatingProcessAccountDomain` | string | Домен учетной записи, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, которая запустила процесс, отвечающий за событие |
+| `InitiatingProcessAccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи, которая запустила процесс, отвечающий за событие |
+| `InitiatingProcessAccountObjectId` | string | ИД объекта Azure AD учетной записи пользователя, которая запустила процесс, отвечающий за событие |
 | `InitiatingProcessLogonId` | string | Идентификатор сеанса для процесса, который инициировал событие. Этот идентификатор уникален на одном компьютере только между перезапусками. |
 | `InitiatingProcessIntegrityLevel` | string | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам на основе определенных характеристик, например, если они были запущены из скачивания из Интернета. Эти уровни целостности влияют на разрешения для ресурсов |
 | `InitiatingProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие повышения привилегий контроля доступа пользователей (UAC), примененного к процессу, который инициировал событие |
@@ -74,17 +78,20 @@ ms.locfileid: "49931150"
 | `InitiatingProcessSHA256` | string | SHA-256 процесса (файла изображения), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `InitiatingProcessMD5` | string | Hash MD5 процесса (файл изображения), который инициировал событие |
 | `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
+| `InitiatingProcessFileSize` | long | Размер файла, который запустил процесс, отвечающий за событие |
 | `InitiatingProcessId` | int | ИД процесса, который инициировал событие |
 | `InitiatingProcessCommandLine` | string | Командная строка, используемая для запуска процесса, который инициировал событие |
-| `InitiatingProcessCreationTime` | datetime | Дата и время начала процесса, инициа |
+| `InitiatingProcessCreationTime` | datetime | Дата и время запуска процесса, который инициировал событие |
 | `InitiatingProcessFolderPath` | string | Папка, содержащая процесс (файл изображения), который инициировал событие |
 | `InitiatingProcessParentId` | int | ИД (PID) родительского процесса, который ил процесса, ответственного за событие |
 | `InitiatingProcessParentFileName` | string | Имя родительского процесса, который ил процесса, ответственного за событие |
 | `InitiatingProcessParentCreationTime` | datetime | Дата и время начала родительского процесса, ответственного за событие |
-| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец необходимо использовать вместе со столбцами DeviceName и Timestamp. |
 | `AppGuardContainerId` | string | Идентификатор виртуализированного контейнера, используемого Application Guard для изоляции активности браузера |
+| `AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
+| `FileSize` | long | Размер файла в ветвях |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.date: 09/08/2020
 search.appverid:
@@ -19,17 +18,23 @@ ms.collection:
 - m365initiative-defender-office365
 description: Администраторы могут узнать о защите от угроз в Microsoft 365 и настроить ее использование для вашей организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2951d5725237d572d357ac3fc6cff0ac4df7e8f0
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: cb2866fd3e60c021ae89ffabe7149f4b415d63bc
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794440"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150716"
 ---
 # <a name="protect-against-threats"></a>Защита от угроз
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Относится к**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1) и план 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Вот краткое руководство, которое разбивает конфигурацию Защитника для Office 365 на блоки. Если вы еще не используете функции защиты от угроз в Office 365, не знаете, с чего начать, или если вы научитесь лучше всего это *делать,* воспользуйтесь этим руководством в качестве контрольного списка и отправной точки.
 
@@ -47,7 +52,7 @@ ms.locfileid: "49794440"
 
 ****
 
-|Тип защиты|Требование к подписке|
+|Тип защиты|Требование подписки|
 |---|---|
 |Ведение журнала аудита (для создания отчетов)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)|
 |Защита от вредоносных программ|[Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) **(EOP)**|
@@ -55,7 +60,7 @@ ms.locfileid: "49794440"
 |Защита от нежелательной почты|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Автоматическая очистка (для электронной почты)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Защита от вредоносных URL-адресов и файлов в электронной почте и документах Office (безопасные ссылки и безопасные вложения)|[Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|Включить ATP для рабочих нагрузок SharePoint, OneDrive и Microsoft Teams|[Защитник для Office 365 ](atp-for-spo-odb-and-teams.md)|
+|Включить безопасные вложения для рабочих нагрузок SharePoint, OneDrive и Microsoft Teams|[Защитник для Office 365 ](atp-for-spo-odb-and-teams.md)|
 |Расширенные средства защиты от фишинга|[Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Роли и разрешения
@@ -75,7 +80,7 @@ ms.locfileid: "49794440"
 
 ## <a name="before-you-begin-turn-on-audit-logging-for-reporting-and-investigation"></a>Перед началом включите ведение журнала аудита для отчетности и исследования
 
-Начните ведение журнала аудита раньше. Для определенных действий вам потребуется, чтобы аудит был в **действии.** Ведение журнала аудита доступно в подписках, в том числе [Exchange Online.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) Для просмотра данных в отчетах о защите от [](view-email-security-reports.md)угроз, таких как панель мониторинга [безопасности,](security-dashboard.md)отчеты о безопасности электронной почты и [проводник,](threat-explorer.md)ведение журнала аудита должно быть *в порядке.* Дополнительные данные см. в записи "Включить или отключить [поиск в журнале аудита".](../../compliance/turn-audit-log-search-on-or-off.md)
+Начните ведение журнала аудита раньше. Для некоторых действий вам потребуется, чтобы аудит был в **действии.** Ведение журнала аудита доступно в подписках, в том числе [Exchange Online.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) Для просмотра данных в отчетах о защите от [](view-email-security-reports.md)угроз, таких как панель мониторинга [безопасности,](security-dashboard.md)отчеты о безопасности электронной почты и [проводник,](threat-explorer.md)ведение журнала аудита должно быть *в порядке.* Дополнительные данные см. в записи "Включить или отключить [поиск в журнале аудита".](../../compliance/turn-audit-log-search-on-or-off.md)
 
 ## <a name="part-1---anti-malware-protection"></a>Часть 1. Защита от вредоносных программ
 
@@ -91,7 +96,7 @@ ms.locfileid: "49794440"
 
     - В разделе **"Фильтр общих типов вложений"** выберите **"В.**
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 Дополнительные информацию о параметрах политики для борьбы с вредоносными программами см. в подстройке "Настройка политик для борьбы с вредоносными [программами".](configure-anti-malware-policies.md)
 
@@ -99,7 +104,7 @@ ms.locfileid: "49794440"
 
 [Защита от фишинга](anti-phishing-protection.md) доступна в подписках, включающих [EOP.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) Advanced anti-phishing protection is available in [Defender for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
-В следующей процедуре описывается настройка политики защиты от фишинга в Microsoft Defender для Office 365. Действия по настройке политики защиты от фишинга в EOP аналогичны.
+В следующей процедуре описывается настройка политики защиты от фишинга в Microsoft Defender для Office 365. Эти действия аналогичны настройке политики защиты от фишинга в EOP.
 
 1. В Центре [безопасности & соответствия](https://protection.office.com)требованиям выберите **политику** управления угрозами ATP для защиты \>  \> **от фишинга.**
 
@@ -107,11 +112,11 @@ ms.locfileid: "49794440"
 
 3. В разделе **"Под вопросом"** нажмите кнопку **"Изменить"** и укажите следующие параметры:
 
-   - На **вкладке "Добавление пользователей для защиты"** включите *защиту.* Затем добавьте пользователей, таких как члены совета директоров организации, ваш исполнительный директор, CFO и другие старшие руководители. (Можно ввести отдельный адрес электронной почты или щелкнуть, чтобы отобразить список.)
+   - На **вкладке "Добавление пользователей для защиты"** включите *защиту.* Затем добавьте пользователей, таких как члены совета директоров организации, ваш исполнительный директор, CFO и другие старшие руководители. (Вы можете ввести отдельный адрес электронной почты или щелкнуть, чтобы отобразить список.)
 
    - On the **Add domains to protect** tab, turn on **Automatically include the domains I own**. Если у вас есть настраиваемые домены, добавьте их сейчас.
 
-   - На **вкладке "Действия"** выберите "Карантин сообщения" для параметров как для подручного пользователя, так и для  **подмащенного домена.**  Кроме того, включите советы по безопасности при подналичии.
+   - На **вкладке "Действия"** выберите "Карантин" сообщения для параметров как для выдаваемого пользователя, так и для  **подмащенного домена.**  Кроме того, включите советы по безопасности при подналичии.
 
    - На **вкладке "Аналитика почтовых** ящиков" убедитесь, что включена аналитика почтовых ящиков, и включите защиту от поднабора на основе аналитики почтовых ящиков. In the **If email is sent by an impersonated user** list, choose **Quarantine the message**.
 
@@ -121,7 +126,7 @@ ms.locfileid: "49794440"
 
 4. В разделе **"Спуфинг"** нажмите кнопку **"Изменить"** и укажите следующие параметры:
 
-   - На **вкладке параметров** фильтра спуфинга убедитесь, что защита от спуфинга включена.
+   - **Убедитесь,** что на вкладке параметров фильтра спуфинга включена защита от спуфинга.
 
    - На **вкладке "Действия"** выберите **"Карантин сообщения".**
 
@@ -135,23 +140,23 @@ ms.locfileid: "49794440"
 
 [Защита от нежелательной почты](anti-spam-protection.md) доступна в подписках, в том числе [EOP.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
 
-1. В Центре [безопасности & соответствия](https://protection.office.com)требованиям выберите **политику** управления угрозами для защиты \>  \> **от нежелательной почты.**
+1. В Центре [безопасности и соответствия & выберите](https://protection.office.com) **политику** управления угрозами для защиты от \>  \> **нежелательной почты.**
 
 2. На **вкладке "Настраиваемые"** включите настраиваемые параметры.
 
-3. **Разойдите политику фильтрации нежелательной** почты по умолчанию, нажмите **кнопку "Изменить политику"** и укажите следующие параметры:
+3. **Разойдите политику фильтрации нежелательной** почты по умолчанию, нажмите кнопку **"Изменить политику"** и укажите следующие параметры:
 
    - В разделе **"Спам и** массовые действия" установите пороговое значение 5 или 6.
 
    - В разделе **"Списки разрешенных"** просмотрите (и/или отредактируете) разрешенных отправителей и домены.
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 Дополнительные информацию о параметрах политики нежелательной почты см. в подстроке "Настройка политик борьбы с нежелательной [почтой" в EOP.](configure-your-spam-filter-policies.md)
 
 ## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>Часть 4. Защита от вредоносных URL-адресов и файлов (безопасные ссылки и безопасные вложения в Защитнике Office 365)
 
-Защита от вредоносных URL-адресов и файлов во время щелчка доступна в подписках, в том числе [в Microsoft Defender для Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) Она настроена с помощью политик безопасных [вложений](atp-safe-attachments.md) и [безопасных ссылок.](atp-safe-links.md)
+Защита от вредоносных URL-адресов и файлов во время щелчка доступна в подписках, в том числе [в Microsoft Defender для Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) Она настроена с помощью политик безопасных [вложений](atp-safe-attachments.md) и [безопасных](atp-safe-links.md) ссылок.
 
 ### <a name="safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Политики безопасных вложений в Microsoft Defender для Office 365
 
@@ -164,7 +169,7 @@ ms.locfileid: "49794440"
    - В поле **"Имя"** введите `Block malware` и нажмите кнопку **"Далее".**
 
    - На странице **"Параметры"** настройте следующие параметры:
-     - In the **Safe attachments unknown malware response section,** choose **Block**.
+     - В разделе **"Безопасные вложения неизвестные вредоносные программы"** выберите **"Блокировать".**
      - В разделе **"Перенаправление** вложений" выберите параметр **"Включить перенаправление".** Укажите адрес электронной почты администратора или оператора безопасности организации, который будет рассматривать обнаруженные файлы.
 
      Нажмите **Далее**.
@@ -183,7 +188,7 @@ ms.locfileid: "49794440"
    - **Не отслеживайте, когда пользователи нажимают** кнопку "Безопасные ссылки": отключите этот параметр для отслеживания щелчков: ![ "Отключить". ](../../media/scc-toggle-off.png)
    - **Не позволяйте пользователям пережимать безопасные** ссылки на исходный URL-адрес: убедитесь, что этот параметр включен: ![ "Переключение" ](../../media/scc-toggle-on.png) .
 
-   Когда закончите, нажмите кнопку **Сохранить**.
+   По завершении нажмите кнопку **Сохранить**.
 
 2. На главной странице "Безопасные ссылки" нажмите кнопку **"Создать".**
 
@@ -207,7 +212,7 @@ ms.locfileid: "49794440"
 
 Дополнительные сведения см. в статье [Настройка политик безопасных ссылок](set-up-atp-safe-links-policies.md).
 
-## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>Часть 5. Проверка того, что ATP для SharePoint, OneDrive и Microsoft Teams включена
+## <a name="part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>Часть 5. Проверка того, что безопасные вложения для SharePoint, OneDrive и Microsoft Teams включены
 
 Рабочие нагрузки, такие как SharePoint, OneDrive и Teams, построены для совместной работы. Использование Защитника для Office 365 помогает блокировать и обнаруживать файлы, которые определены как вредоносные на сайтах группы и в библиотеках документов. Подробнее о том, как это работает, можно узнать [здесь.](atp-for-spo-odb-and-teams.md)
 
@@ -216,7 +221,7 @@ ms.locfileid: "49794440"
 
 1. In the [Security & Compliance Center,](https://protection.office.com)choose **Threat management** \> **Policy** \> **ATP Safe Attachments**, and then click **Global settings**.
 
-2. Убедитесь, что выключатель "Включить ATP для **SharePoint,OneDrive** и Microsoft Teams" находится справа: "Включить" и нажмите кнопку ![ ](../../media/scc-toggle-on.png) **"Сохранить".**
+2. Убедитесь, что выключатель "Включить Защитник для **Office 365 для SharePoint", OneDrive** и Microsoft Teams находится справа: "Включить" и нажмите кнопку ![ ](../../media/scc-toggle-on.png) **"Сохранить".**
 
 3. Просмотрите (и при необходимости отредактируете) политики безопасных вложений и политики безопасных [ссылок организации.](set-up-atp-safe-links-policies.md) [](set-up-atp-safe-attachments-policies.md)
 
@@ -252,13 +257,13 @@ ms.locfileid: "49794440"
 
 7. **Сохраните**.
 
-Дополнительные информацию об оповещениях см. в центре безопасности [и & соответствия требованиям.](../../compliance/create-activity-alerts.md)
+Дополнительные информацию об оповещениях см. в центре безопасности [& соответствия требованиям.](../../compliance/create-activity-alerts.md)
 
 > [!NOTE]
 > Завершив настройку, воспользуйтесь этими ссылками, чтобы начать исследование рабочей нагрузки:
 >
 >- [отчет о состоянии защиты от угроз](view-email-security-reports.md#threat-protection-status-report);
->- [Использование Центра безопасности & соответствия требованиям для управления файлами в карантине](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)
+>- [Использование Центра безопасности & соответствия требованиям для управления файлами на карантине](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)
 >- [Действия при обнаружении вредоносного файла в SharePoint Online, OneDrive или Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
 >- [Управление сообщениями и файлами на карантине от администратора в Microsoft 365](manage-quarantined-messages-and-files.md)
 
@@ -268,7 +273,7 @@ ms.locfileid: "49794440"
 
 ### <a name="zero-hour-auto-purge-for-email-in-eop"></a>Автоматическая очистка электронной почты в EOP
 
-[Автоматическая очистка](zero-hour-auto-purge.md) (ZAP) нулевого часа доступна в подписках, включая [EOP.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) Эта защита включена по умолчанию; однако для того, чтобы защита вступила в силу, должны быть выполнены следующие условия:
+[Автоматическая очистка](zero-hour-auto-purge.md) (ZAP) нулевого часа доступна в подписках, включая [EOP.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) Эта защита включена по умолчанию; Однако для того, чтобы защита вступила в силу, должны быть выполнены следующие условия:
 
 - Для действий с нежелательной **почтой** в политиках борьбы с нежелательной почтой настроено перемещение сообщения в папку [нежелательной почты.](anti-spam-protection.md)
 

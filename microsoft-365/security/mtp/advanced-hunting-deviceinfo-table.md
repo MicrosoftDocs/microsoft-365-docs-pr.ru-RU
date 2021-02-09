@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e445902ee83b734f84d02607905413a14c016b8f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6462096a6c1b44ee11299f652a54f261d0355523
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931282"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145371"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -52,13 +52,15 @@ ms.locfileid: "49931282"
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Это указывает на определенные операционные системы, включая варианты одного семейства, такие как Windows 10 и Windows 7 |
 | `OSBuild` | string | Версия сборки операционной системы, запущенной на компьютере |
 | `IsAzureADJoined` | boolean | Boolean indicator of whether machine is joined to the Azure Active Directory |
+| `DeviceObjectId` | string | Уникальный идентификатор устройства в Azure AD |
 | `LoggedOnUsers` | string | Список всех пользователей, которые вошли в систему на компьютере во время события в формате массива JSON |
 | `RegistryDeviceTag` | string | Тег компьютера, добавленный через реестр |
-| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец необходимо использовать вместе со столбцами DeviceName и Timestamp. |
+|`AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
 | `MachineGroup` | string | Группа компьютера. Эта группа используется управлением доступом на основе ролей для определения доступа к компьютеру |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

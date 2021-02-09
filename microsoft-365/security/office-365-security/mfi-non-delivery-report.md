@@ -14,17 +14,21 @@ ms.custom:
 description: Администраторы могут узнать, как использовать отчет о неотвечающих сообщениях на панели мониторинга потока обработки почты в Центре безопасности и соответствия требованиям & для отслеживания наиболее часто встречающихся кодов ошибок в отчетах о доставке (также известных как сообщения о возврате) от отправителей в организации.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dbd27fc818a46a983874a04f0e313c622e047ea5
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: af4beefb8ba15fd7d98b11ec2571eee65a99e4e3
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029838"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150163"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>Отчет о не доставке в Центре безопасности & соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Относится к**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1) и план 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Отчет  о не доставке на панели [](https://protection.office.com) мониторинга потока обработки почты в Центре безопасности и соответствия требованиям & показывает наиболее часто встречавались коды ошибок в отчетах о не доставке (также известных как сообщения о возврате) для пользователей в организации. [](mail-flow-insights-v2.md) В этом отчете показаны подробные отчеты о отчетах о доставке, с которыми можно устранять проблемы с доставкой электронной почты.
 
@@ -32,7 +36,7 @@ ms.locfileid: "50029838"
 
 ## <a name="report-view-for-the-non-delivery-report"></a>Представление отчета о невыдаваемом сообщении
 
-Щелкнув **мини-виджет** "Отчет о доставке", вы йдите в отчет о **доставке.**
+Если щелкнуть **мини-виджет "Отчет** о не доставке", вы йдите в отчет о **доставке.**
 
 По умолчанию отображается действие для всех кодов ошибок. Если нажать **кнопку "Показать данные",** можно выбрать определенный код ошибки из dropdown.
 
@@ -58,7 +62,7 @@ ms.locfileid: "50029838"
 - **Дата**
 - **Код отчета о не** доставке: вы можете щелкнуть ссылку, чтобы найти дополнительные сведения о причинах и решениях определенного кода ошибки.
 - **Count**
-- **Примеры сообщений:** можно щелкнуть "Просмотреть **примеры** сообщений", чтобы просмотреть результаты трассировки для примера затронутых сообщений. [](message-trace-scc.md)
+- **Примеры сообщений:** вы можете щелкнуть [](message-trace-scc.md) "Просмотреть **образцы** сообщений", чтобы просмотреть результаты трассировки для примера затронутых сообщений.
 
 ![Flyout Details after selecting a row in Details table view in the Non-delivery report](../../media/mfi-non-delivery-report-details-flyout.png)
 

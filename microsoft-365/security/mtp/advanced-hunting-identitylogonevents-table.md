@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1df1295b3386b94e3737c53ac8226c719c8bfa08
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 87ac6194374e8e042cf9d00271b17dd8bb785d64
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929926"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145359"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -63,8 +63,10 @@ ms.locfileid: "49929926"
 | `DeviceType` | string | Тип устройства |
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
 | `IPAddress` | string | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях |
+| `Port` | string | TCP-порт, используемый во время связи |
 | `DestinationDeviceName` | string | Имя устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
 | `DestinationIPAddress` | string | IP-адрес устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
+| `DestinationPort` | string | Порт назначения связанных сетевых коммуникаций |
 | `TargetDeviceName` | string | Полное доменное имя (FQDN) устройства, к которого было применено записанное действие |
 | `TargetAccountDisplayName` | string | Отображаемого имени учетной записи, к которую было применено записанное действие |
 | `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
@@ -72,7 +74,7 @@ ms.locfileid: "49929926"
 | `ReportId` | long | Уникальный идентификатор события |
 | `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

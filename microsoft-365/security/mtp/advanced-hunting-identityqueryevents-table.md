@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7016127a75bca48103f5325ce169faa3d7c31c85
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 48a1520e9fc6239fd3105f01a32a03e5e58df174
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929818"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145299"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -59,16 +59,18 @@ ms.locfileid: "49929818"
 | `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемой в адресной книге. Обычно сочетание заданного или имени, инициации по середине и фамилии или фамилии. |
 | `DeviceName` | string | Полное доменное имя конечной точки |
 | `IPAddress` | string | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях |
+| `Port` | string | TCP-порт, используемый во время связи |
 | `DestinationDeviceName` | string | Имя устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
 | `DestinationIPAddress` | string | IP-адрес устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
-| `TargetDeviceName` | string | Полное доменное имя (FQDN) устройства, к которого было применено записанное действие |
+| `DestinationPort` | string | Порт назначения связанных сетевых коммуникаций |
+| `TargetDeviceName` | string | Полное доменное имя устройства, к которое было применено записанное действие |
 | `TargetAccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи, к которую было применено записанное действие |
 | `TargetAccountDisplayName` | string | Отображаемого имени учетной записи, к которую было применено записанное действие |
 | `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
 | `ReportId` | long | Уникальный идентификатор события |
 | `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
