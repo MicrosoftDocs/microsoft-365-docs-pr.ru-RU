@@ -25,6 +25,8 @@
           href: ./office-365-security/secure-email-recommended-policies.md
         - name: "Рекомендуемые политики доступа SharePoint\_Online"
           href: ./office-365-security/sharepoint-file-access-policies.md
+    - name: Центр безопасности Microsoft 365
+      href: mtp/overview-security-center.md
     - name: Оценка безопасности (Майкрософт)
       items:
         - name: Обзор оценки безопасности
@@ -45,10 +47,14 @@
               href: mtp/microsoft-threat-protection.md
             - name: Новые возможности Microsoft 365 Defender
               href: mtp/whats-new.md
-            - name: Предварительные версии функций
+            - name: Microsoft Defender для конечной точки в Центре безопасности Microsoft 365
+              href: mtp/microsoft-365-security-center-mde.md
+            - name: Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
+              href: mtp/microsoft-365-security-center-mdo.md
+            - name: Перенаправление Microsoft Defender для конечной точки в Центр безопасности Microsoft 365
+              href: mtp/microsoft-365-security-mde-redirection.md
+            - name: Предварительные функции
               href: mtp/preview.md
-            - name: "Центр безопасности Microsoft\_365"
-              href: mtp/overview-security-center.md
             - name: Устранение неполадок
               href: ./mtp/troubleshoot.md
             - name: Отраслевые тесты
@@ -63,22 +69,18 @@
               href: mtp/portals.md
         - name: Оценка возможностей
           items:
-            - name: Обзор испытательной лаборатории
-              href: mtp/mtp-evaluation.md
-            - name: Подготовка
-              href: mtp/prepare-mtpeval.md
-            - name: Настройка
-              href: mtp/setup-mtpeval.md
-            - name: Настройка и внедрение
-              href: mtp/config-mtpeval.md
-            - name: Запуск службы Microsoft 365 Defender
-              href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
-            - name: Создание тестового оповещения
-              href: mtp/generate-test-alert.md
-        - name: Развертывание
-          items:
-            - name: Включение Защиты от угроз (Майкрософт)
-              href: mtp/mtp-enable.md
+            - name: Создание испытательной лаборатории
+              items:
+                - name: Обзор испытательной лаборатории
+                  href: mtp/mtp-evaluation.md
+                - name: Подготовка
+                  href: mtp/prepare-mtpeval.md
+                - name: Настройка
+                  href: mtp/setup-mtpeval.md
+                - name: Принципы настройки и внедрение Microsoft 365 Defender
+                  href: mtp/config-mtpeval.md
+                - name: Создание тестового оповещения
+                  href: mtp/generate-test-alert.md
             - name: Запуск пилотного проекта в рабочей среде
               items:
                 - name: Обзор пилотного проекта
@@ -91,8 +93,16 @@
                   href: mtp/mtp-pilot-simulate.md
                 - name: Закрытие и итоги
                   href: mtp/mtp-pilot-close.md
+        - name: Начало работы
+          items:
+            - name: Обзор
+              href: mtp/get-started.md
+            - name: Включение Защиты от угроз (Майкрософт)
+              href: mtp/mtp-enable.md
             - name: Развертывание поддерживаемых служб
               href: mtp/deploy-supported-services.md
+            - name: Вопросы и ответы по включению Microsoft 365 Defender
+              href: mtp/mtp-enable-faq.md
         - name: Практические руководства
           items:
             - name: Создание испытательной лабораторной или пилотной среды
@@ -101,6 +111,12 @@
               href: mtp/mtp-pilot.md
             - name: Включение вопросов и ответов
               href: mtp/mtp-enable-faq.md
+            - name: Аналитика угроз
+              items:
+                - name: Обзор аналитики угроз
+                  href: mtp/threat-analytics.md
+                - name: Чтение аналитического отчета
+                  href: mtp/threat-analytics-analyst-reports.md
             - name: Инциденты
               items:
                 - name: Обзор
@@ -113,6 +129,10 @@
                       href: mtp/investigate-incidents.md
                     - name: Управление инцидентами
                       href: mtp/manage-incidents.md
+                    - name: Исследование оповещений
+                      href: mtp/investigate-alerts.md
+                    - name: "Исследование пользователей в Центре безопасности Microsoft\_365"
+                      href: mtp/investigate-users.md
                 - name: Получение уведомлений по электронной почте
                   href: mtp/get-incident-notifications.md
             - name: Автоматическое исследование и реагирование
@@ -247,6 +267,8 @@
               items:
                 - name: Управление доступом
                   href: mtp/mtp-permissions.md
+                - name: Настраиваемые роли в доступе на основе ролей
+                  href: mtp/custom-roles.md
                 - name: Установка часового пояса
                   href: mtp/mtp-time-zone.md
                 - name: Просмотр профилей устройств
@@ -302,6 +324,8 @@
           items:
             - name: Стратегия повышения безопасности
               href: ./office-365-security/security-roadmap.md
+            - name: Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
+              href: mtp/microsoft-365-security-center-mdo.md
             - name: Exchange Online Protection
               items:
                 - name: Обзор Exchange Online Protection
@@ -328,7 +352,7 @@
               href: office-365-security/whats-new-in-office-365-atp.md
             - name: 'Безопасные вложения для SharePoint, OneDrive и Microsoft Teams'
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
-            - name: "Новый Центр безопасности Microsoft\_365"
+            - name: "Обзор Центра безопасности Microsoft\_365"
               href: ./mtp/overview-security-center.md
             - name: Обозреватель угроз (и обнаружение в режиме реального времени)
               href: ./office-365-security/threat-explorer.md
