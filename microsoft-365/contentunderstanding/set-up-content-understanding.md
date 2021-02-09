@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Настройка понимания содержимого в Project Cortex
-ms.openlocfilehash: 0e5b48bab343f887a1438386bfa4f7915126ccd7
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: 58496041004218b48b864fa725084cba8edd518b
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094713"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145479"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
@@ -92,11 +92,11 @@ ms.locfileid: "50094713"
 
 1. В Центре администрирования Microsoft 365 в разделе **Пользователи**, щелкните **Активные пользователи**.
 
-2. Выберите пользователей, которых вы хотите лицензировать, и щелкните **Управление лицензиями продуктов**.
+2. Выберите пользователей, которым вы хотите назначить лицензии, и нажмите **Управление лицензиями продуктов**.
 
-3. Щелкните **Назначить еще**.
+3. Выберите **Приложения** в раскрывающемся меню.
 
-4. Выберите **SharePoint Syntex**. В разделе **Приложения**, убедитесь, что выбраны **Common Data Service для SharePoint Syntex**, **SharePoint Syntex**, и **SharePoint Syntex - тип SPO**.
+4. Выберите **Показать приложения для SharePoint Syntex**. В разделе **Приложения**, убедитесь, что выбраны **Common Data Service для SharePoint Syntex**, **SharePoint Syntex**, и **SharePoint Syntex - тип SPO**.
 
     > [!div class="mx-imgBorder"]
     > ![Лицензии SharePoint Syntex в Центре администрирования Microsoft 365](../media/content-understanding/sharepoint-syntex-licenses.png)
