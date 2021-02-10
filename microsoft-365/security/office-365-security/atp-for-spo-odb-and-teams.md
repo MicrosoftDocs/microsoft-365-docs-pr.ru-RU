@@ -1,5 +1,5 @@
 ---
-title: ATP для SharePoint, OneDrive и Microsoft Teams
+title: Безопасные вложения для SharePoint, OneDrive и Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -8,7 +8,6 @@ manager: dansimp
 audience: Admin
 ms.date: ''
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -21,52 +20,58 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Узнайте о защитнике Майкрософт для Office 365 для файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
-ms.openlocfilehash: 7b007671a7fecb3ae074fd07ce38d17fb025f6b4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Узнайте о Microsoft Defender для Office 365 для файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 640867cb38dab650bca990fe36c0b7cea7f6a0d8
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844336"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175731"
 ---
-# <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP для SharePoint, OneDrive и Microsoft Teams
+# <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Безопасные вложения для SharePoint, OneDrive и Microsoft Teams
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-ATP для SharePoint, OneDrive и Microsoft Teams в [защитнике Майкрософт для Office 365](office-365-atp.md) обеспечивает дополнительный уровень защиты для файлов, которые уже были проверены во время отправки с помощью [общего модуля обнаружения вирусов в Microsoft 365](virus-detection-in-spo.md). ATP для SharePoint, OneDrive и Microsoft Teams помогает обнаруживать и блокировать существующие файлы, которые определены как вредоносные на сайтах групп и библиотеках документов.
+**Область применения**
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Служба ATP для SharePoint, OneDrive и Microsoft Teams по умолчанию отключена. Чтобы включить его, ознакомьтесь со статьей [Включение ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
+Безопасные вложения для SharePoint, OneDrive и Microsoft Teams в [Microsoft Defender для Office 365](office-365-atp.md) обеспечивают дополнительный уровень защиты файлов, которые уже были сканированы во время отправки распространенным механизмом обнаружения вирусов в Microsoft [365.](virus-detection-in-spo.md) Безопасные вложения для SharePoint, OneDrive и Microsoft Teams помогают обнаруживать и блокировать существующие файлы, которые определены как вредоносные на сайтах групп и в библиотеках документов.
 
-## <a name="how-atp-for-sharepoint-onedrive-and-microsoft-teams-works"></a>Принципы работы ATP для SharePoint, OneDrive и Microsoft Teams
+Безопасные вложения для SharePoint, OneDrive и Microsoft Teams по умолчанию не включены. Чтобы включить его, см. раздел "Включить безопасные [вложения для SharePoint, OneDrive и Microsoft Teams".](turn-on-atp-for-spo-odb-and-teams.md)
 
-Когда ATP для SharePoint, OneDrive и Microsoft Teams включается и определяет файл как вредоносный, файл блокируется с помощью непосредственной интеграции с хранилищами файлов. На следующем рисунке показан пример вредоносного файла, обнаруженного в библиотеке.
+## <a name="how-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-works"></a>Как работают безопасные вложения для SharePoint, OneDrive и Microsoft Teams
 
-![Файлы в OneDrive для бизнеса с одной обнаруженной вредоносной службой](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
+Если в SharePoint, OneDrive и Microsoft Teams включены безопасные вложения и файл идентифицируется как вредоносный, файл блокируется с помощью прямой интеграции с хранилищами файлов. На следующем рисунке показан пример вредоносного файла, обнаруженного в библиотеке.
 
-Несмотря на то, что заблокированный файл все еще отображается в библиотеке документов, в веб-приложениях, мобильных или настольных компьютерах, пользователи не могут открывать, копировать, перемещать файлы и предоставлять к ним общий доступ. Но они могут удалить заблокированный файл.
+![Файлы в OneDrive для бизнеса с одним из них, обнаруженными как вредоносные](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
 
-Ниже приведен пример того, как выглядит заблокированный файл на мобильном устройстве:
+Хотя заблокированный файл по-прежнему находится в библиотеке документов и в веб-приложениях, мобильных или классических приложениях, пользователи не могут открывать, копировать, перемещать или делиться файлом. Но они могут удалить заблокированный файл.
+
+Вот пример того, как заблокированный файл выглядит на мобильном устройстве:
 
 ![Удаление заблокированного файла из OneDrive для бизнеса из мобильного приложения OneDrive](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
-По умолчанию пользователи могут скачать заблокированный файл. Ниже показано, как выполняется загрузка заблокированного файла на мобильном устройстве.
+По умолчанию люди могут скачать заблокированный файл. Вот как выглядит скачивание заблокированного файла на мобильном устройстве:
 
 ![Скачивание заблокированного файла в OneDrive для бизнеса](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
-Администраторы SharePoint Online могут запретить пользователям загружать вредоносные файлы. Инструкции можно найти [в статье Использование PowerShell для SharePoint Online, чтобы запретить пользователям скачивать вредоносные файлы](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files).
+Администраторы SharePoint Online могут запретить скачивание вредоносных файлов. Инструкции см. в [sharePoint Online PowerShell, чтобы](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)запретить пользователям скачивать вредоносные файлы.
 
-Чтобы узнать больше о пользовательском интерфейсе, когда файл был определен как вредоносный, посмотрите, [что делать, когда вредоносный файл обнаружен в SharePoint Online, OneDrive или Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2).
+Чтобы узнать больше о пользовательском интерфейсе при обнаружении файла как вредоносного, см. раздел "Что делать при обнаружении вредоносного файла в [SharePoint Online, OneDrive или Microsoft Teams".](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
 
-## <a name="view-information-about-malicious-files-detected-by-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Просмотр сведений о вредоносных файлах, обнаруженных ATP для SharePoint, OneDrive и Microsoft Teams
+## <a name="view-information-about-malicious-files-detected-by-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Просмотр сведений о вредоносных файлах, обнаруженных с помощью безопасных вложений для SharePoint, OneDrive и Microsoft Teams
 
-Файлы, которые определены как вредоносные защитником Майкрософт для Office 365, будут отображаться в [отчетах для защитника Майкрософт для office 365](view-reports-for-atp.md) и в [Проводнике (в режиме обнаружения в режиме реального времени)](threat-explorer.md).
+Файлы, которые определены Как вредоносные в Microsoft Defender для Office 365, будут показываться в отчетах для Microsoft Defender для [Office 365](view-reports-for-atp.md) и [в проводнике (и](threat-explorer.md)обнаружения в режиме реального времени).
 
-В случае мая 2018, если файл определен как вредоносный защитником Майкрософт для Office 365, файл также доступен в карантине. Дополнительные сведения можно найти [в статье Использование центра безопасности & соответствия требованиям для управления файлами, помещенными в карантин](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files).
+С мая 2018 г., когда Microsoft Defender для Office 365 определил файл как вредоносный, он также доступен в карантине. Дополнительные сведения см. в центре безопасности & соответствия требованиям для управления файлами [на карантине.](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)
 
 ## <a name="keep-these-points-in-mind"></a>Помните об этих моментах
 
-- Защитник для Office 365 не проверяет каждый отдельный файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams. Данное поведение является особенностью продукта. Файлы сканируются асинхронно. Процесс использует события общего доступа и гостевых действий, а также интеллектуальные эвристики и сигналы угроз для определения вредоносных файлов.
+- Защитник Office 365 не будет сканировать каждый файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams. Данное поведение является особенностью продукта. Файлы проверяются асинхронно. Этот процесс использует события общего доступа и гостевой активности, а также интеллектуальные сигналы и сигналы угроз для идентификации вредоносных файлов.
 
-- Убедитесь, что сайты SharePoint настроены на использование [современного интерфейса](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). Защитник для Office 365 Protection определяет, используется ли современный интерфейс или классическое представление; Однако визуальные индикаторы, заблокированные файлом, доступны только в современном интерфейсе.
+- Убедитесь, что сайты SharePoint настроены на использование современного [опыта.](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience) Защита в Защитнике Office 365 применяется как в современном, так и в классическом представлении; Однако визуальные индикаторы блокировки файла доступны только в современном средстве.
 
-- ATP для SharePoint, OneDrive и Microsoft Teams является частью общей стратегии защиты от угроз, включающей защиту от нежелательной почты и вредоносных программ в Exchange Online Protection (EOP), а также безопасные ссылки и безопасные вложения в защитнике Майкрософт для Office 365. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Office 365](protect-against-threats.md).
+- Безопасные вложения для SharePoint, OneDrive и Microsoft Teams входят в общую стратегию вашей организации по защите от угроз, которая включает защиту от нежелательной почты и вредоносных программ в Exchange Online Protection (EOP), а также безопасные ссылки и безопасные вложения в Microsoft Defender для Office 365. Дополнительные информации см. в этой [теме, в этой теме вы узнаете, как защититься от угроз в Office 365.](protect-against-threats.md)

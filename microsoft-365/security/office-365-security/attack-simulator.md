@@ -20,21 +20,20 @@ ms.custom:
 description: Администраторы могут научиться использовать имитатор атак для имитации фишинга и атак с использованием паролей в организациях Microsoft 365 E5 или Microsoft Defender для Office 365 (план 2).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a9abca803c21baa7fcb5f0ab7b3d4c497c4473b8
-ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
+ms.openlocfilehash: 824ee04e2fcf0757a7eb32b48246bf1a1c638926
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49939324"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175894"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Имитатор атак в Microsoft Defender для Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Если в вашей организации есть Microsoft Defender для Office 365 (план 2), который включает возможности исследования угроз и реагирования на [них,](office-365-ti.md)вы можете использовать имитатор атак в Центре безопасности и соответствия требованиям & для выполнения реалистичных сценариев атак в организации. Эти имитации атак могут помочь вам определить и найти уязвимых пользователей, прежде чем реальные атаки повяжют на вашу жнюю линию. Чтобы узнать больше, ознакомьтесь с этой статьей.
+**Применимо к** [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
 
-> [!TIP]
-> Обучение моделированию атак доступно для общедоступных предварительных версий в Центре безопасности Microsoft 365. Чтобы узнать больше, ознакомьтесь с имитацией фишинговой атаки с помощью [Microsoft Defender для Office 365.](attack-simulation-training.md)
+Если в вашей организации есть Microsoft Defender для Office 365 (план 2), который включает возможности исследования угроз и реагирования на [них,](office-365-ti.md)вы можете использовать имитатор атак в Центре безопасности и соответствия требованиям & для выполнения реалистичных сценариев атак в организации. Эти имитации атак могут помочь вам определить и найти уязвимых пользователей, прежде чем реальные атаки повяжют на вашу жнюю линию. Чтобы узнать больше, ознакомьтесь с этой статьей.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 

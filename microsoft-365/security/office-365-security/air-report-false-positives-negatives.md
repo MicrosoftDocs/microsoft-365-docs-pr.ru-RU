@@ -1,6 +1,6 @@
 ---
 title: Как сообщить о ложных срабатывах или ложных отрицательных результатах после автоматического исследования в Microsoft Defender для Office 365
-description: Было ли обнаружено что-то пропущенное или неправильное с помощью AIR в Microsoft Defender для Office 365? Узнайте, как отправлять ложные положительные или ложные отрицательные результаты в корпорацию Майкрософт для анализа.
+description: Было ли обнаружено что-то пропущенное или неправильное с помощью AIR в Microsoft Defender для Office 365? Узнайте, как отправлять ложные срабатываия или ложные отрицательные результаты в корпорацию Майкрософт для анализа.
 keywords: автоматизированный, исследование, оповещение, триггер, действие, исправление, ложное срабатываение, ложный отрицательный результат
 search.appverid: met150
 ms.prod: m365-security
@@ -22,29 +22,32 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 4ccc023a72ca450b1f0a433410206ccce59cb5f1
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 451a6b19139502a3765795694860e884a7a469bf
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142985"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175755"
 ---
-# <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Как сообщать о ложных срабатываах и отрицательных результатах в автоматизированных исследованиях и реагировании на них
+# <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Как сообщать о ложных срабатываах и отрицательных результатах в автоматизированном расследовании и реагировании на них
 
-**Область применения:**
-- Microsoft Defender для Office 365
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**Область применения**
+- [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Если функции автоматического исследования и [реагирования (AIR) в Office 365](automated-investigation-response-office.md) пропущены или неправильно обнаружены какие-либо действия, ваша группа по работе с безопасностью может предпринять необходимые действия, чтобы устранить эту проблему. К таким действиям относятся:
 
-- [Сообщение о ложных срабатываах или отрицательных результатах в Корпорацию Майкрософт;](#report-a-false-positivenegative-to-microsoft-for-analysis)
+- [Сообщение о ложном срабатывии или отрицательных результатах в Корпорацию Майкрософт;](#report-a-false-positivenegative-to-microsoft-for-analysis)
 - [Настройка оповещений](#adjust-an-alert-to-prevent-false-positives-from-recurring) (при необходимости); и
 - [Отмена принятых действий по исправлению.](#undo-a-remediation-action)
 
 Используйте эту статью в качестве руководства.
 
-## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Сообщение о ложном срабатывии или отрицательных результатах в корпорацию Майкрософт для анализа
+## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Отчет о ложном срабатывии или отрицательном срабатывии корпорации Майкрософт для анализа
 
-Если AIR в Microsoft Defender для Office 365 пропустил сообщение электронной почты, вложение электронной почты, URL-адрес в сообщении электронной почты или URL-адрес в файле Office, вы можете отправить подозрительный спам, фишинг, URL-адреса и файлы в корпорацию Майкрософт для сканирования [Office 365.](admin-submission.md)
+Если AIR в Microsoft Defender для Office 365 пропустил сообщение электронной почты, вложение электронной почты, URL-адрес в сообщении электронной почты или URL-адрес в файле Office, вы можете отправить подозрительные спам, фишинг, URL-адреса и файлы в корпорацию Майкрософт для сканирования [Office 365.](admin-submission.md)
 
 Вы также можете [отправить файл в корпорацию Майкрософт для анализа вредоносных программ.](https://www.microsoft.com/wdsi/filesubmission)
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать и импортировать пользовательский тип конфиденциальных данных для политик в Центре безопасности и соответствия требованиям.
-ms.openlocfilehash: ab96a3928105f612ab97bc8ca3a0acc3613082c3
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 63ff32bda31446c25a523ff2064f7b750d102961
+ms.sourcegitcommit: 3e29926f51530afb0d75d8518a92b9ec7dc5e5bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080684"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173126"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Создание пользовательского типа конфиденциальной информации с помощью PowerShell
 
@@ -377,7 +377,7 @@ ms.locfileid: "50080684"
    Дополнительные сведения о синтаксисе и параметрах см. в статье [New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage).
 
    > [!NOTE]
-   > Максимальное число коллекций пользовательских типов конфиденциальной информации: 10.
+   > Максимальное количество поддерживаемых пакетов правил — 10, но каждый пакет может содержать определение нескольких типов конфиденциальной информации.
 
 4. Чтобы убедиться, что вы успешно создали новый тип конфиденциальной информации, выполните любое из указанных ниже действий.
 
