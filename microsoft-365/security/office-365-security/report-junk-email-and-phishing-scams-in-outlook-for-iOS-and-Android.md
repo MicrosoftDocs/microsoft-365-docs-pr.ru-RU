@@ -17,17 +17,21 @@ ms.collection:
 description: Администраторы могут узнать о встроенных вариантах отправки отчетов о нежелательной почте, а не о нежелательной почте и фишинговых сообщениях в Outlook для iOS и Android.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d702ab1d97c07c3e38430a9a7beff5f14db7b60a
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 58027f7589280b1266cddc8cfbf44db9e4f0ece4
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029284"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166823"
 ---
-# <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Сообщение о нежелательной и фишинговой почте в Outlook для iOS и Android в Exchange Online
+# <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Отправка отчетов о нежелательной и фишинговой почте в Outlook для iOS и Android в Exchange Online
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 В организациях Microsoft 365 с почтовыми ящиками в Exchange [](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview)Online или в локальном почтовом ящике с использованием гибридной современной проверки подлинности вы можете использовать встроенные параметры отчетов в Outlook для iOS и Android, чтобы отправлять ложные срабатывания (хорошая электронная почта помечена как спам), ложные отрицательные результаты (разрешено использование нежелательной почты) и фишинговые сообщения в Exchange Online Protection (EOP).
 

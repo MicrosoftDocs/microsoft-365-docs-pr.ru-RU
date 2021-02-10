@@ -8,24 +8,31 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: f75504941e8481d35458ad2ae6b5e8a72c5e8c8c
-ms.sourcegitcommit: a49338bde6923b13132c7b9e4c6bb75c14163c72
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e578cadf6687e02c900299a75bdd00a9d6e5b2ee
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "49728192"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166151"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Управление автоматической переадружаемой внешней электронной почтой в Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Как администратор вы можете предъявлять требования компании, чтобы ограничить или контролировать автоматически переадружаемую сообщения внешним получателям (получателям за пределами организации). Переадения электронной почты может быть полезной функцией, но также может представлять угрозу безопасности из-за возможного раскрытия информации. Злоумышленники могут использовать эту информацию для атаки на вашу организацию или партнеров.
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+Как администратор вы можете предъявлять требования компании, чтобы ограничить или контролировать автоматически переадружаемую сообщения внешним получателям (получателям за пределами организации). Переадения электронной почты может быть полезной, но также может представлять угрозу безопасности из-за возможного раскрытия информации. Злоумышленники могут использовать эту информацию для атаки на вашу организацию или партнеров.
+
 
 В Microsoft 365 доступны следующие типы автоматической переад вперед:
 

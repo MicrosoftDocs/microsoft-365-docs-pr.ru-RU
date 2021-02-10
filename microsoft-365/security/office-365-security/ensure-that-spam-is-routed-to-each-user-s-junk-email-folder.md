@@ -8,114 +8,117 @@ manager: chrisda
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
-description: Администраторы могут научиться маршрутизировать спам в папки нежелательной почты пользователя в гибридной среде Exchange Online Protection.
+description: Администраторы могут узнать, как отправлять нежелатели в папки нежелательной почты пользователей в гибридной среде Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 76003f18009ebf9159f01d916cdaf38b50a213d1
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 926ac6dec33bf00fc8f0dcd292229e20ccc2b93f
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350343"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167123"
 ---
-# <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Настройка автономных EOP для доставки спама в папку нежелательной почты в гибридных средах
+# <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Настройка автономных EOP для доставки нежелательной почты в папку нежелательной почты в гибридных средах
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+-  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 > [!IMPORTANT]
-> Этот раздел предназначен только для изолированных клиентов EOP в гибридных средах. Эта статья не относится к клиентам Microsoft 365 с почтовыми ящиками Exchange Online.
+> Этот раздел касается только пользователей автономных EOP в гибридных средах. Этот раздел не относится к клиентам Microsoft 365 с почтовыми ящиками Exchange Online.
 
-Если вы используете автономный клиент Exchange Online Protection (EOP) в гибридной среде, вам необходимо настроить локальную организацию Exchange на распознавание и перевод фильтра нежелательной почты вердиктс EOP, поэтому правило нежелательной почты в локальном почтовом ящике может перемещать сообщения в папку "Нежелательная почта".
+Если вы автономный клиент Exchange Online Protection (EOP) в гибридной среде, необходимо настроить свою локальной организации Exchange для распознавания и перевода решения фильтрации нежелательной почты EOP, поэтому правило нежелательной почты в локальном почтовом ящике может перемещать сообщения в папку нежелательной почты.
 
-В частности, необходимо создать правила для поток обработки почты (также называемые правилами транспорта) в локальной организации Exchange с условиями поиска сообщений, которые имеют любой из следующих заголовков и значений EOP защиты от нежелательной почты, а также действия, которые задают уровень вероятности нежелательной почты (SCL) этих сообщений равным 6:
+В частности, необходимо создать правила потока почты (также известные как правила транспорта) в локальной организации Exchange с условиями, которые находят сообщения с любыми из следующих заглавных и значений EOP для нежелательной почты, а также действиями, которые устанавливают уровень безопасности нежелательной почты (SCL) этих сообщений, равное 6:
 
-- `X-Forefront-Antispam-Report: SFV:SPM` (сообщение с пометкой "Нежелательная почта" при фильтрации спама)
+- `X-Forefront-Antispam-Report: SFV:SPM` (сообщение, помеченное как нежелательное с помощью фильтрации нежелательной почты)
 
-- `X-Forefront-Antispam-Report: SFV:SKS` (сообщение с пометкой "Нежелательная почта" для правил обработки почты в EOP перед фильтрацией нежелательной почты)
+- `X-Forefront-Antispam-Report: SFV:SKS` (Сообщение, помеченное как нежелательное правилами потока почты в EOP перед фильтрацией нежелательной почты)
 
-- `X-Forefront-Antispam-Report: SFV:SKB` (сообщение, помеченное фильтром нежелательной почты, в связи с адресом электронной почты отправителя или доменом электронной почты из списка заблокированных отправителей или списка заблокированных доменов в EOP)
+- `X-Forefront-Antispam-Report: SFV:SKB` (Сообщение, помеченное как нежелательное с помощью фильтрации нежелательной почты из-за того, что адрес электронной почты или домен электронной почты отправитель находится в списке заблокированных отправников или в списке заблокированных доменов в EOP)
 
-Дополнительные сведения об этих значениях заголовков можно узнать в статье [заголовки сообщений по защите от нежелательной почты](anti-spam-message-headers.md).
+Дополнительные сведения об этих значениях см. в сообщениях для борьбы [с нежелательной почтой.](anti-spam-message-headers.md)
 
-В этом разделе описывается, как создать эти правила для почтовых ящиков: центр администрирования Exchange и Командная консоль Exchange (Exchange PowerShell) в локальной организации Exchange.
+В этом разделе описывается создание этих правил потока обработки почты в Центре администрирования Exchange (EAC) и в exchange Management Shell (Exchange PowerShell) в локальной организации Exchange.
 
 > [!TIP]
-> Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики защиты от нежелательной почты в EOP для помещения нежелательных сообщений в карантин в EOP. Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
+> Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики нежелательной почты в EOP для помещения нежелательных сообщений на карантин в EOP. Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Прежде чем выполнять эти процедуры, необходимо назначить разрешения в локальной среде Exchange. В частности, необходимо назначить роль " **правила транспорта** ", которая назначается для ролей управления **организацией**, **управления соответствием требованиям**и управления **записями** по умолчанию. Дополнительные сведения см в разделе [Добавление членов в группу ролей](https://docs.microsoft.com/Exchange/permissions/role-group-members#add-members-to-a-role-group).
+- Для этого необходимы соответствующие разрешения в локальной среде Exchange. В частности, вам должна быть  назначена роль правил транспорта, которая по умолчанию  назначена ролям "Управление организацией", "Управление соответствием требованиям" и "Управление записями". Дополнительные сведения см. в [подстройки "Добавление участников в группу ролей".](https://docs.microsoft.com/Exchange/permissions/role-group-members#add-members-to-a-role-group)
 
 - Если и когда сообщение доставляется в папку нежелательной почты в локальной организации Exchange, управляется сочетанием следующих параметров:
 
-  - Значение параметра _SCLJunkThreshold_ в командлете [Set – OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) в командной консоли Exchange. Значение по умолчанию — 4, что означает, что сообщение нежелательной почты из 5 или выше должно доставлять сообщение в папку нежелательной почты пользователя.
+  - Значение _параметра SCLJunkThreshold_ в параметре [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) в exchange Management Shell. Значение по умолчанию — 4, то есть уровень нежелательной почты должен быть 5 или выше, чтобы доставить сообщение в папку нежелательной почты пользователя.
 
-  - Значение параметра _SCLJunkThreshold_ командлета [Set — Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) в командной консоли Exchange. Значение по умолчанию — пустое ($null), что означает, что используется параметр Организации.
+  - Значение _параметра SCLJunkThreshold_ в параметре [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) в exchange Management Shell. По умолчанию используется пустое значение ($null), что означает, что используется параметр организации.
 
-  Подробнее о [порогах вероятности нежелательной почты Exchange (вероятности нежелательной почты)](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl).
+  Подробные сведения см. в сведениях о пороговых значениях для уровня [уверенности в](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl)нежелательной почте Exchange .
 
-  - Указывает, включено ли правило нежелательной почты в почтовом ящике (значение параметра _enabled_ $true в командлете [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) в командной консоли Exchange). Это правило нежелательной почты, которое фактически перемещает сообщение в папку "Нежелательная почта" после доставки. По умолчанию правило нежелательной почты включено в почтовых ящиках. Дополнительные сведения см. в статье [Configure Exchange antispam settings on mailboxes](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
+  - Включено ли правило нежелательной почты для почтового ящика (значение параметра _Enabled_ $true в cmdlet [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) в exchange Management Shell). Это правило нежелательной почты перемещает сообщение в папку нежелательной почты после доставки. По умолчанию правило нежелательной почты включено для почтовых ящиков. Дополнительные сведения см. в статье [Configure Exchange antispam settings on mailboxes](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
 
-- Чтобы открыть центр администрирования Exchange на сервере Exchange Server, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Чтобы открыть командную консоль Exchange, ознакомьтесь [со статьей открытие консоли управления Exchange](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell).
+- Чтобы открыть Центр администрирования Exchange в Exchange Server, см. центр администрирования [Exchange в Exchange Server.](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center) Чтобы открыть командную консоль Exchange, см. статью [Запуск командной консоли Exchange](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell).
 
-- Дополнительные сведения о правилах обработки почтового ящика в локальном Exchange представлены в следующих разделах:
+- Дополнительные сведения о правилах потока почты в локальной организации Exchange см. в следующих темах:
 
-  - [Правила для почтового процесса в Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rules)
+  - [Правила потока почты в Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rules)
 
-  - [Условия и исключения правила для обработки почтового процесса (предикаты) в Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/conditions-and-exceptions)
+  - [Условия и исключения правил потока почты (предикаты) в Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-  - [Действия правил обработки почты в Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/actions)
+  - [Действия правил потока почты в Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/actions)
 
-## <a name="use-the-eac-to-create-mail-flow-rules-that-set-the-scl-of-eop-spam-messages"></a>Использование центра администрирования Exchange для создания правил для почтовых ящиков, в которых задаются нежелательные сообщения EOP
+## <a name="use-the-eac-to-create-mail-flow-rules-that-set-the-scl-of-eop-spam-messages"></a>Использование EAC для создания правил потока почты, которые устанавливают SCL для нежелательных сообщений EOP
 
 1. В Центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
 
-2. Нажмите **Добавить** ![ значок Добавить ](../../media/ITPro-EAC-AddIcon.png) и выберите **создать новое правило** в раскрывающемся списке.
+2. Щелкните **значок** "Добавить" и выберите "Создать новое правило" в отображаемом ![ ](../../media/ITPro-EAC-AddIcon.png) выпадаке. 
 
 3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
-   - **Name**: введите уникальное описательное имя правила. Например,
+   - **Name**: Enter a unique, descriptive name for the rule. Например:
 
-     - EOP SFV: SPM на SCL 6
+     - EOP SFV:SPM to SCL 6
 
-     - EOP SFV: СКС на SCL 6
+     - EOP SFV:SKS to SCL 6
 
-     - EOP SFV: СКБ на SCL 6
+     - EOP SFV:SKB to SCL 6
 
    - Нажмите кнопку **Дополнительные параметры**.
 
-   - **Применять это правило, если**: выберите **заголовок сообщения** , \> **содержащий любое из этих слов**.
+   - **Применив это правило,** если :Select **A message** \> **header includes any of these words**.
 
-     В **заголовке ввод текста содержит предложение ввести слова** , которое появляется, выполните следующие действия:
+     В **текстовом заголовке "Ввод"** содержится предложение "Введите слова", после этого сделайте следующее:
 
-     - Нажмите **Ввод текста**. В появившемся диалоговом окне **Укажите имя заголовка** введите **X — Forefront – защиты от спама – Report** , а затем нажмите кнопку **ОК**.
+     - Нажмите **кнопку ВВОД текста.** В от **имени загона** введите **X-Forefront-Antispam-Report** и нажмите кнопку **"ОК".**
 
-     - Нажмите кнопку  **ввод слов**. В появившемся диалоговом окне **Укажите слова или фразы** введите одно из значений заголовка нежелательной почты EOP (**SFV: SPM**, **SFV: СКС**или **SFV: СКБ**), нажмите **Добавить** ![ значок Добавить ](../../media/ITPro-EAC-AddIcon.png) , а затем нажмите кнопку **ОК**.
+     - Нажмите  **кнопку "Введите слова"**. В  диалоговом окну "Укажите слова или фразы" введите одно из значений в заголке нежелательной почты EOP  **(SFV:SPM,** **SFV:SKS или** **SFV:SKB),** нажмите кнопку "Добавить" и нажмите кнопку "ОК". ![ ](../../media/ITPro-EAC-AddIcon.png) 
 
-   - **Выполните следующие**действия: выберите **изменить свойства сообщения** \> **установите уровень вероятности нежелательной почты (SCL)**.
+   - **Сделайте следующее:** выберите **"Изменить свойства сообщения".** Установите уровень уверенности нежелательной почты \> **(SCL).**
 
-     В появившемся диалоговом окне **Указание вероятности нежелательной почты** выберите **6** (значение по умолчанию — **5**).
+     В **отобратом диалоговом** окле "Укажите SCL" выберите **6** (значение по умолчанию **— 5).**
 
-   Когда все будет готово, нажмите кнопку **сохранить**
+   По завершению нажмите кнопку **"Сохранить".**
 
-Повторите эти действия для оставшихся EOP спама вредоносности (**SFV: SPM**, **SFV: СКС**или **SFV: СКБ**).
+Повторите эти действия для оставшихся значений решения о нежелательной почте EOP (**SFV:SPM,** **SFV:SKS** или **SFV:SKB).**
 
-## <a name="use-the-exchange-management-shell-to-create-mail-flow-rules-that-set-the-scl-of-eop-spam-messages"></a>Использование Командная консоль Exchange для создания правил для обработки почты, заданных для нежелательной почты EOP нежелательных сообщений
+## <a name="use-the-exchange-management-shell-to-create-mail-flow-rules-that-set-the-scl-of-eop-spam-messages"></a>Использование exchange Management Shell для создания правил потока почты, которые устанавливают SCL нежелательных сообщений EOP
 
-Используйте следующий синтаксис для создания трех правил для обработки почтового процесса:
+Используйте следующий синтаксис для создания трех правил потока почты:
 
 ```Powershell
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
 ```
 
-Например,
+Например:
 
 ```Powershell
 New-TransportRule -Name "EOP SFV:SPM to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SPM" -SetSCL 6
@@ -133,19 +136,19 @@ New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-F
 
 ## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
-Чтобы убедиться, что вы успешно настроили автономный EOP для доставки спама в папку нежелательной почты в гибридной среде, выполните одно из указанных ниже действий.
+Чтобы убедиться, что вы успешно настроили автономный EOP для доставки нежелательной почты в папку нежелательной почты в гибридной среде, сделайте следующее:
 
-- В центре администрирования Exchange перейдите к разделу правила обработки **почты** \> **Rules**, выберите правило, а затем щелкните **изменить** ![ значок редактирования, ](../../media/ITPro-EAC-EditIcon.png) чтобы проверить параметры.
+- В EAC перейдите  к правилам потока обработки почты, выберите правило и нажмите значок редактирования, чтобы проверить \>   ![ ](../../media/ITPro-EAC-EditIcon.png) параметры.
 
-- В командной консоли Exchange замените на \<RuleName\> имя правила для процесса обработки почты и Рул следующую команду для проверки параметров:
+- В командной оболочке Exchange замените имя правила потока почты и перенаправить следующую команду для проверки \<RuleName\> параметров:
 
   ```powershell
   Get-TransportRule -Identity "<RuleName>" | Format-List
   ```
 
-- В внешней почтовой системе **, которая не сканирует исходящие сообщения для спама**, отправьте общий тест для сообщения о незапрошенной массовой рассылке (сообщение gtube) заданному получателю и убедитесь, что он доставлен в папку нежелательной почты. Сообщение GTUBE похоже на текстовый файл Европейского института исследования антивирусных программ (EICAR) для тестирования параметров вредоносных программ.
+- Во внешней почтовой системе, которая не сканирует исходящие сообщения на наличие нежелательной **почты,** отправьте сообщение generic Test for Unsolicited Bulk Email (GTUBE) затронутого получателя и подтвердите, что оно доставлено в папку нежелательной почты. Сообщение GTUBE похоже на текстовый файл Европейского института исследования антивирусных программ (EICAR) для тестирования параметров вредоносных программ.
 
-  Чтобы отправить сообщение сообщение GTUBE, включите следующий текст в текст сообщения электронной почты в одну строку без пробелов и разрывов строк:
+  Чтобы отправить сообщение GTUBE, включайте следующий текст в текст сообщения электронной почты в одной строке без пробелов или разрывов строки:
 
   ```text
   XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X

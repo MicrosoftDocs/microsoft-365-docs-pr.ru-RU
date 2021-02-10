@@ -19,17 +19,21 @@ description: Администраторы могут просматривать 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: abd2304e83d2814cab55d13312535bd94308d8be
-ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
+ms.openlocfilehash: 019f1c103ef1aaf7641072cd1259d22e83f0de4c
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50032605"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166931"
 ---
 # <a name="quarantined-messages-faq"></a>Quarantined messages FAQ
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 В этом разделе даны вопросы и ответы о сообщениях электронной почты, отправленных на карантин, для организаций Microsoft 365 с почтовыми ящиками в Exchange Online или автономных организаций Exchange Online Protection (EOP) без почтовых ящиков Exchange Online.
 
@@ -57,7 +61,7 @@ ms.locfileid: "50032605"
 
 ## <a name="how-long-are-messages-kept-in-the-quarantine"></a>Как долго сообщения хранятся в карантине?
 
-С помощью политик защиты от нежелательной почты вы можете настроить срок, в течение который нежелательные, фишинговые и массовые сообщения электронной почты будут храниться в карантине. Значение по умолчанию — 30 дней, что также является максимальным значением. Дополнительные сведения см. в подстроке "Настройка политик [нежелательной почты" в EOP](configure-your-spam-filter-policies.md)
+С помощью политик защиты от нежелательной почты вы можете настроить срок, в течение который нежелательные, фишинговые и массовые сообщения электронной почты будут храниться в карантине. Значение по умолчанию — 30 дней, что также является максимальным значением. Дополнительные сведения см. в подстройке "Настройка политик [нежелательной почты" в EOP](configure-your-spam-filter-policies.md)
 
 Для сообщений, которые были отправлены в карантин действием правила потока почты **Доставить** сообщение в почтовый карантин, сообщения хранятся в карантине в течение 30 дней. Этот срок настроить нельзя.
 
@@ -65,7 +69,7 @@ ms.locfileid: "50032605"
 
 ## <a name="can-i-release-or-report-more-than-one-quarantined-message-at-a-time"></a>Можно ли освободить одновременно несколько сообщений, помещенных на карантин, или сообщить о них?
 
-В Центре & соответствия требованиям можно выбрать и освободить до 100 сообщений одновременно.
+В Центре безопасности & соответствия требованиям можно выбрать и освободить до 100 сообщений одновременно.
 
 Администраторы могут использовать [](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage) в Exchange Online PowerShell [](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage) или автономных EOP PowerShell для массового поиска и освобождения сообщений из карантина и массовой рассылки сообщений в карантине и массового сообщения о ложных срабатываниях.
 

@@ -8,27 +8,30 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как запускать отчет о группе ролей администраторов в автономных службах Exchange Online Protection (EOP). Этот отчет занося в журнал, когда администратор добавляет участников в группы ролей администраторов или удаляет их из них.
-ms.openlocfilehash: cd7ca13a3d863240a0f2608ed13321cbe3d50ad2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 507fbe6fb6c99677cf91b6eb824bf110f1c826f3
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659291"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166631"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Запуск отчета группы ролей администратора в автономной службе EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+-  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 В автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, когда администратор добавляет участников в группы административных ролей или удаляет их из них, служба регистрирует каждое событие. Дополнительные сведения о группах ролей в автономных EOP см. в [подгоне "Разрешения" в автономных EOP.](feature-permissions-in-eop.md)
 
-При запуске отчета о группе ролей администраторов в Центре администрирования Exchange записи отображаются в качестве результатов поиска и включают затронутые группы ролей, кто изменил членство в группе ролей и когда, а также какие обновления членства были сделаны. Этот отчет можно использовать для отслеживания изменений в административных разрешениях, назначенных пользователям в организации.
+При запуске отчета о группе ролей администраторов в Центре администрирования Exchange (EAC) записи отображаются в качестве результатов поиска и включают затронутые группы ролей, кто изменил членство в группе ролей и когда, а также какие обновления членства были сделаны. Этот отчет можно использовать для отслеживания изменений в административных разрешениях, назначенных пользователям в организации.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -36,7 +39,7 @@ ms.locfileid: "49659291"
 
 - Для работы с процедурами, которые данная статья, вам должны быть назначены разрешения в Exchange Online Protection. В частности, вам  потребуется роль  "Журналы аудита" или "Только просмотр журналов аудита", которые по умолчанию назначены группам ролей "Управление организацией", "Управление соответствием требованиям" и "Администратор безопасности".    Дополнительные сведения см. в сведениях о разрешениях в автономных [EOP](feature-permissions-in-eop.md) и использовании EAC для изменения списка участников [в группах ролей.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
-- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" для Центра администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
+- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" в Центре администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
 
 > [!TIP]
 > Возникли проблемы? Обратитесь за помощью на форум по [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351).
@@ -57,7 +60,7 @@ ms.locfileid: "49659291"
 
 Если будут найдены любые изменения, соответствующие заданным критериям, они появятся в области результатов. Чтобы в области сведений увидеть изменения, выберите группу ролей в результатах поиска.
 
-## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
+## <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 
 Если отчет о группе ролей администрирования запущен успешно, группы ролей, измененные в рамках диапазона дат, отображаются в области результатов поиска. Если результатов нет  в указанный диапазон дат группы ролей изменены не были. Если вы считаете, что результаты должны быть, измените диапазон дат и повторно запустите отчет.
 
@@ -72,7 +75,7 @@ ms.locfileid: "49659291"
 В этом примере администратор внес следующие изменения:
 
 - 06.02.2018 добавлен пользователь для фрагмента.
-- 19.02.2018 они удалили пользователя pilarp.
+- 19.02.2018 пользователь pilarp удален.
 
 ## <a name="use-standalone-exchange-online-powershell-to-search-for-audit-log-entries"></a>Использование автономных Exchange Online PowerShell для поиска записей журнала аудита
 
@@ -117,7 +120,7 @@ Search-AdminAuditLog -StartDate 05/01/2018 -EndDate 10/03/2018 -ObjectID contoso
 
 The **Search-AdminAuditLog cmdlet** returns the fields described in [Audit log contents](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#audit-log-contents). Поля **CmdletParameters** и **ModifiedProperties**, возвращаемые командлетом, содержат дополнительные сведения, которые невозможно просмотреть по умолчанию.
 
-Чтобы просмотреть содержимое полей **CmdletParameters** и **ModifiedProperties**, выполните указанные ниже действия. Кроме того, вы можете использовать процедуру в **Exchange Online PowerShell** для поиска записей журнала аудита и отправки результатов получателю далее в этой статье, чтобы создать XML-файл.
+Чтобы просмотреть содержимое полей **CmdletParameters** и **ModifiedProperties**, выполните указанные ниже действия. Кроме того, вы можете использовать процедуру в **Exchange Online PowerShell** для поиска записей журнала аудита и отправки результатов получателю далее в этой статье для создания XML-файла.
 
 В этой процедуре используются следующие основные понятия:
 

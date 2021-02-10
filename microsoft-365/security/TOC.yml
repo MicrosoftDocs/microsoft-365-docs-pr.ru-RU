@@ -648,7 +648,7 @@
               href: ./office-365-security/set-up-anti-phishing-policies.md
             - name: Подложное уведомление о недоставленном сообщении в EOP
               href: ./office-365-security/backscatter-messages-and-eop.md
-            - name: Массовый уровень жалоб (SCL)
+            - name: Массовый уровень жалоб (BCL)
               href: ./office-365-security/bulk-complaint-level-values.md
             - name: Уведомления конечных пользователей о спаме
               href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md

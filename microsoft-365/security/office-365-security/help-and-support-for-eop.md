@@ -8,21 +8,26 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Корпорация Майкрософт предоставляет помощь по EOP различными способами в различных местах, включая самостоятельную поддержку и услуги специалистов.
-ms.openlocfilehash: 7551a792c1d9c10cf5c655dade04bb5606b75f04
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a2b8228d33648f7bd20bde9d9e7b852276231aa6
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658699"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167111"
 ---
 # <a name="help-and-support-for-eop"></a>Справка и поддержка для EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online ресурсы технической поддержки, перечисленные в этой статье, помогут найти ответы, если у вас возникли проблемы с EOP. Корпорация Майкрософт предоставляет помощь по EOP различными способами в различных местах, включая самостоятельную поддержку и услуги специалистов.
 
@@ -70,7 +75,7 @@ ms.locfileid: "49658699"
 
 ## <a name="support-telephone-numbers"></a>Номера телефона службы поддержки
 
-Корпорация Майкрософт обеспечивает местные или бесплатные номера телефона для поддержки своих продуктов во всем мире. Многие из этих центров справки и поддержки предоставляют услуги на языке вашей страны в рабочие часы или на английском языке  круглосуточно в любой день недели. Если ваше расположение не указано ниже, воспользуйтесь виртуальным агентом, как описано выше, чтобы найти номер телефона локальной службы поддержки.
+Корпорация Майкрософт обеспечивает местные или бесплатные номера телефона для поддержки своих продуктов во всем мире. Многие из этих центров справки и поддержки предоставляют услуги на языке вашей страны в рабочие часы или на английском языке  круглосуточно в любой день недели. Если ваше расположение не указано ниже, воспользуйтесь виртуальным агентом, как описано выше, чтобы найти локальный номер телефона службы поддержки.
 
 ****
 

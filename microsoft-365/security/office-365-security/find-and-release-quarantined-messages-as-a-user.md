@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Consumer/IW
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -19,17 +18,23 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Пользователи могут узнать о том, как просматривать сообщения, помещенные на карантин в Exchange Online Protection (EOP), и управлять ими.
-ms.openlocfilehash: 038d3326df2572f792f1cfc7efa6ad6d03e0a602
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 126bf1f8c8ea8c16242b7b3749066131e8942304
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611368"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166139"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Поиск и разблокирование сообщений, находящихся на карантине, для пользователя в EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 В организациях Microsoft 365 с почтовыми ящиками в Exchange Online или в автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online на карантине хранятся потенциально опасные или нежелательные сообщения. Дополнительные сведения см. в статье [Карантин в EOP](quarantine-email-messages.md).
 

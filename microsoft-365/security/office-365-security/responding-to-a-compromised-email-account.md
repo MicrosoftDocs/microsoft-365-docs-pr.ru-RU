@@ -14,22 +14,27 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как распознать компрометацию учетной записи электронной почты с помощью средств Microsoft 365 и какие принять меры.
-ms.openlocfilehash: 5d5e5360e9851aee8eab27fc7c39e266e0332411
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a34780b260a6e4bbc2d8b3f53af6b67de04fbdcd
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659889"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166667"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Реагирование на компрометацию учетной записи электронной почты
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **Сводка** Как распознать компрометацию учетной записи электронной почты в Microsoft 365 и какие принять меры.
 

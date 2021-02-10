@@ -6,7 +6,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.article: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -14,25 +13,31 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Администраторы Microsoft 365 могут узнать, как восстановиться после атаки программы-вымогателя.
-ms.openlocfilehash: 753171578dc7b76aefadf4b8587e84320d98b912
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b834adb3d9ba5f85984e09b4bb1e4b48673c32f2
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794452"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166907"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Восстановление после атаки программы-вымогателя в Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Даже если вы принимаете все меры предосторожности для защиты своей организации, вы все равно можете стать жертвой атаки [программы-вымогателя.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) Программы-выкупы — это большой бизнес, и атаки очень сложные.
 
 Действия, которые необходимо предпринять в этой статье, дают вам наилучшие возможности для восстановления данных и остановки внутреннего распространения заражения. Прежде чем приступать к его созданию, учтите следующие факторы:
 
-- Нет гарантии, что выплата выкупа возвратит доступ к вашим файлам. На самом деле, оплата выкупа может сделать вас целью для дополнительных программ-вымогателей.
+- Не гарантируется, что выплата выкупа возвратит доступ к вашим файлам. На самом деле, оплата выкупа может сделать вас целью для дополнительных программ-вымогателей.
 
-  Если вы уже оплатили транзакцию, но не воспользовались решением злоумышленника, обратитесь в банк, чтобы узнать, могут ли они заблокировать транзакцию.
+  Если вы уже оплатили операцию, но не воспользовались решением злоумышленника, обратитесь в банк, чтобы узнать, могут ли они заблокировать транзакцию.
 
   Мы также рекомендуем сообщить о атаке программы-вымогателя правоохранительным органам, веб-сайтам отчетов о схимах и Корпорации Майкрософт, как описано далее в этой статье.
 
@@ -52,13 +57,13 @@ ms.locfileid: "49794452"
 
 Чтобы отключить Exchange ActiveSync для почтового ящика, см. Exchange ActiveSync [для пользователей в Exchange Online.](https://support.microsoft.com/help/2795303)
 
-Чтобы отключить другие типы доступа к почтовому ящику, см. в:
+Чтобы отключить доступ к почтовому ящику других типов, см. в:
 
 - [Включить или отключить MAPI для почтового ящика.](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi)
 
 - [Включить или отключить доступ по pop3 или IMAP4 для пользователя](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-Приочная синхронизация OneDrive поможет защитить облачные данные от обновления потенциально зараженными устройствами. Дополнительные сведения см. в сведениях о [приостановки и возобновлении синхронизации в OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
+Приочная синхронизация OneDrive поможет защитить облачные данные от обновления с помощью потенциально зараженных устройств. Дополнительные сведения см. в сведениях о [приостановки и возобновлении синхронизации в OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Шаг 3. Удаление вредоносной программы с затронутых устройств
 
@@ -68,7 +73,7 @@ ms.locfileid: "49794452"
 
 Вы можете [использовать](https://www.microsoft.com/windows/comprehensive-security) Защитник Windows или (для старых клиентов) [Microsoft Security Essentials.](https://www.microsoft.com/download/details.aspx?id=5201)
 
-Альтернативой для удаления программ-вымогателей или вредоносных программ является средство удаления вредоносных программ [(MSRT).](https://www.microsoft.com/download/details.aspx?id=9905)
+Альтернативным средством удаления вредоносных программ (MSRT) является средство удаления вредоносных программ [(MSRT).](https://www.microsoft.com/download/details.aspx?id=9905)
 
 Если эти параметры не работают, [](https://support.microsoft.com/help/17466) вы можете попробовать Защитник Windows автономном режиме или устранить проблемы с обнаружением и удалением [вредоносных программ.](https://support.microsoft.com/help/4466982)
 
@@ -78,13 +83,13 @@ ms.locfileid: "49794452"
 
 **Примечания**.
 
-- Некоторые программы-вымодеры также шифруют или удаляют резервные версии, поэтому нельзя использовать для восстановления файлов файлы с помощью функции "История файлов" или "Защита системы". В этом случае необходимо использовать резервные копии на внешних дисках или устройствах, которые не были затронуты программами-вымогателями или OneDrive, как описано в следующем разделе.
+- Некоторые программы-вымодеры также шифруют или удаляют резервные версии, поэтому для восстановления файлов нельзя использовать функцию "История файлов" или "Защита системы". В этом случае необходимо использовать резервные копии на внешних дисках или устройствах, которые не были затронуты программами-вымогателями или OneDrive, как описано в следующем разделе.
 
 - Если папка синхронизируется с OneDrive и вы не используете последнюю версию Windows, с помощью истории файлов могут быть некоторые ограничения.
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Шаг 5. Восстановление файлов в OneDrive для бизнеса
 
-Восстановление файлов в OneDrive для бизнеса позволяет восстановить весь oneDrive до предыдущего момента в течение последних 30 дней. Дополнительные сведения см. в [теме "Восстановление OneDrive".](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
+Восстановление файлов в OneDrive для бизнеса позволяет восстановить все хранилище OneDrive до предыдущего момента в течение последних 30 дней. Дополнительные сведения см. в [теме "Восстановление OneDrive".](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
 
 ## <a name="step-6-recover-deleted-email"></a>Шаг 6. Восстановление удаленной электронной почты
 
@@ -100,13 +105,13 @@ ms.locfileid: "49794452"
 
 ## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Шаг 8 (необязательно). Блокировка синхронизации OneDrive для определенных расширений файлов
 
-После восстановления вы можете запретить клиентам OneDrive для бизнеса синхронизировать типы файлов, затронутые программой-выкупом. Дополнительные сведения см. в [подстройки Set-SPOTenantSyncClientRestriction](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+После восстановления вы можете запретить клиентам OneDrive для бизнеса синхронизировать типы файлов, затронутые программой-выкупом. Дополнительные сведения см. в подстройки [Set-SPOTenantSyncClientRestriction](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
 ## <a name="report-the-attack"></a>Сообщение о атаке
 
 ### <a name="contact-law-enforcement"></a>Обратитесь в правоохранительные органы
 
-Обратитесь в местные или федеральные правоохранительные органы. Например, если вы находитесь в СОЕДИНЕННЫх Штатах, вы можете связаться с локальным офисом ПОЛЕЙ ИК3 ( [IC3)](http://www.ic3.gov/complaint/default.aspx) или службой [секретов](http://www.secretservice.gov/) [(IC3).](https://www.fbi.gov/contact-us/field)
+Обратитесь в местные или федеральные правоохранительные органы. Например, если вы находитесь в США, [](https://www.fbi.gov/contact-us/field)вы можете связаться с локальным офисом ВЕОИБ, [IC3](http://www.ic3.gov/complaint/default.aspx) или службой [секретов.](http://www.secretservice.gov/)
 
 ### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>Отправка отчета на веб-сайт отчетов об афере в вашей стране
 
@@ -158,6 +163,6 @@ ms.locfileid: "49794452"
 
 - [MSRT июль 2016 г.: программа-программа-вымогаатель Cerber](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
 
-- [Три главы программы-вымогателя Cerber, похожего на Cerber](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
+- [Три заголовок программы-вымогателя Cerber, похожей на Cerber](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
 
 - [Программа-программа-программа-вымогателя, на которые влияет код daАА](https://www.microsoft.com/security/blog/2016/07/13/troldesh-ransomware-influenced-by-the-da-vinci-code/)

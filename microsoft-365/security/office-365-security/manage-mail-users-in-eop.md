@@ -8,22 +8,25 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Узнайте, как управлять почтовыми пользователями в Exchange Online Protection (EOP), включая использование синхронизации каталогов, EAC и PowerShell для управления пользователями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8258a63fe0fbf4a6b5641fbdef213f25de2e4dd
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 34edafea7567da04094ea386d469d3d27937eee5
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658837"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166397"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>Управление пользователями почты в автономной службе EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+-  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 В автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online почтовые пользователи являются основным типом учетной записи пользователя. Пользователь почты имеет учетные данные учетной записи в вашей автономных организациях EOP и может получать доступ к ресурсам (им назначены разрешения). Адрес электронной почты пользователя почты является внешним (например, в локальной среде электронной почты).
 
@@ -32,7 +35,7 @@ ms.locfileid: "49658837"
 
 Для создания пользователей почты и управления ими в автономных EOP рекомендуется использовать синхронизацию каталогов, как описано в разделе "Использование синхронизации каталогов для управления почтовыми пользователями" далее в этой статье. [](#use-directory-synchronization-to-manage-mail-users)
 
-Для автономных организаций EOP с небольшим количеством пользователей можно добавлять почтовых пользователей и управлять ими в Центре администрирования Exchange (EAC) или в автономных EOP PowerShell, как описано в этой статье.
+Для автономных организаций EOP с небольшим количеством пользователей можно добавлять почтовых пользователей и управлять ими в Центре администрирования Exchange (EAC) или в режиме автономных EOP PowerShell, как описано в этой статье.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -44,7 +47,7 @@ ms.locfileid: "49658837"
 
 - Для работы с процедурами, которые данная статья, вам должны быть назначены разрешения в Exchange Online Protection. В частности, необходимы роли **создания** (создания) и **получателей** почты (изменения), которые по умолчанию назначены  группам ролей "Управление организацией" **(глобальные** администраторы) и "Управление получателями". Дополнительные сведения см. в сведениях о разрешениях в автономных [EOP](feature-permissions-in-eop.md) и использовании EAC для изменения списка участников [в группах ролей.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
-- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" для Центра администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
+- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" в Центре администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
 
 > [!TIP]
 > Возникли проблемы? Обратитесь за помощью к участникам форумов Exchange. Посетите форум [Exchange Online Protection.](https://go.microsoft.com/fwlink/p/?linkId=285351)
@@ -53,7 +56,7 @@ ms.locfileid: "49658837"
 
 ### <a name="use-the-eac-to-create-mail-users"></a>Создание почтовых пользователей с помощью EAC
 
-1. В EAC перейдите к **контакту** \> **получателя**
+1. В EAC перейдите к **контакту** \> **получателей**
 
 2. Щелкните **значок "Новый** ![ новый" ](../../media/ITPro-EAC-AddIcon.png) . На **открываемой странице "Создать** пользователя почты" настройте следующие параметры. Параметры, помеченные <sup>\*</sup> как необходимые.
 
@@ -83,11 +86,11 @@ ms.locfileid: "49658837"
 
 3. На открываемой странице свойств пользователя почты щелкните одну из следующих вкладок, чтобы просмотреть или изменить свойства.
 
-   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+   По завершении нажмите кнопку **Сохранить**.
 
 #### <a name="general"></a>Общие
 
-Вкладка **"Общие"** используется для просмотра или изменения базовых сведений о пользователе почты.
+Вкладка **"Общие"** используется для просмотра или изменения основных сведений о пользователе почты.
 
 - **Имя**
 
@@ -162,7 +165,7 @@ Get-User -Identity <MailUserIdentity> | Format-List
 New-EOPMailUser -Name "<UniqueName>" -MicrosoftOnlineServicesID <Account> -Password (ConvertTo-SecureString -String '<password>' -AsPlainText -Force) [-Alias <AliasValue>] [-DisplayName "<Display Name>"] [-ExternalEmailAddress <ExternalEmailAddress>] [-FirstName <Text>] [-Initials <Text>] [-LastName <Text>]
 ```
 
-**Примечания**:
+**Примечания**.
 
 - Параметр _Name_ является обязательным, имеет максимальную длину 64 символа и должен быть уникальным. Если вы не используете параметр _DisplayName_, для отображаемого имени указывается значение параметра _Name_.
 - Если параметр _Alias_ не используется, для псевдонима используется левая сторона параметра _MicrosoftOnlineServicesID._
@@ -208,7 +211,7 @@ $Recip = Get-Recipient -RecipientType MailUser -ResultSize unlimited
 $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в описании [Set-EOPMailUser.](https://docs.microsoft.com/powershell/module/exchange/set-eopmailuser)
+Подробные сведения о синтаксисе и параметрах см. в описании [set-EOPMailUser.](https://docs.microsoft.com/powershell/module/exchange/set-eopmailuser)
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>Использование автономных EOP PowerShell для удаления почтовых пользователей
 
@@ -224,7 +227,7 @@ Remove-EOPMailUser -Identity <MailUserIdentity\>
 Remove-EOPMailUser -Identity "Jeffrey Zeng"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в описании [remove-EOPMailUser.](https://docs.microsoft.com/powershell/module/exchange/remove-eopmailuser)
+Подробные сведения о синтаксисе и параметрах см. в [описании remove-EOPMailUser.](https://docs.microsoft.com/powershell/module/exchange/remove-eopmailuser)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 
@@ -252,7 +255,7 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 
 В автономных EOP синхронизация службы каталогов доступна пользователям с локальной службой Active Directory. Вы можете синхронизировать эти учетные записи с Azure Active Directory (Azure AD), где копии учетных записей хранятся в облаке. При синхронизации существующих учетных записей пользователей с Azure Active Directory их можно просмотреть в области получателей в Центре администрирования Exchange (EAC) или в автономных службах EOP PowerShell. 
 
-**Примечания**:
+**Примечания**.
 
 - Если вы используете синхронизацию службы каталогов для управления получателями, вы по-прежнему можете добавлять пользователей и управлять ими в Центре администрирования Microsoft 365, но они не будут синхронизированы с локальной службой Active Directory. Это объясняется тем, что получатели синхронизируются только в одном направлении: из локальной службы каталогов Active Directory в облако.
 
@@ -264,7 +267,7 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 
   - **Доступ конечных пользователей** к карантину: чтобы получить доступ к своим сообщениям на карантине, получатели должны иметь действительный ИД пользователя и пароль в службе. Дополнительные сведения о карантине см. в записи поиска и освобождения сообщений из карантина от [пользователя.](find-and-release-quarantined-messages-as-a-user.md)
 
-  - Правила потока обработки почты (также известные как правила **транспорта):** при использовании синхронизации службы каталогов существующие пользователи и группы Active Directory автоматически загружаются в облако, и вы можете создать правила потока обработки почты, которые будут ориентированы на определенных пользователей и/или группы, не добавляя их в службу вручную. Обратите [внимание, что динамические](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) группы рассылки нельзя синхронизировать с помощью синхронизации каталогов.
+  - Правила потока обработки почты (также известные как правила **транспорта).** При использовании синхронизации службы каталогов существующие пользователи и группы Active Directory автоматически загружаются в облако, и вы можете создать правила потока обработки почты, которые будут ориентированы на определенных пользователей и/или группы, не добавляя их в службу вручную. Обратите [внимание, что динамические](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) группы рассылки нельзя синхронизировать с помощью синхронизации каталогов.
 
 Получите необходимые разрешения и подготовьтесь к синхронизации службы каталогов, как описано в описании гибридного удостоверения [с Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity)
 

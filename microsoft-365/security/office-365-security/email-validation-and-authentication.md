@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 search.appverid:
 - MET150
 ms.assetid: ''
@@ -18,16 +17,23 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Сведения для администраторов об использовании проверки подлинности электронной почты (SPF, DKIM и DMARC) в EOP для предотвращения спуфинга, фишинга и спама.
-ms.openlocfilehash: 6a0bf6fd7958f44a9cfbe7ae0600aeb064170437
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: ff6bbaa4831234e45c5617fb4e7ee9d4113f1eb1
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760522"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165458"
 ---
 # <a name="email-authentication-in-eop"></a>Проверка подлинности электронной почты в EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
 Проверка подлинности электронной почты (также известная как проверка адреса электронной почты) — это набор стандартов для борьбы со спуфингом (сообщения электронной почты от поддельных отправителей). Во всех организациях Microsoft 365 EOP использует следующие стандарты для проверки входящих писем:

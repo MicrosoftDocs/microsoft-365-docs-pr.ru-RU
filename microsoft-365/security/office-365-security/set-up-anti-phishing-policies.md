@@ -8,7 +8,6 @@ manager: dansimp
 audience: ITPro
 ms.topic: how-to
 ms.date: ''
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
@@ -16,17 +15,23 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о политиках защиты от фишинга, доступных в Exchange Online Protection (EOP) и Microsoft Defender для Office 365.
-ms.openlocfilehash: f1ffebbca2d3a77d1a0c10d14205e52108614043
-ms.sourcegitcommit: 99a7354e6a6b4d9d5202674ef57852d52a43fef6
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a97d95ab4d7cf0146ea6d6d008230ee6aa678d80
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908357"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166385"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Политики для настройки параметров защиты от фишинга доступны в организациях Microsoft 365 с почтовыми ящиками Exchange Online, автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online и Microsoft Defender для организаций Office 365.
 

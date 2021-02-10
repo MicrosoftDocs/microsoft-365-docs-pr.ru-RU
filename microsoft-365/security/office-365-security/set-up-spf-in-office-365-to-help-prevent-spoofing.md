@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: 11/21/2019
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -18,23 +17,23 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как обновить запись службы доменных имен (DNS), чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365.
-ms.openlocfilehash: 536f727ee71db70490259179ff8e47009c547f89
-ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: fbed28047b88a3eff75f574fc4d2581a75f15518
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905227"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166235"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Настройка SPF для предотвращения спуфинга
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-- [Необходимые компоненты](#prerequisites)
-- [Создание или обновление записи SPF TXT](#create-or-update-your-spf-txt-record)   
-  - [Как работать с поддоменами?](#how-to-handle-subdomains)
-- [Какие действия выполняет проверка подлинности электронной почты инфраструктуры политики отправителей?](#what-does-spf-email-authentication-actually-do)   
-   - [Устранение неполадок инфраструктуры политики отправителей](#troubleshooting-spf)
-- [Дополнительные сведения об инфраструктуре политики отправителей](#more-information-about-spf)
+**Область применения**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 В этой статье описано, как обновить запись DNS, чтобы использовать проверку подлинности электронной почты в инфраструктуре политики отправителей (SPF) с личным доменом в Office 365.
 

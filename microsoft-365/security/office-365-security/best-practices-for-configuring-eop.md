@@ -7,23 +7,26 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
-description: Следуйте этим рекомендациям для самостоятельной защиты Exchange Online Protection (EOP), чтобы успешно настроиться и избежать распространенных ошибок конфигурации.
-ms.openlocfilehash: a229f8a269037296fa2b97ff7211343549b33685
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+description: Следуйте этим рекомендациям для автономных exchange Online Protection (EOP), чтобы обеспечить успешное управление и избежать распространенных ошибок конфигурации.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 1a38454ceaba7f95dff172335dc374530efca20a
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864892"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165935"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Best practices for configuring standalone EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+-  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
 
-Следуйте этим рекомендациям для самостоятельной защиты Exchange Online Protection (EOP), чтобы успешно настроиться и избежать распространенных ошибок конфигурации. Предполагается, что вы уже завершили установку EOP. В противном случае изучите статью [Настройка службы EOP](set-up-your-eop-service.md).
+Следуйте этим рекомендациям для автономных exchange Online Protection (EOP), чтобы обеспечить успешное управление и избежать распространенных ошибок конфигурации. Предполагается, что вы уже завершили установку EOP. В противном случае изучите статью [Настройка службы EOP](set-up-your-eop-service.md).
 
 ## <a name="use-a-test-domain"></a>Использование тестового домена
 
@@ -43,7 +46,7 @@ ms.locfileid: "49864892"
 
 ****
 
-|Имя функции безопасности|Стандартный|Строгая|Комментарий|
+|Имя функции безопасности|Стандартный|Строгая|Comment|
 |---|---|---|---|
 |[Настройка SPF для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Да|Да||
 |[Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)|Да|Да||

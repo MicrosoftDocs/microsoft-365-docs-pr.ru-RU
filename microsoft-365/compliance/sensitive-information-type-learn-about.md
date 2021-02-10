@@ -1,5 +1,5 @@
 ---
-title: Сведения о типах конфиденциальной информации
+title: Дополнительные сведения о типах конфиденциальной информации
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 896a529d67faddb45b2672ca077f5a8e3b19827e
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 91366e8f255d277d4d40de4c4cd3330283da718c
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49933089"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166454"
 ---
-# <a name="learn-about-sensitive-information-types"></a>Сведения о типах конфиденциальной информации
+# <a name="learn-about-sensitive-information-types"></a>Дополнительные сведения о типах конфиденциальной информации
 
 Определение и классификация конфиденциальных элементов, которые находятся под контролем вашей организации, — это первый шаг в области [защиты информации.](protect-information.md)  Microsoft 365 предоставляет три способа определения элементов, чтобы их можно было классифицировать:
 
@@ -137,6 +137,8 @@ ms.locfileid: "49933089"
 
 
 > [!NOTE]
+> Улучшенные уровни уверенности доступны для немедленного использования в службах Защиты от потери данных для служб Microsoft 365, Microsoft Information Protection для служб Microsoft 365, соответствия коммуникациям, управлении информацией и управлении записями.
+
 > Служба защиты информации Microsoft 365 теперь поддерживает в предварительный версии языки с  	набором двухбайтовых символов:
 > - Китайский (упрощенное письмо)
 > - Китайский (традиционное письмо)
