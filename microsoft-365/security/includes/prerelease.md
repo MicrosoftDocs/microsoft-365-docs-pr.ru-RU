@@ -14,4 +14,4 @@ ms.lasthandoff: 01/29/2020
 ms.locfileid: "41600015"
 ---
 >[!IMPORTANT]
->Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть значительно изменены до выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
