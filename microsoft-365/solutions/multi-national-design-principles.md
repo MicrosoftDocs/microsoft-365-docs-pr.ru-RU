@@ -1,5 +1,5 @@
 ---
-title: Принципы поддержки нескольких национальных дизайна для Microsoft 365
+title: Принципы многоязычного проектирования для Microsoft 365
 description: Описание.
 ms.author: samanro
 author: samanro
@@ -19,6 +19,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/29/2020
 ms.locfileid: "46521103"
 ---
-# <a name="multi-national-design-principles-for-microsoft-365"></a><span data-ttu-id="23613-103">Принципы поддержки нескольких национальных дизайна для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="23613-103">Multi-national design principles for Microsoft 365</span></span>
+# <a name="multi-national-design-principles-for-microsoft-365"></a><span data-ttu-id="52350-103">Принципы многоязычного проектирования для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="52350-103">Multi-national design principles for Microsoft 365</span></span>
 
-<span data-ttu-id="23613-104">Текст</span><span class="sxs-lookup"><span data-stu-id="23613-104">Text</span></span>
+<span data-ttu-id="52350-104">Текст</span><span class="sxs-lookup"><span data-stu-id="52350-104">Text</span></span>
