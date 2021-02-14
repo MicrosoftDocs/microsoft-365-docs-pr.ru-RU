@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: Сведения об удалении вспомогательного расположения в Microsoft 365 Multi-Geo. При удалении вспомогательного расположения все пользовательские данные также удаляются без возможности восстановления.
+description: Сведения об удалении вспомогательного расположения в Microsoft 365 Multi-Geo. При удалении удаленного удаленного расположения все пользовательские данные также удаляются окончательно.
 ms.openlocfilehash: 7a58ed91a0bb801fc41ed0a89889ede5e65b4a21
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

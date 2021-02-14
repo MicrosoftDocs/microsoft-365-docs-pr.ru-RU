@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: В этой статье приводятся сведения для администраторов глобальных сред или SharePoint о том, как использовать SharePoint с поддержкой нескольких регионов.
+description: В этой статье данная статья содержит сведения для глобальных администраторов или администраторов SharePoint о включаемой sharePoint с несколькими регионами в географических расположениях.
 ms.openlocfilehash: 78f0e925a333dd48a6016bc749459b13e1ac21c0
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

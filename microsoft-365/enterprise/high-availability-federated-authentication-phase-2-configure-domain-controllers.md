@@ -1,5 +1,5 @@
 ---
-title: Этап 2 для федеративной проверки подлинности с высоким уровнем доступности настройка контроллеров домена
+title: Этап 2. Настройка контроллеров домена для федерационной проверки подлинности для высокой доступности
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 6b0eff4c-2c5e-4581-8393-a36f7b36a72f
-description: Сводка. Настройте контроллеры домена и сервер синхронизации службы каталогов для федеративной проверки подлинности с высоким уровнем доступности для Microsoft 365 в Microsoft Azure.
+description: Сводка. Настройте контроллеры домена и сервер синхронизации каталогов для федерарной проверки подлинности с высоким уровнем доступности для Microsoft 365 в Microsoft Azure.
 ms.openlocfilehash: 1c3fd686ee553a57d66dcfd51a6045167a12de8a
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -23,12 +23,12 @@ ms.locfileid: "46693345"
 ---
 # <a name="high-availability-federated-authentication-phase-2-configure-domain-controllers"></a>Этап 2. Федеративная проверка подлинности для обеспечения высокой доступности: настройка контроллеров домена
 
-На этом этапе развертывания высокой доступности для федеративной проверки подлинности Microsoft 365 в службах инфраструктуры Azure можно настроить два контроллера домена и сервер синхронизации службы каталогов в виртуальной сети Azure. После этого проверку подлинности клиентов можно выполнять в виртуальной сети Azure, не отправляя трафик проверки подлинности через подключение VPN типа "сеть-сеть" к локальной сети.
+На этом этапе развертывания высокой доступности для федерационной проверки подлинности Microsoft 365 в службах инфраструктуры Azure настраиваются два контроллера домена и сервер синхронизации каталогов в виртуальной сети Azure. После этого проверку подлинности клиентов можно выполнять в виртуальной сети Azure, не отправляя трафик проверки подлинности через подключение VPN типа "сеть-сеть" к локальной сети.
   
 > [!NOTE]
-> Службы федерации Active Directory (AD FS) не могут использовать Azure Active Directory (Azure AD) для замены контроллеров домена доменных служб Active Directory (AD DS). 
+> Службы федерации Active Directory (AD FS) не могут использовать Azure Active Directory (Azure AD) вместо контроллеров домена доменных служб Active Directory (AD DS). 
   
-Необходимо выполнить этот этап, прежде чем переходить к [этапу 3: Configure AD FS Servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md). [В статье Развертывание федеративной проверки подлинности с высоким уровнем доступности для Microsoft 365 в Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) для всех фаз.
+Этот этап необходимо завершить перед переходом к [этапу 3. Настройка серверов AD FS.](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) См. все этапы развертывания федерационной проверки подлинности с высоким уровнем доступности для [Microsoft 365](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) в Azure.
   
 ## <a name="create-the-domain-controller-virtual-machines-in-azure"></a>Создание виртуальных машин контроллеров домена в Azure
 
@@ -38,17 +38,17 @@ ms.locfileid: "46693345"
 |:-----|:-----|:-----|:-----|:-----|
 |1.  <br/> |![линия](../media/Common-Images/TableLine.png)  (первый контроллер домена, например DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
 |2.  <br/> |![линия](../media/Common-Images/TableLine.png)  (второй контроллер домена, например DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
-|3.  <br/> |![линия](../media/Common-Images/TableLine.png) (сервер синхронизации каталогов, например, DS1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
-|4.  <br/> |![линия](../media/Common-Images/TableLine.png) (первый сервер AD FS, например, ADFS1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
-|5.  <br/> |![линия](../media/Common-Images/TableLine.png) (второй сервер AD FS, например, ADFS2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
-|6.  <br/> |![линия](../media/Common-Images/TableLine.png) (первый прокси-сервер веб-приложений, например WEB1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
-|7.  <br/> |![линия](../media/Common-Images/TableLine.png) (второй прокси-сервер веб-приложений, например WEB2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
+|3.  <br/> |![линия](../media/Common-Images/TableLine.png) (сервер синхронизации каталогов, например DS1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
+|4.  <br/> |![линия](../media/Common-Images/TableLine.png) (первый сервер AD FS, например ADFS1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
+|5.  <br/> |![линия](../media/Common-Images/TableLine.png) (второй сервер AD FS, например ADFS2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
+|6.  <br/> |![линия](../media/Common-Images/TableLine.png) (первый прокси-сервер веб-приложения, например WEB1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
+|7.  <br/> |![линия](../media/Common-Images/TableLine.png) (второй прокси-сервер веб-приложения, например WEB2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
    
- **Таблица M: виртуальные машины для федеративной проверки подлинности с высоким уровнем доступности для Microsoft 365 в Azure**
+ **Таблица M. Виртуальные машины для федерационной проверки подлинности с высоким уровнем доступности для Microsoft 365 в Azure**
   
 Полный список размеров виртуальных машин представлен в [этой статье](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes).
   
-Приведенный ниже блок команд Azure PowerShell создает виртуальные машины для двух контроллеров домена. Укажите значения для переменных, удалив \< and > символы. Обратите внимание, что в этом блоке команд Azure PowerShell используются значения из следующих таблиц:
+Приведенный ниже блок команд Azure PowerShell создает виртуальные машины для двух контроллеров домена. Укажите значения переменных, удалив \< and > символы. Обратите внимание, что в этом блоке команд Azure PowerShell используются значения из следующих таблиц:
   
 - таблица M (для виртуальных машин);
     
@@ -62,15 +62,15 @@ ms.locfileid: "46693345"
     
 - таблица A (для групп доступности).
     
-Помните, что вы определили таблицы R, V, S, I и на [этапе 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md).
+Помните, что вы определили таблицы R, V, S, I и A на этапе [1. Настройка Azure.](high-availability-federated-authentication-phase-1-configure-azure.md)
   
 > [!NOTE]
-> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. Ознакомьтесь [с статьей начало работы с Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps). 
+> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. ["Начало работы с Azure PowerShell".](https://docs.microsoft.com/powershell/azure/get-started-azureps) 
   
 Указав правильные значения, выполните полученный блок в командной строке Azure PowerShell или в интегрированной среде сценариев PowerShell (ISE) на локальном компьютере.
   
 > [!TIP]
-> Для создания блоков команд PowerShell, готовых к запуску, на основе настраиваемых параметров, используйте эту [книгу настройки Microsoft Excel](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
+> Чтобы создать готовые к запуску блоки команд PowerShell на основе пользовательских параметров, используйте эту книгу конфигурации [Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up variables common to both virtual machines
@@ -150,7 +150,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 Используя любой клиент удаленного рабочего стола, создайте подключение к удаленному рабочему столу для виртуальной машины первого контроллера домена. Используйте DNS-имя интрасети или имя компьютера, а также учетные данные локального администратора.
   
-Далее добавьте дополнительный диск с данными к первому контроллеру домена с помощью этой команды из командной строки Windows PowerShell **на первой виртуальной машине контроллера домена**:
+Затем добавьте дополнительный диск с данными на первый контроллер домена с помощью этой команды из командной Windows PowerShell на первой виртуальной машине **контроллера домена:**
   
 ```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
@@ -175,7 +175,7 @@ Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:
 
 Используя любой клиент удаленного рабочего стола, создайте подключение к удаленному рабочему столу на виртуальной машине второго контроллера домена. Используйте DNS-имя интрасети или имя компьютера, а также учетные данные локального администратора.
   
-Затем необходимо добавить дополнительный диск данных во второй контроллер домена с помощью этой команды в командной строке Windows PowerShell **на второй виртуальной машине контроллера домена**:
+Затем необходимо добавить дополнительный диск с данными на второй контроллер домена с помощью этой команды из командной Windows PowerShell на второй виртуальной машине контроллера **домена:**
   
 ```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
@@ -193,7 +193,7 @@ Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:
 
 Вам будет предложено указать учетные данные администратора домена. Компьютер перезагрузится.
   
-Теперь необходимо обновить DNS-серверы для виртуальной сети, чтобы служба Azure назначила виртуальным машинам IP-адреса двух новых контроллеров домена в качестве DNS-серверов. Заполните переменные, а затем выполните приведенные ниже команды в командной строке Windows PowerShell на локальном компьютере:
+Теперь необходимо обновить DNS-серверы для виртуальной сети, чтобы служба Azure назначила виртуальным машинам IP-адреса двух новых контроллеров домена в качестве DNS-серверов. Заполните переменные и запустите эти команды в командной Windows PowerShell на локальном компьютере:
   
 ```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
@@ -228,11 +228,11 @@ New-ADReplicationSite -Name $vnet
 New-ADReplicationSubnet -Name $vnetSpace -Site $vnet
 ```
 
-## <a name="configure-the-directory-synchronization-server"></a>Настройка сервера синхронизации службы каталогов
+## <a name="configure-the-directory-synchronization-server"></a>Настройка сервера синхронизации каталогов
 
-Используйте клиент удаленного рабочего стола и создайте подключение к виртуальной машине сервера синхронизации каталогов на удаленном рабочем столе. Используйте DNS-имя интрасети или имя компьютера, а также учетные данные локального администратора.
+Используйте клиент удаленного рабочего стола по вашему выбору и создайте подключение к удаленному рабочему столу виртуальной машины сервера синхронизации каталогов. Используйте DNS-имя интрасети или имя компьютера, а также учетные данные локального администратора.
   
-Затем присоедините его к соответствующему домену доменных служб Active Directory, выполнив приведенные ниже команды в командной строке Windows PowerShell.
+Затем присоединить его к соответствующему домену AD DS, выдав следующие команды в Windows PowerShell командной Windows PowerShell.
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -243,19 +243,19 @@ Restart-Computer
 
 Здесь показана конфигурация, полученная в результате успешного выполнения этого этапа (с заполнителями вместо имен компьютеров).
   
-**Этап 2: контроллеры домена и сервер синхронизации службы каталогов для инфраструктуры федеративной проверки подлинности с высоким уровнем доступности в Azure**
+**Этап 2. Контроллеры домена и сервер синхронизации каталогов для инфраструктуры федерационной проверки подлинности с высоким уровнем доступности в Azure**
 
-![Этап 2 в инфраструктуре федеративной проверки подлинности Microsoft 365 с высоким уровнем доступности в Azure с помощью контроллеров домена](../media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
+![Этап 2 инфраструктуры федераированной проверки подлинности Microsoft 365 с высоким уровнем доступности в Azure с контроллерами домена](../media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
-Используйте [Этап 3: Configure AD FS Servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) , чтобы продолжить настройку этой рабочей нагрузки.
+Этап [3. Настройка серверов AD FS](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) для продолжения настройки этой рабочей нагрузки.
   
 ## <a name="see-also"></a>См. также
 
 [Развертывание федеративной проверки подлинности для обеспечения высокой доступности Microsoft 365 в Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Федеративная идентификация для среды разработки и тестирования Microsoft 365](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Федератное удостоверение для среды тестирования и тестирования Microsoft 365](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Центр архитектуры и решений Microsoft 365](../solutions/solution-architecture-center.md)
 

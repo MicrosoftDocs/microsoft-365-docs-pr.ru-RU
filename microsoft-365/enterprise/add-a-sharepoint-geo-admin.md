@@ -11,7 +11,7 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Требуется настроить отдельных администраторов для каждого географического местоположения? Узнайте, как добавить или удалить администратора геообъектов в Microsoft 365 Multi-Geo.
+description: Необходимо настроить отдельных администраторов для каждого географического расположения? Узнайте, как добавить или удалить администратора геообъектов в Microsoft 365 Multi-Geo.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 9a3d916bfec2c53850f923fb5322298e9ff440ca
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
