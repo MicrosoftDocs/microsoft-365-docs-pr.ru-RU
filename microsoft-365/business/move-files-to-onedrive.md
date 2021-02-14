@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Сведения о том, как перемещать личные рабочие файлы и файлы конфиденциальной компании в OneDrive для бизнеса можно несколькими простыми действиями.
+description: Узнайте, как переместить личные и конфиденциальные файлы компании в OneDrive для бизнеса всего за несколько простых действий.
 ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
 ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
@@ -37,14 +37,14 @@ ms.locfileid: "44785919"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Перемещение файлов в OneDrive для бизнеса
 
 Если на компьютере пользователя хранится множество личных файлов, вам следует сначала переместить их в OneDrive для бизнеса.
   
-1. Откройте portal.office.com и войдите в систему, используя учетные данные пользователя Microsoft 365 для бизнеса.
+1. Перейдите portal.office.com и войдите с помощью учетных данных Пользователя в Microsoft 365 для бизнеса.
 
 2. Откройте средство запуска приложений ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) и выберите OneDrive. 
     
@@ -52,6 +52,6 @@ ms.locfileid: "44785919"
     
 Для передачи профиля пользователя и важных данных также можно использовать сторонние программы, например ForensiT. Итоговые файлы тоже нужно добавить в OneDrive для бизнеса.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Дополнительные сведения о настройке и использовании Microsoft 365 для бизнеса
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Подробнее о настройке и использовании Microsoft 365 для бизнеса
 
 [Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

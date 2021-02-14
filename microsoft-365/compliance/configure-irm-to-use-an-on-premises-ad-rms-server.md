@@ -26,9 +26,9 @@ ms.locfileid: "44166120"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>Настройка функции управления правами на доступ к данным для использования локального сервера служб AD RMS
   
-Для использования в локальных развертываниях управление правами на доступ к данным (IRM) в Exchange Online использует службы управления правами Active Directory (AD RMS), технологию защиты информации в Windows Server 2008 и более поздних версий. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
+Для использования в локальном развертывании управление правами на доступ к данным (IRM) в Exchange Online использует технологию служба управления правами Active Directory (AD RMS) в Windows Server 2008 и более поздних версиях. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
   
-В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с помощью Azure Active Directory и Azure Rights Management можно найти в статье [вопросы и ответы по шифрованию сообщений в office 365](https://docs.microsoft.com/microsoft-365/compliance/ome-faq).
+В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с Помощью Azure Active Directory и Azure Rights Management см. в [faq](https://docs.microsoft.com/microsoft-365/compliance/ome-faq).
   
 Дополнительные сведения об управлении правами на доступ к данным в Exchange Online см. в разделе [Управление правами на доступ к данным в Exchange Online](information-rights-management-in-exchange-online.md).
   
@@ -42,7 +42,7 @@ ms.locfileid: "44166120"
 
 - Сведения об установке и настройке Windows PowerShell и подключении к службе см. в разделе [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://technet.microsoft.com/library/c8bea338-6c1a-4bdf-8de0-7895d427ee5b.aspx).
 
-- Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
+- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этом разделе, см. в разделе "Сочетания клавиш" для Центра администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
 
 > [!TIP]
 > Возникли проблемы? Обратитесь за помощью к участникам форумов Exchange. Посетите форумы по таким продуктам: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542) или [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351). 
@@ -102,7 +102,7 @@ Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byt
   
 ### <a name="step-3-use-the-exchange-management-shell-to-distribute-an-ad-rms-rights-policy-template"></a>Действие 3. Распространите шаблон политики прав AD RMS с помощью командной консоли Exchange
 
-После импорта TPD необходимо распространить шаблон политики прав службы управления правами Active Directory. Распределенный шаблон отображается в Outlook в Интернете (прежнее название — Outlook Web App), который может применить шаблоны к сообщению электронной почты.
+После импорта TPD необходимо распространить шаблон политики прав службы управления правами Active Directory. Распределенный шаблон виден пользователям Outlook в Интернете (прежнее название — Outlook Web App), которые затем могут применять шаблоны к сообщению электронной почты.
   
 Чтобы получить список всех шаблонов в TPD по умолчанию, выполните следующую команду.
   
@@ -110,7 +110,7 @@ Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byt
 Get-RMSTemplate -Type All | fl
 ```
 
-Если значение параметра  _Type_ равно  `Archived`, шаблон будет недоступен пользователям. В Outlook в Интернете доступны только распространенные шаблоны TPD по умолчанию.
+Если значение параметра  _Type_ равно  `Archived`, шаблон будет недоступен пользователям. В Outlook в Интернете доступны только распределенные шаблоны в TPD по умолчанию.
   
 Чтобы распространить шаблон, выполните следующую команду.
   
@@ -168,4 +168,4 @@ Set-IRMConfiguration -InternalLicensingEnabled $true
   
 - С помощью командлета **Test-IRMConfiguration** проверьте функциональные возможности IRM. Подробные сведения см. в примере 1 в разделе [Test-IRMConfiguration](https://technet.microsoft.com/library/a730e7ff-a67f-4360-b5ff-70d171bb5e1d.aspx).
 
-- Создайте новое сообщение в Outlook в Интернете и защитите его с помощью IRM, выбрав пункт **задать разрешения** в расширенном меню ( ![значок](../media/ITPro-EAC-MoreOptionsIcon.gif)дополнительных параметров).
+- Соберите новое сообщение в Outlook в Интернете и защитите его с помощью IRM, выбрав параметр "Установить разрешения" в расширенном меню (значок "Дополнительные  ![ параметры"). ](../media/ITPro-EAC-MoreOptionsIcon.gif)

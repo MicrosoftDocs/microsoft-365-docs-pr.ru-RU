@@ -22,7 +22,7 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: Сведения о том, как создать CSV-файл для автопилота в Microsoft 365 для бизнеса.
+description: Узнайте, как сделать CSV-файл для AutoPilot в Microsoft 365 для бизнеса.
 ms.openlocfilehash: 030fb96e9e60c792fb685af57d34eacd6670645a
 ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
@@ -50,7 +50,7 @@ ms.locfileid: "44399366"
   
 ## <a name="related-articles"></a>Статьи по теме
 
-[Документация и ресурсы Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Документация и ресурсы по Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 [Начало работы с Microsoft 365 для бизнеса](https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview)
   
