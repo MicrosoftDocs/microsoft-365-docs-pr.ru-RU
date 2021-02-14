@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: Администраторы могут узнать, как администрировать службы SharePoint и OneDrive в среде с поддержкой нескольких регионов.
+description: Администраторы могут узнать, как администрировать службы SharePoint и OneDrive в среде с несколькими географическими средами.
 ms.openlocfilehash: 1b6d2cb1cb9511677f717f0e58553abc4473e1ad
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -107,4 +107,4 @@ ms.locfileid: "46692954"
 
 ## <a name="yammer"></a>Yammer
 
-Yammer не является рабочей нагрузкой с поддержкой нескольких регионов. Потоки Yammer, хранящиеся в Yammer, будут размещены в центральном расположении клиента. В Yammer выполняется развертывание изменений хранилища файлов, в которых будут храниться файлы Yammer в SharePoint. Файлы Yammer, хранящиеся в SharePoint, будут размещены на сайте SharePoint, связанном с группой Yammer. Сайты групп SharePoint основаны на логике PDL, как описано в [сайтах и группах SharePoint](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md#sharepoint-sites-and-groups).
+Yammer не является рабочей нагрузкой с несколькими географическими данными. Потоки Yammer, хранимые в Yammer, будут размещены в центральном расположении клиента. Yammer развертывает изменение хранилища файлов, в котором будут храниться файлы Yammer в SharePoint. Файлы Yammer, хранимые в SharePoint, будут размещены на сайте SharePoint, связанном с группой Yammer. Сайты групп SharePoint основаны на логике PDL, как описано в сайтах [и группах SharePoint.](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md#sharepoint-sites-and-groups)

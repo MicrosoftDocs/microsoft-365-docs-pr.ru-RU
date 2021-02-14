@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: В этой статье рассказывается, как ограничить сайты SharePoint указанным географическим расположением в среде с поддержкой нескольких регионов.
+description: В этой статье вы узнаете, как ограничить сайты SharePoint указанным географическим расположением в среде с несколькими географическими расположениями.
 ms.openlocfilehash: f2a09f177c68d30121c207287e053b2b25405fbc
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

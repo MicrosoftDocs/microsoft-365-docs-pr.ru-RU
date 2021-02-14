@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
-description: Узнайте о возможностях поддержки нескольких регионов в Exchange Online, например об ограничениях функций и размещении почтовых ящиков.
+description: Узнайте о возможностях с несколькими геообъекторами в Exchange Online, таких как ограничения функций и размещение почтовых ящиков.
 ms.openlocfilehash: ca7203c72f23fd03512bf23eaa5a4687e4bac1b5
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
