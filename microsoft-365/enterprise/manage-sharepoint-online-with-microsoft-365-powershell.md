@@ -31,11 +31,11 @@ ms.locfileid: "47429810"
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Администраторам SharePoint необходимо управлять сайтами, группами сайтов и пользователями. Хотя некоторые из этих задач можно выполнить в центре администрирования Microsoft 365, другие проще в PowerShell. Дополнительные сведения см. в следующих статьях:
+Администраторы SharePoint должны управлять сайтами, группами сайтов и пользователями. Хотя некоторые из этих задач можно выполнять в Центре администрирования Microsoft 365, другие проще выполнять в PowerShell. Дополнительные сведения см. в следующих статьях:
 
 - [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
   
-- [Создание сайтов SharePoint Online и Добавление пользователей с помощью PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
+- [Создание сайтов SharePoint Online и добавление пользователей с помощью PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
     
 - [Управление пользователями и группами SharePoint Online с помощью PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
     
@@ -45,4 +45,4 @@ ms.locfileid: "47429810"
 
 - [Управление Microsoft 365 с помощью PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
 
-- [Приступая к работе с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
+- [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)

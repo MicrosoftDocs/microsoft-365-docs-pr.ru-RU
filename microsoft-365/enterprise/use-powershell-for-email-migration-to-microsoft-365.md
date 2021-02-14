@@ -1,5 +1,5 @@
 ---
-title: Миграция электронной почты в Microsoft 365 с помощью PowerShell
+title: Миграция электронной почты в Microsoft 365 с помощью PowerShell
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -23,11 +23,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/10/2020
 ms.locfileid: "47429966"
 ---
-# <a name="how-to-use-powershell-to-migrate-email-to-microsoft-365"></a>Как использовать PowerShell для переноса электронной почты в Microsoft 365
+# <a name="how-to-use-powershell-to-migrate-email-to-microsoft-365"></a>Использование PowerShell для переноса электронной почты в Microsoft 365
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Администраторы часто переносят электронную почту из существующих систем при первоначальной настройке Microsoft 365. В следующих статьях описано, как перенести электронную почту с помощью Windows PowerShell:
+Администраторы часто переносят электронную почту из существующих систем при первой настройках Microsoft 365. В следующих статьях описывается, как перенести электронную почту с помощью Windows PowerShell:
   
 - [Прямая миграция в Microsoft 365 с помощью PowerShell](use-powershell-to-perform-a-cutover-migration-to-microsoft-365.md)
     
@@ -35,7 +35,7 @@ ms.locfileid: "47429966"
     
 - [Поэтапная миграция в Microsoft 365 с помощью PowerShell](use-powershell-to-perform-a-staged-migration-to-microsoft-365.md)
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Управление Microsoft 365 с помощью PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
@@ -45,6 +45,6 @@ ms.locfileid: "47429966"
   
 [Использование Windows PowerShell для создания отчетов в Microsoft 365](use-windows-powershell-to-create-reports-in-microsoft-365.md)
 
-[Почему необходимо использовать Microsoft 365 PowerShell](why-you-need-to-use-microsoft-365-powershell.md)
+[Причины использования Microsoft 365 PowerShell](why-you-need-to-use-microsoft-365-powershell.md)
   
 [Управление учетными записями пользователей Microsoft 365, лицензиями и группами с помощью PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)

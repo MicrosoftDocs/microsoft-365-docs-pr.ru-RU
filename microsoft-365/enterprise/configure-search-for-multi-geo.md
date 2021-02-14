@@ -12,7 +12,7 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Сведения о настройке поиска в среде с поддержкой нескольких регионов. Только некоторые клиенты, например OneDrive для бизнеса, могут возвращать результаты в среде с поддержкой нескольких регионов.
+description: Узнайте, как настроить поиск в среде с несколькими географическими средами. Только некоторые клиенты, такие как OneDrive для бизнеса, могут возвращать результаты в среде с несколькими географическими средами.
 ms.openlocfilehash: e213e93cfbc967a723b4d27f4b36a83fe6687da9
 ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
@@ -84,12 +84,12 @@ ms.locfileid: "47547156"
 <tr class="odd">
 <td align="left"></td>
 <td align="left">При поиске в среде с поддержкой нескольких регионов невозможно динамическое группирование числовых уточнений.</td>
-<td align="left">Используйте <a href="https://docs.microsoft.com/sharepoint/dev/general-development/query-refinement-in-sharepoint">параметр дискретизировать</a> для числовых уточнений.</td>
+<td align="left">Используйте параметр <a href="https://docs.microsoft.com/sharepoint/dev/general-development/query-refinement-in-sharepoint">Discretize для</a> числовых уточнений.</td>
 </tr>
 <tr class="even">
 <td align="left">Идентификаторы документов</td>
 <td align="left">При разработке поискового приложения, которое зависит от ИД документов, обратите внимание, что такие идентификаторы в среде с поддержкой нескольких регионов уникальны только для каждого отдельного географического расположения.</td>
-<td align="left">Добавлен столбец, определяющий географическое расположение и позволяющий добиться уникальности. Этот столбец называется "Жеолокатионсаурце".</td>
+<td align="left">Добавлен столбец, определяющий географическое расположение и позволяющий добиться уникальности. Этот столбец называется GeoLocationSource.</td>
 </tr>
 <tr class="odd">
 <td align="left">Количество результатов</td>
@@ -131,7 +131,7 @@ ms.locfileid: "47547156"
 
 Все клиенты поиска взаимодействуют с индексами поиска, используя существующие REST API поиска SharePoint.
 
-![Диаграмма, демонстрирующая способ взаимодействия REST API поиска SharePoint с индексами поиска](../media/configure-search-for-multi-geo-image1-1.png)
+![Схема взаимодействия REST API поиска SharePoint с индексами поиска](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. Клиент поиска вызывает конечную точку поиска REST с использованием свойства запроса EnableMultiGeoSearch = true.
 2. Запрос отправляется во все геообъекты, предусмотренные для клиента.
@@ -172,7 +172,7 @@ ms.locfileid: "47547156"
 
 ### <a name="requirement"></a>Требование
 
-Для каждого географического расположения необходимо убедиться, что всем пользователям в организации предоставлено разрешение **на чтение** корневого веб-сайта (например, contoso**APAC**.sharepoint.com/ и contoso**EU**.sharepoint.com/). [Сведения о разрешениях](https://support.office.com/article/understanding-permission-levels-in-sharepoint-87ecbb0e-6550-491a-8826-c075e4859848).
+Для каждого географического расположения необходимо убедиться, что всем пользователям в организации предоставлено разрешение **на чтение** корневого веб-сайта (например, contoso **APAC**.sharepoint.com/ и contoso **EU**.sharepoint.com/). [Сведения о разрешениях](https://support.office.com/article/understanding-permission-levels-in-sharepoint-87ecbb0e-6550-491a-8826-c075e4859848).
 
 ### <a name="query-parameters"></a>Параметры запроса
 
@@ -253,11 +253,11 @@ MultiGeoSearchStatus — свойство, которое API поиска Share
 
 #### <a name="sample-get-request-thats-fanned-out-to-all-geo-locations"></a>Пример GET-запроса, развертывание которого выполняется для **всех** геообъектов
 
-HTTPS:// \<tenant\> / \_ API/Поиск/запрос? QueryText = ' SharePoint ' &свойства = ' енаблемултижеосеарч: true ' &ClientType = ' My \_ Client \_ ID '
+https:// \<tenant\> / \_ api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my \_ client \_ id'
 
 #### <a name="sample-get-request-to-fan-out-to-some-geo-locations"></a>Пример GET-запроса, развертывание которого выполняется для **некоторых** геообъектов
 
-HTTPS:// \<tenant\> / \_ API/Поиск/запрос? QueryText = ' site ' &ClientType = ' my_client_id ' &Properties = ' енаблемултижеосеарч: true, мултижеосеарчконфигуратион: [{расположение данных \\ : "тип" \\ , точка входа \\ : "HTTPS \\ ://contosoNAM.SharePoint.com" \\ , SourceID \\ : "B81EAB55-3140-4312-B0F4-9459D1B4FFEE"} \\ , {Location \\ : "Can" \\ , Endpoint \\ : "HTTPS \\ ://contosoCAN.SharePoint-DF.com"}] "
+https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation \\ :"NAM" \\ ,Endpoint \\ :"https \\ ://contosoNAM.sharepoint.com" \\ ,SourceId \\ :"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"} \\ ,{DataLocation \\ :"CAN" \\ ,Endpoint \\ :"https \\ ://contosoCAN.sharepoint-df.com"}]"
 
 > [!NOTE]
 > Перед запятыми и двоеточиями в списке геообъектов для свойства MultiGeoSearchConfiguration используется символ **обратной косой черты**. Это обусловлено тем, что запросы GET используют двоеточия для разделения свойств и запятые для разделения аргументов свойств. Без обратной косой черты в качестве экранирующего символа свойство MultiGeoSearchConfiguration будет распознаваться неправильно.

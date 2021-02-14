@@ -13,7 +13,7 @@ ms.collection:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Сведения о том, как переместить сайт SharePoint в другое географическое расположение в среде с поддержкой нескольких регионов и сообщить о ожиданиях изменений пользователей.
+description: Узнайте, как переместить сайт SharePoint в другое географическое расположение в среде с несколькими географическими средами и сообщить об изменениях пользователям.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 819496b9f7612afa1db902e6fc5a0844e99d7a8e
 ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
@@ -74,13 +74,13 @@ ms.locfileid: "47545640"
 
 Перемещение географического расположения сайта SharePoint требует подключения и выполнения перемещения из URL-адреса администрирования SharePoint в географическом расположении, в котором находится сайт.
 
-Например, если URL-адрес сайта указан <https://contosohealthcare.sharepoint.com/sites/Turbines> , подключитесь к URL-адресу администратора SharePoint по адресу <https://contosohealthcare-admin.sharepoint.com> :
+Например, если ИСПОЛЬЗУЕТСЯ URL-адрес сайта, подключитесь к URL-адресу администратора <https://contosohealthcare.sharepoint.com/sites/Turbines> SharePoint по <https://contosohealthcare-admin.sharepoint.com> адресу:
 
 ```powershell
 Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
 ```
 
-![Окно командной консоли SharePoint Online, в котором отображается команда Connect-SPOService](../media/move-onedrive-between-geo-locations-image1.png)
+![Окно командной оболочки SharePoint Online с Connect-SPOService командой](../media/move-onedrive-between-geo-locations-image1.png)
 
 ### <a name="validating-the-environment"></a>Проверка среды
 
@@ -146,7 +146,7 @@ Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <Des
 Вы можете определить состояние перемещения сайта в отношении геообъекта (в расположение или из расположения), к которому подключены, с помощью следующих командлетов:
 
 - [Get-SPOSiteContentMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositecontentmovestate) (сайты, не подключенные к группе)
-- [Get-спаунифиедграупмовестате](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) (сайты, подключенные к группам)
+- [Get-SPOUnifiedGroupMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) (сайты, подключенные к группе)
 
 Используйте параметр `-SourceSiteUrl`, чтобы указать сайт, для которого нужно просмотреть состояние перемещения.
 

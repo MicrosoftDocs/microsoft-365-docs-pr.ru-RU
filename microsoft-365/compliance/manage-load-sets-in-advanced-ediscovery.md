@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: Сведения об управлении наборами нагрузки в Advanced eDiscovery.
+description: Узнайте об управлении наборами нагрузки в Advanced eDiscovery.
 ms.openlocfilehash: 38eb0e19c7e62a42df85343d3328b941332adc03
 ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT

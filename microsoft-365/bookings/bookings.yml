@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft Bookings
-summary: Запланируйте встречи и управляйте ими с помощью Microsoft Books. Включает интеграцию с Outlook и автоматические уведомлениями.
+summary: Запланировать встречи и управлять ими с помощью Microsoft Bookings. Включает интеграцию с Outlook и автоматические уведомления.
 metadata:
   title: Microsoft Bookings
-  description: Запланируйте встречи и управляйте ими с помощью Microsoft Books. Включает интеграцию с Outlook и автоматические уведомлениями.
+  description: Запланировать встречи и управлять ими с помощью Microsoft Bookings. Включает интеграцию с Outlook и автоматические уведомления.
   ms.service: bookings
   ms.topic: landing-page
   author: dmaguire
@@ -18,15 +18,15 @@ metadata:
   ms.lasthandoff: 09/09/2020
   ms.locfileid: "47420076"
 landingContent:
-- title: Сведения о резервировании Майкрософт
+- title: О Microsoft Bookings
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое резервирование Майкрософт?
+    - text: Что такое Microsoft Bookings?
       url: bookings-overview.md
   - linkListType: download
     links:
-    - text: Получение приложения для работы с книгами
+    - text: Получение приложения Bookings
       url: get-bookings-app.md
 - title: Настройка Microsoft Bookings
   linkLists:
@@ -34,7 +34,7 @@ landingContent:
     links:
     - text: Ввод сведений о компании
       url: enter-business-information.md
-    - text: Определение политик планирования
+    - text: Задание политик планирования
       url: set-scheduling-policies.md
     - text: Определение услуг
       url: define-service-offerings.md
@@ -44,7 +44,7 @@ landingContent:
       url: customize-booking-page.md
     - text: Создание резервирований и назначение сотрудников
       url: create-a-manual-booking.md
-- title: Приглашение людей в книгу встреч
+- title: Приглашение людей к книге встреч
   linkLists:
   - linkListType: how-to-guide
     links:

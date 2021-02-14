@@ -1,5 +1,5 @@
 ---
-title: Использование средства экспорта eDiscovery в Microsoft Edge
+title: Использование средства экспорта для eDiscovery в Microsoft Edge
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -12,7 +12,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Для загрузки результатов поиска из поиска контента и обнаружения электронных данных в центре безопасности и соответствия требованиям необходимо включить поддержку ClickOnce, чтобы использовать последнюю версию Microsoft Edge.
+description: Необходимо включить поддержку ClickOnce использовать новую версию Microsoft Edge для скачивания результатов поиска контента и eDiscovery в Центре безопасности и соответствия требованиям.
 ms.openlocfilehash: 60f42d2884c56aaff40bc0a6a979e99698a3cd2e
 ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
@@ -20,44 +20,44 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/12/2020
 ms.locfileid: "47546823"
 ---
-# <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Использование средства экспорта eDiscovery в Microsoft Edge
+# <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Использование средства экспорта для eDiscovery в Microsoft Edge
 
-В результате последних изменений, внесенных в последнюю версию Microsoft EDGE, поддержка ClickOnce больше не включена по умолчанию. Чтобы продолжить использование средства экспорта eDiscovery для загрузки результатов поиска или обнаружения электронных данных, необходимо использовать [Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) или включить поддержку ClickOnce в последней версии Microsoft Edge.
+В результате последних изменений последней версии Microsoft Edge поддержка ClickOnce больше не включена по умолчанию. Чтобы продолжить использование средства экспорта eDiscovery для скачивания результатов поиска контента или eDiscovery, необходимо либо использовать [Microsoft Internet Explorer,](https://support.microsoft.com/help/17621/internet-explorer-downloads) либо включить поддержку ClickOnce в самой новой версии Microsoft Edge.
 
-## <a name="enable-clickonce-support-in-microsoft-edge"></a>Включение поддержки ClickOnce в Microsoft Edge
+## <a name="enable-clickonce-support-in-microsoft-edge"></a>Включить поддержку ClickOnce в Microsoft Edge
 
-1. В Microsoft Edge последовательно выберите пункты **edge://flags/#edge — один раз**.
+1. В Microsoft Edge перейдите **к edge://flags/#edge-click-once.**
 
-2. Если в раскрывающемся списке существующее значение установлено **по умолчанию** или **отключено** , измените его на **Enabled**.
+2. Если в списке **выпаданий** установлено значение Default или **Disabled,** измените его на **"Включено".**
 
-   ![Выберите элемент включено из раскрывающегося списка](../media/ClickOnceimage1.png)
+   ![Выберите "Включено" в выпадаемом списке](../media/ClickOnceimage1.png)
 
-3. Прокрутите окно вниз до конца окна браузера и выберите команду **перезапустить** , чтобы перезапустить пограничный сервер.
+3. Прокрутите страницу вниз до нижней части окна браузера и нажмите кнопку **"Перезапустить",** чтобы перезапустить Edge.
 
-   ![Нажмите кнопку перезапустить](../media/ClickOnceimage2.png)
+   ![Нажмите кнопку "Перезапустить"](../media/ClickOnceimage2.png)
 
-**Примечание:** Для отключения поддержки ClickOnce в организациях можно использовать групповую политику. Чтобы проверить, существует ли политика Организации для поддержки ClickOnce, перейдите в **Edge://Policy**. На следующем снимке экрана показано, что технология ClickOnce включена во всей Организации. Если для этого параметра политики задано значение **false**, необходимо обратиться к администратору в Организации.
+**Примечание.** Организации могут использовать групповую политику для отключения ClickOnce поддержки. Чтобы проверить, существует ли политика организации для поддержки ClickOnce, перейдите **по edge://policy.** На следующем снимке экрана показано ClickOnce включено во всей организации. Если для этого значения политики установлено **значение false,** вам потребуется связаться с администратором в вашей организации.
 
-![Список политик пограничных организационных организаций](../media/ClickOnceimage3.png)
+![Список политик организации edge](../media/ClickOnceimage3.png)
 
-## <a name="install-and-run-the-ediscovery-export-tool"></a>Установка и запуск средства экспорта eDiscovery
+## <a name="install-and-run-the-ediscovery-export-tool"></a>Установка и запуск средства экспорта для eDiscovery
 
-1. Нажмите кнопку **скачать результаты** на всплывающей странице экспорта в поиске контента или в случае обнаружения электронных данных.
+1. Нажмите **кнопку "Скачать** результаты" на странице "Экспорт" в запросе "Поиск контента" или в деле eDiscovery.
 
-   ![Нажмите кнопку Скачать результаты на всплывающей странице, чтобы скачать результаты поиска.](../media/ClickOnceExport1.png)
+   ![Щелкните "Скачать результаты" на странице "Скачать" для скачивания результатов поиска](../media/ClickOnceExport1.png)
 
-2. Появится запрос на подтверждение запуска средства, нажмите кнопку **Открыть**.
+2. Вам будет предложено подтвердить запуск средства, нажмите кнопку **"Открыть".**
 
-   ![Нажмите кнопку Открыть, чтобы запустить средство экспорта eDiscovery](../media/ClickOnceimage4.png)
+   ![Нажмите кнопку "Открыть", чтобы запустить средство экспорта eDiscovery](../media/ClickOnceimage4.png)
 
-   Если средство экспорта eDiscovery не установлено, появится предупреждение системы безопасности, 
+   Если средство экспорта для eDiscovery не установлено, вам будет предложено предупреждение системы безопасности. 
 
-   ![Нажмите кнопку установить, чтобы установить средство экспорта обнаружения электронных данных](../media/ClickOnceimage5.png)
+   ![Click Install to install the eDiscovery Export Tool](../media/ClickOnceimage5.png)
 
-3. Нажать кнопку **Установить**. После установки средство экспорта будет запущено автоматически.
+3. Нажмите **Установить**. После установки средство экспорта запустится автоматически.
 
 Дополнительную информацию см. в следующих статьях:
 
 - [Экспорт результатов поиска контента](export-search-results.md)
 
-- [Включение поэкспериментических флагов в Microsoft Edge](https://microsoftedgesupport.microsoft.com/hc/articles/360034075294-How-to-enable-experiment-flags-in-Microsoft-Edge-Insider-channels)
+- [Как включить флаги экспериментов в Microsoft Edge](https://microsoftedgesupport.microsoft.com/hc/articles/360034075294-How-to-enable-experiment-flags-in-Microsoft-Edge-Insider-channels)

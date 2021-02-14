@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Architecture
 - seo-marvel-apr2020
 ms.assetid: 0d93ff4a-8fbd-42b8-9227-d817dba0046d
-description: В этой статье приводятся ресурсы по проектированию и внедрению веб-сайтов SharePoint Server 2013, размещенных в службах инфраструктуры Azure.
+description: В этой статье данная статья содержит ресурсы по разработке и внедрению веб-сайтов Sharepoint Server 2013, которые выполняются в службах инфраструктуры Azure.
 ms.openlocfilehash: 48e0ec38d315aae3d409c3319a4528430331bb94
 ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "47546622"
 ---
 # <a name="internet-sites-in-microsoft-azure-using-sharepoint-server-2013"></a>Веб-сайты в Microsoft Azure, использующие SharePoint Server 2013
 
- Веб-сайты, использующие SharePoint Server 2013, размещаются в службах инфраструктуры Azure. В этой статье приводятся ресурсы, посвященные разработке и реализации этого решения.
+ Веб-сайты, которые используют SharePoint Server 2013, получают преимущество, так как они могут быть в службах инфраструктуры Azure. В этой статье приводятся ресурсы, посвященные разработке и реализации этого решения.
 
 ## <a name="using-azure-infrastructure-services-for-internet-sites"></a>Использование служб инфраструктуры Azure для веб-сайтов
 
@@ -39,7 +39,7 @@ Microsoft Azure предусматривает возможность разме
 
 - преимущества Azure Active Directory для учетных записей клиентов;
 
-- Добавьте функции, которые в настоящее время недоступны в Microsoft 365, такие как глубокая отчетность и аналитика.
+- Добавьте функции, которые в настоящее время недоступны в Microsoft 365, например глубокие отчеты и аналитика.
 
 ## <a name="resources"></a>Ресурсы
 
@@ -48,7 +48,7 @@ Microsoft Azure предусматривает возможность разме
 |Ресурс|Дополнительные сведения|
 |---|---|
 |Веб-сайты **SharePoint Server 2013 в Azure** <br/> [![Изображение веб-сайтов в Azure, использующих SharePoint](../media/MS-AZ-SPInternetSites.jpg)](https://go.microsoft.com/fwlink/p/?LinkId=392552) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392552) \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392551)|В этой модели показаны основные задачи проектирования и рекомендуемые варианты архитектуры для веб-сайтов в Azure.|
-|**Пример проектирования: веб-сайты в Azure для SharePoint Server 2013** <br/> [ ![ Изображение примера проекта: веб-сайты в Microsoft Azure для SharePoint 2013 ](../media/MS-AZ-InternetSitesDesignSample.jpg) ] <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548)|Используйте этот пример в качестве отправной точки для создания своей архитектуры.|
+|**Пример проектирования: веб-сайты в Azure для SharePoint Server 2013** <br/> [ ![ Изображение примера структуры: веб-сайты в Microsoft Azure для SharePoint 2013 ](../media/MS-AZ-InternetSitesDesignSample.jpg) ] <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548)|Используйте этот пример в качестве отправной точки для создания своей архитектуры.|
 |**[Архитектуры Microsoft Azure для SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md)** <br/> |В этой статье описано проектирование архитектур Azure для размещения решений SharePoint.|
 |
 
