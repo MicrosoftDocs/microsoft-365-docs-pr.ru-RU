@@ -1,5 +1,5 @@
 ---
-title: Использование командлетов PowerShell для централизованного развертывания для управления надстройками
+title: Использование централизованного развертывания powerShell для управления надстройки
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -19,7 +19,7 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: Используйте командлеты PowerShell централизованного развертывания для развертывания надстроек Office для организации Microsoft 365 и управления ими.
+description: Используйте централизованное развертывание powerShell для развертывания надстройок Office в организации Microsoft 365 и управления ими.
 ms.openlocfilehash: 659f12d2533601c4b2165a95ddbf59ea521945b8
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -27,31 +27,31 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46693445"
 ---
-# <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a><span data-ttu-id="fda22-103">Использование командлетов PowerShell для централизованного развертывания для управления надстройками</span><span class="sxs-lookup"><span data-stu-id="fda22-103">Use the Centralized Deployment PowerShell cmdlets to manage add-ins</span></span>
+# <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a><span data-ttu-id="de1de-103">Использование централизованного развертывания powerShell для управления надстройки</span><span class="sxs-lookup"><span data-stu-id="de1de-103">Use the Centralized Deployment PowerShell cmdlets to manage add-ins</span></span>
 
-<span data-ttu-id="fda22-104">Как глобальный администратор Microsoft 365 вы можете развертывать надстройки Office для пользователей с помощью функции централизованного развертывания (см. раздел [Развертывание надстроек Office в центре администрирования](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)).</span><span class="sxs-lookup"><span data-stu-id="fda22-104">As a Microsoft 365 global admin, you can deploy Office add-ins to users via the Centralized Deployment feature (see [Deploy Office Add-ins in the admin center](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)).</span></span> <span data-ttu-id="fda22-105">Кроме развертывания надстроек Office с помощью центра администрирования Microsoft 365, вы также можете использовать Microsoft PowerShell.</span><span class="sxs-lookup"><span data-stu-id="fda22-105">In addition to deploying Office add-ins via the Microsoft 365 admin center, you can also use Microsoft PowerShell.</span></span> <span data-ttu-id="fda22-106">Установите [модуль развертывания Office 365 с централизованной надстройкой для Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment).</span><span class="sxs-lookup"><span data-stu-id="fda22-106">Install the [O365 Centralized Add-In Deployment Module for Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment).</span></span> 
+<span data-ttu-id="de1de-104">Как глобальный администратор Microsoft 365 вы можете развертывать надстройки Office для пользователей с помощью функции централизованного развертывания (см. статью "Развертывание надстройки Office в Центре [администрирования").](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)</span><span class="sxs-lookup"><span data-stu-id="de1de-104">As a Microsoft 365 global admin, you can deploy Office add-ins to users via the Centralized Deployment feature (see [Deploy Office Add-ins in the admin center](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)).</span></span> <span data-ttu-id="de1de-105">Помимо развертывания надстройки Office через Центр администрирования Microsoft 365, вы также можете использовать Microsoft PowerShell.</span><span class="sxs-lookup"><span data-stu-id="de1de-105">In addition to deploying Office add-ins via the Microsoft 365 admin center, you can also use Microsoft PowerShell.</span></span> <span data-ttu-id="de1de-106">Установите модуль централизованного развертывания [O365 Add-In для Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment)</span><span class="sxs-lookup"><span data-stu-id="de1de-106">Install the [O365 Centralized Add-In Deployment Module for Windows PowerShell](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment).</span></span> 
 
-<span data-ttu-id="fda22-107">После загрузки модуля откройте обычное окно Windows PowerShell и запустите следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="fda22-107">After you download the module, open a regular Windows PowerShell window and run the following cmdlet:</span></span>
+<span data-ttu-id="de1de-107">После загрузки модуля откройте обычное окно Windows PowerShell и запустите следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="de1de-107">After you download the module, open a regular Windows PowerShell window and run the following cmdlet:</span></span>
 
 ```powershell
  Import-Module -Name O365CentralizedAddInDeployment
 ```
     
-## <a name="connect-using-your-admin-credentials"></a><span data-ttu-id="fda22-108">Подключение с использованием учетных данных администратора</span><span class="sxs-lookup"><span data-stu-id="fda22-108">Connect using your admin credentials</span></span>
+## <a name="connect-using-your-admin-credentials"></a><span data-ttu-id="de1de-108">Подключение с помощью учетных данных администратора</span><span class="sxs-lookup"><span data-stu-id="de1de-108">Connect using your admin credentials</span></span>
 
-<span data-ttu-id="fda22-109">Прежде чем использовать командлеты централизованного развертывания, необходимо войти в систему.</span><span class="sxs-lookup"><span data-stu-id="fda22-109">Before you can use the Centralized Deployment cmdlets, you need to sign in.</span></span>
+<span data-ttu-id="de1de-109">Прежде чем использовать централизованные развертывание, необходимо войти.</span><span class="sxs-lookup"><span data-stu-id="de1de-109">Before you can use the Centralized Deployment cmdlets, you need to sign in.</span></span>
   
-1. <span data-ttu-id="fda22-110">Запустите PowerShell.</span><span class="sxs-lookup"><span data-stu-id="fda22-110">Start PowerShell.</span></span>
+1. <span data-ttu-id="de1de-110">Запустите PowerShell.</span><span class="sxs-lookup"><span data-stu-id="de1de-110">Start PowerShell.</span></span>
     
-2. <span data-ttu-id="fda22-111">Подключитесь к PowerShell с помощью учетных данных администратора компании.</span><span class="sxs-lookup"><span data-stu-id="fda22-111">Connect to PowerShell by using your company admin credentials.</span></span> <span data-ttu-id="fda22-112">Выполните следующий командлет.</span><span class="sxs-lookup"><span data-stu-id="fda22-112">Run the following cmdlet.</span></span>
+2. <span data-ttu-id="de1de-111">Подключись к PowerShell, используя учетные данные администратора компании.</span><span class="sxs-lookup"><span data-stu-id="de1de-111">Connect to PowerShell by using your company admin credentials.</span></span> <span data-ttu-id="de1de-112">Запустите следующий cmdlet.</span><span class="sxs-lookup"><span data-stu-id="de1de-112">Run the following cmdlet.</span></span>
     
   ```powershell
   Connect-OrganizationAddInService
   ```
 
-3. <span data-ttu-id="fda22-113">На странице **введите учетные данные** введите учетные данные глобального администратора Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="fda22-113">In the **Enter Credentials** page, enter your Microsoft 365 global admin credentials.</span></span> <span data-ttu-id="fda22-114">Кроме того, вы можете ввести свои учетные данные непосредственно в командлет.</span><span class="sxs-lookup"><span data-stu-id="fda22-114">Alternately, you can enter your credentials directly into the cmdlet.</span></span> 
+3. <span data-ttu-id="de1de-113">На странице **"Ввод учетных данных"** введите учетные данные глобального администратора Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="de1de-113">In the **Enter Credentials** page, enter your Microsoft 365 global admin credentials.</span></span> <span data-ttu-id="de1de-114">Кроме того, вы можете ввести свои учетные данные непосредственно в cmdlet.</span><span class="sxs-lookup"><span data-stu-id="de1de-114">Alternately, you can enter your credentials directly into the cmdlet.</span></span> 
     
-    <span data-ttu-id="fda22-115">Выполните следующий командлет, указав учетные данные администратора компании в качестве объекта PSCredential.</span><span class="sxs-lookup"><span data-stu-id="fda22-115">Run the following cmdlet specifying your company admin credentials as a PSCredential object.</span></span>
+    <span data-ttu-id="de1de-115">Запустите следующий cmdlet, указав учетные данные администратора компании в качестве объекта PSCredential.</span><span class="sxs-lookup"><span data-stu-id="de1de-115">Run the following cmdlet specifying your company admin credentials as a PSCredential object.</span></span>
     
   ```powershell
   $secpasswd = ConvertTo-SecureString "MyPassword" -AsPlainText -Force
@@ -60,113 +60,113 @@ ms.locfileid: "46693445"
   ```
 
 > [!NOTE]
-> <span data-ttu-id="fda22-116">Для получения дополнительных сведений об использовании PowerShell обратитесь [к разделу Подключение к Microsoft 365 с помощью PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585).</span><span class="sxs-lookup"><span data-stu-id="fda22-116">For more information about using PowerShell, see [Connect to Microsoft 365 with PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585).</span></span> 
+> <span data-ttu-id="de1de-116">Дополнительные сведения об использовании PowerShell см. в подключении к [Microsoft 365 с помощью PowerShell.](https://go.microsoft.com/fwlink/p/?linkid=848585)</span><span class="sxs-lookup"><span data-stu-id="de1de-116">For more information about using PowerShell, see [Connect to Microsoft 365 with PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585).</span></span> 
   
-## <a name="upload-an-add-in-manifest"></a><span data-ttu-id="fda22-117">Отправка манифеста надстройки</span><span class="sxs-lookup"><span data-stu-id="fda22-117">Upload an add-in manifest</span></span>
+## <a name="upload-an-add-in-manifest"></a><span data-ttu-id="de1de-117">Отправка манифеста надстройки</span><span class="sxs-lookup"><span data-stu-id="de1de-117">Upload an add-in manifest</span></span>
 
-<span data-ttu-id="fda22-118">Выполните командлет **New-организациянадстройки-in** , чтобы отправить манифест надстройки по пути, который может представлять собой расположение файла или URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="fda22-118">Run the **New-OrganizationAdd-In** cmdlet to upload an add-in manifest from a path, which can be either a file location or URL.</span></span> <span data-ttu-id="fda22-119">В следующем примере показано расположение файла для значения параметра  _манифестпас_ .</span><span class="sxs-lookup"><span data-stu-id="fda22-119">The following example shows a file location for the value of the  _ManifestPath_ parameter.</span></span> 
+<span data-ttu-id="de1de-118">Запустите **cmdlet New-OrganizationAdd-In,** чтобы отправить манифест надстройки по пути, который может быть расположением файла или URL-адресом.</span><span class="sxs-lookup"><span data-stu-id="de1de-118">Run the **New-OrganizationAdd-In** cmdlet to upload an add-in manifest from a path, which can be either a file location or URL.</span></span> <span data-ttu-id="de1de-119">В следующем примере показано расположение файла для значения _параметра ManifestPath._</span><span class="sxs-lookup"><span data-stu-id="de1de-119">The following example shows a file location for the value of the  _ManifestPath_ parameter.</span></span> 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
 ```
 
-<span data-ttu-id="fda22-120">Кроме того, можно выполнить командлет **New – организациянадстройки – in** , чтобы отправить надстройку и назначить ее пользователям или группам напрямую с помощью параметра  _Members_ , как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="fda22-120">You can also run the **New-OrganizationAdd-In** cmdlet to upload an add-in and assign it to users or groups directly by using the  _Members_ parameter, as shown in the following example.</span></span> <span data-ttu-id="fda22-121">Разделяйте адреса электронной почты членов запятыми.</span><span class="sxs-lookup"><span data-stu-id="fda22-121">Separate the email addresses of members with a comma.</span></span> 
+<span data-ttu-id="de1de-120">Кроме того, можно выполнить с помощью команды **New-OrganizationAdd-In,** чтобы отправить надстройку и назначить ее пользователям или группам напрямую с помощью параметра  _Members,_ как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="de1de-120">You can also run the **New-OrganizationAdd-In** cmdlet to upload an add-in and assign it to users or groups directly by using the  _Members_ parameter, as shown in the following example.</span></span> <span data-ttu-id="de1de-121">Разделять адреса электронной почты участников запятой.</span><span class="sxs-lookup"><span data-stu-id="de1de-121">Separate the email addresses of members with a comma.</span></span> 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
 ```
 
-## <a name="upload-an-add-in-from-the-office-store"></a><span data-ttu-id="fda22-122">Отправка надстройки из магазина Office</span><span class="sxs-lookup"><span data-stu-id="fda22-122">Upload an add-in from the Office Store</span></span>
+## <a name="upload-an-add-in-from-the-office-store"></a><span data-ttu-id="de1de-122">Отправка надстройки из Магазина Office</span><span class="sxs-lookup"><span data-stu-id="de1de-122">Upload an add-in from the Office Store</span></span>
 
-<span data-ttu-id="fda22-123">Выполните командлет **New – организатионаддин** , чтобы отправить манифест из магазина Office.</span><span class="sxs-lookup"><span data-stu-id="fda22-123">Run the **New-OrganizationAddIn** cmdlet to upload a manifest from the Office Store.</span></span>
+<span data-ttu-id="de1de-123">Запустите **cmdlet New-OrganizationAddIn,** чтобы отправить манифест из Магазина Office.</span><span class="sxs-lookup"><span data-stu-id="de1de-123">Run the **New-OrganizationAddIn** cmdlet to upload a manifest from the Office Store.</span></span>
   
-<span data-ttu-id="fda22-124">В следующем примере командлет **New – организатионаддин** указывает ассетид для надстройки для местонахождения США и рынка контента.</span><span class="sxs-lookup"><span data-stu-id="fda22-124">In the following example, the **New-OrganizationAddIn** cmdlet specifies the AssetId for an add-in for a United States location and content market.</span></span>
+<span data-ttu-id="de1de-124">В следующем примере для надстройки для рынка расположения и контента в США указывается код AssetId для **new-OrganizationAddIn.**</span><span class="sxs-lookup"><span data-stu-id="de1de-124">In the following example, the **New-OrganizationAddIn** cmdlet specifies the AssetId for an add-in for a United States location and content market.</span></span>
   
 ```powershell
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-<span data-ttu-id="fda22-125">Чтобы определить значение параметра  _ассетид_ , можно скопировать его из URL-адреса веб-страницы магазина Office для надстройки.</span><span class="sxs-lookup"><span data-stu-id="fda22-125">To determine the value for the  _AssetId_ parameter, you can copy it from the URL of the Office Store webpage for the add-in.</span></span> <span data-ttu-id="fda22-126">Ассетидс всегда начинается с "WA", за которым следует число.</span><span class="sxs-lookup"><span data-stu-id="fda22-126">AssetIds always begin with "WA" followed by a number.</span></span> <span data-ttu-id="fda22-127">Например, в предыдущем примере источник для значения Ассетид для WA104099688 — это URL-адрес веб-страницы магазина Office для надстройки: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .</span><span class="sxs-lookup"><span data-stu-id="fda22-127">For example, in the previous example, the source for the AssetId value of WA104099688 is the Office Store webpage URL for the add-in: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688).</span></span>
+<span data-ttu-id="de1de-125">Чтобы определить значение параметра  _AssetId,_ можно скопировать его с URL-адреса веб-страницы Магазина Office для надстройки.</span><span class="sxs-lookup"><span data-stu-id="de1de-125">To determine the value for the  _AssetId_ parameter, you can copy it from the URL of the Office Store webpage for the add-in.</span></span> <span data-ttu-id="de1de-126">AssetIds всегда начинаются с "WA", за которым следует число.</span><span class="sxs-lookup"><span data-stu-id="de1de-126">AssetIds always begin with "WA" followed by a number.</span></span> <span data-ttu-id="de1de-127">Например, в предыдущем примере источником значения AssetId wa104099688 является URL-адрес веб-страницы Магазина Office для надстройки: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688)</span><span class="sxs-lookup"><span data-stu-id="de1de-127">For example, in the previous example, the source for the AssetId value of WA104099688 is the Office Store webpage URL for the add-in: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688).</span></span>
   
-<span data-ttu-id="fda22-128">Значения параметра  _locale_ и параметра  _контентмаркет_ идентичны и указывают страну или регион, из которого вы пытаетесь установить надстройку.</span><span class="sxs-lookup"><span data-stu-id="fda22-128">The values for the  _Locale_ parameter and the  _ContentMarket_ parameter are identical and indicate the country/region you're trying to install the add-in from.</span></span> <span data-ttu-id="fda22-129">Формат — en-US, fr-FR.</span><span class="sxs-lookup"><span data-stu-id="fda22-129">The format is en-US, fr-FR.</span></span> <span data-ttu-id="fda22-130">и т. д.</span><span class="sxs-lookup"><span data-stu-id="fda22-130">and so forth.</span></span> 
+<span data-ttu-id="de1de-128">Значения параметров  _Locale_ и  _ContentMarket_ идентичны и указывают страну или регион, из которые вы пытаетесь установить надстройку.</span><span class="sxs-lookup"><span data-stu-id="de1de-128">The values for the  _Locale_ parameter and the  _ContentMarket_ parameter are identical and indicate the country/region you're trying to install the add-in from.</span></span> <span data-ttu-id="de1de-129">Формат: en-US, fr-FR.</span><span class="sxs-lookup"><span data-stu-id="de1de-129">The format is en-US, fr-FR.</span></span> <span data-ttu-id="de1de-130">и так далее.</span><span class="sxs-lookup"><span data-stu-id="de1de-130">and so forth.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="fda22-131">Надстройки, отправленные из магазина Office, автоматически обновляются в течение нескольких дней с последнего обновления, доступного в магазине Office.</span><span class="sxs-lookup"><span data-stu-id="fda22-131">Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.</span></span> 
+> <span data-ttu-id="de1de-131">Надстройки, загруженные из Магазина Office, будут автоматически обновляться в течение нескольких дней после того, как в Магазине Office будет доступно последнее обновление.</span><span class="sxs-lookup"><span data-stu-id="de1de-131">Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.</span></span> 
   
-## <a name="get-details-of-an-add-in"></a><span data-ttu-id="fda22-132">Получение сведений о надстройке</span><span class="sxs-lookup"><span data-stu-id="fda22-132">Get details of an add-in</span></span>
+## <a name="get-details-of-an-add-in"></a><span data-ttu-id="de1de-132">Получить сведения о надстройки</span><span class="sxs-lookup"><span data-stu-id="de1de-132">Get details of an add-in</span></span>
 
-<span data-ttu-id="fda22-133">Выполните командлет **Get – организатионаддин** , как показано ниже, чтобы получить сведения обо всех надстройках, отправленных в клиент, включающих идентификатор продукта надстройки.</span><span class="sxs-lookup"><span data-stu-id="fda22-133">Run the **Get-OrganizationAddIn** cmdlet as shown below to get details of all add-ins uploaded to the tenant, included an add-in's product ID.</span></span>
+<span data-ttu-id="de1de-133">Запустите **cmdlet Get-OrganizationAddIn,** как показано ниже, чтобы получить сведения о всех надстройки, загруженных в клиент, включая код продукта надстройки.</span><span class="sxs-lookup"><span data-stu-id="de1de-133">Run the **Get-OrganizationAddIn** cmdlet as shown below to get details of all add-ins uploaded to the tenant, included an add-in's product ID.</span></span>
   
 ```powershell
 Get-OrganizationAddIn
 ```
 
-<span data-ttu-id="fda22-134">Выполните командлет **Get – организатионаддин** со значением параметра  _ProductID_ , чтобы указать, для какой надстройки необходимо получить сведения.</span><span class="sxs-lookup"><span data-stu-id="fda22-134">Run the **Get-OrganizationAddIn** cmdlet with a value for the  _ProductId_ parameter to specify which add-in you want to retrieve details for.</span></span> 
+<span data-ttu-id="de1de-134">Запустите **cmdlet Get-OrganizationAddIn** со значением параметра  _ProductId,_ чтобы указать, для какой надстройки требуется получить сведения.</span><span class="sxs-lookup"><span data-stu-id="de1de-134">Run the **Get-OrganizationAddIn** cmdlet with a value for the  _ProductId_ parameter to specify which add-in you want to retrieve details for.</span></span> 
   
 ```powershell
 Get-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 ```
 
-<span data-ttu-id="fda22-135">Чтобы получить полные сведения обо всех надстройках, а также о назначенных пользователях и группах, перечислите выходные данные командлета **Get – организатионаддин** в командлет Format – List, как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="fda22-135">To get full details of all the add-ins plus the assigned users and groups, pipe the output of the **Get-OrganizationAddIn** cmdlet to the Format-List cmdlet, as shown in the following example.</span></span>
+<span data-ttu-id="de1de-135">Чтобы получить полные сведения о всех надстройки, а также о назначенных пользователях и группах, перенаправляйте выходные данные из **get-OrganizationAddIn** в Format-List, как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="de1de-135">To get full details of all the add-ins plus the assigned users and groups, pipe the output of the **Get-OrganizationAddIn** cmdlet to the Format-List cmdlet, as shown in the following example.</span></span>
   
 ```powershell
 foreach($G in (Get-organizationAddIn)){Get-OrganizationAddIn -ProductId $G.ProductId | Format-List}
 ```
 
-## <a name="turn-on-or-turn-off-an-add-in"></a><span data-ttu-id="fda22-136">Включение и отключение надстройки</span><span class="sxs-lookup"><span data-stu-id="fda22-136">Turn on or turn off an add-in</span></span>
+## <a name="turn-on-or-turn-off-an-add-in"></a><span data-ttu-id="de1de-136">Включите или отключите надстройки</span><span class="sxs-lookup"><span data-stu-id="de1de-136">Turn on or turn off an add-in</span></span>
 
-<span data-ttu-id="fda22-137">Чтобы отключить надстройку, чтобы пользователи и группы, которым назначена эта надстройка, больше не были доступны, выполните командлет **Set – организатионаддин** с параметром  _ProductID_ и параметром  _Enabled_ , равным  `$false` , как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="fda22-137">To turn off an add-in so users and groups that are assigned to it will no longer have access, run the **Set-OrganizationAddIn** cmdlet with the  _ProductId_ parameter and the  _Enabled_ parameter set to  `$false`, as shown in the following example.</span></span>
+<span data-ttu-id="de1de-137">Чтобы отключить надстройку, чтобы у пользователей и групп, которые ей были назначены, больше не было доступа, запустите **cmdlet Set-OrganizationAddIn** с параметром _ProductId_ и параметром _Enabled,_ как показано в следующем примере. `$false`</span><span class="sxs-lookup"><span data-stu-id="de1de-137">To turn off an add-in so users and groups that are assigned to it will no longer have access, run the **Set-OrganizationAddIn** cmdlet with the  _ProductId_ parameter and the  _Enabled_ parameter set to  `$false`, as shown in the following example.</span></span>
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $false
 ```
 
-<span data-ttu-id="fda22-138">Чтобы снова включить надстройку, выполните тот же командлет, для параметра  _Enabled_ которого задано значение  `$true` .</span><span class="sxs-lookup"><span data-stu-id="fda22-138">To turn an add-in back on, run the same cmdlet with the  _Enabled_ parameter set to  `$true`.</span></span>
+<span data-ttu-id="de1de-138">Чтобы снова включить надстройку, запустите тот же самый cmdlet с параметром _Enabled._ `$true`</span><span class="sxs-lookup"><span data-stu-id="de1de-138">To turn an add-in back on, run the same cmdlet with the  _Enabled_ parameter set to  `$true`.</span></span>
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $true
 ```
 
-## <a name="add-or-remove-users-from-an-add-in"></a><span data-ttu-id="fda22-139">Добавление и удаление пользователей из надстройки</span><span class="sxs-lookup"><span data-stu-id="fda22-139">Add or remove users from an add-in</span></span>
+## <a name="add-or-remove-users-from-an-add-in"></a><span data-ttu-id="de1de-139">Добавление или удаление пользователей из надстройки</span><span class="sxs-lookup"><span data-stu-id="de1de-139">Add or remove users from an add-in</span></span>
 
-<span data-ttu-id="fda22-140">Чтобы добавить пользователей и группы в определенную надстройку, выполните командлет **Set – организатионаддинассигнментс** с параметрами  _ProductID_,  _Add_и  _Members_ .</span><span class="sxs-lookup"><span data-stu-id="fda22-140">To add users and groups to a specific add-in, run the **Set-OrganizationAddInAssignments** cmdlet with the  _ProductId_,  _Add_, and  _Members_ parameters.</span></span> <span data-ttu-id="fda22-141">Разделяйте адреса электронной почты членов запятыми.</span><span class="sxs-lookup"><span data-stu-id="fda22-141">Separate the email addresses of members with a comma.</span></span> 
+<span data-ttu-id="de1de-140">Чтобы добавить пользователей и группы в определенную надстройку, запустите **cmdlet Set-OrganizationAddInAssignments** с параметрами _ProductId,_ _Add_ и _Members._</span><span class="sxs-lookup"><span data-stu-id="de1de-140">To add users and groups to a specific add-in, run the **Set-OrganizationAddInAssignments** cmdlet with the  _ProductId_,  _Add_, and  _Members_ parameters.</span></span> <span data-ttu-id="de1de-141">Разделять адреса электронной почты участников запятой.</span><span class="sxs-lookup"><span data-stu-id="de1de-141">Separate the email addresses of members with a comma.</span></span> 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Add -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-<span data-ttu-id="fda22-142">Чтобы удалить пользователей и группы, выполните один командлет с параметром  _Remove_ .</span><span class="sxs-lookup"><span data-stu-id="fda22-142">To remove users and groups, run the same cmdlet using the  _Remove_ parameter.</span></span> 
+<span data-ttu-id="de1de-142">Чтобы удалить пользователей и группы, запустите тот же самый cmdlet с помощью _параметра Remove._</span><span class="sxs-lookup"><span data-stu-id="de1de-142">To remove users and groups, run the same cmdlet using the  _Remove_ parameter.</span></span> 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Remove -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-<span data-ttu-id="fda22-143">Чтобы назначить надстройку всем пользователям в клиенте, выполните тот же командлет с параметром  _ассигнтоеверйоне_ , для которого задано значение  `$true` .</span><span class="sxs-lookup"><span data-stu-id="fda22-143">To assign an add-in to all users on the tenant, run the same cmdlet using the  _AssignToEveryone_ parameter with the value set to  `$true`.</span></span>
+<span data-ttu-id="de1de-143">Чтобы назначить надстройку всем пользователям в клиенте, запустите тот же самый cmdlet, используя параметр  _AssignToEveryone_ со значением , установленным на  `$true` .</span><span class="sxs-lookup"><span data-stu-id="de1de-143">To assign an add-in to all users on the tenant, run the same cmdlet using the  _AssignToEveryone_ parameter with the value set to  `$true`.</span></span>
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $true
 ```
 
-<span data-ttu-id="fda22-144">Чтобы не присваивать надстройке всем пользователям и вернуться к ранее назначенным пользователям и группам, можно выполнить один и тот же командлет и отключить параметр  _ассигнтоеверйоне_ , присвоив ему значение  `$false` .</span><span class="sxs-lookup"><span data-stu-id="fda22-144">To not assign an add-in to everyone and revert to the previously assigned users and groups, you can run the same cmdlet and turn off the  _AssignToEveryone_ parameter by setting its value to  `$false`.</span></span>
+<span data-ttu-id="de1de-144">Чтобы не назначать надстройку всем и вернуться к ранее назначенной группе и пользователям, можно запустить тот же самый и тот же параметр и отключить параметр  _AssignToEveryone,_ задав для нее значение  `$false` .</span><span class="sxs-lookup"><span data-stu-id="de1de-144">To not assign an add-in to everyone and revert to the previously assigned users and groups, you can run the same cmdlet and turn off the  _AssignToEveryone_ parameter by setting its value to  `$false`.</span></span>
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $false
 ```
 
-## <a name="update-an-add-in"></a><span data-ttu-id="fda22-145">Обновление надстройки</span><span class="sxs-lookup"><span data-stu-id="fda22-145">Update an add-in</span></span>
+## <a name="update-an-add-in"></a><span data-ttu-id="de1de-145">Обновление надстройки</span><span class="sxs-lookup"><span data-stu-id="de1de-145">Update an add-in</span></span>
 
-<span data-ttu-id="fda22-146">Чтобы обновить надстройку с помощью манифеста, выполните командлет **Set – организатионаддин** с параметрами  _ProductID_,  _манифестпас_и  _locale_ , как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="fda22-146">To update an add-in from a manifest, run the **Set-OrganizationAddIn** cmdlet with the  _ProductId_,  _ManifestPath_, and  _Locale_ parameters, as shown in the following example.</span></span> 
+<span data-ttu-id="de1de-146">Чтобы обновить надстройку из манифеста, запустите его с параметрами _ProductId,_ _ManifestPath_ и _Locale,_ как показано в следующем примере. </span><span class="sxs-lookup"><span data-stu-id="de1de-146">To update an add-in from a manifest, run the **Set-OrganizationAddIn** cmdlet with the  _ProductId_,  _ManifestPath_, and  _Locale_ parameters, as shown in the following example.</span></span> 
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
 ```
 
 > [!NOTE]
-> <span data-ttu-id="fda22-147">Надстройки, отправленные из магазина Office, автоматически обновляются в течение нескольких дней с последнего обновления, доступного в магазине Office.</span><span class="sxs-lookup"><span data-stu-id="fda22-147">Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.</span></span> 
+> <span data-ttu-id="de1de-147">Надстройки, загруженные из Магазина Office, будут автоматически обновляться в течение нескольких дней после того, как в Магазине Office будет доступно последнее обновление.</span><span class="sxs-lookup"><span data-stu-id="de1de-147">Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.</span></span> 
   
-## <a name="delete-an-add-in"></a><span data-ttu-id="fda22-148">Удаление надстройки</span><span class="sxs-lookup"><span data-stu-id="fda22-148">Delete an add-in</span></span>
+## <a name="delete-an-add-in"></a><span data-ttu-id="de1de-148">Удаление надстройки</span><span class="sxs-lookup"><span data-stu-id="de1de-148">Delete an add-in</span></span>
 
-<span data-ttu-id="fda22-149">Чтобы удалить надстройку, запустите командлет **Remove – организатионаддин** с параметром  _ProductID_ , как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="fda22-149">To delete an add-in, run the **Remove-OrganizationAddIn** cmdlet with the  _ProductId_ parameter, as shown in the following example.</span></span> 
+<span data-ttu-id="de1de-149">Чтобы удалить надстройку, запустите **cmdlet Remove-OrganizationAddIn** с параметром  _ProductId,_ как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="de1de-149">To delete an add-in, run the **Remove-OrganizationAddIn** cmdlet with the  _ProductId_ parameter, as shown in the following example.</span></span> 
   
 ```powershell
 Remove-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
@@ -270,9 +270,9 @@ If an add-in has been deployed, it has to be removed from the cache in each comp
 
 -->
 
-## <a name="get-detailed-help-for-each-cmdlet"></a><span data-ttu-id="fda22-150">Получение подробной справки для каждого командлета</span><span class="sxs-lookup"><span data-stu-id="fda22-150">Get detailed help for each cmdlet</span></span>
+## <a name="get-detailed-help-for-each-cmdlet"></a><span data-ttu-id="de1de-150">Получите подробную справку по каждому из них</span><span class="sxs-lookup"><span data-stu-id="de1de-150">Get detailed help for each cmdlet</span></span>
 
-<span data-ttu-id="fda22-151">С помощью командлета Get – Help можно просмотреть подробную справку для каждого командлета.</span><span class="sxs-lookup"><span data-stu-id="fda22-151">You can look at detailed help for each cmdlet by using the Get-help cmdlet.</span></span> <span data-ttu-id="fda22-152">Например, следующий командлет предоставляет подробные сведения о командлете Remove – Организатионаддин.</span><span class="sxs-lookup"><span data-stu-id="fda22-152">For example, the following cmdlet provides detailed information about the Remove-OrganizationAddIn cmdlet.</span></span>
+<span data-ttu-id="de1de-151">Подробные сведения о каждом из них см. в справке с помощью get-help.</span><span class="sxs-lookup"><span data-stu-id="de1de-151">You can look at detailed help for each cmdlet by using the Get-help cmdlet.</span></span> <span data-ttu-id="de1de-152">Например, следующий cmdlet предоставляет подробные сведения о Remove-OrganizationAddIn.</span><span class="sxs-lookup"><span data-stu-id="de1de-152">For example, the following cmdlet provides detailed information about the Remove-OrganizationAddIn cmdlet.</span></span>
   
 ```powershell
 Get-help Remove-OrganizationAddIn -Full

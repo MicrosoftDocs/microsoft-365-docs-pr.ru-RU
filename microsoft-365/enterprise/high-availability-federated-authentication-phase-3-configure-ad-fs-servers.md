@@ -1,5 +1,5 @@
 ---
-title: Этап 3 для федеративной проверки подлинности с высоким уровнем доступности. Настройка серверов AD FS
+title: 'Этап 3. Федерационная проверка подлинности для высокой доступности: настройка серверов AD FS'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
-description: Узнайте, как создавать и настраивать серверы AD FS для федеративной проверки подлинности с высоким уровнем доступности для Microsoft 365 в Microsoft Azure.
+description: Узнайте, как создавать и настраивать серверы AD FS для федерарной проверки подлинности с высоким уровнем доступности для Microsoft 365 в Microsoft Azure.
 ms.openlocfilehash: bf8b52f4cd0dead0c264b71363fd5248397ae88d
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -23,37 +23,37 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46693572"
 ---
-# <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a><span data-ttu-id="8162a-103">Этап 3. Федеративная проверка подлинности для обеспечения высокой доступности: настройка серверов AD FS</span><span class="sxs-lookup"><span data-stu-id="8162a-103">High availability federated authentication Phase 3: Configure AD FS servers</span></span>
+# <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a><span data-ttu-id="58cf3-103">Этап 3. Федеративная проверка подлинности для обеспечения высокой доступности: настройка серверов AD FS</span><span class="sxs-lookup"><span data-stu-id="58cf3-103">High availability federated authentication Phase 3: Configure AD FS servers</span></span>
 
-<span data-ttu-id="8162a-104">На этом этапе развертывания высокой доступности для федеративной проверки подлинности Microsoft 365 в службах инфраструктуры Azure вы создадите внутренний балансировщик нагрузки и два сервера AD FS.</span><span class="sxs-lookup"><span data-stu-id="8162a-104">In this phase of deploying high availability for Microsoft 365 federated authentication in Azure infrastructure services, you create an internal load balancer and two AD FS servers.</span></span>
+<span data-ttu-id="58cf3-104">На этом этапе развертывания федераированной проверки подлинности Microsoft 365 с высоким уровнем доступности в службах инфраструктуры Azure создается внутренний балансировщик нагрузки и два сервера AD FS.</span><span class="sxs-lookup"><span data-stu-id="58cf3-104">In this phase of deploying high availability for Microsoft 365 federated authentication in Azure infrastructure services, you create an internal load balancer and two AD FS servers.</span></span>
   
-<span data-ttu-id="8162a-105">Необходимо выполнить этот этап, прежде чем переходить к [этапу 4: Настройка прокси-серверов веб-приложений](high-availability-federated-authentication-phase-4-configure-web-application-pro.md).</span><span class="sxs-lookup"><span data-stu-id="8162a-105">You must complete this phase before moving on to [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md).</span></span> <span data-ttu-id="8162a-106">[В статье Развертывание федеративной проверки подлинности с высоким уровнем доступности для Microsoft 365 в Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) для всех фаз.</span><span class="sxs-lookup"><span data-stu-id="8162a-106">See [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) for all of the phases.</span></span>
+<span data-ttu-id="58cf3-105">Этот этап необходимо завершить перед переходом к [этапу 4. Настройка прокси-серверов веб-приложений.](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)</span><span class="sxs-lookup"><span data-stu-id="58cf3-105">You must complete this phase before moving on to [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md).</span></span> <span data-ttu-id="58cf3-106">См. все этапы развертывания федерационной проверки подлинности с высоким уровнем доступности для [Microsoft 365](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) в Azure.</span><span class="sxs-lookup"><span data-stu-id="58cf3-106">See [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) for all of the phases.</span></span>
   
-## <a name="create-the-ad-fs-server-virtual-machines-in-azure"></a><span data-ttu-id="8162a-107">Создание виртуальных машин серверов AD FS в Azure</span><span class="sxs-lookup"><span data-stu-id="8162a-107">Create the AD FS server virtual machines in Azure</span></span>
+## <a name="create-the-ad-fs-server-virtual-machines-in-azure"></a><span data-ttu-id="58cf3-107">Создание виртуальных машин серверов AD FS в Azure</span><span class="sxs-lookup"><span data-stu-id="58cf3-107">Create the AD FS server virtual machines in Azure</span></span>
 
-<span data-ttu-id="8162a-p102">Используйте приведенный ниже блок команд PowerShell, чтобы создать виртуальные машины для двух серверов AD FS. В этом наборе команд PowerShell используются значения из следующих таблиц:</span><span class="sxs-lookup"><span data-stu-id="8162a-p102">Use the following block of PowerShell commands to create the virtual machines for the two AD FS servers. This PowerShell command set uses values from the following tables:</span></span>
+<span data-ttu-id="58cf3-p102">Используйте приведенный ниже блок команд PowerShell, чтобы создать виртуальные машины для двух серверов AD FS. В этом наборе команд PowerShell используются значения из следующих таблиц:</span><span class="sxs-lookup"><span data-stu-id="58cf3-p102">Use the following block of PowerShell commands to create the virtual machines for the two AD FS servers. This PowerShell command set uses values from the following tables:</span></span>
   
-- <span data-ttu-id="8162a-110">таблица M (для виртуальных машин);</span><span class="sxs-lookup"><span data-stu-id="8162a-110">Table M, for your virtual machines</span></span>
+- <span data-ttu-id="58cf3-110">таблица M (для виртуальных машин);</span><span class="sxs-lookup"><span data-stu-id="58cf3-110">Table M, for your virtual machines</span></span>
     
-- <span data-ttu-id="8162a-111">таблица R (для групп ресурсов);</span><span class="sxs-lookup"><span data-stu-id="8162a-111">Table R, for your resource groups</span></span>
+- <span data-ttu-id="58cf3-111">таблица R (для групп ресурсов);</span><span class="sxs-lookup"><span data-stu-id="58cf3-111">Table R, for your resource groups</span></span>
     
-- <span data-ttu-id="8162a-112">таблица V (для параметров виртуальной сети);</span><span class="sxs-lookup"><span data-stu-id="8162a-112">Table V, for your virtual network settings</span></span>
+- <span data-ttu-id="58cf3-112">таблица V (для параметров виртуальной сети);</span><span class="sxs-lookup"><span data-stu-id="58cf3-112">Table V, for your virtual network settings</span></span>
     
-- <span data-ttu-id="8162a-113">таблица S (для подсетей);</span><span class="sxs-lookup"><span data-stu-id="8162a-113">Table S, for your subnets</span></span>
+- <span data-ttu-id="58cf3-113">таблица S (для подсетей);</span><span class="sxs-lookup"><span data-stu-id="58cf3-113">Table S, for your subnets</span></span>
     
-- <span data-ttu-id="8162a-114">таблица I (для статических IP-адресов);</span><span class="sxs-lookup"><span data-stu-id="8162a-114">Table I, for your static IP addresses</span></span>
+- <span data-ttu-id="58cf3-114">таблица I (для статических IP-адресов);</span><span class="sxs-lookup"><span data-stu-id="58cf3-114">Table I, for your static IP addresses</span></span>
     
-- <span data-ttu-id="8162a-115">таблица A (для групп доступности).</span><span class="sxs-lookup"><span data-stu-id="8162a-115">Table A, for your availability sets</span></span>
+- <span data-ttu-id="58cf3-115">таблица A (для групп доступности).</span><span class="sxs-lookup"><span data-stu-id="58cf3-115">Table A, for your availability sets</span></span>
     
-<span data-ttu-id="8162a-116">Помните, что вы определили таблицу M на [этапе 2: Configure Domain Controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) and Tables R, V, S, I и на [этапе 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md).</span><span class="sxs-lookup"><span data-stu-id="8162a-116">Recall that you defined Table M in [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) and Tables R, V, S, I, and A in [Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md).</span></span>
+<span data-ttu-id="58cf3-116">Помните, что вы определили таблицу M на этапе [2.](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) Настройка контроллеров домена и таблиц R, V, S, I и A на этапе [1. Настройка Azure.](high-availability-federated-authentication-phase-1-configure-azure.md)</span><span class="sxs-lookup"><span data-stu-id="58cf3-116">Recall that you defined Table M in [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) and Tables R, V, S, I, and A in [Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="8162a-117">Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8162a-117">The following command sets use the latest version of Azure PowerShell.</span></span> <span data-ttu-id="8162a-118">Ознакомьтесь [с статьей начало работы с Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).</span><span class="sxs-lookup"><span data-stu-id="8162a-118">See [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).</span></span> 
+> <span data-ttu-id="58cf3-117">Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell.</span><span class="sxs-lookup"><span data-stu-id="58cf3-117">The following command sets use the latest version of Azure PowerShell.</span></span> <span data-ttu-id="58cf3-118">См. ["Начало работы с Azure PowerShell".](https://docs.microsoft.com/powershell/azure/get-started-azureps)</span><span class="sxs-lookup"><span data-stu-id="58cf3-118">See [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).</span></span> 
   
-<span data-ttu-id="8162a-119">Сначала создайте внутренний балансировщик нагрузки Azure для двух серверов AD FS.</span><span class="sxs-lookup"><span data-stu-id="8162a-119">First, you create an Azure internal load balancer for the two AD FS servers.</span></span> <span data-ttu-id="8162a-120">Укажите значения для переменных, удалив \< and > символы.</span><span class="sxs-lookup"><span data-stu-id="8162a-120">Specify the values for the variables, removing the \< and > characters.</span></span> <span data-ttu-id="8162a-121">Задав правильные значения, выполните полученный блок в командной строке Azure PowerShell или в интегрированной среде сценариев PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8162a-121">When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.</span></span>
+<span data-ttu-id="58cf3-119">Сначала создайте внутренний балансировщик нагрузки Azure для двух серверов AD FS.</span><span class="sxs-lookup"><span data-stu-id="58cf3-119">First, you create an Azure internal load balancer for the two AD FS servers.</span></span> <span data-ttu-id="58cf3-120">Укажите значения переменных, удалив \< and > символы.</span><span class="sxs-lookup"><span data-stu-id="58cf3-120">Specify the values for the variables, removing the \< and > characters.</span></span> <span data-ttu-id="58cf3-121">Задав правильные значения, выполните полученный блок в командной строке Azure PowerShell или в интегрированной среде сценариев PowerShell.</span><span class="sxs-lookup"><span data-stu-id="58cf3-121">When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="8162a-122">Для создания блоков команд PowerShell, готовых к запуску, на основе настраиваемых параметров, используйте эту [книгу настройки Microsoft Excel](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx).</span><span class="sxs-lookup"><span data-stu-id="8162a-122">To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx).</span></span> 
+> <span data-ttu-id="58cf3-122">Чтобы создать готовые к запуску блоки команд PowerShell на основе пользовательских параметров, используйте эту книгу конфигурации [Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx)</span><span class="sxs-lookup"><span data-stu-id="58cf3-122">To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx).</span></span> 
 
 ```powershell
 # Set up key variables
@@ -74,9 +74,9 @@ $lbrule=New-AzLoadBalancerRuleConfig -Name "HTTPSTraffic" -FrontendIpConfigurati
 New-AzLoadBalancer -ResourceGroupName $rgName -Name "ADFSServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
 ```
 
-<span data-ttu-id="8162a-123">После этого создайте виртуальные машины сервера AD FS.</span><span class="sxs-lookup"><span data-stu-id="8162a-123">Next, create the AD FS server virtual machines.</span></span>
+<span data-ttu-id="58cf3-123">После этого создайте виртуальные машины сервера AD FS.</span><span class="sxs-lookup"><span data-stu-id="58cf3-123">Next, create the AD FS server virtual machines.</span></span>
   
-<span data-ttu-id="8162a-124">Задав правильные значения, выполните полученный блок в командной строке Azure PowerShell или в интегрированной среде сценариев PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8162a-124">When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.</span></span>
+<span data-ttu-id="58cf3-124">Задав правильные значения, выполните полученный блок в командной строке Azure PowerShell или в интегрированной среде сценариев PowerShell.</span><span class="sxs-lookup"><span data-stu-id="58cf3-124">When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.</span></span>
   
 ```powershell
 # Set up variables common to both virtual machines
@@ -131,11 +131,11 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 > [!NOTE]
-> <span data-ttu-id="8162a-p105">Эти виртуальные машины предназначены для работы в интрасети, поэтому им не назначается общедоступный IP-адрес или метка доменного имени DNS и они не подключаются к Интернету. Однако это также означает, что к ним невозможно подключиться с помощью портала Azure. Команда **Подключиться** недоступна при просмотре свойств виртуальной машины. Используйте программу "Подключение к удаленному рабочему столу" или другое аналогичное средство, чтобы подключиться к виртуальной машине по ее частному IP-адресу или DNS-имени интрасети.</span><span class="sxs-lookup"><span data-stu-id="8162a-p105">Because these virtual machines are for an intranet application, they are not assigned a public IP address or a DNS domain name label and exposed to the Internet. However, this also means that you cannot connect to them from the Azure portal. The **Connect** option is unavailable when you view the properties of the virtual machine. Use the Remote Desktop Connection accessory or another Remote Desktop tool to connect to the virtual machine using its private IP address or intranet DNS name.</span></span>
+> <span data-ttu-id="58cf3-p105">Эти виртуальные машины предназначены для работы в интрасети, поэтому им не назначается общедоступный IP-адрес или метка доменного имени DNS и они не подключаются к Интернету. Однако это также означает, что к ним невозможно подключиться с помощью портала Azure. Команда **Подключиться** недоступна при просмотре свойств виртуальной машины. Используйте программу "Подключение к удаленному рабочему столу" или другое аналогичное средство, чтобы подключиться к виртуальной машине по ее частному IP-адресу или DNS-имени интрасети.</span><span class="sxs-lookup"><span data-stu-id="58cf3-p105">Because these virtual machines are for an intranet application, they are not assigned a public IP address or a DNS domain name label and exposed to the Internet. However, this also means that you cannot connect to them from the Azure portal. The **Connect** option is unavailable when you view the properties of the virtual machine. Use the Remote Desktop Connection accessory or another Remote Desktop tool to connect to the virtual machine using its private IP address or intranet DNS name.</span></span>
   
-<span data-ttu-id="8162a-p106">Создайте подключение к удаленному рабочему столу для каждой виртуальной машины с помощью любого подходящего клиента. Используйте DNS-имя интрасети или имя компьютера, а также локальные учетные данные администратора.</span><span class="sxs-lookup"><span data-stu-id="8162a-p106">For each virtual machine, use the remote desktop client of your choice and create a remote desktop connection. Use its intranet DNS or computer name and the credentials of the local administrator account.</span></span>
+<span data-ttu-id="58cf3-p106">Создайте подключение к удаленному рабочему столу для каждой виртуальной машины с помощью любого подходящего клиента. Используйте DNS-имя интрасети или имя компьютера, а также локальные учетные данные администратора.</span><span class="sxs-lookup"><span data-stu-id="58cf3-p106">For each virtual machine, use the remote desktop client of your choice and create a remote desktop connection. Use its intranet DNS or computer name and the credentials of the local administrator account.</span></span>
   
-<span data-ttu-id="8162a-131">Для каждой виртуальной машины присоедините их к соответствующему домену доменных служб Active Directory (AD DS) с помощью приведенных ниже команд в командной консоли Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8162a-131">For each virtual machine, join them to the appropriate Active Directory Domain Services (AD DS) domain with these commands at the Windows PowerShell prompt.</span></span>
+<span data-ttu-id="58cf3-131">Для каждой виртуальной машины присоединить их к соответствующему домену доменных служб Active Directory (AD DS) с помощью указанных Windows PowerShell команд.</span><span class="sxs-lookup"><span data-stu-id="58cf3-131">For each virtual machine, join them to the appropriate Active Directory Domain Services (AD DS) domain with these commands at the Windows PowerShell prompt.</span></span>
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -144,20 +144,20 @@ Add-Computer -DomainName $domName -Credential $cred
 Restart-Computer
 ```
 
-<span data-ttu-id="8162a-132">Здесь показана конфигурация, полученная в результате успешного выполнения этого этапа (с заполнителями вместо имен компьютеров).</span><span class="sxs-lookup"><span data-stu-id="8162a-132">Here is the configuration resulting from the successful completion of this phase, with placeholder computer names.</span></span>
+<span data-ttu-id="58cf3-132">Здесь показана конфигурация, полученная в результате успешного выполнения этого этапа (с заполнителями вместо имен компьютеров).</span><span class="sxs-lookup"><span data-stu-id="58cf3-132">Here is the configuration resulting from the successful completion of this phase, with placeholder computer names.</span></span>
   
-<span data-ttu-id="8162a-133">**Этап 3. Серверы AD FS и внутренний балансировщик нагрузки для инфраструктуры федеративной проверки подлинности с высоким уровнем доступности в Azure**</span><span class="sxs-lookup"><span data-stu-id="8162a-133">**Phase 3: The AD FS servers and internal load balancer for your high availability federated authentication infrastructure in Azure**</span></span>
+<span data-ttu-id="58cf3-133">**Этап 3. Серверы AD FS и внутренний балансировщик нагрузки для инфраструктуры федеративной проверки подлинности с высоким уровнем доступности в Azure**</span><span class="sxs-lookup"><span data-stu-id="58cf3-133">**Phase 3: The AD FS servers and internal load balancer for your high availability federated authentication infrastructure in Azure**</span></span>
 
-![Этап 3 инфраструктуры федеративной проверки подлинности Microsoft 365 с высоким уровнем доступности в Azure с серверами AD FS](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
+![Этап 3. Инфраструктура федерационной проверки подлинности Microsoft 365 с высоким уровнем доступности в Azure с серверами AD FS](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
   
-## <a name="next-step"></a><span data-ttu-id="8162a-135">Следующий шаг</span><span class="sxs-lookup"><span data-stu-id="8162a-135">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="58cf3-135">Следующий этап</span><span class="sxs-lookup"><span data-stu-id="58cf3-135">Next step</span></span>
 
-<span data-ttu-id="8162a-136">Используйте [Этап 4: Настройка прокси-серверов веб-приложений](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) для продолжения настройки этой рабочей нагрузки.</span><span class="sxs-lookup"><span data-stu-id="8162a-136">Use [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) to continue configuring this workload.</span></span>
+<span data-ttu-id="58cf3-136">Этап [4. Настройка прокси-серверов веб-приложений](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) для продолжения настройки этой рабочей нагрузки.</span><span class="sxs-lookup"><span data-stu-id="58cf3-136">Use [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) to continue configuring this workload.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8162a-137">См. также</span><span class="sxs-lookup"><span data-stu-id="8162a-137">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="58cf3-137">См. также</span><span class="sxs-lookup"><span data-stu-id="58cf3-137">See Also</span></span>
 
-[<span data-ttu-id="8162a-138">Развертывание федеративной проверки подлинности для обеспечения высокой доступности Microsoft 365 в Azure</span><span class="sxs-lookup"><span data-stu-id="8162a-138">Deploy high availability federated authentication for Microsoft 365 in Azure</span></span>](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
+[<span data-ttu-id="58cf3-138">Развертывание федеративной проверки подлинности для обеспечения высокой доступности Microsoft 365 в Azure</span><span class="sxs-lookup"><span data-stu-id="58cf3-138">Deploy high availability federated authentication for Microsoft 365 in Azure</span></span>](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[<span data-ttu-id="8162a-139">Федеративная идентификация для среды разработки и тестирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="8162a-139">Federated identity for your Microsoft 365 dev/test environment</span></span>](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[<span data-ttu-id="58cf3-139">Федератное удостоверение для среды тестирования и тестирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="58cf3-139">Federated identity for your Microsoft 365 dev/test environment</span></span>](federated-identity-for-your-microsoft-365-dev-test-environment.md)
 
 
