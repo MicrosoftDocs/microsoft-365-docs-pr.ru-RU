@@ -1,5 +1,5 @@
 ---
-title: Просмотр данных обращения в Advanced eDiscovery
+title: Просмотр данных дела в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: Сведения об анализе данных о делах в наборе проверки в Advanced eDiscovery.
+description: Сведения о проверке данных дела в наборе для проверки в Advanced eDiscovery.
 ms.openlocfilehash: 890edc0e813f620944cea1e73bc8f9dc45132eb3
 ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
@@ -24,6 +24,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/26/2020
 ms.locfileid: "48285355"
 ---
-# <a name="review-case-data-in-advanced-ediscovery"></a><span data-ttu-id="1283e-103">Просмотр данных обращения в Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="1283e-103">Review case data in Advanced eDiscovery</span></span>
+# <a name="review-case-data-in-advanced-ediscovery"></a><span data-ttu-id="a2455-103">Просмотр данных дела в Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="a2455-103">Review case data in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="1283e-104">Скоро.</span><span class="sxs-lookup"><span data-stu-id="1283e-104">Coming soon.</span></span>
+<span data-ttu-id="a2455-104">Скоро.</span><span class="sxs-lookup"><span data-stu-id="a2455-104">Coming soon.</span></span>
