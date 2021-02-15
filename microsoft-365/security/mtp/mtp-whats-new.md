@@ -27,18 +27,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49929274"
 ---
-# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="cc406-104">Новые возможности безопасности Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="cc406-104">What's new in Microsoft 365 Security</span></span>
+# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="e3af9-104">Новые возможности безопасности Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="e3af9-104">What's new in Microsoft 365 Security</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="cc406-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="cc406-105">**Applies to:**</span></span>
-- <span data-ttu-id="cc406-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="cc406-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="e3af9-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="e3af9-105">**Applies to:**</span></span>
+- <span data-ttu-id="e3af9-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="e3af9-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="cc406-107">В этой статье рассматриваются возможности, которые общедоступны в последнем выпуске службы безопасности Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="cc406-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
+<span data-ttu-id="e3af9-107">В этой статье рассматриваются возможности, которые общедоступны в последнем выпуске службы безопасности Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="e3af9-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
 
-<span data-ttu-id="cc406-108">Дополнительные сведения о предварительных функциях см. в статье [Предварительные функции](mtp-preview.md)</span><span class="sxs-lookup"><span data-stu-id="cc406-108">For more information on preview features, see [Preview features](mtp-preview.md)</span></span>
+<span data-ttu-id="e3af9-108">Дополнительные сведения о предварительных функциях см. в статье [Предварительные функции](mtp-preview.md)</span><span class="sxs-lookup"><span data-stu-id="e3af9-108">For more information on preview features, see [Preview features](mtp-preview.md)</span></span>
 
 

@@ -29,14 +29,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49928262"
 ---
-# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="6aef7-103">Отмена подписки Google Workspace</span><span class="sxs-lookup"><span data-stu-id="6aef7-103">Cancel Google Workspace subscription</span></span>
+# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="d37de-103">Отмена подписки Google Workspace</span><span class="sxs-lookup"><span data-stu-id="d37de-103">Cancel Google Workspace subscription</span></span>
 
-1. <span data-ttu-id="6aef7-104">Войдите в [учетную службу администратора Google и](https://admin.google.com/) перейдите в **службу вывески.**</span><span class="sxs-lookup"><span data-stu-id="6aef7-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
-1. <span data-ttu-id="6aef7-105">В **списке подписок** выберите свою подписку G Suite, **отмените** подписку и выберите **"Продолжить".**</span><span class="sxs-lookup"><span data-stu-id="6aef7-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
+1. <span data-ttu-id="d37de-104">Войдите в [учетную службу администратора Google и](https://admin.google.com/) перейдите в **службу вывески.**</span><span class="sxs-lookup"><span data-stu-id="d37de-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
+1. <span data-ttu-id="d37de-105">В **списке подписок** выберите свою подписку G Suite, **отмените** подписку и выберите **"Продолжить".**</span><span class="sxs-lookup"><span data-stu-id="d37de-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="6aef7-106">подписка будет немедленно отменена, и вы не сможете отменить это действие.</span><span class="sxs-lookup"><span data-stu-id="6aef7-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
+    > <span data-ttu-id="d37de-106">подписка будет немедленно отменена, и вы не сможете отменить это действие.</span><span class="sxs-lookup"><span data-stu-id="d37de-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
 
     :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Снимок экрана со страницей вы выставления счета администратора Google.":::
 
-<span data-ttu-id="6aef7-108">Обратите внимание, что в списке подписок может не быть регистрации доменов, если ваш поставщик услуг хоста DNS не является доменами Google.</span><span class="sxs-lookup"><span data-stu-id="6aef7-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>
+<span data-ttu-id="d37de-108">Обратите внимание, что в списке подписок может не быть регистрации доменов, если ваш поставщик услуг хоста DNS не является доменами Google.</span><span class="sxs-lookup"><span data-stu-id="d37de-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>
