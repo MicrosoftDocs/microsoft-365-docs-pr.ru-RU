@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Великобритании
+title: Сведения о поддержке для Соединенного Королевства
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 9c19c0243abfb6f0823cce3306e29e47444032fe
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48638883"
 ---
-# <a name="contact-support-for-united-kingdom"></a>Обращение в службу поддержки для Великобритании
+# <a name="contact-support-for-united-kingdom"></a>Обратитесь в службу поддержки Для Соединенного Королевства
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 0800 032 6417
@@ -30,7 +30,7 @@ ms.locfileid: "48638883"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9 AM – 5 AM
+Английский: Mon-Fri 9:00–17:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
@@ -38,4 +38,4 @@ ms.locfileid: "48638883"
 
 Альтернативный номер телефона: 0203 450 6455
 
-Применяются сборы по местным звонкам
+Применяются местные тарифы на вызовы

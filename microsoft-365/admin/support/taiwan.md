@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: c1bdebfbcf8968cac27464a426568541f560463c
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639339"
 ---
-# <a name="contact-support-for-taiwan"></a>Обращение в службу поддержки для Тайваня
+# <a name="contact-support-for-taiwan"></a>Обратитесь в службу поддержки Для Тайваня
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 0800 666 802
@@ -30,16 +30,16 @@ ms.locfileid: "48639339"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Китайский (мандарин): Mon-Fri 9 AM-6 PM
+Китайский (Диалект): Mon-Fri 9:00–18:00
 
-Английский: Mon-Fri 9 AM – 6 PM
+Английский: Mon-Fri 9:00–18:00 local
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Китайский (мандарин): Mon-Fri 9 AM-6 PM
+Китайский (Диалект): Mon-Fri 9:00–18:00
 
 Английский: круглосуточно, без выходных
 
 Альтернативный номер телефона: 02 2656 7301
 
-Применяются сборы по местным звонкам
+Применяются местные тарифы на вызовы

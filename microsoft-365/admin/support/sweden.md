@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 93e8fa090d1905489eaa43b12eae835dd6f1b657
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639363"
 ---
-# <a name="contact-support-for-sweden"></a>Обращение в службу поддержки для Швеции
+# <a name="contact-support-for-sweden"></a>Обратитесь в службу поддержки Для Швеции
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 020 160 5899
@@ -30,7 +30,7 @@ ms.locfileid: "48639363"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9 AM – 5 AM
+Английский: Mon-Fri 9:00–17:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
@@ -38,4 +38,4 @@ ms.locfileid: "48639363"
 
 Альтернативный номер телефона: 08 5176 1966
 
-Применяются сборы по местным звонкам
+Применяются местные тарифы на вызовы

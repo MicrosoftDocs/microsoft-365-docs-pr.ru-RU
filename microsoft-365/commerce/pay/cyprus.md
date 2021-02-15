@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Кипр
+title: Платежная информация для Кипра
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 06d350d168d4cdf2766c150ca6fa665974542fdc
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,17 +20,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48637275"
 ---
-# <a name="payment-information-for-cyprus"></a>Сведения об оплате для Кипр
+# <a name="payment-information-for-cyprus"></a>Платежная информация для Кипра
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Платите только в EUR, а номера счетов-фактуры на предъявление к оплате платежей.
+Оплата только в есвеях и справочные номера счета-фактуры для оплаты.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**Код SWIFT/БИК:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Swift/BIC Code:** THEGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Код сортировки:** 185008  
-**Номер счета:** 12207591  
-**Имя учетной записи:** КОРПОРАЦИ  
+**Код СОРТИРОВКИ:** 185008  
+**Номер учетной записи:** 12207591  
+**Имя учетной записи:** МАЙКРОСОФТ  

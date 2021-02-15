@@ -24,9 +24,9 @@ ms.locfileid: "48399447"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Предварительные требования к удостоверениям и доступу к устройствам для синхронизации хэша паролей в тестовой среде Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать только для Microsoft 365 для тестовых сред предприятия.*
+*Это руководство по лаборатории тестирования можно использовать только для Microsoft 365 для корпоративных тестовых сред.*
 
-[Конфигурации доступа для удостоверений и устройств](../security/office-365-security/microsoft-365-policies-configurations.md) — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам в Microsoft 365 для предприятий, интегрированных с Azure Active Directory (Azure AD).
+[](../security/office-365-security/microsoft-365-policies-configurations.md) Конфигурации доступа к удостоверениям и устройствам — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам в Microsoft 365 для предприятий, интегрированным с Azure Active Directory (Azure AD).
 
 В этой статье описано, как настроить тестовую среду Microsoft 365, соответствующую требованиям [предварительной настройки Active Directory с синхронизацией хэша паролей](../security/office-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам.
 
@@ -120,10 +120,10 @@ ms.locfileid: "48399447"
 
 [Руководства по лаборатории тестирования для дополнительного удостоверения](m365-enterprise-test-lab-guides.md#identity)
 
-[Схема удостоверений](identity-roadmap-microsoft-365.md)
+[План удостоверений](identity-roadmap-microsoft-365.md)
 
 [Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Документация по Microsoft 365 для предприятий](https://docs.microsoft.com/microsoft-365-enterprise/)

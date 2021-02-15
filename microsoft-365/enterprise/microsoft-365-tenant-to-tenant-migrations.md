@@ -1,5 +1,5 @@
 ---
-title: Миграция между клиентами и клиентами Microsoft 365
+title: Миграция между клиентами Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,7 +17,7 @@ search.appverid:
 ms.assetid: eb45fd8b-1d5d-4b0c-9c5a-479dbb176e7d
 f1.keywords:
 - NOCSH
-description: Сведения о переносе клиентов Microsoft 365.
+description: Узнайте, как перенести клиенты Microsoft 365.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 17aabbd945c6dec699384eb9f203029255ae62f6
 ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
@@ -26,23 +26,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/13/2020
 ms.locfileid: "48447154"
 ---
-# <a name="microsoft-365-tenant-to-tenant-migrations"></a>Миграция между клиентами и клиентами Microsoft 365
+# <a name="microsoft-365-tenant-to-tenant-migrations"></a>Миграция между клиентами Microsoft 365
 
-Существует несколько подходов к архитектуре для слияния, приобретения, дивеститурес и других сценариев, которые могут привести к переносу существующего клиента Microsoft 365 в новый клиент. Большинство клиентов работают с консалтинговой службой Майкрософт или партнером корпорации Майкрософт для переноса клиентов, в том числе с помощью сторонних средств для переноса контента. 
+Существует несколько подходов к архитектуре для слияний, приобретений, инквизиалов и других сценариев, которые могут привести к переносу существующего клиента Microsoft 365 в новый клиент. Большинство клиентов работают с консультационными службами Майкрософт или партнерами Майкрософт для переноса клиентов, включая использование сторонних средств для переноса контента. 
 
-Используйте [модель архитектуры миграции "клиент — клиент](../downloads/Microsoft-365-tenant-to-tenant-migration.pdf) ", чтобы определить, как планировать миграцию между клиентами и клиентами Microsoft 365 и действиями по переносу.
+Используйте модель [архитектуры](../downloads/Microsoft-365-tenant-to-tenant-migration.pdf) миграции "клиент-клиент", чтобы понять, как планировать миграцию между клиентом Microsoft 365 и как ее этапы.
 
-[![Модель миграции "клиент — клиент"](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](../downloads/Microsoft-365-tenant-to-tenant-migration.pdf) 
+[![Модель миграции между клиентом](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](../downloads/Microsoft-365-tenant-to-tenant-migration.pdf) 
 
-Вы также можете скачать эту модель в форматах [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) или [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) и распечатать ее на бумаге размера Letter, Legal или таблоид (11 x 17).
+Вы также можете скачать эту модель в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) или [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) и распечатать ее на бумаге с буквами, юридическими или таблоиданными (11 x 17).
 
-Эта модель предоставляет рекомендации и начальные точки для планирования с разделами по следующим вопросам:
+Эта модель предоставляет рекомендации и отправную точку для планирования с разделами по:
 
-- Сопоставление бизнес-сценариев с подходами архитектуры
+- Сопоставление бизнес-сценариев с подходами к архитектуре
 - Особенности дизайна
 
 Эта модель также содержит подробные примеры:
 
-- Поток миграции одного события
-- Поэтапный процесс миграции
-- Перемещение или разбиение клиента
+- Один поток миграции событий
+- Поэтапный поток миграции
+- Перемещение или разделение потока клиента

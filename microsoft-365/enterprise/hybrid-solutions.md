@@ -17,7 +17,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
-description: Содержит список ссылок на полезную информацию для развертывания рабочих нагрузок Office Server в Microsoft Azure.
+description: Содержит список ссылок на полезные сведения о развертывании рабочих нагрузок Office Server в Microsoft Azure.
 ms.openlocfilehash: ba294b437d815c81c7747f60b2a82ca0bef05e7a
 ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "48327919"
 ---
 # <a name="hybrid-solutions"></a>Гибридные решения
 
-С помощью Microsoft Azure можно развернуть некоторые рабочие нагрузки Office Server, которые обычно разворачиваются локально в службах инфраструктуры Azure.
+С помощью Microsoft Azure можно развернуть некоторые рабочие нагрузки Office Server, которые обычно развертывались локально в службах инфраструктуры Azure.
   
 Для инфраструктуры удостоверений Microsoft 365 в Azure:
 

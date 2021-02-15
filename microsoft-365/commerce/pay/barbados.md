@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Барбадоса
+title: Платежная информация для Барнадо
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: d6d0c9dcd1e5dcafecce95b1ab30ef54301b45f2
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48637899"
 ---
-# <a name="payment-information-for-barbados"></a>Сведения об оплате для Барбадоса
+# <a name="payment-information-for-barbados"></a>Платежная информация для Барнадо
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Платите только USD и указываете номера счетов-фактур на предъявление к оплате счетов.
+Вы платите только в долларах США и ссылайтесь на свои номера счета-фактуры в счете-фактуре.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Банк Америка  
-**Ветвь:** Офиса  
+**Bank:** Банк Америки  
+**Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
-**Номер счета:** 4426587954  
-**Имя учетной записи:** Корпораци  
+**Номер учетной записи:** 4426587954  
+**Имя учетной записи:** Майкрософт  

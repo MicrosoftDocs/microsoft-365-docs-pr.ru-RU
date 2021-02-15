@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 3154c0a84e4f9efe947a57a4ac646d916dc6c13a
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -22,22 +22,22 @@ ms.locfileid: "48639207"
 ---
 # <a name="contact-support-for-timor-leste"></a>Обратитесь в службу поддержки Timor-Leste
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
-+ 1 312 843 5155
++1 312 843 5155
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Португальский (Бразилия): Mon-Fri 9 PM – 5 AM
+Португальский: Mon-Fri 9:00–5:00
 
-Английский: Mon-Fri 9 PM – 5 AM
+Английский: Mon-Fri 9:00–5:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Португальский (Бразилия): 24 часа в день от полудня до полудня
+Португальский: 24 часа в сутки между 12:00 и 22:00
 
 Английский: круглосуточно, без выходных
 
-Применяются тарифы на международные звонки
+Применяются платежи за международные вызовы
