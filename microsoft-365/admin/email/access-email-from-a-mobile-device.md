@@ -16,7 +16,7 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
-description: Узнайте, как получать доступ к электронной почте с мобильного устройства.
+description: Узнайте, как получить доступ к электронной почте с мобильного устройства.
 ms.openlocfilehash: 1c1033d98d9035767e9d7d8608a33421c7c30cbd
 ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT

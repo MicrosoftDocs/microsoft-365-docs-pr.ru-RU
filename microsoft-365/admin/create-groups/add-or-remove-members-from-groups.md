@@ -117,6 +117,6 @@ ms.locfileid: "49663247"
 
 - [Управление гостевим доступом в группах Microsoft 365](manage-guest-access-in-groups.md)
 
-- [Управление группами Microsoft 365 с помощью PowerShell:](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)в этой статье вы познакомились с ключевыми cmdlets и приводите примеры
+- [Управление группами Microsoft 365 с помощью PowerShell:](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)в этой статье вы познакомите вас с ключевыми и примерами
 
 - [Политика именования групп Microsoft 365](groups-naming-policy.md)

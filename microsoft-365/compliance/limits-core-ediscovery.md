@@ -26,7 +26,7 @@ ms.locfileid: "49799666"
 ---
 # <a name="limits-in-core-ediscovery"></a>Ограничения в core eDiscovery
 
-В следующей таблице перечислены ограничения для основных дел eDiscovery и случаев, связанных с основным делом eDiscovery. Дополнительные сведения о core eDiscovery см. в [обзоре core eDiscovery.](ediscovery-cases.md)
+В следующей таблице перечислены ограничения для основных дел eDiscovery и дел, связанных с основным делом eDiscovery. Дополнительные сведения о core eDiscovery см. в [обзоре core eDiscovery.](ediscovery-cases.md)
     
   | Описание ограничения | Ограничение |
   |:-----|:-----|

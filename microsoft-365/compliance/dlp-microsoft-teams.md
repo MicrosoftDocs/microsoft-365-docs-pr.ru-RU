@@ -25,7 +25,7 @@ ms.locfileid: "49840586"
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Предотвращение потери данных и Microsoft Teams
 
 > [!NOTE]
-> Функции защиты от потери данных были недавно добавлены в сообщения чатов и каналов Microsoft Teams для пользователей с лицензиями на Office 365 E5/A5, Microsoft 365 E5/A5, Microsoft 365 Information Protection и Управление или Office 365 Advanced Compliance. Office 365 и Microsoft 365 E3 включают защиту от lp для SharePoint Online, OneDrive и Exchange Online. Это также относится к файлам, которые совместно используются в Teams, так как Teams использует SharePoint Online и OneDrive для совместного использования файлов.
+> Возможности защиты от потери данных были недавно добавлены в сообщения чатов и каналов Microsoft Teams для пользователей с лицензиями на Office 365 E5/A5, Microsoft 365 E5/A5, Microsoft 365 Information Protection и управление или Office 365 Advanced Compliance. Office 365 и Microsoft 365 E3 включают защиту от lp для SharePoint Online, OneDrive и Exchange Online. Это также относится к файлам, которые совместно используются в Teams, так как Teams использует SharePoint Online и OneDrive для совместного использования файлов.
 Для поддержки защиты от lp в чате Teams требуется E5.
 Дополнительные сведения о требованиях к лицензированию см. в статье [Рекомендации по лицензированию служб на уровне клиента Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
@@ -34,10 +34,10 @@ ms.locfileid: "49840586"
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Обзор DLP для Microsoft Teams
 
-Недавно возможности защиты [от](data-loss-prevention-policies.md) потери данных (DLP) были расширены и включали сообщения в чатах и каналах Microsoft Teams, включая сообщения **в частных каналах.**
+Недавно возможности защиты [от](data-loss-prevention-policies.md) потери данных (DLP) были расширены и включали сообщения в чатах и каналах Microsoft Teams, включая сообщения в **частных каналах.**
 
 
-Если в вашей организации имеется политика DLP, вы можете определить политики, которые препятствуют обмену конфиденциальной информацией в канале Microsoft Teams или сеансе чата. Вот несколько примеров работы этой защиты.
+Если в вашей организации имеется политика DLP, вы можете определить политики, которые препятствуют обмену конфиденциальной информацией в канале Microsoft Teams или сеансе чата. Вот несколько примеров работы этой защиты:
 
 - **Пример 1. Защита конфиденциальной информации в сообщениях.** Предположим, что кто-то пытается поделиться конфиденциальной информацией в чате или канале Teams с гостями (внешними пользователями). Если для предотвращения этой ситуации определена политика DLP, сообщения с конфиденциальной информацией, от отправленной внешним пользователям, удаляются. Это происходит автоматически и в течение нескольких секунд в соответствии с настройкой политики DLP.
 
@@ -50,7 +50,7 @@ ms.locfileid: "49840586"
 
 Аналогично тому, как DLP работает в [Exchange, Outlook, Outlook в](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)Интернете, [SharePoint Online,](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)на сайтах OneDrive для бизнеса и классических клиентах [Office,](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)подсказки политики отображаются при конфликте действия с политикой DLP. Вот пример подсказки политики:
 
-![Уведомление о заблокированных сообщениях в Teams](../media/dlp-teams-blockedmessage-notification.png)
+![Уведомление о блокировке сообщений в Teams](../media/dlp-teams-blockedmessage-notification.png)
 
 В этом случае отправитель попытался поделиться номером социального обеспечения в канале Microsoft Teams. Ссылка **"Что можно сделать?"** открывает диалоговое окно, в которое отправитель может разрешить проблему. Обратите внимание, что в этом случае отправитель может переопредить политику или уведомить администратора о том, что необходимо просмотреть и устранить ее.
 
@@ -99,7 +99,7 @@ ms.locfileid: "49840586"
 
 5. На **вкладке "Выбор местоположений"** оохраняйте параметр по умолчанию для всех учетных записей или выберите "Let **me choose specific locations"** (Выбор местоположений) и укажите, какие учетные записи необходимо включить или исключить. Затем нажмите кнопку **Далее**.
 
-6. Щелкните **Сохранить**.
+6. Нажмите кнопку **Сохранить**.
 
 В течение примерно одного часа изменения проходят через центр обработки данных и синхронизируются с учетной записью пользователя.
 <!-- again, why user accounts? -->
@@ -130,7 +130,7 @@ ms.locfileid: "49840586"
 
 8. On the **Policy settings** tab, under **Do you want to turn on the policy or test things out first?**, choose whether to turn the policy on, [test it first](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode), or keep it turned off for now, and then choose **Next**.<br/>![Укажите, следует ли включить политику](../media/dlp-teams-policysettings-turnonnow.png)<br/>
 
-9. На **вкладке "Просмотр параметров"** просмотрите параметры новой политики. Выберите **"Изменить",** чтобы внести изменения. Когда все будет готово, выберите **"Создать".**
+9. На **вкладке "Просмотр параметров"** просмотрите параметры новой политики. Выберите **"Изменить",** чтобы внести изменения. По завершению выберите **"Создать".**
 
 Разрешите приблизительно один час, чтобы новая политика прошла через центр обработки данных и синхронизировала учетные записи пользователей.
 

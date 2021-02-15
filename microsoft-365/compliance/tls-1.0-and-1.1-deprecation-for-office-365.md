@@ -49,7 +49,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\W
 > [!NOTE]
 > С 31 октября 2018 г. затронут пользователи Windows 7, у которых нет этого обновления. [В KB 3140245](https://support.microsoft.com/help/3140245) есть сведения об изменении параметров WINHTTP, чтобы включить протоколы TLS.
 
-#### <a name="more-information"></a>Дополнительная информация
+#### <a name="more-information"></a>Дополнительные сведения
 
 Значение ключа реестра **DefaultSecureProtocols,** описанного в статье КБ, определяет, какие сетевые протоколы можно использовать:
 
