@@ -17,7 +17,7 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Используйте Windows PowerShell для получения сведений об основных мобильных устройствах и устройствах безопасности в организации.
+description: Используйте Windows PowerShell для получения сведений об устройствах Basic Mobility and Security в организации.
 ms.openlocfilehash: 7c6a0365dfd573377c3675bbcee8ee8280e33816
 ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
@@ -78,7 +78,7 @@ ms.locfileid: "49876892"
 ### <a name="step-3-make-sure-youre-able-to-run-powershell-scripts"></a>Шаг 3. Убедитесь, что вы можете запускать сценарии PowerShell
 
 >[!NOTE]
->Этот шаг можно пропустить, если вы уже настроены на запуск сценариев PowerShell.
+>Этот шаг можно пропустить, если вы уже настроены для запуска сценариев PowerShell.
 
 Чтобы запустить сценарий Get-MsolUserDeviceComplianceStatus.ps1, необходимо включить запуск сценариев PowerShell.
 
@@ -90,7 +90,7 @@ ms.locfileid: "49876892"
 
 3. При запросе введите Y и нажмите ввод.
 
-**Запустите Get-MsolDevice для отображения сведений о всех устройствах в организации**
+**Запуск Get-MsolDevice для отображения сведений о всех устройствах в организации**
 
 1. Откройте модуль Microsoft Azure Active Directory для Windows PowerShell.  
 

@@ -109,10 +109,10 @@ ms.locfileid: "49926922"
     
 - Встраив изображения в подписи электронной почты
     
-- Пропускать строки, содержащие переменные, которые не удалось обновить (например, из-за того, что значение не было предоставлено для пользователя)
+- Пропускать строки, содержащие переменные, которые не удалось обновить (например, из-за того, что значение не было предоставлено пользователю)
     
 Чтобы получить эти и другие возможности для управления подписями электронной почты, воспользуйтесь сторонним средством. Please do an internet search for **email signature software**. Некоторые из этих поставщиков являются партнерами Microsoft Gold, и их программное обеспечение предоставляет эти возможности. 
   
 ## <a name="more-resources"></a>Дополнительные ресурсы
 
-- Сведения об использовании PowerShell см. в документах Об отказе от ответственности, подписях, footers или [headers](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) в Exchange Online для всей организации.
+- Сведения об использовании PowerShell см. в документах об отказе от ответственности, подписях, footers или [headers](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) в Exchange Online для всей организации.

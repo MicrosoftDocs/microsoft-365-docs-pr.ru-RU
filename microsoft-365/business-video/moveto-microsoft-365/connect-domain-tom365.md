@@ -42,7 +42,7 @@ ms.locfileid: "49925114"
 1. Во sign into your Google Workspace admin console at [admin.google.com](https://admin.google.com).
 1. Select **Domains**, **Manage domains**, **View details**, Manage **domain**, then **DNS** in the left nav.
 1. Прокрутите вниз до **искусственных записей,** откройте **Google Workspace,** выберите **"Удалить"** и **"Удалить** еще раз".
-1. **Прокрутите** вниз до пользовательских записей ресурсов и удалите все существующие записи DNS, которые отображаются, включая те, которые вы могли создать ранее для Microsoft 365.
+1. **Прокрутите** вниз до пользовательских записей ресурсов и удалите все существующие записи DNS, которые отображаются, включая те, которые вы ранее создали для Microsoft 365.
 1. Перейдите в [Центр администрирования Microsoft 365.](https://admin.microsoft.com)
 1. In the left nav, choose, **Show all**, **Settings**, **Domains**.
 1. Затем выберите домен по умолчанию.

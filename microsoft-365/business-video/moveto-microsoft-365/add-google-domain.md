@@ -41,7 +41,7 @@ ms.locfileid: "49925006"
 1. In the Microsoft 365 Admin Center, in the left nav, select **Show all**, **Settings** and then **Domains**.
 1. Choose **Add domain**, enter your domain name then select Use this **domain**. 
 1. Choose, **Add a TXT record to the domains DNS records,** select **Continue**, and copy the TXT value. 
-1. Go back to the [Google Admin Console](https://admin.google.com), choose Domains , Manage **domains**, View **Details**, **Manage domain**, **DNS**, and then scroll down to **Custom resource records**.  
+1. Go back to the [Google Admin Console,](https://admin.google.com)choose **Domains**, Manage **domains**, **View Details**, **Manage domain**, **DNS**, and then scroll down to **Custom resource records**. 
 1. Откройте в drop-down тип записи, выберите **TXT,** введите значение TXT, скопированные, а затем выберите **"Добавить".** 
 
     Обновление обычно занимает несколько минут, но может занять до 48 часов. 

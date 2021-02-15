@@ -28,7 +28,7 @@ ms.locfileid: "49864880"
 
 Портал — это сайт SharePoint в вашей интрасети, у которого есть большое количество посетителей сайта, использующих его содержимое. Запуск портала волнами является важной частью обеспечения у пользователей плавного и емких способов доступа к новому порталу SharePoint Online. 
 
-Запуск в волны — это ключевой способ выкатить портал, как описано в планировании плана запуска портала в [SharePoint Online.](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide) Планер запуска портала предназначен для того, чтобы помочь вам следовать подходу к поэтапному или волновому выпуску, управляя перенаправлениями для нового портала. Во время каждой волны можно собирать отзывы пользователей и отслеживать производительность во время каждой волны развертывания. Это дает возможность постепенно внедрять портал, предоставляя возможность приостановить и устранить проблемы перед тем, как двигаться к следующей волне, и в конечном итоге обеспечить положительное впечатление для пользователей. 
+Запуск в волны — это ключевой способ выкатить портал, как описано в планировании плана запуска портала в [SharePoint Online.](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide) Планер запуска портала предназначен для того, чтобы помочь вам следовать подходу к поэтапному или волновому выпуску, управляя перенаправлениями для нового портала. Во время каждой волны можно собирать отзывы пользователей и отслеживать производительность во время каждой волны развертывания. Преимущество этого заключается в том, что вы постепенно вводите портал, даете возможность приостановить и устранить проблемы перед тем, как двигаться к следующей волне, и в конечном итоге обеспечить положительное впечатление для пользователей. 
 
 Существует два типа перенаправления: 
 - двухнаправленный запуск нового современного портала SharePoint Online для замены существующего классического или современного портала SharePoint 
@@ -80,7 +80,7 @@ ms.locfileid: "49864880"
     New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
     ```
 
-Пример:
+Пример.
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType Bidirectional -RedirectUrl "https://contoso.sharepoint.com/teams/oldsite" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
 [{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
@@ -100,7 +100,7 @@ ms.locfileid: "49864880"
     New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
     ```
 
-Пример:
+Пример.
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType ToTemporaryPage -RedirectUrl "https://portal.contoso.com/UnderConstruction.aspx" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
 [{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
@@ -117,7 +117,7 @@ ms.locfileid: "49864880"
    ```PowerShell
    Set-SPOPortalLaunchWaves -Status Pause - LaunchSiteUrl <object>
    ```
-2. Проверка перенаправления всех пользователей на старый сайт. 
+2. Проверьте перенаправление всех пользователей на старый сайт. 
 
 3. Чтобы перезапустить приостановленный запуск портала, запустите следующую команду:
 
@@ -137,5 +137,5 @@ ms.locfileid: "49864880"
 
 2. Проверьте, не происходит ли перенаправление для всех пользователей.
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 [Планирование плана запуска портала в SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out)

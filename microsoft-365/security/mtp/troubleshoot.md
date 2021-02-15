@@ -45,7 +45,7 @@ ms.locfileid: "49925722"
 
 ## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Оповещения Microsoft Defender для удостоверений не отображаются в инцидентах Защитника Microsoft 365
 
-Если в вашей среде развернут Microsoft Defender для удостоверений, но оповещения Защитника удостоверений не видятся как часть инцидентов в Microsoft 365 Defender, необходимо убедиться, что интеграция Microsoft Cloud App Security и Защитника удостоверений включена.
+Если в вашей среде развернут Microsoft Defender для удостоверений, но оповещения Защитника удостоверений не видятся как часть инцидентов в Microsoft 365 Defender, необходимо убедиться, что интеграция Microsoft Cloud App Security и Defender для удостоверений включена.
 
 Дополнительные сведения см. в [microsoft Defender для интеграции удостоверений.](https://docs.microsoft.com/cloud-app-security/mdi-integration)
 

@@ -37,7 +37,7 @@ ms.locfileid: "49925056"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Схема [повышенной охоты](advanced-hunting-overview.md) состоит из нескольких таблиц, которые предоставляют сведения о событиях или сведения об устройствах, оповещениях, удостоверениях и других типах сущений. Для эффективного построения запросов, охватывающих несколько таблиц, необходимо понимать, что такое таблицы и столбцы в схеме расширенной охоты на угрозы
+Схема [повышенной](advanced-hunting-overview.md) охоты состоит из нескольких таблиц, которые предоставляют сведения о событиях или сведения об устройствах, оповещениях, удостоверениях и других типах сущений. Для эффективного построения запросов, охватывающих несколько таблиц, необходимо понимать, что такое таблицы и столбцы в схеме расширенной охоты на угрозы
 
 ## <a name="get-schema-information-in-the-security-center"></a>Получить сведения о схеме в Центре безопасности
 При построении запросов используйте встроенную ссылку на схему, чтобы быстро получить следующие сведения о каждой таблице в схеме:
@@ -60,9 +60,9 @@ ms.locfileid: "49925056"
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Файлы, IP-адреса, URL-адреса, пользователи или устройства, связанные с оповещениями |
 | **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Оповещения из Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender для удостоверений, включая сведения о серьезности и категоризации угроз  |
 | **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | Действия, связанные с файлами, в облачных приложениях и службах |
-| **[CloudAppEvents](advanced-hunting-cloudappevents-table.md)** | События, включающие учетные записи и объекты в Office 365 и других облачных приложениях и службах |
+| **[CloudAppEvents](advanced-hunting-cloudappevents-table.md)** | События, связанные с учетными записями и объектами в Office 365 и других облачных приложениях и службах |
 | **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Несколько типов событий, в том числе события, запускаемые такими элементами управления безопасностью, как антивирусная программа "Защитник Windows" и защита от эксплойтов |
-| **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Сведения о сертификате подписанных файлов, полученных из событий проверки сертификатов на конечных точках |
+| **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Сведения о сертификате подписанных файлов, полученных из событий проверки сертификата на конечных точках |
 | **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Создание файла, изменение и другие события файловой системы |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | События загрузки библиотек DLL |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Сведения о компьютере, в том числе данные об ОС |
@@ -84,7 +84,7 @@ ms.locfileid: "49925056"
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности в Active Directory и веб-службах Майкрософт |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Запросы объектов Active Directory, таких как пользователи, группы, устройства и домены |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

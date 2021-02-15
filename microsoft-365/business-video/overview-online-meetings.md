@@ -71,7 +71,7 @@ ms.locfileid: "49926130"
  
 ## <a name="3-have-an-impromptu-meeting"></a>3. Импровизированный собрание
 
-Вы можете легко преобразовать чат в Microsoft Teams в собрание. Просто выберите **кнопку "Видеозвук"** или :::image type="icon" source="../media/video-call-icon.png" border="false":::  :::image type="icon" source="../media/audio-call-icon.png" border="false"::: "Аудиозвук", чтобы начать вызов. Вы также можете добавить к вызову людей, если он должен превратиться в групповое обсуждение.
+Вы можете легко преобразовать чат в Microsoft Teams в собрание. Просто выберите **кнопку "Видеозвук"** или :::image type="icon" source="../media/video-call-icon.png" border="false":::  :::image type="icon" source="../media/audio-call-icon.png" border="false"::: "Аудиозвук", чтобы начать вызов. Вы также можете добавить людей к вызову, если он должен превратиться в групповое обсуждение.
 
 Нужна помощь? См. [Начните звонок из чата в Teams.](https://support.microsoft.com/office/f5138c9d-df4c-43d8-9cf6-53400c1a7798)
 

@@ -34,18 +34,18 @@ ms.locfileid: "49926106"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtn3I?autoplay=false]
 
-Microsoft Defender для Office 365 (прежнее название — Microsoft 365 ATP) или Advanced Threat Protection помогает защитить вашу бизнес от файлов, содержащих вредоносное содержимое в Outlook, OneDrive, SharePoint и Teams.
+Microsoft Defender для Office 365 ( прежнее название — Microsoft 365 ATP или Advanced Threat Protection) помогает защитить бизнес от файлов, содержащих вредоносное содержимое в Outlook, OneDrive, SharePoint и Teams.
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
-1. Перейдите в Центр [администрирования и](https://admin.microsoft.com)выберите **"Настройка".**
+1. Перейдите в Центр [администрирования](https://admin.microsoft.com)и выберите **"Настройка".**
 1. Прокрутите **вниз, чтобы повысить защиту от сложных угроз.** Выберите **"Просмотр",** **"Управление"** и **"Безопасные вложения ATP".**
 1. Выберите правило безопасных вложений и выберите **значок** редактирования.
 1. Выберите **параметры** и убедитесь, что выбран блок.
 1. Прокрутите вниз. Choose **Enable redirect**, and enter your email address or the address of the person you want to review the blocked attachments.
 1. Выберите **"Применено",** а затем выберите доменное имя.
 1. Выберите все собственные дополнительные домены (например, onmicrosoft.com домена), к которые вы хотите применить правило. Выберите **"Добавить"** и **"ОК".**
-1. Выберите **Сохранить**.
+1. Нажмите **Сохранить**.
 
 Правило безопасных вложений ATP обновлено.
 

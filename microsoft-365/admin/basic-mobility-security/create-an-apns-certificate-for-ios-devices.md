@@ -1,5 +1,5 @@
 ---
-title: Создание сертификата APNs для устройств с iOS
+title: Создание сертификата APN для устройств с iOS
 f1.keywords: NOCSH
 ms.author: kwekua
 author: kwekua
@@ -21,7 +21,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/15/2021
 ms.locfileid: "49877084"
 ---
-# <a name="create-an-apns-certificate-for-ios-devices"></a>Создание сертификата APNs для устройств с iOS
+# <a name="create-an-apns-certificate-for-ios-devices"></a>Создание сертификата APN для устройств с iOS
 
 Для управления устройствами iOS, такими как iPad и iPhone, в basic Mobility and Security создайте сертификат APNs.
 

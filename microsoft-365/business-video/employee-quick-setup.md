@@ -73,7 +73,7 @@ ms.locfileid: "49927254"
     > [!TIP]
     > Вы также можете хранить файлы на [сайтах](https://support.microsoft.com/office/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e) в Microsoft 365.
 
-## <a name="5-share-documents"></a>5. Совместное документам
+## <a name="5-share-documents"></a>5. Совместное документами
 
 1. Поделитесь своими документами с другими пользователями, выбрав команду **Поделиться**.
 

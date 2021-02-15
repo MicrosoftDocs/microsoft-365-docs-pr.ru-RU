@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как найти справку для администраторов Microsoft 365 бизнес премиум.
+description: Узнайте, как найти справку администратора для Microsoft 365 бизнес премиум.
 ms.openlocfilehash: 3eaf5d63d681076386643e28f0270ae5cd532971
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT

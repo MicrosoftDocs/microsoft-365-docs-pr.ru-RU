@@ -36,14 +36,14 @@ ms.locfileid: "49876952"
 2. В браузере введите:  [https://protection.office.com](https://protection.office.com/) .    
 
     >[!IMPORTANT]
-    >Если вы впервые используете Basic Mobility and Security для Microsoft 365 business Standard, активируйте его здесь: [Activate Basic Security and Mobility](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx). После активации системы управляйте устройствами с помощью [office 365 Security & Compliance.](https://protection.office.com/)
+    >Если вы впервые используете Basic Mobility and Security для Microsoft 365 business Standard, активируйте его здесь: [Активация базовой безопасности и мобильности.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx) После активации системы управляйте устройствами с помощью [office 365 Security & Compliance.](https://protection.office.com/)
 
-3. Перейдите в >политики  **** устройств управления устройствами и выберите "Управление настройками доступа устройств для всей   >  **** **организации".**
+3. Перейдите в >политики  **** устройств управления устройствами и выберите параметры управления доступом к устройствам для всей   >  **** **организации.**
 
 4. Выберите **блок**.
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="Элемент блокировки доступа Basic Mobility and Security":::
+    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="Контрольный элемент блокировки доступа Basic Mobility and Security":::
 
-5. Выберите **"Сохранить"**.
+5. Выберите **"Сохранить"**
 
 Чтобы узнать, какие устройства поддерживаются в Basic Mobility and Security, см. ["Возможности базовой мобильности и безопасности".](capabilities.md)

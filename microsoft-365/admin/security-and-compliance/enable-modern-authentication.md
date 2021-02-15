@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: Узнайте, как настроить ключи реестра, чтобы включить современную проверку подлинности для устройств, на Microsoft Office 2013.
+description: Узнайте, как настроить ключи реестра, чтобы включить современную проверку подлинности для устройств с Microsoft Office 2013.
 ms.openlocfilehash: 34078291fa237b63c391a7e90ba06ea0085c37cb
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
