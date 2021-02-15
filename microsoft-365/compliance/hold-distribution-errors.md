@@ -24,6 +24,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/04/2021
 ms.locfileid: "50099836"
 ---
-# <a name="troubleshoot-ediscovery-hold-errors"></a><span data-ttu-id="54e7c-103">Устранение ошибок удержания при обнаружении электронных данных</span><span class="sxs-lookup"><span data-stu-id="54e7c-103">Troubleshoot eDiscovery hold errors</span></span>
+# <a name="troubleshoot-ediscovery-hold-errors"></a><span data-ttu-id="4b0a9-103">Устранение ошибок удержания при обнаружении электронных данных</span><span class="sxs-lookup"><span data-stu-id="4b0a9-103">Troubleshoot eDiscovery hold errors</span></span>
 
-<span data-ttu-id="54e7c-104">начните добавлять содержимое здесь</span><span class="sxs-lookup"><span data-stu-id="54e7c-104">start adding content here</span></span>
+<span data-ttu-id="4b0a9-104">начните добавлять содержимое здесь</span><span class="sxs-lookup"><span data-stu-id="4b0a9-104">start adding content here</span></span>
