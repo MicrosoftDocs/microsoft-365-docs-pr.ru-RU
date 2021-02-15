@@ -40,7 +40,7 @@ ms.locfileid: "49656859"
   
 ## <a name="create-the-dns-record"></a>Создание DNS-записи
 
-1. В консоли [администратора Google](https://www.google.com/work/apps/business)выберите **"Вход".**
+1. В консоли [администратора Google](https://www.google.com/work/apps/business)выберите **"Войти"**.
     
     ![Google-Apps-Configure-1-1-0](../../media/37a6e9f6-319e-4c02-aa18-d8d06df7953d.png)
   

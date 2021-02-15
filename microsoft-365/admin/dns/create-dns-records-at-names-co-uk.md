@@ -141,7 +141,7 @@ ms.locfileid: "49657819"
     
     ![NamesUK-BP-Configure-2-4](../../media/cd705919-d0bd-408f-82be-b54e732cb05c.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавьте шесть записей CNAME, необходимых для Корпорации Майкрософт
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавление шести записей CNAME, необходимых для Корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Names.co.uk по [этой ссылке](https://account.names.co.uk/dashboard#/). Сначала вам потребуется выполнить вход.

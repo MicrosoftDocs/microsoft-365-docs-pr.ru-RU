@@ -1,5 +1,5 @@
 ---
-title: Создание записей DNS для name.com майкрософт
+title: Создание записей DNS для Name.com майкрософт
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -28,7 +28,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 12/11/2020
 ms.locfileid: "49657831"
 ---
-# <a name="create-dns-records-at-namecom-for-microsoft"></a>Создание записей DNS для Name.com майкрософт
+# <a name="create-dns-records-at-namecom-for-microsoft"></a>Создание записей DNS для name.com майкрософт
 
  **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   

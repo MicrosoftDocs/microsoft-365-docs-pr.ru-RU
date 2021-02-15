@@ -39,7 +39,7 @@ ms.locfileid: "49657807"
   
 - [Добавление записи TXT для проверки](#add-a-txt-record-for-verification)
     
-- [Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт.](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
+- [Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
 
 - [Добавление записей CNAME, необходимых для продуктов корпорации Майкрософт](#add-the-cname-records-that-are-required-for-microsoft)
     

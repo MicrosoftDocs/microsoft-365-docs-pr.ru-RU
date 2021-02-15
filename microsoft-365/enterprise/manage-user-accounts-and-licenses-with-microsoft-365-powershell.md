@@ -16,7 +16,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
-description: Узнайте, как управлять учетными записями пользователей, лицензиями и группами Microsoft 365 с помощью PowerShell.
+description: Узнайте, как управлять учетными записями, лицензиями и группами Microsoft 365 с помощью PowerShell.
 ms.openlocfilehash: d3745b9365c67615efe32881408d1a717b8dbbed
 ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
@@ -26,9 +26,9 @@ ms.locfileid: "49371540"
 ---
 # <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>Управление учетными записями пользователей Microsoft 365, лицензиями и группами с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Администратору Microsoft 365 необходимо управлять учетными записями пользователей, лицензиями и группами. Несмотря на то, что большинство этих задач можно выполнить в центре администрирования Microsoft 365, некоторые из них более просты в PowerShell.
+Администраторам Microsoft 365 необходимо управлять учетной записью пользователя, лицензиями и группами. Хотя большинство этих задач можно выполнять в Центре администрирования Microsoft 365, некоторые из них проще выполнять в PowerShell.
 
 Дополнительные сведения см. в следующих статьях.
 
@@ -54,5 +54,5 @@ ms.locfileid: "49371540"
 
 ## <a name="groups"></a>Группы
 - [Управление группами безопасности](manage-security-groups-with-microsoft-365-powershell.md)
-- [Ведение членства в группе безопасности](maintain-group-membership-with-microsoft-365-powershell.md)
+- [Управление участием в группах безопасности](maintain-group-membership-with-microsoft-365-powershell.md)
 - [Управление группами Microsoft 365](manage-microsoft-365-groups-with-powershell.md)

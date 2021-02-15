@@ -35,7 +35,7 @@ ms.locfileid: "49657879"
 > [!CAUTION]
 > На веб-сайте Freenom не поддерживаются записи SRV, поэтому некоторые функции Skype для бизнеса Online и Outlook Web App не будут работать. Независимо от того, какой план Майкрософт вы используете, существуют значительные ограничения на обслуживание, и вам может потребоваться переключиться на другого поставщика услуг размещения DNS. 
   
-Если несмотря на ограничения служб, вы можете управлять своими записями DNS microsoft на сайте Freenom, следуя шагам в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты и других служб.
+Если несмотря на ограничения служб, вы решите управлять своими записями DNS microsoft на сайте Freenom, следуйте шагам в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты и других служб.
   
   
 > [!NOTE]
@@ -53,7 +53,7 @@ ms.locfileid: "49657879"
     
     ![Freenom login](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Выберите **"Службы"** и выберите **"Мои домены".**
+2. Выберите **"Службы",** а затем выберите **"Мои домены".**
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
@@ -61,7 +61,7 @@ ms.locfileid: "49657879"
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. Выберите **"Управление DNS Freenom".**
+4. Выберите **"Управление freenom DNS".**
     
     ![Freenom Manage Freenom DNS](../../media/9854a511-27e3-4658-8903-34b3d425096d.png)
   
@@ -112,7 +112,7 @@ ms.locfileid: "49657879"
     
     ![Freenom login](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Выберите **"Службы",** а затем выберите **"Мои домены".**
+2. Выберите **"Службы"** и выберите **"Мои домены".**
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
@@ -157,7 +157,7 @@ ms.locfileid: "49657879"
     
     ![Freenom login](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Выберите **"Службы"** и выберите **"Мои домены".**
+2. Выберите **"Службы",** а затем выберите **"Мои домены".**
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
@@ -165,7 +165,7 @@ ms.locfileid: "49657879"
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. Выберите **"Управление DNS Freenom".**
+4. Выберите **"Управление freenom DNS".**
     
     ![Freenom select Manage Freenom DNS](../../media/5e7bc3a7-0d5e-431b-bb27-da3b0f316d01.png)
   
@@ -203,7 +203,7 @@ ms.locfileid: "49657879"
     
     ![Freenom login](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Выберите **"Службы"** и выберите **"Мои домены".**
+2. Выберите **"Службы",** а затем выберите **"Мои домены".**
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
@@ -211,7 +211,7 @@ ms.locfileid: "49657879"
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. Выберите **"Управление DNS Freenom".**
+4. Выберите **"Управление freenom DNS".**
     
     ![Freenom select Manage Freenom DNS](../../media/94809955-0315-409c-a15d-703a2fe4c4ed.png)
   

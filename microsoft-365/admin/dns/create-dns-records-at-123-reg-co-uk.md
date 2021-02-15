@@ -114,7 +114,7 @@ ms.locfileid: "49658319"
     
     ![Выберите "Удалить" (значок корзины)](../../media/3be635e6-b591-49af-8430-a158272834b4.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавьте шесть записей CNAME, необходимых для Корпорации Майкрософт
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавление шести записей CNAME, необходимых для Корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте 123-reg.co.uk по [этой ссылке](https://www.123-reg.co.uk/secure/cpanel/domain/overview). Сначала вам потребуется выполнить вход.

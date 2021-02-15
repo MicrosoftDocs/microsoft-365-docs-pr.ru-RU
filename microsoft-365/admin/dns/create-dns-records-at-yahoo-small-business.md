@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
-description: Узнайте, как проверить свой домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб на сайте Yahoo! Малый бизнес для Майкрософт.
+description: Learn to verify your domain and set up DNS records for email, Skype for Business Online, and other services at Yahoo! Малый бизнес для Майкрософт.
 ms.openlocfilehash: 47b3b1f3a6e889d067d0166f872725aa3812a7b4
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
@@ -49,7 +49,7 @@ ms.locfileid: "49656907"
     
     ![Select I am not a robot](../../media/ded4b5dd-4e04-4baa-ae31-8426b5799151.png)
   
-3. Выберите **"Начало работы"**.
+3. Выберите **"Начало работы".**
     
     ![Выберите "Начало работы"](../../media/6674707d-c222-4f0d-bec4-229d39ab2499.png)
   

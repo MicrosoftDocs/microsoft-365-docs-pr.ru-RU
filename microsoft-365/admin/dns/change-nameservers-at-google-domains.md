@@ -165,7 +165,7 @@ ms.locfileid: "49658444"
    
    ![Google-Domains-BP-Redelegate-1-7](../../media/e008dccb-d789-4f52-8ecc-02831b7c6fb2.png)
   
-4. Выберите **кнопку +(add),** чтобы создать пустую строку. 
+4. Выберите **"+(add"),** чтобы создать пустую строку. 
     
     ![Google-Domains-BP-Redelegate-1-8](../../media/6ce40b1e-8464-443f-a64a-825dc8764590.png)
   

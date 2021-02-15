@@ -38,7 +38,7 @@ ms.locfileid: "49657783"
   
 - [Создание записей DNS для Майкрософт на сайте OVH](#create-dns-records-at-ovh-for-microsoft)
     
-- [Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт.](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
+- [Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
     
 - [Добавление записей CNAME, необходимых для продуктов корпорации Майкрософт](#add-the-cname-records-that-are-required-for-microsoft)
     
@@ -128,7 +128,7 @@ ms.locfileid: "49657783"
     
     ![OVH select DNS zone](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
-4. Выберите **"Добавить запись"**.
+4. Выберите **"Добавить запись".**
     
     ![OVH Add an entry](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   

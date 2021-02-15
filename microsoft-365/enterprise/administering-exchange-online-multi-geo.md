@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
-description: Сведения о том, как администрировать параметры Multi-Geo Exchange Online в среде Microsoft 365 с помощью PowerShell.
+description: Узнайте, как администрировать параметры Exchange Online с несколькими геообъегами в среде Microsoft 365 с помощью PowerShell.
 ms.openlocfilehash: 63eb1957611fd57e216012435188a6ddd1b232d3
 ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "49552011"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Администрирование почтовых ящиков Exchange Online в среде с поддержкой нескольких регионов
 
-Для просмотра и настройки свойств нескольких регионов в среде Microsoft 365 требуется Exchange Online PowerShell. Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+Exchange Online PowerShell необходим для просмотра и настройки свойств нескольких геообзоров в среде Microsoft 365. Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 Вам потребуется [модуль Microsoft Azure Active Directory PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) версии 1.1.166.0 или более поздней в версии 1.x, чтобы просматривать свойство **PreferredDataLocation** пользовательских объектов. Для пользовательских объектов, синхронизированных с помощью AAD Connect с AAD, нельзя изменить значение **PreferredDataLocation** непосредственно через AAD PowerShell. Через AAD PowerShell можно изменять объекты облачных пользователей. Сведения о подключении к Azure AD PowerShell см. в статье [Подключение к PowerShell](connect-to-microsoft-365-powershell.md).
 
@@ -31,15 +31,15 @@ ms.locfileid: "49552011"
 
 Требования для установки и использования модуля EXO V2 описаны в статье [Установка и обслуживание модуля EXO V2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module).
 
-Чтобы подключить Exchange Online PowerShell к определенному географическому расположению, параметр *ConnectionURI* отличается от стандартных инструкций подключения. Остальные команды и значения совпадают.
+Чтобы подключить Exchange Online PowerShell к определенному географическому расположению, параметр *ConnectionUri* отличается от инструкций по обычному подключению. Остальные команды и значения совпадают.
 
-В частности, необходимо добавить `?email=<emailaddress>` значение в конец значения _ConnectionURI_ . `<emailaddress>` адрес электронной почты **любого** почтового ящика в целевом географическом расположении. Ваши разрешения для этого почтового ящика или отношения с вашими учетными данными не являются факторами; адрес электронной почты просто сообщает Exchange Online PowerShell, к которой необходимо подключиться.
+В частности, необходимо добавить значение `?email=<emailaddress>` в конец _значения ConnectionUri._ `<emailaddress>` — это адрес электронной почты **любого почтового** ящика в целевом географическом расположении. Ваши разрешения на доступ к этому почтовому ящику или связь с учетными данными не являются фактором; Адрес электронной почты просто сообщает Exchange Online PowerShell, где необходимо подключиться.
 
-Пользователям Microsoft 365 или Microsoft 365 GCC обычно не требуется использовать параметр _ConnectionURI_ для подключения к Exchange Online PowerShell. Но чтобы подключиться к определенному географическому расположению, необходимо использовать параметр _ConnectionURI_ , чтобы можно было использовать `?email=<emailaddress>` его в значении.
+Как правило, пользователям Microsoft 365 или Microsoft 365 GCC не нужно использовать параметр _ConnectionUri_ для подключения к Exchange Online PowerShell. Но для подключения к определенному географическому расположению необходимо использовать параметр _ConnectionUri,_ чтобы использовать `?email=<emailaddress>` его в значении.
 
 ### <a name="connect-to-a-geo-location-in-exchange-online-powershell"></a>Подключение к географическому расположению в Exchange Online PowerShell
 
-Приведенные ниже инструкции по подключению работают для учетных записей, которые не настроены для многофакторной проверки подлинности (MFA).
+Следующие инструкции по подключению работают для учетных записей, которые настроены или не настроены для многофакторной проверки подлинности (MFA).
 
 1. В окне Windows PowerShell загрузите модуль EXO V2, выполнив следующую команду:
 
@@ -47,13 +47,13 @@ ms.locfileid: "49552011"
    Import-Module ExchangeOnlineManagement
    ```
 
-2. В следующем примере admin@contoso.onmicrosoft.com является учетной записью администратора, а целевой географическое расположение — там, где находится olga@contoso.onmicrosoft.com почтового ящика.
+2. В следующем примере admin@contoso.onmicrosoft.com учетной записью администратора, а в целевом географическом расположении находится почтовый olga@contoso.onmicrosoft.com почтовый ящик.
 
    ```powershell
    Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
    ```
 
-3. Введите пароль для admin@contoso.onmicrosoft.com в появившемся приглашении. Если учетная запись настроена для MFA, также необходимо ввести код безопасности.
+3. Введите пароль для admin@contoso.onmicrosoft.com в от всей подсказке. Если учетная запись настроена для MFA, необходимо также ввести код безопасности.
 
 ## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>Просмотр доступных географических расположений, настроенных в организации Exchange Online
 
@@ -102,7 +102,7 @@ MailboxRegionLastUpdateTime : 2/6/2018 8:21:01 PM
 ```
 
 > [!NOTE]
-> Если код географического расположения в имени базы данных не совпадает со значением **маилбоксрегион** , почтовый ящик будет автоматически помещен в очередь перемещения и перемещен в географическое расположение, заданное значением **Маилбоксрегион** (Exchange Online ищет несоответствие между этими значениями свойств).
+> Если код географического расположения в имени базы данных не соответствует значению **MailboxRegion,** почтовый ящик будет автоматически помещаться в очередь перемещения и перемещен в географическое расположение, указанное значением **MailboxRegion (Exchange** Online ищет несоответствие между этими значениями свойств).
 
 ## <a name="move-an-existing-cloud-only-mailbox-to-a-specific-geo-location"></a>Перемещение существующего облачного почтового ящика в определенное географическое расположение
 
@@ -142,39 +142,39 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 >   - Число перемещаемых почтовых ящиков.
 >   - Доступность ресурсов перемещения.
 
-### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>Перемещение неактивного почтового ящика в конкретный Geo
+### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>Перемещение неактивного почтового ящика в определенный геообназ
 
-Невозможно переместить Неактивные почтовые ящики, которые сохраняются в целях обеспечения соответствия (например, почтовые ящики на хранение для судебного разбирательства), изменив значение **преферреддаталокатион** . Чтобы переместить неактивный почтовый ящик в другой GEO, выполните следующие действия:
+Неактивные почтовые ящики, которые сохраняются в целях соответствия требованиям (например, почтовые ящики, для судебного удержания), нельзя перемещать, изменяя их значение **PreferredDataLocation.** Чтобы переместить неактивный почтовый ящик в другой геообназ, сделайте следующее:
 
-1. Восстановление неактивного почтового ящика. Инструкции приведены в статье [Восстановление неактивного почтового ящика](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox).
+1. Восстановите неактивный почтовый ящик. Инструкции см. в инструкциях [по восстановлению неактивного почтового ящика.](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox)
 
-2. Запретите обработку восстановленного почтового ящика помощником для управляемых папок, заменив \<MailboxIdentity\> его на имя, псевдоним, учетную запись или адрес электронной почты почтового ящика и выполнив следующую команду в [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell):
+2. Запретить помощнику по работе с управляемыми папками обрабатывать восстановленный почтовый ящик, заменяя имя, псевдоним, учетную запись или адрес электронной почты почтового ящика и выступая в \<MailboxIdentity\> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)с помощью следующей команды:
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $true
     ```
 
-3. Назначьте восстановленному почтовому ящику лицензию на **Exchange Online (план 2** ). Этот шаг необходим для обратного помещения почтового ящика на удержание для судебного разбирательства. Инструкции приведены в разделе [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+3. **Назначьте лицензию Exchange Online (план 2)** для восстановленного почтового ящика. Это необходимо для того, чтобы вернуть почтовый ящик на удержание для судебного разбирательства. Инструкции см. в [подсети "Назначение лицензий пользователям".](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
-4. Настройте значение **преферреддаталокатион** для почтового ящика, как описано в предыдущем разделе.
+4. Настройте значение **PreferredDataLocation** для почтового ящика, как описано в предыдущем разделе.
 
-5. После подтверждения перемещения почтового ящика в новое географическое расположение восстановленный почтовый ящик обратно на удержание для судебного разбирательства. Инструкции приведены в разделе [Помещение почтового ящика на удержание для судебного разбирательства](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold).
+5. После подтверждения того, что почтовый ящик перемещен в новое географическое расположение, поместите восстановленный почтовый ящик на удержание для судебного разбирательства. Инструкции см. в инструкциях по удержанию [почтового ящика для судебного разбирательства.](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold)
 
-6. После проверки того, что удержание для судебного разбирательства на месте, позвольте помощнику для управляемых папок еще раз обработать почтовый ящик, заменив \<MailboxIdentity\> имя, псевдоним, учетную запись или адрес электронной почты почтового ящика и выполнив следующую команду в [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell):
+6. После проверки на месте удержания для судебного разбирательства позвольте помощнику для управляемых папок повторно обработать почтовый ящик, заменив имя, псевдоним, учетную запись или адрес электронной почты почтового ящика и выступая в \<MailboxIdentity\> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)следующую команду:
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $false
     ```
 
-7. Снова сделайте почтовый ящик неактивным, удалив учетную запись пользователя, связанную с почтовым ящиком. Инструкции см в разделе [Удаление пользователя из Организации](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user). На этом этапе также освобождается лицензия на Exchange Online (план 2) для других целей.
+7. Снова деактивировать почтовый ящик, удалив учетную запись пользователя, связанную с почтовым ящиком. Инструкции см. в [инструкциях по удалению пользователя из организации.](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user) На этом этапе также будет высвобрована лицензия на Exchange Online (план 2) для других видов использования.
 
-**Note**: при перемещении неактивного почтового ящика в другое географическое расположение может повлиять на результаты поиска контента, а также на возможность поиска в почтовом ящике из прежнего географического расположения. Дополнительные сведения см в разделе [Поиск и экспорт контента в средах с поддержкой нескольких регионов](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments).
+**Примечание.** Перемещение неактивного почтового ящика в другое географическое расположение может повлиять на результаты поиска контента или возможность поиска в почтовом ящике из прежнего географического расположения. Дополнительные сведения [см. в поиске и экспорте контента в средах с несколькими географическими средами.](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>Создание новых облачных почтовых ящиков в определенном географическом расположении
 
 Чтобы создать почтовый ящик в определенном географическом расположении, нужно выполнить одно из следующих действий:
 
-- Настройте значение **преферреддаталокатион** , как описано в предыдущем разделе [Перемещение существующего почтового ящика только для облачных учетных данных в определенный раздел "географическое расположение](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) " *перед* созданием почтового ящика в Exchange Online. Например, перед назначением лицензии настройте значение **преферреддаталокатион** для пользователя.
+- Настройте значение **PreferredDataLocation,** как описано в предыдущем разделе, перед созданием  почтового ящика в Exchange Online переместите существующий облачный почтовый ящик в определенный раздел географического расположения. [](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) Например, настройте значение **PreferredDataLocation** для пользователя перед назначением лицензии.
 
 - Назначьте лицензию одновременно с настройкой значения **PreferredDataLocation**.
 

@@ -30,9 +30,9 @@ ms.locfileid: "49527517"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Роль администратора Exchange Online
 
-Чтобы упростить администрирование Microsoft 365, можно [назначить](assign-admin-roles.md) пользователям разрешения на управление электронной почтой и почтовыми ящиками организации в [центре администрирования Exchange](https://go.microsoft.com/fwlink/p/?LinkID=271807). Для этого нужно назначить им роль администратора Exchange.
+Чтобы помочь в администрировании Microsoft [](assign-admin-roles.md) 365, вы можете назначить пользователям разрешения на управление электронной почтой и почтовыми ящиками организации в [Центре администрирования Exchange.](https://go.microsoft.com/fwlink/p/?LinkID=271807) Для этого нужно назначить им роль администратора Exchange.
   
- **Совет**: при назначении роли администратора Exchange назначить их роли администратора службы. Таким образом, они могут просматривать важную информацию в центре администрирования Microsoft 365, например работоспособность службы Exchange Online, а также изменять и освобождать уведомления.
+ **Совет.** При назначении роли администратора Exchange также назначьте ему роль администратора службы. Таким образом они могут видеть важную информацию в Центре администрирования Microsoft 365, например сведения о состоянии службы Exchange Online, а также уведомления об изменениях и выпусках.
   
 ## <a name="before-you-begin"></a>Прежде чем начать
 
@@ -40,15 +40,15 @@ ms.locfileid: "49527517"
   
 - [Восстановление элементов, удаленных из почтового ящика пользователя.](https://docs.microsoft.com/microsoft-365/enterprise/recover-deleted-items-in-a-mailbox)
 
-- [Настройка политики архивации и удаления для почтовых ящиков в Организации](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
+- [Настройка политики архивации и удаления для почтовых ящиков в организации.](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes)
 
 - Настройка функций почтового ящика, например политики общего доступа к нему, которая определяет, как пользователи могут делиться данными календаря и контактов с другими людьми за пределами вашей организации.
 
-- Настройка представителей "[Отправить от](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)имени" и "[Отправить от имени](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" для почтового ящика другого пользователя. Например, руководителю может потребоваться, чтобы его помощник имел возможность отправлять почту от его имени.
+- Настройка[делегатов "Отправить как"](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)и["Отправить](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)от имени" для почтового ящика другого пользователя. Например, руководителю может потребоваться, чтобы его помощник имел возможность отправлять почту от его имени.
 
-- [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) , чтобы группа людей могла отслеживать и отправлять электронную почту с общего адреса электронной почты.
+- [Создайте общий почтовый ящик,](../email/create-a-shared-mailbox.md) чтобы группа людей могли отслеживать и отправлять электронную почту с общего адреса электронной почты.
 
-- [Защита от нежелательной](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) почты и фильтры вредоносных программ для Организации.
+- [Защита от нежелательной почты](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) и фильтры вредоносных программ для организации.
 
 - Управление группами Microsoft 365
 
@@ -58,11 +58,11 @@ ms.locfileid: "49527517"
   
  Например, администратор Exchange может назначить пользователю группу ролей "Управление обнаружением", чтобы он мог искать в почтовых ящиках данные, которые соответствуют определенным критериям. Дополнительные сведения см. в статьях [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) и [Управление группами ролей](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help).
   
-## <a name="learn-about-other-admin-roles"></a>Сведения о других ролях администратора
+## <a name="learn-about-other-admin-roles"></a>Узнайте о других ролях администратора
 
 - [О ролях администратора Microsoft 365](about-admin-roles.md)
 
-- [О роли администратора SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
+- [Роль администратора SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
 
 - [Роль администратора Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online)
 

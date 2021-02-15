@@ -38,9 +38,9 @@ ms.locfileid: "49656919"
   
 - [Добавление записи TXT для проверки](#add-a-txt-record-for-verification)
     
-- [Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт.](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
+- [Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
     
-- [Добавление шести записей CNAME, необходимых для Корпорации Майкрософт](#add-the-six-cname-records-that-are-required-for-microsoft)
+- [Добавьте шесть записей CNAME, необходимых для Корпорации Майкрософт](#add-the-six-cname-records-that-are-required-for-microsoft)
     
 - [Добавление записи TXT для SPF, чтобы предотвратить получение нежелательной почты](#add-a-txt-record-for-spf-to-help-prevent-email-spam)
     
@@ -151,7 +151,7 @@ ms.locfileid: "49656919"
     
     ![Нажмите Save (Сохранить)](../../media/1fb69bb5-b5df-4060-adf1-eb26cfaa6c4f.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавление шести записей CNAME, необходимых для Корпорации Майкрософт
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавьте шесть записей CNAME, необходимых для Корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 1. Чтобы приступить к работе, перейдите на свою страницу доменов на сайте Register365 по [этой ссылке](https://admin.register365.com/dns/). Сначала вам потребуется выполнить вход.

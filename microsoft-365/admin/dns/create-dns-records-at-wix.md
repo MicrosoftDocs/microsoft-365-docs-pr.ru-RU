@@ -101,7 +101,7 @@ ms.locfileid: "49656883"
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). Сначала вам потребуется выполнить вход.
     
-2. На странице **"Мои домены"** в области "Почтовые ящики" выберите ссылку "Настройка **записей MX".**  
+2. На странице **"Мои домены"** в области **"Почтовые** ящики" выберите ссылку "Настройка **записей MX".** 
     
 3. Choose **Other** from the **Your Email Provider** drop-down list. 
     

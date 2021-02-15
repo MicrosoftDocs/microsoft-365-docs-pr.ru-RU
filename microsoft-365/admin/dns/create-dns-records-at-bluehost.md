@@ -121,7 +121,7 @@ ms.locfileid: "49658151"
   
 8. Повторите эти действия для всех ненужных записей MX.
     
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавьте шесть записей CNAME, необходимых для Корпорации Майкрософт
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавление шести записей CNAME, необходимых для Корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). Сначала вам потребуется выполнить вход.
