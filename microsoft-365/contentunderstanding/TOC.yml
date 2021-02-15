@@ -30,6 +30,8 @@
       href: model-usage-analytics.md
     - name: Использование таксономии банка терминов при создании средства извлечения
       href: leverage-term-store-taxonomy.md
+    - name: Режим специальных возможностей SharePoint Syntex
+      href: accessibility-mode.md
 - name: Принятие
   items:
     - name: Начало работы по принятию
