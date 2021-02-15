@@ -291,6 +291,8 @@
           href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: Настройка многофакторной проверки подлинности
           href: security-and-compliance/set-up-multi-factor-authentication.md
+        - name: Управление приоритетными учетными записями и их отслеживание
+          href: setup/priority-accounts.md
         - name: "Включение современной проверки подлинности для Office\_2013"
           href: security-and-compliance/enable-modern-authentication.md
         - name: "Безопасность Microsoft\_365 бизнес премиум"
