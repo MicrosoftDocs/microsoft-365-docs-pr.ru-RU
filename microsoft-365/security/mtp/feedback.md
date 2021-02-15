@@ -27,20 +27,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49926742"
 ---
-# <a name="provide-feedback-on-microsoft-365-defender"></a><span data-ttu-id="373fb-104">Предоставление отзывов о Защитнике Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="373fb-104">Provide feedback on Microsoft 365 Defender</span></span>
+# <a name="provide-feedback-on-microsoft-365-defender"></a><span data-ttu-id="54e3d-104">Предоставление отзывов о Защитнике Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="54e3d-104">Provide feedback on Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="373fb-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="373fb-105">**Applies to:**</span></span>
-- <span data-ttu-id="373fb-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="373fb-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="54e3d-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="54e3d-105">**Applies to:**</span></span>
+- <span data-ttu-id="54e3d-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="54e3d-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="373fb-107">Ваши отзывы помогают нам лучше защищать среду от сложных атак.</span><span class="sxs-lookup"><span data-stu-id="373fb-107">Your feedback helps us get better in protecting your environment from advanced attacks.</span></span> <span data-ttu-id="373fb-108">Поделитесь своим опытом, впечатлениями и запросами, предоставляя отзывы.</span><span class="sxs-lookup"><span data-stu-id="373fb-108">Share your experience, impressions, and  requests by providing feedback.</span></span>
+<span data-ttu-id="54e3d-107">Ваши отзывы помогают нам лучше защищать среду от сложных атак.</span><span class="sxs-lookup"><span data-stu-id="54e3d-107">Your feedback helps us get better in protecting your environment from advanced attacks.</span></span> <span data-ttu-id="54e3d-108">Поделитесь своим опытом, впечатлениями и запросами, предоставляя отзывы.</span><span class="sxs-lookup"><span data-stu-id="54e3d-108">Share your experience, impressions, and  requests by providing feedback.</span></span>
 
-1. <span data-ttu-id="373fb-109">В любой части портала выберите **"Обратная связь".**</span><span class="sxs-lookup"><span data-stu-id="373fb-109">From any part of the portal, select **Give feedback**.</span></span> 
+1. <span data-ttu-id="54e3d-109">В любой части портала выберите **"Обратная связь".**</span><span class="sxs-lookup"><span data-stu-id="54e3d-109">From any part of the portal, select **Give feedback**.</span></span> 
 
     ![Изображение кнопки обратной связи](../../media/feedback.png)
 
-2. <span data-ttu-id="373fb-111">Оцените свой опыт и предодайте подробные сведения о том, что вам нравится или где можно улучшить.</span><span class="sxs-lookup"><span data-stu-id="373fb-111">Rate your experience and provide details on what you liked or where improvement can be made.</span></span> <span data-ttu-id="373fb-112">Вы также можете связаться с вами по поводу отзыва.</span><span class="sxs-lookup"><span data-stu-id="373fb-112">You can also choose to be contacted about the feedback.</span></span> 
+2. <span data-ttu-id="54e3d-111">Оцените свой опыт и предодайте подробные сведения о том, что вам нравится или где можно улучшить.</span><span class="sxs-lookup"><span data-stu-id="54e3d-111">Rate your experience and provide details on what you liked or where improvement can be made.</span></span> <span data-ttu-id="54e3d-112">Вы также можете связаться с вами по поводу отзыва.</span><span class="sxs-lookup"><span data-stu-id="54e3d-112">You can also choose to be contacted about the feedback.</span></span> 
 
-3. <span data-ttu-id="373fb-113">Выберите **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="373fb-113">Select **Submit**.</span></span>
+3. <span data-ttu-id="54e3d-113">Выберите **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="54e3d-113">Select **Submit**.</span></span>
