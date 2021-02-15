@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Филиппины
+title: Сведения о поддержке для Филиппин
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 74d06767d2afa759b4db5719895bed7f108215a3
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,19 +20,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640335"
 ---
-# <a name="contact-support-for-philippines"></a>Обращение в службу поддержки для Филиппины
+# <a name="contact-support-for-philippines"></a>Обратитесь в службу поддержки Филиппин
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
-1800 1441 0625 (ПЛДТ)
+1800 1441 0625 (PLDT)
 
-1800 8908 6422 (глобус)
+1800 8908 6422 (Мир)
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9 AM – 5 AM
+Английский: Mon-Fri 9:00–17:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 

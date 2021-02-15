@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке Бразилии
+title: Сведения о поддержке для Бразилии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: d5732d84fba6355b2ae00e41ef544dec7ded6861
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643683"
 ---
-# <a name="contact-support-for-brazil"></a>Обращение в службу поддержки для Бразилии
+# <a name="contact-support-for-brazil"></a>Обратитесь в службу поддержки Для Бразилии
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 0800 762 1146
@@ -30,9 +30,9 @@ ms.locfileid: "48643683"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Португальский (Бразилия): Mon-Fri 9 – 5 AM
+Португальский: Mon-Fri 9:00–17:00
 
-Английский: Mon-Fri 9 AM – 5 AM
+Английский: Mon-Fri 9:00–17:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
@@ -42,6 +42,6 @@ ms.locfileid: "48643683"
 
 Альтернативный номер телефона:
 
-0800 047 4958 (местный бесплатный)
+0800 047 4958 (местный бесплатный номер)
 
-11 4700 1999 (применяют сборы по местным звонкам)
+11 4700 1999 (применяются местные тарифы на вызовы)

@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Сен Бартелеми
+title: Сведения о поддержке для Сен-Бартелеми
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 12c74b0ff6554261239f5a738d038f614c3cc106
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,24 +20,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640071"
 ---
-# <a name="contact-support-for-saint-barthelemy"></a>Обратитесь в службу поддержки для Сен Бартелеми
+# <a name="contact-support-for-saint-barthelemy"></a>Обратитесь в службу поддержки сен-Бартелеми
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Mon-Fri 4 AM – 12 PM
+Французский: Mon-Fri 4:00–12:00
 
-Английский: Mon-Fri 4 AM – 12 PM
+Английский: Mon-Fri 4:00–12:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 3 AM – 4 PM
+Французский: Mon-Fri 3:00–16:00
 
 Английский: круглосуточно, без выходных
 
-Применяются тарифы на международные звонки
+Применяются платежи за международные вызовы

@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке Мартиника
+title: Сведения о поддержке для Мартена
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: fc057a9bd493b2edf9081871136b88299a5169dd
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,24 +20,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641115"
 ---
-# <a name="contact-support-for-martinique"></a>Обратитесь в службу поддержки для Мартиника
+# <a name="contact-support-for-martinique"></a>Обратитесь в службу поддержки для Мартена
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский Mon-Fri 6 AM, 12:00
+Французский Mon-Fri 6:00
 
-Английский: Mon-Fri 6 AM – 1 PM
+Английский: Mon-Fri 6:00–13:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 6 AM 1 PM
+Французский: Mon-Fri 6:00–13:00
 
 Английский: круглосуточно, без выходных
 
-Применяются тарифы на международные звонки
+Применяются платежи за международные вызовы

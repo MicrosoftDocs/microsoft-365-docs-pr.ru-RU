@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Сингапур
+title: Сведения о поддержке для Сингапура
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: aa74f60ab87bccacefb11822edd02c75b5bdacc9
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639807"
 ---
-# <a name="contact-support-for-singapore"></a>Обращение в службу поддержки для Сингапур
+# <a name="contact-support-for-singapore"></a>Обратитесь в службу поддержки Сингапура
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 1 800 622 1856
@@ -30,7 +30,7 @@ ms.locfileid: "48639807"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9 AM – 6 AM
+Английский: Mon-Fri 9:00–18:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
@@ -38,4 +38,4 @@ ms.locfileid: "48639807"
 
 Альтернативный номер телефона: 6622 1855
 
-Применяются сборы по местным звонкам
+Применяются местные тарифы на вызовы

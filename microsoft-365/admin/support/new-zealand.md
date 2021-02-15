@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: a242ee45c10daafef1e6516f1c65415bfd05afba
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640767"
 ---
-# <a name="contact-support-for-new-zealand"></a>Обращение в службу поддержки для Новой Зеландии
+# <a name="contact-support-for-new-zealand"></a>Обратитесь в службу поддержки новой Зеландии
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 0800 194 197
@@ -30,7 +30,7 @@ ms.locfileid: "48640767"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9 AM – 6 AM
+Английский: Mon-Fri 9:00–18:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
@@ -38,4 +38,4 @@ ms.locfileid: "48640767"
 
 Альтернативный номер телефона: 09 912 7298
 
-Применяются сборы по местным звонкам
+Применяются местные тарифы на вызовы

@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: edce7523dc1671b7b325359223d62b0017fd0b9c
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,24 +20,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641259"
 ---
-# <a name="contact-support-for-mali"></a>Обращение в службу поддержки для Мали
+# <a name="contact-support-for-mali"></a>Обратитесь в службу поддержки Для Мали
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Mon-Fri 8 AM – 4 AM
+Французский: Mon-Fri 8:00–16:00
 
-Английский: Mon-Fri 8 AM – 4 AM
+Английский: Mon-Fri 8:00–16:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 7AM — 8 PM
+Французский: Mon-Fri 7AM-8 PM
 
 Английский: круглосуточно, без выходных
 
-Применяются тарифы на международные звонки
+Применяются платежи за международные вызовы

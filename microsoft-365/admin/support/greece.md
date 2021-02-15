@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 1d930e0df456004063eee4af1c2b870fdd4f9c4e
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642459"
 ---
-# <a name="contact-support-for-greece"></a>Обращение в службу поддержки для Греция
+# <a name="contact-support-for-greece"></a>Обратитесь в службу поддержки Для Греция
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 00800 4414 2831
@@ -30,7 +30,7 @@ ms.locfileid: "48642459"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9 AM – 5 AM
+Английский: Mon-Fri 9:00–17:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 

@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Гана
+title: Информация о поддержке для Ганы
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 620785d6c749feb1336b17f1e980c04e48cc5302
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,24 +20,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642452"
 ---
-# <a name="contact-support-for-ghana"></a>Обращение в службу поддержки для Гана
+# <a name="contact-support-for-ghana"></a>Обратитесь в службу поддержки Для Ганы
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
-+ 234 1 271 0156
++234 1 271 0156
 
-Выберите вариант 9
+Выбор варианта 9
 
 Введите код 7704
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 8 AM – 4 AM
+Английский: Mon-Fri 8:00–16:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются тарифы на международные звонки
+Применяются платежи за международные вызовы

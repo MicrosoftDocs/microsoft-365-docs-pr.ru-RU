@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 087cd6e674e16eca7f74d901cb8ff3b52bb695a5
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642507"
 ---
-# <a name="contact-support-for-germany"></a>Обращение в службу поддержки для Германии
+# <a name="contact-support-for-germany"></a>Обратитесь в службу поддержки Для Германии
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 0800 589 2332
@@ -30,16 +30,16 @@ ms.locfileid: "48642507"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Немецкий: Mon-Fri 9 AM – 5 AM
+Немецкий: Mon-Fri 9:00–17:00
 
-Английский: Mon-Fri 9 AM – 5 AM
+Английский: Mon-Fri 9:00–17:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Немецкий: Mon-Fri 8 AM – 9 AM
+Немецкий: Mon-Fri 8:00–9:00
 
 Английский: круглосуточно, без выходных
 
 Альтернативный номер телефона: 069 380 789 508
 
-Применяются сборы по местным звонкам
+Применяются местные тарифы на вызовы

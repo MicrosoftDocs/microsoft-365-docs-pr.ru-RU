@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Индонезия
+title: Сведения о поддержке для Индонезии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: b651ad2a719a08ff5d6a7427cd3ccb268f043f13
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,24 +20,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641991"
 ---
-# <a name="contact-support-for-indonesia"></a>Обращение в службу поддержки для Индонезия
+# <a name="contact-support-for-indonesia"></a>Обратитесь в службу поддержки Индонезии
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
-007 803 011 0882 (Телком)
+007 803 011 0882 (Telkom)
 
-001 803 442 304 (Индосат)
+001 803 442 304 (иносат)
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Бахаса Индонезия: Mon-Fri 8 AM – 5 AM PM
+Bahasa Indonesia: Mon-Fri 8:00-17:00
 
-Английский: Mon-Fri 9 AM – 6 AM
+Английский: Mon-Fri 9:00–18:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Бахаса Индонезия: Mon-Fri 8 AM – 5 AM PM
+Bahasa Indonesia: Mon-Fri 8:00-17:00
 
 Английский: круглосуточно, без выходных

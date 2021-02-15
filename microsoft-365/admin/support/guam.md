@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Гуам
+title: Сведения о поддержке для guam
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: fcbcd35b3533d819d48b99b46ed73e9982958c3a
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,9 +20,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642399"
 ---
-# <a name="contact-support-for-guam"></a>Обращение в службу поддержки для Гуам
+# <a name="contact-support-for-guam"></a>Обратитесь в службу поддержки для guam
 
-[Найдите другую страну или регион](../contact-support-for-business-products.md).
+[Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 800-865-9408
@@ -30,10 +30,10 @@ ms.locfileid: "48642399"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 3 AM – 12 PM
+Английский: Mon-Fri 3:00–12:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются сборы по местным звонкам
+Применяются местные тарифы на вызовы
