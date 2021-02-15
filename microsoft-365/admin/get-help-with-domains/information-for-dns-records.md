@@ -44,7 +44,7 @@ ms.locfileid: "50126375"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования перейдите на страницу **"Настройка** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">доменов".</a>
+1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">установки".</a>
 
 ::: moniker-end
 
@@ -82,7 +82,7 @@ ms.locfileid: "50126375"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования перейдите на страницу **"Настройка** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">доменов".</a>
+1. В Центре администрирования перейдите на страницу **"Домены** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">установки".</a>
 
 ::: moniker-end
     

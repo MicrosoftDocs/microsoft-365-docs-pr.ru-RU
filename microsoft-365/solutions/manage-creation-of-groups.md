@@ -37,7 +37,7 @@ ms.locfileid: "50122388"
 - Microsoft Stream
 - Планировщик
 - Power BI (классическая)
-- Проект в Интернете / план
+- Проект в Интернете / План
 
 Создание группы Microsoft 365 можно ограничить только членами определенной группы Microsoft 365 или группы безопасности. Чтобы настроить его, используйте Windows PowerShell. В этой статье данная статья посвящена всем необходимым этапам.
 
@@ -57,13 +57,13 @@ ms.locfileid: "50122388"
 
 Чтобы управлять созданием групп, следующие люди нуждаются в лицензиях Azure AD Premium или назначенной им лицензиях azure AD Basic EDU:
 
-- Администратор, который настраивает эти параметры создания групп
+- Администратор, который настраивает эти параметры создания группы
 - Члены группы, которым разрешено создавать группы
 
 > [!NOTE]
 > Дополнительные сведения о назначении лицензий Azure см. на портале [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups)
 
-Следующие люди не нуждаются в назначенной лицензии Azure AD Premium или Azure AD Basic EDU:
+Следующие люди не нуждаются в лицензиях Azure AD Premium или Azure AD Basic EDU, которые им назначены:
 
 - Пользователи, которые являются членами групп Microsoft 365 и не могут создавать другие группы.
 
@@ -95,13 +95,13 @@ ms.locfileid: "50122388"
 
 Скопируйте сценарий ниже в текстовый редактор, например Блокнот или [Windows PowerShell ISE.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
-Замените *\<GroupName\>* имя созданной группы. Например:
+Замените *\<GroupName\>* имя созданной группы. Пример:
 
 `$GroupName = "Group Creators"`
 
 Сохраните файл как GroupCreators.ps1.
 
-В окне PowerShell перейдите в расположение, в котором сохранен файл (введите <FileLocation> "CD").
+В окне PowerShell перейдите к расположению, в котором сохранен файл (введите <FileLocation> "CD").
 
 Запустите сценарий, введя:
 
@@ -139,7 +139,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 (Get-AzureADDirectorySetting -Id $settingsObjectID).Values
 ```
 
-В последней строке сценария отображаются обновленные параметры:
+В последней строке сценария отобразятся обновленные параметры:
 
 ![This is what your settings will look like when you're done.](../media/952cd982-5139-4080-9add-24bafca0830c.png)
 

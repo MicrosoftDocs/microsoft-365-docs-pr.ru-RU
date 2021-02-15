@@ -48,4 +48,4 @@ ms.locfileid: "50107733"
 
 [Управление видимостью тем в microsoft Viva Topics](topic-experiences-knowledge-rules.md)
 
-[Управление разрешениями тем в microsoft Viva Topics](topic-experiences-user-permissions.md)
+[Управление разрешениями тем в Microsoft Viva Topics](topic-experiences-user-permissions.md)

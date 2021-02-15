@@ -82,7 +82,7 @@ ms.locfileid: "50114673"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Если вы не собираетесь переначивать неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы не платить за дополнительные лицензии, чем нужно.
+Если вы не собираетесь переначивать неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы вы не платите за дополнительные лицензии, чем нужно.
 
 ## <a name="related-content"></a>Связанные материалы
 
@@ -90,4 +90,4 @@ ms.locfileid: "50114673"
 [Удаление лицензий из подписки](../../commerce/licenses/remove-licenses-from-subscription.md) (статья)\
 [Изменение планов вручную](change-plans-manually.md) (статья)\
 [Подписки и лицензии в Microsoft 365 для бизнеса](../licenses/subscriptions-and-licenses.md) (статья)\
-[Покупка другой подписки на Microsoft 365 для бизнеса](../buy-another-subscription.md) (статья)
+[Buy another Microsoft 365 for business subscription](../buy-another-subscription.md) (article)

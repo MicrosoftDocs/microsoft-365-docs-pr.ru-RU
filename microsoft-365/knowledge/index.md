@@ -1,5 +1,5 @@
 ---
-title: Введение в microsoft Viva Topics
+title: Введение в разделы о Microsoft Viva
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -20,7 +20,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/04/2021
 ms.locfileid: "50107174"
 ---
-# <a name="introduction-to-microsoft-viva-topics"></a>Введение в microsoft Viva Topics
+# <a name="introduction-to-microsoft-viva-topics"></a>Введение в разделы о Microsoft Viva
 
 </br>
 
@@ -31,7 +31,7 @@ ms.locfileid: "50107174"
 
 Viva Topics — это служба Office 365, которая помогает организациям преобразовывать информацию в знания.
 
-Ресурсы на этой странице предназначены для начала работы с изучением и использованием Viva Topics в вашей организации.
+Ресурсы на этой странице предназначены для того, чтобы начать изучение и использование Темы Viva в вашей организации.
 
 ## <a name="get-started"></a>Начало работы
 
@@ -39,7 +39,7 @@ Viva Topics — это служба Office 365, которая помогает 
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Дополнительные информацию о Viva Topics|[Обзор Microsoft Viva Topics](topic-experiences-overview.md)|
+|Дополнительные информация о Viva Topics|[Обзор Microsoft Viva Topics](topic-experiences-overview.md)|
 |Узнайте, как ИИ обнаруживает и предлагает темы|[Обнаружение Microsoft Viva Topics](topic-experiences-discovery.md)|
 |Узнайте о безопасности тем|[Безопасность и конфиденциальность Microsoft Viva](topic-experiences-security-privacy.md)|
 

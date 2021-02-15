@@ -1,5 +1,5 @@
 ---
-title: Управление разрешениями тем в microsoft Viva Topics
+title: Управление разрешениями тем в Microsoft Viva Topics
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Узнайте, как администрировать разрешения тем в Microsoft Viva Topics.
+description: Узнайте, как администрировать разрешения тем в разделах Microsoft Viva Topics.
 ms.openlocfilehash: 6592103526a86671a3ff42c698c1243f63be7fef
 ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
@@ -17,9 +17,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/04/2021
 ms.locfileid: "50107416"
 ---
-# <a name="manage-topic-permissions-in-microsoft-viva-topics"></a>Управление разрешениями тем в microsoft Viva Topics
+# <a name="manage-topic-permissions-in-microsoft-viva-topics"></a>Управление разрешениями тем в Microsoft Viva Topics
 
-Вы можете управлять настройками разрешений тем в Центре администрирования [Microsoft 365.](https://admin.microsoft.com) Для выполнения этих задач необходимо быть глобальным администратором или администратором SharePoint.
+Вы можете управлять настройками разрешений темы в Центре администрирования [Microsoft 365.](https://admin.microsoft.com) Для выполнения этих задач необходимо быть глобальным администратором или администратором SharePoint.
 
 С помощью параметров разрешений темы можно выбрать:
 
@@ -49,7 +49,7 @@ ms.locfileid: "50107416"
 
     ![Создание и редактирование разделов](../media/k-manage-who-can-create-and-edit.png)  
 
-3. Нажмите кнопку **Сохранить**.
+3. Нажмите **Сохранить**.
 
 Обновление разрешений на управление разделами:
 
@@ -60,7 +60,7 @@ ms.locfileid: "50107416"
 
     ![Управление темами](../media/k-manage-who-can-manage-topics.png)  
 
-3. Нажмите кнопку **Сохранить**.
+3. Нажмите **Сохранить**.
 
 ## <a name="see-also"></a>См. также
 

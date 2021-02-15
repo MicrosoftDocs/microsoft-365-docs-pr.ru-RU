@@ -56,7 +56,7 @@ ms.locfileid: "50142077"
     
 ## <a name="training-resources-for-you-the-admin"></a>Учебные ресурсы для администратора
 
-Ниже here are some resources to help you get started.
+Вот несколько ресурсов, которые помогут вам при начать работу.
   
 - [Обучение для администраторов:](https://docs.microsoft.com/microsoft-365/admin)получите ссылки на бесплатные онлайн-классы для администраторов.
     
