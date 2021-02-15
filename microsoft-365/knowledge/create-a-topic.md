@@ -1,5 +1,5 @@
 ---
-title: Создание нового раздела в Microsoft Viva Topics
+title: Создание новой темы в Microsoft Viva Topics
 description: Создание нового раздела в microsoft Viva Topics.
 author: efrene
 ms.author: efrene
@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 35d4615057deee81285ba950a157f28160b6eefa
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 2b543dbc8132f261814aec45e713874971b9b5d1
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107304"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242894"
 ---
 # <a name="create-a-new-topic"></a>Создание темы 
 
@@ -29,16 +29,28 @@ ms.locfileid: "50107304"
 > Хотя сведения в теме, собираемой ИИ, урезаны по [безопасности,](topic-experiences-security-trimming.md)обратите внимание, что сведения в созданном вручную разделе видны всем пользователям, у которых есть разрешения на просмотр этой темы. 
 
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 Чтобы создать новый раздел, необходимо:
 - Лицензия На Viva Topics.
-- Разрешения на создание и редактирование тем для [**who.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Администраторы знаний могут предоставить пользователям это разрешение в параметрах разрешений раздела Viva Topics. 
+- Разрешения на создание и [**редактирование**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)разделов. Администраторы знаний могут предоставить пользователям это разрешение в параметрах разрешений раздела Viva Topics. 
 
 > [!Note] 
 > Пользователи, у которых есть разрешения на управление темами в центре тем (менеджеры по знаниям), уже имеют разрешения на создание и редактирование тем.
 
-## <a name="to-create-a-new-topic"></a>Чтобы создать новый раздел:
+## <a name="to-create-a-topic"></a>Создание темы
+
+Новый раздел можно создать из двух мест:
+
+- Домашняя страница Центра тем:  любой лицензированный пользователь с разрешением "Кто может создавать или редактировать <b></b> разделы" может создать новый раздел в центре тем, выбрав меню "Создать" и выбрав страницу <b>"Тема".</b></br> 
+
+    ![Новый раздел из центра тем](../media/knowledge-management/new-topic.png) </br> 
+
+- Страница "Управление разделами":  любой лицензированный пользователь с разрешениями "Кто может управлять разделами" (менеджеры по знаниям) может создать новый раздел на странице "Управление темами" в Центре тем, выбрав страницу "Создать <b>раздел".</b></br> 
+
+    ![Новый раздел из разделов по управлению](../media/knowledge-management/new-topic-topic-center.png) </br> 
+
+### <a name="to-create-a-new-topic"></a>Чтобы создать новый раздел:
 
 1. В разделе **"Имя"** введите имя нового раздела.
 
@@ -76,7 +88,7 @@ ms.locfileid: "50107304"
 
 7. В <b>разделе "Связанные</b> разделы" показаны связи между разделами. Вы можете добавить подключение к другому <b></b> разделу, настроив кнопку "Подключиться к связанному разделу", а затем введя имя связанного раздела и выбрав его в результатах поиска. 
 
-   ![Связанные статьи](../media/knowledge-management/related-topic.png)</br>  
+   ![Статьи по теме](../media/knowledge-management/related-topic.png)</br>  
 
     Затем можно дать описание связи между темами и выбрать <b>"Обновить".</b></br>
 

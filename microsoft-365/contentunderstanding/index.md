@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте, как найти ресурсы по Microsoft SharePoint Syntex.
-ms.openlocfilehash: 02f3da4e03d13b0710590336e49292ac6df70560
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 21dc0e29e9322b4c009b0f1e63b7bfbc4b92da9a
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044760"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242704"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Общие сведения о Microsoft SharePoint Syntex
 
@@ -45,8 +45,8 @@ Microsoft SharePoint Syntex — это служба Office 365, которая �
 |Дополнительные сведения об осмыслении документации|[Общие сведения об осмыслении документации](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
 |Дополнительные сведения об обработке форм|[Общие сведения об обработке форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|
 |Разница между методами|[Различия между моделями осмысления документации и обработки форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
-|Ознакомьтесь со статьями в центре ресурсов сообщества Microsoft Tech|[SharePoint Syntex: службы контента в Microsoft 365](https://resources.techcommunity.microsoft.com/sharepoint-syntex/)|
-|Вопросы и ответы о SharePoint Syntex в центре ресурсов сообщества Microsoft Tech |[SharePoint Syntex: вопросы и ответы](https://resources.techcommunity.microsoft.com/project-cortex-microsoft-365/faq/)|
+|Ознакомьтесь со статьями в центре ресурсов сообщества Microsoft Tech|[SharePoint Syntex: службы контента в Microsoft 365](https://techcommunity.microsoft.com/t5/sharepoint-syntex/bg-p/SharePointSyntex)|
+|Вопросы и ответы о SharePoint Syntex в центре ресурсов сообщества Microsoft Tech |[SharePoint Syntex: вопросы и ответы](https://resources.techcommunity.microsoft.com/sharepoint-syntex/faq/)|
 |Как скачать SharePoint Syntex |[SharePoint Syntex: страница продукта](https://www.microsoft.com/microsoft-365/enterprise/sharepoint-syntex)|
 
 ## <a name="adoption"></a>Внедрение
@@ -76,6 +76,7 @@ Microsoft SharePoint Syntex — это служба Office 365, которая �
 |Применение меток хранения к модели|[Применение метки хранения к модели осмысления документации](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
 |Использование таксономии банка терминов служб управляемых метаданных при создании средства извлечения|[Использование таксономии банка терминов при создании средства извлечения](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
 |Узнайте, как просмотреть сведения о моделях|[Аналитика использования моделей](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|
+|Узнайте, как использовать режим специальных возможностей при обучении модели|[Режим специальных возможностей SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/accessibility-mode)|
 
 ## <a name="premium-services"></a>Службы премиум-класса
 

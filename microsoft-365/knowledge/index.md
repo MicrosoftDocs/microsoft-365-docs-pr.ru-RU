@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-topics
 localization_priority: None
 description: Узнайте, как найти ресурсы для Microsoft Viva Topics.
-ms.openlocfilehash: 3e75dfcfa17e5604e04b6f5e49be9019b1679110
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: d5c54bda3432fc9a1ff5ce4342cc523544eb6e78
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107174"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242870"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Введение в разделы о Microsoft Viva
 
@@ -42,6 +42,9 @@ Viva Topics — это служба Office 365, которая помогает 
 |Дополнительные информация о Viva Topics|[Обзор Microsoft Viva Topics](topic-experiences-overview.md)|
 |Узнайте, как ИИ обнаруживает и предлагает темы|[Обнаружение Microsoft Viva Topics](topic-experiences-discovery.md)|
 |Узнайте о безопасности тем|[Безопасность и конфиденциальность Microsoft Viva](topic-experiences-security-privacy.md)|
+|Узнайте, как получить Viva Topics|[Страница продуктов Microsoft Viva Topics](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
+|Ознакомьтесь со статьями в центре ресурсов сообщества Microsoft Tech|[Техническое сообщество Microsoft Viva Topics](https://resources.techcommunity.microsoft.com/viva-topics/)|
+
 
 
 ## <a name="adoption"></a>Внедрение
@@ -69,9 +72,9 @@ Viva Topics — это служба Office 365, которая помогает 
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Узнайте, как работать с разделами|[Обзор Центра тем](topic-center-overview.md)<br><br>[Управление темами](manage-topics.md)<br><br>[Создание темы](create-a-topic.md)<br><br>[Редактирование существующего раздела](edit-a-topic.md)<br><br>[Поиск тем с помощью Поиска (Майкрософт)](search.md)<br><br>|
+|Узнайте, как работать с разделами|[Обзор Центра тем](topic-center-overview.md)<br><br>[Управление темами](manage-topics.md)<br><br>[Создание темы](create-a-topic.md)<br><br>[Изменение существующего раздела](edit-a-topic.md)<br><br>[Поиск тем с помощью Поиска (Майкрософт)](search.md)<br><br>|
 |Понимание ролей пользователей|[Роли Viva Topics](topic-experiences-roles.md)|
-|Понять, почему разделы могут отличаться для разных пользователей|[Триммер безопасности Viva Topics](topic-experiences-security-trimming.md)|
+|Понять, почему темы могут отличаться для разных пользователей|[Триммер безопасности Viva Topics](topic-experiences-security-trimming.md)|
 |Узнайте, как предотвратить идентифицирование и просмотр определенных разделов|[Ограничение доступа к темам](restrict-access-to-topics.md)|
 
 

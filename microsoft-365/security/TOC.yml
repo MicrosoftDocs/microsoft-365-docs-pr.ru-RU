@@ -275,6 +275,8 @@
                   href: mtp/device-profile.md
                 - name: Предоставление отзывов
                   href: mtp/feedback.md
+                - name: Предоставление доступа к поставщику управляемой службы (MSSP)
+                  href: mtp/mssp-access.md
                 - name: Создание запросов и задач ServiceNow
                   items:
                     - name: Общие сведения об интеграции с ServiceNow
