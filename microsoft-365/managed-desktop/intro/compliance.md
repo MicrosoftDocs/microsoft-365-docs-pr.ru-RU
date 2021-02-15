@@ -25,7 +25,7 @@ ms.locfileid: "50031355"
 Компьютеры, управляемые Майкрософт, достигли следующих сертификатов:
 
 - [Стандарты управления информационной безопасностью ISO 27001 (ISMS)](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
-- [IsO 27701 Privacy Information Management System (PIMS)](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
+- [СИСТЕМА УПРАВЛЕНИЯ конфиденциальностью (PIMS) ISO 27701](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
 - [ISO 27017 Code of Practice for Information Security Controls](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27017)
 - [ISO 27018 Code of Practice for Protecting Personal Data in the Cloud](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27018)
 - [Стандарты систем управления качеством ISO 9001](https://docs.microsoft.com/compliance/regulatory/offering-ISO-9001)

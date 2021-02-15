@@ -47,7 +47,7 @@ ms.locfileid: "49929554"
 | GlobalFirstSeen | datetime | Дата и время первого глобального наблюдения сущности корпорацией Майкрософт |
 | GlobalLastSeen | datetime | Дата и время последнего наблюдения сущности корпорацией Майкрософт на глобальном уровне |
 | Подписыватель | string | Сведения о подписании файла |
-| Издатель | string | Сведения о выдавливом ЦС |
+| Издатель | string | Сведения о выдаче ЦС |
 | SignerHash | string | Уникальное значение hash, определяющие подписывающий |
 | IsCertificateValid | boolean | Является ли сертификат, используемый для подписи файла, допустимым |
 | IsRootSignerMicrosoft | boolean | Указывает, является ли подписыватель корневого сертификата корпорацией Майкрософт |
@@ -64,7 +64,7 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>Аргументы
 
-- **x**— столбец ИД файла для использования: , , или ; функция `SHA1` `SHA256` `InitiatingProcessSHA1` `InitiatingProcessSHA256` `SHA1` использует, если не засекречены
+- **x**— столбец ИД файла для использования: , , , , или ; функция `SHA1` `SHA256` `InitiatingProcessSHA1` `InitiatingProcessSHA256` `SHA1` использует, если не засекречены
 - **y**— ограничение на количество записей для обогащения, 1–1000; функция использует 100, если не закален
 
 ## <a name="examples"></a>Примеры
@@ -89,7 +89,7 @@ DeviceFileEvents
 | where GlobalPrevalence < 15
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

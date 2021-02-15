@@ -34,13 +34,13 @@ ms.locfileid: "49930130"
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 
-Настройте и управляйте всеми возможностями Конечной точки в Microsoft Defender для обеспечения наилучшей защиты системы безопасности в организации. 
+Настройте и управляйте всеми возможностями Конечной точки в Microsoft Defender для обеспечения наилучшей защиты системы безопасности для вашей организации. 
 
 
 ## <a name="in-this-section"></a>В этом разделе 
 Статья | Описание 
 :---|:---
-[Настройка возможностей уменьшения поверхности атаки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Убедившись, что параметры конфигурации настроены правильно и применяются методы противодействия эксплойту, эти наборы возможностей по-настоящему противяются атакам и атакам. 
+[Настройка возможностей сокращения поверхностей атаки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Убедившись, что параметры конфигурации настроены правильно и применяются методы противодействия эксплойту, эти наборы возможностей по-настоящему противяются атакам и атакам. 
 [Настройка защиты нового поколения](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | Настройте защиту нового поколения, чтобы перехватить все типы возникающих угроз.
 [Настройка возможностей экспертов по угрозам (Майкрософт)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Настройте и управляйте тем, как вы хотите получать аналитику киберугроз от экспертов по угрозам Майкрософт.
 [Настройка интеграции с Microsoft 365 Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Настройте другие решения, интегрируемые с Microsoft Defender для конечной точки.

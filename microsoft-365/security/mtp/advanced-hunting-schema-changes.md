@@ -1,7 +1,7 @@
 ---
-title: Изменения именования в схеме advanced hunting в Microsoft 365 Defender
-description: Отслеживание и проверка изменений именования таблиц и столбцов в схеме расширенных поисков
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, data, naming changes, rename, Microsoft Threat Protection
+title: Изменение имен в схеме advanced hunting в Microsoft 365 Defender
+description: Отслеживание и проверка именования таблиц и столбцов в схеме расширенных поисков
+keywords: расширенный поиск, охота на угрозы, поиск киберугроз, защита от угроз (Майкрософт), Microsoft 365, mtp, m365, поиск, запрос, телеметрия, справочник по схеме, kusto, таблица, данные, изменения именования, переименование, Защита от угроз (Майкрософт)
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -37,7 +37,7 @@ ms.locfileid: "50066873"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Схема [расширенных поисков регулярно](advanced-hunting-schema-tables.md) обновляется для добавления новых таблиц и столбцов. В некоторых случаях существующие имена столбцов переименовываются или заменяются для улучшения пользовательского интерфейса. В этой статье вы можете просмотреть изменения именования, которые могут повлиять на запросы.
+Схема [расширенных поисков регулярно](advanced-hunting-schema-tables.md) обновляется для добавления новых таблиц и столбцов. В некоторых случаях существующие имена столбцов переименовываются или заменяются для улучшения пользовательского интерфейса. В этой статье вы можете просмотреть изменения именования, которые могут повлиять на ваши запросы.
 
 Изменения именования автоматически применяются к запросам, сохраненным в центре безопасности, включая запросы, используемые пользовательскими правилами обнаружения. Вам не нужно обновлять эти запросы вручную. Однако вам потребуется обновить следующие запросы:
 - Запросы, которые запускаются с помощью API
@@ -65,7 +65,7 @@ ms.locfileid: "50066873"
 | `DetectionSource` | AzureATP |    Microsoft Defender для удостоверений | Rebranding |
 | `DetectionSource` | CustomDetection   | Пользовательское обнаружение | Rebranding |
 | `DetectionSource` | AutomatedInvestigation |Автоматическое исследование | Rebranding |
-| `DetectionSource` | ThreatExperts | Microsoft Threat Experts | Rebranding |
+| `DetectionSource` | ThreatExperts | Эксперты Майкрософт по угрозам | Rebranding |
 | `DetectionSource` | Сторонний ti | Сторонние датчики | Rebranding |
 | `ServiceSource` | ATP в Microsoft Defender — это| Microsoft Defender для конечной точки | Rebranding |
 |`ServiceSource` |Защита от угроз (Майкрософт)   | Microsoft 365 Defender | Rebranding |
@@ -73,6 +73,6 @@ ms.locfileid: "50066873"
 | `ServiceSource` |Azure ATP    |Microsoft Defender для удостоверений | Rebranding |
 
 `DetectionSource`доступен в таблице [AlertInfo.](advanced-hunting-alertinfo-table.md) `ServiceSource`доступен в [таблицах AlertEvidence](advanced-hunting-alertevidence-table.md) и [AlertInfo.](advanced-hunting-alertinfo-table.md) 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

@@ -29,7 +29,7 @@ ms.locfileid: "49931990"
 
 ## <a name="step-1-set-up-multi-factor-authentication-and-conditional-access-policies"></a>Шаг 1. Настройка многофакторной проверки подлинности и политик условного доступа
 
-[Многофакторная проверка](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) подлинности (MFA) требует, чтобы пользователи проверяли свои удостоверения с помощью телефонного вызова или приложения для проверки подлинности. [Политики условного доступа определяют](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) определенные требования, которые должны быть выполнены для доступа пользователей к приложениям и данным в Microsoft 365. Политики MFA и условного доступа совместно защищают вашу организацию. Например, если кто-то пытается войти с мобильного устройства с использованием учетной записи, которая не включена для MFA, а политика условного доступа требует, чтобы MFA вступила в силу, этому пользователю будет отключен вход.  
+[Многофакторная проверка подлинности](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) (MFA) требует, чтобы пользователи проверяли свои удостоверения с помощью телефонного вызова или приложения для проверки подлинности. [Политики условного доступа определяют](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) определенные требования, которые должны быть выполнены для доступа пользователей к приложениям и данным в Microsoft 365. MFA и политики условного доступа работают вместе для защиты организации. Например, если кто-то пытается войти с мобильного устройства, используя учетную запись, которая не включена для MFA, а политика условного доступа требует применения MFA, ему будет отключен вход.  
 
 Корпорация Майкрософт проверила и рекомендует определенный набор условного доступа и связанные политики для защиты доступа ко всем приложениям SaaS, особенно Microsoft 365. Политики рекомендуются для базовой, конфиденциальной и строго регулируемой защиты. Начните с реализации политик для базовой защиты. 
 
@@ -52,7 +52,7 @@ ms.locfileid: "49931990"
 
 ## <a name="step-2-configure-microsoft-defender-for-identity"></a>Шаг 2. Настройка Microsoft Defender для удостоверений
 
-[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) — это облачное решение для обеспечения безопасности, которое работает с сигналами локальной службы [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) для выявления, обнаружения и изучения расширенных угроз, скомпрометных удостоверений и вредоносных действий внутри организации, направленных на вашу организацию.
+[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) — это облачное решение для обеспечения безопасности, которое работает с сигналами локальной службы [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) для идентификации, обнаружения и изучения расширенных угроз, скомпрометных удостоверений и вредоносных действий внутри организации, направленных на вашу организацию.
 
 Microsoft Defender for Identity позволяет аналитикам операций безопасности (SecOps) и специалистам по безопасности обнаруживать сложные атаки в гибридных средах для:
 - Отслеживайте пользователей, поведение су организаций и действия с помощью аналитики на основе обучения.
@@ -65,7 +65,7 @@ Microsoft Defender for Identity позволяет аналитикам опер
 ![Процесс развертывания Microsoft Defender для удостоверений](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
 
 1. [Настройка Microsoft Defender для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) для защиты основных сред.
-2. Защитите [все контроллеры домена](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) и [леса.](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest)
+2. Защитите [все контроллеры домена](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) [и леса.](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest)
 3. Интеграция [оповещений Microsoft Defender для](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) удостоверений в рабочий процесс операций безопасности (SecOps).
 
 ### <a name="more-information-about-microsoft-defender-for-identity"></a>Дополнительные сведения о Microsoft Defender для удостоверений
@@ -78,7 +78,7 @@ Microsoft Defender for Identity позволяет аналитикам опер
 
 [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) объединяет сигналы и оркестрирует возможности в одном решении. Благодаря интегрированному решению Microsoft 365 Defender специалисты по безопасности могут совмесить сигналы угроз, получаемые каждым из этих продуктов, и определить полный уровень и влияние угрозы; как он вошел в среду, на что она влияет и как она в настоящее время влияет на организацию. Защитник Microsoft 365 автоматически предотвращает или останавливает атаки, а также самостоятельно исцеляет затронутые почтовые ящики, конечные точки и удостоверения пользователей.
 
-Microsoft 365 Defender объединяет оповещения, инциденты, автоматизированное исследование и реагирование, а также расширенный поиск по рабочим нагрузкам (Microsoft Defender для удостоверений, Microsoft Defender для Office 365, Microsoft Defender для конечной точки и Microsoft Cloud App Security) в единой области. После настройки одной или более служб Защитника Office 365 включите Microsoft 365. Новые возможности постоянно добавляются в Microsoft 365 Defender; рассмотрите возможность получения предварительных функций.
+Microsoft 365 Defender объединяет оповещения, инциденты, автоматизированный поиск и реагирование на них, а также расширенный поиск по рабочим нагрузкам (Microsoft Defender для удостоверений, Microsoft Defender для Office 365, Microsoft Defender для конечной точки и Microsoft Cloud App Security) в единой области. После настройки одной или более служб Защитника Office 365 включите Microsoft 365. Новые функции постоянно добавляются в Microsoft 365 Defender; рассмотрите возможность получения предварительных функций.
 
 ### <a name="to-set-up-microsoft-365-defender"></a>Настройка Защитника Microsoft 365
 
@@ -119,7 +119,7 @@ Microsoft 365 Defender объединяет оповещения, инциден
 
 ## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>Шаг 5. Настройка Microsoft Defender для конечной точки
 
-[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection) защищает устройства вашей организации (также называются конечными точками) от киберугроз, расширенных атак и нарушений безопасности данных. Группы безопасности могут более эффективно управлять безопасностью конечных точек. Надежные инструменты помогают организациям следить за невыгруженными системами, используя обнаружение уязвимостей с помощью [управления угрозами и уязвимостами.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Автоматизированное обнаружение и устранение таких возможностей, как уменьшение поверхности [атаки,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)защита нового [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) [поколения,](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10)обнаружение конечных точек и реагирование, [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)а также автоматизированное исследование и исправление помогают защитить устройства от вредоносных программ. Помимо этих возможностей, клиенты могут получать упреждающие уведомления и по запросу обращаться к экспертам по угрозам Майкрософт в рамках службы управляемого вынаружия. 
+[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection) защищает устройства организаций (также называются конечными точками) от киберугроз, расширенных атак и нарушений безопасности данных. Группы безопасности могут более эффективно управлять безопасностью своих конечных точек. Надежные инструменты помогают организациям не отлаженные системы, использующие обнаружение уязвимостей с помощью [управления угрозами и уязвимостами.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Автоматизированное обнаружение и устранение таких возможностей, как уменьшение числа [атак,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)защита нового [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) [поколения,](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10)обнаружение конечных точек и реагирование, [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)а также автоматизированное исследование и исправление, помогают защитить устройства от вредоносных программ. Помимо этих возможностей клиенты могут получать упреждающие уведомления и по запросу обращаться к экспертам по угрозам Майкрософт в рамках службы управляемого выхащения. 
 
 
 ### <a name="set-up-microsoft-defender-for-endpoint"></a>Настройка Microsoft Defender для конечной точки
@@ -145,9 +145,9 @@ Microsoft 365 Defender объединяет оповещения, инциден
 ![Процесс развертывания Microsoft Cloud App Security](../media/solutions-architecture-center/deploy-mcas-steps.png) 
 
 1. [Настройка портала и других основных требований.](https://docs.microsoft.com/cloud-app-security/general-setup)
-2. [Настройка облачного обнаружения и](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) [подключение приложений.](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
+2. [Настройка облачного обнаружения и](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) [подключения приложений.](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
 3. [Развертывание управления приложениями условного доступа для рекомендуемых приложений.](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
-4. [Используйте средства исследования и панели мониторинга.](https://docs.microsoft.com/cloud-app-security/investigate)
+4. [Используйте инструменты исследования и панели мониторинга.](https://docs.microsoft.com/cloud-app-security/investigate)
 
 ### <a name="more-information-about-microsoft-cloud-app-security"></a>Дополнительные сведения о Microsoft Cloud App Security
 
@@ -156,16 +156,16 @@ Microsoft 365 Defender объединяет оповещения, инциден
 
 ## <a name="step-7-monitor-status-and-take-actions"></a>Шаг 7. Отслеживание состояния и действия
 
-После того как вы настроите и развернете службы и возможности защиты от угроз, следующим шагом будет отслеживание обнаружения угроз и соответствующие действия. Лучше всего начать с Центра безопасности Microsoft 365 ( ), где можно отслеживать и управлять безопасностью в удостоверениях, данных, устройствах, приложениях и инфраструктуре [https://security.microsoft.com](https://security.microsoft.com) Майкрософт. 
+После того как вы настроите и развернете службы и возможности защиты от угроз, следующим шагом будет отслеживание обнаружения угроз и соответствующие действия. Отправной точкой является Центр безопасности Microsoft 365 ( ), где можно отслеживать и управлять безопасностью в удостоверениях, данных, устройствах, приложениях и инфраструктуре [https://security.microsoft.com](https://security.microsoft.com) Майкрософт. 
 
-![Центр безопасности Microsoft 365](../media/solutions-architecture-center/m365-security-center.png)
+![Центр безопасности Microsoft 365](../media/solutions-architecture-center/m365-security-center.png)
 
 Центр безопасности Microsoft 365 предназначен специально для администраторов безопасности и групп управления безопасностью. В Центре безопасности Microsoft 365 вы можете:
 - Просмотр общей системы безопасности организации с помощью [оценки безопасности.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)
 - [Мониторинг и просмотр отчетов](https://docs.microsoft.com/microsoft-365/security/mtp/monitoring-and-reporting) о состоянии удостоверений, данных, устройств, приложений и инфраструктуры.
-- Подключите точки в оповещениях через [инциденты.](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue)
-- Используйте [автоматизированное исследование и исправление](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir) для устранения угроз.
-- [Упреждающий поиск угроз,](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-overview)таких как попытки вторжений или нарушения безопасности электронной почты, данных, устройств и удостоверений.
+- Подключите точки оповещений через [инциденты.](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue)
+- Используйте [автоматизированное исследование и исправление для](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir) устранения угроз.
+- [Упреждающий поиск угроз,](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-overview)таких как попытки взлома или нарушения безопасности электронной почты, данных, устройств и удостоверений.
 - [Обзор последних кампаний и](https://docs.microsoft.com/microsoft-365/security/mtp/latest-attack-campaigns) методов атак с помощью аналитики угроз.
 - ... и не только!
 
@@ -179,13 +179,13 @@ Microsoft 365 Defender объединяет оповещения, инциден
 
 Обучение пользователей может сэкономить много времени и раздражение ваших пользователей и операций безопасности. Опытные пользователи реже открывают вложения или щелкают ссылки в сомнительных сообщениях электронной почты и с большей вероятностью избегают подозрительных веб-сайтов. 
 
-Руководство по [](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) кампании по кибербезопасности в учебном заведении предоставляет отличное руководство по созданию сильной культуры осведомленности о безопасности в организации, включая обучение пользователей выявлению фишинговых атак. 
+Руководство по [](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) кампании по кибербезопасности в учебном заведении Вмещает предоставляет отличное руководство по созданию сильной культуры осведомленности о безопасности в организации, включая обучение пользователей выявлению фишинговых атак. 
 
 Microsoft 365 предоставляет следующие ресурсы для информирования пользователей в организации:
 
 |Концепция  |Ресурсы  |
 |---------|---------|
-|Microsoft 365     |[Настраиваемые пути обучения](https://docs.microsoft.com/office365/customlearning/) <p>Эти ресурсы помогут вам собрать учебные курсы для конечных пользователей в организации        |
+|Microsoft 365     |[Настраиваемые пути обучения](https://docs.microsoft.com/office365/customlearning/) <p>Эти ресурсы помогут вам собрать учебные курсы для конечных пользователей в организации        |
 |Безопасность Microsoft 365 |[Модуль обучения: защита организации с помощью встроенной интеллектуальной системы безопасности из Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>Этот модуль позволяет описать, как функции безопасности Microsoft 365 работают вместе, и рассказать о преимуществах этих функций безопасности. |
 |Многофакторная проверка подлинности     | [Двухшаговая проверка: что такое дополнительная страница проверки?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Эта статья помогает конечным пользователям понять, что такое многофакторная проверка подлинности и почему она используется в вашей организации.    |
 

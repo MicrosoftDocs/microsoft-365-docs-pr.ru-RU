@@ -85,7 +85,7 @@ Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
 
 ### <a name="upgrade-multiple-dls-in-a-batch"></a>Обновление нескольких DLS в пакете
 
-Вы также можете передать несколько DLS в качестве пакета и обновить их вместе:
+Вы также можете передать несколько DLS как пакет и обновить их вместе:
 
 ```PowerShell
 Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address2\>,
@@ -111,7 +111,7 @@ Get-EligibleDistributionGroupForMigration | Foreach-Object{
 }
 ```
 
-2. Получение списка всех DLS и обновление только соответствующих DLS:
+2. Получение списка всех DLS и обновление только соответствующих списков DLS:
 
 ```PowerShell
 Get-DistributionGroup| Foreach-Object{
@@ -170,7 +170,7 @@ Get-DistributionGroup| Foreach-Object{
 
 - Если администратор применил  групповую политику адресов электронной почты к группам в организации и пытается обновить DLS, которые не соответствуют критериям, DL не обновляется
 
-- DLs with **MemberJoinRestriction** or **MemberDepartRestriction** set to **Closed**, could not be upgraded
+- Не удалось обновить DLS с **memberJoinRestriction** или **MemberDepartRestriction,** задав для них закрытое
 
 ### <a name="what-happens-to-the-dl-if-the-upgrade-from-eac-fails"></a>Что происходит со списком рассылки при сбое обновления, запущенного через EAC?
 

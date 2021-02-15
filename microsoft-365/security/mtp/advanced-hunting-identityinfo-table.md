@@ -56,12 +56,12 @@ ms.locfileid: "49929914"
 | `AccountName` | string | Имя пользователя учетной записи |
 | `AccountDomain` | string | Домен учетной записи |
 | `EmailAddress` | string | SMTP-адрес учетной записи |
-| `SipProxyAddress` | string | SIP-адрес учетной записи по протоколу SIP |
+| `SipProxyAddress` | string | SIP-адрес учетной записи по протоколу voIP |
 | `City` | string | Город, где находится пользователь учетной записи |
 | `Country` | string | Страна или регион, где находится пользователь учетной записи |
 | `IsAccountEnabled` | boolean | Указывает, включена ли учетная запись |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

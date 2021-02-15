@@ -89,6 +89,6 @@ ms.locfileid: "49932158"
 ## <a name="related-articles"></a>Статьи по теме
 
 - [Обзор API Microsoft 365 Defender](api-overview.md)
-- [Авторизация OAuth 2.0 для доступа к API и входу пользователя](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+- [Авторизация OAuth 2.0 для доступа пользователя к API и входу в нее](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 - [Управление секретами в серверных приложениях с помощью Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 - [Создание приложения "Hello world", которое имеет доступ к API Microsoft 365](api-hello-world.md)

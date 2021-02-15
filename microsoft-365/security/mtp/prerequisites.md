@@ -64,19 +64,19 @@ ms.locfileid: "49930094"
 > Для получения сведений о  лицензии  вам должна быть назначена роль администратора вы выставления счета или роль глобального читателя в [Azure AD.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.
 
 ## <a name="required-permissions"></a>Обязательные разрешения
-Чтобы включить Microsoft 365 **Defender,** необходимо быть глобальным администратором или администратором безопасности в Azure Active Directory.  Список ролей, необходимых для использования Защитника Microsoft 365, и сведения об управлении доступом к данным, прочитайте об управлении доступом к [Microsoft 365 Defender.](mtp-permissions.md)
+Чтобы включить Microsoft 365, необходимо быть глобальным администратором или администратором безопасности в Azure Active Directory.   Список ролей, необходимых для использования Защитника Microsoft 365, и сведения об управлении доступом к данным, прочитайте об управлении доступом к [Microsoft 365 Defender.](mtp-permissions.md)
 
 ## <a name="browser-requirements"></a>Требования к браузеру
 Доступ к Защитнику Microsoft 365 в Центре безопасности Microsoft 365 с помощью Microsoft Edge, Internet Explorer 11 или любого веб-браузера, совместимого с HTML 5.
 
 ## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>Доступность для us GCC, GCC High и других правительственных учреждений США
 В настоящее время Защитник Microsoft 365 *не доступен для:*
-- Облако сообщества государственных организаций США (GCC)
+- Облако сообщества для государственных организаций США (GCC)
 - Облако сообщества государственных организаций США High (GCC High)
 - Министерства обороны США
 - Все государственные учреждения США с коммерческими лицензиями
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор Защитника Microsoft 365](microsoft-threat-protection.md)
-- [Включить Microsoft 365 Defender](mtp-enable.md)
+- [Включить Защитник Microsoft 365](mtp-enable.md)
 - [Управление доступом и разрешениями](mtp-permissions.md)

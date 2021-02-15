@@ -21,7 +21,7 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
-description: Теперь, когда вы настроили Microsoft 365, узнайте, как установить отдельные приложения Office на mac, пк или мобильные устройства и настроить электронную почту в Outlook.
+description: Теперь, когда вы настроили Microsoft 365, узнайте, как установить отдельные приложения Office на компьютерах Mac, ПК или мобильных устройствах и настроить электронную почту в Outlook.
 ms.openlocfilehash: dc8a4c3670dacf4b3cc85637c3e18c51a8c8e350
 ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT

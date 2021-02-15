@@ -1,7 +1,7 @@
 ---
-title: API расширенных поисков в Защитнике Microsoft 365
+title: API расширенных охот на Microsoft 365 Defender
 description: Узнайте, как запускать запросы на расширенный поиск с помощью API advanced hunting в Microsoft 365 Defender
-keywords: Расширенный поиск, API, API, MTP, Защитник M365, Microsoft 365 Defender
+keywords: Расширенный поиск, API, API, MTP, Защитник M365, Защитник Microsoft 365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -55,9 +55,9 @@ ms.locfileid: "49988120"
 > [!NOTE]
 > Все квоты, перечисленные выше (например, 15 вызовов на мин), имеют размер клиента. Эти квоты являются минимальными.
 
-## <a name="permissions"></a>Разрешения
+## <a name="permissions"></a>Permissions
 
-Для вызова API advanced hunting требуется одно из следующих разрешений. Дополнительные узнать, в том числе о том, как выбрать разрешения, см. в API Access для Защиты [Защитника Microsoft 365](api-access.md)
+Для вызова API advanced hunting требуется одно из следующих разрешений. Дополнительные возможности, включая выбор разрешений, см. в API Access для Защиты От защитника [Microsoft 365](api-access.md)
 
 Тип разрешения | Разрешение | Отображаемая имя разрешения
 -|-|-
@@ -80,10 +80,10 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
 
 Заголовок | Значение
 -|-
-Авторизация | Bearer {token} **Note: required**
+Authorization | Bearer {token} **Note: required**
 Content-Type | application/json
 
-## <a name="request-body"></a>Тело запроса
+## <a name="request-body"></a>Текст запроса
 
 В теле запроса укажу объект JSON со следующими параметрами:
 

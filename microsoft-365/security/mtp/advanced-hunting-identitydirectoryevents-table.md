@@ -49,7 +49,7 @@ ms.locfileid: "49929938"
 | `Application` | string | Приложение, которое выполнило записанную действие |
 | `TargetAccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи, к которую было применено записанное действие |
 | `TargetAccountDisplayName` | string | Отображаемого имени учетной записи, к которую было применено записанное действие |
-| `TargetDeviceName` | string | Полное доменное имя (FQDN) устройства, к которого было применено записанное действие |
+| `TargetDeviceName` | string | Полное доменное имя устройства, к которое было применено записанное действие |
 | `DestinationDeviceName` | string | Имя устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
 | `DestinationIPAddress` | string | IP-адрес устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
 | `DestinationPort` | string | Порт назначения действия |
@@ -68,7 +68,7 @@ ms.locfileid: "49929938"
 | `ReportId` | long | Уникальный идентификатор события |
 | `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

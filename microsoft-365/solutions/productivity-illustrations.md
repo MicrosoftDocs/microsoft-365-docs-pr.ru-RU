@@ -39,11 +39,11 @@ ms.locfileid: "50055558"
 |:-----|:-----|
 |[![Эскиз инфографики групп](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> Обновлено в мае 2020 г.|На этих иллюстрациях подробно показаны разные типы групп, как они создаются и управляются, а также приводится несколько рекомендаций по управлению.|
 
-### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Возможности защиты информации и соответствия требованиям Microsoft 365
+### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Возможности Защиты информации и соответствия требованиям Microsoft 365
 
-Microsoft 365 включает широкий набор возможностей защиты информации и соответствия требованиям. Вместе со средствами майкрософт для повышения производительности эти возможности призваны помочь организациям совместно работать в режиме реального времени, придерживаясь строгих нормативных требований. 
+Microsoft 365 включает широкий набор возможностей защиты информации и соответствия требованиям. Вместе со средствами майкрософт для повышения производительности эти возможности призваны помочь организациям совместно работать в режиме реального времени, а также обеспечить соблюдение строгих нормативных требований. 
 
-Этот набор иллюстраций использует одну из самых регулируемых отраслей , финансовые услуги, для демонстрации того, как эти возможности могут применяться для решения общих нормативных требований. Вы можете адаптировать эти изображения для собственного применения. 
+Этот набор иллюстраций использует одну из самых регулируемых отраслей , финансовые услуги, для демонстрации того, как эти возможности можно применять для решения общих нормативных требований. Вы можете адаптировать эти изображения для собственного применения. 
 
 
 | Элемент | Описание |
@@ -143,7 +143,7 @@ This guidance includes Test Lab Guides. For more information, see [Microsoft Sec
 
 ### <a name="microsoft-teams-with-security-isolation"></a>Microsoft Teams с изоляцией безопасности
 
-С помощью Microsoft 365 вы можете настроить частную команду в Microsoft Teams и использовать параметры безопасности сайта SharePoint и уникальную метку конфиденциальности для шифрования файлов, чтобы расшифровать их могут только участники группы.
+В Microsoft 365 можно настроить частную команду в Microsoft Teams и использовать параметры безопасности сайта SharePoint и уникальную метку конфиденциальности для шифрования файлов, чтобы расшифровать их могут только участники группы.
 
 [![Плакат "Microsoft Teams с изоляцией для обеспечения безопасности"](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)  |  [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) <br> Обновлено в августе 2020 г.

@@ -1,5 +1,5 @@
 ---
-title: Безопасность и конфиденциальность данных в Защитнике Microsoft 365
+title: Безопасность и конфиденциальность данных в Microsoft 365 Defender
 description: В этой статье описаны конфиденциальность и безопасность данных службы.
 keywords: конфиденциальность, данные, безопасность, центр управления безопасностью, сбор сведений
 search.product: eADQiWindows 10XVcnh
@@ -27,7 +27,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49932050"
 ---
-# <a name="microsoft-365-defender-data-security-and-privacy"></a>Безопасность и конфиденциальность данных в Защитнике Microsoft 365
+# <a name="microsoft-365-defender-data-security-and-privacy"></a>Безопасность и конфиденциальность данных в Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

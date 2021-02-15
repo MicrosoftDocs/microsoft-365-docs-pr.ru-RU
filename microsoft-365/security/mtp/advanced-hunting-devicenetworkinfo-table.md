@@ -52,14 +52,14 @@ ms.locfileid: "49931210"
 | `NetworkAdapterType` | string | Тип сетевого адаптера. Возможные значения: [](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
 | `NetworkAdapterStatus` | string | Операционное состояние сетевого адаптера. Возможные значения: [](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
 | `TunnelType` | string | Протокол туннелинга, если интерфейс используется для этой цели, например 6to4, Teredo, ISATAP, PPTP, SSTP и SSH |
-| `ConnectedNetworks` | string | Сети, к которые подключен адаптер. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он к Интернету публично |
+| `ConnectedNetworks` | string | Сети, к которые подключен адаптер. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он к Интернету общедоступным образом. |
 | `DnsAddresses` | string | Адреса DNS-серверов в формате массива JSON |
 | `IPv4Dhcp` | string | IPv4-адрес DHCP-сервера |
 | `IPv6Dhcp` | string | IPv6-адрес DHCP-сервера |
 | `DefaultGateways` | string | Адреса шлюзов по умолчанию в формате массива JSON |
 | `IPAddresses` | string | Массив JSON, содержащий все IP-адреса, присвоенные адаптеру, а также соответствующий префикс подсети и пространство IP-адресов, например общедоступный, частный или локальный |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
