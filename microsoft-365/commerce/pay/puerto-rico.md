@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Пуэрто-Рико
+title: Платежная информация для Пуэрто-Рико
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 93c537f05c088e041d7a7d3cc775de66735e84e8
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48646947"
 ---
-# <a name="payment-information-for-puerto-rico"></a>Сведения об оплате для Пуэрто-Рико
+# <a name="payment-information-for-puerto-rico"></a>Платежная информация для Пуэрто-Рико
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Заплатите в оплате только USD и справочные номера для счета-фактуры в предъявлении к оплате.
+Please pay in USD only and reference invoice number(s) on your payment invoice invoice.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Банк Америка  
-**Ветвь:** Офиса  
+**Bank:** Банк Америки  
+**Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
-**Номер счета:** 4426587954  
-**Имя учетной записи:** Корпораци  
+**Номер учетной записи:** 4426587954  
+**Имя учетной записи:** Майкрософт  

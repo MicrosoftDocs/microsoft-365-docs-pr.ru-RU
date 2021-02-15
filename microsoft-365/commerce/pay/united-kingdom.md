@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Великобритании
+title: Платежная информация для Соединенного Королевства
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 2e8dfc5d5ebc6e300fa50b0f51e4bd6344aa3aed
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,17 +20,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648159"
 ---
-# <a name="payment-information-for-united-kingdom"></a>Сведения об оплате для Великобритании
+# <a name="payment-information-for-united-kingdom"></a>Платежная информация для Соединенного Королевства
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Заплатите в ГБП только номера счетов и ссылки на них в предъявлении к оплате.
+Please pay in GBP only and reference invoice number(s) on your payment payment payment invoice.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**Код SWIFT:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Код SWIFT:** THEGB2L  
 **IBAN:** GB41CITI18500812207605  
-**Код сортировки:** 185008  
-**Номер счета:** 12207605  
-**Имя учетной записи:** КОРПОРАЦИ  
+**Код СОРТИРОВКИ:** 185008  
+**Номер учетной записи:** 12207605  
+**Имя учетной записи:** МАЙКРОСОФТ  

@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Словения
+title: Платежная информация для Словении
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 7711acb82c847134db24d341911d4a98235e77b4
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,17 +20,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648591"
 ---
-# <a name="payment-information-for-slovenia"></a>Сведения об оплате для Словения
+# <a name="payment-information-for-slovenia"></a>Платежная информация для Словении
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Платите только в EUR и указывает на номера счетов в предъявлении к оплате.
+Оплата только в ЕС и ссылка на номера счета-фактуры в платежных платежах.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**SWIFT Code/БИК:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Swift Code/BIC:** THEGB2L  
 **IBAN:** GB31CITI18500812207591  
 **Код сортировки:** 185008  
-**Номер счета:** 12207591  
-**Имя учетной записи:** КОРПОРАЦИ
+**Номер учетной записи:** 12207591  
+**Имя учетной записи:** МАЙКРОСОФТ

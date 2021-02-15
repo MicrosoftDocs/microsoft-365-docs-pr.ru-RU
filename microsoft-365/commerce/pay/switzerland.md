@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Швейцарии
+title: Платежные данные для Швейцарии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 593293fab0d61ba7ecb154f3eb7ed48cf07e1dee
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648399"
 ---
-# <a name="payment-information-for-switzerland"></a>Сведения об оплате для Швейцарии
+# <a name="payment-information-for-switzerland"></a>Платежные данные для Швейцарии
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Заплатите в ЧФ только номера счетов и ссылки на них в предъявлении к оплате.
+Please pay in CHF only and reference invoice number(s) on your payment invoice invoice.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**SWIFT Code/БИК:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Swift Code/BIC:** THEGB2L  
 **IBAN:** GB44CITI18500812207648  
-**Номер счета:** 12207648  
-**Имя учетной записи:** КОРПОРАЦИ  
+**Номер учетной записи:** 12207648  
+**Имя учетной записи:** МАЙКРОСОФТ  

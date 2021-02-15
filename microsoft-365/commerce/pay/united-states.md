@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для США
+title: Платежная информация для США
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 7c41d9461adb70683b1f57878389e9e7d6c45991
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,23 +20,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648099"
 ---
-# <a name="payment-information-for-united-states"></a>Сведения об оплате для США
+# <a name="payment-information-for-united-states"></a>Платежная информация для США
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Платите только USD и указываете номера счетов для предъявления к оплате.
+Вы платите только в долларах США и ссылайтесь на свои счета-фактуры.
 
-## <a name="check"></a>Проверка
+## <a name="check"></a>Чек
 
-**Получатель:** Корпораци  
-**Почтовый адрес:**   
-Стандартная почта: почтовый ящик 842103, Dallas, TX 75284-2103  
-Быстрая почта: защищенное хранилище 842103, 1950 N. Стеммонс Фрви, сте. 5010, Dallas, TX 75207-2103
+**Payee:** Майкрософт  
+**Адрес электронной почты:**   
+Стандартная почта: PO Box 842103, Даллас, TX 75284-2103  
+Экспресс-почта: lockbox 842103, 1950 N. Stemmons Frwy, Ste. 5010, Даллас, TX 75207-2103
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Банк Америка  
+**Bank:** Банк Америки  
 **Код SWIFT:** BOFAUS3N  
-**Код банка ABA/номер маршрутизации:** 111 000 012  
-**Номер счета:** 4426587954  
-**Имя учетной записи:** Корпораци  
+**ABA/Routing Number:** 111 000 012  
+**Номер учетной записи:** 4426587954  
+**Имя учетной записи:** Майкрософт  

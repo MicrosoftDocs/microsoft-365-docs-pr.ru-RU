@@ -1,5 +1,5 @@
 ---
-title: Сведения о платежах для Британских островов США
+title: Платежная информация для Виргинских островов, США
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 62ae33afde81d2beccabc9836c3ad94182705d6e
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648015"
 ---
-# <a name="payment-information-for-virgin-islands-us"></a>Сведения о платежах для Британских островов США
+# <a name="payment-information-for-virgin-islands-us"></a>Платежная информация для Виргинских островов, США
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Заплатите в оплате только USD и справочные номера для счета-фактуры в предъявлении к оплате.
+Оплата только в долларах США и справочные номера счета-фактуры для оплаты.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Банк Америка  
-**Ветвь:** Офиса  
+**Bank:** Банк Америки  
+**Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
-**Номер счета:** 4426587954  
-**Имя учетной записи:** Корпораци  
+**Номер учетной записи:** 4426587954  
+**Имя учетной записи:** Майкрософт  

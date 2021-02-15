@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Кения
+title: Платежная информация для Кения
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: dc8fbde1726bb5fb3bc5aed2578ff394693d26dc
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48646971"
 ---
-# <a name="payment-information-for-kenya"></a>Сведения об оплате для Кения
+# <a name="payment-information-for-kenya"></a>Платежная информация для Кения
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Платите только USD и указываете номера счетов-фактур на предъявление к оплате счетов.
+Вы платите только в долларах США и ссылайтесь на свои номера счета-фактуры в счете-фактуре.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**Код SWIFT:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Код SWIFT:** THEGB2L  
 **IBAN:** GB95CITI18500812510049  
-**Номер счета:** 12510049  
-**Имя учетной записи:** КОРПОРАЦИ  
+**Номер учетной записи:** 12510049  
+**Имя учетной записи:** МАЙКРОСОФТ  

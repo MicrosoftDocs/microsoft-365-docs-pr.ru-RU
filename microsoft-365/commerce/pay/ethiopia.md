@@ -1,5 +1,5 @@
 ---
-title: Сведения о платежах для Эфиопия
+title: Платежная информация для Эфиопии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4a1c60972ded80cfe31b15131f6061a0fe538f3c
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48647703"
 ---
-# <a name="payment-information-for-ethiopia"></a>Сведения о платежах для Эфиопия
+# <a name="payment-information-for-ethiopia"></a>Платежная информация для Эфиопии
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Заплатите в оплате только USD и справочные номера для счета-фактуры в предъявлении к оплате.
+Please pay in USD only and reference invoice number(s) on your payment invoice invoice.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**Код SWIFT:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Код SWIFT:** THEGB2L  
 **IBAN:** GB95CITI18500812510049  
-**Номер счета:** 12510049  
-**Имя учетной записи:** КОРПОРАЦИ  
+**Номер учетной записи:** 12510049  
+**Имя учетной записи:** МАЙКРОСОФТ  

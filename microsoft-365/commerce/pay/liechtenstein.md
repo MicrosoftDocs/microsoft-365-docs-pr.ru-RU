@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Лихтенштейн
+title: Платежная информация для Лихтенштейна
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: f286e19870a265a0036523c020e4d1891da1d9a2
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48649419"
 ---
-# <a name="payment-information-for-liechtenstein"></a>Сведения об оплате для Лихтенштейн
+# <a name="payment-information-for-liechtenstein"></a>Платежная информация для Лихтенштейна
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Заплатите в ЧФ только номера счетов и ссылки на них в предъявлении к оплате.
+Please pay in CHF only and reference invoice number(s) on your payment invoice invoice.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**Код SWIFT:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Код SWIFT:** THEGB2L  
 **IBAN:** GB44CITI18500812207648  
-**Номер счета:** 12207648  
-**Имя учетной записи:** КОРПОРАЦИ  
+**Номер учетной записи:** 12207648  
+**Имя учетной записи:** МАЙКРОСОФТ  

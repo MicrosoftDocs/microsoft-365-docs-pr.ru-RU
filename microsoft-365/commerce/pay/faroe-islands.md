@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате за Фарерские острова
+title: Платежная информация для Фаровых островов
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: f6d73996ce538b457067a1cfabd2440eaf4a2891
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,17 +20,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48647667"
 ---
-# <a name="payment-information-for-faroe-islands"></a>Сведения об оплате за Фарерские острова
+# <a name="payment-information-for-faroe-islands"></a>Платежная информация для Фаровых островов
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Платите только в EUR, а номера счетов-фактуры на предъявление к оплате платежей.
+Оплата только в есвеях и справочные номера счета-фактуры для оплаты.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**SWIFT Code/БИК:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Swift Code/BIC:** THEGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Код сортировки:** 185008  
-**Номер счета:** 12207591  
-**Имя учетной записи:** КОРПОРАЦИ  
+**Код СОРТИРОВКИ:** 185008  
+**Номер учетной записи:** 12207591  
+**Имя учетной записи:** МАЙКРОСОФТ  

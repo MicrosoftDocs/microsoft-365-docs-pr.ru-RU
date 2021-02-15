@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Люксембург
+title: Платежные данные для Люксембурга
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 2b485a017f682ae86513d3c6b812157715da6556
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,17 +20,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48649383"
 ---
-# <a name="payment-information-for-luxembourg"></a>Сведения об оплате для Люксембург
+# <a name="payment-information-for-luxembourg"></a>Платежная информация для Люксембурга
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Платите только в EUR, а номера счетов-фактуры на предъявление к оплате платежей.
+Оплата только в есвеях и справочные номера счета-фактуры для оплаты.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк:** Цитибанк, Лондон  
-**Код SWIFT:** CITIGB2L  
+**Bank:** Заметьев, Лондон  
+**Код SWIFT:** THEGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Код сортировки:** 185008  
-**Номер счета:** 12207591  
-**Имя учетной записи:** КОРПОРАЦИ
+**Код СОРТИРОВКИ:** 185008  
+**Номер учетной записи:** 12207591  
+**Имя учетной записи:** МАЙКРОСОФТ
