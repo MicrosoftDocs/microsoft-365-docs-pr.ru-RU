@@ -1,5 +1,5 @@
 ---
-title: Встроенные устройства с Windows 10 с помощью диспетчера конфигураций
+title: Подключение устройств Windows 10 с помощью Configuration Manager
 f1.keywords: NOCSH
 ms.author: chrfox
 author: chrfox
@@ -13,7 +13,7 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: С помощью Configuration Manager разверните пакет конфигурации на устройствах, чтобы они были подключены к службе.
+description: Используйте Configuration Manager для развертывания пакета конфигурации на устройствах, чтобы они были вовсю в службе.
 ms.openlocfilehash: ea1b0cba10dc3e7120192e0c0ee87e2e354f1cc2
 ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
@@ -21,54 +21,54 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/27/2020
 ms.locfileid: "48769475"
 ---
-# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Встроенные устройства с Windows 10 с помощью диспетчера конфигураций
+# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Подключение устройств Windows 10 с помощью Configuration Manager
 
 **Область применения:**
 
-- [Защита от потери данных (DLP) Microsoft 365 Endpoint](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Предотвращение потери данных конечной точки Microsoft 365 (DLP)](/microsoft-365/compliance/endpoint-dlp-learn-about)
 - Диспетчер конфигураций System Center 2012 R2
 
-### <a name="onboard-devices-using-system-center-configuration-manager"></a>Встроенные устройства с помощью System Center Configuration Manager
+### <a name="onboard-devices-using-system-center-configuration-manager"></a>Ветвь устройств с помощью System Center Configuration Manager
 
-1. Откройте ZIP-файл пакета конфигурации Configuration Manager ( *DeviceComplianceOnboardingPackage.zip* ), скачанный с помощью мастера входящей миграции служб. Вы также можете получить пакет из [центра соответствия требованиям корпорации Майкрософт](https://compliance.microsoft.com/).
+1. Откройте ZIP-файл пакета конфигурации ** Configuration Manager (DeviceComplianceOnboardingPackage.zip), который вы скачали из мастера подбора службы. Вы также можете получить пакет из [Центра соответствия требованиям Майкрософт.](https://compliance.microsoft.com/)
 
-2. В области навигации выберите **Параметры** входящей миграции  >  **устройств**  >  **Onboarding** .
+2. В области навигации выберите **"Параметры** для входящего  >  **устройства".**  >  
 
-3. В поле **метод развертывания** выберите **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602** .
+3. В поле **"Метод развертывания"** выберите **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602.**
  
-4. Выберите пункт **скачать пакет** и сохраните ZIP-файл.
+4. Выберите **пакет загрузки** и сохраните ZIP-файл.
 
-5. Извлеките содержимое ZIP-файла в общую папку, доступную только для чтения и доступную для администраторов сети, которые будут развертывать пакет. У вас должен быть файл с именем *девицекомплианцеонбоардингскрипт. cmd* .
+5. Извлеките содержимое ZIP-файла в общую папку, доступную только для чтения, доступную администраторам сети, которые будут развертывать пакет. У вас должен быть файл *DeviceComplianceOnboardingScript.cmd.*
 
-6. Разверните пакет, выполнив действия, описанные в статье [packages and Programs In System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) .
+6. Развернем пакет, следуя шагам в статье "Пакеты и [программы System Center 2012 R2 Configuration Manager".](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
 
-7. Выберите предварительно определенную коллекцию устройств, в которую будет развернут пакет.
+7. Выберите предопределную коллекцию устройств для развертывания пакета.
 
 > [!NOTE]
-> Защита от потери данных в конечных точках Microsoft 365 не поддерживает входящую миграцию во время этапа [приветствия (OOBE)](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) . Убедитесь, что пользователи завершают OOBE после установки или обновления Windows.
+> Microsoft 365 Endpoint data loss prevention doesn't support onboarding during the [Out-of-Box Experience (OOBE)](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) phase. Убедитесь, что после установки или обновления Windows пользователи завершат OOBE.
 
 >[!TIP]
-> После подключения устройства можно выбрать выполнение проверки обнаружения, чтобы убедиться, что устройство правильно подключено к службе. Дополнительные сведения см. в [статье выполнение проверки обнаружения для нового устройства ATP "защитник Майкрософт"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-detection-test).
+> После вбора устройства можно выполнить тест обнаружения, чтобы убедиться, что устройство правильно вложено в службу. Дополнительные сведения см. в тесте обнаружения на новом устройстве [ATP в Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
 >
-> Обратите внимание на то, что можно создать правило обнаружения для приложения Configuration Manager, чтобы постоянно проверять, было ли устройство подключено к подсистеме. Приложение — это тип объекта, отличный от того, который является пакетом и программой.
-> Если устройство еще не подключено (из-за ожидания завершения OOBE или по какой-либо иной причине), диспетчер конфигурации попытается выполнить подключение устройства до тех пор, пока правило не обнаружит изменение состояния.
+> Обратите внимание, что можно создать правило обнаружения в приложении Configuration Manager, чтобы постоянно проверять, было ли устройство в сети. Приложение — это объект другого типа, чем пакет и программа.
+> Если устройство еще не установлено (из-за ожидающих завершения OOBE или по какой-либо другой причине), Configuration Manager будет повторно фиксировать устройство, пока правило не обнаружит изменение состояния.
 > 
-> Это можно сделать, создав проверку правила обнаружения, если значение реестра "Онбоардингстате" (типа REG_DWORD) = 1.
-> Это значение реестра находится в разделе "HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Протектион\статус".
-Дополнительные сведения см. [в разделе configure Detection Methods In System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type).
+> Для этого можно создать проверку правила обнаружения, если значение реестра "OnboardingState" (типа REG_DWORD) = 1.
+> Это значение реестра находится в "HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status".
+Дополнительные сведения [см. в подстроке Configure Detection Methods в System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type)
 
-### <a name="configure-sample-collection-settings"></a>Настройка параметров коллекции образцов
+### <a name="configure-sample-collection-settings"></a>Настройка параметров образца коллекции
 
-Для каждого устройства можно задать значение конфигурации, чтобы определить, можно ли собирать данные с устройства при выполнении запроса с помощью центра безопасности защитника Майкрософт, чтобы отправить файл для детального анализа.
+Для каждого устройства можно установить значение конфигурации, чтобы определить, можно ли собирать образцы с устройства при отправке запроса через Центр безопасности Microsoft Defender на отправку файла для глубокого анализа.
 
 >[!NOTE]
->Эти параметры конфигурации обычно выполняются с помощью Configuration Manager. 
+>Эти параметры конфигурации обычно настраиваются с помощью Configuration Manager. 
 
-Вы можете задать правило соответствия для элемента конфигурации в диспетчере конфигураций, чтобы изменить параметр общего доступа к общему ресурсу на устройстве.
+Вы можете настроить правило соответствия для элемента конфигурации в Configuration Manager, чтобы изменить пример параметра share на устройстве.
 
-Это правило должно быть элементом конфигурации правила соответствия *Устранение* , который задает значение раздела реестра на целевых устройствах, чтобы убедиться, что они являются жалобой.
+Это правило должно  быть исправлением элемента конфигурации правила соответствия, который задает значение ключа реестра на целевых устройствах, чтобы убедиться, что они жалуются.
 
-Конфигурация задается с помощью следующей записи раздела реестра:
+Конфигурация заданная с помощью следующей записи реестра:
 
 ```
 Path: “HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection”
@@ -76,135 +76,135 @@ Name: "AllowSampleCollection"
 Value: 0 or 1
 ```
 Где:<br>
-Тип ключа это D-слово. <br>
+Тип ключа — D-WORD. <br>
 Возможные значения:
-- 0 — не разрешает общий доступ к образцу с этого устройства
-- 1 — разрешает общий доступ к типам файлов с этого устройства.
+- 0 — не разрешает общий доступ к примерам с этого устройства
+- 1 — разрешает общий доступ к файлам всех типов с этого устройства
 
-Значение по умолчанию, если раздел реестра не существует — 1.
+Значение по умолчанию, если не существует ключа реестра, — 1.
 
-Для получения дополнительных сведений о соответствии требованиям System Center Configuration Manager, ознакомьтесь со статьей [Введение в параметры соответствия требованиям в System center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\)).
+Дополнительные сведения о соответствии требованиям System Center Configuration Manager см. в введении параметров соответствия [в System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
 
 
-## <a name="other-recommended-configuration-settings"></a>Другие Рекомендуемые параметры конфигурации
-После подключения устройств к службе необходимо воспользоваться преимуществами включенных функций защиты от угроз, добавив их в следующие рекомендуемые параметры конфигурации.
+## <a name="other-recommended-configuration-settings"></a>Другие рекомендуемые параметры конфигурации
+После включения устройств в службу важно воспользоваться преимуществами включенных возможностей защиты от угроз, включив для них следующие рекомендуемые параметры конфигурации.
 
 ### <a name="device-collection-configuration"></a>Конфигурация коллекции устройств
-Если вы используете Диспетчер конфигураций конечной точки версии 2002 или более поздней, вы можете расширить развертывание, включив в него серверы или клиенты более поздней версии.
+Если вы используете Endpoint Configuration Manager версии 2002 или более поздней, вы можете расширить развертывание, включив серверы или клиенты более поздней версии.
 
 
-### <a name="next-generation-protection-configuration"></a>Конфигурация защиты следующего поколения
+### <a name="next-generation-protection-configuration"></a>Конфигурация защиты нового поколения
 
 Рекомендуется использовать следующие параметры конфигурации:
 
 **Сканирование**
 
-- Проверка съемных устройств хранения данных, таких как USB-накопители: Да
+- Проверка съемных устройств хранения, таких как USB-накопители: да
 
 **Защита в режиме реального времени**
 
-- Включить мониторинг поведения: Да
-- Включение защиты от потенциально нежелательных приложений при скачивании и до установки: Да
+- Включить мониторинг поведения: да
+- Включить защиту от потенциально нежелательных приложений при загрузке и перед установкой: да
 
-**Служба облачной защиты**
+**Облачная служба защиты**
 
-- Тип участия в службе облачной защиты: расширенное членство
+- Тип членства в облачной службе защиты: расширенные членство
 
-**Сокращение** уязвимой зоны Настройте все доступные правила для аудита.
+**Уменьшение поверхности атаки** Настройте все доступные правила для аудита.
 
 >[!NOTE]
-> Блокировка этих действий может привести к прерыванию легальных бизнес-процессов. Лучший подход — установить все функции аудита, определить, какие из них безопасны, а затем включить эти параметры в конечных точках, не имеющих ложных срабатываний.
+> Блокировка этих действий может прервать законные бизнес-процессы. Лучший способ — установить все для аудита, определить, какие из них безопасно включить, а затем включить эти параметры на конечных точках, которые не имеют обнаружений ложных срабатывающих результатов.
 
 **Защита сети**
 
-Прежде чем включить защиту сети в режиме аудита или блокировки, убедитесь, что вы установили обновление платформы для защиты от вредоносных программ, которое можно получить на [странице поддержки](https://support.microsoft.com/en-us/help/4560203/windows-defender-anti-malware-platform-binaries-are-missing).
+Перед включением защиты сети в режиме аудита или блокировки убедитесь, что установлено обновление антивластиальной платформы, которое можно получить на странице [поддержки.](https://support.microsoft.com/en-us/help/4560203/windows-defender-anti-malware-platform-binaries-are-missing)
 
 
-**Контролируемый доступ к папкам**
+**Управляемый доступ к папок**
 
-Включение функции в режиме аудита не менее 30 дней. По истечении этого периода просмотрите определения и создайте список приложений, которым разрешено выполнять запись в защищенные каталоги.
+Включить функцию в режиме аудита не менее 30 дней. После этого просмотрите обнаружения и создайте список приложений, которые могут записывать в защищенные каталоги.
 
-Более подробную информацию можно узнать в статье [Оценка контролируемого доступа к папкам](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluate-controlled-folder-access).
+Дополнительные сведения см. в под [управлением оценки доступа к папок.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluate-controlled-folder-access)
 
 
-## <a name="offboard-devices-using-configuration-manager"></a>Устройства переносе с помощью диспетчера конфигураций
+## <a name="offboard-devices-using-configuration-manager"></a>Отключение устройств с помощью Configuration Manager
 
-Из соображений безопасности для пакета, используемого для переносе устройств, срок действия истекает через 30 дней после загрузки даты. Недействительные пакеты отключения, отправленные на устройство, будут отклонены. При загрузке пакета отключения вы получите уведомление об истечении срока действия пакетов, и оно также будет включено в имя пакета.
+Из соображений безопасности срок действия пакета, используемой для отключенных устройств, истекает через 30 дней после даты его загрузки. Пакеты отключения с истекшим сроком действия, отправленные на устройство, будут отклонены. При скачии пакета отключения вы будете уведомлены о дате окончания срока действия пакетов, и он также будет включен в имя пакета.
 
 > [!NOTE]
-> Входящая и исходящая политики не должны разворачиваться на одном устройстве одновременно, в противном случае это приведет к непредсказуемым конфликтам.
+> Политики в отношении подключения и отключения не должны развертываться одновременно на одном устройстве, в противном случае это приведет к непредсказуемым столкновениям.
 
-### <a name="offboard-devices-using-microsoft-endpoint-configuration-manager-current-branch"></a>Устройства переносе, использующие текущую ветвь Microsoft Endpoint Configuration Manager
+### <a name="offboard-devices-using-microsoft-endpoint-configuration-manager-current-branch"></a>Отключение устройств с помощью текущей ветви Microsoft Endpoint Configuration Manager
 
-Если вы используете текущую ветвь Microsoft Endpoint Configuration Manager, ознакомьтесь [со статьей Создание файла конфигурации](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)отключения.
+Если вы используете текущую ветвь Microsoft Endpoint Configuration Manager, см. статью "Создание файла конфигурации [отключения".](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)
 
-### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Устройства переносе с использованием System Center 2012 R2 Configuration Manager
+### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Отключение устройств с System Center 2012 R2 Configuration Manager
 
-1. Получение пакета отключения от [центра соответствия требованиям корпорации Майкрософт](https://compliance.microsoft.com/):
+1. Получите пакет отключения из Центра [соответствия требованиям Майкрософт:](https://compliance.microsoft.com/)
 
-2. В области навигации выберите **Параметры** отключение подключения  >   **устройства** >  **Offboarding** .
+2. В области навигации выберите **параметры** отключения устройства.  >    >  
 
 3. Выберите Windows 10 в качестве операционной системы.
 
-4. В поле **метод развертывания** выберите **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602** .
+4. В поле **"Метод развертывания"** выберите **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602.**
     
-5. Выберите пункт **скачать пакет** и сохраните ZIP-файл.
+5. Выберите **пакет загрузки** и сохраните ZIP-файл.
 
-6. Извлеките содержимое ZIP-файла в общую папку, доступную только для чтения и доступную для администраторов сети, которые будут развертывать пакет. У вас должен быть файл с именем *DeviceComplianceOffboardingScript_valid_until_YYYY-мм-дд. cmd* .
+6. Извлеките содержимое ZIP-файла в общую папку, доступную только для чтения, доступную администраторам сети, которые будут развертывать пакет. У вас должен быть файл *с именем DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd.*
 
-7. Разверните пакет, выполнив действия, описанные в статье [packages and Programs In System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) .
+7. Развернем пакет, следуя шагам в статье "Пакеты и [программы System Center 2012 R2 Configuration Manager".](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
 
-8. Выберите предварительно определенную коллекцию устройств, в которую будет развернут пакет.
+8. Выберите предопределную коллекцию устройств для развертывания пакета.
 
 > [!IMPORTANT]
-> Отключение останавливает отправку данных датчиков на портал, но данные с устройства, в том числе ссылки на все оповещения, которые она будет хранить, в течение 6 месяцев.
+> Отключение приводит к тому, что устройство перестает отправлять данные датчиков на портал, но данные с устройства, включая ссылки на все оповещения, которые у него есть, будут храниться до 6 месяцев.
 
 
-## <a name="monitor-device-configuration"></a>Мониторинг конфигурации устройства
+## <a name="monitor-device-configuration"></a>Отслеживание конфигурации устройства
 
-Если вы используете текущую ветвь Microsoft Endpoint Configuration Manager, используйте встроенную панель мониторинга защитника Microsoft Defender в консоли Configuration Manager. Дополнительные сведения см. в разделе [Advanced Threat Protection в защитнике Майкрософт — мониторинг](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor).
+Если вы используете текущую ветвь Microsoft Endpoint Configuration Manager, используйте встроенную панель мониторинга ATP в Microsoft Defender в консоли Configuration Manager. Дополнительные сведения см. в [записи "Advanced Threat Protection в Microsoft Defender - Monitor".](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
 
-Если вы используете System Center 2012 R2 Configuration Manager, отслеживание состоит из двух частей:
+Если вы используете System Center 2012 R2 Configuration Manager, мониторинг состоит из двух частей:
 
-1. Подтверждение того, что пакет конфигурации был правильно развернут и запущен (или успешно запущен) на устройствах в вашей сети.
+1. Подтверждение правильного развертывания пакета конфигурации и его работы (или успешного запуска) на устройствах в сети.
 
-2. Проверка того, что устройства соответствуют службе защиты от потери данных в Microsoft 365 (это гарантирует, что устройство может завершить процесс входящей миграции и может продолжать отчитываться от данных для службы).
+2. Проверка того, что устройства соответствуют требованиям службы защиты от потери данных конечной точки Microsoft 365 (это гарантирует, что устройство сможет завершить процесс регистрации и продолжит передачу данных в службу).
 
-### <a name="confirm-the-configuration-package-has-been-correctly-deployed"></a>Подтвердите, что пакет конфигурации был правильно развернут
+### <a name="confirm-the-configuration-package-has-been-correctly-deployed"></a>Подтверждение правильного развертывания пакета конфигурации
 
-1. В консоли диспетчера конфигураций щелкните **мониторинг** в нижней части области навигации.
+1. В консоли Configuration Manager щелкните **"Мониторинг"** в нижней части области навигации.
 
-2. Выберите **Обзор** , а затем **развертывания** .
+2. Выберите **"Обзор",** а затем **"Развертывания".**
 
 3. Выберите развертывание с именем пакета.
 
-4. Просмотрите индикаторы состояния в разделе **Статистика о завершении** и **состояние контента** .
+4. Просмотрите индикаторы состояния в **статье "Статистика завершения** и **состояние содержимого".**
 
-    Если при развертывании произошел сбой (устройства с **ошибками** , **требования не выполнены** или **состояния** с ошибками), может потребоваться устранение неполадок устройств. Дополнительные сведения см. в [статье Устранение неполадок, связанных с Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding).
+    В случае сбойных развертывание (устройств с состоянием "Ошибка", "Требования не выполнены" или "Сбой") может потребоваться устранить неполадки.  Дополнительные сведения см. в подсети "Устранение неполадок с подмавлением [Advanced Threat Protection в Microsoft Defender".](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
 
-    ![Диспетчер конфигураций, демонстрирующий успешное развертывание без ошибок](../media/sccm-deployment.png)
+    ![Configuration Manager с отображением успешного развертывания без ошибок](../media/sccm-deployment.png)
 
-### <a name="check-that-the-devices-are-compliant-with-the-microsoft-365-endpoint-data-loss-prevention-service"></a>Убедитесь, что устройства соответствуют службе защиты от потери данных в Microsoft 365
+### <a name="check-that-the-devices-are-compliant-with-the-microsoft-365-endpoint-data-loss-prevention-service"></a>Убедитесь, что устройства соответствуют требованиям службы защиты от потери данных Конечной точки Microsoft 365
 
-Для отслеживания развертывания можно задать правило соответствия для элемента конфигурации в System Center 2012 R2 Configuration Manager.
+Вы можете настроить правило соответствия для элемента конфигурации в System Center 2012 R2 Configuration Manager для отслеживания развертывания.
 
 > [!NOTE]
-> Эта процедура и запись реестра применяются к точке защиты от потери данных и Advanced Threat protection.
+> Эта процедура и запись реестра применимы к DLP конечной точки, а также Advanced Threat Protection.
 
-Это правило должно быть элементом конфигурации правила соответствия, не относящимся к *Устранение* , который отслеживает значение раздела реестра на целевых устройствах.
+Это правило должно быть *элементом* конфигурации правила соответствия, который отслеживает значение ключа реестра на целевых устройствах.
 
-Отслеживайте следующую запись раздела реестра:
+Отслеживайте следующую запись реестра:
 ```
 Path: “HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status”
 Name: “OnboardingState”
 Value: “1”
 ```
-Дополнительные сведения см. [в разделе Введение в параметры соответствия требованиям в System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\)).
+Дополнительные сведения см. [в введении параметров соответствия требованиям в System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
 
-## <a name="related-topics"></a>Статьи по теме
-- [Встроенные устройства с Windows 10 с помощью групповой политики](dlp-configure-endpoints-gp.md)
-- [Встроенные устройства с Windows 10 с помощью средств управления мобильными устройствами](dlp-configure-endpoints-mdm.md)
-- [Встроенные устройства с Windows 10 с помощью локального сценария](dlp-configure-endpoints-script.md)
-- [Встроенные устройства неустойчивой инфраструктуры виртуальных рабочих столов (VDI)](dlp-configure-endpoints-vdi.md)
-- [Запуск проверки обнаружения на неподключенном устройстве "защитник Майкрософт" в автономном выплате](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [Устранение неполадок, связанных с Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+## <a name="related-topics"></a>Связанные статьи
+- [Ветвь устройств с Windows 10 с помощью групповой политики](dlp-configure-endpoints-gp.md)
+- [Подключение устройств Windows 10 с помощью средств управления мобильными устройствами](dlp-configure-endpoints-mdm.md)
+- [Подключение устройств Windows 10 с помощью локального сценария](dlp-configure-endpoints-script.md)
+- [Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)](dlp-configure-endpoints-vdi.md)
+- [Запуск теста обнаружения на новом устройстве ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
+- [Устранение неполадок с подсетями Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

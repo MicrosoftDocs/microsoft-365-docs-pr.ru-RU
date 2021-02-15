@@ -32,14 +32,14 @@ ms.locfileid: "48754544"
 Для удаления и восстановления учетных записей пользователей можно использовать PowerShell для Microsoft 365.
 
 >[!Note]
->Узнайте, как [восстановить учетную запись пользователя](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user) с помощью центра администрирования Microsoft 365.
+>Узнайте, как [восстановить учетную запись пользователя](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user) с помощью Центра администрирования Microsoft 365.
 >
->Список дополнительных ресурсов приведен в разделе [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
+>Список дополнительных ресурсов см. в [подсети "Управление пользователями и группами".](https://docs.microsoft.com/microsoft-365/admin/add-users/)
 >   
    
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Сначала [подключитесь к клиенту Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 После подключения используйте следующий синтаксис для удаления отдельной учетной записи пользователя:
   
@@ -47,14 +47,14 @@ ms.locfileid: "48754544"
 Remove-AzureADUser -ObjectID <sign-in name>
 ```
 
-В этом примере удаляется учетная запись пользователя *фабрицек \@ litwareinc.com*.
+В этом примере удаляется имя *fabricec \@ учетной записи litwareinc.com.*
   
 ```powershell
 Remove-AzureADUser -ObjectID fabricec@litwareinc.com
 ```
 
 > [!NOTE]
-> Параметр *– ObjectID* в командлете **Remove – AzureADUser** принимает либо имя входа учетной записи, также называемое именем участника пользователя, либо идентификатор объекта учетной записи.
+> Параметр *-ObjectID* в cmdlet **Remove-AzureADUser** принимает имя для регистрации учетной записи, также известное как имя пользователя или ИД объекта учетной записи.
   
 Чтобы отобразить имя учетной записи на основе имени пользователя, используйте следующие команды:
   
@@ -63,7 +63,7 @@ $userName="<User name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-В этом примере отображается имя учетной записи пользователя *Caleb Sills*.
+В этом примере отображается имя учетной записи пользователя *Caleb Sills.*
   
 ```powershell
 $userName="Caleb Sills"
@@ -79,9 +79,9 @@ Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userN
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-При удалении учетной записи пользователя с помощью модуля Microsoft Azure Active Directory для Windows PowerShell эта учетная запись не удаляется окончательно. Вы можете восстановить удаленную учетную запись пользователя в течение 30 дней.
+При удалении учетной записи пользователя с помощью модуля Microsoft Azure Active Directory для Windows PowerShell она не удаляется окончательно. Удаленную учетную запись пользователя можно восстановить в течение 30 дней.
 
-Сначала [подключитесь к клиенту Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 Чтобы удалить учетную запись пользователя, используйте следующий синтаксис:
   
@@ -90,10 +90,10 @@ Remove-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 >[!Note]
->Среда PowerShell Core не поддерживает модуль Microsoft Azure Active Directory для модуля Windows PowerShell и командлеты с *MSOL* в имени. Выполните эти командлеты в Windows PowerShell.
+>В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты, имена которых содержат *Msol*. Эти командлеты требуется запускать из Windows PowerShell.
 >
 
-В этом примере удаляется учетная запись пользователя *BelindaN@litwareinc.com*.
+В этом примере удаляется учетная *запись BelindaN@litwareinc.com.*
   
 ```powershell
 Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
@@ -105,7 +105,7 @@ Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
 Restore-MsolUser -UserPrincipalName <sign-in name>
 ```
 
-В этом примере показано, как восстановить удаленную учетную запись *белиндан \@ litwareinc.com*.
+В этом примере восстанавливается удаленная учетная *запись BelindaN \@ litwareinc.com*.
   
 ```powershell
 Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com

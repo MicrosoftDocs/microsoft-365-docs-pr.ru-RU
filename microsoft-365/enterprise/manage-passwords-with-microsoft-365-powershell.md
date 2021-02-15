@@ -26,21 +26,21 @@ ms.locfileid: "49073216"
 ---
 # <a name="manage-passwords-with-powershell"></a>Управление паролями с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете использовать PowerShell для Microsoft 365 в качестве альтернативы центру администрирования Microsoft 365 для управления паролями в Microsoft 365. 
+Вы можете использовать PowerShell для Microsoft 365 в качестве альтернативы Центру администрирования Microsoft 365 для управления паролями в Microsoft 365. 
 
-Если в этой статье блок команд требует указать значения переменных, выполните указанные ниже действия.
+Если блоку команд в этой статье требуется указать значения переменных, используйте следующие действия.
 
-1. Скопируйте блок команд в буфер обмена и вставьте его в Блокнот или интегрированную среду сценариев PowerShell (ISE).
+1. Скопируйте блок команд в буфер обмена и в paste его в Блокнот или интегрированную среду сценариев PowerShell (ISE).
 2. Заполните значения переменных и удалите символы "<" и ">".
-3. Выполните команды в окне PowerShell или в ИНТЕГРИРОВАНной среде выполнения PowerShell.
+3. Запустите команды в окне PowerShell или ВМЕ PowerShell.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Сначала [подключитесь к клиенту Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-### <a name="set-a-password"></a>Установка пароля
+### <a name="set-a-password"></a>Настройка пароля
 
 Используйте эти команды, чтобы указать пароль для учетной записи пользователя.
 
@@ -52,7 +52,7 @@ Set-AzureADUserPassword -ObjectId  $userUPN -Password $secPassword
 ```
 ### <a name="force-a-user-to-change-their-password"></a>Принудительное изменение пароля пользователем
 
-Используйте эти команды, чтобы задать пароль и принудительно сменить новый пароль для пользователя.
+Используйте эти команды, чтобы установить пароль и заставить пользователя изменить новый пароль.
 
 ```powershell
 $userUPN="<user account sign in name, such as belindan@contoso.com>"
@@ -61,7 +61,7 @@ $secPassword = ConvertTo-SecureString $newPassword -AsPlainText -Force
 Set-AzureADUserPassword -ObjectId  $userUPN -Password $secPassword -EnforceChangePasswordPolicy $true
 ```
 
-Используйте эти команды, чтобы задать пароль и принудительно сменить новый пароль при следующем входе в систему.
+Используйте эти команды, чтобы установить пароль и заставить пользователя изменить новый пароль при следующем входе.
 
 ```powershell
 $userUPN="<user account sign in name, such as belindan@contoso.com>"
@@ -72,9 +72,9 @@ Set-AzureADUserPassword -ObjectId  $userUPN -Password $secPassword -ForceChangeP
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-Сначала [подключитесь к клиенту Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-### <a name="set-a-password"></a>Установка пароля
+### <a name="set-a-password"></a>Настройка пароля
 
 Используйте эти команды, чтобы указать пароль для учетной записи пользователя.
 
@@ -86,7 +86,7 @@ Set-MsolUserPassword -UserPrincipalName $userUPN -NewPassword $newPassword
 
 ### <a name="force-a-user-to-change-their-password"></a>Принудительное изменение пароля пользователем
 
-Используйте эти команды, чтобы заставить пользователя изменить свой пароль.
+Используйте эти команды, чтобы заставить пользователя изменить пароль.
 
 ```powershell
 $userUPN="<user account sign in name>"

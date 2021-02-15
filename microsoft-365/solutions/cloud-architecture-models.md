@@ -1,6 +1,6 @@
 ---
 title: Модели облачной архитектуры Майкрософт — планирование корпоративных ресурсов
-description: В этих плакатах по архитектуре Microsoft Cloud можно получить сведения о облачных службах Майкрософт, таких как Azure и Office 365.
+description: На этих афишах с облачной архитектурой Майкрософт вы можете получить сведения об облачных службах Майкрософт, таких как Azure и Office 365.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -22,9 +22,9 @@ ms.locfileid: "48906875"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Иллюстрации "Облако Майкрософт для корпоративных архитекторов"
 
-Эти плакаты облачной архитектуры предоставляют сведения о облачных службах Майкрософт, в том числе Microsoft 365, Azure Active Directory (Azure AD), Microsoft Intune, Microsoft Dynamics 365 и гибридные локальные и облачные решения. 
+На этих афишах об облачной архитектуре вы можете получить сведения о облачных службах Майкрософт, включая Microsoft 365, Azure Active Directory (Azure AD), Microsoft Intune, Microsoft Dynamics 365, а также гибридные облачные и облачные решения. 
 
-ИТ и архитекторы, принимающие решения, могут использовать эти ресурсы для определения оптимальных решений для их рабочих нагрузок и принятия решений о базовых компонентах инфраструктуры, таких как сеть, идентификация и безопасность.
+ИТ-лица, принимающие решения, и архитекторы могут использовать эти ресурсы для определения идеальных решений для рабочих нагрузок и принятия решений об основных компонентах инфраструктуры, таких как сеть, идентификация и безопасность.
 
 
 <a name="identity"></a>
@@ -34,7 +34,7 @@ ms.locfileid: "48906875"
   
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[![Эскиз модели идентификации в облаке Майкрософт](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [Просмотр в виде PDF-файла](../downloads/MSFT_cloud_architecture_identity.pdf) \| [Загрузка в виде PDF-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [Скачать как Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>Обновлено 2020 августа | Эта модель содержит:  <ul> <li> Общие сведения об использовании удостоверений в облаке Майкрософт </li><li> Возможности платформы IDaaS в Azure AD </li><li> Интеграция локальных учетных записей доменных служб Active Directory (AD DS) с Azure AD </li><li> Размещение компонентов каталога в Azure IaaS </li><li> Параметры доменных служб Active Directory для рабочих нагрузок в Azure IaaS </li></ul><br/>  <br/>|
+|[![Эскиз модели идентификации в облаке Майкрософт](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [Представление в формате PDF](../downloads/MSFT_cloud_architecture_identity.pdf) \| [Скачивание в формате PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [Скачивание в качестве Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>Обновлено в августе 2020 г. | Эта модель содержит:  <ul> <li> Общие сведения об использовании удостоверений в облаке Майкрософт </li><li> Возможности платформы IDaaS в Azure AD </li><li> Интеграция локальной учетной записи доменных служб Active Directory (AD DS) с Azure AD </li><li> Размещение компонентов каталога в Azure IaaS </li><li> Параметры AD DS для рабочих нагрузок в Azure IaaS </li></ul><br/>  <br/>|
    
 <a name="networking"></a>
 ### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>Организация сети в облаке Майкрософт для корпоративных архитекторов
@@ -43,7 +43,7 @@ ms.locfileid: "48906875"
   
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[![Эскиз модели организации сети в Microsoft Cloud](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](../downloads/MSFT_cloud_architecture_networking.pdf)  <br/>  [Просмотр в виде PDF-файла](../downloads/MSFT_cloud_architecture_networking.pdf) \| [Загрузка в виде PDF-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf) \| [Скачать как Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.vsdx)   <br/>Обновлено 2020 августа | Эта модель содержит: <ul><li> Развитие сети для облачного подключения </li><li> Общие элементы облачного подключения Майкрософт </li><li> ExpressRoute для подключения к Microsoft Cloud </li><li> Проектирование сети для Microsoft SaaS, Azure PaaS и Azure IaaS </li></ul><br/>  <br/>|
+|[![Эскиз модели организации сети в Microsoft Cloud](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](../downloads/MSFT_cloud_architecture_networking.pdf)  <br/>  [Представление в формате PDF](../downloads/MSFT_cloud_architecture_networking.pdf) \| [Скачивание в формате PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf) \| [Скачивание в качестве Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.vsdx)   <br/>Обновлено в августе 2020 г. | Эта модель содержит: <ul><li> Развитие сети для облачного подключения </li><li> Общие элементы облачного подключения Майкрософт </li><li> ExpressRoute для подключения к Microsoft Cloud </li><li> Проектирование сетей для Microsoft SaaS, Azure PaaS и Azure IaaS </li></ul><br/>  <br/>|
 
 <a name="hybrid"></a>
 ### <a name="microsoft-hybrid-cloud-for-enterprise-architects"></a>Гибридное облако Майкрософт для корпоративных архитекторов
@@ -52,21 +52,21 @@ ms.locfileid: "48906875"
   
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[![Эскиз модели гибридного облака Майкрософт](../media/solutions-architecture-center/msft-hybrid-cloud-model-thumb.png)](../downloads/MSFT_cloud_architecture_hybrid.pdf)           <br/> [Просмотр в виде PDF-файла](../downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Загрузка в виде PDF-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Скачать как Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.vsdx)     <br>Обновлено 2020 августа | Эта модель содержит: <ul><li> Облачные предложения Майкрософт (SaaS, Azure PaaS и Azure IaaS) и их общие элементы </li><li> Архитектуру гибридного облака для облачных предложений Майкрософт </li><li> Сценарии гибридного облака для Microsoft SaaS (Office 365), Azure PaaS и Azure IaaS </li></ul><br/>|
+|[![Эскиз модели гибридного облака Майкрософт](../media/solutions-architecture-center/msft-hybrid-cloud-model-thumb.png)](../downloads/MSFT_cloud_architecture_hybrid.pdf)           <br/> [Представление в формате PDF](../downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Скачивание в формате PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Скачивание в качестве Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.vsdx)     <br>Обновлено в августе 2020 г. | Эта модель содержит: <ul><li> Облачные предложения Майкрософт (SaaS, Azure PaaS и Azure IaaS) и их общие элементы </li><li> Архитектуру гибридного облака для облачных предложений Майкрософт </li><li> Сценарии гибридного облака для Microsoft SaaS (Office 365), Azure PaaS и Azure IaaS </li></ul><br/>|
    
 
 ### <a name="architecture-approaches-for-microsoft-cloud-tenant-to-tenant-migrations"></a>Подходы в отношении архитектуры для переходов между клиентами в облаке Майкрософт 
-В этих статьях описано несколько подходов в отношении архитектуры для слияний, приобретений, отделений и других сценариев, которые могут привести к переходу на новый облачный клиент. В этих разделах приводятся инструкции по планированию корпоративных ресурсов. 
+В этих статьях описано несколько подходов в отношении архитектуры для слияний, приобретений, отделений и других сценариев, которые могут привести к переходу на новый облачный клиент. Эти разделы предоставляют начальные рекомендации по планированию корпоративных ресурсов. 
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[![Эскиз плаката логической архитектуры Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Обновлено 2020 октября    |Эта модель содержит: <ul><li>Сопоставление бизнес-сценариев для подходов в отношении архитектуры</li><li>Рекомендации по разработке</li><li>Пример однопотоковой миграции с одним событием</li><li>Пример поэтапной миграции</li><li>Пример перемещения или разбиения клиента</li></ul>|
+|[![Эскиз плаката логической архитектуры Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Обновлено в октябре 2020 г.    |Эта модель содержит: <ul><li>Сопоставление бизнес-сценариев для подходов в отношении архитектуры</li><li>Рекомендации по разработке</li><li>Пример потока миграции с одним событием</li><li>Пример потока поэтапной миграции</li><li>Пример перемещения или разделения потока клиента</li></ul>|
 
 <a name="security"></a>
 ### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Обеспечение безопасности в облаке Майкрософт для корпоративных архитекторов
 
 >[!Note]
->Эта модель пересмотрена. Ознакомьтесь с этой статьей в будущем, чтобы получить обновленную версию.
+>Эта модель в настоящее время пересматривается. В дальнейшем ознакомьтесь с этой статьей, чтобы проверить обновленную версию.
 >
 
 <!--
@@ -81,9 +81,9 @@ What IT architects need to know about security in Microsoft cloud services and p
 
 
 <a name="attacks"></a>
-### Распространенные атаки и возможности корпорации Майкрософт, которые защищают организацию от наиболее распространенных атак кибератак и от того, как корпорация Майкрософт может помочь Организации на каждом этапе атаки. 
+### Распространенные атаки и возможности Майкрософт, которые защищают вашу организацию, узнайте о наиболее распространенных кибератаках и о том, как Майкрософт может помочь вашей организации на каждом этапе атаки. 
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[![Рисунок плаката о распространенных атаках. ](../media/solutions-architecture-center/common-attacks-model-thumb.png)](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> Обновлено 2017 августа | На этом плакате показаны этапы основных атак и описаны возможности, позволяющие остановить злоумышленников на каждом из них. <br/>|
+|[![Иллюстрация плаката "Распространенные атаки". ](../media/solutions-architecture-center/common-attacks-model-thumb.png)](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> Обновлено в августе 2017 г. | На этом плакате показаны этапы основных атак и описаны возможности, позволяющие остановить злоумышленников на каждом из них. <br/>|
 
