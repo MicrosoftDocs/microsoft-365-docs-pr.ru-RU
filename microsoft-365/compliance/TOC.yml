@@ -156,7 +156,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Использование меток конфиденциальности в приложениях Office
+        - name: Управление метками конфиденциальности в приложениях Office
           href: sensitivity-labels-office-apps.md
     - name: Шифрование
       items:

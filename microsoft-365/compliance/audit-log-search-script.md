@@ -16,13 +16,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.custom: seo-marvel-apr2020
-description: Чтобы выполнить поиск в журнале аудита, воспользуйтесь сценарием PowerShell, выполняющим командлет Search-UnifiedAuditLog. Этот сценарий предназначен для возврата больших наборов записей аудита (до 50 000). Сценарий экспортирует эти записи в CSV-файл, который можно просмотреть или преобразовать с помощью Power Query в Excel.
-ms.openlocfilehash: d4fcf59297747d0499f6616438299ad8cbe96d7f
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+description: Чтобы выполнить поиск в журнале аудита, воспользуйтесь сценарием PowerShell, выполняющим командлет Search-UnifiedAuditLog в Exchange Online. Этот сценарий предназначен для возврата больших наборов записей аудита (до 50 000). Сценарий экспортирует эти записи в CSV-файл, который можно просмотреть или преобразовать с помощью Power Query в Excel.
+ms.openlocfilehash: 3d44054d8d1111fe86e06460f5ca4d442d0d1625
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094790"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233333"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>Поиск в журнале аудита с помощью сценария PowerShell
 
@@ -80,7 +80,7 @@ $intervalMinutes = 60
 
 Function Write-LogFile ([String]$Message)
 {
-    $final = [DateTime]::Now.ToString("s") + ":" + $Message
+    $final = [DateTime]::Now.ToUniversalTime().ToString("s") + ":" + $Message
     $final | Out-File $logFile -Append
 }
 
@@ -101,7 +101,7 @@ while ($true)
         break
     }
 
-    $sessionID = [DateTime]::Now.ToString("s")
+    $sessionID = [Guid]::NewGuid().ToString() + "_" +  "ExtractLogs" + (Get-Date).ToString("yyyyMMddHHmmssfff")
     Write-LogFile "INFO: Retrieving audit records for activities performed between $($currentStart) and $($currentEnd)"
     Write-Host "Retrieving audit records for activities performed between $($currentStart) and $($currentEnd)"
     $currentCount = 0
@@ -137,14 +137,13 @@ while ($true)
 
 Write-LogFile "END: Retrieving audit records between $($start) and $($end), RecordType=$record, PageSize=$resultSize, total count: $totalCount."
 Write-Host "Script complete! Finished retrieving audit records for the date range between $($start) and $($end). Total count: $totalCount" -foregroundColor Green
-
 ```
 
 2. Для настройки параметров поиска изменяйте переменные, приведенные в таблице ниже. Для этих переменных в сценарии используются примеры значений, но их можно изменять (если не указано иначе) в соответствии с конкретными требованиями.
 
    |Переменная|Пример значения|Описание|
    |---|---|---|
-   |`$logFile`|"d:\temp\AuditSearchLog.txt"|Определяет имя и расположение файла журнала с информацией о ходе поиска в журнале аудита, выполняемого сценарием.|
+   |`$logFile`|"d:\temp\AuditSearchLog.txt"|Определяет имя и расположение файла журнала с информацией о ходе поиска в журнале аудита, выполняемого сценарием. Сценарий записывает метки времени UTC в файл журнала.|
    |`$outputFile`|"d:\temp\AuditRecords.csv"|Определяет имя и расположение CSV-файла, содержащего записи аудита, возвращаемые сценарием.|
    |`[DateTime]$start` и `[DateTime]$end`|[DateTime]::UtcNow.AddDays(-1) <br/>[DateTime]::UtcNow|Определяет диапазон дат для поиска в журнале аудита. Сценарий возвращает записи действий аудита, входящие в указанный диапазон дат. Например, чтобы вернуть действия, выполненные в январе 2021 г., можно указать дату начала `"2021-01-01"` и дату окончания `"2021-01-31"` (обязательно заключите значения в кавычки). Пример значения в сценарии возвращает записи действий, совершенных за последние 24 часа. Если в значении не указана метка времени, по умолчанию к выбранной дате применяется метка времени 24:00 (полночь).|
    |`$record`|"AzureActiveDirectory"|Определяет тип записи действий аудита (также называемых *операциями*) для поиска. Это свойство означает службу или функцию, в которой было инициировано действие. Чтобы просмотреть список типов записей, которые можно использовать для этой переменной, см. [Тип записи журнала аудита](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype). Можно использовать имя типа записи или значение перечисления. <br/><br/>**Совет.** Для возврата записей аудита всех типов используйте значение `$null` (без кавычек).|

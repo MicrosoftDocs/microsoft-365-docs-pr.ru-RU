@@ -14,12 +14,12 @@ ms.reviewer: krowley
 ms.author: shmehta
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 006f81ee5b17baca4f42a78c5a87a59e8e90648f
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: a0b1fecc9991cd7ba4ac915d3d684d43714014af
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166444"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233755"
 ---
 # <a name="disabling-tls-10-and-11-in-office-365-gcc-high-and-dod"></a>Отключение TLS 1.0 и 1.1 в Office 365 GCC High и DoD
 
@@ -33,10 +33,6 @@ ms.locfileid: "50166444"
 
 [Решение проблемы TLS 1.0](https://www.microsoft.com/download/details.aspx?id=55266)
 
-Вместо этого необходимо использовать TLS версии 1.2. Дополнительные сведения см. в подготовии к обязательному использованию [TLS 1.2 в Office 365.](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)
-
-Для SharePoint и OneDrive необходимо обновить и настроить .NET для поддержки TLS 1.2. Сведения см. в [том, как включить TLS 1.2 на клиентах.](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)
-
 ## <a name="more-information"></a>Дополнительные сведения
 
 Начиная с 15 января 2020 г., Office 365 в средах GCC High и DoD не будет амортизации TLS 1.1 и 1.0.
@@ -45,15 +41,17 @@ ms.locfileid: "50166444"
 
 Если вы не обновите TLS версии 1.2 (или более поздней) до 15 января 2020 г., при попытке подключения к Office 365 у вас будут проблемы. Кроме того, вам потребуется обновить TLS 1.2 (или более поздней версии) в рамках решения.
 
-Мы знаем, что следующие клиенты не могут использовать TLS 1.2:
+Необходимо обновить клиентские компьютеры, чтобы обеспечить бесперебойный доступ к Office 365 GCC High и DoD.
+
+Вам потребуется обновить приложения, которые звонят API Microsoft 365 по TLS 1.0 или TLS 1.1, чтобы использовать TLS 1.2. .NET 4.5 по умолчанию TLS 1.1. Чтобы обновить конфигурацию .NET, узнайте, как включить [TLS 1.2 на клиентах.](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client) Дополнительные сведения см. в подготовии к обязательному использованию [TLS 1.2 в Office 365.](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)
+
+Мы знаем, что следующие клиентские приложения не могут использовать TLS 1.2:
 
 - Android 4.3 и более ранние версии
 - Firefox 5.0 и более ранние версии:
 - Internet Explorer 8–10 в Windows 7 и более ранних версиях
 - Internet Explorer 10 Windows Phone 8.0
 - Safari 6.0.4/OS X 10.8.4 и более ранних версий
-
-Мы рекомендуем обновить клиенты, чтобы обеспечить бесперебойный доступ к Office 365 GCC High и DoD.
 
 Хотя текущий анализ подключений к службам Microsoft Online показывает, что в большинстве служб и конечных точек использование TLS 1.1 и 1.0 очень мало, мы предоставляем уведомление об этом изменении, чтобы вы могли обновлять все затронутые клиенты или серверы по мере необходимости до окончания поддержки TLS 1.1 и 1.0. При использовании локальной инфраструктуры для гибридных сценариев или служб федерации Active Directory (AD FS) убедитесь, что она поддерживает как входящие, так и исходящие подключения, использующие TLS 1.2 (или более поздней версии).
 

@@ -15,17 +15,17 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Узнайте, как использовать QR-код для проверки подлинности и скачивания Outlook Mobile.
-ms.openlocfilehash: b9e433e0c7d3f5f3466924b318e242e5ac29181c
-ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
+ms.openlocfilehash: 1e5207a2792b557689a306fa1474a2c5fac81ed9
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50122376"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242358"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>Использование QR-кода для вход в мобильные приложения Outlook
 
 > [!IMPORTANT]
-> Эта функция Microsoft 365 находится в открытой предварительной версии. Общедоступный предварительный просмотр предоставляет ранний доступ к функциям Microsoft 365.
+> Эта функция доступна только для организаций, которые включили выпуск Targeted в Центре администрирования Microsoft 365. Чтобы включить выпуск Targeted и узнать больше о его работе, см. параметры "Настройка стандартного" или ["Целевого выпуска".](release-options-in-office-365.md) В ближайшие недели мы расширим его до других организаций в рамках открытой предварительной версии. Общедоступный предварительный просмотр предоставляет ранний доступ к функциям Microsoft 365.
 
 Как администратор Microsoft 365 вы можете позволить пользователям входить в приложение Outlook для Android или iOS на своих мобильных устройствах без ввода имени пользователя и пароля. Сканируя QR-код, пользователи могут безопасно проверить подлинность и войти в Outlook Mobile.
 
@@ -36,7 +36,7 @@ ms.locfileid: "50122376"
 
 ## <a name="use-exchange-powershell"></a>Использование Exchange PowerShell
 
-Этот режим по умолчанию находится в режиме "в режиме". Чтобы отключить эту функцию, выполните следующие действия.
+По умолчанию эта функция включена. Чтобы отключить эту функцию, выполните следующие действия.
 
 1. [Подключите к Exchange PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 2. С помощью PowerShell можно отключить уведомления, информирующие пользователей о мобильных приложениях Outlook. Это также предотвратит поток входов в QR-код.
@@ -45,6 +45,6 @@ ms.locfileid: "50122376"
 Set-OrganizationConfig -MobileAppEducationEnabled <Boolean>
 ```
 
-Связанные статьи
+Статьи по теме
 
 [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig?view=exchange-ps)

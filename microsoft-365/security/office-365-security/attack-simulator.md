@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут научиться использовать имитатор атак для имитации фишинга и атак с использованием паролей в организациях Microsoft 365 E5 или Microsoft Defender для Office 365 (план 2).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 824ee04e2fcf0757a7eb32b48246bf1a1c638926
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 9d3d55c17e5d77ee18bd822899fea2f64136e1a3
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175894"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233604"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Имитатор атак в Microsoft Defender для Office 365
 
@@ -34,6 +34,10 @@ ms.locfileid: "50175894"
 **Применимо к** [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
 
 Если в вашей организации есть Microsoft Defender для Office 365 (план 2), который включает возможности исследования угроз и реагирования на [них,](office-365-ti.md)вы можете использовать имитатор атак в Центре безопасности и соответствия требованиям & для выполнения реалистичных сценариев атак в организации. Эти имитации атак могут помочь вам определить и найти уязвимых пользователей, прежде чем реальные атаки повяжют на вашу жнюю линию. Чтобы узнать больше, ознакомьтесь с этой статьей.
+
+> [!NOTE]
+> Использование имитатора атак v1 было переключение в режим "только чтение" и заменено обучением имитатора атак, описанного в обучающем курсе "Начало работы с имитацией [атаки".](attack-simulation-training-get-started.md)
+> Возможность запуска новых имитаций с этого сайта отключена. Однако вы по-прежнему можете получать доступ к отчетам об имитациях, которые будут запускаться в течение 90 дней с 24 января 2021 г.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 

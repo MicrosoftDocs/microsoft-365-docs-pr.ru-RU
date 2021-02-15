@@ -1,7 +1,7 @@
 ---
 title: Подготовка к TLS 1.2 в Office 365 и Office 365 GCC
 description: Как подготовиться к использованию TLS 1.2 для всех сочетаний клиент-сервер и браузер-сервер в Office 365 после отключения поддержки TLS 1.0 и 1.1.
-author: workshay
+author: kccross
 manager: laurawi
 localization_priority: Normal
 search.appverid:
@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 4cc1fc739ee7fbcc4b976ae6e3f220713a53a007
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 8078f5de698adf437e843a423fe9e82c5e4dd8de
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681661"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233123"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Подготовка к TLS 1.2 в Office 365 и Office 365 GCC
 
@@ -35,6 +35,8 @@ ms.locfileid: "48681661"
 Мы уже начали отключение TLS 1.0 и 1.1 с января 2020 года. Любые клиенты, устройства или службы, которые подключаются к Office 365 через TLS 1.0 или 1.1 в наших экземплярах DoD или GCC High, не поддерживаются. Для наших коммерческих клиентов Office 365 неоценение TLS 1.0 и 1.1 начнется 15 октября 2020 г., а его выкат будет продолжен в течение следующих недель и месяцев. 
 
 Необходимо убедиться в том, что все сочетания клиент-сервер и браузер-сервер используют протокол TLS 1.2 (или более поздней версии) для поддержки подключения к службам Office 365. Возможно, придется обновить определенные сочетания клиент-сервер и браузер-сервер.
+
+Вам потребуется обновить приложения, которые звонят API Microsoft 365 по TLS 1.0 или TLS 1.1, чтобы использовать TLS 1.2. .NET 4.5 по умолчанию TLS 1.1. Чтобы обновить конфигурацию .NET, узнайте, как включить [TLS 1.2 на клиентах.](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)
 
 Следующие клиенты не могут использовать TLS 1.2. Обновите клиенты, чтобы обеспечить непрерывный доступ к службе.
 

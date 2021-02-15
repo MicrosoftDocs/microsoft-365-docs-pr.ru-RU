@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Узнайте, как обновить Microsoft Office до последней версии клиента Office для пользователей в организации.
-ms.openlocfilehash: 596dfc8f4a005d01c0bf330243bf1fb3c639f97e
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 3f8ea0d16e1c27414b5f3e11e842e336fadb3e75
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906445"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233322"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Обновление пользователей Microsoft 365 для бизнеса до последней версии клиента Office
 
@@ -91,17 +91,20 @@ ms.locfileid: "48906445"
 
 **Вариант 2. Приобретение отдельных, одно разных покупок Office или приобретение Office по лицензии на объемную лицензию**
 
- - Приобрети отдельный, разовая покупка Office. См. ["Office для &amp; дома или](https://products.office.com/home-and-business) [Office профессиональный"](https://products.office.com/professional)
+ - Приобрети отдельный, разовая покупка Office. См. ["Office для &amp; дома для бизнеса"](https://products.office.com/home-and-business) или ["Office профессиональный"](https://products.office.com/professional)
 
      ИЛИ
 
- - Приобрети несколько копий Office с помощью многократной лицензии. См. ["Сравнение наборов, доступных в рамках корпоративного лицензирования".](https://products.office.com/business/microsoft-office-volume-licensing-suites-comparison)
+ - Приобрети несколько копий Office с помощью многократной лицензии. См. ["Сравнение наборов, доступных через корпоративное лицензирование".](https://products.office.com/business/microsoft-office-volume-licensing-suites-comparison)
 
 ## <a name="step-3---uninstall-office"></a>Шаг 3. Удаление Office
 
-Перед установкой последней версии Office рекомендуется удалить все старые версии Office. Однако если вы передумаете об обновлении Office, обратите внимание на следующие случаи, когда вы не сможете переустановить Office после его удалить.
+Перед установкой последней версии Office рекомендуется удалить все более старые версии Office. Однако если вы передумаете об обновлении Office, обратите внимание на следующие случаи, когда вы не сможете переустановить Office после его удалить.
   
 Если у вас есть сторонние надстройки, обратитесь к производителю, чтобы узнать, есть ли обновление, которое будет работать с последней версией Office.
+
+> [!TIP]
+> Если при удалении Office у вас могут быть проблемы, воспользуйтесь помощником по поддержке и восстановлению (Майкрософт), чтобы удалить Office: скачайте и запустите помощник по поддержке и восстановлению [(Майкрософт).](https://go.microsoft.com/fwlink/?LinkID=2155008)
 
 ### <a name="select-the-version-of-office-you-want-to-uninstall"></a>Выбор версии Office, который нужно удалить
 
@@ -121,7 +124,7 @@ ms.locfileid: "48906445"
 
 ## <a name="step-4---assign-office-licenses-to-users"></a>Шаг 4. Назначение лицензий на Office пользователям
 
-Если вы еще не сделали этого, назначьте лицензии пользователям в организации, которым требуется установить Office, см. "Назначение лицензий пользователям [в Microsoft 365 для бизнеса".](../manage/assign-licenses-to-users.md)
+Если вы еще не сделали этого, назначьте лицензии любым пользователям в [](../manage/assign-licenses-to-users.md)организации, которым требуется установить Office, см. в этой теме.
   
 ## <a name="step-5---install-office"></a>Шаг 5. Установка Office
 

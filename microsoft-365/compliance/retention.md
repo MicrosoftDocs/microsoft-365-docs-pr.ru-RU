@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: d834cc53677c8b7c01ed4bec40ed51983d41e9da
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: 3d317a0a26d69eb46b8bb84253571b7d14f9836b
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084628"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242493"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
@@ -449,7 +449,7 @@ ms.locfileid: "50084628"
     
 - [Настройка управления записями на месте](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (только хранение) 
     
-- [Используйте политики для закрытия и удаления сайта](https://support.microsoft.com/ru-RU/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (только удаление) 
+- [Используйте политики для закрытия и удаления сайта](https://support.microsoft.com/ru-RU/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (только удаление)
     
 - [Политики управления информацией](intro-to-info-mgmt-policies.md) (только удаление)
      

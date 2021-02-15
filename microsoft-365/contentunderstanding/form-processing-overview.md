@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте об обработке форм в Microsoft SharePoint Syntex
-ms.openlocfilehash: 9a979e0f7e45694f1cc7f98bbe2012c773698297
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 4a6ecc9e6eaca6f0b61f8c04b67eabb29674f6bd
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976487"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242450"
 ---
 # <a name="form-processing-overview"></a>Общие сведения об обработке форм
 
@@ -41,6 +41,10 @@ ms.locfileid: "49976487"
 После обучения и публикации вашей модели она создаст рабочий процесс [Power Automate Flow](https://docs.microsoft.com/power-automate/getting-started). Этот процесс будет выполняться при загрузке файла в библиотеку документов SharePoint, извлекая данные, указанные в модели. Извлеченные данные будут отображаться в столбцах в представлении библиотеки документов вашей модели.
 
 Администратору Office 365 необходимо [включить функцию обработки форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding#to-set-up-content-understanding) для библиотеки документов SharePoint, чтобы пользователи могли [создавать модели обработки форм](create-a-form-processing-model.md) в этой библиотеке. Вы можете выбрать сайты во время настройки или после нее в параметрах управления.
+
+### <a name="file-limitations"></a>Ограничения файлов
+
+При использовании моделей обработки форм учитывайте [требования и ограничения к применению файлов](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
 
 
 

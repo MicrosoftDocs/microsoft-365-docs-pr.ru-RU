@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам с предварительными требованиями для сквозной проверки подлинности.
-ms.openlocfilehash: 7741b38a947e58d81192326c412760487d803e36
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 71ba116ee45f031b156934e0924a0c3d460110d5
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399185"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233766"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Предварительные требования к удостоверениям и доступу к устройствам для сквозной проверки подлинности в тестовой среде Microsoft 365
 
@@ -30,16 +29,18 @@ ms.locfileid: "48399185"
 
 В этой статье описано, как можно настроить тестовую среду Microsoft 365, соответствующую требованиям [предварительной настройки сквозной проверки подлинности](../security/office-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам.
 
-Настройка этой тестовой среды состоит из восьми следующих этапов:
+Настройка этой тестовой среды может быть завершена в десять этапов.
 
-1.  Создание смоделированной организации с тестовой средой Microsoft 365 сквозной проверки подлинности
-2.  Настройка простого единого входа Azure AD
-3.  Настройка именованных расположений
-4.  Настройка компонента обратной записи паролей
-5.  Настройка самостоятельного сброса пароля
-6.  Настройка многофакторной проверки подлинности
-7.  Включение защиты идентификации Azure AD
-8.  Включение современной проверки подлинности для Exchange Online и Skype для бизнеса Online
+1. Создание смоделированной организации с тестовой средой Microsoft 365 сквозной проверки подлинности
+2. Настройка простого единого входа Azure AD
+3. Настройка именованных расположений
+4. Настройка компонента обратной записи паролей
+5. Настройка самостоятельного сброса пароля
+6. Настройка многофакторной проверки подлинности
+7. Включит автоматическую регистрацию устройств на компьютерах с Windows, которые присоединились к домену
+8. Настройка защиты паролем Azure AD 
+9. Включение защиты идентификации Azure AD
+10. Включение современной проверки подлинности для Exchange Online и Skype для бизнеса Online
 
 ## <a name="phase-1-build-out-your-simulated-enterprise-with-pass-through-authentication-microsoft-365-test-environment"></a>Этап 1. Создание смоделированной организации с тестовой средой Microsoft 365 сквозной проверки подлинности
 
@@ -87,11 +88,19 @@ ms.locfileid: "48399185"
 
 Протестируйте многофакторную проверку подлинности только для учетной записи "Пользователь 2".
 
-## <a name="phase-7-enable-azure-ad-identity-protection"></a>Этап 7. Включение защиты идентификации Azure AD
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Этап 7. Включит автоматическую регистрацию устройств, которые присоединились к домену, на компьютерах с Windows 
+
+Следуйте [этим инструкциям,](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) чтобы включить автоматическую регистрацию устройств на компьютерах с Windows, которые присоединились к домену.
+
+## <a name="phase-8-configure-azure-ad-password-protection"></a>Этап 8. Настройка защиты паролем Azure AD 
+
+Следуйте [этим инструкциям,](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) чтобы заблокировать известные слабые пароли и их варианты.
+
+## <a name="phase-9-enable-azure-ad-identity-protection"></a>Этап 9. Включить защиту идентификации Azure AD
 
 Выполните инструкции [этапа 2 руководства по лаборатории тестирования для защиты идентификации Azure AD](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection). 
 
-## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Этап 8. Включение современной проверки подлинности для Exchange Online и Skype для бизнеса Online
+## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Этап 10. Включить современную проверку подлинности для Exchange Online и Skype для бизнеса Online
 
 Для Exchange Online выполните [эти инструкции](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
 
