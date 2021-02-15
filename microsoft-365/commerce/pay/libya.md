@@ -1,5 +1,5 @@
 ---
-title: Сведения об оплате для Ливия
+title: Платежная информация для Ливии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, где отправить платеж за подписку.
+description: Узнайте, куда отправлять платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: fd18c9626961f6204008aebab78ff3b080765fdf
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48649467"
 ---
-# <a name="payment-information-for-libya"></a><span data-ttu-id="e48b5-103">Сведения об оплате для Ливия</span><span class="sxs-lookup"><span data-stu-id="e48b5-103">Payment information for Libya</span></span>
+# <a name="payment-information-for-libya"></a><span data-ttu-id="d101e-103">Платежная информация для Ливии</span><span class="sxs-lookup"><span data-stu-id="d101e-103">Payment information for Libya</span></span>
 
-<span data-ttu-id="e48b5-104">[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="e48b5-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="d101e-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="d101e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="e48b5-105">Заплатите в оплате только USD и справочные номера для счета-фактуры в предъявлении к оплате.</span><span class="sxs-lookup"><span data-stu-id="e48b5-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="d101e-105">Оплата только в долларах США и справочные номера счета-фактуры для оплаты.</span><span class="sxs-lookup"><span data-stu-id="d101e-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="e48b5-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="e48b5-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="d101e-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="d101e-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="e48b5-107">**Банк:** Цитибанк, Лондон</span><span class="sxs-lookup"><span data-stu-id="e48b5-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="e48b5-108">**Код SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="e48b5-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="e48b5-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="e48b5-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="e48b5-110">**Номер счета:** 12510049</span><span class="sxs-lookup"><span data-stu-id="e48b5-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="e48b5-111">**Имя учетной записи:** КОРПОРАЦИ</span><span class="sxs-lookup"><span data-stu-id="e48b5-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="d101e-107">**Bank:** Заметьев, Лондон</span><span class="sxs-lookup"><span data-stu-id="d101e-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="d101e-108">**Код SWIFT:** THEGB2L</span><span class="sxs-lookup"><span data-stu-id="d101e-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="d101e-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="d101e-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="d101e-110">**Номер учетной записи:** 12510049</span><span class="sxs-lookup"><span data-stu-id="d101e-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="d101e-111">**Имя учетной записи:** МАЙКРОСОФТ</span><span class="sxs-lookup"><span data-stu-id="d101e-111">**Account Name:** MICROSOFT</span></span>  
