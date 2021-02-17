@@ -20,12 +20,12 @@ description: Администраторы могут узнать, как уда
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ae630babaf68457567bbe49e743ca8be8ce38fc2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1ba5334689ad58c8a50864a3618c0972b61dfd7f
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166835"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261553"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Удаление заблокированных пользователей с портала "Пользователи с ограниченным доступом" в Office 365
 
@@ -57,8 +57,9 @@ ms.locfileid: "50166835"
   Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
   > [!NOTE]
-  > 
+  >
   > - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения в Центре безопасности и соответствия требованиям _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  >
   > - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 - Если отправитель превысил лимит сообщений исходящей почты, это свидетельствует о возможной компрометации учетной записи. Прежде чем удалить пользователя с портала "Пользователи с ограниченным доступом", выполните необходимые действия, чтобы восстановить контроль над его учетной записью. Дополнительные сведения см. в статье [Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md).

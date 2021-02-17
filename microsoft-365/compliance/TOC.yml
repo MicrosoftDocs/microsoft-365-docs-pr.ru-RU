@@ -307,6 +307,8 @@
               href: retention-policies-yammer.md
             - name: Хранение в Exchange
               href: retention-policies-exchange.md
+            - name: Ограничения хранения
+              href: retention-limits.md
         - name: Начало работы с хранением
           href: get-started-with-retention.md
         - name: Создание политик хранения

@@ -19,12 +19,12 @@ ms.custom:
 description: В этой статье объясняется, какие изменения внося в функции защиты в Azure Information Protection
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2cb78f9e13d8ae429f5f46f2b1051d07ee541a10
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 0769306c3aa2d1a357e1d5999d1a1406c02aa5f3
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165983"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261565"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Функции защиты в Azure Information Protection, развертывание для существующих клиентов
 
@@ -34,7 +34,7 @@ ms.locfileid: "50165983"
 - [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Чтобы помочь вам на начальном этапе защиты информации, с июля 2018 г. все клиенты, соответствующие требованиям Azure Information Protection, по умолчанию будут иметь функции защиты в Azure Information Protection. Функции защиты в Azure Information Protection ранее были известны в Office 365 как управление правами или Azure RMS. Если в вашей организации есть план обслуживания Office E3 или более высокий план обслуживания, вы получите загослужбу по защите информации с помощью Azure Information Protection, когда мы развявим эти функции.
+Чтобы помочь вам на начальном этапе защиты информации, с июля 2018 г. все клиенты, соответствующие требованиям Azure Information Protection, по умолчанию будут иметь функции защиты в Azure Information Protection. Функции защиты в Azure Information Protection ранее были известны в Office 365 как управление правами или Azure RMS. Если в вашей организации имеется план обслуживания Office E3 или более высокий план обслуживания, вы получите возможность защитить информацию с помощью Azure Information Protection при их развии.
 
 ## <a name="changes-beginning-july-1-2018"></a>Изменения с 1 июля 2018 г.
 
@@ -48,7 +48,7 @@ ms.locfileid: "50165983"
 
 - Полный список см. в описании [службы Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) для шифрования сообщений Office 365.
 
-Администраторы клиента могут проверить состояние защиты на портале администратора Office 365.
+Администраторы клиентов могут проверить состояние защиты на портале администратора Office 365.
 
 ![Screenshot that shows that rights management in Office 365 is activated.](../../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
 
@@ -60,7 +60,8 @@ ms.locfileid: "50165983"
 
 Если ваша организация приобрела подходящую лицензию На Office 365, это изменение повлияет на ваш клиент.
 
- **ВАЖНО!** Если вы используете службу служба управления правами Active Directory (AD RMS) в локальной среде, необходимо либо немедленно отказаться от этого изменения, либо перейти на Azure Information Protection, прежде чем мы развявим это изменение в течение следующих 30 дней. Сведения об отказе см. в под вопросе "Я использую AD RMS, как отказаться?" далее в этой статье. Если вы предпочитаете мигрировать, см. сведения о переходе с [AD RMS на Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+> [!IMPORTANT]
+> Если вы используете службу служба управления правами Active Directory (AD RMS) в локальной среде, необходимо либо немедленно отказаться от этого изменения, либо перейти на Azure Information Protection, прежде чем мы развявим это изменение в течение следующих 30 дней. Сведения об отказе см. в подкачки "Я использую AD RMS, как отказаться?" далее в этой статье. Если вы предпочитаете мигрировать, см. сведения о переходе с [AD RMS на Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="can-i-use-azure-information-protection-with-active-directory-rights-management-services-ad-rms"></a>Можно ли использовать Azure Information Protection с служба управления правами Active Directory (AD RMS)?
 
@@ -72,9 +73,9 @@ ms.locfileid: "50165983"
 
 1. Хотя это необязательно, большинство развертывание AD RMS публикует точку подключения службы (SCP) в Active Directory, чтобы компьютеры домена могли обнаружить кластер AD RMS.
 
-Используйте редактор ADSI, чтобы узнать, опубликован ли SCP в Active Directory: CN=Configuration [имя сервера], CN=Services, CN=RightsManagementServices, CN=SCP
+   Используйте редактор ADSI, чтобы узнать, опубликован ли SCP в Active Directory: CN=Configuration [имя сервера], CN=Services, CN=RightsManagementServices, CN=SCP
 
-2. Если вы не используете SCP, компьютеры с Windows, подключаемые к кластеру AD RMS, должны быть настроены для обнаружения служб на стороне клиента или перенаправления лицензирования с помощью реестра Windows: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation или HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation
+2. Если вы не используете SCP, компьютеры с Windows, подключаемые к кластеру AD RMS, должны быть настроены для обнаружения клиентских служб или перенаправления лицензирования с помощью реестра `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation or HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation` Windows:
 
 Дополнительные сведения об этих конфигурациях реестра см. в подключеке "Включение обнаружения клиентских служб с помощью реестра [Windows"](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) и "Перенаправление трафика сервера [лицензирования".](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic)
 
