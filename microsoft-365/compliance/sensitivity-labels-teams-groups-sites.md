@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Чтобы защитить контент на сайтах SharePoint и Microsoft Teams, а также в группах Microsoft 365, используйте метки конфиденциальности.
-ms.openlocfilehash: 9276288bc05abebe864a4465f69284372fa0baab
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: 7eea07b91647af2b0b7121f9d9c1f018bc9fc630
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868027"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261462"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Используйте метки конфиденциальности, чтобы защитить контент в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint.
 
@@ -271,6 +271,7 @@ ms.locfileid: "49868027"
 
   - Центр администрирования SharePoint
   - Портал Azure Active Directory
+  - Центр администрирования Microsoft 365
   - Центр соответствия требованиям Microsoft 365, Центр безопасности Microsoft 365, Центр безопасности и соответствия требованиям.
 
 - Пользовательские приложения и службы:
@@ -280,13 +281,12 @@ ms.locfileid: "49868027"
   - Outlook в Интернете и для Windows, macOS, iOS и Android
   - Forms
   - Stream
-  - Планировщик (развертывание) 
+  - Планировщик 
 
 Следующие приложения и службы в настоящее время не поддерживают метки конфиденциальности, настроенные для параметров сайтов и групп:
 
 - Центры администрирования:
 
-  - Центр администрирования Microsoft 365
   - Центр администрирования Teams
   - Центр администрирования Exchange
 
