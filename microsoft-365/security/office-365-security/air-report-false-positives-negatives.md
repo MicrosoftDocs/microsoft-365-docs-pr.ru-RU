@@ -22,32 +22,32 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 451a6b19139502a3765795694860e884a7a469bf
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 48d7e1a7497f9bc2a07a84b36fb07939d25609bf
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175755"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289153"
 ---
-# <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Как сообщать о ложных срабатываах и отрицательных результатах в автоматизированном расследовании и реагировании на них
+# <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Как сообщать о ложных срабатываах и отрицательных результатах в автоматизированных исследованиях и реагировании на них
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Microsoft Defender для Office 365 (план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Если функции автоматического исследования и [реагирования (AIR) в Office 365](automated-investigation-response-office.md) пропущены или неправильно обнаружены какие-либо действия, ваша группа по работе с безопасностью может предпринять необходимые действия, чтобы устранить эту проблему. К таким действиям относятся:
 
-- [Сообщение о ложном срабатывии или отрицательных результатах в Корпорацию Майкрософт;](#report-a-false-positivenegative-to-microsoft-for-analysis)
+- [Сообщение о ложных срабатываах или отрицательных результатах в Корпорацию Майкрософт;](#report-a-false-positivenegative-to-microsoft-for-analysis)
 - [Настройка оповещений](#adjust-an-alert-to-prevent-false-positives-from-recurring) (при необходимости); и
 - [Отмена принятых действий по исправлению.](#undo-a-remediation-action)
 
 Используйте эту статью в качестве руководства.
 
-## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Отчет о ложном срабатывии или отрицательном срабатывии корпорации Майкрософт для анализа
+## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Сообщение о ложном срабатывии или отрицательных результатах в корпорацию Майкрософт для анализа
 
-Если AIR в Microsoft Defender для Office 365 пропустил сообщение электронной почты, вложение электронной почты, URL-адрес в сообщении электронной почты или URL-адрес в файле Office, вы можете отправить подозрительные спам, фишинг, URL-адреса и файлы в корпорацию Майкрософт для сканирования [Office 365.](admin-submission.md)
+Если AIR в Microsoft Defender для Office 365 пропустил сообщение электронной почты, вложение электронной почты, URL-адрес в сообщении электронной почты или URL-адрес в файле Office, вы можете отправить подозрительный спам, фишинг, URL-адреса и файлы в корпорацию Майкрософт для сканирования [Office 365.](admin-submission.md)
 
 Вы также можете [отправить файл в корпорацию Майкрософт для анализа вредоносных программ.](https://www.microsoft.com/wdsi/filesubmission)
 
@@ -68,7 +68,7 @@ ms.locfileid: "50175755"
 
 С помощью обозревателя угроз группа операций безопасности может найти сообщение электронной почты, на которое влияет действие, и, возможно, отменить действие.
 
-|Сценарий|Параметры отмены|Подробнее|
+|Сценарий|Параметры отмены|Дополнительные сведения|
 |---|---|---|
 |Сообщение электронной почты было отправлено в папку нежелательной почты пользователя|- Переместить сообщение в папку пользователя "Удаленные"<br/>- Переместить сообщение в почтовый ящик пользователя<br/>- Удалить сообщение|[Поиск и изучение вредоносной электронной почты, доставленной в Office 365](investigate-malicious-email-that-was-delivered.md)|
 |Сообщение электронной почты или файл были отправлены на карантин|- Освободить сообщение электронной почты или файл<br/>- Удалить сообщение электронной почты или файл|[Управление сообщениями на карантине от имени администратора](manage-quarantined-messages-and-files.md)|

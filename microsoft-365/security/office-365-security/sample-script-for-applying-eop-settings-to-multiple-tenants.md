@@ -15,19 +15,19 @@ ms.custom:
 description: В этой статье вы узнаете, как использовать PowerShell для применения параметров конфигурации к своим арендаторам в Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b7d856a7cec3bddc32455ba3afadf0323ddce935
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 4823ed09cd8a9d72aef21df3d51213cb4512b4f9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166595"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288541"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Пример сценария для применения параметров EOP к нескольким клиентам
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
--  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Автономный exchange Online Protection](exchange-online-protection-overview.md)
 
 Следующий пример сценария позволяет администраторам Microsoft Exchange Online Protection (EOP), которые управляют несколькими клиентами (компаниями), использовать Exchange Online PowerShell для просмотра и/или применения параметров конфигурации к своим арендаторам.
 
@@ -69,7 +69,7 @@ ms.locfileid: "50166595"
 ## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants.ps1
 
 > [!NOTE]
-> Вам может потребоваться изменить `Connect-IPPSSession` строку в сценарии в соответствии со своей средой. Например, для Office 365 Germany требуется другое значение _ConnectionUri,_ чем текущее значение в сценарии. Подробные сведения см. в подключении к [Exchange Online Powershell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)
+> Возможно, потребуется изменить `Connect-IPPSSession` строку в сценарии в соответствии со своей средой. Например, для Office 365 Germany требуется другое значение _ConnectionUri,_ чем текущее значение в сценарии. Подробные сведения см. в подключении к [Exchange Online Powershell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)
 
 ```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.

@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,19 +14,25 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться использовать правила потока почты (также известные как правила транспорта) для получения копий сообщений, которые пользователи сообщают корпорации Майкрософт.
-ms.openlocfilehash: ec7145b68548bb5e1d6841387a18e86b74ec2a78
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 40e87fec3bfd8ed4402713ca7ec45499bb50c68e
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751575"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287609"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-В организациях Microsoft 365 с почтовыми ящиками в Организациях Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online существует несколько способов передачи сообщений в корпорацию Майкрософт для анализа, как описано в отчете о сообщениях и файлах в [корпорацию Майкрософт.](report-junk-email-messages-to-microsoft.md)
+В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online существует несколько способов передачи сообщений в корпорацию Майкрософт для анализа, как описано в отчете о сообщениях и файлах в [корпорацию Майкрософт.](report-junk-email-messages-to-microsoft.md)
 
 Можно создать правило потока почты (также известное как правило транспорта), которое ищет сообщения, которые пользователи сообщают корпорации Майкрософт, и настроить получателей копии этих сообщений.
 
@@ -56,7 +61,7 @@ ms.locfileid: "49751575"
 
 1. В Центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
 
-2. Щелкните **значок** ![ "Добавить", ](../../media/ITPro-EAC-AddIcon.png) а затем выберите **"Создать новое правило".**
+2. Нажмите **значок** ![ "Добавить", а затем выберите ](../../media/ITPro-EAC-AddIcon.png) **"Создать новое правило".**
 
 3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
@@ -77,13 +82,13 @@ ms.locfileid: "49751575"
 
    - **Сделайте следующее:** выберите **"Добавить получателей** \> **в поле "СК".** В отобратом диалоговом окте найдите и выберите получателей, которые нужно добавить. После этого нажмите кнопку **ОК**.
 
-4. Вы можете внести дополнительные параметры для аудита правила, проверить правило, активировать правило в течение определенного периода времени и другие параметры. Мы рекомендуем тестировать правило перед его выполнением.
+4. Можно выбрать дополнительные параметры для аудита правила, проверки правила, активации правила в течение определенного периода времени и других параметров. Мы рекомендуем тестировать правило перед его выполнением.
 
-5. Когда закончите, нажмите кнопку **Сохранить**.
+5. По завершении нажмите кнопку **Сохранить**.
 
 ## <a name="use-powershell-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>Создание правила потока почты для получения копий сообщений с помощью PowerShell
 
-В этом примере создается новое правило потока почты с именем Bcc Messages Reported to Microsoft, которое ищет сообщения электронной почты, которые сообщаются корпорации Майкрософт с помощью методов, описанных в этой статье, и добавляет пользователей laura@contoso.com и julia@contoso.com в качестве получателей ск.
+В этом примере создается новое правило потока почты с именем "Сообщения в ск" (BCC Messages Reported to Microsoft), которое ищет сообщения электронной почты, которые сообщаются корпорации Майкрософт с помощью описанных в этой статье методов, и добавляет пользователей, laura@contoso.com и julia@contoso.com в качестве получателей в качестве получателей в качестве ск.
 
 ```powershell
 New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressContainsWords "junk@office365.microsoft.com","abuse@messaging.microsoft.com","phish@office365.microsoft.com","false_positive@messaging.microsoft.com" -BlindCopyTo "laura@contoso.com","julia@contoso.com".

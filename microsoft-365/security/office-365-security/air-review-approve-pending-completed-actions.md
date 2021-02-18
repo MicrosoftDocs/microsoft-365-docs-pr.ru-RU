@@ -19,12 +19,12 @@ description: Узнайте о действиях по исправлению в
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: 3fb77fa41ff3e9af995cf80b9f4024aa92a51212
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: a11e9ee6a4c2426951fe2b4aa4f2dd08d1931f1c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50176019"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287117"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Просмотр действий по исправлению и управление ими в Office 365
 
@@ -37,8 +37,8 @@ ms.locfileid: "50176019"
 Эти действия по исправлению не будут предприняты до тех пор, пока группа безопасности не утвердит их. Мы рекомендуем как можно скорее просмотреть и утвердить все ожидающие действия, чтобы автоматические расследования были завершены своевременно. В некоторых случаях можно отменить действие по исправлению.
 
 **Область применения**
-- [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Microsoft Defender для Office 365 (план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 ## <a name="approve-or-reject-pending-actions"></a>Утверждение (или отклонение) ожидающих действий
 
@@ -46,7 +46,7 @@ ms.locfileid: "50176019"
 2. В области навигации выберите **"Центр действий".**
 3. На **вкладке** "Ожидание" просмотрите список действий, ожидающих утверждения.
 4. Выберите элемент в списке. Откроется его вылетная области. 
-5. Просмотрите сведения во flyout pane и с последующим одним из следующих действий:
+5. Просмотрите сведения во flyout pane и затем вы можете сделать одно из следующих действий:
    - Выберите **страницу "Открыть исследование",** чтобы просмотреть дополнительные сведения об этом расследовании.
    - Выберите **"Утвердить",** чтобы инициировать ожидающих действий.
    - Выберите  "Отклонить", чтобы предотвратить ожидающих действий.
@@ -60,8 +60,8 @@ ms.locfileid: "50176019"
 ## <a name="undo-multiple-remediation-actions"></a>Отмена нескольких действий по исправлению
 
 1. Перейдите в центр действий [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () и войдите в нее.
-2. На **вкладке "История"** выберите действия, которые нужно отменить. Убедитесь, что выбраны элементы с одинаковым типом действия. Откроется открываемая окно.
-3. На flyout pane, select Undo.
+2. На **вкладке "История"** выберите действия, которые нужно отменить. Убедитесь, что выбраны элементы с одинаковым типом действия. Откроется flyout pane.
+3. Во flyout pane, select Undo.
 
 ## <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Удаление файла из карантина на нескольких устройствах
 
@@ -72,7 +72,7 @@ ms.locfileid: "50176019"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Использование обозревателя угроз](threat-explorer.md)
-- [Как сообщать о ложных срабатываах и отрицательных результатах в автоматизированном расследовании и реагировании на них](air-report-false-positives-negatives.md)
+- [Как сообщать о ложных срабатываах и отрицательных результатах в автоматизированных исследованиях и реагировании на них](air-report-false-positives-negatives.md)
 
 ## <a name="see-also"></a>См. также
 

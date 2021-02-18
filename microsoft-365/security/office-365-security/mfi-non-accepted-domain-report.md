@@ -14,23 +14,23 @@ ms.custom:
 description: Администраторы могут узнать, как использовать отчет о не принятых доменах на панели мониторинга потока обработки почты в Центре безопасности и соответствия требованиям & для отслеживания сообщений из локальной организации, в которой домен отправитель не настроен в Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 573fb0ba2bf7981b6eb7df4eec7c8c4e5d596cac
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 6d7355af49c5810a593c5776b70cf7497b43af6b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150824"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287869"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Отчет о не принятых доменах в Центре безопасности & соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Относится к**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1) и план 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Отчет о не принятых [](mail-flow-insights-v2.md) доменах на [](https://protection.office.com) панели мониторинга потока обработки почты в Центре безопасности и соответствия требованиям & отображает сведения о сообщениях из локальной почтовой организации, в которых домен отправитель не настроен в качестве принятого домена в организации Microsoft 365. 
+Отчет о не принятых [](mail-flow-insights-v2.md) доменах на [](https://protection.office.com) панели мониторинга потока обработки почты в Центре безопасности и соответствия требованиям & отображает сведения о сообщениях из локальной почтовой организации, в которых домен отправитель не настроен как принятый домен в вашей организации Microsoft 365. 
 
 Microsoft 365 может подавлять эти сообщения, если у нас есть данные для того, чтобы подтвердить, что эти сообщения вредоносны. Поэтому важно понимать, что происходит, и устранять проблему.
 
@@ -66,12 +66,12 @@ Microsoft 365 может подавлять эти сообщения, если 
 - **Имя входящие соединители**
 - **Домен отправителя**
 - **Количество сообщений**
-- **Примеры сообщений:** можно щелкнуть "Просмотреть **примеры** сообщений", чтобы просмотреть результаты трассировки для примера затронутых сообщений. [](message-trace-scc.md)
+- **Примеры сообщений:** вы можете щелкнуть [](message-trace-scc.md) "Просмотреть **образцы** сообщений", чтобы просмотреть результаты трассировки для примера затронутых сообщений.
 
 ![Flyout Details after selecting a row in Details table view in the Non-accepted domain report](../../media/mfi-non-accepted-domain-report-details-flyout.png)
 
 Чтобы вернуться в представление отчетов, щелкните **"Просмотреть отчет".**
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 Сведения о других сведениях на панели мониторинга потока обработки почты см. в анализе потока обработки почты в Центре безопасности [& соответствия требованиям.](mail-flow-insights-v2.md)

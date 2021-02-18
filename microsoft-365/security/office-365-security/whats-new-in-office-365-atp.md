@@ -21,34 +21,34 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3544f1ccb760c461b7ab72c6dc037fd653136db9
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 5934abb3afec3253da78c680735730b63ddb5701
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988164"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287357"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Новые возможности Microsoft Defender для Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
-**Область применения:**
-
-- [Microsoft Defender для Office 365](office-365-atp.md)
+**Область применения**
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 В этой статье перечислены новые возможности последнего выпуска Microsoft Defender для Office 365. Функции, которые в настоящее время находятся в предварительной версии, обозначаются **(предварительная версия).**
 
 > [!TIP]
-> У вас еще нет Microsoft Defender для Office 365? [Свяжитесь с отделом продаж, чтобы начать пробную пробную версия.](https://go.microsoft.com/fwlink/p/?LinkId=518644)
+> У вас еще нет Microsoft Defender для Office 365? [Свяжитесь с отделом продаж, чтобы начать пробную пробную версия.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 
 - [Защита по умолчанию в Office 365](secure-by-default.md)
+- Усовершенствования автоматизированного исследования: общие оповещения для ручного исследования электронной почты, обработка изменений почтовых ящиков как отдельная категория сущности, удаление избыточных действий блокировки URL-адресов и создание кластеров исходящие сообщения электронной почты для исследования, компрометации пользователями.
 
 ## <a name="november-2020"></a>Ноябрь 2020 г.
 
-- Обновленные ограничения на экспорт в Центре > действий > исправление из журнала отправки почты и действий (Защитник Office 365 (план 2)
+- Обновленные ограничения на экспорт в Центре > действий > исправление из журнала отправки почты и действий (Защитник Для Office 365 (план 2)
 
 ## <a name="septemberoctober-2020"></a>Сентябрь/октябрь 2020 г.
 
@@ -87,7 +87,7 @@ ms.locfileid: "49988164"
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
-- [Ознакомьтесь с новыми возможностями](address-compromised-users-quickly.md) обнаружения скомпрометированного пользователя и реагирования **(предварительная** версия) (Microsoft Defender для Office 365 (план 2)
+- [Ознакомьтесь с новыми возможностями](address-compromised-users-quickly.md) обнаружения скомпрометированного пользователя и реагирования на них (предварительная **версия)**(Microsoft Defender для Office 365 (план 2)
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 

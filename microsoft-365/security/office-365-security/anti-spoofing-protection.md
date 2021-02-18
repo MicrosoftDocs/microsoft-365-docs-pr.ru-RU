@@ -22,21 +22,21 @@ localization_priority: Priority
 description: Сведения для администраторов о функциях защиты от спуфинга, доступных в Exchange Online Protection (EOP). Эти функции помогут обеспечить защиту от фишинговых атак, источником которых являются поддельные отправители и домены.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b824ce68ee74deb2c2ff5ab51e8e2dbb0eace78b
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 2b20ae766ee308e9c59ed0d495df7c5a97c79b00
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175911"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287069"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Защита от спуфинга в EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 В организациях Microsoft 365 с почтовыми ящиками в Exchange Online и в автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online служба EOP включает функции для защиты организации от поддельных отправителей.
 

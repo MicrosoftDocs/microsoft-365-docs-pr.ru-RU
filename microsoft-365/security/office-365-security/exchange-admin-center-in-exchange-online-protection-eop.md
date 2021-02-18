@@ -14,22 +14,22 @@ search.appverid:
 ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
-description: Узнайте об интерфейсе управления веб-сайтом в автономных системах Exchange Online Protection (EOP).
+description: Узнайте об интерфейсе управления веб-сайтами в автономных системах Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81af6c64d2ec3204d0c9d46888bbfe21335955bd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ec9dcbccbee734ea7c475b1ac0a5f9a92a0b401b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166223"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286961"
 ---
 # <a name="exchange-admin-center-in-standalone-eop"></a>Центр администрирования Exchange в автономной службе EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
--  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Автономный exchange Online Protection](exchange-online-protection-overview.md)
 
 Центр администрирования Exchange (EAC) — это веб-консоль управления для автономных служб Exchange Online Protection (EOP).
 
@@ -67,16 +67,16 @@ ms.locfileid: "50166223"
 
 - **Разрешения :** здесь вы будете управлять ролями администраторов.
 
-- **Управление соответствием** требованиям : здесь вы найдете отчет о группе ролей администраторов и журнал аудита администратора.
+- **Управление соответствием** требованиям: здесь вы найдете отчет о группе ролей администраторов и журнал аудита администратора.
 
 - **Защита**: здесь можно управлять политиками защиты от вредоносных программ, политикой фильтрации подключений по умолчанию и DKIM.
 
   > [!NOTE]
-  > В Центре безопасности & и соответствия требованиям следует управлять политиками защиты от вредоносных программ и политикой фильтрации подключений по умолчанию. Дополнительные сведения см. в сведениях о настройке политик борьбы с вредоносными [программами в EOP](configure-anti-malware-policies.md) и настройке фильтрации подключений [в EOP.](configure-the-connection-filter-policy.md)
+  > В Центре безопасности & и соответствия требованиям следует управлять политиками защиты от вредоносных программ и политикой фильтрации подключений по умолчанию. Дополнительные сведения см. в настройках политик для борьбы с вредоносными [программами в EOP](configure-anti-malware-policies.md) и настройке фильтрации подключений [в EOP.](configure-the-connection-filter-policy.md)
 
-- **Поток почты**: здесь вы сможете управлять правилами потока почты (также известными как правила транспорта), принятыми доменами и соединитетелями, а также где можно запустить трассировку сообщений.
+- **Поток почты**: здесь вы сможете управлять правилами потока почты (также известными как правила транспорта), принятыми доменами и соединитетелями, а также где можно запускать трассировку сообщений.
 
-- **Гибридная** конфигурация: здесь можно запустить мастер гибридной конфигурации [и](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)установить модуль Exchange [Online PowerShell.](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell)
+- **Гибридная** конфигурация: здесь [](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)можно запустить мастер гибридной конфигурации, а также установить модуль [Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell)
 
 ### <a name="tabs"></a>Вкладки
 
@@ -110,7 +110,7 @@ ms.locfileid: "50166223"
 
 ### <a name="me-tile-and-help"></a>Иконка "Я" и справка
 
-Плитка **Я** позволяет выйти из Центра администрирования Exchange и войти в него как другой пользователь. В **выпадаемом** меню "Значок справки" можно сделать ![ ](../../media/ITPro-EAC-HelpIcon.gif) следующие действия:
+Плитка **Я** позволяет выйти из Центра администрирования Exchange и войти в него как другой пользователь. В **выпадаемом** меню "Значок справки" ![ можно сделать следующие ](../../media/ITPro-EAC-HelpIcon.gif) действия:
 
 - **Справка:** ![ щелкните значок ](../../media/ITPro-EAC-HelpIcon.gif) справки, чтобы просмотреть содержимое справки в Интернете.
 - **Обратная** связь: оставьте отзыв.

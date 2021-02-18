@@ -19,19 +19,19 @@ description: Сводка. Сведения о создании пробных �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d23539951e4d51fcd29417ab71ce599853d7537
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e600b3baf012d416a7b5de974b94111bb6cf90a2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165707"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287453"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft Defender для Office 365 (план 2)](office-365-atp.md)
 
  **Сводка.** Сведения о создании пробных подписок на Office 365 и Enterprise Mobility + Security (EMS) с пользователями и группами в случае среды разработки и тестирования для политической кампании.
 
@@ -41,7 +41,7 @@ ms.locfileid: "50165707"
 
 На этом этапе вы получите пробные подписки на Office 365 E5 и Enterprise Mobility + Security (EMS) E5 для вымышленной организации, которая проводит политическую кампанию.
 
-Сначала выполните инструкции для **этапа 2** из статьи [Простая базовая конфигурация](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
+Сначала выполните инструкции для **этапа 2** из статьи [Простая базовая конфигурация](../../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md).
 
 Затем оформите пробную подписку EMS E5 и добавьте ее для той же организации, что и пробную подписку.
 
@@ -139,7 +139,7 @@ ms.locfileid: "50165707"
 
 На этом этапе добавляются демонстрационные учетные записи пользователей для политической кампании.
 
-Прежде всего [подключитесь к модулю PowerShell Azure Active Directory для Graph](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+Прежде всего [подключитесь к модулю PowerShell Azure Active Directory для Graph](../../enterprise/connect-to-microsoft-365-powershell.md).
 
 Затем введите название организации, адрес и общий пароль и выполните эти команды в командной строке PowerShell или интегрированной среде сценариев (ISE):
 
@@ -212,6 +212,6 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
 [Создание сайтов группы в среде разработки и тестирования для политической кампании](create-team-sites-in-a-political-campaign-dev-test-environment.md)
 
-[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Руководства по лаборатории тестирования для облачных решений](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

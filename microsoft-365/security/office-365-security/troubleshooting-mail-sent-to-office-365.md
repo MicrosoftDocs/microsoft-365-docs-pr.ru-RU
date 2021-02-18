@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,24 +16,29 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: В этой статье данная статья содержит сведения об устранении проблем с отправкой электронной почты в почтовые ящики в Microsoft 365 & по массовой рассылке почты клиентам Microsoft 365.
-ms.openlocfilehash: 3504d7518073826f3979c3c837c58d4406886b41
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+description: В этой статье содержится информация об устранении неполадок с отправкой электронной почты в почтовые ящики в Microsoft 365 & по массовой рассылке почты клиентам Microsoft 365.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 1e4a91f70b59debc770a5811638bd64a1eef36dd
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760486"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286385"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Письмо с устранением неполадок, отправленное в Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
 
 В этой статье данная статья содержит сведения об устранении неполадок для отправителей, которые испытывают проблемы при попытке отправки электронной почты в почтовые ящики в Microsoft 365, и практические методики массовой рассылки клиентам.
 
 ## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Управляете ли вы репутацией своего IP-адреса и домена отправителя?
 
-Технологии фильтрации EOP предназначены для защиты от нежелательной почты для Microsoft 365, а также других продуктов Майкрософт, таких как Exchange Server. Мы также используем SPF, DKIM и DMARC; Технологии проверки подлинности электронной почты, которые помогают решить проблему спуфинга и фишинга, проверяя, авторизовать ли домен, отправляющий сообщение электронной почты. На фильтрацию EOP влияет ряд факторов, связанных с IP-адресом, доменом, проверкой подлинности, точностью списка, коэффициентами жалоб, контентом и многого другого. Среди них одним из основных факторов, влияющих на репутацию отправителем и его способностью доставлять электронную почту, является уровень жалоб на нежеланую почту.
+Технологии фильтрации EOP предназначены для защиты от нежелательной почты для Microsoft 365, а также других продуктов Майкрософт, таких как Exchange Server. Мы также используем SPF, DKIM и DMARC; Технологии проверки подлинности электронной почты, которые помогают решить проблему спуфинга и фишинга, проверяя, авторизовать ли домен, отправляющий сообщение электронной почты. На фильтрацию EOP влияет ряд факторов, связанных с IP-адресом, доменом, проверкой подлинности, точностью списка, коэффициентами жалоб, контентом и многого другого. Из них одним из основных факторов, влияющих на репутацию отправителем и его способностью доставлять электронную почту, является уровень жалоб на нежеланую почту.
 
 ## <a name="are-you-sending-email-from-new-ip-addresses"></a>Отправляете ли вы сообщения с новых IP-адресов?
 
@@ -80,7 +84,7 @@ ms.locfileid: "49760486"
 
 ## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Я не могу получать электронную почту от отправителей в Microsoft 365
 
- Чтобы получать сообщения от наших пользователей, убедитесь, что в вашей сети разрешены подключения с IP-адресов, которые EOP использует в наших центрах обработки данных. Дополнительные сведения [см. в ip-адресах Exchange Online Protection.](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
+ Чтобы получать сообщения от наших пользователей, убедитесь, что в вашей сети разрешены подключения с IP-адресов, которые EOP использует в наших центрах обработки данных. Дополнительные сведения [см. в ip-адресах Exchange Online Protection.](../../enterprise/urls-and-ip-address-ranges.md)
 
 ## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Best practices for bulk emailing to Microsoft 365 users
 

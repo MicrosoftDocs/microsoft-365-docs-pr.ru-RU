@@ -16,20 +16,20 @@ ms.collection:
 description: Узнайте о безопасных документах в Microsoft 365 E5 или Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 47bb6c66d51575c91b829e9688a074aaf9a18ab5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: a3f4ed3535c7e53774b9b567b50f7c06e99cef9d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166655"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288589"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Безопасные документы в Microsoft 365 E5
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Microsoft Defender для Office 365 (план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Безопасные документы — это функция в Microsoft 365 E5 или Microsoft 365 E5 Security, которая использует [Microsoft Defender для](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) конечной точки для сканирования документов и файлов, открытых в защищеном представлении. [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
@@ -50,14 +50,14 @@ ms.locfileid: "50166655"
   Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
   > [!NOTE]
-  > 
-  > - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения в Центре безопасности и соответствия требованиям _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  >
+  > - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения в Центре безопасности и соответствия требованиям _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
   >
   > - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Как Майкрософт обрабатывает ваши данные?
 
-Чтобы защитить вас, служба "Безопасные документы" отправляет файлы в [облако Microsoft Defender для конечных](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) точек для анализа. Подробные сведения о том, как Microsoft Defender для конечной точки обрабатывает ваши данные, можно найти здесь: Microsoft Defender для хранения данных и конфиденциальности [конечной точки.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+Для защиты безопасные документы отправляют файлы в [облако Microsoft Defender для конечных](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) точек для анализа. Подробные сведения о том, как Microsoft Defender для конечной точки обрабатывает ваши данные, можно найти здесь: [Microsoft Defender for Endpoint data storage and privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
 
 Файлы, отправленные с помощью безопасных документов, не сохраняются в Защитнике после времени, необходимого для анализа (обычно менее 24 часов).
 
@@ -69,7 +69,7 @@ ms.locfileid: "50166655"
 
    - **Включив функцию**"Безопасные документы" для клиентов Office: переместите выключаель вправо, чтобы включить функцию: ![ "Включить". ](../../media/scc-toggle-on.png)
 
-   - Разрешите пользователям переходить через защищенный просмотр, даже если "Безопасные документы" идентифицируют файл как вредоносный. Рекомендуется оставить этот параметр отключенным (оставьте этот параметр выключенным( оставьте этот параметр выключенным: "Отключить"). ![ ](../../media/scc-toggle-off.png)
+   - Разрешите пользователям переходить через защищенный просмотр, даже если "Безопасные документы" идентифицируют файл как вредоносный. Рекомендуется оставить этот параметр отключенным (оставьте этот параметр выключенным (оставьте этот параметр слева: "Отключить"). ![ ](../../media/scc-toggle-off.png)
 
    По завершении нажмите кнопку **Сохранить**.
 
@@ -98,7 +98,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 
 Чтобы убедиться, что вы включили и настроили безопасные документы, сделайте следующее:
 
-- В Центре безопасности & соответствия требованиям  перейдите к политике управления угрозами "Безопасные вложения" \>  \> **ATP,**   щелкните "Глобальные параметры" и проверьте, включите ли безопасные документы для клиентов **Office** и разрешите пользователям щелкнуть "Защищенное представление", даже если "Безопасные документы" идентифицируют файл как вредоносные параметры.
+- В Центре безопасности & соответствия требованиям  перейдите к политике управления угрозами "Безопасные вложения" \>  \> **ATP,**   щелкните "Глобальные параметры" и проверьте, включите ли безопасные документы для клиентов Office и разрешите пользователям переходить через защищенный **просмотр,** даже если "Безопасные документы" идентифицируют файл как вредоносные параметры.
 
 - Запустите следующую команду в Exchange Online PowerShell и проверьте значения свойств:
 
@@ -106,7 +106,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
   Get-AtpPolicyForO365 | Format-List *SafeDocs*
   ```
 
-- Для проверки защиты безопасных документов доступны следующие файлы. Эти документы похожи на EICAR.TXT для тестирования антивирусных и антивирусных решений. Файлы не являются вредоносными, но они инициирует защиту безопасных документов.
+- Для проверки защиты безопасных документов доступны следующие файлы. Эти документы похожи на EICAR.TXT для тестирования антивирусных и антивирусных решений. Файлы не являются вредоносными, но они запускают защиту безопасных документов.
 
   - [SafeDocsDemo.docx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.docx)
   - [SafeDocsDemo.pptx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.pptx)

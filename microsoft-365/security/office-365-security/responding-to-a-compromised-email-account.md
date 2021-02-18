@@ -20,21 +20,21 @@ search.appverid:
 description: Узнайте, как распознать компрометацию учетной записи электронной почты с помощью средств Microsoft 365 и какие принять меры.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a34780b260a6e4bbc2d8b3f53af6b67de04fbdcd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1bbd607386b49b45ebd7444c4a91d05e4cee475b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166667"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288613"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Реагирование на компрометацию учетной записи электронной почты
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 **Сводка** Как распознать компрометацию учетной записи электронной почты в Microsoft 365 и какие принять меры.
 
@@ -90,7 +90,7 @@ ms.locfileid: "50166667"
 
 ### <a name="step-1-reset-the-users-password"></a>Шаг 1. Смените пароль пользователя
 
-Выполните процедуры из раздела [Сброс бизнес-пароля для другого пользователя](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords#reset-my-admin-password).
+Выполните процедуры из раздела [Сброс бизнес-пароля для другого пользователя](../../admin/add-users/reset-passwords.md#reset-my-admin-password).
 
 > [!IMPORTANT]
 >
@@ -104,7 +104,7 @@ ms.locfileid: "50166667"
 >
 > - Не забудьте обновить пароли приложений. Пароли приложения не отзываются автоматически при сбросе пароля учетной записи пользователя. Пользователь должен удалить существующие пароли приложений и создать новые. Инструкции см. в разделе [Создание и удаление паролей приложений на странице дополнительной проверки безопасности](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
 >
-> - Настоятельно рекомендуется включить многофакторную проверку подлинности (MFA), чтобы предотвратить компрометацию, особенно для учетных записей с правами администратора. Дополнительные сведения о MFA см. в статье [Настройка многофакторной проверки подлинности](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> - Настоятельно рекомендуется включить многофакторную проверку подлинности (MFA), чтобы предотвратить компрометацию, особенно для учетных записей с правами администратора. Дополнительные сведения о MFA см. в статье [Настройка многофакторной проверки подлинности](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Шаг 2. Удалите подозрительные адреса перенаправления почты
 

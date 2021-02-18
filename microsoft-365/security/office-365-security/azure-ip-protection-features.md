@@ -19,20 +19,20 @@ ms.custom:
 description: В этой статье объясняется, какие изменения внося в функции защиты в Azure Information Protection
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0769306c3aa2d1a357e1d5999d1a1406c02aa5f3
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: fe85a46e3f20cda62cd8a52bd5df92257f8fee57
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261565"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286673"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Функции защиты в Azure Information Protection, развертывание для существующих клиентов
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Microsoft Defender для Office 365 (план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Чтобы помочь вам на начальном этапе защиты информации, с июля 2018 г. все клиенты, соответствующие требованиям Azure Information Protection, по умолчанию будут иметь функции защиты в Azure Information Protection. Функции защиты в Azure Information Protection ранее были известны в Office 365 как управление правами или Azure RMS. Если в вашей организации имеется план обслуживания Office E3 или более высокий план обслуживания, вы получите возможность защитить информацию с помощью Azure Information Protection при их развии.
 
@@ -54,7 +54,7 @@ ms.locfileid: "50261565"
 
 ## <a name="why-are-we-making-this-change"></a>Почему мы внося это изменение?
 
-Шифрование сообщений Office 365 использует возможности защиты в Azure Information Protection. В основе последних улучшений шифрования сообщений Office 365 и наших более широких инвестиций в защиту информации в Microsoft 365 мы упростим для организаций возможность включить и использовать наши возможности защиты, так как исторически трудно настроить технологии шифрования. Включив функции защиты в Azure Information Protection по умолчанию, вы можете быстро начать защищать конфиденциальные данные.
+Шифрование сообщений Office 365 использует возможности защиты в Azure Information Protection. В основе последних улучшений шифрования сообщений Office 365 и наших более широких инвестиций в защиту информации в Microsoft 365 мы упростили для организаций возможность включить и использовать наши возможности защиты, так как традиционно трудно настроить технологии шифрования. Включив функции защиты в Azure Information Protection по умолчанию, вы можете быстро начать защищать конфиденциальные данные.
 
 ## <a name="does-this-impact-me"></a>Влияет ли это на меня?
 
@@ -75,7 +75,7 @@ ms.locfileid: "50261565"
 
    Используйте редактор ADSI, чтобы узнать, опубликован ли SCP в Active Directory: CN=Configuration [имя сервера], CN=Services, CN=RightsManagementServices, CN=SCP
 
-2. Если вы не используете SCP, компьютеры с Windows, подключаемые к кластеру AD RMS, должны быть настроены для обнаружения клиентских служб или перенаправления лицензирования с помощью реестра `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation or HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation` Windows:
+2. Если вы не используете SCP, компьютеры с Windows, которые подключаются к кластеру AD RMS, должны быть настроены для обнаружения служб на стороне клиента или перенаправления лицензирования с помощью реестра `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation or HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation` Windows:
 
 Дополнительные сведения об этих конфигурациях реестра см. в подключеке "Включение обнаружения клиентских служб с помощью реестра [Windows"](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) и "Перенаправление трафика сервера [лицензирования".](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic)
 

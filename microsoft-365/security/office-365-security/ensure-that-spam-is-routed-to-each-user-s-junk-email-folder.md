@@ -18,28 +18,28 @@ description: Администраторы могут узнать, как отп
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 926ac6dec33bf00fc8f0dcd292229e20ccc2b93f
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: b8fbc1b065e348f759806d80fd85421eb9d66098
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167123"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288877"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Настройка автономных EOP для доставки нежелательной почты в папку нежелательной почты в гибридных средах
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
--  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Автономный exchange Online Protection](exchange-online-protection-overview.md)
 
 > [!IMPORTANT]
 > Этот раздел касается только пользователей автономных EOP в гибридных средах. Этот раздел не относится к клиентам Microsoft 365 с почтовыми ящиками Exchange Online.
 
 Если вы автономный клиент Exchange Online Protection (EOP) в гибридной среде, необходимо настроить свою локальной организации Exchange для распознавания и перевода решения фильтрации нежелательной почты EOP, поэтому правило нежелательной почты в локальном почтовом ящике может перемещать сообщения в папку нежелательной почты.
 
-В частности, необходимо создать правила потока почты (также известные как правила транспорта) в локальной организации Exchange с условиями, которые находят сообщения с любыми из следующих заглавных и значений EOP для нежелательной почты, а также действиями, которые устанавливают уровень безопасности нежелательной почты (SCL) этих сообщений, равное 6:
+В частности, необходимо создать правила потока почты (также известные как правила транспорта) в локальной организации Exchange с условиями, которые находят сообщения с любым из следующих заглавных и значений EOP для нежелательной почты, а также действиями, которые устанавливают уровень безопасности нежелательной почты (SCL) этих сообщений, равное 6:
 
-- `X-Forefront-Antispam-Report: SFV:SPM` (сообщение, помеченное как нежелательное с помощью фильтрации нежелательной почты)
+- `X-Forefront-Antispam-Report: SFV:SPM` (Сообщение, помеченное как нежелательное с помощью фильтрации нежелательной почты)
 
 - `X-Forefront-Antispam-Report: SFV:SKS` (Сообщение, помеченное как нежелательное правилами потока почты в EOP перед фильтрацией нежелательной почты)
 
@@ -50,19 +50,19 @@ ms.locfileid: "50167123"
 В этом разделе описывается создание этих правил потока обработки почты в Центре администрирования Exchange (EAC) и в exchange Management Shell (Exchange PowerShell) в локальной организации Exchange.
 
 > [!TIP]
-> Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики нежелательной почты в EOP для помещения нежелательных сообщений на карантин в EOP. Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
+> Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики борьбы со нежелательной почтой в EOP для помещения нежелательных сообщений на карантин в EOP. Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Для этого необходимы соответствующие разрешения в локальной среде Exchange. В частности, вам должна быть  назначена роль правил транспорта, которая по умолчанию  назначена ролям "Управление организацией", "Управление соответствием требованиям" и "Управление записями". Дополнительные сведения см. в [подстройки "Добавление участников в группу ролей".](https://docs.microsoft.com/Exchange/permissions/role-group-members#add-members-to-a-role-group)
+- Для этого необходимы соответствующие разрешения в локальной среде Exchange. В частности, вам должна быть  назначена роль правил транспорта, которая по умолчанию  назначена ролям управления **организацией,** управления соответствием требованиям и управления записями. Дополнительные сведения см. в [подстройки "Добавление участников в группу ролей".](https://docs.microsoft.com/Exchange/permissions/role-group-members#add-members-to-a-role-group)
 
 - Если и когда сообщение доставляется в папку нежелательной почты в локальной организации Exchange, управляется сочетанием следующих параметров:
 
-  - Значение _параметра SCLJunkThreshold_ в параметре [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) в exchange Management Shell. Значение по умолчанию — 4, то есть уровень нежелательной почты должен быть 5 или выше, чтобы доставить сообщение в папку нежелательной почты пользователя.
+  - Значение _параметра SCLJunkThreshold_ в параметре [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) в exchange Management Shell. Значение по умолчанию — 4, что означает, что уровень нежелательной почты, который составляет 5 или более, должен доставить сообщение в папку нежелательной почты пользователя.
 
-  - Значение _параметра SCLJunkThreshold_ в параметре [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) в exchange Management Shell. По умолчанию используется пустое значение ($null), что означает, что используется параметр организации.
+  - Значение _параметра SCLJunkThreshold_ в параметре [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) в exchange Management Shell. Значение по умолчанию пусто ($null), что означает, что используется параметр организации.
 
-  Подробные сведения см. в сведениях о пороговых значениях для уровня [уверенности в](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl)нежелательной почте Exchange .
+  Подробные сведения см. в сведениях о пороговых значениях уровня нежелательной почты [(SCL) Exchange.](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl)
 
   - Включено ли правило нежелательной почты для почтового ящика (значение параметра _Enabled_ $true в cmdlet [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) в exchange Management Shell). Это правило нежелательной почты перемещает сообщение в папку нежелательной почты после доставки. По умолчанию правило нежелательной почты включено для почтовых ящиков. Дополнительные сведения см. в статье [Configure Exchange antispam settings on mailboxes](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
 
@@ -84,7 +84,7 @@ ms.locfileid: "50167123"
 
 3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
-   - **Name**: Enter a unique, descriptive name for the rule. Например:
+   - **Name**: Enter a unique, descriptive name for the rule. Например,
 
      - EOP SFV:SPM to SCL 6
 
@@ -96,17 +96,17 @@ ms.locfileid: "50167123"
 
    - **Применив это правило,** если :Select **A message** \> **header includes any of these words**.
 
-     В **текстовом заголовке "Ввод"** содержится предложение "Введите слова", после этого сделайте следующее:
+     В **текстовом заголовке "Ввод"** содержится предложение "Введите слова", которое отображается, и сделайте следующее:
 
      - Нажмите **кнопку ВВОД текста.** В от **имени загона** введите **X-Forefront-Antispam-Report** и нажмите кнопку **"ОК".**
 
-     - Нажмите  **кнопку "Введите слова"**. В  диалоговом окну "Укажите слова или фразы" введите одно из значений в заголке нежелательной почты EOP  **(SFV:SPM,** **SFV:SKS или** **SFV:SKB),** нажмите кнопку "Добавить" и нажмите кнопку "ОК". ![ ](../../media/ITPro-EAC-AddIcon.png) 
+     - Нажмите  **кнопку "Введите слова"**. В  диалоговом окну "Укажите слова или фразы" введите одно из значений в загон нежелательной почты EOP  **(SFV:SPM,** **SFV:SKS или** **SFV:SKB),** нажмите кнопку "Добавить" и нажмите кнопку "ОК". ![ ](../../media/ITPro-EAC-AddIcon.png) 
 
-   - **Сделайте следующее:** выберите **"Изменить свойства сообщения".** Установите уровень уверенности нежелательной почты \> **(SCL).**
+   - **Сделайте следующее:** select **Modify the message properties** \> **Set the spam confidence level (SCL)**.
 
      В **отобратом диалоговом** окле "Укажите SCL" выберите **6** (значение по умолчанию **— 5).**
 
-   По завершению нажмите кнопку **"Сохранить".**
+   По завершению нажмите кнопку **"Сохранить"**
 
 Повторите эти действия для оставшихся значений решения о нежелательной почте EOP (**SFV:SPM,** **SFV:SKS** или **SFV:SKB).**
 
@@ -118,7 +118,7 @@ ms.locfileid: "50167123"
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
 ```
 
-Например:
+Например,
 
 ```Powershell
 New-TransportRule -Name "EOP SFV:SPM to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SPM" -SetSCL 6
@@ -138,7 +138,7 @@ New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-F
 
 Чтобы убедиться, что вы успешно настроили автономный EOP для доставки нежелательной почты в папку нежелательной почты в гибридной среде, сделайте следующее:
 
-- В EAC перейдите  к правилам потока обработки почты, выберите правило и нажмите значок редактирования, чтобы проверить \>   ![ ](../../media/ITPro-EAC-EditIcon.png) параметры.
+- В EAC перейдите к **правилам** потока обработки почты, выберите правило и нажмите значок редактирования, чтобы \>   ![ проверить ](../../media/ITPro-EAC-EditIcon.png) параметры.
 
 - В командной оболочке Exchange замените имя правила потока почты и перенаправить следующую команду для проверки \<RuleName\> параметров:
 

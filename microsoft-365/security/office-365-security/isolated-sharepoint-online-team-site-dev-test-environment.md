@@ -8,45 +8,51 @@ manager: laurawi
 ms.date: 12/15/2017
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
 - TLG
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
-description: Сводка. Настройка сайта группы SharePoint Online, изолированного от остальной части Организации в среде разработки и тестирования Microsoft 365.
-ms.openlocfilehash: 6e056cd1d930d13e1ae20f8f8d0cdc9aa886f17e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Сводка. Настройте сайт группы SharePoint Online, изолированный от остальной организации в среде тестирования и тестирования Microsoft 365.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 103ba1ddb2b5123db80be91f40c4fce8c6e2eb3d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616492"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286613"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Среда разработки и тестирования изолированного сайта группы SharePoint Online
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1)](office-365-atp.md)
+- SharePoint Online 
 
- **Сводка:** Настройка сайта группы SharePoint Online, изолированного от остальной части Организации в среде разработки и тестирования Microsoft 365.
 
-Сайты групп SharePoint Online в Microsoft 365 — это расположения для совместной работы с помощью общей библиотеки документов, записной книжки OneNote и других служб. Во многих случаях требуется широкий доступ и совместная работа отделов или организаций. Однако в некоторых случаях необходимо управлять доступом и разрешениями для совместной работы небольшой группы пользователей.
+ **Сводка:** Настройте сайт группы SharePoint Online, изолированный от остальной организации в среде тестирования и тестирования Microsoft 365.
 
-Доступ к сайтам группы SharePoint Online и к каким пользователям можно управлять с помощью групп SharePoint и уровней разрешений. По умолчанию на сайтах SharePoint Online предусмотрено три уровня доступа:
+Сайты группы SharePoint Online в Microsoft 365 — это расположения для совместной работы с помощью общей библиотеки документов, записной книжки OneNote и других служб. Во многих случаях требуется широкий доступ и совместная работа отделов или организаций. Однако в некоторых случаях необходимо жестко контролировать доступ и разрешения для совместной работы небольшой группы людей.
+
+Доступ к сайтам групп SharePoint Online и возможности пользователей контролируется группами и уровнями разрешений SharePoint. По умолчанию на сайтах SharePoint Online предусмотрено три уровня доступа:
 
 - **Участники** могут просматривать, создавать и изменять ресурсы на сайте.
 - **Владельцы** могут полностью контролировать сайт, в том числе изменять разрешения.
 - **Посетители** могут просматривать ресурсы на сайте.
 
-В этой статье приведены инструкции по настройке изолированного сайта группы SharePoint Online для секретного исследовательского проекта ProjectX. Требования доступа:
+В этой статье приведены инструкции по настройке изолированного сайта группы SharePoint Online для секретного исследовательского проекта ProjectX. Требования к доступу:
 
 - Только участники проекта могут получить доступ к сайту и его содержимому (документам, записной книжке OneNote, страницам), уровни разрешений SharePoint на просмотр и редактирование определяются членством в группе.
 
 - Только создатель сайта и члены группы администраторов сайта могут выполнять администрирование сайта, в том числе изменять разрешения на уровне сайта.
 
-Настройка изолированного сайта группы SharePoint Online в среде разработки и тестирования Microsoft 365 состоит из трех этапов:
+Существует три этапа настройки изолированного сайта группы SharePoint Online в среде разработки и тестирования Microsoft 365:
 
-1. Создайте среду разработки и тестирования Microsoft 365.
+1. Создайте среду тестирования и тестирования Microsoft 365.
 
 2. Создание пользователей и групп для ProjectX.
 
@@ -55,24 +61,24 @@ ms.locfileid: "49616492"
 > [!TIP]
 > Щелкните [здесь](https://aka.ms/catlgstack), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования в One Microsoft Cloud.
 
-## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-microsoft-365-devtest-environment"></a>Этап 1: создание простой или имитируемой среды для разработки и тестирования Microsoft 365 для предприятий
+## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-microsoft-365-devtest-environment"></a>Этап 1. Создание среды разработки и тестирования Microsoft 365 для облегченного или имитируемого предприятия
 
-Если вы хотите просто создать изолированный сайт группы SharePoint Online с минимальными требованиями, выполните инструкции, приведенные в разделе этапы 2 и 3 [упрощенной базовой конфигурации](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
+Если вы просто хотите создать изолированный сайт группы SharePoint Online облегченным способом с минимальными требованиями, следуйте инструкциям на этапах 2 и 3 облегченной базовой [конфигурации.](../../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md)
 
-Если вы хотите создать изолированный сайт группы SharePoint Online в смоделированной конфигурации предприятия, следуйте инструкциям в статье [Синхронизация хэша паролей для тестовой среды Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment).
+Если вы хотите создать изолированный сайт группы SharePoint Online в имитированной корпоративной конфигурации, следуйте инструкциям в синхронизации с паролем для тестовой среды [Microsoft 365.](../../enterprise/password-hash-sync-m365-ent-test-environment.md)
 
 > [!NOTE]
-> Для создания изолированного сайта SharePoint Online не требуется имитация среды Enterprise dev/test, которая включает имитируемую интрасеть, подключенную к Интернету и синхронизацию каталогов, для леса доменных служб Active Directory (AD DS). Она указана здесь, чтобы вы могли протестировать изолированный сайт SharePoint Online и поэкспериментировать с ним в среде, которая представляет типичную среду для организаций.
+> Для создания изолированного сайта SharePoint Online не требуется среда разработчика и тестирования имитированной организации, которая включает имитированную интрасеть, подключенную к Интернету, и синхронизацию каталогов для леса доменных служб Active Directory (AD DS). Она указана здесь, чтобы вы могли протестировать изолированный сайт SharePoint Online и поэкспериментировать с ним в среде, которая представляет типичную среду для организаций.
 
-## <a name="phase-2-create-user-accounts-and-access-groups"></a>Этап 2: создание учетных записей пользователей и групп доступа
+## <a name="phase-2-create-user-accounts-and-access-groups"></a>Этап 2. Создание учетных записей пользователей и групп доступа
 
-Воспользуйтесь инструкциями из статьи [Подключение к Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell) , чтобы подключиться к пробной подписке с помощью учетной записи глобального администратора:
+Чтобы подключиться к пробной подписке с помощью учетной записи глобального администратора, воспользуйтесь инструкциями в PowerShell для подключения к [Office 365:](../../enterprise/connect-to-microsoft-365-powershell.md)
 
-- Компьютер (для упрощенной среды разработки и тестирования Microsoft 365).
+- Компьютер (для облегченной среды разработчика и тестирования Microsoft 365).
 
-- Виртуальная машина CLIENT1 (для среды разработки и тестирования Microsoft 365 для предприятий).
+- Виртуальная машина CLIENT1 (для среды тестирования и тестирования Microsoft 365 для имитированных предприятий).
 
-Чтобы создать новые группы доступа для сайта группы SharePoint Online ProjectX, выполните следующие команды в командной консоли Windows Azure Active Directory для Windows PowerShell:
+Чтобы создать группы доступа для сайта группы ProjectX SharePoint Online, в командной Windows Azure Модуля Active Directory для Windows PowerShell командной Windows PowerShell командной Windows PowerShell:
 
 ```powershell
 $groupName="ProjectX-Members"
@@ -116,7 +122,7 @@ New-MsolUser -DisplayName "Development VP" -FirstName Development -LastName VP -
 
 Запишите в надежном месте пароль, созданный командой **New-MsolUser** для учетной записи вице-президента по развитию.
 
-Затем, чтобы добавить новые учетные записи в новые группы доступа, выполните следующие команды PowerShell в командной строке модуля Windows Azure Active Directory для Windows PowerShell:
+Затем, чтобы добавить новые учетные записи в новые группы доступа, запустите следующие команды PowerShell из Windows Azure модуля Active Directory для Windows PowerShell команд:
 
 ```powershell
 $grpName="ProjectX-Members"
@@ -131,17 +137,17 @@ $userUPN="devvp@" + $orgName + ".onmicrosoft.com"
 Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $grpName }).ObjectID -GroupMemberObjectId (Get-MsolUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -GroupMemberType "User"
 ```
 
-Результатом
+Результаты:
 
-- Группа доступа к ProjectX-Members содержит сведения об дизайнере и учетных записях ведущего сотрудника.
+- Группа ProjectX-Members содержит учетные записи ведущим дизайнером и ведущим исследователем
 
-- Группа доступа к ProjectX-Admins содержит учетную запись глобального администратора для пробной подписки.
+- Группа ProjectX-Admins доступа содержит учетную запись глобального администратора для пробной подписки
 
-- Группа доступа ProjectX-Viewers содержит учетную запись президента для разработки
+- Группа ProjectX-Viewers содержит учетную запись вице-президент по разработке
 
 На рисунке 1 показаны группы доступа и их членство.
 
-**Рисунок 1**:
+**Рис. 1.**
 
 ![Группы Microsoft 365 и их членство для изолированного сайта группы SharePoint Online](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
 
@@ -149,13 +155,13 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 Чтобы создать сайт группы SharePoint Online для ProjectX, выполните перечисленные ниже действия.
 
-1. С помощью браузера на локальном компьютере (облегченная настройка) или на компьютере CLIENT1 (смоделированная конфигурация предприятия) Войдите в центр администрирования Microsoft 365 ( <https://admin.microsoft.com> ), используя свою учетную запись глобального администратора.
+1. Используя браузер на локальном компьютере (облегченная конфигурация) или CLIENT1 (конфигурация имитированной организации), во sign in to the Microsoft 365 admin center ( <https://admin.microsoft.com> ) using your global administrator account.
 
 2. В списке плиток выберите **SharePoint**.
 
 3. На новой вкладке SharePoint в браузере нажмите **+ Создать сайт**.
 
-4. В поле **Имя сайта группы** введите **ProjectX**. В окне **Параметры конфиденциальности** выберите пункт **частные пользователи могут получать доступ к этому сайту**.
+4. В поле **Имя сайта группы** введите **ProjectX**. В **параметрах конфиденциальности выберите** **"Частный" — доступ к** этому сайту могут получить только участники.
 
 5. В поле **Описание сайта группы** введите **Сайт SharePoint для ProjectX** и нажмите кнопку **Далее**.
 
@@ -195,11 +201,11 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 Ниже приведены результаты настройки разрешений.
 
-- Группа ProjectX Members содержит только группу доступа к ProjectX-Members (которая содержит только дизайнера и учетные записи ведущего пользователя) и группу ProjectX (которая содержит только учетную запись глобального администратора).
+- Группа SharePoint "Участники ProjectX" содержит только группу доступа ProjectX-Members (которая содержит только учетные записи ведущим конструктором и ведущим исследователем) и группу ProjectX (которая содержит только учетную запись глобального администратора).
 
-- Группа SharePoint Owners ProjectX содержит только группу доступа к ProjectX-Admins (которая содержит только учетную запись глобального администратора).
+- Группа SharePoint владельцев ProjectX содержит только ProjectX-Admins доступа (которая содержит только учетную запись глобального администратора).
 
-- Группа SharePoint "Посетители ProjectX" содержит только группу доступа к ProjectX-Viewers (которая содержит только учетную запись "вице-президент разработки").
+- Группа SharePoint посетителей ProjectX содержит только ProjectX-Viewers доступа (которая содержит только учетную запись вице-президент по разработке).
 
 - Участники не могут изменять разрешения на уровне сайта (это могут делать только члены группы ProjectX-Admins).
 
@@ -207,17 +213,17 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 На рисунке 2 показаны группы SharePoint и их участники.
 
-**Рис. 2**
+**Рисунок 2**
 
 ![Группы SharePoint Online и их членство для изолированного сайта группы SharePoint Online](../../media/595abff4-64f9-49de-a37a-c70c6856936b.png)
 
-Теперь рассмотрим доступ, используя учетную запись пользователя конструктора ведущего:
+Теперь продемонстрируем доступ с помощью учетной записи пользователя "Главный конструктор":
 
 1. Закройте вкладку **Главная, ProjectX** в браузере и перейдите на вкладку **Домашняя страница Microsoft Office**.
 
 2. Щелкните имя глобального администратора и нажмите **Выйти**.
 
-3. Войдите в центр администрирования Microsoft 365 ( <https://admin.microsoft.com> ), используя имя и пароль учетной записи ведущего дизайнера.
+3. Во sign in to the Microsoft 365 admin center ( <https://admin.microsoft.com> ) using the Lead Designer account name and its password.
 
 4. В списке плиток выберите **SharePoint**.
 
@@ -235,19 +241,19 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 11. В новой вкладке **ProjectX — Документы** в браузере нажмите **Создать > Документ Word**.
 
-12. Введите какой-либо текст на странице, дождитесь, пока состояние будет **сохранено**, нажмите кнопку "назад" в браузере, а затем обновите страницу. В папке **Документы** появится новый файл **Документ.docx**.
+12. Введите текст на странице, подождите, пока состояние будет указано **"Сохранено",** нажмите кнопку "Назад" в браузере и обновите страницу. В папке **Документы** появится новый файл **Документ.docx**.
 
-13. Нажмите кнопку с многоточием для **Document.docx** документа, а затем щелкните **получить ссылку**.
+13. Щелкните многоязыкDocument.docx **документа** и нажмите кнопку **"Получить ссылку".**
 
-14. Скопируйте URL-адрес в диалоговом окне **общий доступ к Document.docxу** и вставьте его в новую строку в блокноте или в текстовом редакторе, а затем закройте диалоговое окно **общий доступ к Document.docx** .
+14. Скопируйте URL-адрес в диалоговом окне "Поделиться Document.docx" и **вберите** его в новую строку в Блокноте или текстовом редакторе, а затем закройте диалоговое окно "Поделиться Document.docx". 
 
 15. Закройте вкладки **ProjectX — Документы** и **SharePoint** в браузере и перейдите на вкладку **Домашняя страница Microsoft Office**.
 
 16. Щелкните имя **ведущего дизайнера** и нажмите **Выйти**.
 
-Теперь рассмотрим доступ, используя учетную запись "вице — президент по разработке":
+Теперь продемонстрируем доступ с помощью учетной записи вице-президент по разработке:
 
-1. Войдите в центр администрирования Microsoft 365 (), <https://admin.microsoft.com> используя имя и пароль учетной записи вице-президента по разработке.
+1. Во sign in to the Microsoft 365 admin center ( <https://admin.microsoft.com> ) using the Development VP account name and its password.
 
 2. В списке плиток выберите **SharePoint**.
 
@@ -261,9 +267,9 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 7. Перейдите на вкладку **Домашняя страница Microsoft Office**, щелкните имя **вице-президента по развитию** и нажмите **Выйти**.
 
-Теперь рассмотрим доступ с учетной записью пользователя, не имеющей разрешений.
+Теперь продемонстрируем доступ с помощью учетной записи пользователя, у нее нет разрешений:
 
-1. Войдите в центр администрирования Microsoft 365 (), <https://admin.microsoft.com> используя имя учетной записи пользователя 3 и пароль.
+1. Во sign in to the Microsoft 365 admin center ( <https://admin.microsoft.com> ) using the User 3 account name and its password.
 
 2. В списке плиток выберите **SharePoint**.
 
@@ -277,7 +283,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 7. Закройте вкладку **SharePoint** в браузере, перейдите на вкладку **Домашняя страница Microsoft Office**, щелкните имя **пользователя 3** и нажмите **Выйти**.
 
-Теперь изолированный сайт SharePoint Online готов к выполнению дополнительного эксперимента.
+Изолированный сайт SharePoint Online готов к дополнительным экспериментам.
 
 ## <a name="next-step"></a>Дальнейшие действия
 
@@ -287,10 +293,10 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 [Изолированные сайты групп SharePoint Online](isolated-sharepoint-online-team-sites.md)
 
-[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Руководства по лаборатории тестирования для облачных решений](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
-[Базовая конфигурация "имитация предприятия"](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
+[Базовая конфигурация "имитация предприятия"](../../enterprise/simulated-ent-base-configuration-microsoft-365-enterprise.md)
 
-[Простая базовая конфигурация](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
+[Простая базовая конфигурация](../../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md)
 
-[Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[Центр архитектуры и решений Microsoft 365](../../solutions/index.yml)

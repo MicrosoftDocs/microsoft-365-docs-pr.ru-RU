@@ -21,20 +21,20 @@ ms.custom:
 description: Microsoft Defender для Office 365 включает безопасные вложения, безопасные ссылки, расширенные средства защиты от фишинга, инструменты создания отчетов и возможности аналитики угроз.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7624b9a62530e54a161bbc4aacc8bee56ed959b2
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 741b00a55ee73d16c82abd4806d06660d49be65b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150728"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287669"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender для Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, использующих [Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Если вы используете Outlook.com, Microsoft 365 для семьи или Microsoft 365 персональный и ищете сведения о функции "Безопасные ссылки"или "Безопасные вложения" в Outlook, см. статью [Расширенные возможности безопасности Outlook.com для подписчиков Microsoft 365](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -92,7 +92,7 @@ Microsoft Defender для Office 365 защищает вашу организа�
 
 - Функция [безопасных документов](safe-docs.md) доступна только пользователям с лицензией Microsoft 365 E5 или Безопасность Microsoft 365 E5 (не предусмотренные планами Microsoft Defender для Office 365).
 
-- Если текущая подписка не включает в себя Microsoft Defender для Office 365, [обратитесь в отдел продаж для начала использования пробной версии](https://go.microsoft.com/fwlink/p/?LinkId=518644) и посмотрите, как Defender для Office 365 может работать в вашей организации.
+- Если текущая подписка не включает в себя Microsoft Defender для Office 365, [обратитесь в отдел продаж для начала использования пробной версии](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html) и посмотрите, как Defender для Office 365 может работать в вашей организации.
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Настройка политик Microsoft Defender для Office 365
 
@@ -149,7 +149,7 @@ Microsoft Defender для Office 365 (план 2) включает лучшие 
 
 |Роль или группа ролей|Дополнительные ресурсы|
 |---|---|
-|глобальный администратор (назначается Azure Active Directory или Центром безопасности и соответствия требованиям)|[О ролях администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
+|глобальный администратор (назначается Azure Active Directory или Центром безопасности и соответствия требованиям)|[О ролях администратора Microsoft 365](../../admin/add-users/about-admin-roles.md)|
 |Администратор безопасности (назначается Azure Active Directory или Центром безопасности и соответствия требованиям)|[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)|
 |Управление организациями в Exchange Online (назначается Exchange Online)|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |Роль "Search and Purge" (поиск и очистка) (назначается только Центром безопасности и соответствия требованиям)|[Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)|

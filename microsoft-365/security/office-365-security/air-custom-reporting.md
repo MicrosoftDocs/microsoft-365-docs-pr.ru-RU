@@ -1,5 +1,5 @@
 ---
-title: Настраиваемые решения для отчетов с автоматическим исследованием и реагированием
+title: Пользовательские решения для отчетов с автоматизированным исследованием и реагированием
 keywords: SIEM, API, AIR, autoIR, ATP, автоматизированное исследование, интеграция, настраиваемый отчет
 f1.keywords:
 - NOCSH
@@ -21,22 +21,22 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a66a89a13182570259bcb8be4134c21d13e22391
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 13782a8e0a8c691a66f214d3f9f03ef9cad4da1f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175815"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287141"
 ---
 # <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Пользовательские или сторонние решения для отчетов в Microsoft Defender для Office 365
 
-С [помощью Microsoft Defender для Office 365](office-365-atp.md)вы получаете подробные сведения об [автоматизированных расследованиях.](air-view-investigation-results.md) Однако в некоторых организациях также используется пользовательское или стороне решение для отчетов. Если вашей организации нужно [](office-365-air.md) интегрировать сведения об автоматизированных расследованиях с таким решением, можно использовать API действий управления Office 365.
+С [помощью Microsoft Defender для Office 365](office-365-atp.md)вы получаете подробные сведения об [автоматизированных расследованиях.](air-view-investigation-results.md) Однако в некоторых организациях также используется пользовательское или стороне решение для отчетов. Если ваша организация хочет [](office-365-air.md) интегрировать сведения об автоматизированных расследованиях с таким решением, вы можете использовать API действий управления Office 365.
 
 **Область применения**
-- [Microsoft Defender для Office 365 (план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Microsoft Defender для Office 365 (план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-С [помощью Microsoft Defender для Office 365](office-365-atp.md)вы получаете подробные сведения об [автоматизированных расследованиях.](air-view-investigation-results.md) Однако в некоторых организациях также используется пользовательское или стороне решение для отчетов. Если вашей организации нужно интегрировать сведения об автоматизированных расследованиях с таким решением, можно использовать API действий управления Office 365.
+С [помощью Microsoft Defender для Office 365](office-365-atp.md)вы получаете подробные сведения об [автоматизированных расследованиях.](air-view-investigation-results.md) Однако в некоторых организациях также используется пользовательское или стороне решение для отчетов. Если ваша организация хочет интегрировать сведения об автоматизированных расследованиях с таким решением, вы можете использовать API действий управления Office 365.
 
 |Ресурс|Описание|
 |:---|:---|
@@ -49,4 +49,4 @@ ms.locfileid: "50175815"
 ## <a name="see-also"></a>См. также
 
 - [Microsoft Defender для Office 365](office-365-atp.md)
-- [Автоматическое исследование и реагирование в Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Автоматическое исследование и реагирование в Microsoft 365 Defender](../mtp/mtp-autoir.md)

@@ -14,28 +14,28 @@ ms.collection:
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Это решение сообщает, как могут выглядеть наиболее распространенные атаки на кибербезопасность в Microsoft 365 и как на них реагировать
+description: Это решение сообщает вам, как могут выглядеть наиболее распространенные атаки на кибербезопасность в Microsoft 365 и как на них реагировать
 ms.custom:
 - seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8dd7a90255fdd3e083a5d7306cac2e9ca6411024
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: d37fb232b717485c40218fd8a3c3117ba9b8322b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150187"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287645"
 ---
 # <a name="security-incident-response"></a>Реагирование на инциденты безопасности
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Относится к**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1) и план 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
- **Сводка:** Это решение сообщает, какие индикаторы являются наиболее распространенными кибератакам в Office 365, как положительно подтвердить любую атаку и как реагировать на нее.
+ **Сводка:** Это решение сообщает, какие показатели являются индикаторами наиболее распространенных кибератак в Office 365, как положительно подтвердить любую заданную атаку и как реагировать на нее.
 
 ## <a name="learn-how-to-respond-to-cyberattacks"></a>Узнайте, как реагировать на кибератаки
 

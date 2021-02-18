@@ -15,21 +15,21 @@ ms.custom:
 description: В этой статье вы узнаете об отчетах и средствах устранения неполадок, доступных администраторам Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 86c9eb0ee050c4c1a40ef7f29ea3d01dc202be9a
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 783c7ea0aca47c805daf66592b401a98f739d071
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166679"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288083"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Отчеты и трассировка сообщений в EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online EOP предлагает множество различных отчетов, которые помогут определить общее состояние и состояние вашей организации. Существуют также средства, позволяющие устранять неполадки с определенными событиями (например, если сообщение не приходит указанным получателям), а также отчеты аудита для целей соответствия требованиями.
 
@@ -45,13 +45,13 @@ ms.locfileid: "50166679"
 
 Дополнительные сведения можно найти в следующих материалах:
 
-- [Отчеты Microsoft 365 в Центре администрирования — группы Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
+- [Отчеты Microsoft 365 в Центре администрирования — группы Microsoft 365](../../admin/activity-reports/office-365-groups.md)
 
-- [Отчеты Microsoft 365 в Центре администрирования — действия с электронной почтой](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
+- [Отчеты Microsoft 365 в Центре администрирования — действия с электронной почтой](../../admin/activity-reports/email-activity.md)
 
-- [Отчеты Microsoft 365 в Центре администрирования — использование почтовых приложений](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
+- [Отчеты Microsoft 365 в Центре администрирования использование почтовых приложений](../../admin/activity-reports/email-apps-usage.md)
 
-- [Отчеты Microsoft 365 в Центре администрирования — использование почтовых ящиков](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
+- [Отчеты Microsoft 365 в Центре администрирования — использование почтовых ящиков](../../admin/activity-reports/mailbox-usage.md)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Отчеты & безопасности в Центре администрирования Microsoft 365
 
@@ -59,13 +59,13 @@ ms.locfileid: "50166679"
 
 **Defender for Office 365**: View information about Safe Links and Safe Attachments that are part of Microsoft Defender for Office 365.
 
-**EOP**: просмотр сведений об обнаружении вредоносных программ, подмене почты, обнаружении спама и потоке почты в вашу организацию и из нее.
+**EOP**: просмотр сведений об обнаружении вредоносных программ, подмене почты, обнаружении нежелательной почты и потоке почты в организацию и из нее.
 
 [Просмотр отчетов для Защитника office 365](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Настраиваемые отчеты с помощью Microsoft Graph
 
-Программным образом создавайте отчеты, доступные в Центре администрирования, с помощью Microsoft Graph. Дополнительные сведения [см.](https://docs.microsoft.com/graph/overview) в обзоре microsoft Graph и работе с отчетами об использовании [Office 365 в Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/report)
+Программным образом создавайте отчеты, доступные в Центре администрирования, с помощью Microsoft Graph. Дополнительные сведения [см.](https://docs.microsoft.com/graph/overview) в обзоре Microsoft Graph и работе с отчетами об использовании [Office 365 в Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/report)
 
 ## <a name="message-trace"></a>Трассировка сообщений
 

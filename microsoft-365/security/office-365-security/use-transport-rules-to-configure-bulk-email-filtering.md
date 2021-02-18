@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,17 +15,23 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться использовать правила потока почты (правила транспорта) для идентификации и фильтрации массовой почты (серой почты) в Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b029e805147218551ba6ff80fb5abfda3fbfef7f
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 8030d21d414cb38769a6831391262fa3798a8838
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658641"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287297"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Использование правил потока почты для фильтрации массовой рассылки в EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 В организациях Microsoft 365 с почтовыми ящиками в Организациях Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online EOP использует политики защиты от нежелательной почты (также известные как политики фильтрации нежелательной почты или политики фильтрации содержимого) для проверки входящих сообщений на спам и массовой рассылки (также известной как серая почта). Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 
@@ -66,7 +71,7 @@ ms.locfileid: "49658641"
 
 1. В Центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
 
-2. Нажмите **значок** ![ "Добавить", а затем выберите ](../../media/ITPro-EAC-AddIcon.png) **"Создать новое правило".**
+2. Щелкните **значок** ![ "Добавить", ](../../media/ITPro-EAC-AddIcon.png) а затем выберите **"Создать новое правило".**
 
 3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
