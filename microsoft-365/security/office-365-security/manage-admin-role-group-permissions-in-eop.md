@@ -13,19 +13,19 @@ ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Администраторы могут узнать, как назначать или удалять разрешения в Центре администрирования Exchange (EAC) в Exchange Online Protection.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b53023521f477b5e864424ec648ccf7e5b749d0c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ce272985f195f44c57848e6861cefb64431698b9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166991"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289929"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>Управление ролевыми группами в автономной службе EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
--  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Автономный exchange Online Protection](exchange-online-protection-overview.md)
 
 В автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online для добавления пользователей в группы ролей можно использовать Центр администрирования Exchange (EAC). Добавление пользователей в группу ролей дает им разрешения на выполнение определенных задач администрирования. Вы также можете удалять пользователей из групп ролей.
 
@@ -37,12 +37,12 @@ ms.locfileid: "50166991"
 
 - Чтобы открыть автономный EOP PowerShell, см. веб-сайт [Connect to Exchange Online Protection PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)
 
-- Для работы с процедурами, которые данная статья, вам должны быть назначены разрешения в Exchange Online Protection. В частности, необходима роль **управления** ролем, которая по умолчанию назначена группе ролей **"Управление** организацией". Дополнительные сведения см. в сведениях о разрешениях в автономных [EOP](feature-permissions-in-eop.md) и использовании EAC для изменения списка участников [в группах ролей.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+- Для работы с процедурами, которые данная статья, вам должны быть назначены разрешения в Exchange Online Protection. В частности, необходима **роль управления** ролами, которая по умолчанию назначена группе ролей **"Управление** организацией". Дополнительные сведения см. в сведениях о разрешениях в автономных [EOP](feature-permissions-in-eop.md) и использовании EAC для изменения списка участников [в группах ролей.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
-- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" в Центре администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
+- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" для Центра администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
 
 > [!TIP]
-> Возникли проблемы? Обратитесь за помощью на форум по [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351).
+> Возникли проблемы? Обратитесь за помощью на форум по [Exchange Online Protection](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE).
 
 ## <a name="use-the-eac-to-manage-role-groups"></a>Использование EAC для управления группами ролей
 
@@ -60,7 +60,7 @@ ms.locfileid: "50166991"
 
    - **Вручную создайте новую группу ролей:** щелкните **значок** ![ ](../../media/ITPro-EAC-AddIcon.png) "Добавить".
 
-   - **Скопируйте существующую группу** ролей: выберите группу ролей, которую нужно скопировать, и щелкните значок  ![ ](../../media/ITPro-EAC-CopyIcon.png) копирования.
+   - **Скопируйте существующую группу** ролей: выберите группу ролей, которую нужно скопировать, и щелкните значок  ![ "Копировать ](../../media/ITPro-EAC-CopyIcon.png) копию".
 
 2. В новом **окне** группы ролей настройте следующие параметры:
 
@@ -70,13 +70,13 @@ ms.locfileid: "50166991"
 
     - **Roles**: Click **Add** ![ Add icon or Remove ](../../media/ITPro-EAC-AddIcon.png) **Remove** icon to select or modify the roles that ![ are ](../../media/ITPro-EAC-RemoveIcon.gif) assigned to the role group.
 
-    - **Участники:** **щелкните значок "Добавить** добавить" или ![ ](../../media/ITPro-EAC-AddIcon.png) **"Удалить** ![ значок "Удалить", ](../../media/ITPro-EAC-RemoveIcon.gif) чтобы изменить членство в группе ролей.
+    - **Участники:** **щелкните значок** ![ "Добавить" ](../../media/ITPro-EAC-AddIcon.png) или **"Удалить** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) удалить", чтобы изменить членство в группе ролей.
 
 3. После завершения нажмите кнопку  "Сохранить", чтобы создать группу ролей.
 
 ### <a name="use-the-eac-to-modify-role-groups"></a>Использование EAC для изменения групп ролей
 
-В EAC перейдите к **ролям** администратора разрешений, выберите группу ролей, которую нужно изменить, и нажмите значок \>   ![ ](../../media/ITPro-EAC-EditIcon.png) редактирования.
+В EAC перейдите к **ролям** администратора разрешений, выберите группу ролей, которую необходимо изменить, и нажмите значок \>   ![ ](../../media/ITPro-EAC-EditIcon.png) редактирования.
 
 При изменении групп ролей доступны те же параметры, что и при создании групп ролей. Вы можете выполнить указанные ниже действия.
 
@@ -94,7 +94,7 @@ ms.locfileid: "50166991"
 
 2. На открываемой странице свойств группы ролей в разделе **"Участники"** сделайте один из следующих действий:
 
-   - Нажмите **кнопку "Добавить** ![ значок добавления" ](../../media/ITPro-EAC-AddIcon.png) . На этой странице найдите пользователя, который нужно добавить, и нажмите кнопку **add ->**. Выберите пользователей и **нажмите кнопку add ->** многократно при необходимости. После этого нажмите кнопку **ОК**.
+   - Нажмите **кнопку "Добавить** ![ значок добавления" ](../../media/ITPro-EAC-AddIcon.png) . На этой странице найдите пользователя, который нужно добавить, и нажмите кнопку **add ->.** Выберите пользователей и нажмите **кнопку add ->** много раз при необходимости. После этого нажмите кнопку **ОК**.
 
    - Выберите пользователей, которые нужно удалить, и нажмите значок **"Удалить** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) удалить".
 
@@ -105,11 +105,11 @@ ms.locfileid: "50166991"
 
 ### <a name="use-the-eac-to-remove-role-groups"></a>Удаление групп ролей с помощью EAC
 
-Встроенные группы ролей удалить нельзя, но вы можете удалить созданные настраиваемые группы ролей.
+Встроенные группы ролей удалить нельзя, но можно удалить созданные настраиваемые группы ролей.
 
 1. В EAC перейдите к **ролям** \> **администратора разрешений.**
 
-2. Выберите группу ролей, которую нужно удалить, и нажмите **значок "Удалить** ![ удалить". ](../../media/ITPro-EAC-DeleteIcon.png)
+2. Выберите группу ролей, которую нужно удалить, и нажмите кнопку **"Удалить".** ![ ](../../media/ITPro-EAC-DeleteIcon.png)
 
 3. Нажмите **кнопку "Да"** в от появится окно подтверждения.
 
@@ -161,7 +161,7 @@ Get-RoleGroup -Filter "Members -eq 'CN=Julia,OU=contoso.onmicrosoft.com,OU=Micro
 
   - Группе ролей назначена роль получателей почты.
 
-  - Пользователи Kim и Martin добавляются в качестве участников.
+  - Пользователи Kim и Martin добавляются в качестве членов.
 
   ```PowerShell
   New-RoleGroup -Name "Limited Recipient Management" -Roles "Mail Recipients" -Members "Kim","Martin"
@@ -220,11 +220,11 @@ Update-RoleGroupMember -Identity "Help Desk" -Members "Gabriela Laureano","Hyun-
 Update-RoleGroupMember -Identity "Help Desk" -Members @{Add="Daigoro Akai"; Remove="Valeria Barrios"}
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в описании [Update-RoleGroupMember.](https://docs.microsoft.com/powershell/module/exchange/Update-RoleGroupMember)
+Подробные сведения о синтаксисах и параметрах см. в [описании Update-RoleGroupMember.](https://docs.microsoft.com/powershell/module/exchange/Update-RoleGroupMember)
 
 ### <a name="use-standalone-eop-powershell-to-remove-role-groups"></a>Удаление групп ролей с помощью автономных EOP PowerShell
 
-Встроенные группы ролей удалить нельзя, но вы можете удалить созданные настраиваемые группы ролей.
+Встроенные группы ролей удалить нельзя, но можно удалить созданные настраиваемые группы ролей.
 
 Чтобы удалить настраиваемую группу ролей, используйте следующий синтаксис:
 

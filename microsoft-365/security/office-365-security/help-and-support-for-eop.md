@@ -13,21 +13,21 @@ ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Корпорация Майкрософт предоставляет помощь по EOP различными способами в различных местах, включая самостоятельную поддержку и услуги специалистов.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a2b8228d33648f7bd20bde9d9e7b852276231aa6
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 945f3c4e32a6c41193e3df4813cc4ed4fe9f7b1f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167111"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289797"
 ---
 # <a name="help-and-support-for-eop"></a>Справка и поддержка для EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online ресурсы технической поддержки, перечисленные в этой статье, помогут найти ответы, если у вас возникли проблемы с EOP. Корпорация Майкрософт предоставляет помощь по EOP различными способами в различных местах, включая самостоятельную поддержку и услуги специалистов.
 
@@ -37,7 +37,7 @@ ms.locfileid: "50167111"
 
 [Обзор продукта Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](../../admin/contact-support-for-business-products.md)
 
 [Сообщество Microsoft 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
@@ -75,7 +75,7 @@ ms.locfileid: "50167111"
 
 ## <a name="support-telephone-numbers"></a>Номера телефона службы поддержки
 
-Корпорация Майкрософт обеспечивает местные или бесплатные номера телефона для поддержки своих продуктов во всем мире. Многие из этих центров справки и поддержки предоставляют услуги на языке вашей страны в рабочие часы или на английском языке  круглосуточно в любой день недели. Если ваше расположение не указано ниже, воспользуйтесь виртуальным агентом, как описано выше, чтобы найти локальный номер телефона службы поддержки.
+Корпорация Майкрософт обеспечивает местные или бесплатные номера телефона для поддержки своих продуктов во всем мире. Многие из этих центров справки и поддержки предоставляют услуги на языке вашей страны в рабочие часы или на английском языке  круглосуточно в любой день недели. Если ваше расположение не указано ниже, воспользуйтесь виртуальным агентом, как описано выше, чтобы найти номер телефона локальной службы поддержки.
 
 ****
 

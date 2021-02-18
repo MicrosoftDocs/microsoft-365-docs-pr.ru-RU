@@ -17,23 +17,23 @@ ms.collection:
 description: Администраторы могут узнать о значениях уровня BCL, используемых в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 403f79a1ce81ae13a23aa77f4cca7654939d7814
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: c68314cf992d39a105293955b6fade7b1a2bec56
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165971"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289905"
 ---
 # <a name="bulk-complaint-level-bcl-in-eop"></a>Уровень жалоб на массовую рассылку (BCL) в EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online EOP назначает уровень BCL для входящих сообщений от массовых рассылок. BCL добавляется в сообщение в X-заголе и похож на уровень уверенности нежелательной почты [(SCL),](spam-confidence-levels.md) используемый для определения сообщений как нежелательных. Чем выше вероятность нежелательной почты, тем вероятнее, что массовое сообщение вызывает жалобы (и, следовательно, является спамом). Корпорация Майкрософт использует как внутренние, так и сторонние источники для определения массовой рассылки почты и определения соответствующей BCL.
+В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online EOP назначает уровень BCL для входящих сообщений от массовых рассылок. BCL добавляется в сообщение в X-заголе и похож на уровень уверенности нежелательной почты [(SCL),](spam-confidence-levels.md) используемый для определения сообщений как нежелательных. Чем выше вероятность нежелательной почты, тем больше вероятность того, что массовое сообщение вызывает жалобы (и, следовательно, является спамом). Корпорация Майкрософт использует как внутренние, так и сторонние источники для определения массовой рассылки почты и определения соответствующей BCL.
 
 Массовые рассылки различаются по шаблонам отправки, созданию контента и приему получения получателей. Хорошая массовая рассылка отправляет нужные сообщения с релевантным содержимым своим подписчикам. Такие сообщения вызывают очень мало жалоб со стороны получателей. Другие же системы массовой рассылки распространяют нежелательные сообщения, похожие на спам, и тем самым вызывают множество жалоб от получателей. Сообщения от массовой рассылки называются массовой или серой почтой.
 

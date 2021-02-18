@@ -10,24 +10,24 @@ audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
-description: Администраторы могут получить сведения о потоке обработки исходящие и входящие сообщения на панели мониторинга потока обработки почты в Центре безопасности & соответствия требованиям.
+description: Администраторы могут узнать о потоке обработки исходящие и входящие сообщения на панели мониторинга потока обработки почты в Центре безопасности & соответствия требованиям.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fcce6981369217f21ace5fdf2abbf23ca8606569
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 87c5bd9ab0d550f50feabbb96176debbe04863e5
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150812"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289453"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>Анализ потока обработки исходящие и входящие сообщения в Центре безопасности & соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Относится к**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1) и план 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Анализ **потока** обработки исходящие и [](mail-flow-insights-v2.md) входящие почты на панели мониторинга потока обработки [](view-mail-flow-reports.md#connector-report) почты в Центре безопасности и [соответствия](https://protection.office.com) требованиям & объединяет сведения из отчета соединители и бывшего отчета об **обзоре TLS** в одном месте.
 
@@ -38,14 +38,14 @@ ms.locfileid: "50150812"
 Сведения в мини-приложениях связаны с соединитетелями и защитой сообщений TLS в Microsoft 365. Дополнительные сведения см. в следующих статьях:
 
 - [Настройка потока почты с помощью соединителетов](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
-- [Использование протокола TLS службой Exchange Online для защиты электронной почты](https://docs.microsoft.com/microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections)
-- [Технические справочные сведения о шифровании в Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/technical-reference-details-about-encryption)
+- [Использование протокола TLS службой Exchange Online для защиты электронной почты](../../compliance/exchange-online-uses-tls-to-secure-email-connections.md)
+- [Технические справочные сведения о шифровании в Microsoft 365](../../compliance/technical-reference-details-about-encryption.md)
 
 ## <a name="message-protected-in-transit-by-tls"></a>Сообщение, защищенное в пути (по TLS)
 
 При нажатии кнопки "Просмотреть сведения" мини-приложения на элементе "Сообщение, защищенное при передаче (с помощью **TLS)** будет показана защита TLS для сообщений, которые входят в вашу организацию и покидают ее. 
 
-![Сообщения, защищенные при переходе (с помощью TLS), которые появляются после нажатия кнопки "Просмотреть сведения" в мини-приложениях "Исходящие и входящие сообщения электронной почты"](../../media/mfi-outbound-and-inbound-mail-flow-report-details.png)
+![Сообщения, защищенные при переходе (по TLS), которые появляются после нажатия кнопки "Просмотреть сведения" в мини-приложениях "Исходящие и входящие сообщения электронной почты"](../../media/mfi-outbound-and-inbound-mail-flow-report-details.png)
 
 В настоящее время TLS 1.2 — это наиболее безопасная версия TLS, которую предлагает Microsoft 365. Часто необходимо знать шифрование TLS, используемую для аудита соответствия требованиям. Возможно, у вас нет прямых отношений с большинством исходных и почтовых серверов назначения (вы не владеете ими и не майкрософт), поэтому у вас нет параметров для улучшения шифрования TLS, используемого этими серверами.
 
@@ -53,7 +53,7 @@ ms.locfileid: "50150812"
 
 Вы можете обновить или исправить собственные почтовые серверы, чтобы улучшить используемую шифрование TLS, или связаться с партнерами, чтобы сделать то же самое. Отчет **о соединители отображает** как объем потока почты, так и шифрование TLS для сообщений, которые используют соединители Microsoft 365.
 
-Вы можете щелкнуть ссылку **на отчет соединители,** чтобы перейти к [отчету о соединители.](view-mail-flow-reports.md#connector-report) Если обнаружено связанное условие, на странице отчета соединитела могут быть доступны следующие сведения: 
+Вы можете щелкнуть ссылку **на** отчет соединители, чтобы перейти к [отчету о соединители.](view-mail-flow-reports.md#connector-report) Если обнаружено связанное условие, на странице отчета соединитела могут быть доступны следующие сведения: 
 
 - **Входящий партнерский соединитель с значительным потоком почты TLS1.0**
 - **Inbound OnPremises connector seeing significant TLS1.0 mail flow**

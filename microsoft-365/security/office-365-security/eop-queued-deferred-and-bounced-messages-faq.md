@@ -12,24 +12,24 @@ localization_priority: Normal
 ms.assetid: 9d015a0d-52a0-484d-9a08-121d04f973d3
 ms.custom:
 - seo-marvel-apr2020
-description: Найдите ответы на наиболее распространенные вопросы о сообщениях, которые были в очереди, отложены или возвращены в процессе фильтрации Exchange Online Protection (EOP).
+description: Ответы на наиболее распространенные вопросы о сообщениях, которые были в очереди, отложены или возвращены в процессе фильтрации Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 854e954e3ebb995ba23db2afc6f2ca9ab19de508
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e54a260a70a9c68a94412243308bffe60d989e99
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165431"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289703"
 ---
 # <a name="eop-queued-deferred-and-bounced-messages-faq"></a>Поставленные в очередь, отложенные и возвращенные сообщения EOP: вопросы и ответы
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 В этом разделе дан ответ на часто задающие вопросы о сообщениях, которые были в очереди, отложены или возвращены в процессе фильтрации Exchange Online Protection (EOP).
 
@@ -43,7 +43,7 @@ ms.locfileid: "50165431"
 
 ## <a name="how-long-does-a-message-remain-in-deferral-and-what-is-the-retry-interval"></a>Как долго сообщение остается в отсрочке и каков интервал между повторной попытку?
 
-Отложенные сообщения будут оставаться в очередях в течение 1 дня. Попытки повторной отправки сообщений зависят от ошибки, полученной от почтовой системы получателя. Первые несколько отложенных периодов — 15 минут или меньше, при этом последующие действия (в течение следующих полудюжины) увеличивают интервал между несколькими повторной задержкой до максимум 60 минут. Расширение длительности интервала является динамическим с учетом нескольких переменных, таких как размер очереди и приоритет внутренних сообщений. В базовом — 15 минут (или меньше) для начала, а затем расширение с этого времени в течение следующих нескольких часов до максимального максимума в 60 минут.
+Отложенные сообщения будут оставаться в очередях в течение 1 дня. Попытки повторной отправки сообщений зависят от ошибки, полученной от почтовой системы получателя. Первые несколько отложенных периодов — 15 минут или меньше, при этом последующие действия (в течение следующего полудюжины) увеличивают интервал между несколькими повторной задержкой до максимум 60 минут. Расширение длительности интервала является динамическим, учитывая несколько переменных, таких как размер очереди и приоритет внутренних сообщений. В базовом — 15 минут (или меньше) для начала, а затем расширение с этого времени в течение следующих нескольких часов до максимального максимума в 60 минут.
 
 ## <a name="after-your-email-server-is-restored-how-are-queued-messages-distributed"></a>Как сообщения в очереди распространяются после восстановления почтового сервера?
 

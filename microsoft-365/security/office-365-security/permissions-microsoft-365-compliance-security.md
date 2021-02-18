@@ -8,6 +8,7 @@ manager: dansimp
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
+audience: Admin
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
@@ -18,21 +19,21 @@ description: Используя Центр безопасности Microsoft 36
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2be0b1ced6a10d37b400a454987b908e21afbaa0
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 55030813ecddedd5661602fddea59f6bf3a8b03a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150704"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290791"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Вашей организации необходимо управление сценариями безопасности и соответствия требованиям, которые охватывают все службы Microsoft 365. Также должна быть возможность предоставления необходимых прав администратора соответствующим сотрудникам ИТ-отдела вашей организации. Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
 
@@ -85,11 +86,11 @@ ms.locfileid: "50150704"
 
 |Служба Microsoft 365|Сведения о роли|
 |---|---|
-|Роли администратора в планах Office 365 и Microsoft 365 для бизнеса|[Роли администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
+|Роли администратора в планах Office 365 и Microsoft 365 для бизнеса|[Роли администратора Microsoft 365](../../admin/add-users/about-admin-roles.md)|
 |Azure Active Directory (Azure AD) и защита идентификации Azure Active Directory|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Microsoft Defender для удостоверений|[Группы ролей Microsoft Defender для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Диспетчер соответствия требованиям|[Диспетчер соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-setup#set-user-permissions-and-assign-roles)|
+|Диспетчер соответствия требованиям|[Диспетчер соответствия требованиям](../../compliance/compliance-manager-setup.md#set-user-permissions-and-assign-roles)|
 |Exchange Online|[Управлении доступом на основе ролей в Exchange](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)|
 |Intune|[Управление доступом на основе ролей в Intune](https://docs.microsoft.com/intune/role-based-access-control)|
 |Управляемые компьютеры|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|

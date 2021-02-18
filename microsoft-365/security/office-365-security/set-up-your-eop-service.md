@@ -15,26 +15,26 @@ ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Администраторы могут узнать, как настроить автономный exchange Online Protection (EOP) для защиты локальной среды электронной почты.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 42952259da4086c4e147fb1a69fc081659dcc7e2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: de3c40a15a69eb2430c9c9b0473a983ef7c5354f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166211"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290469"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Настройка автономных служб EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
--  [Автономный режим Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Автономный exchange Online Protection](exchange-online-protection-overview.md)
 
-В этом разделе объясняется, как настроить автономный Exchange Online Protection (EOP). Если вы вернулись сюда из мастера доменов Office 365, перейти в мастер доменов Office 365, если вы не хотите использовать Exchange Online Protection. Дополнительные сведения о настройке соединители см. в подстройке "Настройка потока почты с помощью соединители [в Office 365".](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
+В этом разделе объясняется, как настроить автономный exchange Online Protection (EOP). Если вы вернулись сюда из мастера доменов Office 365, перейти в мастер доменов Office 365, если вы не хотите использовать Exchange Online Protection. Дополнительные сведения о настройке соединители см. в подстройке "Настройка потока почты с помощью соединители [в Office 365".](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
 
 > [!NOTE]
 > В этом разделе предполагается, что у вас есть почтовые ящики и вы хотите защитить их с помощью EOP, известного как автономный сценарий. Если вы хотите, чтобы все почтовые ящики были в облаке с exchange Online, вам не нужно выполнить все действия, которые данная статья должна выполнить. [Сравните планы Exchange Online,](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) чтобы зарегистрироваться и приобрести облачные почтовые ящики.
 >
-> Если вы хотите, чтобы некоторые почтовые ящики были локально, а другие — в облаке, это называется гибридным сценарием. Для этого требуются более сложные параметры потока почты. [Exchange Server гибридных развертываниях](https://docs.microsoft.com/exchange/exchange-hybrid) объясняется гибридный поток почты и имеются ссылки на ресурсы, которые показывают, как его настроить.
+> Если вы хотите, чтобы некоторые почтовые ящики были локально, а другие — в облаке, это называется гибридным сценарием. Для этого требуются более сложные параметры потока почты. [Exchange Server гибридных развертываниях](https://docs.microsoft.com/exchange/exchange-hybrid) объясняет гибридный поток почты и ссылки на ресурсы, которые показывают, как его настроить.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -44,19 +44,19 @@ ms.locfileid: "50166211"
 
 - Если вы не подписаны на EOP, посетите [Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection) и приобретите службу или получите ее пробную версию.
 
-- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" в Центре администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
+- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этой статье, см. в статье "Сочетания клавиш" для Центра администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
 
 > [!TIP]
-> Возникли проблемы? Обратитесь за помощью на форум по [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351).
+> Возникли проблемы? Обратитесь за помощью на форум по [Exchange Online Protection](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE).
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Шаг 1. Добавление и проверка домена с помощью Центра администрирования Microsoft 365
 
-1. В Центре [администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center)перейдите к сайту **установки,** чтобы добавить домен в службу.
+1. В Центре [администрирования Microsoft 365](../../admin/admin-overview/about-the-admin-center.md)перейдите к сайту **установки,** чтобы добавить домен в службу.
 
 2. Выполните указанные ниже действия, чтобы добавить применимые записи DNS на сайте поставщика услуг размещения DNS для подтверждения прав владельца домена.
 
 > [!TIP]
-> Добавление домена в [Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) и создание записей DNS у любого поставщика услуг размещения DNS для [Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) — полезные ресурсы, на которые можно ссылаться при добавлении домена в службу и настройке DNS.
+> Добавление домена в [Office 365](../../admin/setup/add-domain.md) и создание записей DNS у любого поставщика услуг размещения DNS для [Office 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) — полезные ресурсы, на которые можно ссылаться при добавлении домена в службу и настройке DNS.
 
 ## <a name="step-2-add-recipients-and-optionally-enable-dbeb"></a>Действие 2. Добавление получателей и включение при необходимости пограничной блокировки на основе каталогов (DBEB)
 
@@ -72,7 +72,7 @@ ms.locfileid: "50166211"
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Действие 4. Разрешение доступа к входящему порту 25 для трафика SMTP
 
-После настройки соединители подождите 72 часа, чтобы разрешить распространение обновлений записей DNS. После этого настройте входящий порт 25 для трафика SMTP в брандмауэре или на почтовых серверах для приема почты только от центров данных EOP, в частности от IP-адресов, указанных в [IP-адреса службы Exchange Online Protection](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges). Так вы защитите локальную среду, ограничив область входящих сообщений, которые можете принимать. Кроме того, если на почтовом сервере настроены параметры, определяющие IP-адреса, которым разрешено подключаться для ретрансляции почты, обновите и эти параметры.
+После настройки соединители подождите 72 часа, чтобы разрешить распространение обновлений записей DNS. После этого настройте входящий порт 25 для трафика SMTP в брандмауэре или на почтовых серверах для приема почты только от центров данных EOP, в частности от IP-адресов, указанных в [IP-адреса службы Exchange Online Protection](../../enterprise/urls-and-ip-address-ranges.md). Так вы защитите локальную среду, ограничив область входящих сообщений, которые можете принимать. Кроме того, если на почтовом сервере настроены параметры, определяющие IP-адреса, которым разрешено подключаться для ретрансляции почты, обновите и эти параметры.
 
 > [!TIP]
 > Настройте на сервере SMTP время подключения, равное 60 секундам. Этот параметр приемлем в большинстве ситуаций, что может привести к некоторой задержке, например, при отправлении сообщения с большим вложением.
@@ -85,7 +85,7 @@ ms.locfileid: "50166211"
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6. Использование Центра администрирования Microsoft 365 для ссылки записи MX на EOP
 
-Выполните действия по настройке домена, чтобы обновить запись MX для своего домена, чтобы входящие сообщения электронной почты проходят через EOP. Не забудьте указать запись MX непосредственно на EOP, а не на стороную службу фильтрации, ретранслятор электронной почты в EOP. Для получения дополнительных сведений вы снова можете ссылаться [на создание записей DNS для Office 365.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+Выполните действия по настройке домена, чтобы обновить запись MX для своего домена, чтобы входящие сообщения электронной почты проходят через EOP. Не забудьте указать запись MX непосредственно на EOP, а не на стороную службу фильтрации, ретранслятор электронной почты в EOP. Для получения дополнительных сведений вы снова можете ссылаться [на создание записей DNS для Office 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
 
 > [!NOTE]
 > Если необходимо указать запись MX на другой сервер или службу, расположенную перед EOP, см. статью "Расширенная фильтрация для соединителю" [в Exchange Online.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
@@ -101,6 +101,6 @@ ms.locfileid: "50166211"
 - Если нужно запустить тест для исходящей почты, вы можете отправить электронное сообщение от пользователя в вашей организации на учетную запись электронной почты в Интернете и подтвердить получение сообщения.
 
 > [!TIP]
-> После завершения настройки вам не нужно выполнять дополнительные действия, чтобы EOP удалил спам и вредоносные программы. EOP удаляет нежелательную почту и вредоносные программы автоматически. Однако вы можете точно настроить параметры в зависимости от бизнес-требований. Дополнительные сведения см. в сведениях о защите от нежелательной почты и вредоносных программ [в Office 365](anti-spam-and-anti-malware-protection.md) и настройке аналитики [спуфингов.](learn-about-spoof-intelligence.md)
+> Завершив настройку, вам не нужно выполнять дополнительные действия, чтобы EOP удалила спам и вредоносные программы. EOP удаляет нежелательную почту и вредоносные программы автоматически. Однако вы можете точно настроить параметры в зависимости от бизнес-требований. Дополнительные сведения см. в дополнительных сведениях о защите от нежелательной почты и вредоносных программ [в Office 365](anti-spam-and-anti-malware-protection.md) и настройке аналитики [спуфингов.](learn-about-spoof-intelligence.md)
 >
 > Теперь, когда служба запущена, рекомендуем прочитать рекомендации по настройке [EOP,](best-practices-for-configuring-eop.md)в которой описываются рекомендуемые параметры и рекомендации после настройки EOP.

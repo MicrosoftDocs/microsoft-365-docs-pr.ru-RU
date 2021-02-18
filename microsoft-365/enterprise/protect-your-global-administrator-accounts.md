@@ -20,14 +20,14 @@ search.appverid:
 f1.keywords:
 - NOCSH
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
-description: В этой статье содержится информация о защите доступа глобального администратора к подписке На Microsoft 365.
+description: В этой статье содержится информация о защите доступа глобального администратора к подписке на Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c497e02b139ea6af4aabba9f3e9ab65a1205be
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 1f84ca33a620c3ea3c24f46eb29c1a39c28840e7
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445411"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289643"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Защита учетных записей глобального администратора Microsoft 365
 
@@ -55,7 +55,7 @@ ms.locfileid: "48445411"
 1. Определите набор учетных записей пользователей, для которых назначена роль глобального администратора. Это можно сделать в Центре администрирования Microsoft 365 или с помощью следующей команды Azure Active (Azure AD) Directory PowerShell для Graph:
   
   ```powershell
-  Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
+  Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Global Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 
 2. Во sign into your Microsoft 365 subscription with a user account that has been assigned the global admin role.
@@ -106,14 +106,14 @@ ms.locfileid: "48445411"
 - биометрическое устройство.
     
 >[!Note]
->Для организаций, которые должны соблюдать стандарты Национального института стандартов и технологий (NIST), использование телефонного вызова или дополнительных методов проверки на основе текстовых сообщений ограничено. Щелкните [здесь,](https://pages.nist.gov/800-63-FAQ/#q-b01) чтобы найти подробные сведения.
+>Для организаций, которые должны соблюдать стандарты Национального института стандартов и технологий (NIST), использование телефонного вызова или дополнительных методов проверки на основе текстовых сообщений ограничено. Щелкните [здесь](https://pages.nist.gov/800-63-FAQ/#q-b01) для получения сведений.
 >
 
-Если вы малый бизнес, использующий учетные записи пользователей, хранимые только в облаке (модель удостоверений только в облаке), настройте MFA для настройки [MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) с помощью телефонного вызова или sms-кода проверки сообщений, отправленного на смартфон для каждой выделенной учетной записи глобального администратора.
+Если вы малый бизнес, использующий учетные записи пользователей, хранимые только в облаке (модель удостоверений только в облаке), настройте MFA для настройки [MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) с помощью телефонного вызова или sms-кода для проверки сообщений, отправленных на смартфон для каждой выделенной учетной записи глобального администратора.
     
 Если вы крупной организации, использующей гибридную модель удостоверений Microsoft 365, у вас будет больше возможностей проверки. Если у вас уже есть инфраструктура безопасности для более строгого дополнительного метода проверки подлинности, настройте [MFA](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) и настройте каждую выделенную учетную запись глобального администратора для соответствующего метода проверки.
   
-Если инфраструктура безопасности для нужного более строгого метода проверки не существует и не работает для Microsoft 365 MFA, мы настоятельно рекомендуем настроить выделенные учетные записи глобального администратора с MFA с помощью приложения Microsoft Authenticator, телефонного вызова или кода проверки текстового сообщения, отправленного на смартфон для учетных записей глобальных администраторов в качестве промежуточной меры безопасности. Не оставляйте выделенные учетные записи глобального администратора без дополнительной защиты, предоставляемой MFA.
+Если инфраструктура безопасности для нужного более строгого метода проверки не существует и не работает для Microsoft 365 MFA, мы настоятельно рекомендуем настроить выделенные учетные записи глобальных администраторов с MFA с помощью приложения Microsoft Authenticator, телефонного вызова или кода проверки текстовых сообщений, отправленных на смартфон для учетных записей глобальных администраторов в качестве промежуточной меры безопасности. Не оставляйте выделенные учетные записи глобальных администраторов без дополнительной защиты, предоставляемой MFA.
   
 Дополнительные сведения см. в [MFA для Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
   
@@ -125,7 +125,7 @@ ms.locfileid: "48445411"
 - [SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-multifactor-authentication-mfa)
 - [Skype для бизнеса Online](manage-skype-for-business-online-with-microsoft-365-powershell.md#connect-using-an-admin-account-with-multi-factor-authentication)
 
-## <a name="additional-protections-for-enterprise-organizations"></a>Дополнительная защита корпоративных организаций
+## <a name="additional-protections-for-enterprise-organizations"></a>Дополнительные средства защиты для корпоративных организаций
 
 Используйте эти дополнительные методы для обеспечения максимальной безопасности учетной записи глобального администратора и используемой конфигурации.
   

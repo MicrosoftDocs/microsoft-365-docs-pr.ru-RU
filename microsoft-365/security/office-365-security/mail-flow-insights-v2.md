@@ -13,21 +13,21 @@ description: Администраторы могут ознакомиться с
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b65e235e3446fa62bca1c9f8aef73f2387b1140b
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 7432eca577fb264126b9fc8f10bdd83de32711cf
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167099"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289679"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Администраторы могут использовать панель мониторинга потока обработки почты в Центре безопасности & соответствия требованиям для обнаружения тенденций, анализа и действий по устранению проблем, связанных с потоком обработки почты в организации.
 
@@ -71,15 +71,15 @@ ms.locfileid: "50167099"
 
 - **[Администратор Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** в Azure Active Directory.
 
-- **Администратор потока обработки почты** в Центре безопасности & соответствия требованиям. Если учетная запись также не входит в группы ролей "Управление организацией" или "Администратор Exchange", рассмотрите следующие проблемы:
+- **Администратор потока обработки почты** в Центре & соответствия требованиям. Если учетная запись также не входит в группы ролей "Управление организацией" или "Администратор Exchange", рассмотрите следующие проблемы:
   - Пользователь должен войти в Центр безопасности & соответствия требованиям непосредственно в <https://protection.office.com> .
   - Пользователь будет иметь разрешение только на чтение панели мониторинга потока почты.
   - У пользователя не будет доступа к Центру администрирования Microsoft 365.
 
-Дополнительные сведения о разрешениях см. в центре безопасности [& соответствия](permissions-in-the-security-and-compliance-center.md) требованиям и в этой & Центре безопасности и [соответствия требованиям.](grant-access-to-the-security-and-compliance-center.md)
+Дополнительные сведения о разрешениях см. в & "Разрешения" и "Предоставить пользователям доступ к Центру безопасности [& соответствия требованиям".](grant-access-to-the-security-and-compliance-center.md) [](permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Где найти панель мониторинга потока почты
 
-Откройте Центр безопасности & соответствия требованиям на странице , разкрой поток обработки почты <https://protection.office.com> и выберите "Информационная **панель".** 
+Откройте Центр безопасности & соответствия требованиям на странице , разкрой поток обработки почты <https://protection.office.com> и выберите **"Информационная панель".** 
 
 Чтобы перейти непосредственно на панель мониторинга потока почты, откройте <https://protection.office.com/mailflow/dashboard> .

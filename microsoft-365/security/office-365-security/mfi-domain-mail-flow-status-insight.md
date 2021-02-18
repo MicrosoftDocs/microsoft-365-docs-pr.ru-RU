@@ -14,21 +14,21 @@ ms.custom:
 description: Администраторы могут узнать, как использовать анализ состояния потока обработки почты верхнего домена на панели мониторинга потока обработки почты в Центре безопасности и соответствия требованиям & для устранения неполадок потока обработки почты, связанных с их записями MX.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df0f571d29d72b23e7b2e210b61a4fb1676175aa
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 9ecda78047384a581a1043d0049b8dd25fadbe27
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150211"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290625"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>Анализ состояния потока обработки почты верхнего домена в Центре & соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 The **Top domain mail flow status** insight in the Mail flow [dashboard](mail-flow-insights-v2.md) in the Security & [Compliance Center](https://protection.office.com) gives you the current mail flow status for your organization.
 
@@ -42,9 +42,9 @@ The **Top domain mail flow status** insight in the Mail flow [dashboard](mail-fl
 - **Предыдущая запись MX**
 - **Текущая запись MX**
 - **Состояние получения электронной почты**
-- Состояние домена: зеленая метка указывает, что текущая запись MX (на момент нажатия мини-приложения) совпадает со значением, которое у нас есть в записи, и домен получил электронную почту в течение последних двух часов.
+- Состояние домена: зеленая метка указывает, что текущая запись MX (на момент нажатия мини-приложения) соответствует значению, записанном в записи, а домен получил электронную почту в течение последних двух часов.
 
-  Красный X указывает, что запись MX была изменена, а домен не получал никаких сообщений электронной почты в течение последних 6 часов. Скорее всего, это указывает на то, что срок действия домена истек или что запись MX была неправильно обновлена. Обратитесь к регистратору доменных имен или службе размещения DNS, чтобы узнать, истек ли срок действия домена или запись MX домена неправильная.
+  Красный X указывает, что запись MX была изменена, а домен не получал электронной почты за последние 6 часов. Скорее всего, это указывает на то, что срок действия домена истек или что запись MX была неправильно обновлена. Обратитесь к регистратору доменных имен или службе размещения DNS, чтобы узнать, истек ли срок действия домена или запись MX домена неправильная.
 
 Чтобы **просмотреть те** же сведения о дополнительных доменах, нажмите кнопку "Просмотреть".
 

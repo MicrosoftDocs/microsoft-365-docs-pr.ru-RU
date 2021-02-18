@@ -19,12 +19,12 @@ search.appverid:
 description: Узнайте о трех средствах, которые можно использовать для отслеживания утечек персональных данных.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b1425015843b2f444c6a410df449eeeaf4045ee5
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: a8fb8557d6cd2677aeb6dcda75d34e86ada8f68c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261429"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290673"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Отслеживание утечек персональных данных
 
@@ -65,7 +65,7 @@ ms.locfileid: "50261429"
 
 Отчеты защиты от потери данных (DLP) можно просмотреть в Центре безопасности и Центре соответствия требованиям. Откройте Отчеты \> Просмотр отчетов. В разделе Защита от потери данных (DLP) перейдите либо по в раздел «Совпадения по правилу и политике защиты от потери данных», или в раздел «Ложные срабатывания и переопределения функции защиты от потери данных».
 
-Дополнительные сведения см. в статье [Просмотр отчетов о защите от потери данных](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports).
+Дополнительные сведения см. в статье [Просмотр отчетов о защите от потери данных](../../compliance/view-the-dlp-reports.md).
 
 ![Отчет, в котором показаны совпадения по политике защиты от потери данных](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -87,17 +87,17 @@ ms.locfileid: "50261429"
 
 Дополнительные сведения о политиках оповещений и поиске в журнале аудита:
 
-- [Политики оповещений в Центре безопасности и соответствия требованиям Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+- [Политики оповещений в Центре безопасности и соответствия требованиям Microsoft 365](../../compliance/alert-policies.md)
 
-- [Поиск действий пользователей и администраторов в журнале аудита в Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log) (введение)
+- [Поиск действий пользователей и администраторов в журнале аудита в Office 365](../../compliance/search-the-audit-log-in-security-and-compliance.md) (введение)
 
-- [Включение и отключение поиска в журнале аудита](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+- [Включение и отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md)
 
-- [Поиск в журнале аудита](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Поиск в журнале аудита](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 - [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) (командлет)
 
-- [Подробные свойства в журнале аудита](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
+- [Подробные свойства в журнале аудита](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 

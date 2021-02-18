@@ -8,25 +8,30 @@ manager: laurawi
 ms.date: 12/15/2017
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
-description: Управлять изолированным сайтом группы SharePoint Online, добавлять новых пользователей и группы, удалять пользователей и группы, а также создавать вложенную папку документов с пользовательскими разрешениями.
-ms.openlocfilehash: 1e244738071b434efd09e8fd700462bbef7e116a
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Управляйте изолированным сайтом группы SharePoint Online, добавляйте новых пользователей и группы, удаляйте пользователей и группы, а также создавайте в подкадровку документов с пользовательскими разрешениями.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 20e354de77b70ea69d69e201bd3b1d40ea32cc5b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616768"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289525"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>Управление изолированным сайтом группы SharePoint Online
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1)](office-365-atp.md)
+- SharePoint Online 
 
  **Сводка.** Управляйте изолированным сайтом группы SharePoint Online с помощью этих процедур.
 
@@ -42,13 +47,13 @@ ms.locfileid: "49616768"
 
 - Просмотр: добавьте учетную запись пользователя в группу доступа "Посетители сайта".
 
-Если вы управляете учетными записями и группами пользователей с помощью доменных служб Active Directory (AD DS), добавьте соответствующих пользователей в соответствующие группы доступа, используя обычные процедуры управления пользователями и группами AD DS, и дождитесь синхронизации с подпиской.
+Если вы управляете учетными записями пользователей и группами с помощью доменных служб Active Directory (AD DS), добавьте соответствующих пользователей в соответствующие группы доступа с помощью обычных процедур управления пользователями и группами AD DS и дождись синхронизации с подпиской.
 
-Если вы управляете учетными записями и группами пользователей с помощью Microsoft 365, вы можете использовать центр администрирования Microsoft 365 или Microsoft PowerShell:
+Если вы управляете учетной записью пользователя и группами с помощью Microsoft 365, вы можете использовать Центр администрирования Microsoft 365 или Microsoft PowerShell:
 
-- Для центра администрирования Microsoft 365 войдите с помощью учетной записи пользователя, которой назначена роль администратора учетной записи пользователя или администратора организации, и используйте группы, чтобы добавить соответствующих пользователей в соответствующие группы доступа.
+- В Центре администрирования Microsoft 365 во sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to add the appropriate users to the appropriate access groups.
 
-- Для PowerShell сначала [подключитесь к модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Чтобы добавить учетную запись пользователя в группу доступа по имени участника-пользователя (UPN), используйте следующий блок команд PowerShell:
+- Для PowerShell сначала подключите [модуль Azure Active Directory PowerShell для Graph.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module) Чтобы добавить учетную запись пользователя в группу доступа по имени участника-пользователя (UPN), используйте следующий блок команд PowerShell:
 
 ```powershell
 $userUPN="<UPN of the user account>"
@@ -74,13 +79,13 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 - Просмотр: добавьте группу в группу доступа "Посетители сайта".
 
-Если вы управляете учетными записями и группами пользователей с помощью доменных служб Active Directory, добавьте соответствующие группы в соответствующие группы, используя обычные процедуры управления пользователями и группами AD DS, и дождитесь синхронизации с подпиской.
+Если вы управляете учетными записями и группами пользователей с помощью AD DS, добавьте соответствующие группы в соответствующие группы с помощью обычных процедур управления пользователями и группами AD DS и дождись синхронизации с подпиской.
 
-Если вы управляете учетными записями и группами пользователей с помощью Office 365, вы можете использовать центр администрирования Microsoft 365 или PowerShell:
+Если вы управляете учетной записью и группами пользователей с помощью Office 365, вы можете использовать Центр администрирования Microsoft 365 или PowerShell:
 
-- Для центра администрирования Microsoft 365 войдите в систему, используя учетную запись пользователя, которой назначена роль администратора учетных записей или администратора организации, и используйте группы для добавления соответствующих групп в соответствующие группы доступа.
+- В Центре администрирования Microsoft 365 во sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to add the appropriate groups to the appropriate access groups.
 
-- Для PowerShell сначала [подключитесь к модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+- Для PowerShell сначала подключите [модуль Azure Active Directory PowerShell для Graph.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
  Затем используйте следующие команды PowerShell:
 
 ```powershell
@@ -99,13 +104,13 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
 
 - Просмотр: удалите учетную запись пользователя из группы доступа "Посетители сайта".
 
-Если вы управляете учетными записями и группами пользователей с помощью доменных служб Active Directory, удалите соответствующих пользователей из соответствующих групп доступа, используя обычные процедуры управления пользователями и группами AD DS, и дождитесь синхронизации с подпиской.
+Если вы управляете учетными записями и группами пользователей с помощью AD DS, удалите соответствующих пользователей из соответствующих групп доступа с помощью обычных процедур управления пользователями и группами AD DS и дождись синхронизации с подпиской.
 
-Если вы управляете учетными записями и группами пользователей с помощью Office 365, вы можете использовать центр администрирования Microsoft 365 или PowerShell:
+Если вы управляете учетной записью и группами пользователей с помощью Office 365, вы можете использовать Центр администрирования Microsoft 365 или PowerShell:
 
-- Для центра администрирования Microsoft 365 войдите с помощью учетной записи пользователя, которой назначена роль администратора учетной записи пользователя или администратора организации, и используйте группы для удаления соответствующих пользователей из соответствующих групп доступа.
+- В Центре администрирования Microsoft 365 во sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to remove the appropriate users from the appropriate access groups.
 
-- Для PowerShell сначала [подключитесь к модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+- Для PowerShell сначала подключите [модуль Azure Active Directory PowerShell для Graph.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 Чтобы удалить учетную запись пользователя из группы доступа по имени участника-пользователя, используйте следующий блок команд PowerShell:
 
 ```powershell
@@ -132,13 +137,13 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -e
 
 - Просмотр: удалите группу из группы доступа "Посетители сайта".
 
-Если вы управляете учетными записями и группами пользователей с помощью Windows Server Active Directory, удалите соответствующие группы из соответствующих групп доступа, используя обычные процедуры управления пользователями и группами AD DS, и дождитесь синхронизации с подпиской.
+Если вы управляете учетными записями и группами пользователей с помощью Windows Server Active Directory, удалите соответствующие группы из соответствующих групп доступа с помощью обычных процедур управления пользователями и группами AD DS и дождись синхронизации с подпиской.
 
-Если вы управляете учетными записями и группами пользователей с помощью Office 365, вы можете использовать центр администрирования Microsoft 365 или PowerShell:
+Если вы управляете учетной записью и группами пользователей с помощью Office 365, вы можете использовать Центр администрирования Microsoft 365 или PowerShell:
 
-- Для центра администрирования Microsoft 365 войдите с помощью учетной записи пользователя, которой назначена роль администратора учетной записи пользователя или администратора организации, и используйте группы для удаления соответствующих групп из соответствующих групп доступа.
+- В Центре администрирования Microsoft 365 во sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to remove the appropriate groups from the appropriate access groups.
 
-- Для PowerShell сначала [подключитесь к модулю PowerShell Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+- Для PowerShell сначала подключите [модуль Azure Active Directory PowerShell для Graph.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 Чтобы удалить группу из группы доступа по отображаемому имени, используйте следующий блок команд PowerShell:
 
 ```powershell
@@ -153,7 +158,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
 
 Чтобы создать вложенную папку документов с настраиваемыми разрешениями, сделайте следующее:
 
-1. Войдите в учетную запись, которая является членом группы доступа "Администраторы" для сайта. Справку см. в статье [Вход в Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Во sign in to an account that is a member of the admins access group for the site. Справку см. в статье [Вход в Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. Перейдите к изолированному сайту группы и нажмите **Документы**.
 
@@ -173,7 +178,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
 
 10. On the permissions page, click **\<site name> Members in the list**.
 
-11. На странице **\<site name> Участники** установите флажок рядом с группой доступ участников сайта, щелкните **действия**, выберите **удалить пользователей из группы** и нажмите кнопку **ОК**.
+11. На странице **\<site name> "Участники"** выберите контрольный знак рядом с группой доступа "Участники сайта", щелкните "Действия", "Удалить пользователей из группы" и нажмите кнопку **"ОК".**
 
 12. Чтобы добавить участников в эту вложенную папку, нажмите **Создать > Добавить пользователей**.
 

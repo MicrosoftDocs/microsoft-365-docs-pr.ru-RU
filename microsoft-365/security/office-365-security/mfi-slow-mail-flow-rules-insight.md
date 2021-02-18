@@ -15,21 +15,21 @@ ms.custom:
 description: Администраторы могут узнать, как использовать анализ правил медленного потока обработки почты в Центре безопасности и соответствия требованиям &, чтобы выявлять и исправлять неэффективные или неработоспособные правила потока обработки почты (также известные как правила транспорта) в своей организации.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f7f084735decda922b5bcc57c029f2b384114d30
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: a50fa0d36cb025f5d0627a2212254b9d08dc5d9c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150788"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290697"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Исправление анализа медленных правил потока обработки почты в Центре & соответствия требованиям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Относится к**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1) и план 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+**Область применения**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Неэффективные правила потока почты (также известные как правила транспорта) могут привести к задержкам потока почты в организации. Эта информация сообщает о правилах потока почты, которые влияют на поток почты организации. Примеры таких типов правил:
 
@@ -48,9 +48,9 @@ ms.locfileid: "50150788"
 При **нажатии кнопки "Просмотреть сведения о** виджете" появится элемент с дополнительными сведениями:
 
 - **Правило:** вы можете наведя курсор на сводку, чтобы увидеть все условия, исключения и действия правила. Вы можете щелкнуть сводку, чтобы изменить правило в Центре администрирования Exchange (EAC).
-- **Количество вычисляемого** количества сообщений: можно щелкнуть [](message-trace-scc.md) "Просмотреть образцы сообщений", чтобы просмотреть результаты трассировки сообщений для примера сообщений, на которые повлияло правило. 
+- **Количество вычисляемого** количества сообщений: вы можете щелкнуть "Просмотреть образцы сообщений", чтобы просмотреть результаты трассировки сообщений для примера сообщений, на которые повлияло правило.  [](message-trace-scc.md)
 - **Среднее время, затраченное на каждое сообщение**
-- **Среднее время, затраченное на сообщение:** среднее значение, отделяя верхнюю половину от данных нижней половины времени.
+- **Среднее время, затраченное на сообщение:** среднее значение, которое отделяет верхнюю половину от данных нижней половины времени.
 
 ![Flyout Details that appears after clicking View details on the Fix slow mail flow rules insight](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 

@@ -19,21 +19,21 @@ ms.custom:
 description: Узнайте, как обновить запись службы доменных имен (DNS), чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fbed28047b88a3eff75f574fc4d2581a75f15518
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 52997150302805ea5085028e9a8f1cd5f745d841
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166235"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290457"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Настройка SPF для предотвращения спуфинга
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 В этой статье описано, как обновить запись DNS, чтобы использовать проверку подлинности электронной почты в инфраструктуре политики отправителей (SPF) с личным доменом в Office 365.
 
@@ -48,7 +48,7 @@ ms.locfileid: "50166235"
 
 Подготовьте указанные ниже данные.
 
-- Текущая запись SPF TXT для личного домена, если он существует. Инструкции см. в статье [Сбор необходимых сведений для создания DNS-записей Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records).
+- Текущая запись SPF TXT для личного домена, если он существует. Инструкции см. в статье [Сбор необходимых сведений для создания DNS-записей Office 365](../../admin/get-help-with-domains/information-for-dns-records.md).
 
 - Перейдите на свой сервер обмена сообщениями и найдите внешние IP-адреса (требуются со всех локальных серверов обмена сообщениями). Например, **131.107.2.200**.
 
@@ -94,7 +94,7 @@ ms.locfileid: "50166235"
 
    При переходе с Office 365 на Office 365 Germany необходимо обновить запись SPF TXT для личного домена. Чтобы сделать это, измените `include:spf.protection.outlook.com` на `include:spf.protection.outlook.de`.
 
-3. Создав запись SPF TXT, вам необходимо будет обновить ее в службе DNS. Для домена можно создать только одну запись SPF TXT. Поэтому если такая запись существует, то вместо того чтобы добавлять новую запись, следует обновить существующую. Откройте статью [Создание записей DNS для Office 365 при самостоятельном управлении записями DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider), а затем перейдите по ссылке, соответствующей вашему поставщику DNS.
+3. Создав запись SPF TXT, вам необходимо будет обновить ее в службе DNS. Для домена можно создать только одну запись SPF TXT. Поэтому если такая запись существует, то вместо того чтобы добавлять новую запись, следует обновить существующую. Откройте статью [Создание записей DNS для Office 365 при самостоятельном управлении записями DNS](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md), а затем перейдите по ссылке, соответствующей вашему поставщику DNS.
 
 4. Проверьте свою запись SPF TXT.
 
@@ -137,6 +137,6 @@ ms.locfileid: "50166235"
 
  Инфраструктура политики отправителей (SPF) призвана предотвратить спуфинг, но существуют некоторые методики, позволяющие обойти ее. Чтобы защититься от таких атак, по завершении настройки SPF необходимо настроить DKIM и DMARC для Office 365.
 
-Цель проверки подлинности электронной почты [DKIM](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide) — проверить, что содержимое письма не подделано.
+Цель проверки подлинности электронной почты [DKIM](use-dkim-to-validate-outbound-email.md) — проверить, что содержимое письма не подделано.
 
-Цель проверки подлинности электронной почты [DMARC](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide) — убедиться, что сведения SPF и DKIM соответствуют адресу, указанному в поле "От".
+Цель проверки подлинности электронной почты [DMARC](use-dmarc-to-validate-email.md) — убедиться, что сведения SPF и DKIM соответствуют адресу, указанному в поле "От".

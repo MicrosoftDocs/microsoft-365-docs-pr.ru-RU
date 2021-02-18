@@ -17,29 +17,29 @@ description: Краткое описание того, что необходим
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a81db5ec933f1d0d6e2944103be53c0169dde62f
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2ccadfc46e42713601b115c18a119e48dcfdcbf4
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165683"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290037"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>Настройка параметров S/MIME в Exchange Online для Outlook в Интернете
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Администратор Exchange Online может настроить Outlook в Интернете (прежнее название — Outlook Web App), чтобы разрешить отправку и получение сообщений с защитой S/MIME. Используйте **get-SmimeConfig** и **set-SmimeConfig** для просмотра и управления этой функцией в Exchange Online PowerShell. Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+Администратор Exchange Online может настроить Outlook в Интернете (прежнее название — Outlook Web App), чтобы разрешить отправку и получение сообщений с защитой S/MIME. Используйте **get-SmimeConfig** и **Set-SmimeConfig** для просмотра и управления этой функцией в Exchange Online PowerShell. Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 Подробные сведения о синтаксисах и параметрах см. в описании [Get-SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/get-smimeconfig) и [Set-SmimeConfig.](https://docs.microsoft.com/powershell/module/exchange/set-smimeconfig)
 
 ## <a name="considerations-for-new-microsoft-edge-chromium-based"></a>Вопросы, которые следует учитывать при новых решениях Microsoft Edge (на основе Chromium)
 
-Чтобы использовать S/MIME в Outlook в Интернете в новом веб-браузере [Microsoft Edge,](https://www.microsoft.com/windows/microsoft-edge) необходимо установить и настроить политику браузера Microsoft Edge с именем **ExtensionInstallForcelist,** чтобы установить расширение Microsoft S/MIME в новом Microsoft Edge. Значение политики: `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . Обратите внимание, что для применения этой политики требуются устройства, присоединимые к домену или Azure AD, поэтому для использования S/MIME в новом браузере Microsoft Edge фактически требуются устройства, которые присоединяются к домену или к Azure AD.
+Чтобы использовать S/MIME в Outlook в Интернете в новом веб-браузере [Microsoft Edge,](https://www.microsoft.com/windows/microsoft-edge) необходимо установить и настроить политику браузера Microsoft Edge с именем **ExtensionInstallForcelist,** чтобы установить расширение Microsoft S/MIME в новом Microsoft Edge. Значение политики: `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . Обратите внимание, что для применения этой политики требуются устройства, которые присоединяются к домену или к Azure AD, поэтому для использования S/MIME в новом браузере Microsoft Edge фактически требуются устройства, которые присоединяются к домену или к Azure AD.
 
 Подробные сведения о **политике ExtensionInstallForcelist** см. в [списке ExtensionInstallForcelist.](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist)
 

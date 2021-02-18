@@ -18,19 +18,19 @@ ms.custom:
 description: Обзор интеграции сервера SIEM с облачными службами и приложениями Microsoft 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f29da87aa6eab1852330092d93187a27b2d36eb2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: b4490d52cbd403bf4ce2cc3f3fb3c5a91c5646b9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167147"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290385"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция сервера SIEM со службами и приложениями Microsoft 365
 
 **Область применения**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender для Office 365 (план 1 и план 2)](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -43,7 +43,7 @@ ms.locfileid: "50167147"
 
 ## <a name="do-i-need-a-siem-server"></a>Нужен ли мне сервер SIEM?
 
-Необходимость сервера SIEM зависит от многих факторов, таких как требования организации к безопасности и место хранения данных. Microsoft 365 включает широкий спектр функций безопасности, которые отвечают требованиям безопасности многих организаций без дополнительных серверов, таких как сервер SIEM. В некоторых организациях имеются особые условия, которые требуют использования сервера SIEM. Ниже приводятся примеры:
+Потребность в сервере SIEM зависит от многих факторов, таких как требования организации к безопасности и место хранения данных. Microsoft 365 включает широкий спектр функций безопасности, которые отвечают требованиям безопасности многих организаций без дополнительных серверов, таких как сервер SIEM. В некоторых организациях имеются особые условия, которые требуют использования сервера SIEM. Ниже приводятся примеры:
 
 - *У Fabrikam* есть некоторое содержимое и приложения локально, а некоторые — в облаке (они имеют гибридное облачное развертывание). Чтобы получить отчеты о безопасности для всего контента и приложений, fabrikam реализовал сервер SIEM.
 
@@ -58,7 +58,7 @@ ms.locfileid: "50167147"
 |Служба или приложение Microsoft 365|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
 |---|---|---|
 |[Microsoft Defender для Office 365](office-365-atp.md)|Журналы аудита|[Интеграция SIEM с Microsoft Defender для Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)|Конечная точка HTTPS, которая была в Azure <p> REST API|[Вытягивать оповещения в средства SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
+|[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)|Конечная точка HTTPS, которая была в Azure <p> REST API|[Поочерещение оповещений в средства SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Интеграция журналов|[Интеграция SIEM с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem)|
 |
 
