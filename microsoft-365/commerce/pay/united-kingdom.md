@@ -1,8 +1,8 @@
 ---
-title: Платежная информация для Соединенного Королевства
-author: cmcatee-MSFT
+title: Сведения об оплате для Соединенного Королевства
 f1.keywords:
 - NOCSH
+author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 audience: Admin
@@ -11,26 +11,36 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2e8dfc5d5ebc6e300fa50b0f51e4bd6344aa3aed
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 334743ba42561522879ea416faf7e8c2897600a7
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648159"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406796"
 ---
-# <a name="payment-information-for-united-kingdom"></a><span data-ttu-id="6fc4f-103">Платежная информация для Соединенного Королевства</span><span class="sxs-lookup"><span data-stu-id="6fc4f-103">Payment information for United Kingdom</span></span>
+# <a name="payment-information-for-united-kingdom"></a><span data-ttu-id="9f1f0-103">Сведения об оплате для Соединенного Королевства</span><span class="sxs-lookup"><span data-stu-id="9f1f0-103">Payment information for United Kingdom</span></span>
 
-<span data-ttu-id="6fc4f-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="6fc4f-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="9f1f0-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="9f1f0-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="6fc4f-105">Please pay in GBP only and reference invoice number(s) on your payment payment payment invoice.</span><span class="sxs-lookup"><span data-stu-id="6fc4f-105">Please pay in GBP only and reference invoice number(s) on your payment remittance.</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="9f1f0-105">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="9f1f0-105">Electronic Funds Transfer</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="6fc4f-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="6fc4f-106">Electronic Funds Transfer</span></span>
+<span data-ttu-id="9f1f0-106">**Пожалуйста, оплатите в GBP и справочный номер счета-фактуры (ы) на ваш денежный перевод.**</span><span class="sxs-lookup"><span data-stu-id="9f1f0-106">**Please pay in GBP and reference invoice number(s) on your payment remittance.**</span></span>
 
-<span data-ttu-id="6fc4f-107">**Bank:** Заметьев, Лондон</span><span class="sxs-lookup"><span data-stu-id="6fc4f-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="6fc4f-108">**Код SWIFT:** THEGB2L</span><span class="sxs-lookup"><span data-stu-id="6fc4f-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="6fc4f-109">**IBAN:** GB41CITI18500812207605</span><span class="sxs-lookup"><span data-stu-id="6fc4f-109">**IBAN:** GB41CITI18500812207605</span></span>  
-<span data-ttu-id="6fc4f-110">**Код СОРТИРОВКИ:** 185008</span><span class="sxs-lookup"><span data-stu-id="6fc4f-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="6fc4f-111">**Номер учетной записи:** 12207605</span><span class="sxs-lookup"><span data-stu-id="6fc4f-111">**Account Number:** 12207605</span></span>  
-<span data-ttu-id="6fc4f-112">**Имя учетной записи:** МАЙКРОСОФТ</span><span class="sxs-lookup"><span data-stu-id="6fc4f-112">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="9f1f0-107">Если счет выставлен корпорацией **Microsoft Ireland Operations Limited,** используйте эту банковскую информацию:</span><span class="sxs-lookup"><span data-stu-id="9f1f0-107">If you have an invoice billed by **Microsoft Ireland Operations Limited**, use this bank information:</span></span>
+
+<span data-ttu-id="9f1f0-108">Банк: Ситибанк, Лондон</span><span class="sxs-lookup"><span data-stu-id="9f1f0-108">Bank: Citibank, London</span></span>\
+<span data-ttu-id="9f1f0-109">КОД SWIFT: CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="9f1f0-109">SWIFT Code: CITIGB2L</span></span>\
+<span data-ttu-id="9f1f0-110">Код IBAN: GB41CITI18500812207605</span><span class="sxs-lookup"><span data-stu-id="9f1f0-110">IBAN Code: GB41CITI18500812207605</span></span>\
+<span data-ttu-id="9f1f0-111">КОД SORT: 185008</span><span class="sxs-lookup"><span data-stu-id="9f1f0-111">SORT Code: 185008</span></span>\
+<span data-ttu-id="9f1f0-112">Номер учетной записи: 12207605</span><span class="sxs-lookup"><span data-stu-id="9f1f0-112">Account Number: 12207605</span></span>\
+<span data-ttu-id="9f1f0-113">Имя учетной записи: MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="9f1f0-113">Account Name: MICROSOFT</span></span>
+
+<span data-ttu-id="9f1f0-114">Если с 1 марта 2021 г. на счету **Microsoft Limited** выставлен счет за заказы и потребление, используйте эту банковскую информацию:</span><span class="sxs-lookup"><span data-stu-id="9f1f0-114">If you have an invoice billed by **Microsoft Limited** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
+
+<span data-ttu-id="9f1f0-115">Банк: Citibank Europe plc</span><span class="sxs-lookup"><span data-stu-id="9f1f0-115">Bank: Citibank Europe plc</span></span>\
+<span data-ttu-id="9f1f0-116">КОД SWIFT: CITIIE2X</span><span class="sxs-lookup"><span data-stu-id="9f1f0-116">SWIFT Code: CITIIE2X</span></span>\
+<span data-ttu-id="9f1f0-117">Код IBAN: IE65CITI99005170000121</span><span class="sxs-lookup"><span data-stu-id="9f1f0-117">IBAN Code: IE65CITI99005170000121</span></span>\
+<span data-ttu-id="9f1f0-118">Номер учетной записи: 70000121</span><span class="sxs-lookup"><span data-stu-id="9f1f0-118">Account Number: 70000121</span></span>\
+<span data-ttu-id="9f1f0-119">Имя учетной записи: MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="9f1f0-119">Account Name: MICROSOFT</span></span>
