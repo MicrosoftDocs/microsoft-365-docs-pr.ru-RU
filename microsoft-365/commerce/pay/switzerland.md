@@ -1,8 +1,8 @@
 ---
-title: Платежные данные для Швейцарии
-author: cmcatee-MSFT
+title: Сведения об оплате для Швейцарии
 f1.keywords:
 - NOCSH
+author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 audience: Admin
@@ -11,25 +11,35 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 593293fab0d61ba7ecb154f3eb7ed48cf07e1dee
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 580ae34bd662de916362458d912c1be029b5f337
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648399"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406820"
 ---
-# <a name="payment-information-for-switzerland"></a>Платежные данные для Швейцарии
+# <a name="payment-information-for-switzerland"></a>Сведения об оплате для Швейцарии
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Please pay in CHF only and reference invoice number(s) on your payment invoice invoice.
-
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Swift Code/BIC:** THEGB2L  
-**IBAN:** GB44CITI18500812207648  
-**Номер учетной записи:** 12207648  
-**Имя учетной записи:** МАЙКРОСОФТ  
+**Пожалуйста, оплатите в CHF и справочный номер счета-фактуры(ы) при переводе платежа.**
+
+Если счет выставлен корпорацией **Microsoft Ireland Operations Limited,** используйте эту банковскую информацию:
+
+Банк: Ситибанк, Лондон\
+КОД SWIFT: CITIGB2L\
+Код IBAN: GB44CITI18500812207648\
+Номер учетной записи: 12207648\
+Имя учетной записи: MICROSOFT
+
+Если с 1 марта 2021 г. на счету **Microsoft Schweiz GmbH** выставлен счет за заказы и потребление, используйте эту банковскую информацию:
+
+Банк: Citibank Europe plc\
+КОД SWIFT: CITIIE2X\
+Код IBAN: IE59CITI99005170000132\
+Номер учетной записи: 70000132\
+Имя учетной записи: MICROSOFT

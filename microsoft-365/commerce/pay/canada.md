@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Канады
+title: Сведения об оплате для Канады
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,34 +11,37 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a4a60c841ebb31163281cd8de3c27460e10b0811
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2eccedc234ee6bf9a3049671b4fa4142ba85bd69
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637515"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406996"
 ---
-# <a name="payment-information-for-canada"></a>Платежная информация для Канады
+# <a name="payment-information-for-canada"></a>Сведения об оплате для Канады
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Please pay in CAD only and reference your invoice number(s) on your payment payment invoice invoice.
-
-## <a name="check"></a>Чек
-
-**Payee:** Майкрософт
-
-**Адрес электронной почты:**  
-Bank of America, Lockbox 910430, PO Box 4090, STN A, Toronto ON M5W 0E9, Canada
-
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Банк Америки, Ванкувер  
-**Код SWIFT:** BOFACATT  
-**Номер учетной записи:** 45571239  
-**Имя учетной записи:** Майкрософт  
-**Bank ID:** 241  
-**Филиал:** 56792  
-**Маршрут и транзит #:** 024156792  
+**Пожалуйста, оплатите в CAD и обратитесь с номером счета(ы) на ваш денежный перевод.**
+
+Если счет выставлен корпорацией **Майкрософт,** используйте эту банковскую информацию:
+
+Bank: Bank of America, Toronto\
+КОД SWIFT: BOFACATT\
+Номер учетной записи: 45571239\
+Имя учетной записи: MICROSOFT\
+ID банка: 241\
+Ветвь: 56792\
+Имя учетной записи: MICROSOFT
+
+Если с 1 марта 2021 г. на счету **Microsoft Canada Inc.** выставлен счет за заказы и потребление, используйте эту банковскую информацию:
+
+Банк: Citibank N.A., Canadian Branch\
+Число маршрутов: 032820012\
+Код BIC/SWIFT: CITICATTBCH\
+Номер учетной записи: 3003600001\
+Имя учетной записи: MICROSOFT

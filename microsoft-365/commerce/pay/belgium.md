@@ -1,8 +1,8 @@
 ---
-title: Платежная информация для Бельгии
-author: cmcatee-MSFT
+title: Сведения об оплате для Бельгии
 f1.keywords:
 - NOCSH
+author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 audience: Admin
@@ -11,26 +11,36 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 243f0ca61ece53f8029944e6ab8e9d88d96eb99c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c3ce99814ae1bae3c0dfe913fc6df2b50503a01a
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637755"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406984"
 ---
-# <a name="payment-information-for-belgium"></a>Платежная информация для Бельгии
+# <a name="payment-information-for-belgium"></a>Сведения об оплате для Бельгии
 
-[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md) 
-
-Оплатите только в есвеях и ссылайтесь на свои номера счета-фактуры в счете-фактуре.
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Swift Code:** THEGB2L  
-**Код сортировки:** 185008  
-**IBAN:** GB31CITI18500812207591  
-**Номер учетной записи:** 12207591  
-**Acount Number:** МАЙКРОСОФТ  
+**Пожалуйста, оплатите в EUR и справочный номер счета-фактуры(ы) на ваш денежный перевод.**
+
+Если счет выставлен корпорацией **Microsoft Ireland Operations Limited,** используйте эту банковскую информацию:
+
+Банк: Ситибанк, Лондон\
+КОД SWIFT: CITIGB2L\
+Код IBAN: GB31CITI18500812207591\
+КОД SORT: 185008\
+Номер учетной записи: 12207591\
+Имя учетной записи: MICROSOFT
+
+Если с 1 марта 2021 г. на счету **Microsoft NV** выставлен счет за заказы и потребление, используйте эту банковскую информацию:
+
+Банк: Citibank Europe plc\
+КОД SWIFT: CITIIE2X\
+Код IBAN: IE54CITI99005170000125\
+Номер учетной записи: 70000125\
+Имя учетной записи: MICROSOFT

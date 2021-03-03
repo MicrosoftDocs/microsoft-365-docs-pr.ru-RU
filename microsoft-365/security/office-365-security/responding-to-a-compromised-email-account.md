@@ -20,12 +20,12 @@ search.appverid:
 description: Узнайте, как распознать компрометацию учетной записи электронной почты с помощью средств Microsoft 365 и какие принять меры.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1bbd607386b49b45ebd7444c4a91d05e4cee475b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 5dfb40c195cb9df9c8f2ac5d1cfbacdda022d416
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288613"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406728"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Реагирование на компрометацию учетной записи электронной почты
 
@@ -204,7 +204,7 @@ ms.locfileid: "50288613"
 
 - [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Microsoft 365](detect-and-remediate-outlook-rules-forms-attack.md)
 
-- [Центр жалоб на Интернет-преступления](https://www.ic3.gov/preventiontips.aspx)
+- [Центр жалоб на Интернет-преступления](https://www.ic3.gov/Home/Ransomware)
 
 - [Комиссия по ценным бумагам и биржам – "фишинговое" мошенничество](https://www.sec.gov/investor/pubs/phishing.htm)
 
