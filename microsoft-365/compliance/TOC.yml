@@ -237,6 +237,8 @@
               href: data-loss-prevention-policies.md
             - name: Сведения о защите от потери данных в конечной точке
               href: endpoint-dlp-learn-about.md
+            - name: Узнайте о локальном сканере для защиты от потери данных Microsoft 365 (предварительная версия)
+              href: dlp-on-premises-scanner-learn.md
         - name: Начало работы с защитой от потери данных
           items:
             - name: Начало работы с политикой защиты от потери данных по умолчанию
@@ -245,6 +247,8 @@
               href: create-a-dlp-policy-from-a-template.md
             - name: 'Создание, тестирование и настройка политики защиты от потери данных'
               href: create-test-tune-dlp-policy.md
+            - name: Начало работы с локальным сканером для защиты от потери данных Microsoft 365 (предварительная версия)
+              href: dlp-on-premises-scanner-get-started.md
             - name: Начало работы с функцией защиты от потери данных в конечной точке
               href: endpoint-dlp-getting-started.md
             - name: Настройка параметров прокси-сервера и подключения к Интернету для конечной точки защиты от потери данных
@@ -269,6 +273,8 @@
               href: dlp-microsoft-teams.md
             - name: Использование защиты от потери данных в конечной точке
               href: endpoint-dlp-using.md
+            - name: Использование локального сканера для защиты от потери данных Microsoft 365 (предварительная версия)
+              href: dlp-on-premises-scanner-use.md
             - name: Использование уведомлений и подсказок политики в политиках DLP
               href: use-notifications-and-policy-tips.md
             - name: Что входит в шаблоны политик DLP
