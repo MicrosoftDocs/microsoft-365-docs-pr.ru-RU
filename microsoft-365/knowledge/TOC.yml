@@ -1,12 +1,12 @@
-- name: Начало работы с Microsoft Viva
+- name: Темы Microsoft Viva
+  href: index.md
+- name: Начало работы с темами Microsoft Viva
   items:
-    - name: Общие сведения о Microsoft Viva
-      href: index.md
-    - name: Обзор Microsoft Viva
+    - name: Обзор тем Microsoft Viva
       href: topic-experiences-overview.md
-    - name: Обнаружение и настройка Microsoft Viva
+    - name: Обнаружение и настройка тем Microsoft Viva
       href: topic-experiences-discovery-curation.md
-    - name: Роли Microsoft Viva
+    - name: Роли тем Microsoft Viva
       href: topic-experiences-roles.md
     - name: Подготовка среды
       href: topic-experiences-get-ready.md
@@ -28,6 +28,8 @@
       href: topic-experiences-administration.md
 - name: Работа с темами
   items:
+    - name: Начало работы с темами Viva
+      href: get-started-with-viva-topics.md
     - name: Обзор Центра тем
       href: topic-center-overview.md
     - name: Управление темами в центре тем
