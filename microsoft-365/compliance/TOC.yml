@@ -158,6 +158,8 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Управление метками конфиденциальности в приложениях Office
           href: sensitivity-labels-office-apps.md
+        - name: 'Включение совместного редактирования для документов, зашифрованных с помощью меток конфиденциальности (предварительная версия)'
+          href: sensitivity-labels-coauthoring.md
     - name: Шифрование
       items:
         - name: Сведения о шифровании

@@ -14,30 +14,30 @@ ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как создать запрос удержания на месте для обратимо удаленного почтового ящика, чтобы сделать последний неактивным и сохранить его содержимое.
-ms.openlocfilehash: 4dcd6539519675094da9a05c7701b9f8511ce9a1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 638cc0554f216a0cb552c1f8eacef3d692d9f792
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818868"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423770"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Назначение удержания на месте для обратимо удаленного почтового ящика в Exchange Online
 
 Узнайте, как создать запрос удержания на месте для обратимо удаленного почтового ящика, чтобы сделать последний неактивным и сохранить его содержимое. После этого вы сможете использовать средства обнаружения электронных данных для поиска в неактивном почтовом ящике.
 
 > [!IMPORTANT]
-> По мере того как мы продолжаем вкладывать средства в различные способы сохранения содержимого почтовых ящиков, мы объявляем о завершении In-Place в Центре администрирования Exchange (EAC). С 1 июля 2020 г. вы не сможете создавать новые In-Place в Exchange Online. Но вы по-прежнему сможете управлять In-Place в EAC или с помощью cmdlet **Set-MailboxSearch** в Exchange Online PowerShell. Однако с 1 октября 2020 г. вы не сможете управлять In-Place. Их можно удалить только в EAC или с помощью cmdlet **Remove-MailboxSearch.** Дополнительные сведения об отоимлении In-Place, см. в поддомене "Вымещать устаревшие средства [eDiscovery".](legacy-ediscovery-retirement.md)
+> По мере того как мы продолжаем инвестировать в различные способы сохранения контента почтовых ящиков, мы объявляем об уходе In-Place хранит в центре администрирования Exchange (EAC). С 1 июля 2020 г. вы не сможете создавать новые In-Place в Exchange Online. Но вы все равно сможете управлять In-Place в EAC или с помощью **комлета Set-MailboxSearch** в Exchange Online PowerShell. Однако с 1 октября 2020 г. вы не сможете управлять In-Place holds. Удалить их можно будет только в EAC или с помощью **cmdlet Remove-MailboxSearch.** Дополнительные сведения об уходе из In-Place содержится в см. в In-Place устаревших средств [eDiscovery.](legacy-ediscovery-retirement.md)
   
-You might have a situation where a person has left your organization, and their corresponding user account and mailbox were deleted. Afterwards, you realize there's information in the mailbox that needs to be preserved. What can you do? If the deleted mailbox retention period hasn't expired, you can put an In-Place Hold on the deleted mailbox (called a  soft-deleted mailbox ) and make it an inactive mailbox. An  *inactive mailbox*  is used to preserve a former employee's email after he or she leaves your organization. The contents of an inactive mailbox are preserved for the duration of the In-Place Hold that was is placed on the soft-deleted mailbox when it was made inactive. После того как почтовый ящик деактивирован, вы можете найти его с помощью службы In-Place eDiscovery в Exchange Online, поиска контента в Центре безопасности & и соответствия требованиям или Центра eDiscovery в SharePoint Online. 
+You might have a situation where a person has left your organization, and their corresponding user account and mailbox were deleted. Afterwards, you realize there's information in the mailbox that needs to be preserved. What can you do? If the deleted mailbox retention period hasn't expired, you can put an In-Place Hold on the deleted mailbox (called a  soft-deleted mailbox ) and make it an inactive mailbox. An  *inactive mailbox*  is used to preserve a former employee's email after he or she leaves your organization. The contents of an inactive mailbox are preserved for the duration of the In-Place Hold that was is placed on the soft-deleted mailbox when it was made inactive. После неактивности почтового ящика можно искать почтовый ящик с помощью In-Place электронных данных в Exchange Online, поиска контента в Центре соответствия требованиям & безопасности или центре поиска электронных данных в SharePoint Online. 
   
 > [!NOTE]
 > В Exchange Online обратимо удаленный почтовый ящик  почтовый ящик, который был удален, но может быть восстановлен в течение определенного срока хранения (в Exchange Online он составляет 30 дней). Это значит, что такой почтовый ящик можно восстановить или сделать неактивным в течение 30 дней после удаления. По истечении этого периода обратимо удаленный почтовый ящик помечается для окончательного удаления, и в этом случае его уже невозможно восстановить или сделать неактивным. 
   
-## <a name="requirements-for-in-place-holds"></a>Требования к In-Place с In-Place
+## <a name="requirements-for-in-place-holds"></a>Требования к In-Place удерживает
 
 - Примените командлет **New-MailboxSearch** в Оболочка Windows PowerShell, чтобы назначить удержание на месте для обратимо удаленного почтового ящика. В SharePoint Online вы не можете использовать Центр администрирования Exchange (EAC) или центр обнаружения электронных данных. 
 
-- Сведения о том, как с помощью Оболочка Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=396554).
+- Сведения о том, как с помощью Оболочка Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Выполните указанную ниже команду, чтобы отобразить удостоверения обратимо удаленных почтовых ящиков в организации. 
 
@@ -45,7 +45,7 @@ You might have a situation where a person has left your organization, and their 
   Get-Mailbox -SoftDeletedMailbox | FL Name,WhenSoftDeleted,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
   ```
 
-- Дополнительные сведения о неактивных почтовых ящиках см. в обзоре неактивных почтовых ящиков [в Office 365.](inactive-mailboxes-in-office-365.md)
+- Дополнительные сведения о неактивных почтовых ящиках см. в обзоре неактивных почтовых [ящиков в Office 365.](inactive-mailboxes-in-office-365.md)
 
 ## <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-to-make-it-an-inactive-mailbox"></a>Назначение удержания на месте для обратимо удаленного почтового ящика, чтобы сделать последний неактивным
 

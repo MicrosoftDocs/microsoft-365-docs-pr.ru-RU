@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Получите сведения о том, как создать настраиваемый тип конфиденциальной информации, который позволит пользоваться правилами, соответствующими потребностям вашей организации.
-ms.openlocfilehash: 745cea9a0851168999335e27b970276726b516d0
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 40584b430af6e822b115e014c20481c027222aae
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546667"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423408"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Настройка встроенных типов конфиденциальных данных
 
@@ -201,7 +201,7 @@ ms.locfileid: "47546667"
   
 1. Сохраните правило как XML-файл с кодировкой Юникод. Это важно, так как правило в другой кодировке работать не будет.
     
-2. [Подключение к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell.](https://go.microsoft.com/fwlink/?linkid=799771)
+2. [Подключение к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
     
 3. В PowerShell введите указанную ниже команду.
 

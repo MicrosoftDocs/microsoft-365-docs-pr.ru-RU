@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Инструкции по созданию и публикации меток хранения, которые можно применять в приложениях для сохранения необходимых сведений и удаления ненужных.
-ms.openlocfilehash: dfe507283304f1b1a7ded1740df043174987a398
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 67285862756a262233fef934efb377b949fc9d65
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519860"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423500"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Создание меток хранения и их применение в приложениях
 
@@ -71,13 +71,13 @@ ms.locfileid: "49519860"
     
     - Дополнительные сведения о дескрипторах плана хранения см. в статье [Использование плана хранения для управления метками хранения](file-plan-manager.md).
     
-    - Чтобы использовать метку хранения для объявления элементов записями, выберите **Пометить элементы как записи** или **Пометить элементы как нормативные записи**. Дополнительные сведения см. в статье [Настройка меток хранения для объявления элементов записями](declare-records.md#configuring-retention-labels-to-declare-records)
+    - Чтобы использовать метку хранения для объявления элементов записями, нажмите кнопку **Пометить элементы как записи** или **Пометить элементы как нормативные записи**. Дополнительные сведения см. в статье [Настройка меток хранения для объявления элементов записями](declare-records.md#configuring-retention-labels-to-declare-records)
 
 3. После того как появятся параметры для публикации метки, автоматического применения метки или просто сохранения метки, выберите **Сохранить метку**, и затем нажмите **Готово**.
 
 4. Повторите эти действия для создания дополнительных меток.
 
-Чтобы изменить существующую метку, выберите ее и нажмите **Изменить метку** для запуска мастера изменения хранения, который позволяет изменить описания меток и любые [доступные параметры](#updating-retention-labels-and-their-policies) на шаге 2.
+Чтобы изменить существующую метку, выберите ее и нажмите **Изменить метку** для запуска Мастера изменения хранения, который позволяет изменить описания меток и любые [доступные параметры](#updating-retention-labels-and-their-policies) на шаге 2.
 
 ### <a name="step-2-publish-retention-labels"></a>Этап 2. Публикация меток хранения
 
@@ -97,7 +97,7 @@ ms.locfileid: "49519860"
     
     Сведения о расположениях, поддерживаемых метками хранения, см. в статье [Метки хранения и расположения](retention.md#retention-label-policies-and-locations). 
 
-Чтобы изменить существующую политику меток хранения (тип политики **Опубликовать**), выберите ее и нажмите **Изменить**, чтобы запустить изменение политики хранения. С помощью этого мастера можно изменить описание политики и любые [допустимые параметры](#updating-retention-labels-and-their-policies) из шага 2.
+Чтобы изменить существующую политику меток хранения (тип политики **Опубликовать**), выберите ее и нажмите кнопку **Изменить**, чтобы запустить изменение политики хранения. С помощью этого мастера можно изменить описание политики и любые [допустимые параметры](#updating-retention-labels-and-their-policies) из шага 2.
 
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>Доступность меток хранения для применения
@@ -291,6 +291,14 @@ When you edit a retention label or retention label policy, and the retention lab
 Some settings can't be changed after the label or policy is created and saved, which include:
 - The retention label and policy name, and the retention settings except the retention period. However, you can't change the retention period when the retention period is based on when items were labeled.
 - The option to mark items as a record.
+
+### Deleting retention labels
+
+You can delete retention labels that aren't currently included in any retention label policies, that aren't configured for event-based retention, or mark items as regulatory records. The ability to delete retention labels that mark items as records is currently rolling out in preview.
+
+For retention labels that you can delete, if they have been applied to items, the deletion fails and you see a link to content explorer to identify the labeled items.
+
+However, it can take up to two days for content explorer to show the items that are labeled. In this scenario, the retention label might be deleted without showing you the link to content explorer.
 
 ## Locking the policy to prevent changes
 

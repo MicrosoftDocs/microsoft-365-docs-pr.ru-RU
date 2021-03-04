@@ -1,5 +1,5 @@
 ---
-title: Ограничения в основных случаях eDiscovery
+title: Ограничения в случае с основными электронными данными
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,33 +16,33 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: В этой статье описываются ограничения в основных случаях eDiscovery в Microsoft 365.
-ms.openlocfilehash: 43d267acdb0c1fee0202c74832b376e066241d7c
-ms.sourcegitcommit: 495b66b77d6dbe6d69e5b06b304089e4e476e568
+description: В этой статье описываются ограничения в случае с основными электронными данными в Microsoft 365.
+ms.openlocfilehash: 2699e9b2511c742bb295f69611a976f6a3955980
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799666"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423450"
 ---
 # <a name="limits-in-core-ediscovery"></a>Ограничения в core eDiscovery
 
-В следующей таблице перечислены ограничения для основных дел eDiscovery и дел, связанных с основным делом eDiscovery. Дополнительные сведения о core eDiscovery см. в [обзоре core eDiscovery.](ediscovery-cases.md)
+В следующей таблице перечислены ограничения для основных случаев, связанных с электронным открытием, и содержится, связанный с случаем, связанным с основными данными об обнаружении электронных обнаружений. Дополнительные сведения о core eDiscovery см. в [обзоре основных сведений об обнаружении электронных данных.](ediscovery-cases.md)
     
   | Описание ограничения | Ограничение |
   |:-----|:-----|
-  |Максимальное количество дел в организации  <br/> |Нет ограничений  <br/> |
-  |Максимальное количество случаев, когда дело удерживается в организации  <br/> |10 000  <br/> |
-  |Максимальное количество почтовых ящиков в одном удержании дела  <br/> |1,000  <br/> |
-  |Максимальное число сайтов SharePoint и OneDrive для бизнеса в одном удержании дел  <br/> |100  <br/> |
-  |Максимальное количество дел, отображаемого на основной домашней странице eDiscovery, и максимальное количество элементов, отображаемого на вкладке "Содержит", "Поиск" и "Экспорт" в рамках дела. <sup>1</sup> |1,000|
+  |Максимальное количество случаев для организации.  <br/> |Нет ограничений  <br/> |
+  |Максимальное количество случаев для организации.  <br/> |10 000  <br/> |
+  |Максимальное количество почтовых ящиков в одном удержании. Это ограничение включает общее количество почтовых ящиков пользователей и почтовых ящиков, связанных с группами Microsoft 365, Microsoft Teams и Yammer Groups.  <br/> |1,000  <br/> |
+  |Максимальное количество сайтов в одном удержании. Это ограничение включает общее количество сайтов OneDrive для бизнеса, сайтов SharePoint и сайтов, связанных с Группами Microsoft 365, Microsoft Teams и Yammer Groups.  <br/> |100  <br/> |
+  |Максимальное число случаев, отображаемых на основной домашней странице электронного поиска, и максимальное количество элементов, отображаемых на вкладке "Удерживает", "Поиск" и "Экспорт" в рамках дела. <sup>1</sup> |1,000|
   |||
 
    > [!NOTE]
-   > <sup>1</sup> Чтобы просмотреть список из более чем 1000 дел, совмещаний, поисков или экспорта, можно использовать соответствующие & PowerShell для обеспечения безопасности и соответствия требованиям Office 365:
+   > <sup>1</sup> Чтобы просмотреть список из более чем 1000 дел, удерживаний, поисков или экспортов, можно использовать соответствующие cmdlets Office 365 Security & Compliance PowerShell:
    > 
    > - [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase)
    > - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
    > - [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)
    > - [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)
 
-Дополнительные сведения об ограничениях, связанных с поиском контента и экспортом, связанным с основным делом eDiscovery, см. в поддомене "Ограничения для поиска контента и основного [eDiscovery".](limits-for-content-search.md)
+Дополнительные сведения об ограничениях, связанных с поиском контента и экспортом, связанными с делом об обнаружении основных данных, см. в материалах [Limits for Content Search and Core eDiscovery.](limits-for-content-search.md)
