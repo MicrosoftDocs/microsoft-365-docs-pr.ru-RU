@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как создать команду с уникальной меткой конфиденциальности в целях безопасности.
-ms.openlocfilehash: 439dee40d1501801fc09d570614a591259c6f09c
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.openlocfilehash: 5ddd42f9e2f2779ca6bf864554140a3f18d2cdea
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881709"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405706"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Настройка команды с изоляцией для обеспечения безопасности
 
@@ -44,6 +44,7 @@ ms.locfileid: "49881709"
 
 Обзор процесса развертывания показан в приведенном ниже видео.
 <br>
+<br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
 <a name="poster"></a> 1-страничное краткое описание этого сценария приведено на [плакате "Microsoft Teams с изоляцией для обеспечения безопасности"](../downloads/team-security-isolation-poster.pdf).
@@ -51,6 +52,10 @@ ms.locfileid: "49881709"
 [![Плакат "Microsoft Teams с изоляцией для обеспечения безопасности"](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
 Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) или [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
+
+Попробуйте эту конфигурацию в собственной лаборатории тестирования с помощью [этих инструкций](team-security-isolation-dev-test.md).
+
+Посмотрите в [этом примере](contoso-team-for-top-secret-project.md), как корпорация Contoso использовала изолированную команду для сверхсекретного проекта.
 
 ## <a name="initial-protections"></a>Начальная защита
 
@@ -183,7 +188,7 @@ ms.locfileid: "49881709"
 2. В разделе **Сайты** выберите **Активные сайты**.
 3. Нажмите на сайт, который связан с командой.
 4. На вкладке **Политики** в разделе **Внешний обмен** нажмите **Изменить**.
-5. Если вы разрешили общий доступ к гостям при создании конфиденциальной метки, убедитесь, что выбраны **Новые и существующие гости**. Если вы запретили общий доступ при создании метки, выберите **Только пользователи из вашей организации**.
+5. Если вы разрешили общий доступ к гостям при создании конфиденциальной метки, убедитесь, что выбраны **Новые и существующие гости**. Если вы не разрешили поделиться при создании ярлыка, выберите **Только люди в вашей организации**.
 6. В разделе Тип ссылки для общего доступа по умолчанию снимите флажок **То же, что и на уровне организации**, и выберите **Люди с существующим доступом**.
 7. Щелкните **Сохранить**.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Чтобы защитить контент на сайтах SharePoint и Microsoft Teams, а также в группах Microsoft 365, используйте метки конфиденциальности.
-ms.openlocfilehash: 7eea07b91647af2b0b7121f9d9c1f018bc9fc630
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: 3565b47e21d81b4b3d560d72a29f2deae9587709
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261462"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407319"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Используйте метки конфиденциальности, чтобы защитить контент в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint.
 
@@ -32,7 +32,7 @@ ms.locfileid: "50261462"
 
 - Конфиденциальность сайтов команд и групп Microsoft 365
 - Доступ внешних пользователей
-- Внешний общий доступ с сайтов SharePoint (предварительная версия)
+- Внешний общий доступ с сайтов SharePoint
 - Доступ с неуправляемых устройств
 
 > [!IMPORTANT]
@@ -100,7 +100,7 @@ ms.locfileid: "50261462"
 
 4. Если вы выбрали **Параметры доступа устройства и внешнего общего доступа**, настройте следующие параметры:
     
-    - **Управлять внешним общим доступом с помеченных сайтов SharePoint**. В настоящее время этот параметр доступен в предварительной версии. Выберите его, чтобы затем выбрать внешний общий доступ для всех пользователей, новых и существующих гостей, существующих гостей или только для сотрудников вашей организации. Дополнительные сведения об этой конфигурации и параметрах см. в документе SharePoint [Включение и отключение внешнего общего доступа для сайта](https://docs.microsoft.com/sharepoint/change-external-sharing-site).
+    - **Управлять внешним общим доступом с помеченных сайтов SharePoint**. Выберите этот параметр, чтобы затем выбрать внешний общий доступ для всех пользователей, новых и существующих гостей, существующих гостей или только для сотрудников вашей организации. Дополнительные сведения об этой конфигурации и параметрах см. в документе SharePoint [Включение и отключение внешнего общего доступа для сайта](https://docs.microsoft.com/sharepoint/change-external-sharing-site).
     
     - **Доступ с неуправляемых устройств**. Этот параметр использует функцию SharePoint, применяющую условный доступ Azure AD для блокировки или ограничения доступа к контенту SharePoint и OneDrive с неуправляемых устройств. Дополнительные сведения см. в статье [Управление доступом с неуправляемых устройств](/sharepoint/control-access-from-unmanaged-devices) из документации по SharePoint. Параметр, который вы указываете для настройки этой метки, эквивалентен запуску команды PowerShell на сайте, как описано в шагах 3–5 раздела [Блокировка или ограничение доступа к определенному сайту SharePoint или OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) инструкций по SharePoint.
         

@@ -1,5 +1,5 @@
 ---
-title: Общий просмотр бизнес-файлов — обзор
+title: Общий общий обзор бизнес-файлов
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -9,68 +9,66 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Общие сведения о том, как делиться бизнес-файлами.
-ms.openlocfilehash: 333954c92039d124c83cf03b6e1f6637183a4f25
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Обзор того, как обмениваться бизнес-файлами.
+ms.openlocfilehash: b481e7564625fcd019a53ba9116acdb724b4af61
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928154"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422367"
 ---
 # <a name="overview-of-sharing-business-files"></a>Обзор общего доступа к бизнес-файлам
 
-Вам необходимо делиться файлами с клиентами, клиентами, партнерами, поставщиками и другими людьми в вашей компании. Как делиться файлами, чтобы все могли их найти, открыть и изменить?
+Вам необходимо обмениваться файлами с клиентами, клиентами, партнерами, поставщиками и другими людьми в вашем бизнесе. Как обмениваться файлами, чтобы каждый может найти, открыть и изменить их?
 
-|![Безопасное совместное](../media/securely-share-file.png)<br/>[Поделиться файлом с кем-то за пределами вашей компании](#share-a-file-with-someone-outside-of-your-company)|![Сотрудничество с клиентом](../media/share-and-collab-with-partner.png) <br/>[Совместное взаимодействие с клиентом или бизнес-партнером](#share-and-collaborate-with-a-client-or-business-partner) | ![Делиться в организации](../media/share-inside-your-org.png) <br/>[Совместное работы в компании](#share-inside-your-business) |
+|![Безопасное совместное](../media/securely-share-file.png)<br/>[Поделитесь файлом с кем-либо за пределами вашей компании](#share-a-file-with-someone-outside-of-your-company)|![Сотрудничество с клиентом](../media/share-and-collab-with-partner.png) <br/>[Совместное взаимодействие с клиентом или бизнес-партнером](#share-and-collaborate-with-a-client-or-business-partner) | ![Share inside your org](../media/share-inside-your-org.png) <br/>[Share inside your business](#share-inside-your-business) |
 |--|--|--|
 
-## <a name="share-a-file-with-someone-outside-of-your-company"></a>Поделиться файлом с кем-то за пределами вашей компании
+## <a name="share-a-file-with-someone-outside-of-your-company"></a>Поделитесь файлом с кем-либо за пределами вашей компании
 
-- Делиться файлом с кем-либо за пределами вашей компании (например, клиентом или клиентом) по электронной почте, если он нужен только в одном из способов.
-- Если вам нужен ответ или вы хотите, чтобы они заполнили некоторые сведения и отправили их обратно, вы можете использовать SharePoint или Microsoft Teams, чтобы поделиться им с помощью ссылки для редактирования.
+- Поделитесь файлом с кем-либо за пределами вашей компании (например, клиентом или клиентом) по электронной почте, если он нужен только для одного пути.
+- Если вам нужен ответ или вы хотите, чтобы они заполнили некоторые сведения и отправили их обратно, вы можете использовать SharePoint или Microsoft Teams, чтобы поделиться ими со ссылкой на изменение.
 
-Узнайте больше о том, как обмениваться файлами за [пределами](securely-share-files-externally.md) организации с помощью безопасных ссылок и как делиться файлами с помощью любой [ссылки.](share-files-externally.md)
+Узнайте больше о том, как обмениваться файлами за [пределами организации](securely-share-files-externally.md) с защищенными ссылками и как обмениваться файлами с любой [ссылкой.](share-files-externally.md)
 
 ## <a name="share-and-collaborate-with-a-client-or-business-partner"></a>Совместное взаимодействие с клиентом или бизнес-партнером
 
-Общий доступ как часть проекта? Или в рамках постоянных отношений с бизнес-партнером или поставщиком? Вы можете уделить немного больше времени и настроить команду в Microsoft Teams и иметь постоянное место для совместной работы и совместной работы. Это легко работать с людьми за пределами вашей компании, и вы даже можете настроить отдельные каналы для дополнительных поставщиков или партнеров, чтобы все было просто.
+Общий доступ в рамках проекта? Или в рамках текущих отношений с бизнес-партнером или поставщиком? Вы можете уделить немного времени и настроить группу в Microsoft Teams и иметь постоянное место для совместной работы и совместной работы. Легко работать с людьми за пределами вашего бизнеса, и вы даже можете настроить отдельные каналы для дополнительных поставщиков или партнеров, чтобы сохранить все это прямо.
 
 1. Создайте команду.
-1. Отправка файлов.
+1. Загрузите файлы.
 1. Приглашайте партнеров или поставщиков в команду в качестве "гостевых" пользователей, чтобы предоставить им доступ.
 
-Узнайте больше о том, как обмениваться файлами [за пределами организации с помощью безопасных ссылок.](https://support.microsoft.com/office/7266f44e-3e06-4736-b9d3-0580c24bba34)
+Узнайте больше о том, как обмениваться [файлами за пределами организации с помощью безопасной ссылки](https://support.microsoft.com/office/7266f44e-3e06-4736-b9d3-0580c24bba34)s.
 
-## <a name="share-inside-your-business"></a>Совместное работы в компании
+## <a name="share-inside-your-business"></a>Share inside your business
 
-Если вы работаете с файлами, которые вы делитесь в своей компании, также имеется хорошая идея настроить команду в Microsoft Teams. Делитесь файлами там, и все в вашей компании могут легко находить и редактировать их, и вы знаете, что все работаете на одной странице.
+Если вы работаете с файлами, которые вы делитесь в своем бизнесе, также неплохо настроить команду в Microsoft Teams. Делитесь файлами там, и все в вашем бизнесе могут легко найти и изменить их, и вы знаете, что все вы работаете на одной странице.
 
-1. Создайте команду и пригласите ее в нее.
-1. Отправка файлов.
+1. Создайте команду и пригласите в нее свою команду.
+1. Загрузите файлы.
 
-Узнайте больше о [хранении файлов компании](https://support.microsoft.com/office/e4d98e10-3532-4eed-85d6-92728454e32b) и [сотрудниках.](https://support.microsoft.com/office/12dbe3e4-dbef-48f8-a90e-87f1bc607073)
+Дополнительные материалы о [хранилище файлов компании и](https://support.microsoft.com/office/e4d98e10-3532-4eed-85d6-92728454e32b) хранилище файлов [сотрудников.](https://support.microsoft.com/office/12dbe3e4-dbef-48f8-a90e-87f1bc607073)
 
 ## <a name="how-to-get-it-done"></a>Как это сделать
 
-Нужна помощь? Узнайте, как:
+Нужна небольшая помощь? Узнайте, как:
 
 - [Отправка и получение вложений](https://support.microsoft.com/en-us/office/sending-and-receiving-attachments-d32cd5ad-c7c5-49df-814d-4c17a5d3beb0)
-- [Совместное хранилище файлов и папок в OneDrive](https://support.microsoft.com/en-us/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
-- [Создание команды для всей компании](https://support.microsoft.com/en-us/office/create-an-org-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
+- [Share files and folders with OneDrive](https://support.microsoft.com/en-us/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
+- [Создание всей компании](https://support.microsoft.com/en-us/office/create-an-org-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
 - [Добавление гостей в команду](https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-teams-fccb4fa6-f864-4508-bdde-256e7384a14f)
 
-Скачайте инфографику, чтобы получить краткий обзор способов поделиться бизнес-файлами. 
+Скачайте инфографику, чтобы получить краткий обзор способов обмена бизнес-файлами. 
 
 [PDF](https://go.microsoft.com/fwlink/?linkid=2079435)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438)

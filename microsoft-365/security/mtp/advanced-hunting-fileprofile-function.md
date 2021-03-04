@@ -1,7 +1,7 @@
 ---
-title: Функция FileProfile() в advanced hunting for Microsoft 365 Defender
-description: Узнайте, как использовать FileProfile() для получения дополнительных сведений о файлах в результатах запроса на расширенный поиск
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, FileProfile, file profile, function, enrichment
+title: Функция FileProfile() в продвинутой охоте для Microsoft 365 Defender
+description: Узнайте, как использовать FileProfile() для обогащения сведений о файлах в результатах запроса на расширенные запросы на охоту
+keywords: передовая охота, охота на угрозы, поиск киберугроз, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, ссылка схемы, kusto, FileProfile, профиль файла, функция, обогащение
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 68196f126ac470088d7ba5e2923accc492d8764c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f2e92967b8951cd0f5a3c394a537404db1d53819
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929554"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50424027"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -35,25 +35,25 @@ ms.locfileid: "49929554"
 **Область применения:**
 - Microsoft 365 Defender
 
-Функция является функцией обогащения в расширенных охотах, которая добавляет следующие данные в файлы, `FileProfile()` найденные в [](advanced-hunting-overview.md) запросе.
+Функция является функцией обогащения в продвинутой охоте, которая добавляет следующие данные в `FileProfile()` файлы, найденные в [](advanced-hunting-overview.md) запросе.
 
 | Столбец | Тип данных | Описание |
 |------------|-------------|-------------|
 | SHA1 | string | SHA-1 файла, к которому было применено записанное действие |
 | SHA256 | string | SHA-256 файла, к который было применено записанное действие |
 | MD5 | string | Hash MD5 файла, к который было применено записано действие |
-| FileSize | int | Размер файла в ветвях |
-| GlobalPrevalence | int | Количество экземпляров сущности, наблюдаемой корпорацией Майкрософт на глобальном уровне |
-| GlobalFirstSeen | datetime | Дата и время первого глобального наблюдения сущности корпорацией Майкрософт |
-| GlobalLastSeen | datetime | Дата и время последнего наблюдения сущности корпорацией Майкрософт на глобальном уровне |
-| Подписыватель | string | Сведения о подписании файла |
-| Издатель | string | Сведения о выдаче ЦС |
-| SignerHash | string | Уникальное значение hash, определяющие подписывающий |
-| IsCertificateValid | boolean | Является ли сертификат, используемый для подписи файла, допустимым |
-| IsRootSignerMicrosoft | boolean | Указывает, является ли подписыватель корневого сертификата корпорацией Майкрософт |
-| IsExecutable | boolean | Является ли файл переносимым исполняемым файлом (PE) |
-| ThreatName | string | Имя обнаружения вредоносных программ или других найденных угроз |
-| Publisher | string | Название организации, которая опубликовала файл |
+| FileSize | int | Размер файла в bytes |
+| GlobalPrevalence | int | Количество экземпляров объекта, наблюдаемого Корпорацией Майкрософт во всем мире |
+| GlobalFirstSeen | datetime | Дата и время, когда сущность впервые была замечена Корпорацией Майкрософт во всем мире |
+| GlobalLastSeen | datetime | Дата и время, когда объект в последний раз наблюдался Корпорацией Майкрософт во всем мире |
+| Signer | string | Сведения о подписывщике файла |
+| Издатель | string | Сведения о полномочиях по выдаче сертификатов (CA) |
+| SignerHash | string | Уникальное значение hash, определяющие подписавщика |
+| IsCertificateValid | boolean | Допустим ли сертификат, используемый для подписи файла |
+| IsRootSignerMicrosoft | boolean | Указывает, является ли подписатель корневого сертификата Корпорацией Майкрософт |
+| IsExecutable | boolean | Является ли файл портативным исполняемым (PE) файлом |
+| ThreatName | string | Имя обнаружения любых найденных вредоносных программ или других угроз |
+| Publisher | string | Имя организации, которая опубликовала файл |
 | SoftwareName | string | Название программного продукта |
 
 ## <a name="syntax"></a>Синтаксис
@@ -64,12 +64,16 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>Аргументы
 
-- **x**— столбец ИД файла для использования: , , , , или ; функция `SHA1` `SHA256` `InitiatingProcessSHA1` `InitiatingProcessSHA256` `SHA1` использует, если не засекречены
-- **y**— ограничение на количество записей для обогащения, 1–1000; функция использует 100, если не закален
+- **x**— столбец ID файла для использования: , , , или ; использование `SHA1` `SHA256` функции, если `InitiatingProcessSHA1` `InitiatingProcessSHA256` `SHA1` неустановлено
+- **y**— ограничение количества записей для обогащения, 1-1000; функция использует 100, если неустановлено
+
+
+>[!TIP]
+> Функции обогащения будут показывать дополнительные сведения только в том случае, если они доступны. Доступность информации разнообразна и зависит от многих факторов. Убедитесь, что это следует учитывать при использовании FileProfile() в запросах или при создании настраиваемой диагностики. Для наилучших результатов рекомендуется использовать функцию FileProfile() с SHA1.
 
 ## <a name="examples"></a>Примеры
 
-### <a name="project-only-the-sha1-column-and-enrich-it"></a>Проецируемый только столбец SHA1 и его обогащение
+### <a name="project-only-the-sha1-column-and-enrich-it"></a>Проект только столбца SHA1 и его обогащение
 
 ```kusto
 DeviceFileEvents
@@ -79,7 +83,7 @@ DeviceFileEvents
 | invoke FileProfile()
 ```
 
-### <a name="enrich-the-first-500-records-and-list-low-prevalence-files"></a>Обогащение первых 500 записей и списков файлов с низким уровнем преобладаний
+### <a name="enrich-the-first-500-records-and-list-low-prevalence-files"></a>Обогащение первых 500 записей и списков файлов с низкой распространенностью
 
 ```kusto
 DeviceFileEvents
@@ -93,4 +97,4 @@ DeviceFileEvents
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Получить дополнительные примеры запросов](advanced-hunting-shared-queries.md)
+- [Дополнительные примеры запросов](advanced-hunting-shared-queries.md)
