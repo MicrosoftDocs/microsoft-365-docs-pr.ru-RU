@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 31c0ae4cdbeabb10fd44aaffaa24a8597e644941
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 47bbc722ad87d5bde4b1e0dfb732e08dad3938f2
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407163"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423640"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
