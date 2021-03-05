@@ -1,7 +1,7 @@
 ---
 title: Таблица EmailAttachmentInfo в схеме расширенного поиска
 description: Сведения о вложениях электронной почты в таблице EmailAttachmentInfo схемы расширенного поиска
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailAttachmentInfo, network message id, sender, recipient, attachment id, attachment name, malware verdict
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailAttachmentInfo, network message id, sender, recipient, attachment id, attachment name, malware verdict
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ mms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b810d7b15ef47a33a0675086219d2193cea00f2e
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: dd1af6e9ece8a3728db74eadc163ce277e6e84eb
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145023"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461632"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -37,28 +37,26 @@ ms.locfileid: "50145023"
 
 
 
-Таблица в схеме advanced hunting содержит сведения о вложениях в сообщениях электронной почты, обрабатываемых `EmailAttachmentInfo` Microsoft Defender для Office 365. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в схеме расширенных схем охоты содержит сведения о вложениях в электронные письма, обработанные `EmailAttachmentInfo` Microsoft Defender для Office 365. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
-| `NetworkMessageId` | string | Уникальный идентификатор электронной почты, созданный Microsoft 365 |
+| `NetworkMessageId` | string | Уникальный идентификатор для электронной почты, созданный Корпорацией Майкрософт 365 |
 | `SenderFromAddress` | string | Адрес электронной почты отправителя в заголовке "ОТ", который получатели электронной почты видят в своих почтовых клиентах |
-| `SenderDisplayName` | string | Имя отправитель, отображаемого в адресной книге, обычно сочетание имени или имени, отчего инициал и фамилия или фамилия |
+| `SenderDisplayName` | string | Имя отправитель, отображаемого в адресной книге, как правило, сочетание заданного или имени, среднего начального и фамилии |
 | `SenderObjectId` | string | Уникальный идентификатор учетной записи отправитель в Azure AD |
 | `RecipientEmailAddress` | string | Адрес электронной почты получателя или адрес электронной почты получателя после расширения списка рассылки |
 | `RecipientObjectId` | string | Уникальный идентификатор получателя электронной почты в Azure AD |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
 | `FileType` | string | Тип расширения файла |
 | `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
-| `MalwareFilterVerdict` | string | Решение модуля фильтрации электронной почты о том, содержит ли это сообщение вредоносную программу: "Вредоносное" или "Не вредоносное" |
-| `MalwareDetectionMethod` | string | Метод, используемый для обнаружения вредоносных программ в электронной почте: антивредоносный механизм, репутация файла, безопасные вложения |
-| `ThreatTypes` | string | Решение из стека фильтрации электронной почты о том, содержит ли электронная почта вредоносные программы, фишинг или другие угрозы |
-| `ThreatNames` | string | Имя обнаружения вредоносных программ или других найденных угроз |
-| `DetectionMethods` | string | Методы обнаружения вредоносных программ, фишинга и других угроз, обнаруженных в сообщении электронной почты |
-| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец необходимо использовать в сочетании со столбцами DeviceName и Timestamp. |
+| `ThreatTypes` | string | Вердикт из стека фильтрации электронной почты о том, содержит ли электронная почта вредоносные программы, фишинг или другие угрозы |
+| `ThreatNames` | string | Обнаружено имя обнаружения вредоносных программ или других найденных угроз |
+| `DetectionMethods` | string | Методы обнаружения вредоносных программ, фишинга или других угроз, обнаруженных в электронной почте |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

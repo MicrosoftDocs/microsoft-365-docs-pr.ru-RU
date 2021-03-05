@@ -36,10 +36,6 @@
           href: communication-compliance-feature-reference.md
         - name: Пример — быстрая настройка политики ненормативной лексики в Contoso
           href: communication-compliance-case-study.md
-        - name: "Политики контроля в Office\_365"
-          href: supervision-policies.md
-        - name: "Настройка политик контроля в Office\_365"
-          href: configure-supervision-policies.md
     - name: Управление внутренними рисками
       items:
         - name: Обзор

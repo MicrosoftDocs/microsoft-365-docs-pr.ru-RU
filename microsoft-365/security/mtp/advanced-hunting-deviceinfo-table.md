@@ -1,7 +1,7 @@
 ---
-title: Таблица DeviceInfo в схеме advanced hunting
-description: Сведения об ОС, имени компьютера и других сведениях о компьютере в таблице DeviceInfo схемы расширенных поисков
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, machineinfo, DeviceInfo, device, machine, OS, platform, users
+title: Таблица DeviceInfo в продвинутой схеме охоты
+description: Сведения об ОС, имени компьютера и других сведениях о машине в таблице DeviceInfo в продвинутой схеме охоты
+keywords: продвинутая охота, охота на угрозы, охота на киберугрозы, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, ссылка на схему, kusto, таблица, столбец, тип данных, описание, machineinfo, DeviceInfo, устройство, машина, ОС, платформа, пользователи
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 6462096a6c1b44ee11299f652a54f261d0355523
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 53948f3d470fb85ddfda8dbcf5b64024755ca50e
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145371"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461633"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -37,7 +37,7 @@ ms.locfileid: "50145371"
 
 
 
-Таблица в схеме advanced hunting содержит сведения о компьютерах в организации, включая версию `DeviceInfo` ОС, активных пользователей и имя компьютера. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в продвинутой схеме охоты содержит сведения о устройствах в организации, включая версию ОС, активных пользователей `DeviceInfo` и имя компьютера. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -47,18 +47,29 @@ ms.locfileid: "50145371"
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `ClientVersion` | string | Версия агента конечной точки или датчика, запущенного на компьютере |
-| `PublicIP` | string | Общедоступный IP-адрес, используемый подключенным компьютером для подключения к службе Microsoft Defender для конечных точек. Это может быть IP-адрес самого компьютера, устройство NAT или прокси-сервер. |
+| `PublicIP` | string | Общедоступный IP-адрес, используемый бортовой машиной для подключения к службе Microsoft Defender для конечных точек. Это может быть IP-адрес самой машины, устройство NAT или прокси-сервер |
 | `OSArchitecture` | string | Архитектура операционной системы, используемой на компьютере |
-| `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Это указывает на определенные операционные системы, включая варианты одного семейства, такие как Windows 10 и Windows 7 |
-| `OSBuild` | string | Версия сборки операционной системы, запущенной на компьютере |
-| `IsAzureADJoined` | boolean | Boolean indicator of whether machine is joined to the Azure Active Directory |
-| `DeviceObjectId` | string | Уникальный идентификатор устройства в Azure AD |
-| `LoggedOnUsers` | string | Список всех пользователей, которые вошли в систему на компьютере во время события в формате массива JSON |
-| `RegistryDeviceTag` | string | Тег компьютера, добавленный через реестр |
-| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец необходимо использовать вместе со столбцами DeviceName и Timestamp. |
+| `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Это указывает на определенные операционные системы, в том числе варианты в одной семье, например Windows 10 и Windows 7. |
+| `OSBuild` | string | Сборка версии операционной системы, запущенной на компьютере |
+| `IsAzureADJoined` | boolean | Индикатор Boolean о том, присоединяется ли машина к Azure Active Directory |
+| `AadObjectId` | string | Уникальный идентификатор устройства в Azure AD |
+| `LoggedOnUsers` | string | Список всех пользователей, зарегистрированных на компьютере во время события в формате массива JSON |
+| `RegistryDeviceTag` | string | Тег машины, добавленный в реестр |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
 |`AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
-| `MachineGroup` | string | Группа компьютера. Эта группа используется управлением доступом на основе ролей для определения доступа к компьютеру |
+| `MachineGroup` | string | Машинная группа машины. Эта группа используется управлением доступом на основе ролей для определения доступа к машине |
+
+В таблице содержится информация об устройстве на основе пульса, которые являются периодическими отчетами или `DeviceInfo` сигналами с устройства. Каждые 15 минут устройство отправляет частичное сердцебиение, которое содержит часто меняющиеся атрибуты, такие как `LoggedOnUsers` . Один раз в день отправляется полное сердцебиение, содержащее атрибуты устройства.
+
+Чтобы получить последнее состояние устройства, можно использовать следующий пример запроса:
+
+```kusto
+// Get latest information on user/device
+DeviceInfo
+| where DeviceName == "example" and isnotempty(OSPlatform)
+| summarize arg_max(Timestamp, *) by DeviceId 
+```
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

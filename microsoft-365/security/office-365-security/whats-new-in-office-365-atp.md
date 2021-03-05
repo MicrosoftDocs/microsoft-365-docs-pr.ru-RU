@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2fd999c27598db6f17073cfe82e4c4f91ffb1667
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7b6175f507f54adf357e40ea44c39f5e495a1b14
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407208"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454493"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Новые возможности в Microsoft Defender для Office 365
 
@@ -46,6 +46,7 @@ ms.locfileid: "50407208"
 - Интеграция оповещений (поиск с помощью alert ID и Alert-Explorer навигации) в [опытом охоты](threat-explorer.md)
 - Увеличение ограничений на экспорт записей с 9990 до 200 000 в [охотничьих опытах](threat-explorer.md)
 - Расширение ограничения хранения и поиска данных Explorer (и обнаружения в режиме реального времени) для пробных клиентов с 7 (предыдущего ограничения) до 30 дней в ходе [охоты](threat-explorer.md)
+- Новые поворотные точки охоты,  называемые импотенциозным доменом и обезличенным пользователем в explorer (и обнаружения в режиме реального времени) для поиска атак на защищенных пользователей или доменов.  Дополнительные сведения см. в [дополнительных сведениях.](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains) (Microsoft Defender для Office 365 Plan 1 или Plan 2)
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 
