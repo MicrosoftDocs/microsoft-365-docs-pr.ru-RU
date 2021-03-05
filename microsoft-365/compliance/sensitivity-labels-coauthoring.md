@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Включение параметра, разрешающего совместное редактирование и автосохранение в классических приложениях для помеченных и зашифрованных документов в SharePoint и OneDrive.
-ms.openlocfilehash: a5c3e84e4ca8874f99a07294dccfd2e4ad7ed81f
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 3946fa5a08011cc98e8dfad921a08ca0fa77af7a
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417414"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423866"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Включение совместного редактирования для файлов, зашифрованных с помощью меток конфиденциальности
 
@@ -89,7 +89,7 @@ ms.locfileid: "50417414"
         - Android: пока не поддерживается
     
     - **Клиент и сканер унифицированных меток Azure Information Protection:** 
-        - Общедоступная предварительная версия (минимальная версия 2.10.45.0), которую можно установить из [Центра загрузки Майкрософт](https://aka.ms/aip-coauth-pp), и одна из версий Microsoft Office 365 профессиональный плюс для Windows, перечисленных в предыдущем элементе.
+        - Общедоступная предварительная версия (имя установки AzInfoProtection_2.10.46_CoAuthoring_PublicPreview.exe), которую можно установить из [Центра загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=53018), и одна из версий Microsoft Office 365 профессиональный плюс для Windows, перечисленных в предыдущем элементе.
     
     - **Приложение синхронизации Microsoft OneDrive для Windows или macOS:**
         - Минимальная версия — 19.002.0121.0008
@@ -122,6 +122,8 @@ ms.locfileid: "50417414"
     - Выбрано: **Шифрование с двойным ключом**.
     
     Метки с любой из этих конфигураций шифрования отображаются в приложениях Office. Однако, когда пользователи выбирают эти метки и другие пользователи не редактируют документ, они получают предупреждение о том, что совместное редактирование и автосохранение будут недоступны. Если другой пользователь редактирует документ, пользователи увидят сообщение о том, что метки не могут быть применены.
+
+- Если вы используете клиент унифицированного применения меток Azure Information Protection: ознакомьтесь с документацией для этого клиента применения меток, включающей [дополнительные требования или ограничения](https://docs.microsoft.com/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview).
 
 ## <a name="known-issues-for-this-preview"></a>Известные проблемы в этой предварительной версии
 
