@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: С помощью управления записями в Microsoft 365 вы можете применять графики хранения к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией.
-ms.openlocfilehash: 1f6ab392abbf55851e1f084507d3f1658c3cf264
-ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
+ms.openlocfilehash: 857f8118bb2cc0f94065a8b8696c92bd3ae05cc4
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905238"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461854"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Сведения об управлении записями в Microsoft 365
 
@@ -98,7 +98,7 @@ ms.locfileid: "49905238"
 
 ![Сообщение о том, что элемент не был удален из SharePoint](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
-<sup>2</sup> Контейнеры включают библиотеки документов SharePoint и почтовые ящики Exhange.
+<sup>2</sup> Контейнеры включают библиотеки документов SharePoint, учетные записи OneDrive и почтовые ящики Exchange.
 
 >[!IMPORTANT] 
 > Самое важное отличие нормативной записи заключается в том, что после ее применения к содержимому никто, даже глобальный администратор, не может удалить метку. 
