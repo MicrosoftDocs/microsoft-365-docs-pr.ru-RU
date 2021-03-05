@@ -1,6 +1,6 @@
 ---
-title: 'Редактирование существующего раздела в Microsoft Viva Topics '
-description: Изменение существующей темы в Microsoft Viva Topics.
+title: 'Изменение существующей темы в Microsoft Viva Topics '
+description: Редактирование существующей темы в Microsoft Viva Topics.
 author: efrene
 ms.author: efrene
 manager: pamgreen
@@ -11,17 +11,17 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection:
 - enabler-strategic
-- m365initiative-topics
+- m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 9dfad7e179699c599d9320390aaefd2dac176fbb
-ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
+ms.openlocfilehash: ac8e4b8cdcdfd4d2de0c48a22500338c7a8480a8
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50279414"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454175"
 ---
-# <a name="edit-an-existing-topic"></a><span data-ttu-id="1f2ff-103">Изменение существующего раздела</span><span class="sxs-lookup"><span data-stu-id="1f2ff-103">Edit an existing topic</span></span> 
+# <a name="edit-an-existing-topic"></a><span data-ttu-id="44c84-103">Изменение существующей темы</span><span class="sxs-lookup"><span data-stu-id="44c84-103">Edit an existing topic</span></span> 
 
 </br>
 
@@ -29,107 +29,107 @@ ms.locfileid: "50279414"
 
 </br>
 
-<span data-ttu-id="1f2ff-104">В темах Viva можно редактировать существующий раздел.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-104">In Viva Topics, you can edit an existing topic.</span></span> <span data-ttu-id="1f2ff-105">Это может потребоваться, если требуется исправить или добавить дополнительные сведения на существующую страницу темы.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-105">You may need to do this if you want to correct or add additional information to an existing topic page.</span></span> 
+<span data-ttu-id="44c84-104">В Viva Topics можно изменить существующую тему.</span><span class="sxs-lookup"><span data-stu-id="44c84-104">In Viva Topics, you can edit an existing topic.</span></span> <span data-ttu-id="44c84-105">Это может потребоваться для исправления или добавления дополнительных сведений на существующую страницу темы.</span><span class="sxs-lookup"><span data-stu-id="44c84-105">You may need to do this if you want to correct or add additional information to an existing topic page.</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="1f2ff-106">Хотя сведения в теме, собираемой ИИ, урезаны по [безопасности,](topic-experiences-security-trimming.md)обратите внимание, что описание темы и сведения о пользователях, которые вы добавляете вручную при редактировании существующего раздела, видны всем пользователям, имеющим разрешения на просмотр тем.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-106">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.</span></span> 
+> <span data-ttu-id="44c84-106">Хотя сведения в теме, собираемой [](topic-experiences-security-trimming.md)ИИ, обрезаются, обратите внимание, что описание темы и сведения о пользователях, которые вы добавляете вручную при редактировании существующей темы, видны всем пользователям, у которых есть разрешения на просмотр тем.</span><span class="sxs-lookup"><span data-stu-id="44c84-106">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.</span></span> 
 
-## <a name="requirements"></a><span data-ttu-id="1f2ff-107">Требования</span><span class="sxs-lookup"><span data-stu-id="1f2ff-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="44c84-107">Требования</span><span class="sxs-lookup"><span data-stu-id="44c84-107">Requirements</span></span>
 
-<span data-ttu-id="1f2ff-108">Чтобы изменить существующий раздел, необходимо:</span><span class="sxs-lookup"><span data-stu-id="1f2ff-108">To edit an existing topic, you need to:</span></span>
-- <span data-ttu-id="1f2ff-109">Лицензия На Viva Topics.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-109">Have a Viva Topics license.</span></span>
-- <span data-ttu-id="1f2ff-110">Разрешения на создание и редактирование тем для [**who.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)</span><span class="sxs-lookup"><span data-stu-id="1f2ff-110">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="1f2ff-111">Администраторы знаний могут предоставить пользователям это разрешение в параметрах разрешений раздела Viva Topics.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-111">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
+<span data-ttu-id="44c84-108">Чтобы изменить существующую тему, необходимо:</span><span class="sxs-lookup"><span data-stu-id="44c84-108">To edit an existing topic, you need to:</span></span>
+- <span data-ttu-id="44c84-109">Лицензия Viva Topics.</span><span class="sxs-lookup"><span data-stu-id="44c84-109">Have a Viva Topics license.</span></span>
+- <span data-ttu-id="44c84-110">Есть разрешения для [**тех, кто может создавать или изменять темы.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)</span><span class="sxs-lookup"><span data-stu-id="44c84-110">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="44c84-111">Администраторы знаний могут предоставить пользователям это разрешение в настройках разрешений темы Viva Topics.</span><span class="sxs-lookup"><span data-stu-id="44c84-111">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="1f2ff-112">Пользователи, у которых есть разрешения на управление темами в Центре тем (менеджеры по знаниям), уже имеют разрешения на создание и редактирование тем.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-112">Users who have permission to manage topics in the Topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
+> <span data-ttu-id="44c84-112">Пользователи, у которых есть разрешение на управление темами в Центре тем (менеджеры знаний), уже имеют разрешения на создание и редактирование тем.</span><span class="sxs-lookup"><span data-stu-id="44c84-112">Users who have permission to manage topics in the Topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
 
-## <a name="how-to-edit-a-topic-page"></a><span data-ttu-id="1f2ff-113">Изменение страницы темы</span><span class="sxs-lookup"><span data-stu-id="1f2ff-113">How to edit a topic page</span></span>
+## <a name="how-to-edit-a-topic-page"></a><span data-ttu-id="44c84-113">Редактирование страницы темы</span><span class="sxs-lookup"><span data-stu-id="44c84-113">How to edit a topic page</span></span>
 
-<span data-ttu-id="1f2ff-114">Пользователи с  разрешением "Кто может создавать или редактировать разделы" могут редактировать <b></b> раздел, открыв страницу темы в выделенном разделе, а затем нажать кнопку "Изменить" в правом верхнем правом разделе.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-114">Users who have the **Who can create or edit topics** permission can edit a topic by opening the topic page from a topic highlight, and then selecting the <b>Edit</b> button on the top right of the topic page.</span></span> <span data-ttu-id="1f2ff-115">Страницу темы также можно открыть на домашней странице центра тем, на которой можно найти все разделы, к которых у вас есть подключение.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-115">The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.</span></span>
+<span data-ttu-id="44c84-114">Пользователи, у которых есть разрешение who **can create or edit topics,** могут изменить тему, открыв страницу темы из выделенной темы, а затем выбрав кнопку <b>Изменить</b> в правом верхнем справа от страницы темы.</span><span class="sxs-lookup"><span data-stu-id="44c84-114">Users who have the **Who can create or edit topics** permission can edit a topic by opening the topic page from a topic highlight, and then selecting the <b>Edit</b> button on the top right of the topic page.</span></span> <span data-ttu-id="44c84-115">Страница темы также может быть открыта на домашней странице центра тем, на которой можно найти все темы, к которые вы подключены.</span><span class="sxs-lookup"><span data-stu-id="44c84-115">The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.</span></span>
 
-   ![Кнопка редактирования](../media/knowledge-management/edit-button.png) </br> 
+   ![Кнопка Редактирование](../media/knowledge-management/edit-button.png) </br> 
 
-<span data-ttu-id="1f2ff-117">Менеджеры по знаниям также могут редактировать разделы непосредственно на странице <b></b> "Управление темами", выбирая тему, а затем выбирая "Изменить" на панели инструментов.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-117">Knowledge managers can also edit topics directly from the Manage Topics page by selecting the topic, and then selecting <b>Edit</b> in the toolbar.</span></span>
+<span data-ttu-id="44c84-117">Менеджеры знаний также могут редактировать разделы непосредственно со страницы Управление темами, выбрав тему, а затем выбрав <b>изменить</b> в панели инструментов.</span><span class="sxs-lookup"><span data-stu-id="44c84-117">Knowledge managers can also edit topics directly from the Manage Topics page by selecting the topic, and then selecting <b>Edit</b> in the toolbar.</span></span>
 
-   ![Редактирование темы в разделе "Управление разделами"](../media/knowledge-management/manage-topics-edit.png) </br> 
+   ![Изменение темы в разделе Управление темами](../media/knowledge-management/manage-topics-edit.png) </br> 
 
-### <a name="to-edit-a-topic-page"></a><span data-ttu-id="1f2ff-119">Изменение страницы темы</span><span class="sxs-lookup"><span data-stu-id="1f2ff-119">To edit a topic page</span></span>
+### <a name="to-edit-a-topic-page"></a><span data-ttu-id="44c84-119">Изменение страницы темы</span><span class="sxs-lookup"><span data-stu-id="44c84-119">To edit a topic page</span></span>
 
-1. <span data-ttu-id="1f2ff-120">На странице темы выберите **"Изменить".**</span><span class="sxs-lookup"><span data-stu-id="1f2ff-120">On the topic page, select **Edit**.</span></span> <span data-ttu-id="1f2ff-121">Это позволяет вносить изменения по мере необходимости на странице темы.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-121">This allows you to make changes as you need to the topic page.</span></span>
+1. <span data-ttu-id="44c84-120">На странице темы выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="44c84-120">On the topic page, select **Edit**.</span></span> <span data-ttu-id="44c84-121">Это позволяет вносить изменения по мере необходимости на страницу темы.</span><span class="sxs-lookup"><span data-stu-id="44c84-121">This lets you make changes as needed to the topic page.</span></span>
 
-   ![Управление редактированием](../media/knowledge-management/topic-page-edit.png) </br>  
+   ![Изменение управления](../media/knowledge-management/topic-page-edit.png) </br>  
 
 
-2. <span data-ttu-id="1f2ff-123">В разделе <b>"Альтернативные</b> имена" введите любые другие имена, на которые можно ссылается тема.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-123">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
+2. <span data-ttu-id="44c84-123">В разделе <b>Альтернативные имена</b> введите любые другие имена, на которые может быть передана тема.</span><span class="sxs-lookup"><span data-stu-id="44c84-123">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
 
     ![Альтернативные имена](../media/knowledge-management/alt-names.png) </br> 
-3. <span data-ttu-id="1f2ff-125">В разделе <b>"Описание"</b> введите несколько предложений с описанием темы.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-125">In the <b>Description</b> section, type a couple of sentences that describes the topic.</span></span> <span data-ttu-id="1f2ff-126">Если описание уже существует, при необходимости обновим его.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-126">Or if a description already exists, update it if needed.</span></span>
+3. <span data-ttu-id="44c84-125">В разделе <b>Описание</b> введите несколько предложений, описывая тему.</span><span class="sxs-lookup"><span data-stu-id="44c84-125">In the <b>Description</b> section, type a couple of sentences that describes the topic.</span></span> <span data-ttu-id="44c84-126">Или если описание уже существует, при необходимости обнови его.</span><span class="sxs-lookup"><span data-stu-id="44c84-126">Or if a description already exists, update it if needed.</span></span>
 
-    ![Раздел "Описание"](../media/knowledge-management/description.png)</br>
+    ![Раздел Описание](../media/knowledge-management/description.png)</br>
 
-4. <span data-ttu-id="1f2ff-128">В разделе <b>"Закрепленные</b> люди" можно "закрепить" человека, чтобы показать его в качестве эксперта по теме.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-128">In the <b>Pinned people</b> section, you can "pin" a person to show them as a subject matter expert on the topic.</span></span> <span data-ttu-id="1f2ff-129">Начните с ввода имени или <b></b> адреса электронной почты в поле "Добавление нового пользователя" и выберите пользователя, которого вы хотите добавить в результатах поиска.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-129">Begin by typing their name or email address in the <b>Add a new user</b> box, and then selecting the user you want to add from the search results.</span></span> <span data-ttu-id="1f2ff-130">Вы также можете "открепить" <b></b> их, выбрав значок "Удалить из списка" на карточке пользователя.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-130">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span>
+4. <span data-ttu-id="44c84-128">В разделе <b>Pinned people</b> можно "приколоть" человека, чтобы показать его в качестве эксперта по теме.</span><span class="sxs-lookup"><span data-stu-id="44c84-128">In the <b>Pinned people</b> section, you can "pin" a person to show them as a subject matter expert on the topic.</span></span> <span data-ttu-id="44c84-129">Начните с ввода имени или адреса электронной почты в поле <b>Добавление</b> нового пользовательского окна, а затем выберите пользователя, которого вы хотите добавить из результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="44c84-129">Begin by typing their name or email address in the <b>Add a new user</b> box, and then selecting the user you want to add from the search results.</span></span> <span data-ttu-id="44c84-130">Их можно также "открепить", выбрав значок <b>Remove from list</b> на карточке пользователя.</span><span class="sxs-lookup"><span data-stu-id="44c84-130">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span>
  
     ![Добавление закрепленных людей](../media/knowledge-management/pinned-people.png)</br>
 
-    <span data-ttu-id="1f2ff-132">В <b>разделе "Рекомендуемые</b> люди" показано, что пользователи, которые считают, что ИИ могут быть экспертами по теме из их подключения к ресурсам по этой теме.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-132">The <b>Suggested people</b> section shows users that AI thinks might be subject matter experts on the topic from their connection to resources about the topic.</span></span> <span data-ttu-id="1f2ff-133">Вы можете изменить их состояние с "Предложено" на "Закреплено", выбрав значок закрепления на карточке пользователя.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-133">You can change their status from Suggested to Pinned by selecting the pin icon on the user card.</span></span>
+    <span data-ttu-id="44c84-132">В <b>разделе Предлагаемые люди</b> показаны пользователи, которые считают, что ИИ может быть предметом экспертов по этой теме от их подключения к ресурсам по этой теме.</span><span class="sxs-lookup"><span data-stu-id="44c84-132">The <b>Suggested people</b> section shows users that AI thinks might be subject matter experts on the topic from their connection to resources about the topic.</span></span> <span data-ttu-id="44c84-133">Их состояние можно изменить с "Предложено" на Pinned, выбрав значок пин-кода на карточке пользователя.</span><span class="sxs-lookup"><span data-stu-id="44c84-133">You can change their status from Suggested to Pinned by selecting the pin icon on the user card.</span></span>
 
-   ![Закрепление предложенных людей](../media/knowledge-management/suggested-people.png)</br>
+   ![Pin a suggested people](../media/knowledge-management/suggested-people.png)</br>
 
-5. <span data-ttu-id="1f2ff-135">В разделе <b>"Закрепленные</b> файлы и страницы" можно добавить или закрепить файл или страницу сайта SharePoint, связанную с темой.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-135">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
+5. <span data-ttu-id="44c84-135">В разделе <b>Pinned files and pages</b> можно добавить или "закрепить" файл или страницу сайта SharePoint, связанную с этой темой.</span><span class="sxs-lookup"><span data-stu-id="44c84-135">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
 
-   ![Раздел закрепленных файлов и страниц](../media/knowledge-management/pinned-files-and-pages.png)</br>
+   ![Раздел Закрепленные файлы и страницы](../media/knowledge-management/pinned-files-and-pages.png)</br>
  
-    <span data-ttu-id="1f2ff-137">Чтобы добавить новый файл, выберите <b>"Добавить",</b>выберите сайт SharePoint на часто используемых или посещаемых сайтах, а затем выберите файл в библиотеке документов сайта.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-137">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
+    <span data-ttu-id="44c84-137">Чтобы добавить новый файл, выберите <b>Добавить,</b>выберите сайт SharePoint на своих сайтах Frequent или Followed, а затем выберите файл из библиотеки документов сайта.</span><span class="sxs-lookup"><span data-stu-id="44c84-137">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
 
-    <span data-ttu-id="1f2ff-138">Вы также можете использовать параметр <b>"Из</b> ссылки", чтобы добавить файл или страницу, предоставив URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-138">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
+    <span data-ttu-id="44c84-138">Вы также можете использовать параметр <b>"Из</b> ссылки", чтобы добавить файл или страницу, предоставив URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="44c84-138">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
 
    > [!Note] 
-   > <span data-ttu-id="1f2ff-139">Файлы и страницы, которые вы добавляете, должны располагаться в одном клиенте Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-139">Files and pages that you add must be located within the same Microsoft 365 tenant.</span></span> <span data-ttu-id="1f2ff-140">Если вы хотите добавить ссылку на внешний ресурс в этом разделе, вы можете добавить ее с помощью значка холста на шаге 9.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-140">If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 9.</span></span>
+   > <span data-ttu-id="44c84-139">Файлы и страницы, которые вы добавляете, должны располагаться в одном клиенте Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="44c84-139">Files and pages that you add must be located within the same Microsoft 365 tenant.</span></span> <span data-ttu-id="44c84-140">Если вы хотите добавить ссылку на внешний ресурс в этой теме, вы можете добавить ее через значок холста на шаге 9.</span><span class="sxs-lookup"><span data-stu-id="44c84-140">If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 9.</span></span>
 
-6. <span data-ttu-id="1f2ff-141">В <b>разделе "Рекомендуемые файлы и</b> страницы" показаны файлы и страницы, которые ИИ предлагает связывать с темой.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-141">The <b>Suggested files and pages</b> section shows files and pages that AI suggests to be associated to the topic.</span></span>
+6. <span data-ttu-id="44c84-141">В <b>разделе Рекомендуемые файлы</b> и страницы показаны файлы и страницы, которые ИИ предлагает связывать с этой темой.</span><span class="sxs-lookup"><span data-stu-id="44c84-141">The <b>Suggested files and pages</b> section shows files and pages that AI suggests to be associated to the topic.</span></span>
 
-   ![Раздел "Рекомендуемые файлы и страницы"](../media/knowledge-management/suggested-files-and-pages.png)</br>
+   ![Раздел Рекомендуемые файлы и страницы](../media/knowledge-management/suggested-files-and-pages.png)</br>
 
-    <span data-ttu-id="1f2ff-143">Вы можете изменить предложенный файл или страницу на закрепленный файл или страницу, выбрав значок закрепления.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-143">You can change a suggested file or page to a pinned file or page by selecting the pinned icon.</span></span>
+    <span data-ttu-id="44c84-143">Вы можете изменить предложенный файл или страницу на закрепленный файл или страницу, выбрав закрепленный значок.</span><span class="sxs-lookup"><span data-stu-id="44c84-143">You can change a suggested file or page to a pinned file or page by selecting the pinned icon.</span></span>
 
-7.  <span data-ttu-id="1f2ff-144">В <b>разделе "Связанные сайты"</b> показаны сайты с информацией об этой теме.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-144">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
+7.  <span data-ttu-id="44c84-144">В <b>разделе Связанные сайты</b> показаны сайты, на которые есть сведения по этой теме.</span><span class="sxs-lookup"><span data-stu-id="44c84-144">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
 
-    ![Раздел "Связанные сайты"](../media/knowledge-management/related-sites.png)</br>
+    ![Раздел Связанные сайты](../media/knowledge-management/related-sites.png)</br>
 
-    <span data-ttu-id="1f2ff-146">Вы можете добавить связанный <b></b> сайт, выбрав "Добавить", а затем либо выявив его, либо выбрав его в списке часто используемых или недавних сайтов.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-146">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
+    <span data-ttu-id="44c84-146">Вы можете добавить соответствующий сайт, выбрав <b>Добавить,</b> а затем либо поискать сайт, либо выбрать его из списка частых или недавних сайтов.</span><span class="sxs-lookup"><span data-stu-id="44c84-146">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
     
     ![Выбор сайта](../media/knowledge-management/sites.png)</br>
 
-8. <span data-ttu-id="1f2ff-148">В <b>разделе "Связанные</b> разделы" показаны связи между разделами.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-148">The <b>Related topics</b> section shows connections that exists between topics.</span></span> <span data-ttu-id="1f2ff-149">Вы можете добавить подключение к другому <b></b> разделу, настроив кнопку "Подключиться к связанному разделу", а затем введя имя связанного раздела и выбрав его в результатах поиска.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-149">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
+8. <span data-ttu-id="44c84-148">В <b>разделе Связанные темы</b> показаны подключения, которые существуют между темами.</span><span class="sxs-lookup"><span data-stu-id="44c84-148">The <b>Related topics</b> section shows connections that exists between topics.</span></span> <span data-ttu-id="44c84-149">Вы можете добавить подключение к другой теме, выбрав кнопку <b>Подключение</b> к связанной теме, а затем введя имя связанной темы и выбрав ее из результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="44c84-149">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
 
-   ![Раздел "Связанные разделы"](../media/knowledge-management/related-topic.png)</br>  
+   ![Раздел Связанные темы](../media/knowledge-management/related-topic.png)</br>  
 
-    <span data-ttu-id="1f2ff-151">Затем можно дать описание связи между темами и выбрать <b>"Обновить".</b></span><span class="sxs-lookup"><span data-stu-id="1f2ff-151">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
+    <span data-ttu-id="44c84-151">Затем можно дать описание того, как связаны темы, и выбрать <b>обновление.</b></span><span class="sxs-lookup"><span data-stu-id="44c84-151">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
 
-   ![Описание связанных разделов](../media/knowledge-management/related-topics-update.png)</br> 
+   ![Описание связанных тем](../media/knowledge-management/related-topics-update.png)</br> 
 
-   <span data-ttu-id="1f2ff-153">Добавленный раздел будет отображаться как связанный раздел.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-153">The related topic you added will display as a connected topic.</span></span>
+   <span data-ttu-id="44c84-153">Добавленная вами связанная тема будет отображаться в качестве связанной темы.</span><span class="sxs-lookup"><span data-stu-id="44c84-153">The related topic you added will display as a connected topic.</span></span>
 
-   ![Связанные разделы подключены](../media/knowledge-management/related-topics-final.png)</br> 
+   ![Связанные темы, связанные](../media/knowledge-management/related-topics-final.png)</br> 
 
-   <span data-ttu-id="1f2ff-155">Чтобы удалить связанный раздел, выберите раздел, который нужно удалить, а затем выберите значок "Удалить <b>тему".</b></span><span class="sxs-lookup"><span data-stu-id="1f2ff-155">To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</span></span></br>
+   <span data-ttu-id="44c84-155">Чтобы удалить связанную тему, выберите раздел, который необходимо удалить, а затем выберите значок <b>Удалить тему.</b></span><span class="sxs-lookup"><span data-stu-id="44c84-155">To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</span></span></br>
  
    ![Удаление связанной темы](../media/knowledge-management/remove-related.png)</br>  
 
-   <span data-ttu-id="1f2ff-157">Затем выберите <b>"Удалить".</b></span><span class="sxs-lookup"><span data-stu-id="1f2ff-157">Then select <b>Remove</b>.</span></span></br>
+   <span data-ttu-id="44c84-157">Затем выберите <b>Удалить</b>.</span><span class="sxs-lookup"><span data-stu-id="44c84-157">Then select <b>Remove</b>.</span></span></br>
 
    ![Подтверждение удаления](../media/knowledge-management/remove-related-confirm.png)</br> 
 
 
-9. <span data-ttu-id="1f2ff-159">Вы также можете добавить на страницу статические элементы (например, текст, изображения или ссылки), выбрав значок холста, который можно найти под кратким описанием.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-159">You can also add static items to the page — such as text, images, or links - by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="1f2ff-160">Если выбрать его, откроется инструментарий SharePoint, на котором можно выбрать элемент, который нужно добавить на страницу.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-160">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
+9. <span data-ttu-id="44c84-159">Вы также можете добавить на страницу статические элементы , такие как текст, изображения или ссылки, выбрав значок холста, который можно найти ниже краткого описания.</span><span class="sxs-lookup"><span data-stu-id="44c84-159">You can also add static items to the page — such as text, images, or links - by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="44c84-160">При его выборе откроется ящик инструментов SharePoint, из которого можно выбрать элемент, который необходимо добавить на страницу.</span><span class="sxs-lookup"><span data-stu-id="44c84-160">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
 
-   ![Значок холста](../media/knowledge-management/webpart-library.png)</br> 
-
-
-10. <span data-ttu-id="1f2ff-162">Выберите **"Опубликовать"** **или "Опубликовать повторно",** чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-162">Select **Publish** or **Republish** to save your changes.</span></span> <span data-ttu-id="1f2ff-163">**Если тема** была опубликована ранее, доступна возможность повторной публикации.</span><span class="sxs-lookup"><span data-stu-id="1f2ff-163">**Republish** will be your available option if the topic has been published previously.</span></span>
+   ![Значок Canvas](../media/knowledge-management/webpart-library.png)</br> 
 
 
-## <a name="see-also"></a><span data-ttu-id="1f2ff-164">См. также</span><span class="sxs-lookup"><span data-stu-id="1f2ff-164">See also</span></span>
+10. <span data-ttu-id="44c84-162">Чтобы **сохранить** **изменения,** выберите Публикацию или Переопубликовка.</span><span class="sxs-lookup"><span data-stu-id="44c84-162">Select **Publish** or **Republish** to save your changes.</span></span> <span data-ttu-id="44c84-163">**Переопубликовка** будет вашим доступным вариантом, если тема была опубликована ранее.</span><span class="sxs-lookup"><span data-stu-id="44c84-163">**Republish** will be your available option if the topic has been published previously.</span></span>
+
+
+## <a name="see-also"></a><span data-ttu-id="44c84-164">См. также</span><span class="sxs-lookup"><span data-stu-id="44c84-164">See also</span></span>
 
 
 
