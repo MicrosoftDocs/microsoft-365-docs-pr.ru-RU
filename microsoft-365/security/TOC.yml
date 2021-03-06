@@ -488,6 +488,8 @@
               href: ./office-365-security/attack-simulation-training-payloads.md
             - name: Получение аналитики с помощью обучения имитации атаки
               href: ./office-365-security/attack-simulation-training-insights.md
+            - name: Рекомендации по развертыванию обучения имитации атаки и часто задаваемые вопросы
+              href: ./office-365-security/attack-simulation-training-faq.md
             - name: Рекомендуемые параметры для настройки EOP и Безопасности Defender для Office 365
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: Рекомендации по настройке EOP
