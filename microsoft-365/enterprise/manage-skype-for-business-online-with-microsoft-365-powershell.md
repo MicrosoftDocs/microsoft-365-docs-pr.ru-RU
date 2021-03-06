@@ -14,67 +14,65 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Управляйте политиками, индивидуальными политиками и настройками собраний Skype для бизнеса Online, используя PowerShell для Microsoft 365.
-ms.openlocfilehash: ff35463dc0c2e16106432c393b10e31e6bf0a5d2
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 1992edfb6d1c141c7ed4db22064960873b768865
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477105"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514960"
 ---
-# <a name="manage-skype-for-business-online-with-powershell"></a><span data-ttu-id="2271f-103">Управление Skype для бизнеса Online с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="2271f-103">Manage Skype for Business Online with PowerShell</span></span>
+# <a name="manage-skype-for-business-online-with-powershell"></a><span data-ttu-id="f7a8b-103">Управление Skype для бизнеса Online с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="f7a8b-103">Manage Skype for Business Online with PowerShell</span></span>
 
-<span data-ttu-id="2271f-104">*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="2271f-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="f7a8b-104">*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="f7a8b-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="2271f-105">Одной из основных задач администратора Skype для бизнеса Online является управление политиками.</span><span class="sxs-lookup"><span data-stu-id="2271f-105">Skype for Business Online administrators are responsible for managing policies.</span></span> <span data-ttu-id="2271f-106">Хотя вы можете выполнить некоторые из указанных ниже задач в Центре администрирования Microsoft 365, другие задачи гораздо легче выполнить с помощью PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2271f-106">Although you can do some of these tasks in the Microsoft 365 admin center, others are easier to do in PowerShell.</span></span>
+<span data-ttu-id="f7a8b-105">Одной из основных задач администратора Skype для бизнеса Online является управление политиками.</span><span class="sxs-lookup"><span data-stu-id="f7a8b-105">Skype for Business Online administrators are responsible for managing policies.</span></span> <span data-ttu-id="f7a8b-106">Хотя вы можете выполнить некоторые из указанных ниже задач в Центре администрирования Microsoft 365, другие задачи гораздо легче выполнить с помощью PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f7a8b-106">Although you can do some of these tasks in the Microsoft 365 admin center, others are easier to do in PowerShell.</span></span>
 
-## <a name="before-you-start"></a><span data-ttu-id="2271f-107">Перед началом работы</span><span class="sxs-lookup"><span data-stu-id="2271f-107">Before you start</span></span>
+## <a name="before-you-start"></a><span data-ttu-id="f7a8b-107">Перед началом работы</span><span class="sxs-lookup"><span data-stu-id="f7a8b-107">Before you start</span></span>
 
   > [!Note]
-   > <span data-ttu-id="2271f-108">Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2271f-108">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span> <span data-ttu-id="2271f-109">Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="2271f-109">If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.</span></span>
+   > <span data-ttu-id="f7a8b-108">Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f7a8b-108">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span> <span data-ttu-id="f7a8b-109">Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="f7a8b-109">If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.</span></span>
    
-<span data-ttu-id="2271f-110">Установите модуль [Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).</span><span class="sxs-lookup"><span data-stu-id="2271f-110">Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).</span></span>
+<span data-ttu-id="f7a8b-110">Установите модуль [Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).</span><span class="sxs-lookup"><span data-stu-id="f7a8b-110">Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).</span></span>
 
 
-## <a name="connect-using-admin-credentials"></a><span data-ttu-id="2271f-111">Подключение с учетными данными администратора</span><span class="sxs-lookup"><span data-stu-id="2271f-111">Connect using admin credentials</span></span>
+## <a name="connect-using-admin-credentials"></a><span data-ttu-id="f7a8b-111">Подключение с учетными данными администратора</span><span class="sxs-lookup"><span data-stu-id="f7a8b-111">Connect using admin credentials</span></span>
 
-1. <span data-ttu-id="2271f-112">Откройте командную строку Windows PowerShell и выполните следующее:</span><span class="sxs-lookup"><span data-stu-id="2271f-112">Open a Windows PowerShell command prompt window and run the following commands:</span></span>
+1. <span data-ttu-id="f7a8b-112">Откройте командную строку Windows PowerShell и выполните следующее:</span><span class="sxs-lookup"><span data-stu-id="f7a8b-112">Open a Windows PowerShell command prompt window and run the following commands:</span></span>
     
    ```powershell
    Import-Module MicrosoftTeams
    $userCredential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $userCredential
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams -Credential $userCredential
    ```
 
-2. <span data-ttu-id="2271f-113">В диалоговом окне **Запрос учетных данных Windows PowerShell** введите имя и пароль учетной записи администратора, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="2271f-113">In the **Windows PowerShell Credential Request** dialog box, type your administrator account name and password, and then select **OK**.</span></span>
+2. <span data-ttu-id="f7a8b-113">В диалоговом окне **Запрос учетных данных Windows PowerShell** введите имя и пароль учетной записи администратора, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="f7a8b-113">In the **Windows PowerShell Credential Request** dialog box, type your administrator account name and password, and then select **OK**.</span></span>
 
 
-## <a name="connect-using-an-admin-account-with-multi-factor-authentication"></a><span data-ttu-id="2271f-114">Подключение с помощью учетной записи администратора Skype для бизнеса Online с многофакторной идентификацией</span><span class="sxs-lookup"><span data-stu-id="2271f-114">Connect using an admin account with multi-factor authentication</span></span>
+## <a name="connect-using-an-admin-account-with-multi-factor-authentication"></a><span data-ttu-id="f7a8b-114">Подключение с помощью учетной записи администратора Skype для бизнеса Online с многофакторной идентификацией</span><span class="sxs-lookup"><span data-stu-id="f7a8b-114">Connect using an admin account with multi-factor authentication</span></span>
 
-1. <span data-ttu-id="2271f-115">Откройте командную строку Windows PowerShell и выполните следующее:</span><span class="sxs-lookup"><span data-stu-id="2271f-115">Open a Windows PowerShell command prompt window, and run the following commands:</span></span>
+1. <span data-ttu-id="f7a8b-115">Откройте командную строку Windows PowerShell и выполните следующее:</span><span class="sxs-lookup"><span data-stu-id="f7a8b-115">Open a Windows PowerShell command prompt window, and run the following commands:</span></span>
 
    ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams
    ```
 
-2. <span data-ttu-id="2271f-116">По запросу команды **New-CsOnlineSession** введите имя учетной записи администратора Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="2271f-116">When prompted by the **New-CsOnlineSession** command, enter your Skype for Business Online administrator account name.</span></span>
+2. <span data-ttu-id="f7a8b-116">При соответствующем запросе введите имя учетной записи администратора Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="f7a8b-116">When prompted enter your Skype for Business Online administrator account name.</span></span>
 
-3. <span data-ttu-id="2271f-117">В диалоговом окне **Вход в учетную запись** введите пароль администратора Skype для бизнеса Online, а затем нажмите кнопку **Войти**.</span><span class="sxs-lookup"><span data-stu-id="2271f-117">In the **Sign in to your account** dialog box, type your Skype for Business Online administrator password and select **Sign in**.</span></span>
+3. <span data-ttu-id="f7a8b-117">В диалоговом окне **Вход в учетную запись** введите пароль администратора Skype для бизнеса Online, а затем нажмите кнопку **Войти**.</span><span class="sxs-lookup"><span data-stu-id="f7a8b-117">In the **Sign in to your account** dialog box, type your Skype for Business Online administrator password and select **Sign in**.</span></span>
 
-4. <span data-ttu-id="2271f-118">Следуя инструкциям в диалоговом окне **Вход в учетную запись**, предоставьте дополнительные сведения для идентификации, например код проверки, а затем нажмите кнопку **Проверить**.</span><span class="sxs-lookup"><span data-stu-id="2271f-118">In the **Sign in to your account** dialog box, follow the instructions to add authentication information, such as a verification code, and then select **Verify**.</span></span>
+4. <span data-ttu-id="f7a8b-118">Следуя инструкциям в диалоговом окне **Вход в учетную запись**, предоставьте дополнительные сведения для идентификации, например код проверки, а затем нажмите кнопку **Проверить**.</span><span class="sxs-lookup"><span data-stu-id="f7a8b-118">In the **Sign in to your account** dialog box, follow the instructions to add authentication information, such as a verification code, and then select **Verify**.</span></span>
 
-<span data-ttu-id="2271f-119">Дополнительную информацию см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="2271f-119">For more information, see:</span></span>
+<span data-ttu-id="f7a8b-119">Дополнительную информацию см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="f7a8b-119">For more information, see:</span></span>
   
-- [<span data-ttu-id="2271f-120">Управление политиками Skype для бизнеса Online с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="2271f-120">Manage Skype for Business Online policies with PowerShell</span></span>](manage-skype-for-business-online-policies-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="f7a8b-120">Управление политиками Skype для бизнеса Online с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="f7a8b-120">Manage Skype for Business Online policies with PowerShell</span></span>](manage-skype-for-business-online-policies-with-microsoft-365-powershell.md)
     
-- [<span data-ttu-id="2271f-121">Назначение индивидуальных политик для Skype для бизнеса Online с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="2271f-121">Assign per-user Skype for Business Online policies with PowerShell</span></span>](assign-per-user-skype-for-business-online-policies-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="f7a8b-121">Назначение индивидуальных политик для Skype для бизнеса Online с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="f7a8b-121">Assign per-user Skype for Business Online policies with PowerShell</span></span>](assign-per-user-skype-for-business-online-policies-with-microsoft-365-powershell.md)
     
-## <a name="see-also"></a><span data-ttu-id="2271f-122">См. также</span><span class="sxs-lookup"><span data-stu-id="2271f-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f7a8b-122">См. также</span><span class="sxs-lookup"><span data-stu-id="f7a8b-122">See also</span></span>
 
-[<span data-ttu-id="2271f-123">Управление Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="2271f-123">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="f7a8b-123">Управление Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="f7a8b-123">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="2271f-124">Начало работы с PowerShell для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2271f-124">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+[<span data-ttu-id="f7a8b-124">Начало работы с PowerShell для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="f7a8b-124">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
 
-[<span data-ttu-id="2271f-125">Справка по командлетам PowerShell в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="2271f-125">Skype for Business PowerShell cmdlet references</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[<span data-ttu-id="f7a8b-125">Справка по командлетам PowerShell в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="f7a8b-125">Skype for Business PowerShell cmdlet references</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
