@@ -16,12 +16,12 @@ ms.collection:
 description: Администраторы могут научиться настраивать разрешит и блокирует в списке разрешить или заблокировать клиента на портале безопасности.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 960fbf26b610485fb46c935b04aedcc593b85752
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 20e460f4e93f7b87faaead8b87ba561224e38938
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407254"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515212"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Управление списком разрешенных и запрещенных клиентов
 
@@ -46,11 +46,11 @@ ms.locfileid: "50407254"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Чтобы перейти непосредственно на **страницу Разрешить или заблокировать** список клиента, используйте <https://protection.office.com/tenantAllowBlockList> .
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на **страницу Разрешить или заблокировать** список клиента, используйте <https://protection.office.com/tenantAllowBlockList> .
 
 - Вы указываете файлы, используя значение hash SHA256 для файла. Чтобы найти значение hash SHA256 для файла в Windows, запустите следующую команду в командной подсказке:
 
-  ```dos
+  ```console
   certutil.exe -hashfile "<Path>\<Filename>" SHA256
   ```
 
@@ -60,22 +60,26 @@ ms.locfileid: "50407254"
 
 - Список разрешить или блокировать клиента позволяет не более 500 записей для URL-адресов и 500 записей для хеш-файлов.
 
-- Запись должна быть активна в течение 15 минут.
+- Максимальное количество символов для каждой записи:
+  - Хеши файла = 64
+  - URL-адрес = 250
+
+- Запись должна быть активна в течение 30 минут.
 
 - По умолчанию срок действия записей в списке разрешить или блокировать клиента истекает через 30 дней. Вы можете указать дату или установить, чтобы срок их действия никогда не истек.
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Вам необходимо получить разрешения в **Exchange Online,** прежде чем вы сможете сделать процедуры в этой статье:
+- Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
   - Чтобы добавить и удалить значения из списка "Разрешить или заблокировать клиента", необходимо быть членом группы ролей администратора организации или **администратора** безопасности. 
   - Чтобы получить доступ только для чтения к списку разрешить или заблокировать клиента, необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
 
   Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
 
-  **Примечания**.
-
-  - Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft  365 дает пользователям необходимые разрешения и разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
-  - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
+  > [!NOTE]
+  > 
+  > - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+  > - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Используйте Центр & безопасности для создания записей URL-адресов в списке разрешить или блокировать клиента
 
@@ -93,7 +97,7 @@ ms.locfileid: "50407254"
 
      - Проверьте отключение параметра (Отключение) и используйте истекает в поле, чтобы указать дату истечения ![ ](../../media/scc-toggle-off.png) срока действия записей. 
 
-     или
+       Кроме того:
 
      - Переместите окантовку вправо, чтобы настроить записи, чтобы никогда не истекал срок действия: ![Включенный переключатель](../../media/scc-toggle-on.png).
 
@@ -115,7 +119,7 @@ ms.locfileid: "50407254"
 
      - Проверьте отключение параметра (Отключение) и используйте истекает в поле, чтобы указать дату истечения ![ ](../../media/scc-toggle-off.png) срока действия записей. 
 
-     или
+     Кроме того:
 
      - Переместите окантовку вправо, чтобы настроить записи, чтобы никогда не истекал срок действия: ![Включенный переключатель](../../media/scc-toggle-on.png).
 
@@ -166,13 +170,13 @@ ms.locfileid: "50407254"
 
      - Убедитесь, что параметр отключен (отключается) и используйте истекает в поле, чтобы указать дату истечения ![ ](../../media/scc-toggle-off.png) срока действия записи. 
 
-     или
+       Кроме того:
 
      - Перемещение точки вправо, чтобы настроить запись, чтобы не истек срок действия: ![Включенный переключатель](../../media/scc-toggle-on.png).
 
    - **Необязательный примечание.** Введите описательный текст для записи.
 
-5. По завершении нажмите кнопку **Сохранить**.
+5. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 ## <a name="use-the-security--compliance-center-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Используйте Центр & безопасности для удаления блоковых записей из списка разрешить или заблокировать клиента
 
@@ -197,13 +201,13 @@ New-TenantAllowBlockListItems -ListType <Url | FileHash> -Block -Entries <String
 В этом примере добавляется запись URL-адреса contoso.com всех поддоменов (например, contoso.com, www.contoso.com и xyz.abc.contoso.com). Поскольку мы не использовали параметры ExpireDate или NoExpiration, срок действия записи истекает через 30 дней.
 
 ```powershell
-New-TenantAllowBlockListItem -ListType Url -Block -Entries ~contoso.com
+New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 ```
 
 В этом примере добавляется запись заблокированного файла для указанных файлов, срок действия которых никогда не истекает.
 
 ```powershell
-New-TenantAllowBlockListItem -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
+New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
 Подробные сведения о синтаксисе и параметрах см. в [обзоре New-TenantAllowBlockListItems.](https://docs.microsoft.com/powershell/module/exchange/new-tenantallowblocklistitems)

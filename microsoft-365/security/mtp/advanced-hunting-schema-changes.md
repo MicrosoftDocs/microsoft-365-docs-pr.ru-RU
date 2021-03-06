@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cd06286083297d0930270868b99a14f8ddb2f4b2
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 31a2f647351c05842f36198ad05b149086b53b1f
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461671"
+ms.locfileid: "50509306"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Advanced hunting schema - Naming changes
 
@@ -76,7 +76,7 @@ ms.locfileid: "50461671"
 
 ## <a name="february-2021"></a>Февраль 2021 г.
 
-1. В [таблицах EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) и [EmailEvents](advanced-hunting-emailevents-table.md) мы обесценили столбцы и заменили `MalwareFilterVerdict` их `PhishFilterVerdict` `ThreatTypes` столбцом. Кроме того, мы сместили `MalwareDetectionMethod` столбцы и `PhishDetectionMethod` столбцы и заменили их `DetectionMethods` столбцом. Эта оптимизация позволяет нам предоставлять дополнительные сведения в новых столбцах. Сопоставление приведено ниже.
+1. В [таблицах EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) и [EmailEvents](advanced-hunting-emailevents-table.md) столбцы и столбцы `MalwareFilterVerdict` `PhishFilterVerdict` заменены `ThreatTypes` столбцом. Столбцы `MalwareDetectionMethod` `PhishDetectionMethod` и столбцы также были заменены `DetectionMethods` столбцом. Эта оптимизация позволяет нам предоставлять дополнительные сведения в новых столбцах. Сопоставление приведено ниже.
 
 | Имя таблицы | Исходное имя столбца | Новое имя столбца | Причина изменений
 |--|--|--|--|
@@ -86,11 +86,11 @@ ms.locfileid: "50461671"
 | `EmailEvents` | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | Включаем дополнительные типы угроз |
 
 
-2. В `EmailAttachmentInfo` таблицах `EmailEvents` и таблицах мы добавили столбец, `ThreatNames` чтобы предоставить дополнительные сведения об угрозе электронной почты. В этом столбце содержатся такие значения, как спам или фишинг.
+2. В `EmailAttachmentInfo` таблицах `EmailEvents` и таблицах `ThreatNames` столбец был добавлен, чтобы предоставить дополнительные сведения об угрозе электронной почты. В этом столбце содержатся такие значения, как спам или фишинг.
 
-3. В таблице [DeviceInfo](advanced-hunting-deviceinfo-table.md) мы заменили столбец на `DeviceObjectId` основе `AadDeviceId` отзывов клиентов.
+3. В таблице [DeviceInfo](advanced-hunting-deviceinfo-table.md) столбец был заменен столбцом `DeviceObjectId` на основе `AadDeviceId` отзывов клиентов.
 
-4. В таблице [DeviceEvents](advanced-hunting-deviceevents-table.md) мы обновили несколько имен ActionType, чтобы лучше отражать описание действия. Подробные сведения можно найти ниже.
+4. В таблице [DeviceEvents](advanced-hunting-deviceevents-table.md) несколько имен ActionType были изменены, чтобы лучше отражать описание действия. Подробные сведения об изменениях приведены ниже.
 
 | Имя таблицы | Исходное имя ActionType | Новое имя ActionType | Причина изменений
 |--|--|--|--|
@@ -104,6 +104,6 @@ ms.locfileid: "50461671"
 
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

@@ -13,19 +13,19 @@ f1.keywords:
 - NOCSH
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
-description: Сводка. Использование PowerShell для управления свойствами учетной записи пользователя Skype для бизнеса Online с помощью политик.
-ms.openlocfilehash: 20a75fa1c131f693fcf30d20477af5c9ee7aed35
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+description: Сводка. Используйте PowerShell для управления свойствами учетной записи пользователей Skype для бизнеса Online с помощью политик.
+ms.openlocfilehash: ca945bc05e76525b4b2df6fb0b982a8468d87810
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477045"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515056"
 ---
 # <a name="manage-skype-for-business-online-policies-with-powershell"></a>Управление политиками Skype для бизнеса Online с помощью PowerShell
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Для управления многими свойствами учетной записи пользователя в Skype для бизнеса Online необходимо указать их в качестве свойств политик с помощью PowerShell для Microsoft 365.
+Чтобы управлять многими свойствами учетной записи пользователя для Skype для бизнеса Online, необходимо указать их в качестве свойств политик с PowerShell для Microsoft 365.
   
 ## <a name="before-you-begin"></a>Перед началом работы
 
@@ -41,8 +41,7 @@ ms.locfileid: "48477045"
    ```powershell
    Import-Module MicrosoftTeams
    $userCredential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $userCredential
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams -Credential $userCredential
    ```
 
    При поступлении соответствующего запроса системы введите имя и пароль учетной записи администратора Skype для бизнеса Online.
@@ -67,7 +66,7 @@ EnablePublicCloudAudioVideoAccess : True
 EnableOutsideAccess               : True
 ```
 
-В приведенном примере значения в этих политиках определяют, что именно может делать пользователь в отношении обмена данными с федеративными пользователями. Например, для свойства EnableOutsideAccess необходимо задать значение True, чтобы пользователь мог обмениваться данными с пользователями вне организации. Обратите внимание, что это свойство не появляется в Центре администрирования Microsoft 365. Вместо этого для него автоматически устанавливается значение True или False на основе значений, выбранных для других свойств. Ниже описаны два других интересующих нас свойства:
+В приведенном примере значения в этих политиках определяют, что именно может делать пользователь в отношении обмена данными с федеративными пользователями. Например, для свойства EnableOutsideAccess необходимо задать значение True, чтобы пользователь мог обмениваться данными с пользователями вне организации. Обратите внимание, что это свойство не появляется в центре администрирования Microsoft 365. Вместо этого для него автоматически устанавливается значение True или False на основе значений, выбранных для других свойств. Ниже описаны два других интересующих нас свойства:
   
 - Свойство **EnableFederationAccess** указывает, может ли пользователь обмениваться данными с пользователями из федеративных доменов.
     
@@ -89,13 +88,13 @@ Get-CsOnlineUser -Identity "Alex Darrow" | ForEach {Get-CsExternalAccessPolicy -
 
 Эта команда находит политику, назначенную пользователю, а затем находит возможности, которые включены или отключены в этой политике.
   
-Чтобы управлять политиками Skype для бизнеса Online с помощью PowerShell, см. для:
+Чтобы управлять политиками Skype для бизнеса в Интернете с помощью PowerShell, см. в cmdlets для:
 
 - [Client policy](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets) (Политика клиента).
 - [Политика конференц-связи](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets),
-- [Политика мобильных устройств](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#mobile-policy-cmdlets)
+- [Политика мобильной связи](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#mobile-policy-cmdlets)
 - [Политика голосовой почты в Интернете](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#online-voicemail-policy-cmdlets)
-- [Политика маршрутов голосовой почты](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#voice-routing-policy-cmdlets)
+- [Политика маршрутивки голосовой почты](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#voice-routing-policy-cmdlets)
 
 
 > [!NOTE]
@@ -117,7 +116,7 @@ Get-CsExternalAccessPolicy -ApplicableTo "Alex Darrow"
 
 Параметр ApplicableTo ограничивает данные, возвращаемые политиками, которые можно назначить указанному пользователю (например, Семену Маслову). В зависимости от ограничений в отношении лицензирования и места использования он может представлять подмножество всех доступных политик. 
   
-В некоторых случаях свойства политик не используются в Microsoft 365, а другими могут управлять только сотрудники службы поддержки Майкрософт. 
+В некоторых случаях свойства политик не используются в Microsoft 365, в то время как другими могут управлять только сотрудники службы поддержки Майкрософт. 
   
 С Skype для бизнеса Online для управления пользователями необходимо использовать какую-либо политику. Если допустимое свойство, связанное с политикой, является пустым, значит, для управления рассматриваемым пользователем используется глобальная политика, т. е. политика, которая автоматически применяется к пользователю, если ему не назначена специальная индивидуальная политика. Управление пользователями, которым не назначена политика клиента, осуществляется с помощью глобальной политики. Определить глобальную политику клиента поможет приведенная ниже команда.
   

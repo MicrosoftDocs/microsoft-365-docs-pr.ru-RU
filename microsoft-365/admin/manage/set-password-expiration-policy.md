@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Узнайте, как устанавливать политику срока действия паролей для организации в Центре администрирования Microsoft 365.
-ms.openlocfilehash: 471a881bd9808861b9fa2c67d007f1ebe1c10885
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 9470a73926327777055a321eb3a592ea3ddcf41e
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926178"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515044"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Установка политики срока действия паролей в организации
 
@@ -70,8 +70,6 @@ ms.locfileid: "49926178"
 5. Укажите срок действия паролей. Выберите значение от 14 до 730 дней.
   
 6. Во втором поле укажите, за сколько дней до окончания действия пароля будет отправляться уведомление, а затем нажмите кнопку **Сохранить**. Выберите значение от 1 до 30 дней.
-
-7. После окончания срока действия пароля в правом нижнем углу экрана пользователя появится уведомление.
   
 ## <a name="important-things-you-need-to-know-about-the-password-expiration-feature"></a>Что важно знать об окончании срока действия паролей
   
