@@ -87,6 +87,8 @@
       items:
         - name: Обзор службы Bookings
           href: overview-bookings.md
+        - name: Отслеживание бизнес-информации с помощью Microsoft Lists
+          href: track-info-lists.md
         - name: Планирование события
           href: plan-event.md
     - name: Управление службами

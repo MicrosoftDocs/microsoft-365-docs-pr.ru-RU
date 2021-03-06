@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Настройка понимания содержимого в Project Cortex
-ms.openlocfilehash: 58496041004218b48b864fa725084cba8edd518b
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: a275b2ec14403e16651acb293f8598b453fd3739
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145479"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515020"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
@@ -42,6 +42,16 @@ ms.locfileid: "50145479"
 > У вас должны быть разрешения глобального администратора или администратора SharePoint, чтобы получить доступ к Центру администрирования Microsoft 365 и настроить SharePoint Syntex.
 
 Как администратор, вы также можете вносить изменения в выбранные параметры в любое время после завершения их настройки, а также во все параметры управления содержимым в Центре администрирования Microsoft 365.
+
+### <a name="licensing"></a>Лицензирование
+
+Чтобы использовать SharePoint Syntex, у вашей организации должна быть подписка на SharePoint Syntex, а каждому пользователю должны быть назначены следующие лицензии:
+
+- SharePoint Syntex
+- SharePoint Syntex — тип SPO
+- Общая служба данных для SharePoint Syntex
+
+Если вы отмените подписку на SharePoint Syntex в будущем (или истечет срок действия пробной подписки), пользователи не смогут создавать и запускать модели осмысления документации или обработки форм, а шаблон центра контента станет недоступным. Кроме того, станут недоступны отчеты банка терминов, импорт таксономии SKOS и передача типа контента. Содержимое не удаляются, а разрешения сайта не изменяются.
 
 ## <a name="to-set-up-sharepoint-syntex"></a>Чтобы настроить SharePoint Syntex, выполните следующие действия:
 

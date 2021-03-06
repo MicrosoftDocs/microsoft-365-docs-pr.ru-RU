@@ -231,6 +231,8 @@
               href: productivity/meetings.md
             - name: Работоспособность Приложений Microsoft 365
               href: productivity/apps-health.md
+            - name: Аналитика конечных точек
+              href: 'https://docs.microsoft.com/mem/analytics/productivity-score'
         - name: Изменение контактных данных организации
           href: manage/change-address-contact-and-more.md
         - name: Обновление контактных данных администратора

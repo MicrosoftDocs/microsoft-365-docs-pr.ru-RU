@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Управляйте политиками, индивидуальными политиками и настройками собраний Skype для бизнеса Online, используя PowerShell для Microsoft 365.
-ms.openlocfilehash: ff35463dc0c2e16106432c393b10e31e6bf0a5d2
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 1992edfb6d1c141c7ed4db22064960873b768865
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477105"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514960"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>Управление Skype для бизнеса Online с помощью PowerShell
 
@@ -42,8 +42,7 @@ ms.locfileid: "48477105"
    ```powershell
    Import-Module MicrosoftTeams
    $userCredential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $userCredential
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams -Credential $userCredential
    ```
 
 2. В диалоговом окне **Запрос учетных данных Windows PowerShell** введите имя и пароль учетной записи администратора, а затем нажмите кнопку **ОК**.
@@ -55,11 +54,10 @@ ms.locfileid: "48477105"
 
    ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams
    ```
 
-2. По запросу команды **New-CsOnlineSession** введите имя учетной записи администратора Skype для бизнеса Online.
+2. При соответствующем запросе введите имя учетной записи администратора Skype для бизнеса Online.
 
 3. В диалоговом окне **Вход в учетную запись** введите пароль администратора Skype для бизнеса Online, а затем нажмите кнопку **Войти**.
 
