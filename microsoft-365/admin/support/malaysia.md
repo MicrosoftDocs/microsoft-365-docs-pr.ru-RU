@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 76cde6e28b1bbfad5bd645f460a0c57e73526155
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 79532e4b5ca86018b4a79c9383e8d62ab8691cb7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641247"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545996"
 ---
-# <a name="contact-support-for-malaysia"></a>Обратитесь в службу поддержки Малайзии
+# <a name="contact-support-for-malaysia"></a>Поддержка контактов для Малайзии
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,7 +29,7 @@ ms.locfileid: "48641247"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–18:00
+Английский: Mon-Fri 9 am-6 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
@@ -38,4 +37,4 @@ ms.locfileid: "48641247"
 
 Альтернативный номер телефона: 03 6207 4606
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

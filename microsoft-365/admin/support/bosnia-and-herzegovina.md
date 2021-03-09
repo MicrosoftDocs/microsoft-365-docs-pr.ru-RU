@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке Боснии и Герцеговины
+title: Сведения о поддержке для Боснии и Герцеговины
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 066a0833eb82ca3561014461c239b98df6ab4ac7
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 674c5c2c0f5cfbf8b4c0ca9d6a6806a00bb7fa68
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643839"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548540"
 ---
-# <a name="contact-support-for-bosnia-and-herzegovnia"></a>Обратитесь в службу поддержки Боснии и Герцеговины
+# <a name="contact-support-for-bosnia-and-herzegovnia"></a>Поддержка контактов для Боснии и Герцеговины
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -29,12 +28,12 @@ ms.locfileid: "48643839"
 
 Выбор варианта 9
 
-Введите код 7700
+Ввод кода 7700
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
@@ -42,4 +41,4 @@ ms.locfileid: "48643839"
 
 Альтернативный номер телефона: +387 33 606 100
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

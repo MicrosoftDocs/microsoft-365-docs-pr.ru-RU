@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Сент-Марии
+title: Сведения о поддержке Для Сент-Люсии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e7f07aaaad6f8a51231e5b14251f0badb4c08089
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 7d76ebbc45301b65ca7e92e086e5a76c5ea993e6
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640083"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544772"
 ---
-# <a name="contact-support-for-saint-lucia"></a>Обратитесь в службу поддержки Сент-Марии
+# <a name="contact-support-for-saint-lucia"></a>Поддержка контактов для Saint Lucia
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,10 +29,10 @@ ms.locfileid: "48640083"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

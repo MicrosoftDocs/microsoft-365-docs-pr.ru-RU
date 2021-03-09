@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Мартена
+title: Сведения о поддержке для Martinique
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fc057a9bd493b2edf9081871136b88299a5169dd
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 5247948cd365c7946eb89ed7aa67924ced00a7e4
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641115"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545924"
 ---
-# <a name="contact-support-for-martinique"></a>Обратитесь в службу поддержки для Мартена
+# <a name="contact-support-for-martinique"></a>Поддержка контактов для Martinique
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -32,12 +31,12 @@ ms.locfileid: "48641115"
 
 Французский Mon-Fri 6:00
 
-Английский: Mon-Fri 6:00–13:00
+Английский: Mon-Fri 6 am-1 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 6:00–13:00
+Французский: Mon-Fri 6 am-1 PM
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

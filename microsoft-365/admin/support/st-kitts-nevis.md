@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для St Kitts & Nevis
+title: Сведения о поддержке st Kitts & Nevis
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f96b4aca45363af34088cd54b997cc3a9e8e2109
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8a3120b82621f73578e44f25535f3fab087506d8
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639411"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544220"
 ---
-# <a name="contact-support-for-st-kitts--nevis"></a>Обратитесь в службу поддержки St Kitts & Nevis
+# <a name="contact-support-for-st-kitts--nevis"></a>Поддержка контактов для St Kitts & Nevis
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,7 +29,7 @@ ms.locfileid: "48639411"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 

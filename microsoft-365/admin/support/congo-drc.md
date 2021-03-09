@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Конго (DRC)
+title: Сведения о поддержке Для Конго (DRC)
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7d68770afcf6eb781fe5a0ab6e09d4893eb3482b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 74fffbdb20455bf85a147c60e3961c8789a3c9a2
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643215"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547988"
 ---
-# <a name="contact-support-for-congo-drc"></a>Обратитесь в службу поддержки Конго (DRC)
+# <a name="contact-support-for-congo-drc"></a>Поддержка контактов для Конго (DRC)
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,14 +29,14 @@ ms.locfileid: "48643215"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Mon-Fri 9:00–17:00
+Французский: Mon-Fri 9 am-5 PM
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 8:00–9:00
+Французский: Mon-Fri 8 am-9 PM
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

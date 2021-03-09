@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Боанейра
+title: Сведения о поддержке Bonaire
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c9c4ece013eb6d59fad013f04f15e0f8684144da
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 86e638411bd62778cd20b99ef2edd90a56933ad5
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643851"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548564"
 ---
-# <a name="contact-support-for-bonaire"></a>Обратитесь в службу поддержки Для Боанейра
+# <a name="contact-support-for-bonaire"></a>Поддержка контактов для Bonaire
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,12 +29,12 @@ ms.locfileid: "48643851"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Нидерландский: Mon-Fri 4:00-14:00
+Голландский язык: Mon-Fri 4:00
 
-Английский: Mon-Fri 04:00
+Английский: Mon-Fri 4:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

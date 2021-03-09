@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a448b11156770dac5cfe0d273fc75183a5aca8fd
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: de34ca4897f0fb1e9e2564bbe12282fdea6c8162
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405753"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542576"
 ---
 # <a name="payment-information-for-sweden"></a>Сведения об оплате для Швеции
 

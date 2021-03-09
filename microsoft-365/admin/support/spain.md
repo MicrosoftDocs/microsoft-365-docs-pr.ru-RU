@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b6f4011c318830d211aa96db05b9889c78fa4196
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8de63fad7741171dc628ff9064796d64dccd96da
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639567"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544256"
 ---
-# <a name="contact-support-for-spain"></a>Обратитесь в службу поддержки Испании
+# <a name="contact-support-for-spain"></a>Поддержка контактов для Испании
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,16 +29,16 @@ ms.locfileid: "48639567"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Испанский: Mon-Fri 9:00–17:00
+Испанский: Mon-Fri 9 утра-5 вечера
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Испанский: Mon-Fri 8:00–9:00
+Испанский: Mon-Fri 8 am-9 PM
 
 Английский: круглосуточно, без выходных
 
 Альтернативный номер телефона: 912 718 160
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

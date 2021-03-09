@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Южной Африки
+title: Сведения о поддержке Для Южного Судана
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4211630094f2c9347e6da5e2b7702c30e50e0b4c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 26a9d008d7a0ab6727b267fced23ec2731bfde68
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639603"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544268"
 ---
-# <a name="contact-support-for-south-sudan"></a>Обратитесь в службу поддержки Южной Африки
+# <a name="contact-support-for-south-sudan"></a>Поддержка контактов для Южного Судана
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,10 +29,10 @@ ms.locfileid: "48639603"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 10:00–18:00
+Английский: Mon-Fri 10 am-6 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

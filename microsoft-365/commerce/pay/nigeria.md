@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Нигерии
+title: Сведения об оплате для Нигерии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e83e40d7eb2ccb7c9751d2211fa692807b5ee43d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e4a97cffc2f2364d676d6cac61c17de14e3d03f6
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648999"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542984"
 ---
-# <a name="payment-information-for-nigeria"></a>Платежная информация для Нигерии
+# <a name="payment-information-for-nigeria"></a>Сведения об оплате для Нигерии
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Вы платите только в долларах США и ссылайтесь на свои номера счета-фактуры в счете-фактуре.
+Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Код SWIFT:** THEGB2L  
+**Банк:** Ситибанк, Лондон  
+**Код SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** МАЙКРОСОФТ  
+**Имя учетной записи:** Microsoft  

@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Сен-Сен-Марии и Микелона
+title: Сведения о поддержке для Saint Pierre и Miquelon
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d91c656459133e21b4e2c6fd032d582f520d1254
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b25fafc787b7995eff933082f00a0e9ce931c518
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640047"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544736"
 ---
-# <a name="contact-support-for-saint-pierre-and-miquelon"></a>Обратитесь в службу поддержки сен-Сен-Сен-Микелона
+# <a name="contact-support-for-saint-pierre-and-miquelon"></a>Поддержка контактов для Saint Pierre и Miquelon
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,14 +29,14 @@ ms.locfileid: "48640047"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Mon-Fri 6:00–14:00
+Французский: Mon-Fri 6 am-2 PM
 
-Английский: Mon-Fri 6:00–14:00
+Английский: Mon-Fri 6 am-2 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 5:00–18:00
+Французский: Mon-Fri 5 am-6 PM
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы
