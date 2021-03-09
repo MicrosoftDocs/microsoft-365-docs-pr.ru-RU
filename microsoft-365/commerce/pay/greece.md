@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Греция
+title: Сведения об оплате для Греции
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c8e7757a7ea8a446b170183268389fd7994486ba
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8517623cffb8fe6ae0283880bb2d030c3f109b05
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647475"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551132"
 ---
-# <a name="payment-information-for-greece"></a>Платежная информация для Греция
+# <a name="payment-information-for-greece"></a>Сведения об оплате для Греции
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Оплата только в есвеях и справочные номера счета-фактуры для оплаты.
+Пожалуйста, оплатите только в EUR и справочный номер счета-фактуры(ы) при переводе платежа.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Swift Code/BIC:** THEGB2L  
+**Банк:** Ситибанк, Лондон  
+**SWIFT Code/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Код сортировки:** 185008  
+**КОД SORT:** 185008  
 **Номер учетной записи:** 12207591  
-**Имя учетной записи:** МАЙКРОСОФТ  
+**Имя учетной записи:** Microsoft  
