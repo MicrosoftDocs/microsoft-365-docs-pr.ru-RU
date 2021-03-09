@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Таиланда
+title: Сведения об оплате для Таиланда
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 709a908af6020b6b9ce43097abef1bcfddb04e01
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e158105380949a021598a5b5fbd7395cfc73bfbf
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648339"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542530"
 ---
-# <a name="payment-information-for-thailand"></a><span data-ttu-id="89337-103">Платежная информация для Таиланда</span><span class="sxs-lookup"><span data-stu-id="89337-103">Payment information for Thailand</span></span>
+# <a name="payment-information-for-thailand"></a><span data-ttu-id="3d0a5-103">Сведения об оплате для Таиланда</span><span class="sxs-lookup"><span data-stu-id="3d0a5-103">Payment information for Thailand</span></span>
 
-<span data-ttu-id="89337-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="89337-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="3d0a5-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="3d0a5-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="89337-105">Вы платите только в долларах США и ссылайтесь на свои номера счета-фактуры в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="89337-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="3d0a5-105">Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="3d0a5-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="89337-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="89337-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="3d0a5-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="3d0a5-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="89337-107">**Bank:** Приолинский, Сингапур</span><span class="sxs-lookup"><span data-stu-id="89337-107">**Bank:** Citibank, Singapore</span></span>  
-<span data-ttu-id="89337-108">**SWIFT CODE:** THESGSG</span><span class="sxs-lookup"><span data-stu-id="89337-108">**SWIFT CODE:** CITISGSG</span></span>  
-<span data-ttu-id="89337-109">**Номер учетной записи:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="89337-109">**Account Number:** 0-817543-138</span></span>  
-<span data-ttu-id="89337-110">**Имя учетной записи:** КОРПОРАЦИЯ МАЙКРОСОФТ ПО РЕГИОНАЛЬНЫМ ПРОДАЖАМ</span><span class="sxs-lookup"><span data-stu-id="89337-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>  
+<span data-ttu-id="3d0a5-107">**Банк:** Citibank, Сингапур</span><span class="sxs-lookup"><span data-stu-id="3d0a5-107">**Bank:** Citibank, Singapore</span></span>  
+<span data-ttu-id="3d0a5-108">**КОД SWIFT:** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="3d0a5-108">**SWIFT CODE:** CITISGSG</span></span>  
+<span data-ttu-id="3d0a5-109">**Номер учетной записи:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="3d0a5-109">**Account Number:** 0-817543-138</span></span>  
+<span data-ttu-id="3d0a5-110">**Имя учетной записи:** MICROSOFT REGIONAL SALES CORP</span><span class="sxs-lookup"><span data-stu-id="3d0a5-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>  

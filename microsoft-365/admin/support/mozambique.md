@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Африки
+title: Сведения о поддержке Для Мозамбика
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,33 +9,32 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1f09936154759b68c955f011cd4c782652815a6a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 97c6ed28f452db828e492b434375ecab9a46fa8d
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640875"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545648"
 ---
-# <a name="contact-support-for-mozambique"></a><span data-ttu-id="c575d-103">Обратитесь в службу поддержки Для Африки</span><span class="sxs-lookup"><span data-stu-id="c575d-103">Contact support for Mozambique</span></span>
+# <a name="contact-support-for-mozambique"></a><span data-ttu-id="6adb7-103">Поддержка контактов для Мозамбика</span><span class="sxs-lookup"><span data-stu-id="6adb7-103">Contact support for Mozambique</span></span>
 
-<span data-ttu-id="c575d-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="c575d-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="6adb7-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="6adb7-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="c575d-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="c575d-105">Phone number</span></span>
-<span data-ttu-id="c575d-106">+1 312 843 5153</span><span class="sxs-lookup"><span data-stu-id="c575d-106">+1 312 843 5153</span></span>
+## <a name="phone-number"></a><span data-ttu-id="6adb7-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="6adb7-105">Phone number</span></span>
+<span data-ttu-id="6adb7-106">+1 312 843 5153</span><span class="sxs-lookup"><span data-stu-id="6adb7-106">+1 312 843 5153</span></span>
 
-## <a name="hours"></a><span data-ttu-id="c575d-107">Часы</span><span class="sxs-lookup"><span data-stu-id="c575d-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="c575d-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="c575d-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="6adb7-107">Часы</span><span class="sxs-lookup"><span data-stu-id="6adb7-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="6adb7-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="6adb7-108">Billing Support:</span></span>
 
-<span data-ttu-id="c575d-109">Английский: Mon-Fri 7:00–18:00</span><span class="sxs-lookup"><span data-stu-id="c575d-109">English: Mon-Fri 7 AM-6 PM</span></span>
+<span data-ttu-id="6adb7-109">Английский: Mon-Fri 7 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="6adb7-109">English: Mon-Fri 7 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="c575d-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="c575d-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="6adb7-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="6adb7-110">Technical Support:</span></span>
 
-<span data-ttu-id="c575d-111">Португальский: Mon-Fri 9:00–19:00</span><span class="sxs-lookup"><span data-stu-id="c575d-111">Portuguese: Mon-Fri 9 AM-7 PM</span></span>
+<span data-ttu-id="6adb7-111">Португальский: Mon-Fri 9 am-7 PM</span><span class="sxs-lookup"><span data-stu-id="6adb7-111">Portuguese: Mon-Fri 9 AM-7 PM</span></span>
 
-<span data-ttu-id="c575d-112">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="c575d-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="6adb7-112">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="6adb7-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="c575d-113">Применяются платежи за международные вызовы</span><span class="sxs-lookup"><span data-stu-id="c575d-113">International call charges apply</span></span>
+<span data-ttu-id="6adb7-113">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="6adb7-113">International call charges apply</span></span>

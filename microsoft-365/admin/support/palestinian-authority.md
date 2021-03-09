@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для надзорного органа
+title: Поддержка сведений для Палестинского органа
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,41 +9,40 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3066f28c2a42a48ab534bd58df7a62a2562b184d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 25d286ada84f75f75759f8c0d0bac85b613a7c41
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640419"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545204"
 ---
-# <a name="contact-support-for-palestinian-authority"></a><span data-ttu-id="5042f-103">Обратитесь в службу поддержки по надзору за органы власти</span><span class="sxs-lookup"><span data-stu-id="5042f-103">Contact support for Palestinian Authority</span></span>
+# <a name="contact-support-for-palestinian-authority"></a><span data-ttu-id="392e9-103">Поддержка контактов для Палестинского органа</span><span class="sxs-lookup"><span data-stu-id="392e9-103">Contact support for Palestinian Authority</span></span>
 
-<span data-ttu-id="5042f-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="5042f-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="392e9-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="392e9-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="5042f-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="5042f-105">Phone number</span></span>
-<span data-ttu-id="5042f-106">+962 6 5503451</span><span class="sxs-lookup"><span data-stu-id="5042f-106">+962 6 5503451</span></span>
+## <a name="phone-number"></a><span data-ttu-id="392e9-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="392e9-105">Phone number</span></span>
+<span data-ttu-id="392e9-106">+962 6 5503451</span><span class="sxs-lookup"><span data-stu-id="392e9-106">+962 6 5503451</span></span>
 
-<span data-ttu-id="5042f-107">Выбор варианта 1</span><span class="sxs-lookup"><span data-stu-id="5042f-107">Select option 1</span></span>
+<span data-ttu-id="392e9-107">Выбор варианта 1</span><span class="sxs-lookup"><span data-stu-id="392e9-107">Select option 1</span></span>
 
-<span data-ttu-id="5042f-108">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="5042f-108">Select option 9</span></span>
+<span data-ttu-id="392e9-108">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="392e9-108">Select option 9</span></span>
 
-<span data-ttu-id="5042f-109">Введите код 7702</span><span class="sxs-lookup"><span data-stu-id="5042f-109">Enter code 7702</span></span>
+<span data-ttu-id="392e9-109">Ввод кода 7702</span><span class="sxs-lookup"><span data-stu-id="392e9-109">Enter code 7702</span></span>
 
-## <a name="hours"></a><span data-ttu-id="5042f-110">Часы</span><span class="sxs-lookup"><span data-stu-id="5042f-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="5042f-111">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="5042f-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="392e9-110">Часы</span><span class="sxs-lookup"><span data-stu-id="392e9-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="392e9-111">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="392e9-111">Billing Support:</span></span>
 
-<span data-ttu-id="5042f-112">Арабский: Sun-Thu 10:00–18:00</span><span class="sxs-lookup"><span data-stu-id="5042f-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="392e9-112">Арабский: Sun-Thu 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="392e9-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="5042f-113">Английский: Mon-Fri 10:00–18:00</span><span class="sxs-lookup"><span data-stu-id="5042f-113">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="392e9-113">Английский: Mon-Fri 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="392e9-113">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="5042f-114">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="5042f-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="392e9-114">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="392e9-114">Technical Support:</span></span>
 
-<span data-ttu-id="5042f-115">Арабский: Sun-Thu 10:00–18:00</span><span class="sxs-lookup"><span data-stu-id="5042f-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="392e9-115">Арабский: Sun-Thu 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="392e9-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="5042f-116">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="5042f-116">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="392e9-116">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="392e9-116">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="5042f-117">Применяются платежи за международные вызовы</span><span class="sxs-lookup"><span data-stu-id="5042f-117">International call charges apply</span></span>
+<span data-ttu-id="392e9-117">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="392e9-117">International call charges apply</span></span>
