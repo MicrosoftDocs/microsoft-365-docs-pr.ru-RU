@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Коста-Рика
+title: Сведения о платежах для Коста-Рики
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 482379a305e2ad80df72ee75e27371e223fc6c57
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8a610fe0a411cbba2585ffbff880cb1e98d6914f
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637443"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551690"
 ---
-# <a name="payment-information-for-costa-rica"></a>Платежная информация для Коста-Рика
+# <a name="payment-information-for-costa-rica"></a>Сведения о платежах для Коста-Рики
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Вы платите только в долларах США и ссылайтесь на свои счета-фактуры.
+Пожалуйста, платите только в долларах США и ссылайтесь на номер счета(ы) на ваш денежный перевод.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Банк Америки  
+**Банк:** Bank of America  
 **Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Майкрософт  
+**Имя учетной записи:** Microsoft  

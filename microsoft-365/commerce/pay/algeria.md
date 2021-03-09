@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Алжира
+title: Сведения об оплате для Алжира
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f603b0ee4ec07a82c65d4b95f994636994d99863
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d3ff7146be8c69373f12cf4670e077cf0665e2ce
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638163"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549800"
 ---
-# <a name="payment-information-for-algeria"></a>Платежная информация для Алжира
+# <a name="payment-information-for-algeria"></a>Сведения об оплате для Алжира
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Оплата только в долларах США и справочные номера счета-фактуры для платежа.
+Пожалуйста, платите только в долларах США и справочный номер счета(ы) на оплату денежных переводов.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Код SWIFT:** THEGB2L  
+**Банк:** Ситибанк, Лондон  
+**Код SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** МАЙКРОСОФТ  
+**Имя учетной записи:** Microsoft  

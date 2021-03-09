@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Бразилии
+title: Сведения об оплате для Бразилии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,19 +9,18 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9cf6c9052147571c4892d34420a44b2583f3e3d3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: ec3babde2e4175081712f957af1bcd33e0f6588d
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637683"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551864"
 ---
-# <a name="payment-information-for-brazil"></a>Платежная информация для Бразилии
+# <a name="payment-information-for-brazil"></a>Сведения об оплате для Бразилии
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Следуйте инструкциям по оплате в счете и на справочных номерах счета-фактуры в оплате.  
+Следуйте инструкции по оплате в счете-фактуре и справочном номере счета-фактуры(ы) при переводе платежа.  

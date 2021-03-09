@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Японии
+title: Сведения об оплате для Японии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,29 +9,28 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44df2d2fcc3c424a6962ac8ca456c41147971eb5
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 60b541bb61c7a74c29b82c89669414d1578f8c58
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204771"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550724"
 ---
-# <a name="payment-information-for-japan"></a>Платежная информация для Японии
+# <a name="payment-information-for-japan"></a>Сведения об оплате для Японии
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Please pay in JPY only and reference invoice number(s) on your payment invoice invoice.
+Пожалуйста, оплатите только в JPY и справочный номер счета-фактуры(ы) при переводе платежа.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметь, Н.Д.  
-**Bank ID:** 0401  
-**Ветвь:** Ветвь Токио  
-**Код ветви:** 730  
-**Код SWIFT:** THEJPJT  
+**Банк:** Ситибанк, N.A.  
+**Банковский ID:** 0401  
+**Ветвь:** Филиал в Токио  
+**Код филиала:** 730  
+**Код SWIFT:** CITIJPJT  
 **Номер учетной записи:** 160609028  
 **Имя учетной записи:** Microsoft Japan Co., Ltd.

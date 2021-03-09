@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для гума
+title: Сведения об оплате для Гуама
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ebbf9f3e1504ab779517bbf4088086afa6cb20ac
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c07e8fce498a179596d3f9485bae77635f05683e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647451"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551096"
 ---
-# <a name="payment-information-for-guam"></a>Платежная информация для гума
+# <a name="payment-information-for-guam"></a>Сведения об оплате для Гуама
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Вы платите только в долларах США и ссылайтесь на номера счета-фактуры в счете-фактуре.
+Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Банк Америки  
+**Банк:** Bank of America  
 **Branch** Даллас  
 **Код SWIFT:** BOFAUS3N  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Майкрософт  
+**Имя учетной записи:** Microsoft  

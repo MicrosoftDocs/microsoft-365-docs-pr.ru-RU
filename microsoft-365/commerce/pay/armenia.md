@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Азербайджана
+title: Сведения об оплате для Армении
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9aaec4e85224cc78eaf530c61c0c78cfd5f226d2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b420b0cab2c39ef45d73b11aed7ffb1c548471eb
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637983"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549680"
 ---
-# <a name="payment-information-for-armenia"></a>Платежная информация для Азербайджана
+# <a name="payment-information-for-armenia"></a>Сведения об оплате для Армении
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Вы платите только в долларах США и ссылайтесь на свои номера счета-фактуры в счете-фактуре.
+Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Код SWIFT:** THEGB2L  
+**Банк:** Ситибанк, Лондон  
+**Код SWIFT:** CITIGB2L  
 **Номер IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** Майкрософт  
+**Имя учетной записи:** Microsoft  

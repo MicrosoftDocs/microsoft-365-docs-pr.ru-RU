@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Кюрасао
+title: Сведения о платежах для Curacao
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c54cb0c502889ddd8d5b32ea8578d89e625bd1d8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3e3e4205a856726733af941d712efcfdd9daf335
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637407"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551588"
 ---
-# <a name="payment-information-for-curacao"></a>Платежная информация для Кюрасао
+# <a name="payment-information-for-curacao"></a>Сведения о платежах для Curacao
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Оплата только в долларах США и справочные номера счета-фактуры для оплаты.
+Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Банк Америки  
+**Банк:** Bank of America  
 **Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Майкрософт  
+**Имя учетной записи:** Microsoft  

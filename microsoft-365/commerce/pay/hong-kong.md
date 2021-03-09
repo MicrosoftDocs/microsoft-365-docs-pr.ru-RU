@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Гонконга
+title: Сведения об оплате для Гонконга
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9d0b6cb118005ae7e3ae8e110a436faa9829e4b5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dcab44878f1627f17a20859f92eec2964ee0b4a8
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647259"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550964"
 ---
-# <a name="payment-information-for-hong-kong"></a>Платежная информация для Гонконга
+# <a name="payment-information-for-hong-kong"></a>Сведения об оплате для Гонконга
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Следуйте инструкциям по оплате в счете-фактуре и на справочных номерах счета-фактуры в платежных платежах.
+Следуйте инструкциям по оплате в счете-фактуре и справочном номере счета-фактуры(ы) при переводе платежа.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** HSBC, Гонконг  
-**Банковский код:** 004  
-**Код ветви:** 848  
+**Банк:** HSBC, Гонконг  
+**Код банка:** 004  
+**Код филиала:** 848  
 **Код SWIFT:** HSBCHKHH  
 **Номер учетной записи:** 848342259001    
-**Имя учетной записи:** Счет за платежи Ltd-Payco Microsoft Payments Pte
+**Имя учетной записи:** Счет microsoft Payments Pte Ltd-Payco

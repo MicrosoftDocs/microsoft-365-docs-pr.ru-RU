@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Гондураса
+title: Сведения об оплате для Гондураса
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c9957ea31a51cd48757e33d4b94a8731f43cd772
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 57fa409906a5255ff3d40ca87ef41508c9ac8d8a
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647271"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551000"
 ---
-# <a name="payment-information-for-honduras"></a>Платежная информация для Гондураса
+# <a name="payment-information-for-honduras"></a>Сведения об оплате для Гондураса
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Please pay in USD only and reference invoice number(s) on your payment invoice invoice.
+Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Банк Америки  
+**Банк:** Bank of America  
 **Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Майкрософт   
+**Имя учетной записи:** Microsoft   

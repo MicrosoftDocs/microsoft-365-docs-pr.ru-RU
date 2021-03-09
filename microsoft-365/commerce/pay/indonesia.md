@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Индонезии
+title: Сведения об оплате для Индонезии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a17accaebc4dd64ad6baf0542382d70f67ff5ab2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2e62646e72394d37914ceacf95cc868111a6c85e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647211"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550844"
 ---
-# <a name="payment-information-for-indonesia"></a>Платежная информация для Индонезии
+# <a name="payment-information-for-indonesia"></a>Сведения об оплате для Индонезии
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md) 
 
-Please pay in IDR only and reference invoice number(s) on your payment payment payment invoice.
+Пожалуйста, платите только в IDR и справочный номер счета-фактуры (ы) при оплате денежных переводов.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Закарбский, Индонезия  
+**Банк:** Citibank, Индонезия  
 **Ветвь:** Джакарта  
-**Код SWIFT:** THEIDJX  
+**Код SWIFT:** CITIIDJX  
 **Номер учетной записи:** 104468055  
 **Имя учетной записи:** PT Microsoft Indonesia  

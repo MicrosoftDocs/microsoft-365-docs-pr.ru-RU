@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Колумбии
+title: Сведения об оплате для Колумбии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: eea4dfce0bf0bb7d6dafc629c28d702f3f2a7586
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bdbce6512833c0ab9f17fde115d6ada0e42dd8c7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637455"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551720"
 ---
-# <a name="payment-information-for-colombia"></a>Платежная информация для Колумбии
+# <a name="payment-information-for-colombia"></a>Сведения об оплате для Колумбии
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Оплата только в колумбийском песо. Чтобы платежи обрабатывались, название вашей компании и номера счета-фактуры должны быть предоставлены по консультациям.
+Пожалуйста, платите только в колумбийском песо. Чтобы оплата была обработана, в консультации по переводу необходимо укомпатьть имя и номер счета-фактуры.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Богота;  
-**Банковский код:** 09  
-**Код SWIFT:** BBCOBB  
+**Банк:** Ситибанк, Богота;  
+**Код банка:** 09  
+**Код SWIFT:** CITICOBB  
 **NIT:** 800.198.591-3  
 **Номер учетной записи:** 0060534055  
 **Имя учетной записи:** Филиал Microsoft Colombia Inc.   

@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Багамских островах
+title: Сведения об оплате для Багамских островов
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad2356e1e1437ee6a6d727615922dc63ae7bae95
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 66b617f3812fdc73120471692c877bd257809dbb
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637935"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549584"
 ---
-# <a name="payment-information-for-bahamas"></a>Платежная информация для Багамских островах
+# <a name="payment-information-for-bahamas"></a>Сведения об оплате для Багамских островов
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Вы платите только в долларах США и ссылайтесь на свои номера счета-фактуры в счете-фактуре.
+Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Банк Америки  
+**Банк:** Bank of America  
 **Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Майкрософт  
+**Имя учетной записи:** Microsoft  

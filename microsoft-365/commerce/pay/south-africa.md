@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Южной Африки
+title: Сведения об оплате для Южной Африки
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 41df7368460da2a15da8ffef97ad6de82c59b3d7
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f16abf043d3e6a78275c0ef0bbca9307e8f36a0e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648543"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550196"
 ---
-# <a name="payment-information-for-south-africa"></a>Платежная информация для Южной Африки
+# <a name="payment-information-for-south-africa"></a>Сведения об оплате для Южной Африки
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Please pay in ZAR only and reference invoice number(s) on your payment payment payment invoice.
+Пожалуйста, оплатите только в ZAR и справочный номер счета-фактуры(ы) при переводе платежа.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Thebank  
-**Ветвь:** Вайтнесхю  
-**Код SWIFT:** ZAJ  
+**Банк:** Ситибанк  
+**Ветвь:** Йоханнесбург  
+**Код SWIFT:** CITIZAJ  
 **Номер учетной записи:** 0201419034  
-**Имя учетной записи:** Платежи Майкрософт  
+**Имя учетной записи:** Microsoft Payments  
