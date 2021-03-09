@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Азербайджана
+title: Сведения о платежах для Туркменистана
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9348d954049a198508aac0b38f253c38a664dcd3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 08fe2d01cc8750c1f2e12cacb3e6fab76374d926
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648231"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550052"
 ---
-# <a name="payment-information-for-turkmenistan"></a><span data-ttu-id="e8e6e-103">Платежная информация для Азербайджана</span><span class="sxs-lookup"><span data-stu-id="e8e6e-103">Payment information for Turkmenistan</span></span>
+# <a name="payment-information-for-turkmenistan"></a><span data-ttu-id="0347f-103">Сведения о платежах для Туркменистана</span><span class="sxs-lookup"><span data-stu-id="0347f-103">Payment information for Turkmenistan</span></span>
 
-<span data-ttu-id="e8e6e-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="e8e6e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="0347f-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="0347f-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="e8e6e-105">Please pay in USD only and reference invoice number(s) on your payment invoice invoice.</span><span class="sxs-lookup"><span data-stu-id="e8e6e-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="0347f-105">Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.</span><span class="sxs-lookup"><span data-stu-id="0347f-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="e8e6e-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="e8e6e-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="0347f-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="0347f-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="e8e6e-107">**Bank:** Заметьев, Лондон</span><span class="sxs-lookup"><span data-stu-id="e8e6e-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="e8e6e-108">**Код SWIFT:** THEGB2L</span><span class="sxs-lookup"><span data-stu-id="e8e6e-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="e8e6e-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="e8e6e-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="e8e6e-110">**Номер учетной записи:** 12510049</span><span class="sxs-lookup"><span data-stu-id="e8e6e-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="e8e6e-111">**Имя учетной записи:** МАЙКРОСОФТ</span><span class="sxs-lookup"><span data-stu-id="e8e6e-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="0347f-107">**Банк:** Ситибанк, Лондон</span><span class="sxs-lookup"><span data-stu-id="0347f-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="0347f-108">**Код SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="0347f-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="0347f-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="0347f-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="0347f-110">**Номер учетной записи:** 12510049</span><span class="sxs-lookup"><span data-stu-id="0347f-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="0347f-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="0347f-111">**Account Name:** MICROSOFT</span></span>  
