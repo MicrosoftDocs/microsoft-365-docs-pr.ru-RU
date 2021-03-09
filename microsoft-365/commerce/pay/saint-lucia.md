@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Сент-Марии
+title: Сведения об оплате для Сент-Люсии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2e06e18739880282bf4c07f127082d5cbb8f87d5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a452ab4721c23eec8c1a06e82f8ceaa8df0b3620
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648759"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550364"
 ---
-# <a name="payment-information-for-saint-lucia"></a><span data-ttu-id="a91a7-103">Платежная информация для Сент-Марии</span><span class="sxs-lookup"><span data-stu-id="a91a7-103">Payment information for Saint Lucia</span></span>
+# <a name="payment-information-for-saint-lucia"></a><span data-ttu-id="77720-103">Сведения об оплате для Сент-Люсии</span><span class="sxs-lookup"><span data-stu-id="77720-103">Payment information for Saint Lucia</span></span>
 
-<span data-ttu-id="a91a7-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="a91a7-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="77720-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="77720-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="a91a7-105">Вы платите только в долларах США и ссылайтесь на свои номера счета-фактуры в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="a91a7-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="77720-105">Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="77720-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="a91a7-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="a91a7-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="77720-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="77720-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="a91a7-107">**Bank:** Банк Америки</span><span class="sxs-lookup"><span data-stu-id="a91a7-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="a91a7-108">**Branch** Даллас</span><span class="sxs-lookup"><span data-stu-id="a91a7-108">**Branch** Dallas</span></span>  
-<span data-ttu-id="a91a7-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="a91a7-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="a91a7-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="a91a7-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="a91a7-111">**Имя учетной записи:** Майкрософт</span><span class="sxs-lookup"><span data-stu-id="a91a7-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="77720-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="77720-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="77720-108">**Branch** Даллас</span><span class="sxs-lookup"><span data-stu-id="77720-108">**Branch** Dallas</span></span>  
+<span data-ttu-id="77720-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="77720-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="77720-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="77720-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="77720-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="77720-111">**Account Name:** Microsoft</span></span>  
