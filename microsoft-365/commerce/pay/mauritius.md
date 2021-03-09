@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Маврикия
+title: Сведения об оплате для Маврикия
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 73f2da45750ff8d4a13760e0b81182362c4dbea7
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 6237578bb72b650e5029347e3ebdc95cef6e751f
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649268"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543260"
 ---
-# <a name="payment-information-for-mauritius"></a>Платежная информация для Маврикия
+# <a name="payment-information-for-mauritius"></a>Сведения об оплате для Маврикия
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Please pay in USD only and reference invoice number(s) on your payment invoice invoice.
+Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Код SWIFT:** THEGB2L  
+**Банк:** Ситибанк, Лондон  
+**Код SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** МАЙКРОСОФТ  
+**Имя учетной записи:** Microsoft  

@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Тувалу
+title: Сведения о поддержке Tuvalu
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 524aa6ac840e181a7a74ca8878c7d023a427b6af
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 93ca46cfd87f3fe8d0b3ba7fdc376583635ae1d6
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638967"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543740"
 ---
-# <a name="contact-support-for-tuvalu"></a>Обратитесь в службу поддержки Тувалу
+# <a name="contact-support-for-tuvalu"></a>Поддержка контактов для Tuvalu
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,10 +29,10 @@ ms.locfileid: "48638967"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

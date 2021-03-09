@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Марокко
+title: Сведения о поддержке для Марокко
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8a815c4605094b10d210e35ab5eabb4b7f7fd9ca
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: aa3250f530fd37454f28e22457c731264e0bfdbb
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640863"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545672"
 ---
-# <a name="contact-support-for-morocco"></a>Обратитесь в службу поддержки Для Марокко
+# <a name="contact-support-for-morocco"></a>Поддержка контактов для Марокко
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -29,23 +28,23 @@ ms.locfileid: "48640863"
 
 Выбор варианта 9
 
-Введите код 7700
+Ввод кода 7700
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Арабский: Sun-Thu 8:00–16:00
+Арабский: Sun-Thu 8 am-4 PM
 
-Французский: Mon-Fri 8:00–16:00
+Французский: Mon-Fri 8 am-4 PM
 
-Английский: Mon-Fri 8:00–16:00
+Английский: Mon-Fri 8:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Арабский: Sun-Thu 8:00–16:00
+Арабский: Sun-Thu 8 am-4 PM
 
-Французский: Mon-Fri 7:00–8:00
+Французский: Mon-Fri 7 am-8 PM
 
 Английский: круглосуточно, без выходных
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

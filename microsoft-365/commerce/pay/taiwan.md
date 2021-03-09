@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Тайваня
+title: Сведения об оплате для Тайваня
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 015ae550440db87215148e6d65b98f64fea54963
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 4b47325f466da829ff35af5f7354d19ccfc2129b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648375"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542482"
 ---
-# <a name="payment-information-for-taiwan"></a>Платежная информация для Тайваня
+# <a name="payment-information-for-taiwan"></a>Сведения об оплате для Тайваня
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md) 
 
-Please pay in N.T. Только в долларах и эталонных номерах счета-фактуры для платежа.
+Пожалуйста, заплати в N.T. Только доллары и справочный номер счета-фактуры(ы) при переводе платежа.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Банк-получатель:** LIMITED В ГРАНИЧНОЙ ОБЛАСТИ  
-**Код банка и ветви:** 0210018  
-**Код SWIFT:** THETWTX  
+**Банк бенефициаров:** CITIBANK TAIWAN LIMITED  
+**Код банка и код филиала:** 0210018  
+**Код SWIFT:** CITITWTX  
 **Номер учетной записи:** 5038946139  
-**Имя учетной записи:** КОРПОРАЦИЯ МАЙКРОСОФТ ТАЙВАНЬ    
+**Имя учетной записи:** КОРПОРАЦИЯ MICROSOFT TAIWAN    

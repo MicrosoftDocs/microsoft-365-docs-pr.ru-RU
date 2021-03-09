@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Узбекистана
+title: Сведения о поддержке Для Узбекистана
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,39 +9,38 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 431bb4dea8f6b8437d1eeabf8693f1a6a647b4ec
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f923d10ee4e547d946f82c824c472b2dbfd71428
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638847"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543534"
 ---
-# <a name="contact-support-for-uzbekistan"></a>Обратитесь в службу поддержки Для Узбекистана
+# <a name="contact-support-for-uzbekistan"></a>Поддержка контактов для Узбекистана
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 +8 641 744 0010
 
-После набора номера введите
+После набора введите
 
 877 867 5369
 
 ## <a name="hours"></a>Часы
-### <a name="billing-support"></a>Поддержка вы выставления счета
+### <a name="billing-support"></a>Поддержка биллинга
 
-Русский: Mon-Fri 10:00–19:00 в Москве
+Русский язык: Mon-Fri 10:00 мск
 
-Английский: Mon-Fri 9:00–17:00 в Лондоне
+Английский: Mon-Fri 9:00-17:00 в Лондоне
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Русский: Mon-Fri 7:00–8:00 в Москве
+Русский язык: Mon-Fri 7:00 мск
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

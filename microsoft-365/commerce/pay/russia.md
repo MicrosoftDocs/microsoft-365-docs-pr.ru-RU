@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для России
+title: Сведения об оплате для России
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,30 +9,29 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e7619287e6bd98236f5b513ccbdb6e6b30777af6
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 840cb16360a793f351507122566931e648e04866
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646887"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542780"
 ---
-# <a name="payment-information-for-russia"></a>Платежная информация для России
+# <a name="payment-information-for-russia"></a>Сведения об оплате для России
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Please pay in RUB only and reference invoice number(s) on your payment invoice invoice.
+Пожалуйста, оплатите только в рублях и справочный номер счета-фактуры (ы) на ваш денежный перевод.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** ZAO KB в Москве  
-**Код SWIFT:** THERUMX  
+**Банк:** ZaO KB Citibank в Москве  
+**Код SWIFT:** CITIRUMX  
 **BIK:** 044525202  
-**INN:** 7731420476  
+**InN:** 7731420476  
 **KPP:** 773101001  
-**Номер учетной записи:** 407028100000702700004  
-**Соответствующая учетная запись:** 30101810300000000202 в банке OPERU Moskovsky GTU Для России  
-**Имя учетной записи:** Microsoft Payments Для России LLC
+**Номер учетной записи:** 40702810000702700004  
+**Соответствующая** учетная запись: 301018103000000000202020202 в Банке ГТУ "ОПЕРУ Москвы"  
+**Имя учетной записи:** Microsoft Payments Russia LLC

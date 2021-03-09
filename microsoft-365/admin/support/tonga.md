@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92c39e85ece5cf2da157a1e92b7bb86d164955d2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 478cb3e146884319b18a731cfceb9418c74871ce
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639135"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543836"
 ---
-# <a name="contact-support-for-tonga"></a>Обратитесь в службу поддержки tonga
+# <a name="contact-support-for-tonga"></a>Поддержка контактов для Tonga
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,10 +29,10 @@ ms.locfileid: "48639135"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 14:00-10
+Английский: Mon-Fri 2 pm-10 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

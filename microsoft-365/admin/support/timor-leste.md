@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке Timor-Leste
+title: Поддержка сведений для Timor-Leste
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3154c0a84e4f9efe947a57a4ac646d916dc6c13a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 162aa205e7c58e5ea8c4b041e84e5863e5711701
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639207"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543980"
 ---
-# <a name="contact-support-for-timor-leste"></a>Обратитесь в службу поддержки Timor-Leste
+# <a name="contact-support-for-timor-leste"></a>Поддержка контактов для Timor-Leste
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,14 +29,14 @@ ms.locfileid: "48639207"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Португальский: Mon-Fri 9:00–5:00
+Португальский: Mon-Fri 9 PM-5 AM
 
-Английский: Mon-Fri 9:00–5:00
+Английский: Mon-Fri 9 PM-5 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Португальский: 24 часа в сутки между 12:00 и 22:00
+Португальский язык: 24 часа в сутки, между 12:00 и 12:00
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

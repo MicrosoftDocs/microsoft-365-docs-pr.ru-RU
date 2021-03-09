@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Македонии
+title: Сведения о поддержке Для Македонии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,32 +9,31 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9518f89c28604cedddff127d323e5c096de99cc9
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3381a4a109369acb2dc53ad03acec659fb6effdc
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641489"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546128"
 ---
-# <a name="contact-support-for-macedonia"></a>Обратитесь в службу поддержки Для Македонии
+# <a name="contact-support-for-macedonia"></a>Поддержка контактов для Македонии
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 0800 94 288
 
-После набора номера введите
+После набора введите
 
 877 663 5075
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 

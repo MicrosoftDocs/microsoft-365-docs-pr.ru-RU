@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Мальты
+title: Сведения об оплате для Мальты
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f2c991da23ec8f039c38c35e0cc9a6de99f84861
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dfd19ee3ae049068f32fc3536e50d3ccbd0e0891
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649299"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543272"
 ---
-# <a name="payment-information-for-malta"></a>Платежная информация для Мальты
+# <a name="payment-information-for-malta"></a>Сведения об оплате для Мальты
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Оплата только в есвеях и справочные номера счета-фактуры для оплаты.
+Пожалуйста, оплатите только в EUR и справочный номер счета-фактуры(ы) при переводе платежа.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Swift Code/BIC:** THEGB2L  
+**Банк:** Ситибанк, Лондон  
+**SWIFT Code/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Код СОРТИРОВКИ:** 185008  
+**КОД SORT:** 185008  
 **Номер учетной записи:** 12207591  
-**Имя учетной записи:** МАЙКРОСОФТ
+**Имя учетной записи:** Microsoft

@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Руанды
+title: Сведения об оплате для Руанды
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0c8eb06e380326a005a49898eeaf332c9eeaac54
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f376bfb69ee9ed14c37f58c51e589f378e751974
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648807"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542696"
 ---
-# <a name="payment-information-for-rwanda"></a>Платежная информация для Руанды
+# <a name="payment-information-for-rwanda"></a>Сведения об оплате для Руанды
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Оплата только в долларах США и справочные номера счета-фактуры для оплаты.
+Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Код SWIFT:** THEGB2L  
+**Банк:** Ситибанк, Лондон  
+**Код SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** МАЙКРОСОФТ  
+**Имя учетной записи:** Microsoft  

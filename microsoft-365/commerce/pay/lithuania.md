@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Литвы
+title: Сведения об оплате для Литвы
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 90ef69b5609982803e3f38a5fd5ffbddd404703d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f226d12f154a648c83d88809ec9d3d7716b47466
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649395"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543344"
 ---
-# <a name="payment-information-for-lithuania"></a>Платежная информация для Литвы
+# <a name="payment-information-for-lithuania"></a>Сведения об оплате для Литвы
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Оплата только в ЕС и ссылка на номера счета-фактуры в платежных платежах.
+Пожалуйста, платите только в EUR и ссылайтесь на номер счета(ы) на ваш денежный перевод.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Код SWIFT:** THEGB2L  
+**Банк:** Ситибанк, Лондон  
+**Код SWIFT:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Код СОРТИРОВКИ:** 185008  
+**КОД SORT:** 185008  
 **Номер учетной записи:** 12207591  
-**Имя учетной записи:** МАЙКРОСОФТ
+**Имя учетной записи:** Microsoft

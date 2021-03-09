@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Сен-Бартелеми
+title: Сведения о поддержке для Saint Barthelemy
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 12c74b0ff6554261239f5a738d038f614c3cc106
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 53e453e6bb96666c4a5eda30efad1c30c17b71f5
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640071"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544784"
 ---
-# <a name="contact-support-for-saint-barthelemy"></a>Обратитесь в службу поддержки сен-Бартелеми
+# <a name="contact-support-for-saint-barthelemy"></a>Поддержка контактов для Saint Barthelemy
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,14 +29,14 @@ ms.locfileid: "48640071"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Mon-Fri 4:00–12:00
+Французский: Mon-Fri 4 am-12 PM
 
-Английский: Mon-Fri 4:00–12:00
+Английский: Mon-Fri 4 am-12 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 3:00–16:00
+Французский: Mon-Fri 3 am-4 PM
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы
