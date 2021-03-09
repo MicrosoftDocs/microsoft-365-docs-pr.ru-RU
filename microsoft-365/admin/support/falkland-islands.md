@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Фолклендских островов
+title: Сведения о поддержке Фолклендских островов
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e63a71b33e60c53c021f4b4d54092ad14fdbadbd
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3d5467e955234b78760fba8fcd7ba7ab7668ff64
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642711"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547496"
 ---
-# <a name="contact-support-for-falkland-islands"></a>Обратитесь в службу поддержки для Фолклендских островов
+# <a name="contact-support-for-falkland-islands"></a>Поддержка контактов для Фолклендских островов
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,10 +29,10 @@ ms.locfileid: "48642711"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 10:00–18:00
+Английский: Mon-Fri 10 am-6 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

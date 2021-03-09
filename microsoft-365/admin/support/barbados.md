@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Барнадо
+title: Сведения о поддержке Барбадоса
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: ''
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 316bb320a82bfeee2aaac177ae6f07346725608c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: ec6924ed5603424320528c44aa83d2d9389703b1
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643947"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548725"
 ---
-# <a name="contact-support-for-barbados"></a>Обратитесь в службу поддержки Для Барнадо
+# <a name="contact-support-for-barbados"></a>Поддержка контактов для Барбадоса
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,7 +29,7 @@ ms.locfileid: "48643947"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 

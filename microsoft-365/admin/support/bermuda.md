@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для бермуды
+title: Сведения о поддержке Бермудских островов
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: adc344d596a2a37f0f995fb8675abc8fb0b9d875
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 68fec474bddf5c9b2a0ef2e61f49a7632c8b32c7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643875"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548636"
 ---
-# <a name="contact-support-for-bermuda"></a>Обратитесь в службу поддержки для Бермудских островов
+# <a name="contact-support-for-bermuda"></a>Поддержка контактов для Бермудских островов
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,7 +29,7 @@ ms.locfileid: "48643875"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 

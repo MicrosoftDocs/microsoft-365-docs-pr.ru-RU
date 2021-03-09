@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Бельгии
+title: Сведения о поддержке Для Бельгии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 58b2920b7fc8af0268d38f38467cf01db37148d1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 7da86a19364c8bb303706b048e694d720cf0518f
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643923"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548672"
 ---
-# <a name="contact-support-for-belgium"></a>Обратитесь в службу поддержки Бельгии
+# <a name="contact-support-for-belgium"></a>Поддержка контактов для Бельгии
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,18 +29,18 @@ ms.locfileid: "48643923"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Нидерландский: Mon-Fri 9:00–17:00
+Голландский язык: Mon-Fri 9 am-5 PM
 
-Французский: Mon-Fri 9:00–17:00
+Французский: Mon-Fri 9 am-5 PM
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 8:00–9:00
+Французский: Mon-Fri 8 am-9 PM
 
 Английский: круглосуточно, без выходных
 
 Альтернативный номер телефона: 02 200 88 84
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

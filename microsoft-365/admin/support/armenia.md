@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Азербайджана
+title: Сведения о поддержке Для Армении
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef32fecef7e615c386efbb03aaa72d138e6afacc
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 86702ce915b16763915d5ddbc64fe715b24d9c87
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644163"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548984"
 ---
-# <a name="contact-support-for-armenia"></a>Обратитесь в службу поддержки Для Азербайджана
+# <a name="contact-support-for-armenia"></a>Поддержка контактов для Армении
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -29,19 +28,19 @@ ms.locfileid: "48644163"
 
 Выбор варианта 9
 
-Введите код 7706
+Ввод кода 7706
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Русский: Mon-Fri 10:00–17:00 в Москве
+Русский язык: Mon-Fri 10:00 мск
 
-Английский: Mon-Fri 9:00–17:00 в Лондоне
+Английский: Mon-Fri 9:00-17:00 в Лондоне
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Русский: Mon-Fri 7:00–8:00 в Москве
+Русский язык: Mon-Fri 7:00 мск
 
 Английский: круглосуточно, без выходных
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

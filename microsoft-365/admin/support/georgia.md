@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Джорджии
+title: Сведения о поддержке для Грузии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a6488eca054011707c1cf843cdf6f76fc6ae954e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e2cb2465575d2d65dbfe9d8580ed371fb985c92d
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642495"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547256"
 ---
-# <a name="contact-support-for-georgia"></a>Обратитесь в службу поддержки Для Джорджии
+# <a name="contact-support-for-georgia"></a>Поддержка контактов для Грузии
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -31,19 +30,19 @@ ms.locfileid: "48642495"
 
 Выбор варианта 9
 
-Введите код 7700
+Ввод кода 7700
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Русский: Mon-Fri 10:00–19:00 в Москве
+Русский язык: Mon-Fri 10:00 мск
 
-Английский: Mon-Fri 9:00–17:00 в Лондоне
+Английский: Mon-Fri 9:00-17:00 в Лондоне
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Русский: Mon-Fri 7:00–8:00 в Москве
+Русский язык: Mon-Fri 7:00 мск
 
 Английский: круглосуточно, без выходных
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

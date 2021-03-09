@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для островов Хер и Макдональд
+title: Сведения о поддержке островов Херд и Макдоналдс
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 365d92d4ae21913860e1ba95b7948ce4a2d1776c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: cc497cd7452a0502af40d1466ae1480c8b6f8cc0
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642260"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546908"
 ---
-# <a name="contact-support-for-heard-island-and-mcdonald-islands"></a>Обратитесь в службу поддержки по островам Хер и Макдональд
+# <a name="contact-support-for-heard-island-and-mcdonald-islands"></a>Поддержка контактов для островов Херд и Макдональд
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,10 +29,10 @@ ms.locfileid: "48642260"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

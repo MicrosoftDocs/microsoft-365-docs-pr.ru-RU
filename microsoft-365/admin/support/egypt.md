@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Египет
+title: Сведения о поддержке Для Египта
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6b0f6574b0a424ec9fbcb6325d895b69d0d86ffc
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b1b2df955098387ceab8fb665fa89328120b7a0b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642903"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547652"
 ---
-# <a name="contact-support-for-egypt"></a>Обратитесь в службу поддержки Для Египет
+# <a name="contact-support-for-egypt"></a>Поддержка контактов для Египта
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,12 +29,12 @@ ms.locfileid: "48642903"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Арабский: Sun-Thu 10:00–18:00
+Арабский: Sun-Thu 10 am-6 PM
 
-Английский: Mon-Fri 10:00–18:00
+Английский: Mon-Fri 10 am-6 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Арабский: Sun-Thu 10:00–18:00
+Арабский: Sun-Thu 10 am-6 PM
 
 Английский: круглосуточно, без выходных

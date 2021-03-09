@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Гваделупы
+title: Сведения о поддержке guadeloupe
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b468e0a1e03aa707c566abdd3fb76a79f596fb4b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 7163fb189ca72327ea290c45ccb97ec5e566b10b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642411"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547124"
 ---
-# <a name="contact-support-for-guadeloupe"></a>Обратитесь в службу поддержки для Гваделупы
+# <a name="contact-support-for-guadeloupe"></a>Поддержка контактов для Guadeloupe
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -32,12 +31,12 @@ ms.locfileid: "48642411"
 
 Французский: Mon-Fri 6:00
 
-Английский: Mon-Fri 6:00–13:00
+Английский: Mon-Fri 6 am-1 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 6:00–13:00
+Французский: Mon-Fri 6 am-1 PM
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

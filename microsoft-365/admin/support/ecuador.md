@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Эквадора
+title: Сведения о поддержке Для Эквадора
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,32 +9,31 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6e32a6b299e0176cdd9cd75d2edcbecd46319cb2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 0885c0ff31d2e98fe6975fcde0bd5c3dd674da7e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642927"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547664"
 ---
-# <a name="contact-support-for-ecuador"></a>Обратитесь в службу поддержки Эквадора
+# <a name="contact-support-for-ecuador"></a>Поддержка контактов для Эквадора
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>Номер телефона
 1 800 225 528
 
-После набора номера введите
+После набора введите
 
 877 663 5075
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Испанский: Mon-Fri 9:00–17:00
+Испанский: Mon-Fri 9 утра-5 вечера
 
 ### <a name="technical-support"></a>Техническая поддержка:
 

@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5babc628894e43788756a3df94bcddf11a83fa0e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 9e0b2614012e8a9b122cadd2771fb5006550aee0
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638667"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549320"
 ---
-# <a name="contact-support-for-wallis-and-futuna"></a>Обратитесь в службу поддержки для Валлиса и Футуны
+# <a name="contact-support-for-wallis-and-futuna"></a>Поддержка контактов для Wallis и Futuna
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,14 +29,14 @@ ms.locfileid: "48638667"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Sun-Fri 8:00–4:00
+Французский: Sun-Fri 8 вечера-4 am
 
-Английский: Sun-Fri 8:00–4:00
+Английский: Sun-Fri 8 pm-4 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 19:00–8:00
+Французский: Mon-Fri 7 PM-8 AM
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

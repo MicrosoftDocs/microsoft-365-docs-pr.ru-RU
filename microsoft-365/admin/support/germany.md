@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 087cd6e674e16eca7f74d901cb8ff3b52bb695a5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: aace89665d8c1034f8af41b0991ed5cf217512aa
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642507"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547208"
 ---
-# <a name="contact-support-for-germany"></a>Обратитесь в службу поддержки Для Германии
+# <a name="contact-support-for-germany"></a>Поддержка контактов для Германии
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,16 +29,16 @@ ms.locfileid: "48642507"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Немецкий: Mon-Fri 9:00–17:00
+Немецкий: Mon-Fri 9 am-5 PM
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Немецкий: Mon-Fri 8:00–9:00
+Немецкий язык: Mon-Fri 8 am-9 PM
 
 Английский: круглосуточно, без выходных
 
 Альтернативный номер телефона: 069 380 789 508
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Доминиканской Республики
+title: Сведения о поддержке для Гаити
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 06b00db58f3ec4f5ecb2676ba34a292674ed4459
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a2784e6eb7bdde5ce6b8f86f3ed25347b5ea084e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642232"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546932"
 ---
-# <a name="contact-support-for-haiti"></a>Обратитесь в службу поддержки Для Доминиканской Республики
+# <a name="contact-support-for-haiti"></a>Поддержка контактов для Гаити
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,14 +29,14 @@ ms.locfileid: "48642232"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Французский: Mon-Fri 03:00–11:00
+Французский: Mon-Fri 3 AM-11 AM
 
-Английский: Mon-Fri 03:00–11:00
+Английский: Mon-Fri 3 AM-11 AM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Французский: Mon-Fri 14:00–15:00
+Французский: Mon-Fri 2 am-3 PM
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

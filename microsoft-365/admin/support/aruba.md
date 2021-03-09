@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Арубы
+title: Сведения о поддержке aruba
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0a331059a9b565b2c5de8b4104d6d578714adc92
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e9250b2829cb495a7aca341eeb772776afac5d25
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644175"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548900"
 ---
-# <a name="contact-support-for-aruba"></a>Обратитесь в службу поддержки Арубы
+# <a name="contact-support-for-aruba"></a>Поддержка контактов для Aruba
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,12 +29,12 @@ ms.locfileid: "48644175"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Нидерландский: Mon-Fri 04:00
+Голландский язык: Mon-Fri 4:00
 
-Английский: Mon-Fri 04:00
+Английский: Mon-Fri 4:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы

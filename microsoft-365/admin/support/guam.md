@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для guam
+title: Сведения о поддержке Гуама
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fcbcd35b3533d819d48b99b46ed73e9982958c3a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f41cd607e3dd418c70cdcfa2733f036531548244
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642399"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547112"
 ---
-# <a name="contact-support-for-guam"></a>Обратитесь в службу поддержки для guam
+# <a name="contact-support-for-guam"></a>Поддержка контактов для Гуама
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,10 +29,10 @@ ms.locfileid: "48642399"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 3:00–12:00
+Английский: Mon-Fri 3 am-12 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 809cd8c5087dfabc6825bcc8cf53f3c02213b7d2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 9475a197b189c98cd920a5eb6b52be82c0e7144d
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642159"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546872"
 ---
-# <a name="contact-support-for-hungary"></a>Обратитесь в службу поддержки Венгрии
+# <a name="contact-support-for-hungary"></a>Поддержка контактов для Венгрии
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,14 +29,14 @@ ms.locfileid: "48642159"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 9:00–17:00
+Английский: Mon-Fri 09:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Венгерский: Mon-Fri 8:00–18:00
+Венгерский: Mon-Fri 8 am-6 PM
 
 Английский: круглосуточно, без выходных
 
 Альтернативный номер телефона: +36 1 778 9292
 
-Применяются местные тарифы на вызовы
+Применяются локальные платежи за вызовы

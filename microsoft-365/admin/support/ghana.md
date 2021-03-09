@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Ганы
+title: Сведения о поддержке для Ганы
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 620785d6c749feb1336b17f1e980c04e48cc5302
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 4bcf2799ce227ae8eabd787a0f9733bfd728be02
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642452"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547196"
 ---
-# <a name="contact-support-for-ghana"></a>Обратитесь в службу поддержки Для Ганы
+# <a name="contact-support-for-ghana"></a>Поддержка контактов для Ганы
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -29,15 +28,15 @@ ms.locfileid: "48642452"
 
 Выбор варианта 9
 
-Введите код 7704
+Ввод кода 7704
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Английский: Mon-Fri 8:00–16:00
+Английский: Mon-Fri 8:00
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
 Английский: круглосуточно, без выходных
 
-Применяются платежи за международные вызовы
+Применяются международные сборы за вызовы
