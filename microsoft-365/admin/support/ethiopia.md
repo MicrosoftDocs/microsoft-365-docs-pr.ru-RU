@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Эфиопии
+title: Сведения о поддержке для Эфиопии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,31 +9,30 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: afe0bd6cd83dbef1f5bb7858b95d5e86c09d5353
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 84a2e7dd1c412023d95ae7e2a3fe58c25ed8b3a6
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642747"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547568"
 ---
-# <a name="contact-support-for-ethiopia"></a><span data-ttu-id="32846-103">Обратитесь в службу поддержки Для Эфиопии</span><span class="sxs-lookup"><span data-stu-id="32846-103">Contact support for Ethiopia</span></span>
+# <a name="contact-support-for-ethiopia"></a><span data-ttu-id="034e7-103">Поддержка контактов для Эфиопии</span><span class="sxs-lookup"><span data-stu-id="034e7-103">Contact support for Ethiopia</span></span>
 
-<span data-ttu-id="32846-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="32846-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="034e7-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="034e7-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="32846-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="32846-105">Phone number</span></span>
-<span data-ttu-id="32846-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="32846-106">+27 21 427 3315</span></span>
+## <a name="phone-number"></a><span data-ttu-id="034e7-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="034e7-105">Phone number</span></span>
+<span data-ttu-id="034e7-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="034e7-106">+27 21 427 3315</span></span>
 
-## <a name="hours"></a><span data-ttu-id="32846-107">Часы</span><span class="sxs-lookup"><span data-stu-id="32846-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="32846-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="32846-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="034e7-107">Часы</span><span class="sxs-lookup"><span data-stu-id="034e7-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="034e7-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="034e7-108">Billing Support:</span></span>
 
-<span data-ttu-id="32846-109">Английский: Mon-Fri 10:00–18:00</span><span class="sxs-lookup"><span data-stu-id="32846-109">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="034e7-109">Английский: Mon-Fri 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="034e7-109">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="32846-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="32846-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="034e7-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="034e7-110">Technical Support:</span></span>
 
-<span data-ttu-id="32846-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="32846-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="034e7-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="034e7-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="32846-112">Применяются платежи за международные вызовы</span><span class="sxs-lookup"><span data-stu-id="32846-112">International call charges apply</span></span>
+<span data-ttu-id="034e7-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="034e7-112">International call charges apply</span></span>
