@@ -1,5 +1,5 @@
 ---
-title: Информация о поддержке для Алжира
+title: Сведения о поддержке для Алжира
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,45 +9,44 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5676ba238ba4deb7c1a4f8e1f7aa267b957d6b1f
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d13b995b5c380b1a96ab441f3f81d7ca2f6768a6
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644379"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549116"
 ---
-# <a name="contact-support-for-algeria"></a><span data-ttu-id="15877-103">Обратитесь в службу поддержки Для Алжира</span><span class="sxs-lookup"><span data-stu-id="15877-103">Contact support for Algeria</span></span>
+# <a name="contact-support-for-algeria"></a><span data-ttu-id="03773-103">Поддержка контактов для Алжира</span><span class="sxs-lookup"><span data-stu-id="03773-103">Contact support for Algeria</span></span>
 
-<span data-ttu-id="15877-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="15877-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="03773-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="03773-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="15877-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="15877-105">Phone number</span></span>
-<span data-ttu-id="15877-106">021 89 10 70</span><span class="sxs-lookup"><span data-stu-id="15877-106">021 89 10 70</span></span>
+## <a name="phone-number"></a><span data-ttu-id="03773-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="03773-105">Phone number</span></span>
+<span data-ttu-id="03773-106">021 89 10 70</span><span class="sxs-lookup"><span data-stu-id="03773-106">021 89 10 70</span></span>
 
-<span data-ttu-id="15877-107">Выбор варианта 1</span><span class="sxs-lookup"><span data-stu-id="15877-107">Select option 1</span></span>
+<span data-ttu-id="03773-107">Выбор варианта 1</span><span class="sxs-lookup"><span data-stu-id="03773-107">Select option 1</span></span>
 
-<span data-ttu-id="15877-108">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="15877-108">Select option 9</span></span>
+<span data-ttu-id="03773-108">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="03773-108">Select option 9</span></span>
 
-<span data-ttu-id="15877-109">Введите код 7703</span><span class="sxs-lookup"><span data-stu-id="15877-109">Enter code 7703</span></span>
+<span data-ttu-id="03773-109">Ввод кода 7703</span><span class="sxs-lookup"><span data-stu-id="03773-109">Enter code 7703</span></span>
 
-## <a name="hours"></a><span data-ttu-id="15877-110">Часы</span><span class="sxs-lookup"><span data-stu-id="15877-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="15877-111">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="15877-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="03773-110">Часы</span><span class="sxs-lookup"><span data-stu-id="03773-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="03773-111">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="03773-111">Billing Support:</span></span>
 
-<span data-ttu-id="15877-112">Арабский: Sun-Thu 9:00–17:00</span><span class="sxs-lookup"><span data-stu-id="15877-112">Arabic: Sun-Thu 9 AM-5 PM</span></span>
+<span data-ttu-id="03773-112">Арабский: Sun-Thu 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="03773-112">Arabic: Sun-Thu 9 AM-5 PM</span></span>
 
-<span data-ttu-id="15877-113">Французский: Mon-Fri 9:00–17:00</span><span class="sxs-lookup"><span data-stu-id="15877-113">French: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="03773-113">Французский: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="03773-113">French: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="15877-114">Английский: Mon-Fri 9:00–17:00</span><span class="sxs-lookup"><span data-stu-id="15877-114">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="03773-114">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="03773-114">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="15877-115">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="15877-115">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="03773-115">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="03773-115">Technical Support:</span></span>
 
-<span data-ttu-id="15877-116">Арабский: Sun-Thu 9:00–17:00</span><span class="sxs-lookup"><span data-stu-id="15877-116">Arabic: Sun-Thu 9 AM-5 PM</span></span>
+<span data-ttu-id="03773-116">Арабский: Sun-Thu 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="03773-116">Arabic: Sun-Thu 9 AM-5 PM</span></span>
 
-<span data-ttu-id="15877-117">Французский: Mon-Fri 8:00–9:00</span><span class="sxs-lookup"><span data-stu-id="15877-117">French: Mon-Fri 8 AM-9 PM</span></span>
+<span data-ttu-id="03773-117">Французский: Mon-Fri 8 am-9 PM</span><span class="sxs-lookup"><span data-stu-id="03773-117">French: Mon-Fri 8 AM-9 PM</span></span>
 
-<span data-ttu-id="15877-118">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="15877-118">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="03773-118">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="03773-118">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="15877-119">Применяются местные тарифы на вызовы</span><span class="sxs-lookup"><span data-stu-id="15877-119">Local call charges apply</span></span>
+<span data-ttu-id="03773-119">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="03773-119">Local call charges apply</span></span>
