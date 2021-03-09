@@ -1,5 +1,5 @@
 ---
-title: Платежная информация для Саудовской Аравии
+title: Сведения об оплате для Саудовской Аравии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, куда отправлять платеж за подписку.
+description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 09d1c27a9ca790833d560fd2cda9ec3050500b5f
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 43e5c5534a931568bfbb444d15ae3b987980074c
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648675"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542648"
 ---
-# <a name="payment-information-for-saudi-arabia"></a>Платежная информация для Саудовской Аравии
+# <a name="payment-information-for-saudi-arabia"></a>Сведения об оплате для Саудовской Аравии
 
 [Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
-Оплата только в есвеях и справочные номера счета-фактуры для оплаты.
+Пожалуйста, оплатите только в EUR и справочный номер счета-фактуры(ы) при переводе платежа.
 
 ## <a name="electronic-funds-transfer"></a>Электронный платеж
 
-**Bank:** Заметьев, Лондон  
-**Swift Code/BIC:** THEGB2L  
-**IBAN:** Код СОРТИРОВКИ GB31CITI18500812510049: 185008   
+**Банк:** Ситибанк, Лондон  
+**SWIFT Code/BIC:** CITIGB2L  
+**IBAN:** GB31CITI18500812510049 **SORT Code:** 185008  
 **Номер учетной записи:** 12510049   
-**Имя учетной записи:** МАЙКРОСОФТ
+**Имя учетной записи:** Microsoft

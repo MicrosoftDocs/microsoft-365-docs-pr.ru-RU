@@ -1,5 +1,5 @@
 ---
-title: Сведения о поддержке для Саудовской Аравии
+title: Сведения о поддержке Для Саудовской Аравии
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Узнайте, как обратиться в службу поддержки для своей страны или региона.
+description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 235d4584fdc192983ddb5690df44be9247bbe94e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 09e0071335b9aa14c3c53a49699f2815c6b3fc71
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639879"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544568"
 ---
-# <a name="contact-support-for-saudi-arabia"></a>Обратитесь в службу поддержки Для Саудовской Аравии
+# <a name="contact-support-for-saudi-arabia"></a>Поддержка контактов для Саудовской Аравии
 
 [Найдите другую страну или регион.](../contact-support-for-business-products.md)
 
@@ -30,12 +29,12 @@ ms.locfileid: "48639879"
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:
 
-Арабский: Sun-Thu 10:00–18:00
+Арабский: Sun-Thu 10 am-6 PM
 
-Английский: Mon-Fri 10:00–18:00
+Английский: Mon-Fri 10 am-6 PM
 
 ### <a name="technical-support"></a>Техническая поддержка:
 
-Арабский: Sun-Thu 10:00–18:00
+Арабский: Sun-Thu 10 am-6 PM
 
 Английский: круглосуточно, без выходных
