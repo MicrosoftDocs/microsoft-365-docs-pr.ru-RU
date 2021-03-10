@@ -48,12 +48,14 @@
       href: billing-and-payments/view-your-bill-or-invoice.md
     - name: Ознакомление со счетом
       href: billing-and-payments/understand-your-invoice.md
-    - name: Управление методами оплаты
-      href: billing-and-payments/manage-payment-methods.md
     - name: Оплата подписки
       href: billing-and-payments/pay-for-your-subscription.md
+    - name: Управление методами оплаты
+      href: billing-and-payments/manage-payment-methods.md
     - name: Изменение частоты выставления счетов
       href: billing-and-payments/change-payment-frequency.md
+    - name: Управление уведомлениями о выставлении счетов и вложениями счетов-фактур
+      href: billing-and-payments/manage-billing-notifications.md
     - name: Общие сведения о профилях выставления счетов
       href: billing-and-payments/manage-billing-profiles.md
     - name: Изменение адресов выставления счетов

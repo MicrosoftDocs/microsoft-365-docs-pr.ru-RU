@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 47bbc722ad87d5bde4b1e0dfb732e08dad3938f2
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ef89cadc09dea7c2186fbf4a0d76d2c690aa8acc
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423640"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50597221"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -34,7 +34,7 @@ ms.locfileid: "50423640"
 
 Если у вас есть [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection), определите, нужно ли перенести метки на единую платформу меток, а также какой клиент меток использовать:
 - [Как определить, находится ли мой клиент на единой платформе меток?](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
-- [Укажите, какой клиент меток следует использовать для компьютеров с Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers)
+- [Выбор решения для применения меток в Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
 
 Если вы готовы приступить к защите данных своей организации с помощью меток конфиденциальности, выполните следующие действия.
 
