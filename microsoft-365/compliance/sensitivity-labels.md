@@ -22,12 +22,12 @@ description: Используйте метки конфиденциальнос�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 9232ccd9fd64676cea0826b05ccd7e68fcf054b9
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: f5c5901da44424d949062c6a2e9eecf69c48be3f
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454608"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50597189"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Сведения о метках конфиденциальности
 
@@ -256,7 +256,7 @@ ms.locfileid: "50454608"
 
 - модуль PowerShell для поиска конфиденциальной информации в локальных файлах и применение или удаление меток и шифрования из этих файлов.
 
-Если вы впервые используете Azure Information Protection или являетесь действующим пользователем Azure Information Protection, который только что перенес свои метки, см. раздел [Выберите, какой клиент меток следует использовать для компьютеров Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) в документации по Azure Information Protection.
+Если вы впервые используете Azure Information Protection или являетесь действующим пользователем Azure Information Protection, который недавно перенес свои метки, см. раздел [Выбор решения для применения меток в Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution) в документации по Azure Information Protection.
 
 ## <a name="sensitivity-labels-and-microsoft-cloud-app-security"></a>Метки конфиденциальности и Microsoft Cloud App Security
 
