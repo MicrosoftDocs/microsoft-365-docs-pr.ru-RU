@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: 137fcdad514e8272b99ab735a0cf1ed6f6e3e00e
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 4296924684e13e163f28e0f952b2cd380cdcc047
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461800"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712015"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -58,8 +58,8 @@ ms.locfileid: "50461800"
 
 Эти почтовые ящики, перечисленные по атрибуту RecipientTypeDetails:
 
-- **UserMailbox**. Эти почтовые ящики хранят сообщения для пользователей Teams, у которых есть почтовый ящик Exchange Online.
-- **MailUser**. Эти почтовые ящики хранят сообщения для пользователей Teams, у которых есть почтовый ящик на локальном сервере Exchange Server, а не в Exchange Online.
+- **MailUser**. Эти почтовые ящики хранят сообщения для облачных пользователей Teams.
+- **UserMailbox**. Эти почтовые ящики хранят сообщения для [локальных пользователей Teams](search-cloud-based-mailboxes-for-on-premises-users.md).
 - **GroupMailbox**. Эти почтовые ящики хранят сообщения для каналов Teams.
 
 Другие типы почтовых ящиков, например RoomMailbox, используемые для конференц-залов Teams, не поддерживаются в политиках хранения Teams.

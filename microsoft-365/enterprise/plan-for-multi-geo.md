@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Сведения о Microsoft 365 Multi-Geo, о принципе такой поддержки и о географических расположениях, доступных для хранения данных.
-ms.openlocfilehash: a8eba731fac16e56ef66ac0a905de521dfa7a6c8
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: ce8b752cc6a335249f9d8e03289fd16b04756ce9
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877236"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712346"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>План для Microsoft 365 Multi-Geo
 
@@ -73,10 +73,14 @@ ms.locfileid: "48877236"
 
 Администрирование клиента с поддержкой нескольких регионов может отличаться от администрирования без таковой, так как многие службы и настройки SharePoint и OneDrive поддерживают несколько регионов. Рекомендуем ознакомиться со статьей [Администрирование среды с поддержкой нескольких регионов](administering-a-multi-geo-environment.md), прежде чем переходить к настройке.
 
-Ознакомьтесь [с пользовательским интерфейсом в среде](multi-geo-user-experience.md) с несколькими географическими средами, чтобы узнать больше о пользовательском интерфейсе в среде с несколькими географическими средами.
+Ознакомьтесь [с пользовательским опытом в среде с несколькими](multi-geo-user-experience.md) геодезами, чтобы узнать подробности об опыте конечных пользователей в среде с несколькими географическими условиями.
 
 Сведения о работе с Teams в клиентах Microsoft 365 Multi-Geo см. в статье [Взаимодействие с Teams в клиентах Microsoft 365 OneDrive и SharePoint Online с поддержкой нескольких регионов](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo).
 
 Чтобы начать настройку Microsoft 365 Multi-Geo, ознакомьтесь со статьей [Настройка Microsoft 365 Multi-Geo](multi-geo-tenant-configuration.md).
 
 После настройки не забудьте [перенести библиотеки OneDrive пользователей](move-onedrive-between-geo-locations.md), если это необходимо для работы пользователей в предпочтительных расположениях данных.
+
+## <a name="related-topics"></a>Связанные статьи
+
+[Настройка обнаружения электронных данных в Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-ediscovery-configuration)

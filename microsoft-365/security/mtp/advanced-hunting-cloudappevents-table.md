@@ -1,7 +1,7 @@
 ---
-title: Таблица CloudAppEvents в схеме advanced hunting
-description: Узнайте о событиях из облачных приложений и служб в таблице CloudAppEvents схемы advanced hunting
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, CloudAppEvents, Cloud App Security, MCAS
+title: Таблица CloudAppEvents в продвинутой схеме охоты
+description: Узнайте о событиях из облачных приложений и служб в таблице CloudAppEvents продвинутой схемы охоты
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, CloudAppEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 021a8210bbe5886021e980b33ade0b9e2ded7b5b
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: a8ba1f94bc704a5fe99d54b77aa6570c5e43d3f7
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928457"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712490"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -35,39 +35,42 @@ ms.locfileid: "49928457"
 **Область применения:**
 - Microsoft 365 Defender
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-В настоящее время доступна в предварительной версии, таблица в схеме advanced hunting содержит сведения о действиях в различных облачных приложениях и службах, в частности `CloudAppEvents` Microsoft Teams и Exchange Online. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
-Эта таблица будет расширена и будет включать дополнительные действия, отслеживаемые Microsoft Cloud App Security. В итоге эта таблица будет включать действия с файлами, хранимые в таблице [AppFileEvents.](advanced-hunting-appfileevents-table.md) Корпорация Майкрософт предоставит дополнительные рекомендации по мере перемещения дополнительных данных в эту таблицу.
+Таблица в схеме расширенных схем охоты содержит сведения о действиях в различных облачных приложениях и службах, охваченных безопасностью облачных приложений Microsoft, в частности `CloudAppEvents` Dropbox, [](advanced-hunting-overview.md) Exchange Online, OneDrive, Microsoft Teams и SharePoint. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+
+>[!IMPORTANT]
+>В эту таблицу включены сведения, которые раньше были доступны в `AppFileEvents` таблице. Начиная с 7 марта 2021 г. пользователи, которые охотятся через действия, связанные с файлами, в облачных службах и после этой даты, должны использовать `CloudAppEvents` таблицу вместо этого. <br><br>Не забудьте найти запросы и пользовательские правила обнаружения, которые по-прежнему используются в таблице, и `AppFileEvents` изменить их для использования `CloudAppEvents` таблицы. Дополнительные инструкции по преобразованию затронутых запросов можно найти в Hunt в облачных приложениях с помощью расширенных методов охоты На защитника [Microsoft 365.](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857)
+
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
-| `ActionType` | string | Тип действия, которое вызвало событие |
-| `Application` | string | Приложение, которое выполнило записанную действие |
-| `ApplicationId` | string | Уникальный идентификатор приложения |
-| `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure Active Directory |
-| `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемой в адресной книге. Обычно сочетание заданного или имени, инициации по середине и фамилии или фамилии. |
-| `IsAdminOperation` | string | Указывает, было ли действие выполнено администратором |
-| `DeviceType` | string | Тип устройства, основанного на назначении и функциональности, например "Сетевое устройство", "Рабочей станции", "Сервер", "Мобильный", "Игровая консоль" или "Принтер" | 
-| `OSPlatform` | string | Платформа операционной системы, запущенной на устройстве. В этом столбце указаны определенные операционные системы, включая варианты одного семейства, такие как Windows 10 и Windows 7. |
-| `IPAddress` | string | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях |
-| `IsAnonymousProxy` | string | Указывает, принадлежит ли IP-адрес известному анонимному прокси-серверу |
-| `CountryCode` | string | Двух буквный код, указывающий страну, в которой расположен IP-адрес клиента |
-| `City` | string | Город, в котором расположен IP-адрес клиента |
-| `Isp` | string | Поставщик услуг Интернета, связанный с IP-адресом |
-| `UserAgent` | string | Сведения об агенте пользователя из веб-браузера или другого клиентского приложения |
-| `ActivityType` | string | Тип действия, которое вызвало событие |
-| `ActivityObjects` | string | Список объектов, таких как файлы или папки, которые были задействованы в записанной активности |
-| `ObjectName` | string | Имя объекта, к который было применено записанное действие |
-| `ObjectType` | string | Тип объекта, например файла или папки, к который было применено записано действие |
-| `ObjectId` | string | Уникальный идентификатор объекта, к котором было применено записано действие |
-| `ReportId` | string | Уникальный идентификатор события |
-| `RawEventData` | string | Необработанные сведения о событиях из источника приложения или службы в формате JSON |
-| `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
+| `ActionType` | string | Тип действий, которые вызвали событие |
+| `Application` | Строка | Приложение, которое выполнило записанную акцию |
+| `ApplicationId` | Строка | Уникальный идентификатор для приложения |
+| `AccountObjectId` | Строка | Уникальный идентификатор учетной записи в Azure Active Directory |
+| `AccountDisplayName` | Строка | Имя пользователя учетной записи, отображаемого в адресной книге. Как правило, сочетание данной или имени, среднего посвящения и фамилии или фамилии. |
+| `IsAdminOperation` | Строка | Указывает, выполнялось ли действие администратором |
+| `DeviceType` | Строка | Тип устройства на основе целей и функциональных возможностей, таких как "Сетевое устройство", "Workstation", "Server", "Mobile", "Gaming console" или "Printer" | 
+| `OSPlatform` | Строка | Платформа операционной системы, запущенной на устройстве. В этом столбце указаны определенные операционные системы, в том числе варианты в одной семье, например Windows 10 и Windows 7. |
+| `IPAddress` | Строка | IP-адрес, присвоенный конечной точке и используемый во время связанных сетевых коммуникаций |
+| `IsAnonymousProxy` | Строка | Указывает, принадлежит ли IP-адрес известному анонимному прокси-серверу |
+| `CountryCode` | Строка | Код из двух букв, указывающий страну, в которой расположен IP-адрес клиента |
+| `City` | Строка | Город, в котором расположен IP-адрес клиента |
+| `Isp` | Строка | Поставщик интернет-услуг (ISP), связанный с IP-адресом |
+| `UserAgent` | Строка | Сведения агента пользователя из веб-браузера или другого клиентского приложения |
+| `ActivityType` | Строка | Тип действий, которые вызвали событие |
+| `ActivityObjects` | Строка | Список объектов, таких как файлы или папки, которые были вовлечены в записанную деятельность. |
+| `ObjectName` | Строка | Имя объекта, к который было применено записанное действие |
+| `ObjectType` | Строка | Тип объекта, например файла или папки, к который было применено записано действие |
+| `ObjectId` | Строка | Уникальный идентификатор объекта, к котором было применено записано действие |
+| `ReportId` | Строка | Уникальный идентификатор события |
+| `RawEventData` | Строка | Необработанные сведения о событиях из исходных приложений или служб в формате JSON |
+| `AdditionalFields` | Строка | Дополнительные сведения об объекте или событии |
+
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

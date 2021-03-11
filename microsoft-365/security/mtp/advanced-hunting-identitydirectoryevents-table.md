@@ -1,7 +1,7 @@
 ---
-title: Таблица IdentityDirectoryEvents в схеме advanced hunting
-description: Узнайте о событиях контроллера домена и Active Directory в таблице IdentityDirectoryEvents схемы advanced hunting
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, IdentityDirectoryEvents, domain controller, Active Directory, Azure ATP, identities
+title: Таблица IdentityDirectoryEvents в продвинутой схеме охоты
+description: Узнайте о контроллере домена и событиях Active Directory в таблице IdentityDirectoryEvents продвинутой схемы охоты
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, microsoft threat protection, microsoft 365, mtp, m365, поиск, запрос, телеметрия, ссылка на схему, kusto, таблица, столбец, тип данных, описание, IdentityDirectoryEvents, контроллер домена, Active Directory, Azure ATP, удостоверения
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 95090b0f4abe0b0f0552c81495936f4f2261cf8e
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d4e119bc0a2e600d5203231eb196cf201469bfd2
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929938"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712370"
 ---
 # <a name="identitydirectoryevents"></a>IdentityDirectoryEvents
 
@@ -35,38 +35,38 @@ ms.locfileid: "49929938"
 **Область применения:**
 - Microsoft 365 Defender
 
-Таблица в схеме advanced hunting содержит события, связанные с контроллером локального домена под управлением `IdentityDirectoryEvents` Active Directory [](advanced-hunting-overview.md) (AD). В этой таблице фиксироваться различные события, связанные с удостоверениями, такие как изменение паролей, истечение срока действия пароля и изменение имени пользователя-пользователя. Он также захватывает системные события на контроллере домена, такие как планирование задач и действия PowerShell. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в продвинутой схеме охоты содержит события, включающие локального контроллера домена под `IdentityDirectoryEvents` управлением Active [](advanced-hunting-overview.md) Directory (AD). В этой таблице запечатлены различные события, связанные с удостоверением, такие как изменения пароля, истечение срока действия пароля и изменение основного имени пользователя (UPN). Он также фиксирует события системы на контроллере домена, например планирование задач и активность PowerShell. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 >[!TIP]
-> Для получения подробных сведений о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в Центре безопасности. [](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center)
+> Подробные сведения о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в центре безопасности.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
-| `ActionType` | string | Тип действия, которое вызвало событие. Подробные сведения см. в справке [по схеме портала](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) |
-| `Application` | string | Приложение, которое выполнило записанную действие |
-| `TargetAccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи, к которую было применено записанное действие |
-| `TargetAccountDisplayName` | string | Отображаемого имени учетной записи, к которую было применено записанное действие |
-| `TargetDeviceName` | string | Полное доменное имя устройства, к которое было применено записанное действие |
-| `DestinationDeviceName` | string | Имя устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
-| `DestinationIPAddress` | string | IP-адрес устройства, на которое запущено серверное приложение, обрабатывающее записанное действие |
-| `DestinationPort` | string | Порт назначения действия |
-| `Protocol` | string | Протокол, используемый во время связи |
-| `AccountName` | string | Имя пользователя учетной записи |
-| `AccountDomain` | string | Домен учетной записи |
-| `AccountUpn` | string | Имя пользователя-пользователя (UPN) учетной записи |
-| `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
-| `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure Active Directory |
-| `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемой в адресной книге. Обычно сочетание заданного или имени, инициации по середине и фамилии или фамилии. |
-| `DeviceName` | string | Полное доменное имя устройства |
-| `IPAddress` | string | IP-адрес, присвоенный устройству во время связи |
-| `Port` | string | TCP-порт, используемый во время связи |
-| `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
-| `ISP` | string | Поставщик услуг Интернета, связанный с IP-адресом |
+| `ActionType` | string | Тип действий, которые вызвали событие. Подробные [сведения см. в](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) справке по схеме на портале |
+| `Application` | Строка | Приложение, которое выполнило записанную акцию |
+| `TargetAccountUpn` | Строка | Основное имя пользователя (UPN) учетной записи, к |
+| `TargetAccountDisplayName` | Строка | Отображение имени учетной записи, к которую было применено записанное действие |
+| `TargetDeviceName` | Строка | Полное доменное имя (FQDN) устройства, на которое было применено записанное действие |
+| `DestinationDeviceName` | Строка | Имя устройства под управлением серверного приложения, обрабатываемого записанным действием |
+| `DestinationIPAddress` | Строка | IP-адрес устройства под управлением серверного приложения, обработав записанное действие |
+| `DestinationPort` | Строка | Порт назначения действия |
+| `Protocol` | Строка | Протокол, используемый во время связи |
+| `AccountName` | Строка | Имя пользователя учетной записи |
+| `AccountDomain` | Строка | Домен учетной записи |
+| `AccountUpn` | Строка | Основное имя пользователя (UPN) учетной записи |
+| `AccountSid` | Строка | Идентификатор безопасности (SID) учетной записи |
+| `AccountObjectId` | Строка | Уникальный идентификатор учетной записи в Azure Active Directory |
+| `AccountDisplayName` | Строка | Имя пользователя учетной записи, отображаемого в адресной книге. Как правило, сочетание данной или имени, среднего посвящения и фамилии или фамилии. |
+| `DeviceName` | Строка | Полное доменное имя (FQDN) устройства |
+| `IPAddress` | Строка | IP-адрес, присвоенный устройству во время связи |
+| `Port` | Строка | Порт TCP, используемый во время связи |
+| `Location` | Строка | Город, страна или другое географическое расположение, связанное с событием |
+| `ISP` | Строка | Поставщик интернет-услуг, связанный с IP-адресом |
 | `ReportId` | long | Уникальный идентификатор события |
-| `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
+| `AdditionalFields` | Строка | Дополнительные сведения об объекте или событии |
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

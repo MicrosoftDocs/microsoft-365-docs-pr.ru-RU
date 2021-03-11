@@ -1,7 +1,7 @@
 ---
-title: Таблица EmailPostDeliveryEvents в схеме advanced hunting
-description: Узнайте о действиях после доставки сообщений электронной почты Microsoft 365 в таблице EmailPostDeliveryEvents схемы advanced hunting
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing verdict, attachment count, link count, url count
+title: Таблица EmailPostDeliveryEvents в продвинутой схеме охоты
+description: Узнайте о действиях после доставки, принятых в электронной почте Microsoft 365 в таблице EmailPostDeliveryEvents в продвинутой схеме охоты
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing verdict, attachment count, link count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 774676e15e9018b13674149b6a2e147a91000814
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 6e12ddfc402f1bd420f57369cc6d54f2e670d710
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145503"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712382"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -35,32 +35,32 @@ ms.locfileid: "50145503"
 **Область применения:**
 - Microsoft 365 Defender
 
-Таблица в схеме advanced hunting содержит сведения о действиях после доставки сообщений электронной почты, обрабатываемых `EmailPostDeliveryEvents` Microsoft 365. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в продвинутой схеме охоты содержит сведения о действиях после доставки, принятых в сообщениях электронной `EmailPostDeliveryEvents` почты, обработанных Корпорацией Майкрософт [](advanced-hunting-overview.md) 365. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 >[!TIP]
-> Для получения подробных сведений о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в Центре безопасности. [](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center)
+> Подробные сведения о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в центре безопасности.
 
-Чтобы получить дополнительные сведения об отдельных сообщениях электронной почты, можно также использовать таблицы [`EmailEvents`](advanced-hunting-emailevents-table.md) [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md) и [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) таблицы. Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
+Чтобы получить дополнительные сведения об отдельных сообщениях электронной почты, вы также можете использовать [`EmailEvents`](advanced-hunting-emailevents-table.md) таблицы и [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md) [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) таблицы. Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
-| `NetworkMessageId` | string | Уникальный идентификатор электронной почты, созданный Microsoft 365 |
+| `NetworkMessageId` | string | Уникальный идентификатор для электронной почты, созданный Корпорацией Майкрософт 365 |
 | `InternetMessageId` | string | Общедоступный идентификатор сообщения электронной почты, устанавливаемый системой отправки электронной почты |
-| `Action` | string | Действие, которое было предприняты с объектом |
-| `ActionType` | string | Тип действия, которое вызвало событие: исправление вручную, фишинговая zap, zap вредоносных программ |
-| `ActionTrigger` | string | Указывает, было ли действие инициировано администратором (вручную или путем утверждения ожидающих автоматических действий) или каким-либо специальным механизмом, например автоматической доставкой или автоматической доставкой. |
-| `ActionResult` | string | Результат действия |
+| `Action` | string | Действия, принятые в отношении объекта |
+| `ActionType` | Строка | Тип действий, которые вызвали событие: исправление вручную, Фишинг ZAP, ZAP вредоносных программ |
+| `ActionTrigger` | Строка | Указывает, было ли вызвано действие администратором (вручную или путем утверждения ожидающих автоматического действия) или каким-либо специальным механизмом, например ZAP или динамической доставкой. |
+| `ActionResult` | Строка | Результат действия |
 | `RecipientEmailAddress` | string | Адрес электронной почты получателя или адрес электронной почты получателя после расширения списка рассылки |
 | `DeliveryLocation` | string | Место доставки сообщения: "Входящие" или другая папка, локальная или внешняя среда, "Спам", "Карантин", "Не выполнено", "Отброшенные" или "Удаленные" |
-| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец необходимо использовать вместе со столбцами DeviceName и Timestamp. |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
 
 ## <a name="supported-event-types"></a>Поддерживаемые типы событий
-В этой таблице фиксировать события со `ActionType` следующими значениями:
+В этой таблице запечатлены события со `ActionType` следующими значениями:
 
-- **Исправление вручную** — администратор вручную принял действие с сообщением электронной почты после его доставки в почтовый ящик пользователя. К ним относятся действия, вручную предпринятые с помощью [обозревателя угроз](../office-365-security/threat-explorer.md) или утверждения автоматизированных действий по расследованию и [реагированию на них (AIR).](mtp-autoir-actions.md)
-- **Очистка фишинга** — автоматическая очистка [(ZAP)](../office-365-security/zero-hour-auto-purge.md) после доставки фишингового сообщения.
-- **Автоматическая очистка** вредоносных программ —автоматическая очистка (ZAP) с сообщением электронной почты, содержащим вредоносную программу после доставки.
+- **Исправление вручную** — администратор вручную принял меры по сообщению электронной почты после его доставки в почтовый ящик пользователя. Это включает действия, принятые вручную с помощью [обозревателя угроз](../office-365-security/threat-explorer.md) или утверждения действий автоматического расследования [и реагирования (AIR).](mtp-autoir-actions.md)
+- **Phish ZAP** — автоматическая очистка нулевого часа [(ZAP)](../office-365-security/zero-hour-auto-purge.md) приняла меры по фишинговой электронной почте после доставки.
+- **ZaP вредоносных** программ — автоматическая очистка нулевого часа (ZAP) приняла меры по сообщению электронной почты, обнаруженного с вредоносными программами после доставки.
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
