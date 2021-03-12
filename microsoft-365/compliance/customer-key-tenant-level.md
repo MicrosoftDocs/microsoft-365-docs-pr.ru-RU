@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Узнайте, как настроить ключ клиента для всех данных в клиенте Microsoft 365.
-ms.openlocfilehash: 7bc5403f73e2d61f47e92ab5c94509f3fe9f3e33
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 7ffa9a8148a8ae699711b62da48cd2c856d48cac
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454650"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727482"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Обзор ключа клиента для Microsoft 365 на уровне клиента (общедоступный предварительный просмотр)
 
@@ -33,6 +33,7 @@ ms.locfileid: "50454650"
 - Предложения чата teams от Cortana
 - Сообщения о состоянии команд
 - Сведения о пользователях и сигналах для Exchange Online
+- Почтовые ящики Exchange Online, которые еще не зашифрованы dePs ключа клиента на уровне приложения
 
 Для Microsoft Teams ключ клиента на уровне клиента шифрует новые данные с того времени, как deP назначен клиенту. Общедоступный предварительный просмотр не поддерживает шифрование прошлых данных. Для Exchange Online ключ клиента шифрует все существующие и новые данные.
 
@@ -42,13 +43,9 @@ ms.locfileid: "50454650"
 
 Если у вас уже есть клиентский ключ для Exchange Online и Sharepoint Online, вот как вписывается новый общедоступный предварительный просмотр на уровне клиента.
 
-Политика шифрования на уровне клиента, которая создается, шифрует все данные для рабочих нагрузок Microsoft Teams и Exchange Online в Microsoft 365. Эта политика не мешает точно настроенным dePs, созданным в клиентской клавише.
+Политика шифрования на уровне клиента, которая создается, шифрует все данные для рабочих нагрузок Microsoft Teams и Exchange Online в Microsoft 365. Однако для Exchange Online, если для отдельных почтовых ящиков уже назначены DEP-адреса ключей клиента, политика уровня клиента не переопределит эти dePs. Политика уровня клиента шифрует только почтовые ящики, которые уже не назначены deP клиентского ключа уровня почтовых ящиков.
 
-Примеры:
-
-Файлы Microsoft Teams и некоторые записи вызовов и собраний Teams, сохраненные в OneDrive для бизнеса и SharePoint, шифруются deP SharePoint Online. Один DEP SharePoint Online шифрует контент в одном гео.
-
-Для Exchange Online можно создать deP, который шифрует один или несколько почтовых ящиков пользователей с помощью ключа клиента. При создании политики на уровне клиента эта политика не будет шифровать зашифрованные почтовые ящики. Однако ключ уровня клиента шифрует почтовые ящики, на которые уже не влияет deP.
+Например, файлы Microsoft Teams и некоторые записи вызовов и собраний Teams, сохраненные в OneDrive для бизнеса и SharePoint, шифруются deP SharePoint Online. Один DEP SharePoint Online шифрует контент в одном гео.
 
 ## <a name="set-up-customer-key-at-the-tenant-level-public-preview"></a>Настройка ключа клиента на уровне клиента (общедоступный предварительный просмотр)
 
@@ -299,10 +296,10 @@ Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date
 ### <a name="create-policy"></a>Создание политики
 
 ```powershell
-   New-M365DataAtRestEncryptionPolicy [-Name] <String> -AzureKeyIDs <MultiValuedProperty> [-Description <String>] [-Enabled <Boolean>]
+   New-M365DataAtRestEncryptionPolicy [-Name] <String> -AzureKeyIDs <MultiValuedProperty> [-Description <String>]
 ```
 
-Описание. Включить администратора соответствия требованиям для создания новой политики шифрования данных (DEP) с помощью двух корневых ключей AKV. После создания политика может быть назначена с помощью Set-M365DataAtRestEncryptionPolicy. При первом назначении ключей или после поворота клавиш может занять до 24 часов, чтобы новые ключи вступили в силу. Если новый deP вступает в силу более 24 часов, обратитесь в Корпорацию Майкрософт.
+Описание. Включить администратора соответствия требованиям для создания новой политики шифрования данных (DEP) с помощью двух корневых ключей AKV. После создания политика может быть назначена с помощью Set-M365DataAtRestEncryptionPolicyAssignment. При первом назначении ключей или после поворота клавиш может занять до 24 часов, чтобы новые ключи вступили в силу. Если новый deP вступает в силу более 24 часов, обратитесь в Корпорацию Майкрософт.
 
 Пример.
 
@@ -321,7 +318,7 @@ New-M365DataAtRestEncryptionPolicy -Name "Default_Policy" -AzureKeyIDs "https://
 ### <a name="assign-policy"></a>Назначение политики
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -Policy “<Default_PolicyName or Default_PolicyID>”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “<Default_PolicyName or Default_PolicyID>”
 ```
 
 Описание. Этот комлет используется для настройки политики шифрования данных по умолчанию. Эта политика будет использоваться для шифрования данных во всех рабочих нагрузках поддержки. 
@@ -329,18 +326,19 @@ Set-M365DataAtRestEncryptionPolicyAssignment -Policy “<Default_PolicyName or D
 Пример.
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -Policy “Tenant default policy”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “Default_PolicyName”
 ```
 
 Параметры:
+
 | Имя | Описание | Необязательный (Y/N) |
 |----------|----------|---------|
--Policy|Указывает политику шифрования данных, которая должна быть назначена; укажите имя политики или ИД политики.|N|
+-DataEncryptionPolicy|Указывает политику шифрования данных, которая должна быть назначена; укажите имя политики или ИД политики.|N|
 
 ### <a name="modify-or-refresh-policy"></a>Изменение или обновление политики
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicy [-Identity] < M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter> -Refresh [-Enabled <Boolean>] [-Name <String>] [-Description <String>]
+Set-M365DataAtRestEncryptionPolicy [-Identity] <M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter> -Refresh [-Enabled <Boolean>] [-Name <String>] [-Description <String>]
 ```
 
 Описание. Этот комлет можно использовать для изменения или обновления существующей политики. Он также может использоваться для включить или отключить политику. При первом назначении ключей или после поворота клавиш может занять до 24 часов, чтобы новые ключи вступили в силу. Если новый deP вступает в силу более 24 часов, обратитесь в Корпорацию Майкрософт.
@@ -360,19 +358,20 @@ Set-M365DataAtRestEncryptionPolicy -Identity “EUR Policy” -Refresh
 ```
 
 Параметры:
+
 | Имя | Описание | Необязательный (Y/N) |
 |----------|----------|---------|
 |-Identity|Указывает политику шифрования данных, которую необходимо изменить.|N|
 |-Обновление|Используйте переключатель "Обновление", чтобы обновить политику шифрования данных после поворота всех связанных ключей в хранилище ключей Azure. С этим параметром не нужно указывать значение.|Да|
 |-Enabled|Параметр Включен включает или отключит политику шифрования данных. Перед отключением политики необходимо отогнать ее от клиента. Допустимые значения:</br > $true: политика включена</br > $true. Политика включена. Это значение задается по умолчанию.
 |Да|
-|– Name|Параметр Name задает уникальное имя политики шифрования данных.|Да
+|– Name|Параметр Name задает уникальное имя политики шифрования данных.|Да|
 |-Description|Параметр Description задает необязательное описание политики шифрования данных.|Да|
 
 ### <a name="get-policy-details"></a>Сведения о политике
 
 ```powershell
-Get-M365DataAtRestEncryptionPolicy [-Identity] < M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter>
+Get-M365DataAtRestEncryptionPolicy [-Identity] <M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter>
 ```
 
 Описание. В этом списке перечислены все политики шифрования M365DataAtRest, созданные для клиента, или сведения о конкретной политике.

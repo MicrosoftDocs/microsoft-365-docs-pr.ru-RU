@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться создавать правила потока почты (правила транспорта) для шифрования и расшифровки сообщений с помощью шифрования сообщений Office 365.
-ms.openlocfilehash: 8060309f350b50c2aadc9a703e7a57a4caf8808c
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 58b5e592ee8da92a2dbfd10f533aad3240b7a484
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597231"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741558"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>Определение правил потока почты для шифрования сообщений электронной почты
 
@@ -86,7 +86,7 @@ ms.locfileid: "50597231"
 
 6. Чтобы включить шифрование с помощью новых возможностей OME, выберите Изменить безопасность сообщений, а затем выбрать **Apply Office 365 Шифрование** сообщений и защиту прав.  Выберите шаблон RMS из списка, выберите **Сохранить,** а затем выберите **ОК.**
 
-   Список шаблонов включает все шаблоны и параметры по умолчанию, а также настраиваемые шаблоны, созданные для использования в Office 365. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с новыми возможностями, описанными в настройках новых возможностей шифрования сообщений [Office 365,](set-up-new-message-encryption-capabilities.md)построенных поверх Azure Information Protection. Сведения о шаблонах по умолчанию см. в меню Настройка и управление шаблонами [для Azure Information Protection.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) Сведения о параметре **"Не переададку"** см. в варианте [Не переададка электронной почты.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) Сведения о только **варианте шифрования** см. в [параметре Шифровать только для электронных писем.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+   Список шаблонов включает все шаблоны и параметры по умолчанию, а также настраиваемые шаблоны, созданные для использования в Office 365. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с новыми возможностями, описанными в настройках новых возможностей шифрования сообщений [Office 365,](set-up-new-message-encryption-capabilities.md)построенных поверх Azure Information Protection. Сведения о шаблонах по умолчанию см. в меню Настройка и управление шаблонами [для Azure Information Protection.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) Сведения о параметре "Не переададку" см. в варианте [Не переададка электронной почты.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) Сведения о параметре только для шифрования см. в [параметре Шифровать только для электронных писем.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
    Вы можете выбрать **действие добавить,** если вы хотите указать другое действие.
 
@@ -116,7 +116,7 @@ ms.locfileid: "50597231"
 
 7. В **Следующей области** выберите **Изменение** безопасности сообщений \> **Удалить шифрование сообщений Office 365 и защиту прав.**
 
-8. Нажмите **Сохранить**.
+8. Нажмите кнопку **Сохранить**.
 
 ## <a name="create-mail-flow-rules-for-office-365-message-encryption-without-the-new-capabilities"></a>Создание правил потока почты для шифрования сообщений Office 365 без новых возможностей
 

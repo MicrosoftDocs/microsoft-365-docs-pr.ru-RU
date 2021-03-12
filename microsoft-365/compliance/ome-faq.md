@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Возникает вопрос о том, как работают новые возможности защиты сообщений? Здесь вы можете получить ответ.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1bb5e93b08b74f5691c76e9a59bf9fa970e08f36
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 09d9293cfb1b574b4c179a0b486d436dab99edf2
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597199"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741350"
 ---
 # <a name="message-encryption-faq"></a>FaQ шифрования сообщений
 
@@ -145,8 +145,7 @@ Not yet. Вложения OneDrive для бизнеса не поддержив
 
 ## <a name="what-email-clients-support-revocation-of-protected-emails"></a>Какие клиенты электронной почты поддерживают отзыв защищенных сообщений электронной почты?
 
-Outlook в Интернете поддерживает отзыв защищенной почты.  Узнайте, [как отоискить зашифрованное сообщение, отправленное](https://docs.microsoft.com/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide#how-to-revoke-an-encrypted-message-that-you-sent) для подробных сведений.
-
+Outlook в Интернете поддерживает отзыв защищенной почты.  Узнайте, [как отоискить зашифрованное сообщение, отправленное](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) для подробных сведений.
 
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>Можно ли автоматически шифровать сообщения путем настройки политик?
 
@@ -218,8 +217,8 @@ Outlook в Интернете поддерживает отзыв защищен
    ```powershell
    Add-MailboxPermission -Identity support@contoso.onmicrosoft.com -User ayla@contoso.com -AccessRights FullAccess -AutoMapping $true
    ```
-   
- ## <a name="can-i-open-encrypted-messages-sent-to-another-users-mailbox-with-fullaccess"></a>Можно ли открывать зашифрованные сообщения, отправленные в почтовый ящик другого пользователя с помощью Fullaccess?
+
+## <a name="can-i-open-encrypted-messages-sent-to-another-users-mailbox-with-fullaccess"></a>Можно ли открывать зашифрованные сообщения, отправленные в почтовый ящик другого пользователя с помощью Fullaccess?
 
 Пользователи могут открывать зашифрованные сообщения до тех пор, пока им предоставляется прямой доступ и включена автомайка. Доступ запрещен, если доступ предоставляется через группу безопасности с поддержкой электронной почты.
 
