@@ -17,47 +17,62 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
-description: Сводка. Этапы миграции служб федерации Active Directory (AD FS) для миграции из Microsoft Cloud Deutschland.
-ms.openlocfilehash: c946ec3c0772cf95ab696266475b50959d682ef2
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+description: Сводка. Этапы миграции служб Федерации active Directory (AD FS) для миграции из Microsoft Cloud Deutschland.
+ms.openlocfilehash: 030515227f3abdae82736807a01d1691d2d45552
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688669"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727471"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>Этапы миграции AD FS для миграции из Microsoft Cloud Deutschland
 
-Чтобы перенести ферму служб федерации Active Directory (AD FS) из Microsoft Cloud Deutschland:
+Это изменение конфигурации может применяться в любое время до начала этапа 4.
+После завершения второго этапа изменение конфигурации будет работать, и вы сможете войти в Глобальные конечные точки Office 365, такие как `https://portal.office.com` . Если вы реализуете изменение конфигурации до этапа 2, глобальные конечные  точки Office 365 еще не работают, но новое доверяющий доверие сторон по-прежнему является частью конфигурации служб Федерации Active Directory (AD FS).
 
-1. С помощью этих действий можно создать параметров [](#backup)AD FS, включая сведения о доверии FF. Назовем резервную **копию microsoft Cloud Deutschland_Only** указать, что у нее есть только сведения о клиенте Microsoft Cloud Deutschland.
-2. Проверьте восстановление с помощью резервной копии Microsoft Cloud Deutschland_Only, ферма AD FS должна продолжать работать только как Microsoft Cloud Deutschland.
-3. Создайте новое отношения доверия с отношениями доверия с > **Службы AD FS в Office 365.**
-4. В **окнах доверия с** отношениями доверия с этой стороной в консоли управления AD FS выберите "Добавить отношения доверия с этой **стороной".**
-5. Выберите **"Далее"** на странице приветствия мастера добавления отношения доверия с подстройки. 
-6. На странице **"Выбор источника данных"** выберите "Импорт данных о стороне, опубликованной в Интернете или **в локальной сети".** Для **адреса метаданных федерации (имя или URL-адрес)** федерации установлено значение `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Нажмите **Далее**.
-7. На странице **"Выбор источника данных"** введите отображаемого имени. Корпорация Майкрософт рекомендует **Microsoft Office 365 Identity Platform WorldWide.** Нажмите **Далее**.
-8. Нажмите **кнопку** "Далее" в области "Настройка многофакторной проверки подлинности"? **Выберите**"Правила авторизации выдачи" и "Готово **к добавлению** страниц доверия". 
-9. Нажмите **кнопку "Закрыть"** на **странице "Готово".**
+Чтобы перенести ферму AD FS из Microsoft Cloud Deutschland:
 
-Закрыв мастер, устанавливается отношения доверия с отношениями доверия с службами Office 365 eSTS. Однако правила преобразования выдачи не устанавливаются.
+1. Сохраняйте параметры AD FS, включая сведения о доверии FF с [помощью этих действий.](#backup) Назови **резервную Deutschland_Only** Microsoft Cloud, чтобы указать, что у нее есть только сведения о клиенте Microsoft Cloud Deutschland.
+2. Проверьте восстановление с помощью резервного Deutschland_Only Microsoft Cloud, ферма AD FS должна продолжать работать только в Microsoft Cloud Deutschland.
 
-Справку [AD FS можно использовать](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) для создания правильных правил преобразования выдачи. Созданные правила утверждений, созданные с помощью справки AD FS, можно добавить вручную с помощью консоли управления AD FS или с помощью PowerShell. Справка AD FS создает необходимые сценарии PowerShell, которые необходимо запустить.  
+После завершения и тестирования резервного копирования AD FS выполните следующие действия, чтобы добавить новое доверение сторон в конфигурацию ADFS:
 
-1. Запустите **справку "Создание** утверждений" в AD FS и скопируйте сценарий преобразования утверждений PowerShell с помощью параметра **"Копировать"** в правом верхнем углу сценария.
-2. В paste the generated PowerShell into the following:
+1. Откройте консоль управления AD FS
+2. В левом окантовке консоли управления ADFS раздвяйте **ADFS,** затем доверяйте **отношениям,** а затем доверяйте **доверием сторон.**
+3. В правой области выберите **Add Relying Party Trust...**
+4. Выберите **Далее** на странице **Приветствие** мастера доверяющих сторон добавить.
+5. На странице **Выбор источника данных** выберите импорт данных о стороне, которая полагается, опубликованной в Интернете или в **локальной сети.** Значение **адреса метаданных Федерации (имя хозяина или URL-адрес)** должно быть задано `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Затем нажмите кнопку **Далее**.
+6. На странице **Выбор источника данных** введите имя отображения, например Microsoft Office **365 Identity Platform WorldWide.** Затем нажмите кнопку **Далее**.
+7. На странице Мастер **Настройка многофакторной** проверки подлинности сейчас? Выберите подходящий выбор в соответствии с требованиями проверки подлинности. Если вы придерживались по умолчанию, выберите, что в данный момент не нужно настраивать параметры многофакторной проверки подлинности для этого доверяемого **участника.** Вы можете изменить этот параметр позже, если хотите.
+8. В **правилах разрешения** на выдачу выберите разрешить всем пользователям доступ к выбранной стороне, которая полагается, нажмите  **кнопку Далее**
+9. Нажмите **кнопку Далее** на **странице Готово добавить доверие,** чтобы завершить мастер.
+10. Нажмите **Кнопку Закрыть** на **финишной** странице.
 
-  ```powershell
-  $RuleSet = New-AdfsClaimRuleSet -ClaimRule "<AD FS Help generated PSH>"
-  Set-AdfsRelyingPartyTrust -TargetName “Microsoft Office 365 Identity Platform WorldWide” -IssuanceTransformRules $RuleSet.ClaimRulesString;
-  ```
-3.  Выполните завершенный сценарий.
-4.  Убедитесь, что имеются два отношения доверия с проверяемой стороной; один для всемирного и второй для BF.
-5.  Резервное копирование доверия с помощью [этих действий.](#backup) Сохраните его с именем **FFAndWorldwide.**
-6.  Завершите миграцию на тыл и убедитесь, что службы AD FS по-прежнему работают в процессе миграции.
+Закрыв мастера, устанавливается доверяющий участник с глобальными службами Office 365. Однако правила преобразования выдачи пока не настроены.
+
+Вы можете использовать [AD FS Help для](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) создания правильных правил преобразования выдачи. Созданные правила утверждения, созданные с помощью AD FS Help, можно добавлять вручную через консоль управления AD FS или с Помощью PowerShell. AD FS Help будет создавать необходимые скрипты PowerShell, которые необходимо выполнять.  
+
+<!--
+    Question from ckinder
+    is step #3 true?
+    how to verify step 5? Need more information!
+-->
+1. Запустите **создание утверждений** в справке AD FS и скопируйте сценарий преобразования утверждений PowerShell с помощью параметра **Copy** в правом верхнем углу скрипта.
+2. Откройте предпочтительный текстовый редактор и вклейте скрипт PowerShell в новое текстовое окно.
+3. Добавьте следующие строки PowerShell в конец вклеит скрипт из шага 2
+    ```powershell
+    $authzRules = "=>issue(Type = `"http://schemas.microsoft.com/authorization/claims/permit`", Value = `"true`"); "
+    $RuleSet = New-AdfsClaimRuleSet -ClaimRule "<AD FS Help generated PSH>"
+    Set-AdfsRelyingPartyTrust -TargetName “Microsoft Office 365 Identity Platform WorldWide” -IssuanceTransformRules $RuleSet.ClaimRulesString -IssuanceAuthorizationRules $authzRules
+    ```
+4. Безопасность и выполнение сценария PowerShell.
+5. Убедитесь, что присутствуют два доверчивых участника; один для Microsoft Cloud Deutschland и один для глобальной службы Office 365.
+6. Резервное копирование доверия с помощью [этих действий.](#backup) Сохраните его с именем **FFAndWorldwide.**
+7. Выполните миграцию backend и убедитесь, что AD FS по-прежнему работает во время процесса миграции.
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>Аварийное восстановление AD FS (база данных WID)
 
-Для восстановления фермы AD FS в аварийном средстве быстрого восстановления [AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) необходимо использовать средство быстрого восстановления. Поэтому необходимо скачать средство и перед началом миграции создать резервную копию и безопасно сохранить ее. В этом примере (средах СДВИБ) для работы с фермой были выполнить следующие команды:
+Чтобы восстановить ферму AD FS в аварийной ситуации, необходимо использовать средство быстрого восстановления [AD FS.](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) Поэтому необходимо скачать средство и перед началом миграции создать и безопасно хранить резервное копирование. В этом примере (средах TAT) для обратного запуска фермы запускаются следующие команды:
 
 <h2 id="backup"></h2>
 
@@ -65,28 +80,25 @@ ms.locfileid: "49688669"
 
 1. Установите средство быстрого восстановления AD FS на основном сервере AD FS.
 2. Импортировать модуль в сеансе PowerShell с помощью этой команды.
-
-  ```powershell
-  Import-Module "C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecreationTool.dll"
-  ```
+    ```powershell
+    Import-Module "C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecreationTool.dll"
+    ```
 3. Запустите команду резервного копирования:
-
-  ```powershell
-  Backup-ADFS -StorageType "FileSystem" -storagePath "<Storage path of backup>" -EncryptionPassword "<password>" -BackupComment "Restore Doku" -BackupDKM
-  ```
-
-4. Безопасно храните резервную копию в нужном месте назначения. 
+    ```powershell
+    Backup-ADFS -StorageType "FileSystem" -storagePath "<Storage path of backup>" -EncryptionPassword "<password>" -BackupComment "Restore Doku" -BackupDKM
+    ```
+4. Безопасно храните резервную копию в нужном месте.
 
 ### <a name="restore-an-ad-fs-farm"></a>Восстановление фермы AD FS
 
-Если сбой фермы полностью не удастся и вернуться на старую ферму не удастся, сделайте следующее. 
+Если ферма полностью сбой и нет способа вернуться к старой ферме, делайте следующее. 
 
-1. Переместим ранее созданную и сохраненную резервную копию на новый основной сервер AD FS.
-2. Запустите следующую `Restore-ADFS` команду PowerShell. При необходимости импортировать SSL-сертификат AD FS заранее.
+1. Перемещение ранее сгенерированной и хранимой резервной копии на новый основной сервер AD FS.
+2. Запустите следующую `Restore-ADFS` команду PowerShell. При необходимости импортировать сертификат SSL AD FS заранее.
 
-  ```powershell
-  Restore-ADFS -StorageType "FileSystem" -StoragePath "<Path to Backup>" -DecryptionPassword "<password>" -GroupServiceAccountIdentifier "<gMSA>" -DBConnectionString "WID" -RestoreDKM
-  ```
+    ```powershell
+    Restore-ADFS -StorageType "FileSystem" -StoragePath "<Path to Backup>" -DecryptionPassword "<password>" -GroupServiceAccountIdentifier "<gMSA>" -DBConnectionString "WID" -RestoreDKM
+    ```
 
 3. Указать новые записи DNS или балансировку нагрузки на новые серверы AD FS.
 
@@ -99,11 +111,11 @@ ms.locfileid: "49688669"
 - [Как принять участие в миграции](ms-cloud-germany-migration-opt-in.md)
 - [Опыт работы с клиентами во время миграции](ms-cloud-germany-transition-experience.md)
 
-Переход:
+Перемещение по переходу:
 
 - [Действия и влияние этапов миграции](ms-cloud-germany-transition-phases.md)
 - [Дополнительная предварительная работа](ms-cloud-germany-transition-add-pre-work.md)
-- Дополнительные сведения [для Azure AD,](ms-cloud-germany-transition-azure-ad.md) [устройств,](ms-cloud-germany-transition-add-devices.md) [функций](ms-cloud-germany-transition-add-experience.md)и [AD FS.](ms-cloud-germany-transition-add-adfs.md)
+- Дополнительные сведения [для Azure AD,](ms-cloud-germany-transition-azure-ad.md) [устройств,](ms-cloud-germany-transition-add-devices.md) [опытом](ms-cloud-germany-transition-add-experience.md)и [AD FS.](ms-cloud-germany-transition-add-adfs.md)
 
 Облачные приложения:
 

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 87149ab9c99168d62f5114555a46b8bfaee83ab2
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 7db9b9762830384370a4bedf220d7a52112ab1ea
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712106"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727215"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Обзор единого центра безопасности Microsoft 365
 
@@ -107,6 +107,9 @@ ms.locfileid: "50712106"
 
 - Узнайте больше об управлении [доступом к Microsoft 365 Defender](mtp-permissions.md)
 - Узнайте больше о создании [настраиваемой роли](custom-roles.md) в центре безопасности Microsoft 365
+
+> [!NOTE]
+> Microsoft Defender для конечной точки в центре безопасности Microsoft 365 поддерживает предоставление доступа к управляемым поставщикам служб безопасности [(MSSPs)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) таким же образом, как доступ предоставляется в центре безопасности [Microsoft Defender.](https://docs.microsoft.com/microsoft-365/security/mtp/mssp-access)
 
 ### <a name="integrated-reports"></a>Интегрированные отчеты
 

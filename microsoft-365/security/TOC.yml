@@ -53,6 +53,8 @@
               href: mtp/microsoft-365-security-center-mdo.md
             - name: Перенаправление Microsoft Defender для конечной точки в Центр безопасности Microsoft 365
               href: mtp/microsoft-365-security-mde-redirection.md
+            - name: Перенаправление Defender для Office 365 в Центр безопасности Microsoft 365
+              href: mtp/microsoft-365-security-mdo-redirection.md
             - name: Предварительные функции
               href: mtp/preview.md
             - name: Устранение неполадок

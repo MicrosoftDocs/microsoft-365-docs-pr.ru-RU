@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Узнайте, как управлять связанными функциями в группах Microsoft 365, Teams, SharePoint и Yammer.
-ms.openlocfilehash: 8f1341b3b3bab1e9ae7219f01124983aefb022b1
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: a9b4767c450ffc775fb84711e48b9f6c775419e5
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50424046"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741601"
 ---
 # <a name="what-is-collaboration-governance"></a>Что такое управление совместной работой?
 
@@ -41,7 +41,7 @@ ms.locfileid: "50424046"
 
 Существует множество вариантов развертывания групп и групп Microsoft 365 для безопасного взаимодействия в организации. Мы рекомендуем использовать этот контент управления наряду с настройками безопасной совместной работы с [Microsoft 365](setup-secure-collaboration-with-teams.md) и связанными с ними статьями для создания наилучшего решения для совместной работы в организации.
 
-## <a name="what-are-microsoft-365-groups"></a>Что такое группы Microsoft 365?
+## <a name="why-microsoft-365-groups-are-important"></a>Почему важны группы Microsoft 365
 
 Группы Microsoft 365 позволяют выбрать набор людей, с которыми вы хотите сотрудничать, и легко настроить коллекцию ресурсов для обмена этими людьми. Добавление участников в группу автоматически предоставляет необходимые разрешения всем активам, предоставляемым группой. И Teams, и Yammer используют группы Microsoft 365 для управления своим членством.
 

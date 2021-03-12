@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4a71727a21151f1c1aec23a859a91fb616ad71c5
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 729e9dc9ab512a7e93bc291a9a52222c15a42b79
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453697"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727425"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Устройства Microsoft Managed Desktop 
 
@@ -37,7 +37,7 @@ Microsoft Managed Desktop регулярно оценивает устройст
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архива   | Дата выхода на пенсию   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [Dell Precision 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г.  | 28 апреля 2025 г. |
+| [Dell Latitude 5310 / 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г.  | 28 апреля 2025 г. |
 | [Dell Latitude 3510](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-3510-business-laptop/spd/latitude-15-3510-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г.  |
 | [Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г.  |
 | [Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г. |
@@ -63,7 +63,7 @@ Microsoft Managed Desktop регулярно оценивает устройст
 | [Рабочие станции HP Z2 Mini G5](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 8QR48AV| 31 декабря 2021 г. | 31 декабря 2024 г. |
 | **\*[HP ZBook Firefly 14/15 G7 Mobile Workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 9MZ22AV, IR-камерой, необходимой | 30 ноября 2021 г. | 30 ноября 2024 г. |
 
-### <a name="microsoft"></a>Майкрософт
+### <a name="microsoft"></a>Microsoft
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архива   | Дата выхода на пенсию   |
 |----------|----------------|---------------------------|----------------|--------------------|

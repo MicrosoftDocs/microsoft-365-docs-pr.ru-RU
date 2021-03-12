@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e392d071b77226a23001d8628c3b9c711b06e228
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: bbb3814a973bec53a877bc70d0299ce7b2eb87b5
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454587"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727557"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Архивные устройства Microsoft Managed Desktop
 
@@ -48,16 +48,22 @@ ms.locfileid: "50454587"
 |Dell Optiplex 3070 | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | Нет | **1 мая 2025 г.**  |
 |HP EliteBook 830 / 840 / 850 G5| 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется SKU с 5VS01AV, ИК-камерой или датчиком отпечатков пальцев  | **15 февраля 2023 г.** |
 |HP EliteBook 830 / 840 / 850 G6| 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется SKU с 5VS01AV, ИК-камерой или датчиком отпечатков пальцев  | **30 ноября 2023 г.** |
+|HP EliteBook 830 / 840 / 850 G7| 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 9MZ21AV, ИК-камерой или датчиком отпечатков пальцев  | **30 ноября 2024 г.** |
 |HP Elite x2 1013 G3| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 5VS03AV, IR-камерой, необходимой |**14 мая 2023 г.** |
+|HP Elite x2 G4| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 5VS03AV, IR-камерой, необходимой |**31 мая 2024 г.** |
+|HP EliteBook x360 830 G7| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 9MZ21AV, IR-камерой, необходимой |**30 ноября 2024 г.** |
 |HP EliteBook x360 1030 G5| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 5VS01AV, IR-камерой, необходимой |**14 мая 2023 г.** |
 |HP EliteBook x360 1030 G6| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 5VS01AV, IR-камерой, необходимой |**30 ноября 2023 г.** |
 |HP EliteBook x360 1040 G5| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 5VS01AV, IR-камерой, необходимой | **23 октября 2023 г.** |
 |HP EliteBook x360 1040 G6| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 5VS01AV, IR-камерой, необходимой | **30 ноября 2023 г.** |
+|HP EliteBook x360 1030 / 1040 G7| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | SKU с 8XW08AV, IR-камерой, необходимой | **31 августа 2024 г.** |
 |HP ProBook x360 440 G1| 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | SKU с 5VS04AV, IR-камерой или сканером отпечатков пальцев, требуемой | **6 июня 2023 г.** |
 |HP EliteDesk 800 G4 DM | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | SKU с 5VS04AV | **18 июля 2023 г.** |
 |HP EliteDesk 800 G4 SFF | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | SKU с 5VS04AV | **18 июля 2023 г.** |
 |HP EliteOne 800 G4 23.8in AIO |128 ГБ / оперативной памяти Intel i3 / 8 ГБ |SKU с 5VS04AV| **18 июля 2023 г.** |
+|HP EliteOne 800 G6 24/27 AIO |256 ГБ / оперативной памяти Intel i5 / 8 ГБ |SKU с 9XM14AV| **30 июня 2025 г.** |
 |HP ZBook 14u/15u G6 Mobile Workstation |256 ГБ / оперативной памяти Intel i5 / 8 ГБ |SKU с 5VS04AV, требуемой ИК-камерой| **30 ноября 2023 г.** |
+|HP ZBook Firefly 14/15 G7 Mobile Workstation |256 ГБ / оперативной памяти Intel i5 / 8 ГБ |SKU с 9MZ22AV, IR-камерой, необходимой| **30 ноября 2024 г.** |
 |Surface Book 2| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет | **16 ноября 2022 г.** |
 |Surface Go| 128 ГБ / Intel 4415Y / 8 ГБ оперативной памяти | Нет | **2 августа 2023 г.** |
 |Surface Laptop| 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет | **20 мая 2022 г.** |
