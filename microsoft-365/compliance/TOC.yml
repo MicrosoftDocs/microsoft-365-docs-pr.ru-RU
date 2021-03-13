@@ -106,6 +106,8 @@
           href: sit-edm-wizard.md
         - name: Изменение схемы точного соответствия данных для использования настраиваемого совпадения
           href: sit-modify-edm-schema-configurable-match.md
+        - name: Создание уведомлений для действий точного соответствия данных (предварительная версия)
+          href: sit-edm-notifications-activities.md
         - name: Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям
           href: create-a-custom-sensitive-information-type.md
         - name: Создание пользовательского типа конфиденциальной информации — PowerShell
