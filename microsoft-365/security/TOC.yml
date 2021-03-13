@@ -285,8 +285,6 @@
                   items:
                     - name: Общие сведения об интеграции с ServiceNow
                       href: ./mtp/tickets.md
-                    - name: Запросы ServiceNow в Центре безопасности
-                      href: ./mtp/tickets-security-center.md
             - name: API Microsoft 365 Defender (предварительная версия)
               items:
                 - name: Обзор API Microsoft 365 Defender (предварительная версия)

@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 90b545f60c68ac6b76509e14daf1258df66e1c63
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 13dee9d5744639149960a16adcf36b7ebe5718f7
+ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741536"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50766404"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Дополнительные сведения о типах конфиденциальной информации
 
@@ -129,6 +129,7 @@ ms.locfileid: "50741536"
 > - Все политики с минимальной точностью или настраиваемые шаблоны SIT с уровнем доверия от 76 до 100 будут иметь высокую степень уверенности. 
 > - Все политики с минимальной точностью или настраиваемые шаблоны SIT с уровнем доверия от 66 до 75 будут соедему со средней степенью уверенности.
 > - Все политики с минимальной точностью или настраиваемые шаблоны SIT с уровнем уверенности менее 65 или равными 65, будут иметь низкое доверие. 
+
 ## <a name="creating-custom-sensitive-information-types"></a>Создание пользовательских типов конфиденциальной информации
 
 Создать пользовательский тип конфиденциальной информации для защиты от потери данных в Центре безопасности и соответствия требованиям можно с помощью нескольких вариантов:
