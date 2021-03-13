@@ -6,7 +6,7 @@ ms.author: kwekua
 author: kwekua
 manager: scotv
 audience: Admin
-ms.topic: article
+ms.topic: landing-page
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Сведения о настройке подписки Microsoft бизнес премиум, Microsoft 365 бизнес стандарт, Microsoft 365 бизнес базовый, приложений Microsoft 365 для бизнеса или Office 365 для образования.
-ms.openlocfilehash: b0e4e67fe07d65ef09c0f5856dfafbdf13d13b35
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 01701dc5d4c8fcdc379f70efd2f94e54c7c1725b
+ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454221"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50766347"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>Настройка Microsoft 365 для бизнеса
 

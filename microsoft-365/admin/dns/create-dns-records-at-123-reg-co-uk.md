@@ -1,5 +1,5 @@
 ---
-title: Создание записей DNS для 123-reg.co.uk Майкрософт
+title: Создание записей DNS в 123-reg.co.uk microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
-description: Learn to verify your domain and set up DNS records for email, Skype for Business Online, and other services at 123-reg.co.uk for Microsoft.
-ms.openlocfilehash: bde8003ad343680e8f499dd8ec1fb638f15080b1
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в 123-reg.co.uk Microsoft.
+ms.openlocfilehash: 3c9af6909f37082a63170adac94ac3d92b717ad1
+ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658319"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50758908"
 ---
-# <a name="create-dns-records-at-123-regcouk-for-microsoft"></a>Создание записей DNS для 123-reg.co.uk Майкрософт
+# <a name="create-dns-records-at-123-regcouk-for-microsoft"></a>Создание записей DNS в 123-reg.co.uk microsoft
 
  **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 Если ваш поставщик услуг размещения DNS  123-reg.co.uk, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Skype для бизнеса online и других служб.
   
-После добавления этих записей 123-reg.co.uk домен будет настроен для работы со службами Майкрософт.
+После добавления этих записей в 123-reg.co.uk домен будет настроен для работы с службами Майкрософт.
   
   
 > [!NOTE]
@@ -54,7 +54,7 @@ ms.locfileid: "49658319"
     
 3. Choose **DNS** from the **Select action** drop-down list. 
     
-4. На странице **"Управление DNS"** выберите вкладку **"Advanced DNS".** 
+4. На странице **Управление DNS** выберите вкладку **Advanced DNS.** 
     
 5. In the **Advanced DNS** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -69,7 +69,7 @@ ms.locfileid: "49658319"
     
 7. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-Теперь, когда вы добавили запись на сайте регистратора доменных имен, вы вернемся в корпорацию Майкрософт и запросите поиск записи.
+Теперь, когда вы добавили запись на сайте регистратора домена, вы снова обратились в Корпорацию Майкрософт и запросили поиск записи.
   
 Когда продукт корпорации Майкрософт обнаружит правильную запись TXT, ваш домен будет подтвержден.
   
@@ -94,7 +94,7 @@ ms.locfileid: "49658319"
     
 3. Choose **DNS** from the **Select action** drop-down list. 
     
-4. На странице **"Управление DNS"** выберите вкладку **"Advanced DNS".** 
+4. На странице **Управление DNS** выберите вкладку **Advanced DNS.** 
     
 5. In the **Advanced DNS** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -102,19 +102,19 @@ ms.locfileid: "49658319"
     
     |**Hostname (Имя узла)**|**Type (Тип)**|**Priority (Приоритет)**|**Destination MX (Запись MX назначения)**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<domain-key\> из учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<domain-key\> из учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
-    ![Копирование и ветвь значений из таблицы](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
+    ![Копирование и вклейка значений из таблицы](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
   
-6. Нажмите кнопку **Add** (Добавить).
+6. Нажмите кнопку **Добавить**.
     
-    ![Нажмите кнопку Add (Добавить)](../../media/a8ae6c0c-4365-4137-af8a-6e003996e3d0.png)
+    ![Снимок экрана диалоговое окно с выбранной кнопкой Добавить](../../media/a8ae6c0c-4365-4137-af8a-6e003996e3d0.png)
   
 7. Если есть какие-либо другие записи MX, удалите каждую из них, щелкнув соответствующий значок с изображением **корзины**. 
     
-    ![Выберите "Удалить" (значок корзины)](../../media/3be635e6-b591-49af-8430-a158272834b4.png)
+    ![Выберите Delete (значок корзины)](../../media/3be635e6-b591-49af-8430-a158272834b4.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавление шести записей CNAME, необходимых для Корпорации Майкрософт
+## <a name="add-the-five-cname-records-that-are-required-for-microsoft"></a>Добавление пяти записей CNAME, необходимых для продуктов корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте 123-reg.co.uk по [этой ссылке](https://www.123-reg.co.uk/secure/cpanel/domain/overview). Сначала вам потребуется выполнить вход.
@@ -123,9 +123,9 @@ ms.locfileid: "49658319"
     
 3. Choose **DNS** from the **Select action** drop-down list. 
     
-4. На странице **"Управление DNS"** выберите вкладку **"Advanced DNS".** 
+4. На странице **Управление DNS** выберите вкладку **Advanced DNS.** 
     
-5. Добавьте первую из шести записей CNAME.
+5. Добавьте первую из пяти записей CNAME.
     
     In the **Advanced DNS** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -139,23 +139,23 @@ ms.locfileid: "49658319"
     |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
     |enterpriseenrollment  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
    
-    ![Копирование и ветвь значений из таблицы](../../media/24bf388c-5f7f-4fc0-b4ec-4b17226b6246.png)
+    ![Снимок экрана с помощью CNAME назначения для копирования и вклейки](../../media/24bf388c-5f7f-4fc0-b4ec-4b17226b6246.png)
   
-6. Нажмите кнопку **Add** (Добавить).
+6. Нажмите кнопку **Добавить**.
     
-    ![Нажмите кнопку Add (Добавить)](../../media/825a9854-559d-4a22-90ac-5e7a0a54269a.png)
+    ![Снимок экрана для добавления CNAME назначения](../../media/825a9854-559d-4a22-90ac-5e7a0a54269a.png)
   
-7. Добавьте пять других записей CNAME.
+7. Добавьте остальные четыре записи CNAME.
     
-    В разделе **Advanced DNS** создайте запись, используя значения из следующей строки  таблицы, а затем снова выберите "Добавить", чтобы завершить запись. 
+    В разделе **Расширенный DNS** создайте запись с помощью значений из следующей строки в таблице и снова выберите **Добавить** для завершения этой записи. 
     
-    Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
+    Повторите этот процесс, пока не создайте все пять записей CNAME.
     
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если у вас уже есть запись SPF для вашего домена, не создавайте новую для Microsfot. Вместо этого добавьте необходимые значения Майкрософт в текущую  запись, чтобы иметь одну запись SPF, которая включает оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-spf). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если у вас уже есть запись SPF для домена, не создайте новую для Microsfot. Вместо этого добавьте необходимые значения Microsoft в текущую  запись, чтобы у вас была одна запись SPF, которая включает оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-spf). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте 123-reg.co.uk по [этой ссылке](https://www.123-reg.co.uk/secure/cpanel/domain/overview). Сначала вам потребуется выполнить вход.
     
@@ -163,7 +163,7 @@ ms.locfileid: "49658319"
     
 3. Choose **DNS** from the **Select action** drop-down list. 
     
-4. На странице **"Управление DNS"** выберите вкладку **"Advanced DNS".** 
+4. На странице **Управление DNS** выберите вкладку **Advanced DNS.** 
     
 5. In the **Advanced DNS** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -175,9 +175,9 @@ ms.locfileid: "49658319"
    
     ![123Reg-BP-Configure-4-1](../../media/4697701c-eba0-4b03-8d75-4f7fc3bef94a.png)
   
-6. Нажмите кнопку **Add** (Добавить).
+6. Нажмите кнопку **Добавить**.
     
-    ![Нажмите кнопку Add (Добавить)](../../media/7906dd91-fd23-44c3-bb37-ef185655c6eb.png)
+    ![Снимок экрана с помощью destination TXT/SPF](../../media/7906dd91-fd23-44c3-bb37-ef185655c6eb.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Добавление двух записей SRV, необходимых для продуктов корпорации Майкрософт
 <a name="BKMK_add_SRV"> </a>
@@ -188,7 +188,7 @@ ms.locfileid: "49658319"
     
 3. Choose **DNS** from the **Select action** drop-down list. 
     
-4. На странице **"Управление DNS"** выберите вкладку **"Advanced DNS".** 
+4. На странице **Управление DNS** выберите вкладку **Advanced DNS.** 
     
 5. Добавьте первую из двух записей SRV.
     
@@ -202,15 +202,15 @@ ms.locfileid: "49658319"
     |_sip._tls|SRV|100|3600|1 443 sipdir.online.lync.com. **Это значение ДОЛЖНО оканчиваться точкой (.).**<br> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
     |_sipfederationtls._tcp|SRV|100|3600|1 5061 sipfed.online.lync.com. **Это значение ДОЛЖНО оканчиваться точкой (.).** <br> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
    
-    ![Копирование и ветвь значений из таблицы](../../media/c1786b86-52ef-4dca-8b99-b479554fa531.png)
+    ![Снимок экрана со значениями DNS из таблицы](../../media/c1786b86-52ef-4dca-8b99-b479554fa531.png)
   
-6. Нажмите кнопку **Add** (Добавить).
+6. Нажмите кнопку **Добавить**.
     
-    ![Нажмите кнопку Add (Добавить)](../../media/5fd9d3a2-a8bb-466b-829f-b3a6e54b5104.png)
+    ![Снимок экрана для добавления SRV назначения](../../media/5fd9d3a2-a8bb-466b-829f-b3a6e54b5104.png)
   
 7. Добавьте вторую запись SRV.
     
-    В разделе **Advanced DNS** создайте запись, используя значения из второй строки таблицы, а затем снова выберите "Добавить", чтобы завершить запись.  
+    В разделе **Расширенный DNS** создайте запись с помощью значений из второй строки в таблице и снова выберите **Добавить** для завершения этой записи. 
     
 > [!NOTE]
 > Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с обменом почтовыми сообщениями или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
