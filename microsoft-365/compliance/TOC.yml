@@ -44,16 +44,18 @@
           href: insider-risk-management.md
         - name: Планирование управления внутренними рисками
           href: insider-risk-management-plan.md
-        - name: Начало работы с параметрами внутренних рисков
-          href: insider-risk-management-settings.md
         - name: Начало работы с управлением внутренними рисками
           href: insider-risk-management-configure.md
+        - name: Начало работы с параметрами внутренних рисков
+          href: insider-risk-management-settings.md
         - name: Создание политик в отношении внутренних рисков и управление ими
           href: insider-risk-management-policies.md
         - name: Расследование оповещений о внутренних рисках
           href: insider-risk-management-alerts.md
         - name: Принятие мер в случае внутренних рисков
           href: insider-risk-management-cases.md
+        - name: Просмотр действий с помощью журнала аудита внутренних рисков
+          href: insider-risk-management-audit-log.md
         - name: Просмотр данных с помощью обозревателя содержимого внутреннего риска
           href: insider-risk-management-content-explorer.md
         - name: Управление рабочим процессом с помощью панели мониторинга "Пользователи"
@@ -237,8 +239,12 @@
               href: data-loss-prevention-policies.md
             - name: Сведения о защите от потери данных в конечной точке
               href: endpoint-dlp-learn-about.md
-            - name: Узнайте о локальном сканере для защиты от потери данных Microsoft 365 (предварительная версия)
+            - name: Сведения о политике защиты от потери данных по умолчанию в Microsoft Teams (предварительная версия)
+              href: dlp-teams-default-policy.md
+            - name: Сведения о локальном сканере для защиты от потери данных Microsoft 365 (предварительная версия)
               href: dlp-on-premises-scanner-learn.md
+            - name: Сведения о расширении соответствия требованиям Майкрософт (предварительная версия)
+              href: dlp-chrome-learn-about.md
         - name: Начало работы с защитой от потери данных
           items:
             - name: Начало работы с политикой защиты от потери данных по умолчанию
@@ -253,6 +259,8 @@
               href: endpoint-dlp-getting-started.md
             - name: Настройка параметров прокси-сервера и подключения к Интернету для конечной точки защиты от потери данных
               href: endpoint-dlp-configure-proxy.md
+            - name: Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)
+              href: dlp-chrome-get-started.md
             - name: Средства и методы подключения DLP в конечной точке для устройств с Windows 10
               items:
                 - name: Средства и методы подключения для устройств с Windows 10
