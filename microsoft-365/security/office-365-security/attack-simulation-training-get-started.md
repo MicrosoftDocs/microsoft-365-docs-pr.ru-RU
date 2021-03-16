@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут узнать, как использовать обучение имитации атаки для имитации фишинга и атак паролей в организациях Microsoft 365 E5 или Microsoft Defender для Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a33c212f7d0fd6b0617a8059b03ac90de03fba16
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 38e16ecd8185b9e8542f58613790585b5aab73ee
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407483"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50820238"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Начало использования обучения имитации атаки
 
@@ -109,3 +109,6 @@ URL-адреса, используемые в обучении имитации 
 ### <a name="gaining-insights"></a>Получение информации
 
 Инструкции по пошаговую информацию о том, как получить сведения с отчетами, см. в рублях [Gain insights through Attack simulation training.](attack-simulation-training-insights.md)
+
+> [!NOTE]
+> Симулятор атак использует безопасные ссылки в Defender для Office 365 для безопасного отслеживания щелкающих данных для URL-адреса  в сообщении полезной нагрузки, которое отправляется целевым получателям фишинговой кампании, даже если включен параметр "Не отслеживайте щелчки пользователя в политиках безопасных ссылок".
