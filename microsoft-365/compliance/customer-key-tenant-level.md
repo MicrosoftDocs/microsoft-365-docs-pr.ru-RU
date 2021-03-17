@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Узнайте, как настроить ключ клиента для всех данных в клиенте Microsoft 365.
-ms.openlocfilehash: 7ffa9a8148a8ae699711b62da48cd2c856d48cac
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 2fed4730e79f6e2ace827eab338bf9da8fe55260
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727482"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838244"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Обзор ключа клиента для Microsoft 365 на уровне клиента (общедоступный предварительный просмотр)
 
@@ -49,7 +49,7 @@ ms.locfileid: "50727482"
 
 ## <a name="set-up-customer-key-at-the-tenant-level-public-preview"></a>Настройка ключа клиента на уровне клиента (общедоступный предварительный просмотр)
 
-Эти действия аналогичны, но не совпадают с действиями по настройке клиентского ключа на уровне приложения. Этот общедоступный предварительный просмотр следует использовать только с тест-данными в тестовых клиентах. Не используйте этот выпуск с производственными данными или в производственной среде. Если у вас уже есть производственное развертывание клиентского ключа, используйте эти действия, чтобы настроить клиентский ключ на уровне клиента в тестовой среде.
+Эти действия аналогичны, но не совпадают с действиями по настройке клиентского ключа на уровне приложения. Этот общедоступный предварительный просмотр следует использовать только с тест-данными в тестовых клиентах. Не используйте этот выпуск с производственными данными или в производственной среде. Если у вас уже есть производственное развертывание клиентского ключа, используйте эти действия, чтобы настроить клиентский ключ на уровне клиента в тестовой среде. После присвоения клиенту deP уровня клиента вы можете начать процесс проверки и связаться с m365ck@microsoft.com вопросами или вопросами. Вы также можете найти документированные шаги проверки в общедоступный предварительный просмотр инструкций проверки для шифрования данных на отдыхе [для Microsoft 365](https://aka.ms/CustomerKey/PublicPreviewValidation).
 
 Большинство этих задач можно выполнить, удаленно подключившись к Azure PowerShell. Для наилучших результатов используйте версию 4.4.0 или более поздней версии Azure PowerShell.
 
@@ -311,14 +311,14 @@ New-M365DataAtRestEncryptionPolicy -Name "Default_Policy" -AzureKeyIDs "https://
 
 | Имя | Описание | Необязательный (Y/N) |
 |----------|----------|---------|
-|Имя|Удобное имя политики шифрования данных|N|
+|Name|Удобное имя политики шифрования данных|N|
 |AzureKeyIDs|Указывает два значения URI ключей хранилища Azure, разделенных запятой, для связи с политикой шифрования данных|N|
 |Описание|Описание политики шифрования данных|N|
 
 ### <a name="assign-policy"></a>Назначение политики
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “<Default_PolicyName or Default_PolicyID>”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "<Default_PolicyName or Default_PolicyID>"
 ```
 
 Описание. Этот комлет используется для настройки политики шифрования данных по умолчанию. Эта политика будет использоваться для шифрования данных во всех рабочих нагрузках поддержки. 
@@ -326,7 +326,7 @@ Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “<Default_P
 Пример.
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “Default_PolicyName”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "Default_PolicyName"
 ```
 
 Параметры:
@@ -354,7 +354,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity "NAM Policy" -Enabled $false
 Обновление политики шифрования данных.
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicy -Identity “EUR Policy” -Refresh
+Set-M365DataAtRestEncryptionPolicy -Identity "EUR Policy" -Refresh
 ```
 
 Параметры:

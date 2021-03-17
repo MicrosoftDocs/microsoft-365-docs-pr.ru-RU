@@ -1,5 +1,5 @@
 ---
-title: Решение по инсайдерской опасности
+title: Решения для инсайдерского риска
 description: Узнайте, как свести к минимуму риск в организации с помощью решений по инсайдерской опасности в Microsoft 365.
 keywords: Microsoft 365, инсайдерский риск, соответствие требованиям
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-overview
-ms.openlocfilehash: 858b4a05dd65b0a32d672882e6ec18188c0cce81
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: c40c30c44e5b8010112adc11d7faee49563761bf
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423944"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838274"
 ---
 # <a name="insider-risk-solutions-in-microsoft-365"></a>Решения для внутренних рисков в Microsoft 365
 
@@ -130,7 +130,7 @@ ms.locfileid: "50423944"
 
 Чтобы помочь вам спланировать интегрированную стратегию для реализации возможностей инсайдерского риска Microsoft 365, скачайте набор иллюстраций для защиты информации и соответствия требованиям *Microsoft 365.* Для возможностей инсайдерского риска см. страницы иллюстрации архитектуры 5-7. Вы можете адаптировать эти изображения для собственного применения.
 
-| Элемент | Описание |
+| Item | Описание |
 |:-----|:------------|
 |[![Плакат модели: возможности защиты информации и соответствия требованиям Microsoft 365](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Скачивание в формате PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [Скачать в качестве visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Обновленный октябрь 2020 г.|Содержимое: <ul><li>  Защита информации (Майкрософт) и защита от потери данных</li><li>Политики и метки хранения </li><li>Информационные барьеры</li><li>Соответствие требованиям к обмену данными</li><li>Управление внутренними рисками</li><li>Внедрение сторонних данных</li>|
 

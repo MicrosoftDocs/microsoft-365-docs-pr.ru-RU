@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 82dfab193277744c9a7888e7f9ac1d7b7293d843
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 30ad9bf968fa91218d15a6f71785d5299e664ddc
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542541"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838502"
 ---
 # <a name="communication-compliance-feature-reference"></a>Ссылка на функцию соответствия требованиям связи
 
@@ -507,7 +507,7 @@ ms.locfileid: "50542541"
 | **Operations** | Операции проверки, выполняемые в политике. |
 | **AuditData** | Это поле является основным источником данных для всех действий по обзору политики. Все действия по проверке записывают и разделяют запятые. |
 
-Вы также можете просматривать действия аудита в едином журнале аудита или с помощью [cmdlet Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell.
+Вы также можете просматривать действия аудита в едином журнале аудита или с помощью [cmdlet Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell. Дополнительные данные о политиках хранения журналов аудита см. в журнале Управление политиками хранения [журналов аудита.](audit-log-retention-policies.md)
 
 Например, в следующем примере возвращаются действия для всех действий надзорного надзора (политики и правила):
 
@@ -519,6 +519,12 @@ Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType AeD -
 
 ```PowerShell
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Discovery -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeleted
+```
+
+В этом примере возвращаются действия, которые соответствуют текущим политикам соответствия требованиям связи:
+
+```PowerShell
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch 
 ```
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Переход от надзора в Office 365

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: 4296924684e13e163f28e0f952b2cd380cdcc047
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: ec4ca9a79ee3b5674e1837d14cea4ee504cb57d5
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712015"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838214"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "50712015"
 С помощью политик хранения для Teams можно хранить и удалять следующие элементы Teams: сообщения чатов и каналов, включая внедренные изображения, таблицы, гипертекстовые ссылки и ссылки на другие сообщения и файлы Teams, а также [содержимое карточек](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards). В сообщения чата входят все имена пользователей в чате, а в сообщения канала — имя команды и заголовок сообщения (если он есть). 
 
 > [!NOTE]
-> Содержимое карточек является недавним дополнением, которое в настоящее время разворачивается для клиентов. Дополнительные сведения см. в статье [Теперь доступны возможности соответствия требованиям Microsoft 365 для содержимого адаптивных карточек через приложения в Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
+> Содержимое карточек является недавним дополнением, которое теперь полностью развернуто для клиентов. Дополнительные сведения см. в статье [Теперь доступны возможности соответствия требованиям Microsoft 365 для содержимого адаптивных карточек через приложения в Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
 Сообщения Teams в закрытых каналах в настоящее время не поддерживаются в политиках хранения. Фрагменты кода, записанные голосовые напоминания из мобильного клиента Teams, эскизы, изображения объявлений и реакции других пользователей в виде смайликов не включаются при использовании политик хранения для Teams.
 

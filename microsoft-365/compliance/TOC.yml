@@ -540,6 +540,8 @@
               href: de-duplication-in-ediscovery-search-results.md
             - name: Различия между ожидаемыми и фактическими результатами поиска
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
+            - name: 'Контент, хранимый в почтовых ящиках для обнаружения электронных данных'
+              href: what-is-stored-in-exo-mailbox.md
             - name: Расшифровка в средствах обнаружения электронных данных
               href: ediscovery-decryption.md
         - name: Сценарии PowerShell для поиска контента
@@ -570,6 +572,8 @@
               href: assign-ediscovery-permissions.md
             - name: Запросы ключевых слов и условия поиска
               href: keyword-queries-and-search-conditions.md
+            - name: 'Контент, хранимый в почтовых ящиках для обнаружения электронных данных'
+              href: what-is-stored-in-exo-mailbox.md
             - name: Настройка фильтрации разрешений поиска
               href: permissions-filtering-for-content-search.md
             - name: Настройка границ обеспечения соответствия требованиям
@@ -635,14 +639,27 @@
         - name: Управление ошибками обработки
           href: processing-data-for-case.md
           items:
-            - name: Расширенная индексация данных хранителя
+            - name: Расширенная индексация контента хранителя
               href: indexing-custodian-data.md
-            - name: Исправление ошибок при обработке данных
+            - name: Исправление ошибок при обработке контента
               href: error-remediation-when-processing-data-in-advanced-ediscovery.md
             - name: Исправление ошибки одного элемента
               href: single-item-error-remediation.md
+        - name: Сбор контента для дела (предварительная версия)
+          items:
+            - name: Подробнее о коллекциях (предварительная версия)
+              href: collections-overview.md
+            - name: Создание коллекции черновиков (предварительная версия)
+              href: create-draft-collection.md
+            - name: Отправка коллекции черновиков в набор для проверки (предварительная версия)
+              href: commit-draft-collection.md
+            - name: Статистика коллекции и отчеты (предварительная версия)
+              href: collection-statistics-reports.md
+            - name: Создание поисковых запросов для коллекций
+              href: building-search-queries.md
+            - name: Запросы ключевых слов и условия поиска
+              href: keyword-queries-and-search-conditions.md
         - name: Сбор данных для дела
-          href: collecting-data-for-ediscovery.md
           items:
             - name: Создание поискового запроса
               href: create-search-to-collect-data.md
@@ -661,7 +678,7 @@
               href: load-non-Office-365-data-into-a-review-set.md
             - name: Добавление данных в другой набор для проверки
               href: add-data-to-review-set-from-another-review-set.md
-        - name: Просмотр данных дела
+        - name: Просмотр контента дела
           items:
             - name: Использование панели мониторинга набора для проверки
               href: advanced-ediscovery-dashboard.md
@@ -671,7 +688,7 @@
               href: review-set-search.md
             - name: Добавление тегов к документам в наборе для проверки
               href: tagging-documents.md
-        - name: Анализ данных дела
+        - name: Анализ контента дела
           href: analyzing-data-in-review-set.md
           items:
             - name: Обнаружение схожих документов (почти дубликатов)
@@ -680,11 +697,11 @@
               href: email-threading-in-advanced-ediscovery.md
             - name: Темы
               href: themes-in-advanced-ediscovery.md
-            - name: Использование модуля релевантности для анализа данных
+            - name: Использование модуля релевантности для анализа контента
               href: using-relevance.md
             - name: Вывод из эксплуатации модуля релевантности
               href: relevance-module-retirement.md
-        - name: Экспорт данных дела
+        - name: Экспорт содержимого досье
           href: exporting-data-ediscover20.md
           items:
             - name: Скачивание документов из набора для проверки
@@ -725,6 +742,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Настройка границ обеспечения соответствия требованиям
               href: set-up-compliance-boundaries.md
+            - name: 'Контент, хранимый в почтовых ящиках для обнаружения электронных данных'
+              href: what-is-stored-in-exo-mailbox.md
             - name: Расшифровка в средствах обнаружения электронных данных
               href: ediscovery-decryption.md
             - name: Сбор диагностических сведений об обнаружении электронных данных

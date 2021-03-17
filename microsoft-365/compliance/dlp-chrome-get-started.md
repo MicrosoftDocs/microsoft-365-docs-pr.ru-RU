@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Подготовьтесь к использованию расширения соответствия требованиям Майкрософт и разверните его.
-ms.openlocfilehash: d71c04433ec369856a510e9fb6382709ecb092f9
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: c6f56c65de6428374d912545db38337d34720c94
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826260"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838352"
 ---
 # <a name="get-started-with-microsoft-compliance-extension-preview"></a>Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)
 
@@ -74,10 +74,6 @@ ms.locfileid: "50826260"
 - Читатель сведений о безопасности
 - Читатель отчетов
 
-### <a name="chrome-dependency"></a>Зависимость Chrome
-
-Расширение соответствия требованиям Майкрософт поддерживается в текущей версии Chrome и в последних трех версиях.
-
 ### <a name="overall-installation-workflow"></a>Общий рабочий процесс установки
 
 Развертывание расширения соответствия требованиям Майкрософт — это многоэтапный процесс. Вы можете выбрать установку на одном компьютере одновременно или использовать Microsoft Endpoint Manager или групповую политику для развертывания в пределах организации.
@@ -92,7 +88,7 @@ ms.locfileid: "50826260"
 
 ### <a name="prepare-infrastructure"></a>Подготовка инфраструктуры
 
-Если вы разворачиваете расширение соответствия требованиям Майкрософт на всех отслеживаемых устройствах с Windows 10, удалите Google Chrome из списка запрещенных приложений. Дополнительные сведения см. в разделе [Запрещенные браузеры](endpoint-dlp-using.md#unallowed-browsers). Если вы разворачиваете его только на нескольких устройствах, вы можете оставить Chrome в списке запрещенных браузеров. Расширение соответствия требованиям Майкрософт обойдет ограничения списка запрещенных приложений для компьютеров, на которых оно устанавливается.  
+Если вы разворачиваете расширение соответствия требованиям Майкрософт на всех отслеживаемых устройствах с Windows 10, удалите Google Chrome из списка запрещенных приложений или запрещенных браузеров. Дополнительные сведения см. в разделе [Запрещенные браузеры](endpoint-dlp-using.md#unallowed-browsers). Если вы разворачиваете его только на нескольких устройствах, вы можете оставить Chrome в списке запрещенных браузеров или запрещенных приложений. Расширение соответствия требованиям Майкрософт обойдет ограничения обоих списков для компьютеров, на которых оно устанавливается.  
 
 ### <a name="prepare-your-devices"></a>Подготовка устройств
 
@@ -107,30 +103,38 @@ ms.locfileid: "50826260"
 
 1. Войдите на компьютер с Windows 10, где нужно установить расширение соответствия требованиям Майкрософт, и запустите этот сценарий PowerShell в качестве администратора. 
 
-```powershell
-Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
-``` 
+   ```powershell
+   Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
+   ``` 
 
 2.  Перейдите на страницу [Расширение соответствия требованиям Майкрософт — интернет-магазин Chrome (google.com)](https://chrome.google.com/webstore/detail/microsoft-compliance-exte/echcggldkblhodogklpincgchnpgcdco).
+
 3.  Установите расширение с помощью инструкций на странице интернет-магазина Chrome.
 
 ### <a name="deploy-using-microsoft-endpoint-manager"></a>Развертывание с помощью Microsoft Endpoint Manager
 
-Используйте этот метод установки для развертывания в пределах организации 
+Используйте этот метод установки для развертывания в пределах организации
+
 
 ##### <a name="enabling-required-registry-key-via-microsoft-endpoint-manager"></a>Включение обязательного ключа реестра с помощью Microsoft Endpoint Manager
 
 1.  Создайте сценарий PowerShell со следующим содержимым:
-```powershell
-Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
-```
+
+    ```powershell
+    Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
+    ```
+
 2.  Войдите в [Центр администрирования Microsoft Endpoint Manager](https://endpoint.microsoft.com).
+
 3.  Выберите **Устройства** > **Сценарии** и нажмите **Добавить**.
+
 4.  Перейдите к расположению сценария, созданного при запросе.
+
 5.  Выберите следующие параметры:
     1. Запускать сценарий по учетным данным входа: ДА
     1. Принудительно проверить подпись сценария: НЕТ
     1. Запуск сценария в 64-разрядном узле PowerShell: ДА
+
 6.  Выберите подходящие группы устройств и примените политику.
 
 #### <a name="microsoft-endpoint-manager-force-install-steps"></a>Этапы принудительной установки Microsoft Endpoint Manager
@@ -139,15 +143,25 @@ Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configur
 
  После внедрения ADMX можно с помощью инструкций ниже создать профиль конфигурации для этого расширения.
 
-1.  Войдите в Центр администрирования Microsoft Endpoint Manager (https://endpoint.microsoft.com)
+1.  Войдите в Центр администрирования Microsoft Endpoint Manager (https://endpoint.microsoft.com).
+
 2.  Перейдите к профилям конфигурации.
+
 3.  Нажмите **Создать профиль**.
+
 4.  Выберите **Windows 10** в качестве платформы.
+
 5.  Выберите **Пользовательский** в качестве типа профиля.
+
 6.  Выберите вкладку **Параметры**.
+
 7.  Нажмите **Добавить**.
+
 8.  Введите следующие сведения о политике.
-OMA-URI: ./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist Data type: String Value: <enabled/><data id=”ExtensionInstallForcelistDesc” value=”1&#xF000; echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx″/>
+    
+    OMA-URI: `./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist`<br/>
+    Тип данных: `String`<br/>
+    Значение: `<enabled/><data id="ExtensionInstallForcelistDesc" value="1&#xF000; echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx"/>`
 
 9.  Нажмите "Создать".
 
@@ -156,34 +170,53 @@ OMA-URI: ./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extension
 Если вы не хотите использовать Microsoft Endpoint Manager, можно применить групповые политики для развертывания расширения соответствия требованиям Майкрософт в организации
 
 1. Ваши устройства должны быть управляемыми с помощью групповой политики, и необходимо импортировать все ADMX Chrome в центральное хранилище групповой политики. Дополнительные сведения см. в статье [Как создать центральное хранилище для административных шаблонов групповой политики в Windows и управлять им](https://docs.microsoft.com/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
-2.  Создайте сценарий PowerShell с помощью следующих сведений.
 
-```powershell
-et-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
-```
+2.  Создайте сценарий PowerShell с помощью команды PowerShell:
+
+    ```powershell
+    Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
+    ```
 
 3.  Откройте **консоль управления групповой политикой** и перейдите в свое подразделение.
+
 4.  Щелкните правой кнопкой мыши и выберите **Создать GPO в этом домене и связать его**. При запросе назначьте понятное имя этому объекту групповой политики (GPO) и завершите его создание.
+
 5.  Щелкните правой кнопкой мыши GPO и нажмите **Изменить**.
+
 6.  Перейдите в раздел **Конфигурация компьютера** > **Настройки** > **Настройки панели управления** > **Запланированные задачи**.
+
 7.  Создайте новую задачу для немедленного запуска, щелкнув правой кнопкой мыши и выбрав **Создать** > **Немедленная задача (Windows 7 и выше)**.
+
 8.  Добавьте имя и описание задачи.
+
 9.  Выберите соответствующую учетную запись для запуска немедленной задачи, например NT Authority.
+
 10. Выберите **Выполнить с наивысшими правами**.
+
 11. Настройте политику для Windows 10.
+
 12. На вкладке **Действия** выберите действие **Запуск программы**.
+
 13. Введите путь к программе или сценарию, созданному на шаге 1.
+
 14. Нажмите **Применить**.
 
 #### <a name="adding-the-chrome-extension-to-the-forceinstall-list"></a>Добавление расширения Chrome в список ForceInstall
 
 1.  В редакторе управления групповыми политиками перейдите к своему подразделению.
+
 2.  Разверните следующий путь: **Конфигурация компьютера или пользователя** > **Политики** > **Административные шаблоны** > **Классические административные шаблоны** > **Google** > **Google Chrome** > **Расширения**. Этот путь может отличаться в зависимости от вашей конфигурации.
+
 3.  Выберите **Настроить список принудительно устанавливаемых расширений**.
+
 4.  Щелкните правой кнопкой мыши и выберите **Изменить**.
+
 5.  Щелкните **Включено**.
+
 6.  Выберите **Показать**.
+
 7.  В разделе **Значение** добавьте следующую запись: `echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx`
+
 8.  Нажмите **ОК** и **Применить**.
 
 ### <a name="test-the-extension"></a>Тестирование расширения
@@ -225,6 +258,12 @@ et-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configura
 
    > [!div class="mx-imgBorder"]
    > ![фильтр обозревателя действий для устройств конечных точек](../media/endpoint-dlp-4-getting-started-activity-explorer.png)
+
+### <a name="known-issues-and-limitations"></a>Известные проблемы и ограничения
+
+1. Не поддерживается перетаскивание для отправки папок.
+2. Не поддерживается блокировка переопределения для выхода в облако.
+3. Режим инкогнито не поддерживается и должен быть отключен.
 
 ## <a name="next-steps"></a>Следующие шаги
 После того, как вы подключили устройства, вы можете просмотреть данные об активности в обозревателе действий и перейти к этапу создания политик защиты от потери данных для конфиденциальных элементов.
