@@ -22,40 +22,40 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: Узнайте, как управлять группами Microsoft 365.
-ms.openlocfilehash: a01bf5dcc0b87cbdce8d7044b666cfb3a16a5aa9
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 529bdb874661329497b103a1207b90625ad33a4b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328554"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911011"
 ---
 # <a name="manage-microsoft-365-groups"></a>Управление группами Microsoft 365
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете управлять группами Microsoft 365 несколькими способами в зависимости от конфигурации. Вы можете управлять учетными записями пользователей в Центре администрирования [Microsoft 365,](https://docs.microsoft.com/microsoft-365/admin/add-users/)PowerShell, доменных службах Active Directory (AD DS) или в Центре администрирования [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
+Вы можете управлять группами Microsoft 365 несколькими способами в зависимости от конфигурации. Вы можете управлять учетными записями пользователей в центре администрирования [Microsoft 365,](../admin/add-users/index.yml)PowerShell, в службах домена Active Directory (AD DS) или в центре администрирования [Azure Active Directory (Azure AD).](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
 
-## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>Планирование места и управления группами
+## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>Планирование, где и как вы будете управлять группами
 
-Где и как можно управлять учетной записью пользователя, зависит от модели удостоверений, которая будет применяться для Microsoft 365. Две общие модели являются облачными и гибридными.
+Где и как можно управлять учетной записью пользователя, зависит от модели удостоверений, используемой для Microsoft 365. Две общие модели являются облачными и гибридными.
   
 ### <a name="cloud-only"></a>Только облако
 
-Группы создаются и управляются с помощью:
+Вы создаете и управляете группами с помощью:
 
-- [Центр администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+- [Центр администрирования Microsoft 365](../admin/add-users/index.yml)
 - [PowerShell](maintain-group-membership-with-microsoft-365-powershell.md)
-- [Центр администрирования Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+- [Центр администрирования Azure AD](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
     
 ### <a name="hybrid"></a>Гибридная среда
 
-Группы AD DS синхронизируются с Microsoft 365 из AD DS, поэтому для управления этими группами необходимо использовать средства локальной службы AD DS.
+Группы DS AD синхронизируются с Microsoft 365 из AD DS, поэтому для управления этими группами необходимо использовать локальное оборудование AD DS.
 
-Вы также можете создавать и управлять группами Azure AD, которые отделены от групп AD DS, но могут содержать пользователей и группы из AD DS. В этом случае можно использовать:
+Можно также создавать и управлять группами Azure AD, которые отделены от групп AD DS, но могут содержать пользователей и группы из AD DS. В этом случае можно использовать:
 
-- [Центр администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+- [Центр администрирования Microsoft 365](../admin/add-users/index.yml)
 - [PowerShell](maintain-group-membership-with-microsoft-365-powershell.md)
-- [Центр администрирования Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+- [Центр администрирования Azure AD](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 ## <a name="allow-users-to-create-and-manage-their-own-groups"></a>Разрешение пользователям создавать собственные группы и управлять ими
 
@@ -64,10 +64,10 @@ Azure AD позволяет группам, которыми могут упра
 Пользователи могут отправлять заявки на членство в группе безопасности, которые отправляются владельцу группы, а не ИТ-администратору. Это позволяет делегировать повседневное управление членством в группах владельцам команд, проектов или компаний, которые понимают пользу группы для бизнеса и могут управлять членством в ней.
 
 >[!Note]
->Самостоятельное управление группами поддерживается только для групп безопасности Azure AD и групп Microsoft 365. Он не доступен для групп с включенной поддержкой почты, списков рассылки или групп, синхронизированных из AD DS.
+>Самостоятельное управление группами поддерживается только для групп безопасности Azure AD и групп Microsoft 365. Она недоступна для групп с поддержкой почты, списков рассылки или какой-либо группы, синхронизированной с AD DS.
 >
 
-Дополнительные сведения см. в статье [Настройка самостоятельного управления группами в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management).
+Дополнительные сведения см. в статье [Настройка самостоятельного управления группами в Azure Active Directory](/azure/active-directory/active-directory-accessmanagement-self-service-group-management).
 
 ## <a name="set-up-dynamic-group-membership"></a>Настройка динамического членства в группах
 
@@ -82,11 +82,11 @@ Azure AD поддерживает настройку ряда правил, ко
 
 Чтобы использовать функцию динамического членства в группах, вам потребуется сначала определить наборы групп с общими наборами атрибутов учетных записей пользователей. Например, все сотрудники отдела продаж должны быть в группе Azure AD "Отдел продаж", так как у этих учетных записей атрибут "Отдел" имеет значение "Отдел продаж".
 
-См. [инструкции по созданию и настройке правил для динамических групп Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal).
+См. [инструкции по созданию и настройке правил для динамических групп Azure AD](/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal).
 
 ## <a name="set-up-automatic-licensing"></a>Настройка автоматического лицензирования
 
-Вы можете настроить группы безопасности в Azure AD, чтобы автоматически назначать лицензии из набора подписок всем участникам группы. Это называется *лицензированием на основе групп*. Когда учетная запись добавляется в группу или удаляется из нее, лицензии для подписок группы автоматически назначаются этой учетной записи или отменяются для нее.
+Можно настроить группы безопасности в Azure AD, чтобы автоматически назначать лицензии из набора подписок всем участникам группы. Это называется *лицензированием на основе групп*. Когда учетная запись добавляется в группу или удаляется из нее, лицензии для подписок группы автоматически назначаются этой учетной записи или отменяются для нее.
 
 Чтобы назначить соответствующую лицензию на Microsoft 365 корпоративный, нужно настроить группы безопасности Azure AD для Microsoft 365 корпоративный.
 
@@ -96,6 +96,6 @@ Azure AD поддерживает настройку ряда правил, ко
 >Лицензирование на основе групп не следует настраивать для групп, содержащих учетные записи типа "бизнес-бизнес" (B2B) в Azure.
 >
 
-Дополнительные сведения см. в базовых сведениях о лицензировании на основе групп [в Azure AD.](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal)
+Дополнительные сведения см. в базовых сведениях о лицензировании на основе группы [в Azure AD.](/azure/active-directory/active-directory-licensing-whatis-azure-portal)
 
-См. [инструкции по настройке](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-assignment-azure-portal)лицензирования на основе групп для группы безопасности Azure.
+См. [инструкции по настройке группового лицензирования для группы безопасности Azure.](/azure/active-directory/active-directory-licensing-group-assignment-azure-portal)

@@ -20,12 +20,12 @@ search.appverid:
 description: Узнайте, как распознать компрометацию учетной записи электронной почты с помощью средств Microsoft 365 и какие принять меры.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5dfb40c195cb9df9c8f2ac5d1cfbacdda022d416
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 774d96fb22bb13d4b4edcfab45f27ca9e52c5e88
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406728"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908834"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Реагирование на компрометацию учетной записи электронной почты
 
@@ -102,7 +102,7 @@ ms.locfileid: "50406728"
 >
 > - Если ваше локальное удостоверение связано федеративным доступом с Microsoft 365, необходимо сменить локальный пароль, а затем оповестить администратора о компрометации.
 >
-> - Не забудьте обновить пароли приложений. Пароли приложения не отзываются автоматически при сбросе пароля учетной записи пользователя. Пользователь должен удалить существующие пароли приложений и создать новые. Инструкции см. в разделе [Создание и удаление паролей приложений на странице дополнительной проверки безопасности](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
+> - Не забудьте обновить пароли приложений. Пароли приложения не отзываются автоматически при сбросе пароля учетной записи пользователя. Пользователь должен удалить существующие пароли приложений и создать новые. Инструкции см. в разделе [Создание и удаление паролей приложений на странице дополнительной проверки безопасности](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
 >
 > - Настоятельно рекомендуется включить многофакторную проверку подлинности (MFA), чтобы предотвратить компрометацию, особенно для учетных записей с правами администратора. Дополнительные сведения о MFA см. в статье [Настройка многофакторной проверки подлинности](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 

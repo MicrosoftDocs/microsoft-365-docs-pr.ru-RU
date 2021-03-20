@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Сведения о типах групп, которые вы можете использовать.
-ms.openlocfilehash: dfb726fadbfbcf69a8ff57fa3d9025cd8811e617
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 8565b567706a70bb014fab42b23e9c55fb0efc45
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727251"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908750"
 ---
 # <a name="compare-groups"></a>Сравнение групп
 
@@ -45,19 +45,19 @@ ms.locfileid: "50727251"
 
 Вы можете добавить пользователей извне организации в группу, если это [разрешено администратором](manage-guest-access-in-groups.md). Кроме того, вы можете разрешить внешним отправителям отправлять письма на электронный адрес группы.
 
-Группы Microsoft 365 можно [настроить для динамического членства в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type), что позволяет добавлять или удалять участников группы автоматически на основе таких атрибутов пользователя, как отдел, расположение, должность и т. д.
+Группы Microsoft 365 можно [настроить для динамического членства в Azure Active Directory](/azure/active-directory/users-groups-roles/groups-change-type), что позволяет добавлять или удалять участников группы автоматически на основе таких атрибутов пользователя, как отдел, расположение, должность и т. д.
 
 Доступ к группам Microsoft 365 можно получить через мобильные приложения, как Outlook для iOS и Outlook для Android.
 
-Участники группы могут отправлять сообщения с электронного адреса группы (разрешения "Отправить как" или "Отправить от имени"), если это [разрешено администратором](allow-members-to-send-as-or-send-on-behalf-of-group.md).
+Участники группы могут отправлять сообщения с электронного адреса группы (разрешения "Отправить как" или "Отправить от имени"), если это [разрешено администратором](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md).
 
 ## <a name="distribution-groups"></a>Группы рассылки
 
-[Группы рассылки](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) используются для отправки уведомлений группе людей. Они могут получать электронную почту от внешних отправителей, если это разрешено администратором.
+[Группы рассылки](/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) используются для отправки уведомлений группе людей. Они могут получать электронную почту от внешних отправителей, если это разрешено администратором.
 
 Группы рассылки лучше всего подходят для ситуаций, когда необходимо передать информацию определенной группе людей, такой как "Люди в здании А" или "Все сотрудники Contoso".
 
-Группы рассылки могут быть [обновлены до групп Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists).
+Группы рассылки могут быть [обновлены до групп Microsoft 365](../manage/upgrade-distribution-lists.md).
 
 ## <a name="security-groups"></a>Группы безопасности
 
@@ -65,7 +65,7 @@ ms.locfileid: "50727251"
 
 Группы безопасности могут включать пользователей или устройства. Создание групп безопасности для устройств может использоваться в службах управления мобильными устройствами, например Intune.
 
-Группы безопасности можно [настроить для динамического членства в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type), что позволяет добавлять или удалять участников группы или устройства автоматически на основе таких атрибутов пользователя, как отдел, расположение или должность, или таких атрибутов устройства, как версия операционной системы.
+Группы безопасности можно [настроить для динамического членства в Azure Active Directory](/azure/active-directory/users-groups-roles/groups-change-type), что позволяет добавлять или удалять участников группы или устройства автоматически на основе таких атрибутов пользователя, как отдел, расположение или должность, или таких атрибутов устройства, как версия операционной системы.
 
 ## <a name="mail-enabled-security-groups"></a>Группы безопасности, поддерживающие почту
 

@@ -3,7 +3,6 @@ title: Подписки, лицензии, учетные записи и кли
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/25/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Общие сведения о связи между организациями, подписками, лицензиями, учетными записями пользователей и клиентами в облачных предложениях корпорации Майкрософт.
-ms.openlocfilehash: c48e2ecc321f4b6e06ced13f029e344faf12650b
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: eaf1c2399b5d44ea8d6000042b3258d0e8b5a7de
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446035"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909518"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Подписки, лицензии, учетные записи и клиенты для облачных предложений корпорации Майкрософт
 
@@ -66,7 +65,11 @@ ms.locfileid: "48446035"
 **Рис. 2. Лицензии в рамках подписок на основе SaaS для организации**
 
 ![Пример нескольких лицензий в подписках на облачные предложения корпорации Майкрософт на основе SaaS.](../media/Subscriptions/Subscriptions-Fig2.png)
-  
+
+>[!Note]
+>Для обеспечения безопасности рекомендуется использовать отдельные учетные записи пользователей, которым назначаются определенные роли для выполнения административных функций. Этим специальным учетным записям администраторов не требуется назначать лицензии облачных служб, которыми они управляют. Например, для учетной записи администратора SharePoint не нужно назначать лицензию на Microsoft 365.
+>
+
 В случае облачных служб на основе Azure PaaS стоимость лицензий на программное обеспечение включается в цену службы.
   
 Для виртуальных машин на основе Azure IaaS могут потребоваться дополнительные лицензии на использование ПО или приложений, установленных в образе виртуальной машины. В некоторых образах виртуальных машин установлены лицензированные версии программного обеспечения, цены которых включаются в поминутный тариф для сервера. К примерам таких виртуальных машин относятся образы для SQL Server 2014 и SQL Server 2016. 
@@ -153,7 +156,7 @@ ms.locfileid: "48446035"
     
 3. На странице **Добавление подписки** выберите предложение, а затем укажите платежную информацию и примите условия лицензионного соглашения.
     
-Если вы приобрели подписки на Azure и Microsoft 365 отдельно и хотите получить доступ к клиенту Azure AD в Microsoft 365, воспользуйтесь инструкциями в статье [Добавление существующей подписки на Azure с клиентом Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
+Если вы приобрели подписки на Azure и Microsoft 365 отдельно и хотите получить доступ к клиенту Azure AD в Microsoft 365, воспользуйтесь инструкциями в статье [Добавление существующей подписки на Azure с клиентом Azure Active Directory](/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
  
 ## <a name="see-also"></a>См. также
 
@@ -166,4 +169,3 @@ ms.locfileid: "48446035"
 ## <a name="next-step"></a>Следующий шаг
 
 [Оценка сетевого подключения Microsoft 365](assessing-network-connectivity.md)
-  

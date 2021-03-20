@@ -1,5 +1,5 @@
 ---
-title: Создание записей DNS для Майкрософт на сайте Register365
+title: Создание записей DNS в Register365 для Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 004030b4-10ad-4026-96e7-011b6afc7e73
-description: Learn to verify your domain and set up DNS records for email, Skype for Business Online, and other services at Register365 for Microsoft.
-ms.openlocfilehash: 6cefdeff3da1256911d80066b55b00f5bef24055
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в Register365 для Microsoft.
+ms.openlocfilehash: a0bf077a6e034add48e9745711fb37d59e2c8203
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656919"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910010"
 ---
-# <a name="create-dns-records-at-register365-for-microsoft"></a>Создание записей DNS для Майкрософт на сайте Register365
+# <a name="create-dns-records-at-register365-for-microsoft"></a>Создание записей DNS в Register365 для Microsoft
 
  **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
@@ -40,13 +40,13 @@ ms.locfileid: "49656919"
     
 - [Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
     
-- [Добавьте шесть записей CNAME, необходимых для Корпорации Майкрософт](#add-the-six-cname-records-that-are-required-for-microsoft)
+- [Добавление шести записей CNAME, необходимых для Корпорации Майкрософт](#add-the-six-cname-records-that-are-required-for-microsoft)
     
 - [Добавление записи TXT для SPF, чтобы предотвратить получение нежелательной почты](#add-a-txt-record-for-spf-to-help-prevent-email-spam)
     
 - [Добавление двух записей SRV, необходимых для продуктов корпорации Майкрософт](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-После добавления этих записей в корпорацию Майкрософт ваш домен будет настроен для работы со службами Майкрософт.
+После добавления этих записей в Microsoft домен будет настроен для работы со службами Майкрософт.
   
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
@@ -73,7 +73,7 @@ ms.locfileid: "49656919"
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    (Если нужно добавить строку, выберите **ADD A/CNAME RECORDS (+)**.)
+    (Если необходимо добавить строку, выберите **ADD A/CNAME RECORDS (+)**.)
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
@@ -81,7 +81,7 @@ ms.locfileid: "49656919"
     |:-----|:-----|:-----|
     |(Leave this field empty.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
-    ![Ввод значений на странице "Добавление/изменение зоны DNS"](../../media/22326005-de95-464d-8e33-08ea31a89b2d.png)
+    ![Ввод значений на странице Add/Modify DNS Zone](../../media/22326005-de95-464d-8e33-08ea31a89b2d.png)
   
 4. Нажмите **Сохранить**.
     
@@ -131,9 +131,9 @@ ms.locfileid: "49656919"
     
     |**Host Name (Имя узла)**|**Priority (Приоритет)**|**Result (Результат)**|
     |:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> |1   <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание.** Получите свою  *\<domain-key\>*  учетную запись Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)     |
+    |(Оставьте это поле пустым.)  <br/> |1  <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](../setup/domains-faq.yml). <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите вашу  *\<domain-key\>*  учетную запись Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)     |
    
-    ![Ввод значений на странице "Добавление/изменение зоны DNS"](../../media/2d3645a8-9cb8-435e-b895-5535b6b1fffd.png)
+    ![Ввод значений на странице Add/Modify DNS Zone](../../media/2d3645a8-9cb8-435e-b895-5535b6b1fffd.png)
   
 4. Нажмите **Сохранить**.
     
@@ -151,7 +151,7 @@ ms.locfileid: "49656919"
     
     ![Нажмите Save (Сохранить)](../../media/1fb69bb5-b5df-4060-adf1-eb26cfaa6c4f.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавьте шесть записей CNAME, необходимых для Корпорации Майкрософт
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавление шести записей CNAME, необходимых для Корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 1. Чтобы приступить к работе, перейдите на свою страницу доменов на сайте Register365 по [этой ссылке](https://admin.register365.com/dns/). Сначала вам потребуется выполнить вход.
@@ -168,7 +168,7 @@ ms.locfileid: "49656919"
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    (Если нужно добавить строку, выберите **ADD A/CNAME RECORDS (+)**.)
+    (Если необходимо добавить строку, выберите **ADD A/CNAME RECORDS (+)**.)
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
@@ -180,7 +180,7 @@ ms.locfileid: "49656919"
     |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net  <br/> |
     |enterpriseenrollment  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
    
-    ![Ввод значений на странице "Добавление/изменение зоны DNS"](../../media/3b79f0de-9cab-4c98-8fa8-c92b35241e8b.png)
+    ![Ввод значений на странице Add/Modify DNS Zone](../../media/3b79f0de-9cab-4c98-8fa8-c92b35241e8b.png)
   
 4. Нажмите **Save** (Сохранить).
     
@@ -190,7 +190,7 @@ ms.locfileid: "49656919"
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую  запись, чтобы иметь одну запись SPF, которая включает оба набора значений. 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения Microsoft в текущую  запись, чтобы у вас была одна запись SPF, которая включает оба набора значений. 
   
 1. Чтобы приступить к работе, перейдите на свою страницу доменов на сайте Register365 по [этой ссылке](https://admin.register365.com/dns/). Сначала вам потребуется выполнить вход.
     
@@ -206,7 +206,7 @@ ms.locfileid: "49656919"
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    (Если нужно добавить строку, выберите **ADD A/CNAME RECORDS (+)**.)
+    (Если необходимо добавить строку, выберите **ADD A/CNAME RECORDS (+)**.)
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
@@ -214,7 +214,7 @@ ms.locfileid: "49656919"
     |:-----|:-----|:-----|
     |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
    
-    ![Ввод значений на странице "Добавление/изменение зоны DNS"](../../media/33976398-da8a-439b-8e3d-534503b20ee0.png)
+    ![Ввод значений на странице Add/Modify DNS Zone](../../media/33976398-da8a-439b-8e3d-534503b20ee0.png)
   
 4. Нажмите **Сохранить**.
     
@@ -241,10 +241,10 @@ ms.locfileid: "49656919"
     
     |**Name (Имя)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Result (Результат)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
-    ![Ввод значений в разделе "Записи службы"](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
+    ![Ввод значений в разделе Записи службы](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
   
 4. Нажмите **Сохранить**.
     
@@ -254,4 +254,3 @@ ms.locfileid: "49656919"
   
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

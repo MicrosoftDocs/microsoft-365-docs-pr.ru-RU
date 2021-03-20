@@ -17,12 +17,12 @@ ms.collection:
 description: Администраторы могут узнать о встроенных нежелательных, а не нежелательных и фишинговых вариантах сообщений электронной почты в Outlook для iOS и Android.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e6e63f534a9f9516c6e1a87ff82d5b0916d25778
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: eda0d8d43244834236a70374df6b7d6ccf0b69ab
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509330"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908822"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Сообщение нежелательной и фишинговой почты в Outlook для iOS и Android в Exchange Online
 
@@ -37,7 +37,7 @@ ms.locfileid: "50509330"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом
 
-- Для наилучшего использования пользовательской отправки рекомендуется использовать надстройки Report Message и Report Phishing. Дополнительные [сведения см.](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in) в [](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-phish-add-in) дополнительных сведениях.
+- Для наилучшего использования пользовательской отправки рекомендуется использовать надстройки Report Message и Report Phishing. Дополнительные [сведения см.](./enable-the-report-message-add-in.md) в [](./enable-the-report-phish-add-in.md) дополнительных сведениях.
 
 - Если вы администратор в организации с почтовыми ящиками Exchange Online, рекомендуем использовать портал Отправки в Центре & соответствия требованиям. Дополнительные сведения см. в материале Использование отправки администратора для отправки в Корпорацию Майкрософт подозрительных [спама, фишинга, URL-адресов и файлов.](admin-submission.md)
 

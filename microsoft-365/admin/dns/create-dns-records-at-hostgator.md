@@ -1,5 +1,5 @@
 ---
-title: Создание записей DNS для Майкрософт на сайте Hostgator
+title: Создание записей DNS в Hostgator для Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,24 +20,24 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5f0c840e-4140-4571-88ed-cf235ff142d6
-description: Learn to verify your domain and set up DNS records for email, Skype for Business Online, and other services at Hostgator for Microsoft.
-ms.openlocfilehash: 3fe13df9b7e41d88c9bf06149eb894a028c4e350
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в Hostgator для Microsoft.
+ms.openlocfilehash: 790a7d77c9dbab37b87f8e7533515e75d2018e92
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658091"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910202"
 ---
-# <a name="create-dns-records-at-hostgator-for-microsoft"></a>Создание записей DNS для Майкрософт на сайте Hostgator
+# <a name="create-dns-records-at-hostgator-for-microsoft"></a>Создание записей DNS в Hostgator для Microsoft
 
  **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 Если ваш поставщик услуг размещения DNS  Hostgator, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Skype для бизнеса online и других служб.
   
 > [!IMPORTANT]
-> Перед добавлением записей DNS с помощью других процедур, которые данной статьи, необходимо выполнить первую процедуру , указать домен в учетной записи размещения. [](#point-your-domain-to-your-hosting-account) 
+> Прежде чем добавлять записи DNS с помощью других процедур в этой [статье,](#point-your-domain-to-your-hosting-account)необходимо выполнить первую процедуру, указать домен на учетную запись хостинга. 
 
-После внесения всех этих изменений на сайте Hostgator ваш домен будет настроен для работы со службами Майкрософт.
+После внесения всех этих изменений в Hostgator домен будет настроен на работу с службами Майкрософт.
   
 
   
@@ -54,15 +54,15 @@ ms.locfileid: "49658091"
   
 1. Прежде всего откройте страницу управления доменами на сайте Hostgator, воспользовавшись [этой ссылкой](https://portal.hostgator.com/). Вам потребуется выполнить вход.
     
-2. Выберите **"Домены"** слева.
+2. Выберите **домены** слева.
   
-3. На странице **"Управление доменами"** выберите домен, который нужно обновить. 
+3. На странице **Управление доменами** выберите домен, который необходимо обновить. 
   
-4. Во всплывающее меню слева выберите **серверы доменных имен.**
+4. В всплывающее меню слева выберите **Name Servers**.
   
-5. На странице **"Серверы** доменных имен" в списке "Автоматически указать этот домен в выпадаемом списке учетной записи размещения" выберите учетную запись размещения, связанную с вашим доменом.  
+5. На странице **Name Servers** для вашего  домена в домене автоматически указать этот домен на выпадаемом списке учетной записи хостинга выберите учетную запись хостинга, связанную с вашим доменом. 
   
-6. Выберите **"Сохранить серверы доменных имен"**.
+6. Выберите **сохранить серверы имен**.
     
   
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
@@ -78,21 +78,21 @@ ms.locfileid: "49658091"
   
 1. Чтобы приступить к работе, перейдите на свою страницу cPanel на сайте Hostgator. Сначала вам потребуется выполнить вход.
     
-    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В сообщении для регистрации, полученном от Hostgator, указывается этот адрес, а на странице "Размещение" также доступна ссылка cPanel.) 
+    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В электронной почте регистрации, полученной от hostgator, будет указан этот  адрес, а на странице Хостинга также доступна ссылка cPanel.)
     
     > [!IMPORTANT]
-    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись размещения у Hostgator или переустанавлить свои доменные имена, чтобы они могли указать [на Майкрософт.](change-nameservers-at-hostgator.md) 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись хостинга у Hostgator или перенаселить имена, чтобы указать [на Microsoft.](change-nameservers-at-hostgator.md) 
   
-2. На странице **"Панель управления"** в области **"Домены"** выберите редактор **"Расширенные зоны".**
+2. На странице **Панель управления** в области **Домены** выберите **редактор advanced Zone**.
     
-3. На странице **"Редактор** расширенных  зон" в области "Добавление записи" в поля для новой записи введите (или скопируйте и введите) значения из таблицы ниже. 
+3. На странице **Advanced Zone Editor** в области **Добавление** записи в полях для новой записи введите или скопируйте и введите значения из следующей таблицы. 
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     |||||
     |:-----|:-----|:-----|:-----|
     |**Имя** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Data (Данные TXT)** <br/> |
-    |Используйте *domain_name.* (for example, fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |Используйте  *domain_name*. (for example, fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. Выберите команду **Add Record** (Добавить запись).
     
@@ -121,31 +121,31 @@ ms.locfileid: "49658091"
   
 1. Чтобы приступить к работе, перейдите на свою страницу cPanel на сайте Hostgator. Сначала вам потребуется выполнить вход.
     
-    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В сообщении для регистрации, полученном от Hostgator, указывается этот адрес, а на странице "Размещение" также доступна ссылка cPanel.) 
+    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В электронной почте регистрации, полученной от hostgator, будет указан этот  адрес, а на странице Хостинга также доступна ссылка cPanel.)
     
     > [!IMPORTANT]
-    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись размещения у Hostgator или переустанавлить свои доменные имена, чтобы они могли указать [на Майкрософт.](change-nameservers-at-hostgator.md) 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись хостинга у Hostgator или перенаселить имена, чтобы указать [на Microsoft.](change-nameservers-at-hostgator.md) 
   
-2. На странице **"Панель управления"** в области **"Электронная** почта" выберите запись **MX.**
+2. На странице **Панель управления** в области **электронной почты** выберите **запись MX .**
     
  
 3. В области **Email Routing** (Маршрутизация электронной почты) выберите параметр **Remote Mail Exchanger** (Удаленный почтовый обменник).
 
 4. Выберите **Изменить**.
   
-5. В поля **для новой** записи в области "Добавление новой записи" введите (или скопируйте и введите) значения из таблицы ниже. 
+5. В области **Добавить новую** запись в полях для новой записи введите или скопируйте и введите значения из следующей таблицы. 
     
     |**Priority (Приоритет)**|**Destination (Назначение)**|
     |:-----|:-----|
-    |0  <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание.**  Получите свой \< *domain-key*  \> из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](../setup/domains-faq.yml). <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание.**  Получите свой \< *domain-key*  \> из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
   
-6. Выберите **"Добавить новую запись"**.
+6. Выберите **Добавить новую запись**.
    
  
 7. Если в разделе **MX Records** (Записи MX) есть другие записи MX, удалите их. 
 
     
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавьте шесть записей CNAME, необходимых для Корпорации Майкрософт
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавление шести записей CNAME, необходимых для Корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 > [!IMPORTANT]
@@ -153,16 +153,16 @@ ms.locfileid: "49658091"
   
 1. Чтобы приступить к работе, перейдите на свою страницу cPanel на сайте Hostgator. Сначала вам потребуется выполнить вход.
     
-    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В сообщении для регистрации, полученном от Hostgator, указывается этот адрес, а на странице "Размещение" также доступна ссылка cPanel.) 
+    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В электронной почте регистрации, полученной от hostgator, будет указан этот  адрес, а на странице Хостинга также доступна ссылка cPanel.)
     
     > [!IMPORTANT]
-    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись размещения у Hostgator или переустанавлить свои доменные имена, чтобы они могли указать [на Майкрософт.](change-nameservers-at-hostgator.md) 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись хостинга у Hostgator или перенаселить имена, чтобы указать [на Microsoft.](change-nameservers-at-hostgator.md) 
   
-2. На странице **"Панель управления"** в области **"Домены"** выберите редактор **"Расширенные зоны".**
+2. На странице **Панель управления** в области **Домены** выберите **редактор advanced Zone**.
     
 3. Добавьте первую из шести записей CNAME.
     
-    На  странице "Редактор расширенных  зон" в области "Добавление записи" в поля для новой записи введите (или скопируйте и введите) значения из первой строки таблицы ниже. 
+    На странице **Advanced Zone Editor** в области **Добавление** записи в полях для новой записи введите или скопируйте и введите значения из первой строки в следующей таблице. 
     
     В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
@@ -179,7 +179,7 @@ ms.locfileid: "49658091"
 
 5. Добавьте остальные пять записей CNAME.
     
-    В разделе **"Добавление** записи" создайте запись, используя значения из следующей строки таблицы, а затем снова выберите "Добавить запись", чтобы завершить запись.  
+    В разделе **Добавить** запись создайте запись с помощью значений из следующей строки в таблице, а затем снова выберите **Добавить** запись для завершения этой записи. 
     
     Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
     
@@ -187,19 +187,19 @@ ms.locfileid: "49658091"
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения для продуктов корпорации Майкрософт в текущую запись. Таким образом, в одной записи SPF будут указаны оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения для продуктов корпорации Майкрософт в текущую запись. Таким образом, в одной записи SPF будут указаны оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](../../enterprise/external-domain-name-system-records.md#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
   
 > [!IMPORTANT]
 > Перед этой процедурой необходимо выполнить процедуру [Настройка домена таким образом, чтобы он указывал на учетную запись размещения](#point-your-domain-to-your-hosting-account), описанную в первом разделе. 
   
 1. Чтобы приступить к работе, перейдите на свою страницу cPanel на сайте Hostgator. Сначала вам потребуется выполнить вход.
     
-    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В сообщении для регистрации, полученном от Hostgator, указывается этот адрес, а на странице "Размещение" также доступна ссылка cPanel.) 
+    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В электронной почте регистрации, полученной от hostgator, будет указан этот  адрес, а на странице Хостинга также доступна ссылка cPanel.)
     
     > [!IMPORTANT]
-    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись размещения у Hostgator или переустанавлить свои доменные имена, чтобы они могли указать [на Майкрософт.](change-nameservers-at-hostgator.md) 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись хостинга у Hostgator или перенаселить имена, чтобы указать [на Microsoft.](change-nameservers-at-hostgator.md) 
   
-2. На странице **"Панель управления"** в области **"Домены"** выберите редактор **"Расширенные зоны".**
+2. На странице **Панель управления** в области **Домены** выберите **редактор advanced Zone**.
     
 3. On the **Advanced DNS Zone Editor** page, in the **Add a Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -207,7 +207,7 @@ ms.locfileid: "49658091"
     
     |**Имя**|**TTL (Срок жизни)**|**Type (Тип)**|**TXT Data (Данные TXT)**|
     |:-----|:-----|:-----|:-----|
-    |Используйте *domain_name.* (for example, fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
+    |Используйте  *domain_name*. (for example, fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
   
 4. Выберите команду **Add Record** (Добавить запись).
     
@@ -219,12 +219,12 @@ ms.locfileid: "49658091"
   
 1. Чтобы приступить к работе, перейдите на свою страницу cPanel на сайте Hostgator. Сначала вам потребуется выполнить вход.
     
-    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В сообщении для регистрации, полученном от Hostgator, указывается этот адрес, а на странице "Размещение" также доступна ссылка cPanel.) 
+    (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. В электронной почте регистрации, полученной от hostgator, будет указан этот  адрес, а на странице Хостинга также доступна ссылка cPanel.)
     
     > [!IMPORTANT]
-    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись размещения у Hostgator или переустанавлить свои доменные имена, чтобы они могли указать [на Майкрософт.](change-nameservers-at-hostgator.md) 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы начать работу с Корпорацией Майкрософт, вы можете приобрести учетную запись хостинга у Hostgator или перенаселить имена, чтобы указать [на Microsoft.](change-nameservers-at-hostgator.md) 
   
-2. На странице **"Панель управления"** в области **"Домены"** выберите редактор **"Расширенные зоны".**
+2. На странице **Панель управления** в области **Домены** выберите **редактор advanced Zone**.
 
     
 3. Добавьте первую из двух записей SRV.
@@ -235,8 +235,8 @@ ms.locfileid: "49658091"
     
     |**Имя**|**TTL (Срок жизни)**|**Type (Тип)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip._tls. *domain_name*. (например, _sip._tls.fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls._tcp. *domain_name*. (например, _sipfederationtls._tcp.fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls. *domain_name*. (например, _sip._tls.fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp. *domain_name*. (например, _sipfederationtls._tcp.fourthcoffee.com.)  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
 
 4. Выберите команду **Add Record** (Добавить запись).
@@ -244,7 +244,7 @@ ms.locfileid: "49658091"
   
 5. Добавьте вторую запись SRV.
     
-    В разделе **"Добавление** записи" создайте запись, используя значения из следующей строки таблицы, а затем снова выберите "Добавить запись", чтобы завершить запись.  
+    В разделе **Добавить** запись создайте запись с помощью значений из следующей строки в таблице, а затем снова выберите **Добавить** запись для завершения этой записи. 
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с обменом почтовыми сообщениями или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с обменом почтовыми сообщениями или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md).

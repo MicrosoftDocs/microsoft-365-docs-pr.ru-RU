@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Создайте оценки в Microsoft Compliance Manager, чтобы вы могли соответствовать требованиям правил и сертификаций, которые важны для вашей организации.
-ms.openlocfilehash: 06b644293c014dafbe46c115b498c2ad2390e99d
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: ff2aa41b91f3cb019dbed542c422d61c79c4ecb5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406761"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908599"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>Создание и управление оценками в диспетчере соответствия требованиям
 
 **В этой статье:** Узнайте, как настроить диспетчер соответствия требованиям для организации, создав и управляя **оценками.** В этой статье вы можете узнать, как создавать оценки, организовывать их в **группы,** работать с средствами **управления,** принимать обновления и экспортировать **отчеты об оценке.**
 
 > [!IMPORTANT]
-> Оценки, доступные вашей организации, зависят от лицензионного соглашения. [Просмотрите сведения.](https://go.microsoft.com/fwlink/?linkid=2132371)
+> Оценки, доступные вашей организации, зависят от лицензионного соглашения. [Просмотрите сведения.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="introduction-to-assessments"></a>Введение в оценки
 

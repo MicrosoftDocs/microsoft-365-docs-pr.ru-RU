@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender для Office 365 включает безопасные вложения, безопасные ссылки, расширенные средства защиты от фишинга, инструменты создания отчетов и возможности аналитики угроз.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 741b00a55ee73d16c82abd4806d06660d49be65b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1a2cb40184de170263a52e52b704b30b0731c868
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287669"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909038"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender для Office 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "50287669"
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
-> Эта статья предназначена для бизнес-клиентов, использующих [Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Если вы используете Outlook.com, Microsoft 365 для семьи или Microsoft 365 персональный и ищете сведения о функции "Безопасные ссылки"или "Безопасные вложения" в Outlook, см. статью [Расширенные возможности безопасности Outlook.com для подписчиков Microsoft 365](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для бизнес-клиентов, использующих [Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Если вы используете Outlook.com, Microsoft 365 для семьи или Microsoft 365 персональный и ищете сведения о функции "Безопасные ссылки"или "Безопасные вложения" в Outlook, см. статью [Расширенные возможности безопасности Outlook.com для подписчиков Microsoft 365](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Microsoft Defender для Office 365 защищает вашу организацию от угроз, которые могут представлять электронные сообщения, ссылки (URL-адреса) и средства совместной работы. Defender для Office 365 включает:
 
@@ -88,7 +88,7 @@ Microsoft Defender для Office 365 защищает вашу организа�
 
 - Microsoft Defender для Office 365 с планом 1 входит в состав Microsoft 365 бизнес премиум.
 
-- Microsoft Defender для Office 365 (план 1) и Microsoft Defender для Office 365 (план 2) доступны как дополнение к некоторым подпискам. Дополнительные сведения см. в разделе [Доступность функций в планах Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- Microsoft Defender для Office 365 (план 1) и Microsoft Defender для Office 365 (план 2) доступны как дополнение к некоторым подпискам. Дополнительные сведения см. в разделе [Доступность функций в планах Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - Функция [безопасных документов](safe-docs.md) доступна только пользователям с лицензией Microsoft 365 E5 или Безопасность Microsoft 365 E5 (не предусмотренные планами Microsoft Defender для Office 365).
 
@@ -150,8 +150,8 @@ Microsoft Defender для Office 365 (план 2) включает лучшие 
 |Роль или группа ролей|Дополнительные ресурсы|
 |---|---|
 |глобальный администратор (назначается Azure Active Directory или Центром безопасности и соответствия требованиям)|[О ролях администратора Microsoft 365](../../admin/add-users/about-admin-roles.md)|
-|Администратор безопасности (назначается Azure Active Directory или Центром безопасности и соответствия требованиям)|[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)|
-|Управление организациями в Exchange Online (назначается Exchange Online)|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
+|Администратор безопасности (назначается Azure Active Directory или Центром безопасности и соответствия требованиям)|[Разрешения роли администратора в Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)|
+|Управление организациями в Exchange Online (назначается Exchange Online)|[Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)|
 |Роль "Search and Purge" (поиск и очистка) (назначается только Центром безопасности и соответствия требованиям)|[Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)|
 
 Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
@@ -160,9 +160,9 @@ Microsoft Defender для Office 365 (план 2) включает лучшие 
 
 Служба Microsoft Defender для Office 365 включена в определенные подписки, такие как Microsoft 365 E5, Office 365 E5, Office 365 A5 и Microsoft 365 бизнес премиум. Если ваша подписка не включает Defender для Office 365, Defender для Office 365 (план 1) и Defender для Office 365 (план 2) можно приобрести в дополнение к определенным подпискам. Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами.
 
-- Раздел [Доступность Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) со списком подписок, включающих планы Defender для Office 365.
+- Раздел [Доступность Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) со списком подписок, включающих планы Defender для Office 365.
 
-- Раздел [Доступность функций в планах Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) со списком возможностей, включенных в планы 1 и 2.
+- Раздел [Доступность функций в планах Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) со списком возможностей, включенных в планы 1 и 2.
 
 - Раздел [Выберите подходящее решение Microsoft Defender для Office 365](https://products.office.com/exchange/advance-threat-protection#pmg-allup-content) для сравнения планов и приобретения Defender для Office 365.
 
@@ -174,7 +174,7 @@ Microsoft Defender для Office 365 (план 2) включает лучшие 
 
 - На странице [Дорожная карта Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection) приведен список новых возможностей разработки и развертывания.
 
-- Статья [Описание службы Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) содержит информацию о возможностях и доступности в рамках планов Defender для Office 365.
+- Статья [Описание службы Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) содержит информацию о возможностях и доступности в рамках планов Defender для Office 365.
 
 ## <a name="see-also"></a>См. также
 

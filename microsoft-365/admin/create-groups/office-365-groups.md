@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте о группах Microsoft 365.
-ms.openlocfilehash: 75bc743ed8f1965d0ed8a1967e6eac1bd6e0178b
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 18cb37a4aae7a163d2e198194251abc727b48848
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453685"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910610"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Обзор групп Microsoft 365 для администраторов
 
@@ -45,7 +45,7 @@ Microsoft 365 Groups — это фундаментальная служба чл
 
 В группе Microsoft 365 не нужно вручную назначать разрешения каждому из этих ресурсов. Добавление людей в группу автоматически дает им необходимые разрешения.
 
-Любой пользователь может создать группу, если не ограничить создание группы [определенным набором людей.](manage-creation-of-groups.md) Если ограничить создание группы, пользователи, которые не могут создавать группы, не смогут создавать сайты SharePoint, планировщики или группы. Эти службы требуют, чтобы создав их, люди могли создавать группу. Пользователи по-прежнему могут участвовать в групповых действиях, например в создании задач в planner или с помощью чата Teams при условии, что они являются членом группы.
+Любой пользователь может создать группу, если не ограничить создание группы [определенным набором людей.](../../solutions/manage-creation-of-groups.md) Если ограничить создание группы, пользователи, которые не могут создавать группы, не смогут создавать сайты SharePoint, планировщики или группы. Эти службы требуют, чтобы создав их, люди могли создавать группу. Пользователи по-прежнему могут участвовать в групповых действиях, например в создании задач в planner или с помощью чата Teams при условии, что они являются членом группы.
 
 Группы имеют следующие роли:
 
@@ -57,17 +57,17 @@ Microsoft 365 Groups — это фундаментальная служба чл
 
 В качестве администратора вы можете:
 
-- [Укажите, кто может создавать группы](manage-creation-of-groups.md)
-- [Создание политики именования для групп в организации](groups-naming-policy.md)
-- [Выбор домена, который необходимо использовать при создании группы](choose-domain-to-create-groups.md)
+- [Укажите, кто может создавать группы](../../solutions/manage-creation-of-groups.md)
+- [Создание политики именования для групп в организации](../../solutions/groups-naming-policy.md)
+- [Выбор домена, который необходимо использовать при создании группы](../../solutions/choose-domain-to-create-groups.md)
 - [Управление гостевым доступом к группам](manage-guest-access-in-groups.md)
 - [Восстановление удаленной группы](restore-deleted-group.md) (в течение 30 дней после удаления)
 
-Если вы предпочитаете более автоматизированный способ управления жизненным циклом групп Microsoft 365, вы можете использовать политики истечения срока действия для истекающих групп в определенный промежуток времени. Владельцы группы получат электронную почту 30, 15 и 1 день до истечения срока действия группы, что позволяет им обновить группу, если она по-прежнему необходима. См.: Политика истечения срока действия группы [Microsoft 365.](office-365-groups-expiration-policy.md)
+Если вы предпочитаете более автоматизированный способ управления жизненным циклом групп Microsoft 365, вы можете использовать политики истечения срока действия для истекающих групп в определенный промежуток времени. Владельцы группы получат электронную почту 30, 15 и 1 день до истечения срока действия группы, что позволяет им обновить группу, если она по-прежнему необходима. См.: Политика истечения срока действия группы [Microsoft 365.](../../solutions/microsoft-365-groups-expiration-policy.md)
 
-Управлять группами можно из центра администрирования Microsoft 365 или [с помощью PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
+Управлять группами можно из центра администрирования Microsoft 365 или [с помощью PowerShell.](../../enterprise/manage-microsoft-365-groups-with-powershell.md)
 
-Если у вас много пользователей, например в крупной корпорации или предприятии, у вас может быть много пользователей, которые создают группы для различных целей. Настоятельно рекомендуется просмотреть план управления в [группах Microsoft 365](plan-for-groups-governance.md) для обеспечения наилучшей практики.
+Если у вас много пользователей, например в крупной корпорации или предприятии, у вас может быть много пользователей, которые создают группы для различных целей. Настоятельно рекомендуется просмотреть план управления в [группах Microsoft 365](../../solutions/collaboration-governance-overview.md) для обеспечения наилучшей практики.
 
 ## <a name="group-limits"></a>Ограничения группы
 
@@ -100,14 +100,14 @@ Microsoft 365 Groups — это фундаментальная служба чл
 > [!IMPORTANT]
 > Если в настоящее время вы используете метки классификации, они больше не будут доступны пользователям, создав группы после включения меток конфиденциальности. 
 
-Сведения о создании, управлении и использовании меток конфиденциальности см. в разделЕ Использование меток конфиденциальности для защиты контента на сайтах [Microsoft Teams, Microsoft 365 и SharePoint.](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+Сведения о создании, управлении и использовании меток конфиденциальности см. в разделЕ Использование меток конфиденциальности для защиты контента на сайтах [Microsoft Teams, Microsoft 365 и SharePoint.](../../compliance/sensitivity-labels-teams-groups-sites.md)
 
 ## <a name="which-microsoft-365-plans-include-groups"></a>Какие планы Microsoft 365 включают группы?
 
 Любая подписка Microsoft 365 с Exchange Online и SharePoint Online будет поддерживать группы. Это включает в себя планы бизнес-первой необходимости и бизнес-премиум, а также планы enterprise E1, E3 и E5. Группа берет на себя лицензирование лица, создавшего группу (также известного как "организатор" группы). До тех пор, пока у организатора есть соответствующая лицензия на любые функции, которые необходимо иметь группе, эта лицензия будет передаваться группе.
 
 > [!NOTE]
-> Дополнительные сведения о семействах и планах служб Microsoft 365 см. в материале [Microsoft 365 plan options.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
+> Дополнительные сведения о семействах и планах служб Microsoft 365 см. в материале [Microsoft 365 plan options.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
 
 Если у вас есть план только для Exchange, вы можете получить общие функции входящих и общих календарей групп в Outlook, но не получите библиотеку документов, планировщик или другие возможности.
 
@@ -123,8 +123,8 @@ Microsoft 365 Groups — это фундаментальная служба чл
 
 [Обновление списков рассылки до Microsoft 365 Groups](../manage/upgrade-distribution-lists.md)
 
-[Управление группами Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
+[Управление группами Microsoft 365 с помощью PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md)
 
-[Ограничения SharePoint Online](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
+[Ограничения SharePoint Online](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
-[Организация групп и каналов в Microsoft Stream](https://docs.microsoft.com/stream/groups-channels-organization)
+[Организация групп и каналов в Microsoft Stream](/stream/groups-channels-organization)

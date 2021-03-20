@@ -17,41 +17,41 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 description: Узнайте, как использовать PowerShell для управления группами безопасности.
-ms.openlocfilehash: a52fcf6a20598e92f9d5ac8d673a4b1c026030f8
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 64a02a1472fdeb0d61cfb4f380cbe61dd7b557b6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073229"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909506"
 ---
 # <a name="manage-security-groups-with-powershell"></a>Управление группами безопасности с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете использовать PowerShell для Microsoft 365 в качестве альтернативы Центру администрирования Microsoft 365 для управления группами безопасности. 
+Для управления группами безопасности можно использовать PowerShell для Microsoft 365 в качестве альтернативы центру администрирования Microsoft 365. 
 
-В этой статье описывается описание, создание, изменение параметров и удаление групп безопасности. 
+В этой статье описывается перечисление, создание, изменение параметров и удаление групп безопасности. 
 
-Если блоку команд в этой статье требуется указать значения переменных, используйте следующие действия.
+Если для командного блока в этой статье требуется указать переменные значения, используйте эти действия.
 
-1. Скопируйте блок команд в буфер обмена и в paste его в Блокнот или интегрированную среду сценариев PowerShell (ISE).
-2. Заполните значения переменных и удалите символы "<" и ">".
-3. Запустите команды в окне PowerShell или ВМЕ PowerShell.
+1. Скопируйте командный блок в буфер обмена данными и вклеите его в блокнот или интегрированную среду скриптов PowerShell (ISE).
+2. Заполните переменные значения и удалите символы "<" и ">".
+3. Запустите команды в окне PowerShell или ISE PowerShell.
 
-См. ["Обслуживание членства в группах безопасности"](maintain-group-membership-with-microsoft-365-powershell.md) для управления членством в группах с помощью PowerShell.
+См. [в обзоре Сохранение членства в](maintain-group-membership-with-microsoft-365-powershell.md) группе безопасности для управления членством в группе с Помощью PowerShell.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ### <a name="list-your-groups"></a>Список групп
 
-Используйте эту команду для списка всех групп.
+Используйте эту команду, чтобы перечислить все группы.
 
 ```powershell
 Get-AzureADGroup
 ```
-Используйте эти команды для отображения параметров определенной группы по ее отображаемого имени.
+Используйте эти команды для отображения параметров определенной группы по ее имени.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -75,11 +75,11 @@ $groupName="<display name of the group>"
 Get-AzureADGroup | Where { $_.DisplayName -eq $groupName } | Select *
 ```
 
-Затем используйте статью [Set-AzureADGroup,](https://docs.microsoft.com/powershell/module/azuread/set-azureadgroup) чтобы определить, как изменить параметр.
+Затем используйте [статью Set-AzureADGroup,](/powershell/module/azuread/set-azureadgroup) чтобы определить, как изменить параметр.
 
 ### <a name="remove-a-security-group"></a>Удаление группы безопасности
 
-Используйте эти команды для удаления группы безопасности.
+Используйте эти команды, чтобы удалить группу безопасности.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -94,21 +94,21 @@ Remove-AzureADGroup -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $gr
 $groupName="<display name of the group>"
 Get-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId
 ```
-Используйте эти команды, чтобы добавить учетную запись пользователя по имени ее основного пользователя **(UPN)** для текущих владельцев группы безопасности.
+Используйте эти команды, чтобы добавить учетную запись пользователя по ее основному имени **пользователя (UPN)** к текущим владельцам группы безопасности.
 
 ```powershell
 $userUPN="<UPN of the user account to add>"
 $groupName="<display name of the group>"
 Add-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectId
 ```
-Используйте эти команды, чтобы добавить учетную запись пользователя по отображаемой **имени** текущим владельцам группы безопасности.
+Используйте эти команды, чтобы добавить учетную запись пользователя по ее **имени** к текущим владельцам группы безопасности.
 
 ```powershell
 $userName="<Display name of the user account to add>"
 $groupName="<display name of the group>"
 Add-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $userName }).ObjectId
 ```
-Используйте эти команды, чтобы удалить учетную запись пользователя по его **upN** для текущих владельцев группы безопасности.
+Используйте эти команды, чтобы удалить учетную запись пользователя с помощью **upN** для текущих владельцев группы безопасности.
 
 ```powershell
 $userUPN="<UPN of the user account to remove>"
@@ -116,7 +116,7 @@ $groupName="<display name of the group>"
 Remove-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId -OwnerId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectId
 ```
 
-Используйте эти команды, чтобы удалить учетную запись пользователя по отображаемой **имени** для текущих владельцев группы безопасности.
+Используйте эти команды, чтобы удалить  учетную запись пользователя по ее имени для текущих владельцев группы безопасности.
 
 ```powershell
 $userName="<Display name of the user account to remove>"
@@ -126,16 +126,16 @@ Remove-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -e
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="list-your-groups"></a>Список групп
 
-Используйте эту команду для списка всех групп.
+Используйте эту команду, чтобы перечислить все группы.
 
 ```powershell
 Get-MsolGroup
 ```
-Используйте эти команды для отображения параметров определенной группы по ее отображаемого имени.
+Используйте эти команды для отображения параметров определенной группы по ее имени.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -159,11 +159,11 @@ $groupName="<display name of the group>"
 Get-MsolGroup | Where { $_.DisplayName -eq $groupName } | Select *
 ```
 
-Затем используйте [статью Set-MsolGroup,](https://docs.microsoft.com/powershell/module/msonline/set-msolgroup) чтобы определить, как изменить параметр.
+Затем используйте [статью Set-MsolGroup,](/powershell/module/msonline/set-msolgroup) чтобы определить, как изменить параметр.
 
 ### <a name="remove-a-security-group"></a>Удаление группы безопасности
 
-Используйте эти команды для удаления группы безопасности.
+Используйте эти команды, чтобы удалить группу безопасности.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -177,4 +177,3 @@ Remove-MsolGroup -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $group
 [Управление Microsoft 365 с помощью PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-
