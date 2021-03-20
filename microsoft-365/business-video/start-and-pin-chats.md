@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как запустить и закрепить чаты в Microsoft Teams.
-ms.openlocfilehash: 02e7336a5de51526e7c1535eb62724823753d8a0
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 8026c71ebda6c6d65c953fa4983180d80a5df536
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421887"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913606"
 ---
 # <a name="chat-with-employees-and-customers"></a>Общение в чате с сотрудниками и клиентами
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWedV6?autoplay=false]
 
-Вы можете самостоятельно общаться с коллегами или общаться с гостем, например с клиентом или партнером. Если [для бизнеса](https://docs.microsoft.com/microsoftteams/set-up-guests) включен гостевой доступ, можно просто ввести адрес электронной почты, чтобы добавить гостя в чат.
+Вы можете самостоятельно общаться с коллегами или общаться с гостем, например с клиентом или партнером. Если [для бизнеса](/microsoftteams/set-up-guests) включен гостевой доступ, можно просто ввести адрес электронной почты, чтобы добавить гостя в чат.
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 

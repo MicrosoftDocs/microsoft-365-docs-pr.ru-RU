@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как проводить онлайн-собрания для бизнеса.
-ms.openlocfilehash: 18a142700e8b83545219ddabf17be7d562037140
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 85163990d65126cc3d9d6c11627e63aa975b2924
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422319"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913614"
 ---
 # <a name="host-online-meetings-for-your-business"></a>Проведение собраний в Интернете для бизнеса
 
@@ -73,9 +73,9 @@ ms.locfileid: "50422319"
 
 Нужна небольшая помощь? Начните [вызов из чата в Teams.](https://support.microsoft.com/office/f5138c9d-df4c-43d8-9cf6-53400c1a7798)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
-[Собрания в Microsoft Teams](https://docs.microsoft.com/microsoftteams/tutorial-meetings-in-teams)
+[Собрания в Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams)
 
 [6 способов сделать виртуальные собрания более эффективными](https://products.office.com/en-us/business/articles/6-ways-to-make-virtual-meetings-more-efficient)
 

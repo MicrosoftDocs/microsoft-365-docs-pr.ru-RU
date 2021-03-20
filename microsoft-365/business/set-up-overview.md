@@ -26,17 +26,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: 'Узнайте, как настроить Microsoft 365 бизнес премиум: от подписки до добавления домена и пользователей, настройки политик безопасности и других.'
-ms.openlocfilehash: 46370166a9d5e8c9308b8947513e631c159f0b86
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: 'Узнайте о шагах настройки для Microsoft 365 Business Premium: от подписки до добавления домена и пользователей до настройки политик безопасности и других.'
+ms.openlocfilehash: 9d92aefb3b5666bb7c2fd2e13c9a00f074f107a7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842137"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912497"
 ---
-# <a name="overview-of-setup"></a>Обзор установки
+# <a name="overview-of-setup"></a>Обзор настройки
 
-Посмотрите короткое видео о настройке Microsoft 365 бизнес премиум.<br><br>
+Просмотрите короткое видео о настройке Microsoft 365 Бизнес Премиум.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
@@ -49,38 +49,38 @@ ms.locfileid: "48842137"
    - **[Добавьте домен](set-up.md#add-your-domain-to-personalize-sign-in)** (если вы приобрели домен в ходе [регистрации](sign-up.md), то это действие уже выполнено.)
 
    - **Добавление пользователей**. Добавить пользователей можно тремя способами:
-        - В [управляемой настройке.](set-up.md#add-users-in-the-wizard)
-        - Воспользуйтесь синхронизацией каталогов, чтобы [добавить пользователей с помощью Azure AD Connect ](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization), если у вас есть локальная служба каталогов Active Directory.
-        - Кроме того, вы сможете [добавить пользователей позже](add-users-m365b.md) в Центре администрирования.
+        - В [управляемой настройке](set-up.md#add-users-in-the-wizard).
+        - Воспользуйтесь синхронизацией каталогов, чтобы [добавить пользователей с помощью Azure AD Connect ](../enterprise/set-up-directory-synchronization.md), если у вас есть локальная служба каталогов Active Directory.
+        - Кроме того, вы сможете [добавить пользователей позже](../admin/add-users/add-users.md) в Центре администрирования.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Действие 2. Настройка политик безопасности и настройка устройств 
 
-  - Используйте [управляемую настройку](set-up.md#protect-your-organization) для настройки политик устройств. 
-  - Кроме того, вы сможете добавлять новых пользователей или редактировать их в [Центре администрирования](view-policies-and-devices.md) и на [портале Intune](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
+  - Настройка [политик устройств с](set-up.md#protect-your-organization) помощью управляемой установки. 
+  - Кроме того, вы сможете добавлять новых пользователей или редактировать их в [Центре администрирования](view-policies-and-devices.md) и на [портале Intune](/intune/tutorial-walkthrough-intune-portal).
   - Мастер установки также настроит основные параметры защиты от угроз и защиты от потери данных.
   
   Помимо параметров безопасности, в мастере установки вы можете повысить уровень безопасности, добавив следующие параметры:
 
 - **Защита от вредоносных программ в электронной почте**
-- **Защита от фишинга в Защитнике office 365**
+- **Защита от фишинга в Defender для Office 365**
 - **Архивация на базе Exchange Online**
 - **Azure Information Protection (план 1**)
 
-To get started, see [increase threat protection](increase-threat-protection.md) and set up compliance [features](set-up-compliance.md).
+Чтобы начать работу, [см. в этой ленте повышение](increase-threat-protection.md) защиты от угроз и [настройка функций соответствия](set-up-compliance.md)требованиям.
 
-См. также 10 лучших способов защиты [Microsoft 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) бизнес премиум.
+См. [также топ-10 способов](/office365/admin/security-and-compliance/secure-your-business-data) обеспечения безопасности microsoft 365 Бизнес Премиум для дорожной карты лучших методов безопасности.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Действие 3. Настройка устройств с Windows 10 и управление ими
 
-После выполнения управляемой настройки необходимо защитить все компьютеры с Windows 10 в организации.
+После завершения управляемой установки необходимо защитить все компьютеры Windows 10 в организации.
   
-- Windows 10 Pro [](pre-requisites-for-data-protection.md) является необходимым условием для Microsoft 365 бизнес премиум, но если у вас есть Windows 7 Pro, Windows 8 Pro или Windows 8.1 Pro, ваша подписка дает право на обновление до [Windows 10 Pro.](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update)
+- Windows 10 Pro [](pre-requisites-for-data-protection.md) является обязательным условием для Microsoft 365 Бизнес Премиум, но если у вас есть Windows 7 Pro, Windows 8 Pro или Windows 8.1 Pro, ваша подписка дает право на обновление до [Windows 10 Pro](./upgrade-to-windows-pro-creators-update.md).
 - Чтобы настроить политики для устройств с Windows 10, выполните действия, описанные в разделе [защита компьютеров с Windows 10](secure-win-10-pcs.md).
 
-При присоединении устройства с Windows 10 к Azure AD применяются политики, установленные для компьютеров с Windows 10. Дополнительные сведения [см. в подсети "Настройка устройств с Windows для пользователей Microsoft 365".](set-up-windows-devices.md)
+При присоединении устройства с Windows 10 к Azure AD применяются политики, установленные для компьютеров с Windows 10. Дополнительные сведения см. в [сайте Настройка устройств Windows для пользователей Microsoft 365.](set-up-windows-devices.md)
 
 ## <a name="step-4-install-microsoft-365-apps-for-business"></a>Шаг 4. Установка приложений Microsoft 365 для бизнеса
 - Вы можете автоматически установить Office на устройствах с Windows с помощью[мастера установки](set-up.md#deploy-office-365-client-apps).
-- Разрешите пользователям [устанавливать приложения Office](https://docs.microsoft.com/office365/admin/setup/install-applications) для Windows и устройств.
+- Разрешите пользователям [устанавливать приложения Office](/office365/admin/setup/install-applications) для Windows и устройств.
      
 ## <a name="advanced"></a>Дополнительно
 - **Использование Autopilot для настройки новых устройств**
@@ -89,9 +89,9 @@ To get started, see [increase threat protection](increase-threat-protection.md) 
 
 - **Доступ к локальным ресурсам**
 
-     - Если в вашей организации используется локальная служба Windows Server Active Directory, вы можете настроить Microsoft 365 бизнес премиум для защиты устройств с Windows 10, сохранив при этом доступ к локальным ресурсам, которые требуют локальной проверки подлинности. Чтобы настроить эту возможность, выполните действия, которые необходимо предпринять, чтобы включить управление устройствами с Windows 10, которые присоединились к домену, [с помощью Microsoft 365 бизнес премиум.](manage-windows-devices.md) Это предпочтительный способ, а устройства в этом состоянии называются устройствами с гибридным присоединением к Azure AD.
+     - Если в организации используется локальный Windows Server Active Directory, можно настроить Microsoft 365 Business Premium для защиты устройств Windows 10, сохраняя при этом доступ к локальным ресурсам, которые требуют локальной проверки подлинности. Выполните действия в Включить устройства Windows 10, которые будут управляться [microsoft 365 Business Premium,](manage-windows-devices.md) чтобы настроить это. Это предпочтительный способ, а устройства в этом состоянии называются устройствами с гибридным присоединением к Azure AD.
 
-    - Если в вашей компании есть локальная служба Active Directory, которая содержит некоторые локальные ресурсы (например, файловые ресурсы и принтеры), вы можете предоставить устройствам, присоединенным к Azure AD, доступ к этим ресурсам, следуя указанным ниже шагам: доступ к локальным ресурсам с устройства, присоединенного к [Azure AD, в Microsoft 365 бизнес премиум.](access-resources.md)
+    - Если в вашем бизнесе имеется локальный каталог Active Directory, содержащий некоторые локальные ресурсы (например, акции файлов и принтеры), вы можете предоставить устройствам Azure AD-присоединенные доступ к этим ресурсам, следуя следующим шагам: доступ к локальным ресурсам с устройства Azure AD в [Microsoft 365 Business Premium.](access-resources.md)
 
 ## <a name="see-also"></a>См. также
 

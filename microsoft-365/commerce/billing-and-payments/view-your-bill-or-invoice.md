@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
 ms.date: 07/31/2020
-ms.openlocfilehash: 5bf257847ec880855841035792c7714fd24d9b68
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 395c9773d4bc67ed466d7b3f8d568cecedddfd36
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928536"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911652"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счета
 
@@ -80,4 +80,4 @@ ms.locfileid: "49928536"
 
 [Оплата с помощью счета-фактуры, кредитной карты или банковского счета](pay-for-your-subscription.md) (статья) \
 [Управление методами оплаты](manage-payment-methods.md) (статья) \
-[Варианты оплаты Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761) (статья)
+[Варианты оплаты Minecraft: Education Edition](/education/windows/school-get-minecraft) (статья)

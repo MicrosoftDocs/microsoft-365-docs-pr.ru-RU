@@ -1,5 +1,5 @@
 ---
-title: Управление уведомлениями о выставлении счетов и вложениями счетов
+title: Управление уведомлениями о выставлении счетов и вложениями счетов-фактур
 f1.keywords:
 - CSH
 ms.author: cmcatee
@@ -19,18 +19,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как управлять тем, кто получает сообщения уведомлений о выставлении счетов и вложения счетов.
-ms.openlocfilehash: f0811c5d027d042b5114c9e05c698dab1e08763b
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 8997a4d3ca575c60214adbedccc018e6768850cd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515231"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911858"
 ---
-# <a name="manage-billing-notifications-and-invoice-attachments"></a>Управление уведомлениями о выставлении счетов и вложениями счетов
+# <a name="manage-billing-notifications-and-invoice-attachments"></a>Управление уведомлениями о выставлении счетов и вложениями счетов-фактур
 
 Страница **уведомлений о выставлении счета** позволяет управлять тем, кто получает электронные уведомления о выставлении счета для вашей организации. На странице также предоставляется возможность получения счетов-фактур организации [в виде вложений электронной почты.](#receive-your-organizations-invoices-as-email-attachments)
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Вы должны быть глобальным администратором для действий, описанных в этой статье. Администраторы биллинга могут внести некоторые из этих изменений, как отмечено в разделах ниже. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
@@ -109,7 +109,7 @@ ms.locfileid: "50515231"
 - Вкладчик профилей биллинга
 - Менеджер по счетам
 
-Дополнительные данные о выставлении ролей профилей и управлении ими см. в странице [Understand Microsoft Customer Agreement administrative roles in Azure.](https://docs.microsoft.com/azure/cost-management-billing/manage/understand-mca-roles)
+Дополнительные данные о выставлении ролей профилей и управлении ими см. в странице [Understand Microsoft Customer Agreement administrative roles in Azure.](/azure/cost-management-billing/manage/understand-mca-roles)
 
 Чтобы изменить тех, кто получает уведомления о выставлении счета вашей организации, используйте следующие действия, чтобы изменить роли, замещенные пользователями.
 
@@ -127,6 +127,6 @@ ms.locfileid: "50515231"
 
 ## <a name="related-content"></a>Связанные материалы
 
-[Просмотр счета или](view-your-bill-or-invoice.md) счета(статьи)\
+[Просмотр счета](view-your-bill-or-invoice.md) (статья)\
 [Понимание счета или счета для Microsoft 365 для бизнеса](understand-your-invoice2.md) (статья)\
 [Добавление пользователей и назначение лицензий](../../admin/add-users/add-users.md) одновременно (статья)

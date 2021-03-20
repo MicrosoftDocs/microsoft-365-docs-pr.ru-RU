@@ -23,19 +23,19 @@ search.appverid:
 - MET150
 description: Научитесь добавлять и уменьшать хранение файлов в подписке Microsoft 365. С помощью дополнительного хранилища файлов можно хранить больше контента в SharePoint Online и OneDrive.
 ms.date: ''
-ms.openlocfilehash: 626cc81faea43ebdcf618a4f26c33069bae6a206
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: b170924f40d517cb6bbdf8635ad3e163eadc8643
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405892"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911930"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Добавление пространства для хранения для подписки
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -44,24 +44,24 @@ ms.locfileid: "50405892"
 > [!NOTE]
 > Если вы приобрели подписку с помощью корпоративного лицензирования или CSP, вы не можете купить Дополнительные хранилища файлов **Office 365** для вашей организации напрямую у Корпорации Майкрософт. Обратитесь за помощью к представителю или партнеру.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Вы должны быть глобальным администратором или администратором SharePoint для выполнения задач в этой статье. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).
 
 ## <a name="view-available-storage"></a>Просмотр доступного хранилища
 
-1. В центре администрирования SharePoint перейдите на страницу <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">Активные</a> сайты и войдите в учетную запись с разрешениями администратора [для](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) вашей организации.
+1. В центре администрирования SharePoint перейдите на страницу <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">Активные</a> сайты и войдите в учетную запись с разрешениями администратора [для](/sharepoint/sharepoint-admin-role) вашей организации.
 
 2. В правом верхнем углу страницы отображается объем места в хранилище, используемый всеми сайтами, и общий объем хранилища, доступный для вашей подписки. Если ваша организация настроил Multi-Geo в Office 365, в панели также показано количество хранилища, используемого во всех географических расположениях.
 
-   ![Панель "Хранилище" на странице "Активные сайты"](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
+   ![Панель "Хранилище" на странице "Активные сайты"](/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
 
    > [!NOTE]
    > Значение используемого объема хранилища не учитывает изменения, сделанные за последние 24–48 часов.
 
 После определения объемов используемого хранилища можно добавить или удалить место для хранения для подписки. Чтобы узнать, сколько будет стоить добавление пространства для хранения, выполните действия в этой статье и просмотрите сведения о ценах, прежде чем покупать больше.
   
-Сведения об установлении ограничений для хранения коллекций сайтов см. в руб. Управление ограничениями для хранения [коллекций сайтов.](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits)
+Сведения об установлении ограничений для хранения коллекций сайтов см. в руб. Управление ограничениями для хранения [коллекций сайтов.](/sharepoint/manage-site-collection-storage-limits)
   
 ## <a name="add-storage-to-your-subscription"></a>Добавление хранилища в подписку
 
@@ -112,4 +112,4 @@ ms.locfileid: "50405892"
 ## <a name="related-content"></a>Связанные материалы
 
 [Управление ограничениями хранения сайтов](ttps://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) (статья)\
-Установите пространство хранения по умолчанию [для пользователей OneDrive](https://docs.microsoft.com/onedrive/set-default-storage-space)(статья)
+Установите пространство хранения по умолчанию [для пользователей OneDrive](/onedrive/set-default-storage-space)(статья)

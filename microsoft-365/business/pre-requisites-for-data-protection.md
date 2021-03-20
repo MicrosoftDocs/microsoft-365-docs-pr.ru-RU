@@ -1,5 +1,5 @@
 ---
-title: Необходимые условия для защиты данных на устройствах с помощью Microsoft 365 для бизнеса
+title: Необходимые условия для защиты данных на устройствах с Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,32 +21,32 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Узнайте о требованиях для настройки организации с помощью Microsoft 365 для бизнеса и защиты данных о работе на устройствах пользователей.
-ms.openlocfilehash: 237825d2c2683bb6e71ae2fd31f8a25b1aa85ff7
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Сведения о требованиях к настройке организации в Microsoft 365 для бизнеса и защите данных о работе на устройствах пользователей.
+ms.openlocfilehash: c0fca0e038d15b19cb2a37eb5705296ed3da3746
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785899"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912909"
 ---
-# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Необходимые условия для защиты данных на устройствах с помощью Microsoft 365 для бизнеса
+# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Необходимые условия для защиты данных на устройствах с Microsoft 365 для бизнеса
 
-Эта статья относится к Microsoft 365 бизнес премиум.
+Эта статья применима к Microsoft 365 Бизнес Премиум.
 
-Первый шаг в настройке организации с помощью Microsoft 365 для бизнеса — убедиться, что вы можете выполнить все необходимые условия.
+Первый шаг в настройке организации с Помощью Microsoft 365 для бизнеса — убедиться, что вы можете выполнить необходимые условия.
   
-## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Требования для настройки организации с помощью Microsoft 365 для бизнеса
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Требования к настройке организации в Microsoft 365 для бизнеса
 
-- Устройства с Windows должны работать под управлением Windows 7 Профессиональная, Windows 8 Pro или Windows 8.1 Pro.
+- Устройства Windows должны работать Windows 7 Профессиональная, Windows 8 Pro или Windows 8.1 Pro.
     
     [Обновление устройств с Windows до Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md)
     
-    Если вы работаете под управлением Windows 10 Домашняя, необходимо **приобрести** Windows 10 Pro. Инструкции см. в инструкциях по [обновлению Windows 10 Домашняя до Windows 10 Pro.](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) 
+    Если вы работаете с Windows 10 Home, необходимо **приобрести** Windows 10 Pro. Инструкции [по обновлению Windows 10 Home до Windows 10 Pro.](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) 
     
-- Удалите устройства из решений для управления мобильными устройствами (Mobile Iron, AirWatch и так далее). Все сотрудники вашей организации будут зарегистрированы в службе управления мобильными устройствами Microsoft 365 для бизнеса.
+- Удаление устройств из мобильных решений управления (Mobile Iron, AirWatch и так далее). Все сотрудники вашей организации будут зарегистрированы в Microsoft 365 для управления бизнес-мобильными устройствами.
     
 - Apple iOS 8.0 и более поздние версии.
     
-    Google Android 4.0 и более поздних версий (в том числе Android KNOX Standard 4.0 и более поздних версий). Дополнительные сведения см. на [поддерживаемых устройствах Intune.](https://go.microsoft.com/fwlink/p/?linkid=852307)
+    Google Android 4.0 и более поздней версии (в том числе Samsung KNOX Standard 4.0 и выше). Дополнительные сведения см. в дополнительных [сведениях о устройствах, поддерживаемых Intune.](/mem/intune/fundamentals/supported-devices-browsers)
     
-- Если у вас есть приложения Office на компьютерах пользователей, ознакомьтесь с подготовкой к установке клиента [Office,](prepare-for-office-client-deployment.md) чтобы понять, какие действия необходимо предпринять, прежде чем настроить Microsoft 365 для бизнеса для установки Office 2016 на компьютерах пользователей. 
+- Если у вас есть существующие приложения Office на пользовательских компьютерах, ознакомьтесь с подготовкой к установке клиента [Office,](prepare-for-office-client-deployment.md) чтобы понять действия, которые необходимо предпринять, прежде чем можно настроить Microsoft 365 для бизнеса для установки Office 2016 на пользовательских компьютерах.

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как требовать MFA и настроить политики условного доступа для Microsoft 365 для бизнеса.
-ms.openlocfilehash: e16b7f4ff7d215ee749435806be214a807cc60a4
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: dcb79ed060dd15fd288cdcfb9e3739a788f5fbc2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453673"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912190"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Требуется многофакторная проверка подлинности и настройка политик условного доступа
 
@@ -48,7 +48,7 @@ ms.locfileid: "50453673"
 
 Рекомендуется включить все эти базовые политики. После включения этих политик администраторам и пользователям будет предложено зарегистрироваться для многофакторной проверки подлинности Azure AD.
 
-Дополнительные сведения об этих политиках см. в дополнительных сведениях [о базовых политиках?](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)
+Дополнительные сведения об этих политиках см. в дополнительных сведениях [о базовых политиках?](/azure/active-directory/conditional-access/concept-baseline-protection)
 
 ## <a name="require-mfa"></a>Требование многофакторной идентификации
 
@@ -73,12 +73,12 @@ ms.locfileid: "50453673"
 1. Перейдите на портал [Azure,](https://portal.azure.com)а затем перейдите на условный доступ **к безопасности Azure Active Directory,** чтобы создать новую \>  \>  **политику.**
 
 См. следующие инструкции для каждой политики: <br>
-    - [Требовать MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
-    - [Требовать MFA для пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
-    - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
-    - [Требуется MFA для управления службами](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+    - [Требовать MFA для администраторов](/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
+    - [Требовать MFA для пользователей](/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
+    - [Блокирование традиционной проверки подлинности](/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
+    - [Требуется MFA для управления службами](/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 > [!NOTE]
 > Политики предварительного просмотра больше не существуют, и пользователям потребуется создать собственные политики.
 
-Можно настроить дополнительные политики, например, требующие утвержденных клиентских приложений. Дополнительные сведения см. в [документации условного доступа.](https://docs.microsoft.com/azure/active-directory/conditional-access/)
+Можно настроить дополнительные политики, например, требующие утвержденных клиентских приложений. Дополнительные сведения см. в [документации условного доступа.](/azure/active-directory/conditional-access/)

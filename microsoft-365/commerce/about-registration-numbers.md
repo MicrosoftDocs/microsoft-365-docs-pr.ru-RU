@@ -18,13 +18,13 @@ description: Узнайте о регистрационных номерах и 
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- Commerce
-ms.openlocfilehash: 342813fa103cb260c036de5dd2cdfd13bea12d33
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+- commerce
+ms.openlocfilehash: a9625b391260d27610bb304b0ae3788b541b7709
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717726"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912012"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>О регистрационных номерах и уведомлениях о просмотре
 
@@ -36,13 +36,15 @@ ms.locfileid: "50717726"
 
 Для стран, где регистрационный номер является обязательным, метка над текстовым полем указывает, какой тип номера необходим.
 
-<!-- For example, in the following screenshot, the label indicates that a CNPJ registration number is needed.
- add screenshot-->
+Например, на следующем скриншоте метка указывает, что необходим регистрационный номер CNPJ.
+
+:::image type="content" source="../media/macregnum-cnpj-screenshot-400.png" alt-text="Снимок экрана поля номеров регистрации для номера C N P J.":::
 
 В странах, где регистрационный номер необязателен, вы можете предоставить юридический регистрационный номер компании. Не введите личный ИД в этом поле.
 
-<!-- The following screenshot shows an example of when the registration number is optional.
-add screenshot -->
+На следующем скриншоте показан пример необязательного номера регистрации.
+
+:::image type="content" source="../media/macregnum-reg-screenshot_400.png" alt-text="Снимок экрана необязательного поля номеров регистрации.":::
 
 Если у вас нет допустимого номера регистрации, подробные сведения см. в материале [Registration numbers by country.](#registration-numbers-by-country)
 
@@ -52,13 +54,15 @@ add screenshot -->
 
 Обычно процесс проверки занимает около одного дня, но может занять больше времени.
 
-<!-- The following screenshot shows the review notification displayed during checkout.
-add screenshot -->
+На следующем скриншоте показано уведомление об отзыве, отображаемом во время проверки.
+
+:::image type="content" source="../media/macregnum_statuscheckout_screenshot_400.png" alt-text="Снимок экрана уведомления о просмотре учетной записи на странице проверки.":::
 
 Уведомление электронной почты также отправляется всем администраторам глобальной и биллинговой учетной записи. В некоторых случаях уведомление отправляется пользователям, у которых в учетной записи имеется роль владельцев учетных записей биллинга или вкладчиков учетных записей. В уведомлении говорится, что в настоящее время проводится проверка. Уведомление об утверждении электронной почты отправляется после завершения процесса проверки.
 
-<!-- The following screenshot shows the notification displayed on the billing account details page.
-add screenshot -->
+На следующем скриншоте показано уведомление, отображаемая на странице сведений о счете вы выставления счетов.
+
+:::image type="content" source="../media/macregnum-statusbillacct-screenshot_700.png" alt-text="Снимок экрана уведомления об отзыве на странице учетных записей вы выставления счетов.":::
 
 ## <a name="registration-numbers-by-country"></a>Регистрационные номера по стране
 

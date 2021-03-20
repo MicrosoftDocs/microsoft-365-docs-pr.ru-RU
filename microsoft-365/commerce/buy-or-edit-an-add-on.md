@@ -19,19 +19,19 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - Commerce
-ms.openlocfilehash: 22868021fec978f8f55c47adca82438f1ae51029
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: ea9cdb6edf3aaac1575b1d2b14790bd28876ee26
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405868"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911651"
 ---
 # <a name="buy-or-manage-add-ons"></a>Приобретение и управление надстройками
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -50,7 +50,7 @@ ms.locfileid: "50405868"
 
 Для поиска и покупки надстроек используйте следующие действия. В список включены только доступные для вас надстройки. Этот список основан на текущих активных подписках и любых других существующих надстройки, которые у вас уже есть. Если надстройки нет в списке, ее нельзя купить.
 
-Сведения о надстройках для Skype для бизнеса см. в статье [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Сведения о надстройках для Skype для бизнеса см. в статье [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 1. В центре администрирования перейдите на страницу **Службы** покупки \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">биллинга.</a>
 2. В нижней части страницы **Службы** покупки в разделе **Надстройки** найдите надстройку, которую вы хотите купить, и выберите **Детали.**

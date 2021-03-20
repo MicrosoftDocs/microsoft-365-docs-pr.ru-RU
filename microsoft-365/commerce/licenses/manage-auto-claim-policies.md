@@ -18,12 +18,12 @@ ms.custom:
 - commerce
 search.appverid:
 - MET150
-ms.openlocfilehash: c1715d2420315c6e645303c959512a45d47fddfe
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: bf3f79e425b3f7cd86f1a5ab95a337ef5127e345
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50759214"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911475"
 ---
 # <a name="manage-auto-claim-policies"></a>Управление политиками автоматического утверждения
 
@@ -41,9 +41,9 @@ ms.locfileid: "50759214"
 > [!IMPORTANT]
 > Политики автоматического утверждения в настоящее время доступны только для Microsoft Teams. Дополнительные продукты будут доступны для использования в будущем.
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Подготовка
 
-Вы должны быть глобальным администратором, администратором биллинга или пользователя для создания и управления политиками автоматического утверждения. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../../admin/add-users/about-admin-roles.md).
+Вы должны быть глобальным администратором для создания и управления политиками автоматического утверждения. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="turn-the-auto-claim-policy-feature-on-or-off"></a>Включить или отключить функцию политики автоматического утверждения
 

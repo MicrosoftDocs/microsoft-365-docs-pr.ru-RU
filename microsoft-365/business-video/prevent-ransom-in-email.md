@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как создать правила электронной почты для предотвращения программ-вымогателей.
-ms.openlocfilehash: 0d8b4a9de881f47752ac0bfbf778453d6ee73046
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 34590945b13408cf3521f000d703bd37e04ba73f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422259"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913554"
 ---
 # <a name="create-email-rules-to-prevent-ransomware"></a>Создание правил электронной почты для предотвращения программ-вымогателей
 
@@ -43,7 +43,7 @@ Microsoft 365 помогает защитить бизнес от програм
 1. В **соответствии с этим правилом,** если выберите **любое** вложение, а затем выберите расширение файла включает в себя **эти слова**.
 1. В поле под указанием слов или фраз введите расширения файлов, к которые необходимо применить правило, например расширения файлов, которые могут содержать макрос. Используйте символ плюс (+) для добавления их по одному.
 
-    Узнайте больше о типах файлов, прочитав [статью Protect against ransomware.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)
+    Узнайте больше о типах файлов, прочитав [статью Protect against ransomware.](../admin/security-and-compliance/secure-your-business-data.md#ransomware)
 
 1. Прокрутите вниз, чтобы просмотреть список, а затем выберите **ОК.**
 1. На странице **новое правило** выберите **условие добавить,** а затем выбрать условие **в соответствии Сделайте следующее**.

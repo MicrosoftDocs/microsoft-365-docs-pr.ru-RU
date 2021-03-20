@@ -22,26 +22,26 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Во sign in to Microsoft 365. Защитите свой бизнес, методику или кампанию от угроз кибербезопасности для электронной почты, данных и коммуникаций.
-ms.openlocfilehash: d2bc0ddbfbc839f1b389b844544f33c444012fb4
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+description: Во входе в Microsoft 365. Защитите свой бизнес, практику или кампанию от угроз кибербезопасности до электронной почты, данных и связи.
+ms.openlocfilehash: e115ec9fab8270f1b9dddcc33b2d20a5554e4f2e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044208"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912154"
 ---
 # <a name="sign-in-to-microsoft-365"></a>Вход в Microsoft 365
 
-## <a name="for-business-or-campaign-admins"></a>Для администраторов бизнеса или кампаний
+## <a name="for-business-or-campaign-admins"></a>Для администраторов бизнеса или кампании
 
-Если вы подписаны на Microsoft 365, вы администратор Microsoft 365. Вот как войти:
+Если вы подписались на Microsoft 365, вы будете администратором Microsoft 365. Вот как войти:
 
-1. Найдите имя пользователя и пароль, отправленные на адрес электронной почты, который вы предоставили в шаге 2 действий [по регистрации.](m365-campaigns-sign-up.md#steps-to-sign-up)
-2. В браузере перейдите в Центр администрирования Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> по
+1. Найдите имя пользователя и пароль, который мы отправили на адрес электронной почты, который вы дали нам в шаге 2 Шагов [для регистрации.](m365-campaigns-sign-up.md#steps-to-sign-up)
+2. В браузере перейдите в центр администрирования Microsoft 365 по <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 3. Введите имя пользователя и пароль. Щелкните ссылку **Вход**.
-4. В правом верхнем окне страницы найдите **предварительный просмотр в окне** управления. Выберите **"Предварительный просмотр",** чтобы можно было использовать все элементы управления, описанные в описании защиты с помощью меры безопасности [для вашей кампании.](m365-campaigns-security-overview.md)
+4. В правом верхнем справа от страницы найдите предварительную **версию управления.** Выберите **предварительную версию,** чтобы можно было использовать все элементы управления, описанные в [элементе Bump up protection для вашей кампании.](m365-campaigns-security-overview.md)
 
 ## <a name="for-staff"></a>Для сотрудников
 
-Задайте персонал, как описано [в](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) описании "Добавление пользователей". Вы также можете сбросить и повторно вводить пароли на странице "Добавление **пользователей".**
-Все сотрудники могут войти в <a href="https://office.com" target="_blank">https://Office.com</a> нее.
+Настройка персонала, как описано в ["Добавить пользователей",](../admin/add-users/add-users.md?toc=%2fmicrosoft-365%2fcampaigns%2ftoc.json) вы также можете сбросить и перезагрузить пароли на странице **Добавить пользователей.**
+Все сотрудники могут войти в <a href="https://office.com" target="_blank">https://Office.com</a> .

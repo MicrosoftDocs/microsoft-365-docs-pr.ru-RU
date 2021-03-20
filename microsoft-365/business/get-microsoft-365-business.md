@@ -1,5 +1,5 @@
 ---
-title: Получить Microsoft 365 бизнес премиум из Центра партнеров
+title: Получите Microsoft 365 Бизнес Премиум из центра партнеров
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,39 +24,36 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Узнайте о вариантах приобретения Microsoft 365 бизнес премиум и пошаговом инструкции по его покупке в Центре партнеров Майкрософт.
-ms.openlocfilehash: 550ab62b46ffc09f8c4822a2e1741ee51b4579ca
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Откройте для себя варианты покупки Microsoft 365 Бизнес Премиум и пошаговую инструкцию по ее покупке в Центре партнеров Майкрософт.
+ms.openlocfilehash: 9f29846a7017259340b2125b09bc9fa5f935501b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400942"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913333"
 ---
 # <a name="get-microsoft-365-business-premium"></a>Получить Microsoft 365 бизнес премиум
 
-## <a name="get-microsoft-365-business-premium-from-microsoft"></a>Получите Microsoft 365 бизнес премиум от Майкрософт
+## <a name="get-microsoft-365-business-premium-from-microsoft"></a>Получите microsoft 365 Бизнес Премиум от Microsoft
 
-Если у вас нет партнера и вы хотите получить Microsoft 365 бизнес премиум, вы можете [приобрести его здесь.](https://www.microsoft.com/en-US/microsoft-365/business)
+Если у вас нет партнера и вы хотите получить Microsoft 365 Бизнес Премиум, вы можете [купить его здесь](https://www.microsoft.com/en-US/microsoft-365/business).
 
-Подробные инструкции см. в описании регистрации [в Microsoft 365](sign-up.md) бизнес премиум.
+Подробные [инструкции см. в описании для Microsoft 365 Business Premium.](sign-up.md)
 
-Вы также можете ться в [Microsoft Store,](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) чтобы приобрести Microsoft 365 бизнес премиум и получить помощь по настройке.
+Кроме того, вы можете перенастроить [магазин Microsoft Store,](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) чтобы купить Microsoft 365 Business Premium и получить помощь по настройке.
   
-## <a name="get-microsoft-365-business-premium-from-microsoft-partner-center"></a>Получите Microsoft 365 бизнес премиум из Центра партнеров Майкрософт
+## <a name="get-microsoft-365-business-premium-from-microsoft-partner-center"></a>Получите microsoft 365 Бизнес Премиум из Центра партнеров Майкрософт
 
 1. Войдите в [Центр партнеров Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=849910) с учетными данными, созданными при регистрации в программе поставщика облачных решений. 
     
-2. На информационной панели Партнера выберите **"Клиенты",** а затем выберите клиента или добавьте нового клиента, прежде чем получать Microsoft 365 бизнес премиум.
+2. На панели мониторинга партнеров выберите **клиенты,** а затем выберите клиента или добавьте нового клиента, прежде чем получить Microsoft 365 Бизнес Премиум.
     
-    ![В Центре партнеров Майкрософт добавьте клиента.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![В центре партнеров Майкрософт добавьте клиента.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. На странице подписки клиента выберите "Добавить подписку", выберите вариант "Малый бизнес" в каталоге, а затем выберите **Microsoft 365 бизнес премиум.**  
+3. На странице Подписка **клиента** выберите Добавить подписку, выберите параметр Малый бизнес в каталоге, а затем выберите Microsoft **365 Бизнес Премиум**.
     
-    Выберите нужное количество лицензий (не более 300). Если у вас более 300 пользователей, см. [Microsoft 365 корпоративный.](https://go.microsoft.com/fwlink/p/?linkid=862316) 
+    Выберите нужное количество лицензий (не более 300). Если у вас более 300 пользователей, см. [в этой записи Microsoft 365 Enterprise.](../enterprise/index.yml) 
     
-    ![На странице "Новая подписка" выберите малый бизнес.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
+    ![На странице Новая подписка выберите малый бизнес.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    Выполните остальные действия по добавлению нового клиента, включая название компании.
-    
-
-
+    Выполните остальные действия для добавления нового клиента, включая имя бизнеса.

@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Узнайте, как разобраться в расходах, выставлении счетов и данных об оплате по счету за Microsoft 365 для бизнеса и как изменить номер заказа на покупку.
-ms.openlocfilehash: 3d71bab82be3fd9e4c633885dccaf357ccabb551
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
-ms.translationtype: HT
+ms.openlocfilehash: 99b52928d458e7883919ee46aaafaa7a66278447
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638403"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911690"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Общие сведения о счетах за Microsoft 365 для бизнеса
 
@@ -141,4 +141,4 @@ ms.locfileid: "48638403"
 
 [Оплата подписки на Microsoft 365 для бизнеса](pay-for-your-subscription.md)
 
-[Варианты оплаты Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)
+[Варианты оплаты Minecraft: Education Edition](/education/windows/school-get-minecraft)

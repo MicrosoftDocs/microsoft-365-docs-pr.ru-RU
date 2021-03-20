@@ -12,13 +12,13 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Узнайте, как настроить поиск в среде с несколькими географическими средами. Только некоторые клиенты, такие как OneDrive для бизнеса, могут возвращать результаты в среде с несколькими географическими средами.
-ms.openlocfilehash: e213e93cfbc967a723b4d27f4b36a83fe6687da9
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+description: Узнайте, как настроить поиск в многоэтабной среде. Только некоторые клиенты, такие как OneDrive для бизнеса, могут возвращать результаты в многоэтабной среде.
+ms.openlocfilehash: b3a96b1d0652cb954c58ae410583befa078460d9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547156"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911166"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Настройка поиска для Microsoft 365 Multi-Geo
 
@@ -84,12 +84,12 @@ ms.locfileid: "47547156"
 <tr class="odd">
 <td align="left"></td>
 <td align="left">При поиске в среде с поддержкой нескольких регионов невозможно динамическое группирование числовых уточнений.</td>
-<td align="left">Используйте параметр <a href="https://docs.microsoft.com/sharepoint/dev/general-development/query-refinement-in-sharepoint">Discretize для</a> числовых уточнений.</td>
+<td align="left">Используйте параметр <a href="/sharepoint/dev/general-development/query-refinement-in-sharepoint">"Дискретизация"</a> для числовых переработчиков.</td>
 </tr>
 <tr class="even">
 <td align="left">Идентификаторы документов</td>
 <td align="left">При разработке поискового приложения, которое зависит от ИД документов, обратите внимание, что такие идентификаторы в среде с поддержкой нескольких регионов уникальны только для каждого отдельного географического расположения.</td>
-<td align="left">Добавлен столбец, определяющий географическое расположение и позволяющий добиться уникальности. Этот столбец называется GeoLocationSource.</td>
+<td align="left">Добавлен столбец, определяющий географическое расположение и позволяющий добиться уникальности. Этот столбец называется "GeoLocationSource".</td>
 </tr>
 <tr class="odd">
 <td align="left">Количество результатов</td>
@@ -98,7 +98,7 @@ ms.locfileid: "47547156"
 </tr>
 <tr class="even">
 <td align="left">Гибридный поиск</td>
-<td align="left">В гибридной среде SharePoint с <a href="https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">облачным гибридным поиском</a> локальный контент добавляется в индекс Microsoft 365 центрального расположения.</td>
+<td align="left">В гибридной среде SharePoint с <a href="/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">облачным гибридным поиском</a> локальный контент добавляется в индекс Microsoft 365 центрального расположения.</td>
 <td align="left"></td>
 </tr>
 </tbody>
@@ -131,7 +131,7 @@ ms.locfileid: "47547156"
 
 Все клиенты поиска взаимодействуют с индексами поиска, используя существующие REST API поиска SharePoint.
 
-![Схема взаимодействия REST API поиска SharePoint с индексами поиска](../media/configure-search-for-multi-geo-image1-1.png)
+![Схема, показывающая взаимодействие API REST SharePoint Search с индексами поиска](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. Клиент поиска вызывает конечную точку поиска REST с использованием свойства запроса EnableMultiGeoSearch = true.
 2. Запрос отправляется во все геообъекты, предусмотренные для клиента.
@@ -151,7 +151,7 @@ ms.locfileid: "47547156"
 
 3. Выберите вертикаль для настройки. В верхнем правом углу щелкните значок шестеренки **Параметры**, а затем выберите **Изменить страницу**. Откроется страница результатов поиска в режиме редактирования.
 
-   ![Изменение выбора страницы в параметрах](../media/configure-search-for-multi-geo-image2.png)
+   ![Изменение выбора страницы в Параметры](../media/configure-search-for-multi-geo-image2.png)
 
 4. В веб-части результатов поиска переместите указатель в верхний правый угол, щелкните стрелку, а затем в меню выберите **Изменить веб-часть**. Под лентой в верхней правой части страницы откроется область инструментов веб-части результатов поиска. 
 
@@ -168,7 +168,7 @@ ms.locfileid: "47547156"
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>Настройка отображения в специальных поисковых приложениях результатов из всех или некоторых географических расположений
 
-Специальные поисковые приложения получают результаты из всех или некоторых географических расположений, указывая параметры запроса для REST API поиска SharePoint. В зависимости от этих параметров запрос развертывается для всех или некоторых геообъектов. Например, если нужно найти релевантные данные, отправив запрос только в подмножество географических расположений, можно выполнить развертывание запроса именно для них. Если запрос будет выполнен успешно, REST API поиска SharePoint возвратит данные отклика.
+Пользовательские приложения поиска получают результаты из всех или некоторых географических местоположений, указав параметры запроса с запросом в API REST Поиска SharePoint. В зависимости от параметров запроса запрос раздувался во все географические расположения или в некоторые географические расположения. Например, если требуется запрашивать только подмножество геолокационных местоположений, чтобы найти соответствующую информацию, можно управлять вентилятором только этими. Если запрос будет успешным, API REST Поиска SharePoint возвращает данные отклика.
 
 ### <a name="requirement"></a>Требование
 
@@ -205,7 +205,7 @@ MultiGeoSearchConfiguration — дополнительный список гео
 </tbody>
 </table>
 
-Если опустить элемент DataLocation или EndPoint, а также если продублировать DataLocation, запрос будет выполнен с ошибкой. [Сведения о конечной точке геообъектов клиента можно получить с помощью Microsoft Graph](https://docs.microsoft.com/sharepoint/dev/solution-guidance/multigeo-discovery).
+Если опустить элемент DataLocation или EndPoint, а также если продублировать DataLocation, запрос будет выполнен с ошибкой. [Сведения о конечной точке геообъектов клиента можно получить с помощью Microsoft Graph](/sharepoint/dev/solution-guidance/multigeo-discovery).
 
 ### <a name="response-data"></a>Данные отклика
 
@@ -257,7 +257,7 @@ https:// \<tenant\> / \_ api/search/query?querytext='sharepoint'&Properties='Ena
 
 #### <a name="sample-get-request-to-fan-out-to-some-geo-locations"></a>Пример GET-запроса, развертывание которого выполняется для **некоторых** геообъектов
 
-https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation \\ :"NAM" \\ ,Endpoint \\ :"https \\ ://contosoNAM.sharepoint.com" \\ ,SourceId \\ :"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"} \\ ,{DataLocation \\ :"CAN" \\ ,Endpoint \\ :"https \\ ://contosoCAN.sharepoint-df.com"}]"
+https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation \\ :"NAM" \\ \\ ,Endpoint :"https \\ ://contosoNAM.sharepoint.com" \\ ,SourceId \\ :"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"} \\ ,{DataLocation \\ :"CAN", \\ "Endpoint:"https \\ \\ ://contosoCAN.sharepoint-df.com"}]
 
 > [!NOTE]
 > Перед запятыми и двоеточиями в списке геообъектов для свойства MultiGeoSearchConfiguration используется символ **обратной косой черты**. Это обусловлено тем, что запросы GET используют двоеточия для разделения свойств и запятые для разделения аргументов свойств. Без обратной косой черты в качестве экранирующего символа свойство MultiGeoSearchConfiguration будет распознаваться неправильно.

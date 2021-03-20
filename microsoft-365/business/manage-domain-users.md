@@ -22,48 +22,48 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Синхронизация управляемых доменом пользователей с Microsoft 365 для бизнеса.
-ms.openlocfilehash: b40a995a1723808d2fd171c534e9131a891840ba
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+description: Синхронизировать пользователей, управляемых доменом, с Microsoft 365 для бизнеса.
+ms.openlocfilehash: 1c939dec7229f02991b15f08c48f184efecaddb0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841366"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913261"
 ---
 # <a name="synchronize-domain-users-to-microsoft-365"></a>Синхронизация пользователей домена с Microsoft 365
 
 ## <a name="1-prepare-for-directory-synchronization"></a>1. Подготовка к синхронизации каталогов 
 
-Перед синхронизацией пользователей и компьютеров из локального домена Active Directory просмотрите подготовку к синхронизации службы каталогов [с Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/prepare-for-directory-synchronization) В частности:
+Прежде чем синхронизировать пользователей и компьютеры с локального домена Active Directory, просмотрите подготовку к синхронизации каталогов с [Microsoft 365.](../enterprise/prepare-for-directory-synchronization.md) В частности:
 
-   - Убедитесь, что в каталоге нет дубликатов для следующих атрибутов: **mail,** **proxyAddresses** и **userPrincipalName.** Эти значения должны быть уникальными, и все дубликаты должны быть удалены.
+   - Убедитесь, что в каталоге не существует дубликатов для следующих атрибутов: **почты,** **proxyAddresses** и **userPrincipalName.** Эти значения должны быть уникальными, и любые дубликаты должны быть удалены.
    
-   - Рекомендуется настроить атрибут **userPrincipalName** (UPN) для каждой локальной учетной записи пользователя на соответствие основному адресу электронной почты, соответствующему лицензируемому пользователю Microsoft 365. Например: *mary.shelley@contoso.com,* а *не mary@contoso.local*
+   - Рекомендуется настроить атрибут **userPrincipalName** (UPN) для каждой учетной записи локального пользователя, чтобы соответствовать основному адресу электронной почты, соответствующему лицензированным пользователю Microsoft 365. Например: *mary.shelley@contoso.com,* *а не mary@contoso.local*
    
-   - Если домен Active Directory заканчивается суффиксом, который не является маршрутизируемым, например *.local* или *.lan,* а не суффиксом с возможностью маршрутизации через Интернет, например *.com* или *.org,* сначала скорректирует суффикс имени пользователя для локальных учетных записей пользователей, как описано в подготовьте ненастраиваемый домен для синхронизации службы каталогов. [](https://docs.microsoft.com/microsoft-365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization) 
+   - Если домен Active Directory заканчивается суффиксом без маршрутизации, например *.local* или *.lan,* вместо суффикса для маршрутизации интернета, например *.com* или *.org,* сначала настройтесь на суффикс учетных записей локальных пользователей, как описано в "Подготовка ненаправимого домена для синхронизации каталогов". [](../enterprise/prepare-a-non-routable-domain-for-directory-synchronization.md) 
 
-The **Run IdFix** in step 4 (4) below, will also make sure your on-premises Active Directory is ready for directory synchronization.
+Запуск **IdFix** в шаге 4 (4) ниже, также убедитесь, что локальное Active Directory готово к синхронизации каталогов.
 
-## <a name="2-install-and-configure-azure-ad-connect"></a>2. Установка и настройка Azure AD Connect
+## <a name="2-install-and-configure-azure-ad-connect"></a>2. Установка и настройка Подключения Azure AD
 
-Чтобы синхронизировать пользователей, группы и контакты из локальной службы Active Directory с Azure Active Directory, установите Azure Active Directory Connect и настроите синхронизацию службы каталогов. 
+Чтобы синхронизировать пользователей, группы и контакты из локального Active Directory в Azure Active Directory, установите Azure Active Directory Connect и установите синхронизацию каталогов. 
 
- 1. В Центре [администрирования выберите](https://go.microsoft.com/fwlink/p/?linkid=2024339) **"Установка"** в левой области.
+ 1. В центре [администрирования](https://go.microsoft.com/fwlink/p/?linkid=2024339)выберите **Установку** в левом nav.
 
- 2. Under **Sign-in and security**, choose **View**  under Sync users from **your org's directory**.
+ 2. В **соответствии с входом и безопасностью** выберите **Просмотр**  под синхронизацией пользователей **из каталога вашей организации**.
 
- 3. На странице **"Синхронизация пользователей с** каталогом организации" выберите **"Начало работы".**
+ 3. На странице Sync пользователи со страницы **каталога** вашей организации выберите **Начало работы.**
 
- 4. На первом этапе запустите средство IdFix для подготовки к синхронизации каталогов.
+ 4. На первом этапе запустите средство IdFix для подготовки к синхронизации Каталог.
 
- 5. Следуйте шагам мастера, чтобы скачать Azure AD Connect и использовать его для синхронизации управляемых доменом пользователей с Microsoft 365.
+ 5. Выполните действия мастера, чтобы скачать Azure AD Connect и использовать его для синхронизации пользователей, управляемых доменом, с Microsoft 365.
 
 
-Дополнительные данные см. в настройках синхронизации службы каталогов [для Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)
+Дополнительные данные см. в дополнительных подробной информации о синхронизации каталогов [для Microsoft 365.](../enterprise/set-up-directory-synchronization.md)
 
-При настройке параметров Azure AD Connect рекомендуется включить синхронизацию паролей, единый  вход и функцию записи пароля, которая также поддерживается в Microsoft 365 для бизнеса.
+При настройке параметров Azure AD Connect рекомендуется включить синхронизацию паролей, бесшовную одновокую запись и функцию записи паролей, которая также поддерживается в Microsoft 365 для бизнеса. 
 
 > [!NOTE]
-> Кроме этого, в Azure AD Connect необходимо предпринять некоторые дополнительные действия для записи паролей. Дополнительные сведения см. в [пошаговом ок.](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback) 
+> Есть несколько дополнительных действий для списания пароля за пределами контрольного окна в Azure AD Connect. Дополнительные сведения см. в [статью How-to: настройка записи пароля.](/azure/active-directory/authentication/howto-sspr-writeback) 
 
-Если вы также хотите управлять устройствами с Windows 10, которые присоединились к домену, см. статью "Управление устройствами с Windows 10, которые присоединяются к домену, с помощью [Microsoft 365](manage-windows-devices.md) бизнес премиум", чтобы настроить гибридное присоединиться к Azure AD. 
+Если вы также хотите управлять устройствами Windows 10, присоединив к домену, см. в статью Включить устройства Windows 10, которые будут управляться Microsoft [365 Business Premium,](manage-windows-devices.md) чтобы создать гибридную службу Azure AD Join.
