@@ -20,13 +20,13 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Узнайте, как использовать средство диагностики страниц для оптимизации веса страниц на современных страницах сайтов SharePoint Online.
-ms.openlocfilehash: 64fb3c90db78a23c7f1c3fcfe604c8ef58703be0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Узнайте, как использовать средство диагностики страниц для оптимизации веса страниц на современных веб-страницах SharePoint Online.
+ms.openlocfilehash: 780d8ca0debbc5efb834f8f3543b9a5a8d168108
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693007"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907448"
 ---
 # <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>Оптимизация веса страниц современных сайтов SharePoint Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "46693007"
 Эта статья поможет вам понять, как уменьшить вес страниц современного сайта.
 
 >[!NOTE]
->Дополнительные сведения о производительности на современных порталах SharePoint Online см. в статье [Производительность в современном интерфейсе SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).
+>Дополнительные сведения о производительности на современных порталах SharePoint Online см. в статье [Производительность в современном интерфейсе SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-weight"></a>Использование средства диагностики страниц SharePoint для анализа веса страниц
 
@@ -68,7 +68,7 @@ ms.locfileid: "46693007"
 
 Дополнительные инструкции по ограничению веса страницы можно найти в следующей статье:
 
-- [Оптимизация производительности страниц в SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
+- [Оптимизация производительности страниц в SharePoint](/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
 
 Перед внесением изменений в страницы для исправления проблем с производительностью запомните время загрузки страницы в результатах анализа. Снова запустите средство после внесения изменений, чтобы узнать, соответствует ли новый результат базовому стандарту, и проверить, сократилось ли время загрузки.
 
@@ -83,7 +83,7 @@ ms.locfileid: "46693007"
 
 [Настройка производительности Office 365](tune-microsoft-365-performance.md)
 
-[Производительность в современном интерфейсе SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Производительность в современном интерфейсе SharePoint](/sharepoint/modern-experience-performance)
 
 [Сети доставки содержимого](content-delivery-networks.md)
 

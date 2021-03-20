@@ -19,12 +19,12 @@ description: Сводка. Сведения о создании пробных �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e600b3baf012d416a7b5de974b94111bb6cf90a2
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 54d2543313c1a031974876d7fd09b453cc2ec24d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287453"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906544"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
@@ -214,4 +214,4 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
 [Руководства по лаборатории тестирования для облачных решений](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
-[Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[Освоение облака и гибридные решения](/office365/enterprise/cloud-adoption-and-hybrid-solutions)

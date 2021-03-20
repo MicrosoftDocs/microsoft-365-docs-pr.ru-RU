@@ -17,21 +17,21 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
-description: Содержит список ссылок на полезные сведения о развертывании рабочих нагрузок Office Server в Microsoft Azure.
-ms.openlocfilehash: ba294b437d815c81c7747f60b2a82ca0bef05e7a
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+description: Предоставляет список ссылок на полезную информацию для развертывания рабочих нагрузок Office Server в Microsoft Azure.
+ms.openlocfilehash: 47e885d3db7d9211b917414d03efdc5b716dcd1e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327919"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907496"
 ---
 # <a name="hybrid-solutions"></a>Гибридные решения
 
-С помощью Microsoft Azure можно развернуть некоторые рабочие нагрузки Office Server, которые обычно развертывались локально в службах инфраструктуры Azure.
+В Microsoft Azure можно развернуть некоторые рабочие нагрузки Office Server, которые обычно развертывались локально в службах инфраструктуры Azure.
   
 Для инфраструктуры удостоверений Microsoft 365 в Azure:
 
-- [Использование Azure AD для проверки подлинности на сервере SharePoint Server](using-azure-ad-for-sharepoint-server-authentication.md)
+- [Использование Azure AD для проверки подлинности на сервере SharePoint Server](/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial)
 
 - [Развертывание синхронизации каталогов Microsoft 365 в Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
@@ -48,9 +48,9 @@ ms.locfileid: "48327919"
 - [Веб-сайты в Microsoft Azure с использованием SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
   
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Родственные темы
 
-[Центр архитектуры и решений Microsoft 365](../solutions/solution-architecture-center.md)
+[Центр архитектуры и решений Microsoft 365](../solutions/index.yml)
   
 [Иллюстрации "Облако Майкрософт для корпоративных архитекторов"](../solutions/cloud-architecture-models.md)
   

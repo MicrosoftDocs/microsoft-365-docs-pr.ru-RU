@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут научиться создавать, изменять и удалять расширенные политики защиты от фишинга, доступные в организациях с Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d75455df972e9db0ef1cf4bbeba9f3b78b11002b
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 2985766cf3388382dbe1d2217843504b2bfd1a1c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406202"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906592"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Настройка политик защиты от фишинга в Microsoft Defender для Office 365
 
@@ -61,20 +61,20 @@ ms.locfileid: "50406202"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **atP по борьбе с** фишингом, используйте <https://protection.office.com/antiphishing> .
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **atP по борьбе с** фишингом, используйте <https://protection.office.com/antiphishing> .
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Вам необходимо получить разрешения в **Exchange Online,** прежде чем вы сможете сделать процедуры в этой статье:
+- Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
   - Чтобы добавить, изменить и удалить политики защиты от фишинга, необходимо  быть членом групп ролей администратора организации или **администратора** безопасности.
   - Для доступа только для чтения к политикам защиты от фишинга необходимо быть членом групп ролей **Global Reader** или **Security Reader.** <sup>\*</sup>
 
-  Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   **Примечания**.
 
-  - Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft  365 дает пользователям необходимые разрешения и разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
-  - Группа **ролей только для** организации просмотра в Exchange [Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции. <sup>\*</sup>
+  - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+  - Группа **ролей только для** организации просмотра в Exchange [Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции. <sup>\*</sup>
   - <sup>\*</sup> В Центре & безопасности доступ только для чтения позволяет пользователям просматривать параметры настраиваемой политики защиты от фишинга. Пользователи, только для чтения, не могут видеть параметры в политике защиты от фишинга по умолчанию.
 
 - Рекомендуемые параметры для политик защиты от фишинга в Microsoft Defender для Office 365 см. в этой политике в [параметрах Defender for Office 365.](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)
@@ -260,7 +260,7 @@ ms.locfileid: "50406202"
    - **Параметры фильтра спуфинга:** значение по умолчанию **в режиме On,** и мы рекомендуем оставить его. Чтобы отключить его, сдвиньте переключить его на **off.** Дополнительные сведения см. в [перенастройке сведений о подмене в EOP.](learn-about-spoof-intelligence.md)
 
      > [!NOTE]
-     > Вам не нужно отключать защиту от спуфинга, если запись MX не указывая на Microsoft 365; Вместо этого вы включаете усиленную фильтрацию соединителя. Инструкции см. в [расширенной фильтрации соединитений в Exchange Online.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+     > Вам не нужно отключать защиту от спуфинга, если запись MX не указывая на Microsoft 365; Вместо этого вы включаете усиленную фильтрацию соединителя. Инструкции см. в [расширенной фильтрации соединитений в Exchange Online.](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
 
    - **Включить неавентированные функции отправитель:** значение по умолчанию **на**. Чтобы отключить его, сдвиньте переключить его на **off.**
 
@@ -396,7 +396,7 @@ ms.locfileid: "50406202"
 1. Создание политики защиты от фишинга.
 2. Создайте правило защиты от фишинга, которое указывает политику защиты от фишинга, к которую применяется правило.
 
- **Примечания**.
+ **Примечания.**
 
 - Вы можете создать новое правило защиты от фишинга и назначить ему существующую, неассоциированную политику защиты от фишинга. Правило защиты от фишинга не может быть связано с одной политикой защиты от фишинга.
 
@@ -429,7 +429,7 @@ New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Addit
 New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [обзоре New-AntiPhishPolicy.](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy)
+Подробные сведения о синтаксисе и параметрах см. в [обзоре New-AntiPhishPolicy.](/powershell/module/exchange/New-AntiPhishPolicy)
 
 #### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a>Шаг 2. Использование PowerShell для создания правила защиты от фишинга
 
@@ -449,7 +449,7 @@ New-AntiPhishRule -Name "<RuleName>" -AntiPhishPolicy "<PolicyName>" <Recipient 
 New-AntiPhishRule -Name "Research Department" -AntiPhishPolicy "Research Quarantine" -SentToMemberOf "Research Department"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. [в обзоре New-AntiPhishRule.](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule)
+Подробные сведения о синтаксисе и параметрах см. [в обзоре New-AntiPhishRule.](/powershell/module/exchange/New-AntiPhishRule)
 
 ### <a name="use-powershell-to-view-anti-phish-policies"></a>Использование PowerShell для просмотра политик защиты от фишинга
 
@@ -471,7 +471,7 @@ Get-AntiPhishPolicy | Format-Table Name,IsDefault
 Get-AntiPhishPolicy -Identity "Executives"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [обзоре Get-AntiPhishPolicy.](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy)
+Подробные сведения о синтаксисе и параметрах см. в [обзоре Get-AntiPhishPolicy.](/powershell/module/exchange/Get-AntiPhishPolicy)
 
 ### <a name="use-powershell-to-view-anti-phish-rules"></a>Использование PowerShell для просмотра правил защиты от фишинга
 
@@ -503,7 +503,7 @@ Get-AntiPhishRule -State Enabled | Format-Table Name,Priority
 Get-AntiPhishRule -Identity "Contoso Executives"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [ссылке Get-AntiPhishRule.](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule)
+Подробные сведения о синтаксисе и параметрах см. в [ссылке Get-AntiPhishRule.](/powershell/module/exchange/Get-AntiPhishrule)
 
 ### <a name="use-powershell-to-modify-anti-phish-policies"></a>Использование PowerShell для изменения политик защиты от фишинга
 
@@ -519,7 +519,7 @@ Get-AntiPhishRule -Identity "Contoso Executives"
 Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [инструкции Set-AntiPhishPolicy.](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy)
+Подробные сведения о синтаксисе и параметрах см. в [инструкции Set-AntiPhishPolicy.](/powershell/module/exchange/Set-AntiPhishPolicy)
 
 ### <a name="use-powershell-to-modify-anti-phish-rules"></a>Использование PowerShell для изменения правил защиты от фишинга
 
@@ -533,7 +533,7 @@ Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 Set-AntiPhishRule -Identity "<RuleName>" <Settings>
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [инструкции Set-AntiPhishRule.](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule)
+Подробные сведения о синтаксисе и параметрах см. в [инструкции Set-AntiPhishRule.](/powershell/module/exchange/set-antiphishrule)
 
 ### <a name="use-powershell-to-enable-or-disable-anti-phish-rules"></a>Использование PowerShell, чтобы включить или отключить правила защиты от фишинга
 
@@ -557,7 +557,7 @@ Disable-AntiPhishRule -Identity "Marketing Department"
 Enable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [сводке Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-antiphishrule) и [Disable-AntiPhishRule.](https://docs.microsoft.com/powershell/module/exchange/disable-antiphishrule)
+Подробные сведения о синтаксисе и параметрах см. в [сводке Enable-AntiPhishRule](/powershell/module/exchange/enable-antiphishrule) и [Disable-AntiPhishRule.](/powershell/module/exchange/disable-antiphishrule)
 
 ### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a>Использование PowerShell для набора приоритета правил защиты от фишинга
 
@@ -597,7 +597,7 @@ Remove-AntiPhishPolicy -Identity "<PolicyName>"
 Remove-AntiPhishPolicy -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [обзоре Remove-AntiPhishPolicy.](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy)
+Подробные сведения о синтаксисе и параметрах см. в [обзоре Remove-AntiPhishPolicy.](/powershell/module/exchange/Remove-AntiPhishPolicy)
 
 ### <a name="use-powershell-to-remove-anti-phish-rules"></a>Использование PowerShell для удаления правил защиты от фишинга
 
@@ -615,7 +615,7 @@ Remove-AntiPhishRule -Identity "<PolicyName>"
 Remove-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [инструкции Remove-AntiPhishRule.](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule)
+Подробные сведения о синтаксисе и параметрах см. в [инструкции Remove-AntiPhishRule.](/powershell/module/exchange/Remove-AntiPhishRule)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 

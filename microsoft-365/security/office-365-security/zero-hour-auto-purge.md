@@ -22,12 +22,12 @@ ms.custom:
 description: Администраторы могут узнать о том, как автоматическая очистка без часов (ZAP) может задним числом перемещать доставленные сообщения в почтовом ящике Exchange Online в папку нежелательной почты или карантин, которые задним числом признаны нежелательной почтой или фишингом.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: be47d8dfda68bfb6819b6423542970c7768c6ffb
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b5744fdd4ce371f62fcb4b07a4cbcd003405c3db
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820262"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907980"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Автоматическая очистка нулевого часа (ZAP) в Exchange Online
 
@@ -121,4 +121,4 @@ ZAP по-прежнему работает до тех пор, пока сооб
 
 ZAP не будет карантить сообщения из почтовых ящиков в удержании. ZAP может перемещать сообщения в папку нежелательной почты в зависимости от действия, настроенного для нежелательной почты или фишинга в политике защиты от нежелательной почты.
 
-Дополнительные сведения о удержаниях в Exchange Online см. в сайте Удержание на месте и судебное [удержание в Exchange Online.](https://docs.microsoft.com/Exchange/security-and-compliance/in-place-and-litigation-holds)
+Дополнительные сведения о удержаниях в Exchange Online см. в сайте Удержание на месте и судебное [удержание в Exchange Online.](/Exchange/security-and-compliance/in-place-and-litigation-holds)

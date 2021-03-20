@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Для сохранения контента, который может иметь отношение к расследованию, можно создать удержание, связанное с делом core eDiscovery.
-ms.openlocfilehash: 377a9e7a31864f177f0ccbdc4cf2789fdc1cf373
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ca87b1b2ad35949de01622771b1ae78c5b3038e9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423470"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908343"
 ---
 # <a name="create-an-ediscovery-hold"></a>Создание запроса на удержание в случае обнаружения электронных данных
 
@@ -134,11 +134,11 @@ ms.locfileid: "50423470"
 > [!IMPORTANT]
 > В облачной организации пользователи, которые участвуют в беседах, входящих в список чатов в Teams, должны иметь почтовый ящик Exchange Online, чтобы сохранить беседы в чате при размещении почтового ящика на удержании электронных данных. Это потому, что беседы, входящие в список чатов, хранятся в облачных почтовых ящиках участников чата. Если у участника чата нет почтового ящика Exchange Online, вы не сможете сохранить эти беседы. Например, в гибридном развертывании Exchange пользователи с локального почтового ящика могут участвовать в беседах, которые являются частью списка чатов в Teams. Но в этом случае содержимое из этого разговора не может быть сохранено, так как у этих пользователей нет облачных почтовых ящиков, которые можно поместить на удержание.
 
-Дополнительные сведения о сохранении контента Teams см. в сайте [Place a Microsoft Teams user or team on legal hold.](https://docs.microsoft.com/MicrosoftTeams/legal-hold)
+Дополнительные сведения о сохранении контента Teams см. в сайте [Place a Microsoft Teams user or team on legal hold.](/MicrosoftTeams/legal-hold)
 
 ### <a name="preserve-card-content"></a>Сохранение содержимого карты
 
-Аналогичным образом содержимое карт, генерируемого приложениями в каналах Teams, чаты 1:1 и групповые чаты 1:N, хранится в почтовых ящиках и сохраняется при размещении почтового ящика на удержании электронных данных. *Карточка* — это контейнер пользовательского интерфейса для коротких фрагментов контента. Карты могут иметь несколько свойств и вложений, а также включать кнопки, которые запускают действия карт. Дополнительные сведения см. в [карточках.](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards) Как и другое содержимое Teams, место хранения содержимого карточки зависит от того, где она была использована. Содержимое карточек, используемых в канале Teams, хранится в почтовом ящике группы Teams. Содержимое карточек для чатов 1:1 и 1xN хранится в почтовых ящиках участников беседы.
+Аналогичным образом содержимое карт, генерируемого приложениями в каналах Teams, чаты 1:1 и групповые чаты 1:N, хранится в почтовых ящиках и сохраняется при размещении почтового ящика на удержании электронных данных. *Карточка* — это контейнер пользовательского интерфейса для коротких фрагментов контента. Карты могут иметь несколько свойств и вложений, а также включать кнопки, которые запускают действия карт. Дополнительные сведения см. в [карточках.](/microsoftteams/platform/task-modules-and-cards/what-are-cards) Как и другое содержимое Teams, место хранения содержимого карточки зависит от того, где она была использована. Содержимое карточек, используемых в канале Teams, хранится в почтовом ящике группы Teams. Содержимое карточек для чатов 1:1 и 1xN хранится в почтовых ящиках участников беседы.
 
 ### <a name="preserve-meeting-and-call-information"></a>Сохранение сведений о собраниях и вызовах
 
@@ -163,7 +163,7 @@ Teams строится на Office 365 Groups. Таким образом, раз
 
 - Как поясняется ранее, для удержания контента, расположенного в Teams и Office 365 Groups, необходимо указать почтовый ящик и сайт SharePoint, связанные с группой или группой.
 
-- Запустите **командлет Get-UnifiedGroup** в [Exchange Online PowerShell,](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) чтобы просмотреть свойства групп Teams и Office 365. Это хороший способ получить URL-адрес сайта, связанного с группой team или Office 365. Например, следующая команда отображает выбранные свойства для группы Office365 с именем "Senior Leadership Team":
+- Запустите **командлет Get-UnifiedGroup** в [Exchange Online PowerShell,](/powershell/exchange/connect-to-exchange-online-powershell) чтобы просмотреть свойства групп Teams и Office 365. Это хороший способ получить URL-адрес сайта, связанного с группой team или Office 365. Например, следующая команда отображает выбранные свойства для группы Office365 с именем "Senior Leadership Team":
 
     ```text
     Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
@@ -190,10 +190,10 @@ Teams строится на Office 365 Groups. Таким образом, раз
 
 ## <a name="preserve-content-in-onedrive-accounts"></a>Сохранение контента в учетных записях OneDrive
 
-Чтобы собрать список URL-адресов сайтов OneDrive для бизнеса в организации, чтобы можно было добавить их в удержание или поиск, связанный с делом об обнаружении электронных данных, см. в статью Создание списка всех местоположений [OneDrive](https://docs.microsoft.com/onedrive/list-onedrive-urls)в организации. Сценарий в этой статье создает текстовый файл, содержащий список всех сайтов OneDrive в организации. Чтобы запустить этот скрипт, требуется установить и использовать командную консоль SharePoint Online. Не забудьте добавить URL-адрес домена личного сайта вашей организации к каждому сайту OneDrive, на котором нужно выполнить поиск. Это домен, содержащий все хранилище OneDrive. Пример: `https://contoso-my.sharepoint.com`. Вот пример URL-адреса для сайта OneDrive пользователя: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
+Чтобы собрать список URL-адресов сайтов OneDrive для бизнеса в организации, чтобы можно было добавить их в удержание или поиск, связанный с делом об обнаружении электронных данных, см. в статью Создание списка всех местоположений [OneDrive](/onedrive/list-onedrive-urls)в организации. Сценарий в этой статье создает текстовый файл, содержащий список всех сайтов OneDrive в организации. Чтобы запустить этот скрипт, требуется установить и использовать командную консоль SharePoint Online. Не забудьте добавить URL-адрес домена личного сайта вашей организации к каждому сайту OneDrive, на котором нужно выполнить поиск. Это домен, содержащий все хранилище OneDrive. Пример: `https://contoso-my.sharepoint.com`. Вот пример URL-адреса для сайта OneDrive пользователя: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
 
 > [!IMPORTANT]
-> URL-адрес учетной записи OneDrive пользователя включает основное имя пользователя (UPN) `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` (например). В редких случаях изменения upN человека url-адрес OneDrive также изменится, чтобы включить новый upN. Если учетная запись OneDrive пользователя является частью удержания eDiscovery, старой и ее upN изменена, необходимо обновить удержание, и вам придется обновить удержание и добавить новый URL-адрес OneDrive пользователя и удалить старый. Дополнительные сведения см. в разделе [Как изменения UPN влияют на URL-адрес OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
+> URL-адрес учетной записи OneDrive пользователя включает основное имя пользователя (UPN) `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` (например). В редких случаях изменения upN человека url-адрес OneDrive также изменится, чтобы включить новый upN. Если учетная запись OneDrive пользователя является частью удержания eDiscovery, старой и ее upN изменена, необходимо обновить удержание, и вам придется обновить удержание и добавить новый URL-адрес OneDrive пользователя и удалить старый. Дополнительные сведения см. в разделе [Как изменения UPN влияют на URL-адрес OneDrive](/onedrive/upn-changes).
 
 ## <a name="removing-content-locations-from-an-ediscovery-hold"></a>Удаление местоположений контента из удержания eDiscovery
 
@@ -231,7 +231,7 @@ Teams строится на Office 365 Groups. Таким образом, раз
    > [!NOTE]
    > <sup>1</sup> Чтобы просмотреть список из более чем 1000 случаев, удерживаний, поисков или экспорта, можно использовать соответствующий коммлет Office 365 Security & Compliance PowerShell:
    >
-   > - [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase)
-   > - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
-   > - [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)
-   > - [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)
+   > - [Get-ComplianceCase](/powershell/module/exchange/get-compliancecase)
+   > - [Get-CaseHoldPolicy](/powershell/module/exchange/get-caseholdpolicy)
+   > - [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)
+   > - [Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)

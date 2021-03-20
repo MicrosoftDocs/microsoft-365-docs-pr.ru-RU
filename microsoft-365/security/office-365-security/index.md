@@ -16,12 +16,12 @@ ms.collection:
 description: Безопасность в Office 365, от EOP до Defender для Планов 1 и 2 Office 365, стандартные и строгие конфигурации безопасности и т.д. Разберитесь, что у вас есть, и как защитить свои свойства.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e1c6e768098cd59892c2572fb52497c873aef1a3
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
-ms.translationtype: HT
+ms.openlocfilehash: f8e929fde2908ba0d436c71c2caeb1be94b1338f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711944"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907184"
 ---
 # <a name="office-365-security-overview"></a>Обзор безопасности Office 365
 
@@ -137,7 +137,7 @@ Microsoft Defender для Office 365 P1 также **добавляет обна
 
 - Microsoft Defender для Office 365 (план 1) входит в состав Microsoft 365 бизнес премиум.
 
-- Microsoft Defender для Office 365 (план 1) и Defender для Office 365 (план 2) доступны как дополнение к некоторым подпискам. Дополнительные сведения см. в разделе [Доступность функций в планах Microsoft Defender для Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- Microsoft Defender для Office 365 (план 1) и Defender для Office 365 (план 2) доступны как дополнение к некоторым подпискам. Дополнительные сведения см. в разделе [Доступность функций в планах Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - Функция [безопасных документов](safe-docs.md) доступна только пользователям с лицензией Microsoft 365 E5 или Безопасность Microsoft 365 E5 (не предусмотренные планами Microsoft Defender для Office 365).
 

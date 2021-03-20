@@ -18,34 +18,34 @@ ms.custom:
 - SPO_Content
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: Сводка. Используйте PowerShell для создания новых сайтов SharePoint Online, а затем добавления пользователей и групп на эти сайты.
-ms.openlocfilehash: 28a51cc39fe838f6c7f9c50e9d750d28e5d830c4
-ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
+description: Сводка. Использование PowerShell для создания новых сайтов SharePoint Online, а затем добавления пользователей и групп к этим сайтам.
+ms.openlocfilehash: eb6c2817c8760ca222da8a7c2b14cbfcda4eb4b8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48594922"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907622"
 ---
 # <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>Создание сайтов и добавление пользователей в SharePoint Online с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-При использовании PowerShell для Microsoft 365 для создания сайтов SharePoint Online и добавления пользователей можно быстро и многократно выполнять задачи гораздо быстрее, чем в Центре администрирования Microsoft 365. Вы также можете выполнять задачи, которые невозможно выполнить в Центре администрирования Microsoft 365. 
+При использовании PowerShell для Microsoft 365 для создания сайтов SharePoint Online и добавления пользователей можно быстро и многократно выполнять задачи гораздо быстрее, чем в центре администрирования Microsoft 365. Вы также можете выполнять задачи, которые невозможно выполнить в центре администрирования Microsoft 365. 
 
 ## <a name="connect-to-sharepoint-online"></a>Подключение к SharePoint Online
 
-Процедуры в этом разделе требуют подключения к SharePoint Online. Инструкции см. в [подключении к SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+Процедуры в этом разделе требуют подключения к SharePoint Online. Инструкции см. в [раздел Подключение к SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-## <a name="step-1-create-new-site-collections-using-powershell"></a>Шаг 1. Создание новых коллекций веб-сайтов с помощью PowerShell
+## <a name="step-1-create-new-site-collections-using-powershell"></a>Шаг 1. Создание новых коллекций сайтов с помощью PowerShell
 
-Создайте несколько сайтов с помощью PowerShell и CSV-файла, который вы создаете с помощью предоставленного примера кода и Блокнота. Для этой процедуры необходимо заменить информацию-замещатель, показанную в скобках, на собственные сведения о сайте и клиенте. Этот процесс позволяет создать один файл и выполнить одну команду PowerShell, которая использует этот файл. Это делает действия повторяемыми и переносимыми, а также устраняет многие (если не все) ошибки, которые могут привести к вводу длинных команд в командной оболочке SharePoint Online. Эта процедура имеет две части. Сначала создадим CSV-файл, а затем соберем ссылку на CSV-файл с помощью PowerShell, который будет использовать его содержимое для создания сайтов.
+Создайте несколько сайтов с помощью PowerShell и файла CSV, который создается с помощью предоставленного кода примера и блокнота. Для этой процедуры вы замените сведения о замещающих объектах, показанных в скобках, на собственные сведения о сайте и клиентах. Этот процесс позволяет создать один файл и запустить одну команду PowerShell, которая использует этот файл. Это делает действия, принятые как повторяемыми, так и переносными, а также устраняет многие, если не все, ошибки, которые могут быть допущены при вводе длинных команд в командную оболочку SharePoint Online. Эта процедура имеет две части. Сначала создадим файл CSV, а затем со ссылкой на файл .csv с помощью PowerShell, который будет использовать его содержимое для создания сайтов.
 
-Этот CSV-файл импортируется и передается в цикл в фигурных скобках, который считывает первую строку файла в качестве колонок столбцов. После этого с помощью cmdlet PowerShell можно итерировать оставшиеся записи, создать новое коллекцию веб-сайтов для каждой записи и назначить свойства этого сайта в соответствии с заглавными колонами столбцов.
+Комлет PowerShell импортирует файл .csv и передает его в цикл внутри фигурных скобок, который читает первую строку файла в качестве столбцов. Затем комлет PowerShell итерирует оставшиеся записи, создает новую коллекцию сайтов для каждой записи и назначает свойства коллекции сайтов в соответствии с заглавными колонками.
 
 ### <a name="create-a-csv-file"></a>Создание CSV-файла
 
 > [!NOTE]
-> Параметр квоты ресурсов работает только на классических сайтах. При использовании этого параметра на современном сайте может появиться предупреждение о том, что он является неподготовленным. 
+> Параметр квоты ресурсов работает только на классических сайтах. Если вы используете этот параметр на современном сайте, вы можете получить предупреждение о том, что он был обесценив. 
 
 1. Откройте Блокнот и вставьте в него следующий блок текста:<br/>
 
@@ -56,20 +56,20 @@ owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/Blog01,25,B
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Project01,25,PROJECTSITE#0,10,Project Alpha
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01,25,COMMUNITY#0,10,Community Site
 ```
-<br/>Где *клиент* — это имя  клиента, а владелец — это имя пользователя в клиенте, которому вы хотите предоставить роль основного администратора.<br/>(Вы можете нажать CTRL+H, если вы используете Блокнот для массовой замены быстрее.)<br/>
+<br/>Если *клиент* — это имя  клиента, а владелец — имя пользователя в клиенте, которому необходимо предоставить роль основного администратора коллекции сайтов.<br/>(Вы можете нажать Ctrl+H, когда вы используете Блокнот для массовой замены быстрее.)<br/>
 
 2. Сохраните файл на рабочем столе как **SiteCollections.csv.**<br/>
 
 > [!TIP]
-> Перед использованием этого или любого другого CSV-или Windows PowerShell-файла сценария лучше убедиться, что нет лишних или непечатающих символов. Откройте файл в Word и щелкните значок абзаца на ленте, чтобы показать непечатаемые символы. Файлы не должны содержать лишние непечатаемые символы. Например, в конце файла не должно быть знаков абзаца.
+> Перед использованием этого или любого другого файла скрипта csv или Windows PowerShell, это хорошая практика, чтобы убедиться, что нет никаких неопечатающих или непечатных символов. Откройте файл в Word и щелкните значок абзаца на ленте, чтобы показать непечатаемые символы. Файлы не должны содержать лишние непечатаемые символы. Например, в конце файла не должно быть знаков абзаца.
 
 ### <a name="run-the-windows-powershell-command"></a>Выполнение команды Windows PowerShell
 
-1. В командной Windows PowerShell введите (или скопируйте и введите) следующую команду и нажмите ввод:<br/>
+1. В Windows PowerShell введите или скопируйте и введите следующую команду и нажмите кнопку Ввод:<br/>
 ```powershell
 Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -ResourceQuota $_.ResourceQuota -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
 ```
-<br/>Где *MyAlias* равно псевдониму пользователя.<br/>
+<br/>Где *MyAlias* равняется псевдониму пользователя.<br/>
 
 2. Дождитесь появления окна командной строки Windows PowerShell. Для этого может потребоваться одна или две минуты.<br/>
 
@@ -80,15 +80,15 @@ Get-SPOSite -Detailed | Format-Table -AutoSize
 ```
 <br/>
 
-4. Обратите внимание на новые семейства веб-сайтов в списке. Используя наш пример CSV-файла, вы увидите следующие коллекции веб-сайтов: **TeamSite01,** **Blog01,** **Project01** и **Community01**
+4. Обратите внимание на новые семейства веб-сайтов в списке. С помощью нашего примера CSV-файла вы увидите следующие коллекции сайтов: **TeamSite01,** **Blog01,** **Project01** и **Community01.**
 
-Вот и все. Вы создали несколько коллекций веб-сайтов с помощью созданного CSV-файла и одной Windows PowerShell команды. Теперь вы можете создать пользователей и назначить их сайтам.
+Вот и все. Вы создали несколько коллекций сайтов с помощью созданного файла CSV и одной Windows PowerShell команды. Теперь вы можете создать пользователей и назначить их сайтам.
 
 ## <a name="step-2-add-users-and-groups"></a>Действие 2. Добавление пользователей или групп
 
 Теперь мы создадим пользователей и добавим их в группу семейства сайтов. Мы используем CSV-файл для массовой загрузки новых групп и пользователей.
 
-В следующих процедурах по-прежнему используется пример сайтов TeamSite01, Blog01, Project01 и Community01.
+Следующие процедуры по-прежнему используют примеры сайтов TeamSite01, Blog01, Project01 и Community01.
 
 ### <a name="create-csv-and-ps1-files"></a>Создание CSV- и PS1-файлов
 
@@ -105,9 +105,9 @@ https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Designers,Design
 https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Editors,Edit
 https://tenant.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Control
 ```
-<br/>Где *клиент* равно вашему имени клиента.<br/>
+<br/>Если *имя клиента* равно имени клиента.<br/>
 
-2. Сохраните файл на рабочем столе как **GroupsAndPermissions.csv.**<br/>
+2. Сохраните файл на рабочем столе в **GroupsAndPermissions.csv**.<br/>
 
 3. Откройте новый экземпляр Блокнота и вставьте в него следующий блок текста:<br/>
 
@@ -122,9 +122,9 @@ Contoso Blog Designers,username@tenant.onmicrosoft.com,https://tenant.sharepoint
 Contoso Blog Editors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Blog01
 Project Alpha Approvers,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Project01
 ```
-<br/>Если *клиент* равен вашему имени клиента, а *имя* пользователя равно имени пользователя существующего пользователя.<br/>
+<br/>Если *клиент* равен имени клиента, а имя пользователя равно имени пользователя существующего пользователя. <br/>
 
-4. Сохраните файл на рабочем столе как **Users.csv.**<br/>
+4. Сохраните файл на рабочем столе в **Users.csv**.<br/>
 
 5. Откройте новый экземпляр Блокнота и вставьте в него следующий блок текста:<br/>
 
@@ -132,9 +132,9 @@ Project Alpha Approvers,username@tenant.onmicrosoft.com,https://tenant.sharepoin
 Import-Csv C:\users\MyAlias\desktop\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGroup -Group $_.Group -PermissionLevels $_.PermissionLevels -Site $_.Site}
 Import-Csv C:\users\MyAlias\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
-<br/>Где MyAlias равно имени пользователя, который в данный момент вошел в систему.<br/>
+<br/>Где MyAlias равняется имени пользователя, который в настоящее время вошел в систему.<br/>
 
-6. Сохраните файл на рабочем столе как **UsersAndGroups.ps1.** Это простой сценарий Windows PowerShell.
+6. Сохраните файл на рабочем столе в **UsersAndGroups.ps1**. Это простой сценарий Windows PowerShell.
 
 Теперь вы можете выполнить скрипт UsersAndGroup.ps1, чтобы добавить пользователей и группы в несколько семейств сайтов.
 
@@ -147,20 +147,20 @@ Set-ExecutionPolicy Bypass
 ```
 <br/>
 
-3. В запросе на подтверждение нажмите **Y.**<br/>
+3. На запрос подтверждения нажмите **кнопку Y**.<br/>
 
 4. В командной строке Windows PowerShell введите и или скопируйте и вставьте следующую строку, а затем нажмите клавишу ВВОД:<br/>
 
 ```powershell
 c:\users\MyAlias\desktop\UsersAndGroups.ps1
 ```
-<br/>Где *MyAlias* равно вашему имени пользователя.<br/>
+<br/>Где *MyAlias* равняется вашему имени пользователя.<br/>
 
 5. Дождитесь появления окна командной строки. Сначала вы увидите группы по мере их создания. Затем вы увидите список групп, который повторяется при добавлении пользователей.
 
 ## <a name="see-also"></a>См. также
 
-[Подключение к PowerShell в SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+[Подключение к PowerShell в SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 [Управление группами сайтов SharePoint Online с помощью PowerShell](manage-sharepoint-site-groups-with-powershell.md)
 

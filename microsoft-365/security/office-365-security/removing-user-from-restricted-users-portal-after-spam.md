@@ -20,12 +20,12 @@ description: Администраторы могут узнать, как уда
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7ebc0cd1d6440673ec453322d3e4c3af2e88a028
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 2b4f77f1edf0024a0324736adb2a8bfd6cc51470
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406716"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908222"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Удаление заблокированных пользователей с портала "Пользователи с ограниченным доступом" в Office 365
 
@@ -36,9 +36,9 @@ ms.locfileid: "50406716"
 - [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Если пользователь превысит один из лимитов отправки исходящей почты, указанных в разделе [лимитов служб](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) или [политик исходящей нежелательной почты](configure-the-outbound-spam-policy.md), он потеряет возможность отправлять почту, но по-прежнему сможет принимать ее.
+Если пользователь превысит один из лимитов отправки исходящей почты, указанных в разделе [лимитов служб](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) или [политик исходящей нежелательной почты](configure-the-outbound-spam-policy.md), он потеряет возможность отправлять почту, но по-прежнему сможет принимать ее.
 
-В этом случае пользователь будет добавлен на портал "Пользователи с ограниченным доступом" в Центре безопасности и соответствия требованиям. Если он попытается отправить электронное письмо, оно вернется в отчете о недоставке (также называемом сообщением о недоставке) с кодом ошибки [5.1.8](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/fix-error-code-5-1-8-in-exchange-online) и следующим текстом:
+В этом случае пользователь будет добавлен на портал "Пользователи с ограниченным доступом" в Центре безопасности и соответствия требованиям. Если он попытается отправить электронное письмо, оно вернется в отчете о недоставке (также называемом сообщением о недоставке) с кодом ошибки [5.1.8](/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/fix-error-code-5-1-8-in-exchange-online) и следующим текстом:
 
 > "Не удалось доставить сообщение, так как система не распознала вас как допустимого отправителя. Причина проблемы чаще всего связана с предположительной рассылкой нежелательной почты с вашего электронного адреса. Поэтому с него не разрешено отправлять сообщения.  Обратитесь за помощью к администратору электронной почты. Удаленный сервер вернул ошибку "550 5.1.8. Отказано в доступе: недопустимый отправитель".
 
@@ -48,19 +48,19 @@ ms.locfileid: "50406716"
 
 - Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Перейдите на страницу **Пользователи с ограниченным доступом** по ссылке <https://protection.office.com/restrictedusers>.
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
   - Чтобы удалить каких-либо пользователей с портала "Пользователи с ограниченным доступом", вы должны быть участником групп ролей **Управление организацией** или **Администратор безопасности**.
   - Чтобы получить доступ к порталу "Пользователи с ограниченным доступом" только для чтения, вы должны быть участником групп ролей **Глобальный читатель** или **Читатель сведений о безопасности**.
 
-  Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   > [!NOTE]
   >
   > - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
   >
-  > - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
+  > - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 - Если отправитель превысил лимит сообщений исходящей почты, это свидетельствует о возможной компрометации учетной записи. Прежде чем удалить пользователя с портала "Пользователи с ограниченным доступом", выполните необходимые действия, чтобы восстановить контроль над его учетной записью. Дополнительные сведения см. в статье [Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md).
 
@@ -120,7 +120,7 @@ Get-BlockedSenderAddress
 Get-BlockedSenderAddress -SenderAddress <emailaddress>
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в статье [Get-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/get-blockedsenderaddress).
+Подробные сведения о синтаксисе и параметрах см. в статье [Get-BlockedSenderAddress](/powershell/module/exchange/get-blockedsenderaddress).
 
 Чтобы удалить пользователя из списка "Пользователи с ограниченным доступом", выполните следующую команду, заменив выражение \<emailaddress\> электронным адресом пользователя:
 
@@ -128,4 +128,4 @@ Get-BlockedSenderAddress -SenderAddress <emailaddress>
 Remove-BlockedSenderAddress -SenderAddress <emailaddress>
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в статье [Remove-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/remove-blockedsenderaddress).
+Подробные сведения о синтаксисе и параметрах см. в статье [Remove-BlockedSenderAddress](/powershell/module/exchange/remove-blockedsenderaddress).

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
 description: Используйте поиск контента в центре соответствия требованиям Microsoft 365 для выполнения целевых коллекций, которые обеспечивают местонахождение элементов в определенном почтовом ящике или папке сайта.
-ms.openlocfilehash: 9c549b3ae418d13b6e1aafbf0cc171c52f89e621
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 376adfd1bec20d3b1ec11dac5e775eb386ea6317
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423460"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907701"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>Использование поиска контента для целевых коллекций
 
@@ -37,9 +37,9 @@ ms.locfileid: "50423460"
 
 - Чтобы запустить сценарий в шаге 1, необходимо быть членом группы ролей диспетчера электронных данных в Центре & безопасности. Дополнительные сведения см. в статье [Назначение разрешений на обнаружение электронных данных](assign-ediscovery-permissions.md).
 
-    Кроме того, вам должна быть назначена роль получателей почты в организации Exchange Online. Это необходимо для запуска **комлета Get-MailboxFolderStatistics,** который входит в сценарий. По умолчанию роль получателей почты назначена группам ролей "Управление организацией" и "Управление получателями" в Exchange Online. Дополнительные сведения о назначении разрешений в Exchange Online см. в рублях [Управление участниками группы ролей.](https://go.microsoft.com/fwlink/p/?linkid=692102) Можно также создать настраиваемую группу ролей, назначить ему роль получателей почты, а затем добавить участников, которым необходимо выполнить сценарий в шаге 1. Дополнительные сведения см. в [см. в "Управление группами ролей".](https://go.microsoft.com/fwlink/p/?linkid=730688)
+    Кроме того, вам должна быть назначена роль получателей почты в организации Exchange Online. Это необходимо для запуска **комлета Get-MailboxFolderStatistics,** который входит в сценарий. По умолчанию роль получателей почты назначена группам ролей "Управление организацией" и "Управление получателями" в Exchange Online. Дополнительные сведения о назначении разрешений в Exchange Online см. в рублях [Управление участниками группы ролей.](/exchange/manage-role-group-members-exchange-2013-help) Можно также создать настраиваемую группу ролей, назначить ему роль получателей почты, а затем добавить участников, которым необходимо выполнить сценарий в шаге 1. Дополнительные сведения см. в [см. в "Управление группами ролей".](/Exchange/permissions-exo/role-groups)
 
-- Сценарий в этой статье поддерживает современную проверку подлинности. Вы можете использовать сценарий как есть, если вы microsoft 365 или организация GCC Microsoft 365. Если вы — организация Office 365 в Германии, организация Microsoft 365 GCC High или организация Дод Microsoft 365, для успешного ее запуска вам придется изменить сценарий. В частности, для подключения к Exchange Online PowerShell необходимо изменить строку и использовать параметр `Connect-ExchangeOnline` *ExchangeEnvironmentName* (и соответствующее значение для типа организации).  Кроме того, необходимо изменить строку и использовать параметры `Connect-IPPSSession` *ConnectionUri* и *AzureADAuthorizationEndpointUri* (и соответствующие значения для типа организации) для подключения к Центру & соответствия требованиям PowerShell. Дополнительные сведения см. в примере [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?#connect-to-exchange-online-powershell-without-using-mfa) и Connect to Security & [PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)центра соответствия требованиям.
+- Сценарий в этой статье поддерживает современную проверку подлинности. Вы можете использовать сценарий как есть, если вы microsoft 365 или организация GCC Microsoft 365. Если вы — организация Office 365 в Германии, организация Microsoft 365 GCC High или организация Дод Microsoft 365, для успешного ее запуска вам придется изменить сценарий. В частности, для подключения к Exchange Online PowerShell необходимо изменить строку и использовать параметр `Connect-ExchangeOnline` *ExchangeEnvironmentName* (и соответствующее значение для типа организации).  Кроме того, необходимо изменить строку и использовать параметры `Connect-IPPSSession` *ConnectionUri* и *AzureADAuthorizationEndpointUri* (и соответствующие значения для типа организации) для подключения к Центру & соответствия требованиям PowerShell. Дополнительные сведения см. в примере [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-without-using-mfa) и Connect to Security & [PowerShell](/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)центра соответствия требованиям.
 
 - При каждом запуске сценария создается новая удаленная сессия PowerShell. Это означает, что вы можете использовать все доступные удаленные сеансы PowerShell. Чтобы этого не произошло, запустите следующую команду, чтобы отключить активные удаленные сеансы PowerShell.
 
@@ -47,7 +47,7 @@ ms.locfileid: "50423460"
   Get-PSSession | Remove-PSSession
   ```
 
-    Дополнительные сведения см. в статье [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+    Дополнительные сведения см. в статье [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Сценарий включает минимальную обработку ошибок. Основная цель сценария — быстрое отображение списка ID-адресов папок почтовых ящиков или путей сайта, которые можно использовать в синтаксисе поисковых запросов поиска контента для выполнения целевой коллекции.
 
@@ -268,7 +268,7 @@ ms.locfileid: "50423460"
   documentlink:<path> AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
   ```
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Следует помнить о следующих вещах при использовании сценария в этой статье для выполнения целевых коллекций.
   

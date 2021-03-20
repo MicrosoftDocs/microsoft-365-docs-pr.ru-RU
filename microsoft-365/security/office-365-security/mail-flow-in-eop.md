@@ -12,15 +12,15 @@ localization_priority: Normal
 ms.assetid: e109077e-cc85-4c19-ae40-d218ac7d0548
 ms.custom:
 - seo-marvel-apr2020
-description: Администратор может узнать о параметрах для настройки потока почты и маршрутов в Exchange Online Protection (EOP).
+description: Администратор может узнать о параметрах настройки потока почты и маршрутичности в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c988f58a04abf2322e993ae1b75106a338674acb
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 043f093c801725cdf006c7c3afe7672e67d9fcef
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289655"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907030"
 ---
 # <a name="mail-flow-in-eop"></a>Поток обработки почты в EOP
 
@@ -31,26 +31,26 @@ ms.locfileid: "50289655"
 - [Microsoft Defender для Office 365 (план 1 и план 2)](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-В организациях Microsoft 365 с почтовыми ящиками Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online все сообщения, от отправленные в организацию, проходят через EOP, прежде чем сотрудники увидят их. У вас есть варианты маршрутов сообщений, которые проходят через EOP, для обработки, прежде чем они будут перена переданы в рабочие почтовые ящики.
+В организациях Microsoft 365 с почтовыми ящиками Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online все сообщения, отправленные в организацию, передаются через EOP перед их просмотром сотрудниками. У вас есть варианты маршрутивка сообщений, которые передаются через EOP для обработки, прежде чем они будут переданы в почтовые ящики рабочих.
 
 ## <a name="working-with-messages-and-message-access-options"></a>Возможности для работы с сообщениями и доступа к ним
 
-EOP обеспечивает гибкость маршрутов сообщений. В указанных ниже разделах описаны шаги процесса потока обработки почты.
+EOP обеспечивает гибкость в маршрутных маршрутах сообщений. В указанных ниже разделах описаны шаги процесса потока обработки почты.
 
-[Использование блокировки на основе каталогов для отклонения сообщений, отправленных недопустимым получателям](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking) Описывает функцию блокировки на основе каталогов, которая позволяет отклонить сообщения для недопустимых получателей в периметре сети службы.
+[Использование блокировки края на основе каталога для отклонить сообщения, отправленные недействительным получателям](/exchange/mail-flow-best-practices/use-directory-based-edge-blocking) Описывает функцию блокировки на основе каталогов, которая позволяет отклонить сообщения для недействительных получателей в периметре сети службы.
 
-В разделе [View or Edit Managed Domains in EOP](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) описано, как управлять доменами, сопоставленными со службой EOP.
+В разделе [View or Edit Managed Domains in EOP](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) описано, как управлять доменами, сопоставленными со службой EOP.
 
-Если вы добавляете поддомены в организацию, служба EOP поможет вам управлять и ими. Дополнительные узнать о поддоменах можно на [веб-сайте Enable mail flow for subdomains in Exchange Online.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains)
+Если вы добавляете поддомены в организацию, служба EOP поможет вам управлять и ими. Дополнительные новости о поддоменах в списке Включить поток почты для [поддоменов](/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains)в Exchange Online.
 
-[Настройка потока почты с помощью соединители](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) представляет соединители и показывает, как их можно использовать для настройки маршрутизации почты. Среди сценариев обеспечение безопасной связи с партнерской организацией и настройка промежуточного узла.
+[Настройка потока почты с помощью соединители](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) вводит соединители и показывает, как их можно использовать для настройки маршрутизации почты. Среди сценариев обеспечение безопасной связи с партнерской организацией и настройка промежуточного узла.
 
-[В расширенной фильтрации](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) соединителях описано, как настроить соединители, если почта маршрутизирована в службу или на устройство перед EOP.
+[Расширенная фильтрация соединители описывает](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) настройку соединители, если ваша почта передается в службу или устройство перед EOP.
 
-В автономных организациях EOP необходимо выполнить несколько действий по настройке, чтобы обеспечить правильную маршрутацию нежелательной почты в папку нежелательной почты каждого пользователя. Они подробно описаны в описании настройки автономных EOP для доставки нежелательной почты в папку нежелательной [почты в гибридных средах.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) Если вы не хотите перемещать сообщения в папку нежелательной почты каждого пользователя, вы можете выбрать другое действие, отредактировать политики нежелательной почты (также известные как политики фильтрации содержимого). Дополнительные сведения см. в статье [Настройка политик защиты от нежелательной почты](configure-your-spam-filter-policies.md).
+В автономных организациях EOP необходимо выполнить несколько действий по настройке, чтобы убедиться, что нежелательной почты правильно перенаправлять в папку нежелательной почты каждого пользователя. Эти сведения подробно описаны в Настройка автономных EOP для доставки нежелательной почты в папку нежелательной почты [в гибридных средах.](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md) Если вы не хотите перемещать сообщения в папку нежелательной почты каждого пользователя, вы можете выбрать другое действие, редактировать политики по борьбе со спамом (также известные как политики фильтрации контента). Дополнительные сведения см. в статье [Настройка политик защиты от нежелательной почты](configure-your-spam-filter-policies.md).
 
 ## <a name="verify-mail-flow"></a>Проверка потока почты
 
 Чтобы убедиться в правильности настройки EOP, включая конфигурацию соединителей, см. раздел "Проверка выполнения" в [Настройка службы EOP](set-up-your-eop-service.md).
 
-[Проверка потока почты путем проверки](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow) соединителю Microsoft 365 предоставляет инструкции по проверке правильности настроенного потока почты.
+[Проверьте поток почты, проверяя соединители Microsoft 365,](/exchange/mail-flow-best-practices/test-mail-flow) а также инструкции по проверке правильной настройка потока почты.

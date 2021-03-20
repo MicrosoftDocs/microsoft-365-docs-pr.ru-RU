@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 ms.custom: seo-marvel-apr2020
 description: В этой статье вы узнаете, как экспортировать, настраивать и просматривать записи журналов аудита Microsoft 365.
-ms.openlocfilehash: a7f731bb30ffdddfe7898ee4051060b8e22c093e
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 4cea867b46d3bda7d3b3a8cd38f3d01938da8764
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454670"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906871"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>Экспорт, настройка и просмотр записей журнала аудита
 
@@ -96,7 +96,7 @@ ms.locfileid: "50454670"
 
     - Оставьте **исходное имя столбца в** качестве почтового ящика префикса, выбранного для добавления префикса AuditData в имена столбцов; например, **AuditData.RecordType** или **AuditData.SourceFileName.**
 
-9. Нажмите кнопку **ОК**.
+9. Нажмите **ОК**.
 
     Столбец **AuditData** разделен на несколько столбцов. Каждый новый столбец соответствует свойству объекта AuditData JSON. Каждая строка в столбце содержит значение свойства. Если свойство не содержит значения, отображается *значение null.* В Excel ячейки со значениями null пусты.
   
@@ -104,7 +104,7 @@ ms.locfileid: "50454670"
 
 ## <a name="use-powershell-to-search-and-export-audit-log-records"></a>Использование PowerShell для поиска и экспорта записей журналов аудита
 
-Вместо использования средства поиска журналов аудита в Центре & обеспечения [](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) соответствия требованиям можно использовать в Exchange Online PowerShell для экспорта результатов поиска журнала аудита в CSV-файл. Затем вы можете следовать той же процедуре, описанной в шаге 2, чтобы форматирование журнала аудита с помощью редактора Power Query. Одно из преимуществ использования комлета PowerShell заключается в том, что вы можете искать события из определенной службы с помощью *параметра RecordType.* Вот несколько примеров использования PowerShell для экспорта записей аудита в CSV-файл, чтобы можно было использовать редактор Power Query для преобразования объекта JSON в столбце **AuditData,** как описано в шаге 2.
+Вместо использования средства поиска журналов аудита в Центре & обеспечения [](/powershell/module/exchange/search-unifiedauditlog) соответствия требованиям можно использовать в Exchange Online PowerShell для экспорта результатов поиска журнала аудита в CSV-файл. Затем вы можете следовать той же процедуре, описанной в шаге 2, чтобы форматирование журнала аудита с помощью редактора Power Query. Одно из преимуществ использования комлета PowerShell заключается в том, что вы можете искать события из определенной службы с помощью *параметра RecordType.* Вот несколько примеров использования PowerShell для экспорта записей аудита в CSV-файл, чтобы можно было использовать редактор Power Query для преобразования объекта JSON в столбце **AuditData,** как описано в шаге 2.
 
 В этом примере запустите следующие команды, чтобы вернуть все записи, связанные с операциями общего доступа SharePoint.
 
@@ -118,7 +118,7 @@ $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | 
 
 Результаты поиска экспортируются в CSV-файл с именем *PowerShellAuditlog,* содержащий четыре столбца: CreationDate, UserIds, RecordType, AuditData.
 
-В качестве значения параметра *RecordType* можно также использовать имя или значение переписи для типа записи. Список имен типов записей и соответствующих значений списка см. в таблице *AuditLogRecordType* в схеме API управления [Office 365.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32)
+В качестве значения параметра *RecordType* можно также использовать имя или значение переписи для типа записи. Список имен типов записей и соответствующих значений списка см. в таблице *AuditLogRecordType* в схеме API управления [Office 365.](/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32)
 
 Можно включить только одно значение для *параметра RecordType.* Чтобы найти записи аудита для других типов записей, необходимо выполнить две предыдущие команды, чтобы указать другой тип записи и примедить эти результаты к исходному CSV-файлу. Например, вы запустите следующие две команды, чтобы добавить действия файла SharePoint из того же диапазона дат в PowerShellAuditlog.csv файл.
 

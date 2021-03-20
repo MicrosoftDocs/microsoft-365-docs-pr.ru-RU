@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Защита от потери данных в конечной точке Microsoft 365 расширяет отслеживание действий с файлами и защитных действий с этими файлами до конечных точек. В решениях для обеспечения соответствия требованиям Microsoft 365 файлы являются видимыми '
-ms.openlocfilehash: c4f0d10808d564fc0ee19510c25d33caba0471ff
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: d4a3fef03322912bf169cd195984a17d8dfe3b17
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741590"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907053"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Сведения о защите от потери данных в конечной точке Microsoft 365
 
@@ -95,7 +95,7 @@ ms.locfileid: "50741590"
 
  Для подключения устройств используйте процедуры, описанные в статье [Начало работы с Защитой от потери данных в конечной точке в Microsoft 365](endpoint-dlp-getting-started.md).
 
-Если вы подключили устройства с помощью [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/), эти устройства будут автоматически отображаться в списке устройств.
+Если вы подключили устройства с помощью [Microsoft Defender для конечной точки](/windows/security/threat-protection/), эти устройства будут автоматически отображаться в списке устройств.
 
 > [!div class="mx-imgBorder"]
 > ![список управляемых устройств](../media/endpoint-dlp-learn-about-2-device-list.png)
@@ -163,5 +163,5 @@ ms.locfileid: "50741590"
 - [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
-- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender для конечной точки](/windows/security/threat-protection/)
 - [Управление рисками в рамках программы предварительной оценки](insider-risk-management.md)

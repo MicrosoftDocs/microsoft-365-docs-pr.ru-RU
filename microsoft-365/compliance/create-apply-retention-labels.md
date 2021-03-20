@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Инструкции по созданию и публикации меток хранения, которые можно применять в приложениях для сохранения необходимых сведений и удаления ненужных.
-ms.openlocfilehash: 67285862756a262233fef934efb377b949fc9d65
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: c327081109fe9d7c4d85d4cf8f01a9e5466432d1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423500"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908423"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Создание меток хранения и их применение в приложениях
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Этот сценарий поддерживается во всех конфигурациях меток хранения, включая [нормативные записи](records-management.md#records).
@@ -111,9 +111,9 @@ ms.locfileid: "50423500"
 ![Схема, иллюстрирующая, когда вручную применяемые метки вступают в силу](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 
-Если после семи дней метки не появляются, проверьте **Состояние** политики меток, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)**, а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
+Если после семи дней метки не появляются, проверьте **Состояние** политики меток, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)**, а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
 
-1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell)
 
 2. Выполните следующую команду:
     
@@ -125,7 +125,7 @@ ms.locfileid: "50423500"
 
 В Exchange Online метки хранения доступны конечным пользователям благодаря процессу, который выполняется каждые семь дней. С помощью PowerShell можно узнать, когда этот процесс запускался в последний раз и, соответственно, когда он будет запущен снова.
   
-1. [Подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=799773).
+1. [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
     
 2. Выполните следующие команды:
     
@@ -226,7 +226,7 @@ You can also apply a retention label to a folder or document set, and you can se
 After a retention label is applied to an item, you can view it in the details pane when that item's selected.
   
 ![Applied label shown in Details pane](../media/d06e585e-29f7-4c8c-afef-629c97268b8e.png)
-  
+
 For SharePoint, but not OneDrive, you can create a view of the library that contains the **Labels** column or **Item is a Record** column. This view lets you see at a glance the retention labels assigned to all items and which items are records. Note, however, that you can't filter the view by the **Item is a Record** column. For instructions how to add columns, see [Show or hide columns in a list or library](https://support.microsoft.com/en-us/office/show-or-hide-columns-in-a-list-or-library-b820db0d-9e3e-4ff9-8b8b-0b2dbefa87e2).
 
 
@@ -309,5 +309,5 @@ If you need to ensure that no one can turn off the policy, delete the policy, or
 Event-based retention is another supported scenario for retention labels. For more information, see the following articles:
 
 - [Start retention when an event occurs](event-driven-retention.md)
-- [Automate event-based retention](automate-event-driven-retention.md)
+- [Automate event-based retention](./event-driven-retention.md#automate-events-by-using-a-rest-api)
 - [Use retention labels to manage the lifecycle of documents stored in SharePoint](auto-apply-retention-labels-scenario.md)

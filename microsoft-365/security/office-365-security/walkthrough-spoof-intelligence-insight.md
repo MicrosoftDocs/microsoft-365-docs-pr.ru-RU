@@ -19,12 +19,12 @@ description: Администраторы могут узнать, как раб
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8ca40e2cde08e5ea213d4c19366f038f1da19fa7
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: cc53d49401afe3a0d7871bf5f294126315aacfec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407220"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908098"
 ---
 # <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Walkthrough — аналитика Spoof в Microsoft Defender для Office 365
 
@@ -43,11 +43,11 @@ ms.locfileid: "50407220"
 Это погон является одним из нескольких для Центра & соответствия требованиям. Сведения о навигации по отчетам и сведениям см. в разделе Раздел Раздел Связанные [темы.](#related-topics)
 
 > [!NOTE]
-> В анализе подмены сведений показаны данные за последние 7 дней. Политика [подмены](learn-about-spoof-intelligence.md) сведений и соответствующий [кодлет Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy) в Exchange Online PowerShell показывают данные за последние 30 дней. В [Get-SpoofMailReport](https://docs.microsoft.com/powershell/module/exchange/get-spoofmailreport) показаны данные на срок до 90 дней.
+> В анализе подмены сведений показаны данные за последние 7 дней. Политика [подмены](learn-about-spoof-intelligence.md) сведений и соответствующий [кодлет Get-PhishFilterPolicy](/powershell/module/exchange/get-phishfilterpolicy) в Exchange Online PowerShell показывают данные за последние 30 дней. В [Get-SpoofMailReport](/powershell/module/exchange/get-spoofmailreport) показаны данные на срок до 90 дней.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Чтобы перейти непосредственно на **страницу панели мониторинга** безопасности, используйте <https://protection.office.com/searchandinvestigation/dashboard> .
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на **страницу панели мониторинга** безопасности, используйте <https://protection.office.com/searchandinvestigation/dashboard> .
 
   Сведения об аналитике Spoof можно просмотреть из более чем одной панели мониторинга в Центре & соответствия требованиям. Независимо от того, на какую панель мониторинга вы смотрите, она предоставляет те же сведения и позволяет быстро выполнять те же задачи.
 
@@ -130,6 +130,6 @@ ms.locfileid: "50407220"
 
 Подмена будет разрешена только электронной почте из этой пары инфраструктуры домена и отправки. Другие отправители, пытающиеся gmail.com, не допускаются. Сообщения в других доменах из tms.mx.com проверяются с помощью подмены сведений.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Родственные темы
 
 [Защита от спуфинга в Microsoft 365](anti-spoofing-protection.md)

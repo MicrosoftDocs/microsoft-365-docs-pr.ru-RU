@@ -20,16 +20,16 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Как правило, в рамках решения для управления записями можно настроить метку хранения, чтобы начать период хранения, который зависит от возникновения указанного вами события.
-ms.openlocfilehash: cf8ce1dc2ca77e2ba028d0c35f58cd0ab419b32d
-ms.sourcegitcommit: 5ce64d510b15c6e2df32b78e6086f77156731e3c
+ms.openlocfilehash: 49fe330fa6844361a77caaebb0e6a411297ee643
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477628"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907019"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Общие сведения о хранении, зависящем от возникновения события
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Срок хранения контента часто определяется его возрастом. Например, вы можете хранить документы в течение семи лет после их создания, а затем удалять их. Однако, настроив [метки хранения](retention.md#retention-labels), вы также можете задать период хранения исходя из того, когда происходит событие определенного типа. Событие становится началом периода хранения, а ко всему контенту с меткой, относящейся к этому типу события, применяются предусмотренные ею действия.
   
@@ -89,7 +89,7 @@ ms.locfileid: "49477628"
 
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>Шаг 1. Создайте метку, период хранения которой зависит от возникновения события
 
-Чтобы создать и настроить метку хранения, воспользуйтесь инструкциями из раздела[Создайте и настройка метки хранения](create-retention-labels.md#create-and-configure-retention-labels). Но специально для хранения на основе событий на странице **Определение параметров хранения** в мастере создания меток хранения, после **Запуска срока хранения на основе**, выберите один из типов событий по умолчанию в раскрывающемся списке или создайте свой собственный, выбрав **Создать новый тип событий**:
+Чтобы создать и настроить метку хранения, воспользуйтесь инструкциями из раздела[Создайте и настройка метки хранения](./create-apply-retention-labels.md#create-and-configure-retention-labels). Но специально для хранения на основе событий на странице **Определение параметров хранения** в мастере создания меток хранения, после **Запуска срока хранения на основе**, выберите один из типов событий по умолчанию в раскрывающемся списке или создайте свой собственный, выбрав **Создать новый тип событий**:
 
 ![Создание нового типа события для метки хранения](../media/SPRetention6.png)
 
@@ -123,7 +123,7 @@ ms.locfileid: "49477628"
 - [Создание меток хранения и их применение в приложениях](create-apply-retention-labels.md)
 - [Автоматическое применение метки хранения к контенту](apply-retention-labels-automatically.md)
 
-### <a name="step-4-enter-an-asset-id"></a>Шаг 4. Ввод идентификатора ресурса
+### <a name="step-4-enter-an-asset-id"></a>Шаг 4. Введите идентификатор ресурса
 
 После применения метки на основе событий к содержимому можно ввести ИД ресурса для каждого элемента. Например, в вашей организации могут использоваться:
   
@@ -137,15 +137,15 @@ ms.locfileid: "49477628"
   
 ![Текстовое поле для ввода идентификатора ресурса](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
   
-### <a name="step-5-create-an-event"></a>Шаг 5. Создание события
+### <a name="step-5-create-an-event"></a>Шаг 5. Создайте событие
 
 Когда возникнет конкретное событие такого типа (например, когда завершится срок службы продукта), перейдите на страницу **Управление записями** > **События** в Центре соответствия требованиям Microsoft 365 и нажмите **+ Создать** , чтобы создать событие. Можно инициировать событие, создав его здесь.
 
-![Создание события, чтобы активировать начало хранения для меток хранения на основе событий](../media/create-event-records-management.png)
+![Создайте событие, чтобы активировать запуск хранения меток хранения на основе событий](../media/create-event-records-management.png)
 
 Для одного клиента поддерживается до одного миллиона событий.
 
-### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Шаг 6. Выбор того же типа события, который использовался для метки на шаге 2
+### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Шаг 6. Выберите тип события, который использовался для метки из описания шага 2
 
 Когда вы создаете событие, выберите тот же тип события, который был указан в настройках метки сохранения в шаге 2. Например, если в качестве типа события для настроек метки вы выбрали **Срок службы продукта**, выберите **Срок службы продукта** при создании события. Период хранения будет инициирован только для контента с метками хранения, примененными к нему с таким типом события.
 
@@ -185,24 +185,24 @@ ms.locfileid: "49477628"
 
 Для автоматизации хранения на основе событий в бизнес-приложениях можно использовать сценарий PowerShell. Командлеты PowerShell, доступные для хранения на основе событий:
   
-- [Get-ComplianceRetentionEventType](https://go.microsoft.com/fwlink/?linkid=873002)
+- [Get-ComplianceRetentionEventType](/powershell/module/exchange/get-complianceretentioneventtype)
     
-- [New-ComplianceRetentionEventType](https://go.microsoft.com/fwlink/?linkid=873004)
+- [New-ComplianceRetentionEventType](/powershell/module/exchange/new-complianceretentioneventtype)
     
-- [Remove-ComplianceRetentionEventType](https://go.microsoft.com/fwlink/?linkid=873005)
+- [Remove-ComplianceRetentionEventType](/powershell/module/exchange/remove-complianceretentioneventtype)
     
-- [Set-ComplianceRetentionEventType](https://go.microsoft.com/fwlink/?linkid=873006)
+- [Set-ComplianceRetentionEventType](/powershell/module/exchange/set-complianceretentioneventtype)
     
-- [Get-ComplianceRetentionEvent](https://go.microsoft.com/fwlink/?linkid=873001)
+- [Get-ComplianceRetentionEvent](/powershell/module/exchange/get-complianceretentionevent)
     
-- [New-ComplianceRetentionEvent](https://go.microsoft.com/fwlink/?linkid=873003)
+- [New-ComplianceRetentionEvent](/powershell/module/exchange/new-complianceretentionevent)
     
 
 ## <a name="automate-events-by-using-a-rest-api"></a>Автоматизация событий с помощью REST API
 
 Можно использовать REST API для автоматического создания событий, инициирующих начало срока хранения.
 
-REST API — это конечная точка службы, поддерживающая наборы операций HTTP (методы), которые обеспечивают создание, получение, обновление и удаление доступа к ресурсам службы. Дополнительные сведения см. в статье [Компоненты запросов и откликов REST API](https://docs.microsoft.com/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). С помощью REST API Microsoft 365 можно создавать и получать события методами POST и GET.
+REST API — это конечная точка службы, поддерживающая наборы операций HTTP (методы), которые обеспечивают создание, получение, обновление и удаление доступа к ресурсам службы. Дополнительные сведения см. в статье [Компоненты запросов и откликов REST API](/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). С помощью REST API Microsoft 365 можно создавать и получать события методами POST и GET.
 
 Существует два способа использования REST API:
 
@@ -450,4 +450,3 @@ $event = Invoke-RestMethod -Body $body -Method 'POST' -Uri $url -ContentType "ap
 $event | fl *
 
 ```
-

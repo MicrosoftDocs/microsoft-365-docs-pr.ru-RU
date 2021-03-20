@@ -22,12 +22,12 @@ search.appverid:
 description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов с помощью указанных телефонных номеров для вашей страны или региона, или отправьте запросы на обслуживание через Интернет.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 7679539e64588827b6dcc20f6f98bc67e613aae6
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: aa843f0c81f38e53b525b6e56d7f3fa69696de79
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261339"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907042"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Способы обращения в службу поддержки продуктов для бизнеса. Справка для администраторов
 
@@ -36,7 +36,7 @@ ms.locfileid: "50261339"
 > [!IMPORTANT]
 > Для использования этих методов поддержки необходимо иметь права администратора бизнес-подписки. Если вы не являетесь бизнес-администратором, используйте [эту страницу поддержки](https://support.microsoft.com/contactus).
 
-Начните с[проверки текущего состояния своих служб](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health). Вы можете просмотреть подробную информацию о текущих и уже решенных проблемах на<a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">панели мониторинга работоспособности службы</a>. Если у вас возникла проблема, которая не отображается в списке, вы можете получить поддержку одним из следующих способов:
+Начните с[проверки текущего состояния своих служб](../enterprise/view-service-health.md). Вы можете просмотреть подробную информацию о текущих и уже решенных проблемах на<a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">панели мониторинга работоспособности службы</a>. Если у вас возникла проблема, которая не отображается в списке, вы можете получить поддержку одним из следующих способов:
 
 ## <a name="online-support"></a>Поддержка через Интернет
 
@@ -214,7 +214,7 @@ ms.locfileid: "50261339"
 
 ## <a name="feature-availability"></a>Доступность функций
 
-Сведения о доступности функций в планах Office 365 см. в статье [Описание служб Office 365](https://go.microsoft.com/fwlink/p/?linkid=846911).
+Сведения о доступности функций в планах Office 365 см. в статье [Описание служб Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet).
 
 ## <a name="follow-us-on-wechat"></a>Подпишитесь на нас в WeChat
 

@@ -18,12 +18,12 @@ ms.collection:
 description: Администраторы могут узнать, как просматривать и настраивать глобальные параметры (список "Блокировка следующих URL-адресов" и защита приложений Office 365) для безопасных ссылок в Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 38614d070f4ac9bfda978301eaeed6029b47e0ca
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: e3466f515458b05a5c00053a30fad8f5a84802fd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406118"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906568"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Настройка глобальных параметров безопасных ссылок в Microsoft Defender для Office 365
 
@@ -51,20 +51,20 @@ ms.locfileid: "50406118"
 
 - Функции, предоставляемые глобальными настройками безопасных ссылок, применяются только к пользователям, включенным в активные политики безопасных ссылок. Существует не встроенная или по умолчанию политика безопасных ссылок, поэтому необходимо создать по крайней мере одну политику безопасных ссылок, чтобы эти глобальные параметры были активными. Инструкции см. в инструкции Настройка политик безопасных ссылок [в Microsoft Defender для Office 365.](set-up-atp-safe-links-policies.md)
 
-- Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **Безопасные ссылки,** используйте <https://protection.office.com/safelinksv2> .
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **Безопасные ссылки,** используйте <https://protection.office.com/safelinksv2> .
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Вам необходимо получить разрешения в **Exchange Online,** прежде чем вы сможете сделать процедуры в этой статье:
+- Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
   - Чтобы настроить глобальные параметры безопасных ссылок, необходимо быть членом группы ролей **администратора** организации или **администратора** безопасности.
   - Для доступа только для чтения к глобальным настройкам безопасных ссылок необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
 
-  Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   **Примечания**.
 
-  - Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft  365 дает пользователям необходимые разрешения и разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
-  - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
+  - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+  - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 - Рекомендуемые значения для глобальных параметров безопасных ссылок см. в этой [ссылке.](recommended-settings-for-eop-and-office365-atp.md#safe-links-settings)
 
@@ -151,7 +151,7 @@ Set-AtpPolicyForO365 [-EnableSafeLinksForO365Clients <$true | $false> [-AllowCli
 Set-AtpPolicyForO365 -TrackClicks $true
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [инструкции Set-AtpPolicyForO365.](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365)
+Подробные сведения о синтаксисах и параметрах см. в [инструкции Set-AtpPolicyForO365.](/powershell/module/exchange/set-atppolicyforo365)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 
@@ -165,4 +165,4 @@ Set-AtpPolicyForO365 -TrackClicks $true
   Get-AtpPolicyForO365 | Format-List BlockUrls,EnableSafeLinksForO365Clients,AllowClickThrough,TrackClicks
   ```
 
-  Подробные сведения о синтаксисах и параметрах см. в [обзоре Get-AtpPolicyForO365.](https://docs.microsoft.com/powershell/module/exchange/get-atppolicyforo365)
+  Подробные сведения о синтаксисах и параметрах см. в [обзоре Get-AtpPolicyForO365.](/powershell/module/exchange/get-atppolicyforo365)

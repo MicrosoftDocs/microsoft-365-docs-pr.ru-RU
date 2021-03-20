@@ -15,20 +15,20 @@ search.appverid:
 ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
-description: Узнайте, как настроить управление правами на доступ к данным (IRM) в Exchange Online для использования сервера службы управления правами Active Directory (AD RMS).
+description: Узнайте, как настроить управление правами на информацию (IRM) в Exchange Online для использования сервера службы управления правами active Directory (AD RMS).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 92bf92427ed9a0ba55a0f059859d59c11023ea33
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: a520a3e55ae1137a0a4cc417dc68097d0793d978
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166120"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908569"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>Настройка функции управления правами на доступ к данным для использования локального сервера служб AD RMS
   
-Для использования в локальном развертывании управление правами на доступ к данным (IRM) в Exchange Online использует технологию служба управления правами Active Directory (AD RMS) в Windows Server 2008 и более поздних версиях. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
+Для использования в локальном развертывании управление правами на информацию (IRM) в Exchange Online использует служба управления правами Active Directory (AD RMS), технологию защиты информации в Windows Server 2008 и более поздних версиях. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
   
-В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с Помощью Azure Active Directory и Azure Rights Management см. в [faq](https://docs.microsoft.com/microsoft-365/compliance/ome-faq).
+В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с Помощью Azure Active Directory и Управления правами Azure см. в faQ шифрования сообщений [Office 365.](./ome-faq.md)
   
 Дополнительные сведения об управлении правами на доступ к данным в Exchange Online см. в разделе [Управление правами на доступ к данным в Exchange Online](information-rights-management-in-exchange-online.md).
   
@@ -36,13 +36,13 @@ ms.locfileid: "44166120"
 
 - Предполагаемое время выполнения задачи: 30 минут.
 
-- Для выполнения этих процедур необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в статье "Управление правами на доступ к данным" в статье [Messaging policy and compliance permissions](https://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx). 
+- Для выполнения этих процедур необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в статье "Управление правами на доступ к данным" в статье [Messaging policy and compliance permissions](/Exchange/permissions/feature-permissions/policy-and-compliance-permissions). 
 
-- Сервер службы управления правами Active Directory должен работать под управлением ОС Windows Server 2008 или более поздней версии. Сведения о развертывании службы управления правами Active Directory см. в разделе [Установка кластера службы управления правами Active Directory](https://go.microsoft.com/fwlink/?LinkId=210873).
+- Сервер службы управления правами Active Directory должен работать под управлением ОС Windows Server 2008 или более поздней версии. Сведения о развертывании службы управления правами Active Directory см. в разделе [Установка кластера службы управления правами Active Directory](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc726041(v=ws.11)).
 
-- Сведения об установке и настройке Windows PowerShell и подключении к службе см. в разделе [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://technet.microsoft.com/library/c8bea338-6c1a-4bdf-8de0-7895d427ee5b.aspx).
+- Сведения об установке и настройке Windows PowerShell и подключении к службе см. в разделе [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Сведения о сочетаниях клавиш, которые могут применяться к процедурам в этом разделе, см. в разделе "Сочетания клавиш" для Центра администрирования [Exchange в Exchange Online.](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
+- Сведения о ярлыках клавиатуры, которые могут применяться к процедурам в этом разделе, см. в разделе Клавишные ярлыки для центра администрирования Exchange в [Exchange Online.](/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
 
 > [!TIP]
 > Возникли проблемы? Обратитесь за помощью к участникам форумов Exchange. Посетите форумы по таким продуктам: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542) или [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351). 
@@ -94,15 +94,15 @@ Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byt
 Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byte -Path C:\Users\Administrator\Desktop\ExportTPD.xml -ReadCount 0)) -Name "Exported TPD" -ExtranetLicensingUrl https://corp.contoso.com/_wmcs/licensing -IntranetLicensingUrl https://rmsserver/_wmcs/licensing
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в разделе [Import-RMSTrustedPublishingDomain](https://technet.microsoft.com/library/7c5e7a0f-9c9d-4863-bab8-bcc729cc16a6.aspx).
+Подробные сведения о синтаксисе и параметрах см. в разделе [Import-RMSTrustedPublishingDomain](/powershell/module/exchange/import-rmstrustedpublishingdomain).
   
 #### <a name="how-do-you-know-this-step-worked"></a>Как убедиться, что все получилось?
 
-Чтобы убедиться, что вы успешно импортировали TPD, выполните командлет **Get-RMSTrustedPublishingDomain** для извлечения доверенных доменов публикации в вашей организации Exchange Online. Для получения дополнительных сведений см. примеры в разделе [Get-RMSTrustedPublishingDomain](https://technet.microsoft.com/library/69499195-f08f-41bd-b0ed-443688410b12.aspx).
+Чтобы убедиться, что вы успешно импортировали TPD, выполните командлет **Get-RMSTrustedPublishingDomain** для извлечения доверенных доменов публикации в вашей организации Exchange Online. Для получения дополнительных сведений см. примеры в разделе [Get-RMSTrustedPublishingDomain](/powershell/module/exchange/get-rmstrustedpublishingdomain).
   
 ### <a name="step-3-use-the-exchange-management-shell-to-distribute-an-ad-rms-rights-policy-template"></a>Действие 3. Распространите шаблон политики прав AD RMS с помощью командной консоли Exchange
 
-После импорта TPD необходимо распространить шаблон политики прав службы управления правами Active Directory. Распределенный шаблон виден пользователям Outlook в Интернете (прежнее название — Outlook Web App), которые затем могут применять шаблоны к сообщению электронной почты.
+После импорта TPD необходимо распространить шаблон политики прав службы управления правами Active Directory. Распределенный шаблон виден пользователям Outlook в Интернете (ранее Outlook Web App), которые затем могут применить шаблоны к сообщению электронной почты.
   
 Чтобы получить список всех шаблонов в TPD по умолчанию, выполните следующую команду.
   
@@ -124,7 +124,7 @@ Set-RMSTemplate -Identity "<name of the template>" -Type Distributed
 Set-RMSTemplate -Identity "Company Confidential" -Type Distributed
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в разделах [Get-RMSTemplate](https://technet.microsoft.com/library/4a5066e8-b770-4aa2-b464-0d2190914f71.aspx) и [Set-RMSTemplate](https://technet.microsoft.com/library/4637f6b8-751a-4f5e-8869-428250230382.aspx).
+Дополнительные сведения о синтаксисе и параметрах см. в разделах [Get-RMSTemplate](/powershell/module/exchange/get-rmstemplate) и [Set-RMSTemplate](/powershell/module/exchange/set-rmstemplate).
   
 **Шаблон «"Не пересылать"»**
   
@@ -145,7 +145,7 @@ Set-RMSTemplate -Identity "Company Confidential" -Type Distributed
   
 #### <a name="how-do-you-know-this-step-worked"></a>Как убедиться, что все получилось?
 
-Чтобы убедиться, что вы успешно распространили шаблон политики прав службы управления правами Active Directory, выполните командлет **Get-RMSTemplate** для проверки свойств шаблона. Для получения дополнительных сведений см. примеры в разделе [Get-RMSTemplate](https://technet.microsoft.com/library/4a5066e8-b770-4aa2-b464-0d2190914f71.aspx).
+Чтобы убедиться, что вы успешно распространили шаблон политики прав службы управления правами Active Directory, выполните командлет **Get-RMSTemplate** для проверки свойств шаблона. Для получения дополнительных сведений см. примеры в разделе [Get-RMSTemplate](/powershell/module/exchange/get-rmstemplate).
   
 ### <a name="step-4-use-the-exchange-management-shell-to-enable-irm"></a>Действие 4. Включите управление правами на доступ к данным с помощью командной консоли Exchange
 
@@ -155,17 +155,17 @@ Set-RMSTemplate -Identity "Company Confidential" -Type Distributed
 Set-IRMConfiguration -InternalLicensingEnabled $true
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в разделе [Set-IRMConfiguration](https://technet.microsoft.com/library/5df0b56a-7bcc-4be2-b4b8-4de16720476c.aspx).
+Подробные сведения о синтаксисе и параметрах см. в разделе [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration).
   
 #### <a name="how-do-you-know-this-step-worked"></a>Как убедиться, что все получилось?
 
-Чтобы убедиться, что вы успешно включили управление правами на доступ к данным (IRM), выполните командлет [Get-IRMConfiguration](https://technet.microsoft.com/library/e1821219-fe18-4642-a9c2-58eb0aadd61a.aspx) для проверки конфигурации IRM в организации Exchange Online.
+Чтобы убедиться, что вы успешно включили управление правами на доступ к данным (IRM), выполните командлет [Get-IRMConfiguration](/powershell/module/exchange/get-irmconfiguration) для проверки конфигурации IRM в организации Exchange Online.
   
 ## <a name="how-do-you-know-this-task-worked"></a>Как убедиться, что это сработало?
 <a name="sectionSection2"> </a>
 
 Чтобы убедиться, что вы успешно импортировали TPD и включили IRM, выполните приведенные ниже действия.
   
-- С помощью командлета **Test-IRMConfiguration** проверьте функциональные возможности IRM. Подробные сведения см. в примере 1 в разделе [Test-IRMConfiguration](https://technet.microsoft.com/library/a730e7ff-a67f-4360-b5ff-70d171bb5e1d.aspx).
+- С помощью командлета **Test-IRMConfiguration** проверьте функциональные возможности IRM. Подробные сведения см. в примере 1 в разделе [Test-IRMConfiguration](/powershell/module/exchange/test-irmconfiguration).
 
-- Соберите новое сообщение в Outlook в Интернете и защитите его с помощью IRM, выбрав параметр "Установить разрешения" в расширенном меню (значок "Дополнительные  ![ параметры"). ](../media/ITPro-EAC-MoreOptionsIcon.gif)
+- Соберите новое сообщение в Outlook в Интернете и IRM-защита, выбрав параметр **Set permissions** из расширенного меню ![ (More Options ](../media/ITPro-EAC-MoreOptionsIcon.gif) Icon).

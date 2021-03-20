@@ -20,12 +20,12 @@ description: Узнайте, как SharePoint Online обнаруживает �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9ba3d19c6b04b93d9b1089540b7483d8b2e7246c
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: a651d198f441c26525cbfb5d7406ae350db8b79e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727503"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908086"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Встроенная защита от вирусов в SharePoint Online, OneDrive и Microsoft Teams
 
@@ -62,7 +62,7 @@ Microsoft 365 использует общий механизм обнаруже�
 
 > [!NOTE]
 >
-> Администраторы могут использовать параметр *DisallowInfectedFileDownload* в комлете [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) в SharePoint Online PowerShell, чтобы запретить пользователям скачивать зараженные файлы даже в окне предупреждения о вирусе. Инструкции см. в [раздел Использование SharePoint Online PowerShell, чтобы](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)запретить пользователям скачивать вредоносные файлы.
+> Администраторы могут использовать параметр *DisallowInfectedFileDownload* в комлете [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) в SharePoint Online PowerShell, чтобы запретить пользователям скачивать зараженные файлы даже в окне предупреждения о вирусе. Инструкции см. в [раздел Использование SharePoint Online PowerShell, чтобы](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)запретить пользователям скачивать вредоносные файлы.
 >
 > Как только вы включаете параметр *DisallowInfectedFileDownload,* доступ к обнаруженным/заблокированным файлам полностью блокируется для пользователей и администраторов.
 
@@ -76,6 +76,6 @@ Microsoft 365 использует общий механизм обнаруже�
 
 ## <a name="related-articles"></a>Связанные статьи
 
-[Защита от вредоносных программ и программ-вымогателей в Microsoft 365](https://docs.microsoft.com/compliance/assurance/assurance-malware-and-ransomware-protection)
+[Защита от вредоносных программ и программ-вымогателей в Microsoft 365](/compliance/assurance/assurance-malware-and-ransomware-protection)
 
 Дополнительные сведения о антивирусе в SharePoint Online, OneDrive [](protect-against-threats.md) и Microsoft Teams см. в разделе Защита от угроз и включите безопасные вложения [для SharePoint, OneDrive и Microsoft Teams.](turn-on-atp-for-spo-odb-and-teams.md)
