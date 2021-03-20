@@ -13,12 +13,12 @@ metadata:
   ms.date: 02/27/2020
   localization_priority: Normal
   search.appverid: MET150
-  ms.openlocfilehash: 4f5634b720079f57a37f9b7079a8bece6cf150cd
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: a2998495e5cf6309005e9bd8a65290081f565678
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44402146"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50911606"
 landingContent:
 - title: Управление счетами и платежами
   linkLists:
@@ -45,7 +45,7 @@ landingContent:
     - text: Приобретение лицензий для подписки
       url: licenses/buy-licenses.md
     - text: Удаление лицензий из подписки
-      url: licenses/remove-licenses-from-subscription.md
+      url: ./licenses/buy-licenses.md
 - title: Обновление, продление или отмена
   linkLists:
   - linkListType: how-to-guide
@@ -67,7 +67,7 @@ landingContent:
     - text: Пробное использование или приобретение Microsoft 365
       url: try-or-buy-microsoft-365.md
     - text: Приобретение подписок из бесплатной пробной версии
-      url: buy-a-subscription-from-your-free-trial.md
+      url: ./try-or-buy-microsoft-365.md
     - text: Продление пробной версии
       url: extend-your-trial.md
     - text: Приобретение имени домена
