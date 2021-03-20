@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Защита устройств и данных приложений и управление ими
-summary: Ознакомьтесь с этими ресурсами, чтобы помочь администраторам выбрать между устройствами и методами управления данными приложения.
+title: Защита и управление данными устройств и приложений
+summary: Ознакомьтесь с этими ресурсами, чтобы помочь администраторам выбрать между методами управления данными устройств и приложений.
 metadata:
-  title: Защита устройств и данных приложений и управление ими
-  description: Управление устройствами и данными приложений и их защита
+  title: Защита и управление данными устройств и приложений
+  description: Управление и защита данных устройств и приложений
   ms.service: O365-administration
   ms.topic: landing-page
   author: Sirkkuw
@@ -11,12 +11,12 @@ metadata:
   ms.date: 09/09/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: a70d8471d8344f7bf479e050c59d6c6b3d97f5fe
-  ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+  ms.openlocfilehash: 2b15d19025f42db0b4f79adb6f4156f7a115f227
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 11/06/2020
-  ms.locfileid: "48930277"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50910442"
 landingContent:
 - title: Различные методы MDM и MAM
   linkLists:
@@ -24,39 +24,39 @@ landingContent:
     links:
     - text: Просмотр параметров защиты данных устройств и приложений
       url: choose-device-security.md
-- title: Управление устройствами и данными приложений с помощью Microsoft Intune
+- title: Управление данными устройств и приложений с помощью Microsoft Intune
   linkLists:
   - linkListType: overview
     links:
     - text: Обзор регистрации устройств
-      url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
+      url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
     - text: Настройка автоматической регистрации для устройств с Windows 10
-      url: https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment
-    - text: Настройка регистрации android
-      url: https://docs.microsoft.com/mem/intune/enrollment/android-enroll
-    - text: Настройка регистрации iOS и iPadOS
-      url: https://docs.microsoft.com/mem/intune/enrollment/ios-enroll
-- title: Управление устройствами и данными приложений с помощью Microsoft 365 бизнес премиум
+      url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
+    - text: Настройка регистрации на Android
+      url: /mem/intune/enrollment/android-enroll
+    - text: Настройка регистрации iOS/iPadOS
+      url: /mem/intune/enrollment/ios-enroll
+- title: Управление данными о устройствах и приложениях с помощью Microsoft 365 Business Premium
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Просмотр политик управления приложениями и устройствами и управление ими
+    - text: Просмотр и управление политиками управления приложениями и устройствами
       url: ../../business/view-policies-and-devices.md
     - text: Удаление данных организации с устройств
       url: ../../business/remove-company-data.md
-    - text: Сброс заводских настроек устройств с Windows
+    - text: Сброс устройств Windows в заводские параметры
       url: ../../business/reset-devices-to-factory-settings.md
-- title: Управление устройствами и данными приложений с помощью Microsoft 365 для предприятий
+- title: Управление устройствами и данными приложений с помощью Microsoft 365 для предприятия
   linkLists:
   - linkListType: overview
     links:
-    - text: Обзор Microsoft 365 для предприятий
+    - text: Обзор Microsoft 365 для предприятия
       url: ../../enterprise/microsoft-365-overview.md
-    - text: План управления устройствами для Microsoft 365 для предприятий
+    - text: Дорожная карта управления устройствами для Microsoft 365 для предприятия
       url: ../../enterprise/device-management-roadmap-microsoft-365.md
-- title: Управление устройствами и данными приложений с помощью базовой мобильности и безопасности
+- title: Управление данными о устройствах и приложениях с помощью базовой мобильности и безопасности
   linkLists:
   - linkListType: overview
     links:

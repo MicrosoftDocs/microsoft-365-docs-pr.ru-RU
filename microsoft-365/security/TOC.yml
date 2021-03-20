@@ -11,8 +11,9 @@
         - name: Рекомендации по безопасности приоритетных учетных записей
           href: ./office-365-security/security-recommendations-for-priority-accounts.md
     - name: Конфигурации доступа для удостоверений и устройств
-      href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
+        - name: Обзор
+          href: ./office-365-security/microsoft-365-policies-configurations.md
         - name: Необходимая работа
           href: ./office-365-security/identity-access-prerequisites.md
         - name: Основные политики доступа для удостоверений и устройств
@@ -360,6 +361,8 @@
               href: ./mtp/overview-security-center.md
             - name: Обозреватель угроз (и обнаружение в режиме реального времени)
               href: ./office-365-security/threat-explorer.md
+            - name: Страница сущности "Электронная почта"
+              href: ./office-365-security/mdo-email-entity-page.md
             - name: Обзор автоматического исследования и реагирования
               href: ./office-365-security/office-365-air.md
             - name: Как работает автоматическое исследование и реагирование
@@ -702,8 +705,8 @@
                 - name: Управление ролевыми группами в автономной службе EOP
                   href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
     - name: Microsoft 365 для предприятий
-      href: 'https://docs.microsoft.com/microsoft-365/enterprise'
+      href: ../enterprise/index.yml
     - name: Microsoft 365 для бизнеса
-      href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
+      href: ./index.yml
     - name: Соответствие требованиям Microsoft 365
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+      href: ../compliance/index.yml
