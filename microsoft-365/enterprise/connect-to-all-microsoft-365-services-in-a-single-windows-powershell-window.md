@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: Сводка. Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell.
-ms.openlocfilehash: cd030018dabff628af18d173cf542a3d375b27d0
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 18ff8e1789242b4dde3b4b31aaccf2462e4c5d74
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515116"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905132"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell
 
@@ -38,7 +38,7 @@ ms.locfileid: "50515116"
 
 Существует ряд необходимых условий, которые нужно выполнить, прежде чем приступать к управлению всеми службами Microsoft 365 с помощью единого экземпляра PowerShell:
   
-- Рабочая или учебная учетная запись Microsoft 365, которую вы используете, должна относится к роли администратора Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles). Это требуется для PowerShell для Microsoft 365, но не обязательно для других служб Microsoft 365.
+- Рабочая или учебная учетная запись Microsoft 365, которую вы используете, должна относится к роли администратора Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md). Это требуется для PowerShell для Microsoft 365, но не обязательно для других служб Microsoft 365.
     
 - Ниже приведены 64-разрядные версии Windows, которые можно использовать.
     
@@ -56,7 +56,7 @@ ms.locfileid: "50515116"
     
   - Windows Server 2008 R2 с пакетом обновления 1 (SP1)*
     
-    \* Необходимо установить Microsoft .NET Framework 4.5.*x*, а затем — Windows Management Framework 3.0 или 4.0. Дополнительные сведения см. в статье [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview).
+    \* Необходимо установить Microsoft .NET Framework 4.5.*x*, а затем — Windows Management Framework 3.0 или 4.0. Дополнительные сведения см. в статье [Windows Management Framework](/powershell/scripting/windows-powershell/wmf/overview).
     
     Необходимо использовать именно 64-разрядную версию Windows, поскольку это обязательное требование для модуля Skype для бизнеса Online и одного из модулей Microsoft 365.
     
@@ -64,9 +64,9 @@ ms.locfileid: "50515116"
     
   - [Azure Active Directory V2](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   - [Командная консоль SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=255251)
-  - [Skype для бизнеса Online, модуль PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
-  - [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
-  - [Обзор PowerShell в Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
+  - [Skype для бизнеса Online, модуль PowerShell](/microsoftteams/teams-powershell-overview)
+  - [Exchange Online PowerShell V2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
+  - [Обзор PowerShell в Teams](/microsoftteams/teams-powershell-overview)
     
 -  Требуется настроить PowerShell для выполнения подписанных сценариев Skype для бизнеса Online и Центра безопасности &amp; соответствия требованиям. Выполните следующую команду в сеансе PowerShell с повышенными привилегиями (сеанс PowerShell, **запускаемый от имени администратора**).
     
@@ -128,7 +128,7 @@ ms.locfileid: "50515116"
    ```
 
    > [!Note]
-   > Чтобы подключиться к Exchange Online для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+   > Чтобы подключиться к Exchange Online для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 7. Выполните следующие команды для подключения к Центру безопасности &amp; соответствия требованиям.
     
@@ -138,7 +138,7 @@ ms.locfileid: "50515116"
    ```
 
    > [!Note]
-   > Чтобы подключиться к Центру безопасности&amp; соответствия требованиям для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+   > Чтобы подключиться к Центру безопасности&amp; соответствия требованиям для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Центру безопасности и соответствия требованиям PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 8. Выполните следующие команды для подключения к Teams PowerShell.
     
@@ -149,7 +149,7 @@ ms.locfileid: "50515116"
    ```
   
    > [!Note]
-   > Чтобы подключиться к облакам Microsoft Teams, отличным от *всемирного* облака, см. раздел [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams).
+   > Чтобы подключиться к облакам Microsoft Teams, отличным от *всемирного* облака, см. раздел [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams).
   
 
 

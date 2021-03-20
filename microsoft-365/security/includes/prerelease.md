@@ -8,10 +8,10 @@ f1.keywords:
 ms.author: macapara
 ms.openlocfilehash: d0131a83b224ff6e26d476c0dcf3df49e5ba4bc7
 ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/29/2020
 ms.locfileid: "41600015"
 ---
 >[!IMPORTANT]
->Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.

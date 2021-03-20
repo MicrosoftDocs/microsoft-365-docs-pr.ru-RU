@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Microsoft 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: a71ced2dd0aa71179c1b26cec571f3025af1ce05
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: 9b58c6fa51fbca5d78680b4b13cbbc2129d9c393
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50603856"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903728"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Отчеты по Microsoft 365 в Центре администрирования
 
@@ -136,13 +136,13 @@ ms.locfileid: "50603856"
 
 - [Действия в SharePoint для государственных учреждений США](sharepoint-activity.md)
   
-- [Действия в Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
+- [Действия в Skype для бизнеса Online](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
   
-- [Действия организатора конференции Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)
+- [Действия организатора конференции Skype для бизнеса Online](/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)
   
-- [Действия участника конференции Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)
+- [Действия участника конференции Skype для бизнеса Online](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)
   
-- [Одноранговые сеансы в Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)
+- [Одноранговые сеансы в Skype для бизнеса Online](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)
   
 ::: moniker range="o365-worldwide"
 
@@ -242,5 +242,4 @@ ms.locfileid: "50603856"
   
 ## <a name="related-articles"></a>Статьи по теме
 
-[Отчеты в центре безопасности и соответствия требованиям &amp;](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
-  
+[Отчеты в центре безопасности и соответствия требованиям &amp;](../../compliance/reports-in-security-and-compliance.md)

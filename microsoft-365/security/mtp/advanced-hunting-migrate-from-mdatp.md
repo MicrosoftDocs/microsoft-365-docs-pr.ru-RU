@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 4d29f4f3df3d65ad72a19f059763523d7f7cba31
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 5f356c5861586d4435a619a056a6fa1a0afc53f0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597002"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904142"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Перенос расширенных запросов на охоту из Microsoft Defender для конечной точки
 
@@ -73,7 +73,7 @@ ms.locfileid: "50597002"
 Используйте следующую таблицу, чтобы проверить, как столбцы сое всего мира сое and `DeviceAlertEvents` `AlertInfo` `AlertEvidence` tables.
 
 >[!TIP]
->Помимо столбцов в следующей таблице в таблице содержится множество других столбцов, которые предоставляют более целостную картину оповещений из `AlertEvidence` различных источников. [См. все столбцы AlertEvidence](advanced-hunting-alertevidence-table.md) 
+>Помимо столбцов в следующей таблице, в таблице содержится множество других столбцов, которые предоставляют более целостную картину оповещений из `AlertEvidence` различных источников. [См. все столбцы AlertEvidence](advanced-hunting-alertevidence-table.md) 
 
 | Колонка DeviceAlertEvents | Где найти те же данные в Microsoft 365 Defender |
 |-------------|-----------|-------------|-------------|
@@ -182,4 +182,4 @@ AlertInfo
 - [Включив защитник Microsoft 365](advanced-hunting-query-language.md)
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Расширенный поиск в Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+- [Расширенный поиск в Microsoft Defender для конечной точки](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)

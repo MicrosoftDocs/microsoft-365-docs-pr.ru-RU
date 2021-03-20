@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Создание модели обработки форм в Microsoft SharePoint Syntex.
-ms.openlocfilehash: c025317a5eb88199b849f90b51fac9779e1c97a2
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: d71273e416bf7922627e44d9423eaa8903411689
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976013"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905850"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Создание модели обработки форм в Microsoft SharePoint Syntex
 
@@ -27,7 +27,7 @@ ms.locfileid: "49976013"
 
 </br>
 
-Использование [AI Builder](https://docs.microsoft.com/ai-builder/overview) — функция в Microsoft PowerApps — пользователи SharePoint Syntex могут создавать [модель обработки форм](form-processing-overview.md) непосредственно из библиотеки документов SharePoint. 
+Использование [AI Builder](/ai-builder/overview) — функция в Microsoft PowerApps — пользователи SharePoint Syntex могут создавать [модель обработки форм](form-processing-overview.md) непосредственно из библиотеки документов SharePoint. 
 
 Создание модели обработки форм состоит из следующих действий:
  - Шаг 1. Создание модели обработки для создания типа контента
@@ -68,7 +68,7 @@ ms.locfileid: "49976013"
 После создания новой модели обработки форм браузер открывает новую страницу модели обработки форм PowerApps AI Builder. На этой странице вы можете добавить и проанализировать примеры документов. </br>
 
 > [!NOTE]
-> При поиске примеров файлов для использования см. раздел [Требования к входному документу модели обработки формы и советы по оптимизации](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
+> При поиске примеров файлов для использования см. раздел [Требования к входному документу модели обработки формы и советы по оптимизации](/ai-builder/form-processing-model-requirements). 
 
    ![Power Apps AI Builder](../media/content-understanding/powerapps.png)</br> 
  
@@ -148,6 +148,6 @@ ms.locfileid: "49976013"
 
 ## <a name="see-also"></a>См. также
   
-[Документация Power Automate](https://docs.microsoft.com/power-automate/)
+[Документация Power Automate](/power-automate/)
 
-[Учебный курс. Повышение продуктивности бизнеса с помощью AI Builder](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
+[Учебный курс. Повышение продуктивности бизнеса с помощью AI Builder](/learn/paths/improve-business-performance-ai-builder/?source=learn)

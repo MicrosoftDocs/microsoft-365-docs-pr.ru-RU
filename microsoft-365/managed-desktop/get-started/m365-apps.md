@@ -10,14 +10,14 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 26e62d6e59f1f90e35d9e18e6eed917a66876645
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: f8dd666c41863192d866693c6860a64064f846e6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453925"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904856"
 ---
-# <a name="microsoft-365-apps-for-enterprise"></a>Приложения Microsoft 365 для предприятий
+# <a name="microsoft-365-apps-for-enterprise"></a>Приложения Microsoft 365 для предприятий
 
 ## <a name="initial-deployment"></a>Начальное развертывание
 
@@ -47,7 +47,7 @@ Microsoft Managed Desktop не поддерживает развертывани
 
 ## <a name="updates-to-microsoft-365-apps"></a>Обновления приложений Microsoft 365
 
-Приложения Microsoft 365 будут обновляться на ежемесячном [корпоративном канале.](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) Эта практика предоставляет пользователям новые функции Office каждый месяц, но в предсказуемом расписании выпуска они будут получать только одно обновление в месяц. Обновления выпускаются во второй вторник месяца; эти обновления могут включать обновления функций, безопасности и качества. Эти обновления происходят автоматически и извлекаются непосредственно из CDN Office для этого конкретного канала.
+Приложения Microsoft 365 будут обновляться на ежемесячном [корпоративном канале.](/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) Эта практика предоставляет пользователям новые функции Office каждый месяц, но в предсказуемом расписании выпуска они будут получать только одно обновление в месяц. Обновления выпускаются во второй вторник месяца; эти обновления могут включать обновления функций, безопасности и качества. Эти обновления происходят автоматически и извлекаются непосредственно из CDN Office для этого конкретного канала.
 
 Microsoft Managed Desktop задавляет каждый выпуск, чтобы определить возможные проблемы в вашей среде. Мы завершаем выпуск через 28 дней после выпуска из группы продуктов Microsoft 365 App. Microsoft Managed Desktop запланирует выпуски обновлений для различных групп, чтобы дать время для проверки и тестирования следующим образом: 
 
@@ -56,7 +56,7 @@ Microsoft Managed Desktop задавляет каждый выпуск, чтоб
 - Быстрый: 3 дня
 - Broad: 7 дней
 
-Microsoft Managed Desktop задает семидневный срок [обновления](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) для устройств. После того как обновление доступно, оно должно быть установлено в течение семи дней. Пользователи получают [уведомления](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) о том, что обновления требуются в нескольких расположениях: приложении в подносе системы за 12 часов до крайнего срока, и они получают предупреждение за 15 минут до крайнего срока. Все приложения Microsoft 365 должны быть закрыты для завершения обновления.
+Microsoft Managed Desktop задает семидневный срок [обновления](/deployoffice/configure-update-settings-microsoft-365-apps) для устройств. После того как обновление доступно, оно должно быть установлено в течение семи дней. Пользователи получают [уведомления](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) о том, что обновления требуются в нескольких расположениях: приложении в подносе системы за 12 часов до крайнего срока, и они получают предупреждение за 15 минут до крайнего срока. Все приложения Microsoft 365 должны быть закрыты для завершения обновления.
 
 ### <a name="pausing-or-rolling-back-an-update"></a>Прио пауза или откат обновления
 
@@ -68,7 +68,7 @@ Microsoft Managed Desktop задает семидневный срок [обно
 
 Оптимизация доставки — это одноранговая технология распространения, доступная в Windows 10. Это позволяет устройствам обмениваться контентом, например обновлениями, которые устройства скачали из Microsoft через Интернет. С его помощью можно уменьшить пропускную способность сети, так как устройство может получать части обновления с другого устройства в локальной сети вместо того, чтобы полностью скачать обновление из Microsoft.
 
-[Оптимизация доставки](https://docs.microsoft.com/deployoffice/delivery-optimization) включена по умолчанию на устройствах, работающих в выпусках Windows 10 Enterprise или Windows 10 Education. 
+[Оптимизация доставки](/deployoffice/delivery-optimization) включена по умолчанию на устройствах, работающих в выпусках Windows 10 Enterprise или Windows 10 Education. 
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Параметры, управляемые Microsoft Managed Desktop
 
@@ -76,7 +76,7 @@ Microsoft Managed Desktop задает семидневный срок [обно
 
 ### <a name="update-settings"></a>Обновление параметров
 
-Microsoft Managed Desktop поддерживает все [параметры обновления](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) для управляемых устройств, и эти параметры следует изменить.
+Microsoft Managed Desktop поддерживает все [параметры обновления](/deployoffice/configure-update-settings-microsoft-365-apps) для управляемых устройств, и эти параметры следует изменить.
 
 ### <a name="set-updates-to-occur-automatically"></a>Настроить автоматические обновления
 
@@ -88,7 +88,7 @@ Microsoft Managed Desktop поддерживает все [параметры о
 
 **Значение по умолчанию:** 7 дней
 
-Политика **UpdateDeadline** используется для настройки льготного периода, который пользователи имеют до принудительного обновления на устройстве. Эта политика крайних сроков также вызывает [уведомления](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) для пользователя, чтобы сообщить им об изменениях, необходимых на их устройстве.  
+Политика **UpdateDeadline** используется для настройки льготного периода, который пользователи имеют до принудительного обновления на устройстве. Эта политика крайних сроков также вызывает [уведомления](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) для пользователя, чтобы сообщить им об изменениях, необходимых на их устройстве.  
 
 ### <a name="defer-updates-on-a-device-for-a-period"></a>Отсрочка обновлений на устройстве на период
 
@@ -103,7 +103,7 @@ Microsoft Managed Desktop поддерживает все [параметры о
 
 **Значение по умолчанию:** False
 
-Параметр "Скрыть уведомления об обновлении" задается **параметру False** на управляемых [](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) настольных устройствах Microsoft, чтобы предоставить пользователям наилучшие сведения об обновлении, уведомив их о необходимости обновления.
+Параметр "Скрыть уведомления об обновлении" задается **параметру False** на управляемых [](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) настольных устройствах Microsoft, чтобы предоставить пользователям наилучшие сведения об обновлении, уведомив их о необходимости обновления.
 
 ### <a name="specify-a-location-to-look-for-updates"></a>Указать расположение для поиска обновлений
 
@@ -150,7 +150,7 @@ Microsoft Managed Desktop поддерживает все [параметры о
 
 ## <a name="settings-you-manage"></a>Параметры, которые вы управляете
 
-Существует множество других политик, которые Microsoft Managed Desktop еще не за набором в составе нашей службы. Эти политики можно настроить с помощью Microsoft Intune, которая использует [службу облачной политики Office.](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) Чтобы установить эти политики, выполните следующие действия:
+Существует множество других политик, которые Microsoft Managed Desktop еще не за набором в составе нашей службы. Эти политики можно настроить с помощью Microsoft Intune, которая использует [службу облачной политики Office.](/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) Чтобы установить эти политики, выполните следующие действия:
 
 1.  Во входе в центр администрирования Microsoft Endpoint Manager.
 2.  Выбор **политик > приложений Office > Create**

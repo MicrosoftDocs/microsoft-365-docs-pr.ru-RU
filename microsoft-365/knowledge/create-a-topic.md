@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: c3ba9ce6675e81a99309243db251b34a21a4b43f
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: d6e953c86939d732632e87573fc2aa5392f09aa2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454163"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904940"
 ---
 # <a name="create-a-new-topic"></a>Создание темы 
 
@@ -33,7 +33,7 @@ ms.locfileid: "50454163"
 
 Чтобы создать новую тему, необходимо:
 - Лицензия Viva Topics.
-- Есть разрешения для [**тех, кто может создавать или изменять темы.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Администраторы знаний могут предоставить пользователям это разрешение в настройках разрешений темы Viva Topics. 
+- Есть разрешения для [**тех, кто может создавать или изменять темы.**](./topic-experiences-user-permissions.md) Администраторы знаний могут предоставить пользователям это разрешение в настройках разрешений темы Viva Topics. 
 
 > [!Note] 
 > Пользователи, у которых есть разрешение на управление темами в центре тем (менеджеры знаний), уже имеют разрешения на создание и редактирование тем.
@@ -93,7 +93,7 @@ ms.locfileid: "50454163"
 
 7. В <b>разделе Связанные темы</b> показаны подключения, которые существуют между темами. Вы можете добавить подключение к другой теме, выбрав кнопку <b>Подключение</b> к связанной теме, а затем введя имя связанной темы и выбрав ее из результатов поиска. 
 
-   ![Связанные статьи](../media/knowledge-management/related-topic.png)</br>  
+   ![Родственные темы](../media/knowledge-management/related-topic.png)</br>  
 
     Затем можно дать описание того, как связаны темы, и выбрать <b>обновление.</b></br>
 
@@ -126,13 +126,6 @@ ms.locfileid: "50454163"
 
 
 ## <a name="see-also"></a>См. также
-
-
-
-  
-
-
-
 
 
 

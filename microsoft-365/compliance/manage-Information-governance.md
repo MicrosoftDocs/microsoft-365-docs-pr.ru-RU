@@ -14,16 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Реализуйте возможности управления информацией (Майкрософт) для управления своими данными с целью соответствия требованиям или выполнения нормативных обязательств.
-ms.openlocfilehash: 6b06de54f18ce4081c3b13d108a5c0ceae6d24a7
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 8a104775cd9bfc75af5b5af9840274f5f84509f0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087118"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903495"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Управление информацией (Майкрософт) в Microsoft 365
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Используйте возможности управления информацией (Майкрософт) (сокращенное название — MIG) для управления своими данными с целью соответствия требованиям или выполнения нормативных обязательств.
 
@@ -49,4 +49,3 @@ ms.locfileid: "49087118"
 |Возможность|Устраняемая проблема|Начало работы|
 |:------|:------------|---------------------|:----------------------------|
 |[Управление записями](records-management.md)| Единое решение для работы с электронной почтой и документами, внедряющее расписания хранения и требования в план хранения, который поддерживает полный жизненный цикл вашего содержимого с использованием объявления, хранения и ликвидации записей <br /><br />Пример сценария: [ликвидация записей](disposition.md#disposition-of-records)|[Начало работы с управлением записями](get-started-with-records-management.md) |
-

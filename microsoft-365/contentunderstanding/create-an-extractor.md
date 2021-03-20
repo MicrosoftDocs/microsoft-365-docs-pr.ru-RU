@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте, как создать средство извлечения в Microsoft SharePoint Syntex.
-ms.openlocfilehash: b0b03d0e8804097f34f9cd5b17504263097d8696
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 8218d04d2f5cb4e8f8f67bdcd744b7f1a4a4d18a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242504"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905816"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Создание средства извлечения в Microsoft SharePoint Syntex
 
@@ -86,12 +86,12 @@ ms.locfileid: "50242504"
 4. Нажмите **Сохранить**.
 
 > [!NOTE]
-> Дополнительные сведения о типах объяснения см. в разделе [Типы объяснений](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview).  
+> Дополнительные сведения о типах объяснения см. в разделе [Типы объяснений](./explanation-types-overview.md).  
 
 
 ### <a name="use-the-explanation-library"></a>Использование библиотеки объяснений
 
-Для создания объяснений для таких элементов, как даты, проще [использовать библиотеку объяснений](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-the-explanation-library), чем вручную вводить все варианты. Библиотека объяснений представляет собой набор предварительно созданных объяснений фраз и шаблонов. Библиотека пытается предоставить все форматы для общих списков фраз или шаблонов, таких как даты, номера телефонов, почтовые индексы и многие другие. 
+Для создания объяснений для таких элементов, как даты, проще [использовать библиотеку объяснений](./explanation-types-overview.md#use-the-explanation-library), чем вручную вводить все варианты. Библиотека объяснений представляет собой набор предварительно созданных объяснений фраз и шаблонов. Библиотека пытается предоставить все форматы для общих списков фраз или шаблонов, таких как даты, номера телефонов, почтовые индексы и многие другие. 
 
 Для примера *Дата начала службы* более эффективно использовать предварительно созданное объяснение для *даты* в библиотеке объяснений:
 

@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Вам нужно решение для управления записями для Microsoft 365, с помощью которого можно организовать работу с контентом высокой важности при исполнении юридических, деловых или нормативных обязательств, но не знаете, с чего начать? Перед началом работы ознакомьтесь с некоторыми практическими рекомендациями.
-ms.openlocfilehash: 0dc0258ed53aa07df778f5d0883b02b7635f50d8
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: a757cabf13e85731bd16ccd84f1eea3dbe7e432a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682726"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906011"
 ---
 # <a name="get-started-with-records-management"></a>Начало работы с управлением записями
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Готовы приступить к управлению контентом высокой важности, используемым при исполнении юридических, деловых или нормативных обязательств вашей организации, с помощью решения для управления записями в Microsoft 365? Чтобы приступить к работе, используйте приведенные ниже общие рекомендации.
 
@@ -45,7 +45,7 @@ ms.locfileid: "49682726"
 
 Управление записями и требования к лицензированию для пользователей поддерживаются в нескольких различных подписках и зависят от используемых функций.
 
-Чтобы узнать о вариантах лицензирования пользователей, которые позволят получить максимальную пользу от функций соответствия требованиям Microsoft 365, см. [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD). Информация об управлении записями приведена в разделе [Управление записями](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management), а также в соответствующей загрузке PDF или Excel с указанием требований к лицензированию на уровне компонентов.
+Чтобы узнать о вариантах лицензирования пользователей, которые позволят получить максимальную пользу от функций соответствия требованиям Microsoft 365, см. [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance). Информация об управлении записями приведена в разделе [Управление записями](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management), а также в соответствующей загрузке PDF или Excel с указанием требований к лицензированию на уровне компонентов.
 
 ## <a name="permissions-required-for-records-management"></a>Разрешения, необходимые для управления записями.
 
@@ -53,9 +53,9 @@ ms.locfileid: "49682726"
 
 Для роли с правами только на чтение вы можете создать новую группу ролей и добавить в нее роль **Управление записями с правами только на просмотр**. 
 
-Дополнительные сведения об этих группах ролей и ролях см. в статье [Разрешения в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center).
+Дополнительные сведения об этих группах ролей и ролях см. в статье [Разрешения в Центре безопасности и соответствия требованиям](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
 
-Инструкции по добавлению пользователей в группы ролей и по назначению ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Инструкции по добавлению пользователей в группы ролей и по назначению ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Эти разрешения необходимы только для создания, настройки и применения меток хранения, которые объявляют элементы записями, а также для управления ликвидацией. Пользователю, настраивающему эти метки, не требуется доступ к контенту.
 

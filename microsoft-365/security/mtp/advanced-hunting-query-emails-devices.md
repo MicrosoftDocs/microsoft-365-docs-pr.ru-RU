@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a12b2dcf2de472f43e782e2064944ec774bdb9e1
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 1149d8fa614854bdbbd2c154f0e92f6a9c28ce00
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727263"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904071"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Поиск угроз на устройствах, электронной почте, приложениях и удостоверениях
 
@@ -50,7 +50,7 @@ ms.locfileid: "50727263"
 ### <a name="obtain-user-accounts-from-email-addresses"></a>Получение учетных записей пользователей из адресов электронной почты
 При формировании запросов по [таблицам, относящимся к устройствам и сообщениям электронной почты](advanced-hunting-schema-tables.md) может возникать необходимость получить названия учетных записей пользователей из электронных адресов отправителя или получателя. Обычно это можно сделать для адреса получателя или отправщика с помощью *локального* хоста с адреса электронной почты.
 
-В приведенной ниже фрагменте мы используем функцию [tostring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) Kusto для извлечения локального хоста прямо перед адресами электронной почты получателей в `@` столбце `RecipientEmailAddress` .
+В приведенной ниже фрагменте мы используем функцию [tostring()](/azure/data-explorer/kusto/query/tostringfunction) Kusto для извлечения локального хоста прямо перед адресами электронной почты получателей в `@` столбце `RecipientEmailAddress` .
 
 ```kusto
 //Query snippet showing how to extract the account name from an email address
@@ -86,7 +86,7 @@ Department, City, Country
 [Передовая схема охоты содержит](advanced-hunting-schema-tables.md) обширные сведения о устройстве в различных таблицах. Например, [таблица DeviceInfo предоставляет](advanced-hunting-deviceinfo-table.md) всестороннюю информацию об устройстве на основе регулярно агрегированных данных событий. В этом запросе используется таблица, чтобы проверить, вошел ли потенциально скомпрометированный пользователь на любые устройства, а затем перечислить оповещения, срабатывав на `DeviceInfo` `<account-name>` этих устройствах.
 
 >[!Tip]
-> Этот запрос использует для указания внутреннего присоединяния, которое предотвращает `kind=inner` [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)декупликацию значений левой стороны `DeviceId` для .
+> Этот запрос использует для указания внутреннего присоединяния, которое предотвращает `kind=inner` [](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)декупликацию значений левой стороны `DeviceId` для .
 
 ```kusto
 DeviceInfo
@@ -198,7 +198,7 @@ DeviceProcessEvents
 | where (TimeProc - TimeEmail) between (0min.. 30min)
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Родственные темы
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Используйте действие аудита почтового ящика MailItemsAccessed для проведения экспертного исследования скомпрометированных учетных записей пользователей.
-ms.openlocfilehash: 15379a5c24ee222cf097e94d46dc46de0e385820
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: e9dda101b330f6632e66c226156df3497ac38453
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868007"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903485"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Исследование скомпрометированных учетных записей с помощью расширенного аудита
 
@@ -31,7 +31,7 @@ ms.locfileid: "49868007"
 
 ## <a name="the-mailitemsaccessed-mailbox-auditing-action"></a>Действие аудита почтового ящика MailItemsAccessed
 
-Новое действие MailItemsAccessed является частью новой функции [расширенного аудита](advanced-audit.md). Оно входит в [аудит почтовых ящиков Exchange](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions) и включается по умолчанию для пользователей, которым назначена лицензия Office 365 или Microsoft 365 E5, или для организаций с подпиской на надстройку "Соответствие требованиям Microsoft 365 E5".
+Новое действие MailItemsAccessed является частью новой функции [расширенного аудита](advanced-audit.md). Оно входит в [аудит почтовых ящиков Exchange](/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions) и включается по умолчанию для пользователей, которым назначена лицензия Office 365 или Microsoft 365 E5, или для организаций с подпиской на надстройку "Соответствие требованиям Microsoft 365 E5".
 
 Действие аудита почтового ящика MailItemsAccessed применимо ко всем почтовым протоколам: POP, IMAP, MAPI, EWS, Exchange ActiveSync и REST. Его используют при обоих типах доступа к почте: *для синхронизации* и *для привязки*.
 
@@ -67,7 +67,7 @@ ms.locfileid: "49868007"
 
 В процессе аудита почтовых ящиков создаются записи аудита для доступа к сообщениям электронной почты, чтобы можно было убедиться, что эти сообщения не скомпрометированы. В то же время, если мы не уверены в том, что к некоторым данным осуществлялся доступ, предполагается, что он осуществлялся, и записываются все действия доступа к почте.
 
-Записи аудита о MailItemsAccessed обычно используются в целях судебной экспертизы после устранения нарушения безопасности данных и исключения злоумышленника. Чтобы начать исследование, нужно определить, какие почтовые ящики были скомпрометированы и в течение какого времени у злоумышленника был доступ к почтовым ящикам в организации. Затем можно использовать командлет **Search-UnifiedAuditLog** или **Search-MailboxAuditLog** в [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) для поиска записей аудита, связанных с нарушением безопасности данных. 
+Записи аудита о MailItemsAccessed обычно используются в целях судебной экспертизы после устранения нарушения безопасности данных и исключения злоумышленника. Чтобы начать исследование, нужно определить, какие почтовые ящики были скомпрометированы и в течение какого времени у злоумышленника был доступ к почтовым ящикам в организации. Затем можно использовать командлет **Search-UnifiedAuditLog** или **Search-MailboxAuditLog** в [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) для поиска записей аудита, связанных с нарушением безопасности данных. 
 
 Для поиска записей аудита о MailItemsAccessed можно выполнить одну из следующих команд:
 
@@ -192,4 +192,4 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
 
 ```powershell
 Search-MailboxAuditLog -Identity admin -ShowDetails -Operations MailItemsAccessed -ResultSize 2000 | Select LastAccessed,Operation,AuditOperationsCountInAggregatedRecord,ClientInfoString
-``` 
+```

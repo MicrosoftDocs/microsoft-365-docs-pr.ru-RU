@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут научиться просматривать, создавать, изменять и удалять исходящие политики нежелательной почты в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 748b274903590c5e28f34ce2fb4e65292d382cd2
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: aec3149a4a91e011c6d6d206d9fc10f36a3d6588
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717628"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903908"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Настройка фильтрации исходящие нежелательной почты в EOP
 
@@ -70,18 +70,18 @@ EOP использует исходящие политики нежелател�
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы сразу перейти к странице **Параметры защиты от нежелательной почты**, используйте ссылку <https://protection.office.com/antispam>.
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
   - Чтобы добавить, изменить и удалить исходящие политики нежелательной почты, необходимо быть членом группы ролей **администратора** организации или **администратора** безопасности.
   - Для доступа только для чтения к исходящие политики нежелательной почты необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
 
-  Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   **Примечания**.
 
   - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
-  - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
+  - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 - Рекомендуемые параметры для политик исходящие нежелательной почты см. в подборке параметров политики фильтрации исходящие нежелательной [почты EOP.](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings)
 
@@ -141,7 +141,7 @@ EOP использует исходящие политики нежелател�
 
    - **Максимальное число получателей на одного пользователя**
 
-     Допустимо значение от 0 до 10000. Значение по умолчанию — 0, что означает, что используются по умолчанию службы. Дополнительные сведения см. в [рублях Отправка ограничений.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
+     Допустимо значение от 0 до 10000. Значение по умолчанию — 0, что означает, что используются по умолчанию службы. Дополнительные сведения см. в [рублях Отправка ограничений.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
 
      - **Внешние почасовые** ограничения: максимальное число внешних получателей в час.
 
@@ -171,7 +171,7 @@ EOP использует исходящие политики нежелател�
    >
    > - Эти параметры применяются только к облачным почтовым ящикам.
    >
-   > - При отключении автоматической пересылки получатель получает отчет о невывозе (также известном как сообщение NDR или отказов), если внешние отправители отправляют сообщение электронной почты в почтовый ящик, который имеет отправление на месте. Если сообщение отправляет внутренний отправитель, а методом пересылания является пересылание почтовых ящиков [(также](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) известное как отправка _SMTP),_ внутренний отправитель получит NDR.  Внутренний отправитель не получит NDR, если отправка произошла из-за правила входящих сообщений.
+   > - При отключении автоматической пересылки получатель получает отчет о невывозе (также известном как сообщение NDR или отказов), если внешние отправители отправляют сообщение электронной почты в почтовый ящик, который имеет отправление на месте. Если сообщение отправляет внутренний отправитель, а методом пересылания является пересылание почтовых ящиков [(также](/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) известное как отправка _SMTP),_ внутренний отправитель получит NDR.  Внутренний отправитель не получит NDR, если отправка произошла из-за правила входящих сообщений.
 
    Ниже представлены возможные значения.
 
@@ -309,7 +309,7 @@ New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Com
 
 В этом примере создается новая политика фильтра от нежелательной почты с именем Contoso Executives со следующими настройками:
 
-- Ограничения скорости получателей ограничены небольшими значениями, которые по умолчанию. Дополнительные сведения см. в [рублях Отправка ограничений по всем вариантам Microsoft 365.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
+- Ограничения скорости получателей ограничены небольшими значениями, которые по умолчанию. Дополнительные сведения см. в [рублях Отправка ограничений по всем вариантам Microsoft 365.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
 
 - После того, как один из ограничений будет достигнут, пользователю не будет отправляем сообщения.
 
@@ -317,7 +317,7 @@ New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Com
 New-HostedOutboundSpamFilterPolicy -Name "Contoso Executives" -RecipientLimitExternalPerHour 400 -RecipientLimitInternalPerHour 800 -RecipientLimitPerDay 800 -ActionWhenThresholdReached BlockUser
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [обзоре New-HostedOutboundSpamFilterPolicy.](https://docs.microsoft.com/powershell/module/exchange/new-hostedoutboundspamfilterpolicy)
+Подробные сведения о синтаксисах и параметрах см. в [обзоре New-HostedOutboundSpamFilterPolicy.](/powershell/module/exchange/new-hostedoutboundspamfilterpolicy)
 
 #### <a name="step-2-use-powershell-to-create-an-outbound-spam-filter-rule"></a>Шаг 2. Использование PowerShell для создания правила исходящие фильтры нежелательной почты
 
@@ -336,7 +336,7 @@ New-HostedOutboundSpamFilterRule -Name "<RuleName>" -HostedOutboundSpamFilterPol
 New-HostedOutboundSpamFilterRule -Name "Contoso Executives" -HostedOutboundSpamFilterPolicy "Contoso Executives" -FromMemberOf "Contoso Executives Group"
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [обзоре New-HostedOutboundSpamFilterRule.](https://docs.microsoft.com/powershell/module/exchange/new-hostedoutboundspamfilterrule)
+Подробные сведения о синтаксисах и параметрах см. в [обзоре New-HostedOutboundSpamFilterRule.](/powershell/module/exchange/new-hostedoutboundspamfilterrule)
 
 ### <a name="use-powershell-to-view-outbound-spam-filter-policies"></a>Использование PowerShell для просмотра исходящие политики фильтра нежелательной почты
 
@@ -358,7 +358,7 @@ Get-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" | Format-List [<Spec
 Get-HostedOutboundSpamFilterPolicy -Identity "Executives" | Format-List
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [ссылке Get-HostedOutboundSpamFilterPolicy.](https://docs.microsoft.com/powershell/module/exchange/get-hostedoutboundspamfilterpolicy)
+Подробные сведения о синтаксисах и параметрах см. в [ссылке Get-HostedOutboundSpamFilterPolicy.](/powershell/module/exchange/get-hostedoutboundspamfilterpolicy)
 
 ### <a name="use-powershell-to-view-outbound-spam-filter-rules"></a>Использование PowerShell для просмотра правил исходящие фильтры нежелательной почты
 
@@ -396,7 +396,7 @@ Get-HostedOutboundSpamFilterRule -Identity "<RuleName>" | Format-List [<Specific
 Get-HostedOutboundSpamFilterRule -Identity "Contoso Executives" | Format-List
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [ссылке Get-HostedOutboundSpamFilterRule.](https://docs.microsoft.com/powershell/module/exchange/get-hostedoutboundspamfilterrule)
+Подробные сведения о синтаксисах и параметрах см. в [ссылке Get-HostedOutboundSpamFilterRule.](/powershell/module/exchange/get-hostedoutboundspamfilterrule)
 
 ### <a name="use-powershell-to-modify-outbound-spam-filter-policies"></a>Использование PowerShell для изменения политик исходящие фильтры нежелательной почты
 
@@ -411,7 +411,7 @@ Get-HostedOutboundSpamFilterRule -Identity "Contoso Executives" | Format-List
 Set-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [ссылке Set-HostedOutboundSpamFilterPolicy.](https://docs.microsoft.com/powershell/module/exchange/set-hostedoutboundspamfilterpolicy)
+Подробные сведения о синтаксисах и параметрах см. в [ссылке Set-HostedOutboundSpamFilterPolicy.](/powershell/module/exchange/set-hostedoutboundspamfilterpolicy)
 
 ### <a name="use-powershell-to-modify-outbound-spam-filter-rules"></a>Использование PowerShell для изменения правил фильтрации исходящие нежелательной почты
 
@@ -425,7 +425,7 @@ Set-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" <Settings>
 Set-HostedOutboundSpamFilterRule -Identity "<RuleName>" <Settings>
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [ссылке Set-HostedOutboundSpamFilterRule.](https://docs.microsoft.com/powershell/module/exchange/set-hostedoutboundspamfilterrule)
+Подробные сведения о синтаксисах и параметрах см. в [ссылке Set-HostedOutboundSpamFilterRule.](/powershell/module/exchange/set-hostedoutboundspamfilterrule)
 
 ### <a name="use-powershell-to-enable-or-disable-outbound-spam-filter-rules"></a>Использование PowerShell, чтобы включить или отключить правила фильтрации исходящие спама
 
@@ -449,7 +449,7 @@ Disable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 Enable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в сведениях [Enable-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/enable-hostedoutboundspamfilterrule) и [Disable-HostedOutboundSpamFilterRule.](https://docs.microsoft.com/powershell/module/exchange/disable-hostedoutboundspamfilterrule)
+Подробные сведения о синтаксисах и параметрах см. в сведениях [Enable-HostedOutboundSpamFilterRule](/powershell/module/exchange/enable-hostedoutboundspamfilterrule) и [Disable-HostedOutboundSpamFilterRule.](/powershell/module/exchange/disable-hostedoutboundspamfilterrule)
 
 ### <a name="use-powershell-to-set-the-priority-of-outbound-spam-filter-rules"></a>Использование PowerShell для набора приоритета правил исходящие фильтры нежелательной почты
 
@@ -489,7 +489,7 @@ Remove-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>"
 Remove-HostedOutboundSpamFilterPolicy -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [ссылке Remove-HostedOutboundSpamFilterPolicy.](https://docs.microsoft.com/powershell/module/exchange/remove-hostedoutboundspamfilterpolicy)
+Подробные сведения о синтаксисах и параметрах см. в [ссылке Remove-HostedOutboundSpamFilterPolicy.](/powershell/module/exchange/remove-hostedoutboundspamfilterpolicy)
 
 ### <a name="use-powershell-to-remove-outbound-spam-filter-rules"></a>Использование PowerShell для удаления исходящие правила фильтрации нежелательной почты
 
@@ -507,7 +507,7 @@ Remove-HostedOutboundSpamFilterRule -Identity "<PolicyName>"
 Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [ссылке Remove-HostedOutboundSpamFilterRule.](https://docs.microsoft.com/powershell/module/exchange/remove-hostedoutboundspamfilterrule)
+Подробные сведения о синтаксисах и параметрах см. в [ссылке Remove-HostedOutboundSpamFilterRule.](/powershell/module/exchange/remove-hostedoutboundspamfilterrule)
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 

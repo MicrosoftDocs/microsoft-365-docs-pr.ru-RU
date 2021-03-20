@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте, как найти ресурсы по Microsoft SharePoint Syntex.
-ms.openlocfilehash: 21dc0e29e9322b4c009b0f1e63b7bfbc4b92da9a
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 4282da5ca1027eaf041241e90011ead8f2942985
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242704"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905732"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Общие сведения о Microsoft SharePoint Syntex
 
@@ -42,9 +42,9 @@ Microsoft SharePoint Syntex — это служба Office 365, которая �
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Дополнительные сведения об осмыслении документации|[Общие сведения об осмыслении документации](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
-|Дополнительные сведения об обработке форм|[Общие сведения об обработке форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|
-|Разница между методами|[Различия между моделями осмысления документации и обработки форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
+|Дополнительные сведения об осмыслении документации|[Общие сведения об осмыслении документации](./document-understanding-overview.md)|
+|Дополнительные сведения об обработке форм|[Общие сведения об обработке форм](./form-processing-overview.md)|
+|Разница между методами|[Различия между моделями осмысления документации и обработки форм](./difference-between-document-understanding-and-form-processing-model.md)|
 |Ознакомьтесь со статьями в центре ресурсов сообщества Microsoft Tech|[SharePoint Syntex: службы контента в Microsoft 365](https://techcommunity.microsoft.com/t5/sharepoint-syntex/bg-p/SharePointSyntex)|
 |Вопросы и ответы о SharePoint Syntex в центре ресурсов сообщества Microsoft Tech |[SharePoint Syntex: вопросы и ответы](https://resources.techcommunity.microsoft.com/sharepoint-syntex/faq/)|
 |Как скачать SharePoint Syntex |[SharePoint Syntex: страница продукта](https://www.microsoft.com/microsoft-365/enterprise/sharepoint-syntex)|
@@ -55,7 +55,7 @@ Microsoft SharePoint Syntex — это служба Office 365, которая �
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Узнайте, как приступить к планированию использования SharePoint Syntex. |[Внедрение SharePoint Syntex: начало работы](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted)<br><br>|  
+|Узнайте, как приступить к планированию использования SharePoint Syntex. |[Внедрение SharePoint Syntex: начало работы](./adoption-getstarted.md)<br><br>|  
 
 ## <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
@@ -63,8 +63,8 @@ Microsoft SharePoint Syntex — это служба Office 365, которая �
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Установка и настройка SharePoint Syntex|[Настройка Microsoft SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding)|
-|Подробнее о расстановке тегов для изображений и как ее отключить|[Расстановка тегов для изображений в SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/image-tagging)|
+|Установка и настройка SharePoint Syntex|[Настройка Microsoft SharePoint Syntex](./set-up-content-understanding.md)|
+|Подробнее о расстановке тегов для изображений и как ее отключить|[Расстановка тегов для изображений в SharePoint Syntex](./image-tagging.md)|
 
 ## <a name="models"></a>Модели
 
@@ -72,11 +72,11 @@ Microsoft SharePoint Syntex — это служба Office 365, которая �
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Узнайте, как работать с моделями|[Создание центра управления контентом](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-content-center)<br><br>[Создание классификатора](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier)<br><br>[Создание средства извлечения](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-an-extractor)<br><br>[Создание модели обработки форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)<br><br>[Типы объяснения](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview)<br><br>[Применение модели осмысления документации](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-model)<br><br>[Подробнее о моделях осмысления документации на примере модели](https://docs.microsoft.com/microsoft-365/contentunderstanding/learn-about-document-understanding-models-through-the-sample-model)<br><br>|
-|Применение меток хранения к модели|[Применение метки хранения к модели осмысления документации](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
-|Использование таксономии банка терминов служб управляемых метаданных при создании средства извлечения|[Использование таксономии банка терминов при создании средства извлечения](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
-|Узнайте, как просмотреть сведения о моделях|[Аналитика использования моделей](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|
-|Узнайте, как использовать режим специальных возможностей при обучении модели|[Режим специальных возможностей SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/accessibility-mode)|
+|Узнайте, как работать с моделями|[Создание центра управления контентом](./create-a-content-center.md)<br><br>[Создание классификатора](./create-a-classifier.md)<br><br>[Создание средства извлечения](./create-an-extractor.md)<br><br>[Создание модели обработки форм](./create-a-form-processing-model.md)<br><br>[Типы объяснения](./explanation-types-overview.md)<br><br>[Применение модели осмысления документации](./apply-a-model.md)<br><br>[Подробнее о моделях осмысления документации на примере модели](./learn-about-document-understanding-models-through-the-sample-model.md)<br><br>|
+|Применение меток хранения к модели|[Применение метки хранения к модели осмысления документации](./apply-a-retention-label-to-a-model.md)|
+|Использование таксономии банка терминов служб управляемых метаданных при создании средства извлечения|[Использование таксономии банка терминов при создании средства извлечения](./leverage-term-store-taxonomy.md)|
+|Узнайте, как просмотреть сведения о моделях|[Аналитика использования моделей](./model-usage-analytics.md)|
+|Узнайте, как использовать режим специальных возможностей при обучении модели|[Режим специальных возможностей SharePoint Syntex](./accessibility-mode.md)|
 
 ## <a name="premium-services"></a>Службы премиум-класса
 
@@ -84,8 +84,8 @@ Microsoft SharePoint Syntex — это служба Office 365, которая �
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Сведения об импорте набора данных с помощью простого формата системы базы знаний организации|[Импорт набора терминов в формате SKOS](https://docs.microsoft.com/microsoft-365/contentunderstanding/import-term-set-skos)<br><br>[Справка по формату SKOS для таксономии SharePoint](https://docs.microsoft.com/microsoft-365/contentunderstanding/skos-format-reference)<br><br>|
-|Узнайте, как сделать типы контента в библиотеках и списках SharePoint единообразными|[Отправка типов контента на центральный сайт](https://docs.microsoft.com/microsoft-365/contentunderstanding/push-content-type-to-hub)|
-|Сведения о доступных вам отчетах банка терминов|[Отчеты банка терминов](https://docs.microsoft.com/microsoft-365/contentunderstanding/term-store-analytics)|
+|Сведения об импорте набора данных с помощью простого формата системы базы знаний организации|[Импорт набора терминов в формате SKOS](./import-term-set-skos.md)<br><br>[Справка по формату SKOS для таксономии SharePoint](./skos-format-reference.md)<br><br>|
+|Узнайте, как сделать типы контента в библиотеках и списках SharePoint единообразными|[Отправка типов контента на центральный сайт](./push-content-type-to-hub.md)|
+|Сведения о доступных вам отчетах банка терминов|[Отчеты банка терминов](./term-store-analytics.md)|
 
 ## <a name="see-also"></a>См. также

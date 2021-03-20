@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Узнайте, как глобальный администратор может изменить адрес электронной почты и отображаемое имя. '
-ms.openlocfilehash: 7f894af3778964dfa6c696c1f467bc0dd8313f32
-ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
+ms.openlocfilehash: 6a5498f4e480802f8770f7b7adde55fe7c996dc8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49585298"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904484"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Изменение имени пользователя и адреса электронной почты
 
@@ -221,7 +221,7 @@ ms.locfileid: "49585298"
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"Не удается найти параметр, соответствующий имени параметра EmailAddresses"
 
-Если вы получили сообщение об ошибке "**Не удается найти параметр, соответствующий имени параметра EmailAddresses**", это означает, что настройка вашего клиента или личного домена, который вы недавно добавили, еще не завершена. Настройка может занять до 4 часов. Дождитесь ее окончания, а затем повторите попытку. Если проблема сохранится, обратитесь в [службу поддержки](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products), и ее специалисты выполнят для вас полную синхронизацию.
+Если вы получили сообщение об ошибке "**Не удается найти параметр, соответствующий имени параметра EmailAddresses**", это означает, что настройка вашего клиента или личного домена, который вы недавно добавили, еще не завершена. Настройка может занять до 4 часов. Дождитесь ее окончания, а затем повторите попытку. Если проблема сохранится, обратитесь в [службу поддержки](../contact-support-for-business-products.md), и ее специалисты выполнят для вас полную синхронизацию.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>"Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку"
 
@@ -249,7 +249,7 @@ Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.co
 > [!TIP]
 > Это меняет атрибут **userPrincipalName** пользователя и никак не влияет на его адрес маршрутизации электронной почты Microsoft Online (MOERA). Однако лучше всего, когда имя участника-пользователя для входа совпадает с его основным SMTP-адресом. 
   
-О том, как изменить имя пользователя в Active Directory в Windows Server 2003 и более ранних версиях, можно узнать в статье [Переименование учетной записи пользователя](https://go.microsoft.com/fwlink/?LinkId=809091).
+О том, как изменить имя пользователя в Active Directory в Windows Server 2003 и более ранних версиях, можно узнать в статье [Переименование учетной записи пользователя](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10)).
   
 ## <a name="related-articles"></a>Связанные статьи
 

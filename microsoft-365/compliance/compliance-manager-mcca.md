@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Понимание того, как использовать анализатор конфигурации соответствия требованиям Майкрософт, чтобы быстро встать и работать с Microsoft Compliance Manager.
-ms.openlocfilehash: 272477251efed7ebf13bd2e644869eaf2aad1bc2
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: a77f38dcc0c0215e539c868e47135f5d7194f4b6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454690"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906041"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>Анализатор конфигурации соответствия требованиям Майкрософт для диспетчера соответствия требованиям (предварительный просмотр)
 
@@ -101,9 +101,9 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
     ```
   | Input |  Страна | 
   | :------------- | :------------: |
-  | 1  | Азиатско-Тихоокеанский регион |
-  | 2  | Австралия |
-  | 3  | Канада |
+  | 1 | Азиатско-Тихоокеанский регион |
+  | 2 | Австралия |
+  | 3 | Канада |
   | 4  | Европа (за исключением Франции) / Ближний Восток / Африка |
   | 5  | Франция |
   | 6  | Индия |
@@ -167,4 +167,4 @@ MCCA оценивает текущие конфигурации в соотве�
 
 Дополнительные сведения об установке, настройке и использовании MCCA см. в инструкции README в [GitHub](https://github.com/OfficeDev/MCCA#overview) (не требуется учетная запись GitHub).
 
-Дополнительные сведения о Windows PowerShell, начните с использования [документации PowerShell.](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7) См. также [начало Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7).
+Дополнительные сведения о Windows PowerShell, начните с использования [документации PowerShell.](/powershell/scripting/how-to-use-docs?view=powershell-7) См. также [начало Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7).

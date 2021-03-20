@@ -19,22 +19,22 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: ef89cadc09dea7c2186fbf4a0d76d2c690aa8acc
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: b88e32ccfc0f82749ede2b0919001e9c29f7f7be
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597221"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906021"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Сведения о том, что такое метки конфиденциальности и как они могут защитить данные организации, см. в статье [Сведения о метках конфиденциальности](sensitivity-labels.md).
 
-Если у вас есть [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection), определите, нужно ли перенести метки на единую платформу меток, а также какой клиент меток использовать:
-- [Как определить, находится ли мой клиент на единой платформе меток?](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
-- [Выбор решения для применения меток в Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
+Если у вас есть [Azure Information Protection](/azure/information-protection/what-is-information-protection), определите, нужно ли перенести метки на единую платформу меток, а также какой клиент меток использовать:
+- [Как определить, находится ли мой клиент на единой платформе меток?](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
+- [Выбор решения для применения меток в Windows](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
 
 Если вы готовы приступить к защите данных своей организации с помощью меток конфиденциальности, выполните следующие действия.
 
@@ -54,7 +54,7 @@ ms.locfileid: "50597221"
 
 Метки конфиденциальности поддерживаются в рамках нескольких разных подписок, а требования конфиденциальности для пользователей зависят от используемых функций.
 
-Чтобы узнать о вариантах лицензирования пользователей, которые позволят получить максимальную пользу от функций соответствия требованиям Microsoft 365, см. [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD). Сведения об использовании меток конфиденциальности см. в разделе [Защита информации](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) и связанном PDF или Excel файле для скачивания.
+Чтобы узнать о вариантах лицензирования пользователей, которые позволят получить максимальную пользу от функций соответствия требованиям Microsoft 365, см. [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance). Сведения об использовании меток конфиденциальности см. в разделе [Защита информации](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) и связанном PDF или Excel файле для скачивания.
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>Разрешения, необходимые для создания меток конфиденциальности и управления ими
 
@@ -64,7 +64,7 @@ ms.locfileid: "50597221"
 
 Вместо использования стандартных ролей вы можете создать новую группу ролей и добавить в нее роль **Администратор меток конфиденциальности** или **Конфигурация организации**. Чтобы применить роль только для чтения, используйте вариант **Читатель меток конфиденциальности**. 
 
-Инструкции по добавлению пользователей в стандартные роли или создание собственных групп ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Инструкции по добавлению пользователей в стандартные роли или создание собственных групп ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Эти разрешения необходимы только для создания и настройки меток конфиденциальности и соответствующих политик меток. Они не требуются для применения меток в приложениях или службах. Если для определенных конфигураций, связанных с метками конфиденциальности, требуются дополнительные разрешения, эти разрешения будут указаны в соответствующих инструкциях.
 
@@ -82,19 +82,19 @@ ms.locfileid: "50597221"
 |Я хочу…|Документация|
 |----------------|---------------|
 |Управлять метками конфиденциальности в приложениях Office для их применения к содержимому при его создании — включая поддержку присвоения меток вручную на всех платформах |[Управление метками конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md)|
-|Разрешить пользователям помечать и защищать файлы на компьютерах с Windows с помощью приложений Office, проводника и PowerShell|[Клиент унифицированных меток Azure Information Protection для Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
+|Разрешить пользователям помечать и защищать файлы на компьютерах с Windows с помощью приложений Office, проводника и PowerShell|[Клиент унифицированных меток Azure Information Protection для Windows](/azure/information-protection/rms-client/aip-clientv2)|
 |Шифровать документы и сообщения электронной почты с помощью меток конфиденциальности, а также ограничить доступ к этому содержимому и его использование |[Ограничение доступа к содержимому при использовании меток конфиденциальности для шифрования](encryption-sensitivity-labels.md)|
 |Включить метки конфиденциальности для Office в Интернете с поддержкой совместного редактирования, обнаружения электронных данных, защиты от потери данных и поиска, даже если документы зашифрованы | [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 |Использовать совместное редактирование и автоматическое сохранение в классических приложениях Office, когда документы зашифрованы | [Включение совместного редактирования для файлов, зашифрованных с помощью меток конфиденциальности](sensitivity-labels-coauthoring.md)
 |Автоматически применять метки конфиденциальности документам и сообщениям электронной почты | [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)|
 |Использовать метки конфиденциальности для защиты содержимого в Teams и SharePoint |[Использование меток конфиденциальности в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint](sensitivity-labels-teams-groups-sites.md)|
 |Запрещать или предупреждать пользователей о предоставлении общего доступа к файлам и сообщениям с определенными метками конфиденциальности |[Использование меток конфиденциальности в качестве условий в политиках защиты от потери данных (предварительная версия)](dlp-sensitivity-label-as-condition.md) |
-|Обнаруживать, применять метки и защищать файлы, хранящиеся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
-|Обнаруживать, применять метки и защищать файлы, хранящиеся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Применение и просмотр меток в Power BI и защита данных при сохранении за пределами службы|[Метки конфиденциальности в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-sensitivity-label-overview)|
+|Обнаруживать, применять метки и защищать файлы, хранящиеся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](/azure/information-protection/deploy-aip-scanner)|
+|Обнаруживать, применять метки и защищать файлы, хранящиеся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
+|Применение и просмотр меток в Power BI и защита данных при сохранении за пределами службы|[Метки конфиденциальности в Power BI](/power-bi/admin/service-security-sensitivity-label-overview)|
 |Отслеживать и понимать использования меток конфиденциальности в организации|[Изучение данных — обзор классификации данных](data-classification-overview.md) <br /><br /> [Начало работы с классификацией данных](data-classification-overview.md)|
-|Расширить применение меток конфиденциальности на сторонние приложения и службы|[Пакет SDK для Microsoft Information Protection](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
-|Расширить применение меток конфиденциальности на содержимое в хранилище BLOB-объектов Azure, файлы Azure, Azure Data Lake Storage 1-го поколения и Azure Data Lake Storage 12-го поколения|[Автоматическое применение меток к содержимому в Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label) |
+|Расширить применение меток конфиденциальности на сторонние приложения и службы|[Пакет SDK для Microsoft Information Protection](/information-protection/develop/overview#microsoft-information-protection-sdk)|
+|Расширить применение меток конфиденциальности на содержимое в хранилище BLOB-объектов Azure, файлы Azure, Azure Data Lake Storage 1-го поколения и Azure Data Lake Storage 12-го поколения|[Автоматическое применение меток к содержимому в Azure Purview](/azure/purview/create-sensitivity-label) |
 
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Документация по меткам конфиденциальности для пользователей
@@ -111,6 +111,6 @@ ms.locfileid: "50597221"
 - [Автоматическое применение и рекомендации в отношении меток конфиденциальности для файлов и сообщений электронной почты в Office](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [Известные проблемы при автоматическом применении или предоставлении рекомендаций в отношении меток конфиденциальности](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)
 
-- [Руководство пользователя по применению унифицированных меток с помощью Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-user-guide)
+- [Руководство пользователя по применению унифицированных меток с помощью Azure Information Protection](/azure/information-protection/rms-client/clientv2-user-guide)
 
-Если метки конфиденциальности применяют шифрование к PDF-документам, то эти документы можно открыть с помощью Microsoft Edge в Windows или Mac. Дополнительные сведения и альтернативные средства чтения см. в статье [Какие средства чтения PDF-файлов поддерживаются для защищенных PDF-файлов?](https://docs.microsoft.com/azure/information-protection/rms-client/protected-pdf-readers#viewing-protected-pdfs-in-microsoft-edge-on-windows-or-mac)
+Если метки конфиденциальности применяют шифрование к PDF-документам, то эти документы можно открыть с помощью Microsoft Edge в Windows или Mac. Дополнительные сведения и альтернативные средства чтения см. в статье [Какие средства чтения PDF-файлов поддерживаются для защищенных PDF-файлов?](/azure/information-protection/rms-client/protected-pdf-readers#viewing-protected-pdfs-in-microsoft-edge-on-windows-or-mac)

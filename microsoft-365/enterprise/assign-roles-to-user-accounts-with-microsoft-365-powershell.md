@@ -19,39 +19,39 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
-description: В этой статье вы узнаете, как быстро и легко назначать роли администратора учетным записям пользователей с помощью PowerShell для Microsoft 365.
-ms.openlocfilehash: 7e3292ab26924384beb8d0c7450b7665dccd48fa
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+description: В этой статье узнайте, как быстро и легко использовать PowerShell для Microsoft 365 для назначения ролей администратора учетным записям пользователей.
+ms.openlocfilehash: 84e785052c970ca15487540c3904eacdd0e9ca28
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754202"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905384"
 ---
 # <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>Назначение ролей администратора учетным записям пользователей Microsoft 365 с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете легко назначать роли учетным записям пользователей с помощью PowerShell для Microsoft 365.
+Вы можете легко назначить роли учетным записям пользователей с помощью PowerShell для Microsoft 365.
 
 >[!Note]
->Узнайте, как  [назначать роли администратора](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) учетным записям пользователей в Центре администрирования Microsoft 365.
+>Узнайте, как  [назначить роли администратора](../admin/add-users/assign-admin-roles.md) учетным записям пользователей в центре администрирования Microsoft 365.
 >
->Список дополнительных ресурсов см. в [подсети "Управление пользователями и группами".](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+>Список дополнительных ресурсов см. в списке [Управление пользователями и группами.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Сначала используйте учетную запись глобального администратора [для подключения к вашему клиенту Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Во-первых, используйте глобальную учетную запись администратора для подключения [к клиенту Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
-Затем определите имя для входов учетной записи пользователя, которую нужно добавить в роль (пример: fredsm \@ contoso.com). Это также называется именем основного пользователя (UPN).
+Далее определите имя учетной записи пользователя, которую необходимо добавить в роль (пример: fredsm \@ contoso.com). Это также называется главным именем пользователя (UPN).
 
-После этого определите имя роли. См. [разрешения роли администратора в Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+После этого определите имя роли. См. [разрешения на роль администратора в Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
 >[!Note]
->Обратите внимание на примечания в этой статье. Некоторые имена ролей отличаются для Azure Active Directory (Azure AD) PowerShell. Например, роль администратора *SharePoint* в Центре администрирования Microsoft 365 — администратор *Службы SharePoint в* Azure AD PowerShell.
+>Обратите внимание на примечания в этой статье. Некоторые имена ролей отличаются для Azure Active Directory (Azure AD) PowerShell. Например, роль *администратора SharePoint* в центре администрирования Microsoft 365 — администратор *службы SharePoint* в Azure AD PowerShell.
 >
 
-После этого заполните имена для входов и ролей и запустите следующие команды:
+Далее заполните имена входных и ролей и запустите следующие команды:
   
 ```powershell
 $userName="<sign-in name of the account>"
@@ -65,7 +65,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-Вот пример завершенного набора команд, который назначает роль администратора SharePoint Service учетной записи пользователя *belindan \@ contoso.com.*
+Вот пример завершенного набора команд, который назначает роль администратора службы SharePoint в учетной записи *\@ belindan contoso.com:*
   
 ```powershell
 $userName="belindan@contoso.com"
@@ -88,19 +88,19 @@ Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADD
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-Сначала используйте учетную запись глобального администратора [для подключения к вашему клиенту Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Во-первых, используйте глобальную учетную запись администратора для подключения [к клиенту Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
   
 ### <a name="for-a-single-role-change"></a>Изменение одной роли
 
-Чаще всего указать учетную запись пользователя можно с помощью отображаемого имени или имени электронной почты, которое также называется именем для регистрации или именем пользователя-пользователя .
+Наиболее распространенными способами указать учетную запись пользователя является использование ее имени отображения или имени электронной почты, которое также называется его именем или основным именем пользователя (UPN).
 
 #### <a name="display-names-of-user-accounts"></a>Отображение имен учетных записей пользователей
 
-Если вы привыкли работать с отображаемой информацией об учетных записях пользователей, определите следующие сведения:
+Если вы привыкли работать с отображаемой учетной записью, определите следующие сведения:
   
 - Учетная запись пользователя, которую необходимо настроить
     
-    Чтобы указать учетную запись пользователя, необходимо определить ее отображаемое имя. Чтобы получить полный список учетных записей, используйте команду:
+    Чтобы указать учетную запись пользователя, необходимо определить ее отображаемое имя. Чтобы получить полный список учетных записей, используйте эту команду:
     
   ```powershell
   Get-MsolUser -All | Sort DisplayName | Select DisplayName | More
@@ -118,15 +118,15 @@ Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADD
 
     Эта команда выводит только учетные записи пользователей, отображаемое имя которых начинается со слова "John".
     
-- Роль, которую вы хотите назначить
+- Роль, которую необходимо назначить
     
-    Чтобы отобразить список доступных ролей администратора, которые можно назначить учетным записям пользователей, используйте команду:
+    Чтобы отобразить список доступных ролей администратора, которые можно назначить учетным записям пользователей, используйте эту команду:
     
   ```powershell
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-После определения отображаемого имени учетной записи и роли используйте эти команды, чтобы назначить роль учетной записи:
+После определения отображаемого имени учетной записи и имени роли используйте эти команды, чтобы назначить роль учетной записи:
   
 ```powershell
 $dispName="<The Display Name of the account>"
@@ -134,7 +134,7 @@ $roleName="<The admin role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-Paste the commands into Notepad. Для *переменных $dispName* *и $roleName* замените текст описания их значениями. Удалите \< and > символы, но сохраняем кавычка. В paste the modified lines into the Microsoft Azure Active Directory Module for Windows PowerShell to run them. Кроме того, можно использовать интегрированную среду сценариев Windows PowerShell.
+Вклеить команды в блокнот. Для *переменных $dispName* *и $roleName* замените текст описания их значениями. Удалите \< and > символы, но храните кавычка. Вклейте измененные строки в модуль Microsoft Azure Active Directory для Windows PowerShell для их запуска. Кроме того, можно использовать интегрированную среду сценариев Windows PowerShell.
   
 Вот пример завершенного набора команд:
   
@@ -144,19 +144,19 @@ $roleName="SharePoint Service Administrator"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-#### <a name="sign-in-names-of-user-accounts"></a>Имена учетных записей пользователей для входов
+#### <a name="sign-in-names-of-user-accounts"></a>Имена учетных записей пользователей
 
-Если вы привыкли работать с именами или именами пользователей для входов в учетные записи пользователей, определите следующие сведения:
+Если вы привыкли работать с именами входных лиц или upNs учетных записей пользователей, определите следующую информацию:
   
-- UpN учетной записи пользователя
+- UPN учетной записи пользователя
     
-    Если вы не знаете upN, используйте команду:
+    Если вы не знаете upN, используйте эту команду:
     
   ```powershell
   Get-MsolUser -All | Sort UserPrincipalName | Select UserPrincipalName | More
   ```
 
-    Эта команда перечисляет имя upn учетных записей пользователей, отсортировать их по одному экрану за раз. Для фильтрации **списка** можно использовать этот список с помощью cmdlet Where. Пример:
+    В этой команде перечислены upN учетных записей пользователей, сортироваться по одному экрану одновременно. Для фильтрации списка можно использовать cmdlet **Where.** Пример:
     
   ```powershell
   Get-MsolUser -All | Where DisplayName -like "John*" | Sort UserPrincipalName | Select UserPrincipalName | More
@@ -164,7 +164,7 @@ Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayNam
 
     Эта команда выводит только учетные записи пользователей, отображаемое имя которых начинается со слова "John".
     
-- Роль, которую вы хотите назначить
+- Роль, которую необходимо назначить
     
     Чтобы отобразить список доступных ролей, используйте эту команду:
     
@@ -172,7 +172,7 @@ Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayNam
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-После присвоения имени имени пользователя учетной записи и имени роли используйте эти команды, чтобы назначить роль учетной записи:
+После того как у вас есть upN учетной записи и имя роли, используйте эти команды, чтобы назначить роль учетной записи:
   
 ```powershell
 $upnName="<The UPN of the account>"
@@ -180,7 +180,7 @@ $roleName="<The role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 ```
 
-Скопируйте команды в Блокнот. Для **$upnName** и **$roleName** переменных. Замените текст описания их значениями. Удалите \< and > символы, но сохраняем кавычка. В paste the modified lines into Microsoft Azure Active Directory Module for Windows PowerShell window to run them. Кроме того, можно использовать Windows PowerShell ISE.
+Скопируйте команды в Блокнот. Для **$upnName** и **$roleName** переменных. Замените текст описания их значениями. Удалите \< and > символы, но храните кавычка. Вклейте измененные строки в модуль Microsoft Azure Active Directory для Windows PowerShell для их запуска. Поочередно можно использовать Windows PowerShell ISE.
   
 Вот пример завершенного набора команд:
   
@@ -192,9 +192,9 @@ Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 
 ### <a name="multiple-role-changes"></a>Несколько изменений ролей
 
-Для нескольких изменений ролей определите следующие сведения:
+Для нескольких изменений ролей определите следующую информацию:
   
-- Какие учетные записи пользователей необходимо настроить. Вы можете использовать методы, показанные в предыдущем разделе, для сбора набора отображаемого имени или имен upNs.
+- Какие учетные записи пользователей необходимо настроить. Вы можете использовать методы в предыдущем разделе для сбора набора имен отображения или UPNs.
     
 - Какие роли вы хотите назначить каждой учетной записи пользователя. Чтобы отобразить список доступных ролей, используйте эту команду:
     
@@ -202,9 +202,9 @@ Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-Затем создайте текстовый файл с разделиными запятой (CSV-файл), который имеет отображаемого имени или имени имени upn и поля имени роли. Это легко сделать в Microsoft Excel.
+Далее создайте текстовый файл с разделенным запятой значением (CSV), который имеет имя отображения или поля UPN и полей имен ролей. Это можно легко сделать в Microsoft Excel.
 
-Вот пример отображаемой имена:
+Вот пример отображения имен:
   
 ```powershell
 DisplayName,RoleName

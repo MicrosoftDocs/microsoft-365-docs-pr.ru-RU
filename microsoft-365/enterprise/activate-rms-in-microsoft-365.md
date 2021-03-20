@@ -1,5 +1,5 @@
 ---
-title: Активация управления правами в Центре администрирования
+title: Активация управления правами в центре администрирования
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -16,27 +16,27 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 5b6d3ac7-b1ac-428e-b03e-50e882f85a6e
-description: Активация и использование службы управления правами в Microsoft 365.
-ms.openlocfilehash: a20acb54751511583c5d54768af3e39b93003311
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Активация и использование службы управления правами с помощью Microsoft 365.
+ms.openlocfilehash: 887979e372bf4ba938b2d2570f981aee9373d485
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693536"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905648"
 ---
-# <a name="activate-rights-management-in-the-admin-center"></a>Активация управления правами в Центре администрирования
+# <a name="activate-rights-management-in-the-admin-center"></a>Активация управления правами в центре администрирования
 
-Необходимо активировать службу управления правами (RMS), прежде чем использовать функции управления правами на данные (IRM) приложений и служб Microsoft 365. После активации службы RMS ваша организация может начать защищать важные документы и сообщения электронной почты с помощью Azure RMS. Это решение для защиты информации может защищать все типы файлов и интегрируется с клиентские приложения, такие как Excel, Microsoft Word и другие, Exchange Online и SharePoint Online, а также серверы, такие как Microsoft Exchange и Microsoft SharePoint.
+Необходимо активировать службу управления правами (RMS), прежде чем использовать функции управления правами на информацию (IRM) приложений и служб Microsoft 365. После активации RMS ваша организация может начать защищать важные документы и электронные письма с помощью Azure RMS. Это решение защиты информации может защитить все типы файлов и интегрироваться с клиентских приложений, таких как Excel, Microsoft Word и другие, Exchange Online и SharePoint Online, а также серверы, такие как Microsoft Exchange и Microsoft SharePoint.
   
 > [!TIP]
-> Если вы не знаете, требуется ли управление правами, проверьте, есть ли в вашей организации одна или несколько из этих [бизнес-проблем или требований.](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms#business-problems-solved-by-azure-rights-management) 
+> Если вы не уверены в необходимости управления правами, проверьте, есть ли у организации одна или несколько из этих проблем или требований к [бизнесу.](/azure/information-protection/what-is-azure-rms#business-problems-solved-by-azure-rights-management) 
   
 Используйте эти ссылки для получения дополнительных сведений о RMS:
   
-- Дополнительные узнать о службе управления правами см. в [руководстве "Что такое Служба управления правами Azure".](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms)
+- Дополнительные новости о RMS см. в видеоролике [What is Azure Rights Management.](/rights-management/understand-explore/what-is-azure-rms)
 
-- Если вы еще не знаете RMS, см. обзор [службы управления правами Azure.](https://docs.microsoft.com/rights-management/understand-explore/azure-rights-management)
+- Если вы не в RMS, см. в обзоре [управления правами Azure.](/rights-management/understand-explore/azure-rights-management)
 
-- Обзор этапов развертывания см. в обзоре карты развертывания [Azure Rights Management.](https://docs.microsoft.com/rights-management/plan-design/deployment-roadmap)
+- Обзор этапов развертывания см. в дорожной карте [развертывания Azure Rights Management.](/rights-management/plan-design/deployment-roadmap)
 
-- Инструкции по активации службы RMS для Microsoft 365 см. в сведениях об активации службы защиты [из Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/activate-service)
+- Инструкции по активации RMS для Microsoft 365 см. в инструкции по активации службы защиты [от Azure Information Protection.](/azure/information-protection/activate-service)

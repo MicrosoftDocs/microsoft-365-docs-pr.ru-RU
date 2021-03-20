@@ -1,5 +1,5 @@
 ---
-title: Отключение требований к надежных паролям для пользователей
+title: Отключение требований к паролям для пользователей
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -20,29 +20,29 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как настроить надежные требования к паролям для пользователей с помощью Windows PowerShell.
-ms.openlocfilehash: f9a0b76d024cc18552657144e4ccf8de8a72f0d9
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+description: Узнайте, как установить надежные требования к паролям для пользователей с помощью Windows PowerShell.
+ms.openlocfilehash: e2300e3c94de53cd04d0c1726538fdb8a86a1ccf
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655739"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903540"
 ---
-# <a name="turn-off-strong-password-requirements-for-users"></a>Отключение требований к надежных паролям для пользователей
+# <a name="turn-off-strong-password-requirements-for-users"></a>Отключение требований к паролям для пользователей
 
-В этой статье объясняется, как отключить требования к надежных паролям для пользователей. В вашей организации Microsoft 365 для бизнеса по умолчанию отключены требования к надежных паролям. В организации могут быть требования к отключению надежных паролей. Чтобы отключить требования к надежных паролям, выполните следующие действия. Эти действия необходимо выполнить с помощью PowerShell.
+В этой статье рассказывается о том, как отключить надежные требования к паролям для пользователей. В Microsoft 365 для бизнес-организации по умолчанию включаются надежные требования к паролям. У организации могут быть требования к отключению надежных паролей. Выполните ниже шаги, чтобы отключить требования к паролям. Эти действия необходимо выполнить с помощью PowerShell.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
-Эта статья для пользователей, которые управляют политикой паролей для бизнеса, учебного заведения или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md) Для выполнения этих действий [необходимо быть](about-admin-roles.md) глобальным администратором или администратором паролей.
+Эта статья для людей, которые управляют политикой паролей для бизнеса, школы или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md) Для выполнения этих [действий](about-admin-roles.md) необходимо быть глобальным администратором или администратором паролей.
 
-Вам также необходимо подключиться к Microsoft 365 с помощью PowerShell.
+Необходимо также подключиться к Microsoft 365 с помощью PowerShell.
 
 ## <a name="set-strong-passwords"></a>Настройка надежных паролей
 
-1. [Подключись к Microsoft 365 с помощью PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+1. [Подключение к Microsoft 365 с Помощью PowerShell.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-2. С помощью PowerShell можно отключить требования к надежных паролям для всех пользователей с помощью следующей команды:
+2. С помощью PowerShell можно отключить надежные требования к паролям для всех пользователей со следующей командой:
 
     ```powershell
     Get-MsolUser | Set-MsolUser -StrongPasswordRequired $false
@@ -54,12 +54,12 @@ ms.locfileid: "48655739"
     ```
 
 > [!NOTE]
-> Параметр userPrincipalName должен иметь формат для доступа в Интернет, в котором за именем пользователя следует знак @и доменное имя. Например: user@contoso.com.
+> UserPrincipalName должен быть в формате вход в Интернет, где за именем пользователя следует знак (@) и доменное имя. Например: user@contoso.com.
 
 ## <a name="related-content"></a>Связанные материалы
 
-[Подключение к Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Подключение к Microsoft 365 с помощью PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-[Дополнительные сведения о командах PowerShell MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0)
+[Дополнительные сведения о командах PowerShell MsolUser](/powershell/module/msonline/set-msoluser?view=azureadps-1.0)
 
-[Дополнительные сведения о политике паролей](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts)
+[Дополнительные сведения о политике паролей](/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts)

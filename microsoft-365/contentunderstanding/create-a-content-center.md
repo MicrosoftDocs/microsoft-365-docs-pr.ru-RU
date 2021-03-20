@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте, как создать центр контента
-ms.openlocfilehash: 3544bbef7cf2f898733c7aaad620487098a2dd24
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 34ba45cd62214743e5a6784893e0f24e9815fdfb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515140"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905828"
 ---
 # <a name="create-a-content-center-in-microsoft-sharepoint-syntex"></a>Создание центра контента в Microsoft SharePoint Syntex
 
@@ -35,12 +35,12 @@ ms.locfileid: "50515140"
 Центр контента по умолчанию создается во время [настройки](set-up-content-understanding.md). Но администратор SharePoint может при необходимости создавать и дополнительные центры. Один центр контента подходит для сред, для которых вы создаете свертывание всех моделей. Вам может потребоваться создать дополнительные центры для нескольких отделов в организации, у которых могут быть различные потребности и разрешения на доступ к их моделям.
 
 > [!NOTE]
-> В среде [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo), если вы используете один стандартный центр контента в центральном расположении, вы можете обеспечить сведение действий модели только в этом расположении. В настоящее время в среде с поддержкой нескольких регионов невозможно свести действия модели между границами ферм. 
+> В среде [Microsoft 365 Multi-Geo](../enterprise/microsoft-365-multi-geo.md), если вы используете один стандартный центр контента в центральном расположении, вы можете обеспечить сведение действий модели только в этом расположении. В настоящее время в среде с поддержкой нескольких регионов невозможно свести действия модели между границами ферм. 
 
 
 ## <a name="create-a-content-center"></a>Создание центра контента
 
-Администратор SharePoint может создать сайт центра контента так же, как и [любой другой сайт SharePoint](https://docs.microsoft.com/sharepoint/create-site-collection) через панель подготовки сайта центра администрирования.
+Администратор SharePoint может создать сайт центра контента так же, как и [любой другой сайт SharePoint](/sharepoint/create-site-collection) через панель подготовки сайта центра администрирования.
 
 Чтобы создать нового центр контента:
 
@@ -63,7 +63,7 @@ ms.locfileid: "50515140"
 
 ### <a name="give-access-to-additional-users"></a>Предоставление доступа для дополнительных пользователей
  
-Создав сайт, вы сможете предоставлять доступ к нему для других пользователей с помощью стандартной [модели разрешений сайта SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
+Создав сайт, вы сможете предоставлять доступ к нему для других пользователей с помощью стандартной [модели разрешений сайта SharePoint](/sharepoint/modern-experience-sharing-permissions).
 
 ## <a name="see-also"></a>См. также
 [Создание классификатора](create-a-classifier.md)
@@ -76,4 +76,4 @@ ms.locfileid: "50515140"
 
 [Создание модели обработки форм](create-a-form-processing-model.md)
 
-[Применение модели](apply-a-model.md)    
+[Применение модели](apply-a-model.md)
