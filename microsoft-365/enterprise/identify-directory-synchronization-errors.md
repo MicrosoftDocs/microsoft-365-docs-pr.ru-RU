@@ -1,5 +1,5 @@
 ---
-title: Просмотр ошибок синхронизации службы каталогов в Microsoft 365
+title: Просмотр ошибок синхронизации каталогов в Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -22,35 +22,34 @@ search.appverid:
 - MBS150
 - GPA150
 ms.assetid: b4fc07a5-97ea-4ca6-9692-108acab74067
-description: Узнайте, как просматривать ошибки синхронизации каталогов и возможные исправления в Центре администрирования Microsoft 365.
-ms.openlocfilehash: 5103b1f8a8f0514ca30fd71b94dee2530f0b082f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Узнайте, как просматривать ошибки синхронизации каталогов и возможные исправления в центре администрирования Microsoft 365.
+ms.openlocfilehash: 76717fc158aa0cee47f784919f19a295378bbd5b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693429"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907508"
 ---
-# <a name="view-directory-synchronization-errors-in-microsoft-365"></a><span data-ttu-id="03707-103">Просмотр ошибок синхронизации службы каталогов в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="03707-103">View directory synchronization errors in Microsoft 365</span></span>
+# <a name="view-directory-synchronization-errors-in-microsoft-365"></a><span data-ttu-id="0b33b-103">Просмотр ошибок синхронизации каталогов в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="0b33b-103">View directory synchronization errors in Microsoft 365</span></span>
 
-<span data-ttu-id="03707-104">Ошибки синхронизации службы каталогов можно просмотреть в Центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="03707-104">You can view directory synchronization errors in the Microsoft 365 admin center.</span></span> <span data-ttu-id="03707-105">Отображаются только ошибки объекта User.</span><span class="sxs-lookup"><span data-stu-id="03707-105">Only the User object errors are displayed.</span></span> <span data-ttu-id="03707-106">Чтобы просмотреть ошибки с помощью PowerShell, см. раздел "Определение объектов [с помощью DirSyncProvisioningErrors".](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency)</span><span class="sxs-lookup"><span data-stu-id="03707-106">To view errors with PowerShell, see [Identify objects with DirSyncProvisioningErrors](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency).</span></span>
+<span data-ttu-id="0b33b-104">Ошибки синхронизации каталогов можно просматривать в центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="0b33b-104">You can view directory synchronization errors in the Microsoft 365 admin center.</span></span> <span data-ttu-id="0b33b-105">Отображаются только ошибки объекта Пользователя.</span><span class="sxs-lookup"><span data-stu-id="0b33b-105">Only the User object errors are displayed.</span></span> <span data-ttu-id="0b33b-106">Чтобы просмотреть ошибки в PowerShell, см. раздел Определение объектов [с помощью DirSyncProvisioningErrors.](/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency)</span><span class="sxs-lookup"><span data-stu-id="0b33b-106">To view errors with PowerShell, see [Identify objects with DirSyncProvisioningErrors](/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency).</span></span>
 
-## <a name="view-directory-synchronization-errors-in-the-microsoft-365-admin-center"></a><span data-ttu-id="03707-107">Просмотр ошибок синхронизации службы каталогов в Центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="03707-107">View directory synchronization errors in the Microsoft 365 admin center</span></span>
+## <a name="view-directory-synchronization-errors-in-the-microsoft-365-admin-center"></a><span data-ttu-id="0b33b-107">Просмотр ошибок синхронизации каталогов в центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="0b33b-107">View directory synchronization errors in the Microsoft 365 admin center</span></span>
 
-<span data-ttu-id="03707-108">Чтобы просмотреть все ошибки в Центре администрирования Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="03707-108">To view any errors in the Microsoft 365 admin center:</span></span>
+<span data-ttu-id="0b33b-108">Чтобы просмотреть ошибки в центре администрирования Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="0b33b-108">To view any errors in the Microsoft 365 admin center:</span></span>
   
-1. <span data-ttu-id="03707-109">Во sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) with a global administrator account.</span><span class="sxs-lookup"><span data-stu-id="03707-109">Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) with a global administrator account.</span></span> 
+1. <span data-ttu-id="0b33b-109">Вопишитесь в [центр администрирования Microsoft 365](https://admin.microsoft.com) с глобальной учетной записью администратора.</span><span class="sxs-lookup"><span data-stu-id="0b33b-109">Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) with a global administrator account.</span></span> 
     
-2. <span data-ttu-id="03707-110">На **домашней** странице вы увидите карточку управления **"Пользователь".**</span><span class="sxs-lookup"><span data-stu-id="03707-110">On the **Home** page, you'll see the **User management** card.</span></span> 
+2. <span data-ttu-id="0b33b-110">На **домашней** странице вы увидите карточку управления **пользователем.**</span><span class="sxs-lookup"><span data-stu-id="0b33b-110">On the **Home** page, you'll see the **User management** card.</span></span> 
     
-    ![Карточка управления "Пользователь" в Центре администрирования Microsoft 365](../media/060006e9-de61-49d5-8979-e77cda198e71.png)
+    ![Карточка управления пользователем в центре администрирования Microsoft 365](../media/060006e9-de61-49d5-8979-e77cda198e71.png)
   
-3. <span data-ttu-id="03707-112">На карточке выберите **ошибки** синхронизации в **Azure AD Connect,** чтобы увидеть ошибки на странице **ошибок синхронизации каталогов.**</span><span class="sxs-lookup"><span data-stu-id="03707-112">On the card, choose **Sync errors** under **Azure AD Connect** to see the errors on the **Directory sync errors** page.</span></span>   
+3. <span data-ttu-id="0b33b-112">На карте выберите ошибки **синхронизации** в **Azure AD Connect,** чтобы увидеть ошибки на странице ошибки синхронизации Каталог. </span><span class="sxs-lookup"><span data-stu-id="0b33b-112">On the card, choose **Sync errors** under **Azure AD Connect** to see the errors on the **Directory sync errors** page.</span></span>   
     
-    ![Пример страницы ошибок синхронизации каталогов](../media/882094a3-80d3-4aae-b90b-78b27047974c.png)
+    ![Пример страницы ошибки синхронизации Directory](../media/882094a3-80d3-4aae-b90b-78b27047974c.png)
 
-4. <span data-ttu-id="03707-114">Выберите любую из ошибок, чтобы отобразить в области сведений сведения об ошибке и советы по ее устранению.</span><span class="sxs-lookup"><span data-stu-id="03707-114">Choose any of the errors to display the details pane with information about the error and tips on how to fix it.</span></span>
+4. <span data-ttu-id="0b33b-114">Выберите любую из ошибок для отображения области сведений с информацией об ошибке и советами по ее исправлению.</span><span class="sxs-lookup"><span data-stu-id="0b33b-114">Choose any of the errors to display the details pane with information about the error and tips on how to fix it.</span></span>
 
-   ![Пример ошибки синхронизации каталогов](../media/a6e302d4-6be7-4e3a-b4b5-81c5a2c02952.png)
+   ![Пример сведений об ошибке синхронизации каталогов](../media/a6e302d4-6be7-4e3a-b4b5-81c5a2c02952.png)
   
-<span data-ttu-id="03707-116">После просмотра см. устранение проблем с синхронизацией службы каталогов [для Microsoft 365,](fix-problems-with-directory-synchronization.md) чтобы устранить выявленные проблемы.</span><span class="sxs-lookup"><span data-stu-id="03707-116">After viewing, see [fixing problems with directory synchronization for Microsoft 365](fix-problems-with-directory-synchronization.md) to correct any identified issues.</span></span>
-
+<span data-ttu-id="0b33b-116">После просмотра см. исправление проблем с синхронизацией каталогов [для Microsoft 365](fix-problems-with-directory-synchronization.md) для устранения выявленных проблем.</span><span class="sxs-lookup"><span data-stu-id="0b33b-116">After viewing, see [fixing problems with directory synchronization for Microsoft 365](fix-problems-with-directory-synchronization.md) to correct any identified issues.</span></span>
