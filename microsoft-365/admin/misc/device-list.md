@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: Узнайте, как сделать CSV-файл для AutoPilot в Microsoft 365 для бизнеса.
-ms.openlocfilehash: 030fb96e9e60c792fb685af57d34eacd6670645a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Узнайте, как сделать CSV-файл для autoPilot в Microsoft 365 для бизнеса.
+ms.openlocfilehash: 78a9012bac054329bdb87b02757f49f30dd44f65
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399366"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914742"
 ---
 # <a name="device-list-csv-file"></a>CSV-файл со списком устройств
 
@@ -50,9 +50,8 @@ ms.locfileid: "44399366"
   
 ## <a name="related-articles"></a>Статьи по теме
 
-[Документация и ресурсы по Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Microsoft 365 для бизнес-документации и ресурсов](../../business/index.yml)
   
-[Начало работы с Microsoft 365 для бизнеса](https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview)
+[Начало работы с Microsoft 365 для бизнеса](../../business/microsoft-365-business-overview.md)
   
-[Управление Microsoft 365 для бизнеса](https://docs.microsoft.com/microsoft-365/business/manage)
-  
+[Управление Microsoft 365 для бизнеса](../../business/manage.md)

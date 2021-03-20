@@ -1,5 +1,5 @@
 ---
-title: Добавление фирменой марки компании на страницу "Вход"
+title: Добавление фирменого знака вашей компании на страницу Вход в
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,25 +21,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
-description: Настройте страницу для входов в Microsoft 365 с помощью Azure Active Directory. На страницу для входов можно добавить иллюстрацию, логотип и текст.
-ms.openlocfilehash: 9a4e18aeb050fe128ded1ea83756256a386a0fb4
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Настройка страницы регистрации Microsoft 365 с помощью Azure Active Directory. На страницу входного знака можно добавить иллюстрацию, логотип и текст.
+ms.openlocfilehash: 1bd9a60c9c3bbe839652785deb2eb52d5b385673
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926910"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914166"
 ---
-# <a name="add-your-company-branding-to-the-sign-in-page"></a>Добавление фирменой марки компании на страницу "Вход"
+# <a name="add-your-company-branding-to-the-sign-in-page"></a>Добавление фирменого знака вашей компании на страницу Вход в
 
- Теперь вы можете использовать подписку На Azure Active Directory (AD), включенную в вашу подписку на Microsoft 365, для настройки страницы входов, которую видят ваши пользователи. 
+ Теперь вы можете использовать подписку Azure Active Directory (AD), которая включена в подписку Microsoft 365, чтобы настроить страницу регистрации, которую видят пользователи. 
   
 ## <a name="add-company-branding-to-your-sign-in-page-and-access-panel-pages"></a>Добавление фирменной символики компании на страницы входа и панели доступа
 
-Если у вас есть платная подписка на Microsoft 365 для бизнеса, Microsoft Dynamics CRM Online Enterprise Mobility Suite или другие службы Майкрософт, у вас есть бесплатная подписка на Azure Active Directory. Azure Active Directory можно использовать для создания учетных записей пользователей и групп, а также для управления ими, а также добавления фирменой марки компании на страницы. Чтобы активировать эту подписку и получить доступ к порталу управления Microsoft Azure, необходимо выполнить разовую регистрацию. После этого вы сможете получить доступ к Azure Active Directory из службы Майкрософт, которая ее использует. Инструкции по регистрации подписки на Microsoft 365 см. в подстановок на регистрацию бесплатной подписки [Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966)и в общих инструкциях по управлению каталогом подписки [на Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=620076) в Azure. 
+Если у вас есть платная подписка на Microsoft 365 для бизнеса, Microsoft Dynamics CRM Online, корпоративной мобильности Suite или других служб Майкрософт, у вас есть бесплатная подписка на Azure Active Directory. Вы можете использовать Azure Active Directory для создания и управления учетными записями пользователей и групп, а также добавления фирменни на свои страницы. Чтобы активировать эту подписку и получить доступ к порталу управления Microsoft Azure, необходимо выполнить разовую регистрацию. После этого вы можете получить доступ к Azure Active Directory из службы Майкрософт, которая использует ее. Инструкции по регистрации подписки Microsoft 365 см. в журнале Register [your free Azure Active Directory subscription](../../compliance/use-your-free-azure-ad-subscription-in-office-365.md), а также в руководстве каталогом подписки Microsoft [365](/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) в Azure для общих инструкций по управлению. 
   
 На рисунке ниже показано, какие элементы страницы входа можно изменить в Azure.
   
-![Области страницы для входов, которые можно настроить.](../../media/screenshotbranding.png)
+![Области страницы регистрации, которые можно настроить.](../../media/screenshotbranding.png)
   
 1. Большое изображение и цвет его фона
     
@@ -49,4 +49,4 @@ ms.locfileid: "49926910"
     
 Помимо страницы входа, в Azure также можно настроить страницу панели доступа.
   
-Если вы готовы добавить фирменную символику, ознакомьтесь с возможностями настройки с использованием содержимого Azure: [Добавление фирменной символики компании на страницы входа и панели доступа](https://go.microsoft.com/fwlink/p/?LinkId=620077).
+Если вы готовы добавить фирменную символику, ознакомьтесь с возможностями настройки с использованием содержимого Azure: [Добавление фирменной символики компании на страницы входа и панели доступа](/azure/active-directory/fundamentals/customize-branding).

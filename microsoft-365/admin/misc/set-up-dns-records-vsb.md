@@ -20,12 +20,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как проверить свой домен и создать записи DNS в Microsoft 365.
 ms.custom:
 - AdminSurgePortfolio
-ms.openlocfilehash: c5c33af8a5635d1092aec2f1bffdfc942f2e4851
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 506ee887edbc59956aee11059a7085bc4b22624e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126339"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914598"
 ---
 # <a name="connect-your-domain-to-microsoft-365"></a>Подключение домена к Microsoft 365
 
@@ -72,10 +72,10 @@ ms.locfileid: "50126339"
 
 Сохраните запись.
 
-Проверьте запись SPF, используя одно из этих [средств проверки SPF](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain).
+Проверьте запись SPF, используя одно из этих [средств проверки SPF](/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain).
 
 Инфраструктура политики отправителей (SPF) призвана предотвратить спуфинг, но существуют некоторые методики, позволяющие обойти ее. Чтобы защититься от таких атак, по завершении настройки SPF необходимо настроить DKIM и DMARC для Microsoft 365.
 
-Чтобы начать, см. статьи [Проверка исходящей электронной почты, отправляемой со своего домена в Microsoft 365, с помощью DKIM](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx) и [Использование DMARC для проверки электронной почты в Microsoft 365](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx).
+Чтобы начать, см. статьи [Проверка исходящей электронной почты, отправляемой со своего домена в Microsoft 365, с помощью DKIM](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) и [Использование DMARC для проверки электронной почты в Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
 
 Затем вернитесь в мастер настройки домена центра администрирования, чтобы завершить настройку.

@@ -24,20 +24,20 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
-description: 'Измените исходный адрес электронной почты на адрес электронной почты, такой как tom@fourthcoffee.com. Для этого необходимо приобрести доменное имя и добавить его в Microsoft 365. '
-ms.openlocfilehash: 445b78f759cee79a794f9656afd5b26051534e26
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+description: 'Измените начальный адрес электронной почты на дружественный адрес электронной почты, например tom@fourthcoffee.com. Для этого необходимо купить доменное имя и добавить его в Microsoft 365. '
+ms.openlocfilehash: 10dff4e0523062ae763c08a972563dc8b5582038
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114025"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915930"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Изменение адреса электронной почты с использованием пользовательского домена
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -45,27 +45,27 @@ ms.locfileid: "50114025"
   
 ::: moniker range="o365-worldwide"
 
-Исходный адрес электронной почты в Microsoft 365 включает .onmicrosoft.com, например tom@fourthcoffee.onmicrosoft.com. Вы можете изменить его на более понятный адрес, например ivan@fourthcoffee.com. Сначала вам потребуется получить собственное доменное имя, например fourthcoffee.com. Если оно у вас уже есть, отлично! Если нет, вы можете узнать, как [приобрести имя у регистратора доменных имен](../get-help-with-domains/buy-a-domain-name.md).
+Начальный адрес электронной почты в Microsoft 365 включает в себя .onmicrosoft.com, например tom@fourthcoffee.onmicrosoft.com. Вы можете изменить его на более понятный адрес, например ivan@fourthcoffee.com. Сначала вам потребуется получить собственное доменное имя, например fourthcoffee.com. Если оно у вас уже есть, отлично! Если нет, вы можете узнать, как [приобрести имя у регистратора доменных имен](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Исходный адрес электронной почты в Office 365 Germany включает .onmicrosoft.de, например tom@fourthcoffee.onmicrosoft.de. Вы можете изменить его на более дружелюбный адрес, например tom@fourthcoffee.de. Вам потребуется собственное доменное имя, например, fourthcoffee.de первым. Если оно у вас уже есть, отлично! Если нет, вы можете узнать, как [приобрести имя у регистратора доменных имен](../get-help-with-domains/buy-a-domain-name.md).
+Начальный адрес электронной почты в Office 365 в Германии включает в себя .onmicrosoft.de, например tom@fourthcoffee.onmicrosoft.de. Вы можете изменить его на более дружелюбный адрес, например tom@fourthcoffee.de. Сначала вам потребуется собственное доменное имя, например fourthcoffee.de. Если оно у вас уже есть, отлично! Если нет, вы можете узнать, как [приобрести имя у регистратора доменных имен](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Исходный адрес электронной почты в Службе Office 365 под управлением 21Vianet включает partner.onmschina.cn, например tom@fourthcoffee.partner.onmschina.cn. Вы можете изменить его на более дружелюбный адрес, например tom@fourthcoffee.cn. Вам потребуется собственное доменное имя, например, fourthcoffee.cn первым. Если оно у вас уже есть, отлично! Если нет, вы можете узнать, как [приобрести имя у регистратора доменных имен](../get-help-with-domains/buy-a-domain-name.md).
+Начальный адрес электронной почты в Office 365, управляемый 21Vianet, включает partner.onmschina.cn, например tom@fourthcoffee.partner.onmschina.cn. Вы можете изменить его на более дружелюбный адрес, например tom@fourthcoffee.cn. Вам понадобится собственное доменное имя, например fourthcoffee.cn сначала. Если оно у вас уже есть, отлично! Если нет, вы можете узнать, как [приобрести имя у регистратора доменных имен](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
-При изменении электронной почты домена на Microsoft 365 путем обновления записи MX домена во время настройки все сообщения, от отправленные в этот домен, будут отправляться в Microsoft 365. Перед изменением записи MX убедитесь, что вы добавили пользователей и создали почтовые ящики в Microsoft 365 для всех, у кого есть электронная почта в вашем домене. Не хотите перемещать электронную почту для всех в вашем домене в Microsoft 365? Вы можете предпринять действия для [пилотного проекта Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain?view=o365-worldwide)с несколькими адресами электронной почты.
+При изменении электронной почты домена для отправки в Microsoft 365 при обновлении записи MX домена во время настройки все отправленные в этот домен электронные письма начнут приходить в Microsoft 365. Убедитесь, что вы добавили пользователей и создали почтовые ящики в Microsoft 365 для всех, у кого есть электронная почта на вашем домене, прежде чем изменить запись MX. Не хотите перемещать электронную почту для всех на домене в Microsoft 365? Вы можете предпринять действия для [пилотирования Microsoft 365 с помощью нескольких адресов электронной почты.](../misc/pilot-microsoft-365-from-my-custom-domain.md?view=o365-worldwide)
   
-## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Изменение адреса электронной почты для использования настраиваемого домена с помощью Центра администрирования Microsoft 365
+## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Измените адрес электронной почты, чтобы использовать настраиваемый домен с помощью центра администрирования Microsoft 365
 
-Для выполнения этих действий необходимо иметь учетную запись глобального администратора. 
+Для выполнения этих действий необходимо иметь глобальную учетную запись администратора. 
 
 ::: moniker range="o365-worldwide"
 
@@ -81,22 +81,21 @@ ms.locfileid: "50114025"
 
 ::: moniker range="o365-21vianet"
 
-1. Перейдите в Центр <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>администрирования по 
+1. Перейдите в центр <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>администрирования по крайней . 
 
 ::: moniker-end 
 
-2. Перейдите на **страницу "Домены**  >  **установки".** 
+2. Перейдите на **страницу Setup**  >  **Domains.** 
 
 3. На странице **Домены** выберите **Добавить домен**.
     
 4. Следуйте указаниям, чтобы подтвердить право собственности на домен и изменить адрес электронной почты.
     
-Вы получите руководство по правильной настройкам домена в Microsoft 365.
+Вы будете руководствоваться, чтобы все правильно настроить с доменом в Microsoft 365.
 
 > [!NOTE]
-> Если вы не используете лицензию Exchange, вы не можете использовать домен для отправки и получения сообщений электронной почты от клиента Microsoft 365.
+> Если вы не используете лицензию Exchange, вы не можете использовать домен для отправки или получения сообщений электронной почты от клиента Microsoft 365.
   
 ## <a name="related-articles"></a>Статьи по теме
 
-[Покупка пользовательского домена с помощью Microsoft 365](../get-help-with-domains/buy-a-domain-name.md)
- 
+[Купить настраиваемый домен с помощью Microsoft 365](../get-help-with-domains/buy-a-domain-name.md)

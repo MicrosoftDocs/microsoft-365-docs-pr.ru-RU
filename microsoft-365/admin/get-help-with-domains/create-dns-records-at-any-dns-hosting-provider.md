@@ -20,12 +20,12 @@ description: Узнайте, как проверить свой домен и с
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 01fd78033afb6add41975826ed8daddf052826b2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: d6e8a5a0e23bf9bb9e302566a72b9e1cc6b7bff4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655604"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915654"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Добавление записей DNS для подключения своего домена
 
@@ -125,11 +125,11 @@ ms.locfileid: "49655604"
 
 Сохраните запись.
 
-Проверьте запись SPF, используя одно из этих [средств проверки SPF](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain).
+Проверьте запись SPF, используя одно из этих [средств проверки SPF](/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain).
 
 Инфраструктура политики отправителей (SPF) призвана предотвратить спуфинг, но существуют некоторые методики, позволяющие обойти ее. Чтобы защититься от таких атак, по завершении настройки SPF необходимо настроить DKIM и DMARC для Microsoft 365. 
 
-Чтобы начать, см. статьи [Проверка исходящей электронной почты, отправляемой со своего домена в Microsoft 365, с помощью DKIM](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx) и [Использование DMARC для проверки электронной почты в Microsoft 365](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx).
+Чтобы начать, см. статьи [Проверка исходящей электронной почты, отправляемой со своего домена в Microsoft 365, с помощью DKIM](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) и [Использование DMARC для проверки электронной почты в Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
 
 ### <a name="add-srv-records-for-communications-services-teams-skype-for-business"></a>Добавление записей SRV для служб связи (Teams, Skype для бизнеса)
 

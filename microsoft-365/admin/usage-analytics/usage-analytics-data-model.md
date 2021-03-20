@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Узнайте, как аналитика использования подключается к API и предоставляет ежемесячную тенденцию использования различных служб Microsoft 365.  '
-ms.openlocfilehash: 7d1e797fc388934f66ddc45d2e7f51566e89ad23
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: 1975fc0bdba279b281fb45c8aec22255579ef414
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758944"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913854"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Модель данных аналитики использования Microsoft 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "50758944"
 Аналитика использования Microsoft 365 подключается к API, который предоставляет многомерную модель данных. API, которые аналитика использования Microsoft 365 использует для создания своих данных, являются из различных, общедоступные, API Graph. Функция API аналитики использования Microsoft 365 сама по себе недоступна.
   
 > [!NOTE]
-> Дополнительные сведения см. в работе с отчетами об использовании [Microsoft 365 в Microsoft Graph.](https://go.microsoft.com/fwlink/p/?linkid=864336) 
+> Дополнительные сведения см. в работе с отчетами об использовании [Microsoft 365 в Microsoft Graph.](/graph/api/resources/report) 
   
 Этот API предоставляет сведения о ежемесячном тренде использования различных служб Microsoft 365. Точные данные, возвращаемые API, описаны в таблице ниже.
   
@@ -295,5 +295,3 @@ ms.locfileid: "50758944"
 |WinRtCount  <br/> |Количество активаций на устройствах Windows Mobile для каждого плана обслуживания на конец периода.  <br/> |
 |Timeframe  <br/> |Этот столбец содержит значение даты. Используется в качестве связи "многие к одному" с таблицей Calendar.  <br/> |
 |Content Date  <br/> |Если в столбце Timeframe указан текущий месяц, это значение представляет последнюю дату текущего месяца, на которую доступны данные.  <br/> Если в столбце Timeframe указан предыдущий месяц, это значение представляет его последнюю дату.  <br/> |
-   
-

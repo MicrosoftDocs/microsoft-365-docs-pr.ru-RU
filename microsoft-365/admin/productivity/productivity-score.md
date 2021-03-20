@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор оценки производительности (Майкрософт).
-ms.openlocfilehash: 72f9bcfb273912629744ec25ad9c0be720e76081
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: d818bd766f76f3df6c67a740d6ad1994a2be66de
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838429"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914586"
 ---
 # <a name="microsoft-productivity-score"></a>Оценка производительности (Майкрософт) 
 
@@ -44,7 +44,7 @@ ms.locfileid: "50838429"
 
 - **Эффективность технологий:** Ваша организация зависит не только от эффективного использования Microsoft 365, но и от надежных и хорошо работающих технологий. [Аналитика конечных точек](https://aka.ms/endpointanalytics) помогает понять, как производительность аппаратного и программного обеспечения влияет на вашу организацию. Работоспособность приложений Microsoft 365 позволяет определить, используют ли устройства в вашей организации приложения Microsoft 365 на рекомендуемых каналах.
 
-Дополнительные сведения см. в статье [Что такое аналитика конечных точек?](https://docs.microsoft.com/mem/analytics/overview). Дополнительные сведения об аналитике сетевого подключения Microsoft 365 см. в статье [Обзор сетевого подключения](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview).
+Дополнительные сведения см. в статье [Что такое аналитика конечных точек?](/mem/analytics/overview). Дополнительные сведения об аналитике сетевого подключения Microsoft 365 см. в статье [Обзор сетевого подключения](../../enterprise/microsoft-365-networking-overview.md).
   
 
 ## <a name="how-the-score-is-calculated"></a>Метод вычисления оценки
@@ -74,7 +74,8 @@ ms.locfileid: "50838429"
 
 ## <a name="prerequisites"></a>Предварительные требования 
 
-Для доступа к данным об эффективности сотрудников требуется подписка Microsoft 365 для бизнеса или Office 365 для предприятий. Для доступа к данным аналитики конечных точек клиента необходимо добавить Microsoft Intune в подписку. Intune помогает защитить данные организации, управляя устройствами и приложениями. После добавления Intune можно включить аналитику конечных точек в его интерфейсе. Подробнее о [Microsoft Intune](https://docs.microsoft.com/mem/intune/). 
+Для доступа к данным об эффективности сотрудников требуется подписка Microsoft 365 для бизнеса или Office 365 для предприятий. Для доступа к данным аналитики конечных точек клиента необходимо добавить Microsoft Intune в подписку. Intune помогает защитить данные организации, управляя устройствами и приложениями. После добавления Intune можно включить аналитику конечных точек в его интерфейсе. Подробнее о [Microsoft Intune](/mem/intune/). 
+
 > [!NOTE]
 > Для получения доступа к возможностям оценки производительности лицензия на Рабочую аналитику не требуется.
 
@@ -129,7 +130,7 @@ ms.locfileid: "50838429"
 - [Мобильность — эффективность пользователей](mobility.md)
 - [Командная работа — эффективность пользователей](teamwork.md)
 - [Работоспособность приложений Microsoft 365 — эффективность технологий](apps-health.md)
-- [Аналитика конечных точек](https://docs.microsoft.com/mem/analytics/productivity-score)
+- [Аналитика конечных точек](/mem/analytics/productivity-score)
 
 ## <a name="business-continuity-special-report"></a>Специальный отчет о непрерывности бизнеса
 
@@ -143,12 +144,12 @@ ms.locfileid: "50838429"
 
 - Способствуют ли удаленные собрания эффективному принятию решений.
 
-[Подробнее об отчете о непрерывности бизнеса](https://aka.ms/bcrps)
+[Подробнее об отчете о непрерывности бизнеса](/Workplace-Analytics/tutorials/bcrps)
 
-[Подробнее о Microsoft Graph](https://docs.microsoft.com/graph/)
+[Подробнее о Microsoft Graph](/graph/)
 
 > [!NOTE]
-> Пользователи также могут получать аналитику производительности с [панели мониторинга MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2).
+> Пользователи также могут получать аналитику производительности с [панели мониторинга MyAnalytics](/workplace-analytics/myanalytics/use/dashboard-2).
 
 
 ## <a name="we-want-to-hear-from-you"></a>Мы ждем ваших отзывов!

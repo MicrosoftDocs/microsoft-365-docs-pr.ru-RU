@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: Используйте центр администрирования Microsoft 365 или Windows PowerShell для удаления календарей Bookings.
-ms.openlocfilehash: 7407298adb402de79a1010b51544deee4b94cf5a
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: 7b79628327797d2e315d31e1b1a2671f0b24e447
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50604024"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913782"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Удаление календаря бронирования в Bookings
 
@@ -46,7 +46,7 @@ ms.locfileid: "50604024"
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Удаление календаря бронирования с помощью Exchange Online PowerShell
 
-Предварительные условия и рекомендации по подключению к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) см. в обзоре Connect to Exchange Online PowerShell.
+Предварительные условия и рекомендации по подключению к [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) см. в обзоре Connect to Exchange Online PowerShell.
 
 Для выполнения этих действий необходимо использовать активное командное окно Microsoft PowerShell, которое было выполнено, выбрав параметр "Запуск в качестве администратора".
 
@@ -57,7 +57,7 @@ ms.locfileid: "50604024"
    ```
 
    > [!NOTE]
-   > Если [модуль EXO v2 уже установлен](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module), предыдущая команда будет действовать как написанная.
+   > Если [модуль EXO v2 уже установлен](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module), предыдущая команда будет действовать как написанная.
    
 2. В команде, которую вам нужно выполнить, используется следующий синтаксис:
 

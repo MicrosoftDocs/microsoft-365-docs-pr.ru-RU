@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как использовать Outlook и Microsoft Teams для совместной работы.
-ms.openlocfilehash: 14a3cdf28c4e0c855671c67af36fa25ac47c6568
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: dd1030833a10678b4630d9e86905c98d30ac15fe
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422835"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913662"
 ---
 # <a name="use-outlook-and-teams-together"></a>Одновременное использование Outlook и Teams
 
@@ -50,8 +50,8 @@ ms.locfileid: "50422835"
 
 :::image type="content" source="../media/teams-model.png" alt-text="Стилизованный образ домашней страницы Microsoft Teams."::: 
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Что такое Outlook?](https://support.microsoft.com/office10f1fa35-f33a-4cb7-838c-a7f3e6228b20)
 
-[Обзор команд](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
+[Обзор команд](/MicrosoftTeams/Teams-overview)

@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Узнайте об использовании централизованных надстройок для развертывания надстройок для пользователей и групп в организации.
-ms.openlocfilehash: b888c0f329e3f1f36f5aa566df7efbab07cd1f5f
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 0750b6c9b91bc5cbd67d227fadb304bfc6cf7537
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509138"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915402"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Управление надстройками в Центре администрирования
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -40,7 +40,7 @@ ms.locfileid: "50509138"
 
 После развертывания администратором надстройки для пользователей в организации администратор может отключить или включить надстройки, изменить, удалить и управлять доступом к надстройки.
 
-Дополнительные сведения об установке надстройок из центра администрирования см. в дополнительных сведениях о развертывании надстройок [в центре администрирования.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
+Дополнительные сведения об установке надстройок из центра администрирования см. в дополнительных сведениях о развертывании надстройок [в центре администрирования.](./manage-deployment-of-add-ins.md)
   
 ## <a name="add-in-states"></a>Состояния надстроек
 
@@ -87,7 +87,7 @@ ms.locfileid: "50509138"
 ## <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a>Предотвращение скачивания надстройки путем отключения магазина Office для всех клиентов (кроме Outlook)
 
 > [!NOTE]
-> Установка надстройки Outlook управляется другим [процессом.](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx)
+> Установка надстройки Outlook управляется другим [процессом.](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins)
 
 Как организация вы можете запретить скачивание новых надстройок Office из Магазина Office. Это можно использовать совместно с централизованным развертыванием, чтобы обеспечить развертывание только утвержденных организацией надстройок для пользователей в организации.
   
@@ -131,10 +131,10 @@ ms.locfileid: "50509138"
     
 Это не мешает администратору использовать централизованное развертывание для назначения надстройки из магазина Office.
   
-Чтобы предотвратить вход пользователя в учетную запись Майкрософт, можно ограничить использование только учетной записи организации. Дополнительные сведения см. в [рублях Identity, authentication и authorization in Office 2016.](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx)  
+Чтобы предотвратить вход пользователя в учетную запись Майкрософт, можно ограничить использование только учетной записи организации. Дополнительные сведения см. в [рублях Identity, authentication и authorization in Office 2016.](/DeployOffice/security/identity-authentication-and-authorization-in-office)  
 
 > [!NOTE]
-> Если пользователи не смогут получить доступ в офисный магазин, они также не смогут выгружать надстройки [Office для тестирования.](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)
+> Если пользователи не смогут получить доступ в офисный магазин, они также не смогут выгружать надстройки [Office для тестирования.](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)
 
 ## <a name="more-about-the-end-user-experience-with-add-ins"></a>Дополнительные данные о пользовательском интерфейсе с надстройки
 
@@ -162,12 +162,12 @@ ms.locfileid: "50509138"
 
 ## <a name="learn-more"></a>Подробнее
 
-[Развертывание надстроек в Центре администрирования](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
+[Развертывание надстроек в Центре администрирования](./manage-deployment-of-add-ins.md)
 
-Получите дополнительные сведения о создании [надстроек Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).
+Получите дополнительные сведения о создании [надстроек Office](/office/dev/add-ins/overview/office-add-ins).
   
-Для управления надстройными надстройки используйте централизованные [комлеты Deployment PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
+Для управления надстройными надстройки используйте централизованные [комлеты Deployment PowerShell.](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)
   
-[Устранение неполадок. Пользователь не видит надстройки](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+[Устранение неполадок. Пользователь не видит надстройки](/office365/troubleshoot/access-management/user-not-seeing-add-ins)
 
-[Несовершеннолетние и приобретение надстройок в Microsoft Store](https://docs.microsoft.com/microsoft-365/admin/manage/minors-and-acquiring-addins-from-the-store)
+[Несовершеннолетние и приобретение надстройок в Microsoft Store](./minors-and-acquiring-addins-from-the-store.md)

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как протестировать пересылку электронной почты из личного домена в почтовый ящик Microsoft 365, используя всего две тестовые учетные записи.
-ms.openlocfilehash: 6cc5b1163f666af4bd13047ab3b1fda7fd747b5f
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 019f1786756a036132f95fd5e8ef8a1d42cd515b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688221"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914718"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>Тестирование Microsoft 365 с личного домена
 
@@ -32,7 +32,7 @@ ms.locfileid: "49688221"
 
 - Вы должны управлять записями DNS Microsoft 365 у своего поставщика услуг размещения DNS. Microsoft 365 не будет управлять этими записями вместо вас.
 
-    Дополнительные сведения см. в статье [Добавление записей DNS для подключения своего домена](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+    Дополнительные сведения см. в статье [Добавление записей DNS для подключения своего домена](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
 
 - Сведения о занятости для пользователей на другом почтовом сервере недоступны.
 
@@ -115,22 +115,22 @@ ms.locfileid: "49688221"
 
 Убедитесь, что в Microsoft 365 или Office 365 выполнены следующие действия:
 
-1. Перед настройкой соединителей должны быть назначены разрешения. Чтобы узнать, какие необходимы разрешения, см. запись о соединителях Microsoft 365 или Office 365 в разделе [Разрешения на функции в службе EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/feature-permissions-in-eop).
+1. Перед настройкой соединителей должны быть назначены разрешения. Чтобы узнать, какие необходимы разрешения, см. запись о соединителях Microsoft 365 или Office 365 в разделе [Разрешения на функции в службе EOP](../../security/office-365-security/feature-permissions-in-eop.md).
 
 2. Чтобы служба EOP или Exchange Online ретранслировала почту с ваших почтовых серверов в Интернет, выполните одно из двух следующих действий:
 
-   - Используйте сертификат, в котором имя субъекта соответствует обслуживаемому домену в Microsoft 365 или Office 365. Рекомендуется, чтобы общее имя сертификата или дополнительное имя субъекта соответствовало основному домену SMTP вашей организации. Подробнее см. в статье [Необходимые условия для локальной среды электронной почты](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#prerequisites-for-your-on-premises-email-environment).
+   - Используйте сертификат, в котором имя субъекта соответствует обслуживаемому домену в Microsoft 365 или Office 365. Рекомендуется, чтобы общее имя сертификата или дополнительное имя субъекта соответствовало основному домену SMTP вашей организации. Подробнее см. в статье [Необходимые условия для локальной среды электронной почты](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#prerequisites-for-your-on-premises-email-environment).
 
    -ИЛИ-
 
    - Убедитесь, что все домены и поддомены отправки почты организации настроены как обслуживаемые домены в Microsoft 365 или Office 365.
 
-   Подробнее об определении обслуживаемых доменов см. в статьях [Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) и [Включение потока обработки почты для поддоменов в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains).
+   Подробнее об определении обслуживаемых доменов см. в статьях [Управление обслуживаемыми доменами в Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) и [Включение потока обработки почты для поддоменов в Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains).
 
-3. Решите, как будет доставляться почта из Microsoft 365 или Office 365 на ваши почтовые серверы: с помощью правил потока обработки почты (которые называют также правилами транспорта) или доменных имен. Большинство организаций предпочитают доставку почты для всех обслуживаемых доменов. Подробнее см. в разделе [Сценарий: условная маршрутизация почты в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing).
+3. Решите, как будет доставляться почта из Microsoft 365 или Office 365 на ваши почтовые серверы: с помощью правил потока обработки почты (которые называют также правилами транспорта) или доменных имен. Большинство организаций предпочитают доставку почты для всех обслуживаемых доменов. Подробнее см. в разделе [Сценарий: условная маршрутизация почты в Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing).
 
 > [!NOTE]
-> Вы можете настроить правила потока обработки почты, как описано в разделе [Действия, связанные с правилами обработки почты в Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions). Например, вам может потребоваться использовать правила потока обработки почты с соединителями, если сейчас ваша почта направляется на несколько сайтов через списки рассылки.
+> Вы можете настроить правила потока обработки почты, как описано в разделе [Действия, связанные с правилами обработки почты в Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions). Например, вам может потребоваться использовать правила потока обработки почты с соединителями, если сейчас ваша почта направляется на несколько сайтов через списки рассылки.
 
 ### <a name="2-set-up-a-connector-from-microsoft-365-or-office-365-to-your-email-server"></a>2. Настройка соединителя от Microsoft 365 или Office 365 к вашему серверу электронной почты.
 
@@ -140,13 +140,13 @@ ms.locfileid: "49688221"
 
 Чтобы запустить мастер, нажмите знак плюса **+**. На первом экране выберите **Из** Office 365 и **В** почтовый сервер вашей организации.
 
-Нажмите кнопку **Далее** и следуйте указаниям мастера. Если вам требуются дополнительные сведения, выберите ссылки **Справка** или **Подробнее**. Мастер поможет вам выполнить настройку. В конце убедитесь, что соединитель выполняет проверку. Если соединитель не выполняет проверку, дважды щелкните на появившемся сообщении, чтобы получить дополнительные сведения, а также ознакомьтесь с разделом [Проверка соединителей](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors), где приведены рекомендации по устранению проблем.
+Нажмите кнопку **Далее** и следуйте указаниям мастера. Если вам требуются дополнительные сведения, выберите ссылки **Справка** или **Подробнее**. Мастер поможет вам выполнить настройку. В конце убедитесь, что соединитель выполняет проверку. Если соединитель не выполняет проверку, дважды щелкните на появившемся сообщении, чтобы получить дополнительные сведения, а также ознакомьтесь с разделом [Проверка соединителей](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors), где приведены рекомендации по устранению проблем.
 
 
 
 ### <a name="step-7-update-dns-records-at-your-dns-hosting-provider"></a>Шаг 7. Обновите записи DNS в системе поставщика услуг размещения DNS
 
-Войдите на сайт поставщика услуг размещения DNS и следуйте инструкциям, приведенным в статье [Добавление записей DNS для подключения своего домена](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Войдите на сайт поставщика услуг размещения DNS и следуйте инструкциям, приведенным в статье [Добавление записей DNS для подключения своего домена](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
 
 **Добавьте следующие исключения:**
 
@@ -190,4 +190,3 @@ ms.locfileid: "49688221"
 Так как вы переносите только двух тестовых пользователей, и оба пользователя (A и B) используют Outlook, вы можете переместить почту, открыв старый PST-файл в новом профиле Outlook и скопировав сообщения, элементы календаря, контакты и т. д. Подробные сведения см. в статье [Импорт писем, контактов и календаря Outlook из PST-файла](https://support.microsoft.com/office/import-email-contacts-and-calendar-from-an-outlook-pst-file-431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
 
 После импорта в почтовый ящик Microsoft 365 к элементам можно будет получить доступ с любого устройства.
-

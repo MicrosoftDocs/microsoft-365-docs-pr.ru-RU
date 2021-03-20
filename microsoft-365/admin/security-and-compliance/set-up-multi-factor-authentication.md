@@ -23,30 +23,30 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения о настройке многофакторной проверки подлинности для организации.
 monikerRange: o365-worldwide
-ms.openlocfilehash: d08ef54c545809bbb2277f8d0a8471245400a3ac
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 54c862d8f7c25472d84557e177a9107d2c14d846
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50514972"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914466"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
 
 С учетом знакомства с [многофакторной проверкой подлинности (MFA) и ее поддержкой в Microsoft 365](multi-factor-authentication-microsoft-365.md) пришло время развернуть и настроить ее для вашей организации.
 
 > [!IMPORTANT]
-> Если вы приобрели подписку или получили пробную версию после 21 октября 2019 г. и при выполнении входа вам предлагается пройти многофакторную проверку подлинности (MFA), это значит, что к вашей подписке были автоматически применены [параметры безопасности по умолчанию](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
+> Если вы приобрели подписку или получили пробную версию после 21 октября 2019 г. и при выполнении входа вам предлагается пройти многофакторную проверку подлинности (MFA), это значит, что к вашей подписке были автоматически применены [параметры безопасности по умолчанию](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
 - Управлять многофакторной проверкой подлинности (MFA) может только глобальный администратор. Дополнительные сведения см. в статье [О ролях администраторов](../add-users/about-admin-roles.md).
 - Если у вас включена устаревшая MFA для конкретных пользователей, [отключите устаревшую MFA для конкретных пользователей](#turn-off-legacy-per-user-mfa).
-- Если у вас есть клиенты Office 2013 на устройствах с Windows, [включите современную проверку подлинности для клиентов Office 2013](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication).
-- Дополнительно: если вы используете сторонние службы каталогов со службами федерации Active Directory (AD FS), настройте сервер Azure MFA. Дополнительные сведения см. в статье [Расширенные сценарии с использованием многофакторной проверки подлинности Azure AD и сторонних решений VPN](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn).
+- Если у вас есть клиенты Office 2013 на устройствах с Windows, [включите современную проверку подлинности для клиентов Office 2013](./enable-modern-authentication.md).
+- Дополнительно: если вы используете сторонние службы каталогов со службами федерации Active Directory (AD FS), настройте сервер Azure MFA. Дополнительные сведения см. в статье [Расширенные сценарии с использованием многофакторной проверки подлинности Azure AD и сторонних решений VPN](/azure/active-directory/authentication/howto-mfaserver-nps-vpn).
 
 ## <a name="turn-security-defaults-on-or-off"></a>Включение и отключение параметров безопасности по умолчанию
 
-Параметры безопасности по умолчанию обеспечивают подходящий для большинства организаций уровень безопасности при входе в систему. Дополнительные сведения см. в статье [Что такое параметры безопасности по умолчанию?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+Параметры безопасности по умолчанию обеспечивают подходящий для большинства организаций уровень безопасности при входе в систему. Дополнительные сведения см. в статье [Что такое параметры безопасности по умолчанию?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
 Если у вас новая подписка, то параметры безопасности по умолчанию могли быть включены автоматически.
 
@@ -58,7 +58,7 @@ ms.locfileid: "50514972"
 4. В нижней части страницы щелкните **Управление параметрами безопасности по умолчанию**.
 5. Выберите **Да**, чтобы включить параметры безопасности по умолчанию, или **Нет**, чтобы их отключить, а затем нажмите **Сохранить**.
 
-Если у вас включены [базовые политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection), вам будет предложено отключить их до перехода к использованию параметров безопасности по умолчанию.
+Если у вас включены [базовые политики условного доступа](/azure/active-directory/conditional-access/concept-baseline-protection), вам будет предложено отключить их до перехода к использованию параметров безопасности по умолчанию.
 
 1. Выберите [Условный доступ — страница "Политики"](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies).
 2. Выберите все базовые политики в состоянии **Вкл.** и установите для параметра **Включить политику** состояние **Выкл**.
@@ -73,9 +73,9 @@ ms.locfileid: "50514972"
 > [!IMPORTANT]
 > Прежде чем включать политики условного доступа, отключите MFA для конкретных пользователей и параметры безопасности по умолчанию.
 
-Условный доступ могут использовать клиенты, которые приобрели Azure AD Premium P1 или лицензии, в которые входит эта служба, например Microsoft 365 бизнес премиум или Microsoft 365 E3. Для получения дополнительной информации см. статью [Создание политик условного доступа](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa).
+Условный доступ могут использовать клиенты, которые приобрели Azure AD Premium P1 или лицензии, в которые входит эта служба, например Microsoft 365 бизнес премиум или Microsoft 365 E3. Для получения дополнительной информации см. статью [Создание политик условного доступа](/azure/active-directory/authentication/tutorial-enable-azure-mfa).
 
-Условный доступ на основе риска доступен в рамках лицензии Azure AD Premium P2 или в рамках лицензий, в которую входит эта служба, например Microsoft 365 E5. Дополнительные сведения см. в статье [Условный доступ на основе рисков](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk).
+Условный доступ на основе риска доступен в рамках лицензии Azure AD Premium P2 или в рамках лицензий, в которую входит эта служба, например Microsoft 365 E5. Дополнительные сведения см. в статье [Условный доступ на основе рисков](/azure/active-directory/conditional-access/howto-conditional-access-policy-risk).
 
 Дополнительные сведения об Azure AD P1 и P2 см. в статье [Цены для Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
@@ -104,6 +104,6 @@ ms.locfileid: "50514972"
 
 ## <a name="related-topics"></a>Связанные статьи
 
-[Видео: включение многофакторной проверки подлинности](https://docs.microsoft.com/microsoft-365/business-video/turn-on-mfa)
+[Видео: включение многофакторной проверки подлинности](../../business-video/turn-on-mfa.md)
 
-[Видео: включение многофакторной проверки подлинности для телефона](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)
+[Видео: включение многофакторной проверки подлинности для телефона](../../business-video/set-up-mfa.md)

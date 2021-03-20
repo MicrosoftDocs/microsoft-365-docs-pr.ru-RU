@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 'Узнайте, как настроить сортировку почты для всех или отдельных пользователей организации. '
-ms.openlocfilehash: e6c77bdff00e7cd98f5034267699e19d8582db27
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 7059fbb886669af99c1471789cbbc623dc9719b8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551905"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914286"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Настройка сортировки почты для всех пользователей в организации
 
@@ -41,9 +41,9 @@ ms.locfileid: "49551905"
   
 В данном примере сортировка **отключается** для организации с помощью PowerShell. Но доступ пользователей к функции не блокируется. При желании они могут снова включить сортировку почты в своих клиентах. 
   
-1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Для выполнения этих процедур у вас должны быть соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Правила транспорта" статьи [Политика обмена сообщениями и разрешения для соответствия требованиям](https://go.microsoft.com/fwlink/p/?LinkId=829796).
+2. Для выполнения этих процедур у вас должны быть соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Правила транспорта" статьи [Политика обмена сообщениями и разрешения для соответствия требованиям](/exchange/messaging-policy-and-compliance-permissions-exchange-2013-help).
 
 3. Запустите командлет **Get-OrganizationConfig**. 
 
@@ -87,7 +87,7 @@ Get-OrganizationConfig
 
 В этом примере сортировка **выключается** для пользователя Tim Matthews в организации Contoso. Но его доступ к этой возможности не блокируется. При желании он может снова включить сортировку почты в своих клиентах. 
   
-1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Для выполнения этих процедур у вас должны быть соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Правила транспорта" статьи "Политика обмена сообщениями и разрешения для соответствия требованиям".
 
@@ -123,16 +123,16 @@ Get-OrganizationConfig
 
     В примере на приведенном ниже рисунке все сообщения с отправителем "Отдел выплат" будут выводиться в представлении "Отсортированные".
 
-    ![заработная плата в отсортированных](../../media/focusedinbox-transport-rule.PNG)
+    ![focusedinbox Payroll](../../media/focusedinbox-transport-rule.PNG)
 
 > [!NOTE]
 > Текст значения заголовка сообщения в этом примере: **X-MS-Exchange-Organization-BypassFocusedInbox**.
   
 ## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Создание правила транспорта для вывода сообщений в представление "Отсортированные" для всех пользователей с помощью PowerShell
 
-1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Для выполнения этих процедур у вас должны быть соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Правила транспорта" статьи [Политика обмена сообщениями и разрешения для соответствия требованиям](https://go.microsoft.com/fwlink/p/?LinkId=829796).
+2. Для выполнения этих процедур у вас должны быть соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Правила транспорта" статьи [Политика обмена сообщениями и разрешения для соответствия требованиям](/exchange/messaging-policy-and-compliance-permissions-exchange-2013-help).
 
 3. Чтобы все сообщения, например, с отправителем "Отдел выплат" выводились в представлении "Отсортированные", выполните следующую команду.
 
@@ -142,7 +142,7 @@ Get-OrganizationConfig
 
 > [!IMPORTANT]
 > В данном примере для параметров X-MS-Exchange-Organization-BypassFocusedInbox и true учитывается регистр.
-> Итак, функция сортировки почты будет учитывать X-заголовок, обходящий папку несрочных сообщений, поэтому если вы используете эту настройку в папке "Несрочные", она будет использоваться при сортировке. Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://go.microsoft.com/fwlink/p/?LinkId=830194).
+> Итак, функция сортировки почты будет учитывать X-заголовок, обходящий папку несрочных сообщений, поэтому если вы используете эту настройку в папке "Несрочные", она будет использоваться при сортировке. Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](/powershell/module/exchange/new-transportrule).
 
 ### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 

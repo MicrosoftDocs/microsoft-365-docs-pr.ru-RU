@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Обучайте своих пользователей и обеспечьте быстрое решение возникающих проблем.
-ms.openlocfilehash: a987a08b2ebd27f7a9cc299e5c8fbae0376437a3
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 662b0d6d7a40a69b3e5c10f3aeea63c2e5237d6d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681388"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916170"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Этап 6. Обучение сотрудников удаленной работе с учетом их отзывов
 
@@ -32,7 +32,7 @@ ms.locfileid: "48681388"
 - Использование устройств и способы применения политик управления конечными точками для блокирования доступа с не соответствующих требованиям или неуправляемых устройств.
 - Использование разрешенных приложений и способы применения политик приложений управления конечными точками для блокирования использования некоторых приложений.
 - Функции безопасности Windows 10 Корпоративная.
-- Способы использования [Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) для ведения чатов, видеоконференций, обмена документами и цепочек обсуждений.
+- Способы использования [Teams](/microsoftteams/training-microsoft-teams-landing-page) для ведения чатов, видеоконференций, обмена документами и цепочек обсуждений.
 - Способы использования [Outlook](https://support.office.com/article/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) для работы с электронной почтой и календарем.
 - Способы использования сайтов групп и информационных сайтов [SharePoint](https://support.office.com/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23) и папок [OneDrive](https://support.office.com/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132) для поиска файлов в библиотеке пользователя и принадлежащих группе файлов для совместной работы с ними.
 
@@ -50,4 +50,3 @@ ms.locfileid: "48681388"
 ## <a name="results-of-step-6"></a>Результаты этапа 6
 
 Ваши удаленные сотрудники получили обучение. У них есть живой и открытый форум, на котором можно предоставить отзывы и опубликовать сведения о проблемах с удаленным доступом, а также приложениями для повышения производительности.
-

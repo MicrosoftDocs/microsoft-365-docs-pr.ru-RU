@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: ce19085a358861238e9a7cd4d650246d08fd272d
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: 7b62191d08e5ff91e54bb16b06a0511e02f16b6d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055499"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916182"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 
@@ -42,7 +42,7 @@ ms.locfileid: "50055499"
 
 Приложение Teams позволяет общаться в чате, проводить собрания, звонить и совместно работать в одном месте. Миллионы людей ежедневно выполняют задачи в Teams, так как в этом центре командной работы объединено все необходимое для удаленной работы. 
 
-Подробные инструкции см. в разделе [Поддержка удаленных сотрудников с помощью Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams). 
+Подробные инструкции см. в разделе [Поддержка удаленных сотрудников с помощью Microsoft Teams](/microsoftteams/support-remote-work-with-teams). 
 
 Инструкции и демонстрации по использованию Teams для удаленной работы см. в [веб-трансляциях по поддержке гибридной работы с помощью Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
 
@@ -76,10 +76,10 @@ Teams предоставляет платформу для приложений 
 
 Вам может потребоваться перенести документы в SharePoint или OneDrive из:
 
-- [сайтов групп SharePoint Server](https://docs.microsoft.com/sharepointmigration/sp-teams-sites-migration-guide);
-- [личных сайтов](https://docs.microsoft.com/sharepointmigration/mysites-to-onedrive-migration-guide);
-- [общих папок](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide);
-- [Box](https://docs.microsoft.com/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide).
+- [сайтов групп SharePoint Server](/sharepointmigration/sp-teams-sites-migration-guide);
+- [личных сайтов](/sharepointmigration/mysites-to-onedrive-migration-guide);
+- [общих папок](/sharepointmigration/fileshare-to-odsp-migration-guide);
+- [Box](/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide).
 
 Рекомендуемые политики удостоверений и доступа с устройств для защиты SharePoint и OneDrive представлены в [этой статье](../security/office-365-security/sharepoint-file-access-policies.md).
 
@@ -87,15 +87,15 @@ Teams предоставляет платформу для приложений 
 
 Приложения Microsoft 365 — это наиболее эффективный и безопасный интерфейс Office для предприятий, позволяющий пользователям легко взаимодействовать откуда угодно и в любое время. Удаленные сотрудники могут совместно работать над документом одновременно с несколькими людьми: просматривать изменения и вносить их в реальном времени, а также совместно редактировать документы на любом ноутбуке, компьютере или мобильном устройстве.
 
-Дополнительные сведения см. в [руководстве по развертыванию для Приложений Microsoft 365](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps).
+Дополнительные сведения см. в [руководстве по развертыванию для Приложений Microsoft 365](/deployoffice/deployment-guide-microsoft-365-apps).
 
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>Технические ресурсы администраторов для приложений и служб повышения производительности
 
-- [Поддержка удаленных сотрудников с помощью Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
+- [Поддержка удаленных сотрудников с помощью Microsoft Teams](/microsoftteams/support-remote-work-with-teams)
 - [Веб-трансляции по поддержке гибридной работы с помощью Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)
 - [Скачивание комплекта для эффективной работы в Teams](https://www.microsoft.com/download/details.aspx?id=54244)
-- [Инструменты для внедрения Teams](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
-- [Создание стратегии управления изменениями для Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)
+- [Инструменты для внедрения Teams](/microsoftteams/adopt-tools-and-downloads) 
+- [Создание стратегии управления изменениями для Microsoft Teams](/MicrosoftTeams/change-management-strategy)
 - [Teams с тремя уровнями защиты](configure-teams-three-tiers-protection.md)
 
 ## <a name="user-training-resources-for-productivity-apps-and-services"></a>Ресурсы для обучения пользователей работе с приложениями и службами повышения производительности

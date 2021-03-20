@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Необходимо, чтобы удаленные работники входили в систему с помощью многофакторной проверки подлинности (MFA).
-ms.openlocfilehash: 7df6b1335c0ca45c06eee98eeff89f59b6365807
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: d27268ac4c71e74afe6ef04cc61fb029b665c1a0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097144"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916206"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Этап 1. Повышение безопасности входа для удаленных сотрудников с помощью MFA
 
@@ -36,8 +36,8 @@ ms.locfileid: "50097144"
 
 |План  |Рекомендация  |
 |---------|---------|
-|Все планы Microsoft 365 (без лицензий Azure AD Premium P1 или P2)     |[Включите параметры безопасности, по умолчанию заданные в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.   |
-|Microsoft 365 E3 (включает лицензии Azure AD Premium P1)     | Используйте [Общие политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br>- [Обязательное использование MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Обязательное использование MFA для всех пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
+|Все планы Microsoft 365 (без лицензий Azure AD Premium P1 или P2)     |[Включите параметры безопасности, по умолчанию заданные в Azure AD](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.   |
+|Microsoft 365 E3 (включает лицензии Azure AD Premium P1)     | Используйте [Общие политики условного доступа](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br>- [Обязательное использование MFA для администраторов](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Обязательное использование MFA для всех пользователей](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Блокирование традиционной проверки подлинности](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
 |Microsoft 365 E5 (включает лицензии Azure AD Premium P2)     | Пользуйтесь преимуществами Защиты идентификации Azure AD и начните применять [рекомендуемый набор политик условного доступа и связанных с ними политик](../security/office-365-security/identity-access-policies.md) (Майкрософт), создав следующие политики.<br> - [Обязательное использование MFA при среднем или высоком риске входа в систему](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br>- [Необходимость смены пароля для пользователей с высоким риском](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
@@ -49,7 +49,7 @@ ms.locfileid: "50097144"
 
 Применение параметров безопасности по умолчанию гарантирует, что все организации имеют базовый уровень безопасности при входе пользователей в систему, включенный по умолчанию. Вы можете отключить параметры безопасности по умолчанию, если предпочитаете использовать MFA с условным доступом или для отдельных учетных записей.
 
-Дополнительные сведения см. в статье [Обзор параметров безопасности, заданных по умолчанию](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
+Дополнительные сведения см. в статье [Обзор параметров безопасности, заданных по умолчанию](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 ## <a name="conditional-access-policies"></a>Политики условного доступа
 
@@ -63,7 +63,7 @@ ms.locfileid: "50097144"
 
 Для использования условного доступа требуется наличие лицензий Azure AD Premium P1, входящих в состав Microsoft 365 E3 и E5.
 
-Дополнительные сведения см. в статье [Обзор условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
+Дополнительные сведения см. в статье [Обзор условного доступа](/azure/active-directory/conditional-access/overview).
 
 ## <a name="azure-ad-identity-protection-support"></a>Поддержка Azure AD Identity Protection
 
@@ -73,9 +73,9 @@ ms.locfileid: "50097144"
 
 Для использования защиты идентификации Azure AD требуется наличие лицензий Azure AD Premium P2, входящих в состав Microsoft 365 E5.
 
-Для получения дополнительной информации см. [Условный доступ на основе риска](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users).
+Для получения дополнительной информации см. [Условный доступ на основе риска](/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users).
 
-С помощью Защиты идентификации Azure AD также можно создать политику, обязывающую пользователей зарегистрироваться в MFA. Дополнительные сведения см. в статье [Настройка политики регистрации многофакторной проверки подлинности Azure AD](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+С помощью Защиты идентификации Azure AD также можно создать политику, обязывающую пользователей зарегистрироваться в MFA. Дополнительные сведения см. в статье [Настройка политики регистрации многофакторной проверки подлинности Azure AD](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 
 
 ## <a name="using-these-methods-together"></a>Совместное использование этих методов
@@ -97,11 +97,11 @@ ms.locfileid: "50097144"
 
 ## <a name="let-your-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
-Самостоятельный сброс пароля (SSPR) позволяет пользователям сбрасывать собственные пароли, не обращаясь к ИТ-персоналу. Пользователи могут быстро сбрасывать свои пароли в любое время и в любом месте. Дополнительные сведения см. в статье [Планирование развертывания самостоятельного сброса пароля в Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
+Самостоятельный сброс пароля (SSPR) позволяет пользователям сбрасывать собственные пароли, не обращаясь к ИТ-персоналу. Пользователи могут быстро сбрасывать свои пароли в любое время и в любом месте. Дополнительные сведения см. в статье [Планирование развертывания самостоятельного сброса пароля в Azure AD](/azure/active-directory/authentication/howto-sspr-deployment)
 
 ## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Вход в приложения SaaS с помощью Azure AD
 
-Кроме того, чтобы обеспечить облачную проверку подлинности для пользователей, Azure AD также можно использовать в качестве централизованного способа защиты всех приложений: локальных, в облаке Майкрософт или в другом облаке. С помощью [интеграции приложений в Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration) вы можете упростить для удаленных сотрудников поиск нужных приложений и безопасный вход в них.
+Кроме того, чтобы обеспечить облачную проверку подлинности для пользователей, Azure AD также можно использовать в качестве централизованного способа защиты всех приложений: локальных, в облаке Майкрософт или в другом облаке. С помощью [интеграции приложений в Azure AD](/azure/active-directory/manage-apps/plan-an-application-integration) вы можете упростить для удаленных сотрудников поиск нужных приложений и безопасный вход в них.
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>Технические ресурсы для администраторов по MFA и удостоверениям
 

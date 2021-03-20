@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как найти справку администратора для Microsoft 365 Business Premium.
-ms.openlocfilehash: cf81ae934a35dadc895a1fc836ef1bd28f5000e0
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 5f09d74a5447b5023b2b3286a3aae504f707d44e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422595"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913638"
 ---
 # <a name="find-answers-and-help-for-admins"></a>Поиск ответов и справки для администраторов
 
@@ -47,6 +47,6 @@ ms.locfileid: "50422595"
 
 Вы также можете использовать следующие ресурсы, чтобы получить помощь в связи с проблемой:
 
-- [aka.ms/learn365admin](https://aka.ms/learn365admin)для поиска всех связанных с администратором задач и справки, например сброса паролей и назначения подписки Майкрософт.
+- [aka.ms/learn365admin](../admin/index.yml)для поиска всех связанных с администратором задач и справки, например сброса паролей и назначения подписки Майкрософт.
 - [answers.microsoft.com](https://answers.microsoft.com), чтобы найти ответы, начните обсуждение и задайте вопросы другим пользователям.
 - [techcommunity.microsoft.com](https://techcommunity.microsoft.com), чтобы присоединиться к сообществу экспертов и найти лучшие практики с Microsoft 365 для вашего бизнеса.

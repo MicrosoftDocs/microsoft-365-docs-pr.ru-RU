@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, какая подписка Microsoft 365 является правильной для вашей организации.
-ms.openlocfilehash: 9bb72b01c7b1119f96120702e7b4f9c80aa4e729
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 0ac7dbcad1f2d7fa99db607e6d4696c9f8fcb542
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422823"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913758"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>Выберите подписку microsoft 365
 
@@ -74,4 +74,4 @@ ms.locfileid: "50422823"
 
 \*\*\* Неограниченный архиватив при включенной автоматической экспансии.
 
-Чтобы сравнить Microsoft 365 Business Premium с другими продуктами, включая другие планы Microsoft 365, см. в руб. Лицензирование [Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb)для малого и среднего бизнеса.
+Чтобы сравнить Microsoft 365 Business Premium с другими продуктами, включая другие планы Microsoft 365, см. в руб. Лицензирование [Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb)для малого и среднего бизнеса.

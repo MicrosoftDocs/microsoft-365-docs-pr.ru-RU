@@ -23,19 +23,19 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Узнайте, как устанавливать политику срока действия паролей для организации в Центре администрирования Microsoft 365.
-ms.openlocfilehash: 4a7b544b6eded6f0cd6441ad7f6b02de790e5e44
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: ffe3ca74ce901eef359e1bcb80c4044ce4bf9ad7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50603988"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915078"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Установка политики срока действия паролей в организации
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-worldwide).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?view=o365-worldwide).
 
 ::: moniker-end
 
@@ -75,25 +75,25 @@ ms.locfileid: "50603988"
 
 ## <a name="prevent-last-password-from-being-used-again"></a>Предотвращение повторного использования последнего пароля
 
-Если вы хотите запретить пользователям повторно использовать старые пароли, это можно сделать, применив журнал паролей в локальной службе Active Directory (AD). Дополнительные сведения см. в разделе [Создание настраиваемой политики паролей](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
+Если вы хотите запретить пользователям повторно использовать старые пароли, это можно сделать, применив журнал паролей в локальной службе Active Directory (AD). Дополнительные сведения см. в разделе [Создание настраиваемой политики паролей](/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
 
-В Azure AD при изменении пароля пользователь не может повторно использовать последний пароль. Политика паролей применяется ко всем учетным записям пользователей, созданным и управляемым непосредственно в Azure AD. Эта политика паролей не может быть изменена. См. раздел [Политика паролей Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
+В Azure AD при изменении пароля пользователь не может повторно использовать последний пароль. Политика паролей применяется ко всем учетным записям пользователей, созданным и управляемым непосредственно в Azure AD. Эта политика паролей не может быть изменена. См. раздел [Политика паролей Azure AD](/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
 
 ## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>Синхронизация хэшей паролей пользователей из локальной службы каталогов Active Directory c Azure AD (Microsoft 365)
 
 В этой статье описывается настройка политики срока действия паролей только для облачных пользователей (Azure AD). Она не применима к пользователям в гибридной среде, для которых используется синхронизация хэшей паролей, сквозная проверка подлинности или локальная служба федерации, например ADFS.
   
-Сведения о том, как синхронизировать хэши паролей пользователей из локального каталога Active Directory с Azure AD, см. в статье [Реализация синхронизации хэшей паролей с помощью Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).
+Сведения о том, как синхронизировать хэши паролей пользователей из локального каталога Active Directory с Azure AD, см. в статье [Реализация синхронизации хэшей паролей с помощью Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).
 
 ## <a name="password-policies-and-account-restrictions-in-azure-active-directory"></a>Политики паролей и ограничения учетных записей в Azure Active Directory
 
-Вы можете настроить дополнительные политики и ограничения для паролей в Azure Active Directory. Дополнительные сведения см. в статье [Политики паролей и ограничения учетных записей в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy).
+Вы можете настроить дополнительные политики и ограничения для паролей в Azure Active Directory. Дополнительные сведения см. в статье [Политики паролей и ограничения учетных записей в Azure Active Directory](/azure/active-directory/authentication/concept-sspr-policy).
 
 ## <a name="update-password-policy"></a>Обновление политики паролей
 
 Командлет Set-MsolPasswordPolicy обновляет политику паролей в указанном домене или клиенте. Два параметра являются обязательными: первый указывает время, в течение которого пароль остается действительным до того, как его потребуется изменить, а второй указывает количество дней до окончания срока действия пароля, который запускается при получении пользователями первого уведомления о том, что срок действия их пароля скоро истечет.
 
-Сведения о том, как обновить политику паролей для определенного домена или клиента, см. в статье [Set-MsolPasswordPolicy](https://docs.microsoft.com/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).
+Сведения о том, как обновить политику паролей для определенного домена или клиента, см. в статье [Set-MsolPasswordPolicy](/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).
 
 ## <a name="related-content"></a>Связанные материалы
 

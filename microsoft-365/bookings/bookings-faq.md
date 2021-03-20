@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings часто задают вопросы.
-ms.openlocfilehash: a293bf86225731917068712c2887ea79c2540039
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: c7bf14c35626eeeec781f6a9f45769e0ead1730e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454293"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913830"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Часто задамые вопросы о резервированиях Майкрософт
 
@@ -184,7 +184,7 @@ Bookings — это онлайн-служба, поэтому вам не нуж
 
 ### <a name="can-email-notifications-be-sent-as-the-tenant-domain-name"></a>Можно ли отправлять уведомления электронной почты в качестве доменного имени клиента?
 
-Адреса электронной почты контролируются и управляются на уровне параметров Microsoft 365 и зависят от параметров конфигурации домена. Дополнительные сведения можно найти [здесь](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain).
+Адреса электронной почты контролируются и управляются на уровне параметров Microsoft 365 и зависят от параметров конфигурации домена. Дополнительные сведения можно найти [здесь](/powershell/module/exchange/get-accepteddomain).
 
 ### <a name="is-the-ability-to-send-sms-messages-dependent-on-a-different-service-or-specific-configuration"></a>Зависит ли возможность отправки SMS-сообщений от другой службы или определенной конфигурации?
 
@@ -218,7 +218,7 @@ SMS-сообщения в настоящее время доступны в Се
 
 ### <a name="can-bookings-calendars-be-cloned-or-duplicated-and-can-they-be-templatized-for-easy-scaling"></a>Можно ли клонировать или дублировать календари резервирования и можно ли их приумножить для простого масштабирования?
 
-Этот процесс должен был бы использовать API Graph для получения сведений о почтовых ящиках, а затем использовать эти сведения для создания нового почтового ящика. Документация по API [здесь.](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta)
+Этот процесс должен был бы использовать API Graph для получения сведений о почтовых ящиках, а затем использовать эти сведения для создания нового почтового ящика. Документация по API [здесь.](/graph/api/resources/booking-api-overview?view=graph-rest-beta)
 
 ### <a name="what-reporting-is-available-in-bookings"></a>Какие отчеты доступны в Bookings?
 
@@ -360,19 +360,19 @@ Bookings — это приложение Microsoft 365, то есть все д�
 
   - [Включение и отключение Microsoft Bookings](turn-bookings-on-or-off.md)
 
-  - [Добавление пользователей по отдельности или оптом](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide.)
+  - [Добавление пользователей по отдельности или оптом](../admin/add-users/add-users.md?view=o365-worldwide.)
 
   - [Добавление сотрудников в Bookings](add-staff.md)
 
-  - [Компоненты API для автоматизации после определения шаблона](https://docs.microsoft.com/graph/api/bookingbusiness-post-bookingbusinesses)
+  - [Компоненты API для автоматизации после определения шаблона](/graph/api/bookingbusiness-post-bookingbusinesses)
 
   - [URL-адрес календаря резервирования для отображения](https://outlook.office.com/bookings/calendar)
 
-  - [Бронирование политик соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365?view=o365-worldwide#bookings)
+  - [Бронирование политик соответствия требованиям](/compliance/regulatory/gdpr-dsr-Office365?view=o365-worldwide#bookings)
 
   - [Настройка и публикация страницы резервирования](customize-booking-page.md)
 
-  - [Конфигурация почтового ящика клиента](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
+  - [Конфигурация почтового ящика клиента](/powershell/module/exchange/get-accepteddomain)
 
   - [Групповое бронирование](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
 

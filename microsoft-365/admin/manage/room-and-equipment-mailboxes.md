@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: 'Создайте почтовый ящик помещения или оборудования, чтобы все пользователи в вашей организации могли зарезервировать его для собраний и событий с помощью Outlook. '
-ms.openlocfilehash: ab48a0177acd212ff330a4a772ef84843406a3d5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6960f93e8c1978f94776f067dcd0f502f0665718
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399606"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915174"
 ---
 # <a name="room-and-equipment-mailboxes"></a>Почтовые ящики помещений и оборудования
 
@@ -63,7 +63,7 @@ ms.locfileid: "44399606"
 
 Чтобы настроить почтовый ящик помещения или оборудования, перейдите в центр администрирования Microsoft 365. (Для этого понадобятся разрешения администратора.) Создайте почтовый ящик и оповестите сотрудников, что они могут резервировать его для собраний и событий.
   
-1. В центре администрирования перейдите в раздел **ресурсы ** \> [помещения &amp;оборудования](https://go.microsoft.com/fwlink/p/?linkid=2067334).
+1. В центре администрирования перейдите в раздел **ресурсы** \> [помещения &amp;оборудования](https://go.microsoft.com/fwlink/p/?linkid=2067334).
   
 2. Нажмите кнопку **Добавить**.
     
@@ -88,7 +88,7 @@ ms.locfileid: "44399606"
 6. При внесении изменений нажмите кнопку **сохранить**, а затем **закрыть**.
 
 > [!Note]
-> Чтобы защитить почтовые ящики помещения и оборудования, заблокируйте вход в эти почтовые ящики. Дополнительные сведения см. в статье [блокировать вход в учетную запись общего почтового ящика](https://docs.microsoft.com/office365/admin/email/create-a-shared-mailbox?view=o365-worldwide#block-sign-in-for-the-shared-mailbox-account).
+> Чтобы защитить почтовые ящики помещения и оборудования, заблокируйте вход в эти почтовые ящики. Дополнительные сведения см. в статье [блокировать вход в учетную запись общего почтового ящика](/office365/admin/email/create-a-shared-mailbox?view=o365-worldwide#block-sign-in-for-the-shared-mailbox-account).
 
 ## <a name="common-questions-about-room-and-equipment-mailboxes"></a>Распространенные вопросы о почтовых ящиках помещений и оборудования
 
@@ -110,4 +110,4 @@ ms.locfileid: "44399606"
   
 ### <a name="do-i-need-an-owner-in-charge-of-booking-the-rooms-or-equipment"></a>Нужно ли назначать владельца помещения и оборудования, который будет отвечать за их резервирование?
 
- Нет, этого делать не нужно. 
+ Нет, этого делать не нужно.

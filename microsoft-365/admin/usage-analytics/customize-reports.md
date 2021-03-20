@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Научитесь настраивать отчеты в браузере и Power BI Desktop.
-ms.openlocfilehash: 3c662dfa91939c68f0aa0a85c19a1fab003064bf
-ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
+ms.openlocfilehash: 18b4352d3aaa2fd16b74f78e1f80da3ee98367a6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50572654"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914010"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Настройка отчетов в аналитике использования Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -154,6 +154,4 @@ ms.locfileid: "50572654"
     
     Загрузка данных может занять некоторое время. Когда она будет завершена, вы можете сохранить их как PBIX-файл и перейти к настройке отчетов или добавить дополнительный источник данных.
     
-4. Прочтите [инструкции по началу работы с Power BI](https://go.microsoft.com/fwlink/?linkid=849802), чтобы научиться создавать отчеты, публиковать их в службе Power BI и использовать их совместно с коллегами. Для настройки отчетов и предоставления доступа к ним могут потребоваться дополнительные лицензии на Power BI. Сведения о лицензировании Power BI можно найти [здесь](https://go.microsoft.com/fwlink/p/?linkid=849803). 
-    
-
+4. Прочтите [инструкции по началу работы с Power BI](/power-bi/fundamentals/desktop-getting-started), чтобы научиться создавать отчеты, публиковать их в службе Power BI и использовать их совместно с коллегами. Для настройки отчетов и предоставления доступа к ним могут потребоваться дополнительные лицензии на Power BI. Сведения о лицензировании Power BI можно найти [здесь](https://go.microsoft.com/fwlink/p/?linkid=849803). 
