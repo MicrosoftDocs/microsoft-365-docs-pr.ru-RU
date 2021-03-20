@@ -35,7 +35,7 @@
         - name: Перенос данных в Microsoft 365
           href: setup/migrate-email-and-contacts-admin.md
         - name: Развертывание Teams
-          href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
+          href: /microsoftteams/how-to-roll-out-teams?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json
         - name: Обучение приложениям для всех
           href: 'https://support.microsoft.com/training'
         - name: Какая у меня подписка?
@@ -232,7 +232,7 @@
             - name: Работоспособность Приложений Microsoft 365
               href: productivity/apps-health.md
             - name: Аналитика конечных точек
-              href: 'https://docs.microsoft.com/mem/analytics/productivity-score'
+              href: /mem/analytics/productivity-score
         - name: Изменение контактных данных организации
           href: manage/change-address-contact-and-more.md
         - name: Обновление контактных данных администратора
@@ -259,6 +259,8 @@
           href: manage/manage-office-scripts-settings.md
         - name: Поиск партнера или торгового посредника
           href: manage/find-your-partner-or-reseller.md
+        - name: Управление Microsoft Rewards
+          href: manage/manage-microsoft-rewards.md
         - name: Управление сообщениями Центра сообщений
           href: manage/manage-messages.md
         - name: Настройка вариантов получения выпусков
@@ -312,7 +314,7 @@
             - name: Настройка функций обеспечения соответствия требованиям
               href: ../business/set-up-compliance.md
         - name: Оценка безопасности
-          href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
+          href: ../security/mtp/microsoft-secure-score.md
         - name: Руководство по соответствию требованиям GDPR
           href: security-and-compliance/gdpr-compliance.md
     - name: Управление данными устройств и приложений
@@ -321,7 +323,7 @@
         - name: Методы защиты данных устройств и приложений
           href: devices/choose-device-security.md
         - name: Документация по Microsoft Intune
-          href: 'https://docs.microsoft.com/mem/intune/'
+          href: /mem/intune/
         - name: Microsoft 365 бизнес премиум
           items:
             - name: Просмотр и изменение политик и устройств
@@ -404,6 +406,6 @@
         - name: Присоединение к собранию Teams с гостевыми пользователями
           href: 'https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8'
     - name: Устранение неполадок
-      href: 'https://docs.microsoft.com/office/troubleshoot/'
+      href: /office/troubleshoot/
     - name: Обратитесь в службу поддержки
       href: contact-support-for-business-products.md
