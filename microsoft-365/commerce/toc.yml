@@ -40,6 +40,8 @@
       href: ../admin/manage/remove-licenses-from-users.md
     - name: Перевод пользователей на другую подписку
       href: subscriptions/move-users-different-subscription.md
+    - name: Управление политиками автоматической заявки
+      href: licenses/manage-auto-claim-policies.md
     - name: Общие сведения о подписках и лицензиях
       href: licenses/subscriptions-and-licenses.md
 - name: Счета и платежи
@@ -67,7 +69,7 @@
     - name: Управление учетными записями выставления счетов
       href: manage-billing-accounts.md
     - name: Связывание клиента с учетной записью выставления счетов
-      href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
+      href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business
 - name: Управление отношениями с партнерами
   href: manage-partners.md
 - name: Закрытие учетной записи
