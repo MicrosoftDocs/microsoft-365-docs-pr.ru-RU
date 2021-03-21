@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Перенос устройств Windows, клиентских приложений Office и серверов Office для клиентов Microsoft 365.
-ms.openlocfilehash: 85f1c0d927b881c4d1526ce538ae54f5954a0664
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 336dee2e62c6d0917c437252ba1d741c304998fa
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406364"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929148"
 ---
 # <a name="step-4-migration-for-your-microsoft-365-for-enterprise-tenants"></a>Этап 4. Миграция для microsoft 365 для корпоративных клиентов
 
@@ -29,10 +29,10 @@ ms.locfileid: "50406364"
 
 Чтобы максимально увеличить бизнес-значение пакета продуктов Microsoft 365 для корпоративных интегрированных продуктов, приступить к планированию и реализации стратегии переноса этих выпусков:
 
-| От | To |
+| From | To |
 |:-------|:-----|
 | Windows 7 и Windows 8.1 | Windows 10 Корпоративная |
-| Клиентские продукты Office, установленные на устройствах вашего рабочего | Приложения Microsoft 365 для предприятий |
+| Клиентские продукты Office, установленные на устройствах вашего рабочего | Приложения Microsoft 365 для предприятий |
 | Продукты office server, установленные на локальном сервере | Их эквивалентные облачные службы в Microsoft 365 |
 |  |  |
 
@@ -40,17 +40,17 @@ ms.locfileid: "50406364"
 
 Каждый Microsoft 365 для корпоративной лицензии включает лицензию для Windows 10 Enterprise. Чтобы перенести устройства с Windows 7 или Windows 8.1, можно выполнить обновление на месте. Поддержка windows 7 завершилась *14 января 2020 г.* 
 
-Дополнительные методы установки Windows 10 Enterprise после обновления на месте см. в примере сценариев [развертывания Windows 10.](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios) Вы также можете [планировать развертывание Windows 10](https://aka.ms/planforwin10deployment) самостоятельно.
+Дополнительные методы установки Windows 10 Enterprise после обновления на месте см. в примере сценариев [развертывания Windows 10.](/windows/deployment/windows-10-deployment-scenarios) Вы также можете [планировать развертывание Windows 10](/windows/deployment/planning/) самостоятельно.
 
 ## <a name="migrating-to-microsoft-365-apps-for-enterprise"></a>Перенос в Microsoft 365 Apps для предприятия
 
-Microsoft 365 для предприятия включает Microsoft 365 Apps для предприятия, версию клиентских продуктов Office (Word, PowerPoint, Excel и Outlook), которая устанавливается и обновляется из облака Microsoft. Дополнительные сведения см. [в дополнительных сведениях о приложениях Microsoft 365 для предприятия.](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)
+Microsoft 365 для предприятия включает Microsoft 365 Apps для предприятия, версию клиентских продуктов Office (Word, PowerPoint, Excel и Outlook), которая устанавливается и обновляется из облака Microsoft. Дополнительные сведения см. [в дополнительных сведениях о приложениях Microsoft 365 для предприятия.](/deployoffice/about-microsoft-365-apps)
 
 Вместо того, чтобы поддерживать ток компьютеров для Версий Office 2019 или более старых версий, необходимо предпринять следующие действия:
 
 1. Получите и назначьте пользователям лицензию Microsoft 365.
 2. Удалить Office 2013 или Office 2016 на своих компьютерах.
-3. Установите приложения Microsoft 365 для предприятия как индивидуально, так и во время ИТ-2018. Дополнительные сведения см. в [руководстве по развертыванию приложений Microsoft 365.](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
+3. Установите приложения Microsoft 365 для предприятия как индивидуально, так и во время ИТ-2018. Дополнительные сведения см. в [руководстве по развертыванию приложений Microsoft 365.](/deployoffice/deployment-guide-microsoft-365-apps)
 
 Приложения Microsoft 365 для предприятия устанавливают обновления безопасности и обновления новых функций автоматически и могут использовать облачные службы в Microsoft 365 для повышения безопасности и производительности.
 
@@ -60,9 +60,9 @@ Microsoft 365 для предприятия включает облачные в
 
 Используйте следующие ресурсы для сведений о миграции пользователей и данных для определенных рабочих нагрузок Microsoft 365:
 
-- [Перемещение почтовых ящиков из локального Exchange Server в Exchange Online](https://docs.microsoft.com/exchange/hybrid-deployment/move-mailboxes)
-- [Перенос данных SharePoint с SharePoint Server на SharePoint Online](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
-- [Перенос Skype для бизнеса в Microsoft Teams](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+- [Перемещение почтовых ящиков из локального Exchange Server в Exchange Online](/exchange/hybrid-deployment/move-mailboxes)
+- [Перенос данных SharePoint с SharePoint Server на SharePoint Online](/sharepointmigration/migrate-to-sharepoint-online)
+- [Перенос Skype для бизнеса в Microsoft Teams](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 ## <a name="transition-your-entire-organization"></a>Переход всей организации
 
@@ -96,7 +96,7 @@ Microsoft 365 для предприятия включает облачные в
 - В зависимости от состояния миграции почтовых ящиков Exchange продолжайте перенос перехода в Exchange Online в организацию.
 - В зависимости от состояния локальной миграции сайта SharePoint продолжайте переназначение перехода на SharePoint в Microsoft 365 в организацию.
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 [![Шаг 5. Развертывание управления устройствами и приложениями](../media/tenant-management-overview/tenant-management-step-grid-device-mgmt.png)](tenant-management-device-management.md)
 

@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться создавать правила потока почты (правила транспорта) для шифрования и расшифровки сообщений с помощью шифрования сообщений Office 365.
-ms.openlocfilehash: 58b5e592ee8da92a2dbfd10f533aad3240b7a484
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 5c0f67acdb5d8fbfff216742cab1c49732c4ab24
+ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741558"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "50939650"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>Определение правил потока почты для шифрования сообщений электронной почты
 
@@ -31,10 +31,10 @@ ms.locfileid: "50741558"
 
 Если вы недавно перекочели из Active Directory RMS в Azure Information Protection, вам потребуется просмотреть существующие правила потока почты, чтобы убедиться, что они продолжают работать в новой среде. Кроме того, если вы хотите воспользоваться новыми возможностями шифрования сообщений Office 365, доступными для вас с помощью Azure Information Protection, необходимо обновить существующие правила потока почты. В противном случае пользователи будут по-прежнему получать зашифрованную почту, использующую предыдущий формат вложений HTML вместо нового бесшовного OME. Если вы еще не создали OME, см. в тексте Настройка новых возможностей шифрования сообщений [Office 365](set-up-new-message-encryption-capabilities.md) для получения сведений.
 
-Сведения о компонентах, составляющих правила потока почты, а также о том, как работают правила потока почты, см. в рублях Правила потока почты [(правила транспорта) в Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) Дополнительные сведения о том, как правила потока почты работают с Azure Information Protection, см. в дополнительных сведениях о настройке правил потока почты Exchange Online для меток [Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-exo-rules)
+Сведения о компонентах, составляющих правила потока почты, а также о том, как работают правила потока почты, см. в рублях Правила потока почты [(правила транспорта) в Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) Дополнительные сведения о том, как правила потока почты работают с Azure Information Protection, см. в дополнительных сведениях о настройке правил потока почты Exchange Online для меток [Azure Information Protection.](/azure/information-protection/deploy-use/configure-exo-rules)
 
 > [!IMPORTANT]
-> В гибридных средах Exchange локально пользователи могут отправлять и получать зашифрованную почту с помощью OME только в том случае, если электронная почта направляется через Exchange Online. Чтобы настроить OME в гибридной среде Exchange, сначала необходимо настроить гибрид с помощью мастера гибридной конфигурации, а затем настроить почту для потока из [Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-1-configure-mail-to-flow-from-office-365-to-your-on-premises-email-server) на сервер электронной почты и настроить почту для потока с сервера электронной почты на [Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365). [](https://docs.microsoft.com/Exchange/exchange-hybrid) После настройки потока почты через Office 365 можно настроить правила потока почты для OME с помощью этого руководства.
+> В гибридных средах Exchange локально пользователи могут отправлять и получать зашифрованную почту с помощью OME только в том случае, если электронная почта направляется через Exchange Online. Чтобы настроить OME в гибридной среде Exchange, сначала необходимо настроить гибрид с помощью мастера гибридной конфигурации, а затем настроить почту для потока из [Office 365](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-1-configure-mail-to-flow-from-office-365-to-your-on-premises-email-server) на сервер электронной почты и настроить почту для потока с сервера электронной почты на [Office 365](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365). [](/Exchange/exchange-hybrid) После настройки потока почты через Office 365 можно настроить правила потока почты для OME с помощью этого руководства.
 
 ## <a name="create-mail-flow-rules-to-encrypt-email-messages-with-the-new-ome-capabilities"></a>Создание правил потока почты для шифрования сообщений электронной почты с помощью новых возможностей OME
 
@@ -48,7 +48,7 @@ ms.locfileid: "50741558"
 
 3. В центре администрирования Microsoft 365 выберите **центры администрирования** \> **Exchange**.
 
-4. В EAC перейдите к **правилам потока** \> **почты** и выберите **новый** ![ значок Создание нового ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **правила**. Дополнительные сведения об использовании EAC см. в центре [администрирования Exchange в Exchange Online.](https://docs.microsoft.com/exchange/exchange-admin-center)
+4. В EAC перейдите к **правилам потока** \> **почты** и выберите **новый** ![ значок Создание нового ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **правила**. Дополнительные сведения об использовании EAC см. в центре [администрирования Exchange в Exchange Online.](/exchange/exchange-admin-center)
 
 5. В **Name** введите имя правила, например Шифруй почту для DrToniRamos@hotmail.com.
 
@@ -68,7 +68,7 @@ ms.locfileid: "50741558"
 
 8. Чтобы включить шифрование с помощью новых возможностей OME, выберите Изменить безопасность сообщений, а затем выберите **Apply Office 365 Шифрование** сообщений и защиту прав.  Выберите шаблон RMS из списка, выберите **Сохранить**, а затем выберите **ОК**.
   
-  Список шаблонов включает все шаблоны и параметры по умолчанию, а также настраиваемые шаблоны, созданные для использования в Office 365. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с новыми возможностями, описанными в настройках новых возможностей шифрования сообщений [Office 365.](set-up-new-message-encryption-capabilities.md) Сведения о шаблонах по умолчанию см. в меню Настройка и управление шаблонами [для Azure Information Protection.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) Сведения о параметре **"Не переададку"** см. в варианте [Не переададка электронной почты.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) Сведения о только **варианте шифрования** см. в [параметре Шифровать только для электронных писем.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+  Список шаблонов включает все шаблоны и параметры по умолчанию, а также настраиваемые шаблоны, созданные для использования в Office 365. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с новыми возможностями, описанными в настройках новых возможностей шифрования сообщений [Office 365.](set-up-new-message-encryption-capabilities.md) Сведения о шаблонах по умолчанию см. в меню Настройка и управление шаблонами [для Azure Information Protection.](/information-protection/deploy-use/configure-policy-templates) Сведения о параметре **"Не переададку"** см. в варианте [Не переададка электронной почты.](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) Сведения о параметре **только для шифрования** см. в [параметре Encrypt-only для сообщений электронной почты.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
   Вы можете выбрать **действие добавить,** если вы хотите указать другое действие.
 
@@ -86,7 +86,7 @@ ms.locfileid: "50741558"
 
 6. Чтобы включить шифрование с помощью новых возможностей OME, выберите Изменить безопасность сообщений, а затем выбрать **Apply Office 365 Шифрование** сообщений и защиту прав.  Выберите шаблон RMS из списка, выберите **Сохранить,** а затем выберите **ОК.**
 
-   Список шаблонов включает все шаблоны и параметры по умолчанию, а также настраиваемые шаблоны, созданные для использования в Office 365. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с новыми возможностями, описанными в настройках новых возможностей шифрования сообщений [Office 365,](set-up-new-message-encryption-capabilities.md)построенных поверх Azure Information Protection. Сведения о шаблонах по умолчанию см. в меню Настройка и управление шаблонами [для Azure Information Protection.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) Сведения о параметре "Не переададку" см. в варианте [Не переададка электронной почты.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) Сведения о параметре только для шифрования см. в [параметре Шифровать только для электронных писем.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+   Список шаблонов включает все шаблоны и параметры по умолчанию, а также настраиваемые шаблоны, созданные для использования в Office 365. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с новыми возможностями, описанными в настройках новых возможностей шифрования сообщений [Office 365,](set-up-new-message-encryption-capabilities.md)построенных поверх Azure Information Protection. Сведения о шаблонах по умолчанию см. в меню Настройка и управление шаблонами [для Azure Information Protection.](/information-protection/deploy-use/configure-policy-templates) Сведения о параметре "Не переададку" см. в варианте [Не переададка электронной почты.](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) Сведения о параметре только для шифрования см. в [параметре Шифровать только для электронных писем.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
    Вы можете выбрать **действие добавить,** если вы хотите указать другое действие.
 
@@ -100,7 +100,7 @@ ms.locfileid: "50741558"
 
 ### <a name="use-the-eac-to-create-a-rule-to-remove-encryption-from-email-messages-with-the-new-ome-capabilities"></a>Используйте EAC для создания правила для удаления шифрования из сообщений электронной почты с помощью новых возможностей OME
 
-Вы можете удалить шифрование, доступное вашей организации. Это означает, что любое шифрование, которое применяется организацией или любой почтой, имеет только шифрование.
+Вы можете удалить шифрование, доступное вашей организации. Это означает, что любая почта с шифрованием, применяемая организацией, или любая почта, защищенная ограничениями только для шифрования.
 
 1. В веб-браузере, используя учетную запись для работы или школы, которая получила разрешения глобального администратора, вопишитесь в [Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser).
 
@@ -108,15 +108,15 @@ ms.locfileid: "50741558"
 
 3. В центре администрирования Microsoft 365 выберите **центры администрирования** \> **Exchange**.
 
-4. В EAC перейдите к **правилам потока** \> **почты** и выберите **новый** ![ значок Создание нового ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **правила**. Дополнительные сведения об использовании EAC см. в центре [администрирования Exchange в Exchange Online.](https://docs.microsoft.com/exchange/exchange-admin-center)
+4. В EAC перейдите к **правилам потока** \> **почты** и выберите **новый** ![ значок Создание нового ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **правила**. Дополнительные сведения об использовании EAC см. в центре [администрирования Exchange в Exchange Online.](/exchange/exchange-admin-center)
 
 5. В **Name** введите имя правила, например Удаление шифрования из исходятой почты.
 
-6. В **Примени это правило,** если выберите условия, при которых шифрование должно быть удалено из сообщений. Добавление **получателя находится за** \> **пределами организации или** внутри **организации.**
+6. В **Примени это правило,** если выберите условия, при которых шифрование должно быть удалено из сообщений. Добавьте, **что отправитель находится** внутри организации или получатель \>   **находится** \> **внутри организации.**
 
 7. В **Следующей области** выберите **Изменение** безопасности сообщений \> **Удалить шифрование сообщений Office 365 и защиту прав.**
 
-8. Нажмите кнопку **Сохранить**.
+8. Нажмите **Сохранить**.
 
 ## <a name="create-mail-flow-rules-for-office-365-message-encryption-without-the-new-capabilities"></a>Создание правил потока почты для шифрования сообщений Office 365 без новых возможностей
 
@@ -130,6 +130,6 @@ ms.locfileid: "50741558"
 
 [Добавлять фирменную символику в зашифрованные сообщения](add-your-organization-brand-to-encrypted-messages.md)
 
-[Правила потока обработки почты (правила транспорта) в Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=506707)
+[Правила потока обработки почты (правила транспорта) в Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-[Правила потока обработки почты (правила транспорта) в Exchange Online Protection](https://go.microsoft.com/fwlink/p/?LinkId=506708)
+[Правила потока обработки почты (правила транспорта) в Exchange Online Protection](../security/office-365-security/mail-flow-rules-transport-rules-0.md)

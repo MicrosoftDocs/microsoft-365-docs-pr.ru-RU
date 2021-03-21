@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 971382e5da5b8bedf7527a7f30ae81dcbffdebdd
-  ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+  ms.openlocfilehash: 6a670287c98d185e4b9acfeb39715c5e1ddf177a
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 11/19/2020
-  ms.locfileid: "49356695"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50928980"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -41,15 +41,15 @@ landingContent:
   - linkListType: get-started
     links:
     - text: Защита удаленных сотрудников
-      url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
+      url: /enterprise-mobility-security/remote-work/
 - title: Microsoft Defender для удостоверений
   linkLists:
   - linkListType: overview
     links:
     - text: Что такое Microsoft Defender для удостоверений?
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
+      url: /azure-advanced-threat-protection/what-is-atp
     - text: Архитектура Microsoft Defender для удостоверений
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
+      url: /azure-advanced-threat-protection/atp-architecture
 - title: Defender для Office 365
   linkLists:
   - linkListType: overview
@@ -57,31 +57,31 @@ landingContent:
     - text: Что такое Defender для Office 365?
       url: office-365-security/office-365-atp.md
     - text: Описание службы Defender для Office 365
-      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+      url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
 - title: Defender для конечной точки
   linkLists:
   - linkListType: overview
     links:
     - text: Что такое Microsoft Defender для конечной точки?
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
+      url: /windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
     - text: Обзор возможностей
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
+      url: /windows/security/threat-protection/microsoft-defender-atp/overview
 - title: Azure Defender
   linkLists:
   - linkListType: overview
     links:
     - text: Что такое Azure Defender?
-      url: https://docs.microsoft.com/azure/security-center/security-center-intro
+      url: /azure/security-center/security-center-intro
     - text: Поддерживаемые функции
-      url: https://docs.microsoft.com/azure/security-center/security-center-services
+      url: /azure/security-center/security-center-services
 - title: Microsoft Cloud App Security
   linkLists:
   - linkListType: overview
     links:
     - text: Что такое Microsoft Cloud App Security?
-      url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
+      url: /cloud-app-security/what-is-cloud-app-security
     - text: Начало работы с Microsoft Cloud App Security
-      url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
+      url: /cloud-app-security/getting-started-with-cloud-app-security
 - title: Управление безопасностью
   linkLists:
   - linkListType: overview
@@ -93,4 +93,4 @@ landingContent:
   - linkListType: overview
     links:
     - text: Что такое Azure Sentinel?
-      url: https://docs.microsoft.com/azure/sentinel/overview
+      url: /azure/sentinel/overview

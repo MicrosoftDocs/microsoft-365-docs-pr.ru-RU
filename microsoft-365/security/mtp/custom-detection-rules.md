@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 51a6bc33778248a69e533d9e2077365a63b97e30
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ed1eeb29119d477673bb04d9474bd38438db9fd9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50424135"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928944"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Создание и управление пользовательскими правилами обнаружения
 
@@ -41,9 +41,9 @@ ms.locfileid: "50424135"
 
 Чтобы управлять пользовательскими обнаружениями, вам должна быть назначена одна из этих ролей:
 
-- **Администратор безопасности**— пользователи с этой ролью [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) могут управлять настройками безопасности в центре безопасности Microsoft 365 и других порталах и службах.
+- **Администратор безопасности**— пользователи с этой ролью [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) могут управлять настройками безопасности в центре безопасности Microsoft 365 и других порталах и службах.
 
-- **Оператор безопасности**— Пользователи с этой ролью [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) могут управлять оповещениями и иметь глобальный доступ только для чтения к функциям, связанным с безопасностью, включая всю информацию в центре безопасности Microsoft 365. Эта роль достаточна для управления пользовательскими обнаружениями только в том случае, если управление доступом на основе ролей (RBAC) отключено в Microsoft Defender для endpoint. Если настроена RBAC, необходимо также  разрешение на управление настройками безопасности для Defender для конечной точки.
+- **Оператор безопасности**— Пользователи с этой ролью [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) могут управлять оповещениями и иметь глобальный доступ только для чтения к функциям, связанным с безопасностью, включая всю информацию в центре безопасности Microsoft 365. Эта роль достаточна для управления пользовательскими обнаружениями только в том случае, если управление доступом на основе ролей (RBAC) отключено в Microsoft Defender для endpoint. Если настроена RBAC, необходимо также  разрешение на управление настройками безопасности для Defender для конечной точки.
 
 Чтобы управлять требуемой разрешениями, **глобальный администратор** может:
 
@@ -138,17 +138,17 @@ DeviceEvents
 
 #### <a name="actions-on-devices"></a>Действия на устройствах
 Эти действия применяются к устройствам в `DeviceId` столбце результатов запроса:
-- **Изолировать устройство**— использует Microsoft Defender для конечной точки, чтобы применять полную изоляцию сети, не мешая устройству подключаться к любому приложению или службе. [Дополнительные информацию об изоляции компьютера с конечными точками в Microsoft Defender для конечных точек](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
-- **Сбор пакета исследований**— сбор сведений об устройствах в файле ZIP. [Дополнительные информацию о пакете исследований Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
+- **Изолировать устройство**— использует Microsoft Defender для конечной точки, чтобы применять полную изоляцию сети, не мешая устройству подключаться к любому приложению или службе. [Дополнительные информацию об изоляции компьютера с конечными точками в Microsoft Defender для конечных точек](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
+- **Сбор пакета исследований**— сбор сведений об устройствах в файле ZIP. [Дополнительные информацию о пакете исследований Microsoft Defender для конечной точки](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 - **Запуск антивирусного сканирования**— выполняет полное Защитник Windows антивирусное сканирование на устройстве
 - **Инициировать** расследование — [инициирует автоматическое расследование](mtp-autoir.md) на устройстве
-- **Ограничение выполнения приложения**— устанавливает ограничения для устройства, позволяющее запускать только те файлы, которые подписаны сертификатом, выданным Корпорацией Майкрософт. [Дополнительные новости об ограничениях приложений в Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
+- **Ограничение выполнения приложения**— устанавливает ограничения для устройства, позволяющее запускать только те файлы, которые подписаны сертификатом, выданным Корпорацией Майкрософт. [Дополнительные новости об ограничениях приложений в Microsoft Defender для конечной точки](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
 
 #### <a name="actions-on-files"></a>Действия в файлах
 При выборе можно применить действие  карантиного файла к файлам в столбце , или столбце `SHA1` `InitiatingProcessSHA1` `SHA256` `InitiatingProcessSHA256` результатов запроса. Это действие удаляет файл из текущего расположения и помещает копию в карантин.
 
 #### <a name="actions-on-users"></a>Действия для пользователей
-При выборе пользователь Mark как **скомпрометированное** действие будет приниматься для пользователей в столбце или столбце `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` результатов запроса. Это действие задает пользователям уровень риска до "высокого" в Azure Active Directory, запуская соответствующие [политики защиты удостоверений.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
+При выборе пользователь Mark как **скомпрометированное** действие будет приниматься для пользователей в столбце или столбце `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` результатов запроса. Это действие задает пользователям уровень риска до "высокого" в Azure Active Directory, запуская соответствующие [политики защиты удостоверений.](/azure/active-directory/identity-protection/overview-identity-protection)
 
 > [!NOTE]
 > Действие разрешить или заблокировать для пользовательских правил обнаружения в настоящее время не поддерживается в Microsoft 365 Defender.

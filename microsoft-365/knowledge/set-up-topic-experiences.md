@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Узнайте, как настроить Microsoft Viva Topics
-ms.openlocfilehash: cc420a0631f5b861341116abcd50cfe90e15450e
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 629008e083d71e09632b05e21eaefb011d7d9ce2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551895"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929448"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Настройка тем Microsoft Viva
 
@@ -25,7 +25,7 @@ ms.locfileid: "50551895"
 
 Вы должны [подписаться на Viva Topics](https://www.microsoft.com/microsoft-viva/topics) и быть глобальным администратором или администратором SharePoint, чтобы получить доступ к центру администрирования Microsoft 365 и настроить Разделы.
 
-Если вы настроили SharePoint на управляемые [устройства,](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)не забудьте настроить Разделы с управляемого устройства.
+Если вы настроили SharePoint на управляемые [устройства,](/sharepoint/control-access-from-unmanaged-devices)не забудьте настроить Разделы с управляемого устройства.
 
 ## <a name="video-demonstration"></a>Видеодемонстрация
 
@@ -123,6 +123,8 @@ ms.locfileid: "50551895"
 
     ![Применены параметры](../media/ksetup7.png)    
 
+Обратите внимание, что при первом открытии темы может потребоваться до двух недель, чтобы все предложенные темы появились в представлении Manage Topics. Обнаружение темы продолжается по мере того, как будут сделаны новые материалы или обновления контента. В вашей организации обычно имеются колебания числа предлагаемых тем, поскольку Viva Topics оценивает новые сведения.
+
 ## <a name="assign-licenses"></a>Назначение лицензий
 
 После настройки темы необходимо назначить лицензии пользователям, которые будут использовать Разделы. Только пользователи с лицензией могут видеть сведения по темам, включая основные моменты, карточки темы, страницы темы и центр тем. 
@@ -137,7 +139,8 @@ ms.locfileid: "50551895"
 
 4. В **приложениях** убедитесь, что **выбраны графовые соединители с помощью Index (Viva Topics)** и **Viva Topics.**
 
-    ![Лицензии Microsoft Viva Topics в центре администрирования Microsoft 365](../media/topic-experiences-licenses.png)
+   > [!div class="mx-imgBorder"]
+   > ![Лицензии Microsoft Viva Topics в центре администрирования Microsoft 365](../media/topic-experiences-licenses.png)
 
 5. Нажмите кнопку **Сохранить изменения**.
 

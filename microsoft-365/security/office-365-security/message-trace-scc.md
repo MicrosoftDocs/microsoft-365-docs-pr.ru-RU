@@ -14,12 +14,12 @@ ms.custom:
 description: Администраторы могут использовать трассировка сообщений в Центре & безопасности, чтобы узнать, что произошло с сообщениями.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9c3f7e4bc9624b9fae48074203da525d7a504a12
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 587e111a71b321c131d0e63a0510ec7e1afa289a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741579"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929400"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Трассировка сообщений в Центре безопасности и соответствия требованиям
 
@@ -40,7 +40,7 @@ ms.locfileid: "50741579"
 >
 > - Для выполнения трассировки сообщений необходимо быть членом групп ролей "Управление организацией", "Управление соответствием требованиям" или "Службы поддержки". Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 >
-> - Максимальное количество сообщений, отображаемых в результатах, зависит от выбранного типа отчета (подробнее см. раздел [Выберите](#choose-report-type) тип отчета). Комлет [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) в Exchange Online PowerShell или автономный EOP PowerShell возвращает все сообщения в результатах.
+> - Максимальное количество сообщений, отображаемых в результатах, зависит от выбранного типа отчета (подробнее см. раздел [Выберите](#choose-report-type) тип отчета). Комлет [Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) в Exchange Online PowerShell или автономный EOP PowerShell возвращает все сообщения в результатах.
 
 ## <a name="open-message-trace"></a>Трассировка открытого сообщения
 
@@ -231,7 +231,7 @@ ms.locfileid: "50741579"
   > 
   > - Успешно доставленное сообщение с неравномерностью создает несколько **записей события** в следе сообщения.
   > 
-  > - Этот список не является исчерпывающим. Дополнительные описания событий см. в [журнале отслеживания](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log)сообщений типами событий. Обратите внимание, что эта ссылка является Exchange Server (локальной exchange) темой.
+  > - Этот список не является исчерпывающим. Дополнительные описания событий см. в [журнале отслеживания](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log)сообщений типами событий. Обратите внимание, что эта ссылка является Exchange Server (локальной exchange) темой.
 
 - **Дополнительные сведения.** В этом разделе содержатся следующие сведения:
 
@@ -271,7 +271,7 @@ ms.locfileid: "50741579"
 
 - **направленность.** Указывает, было ли сообщение отправлено входящие (1) в вашу организацию, или же оно было отправлено исходящие (2) из организации.
 
-- **connector_id:** имя соединитетеля источника или назначения. Дополнительные сведения о соединители в Exchange Online см. в сообщении [Configure mail flow using connectors in Office 365.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
+- **connector_id:** имя соединитетеля источника или назначения. Дополнительные сведения о соединители в Exchange Online см. в сообщении [Configure mail flow using connectors in Office 365.](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
 
 - **delivery_priority**: Было ли отправлено сообщение с высоким, низким или <sup>*</sup> **нормальным** приоритетом. 
 
@@ -413,7 +413,7 @@ ms.locfileid: "50741579"
 |---|---|
 |`ETR|ruleId=<guid>`|Выполнено правило идентификатора.|
 |`St=<datetime>`|Дата и время в UTC при совпадении правил.|
-|`Action=<ActionDefinition>`|Примененное действие. Список доступных действий см. в списке действий правил потока [почты в Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
+|`Action=<ActionDefinition>`|Примененное действие. Список доступных действий см. в списке действий правил потока [почты в Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
 |`Mode=<Mode>`|Режим правила. Допустимые значения:<ul><li>**Применение.** Все действия по правилу будут применены.</li><li>**Тест с помощью советов по политике:** любые действия наконечника политики будут отправлены, но другие действия по принунию не будут действовать.</li><li>**Test without Policy Tips:** Actions will be listed in a log file, but senders will not be notified in any way, and enforcement actions will not be acted on.</li></ul>|
 |
 

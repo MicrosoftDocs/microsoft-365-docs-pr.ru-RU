@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как управлять, какие пользователи могут создавать группы Microsoft 365.
-ms.openlocfilehash: 04c2b6e738ed41f8d4a2bf96716fb74b1d260497
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 9c3edf335ce09f04e9b0b538e69fa607a9c34044
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838643"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929160"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Управление разрешениями пользователей на создание групп Microsoft 365
 
@@ -63,7 +63,7 @@ ms.locfileid: "50838643"
 - Члены группы, которым разрешено создавать группы
 
 > [!NOTE]
-> Дополнительные сведения о назначении лицензий Azure см. в материале Назначение или удаление лицензий на [портале Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups)
+> Дополнительные сведения о назначении лицензий Azure см. в материале Назначение или удаление лицензий на [портале Azure Active Directory.](/azure/active-directory/fundamentals/license-users-groups)
 
 Следующие люди не нуждаются в лицензиях Azure AD Premium или Azure AD Basic EDU, которые им назначены:
 
@@ -83,21 +83,21 @@ ms.locfileid: "50838643"
 
 4. Завершите настройку группы, добавив людей или другие группы, которые вы хотите иметь возможность создавать группы в вашей организации.
 
-Подробные инструкции см. в [публикации Create, edit или delete a security group in the Microsoft 365 admin center.](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group)
+Подробные инструкции см. в [публикации Create, edit или delete a security group in the Microsoft 365 admin center.](../admin/email/create-edit-or-delete-a-security-group.md)
 
 ## <a name="step-2-run-powershell-commands"></a>Шаг 2. Запуск команд PowerShell
 
-Чтобы изменить параметр гостевого доступа на групповом уровне, необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph (AzureAD) (имя](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) модуля **AzureADPreview).**
+Чтобы изменить параметр гостевого доступа на групповом уровне, необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph (AzureAD) (имя](/powershell/azure/active-directory/install-adv2) модуля **AzureADPreview).**
 
-- Если вы еще не установили ни одной версии модуля Azure AD PowerShell, см. раздел [Установка модуля Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true) и следуйте инструкциям по установке общедоступной предварительной версии.
+- Если вы еще не установили ни одной версии модуля Azure AD PowerShell, см. раздел [Установка модуля Azure AD](/powershell/azure/active-directory/install-adv2?preserve-view=true&view=azureadps-2.0-preview) и следуйте инструкциям по установке общедоступной предварительной версии.
 
 - Если у вас установлена общедоступная версия 2.0 модуля Azure AD PowerShell (AzureAD), вам требуется удалить ее, выполнив команду `Uninstall-Module AzureAD` в сеансе PowerShell, а затем установить предварительную версию, выполнив команду `Install-Module AzureADPreview`.
 
 - Если вы уже установили предварительную версию, выполните команду `Install-Module AzureADPreview`, чтобы убедиться, что это последняя версия модуля.
 
-Скопируйте сценарий ниже в текстовый редактор, например блокнот или [Windows PowerShell ISE.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
+Скопируйте сценарий ниже в текстовый редактор, например блокнот или [Windows PowerShell ISE.](/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
-Замените *\<GroupName\>* имя созданной группы. Пример:
+Замените *\<GroupName\>* имя созданной группы. Например:
 
 `$GroupName = "Group Creators"`
 
@@ -109,7 +109,7 @@ ms.locfileid: "50838643"
 
 `.\GroupCreators.ps1`
 
-и [во входе в учетную запись администратора](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) при запросе.
+и [во входе в учетную запись администратора](../enterprise/connect-to-microsoft-365-powershell.md#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) при запросе.
 
 ```PowerShell
 $GroupName = "<GroupName>"
@@ -164,7 +164,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 Попробуйте повторить ту же процедуру с участником группы.
 
 > [!NOTE]
-> Если члены группы не могут создавать группы, убедитесь, что они не заблокированы с помощью политики [почтовых ящиков OWA.](https://go.microsoft.com/fwlink/?linkid=852135)
+> Если члены группы не могут создавать группы, убедитесь, что они не заблокированы с помощью политики [почтовых ящиков OWA.](/powershell/module/exchange/set-owamailboxpolicy)
 
 ## <a name="related-topics"></a>Родственные темы
 
@@ -172,10 +172,10 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 [Создание плана управления совместной работой](collaboration-governance-first.md)
 
-[Начало работы с Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
+[Начало работы с Office 365 PowerShell](../enterprise/getting-started-with-microsoft-365-powershell.md)
 
-[Настройка управления группой самообслуживки в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-self-service-management)
+[Настройка управления группой самообслуживки в Azure Active Directory](/azure/active-directory/users-groups-roles/groups-self-service-management)
 
-[Set-ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)
+[Set-ExecutionPolicy](/powershell/module/microsoft.powershell.security/set-executionpolicy).
 
-[Командлеты Azure Active Directory для настройки параметров группы](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+[Командлеты Azure Active Directory для настройки параметров группы](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)

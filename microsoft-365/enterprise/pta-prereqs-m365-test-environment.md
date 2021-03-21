@@ -14,22 +14,22 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам с предварительными требованиями для сквозной проверки подлинности.
-ms.openlocfilehash: 71ba116ee45f031b156934e0924a0c3d460110d5
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 3d7b92bb064ee1b008ac98f836aff6e0287739af
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233766"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929004"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Предварительные требования к удостоверениям и доступу к устройствам для сквозной проверки подлинности в тестовой среде Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать только для Microsoft 365 для корпоративных тестовых сред.*
+*Это руководство по тестовой лаборатории можно использовать только для Microsoft 365 для корпоративных тестовых сред.*
 
-[](../security/office-365-security/microsoft-365-policies-configurations.md) Конфигурации доступа к удостоверениям и устройствам — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам в Microsoft 365 для предприятий, интегрированным с Azure Active Directory (Azure AD).
+[Конфигурации](../security/office-365-security/microsoft-365-policies-configurations.md) удостоверений и доступа к устройствам — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам Microsoft 365 для предприятий, интегрированных с Azure Active Directory (Azure AD).
 
 В этой статье описано, как можно настроить тестовую среду Microsoft 365, соответствующую требованиям [предварительной настройки сквозной проверки подлинности](../security/office-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам.
 
-Настройка этой тестовой среды может быть завершена в десять этапов.
+Существует десять этапов настройки этой тестовой среды:
 
 1. Создание смоделированной организации с тестовой средой Microsoft 365 сквозной проверки подлинности
 2. Настройка простого единого входа Azure AD
@@ -37,8 +37,8 @@ ms.locfileid: "50233766"
 4. Настройка компонента обратной записи паролей
 5. Настройка самостоятельного сброса пароля
 6. Настройка многофакторной проверки подлинности
-7. Включит автоматическую регистрацию устройств на компьютерах с Windows, которые присоединились к домену
-8. Настройка защиты паролем Azure AD 
+7. Включить автоматическую регистрацию устройств на компьютерах Windows, присоединив к домену
+8. Настройка защиты паролей Azure AD 
 9. Включение защиты идентификации Azure AD
 10. Включение современной проверки подлинности для Exchange Online и Skype для бизнеса Online
 
@@ -58,7 +58,7 @@ ms.locfileid: "50233766"
 
 Сначала определите общедоступные IP-адреса или диапазоны адресов, используемые в вашей организации.
 
-Затем выполните инструкции из статьи [Настройка именованных расположений в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) для добавления адресов или диапазонов адресов в качестве именованных расположений. 
+Затем выполните инструкции из статьи [Настройка именованных расположений в Azure Active Directory](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) для добавления адресов или диапазонов адресов в качестве именованных расположений. 
 
 ## <a name="phase-4-configure-password-writeback"></a>Этап 4. Настройка компонента обратной записи паролей
 
@@ -88,25 +88,25 @@ ms.locfileid: "50233766"
 
 Протестируйте многофакторную проверку подлинности только для учетной записи "Пользователь 2".
 
-## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Этап 7. Включит автоматическую регистрацию устройств, которые присоединились к домену, на компьютерах с Windows 
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Этап 7. Включить автоматическую регистрацию устройств на компьютерах Windows, присоединив к домену 
 
-Следуйте [этим инструкциям,](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) чтобы включить автоматическую регистрацию устройств на компьютерах с Windows, которые присоединились к домену.
+Следуйте [этим инструкциям,](/azure/active-directory/devices/hybrid-azuread-join-plan) чтобы включить автоматическую регистрацию устройств на компьютерах Windows, присоединив к домену.
 
-## <a name="phase-8-configure-azure-ad-password-protection"></a>Этап 8. Настройка защиты паролем Azure AD 
+## <a name="phase-8-configure-azure-ad-password-protection"></a>Этап 8. Настройка защиты паролей Azure AD 
 
-Следуйте [этим инструкциям,](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) чтобы заблокировать известные слабые пароли и их варианты.
+Следуйте [этим инструкциям,](/azure/active-directory/authentication/concept-password-ban-bad) чтобы заблокировать известные слабые пароли и их варианты.
 
-## <a name="phase-9-enable-azure-ad-identity-protection"></a>Этап 9. Включить защиту идентификации Azure AD
+## <a name="phase-9-enable-azure-ad-identity-protection"></a>Этап 9. Включить защиту удостоверений Azure AD
 
 Выполните инструкции [этапа 2 руководства по лаборатории тестирования для защиты идентификации Azure AD](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection). 
 
 ## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Этап 10. Включить современную проверку подлинности для Exchange Online и Skype для бизнеса Online
 
-Для Exchange Online выполните [эти инструкции](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
+Для Exchange Online выполните [эти инструкции](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
 
 Для Skype для бизнеса Online:
 
-1. Подключитесь к [Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. Подключитесь к [Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 2. Выполните указанную ниже команду.
 
@@ -124,17 +124,16 @@ ms.locfileid: "50233766"
 
 ## <a name="next-step"></a>Следующее действие
 
-См. статью [Основные политики доступа для удостоверений и устройств](identity-access-policies.md), чтобы настроить политики, созданные на основе предварительных требований, и защитить удостоверения и устройства.
+См. статью [Основные политики доступа для удостоверений и устройств](../security/office-365-security/identity-access-policies.md), чтобы настроить политики, созданные на основе предварительных требований, и защитить удостоверения и устройства.
 
 ## <a name="see-also"></a>См. также
 
 [Руководства по лаборатории тестирования для дополнительного удостоверения](m365-enterprise-test-lab-guides.md#identity)
 
-[План удостоверений](identity-roadmap-microsoft-365.md)
+[Дорожная карта удостоверений](identity-roadmap-microsoft-365.md)
 
 [Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 для предприятий](https://docs.microsoft.com/microsoft-365-enterprise/)
-
+[Документация по Microsoft 365 для предприятий](/microsoft-365-enterprise/)

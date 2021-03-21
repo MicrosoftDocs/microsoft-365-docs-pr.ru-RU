@@ -15,12 +15,12 @@ ms.custom:
 description: Администраторы могут просматривать часто задамые вопросы и ответы о делегировании задач администрирования в Microsoft 365 для партнеров и посредников Майкрософт.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 304fbba16d6c8e81e965462e3405824bd22982c9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 82fa70a8025f67610032ba59368bc74789b60f84
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405940"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929376"
 ---
 # <a name="delegated-administration-faq"></a>Вопросы и ответы по делегированному администрированию
 
@@ -53,4 +53,4 @@ ms.locfileid: "50405940"
 
 ## <a name="can-i-get-consolidated-reporting-across-all-of-my-subtenants"></a>Могу ли я получить консолидированную отчетность по всем подзарядким?
 
-Консолидированная отчетность по всем управляемым вами компаниям недоступна в отчетах центра администрирования Microsoft 365. Однако отчеты можно получать с помощью [Microsoft Graph.](https://docs.microsoft.com/graph/overview)
+Консолидированная отчетность по всем управляемым вами компаниям недоступна в отчетах центра администрирования Microsoft 365. Однако отчеты можно получать с помощью [Microsoft Graph.](/graph/overview)

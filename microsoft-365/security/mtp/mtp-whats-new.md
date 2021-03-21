@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5afae4dd3f846e608f753d268470d53723a3dcf4
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6599e0c4a7bbf7c294f7dfed9f381c1ce211c285
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929274"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928644"
 ---
 # <a name="whats-new-in-microsoft-365-security"></a>Новые возможности безопасности Microsoft 365
 
@@ -39,6 +39,4 @@ ms.locfileid: "49929274"
 
 В этой статье рассматриваются возможности, которые общедоступны в последнем выпуске службы безопасности Microsoft 365. 
 
-Дополнительные сведения о предварительных функциях см. в статье [Предварительные функции](mtp-preview.md)
-
-
+Дополнительные сведения о предварительных функциях см. в статье [Предварительные функции](./preview.md)

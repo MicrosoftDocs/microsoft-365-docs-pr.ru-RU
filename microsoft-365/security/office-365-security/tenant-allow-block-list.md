@@ -16,12 +16,12 @@ ms.collection:
 description: Администраторы могут научиться настраивать разрешит и блокирует в списке разрешить или заблокировать клиента на портале безопасности.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 20e460f4e93f7b87faaead8b87ba561224e38938
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 2f97308bfc3600e4e85f5ac92d951b12d9a50f24
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515212"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928536"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Управление списком разрешенных и запрещенных клиентов
 
@@ -68,18 +68,18 @@ ms.locfileid: "50515212"
 
 - По умолчанию срок действия записей в списке разрешить или блокировать клиента истекает через 30 дней. Вы можете указать дату или установить, чтобы срок их действия никогда не истек.
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
   - Чтобы добавить и удалить значения из списка "Разрешить или заблокировать клиента", необходимо быть членом группы ролей администратора организации или **администратора** безопасности. 
   - Чтобы получить доступ только для чтения к списку разрешить или заблокировать клиента, необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
 
-  Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   > [!NOTE]
   > 
   > - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
-  > - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
+  > - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Используйте Центр & безопасности для создания записей URL-адресов в списке разрешить или блокировать клиента
 
@@ -97,7 +97,7 @@ ms.locfileid: "50515212"
 
      - Проверьте отключение параметра (Отключение) и используйте истекает в поле, чтобы указать дату истечения ![ ](../../media/scc-toggle-off.png) срока действия записей. 
 
-       Кроме того:
+       или
 
      - Переместите окантовку вправо, чтобы настроить записи, чтобы никогда не истекал срок действия: ![Включенный переключатель](../../media/scc-toggle-on.png).
 
@@ -119,7 +119,7 @@ ms.locfileid: "50515212"
 
      - Проверьте отключение параметра (Отключение) и используйте истекает в поле, чтобы указать дату истечения ![ ](../../media/scc-toggle-off.png) срока действия записей. 
 
-     Кроме того:
+     или
 
      - Переместите окантовку вправо, чтобы настроить записи, чтобы никогда не истекал срок действия: ![Включенный переключатель](../../media/scc-toggle-on.png).
 
@@ -170,13 +170,13 @@ ms.locfileid: "50515212"
 
      - Убедитесь, что параметр отключен (отключается) и используйте истекает в поле, чтобы указать дату истечения ![ ](../../media/scc-toggle-off.png) срока действия записи. 
 
-       Кроме того:
+       или
 
      - Перемещение точки вправо, чтобы настроить запись, чтобы не истек срок действия: ![Включенный переключатель](../../media/scc-toggle-on.png).
 
    - **Необязательный примечание.** Введите описательный текст для записи.
 
-5. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+5. По завершении нажмите кнопку **Сохранить**.
 
 ## <a name="use-the-security--compliance-center-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Используйте Центр & безопасности для удаления блоковых записей из списка разрешить или заблокировать клиента
 
@@ -210,7 +210,7 @@ New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [обзоре New-TenantAllowBlockListItems.](https://docs.microsoft.com/powershell/module/exchange/new-tenantallowblocklistitems)
+Подробные сведения о синтаксисе и параметрах см. в [обзоре New-TenantAllowBlockListItems.](/powershell/module/exchange/new-tenantallowblocklistitems)
 
 ### <a name="use-powershell-to-view-entries-in-the-tenant-allowblock-list"></a>Использование PowerShell для просмотра записей в списке разрешить или заблокировать клиента
 
@@ -232,7 +232,7 @@ Get-TenantAllowBlockListItems -ListType Url -Block
 Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [обзоре Get-TenantAllowBlockListItems.](https://docs.microsoft.com/powershell/module/exchange/get-tenantallowblocklistitems)
+Подробные сведения о синтаксисе и параметрах см. в [обзоре Get-TenantAllowBlockListItems.](/powershell/module/exchange/get-tenantallowblocklistitems)
 
 ### <a name="use-powershell-to-modify-block-entries-in-the-tenant-allowblock-list"></a>Использование PowerShell для изменения записей блоков в списке разрешить или заблокировать клиента
 
@@ -250,7 +250,7 @@ Set-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."I
 Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -ExpirationDate (Get-Date "5/30/2020 9:30 AM").ToUniversalTime()
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [ссылке Set-TenantAllowBlockListItems.](https://docs.microsoft.com/powershell/module/exchange/set-tenantallowblocklistitems)
+Подробные сведения о синтаксисе и параметрах см. в [ссылке Set-TenantAllowBlockListItems.](/powershell/module/exchange/set-tenantallowblocklistitems)
 
 ### <a name="use-powershell-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Использование PowerShell для удаления записей блокировки из списка разрешить или заблокировать клиента
 
@@ -266,7 +266,7 @@ Remove-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..
 Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSPAAAA0"
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в [ссылке Remove-TenantAllowBlockListItems.](https://docs.microsoft.com/powershell/module/exchange/remove-tenantallowblocklistitems)
+Подробные сведения о синтаксисе и параметрах см. в [ссылке Remove-TenantAllowBlockListItems.](/powershell/module/exchange/remove-tenantallowblocklistitems)
 
 ## <a name="url-syntax-for-the-tenant-allowblock-list"></a>Синтаксис URL-адреса для списка разрешить или блокировать клиента
 
