@@ -19,12 +19,12 @@ ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как отправлять и получать зашифрованные сообщения электронной почты между людьми внутри и за пределами организации.
-ms.openlocfilehash: 8d1803442428f3061c686afa0b790d3f468abde8
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 504fa9918636cd596cde0d242083ccb7b9817e69
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741330"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927717"
 ---
 # <a name="message-encryption"></a>Шифрование сообщений
 
@@ -36,7 +36,7 @@ ms.locfileid: "50741330"
 
 Остальная часть этой статьи применима к новым возможностям OME.
 
-Шифрование сообщений Office 365 — это онлайн-служба, созданная на основе microsoft Azure Rights Management (Azure RMS), которая является частью Azure Information Protection. Эта служба включает политики шифрования, удостоверений и авторизации, чтобы обеспечить безопасность электронной почты. Вы можете шифровать сообщения с помощью шаблонов управления правами, [параметра Не](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)перенаправления и только для [шифрования.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+Шифрование сообщений Office 365 — это онлайн-служба, созданная на основе microsoft Azure Rights Management (Azure RMS), которая является частью Azure Information Protection. Эта служба включает политики шифрования, удостоверений и авторизации, чтобы обеспечить безопасность электронной почты. Вы можете шифровать сообщения с помощью шаблонов управления правами, [параметра Не](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)перенаправления и только для [шифрования.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
 Пользователи могут шифровать сообщения электронной почты и различные вложения с помощью этих параметров. Полный список поддерживаемых типов вложений см. в рублях "Типы файлов, охваченные политиками IRM при присоединении к [сообщениям".](https://support.office.com/article/bb643d33-4a3f-4ac7-9770-fd50d95f58dc#FileTypesforIRM)
 
@@ -54,7 +54,7 @@ ms.locfileid: "50741330"
 
 Если отправитель защищенной почты находится в GCC High и получатель находится за пределами GCC High, включая коммерческих пользователей, Outlook.com пользователей и пользователей других поставщиков электронной почты, таких как Gmail, получатель получает почту-оболочку. Почта оболочки направляет получателя на портал OME, на котором получатель может читать и отвечать на сообщение. В противном случае, если отправитель и получатель находятся в среде GCC High, даже если они не находятся в одной организации, получатели, которые используют клиенты Outlook для чтения почты, получают родной, первоклассный опыт чтения для зашифрованной и защищенной правами почты. Дополнительные сведения о различных впечатлениях в GCC High см. в рублях [Compare versions of OME.](ome-version-comparison.md)
 
-Дополнительные сведения об ограничениях размера сообщений и вложений, которые можно шифровать с помощью OME, см. в [статью Exchange Online Limits.](https://technet.microsoft.com/library/exchange-online-limits.aspx)
+Дополнительные сведения об ограничениях размера сообщений и вложений, которые можно шифровать с помощью OME, см. в [статью Exchange Online Limits.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
 
 ## <a name="how-office-365-advanced-message-encryption-works-on-top-of-ome"></a>Как шифрование расширенных сообщений Office 365 работает на вершине OME
 

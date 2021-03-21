@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 65fa24d0a69e43cbdb2deeed8362b83d6b097413
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: b245a0f7ca0845024fec0c498aca4c7d447f14ad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838362"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928019"
 ---
 # <a name="define-information-barrier-policies"></a>Определение политик информационных барьеров
 
@@ -53,14 +53,14 @@ ms.locfileid: "50838362"
 | (По мере необходимости) [Изменение сегмента или политики](information-barriers-edit-segments-policies.md) | - Изменение сегмента<br/>- Изменить или удалить политику<br/>- Повторное повторяемо приложение политики<br/>- Просмотр состояния политики |
 | (По мере необходимости) [Устранение неполадок](information-barriers-troubleshooting.md)| - Принимайте меры, если все работает не так, как ожидалось|
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 В дополнение к [необходимым лицензиям](information-barriers.md#required-licenses-and-permissions)и разрешениям убедитесь, что следующие требования будут выполнены:
 
 - Данные каталога. Убедитесь, что структура организации отражается в данных каталогов. Чтобы принять это действие, убедитесь, что атрибуты учетных записей пользователей, такие как членство в группе, имя отдела и т. д., правильно заполняются в Azure Active Directory (или Exchange Online). Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами.
   - [Атрибуты для политик информационных барьеров](information-barriers-attributes.md)
   - [Добавление или обновление сведений о профиле пользователя с помощью Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
-  - [Настройка параметров учетной записи пользователя с помощью PowerShell для Office 365](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
+  - [Настройка параметров учетной записи пользователя с помощью PowerShell для Office 365](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)
 
 - Масштабный поиск каталогов . Прежде чем определить первую политику информационного барьера в организации, необходимо включить поиск по каталогам в [Microsoft Teams.](/MicrosoftTeams/teams-scoped-directory-search) Подождите по крайней мере 24 часа после включения поиска каталогов с объемом, прежде чем настроить или определить политики информационного барьера.
 
@@ -124,7 +124,7 @@ ms.locfileid: "50838362"
 Определите, какие атрибуты в данных каталогов организации будут использовать для определения сегментов. Вы можете использовать *Department,* *MemberOf* или любой из поддерживаемых атрибутов. Убедитесь, что в атрибуте, выбранном для пользователей, есть значения. [См. список поддерживаемых атрибутов для информационных барьеров.](information-barriers-attributes.md)
 
 > [!IMPORTANT]
-> Перед тем, как перейти к следующему разделу, убедитесь, что данные каталога имеет значения атрибутов, которые можно использовать **для определения сегментов.** Если в данных каталога нет значений для атрибутов, которые вы хотите использовать, необходимо обновить учетные записи пользователей, чтобы включить эти сведения, прежде чем приступить к использованию информационных барьеров. Чтобы получить помощь в этом, см. в следующих ресурсах:<br/>- [Настройка свойств учетных записей пользователей с помощью Office 365 PowerShell](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Добавление или обновление сведений о профиле пользователя с помощью Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> Перед тем, как перейти к следующему разделу, убедитесь, что данные каталога имеет значения атрибутов, которые можно использовать **для определения сегментов.** Если в данных каталога нет значений для атрибутов, которые вы хотите использовать, необходимо обновить учетные записи пользователей, чтобы включить эти сведения, прежде чем приступить к использованию информационных барьеров. Чтобы получить помощь в этом, см. в следующих ресурсах:<br/>- [Настройка свойств учетных записей пользователей с помощью Office 365 PowerShell](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)<br/>- [Добавление или обновление сведений о профиле пользователя с помощью Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>Определение сегментов с помощью PowerShell
 

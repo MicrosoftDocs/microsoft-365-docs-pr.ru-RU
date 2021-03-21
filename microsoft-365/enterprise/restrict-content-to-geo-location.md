@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: В этой статье вы узнаете, как ограничить сайты SharePoint указанным географическим расположением в среде с несколькими географическими расположениями.
-ms.openlocfilehash: f2a09f177c68d30121c207287e053b2b25405fbc
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: В этой статье узнайте, как ограничить сайты SharePoint указанным геолокационным расположением в среде с несколькими географическими условиями.
+ms.openlocfilehash: 74255db19b2ecf9b333d33208c63da260b2bd747
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693022"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927268"
 ---
 # <a name="restrict-sharepoint-site-content-to-a-geo-location"></a>Ограничение содержимого сайтов SharePoint по географическому расположению
 
 В некоторых случаях можно выбрать принудительное сохранение сайта и его файлового содержимого в географическом расположении, где он был создан, либо запретив перемещение сайта, либо запретив кэширование его файлового содержимого в другое географическое расположение.
 
-Это можно сделать с помощью командлета [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) с параметром **RestrictedToGeo**. По умолчанию этот параметр имеет значение NULL, но вы можете изменить его на одно из следующих значений:
+Это можно сделать с помощью командлета [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) с параметром **RestrictedToGeo**. По умолчанию этот параметр имеет значение NULL, но вы можете изменить его на одно из следующих значений:
 
 |Ограничение|Описание|
 |:----------|:----------|

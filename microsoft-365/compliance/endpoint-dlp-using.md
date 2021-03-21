@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте, как настроить политики защиты от потери данных (DLP), чтобы использовать соответствующие расположения защиты от потери данных в конечной точке Microsoft 365.
-ms.openlocfilehash: 1bb4013069b8f4890ba420f13a0203eb63973121
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 91e8a25c2a15e82cd7f286d1110b1c87bedf31d5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820191"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926437"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Использование защиты от потери данных в конечной точке
 
@@ -219,10 +219,10 @@ ms.locfileid: "50820191"
 - [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
-- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Средства и методы подключения для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Microsoft Defender для конечной точки](/windows/security/threat-protection/)
+- [Средства и методы подключения для компьютеров с Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Подключено к Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Подключено к Azure Active Directory (AAD)](/azure/active-directory/devices/concept-azure-ad-join)
 - [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)
 - [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)
 - [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)

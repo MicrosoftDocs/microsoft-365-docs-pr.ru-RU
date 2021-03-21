@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1f5fa231c371ca7a8d6a22ca0b4ff388fd89004c
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 5de805784b2772b0169b2ad2a503e9378b82fda7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711920"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927100"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Новые возможности Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или запустить [пилотный проект в производстве.](https://aka.ms/m365d-pilotplaybook)
+> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) или запустить [пилотный проект в производстве.](./mtp-pilot.md?ocid=cx-evalpilot)
 >
 
 Следующие функции обычно доступны (GA) в последнем выпуске Microsoft 365 Defender.
@@ -42,7 +42,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="march-2021"></a>Март 2021 г.
 - [Таблица CloudAppEvents](advanced-hunting-cloudappevents-table.md) <br>Сведения о событиях в различных облачных приложениях и службах, охваченных microsoft Cloud App Security. В эту таблицу также включены сведения, ранее доступные в `AppFileEvents` .
 ## <a name="february-2021"></a>Февраль 2021 г.
-- (Предварительный просмотр) Расширенный [центр безопасности Microsoft https://security.microsoft.com) 365 (теперь](https://security.microsoft.com) доступен в общедоступных версиях). Этот новый опыт выводит в центр Defender for Endpoint и Defender для Office 365. [Узнайте больше о том, что изменилось.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
+- (Предварительный просмотр) Расширенный [центр безопасности Microsoft https://security.microsoft.com) 365 (теперь](https://security.microsoft.com) доступен в общедоступных версиях). Этот новый опыт выводит в центр Defender for Endpoint и Defender для Office 365. [Узнайте больше о том, что изменилось.](./overview-security-center.md)
 
 ## <a name="september-2020"></a>Сентябрь 2020 г.
 - [Таблица IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) <br> Поиск событий с участием локального контроллера домена под управлением Active Directory (AD). Эта [продвинутая таблица](advanced-hunting-overview.md) схемы охоты охватывает ряд событий, связанных с удостоверением, и системных событий на контроллере домена.
@@ -66,7 +66,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 - [Автоматизированный анализ угроз и реагирование на них](mtp-autoir.md) <br> Благодаря AIR служба обеспечения безопасности может значительно повысить потенциал вашей организации по работе с оповещениями безопасности и инцидентами.
 - [Расширенные улучшения охоты](advanced-hunting-overview.md) <br> Активная охота за угрозами в современном рабочем пространстве с помощью языка запросов Kusto и оптимизированной для безопасности схемы.
 
-## <a name="march-2019"></a>Март 2019 г.
+## <a name="march-2019"></a>Март 2019 г.
 - Расширенная охота на угрозы <br> Страница для разных возможностей охоты, которая позволит вам активно находить угрозы, влияющие на электронную почту, данные, устройства и удостоверения.
 - [Оценка безопасности (Майкрософт)](microsoft-secure-score.md) <br> Измерение позы безопасности организации с более высоким числом, указывающее на дополнительные действия по улучшению. Следуя рекомендациям по оценке безопасности, можно защитить организацию от угроз. 
-- [Отчеты](monitoring-and-reporting.md) <br>  Содержит множество карт, охватывающих различные области, которые аналитики и администраторы безопасности отслеживают в рамках своей ежедневной работы.
+- [Отчеты](./overview-security-center.md) <br>  Содержит множество карт, охватывающих различные области, которые аналитики и администраторы безопасности отслеживают в рамках своей ежедневной работы.

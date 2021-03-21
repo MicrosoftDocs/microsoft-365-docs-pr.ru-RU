@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Получите сведения о том, как использовать Менеджер по управлению соответствием на портале Microsoft Service Trust Portal для соблюдения требований к защите данных и нормативных требований.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f527aae2d36e392ecd646d48263a01b20a0785e8
-ms.sourcegitcommit: b8e9b2ecdc4927b67088c5fffb1585424c66fb10
+ms.openlocfilehash: e308de5bdf3441a602002e2fd6f216c361f64286
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50050403"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926529"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Диспетчер соответствия требованиям Майкрософт (классический)
 
@@ -30,7 +30,7 @@ ms.locfileid: "50050403"
 
 *Диспетчер соответствия требованиям недоступен в планах Office 365 под управлением 21Vianet, Office 365 Germany, Office 365 U.S. Government Community High (GCC High) и Office 365 Department of Defense.*
 
-Диспетчер соответствия требованиям — это основанное на рабочих процессах средство оценки рисков, представленное на портале Microsoft [Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal), которое позволяет отслеживать, назначать и проверять действия, направленные на обеспечение соответствия организации нормативным требованиям в профессиональных и облачных службах (Майкрософт), таких как Microsoft Office 365, Microsoft Dynamics 365 и Microsoft Azure.
+Диспетчер соответствия требованиям — это основанное на рабочих процессах средство оценки рисков, представленное на портале Microsoft [Service Trust Portal](./get-started-with-service-trust-portal.md), которое позволяет отслеживать, назначать и проверять действия, направленные на обеспечение соответствия организации нормативным требованиям в профессиональных и облачных службах (Майкрософт), таких как Microsoft Office 365, Microsoft Dynamics 365 и Microsoft Azure.
 
 Диспетчер соответствия требованиям:
 

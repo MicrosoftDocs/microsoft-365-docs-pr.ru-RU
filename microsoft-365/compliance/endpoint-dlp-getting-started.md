@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте Защиту от потери данных в конечной точке Microsoft 365 для отслеживания действий с файлами и применения в конечных точках защитных мер для этих файлов.
-ms.openlocfilehash: c337d5ccd05ee665b62c9ce5a68abbd8084da943
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 98f4355e06ef2724ef4eb5f8d4db3dca017678c2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080822"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926427"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Начало работы с функцией защиты от потери данных в конечной точке
 
@@ -90,7 +90,7 @@ ms.locfileid: "50080822"
 2. Версия клиента антивредоносной программы: 4.18.2009.7 или более поздняя. Проверьте свою текущую версию, открыв приложение "Безопасность Windows", щелкнув значок "Параметры" и выбрав "О программе". Номер версии указан в строке "Версия клиента антивредоносной программы". Перейдите на последнюю версию клиента антивредоносной программы, установив обновление Windows KB4052623. 
 
    > [!NOTE]
-   > Не требуется запускать никакие компоненты Безопасности Windows. Вы можете запускать DLP в конечной точке независимо от состояния Безопасность Windows, но [защита в реальном времени и монитор поведения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)) должны быть включены.
+   > Не требуется запускать никакие компоненты Безопасности Windows. Вы можете запускать DLP в конечной точке независимо от состояния Безопасность Windows, но [защита в реальном времени и монитор поведения](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)) должны быть включены.
  
 3. Устанавливаются следующие обновления Windows. 
  
@@ -102,11 +102,11 @@ ms.locfileid: "50080822"
     - Для Windows 10 версии 2004 — KB4568831, KB4577063
     - Для устройств с Office 2016 (но не других версий Office) — KB4577063 
 
-4. Все устройства должны быть подключены к [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join) или иметь гибридное присоединение к Azure AD.
+4. Все устройства должны быть подключены к [Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join) или иметь гибридное присоединение к Azure AD.
 
 5. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики к отправке в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
-6. Если вы используете Ежемесячный канал (корпоративный) для Приложений Microsoft 365 версий 2004–2008, в них существует известная проблема с классификацией контента Office функцией защиты от потери данных в конечной точке и вам требуется обновиться до версии 2009 или более поздней. Текущие версии см. в [журнале обновлений для Приложений Microsoft 365 (по дате)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date). Дополнительные сведения об этой проблеме см. в разделе "Набор Office" [заметок о выпусках Актуального канала в 2020 г.](https://docs.microsoft.com/officeupdates/current-channel#version-2010-october-27)
+6. Если вы используете Ежемесячный канал (корпоративный) для Приложений Microsoft 365 версий 2004–2008, в них существует известная проблема с классификацией контента Office функцией защиты от потери данных в конечной точке и вам требуется обновиться до версии 2009 или более поздней. Текущие версии см. в [журнале обновлений для Приложений Microsoft 365 (по дате)](/officeupdates/update-history-microsoft365-apps-by-date). Дополнительные сведения об этой проблеме см. в разделе "Набор Office" [заметок о выпусках Актуального канала в 2020 г.](/officeupdates/current-channel#version-2010-october-27)
 
 7. Если у вас есть конечные точки, которые используют прокси-устройство для подключения к Интернету, выполните действия, описанные в разделе [Настройка прокси-сервера и параметров подключения к Интернету для защиты от потери данных в конечной точке](endpoint-dlp-configure-proxy.md).
 
@@ -116,7 +116,7 @@ ms.locfileid: "50080822"
 
 Если вы хотите подключить устройства, которые еще не были подключены, скачайте соответствующий сценарий и разверните его на этих устройствах. Выполните действия, описанные в разделе [Подключение устройств](endpoint-dlp-getting-started.md#onboarding-devices).
 
-Если у вас уже есть устройства, подключенные к [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/), они будут отображаться в списке управляемых устройств. Выполните действия, описанные в разделе [Процедура с устройствами подключенными к Microsoft Defender для конечной точки](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started?view=o365-worldwide&source=docs#with-devices-onboarded-into-microsoft-defender-for-endpoint).
+Если у вас уже есть устройства, подключенные к [Microsoft Defender для конечной точки](/windows/security/threat-protection/), они будут отображаться в списке управляемых устройств. Выполните действия, описанные в разделе [Процедура с устройствами подключенными к Microsoft Defender для конечной точки](?source=docs&view=o365-worldwide#with-devices-onboarded-into-microsoft-defender-for-endpoint).
 
 ### <a name="onboarding-devices"></a>Подключение устройств
 
@@ -141,7 +141,7 @@ ms.locfileid: "50080822"
    > [!div class="mx-imgBorder"]
    > ![метод развертывания](../media/endpoint-dlp-getting-started-3-deployment-method.png)
    
-6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает начальную страницу доступа к процедурам Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
+6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает начальную страницу доступа к процедурам Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
 
     - Подключение компьютеров с Windows 10 с помощью групповой политики
     - Подключение компьютеров с Windows с помощью Microsoft Endpoint Configuration Manager
@@ -171,7 +171,7 @@ ms.locfileid: "50080822"
 
 5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания**, а затем **загрузите пакет**.
 
-6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает начальную страницу доступа к процедурам Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
+6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает начальную страницу доступа к процедурам Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
 
     - Подключение компьютеров с Windows 10 с помощью групповой политики
     - Подключение компьютеров с Windows с помощью Microsoft Endpoint Configuration Manager
@@ -212,8 +212,8 @@ ms.locfileid: "50080822"
 - [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
-- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Средства и методы подключения для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Microsoft Defender для конечной точки](/windows/security/threat-protection/)
+- [Средства и методы подключения для компьютеров с Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Устройства, подключенные к Azure AD](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Устройства, подключенные к Azure AD](/azure/active-directory/devices/concept-azure-ad-join)
 - [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

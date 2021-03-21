@@ -1,5 +1,5 @@
 ---
-title: План окончания поддержки Project Server 2010
+title: Дорожная карта project Server 2010 на конец поддержки
 ms.author: efrene
 author: efrene
 manager: pamg
@@ -17,223 +17,223 @@ search.appverid:
 - ZPJ120
 - PJU120
 - PJW120
-description: Поддержка Project Server 2010 заканчивается 13 апреля 2021 г. Используйте эту статью в качестве руководства по обновлению до Project Online или более новой версии Project Server в локальной версии.
-ms.openlocfilehash: 239b3d93cfa6a1184ea21225fa97732712b8eb14
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+description: Заканчивается поддержка Project Server 2010 13 апреля 2021 г. Используйте эту статью в качестве руководства для обновления до Project Online или более новой версии локального project Server.
+ms.openlocfilehash: 807c09bff0cb6331b872474acc22f8d2c622a6c6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519706"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927376"
 ---
 # <a name="project-server-2010-end-of-support-roadmap"></a>План действий после прекращения поддержки Project Server 2010
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Поддержка Project Server 2010 завершится **13 апреля 2021 г.** Эта дата была расширена с предыдущей даты окончания поддержки 13 октября 2020 г. Если вы в настоящее время используете Project Server 2010, обратите внимание, что эти связанные продукты имеют следующие даты окончания поддержки:
+Project Server 2010 завершит поддержку **13 апреля 2021 г.** Эта дата была продлена с предыдущей даты окончания поддержки 13 октября 2020 г. Если вы в настоящее время используете Project Server 2010, обратите внимание, что эти связанные продукты имеют следующие даты окончания поддержки:
 
-|Продукт |Дата окончания поддержки|
+|Продукт |Конец даты поддержки|
 |---|---|
-|Project 2010 Standard|13 октября 2020 г.|
+|Стандарт project 2010|13 октября 2020 г.|
 |Project 2010 Professional|13 октября 2020 г.|
 
-Дополнительные сведения об окончании поддержки см. в обновлении с серверов [Office 2010 и клиентских продуктов.](plan-upgrade-previous-versions-office.md)
+Дополнительные сведения о достижении конца поддержки см. в [веб-сведениях Upgrade from Office 2010 servers and client products.](plan-upgrade-previous-versions-office.md)
 
-## <a name="what-does-end-of-support-mean"></a>Что означает *окончание поддержки?*
+## <a name="what-does-end-of-support-mean"></a>Что означает *конец поддержки?*
 
-Почти все продукты Майкрософт имеют жизненный цикл поддержки, в течение которого они получают новые функции, исправления ошибок и обновления для системы безопасности. Этот жизненный цикл обычно длится 10 лет с начального выпуска продукта. Завершение этого жизненного цикла называется завершением поддержки продукта. После того как 13 апреля 2020 г. поддержка Project Server 2010 завершится, корпорация Майкрософт перестает предоставлять:
+Почти все продукты Майкрософт имеют жизненный цикл поддержки, в ходе которого они получают новые функции, исправления ошибок и обновления безопасности. Этот жизненный цикл обычно длится 10 лет с начального выпуска продукта. Конец жизненного цикла называется завершением поддержки продукта. После окончания поддержки Project Server 2010 13 апреля 2021 г. Корпорация Майкрософт больше не будет предоставлять:
 
-- Техническая поддержка для проблем, которые могут возникнуть.
+- Техническая поддержка проблем, которые могут возникнуть.
 
-- Исправления ошибок, обнаруженных и которые могут повлиять на стабильность и доступность сервера.
+- Исправление ошибок для обнаруженных проблем, которые могут повлиять на стабильность и доступность сервера.
 
-- Исправления для обнаруженных уязвимостей, которые могут сделать сервер уязвимым к нарушению безопасности.
+- Исправления безопасности для обнаруженных уязвимостей, которые могут сделать сервер уязвимым для нарушений безопасности.
 
-- Обновления часовой пояс.
+- Обновления часовой зоны.
 
-Установка Project Server 2010 продолжится после этой даты. Однако из-за изменений, перечисленных выше, настоятельно рекомендуется как можно скорее перейти с Project Server 2010.
+Установка Project Server 2010 продолжится после этой даты. Но из-за изменений, перечисленных ранее, настоятельно рекомендуется как можно скорее перейти с Project Server 2010.
 
-## <a name="what-are-my-options"></a>Какие у меня есть варианты?
+## <a name="what-are-my-options"></a>Какие у меня варианты?
 
-Возможные варианты миграции:
+Параметры миграции:
 
-- Переход на Project Online
+- Миграция в Project Online
 
-- Переход на более новую версию Project Server (предпочтительно Project Server 2019)
+- Миграция в более новую локальной версии Project Server (предпочтительно Project Server 2019)
 
 Вот два пути, которые можно использовать, чтобы избежать окончания поддержки Project Server 2010.
 
 ![Пути обновления Project Server 2010](../media/project-server-2010-end-of-support/project-server-2010-end-of-support-timeline.png)
 
-|Почему я хочу перейти на Project Server 2019?|Почему я хочу перейти на Project Online?|
+|Почему я предпочитаю перейти на Project Server 2019?|Почему я предпочитаю перейти в Project Online?|
 |---|---|
-|Бизнес-правила ограничивают работу моей компании в облаке.  <br/><br/>  Мне нужно управлять обновлениями в своей среде.|У меня есть мобильные или удаленные пользователи.<br/><br/>  Стоимость переноса на локальном сервере является серьезной проблемой (оборудование, программное обеспечение, время и усилия для реализации и так далее). <br/><br/>  После миграции затраты на обслуживание среды являются проблемой (например, автоматические обновления, гарантированное время работы и так далее).|
+|Бизнес-правила ограничивают работу бизнеса в облаке.  <br/><br/>  Мне нужен контроль над обновлениями в своей среде.|У меня есть мобильные или удаленные пользователи.<br/><br/>  Значительные затраты на перенос локального сервера (оборудование, программное обеспечение, время и усилия для реализации и так далее). <br/><br/>  После переноса вызывает озабоченность затраты на поддержание среды (например, автоматические обновления, гарантированное время простоя и так далее).|
 
 > [!NOTE]
-> Дополнительные сведения о вариантах миграции см. в справке "Ресурсы по обновлению с серверов и клиентов [Office 2010".](upgrade-from-office-2010-servers-and-products.md) Обратите внимание, что Project Server не поддерживает гибридную конфигурацию, так как Project Server и Project Online не могут совместно использовать один пул ресурсов.
+> Дополнительные сведения о параметрах миграции см. в справке Ресурсы, которые помогут вам обновить [серверы и клиенты Office 2010.](upgrade-from-office-2010-servers-and-products.md) Обратите внимание, что Project Server не поддерживает гибридную конфигурацию, так как Project Server и Project Online не могут использовать один и тот же пул ресурсов.
 
-### <a name="what-are-my-options-for-project-client"></a>Какие у меня есть варианты для клиента Project?
+### <a name="what-are-my-options-for-project-client"></a>Каковы мои параметры для клиента Project?
 
-Если вы используете Project профессиональный 2010 или Project Стандартный 2010, возможные варианты:
+Если вы используете Project Professional 2010 или Project Standard 2010, вы можете использовать:
 
-- Переход на более новую версию Project профессиональный или Project Стандартный
-- Переход к сетевому решению, такому как Project Online или Project в Интернете
+- Переход на более новую версию Project Professional или Project Standard
+- Переход к решению в Интернете, например Project Online или Project for the web
 
 #### <a name="move-to-a-newer-version-of-project-client"></a>Переход на более новую версию клиента Project
 
-При переходе с Project Стандартный 2010 можно перейти на более новую версию Project Standard (Project Стандартный 2016 или Project Стандартный 2019). Рекомендуем перейти к последней версии, чтобы воспользоваться новейшими возможностями. Миграция на менее текущую версию (Project Стандартный 2016) также означает, что вам потребуется перейти еще раз раньше.
+При переходе из Project Standard 2010 можно перейти к более новой версии Project Standard (Project Standard 2016 или Project Standard 2019). Рекомендуется перейти в новейшую версию, чтобы воспользоваться последними функциями. Миграция в менее текущую версию (Project Standard 2016) также означает, что вам потребуется перенести еще раз раньше.
 
-Аналогично, при переходе с Project профессиональный 2010 можно перейти на более новую версию (Project профессиональный 2019 или Project профессиональный 2016). По возможности переходить к новой версии. Если для подключения к Project Server используется Project профессиональный, необходимо перейти на версию Project профессиональный, которая подключается к используемой версии Project Server.
+Кроме того, при переходе из Project Professional 2010 можно перейти на более новую версию (Project Professional 2019 или Project Professional 2016). Снова переходить к самой новой версии, если это возможно. Если вы используете Project Professional для подключения к Project Server, убедитесь, что вы мигрируете в версию Project Professional, которая подключается к используемой версии Project Server.
 
-Пользователи Project профессиональный 2010 также могут перейти на настольный клиент Project Online, который является версией Project профессиональный 2019 на основе подписки. Она включена в подписки project Plan 3 и Project Plan 5.
+Пользователи Project Professional 2010 также могут перейти на клиент Project Online Desktop, который является версией Project Professional 2019 на основе подписки. Он включен в подписки Project Plan 3 и Project Plan 5.
 
-#### <a name="move-to-an-online-solution"></a>Переход к сетевому решению
+#### <a name="move-to-an-online-solution"></a>Переход к решению в Интернете
 
-Вы также можете перейти с Project профессиональный 2010 или Project Стандартный 2010 на веб-решение на основе подписки Project. И Project ( план 3, и план 5) включают Project Online и последнее облачное предложение [Project для Интернета.](https://support.office.com/article/what-can-you-do-with-project-for-the-web-b30f5442-be5f-43d2-9072-c95bff778ea1) Обе функции предоставляют новые возможности и преимущества, которые стоит изучить.
+Вы также можете перейти из Project Professional 2010 или Project Standard 2010 в сетевое решение на основе подписки Project. И Project Plan 3, и Plan 5 включают Project Online и последнее облачное предложение [Project for the Web.](https://support.office.com/article/what-can-you-do-with-project-for-the-web-b30f5442-be5f-43d2-9072-c95bff778ea1) Оба предлагают новые возможности и преимущества, которые стоит изучить.
 
-Дополнительные сведения о функциях и лицензиях см. в [описании службы Microsoft Project.](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description)
+Дополнительные сведения об особенностях и лицензиях см. в описании [службы Microsoft Project.](/office365/servicedescriptions/project-online-service-description/project-online-service-description)
 
-## <a name="important-considerations-for-migrating-from-project-server-2010"></a>Важные аспекты переноса из Project Server 2010
+## <a name="important-considerations-for-migrating-from-project-server-2010"></a>Важные соображения для переноса с Project Server 2010
 
-При планировании миграции с Project Server 2010 учитывайте следующее:
+При планировании миграции с Project Server 2010 рассмотрим следующее:
 
-- **Получите помощь от поставщика решений Майкрософт.** Обновление Project Server 2010 может быть сложной задачей. Для этого требуется большая подготовка и планирование. Это может быть особенно сложно, если вы не были человеком, который изначально установил Project Server 2010. Поставщики решений Майкрософт могут помочь при планировании перехода на Project Server 2019 или Project Online. Поиск поставщика решений в [Центре поставщиков решений Майкрософт.](https://go.microsoft.com/fwlink/p/?linkid=841249)
+- **Получить помощь от поставщика решений Майкрософт** . Обновление с Project Server 2010 может быть сложной задачей. Это требует большой подготовки и планирования. Это может быть особенно сложно, если вы не были человеком, который изначально создал Project Server 2010. Поставщики решений Майкрософт могут помочь независимо от того, планируете ли вы перейти на Project Server 2019 или Project Online. Поиск поставщика решений в [центре поставщиков решений Майкрософт.](https://go.microsoft.com/fwlink/p/?linkid=841249)
 
-- **Планирование настроек.** Настройки в среде Project Server 2010 могут не работать при переходе на Project Server 2019 или Project Online. В архитектуре Project Server существуют значительные различия между версиями. Кроме того, необходимые операционные системы, серверы баз данных и веб-браузеры, работающие с версиями, отличаются. Запланируйте тестирование или перестроение настроек в новой среде. Эта возможность дает возможность определить, нужны ли по-прежнему определенные настройки. Дополнительные сведения см. в сведениях о создании плана текущих настроек во время [обновления до SharePoint 2013.](https://docs.microsoft.com/SharePoint/upgrade-and-update/create-a-plan-for-current-customizations-during-upgrade-to-sharepoint-2013)
+- **Планирование настроек** . Настройки в среде Project Server 2010 могут не работать при переходе на Project Server 2019 или Project Online. В архитектуре Project Server существуют значительные различия между версиями. Кроме того, различаются необходимые операционные системы, серверы баз данных и веб-браузеры, работающие с версиями. У вас есть план тестирования или восстановления настроек в новой среде. Воспользоваться этой возможностью, чтобы определить, необходимы ли определенные настройки. Дополнительные сведения см. в раздел Создание плана текущих настроек во время обновления [до SharePoint 2013.](/SharePoint/upgrade-and-update/create-a-plan-for-current-customizations-during-upgrade-to-sharepoint-2013)
 
-- **Время и терпение.** Планирование, выполнение и тестирование обновлений займет много времени и усилий, особенно при обновлении до Project Server 2019. При переходе с Project Server 2010 на Project Server 2019 необходимо сначала перейти на Project Server 2013, проверить данные, а затем перейти на Project Server 2016, а затем на Project Server 2019. Вам может потребоваться уточнить у поставщика решений Майкрософт время и предполагаемые затраты на помощь.
+- **Время и терпение** . Планирование обновления, выполнение и тестирование будут отбирать много времени и усилий, особенно для обновления до Project Server 2019. Если вы мигрируете с Project Server 2010 на Project Server 2019, сначала необходимо перейти на Project Server 2013, проверить данные, а затем перейти на Project Server 2016, а затем на Project Server 2019. Возможно, вам нужно проверить у поставщика решений Майкрософт сроки и предполагаемые затраты для их оказания помощи.
 
-## <a name="migrate-to-project-online"></a>Переход на Project Online
+## <a name="migrate-to-project-online"></a>Миграция в Project Online
 
-Если вы решили перейти с Project Server 2010 на Project Online, выполните следующие действия, чтобы вручную перенести данные плана проекта:
+Если вы решите перейти с Project Server 2010 на Project Online, вы можете выполнять следующие действия для переноса данных плана проекта вручную:
 
-1. Сохраните планы проектов из Project Server 2010 в формат MPP.
+1. Сохраните планы проекта с Project Server 2010 до формата MPP.
 
-2. Используя Project профессиональный 2016, Project профессиональный 2019 или клиент Project Online для настольных ПК, откройте каждый MPP-файл, а затем сохраните и опубликуем его в Project Online.
+2. С помощью Project Professional 2016, Project Professional 2019 или Клиент настольного компьютера Project Online откройте каждый файл MPP, а затем сохраните и опубликуем его в Project Online.
 
-Вы можете вручную создать конфигурацию PWA в Project Online (например, воссоздать все необходимые настраиваемые поля или корпоративные календари). Поставщики решений Майкрософт также могут помочь в этом процессе.
+Вы можете вручную создать конфигурацию PWA в Project Online (например, воссоздать необходимые настраиваемые поля или корпоративные календари). Поставщики решений Майкрософт также могут помочь в этом процессе.
 
 Ключевые ресурсы:
 
-|Ресурс|Описание|
+|Resource|Описание|
 |---|---|
 |[Начало работы с Project Online](https://support.office.com/article/e3e5f64f-ada5-4f9d-a578-130b2d4e5f11)|Настройка и использование Project Online|
-|[Описание службы Project Online](https://go.microsoft.com/fwlink/p/?linkid=829088)|Сведения о различных доступных планах Project Online|
+|[Описание службы Project Online](/office365/servicedescriptions/project-online-service-description/project-online-service-description)|Сведения о различных доступных планах Project Online|
 
-## <a name="migrate-to-a-newer-on-premises-version-of-project-server"></a>Переход на более новую версию Project Server в локальной версии
+## <a name="migrate-to-a-newer-on-premises-version-of-project-server"></a>Миграция в более новую локальной версию Project Server
 
-Мы настоятельно верим, что переход на Project Online будет наиболее удобным и удобным для пользователя. Но мы также понимаем, что некоторым организациям необходимо хранить данные проекта в локальной организации. Если вы решили хранить данные проекта локально, можно перенести среду Project Server 2010 в Project Server 2013, Project Server 2016 или Project Server 2019.
+Мы твердо верим, что вы получите лучшее значение и пользовательский опыт, переехав в Project Online. Но мы также понимаем, что некоторым организациям необходимо хранить данные о проектах на месте. Если вы хотите сохранить данные проекта на локальной основе, вы можете перенести среду Project Server 2010 в Project Server 2013, Project Server 2016 или Project Server 2019.
 
-Если вы не можете перейти на Project Online, рекомендуется перейти на Project Server 2019. Project Server 2019 включает большинство ключевых функций в предыдущих выпусках Project Server. И он наиболее точно соответствует возможностям Project Online, хотя некоторые функции доступны только в Project Online.
+Если вы не можете перейти в Project Online, рекомендуется перейти на Project Server 2019. Project Server 2019 включает большинство ключевых функций в предыдущих выпусках Project Server. И это наиболее тесно совпадает с опытом, доступным в Project Online, хотя некоторые функции доступны только в Project Online.
 
 После завершения каждой миграции убедитесь, что данные успешно перенесены.
 
 > [!NOTE]
-> Если вы ограничены только локальной версией решения и рассматриваете возможность перехода только на Project Server 2013, следует учитывать, что этой версии осталось всего несколько лет поддержки. Дата окончания поддержки Project Server 2013 с 2 Пакет обновления 13 октября 2023 г. Дополнительные сведения о датах окончания поддержки см. в политике [жизненного цикла продуктов Майкрософт.](https://go.microsoft.com/fwlink/p/?linkid=842066)
+> Если вы ограничиваете локальное решение и рассматриваете только переход на Project Server 2013, будьте осторожны, что эта версия имеет еще несколько лет поддержки. Дата окончания даты поддержки Project Server 2013 с Пакет обновления 13 октября 2023 г. Дополнительные сведения о сроках окончания службы поддержки см. в сайте [Microsoft Product Lifecycle Policy.](/lifecycle/)
 
 ### <a name="how-do-i-migrate-to-project-server-2019"></a>Как перейти на Project Server 2019?
 
-Архитектурные различия между Project Server 2010 и Project Server 2019 препятствуют прямому пути миграции. Таким образом, вам потребуется перенести данные Project Server 2010 на каждую из последовательных версий Project Server, пока не достигнете Project Server 2019. Действия по обновлению Project Server 2010 до Project Server 2019:
+Архитектурные различия между Project Server 2010 и Project Server 2019 препятствуют прямой миграции. Поэтому вам потребуется перенести данные Project Server 2010 в каждую сеяную версию Project Server до достижения Project Server 2019. Действия по обновлению Project Server 2010 до Project Server 2019:
 
 1. Миграция на Project Server 2013.
 
-2. Миграция с Project Serve 2013 на Project Server 2016.
+2. Перенос с Project Serve 2013 на Project Server 2016.
 
-3. Миграция с Project Server 2016 на Project Server 2019.
+3. Перенос с Project Server 2016 на Project Server 2019.
 
 После завершения каждой миграции убедитесь, что данные успешно перенесены.
 
 ### <a name="step-1-migrate-to-project-server-2013"></a>Шаг 1. Миграция на Project Server 2013
 
-Подробную информацию об обновлении Project Server 2010 до Project Server 2013 см. в обновлении до [Project Server 2013.](https://go.microsoft.com/fwlink/p/?linkid=841822)
+Подробную информацию о обновлении с Project Server 2010 до Project Server 2013 см. в обзоре [Upgrade to Project Server 2013.](/project/upgrade-to-project-server-2016)
 
 Ключевые ресурсы:
 
-- [Обзор этапов обновления до Project Server 2013](https://go.microsoft.com/fwlink/p/?linkid=841822)
+- [Обзор этапов обновления до Project Server 2013](/project/upgrade-to-project-server-2016)
 
-  Общие сведения об обновлении Project Server 2010 до Project Server 2013.
-- [Планирование обновления до Project Server 2013](https://go.microsoft.com/fwlink/p/?linkid=841823)
+  Получите краткий обзор обновления с Project Server 2010 до Project Server 2013.
+- [План обновления до Project Server 2013](/project/plan-for-upgrade-to-project-server-2016)
 
-  В этой теме рассматриваются вопросы планирования при обновлении Project Server 2010 до Project Server 2013, включая требования к системе.
+  Посмотрите на соображения планирования при обновлении с Project Server 2010 до Project Server 2013, включая требования к системе.
 
-- [Новые возможности обновления Project Server 2013](https://go.microsoft.com/fwlink/p/?linkid=841824) охватывают важные изменения в этой версии, в том числе:
+- [Новые возможности обновления Project Server 2013](/project/what-s-new-in-project-server-2013-upgrade) охватывают важные изменения для этой версии, в том числе:
 
-   - Обновление на месте до Project Server 2013 не происходит. Метод с перенастройки баз данных — единственный поддерживаемый способ обновления с Project Server 2010 до Project Server 2013.
+   - Обновление до Project Server 2013 не происходит на месте. Метод прикрепить базу данных — это единственный поддерживаемый способ обновления с Project Server 2010 до Project Server 2013.
 
-   - Процесс обновления не только преобразует данные Project Server 2010 в формат Project Server 2013, но и объединяет четыре базы данных Project Server 2010 в одну Project Web App данных.
+   - Процесс обновления не только преобразует данные Project Server 2010 в формат Project Server 2013, но и консолидирует четыре базы данных Project Server 2010 в одну Project Web App базу данных.
 
-   - В SharePoint Server 2013 и Project Server 2013 проверка подлинности на основе утверждений была изменена по сравнению с предыдущей версией. Если вы используете классическую проверку подлинности, это необходимо учитывать при обновлении. Дополнительные сведения см. в статье [Migrate from classic-mode to claims-based authentication in SharePoint 2013]( https://docs.microsoft.com/sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013).
+   - Как SharePoint Server 2013, так и Project Server 2013 изменены на проверку подлинности на основе утверждений из предыдущей версии. Если вы используете классическую проверку подлинности, это необходимо учитывать при обновлении. Дополнительные сведения см. в статье [Migrate from classic-mode to claims-based authentication in SharePoint 2013]( https://docs.microsoft.com/sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013).
 
 Ключевые ресурсы:
 
-- [Общие сведения о процессе обновления до Project Server 2013](https://go.microsoft.com/fwlink/p/?linkid=841274)
+- [Общие сведения о процессе обновления до Project Server 2013](/project/overview-of-the-project-server-2016-upgrade-process)
 
-- [Обновление баз данных и семейств веб-сайтов Project Web App (Project Server 2013)](https://go.microsoft.com/fwlink/p/?linkid=841272)
+- [Обновление баз данных и семейств веб-сайтов Project Web App (Project Server 2013)](/project/upgrading-to-project-server-2016)
 
 - [Схема процесса обновления Microsoft Project Server](https://go.microsoft.com/fwlink/p/?linkid=841270)
 
-- [Большая консолидация баз данных, перенос Project Server 2010 на 2013 за 8 простых шагов](https://go.microsoft.com/fwlink/p/?linkid=841271)
+- [Большая консолидация баз данных, Project Server 2010 - 2013 Migration in 8 Easy Steps](https://go.microsoft.com/fwlink/p/?linkid=841271)
 
 ### <a name="step-2-migrate-to-project-server-2016"></a>Шаг 2. Миграция на Project Server 2016
 
-После перехода на Project Server 2013 и проверки успешного переноса данных необходимо перейти на Project Server 2016.
+После перехода на Project Server 2013 и проверки успешного переноса данных на Project Server 2016 следующий шаг.
 
-Дополнительные сведения см. в [обновлении до Project Server 2016.](https://docs.microsoft.com/Project/upgrade-to-project-server-2016)
+Дополнительные сведения см. в [веб-сведениях Upgrade to Project Server 2016.](/Project/upgrade-to-project-server-2016)
 
 Ключевые ресурсы:
 
-- [Обзор процесса обновления до Project Server 2016](https://docs.microsoft.com/Project/overview-of-the-project-server-2016-upgrade-process)
+- [Обзор процесса обновления до Project Server 2016](/Project/overview-of-the-project-server-2016-upgrade-process)
 
-  Понять, что необходимо сделать для обновления Project Server 2013 до Project Server 2016.
+  Понять, что нужно сделать для обновления с Project Server 2013 до Project Server 2016.
 
-- [Планирование обновления до Project Server 2016](https://docs.microsoft.com/Project/plan-for-upgrade-to-project-server-2016)
+- [Планирование обновления до Project Server 2016](/Project/plan-for-upgrade-to-project-server-2016)
 
-  В этой теме рассматриваются вопросы планирования при обновлении Project Server 2013 до Project Server 2016.
+  При обновлении с Project Server 2013 до Project Server 2016 посмотрите на соображения планирования.
 
-Что нужно знать об обновлении [Project Server 2016,](https://docs.microsoft.com/project/plan-for-upgrade-to-project-server-2016#thingknow) относятся важные изменения при обновлении до этой версии, в том числе:
+[Все, что необходимо знать о обновлении Project Server 2016,](/project/plan-for-upgrade-to-project-server-2016#thingknow) содержит важные изменения для обновления до этой версии, включающие:
 
-- При создании среды Project Server 2016 обратите внимание, что файлы установки Project Server 2016 включены в SharePoint Server 2016. Дополнительные сведения [см. в подпроекте "Развертывание Project Server 2016".](https://go.microsoft.com/fwlink/p/?linkid=841829)
+- При создании среды Project Server 2016 обратите внимание, что файлы установки Project Server 2016 включены в SharePoint Server 2016. Дополнительные сведения см. в [веб-сведениях Deploy Project Server 2016.](/project/deploy-project-server-2016)
 
-- Планы использования ресурсов в Project Server 2016 являются неподготовленными. Планы использования ресурсов Project Server 2013 будут перенесены в project Server 2016 и Project Online. Дополнительные [сведения см. в обзоре.](https://support.office.com/article/73eefb5a-81fe-42bf-980e-9532b1bdc870)
+- В Project Server 2016 планы ресурсов не априорные. Планы ресурсов Project Server 2013 будут перенесены в Проекты Сервер 2016 и Project Online. Дополнительные сведения см. в [обзоре.](https://support.office.com/article/73eefb5a-81fe-42bf-980e-9532b1bdc870)
 
 ### <a name="step-3-migrate-to-project-server-2019"></a>Шаг 3. Миграция на Project Server 2019
 
-После миграции в Project Server 2016 и проверки успешного переноса данных необходимо перенести данные в Project Server 2019.
+После перехода на Project Server 2016 и проверки успешной миграции данных следующим шагом является перенос данных на Project Server 2019.
 
-Чтобы узнать, что нужно сделать для обновления Project Server 2016 до Project Server 2019, см. обновление [до Project Server 2019.](https://docs.microsoft.com/Project/upgrade-to-project-server-2016)
+Подробнее о том, что необходимо сделать для обновления с Project Server 2016 до Project Server 2019, см. в руб. Обновление до [Project Server 2019.](/Project/upgrade-to-project-server-2016)
 
 Ключевые ресурсы:
 
-- [Обзор процесса обновления Project Server 2019](https://docs.microsoft.com/project/overview-of-the-project-server-2019-upgrade-process)
+- [Обзор процесса обновления Project Server 2019](/project/overview-of-the-project-server-2019-upgrade-process)
 
-  Получите общее представление о том, что необходимо сделать для обновления Project Server 2013 до Project Server 2016.
+  Получите четкое представление о том, что необходимо сделать для обновления с Project Server 2013 до Project Server 2016.
 
-- [Планирование обновления до Project Server 2019](https://docs.microsoft.com/project/plan-for-upgrade-to-project-server-2019)
+- [Планирование обновления до Project Server 2019](/project/plan-for-upgrade-to-project-server-2019)
 
-  В этой теме рассматриваются вопросы планирования обновления Project Server 2016 до Project Server 2019.
+  Подробнее о планировании обновления с Project Server 2016 до Project Server 2019.
 
-- [Что нужно знать об обновлении Project Server 2019](https://go.microsoft.com/fwlink/p/?linkid=841827)<br/><br/>Узнайте о важных изменениях при обновлении до этой версии, в том числе:
+- [Что нужно знать об обновлении Project Server 2019](/project/plan-for-upgrade-to-project-server-2016)<br/><br/>Узнайте о важных изменениях для обновления до этой версии, которые включают:
 
-   - Процесс обновления переносит данные из базы данных Project Server 2016 в базу данных контента SharePoint Server 2019.  Project Server 2019 больше не будет создавать собственную базу данных Project Server в ферме SharePoint Server.
+   - В процессе обновления данные будут перенесены из базы данных Project Server 2016 в базу данных контента SharePoint Server 2019.  Project Server 2019 больше не будет создавать собственную базу данных Project Server в ферме SharePoint Server.
 
-   - После обновления следует помнить о нескольких изменениях в Project Web App.  Подробные сведения см. в новых [сведениях в Project Server 2019.](https://docs.microsoft.com/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges)
+   - После обновления следует помнить о нескольких изменениях в Project Web App.  Подробные сведения см. в материале [What's new in Project Server 2019.](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges)
 
 **Другие ресурсы:**
 
-- [Описание службы Project Online:](https://go.microsoft.com/fwlink/p/?linkid=841280)см. функции управления портфелями, включенные в Project Server 2016 и Project Online premium.
+- [Описание службы](/office365/servicedescriptions/project-online-service-description/project-online-service-description)Project Online: См. функции управления портфелем, включенные в Project Server 2016 и Project Online Premium.
 
-- [Microsoft Office переноса Project Portfolio Server 2010](https://go.microsoft.com/fwlink/p/?linkid=841279)
+- [Microsoft Office project Portfolio Server 2010 migration guide](https://go.microsoft.com/fwlink/p/?linkid=841279)
 
 ## <a name="summary-of-options-for-office-2010-client-and-servers-and-windows-7"></a>Сводка параметров для клиентов и серверов Office 2010 и Windows 7
 
 Визуальное представление возможностей обновления, миграции и перехода на облачные решения для клиентов и серверов Office 2010, а также Windows 7 см. на плакате [Прекращение поддержки](../downloads/Office2010Windows7EndOfSupport.pdf).
 
-[![Окончание поддержки клиентов и серверов Office 2010 и плаката windows 7](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![Завершение поддержки клиентов и серверов Office 2010 и плаката Windows 7](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
-На этом плакате показано, как обойтись без поддержки клиентских и серверных продуктов Office 2010 и Windows 7. Выделены предпочтительные пути и поддержка вариантов в Microsoft 365 корпоративный.
+На этом плакате показано, как избежать окончания поддержки клиентских и серверных продуктов Office 2010 и Windows 7 с предпочтительными путями и поддержкой опций в Microsoft 365 Enterprise.
 
 Вы также можете [скачать](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) этот плакат и распечатать его в формате букв, юридических или таблоидов (11 x 17).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Родственные темы
 
 [Переход с SharePoint 2010](upgrade-from-sharepoint-2010.md)
 

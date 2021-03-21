@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: Администраторы. Узнайте, как включить автоматическое расширение архивирования, которое предоставляет пользователям неограниченное хранилище для почтовых ящиков Exchange Online. Вы можете включить автоматическое расширение архива для всей организации или только для определенных пользователей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 967b623b8ac1898567b5e6e779e8e557404b5242
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ac5661ac43ed9c0f35eba20007f0c4c4406ebf20
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423660"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927829"
 ---
 # <a name="enable-unlimited-archiving---admin-help"></a>Включить неограниченный архиватив - Справка администратора
 
@@ -42,13 +42,13 @@ ms.locfileid: "50423660"
 
 - Автоматическое расширение архива предотвращает восстановление или восстановление [неактивного почтового ящика.](inactive-mailboxes-in-office-365.md#what-are-inactive-mailboxes) Это означает, что если включить автоматическое расширение архивации для почтового ящика, а почтовый ящик будет [](recover-an-inactive-mailbox.md) неактивным позднее, вы не сможете восстановить неактивный почтовый ящик (преобразовав его в активный почтовый ящик) или восстановить [его](restore-an-inactive-mailbox.md) (путем объединения содержимого в существующий почтовый ящик). Если автоматическое расширение архива включено в неактивном почтовом ящике, единственным способом восстановления данных является использование средства поиска контента в центре соответствия требованиям Microsoft 365 для экспорта данных из почтового ящика и импорта в другой почтовый ящик. Дополнительные сведения см. в разделе "Неактивные почтовые ящики и архивы автоматического расширения" в разделе Обзор неактивных [почтовых ящиков.](inactive-mailboxes-in-office-365.md#inactive-mailboxes-and-auto-expanding-archives)
 
-- Нельзя использовать центр администрирования Exchange или Центр & безопасности для автоматического расширения архива. Вы должны использовать Exchange Online PowerShell. Чтобы подключиться к организации Exchange Online с помощью удаленной PowerShell, см. в рублях [Connect to Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+- Нельзя использовать центр администрирования Exchange или Центр & безопасности для автоматического расширения архива. Вы должны использовать Exchange Online PowerShell. Чтобы подключиться к организации Exchange Online с помощью удаленной PowerShell, см. в рублях [Connect to Exchange Online PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 ## <a name="enable-auto-expanding-archiving-for-your-entire-organization"></a>Включить автоматическое расширение архива для всей организации
 
 Вы можете включить автоматическое расширение архива для всей организации. После его включения будет включено автоматическое расширение архива для существующих почтовых ящиков пользователей и для созданных новых почтовых ящиков пользователей. При создании почтовых ящиков пользователей убедитесь, что основной архивный почтовый ящик пользователя включается, чтобы функция автоматического расширения архива для нового почтового ящика пользователя.
   
-1. [Подключение к PowerShell Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Подключение к PowerShell Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Запустите следующую команду в Exchange Online PowerShell, чтобы включить автоматическое расширение архива для всей организации.
 
@@ -68,7 +68,7 @@ ms.locfileid: "50423660"
 
 Это дополнительное пространство добавляется для предотвращения проблем с хранением, которые могут возникнуть до получения архива автоматического расширения. Дополнительное пространство для хранения  *не*  добавляется, если включить автоматическое расширение архивирования для всей организации, как описано в предыдущем разделе.
   
-1. [Подключение к PowerShell Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Подключение к PowerShell Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Запустите следующую команду в Exchange Online PowerShell, чтобы включить автоматическое расширение архива для определенного пользователя. Как объяснялось ранее, необходимо включить архивный почтовый ящик пользователя (основной архив), прежде чем включить автоматическое расширение архива для этого пользователя.
 
@@ -113,7 +113,7 @@ Get-Mailbox -InactiveMailboxOnly | FL UserPrincipalName,AutoExpandingArchiveEnab
 
     ![Свойства ArchiveQuota и ArchiveWarningQuota игнорируются после автоматического расширения архивирования](../media/6a1c1b69-5c4c-4267-aac8-53577667f03e.png)
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 - Вы также можете использовать PowerShell, чтобы включить архивные почтовые ящики. Например, вы можете запустить следующую команду в Exchange Online PowerShell, чтобы включить архивные почтовые ящики для всех пользователей, чей архивный почтовый ящик еще не включен.
 

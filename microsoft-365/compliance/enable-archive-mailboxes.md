@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: Узнайте, как включить архивные почтовые ящики в Центре соответствия требованиям, чтобы выполнить требования к хранению сообщений, обнаружению электронных данных и удержанию.
-ms.openlocfilehash: d7506b92cc16120f1d40a6d5a1744ab38d446a76
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 2bc80d347d1324a317cc2cc2712d475781adc492
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233819"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926519"
 ---
 # <a name="enable-archive-mailboxes-in-the-compliance-center"></a>Включение архивных почтовых ящиков в Центре соответствия требованиям
 
@@ -102,7 +102,7 @@ ms.locfileid: "50233819"
 
 Вы также можете использовать Exchange Online PowerShell для включения архивных почтовых ящиков. Главная причина использования PowerShell — быстрое включение архивных почтовых ящиков для всех пользователей в организации.
 
-Первый шаг — подключение к Exchange Online PowerShell. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+Первый шаг — подключение к Exchange Online PowerShell. Инструкции см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 После подключения к Exchange Online можно выполнить команды, приведенные в следующих разделах, для включения или отключения архивных почтовых ящиков.
 
@@ -150,8 +150,8 @@ Get-Mailbox -Filter {ArchiveGuid -Ne "00000000-0000-0000-0000-000000000000" -AND
 
 - Дополнительные сведения об архивных почтовых ящиках и политиках хранения Exchange приведены в следующих статьях:
 
-  - [Теги хранения и политики хранения в Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
+  - [Теги хранения и политики хранения в Exchange Online](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
-  - [Политика хранения по умолчанию в Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/default-retention-policy)
+  - [Политика хранения по умолчанию в Exchange Online](/exchange/security-and-compliance/messaging-records-management/default-retention-policy)
 
   - [Настройка политики архивации и удаления для почтовых ящиков в организации](set-up-an-archive-and-deletion-policy-for-mailboxes.md)

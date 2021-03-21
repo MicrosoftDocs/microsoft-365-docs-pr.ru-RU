@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Узнайте, как создать политику типа конфиденциальной информации для организации с помощью шифрования сообщений Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22aec87b149c58b2537f6921fb7c37552ef72f98
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: ad570f64122aecd245b912b1b6545a5950e838cc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741382"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927747"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>Создание политики типа конфиденциальной информации для организации с помощью шифрования сообщений
 
@@ -35,7 +35,7 @@ ms.locfileid: "50741382"
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>Создание политики с помощью правил потока почты в PowerShell
 
-Используйте учетную запись для работы или школы с глобальными разрешениями администратора в организации, запустите сеанс Windows PowerShell и подключите его к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell). Используйте Set-IRMConfiguration и New-TransportRule для создания политики.
+Используйте учетную запись для работы или школы с глобальными разрешениями администратора в организации, запустите сеанс Windows PowerShell и подключите его к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Используйте Set-IRMConfiguration и New-TransportRule для создания политики.
 
 ## <a name="example-mail-flow-rule-created-with-powershell"></a>Пример правила потока почты, созданного с помощью PowerShell
 
@@ -54,7 +54,7 @@ Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
 New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -SentToScope  NotInOrganization  -ApplyRightsProtectionTemplate "Encrypt" -MessageContainsDataClassifications @(@{Name="ABA Routing Number"; minCount="1"},@{Name="Credit Card Number"; minCount="1"},@{Name="Drug Enforcement Agency (DEA) Number"; minCount="1"},@{Name="U.S. / U.K. Passport Number"; minCount="1"},@{Name="U.S. Bank Account Number"; minCount="1"},@{Name="U.S. Individual Taxpayer Identification Number (ITIN)"; minCount="1"},@{Name="U.S. Social Security Number (SSN)"; minCount="1"}) -SenderNotificationType "NotifyOnly"
 ```
 
-Дополнительные сведения см. [в set-IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-irmconfiguration) и [New-TransportRule.](https://docs.microsoft.com/powershell/module/exchange/new-transportrule)
+Дополнительные сведения см. [в set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration) и [New-TransportRule.](/powershell/module/exchange/new-transportrule)
 
 ## <a name="how-recipients-access-attachments"></a>Как получатели могут получить доступ к вложениям
 
@@ -77,4 +77,4 @@ New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -S
 
 ## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>Отключение или настройка политики типов конфиденциальной информации
 
-После создания правила потока почты Exchange [](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) вы можете отключить или изменить правило, перенаправить правила потока почты в центре администрирования Exchange (EAC) и отключить правило "Шифруем исходящие конфиденциальные сообщения (вне правила  >   *полей)*".
+После создания правила потока почты Exchange [](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) вы можете отключить или изменить правило, перенаправить правила потока почты в центре администрирования Exchange (EAC) и отключить правило "Шифруем исходящие конфиденциальные сообщения (вне правила  >   *полей)*".

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Развертывание функций безопасности и соответствия требованиям Microsoft 365 и защита персональных данных.
-ms.openlocfilehash: a5bba79f8ab382707b6fd5e448003a0271d690c6
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 657b3c9c6416c8a38629a0d26253e1222aa6d242
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597242"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928476"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Защита информации с учетом правил конфиденциальности данных
 
@@ -38,7 +38,7 @@ ms.locfileid: "50597242"
 ![Ключевые службы для защиты персональных данных в том, что необходимо для регулирования конфиденциальности данных](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
 >[!Note]
->В этом решении описываются функции безопасности и соответствия требованиям для защиты информации в соответствии с правилами конфиденциальности данных. Полный список функций безопасности в Microsoft 365 см. в документации по безопасности [Microsoft 365.](https://docs.microsoft.com/microsoft-365/security/) Полный список компонентов соответствия требованиям в Microsoft 365 см. в документации по соответствия [требованиям Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/)
+>В этом решении описываются функции безопасности и соответствия требованиям для защиты информации в соответствии с правилами конфиденциальности данных. Полный список функций безопасности в Microsoft 365 см. в документации по безопасности [Microsoft 365.](../security/index.yml) Полный список компонентов соответствия требованиям в Microsoft 365 см. в документации по соответствия [требованиям Microsoft 365.](../compliance/index.yml)
 >
 
 ## <a name="data-privacy-regulations-that-impact-information-protection-controls"></a>Правила конфиденциальности данных, которые влияют на элементы управления защитой информации
@@ -68,7 +68,7 @@ ms.locfileid: "50597242"
 Решения [майкрософт по защите информации](../compliance/information-protection.md) включают ряд интегрированных возможностей в Microsoft 365, Microsoft Azure и Microsoft Windows. В Microsoft 365 решения по защите информации включают:
 
 - [Шифрование службы с помощью ключа клиента](../compliance/customer-key-overview.md)
-- [Типы конфиденциальной информации](../compliance/what-the-sensitive-information-types-look-for.md) (описанные в статье Оценка рисков конфиденциальности данных и [определение конфиденциальных элементов)](information-protection-deploy-assess.md)
+- [Типы конфиденциальной информации](../compliance/sensitive-information-type-entity-definitions.md) (описанные в статье Оценка рисков конфиденциальности данных и [определение конфиденциальных элементов)](information-protection-deploy-assess.md)
 - [Метки конфиденциальности](../compliance/sensitivity-labels.md) 
   - Уровень service/container
   - Клиентская сторона/уровень контента
@@ -81,10 +81,10 @@ ms.locfileid: "50597242"
 
 Сведения о других возможностях защиты информации за пределами Microsoft 365 см.:
 
-- [Безопасность облачных приложений Майкрософт (MCAS)](https://docs.microsoft.com/cloud-app-security/)
-- [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
+- [Безопасность облачных приложений Майкрософт (MCAS)](/cloud-app-security/)
+- [Azure Information Protection](/azure/information-protection/what-is-information-protection)
 - [Менеджер конечных точек Майкрософт](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager)
-- [Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
+- [Windows Information Protection](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 
 ## <a name="sensitivity-labels"></a>Метки конфиденциальности
 

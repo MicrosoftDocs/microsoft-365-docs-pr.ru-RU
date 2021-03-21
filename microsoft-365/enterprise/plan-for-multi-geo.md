@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Сведения о Microsoft 365 Multi-Geo, о принципе такой поддержки и о географических расположениях, доступных для хранения данных.
-ms.openlocfilehash: ce8b752cc6a335249f9d8e03289fd16b04756ce9
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 9625d55015cc0f18801d59e82fc8ca7090b3b721
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712346"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927536"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>План для Microsoft 365 Multi-Geo
 
@@ -69,18 +69,18 @@ ms.locfileid: "50712346"
 
 Создайте список пользователей, включите имя участника-пользователя и код расположения для соответствующего предпочтительного расположения данных. Включите тестового пользователя и первоначальную пилотную группу. Этот список понадобится для процедур настройки.
 
-Если выполняется синхронизация пользователей из локальной системы Active Directory в Azure Active Directory, нужно установить предпочтительное расположение данных в качестве атрибута Active Directory и синхронизировать его с помощью Azure Active Directory Connect. Напрямую настроить PDL для синхронизируемых пользователей с помощью Azure AD PowerShell невозможно. Шаги по настройке PDL в Active Directory и синхронизации рассматриваются в статье [Синхронизация Azure Active Directory Connect: настройка предпочтительного расположения данных для ресурсов Microsoft 365](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
+Если выполняется синхронизация пользователей из локальной системы Active Directory в Azure Active Directory, нужно установить предпочтительное расположение данных в качестве атрибута Active Directory и синхронизировать его с помощью Azure Active Directory Connect. Напрямую настроить PDL для синхронизируемых пользователей с помощью Azure AD PowerShell невозможно. Шаги по настройке PDL в Active Directory и синхронизации рассматриваются в статье [Синхронизация Azure Active Directory Connect: настройка предпочтительного расположения данных для ресурсов Microsoft 365](/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
 
 Администрирование клиента с поддержкой нескольких регионов может отличаться от администрирования без таковой, так как многие службы и настройки SharePoint и OneDrive поддерживают несколько регионов. Рекомендуем ознакомиться со статьей [Администрирование среды с поддержкой нескольких регионов](administering-a-multi-geo-environment.md), прежде чем переходить к настройке.
 
 Ознакомьтесь [с пользовательским опытом в среде с несколькими](multi-geo-user-experience.md) геодезами, чтобы узнать подробности об опыте конечных пользователей в среде с несколькими географическими условиями.
 
-Сведения о работе с Teams в клиентах Microsoft 365 Multi-Geo см. в статье [Взаимодействие с Teams в клиентах Microsoft 365 OneDrive и SharePoint Online с поддержкой нескольких регионов](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo).
+Сведения о работе с Teams в клиентах Microsoft 365 Multi-Geo см. в статье [Взаимодействие с Teams в клиентах Microsoft 365 OneDrive и SharePoint Online с поддержкой нескольких регионов](/microsoftteams/teams-experience-o365odb-spo-multi-geo).
 
 Чтобы начать настройку Microsoft 365 Multi-Geo, ознакомьтесь со статьей [Настройка Microsoft 365 Multi-Geo](multi-geo-tenant-configuration.md).
 
 После настройки не забудьте [перенести библиотеки OneDrive пользователей](move-onedrive-between-geo-locations.md), если это необходимо для работы пользователей в предпочтительных расположениях данных.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Родственные темы
 
-[Настройка обнаружения электронных данных в Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-ediscovery-configuration)
+[Настройка обнаружения электронных данных в Microsoft 365 Multi-Geo](./multi-geo-ediscovery-configuration.md)

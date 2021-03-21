@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Используйте отчеты DLP в Office 365 для просмотра количества совпадений политик DLP, переопределей или ложных срабатывающих срабатыва-
-ms.openlocfilehash: eb281f4d912a9e21716d7f9859564a02f9c23401
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 742f0ef0334e714c7f31cbc2f97559993454f6b7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423832"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928393"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Просмотр отчетов о защите от потери данных
 
@@ -88,18 +88,16 @@ ms.locfileid: "50423832"
 
 Чтобы можно было использовать большинство командлетов в Центре безопасности и соответствия требованиям, необходимо выполнить указанные ниже действия.
   
-1. [Подключение к Центру соответствия &amp; требованиям безопасности с помощью удаленной PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell&amp;clcid=0x409)
+1. [Подключение к Центру соответствия &amp; требованиям безопасности с помощью удаленной PowerShell](/powershell/exchange/connect-to-scc-powershell&amp;clcid=0x409)
     
-2. Используйте все эти коммлеты Центра соответствия [ &amp; требованиям безопасности](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
+2. Используйте все эти коммлеты Центра соответствия [ &amp; требованиям безопасности](/powershell/exchange/exchange-online-powershell)
     
 При этом, чтобы создавать отчеты со сведениями о защите от потери данных, системе потребуется получать данные из Office 365, в том числе из Exchange Online. По этой причине cmdlets для отчетов DLP доступны в Exchange Online Powershell, а не в Центре обеспечения безопасности &amp; Powershell. Поэтому, чтобы можно было использовать эти командлеты для отчетов со сведениями о защите от потери данных, необходимо выполнить указанные действия.
   
-1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409).
+1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
     
 2. Используйте следующие командлеты для отчетов со сведениями о защите от потери данных:
     
-      - [Get-DlpDetectionsReport](https://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
+      - [Get-DlpDetectionsReport](/powershell/module/exchange/get-dlpdetectionsreport)
     
-      - [Get-DlpDetailReport](https://go.microsoft.com/fwlink/?LinkID=799775&amp;clcid=0x409)
-    
-
+      - [Get-DlpDetailReport](/powershell/module/exchange/get-dlpdetailreport)

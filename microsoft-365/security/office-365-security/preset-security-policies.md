@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут узнать, как применять стандартные и строгие параметры политики для функций защиты Exchange Online Protection (EOP) и Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b49b980d217d60865029c8e64ad02ed722f6b86e
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: b57c13517d9fd41bcafea5c9d672da0e6b581ad7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407460"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926764"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Предустановленные политики безопасности в EOP и Microsoft Defender для Office 365
 
@@ -105,15 +105,15 @@ ms.locfileid: "50407460"
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Чтобы перейти непосредственно на страницу политики безопасности **preset,** используйте <https://protection.office.com/presetSecurityPolicies> .
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на страницу политики безопасности **preset,** используйте <https://protection.office.com/presetSecurityPolicies> .
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Вам необходимо получить разрешения в **Exchange Online,** прежде чем вы сможете сделать процедуры в этой статье:
+- Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
   - Чтобы настроить заранее заранее заранее настроенные политики безопасности, необходимо быть членом групп ролей **"Управление** организацией" или **"Администратор** безопасности".
   - Для доступа только для чтения к предустановленным политикам безопасности необходимо быть членом группы **ролей Global Reader.**
 
-  Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   **Примечание.** Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования  Microsoft 365 предоставляет пользователям необходимые разрешения и разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 

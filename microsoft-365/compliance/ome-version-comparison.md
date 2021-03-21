@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: В этой статье помогают объяснить различия между различными версиями шифрования сообщений Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a587e27460d949811f9f30af0244cf325aaadac6
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: e75a709be6141c4bd1df4e63df677dd263c0777a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741340"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927737"
 ---
 # <a name="compare-versions-of-ome"></a>Сравнение версий OME
 
@@ -41,7 +41,7 @@ Exchange Online включает функции управления права�
 
 ### <a name="prepare-for-ad-rms-deprecation"></a>Подготовка к амортизации AD RMS
 
-Если вы уже создали Azure Information Protection, но не используете ее, встроите службу с помощью Exchange Online PowerShell. На локальном компьютере с помощью учетной записи работы или школы, которая имеет глобальные разрешения администратора в организации, подключите к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) в Windows PowerShell окне.
+Если вы уже создали Azure Information Protection, но не используете ее, встроите службу с помощью Exchange Online PowerShell. На локальном компьютере с помощью учетной записи работы или школы, которая имеет глобальные разрешения администратора в организации, подключите к [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) в Windows PowerShell окне.
 
 Чтобы включить Azure Information Protection, Set-IrmConfiguration командлет, введя следующую команду.
 
@@ -49,7 +49,7 @@ Exchange Online включает функции управления права�
 Set-IrmConfiguration -AzureRMSLicensingEnabled $true
 ```
 
-Если организация еще не настроена на защиту информации Azure, необходимо перейти из службы AD RMS в Azure Information Protection. Инструкции см. в [инструкции по переносу из AD RMS в Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/migrate-from-ad-rms-to-azure-rms)
+Если организация еще не настроена на защиту информации Azure, необходимо перейти из службы AD RMS в Azure Information Protection. Инструкции см. в [инструкции по переносу из AD RMS в Azure Information Protection.](/azure/information-protection/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="side-by-side-comparison-of-features-and-capabilities"></a>Сравнение функций и возможностей
 

@@ -23,7 +23,7 @@
     - name: Развертывание
       items:
         - name: Добавление домена
-          href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+          href: ../admin/setup/add-domain.md
         - name: Настройка конечных точек для обхода
           items:
             - name: Веб-служба IP-адресов и URL-адресов в Office 365
@@ -49,7 +49,7 @@
             - name: Оптимизация Microsoft 365 для пользователей из Китая
               href: microsoft-365-networking-china.md
             - name: Оптимизация трафика Microsoft 365 для удаленных сотрудников с помощью собственного VPN-клиента Windows 10
-              href: 'https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-office-365-optimization'
+              href: /windows/security/identity-protection/vpn/vpn-office-365-optimization
         - name: "ExpressRoute для Office\_365"
           href: azure-expressroute.md
           items:
@@ -126,7 +126,7 @@
             - name: Единый вход
               href: microsoft-365-client-support-single-sign-on.md
             - name: Выбор между Basic Mobility + Security и Intune
-              href: 'https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune'
+              href: /office365/securitycompliance/choose-between-mdm-and-intune
         - name: Гибридная современная проверка подлинности
           items:
             - name: Обязательные требования к Skype для бизнеса Server и Exchange Server
@@ -147,13 +147,13 @@
                 - name: "Обновление серверов и клиентов Office\_2007"
                   href: upgrade-from-office-2007-servers-and-products.md
                 - name: "Office\_2007 для настольных ПК"
-                  href: 'https://docs.microsoft.com/DeployOffice/endofsupport/office-2007-end-support-roadmap'
+                  href: /DeployOffice/endofsupport/office-2007-end-support-roadmap
                 - name: "Exchange\_2007"
                   href: exchange-2007-end-of-support.md
                 - name: "SharePoint\_2007"
                   href: sharepoint-2007-end-of-support.md
                 - name: Office Communications Server
-                  href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+                  href: /skypeforbusiness/plan-your-deployment/upgrade
                 - name: "PerformancePoint Server\_2007"
                   href: pps-2007-end-of-support.md
                 - name: Project Server 2007
@@ -163,13 +163,13 @@
                 - name: "Обновление серверов и клиентов Office\_2010"
                   href: upgrade-from-office-2010-servers-and-products.md
                 - name: "Office\_2010 для настольных ПК"
-                  href: 'https://docs.microsoft.com/DeployOffice/endofsupport/office-2010-end-support-roadmap'
+                  href: /DeployOffice/endofsupport/office-2010-end-support-roadmap
                 - name: "Exchange\_2010"
                   href: exchange-2010-end-of-support.md
                 - name: "SharePoint\_2010"
                   href: upgrade-from-sharepoint-2010.md
                 - name: "Lync Server\_2010"
-                  href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+                  href: /skypeforbusiness/plan-your-deployment/upgrade
                 - name: Project Server 2010
                   href: project-server-2010-end-of-support.md
         - name: Изоляция клиента в Microsoft 365
@@ -178,9 +178,9 @@
             - name: Изоляция и управление доступом в Azure Active Directory
               href: microsoft-365-isolation-in-azure-active-directory.md
             - name: Мониторинг и тестирование границ клиента
-              href: microsoft-365-monitoring-and-testing.md
+              href: /compliance/assurance/assurance-monitoring-and-testing
             - name: Ограничения ресурсов
-              href: microsoft-365-resource-limits.md
+              href: /compliance/assurance/assurance-resource-limits
             - name: Изоляция и управление доступом
               href: microsoft-365-isolation-in-microsoft-365.md
             - name: Изоляция клиента в поиске
@@ -192,7 +192,7 @@
     - name: Развертывание
       items:
         - name: Добавление домена
-          href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+          href: ../admin/setup/add-domain.md
     - name: Управление
       items:
         - name: Состояние работоспособности службы Microsoft 365
@@ -321,7 +321,7 @@
                 - name: Обзор
                   href: hybrid-solutions.md
                 - name: "Использование Azure Active Directory для проверки подлинности в SharePoint Server\_2016"
-                  href: using-azure-ad-for-sharepoint-server-authentication.md
+                  href: /azure/active-directory/saas-apps/sharepoint-on-premises-tutorial
                 - name: Подключение локальной сети к виртуальной сети Azure
                   href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
                 - name: Развертывание сервера синхронизации службы каталогов в Azure IaaS
@@ -386,13 +386,13 @@
             - name: "Обновление серверов и клиентов Office\_2007"
               href: upgrade-from-office-2007-servers-and-products.md
             - name: "Office\_2007 для настольных ПК"
-              href: 'https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap'
+              href: /DeployOffice/office-2007-end-support-roadmap
             - name: "Exchange\_2007"
               href: exchange-2007-end-of-support.md
             - name: "SharePoint\_2007"
               href: sharepoint-2007-end-of-support.md
             - name: Office Communications Server
-              href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+              href: /skypeforbusiness/plan-your-deployment/upgrade
             - name: "PerformancePoint Server\_2007"
               href: pps-2007-end-of-support.md
             - name: Project Server 2007
@@ -402,13 +402,13 @@
             - name: "Обновление серверов и клиентов Office\_2010"
               href: upgrade-from-office-2010-servers-and-products.md
             - name: "Office\_2010 для настольных ПК"
-              href: 'https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap'
+              href: /DeployOffice/office-2010-end-support-roadmap
             - name: "Exchange\_2010"
               href: exchange-2010-end-of-support.md
             - name: "SharePoint\_2010"
               href: upgrade-from-sharepoint-2010.md
             - name: "Lync Server\_2010"
-              href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+              href: /skypeforbusiness/plan-your-deployment/upgrade
             - name: Project Server 2010
               href: project-server-2010-end-of-support.md
 - name: Соответствие требованиям
@@ -424,13 +424,13 @@
         - name: Подготовка
           href: configure-services-and-applications.md
         - name: Exchange Online
-          href: 'https://docs.microsoft.com/Exchange/exchange-online'
+          href: /Exchange/exchange-online
         - name: SharePoint
-          href: 'https://docs.microsoft.com/sharepoint/sharepoint-online'
+          href: /sharepoint/sharepoint-online
         - name: Skype для бизнеса
-          href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online'
+          href: /SkypeForBusiness/skype-for-business-online
         - name: Microsoft Teams
-          href: 'https://docs.microsoft.com/MicrosoftTeams/Teams-overview'
+          href: /MicrosoftTeams/Teams-overview
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: Активация службы управления правами
@@ -438,7 +438,7 @@
         - name: Настройка вариантов получения выпусков
           href: 'https://support.office.com/article/365-3b3adfa4-1777-4ff0-b606-fb8732101f47'
         - name: Обучение пользователей
-          href: 'https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users'
+          href: /office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users
     - name: Управление
       items:
         - name: Проверка работоспособности службы
@@ -446,13 +446,13 @@
         - name: Варианты поддержки
           href: 'https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b'
         - name: Exchange Online
-          href: 'https://docs.microsoft.com/Exchange/exchange-online'
+          href: /Exchange/exchange-online
         - name: SharePoint
           href: 'https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a'
         - name: Skype для бизнеса
-          href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online'
+          href: /SkypeForBusiness/skype-for-business-online
         - name: Microsoft Teams
-          href: 'https://docs.microsoft.com//MicrosoftTeams/quality-of-experience-review-guide'
+          href: //MicrosoftTeams/quality-of-experience-review-guide
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: Производительность и настройка
@@ -473,21 +473,21 @@
             - name: Настройка производительности Skype для бизнеса Online
               href: tune-skype-for-business-online-performance.md
             - name: Настройка производительности Project Online
-              href: 'https://docs.microsoft.com/ProjectOnline/tune-project-online-performance'
+              href: /ProjectOnline/tune-project-online-performance
             - name: План устранения неполадок с производительностью
               href: performance-troubleshooting-plan.md
 - name: Windows 10
-  href: 'https://docs.microsoft.com/windows/deployment/'
+  href: /windows/deployment/
 - name: Приложения Microsoft 365 для предприятий
-  href: 'https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps'
+  href: /deployoffice/deployment-guide-microsoft-365-apps
 - name: Устройства Surface
-  href: 'https://docs.microsoft.com/surface/deploy'
+  href: /surface/deploy
 - name: Управление устройствами
   items:
     - name: Стратегия
       href: device-management-roadmap-microsoft-365.md
 - name: Microsoft Edge
-  href: 'https://docs.microsoft.com/deployedge/deploy-edge-plan-deployment'
+  href: /deployedge/deploy-edge-plan-deployment
 - name: Примеры конфигураций каналов развертывания и обновления
   items:
     - name: Обзор
@@ -568,7 +568,7 @@
         - name: Управление группами сайтов SharePoint Online
           href: manage-sharepoint-site-groups-with-powershell.md
     - name: Управление Exchange Online
-      href: 'https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell'
+      href: /powershell/exchange/connect-to-exchange-online-powershell
     - name: "Миграция электронной почты в Microsoft\_365 с помощью PowerShell"
       href: use-powershell-for-email-migration-to-microsoft-365.md
       items:
@@ -586,11 +586,11 @@
         - name: Добавление домена к аренде клиента с помощью Windows PowerShell для партнеров службы делегированного доступа
           href: add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md
         - name: Подключение к Exchange Online с помощью удаленного сеанса Windows PowerShell для партнеров службы делегированного доступа
-          href: 'https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell'
+          href: /powershell/exchange/connect-to-exchange-online-powershell
         - name: Получение отчетных данных клиентов Windows PowerShell для партнеров службы делегированного доступа
           href: retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md
     - name: Управление Microsoft Teams
-      href: 'https://docs.microsoft.com/microsoftteams/teams-powershell-install'
+      href: /microsoftteams/teams-powershell-install
     - name: Управление Skype для бизнеса Online
       href: manage-skype-for-business-online-with-microsoft-365-powershell.md
       items:
@@ -678,15 +678,15 @@
 - name: "Архитектура и решения Microsoft\_365"
   href: ../solutions/index.yml
 - name: Управление непрерывностью бизнес-процессов в компании (УНБК) с помощью облачных служб
-  href: ebcm-understanding-ebcm-with-cloud-services.md
+  href: /compliance/assurance/assurance-understanding-ebcm-with-cloud-services
   items:
     - name: Обязанности клиентов и партнеров по облаку в отношении УНБК
-      href: ebcm-customer-and-cloud-partner-ebcm-responsibilities.md
+      href: /compliance/assurance/assurance-customer-and-cloud-partner-ebcm-responsibilities
     - name: Надежность облачных служб Microsoft 365
-      href: ebcm-m365-service-resiliency.md
+      href: /compliance/assurance/assurance-m365-service-resiliency
     - name: Разработка плана непрерывности
-      href: ebcm-developing-your-ebcm-plan.md
+      href: /compliance/assurance/assurance-developing-your-ebcm-plan
     - name: Сценарии снижения рисков неполадок служб
-      href: ebcm-microsoft-365-mitigations.md
+      href: /compliance/assurance/assurance-microsoft-365-mitigations
 - name: Microsoft 365 для бизнеса
   href: ../admin/index.yml
