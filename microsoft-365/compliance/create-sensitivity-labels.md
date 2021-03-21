@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: b7943259d3a20cbf4fd6d8b0b57ca7c027e74d3f
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: 34cbea7199ed50de8e65a48f8087e6475fb41a50
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084660"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926647"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Все решения Microsoft Information Protection (сокращенное название — MIP) реализуются с помощью [меток конфиденциальности](sensitivity-labels.md). Чтобы создать и опубликовать эти метки, перейдите в центр администрирования меток, например в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности Microsoft 365 или Центр безопасности и соответствия требованиям.
 
@@ -60,7 +60,7 @@ ms.locfileid: "50084660"
     ![Создание метки конфиденциальности](../media/create-sensitivity-label-full.png)
     
     > [!NOTE]
-    > По умолчанию в клиентах отсутствуют метки, их необходимо создать. На рисунке показаны метки по умолчанию, которые были [перенесены из Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
+    > По умолчанию в клиентах отсутствуют метки, их необходимо создать. На рисунке показаны метки по умолчанию, которые были [перенесены из Azure Information Protection](/azure/information-protection/configure-policy-migrate-labels).
 
 3. Параметры, выбранные на странице **Определение области для этой метки**, определяют параметры области метки, которые можно настроить, а также место их отображения после публикации.
     
@@ -70,7 +70,7 @@ ms.locfileid: "50084660"
     
     - Если выбран параметр **Группы и сайты**, вы сможете настроить параметры в этом мастере, которые будут применяться к группам Microsoft 365, а также к сайтам для Teams и SharePoint. Если этот параметр не выбран, мастер отобразит первую страницу этих параметров, но их нельзя будет настроить и пользователи не смогут выбрать метки для групп и сайта.
     
-    Сведения об области **ресурсов Azure Purview (предварительная версия)** см. в статье [Автоматическое применение меток к содержимому в Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
+    Сведения об области **ресурсов Azure Purview (предварительная версия)** см. в статье [Автоматическое применение меток к содержимому в Azure Purview](/azure/purview/create-sensitivity-label).
 
 4. Следуйте инструкциям мастера для настройки параметров метки.
     
@@ -98,13 +98,13 @@ ms.locfileid: "50084660"
 
 ### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры меток, доступные в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell).
+Дополнительные параметры меток можно настраивать с помощью командлета [Set-Label](/powershell/module/exchange/set-label) из [PowerShell в Центре безопасности и соответствия требованиям](/powershell/exchange/scc-powershell).
 
 Например:
 
 - Используйте параметр *LocaleSettings* для развертывания в многоязычной среде, чтобы пользователи видели имя метки и подсказку на своем языке. В [следующем разделе](#example-configuration-to-configure-a-sensitivity-label-for-different-languages) содержится пример настройки, определяющей имя метки и текст подсказки для французского, итальянского и немецкого языков.
 
-- Только для клиента унифицированных меток Azure Information Protection можно указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations), включающие настройку цвета метки и применение настраиваемого свойства при присвоении метки. Полный список см. в разделе [Доступные дополнительные параметры для меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels) этого руководства для администраторов клиента.
+- Только для клиента унифицированных меток Azure Information Protection можно указать [дополнительные параметры](/azure/information-protection/rms-client/clientv2-admin-guide-customizations), включающие настройку цвета метки и применение настраиваемого свойства при присвоении метки. Полный список см. в разделе [Доступные дополнительные параметры для меток](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels) этого руководства для администраторов клиента.
 
 #### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>Пример настройки метки конфиденциальности для различных языков
 
@@ -112,9 +112,9 @@ ms.locfileid: "50084660"
 
 В результате такой настройки пользователи, имеющие приложения Office, в которых используются указанные выше языки интерфейса, видят имена меток и подсказки на этих языках. Кроме того, если у вас установлен клиент унифицированных меток Azure Information Protection, чтобы помечать файлы из проводника, пользователи, у которых есть указанные выше языковые версии Windows, видят имена меток и подсказки на своем языке при щелчке правой кнопкой мыши для применения меток.
 
-Для языков, которые вам нужны, используйте [идентификаторы языков](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers) в Office (также именуемые тегами языков) и укажите свой перевод для имени метки и подсказки.
+Для языков, которые вам нужны, используйте [идентификаторы языков](/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers) в Office (также именуемые тегами языков) и укажите свой перевод для имени метки и подсказки.
 
-Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell).
 
 
 ```powershell
@@ -186,26 +186,26 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 При нажатии этой кнопки запустится мастер **создания политики**, позволяющий изменить метки, которые будут включены, и параметры меток. После завершения работы мастера все изменения автоматически реплицируются для выбранных пользователей и служб.
 
-Если вы используете встроенные метки в приложениях Office для Windows, macOS, iOS и Android, пользователи увидят новые метки в течение четырех часов, а в Office для Интернета — в течение одного часа. Однако репликация этих изменений для всех приложений и служб может занять до 24 часов.
+Если вы используете встроенные метки в приложениях Office для Windows, macOS, iOS и Android, пользователи увидят новые метки в течение четырех часов, а в Word, Excel и PowerPoint для Интернета — в течение одного часа после обновления браузера. Однако репликация этих изменений для всех приложений и служб может занять до 24 часов.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры политики меток в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy) из [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell).
+Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) из [PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/scc-powershell).
 
-Только для клиента унифицированных меток Azure Information Protection вы также можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations), включающие настройку другой метки по умолчанию для Outlook и внедрение всплывающих сообщений в Outlook для предупреждения, объяснения или блокирования отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для политик меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) этого руководства для администраторов клиента.
+Только для клиента унифицированных меток Azure Information Protection вы также можете указать [дополнительные параметры](/azure/information-protection/rms-client/clientv2-admin-guide-customizations), включающие настройку другой метки по умолчанию для Outlook и внедрение всплывающих сообщений в Outlook для предупреждения, объяснения или блокирования отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для политик меток](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) этого руководства для администраторов клиента.
 
 ## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>Использование PowerShell для меток конфиденциальности и соответствующих политик
 
-Теперь для создания и настройки всех параметров, отображаемых в центре администрирования меток, вы можете использовать [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell). Это означает, что в дополнение к использованию PowerShell для параметров, недоступных в центрах администрирования меток, теперь можно использовать полноценный сценарий создания и настройки меток конфиденциальности и политик меток конфиденциальности. 
+Теперь для создания и настройки всех параметров, отображаемых в центре администрирования меток, вы можете использовать [PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/scc-powershell). Это означает, что в дополнение к использованию PowerShell для параметров, недоступных в центрах администрирования меток, теперь можно использовать полноценный сценарий создания и настройки меток конфиденциальности и политик меток конфиденциальности. 
 
 Поддерживаемые параметры и значения см. в следующих документах:
 
-- [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label)
-- [New-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-labelpolicy)
-- [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label)
-- [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy)
+- [New-Label](/powershell/module/exchange/new-label)
+- [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy)
+- [Set-Label](/powershell/module/exchange/set-label)
+- [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy)
 
-Кроме того, вы можете использовать параметры [Remove-Label](https://docs.microsoft.com/powershell/module/exchange/remove-label) и [Remove-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-labelpolicy), если требуется создать сценарий удаления меток конфиденциальности или политик меток конфиденциальности. Однако перед удалением меток конфиденциальности прочтите следующий раздел.
+Кроме того, вы можете использовать параметры [Remove-Label](/powershell/module/exchange/remove-label) и [Remove-LabelPolicy](/powershell/module/exchange/remove-labelpolicy), если требуется создать сценарий удаления меток конфиденциальности или политик меток конфиденциальности. Однако перед удалением меток конфиденциальности прочтите следующий раздел.
 
 ## <a name="removing-and-deleting-labels"></a>Удаление меток
 
@@ -219,7 +219,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 Сравнение с удалением метки:
 
-- Если метка применяла шифрование, базовый шаблон защиты архивируется, чтобы можно было по-прежнему открыть ранее защищенное содержимое. Из-за этого архивированного шаблона защиты будет невозможно создать метку с таким же именем. Хотя можно удалить шаблон защиты с помощью [PowerShell](https://docs.microsoft.com/powershell/module/aipservice/remove-aipservicetemplate), не делайте этого, если вам может потребоваться открыть содержимое, зашифрованное с помощью архивированного шаблона.
+- Если метка применяла шифрование, базовый шаблон защиты архивируется, чтобы можно было по-прежнему открыть ранее защищенное содержимое. Из-за этого архивированного шаблона защиты будет невозможно создать метку с таким же именем. Хотя можно удалить шаблон защиты с помощью [PowerShell](/powershell/module/aipservice/remove-aipservicetemplate), не делайте этого, если вам может потребоваться открыть содержимое, зашифрованное с помощью архивированного шаблона.
 
 - Для классических приложений. Сведения о метке в метаданных сохраняются, но так как больше нельзя сопоставить идентификатор метки с именем, для пользователей не отображается имя примененной метки (например, в строке состояния), поэтому пользователи предполагают, что содержимое не имеет метки. Если метка применяла шифрование, шифрование сохраняется, а при открытии содержимого пользователи по-прежнему увидят имя и описание архивированного шаблона защиты.
 
