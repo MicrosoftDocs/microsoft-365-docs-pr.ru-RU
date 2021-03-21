@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Узнайте, как использовать границы соответствия требованиям для создания логических границ, которые контролируют расположения контента пользователей, которые менеджер по обнаружению электронных данных может искать в Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df582d46472bc7ca6d6e99e823ab94c0884d60a0
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 80f1c6705550d21ac54a0fb4dda2b605b497adbc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423900"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919505"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Настройка границ соответствия требованиям для расследований по обнаружению электронных обнаружений
 
@@ -68,7 +68,7 @@ ms.locfileid: "50423900"
 
 - Размер почтовых ящиков пользователей должен быть не менее 10 МБ. Если почтовый ящик пользователя меньше 10 МБ, атрибут, используемый для определения учреждений, не будет синхронизирован с учетной записью OneDrive пользователя.
 
-- Границы соответствия требованиям и атрибуты, используемые для создания фильтров разрешений поиска, требуют синхронизации атрибутов Azure Active Directory (Azure AD) с почтовыми ящиками пользователей. Чтобы убедиться, что атрибуты, которые вы хотите использовать, синхронизируются, запустите комлет [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) в PowerShell Exchange Online. На выходе этого комлета отображаются атрибуты Azure AD, синхронизированные с Exchange Online.
+- Границы соответствия требованиям и атрибуты, используемые для создания фильтров разрешений поиска, требуют синхронизации атрибутов Azure Active Directory (Azure AD) с почтовыми ящиками пользователей. Чтобы убедиться, что атрибуты, которые вы хотите использовать, синхронизируются, запустите комлет [Get-User](/powershell/module/exchange/get-user) в PowerShell Exchange Online. На выходе этого комлета отображаются атрибуты Azure AD, синхронизированные с Exchange Online.
 
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>Шаг 1. Определение атрибута пользователя для определения учреждений
 
@@ -87,7 +87,7 @@ ms.locfileid: "50423900"
 - C (код страны с двумя буквами) <sup>*</sup>
 
   > [!NOTE]
-  > <sup>*</sup> Этот атрибут связывается с свойством CountryOrRegion, которое возвращается с помощью комлета **Get-User** в Exchange Online PowerShell. В этом коде возвращается локализованное имя страны, которое переводится из кода страны с двумя буквами. Дополнительные сведения см. в описании параметра CountryOrRegion в справочной статье [Set-User.](https://docs.microsoft.com/powershell/module/exchange/set-user)
+  > <sup>*</sup> Этот атрибут связывается с свойством CountryOrRegion, которое возвращается с помощью комлета **Get-User** в Exchange Online PowerShell. В этом коде возвращается локализованное имя страны, которое переводится из кода страны с двумя буквами. Дополнительные сведения см. в описании параметра CountryOrRegion в справочной статье [Set-User.](/powershell/module/exchange/set-user)
 
 Хотя доступны дополнительные атрибуты пользователей, особенно для почтовых ящиков Exchange, перечисленные выше атрибуты являются единственными, которые в настоящее время поддерживаются OneDrive.
   
@@ -198,7 +198,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>Поиск и экспорт контента в средах Multi-Geo
 
-Фильтры разрешений поиска также могут управлять маршрутией экспорта контента и поиском центра обработки данных при поиске местоположений контента в [среде SharePoint Multi-Geo.](https://go.microsoft.com/fwlink/?linkid=860840)
+Фильтры разрешений поиска также могут управлять маршрутией экспорта контента и поиском центра обработки данных при поиске местоположений контента в [среде SharePoint Multi-Geo.](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)
   
 - **Экспорт результатов поиска:** Результаты поиска можно экспортировать из почтовых ящиков Exchange, сайтов SharePoint и учетных записей OneDrive из определенного центра обработки данных. Это означает, что вы можете указать расположение центра обработки данных, из которое будут экспортироваться результаты поиска.
 
@@ -267,7 +267,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="using-compliance-boundaries-for-sharepoint-hub-sites"></a>Использование границ соответствия требованиям для сайтов-концентраторов SharePoint
 
-[Сайты концентраторов SharePoint часто](https://docs.microsoft.com/sharepoint/dev/features/hub-site/hub-site-overview) соответствуют тем же географическим или агентской границам, которые следуют границам соответствия требованиям eDiscovery. Это означает, что вы можете использовать свойство ID сайта концентратора для создания границы соответствия требованиям. Для этого используйте в SharePoint Online PowerShell комлет [Get-SPOHubSite](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spohubsite#examples) для получения SiteId для сайта-концентратора, а затем используйте это значение для свойства department ID для создания фильтра разрешений поиска.
+[Сайты концентраторов SharePoint часто](/sharepoint/dev/features/hub-site/hub-site-overview) соответствуют тем же географическим или агентской границам, которые следуют границам соответствия требованиям eDiscovery. Это означает, что вы можете использовать свойство ID сайта концентратора для создания границы соответствия требованиям. Для этого используйте в SharePoint Online PowerShell комлет [Get-SPOHubSite](/powershell/module/sharepoint-online/get-spohubsite#examples) для получения SiteId для сайта-концентратора, а затем используйте это значение для свойства department ID для создания фильтра разрешений поиска.
 
 Используйте следующий синтаксис для создания фильтра разрешений поиска для сайта концентратора SharePoint:
 
@@ -293,7 +293,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 - Фильтры разрешений поиска не применяются к общедоступным папкам Exchange.
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 - Если почтовый ящик не лицензирован или удален с использованием мягкого удаления, атрибуты Azure AD больше не синхронизируются с почтовым ящиком. Если удержание было размещено в почтовом ящике при его удалении, содержимое, сохраненное в почтовом ящике, по-прежнему подвергается ограничению соответствия требованиям или фильтру разрешений поиска на основе последней синхронизации атрибутов Azure AD перед удалением почтового ящика. 
 

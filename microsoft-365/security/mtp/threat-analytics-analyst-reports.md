@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c82b0a84582d18f8b08b369ff76ba34046c40eba
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 96a4a8ae902f0b8e4767ea3fd42079322d661208
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727151"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918814"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Понимание отчета аналитики в аналитике угроз
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727151"
 **Область применения:**
 - Microsoft 365 Defender
 
-> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или запустить [пилотный проект в производстве.](https://aka.ms/m365d-pilotplaybook)
+> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) или запустить [пилотный проект в производстве.](./mtp-pilot.md?ocid=cx-evalpilot)
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -68,7 +68,7 @@ _Раздел аналитических отчетов отчета об ана
 - Блокировка сообщений _электронной почты с вложениями .lnk_ или другими подозрительными типами файлов
 - Рандомизация паролей локального администратора
 - Обучение конечных пользователей фишинговой электронной почте и другим векторам угроз
-- Включим определенные [правила уменьшения поверхности атаки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
+- Включим определенные [правила уменьшения поверхности атаки](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
 
 В то время как вы можете использовать вкладку **Mitigations** для оценки вашей позиции безопасности в отношении угрозы, эти рекомендации могут позволить вам предпринять дополнительные шаги по улучшению осанки безопасности. Внимательно ознакомьтесь со всеми рекомендациями по смягчению последствий в отчете аналитика и применяйте их по мере возможности.
 
@@ -76,13 +76,13 @@ _Раздел аналитических отчетов отчета об ана
 В отчете аналитика также указываются возможности обнаружения  антивирусных и конечных точек и ответных действий Microsoft Defender для endpoint.
 
 ### <a name="antivirus-detections"></a>Обнаружение антивирусов
-Эти обнаружения доступны на устройствах с [включенным антивирусом Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) Когда эти обнаружения происходят на устройствах, которые были на борту в Microsoft Defender для конечной точки, они также вызывают оповещения, которые заживеют диаграммы в отчете.
+Эти обнаружения доступны на устройствах с [включенным антивирусом Microsoft Defender.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) Когда эти обнаружения происходят на устройствах, которые были на борту в Microsoft Defender для конечной точки, они также вызывают оповещения, которые заживеют диаграммы в отчете.
 
 >[!NOTE]
 >В отчете  аналитика также перечислены общие обнаружения, которые могут определять широкий диапазон угроз, в дополнение к компонентам или поведениям, определенным для отслеживаемой угрозы. Эти общие обнаружения не отражаются в диаграммах.
 
 ### <a name="endpoint-detection-and-response-edr-alerts"></a>Оповещений об обнаружении конечных точек и ответах (EDR)
-Оповещения EDR поднимаются для устройств, на борту в [Microsoft Defender для конечной точки.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure) Эти оповещения обычно зависят от сигналов безопасности, собранных датчиком Microsoft Defender для конечной точки, и других возможностей конечной точки, таких как антивирус, защита сети, защита от взлома, которые служат мощными источниками сигнала.
+Оповещения EDR поднимаются для устройств, на борту в [Microsoft Defender для конечной точки.](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure) Эти оповещения обычно зависят от сигналов безопасности, собранных датчиком Microsoft Defender для конечной точки, и других возможностей конечной точки, таких как антивирус, защита сети, защита от взлома, которые служат мощными источниками сигнала.
 
 Как и список обнаружения антивирусов, некоторые оповещения EDR предназначены для общего флага подозрительного поведения, которое не может быть связано с отслеживаемой угрозой. В таких случаях отчет четко определяет оповещение как "общее" и не влияет ни на какие диаграммы в отчете.
 
@@ -100,10 +100,10 @@ _Раздел аналитических отчетов отчета об ана
 
 
 >[!NOTE]
-> Аналитика угроз также доступна в [Microsoft Defender для конечной точки.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) Однако она не имеет интеграции данных между Microsoft Defender для Office и Microsoft Defender для конечной точки, которую имеет аналитика угроз Microsoft 365 Defender.
+> Аналитика угроз также доступна в [Microsoft Defender для конечной точки.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) Однако она не имеет интеграции данных между Microsoft Defender для Office и Microsoft Defender для конечной точки, которую имеет аналитика угроз Microsoft 365 Defender.
 
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Родственные темы
 - [Обзор аналитики угроз](threat-analytics.md)
 - [Упреждающий поиск угроз с помощью продвинутой охоты](advanced-hunting-overview.md) 
 - [Настраиваемые правила обнаружения](custom-detection-rules.md)

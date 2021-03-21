@@ -8,18 +8,18 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 729e9dc9ab512a7e93bc291a9a52222c15a42b79
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: b0aa619f09f2d6b32289e037283a0dc6578d0150
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727425"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920508"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Устройства Microsoft Managed Desktop 
 
 Microsoft Managed Desktop регулярно оценивает устройства, которые будут включены в службу. В этой статье перечислены конкретные устройства, поддерживаемые в настоящее время. Более общее заявление о требованиях к устройству см. в этой [части.](device-requirements.md)
 
-Дополнительные сведения о microsoft Managed Desktop см. в документации и ресурсах [Microsoft Managed Desktop.](https://docs.microsoft.com/microsoft-365/managed-desktop/) 
+Дополнительные сведения о microsoft Managed Desktop см. в документации и ресурсах [Microsoft Managed Desktop.](../index.yml) 
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
@@ -78,11 +78,11 @@ Microsoft Managed Desktop регулярно оценивает устройст
 
 - Если определенный SKU указан в требованиях к устройству, убедитесь, что он используется при заказе. Это гарантирует, что устройства соответствуют требованиям программного обеспечения Microsoft Managed Desktop. 
 - Не выполнена первая версия Windows.
-- Регистрация в Microsoft Managed Desktop с помощью функции [регистрации](https://aka.ms/mmddrhelp) устройств
+- Регистрация в Microsoft Managed Desktop с помощью функции [регистрации](../get-started/register-devices-self.md) устройств
 
 >[!NOTE]
 >Устройства с процессором с 2,0 ГГц или более быстрым процессором будут намного лучше работать с пользователями, участвующими в этих действиях:
->- Использование видеоконференций с teams. Подробные [сведения см. в материале "Требования](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) к оборудованию для Microsoft Teams".
+>- Использование видеоконференций с teams. Подробные [сведения см. в материале "Требования](/microsoftteams/hardware-requirements-for-the-teams-app) к оборудованию для Microsoft Teams".
 >-  Использование одного устройства для нескольких различных рабочих нагрузок.
 >- Использование нескольких мониторов.
 
@@ -93,8 +93,3 @@ Microsoft Managed Desktop регулярно оценивает устройст
 - Дополнительные вопросы по устройствам Dell <a href="mailto:MMD_at_dell@dell.com">можно задать MMD_at_dell@dell.com</a>.
 
 - Дополнительные вопросы о устройствах HP и инструкции по заказу устройств см. в инструкции по заказу: Americas<a href="mailto:mmd-americas@hp.com">(mmd-americas@hp.com);</a> Европа/Ближний Восток/Африка<a href="mailto:mmd-emea@hp.com">(mmd-emea@hp.com);</a> Азиатско-Тихоокеанский регион<a href="mailto:mmd-apj@hp.com">и Япония (mmd-apj@hp.com);</a> Глобальный<a href="mailto:mmd@hp.com">(mmd@hp.com)</a>
-
-
-
-
-

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как создать команду с уникальной меткой конфиденциальности в целях безопасности.
-ms.openlocfilehash: 5ddd42f9e2f2779ca6bf864554140a3f18d2cdea
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 2ecd8e0458f6ebef9ebd1b0c3724195cc70f6378
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405706"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920932"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Настройка команды с изоляцией для обеспечения безопасности
 
@@ -40,7 +40,7 @@ ms.locfileid: "50405706"
     - шифрует документы, к которым применяется метка.
 
 > [!IMPORTANT]
-> Включите [метки конфиденциальности для защиты содержимого в Microsoft Teams, группах Office 365 и сайтах SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), прежде чем продолжить выполнение инструкций из этой статьи.
+> Включите [метки конфиденциальности для защиты содержимого в Microsoft Teams, группах Office 365 и сайтах SharePoint](../compliance/sensitivity-labels-teams-groups-sites.md), прежде чем продолжить выполнение инструкций из этой статьи.
 
 Обзор процесса развертывания показан в приведенном ниже видео.
 <br>
@@ -70,8 +70,8 @@ ms.locfileid: "50405706"
 
 Подробности о безопасном предоставлении общего доступа гостям см. в следующих ресурсах:
 
-- [Ограничьте случайное воздействие файлов при обмене с людьми за пределами вашей организации](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [Создание безопасной среды гостевого общего доступа](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [Ограничьте случайное воздействие файлов при обмене с людьми за пределами вашей организации](./share-limit-accidental-exposure.md)
+- [Создание безопасной среды гостевого общего доступа](./create-secure-guest-sharing-environment.md)
 
 Чтобы разрешить или заблокировать гостевой общий доступ, мы используем сочетание метки конфиденциальности для команды и элементов управления общим доступом на уровне сайта для связанного сайта SharePoint, которые рассматриваются ниже.
 
@@ -98,7 +98,7 @@ ms.locfileid: "50405706"
 2. На вкладке **Настройки** разверните **Разрешения участников**.
 3. Снимите флажок **Разрешить участникам создавать частные каналы**.
 
-Вы также можете использовать [политики команд](https://docs.microsoft.com/MicrosoftTeams/teams-policies), чтобы контролировать, кто может создавать закрытые каналы.
+Вы также можете использовать [политики команд](/MicrosoftTeams/teams-policies), чтобы контролировать, кто может создавать закрытые каналы.
 
 ## <a name="create-a-sensitivity-label"></a>Создание метки конфиденциальности
 
@@ -129,7 +129,7 @@ ms.locfileid: "50405706"
 15. На странице **Определение параметров защиты для групп и сайтов** выберите **Параметры конфиденциальности и доступа для внешних пользователей** и **Параметры доступа к устройствам и внешнего общего доступа**, а затем нажмите **Далее**.
 16. На странице **Определение параметров конфиденциальности и доступа для внешних пользователей** в разделе **Конфиденциальность** выберите вариант **Частный**.
 17. Если вы хотите разрешить гостевой доступ, в разделе **Доступ внешних пользователей** выберите **Разрешить владельцам групп Microsoft 365 добавлять людей из-за пределов организации в группу в качестве гостей**.
-18. Нажмите **Далее**.
+18. Нажмите кнопку **Далее**.
 19. На странице **Определение параметров доступа к устройствам и внешнего общего доступа** выберите **Управление внешним общим доступом с помеченных сайтов SharePoint**.
 20. В разделе **Доступ к контенту можно предоставить таким пользователям** выберите **Новые и существующие гости**, если вы разрешаете гостевой доступ, или **Только пользователи из вашей организации** (если не разрешаете гостевой доступ).
 21. В разделе **Доступ с неуправляемых устройств** выберите **Блокировать доступ**.
@@ -194,7 +194,7 @@ ms.locfileid: "50405706"
 
 #### <a name="private-channels"></a>Закрытые каналы
 
-Если вы добавите закрытые каналы в команду, каждый закрытый канал создаст новый сайт SharePoint с параметрами общего доступа по умолчанию. Эти сайты не отображаются в Центре администрирования SharePoint, поэтому для обновления настроек гостевого общего доступа требуется использовать командлет PowerShell [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) со следующими параметрами:
+Если вы добавите закрытые каналы в команду, каждый закрытый канал создаст новый сайт SharePoint с параметрами общего доступа по умолчанию. Эти сайты не отображаются в Центре администрирования SharePoint, поэтому для обновления настроек гостевого общего доступа требуется использовать командлет PowerShell [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) со следующими параметрами:
 
 - `-SharingCapability Disabled`, чтобы отключить гостевой доступ (он включен по умолчанию)
 - `-DefaultSharingLinkType Internal`, чтобы, изменить ссылку общего доступа по умолчанию на вариант *Люди, у которых уже есть доступ*
@@ -229,10 +229,10 @@ ms.locfileid: "50405706"
 
 В Microsoft 365 доступны дополнительные методы защиты контента. Рассмотрите возможность использования следующих параметров для улучшения защиты вашей организации.
 
-- Ваши гости должны согласиться с [условиями использования](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
-- Настройте [политику времени ожидания сеанса](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) для гостей.
-- Создайте [типы конфиденциальной информации](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) и используйте [защиту от потери данных](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) для настройки политик доступа к конфиденциальной информации.
-- Используйте проверки [доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview), чтобы периодически проверять доступ к команде и участие в ней.
+- Ваши гости должны согласиться с [условиями использования](/azure/active-directory/conditional-access/terms-of-use).
+- Настройте [политику времени ожидания сеанса](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) для гостей.
+- Создайте [типы конфиденциальной информации](../compliance/sensitive-information-type-learn-about.md) и используйте [защиту от потери данных](../compliance/data-loss-prevention-policies.md) для настройки политик доступа к конфиденциальной информации.
+- Используйте проверки [доступа Azure Active Directory](/azure/active-directory/governance/access-reviews-overview), чтобы периодически проверять доступ к команде и участие в ней.
 
 ## <a name="drive-user-adoption-for-team-members"></a>Внедрение возможностей среди участников команды
 
@@ -266,4 +266,4 @@ ms.locfileid: "50405706"
 
 ## <a name="see-also"></a>См. также
 
-[Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)
+[Azure AD Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-configure)

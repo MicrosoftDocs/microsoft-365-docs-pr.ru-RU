@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Узнайте, как использовать веб-службу IP-адресов и URL-адресов в Office 365, чтобы лучше выявлять и разграничивать сетевой трафик Office 365.
-ms.openlocfilehash: 03e6eac86e66db6f9e94c3f98e6d7b565ffa0f14
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+ms.openlocfilehash: 1948491e1d3db724e7b7b6a5275234acab4be08a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456463"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918958"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Веб-служба IP-адресов и URL-адресов в Office 365
 
@@ -66,7 +66,7 @@ ms.locfileid: "48456463"
 - **format=<JSON | CSV>**. По умолчанию данные возвращаются в формате JSON. Используйте этот необязательный параметр для возврата данных в формате данных с разделителями-запятыми (CSV).
 - **ClientRequestId=\<guid>**. Обязательный GUID, создаваемый для сопоставления клиента. Создайте уникальный GUID для каждого компьютера, который вызывает веб-службу (скрипты, указанные на этой странице, позволяют создать GUID). Не используйте GUID, показанные в примерах ниже, так как они могут быть заблокированы веб-службой в будущем. Формат GUID: _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_. Здесь "x" означает шестнадцатеричное число.
 
-  Чтобы создать GUID, можно использовать команду PowerShell [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) или веб-службу, например [Online GUID Generator](https://www.guidgenerator.com/).
+  Чтобы создать GUID, можно использовать команду PowerShell [New-Guid](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) или веб-службу, например [Online GUID Generator](https://www.guidgenerator.com/).
 
 ## <a name="version-web-method"></a>Веб-метод версии
 
@@ -607,7 +607,7 @@ else:
 
 - Сведения о решении Microsoft Flow см. в статье [Использование Microsoft Flow для получения электронных сообщений об изменениях URL-адресов и IP-адресов Office 365](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651).
 - Сведения о развертывании Azure Logic App с помощью шаблона ARM см. на странице [Уведомление об обновлении Office 365 (версия 1.1)](https://aka.ms/ipurlws-updates-template).
-- Сведения о записи собственного скрипта уведомлений с помощью PowerShell см. в статье [Send-MailMessage](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage).
+- Сведения о записи собственного скрипта уведомлений с помощью PowerShell см. в статье [Send-MailMessage](/powershell/module/microsoft.powershell.utility/send-mailmessage).
 
 ## <a name="exporting-a-proxy-pac-file"></a>Экспорт PAC-файла прокси-сервера
 

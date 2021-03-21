@@ -14,12 +14,12 @@ ms.reviewer: krowley
 ms.author: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: d4da76268791e36bd01b5d6f6140fd52c70b3b4a
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 16a02985107c5f578d6d6c21bf2efc6e80297951
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454198"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919345"
 ---
 # <a name="disabling-tls-10-and-11-in-microsoft-365-gcc-high-and-dod"></a>Отключение TLS 1.0 и 1.1 в Microsoft 365 GCC High и DoD
 
@@ -33,17 +33,17 @@ ms.locfileid: "50454198"
 
 [Решение проблемы TLS 1.0](https://www.microsoft.com/download/details.aspx?id=55266)
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Начиная с 15 января 2020 г. Microsoft 365 в средах GCC High и DoD отключит TLS 1.1 и 1.0.
 
 До 15 января 2020 г. все комбинации серверов клиентов и серверов браузера должны использовать TLS-версию 1.2 (или более поздний вариант), чтобы убедиться, что все подключения можно сделать без проблем с Microsoft 365. Для этого могут потребоваться обновления определенных комбинаций клиентских серверов и серверов браузера.
 
-Для SharePoint и OneDrive необходимо обновить и настроить .NET для поддержки TLS 1.2. Сведения см. [в том, как включить TLS 1.2 для клиентов.](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)
+Для SharePoint и OneDrive необходимо обновить и настроить .NET для поддержки TLS 1.2. Сведения см. [в том, как включить TLS 1.2 для клиентов.](/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)
 
 Необходимо обновить клиентские компьютеры, чтобы обеспечить непрерывный доступ к office 365 GCC High и DoD.
 
-Чтобы использовать TLS 1.2, необходимо обновить приложения, вызываемые API Microsoft 365 по TLS 1.0 или TLS 1.1. .NET 4.5 по умолчанию для TLS 1.1. Чтобы обновить конфигурацию .NET, см. в руб. Как включить безопасность транспортного слоя [(TLS) 1.2 для клиентов.](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client) Дополнительные сведения см. в статью Подготовка к обязательному использованию [TLS 1.2 в Office 365.](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)
+Чтобы использовать TLS 1.2, необходимо обновить приложения, вызываемые API Microsoft 365 по TLS 1.0 или TLS 1.1. .NET 4.5 по умолчанию для TLS 1.1. Чтобы обновить конфигурацию .NET, см. в руб. Как включить безопасность транспортного слоя [(TLS) 1.2 для клиентов.](/mem/configmgr/core/plan-design/security/enable-tls-1-2-client) Дополнительные сведения см. в статью Подготовка к обязательному использованию [TLS 1.2 в Office 365.](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)
 
 Мы знаем, что следующие клиентские приложения не могут использовать TLS 1.2:
 

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 90dee316ee5bdc99b6a2386260a3be38728e7282
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 18422f74d87bbadf014de24849235ce5c25bd614
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453721"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920472"
 ---
 # <a name="device-requirements"></a>Требования к устройству
 
@@ -38,7 +38,7 @@ Microsoft Managed Desktop регулярно оценивает требован
 - Dell
 - HP
 - Lenovo
-- Майкрософт
+- Microsoft
 
 
 ### <a name="installed-software"></a>Установленное программное обеспечение
@@ -70,7 +70,7 @@ Microsoft Managed Desktop регулярно оценивает требован
 - Накопитель загрузки должен иметь емкость не менее 128 ГБ.
 - Внутренняя память устройства (оперативная память) должна равняться или превышать 8 ГБ.
 
-Если устройство было сделано после 1 июля 2020 г., оно также должно иметь ИК-камеру, сканер отпечатков пальцев или оба устройства для поддержки [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
+Если устройство было сделано после 1 июля 2020 г., оно также должно иметь ИК-камеру, сканер отпечатков пальцев или оба устройства для поддержки [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 
 ## <a name="recommended-requirements"></a>Рекомендуемые требования
 

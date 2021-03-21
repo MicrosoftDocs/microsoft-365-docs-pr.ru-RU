@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 description: Узнайте, как создавать уведомления для действий точного соответствия данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a537cffe253fa20cf6838ddf3fd9a51ec440fe76
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 2e2f67ef0f276211483519bd5e246e4e041b2b15
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766701"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919365"
 ---
 # <a name="create-notifications-for-exact-data-match-activities-preview"></a>Создание уведомлений для действий точного соответствия данных (предварительная версия)
 
-Когда вы создаете [пользовательские типы конфиденциальной информации с точным соответствием данных (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), в [журнале аудита](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log) создается несколько действий. Вы можете использовать командлет [New-ProtectionAlert](https://docs.microsoft.com/powershell/module/exchange/new-protectionalert?view=exchange-ps) в PowerShell, чтобы создать уведомления, которые будут оповещать вас о таких действиях:
+Когда вы создаете [пользовательские типы конфиденциальной информации с точным соответствием данных (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), в [журнале аудита](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log) создается несколько действий. Вы можете использовать командлет [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps) в PowerShell, чтобы создать уведомления, которые будут оповещать вас о таких действиях:
 
 - CreateSchema
 - EditSchema
@@ -54,11 +54,11 @@ ms.locfileid: "50766701"
 - Соответствие требованиям Microsoft 365 E5
 - Защита информации и управление данными в Microsoft E5/A5
 
-Дополнительные сведения о лицензировании DLP см. в статье [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
+Дополнительные сведения о лицензировании DLP см. в статье [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
 
 ## <a name="configure-notifications-for-edm-activities"></a>Настройка уведомлений для действий EDM
 
-1. Подключитесь к [интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps). 
+1. Подключитесь к [интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell?view=exchange-ps). 
 
 2. Запустите командлет `New-ProtectionAlert`, используя действие, для которого нужно создать уведомление.  Например, если вы хотите получать уведомление при выполнении действия **UploadDataCompleted**, запустите
 
@@ -75,4 +75,4 @@ New-ProtectionAlert -Name "EdmUploadFailAlertPolicy" -Category Others -NotifyUse
 ## <a name="related-articles"></a>Статьи по теме
 
 - [Создание пользовательских типов конфиденциальной информации с точным соответствием данных](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
-- [New-ProtectionAlert](https://docs.microsoft.com/powershell/module/exchange/new-protectionalert?view=exchange-ps) 
+- [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps)

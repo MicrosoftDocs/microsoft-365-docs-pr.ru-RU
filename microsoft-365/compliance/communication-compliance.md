@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 774f03ebbf12a8bfbf4e2409735352b83e6963aa
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: a5eab2aaecd3d0c339fdc2e58af17dcfd9feb199
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421546"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919885"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>Узнайте о соответствии требованиям к связи в Microsoft 365
 
@@ -38,6 +38,13 @@ ms.locfileid: "50421546"
 - Нормативные требования и риск штрафов
 
 Кроме того, может быть разделение обязанностей между ИТ-администраторами и командой по управлению соответствием требованиям. Соответствие требованиям связи поддерживает разделение между конфигурацией политик и исследованием и просмотром сообщений. Например, ИТ-группа для вашей организации может отвечать за создание разрешений на соответствие требованиям к ролям связи, группы и политики, а следователи и рецензенты могут отвечать за проверку сообщений, проверку и смягчение последствий.
+
+В последних презентациях Ignite для соответствия требованиям связи см. следующие видео:
+
+- [Воспитание культуры безопасности и интеграции с соответствием требованиям связи](https://www.youtube.com/watch?v=oLVzxcaef3w)
+- [Узнайте, как снизить риски для связи в организации](https://www.youtube.com/watch?v=vzARb1YaxGo)
+- [Выполнение требований по соблюдению нормативных требований с соблюдением требований к связи](https://www.youtube.com/watch?v=gagOhtCBfgU)
+- [Лучше с Microsoft Teams . Узнайте больше о последних встроенных функций native Teams в соответствии с соответствием требованиям к общению](https://www.youtube.com/watch?v=m4jukD5Fh-o)
 
 Краткий обзор соответствия требованиям связи см. в видеоролике [Detect workplace harassment and respond with Communication Compliance in Microsoft 365](https://youtu.be/z33ji7a7Zho) video on the [Microsoft Mechanics channel.](https://www.youtube.com/user/OfficeGarageSeries)
 

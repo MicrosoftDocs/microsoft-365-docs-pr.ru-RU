@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Узнайте, как изменить схему edm для использования настраиваемого совпадения.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2211e4d99d97fcce241a5f4c3ea7c9d8122ca9d7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: e00466e4648ebe93f0658383515d1543f858e1b0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656809"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919376"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>Изменение схемы точного соответствия данных для использования настраиваемого совпадения
 
@@ -101,7 +101,7 @@ ms.locfileid: "49656809"
 - \"
 - \,
 
-6. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+6. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell).
 
 7. Обновите схему, запустив эти командлеты по очереди:
 
@@ -129,7 +129,7 @@ ms.locfileid: "49656809"
 
 - [Создание пользовательского типа конфиденциальной информации с помощью классификации на основе точного совпадения данных](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md).
 - [Определения типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)
-- [Пользовательские типы конфиденциальной информации](custom-sensitive-info-types.md)
+- [Пользовательские типы конфиденциальной информации](./sensitive-information-type-learn-about.md)
 - [Обзор политик защиты от потери данных](data-loss-prevention-policies.md)
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
-- [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema)
+- [Microsoft Cloud App Security](/cloud-app-security)
+- [New-DlpEdmSchema](/powershell/module/exchange/new-dlpedmschema)

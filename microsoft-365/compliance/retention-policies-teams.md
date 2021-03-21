@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: ec4ca9a79ee3b5674e1837d14cea4ee504cb57d5
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 985131900a5e07188c0af641fb86f794d558f80b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838214"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919785"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Если вы видите в Teams сообщение об удалении ваших чатов или сообщений политикой хранения, см. статью [Сообщения Teams о политиках хранения](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
@@ -43,7 +43,7 @@ ms.locfileid: "50838214"
 
 ## <a name="whats-included-for-retention-and-deletion"></a>Что включается в хранение и удаление
 
-С помощью политик хранения для Teams можно хранить и удалять следующие элементы Teams: сообщения чатов и каналов, включая внедренные изображения, таблицы, гипертекстовые ссылки и ссылки на другие сообщения и файлы Teams, а также [содержимое карточек](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards). В сообщения чата входят все имена пользователей в чате, а в сообщения канала — имя команды и заголовок сообщения (если он есть). 
+С помощью политик хранения для Teams можно хранить и удалять следующие элементы Teams: сообщения чатов и каналов, включая внедренные изображения, таблицы, гипертекстовые ссылки и ссылки на другие сообщения и файлы Teams, а также [содержимое карточек](/microsoftteams/platform/task-modules-and-cards/what-are-cards). В сообщения чата входят все имена пользователей в чате, а в сообщения канала — имя команды и заголовок сообщения (если он есть). 
 
 > [!NOTE]
 > Содержимое карточек является недавним дополнением, которое теперь полностью развернуто для клиентов. Дополнительные сведения см. в статье [Теперь доступны возможности соответствия требованиям Microsoft 365 для содержимого адаптивных карточек через приложения в Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
@@ -64,7 +64,7 @@ ms.locfileid: "50838214"
 
 Другие типы почтовых ящиков, например RoomMailbox, используемые для конференц-залов Teams, не поддерживаются в политиках хранения Teams.
 
-Важно понимать, что Teams используют службу чата на основе Azure, которая также хранит эти данные, и по умолчанию эта служба хранит данные в течение неопределенного времени. В связи с этим, если вам требуется удалить сообщения Teams по причинам соответствия требованиям, рекомендуется использовать эти политики хранения для Teams, которые могут безвозвратно удалять эти данные как из почтовых ящиков Exchange, так и из базовой службы чатов на платформе Azure. Дополнительные сведения о базовой архитектуре см. в разделе [Безопасность и соответствие требованиям в Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=871258) и, в частности, в разделе [Архитектура защиты информации](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview#information-protection-architecture).
+Важно понимать, что Teams используют службу чата на основе Azure, которая также хранит эти данные, и по умолчанию эта служба хранит данные в течение неопределенного времени. В связи с этим, если вам требуется удалить сообщения Teams по причинам соответствия требованиям, рекомендуется использовать эти политики хранения для Teams, которые могут безвозвратно удалять эти данные как из почтовых ящиков Exchange, так и из базовой службы чатов на платформе Azure. Дополнительные сведения о базовой архитектуре см. в разделе [Безопасность и соответствие требованиям в Microsoft Teams](/MicrosoftTeams/security-compliance-overview) и, в частности, в разделе [Архитектура защиты информации](/MicrosoftTeams/security-compliance-overview#information-protection-architecture).
 
 Хотя чаты Teams и сообщения каналов хранятся в почтовых ящиках, эти данные Teams включаются только политикой хранения, настроенной для расположения **сообщений в каналах Teams** и **чатов Teams**. На чаты Teams и сообщения каналов не влияют политики хранения, настроенные для почтовых ящиков пользователей Exchange или групп.
 

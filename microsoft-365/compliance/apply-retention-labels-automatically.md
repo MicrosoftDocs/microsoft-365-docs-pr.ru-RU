@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Создавайте метки хранения и политики их автоматического применения, чтобы автоматически применять метки для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: 34b6fb53095a2c3f52598b84e82cae3083b98f21
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 6b7e8f91706a9d12135069f0a6753c76eaff1fb4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423308"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920022"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Автоматическое применение метки хранения для сохранения или удаления контента
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Этот сценарий не поддерживается для [нормативных записей](records-management.md#records).
@@ -158,7 +158,7 @@ ms.locfileid: "50423308"
 
 ![Редактор запросов](../media/new-retention-query-editor.png)
 
-Дополнительные сведения о синтаксисе языка запросов по ключевым словам (KQL) см. в статье [Справочник по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference).
+Дополнительные сведения о синтаксисе языка запросов по ключевым словам (KQL) см. в статье [Справочник по синтаксису языка запросов по ключевым словам (KQL)](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference).
 
 Для поиска содержимого политики автоматического применения на основе запросов используют тот же индекс поиска, что и средство обнаружения электронных данных. Дополнительные сведения о доступных для поиска свойствах, которые можно использовать, см. в статье [Запросы с ключевыми словами и условия для поиска содержимого](keyword-queries-and-search-conditions.md).
 
@@ -166,7 +166,7 @@ ms.locfileid: "50423308"
 
 - Метки будут автоматически применяться к новым, измененным и существующим элементам в SharePoint, OneDrive и Exchange.
 
-- В SharePoint свойства для обхода и настраиваемые свойства не поддерживаются для таких запросов по ключевым словам, поэтому необходимо использовать только предварительно настроенные управляемые свойства. Однако можно использовать сопоставления на уровне клиента с предварительно настроенными управляемыми свойствами, которые по умолчанию включены как уточнения (RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 и RefinableDouble00-09). Дополнительные сведения см. в статье [Обзор свойств для обхода и управляемых свойств в SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview) и [Создание нового управляемого свойства](https://docs.microsoft.com/sharepoint/manage-search-schema#create-a-new-managed-property).
+- В SharePoint свойства для обхода и настраиваемые свойства не поддерживаются для таких запросов по ключевым словам, поэтому необходимо использовать только предварительно настроенные управляемые свойства. Однако можно использовать сопоставления на уровне клиента с предварительно настроенными управляемыми свойствами, которые по умолчанию включены как уточнения (RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 и RefinableDouble00-09). Дополнительные сведения см. в статье [Обзор свойств для обхода и управляемых свойств в SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview) и [Создание нового управляемого свойства](/sharepoint/manage-search-schema#create-a-new-managed-property).
 
 - Если настраиваемое свойство сопоставляется с одним из свойств уточнения, подождите 24 часа, прежде чем использовать его в запросе по ключевым словам для метки хранения.
 
@@ -228,7 +228,7 @@ ACP OR (Attorney Client Privilege*) OR (AC Privilege)
 ##### <a name="microsoft-teams-meeting-recordings"></a>Записи собраний в Microsoft Teams
 
 > [!NOTE]
-> Функция хранения и удаления записей собраний в Teams доступна в предварительной версии и не работает до сохранения записей в OneDrive или SharePoint. Дополнительные сведения см. в статье [Использование OneDrive для бизнеса, SharePoint или Stream для записи собраний](https://docs.microsoft.com/MicrosoftTeams/tmr-meeting-recording-change)
+> Функция хранения и удаления записей собраний в Teams доступна в предварительной версии и не работает до сохранения записей в OneDrive или SharePoint. Дополнительные сведения см. в статье [Использование OneDrive для бизнеса, SharePoint или Stream для записи собраний](/MicrosoftTeams/tmr-meeting-recording-change)
 
 Для поиска записей собраний в Microsoft Teams, хранящихся в пользовательских учетных записях OneDrive или SharePoint, укажите для **редактора запросов по ключевым словам** следующую информацию:
 
@@ -265,9 +265,9 @@ ProgID:Media AND ProgID:Meeting
   
 ![Схема, иллюстрирующая, когда автоматически применяемые метки вступают в силу](../media/b8c00657-477a-4ade-b914-e643ef97a10d.png)
 
-Если после семи дней ожидаемые метки не появляются, проверьте **Состояние** политики автоматического применения, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)**, а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
+Если после семи дней ожидаемые метки не появляются, проверьте **Состояние** политики автоматического применения, выбрав ее на странице **Политики меток** в Центре соответствия требованиям. Для повторного развертывания политики (для OneDrive) или если отображается состояние **Отключено (ошибка)**, а в сведениях расположений выводится сообщение о том, что развертывание политики (для SharePoint) занимает больше времени, чем ожидалось, попробуйте выполнить команду [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) в PowerShell, чтобы повторно распространить политику:
 
-1. [Подключение к Центру безопасности и соответствия требованиям Windows PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Подключение к Центру безопасности и соответствия требованиям Windows PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 2. Выполните следующую команду:
     

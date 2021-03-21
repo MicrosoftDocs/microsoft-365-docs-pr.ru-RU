@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: eea8454a02667a42020f9ac1d54402e7b8a06b9b
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 1e6642113ddba9c9110a65e9032ec59db435ac7f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820106"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919865"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Начало работы с настройками управления рисками изнутри
 
@@ -483,7 +483,7 @@ ms.locfileid: "50820106"
 
 Если вы включаете поддержку Microsoft Teams для управления рисками изнутри после имеющихся случаев, вам потребуется создать команду вручную для каждого случая по мере необходимости. После включения поддержки Microsoft Teams в параметрах управления рисками в новых случаях автоматически создается новая команда Microsoft Teams.
 
-Пользователям необходимо разрешение на создание групп Microsoft 365 в организации, чтобы создать группу Microsoft Teams из дела. Дополнительные сведения об управлении разрешениями для Microsoft 365 Groups см. в статью Управление созданием [групп Microsoft 365.](/microsoft-365/solutions/manage-creation-of-groups)
+Пользователям необходимо разрешение на создание групп Microsoft 365 в организации, чтобы создать группу Microsoft Teams из дела. Дополнительные сведения об управлении разрешениями для Microsoft 365 Groups см. в статью Управление созданием [групп Microsoft 365.](../solutions/manage-creation-of-groups.md)
 
 Чтобы создать группу для дела, вы будете использовать управление Create Microsoft Team при работе непосредственно в существующем случае. Выполните следующие действия, чтобы создать новую команду:
 

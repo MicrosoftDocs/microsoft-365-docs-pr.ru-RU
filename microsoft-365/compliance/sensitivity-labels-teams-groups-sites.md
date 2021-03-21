@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Чтобы защитить контент на сайтах SharePoint и Microsoft Teams, а также в группах Microsoft 365, используйте метки конфиденциальности.
-ms.openlocfilehash: 3565b47e21d81b4b3d560d72a29f2deae9587709
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 501df9b167e917d79957d8b156597af67e6240af
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407319"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919585"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Используйте метки конфиденциальности, чтобы защитить контент в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint.
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Можно использовать [метки конфиденциальности](sensitivity-labels.md) не только для классификации и защиты документов и сообщений электронной почты, но и для защиты содержимого в следующих контейнерах: сайты Microsoft Teams, группы Microsoft 365 ([ранее — группы Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)), сайты SharePoint. Для этой классификации и защиты на уровне контейнеров используйте следующие параметры меток:
 
@@ -57,7 +57,7 @@ ms.locfileid: "50407319"
 
 ## <a name="how-to-enable-sensitivity-labels-for-containers-and-synchronize-labels"></a>Включение меток конфиденциальности для контейнеров и синхронизация меток
 
-1. Эта функция использует функциональность Azure AD, поэтому для включения поддержки меток конфиденциальности инструкциям из документации Azure AD: [Назначение меток конфиденциальности группам Microsoft 365 в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
+1. Эта функция использует функциональность Azure AD, поэтому для включения поддержки меток конфиденциальности инструкциям из документации Azure AD: [Назначение меток конфиденциальности группам Microsoft 365 в Azure Active Directory](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
 2. Теперь нужно синхронизировать метки конфиденциальности с Azure AD. Сначала [подключитесь к PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
 
@@ -100,9 +100,9 @@ ms.locfileid: "50407319"
 
 4. Если вы выбрали **Параметры доступа устройства и внешнего общего доступа**, настройте следующие параметры:
     
-    - **Управлять внешним общим доступом с помеченных сайтов SharePoint**. Выберите этот параметр, чтобы затем выбрать внешний общий доступ для всех пользователей, новых и существующих гостей, существующих гостей или только для сотрудников вашей организации. Дополнительные сведения об этой конфигурации и параметрах см. в документе SharePoint [Включение и отключение внешнего общего доступа для сайта](https://docs.microsoft.com/sharepoint/change-external-sharing-site).
+    - **Управлять внешним общим доступом с помеченных сайтов SharePoint**. Выберите этот параметр, чтобы затем выбрать внешний общий доступ для всех пользователей, новых и существующих гостей, существующих гостей или только для сотрудников вашей организации. Дополнительные сведения об этой конфигурации и параметрах см. в документе SharePoint [Включение и отключение внешнего общего доступа для сайта](/sharepoint/change-external-sharing-site).
     
-    - **Доступ с неуправляемых устройств**. Этот параметр использует функцию SharePoint, применяющую условный доступ Azure AD для блокировки или ограничения доступа к контенту SharePoint и OneDrive с неуправляемых устройств. Дополнительные сведения см. в статье [Управление доступом с неуправляемых устройств](/sharepoint/control-access-from-unmanaged-devices) из документации по SharePoint. Параметр, который вы указываете для настройки этой метки, эквивалентен запуску команды PowerShell на сайте, как описано в шагах 3–5 раздела [Блокировка или ограничение доступа к определенному сайту SharePoint или OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) инструкций по SharePoint.
+    - **Доступ с неуправляемых устройств**. Этот параметр использует функцию SharePoint, применяющую условный доступ Azure AD для блокировки или ограничения доступа к контенту SharePoint и OneDrive с неуправляемых устройств. Дополнительные сведения см. в статье [Управление доступом с неуправляемых устройств](/sharepoint/control-access-from-unmanaged-devices) из документации по SharePoint. Параметр, который вы указываете для настройки этой метки, эквивалентен запуску команды PowerShell на сайте, как описано в шагах 3–5 раздела [Блокировка или ограничение доступа к определенному сайту SharePoint или OneDrive](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) инструкций по SharePoint.
         
         См. [Подробнее о зависимостях для параметра неуправляемых устройств](#more-information-about-the-dependencies-for-the-unmanaged-devices-option).
 
@@ -113,7 +113,7 @@ ms.locfileid: "50407319"
 
 ##### <a name="more-information-about-the-dependencies-for-the-unmanaged-devices-option"></a>Подробнее о зависимостях для параметра неуправляемых устройств
 
-Если не настроить зависимую политику условного доступа для SharePoint, как описано в разделе [Использование принудительно применяемых ограничений приложения](https://docs.microsoft.com/sharepoint/app-enforced-restrictions), то указанный вами параметр не будет действовать. Кроме того, он не будет работать, если он менее строгий, чем настроенный параметр на уровне клиента. Если вы настроили параметр на уровне организации для неуправляемых устройств, выберите такой же или более строгий параметр метки
+Если не настроить зависимую политику условного доступа для SharePoint, как описано в разделе [Использование принудительно применяемых ограничений приложения](/sharepoint/app-enforced-restrictions), то указанный вами параметр не будет действовать. Кроме того, он не будет работать, если он менее строгий, чем настроенный параметр на уровне клиента. Если вы настроили параметр на уровне организации для неуправляемых устройств, выберите такой же или более строгий параметр метки
 
 Например, если в клиенте настроен параметр **Разрешить только ограниченный веб-доступ**, параметр метки, разрешающий полный доступ, не будет действовать, так как он менее строгий. Для этого параметра на уровне клиента выберите параметр метки, блокирующий доступ (более строгий) или ограничивающий доступ (соответствующий параметру клиента).
 
@@ -175,17 +175,17 @@ ms.locfileid: "50407319"
 
 Теперь вы можете применить метки или метку конфиденциальности к группам Microsoft 365. Инструкции см. в документации Azure AD:
 
-- [Назначение метки новой группе на портале Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-a-new-group-in-azure-portal)
+- [Назначение метки новой группе на портале Azure](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-a-new-group-in-azure-portal)
 
-- [Назначение метки существующей группе на портале Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal)
+- [Назначение метки существующей группе на портале Azure](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal)
 
-- [Удаление метки из существующей группы на портале Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#remove-a-label-from-an-existing-group-in-azure-portal)
+- [Удаление метки из существующей группы на портале Azure](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#remove-a-label-from-an-existing-group-in-azure-portal)
 
 ### <a name="apply-a-sensitivity-label-to-a-new-team"></a>Применение метки конфиденциальности к новой команде
 
 Пользователи могут выбирать метки конфиденциальности при создании новых команд в Microsoft Teams. При выборе метки в раскрывающемся списке **Чувствительность** параметр конфиденциальности может измениться, чтобы отразить конфигурацию метки. В зависимости от параметра доступа внешних пользователей, выбранного для метки, пользователи могут или не могут добавлять в команду людей из-за пределов организации.
 
-[Дополнительные сведения о метках конфиденциальности для Teams](https://docs.microsoft.com/microsoftteams/sensitivity-labels)
+[Дополнительные сведения о метках конфиденциальности для Teams](/microsoftteams/sensitivity-labels)
 
 ![Параметр конфиденциальности при создании новой команды](../media/privacy-setting-new-team.png)
 
@@ -215,19 +215,19 @@ ms.locfileid: "50407319"
 
 ### <a name="use-powershell-to-apply-a-sensitivity-label-to-multiple-sites"></a>Использование PowerShell для применения метки конфиденциальности к нескольким сайтам
 
-Для применения метки конфиденциальности к нескольким сайтам можно использовать командлеты [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) и [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) с параметром *SensitivityLabel* из текущей [командной консоли SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Это касается любых семейств веб-сайтов SharePoint и сайтов OneDrive.
+Для применения метки конфиденциальности к нескольким сайтам можно использовать командлеты [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) и [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) с параметром *SensitivityLabel* из текущей [командной консоли SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Это касается любых семейств веб-сайтов SharePoint и сайтов OneDrive.
 
 Убедитесь, что используется командная консоль SharePoint Online версии 16.0.19418.12000 или более поздней.
 
 1. Откройте сеанс PowerShell с параметром **Запуск от имени администратора**.
 
-2. Если вы не знаете GUID метки: [подключитесь к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) и получите список меток конфиденциальности с их идентификаторами GUID.
+2. Если вы не знаете GUID метки: [подключитесь к PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell) и получите список меток конфиденциальности с их идентификаторами GUID.
 
    ```powershell
    Get-Label |ft Name, Guid
    ```
 
-3. Теперь [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) и сохраните GUID метки в качестве переменной. Например:
+3. Теперь [подключитесь к Exchange Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) и сохраните GUID метки в качестве переменной. Например:
 
    ```powershell
    $Id = [GUID]("e48058ea-98e8-4940-8db0-ba1310fd955e")
@@ -301,7 +301,7 @@ ms.locfileid: "50407319"
 
 Microsoft 365 больше не поддерживает прежние классификации для новых групп Microsoft 365 и веб-сайтов SharePoint после включения меток конфиденциальности для контейнеров. Тем не менее, в существующих группах и сайтах, поддерживающих метки конфиденциальности, будут по-прежнему отображаться прежние значения классификаций, пока вы не преобразуете их в метки конфиденциальности.
 
-В качестве примера использования старой классификации групп для SharePoint см. статью [Классификация "современных" сайтов SharePoint](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
+В качестве примера использования старой классификации групп для SharePoint см. статью [Классификация "современных" сайтов SharePoint](/sharepoint/dev/solution-guidance/modern-experience-site-classification).
 
 Эти классификации были настроены с помощью Azure AD PowerShell или основной библиотеки PnP и определяют значения параметра `ClassificationList`. Если в вашем клиенте определены значения классификации, они отображаются при выполнении следующей команды из [модуля AzureADPreview PowerShell](https://www.powershellgallery.com/packages/AzureADPreview):
 
@@ -331,7 +331,7 @@ Microsoft 365 больше не поддерживает прежние клас
 
    Например, в сеансе PowerShell, который вы запускаете как администратор, войдите в систему с помощью учетной записи глобального администратора.
 
-2. Получите список меток конфиденциальности с их GUID с помощью командлета [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label).
+2. Получите список меток конфиденциальности с их GUID с помощью командлета [Get-Label](/powershell/module/exchange/get-label).
 
    ```powershell
    Get-Label |ft Name, Guid
@@ -339,7 +339,7 @@ Microsoft 365 больше не поддерживает прежние клас
 
 3. Запишите GUID для меток конфиденциальности, которые нужно применить к группам Microsoft 365.
 
-4. Теперь [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) в отдельном окне Windows PowerShell.
+4. Теперь [подключитесь к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) в отдельном окне Windows PowerShell.
 
 5. Используйте следующую команду в качестве примера, чтобы получить список групп, использующих в настоящее время классификацию General (Общее).
 
@@ -377,13 +377,13 @@ Microsoft 365 больше не поддерживает прежние клас
 
 ## <a name="how-to-disable-sensitivity-labels-for-containers"></a>Отключение меток конфиденциальности для контейнеров
 
-Можно отключить метки конфиденциальности для Microsoft Teams, групп Microsoft 365 и сайтов SharePoint, выполнив те же инструкции из раздела [Включение поддержки меток конфиденциальности в PowerShell](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). Чтобы отключить эту функцию, на шаге 5 укажите `$setting["EnableMIPLabels"] = "False"`.
+Можно отключить метки конфиденциальности для Microsoft Teams, групп Microsoft 365 и сайтов SharePoint, выполнив те же инструкции из раздела [Включение поддержки меток конфиденциальности в PowerShell](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). Чтобы отключить эту функцию, на шаге 5 укажите `$setting["EnableMIPLabels"] = "False"`.
 
 После выполнения этого действия все настройки станут недоступными для групп и сайтов при создании или изменении меток конфиденциальности, а также изменяется свойство, используемое контейнерами для конфигурации. При включении меток конфиденциальности для Microsoft Teams, групп Microsoft 365 и веб-сайтов SharePoint используемое свойство **Классификация** (для [классификации групп Azure AD](#classic-azure-ad-group-classification)) изменяется на **Конфиденциальность**. При отключении меток конфиденциальности для контейнеров свойство "Конфиденциальность" игнорируется, снова используется свойство "Классификация".
 
 Это означает, что все параметры меток сайтов и групп, примененных ранее к контейнерам, не будут принудительно применяться; метки не будут отображаться для контейнеров.
 
-Если к этим контейнерам применены значения классификации Azure AD, то контейнеры снова переключаются на использование классификации. Обратите внимание, что у всех новых сайтов и групп, созданных после включения этой функции, не будет отображаться метка и не будет классификации. Теперь можно применять значения классификации для этих контейнеров и для всех новых контейнеров. Дополнительные сведения см. в статьях [Классификация "современных" сайтов SharePoint ](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification) и [Создание классификаций для групп Office в вашей организации](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell).
+Если к этим контейнерам применены значения классификации Azure AD, то контейнеры снова переключаются на использование классификации. Обратите внимание, что у всех новых сайтов и групп, созданных после включения этой функции, не будет отображаться метка и не будет классификации. Теперь можно применять значения классификации для этих контейнеров и для всех новых контейнеров. Дополнительные сведения см. в статьях [Классификация "современных" сайтов SharePoint ](/sharepoint/dev/solution-guidance/modern-experience-site-classification) и [Создание классификаций для групп Office в вашей организации](../enterprise/manage-microsoft-365-groups-with-powershell.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

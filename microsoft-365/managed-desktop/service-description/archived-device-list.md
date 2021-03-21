@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bbb3814a973bec53a877bc70d0299ce7b2eb87b5
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: f3e4b434f1ca267d5bbfbc7e67cb20c7e2b9dbbb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727557"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920568"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Архивные устройства Microsoft Managed Desktop
 
@@ -75,7 +75,7 @@ ms.locfileid: "50727557"
 
 - У вас есть изображение, утвержденное Microsoft Managed Desktop. При заказе устройств убедитесь, что они используются в Microsoft Managed Desktop.
 - Не выполнена первая версия Windows.
-- Регистрация в Microsoft Managed Desktop с помощью функции [регистрации](https://aka.ms/mmddrhelp) устройств
+- Регистрация в Microsoft Managed Desktop с помощью функции [регистрации](../get-started/register-devices-self.md) устройств
 
 #### <a name="more-help"></a>Дополнительные справки
 

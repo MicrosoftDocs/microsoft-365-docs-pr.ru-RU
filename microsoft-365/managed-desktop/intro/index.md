@@ -9,17 +9,17 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8e95eb0fd0e03dc718affa7e7cf044beb654bb56
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 07d3d50f012b2d93e9f7a75f47b0c35514b51350
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840939"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920624"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Что собой представляют компьютеры, управляемые Майкрософт?
 
 
-Компьютеры, управляемые Майкрософт, — это облачная служба, объединяющая [Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (включая [Windows 10](https://docs.microsoft.com/windows/windows-10/) Корпоративная и [Office 365 корпоративный](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) и следующие возможности:
+Компьютеры, управляемые Майкрософт, — это облачная служба, объединяющая [Microsoft 365 корпоративный](../../enterprise/microsoft-365-overview.md) (включая [Windows 10](/windows/windows-10/) Корпоративная и [Office 365 корпоративный](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) и следующие возможности:
 
 - Развертывание устройств пользователя
 - Управление ИТ-службой и ее использование
@@ -44,7 +44,7 @@ ms.locfileid: "49840939"
 - Время загрузки компьютеров, управляемых Майкрософт, уменьшается примерно в четыре раза.
 - Минимум вдвое большее время работы батареи
 - Втрое меньше устройств сталкиваются со сбоями за год
-- Мобильность устройств благодаря службе [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), обеспечивающей одинаковый интерфейс для пользователей независимо от устройства, на котором выполнен вход
+- Мобильность устройств благодаря службе [Enterprise State Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview), обеспечивающей одинаковый интерфейс для пользователей независимо от устройства, на котором выполнен вход
 
 Преимущества, доступные ИТ-администраторам:
 
@@ -58,7 +58,7 @@ ms.locfileid: "49840939"
 
 - **Оборудование.** Вместо изучения и тестирования устройств (и их драйверов) ИТ-отделом служба компьютеров, управляемых Майкрософт, тщательно протестировала определенные устройства и составила рекомендованный [список устройств](../service-description/device-list.md), которые соответствуют корпоративным требованиям по производительности и гарантированно работают со службой. Вы можете самостоятельно получить устройства (или в сотрудничестве с партнером) или повторно использовать уже имеющиеся устройства, если они находятся в списке утвержденных. Зарегистрировать устройства можно легко и просто. Кроме того, перед их развертыванием вы можете [настроить](../working-with-managed-desktop/config-setting-overview.md) некоторые аспекты интерфейса для пользователей.
 - **Обновления**. Служба компьютеров, управляемых Майкрософт, настраивает и управляет всеми аспектами [групп развертывания](../service-description/updates.md) для обновлений компонентов и улучшений Windows 10, драйверов, встроенного ПО, определений антивирусов и обновлений Приложений Microsoft 365 для предприятий. Сюда относится расширенное тестирование и проверка всех обновлений с гарантией актуальности зарегистрированных устройств и минимального количества сбоев, что освобождает ваш ИТ-отдел от этой повседневной задачи.
-- **Приложения.** В рамках Microsoft 365 корпоративный Майкрософт предоставляет несколько основных приложений Майкрософт (и управляет ими). Но у вас, вероятно, также есть другие приложения, необходимые для компании. Вместо тестирования, упаковки и развертывания этих приложений вашим ИТ-отделом корпорация Майкрософт поможет вам развернуть их и при необходимости окажет помощь с использованием [службы Assure для классических приложений](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure). Дополнительные сведения см. в статье [Приложения на компьютерах, управляемых Майкрософт](../get-ready/apps.md).
+- **Приложения.** В рамках Microsoft 365 корпоративный Майкрософт предоставляет несколько основных приложений Майкрософт (и управляет ими). Но у вас, вероятно, также есть другие приложения, необходимые для компании. Вместо тестирования, упаковки и развертывания этих приложений вашим ИТ-отделом корпорация Майкрософт поможет вам развернуть их и при необходимости окажет помощь с использованием [службы Assure для классических приложений](/fasttrack/win-10-desktop-app-assure). Дополнительные сведения см. в статье [Приложения на компьютерах, управляемых Майкрософт](../get-ready/apps.md).
 
 
 ## <a name="device-monitoring"></a>Отслеживание устройств
@@ -79,7 +79,7 @@ ms.locfileid: "49840939"
 - [Технологии компьютеров, управляемых Майкрософт](technologies.md)
 - [Компьютеры, управляемые Майкрософт и ITIL](../MMD-and-ITSM.md)
 - [Соответствие требованиям](compliance.md)
-- [Описание услуги предоставления компьютеров, управляемых Майкрософт](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
+- [Описание услуги предоставления компьютеров, управляемых Майкрософт](../service-description/index.md)
 
 **Подготовка к регистрации**. В этих разделах описаны действия, которые требуется выполнить в организации для подготовки к регистрации, в том числе проверка соответствия вашей среды основным предварительным условиям, настройка сетей, настройка сертификатов и подготовка приложений.
 
@@ -114,4 +114,3 @@ ms.locfileid: "49840939"
 <!--When you enroll in Microsoft Managed Desktop, Microsoft provides you with devices that are configured to join your Azure Active Directory tenant. Windows 10, Office 365, and some apps and features associated with [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) are installed (by Microsoft) on your devices. When your employees who are using these devices need help, they contact Microsoft Managed Desktop support (provided by Microsoft) through a custom chat app.--> 
 
 <!--With Microsoft Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more).--> 
- 

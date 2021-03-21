@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Этапы миграции служб Федерации active Directory (AD FS) для миграции из Microsoft Cloud Deutschland.
-ms.openlocfilehash: 852fc8f93158d7b6080f1add5a05e7367539f889
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 146f476a43e46925d87763a800467bf52adc73e5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838417"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918910"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>Этапы миграции AD FS для миграции из Microsoft Cloud Deutschland
 
@@ -51,9 +51,9 @@ ms.locfileid: "50838417"
 
 4. Выберите **Начало** на странице **Добро** пожаловать мастера доверия для доверяющих сторон с добавлением.
 
-5. На странице **Выбор источника данных** выберите импорт данных о стороне, которая полагается, опубликованной в Интернете или в **локальной сети.** Значение **адреса метаданных Федерации (имя хозяина или URL-адрес)** должно быть задано `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Нажмите **Далее**.
+5. На странице **Выбор источника данных** выберите импорт данных о стороне, которая полагается, опубликованной в Интернете или в **локальной сети.** Значение **адреса метаданных Федерации (имя хозяина или URL-адрес)** должно быть задано `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Нажмите кнопку **Далее**.
 
-6. На странице **Укажите имя отображения** введите имя отображения, например **Microsoft Office 365 Identity Platform WorldWide.** Нажмите **Далее**.
+6. На странице **Укажите имя отображения** введите имя отображения, например **Microsoft Office 365 Identity Platform WorldWide.** Нажмите кнопку **Далее**.
 
 7. Если вы используете ADFS в Windows Server 2012, на странице мастер настройте многофакторную проверку подлинности **сейчас?** Выберите подходящий выбор в соответствии с требованиями проверки подлинности. Если вы придерживались по умолчанию, выберите, что в данный момент не нужно настраивать параметры многофакторной проверки подлинности для этого доверяемого **участника.** Вы можете изменить этот параметр позже, если хотите.
 
@@ -89,7 +89,8 @@ ms.locfileid: "50838417"
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>Аварийное восстановление AD FS (база данных WID)
 
-Чтобы восстановить ферму AD FS в аварийной ситуации, необходимо использовать средство быстрого восстановления [AD FS.](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) Поэтому необходимо скачать средство и перед началом миграции создать и безопасно хранить резервное копирование. В этом примере были запущены следующие команды для обратного запуска фермы в базе данных WID:
+
+Чтобы восстановить ферму AD FS в аварийной ситуации, необходимо использовать средство быстрого восстановления [AD FS.](/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) Поэтому необходимо скачать средство и перед началом миграции создать и безопасно хранить резервное копирование. В этом примере были запущены следующие команды для обратного запуска фермы в базе данных WID:
 
 <h2 id="backup"></h2>
 
@@ -127,7 +128,7 @@ ms.locfileid: "50838417"
 3. Указать новые записи DNS или балансировку нагрузки на новые серверы AD FS.
 
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Начало работы:
 
@@ -144,6 +145,6 @@ ms.locfileid: "50838417"
 
 Облачные приложения:
 
-- [Сведения о программе миграции Dynamics 365](https://aka.ms/d365ceoptin)
-- [Сведения о программе миграции Power BI](https://aka.ms/pbioptin)
-- [Начало перехода на Microsoft Teams](https://aka.ms/SkypeToTeams-Home)
+- [Сведения о программе миграции Dynamics 365](/dynamics365/get-started/migrate-data-german-region)
+- [Сведения о программе миграции Power BI](/power-bi/admin/service-admin-migrate-data-germany)
+- [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here)

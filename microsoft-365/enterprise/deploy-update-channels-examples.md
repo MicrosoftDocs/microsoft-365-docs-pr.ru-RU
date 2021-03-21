@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Как организации используют каналы в развертывании и обновлении.
-ms.openlocfilehash: 88567fedd92f01885c4971acc273a676c3e82de8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a91ee948ca2051ceccb3883b2dd0198c1070bc03
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686158"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919066"
 ---
 # <a name="deployment-and-update-channel-example-configurations"></a>Примеры конфигураций каналов развертывания и обновления
 
@@ -41,9 +41,9 @@ ms.locfileid: "46686158"
 
 | Предложения клиента/канала | Windows 10 | Приложения Microsoft 365 для предприятий (Windows 10) | Пример |
 |:-------|:-------|:-----|:-------|
-| Подходит для клиентов, которые хотят получить последние выпуски, как только они будут готовы. | Полугодовой канал | [Актуальный канал](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) | [Последние выпуски](deploy-update-channels-examples-rapid-deploy.md) |
-| Подходит для предприятий, которые хотят получить последние выпуски с дополнительной предсказуемостью. | Полугодовой канал | [Ежемесячный канал (корпоративный)](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) |  |
-| Подходит для предприятий, которым необходимо комплексное ИТ-тестирование перед каждым обновлением. | Полугодовой канал | [Полугодовой канал (корпоративный)](https://docs.microsoft.com/deployoffice/overview-update-channels#semi-annual-enterprise-channel-overview) |  |
+| Подходит для клиентов, которые хотят получить последние выпуски, как только они будут готовы. | Полугодовой канал | [Актуальный канал](/deployoffice/overview-update-channels#current-channel-overview) | [Последние выпуски](deploy-update-channels-examples-rapid-deploy.md) |
+| Подходит для предприятий, которые хотят получить последние выпуски с дополнительной предсказуемостью. | Полугодовой канал | [Ежемесячный канал (корпоративный)](/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) |  |
+| Подходит для предприятий, которым необходимо комплексное ИТ-тестирование перед каждым обновлением. | Полугодовой канал | [Полугодовой канал (корпоративный)](/deployoffice/overview-update-channels#semi-annual-enterprise-channel-overview) |  |
 |||||
 
 

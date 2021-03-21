@@ -13,16 +13,16 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Включение параметра, разрешающего совместное редактирование и автосохранение в классических приложениях для помеченных и зашифрованных документов в SharePoint и OneDrive.
-ms.openlocfilehash: d26696530ed86e6608b6473fead0775fb07a060b
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 90c00eb448d6d8f02170a37062af05cb0c0db59d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454640"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919575"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Включение совместного редактирования для файлов, зашифрованных с помощью меток конфиденциальности
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Эта функция в настоящее время находится на этапе тестирования и может быть изменена. 
@@ -58,7 +58,7 @@ ms.locfileid: "50454640"
 
 - Запись блога: [Предстоящие изменения хранилища метаданных Microsoft Information Protection](https://techcommunity.microsoft.com/t5/microsoft-security-and/upcoming-changes-to-microsoft-information-protection-metadata/ba-p/1904418)
 
-- Открытые спецификации: [2.6.3 LabelInfo и настраиваемые свойства документа](https://docs.microsoft.com/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
+- Открытые спецификации: [2.6.3 LabelInfo и настраиваемые свойства документа](/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
 
 В силу данных изменений, не включайте этот параметр при наличии в вашей организации приложений, служб, сценариев или инструментов, которые считывают или записывают метаданные меток в старое расположение. В этом случае возможен ряд последствий:
 
@@ -68,7 +68,7 @@ ms.locfileid: "50454640"
 
 - Функции совместного редактирования и автосохранения не будут работать для помеченного и зашифрованного документа при его открытии другим пользователем в классическом приложении Office, которое не поддерживает новые метаданные меток
 
-- Правило потока почты Exchange Online, которое [определяет метки как настраиваемые свойства во вложениях Office](https://docs.microsoft.com/azure/information-protection/configure-exo-rules#example-2-rule-that-applies-the-encrypt-only-option-to-emails-when-they-have-attachments-that-are-labeled-confidential--partners-and-these-emails-are-sent-outside-the-organization), не может зашифровать электронную почту и вложения или неправильно их зашифровывает.
+- Правило потока почты Exchange Online, которое [определяет метки как настраиваемые свойства во вложениях Office](/azure/information-protection/configure-exo-rules#example-2-rule-that-applies-the-encrypt-only-option-to-emails-when-they-have-attachments-that-are-labeled-confidential--partners-and-these-emails-are-sent-outside-the-organization), не может зашифровать электронную почту и вложения или неправильно их зашифровывает.
 
 В следующем разделе вы можете найти список приложений и служб, которые поддерживают этот параметр, а также изменения метаданных меток.
 
@@ -108,7 +108,7 @@ ms.locfileid: "50454640"
 
 - [Политики автоматического применения меток](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)
 - [Использование меток конфиденциальности в качестве условия в политиках защиты от потери данных](dlp-sensitivity-label-as-condition.md)
-- [Microsoft Cloud App Security настроено для применения меток конфиденциальности](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
+- [Microsoft Cloud App Security настроено для применения меток конфиденциальности](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
 
 ## <a name="limitations"></a>Ограничения
 
@@ -125,7 +125,7 @@ ms.locfileid: "50454640"
     
     Метки с любой из этих конфигураций шифрования отображаются в приложениях Office. Однако, когда пользователи выбирают эти метки и другие пользователи не редактируют документ, они получают предупреждение о том, что совместное редактирование и автосохранение будут недоступны. Если другой пользователь редактирует документ, пользователи увидят сообщение о том, что метки не могут быть применены.
 
-- Если вы используете клиент унифицированного применения меток Azure Information Protection: ознакомьтесь с документацией для этого клиента применения меток, включающей [дополнительные требования или ограничения](https://docs.microsoft.com/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview).
+- Если вы используете клиент унифицированного применения меток Azure Information Protection: ознакомьтесь с документацией для этого клиента применения меток, включающей [дополнительные требования или ограничения](/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview).
 
 ## <a name="known-issues-for-this-preview"></a>Известные проблемы в этой предварительной версии
 
@@ -171,7 +171,7 @@ ms.locfileid: "50454640"
 
 ![Параметр, который показывает, что редактирование включено для меток конфиденциальности](../media/co-authoring-tenant-option-set-for-sensitivity-labels.png)
 
-Как видно на снимке экрана, когда этот параметр включен, вы можете обратиться в [службу поддержки Майкрософт](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) и запросить отключение этого параметра. Этот запрос может занять несколько дней, и вам потребуется подтвердить, что вы являетесь глобальным администратором клиента. Ожидайте, что может быть применена обычная плата за поддержку. 
+Как видно на снимке экрана, когда этот параметр включен, вы можете обратиться в [службу поддержки Майкрософт](/office365/admin/contact-support-for-business-products) и запросить отключение этого параметра. Этот запрос может занять несколько дней, и вам потребуется подтвердить, что вы являетесь глобальным администратором клиента. Ожидайте, что может быть применена обычная плата за поддержку. 
 
 Если инженер службы поддержки отключает этот параметр для вашего клиента:
 

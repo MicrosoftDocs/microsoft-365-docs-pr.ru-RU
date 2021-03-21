@@ -19,12 +19,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Узнайте о возможностях ограничения и отключения общего доступа в Microsoft 365.
-ms.openlocfilehash: 388d354886805f593b1c7815f16d1e0156e12fe0
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 46cef1aac6d3387366a5e8ce9f9c1129f6c83e61
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233534"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920208"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Ограничение общего доступа в Microsoft 365
 
@@ -45,9 +45,9 @@ ms.locfileid: "50233534"
 
 Можно также ограничить условия доступа к общему содержимому. Дополнительные сведения см. далее в этой статье в разделе [условный доступ](#conditional-access).
 
-Хотя вы можете использовать административные элементы управления, описанные в этой статье, чтобы ограничить общий доступ в своей организации, рекомендуется использовать функции безопасности и соответствия требованиям, доступные в Microsoft 365, чтобы создать безопасную среду общего доступа. Сведения см. в статьях [Совместная работа с файлами в SharePoint с помощью Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration) и [Настройка команды с изоляцией для обеспечения безопасности](secure-teams-security-isolation.md).
+Хотя вы можете использовать административные элементы управления, описанные в этой статье, чтобы ограничить общий доступ в своей организации, рекомендуется использовать функции безопасности и соответствия требованиям, доступные в Microsoft 365, чтобы создать безопасную среду общего доступа. Сведения см. в статьях [Совместная работа с файлами в SharePoint с помощью Microsoft 365](/sharepoint/deploy-file-collaboration) и [Настройка команды с изоляцией для обеспечения безопасности](secure-teams-security-isolation.md).
 
-Чтобы ознакомиться с использованием общего доступа в вашей организации, [запустите отчет об общем доступе к файлам и папкам](https://docs.microsoft.com/sharepoint/sharing-reports).
+Чтобы ознакомиться с использованием общего доступа в вашей организации, [запустите отчет об общем доступе к файлам и папкам](/sharepoint/sharing-reports).
 
 ## <a name="microsoft-365-group-or-team"></a>Группа или команда Microsoft 365
 
@@ -73,9 +73,9 @@ ms.locfileid: "50233534"
     ![Снимок экрана: параметры общего доступа в группах Microsoft 365 в Центре администрирования Microsoft 365](../media/office-365-groups-guest-settings-off.png)
 
 > [!NOTE]
-> Если нужно запретить гостевой общий доступ к отдельной группе или команде, используйте [Microsoft PowerShell](per-group-guest-access.md) или [метки конфиденциальности](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+> Если нужно запретить гостевой общий доступ к отдельной группе или команде, используйте [Microsoft PowerShell](per-group-guest-access.md) или [метки конфиденциальности](../compliance/sensitivity-labels-teams-groups-sites.md).
 
-Вы можете ограничить гостевой общий доступ пользователями из определенных доменов, разрешая или блокируя домены в Azure Active Directory. Это также повлияет на предоставление общего доступа гостям в SharePoint, если вы включили [интеграцию SharePoint и OneDrive с Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
+Вы можете ограничить гостевой общий доступ пользователями из определенных доменов, разрешая или блокируя домены в Azure Active Directory. Это также повлияет на предоставление общего доступа гостям в SharePoint, если вы включили [интеграцию SharePoint и OneDrive с Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration-preview).
 
 Разрешение приглашений с совместному использованию только из указанных доменов
 1. В Azure Active Directory на странице "Обзор" щелкните **Организационные связи**.
@@ -118,11 +118,11 @@ ms.locfileid: "50233534"
 
 ### <a name="block-access-to-a-site"></a>Блокировка доступа к сайту
 
-Можно заблокировать доступ к сайту или сделать сайт доступным только для чтения, изменив состояние его блокировки. Дополнительные сведения см. в статье [Блокировка и разблокировка сайтов](https://docs.microsoft.com/sharepoint/manage-lock-status).
+Можно заблокировать доступ к сайту или сделать сайт доступным только для чтения, изменив состояние его блокировки. Дополнительные сведения см. в статье [Блокировка и разблокировка сайтов](/sharepoint/manage-lock-status).
 
 ### <a name="permissions-inheritance"></a>Наследование разрешений
 
-Хотя это не рекомендуется, можно использовать [наследование разрешений SharePoint](https://docs.microsoft.com/sharepoint/what-is-permissions-inheritance), чтобы настроить уровни доступа к сайтам и дочерним сайтам.
+Хотя это не рекомендуется, можно использовать [наследование разрешений SharePoint](/sharepoint/what-is-permissions-inheritance), чтобы настроить уровни доступа к сайтам и дочерним сайтам.
 
 ## <a name="sharing-with-specific-people"></a>Предоставление общего доступа определенным пользователям
 
@@ -193,15 +193,15 @@ Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingL
 
 По умолчанию пользователи могут создавать новые сайты, группы и команды и предоставлять общий доступ к их содержимому (в зависимости от параметров общего доступа). Вы можете ограничить круг пользователей, которые могут создавать сайты, группы и команды. См. следующие справочные материалы:
 
-- [Управление созданием сайтов в SharePoint](https://docs.microsoft.com/sharepoint/manage-site-creation)
-- [Управление разрешениями пользователей на создание групп Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/manage-creation-of-groups)
+- [Управление созданием сайтов в SharePoint](/sharepoint/manage-site-creation)
+- [Управление разрешениями пользователей на создание групп Microsoft 365](./manage-creation-of-groups.md)
 
 > [!NOTE]
 > Ограничение создания групп ограничивает создание команд.
 
 ## <a name="email"></a>Электронная почта
 
-Вы можете запретить нежелательный общий доступ к сообщениям электронной почты с помощью шифрования. Это предотвращает пересылку сообщений или предоставление к ним общего доступа неавторизованным пользователям иным способом. Шифрование электронной почты можно включить с помощью меток конфиденциальности. Подробности см. в статье [Ограничение доступа к контенту с помощью шифрования в метках конфиденциальности](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels).
+Вы можете запретить нежелательный общий доступ к сообщениям электронной почты с помощью шифрования. Это предотвращает пересылку сообщений или предоставление к ним общего доступа неавторизованным пользователям иным способом. Шифрование электронной почты можно включить с помощью меток конфиденциальности. Подробности см. в статье [Ограничение доступа к контенту с помощью шифрования в метках конфиденциальности](../compliance/encryption-sensitivity-labels.md).
 
 ## <a name="download-or-file-copy"></a>Скачивание или копирование файла
 
@@ -209,12 +209,12 @@ Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingL
 
 ## <a name="conditional-access"></a>Условный доступ
 
-Условный доступ Azure Active Directory позволяет ограничить или запретить общий доступ пользователям в зависимости от расположения в сети, работоспособности устройства, риска входа и других факторов. См. [Что такое условный доступ?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
+Условный доступ Azure Active Directory позволяет ограничить или запретить общий доступ пользователям в зависимости от расположения в сети, работоспособности устройства, риска входа и других факторов. См. [Что такое условный доступ?](/azure/active-directory/conditional-access/overview).
 
 SharePoint предоставляет прямую интеграцию с условным доступом Azure Active Directory для неуправляемых устройств и расположения в сети. Дополнительные сведения см. в следующих справочных материалах:
 
-- [Управление доступом с неуправляемых устройств](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
-- [Управление доступом к данным SharePoint и OneDrive с учетом расположения в сети](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
+- [Управление доступом с неуправляемых устройств](/sharepoint/control-access-from-unmanaged-devices)
+- [Управление доступом к данным SharePoint и OneDrive с учетом расположения в сети](/sharepoint/control-access-based-on-network-location)
 
 ## <a name="see-also"></a>См. также
 

@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: Как включить или отключить функцию поиска журнала аудита в Центре & безопасности, чтобы включить или отключить возможность администраторов для поиска журнала аудита.
-ms.openlocfilehash: 3f3e1b913dd163e74f9e5359de772dfcbf3bd786
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: aecd1d47592b9a5e2f134b1d9db9ff203b815b18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423680"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919285"
 ---
 # <a name="turn-audit-log-search-on-or-off"></a>Включение и отключение поиска в журнале аудита
 
@@ -41,7 +41,7 @@ ms.locfileid: "50423680"
     > [!NOTE]
     > Пользователям должны быть назначены разрешения в Exchange Online, чтобы включить или отключить поиск журнала аудита. Если назначить пользователям роль журналов аудита на странице **Разрешения** в Центре соответствия требованиям & безопасности, они не смогут включить или отключить поиск журнала аудита. Это потому, что в основном cmdlet является Exchange Online PowerShell cmdlet. 
     
-- Пошаговая инструкция по поиску журнала аудита см. в журнале Search [the audit log in the Security & Compliance Center.](search-the-audit-log-in-security-and-compliance.md) Дополнительные сведения об API управления Microsoft 365 см. в руб. Начало работы с API управления [Microsoft 365.](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)
+- Пошаговая инструкция по поиску журнала аудита см. в журнале Search [the audit log in the Security & Compliance Center.](search-the-audit-log-in-security-and-compliance.md) Дополнительные сведения об API управления Microsoft 365 см. в руб. Начало работы с API управления [Microsoft 365.](/office/office-365-management-api/get-started-with-office-365-management-apis)
 
 - Чтобы убедиться, что поиск в журнале аудита включен, можно выполнить следующую команду в Exchange Online PowerShell:
 
@@ -71,7 +71,7 @@ ms.locfileid: "50423680"
 
 ### <a name="use-powershell-to-turn-on-audit-log-search"></a>Чтобы включить поиск журнала аудита, используйте PowerShell
 
-1. [Подключение к PowerShell Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Подключение к PowerShell Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Запустите следующую команду PowerShell, чтобы включить поиск журнала аудита в Office 365.
 
@@ -85,7 +85,7 @@ ms.locfileid: "50423680"
 
 Чтобы отключить поиск журнала аудита, необходимо использовать Exchange Online PowerShell.
   
-1. [Подключение к PowerShell Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Подключение к PowerShell Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Запустите следующую команду PowerShell, чтобы отключить поиск журнала аудита.
 

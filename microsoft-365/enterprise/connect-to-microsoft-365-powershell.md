@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Подключитесь к клиенту Microsoft 365, используя PowerShell для Microsoft 365, чтобы выполнять задачи администрирования из командной строки.
-ms.openlocfilehash: 0691304a2d40f7ae4262e6761902f16b4f6d5ee2
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 58af42958e9b50ee8e39cbd7bd5aab53812e444c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288117"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919180"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Подключение к Microsoft 365 с помощью PowerShell
 
@@ -60,17 +60,17 @@ ms.locfileid: "50288117"
 - Для модуля Microsoft Azure Active Directory для Windows PowerShell требуется использовать PowerShell версии от 5.1 до 6. Использовать PowerShell версии 7 невозможно.
        
 >[!Note]
->Эти процедуры предназначены для пользователей, которым назначена роль администраторов Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](https://go.microsoft.com/fwlink/p/?LinkId=532367).
+>Эти процедуры предназначены для пользователей, которым назначена роль администраторов Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).
 
 
 ## <a name="connect-with-the-azure-active-directory-powershell-for-graph-module"></a>Подключение к модулю Azure Active Directory PowerShell для Graph
 
-Имена командлетов в модуле Azure Active Directory PowerShell для Graph включают компонент *AzureAD*. Вы можете установить модуль [Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) или [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps).
+Имена командлетов в модуле Azure Active Directory PowerShell для Graph включают компонент *AzureAD*. Вы можете установить модуль [Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2) или [Azure PowerShell](/powershell/azure/install-az-ps).
 
 Если процедурам требуются новые командлеты в модуле PowerShell Azure Active Directory для Graph, выполните эти действия, чтобы установить этот модуль и подключить его к вашей подписке Microsoft 365.
 
 > [!Note]
-> Сведения о поддержке различных версий Windows см. в статье [модуль Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) .
+> Сведения о поддержке различных версий Windows см. в статье [модуль Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2) .
 
 ### <a name="step-1-install-the-required-software"></a>Шаг 1. Установите необходимое программное обеспечение.
 
@@ -102,7 +102,7 @@ ms.locfileid: "50288117"
 
 Если используется многофакторная проверка подлинности, следуйте инструкциям в дополнительных диалоговых окнах, чтобы предоставить дополнительные сведения для проверки подлинности, например код проверки.
 
-После подключения можно использовать командлеты для [модуля Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/module/azuread).
+После подключения можно использовать командлеты для [модуля Azure Active Directory PowerShell для Graph](/powershell/module/azuread).
 
 ## <a name="connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Подключение к модулю Microsoft Azure Active Directory для Windows PowerShell
 
@@ -152,11 +152,11 @@ ms.locfileid: "50288117"
     
 - **Для работы модуля Microsoft Azure Active Directory для Windows PowerShell необходимо, чтобы на вашем компьютере был включен компонент Microsoft .NET Framework 3.5.* x*. Скорее всего, на вашем компьютере установлена более новая версия этого компонента (например, 4 или 4.5.* x*). При этом можно включить или отключить режим обратной совместимости с более ранними версиями .NET Framework. Дополнительные сведения см. в следующих статьях:
     
-  - Windows Server 2012 или Windows Server 2012 R2: см. статью [Включение .NET Framework 3.5 с помощью мастера добавления ролей и функций](https://go.microsoft.com/fwlink/p/?LinkId=532368).
+  - Windows Server 2012 или Windows Server 2012 R2: см. статью [Включение .NET Framework 3.5 с помощью мастера добавления ролей и функций](/previous-versions/windows/it-pro/windows-8.1-and-8/dn482071(v=win.10)).
     
-  - Windows 7 или Windows Server 2008 R2: см. статью [Не удается открыть модуль Azure Active Directory для Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=532370).
+  - Windows 7 или Windows Server 2008 R2: см. статью [Не удается открыть модуль Azure Active Directory для Windows PowerShell](/troubleshoot/azure/active-directory/cant-open-aad-module-powershell).
 
-  - Windows 10, Windows 8.1 и Windows 8: см. статью [Установка .NET Framework 3.5 в Windows 10, Windows 8.1 и Windows 8](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10).
+  - Windows 10, Windows 8.1 и Windows 8: см. статью [Установка .NET Framework 3.5 в Windows 10, Windows 8.1 и Windows 8](/dotnet/framework/install/dotnet-35-windows-10).
 
   
 - **Возможно, ваша версия модуля Microsoft Azure Active Directory для Windows PowerShell устарела.** Чтобы проверить, выполните следующую команду в PowerShell для Microsoft 365 или в модуле Microsoft Azure Active Directory для Windows PowerShell:
@@ -167,7 +167,7 @@ ms.locfileid: "50288117"
 
     Если возвращенный номер версии меньше *1.0.8070.2*, удалите модуль Microsoft Azure Active Directory для Windows PowerShell и выполните установку с [шага 1](#step-1-install-the-required-software), описанного выше.
 
-- **Если появится сообщение об ошибке подключение**, см. статью [Ошибка "Connect-MsolService: исключение типа"](https://go.microsoft.com/fwlink/p/?LinkId=532377).
+- **Если появится сообщение об ошибке подключение**, см. статью [Ошибка "Connect-MsolService: исключение типа"](/office365/troubleshoot/active-directory/connect-msoservice-throw-exception).
     
 - **Если появляется сообщение об ошибке "Get-Item: не удается найти путь"**, выполните следующую команду:
 

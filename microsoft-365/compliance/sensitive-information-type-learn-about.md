@@ -16,16 +16,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 13dee9d5744639149960a16adcf36b7ebe5718f7
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 12a4e8873cb7212bfa7dde12bba9e98528cd859a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766404"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919675"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Дополнительные сведения о типах конфиденциальной информации
 
-Определение и классификация конфиденциальных элементов, которые находятся под контролем организаций, является первым шагом в области защиты [информации.](protect-information.md)  Microsoft 365 предоставляет три способа идентификации элементов, чтобы их можно было классифицировать:
+Определение и классификация конфиденциальных элементов, которые находятся под контролем организаций, является первым шагом в области защиты [информации.](./information-protection.md)  Microsoft 365 предоставляет три способа идентификации элементов, чтобы их можно было классифицировать:
 
 - вручную пользователями
 - автоматическое распознавание шаблонов, например типы конфиденциальной информации

@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e27659517f8c7b5cbc7936b825ac867a2888e251
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 288be30aa9592ba7feed92b9ad49955406f59f10
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727202"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918802"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>Отслеживание и реагирование на возникающие угрозы с помощью аналитики угроз 
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727202"
 **Область применения:**
 - Microsoft 365 Defender
 
-> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](https://aka.ms/mtp-trial-lab) или запустить [пилотный проект в производстве.](https://aka.ms/m365d-pilotplaybook)
+> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) или запустить [пилотный проект в производстве.](./mtp-pilot.md?ocid=cx-evalpilot)
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -155,7 +155,7 @@ _Раздел Предотвращение попыток электронной
   - Защита потенциально нежелательного приложения (PUA)
   - Защита в режиме реального времени
  
-Сведения о смягчении последствий в [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)этом разделе включают данные управления угрозами и уязвимостями, которые также предоставляют подробные сведения о сработок из различных ссылок в отчете.
+Сведения о смягчении последствий в [](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)этом разделе включают данные управления угрозами и уязвимостями, которые также предоставляют подробные сведения о сработок из различных ссылок в отчете.
 
 ![Изображение раздела сведений о смягчении последствий отчета аналитики угроз, в котором показаны сведения о безопасной конфигурации Изображение раздела смягчения последствий отчета аналитики угроз, в котором показаны сведения об ](../../media/threat-analytics/ta_mitigations_mtp.png)
  ![ уязвимости](../../media/threat-analytics/ta_mitigations_mtp2.png)
@@ -178,7 +178,7 @@ _Раздел "Смягчение последствий" отчета об ан
 - Устройства считаются недоступными, если они не передают данные службе.
 - Статистика, связанная с антивирусом, основана на параметрах антивируса Microsoft Defender. Устройства с сторонними антивирусными решениями могут отображаться как "открытые".
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Родственные темы
 - [Упреждающий поиск угроз с помощью продвинутой охоты](advanced-hunting-overview.md) 
 - [Понимание раздела отчетов аналитика](threat-analytics-analyst-reports.md)
-- [Оценка и устранение недостатков и воздействий безопасности](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [Оценка и устранение недостатков и воздействий безопасности](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

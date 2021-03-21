@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: afa5cd42545eddafb1d0ec1a6d88eb0903e07820
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0184b2c05121e1ea3bf365263df880548f1b9232
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454555"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918874"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Предпосылки Microsoft 365 Defender
 
@@ -52,13 +52,13 @@ ms.locfileid: "50454555"
 
 Дополнительные сведения можно [получить в планах корпоративных служб Microsoft 365.](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)
 
-> У вас еще нет лицензии? [Пробное использование или приобретение подписки на Microsoft 365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
+> У вас еще нет лицензии? [Пробное использование или приобретение подписки на Microsoft 365](../../commerce/try-or-buy-microsoft-365.md?view=o365-worldwide)
 
 ### <a name="check-your-existing--licenses"></a>Проверка существующих лицензий
 Перейдите в центр администрирования Microsoft 365[(admin.microsoft.com),](https://admin.microsoft.com/)чтобы просмотреть существующие лицензии. В Центре администрирования выберите **Выставление счетов** > **Лицензии**.
 
 >[!NOTE]
-> Для получения сведений о  лицензии  вам необходимо на должность администратора биллинга или глобального читателя в [Azure AD.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.
+> Для получения сведений о  лицензии  вам необходимо на должность администратора биллинга или глобального читателя в [Azure AD.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.
 
 ## <a name="required-permissions"></a>Обязательные разрешения
 Вы должны быть глобальным **администратором** или **администратором** безопасности в Azure Active Directory, чтобы включить Microsoft 365 Defender. Список ролей, необходимых для использования защитника Microsoft 365, а также сведения о регулировании доступа к данным, читайте в материале Об управлении доступом к [Microsoft 365 Defender.](mtp-permissions.md)
@@ -73,7 +73,7 @@ ms.locfileid: "50454555"
 - Министерство обороны США
 - Все государственные учреждения США с коммерческими лицензиями
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Родственные темы
 - [Обзор Защитника Microsoft 365](microsoft-threat-protection.md)
 - [Включив защитник Microsoft 365](mtp-enable.md)
 - [Управление доступом и разрешениями](mtp-permissions.md)

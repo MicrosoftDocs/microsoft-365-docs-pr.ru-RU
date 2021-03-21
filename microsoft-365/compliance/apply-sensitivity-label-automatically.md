@@ -16,19 +16,19 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначать файлам или сообщениям электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: 4eeedca64d1b2244355bb3e0e233969bdd02810c
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: d645d185524d111af4eafed4b5fba06483525a85
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461894"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920079"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Сведения об автоматическом применении меток конфиденциальности в Azure Purview (предварительная версия) см. в статье [Автоматическое применение меток к содержимому в Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
+> Сведения об автоматическом применении меток конфиденциальности в Azure Purview (предварительная версия) см. в статье [Автоматическое применение меток к содержимому в Azure Purview](/azure/purview/create-sensitivity-label).
 
 При создании метки конфиденциальности можно автоматически назначать эту метку файлам и сообщениям электронной почты при выполнении указанных вами условий.
 
@@ -64,7 +64,7 @@ ms.locfileid: "50461894"
     - Не более 25 000 файлов с автоматически примененными метками в клиенте за день.
     - Максимум 10 политик автоматического применения меток на клиент, каждая из которых предназначена не более чем для 10 сайтов (SharePoint или OneDrive).
     - Существующие значения для параметров "Изменено", "Автор изменения" и "Дата" не изменяются при использовании политик автоматического применения меток — как в режиме имитации, так и при применении меток.
-    - Когда метка применяет шифрование, [издателем и владельцем в службе управления правами](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) является учетная запись, изменившая файл последней.
+    - Когда метка применяет шифрование, [издателем и владельцем в службе управления правами](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) является учетная запись, изменившая файл последней.
 
     Особенности автоматического применения меток для Exchange:
     - В отличие от применения меток вручную или автоматически в приложениях Office, вложения Office (файлы Word, Excel и PowerPoint) и вложения PDF также проверяются на соответствие условиям, указанным в политике автоматического применения меток. Если условие выполняется, метка применяется к сообщению, но не к вложению.
@@ -72,7 +72,7 @@ ms.locfileid: "50461894"
     - Если используются правила потоков обработки почты в Exchange или защиты от потери данных (DLP), применяющие шифрование IRM: когда содержимое идентифицируется этими правилами или политиками и политикой автоматического применения меток, применяется метка. Если метка применяет шифрование, то параметры IRM для правил потоков обработки почты в Exchange или политик DLP игнорируются. Тем не менее, если метка не применяет шифрование, то параметры IRM для правил потоков обработки почты или политик DLP применяются в дополнение к метке.
     - Сообщение электронной почты с шифрованием IRM без метки будет заменено меткой с любыми параметрами шифрования, если при автоматическом применении меток есть совпадение.
     - Метки применяются к входящей электронной почте, если обнаружено совпадение с условиями применения меток. Тем не менее, если метка настроена для шифрования, то шифрование не применяется.
-    - Когда метка применяет шифрование, [издателем и владельцем в службе управления правами](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) является лицо, отправляющее сообщение электронной почты.
+    - Когда метка применяет шифрование, [издателем и владельцем в службе управления правами](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) является лицо, отправляющее сообщение электронной почты.
     
 
 ## <a name="compare-auto-labeling-for-office-apps-with-auto-labeling-policies"></a>Сравнение автоматического применения меток для приложений Office с помощью политик
@@ -151,7 +151,7 @@ ms.locfileid: "50461894"
 
 В течение периода использования предварительной версии указанные ниже приложения поддерживают обучаемые классификаторы для меток конфиденциальности.
 
-- Приложения Microsoft 365 для предприятий ([ранее — Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/name-change)) для Windows, которые сейчас развертываются в [Актуальном канале](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) версии 2006 и более поздних:
+- Приложения Microsoft 365 для предприятий ([ранее — Office 365 профессиональный плюс](/deployoffice/name-change)) для Windows, которые сейчас развертываются в [Актуальном канале](/deployoffice/overview-update-channels#current-channel-overview) версии 2006 и более поздних:
     - Word
     - Excel
     - PowerPoint
@@ -192,7 +192,7 @@ ms.locfileid: "50461894"
 
 -  Автоматическая и рекомендуемая маркировка применяется к Word, Excel и PowerPoint при сохранении документа и к Outlook при отправке электронной почты.
 
-- Чтобы Outlook поддерживал рекомендуемую маркировку, сначала необходимо настроить [расширенный параметр политики](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#enable-recommended-classification-in-outlook).
+- Чтобы Outlook поддерживал рекомендуемую маркировку, сначала необходимо настроить [расширенный параметр политики](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#enable-recommended-classification-in-outlook).
 
 - Конфиденциальная информация может быть обнаружена в основном тексте документов и электронных писем, а также в верхних и нижних колонтитулах, но не в строке темы или вложениях электронной почты.
 
@@ -272,7 +272,7 @@ ms.locfileid: "50461894"
     
     Например, для пользователя в клиенте Contoso с именем пользователя "rsimone": `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
     
-    Чтобы проверить синтаксис для клиента и определить URL-адреса для пользователей, ознакомьтесь со статьей [Получение списка всех пользовательских URL-адресов OneDrive в организации](https://docs.microsoft.com/onedrive/list-onedrive-urls).
+    Чтобы проверить синтаксис для клиента и определить URL-адреса для пользователей, ознакомьтесь со статьей [Получение списка всех пользовательских URL-адресов OneDrive в организации](/onedrive/list-onedrive-urls).
 
 7. На странице **Настройка общих или расширенных правил**: оставьте значение по умолчанию **Общие правила**, чтобы определить правила идентификации содержимого для применения меток во всех выбранных расположениях. Если для каждого расположения нужны разные правила, выберите **Расширенные правила**. Нажмите кнопку **Далее**.
     
@@ -326,9 +326,9 @@ ms.locfileid: "50461894"
 
 ### <a name="use-powershell-for-auto-labeling-policies"></a>Использование PowerShell для политик автоматического применения меток
 
-Для создания и настройки политик автоматического применения меток вы можете использовать [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/scc-powershell). Это означает, что можно использовать полноценный сценарий создания и обслуживания политик автоматического применения меток, который также предоставляет более эффективный метод указания нескольких URL-адресов для расположений OneDrive и SharePoint.
+Для создания и настройки политик автоматического применения меток вы можете использовать [PowerShell в Центре безопасности и соответствия требованиям](/powershell/exchange/scc-powershell). Это означает, что можно использовать полноценный сценарий создания и обслуживания политик автоматического применения меток, который также предоставляет более эффективный метод указания нескольких URL-адресов для расположений OneDrive и SharePoint.
 
-Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell).
 
 Создание политики автоматического применения меток: 
 
@@ -356,10 +356,10 @@ New-AutoSensitivityLabelRule -Policy <AutoLabelingPolicyName> -Name <AutoLabelin
 
 Дополнительные сведения о командлетах PowerShell, поддерживающих политики автоматического применения меток, их доступные параметры и некоторые примеры, см. в справке по следующим командлетам:
 
-- [Get-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/get-autosensitivitylabelpolicy)
-- [New-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelpolicy)
-- [New-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelrule)
-- [Remove-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelpolicy)
-- [Remove-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelrule)
-- [Set-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelpolicy)
-- [Set-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelrule)
+- [Get-AutoSensitivityLabelPolicy](/powershell/module/exchange/get-autosensitivitylabelpolicy)
+- [New-AutoSensitivityLabelPolicy](/powershell/module/exchange/new-autosensitivitylabelpolicy)
+- [New-AutoSensitivityLabelRule](/powershell/module/exchange/new-autosensitivitylabelrule)
+- [Remove-AutoSensitivityLabelPolicy](/powershell/module/exchange/remove-autosensitivitylabelpolicy)
+- [Remove-AutoSensitivityLabelRule](/powershell/module/exchange/remove-autosensitivitylabelrule)
+- [Set-AutoSensitivityLabelPolicy](/powershell/module/exchange/set-autosensitivitylabelpolicy)
+- [Set-AutoSensitivityLabelRule](/powershell/module/exchange/set-autosensitivitylabelrule)

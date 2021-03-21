@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Как в организации, выполняющей развертывание нового выпуска, используют каналы для приложений Windows 10 и Microsoft 365.
-ms.openlocfilehash: fd1d8ddd342b2781470378c879ef70d2ba304316
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 29bda1651a83f0e043cf8a0d2a102c6c2e461bfd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686170"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919078"
 ---
 # <a name="example-of-broad-deployment-for-the-latest-releases"></a>Пример широкого развертывания для новых выпусков
 
@@ -61,7 +61,7 @@ ms.locfileid: "46686170"
 
 Общая цель — выполнение широкого развертывания нового выпуска Semi-Annual Channel после проверки изменений, вошедших в предварительную версию Release Preview Channel, группой репрезентативных пользователей на их устройствах.
 
-Дополнительные сведения о методах и стратегиях развертывания Windows 10 см. в [этой статье](https://docs.microsoft.com/windows/deployment/).
+Дополнительные сведения о методах и стратегиях развертывания Windows 10 см. в [этой статье](/windows/deployment/).
 
 | Этап | Канал | Группа развертывания |
 |:-------|:-------|:-----|
@@ -85,7 +85,7 @@ ms.locfileid: "46686170"
 
 Общей целью является широкое развертывания нового выпуска Актуального канала после проверки изменений, внесенных в предварительную версию, группой репрезентативных пользователей.
 
-Дополнительные сведения о методах и стратегиях развертывания Приложений Microsoft 365 см. в [этой статье](https://docs.microsoft.com/deployoffice/plan-office-365-proplus).
+Дополнительные сведения о методах и стратегиях развертывания Приложений Microsoft 365 см. в [этой статье](/deployoffice/plan-office-365-proplus).
 
 | Этап | Канал | Группа развертывания |
 |:-------|:-------|:-----|
