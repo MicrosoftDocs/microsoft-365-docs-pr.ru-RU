@@ -19,33 +19,33 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
-description: Узнайте, как просматривать, перечислять и отображать учетные записи пользователей Microsoft 365 различными способами с помощью PowerShell.
-ms.openlocfilehash: 312e9fb983c4d1f4de8bc74586c88f1e669eb90a
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+description: Узнайте, как просматривать, перечислять или отображать учетные записи пользователей Microsoft 365 различными способами с помощью PowerShell.
+ms.openlocfilehash: de91195afeb8480bf231d9536e4b3a94502a6da1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754076"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924652"
 ---
-# <a name="view-microsoft-365-user-accounts-with-powershell"></a><span data-ttu-id="7bbfe-103">Просмотр учетных записей пользователей Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="7bbfe-103">View Microsoft 365 user accounts with PowerShell</span></span>
+# <a name="view-microsoft-365-user-accounts-with-powershell"></a><span data-ttu-id="02c58-103">Просмотр учетных записей пользователей Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="02c58-103">View Microsoft 365 user accounts with PowerShell</span></span>
 
-<span data-ttu-id="7bbfe-104">*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="7bbfe-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="02c58-104">*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="02c58-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="7bbfe-105">Для просмотра учетных записей клиента Microsoft 365 можно использовать Центр администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-105">You can use the Microsoft 365 admin center to view the accounts for your Microsoft 365 tenant.</span></span> <span data-ttu-id="7bbfe-106">PowerShell для Microsoft 365 обеспечивает эту возможность, но также предоставляет дополнительные функции.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-106">PowerShell for Microsoft 365 enables this but also provides additional functionality.</span></span>
+<span data-ttu-id="02c58-105">Вы можете использовать центр администрирования Microsoft 365 для просмотра учетных записей клиента Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="02c58-105">You can use the Microsoft 365 admin center to view the accounts for your Microsoft 365 tenant.</span></span> <span data-ttu-id="02c58-106">PowerShell для Microsoft 365 включает это, но также предоставляет дополнительные функции.</span><span class="sxs-lookup"><span data-stu-id="02c58-106">PowerShell for Microsoft 365 enables this but also provides additional functionality.</span></span>
   
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="7bbfe-107">Использование модуля PowerShell Azure Active Directory для Graph</span><span class="sxs-lookup"><span data-stu-id="7bbfe-107">Use the Azure Active Directory PowerShell for Graph module</span></span>
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="02c58-107">Использование модуля PowerShell Azure Active Directory для Graph</span><span class="sxs-lookup"><span data-stu-id="02c58-107">Use the Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="7bbfe-108">Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)</span><span class="sxs-lookup"><span data-stu-id="7bbfe-108">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
+<span data-ttu-id="02c58-108">[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)</span><span class="sxs-lookup"><span data-stu-id="02c58-108">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
   
-### <a name="view-all-accounts"></a><span data-ttu-id="7bbfe-109">Просмотр всех учетных записей</span><span class="sxs-lookup"><span data-stu-id="7bbfe-109">View all accounts</span></span>
+### <a name="view-all-accounts"></a><span data-ttu-id="02c58-109">Просмотр всех учетных записей</span><span class="sxs-lookup"><span data-stu-id="02c58-109">View all accounts</span></span>
 
-<span data-ttu-id="7bbfe-110">Чтобы отобразить полный список учетных записей пользователей, запустите команду:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-110">To display the full list of user accounts, run this command:</span></span>
+<span data-ttu-id="02c58-110">Чтобы отобразить полный список учетных записей пользователей, запустите эту команду:</span><span class="sxs-lookup"><span data-stu-id="02c58-110">To display the full list of user accounts, run this command:</span></span>
   
 ```powershell
 Get-AzureADUser
 ```
 
-<span data-ttu-id="7bbfe-111">Вы должны получить сведения, похожие на эти:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-111">You should get information similar to this:</span></span>
+<span data-ttu-id="02c58-111">Вы должны получать сведения, аналогичные этому:</span><span class="sxs-lookup"><span data-stu-id="02c58-111">You should get information similar to this:</span></span>
   
 ```powershell
 ObjectId                             DisplayName                                           UserPrincipalName
@@ -58,116 +58,116 @@ be4bdddd-c790-424c-9f96-a0cf609b7815 Allan Deyoung                              
 40722671-e520-4a5f-97d4-0bc9e9b2dc0f Debra Berger                                          DebraB@litwareinc.OnMicr...
 ```
 
-### <a name="view-a-specific-account"></a><span data-ttu-id="7bbfe-112">Просмотр определенной учетной записи</span><span class="sxs-lookup"><span data-stu-id="7bbfe-112">View a specific account</span></span>
+### <a name="view-a-specific-account"></a><span data-ttu-id="02c58-112">Просмотр определенной учетной записи</span><span class="sxs-lookup"><span data-stu-id="02c58-112">View a specific account</span></span>
 
-<span data-ttu-id="7bbfe-113">Чтобы отобразить определенную учетную запись пользователя, запустите следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-113">To display a specific user account, run the following command.</span></span> <span data-ttu-id="7bbfe-114">Уполномочете имя учетной записи для регистрации, которое также называется именем основного пользователя (UPN).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-114">Fill in the sign-in account name of the user account, which is also known as the user principal name (UPN).</span></span> <span data-ttu-id="7bbfe-115">Удалите символы "<" и ">".</span><span class="sxs-lookup"><span data-stu-id="7bbfe-115">Remove the "<" and ">" characters.</span></span>
+<span data-ttu-id="02c58-113">Чтобы отобразить определенную учетную запись пользователя, запустите следующую команду.</span><span class="sxs-lookup"><span data-stu-id="02c58-113">To display a specific user account, run the following command.</span></span> <span data-ttu-id="02c58-114">Заполните имя учетной записи пользователя, которая также называется главным именем пользователя (UPN).</span><span class="sxs-lookup"><span data-stu-id="02c58-114">Fill in the sign-in account name of the user account, which is also known as the user principal name (UPN).</span></span> <span data-ttu-id="02c58-115">Удалите символы "<" и ">".</span><span class="sxs-lookup"><span data-stu-id="02c58-115">Remove the "<" and ">" characters.</span></span>
   
 ```powershell
 Get-AzureADUser -ObjectID <sign-in name of the user account>
 ```
 
-<span data-ttu-id="7bbfe-116">Пример:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-116">Here's an example:</span></span>
+<span data-ttu-id="02c58-116">Пример:</span><span class="sxs-lookup"><span data-stu-id="02c58-116">Here's an example:</span></span>
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com
 ```
 
-### <a name="view-additional-property-values-for-a-specific-account"></a><span data-ttu-id="7bbfe-117">Просмотр дополнительных значений свойств для определенной учетной записи</span><span class="sxs-lookup"><span data-stu-id="7bbfe-117">View additional property values for a specific account</span></span>
+### <a name="view-additional-property-values-for-a-specific-account"></a><span data-ttu-id="02c58-117">Просмотр дополнительных значений свойств для определенной учетной записи</span><span class="sxs-lookup"><span data-stu-id="02c58-117">View additional property values for a specific account</span></span>
 
-<span data-ttu-id="7bbfe-118">По умолчанию для отображения свойств ObjectID, *DisplayName* и UserPrincipalName учетных записей в **get-AzureADUser** отображаются только свойства *ObjectID,* *DisplayName и UserPrincipalName.*</span><span class="sxs-lookup"><span data-stu-id="7bbfe-118">By default, the **Get-AzureADUser** cmdlet only displays the *ObjectID*, *DisplayName*, and *UserPrincipalName* properties of accounts.</span></span>
+<span data-ttu-id="02c58-118">По умолчанию в **кодлете Get-AzureADUser** отображаются только свойства учетных записей *ObjectID,* *DisplayName* и *UserPrincipalName.*</span><span class="sxs-lookup"><span data-stu-id="02c58-118">By default, the **Get-AzureADUser** cmdlet only displays the *ObjectID*, *DisplayName*, and *UserPrincipalName* properties of accounts.</span></span>
 
-<span data-ttu-id="7bbfe-119">Чтобы более выборочно отобразить  свойства, используйте его в сочетании с **get-AzureADUser.**</span><span class="sxs-lookup"><span data-stu-id="7bbfe-119">To be more selective about the properties to display, use the **Select** cmdlet in combination with the **Get-AzureADUser** cmdlet.</span></span> <span data-ttu-id="7bbfe-120">Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает Azure Active Directory PowerShell для Graph о том, что необходимо получить результаты одной команды и отправить их в следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-120">To combine the two cmdlets, use the "pipe" character ("|"), which tells Azure Active Directory PowerShell for Graph to take the results of one command and send it to the next command.</span></span> <span data-ttu-id="7bbfe-121">Вот пример команды, которая отображает *displayName,* *Department* и *UsageLocation* для каждой учетной записи пользователя:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-121">Here's an example command that displays the *DisplayName*, *Department*, and *UsageLocation* for every user account:</span></span>
+<span data-ttu-id="02c58-119">Чтобы быть более выборочными в отображаемом свойстве, используйте комлет **Select** в сочетании с комдлетом **Get-AzureADUser.**</span><span class="sxs-lookup"><span data-stu-id="02c58-119">To be more selective about the properties to display, use the **Select** cmdlet in combination with the **Get-AzureADUser** cmdlet.</span></span> <span data-ttu-id="02c58-120">Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает Azure Active Directory PowerShell для Graph, чтобы получить результаты одной команды и отправить ее в следующую команду.</span><span class="sxs-lookup"><span data-stu-id="02c58-120">To combine the two cmdlets, use the "pipe" character ("|"), which tells Azure Active Directory PowerShell for Graph to take the results of one command and send it to the next command.</span></span> <span data-ttu-id="02c58-121">Вот пример команды, которая отображает *DisplayName,* *Department* и *UseLocation* для каждой учетной записи пользователя:</span><span class="sxs-lookup"><span data-stu-id="02c58-121">Here's an example command that displays the *DisplayName*, *Department*, and *UsageLocation* for every user account:</span></span>
   
 ```powershell
 Get-AzureADUser | Select DisplayName,Department,UsageLocation
 ```
 
-<span data-ttu-id="7bbfe-122">Эта команда предписывает PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-122">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="02c58-122">Эта команда предписывает PowerShell:</span><span class="sxs-lookup"><span data-stu-id="02c58-122">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="7bbfe-123">Получите все сведения об учетных записях пользователей **(Get-AzureADUser)** и отправьте их в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-123">Get all the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="02c58-123">Получите всю информацию о учетных записях пользователей **(Get-AzureADUser)** и отправьте ее в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="02c58-123">Get all the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).</span></span>
     
-1.  <span data-ttu-id="7bbfe-124">Отображает только имя учетной записи пользователя, отдел и расположение использования (**Select DisplayName, Department, UsageLocation).**</span><span class="sxs-lookup"><span data-stu-id="7bbfe-124">Display only the user account name, department, and usage location (**Select DisplayName, Department, UsageLocation**).</span></span>
+1.  <span data-ttu-id="02c58-124">Отображение только имени учетной записи пользователя, расположения отдела и использования **(Выберите DisplayName, Department, UseLocation).**</span><span class="sxs-lookup"><span data-stu-id="02c58-124">Display only the user account name, department, and usage location (**Select DisplayName, Department, UsageLocation**).</span></span>
   
-<span data-ttu-id="7bbfe-125">Чтобы увидеть все свойства для определенной учетной записи пользователя, используйте с помощью cmdlet **Select** и поддиакалон (\*).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-125">To see all the properties for a specific user account, use the **Select** cmdlet and the wildcard character (\*).</span></span> <span data-ttu-id="7bbfe-126">Пример:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-126">Here's an example:</span></span>
+<span data-ttu-id="02c58-125">Чтобы увидеть все свойства для определенной учетной записи пользователя, используйте **кодлет Select** и символ под диктовки (\*).</span><span class="sxs-lookup"><span data-stu-id="02c58-125">To see all the properties for a specific user account, use the **Select** cmdlet and the wildcard character (\*).</span></span> <span data-ttu-id="02c58-126">Пример:</span><span class="sxs-lookup"><span data-stu-id="02c58-126">Here's an example:</span></span>
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
 ```
 
-<span data-ttu-id="7bbfe-127">В качестве другого примера запустите следующую команду, чтобы проверить состояние включения определенной учетной записи пользователя:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-127">As another example, run the following command to check the enabled status of a specific user account:</span></span>
+<span data-ttu-id="02c58-127">В другом примере запустите следующую команду, чтобы проверить состояние включенной учетной записи пользователя:</span><span class="sxs-lookup"><span data-stu-id="02c58-127">As another example, run the following command to check the enabled status of a specific user account:</span></span>
   
 ```powershell
 Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayName,UserPrincipalName,AccountEnabled
 ```
 
-### <a name="view-account-synchronization-status"></a><span data-ttu-id="7bbfe-128">Просмотр состояния синхронизации учетной записи</span><span class="sxs-lookup"><span data-stu-id="7bbfe-128">View account synchronization status</span></span>
+### <a name="view-account-synchronization-status"></a><span data-ttu-id="02c58-128">Просмотр состояния синхронизации учетных записей</span><span class="sxs-lookup"><span data-stu-id="02c58-128">View account synchronization status</span></span>
 
-<span data-ttu-id="7bbfe-129">Учетные записи пользователей имеют два источника:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-129">User accounts have two sources:</span></span> 
+<span data-ttu-id="02c58-129">Учетные записи пользователей имеют два источника:</span><span class="sxs-lookup"><span data-stu-id="02c58-129">User accounts have two sources:</span></span> 
 
-- <span data-ttu-id="7bbfe-130">Windows Server Active Directory (AD) — это учетные записи, которые синхронизируются с облаком из локальной службы AD.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-130">Windows Server Active Directory (AD), which are accounts that sync from on-premises AD to the cloud.</span></span>
+- <span data-ttu-id="02c58-130">Windows Server Active Directory (AD), это учетные записи, синхронизируются с локальной AD в облако.</span><span class="sxs-lookup"><span data-stu-id="02c58-130">Windows Server Active Directory (AD), which are accounts that sync from on-premises AD to the cloud.</span></span>
 
-- <span data-ttu-id="7bbfe-131">Учетные записи Azure Active Directory (Azure AD) AD, которые создаются непосредственно в облаке.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-131">Azure Active Directory (Azure AD) AD accounts, which are created directly in the cloud.</span></span>
+- <span data-ttu-id="02c58-131">Учетные записи Azure Active Directory (Azure AD), созданные непосредственно в облаке.</span><span class="sxs-lookup"><span data-stu-id="02c58-131">Azure Active Directory (Azure AD) AD accounts, which are created directly in the cloud.</span></span>
 
 
-<span data-ttu-id="7bbfe-132">Следующая команда предписывает PowerShell получить всех пользователей, для которых для атрибута *DirSyncEnabled* задано *true.*</span><span class="sxs-lookup"><span data-stu-id="7bbfe-132">The following command instructs PowerShell to get all users who have the attribute *DirSyncEnabled* set to *True*.</span></span> <span data-ttu-id="7bbfe-133">Его можно использовать для поиска учетных записей, которые синхронизируются из локальной AD.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-133">You can use it to find accounts that are synchronizing from on-premise AD.</span></span>
+<span data-ttu-id="02c58-132">Следующая команда предписывает PowerShell получить всех пользователей с атрибутом *DirSyncEnabled* для *True*.</span><span class="sxs-lookup"><span data-stu-id="02c58-132">The following command instructs PowerShell to get all users who have the attribute *DirSyncEnabled* set to *True*.</span></span> <span data-ttu-id="02c58-133">Его можно использовать для поиска учетных записей, синхронизируются с локальной AD.</span><span class="sxs-lookup"><span data-stu-id="02c58-133">You can use it to find accounts that are synchronizing from on-premise AD.</span></span>
 
 ```powershell
 Get-AzureADUser | Where {$_.DirSyncEnabled -eq $true}
 ```
 
-<span data-ttu-id="7bbfe-134">Следующая команда предписывает PowerShell получить всех пользователей, для которых для атрибута *DirSyncEnabled* задано *false.*</span><span class="sxs-lookup"><span data-stu-id="7bbfe-134">The following command instructs PowerShell to get all users who have the attribute *DirSyncEnabled* set to *False*.</span></span> <span data-ttu-id="7bbfe-135">Его можно использовать для поиска облачных учетных записей.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-135">You can use it to find cloud-only accounts.</span></span>
+<span data-ttu-id="02c58-134">Следующая команда предписывает PowerShell получить всех пользователей, у которых есть набор *атрибута DirSyncEnabled* к *False*.</span><span class="sxs-lookup"><span data-stu-id="02c58-134">The following command instructs PowerShell to get all users who have the attribute *DirSyncEnabled* set to *False*.</span></span> <span data-ttu-id="02c58-135">Его можно использовать для поиска учетных записей только для облачных вычислений.</span><span class="sxs-lookup"><span data-stu-id="02c58-135">You can use it to find cloud-only accounts.</span></span>
 
 ```powershell
 Get-AzureADUser | Where {$_.DirSyncEnabled -ne $false}
 ```
 
-### <a name="view-accounts-based-on-a-common-property"></a><span data-ttu-id="7bbfe-136">Просмотр учетных записей на основе общего свойства</span><span class="sxs-lookup"><span data-stu-id="7bbfe-136">View accounts based on a common property</span></span>
+### <a name="view-accounts-based-on-a-common-property"></a><span data-ttu-id="02c58-136">Просмотр учетных записей на основе общего свойства</span><span class="sxs-lookup"><span data-stu-id="02c58-136">View accounts based on a common property</span></span>
 
-<span data-ttu-id="7bbfe-137">Чтобы более выборочно отобразить список отображаемой учетной записи, можно использовать в сочетании с этим с помощью cmdlet **Get-AzureADUser.** </span><span class="sxs-lookup"><span data-stu-id="7bbfe-137">To be more selective about the list of accounts to display, you can use the **Where** cmdlet in combination with the **Get-AzureADUser** cmdlet.</span></span> <span data-ttu-id="7bbfe-138">Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает Azure Active Directory PowerShell для Graph о том, что необходимо получить результаты одной команды и отправить их в следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-138">To combine the two cmdlets, use the "pipe" character ("|"), which tells Azure Active Directory PowerShell for Graph to take the results of one command and send it to the next command.</span></span> <span data-ttu-id="7bbfe-139">Ниже показан пример команды, которая отображает только те учетные записи пользователей, которые имеют неустановленное расположение использования:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-139">Here's an example command that displays only those user accounts that have an unspecified usage location:</span></span>
+<span data-ttu-id="02c58-137">Чтобы быть более выборочным в списке отображаемой учетной записи, вы можете использовать комлет **Where** в сочетании с комдлетом **Get-AzureADUser.**</span><span class="sxs-lookup"><span data-stu-id="02c58-137">To be more selective about the list of accounts to display, you can use the **Where** cmdlet in combination with the **Get-AzureADUser** cmdlet.</span></span> <span data-ttu-id="02c58-138">Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает Azure Active Directory PowerShell для Graph, чтобы получить результаты одной команды и отправить ее в следующую команду.</span><span class="sxs-lookup"><span data-stu-id="02c58-138">To combine the two cmdlets, use the "pipe" character ("|"), which tells Azure Active Directory PowerShell for Graph to take the results of one command and send it to the next command.</span></span> <span data-ttu-id="02c58-139">Вот пример команды, которая отображает только те учетные записи пользователей, которые имеют неустановленное расположение использования:</span><span class="sxs-lookup"><span data-stu-id="02c58-139">Here's an example command that displays only those user accounts that have an unspecified usage location:</span></span>
   
 ```powershell
 Get-AzureADUser | Where {$_.UsageLocation -eq $Null}
 ```
 
-<span data-ttu-id="7bbfe-140">Эта команда дает указание Azure Active Directory PowerShell для Graph:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-140">This command instructs Azure Active Directory PowerShell for Graph to:</span></span>
+<span data-ttu-id="02c58-140">Эта команда предписывает Azure Active Directory PowerShell для Graph:</span><span class="sxs-lookup"><span data-stu-id="02c58-140">This command instructs Azure Active Directory PowerShell for Graph to:</span></span>
   
-1. <span data-ttu-id="7bbfe-141">Получите все сведения об учетных записях пользователей **(Get-AzureADUser)** и отправьте их в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-141">Get all the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="02c58-141">Получите всю информацию о учетных записях пользователей **(Get-AzureADUser)** и отправьте ее в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="02c58-141">Get all the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="7bbfe-142">Найдите все учетные записи пользователей с неопределенным расположением использования **(где {$ \_ . UsageLocation -eq $Null}**).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-142">Find all the user accounts that have an unspecified usage location (**Where {$\_.UsageLocation -eq $Null}**).</span></span> <span data-ttu-id="7bbfe-143">Внутри скобок команда дает powerShell указание найти только набор учетных записей, для которых свойство usageLocation учетной записи пользователя (**$ \_ . UsageLocation**) не указан (**-eq $Null**).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-143">Inside the braces, the command instructs PowerShell to only find the set of accounts for which the UsageLocation user account property (**$\_.UsageLocation**) is not specified (**-eq $Null**).</span></span>
+1. <span data-ttu-id="02c58-142">Найдите все учетные записи пользователей с неустановленным расположением использования **(Where {$ \_ . UseLocation -eq $Null}**).</span><span class="sxs-lookup"><span data-stu-id="02c58-142">Find all the user accounts that have an unspecified usage location (**Where {$\_.UsageLocation -eq $Null}**).</span></span> <span data-ttu-id="02c58-143">В скобки команда предписывает PowerShell находить только набор учетных записей, для которых свойству учетной записи пользователя UseLocation (**$ \_ . UseLocation**) не указывается **(-eq $Null).**</span><span class="sxs-lookup"><span data-stu-id="02c58-143">Inside the braces, the command instructs PowerShell to only find the set of accounts for which the UsageLocation user account property (**$\_.UsageLocation**) is not specified (**-eq $Null**).</span></span>
     
-<span data-ttu-id="7bbfe-144">**UsageLocation** — лишь одно из многих свойств, связанных с учетной записью пользователя.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-144">The **UsageLocation** property is only one of many properties associated with a user account.</span></span> <span data-ttu-id="7bbfe-145">Чтобы отобразить все свойства для определенной учетной записи пользователя, используйте с поддиамлетом **Select** и поддиансового знака (\*).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-145">To display all the properties for a specific user account, use the **Select** cmdlet and the wildcard character (\*).</span></span> <span data-ttu-id="7bbfe-146">Пример:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-146">Here's an example:</span></span>
+<span data-ttu-id="02c58-144">**UsageLocation** — лишь одно из многих свойств, связанных с учетной записью пользователя.</span><span class="sxs-lookup"><span data-stu-id="02c58-144">The **UsageLocation** property is only one of many properties associated with a user account.</span></span> <span data-ttu-id="02c58-145">Чтобы отобразить все свойства для определенной учетной записи пользователя, используйте символ **Select** и символ под диктовки (\*).</span><span class="sxs-lookup"><span data-stu-id="02c58-145">To display all the properties for a specific user account, use the **Select** cmdlet and the wildcard character (\*).</span></span> <span data-ttu-id="02c58-146">Пример:</span><span class="sxs-lookup"><span data-stu-id="02c58-146">Here's an example:</span></span>
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
 ```
 
-<span data-ttu-id="7bbfe-147">Например, **City** — это имя свойства учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-147">For example, **City** is the name of a user account property.</span></span> <span data-ttu-id="7bbfe-148">Чтобы получить список всех учетных записей пользователей в Лондоне, можно использовать следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-148">You can use the following command to list all accounts of users who live in London:</span></span>
+<span data-ttu-id="02c58-147">Например, **City** — это имя свойства учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="02c58-147">For example, **City** is the name of a user account property.</span></span> <span data-ttu-id="02c58-148">Вы можете использовать следующую команду, чтобы перечислить все учетные записи пользователей, которые живут в Лондоне:</span><span class="sxs-lookup"><span data-stu-id="02c58-148">You can use the following command to list all accounts of users who live in London:</span></span>
   
 ```powershell
 Get-AzureADUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  <span data-ttu-id="7bbfe-149">Синтаксис для cmdlet **Where** в этих примерах : **Where {$ \_ .**</span><span class="sxs-lookup"><span data-stu-id="7bbfe-149">The syntax for the **Where** cmdlet in these examples is **Where {$\_.**</span></span> <span data-ttu-id="7bbfe-150">[имя свойства учетной записи пользователя] [оператор сравнения] [value] **}**.> [оператор сравнения] — **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-150">[user account property name] [comparison operator] [value] **}**.> [comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others.</span></span>  <span data-ttu-id="7bbfe-151">[value] — это, как правило, строка (последовательность букв, чисел и других символов), числовые значения **или** $Null для неопределенных значений.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-151">[value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified.</span></span> <span data-ttu-id="7bbfe-152">Дополнительные сведения см. в [этой теме.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)</span><span class="sxs-lookup"><span data-stu-id="7bbfe-152">For more information, see [Where](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/where-object?view=powershell-7).</span></span>
+>  <span data-ttu-id="02c58-149">Синтаксис для cmdlet **Where** в этих примерах — **Where {$ \_ .**</span><span class="sxs-lookup"><span data-stu-id="02c58-149">The syntax for the **Where** cmdlet in these examples is **Where {$\_.**</span></span> <span data-ttu-id="02c58-150">[имя свойства учетной записи пользователя] [оператор сравнения] [значение] **}**.> [оператор сравнения] — **это -eq** для равных, **-ne** для не равного, **-lt** для меньшего, **-gt** для большей, чем и другие.</span><span class="sxs-lookup"><span data-stu-id="02c58-150">[user account property name] [comparison operator] [value] **}**.> [comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others.</span></span>  <span data-ttu-id="02c58-151">[значение], как правило, строка (последовательность букв, чисел и других  символов), числовые значения или $Null для неустановленного.</span><span class="sxs-lookup"><span data-stu-id="02c58-151">[value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified.</span></span> <span data-ttu-id="02c58-152">Дополнительные сведения см. в [дополнительных сведениях.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)</span><span class="sxs-lookup"><span data-stu-id="02c58-152">For more information, see [Where](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7).</span></span>
   
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="7bbfe-153">Использование модуля Microsoft Azure Active Directory для Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="7bbfe-153">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="02c58-153">Использование модуля Microsoft Azure Active Directory для Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="02c58-153">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
 
-<span data-ttu-id="7bbfe-154">Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)</span><span class="sxs-lookup"><span data-stu-id="7bbfe-154">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+<span data-ttu-id="02c58-154">[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)</span><span class="sxs-lookup"><span data-stu-id="02c58-154">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
 
-### <a name="view-all-accounts"></a><span data-ttu-id="7bbfe-155">Просмотр всех учетных записей</span><span class="sxs-lookup"><span data-stu-id="7bbfe-155">View all accounts</span></span>
+### <a name="view-all-accounts"></a><span data-ttu-id="02c58-155">Просмотр всех учетных записей</span><span class="sxs-lookup"><span data-stu-id="02c58-155">View all accounts</span></span>
 
-<span data-ttu-id="7bbfe-156">Чтобы отобразить полный список учетных записей пользователей, запустите команду:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-156">To display the full list of user accounts, run this command:</span></span>
+<span data-ttu-id="02c58-156">Чтобы отобразить полный список учетных записей пользователей, запустите эту команду:</span><span class="sxs-lookup"><span data-stu-id="02c58-156">To display the full list of user accounts, run this command:</span></span>
   
 ```powershell
 Get-MsolUser
 ```
 
 >[!Note]
-><span data-ttu-id="7bbfe-157">В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты, имена которых содержат *Msol*.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-157">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="7bbfe-158">Эти командлеты требуется запускать из Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-158">Run these cmdlets from Windows PowerShell.</span></span>
+><span data-ttu-id="02c58-157">В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты, имена которых содержат *Msol*.</span><span class="sxs-lookup"><span data-stu-id="02c58-157">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="02c58-158">Эти командлеты требуется запускать из Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="02c58-158">Run these cmdlets from Windows PowerShell.</span></span>
 >
 
-<span data-ttu-id="7bbfe-159">Вы должны получить сведения, похожие на эти:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-159">You should get information similar to this:</span></span>
+<span data-ttu-id="02c58-159">Вы должны получать сведения, аналогичные этому:</span><span class="sxs-lookup"><span data-stu-id="02c58-159">You should get information similar to this:</span></span>
   
 ```powershell
 UserPrincipalName                     DisplayName           isLicensed
@@ -179,13 +179,13 @@ AnneWlitwareinc.onmicrosoft.com       Anne Wallace          True
 ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 ```
 
-<span data-ttu-id="7bbfe-160">У командлета **Get-MsolUser** также есть ряд параметров для фильтрации отображаемых учетных данных.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-160">The **Get-MsolUser** cmdlet also has a set of parameters to filter the set of user accounts displayed.</span></span> <span data-ttu-id="7bbfe-161">Например, чтобы получить список пользователей без лицензий (пользователей, которые были добавлены в Microsoft 365, но еще не имеют лицензии на использование какой-либо из служб), запустите команду:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-161">For example, for the list of unlicensed users (users who have been added to Microsoft 365 but haven't yet been licensed to use any of the services), run this command:</span></span>
+<span data-ttu-id="02c58-160">У командлета **Get-MsolUser** также есть ряд параметров для фильтрации отображаемых учетных данных.</span><span class="sxs-lookup"><span data-stu-id="02c58-160">The **Get-MsolUser** cmdlet also has a set of parameters to filter the set of user accounts displayed.</span></span> <span data-ttu-id="02c58-161">Например, для списка нелицензионных пользователей (пользователей, которые были добавлены в Microsoft 365, но еще не были лицензированы на использование каких-либо служб), запустите эту команду:</span><span class="sxs-lookup"><span data-stu-id="02c58-161">For example, for the list of unlicensed users (users who have been added to Microsoft 365 but haven't yet been licensed to use any of the services), run this command:</span></span>
   
 ```powershell
 Get-MsolUser -UnlicensedUsersOnly
 ```
 
-<span data-ttu-id="7bbfe-162">Вы должны получить сведения, похожие на эти:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-162">You should get information similar to this:</span></span>
+<span data-ttu-id="02c58-162">Вы должны получать сведения, аналогичные этому:</span><span class="sxs-lookup"><span data-stu-id="02c58-162">You should get information similar to this:</span></span>
   
 ```powershell
 UserPrincipalName                     DisplayName           isLicensed
@@ -194,31 +194,31 @@ BrianJ@litwareinc.onmicrosoft.com     Brian Johnson         False
 ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 ```
 
-<span data-ttu-id="7bbfe-163">Дополнительные сведения о дополнительных параметрах для фильтрации отображаемого набора учетных записей пользователей см. в записи [Get-MsolUser.](https://docs.microsoft.com/previous-versions/azure/dn194133(v=azure.100))</span><span class="sxs-lookup"><span data-stu-id="7bbfe-163">For information about additional parameters to filter the set of user accounts that are displayed, see [Get-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194133(v=azure.100)).</span></span>
+<span data-ttu-id="02c58-163">Сведения о дополнительных параметрах для фильтрации отображаемого набора учетных записей пользователей см. в [get-MsolUser.](/previous-versions/azure/dn194133(v=azure.100))</span><span class="sxs-lookup"><span data-stu-id="02c58-163">For information about additional parameters to filter the set of user accounts that are displayed, see [Get-MsolUser](/previous-versions/azure/dn194133(v=azure.100)).</span></span>
   
-### <a name="view-a-specific-account"></a><span data-ttu-id="7bbfe-164">Просмотр определенной учетной записи</span><span class="sxs-lookup"><span data-stu-id="7bbfe-164">View a specific account</span></span>
+### <a name="view-a-specific-account"></a><span data-ttu-id="02c58-164">Просмотр определенной учетной записи</span><span class="sxs-lookup"><span data-stu-id="02c58-164">View a specific account</span></span>
 
-<span data-ttu-id="7bbfe-165">Чтобы отобразить определенную учетную запись пользователя, запустите следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-165">To display a specific user account, run the following command.</span></span> <span data-ttu-id="7bbfe-166">Впишите имя для регистрации учетной записи пользователя, которое также называется именем пользователя-пользователя (UPN).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-166">Fill in the sign-in name of the user account, which is also known as the user principal name (UPN).</span></span> <span data-ttu-id="7bbfe-167">Удалите символы "<" и ">".</span><span class="sxs-lookup"><span data-stu-id="7bbfe-167">Remove the "<" and ">" characters.</span></span>
+<span data-ttu-id="02c58-165">Чтобы отобразить определенную учетную запись пользователя, запустите следующую команду.</span><span class="sxs-lookup"><span data-stu-id="02c58-165">To display a specific user account, run the following command.</span></span> <span data-ttu-id="02c58-166">Заполните имя входной записи пользователя, которая также называется главным именем пользователя (UPN).</span><span class="sxs-lookup"><span data-stu-id="02c58-166">Fill in the sign-in name of the user account, which is also known as the user principal name (UPN).</span></span> <span data-ttu-id="02c58-167">Удалите символы "<" и ">".</span><span class="sxs-lookup"><span data-stu-id="02c58-167">Remove the "<" and ">" characters.</span></span>
   
 ```powershell
 Get-MsolUser -UserPrincipalName <sign-in name of the user account>
 ```
 
-### <a name="view-accounts-based-on-a-common-property"></a><span data-ttu-id="7bbfe-168">Просмотр учетных записей на основе общего свойства</span><span class="sxs-lookup"><span data-stu-id="7bbfe-168">View accounts based on a common property</span></span>
+### <a name="view-accounts-based-on-a-common-property"></a><span data-ttu-id="02c58-168">Просмотр учетных записей на основе общего свойства</span><span class="sxs-lookup"><span data-stu-id="02c58-168">View accounts based on a common property</span></span>
 
-<span data-ttu-id="7bbfe-169">Чтобы более выборочно отобразить список отображаемой учетной записи, можно использовать в сочетании с этим с помощью cmdlet **Get-MsolUser.** </span><span class="sxs-lookup"><span data-stu-id="7bbfe-169">To be more selective about the list of accounts to display, you can use the **Where** cmdlet in combination with the **Get-MsolUser** cmdlet.</span></span> <span data-ttu-id="7bbfe-170">Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает PowerShell о том, что необходимо получить результаты одной команды и отправить их в следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-170">To combine the two cmdlets, use the "pipe" character ("|"), which tells PowerShell to take the results of one command and send it to the next command.</span></span> <span data-ttu-id="7bbfe-171">Ниже показан пример, в который отображаются только учетные записи пользователей с неопределенным расположением использования.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-171">Here's an example that displays only those user accounts that have an unspecified usage location:</span></span>
+<span data-ttu-id="02c58-169">Чтобы быть более выборочным в списке отображаемой учетной записи, можно использовать cmdlet **Where** in combination with the **Get-MsolUser** cmdlet.</span><span class="sxs-lookup"><span data-stu-id="02c58-169">To be more selective about the list of accounts to display, you can use the **Where** cmdlet in combination with the **Get-MsolUser** cmdlet.</span></span> <span data-ttu-id="02c58-170">Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает PowerShell взять результаты одной команды и отправить ее в следующую команду.</span><span class="sxs-lookup"><span data-stu-id="02c58-170">To combine the two cmdlets, use the "pipe" character ("|"), which tells PowerShell to take the results of one command and send it to the next command.</span></span> <span data-ttu-id="02c58-171">Вот пример, в который отображаются только те учетные записи пользователей, которые имеют неустановленное расположение использования:</span><span class="sxs-lookup"><span data-stu-id="02c58-171">Here's an example that displays only those user accounts that have an unspecified usage location:</span></span>
   
 ```powershell
 Get-MsolUser | Where {$_.UsageLocation -eq $Null}
 ```
 
-<span data-ttu-id="7bbfe-172">Эта команда предписывает PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-172">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="02c58-172">Эта команда предписывает PowerShell:</span><span class="sxs-lookup"><span data-stu-id="02c58-172">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="7bbfe-173">Получите все сведения об учетных записях пользователей **(Get-MsolUser)** и отправьте их в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-173">Get all the information on the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="02c58-173">Получите всю информацию о учетных записях пользователей **(Get-MsolUser)** и отправьте ее в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="02c58-173">Get all the information on the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="7bbfe-174">Найдите все учетные записи пользователей с неопределенным расположением использования **(где {$ \_ . UsageLocation -eq $Null}**).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-174">Find all user accounts that have an unspecified usage location (**Where {$\_.UsageLocation -eq $Null}**).</span></span> <span data-ttu-id="7bbfe-175">Внутри скобок команда дает powerShell указание найти только набор учетных записей, для которых свойство usageLocation учетной записи пользователя (**$ \_ . UsageLocation**) не указан (**-eq $Null**).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-175">Inside the braces, the command instructs PowerShell to find only the set of accounts for which the UsageLocation user account property (**$\_.UsageLocation**) is not specified (**-eq $Null**).</span></span>
+1. <span data-ttu-id="02c58-174">Найдите все учетные записи пользователей с неустановленным расположением использования **(Where \_ {$. UseLocation -eq $Null}**).</span><span class="sxs-lookup"><span data-stu-id="02c58-174">Find all user accounts that have an unspecified usage location (**Where {$\_.UsageLocation -eq $Null}**).</span></span> <span data-ttu-id="02c58-175">В скобки команда предписывает PowerShell находить только набор учетных записей, для которых свойству учетной записи useLocation (**$ \_ . UseLocation**) не указывается **(-eq $Null).**</span><span class="sxs-lookup"><span data-stu-id="02c58-175">Inside the braces, the command instructs PowerShell to find only the set of accounts for which the UsageLocation user account property (**$\_.UsageLocation**) is not specified (**-eq $Null**).</span></span>
     
-<span data-ttu-id="7bbfe-176">Вы должны получить сведения, похожие на эти:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-176">You should get information similar to this:</span></span>
+<span data-ttu-id="02c58-176">Вы должны получать сведения, аналогичные этому:</span><span class="sxs-lookup"><span data-stu-id="02c58-176">You should get information similar to this:</span></span>
   
 ```powershell
 UserPrincipalName                     DisplayName           isLicensed
@@ -228,50 +228,50 @@ ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 
 ```
 
-<span data-ttu-id="7bbfe-177">*UsageLocation* — лишь одно из многих свойств, связанных с учетной записью пользователя.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-177">The *UsageLocation* property is only one of many properties associated with a user account.</span></span> <span data-ttu-id="7bbfe-178">Чтобы увидеть все свойства учетных записей пользователей, используйте для отображения всех свойств для определенной учетной записи пользователя с помощью cmdlet **Select** и под wildcard character (\*).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-178">To see all of the properties for user accounts, use the **Select** cmdlet and the wildcard character (\*) to display them all for a specific user account.</span></span> <span data-ttu-id="7bbfe-179">Пример:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-179">Here's an example:</span></span>
+<span data-ttu-id="02c58-177">*UsageLocation* — лишь одно из многих свойств, связанных с учетной записью пользователя.</span><span class="sxs-lookup"><span data-stu-id="02c58-177">The *UsageLocation* property is only one of many properties associated with a user account.</span></span> <span data-ttu-id="02c58-178">Чтобы увидеть все свойства учетных записей пользователей, используйте комлет **Select** и символ под диктовки (\*), чтобы отобразить их все для определенной учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="02c58-178">To see all of the properties for user accounts, use the **Select** cmdlet and the wildcard character (\*) to display them all for a specific user account.</span></span> <span data-ttu-id="02c58-179">Пример:</span><span class="sxs-lookup"><span data-stu-id="02c58-179">Here's an example:</span></span>
   
 ```powershell
 Get-MsolUser -UserPrincipalName BelindaN@litwareinc.onmicosoft.com | Select *
 ```
 
-<span data-ttu-id="7bbfe-180">Например, *City* — это имя свойства учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-180">For example, *City* is the name of a user account property.</span></span> <span data-ttu-id="7bbfe-181">Чтобы получить список всех учетных записей пользователей в Лондоне, можно использовать следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-181">You can use the following command to list all of the user accounts for users who live in London:</span></span>
+<span data-ttu-id="02c58-180">Например, *City* — это имя свойства учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="02c58-180">For example, *City* is the name of a user account property.</span></span> <span data-ttu-id="02c58-181">Вы можете использовать следующую команду, чтобы перечислить все учетные записи пользователей, которые живут в Лондоне:</span><span class="sxs-lookup"><span data-stu-id="02c58-181">You can use the following command to list all of the user accounts for users who live in London:</span></span>
   
 ```powershell
 Get-MsolUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  <span data-ttu-id="7bbfe-182">Синтаксис для cmdlet **Where** в этих примерах : **Where {$ \_ .**</span><span class="sxs-lookup"><span data-stu-id="7bbfe-182">The syntax for the **Where** cmdlet in these examples is **Where {$\_.**</span></span> <span data-ttu-id="7bbfe-183">[имя свойства учетной записи пользователя] [оператор сравнения] [value] **}**.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-183">[user account property name] [comparison operator] [value] **}**.</span></span>  <span data-ttu-id="7bbfe-184">[оператор сравнения] — **это -eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-184">[comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others.</span></span>  <span data-ttu-id="7bbfe-185">[value] — это, как правило, строка (последовательность букв, чисел и других символов), числовые значения **или** $Null для неопределенных значений.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-185">[value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified.</span></span> <span data-ttu-id="7bbfe-186">Дополнительные сведения см. в [этой теме.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)</span><span class="sxs-lookup"><span data-stu-id="7bbfe-186">For more information, see [Where](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/where-object?view=powershell-7).</span></span>
+>  <span data-ttu-id="02c58-182">Синтаксис для cmdlet **Where** в этих примерах — **Where {$ \_ .**</span><span class="sxs-lookup"><span data-stu-id="02c58-182">The syntax for the **Where** cmdlet in these examples is **Where {$\_.**</span></span> <span data-ttu-id="02c58-183">[имя свойства учетной записи пользователя] [оператор сравнения] [значение] **}**.</span><span class="sxs-lookup"><span data-stu-id="02c58-183">[user account property name] [comparison operator] [value] **}**.</span></span>  <span data-ttu-id="02c58-184">[оператор сравнения] **— eq** для равных, **-ne** для не равного, **-lt** для меньшего, **-gt** для большей, чем и другие.</span><span class="sxs-lookup"><span data-stu-id="02c58-184">[comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others.</span></span>  <span data-ttu-id="02c58-185">[значение], как правило, строка (последовательность букв, чисел и других  символов), числовые значения или $Null для неустановленного.</span><span class="sxs-lookup"><span data-stu-id="02c58-185">[value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified.</span></span> <span data-ttu-id="02c58-186">Дополнительные сведения см. в [дополнительных сведениях.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)</span><span class="sxs-lookup"><span data-stu-id="02c58-186">For more information, see [Where](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7).</span></span>
   
-<span data-ttu-id="7bbfe-187">Чтобы проверить состояние блокировки учетной записи пользователя, используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-187">To check the blocked status of a user account, use the following command:</span></span>
+<span data-ttu-id="02c58-187">Чтобы проверить заблокированный статус учетной записи пользователя, используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="02c58-187">To check the blocked status of a user account, use the following command:</span></span>
   
 ```powershell
 Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,BlockCredential
 ```
 
-### <a name="view-additional-property-values-for-accounts"></a><span data-ttu-id="7bbfe-188">Просмотр дополнительных значений свойств для учетных записей</span><span class="sxs-lookup"><span data-stu-id="7bbfe-188">View additional property values for accounts</span></span>
+### <a name="view-additional-property-values-for-accounts"></a><span data-ttu-id="02c58-188">Просмотр дополнительных значений свойств для учетных записей</span><span class="sxs-lookup"><span data-stu-id="02c58-188">View additional property values for accounts</span></span>
 
-<span data-ttu-id="7bbfe-189">По умолчанию в cmdlet **Get-MsolUser** отображаются три свойства учетных записей пользователей:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-189">By default, the **Get-MsolUser** cmdlet displays these three properties of user accounts:</span></span>
+<span data-ttu-id="02c58-189">По умолчанию в **комлете Get-MsolUser** отображаются три свойства учетных записей пользователей:</span><span class="sxs-lookup"><span data-stu-id="02c58-189">By default, the **Get-MsolUser** cmdlet displays these three properties of user accounts:</span></span>
   
-- <span data-ttu-id="7bbfe-190">UserPrincipalName</span><span class="sxs-lookup"><span data-stu-id="7bbfe-190">UserPrincipalName</span></span>
+- <span data-ttu-id="02c58-190">UserPrincipalName</span><span class="sxs-lookup"><span data-stu-id="02c58-190">UserPrincipalName</span></span>
     
-- <span data-ttu-id="7bbfe-191">DisplayName</span><span class="sxs-lookup"><span data-stu-id="7bbfe-191">DisplayName</span></span>
+- <span data-ttu-id="02c58-191">DisplayName</span><span class="sxs-lookup"><span data-stu-id="02c58-191">DisplayName</span></span>
     
-- <span data-ttu-id="7bbfe-192">isLicensed</span><span class="sxs-lookup"><span data-stu-id="7bbfe-192">isLicensed</span></span>
+- <span data-ttu-id="02c58-192">isLicensed</span><span class="sxs-lookup"><span data-stu-id="02c58-192">isLicensed</span></span>
     
-<span data-ttu-id="7bbfe-193">Если вам нужны дополнительные свойства, такие как отдел, в котором работает пользователь, и страна или регион, где они используют службы Microsoft 365, вы можете запустить **Get-MsolUser** в сочетании с помощью cmdlet **Select,** чтобы указать список свойств учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-193">If you need additional properties, such as the department where the user works and the country/region where they use Microsoft 365 services, you can run **Get-MsolUser** in combination with the **Select** cmdlet to specify the list of user account properties.</span></span> <span data-ttu-id="7bbfe-194">Пример:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-194">Here's an example:</span></span>
+<span data-ttu-id="02c58-193">Если вам нужны дополнительные свойства, такие как отдел, в котором работает пользователь, и страна/регион, где они используют службы Microsoft 365, вы можете запустить **Get-MsolUser** в сочетании с cmdlet **Select,** чтобы указать список свойств учетных записей пользователей.</span><span class="sxs-lookup"><span data-stu-id="02c58-193">If you need additional properties, such as the department where the user works and the country/region where they use Microsoft 365 services, you can run **Get-MsolUser** in combination with the **Select** cmdlet to specify the list of user account properties.</span></span> <span data-ttu-id="02c58-194">Пример:</span><span class="sxs-lookup"><span data-stu-id="02c58-194">Here's an example:</span></span>
   
 ```powershell
 Get-MsolUser | Select DisplayName, Department, UsageLocation
 ```
 
-<span data-ttu-id="7bbfe-195">Эта команда предписывает PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-195">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="02c58-195">Эта команда предписывает PowerShell:</span><span class="sxs-lookup"><span data-stu-id="02c58-195">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="7bbfe-196">Получите все сведения об учетных записях пользователей **(Get-MsolUser)** и отправьте их в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-196">Get all the information about the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="02c58-196">Получите все сведения о учетных записях пользователей **(Get-MsolUser)** и отправьте их в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="02c58-196">Get all the information about the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="7bbfe-197">Отображает только имя учетной записи пользователя, отдел и расположение использования (**Select DisplayName, Department, UsageLocation).**</span><span class="sxs-lookup"><span data-stu-id="7bbfe-197">Display only the user account name, department, and usage location (**Select DisplayName, Department, UsageLocation**).</span></span>
+1. <span data-ttu-id="02c58-197">Отображение только имени учетной записи пользователя, расположения отдела и использования **(Выберите DisplayName, Department, UseLocation).**</span><span class="sxs-lookup"><span data-stu-id="02c58-197">Display only the user account name, department, and usage location (**Select DisplayName, Department, UsageLocation**).</span></span>
     
-<span data-ttu-id="7bbfe-198">Вы должны получить сведения, похожие на эти:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-198">You should get information similar to this:</span></span>
+<span data-ttu-id="02c58-198">Вы должны получать сведения, аналогичные этому:</span><span class="sxs-lookup"><span data-stu-id="02c58-198">You should get information similar to this:</span></span>
   
 ```powershell
 DisplayName             Department                       UsageLocation
@@ -284,27 +284,27 @@ Alex Darrow             Sales & Marketing                    US
 Scott Wallace           Operations
 ```
 
-<span data-ttu-id="7bbfe-199">С **помощью** cmdlet Select вы можете выбрать, какие свойства необходимо отобразить.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-199">The **Select** cmdlet lets you choose what properties to display.</span></span> <span data-ttu-id="7bbfe-200">Чтобы отобразить все свойства определенной учетной записи пользователя, используйте под wildcard character (\*).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-200">To display all the properties for a specific user account, use the wildcard character (\*).</span></span> <span data-ttu-id="7bbfe-201">Пример:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-201">Here's an example:</span></span>
+<span data-ttu-id="02c58-199">В **cmdlet Select** вы можете выбрать, какие свойства отобразить.</span><span class="sxs-lookup"><span data-stu-id="02c58-199">The **Select** cmdlet lets you choose what properties to display.</span></span> <span data-ttu-id="02c58-200">Чтобы отобразить все свойства для определенной учетной записи пользователя, используйте символ под диктовки (\*).</span><span class="sxs-lookup"><span data-stu-id="02c58-200">To display all the properties for a specific user account, use the wildcard character (\*).</span></span> <span data-ttu-id="02c58-201">Пример:</span><span class="sxs-lookup"><span data-stu-id="02c58-201">Here's an example:</span></span>
   
 ```powershell
 Get-MsolUser -UserPrincipalName BelindaN@litwareinc.onmicosoft.com | Select *
 ```
 
-<span data-ttu-id="7bbfe-202">Чтобы более выборочно отобразить список отображаемой учетной записи, можно также использовать cmdlet **Where.**</span><span class="sxs-lookup"><span data-stu-id="7bbfe-202">To be more selective about the list of accounts to display, you can also use the **Where** cmdlet.</span></span> <span data-ttu-id="7bbfe-203">Ниже показан пример команды, которая отображает только те учетные записи пользователей, которые имеют неустановленное расположение использования:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-203">Here's an example command that displays only those user accounts that have an unspecified usage location:</span></span>
+<span data-ttu-id="02c58-202">Чтобы более избирательно использовать список отображаемой учетной записи, можно также использовать cmdlet **Where.**</span><span class="sxs-lookup"><span data-stu-id="02c58-202">To be more selective about the list of accounts to display, you can also use the **Where** cmdlet.</span></span> <span data-ttu-id="02c58-203">Вот пример команды, которая отображает только те учетные записи пользователей, которые имеют неустановленное расположение использования:</span><span class="sxs-lookup"><span data-stu-id="02c58-203">Here's an example command that displays only those user accounts that have an unspecified usage location:</span></span>
   
 ```powershell
 Get-MsolUser | Where {$_.UsageLocation -eq $Null} | Select DisplayName, Department, UsageLocation
 ```
 
-<span data-ttu-id="7bbfe-204">Эта команда предписывает PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-204">This command instructs PowerShell to:</span></span>
+<span data-ttu-id="02c58-204">Эта команда предписывает PowerShell:</span><span class="sxs-lookup"><span data-stu-id="02c58-204">This command instructs PowerShell to:</span></span>
   
-1. <span data-ttu-id="7bbfe-205">Получите все сведения об учетных записях пользователей **(Get-MsolUser)** и отправьте их в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-205">Get all the information about the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
+1. <span data-ttu-id="02c58-205">Получите все сведения о учетных записях пользователей **(Get-MsolUser)** и отправьте их в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="02c58-205">Get all the information about the user accounts (**Get-MsolUser**) and send it to the next command (**|**).</span></span>
     
-1. <span data-ttu-id="7bbfe-206">Найдите все учетные записи пользователей с неопределенным расположением использования **(где {$ \_ . UsageLocation -eq $Null}**) и отправьте итоговые сведения в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-206">Find all user accounts that have an unspecified usage location (**Where {$\_.UsageLocation -eq $Null}**), and send the resulting information to the next command (**|**).</span></span> <span data-ttu-id="7bbfe-207">Внутри скобок команда дает powerShell указание найти только набор учетных записей, для которых свойство usageLocation учетной записи пользователя (**$ \_ . UsageLocation**) не указан (**-eq $Null**).</span><span class="sxs-lookup"><span data-stu-id="7bbfe-207">Inside the braces, the command instructs PowerShell to only find the set of accounts for which the UsageLocation user account property (**$\_.UsageLocation**) is not specified (**-eq $Null**).</span></span>
+1. <span data-ttu-id="02c58-206">Найдите все учетные записи пользователей с неустановленным расположением использования **(Where \_ {$. UseLocation -eq $Null}** и отправка результатов в следующую команду ( **|** ).</span><span class="sxs-lookup"><span data-stu-id="02c58-206">Find all user accounts that have an unspecified usage location (**Where {$\_.UsageLocation -eq $Null}**), and send the resulting information to the next command (**|**).</span></span> <span data-ttu-id="02c58-207">В скобки команда предписывает PowerShell находить только набор учетных записей, для которых свойству учетной записи пользователя UseLocation (**$ \_ . UseLocation**) не указывается **(-eq $Null).**</span><span class="sxs-lookup"><span data-stu-id="02c58-207">Inside the braces, the command instructs PowerShell to only find the set of accounts for which the UsageLocation user account property (**$\_.UsageLocation**) is not specified (**-eq $Null**).</span></span>
     
-1. <span data-ttu-id="7bbfe-208">Отображает только имя учетной записи пользователя, отдел и расположение использования (**Select DisplayName, Department, UsageLocation).**</span><span class="sxs-lookup"><span data-stu-id="7bbfe-208">Display only the user account name, department, and usage location (**Select DisplayName, Department, UsageLocation**).</span></span>
+1. <span data-ttu-id="02c58-208">Отображение только имени учетной записи пользователя, расположения отдела и использования **(Выберите DisplayName, Department, UseLocation).**</span><span class="sxs-lookup"><span data-stu-id="02c58-208">Display only the user account name, department, and usage location (**Select DisplayName, Department, UsageLocation**).</span></span>
     
-<span data-ttu-id="7bbfe-209">Вы должны получить сведения, похожие на эти:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-209">You should get information similar to this:</span></span>
+<span data-ttu-id="02c58-209">Вы должны получать сведения, аналогичные этому:</span><span class="sxs-lookup"><span data-stu-id="02c58-209">You should get information similar to this:</span></span>
   
 ```powershell
 DisplayName              Department                      UsageLocation
@@ -313,19 +313,19 @@ Brian Johnson
 Scott Wallace            Operations
 ```
 
-<span data-ttu-id="7bbfe-210">Если вы используете синхронизацию службы каталогов для создания пользователей Microsoft 365 и управления ими, вы можете отобразить локализованную учетную запись, из которой был проецируемый пользователь Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-210">If you're using directory synchronization to create and manage your Microsoft 365 users, you can display the local account from which a Microsoft 365 user has been projected.</span></span> <span data-ttu-id="7bbfe-211">В следующем примере предполагается, что:</span><span class="sxs-lookup"><span data-stu-id="7bbfe-211">The following example assumes that:</span></span>
+<span data-ttu-id="02c58-210">Если для создания и управления пользователями Microsoft 365 используется синхронизация каталогов, можно отобразить локализованную учетную запись, с которой был проецируемый пользователь Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="02c58-210">If you're using directory synchronization to create and manage your Microsoft 365 users, you can display the local account from which a Microsoft 365 user has been projected.</span></span> <span data-ttu-id="02c58-211">В следующем примере предполагается, что:</span><span class="sxs-lookup"><span data-stu-id="02c58-211">The following example assumes that:</span></span>
 
-- <span data-ttu-id="7bbfe-212">Azure AD Connect настроен на использование привязки источника objectGUID по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7bbfe-212">Azure AD Connect is configured to use the default source anchor of ObjectGUID.</span></span> <span data-ttu-id="7bbfe-213">(Дополнительные сведения о настройке привязки источника см. в [подключении к Azure AD Connect: концепции проектирования).](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts)</span><span class="sxs-lookup"><span data-stu-id="7bbfe-213">(For more information about configuring a source anchor, see [Azure AD Connect: Design concepts](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts)).</span></span>
-- <span data-ttu-id="7bbfe-214">Установлен модуль доменных служб Active Directory для PowerShell (см. средства [RSAT).](https://www.microsoft.com/en-gb/download/details.aspx?id=45520)</span><span class="sxs-lookup"><span data-stu-id="7bbfe-214">The Active Directory Domain Services module for PowerShell has been installed (see [RSAT tools](https://www.microsoft.com/en-gb/download/details.aspx?id=45520)).</span></span>
+- <span data-ttu-id="02c58-212">Azure AD Connect настроен для использования якоря источника objectGUID по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="02c58-212">Azure AD Connect is configured to use the default source anchor of ObjectGUID.</span></span> <span data-ttu-id="02c58-213">(Дополнительные сведения о настройке источника якоря см. в [странице Azure AD Connect: Design concepts).](/azure/active-directory/hybrid/plan-connect-design-concepts)</span><span class="sxs-lookup"><span data-stu-id="02c58-213">(For more information about configuring a source anchor, see [Azure AD Connect: Design concepts](/azure/active-directory/hybrid/plan-connect-design-concepts)).</span></span>
+- <span data-ttu-id="02c58-214">Установлен модуль служб домена Active Directory для PowerShell (см. [инструменты RSAT).](https://www.microsoft.com/en-gb/download/details.aspx?id=45520)</span><span class="sxs-lookup"><span data-stu-id="02c58-214">The Active Directory Domain Services module for PowerShell has been installed (see [RSAT tools](https://www.microsoft.com/en-gb/download/details.aspx?id=45520)).</span></span>
 
 ```powershell
 Get-ADUser ([guid][System.Convert]::FromBase64String((Get-MsolUser -UserPrincipalName <UPN of user account>).ImmutableID)).guid
 ```
 
-## <a name="see-also"></a><span data-ttu-id="7bbfe-215">См. также</span><span class="sxs-lookup"><span data-stu-id="7bbfe-215">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="02c58-215">См. также</span><span class="sxs-lookup"><span data-stu-id="02c58-215">See also</span></span>
 
-[<span data-ttu-id="7bbfe-216">Управление учетными записями пользователей Microsoft 365, лицензиями и группами с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="7bbfe-216">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[<span data-ttu-id="02c58-216">Управление учетными записями пользователей Microsoft 365, лицензиями и группами с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="02c58-216">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="7bbfe-217">Управление Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="7bbfe-217">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="02c58-217">Управление Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="02c58-217">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="7bbfe-218">Начало работы с PowerShell для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="7bbfe-218">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+[<span data-ttu-id="02c58-218">Начало работы с PowerShell для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="02c58-218">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
