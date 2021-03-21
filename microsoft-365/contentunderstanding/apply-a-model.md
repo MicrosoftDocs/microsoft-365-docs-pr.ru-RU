@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Сведения о применении опубликованной модели к библиотеке документов SharePoint
-ms.openlocfilehash: 17da1e37f72504ac5e0e26c0dd190efced08d285
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 42168537c8d449a075b5e29ef9905b6b98b8d714
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080784"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925404"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Применение модели осмысления документации в Microsoft SharePoint Syntex
 
@@ -94,7 +94,7 @@ ms.locfileid: "50080784"
 
    ![Столбец "Дата классификации"](../media/content-understanding/class-date-column.png)</br> 
 
-Поле "Дата классификации" используется [триггером <b>Когда файл классифицируется моделью осмысления контента</b>](https://docs.microsoft.com/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model) для запуска потока Power Automate, после того как модель осмысления контента Syntex завершит обработку файла и обновление поля "Дата классификации".
+Поле "Дата классификации" используется [триггером <b>Когда файл классифицируется моделью осмысления контента</b>](/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model) для запуска потока Power Automate, после того как модель осмысления контента Syntex завершит обработку файла и обновление поля "Дата классификации".
 
    ![Триггер потока](../media/content-understanding/trigger.png)</br>
 
@@ -108,5 +108,3 @@ ms.locfileid: "50080784"
 [Создание средства извлечения](create-an-extractor.md)
 
 [Общие сведения об осмыслении документации](document-understanding-overview.md)
-
-

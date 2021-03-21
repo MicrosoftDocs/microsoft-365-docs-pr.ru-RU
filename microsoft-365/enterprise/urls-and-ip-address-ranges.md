@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: Сводка. Для Office 365 требуется подключение к Интернету. Указанные ниже конечные точки должны быть доступны для клиентов, использующих планы Office 365, в том числе входящих в облако сообщества государственных учреждений (GCC).
 hideEdit: true
-ms.openlocfilehash: 826da75ea4f6991a3291e8b1e36d644fb19a7704
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 1c0a2a486bf6964edc9b94fd670c96ade161cacd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50596960"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925272"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>URL-адреса и диапазоны IP-адресов Office 365
 
@@ -69,9 +69,9 @@ ms.locfileid: "50596960"
 
 [Управление конечными точками Office 365](managing-office-365-endpoints.md)
 
-[Общие конечные точки Microsoft Stream](https://docs.microsoft.com/stream/network-overview#general-microsoft-stream-endpoints)
+[Общие конечные точки Microsoft Stream](/stream/network-overview#general-microsoft-stream-endpoints)
   
-[Проверка подключения Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity)
+[Проверка подключения Microsoft 365](./monitor-connectivity.md)
 
 [Набор корневого ЦС и промежуточного ЦС в системе стороннего приложения](../compliance/encryption-office-365-certificate-chains.md)
   

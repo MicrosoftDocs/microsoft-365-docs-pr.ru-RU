@@ -1,7 +1,7 @@
 ---
-title: Hello World для REST API Защитника Microsoft 365
-description: Узнайте, как создать приложение и использовать маркер для доступа к API Microsoft 365 Defender
-keywords: приложение, маркер, доступ, aad, приложение, регистрация приложения, powershell, сценарий, глобальный администратор, разрешение, Защитник Microsoft 365
+title: Hello World for Microsoft 365 Defender REST API
+description: Узнайте, как создать приложение и использовать маркер для доступа к API Защитника Microsoft 365
+keywords: app, token, access, aad, app, application registration, powershell, script, global administrator, permission, Microsoft 365 defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 66afa27d0fa7a092d3f9e9ed6c3b6abc6020cb8d
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 65319d46871282c454287af225647f89e3535c78
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928382"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924342"
 ---
-# <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Hello World для REST API Защитника Microsoft 365
+# <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Hello World for Microsoft 365 Defender REST API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,57 +36,57 @@ ms.locfileid: "49928382"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> Некоторые сведения относятся к предварительно изданным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-## <a name="get-incidents-using-a-simple-powershell-script"></a>Получить инциденты с помощью простого сценария PowerShell
+## <a name="get-incidents-using-a-simple-powershell-script"></a>Получать инциденты с помощью простого сценария PowerShell
 
-Этот проект должен занять от 5 до 10 минут. В этот раз оценка включает регистрацию приложения и применение кода из примера сценария PowerShell.
+На завершение этого проекта должно пройти от 5 до 10 минут. Эта оценка времени включает регистрацию приложения и применение кода из сценария образца PowerShell.
 
 ### <a name="register-an-app-in-azure-active-directory"></a>Регистрация приложения в Azure Active Directory
 
-1. Во sign in to [Azure](https://portal.azure.com) as a user with the **Global administrator** role.
+1. Во входе [в Azure](https://portal.azure.com) в качестве пользователя с **ролью глобального администратора.**
 
-2. Перейдите к регистрации приложений **Azure Active Directory**  >  **— новая**  >  **регистрация.**
+2. Перейдите к **регистрации приложений Azure Active**  >  **Directory**  >  **.**
 
-   ![Изображение Microsoft Azure и переход к регистрации приложений](../../media/atp-azure-new-app2.png)
+   ![Изображение Microsoft Azure и навигация для регистрации приложений](../../media/atp-azure-new-app2.png)
 
-3. В форме регистрации выберите имя приложения, а затем выберите **"Регистрация".** Выбор URI перенаправления необязателен. Для выполнения этого примера он не потребуется.
+3. В форме регистрации выберите имя приложения, а затем выберите **Register**. Выбор URI перенаправления необязателен. Для завершения этого примера не потребуется один пример.
 
-4. На странице приложения выберите API "Разрешения для добавления разрешений" **API,** которые моя организация использует >, введите "Защита от угроз (Майкрософт)" и выберите "Защита от  >    >   **угроз (Майкрософт)".**  Теперь ваше приложение может получить доступ к Защитнику Microsoft 365.
+4. На странице приложения выберите **API Permissions Add**  >  **permission**  >  **API,** которые моя организация использует >, введите Microsoft Threat Protection и выберите **Microsoft Threat Protection**. Теперь ваше приложение может получить доступ к Microsoft 365 Defender.
 
    > [!TIP]
-   > *Защита от угроз (Майкрософт)* — это прежнее имя Защитника Microsoft 365, которое не будет отображаться в исходном списке. Чтобы увидеть, как оно появляется, необходимо начать писать его имя в текстовом поле.
+   > *Microsoft Threat Protection* — это прежнее имя защитника Microsoft 365, которое не будет отображаться в исходном списке. Чтобы увидеть его, необходимо приступить к написанию его имени в текстовом окне.
    ![Изображение выбора разрешений API](../../media/apis-in-my-org-tab.PNG)
 
-   - Выберите **разрешения приложения**  >  **Incident.Read.All** и выберите **"Добавить разрешения".**
+   - Выберите **разрешения приложения**  >  **Incident.Read.All** и добавьте **разрешения.**
 
    ![Изображение доступа к API и выбора API](../../media/request-api-permissions.PNG)
 
-5. Выберите **"Предоставить согласие администратора".** При каждом добавлении разрешения необходимо выбрать "Предоставить согласие **администратора",** чтобы оно вступает в силу.
+5. Выберите **согласие администратора Гранта**. Каждый раз, когда вы добавляете разрешение, необходимо выбрать согласие администратора **Гранта,** чтобы оно вступает в силу.
 
-    ![Изображение разрешения на предоставление](../../media/grant-consent.PNG)
+    ![Изображение разрешений гранта](../../media/grant-consent.PNG)
 
-6. Добавьте секрет в приложение. Select **Certificates & secrets,** add a description to the secret, then select **Add**.
+6. Добавьте секрет в приложение. Выберите **сертификаты &,** добавьте описание в секрет, а затем **добавьте**.
 
     > [!TIP]
-    > После выбора **"Добавить"** выберите **"Скопировать сгенерированную секретную копию".** После этого вы не сможете получить значение секрета.
+    > После выбора **Добавить** выберите **скопируйте сгенерированную секретную ценность.** Вы не сможете получить секретное значение после того, как вы уйдете.
 
-    ![Изображение создания ключа приложения](../../media/webapp-create-key2.png)
+    ![Изображение ключа создания приложения](../../media/webapp-create-key2.png)
 
-7. Зафиксировать свой ИД приложения и ид клиента в надежном месте. Они перечислены в **списке "Обзор"** на странице приложения.
+7. Запись ID приложения и ID клиента в безопасном месте. Они перечислены в статье **Обзор на** странице приложения.
 
-   ![Изображение созданного ид приложения](../../media/app-and-tenant-ids.png)
+   ![Изображение созданного id приложения](../../media/app-and-tenant-ids.png)
 
-### <a name="get-a-token-using-the-app-and-use-the-token-to-access-the-api"></a>Получите маркер с помощью приложения и используйте его для доступа к API
+### <a name="get-a-token-using-the-app-and-use-the-token-to-access-the-api"></a>Получите маркер с помощью приложения и используйте маркер для доступа к API
 
-Дополнительные сведения о маркерах Azure Active Directory см. в руководстве [по Azure AD.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+Дополнительные сведения о маркерах Azure Active Directory см. в руководстве [Azure AD.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 > [!IMPORTANT]
-> Несмотря на то, что в примере в этом демонстрационных приложениях  рекомендуется в целях тестирования в paste in your secret value, никогда не следует жестко кодировать секреты в приложение, запущенное в производственной версии. Третья сторона может использовать ваш секрет для доступа к ресурсам. Вы можете обеспечить безопасность секретов приложения с помощью [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Практический пример того, как можно защитить приложение, см. в под управлением секретов серверных приложений [с помощью Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+> Хотя в примере в этом демо-приложении рекомендуется вклеить  секретное значение для целей тестирования, никогда не следует секретов жесткого кода в приложение, запущенное в производстве. Третья сторона может использовать ваш секрет для доступа к ресурсам. Вы можете помочь сохранить секреты вашего приложения в безопасности с помощью [Хранилища ключей Azure.](/azure/key-vault/general/about-keys-secrets-certificates) Пример того, как защитить приложение, см. в примере Управление секретами в серверных приложениях [с помощью хранилища ключей Azure.](/learn/modules/manage-secrets-with-azure-key-vault/)
 
-1. Скопируйте сценарий ниже и в paste его в избранный текстовый редактор. Сохраните как **Get-Token.ps1**. Вы также можете запустить код в is-is в PowerShell ISE, но вам следует сохранить его, так как нам потребуется запустить его снова, когда мы будем использовать сценарий получения инцидентов в следующем разделе.
+1. Скопируйте сценарий ниже и вклейте его в любимый текстовый редактор. Сохраните как **Get-Token.ps1**. Вы также можете запустить код как есть в ISE PowerShell, но его следует сохранить, так как нам потребуется выполнить его снова, когда мы используем сценарий для получения инцидентов в следующем разделе.
 
-    Этот сценарий создает маркер и сохраняет его в рабочей папке под именем *Latest-token.txt.*
+    Этот скрипт будет создавать маркер и сохранять его в рабочей папке под именем *Latest-token.txt*.
 
     ```PowerShell
     # This script gets the app context token and saves it to a file named "Latest-token.txt" under the current directory.
@@ -112,19 +112,19 @@ ms.locfileid: "49928382"
 
 #### <a name="validate-the-token"></a>Проверка маркера
 
-1. Скопируйте и в paste маркер, полученный в [JWT,](https://jwt.ms) чтобы декодировать его.
-1. *JWT* означает *веб-маркер JSON.* Раскодированный маркер будет содержать ряд элементов или утверждений в формате JSON. Убедитесь, что *утверждение ролей* внутри раскодирования маркера содержит нужные разрешения.
+1. Скопируйте и вклейте маркер, полученный в [JWT,](https://jwt.ms) чтобы расшифровать его.
+1. *JWT* — это *веб-маркер JSON.* Декодированный маркер будет содержать ряд элементов или утверждений в формате JSON. Убедитесь, что *утверждение ролей* в расшифроваемом маркере содержит нужные разрешения.
 
-    На следующем изображении можно увидеть раскодный маркер, полученный из приложения, с ```Incidents.Read.All``` разрешениями ```Incidents.ReadWrite.All``` и ```AdvancedHunting.Read.All``` разрешениями:
+    На следующем изображении можно увидеть расшифровав маркер, приобретенный из приложения, с разрешениями и ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` ```AdvancedHunting.Read.All``` разрешениями:
 
     ![Изображение jwt.ms](../../media/api-jwt-ms.png)
 
 ### <a name="get-a-list-of-recent-incidents"></a>Получить список последних инцидентов
 
-Сценарий ниже **будет** использоватьGet-Token.ps1для доступа к API. Затем он извлекает список инцидентов, которые были в последний раз обновлены в течение последних 48 часов, и сохраняет список в JSON-файле.
+Сценарий ниже будет использовать **Get-Token.ps1** для доступа к API. Затем он извлекает список инцидентов, которые были обновлены в течение последних 48 часов, и сохраняет список в качестве JSON-файла.
 
 > [!IMPORTANT]
-> Сохраните этот сценарий в той же папке, **в** Get-Token.ps1.
+> Сохраните этот скрипт в той же папке, что и **Get-Token.ps1.**
 
 ```PowerShell
 # This script returns incidents last updated within the past 48 hours.
@@ -163,19 +163,19 @@ $outputJsonPath = "./Latest Incidents $dateTimeForFileName.json"
 Out-File -FilePath $outputJsonPath -InputObject $incidents
 ```
 
-Все готово! Вы успешно выполнили:
+Все готово! Вы успешно:
 
 - Создано и зарегистрировано приложение.
 - Предоставлено разрешение для этого приложения на чтение оповещений.
-- Подключен к API.
-- Использовал сценарий PowerShell для возврата инцидентов, обновленных за последние 48 часов.
+- Подключение к API.
+- Для возврата инцидентов, обновленных за последние 48 часов, используется скрипт PowerShell.
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Обзор API Microsoft 365 Defender](api-overview.md)
-- [Доступ к API Microsoft 365 Defender](api-access.md)
-- [Создание приложения для доступа к Защитнику Microsoft 365 без пользователя](api-create-app-web.md)
-- [Создание приложения для доступа к API Microsoft 365 Defender от имени пользователя](api-create-app-user-context.md)
-- [Создание приложения с мультиязычным доступом партнеров к API Защитника Microsoft 365](api-partner-access.md)
-- [Управление секретами в серверных приложениях с помощью Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
-- [Авторизация OAuth 2.0 для доступа к API и входу пользователя](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+- [Обзор API защитника Microsoft 365](api-overview.md)
+- [Доступ к API защитника Microsoft 365](api-access.md)
+- [Создание приложения для доступа к Microsoft 365 Defender без пользователя](api-create-app-web.md)
+- [Создание приложения для доступа к API Защитника Microsoft 365 от имени пользователя](api-create-app-user-context.md)
+- [Создание приложения с несколькими партнерами-партнерами для API Защитника Microsoft 365](api-partner-access.md)
+- [Управление секретами в приложениях сервера с помощью хранилища ключей Azure](/learn/modules/manage-secrets-with-azure-key-vault/)
+- [OAuth 2.0 Авторизация для входов пользователей и доступа к API](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

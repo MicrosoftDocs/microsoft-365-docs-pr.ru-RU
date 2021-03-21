@@ -17,16 +17,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: Сводка. Создание имитации распределенной виртуальной сети в Microsoft Azure как тестовой среды Microsoft 365.
-ms.openlocfilehash: ce8b1963e97decc58820bff7b563bb835a843772
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 545cce668df66b594de6b45ddd506b87afcf44ac
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487655"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926036"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Имитация распределенной виртуальной сети в тестовой среде Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 для предприятий и Office 365 корпоративный.*
+*Это руководство по тестовой лаборатории можно использовать для microsoft 365 для корпоративных и корпоративных тестовых сред Office 365.*
 
 В этой статье описаны действия по созданию имитации гибридной облачной среды в Microsoft Azure с помощью двух виртуальных сетей Azure. Ниже показана итоговая конфигурация. 
   
@@ -59,12 +59,12 @@ ms.locfileid: "48487655"
 > [!NOTE]
 > Эта конфигурация требует платной подписки на Azure. 
 
-Вы можете использовать итоговую среду для тестирования функций и функций [](m365-enterprise-test-lab-guides.md) [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) для предприятий с помощью дополнительных руководств по лаборатории тестирования или самостоятельно.
+Вы можете использовать среду для тестирования функций и функций [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) для предприятия с помощью дополнительных руководств по тестовой лаборатории или самостоятельно. [](m365-enterprise-test-lab-guides.md)
 
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Перейдите в стек руководств по лаборатории тестирования [Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf) для предприятий, чтобы получить визуальную карту всех статей в руководстве по лаборатории тестирования Microsoft 365 для предприятий.
+> Перейдите в [Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf) для корпоративного руководства по тестовой лаборатории, чтобы получить визуальную карту для всех статей в стеке Руководство по корпоративной тестовой лаборатории Microsoft 365.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>Этап 1. Настройка виртуальной сети TestLab
 
@@ -81,7 +81,7 @@ ms.locfileid: "48487655"
 Во-первых, запустите командную строку Azure PowerShell на своем локальном компьютере.
   
 > [!NOTE]
-> Для приведенных ниже последовательностей команд используется последняя версия Azure PowerShell. См. статью [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
+> Для приведенных ниже последовательностей команд используется последняя версия Azure PowerShell. См. статью [Общие сведения об Azure PowerShell](/powershell/azureps-cmdlets-docs/). 
   
 Войдите в свою учетную запись Azure с помощью указанной ниже команды.
   
@@ -205,7 +205,7 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
   
 Ваша имитированная гибридная облачная среда Azure готова к тестированию.
   
-Теперь вы готовы поэкспериментировать с дополнительными функциями [Microsoft 365 для предприятий.](https://www.microsoft.com/microsoft-365/enterprise)
+Теперь вы готовы поэкспериментировать с дополнительными [функциями Microsoft 365 для предприятия.](https://www.microsoft.com/microsoft-365/enterprise)
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -221,4 +221,4 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 для предприятий](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Документация по Microsoft 365 для предприятий](/microsoft-365-enterprise/)

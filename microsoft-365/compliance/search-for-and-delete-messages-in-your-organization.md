@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: 'Используйте поиск и очистку в Центре безопасности и соответствия требованиям для удаления сообщения из всех почтовых ящиков организации. '
-ms.openlocfilehash: 52871fc85a4d5aec1754c1957f2087552b442daf
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: b7bb1008120df8efefc983d526d90e8397b3a89e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423700"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924239"
 ---
 # <a name="search-for-and-delete-email-messages"></a>Поиск и удаление сообщений электронной почты
 
@@ -61,9 +61,9 @@ ms.locfileid: "50423700"
 
 - [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
 
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearch)
+- [New-ComplianceSearch](/powershell/module/exchange/New-ComplianceSearch)
 
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/Start-ComplianceSearch)
+- [Start-ComplianceSearch](/powershell/module/exchange/Start-ComplianceSearch)
 
 > [!NOTE]
 > В расположения для поиска контента, который создается на этом этапе, нельзя включать сайты SharePoint или OneDrive для бизнеса. В поиск контента, который будет использоваться для сообщений электронной почты, можно включать только почтовые ящики и общедоступные папки. Если поиск контента будет включать сайты, при выполнении командлета **New-ComplianceSearchAction** в шаге 3 произойдет ошибка.
@@ -80,7 +80,7 @@ ms.locfileid: "50423700"
 
 - Просмотрите результаты поиска, чтобы убедиться, что возвращены только сообщения, которые необходимо удалить.
 
-- Просмотрите статистику поиска (отображается в области сведений о поиске в Центре безопасности и соответствия требованиям или после выполнения командлета [Get-ComplianceSearch](https://go.microsoft.com/fwlink/p/?LinkId=517934)), чтобы узнать общее количество результатов.
+- Просмотрите статистику поиска (отображается в области сведений о поиске в Центре безопасности и соответствия требованиям или после выполнения командлета [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)), чтобы узнать общее количество результатов.
 
 Ниже приведены два примера поиска подозрительных сообщений электронной почты.
 
@@ -105,7 +105,7 @@ Start-ComplianceSearch -Identity $Search.Identity
 
 ## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Шаг 2. Подключение к PowerShell в Центре безопасности и соответствия требованиям
 
-Следующий шаг — подключение к PowerShell в Центре безопасности и соответствия требованиям вашей организации. Пошаговые инструкции см. в статье [Подключение к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Следующий шаг — подключение к PowerShell в Центре безопасности и соответствия требованиям вашей организации. Пошаговые инструкции см. в статье [Подключение к PowerShell в Центре безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell).
 
 После подключения к PowerShell в Центре безопасности и соответствия требованиям запустите командлеты **New-ComplianceSearch** и **Start-ComplianceSearch**, подготовленные на предыдущем шаге.
 
@@ -127,7 +127,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 При запуске предыдущей команды для обратимого или окончательного удаления сообщений поиск, определяемый параметром *SearchName*, является поиском контента, созданным в шаге 1.
 
-Дополнительные сведения см. в статье [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearchAction).
+Дополнительные сведения см. в статье [New-ComplianceSearchAction](/powershell/module/exchange/New-ComplianceSearchAction).
 
 ## <a name="more-information"></a>Дополнительные сведения
 

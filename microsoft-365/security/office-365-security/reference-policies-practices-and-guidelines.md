@@ -17,12 +17,12 @@ ms.collection:
 description: Корпорация Майкрософт разработала различные политики, процедуры и приняла ряд отраслевых методов, которые помогут защитить пользователей от оскорбительных, нежелательных или вредоносных сообщений электронной почты.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f53b1c36417b15e366b527dd1c12e4f23c06f632
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 8ed78e4a0f233e8d04fbcfb7d7fa7b3859bc0e17
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406600"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925236"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Справочник: политики, правила и рекомендации
 
@@ -83,7 +83,7 @@ ms.locfileid: "50406600"
 
 ## <a name="microsoft-365-limits"></a>Ограничения Microsoft 365
 
-Отправители должны придерживаться ограничений Microsoft 365, указанных в [ограничениях exchange Online Protection.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
+Отправители должны придерживаться ограничений Microsoft 365, указанных в [ограничениях exchange Online Protection.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
 
 ## <a name="email-delivery-resources-and-organizations"></a>Ресурсы доставки почты и организации
 

@@ -1,7 +1,7 @@
 ---
-title: Таблица AADSpnSignInEventsBeta в схеме advanced hunting
-description: Сведения о сведениях, связанных с участником-службой Azure Active Directory и таблицой событий управляемого удостоверения для регистрации в службе advanced hunting schema
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, user, account, identity, AAD
+title: Таблица AADSpnSignInEventsBeta в продвинутой схеме охоты
+description: Сведения о сведениях, связанных с руководителем службы Azure Active Directory и таблицой событий, связанных с управляемым входом удостоверений, в таблице расширенных схем охоты
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, machine, user, account, identity, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3eba2459fd9a0af1963ca8d1446b22fc0b1bdb93
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 5050f4f91d61369e927eae15ca7c156a17792c24
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145407"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924544"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -34,16 +34,16 @@ ms.locfileid: "50145407"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> Таблица в настоящее время находится в бета-версии и предлагается на краткосрочной основе, чтобы вы могли использовать события регистрации в azure `AADSpnSignInEventsBeta` Active Directory (AAD) и основного пользователя службы и управляемого удостоверения. Со временем все сведения о схеме для входов будут перемещаться в `IdentityLogonEvents` таблицу.<br><br>
-> Клиенты, которые могут получить доступ к Microsoft 365 Defender через интегрированное решение Microsoft Defender для конечных точек в Центре безопасности Azure, но не имеют лицензий на Microsoft Defender для Office, Microsoft Defender для удостоверений или Microsoft Cloud App Security, не смогут просматривать эту схему. 
+> В настоящее время таблица находится в стадии бета-версии и предлагается на краткосрочной основе, чтобы разрешить вам охотиться на руководителя `AADSpnSignInEventsBeta` службы Azure Active Directory (AAD) и управляемых событий регистрации удостоверений. В конечном итоге мы переместим все сведения о схеме входов в `IdentityLogonEvents` таблицу.<br><br>
+> Пользователи, которые могут получить доступ к Microsoft 365 Defender через интегрированное решение Microsoft Defender для конечной точки Центра безопасности Azure, но не имеют лицензий для Microsoft Defender для Office, Microsoft Defender for Identity или Microsoft Cloud App Security, не смогут просмотреть эту схему. 
 
 
 
-Таблица в схеме advanced hunting содержит сведения о основном и управляемом входе в службу `AADSpnSignInEventsBeta` Azure Active Directory. Вы можете узнать больше о различных типах входов в Отчеты о действиях при входе [в Azure Active Directory —](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins)предварительная версия.
+Таблица в продвинутой схеме охоты содержит сведения о директоре службы Azure Active Directory и управляемых входных знаках `AADSpnSignInEventsBeta` удостоверений. Дополнительные новости о различных типах входных входов можно узнать в отчетах о действиях для регистрации [Azure Active Directory — предварительный просмотр.](/azure/active-directory/reports-monitoring/concept-all-sign-ins)
 
 Используйте этот справочник для создания запросов, возвращающих данные из таблицы.
 
-Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference).
+Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference).
 
 
 
@@ -52,22 +52,22 @@ ms.locfileid: "50145407"
 | Имя столбца     | Тип данных | Описание   |
 | ----- | ----- | ---- |
 | `Timestamp` | datetime      | Дата и время создания записи                                                                                                     |
-| `Application`          | string        | Приложение, которое выполнило записанную действие                                                                                                   |
-| `ApplicationId`        | string        | Уникальный идентификатор приложения                                                                                                           |
-| `IsManagedIdentity`    | boolean       | Указывает, инициировался ли вход с помощью управляемого удостоверения                                                                               |
-| `ErrorCode`            | int        | Содержит код ошибки при ошибке при входе. Чтобы найти описание определенного кода ошибки, посетите <https://aka.ms/AADsigninsErrorCodes> сайт . |
-| `CorrelationId`        | string        | Уникальный идентификатор события для регистрации                                                                                                          |
-| `ServicePrincipalName` | string        | Имя основного службы, инициа которого был инициирован вход                                                                                        |
-| `ServicePrincipalId`   | string        | Уникальный идентификатор основного службы, инициировал вход                                                                           |
-| `ResourceDisplayName`  | string        | Отображаемого имени ресурса, к который был доступ                                                                                                           |
+| `Application`          | string        | Приложение, которое выполнило записанную акцию                                                                                                   |
+| `ApplicationId`        | string        | Уникальный идентификатор для приложения                                                                                                           |
+| `IsManagedIdentity`    | boolean       | Указывает, был ли вход инициирован управляемым удостоверением                                                                               |
+| `ErrorCode`            | int        | Содержит код ошибки при ошибке при входе. Чтобы найти описание определенного кода ошибки, посетите <https://aka.ms/AADsigninsErrorCodes> . |
+| `CorrelationId`        | string        | Уникальный идентификатор события входной записи                                                                                                          |
+| `ServicePrincipalName` | string        | Имя директора службы, который инициировал вход                                                                                        |
+| `ServicePrincipalId`   | string        | Уникальный идентификатор директора службы, который инициировал вход                                                                           |
+| `ResourceDisplayName`  | string        | Отображение имени доступного ресурса                                                                                                           |
 | `ResourceId`           | string        | Уникальный идентификатор доступного ресурса                                                                                                      |
 | `ResourceTenantId`     | string        | Уникальный идентификатор клиента доступного ресурса                                                                                        |
-| `IPAddress`            | string        | IP-адрес, присвоенный конечной точке и используемый при связанных сетевых коммуникациях                                                              |
-| `Country`          | string        | Двух буквный код, указывающий страну, в которой расположен IP-адрес клиента                                                                |
-| `State`                | string        | Состояние, в котором произошел вход, если доступно                                                                                                  |
-| `City`                 | string        | Город, где находится пользователь учетной записи                                                                                                          |
-| `Latitude`             | string        | Координаты расположения для входов с севера на север и на север                                                                                          |
-| `Longitude`            | string        | Координаты расположения для входов с востока на запад                                                                                            |
+| `IPAddress`            | string        | IP-адрес, присвоенный конечной точке и используемый во время связанных сетевых коммуникаций                                                              |
+| `Country`          | string        | Код из двух букв, указывающий страну, в которой расположен IP-адрес клиента                                                                |
+| `State`                | string        | Состояние, в котором произошла входная информация при наличии                                                                                                  |
+| `City`                 | string        | Город, в котором находится пользователь учетной записи                                                                                                          |
+| `Latitude`             | string        | Координаты расположения входного знака с севера на юг                                                                                          |
+| `Longitude`            | string        | Координаты расположения входного знака с востока на запад                                                                                            |
 | `RequestId`            | string        | Уникальный идентификатор запроса                                                                                                                |
 |`ReportId` | string | Уникальный идентификатор события | 
 
@@ -75,8 +75,7 @@ ms.locfileid: "50145407"
 
 ## <a name="related-articles"></a>Статьи по теме
 
--   [AADSignInEventsBeta](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-aadsignineventsbeta-table)
--   [Обзор расширенной охоты на угрозы](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
--   [Изучение языка запросов](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-query-language)
--   [Сведения о схеме](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference)
-
+-   [AADSignInEventsBeta](./advanced-hunting-aadsignineventsbeta-table.md)
+-   [Обзор расширенной охоты на угрозы](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+-   [Изучение языка запросов](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-query-language)
+-   [Сведения о схеме](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference)

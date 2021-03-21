@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: В этой статье объясняется, как применить метку хранения к модели в SharePoint Syntex
-ms.openlocfilehash: 48c0b983316cfe29019d09cb20546fa4b325b3b0
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 796130bfa967663b5696f49279154cfe9b16f703
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242775"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925372"
 ---
 # <a name="apply-a-retention-label-to-a-model-in-sharepoint-syntex"></a>Применение метки хранения к модели в SharePoint Syntex
 
@@ -28,14 +28,14 @@ ms.locfileid: "50242775"
 </br>
 
 
-Вы можете легко применить [метку хранения](https://docs.microsoft.com/microsoft-365/compliance/retention) к модели в Microsoft SharePoint Syntex. Вы можете это сделать как для модели осмысления документации, так и для модели обработки форм.
+Вы можете легко применить [метку хранения](../compliance/retention.md) к модели в Microsoft SharePoint Syntex. Вы можете это сделать как для модели осмысления документации, так и для модели обработки форм.
 
 Метки хранения позволяют применить параметры хранения к документам, определяемым моделями.  Например, вы хотите, чтобы ваша модель не только определяла любые документы с *уведомлением о страховании*, которые загружаются в вашу библиотеку документов, но также применяла к ним тег хранения *Бизнес*, чтобы эти документы нельзя было удалить из библиотеки документов в течение указанного периода времени (например, в течение следующих пяти месяцев).
 
 Вы можете применить существующую метку хранения к вашей модели с помощью параметров модели на ее домашней странице. 
 
 > [!Important]
-> Чтобы метки хранения были доступны для применения к вашей модели осмысления документации, они должны быть [созданы и опубликованы в Центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels).
+> Чтобы метки хранения были доступны для применения к вашей модели осмысления документации, они должны быть [созданы и опубликованы в Центре соответствия требованиям Microsoft 365](../compliance/create-apply-retention-labels.md#how-to-create-and-publish-retention-labels).
 
 ## <a name="to-add-a-retention-label-to-a-document-understanding-model"></a>Чтобы добавить метку хранения к модели понимания документа, выполните следующие действия:
 
@@ -73,13 +73,13 @@ ms.locfileid: "50242775"
 ## <a name="to-add-a-retention-label-to-a-form-processing-model"></a>Добавление метки хранения в модель обработки форм
 
 > [!Important]
-> Чтобы метки хранения были доступны для применения к вашей модели обработки форм, они должны быть [созданы и опубликованы в Центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels).
+> Чтобы метки хранения были доступны для применения к вашей модели обработки форм, они должны быть [созданы и опубликованы в Центре соответствия требованиям Microsoft 365](../compliance/create-apply-retention-labels.md#how-to-create-and-publish-retention-labels).
 
 Метку хранения можно применить к модели обработки форм при создании модели или применить ее к существующей модели.
 
 ### <a name="to-add-a-retention-label-when-you-create-a-form-processing-model"></a>Добавление метки хранения при создании модели обработки форм
 
-1. При [создании модели обработки форм](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model) выберите <b>Дополнительные параметры</b>.
+1. При [создании модели обработки форм](./create-a-form-processing-model.md) выберите <b>Дополнительные параметры</b>.
 2. В области <b>Дополнительные параметры</b> в разделе <b>Метка хранения</b> откройте меню и выберите метку хранения, которую нужно применить к модели.</b>
 
  
@@ -132,5 +132,3 @@ ms.locfileid: "50242775"
 [Создание средства извлечения](create-an-extractor.md)
 
 [Общие сведения об осмыслении документации](document-understanding-overview.md)
-
-

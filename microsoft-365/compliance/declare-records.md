@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Объявление элементов записями с использованием меток хранения.
-ms.openlocfilehash: 34b5272a8bed9be01c3965dae258c88facec0145
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+ms.openlocfilehash: fd88858c8d5cd1870f594050607b784a9dc5b78c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830608"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925665"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Объявление элементов записями с использованием меток хранения
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Для объявления документов и писем [записями](records-management.md#records) используются [метки хранения](retention.md#retention-labels), помечающие контент как **запись** или как **нормативную запись**.
 
@@ -41,7 +41,7 @@ ms.locfileid: "48830608"
 
 По умолчанию параметр меток хранения для пометки содержимого как нормативных записей не отображается в мастере меток хранения. Чтобы отобразить этот параметр, нужно сначала запустить команду PowerShell:
 
-1. [Подключение к Powershell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Подключение к Powershell Центра безопасности и соответствия требованиям Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 2. Запустите следующий командлет:
     

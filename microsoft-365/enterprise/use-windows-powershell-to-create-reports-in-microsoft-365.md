@@ -15,46 +15,46 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
-description: Сводка. Используйте PowerShell для Microsoft 365, чтобы создавать отчеты, которые не могут создаваться в Центре администрирования Microsoft 365.
-ms.openlocfilehash: 10000f62b1d6a747cf0373623c6038b080666e1a
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+description: Сводка. Используйте PowerShell для Microsoft 365 для создания отчетов, которые нельзя создавать в центре администрирования Microsoft 365.
+ms.openlocfilehash: 12cba74d114ea03804741335bd34ece403926033
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753982"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924700"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>Создание отчетов для Microsoft 365 с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-В Центре администрирования Microsoft 365 доступно множество различных отчетов. Но в этих отчетах предоставляется только так много информации, а иногда требуется больше. Именно в этом случае вам потребуется PowerShell для Microsoft 365.
+В центре администрирования Microsoft 365 доступно множество различных отчетов. Но эти отчеты предоставляют только столько информации, а иногда требуется больше. Именно тогда вам потребуется PowerShell для Microsoft 365.
   
-В этих статьях описывается использование PowerShell для Microsoft 365 для получения сведений из клиента Microsoft 365:
+В этих статьях описано, как использовать PowerShell для Microsoft 365 для получения информации от клиента Microsoft 365:
   
 - Начало работы с отчетами с помощью PowerShell для Microsoft 365:
     
-  - [Зачем использовать PowerShell для Microsoft 365](https://technet.microsoft.com/library/dn568034.aspx#reveal)
+  - [Зачем использовать PowerShell для Microsoft 365](./why-you-need-to-use-microsoft-365-powershell.md#reveal)
     
     
 - Отчеты для пользовательских учетных записей и лицензий:
     
   - [Просмотр лицензий и служб Microsoft 365 с помощью PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md)
     
-  - [Просмотр пользователей с лицензиями и без лицензий в Microsoft 365 с помощью PowerShell](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
+  - [Просмотр пользователей Microsoft 365 с лицензией и без лицензии с помощью PowerShell](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
     
-  - [Просмотр сведений о лицензии и службе учетной записи Microsoft 365 с помощью PowerShell](view-account-license-and-service-details-with-microsoft-365-powershell.md)
+  - [Просмотр лицензии учетной записи Microsoft 365 и сведений о службе с помощью PowerShell](view-account-license-and-service-details-with-microsoft-365-powershell.md)
     
   - [Просмотр учетных записей пользователей Microsoft 365 с помощью PowerShell](view-user-accounts-with-microsoft-365-powershell.md)
     
 - Отчеты для SharePoint Online:
     
-  - [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+  - [Начало работы с командной консолью SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
     
-  - [Get-SPOSiteGroup — получает все группы в указанном наборе веб-сайтов](https://technet.microsoft.com/library/122f4099-c78d-4cce-bab0-4343b04596ae.aspx)
+  - [Get-SPOSiteGroup — получает все группы в указанной коллекции сайтов](/powershell/module/sharepoint-online/get-spositegroup)
     
 - Отчеты для Exchange Online:
     
-  - [Использование Exchange Online PowerShell для отображения почтового ящика](https://technet.microsoft.com/library/13843002-56ca-4b75-81c5-84386522b01b.aspx)
+  - [Использование Exchange Online PowerShell для отображения почтового ящика](/exchange/recipients-in-exchange-online/manage-user-mailboxes/use-powershell-to-display-mailbox-information)
     
     
 ## <a name="related-articlesl"></a>Связанные статьи
@@ -66,4 +66,3 @@ ms.locfileid: "48753982"
 [Управление SharePoint с помощью PowerShell](manage-sharepoint-online-with-microsoft-365-powershell.md)
   
 [Управление учетными записями пользователей Microsoft 365, лицензиями и группами с помощью PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
-  

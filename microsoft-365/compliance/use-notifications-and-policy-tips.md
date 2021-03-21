@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Узнайте, как добавить подсказку политики в политику предотвращения потери данных (DLP), чтобы уведомить пользователя о том, что он работает с контентом, который противоречит политике DLP.
-ms.openlocfilehash: 79435343df2d2cb3bc027a92acce44eb74b4d91c
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 63909be2f88ef5f9c42dcd07e127309b4b5b17e9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454534"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925475"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Отправка почтовых уведомлений и отображение подсказок для политик защиты от потери данных
 
@@ -286,7 +286,7 @@ ms.locfileid: "50454534"
 - [Обзор политик защиты от потери данных](data-loss-prevention-policies.md)
     
 - [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)
-- [Условия политики DLP, исключения и действия (предварительный просмотр)](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide)
+- [Условия политики DLP, исключения и действия (предварительный просмотр)](./dlp-microsoft-teams.md?view=o365-worldwide)
     
 - [Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств](protect-documents-that-have-fci-or-other-properties.md)
     

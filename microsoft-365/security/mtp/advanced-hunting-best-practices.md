@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e838ce873a1c3ecc0f437f96e75cc2a40d3af79d
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 3e198f4a5800475b0c8efcd24e05ea00b8a17186
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727275"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925799"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727275"
 **Область применения:**
 - Microsoft 365 Defender
 
-Применяем эти рекомендации, чтобы быстрее получать результаты и избегать периодов времени во время работы сложных запросов. Дополнительные руководства по повышению производительности запросов см. в статье [Рекомендации по использованию запросов Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).
+Применяем эти рекомендации, чтобы быстрее получать результаты и избегать периодов времени во время работы сложных запросов. Дополнительные руководства по повышению производительности запросов см. в статье [Рекомендации по использованию запросов Kusto](/azure/kusto/query/best-practices).
 
 ## <a name="understand-cpu-resource-quotas"></a>Понимание квот ресурсов ЦП
 В зависимости от его размера каждый клиент имеет доступ к определенному объему ресурсов ЦП, выделенным для работы с расширенными запросами на охоту. Подробные сведения о различных ограничениях службы читайте в материале "Расширенные квоты на охоту и [параметры использования".](advanced-hunting-limits.md)
@@ -44,8 +44,8 @@ ms.locfileid: "50727275"
 
 ## <a name="general-optimization-tips"></a>Общие советы по оптимизации
 
-- **Размер новых запросов**— Если вы подозреваете, что запрос возвращает большой набор результатов, сначала оцените его с помощью оператора [подсчета.](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator) Используйте [ограничение](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) или его синоним, `take` чтобы избежать больших наборов результатов.
-- Применяйте фильтры на ранних стадиях **—** применяйте фильтры времени и другие фильтры, чтобы уменьшить набор данных, особенно перед использованием функций преобразования и анализа, таких как [substring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [trim()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [toupper()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction) [или parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). В приведенной ниже примере [](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) функция размыва используется после того, как операторы фильтрации сократили количество записей.
+- **Размер новых запросов**— Если вы подозреваете, что запрос возвращает большой набор результатов, сначала оцените его с помощью оператора [подсчета.](/azure/data-explorer/kusto/query/countoperator) Используйте [ограничение](/azure/data-explorer/kusto/query/limitoperator) или его синоним, `take` чтобы избежать больших наборов результатов.
+- Применяйте фильтры на ранних стадиях **—** применяйте фильтры времени и другие фильтры, чтобы уменьшить набор данных, особенно перед использованием функций преобразования и анализа, таких как [substring()](/azure/data-explorer/kusto/query/substringfunction), [replace()](/azure/data-explorer/kusto/query/replacefunction), [trim()](/azure/data-explorer/kusto/query/trimfunction), [toupper()](/azure/data-explorer/kusto/query/toupperfunction) [или parse_json()](/azure/data-explorer/kusto/query/parsejsonfunction). В приведенной ниже примере [](/azure/data-explorer/kusto/query/extractjsonfunction) функция размыва используется после того, как операторы фильтрации сократили количество записей.
 
     ```kusto
     DeviceEvents
@@ -55,16 +55,16 @@ ms.locfileid: "50727275"
     | extend DriveLetter = extractjson("$.DriveLetter", AdditionalFields)
      ```
 
-- **Имеет биты содержит**- Чтобы избежать поиска подстройки в словах излишне, используйте `has` оператора, а `contains` не . [Узнайте о операторах строки](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
+- **Имеет биты содержит**- Чтобы избежать поиска подстройки в словах излишне, используйте `has` оператора, а `contains` не . [Узнайте о операторах строки](/azure/data-explorer/kusto/query/datatypes-string-operators)
 - **Посмотрите в определенных столбцах**. Посмотрите в определенный столбец, а не выполняется полный текстовый поиск во всех столбцах. Не используйте для `*` проверки всех столбцов.
-- **Деликатный для скорости**— поиски, чувствительные к конкретным случаям, являются более конкретными и, как правило, более исполняемыми. Имена чувствительных к делу [операторов](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)строк, таких как `has_cs` и , как `contains_cs` правило, заканчиваются `_cs` . Кроме того, можно использовать оператора равного с чувствительностью к `==` делу. `=~`
-- **Размыть, не** извлекать -По [](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) возможности, используйте оператора размыва или функции размыва, [как parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). Избегайте `matches regex` оператора строки или [функции extract()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)( оба из которых используют регулярное выражение. Зарезервировать использование регулярного выражения для более сложных сценариев. [Узнайте больше о функциях размыкания](#parse-strings)
+- **Деликатный для скорости**— поиски, чувствительные к конкретным случаям, являются более конкретными и, как правило, более исполняемыми. Имена чувствительных к делу [операторов](/azure/data-explorer/kusto/query/datatypes-string-operators)строк, таких как `has_cs` и , как `contains_cs` правило, заканчиваются `_cs` . Кроме того, можно использовать оператора равного с чувствительностью к `==` делу. `=~`
+- **Размыть, не** извлекать -По [](/azure/data-explorer/kusto/query/parseoperator) возможности, используйте оператора размыва или функции размыва, [как parse_json()](/azure/data-explorer/kusto/query/parsejsonfunction). Избегайте `matches regex` оператора строки или [функции extract()](/azure/data-explorer/kusto/query/extractfunction)( оба из которых используют регулярное выражение. Зарезервировать использование регулярного выражения для более сложных сценариев. [Узнайте больше о функциях размыкания](#parse-strings)
 - **Фильтрация таблиц не выражений**— не фильтруйте вычисляемую колонку, если можно фильтровать столбец таблицы.
 - **Нет трех характерных терминов**— избегайте сравнения или фильтрации с помощью терминов с тремя символами или меньше. Эти термины не индексироваться, и их соответствие потребует дополнительных ресурсов.
-- **Выборочно** проект — упростите понимание результатов, проецив только нужные столбцы. Проецация определенных столбцов перед запуском [присоединяющихся](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) или аналогичных операций также помогает повысить производительность.
+- **Выборочно** проект — упростите понимание результатов, проецив только нужные столбцы. Проецация определенных столбцов перед запуском [присоединяющихся](/azure/data-explorer/kusto/query/joinoperator) или аналогичных операций также помогает повысить производительность.
 
 ## <a name="optimize-the-join-operator"></a>Оптимизация `join` оператора
-Оператор [объединения объединяет](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) строки из двух таблиц, соединяя значения в указанных столбцах. Используйте эти советы для оптимизации запросов, которые используют этот оператор.
+Оператор [объединения объединяет](/azure/data-explorer/kusto/query/joinoperator) строки из двух таблиц, соединяя значения в указанных столбцах. Используйте эти советы для оптимизации запросов, которые используют этот оператор.
 
 - **Более малая** таблица слева — оператор соединяет записи в таблице слева от заявления о присоединиться к записям `join` справа. Если таблица меньше слева, потребуется соблюсти меньше записей, что ускорит запрос. 
 
@@ -81,7 +81,7 @@ ms.locfileid: "50727275"
     on AccountSid
     ```
 
-- **Используйте** внутренний примыкающий к нему аромат — аромат соедините по умолчанию или строки deduplicates [innerunique-join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) в левой таблице ключом соединителя перед возвращением строки для каждого совпадения в правую таблицу. [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) Если в левой таблице имеется несколько строк с одинаковым значением для ключа, эти строки будут отлажены, чтобы оставить одну рандомную строку для каждого `join` уникального значения.
+- **Используйте** внутренний примыкающий к нему аромат — аромат соедините по умолчанию или строки deduplicates [innerunique-join](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) в левой таблице ключом соединителя перед возвращением строки для каждого совпадения в правую таблицу. [](/azure/data-explorer/kusto/query/joinoperator#join-flavors) Если в левой таблице имеется несколько строк с одинаковым значением для ключа, эти строки будут отлажены, чтобы оставить одну рандомную строку для каждого `join` уникального значения.
 
     Это поведение по умолчанию может оставить важные сведения из левой таблицы, которые могут предоставить полезные сведения. Например, в приведенном ниже запросе будет содержаться только одно сообщение, содержащее определенное вложение, даже если это же вложение было отправлено с помощью нескольких сообщений электронной почты:
 
@@ -92,7 +92,7 @@ ms.locfileid: "50727275"
     | join (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```
 
-    Чтобы решить это ограничение, мы применяем аромат [внутреннего](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) присоединяния, указав, чтобы показать все строки в левой таблице со значениями в `kind=inner` правой части:
+    Чтобы решить это ограничение, мы применяем аромат [внутреннего](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) присоединяния, указав, чтобы показать все строки в левой таблице со значениями в `kind=inner` правой части:
     
     ```kusto
     EmailAttachmentInfo
@@ -125,9 +125,9 @@ ms.locfileid: "50727275"
     | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```  
 
-- **Используйте подсказки для производительности**— Используйте подсказки с оператором, чтобы проинструктация backend для распределения нагрузки при работе с ресурсоемкими `join` операциями. [Дополнительные новости о подсказках о вступив](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
+- **Используйте подсказки для производительности**— Используйте подсказки с оператором, чтобы проинструктация backend для распределения нагрузки при работе с ресурсоемкими `join` операциями. [Дополнительные новости о подсказках о вступив](/azure/data-explorer/kusto/query/joinoperator#join-hints)
 
-    Например, подсказка перетасовки помогает повысить производительность запроса при присоединении к таблицам с помощью ключа с высокой кардиналиальностью — ключа с множеством уникальных значений, таких как в нижеуказаемом **[](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** `AccountObjectId` запросе:
+    Например, подсказка перетасовки помогает повысить производительность запроса при присоединении к таблицам с помощью ключа с высокой кардиналиальностью — ключа с множеством уникальных значений, таких как в нижеуказаемом **[](/azure/data-explorer/kusto/query/shufflequery)** `AccountObjectId` запросе:
 
     ```kusto
     IdentityInfo
@@ -139,7 +139,7 @@ ms.locfileid: "50727275"
     on AccountObjectId 
     ```
     
-    Подсказка **[на трансляцию](https://docs.microsoft.com/azure/data-explorer/kusto/query/broadcastjoin)** помогает, если левая таблица небольшая (до 100 000 записей), а правая — очень большая. Например, в приведенной ниже области запрос пытается присоединиться к  нескольким электронным письмам с определенными субъектами со всеми сообщениями, содержащими ссылки в `EmailUrlInfo` таблице:
+    Подсказка **[на трансляцию](/azure/data-explorer/kusto/query/broadcastjoin)** помогает, если левая таблица небольшая (до 100 000 записей), а правая — очень большая. Например, в приведенной ниже области запрос пытается присоединиться к  нескольким электронным письмам с определенными субъектами со всеми сообщениями, содержащими ссылки в `EmailUrlInfo` таблице:
 
     ```kusto
     EmailEvents 
@@ -148,7 +148,7 @@ ms.locfileid: "50727275"
     ```
 
 ## <a name="optimize-the-summarize-operator"></a>Оптимизация `summarize` оператора
-Оператор [сводки](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator) агрегирует содержимое таблицы. Используйте эти советы для оптимизации запросов, которые используют этот оператор.
+Оператор [сводки](/azure/data-explorer/kusto/query/summarizeoperator) агрегирует содержимое таблицы. Используйте эти советы для оптимизации запросов, которые используют этот оператор.
 
 - **Найдите различные значения**. В общем, используйте `summarize` для поиска различных значений, которые могут быть повторяющимися. Это может быть ненужным, чтобы использовать его для агрегированных столбцов, которые не имеют повторяющихся значений.
 
@@ -174,7 +174,7 @@ ms.locfileid: "50727275"
     | summarize by SenderFromAddress, RecipientEmailAddress   
     ```
 
-- **Перетасовка** запроса . Хотя лучше всего использовать в столбцах с повторяющимися значениями, те же столбцы также могут иметь высокий кардинальный характер или большое количество `summarize`  уникальных значений. Как и оператор, вы также можете применить подсказку перетасовки для распределения нагрузки на обработку и потенциально повысить производительность при работе на столбцах `join` с [](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) `summarize` высокой кардинальностью.
+- **Перетасовка** запроса . Хотя лучше всего использовать в столбцах с повторяющимися значениями, те же столбцы также могут иметь высокий кардинальный характер или большое количество `summarize`  уникальных значений. Как и оператор, вы также можете применить подсказку перетасовки для распределения нагрузки на обработку и потенциально повысить производительность при работе на столбцах `join` с [](/azure/data-explorer/kusto/query/shufflequery) `summarize` высокой кардинальностью.
 
     В приведенного ниже запросе используется для подсчета определенного адреса электронной почты получателя, который может работать в сотнях тысяч `summarize` в крупных организациях. Чтобы повысить производительность, он включает `hint.shufflekey` в себя:
 
@@ -210,7 +210,7 @@ InitiatingProcessCreationTime, InitiatingProcessFileName
 Чтобы создать более надежные запросы вокруг командных строк, применяйте следующие практики:
 
 - Определите известные процессы *(например,net.exe* *илиpsexec.exe)* путем совпадения на полях имен файлов, а не фильтрации на самой командной строке.
-- Разделы командной строки parse с [помощью функции parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) 
+- Разделы командной строки parse с [помощью функции parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) 
 - При запросе аргументов командной строки искать точное совпадение для нескольких несвязанных аргументов в определенном порядке не имеет смысла. Вместо этого используются регулярные выражения или несколько отдельных аргументов, содержащих операторы.
 - Совпадения используются без учета регистра. Например, используйте `=~` `in~` , и вместо , `contains` и `==` `in` `contains_cs` .
 - Чтобы смягчить методы запутывания командной строки, рекомендуется удалить кавычка, заменить запятые пробелами и заменить несколько последовательных пробелов одним пространством. Существуют более сложные методы запутывания, которые требуют других подходов, но эти настройки могут помочь в решении распространенных.
@@ -235,7 +235,7 @@ DeviceProcessEvents
 ```
 
 ### <a name="ingest-data-from-external-sources"></a>Ingest data from external sources
-Чтобы включить длинные списки или большие таблицы в запрос, используйте [оператора externaldata](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) для пользования данными из указанного URI. Вы можете получать данные из файлов в TXT, CSV, JSON или [других форматах.](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats) В приведенной ниже примере показано, как можно использовать обширный список хеш-файлов SHA-256, предоставляемых MalwareBazaar (abuse.ch) для проверки вложений в сообщениях электронной почты:
+Чтобы включить длинные списки или большие таблицы в запрос, используйте [оператора externaldata](/azure/data-explorer/kusto/query/externaldata-operator) для пользования данными из указанного URI. Вы можете получать данные из файлов в TXT, CSV, JSON или [других форматах.](/azure/data-explorer/ingestion-supported-formats) В приведенной ниже примере показано, как можно использовать обширный список хеш-файлов SHA-256, предоставляемых MalwareBazaar (abuse.ch) для проверки вложений в сообщениях электронной почты:
 
 ```kusto
 let abuse_sha256 = (externaldata(sha256_hash: string )
@@ -256,16 +256,16 @@ SHA256,ThreatTypes,DetectionMethods
 
 | String | Функция | Пример использования |
 |--|--|--|
-| Командные строки | [parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | Извлекать команду и все аргументы. | 
-| Пути | [parse_path()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | Извлечение разделов пути файла или папки. |
-| Номера версий | [parse_version()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-versionfunction) | Деконструировать номер версии с четырьмя разделами и до восьми символов в разделе. Чтобы сравнить возраст версии, используйте разносчетные данные. |
-| Адреса IPv4 | [parse_ipv4()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv4function) | Преобразование адреса IPv4 в длинный ряд. Чтобы сравнить адреса IPv4 без их преобразования, [используйте ipv4_compare()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv4-comparefunction). |
-| Адреса IPv6 | [parse_ipv6()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv6function)  | Преобразование адреса IPv4 или IPv6 в каноническую нотацию IPv6. Чтобы сравнить адреса IPv6, используйте [ipv6_compare()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv6-comparefunction). |
+| Командные строки | [parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) | Извлекать команду и все аргументы. | 
+| Пути | [parse_path()](/azure/data-explorer/kusto/query/parsepathfunction) | Извлечение разделов пути файла или папки. |
+| Номера версий | [parse_version()](/azure/data-explorer/kusto/query/parse-versionfunction) | Деконструировать номер версии с четырьмя разделами и до восьми символов в разделе. Чтобы сравнить возраст версии, используйте разносчетные данные. |
+| Адреса IPv4 | [parse_ipv4()](/azure/data-explorer/kusto/query/parse-ipv4function) | Преобразование адреса IPv4 в длинный ряд. Чтобы сравнить адреса IPv4 без их преобразования, [используйте ipv4_compare()](/azure/data-explorer/kusto/query/ipv4-comparefunction). |
+| Адреса IPv6 | [parse_ipv6()](/azure/data-explorer/kusto/query/parse-ipv6function)  | Преобразование адреса IPv4 или IPv6 в каноническую нотацию IPv6. Чтобы сравнить адреса IPv6, используйте [ipv6_compare()](/azure/data-explorer/kusto/query/ipv6-comparefunction). |
 
-Чтобы узнать обо всех поддерживаемых функциях размыва, [ознакомьтесь с функциями строк Kusto.](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
+Чтобы узнать обо всех поддерживаемых функциях размыва, [ознакомьтесь с функциями строк Kusto.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
 
-## <a name="related-topics"></a>Похожие темы
-- [Документация по языку запросов Kusto](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
+## <a name="related-topics"></a>Родственные темы
+- [Документация по языку запросов Kusto](/azure/data-explorer/kusto/query/)
 - [Квоты и параметры использования](advanced-hunting-limits.md)
 - [Обработка ошибок, совершенных в области охоты](advanced-hunting-errors.md)
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

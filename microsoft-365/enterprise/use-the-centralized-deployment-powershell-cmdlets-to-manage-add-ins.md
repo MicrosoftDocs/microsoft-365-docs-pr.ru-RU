@@ -1,5 +1,5 @@
 ---
-title: Использование централизованного развертывания powerShell для управления надстройки
+title: Чтобы управлять надстройкими, используйте централизованные комлеты Deployment PowerShell
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -19,17 +19,17 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: Используйте централизованное развертывание powerShell для развертывания надстройок Office в организации Microsoft 365 и управления ими.
-ms.openlocfilehash: 659f12d2533601c4b2165a95ddbf59ea521945b8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Чтобы помочь развертыванию и управлению надстройки Office для организации Microsoft 365, используйте централизованные программы развертывания PowerShell.
+ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693445"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924676"
 ---
-# <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>Использование централизованного развертывания powerShell для управления надстройки
+# <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>Чтобы управлять надстройкими, используйте централизованные комлеты Deployment PowerShell
 
-Как глобальный администратор Microsoft 365 вы можете развертывать надстройки Office для пользователей с помощью функции централизованного развертывания (см. статью "Развертывание надстройки Office в Центре [администрирования").](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins) Помимо развертывания надстройки Office через Центр администрирования Microsoft 365, вы также можете использовать Microsoft PowerShell. Установите модуль централизованного развертывания [O365 Add-In для Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment) 
+В качестве глобального администратора Microsoft 365 вы можете развернуть надстройки Office для пользователей с помощью функции централизованного развертывания (см. статью Развертывание надстройок Office в центре [администрирования).](../admin/manage/manage-deployment-of-add-ins.md) Помимо развертывания надстройок Office через центр администрирования Microsoft 365 вы также можете использовать Microsoft PowerShell. Установите [централизованный модуль развертывания O365 Add-In для Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment) 
 
 После загрузки модуля откройте обычное окно Windows PowerShell и запустите следующий командлет:
 
@@ -39,19 +39,19 @@ ms.locfileid: "46693445"
     
 ## <a name="connect-using-your-admin-credentials"></a>Подключение с помощью учетных данных администратора
 
-Прежде чем использовать централизованные развертывание, необходимо войти.
+Прежде чем использовать централизованные кодлеты развертывания, необходимо войти.
   
-1. Запустите PowerShell.
+1. Запуск PowerShell.
     
-2. Подключись к PowerShell, используя учетные данные администратора компании. Запустите следующий cmdlet.
+2. Подключение к PowerShell с помощью учетных данных администратора вашей компании. Запустите следующий cmdlet.
     
   ```powershell
   Connect-OrganizationAddInService
   ```
 
-3. На странице **"Ввод учетных данных"** введите учетные данные глобального администратора Microsoft 365. Кроме того, вы можете ввести свои учетные данные непосредственно в cmdlet. 
+3. На странице **Ввод учетных данных** введите глобальные учетные данные администратора Microsoft 365. Поочередно можно ввести учетные данные непосредственно в cmdlet. 
     
-    Запустите следующий cmdlet, указав учетные данные администратора компании в качестве объекта PSCredential.
+    Запустите следующий комдлет с указанием учетных данных администратора компании в качестве объекта PSCredential.
     
   ```powershell
   $secpasswd = ConvertTo-SecureString "MyPassword" -AsPlainText -Force
@@ -60,17 +60,17 @@ ms.locfileid: "46693445"
   ```
 
 > [!NOTE]
-> Дополнительные сведения об использовании PowerShell см. в подключении к [Microsoft 365 с помощью PowerShell.](https://go.microsoft.com/fwlink/p/?linkid=848585) 
+> Дополнительные сведения об использовании PowerShell см. в сайте [Connect to Microsoft 365 with PowerShell.](./connect-to-microsoft-365-powershell.md) 
   
 ## <a name="upload-an-add-in-manifest"></a>Отправка манифеста надстройки
 
-Запустите **cmdlet New-OrganizationAdd-In,** чтобы отправить манифест надстройки по пути, который может быть расположением файла или URL-адресом. В следующем примере показано расположение файла для значения _параметра ManifestPath._ 
+Запустите **комлет New-OrganizationAdd-In,** чтобы загрузить манифест надстройки с пути, который может быть расположением файла или URL-адресом. В следующем примере показано расположение файла для значения _параметра ManifestPath._ 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
 ```
 
-Кроме того, можно выполнить с помощью команды **New-OrganizationAdd-In,** чтобы отправить надстройку и назначить ее пользователям или группам напрямую с помощью параметра  _Members,_ как показано в следующем примере. Разделять адреса электронной почты участников запятой. 
+Кроме того, можно запустить команды **New-OrganizationAdd-In,** чтобы загрузить надстройку и назначить ее пользователям или группам непосредственно с помощью параметра  _Members,_ как показано в следующем примере. Разделим адреса электронной почты участников с запятой. 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
@@ -78,36 +78,36 @@ New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale '
 
 ## <a name="upload-an-add-in-from-the-office-store"></a>Отправка надстройки из Магазина Office
 
-Запустите **cmdlet New-OrganizationAddIn,** чтобы отправить манифест из Магазина Office.
+Запустите **кодлет New-OrganizationAddIn,** чтобы загрузить манифест из магазина Office.
   
-В следующем примере для надстройки для рынка расположения и контента в США указывается код AssetId для **new-OrganizationAddIn.**
+В следующем примере в **кодлете New-OrganizationAddIn** указывается AssetId для надстройки для рынка расположения и контента в США.
   
 ```powershell
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-Чтобы определить значение параметра  _AssetId,_ можно скопировать его с URL-адреса веб-страницы Магазина Office для надстройки. AssetIds всегда начинаются с "WA", за которым следует число. Например, в предыдущем примере источником значения AssetId wa104099688 является URL-адрес веб-страницы Магазина Office для надстройки: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688)
+Чтобы определить значение  _параметра AssetId,_ вы можете скопировать его с URL-адреса веб-страницы Office Store для надстройки. AssetIds всегда начинаются с "WA", за которым следует номер. Например, в предыдущем примере источником значения AssetId WA104099688 является URL-адрес веб-страницы Office Store для надстройки: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
   
-Значения параметров  _Locale_ и  _ContentMarket_ идентичны и указывают страну или регион, из которые вы пытаетесь установить надстройку. Формат: en-US, fr-FR. и так далее. 
+Значения для параметра  _Locale_ и  _параметра ContentMarket_ идентичны и указывают страну или регион, в который вы пытаетесь установить надстройку. Формат en-US, fr-FR. и так далее. 
   
 > [!NOTE]
-> Надстройки, загруженные из Магазина Office, будут автоматически обновляться в течение нескольких дней после того, как в Магазине Office будет доступно последнее обновление. 
+> Надстройки, загруженные из Магазина Office, будут автоматически обновляться в течение нескольких дней после последнего обновления, доступного в Магазине Office. 
   
-## <a name="get-details-of-an-add-in"></a>Получить сведения о надстройки
+## <a name="get-details-of-an-add-in"></a>Сведения о надстройки
 
-Запустите **cmdlet Get-OrganizationAddIn,** как показано ниже, чтобы получить сведения о всех надстройки, загруженных в клиент, включая код продукта надстройки.
+Запустите **cmdlet Get-OrganizationAddIn,** как показано ниже, чтобы получить сведения о всех надстройки, загруженных на клиента, включая код продукта надстройки.
   
 ```powershell
 Get-OrganizationAddIn
 ```
 
-Запустите **cmdlet Get-OrganizationAddIn** со значением параметра  _ProductId,_ чтобы указать, для какой надстройки требуется получить сведения. 
+Запустите **комлет Get-OrganizationAddIn** со значением для параметра  _ProductId,_ чтобы указать, для какой надстройки необходимо получить сведения. 
   
 ```powershell
 Get-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 ```
 
-Чтобы получить полные сведения о всех надстройки, а также о назначенных пользователях и группах, перенаправляйте выходные данные из **get-OrganizationAddIn** в Format-List, как показано в следующем примере.
+Чтобы получить полные сведения о всех надстройках, а также о задавляемом пользователе и группах, перенаправляйте вывод комлета **Get-OrganizationAddIn** в Format-List, как показано в следующем примере.
   
 ```powershell
 foreach($G in (Get-organizationAddIn)){Get-OrganizationAddIn -ProductId $G.ProductId | Format-List}
@@ -115,13 +115,13 @@ foreach($G in (Get-organizationAddIn)){Get-OrganizationAddIn -ProductId $G.Produ
 
 ## <a name="turn-on-or-turn-off-an-add-in"></a>Включите или отключите надстройки
 
-Чтобы отключить надстройку, чтобы у пользователей и групп, которые ей были назначены, больше не было доступа, запустите **cmdlet Set-OrganizationAddIn** с параметром _ProductId_ и параметром _Enabled,_ как показано в следующем примере. `$false`
+Чтобы отключить надстройку, чтобы у пользователей и групп, которые ей назначены, больше не было доступа, запустите комлет **Set-OrganizationAddIn** с параметром  _ProductId_ и  _параметром Enabled,_ как показано в следующем  `$false` примере.
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $false
 ```
 
-Чтобы снова включить надстройку, запустите тот же самый cmdlet с параметром _Enabled._ `$true`
+Чтобы включить надстройку, запустите тот же самый комдлет с параметром _Включен._ `$true`
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $true
@@ -129,25 +129,25 @@ Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $
 
 ## <a name="add-or-remove-users-from-an-add-in"></a>Добавление или удаление пользователей из надстройки
 
-Чтобы добавить пользователей и группы в определенную надстройку, запустите **cmdlet Set-OrganizationAddInAssignments** с параметрами _ProductId,_ _Add_ и _Members._ Разделять адреса электронной почты участников запятой. 
+Чтобы добавить пользователей и группы в определенную надстройку, запустите команды **Set-OrganizationAddInAssignments** с параметрами _ProductId,_ _Add_ и _Members._ Разделим адреса электронной почты участников с запятой. 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Add -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-Чтобы удалить пользователей и группы, запустите тот же самый cmdlet с помощью _параметра Remove._ 
+Чтобы удалить пользователей и группы, запустите один и тот же кодлет с помощью _параметра Remove._ 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Remove -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-Чтобы назначить надстройку всем пользователям в клиенте, запустите тот же самый cmdlet, используя параметр  _AssignToEveryone_ со значением , установленным на  `$true` .
+Чтобы назначить надстройку всем пользователям клиента, запустите один и тот же кодлет с помощью  _параметра AssignToEveryone_ с заданным значением  `$true` .
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $true
 ```
 
-Чтобы не назначать надстройку всем и вернуться к ранее назначенной группе и пользователям, можно запустить тот же самый и тот же параметр и отключить параметр  _AssignToEveryone,_ задав для нее значение  `$false` .
+Чтобы не назначить надстройку всем и вернуться к ранее назначенным пользователям и группам, можно запустить один и тот же кодлет и отключить параметр  _AssignToEveryone,_ задав его значение  `$false` .
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $false
@@ -155,18 +155,18 @@ Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 
 ## <a name="update-an-add-in"></a>Обновление надстройки
 
-Чтобы обновить надстройку из манифеста, запустите его с параметрами _ProductId,_ _ManifestPath_ и _Locale,_ как показано в следующем примере.  
+Чтобы обновить надстройку из манифеста, запустите кодлет **Set-OrganizationAddIn** с параметрами  _ProductId,_  _ManifestPath_ и  _Locale,_ как показано в следующем примере. 
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
 ```
 
 > [!NOTE]
-> Надстройки, загруженные из Магазина Office, будут автоматически обновляться в течение нескольких дней после того, как в Магазине Office будет доступно последнее обновление. 
+> Надстройки, загруженные из Магазина Office, будут автоматически обновляться в течение нескольких дней после последнего обновления, доступного в Магазине Office. 
   
 ## <a name="delete-an-add-in"></a>Удаление надстройки
 
-Чтобы удалить надстройку, запустите **cmdlet Remove-OrganizationAddIn** с параметром  _ProductId,_ как показано в следующем примере. 
+Чтобы удалить надстройку, запустите комлет **Remove-OrganizationAddIn** с параметром  _ProductId,_ как показано в следующем примере. 
   
 ```powershell
 Remove-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
@@ -270,12 +270,10 @@ If an add-in has been deployed, it has to be removed from the cache in each comp
 
 -->
 
-## <a name="get-detailed-help-for-each-cmdlet"></a>Получите подробную справку по каждому из них
+## <a name="get-detailed-help-for-each-cmdlet"></a>Получить подробную справку для каждого cmdlet
 
-Подробные сведения о каждом из них см. в справке с помощью get-help. Например, следующий cmdlet предоставляет подробные сведения о Remove-OrganizationAddIn.
+Подробные сведения о каждом комлете можно найти с помощью cmdlet Get-help. Например, в следующем cmdlet содержится подробная информация о Remove-OrganizationAddIn.
   
 ```powershell
 Get-help Remove-OrganizationAddIn -Full
 ```
-
-

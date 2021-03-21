@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Сведения о создании классификатора
-ms.openlocfilehash: bff23807fce18bf4a585dbb1ec47c1502ab686f6
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 13ae099d051ac526dc5b13e4cb55a1dc10eec087
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242692"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925360"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Создание классификатора в Microsoft SharePoint Syntex
 
@@ -32,7 +32,7 @@ ms.locfileid: "50242692"
 
 ![Документ для продления контракта](../media/content-understanding/contract-renewal.png)
 
-Создание классификатора позволяет создать новый [тип контента SharePoint](https://docs.microsoft.com/sharepoint/governance/content-type-and-workflow-planning#content-type-overview), который будет связан с моделью.
+Создание классификатора позволяет создать новый [тип контента SharePoint](/sharepoint/governance/content-type-and-workflow-planning#content-type-overview), который будет связан с моделью.
 
 При создании классификатора вам требуется создать *объяснения*, чтобы определить модель. Это позволяет вам отметить общие данные, которые вы ожидаете видеть в этом типе документа. 
 

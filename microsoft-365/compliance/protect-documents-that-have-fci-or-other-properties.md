@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как использовать политику предотвращения потери данных (DLP) для защиты документов, которые имеют свойства из сторонной системы.
-ms.openlocfilehash: 971d2a1dd4f69f7bbd2598e31fc99c9c5cfe1eda
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 2d66a0a863b2076044a5c1d1cb9c3d4e8c29a186
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423802"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925565"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
 
@@ -55,7 +55,7 @@ ms.locfileid: "50423802"
 
 Это важно, так как DLP использует обходной обходной запрос для определения и классификации конфиденциальных сведений на сайтах, а затем хранения этих конфиденциальных сведений в безопасной части индекса поиска. При отправке документа в Office 365 SharePoint автоматически создает свойства обхода на основе свойств документа. Но для использования FCI или другого свойства в политике DLP для обхода свойства необходимо соедествовать с управляемым свойством, чтобы содержимое этого свойства было сохранено в индексе.
 
-Дополнительные сведения о свойствах поиска и управляемых свойств см. в раздел Управление схемой поиска [в SharePoint Online.](https://go.microsoft.com/fwlink/p/?LinkID=627454)
+Дополнительные сведения о свойствах поиска и управляемых свойств см. в раздел Управление схемой поиска [в SharePoint Online.](/sharepoint/manage-search-schema)
 
 ### <a name="step-1-upload-a-document-with-the-needed-property-to-office-365"></a>Шаг 1. Отправка документа с необходимым свойством в Office 365
 
@@ -105,9 +105,9 @@ ms.locfileid: "50423802"
 
 Свойства **документа** условия, содержащие любое из этих значений, временно недоступны в пользовательском интерфейсе Центра соответствия требованиям безопасности, но это условие можно использовать с &amp; помощью PowerShell. Вы можете использовать cmdlets для работы с политикой DLP, а также использовать  `New\Set\Get-DlpCompliancePolicy` cmdlets с параметром, чтобы добавить свойства документа условия содержат любое из  `New\Set\Get-DlpComplianceRule`  `ContentPropertyContainsWords` этих **значений**.
 
-Дополнительные сведения об этих cmdlets см. в [ &amp; cmdlets Центра](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)соответствия требованиям безопасности.
+Дополнительные сведения об этих cmdlets см. в [ &amp; cmdlets Центра](/powershell/exchange/exchange-online-powershell)соответствия требованиям безопасности.
 
-1. [Подключение к Центру соответствия &amp; требованиям безопасности с помощью удаленной PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [Подключение к Центру соответствия &amp; требованиям безопасности с помощью удаленной PowerShell](/powershell/exchange/connect-to-scc-powershell)
 
 2. Создайте политику с помощью  `New-DlpCompliancePolicy` .
 
@@ -125,7 +125,7 @@ ms.locfileid: "50423802"
    New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $true -ContentPropertyContainsWords "Personally Identifiable Information:High,Moderate" -Disabled $falseNew-DlpComplianceRule -Name FCI_PII_content-Low -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $false -ContentPropertyContainsWords "Personally Identifiable Information:Low" -Disabled $false -NotifyUser Owner
    ```
 
-   Windows Server FCI включает множество встроенных свойств, в том числе личные сведения, используемые в этом примере.  Возможные значения для каждого свойства могут быть разными для каждой организации. Используемые здесь значения **High,** **Moderate** и **Low** являются только примером. В организации можно просмотреть свойства классификации Windows Server FCI с их возможными значениями в файле Server Resource Manager на файловом сервере windows Server. Дополнительные сведения см. в [свойство Create a classification property.](https://go.microsoft.com/fwlink/p/?LinkID=627456)
+   Windows Server FCI включает множество встроенных свойств, в том числе личные сведения, используемые в этом примере.  Возможные значения для каждого свойства могут быть разными для каждой организации. Используемые здесь значения **High,** **Moderate** и **Low** являются только примером. В организации можно просмотреть свойства классификации Windows Server FCI с их возможными значениями в файле Server Resource Manager на файловом сервере windows Server. Дополнительные сведения см. в [свойство Create a classification property.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759215(v=ws.11))
 
 По завершению политики должны быть два новых правила, в которых оба свойства документа содержат любое **из этих значений.** Это условие не будет отображаться в пользовательском интерфейсе, хотя будут отображаться другие условия, действия и параметры.
 
@@ -142,7 +142,7 @@ ms.locfileid: "50423802"
 > [!CAUTION]
 > [!Внимание!]  Переиндексация сайта может создать большую нагрузку на систему поиска. Не переиндексировать свой сайт, если сценарий не требует его.
 
-Дополнительные сведения см. в статье [Ручной запрос обхода контента и переиндексации сайта, библиотеки или списка](https://go.microsoft.com/fwlink/p/?LinkID=627457).
+Дополнительные сведения см. в статье [Ручной запрос обхода контента и переиндексации сайта, библиотеки или списка](/sharepoint/crawl-site-content).
 
 ### <a name="reindex-a-site-optional"></a>Reindex сайт (необязательный)
 

@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 3d083537f3a9337d88d63861e0bf66867f558aba
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 2443319d254130b38bb1047a633c85c160eadd8c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454009"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926004"
 ---
 # <a name="manage-topics-in-the-topic-center"></a>Управление темами в центре Темы 
 
@@ -52,7 +52,7 @@ ms.locfileid: "50454009"
 Чтобы управлять темами в центре Topic, необходимо:
 - Лицензия Viva Topics.
 
-- Разрешение who [**can manage topics.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Администраторы знаний могут предоставить пользователям это разрешение в настройках разрешений темы Viva Topics. 
+- Разрешение who [**can manage topics.**](./topic-experiences-user-permissions.md) Администраторы знаний могут предоставить пользователям это разрешение в настройках разрешений темы Viva Topics. 
 
 Вы не сможете просматривать страницу Управление темами в Центре тем, если у вас нет разрешения **who can manage topics.**
 
@@ -111,8 +111,4 @@ ms.locfileid: "50454009"
 ## <a name="published-topics"></a>Опубликованные темы
 Опубликованные темы были отредактированы таким образом, чтобы конкретные сведения всегда появлялись у тех, кто сталкивается со страницей. Здесь также перечислены созданные вручную темы.
 
-   ![Управление темами](../media/knowledge-management/manage-topics-new.png) </br> 
-
-
-
-
+   ![Управление темами](../media/knowledge-management/manage-topics-new.png) </br>
