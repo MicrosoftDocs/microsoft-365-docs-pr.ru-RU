@@ -108,6 +108,8 @@
           href: get-started/get-started-devices.md
         - name: Первый запуск с помощью Autopilot и страницы состояния регистрации
           href: get-started/esp-first-run.md
+        - name: Служба определения местоположения в Windows 10
+          href: get-started/device-location.md
         - name: Начало работы с элементом управления приложениями
           href: get-started/get-started-app-control.md
         - name: Развертывание приложений
