@@ -17,12 +17,12 @@ ms.collection:
 description: Администраторы могут научиться настраивать почтовый ящик для сбора нежелательной почты и фишинга, о которых сообщают пользователи.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 37b473e2cfffff3984ff81245f09e98ee18685ea
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 0ac1028ca3485f75518ccca298a1fd85a7bf40ec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826202"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922394"
 ---
 # <a name="user-submissions-policy"></a>Политика отправки пользователей
 
@@ -75,7 +75,7 @@ ms.locfileid: "50826202"
 - Чтобы изменить конфигурацию для пользовательских представлений, необходимо быть членом одной из следующих групп ролей:
 
   - **Управление организацией** или **Администратор безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
-  - **Управление организацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Управление организацией** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Вам необходим доступ к Exchange Online PowerShell. Если учетная запись, которую вы пытаетесь использовать, не имеет доступа к Exchange Online PowerShell, при указании почтового ящика отправки вы получите ошибку, которая выглядит так:
 
@@ -83,8 +83,8 @@ ms.locfileid: "50826202"
 
   Дополнительные сведения о включив или отключив доступ к Exchange Online PowerShell, см. в следующих темах:
 
-  - [Включить или отключить доступ к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell) 
-  - [Правила клиентского доступа в Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
+  - [Включить или отключить доступ к Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Правила клиентского доступа в Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Используйте Центр & безопасности для настройки почтового ящика отправки пользователей
 
@@ -155,4 +155,3 @@ ms.locfileid: "50826202"
 `3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
 Сообщения, которые не следуют этому формату, не отображаются должным образом на портале Отправки.
-

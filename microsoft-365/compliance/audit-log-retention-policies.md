@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Политики хранения журналов аудита являются частью новых возможностей расширенного аудита в Microsoft 365. Политика хранения журнала аудита позволяет задавать срок хранения журналов аудита в Организации.
-ms.openlocfilehash: fd7e5dc37daad220257b4203679c6bb765140385
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 53449b6b83373eb2f749a4547845866dbea4a2af
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712049"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922855"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Управление политиками хранения журнала аудита
 
@@ -104,7 +104,7 @@ ms.locfileid: "50712049"
 
 
 > [!IMPORTANT]
-> С помощью командлета **New-UnifiedAuditLogRetentionPolicy** можно создать политику хранения журнала аудита для типов записей или действий, недоступных в средстве **Создание политики хранения записей аудита** в панели мониторинга. В этом случае вы не сможете изменять эту политику (например, изменять срок хранения, добавлять или удалять действия) на панели мониторинга **Политики хранения записей аудита**. Можно будет только просмотреть или удалить эту политику в Центре соответствия требованиям. Для изменения этой политики потребуется использовать командлет [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy) в PowerShell безопасности и соответствия требованиям.<br/><br/>**Совет.** Для политик, которые нужно изменять с помощью PowerShell, в верхней части всплывающей страницы выводится сообщение.
+> С помощью командлета **New-UnifiedAuditLogRetentionPolicy** можно создать политику хранения журнала аудита для типов записей или действий, недоступных в средстве **Создание политики хранения записей аудита** в панели мониторинга. В этом случае вы не сможете изменять эту политику (например, изменять срок хранения, добавлять или удалять действия) на панели мониторинга **Политики хранения записей аудита**. Можно будет только просмотреть или удалить эту политику в Центре соответствия требованиям. Для изменения этой политики потребуется использовать командлет [Set-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/set-unifiedauditlogretentionpolicy) в PowerShell безопасности и соответствия требованиям.<br/><br/>**Совет.** Для политик, которые нужно изменять с помощью PowerShell, в верхней части всплывающей страницы выводится сообщение.
 
 ### <a name="delete-policies-in-the-dashboard"></a>Удаление политик на панели мониторинга
 
@@ -118,7 +118,7 @@ ms.locfileid: "50712049"
 
 Выполните следующие действия, чтобы создать политику хранения журнала аудита в PowerShell.
 
-1. [Подключитесь к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Подключитесь к Центру безопасности и соответствия требованиям PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 2. Чтобы создать политику хранения журнала аудита, выполните следующую команду.
 
@@ -142,11 +142,11 @@ ms.locfileid: "50712049"
 New-UnifiedAuditLogRetentionPolicy -Name "SixMonth retention for admin logons" -RecordTypes AzureActiveDirectoryStsLogon -Operations UserLoggedIn -UserIds admin@contoso.onmicrosoft.com -RetentionDuration SixMonths -Priority 25
 ```
 
-Дополнительные сведения см. в статье [New-UnifiedAuditLogRetentionPolicy.](https://docs.microsoft.com/powershell/module/exchange/new-unifiedauditlogretentionpolicy)
+Дополнительные сведения см. в статье [New-UnifiedAuditLogRetentionPolicy.](/powershell/module/exchange/new-unifiedauditlogretentionpolicy)
 
 ### <a name="view-policies-in-powershell"></a>Просмотр политик в PowerShell
 
-Чтобы просмотреть политики хранения журнала аудита, используйте командлет [Get-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy) в модуле PowerShell Центра безопасности и соответствия требованиям.
+Чтобы просмотреть политики хранения журнала аудита, используйте командлет [Get-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/get-unifiedauditlogretentionpolicy) в модуле PowerShell Центра безопасности и соответствия требованиям.
 
 Вот пример команды, чтобы отобразить параметры для всех политик хранения журнала аудита в вашей организации. Эта команда сортирует политики в порядке убывания приоритета.
 
@@ -159,11 +159,11 @@ Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending 
 
 ### <a name="edit-policies-in-powershell"></a>Изменение политик в PowerShell
 
-Чтобы изменить существующую политику хранения журнала аудита, используйте командлет [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy) в модуле PowerShell Центра безопасности и соответствия требованиям.
+Чтобы изменить существующую политику хранения журнала аудита, используйте командлет [Set-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/set-unifiedauditlogretentionpolicy) в модуле PowerShell Центра безопасности и соответствия требованиям.
 
 ### <a name="delete-policies-in-powershell"></a>Удаление политик в PowerShell
 
-Чтобы удалить политику хранения журнала аудита, используйте командлет [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-unifiedauditlogretentionpolicy) в модуле PowerShell Центра безопасности и соответствия требованиям. Удаление политики из организации может занять до 30 минут.
+Чтобы удалить политику хранения журнала аудита, используйте командлет [Remove-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/remove-unifiedauditlogretentionpolicy) в модуле PowerShell Центра безопасности и соответствия требованиям. Удаление политики из организации может занять до 30 минут.
 
 ## <a name="more-information"></a>Дополнительные сведения
 

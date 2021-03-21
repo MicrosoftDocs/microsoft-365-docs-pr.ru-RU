@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте блокировку для сохранения совместно с политиками хранения и политиками меток хранения, чтобы обеспечить соответствие нормативным требованиям и защититься от недобросовестных администраторов.
-ms.openlocfilehash: 9890c73495bd14ea7264f3314f6313254ef1bf6b
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 72f667b970b4257a3a540fb74a121c620892b56d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49612991"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922533"
 ---
 # <a name="use-preservation-lock-to-restrict-changes-to-retention-policies-and-retention-label-policies"></a>Использование блокировки для сохранения в целях ограничения изменений в политиках хранения и политиках меток хранения.
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Функция блокировки для сохранения блокирует политику хранения или политику метки хранения, чтобы никто, в том числе глобальный администратор, не мог отключить политику, удалить ее или сделать менее строгой. Эта конфигурация может потребоваться для соблюдения нормативных требований и помогает защититься от недобросовестных администраторов.
 
@@ -56,13 +56,13 @@ ms.locfileid: "49612991"
 
 Все политики хранения с любыми настройками поддерживают блокировку для сохранения.
 
-1. [Подключение к Центру безопасности и соответствия требованиям Windows PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Подключение к Центру безопасности и соответствия требованиям Windows PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
-2. Найдите название политики, которую вы хотите заблокировать, выполнив команду [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy). Например:
+2. Найдите название политики, которую вы хотите заблокировать, выполнив команду [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy). Например:
     
    ![Список политик хранения в PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
-3. Чтобы применить блокировку для сохранения к политике, выполните командлет [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) с именем политики и параметром *RestrictiveRetention*, которому присвоено значение true:
+3. Чтобы применить блокировку для сохранения к политике, выполните командлет [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) с именем политики и параметром *RestrictiveRetention*, которому присвоено значение true:
     
     ```powershell
     Set-RetentionCompliancePolicy -Identity "<Name of Policy>" –RestrictiveRetention $true

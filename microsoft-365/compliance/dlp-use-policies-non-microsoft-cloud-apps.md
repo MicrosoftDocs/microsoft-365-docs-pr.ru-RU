@@ -1,5 +1,5 @@
 ---
-title: Использование политик защиты от потери данных для облачных приложений, не в корпорации Майкрософт (предварительная версия)
+title: Используйте политики предотвращения потери данных для облачных приложений, не в microsoft (предварительный просмотр)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,72 +19,72 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Узнайте, как использовать политики DLP для облачных приложений, не в корпорации Майкрософт.
-ms.openlocfilehash: 0b588bf27738a0f9a8078999311294f74e5193c0
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Узнайте, как использовать политики dlp для облачных приложений, не в microsoft.
+ms.openlocfilehash: 6787add3ef8b2d6ded22bd05c0ff9658c4b7fbfc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649660"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922085"
 ---
-# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Использование политик защиты от потери данных для облачных приложений, не в корпорации Майкрософт (предварительная версия)
+# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Используйте политики предотвращения потери данных для облачных приложений, не в microsoft (предварительный просмотр)
 
-Политики защиты от потери данных (DLP) для облачных приложений, не в корпорации Майкрософт, являются частью набора функций защиты от потери данных Microsoft 365; с помощью этих функций вы можете обнаруживть и защищать конфиденциальные элементы в службах Microsoft 365. Дополнительные сведения обо всех предложениях защиты от потери данных (Майкрософт) см. в обзоре защиты [от потери данных.](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide)
+Политики предотвращения потери данных (DLP) для не microsoft cloud apps являются частью пакета функций DLP Microsoft 365; С помощью этих функций можно обнаружить и защитить конфиденциальные элементы в службах Microsoft 365. Дополнительные сведения обо всех предложениях Microsoft DLP см. в [обзоре предотвращения потери данных.](./data-loss-prevention-policies.md?view=o365-worldwide)
 
-Политики DLP можно использовать для облачных приложений, не в корпорации Майкрософт, для отслеживания и обнаружения использования конфиденциальных элементов и их совместного использования через облачные приложения, не относящуюся к Майкрософт. Использование этих политик обеспечивает видимость и контроль, необходимые для их правильного использования и защиты, а также помогает предотвратить рискованные действия, которые могут привести к их компрометации.
+Политики DLP можно использовать в облачных приложениях, не в microsoft, для мониторинга и обнаружения использования конфиденциальных элементов и их общего использования с помощью облачных приложений, не в microsoft. Использование этих политик обеспечивает видимость и контроль, необходимые для обеспечения правильного использования и защиты этих политик, а также позволяет предотвратить рискованное поведение, которое может привести к их угрозе.
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
 ### <a name="skusubscriptions-licensing"></a>Лицензирование SKU/подписки
 
-Прежде чем приступить к использованию политик DLP в облачных приложениях, не в корпорации Майкрософт, подтвердите свою подписку [на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) и любые надстройки. Чтобы получить доступ к этой функции и использовать ее, необходимо иметь одну из этих подписок или надстройки:
+Прежде чем приступить к использованию политик DLP в облачных приложениях, не в microsoft, подтвердите подписку [на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) и любые надстройки. Чтобы получить доступ к этой функции и использовать ее, необходимо иметь одну из этих подписок или надстройок:
 
 - Microsoft 365 E5
 - Соответствие требованиям Microsoft 365 E5
 - Безопасность Microsoft 365 E5
 
-### <a name="prepare-your-cloud-app-security-environment"></a>Подготовка среды Cloud App Security
+### <a name="prepare-your-cloud-app-security-environment"></a>Подготовка среды безопасности облачных приложений
 
-Политики DLP для облачных приложений, не в корпорации Майкрософт, используют возможности cloud App Security DLP. Чтобы использовать его, необходимо подготовить среду Cloud App Security. Инструкции см. в [настройках мгновенного видимости, защиты](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps)и действий по управлению приложениями.
+Политики DLP для не microsoft cloud apps используют возможности DLP безопасности облачных приложений. Чтобы использовать его, необходимо подготовить среду безопасности облачных приложений. Инструкции см. в [инструкции Set instant visibility, protection and governance actions for your apps.](/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps)
 
-### <a name="connect-a-non-microsoft-cloud-app"></a>Подключение к облачному приложению от корпорации Майкрософт
+### <a name="connect-a-non-microsoft-cloud-app"></a>Подключение облачного приложения, не в microsoft
 
-Чтобы использовать политику DLP для определенного облачного приложения от корпорации Майкрософт, приложение должно быть подключено к Cloud App Security. Дополнительные сведения см. в указанных ниже статьях.
+Чтобы использовать политику DLP в определенном облачном приложении, не связанном с Microsoft, приложение должно быть подключено к облачной безопасности приложений. Дополнительные сведения см. в указанных ниже статьях.
 
-- [Connect Box](https://docs.microsoft.com/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
-- [Подключение Dropbox](https://docs.microsoft.com/cloud-app-security/connect-dropbox-to-microsoft-cloud-app-security)
-- [Подключение G-Suite](https://docs.microsoft.com/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
-- [Подключение Salesforce](https://docs.microsoft.com/cloud-app-security/connect-salesforce-to-microsoft-cloud-app-security)
-- [Подключение Cisco Webex](https://docs.microsoft.com/cloud-app-security/connect-webex-to-microsoft-cloud-app-security)
+- [Соедините поле](/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
+- [Подключение Dropbox](/cloud-app-security/connect-dropbox-to-microsoft-cloud-app-security)
+- [Подключение G-Suite](/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
+- [Подключение Salesforce](/cloud-app-security/connect-salesforce-to-microsoft-cloud-app-security)
+- [Подключение Cisco Webex](/cloud-app-security/connect-webex-to-microsoft-cloud-app-security)
 
-После подключения облачных приложений к Cloud App Security вы можете создать для них политики защиты от lp в Microsoft 365.
+После подключения облачных приложений к облачной безопасности приложений можно создать для них политики DLP Microsoft 365.
 
 >[!NOTE]
->Кроме того, можно использовать Microsoft Cloud App Security для создания политик защиты от lp в облачных приложениях Майкрософт. Однако рекомендуется использовать Microsoft 365 для создания политик DLP в облачных приложениях Майкрософт и управления ими.
+>Кроме того, можно использовать microsoft Cloud App Security для создания политик DLP в облачных приложениях Майкрософт. Однако рекомендуется использовать Microsoft 365 для создания и управления политиками DLP в облачных приложениях Майкрософт.
 
-## <a name="create-a-dlp-policy-to-a-non-microsoft-cloud-app"></a>Создание политики DLP в облачном приложении от корпорации Майкрософт
+## <a name="create-a-dlp-policy-to-a-non-microsoft-cloud-app"></a>Создание политики DLP в облачном приложении, не в microsoft
 
-Когда вы выбираете расположение для политики DLP, включаем расположение **Microsoft Cloud App Security.**
+При выборе расположения для политики DLP включаем расположение **безопасности облачных** приложений Майкрософт.
 
-- Чтобы выбрать конкретное приложение или экземпляр, выберите **"Выбрать экземпляр".**
+- Чтобы выбрать определенное приложение или экземпляр, выберите **выберите экземпляр .**
 - Если экземпляр не выбран, политика использует все подключенные приложения в клиенте Microsoft Cloud App Security.
 
    ![Расположения для применения политики](../media/1-dlp-non-microsoft-cloud-app-choose-instance.png)
 
    ![Box-US и Box-General](../media/2-dlp-non-microsoft-cloud-app-box.png)
 
-Вы можете выбрать различные действия для всех поддерживаемых облачных приложений, не в корпорации Майкрософт. Для каждого приложения существуют различные возможные действия (зависит от API облачного приложения).
+Вы можете выбрать различные действия для каждого поддерживаемого облачного приложения, не в microsoft. Для каждого приложения существуют различные возможные действия (зависит от API облачного приложения).
 
 ![Создание правила](../media/3-dlp-non-microsoft-cloud-app-create-rule.png)
 
-При создании правила в политике DLP можно выбрать действие для облачных приложений, не в корпорации Майкрософт. Чтобы ограничить сторонние приложения, выберите **"Ограничить сторонние приложения".**
+При создании правила в политике DLP можно выбрать действие для не microsoft cloud apps. Чтобы ограничить сторонние приложения, выберите **Ограничение сторонних приложений.**
 
 ![Ограничение сторонних приложений](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
 
-Сведения о создании и настройке политик DLP см. в подстройки "Создание тестирования [и настройка политики DLP".](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide)
+Сведения о создании и настройке политик DLP см. в таблице [Create test and tune a DLP policy.](./create-test-tune-dlp-policy.md?view=o365-worldwide)
 
 ## <a name="see-also"></a>См. также
 
-- [Создание тестовой и настраиваемой политики DLP](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide)
-- [Начало работы со стандартной политикой защиты от потери данных](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-the-default-dlp-policy?view=o365-worldwide)
-- [Создание политики защиты от потери данных на основе шаблона](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template?view=o365-worldwide)
+- [Создание тестирования и настройка политики DLP](./create-test-tune-dlp-policy.md?view=o365-worldwide)
+- [Начало работы со стандартной политикой защиты от потери данных](./get-started-with-the-default-dlp-policy.md?view=o365-worldwide)
+- [Создание политики защиты от потери данных на основе шаблона](./create-a-dlp-policy-from-a-template.md?view=o365-worldwide)

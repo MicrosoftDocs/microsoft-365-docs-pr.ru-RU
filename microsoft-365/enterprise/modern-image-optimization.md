@@ -20,13 +20,13 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Узнайте, как использовать средства, включенные в SharePoint Online, для оптимизации изображений на современных страницах сайтов SharePoint Online.
-ms.openlocfilehash: 09122dfd0bc832cf9a09cfb05bf0540e323797d9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Узнайте, как использовать средства, включенные в SharePoint Online, для оптимизации изображений на современных страницах веб-сайтов SharePoint Online.
+ms.openlocfilehash: a4f2def86e1378a9fb76ae9ecbe6a55da75ecffc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693448"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923020"
 ---
 # <a name="optimize-images-in-sharepoint-online-modern-site-pages"></a>Оптимизация изображений на современных страницах сайтов SharePoint Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "46693448"
 Сведения об оптимизации изображений на классических сайтах публикации см. в статье [Оптимизация изображений для SharePoint Online](image-optimization-for-sharepoint-online.md).
 
 >[!NOTE]
->Дополнительные сведения о производительности на современных порталах SharePoint Online см. в статье [Производительность в современном интерфейсе SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).
+>Дополнительные сведения о производительности на современных порталах SharePoint Online см. в статье [Производительность в современном интерфейсе SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-image-optimization"></a>Использование средства диагностики страниц SharePoint для анализа оптимизации изображений
 
@@ -72,7 +72,7 @@ ms.locfileid: "46693448"
 
 [Настройка производительности Office 365](tune-microsoft-365-performance.md)
 
-[Производительность в современном интерфейсе SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Производительность в современном интерфейсе SharePoint](/sharepoint/modern-experience-performance)
 
 [Сети доставки содержимого](content-delivery-networks.md)
 

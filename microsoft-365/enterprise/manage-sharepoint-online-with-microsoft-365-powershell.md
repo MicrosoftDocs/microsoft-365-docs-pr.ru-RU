@@ -20,26 +20,26 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: Узнайте, как использовать PowerShell для Microsoft 365 для управления пользователями, группами и группами сайтов.
-ms.openlocfilehash: dd3ae1ee27d0a3e7c46eb4b62b42165279656aeb
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: bb7c48a5a44bc82aa0a16e0d38c7ea5036358ee7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429810"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923271"
 ---
 # <a name="manage-sharepoint-with-powershell"></a>Управление SharePoint с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Администраторы SharePoint должны управлять сайтами, группами сайтов и пользователями. Хотя некоторые из этих задач можно выполнять в Центре администрирования Microsoft 365, другие проще выполнять в PowerShell. Дополнительные сведения см. в следующих статьях:
+Администраторы SharePoint должны управлять сайтами, группами сайтов и пользователями. Хотя некоторые из этих задач можно выполнять в центре администрирования Microsoft 365, другие проще выполнять в PowerShell. Дополнительные сведения см. в следующих статьях:
 
-- [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+- [Начало работы с командной консолью SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
   
-- [Создание сайтов SharePoint Online и добавление пользователей с помощью PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
+- [Создание веб-сайтов SharePoint и добавление пользователей с помощью PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
     
-- [Управление пользователями и группами SharePoint Online с помощью PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
+- [Управление пользователями и группами SharePoint в Интернете с помощью PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
     
-- [Управление группами сайтов SharePoint Online с помощью PowerShell](manage-sharepoint-site-groups-with-powershell.md)
+- [Управление группами веб-сайтов SharePoint с помощью PowerShell](manage-sharepoint-site-groups-with-powershell.md)
     
 ## <a name="see-also"></a>См. также
 

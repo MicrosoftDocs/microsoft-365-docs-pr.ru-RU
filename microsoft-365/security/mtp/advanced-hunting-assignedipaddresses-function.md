@@ -1,7 +1,7 @@
 ---
-title: Функция AssignedIPAddresses() в advanced hunting for Microsoft 365 Defender
+title: Функция AssignedIPAddresses() в продвинутой охоте для Microsoft 365 Defender
 description: Узнайте, как использовать функцию AssignedIPAddresses() для получения последних IP-адресов, присвоенных устройству
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, FileProfile, file profile, function, enrichment
+keywords: передовая охота, охота на угрозы, поиск киберугроз, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, ссылка схемы, kusto, FileProfile, профиль файла, функция, обогащение
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d16cd7efc49cc2498eff3f705bb43fa62f37d975
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: c52f7b8bf5a93a75b3330a3377f3fab34b8e7837
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49933022"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922924"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -35,17 +35,17 @@ ms.locfileid: "49933022"
 **Область применения:**
 - Microsoft 365 Defender
 
-Используйте функцию в расширенных запросах на поиск, чтобы быстро получить последние IP-адреса, которые были назначены `AssignedIPAddresses()` устройству. [](advanced-hunting-overview.md) Если указан аргумент timestamp, эта функция получает самые последние IP-адреса в указанное время. 
+Используйте функцию в расширенных запросах для охоты, чтобы быстро получить последние IP-адреса, которые были назначены `AssignedIPAddresses()` устройству. [](advanced-hunting-overview.md) Если указать аргумент timestamp, эта функция получает самые последние IP-адреса в указанное время. 
 
 Эта функция возвращает таблицу со следующими столбцами:
 
-| Столбец | Тип данных | Описание |
+| Column | Тип данных | Описание |
 |------------|-------------|-------------|
-| `Timestamp` | datetime | Последнее время, когда устройство наблюдалось с использованием IP-адреса |
+| `Timestamp` | datetime | Последний раз, когда устройство было замечено с помощью IP-адреса |
 | `IPAddress` | string | IP-адрес, используемый устройством |
 | `IPType` | string | Указывает, является ли IP-адрес общедоступным или частным. |
-| `NetworkAdapterType` | int | Тип сетевого адаптера, используемого устройством, которое было назначено IP-адресу. Возможные значения: [](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
-| `ConnectedNetworks` | int | Сети, к которые подключен адаптер с ip-адресом. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он к Интернету публично |
+| `NetworkAdapterType` | int | Тип сетевого адаптер, используемый устройством, которое было назначено IP-адресу. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `ConnectedNetworks` | int | Сети, к которые подключен адаптер с заявляемом IP-адресом. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -55,8 +55,8 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Аргументы
 
-- **x**— `DeviceId` или `DeviceName` значение, идентифицирующее устройство
-- **y**— значение даты и времени, указывав функции на получение самых последних ip-адресов `Timestamp` за определенное время. Если не указано, функция возвращает последние IP-адреса.
+- **x**— `DeviceId` `DeviceName` или значение, определяющее устройство
+- **y**— (datetime) значение, предписывающие функции получать самые последние назначенные `Timestamp` IP-адреса в определенное время. Если не указано, функция возвращает последние IP-адреса.
 
 ## <a name="examples"></a>Примеры
 
@@ -66,8 +66,8 @@ AssignedIPAddresses(x, y)
 AssignedIPAddresses('example-device-name', ago(1d))
 ```
 
-### <a name="get-ip-addresses-used-by-a-device-and-find-devices-communicating-with-it"></a>Получите IP-адреса, используемые устройством, и найдите устройства, которые с ним общаются
-Этот запрос использует функцию для получения IP-адресов, которые назначены устройству ( ) до `AssignedIPAddresses()` `example-device-name` определенной даты ( `example-date` ). Затем он использует IP-адреса для поиска подключений к устройству, инициированных другими устройствами. 
+### <a name="get-ip-addresses-used-by-a-device-and-find-devices-communicating-with-it"></a>Получите IP-адреса, используемые устройством, и найдите устройства, связывающие с ним
+Этот запрос использует функцию для получения назначенного IP-адресов для устройства () на или `AssignedIPAddresses()` `example-device-name` до определенной даты ( `example-date` ). Затем он использует IP-адреса для поиска подключений к устройству, инициированного другими устройствами. 
 
 ```kusto
 let Date = datetime(example-date);
@@ -81,7 +81,7 @@ AssignedIPAddresses(DeviceName, Date)
 | where Timestamp between ((AssignedTime - 1h) .. (AssignedTime + 1h))
 ```
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Родственные темы
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

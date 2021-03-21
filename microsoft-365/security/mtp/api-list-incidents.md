@@ -1,7 +1,7 @@
 ---
-title: API списка инцидентов в Microsoft 365 Defender
-description: Список API инцидентов в Microsoft 365 Defender
-keywords: список, инцидент, инциденты, API
+title: API списков инцидентов в Microsoft 365 Defender
+description: Узнайте, как перечислить API инцидентов в Microsoft 365 Defender
+keywords: список, инциденты, инциденты, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 39a170a1845ab33f67d77b2de3d5f298f67fdc99
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d1e2ceb4c5cc662fe0aff248f2d0662ad6a2cc82
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932074"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922238"
 ---
-# <a name="list-incidents-api-in-microsoft-365-defender"></a>API списка инцидентов в Microsoft 365 Defender
+# <a name="list-incidents-api-in-microsoft-365-defender"></a>API списков инцидентов в Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -37,29 +37,29 @@ ms.locfileid: "49932074"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> Некоторые сведения относятся к предварительно изданным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 
 ## <a name="api-description"></a>Описание API
 
-API инцидентов списков позволяет сортировать инциденты, чтобы создать информированный ответ на кибербезопасность. Он предоставляет коллекцию инцидентов, которые были помечены в сети в течение указанного вами диапазона времени в политике хранения среды. Последние инциденты отображаются в верхней части списка. Каждый инцидент содержит массив связанных оповещений и связанных с ними сущностями.
+API инцидентов списка позволяет сортировать инциденты, чтобы создать обоснованный ответ на кибербезопасность. Он предоставляет коллекцию инцидентов, которые были помечены в сети, в диапазоне времени, указанном в политике хранения среды. Последние инциденты отображаются в верхней части списка. Каждый инцидент содержит массив связанных оповещений и связанных с ними сущностями.
 
-API поддерживает следующие **операторы OData:**
+API поддерживает следующих **операторов OData:**
 
-- `$filter`в `lastUpdateTime` `createdTime` свойствах , `status` , и `assignedTo`
-- `$top`, с максимальным значением **100**
+- `$filter` на `lastUpdateTime` `createdTime` свойствах и `status` `assignedTo` свойствах
+- `$top`с максимальным значением **100**
 - `$skip`
 
 ## <a name="limitations"></a>Ограничения
 
-1. Максимальный размер страницы составляет **100 инцидентов.**
-2. Максимальная скорость запросов составляет **50 вызовов в минуту** и **1500 вызовов в час.**
+1. Максимальный размер страницы **— 100 инцидентов.**
+2. Максимальная скорость запросов — **50 вызовов в минуту** и **1500 вызовов в час.**
 
 ## <a name="permissions"></a>Разрешения
 
-Для вызова этого API требуется одно из следующих разрешений. Дополнительные возможности, включая выбор разрешений, см. в [API Access в Microsoft 365 Defender](api-access.md)
+Для вызова этого API требуется одно из следующих разрешений. Дополнительные возможности, в том числе выбор разрешений, см. в [API Access Microsoft 365 Defender](api-access.md)
 
-Тип разрешения | Разрешение | Отображаемая имя разрешения
+Тип разрешения | Разрешение | Имя отображения разрешений
 -|-|-
 Для приложений | Incident.Read.All | Чтение всех инцидентов
 Для приложений | Incident.ReadWrite.All | Чтение и написание всех инцидентов
@@ -67,10 +67,10 @@ API поддерживает следующие **операторы OData:**
 Делегированные (рабочая или учебная учетная запись) | Incident.ReadWrite | Чтение и написание инцидентов
 
 > [!Note]
-> При получении маркера с использованием учетных данных пользователя:
+> При получении маркера с помощью учетных данных пользователей:
 >
-> - Пользователь должен иметь разрешение на просмотр инцидентов на портале.
-> - Ответ будет включать только инциденты, с которые пользователь может получить данные.
+> - Пользователь должен иметь разрешение просмотра инцидентов на портале.
+> - Ответ будет включать только инциденты, с которые пользователь подвергается действию.
 
 ## <a name="http-request"></a>HTTP-запрос
 
@@ -82,7 +82,7 @@ GET /api/incidents
 
 Имя | Тип | Описание
 -|-|-
-Authorization | String | Bearer {token}. **Required**
+Авторизация | String | Bearer {token}. **Required**
 
 
 ## <a name="request-body"></a>Текст запроса
@@ -91,103 +91,103 @@ Authorization | String | Bearer {token}. **Required**
 
 ## <a name="response"></a>Отклик
 
-В случае успеха этот метод возвращает список инцидентов в `200 OK` теле ответа. [](api-incident.md)
+В случае успешной работы этот метод возвращается и список инцидентов `200 OK` в теле [](api-incident.md) отклика.
 
 ## <a name="schema-mapping"></a>Сопоставление схемы
 
 ### <a name="incident-metadata"></a>Метаданные инцидента
 
-Имя поля | Description | Пример значения
+Имя поля | Описание | Пример значения
 -|-|-
 incidentId | Уникальный идентификатор для представления инцидента | 924565
-redirectIncidentId | Заполняется только в том случае, если инцидент сгруппировали вместе с другим инцидентом в рамках логики обработки инцидента. | 924569
-incidentName | Строка, доступная для каждого инцидента. | Действия программы-вымогателя
-createdTime | Время создания инцидента. | 2020-09-06T14:46:57.073333Z
-lastUpdateTime | Время последнего обновления инцидента на тыловом сайте.<br /><br /> Это поле можно использовать при настройке параметра запроса в течение диапазона времени, в течение времени, в течение который извлекаются инциденты. | 2020-09-06T14:46:57.29Z
-assignedTo | Владелец инцидента или *null,* если владелец не назначен. | secop2@contoso.com
-classification | Спецификация инцидента. Значения свойств: *Unknown,* *FalsePositive,* *TruePositive* | Неизвестно
-определение | Определяет определение инцидента. Значения свойств: *NotAvailable*, *Apt*, *Malware*, *SecurityPersonnel*, *SecurityTesting*, *UnwantedSoftware*, *Other* | NotAvailable
-status | Классифицировать инциденты (как *активные* или *разрешенные).* Это поможет вам организовать реагирование на инциденты и управлять ими. | Активное
-severity | Указывает возможное влияние на ресурсы. Чем выше степень серьезности, тем больше это влияние. Как правило, элементы с более высокой степенью серьезности требуют непосредственного внимания.<br /><br />Одно из следующих значений: *Informational,* *Low,**Medium и *High.* | Средняя
-tags | Массив пользовательских тегов, связанных с инцидентом, например для пометки группы инцидентов с общей характеристикой. | \[\]
-alerts | Массив, содержащий все оповещения, связанные с инцидентом, а также другие сведения, такие как серьезность, объекты, задействованные в оповещении, и источник оповещений. | \[\] (См. сведения о полях оповещений ниже)
+redirectIncidentId | Заполняется только в том случае, если инцидент сгруппировали вместе с другим инцидентом, как часть логики обработки инцидента. | 924569
+incidentName | Строковая стоимость, доступная для каждого инцидента. | Активность вымогателей
+createdTime | Время создания инцидента. | 2020-09-06T14:46:57.0733333Z
+lastUpdateTime | Время последнего обновления инцидента на задней части.<br /><br /> Это поле можно использовать при настройке параметра запроса для диапазона времени получения инцидентов. | 2020-09-06T14:46:57.29Z
+assignedTo | Владелец инцидента или *null,* если не назначен владелец. | secop2@contoso.com
+classification | Спецификация инцидента. Значения свойств: *Неизвестный,* *FalsePositive,* *TruePositive* | Неизвестно
+определение | Указывает определение инцидента. Значения свойств: *NotAvailable*, *Apt*, *Вредоносные* программы , *SecurityPersonnel*, *SecurityTesting*, *UnwantedSoftware*, *Другие* | NotAvailable
+status | Классифицировать инциденты *(как Active* или *Resolved).* Это поможет вам организовать и управлять реагированием на инциденты. | Активное
+severity | Указывает возможное влияние на активы. Чем больше серьезность, тем больше влияние. Как правило, элементы с более высокой степенью серьезности требуют непосредственного внимания.<br /><br />Одно из следующих значений: *Informational,* *Low*, *Medium и *High*. | Средняя
+tags | Массив пользовательских тегов, связанных с инцидентом, например для флага группы инцидентов с общей характеристикой. | \[\]
+alerts | Массив, содержащий все оповещения, связанные с инцидентом, а также другие сведения, такие как серьезность, объекты, которые были вовлечены в оповещение, и источник оповещений. | \[\] (см. сведения о полях оповещений ниже)
 
-### <a name="alerts-metadata"></a>Метаданные оповещений
+### <a name="alerts-metadata"></a>Оповещения метаданных
 
-Имя поля | Description | Пример значения
+Имя поля | Описание | Пример значения
 -|-|-
-alertId | Уникальный идентификатор для представления оповещения | caD70CFEE2-1F54-32DB-9988-3A868A1EBFAC
-incidentId | Уникальный идентификатор для представления инцидента, с котором связано данное оповещение | 924565
-serviceSource | Служба, от которую исходит оповещение, например Microsoft Defender для конечной точки, Microsoft Cloud App Security, Microsoft Defender для удостоверений или Microsoft Defender для Office 365. | MicrosoftCloudAppSecurity
-creationTime | Время создания оповещения. | 2020-09-06T14:46:55.7182276Z
-lastUpdatedTime | Время последнего обновления оповещения на тыловом уровне. | 2020-09-06T14:46:57.2433333Z
-resolvedTime | Время разрешения оповещения. | 2020-09-10T05:22:59Z
-firstActivity | Время, когда оповещение впервые сообщило об обновлении активности на тыловой части.| 2020-09-04T05:22:59Z
-title | Краткое определение строки, доступной для каждого оповещения. | Действия программы-вымогателя
-description | Строка, описывающие каждое оповещение. | Пользователь Test User2 (testUser2@contoso.com) с помощью 99 файлов с несколькими расширениями, заканчивающийся на редкое расширение *herunterladen.* Это необычное количество манипуляций с файлами, что свидетельствует о возможной атаке программы-вымогателя.
-category | Визуальное и числовое представление о том, как далеко идет атака по цепочке атак. Соответствует структуре [MITRE ATT&CK™](https://attack.mitre.org/). | Влияние
-status | Классифицировать оповещения *(как новые,* *активные* или *разрешенные).* Это поможет вам упорядоизировать и управлять ответами на оповещения. | Новое
-severity | Указывает возможное влияние на ресурсы. Чем выше степень серьезности, тем больше это влияние. Как правило, элементы с более высокой степенью серьезности требуют непосредственного внимания.<br>Одно из следующих значений: *Informational,* *Low,**Medium и *High.* | Средняя
-investigationId | ИД автоматического исследования, инициированный этим оповещением. | 1234
-investigationState | Сведения о текущем состоянии исследования. Одно из следующих значений: *Unknown*, *Terminated*, *SuccessfullyRemediated*, *Benign*, *Failed*, *PartiallyRemediated*, *Running*, *PendingApproval*, *PendingResource*, *PartiallyInvestigated*, *TerminatedByUser*, *TerminatedBySystem*, *Queued*, *InnerFailure*, *PreexistingAlert*, *UnsupportedAlertType*, *SuppressedAlert*.  | UnsupportedAlertType
-classification | Спецификация инцидента. Значения свойств: *Unknown,* *FalsePositive,* *TruePositive* или *null* | Неизвестно
-определение | Определяет определение инцидента. Значения свойств: *NotAvailable*, *Apt*, *Malware*, *SecurityPersonnel*, *SecurityTesting*, *UnwantedSoftware*, *Other* или  *null* | Apt
-assignedTo | Владелец инцидента или *null,* если владелец не назначен. | secop2@contoso.com
-actorName | Группа действий, если таковой есть, связанная с этим оповещением. | ВАЗОН
+alertId | Уникальный идентификатор для представления оповещений | caD70CFEE2-1F54-32DB-9988-3A868A1EBFAC
+incidentId | Уникальный идентификатор для представления инцидента, с котором связано это оповещение | 924565
+serviceSource | Служба, откуда исходит предупреждение, например Microsoft Defender for Endpoint, Microsoft Cloud App Security, Microsoft Defender for Identity или Microsoft Defender для Office 365. | MicrosoftCloudAppSecurity
+creationTime | Время создания оповещений. | 2020-09-06T14:46:55.7182276Z
+lastUpdatedTime | Время последнего обновления оповещений в задней части. | 2020-09-06T14:46:57.2433333Z
+resolvedTime | Время, когда оповещение было разрешено. | 2020-09-10T05:22:59Z
+firstActivity | Время, когда оповещение впервые сообщило об обновлении активности в задней части.| 2020-09-04T05:22:59Z
+title | Краткое определение строки, доступной для каждого оповещения. | Активность вымогателей
+описание | Строковая величина, описываемая каждое оповещение. | Пользователь Test User2 (testUser2@contoso.com) манипулировал 99 файлами с несколькими расширениями, заканчивающийся необычным *расширением herunterladen*. Это необычное количество манипуляций с файлами и указывает на потенциальную атаку вымогателей.
+category | Визуальное и числовое представление о том, как далеко продвинулась атака по цепочке убийств. Согласовано с [структурой ATT MITRE&CK™](https://attack.mitre.org/). | Влияние
+status | Классификация оповещений *(как New,* *Active* или *Resolved).* Это может помочь вам организовать и управлять вашим ответом на оповещения. | Новое
+severity | Указывает возможное влияние на активы. Чем больше серьезность, тем больше влияние. Как правило, элементы с более высокой степенью серьезности требуют непосредственного внимания.<br>Одно из следующих значений: *Informational,* *Low*, *Medium и *High*. | Средняя
+investigationId | Автоматический ИД расследования, срабатываем этим оповещением. | 1234
+investigationState | Сведения о текущем состоянии расследования. Одно из следующих *значений:* Unknown *,* Terminated , *SuccessfullyRemediated*, *Benign*, *Failed*, *PartiallyRemediated*, *Running*, *PendingApproval*, *PendingResource*, *PartiallyInvestigated*, *TerminatedByUser*, *TerminatedBySystem*, *Queued*, *InnerFailure*, *PreexistingAlert*, *UnsupportedAlertType*, *SuppressedAlert*.  | UnsupportedAlertType
+classification | Спецификация инцидента. Значения свойств: *Неизвестный,* *FalsePositive,* *TruePositive* или *null* | Неизвестно
+определение | Указывает определение инцидента. Значения свойств: *NotAvailable*, *Apt*, *Вредоносные* программы , *SecurityPersonnel*, *SecurityTesting*, *UnwantedSoftware*, *Другие* или  *null* | Apt
+assignedTo | Владелец инцидента или *null,* если не назначен владелец. | secop2@contoso.com
+actorName | Группа действий, если таково, связанная с этим оповещением. | BORON
 threatFamilyName | Семейство угроз, связанное с этим оповещением. | null
-mitreTechniques | Методы атаки в соответствие с решением [MITRE ATT](https://attack.mitre.org/)&CK ™ CK. | \[\]
-устройства | Все устройства, на которые были отправлены оповещения, связанные с инцидентом. | \[\] (см. сведения о полях суностей ниже)
+mitreTechniques | Методы атаки, в соответствие с структурой [ATT MITRE&CK](https://attack.mitre.org/)™. | \[\]
+устройства | Все устройства, на которых были отправлены оповещения, связанные с инцидентом. | \[\] (см. сведения о полях сущности ниже)
 
 ### <a name="device-format"></a>Формат устройства
 
-Имя поля | Description | Пример значения
+Имя поля | Описание | Пример значения
 -|-|-
-DeviceId | ИД устройства, указанный в ATP в Microsoft Defender. | 24c222b0b60fe148eeece49ac83910cc6a7ef491
-aadDeviceId |  ИД устройства, назначенный в [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) Доступно только для устройств, которые присоединились к домену. | null
-deviceDnsName | Полное доменное имя устройства. | user5cx.middleeast.corp.contoso.com
-osPlatform | Платформа ОС, запущенная на устройстве.| WindowsServer2016
-osBuild | Версия сборки для ОС, запущенной на устройстве. | 14393
-rbacGroupName | Группа [управления доступом](https://docs.microsoft.com/azure/role-based-access-control/overview) на основе ролей (RBAC), связанная с устройством. | WDATP-Ring0
-firstSeen | Время первого увидеть устройство. | 2020-02-06T14:16:01.9330135Z
-healthStatus | Состояние состояния состояния устройства. | Активное
+DeviceId | ID устройства, указанный в ATP Защитника Майкрософт. | 24c222b0b60fe148eeece49ac83910cc6a7ef491
+aadDeviceId |  ID устройства, назначенный в [Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-whatis) Доступно только для устройств, присоединимых к домену. | null
+deviceDnsName | Полное доменное имя для устройства. | user5cx.middleeast.corp.contoso.com
+osPlatform | Платформа ОС, на которой работает устройство.| WindowsServer2016
+osBuild | Версия сборки для ОС, запущенная устройством. | 14393
+rbacGroupName | Группа [управления доступом](/azure/role-based-access-control/overview) на основе ролей (RBAC), связанная с устройством. | WDATP-Ring0
+firstSeen | Время, когда устройство было впервые замечено. | 2020-02-06T14:16:01.9330135Z
+healthStatus | Состояние здоровья устройства. | Активное
 riskScore | Оценка риска для устройства. | Высокая
-entities | Все сущности, которые были определены как часть заданного оповещения или связанные с ним. | \[\] (см. сведения о полях суностей ниже)
+сущности | Все сущностями, которые были идентифицированы как часть или связанные с данным оповещением. | \[\] (см. сведения о полях сущности ниже)
 
 ### <a name="entity-format"></a>Формат сущности
 
-Имя поля | Description | Пример значения
+Имя поля | Описание | Пример значения
 -|-|-
-entityType | Сущности, которые определены как часть заданного оповещения или связаны с ним.<br>Значения свойств: *User*, *Ip*, *URL*, *File*, *Process*, *MailBox*, *MailMessage*, *MailCluster*, *Registry* | Пользователь
-sha1 | Доступно, если entityType имеет *тип File.*<br>Hash файла для оповещений, связанных с файлом или процессом. | 5de839186691aa96ee2ca6d74f0a38fb8d1bd6dd
-sha256 | Доступно, если entityType имеет *тип File.*<br>Hash файла для оповещений, связанных с файлом или процессом. | 28cb017dfc99073aa1b47c1b30f413e3ce774c4991eb4158de50f9dbb36d8043
-fileName | Доступно, если entityType имеет *тип File.*<br>Имя файла для оповещений, связанных с файлом или процессом | Detector.UnitTests.dll
-filePath | Доступно, если entityType имеет *тип File.*<br>Путь к файлу для оповещений, связанных с файлом или процессом | C: \\ \agent_work_temp\Deploy\SYSTEM\2020-09-06 12_14_54\Out
-processId | Доступно, если entityType является *Process*. | 24348
-processCommandLine | Доступно, если entityType является *Process*. | "Ваш файл готов к загрузке \_1911150169.exe"
-processCreationTime | Доступно, если entityType является *Process*. | 2020-07-18T03:25:38.5269993Z
-parentProcessId | Доступно, если entityType является *Process*. | 16840
-parentProcessCreationTime | Доступно, если entityType является *Process*. | 2020-07-18T02:12:32.8616797Z
-ipAddress | Доступно, если entityType *имеет ip.* <br>IP-адрес для оповещений, связанных с сетевыми событиями, такими как *связь с вредоносным сетевым адресом.* | 62.216.203.204
-url | Доступно, если entityType имеет *URL-адрес.* <br>URL-адрес оповещений, связанных с сетевыми событиями, например, *"Связь с вредоносным сетевым пунктом назначения".* | down.esales360.cn
-accountName | Доступно, если entityType является *User*. | testUser2
-domainName | Доступно, если entityType является *User*. | europe.corp.contoso
-userSid | Доступно, если entityType является *User*. | S-1-5-21-1721254763-462695806-1538882281-4156657
-aadUserId | Доступно, если entityType является *User*. | fc8f7484-f813-4db2-afab-bc1507913fb6
-userPrincipalName | Доступно, если entityType —  /  / *mailMessage* почтового ящика пользователя. | testUser2@contoso.com
-mailboxDisplayName | Доступно, если entityType — *MailBox.* | test User2
-mailboxAddress | Доступно, если entityType —  /  / *mailMessage* почтового ящика пользователя. | testUser2@contoso.com
-clusterBy | Доступно, если entityType — *MailCluster.* | Тема; P2SenderDomain; ContentType
-sender | Доступно, если entityType —  /  / *mailMessage* почтового ящика пользователя. | user.abc@mail.contoso.co.in
-получатель; | Доступно, если entityType — *MailMessage.* | testUser2@contoso.com
-subject | Доступно, если entityType — *MailMessage.* | \[ВНЕШНЕЕ \] внимание
-deliveryAction | Доступно, если entityType — *MailMessage.* | Доставлено
-securityGroupId | Доступно, если entityType имеет *тип SecurityGroup.* | 301c47c8-e15f-4059-ab09-e2ba9ffd372b
-securityGroupName | Доступно, если entityType имеет *тип SecurityGroup.* | Операторы конфигурации сети
-registryHive | Доступно, если entityType имеет *тип Registry.* | ЛОКАЛЬНЫЙ КОМПЬЮТЕР HKEY \_ \_ |
-registryKey | Доступно, если entityType имеет *тип Registry.* | SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-registryValueType | Доступно, если entityType имеет *тип Registry.* | String
-registryValue | Доступно, если entityType имеет *тип Registry.* | 31-00-00-00
-deviceId | ИД устройства, связанного с сущностью( если он имеется). | 986e5df8b73dacd43c8917d17e523e76b13c75cd
+entityType | Объекты, которые были идентифицированы как часть или связанные с данным оповещением.<br>Значения *свойств:* Пользователь , *Ip*, *URL*, *файл*, *процесс* *,* Почтовый ящик , *MailMessage*, *MailCluster*, *реестр* | User
+sha1 | Доступно, если entityType — *файл.*<br>Hash файла для оповещений, связанных с файлом или процессом. | 5de839186691aa96ee2ca6d74f0a38fb8d1bd6ddd
+sha256 | Доступно, если entityType — *файл.*<br>Hash файла для оповещений, связанных с файлом или процессом. | 28cb017dfc99073aa1b47c1b30f413e3ce774c4991eb4158de50f9dbb36d8043
+fileName | Доступно, если entityType — *файл.*<br>Имя файла для оповещений, связанных с файлом или процессом | Detector.UnitTests.dll
+filePath | Доступно, если entityType — *файл.*<br>Путь к файлам для оповещений, связанных с файлом или процессом | C: \\ \agent_work_temp\Deploy\SYSTEM\2020-09-06 12_14_54\Out
+processId | Доступно, если entityType — *процесс.* | 24348
+processCommandLine | Доступно, если entityType — *процесс.* | "Файл готов к загрузке \_1911150169.exe"
+processCreationTime | Доступно, если entityType — *процесс.* | 2020-07-18T03:25:38.5269993Z
+parentProcessId | Доступно, если entityType — *процесс.* | 16840
+parentProcessCreationTime | Доступно, если entityType — *процесс.* | 2020-07-18T02:12:32.8616797Z
+ipAddress | Доступно, если entityType *— ip.* <br>IP-адрес для оповещений, связанных с сетевыми событиями, такими как *связь с вредоносным сетевым назначением.* | 62.216.203.204
+url | Доступно, если entityType *— url.* <br>URL-адрес для оповещений, связанных с сетевыми событиями, такими как Сообщение *с вредоносным сетевым назначением.* | down.esales360.cn
+accountName | Доступно, если entityType — *пользователь.* | testUser2
+domainName | Доступно, если entityType — *пользователь.* | europe.corp.contoso
+userSid | Доступно, если entityType — *пользователь.* | S-1-5-21-1721254763-462695806-1538882281-4156657
+aadUserId | Доступно, если entityType — *пользователь.* | fc8f7484-f813-4db2-afab-bc1507913fb6
+userPrincipalName | Доступно, если entityType *— это почтовый* / *ящик* / *пользователя MailMessage.* | testUser2@contoso.com
+mailboxDisplayName | Доступно, если entityType — *это MailBox.* | test User2
+mailboxAddress | Доступно, если entityType *— это почтовый* / *ящик* / *пользователя MailMessage.* | testUser2@contoso.com
+clusterBy | Доступно, если entityType *— это MailCluster.* | Subject; P2SenderDomain; ContentType
+sender | Доступно, если entityType *— это почтовый* / *ящик* / *пользователя MailMessage.* | user.abc@mail.contoso.co.in
+получатель; | Доступно, если entityType *— это MailMessage.* | testUser2@contoso.com
+subject | Доступно, если entityType *— это MailMessage.* | \[ВНЕШНЕЕ \] внимание
+deliveryAction | Доступно, если entityType *— это MailMessage.* | Доставлено
+securityGroupId | Доступно, если entityType — *это SecurityGroup.* | 301c47c8-e15f-4059-ab09-e2ba9ffd372b
+securityGroupName | Доступно, если entityType — *это SecurityGroup.* | Операторы конфигурации сети
+registryHive | Доступно, если entityType *является реестром.* | ЛОКАЛЬНЫЙ КОМПЬЮТЕР \_ HKEY \_ |
+registryKey | Доступно, если entityType *является реестром.* | SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+registryValueType | Доступно, если entityType *является реестром.* | String
+registryValue | Доступно, если entityType *является реестром.* | 31-00-00-00
+deviceId | ID, если таково, устройства, связанного с объектом. | 986e5df8b73dacd43c8917d17e523e76b13c75cd
 
 ## <a name="example"></a>Пример
 
@@ -714,9 +714,9 @@ GET https://api.security.microsoft.com/api/incidents
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Доступ к API Microsoft 365 Defender](api-access.md)
-- [Узнайте об ограничениях API и лицензировании](api-terms.md)
-- [Коды ошибок](api-error-codes.md)
+- [Доступ к API защитника Microsoft 365](api-access.md)
+- [Узнайте о ограничениях API и лицензировании](api-terms.md)
+- [Понимание кодов ошибок](api-error-codes.md)
 - [Обзор инцидентов](incidents-overview.md)
 - [Программные интерфейсы, относящиеся к инцидентам](api-incident.md)
-- [Обновление API инцидентов](api-update-incidents.md)
+- [Обновление API инцидента](api-update-incidents.md)

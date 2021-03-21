@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Получите сведения о том, как создать настраиваемый тип конфиденциальной информации, который позволит пользоваться правилами, соответствующими потребностям вашей организации.
-ms.openlocfilehash: 40584b430af6e822b115e014c20481c027222aae
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 79d79a220e0cd8de0755f6cdac99cf7cceb2997f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423408"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922663"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Настройка встроенных типов конфиденциальных данных
 
@@ -33,7 +33,7 @@ ms.locfileid: "50423408"
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>Экспорт XML-файла с текущими правилами
 
-Чтобы экспортировать XML-файл, нужно [подключиться к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Чтобы экспортировать XML-файл, нужно [подключиться к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell](/powershell/exchange/connect-to-scc-powershell).
   
 1. В PowerShell введите указанную ниже команду, чтобы отобразить правила организации на экране. Если вы не создавали собственные правила, вы увидите только стандартные, встроенные правила, отмеченные как "Пакет правил Майкрософт".
 
@@ -201,7 +201,7 @@ ms.locfileid: "50423408"
   
 1. Сохраните правило как XML-файл с кодировкой Юникод. Это важно, так как правило в другой кодировке работать не будет.
     
-2. [Подключение к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+2. [Подключение к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell.](/powershell/exchange/connect-to-scc-powershell)
     
 3. В PowerShell введите указанную ниже команду.
 

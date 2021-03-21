@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Состояние работоспособности службы Microsoft 365
-ms.openlocfilehash: f7bb310452f841c04eabdd683d3ec82b4ad2b57a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d0e32fb34cf1d14a5da8c10a07551cee00e2421a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686606"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923116"
 ---
 # <a name="microsoft-365-network-health-status"></a>Состояние работоспособности сети Microsoft 365
 
@@ -44,5 +44,5 @@ _Возможны задержки при обновлении этой стра
 Используйте эти ресурсы для улучшения использования сети службами Microsoft.
 
 - [Оптимизация подключения Microsoft 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](microsoft-365-vpn-split-tunnel.md)
-- [Принципы сетевого подключения Microsoft 365](https://aka.ms/pnc)
-- [Удаленная работа с использованием сетевых служб Azure](https://docs.microsoft.com/azure/networking/working-remotely-support)
+- [Принципы сетевого подключения Microsoft 365](./microsoft-365-network-connectivity-principles.md)
+- [Удаленная работа с использованием сетевых служб Azure](/azure/networking/working-remotely-support)

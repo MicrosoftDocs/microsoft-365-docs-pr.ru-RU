@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 8a91a55d9598b5e780474315ddf1f7019e593fed
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 755be1dde256bc612ba85e1b1af485cfaacf7da9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406166"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921868"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Как сообщать о ложных срабатывах и отрицательных результатах в возможностях автоматического расследования и ответа
 
@@ -53,9 +53,9 @@ ms.locfileid: "50406166"
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Настройка оповещений, чтобы предотвратить повторение ложных срабатыва
 
-Если оповещение вызывается законным использованием или оповещение является неточным, вы можете управлять оповещениями на портале [безопасности облачных приложений.](https://docs.microsoft.com/cloud-app-security/managing-alerts)
+Если оповещение вызывается законным использованием или оповещение является неточным, вы можете управлять оповещениями на портале [безопасности облачных приложений.](/cloud-app-security/managing-alerts)
 
-Если ваша организация использует [Microsoft Defender для](https://docs.microsoft.com/windows/security/threat-protection) конечной точки в дополнение к Office 365, а файл, IP-адрес, URL-адрес или домен рассматриваются как вредоносные программы на устройстве, даже если это безопасно, вы можете создать настраиваемый индикатор с действием ["Разрешить"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)для вашего устройства .
+Если ваша организация использует [Microsoft Defender для](/windows/security/threat-protection) конечной точки в дополнение к Office 365, а файл, IP-адрес, URL-адрес или домен рассматриваются как вредоносные программы на устройстве, даже если это безопасно, вы можете создать настраиваемый индикатор с действием ["Разрешить"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)для вашего устройства .
 
 ## <a name="undo-a-remediation-action"></a>Отмена действия по исправлению
 

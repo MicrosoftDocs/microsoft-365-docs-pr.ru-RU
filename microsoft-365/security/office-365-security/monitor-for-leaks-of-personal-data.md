@@ -19,12 +19,12 @@ search.appverid:
 description: Узнайте о трех средствах, которые можно использовать для отслеживания утечек персональных данных.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a8fb8557d6cd2677aeb6dcda75d34e86ada8f68c
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: b51bc5d5d3cbfa8951392f88edc6e178778206df
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290673"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921256"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Отслеживание утечек персональных данных
 
@@ -83,7 +83,7 @@ ms.locfileid: "50290673"
 
 Кроме того, группы по обеспечению информационной безопасности могут выполнять поиск в журнале аудита для исследования потенциальных нарушений безопасности данных, определяя как первопричины, так и степень этих нарушений. Эта встроенная возможность позволяет обеспечить соответствие требованиям статей 33 и 34 регламента GDPR, согласно которым в течение определенного периода времени о нарушении безопасности данных требуется уведомить как надзорный орган GDPR, так и самих субъектов данных. Записи журнала аудита сохраняются в службе только на протяжении 90 дней. Тем не менее эти журналы часто рекомендуется хранить в течение большего периода времени (и так поступают многие организации).
 
-Доступны решения, которые обеспечивают подписку на единые журналы аудита с помощью API действий управления Microsoft, сохранение записей журналов (при необходимости) и предоставление расширенных панелей мониторинга и оповещений. Пример такого решения — [Microsoft Operations Management Suite (OMS)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365).
+Доступны решения, которые обеспечивают подписку на единые журналы аудита с помощью API действий управления Microsoft, сохранение записей журналов (при необходимости) и предоставление расширенных панелей мониторинга и оповещений. Пример такого решения — [Microsoft Operations Management Suite (OMS)](/azure/operations-management-suite/oms-solution-office-365).
 
 Дополнительные сведения о политиках оповещений и поиске в журнале аудита:
 
@@ -95,7 +95,7 @@ ms.locfileid: "50290673"
 
 - [Поиск в журнале аудита](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
-- [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) (командлет)
+- [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) (командлет)
 
 - [Подробные свойства в журнале аудита](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
@@ -130,11 +130,11 @@ Microsoft Cloud App Security — это полнофункциональная 
 
 Дополнительные сведения:
 
-- [Развертывание Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
+- [Развертывание Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security)
 
 - [Дополнительные сведения о Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
-- [Блокировка скачивания конфиденциальных данных с помощью прокси-сервера Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
+- [Блокировка скачивания конфиденциальных данных с помощью прокси-сервера Microsoft Cloud App Security](/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Примеры политик файлов и действий для обнаружения случаев предоставления общего доступа к персональным данным
 

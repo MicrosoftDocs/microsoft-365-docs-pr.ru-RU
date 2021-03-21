@@ -18,19 +18,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Расширенный аудит в Microsoft 365 предоставляет новые функции аудита, помогающие организации при расследованиях и анализе соответствия требованиям.
-ms.openlocfilehash: 012361e8ebbf1961d5ca21cef97357d5150523d5
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 0a77a5c54ce328a3966a952fc8fef08553f42462
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712059"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923489"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Расширенный аудит в Microsoft 365
 
 [Функция единого аудита](search-the-audit-log-in-security-and-compliance.md) в Microsoft 365 предоставляет организациям обзор различных типов действий, подлежащих аудиту, в различных службах Microsoft 365. Благодаря расширенному аудиту организации могут проводить расследования и анализ соответствия требованиям, увеличивая срок хранения журнала аудита, необходимого для проведения расследования, и предоставляя доступ к важным событиям, которые помогают определить масштаб угрозы и ускорить доступ к API действий управления Office 365.
 
 > [!NOTE]
-> Расширенный аудит доступен организациям с подпиской на Office 365 E5/G5 или Microsoft 365 корпоративный E5/G5. Кроме того, пользователям можно назначать дополнительную лицензию на службу "Соответствие требованиям Microsoft 365 E5" или "Обнаружение электронных данных и аудит в Microsoft 365 E5", когда требуется лицензирование каждого пользователя для функций расширенного аудита, например в случае длительного хранения журналов аудита и доступа к важным событиям для расследований. Дополнительные сведения о лицензировании см. в статье [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit).
+> Расширенный аудит доступен организациям с подпиской на Office 365 E5/G5 или Microsoft 365 корпоративный E5/G5. Кроме того, пользователям можно назначать дополнительную лицензию на службу "Соответствие требованиям Microsoft 365 E5" или "Обнаружение электронных данных и аудит в Microsoft 365 E5", когда требуется лицензирование каждого пользователя для функций расширенного аудита, например в случае длительного хранения журналов аудита и доступа к важным событиям для расследований. Дополнительные сведения о лицензировании см. в статье [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit).
 
 В этой статье содержится обзор возможностей расширенного аудита и показано, как настроить его для пользователей.
 
@@ -85,7 +85,7 @@ ms.locfileid: "50712059"
 
 ![Поиск действий MailItemsAccessed с помощью инструмента поиска в журнале аудита](../media/AdvAudit_MailItemsAccessed.png)
 
-Кроме того, можно запустить команду [Search-UnifiedAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) или [Search-MailboxAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) в Exchange Online PowerShell.
+Кроме того, можно запустить команду [Search-UnifiedAuditLog -Operations MailItemsAccessed](/powershell/module/exchange/search-unifiedauditlog) или [Search-MailboxAuditLog -Operations MailItemsAccessed](/powershell/module/exchange/search-mailboxauditlog) в Exchange Online PowerShell.
 
 ### <a name="send"></a>Send
 
@@ -103,7 +103,7 @@ ms.locfileid: "50712059"
 
 ![Поиск действий "Отправленное сообщение" с помощью инструмента поиска в журнале аудита](../media/AdvAudit_SentMessage.png)
 
-Кроме того, можно запустить команду [Search-UnifiedAuditLog -Operations Send](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) или [Search-MailboxAuditLog -Operations Send](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) в Exchange Online PowerShell.
+Кроме того, можно запустить команду [Search-UnifiedAuditLog -Operations Send](/powershell/module/exchange/search-unifiedauditlog) или [Search-MailboxAuditLog -Operations Send](/powershell/module/exchange/search-mailboxauditlog) в Exchange Online PowerShell.
 
 ### <a name="searchqueryinitiatedexchange"></a>SearchQueryInitiatedExchange
 
@@ -125,7 +125,7 @@ ms.locfileid: "50712059"
 
 ![Поиск действий "Выполненные поисковые запросы в электронной почте" с помощью инструмента поиска в журнале аудита](../media/AdvAudit_SearchExchange.png)
 
-В Exchange Online PowerShell также можно выполнить [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog).
+В Exchange Online PowerShell также можно выполнить [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog).
 
 > [!NOTE]
 > В Exchange Online PowerShell необходимо выполнить указанную ниже команду, чтобы события SearchQueryInitiatedExchange, выполненные указанным пользователем E5, были включены в результаты поиска в журнале аудита: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
@@ -150,7 +150,7 @@ ms.locfileid: "50712059"
 
 ![Поиск действий "Выполненные поисковые запросы SharePoint" с помощью инструмента поиска в журнале аудита](../media/AdvAudit_SearchSharePoint.png)
 
-В Exchange Online PowerShell также можно выполнить [Search-UnifiedAuditLog -Operations SearchQueryInitiatedSharePoint](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog).
+В Exchange Online PowerShell также можно выполнить [Search-UnifiedAuditLog -Operations SearchQueryInitiatedSharePoint](/powershell/module/exchange/search-unifiedauditlog).
 
 > [!NOTE]
 > В Exchange Online PowerShell необходимо выполнить указанную ниже команду, чтобы события SearchQueryInitiatedExchange, выполненные указанным пользователем E5, были включены в результаты поиска в журнале аудита: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
@@ -165,7 +165,7 @@ ms.locfileid: "50712059"
 
 Для всех организаций изначально выделяется базовый уровень 2 000 запросов в минуту. Это ограничение будет динамически увеличиваться в зависимости от числа рабочих мест в организации и их подписок на лицензии. Организации E5 получат примерно вдвое большую пропускную способность, чем организации без плана E5. Для защиты работоспособности службы также будет использоваться ограничение максимальной пропускной способности.
 
-Дополнительные сведения см. в разделе "Регулирование API" статьи [Справочник по API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference#api-throttling).
+Дополнительные сведения см. в разделе "Регулирование API" статьи [Справочник по API действий управления Office 365](/office/office-365-management-api/office-365-management-activity-api-reference#api-throttling).
 
 ## <a name="set-up-advanced-audit-for-users"></a>Настройка расширенного аудита для пользователей
 
@@ -183,7 +183,7 @@ ms.locfileid: "50712059"
 
    Регистрация записей аудита для MailItemsAccessed, Send и других важных событий для пользователя начнется в течение 24 часов.
 
-Организациям, которые назначили лицензии группам пользователей с помощью группового лицензирования, нужно отключить лицензирование улучшенного аудита Microsoft 365 для этой группы. После сохранения изменений убедитесь в том, что для этой группы отключен улучшенный аудит Microsoft 365. Затем снова включите лицензирование для этой группы. Инструкции в отношении группового лицензирования см. в статье [Назначение лицензий пользователям в соответствии с членством в группах в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).
+Организациям, которые назначили лицензии группам пользователей с помощью группового лицензирования, нужно отключить лицензирование улучшенного аудита Microsoft 365 для этой группы. После сохранения изменений убедитесь в том, что для этой группы отключен улучшенный аудит Microsoft 365. Затем снова включите лицензирование для этой группы. Инструкции в отношении группового лицензирования см. в статье [Назначение лицензий пользователям в соответствии с членством в группах в Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 Кроме того, если вы настроили действия с почтовыми ящиками, общими или пользователей, выполнивших вход, в них не будет автоматически проводиться аудит новых действий по умолчанию, таких как MailItemsAccessed. Сведения об изменении действий с почтовыми ящиками, аудит которых проводится для каждого типа входа, см. в разделе "Изменение или восстановление действий с почтовыми ящиками, зарегистрированных по умолчанию" статьи [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md#change-or-restore-mailbox-actions-logged-by-default).
 

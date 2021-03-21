@@ -1,7 +1,7 @@
 ---
-title: Лицензия и условия использования API Microsoft 365 Defender
+title: Лицензия и условия использования API Защитника Microsoft 365
 description: Описание лицензии и условий использования API в Microsoft 365 Defender
-keywords: API, API, лицензия, условия, API, юридические, уведомления, кодекс поведения
+keywords: api, apis, license, terms, apis, legal, notices, code of conduct
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 82f31c449ae2e102ac7464e0fef75277660844d1
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 06926bc58f29fcf80d09819545e2455813f27a5f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930958"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922166"
 ---
-# <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Лицензия и условия использования API Microsoft 365 Defender
+# <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Лицензия и условия использования API Защитника Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,44 +36,44 @@ ms.locfileid: "49930958"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> Некоторые сведения относятся к предварительно изданным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ## <a name="official-terms"></a>Официальные термины
 
-API Microsoft 365 Defender управляются лицензией на API Microsoft и [условиями использования.](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use)
+API Защитника Microsoft 365 регулируются лицензией [API Microsoft и условиями использования.](/legal/microsoft-apis/terms-of-use)
 
 ## <a name="legal-notices"></a>Юридические уведомления
 
-Корпорация Майкрософт и все участники выдают вам лицензию на документацию Майкрософт и другой контент в этом репозитории в рамках международной открытой лицензии Creative Commons Attribution 4.0. [](https://github.com/MicrosoftDocs/microsoft-365-docs) Дополнительные сведения см. в [файле LICENSE.](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/LICENSE)
+Корпорация Майкрософт и все участники выдают вам лицензию на документацию Майкрософт и другой контент в этом репозитории [в](https://github.com/MicrosoftDocs/microsoft-365-docs)соответствии с международной публичной лицензией Creative Commons Attribution 4.0. Дополнительные сведения см. в [файле LICENSE.](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/LICENSE)
 
 Microsoft, Windows, Microsoft Azure и/или другие продукты и службы Майкрософт, на которые ссылается документация, могут быть товарными знаками или зарегистрированными товарными знаками Корпорации Майкрософт в США и/или других странах.
 
-Лицензии для этого проекта не предоставляет вам права на использование имен, логотипов или товарных знаков Майкрософт. Общие рекомендации по товарным знакам корпорации Майкрософт можно найти на сайте [Microsoft Trademarks.](https://go.microsoft.com/fwlink/?LinkID=254653)
+Лицензии для этого проекта не дарют вам права на использование имен, логотипов или товарных знаков Майкрософт. Общие рекомендации по товарным знакам Корпорации Майкрософт можно найти на [сайте Microsoft Trademarks.](https://go.microsoft.com/fwlink/?LinkID=254653)
 
-Сведения о конфиденциальности можно найти на [веб-сайте "Конфиденциальность" в Корпорации Майкрософт.](https://privacy.microsoft.com)
+Сведения о конфиденциальности можно найти на [сайте Privacy в Microsoft.](https://privacy.microsoft.com)
 
-Корпорация Майкрософт и любые участники резервировать все остальные права, в соответствии с соответствующими авторскими правами, патентами или товарными знаками, как по последствию, так и по-другому.
+Корпорация Майкрософт и все участники резервировать все другие права, будь то в соответствии со своими соответствующими авторскими правами, патентами или товарными знаками, будь то под влиянием, эстоппелем или иным образом.
 
 ## <a name="other-restrictions"></a>Другие ограничения
 
-API расширенных поисков [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api#limitations) имеет некоторые ограничения на количество возвращаемого результата и данных, которые можно запрошагов.
+Расширенный API охоты [](/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api#limitations) имеет некоторые ограничения на количество возвращенных результатов и данных, которые можно задать запрос.
 
 1. Вы можете запрашивать данные только за последние 30 дней.
-1. Результаты включают не более 100 000 строк.
+1. Результаты будут включать не более 100 000 строк.
 
-### <a name="quotas-and-resource-allocation"></a>Квоты и выделение ресурсов
+### <a name="quotas-and-resource-allocation"></a>Квоты и распределение ресурсов
 
-API Microsoft 365 Defender имеют пороговые значения регулирования.
+API Защитника Microsoft 365 имеют пороговые значения регулирования.
 
 - **API инцидентов:** до 50 вызовов в минуту или 1500 вызовов в час.
-- **API advanced Hunting**: до 15 вызовов в минуту, 10 минут времени работы в час и 4 часа работы в день.
+- **Расширенный API** охоты: до 15 вызовов в минуту, 10 минут времени работы в час и 4 часа времени работы в день.
 
-Код состояния http-ответа, указывающий на то, что регулирование имеет состояние `429` .
+Код состояния отклика HTTP, указывающий на `429` регулирование.
 
-Если ваш запрос был регулирование, в теле ответа будет указано время, когда вы можете снова начать делать запросы.
+Если ваш запрос был отлажин, в органе ответа будет указано время, когда можно снова начать делать запросы.
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Обзор API Microsoft 365 Defender](api-overview.md)
+- [Обзор API защитника Microsoft 365](api-overview.md)
 - [Поддерживаемые API Microsoft 365 Defender](api-supported.md)
-- [Доступ к API Microsoft 365 Defender](api-access.md)
+- [Доступ к API защитника Microsoft 365](api-access.md)

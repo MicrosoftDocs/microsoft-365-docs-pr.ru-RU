@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как работает хранение в Exchange.
-ms.openlocfilehash: 4e8a536aaa81b0117f40b0ce330491fa8430f97c
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 0763b8bdab75ac76197b8c89f187bb573a3e4bb1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754439"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922513"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Сведения о хранении для Exchange
 
 Сведения в этой статье дополняют [сведения о хранении](retention.md), так как в ней представлена информация, относящаяся к Exchange.  Другие нагрузки:
 
-- [Хранение контента SharePoint и OneDrive](retention-policies-sharepoint.md)
+- [Хранение в SharePoint и OneDrive](retention-policies-sharepoint.md)
 - [Хранение контента Microsoft Teams](retention-policies-teams.md)
 - [ Хранение контента Yammer](retention-policies-yammer.md)
 
@@ -44,7 +44,7 @@ ms.locfileid: "48754439"
 
 ## <a name="how-retention-works-for-exchange"></a>Как работает хранение в Exchange
 
-Элементы почтового ящика и общедоступной папки хранятся в папке [Элементы с возможностью восстановления](https://docs.microsoft.com/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder). Только пользователи, которым назначены разрешения на обнаружение электронных данных, могут просматривать элементы в папках "Элементы с возможностью восстановления" других пользователей.
+Элементы почтового ящика и общедоступной папки хранятся в папке [Элементы с возможностью восстановления](/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder). Только пользователи, которым назначены разрешения на обнаружение электронных данных, могут просматривать элементы в папках "Элементы с возможностью восстановления" других пользователей.
   
 По умолчанию при удалении сообщения из папки, отличной от папки "Удаленные", сообщение перемещается в папку "Удаленные". При удалении элемента из папки "Удаленные" сообщение перемещается в папку "Элементы с возможностью восстановления". Однако пользователь может выполнить обратимое удаление элемента (SHIFT+DELETE) в любой папке, что позволяет обойти папку "Удаленные" и переместить его непосредственно в папку "Элементы с возможностью восстановления".
   

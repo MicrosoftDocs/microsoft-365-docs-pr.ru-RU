@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать реализацию политик хранения и меток хранения для управления данными организации, но не знаете, с чего начинать? Перед началом работы ознакомьтесь с некоторыми практическими руководствами.
-ms.openlocfilehash: bb73f0871bfc2ad707d31ef6d4d57e18218842a5
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 27f361ba98cdaecb5b7788283c8d4244583ee82c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406519"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922623"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Начало работы с политиками хранения и метками хранения
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Вы готовы управлять данными своей организации путем хранения контента, который необходимо сохранить, и удаления ненужного контента? Чтобы приступить к работе, используйте приведенные ниже рекомендации высокого уровня.
 
@@ -48,7 +48,7 @@ ms.locfileid: "50406519"
 
 Политики хранения и метки хранения поддерживаются в рамках нескольких разных подписок, а требования лицензирования для пользователей зависят от используемых функций.
 
-Чтобы узнать о вариантах лицензирования пользователей, которые позволят получить максимальную пользу от функций соответствия требованиям Microsoft 365, см. [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD). Информация о хранении приведена в разделе [Управление информацией](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance), а также в загрузке PDF или Excel с указанием требований к лицензированию на уровне функций.
+Чтобы узнать о вариантах лицензирования пользователей, которые позволят получить максимальную пользу от функций соответствия требованиям Microsoft 365, см. [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance). Информация о хранении приведена в разделе [Управление информацией](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance), а также в загрузке PDF или Excel с указанием требований к лицензированию на уровне функций.
 
 ## <a name="permissions-required-to-create-and-manage-retention-policies-and-retention-labels"></a>Разрешения, необходимые для создания и управления политиками хранения и метками хранения
 
@@ -56,9 +56,9 @@ ms.locfileid: "50406519"
 
 В качестве альтернативы использования этой роли по умолчанию можно создать новую группу ролей и добавить в нее роль **управления хранением**. Чтобы получить роль "только для чтения", используйте **Управление хранением "только для просмотра"**. 
 
-Дополнительные сведения о группах ролей и ролях см. в статье [Разрешения в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center).
+Дополнительные сведения о группах ролей и ролях см. в статье [Разрешения в Центре безопасности и соответствия требованиям](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
 
-Инструкции по добавлению пользователей в группы ролей и по назначению ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Инструкции по добавлению пользователей в группы ролей и по назначению ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Эти разрешения необходимы только для создания, настройки и применения политик хранения и меток хранения. Пользователю, настраивающему эти политики и метки, не требуется доступ к контенту.
 

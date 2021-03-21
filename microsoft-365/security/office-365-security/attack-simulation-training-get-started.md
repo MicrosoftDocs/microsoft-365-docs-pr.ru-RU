@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут узнать, как использовать обучение имитации атаки для имитации фишинга и атак паролей в организациях Microsoft 365 E5 или Microsoft Defender для Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 38e16ecd8185b9e8542f58613790585b5aab73ee
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 6e344153ef433bc13b16136e584ec4da73fcef6a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820238"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921352"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Начало использования обучения имитации атаки
 
@@ -40,7 +40,7 @@ ms.locfileid: "50820238"
 
 - Чтобы открыть Центр безопасности Майкрософт, перейдите к <https://security.microsoft.com/> . Обучение моделированию атак доступно на тренинге **по** моделированию атак по электронной почте и \> **совместной работе.** Чтобы перейти непосредственно к обучению имитации атаки, откройте <https://security.microsoft.com/attacksimulator> .
 
-- Дополнительные сведения о доступности обучения имитации атаки для различных подписок Microsoft 365 см. в описании [службы Microsoft Defender для Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+- Дополнительные сведения о доступности обучения имитации атаки для различных подписок Microsoft 365 см. в описании [службы Microsoft Defender для Office 365.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
 - Вам необходимо получить разрешения в Центре & безопасности или в Azure Active Directory, прежде чем вы сможете сделать процедуры в этой статье. В частности, вам необходимо быть членом **Организации Управления,** **Администратором** безопасности или одной из следующих ролей:
   - **Администраторы симулятора атак.** Создайте и управляйте всеми аспектами кампаний имитации атак.

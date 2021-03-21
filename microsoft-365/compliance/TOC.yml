@@ -604,11 +604,11 @@
               href: search-for-ediscovery-activities-in-the-audit-log.md
     - name: Advanced eDiscovery
       items:
-        - name: Обзор Advanced eDiscovery
+        - name: Обзор
           href: overview-ediscovery-20.md
         - name: Настройка Advanced eDiscovery
           href: get-started-with-advanced-ediscovery.md
-        - name: Создание варианта использования Advanced eDiscovery
+        - name: Создание дела и управление им
           href: create-and-manage-advanced-ediscoveryv2-case.md
         - name: Управление охраняемыми и не охраняемыми источниками данных
           href: managing-custodians.md
@@ -720,8 +720,6 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: Справочник по Advanced eDiscovery
           items:
-            - name: Расширенные возможности выравнивания eDiscovery с EDRM
-              href: advanced-ediscovery-edrm.md
             - name: Ограничения Advanced eDiscovery
               href: limits-ediscovery20.md
             - name: Поддерживаемые типы файлов
@@ -787,11 +785,11 @@
         - name: API действий управления Office 365
           items:
             - name: Справочник по API действий управления Office 365
-              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference'
+              href: /office/office-365-management-api/office-365-management-activity-api-reference
             - name: "Схема API действий управления Office\_365"
-              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema'
+              href: /office/office-365-management-api/office-365-management-activity-api-schema
             - name: 'Вопросы и ответы по API действий управления Office 365, а также устранение неполадок, связанных с ним'
-              href: 'https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api'
+              href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
     - name: Аудит почтового ящика
       href: enable-mailbox-auditing.md
     - name: Расширенный аудит
@@ -846,8 +844,8 @@
         - name: Настройка функции управления правами на доступ к данным для использования локального сервера служб AD RMS
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
 - name: "Microsoft\_365 корпоративный"
-  href: 'https://docs.microsoft.com/microsoft-365/enterprise/'
+  href: ../enterprise/index.yml
 - name: "Безопасность Microsoft\_365"
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
+  href: ../security/index.yml
 - name: Приложения Microsoft 365 для бизнеса
-  href: 'https://docs.microsoft.com/office365/admin/admin-home'
+  href: /office365/admin/admin-home

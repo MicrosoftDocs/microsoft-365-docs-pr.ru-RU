@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: Необходимо, чтобы пользователи безопасно входили в систему с помощью многофакторной проверки подлинности (MFA) и других функций.
-ms.openlocfilehash: 8426d902ff8be8541b5d770af6d34cdf71868047
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: c470a8bb1e67925ced929225796ac30191db247e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558530"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923140"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Защита пользовательских входов в ваш клиент Microsoft 365
 
@@ -37,14 +37,14 @@ ms.locfileid: "49558530"
 
 При входе в устройство с Windows Hello для бизнеса в Windows 10 Корпоративная заменяет пароли надежной двухфакторной проверкой подлинности. Два фактора — это новый тип учетных данных пользователей, который связан с устройством и биометрией или ПИН-кодом.
 
-Дополнительные сведения см. в статье [Обзор Windows Hello для бизнеса](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview).
+Дополнительные сведения см. в статье [Обзор Windows Hello для бизнеса](/windows/security/identity-protection/hello-for-business/hello-overview).
 
 
 ## <a name="azure-ad-password-protection"></a>Защита паролем Azure AD
 
 Защита паролем Azure AD позволяет обнаруживать и блокировать известные слабые пароли и их варианты, а также может блокировать дополнительные ненадёжные термины, характерные для вашей организации. Общие списки заблокированных паролей по умолчанию автоматически применяются ко всем пользователям в клиенте Azure AD. Дополнительные элементы можно определить в настраиваемом списке заблокированных паролей. При изменении или сбросе паролей пользователями эти списки заблокированных паролей проверяются с целью обеспечения использования надежных паролей.
 
-Дополнительные сведения см. в статье [Настройка защиты паролем Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad).
+Дополнительные сведения см. в статье [Настройка защиты паролем Azure AD](/azure/active-directory/authentication/concept-password-ban-bad).
 
 ## <a name="mfa"></a>Многофакторная проверка подлинности
 
@@ -52,7 +52,7 @@ ms.locfileid: "49558530"
 
 ![Правильный пароль и дополнительная проверка обеспечивают успешный вход](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
-Первым этапом использования MFA является ***обеспечение многофакторной проверки подлинности для всех учетных записей администраторов** _, также известных как привилегированные учетные записи.
+Первым этапом использования MFA является ***обеспечение многофакторной проверки подлинности для всех учетных записей администраторов***, также известных как привилегированные учетные записи.
 
 Помимо этого первого этапа корпорация Майкрософт рекомендует использование MFA для всех пользователей.
 
@@ -60,20 +60,20 @@ ms.locfileid: "49558530"
 
 | План | Рекомендация |
 |---------|---------|
-|Все планы Microsoft 365 (без лицензий Azure AD Premium P1 или P2)     |[Включите параметры безопасности, по умолчанию заданные в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.   |
-|Microsoft 365 E3 (включает лицензии Azure AD Premium P1)     | Используйте [Общие политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br>- [Обязательное использование MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Обязательное использование MFA для всех пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
+|Все планы Microsoft 365 (без лицензий Azure AD Premium P1 или P2)     |[Включите параметры безопасности, по умолчанию заданные в Azure AD](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.   |
+|Microsoft 365 E3 (включает лицензии Azure AD Premium P1)     | Используйте [Общие политики условного доступа](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br>- [Обязательное использование MFA для администраторов](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Обязательное использование MFA для всех пользователей](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Блокирование традиционной проверки подлинности](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
 |Microsoft 365 E5 (включает лицензии Azure AD Premium P2)     | Пользуйтесь преимуществами функции защиты идентификации Azure AD, начните применять [Рекомендуемый набор политики условного доступа и связанных с ней политик](../security/office-365-security/identity-access-policies.md) (Майкрософт), создав две следующие политики.<br> - [Обязательное использование MFA при среднем или высоком риске входа в систему](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Необходимость смены пароля для пользователей с высоким риском](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ### <a name="security-defaults"></a>Параметры безопасности по умолчанию
 
-Параметры безопасности по умолчанию — новая функция в платных и пробных подписках Microsoft 365 и Office 365, появившаяся после 21 октября 2019 г. В этих подписках включены параметры безопасности по умолчанию, что _*_обязывает всех пользователей применять MFA в приложении Microsoft Authenticator_*_.
+Параметры безопасности по умолчанию — новая функция в платных и пробных подписках Microsoft 365 и Office 365, появившаяся после 21 октября 2019 г. В этих подписках включены параметры безопасности по умолчанию, что ***обязывает всех пользователей применять MFA в приложении Microsoft Authenticator***.
  
 На регистрацию MFA в приложении Microsoft Authenticator с помощью смартфонов у пользователей есть 14 дней с момента первого входа в систему после включения параметров безопасности по умолчанию. По истечении 14 дней пользователь не сможет войти в систему до завершения регистрации MFA.
 
 Применение параметров безопасности по умолчанию гарантирует, что все организации имеют базовый уровень безопасности при входе пользователей в систему, включенный по умолчанию. Вы можете отключить параметры безопасности по умолчанию, если предпочитаете использовать MFA с условным доступом или для отдельных учетных записей.
 
-Дополнительные сведения см. в статье [Обзор параметров безопасности, заданных по умолчанию](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
+Дополнительные сведения см. в статье [Обзор параметров безопасности, заданных по умолчанию](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 ### <a name="conditional-access-policies"></a>Политики условного доступа
 
@@ -87,7 +87,7 @@ ms.locfileid: "49558530"
 
 Для использования условного доступа требуется наличие лицензий Azure AD Premium P1, входящих в состав Microsoft 365 E3 и E5.
 
-Дополнительные сведения см. в статье [Обзор условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
+Дополнительные сведения см. в статье [Обзор условного доступа](/azure/active-directory/conditional-access/overview).
 
 ### <a name="using-these-methods-together"></a>Совместное использование этих методов
 
@@ -102,7 +102,7 @@ ms.locfileid: "49558530"
 
 | Метод | Включено | Отключено | Дополнительный метод аутентификации |
 |:-------|:-----|:-------|:-------|
-| _ *Параметры безопасности по умолчанию**  | Невозможно использовать политики условного доступа | Возможно использование политик условного доступа | Приложение Microsoft Authenticator |
+| **Параметры безопасности по умолчанию**  | Невозможно использовать политики условного доступа | Возможно использование политик условного доступа | Приложение Microsoft Authenticator |
 | **Политики условного доступа** | Если включена хотя бы одна из них, то включение параметров безопасности по умолчанию невозможно | Если все отключены, вы можете включить настройки безопасности по умолчанию  | Пользователь указывает при регистрации MFA  |
 ||||
 
@@ -137,16 +137,16 @@ ms.locfileid: "49558530"
 | Исследовать подозрительные происшествия и разрешать их с помощью административных действий. | Вы можете исследовать события, связанные с риском, используя сведения об инцидентах безопасности. Доступны основные рабочие процессы  для отслеживания исследований и принятия мер, например сброс паролей. |
 |||
 
-См. [дополнительные сведения о защите удостоверений Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection).
+См. [дополнительные сведения о защите удостоверений Azure AD](/azure/active-directory/active-directory-identityprotection).
 
-См. описание [действий по включению защиты идентификации Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).
+См. описание [действий по включению защиты идентификации Azure AD](/azure/active-directory/active-directory-identityprotection-enable).
 
 ## <a name="admin-technical-resources-for-mfa-and-secure-sign-ins"></a>Технические ресурсы для администраторов по MFA и защите входов
 
 - [MFA для Microsoft 365](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)
 - [Стратегия удостоверений для Microsoft 365](identity-roadmap-microsoft-365.md)
 - [Учебные видеоматериалы по Azure AD академии Azure](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
-- [Настройка политики регистрации многофакторной проверки подлинности Azure AD](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+- [Настройка политики регистрации многофакторной проверки подлинности Azure AD](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Конфигурации доступа для удостоверений и устройств](../security/office-365-security/microsoft-365-policies-configurations.md)
 
 ## <a name="next-step"></a>Следующий этап

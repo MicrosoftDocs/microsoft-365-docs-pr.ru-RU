@@ -19,19 +19,19 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Узнайте, как оптимизировать производительность iFrame на современных и классических страницах сайта публикаций SharePoint Online.
-ms.openlocfilehash: 8985eb1038bbdfc53dc3c6a8ea9350fa6df33556
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d6e9aefa23972589c752540959b17f5d20ed0889
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693565"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923066"
 ---
 # <a name="optimize-iframes-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>Оптимизация окон iFrame на страницах современных и классических сайтов публикаций SharePoint Online
 
 Окна iFrame можно использовать для предварительного просмотра расширенного контента, например видео или других файлов мультимедиа. Так как iFrame загружает отдельную страницу на странице сайта SharePoint, содержимое, загружаемое в iFrame, может содержать крупные изображения, видео или другие элементы, которые часто увеличивают общее время загрузки страниц и ограничивают управление страницей. Из этой статьи вы узнаете, как определять, насколько используемые на страницах окна iFrame влияют на задержку, распознаваемую конечным пользователем, и как устранять распространенные проблемы.
 
 >[!NOTE]
->Дополнительные сведения о производительности на современных сайтах SharePoint Online см. в статье [Производительность в современном интерфейсе SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).
+>Дополнительные сведения о производительности на современных сайтах SharePoint Online см. в статье [Производительность в современном интерфейсе SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts-using-iframes"></a>Применение средства диагностики страниц SharePoint для анализа веб-частей, использующих окна iFrame
 
@@ -80,4 +80,4 @@ ms.locfileid: "46693565"
 
 [Настройка производительности Office 365](tune-microsoft-365-performance.md)
 
-[Производительность в современном интерфейсе SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Производительность в современном интерфейсе SharePoint](/sharepoint/modern-experience-performance)

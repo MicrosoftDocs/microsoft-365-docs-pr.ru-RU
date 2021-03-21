@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: ac8e4b8cdcdfd4d2de0c48a22500338c7a8480a8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 34c6551dd3a40852368b40d960bf921c52f46372
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454175"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921520"
 ---
 # <a name="edit-an-existing-topic"></a>Изменение существующей темы 
 
@@ -38,7 +38,7 @@ ms.locfileid: "50454175"
 
 Чтобы изменить существующую тему, необходимо:
 - Лицензия Viva Topics.
-- Есть разрешения для [**тех, кто может создавать или изменять темы.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Администраторы знаний могут предоставить пользователям это разрешение в настройках разрешений темы Viva Topics. 
+- Есть разрешения для [**тех, кто может создавать или изменять темы.**](./topic-experiences-user-permissions.md) Администраторы знаний могут предоставить пользователям это разрешение в настройках разрешений темы Viva Topics. 
 
 > [!Note] 
 > Пользователи, у которых есть разрешение на управление темами в Центре тем (менеджеры знаний), уже имеют разрешения на создание и редактирование тем.
@@ -130,13 +130,6 @@ ms.locfileid: "50454175"
 
 
 ## <a name="see-also"></a>См. также
-
-
-
-  
-
-
-
 
 
 

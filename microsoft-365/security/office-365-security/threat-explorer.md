@@ -19,12 +19,12 @@ description: Используйте обнаружение explorer и в реж
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 614cd7c256fe8af5fd7474a2101f937b1ecfd0d3
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 3f8f8dfc5cf1066b4ebcf166487bfcdb0a8b2db7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406412"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922502"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обнаружение обозревателя угроз и обнаружения в режиме реального времени
 
@@ -201,7 +201,7 @@ ms.locfileid: "50406412"
 
 - Показать полный щелкнув URL-адрес (в том числе все параметры запроса, которые являются частью URL-адреса) в разделе **Щелчки** в флажок URL-адрес. В настоящее время домен URL-адреса и путь отображаются в панели заголовков. Мы расширяем эту информацию, чтобы показать полный URL-адрес.
 
-- Исправление фильтров URL-адресов *(URL-адрес* и URL-адрес, а также URL-адрес домена и *пути):* Обновления влияют на поиск сообщений, содержащих URL-адрес и нажмите кнопку вердикт.  Мы включили поддержку для протокольного агностика поиска, поэтому вы можете искать URL-адрес без использования `http` . По умолчанию url-карты поиска для http, если явно не указано другое значение. Пример:
+- Исправление фильтров URL-адресов *(URL-адрес* и URL-адрес, а также URL-адрес домена и *пути):* Обновления влияют на поиск сообщений, содержащих URL-адрес и нажмите кнопку вердикт.  Мы включили поддержку для протокольного агностика поиска, поэтому вы можете искать URL-адрес без использования `http` . По умолчанию url-карты поиска для http, если явно не указано другое значение. Например:
 
    -  Поиск с префиксом и без него в полях `http://` **фильтрации** URL-адресов, **URL-адресов** и **URL-адресов.** Результаты поиска должны быть одинаковыми.
 
@@ -507,7 +507,7 @@ Url-сигнал ZAP обычно используется для сценари
 В дополнение к сценариям, описанным в этой статье, у вас есть еще много вариантов отчетности, доступных с Explorer (или обнаружения в режиме реального времени). См. следующие статьи:
 
 - [Поиск и изучение доставленной нежелательной почты](investigate-malicious-email-that-was-delivered.md)
-- [Просмотр вредоносных файлов, обнаруженных в SharePoint Online, OneDrive и Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
+- [Просмотр вредоносных файлов, обнаруженных в SharePoint Online, OneDrive и Microsoft Teams](./atp-for-spo-odb-and-teams.md)
 - [Обзор представлений в Обозревателе угроз (и обнаружения в режиме реального времени)](threat-explorer-views.md)
 - [отчет о состоянии защиты от угроз](view-email-security-reports.md#threat-protection-status-report);
 - [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](../mtp/mtp-autoir.md)
@@ -528,7 +528,7 @@ Url-сигнал ZAP обычно используется для сценари
   - Администратор безопасности (это может быть назначено в центре администрирования Azure Active Directory ( <https://aad.portal.azure.com> )
   - Читатель сведений о безопасности
 
-- Для Exchange Online вам должна быть назначена одна из следующих ролей в центре администрирования Exchange () или <https://admin.protection.outlook.com/ecp/> Exchange Online [PowerShell:](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
+- Для Exchange Online вам должна быть назначена одна из следующих ролей в центре администрирования Exchange () или <https://admin.protection.outlook.com/ecp/> Exchange Online [PowerShell:](/powershell/exchange/exchange-online-powershell)
 
   - Управление организацией
   - Управление организацией только с правом на просмотр
@@ -538,14 +538,14 @@ Url-сигнал ZAP обычно используется для сценари
 Дополнительные информацию о ролях и разрешениях см. в следующих ресурсах:
 
 - [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
-- [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+- [Разрешения компонентов в Exchange Online](/exchange/permissions-exo/feature-permissions)
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>Различия между обнаружением обозревателя угроз и обнаружения в режиме реального времени
 
 - Отчет *о обнаружениях в* режиме реального времени доступен в defender for Office 365 Plan 1. *Обозреватель угроз* доступен в Defender для Office 365 Plan 2.
 - Отчет о обнаружениях в режиме реального времени позволяет просматривать обнаружения в режиме реального времени. Обозреватель угроз также делает это, но также предоставляет дополнительные сведения для данной атаки.
 - Все *представления электронной* почты доступны в Обозревателе угроз, но не в отчете о обнаружениях в режиме реального времени.
-- Дополнительные возможности фильтрации и доступные действия включены в Обозреватель угроз. Дополнительные сведения см. в [описании Службы Microsoft Defender для Office 365:](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)доступность функций в планах Defender для Office 365.
+- Дополнительные возможности фильтрации и доступные действия включены в Обозреватель угроз. Дополнительные сведения см. в [описании Службы Microsoft Defender для Office 365:](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)доступность функций в планах Defender для Office 365.
 
 ## <a name="other-articles"></a>Другие статьи
 

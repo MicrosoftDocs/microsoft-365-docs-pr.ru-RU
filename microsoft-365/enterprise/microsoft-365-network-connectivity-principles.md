@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Эта статья содержит новейшие рекомендации по безопасной оптимизации сетевого подключения Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6f104f53abd0a9aa2376b09c93af96d7f8178e8
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: e0391133721270c0fdfb288b5d26ab23f301a844
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519743"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923294"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Принципы сетевого подключения к Microsoft 365
 
@@ -228,7 +228,7 @@ Microsoft 365 — это распределенное облако на осн
   - Создание локальных точек выхода для трафика Microsoft 365.
 - Улучшения можно вносить поэтапно, как описано в разделе [Добавочная оптимизация](microsoft-365-network-connectivity-principles.md#BKMK_IncOpt). Некоторые методики оптимизации могут отличаться лучшим соотношением цены к преимуществам в зависимости от сетевой архитектуры, и следует выбирать средства оптимизации, которые лучше всего подходят для вашей организации.
 
-Дополнительные сведения о безопасности и соответствии требованиям в Microsoft 365 см. в статьях о [безопасности в Microsoft 365](https://docs.microsoft.com/microsoft-365/security) и [соответствии требованиям в Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance).
+Дополнительные сведения о безопасности и соответствии требованиям в Microsoft 365 см. в статьях о [безопасности в Microsoft 365](../security/index.yml) и [соответствии требованиям в Microsoft 365](../compliance/index.yml).
   
 ## <a name="incremental-optimization"></a>Добавочная оптимизация
 <a name="BKMK_IncOpt"> </a>

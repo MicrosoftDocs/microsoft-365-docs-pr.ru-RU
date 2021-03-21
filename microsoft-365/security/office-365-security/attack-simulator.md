@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут научиться использовать Симулятор атак для имитации фишинга и атак паролей в организациях Microsoft 365 E5 или Microsoft Defender для Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c88a5df6fae61e1ffe70214ad4a73deef4b380e
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: 105ca66cdfacaab3b73d8bf89c3a05207b673a3c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717611"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921364"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Симулятор атак в Microsoft Defender для Office 365
 
@@ -45,7 +45,7 @@ ms.locfileid: "50717611"
 
 - Чтобы открыть Центр безопасности и соответствия требованиям, перейдите по ссылке <https://protection.office.com/>. Симулятор атаки доступен в **симуляторе атаки управления** \> **угрозами.** Перейдите непосредственно в симулятор атаки, откройте <https://protection.office.com/attacksimulator> .
 
-- Дополнительные сведения о доступности симулятора атак в различных подписках Microsoft 365 см. в описании [службы Microsoft Defender для Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+- Дополнительные сведения о доступности симулятора атак в различных подписках Microsoft 365 см. в описании [службы Microsoft Defender для Office 365.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
 - Необходимо быть членом групп ролей **"Управление организацией"** или **"Администратор** безопасности". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
@@ -55,7 +55,7 @@ ms.locfileid: "50717611"
 
 - Фишинговые кампании будут собирать и обрабатывать события в течение 30 дней. Данные исторической кампании будут доступны в течение 90 дней после запуска кампании.
 
-- Имитация атаки и связанные с обучением данные хранятся с другими данными клиентов для служб Microsoft 365. Дополнительные сведения см. [в сайте Microsoft 365 data locations.](/microsoft-365/enterprise/o365-data-locations)
+- Имитация атаки и связанные с обучением данные хранятся с другими данными клиентов для служб Microsoft 365. Дополнительные сведения см. [в сайте Microsoft 365 data locations.](../../enterprise/o365-data-locations.md)
 
 - Для Симулятора атак нет соответствующих комлетов PowerShell.
 

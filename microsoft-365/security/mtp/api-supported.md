@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ee03e5a255a88c084403842e7bf0319c06c0517b
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: a162226793cc63a9e7e4d490c721a2c488ac64fc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926202"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922178"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>Поддерживаемые API Microsoft 365 Defender 
 
@@ -35,30 +35,30 @@ ms.locfileid: "49926202"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> Некоторые сведения относятся к предварительно выпущенным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> Некоторые сведения относятся к предварительно изданным продуктам, которые могут быть существенно изменены до его коммерческого выпуска. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ## <a name="list-of-available-apis"></a>Список доступных API
 
 Статья | Описание
 -|-
-[Программный интерфейс расширенной охоты](api-advanced-hunting.md) | Выполнение запросов "Расширенный поиск".
+[Программный интерфейс расширенной охоты](api-advanced-hunting.md) | Запустите расширенные запросы на охоту.
 [Программные интерфейсы, относящиеся к инцидентам](api-incident.md) | Список и обновление инцидентов, а также другие практические задачи.
 
-### <a name="endpoint-uris"></a>IS конечных точек
+### <a name="endpoint-uris"></a>URL-адреса конечной точки
 
-Базовый URI для обоих основных API: https://api.security.microsoft.com . Для улучшения производительности используйте сервер, ближе к географическому местонахождению:
+Базовый URI для обоих основных API: https://api.security.microsoft.com . Чтобы улучшить производительность, используйте сервер ближе к геолокации:
 
 - США: api-us.security.microsoft.com
 - Европа: api-eu.security.microsoft.com
-- Соединенное Королевство: api-uk.security.microsoft.com
+- Великобритания: api-uk.security.microsoft.com
 
-Маркеры можно получить с помощью https://api.security.microsoft.com доступа.
+Маркеры можно приобрести путем доступа https://api.security.microsoft.com к .
 
-Все API на пути используют протокол `/api` [OData,](https://docs.microsoft.com/odata/overview) например https://api.security.microsoft.com/api/incidents .
+Все API на `/api` пути используют [протокол OData;](/odata/overview) https://api.security.microsoft.com/api/incidents например.
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Обзор API Microsoft 365 Defender](api-overview.md)
-- [Доступ к API Защиты от угроз (Майкрософт)](api-access.md)
-- [Узнайте об ограничениях API и лицензировании](api-terms.md)
-- [Коды ошибок](api-error-codes.md)
+- [Обзор API защитника Microsoft 365](api-overview.md)
+- [Доступ к API microsoft Threat Protection](api-access.md)
+- [Узнайте о ограничениях API и лицензировании](api-terms.md)
+- [Понимание кодов ошибок](api-error-codes.md)
