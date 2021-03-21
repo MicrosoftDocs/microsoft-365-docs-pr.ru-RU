@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 54e513fc12a42d2779ee5f35628781676adc0f48
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 558d0fc9279c4b0d9e8c287fe4d99f5ac5884606
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453997"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917492"
 ---
 # <a name="topic-center-overview"></a>Обзор Центра тем
 
@@ -32,7 +32,7 @@ ms.locfileid: "50453997"
 
 ## <a name="where-is-my-topic-center"></a>Где находится центр "Тема"
 
-Центр тем создается во время установки Viva Topics. После завершения настройки администратор может найти URL-адрес на странице управления [центром темы.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-administration#to-access-topics-management-settings)
+Центр тем создается во время установки Viva Topics. После завершения настройки администратор может найти URL-адрес на странице управления [центром темы.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
 1. В центре администрирования Microsoft 365 щелкните **Параметры,** а затем **параметры Org.**
@@ -94,13 +94,6 @@ ms.locfileid: "50453997"
 
 
 ## <a name="see-also"></a>См. также
-
-
-
-  
-
-
-
 
 
 

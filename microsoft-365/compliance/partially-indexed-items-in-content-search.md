@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: Узнайте о неиндексуальных элементов в Exchange и SharePoint, которые можно включить в поиск по обнаружению электронных данных, который вы запустите в центре соответствия требованиям Microsoft 365.
-ms.openlocfilehash: 308e0755f1966b8e4559cf6f08b3133a00ea1b5a
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 39f78c9a6e937fc7152b86a67e56cc95c132ad6a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711909"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916811"
 ---
 # <a name="partially-indexed-items-in-ediscovery"></a>Частично индексация элементов в eDiscovery
 
@@ -57,11 +57,11 @@ ms.locfileid: "50711909"
   
 Список поддерживаемых и отключенных форматов файлов см. в следующих статьях:
   
-- **Exchange**  -  [Форматы файлов, индексация с помощью Exchange Search](https://go.microsoft.com/fwlink/p/?LinkID=386618)
+- **Exchange**  -  [Форматы файлов, индексация с помощью Exchange Search](/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
 
-- **Exchange**  -  [Get-SearchDocumentFormat](https://go.microsoft.com/fwlink/p/?LinkID=724037)
+- **Exchange**  -  [Get-SearchDocumentFormat](/powershell/module/exchange/get-searchdocumentformat)
 
-- **SharePoint**  -  [Расширения имен файлов по умолчанию и раздельные](https://go.microsoft.com/fwlink/p/?LinkID=404033) типы файлов в SharePoint
+- **SharePoint**  -  [Расширения имен файлов по умолчанию и раздельные](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) типы файлов в SharePoint
   
 ## <a name="messages-and-documents-with-partially-indexed-file-types-can-be-returned-in-search-results"></a>Сообщения и документы с частично индексными типами файлов могут быть возвращены в результатах поиска
 
@@ -110,7 +110,7 @@ ms.locfileid: "50711909"
 
 В следующей таблице описываются ограничения индексации, которые могут привести к возвращению сообщения электронной почты в качестве частично индексного элемента в поисковой операции по обнаружению электронных сообщений в Microsoft 365.
   
-Список ограничений индексации для документов SharePoint см. в раздел Ограничения поиска [для SharePoint Online.](https://docs.microsoft.com/sharepoint/search-limits)
+Список ограничений индексации для документов SharePoint см. в раздел Ограничения поиска [для SharePoint Online.](/sharepoint/search-limits)
   
 |**Ограничение индексации**|**Примечания**|**Описание**|
 |:-----|:-----|:-----|

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Локальный сканер для защиты от потери данных Microsoft 365 расширяет возможности отслеживания действий и защитных мер для файлов на локальных файловых ресурсах, и в папках и библиотеках документов SharePoint. Сканер Azure Information Protection (AIP) сканирует и защищает файлы
-ms.openlocfilehash: 996de5ea640a16ef2a250830d7167aa316b54a21
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: fa1c14520c8ad0afa4856fdd8a1c59a0f71f400d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417391"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917815"
 ---
 # <a name="learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Узнайте о локальном сканере для защиты от потери данных Microsoft 365 (предварительная версия)
 
@@ -36,12 +36,12 @@ ms.locfileid: "50417391"
 
 Локальный сканер защиты от потери данных основан на полной реализации сканера Azure Information Protection (AIP) для мониторинга, маркировки и защиты конфиденциальных элементов. Если вы не знакомы со сканером AIP, настоятельно рекомендуем ознакомиться с ним. См. эти статьи:
 
-- [Что такое Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
-- [Что такое сканер унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)
-- [Требования к установке и развертыванию сканера унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-prereqs)
-- [Руководство. Установка сканера унифицированных меток Azure Information Protection (AIP)](https://docs.microsoft.com/azure/information-protection/tutorial-install-scanner)
-- [Настройка и установка сканера унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)
-- [Клиент унифицированных меток Azure Information Protection — журнал выпусков и политика поддержки](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
+- [Что такое Azure Information Protection](/azure/information-protection/what-is-information-protection)
+- [Что такое сканер унифицированных меток Azure Information Protection](/azure/information-protection/deploy-aip-scanner)
+- [Требования к установке и развертыванию сканера унифицированных меток Azure Information Protection](/azure/information-protection/deploy-aip-scanner-prereqs)
+- [Руководство. Установка сканера унифицированных меток Azure Information Protection (AIP)](/azure/information-protection/tutorial-install-scanner)
+- [Настройка и установка сканера унифицированных меток Azure Information Protection](/azure/information-protection/deploy-aip-scanner-configure-install)
+- [Клиент унифицированных меток Azure Information Protection — журнал выпусков и политика поддержки](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
 
 ## <a name="dlp-on-premises-scanner-actions"></a>Действия локального сканера защиты от потери данных
 
@@ -56,7 +56,7 @@ ms.locfileid: "50417391"
 
 |Действие |Описание  |
 |---------|---------|
-|**Блокировка доступа данных пользователей к файлам, хранимых в локальном сканере — для всех** | Это действие блокирует доступ для всех учетных записей, кроме владельца содержимого, последней учетной записи, изменившей элемент, и администратора. Для этого удаляются все учетные записи из разрешений NTFS и SharePoint на уровне файла, за исключением владельца файла, владельца репозитория (установленного настройкой [Установить владельца репозитория](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install#use-a-data-loss-prevention-dlp-policy-public-preview) в задании сканирования содержимого), последнего пользователя, вносившего изменения (может быть определен только в SharePoint) и администратора. Учетной записи сканера также предоставляются права FC на файл.|
+|**Блокировка доступа данных пользователей к файлам, хранимых в локальном сканере — для всех** | Это действие блокирует доступ для всех учетных записей, кроме владельца содержимого, последней учетной записи, изменившей элемент, и администратора. Для этого удаляются все учетные записи из разрешений NTFS и SharePoint на уровне файла, за исключением владельца файла, владельца репозитория (установленного настройкой [Установить владельца репозитория](/azure/information-protection/deploy-aip-scanner-configure-install#use-a-data-loss-prevention-dlp-policy-public-preview) в задании сканирования содержимого), последнего пользователя, вносившего изменения (может быть определен только в SharePoint) и администратора. Учетной записи сканера также предоставляются права FC на файл.|
 |**Блокировка доступа данных пользователей к файлам, хранимых в локальном сканере — блокировать доступ в пределах организации (общедоступный)**    |Это действие удаляет идентификаторы безопасности категорий **_Все пользователи_*_, _*_NT AUTHORITY\пользователи, прошедшие проверку подлинности_*_ и _*_Пользователи домена_** из списка управления доступом (ACL) к файлам. Только пользователи и группы, для которых явным образом предоставлены права на доступ к файлу или родительской папке, смогут открыть файл.|
 |**Настройка разрешений для файла**|Это действие заставляет файл наследовать разрешения родительской папки. По умолчанию это действие выполняется только в том случае, если разрешения для родительской папки более строгие, чем разрешения, которые уже имеются для файла. Например, если ACL для файла настроен так, чтобы разрешать только **_определенных пользователей_*_, а родительская папка настроена для разрешения группы _*_Пользователи домена_*_, разрешения родительской папки не будут унаследованы файлом. Вы можете переопределить это поведение, выбрав параметр _* Наследовать, даже если родительские разрешения менее строгие**.|
 |**Удаление файла из неправильного расположения**|Это действие заменяет исходный файл на файл-заглушку с расширением .txt и помещает копию исходного файла в папку карантина. 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Пример развертывания решений Microsoft 365 в вымышленной, но показательной глобальной организации
-ms.openlocfilehash: 1e06da623a9d580d71823ab030976b213a9e7022
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: 0c11b849f75e5707c5f49762c0b279a5dbfb2fd1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620555"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918422"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Решения Microsoft 365 для корпорации Contoso
 
@@ -36,6 +36,6 @@ ms.locfileid: "49620555"
 
 - [Изолированная команда для сверхсекретного проекта](contoso-team-for-top-secret-project.md)
 
-- [Миграция локальных пользователей в Teams для централизованного взаимодействия, совместной работы и голосового общения](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
+- [Миграция локальных пользователей в Teams для централизованного взаимодействия, совместной работы и голосового общения](/MicrosoftTeams/voice-case-study-overview)
 
 - [Настройка политики ненормативной лексики для общения в Microsoft Teams, Exchange и Yammer](../compliance/communication-compliance-case-study.md)

@@ -18,16 +18,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как с помощью PowerShell создавать и публиковать метки хранения из командной строки независимо от центра соответствия требованиям Microsoft 365.
-ms.openlocfilehash: 5b8bb7a08c9794139e840d59f9238d858e15dd4e
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: 1c3a1e1b9e363659b276d2f11a929308f43737b3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47426986"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918225"
 ---
 # <a name="create-and-publish-retention-labels-by-using-powershell"></a>Создание и публикация меток хранения с помощью PowerShell
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Если вы решили использовать [метки хранения](retention.md), которые помогут хранить и удалять документы и электронные письма в Microsoft 365, то, вероятно, вы понимаете, что это решение влечет за собой создание и публикацию множества (возможно, сотен) меток хранения. Для массового создания меток хранения рекомендуется использовать [план хранения](file-plan-manager.md) в центре соответствия требованиям Microsoft 365. Однако можно использовать и [PowerShell](retention.md#powershell-cmdlets-for-retention-policies-and-retention-labels).
   
@@ -51,7 +51,7 @@ ms.locfileid: "47426986"
 
 2. Преобразуйте текст в столбцы: вкладка **Данные** \> **Текст по столбцам** \> **Разделители** \> **Запятая** \> **Общие**.
 
-2. Замените примеры вашими собственными метками и параметрами хранения. Дополнительные сведения о значениях параметров см. в разделе [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511).
+2. Замените примеры вашими собственными метками и параметрами хранения. Дополнительные сведения о значениях параметров см. в разделе [New-ComplianceTag](/powershell/module/exchange/new-compliancetag).
 
 3. Сохраните лист как CSV-файл в таком месте, где его будет легко найти. Например: C:\>Scripts\Labels.csv
 
@@ -78,7 +78,7 @@ LabelName_t_4,Record label tag - financial,$true,Keep,730,CreationAgeInDays,
 
 2. Преобразуйте текст в столбцы: вкладка **Данные** \> **Текст по столбцам** \> **Разделители** \> **Запятая** \> **Общие**.
 
-2. Замените примеры вашими собственными политиками меток хранения и их параметров. Дополнительные сведения о значениях параметров этого командлета см. в разделе [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy).
+2. Замените примеры вашими собственными политиками меток хранения и их параметров. Дополнительные сведения о значениях параметров этого командлета см. в разделе [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy).
 
 3. Сохраните лист как CSV-файл в таком месте, где его будет легко найти. Пример: `<path>Policies.csv`
 
@@ -736,7 +736,7 @@ if ($ResultCSV)
 
 ## <a name="step-4-run-the-powershell-script"></a>Шаг 4. Запуск скрипта PowerShell
 
-Сначала [выполните подключение к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+Сначала [выполните подключение к PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell)
 
 Затем запустите сценарий, создающий и публикующий метки хранения.
   
@@ -761,5 +761,3 @@ if ($ResultCSV)
 ```
 <path>.\Log_Publish_Compliance_Tag_01112018_151239.txt
 ```
-
-

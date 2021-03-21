@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Классификатор Microsoft 365 — это средство, которое можно обучить распознавать различные типы контента, предоставляя ему образцы для анализа. В этой статье показано, как создать и обучить настраиваемый классификатор и как их переобучить для повышения точности.
-ms.openlocfilehash: a73acd7665cd23f13329bb5db4e890b0f3b0d861
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 90e47ec94528bbadeb98dc9eb590929e25ae6ff1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423298"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918183"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>Начало работы с обучаемыми классификаторами
 
@@ -40,7 +40,7 @@ ms.locfileid: "50423298"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyGL7]
 
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Необходимые компоненты
 
 ### <a name="licensing-requirements"></a>Требования к лицензированию
 
@@ -95,7 +95,7 @@ ms.locfileid: "50423298"
 
 ## <a name="how-to-create-a-trainable-classifier"></a>Создание классификатора, который можно обучить
 
-1. Сбор между 50-500 элементами контента для семян. Это должны быть только образцы, которые сильно представляют тип контента, который необходимо классификатору, который можно использовать для положительного определения в категории классификации. См., расширения имен файлов по умолчанию и раздельные типы файлов [в SharePoint Server](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) для поддерживаемых типов файлов.
+1. Сбор между 50-500 элементами контента для семян. Это должны быть только образцы, которые сильно представляют тип контента, который необходимо классификатору, который можно использовать для положительного определения в категории классификации. См., расширения имен файлов по умолчанию и раздельные типы файлов [в SharePoint Server](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) для поддерживаемых типов файлов.
 
    > [!IMPORTANT]
    > Элементы семенного и тестового образцов не должны быть зашифрованы и должны быть на английском языке.
@@ -127,7 +127,7 @@ ms.locfileid: "50423298"
     > [!div class="mx-imgBorder"]
     > ![классификатор, готовый к тестированию](../media/classifier-trainable-ready-to-test-detail.png)
 
-11. Сбор по крайней мере 200 элементов тестового контента (10 000 макс) для наилучших результатов. Это должно быть сочетание элементов, которые являются сильными позитивами, сильными негативами и некоторыми, которые немного менее очевидны по своей природе. См., расширения имен файлов по умолчанию и раздельные типы файлов [в SharePoint Server](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) для поддерживаемых типов файлов.
+11. Сбор по крайней мере 200 элементов тестового контента (10 000 макс) для наилучших результатов. Это должно быть сочетание элементов, которые являются сильными позитивами, сильными негативами и некоторыми, которые немного менее очевидны по своей природе. См., расширения имен файлов по умолчанию и раздельные типы файлов [в SharePoint Server](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) для поддерживаемых типов файлов.
 
     > [!IMPORTANT]
     > Образцы элементов не должны быть зашифрованы и должны быть на английском языке.

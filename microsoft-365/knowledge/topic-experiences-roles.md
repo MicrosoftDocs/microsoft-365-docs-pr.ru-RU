@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Узнайте о ролях пользователей в Viva Topics.
-ms.openlocfilehash: d5b57e768a1de8bc0447492067371630b2d045f6
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 6d93046a96b60779c3cd3bd6c6aa600cb443118f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453948"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917360"
 ---
 # <a name="microsoft-viva-topics-roles"></a>Роли тем Microsoft Viva 
 
@@ -34,7 +34,7 @@ ms.locfileid: "50453948"
 Зрители темы — это пользователи в вашей организации, которые могут просматривать темы, затронутые на их современном сайте SharePoint, Microsoft Search через SharePoint и Office.com и центре тем. Они могут просматривать дополнительные сведения о теме на странице темы. 
 
 Чтобы основные темы и их страницы были видны для просмотра темы, пользователю необходимо:
--   [Получить лицензию Viva Topics от](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) администратора Microsoft 365.
+-   [Получить лицензию Viva Topics от](./set-up-topic-experiences.md#assign-licenses) администратора Microsoft 365.
 -   Разрешено иметь видимость к темам. Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
 
 
@@ -48,8 +48,8 @@ ms.locfileid: "50453948"
 
 Чтобы создать и изменить тему, пользователю необходимо:
 
--   [Получить лицензию Viva Topics от](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) администратора Microsoft 365.
--   [Вам назначены разрешения на создание и редактирование тем.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions#change-who-has-permissions-to-do-tasks-on-the-topic-center) Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
+-   [Получить лицензию Viva Topics от](./set-up-topic-experiences.md#assign-licenses) администратора Microsoft 365.
+-   [Вам назначены разрешения на создание и редактирование тем.](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center) Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
 
 ## <a name="knowledge-managers"></a>Менеджеры знаний
 
@@ -63,8 +63,8 @@ ms.locfileid: "50453948"
 Кроме того, менеджер знаний может изменять существующие темы или создавать новые.
 
 Чтобы управлять темами, пользователю необходимо:
--   [Получить лицензию Viva Topics от](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) администратора Microsoft 365.
--   [Быть назначены разрешения для управления темами](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions#change-who-has-permissions-to-do-tasks-on-the-topic-center)). Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
+-   [Получить лицензию Viva Topics от](./set-up-topic-experiences.md#assign-licenses) администратора Microsoft 365.
+-   [Быть назначены разрешения для управления темами](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center)). Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
 
 Пользователи, хорошо осведомленные о вашем бизнесе, могут быть хорошими кандидатами на роль менеджера знаний. Такие люди могут не только знать, являются ли темы допустимы или нет, но также могут знать людей в компании, которые связаны с этими темами.
 
@@ -85,4 +85,3 @@ ms.locfileid: "50453948"
 
 
 ## <a name="see-also"></a>См. также
-

@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Вспомогательные ресурсы для соблюдения нормативных требований к управлению данными и записями.
-ms.openlocfilehash: e46abc4efec356cfd058414063d3e76ffe8ff224
-ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
+ms.openlocfilehash: a2629dbd9df4b582b2aeb7726de87d81eb726a76
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50109938"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917785"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>Нормативные требования к управлению данными и записями
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Использование ресурсов, находящихся на этой странице, помогает соблюдать конкретные нормативные требования к управлению данными и записями в Microsoft 365. В каждом разделе этого документа рассматривается одно или несколько нормативных требований и приводятся инструкции или сторонние оценки по настройке Microsoft 365, которые помогут при выполнении описанных требований.
 

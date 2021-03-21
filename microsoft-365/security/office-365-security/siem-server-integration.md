@@ -1,5 +1,5 @@
 ---
-title: Интеграция сервера SIEM со службами и приложениями Microsoft 365
+title: Интеграция серверов SIEM с службами и приложениями Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -15,17 +15,17 @@ ms.custom:
 - Ent_Solutions
 - SIEM
 - seo-marvel-apr2020
-description: Обзор интеграции сервера SIEM с облачными службами и приложениями Microsoft 365
+description: Получение обзора интеграции серверов служб безопасности и управления событиями (SIEM) с облачными службами и приложениями Microsoft 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b4490d52cbd403bf4ce2cc3f3fb3c5a91c5646b9
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 21aaad71f40a01a3bea2f9535d1c3256ae667bae
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290385"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916590"
 ---
-# <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция сервера SIEM со службами и приложениями Microsoft 365
+# <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция серверов системы безопасности и управления событиями (SIEM) с службами и приложениями Microsoft 365
 
 **Область применения**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
@@ -36,45 +36,45 @@ ms.locfileid: "50290385"
 
 ## <a name="summary"></a>Аннотация
 
-Использует ли ваша организация или планирует получить сервер SIEM? Вам может быть интересно, как она интегрируется с Microsoft 365 или Office 365. В этой статье приводится список ресурсов, которые можно использовать для интеграции сервера SIEM со службами и приложениями Microsoft 365.
+Использует ли ваша организация или планирует получить сервер управления сведениями о безопасности и событиями (SIEM)? Возможно, вам будет интересно, как она интегрируется с Microsoft 365 или Office 365. В этой статье приводится список ресурсов, которые можно использовать для интеграции сервера SIEM с службами и приложениями Microsoft 365.
 
 > [!TIP]
-> Если у вас еще нет сервера SIEM и вы изучаете варианты, рассмотрите **[возможность Microsoft Azure Sentinel.](https://docs.microsoft.com/azure/sentinel/overview)**
+> Если у вас еще нет сервера SIEM и вы изучаете варианты, рассмотрите **[Microsoft Azure Sentinel.](/azure/sentinel/overview)**
 
-## <a name="do-i-need-a-siem-server"></a>Нужен ли мне сервер SIEM?
+## <a name="do-i-need-a-siem-server"></a>Нужен ли мне siEM-сервер?
 
-Потребность в сервере SIEM зависит от многих факторов, таких как требования организации к безопасности и место хранения данных. Microsoft 365 включает широкий спектр функций безопасности, которые отвечают требованиям безопасности многих организаций без дополнительных серверов, таких как сервер SIEM. В некоторых организациях имеются особые условия, которые требуют использования сервера SIEM. Ниже приводятся примеры:
+Потребность в siEM-сервере зависит от многих факторов, таких как требования к безопасности организации и место хранения данных. Microsoft 365 включает широкий спектр функций безопасности, которые отвечают требованиям безопасности многих организаций без дополнительных серверов, таких как сервер SIEM. В некоторых организациях имеются особые условия, которые требуют использования сервера SIEM. Ниже приводятся примеры:
 
-- *У Fabrikam* есть некоторое содержимое и приложения локально, а некоторые — в облаке (они имеют гибридное облачное развертывание). Чтобы получить отчеты о безопасности для всего контента и приложений, fabrikam реализовал сервер SIEM.
+- *Fabrikam* имеет некоторое содержимое и приложения на месте, а некоторые в облаке (они имеют гибридное развертывание облака). Чтобы получить отчеты о безопасности во всем их контенте и приложениях, Fabrikam реализовал сервер SIEM.
 
-- *Contoso* — это организация с финансовыми услугами, которая предъявляет особо строгие требования к безопасности. Они добавили сервер SIEM в свою среду, чтобы воспользоваться дополнительной защитой безопасности.
+- *Contoso* — это организация финансовых служб, которая предъявляет особо строгие требования к безопасности. Они добавили сервер SIEM в свою среду, чтобы воспользоваться необходимой дополнительной защитой безопасности.
 
-## <a name="siem-server-integration-with-microsoft-365"></a>Интеграция сервера SIEM с Microsoft 365
+## <a name="siem-server-integration-with-microsoft-365"></a>Интеграция серверов SIEM с Microsoft 365
 
-Сервер SIEM может получать данные из множества служб и приложений Microsoft 365. В следующей таблице перечислены несколько служб и приложений Microsoft 365, а также входные данные сервера SIEM и ресурсы для получения дополнительных данных.
+Сервер SIEM может получать данные из широкого спектра служб и приложений Microsoft 365. В следующей таблице перечислены несколько служб и приложений Microsoft 365, а также входные данные и ресурсы сервера SIEM, чтобы узнать больше.
 
 ****
 
-|Служба или приложение Microsoft 365|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
+|Служба Или приложение Microsoft 365|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
 |---|---|---|
 |[Microsoft Defender для Office 365](office-365-atp.md)|Журналы аудита|[Интеграция SIEM с Microsoft Defender для Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)|Конечная точка HTTPS, которая была в Azure <p> REST API|[Поочерещение оповещений в средства SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
-|[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Интеграция журналов|[Интеграция SIEM с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem)|
+|[Microsoft Defender для конечной точки](/windows/security/threat-protection/)|Конечная точка HTTPS, организованная в Azure <p> REST API|[Вытащать оповещения в инструменты SIEM](/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
+|[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|Интеграция журнала|[Интеграция SIEM с безопасностью облачных приложений Майкрософт](/cloud-app-security/siem)|
 |
 
 > [!TIP]
-> Посмотрите на [Azure Sentinel.](https://docs.microsoft.com/azure/sentinel/overview) Azure Sentinel поставляется с соединителями для решений Майкрософт. Эти соединители доступны "из коробки" и обеспечивают интеграцию в режиме реального времени. Azure Sentinel можно использовать с решениями Microsoft 365 Defender и службами Microsoft 365, включая Office 365, Azure AD, Microsoft Defender для удостоверений, Microsoft Cloud App Security и т. д.
+> Взгляните на [Azure Sentinel](/azure/sentinel/overview). Azure Sentinel поставляется с соединителями для решений Майкрософт. Эти соединители доступны "из окна" и обеспечивают интеграцию в режиме реального времени. Вы можете использовать Azure Sentinel с решениями Microsoft 365 Defender и службами Microsoft 365, включая Office 365, Azure AD, Microsoft Defender for Identity, Microsoft Cloud App Security и другие.
 
-### <a name="audit-logging-must-be-turned-on"></a>Ведение журнала аудита должно быть включено
+### <a name="audit-logging-must-be-turned-on"></a>Необходимо включить журнал аудита
 
-Перед настройкой интеграции сервера SIEM убедитесь, что ведение журнала аудита включено.
+Убедитесь, что журнал аудита включен перед настройкой интеграции серверов SIEM.
 
-- Для SharePoint Online, OneDrive для бизнеса и Azure Active Directory ведение журнала аудита включено в Центре безопасности [& соответствия требованиям.](../../compliance/turn-audit-log-search-on-or-off.md)
+- Для SharePoint Online, OneDrive для бизнеса и Azure Active Directory журнал аудита включен в Центре & [безопасности.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-- Для Exchange Online см. ["Управление аудитом почтовых ящиков".](../../compliance/enable-mailbox-auditing.md)
+- Для Exchange Online см. [в рублях Управление аудитом почтовых ящиков.](../../compliance/enable-mailbox-auditing.md)
 
 ## <a name="more-resources"></a>Дополнительные ресурсы
 
-[Интеграция решений безопасности в Защитнике Azure](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
+[Интеграция решений безопасности в Azure Defender](/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
-[Интеграция оповещений API безопасности Microsoft Graph с SIEM](https://docs.microsoft.com/graph/security-integration)
+[Интеграция оповещений API безопасности Microsoft Graph с SIEM](/graph/security-integration)

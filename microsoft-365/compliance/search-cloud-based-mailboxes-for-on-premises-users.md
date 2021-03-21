@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Используйте инструмент поиска контента в Центре безопасности и соответствия требованиям для поиска и экспорта данных чата Teams для локальных пользователей в гибридном развертывании Exchange.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bdcba3a14b2ee6d14210d3525e20ec507166a5d
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 39951ce125f86748beab12cf1998075e26ad734b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029719"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917191"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>Поиск данных чата локальных пользователей в Teams
 
@@ -97,7 +97,7 @@ ms.locfileid: "50029719"
 
 Для поиска данных чата Teams локальных пользователей можно использовать командлеты **New-ComplianceSearch** и **Set-ComplianceSearch** в PowerShell Центра безопасности и соответствия требованиям. Как уже говорилось ранее, вам не нужно отправлять запрос в службу поддержки, чтобы использовать PowerShell для поиска данных чата команд для локальных пользователей.
   
-1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell).
 
 2. Для создания поиска контента применительно к данным чата Teams локальных пользователей выполните следующую команду PowerShell.
 
@@ -117,11 +117,11 @@ ms.locfileid: "50029719"
   
 Для получения дополнительной информации об использовании этих командлетов см:
   
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
+- [New-ComplianceSearch](/powershell/module/exchange/new-compliancesearch)
 
-- [Set-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/set-compliancesearch)
+- [Set-ComplianceSearch](/powershell/module/exchange/set-compliancesearch)
 
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/start-compliancesearch)
+- [Start-ComplianceSearch](/powershell/module/exchange/start-compliancesearch)
 
 ## <a name="known-issues"></a>Известные проблемы
 
@@ -131,7 +131,7 @@ ms.locfileid: "50029719"
 
 **Где расположено облачное хранилище информации локальных пользователей?**
   
-Данные чата Teams хранятся в предпочтительном расположении данных (PDL) для локального пользователя. PDL используется в средах с поддержкой одного и нескольких регионов. Дополнительные сведения см. на странице [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo).
+Данные чата Teams хранятся в предпочтительном расположении данных (PDL) для локального пользователя. PDL используется в средах с поддержкой одного и нескольких регионов. Дополнительные сведения см. на странице [Microsoft 365 Multi-Geo](../enterprise/microsoft-365-multi-geo.md).
   
  **Существуют ли какие-либо другие требования, кроме отправки запроса в службу поддержки?**
   

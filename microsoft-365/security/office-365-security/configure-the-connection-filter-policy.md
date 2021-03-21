@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут научиться настраивать фильтрацию подключений в Exchange Online Protection (EOP), чтобы разрешить или заблокировать сообщения электронной почты с серверов электронной почты.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bdc8033996c41238bb1defe831eb8e8c7650bb44
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 43f6c1b9f3867670810f2c4e2ada13544d39380f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406094"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917062"
 ---
 # <a name="configure-connection-filtering"></a>Настройка фильтрации подключений
 
@@ -53,18 +53,18 @@ ms.locfileid: "50406094"
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы сразу перейти к странице **Параметры защиты от нежелательной почты**, используйте ссылку <https://protection.office.com/antispam>.
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Вам необходимо получить разрешения в **Exchange Online,** прежде чем вы сможете сделать процедуры в этой статье:
+- Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
   - Чтобы изменить политику фильтра подключений по умолчанию, необходимо быть членом групп ролей **"Управление** организацией" или **"Администратор** безопасности".
   - Для доступа только для чтения к политике фильтра подключения по умолчанию необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
 
-  Дополнительные сведения см. в статье [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   **Примечания**.
 
-  - Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft  365 дает пользователям необходимые разрешения и разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
-  - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
+  - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+  - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 - Чтобы найти исходные IP-адреса серверов электронной почты (отправителей), которые необходимо разрешить или заблокировать, в загоне сообщений можно проверить соединителю IP **(CIP).** Чтобы просмотреть заготчик сообщений в различных почтовых клиентах, см. в обзоре [заглавных записей интернет-сообщений в Outlook.](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)
 
@@ -110,13 +110,13 @@ ms.locfileid: "50406094"
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-modify-the-default-connection-filter-policy"></a>Используйте Exchange Online PowerShell или автономный EOP PowerShell для изменения политики фильтра подключения по умолчанию
 
-Используйте указанный ниже синтаксис.
+Используйте следующий синтаксис:
 
 ```powershell
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**Примечания**.
+**Примечания.**
 
 - Допустимые значения ip-адреса или диапазона адресов:
 
@@ -144,7 +144,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList 192.168.1.10,192
 Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2.10","192.169.3.0/24","192.168.4.1-192.168.4.5";Remove="192.168.1.10"}
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [ссылке Set-HostedConnectionFilterPolicy.](https://docs.microsoft.com/powershell/module/exchange/set-hostedconnectionfilterpolicy)
+Подробные сведения о синтаксисах и параметрах см. в [ссылке Set-HostedConnectionFilterPolicy.](/powershell/module/exchange/set-hostedconnectionfilterpolicy)
 
 ## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
@@ -174,7 +174,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 - Действие правила. **Изменение свойств сообщений** Установите уровень доверия к нежелательной почте \> **(SCL)** Обход \> **фильтрации нежелательной почты.**
 
-Вы можете проверить правило, проверить правило, активировать правило в течение определенного периода времени и другие выборы. Мы рекомендуем протестировать правило в течение определенного времени перед его применением. Дополнительные сведения см. в [рублях Управление правилами потока почты в Exchange Online.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
+Вы можете проверить правило, проверить правило, активировать правило в течение определенного периода времени и другие выборы. Мы рекомендуем протестировать правило в течение определенного времени перед его применением. Дополнительные сведения см. в [рублях Управление правилами потока почты в Exchange Online.](/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 ### <a name="skip-spam-filtering-on-selective-email-domains-from-the-same-source"></a>Пропустить фильтрацию нежелательной почты на выборочные домены электронной почты из того же источника
 

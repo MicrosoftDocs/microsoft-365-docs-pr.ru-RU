@@ -20,12 +20,12 @@ ms.custom:
 description: Узнайте, как использовать технологию DomainKeys Identified Mail (DKIM) для Microsoft 365, чтобы обеспечить доверие конечных почтовых систем к сообщениям, отправленным из вашего личного домена.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55a7bf612d121364ed64c159a450b6cf035d3837
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 7894375cf7dd7973a7c3dc0160dbaa084823e9d4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286433"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918646"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена
 
@@ -88,7 +88,7 @@ Microsoft 365 автоматически настраивает DKIM для св
 ## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Обновление 1024-разрядных ключей до 2048-разрядных ключей шифрования DKIM вручную
 <a name="1024to2048DKIM"> </a>
 
-Так как ключи DKIM могут быть 1024- и 2048-разрядными, эти инструкции предназначены для обновления 1024-разрядных ключей до 2048-разрядных в [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Описанные ниже действия относятся к двум вариантам использования. Выберите вариант, подходящий для вашей конфигурации.
+Так как ключи DKIM могут быть 1024- и 2048-разрядными, эти инструкции предназначены для обновления 1024-разрядных ключей до 2048-разрядных в [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Описанные ниже действия относятся к двум вариантам использования. Выберите вариант, подходящий для вашей конфигурации.
 
 - Если вы **уже настроили DKIM**, измените разрядность, выполнив следующую команду:
 
@@ -115,7 +115,7 @@ Get-DkimSigningConfig -Identity <Domain for which the configuration was set> | F
 
 Если вы хотите перейти ко второму селектору, вы можете: а) позволить службе Microsoft 365 повернуть селектор и обновить ее до 2048-разрядности в течение следующих 6 месяцев, или б) через 4 дня и подтвердить, что 2048-разрядности используется вручную поверните вторую клавишу выбора с помощью соответствующего командлета, указанного выше.
 
-Дополнительные сведения о синтаксисе и параметрах см. в следующих статьях: [Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/new-dkimsigningconfig) и [Get-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/get-dkimsigningconfig).
+Дополнительные сведения о синтаксисе и параметрах см. в следующих статьях: [Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](/powershell/module/exchange/new-dkimsigningconfig) и [Get-DkimSigningConfig](/powershell/module/exchange/get-dkimsigningconfig).
 
 ## <a name="steps-you-need-to-do-to-manually-set-up-dkim"></a>Шаги, которые необходимо сделать, чтобы вручную настроить DKIM
 <a name="SetUpDKIMO365"> </a>
@@ -132,7 +132,7 @@ Get-DkimSigningConfig -Identity <Domain for which the configuration was set> | F
 Для каждого домена, для которого требуется добавить подпись DKIM в DNS, необходимо опубликовать две записи CNAME.
 
 > [!NOTE]
-> Если вы не ознакомились с полной статьей, вы могли пропустить эти сведения о подключении PowerShell, экономящие время: [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+> Если вы не ознакомились с полной статьей, вы могли пропустить эти сведения о подключении PowerShell, экономящие время: [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 Чтобы создать записи селектора, выполните следующие команды в Exchange Online PowerShell:
 
@@ -215,7 +215,7 @@ TTL:                3600
 >:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="Ошибка &quot;Для этого домена нет сохраненных ключей DKIM&quot;.":::
 > Если вы настраиваете DKIM в первый раз и столкнулись с ошибкой "Для этого домена нет сохраненных ключей DKIM", выполните команду из шага 2 ниже (например, *Set-DkimSigningConfig -Identity contoso.com -Enabled $true*), чтобы увидеть ключ.
 
-1. [Подключение к PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. [Подключение к PowerShell для Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Выполните следующую команду:
 
@@ -266,7 +266,7 @@ TTL:                3600
 
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Отключение политики подписывания DKIM с помощью Windows PowerShell
 
-1. [Подключение к PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. [Подключение к PowerShell для Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Выполните одну из указанных ниже команд для каждого домена, для которого требуется отключить подпись с помощью DKIM.
 
@@ -359,4 +359,4 @@ Return-Path: <communication@bulkemailprovider.com>
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-Ротация ключей с помощью командлета [Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig) в PowerShell
+Ротация ключей с помощью командлета [Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig) в PowerShell

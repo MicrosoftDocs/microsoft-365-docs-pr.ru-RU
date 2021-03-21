@@ -15,12 +15,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Узнайте, как администраторы могут использовать Exchange Online PowerShell и CSV-файл для массового импорта внешних контактов в глобальный адресный список.
-ms.openlocfilehash: 475afc3b0622c404b50ebe5549bb5be85af80c5e
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 178e3676f8dc5fb59cdad9cc46d7ecbd9dddb90e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423256"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918215"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Массовый импорт внешних контактов в Exchange Online
 
@@ -71,7 +71,7 @@ ms.locfileid: "50423256"
 
 Следующим шагом является использование CSV-файла, созданного в шаге 1 и PowerShell, для массового импорта внешних контактов, перечисленных в CSV-файле, в Exchange Online. 
   
-1.  Подключение PowerShell к организации Exchange Online. Пошаговые инструкции см. в статье [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Не забудьте использовать имя пользователя и пароль для глобальной учетной записи администратора при подключении к Exchange Online PowerShell. 
+1.  Подключение PowerShell к организации Exchange Online. Пошаговые инструкции см. в статье [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Не забудьте использовать имя пользователя и пароль для глобальной учетной записи администратора при подключении к Exchange Online PowerShell. 
     
 2. После подключения PowerShell к Exchange Online перейдите к настольной папке, в которой сохранен файл CSV в шаге 1; например `C:\Users\Administrator\desktop` .
     
@@ -86,7 +86,7 @@ ms.locfileid: "50423256"
 4. Чтобы просмотреть новые внешние контакты, перейдите в центр администрирования Exchange (EAC), а затем щелкните **Контакты** \> **получателей.** 
     
     > [!TIP]
-    > Инструкции по подключению к EAC см. в центре администрирования [Exchange в Exchange Online.](https://go.microsoft.com/fwlink/p/?LinkId=328197) 
+    > Инструкции по подключению к EAC см. в центре администрирования [Exchange в Exchange Online.](/exchange/exchange-admin-center) 
   
 5. При необходимости **щелкните Обновление,** чтобы обновить список и увидеть внешние контакты, импортируемые. 
     
@@ -99,7 +99,7 @@ ms.locfileid: "50423256"
 
 После запуска команды в шаге 2 создаются внешние контакты, но они не содержат никакой информации о контактах или организации, которая является информацией из большинства ячеек в CSV-файле. Это происходит потому, что при создании новых внешних контактов заполняются только необходимые свойства. Не волнуйтесь, если у вас нет всей информации, заполненной в CSV-файле. Если ее нет, она не будет добавлена.
   
-1.  Подключение PowerShell к организации Exchange Online. Пошаговые инструкции см. в статье [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1.  Подключение PowerShell к организации Exchange Online. Пошаговые инструкции см. в статье [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
     
 2. Перейдите к настольной папке, в которой сохранен файл CSV в шаге 1; например, `C:\Users\Administrator\desktop` .
     
@@ -138,7 +138,7 @@ ms.locfileid: "50423256"
 
 Некоторые компании могут использовать внешние контакты только для того, чтобы они могли быть добавлены в группы рассылки. В этом случае может потребоваться скрыть внешние контакты из общей адресной книги. Вот как это сделать:
   
-1.  Подключение PowerShell к организации Exchange Online. Пошаговые инструкции см. в статье [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1.  Подключение PowerShell к организации Exchange Online. Пошаговые инструкции см. в статье [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
     
 2. Чтобы скрыть один внешний контакт, запустите следующую команду.
     

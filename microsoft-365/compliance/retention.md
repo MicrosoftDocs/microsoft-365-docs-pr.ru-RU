@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: 67697124df7908dca2ace74dc5de921d18d817c6
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 0eaf89b3f49d8b69cb7b36e4e25df90946c19e32
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727328"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917211"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Если вы получаете сообщения о политиках хранения в ваших приложениях, обратитесь в ИТ-отдел за сведениями об их настройке. Если это сообщения чата или канала Teams, см. статью [Сообщения Teams о политиках хранения](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
@@ -96,7 +96,7 @@ ms.locfileid: "50727328"
 
 - Применение метки, заданной по умолчанию, к документам SharePoint.
 
-- Поддержка [проверки перед ликвидацией](disposition-reviews.md) для проверки контента перед его окончательным удалением.
+- Поддержка [проверки перед ликвидацией](./disposition.md) для проверки контента перед его окончательным удалением.
 
 - Пометка контента как [записи](records-management.md#records) с помощью параметров метки, при этом всегда можно получить  [подтверждение ликвидации](disposition.md#disposition-of-records)  при удалении контента по истечении срока его хранения.
 
@@ -200,7 +200,7 @@ ms.locfileid: "50727328"
 К сообщению электронной почты или документу единовременно может быть применена только одна метка хранения. Метку хранения может [вручную](create-apply-retention-labels.md#manually-apply-retention-labels) применить конечный пользователь или администратор, а также ее можно применить автоматически, используя один из следующих способов:
 
 - [Политика автоматического применения меток](apply-retention-labels-automatically.md)
-- [Модель осмысления документации в Microsoft SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)
+- [Модель осмысления документации в Microsoft SharePoint Syntex](../contentunderstanding/apply-a-retention-label-to-a-model.md)
 - [Стандартная метка для SharePoint](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set) или [Outlook](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)
 - [Правила Outlook](create-apply-retention-labels.md#automatically-applying-a-retention-label-to-email-by-using-rules)
 
@@ -376,35 +376,35 @@ ms.locfileid: "50727328"
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>Командлеты PowerShell для политик и меток хранения
 
-Для использования командлетов хранения нужно сначала [установить подключение к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell). Затем воспользуйтесь одним из следующих командлетов:
+Для использования командлетов хранения нужно сначала [установить подключение к PowerShell Центра безопасности и соответствия требованиям Office 365](/powershell/exchange/connect-to-scc-powershell). Затем воспользуйтесь одним из следующих командлетов:
 
-- [Get-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/get-compliancetag)
+- [Get-ComplianceTag](/powershell/module/exchange/get-compliancetag)
 
-- [New-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/new-compliancetag)
+- [New-ComplianceTag](/powershell/module/exchange/new-compliancetag)
 
-- [Remove-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/remove-compliancetag)
+- [Remove-ComplianceTag](/powershell/module/exchange/remove-compliancetag)
 
-- [Set-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/set-compliancetag)
+- [Set-ComplianceTag](/powershell/module/exchange/set-compliancetag)
 
-- [Enable-ComplianceTagStorage](https://docs.microsoft.com/powershell/module/exchange/enable-compliancetagstorage)
+- [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage)
 
-- [Get-ComplianceTagStorage](https://docs.microsoft.com/powershell/module/exchange/get-compliancetagstorage)
+- [Get-ComplianceTagStorage](/powershell/module/exchange/get-compliancetagstorage)
 
-- [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy)
+- [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)
 
-- [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy)
+- [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy)
 
-- [Remove-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/remove-retentioncompliancepolicy)
+- [Remove-RetentionCompliancePolicy](/powershell/module/exchange/remove-retentioncompliancepolicy)
 
-- [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy)
+- [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy)
 
-- [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancerule)
+- [Get-RetentionComplianceRule](/powershell/module/exchange/get-retentioncompliancerule)
 
-- [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule)
+- [New-RetentionComplianceRule](/powershell/module/exchange/new-retentioncompliancerule)
 
-- [Remove-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/remove-retentioncompliancerule)
+- [Remove-RetentionComplianceRule](/powershell/module/exchange/remove-retentioncompliancerule)
 
-- [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule)
+- [Set-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule)
 
 ## <a name="when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds"></a>В каких ситуациях использовать политики и метки хранения или удержание данных, созданных с помощью обращения обнаружения электронных данных
 
@@ -430,11 +430,11 @@ ms.locfileid: "50727328"
 Если вы используете устаревшую версию средств обнаружения электронных данных для хранения информации, см. следующие ссылки:
 
 - Exchange: 
-    - [Хранение на месте и хранение для судебного разбирательства](https://go.microsoft.com/fwlink/?linkid=846124)
-    - [Как определить тип удержания, примененного для почтового ящика Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/identify-a-hold-on-an-exchange-online-mailbox)
+    - [Хранение на месте и хранение для судебного разбирательства](/exchange/security-and-compliance/in-place-and-litigation-holds)
+    - [Как определить тип удержания, примененного для почтового ящика Exchange Online](./identify-a-hold-on-an-exchange-online-mailbox.md)
 
 - SharePoint и OneDrive: 
-    - [Добавление контента к делу и перевод источников в состояние удержания в центре обнаружения электронных данных](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
+    - [Добавление контента к делу и перевод источников в состояние удержания в центре обнаружения электронных данных](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
 
 - [Прекращение поддержки устаревших средств обнаружения электронных данных](legacy-ediscovery-retirement.md)
 
@@ -446,7 +446,7 @@ ms.locfileid: "50727328"
 
 **Старые функции Exchange Online:**
 
-- [Теги хранения и политики хранения](https://go.microsoft.com/fwlink/?linkid=846125), также известные как [управление записями обмена сообщениями](https://go.microsoft.com/fwlink/?linkid=846126) (только удаление)
+- [Теги хранения и политики хранения](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies), также известные как [управление записями обмена сообщениями](/exchange/security-and-compliance/messaging-records-management/messaging-records-management) (только удаление)
 
 **Старые функции из SharePoint и OneDrive:**
 
@@ -462,8 +462,8 @@ ms.locfileid: "50727328"
 
 ## <a name="related-information"></a>Статьи по теме
 
-- [Ограничения SharePoint Online](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
-- [Ограничения и спецификации для Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
+- [Ограничения SharePoint Online](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
+- [Ограничения и спецификации для Microsoft Teams](/microsoftteams/limits-specifications-teams) 
 - [Вспомогательные ресурсы для соблюдения нормативных требований к управлению данными и записями](retention-regulatory-requirements.md)
 
 ## <a name="configuration-guidance"></a>Рекомендации по настройке
@@ -473,4 +473,3 @@ ms.locfileid: "50727328"
 Для создания и применения меток хранения см. следующие статьи:
 - [Создание меток хранения и их применение в приложениях](create-apply-retention-labels.md)
 - [Автоматическое применение метки хранения к контенту](apply-retention-labels-automatically.md)
-

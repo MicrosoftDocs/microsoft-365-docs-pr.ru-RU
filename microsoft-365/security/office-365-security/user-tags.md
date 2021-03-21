@@ -16,12 +16,12 @@ ms.collection:
 description: Администраторы могут узнать, как определить определенные группы пользователей с тегами пользователей в Microsoft Defender для Office 365 Plan 2. Фильтрация тегов доступна для оповещений, отчетов и расследований в Microsoft Defender для Office 365, чтобы быстро идентифицировать помеченных пользователей.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 80bd360888be3aeea42da6f9b58a119a9752d382
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: e9bb6a233f21268df860974549ecffbfd7154045
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758896"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916410"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Теги пользователей в Microsoft Defender для Office 365
 
@@ -41,7 +41,7 @@ ms.locfileid: "50758896"
 - [Обозреватель угроз и обнаружения в режиме реального времени](threat-explorer.md)
 - [отчет о состоянии защиты от угроз](view-email-security-reports.md#threat-protection-status-report);
 - [Представления кампании](campaigns.md)
-- Для учетных записей приоритетов [](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) можно использовать проблемы электронной почты для отчета о приоритетных учетных записях в центре администрирования Exchange (EAC).
+- Для учетных записей приоритетов [](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) можно использовать проблемы электронной почты для отчета о приоритетных учетных записях в центре администрирования Exchange (EAC).
 
 В этой статье рассказывается о настройке тегов пользователей в Центре & безопасности. В Центре обеспечения безопасности не & командлетов для управления тегами пользователей.
 

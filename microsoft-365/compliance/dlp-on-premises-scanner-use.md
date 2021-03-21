@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте, как использовать локальный сканер для защиты от потери данных Microsoft 365 для сканирования неактивных данных и реализации защитных мер на локальных файловых ресурсах и в локальных папках и библиотеках документов SharePoint.
-ms.openlocfilehash: 34be93f5c9980a7f8ea8ad31b708af14a8725f73
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: c46b67ca392732616329bad138166c892cd06640
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417394"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917825"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Использование локального сканера для защиты от потери данных Microsoft 365 (предварительная версия)
 
@@ -47,7 +47,7 @@ ms.locfileid: "50417394"
  
 #### <a name="microsoft-365-audit-log"></a>Журнал аудита Microsoft 365
 
-В общедоступной предварительной версии соответствия правил защиты от потери данных доступны в пользовательском интерфейсе журнала аудита, см. [Поиск журнала аудита в Центре соответствия требованиям](search-the-audit-log-in-security-and-compliance.md) или с помощью командлета [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) в PowerShell.
+В общедоступной предварительной версии соответствия правил защиты от потери данных доступны в пользовательском интерфейсе журнала аудита, см. [Поиск журнала аудита в Центре соответствия требованиям](search-the-audit-log-in-security-and-compliance.md) или с помощью командлета [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) в PowerShell.
 
 #### <a name="aip"></a>AIP
 

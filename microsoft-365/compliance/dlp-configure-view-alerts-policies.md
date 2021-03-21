@@ -20,18 +20,18 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как определять и управлять оповещениями для политик DLP.
-ms.openlocfilehash: 7bc9d9b59c0424792f995be42591548b758c99ec
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 0594cee5208049aef16dee6fa03954faae2a1cdd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766424"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917865"
 ---
 # <a name="configure-and-view-alerts-for-dlp-polices-preview"></a>Настройка и просмотр оповещений для полиции DLP (предварительный просмотр)
 
 В этой статье показано, как определить политики оповещения, связанные с политиками предотвращения потери данных (DLP). Вы увидите, как использовать новую панель мониторинга управления оповещениями DLP в центре соответствия требованиям [Microsoft 365](https://compliance.microsoft.com/) для просмотра оповещений, событий и связанных метаданных для нарушений политики DLP.
 
-## <a name="features"></a>Функции
+## <a name="features"></a>Возможности
 
 Следующие функции являются частью этого предварительного просмотра:
 
@@ -44,19 +44,19 @@ ms.locfileid: "50766424"
     -   Устройства
 -   **Дополнительные параметры конфигурации** оповещений. Эти параметры являются частью потока авторинга политики DLP. Используйте их для создания конфигураций оповещений. Вы можете создать оповещение об одном событии или агрегированное оповещение в зависимости от количества событий или размера утекли данных.
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Подготовка
 
 Перед началом работы убедитесь, что у вас есть необходимые условия:
 
 -   Лицензирование панели управления оповещений DLP
 -   Лицензирование параметров конфигурации оповещений
--   Roles
+-   Роли
 
 ### <a name="licensing-for-the-dlp-alert-management-dashboard"></a>Лицензирование панели управления оповещениями DLP
 
-Все подходящие клиенты для службы DLP Office 365 могут получить доступ к новой панели управления оповещениями о DLP. Чтобы начать работу, вы должны иметь право на DLP Office 365 для Exchange Online, SharePoint Online и OneDrive для бизнеса. Дополнительные сведения о требованиях к лицензированию для DLP Office 365 см. в таблице Какие лицензии предоставляют пользователю права на получение [выгоды от службы?](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
+Все подходящие клиенты для службы DLP Office 365 могут получить доступ к новой панели управления оповещениями о DLP. Чтобы начать работу, вы должны иметь право на DLP Office 365 для Exchange Online, SharePoint Online и OneDrive для бизнеса. Дополнительные сведения о требованиях к лицензированию для DLP Office 365 см. в таблице Какие лицензии предоставляют пользователю права на получение [выгоды от службы?](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
 
-Клиенты, которые [](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about?view=o365-worldwide) участвуют в публичном предварительном просмотре DLP конечных точек или имеют право на участие в командной DLP, увидят свои оповещений о политике DLP конечной точки и оповещений о политике DLP в панели управления оповещениями [DLP.](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide)
+Клиенты, которые [](./endpoint-dlp-learn-about.md?view=o365-worldwide) участвуют в публичном предварительном просмотре DLP конечных точек или имеют право на участие в командной DLP, увидят свои оповещений о политике DLP конечной точки и оповещений о политике DLP в панели управления оповещениями [DLP.](./dlp-microsoft-teams.md?view=o365-worldwide)
 
 ### <a name="licensing-for-alert-configuration-options"></a>Лицензирование параметров конфигурации оповещений
 
@@ -68,7 +68,7 @@ ms.locfileid: "50766424"
         -   Соответствие требованиям Microsoft 365 E5
         -   Лицензия на надстройки Microsoft 365 и аудит
 
-### <a name="roles"></a>Roles
+### <a name="roles"></a>Роли
 
 Чтобы просмотреть панель управления оповещениями DLP или изменить параметры конфигурации оповещений в политике DLP, необходимо быть членом одной из этих групп ролей:
 
@@ -118,7 +118,7 @@ ms.locfileid: "50766424"
     |                   | Location                      | Рабочая нагрузка, в которой было обнаружено событие                                      | Все события                               |
     |                   | Время действия              | Время действия пользователя, которое привело к нарушению DLP                    | Все события                               |
     |*Влияние сущностям*||
-    |  | Пользователь                          | Пользователь, который вызвал нарушение DLP                                          | Все события                               |
+    |  | User                          | Пользователь, который вызвал нарушение DLP                                          | Все события                               |
     |                   | Hostname (Имя узла)                      | Имя хозяйского компьютера, где было обнаружено нарушение DLP              | События устройств                           |
     |                   | IP-адрес                    | IP-адрес машины                                                  | События устройств                           |
     |                   | Путь к файлу                     | Абсолютный путь файла, вовлеченного в нарушение                        | События SharePoint, OneDrive и Устройств |

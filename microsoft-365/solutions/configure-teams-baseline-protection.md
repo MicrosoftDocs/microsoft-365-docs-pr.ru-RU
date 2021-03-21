@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как развернуть команды с базовым уровнем защиты.
-ms.openlocfilehash: 11554dbd7e33a77c9f6397ae9c5e91669f537081
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 4f38bf286b8ebd3edf6f7705299008566d2b7c8f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921874"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916338"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Настройка команд с базовым уровнем защиты
 
@@ -37,9 +37,9 @@ ms.locfileid: "49921874"
 
 |Параметр|Информация|
 |:------|:-----------|
-|Безопасные вложения для SPO, OneDrive и Teams|[Безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Defender для Office 365 — SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
-|Безопасные документы|[Безопасные документы в Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-|Безопасные ссылки для Teams|[Безопасные ссылки Office 365 в Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Безопасные ссылки](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
+|Безопасные вложения для SPO, OneDrive и Teams|[Безопасные вложения](../security/office-365-security/atp-safe-attachments.md)<br>[Defender для Office 365 — SharePoint, OneDrive и Microsoft Teams](../security/office-365-security/atp-for-spo-odb-and-teams.md)|
+|Безопасные документы|[Безопасные документы в Microsoft Defender для Office 365](../security/office-365-security/safe-docs.md)|
+|Безопасные ссылки для Teams|[Безопасные ссылки Office 365 в Teams](../security/office-365-security/atp-safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[Безопасные ссылки](../security/office-365-security/atp-safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Предоставление общего доступа гостям в Teams
 
@@ -59,7 +59,7 @@ ms.locfileid: "49921874"
 > [!NOTE]
 > Активация параметра гостя в Teams может занять до двадцати четырех часов с момента включения.
 
-Общий доступ для гостей включается по умолчанию для групп Office 365 и SharePoint, однако если его настройки для организации были изменены, рекомендуем ознакомиться со статьей [Совместная работа с гостями в команде](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team), чтобы убедиться, что общий доступ для гостей будет доступен в Teams.
+Общий доступ для гостей включается по умолчанию для групп Office 365 и SharePoint, однако если его настройки для организации были изменены, рекомендуем ознакомиться со статьей [Совместная работа с гостями в команде](./collaborate-as-team.md), чтобы убедиться, что общий доступ для гостей будет доступен в Teams.
 
 ## <a name="site-and-file-sharing"></a>Общий доступ к сайтам и файлам
 
@@ -71,7 +71,7 @@ ms.locfileid: "49921874"
 3. В разделе **Ссылки на файлы и папки** выберите пункт **Только пользователи из организации**.
 4. Нажмите кнопку **Сохранить**.
 
-Чтобы обеспечить оптимальный общий доступ для гостей, мы также рекомендуем включить [интеграцию SharePoint и OneDrive с Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
+Чтобы обеспечить оптимальный общий доступ для гостей, мы также рекомендуем включить [интеграцию SharePoint и OneDrive с Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration-preview).
 
 ## <a name="create-a-team"></a>Создание команды
 
@@ -94,12 +94,12 @@ ms.locfileid: "49921874"
 
 В Microsoft 365 доступны дополнительные методы защиты контента. Рассмотрите возможность использования следующих параметров для улучшения защиты вашей организации.
 
-- Ваши гости должны согласиться с [условиями использования](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
-- Настройте [политику времени ожидания сеанса](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) для гостей.
-- Создайте [типы конфиденциальной информации](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) и используйте [защиту от потери данных](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) для настройки политик доступа к конфиденциальной информации.
+- Ваши гости должны согласиться с [условиями использования](/azure/active-directory/conditional-access/terms-of-use).
+- Настройте [политику времени ожидания сеанса](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) для гостей.
+- Создайте [типы конфиденциальной информации](../compliance/sensitive-information-type-learn-about.md) и используйте [защиту от потери данных](../compliance/data-loss-prevention-policies.md) для настройки политик доступа к конфиденциальной информации.
 
 ## <a name="see-also"></a>См. также
 
-[Управление политиками собраний в Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
+[Управление политиками собраний в Teams](/microsoftteams/meeting-policies-in-teams)
 
-[Приступая к управлению рисками утечки внутренней информации](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure)
+[Приступая к управлению рисками утечки внутренней информации](../compliance/insider-risk-management-configure.md)

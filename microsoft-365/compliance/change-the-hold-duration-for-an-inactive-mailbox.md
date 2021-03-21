@@ -20,12 +20,12 @@ ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 ms.custom:
 - seo-marvel-apr2020
 description: После неактивности почтового ящика Office 365 измените продолжительность удержания или политики хранения Office 365, назначенной неактивному почтовому ящику.
-ms.openlocfilehash: ec8a4cac7d2ee8e40bd791bd531556d1151c1ad1
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 49d133c64763cee12cb26e27d372a16ba4ad7e94
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421638"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918205"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>Изменение срока хранения неактивного почтового ящика
 
@@ -40,9 +40,9 @@ ms.locfileid: "50421638"
     
 - Чтобы подключиться к Exchange Online PowerShell или центру & безопасности PowerShell, см. один из следующих разделов:
     
-  - [Подключение к PowerShell Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+  - [Подключение к PowerShell Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell)
     
-  - [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+  - [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell)
     
 - Удержания, связанные с делами об обнаружении электронных обнаружений, являются бесконечными удержанием, что означает, что продолжительность удержания не может быть изменена. Элементы хранятся бессрочно или до отмены удержания и удаления неактивного почтового ящика.
     

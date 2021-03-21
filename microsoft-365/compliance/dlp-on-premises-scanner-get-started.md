@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройка локального сканера для защиты от потери данных Microsoft 365
-ms.openlocfilehash: e0d7bc9eeae7d701c14aaaeeed7a01cab33829ea
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7e190a1d6e902af3406f7e8f317efe80e825e7f2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417401"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917835"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Начало работы с локальным сканером для защиты от потери данных (предварительная версия)
 
@@ -41,7 +41,7 @@ ms.locfileid: "50417401"
 - Защита информации и управление данными в Microsoft 365 E5 
 
 
-Полные сведения о лицензировании см. в статье [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+Полные сведения о лицензировании см. в статье [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ### <a name="permissions"></a>Разрешения
 
@@ -56,13 +56,13 @@ ms.locfileid: "50417401"
 ### <a name="dlp-on-premises-scanner-prerequisites"></a>Необходимые условия для локального сканера защиты от потери данных
 
 - Сканер Azure Information Protection (AIP) обеспечивает соответствие политике защиты от потери данных и применение политики. Сканер устанавливается в составе клиента AIP, поэтому установка должна соответствовать всем предварительным условиям для AIP, клиента AIP и сканера унифицированных меток AIP.
-- Разверните клиент и сканер AIP. Дополнительные сведения: [Установка клиента унифицированных меток AIP](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app) и [Настройка и установка сканера унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install).
+- Разверните клиент и сканер AIP. Дополнительные сведения: [Установка клиента унифицированных меток AIP](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) и [Настройка и установка сканера унифицированных меток Azure Information Protection](/azure/information-protection/deploy-aip-scanner-configure-install).
 - В клиенте должна быть опубликована хотя бы одна метка и политика, даже если все правила обнаружения основаны только на типах конфиденциальной информации.
 
 ## <a name="deploy-the-dlp-on-premises-scanner"></a>Развертывание локального сканера защиты от потери данных
 
-1. Выполните процедуры из статьи [Установка клиента унифицированных меток AIP](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app). 
-2. Выполните процедуры из статьи [Настройка и установка сканера унифицированных меток Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install), чтобы завершить установку сканера.
+1. Выполните процедуры из статьи [Установка клиента унифицированных меток AIP](/azure/information-protection/rms-client/install-unifiedlabelingclient-app). 
+2. Выполните процедуры из статьи [Настройка и установка сканера унифицированных меток Azure Information Protection](/azure/information-protection/deploy-aip-scanner-configure-install), чтобы завершить установку сканера.
     1. Настройка заданий сетевого обнаружения является необязательным шагом. Вы можете пропустить его и определить конкретные репозитории для сканирования в своем задании сканирования содержимого.
     2. Создайте задание сканирования содержимого и укажите репозитории, хранящие файлы, которые должны оцениваться подсистемой защиты от потери данных.
     3. Включите правила защиты от потери данных в созданном задании сканирования содержимого и установите для параметра **Применить** значение **Выкл**, если вы не хотите перейти непосредственно к этапу применения защиты от потери данных.
@@ -115,7 +115,7 @@ ms.locfileid: "50417401"
 
 2. Выполните действия, описанные в статье [Начало работы с обозревателем действий](data-classification-activity-explorer.md), чтобы получить доступ к данным и отфильтровать их в расположениях локального сканера.
 
-3. Откройте [Журнал аудита](https://security.microsoft.com/auditlogsearch) в Центре соответствия требованиям. В общедоступной предварительной версии соответствия правилу защиты от потери данных доступны в пользовательском интерфейсе журнала аудита или с помощью командлета [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) в PowerShell 
+3. Откройте [Журнал аудита](https://security.microsoft.com/auditlogsearch) в Центре соответствия требованиям. В общедоступной предварительной версии соответствия правилу защиты от потери данных доступны в пользовательском интерфейсе журнала аудита или с помощью командлета [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) в PowerShell 
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

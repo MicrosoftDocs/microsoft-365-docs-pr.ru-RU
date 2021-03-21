@@ -14,16 +14,16 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
 description: Сводка. Используйте PowerShell для управления свойствами учетной записи пользователей Skype для бизнеса Online с помощью политик.
-ms.openlocfilehash: ca945bc05e76525b4b2df6fb0b982a8468d87810
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: a10929bbdce499ad26f9714127f675beeef58765
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515056"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916706"
 ---
 # <a name="manage-skype-for-business-online-policies-with-powershell"></a>Управление политиками Skype для бизнеса Online с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Чтобы управлять многими свойствами учетной записи пользователя для Skype для бизнеса Online, необходимо указать их в качестве свойств политик с PowerShell для Microsoft 365.
   
@@ -34,7 +34,7 @@ ms.locfileid: "50515056"
   > [!Note]
   > Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
 
-1. Установите модуль [Teams PowerShell.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Установите модуль [Teams PowerShell](/microsoftteams/teams-powershell-install).
     
 2. Откройте командную строку Windows PowerShell и выполните указанные команды: 
 
@@ -90,11 +90,11 @@ Get-CsOnlineUser -Identity "Alex Darrow" | ForEach {Get-CsExternalAccessPolicy -
   
 Чтобы управлять политиками Skype для бизнеса в Интернете с помощью PowerShell, см. в cmdlets для:
 
-- [Client policy](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets) (Политика клиента).
-- [Политика конференц-связи](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets),
-- [Политика мобильной связи](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#mobile-policy-cmdlets)
-- [Политика голосовой почты в Интернете](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#online-voicemail-policy-cmdlets)
-- [Политика маршрутивки голосовой почты](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#voice-routing-policy-cmdlets)
+- [Client policy](/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets) (Политика клиента).
+- [Политика конференц-связи](/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets),
+- [Политика мобильной связи](/previous-versions//mt228132(v=technet.10)#mobile-policy-cmdlets)
+- [Политика голосовой почты в Интернете](/previous-versions//mt228132(v=technet.10)#online-voicemail-policy-cmdlets)
+- [Политика маршрутивки голосовой почты](/previous-versions//mt228132(v=technet.10)#voice-routing-policy-cmdlets)
 
 
 > [!NOTE]
@@ -107,7 +107,7 @@ Get-CsVoicePolicy
 ```
 
 > [!NOTE]
-> Будет возвращен список всех доступных политик голосовой связи. Однако имейте в виду, что пользователям нельзя назначить некоторые политики. Это связано с различными ограничениями в отношении [места лицензирования и использования](https://msdn.microsoft.com/library/azure/dn194136.aspx). Чтобы узнать, какие политики внешнего доступа и конференций можно назначить пользователю, выполните команды, похожие на следующие: 
+> Будет возвращен список всех доступных политик голосовой связи. Однако имейте в виду, что пользователям нельзя назначить некоторые политики. Это связано с различными ограничениями в отношении [места лицензирования и использования](/previous-versions/azure/dn194136(v=azure.100)). Чтобы узнать, какие политики внешнего доступа и конференций можно назначить пользователю, выполните команды, похожие на следующие: 
 
 ```powershell
 Get-CsConferencingPolicy -ApplicableTo "Alex Darrow"
@@ -131,4 +131,3 @@ Get-CsClientPolicy -Identity "Global"
 [Управление Microsoft 365 с помощью PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

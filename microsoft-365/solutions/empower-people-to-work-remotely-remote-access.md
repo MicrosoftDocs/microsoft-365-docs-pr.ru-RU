@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Обеспечьте удаленным сотрудникам доступ к локальным ресурсам, одновременно оптимизируя доступ к облачным службам Microsoft 365.
-ms.openlocfilehash: 43000ce27fc24dbc6c2db3782b0ed40aa66b7fd2
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: ae86013ea1235c6dfd9929fd329cb0b2dba0fb93
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055535"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918354"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Этап 2. Обеспечение удаленного доступа к локальным приложениям и службам
 
@@ -55,7 +55,7 @@ ms.locfileid: "50055535"
 
 При использовании раздельного туннелирования в настройках VPN-клиента можно исключить передачу определенных типов трафика через VPN-подключение в сеть организации.
 
-Чтобы оптимизировать доступ к облачным ресурсам Microsoft 365, в настройках VPN-клиентов с раздельным туннелированием исключите трафик через VPN-подключение к конечным точкам Microsoft 365 категории **оптимизации**. Дополнительные сведения см. в статье [Категории конечных точек Office 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories). См. [список](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) конечных точек категории оптимизации.
+Чтобы оптимизировать доступ к облачным ресурсам Microsoft 365, в настройках VPN-клиентов с раздельным туннелированием исключите трафик через VPN-подключение к конечным точкам Microsoft 365 категории **оптимизации**. Дополнительные сведения см. в статье [Категории конечных точек Office 365](../enterprise/microsoft-365-network-connectivity-principles.md#new-office-365-endpoint-categories). См. [список](../enterprise/urls-and-ip-address-ranges.md) конечных точек категории оптимизации.
 
 Ниже приведен полученный в результате поток трафика, в котором большая часть трафика к облачным приложениям Microsoft 365 обходит VPN-подключение.
 
@@ -63,7 +63,7 @@ ms.locfileid: "50055535"
 
 Эта возможность позволяет VPN-клиенту отправлять и получать необходимый трафик облачных служб Microsoft 365 непосредственно через Интернет в ближайшей точке входа в сеть Microsoft.
 
-Дополнительные сведения и инструкции см. в статье [Оптимизация подключения Office 365 для удаленных пользователей с помощью раздельного VPN-туннелирования](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??).
+Дополнительные сведения и инструкции см. в статье [Оптимизация подключения Office 365 для удаленных пользователей с помощью раздельного VPN-туннелирования](../enterprise/microsoft-365-vpn-split-tunnel.md).
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Развертывание удаленного доступа при наличии гибридного удостоверения, если все приложения являются веб-приложениями
 
@@ -73,7 +73,7 @@ ms.locfileid: "50055535"
 
 ![Компоненты Azure AD Application Proxy](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-Дополнительные сведения см. в [обзоре Azure AD Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+Дополнительные сведения см. в [обзоре Azure AD Application Proxy](/azure/active-directory/manage-apps/application-proxy).
 
 >[!Note]
 >Прокси приложения Azure AD не входит в подписку на Microsoft 365. Вам следует оплачивать использование с отдельной подпиской Azure.
@@ -87,7 +87,7 @@ ms.locfileid: "50055535"
 
 ![Компоненты VPN-подключения P2S в Azure](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-p2s-vpn.png)
 
-Дополнительные сведения см. в [обзоре VPN-подключения P2S](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about).
+Дополнительные сведения см. в [обзоре VPN-подключения P2S](/azure/vpn-gateway/point-to-site-about).
 
 >[!Note]
 >Azure P2S VPN не входит в подписку на Microsoft 365. Вам следует оплачивать использование с отдельной подпиской Azure.
@@ -99,7 +99,7 @@ ms.locfileid: "50055535"
 
 ![Компоненты виртуального рабочего стола для Azure Windows](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-Дополнительные сведения см. в [обзоре Виртуального рабочего стола Windows](https://docs.microsoft.com/azure/virtual-desktop/overview). 
+Дополнительные сведения см. в [обзоре Виртуального рабочего стола Windows](/azure/virtual-desktop/overview). 
 
 >[!Note]
 >Виртуальный рабочий стол Windows не входит в подписку на Microsoft 365. Вам следует оплачивать использование с отдельной подпиской Azure.
@@ -116,7 +116,7 @@ ms.locfileid: "50055535"
 ## <a name="admin-technical-resources-for-remote-access"></a>Технические ресурсы администраторов для предоставления удаленного доступа
 
 - [Быстрая оптимизация трафика Office 365 для удаленных сотрудников и снижение нагрузки на инфраструктуру](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
-- [Оптимизация подключения Office 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
+- [Оптимизация подключения Office 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](../enterprise/microsoft-365-vpn-split-tunnel.md)
 
 ## <a name="results-of-step-2"></a>Результаты этапа 2
 
@@ -136,4 +136,3 @@ ms.locfileid: "50055535"
 [![Этап 3. Развертывание служб безопасности и соответствия требованиям Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid-3.png)](empower-people-to-work-remotely-security-compliance.md)
 
 Перейдите к [Этапу 3](empower-people-to-work-remotely-security-compliance.md), чтобы развернуть службы безопасности и соответствия требованиям Microsoft 365 для защиты приложений, данных и устройств.
-

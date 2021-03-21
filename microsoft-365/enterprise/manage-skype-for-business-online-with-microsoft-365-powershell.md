@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Управляйте политиками, индивидуальными политиками и настройками собраний Skype для бизнеса Online, используя PowerShell для Microsoft 365.
-ms.openlocfilehash: 1992edfb6d1c141c7ed4db22064960873b768865
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 4477dadf0ea38a81ac0ae282da3f74fc12f3406f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50514960"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916684"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>Управление Skype для бизнеса Online с помощью PowerShell
 
@@ -32,7 +32,7 @@ ms.locfileid: "50514960"
   > [!Note]
    > Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
    
-Установите модуль [Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+Установите модуль [Teams PowerShell](/microsoftteams/teams-powershell-install).
 
 
 ## <a name="connect-using-admin-credentials"></a>Подключение с учетными данными администратора
@@ -75,4 +75,4 @@ ms.locfileid: "50514960"
   
 [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
 
-[Справка по командлетам PowerShell в Skype для бизнеса](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[Справка по командлетам PowerShell в Skype для бизнеса](/powershell/module/skype/?view=skype-ps)

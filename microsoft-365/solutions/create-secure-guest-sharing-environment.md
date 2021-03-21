@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Узнайте о доступных вариантах создания безопасной среды гостевого общего доступа в Microsoft 365, чтобы обеспечить гостевой доступ для улучшения совместной работы.
-ms.openlocfilehash: 28b2efba9f0c4ba17811a9871b05ab9f5a7a4839
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 0eb999d48bc0976d7c2bb32ff1bdba8d63409d81
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838686"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918470"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Создание безопасной среды гостевого общего доступа
 
@@ -39,7 +39,7 @@ ms.locfileid: "50838686"
 - Автоматическое присвоение метки конфиденциальности документам, содержащим конфиденциальную информацию.
 - Автоматический запрет гостевого доступа к файлам с меткой конфиденциальности.
 
-Для некоторых параметров, рассматриваемых в этой статье, требуется наличие у гостей учетной записи в Azure Active Directory. Чтобы обеспечить включение гостей в каталог при совместном использовании файлов и папок с ними, используйте[интеграцию SharePoint и OneDrive с Azure AD B2B (предварительная версия)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
+Для некоторых параметров, рассматриваемых в этой статье, требуется наличие у гостей учетной записи в Azure Active Directory. Чтобы обеспечить включение гостей в каталог при совместном использовании файлов и папок с ними, используйте[интеграцию SharePoint и OneDrive с Azure AD B2B (предварительная версия)](/sharepoint/sharepoint-azureb2b-integration-preview).
 
 Обратите внимание, что в этой статье не рассматривается включение параметров гостевого общего доступа. Дополнительные сведения о включении гостевого общего доступа для разных сценариев см. в статье [Совместная работа с пользователями не из организации](collaborate-with-people-outside-your-organization.md).
 
@@ -66,7 +66,7 @@ ms.locfileid: "50838686"
 
 ### <a name="more-information"></a>Дополнительные сведения
 
-[Планирование развертывания многофакторной проверки подлинности Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+[Планирование развертывания многофакторной проверки подлинности Azure AD](/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## <a name="set-up-a-terms-of-use-for-guests"></a>Настройка условий использования для гостей
 
@@ -108,11 +108,11 @@ ms.locfileid: "50838686"
 Теперь при первой попытке гостя получить доступ к содержимому, группе или сайту в вашей организации ему потребуется принять условия использования.
 
 > [!NOTE]
-> Для использования условного доступа требуется лицензия Azure AD Premium P1. Дополнительные сведения см. в статье [Что такое условный доступ](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
+> Для использования условного доступа требуется лицензия Azure AD Premium P1. Дополнительные сведения см. в статье [Что такое условный доступ](/azure/active-directory/conditional-access/overview).
 
 ### <a name="more-information"></a>Дополнительные сведения
 
-[Условия использования Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)
+[Условия использования Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use)
 
 ## <a name="set-up-guest-access-reviews"></a>Настройка проверок гостевого доступа
 
@@ -145,15 +145,15 @@ ms.locfileid: "50838686"
 
 ### <a name="more-information"></a>Дополнительные сведения
 
-[Управление гостевым доступом с помощью проверок доступа Azure AD](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)
+[Управление гостевым доступом с помощью проверок доступа Azure AD](/azure/active-directory/governance/manage-guest-access-with-access-reviews)
 
-[Создание проверки доступа для групп или приложений в службе проверки доступа Azure AD](https://docs.microsoft.com/azure/active-directory/governance/create-access-review)
+[Создание проверки доступа для групп или приложений в службе проверки доступа Azure AD](/azure/active-directory/governance/create-access-review)
 
 ## <a name="set-up-web-only-access-for-guests"></a>Настройка доступа только через Интернет для гостей
 
 Вы можете сократить направления атак и упростить администрирование, требуя, чтобы гости обращались к командам, сайтам и файлам только с помощью веб-браузера.
 
-Для групп Microsoft 365 и Teams в подобных случаях используется политика условного доступа Azure AD. Для SharePoint настройка производится в Центре администрирования SharePoint. (Также можно и[использовать метки конфиденциальности, чтобы предоставить гостям доступ только для чтения](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).)
+Для групп Microsoft 365 и Teams в подобных случаях используется политика условного доступа Azure AD. Для SharePoint настройка производится в Центре администрирования SharePoint. (Также можно и[использовать метки конфиденциальности, чтобы предоставить гостям доступ только для чтения](../compliance/sensitivity-labels-teams-groups-sites.md).)
 
 Чтобы ограничить доступ гостей к группам и командам только веб-доступом:
 
@@ -222,7 +222,7 @@ ms.locfileid: "50838686"
 
 ### <a name="more-information"></a>Дополнительные сведения
 
-[Пользовательские типы конфиденциальной информации](https://docs.microsoft.com/Office365/SecurityCompliance/custom-sensitive-info-types)
+[Пользовательские типы конфиденциальной информации](/Office365/SecurityCompliance/custom-sensitive-info-types)
 
 ## <a name="create-an-auto-labeling-policy-to-assign-a-sensitivity-label-based-on-a-sensitive-information-type"></a>Создание политики автоматического применения меток для присвоения меток конфиденциальности на основе типа конфиденциальной информации
 
@@ -252,11 +252,11 @@ ms.locfileid: "50838686"
 
 ### <a name="more-information"></a>Дополнительные сведения
 
-[Автоматическое применение метки конфиденциальности к содержимому](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)
+[Автоматическое применение метки конфиденциальности к содержимому](../compliance/apply-sensitivity-label-automatically.md)
 
 ## <a name="create-a-dlp-policy-to-remove-guest-access-to-highly-sensitive-files"></a>Создание политики DLP для запрета гостевого доступа к строго конфиденциальным файлам
 
-Можно использовать [защиту от потери данных (DLP)](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies), чтобы предотвратить нежелательное предоставление гостям доступа к конфиденциальному содержимому. Функция защиты от потери данных может действовать на основании метки конфиденциальности файла и запретить гостевой доступ.
+Можно использовать [защиту от потери данных (DLP)](../compliance/data-loss-prevention-policies.md), чтобы предотвратить нежелательное предоставление гостям доступа к конфиденциальному содержимому. Функция защиты от потери данных может действовать на основании метки конфиденциальности файла и запретить гостевой доступ.
 
 Создание правила DLP
 
@@ -287,9 +287,9 @@ ms.locfileid: "50838686"
 
 Для обеспечения безопасности среды гостевого общего доступа также можно использовать некоторые дополнительные параметры в Microsoft 365 и Azure Active Directory.
 
-- Вы можете создать список доменов, для которых общий доступ разрешен или запрещен, чтобы ограничить тех, с кем пользователи могут делиться. Дополнительные сведения см. в статье [Ограничение общего доступа к контенту SharePoint и OneDrive по домену](https://docs.microsoft.com/sharepoint/restricted-domains-sharing) и [Разрешение или блокировка приглашений для пользователей B2B из определенных организаций](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
-- Вы можете ограничить других клиентов Azure Active Directory, к которым могут подключаться пользователи. Сведения см. в статье [Использование ограничений клиентов для управления доступом к облачным приложениям SaaS](https://docs.microsoft.com/azure/active-directory/manage-apps/tenant-restrictions).
-- Вы можете создать управляемую среду, в которой партнеры могут помочь в управлении гостевыми учетными записями. Сведения см. в статье [Создание экстрасети B2B с управляемыми гостями](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet).
+- Вы можете создать список доменов, для которых общий доступ разрешен или запрещен, чтобы ограничить тех, с кем пользователи могут делиться. Дополнительные сведения см. в статье [Ограничение общего доступа к контенту SharePoint и OneDrive по домену](/sharepoint/restricted-domains-sharing) и [Разрешение или блокировка приглашений для пользователей B2B из определенных организаций](/azure/active-directory/b2b/allow-deny-list).
+- Вы можете ограничить других клиентов Azure Active Directory, к которым могут подключаться пользователи. Сведения см. в статье [Использование ограничений клиентов для управления доступом к облачным приложениям SaaS](/azure/active-directory/manage-apps/tenant-restrictions).
+- Вы можете создать управляемую среду, в которой партнеры могут помочь в управлении гостевыми учетными записями. Сведения см. в статье [Создание экстрасети B2B с управляемыми гостями](/Office365/Enterprise/b2b-extranet).
 
 ## <a name="see-also"></a>См. также
 

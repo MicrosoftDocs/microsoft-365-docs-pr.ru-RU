@@ -20,19 +20,19 @@ search.appverid:
 - MET150
 description: Узнайте, как отменить пробную или платную подписку на Microsoft 365 для бизнеса.
 ms.date: ''
-ms.openlocfilehash: 45e953fd415bb2d508554b47fb3226dcae74cb6b
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 7a2de2a261baeb4e64e12742810635f352217933
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741405"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916880"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -45,7 +45,7 @@ ms.locfileid: "50741405"
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-Для выполнения описанных в этой статье действий необходимы права глобального администратора или администратора выставления счетов. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+Для выполнения описанных в этой статье действий необходимы права глобального администратора или администратора по выставлению счетов. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="steps-to-cancel-your-subscription"></a>Действия для отмены подписки
 

@@ -18,12 +18,12 @@ description: Узнайте, как распознавать и устранят
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 30ddd5f57dee2156504211e76304d346a63e192d
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 0846051b65b34ec26358f87bb4ca49302573e6e7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406704"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917050"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Обнаружение и исправление правил Outlook и атак на впрыски пользовательских форм
 
@@ -110,7 +110,7 @@ ms.locfileid: "50406704"
 
 4. Посмотрите в описании правила действия правила, которые запускают и приложения или ссылаются на . EXE, . ZIP-файл или запуск URL-адреса.
 
-5. И посмотрите на новые процессы, которые начинаются с помощью ID процесса Outlook. Обратитесь [к ссылке Найти ID процесса](https://docs.microsoft.com/windows-hardware/drivers/debugger/finding-the-process-id).
+5. И посмотрите на новые процессы, которые начинаются с помощью ID процесса Outlook. Обратитесь [к ссылке Найти ID процесса](/windows-hardware/drivers/debugger/finding-the-process-id).
 
 ### <a name="steps-to-confirm-the-forms-attack-using-the-outlook-client"></a>Действия по подтверждению атаки Forms с помощью клиента Outlook
 
@@ -176,19 +176,19 @@ ms.locfileid: "50406704"
 
 #### <a name="steps-for-mailboxes-that-are-on-an-exchange-server"></a>Действия для почтовых ящиков, которые находятся на сервере Exchange
 
-1. Подключение к серверу Exchange с помощью удаленной PowerShell. Следуйте шагам [в Connect to Exchange servers using remote PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-servers-using-remote-powershell)
+1. Подключение к серверу Exchange с помощью удаленной PowerShell. Следуйте шагам [в Connect to Exchange servers using remote PowerShell.](/powershell/exchange/connect-to-exchange-servers-using-remote-powershell)
 
-2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте [cmdlet Remove-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
+2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте [cmdlet Remove-InboxRule.](/powershell/module/exchange/Remove-InboxRule)
 
-3. Если вы хотите сохранить правило и его содержимое для дальнейшего исследования, используйте для этого [cmdlet Disable-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule)
+3. Если вы хотите сохранить правило и его содержимое для дальнейшего исследования, используйте для этого [cmdlet Disable-InboxRule.](/powershell/module/exchange/disable-inboxrule)
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Действия для почтовых ящиков в Exchange Online
 
-1. Следуйте шагам [в Connect to Exchange Online с помощью PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. Следуйте шагам [в Connect to Exchange Online с помощью PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте комлет [Правила](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) удаления входящие.
+2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте комлет [Правила](/powershell/module/exchange/Remove-InboxRule) удаления входящие.
 
-3. Если вы хотите сохранить правило и его содержимое для дальнейшего исследования, используйте для этого [cmdlet Disable-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule)
+3. Если вы хотите сохранить правило и его содержимое для дальнейшего исследования, используйте для этого [cmdlet Disable-InboxRule.](/powershell/module/exchange/disable-inboxrule)
 
 ## <a name="how-to-minimize-future-attacks"></a>Минимизация будущих атак
 
@@ -198,7 +198,7 @@ ms.locfileid: "50406704"
 
 Лучший способ защиты учетных записей пользователей и особенно учетных записей администратора — настроить многофакторную [проверку подлинности для пользователей.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) Вы также должны:
 
-- Отслеживание доступа и использования учетных записей [пользователей.](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) Вы не можете предотвратить первоначальное нарушение, но сократите продолжительность и влияние нарушения, обнаружив его раньше. Вы можете использовать эти политики безопасности облачных приложений [Office 365](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) для мониторинга учетных записей и оповещения о необычных действиях:
+- Отслеживание доступа и использования учетных записей [пользователей.](/azure/active-directory/active-directory-view-access-usage-reports) Вы не можете предотвратить первоначальное нарушение, но сократите продолжительность и влияние нарушения, обнаружив его раньше. Вы можете использовать эти политики безопасности облачных приложений [Office 365](/cloud-app-security/what-is-cloud-app-security) для мониторинга учетных записей и оповещения о необычных действиях:
 
   - **Несколько** неудачных попыток входа: эта политика профилирует среду и вызывает оповещения, когда пользователи выполняют несколько неудачных действий входа в одном сеансе по отношению к выучатой базовой линии, что может указывать на попытку нарушения.
 
@@ -226,7 +226,7 @@ ms.locfileid: "50406704"
 
 ### <a name="third-monitor-your-outlook-clients"></a>Третье: мониторинг клиентов Outlook
 
-Обратите внимание, что даже при установке исправлений и обновлений злоумышленник может изменить конфигурацию локальной машины, чтобы повторно включить поведение "Начните приложение". С помощью [advanced Group Policy Management](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) можно отслеживать и применять локальные политики машин для клиентов.
+Обратите внимание, что даже при установке исправлений и обновлений злоумышленник может изменить конфигурацию локальной машины, чтобы повторно включить поведение "Начните приложение". С помощью [advanced Group Policy Management](/microsoft-desktop-optimization-pack/agpm/) можно отслеживать и применять локальные политики машин для клиентов.
 
 Вы можете увидеть, было ли повторно включено "Начните приложение" с помощью переопределения в реестре с помощью сведений о просмотре реестра системы с помощью [64-битных](https://support.microsoft.com/help/305097)версий Windows . Проверьте эти подкайки:
 
@@ -236,7 +236,7 @@ ms.locfileid: "50406704"
 
 Найми ключ EnableUnsafeClientMailRules. Если он существует и задан для 1, исправление безопасности Outlook было переопределено, и компьютер уязвим для атаки Form/Rules. Если значение 0, действие "Начните приложение" отключено. Если обновленная и исправленная версия Outlook установлена, а этого ключа реестра нет, система не уязвима для этих атак.
 
-Клиенты с локальной установкой Exchange должны рассмотреть возможность блокировки старых версий Outlook, у них нет доступных исправлений. Сведения об этом процессе можно найти в статье [Настройка блокировки клиента Outlook.](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help)
+Клиенты с локальной установкой Exchange должны рассмотреть возможность блокировки старых версий Outlook, у них нет доступных исправлений. Сведения об этом процессе можно найти в статье [Настройка блокировки клиента Outlook.](/exchange/configure-outlook-client-blocking-exchange-2013-help)
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Защитите Microsoft 365 на профессиональном уровне
 
