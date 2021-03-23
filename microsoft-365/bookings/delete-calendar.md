@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: Используйте центр администрирования Microsoft 365 или Windows PowerShell для удаления календарей Bookings.
-ms.openlocfilehash: 7b79628327797d2e315d31e1b1a2671f0b24e447
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 21fc7b9994ffd7f76ed04000a50bd0ee8f7f167e
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913782"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034095"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Удаление календаря бронирования в Bookings
 
@@ -72,7 +72,7 @@ ms.locfileid: "50913782"
 4. Когда обработка этой команды завершится, введите следующую команду, чтобы получить список почтовых ящиков резервирования в вашем клиенте:
 
    ```powershell
-   Get-EXOMailbox -RecipientTypeDetails Scheduling
+   Get-EXOMailbox -RecipientTypeDetails SchedulingMailbox
    ```
 
 5. Введите следующую команду:

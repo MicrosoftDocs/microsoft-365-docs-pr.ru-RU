@@ -12,12 +12,12 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям передовой практики для автономных exchange Online Protection (EOP), чтобы настроить себя на успех и избежать распространенных ошибок конфигурации.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6a6a9fd0dfc654ca37fdd5168b3ecc0c4486f9d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e968316e23fe2d8e68795318f8e0785a662c8aea
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924460"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994562"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Передовая практика настройки автономных EOP
 
@@ -44,9 +44,11 @@ ms.locfileid: "50924460"
 
 Эти параметры охватывают ряд функций, не входящего в политику безопасности.
 
+<br>
+
 ****
 
-|Имя функции безопасности|Стандартный|Strict|Комментарий|
+|Имя функции безопасности|Стандартный|Strict|Comment|
 |---|---|---|---|
 |[Настройка SPF для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Да|Да||
 |[Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)|Да|Да||
@@ -57,8 +59,8 @@ ms.locfileid: "50924460"
 |Необходимо включить единый аудит|Да|Да||
 |[Подключение IMAP к почтовому ящику](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Отключено|Отключено||
 |[Подключение POP к почтовому ящику](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Отключено|Отключено||
-|Проверка подлинности отправки SMTP|Отключено|Отключено|Для отправки электронной почты клиентам POP3 и IMAP4 требуется проверка подлинности отправки SMTP клиента (также известного как отправка SMTP клиента или SMTP AUTH).|
-|Подключение EWS к почтовому ящику|Отключено|Отключено||
+|Проверка подлинности отправки SMTP|Отключено|Отключено|Проверка подлинности отправки SMTP клиента (также известная как отправка SMTP или SMTP AUTH) требуется для клиентов и приложений и устройств POP3 и IMAP4, которые создают и отправляют электронную почту. <p> Инструкции по глобальному или выборочному отключению SMTP AUTH см. в материале Включить или отключить проверку подлинности отправки SMTP клиента в [Exchange Online.](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)|
+|Подключение EWS к почтовому ящику|Отключено|Отключено|Outlook использует веб-службы Exchange для бесплатных и загруженных параметров, не в офисе и общего доступа к календарю. Если вы не можете отключить EWS глобально, у вас есть следующие параметры: <ul><li>Используйте [политики проверки подлинности,](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) чтобы предотвратить использование EWS базовой проверки подлинности, если ваши клиенты поддерживают современную проверку подлинности (современный auth).</li><li>Используйте [правила клиентского доступа,](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) чтобы ограничить доступ к EWS определенным пользователям или исходным IP-адресам.</li><li>Управление доступом EWS к определенным приложениям глобально или на каждого пользователя. Инструкции см. в [инструкции Control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)</li></ul> <p> [Надстройка](enable-the-report-message-add-in.md) сообщения Report и надстройка для фишинга [report](enable-the-report-phish-add-in.md) используют REST по умолчанию в поддерживаемых средах, но отпадет в EWS, если REST не доступен. Поддерживаемые среды, которые используют REST:<ul><li>Exchange Online</li><li>Exchange 2019 или Exchange 2016</li><li>Current Outlook для Windows из подписки Microsoft 365 или одномесячной покупки Outlook 2019.</li><li>Current Outlook для Mac из подписки Microsoft 365 или одномесячной покупки Outlook для Mac 2016 или более поздней.</li><li>Outlook для iOS и Android</li><li>Outlook в Интернете</li></ul>|
 |[Подключение PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)|Отключено|Отключено|Доступно для пользователей почтовых ящиков или пользователей почты (объекты пользователей, возвращаемые комлетом [Get-User).](/powershell/module/exchange/get-user)|
 |Используйте [подмену сведений,](learn-about-spoof-intelligence.md) чтобы добавить отправителей в список разрешаний|Да|Да||
 |[Блокировка края на основе каталогов (DBEB)](/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Включена|Включена|Тип домена = Авторитетный|

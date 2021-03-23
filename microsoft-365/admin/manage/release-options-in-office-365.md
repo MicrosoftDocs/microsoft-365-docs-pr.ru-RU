@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Узнайте, как настроить параметр выпуска для новых продуктов и обновлений компонентов в центре администрирования Microsoft 365.
-ms.openlocfilehash: f500aac89495c55d27fc4afb699254653786422d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e909cdf35ba9dd8282540783f7c362e5ae49212e
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915210"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034083"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Настройка стандартных или целевых параметров выпуска
 
@@ -117,3 +117,7 @@ ms.locfileid: "50915210"
 ## <a name="learn-more"></a>Подробнее
 
 Узнайте, как [управлять сообщениями](/office365/admin/manage/message-center) в центре [сообщений Microsoft 365,](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) чтобы получать уведомления о предстоящих обновлениях и выпусках Microsoft 365.
+
+## <a name="related-articles"></a>Связанные статьи
+
+[Программа предварительной оценки Office](https://insider.office.com/join/windows)
