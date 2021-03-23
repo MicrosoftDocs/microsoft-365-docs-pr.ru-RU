@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Включение параметра, разрешающего совместное редактирование и автосохранение в классических приложениях для помеченных и зашифрованных документов в SharePoint и OneDrive.
-ms.openlocfilehash: 90c00eb448d6d8f02170a37062af05cb0c0db59d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 34c674dc5fb9be9cb5572ce1f14e11a0f8ab14ae
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919575"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034228"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Включение совместного редактирования для файлов, зашифрованных с помощью меток конфиденциальности
 
@@ -83,10 +83,10 @@ ms.locfileid: "50919575"
 - Метки конфиденциальности должны быть [включены для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) клиента. Если эта функция еще не включена, она будет автоматически включена при выборе параметра для включения совместного редактирования для файлов с метками конфиденциальности.
 
 - Приложения Microsoft 365 для предприятий:
-    - **Windows**: [Актуальный канал (предварительная версия)](https://office.com/insider) с минимальной сборкой 16.0.13801.20182 или [Бета-канал](https://office.com/insider) с минимальной сборкой 16.0.13819.20006
-    - **macOS**: [Бета-канал](https://office.com/insider) с минимальной сборкой 16.47.218.0
-    - **IOS**: пока не поддерживается
-    - **Android**: пока не поддерживается
+    - **Windows**. Предварительная версия: [Актуальный канал (предварительная версия)](https://office.com/insider)
+    - **macOS**. Предварительная версия: [Бета-канал](https://office.com/insider)
+    - **IOS**. Пока не поддерживается
+    - **Android**. Пока не поддерживается
 
 - Все приложения, службы и операционные инструменты в клиенте должны поддерживать новые [метаданные меток](#metadata-changes-for-sensitivity-labels): Если вы используете любой из следующих вариантов, проверьте необходимую минимальную версию:
     
