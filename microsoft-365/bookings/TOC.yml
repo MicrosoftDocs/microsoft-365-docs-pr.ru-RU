@@ -19,8 +19,6 @@
           href: customize-booking-page.md
         - name: Создание резервирования вручную
           href: create-a-manual-booking.md
-        - name: Планирование нерабочих дней и отгулов
-          href: schedule-closures-time-off-vacation.md
         - name: Часы работы сотрудников
           href: employee-hours.md
         - name: Добавление обязательных и пользовательских вопросов на страницу резервирования
