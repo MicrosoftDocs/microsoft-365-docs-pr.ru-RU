@@ -314,7 +314,7 @@
             - name: Настройка функций обеспечения соответствия требованиям
               href: ../business/set-up-compliance.md
         - name: Оценка безопасности
-          href: ../security/mtp/microsoft-secure-score.md
+          href: 'https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score'
         - name: Руководство по соответствию требованиям GDPR
           href: security-and-compliance/gdpr-compliance.md
     - name: Управление данными устройств и приложений

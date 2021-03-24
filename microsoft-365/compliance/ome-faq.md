@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Возникает вопрос о том, как работают новые возможности защиты сообщений? Здесь вы можете получить ответ.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fdfcc2e7454b1243016754ba32dcc2622b876672
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 13d4181482bf8ad7460480a70c762fe60fd28ad0
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927757"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051751"
 ---
 # <a name="message-encryption-faq"></a>FaQ шифрования сообщений
 
@@ -165,7 +165,7 @@ Outlook в Интернете поддерживает отзыв защищен
   
 ## <a name="are-there-any-reporting-capabilities-or-insights-for-encrypted-emails"></a>Существуют ли какие-либо возможности или сведения об отчетах для зашифрованных сообщений электронной почты?
 
-В Центре безопасности и соответствия требованиям есть отчет о шифровании. Просмотр [отчетов о безопасности электронной почты](../security/office-365-security/view-email-security-reports.md)в Центре & безопасности.
+В Центре безопасности и соответствия требованиям есть отчет о шифровании. Просмотр [отчетов о безопасности электронной почты](../security/defender-365-security/view-email-security-reports.md)в Центре & безопасности.
   
 ## <a name="can-i-use-message-encryption-with-compliance-features-such-as-ediscovery"></a>Можно ли использовать шифрование сообщений с такими функциями соответствия требованиям, как eDiscovery?
 

@@ -17,12 +17,12 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Эта страница содержит ссылки и сведения о планировании безопасности и соответствия требованиям в Office 365.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f050d8bb7052ec2f62a9e33c35bcbe43546a40c2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 90f4083bdf38f4b1390ee31d0853ad65e3fe236f
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927965"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051711"
 ---
 # <a name="plan-for-security-amp-compliance"></a>Планирование соответствия &amp; требованиям безопасности
 
@@ -38,7 +38,7 @@ ms.locfileid: "50927965"
 
 После настройки подписки на Microsoft 365 обратите внимание на начальный балл. Secure Score предоставляет предложения по настройке, которые можно принять для увеличения балла. Цель состоит в том, чтобы быть в курсе возможностей, которые можно использовать для защиты среды, которая не будет отрицательно влиять на производительность ваших пользователей.
   
-- [Введение безопасной оценки Office 365](../security/mtp/microsoft-secure-score.md)
+- [Введение безопасной оценки Office 365](../security/defender/microsoft-secure-score.md)
     
 ## <a name="step-3-plan-access-protection-for-identity-and-devices"></a>Шаг 3. Планирование защиты доступа к удостоверениям и устройствам
 
@@ -46,7 +46,7 @@ ms.locfileid: "50927965"
   
 - [Защита доступа к данным и службам в Office 365](protect-access-to-data-and-services.md)
     
-- [Безопасные политики и конфигурации электронной почты](../security/office-365-security/secure-email-recommended-policies.md)
+- [Безопасные политики и конфигурации электронной почты](../security/defender-365-security/secure-email-recommended-policies.md)
     
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Другие языки](https://www.microsoft.com/download/details.aspx?id=55032)
   
@@ -62,15 +62,15 @@ ms.locfileid: "50927965"
   
 - [Перейдите в Центр &amp; соответствия требованиям безопасности](./microsoft-365-compliance-center.md)
     
-- [Разрешения в Центре соответствия &amp; требованиям безопасности](~/security/office-365-security/protect-against-threats.md)
+- [Разрешения в Центре соответствия &amp; требованиям безопасности](~/security/defender-365-security/protect-against-threats.md)
     
-- [Предоставить пользователям доступ к Центру &amp; соответствия требованиям безопасности](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [Предоставить пользователям доступ к Центру &amp; соответствия требованиям безопасности](~/security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>Шаг 6. В качестве отправных точек используйте конечные сценарии безопасности
 
 Используйте эти рекомендуемые конфигурации в качестве отправной точки для масштабирования предприятия или сложных сценариев безопасности доступа.
   
-- [Безопасные политики и конфигурации электронной почты](../security/office-365-security/secure-email-recommended-policies.md)
+- [Безопасные политики и конфигурации электронной почты](../security/defender-365-security/secure-email-recommended-policies.md)
     
 - [Contoso в Microsoft Cloud](../enterprise/contoso-case-study.md)
     

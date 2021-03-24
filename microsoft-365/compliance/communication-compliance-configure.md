@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 18ab0065a4a6c90f61730a313eb8c54f538fafab
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aa3af1e3cf507178a5747cca28fbda543aecd334
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918055"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052127"
 ---
 # <a name="get-started-with-communication-compliance"></a>Начало работы с соответствием требованиям к обмену данными
 
@@ -112,13 +112,13 @@ ms.locfileid: "50918055"
 
 9. Выберите **Close** для выполнения действий.
 
-Дополнительные сведения о группах ролей и разрешениях см. в группе [Permissions in the Compliance Center.](../security/office-365-security/protect-against-threats.md)
+Дополнительные сведения о группах ролей и разрешениях см. в группе [Permissions in the Compliance Center.](../security/defender-365-security/protect-against-threats.md)
 
 ## <a name="step-2-required-enable-the-audit-log"></a>Шаг 2 (требуется): Включить журнал аудита
 
 Соответствие требованиям связи требует, чтобы журналы аудита показали оповещения и отслеживали действия по исправлению, принятые рецензентами. Журналы аудита — это сводка всех действий, связанных с определенной организационной политикой или в любое время изменений политики соответствия требованиям.
 
-Пошаговая инструкция по включению аудита см. в журнале [Turn audit log search on or off.](turn-audit-log-search-on-or-off.md) После завершения аудита отображается сообщение о том, что журнал аудита готовится и что поиск можно выполнить через несколько часов после завершения подготовки. Это действие необходимо сделать только один раз. Дополнительные сведения об использовании журнала аудита см. в [журнале Search the audit.](search-the-audit-log-in-security-and-compliance.md)
+Пошаговая инструкция по включению аудита см. в журнале [Turn audit log search on or off.](turn-audit-log-search-on-or-off.md) После включения ведения аудита появится сообщение о подготовке журнала аудита, и через пару часов, когда она будет завершена, вы сможете начать поиск. Это действие необходимо сделать только один раз. Дополнительные сведения об использовании журнала аудита см. в [журнале Search the audit.](search-the-audit-log-in-security-and-compliance.md)
 
 ## <a name="step-3-optional-set-up-groups-for-communication-compliance"></a>Шаг 3 (необязательный): Настройка групп для соответствия требованиям к связи
 

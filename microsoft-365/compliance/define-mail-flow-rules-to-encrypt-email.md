@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться создавать правила потока почты (правила транспорта) для шифрования и расшифровки сообщений с помощью шифрования сообщений Office 365.
-ms.openlocfilehash: 5c0f67acdb5d8fbfff216742cab1c49732c4ab24
-ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
+ms.openlocfilehash: 63b1b0ba3b13f5beecd049a8ef81d6355855626f
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "50939650"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051941"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>Определение правил потока почты для шифрования сообщений электронной почты
 
@@ -132,4 +132,4 @@ ms.locfileid: "50939650"
 
 [Правила потока обработки почты (правила транспорта) в Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-[Правила потока обработки почты (правила транспорта) в Exchange Online Protection](../security/office-365-security/mail-flow-rules-transport-rules-0.md)
+[Правила потока обработки почты (правила транспорта) в Exchange Online Protection](../security/defender-365-security/mail-flow-rules-transport-rules-0.md)

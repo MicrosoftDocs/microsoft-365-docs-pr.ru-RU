@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: Фильтруйте разрешения поиска контента, чтобы разрешить диспетчеру поиска электронных данных искать только подмножество почтовых ящиков и сайтов в организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be1daa4785f67ef54f107319bf88438c134896ec
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 78d36ccd602ea546099e768d7e91594a668df586
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927987"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051731"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>Настройка фильтрации разрешений для поиска содержимого
 
@@ -45,7 +45,7 @@ ms.locfileid: "50927987"
 
 ## <a name="requirements-to-configure-permissions-filtering"></a>Требования к настройке фильтрации разрешений
 
-- Чтобы выполнить команды фильтра безопасности соответствия требованиям, необходимо быть членом группы ролей управления организацией в Центре & соответствия требованиям. Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
+- Чтобы выполнить команды фильтра безопасности соответствия требованиям, необходимо быть членом группы ролей управления организацией в Центре & соответствия требованиям. Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md).
 
 - Чтобы использовать команды фильтра безопасности соответствия требованиям, необходимо подключиться как к Exchange Online, так и к центру безопасности & PowerShell. Это необходимо, так как эти кодлеты требуют доступа к свойствам почтовых ящиков, поэтому необходимо подключиться к Exchange Online PowerShell. См. действия в следующем разделе.
 

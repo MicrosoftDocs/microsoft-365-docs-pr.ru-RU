@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Используйте средства электронного поиска и поиска для управления инцидентом утечки данных в организации и реагирования на них.
-ms.openlocfilehash: 9ca637dcd3b4b07846d977d64f535b7b5319d884
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: da473fcdf553176d3c6d4dfa2a4c4b17b2bcce03
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925685"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051981"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>Серия решений по обнаружению электронных данных: сценарий утечки данных — поиск и очистка
 
@@ -121,7 +121,7 @@ ms.locfileid: "50925685"
   
 Трассировка сообщений можно использовать в центре безопасности и соответствия требованиям или использовать соответствующие cmdlets в Exchange Online PowerShell. Важно отметить, что отслеживание сообщений не обеспечивает полных гарантий полноты возвращаемой информации. Дополнительные сведения об использовании трассировки сообщений см.: 
   
-- [Трассировка сообщений в Центре безопасности и соответствия требованиям](../security/office-365-security/message-trace-scc.md)
+- [Трассировка сообщений в Центре безопасности и соответствия требованиям](../security/defender-365-security/message-trace-scc.md)
     
 - [Новый след сообщений в центре & безопасности](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
     
@@ -199,7 +199,7 @@ ms.locfileid: "50925685"
     
 ### <a name="auditing-the-data-spillage-investigation-process"></a>Аудит процесса расследования утечки данных
 
-Вы можете найти журнал аудита для действий по обнаружению электронных отчетов, которые были выполнены во время расследования. Вы также можете найти журнал аудита, чтобы вернуть записи аудита для команды **New-ComplianceSearchAction-Purge,** которую вы запустили в шаге 7, чтобы удалить разлитые данные. Дополнительные сведения см. в статьях:
+Вы можете найти журнал аудита для действий по обнаружению электронных отчетов, которые были выполнены во время расследования. Вы также можете найти журнал аудита, чтобы вернуть записи аудита для команды **New-ComplianceSearchAction-Purge,** которую вы запустили в шаге 7, чтобы удалить разлитые данные. Дополнительные сведения см. в указанных ниже статьях.
 
 - [Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md)
 
