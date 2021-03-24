@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует функции защиты информации в Microsoft 365 для предприятия для защиты своих цифровых активов в облаке.
-ms.openlocfilehash: 90a82fbd4dd77ff0f8faa024ced177a640a10b80
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3bd778708e30253e53cc465e89f7b783141771de
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911042"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051500"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Защита информации в корпорации Contoso
 
@@ -76,9 +76,9 @@ Contoso последовала этим шагам, чтобы подготов�
 
 В рамках их присоединения к Exchange Online и SharePoint Contoso сконфигурировали следующий набор политик условного доступа и применили их к соответствующим группам:
 
-- [Управляемый и неуправляемый доступ к приложениям в политиках для устройств](../security/office-365-security/identity-access-policies.md)
-- [Политики доступа Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)
-- [Политики доступа SharePoint](../security/office-365-security/sharepoint-file-access-policies.md)
+- [Управляемый и неуправляемый доступ к приложениям в политиках для устройств](../security/defender-365-security/identity-access-policies.md)
+- [Политики доступа Exchange Online](../security/defender-365-security/secure-email-recommended-policies.md)
+- [Политики доступа SharePoint](../security/defender-365-security/sharepoint-file-access-policies.md)
 
 Ниже приводится набор политик Contoso для защиты информации.
 
@@ -117,7 +117,7 @@ Contoso последовала этим шагам, чтобы подготов�
 
 ## <a name="see-also"></a>См. также
 
-[Стратегия повышения безопасности](../security/office-365-security/security-roadmap.md)
+[Стратегия повышения безопасности](../security/defender-365-security/security-roadmap.md)
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 

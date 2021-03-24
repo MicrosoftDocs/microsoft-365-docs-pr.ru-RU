@@ -14,20 +14,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам с предварительными требованиями для проверки подлинности с синхронизацией хэша паролей.
-ms.openlocfilehash: 3236c79e308f269c07146ff094c7ae27271b97fc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2ca83b6ab715a752d3d9620af631263eb5d84fa3
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928054"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051250"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Предварительные требования к удостоверениям и доступу к устройствам для синхронизации хэша паролей в тестовой среде Microsoft 365
 
 *Это руководство по тестовой лаборатории можно использовать только для Microsoft 365 для корпоративных тестовых сред.*
 
-[Конфигурации](../security/office-365-security/microsoft-365-policies-configurations.md) удостоверений и доступа к устройствам — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам Microsoft 365 для предприятий, интегрированных с Azure Active Directory (Azure AD).
+[Конфигурации](../security/defender-365-security/microsoft-365-policies-configurations.md) удостоверений и доступа к устройствам — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам Microsoft 365 для предприятий, интегрированных с Azure Active Directory (Azure AD).
 
-В этой статье описывается настройка тестовой среды Microsoft 365, [](../security/office-365-security/identity-access-prerequisites.md#prerequisites) которая соответствует требованиям гибрида с предварительной конфигурацией синхронизации синхронизации паролей для удостоверений и доступа к устройствам.
+В этой статье описывается настройка тестовой среды Microsoft 365, [](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) которая соответствует требованиям гибрида с предварительной конфигурацией синхронизации синхронизации паролей для удостоверений и доступа к устройствам.
 
 Существует десять этапов настройки этой тестовой среды:
 
@@ -119,11 +119,11 @@ ms.locfileid: "50928054"
   Get-CsOAuthConfiguration
   ```
 
-Результатом является тестовая среда, соответствующая требованиям [предварительной настройки Active Directory с синхронизацией хэша паролей](../security/office-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам. 
+Результатом является тестовая среда, соответствующая требованиям [предварительной настройки Active Directory с синхронизацией хэша паролей](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам. 
 
 ## <a name="next-step"></a>Следующее действие
 
-См. статью [Основные политики доступа для удостоверений и устройств](../security/office-365-security/identity-access-policies.md), чтобы настроить политики, созданные на основе предварительных требований, и защитить удостоверения и устройства.
+См. статью [Основные политики доступа для удостоверений и устройств](../security/defender-365-security/identity-access-policies.md), чтобы настроить политики, созданные на основе предварительных требований, и защитить удостоверения и устройства.
 
 ## <a name="see-also"></a>См. также
 

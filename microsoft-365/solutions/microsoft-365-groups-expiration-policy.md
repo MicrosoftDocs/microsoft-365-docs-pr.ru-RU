@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте о политиках истечения срока действия групп Microsoft 365.
-ms.openlocfilehash: 8232e7df2a8390b905386773ed0656eb8239d5c5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 65a746751cd523a5dadce3eca573e6a9bfce0166
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920920"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052306"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Политика истечения срока действия группы Microsoft 365
 
@@ -37,6 +37,8 @@ ms.locfileid: "50920920"
 - SharePoint — просмотр, редактирование, скачивание, перемещение, отправка или отправка файлов. (Просмотр страницы SharePoint не считается действием для автоматического обновления.)
 - Outlook — присоединиться к группе, прочитать или написать групповое сообщение из группы и как сообщение (Outlook в Интернете).
 - Teams — посещение канала команд.
+
+Обратите внимание, что единственным действием Yammer, которое вызовет автоматическое обновление группы, является отправка документа в SharePoint в сообществе.
 
 > [!IMPORTANT]
 > При изменении политики истечения срока действия служба пересчитывает срок действия для каждой группы. Он всегда начинает считать с даты создания группы, а затем применяет новую политику истечения срока действия.
@@ -81,7 +83,7 @@ ms.locfileid: "50920920"
 
 Если у вас есть группа, которую вы больше не планируете использовать, но хотите сохранить ее содержимое, см. в материалах [Archive groups, teams и Yammer](end-life-cycle-groups-teams-sites-yammer.md) для получения сведений о том, как экспортировать информацию из различных служб групп.
 
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Статьи по теме
 
 [Пошаговая пошаговая работа по планированию управления совместной работой](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

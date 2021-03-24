@@ -14,20 +14,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам с предварительными требованиями для облачной проверки подлинности.
-ms.openlocfilehash: 3e5a9ef1f610bf3dc6d23c9e584e179fb8ab9ca9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 537718eb0efcffc296162a4458158efcbdad9986
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905144"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051548"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Предварительные требования к удостоверениям и доступу к устройствам для облачного применения в тестовой среде Microsoft 365
 
 *Это руководство по тестовой лаборатории можно использовать только для Microsoft 365 для корпоративных тестовых сред.*
 
-[Конфигурации удостоверений](../security/office-365-security/microsoft-365-policies-configurations.md) и доступа к устройствам — это набор рекомендуемых конфигураций и политики условного доступа для защиты доступа ко всем службам, интегрированным с Azure Active Directory (Azure AD).
+[Конфигурации удостоверений](../security/defender-365-security/microsoft-365-policies-configurations.md) и доступа к устройствам — это набор рекомендуемых конфигураций и политики условного доступа для защиты доступа ко всем службам, интегрированным с Azure Active Directory (Azure AD).
 
-В этой статье описано, как настроить тестовую среду Microsoft 365, соответствующую требованиям [предварительной настройки облачной среды](../security/office-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам.
+В этой статье описано, как настроить тестовую среду Microsoft 365, соответствующую требованиям [предварительной настройки облачной среды](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам.
 
 Настройка этой тестовой среды состоит из восьми следующих этапов:
 
@@ -109,11 +109,11 @@ ms.locfileid: "50905144"
   Get-CsOAuthConfiguration
   ```
 
-Результатом является тестовая среда, которая соответствует [](../security/office-365-security/identity-access-prerequisites.md#prerequisites) требованиям конфигурации для удостоверений и доступа к устройствам только для облачной среды. 
+Результатом является тестовая среда, которая соответствует [](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) требованиям конфигурации для удостоверений и доступа к устройствам только для облачной среды. 
 
 ## <a name="next-step"></a>Следующее действие
 
-См. статью [Основные политики доступа для удостоверений и устройств](../security/office-365-security/identity-access-policies.md), чтобы настроить политики, созданные на основе предварительных требований, и защитить удостоверения и устройства.
+См. статью [Основные политики доступа для удостоверений и устройств](../security/defender-365-security/identity-access-policies.md), чтобы настроить политики, созданные на основе предварительных требований, и защитить удостоверения и устройства.
 
 ## <a name="see-also"></a>См. также
 

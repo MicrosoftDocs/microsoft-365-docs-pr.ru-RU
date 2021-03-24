@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Как добраться до ресурсов, эквивалентных отстающим центрам развертывания настольных компьютеров.
-ms.openlocfilehash: c4456d0f17e38920e77c855e31205e51025f111b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 54847305576cb5b2cf96177ad810c1b1ccb11eed
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928172"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051476"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>Центр развертывания настольных компьютеров (неподготовленный)
 
@@ -29,7 +29,7 @@ ms.locfileid: "50928172"
 - [Развертывание Windows 10](/windows/deployment/)
 - [Развертывание Приложений Microsoft 365](/deployoffice/deployment-guide-microsoft-365-apps)
 - [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
-- [Политики доступа для удостоверений и устройств](../security/office-365-security/microsoft-365-policies-configurations.md)
+- [Политики доступа для удостоверений и устройств](../security/defender-365-security/microsoft-365-policies-configurations.md)
 
 Вы также можете просмотреть видео серии развертывания настольных [компьютеров из Microsoft Mechanics.](https://www.aka.ms/watchhowtoshift)
 

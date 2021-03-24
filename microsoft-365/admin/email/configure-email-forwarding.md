@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Настройка отправки электронной почты на одну или несколько учетных записей электронной почты с помощью Office365.
-ms.openlocfilehash: 593a4d1ca906bdee44ec00e260949ff75b582340
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cdefab3df59f1c57abbc221943b58c978ff582a9
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915894"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050718"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Настройка отправки электронной почты в Microsoft 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "50915894"
 В качестве администратора организации у вас могут быть требования к компании, чтобы настроить пересылку электронной почты для почтового ящика пользователя. Переадресация позволяет пересылать сообщения, отправленные в почтовый ящик пользователя, в другой почтовый ящик в организации или за ее пределами.
 
 > [!IMPORTANT]
-> Вы можете использовать политики исходящие фильтры нежелательной почты для управления автоматической переадружаемой к внешним получателям. Дополнительные сведения см. в [веб-сайте Control automatic external email forwarding in Microsoft 365.](../../security/office-365-security/external-email-forwarding.md?preserve-view=true&view=o365-worldwide#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)
+> Вы можете использовать политики исходящие фильтры нежелательной почты для управления автоматической переадружаемой к внешним получателям. Дополнительные сведения см. в [веб-сайте Control automatic external email forwarding in Microsoft 365.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/external-email-forwarding?view=o365-worldwide&preserve-view=true#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)
 
 ## <a name="configure-email-forwarding"></a>Настройка переадресации электронной почты
 

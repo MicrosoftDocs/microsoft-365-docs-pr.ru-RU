@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует службу "удостоверение как услуга" (IDaaS) и предоставляет облачную проверку подлинности для сотрудников, а также федеративную проверку подлинности для партнеров и клиентов.
-ms.openlocfilehash: accd60f6699e7ebf04963213128d1ca1ffc8f7fe
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f3c8746345683652ce601400ae7297e96fff2ee3
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911076"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051524"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Удостоверение для корпорации Contoso
 
@@ -64,7 +64,7 @@ PhS синхронизирует лес AD DS на локальной основ
  
 ## <a name="conditional-access-policies-for-identity-and-device-access"></a>Политики условного доступа для доступа к удостоверению и устройству
 
-В Contoso создан набор [политик условного доступа](../security/office-365-security/identity-access-policies.md) Azure AD и Intune для трех уровней защиты:
+В Contoso создан набор [политик условного доступа](../security/defender-365-security/identity-access-policies.md) Azure AD и Intune для трех уровней защиты:
 
 - *Базовые* защиты применяются для всех учетных записей пользователей.
 - *Конфиденциальные* меры защиты применяются к старшему руководству и исполнительному персоналу.

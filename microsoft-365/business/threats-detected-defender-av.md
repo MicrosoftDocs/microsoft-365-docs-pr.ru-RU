@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Узнайте, как антивирус Microsoft Defender защищает устройства Windows от угроз программного обеспечения, таких как вирусы, вредоносные программы и программы-шпионы.
-ms.openlocfilehash: ce88e4f7b1caf3a98ebd6dc56d66f0d0fc99a9ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5fe55817018eeae49e6e41c95d93006b6f05ece0
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912434"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052222"
 ---
 # <a name="threats-detected-by-microsoft-defender-antivirus"></a>Угрозы, обнаруженные антивирусной программой в Microsoft Defender
 
@@ -89,4 +89,4 @@ ms.locfileid: "50912434"
 [Как включить и использовать антивирус Microsoft Defender из приложения Безопасности Windows](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus) (статья)\
 [Как включить антивирус Microsoft Defender с помощью групповой политики](/mem/intune/user-help/turn-on-defender-windows#turn-on-windows-defender) (статья)\
 [Обновление определений антивирусов](/mem/intune/user-help/turn-on-defender-windows#update-your-antivirus-definitions) (статья)\
-[Отправка вредоносных программ и не вредоносных программ в Корпорацию Майкрософт для анализа](../security/office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md) (статья)
+[Отправка вредоносных программ и не вредоносных программ в Корпорацию Майкрософт для анализа](/microsoft-365/security/defender-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis) (статья)

@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Описывает, как назначать лицензии Microsoft 365 учетным записям пользователей по отдельности или на основе членства в группе.
-ms.openlocfilehash: 6bba3cd767787f450840c5cae6c30f2be21bed1b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2fe1e2f959fae8b0bc82a7dcd4f65f33b21c368a
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905444"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051536"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts"></a>Назначение лицензий Microsoft 365 учетным записям пользователей
 
@@ -67,7 +67,7 @@ ms.locfileid: "50905444"
 
 С соответствующим набором учетных записей пользователей, которые были назначены лицензии, теперь вы готовы к:
 
-- [Реализация безопасности](../security/office-365-security/security-roadmap.md)
+- [Реализация безопасности](../security/defender-365-security/security-roadmap.md)
 - [Развертывание клиентского программного обеспечения, например Приложений Microsoft 365](/DeployOffice/deployment-guide-microsoft-365-apps)
 - [Настройка управления устройствами](device-management-roadmap-microsoft-365.md)
 - [Настройка служб и приложений](configure-services-and-applications.md)

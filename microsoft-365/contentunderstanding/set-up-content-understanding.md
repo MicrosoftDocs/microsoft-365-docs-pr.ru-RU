@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Настройка понимания содержимого в Project Cortex
-ms.openlocfilehash: db6340e8bf4dc23163b67e749f60567f7841a943
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cc6fbfbfc130cc6e64b5d7c30e0a9db5f39036ac
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911190"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051571"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
@@ -52,6 +52,14 @@ ms.locfileid: "50911190"
 - Общая служба данных для SharePoint Syntex
 
 Если вы отмените подписку на SharePoint Syntex в будущем (или истечет срок действия пробной подписки), пользователи не смогут создавать и запускать модели осмысления документации или обработки форм, а шаблон центра контента станет недоступным. Кроме того, станут недоступны отчеты банка терминов, импорт таксономии SKOS и передача типа контента. Содержимое не удаляются, а разрешения сайта не изменяются.
+
+### <a name="ai-builder-credits"></a>Титры AI Builder
+
+Если у вас есть 300 или более лицензий SharePoint Syntex в вашей организации, вам будет выделен миллион титров AI Builder. Если у вас менее 300 лицензий, необходимо купить титры AI Builder, чтобы использовать обработку форм.
+
+Вы можете оценить мощность AI Builder, которая подходит именно вам, с помощью [калькулятора AI Builder](https://powerapps.microsoft.com/ai-builder-calculator).
+
+Чтобы проверить титры и использование, перейдите в [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com/resources/capacity).
 
 ## <a name="to-set-up-sharepoint-syntex"></a>Чтобы настроить SharePoint Syntex, выполните следующие действия:
 
@@ -112,14 +120,6 @@ ms.locfileid: "50911190"
     > ![Лицензии SharePoint Syntex в Центре администрирования Microsoft 365](../media/content-understanding/sharepoint-syntex-licenses.png)
 
 5. Нажмите кнопку **Сохранить изменения**.
-
-## <a name="ai-builder-credits"></a>Титры AI Builder
-
-Если у вас есть 300 или более лицензий SharePoint Syntex в вашей организации, вам будет выделен миллион титров AI Builder. Если у вас менее 300 лицензий, необходимо купить титры AI Builder, чтобы использовать обработку форм.
-
-Вы можете оценить мощность AI Builder, которая подходит именно вам, с помощью [калькулятора AI Builder](https://powerapps.microsoft.com/ai-builder-calculator).
-
-Чтобы проверить титры и использование, перейдите в [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com/resources/capacity).
 
 ## <a name="see-also"></a>См. также
 

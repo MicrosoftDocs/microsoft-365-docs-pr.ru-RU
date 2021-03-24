@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Администраторы Exchange online управляют электронной почтой и почтовыми ящиками организации. Например, они восстанавливают удаленные элементы в почтовом ящике пользователя. '
-ms.openlocfilehash: 4db7b55f6bb5bb75149a3b91bd7855565ca1be46
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5b63f2b0a58fdce75e5d70e329b8a0d02fb94a1a
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906352"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050974"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Роль администратора Exchange Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "50906352"
   
  **Совет.** При назначении кого-либо роли администратора Exchange также назначьте их роли администратора службы. Таким образом они могут видеть важные сведения в центре администрирования Microsoft 365, такие как состояние службы Exchange Online, а также уведомления об изменении и выпуске.
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 Ниже описаны некоторые основные задачи, которые пользователи могут выполнять, если им назначена роль администратора Exchange.
   
@@ -48,7 +48,7 @@ ms.locfileid: "50906352"
 
 - [Создайте общий почтовый ящик,](../email/create-a-shared-mailbox.md) чтобы группа людей могли отслеживать и отправлять сообщения электронной почты с общего адреса электронной почты.
 
-- [Защита от нежелательной почты и](../../security/office-365-security/anti-spam-protection.md) фильтры вредоносных программ для организации.
+- [Защита от нежелательной почты и](https://docs.microsoft.com/microsoft-365/security/defender-365-security/anti-spam-protection) фильтры вредоносных программ для организации.
 
 - Управление группами Microsoft 365
 

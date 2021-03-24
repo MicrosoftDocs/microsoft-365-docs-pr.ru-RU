@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: Узнайте, как реализовать ExpressRoute для Office 365, который предоставляет альтернативный маршрут для многих служб Office 365, стоящих перед Интернетом.
-ms.openlocfilehash: d0f0b5156aae5a3e2c38f51ba0b74738918593e9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d75fe3a6dab4926babeef61fc14894566ff819b0
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909836"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051370"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>Реализация средства ExpressRoute для Office 365
 
@@ -191,7 +191,7 @@ ExpressRoute для Office 365 предоставляет альтернатив
 
 |**Запланированные места встречи ExpressRoute в Калифорнии и Нью-Йорке**||
 |:-----|:-----|
-|Местонахождение  <br/> |Количество людей  <br/> |Ожидаемая задержка в сети Майкрософт через egress Интернета  <br/> |Ожидаемая задержка в сети Майкрософт через ExpressRoute  <br/> |
+|Расположение  <br/> |Количество людей  <br/> |Ожидаемая задержка в сети Майкрософт через egress Интернета  <br/> |Ожидаемая задержка в сети Майкрософт через ExpressRoute  <br/> |
 |Лос-Анджелес  <br/> |10 000  <br/> |~15ms  <br/> |~10ms (через Силиконовую долину)  <br/> |
 |Вашингтон, округ Колумбия  <br/> |15,000  <br/> |~20ms  <br/> |~10ms (через Нью-Йорк)  <br/> |
 |Даллас  <br/> |5,000  <br/> |~15ms  <br/> |~40ms (через Нью-Йорк)  <br/> |
@@ -225,7 +225,7 @@ ExpressRoute для Office 365 предоставляет альтернатив
 
 - Определите, как далеко будут рекламироваться маршруты ExpressRoute в вашей сети и каков механизм выбора пути Internet или ExpressRoute клиентами; например, прямая маршрутивка или прокси-сервер приложения.
 
-- Планирование изменений записи DNS, в том числе [записей в рамках](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md) политики отправитель.
+- Планирование изменений записи DNS, в том числе [записей в рамках](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md) политики отправитель.
 
 - Планирование стратегии NAT, включая исходящие и входящие исходные NAT.
 

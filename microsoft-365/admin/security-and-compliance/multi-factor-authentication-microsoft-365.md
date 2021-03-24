@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сведения о многофакторной проверке подлинности в Microsoft 365
-ms.openlocfilehash: e1635e48e3948425a6d91f80fd07d50c474b73d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 080251efa7d7d3bda6ad89e95960e43dd38d076d
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914514"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050670"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Многофакторная проверка подлинности в Microsoft 365
 
@@ -127,7 +127,7 @@ ms.locfileid: "50914514"
 
 ### <a name="azure-ad-identity-protection"></a>Защита идентификации Azure AD
 
-Защита идентификации Azure AD позволяет создать дополнительную политику условного доступа [Необходимость MFA в случае среднего или высокого риска при входе](../../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)
+Защита идентификации Azure AD позволяет создать дополнительную политику условного доступа [Необходимость MFA в случае среднего или высокого риска при входе](../../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)
 
 Защиту идентификации Azure AD и политики условного доступа на основе риска можно использовать с:
 

@@ -20,12 +20,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как проверить свой домен и создать записи DNS в Microsoft 365.
 ms.custom:
 - AdminSurgePortfolio
-ms.openlocfilehash: 506ee887edbc59956aee11059a7085bc4b22624e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 95b1caadfe0e5b331b2bd777263bd86a88bb581f
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914598"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050658"
 ---
 # <a name="connect-your-domain-to-microsoft-365"></a>Подключение домена к Microsoft 365
 
@@ -76,6 +76,6 @@ ms.locfileid: "50914598"
 
 Инфраструктура политики отправителей (SPF) призвана предотвратить спуфинг, но существуют некоторые методики, позволяющие обойти ее. Чтобы защититься от таких атак, по завершении настройки SPF необходимо настроить DKIM и DMARC для Microsoft 365.
 
-Чтобы начать, см. статьи [Проверка исходящей электронной почты, отправляемой со своего домена в Microsoft 365, с помощью DKIM](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) и [Использование DMARC для проверки электронной почты в Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
+Чтобы начать, см. статьи [Проверка исходящей электронной почты, отправляемой со своего домена в Microsoft 365, с помощью DKIM](../../security/defender-365-security/use-dkim-to-validate-outbound-email.md) и [Использование DMARC для проверки электронной почты в Microsoft 365](../../security/defender-365-security/use-dmarc-to-validate-email.md).
 
 Затем вернитесь в мастер настройки домена центра администрирования, чтобы завершить настройку.

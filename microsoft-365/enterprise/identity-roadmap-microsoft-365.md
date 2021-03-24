@@ -15,35 +15,35 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 ms.custom: ''
-description: План идентификации для Microsoft 365.
-ms.openlocfilehash: c79b7babbfbd97a13979de1ed23052ac572d9ded
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Дорожная карта удостоверения для Microsoft 365.
+ms.openlocfilehash: 456841bfc15d143409535140f2b5a63ee72e99d2
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446291"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051310"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Стратегия удостоверений для Microsoft 365
 
-В Microsoft 365 для предприятий хорошо спланированная и выполняемая инфраструктура удостоверений позволяет повысить безопасность, в том числе ограничить доступ к рабочим нагрузкам и их данным только пользователям и устройствам, для которых выполнена проверка подлинности.
+В Microsoft 365 для предприятия хорошо спланированная и выполненная инфраструктура удостоверений позволяет повысить безопасность, в том числе ограничить доступ к рабочим нагрузкам по производительности и их данным только пользователям и устройствам с проверкой подлинности.
 
-Обзор моделей удостоверений и проверки подлинности для Microsoft 365 для предприятий можно посмотреть в этом видео.
+Обзор моделей удостоверений и проверки подлинности для Microsoft 365 для предприятия смотрите в этом видео.
 
 <p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
-Сведения о компонентах удостоверений каждого плана Microsoft 365 для предприятий, роли Azure Active Directory, как локальном, так и облачном компонентах, а также наиболее распространенных конфигурациях проверки подлинности см. на плакате "Инфраструктура [удостоверений".](../downloads/m365e-identity-infra.pdf)
+Сведения об особенностях удостоверений каждого Microsoft 365 для корпоративного плана см. в плакате Инфраструктура удостоверений [Azure](../downloads/m365e-identity-infra.pdf)Active Directory, как локального, так и облачного компонентов, а также наиболее распространенных конфигураций проверки подлинности.
 
 [![Плакат инфраструктуры удостоверений](../downloads/m365e-identity-infra.png)](../downloads/m365e-identity-infra.pdf)
 
-Просмотрите этот двухшаговой плакат, чтобы быстро получить представление о концепциях и конфигурациях удостоверений для Microsoft 365 для предприятий.
+Просмотрите этот двух-страничный плакат, чтобы быстро нарастить количество концепций и конфигураций удостоверений для Microsoft 365 для предприятия.
 
-Вы также можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) и распечатать его в формате букв, юридических или таблоидов (11 x 17).
+Вы также можете [скачать этот](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) плакат и распечатать его в формате букв, юридических или таблоидов (11 x 17).
 
 ## <a name="plan"></a>План
 
-Чтобы спланировать реализацию удостоверений, спланируйте:
+Планирование реализации удостоверений:
 
 - [Понимание различных моделей удостоверений](about-microsoft-365-identity.md)
 - [Планирование гибридной синхронизации удостоверений и каталогов](plan-for-directory-synchronization.md)
@@ -53,17 +53,17 @@ ms.locfileid: "48446291"
 Развертывание реализации удостоверений:
 
 - [Защита учетных записей глобальных администраторов](protect-your-global-administrator-accounts.md)
-- [Настройка и использование облачных удостоверений](cloud-only-identities.md)
+- [Настройка и использование идентификаторов только для облака](cloud-only-identities.md)
 - [Настройка и использование гибридных удостоверений](prepare-for-directory-synchronization.md)
 - [Настройка синхронизации каталогов](set-up-directory-synchronization.md)
 - При необходимости развертывание [сценариев гибридной идентификации](hybrid-solutions.md)
 
 ### <a name="identity-and-device-access-recommendations"></a>Рекомендации по доступу для удостоверений и устройств
 
-Чтобы обеспечить безопасную и продуктивную работу сотрудников, Корпорация Майкрософт предоставляет набор рекомендаций по удостоверениям и [доступу к устройствам.](../security/office-365-security/microsoft-365-policies-configurations.md) Для идентификации используйте рекомендации и параметры, указанные в этих статьях:
+Чтобы обеспечить безопасную и продуктивную рабочую силу, Корпорация Майкрософт предоставляет набор рекомендаций для доступа к [удостоверениям и устройствам.](../security/defender-365-security/microsoft-365-policies-configurations.md) Для удостоверения используйте рекомендации и параметры в этих статьях:
 
-- [Необходимые компоненты](../security/office-365-security/identity-access-prerequisites.md)
-- [Основные политики доступа для удостоверений и устройств](../security/office-365-security/identity-access-policies.md)
+- [Необходимые компоненты](../security/defender-365-security/identity-access-prerequisites.md)
+- [Основные политики доступа для удостоверений и устройств](../security/defender-365-security/identity-access-policies.md)
 
 ## <a name="manage"></a>Управление
 
@@ -76,18 +76,18 @@ ms.locfileid: "48446291"
 - [Управление](manage-microsoft-365-identity-governance.md)
 - [Синхронизация каталогов](view-directory-synchronization-status.md)
 
-## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Как майкрософт делает удостоверение для Microsoft 365
+## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Как Microsoft делает удостоверение для Microsoft 365
 
 Узнайте, как ИТ-специалисты в корпорации Майкрософт [управляют удостоверениями и обеспечивают безопасный доступ](https://www.microsoft.com/en-us/itshowcase/managing-user-identities-and-secure-access-at-microsoft).
 
 >[!Note]
->Этот ресурс "Демонстрация ИТ-ресурсов" доступен только на английском языке.
+>Этот ресурс ИТ-витрины доступен только на английском языке.
 >
 
-## <a name="how-contoso-did-identity-for-microsoft-365"></a>Как специалисты компании Contoso сделали удостоверение для Microsoft 365
+## <a name="how-contoso-did-identity-for-microsoft-365"></a>Как Contoso сделал удостоверение для Microsoft 365
 
-Пример того, как вымышленная, но представительная транснациональная организация развернула гибридную инфраструктуру удостоверений для облачных служб Microsoft 365, см. в примере identity для корпорации [Contoso.](contoso-identity.md)
+Пример того, как вымышленная, но представительная многонациональная организация развернула гибридную инфраструктуру удостоверений для облачных служб Microsoft 365, см. в книге [Identity for the Contoso Corporation.](contoso-identity.md)
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
-Начните планирование удостоверений с помощью [моделей удостоверений.](about-microsoft-365-identity.md)
+Начните планирование удостоверений с [помощью моделей удостоверений.](about-microsoft-365-identity.md)
