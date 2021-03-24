@@ -1,0 +1,104 @@
+---
+title: Настройка ATP Защитника Майкрософт для функций iOS
+description: Описание развертывания ATP Защитника Майкрософт для функций iOS
+keywords: Microsoft, defender, atp, ios, configure, features, ios
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection:
+- m365-security-compliance
+- m365initiative-defender-endpoint
+ms.topic: conceptual
+ms.technology: mde
+ms.openlocfilehash: 8b9f4372321bfa17ce5c11081ca274a3360e18dd
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51072317"
+---
+# <a name="configure-microsoft-defender-for-endpoint-for-ios-features"></a>Настройка Microsoft Defender для конечной точки для функций iOS
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**Область применения:**
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+
+> [!NOTE]
+> Защитник для конечной точки для iOS будет использовать VPN для предоставления функции веб-защиты. Это не обычный VPN и локальный или самоциклинг VPN, который не принимает трафик за пределами устройства.
+
+## <a name="conditional-access-with-defender-for-endpoint-for-ios"></a>Условный доступ с защитником для конечной точки для iOS  
+Microsoft Defender для конечной точки для iOS наряду с Microsoft Intune и Azure Active Directory позволяет применять политики соответствия требованиям устройств и условного доступа на основе уровней риска устройств. Defender for Endpoint — это решение mobile Threat Defense (MTD), которое можно развернуть для использования этой возможности с помощью Intune.
+
+Дополнительные сведения о том, как настроить условный доступ с Помощью Защитника для конечной точки для iOS, см. в дополнительных сведениях [Defender for Endpoint и Intune.](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)
+
+## <a name="web-protection-and-vpn"></a>Веб-защита и VPN
+
+По умолчанию Защитник для конечной точки для iOS включает и включает функцию веб-защиты. [Веб-защита](web-protection-overview.md) помогает защитить устройства от веб-угроз и защитить пользователей от фишинговых атак. Защитник для конечной точки для iOS использует VPN, чтобы обеспечить эту защиту. Обратите внимание, что это локальный VPN, и в отличие от традиционного VPN сетевой трафик не отправляется за пределы устройства.
+
+Хотя по умолчанию включена, могут быть некоторые случаи, которые требуют отключения VPN. Например, необходимо запустить некоторые приложения, которые не работают при настройке VPN. В таких случаях можно отключить VPN из приложения на устройстве, следуя следующим ниже шагам:
+
+1. На устройстве iOS откройте приложение **Параметры,** щелкните или нажмите **кнопку General,** а затем **VPN.**
+1. Щелкните или нажмите кнопку "i" для ATP Защитника Майкрософт.
+1. Отключение **подключения по требованию для** отключения VPN.
+
+    > [!div class="mx-imgBorder"]
+    > ![Подключение vpn config по запросу](images/ios-vpn-config.png)
+
+> [!NOTE]
+> Веб-защита не будет доступна при отключении VPN. Чтобы повторно включить веб-защиту, откройте приложение Microsoft Defender для конечной точки на устройстве и нажмите кнопку Начните **VPN.**
+
+## <a name="co-existence-of-multiple-vpn-profiles"></a>Совместное существование нескольких профилей VPN
+
+Apple iOS не поддерживает одновременное активное участие нескольких VPN в масштабе устройств. Хотя на устройстве может существовать несколько профилей VPN, одновременно может быть активен только один VPN.
+
+
+## <a name="configure-compliance-policy-against-jailbroken-devices"></a>Настройка политики соответствия требованиям для устройств, сбитых с джейлбрейка
+
+Чтобы защитить корпоративные данные от доступа на устройствах с iOS, которые могут быть защищены от сбоя, рекомендуется настроить следующую политику соответствия требованиям в Intune.
+
+> [!NOTE]
+> В настоящее время Microsoft Defender для конечной точки для iOS не обеспечивает защиту от сценариев побега из тюрьмы. Если используется на устройстве с побегом из тюрьмы, то в определенных сценариях данные, используемые приложением, например корпоративный id электронной почты и корпоративная фотография профиля (при наличии) могут быть выставлены локально.
+
+Следуйте ниже шагам, чтобы создать политику соответствия требованиям в отношении устройств jailbroken.
+
+1. В [центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)перейдите к политикам **соответствия** требованиям устройств  ->    ->  **Create Policy**. Выберите "iOS/iPadOS" в качестве платформы и нажмите **кнопку Создать**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Создание политики](images/ios-jb-policy.png)
+
+2. Укажите имя политики, например "Политика соответствия требованиям для джейлбрейка".
+3. На странице параметры соответствия щелкните, чтобы расширить раздел **"Здоровье** устройств" и нажмите **кнопку Блок** для **устройств Jailbroken.**
+
+    > [!div class="mx-imgBorder"]
+    > ![Параметры политики](images/ios-jb-settings.png)
+
+4. В разделе *Действие за несоблюдение* выберите действия в соответствии с вашими требованиями и выберите **Далее**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Действия политики](images/ios-jb-actions.png)
+
+5. В разделе *Назначения выберите* группы пользователей, которые необходимо включить для этой политики, а затем выберите **Далее**.
+6. В разделе **Обзор+Создание** убедитесь, что вся введенная информация является правильной, а затем выберите **Создать**.
+
+## <a name="configure-custom-indicators"></a>Настройка настраиваемых индикаторов
+
+Defender for Endpoint для iOS позволяет администраторам настраивать настраиваемые индикаторы и на устройствах iOS. Дополнительные сведения о настройке настраиваемых индикаторов см. в см. [в руб. Управление индикаторами.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators)
+
+> [!NOTE]
+> Defender for Endpoint для iOS поддерживает создание настраиваемой индикаторов только для IP-адресов и URL-адресов/доменов.
+
+## <a name="report-unsafe-site"></a>Сообщить о небезопасном сайте
+
+Фишинговые веб-сайты выдают себя за надежные веб-сайты с целью получения личной или финансовой информации. Если вы хотите сообщить о веб-сайте, который может быть фишинг-сайтом, посетите страницу Provide feedback about [network](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) protection page.

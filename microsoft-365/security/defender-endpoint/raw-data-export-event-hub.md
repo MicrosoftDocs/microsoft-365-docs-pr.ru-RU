@@ -1,0 +1,110 @@
+---
+title: Поток событий Microsoft Defender для конечных точек в концентраторы событий Azure
+description: Узнайте, как настроить ATP Защитника Майкрософт для потоковой передачи событий предварительной охоты в центр событий.
+keywords: экспорт необработанных данных, потоковый API, API, концентраторы событий Azure, хранилище Azure, учетная запись хранилища, расширенный доступ к данным, обмен необработанные данные
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.technology: mde
+ms.openlocfilehash: 231ba79e1d66eee263b6c1a4335f0a7b54eeb75d
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51071909"
+---
+# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Настройка Microsoft Defender для конечной точки для потоковой передачи событий предварительной охоты в центры событий Azure
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+
+**Область применения:**
+
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
+
+> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+
+## <a name="before-you-begin"></a>Подготовка:
+
+1. Создайте [центр событий в](https://docs.microsoft.com/azure/event-hubs/) клиенте.
+
+2. Войдите в клиент [Azure,](https://ms.portal.azure.com/)перейдите в **Subscriptions > подписку > поставщиков ресурсов > в **Microsoft.insights.**
+
+## <a name="enable-raw-data-streaming"></a>Включить потоковую передачу необработанных данных:
+
+1. Войдите в [Центр безопасности Защитника Майкрософт](https://securitycenter.windows.com) в качестве ***Глобального** администратора _ или _*_Администратора_ безопасности **.
+
+2. Перейдите на [страницу Параметры экспорта данных](https://securitycenter.windows.com/interoperability/dataexport) в Центре безопасности Защитника Майкрософт.
+
+3. Нажмите **кнопку Добавить параметры экспорта данных.**
+
+4. Выберите имя для новых параметров.
+
+5. Выберите **перенаступив события в концентраторы событий Azure.**
+
+6. Введите **имя концентраторов событий** и свой **ИД ресурса Event Hubs.**
+
+   Чтобы получить ИД ресурса **Event Hubs,** перейдите на страницу пространства имен Azure Event Hubs на вкладке Свойства [Azure](https://ms.portal.azure.com/) > > скопируйте текст в статье **Resource ID:**
+
+   ![Изображение ресурса центра событий Id1](images/event-hub-resource-id.png)
+
+7. Выберите события, которые необходимо транслировать, и нажмите кнопку **Сохранить**.
+
+## <a name="the-schema-of-the-events-in-azure-event-hubs"></a>Схема событий в центрах событий Azure:
+
+```
+{
+    "records": [
+                    {
+                        "time": "<The time WDATP received the event>"
+                        "tenantId": "<The Id of the tenant that the event belongs to>"
+                        "category": "<The Advanced Hunting table name with 'AdvancedHunting-' prefix>"
+                        "properties": { <WDATP Advanced Hunting event as Json> }
+                    }
+                    ...
+                ]
+}
+```
+
+- Каждое сообщение концентратора событий в центрах событий Azure содержит список записей.
+
+- Каждая запись содержит имя события, время получения события Microsoft Defender для конечной точки, его место клиента (вы получите события только от клиента) и событие в формате JSON в свойстве под названием **"свойства".**
+
+- Дополнительные сведения о схеме событий Microsoft Defender для конечных точек см. в [обзоре Advanced Hunting.](advanced-hunting-overview.md)
+
+- В таблице Advanced Hunting **в таблице DeviceInfo** имеется столбец **MachineGroup,** содержащий группу устройства. Здесь каждое событие также будет украшено этим столбцом. Дополнительные [сведения см.](machine-groups.md) в группе устройств.
+
+## <a name="data-types-mapping"></a>Сопоставление типов данных:
+
+Чтобы получить типы данных для свойств событий, сделайте следующее:
+
+1. Войдите в [Центр безопасности Защитника Майкрософт](https://securitycenter.windows.com) и перейдите на [страницу Расширенный поиск](https://securitycenter.windows.com/hunting-package).
+
+2. Запустите следующий запрос, чтобы получить сопоставление типов данных для каждого события:
+ 
+   ```
+   {EventType}
+   | getschema
+   | project ColumnName, ColumnType 
+   ```
+
+- Вот пример события "Информация о устройстве": 
+
+  ![Изображение Id2 ресурса концентратора событий](images/machine-info-datatype-example.png)
+
+## <a name="related-topics"></a>Статьи по теме
+- [Обзор расширенных охоты](advanced-hunting-overview.md)
+- [Microsoft Defender для API потоковой передачи конечных точек](raw-data-export.md)
+- [Поток событий Microsoft Defender для событий конечной точки в учетную запись хранилища Azure](raw-data-export-storage.md)
+- [Документация по центрам событий Azure](https://docs.microsoft.com/azure/event-hubs/)
+- [Устранение неполадок с подключением — концентраторы событий Azure](https://docs.microsoft.com/azure/event-hubs/troubleshooting-guide)

@@ -1,0 +1,281 @@
+---
+title: Развертывание ATP Защитника Майкрософт для Linux с помощью Ansible
+ms.reviewer: ''
+description: Описывает, как развернуть ATP Microsoft Defender для Linux с помощью Ansible.
+keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: dansimp
+author: dansimp
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection:
+- m365-security-compliance
+- m365initiative-defender-endpoint
+ms.topic: conceptual
+ms.technology: mde
+ms.openlocfilehash: 994adcd718f2318a0bd90e2d8604e6f19b2a42c5
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51072286"
+---
+# <a name="deploy-microsoft-defender-for-endpoint-for-linux-with-ansible"></a>Развертывание Microsoft Defender для конечной точки для Linux с помощью Ansible
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+
+**Область применения:**
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+
+В этой статье описывается развертывание Defender для конечной точки для Linux с помощью Ansible. Успешное развертывание требует выполнения всех следующих задач:
+
+- [Скачайте пакет onboarding](#download-the-onboarding-package)
+- [Создание файлов YaML ansible](#create-ansible-yaml-files)
+- [Развертывание](#deployment)
+- [References](#references)
+
+## <a name="prerequisites-and-system-requirements"></a>Необходимые условия и требования к системе
+
+Перед началом работы см. на главной странице [Defender for Endpoint для Linux](microsoft-defender-endpoint-linux.md) описание необходимых условий и системных требований к текущей версии программного обеспечения.
+
+Кроме того, для развертывания Ansible необходимо ознакомиться с задачами администрирования Ansible, настроить ansible и уметь развертывать книги и задачи. Ansible имеет множество способов выполнения одной и той же задачи. Эти инструкции предполагают доступность поддерживаемых модулей Ansible, таких как *apt* и *unarchive* для развертывания пакета. Ваша организация может использовать другой рабочий процесс. Дополнительные сведения можно найти в [документации Ansible.](https://docs.ansible.com/)
+
+- Ansible необходимо установить по крайней мере на одном компьютере (мы назовем его основным компьютером).
+- SSH необходимо настроить для учетной записи администратора между основным компьютером и всеми клиентами, и рекомендуется настроить ее с помощью проверки подлинности общедоступных ключей.
+- Для всех клиентов необходимо установить следующее программное обеспечение:
+  - curl
+  - python-apt
+
+- Все хосты должны быть перечислены в следующем формате в `/etc/ansible/hosts` соответствующем файле:
+
+    ```bash
+    [servers]
+    host1 ansible_ssh_host=10.171.134.39
+    host2 ansible_ssh_host=51.143.50.51
+    ```
+
+- Тест Ping:
+
+    ```bash
+    ansible -m ping all
+    ```
+
+## <a name="download-the-onboarding-package"></a>Скачайте пакет onboarding
+
+Скачайте бортовой пакет из Центра безопасности Защитника Майкрософт:
+
+1. В Центре безопасности Защитника Майкрософт перейдите в **параметры > управления устройствами > onboarding.**
+2. В первом выпадаемом меню выберите **Linux Server** в качестве операционной системы. Во втором выпадаемом меню выберите предпочтительный инструмент управления конфигурацией **Linux** в качестве метода развертывания.
+3. Выберите **пакет загрузки.** Сохраните файл как WindowsDefenderATPOnboardingPackage.zip.
+
+    ![Снимок экрана Центра безопасности Защитника Майкрософт](images/atp-portal-onboarding-linux-2.png)
+
+4. С командной подсказки убедитесь, что у вас есть файл. Извлечение содержимого архива:
+
+    ```bash
+    ls -l
+    ```
+    ```Output
+    total 8
+    -rw-r--r-- 1 test  staff  4984 Feb 18 11:22 WindowsDefenderATPOnboardingPackage.zip
+    ```
+    ```bash
+    unzip WindowsDefenderATPOnboardingPackage.zip
+    ```
+    ```Output
+    Archive:  WindowsDefenderATPOnboardingPackage.zip
+    inflating: mdatp_onboard.json
+    ```
+
+## <a name="create-ansible-yaml-files"></a>Создание файлов YaML ansible
+
+Создайте подзадачу или файлы ролей, которые вносят вклад в книгу или задачу.
+
+- Создайте задачу на `onboarding_setup.yml` борту:
+
+    ```bash
+    - name: Create MDATP directories
+      file:
+        path: /etc/opt/microsoft/mdatp/
+        recurse: true
+        state: directory
+        mode: 0755
+        owner: root
+        group: root
+
+    - name: Register mdatp_onboard.json
+      stat:
+        path: /etc/opt/microsoft/mdatp/mdatp_onboard.json
+      register: mdatp_onboard
+
+    - name: Extract WindowsDefenderATPOnboardingPackage.zip into /etc/opt/microsoft/mdatp
+      unarchive:
+        src: WindowsDefenderATPOnboardingPackage.zip
+        dest: /etc/opt/microsoft/mdatp
+        mode: 0600
+        owner: root
+        group: root
+      when: not mdatp_onboard.stat.exists
+    ```
+
+- Добавьте репозиторий Defender для конечной точки и ключ.
+
+    Защитник для конечной точки для Linux можно развернуть с одного из следующих каналов (обозначается ниже как *[канал]):* *инсайдеры-быстрые,* инсайдеры-медленные или *prod*.  Каждый из этих каналов соответствует репозиторию программного обеспечения Linux.
+
+    Выбор канала определяет тип и частоту обновлений, предлагаемых вашему устройству. Устройства в *инсайдерской* быстрой являются первыми, которые получают обновления и новые функции, а затем инсайдеры *медленно* и, *наконец, prod*.
+
+    Для предварительного просмотра новых функций и обеспечения ранней обратной связи рекомендуется настроить  некоторые устройства в вашем предприятии, чтобы использовать как инсайдеры-быстрые, так и *инсайдеры-медленные*.
+
+    > [!WARNING]
+    > Переключение канала после начальной установки требует повторной установки продукта. Чтобы переключить канал продукта: удалить существующий пакет, перенастройте устройство для использования нового канала и выполните действия в этом документе, чтобы установить пакет из нового расположения.
+
+    Обратите внимание на рассылку и версию и определите ближайшую запись для нее в `https://packages.microsoft.com/config/` статье .
+
+    В следующих командах *замените [distro]* *и [версию]* данными, которые вы идентифицировали.
+
+    > [!NOTE]
+    > В случае Oracle Linux *замените [дистрибутив]* на "rhel".
+
+  ```bash
+  - name: Add Microsoft APT key
+    apt_key:
+      keyserver: https://packages.microsoft.com/
+      id: BC528686B50D79E339D3721CEB3E94ADBE1229CF
+    when: ansible_os_family == "Debian"
+
+  - name: Add Microsoft apt repository for MDATP
+    apt_repository:
+      repo: deb [arch=arm64,armhf,amd64] https://packages.microsoft.com/[distro]/[version]/prod [channel] main
+      update_cache: yes
+      state: present
+      filename: microsoft-[channel].list
+    when: ansible_os_family == "Debian"
+
+  - name: Add Microsoft DNF/YUM key
+    rpm_key:
+      state: present
+      key: https://packages.microsoft.com/keys/microsoft.asc
+    when: ansible_os_family == "RedHat"
+
+  - name: Add  Microsoft yum repository for MDATP
+    yum_repository:
+      name: packages-microsoft-com-prod-[channel]
+      description: Microsoft Defender for Endpoint
+      file: microsoft-[channel]
+      baseurl: https://packages.microsoft.com/[distro]/[version]/[channel]/
+      gpgcheck: yes
+      enabled: Yes
+  when: ansible_os_family == "RedHat"
+  ```
+
+- Создание установок Ansible и удалить файлы YAML.
+
+    - Для apt-дистрибутивов используйте следующий файл YAML:
+
+        ```bash
+        cat install_mdatp.yml
+        ```
+        ```Output
+        - hosts: servers
+          tasks:
+            - include: ../roles/onboarding_setup.yml
+            - include: ../roles/add_apt_repo.yml
+            - apt:
+                name: mdatp
+                state: latest
+                update_cache: yes
+        ```
+
+        ```bash
+        cat uninstall_mdatp.yml
+        ```
+        ```Output
+        - hosts: servers
+        tasks:
+            - apt:
+                name: mdatp
+                state: absent
+        ```
+
+    - Для дистрибутивов на основе yum используйте следующий файл YAML:
+
+        ```bash
+        cat install_mdatp_yum.yml
+        ```
+        ```Output
+        - hosts: servers
+          tasks:
+            - include: ../roles/onboarding_setup.yml
+            - include: ../roles/add_yum_repo.yml
+            - yum:
+              name: mdatp
+              state: latest
+              enablerepo: packages-microsoft-com-prod-[channel]
+        ```
+
+        ```bash
+        cat uninstall_mdatp_yum.yml
+        ```
+        ```Output
+        - hosts: servers
+        tasks:
+            - yum:
+               name: mdatp
+                state: absent
+        ```
+
+## <a name="deployment"></a>Развертывание
+
+Теперь запустите файлы задач в `/etc/ansible/playbooks/` соответствующем каталоге.
+
+- Установка:
+
+    ```bash
+    ansible-playbook /etc/ansible/playbooks/install_mdatp.yml -i /etc/ansible/hosts
+    ```
+
+> [!IMPORTANT]
+> Когда продукт запускается в первый раз, он скачивает последние определения противомалярийных программ. В зависимости от подключения к Интернету это может занять до нескольких минут.
+
+- Проверка/конфигурация:
+
+    ```bash
+    ansible -m shell -a 'mdatp connectivity test' all
+    ```
+    ```bash
+    ansible -m shell -a 'mdatp health' all
+    ```
+
+- Uninstallation:
+
+    ```bash
+    ansible-playbook /etc/ansible/playbooks/uninstall_mdatp.yml -i /etc/ansible/hosts
+    ```
+
+## <a name="log-installation-issues"></a>Проблемы с установкой журнала
+
+Дополнительные [сведения о](linux-resources.md#log-installation-issues) том, как найти автоматически созданный журнал, созданный установщиком при ошибке, см. в дополнительных сведениях о проблемах установки журнала.
+
+## <a name="operating-system-upgrades"></a>Обновления операционной системы
+
+При обновлении операционной системы до новой основной версии необходимо сначала удалить Defender для конечной точки для Linux, установить обновление и, наконец, перенастроить Defender для конечной точки для Linux на вашем устройстве.
+
+## <a name="references"></a>Ссылки
+
+- [Добавление или удаление репозиториев YUM](https://docs.ansible.com/ansible/2.3/yum_repository_module.html)
+
+- [Управление пакетами с помощью менеджера пакетов yum](https://docs.ansible.com/ansible/latest/modules/yum_module.html)
+
+- [Добавление и удаление репозиториев APT](https://docs.ansible.com/ansible/latest/modules/apt_repository_module.html)
+
+- [Управление пакетами apt](https://docs.ansible.com/ansible/latest/modules/apt_module.html)

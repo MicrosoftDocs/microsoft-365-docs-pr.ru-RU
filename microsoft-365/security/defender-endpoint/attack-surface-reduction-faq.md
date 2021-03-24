@@ -1,0 +1,142 @@
+---
+title: Уменьшение поверхности атаки, часто задаваемой вопросами (часто задаваемой вопросы)
+description: Найдите ответы на часто задамые вопросы о правилах сокращения поверхности атак в Microsoft Defender ATP.
+keywords: Правила уменьшения поверхности атаки, asr, hips, система предотвращения вторжения хостов, правила защиты, антиэкспозиция, антиэкспозит, эксплойт, профилактика инфекций, защитник Майкрософт для конечной точки
+search.product: eADQiWindows 10XVcnh
+ms.pagetype: security
+ms.prod: m365-security
+ms.mktglfcycl: manage
+ms.sitesec: library
+localization_priority: Normal
+audience: ITPro
+author: martyav
+ms.author: v-maave
+ms.reviewer: ''
+manager: dansimp
+ms.custom: asr
+ms.technology: mde
+ms.openlocfilehash: 7685bd70d85ecebe759ade762b78ee2c3639cea8
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51069837"
+---
+# <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>Уменьшение поверхности атаки, часто задаваемой вопросами (часто задаваемой вопросы)
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**Область применения:**
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+
+## <a name="is-attack-surface-reduction-asr-part-of-windows"></a>Является ли уменьшение поверхности атаки (ASR) частью Windows?
+
+ASR изначально была особенностью набора функций защиты эксплойтов, введенных в качестве крупного обновления антивируса Microsoft Defender в Windows 10 версии 1709. Антивирус Microsoft Defender — это родной компонент антивирусного обеспечения Windows. Однако полный набор функций ASR доступен только с корпоративной лицензией Windows. Кроме того, обратите внимание, что исключения из правил ASR управляются отдельно от исключений антивируса Microsoft Defender.
+
+## <a name="do-i-need-to-have-an-enterprise-license-to-run-asr-rules"></a>Нужна ли лицензия предприятия для запуска правил ASR?
+
+Полный набор правил и функций ASR поддерживается только в том случае, если у вас есть корпоративная лицензия для Windows 10. Ограниченное число правил может работать без корпоративной лицензии. Если у вас есть Microsoft 365 Business, установите антивирус Microsoft Defender в качестве основного решения безопасности и встройте правила через PowerShell. Однако использование ASR без корпоративной лицензии официально не поддерживается, и все возможности ASR недоступны.
+
+Дополнительные информацию о лицензировании Windows см. в руководстве по лицензированию [Windows 10](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) и руководстве по лицензированию томов [для Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
+
+## <a name="is-asr-supported-if-i-have-an-e3-license"></a>Поддерживается ли ASR, если у меня есть лицензия E3?
+
+Да. ASR поддерживается для Windows Enterprise E3 и выше. 
+
+## <a name="which-features-are-supported-with-an-e5-license"></a>Какие функции поддерживаются с помощью лицензии E5?
+
+Все правила, поддерживаемые E3, также поддерживаются с помощью E5.
+
+E5 также добавила большую интеграцию с Defender для конечной точки. С помощью E5 можно использовать [Defender для](https://docs.microsoft.com/microsoft-365/security/defender/monitor-devices?view=o365-worldwide&preserve-view=true#monitor-and-manage-asr-rule-deployment-and-detections) конечной точки для мониторинга и анализа аналитики оповещений в режиме реального времени, исключения правил тонкой настройки, настройки правил ASR и просмотра списков отчетов о событиях.
+
+## <a name="what-are-the-currently-supported-asr-rules"></a>Какие в настоящее время поддерживаются правила ASR?
+
+В настоящее время ASR поддерживает все нижеугодние правила:
+
+* [Блокировка исполняемого контента из клиента электронной почты и веб-почты](attack-surface-reduction.md#block-executable-content-from-email-client-and-webmail)
+* [Блокировка всех приложений Office от создания детских процессов](attack-surface-reduction.md#block-all-office-applications-from-creating-child-processes)
+* [Блокировка приложений Office от создания исполняемого контента](attack-surface-reduction.md#block-office-applications-from-creating-executable-content)
+* [Блокировка приложений Office от внесения кода в другие процессы](attack-surface-reduction.md#block-office-applications-from-injecting-code-into-other-processes)
+* [Блокировка JavaScript или VBScript от запуска загружаемого исполняемого контента](attack-surface-reduction.md#block-javascript-or-vbscript-from-launching-downloaded-executable-content)
+* [Блокировка выполнения потенциально запутаных скриптов](attack-surface-reduction.md#block-execution-of-potentially-obfuscated-scripts)
+* [Блокировка вызовов API Win32 из макроса Office](attack-surface-reduction.md#block-win32-api-calls-from-office-macros)
+* [Используйте расширенные средства защиты от программ-вымогателей](attack-surface-reduction.md#use-advanced-protection-against-ransomware)
+* [Блокировка кражи учетных данных](attack-surface-reduction.md#block-credential-stealing-from-the-windows-local-security-authority-subsystem) из подсистемы локального органа безопасности Windows (lsass.exe)
+* [Блокировка создания процессов, происходящих из команд PSExec и WMI](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)
+* [Блокировка ненарушимых и неподписаных процессов, которые запускают из USB](attack-surface-reduction.md#block-untrusted-and-unsigned-processes-that-run-from-usb)
+* [Блокировать выполнение файлов, если они не соответствуют критериям распространенности, возраста или доверенного списка](attack-surface-reduction.md#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)
+* [Блокировка приложений связи Office от создания детских процессов](attack-surface-reduction.md#block-office-communication-application-from-creating-child-processes)
+* [Блокировка Adobe Reader от создания детских процессов](attack-surface-reduction.md#block-adobe-reader-from-creating-child-processes)
+* [Блокировка сохраняемости с помощью подписки на события WMI](attack-surface-reduction.md#block-persistence-through-wmi-event-subscription)
+
+## <a name="what-are-some-good-recommendations-for-getting-started-with-asr"></a>Какие рекомендации по началу работы с ASR можно получить?
+
+Проверьте, как правила ASR будут влиять на организацию, прежде чем включите их, запуская правила ASR в режиме аудита в течение короткого периода времени. Во время работы правил в режиме аудита можно определить любые бизнес-приложения, которые могут быть заблокированы ошибочно, и исключить их из ASR.
+
+Более крупным организациям следует рассмотреть возможность внедрения правил ASR в "кольцах", путем аудита и включения правил во все более широких подмастериях устройств. Вы можете упорядошить устройства организации на кольца с помощью Intune или средства управления групповой политикой.
+
+## <a name="how-long-should-i-test-an-asr-rule-in-audit-mode-before-enabling-it"></a>Как долго следует проверять правило ASR в режиме аудита, прежде чем его включать?
+
+Держите правило в режиме аудита в течение 30 дней, чтобы получить хорошую базовую информацию о том, как правило будет действовать после его работы в вашей организации. В период аудита можно определить любые бизнес-приложения, которые могут быть заблокированы правилом, и настроить правило, чтобы исключить их.
+
+## <a name="im-making-the-switch-from-a-third-party-security-solution-to-defender-for-endpoint-is-there-an-easy-way-to-export-rules-from-another-security-solution-to-asr"></a>Я перешел от сторонного решения безопасности к Defender for Endpoint. Существует ли "простой" способ экспорта правил из другого решения безопасности в ASR?
+
+В большинстве случаев проще и лучше начать с базовых рекомендаций, предложенных [Defender для конечной](https://docs.microsoft.com/windows/security/threat-protection) точки, чем пытаться импортировать правила из другого решения безопасности. Затем используйте такие средства, как режим аудита, мониторинг и аналитика, чтобы настроить новое решение в соответствии с вашими уникальными потребностями. 
+
+Конфигурация по умолчанию для большинства правил ASR в сочетании с защитой Defender для endpoint в режиме реального времени защитит от большого количества эксплойтов и уязвимостей.
+
+В Защитнике для конечной точки можно обновить защиту с помощью настраиваемого индикатора, чтобы разрешить и заблокировать определенные действия программного обеспечения. ASR также позволяет настраивать правила в виде исключений файлов и папок. Как правило, лучше всего проверять правило в течение определенного периода времени и настраивать исключения для любых бизнес-приложений, которые могут быть заблокированы.
+
+## <a name="does-asr-support-file-or-folder-exclusions-that-include-system-variables-and-wildcards-in-the-path"></a>Есть ли исключения из asR-файлов или папок, которые включают системные переменные и подкарды в пути?
+
+Да. Дополнительные сведения об исключении файлов и папок из правил [ASR](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) см. в дополнительных сведениях об исключении файлов или папок из правил ASR, а также настройка и проверка исключений на основе расположения расширений файлов и папок для использования системных переменных и подкардов в исключенных пути файлов.
+
+## <a name="do-asr-rules-cover-all-applications-by-default"></a>Охватывают ли правила ASR все приложения по умолчанию?
+
+Это зависит от правила. Большинство правил ASR охватывают поведение Microsoft Office и служб, таких как Word, Excel, PowerPoint и OneNote или Outlook. Некоторые правила ASR, такие как *блок-выполнение* потенциально запутаных скриптов, являются более общими по области.
+
+## <a name="does-asr-support-third-party-security-solutions"></a>Поддерживает ли ASR сторонние решения безопасности?
+
+AsR использует антивирус Microsoft Defender для блокировки приложений. В настоящее время невозможно настроить ASR для использования другого решения безопасности для блокировки.
+
+## <a name="i-have-an-e5-license-and-enabled-some-asr-rules-in-conjunction-with-defender-for-endpoint-is-it-possible-for-an-asr-event-to-not-show-up-at-all-in-defender-for-endpoints-event-timeline"></a>У меня есть лицензия E5 и включены некоторые правила ASR в сочетании с Defender для конечной точки. Возможно ли, что событие ASR вообще не будет показываться в временной шкале событий Defender для конечной точки?
+
+Всякий раз, когда уведомление запускается локально правилом ASR, отчет о событии также отправляется на портал Defender for Endpoint. Если у вас возникли проблемы с поиском события, вы можете фильтровать временную шкалу событий с помощью окна поиска. Вы также можете просмотреть события ASR, посетив  **Перейти** к управлению поверхностью атаки из значка управления конфигурацией в панели задач Центра безопасности. На странице управления поверхностью атаки содержится вкладка для обнаружения отчетов, которая включает полный список событий правил ASR, о которых сообщается в Defender for Endpoint.
+
+## <a name="i-applied-a-rule-using-gpo-now-when-i-try-to-check-the-indexing-options-for-the-rule-in-microsoft-outlook-i-get-a-message-stating-access-denied"></a>Я применил правило с помощью GPO. Теперь, когда я пытаюсь проверить параметры индексации для правила в Microsoft Outlook, я получаю сообщение с указанием", "Доступ отказано".
+
+Попробуйте открыть параметры индексации непосредственно из Windows 10.
+
+1. Выберите **значок Поиска** на панели задач Windows.
+
+1. Введите **параметры индексации** в поле поиска.
+
+## <a name="are-the-criteria-used-by-the-rule-block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion-configurable-by-an-admin"></a>Можно ли настроить администратором критерии, используемые правилом " Блокировать выполнение файлов, если они не соответствуют критерию распространенности, возраста или доверенного списка"?
+
+Нет. Критерии, используемые этим правилом, поддерживаются облачной защитой Майкрософт, чтобы поддерживать надежный список постоянно в курсе данных, собранных со всего мира. Местные администраторы не имеют доступа к записи для изменения этих данных. Если вы хотите настроить это правило, чтобы настроить его для предприятия, вы можете добавить определенные приложения в список исключений, чтобы предотвратить запуск этого правила.
+
+## <a name="i-enabled-the-asr-rule-block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion-after-some-time-i-updated-a-piece-of-software-and-the-rule-is-now-blocking-it-even-though-it-didnt-before-did-something-go-wrong"></a>Я включил правило ASR, блокировал выполнение файлов, если они не соответствуют критерию распространенности, возраста или *доверенного списка.* Через некоторое время я обновила часть программного обеспечения, и теперь правило блокирует его, хотя раньше этого не было. Что-то пошло не так?
+
+Это правило основывается на том, что каждое приложение с известной репутацией измеряется по распространенности, возрасту или включению в список доверенных приложений. Решение правила заблокировать или разрешить приложение в конечном счете определяется оценкой этих критериев облачной защитой Майкрософт.
+
+Обычно облачная защита может определить, что новая версия приложения настолько похожа на предыдущие версии, что ее не нужно пересматривать. Однако для создания репутации после переключения версий, особенно после серьезного обновления, может потребоваться некоторое время. В то же время вы можете добавить приложение в список исключений, чтобы это правило не блокировало важные приложения. Если вы часто обновляете и работаете с новыми версиями приложений, вы можете вместо этого запустить это правило в режиме аудита.
+
+## <a name="i-recently-enabled-the-asr-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-and-i-am-getting-a-large-number-of-notifications-what-is-going-on"></a>Недавно я включил правило ASR, блокировал кражу учетных данных из подсистемы локального органа безопасности Windows *(lsass.exe)* и получаю большое количество уведомлений. Что происходит?
+
+Уведомление, сформированное этим правилом, не обязательно указывает на вредоносную активность; однако это правило по-прежнему полезно для блокировки вредоносных действий, так как вредоносные программы часто lsass.exe для получения незаконного доступа к учетным записям. Процесс lsass.exe сохраняет учетные данные пользователей в памяти после входа пользователя. Windows использует эти учетные данные для проверки пользователей и применения локальных политик безопасности.
+
+Поскольку многие законные процессы в течение обычного дня будут вызывать lsass.exe для учетных данных, это правило может быть особенно шумным. Если известное законное приложение вызывает это правило для создания чрезмерного количества уведомлений, его можно добавить в список исключений. Большинство других правил ASR генерирует относительно меньшее количество уведомлений по сравнению с этим, так как вызов lsass.exe является типичным для нормального функционирования многих приложений.
+
+## <a name="is-it-a-good-idea-to-enable-the-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-alongside-lsa-protection"></a>Это хорошая идея, чтобы включить правило, блокировать кражу учетных данных из подсистемы локального органа безопасности *Windows (lsass.exe),* наряду с защитой LSA?
+
+Включение этого правила не обеспечит дополнительную защиту, если также включена защита [LSA.](https://docs.microsoft.com/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection#BKMK_HowToConfigure) И правило, и защита LSA работают одинаково, поэтому наличие одновременного запуска было бы избыточным. Однако иногда вы не можете включить защиту LSA. В этих случаях можно включить это правило, чтобы обеспечить эквивалентную защиту от вредоносных программ, которые lsass.exe.
+
+## <a name="see-also"></a>См. также
+
+* [Обзор уменьшения поверхности атаки](attack-surface-reduction.md)
+* [Оценка правил уменьшения поверхности атаки](evaluate-attack-surface-reduction.md)
+* [Настройка правил уменьшения поверхности атаки](customize-attack-surface-reduction.md)
+* [Включить правила уменьшения поверхности атаки](enable-attack-surface-reduction.md)
+* [Совместимость Microsoft Defender с другими антивирусными и антивирусными программами](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
