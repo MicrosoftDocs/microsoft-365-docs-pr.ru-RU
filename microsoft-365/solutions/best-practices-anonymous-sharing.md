@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: В этой статье вы ознакомитесь с рекомендациями по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности.
-ms.openlocfilehash: 3fbe48159dab7fd9ebb072feab7724c3186f7847
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: af0cc59813c76e4ed6a3c0e50140e7fa26c91080
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904808"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051070"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Рекомендации по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности
 
@@ -140,7 +140,7 @@ ms.locfileid: "50904808"
 
 4. При желании также включите безопасные документы и нажмите **Сохранить**.
 
-Дополнительные инструкции см. в статьях [ATP для SharePoint, OneDrive и Microsoft Teams](../security/office-365-security/atp-for-spo-odb-and-teams.md) и [Включение ATP для SharePoint, OneDrive и Microsoft Teams](../security/office-365-security/turn-on-atp-for-spo-odb-and-teams.md).
+Дополнительные инструкции см. в статьях [ATP для SharePoint, OneDrive и Microsoft Teams](../security/defender-365-security/mdo-for-spo-odb-and-teams.md) и [Включение ATP для SharePoint, OneDrive и Microsoft Teams](../security/defender-365-security/turn-on-mdo-for-spo-odb-and-teams.md).
 
 ## <a name="add-copyright-information-to-your-files"></a>Добавление сведений об авторских правах к файлам
 
