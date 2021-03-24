@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Используйте Центр соответствия требованиям Microsoft 365 для поиска единого журнала аудита, чтобы просматривать активность пользователей и администраторов в организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eabc9a59592ed2b1849bac8c7b716e68d4b9e214
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f61a67b29dec114d222dfc7b25e44c163859ba41
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922553"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051741"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Поиск по журналу аудита в Центре соответствия требованиям
 
@@ -900,7 +900,7 @@ Workplace Analytics дает представление о том, как гру
 
 ### <a name="quarantine-activities"></a>Карантинная деятельность
 
-В следующей таблице перечислены действия на карантине, которые можно найти в журнале аудита. Дополнительные сведения о карантине см. в разделе [Сообщения электронной почты на карантине в Office 365](../security/office-365-security/quarantine-email-messages.md).
+В следующей таблице перечислены действия на карантине, которые можно найти в журнале аудита. Дополнительные сведения о карантине см. в разделе [Сообщения электронной почты на карантине в Office 365](../security/defender-365-security/quarantine-email-messages.md).
 
 |Понятное имя|Операция|Описание|
 |:-----|:-----|:-----|

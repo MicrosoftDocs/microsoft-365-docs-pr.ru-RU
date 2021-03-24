@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вам нужно решение для управления записями для Microsoft 365, с помощью которого можно организовать работу с контентом высокой важности при исполнении юридических, деловых или нормативных обязательств, но не знаете, с чего начать? Перед началом работы ознакомьтесь с некоторыми практическими рекомендациями.
-ms.openlocfilehash: a757cabf13e85731bd16ccd84f1eea3dbe7e432a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2ab5eaa494094dcbf0723f426fcbd644901c22bb
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906011"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051901"
 ---
 # <a name="get-started-with-records-management"></a>Начало работы с управлением записями
 
@@ -53,9 +53,9 @@ ms.locfileid: "50906011"
 
 Для роли с правами только на чтение вы можете создать новую группу ролей и добавить в нее роль **Управление записями с правами только на просмотр**. 
 
-Дополнительные сведения об этих группах ролей и ролях см. в статье [Разрешения в Центре безопасности и соответствия требованиям](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
+Дополнительные сведения об этих группах ролей и ролях см. в статье [Разрешения в Центре безопасности и соответствия требованиям](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
 
-Инструкции по добавлению пользователей в группы ролей и по назначению ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+Инструкции по добавлению пользователей в группы ролей и по назначению ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Эти разрешения необходимы только для создания, настройки и применения меток хранения, которые объявляют элементы записями, а также для управления ликвидацией. Пользователю, настраивающему эти метки, не требуется доступ к контенту.
 

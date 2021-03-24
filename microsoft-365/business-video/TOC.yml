@@ -103,6 +103,8 @@
           href: view-bill.md
         - name: Приобретение новых лицензий
           href: buy-licenses.md
+        - name: Удаление существующих лицензий
+          href: remove-existing-licenses.md
         - name: Изменение метода оплаты
           href: update-payment.md
         - name: Сброс паролей пользователей

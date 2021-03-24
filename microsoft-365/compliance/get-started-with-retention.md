@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать реализацию политик хранения и меток хранения для управления данными организации, но не знаете, с чего начинать? Перед началом работы ознакомьтесь с некоторыми практическими руководствами.
-ms.openlocfilehash: 27f361ba98cdaecb5b7788283c8d4244583ee82c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 65c196f8838378a10263370b1377b3eb43b14915
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922623"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051911"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Начало работы с политиками хранения и метками хранения
 
@@ -56,9 +56,9 @@ ms.locfileid: "50922623"
 
 В качестве альтернативы использования этой роли по умолчанию можно создать новую группу ролей и добавить в нее роль **управления хранением**. Чтобы получить роль "только для чтения", используйте **Управление хранением "только для просмотра"**. 
 
-Дополнительные сведения о группах ролей и ролях см. в статье [Разрешения в Центре безопасности и соответствия требованиям](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
+Дополнительные сведения о группах ролей и ролях см. в статье [Разрешения в Центре безопасности и соответствия требованиям](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
 
-Инструкции по добавлению пользователей в группы ролей и по назначению ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+Инструкции по добавлению пользователей в группы ролей и по назначению ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Эти разрешения необходимы только для создания, настройки и применения политик хранения и меток хранения. Пользователю, настраивающему эти политики и метки, не требуется доступ к контенту.
 

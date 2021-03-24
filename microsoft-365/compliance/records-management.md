@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: С помощью управления записями в Microsoft 365 вы можете применять графики хранения к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией.
-ms.openlocfilehash: 4f07732e403d711e2fa89bfb7c61c9eadfb2bd0b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ac8e9bf2ac9ac47518788cd19a197818c13078a1
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926187"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051691"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Сведения об управлении записями в Microsoft 365
 
@@ -48,7 +48,7 @@ ms.locfileid: "50926187"
 
 - **Экспорт информации обо всех ликвидированных элементах** с помощью [функции экспорта](disposition.md#filter-and-export-the-views).
 
-- **Настройка определенных разрешений** для [предоставления правильного доступа](../security/office-365-security/permissions-in-the-security-and-compliance-center.md) функциям диспетчера записей в организации.
+- **Настройка определенных разрешений** для [предоставления правильного доступа](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md) функциям диспетчера записей в организации.
 
 Благодаря этим возможностям можно внедрять графики и требования организации в решение управления записями, которое отвечает за хранение, объявление записей, а также ликвидацию для поддержки полного жизненного цикла содержимого.
 

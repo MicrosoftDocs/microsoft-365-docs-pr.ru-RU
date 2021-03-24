@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Получите сведения о том, как выявлять, отслеживать и автоматически защищать конфиденциальную информацию организации в Office 365.
-ms.openlocfilehash: 7d526d5eeb74f0d31f375974824e7a76344bcd76
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9ef369786aa4b79dbdec551c9750500f9c092906
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925813"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052077"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Обзор функции защиты от потери данных
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -535,7 +535,7 @@ DLP сканирует электронную почту иначе, чем эл
 
 Также можно создать группу ролей, обладающую правами только для просмотра политик и отчетов DLP, включив роль **Только просмотр: управление соответствием требованиям защиты от потери данных**.
 
-Дополнительные сведения см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+Дополнительные сведения см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md).
   
 Эти разрешения необходимы только для создания и применения политики защиты от потери данных. Для применения политики не требуется доступ к контенту.
   
