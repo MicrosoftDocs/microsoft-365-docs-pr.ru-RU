@@ -1,7 +1,7 @@
 # [Microsoft Defender для конечной точки](index.yml)
 
 ## [Обзор]()
-### [Что такое Microsoft Defender для конечной точки?](microsoft-defender-advanced-threat-protection.md)
+### [Что такое Microsoft Defender для конечной точки?](microsoft-defender-endpoint.md)
 ### [Минимальные требования](minimum-requirements.md)
 ### [Новые возможности в Microsoft Defender для конечной точки](whats-new-in-microsoft-defender-atp.md)
 ### [Предварительные функции](preview.md)
@@ -385,7 +385,7 @@
 
 ### [Использование режима аудита](audit-windows-defender.md)
 
-## Справка
+## Справочные материалы
 ### [Управление и API]()
 #### [Обзор управления и API](management-apis.md)
 #### [Microsoft Defender для API конечной точки]()
