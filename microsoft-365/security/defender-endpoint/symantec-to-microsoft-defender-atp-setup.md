@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 6a5e5c10e92d5c8c017360033d7c3fc23b707730
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6d45e3aa0d3bf938e43201aca969613876ef1f31
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185483"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218716"
 ---
 # <a name="migrate-from-symantec---phase-2-set-up-microsoft-defender-for-endpoint"></a>Миграция из Symantec — этап 2. Настройка Microsoft Defender для конечной точки
 
@@ -39,7 +39,7 @@ ms.locfileid: "51185483"
 ||*Вы здесь!* | |
 
 
-Добро пожаловать на этап установки перехода из **[Symantec в Microsoft Defender для конечной точки.](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)** Этот этап включает в себя следующие действия:
+Добро пожаловать на этап установки перехода из **[Symantec в Microsoft Defender для конечной точки.](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)** Этот этап включает в себя следующие действия:
 1. [Включить или переустановить антивирус Microsoft Defender (для определенных версий Windows).](#enable-or-reinstall-microsoft-defender-antivirus-for-certain-versions-of-windows)
 2. [Включить антивирус Microsoft Defender.](#enable-microsoft-defender-antivirus)
 3. [Получите обновления антивируса Microsoft Defender.](#get-updates-for-microsoft-defender-antivirus)
@@ -228,5 +228,5 @@ CMPivot — это утилита для диспетчера конфигура
 
 ## <a name="next-step"></a>Следующий шаг
 
-**Поздравляем!** Вы завершили этап установки перехода из [Symantec в Microsoft Defender для конечной точки!](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)
+**Поздравляем!** Вы завершили этап установки перехода из [Symantec в Microsoft Defender для конечной точки!](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)
 - [Переходите к этапу 3. На борту в Microsoft Defender для конечной точки](symantec-to-microsoft-defender-atp-onboard.md)

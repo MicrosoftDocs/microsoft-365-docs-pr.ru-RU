@@ -22,12 +22,12 @@ ms.custom: migrationguides
 ms.date: 02/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 6e5b79e447579631e4aa2eaf02352dc3fa6a8daa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2c6029a1aada8f5f5fb27723c868f28c3de6f8aa
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074126"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218656"
 ---
 # <a name="make-the-switch-from-a-non-microsoft-endpoint-solution-to-microsoft-defender-for-endpoint"></a>Переключение из решения конечной точки, не в microsoft, в Microsoft Defender для конечной точки
 
@@ -39,7 +39,7 @@ ms.locfileid: "51074126"
 
 > [!TIP]
 > - Если вы в настоящее время используете безопасность конечных точек McAfee (McAfee), см. в этой записи миграция из [McAfee в Microsoft Defender для конечной точки.](mcafee-to-microsoft-defender-migration.md)
-> - Если вы в настоящее время используете Symantec Endpoint Protection (Symantec), см. в записи Миграция из [Symantec в Microsoft Defender для конечной точки.](symantec-to-microsoft-defender-atp-migration.md)
+> - Если вы в настоящее время используете Symantec Endpoint Protection (Symantec), см. в записи Миграция из [Symantec в Microsoft Defender для конечной точки.](symantec-to-microsoft-defender-endpoint-migration.md)
 
 ## <a name="the-migration-process"></a>Процесс миграции
 

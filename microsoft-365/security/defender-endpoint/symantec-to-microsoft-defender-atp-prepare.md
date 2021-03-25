@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 8784c8d608666946461ddc27aa2e7f2b740276a0
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 87da8a558e1295f793600aae2fdd836667374052
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185495"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218728"
 ---
 # <a name="migrate-from-symantec---phase-1-prepare-for-your-migration"></a>Миграция из Symantec — этап 1. Подготовка к миграции
 
@@ -39,7 +39,7 @@ ms.locfileid: "51185495"
 |*Вы здесь!*| | |
 
 
-**Добро пожаловать на этап Подготовки к [переходу из Symantec в Microsoft Defender для конечной точки.](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)** 
+**Добро пожаловать на этап Подготовки к [переходу из Symantec в Microsoft Defender для конечной точки.](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)** 
 
 Этот этап миграции включает следующие действия:
 1. [Получите Microsoft Defender для конечной точки](#get-microsoft-defender-for-endpoint).
@@ -89,5 +89,5 @@ ms.locfileid: "51185495"
 
 ## <a name="next-step"></a>Следующий шаг
 
-**Поздравляем!** Вы завершили этап **подготовки** перехода из [Symantec в Microsoft Defender для конечной точки!](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)
+**Поздравляем!** Вы завершили этап **подготовки** перехода из [Symantec в Microsoft Defender для конечной точки!](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)
 - [Приступить к настройкам Microsoft Defender для конечной точки](symantec-to-microsoft-defender-atp-setup.md).

@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b0aa619f09f2d6b32289e037283a0dc6578d0150
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 59609da65701112ced43b73b67650881bc81be8a
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920508"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218668"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Устройства Microsoft Managed Desktop 
 
@@ -37,13 +37,13 @@ Microsoft Managed Desktop регулярно оценивает устройст
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архива   | Дата выхода на пенсию   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [Dell Latitude 5310 / 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г.  | 28 апреля 2025 г. |
+| **\*[Dell Latitude 5320 / 5320 2-in-1](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5320-laptop-or-2-in-1/spd/latitude-13-5320-2-in-1-laptop?)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 22 января 2023 г.  | 22 января 2026 г. |
 | [Dell Latitude 3510](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-3510-business-laptop/spd/latitude-15-3510-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г.  |
-| [Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г.  |
+| **\*[Dell Latitude 5420](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5420-laptop/spd/latitude-5420-laptop?)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 02 января 2023 г. | 02 января 2026 г.  |
 | [Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 28 апреля 2022 г. | 28 апреля 2025 г. |
 | [Dell Latitude 7310 / 7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 4 мая 2022 г.  | 4 мая 2025 г.  |
 | **\*[Dell Latitude 7420 / 7420 2-in-1](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-7420-business-laptop-or-2-in-1/spd/latitude-14-7420-2-in-1-laptop)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 22 марта 2023 г.  | 22 марта 2026 г.  |
-| [Dell Latitude 9410 2-in-1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 5 мая 2022 г.  | 5 мая 2025 г.  |
+| **\*[Dell Latitude 9420 2-in-1](https://www.dell.com/en-us/work/shop/scc/sr/laptops/latitude-laptops?~ck=mn)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | Apr 2023  | Apr 2026  |
 | [Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 5 мая 2022 г.  | 5 мая 2025 г.  |
 | [Dell Optiplex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | Нет | 27 мая 2022 г.  | 27 мая 2025 г.  |
 | [Dell Optiplex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | Нет | 15 мая 2022 г.  | 15 мая 2025 г.  |
