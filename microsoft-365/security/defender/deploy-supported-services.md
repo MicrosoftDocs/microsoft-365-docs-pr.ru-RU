@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 0902dce0af3c101cbaf7ff526beb71e9f46a1bf4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 434c318be404ffb04cac7a05664c8f001bb46507
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187521"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198865"
 ---
 # <a name="deploy-supported-services"></a>Развертывание поддерживаемых служб
 
@@ -78,7 +78,7 @@ Microsoft 365 Defender обеспечивает лучшую видимость,
 | Служба | Инструкции по подготовкам | Исходная конфигурация |
 | ------ | ------ | ------ |
 | Microsoft Defender для конечной точки | [Руководство по развертыванию Microsoft Defender для конечной точки](../defender-endpoint/deployment-phases.md) | *См. инструкции по обеспечению* |
-|Microsoft Defender для Office 365 | *Нет, с помощью Office 365* | [Настройка политик Microsoft Defender для Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365#configure-atp-policies) |
+|Microsoft Defender для Office 365 | *Нет, с помощью Office 365* | [Настройка политик Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) |
 | Microsoft Defender для удостоверений | [Quickstart: создание экземпляра Microsoft Defender для удостоверений](/azure-advanced-threat-protection/install-atp-step1) | *См. инструкции по обеспечению* |
 | Microsoft Cloud App Security | *Нет* | [Quickstart: начало работы с безопасностью облачных приложений Майкрософт](/cloud-app-security/getting-started-with-cloud-app-security) |
 
@@ -89,6 +89,6 @@ Microsoft 365 Defender обеспечивает лучшую видимость,
 - [Обзор Защитника Microsoft 365](microsoft-365-defender.md)
 - [Включив защитник Microsoft 365](m365d-enable.md)
 - [Обзор Microsoft Defender для конечной точки](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Обзор Microsoft Defender для Office 365](../defender-365-security/defender-for-office-365.md)
+- [Обзор Microsoft Defender для Office 365](../office-365-security/defender-for-office-365.md)
 - [Обзор Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)
 - [Обзор Microsoft Defender для удостоверений](/azure-advanced-threat-protection/what-is-atp)

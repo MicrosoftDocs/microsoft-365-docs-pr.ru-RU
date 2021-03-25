@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0196148c9dbf3ec769594d714524a3fd9e4d18fd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d468a77d2c1ab4f1b363e2e91b6e8507a5390d93
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185961"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198487"
 ---
 # <a name="create-indicators-for-ips-and-urlsdomains"></a>Создание индикаторов для IPs и URL-адресов/доменов 
 
@@ -34,7 +34,8 @@ ms.locfileid: "51185961"
 
 
 
->Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> [!TIP]
+> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 
 Защитник для конечной точки может блокировать то, что Корпорация Майкрософт считает вредоносными IPs/URL-адресами, с помощью Защитник Windows SmartScreen для браузеров Майкрософт и с помощью сетевой защиты для браузеров или вызовов, не влиянных на microsoft.
@@ -57,8 +58,10 @@ ms.locfileid: "51185961"
 
 > [!IMPORTANT]
 > В список индикаторов могут быть добавлены только внешние ИП. Индикаторы не могут быть созданы для внутренних ИП.
-> Для сценариев веб-защиты рекомендуется использовать встроенные возможности в Microsoft Edge. Microsoft Edge использует [network Protection](network-protection.md) для проверки сетевого трафика и позволяет блоки для TCP, HTTP и HTTPS (TLS). Для всех остальных процессов сценарии веб-защиты используют network Protection для проверки и обеспечения соблюдения: <br>
-> ПРИМЕЧАНИЕ:
+> Для сценариев веб-защиты рекомендуется использовать встроенные возможности в Microsoft Edge. Microsoft Edge использует [network Protection](network-protection.md) для проверки сетевого трафика и позволяет блоки для TCP, HTTP и HTTPS (TLS). Если существуют противоречивые политики индикатора URL-адресов, применяется более длительный путь. Например, политика индикатора URL-адресов имеет приоритет над `https:\\support.microsoft.com/en-us/office` политикой индикатора `https:\\support.microsoft.com` URL.
+
+> [!NOTE]
+> Для всех остальных процессов сценарии веб-защиты используют network Protection для проверки и обеспечения соблюдения: 
 > - IP поддерживается для всех трех протоколов
 > - Поддерживаются только отдельные IP-адреса (без блоков CIDR или диапазонов IP-адресов)
 > - Зашифрованные URL-адреса (полный путь) могут быть заблокированы только в первых браузерах сторон (Internet Explorer, Edge)

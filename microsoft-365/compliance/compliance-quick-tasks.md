@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Узнайте о задачах, которые помогут быстро начать работу с соблюдением требований в Microsoft 365.
-ms.openlocfilehash: b8a6f98a38dcb6096287cbc2389648c0e7457e5c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 503e15c8b363dcd63c010d31384565f6e1a8af61
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052107"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197926"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Быстрые задачи для обеспечения соответствия требованиям в Microsoft 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "51052107"
 
 Начните с назначения разрешений на соответствие требованиям для людей в вашей организации, чтобы они могли выполнять эти задачи и не допустить доступа неавторизованных людей к областям, не относя к их обязанностям. Прежде чем приступить к настройке и реализации решений по обеспечению соответствия требованиям, включенных в Microsoft 365, необходимо убедиться, что соответствующие сотрудники назначены администратору данных соответствия требованиям и роли администратора соответствия требованиям.   Также необходимо назначить пользователей глобальной роли чтения Azure Active Directory для просмотра данных в диспетчере соответствия требованиям.
 
-Инструкции по пошаговому настройке разрешений и назначению людей роли администратора см. в инструкции [Permissions in the Security & Compliance Center.](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)
+Инструкции по пошаговому настройке разрешений и назначению людей роли администратора см. в инструкции [Permissions in the Security & Compliance Center.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="task-2-know-your-state-of-compliance"></a>Задача 2. Знать состояние соответствия требованиям
 
@@ -49,7 +49,7 @@ ms.locfileid: "51052107"
 >
 >Проверьте свою безопасную оценку Microsoft [365](../security/defender/microsoft-secure-score.md) в центре безопасности Microsoft 365 и заполните задачи, описанные в следующих статьях:
 >
-> - [Дорожная карта безопасности — главные приоритеты для первых 30 дней, 90 дней и более](../security/defender-365-security/security-roadmap.md)
+> - [Дорожная карта безопасности — главные приоритеты для первых 30 дней, 90 дней и более](../security/office-365-security/security-roadmap.md)
 > - [Топ-12 задач для групп безопасности для поддержки работы из дома](../security/top-security-tasks-for-remote-work.md)
 
 ## <a name="task-3-enable-auditing-for-your-organization"></a>Задача 3. Включить аудит для организации

@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f0e0bf29068bea0f213f8b00403213969f5b9106
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: dada110faca71c9e8fcf384eb5bb0a78faefaad9
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074789"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199141"
 ---
 # <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Подготовка пробной лаборатории или пилотной среды Microsoft 365 Defender
 
@@ -45,7 +45,7 @@ ms.locfileid: "51074789"
 
 Подготовка является ключом к успешному развертыванию. В этом разделе вы сможете найти то, что необходимо учитывать при подготовке к созданию пробной лаборатории или пилотной среды для развертывания Microsoft 365 Defender.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 Узнайте о требованиях к лицензированию, оборудованию и программному обеспечению и других параметрах конфигурации для обеспечения и использования Microsoft 365 Defender. См. минимальные требования к [Microsoft 365 Defender,](https://docs.microsoft.com/microsoft-365/security/defender/prerequisites) [Microsoft Defender для](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements)конечной точки, Microsoft Defender для Office [365,](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) [Microsoft Defender for Identity,](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites) [Microsoft Cloud App Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Заинтересованные стороны и вход
@@ -105,7 +105,7 @@ ms.locfileid: "51074789"
 
 | Компонент                               | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Ранж конфигурации |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-|Microsoft Defender для Office 365|Microsoft Defender для Office 365 защищает вашу организацию от угроз, которые могут представлять электронные сообщения, ссылки (URL-адреса) и средства совместной работы. <br> [Подробнее.](/microsoft-365/security/defender-365-security/defender-for-office-365)                                                                                                                                                                                                                                             | 1                   |
+|Microsoft Defender для Office 365|Microsoft Defender для Office 365 защищает вашу организацию от угроз, которые могут представлять электронные сообщения, ссылки (URL-адреса) и средства совместной работы. <br> [Подробнее.](/microsoft-365/security/office-365-security/defender-for-office-365)                                                                                                                                                                                                                                             | 1                   |
 |Microsoft Defender для удостоверений|Microsoft Defender for Identity использует сигналы Active Directory для выявления, обнаружения и расследования расширенных угроз, скомпрометации удостоверений и вредоносных действий инсайдеров, направленных на организацию. <br> [Подробнее](/azure-advanced-threat-protection/).| 2 |
 |Microsoft Cloud App Security| Microsoft Cloud App Security — это брокер по безопасности облачного доступа (CASB), который работает на нескольких облаках. Он обеспечивает богатую видимость, управление перемещениями данных и сложную аналитику для выявления и борьбы с киберугрозами во всех облачных службах. <br> [Подробнее](/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
 |Microsoft Defender для конечной точки | Функции обнаружения угроз и реагирования на них для конечных точек в Microsoft Defender для конечной точки обеспечивают обнаружение расширенных атак, работают в режиме практически реального времени, а результаты, предоставляемые такими функциями, можно использовать в качестве основания для выполнения тех или иных действий. Аналитики систем безопасности могут эффективно определять приоритеты предупреждений, получать полную картину всех возможных брешей в системе безопасности, а также предпринимать действия по реагированию для устранения угроз. <br> [Подробнее.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    

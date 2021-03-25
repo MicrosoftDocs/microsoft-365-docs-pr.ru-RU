@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Откройте для себя этапы настройки для Microsoft 365 Business Premium, включая добавление домена и пользователей, настройку политик безопасности и т. д.
-ms.openlocfilehash: 4d49ba7ccdb65691756aaa505d0856deb115595b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a06fb48ef5e1386a5c7b4df08500125f37943df6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052241"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198449"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 Бизнес Премиум в мастере установки
 
@@ -107,7 +107,7 @@ ms.locfileid: "51052241"
 
 Политики, которые вы создали в мастере, автоматически применяются к группе [безопасности](/office365/admin/create-groups/compare-groups#security-groups) под названием *All Users*. Можно также создать дополнительные группы для назначения политик в центре администрирования.
 
-1. При **повышении** защиты от расширенных киберугроз рекомендуется принимать по умолчанию файлы и ссылки [office 365 Advance Threat Protection](../security/defender-365-security/defender-for-office-365.md) для сканирования и ссылок в приложениях Office.
+1. При **повышении** защиты от расширенных киберугроз рекомендуется принимать по умолчанию файлы и ссылки [office 365 Advance Threat Protection](../security/office-365-security/defender-for-office-365.md) для сканирования и ссылок в приложениях Office.
 
     ![Снимок экрана страницы "Увеличение защиты".](../media/increasetreatprotection.png)
 

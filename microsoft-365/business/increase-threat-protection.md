@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Настройка Microsoft Defender для Office 365 и защита конфиденциальных данных от фишинга, вредоносных программ и других угроз.
-ms.openlocfilehash: 80ad3767b277e4808b6df4bdd977688794649e11
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6526ed9a849e83f19f74656004978089ce367ea9
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050853"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198398"
 ---
 # <a name="increase-threat-protection"></a>Улучшение защиты от угроз
 
@@ -57,7 +57,7 @@ ms.locfileid: "51050853"
 
 6. Выберите **Сохранить.**
 
-Дополнительные сведения см. в [программе Защита от вредоносных программ в EOP.](../security/defender-365-security/anti-malware-protection.md)
+Дополнительные сведения см. в [программе Защита от вредоносных программ в EOP.](../security/office-365-security/anti-malware-protection.md)
 
 ## <a name="protect-against-ransomware"></a>Защита от программ-шантажистов
 
@@ -138,7 +138,7 @@ ms.locfileid: "51050853"
 
 4. На странице **Anti-phishing** выберите **+Create**. Мастер запускает этот шаг, определяя политику защиты от фишинга.
 
-5. Укажите имя, описание и параметры политики, как рекомендуется в следующей таблице. Дополнительные сведения см. в материале "Сведения о политике защиты от фишинга" в [параметрах Microsoft Defender для Office 365.](../security/defender-365-security/set-up-anti-phishing-policies.md)
+5. Укажите имя, описание и параметры политики, как рекомендуется в следующей таблице. Дополнительные сведения см. в материале "Сведения о политике защиты от фишинга" в [параметрах Microsoft Defender для Office 365.](../security/office-365-security/set-up-anti-phishing-policies.md)
 
 6. После просмотра параметров выберите **Создать** эту политику или **сохранить,** если это необходимо.
 
@@ -181,7 +181,7 @@ ms.locfileid: "51050853"
 |Перенаправление вложений при обнаружении|Включить перенаправление (выберите это поле) Введите учетную запись администратора или настройку почтового ящика для карантина.          Применение выше выбора, если сканирование вредоносных программ для вложений раз или ошибка происходит (выберите этот поле).|
 |Применяется к|Домен получателя . . . выберите домен.|
 
-Дополнительные сведения см. в [сообщении Set up anti-phishing policies in Microsoft Defender for Office 365.](../security/defender-365-security/set-up-anti-phishing-policies.md)
+Дополнительные сведения см. в [сообщении Set up anti-phishing policies in Microsoft Defender for Office 365.](../security/office-365-security/set-up-anti-phishing-policies.md)
 
 ## <a name="protect-against-phishing-attacks-with-safe-links"></a>Защита от фишинговых атак с помощью безопасных ссылок
 
@@ -224,7 +224,7 @@ ms.locfileid: "51050853"
 |Использование безопасных вложений для сканирования загружаемого контента|Выберите это поле.|
 |Применяется к|Домен получателя . . . выберите домен.|
 
-Дополнительные сведения см. в этой [ссылке.](../security/defender-365-security/safe-links.md)
+Дополнительные сведения см. в этой [ссылке.](../security/office-365-security/safe-links.md)
 
 ## <a name="go-to-intune-admin-center"></a>Перейдите в центр администрирования Intune
 

@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: ad341de0d0aed45ff3bf734e3c933b423eac3353
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c51c002d263452142a1bcf6fc5603d6ec4ef4cf7
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51068932"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197973"
 ---
 # <a name="device-profile-page"></a>Страница профиля устройства
 
@@ -81,7 +81,7 @@ ms.locfileid: "51068932"
 * **Запуск антивирусного сканирования** — Защитник Windows определения антивируса и немедленно выполняет антивирусное сканирование. Выберите между быстрым сканированием или полным сканированием.
 * **Сбор пакета исследований** — сбор сведений об устройстве. По завершению расследования его можно скачать.
 * **Инициировать сеанс живого ответа** — загружает удаленную оболочку на устройство для углубленного [расследования безопасности.](/microsoft-365/security/defender-endpoint/live-response)
-* **Инициировать автоматическое** расследование — [автоматически расследует и устраняет угрозы.](../defender-365-security/office-365-air.md) Хотя с этой страницы можно запускать автоматические [](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) расследования вручную, некоторые политики оповещения запускают автоматические расследования самостоятельно.
+* **Инициировать автоматическое** расследование — [автоматически расследует и устраняет угрозы.](../office-365-security/office-365-air.md) Хотя с этой страницы можно запускать автоматические [](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) расследования вручную, некоторые политики оповещения запускают автоматические расследования самостоятельно.
 * **Центр действий** — отображает сведения о любых действиях реагирования, которые в настоящее время запущены.
 
 ## <a name="tabs-section"></a>Раздел "Вкладки"
@@ -183,4 +183,4 @@ ms.locfileid: "51068932"
 * [Обзор Защитника Microsoft 365](microsoft-365-defender.md)
 * [Включив защитник Microsoft 365](m365d-enable.md)
 * [Исследование сущностями на устройствах с помощью живого ответа](../defender-endpoint/live-response.md)
-* [Автоматическое расследование и ответ (AIR) в Office 365](../defender-365-security/office-365-air.md)
+* [Автоматическое расследование и ответ (AIR) в Office 365](../office-365-security/office-365-air.md)

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: af4d1a548d34e1a9974ce5d4a6a32361d14d3548
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 40e6099349ff6c62c5e0b6c35fd9940cb9200f05
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073766"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51187773"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-for-linux"></a>Обнаружение и блокировка потенциально нежелательных приложений с помощью Microsoft Defender для конечной точки для Linux
 
@@ -31,7 +31,7 @@ ms.locfileid: "51073766"
 
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -73,6 +73,6 @@ mdatp threat policy set --type potentially_unwanted_application --action [off|au
 
 На предприятии можно настроить защиту PUA с консоли управления, например Puppet или Ansible, аналогично настройке других параметров продукта. Дополнительные сведения см. в разделе [Параметры](linux-preferences.md#threat-type-settings) типа угрозы в статье [Set preferences for Defender for Endpoint for Linux.](linux-preferences.md)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Настройка предпочтений для Defender для конечной точки для Linux](linux-preferences.md)

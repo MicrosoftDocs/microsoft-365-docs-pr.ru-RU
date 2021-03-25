@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Защитите свою бизнес-почту и данные от киберугроз, в том числе программ-вымогателей, фишинга и вредоносных вложений. '
-ms.openlocfilehash: 7affa7a2adaa166861c2932ebe32177335236114
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e45130d101c6e730fd2d487f5f8898c7cd268ab8
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050682"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197855"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Топ-10 способов обеспечения безопасности Microsoft 365 для бизнес-планов
 
@@ -42,7 +42,7 @@ ms.locfileid: "51050682"
 
 Корпорация Майкрософт рекомендует выполнить задачи, перечисленные в следующей таблице, применимые к вашей службе.
 
-||Задача|Microsoft 365 бизнес стандарт|Microsoft 365 бизнес премиум|
+||Task|Microsoft 365 бизнес стандарт|Microsoft 365 бизнес премиум|
 |---|---|---|---|
 |1|[Настройка многофакторной проверки подлинности](secure-your-business-data.md#setup)|![Включена](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[Обучение пользователей](secure-your-business-data.md#train)|![Включена](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -132,7 +132,7 @@ ms.locfileid: "51050682"
 
 6. Выберите **Сохранить.**
 
-Дополнительные сведения см. в [программе Защита от вредоносных программ в EOP.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/anti-malware-protection)
+Дополнительные сведения см. в [программе Защита от вредоносных программ в EOP.](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-malware-protection)
 
 ## <a name="5-protect-against-ransomware"></a>5. Защита от программ-вымогателей
 <a name="ransomware"> </a>
@@ -207,7 +207,7 @@ ms.locfileid: "51050682"
 ## <a name="7-use-office-message-encryption"></a>7. Использование шифрования сообщений Office
 <a name="encryption"> </a>
 
-Шифрование сообщений Office включено в Microsoft 365. Она уже настроена. С помощью шифрования сообщений Office организация может отправлять и получать зашифрованные сообщения электронной почты между людьми внутри организации и за ее пределами. Шифрование сообщений Office 365 работает с Outlook.com, Yahoo!, Gmail и другими службами электронной почты. Шифрование сообщений электронной почты позволяет убедиться, что только предполагаемые получатели могут просматривать содержимое сообщения.
+Шифрование сообщений Office включено в Microsoft 365. Она уже настроена. С помощью шифрования сообщений Office организация может отправлять и получать зашифрованные сообщения электронной почты между людьми внутри организации и за ее пределами. Шифрование сообщений Office 365 работает с Outlook.com, Yahoo!, Gmail и другими почтовыми службами. Шифрование сообщений электронной почты позволяет убедиться, что только предполагаемые получатели могут просматривать содержимое сообщения.
 
 Шифрование сообщений Office предоставляет два варианта защиты при отправке почты:
 
@@ -254,7 +254,7 @@ ms.locfileid: "51050682"
 
 4. На странице Anti-phishing выберите **+Create**. Мастер запускает этот шаг, определяя политику защиты от фишинга.
 
-5. Укажите имя, описание и параметры политики, как рекомендуется на приведенной ниже диаграмме. Дополнительные сведения см. в дополнительных сведениях о политике защиты от фишинга в [параметрах Microsoft Defender для Office 365.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/set-up-anti-phishing-policies)
+5. Укажите имя, описание и параметры политики, как рекомендуется на приведенной ниже диаграмме. Дополнительные сведения см. в дополнительных сведениях о политике защиты от фишинга в [параметрах Microsoft Defender для Office 365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)
 
 6. После просмотра параметров выберите **Создать** эту политику или **сохранить,** если это необходимо.
 
@@ -270,7 +270,7 @@ ms.locfileid: "51050682"
 |Применяется к|Выберите **Домен получателя**. В разделе **Любой из этих вариантов** щелкните **Выбрать**. Выберите **+ Добавить**. Выберите контрольный ящик рядом с именем домена, например contoso.com, в списке, а затем выберите **Добавить**. Нажмите кнопку **Готово**.|
 |
 
-Дополнительные сведения см. [в сообщении Set up anti-phishing policies in Defender for Office 365.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/configure-atp-anti-phishing-policies)
+Дополнительные сведения см. [в сообщении Set up anti-phishing policies in Defender for Office 365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)
 
 ## <a name="9-protect-against-malicious-attachments-and-files-with-safe-attachments"></a>9. Защита от вредоносных вложений и файлов с помощью безопасных вложений
 <a name="atp"> </a>
@@ -302,7 +302,7 @@ ms.locfileid: "51050682"
 |Применяется к|Домен получателя . . . выберите домен.|
 |
 
-Дополнительные сведения см. [в сообщении Set up anti-phishing policies in Defender for Office 365.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/configure-atp-anti-phishing-policies)
+Дополнительные сведения см. [в сообщении Set up anti-phishing policies in Defender for Office 365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)
 
 ## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10. Защита от фишинговых атак с помощью безопасных ссылок
 <a name="phishingatp"> </a>
@@ -349,4 +349,4 @@ ms.locfileid: "51050682"
 |Применяется к|Домен получателя . . . выберите домен.|
 |
 
-Дополнительные сведения см. в [веб-сайте Безопасные ссылки в Microsoft Defender для Office 365.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/atp-safe-links)
+Дополнительные сведения см. в [веб-сайте Безопасные ссылки в Microsoft Defender для Office 365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)
