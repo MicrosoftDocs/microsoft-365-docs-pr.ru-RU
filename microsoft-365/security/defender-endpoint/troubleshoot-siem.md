@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 7a6bb0c455ed0406c941e9269b8b04b5cfe738be
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c1c8fdb0b6e84d4265defb95d91b59a584b7f4c2
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072877"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185783"
 ---
 # <a name="troubleshoot-siem-tool-integration-issues"></a>Устранение неполадок в интеграции инструментов SIEM
 
@@ -29,7 +29,7 @@ ms.locfileid: "51072877"
 
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 

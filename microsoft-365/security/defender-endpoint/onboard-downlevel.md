@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a70826ee6e245f6744d8fc64eaf06e8cd1bdb265
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b180e7555bb3339324d3b99956d8f8ad73dc13c3
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51069183"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186393"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>На борту предыдущих версий Windows
 
@@ -29,7 +29,7 @@ ms.locfileid: "51069183"
 
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **Платформы**
@@ -63,7 +63,7 @@ Defender for Endpoint интегрируется с системой Center Endp
 
 ## <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>Установка и настройка агента мониторинга Microsoft (MMA) для передачи данных датчиков в Microsoft Defender для конечной точки
 
-### <a name="before-you-begin"></a>Перед началом работы
+### <a name="before-you-begin"></a>Прежде чем начать
 Просмотрите следующие сведения, чтобы проверить минимальные требования к системе:
 - Установка [ежемесячного обновления в феврале 2018 г.](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
   

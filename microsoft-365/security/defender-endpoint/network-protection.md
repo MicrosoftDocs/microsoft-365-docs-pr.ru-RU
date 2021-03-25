@@ -16,19 +16,19 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.date: 03/08/2021
-ms.openlocfilehash: b6069d392da1b8610d018908d172dc27044baffc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 29844d72f4a081db18ab56941fec53eeaf76dd12
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51069381"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186981"
 ---
 # <a name="protect-your-network"></a>Защита сети
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -90,7 +90,7 @@ DeviceEvents
 | 1125 | Событие, когда защита сети загорелась в режиме аудита |
 | 1126 | Событие, когда защита сети загорелась в режиме блокировки |
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Оценка защиты](evaluate-network-protection.md) сети | Создай быстрый сценарий, в который показано, как работает функция и какие события обычно создаются.
 

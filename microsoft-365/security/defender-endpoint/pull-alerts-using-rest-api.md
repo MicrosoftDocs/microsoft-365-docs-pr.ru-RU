@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c8baf74d5f838c583b98fddd7d7d706c6e116a40
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a7d13da6abfb2cd6c829b6fd04fdf94de8cd20b8
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071910"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186873"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>Pull Microsoft Defender for Endpoint detections using SIEM REST API
 
@@ -29,7 +29,7 @@ ms.locfileid: "51071910"
 
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -63,7 +63,7 @@ Microsoft Defender для конечной  точки  поддерживает
 >[!NOTE]
 >Центр безопасности Microsoft Defender объединяет аналогичные обнаружения оповещений в единое оповещение. Этот API извлекает обнаружение оповещений в сыром виде на основе заданных параметров запроса, что позволяет применять собственную группировку и фильтрацию. 
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Прежде чем начать
 - Прежде чем вызывать конечную точку Microsoft Defender для конечной точки для обнаружения, необходимо включить приложение интеграции SIEM в Azure Active Directory (AAD). Дополнительные сведения см. в [веб-сайте Включить интеграцию SIEM в Microsoft Defender для конечной точки.](enable-siem-integration.md)
 
 - Запишите указанные ниже значения при регистрации приложения Azure. Эти значения понадобятся для настройки потока OAuth в вашей службе или управляющей программе.

@@ -21,17 +21,17 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: faaf8aefca7cb3b2e0583ed080e66f5129488d37
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d5339ce795bff1451d6f4caaf37de39f996890be
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074854"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185531"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>Переход на microsoft Defender для конечной точки — этап 1: подготовка
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 | ![Этап 1. Подготовка](images/phase-diagrams/prepare.png)<br/>Этап 1. Подготовка | [![Этап 2. Настройка](images/phase-diagrams/setup.png)](switch-to-microsoft-defender-setup.md)<br/>[Этап 2. Настройка](switch-to-microsoft-defender-setup.md) | [![Этап 3. На борту](images/phase-diagrams/onboard.png)](switch-to-microsoft-defender-onboard.md)<br/>[Этап 3. На борту](switch-to-microsoft-defender-onboard.md) |

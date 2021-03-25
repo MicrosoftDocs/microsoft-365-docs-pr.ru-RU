@@ -1,6 +1,6 @@
 ---
 title: Устранение неполадок в Microsoft Defender для проблем службы конечных точек
-description: Поиск решений и работа с известными вопросами, такими как ошибки сервера при попытке получить доступ к службе.
+description: Поиск решений и обходных решений известных проблем, таких как ошибки сервера при попытке доступа к службе.
 keywords: устранение неполадок защитника Майкрософт для конечной точки, устранение неполадок в Windows ATP, ошибка сервера, отказ в доступе, недействительные учетные данные, отсутствие данных, портал мониторинга, разрешить, просмотр событий
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: bd211a56ee9ed6aa871c8d55149247a4755bc863
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 112f682836da37ddfb51c103282518ff74563727
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072902"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186021"
 ---
 # <a name="troubleshoot-service-issues"></a>Проблемы службы устранения неполадок
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -41,9 +41,9 @@ ms.locfileid: "51072902"
 Настройте браузер, чтобы разрешить файлы cookie.
 
 ## <a name="elements-or-data-missing-on-the-portal"></a>Элементы или данные, отсутствующие на портале
-Если некоторые элементы пользовательского интерфейса или данные отсутствуют в Центре безопасности Microsoft Defender, возможно, параметры прокси-сервера блокируют его.
+Если в Центре безопасности Microsoft Defender отсутствуют некоторые элементы или данные, возможно, параметры прокси-сервера блокируют его.
 
-Убедитесь, `*.securitycenter.windows.com` что этот список включен в список прокси-серверов.
+Убедитесь, `*.securitycenter.windows.com` что он включен в список прокси-серверов.
 
 
 > [!NOTE]
@@ -51,7 +51,7 @@ ms.locfileid: "51072902"
 
 ## <a name="microsoft-defender-for-endpoint-service-shows-event-or-error-logs-in-the-event-viewer"></a>Microsoft Defender для службы конечных точек показывает журналы событий или ошибок в viewer событий
 
-В разделе Обзор событий и ошибок с помощью [viewer](event-error-codes.md) событий см. список ID событий, которые сообщаются службой Microsoft Defender для конечных точек. В этой теме также содержатся действия по устранению неполадок при ошибках событий.
+Обзор [событий и ошибок](event-error-codes.md) с помощью viewer событий см. в списке ID событий, которые сообщаются службой Microsoft Defender для конечных точек. В статье также содержатся действия по устранению неполадок при ошибках событий.
 
 ## <a name="microsoft-defender-for-endpoint-service-fails-to-start-after-a-reboot-and-shows-error-577"></a>Служба Microsoft Defender для конечных точек не удается запустить после перезагрузки и показывает ошибку 577
 

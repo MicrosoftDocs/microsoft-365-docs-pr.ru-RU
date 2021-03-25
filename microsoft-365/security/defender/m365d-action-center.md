@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/01/2021
-ms.openlocfilehash: a9590ba5742bdfab9902d8168e0da2f9f3843221
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c91e5152fc7a64c8d26363383192d6b8d74611b8
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076294"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186765"
 ---
 # <a name="the-action-center"></a>Центр уведомлений
 
@@ -60,7 +60,7 @@ ms.locfileid: "51076294"
 
 Вы можете использовать единый центр действий, если у вас есть соответствующие разрешения и одна или несколько следующих подписок:
 
-- [Defender для конечной точки](../defender-endpoint/microsoft-defender-advanced-threat-protection.md)
+- [Defender для конечной точки](../defender-endpoint/microsoft-defender-endpoint.md)
 - [Defender для Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365)
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 

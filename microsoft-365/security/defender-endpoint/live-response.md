@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d992d98b916f5b59b67706b310edefdb37f157b4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 784e73467efc114f05ebdfca9bc4034e2d75f6c6
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070462"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185711"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>Исследование сущностями на устройствах с использованием живого ответа
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -47,7 +47,7 @@ Live response предназначен для повышения эффекти�
 - Загрузите сценарий PowerShell или исполняемый в библиотеку и запустите его на устройстве с уровня клиента.
 - Принять или отменить действия по исправлению.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Прежде чем инициировать сеанс на устройстве, выполните следующие требования:
 

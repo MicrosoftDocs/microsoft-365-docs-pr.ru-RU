@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Настройте метки конфиденциальности для шифрования, чтобы защитить данные, ограничив доступ к ним и их использование.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b5d25c51560cfe7a4d55419a7de9ce36321e78f
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: e8080a282ef734490214dc5f2b9e18a1946b314c
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034178"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185830"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования
 
@@ -230,9 +230,9 @@ ms.locfileid: "51034178"
 > [!IMPORTANT]
 > Не все клиенты применения меток поддерживают все параметры, разрешающие пользователям назначать собственные разрешения. Используйте этот раздел, чтобы узнать больше.
 
-Вы можете использовать варианты, описанные ниже, чтобы позволить пользователям назначать разрешения, когда они вручную применяют метку конфиденциальности к содержимому.
+Вы можете использовать следующие варианты, чтобы позволить пользователям назначать разрешения, когда они вручную применяют метку конфиденциальности к содержимому.
 
-- В Outlook пользователь может выбрать ограничения, эквивалентные параметру [Не пересылать](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) или [Только шифрование](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) для определенных получателей.
+- В Outlook пользователь может выбрать ограничения, эквивалентные параметру [Не пересылать](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) или [Только шифрование](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) (развертывается в настоящее время) для определенных получателей.
     
     Параметр "Не пересылать" поддерживается всеми почтовыми клиентами, которые поддерживают метки конфиденциальности. Однако применение параметра **Только шифрование** с меткой конфиденциальности — это недавно выпущенная возможность, которая поддерживается только встроенными метками, но не клиентом унифицированных меток Azure Information Protection. В почтовых клиентах, не поддерживающих эту возможность, метка не отображается.
     

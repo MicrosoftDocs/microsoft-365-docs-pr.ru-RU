@@ -16,12 +16,12 @@ ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: ae50d53fbc9bf01d4cd16b939461eecc9ec1a568
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: cd662dc130adc37b3bf8bd06839242ccc9a49f8e
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165181"
+ms.locfileid: "51185973"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Защита важных папок с управляемым доступом к папкам
 
@@ -40,7 +40,7 @@ ms.locfileid: "51165181"
 > [!NOTE]
 > Скрипты не доверяются, и вы не можете разрешить им доступ к управляемым защищенным папок.  Например, PowerShell не доверяется управляемым доступом к папкам, даже если вы позволяете с индикаторами сертификата [и файла](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates). 
 
-Управляемый доступ к папкам лучше всего работает с [Microsoft Defender для конечной](microsoft-defender-advanced-threat-protection.md)точки, что позволяет подробно сообщать о событиях и блоках управляемого доступа к папкам в рамках обычных сценариев расследования оповещений. [](investigate-alerts.md)
+Управляемый доступ к папкам лучше всего работает с [Microsoft Defender для конечной](microsoft-defender-endpoint.md)точки, что позволяет подробно сообщать о событиях и блоках управляемого доступа к папкам в рамках обычных сценариев расследования оповещений. [](investigate-alerts.md)
 
 > [!TIP]
 > Блоки доступа к управляемым папкам не создают оповещений в [очереди Оповещения.](alerts-queue.md) Тем не менее, вы можете просматривать сведения о блоках доступа к контролируемым папкам в представлении временной шкалы [устройства,](investigate-machines.md)при использовании расширенных методов охоты [или](advanced-hunting-overview.md)с пользовательскими [правилами обнаружения.](custom-detection-rules.md)

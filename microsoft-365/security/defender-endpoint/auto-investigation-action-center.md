@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: 6caa1cfe08a20aa824d85966c104a25988b8be53
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: af9e9315088a8dd5da9740b33135551d28664ed7
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165361"
+ms.locfileid: "51186117"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>Посетите центр действий, чтобы увидеть действия по исправлению
 
@@ -46,14 +46,14 @@ ms.locfileid: "51165361"
 
 |Новый единый центр действий  |Предыдущий центр действий  |
 |---------|---------|
-|Списки ожидающих и завершенных действий для устройств и электронной почты в одном расположении <br/>([Microsoft Defender для конечной точки](microsoft-defender-advanced-threat-protection.md) плюс Microsoft Defender для Office [365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp))|Списки ожидающих и завершенных действий для устройств <br/> ([Только для Защитника Майкрософт для конечной](microsoft-defender-advanced-threat-protection.md) точки)   |
+|Списки ожидающих и завершенных действий для устройств и электронной почты в одном расположении <br/>([Microsoft Defender для конечной точки](microsoft-defender-endpoint.md) плюс Microsoft Defender для Office [365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp))|Списки ожидающих и завершенных действий для устройств <br/> ([Только для Защитника Майкрософт для конечной](microsoft-defender-endpoint.md) точки)   |
 |Расположен по адресу:<br/>[https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)         |Расположен по адресу:<br/>[https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center)     |
 | В центре безопасности Microsoft 365 выберите **Центр действий.** <p>:::image type="content" source="images/action-center-nav-new.png" alt-text="Перемещение в Центр действий в центре безопасности Microsoft 365"::: | В Центре безопасности защитника Майкрософт выберите **центр действий**  >  **автоматизированных расследований.** <p>:::image type="content" source="images/action-center-nav-old.png" alt-text="Перемещение в центр действий из Центра безопасности защитника Майкрософт":::  |
 
 Единый центр действий объединяет действия по исправлению в Defender для конечной точки и Defender для Office 365. Он определяет общий язык для всех действий по исправлению и предоставляет унифицированный опыт исследования. 
 
 Вы можете использовать единый центр действий, если у вас есть соответствующие разрешения и одна или несколько следующих подписок:
-- [Defender для конечной точки](microsoft-defender-advanced-threat-protection.md)
+- [Defender для конечной точки](microsoft-defender-endpoint.md)
 - [Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp)
 - [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 
 

@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3e96cf09fd13a4d99546a1c18f9c61f40c362bf8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6af8a6e0e23201f3c5861cb6a28b2bffa0f04ea4
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51069629"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186441"
 ---
 # <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender для конечной точки для Mac
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -54,7 +54,7 @@ ms.locfileid: "51069629"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-for-mac"></a>Установка Microsoft Defender для конечной точки для Mac
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Предварительные условия
 
 - Подписка на конечную точку Defender и доступ к порталу Центра безопасности Защитника Майкрософт
 - Опыт начального уровня в скриптах macOS и BASH

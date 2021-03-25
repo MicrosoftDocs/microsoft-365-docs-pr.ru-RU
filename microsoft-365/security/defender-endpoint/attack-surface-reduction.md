@@ -15,12 +15,12 @@ ms.reviewer: sugamar, jcedola
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: 2bd8442dd8e119a57c490773b6e01a7c5f7adcac
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 62f1f5f2d47482f642f00c870b3e0f3112f5f639
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075421"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185771"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
@@ -112,7 +112,7 @@ ms.locfileid: "51075421"
 - Windows Server, [версия 1803 (полугодовой канал)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
-Хотя правила уменьшения поверхности атаки не требуют лицензии [Windows E5,](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses)если у вас есть Windows E5, вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](microsoft-defender-advanced-threat-protection.md)конечной точки, а также возможности отчетности и конфигурации в центре безопасности [Microsoft 365](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center). Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы просмотра событий и антивирусных журналов Microsoft Defender для просмотра событий правил уменьшения поверхности атаки.
+Хотя правила уменьшения поверхности атаки не требуют лицензии [Windows E5,](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses)если у вас есть Windows E5, вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](microsoft-defender-endpoint.md)конечной точки, а также возможности отчетности и конфигурации в центре безопасности [Microsoft 365](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center). Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы просмотра событий и антивирусных журналов Microsoft Defender для просмотра событий правил уменьшения поверхности атаки.
 
 ## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>Просмотр событий уменьшения поверхности атаки в Центре безопасности Защитника Майкрософт
 

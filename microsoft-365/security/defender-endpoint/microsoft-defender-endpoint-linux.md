@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ce7b15a727ddfa9b0d2bc68b7901f2e79aaf0721
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 84d85b723d4dcbdfc07a074c40241242c57bc390
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072998"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185591"
 ---
 # <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender для конечной точки для Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -43,7 +43,7 @@ ms.locfileid: "51072998"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Установка Microsoft Defender для конечной точки для Linux
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Предварительные условия
 
 - Доступ к порталу Центра безопасности Защитника Майкрософт
 - Дистрибуция Linux с [помощью системного системного](https://systemd.io/) диспетчера
