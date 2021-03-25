@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Просмотр состояния здоровья служб Microsoft 365 перед вызовом службы поддержки, чтобы узнать, существует ли активный перерыв службы.
-ms.openlocfilehash: 3802ca01902d5b0d457d2a3d75b784d38f71bd42
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 30b677a80e5a08d75534a91aa04d735443660f18
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924688"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215484"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Проверка состояния службы Microsoft 365
 
@@ -47,7 +47,7 @@ ms.locfileid: "50924688"
 1. Перейдите в центр администрирования Microsoft 365 и [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) войдите в учетную запись администратора.
 
     > [!NOTE]
-    > Для просмотра сведений о работоспособности требуется роль глобального администратора или администратора службы. Чтобы разрешить администраторам Exchange, SharePoint и Skype для бизнеса просматривать сведения о работоспособности служб, необходимо также назначить им роль администратора служб. Дополнительные сведения о ролях, которые могут просматривать состояние службы, см. в [статью О ролях администратора.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#roles-available-in-the-microsoft-365-admin-center)
+    > Для просмотра сведений о работоспособности требуется роль глобального администратора или администратора службы. Чтобы разрешить администраторам Exchange, SharePoint и Skype для бизнеса просматривать сведения о работоспособности служб, необходимо также назначить им роль администратора служб. Дополнительные сведения о ролях, которые могут просматривать состояние службы, см. в [статью О ролях администратора.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles)
   
 2. Если вы не используете новый центр  администрирования, на домашней странице выберите **метод Try the new admin center** toggle в верхнем правом углу.
 
@@ -124,7 +124,7 @@ ms.locfileid: "50924688"
 
 ### <a name="status-definitions"></a>Определения состояний
 
-| Status | Определение |
+| Состояние | Определение |
 |:-----|:-----|
 |**Изучается** | Мы знаем о возможной проблеме и собираем дополнительные сведения о ней и ее влиянии. |
 |**Производительность службы снижена** | Мы подтвердили, что проблема может повлиять на использование служб или функций. Это состояние может отображаться, если служба работает медленнее, чем обычно, периодически возникают прерывания или если недоступна определенная функция. |
@@ -150,7 +150,8 @@ ms.locfileid: "50924688"
   
 Дополнительные сведения о нашем обязательстве по простоям см. в веб-сайте [Transparent operations from Microsoft 365.](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)
 
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Статьи по теме
 
 [Отчеты об активности в центре администрирования Microsoft 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
- [Предпочтения центра сообщений](../admin/manage/message-center.md?preserve-view=true&view=o365-worldwide#preferences11)
+ [Предпочтения центра сообщений](../admin/manage/message-center.md?preserve-view=true&view=o365-worldwide#preferences)<br/>
+[Проверка состояния здоровья выпуска Windows в центре администрирования](https://docs.microsoft.com/windows/deployment/update/check-release-health)

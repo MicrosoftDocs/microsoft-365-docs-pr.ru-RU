@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Пользователи могут узнать, как просматривать и действовать в карантинных сообщениях, отправленных в общие почтовые ящики, на которые у них есть разрешения.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9490a9d5b2b4191d6c039be2758e2e0ba0c981cd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6e3bf4c84e7a762f7f54f42ff61f0fbdb9dc1edd
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206248"
+ms.locfileid: "51215508"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>Просмотр и освобождение карантинов сообщений из общих почтовых ящиков
 
@@ -51,7 +51,9 @@ ms.locfileid: "51206248"
 
 - В настоящее время кнопка **отправитель** блока недоступна в флажке **Details** для карантинов, отправленных в общий почтовый ящик.
 
-- Чтобы управлять карантинными сообщениями для общего почтового ящика [в Exchange Online PowerShell,](/powershell/exchange/connect-to-exchange-online-powershell)конечному пользователю потребуется использовать для идентификации сообщений комлет [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) с общим почтовым адресом для значения параметра _RecipientAddress._ Пример.
+- Что касается операций карантина для общих почтовых ящиков, то при использовании вложенных групп безопасности для предоставления доступа к общему почтовому ящику рекомендуется не более двух уровней вложенных групп. Например, группа A входит в группу B, которая входит в группу C. Чтобы назначить разрешения для общего почтового ящика, не добавляйте пользователя в группу А, а затем назначьте группу C в общий почтовый ящик.  
+
+- Чтобы управлять карантинными сообщениями для общего почтового ящика [в Exchange Online PowerShell,](/powershell/exchange/connect-to-exchange-online-powershell)конечному пользователю потребуется использовать для идентификации сообщений комлет [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) с общим почтовым адресом для значения параметра _RecipientAddress._ Пример:
 
   ```powershell
   Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com
