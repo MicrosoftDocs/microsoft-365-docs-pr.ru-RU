@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, какая подписка Microsoft 365 является правильной для вашей организации.
-ms.openlocfilehash: 0ac7dbcad1f2d7fa99db607e6d4696c9f8fcb542
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19da01142bfe0abf2ad02c3a0ccab4ef25e09df4
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913758"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164649"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>Выберите подписку microsoft 365
 
@@ -54,7 +54,6 @@ ms.locfileid: "50913758"
 | **Социальные, видео, сайты** | Stream, Yammer, Planner, SharePoint \* Online, PowerApps, \* Microsoft Flow\* | Да | Да | Да |
 | **Бизнес-приложения** | Планирование приложений — бронирование\*\* | Да | Да | Да |
 |
- | Бизнес-приложения - MileIQ\*\* | Да | Да | Нет |
 | **Защита от угроз** | Office 365 Advanced Threat Protection | Нет | Да | Нет |
  | Правоприменители Windows Exploit Guard | Нет | Да | Нет |
 | **Управление удостоверением** | Сброс пароля самообслуживки для гибридных учетных записей Azure Active Directory | Нет | Да | Нет |

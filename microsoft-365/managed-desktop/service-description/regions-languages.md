@@ -4,15 +4,20 @@ description: Регионы и языки, поддерживаемые Microsof
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
+f1.keywords:
+- NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 36766b162c703c87967a017eac84945dd936ca2b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+manager: laurawi
+ms.topic: article
+audience: Admin
+ms.openlocfilehash: 5fbf18247626bdfcfe5dcb04c8ba892ffa7a140f
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920412"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51163475"
 ---
 # <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Поддерживаемые Microsoft Managed Desktop регионы и языки
 
@@ -23,7 +28,7 @@ ms.locfileid: "50920412"
 Английский — это единственный язык, доступный пользователям microsoft Managed Desktop. Эта политика включает все пользовательские интерфейсы для пользователей и администраторов, а также все взаимодействия с поддержкой [администратора](../working-with-managed-desktop/admin-support.md) и [поддержкой пользователей.](../working-with-managed-desktop/end-user-support.md)
 
 
-Вы по-прежнему можете использовать управляемые устройства за пределами англоязычных регионов, не прерывая работу службы управляемых настольных компьютеров Майкрософт. Например, сотрудник из Великобритании может безопасно работать и получать обновления на управляемом устройстве во время путешествий по Азии, Европе или Южной Америке. 
+Вы по-прежнему можете использовать управляемые устройства за пределами англоязычных регионов, не прерывая работу службы управляемых настольных компьютеров Майкрософт. Например, сотрудник из Великобритании может безопасно работать и получать обновления на управляемом устройстве во время поездок в Азию, Европу или Южную Америку. 
 
 Дополнительные сведения о поддержке пользователей с управляемым рабочим столом Microsoft см. в ссылке [Support for Microsoft Managed Desktop.](./support.md)
 

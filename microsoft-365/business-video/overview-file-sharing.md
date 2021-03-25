@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор того, как обмениваться бизнес-файлами.
-ms.openlocfilehash: b481e7564625fcd019a53ba9116acdb724b4af61
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 6066bb2b1f1ea4fb4fac6a2d9d08dbd19d6cb7b0
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422367"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164601"
 ---
 # <a name="overview-of-sharing-business-files"></a>Обзор общего доступа к бизнес-файлам
 
@@ -33,6 +33,10 @@ ms.locfileid: "50422367"
 
 |![Безопасное совместное](../media/securely-share-file.png)<br/>[Поделитесь файлом с кем-либо за пределами вашей компании](#share-a-file-with-someone-outside-of-your-company)|![Сотрудничество с клиентом](../media/share-and-collab-with-partner.png) <br/>[Совместное взаимодействие с клиентом или бизнес-партнером](#share-and-collaborate-with-a-client-or-business-partner) | ![Share inside your org](../media/share-inside-your-org.png) <br/>[Share inside your business](#share-inside-your-business) |
 |--|--|--|
+
+Скачайте инфографику, чтобы получить краткий обзор способов обмена бизнес-файлами. 
+
+[PDF](https://go.microsoft.com/fwlink/?linkid=2079435)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438)
 
 ## <a name="share-a-file-with-someone-outside-of-your-company"></a>Поделитесь файлом с кем-либо за пределами вашей компании
 
@@ -68,7 +72,3 @@ ms.locfileid: "50422367"
 - [Share files and folders with OneDrive](https://support.microsoft.com/en-us/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
 - [Создание всей компании](https://support.microsoft.com/en-us/office/create-an-org-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
 - [Добавление гостей в команду](https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-teams-fccb4fa6-f864-4508-bdde-256e7384a14f)
-
-Скачайте инфографику, чтобы получить краткий обзор способов обмена бизнес-файлами. 
-
-[PDF](https://go.microsoft.com/fwlink/?linkid=2079435)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438)

@@ -173,6 +173,8 @@
           href: /sharepoint/intelligent-internet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
         - name: Руководство по OneDrive для предприятий
           href: /onedrive/plan-onedrive-enterprise?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+        - name: Перенос общих папок в Microsoft 365
+          href: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Безопасность
       items:
         - name: Основные задачи для отделов обеспечения безопасности при поддержке работы из дома
@@ -180,7 +182,7 @@
         - name: 'Безопасность Microsoft 365 для лиц, принимающих деловые решения (BDM)'
           href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Конфигурации доступа для удостоверений и устройств
-          href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/microsoft-365/security/defender-365-security/microsoft-365-policies-configurations?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Развертывание Microsoft Defender для конечной точки
           href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Соответствие требованиям

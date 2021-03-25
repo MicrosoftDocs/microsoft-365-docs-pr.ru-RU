@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как перейти на другой план.
-ms.openlocfilehash: 62d6da5713a7785fde9e795bc22956d73616c3c3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5f853dcd0d247a6422489cbe5d0287765bfd72a6
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924318"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164453"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Переход на другой план
 
@@ -92,7 +92,7 @@ ms.locfileid: "50924318"
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>Теперь нельзя обновить подписки, так как у вас больше пользователей, чем лицензий.
 
-Для автоматического обновления планов всем пользователям должны быть назначены действительные лицензии. Если вы назначили больше лицензий, чем приобрели, на странице <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a> появляется предупреждение о конфликте лицензирования, который необходимо устранить. [Узнайте, как устранить конфликты лицензий](../../admin/manage/resolve-license-conflicts.md). После разрешения любых конфликтов лицензирования следует увидеть планы, перечисленные на вкладке **Обновление.** Если нет, можно [изменить планы вручную](change-plans-manually.md)или вызвать [службу поддержки.](../../admin/contact-support-for-business-products.md)
+Для автоматического обновления планов всем пользователям должны быть назначены действительные лицензии. Если вы назначили больше лицензий, чем приобрели, на странице <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a> появляется предупреждение о конфликте лицензирования, который необходимо устранить. [Узнайте, как устранить конфликты лицензий](../../commerce/licenses/buy-licenses.md). После разрешения любых конфликтов лицензирования следует увидеть планы, перечисленные на вкладке **Обновление.** Если нет, можно [изменить планы вручную](change-plans-manually.md)или вызвать [службу поддержки.](../../admin/contact-support-for-business-products.md)
 
 #### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>Вы не можете обновить подписки прямо сейчас, так как эта подписка не настроена полностью или служба недоступна.
 
@@ -179,7 +179,7 @@ ms.locfileid: "50924318"
 
 [Вызов службы поддержки Майкрософт](../../admin/contact-support-for-business-products.md)
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Изменение планов вручную](change-plans-manually.md)
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Будь то добавление новых решений в центр соответствия требованиям, обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 помогает вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. Узнайте, чем мы были в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed29ad5186972f56609a596d88a48c7c460f295f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c695bc2632e766eb6f14c4e9f7eabbbddff66fd2
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905861"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164978"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "50905861"
 > Некоторые функции соответствия требованиям выкатываются с разной скоростью для наших клиентов. Если вы еще не видите функцию, попробуйте добавить себя в [целевой выпуск](/office365/admin/manage/release-options-in-office-365).
 
 > [!TIP]
-> Интересует, что происходит в других центрах администрирования? Ознакомьтесь с этими статьями:<br>[Новые возможности центра администрирования Microsoft 365](/office365/admin/whats-new-in-preview)<br>[Новые возможности центра администрирования SharePoint](/sharepoint/what-s-new-in-admin-center)<br>[Новые возможности Microsoft 365 Defender](../security/mtp/whats-new.md)<br><br>
+> Интересует, что происходит в других центрах администрирования? Ознакомьтесь с этими статьями:<br>[Новые возможности центра администрирования Microsoft 365](/office365/admin/whats-new-in-preview)<br>[Новые возможности центра администрирования SharePoint](/sharepoint/what-s-new-in-admin-center)<br>[Новые возможности Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
 И посетите дорожную карту [Microsoft 365,](https://www.microsoft.com/en-us/microsoft-365/roadmap) чтобы узнать о запущенных, которые находятся в разработке, отменены или ранее выпущены.
 
 ## <a name="january-2021"></a>Январь 2021 г.
@@ -66,7 +66,7 @@ ms.locfileid: "50905861"
 - [Новая страница для решений по инсайдерской опасности.](insider-risk-solution-overview.md) Включает сведения о рисках, которые решения могут помочь смягчить, требования к лицензированию, последовательность развертывания, иллюстрации к архитектуре, учебные ресурсы и другие.
 - Новые статьи обзоров для каждого решения по инсайдерской опасности. Руководство и ссылки на статьи, которые помогут вам узнать, спланировать, развернуть и управлять каждым решением:
   - [Соответствие требованиям к обмену данными](communication-compliance-solution-overview.md)
-  - [Управление внутренними рисками](insider-risk-management-solution-overview.md)
+  - [Управление рисками изнутри](insider-risk-management-solution-overview.md)
   - [Информационные барьеры](information-barriers-solution-overview.md)
   - [Управление привилегированным доступом](privileged-access-management-solution-overview.md)
   
@@ -78,7 +78,7 @@ ms.locfileid: "50905861"
 
 ### <a name="data-connectors"></a>Соединители данных
 
-Выпущены четыре новых [соединителя Globanet:](archiving-third-party-data.md#third-party-data-connectors)Redtail Speak, Salesforce Chatter, ServiceNow и Yieldbroker.
+Выпущено четыре новых соединителя [Veritas:](archiving-third-party-data.md#third-party-data-connectors)Redtail Speak, Salesforce Chatter, ServiceNow и Yieldbroker.
 
 ### <a name="encryption"></a>Шифрование
 
@@ -122,7 +122,7 @@ ms.locfileid: "50905861"
 
 ### <a name="data-connectors"></a>Соединители данных
 
-[Пять новых соединителиков Globanet в предварительном просмотре](archiving-third-party-data.md#third-party-data-connectors). Новые соединители включают в себя сведения о сделках с Reuters, Reuters FX, CellTrust, XIP, общие данные ms SQL базы данных.
+[Пять новых соединители Veritas в предварительном просмотре](archiving-third-party-data.md#third-party-data-connectors). Новые соединители включают в себя сведения о сделках с Reuters, Reuters FX, CellTrust, XIP, общие данные ms SQL базы данных.
 
 ### <a name="retention-labels-disposition-review"></a>Метки хранения (обзор диспозиции)
 
@@ -169,7 +169,7 @@ ms.locfileid: "50905861"
 
 ### <a name="data-connectors"></a>Соединители данных
 
-- [Новые сторонние соединители данных.](archiving-third-party-data.md#third-party-data-connectors) 25 новых соединители данных, в том числе 14 соединителен от Globanet и 8 от Telemessage.
+- [Новые сторонние соединители данных.](archiving-third-party-data.md#third-party-data-connectors) 25 новых соединители данных, в том числе 14 соединителен от Veritas и 8 от Telemessage.
 - [Физический соединители badging](import-physical-badging-data.md). Импорт физических данных, таких как необработанные события физического доступа сотрудника или любые физические сигналы тревоги доступа, созданные системой злонабжений вашей организации. Примеры включают записи в здания, серверные комнаты или центры обработки данных. Физические плохие данные можно использовать в решении по управлению рисками для защиты организации от вредоносных действий или кражи данных внутри организации.
 
 ### <a name="insider-risk-management"></a>Управление внутренними рисками
@@ -210,7 +210,7 @@ ms.locfileid: "50905861"
 
 Несколько новых и улучшенных функций попали в общедоступный предварительный просмотр в этом месяце:
 
-**Управление внутренними рисками**
+**Управление рисками изнутри**
 
 - Ознакомьтесь с шестью [новыми шаблонами политики:](insider-risk-management-policies.md#policy-templates)
     - Утечки данных приоритетными пользователями

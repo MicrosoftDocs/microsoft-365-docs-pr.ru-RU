@@ -1,0 +1,214 @@
+---
+title: Включить правила уменьшения поверхности атаки
+description: Включить правила уменьшения поверхности атаки для защиты устройств от атак с использованием макросов, скриптов и распространенных методов впрыскивания.
+keywords: Уменьшение поверхности атаки, бедра, система предотвращения вторжения на хост, правила защиты, антиэкспозиция, антиэкспплойт, эксплойт, профилактика инфекции, включить, включить
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: manage
+ms.sitesec: library
+ms.pagetype: security
+localization_priority: Normal
+audience: ITPro
+author: levinec
+ms.author: ellevin
+ms.reviewer: ''
+manager: dansimp
+ms.technology: mde
+ms.openlocfilehash: 1deec767c6af777b23ab5a91c9e719f690e0c048
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165145"
+---
+# <a name="enable-attack-surface-reduction-rules"></a>Включить правила уменьшения поверхности атаки
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**Область применения:**
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+>Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+
+[Правила уменьшения поверхности](attack-surface-reduction.md) атаки (правила ASR) помогают предотвратить действия, которые вредоносные программы часто используют для компрометации устройств и сетей. Вы можете установить правила ASR для устройств, работающих с любыми из следующих выпусков и версий Windows:
+- Windows 10 Pro, [версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- Windows 10 Enterprise, [версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- Windows Server, [версия 1803 (полугодовой канал)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
+- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+Каждое правило ASR содержит один из трех параметров:
+
+- Не настроено: отключить правило ASR
+- Блок: Включить правило ASR
+- Аудит. Оцените, как правило ASR повлияет на организацию, если включено
+
+Настоятельно рекомендуется использовать правила ASR с лицензией Windows E5 (или аналогичный SKU лицензирования), чтобы использовать расширенные возможности мониторинга и отчетности, доступные в Microsoft Defender for Endpoint (Defender for [Endpoint).](https://docs.microsoft.com/windows/security/threat-protection) Однако для других лицензий, таких как Windows Professional или E3, которые не имеют доступа к расширенным возможностям мониторинга и отчетности, можно разработать собственные средства мониторинга и отчетности в верхней части событий, которые создаются на каждой конечной точке при запуске правил ASR (например, переадмиссии событий).
+
+> [!TIP]
+> Дополнительные информацию о лицензировании Windows см. в руководстве по лицензированию [Windows 10](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) и руководстве по лицензированию томов [для Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
+
+Вы можете включить правила уменьшения поверхности атаки с помощью любого из этих методов:
+
+- [Microsoft Intune](#intune)
+- [Управление мобильными устройствами (MDM)](#mdm)
+- [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
+- [Групповая политика](#group-policy)
+- [PowerShell](#powershell)
+
+Рекомендуется управление на корпоративном уровне, например Intune или Microsoft Endpoint Manager. Управление на уровне предприятия перезаписывает любые противоречивые параметры групповой политики или PowerShell при запуске.
+
+## <a name="exclude-files-and-folders-from-asr-rules"></a>Исключение файлов и папок из правил ASR
+
+Вы можете исключить оценку файлов и папок большинством правил уменьшения поверхности атаки. Это означает, что даже если правило ASR определяет файл или папку с вредоносным поведением, оно не будет блокировать работу файла. Это потенциально может позволить небезопасным файлам запускать и заражать устройства.
+
+Вы также можете исключить запуск правил ASR на основе хеш-файлов сертификатов и файлов, разрешив указанные индикаторы файла и сертификата Defender для конечной точки. [(См. управление индикаторами.)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators)
+
+> [!IMPORTANT]
+> Исключение файлов или папок может серьезно уменьшить защиту, предоставляемую правилами ASR. Исключенные файлы будут разрешены для запуска, и отчет или событие не будут записаны.
+> Если правила ASR обнаруживают файлы, которые, как вы считаете, не следует обнаруживать, сначала следует использовать режим аудита для [проверки правила.](evaluate-attack-surface-reduction.md)
+
+
+Вы можете указать отдельные файлы или папки (с помощью путей папок или полностью квалифицированных имен ресурсов), но вы не можете указать правила, к которым применяются исключения. Исключение применяется только при старте исключенного приложения или службы. Например, если добавлено исключение для уже запущенной службы обновления, служба обновления будет продолжать запускать события до тех пор, пока служба не будет остановлена и перезапущена.
+
+Правила ASR поддерживают переменные среды и подкарды. Сведения об использовании подмастерьев см. в материалах [Use wildcards in the file name and folder path or extension exclusion lists.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
+
+Следующие процедуры включения правил ASR включают инструкции по исключению файлов и папок.
+
+## <a name="intune"></a>Intune
+
+1. Выберите **профили**  >  **конфигурации устройств.** Выберите существующий профиль защиты конечной точки или создайте новый. Чтобы создать новый, выберите **Создать профиль** и ввести сведения для этого профиля. Для **типа профиля** выберите защиту **конечных точек.** Если вы выбрали существующий профиль, выберите **свойства** и выберите **Параметры.**
+
+2. В области **защиты конечных** точек выберите Защитник Windows **Exploit Guard**, а затем выберите **сокращение поверхности атаки.** Выберите нужный параметр для каждого правила ASR.
+
+3. В **соответствии с исключениями для** уменьшения поверхности атаки введите отдельные файлы и папки. Вы также можете выбрать **Импорт для** импорта CSV-файла, который содержит файлы и папки, чтобы исключить из правил ASR. Каждая строка в CSV-файле должна быть отформатирована следующим образом:
+
+   `C:\folder`, `%ProgramFiles%\folder\file`, `C:\path`
+
+4. Выберите **ОК** на трех стемнах конфигурации. Затем выберите **Создать,** если вы создаете новый файл защиты конечной точки или **сохраните,** если вы редактируете существующий.
+
+## <a name="mdm"></a>MDM
+
+Используйте [поставщика служб конфигурации ./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductionrules) для индивидуального включить и задать режим для каждого правила.
+
+Ниже приводится пример для справки с использованием [значений GUID для правил ASR.](attack-surface-reduction.md#attack-surface-reduction-rules)
+
+`OMA-URI path: ./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules`
+
+`Value: 75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=2|3B576869-A4EC-4529-8536-B80A7769E899=1|D4F940AB-401B-4EfC-AADC-AD5F3C50688A=2|D3E037E1-3EB8-44C8-A917-57927947596D=1|5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=0|BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=1`
+
+Значения, которые необходимо включить, отключить или включить в режиме аудита:
+
+- Отключение = 0
+- Блок (включить правило ASR) = 1
+- Аудит = 2
+
+Для добавления исключений используйте поставщика служб конфигурации [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions.](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions)
+
+Пример.
+
+`OMA-URI path: ./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions`
+
+`Value: c:\path|e:\path|c:\Exclusions.exe`
+
+> [!NOTE]
+> Обязательно введите значения OMA-URI без пробелов.
+
+## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
+
+1. В Microsoft Endpoint Configuration Manager перейдите в **службу Assets and**  >  **Compliance Endpoint Protection** Защитник Windows Exploit  >  **Guard.**
+
+2. Выберите   >  **домашнее создание политики защиты от эксплойтов**.
+
+3. Введите имя и описание, выберите **сокращение поверхности атаки** и выберите **Далее.**
+
+4. Выберите правила, которые будут блокировать действия или аудит, и выберите **Далее**.
+
+5. Просмотрите параметры и выберите **Далее,** чтобы создать политику.
+
+6. После создания политики **закрой**.
+
+## <a name="group-policy"></a>Групповая политика
+
+> [!WARNING]
+> Если управлять компьютерами и устройствами с помощью Intune, Configuration Manager или другой платформы управления на корпоративном уровне, программное обеспечение управления перезаписает все противоречивые параметры групповой политики при запуске.
+
+1. На компьютере управления групповой политикой откройте консоль управления групповой политикой [правой](https://technet.microsoft.com/library/cc731212.aspx)кнопкой мыши объект групповой политики, который необходимо настроить, и выберите **Изменить**.
+
+2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и выберите **административные шаблоны.**
+
+3. Расширь дерево до **компонентов Microsoft** Defender Antivirus Защитник Windows с уменьшением поверхности  >    >  **атаки guard.**  >  
+
+4. Выберите **Настройка правил уменьшения поверхности атаки и** выберите **Включено.** Затем можно установить отдельное состояние для каждого правила в разделе параметры.
+
+   Выберите **Показать...** и введите ID правила в столбце **Имя** значения и выбранное состояние в столбце **Значение** следующим образом:
+
+   - Отключение = 0
+   - Блок (включить правило ASR) = 1
+   - Аудит = 2
+
+   ![Параметр групповой политики, показывающий пустой ID правила уменьшения поверхности атаки и значение 1](/microsoft-365/security/defender-endpoint/images/asr-rules-gp)
+
+5. Чтобы исключить файлы и папки из правил ASR, выберите исключить файлы и пути из настройки правил уменьшения поверхности **Атаки** и установите параметр **Включено**. Выберите **Показать и** ввести каждый файл или папку в столбце Имя **значения.** Введите **0** в **столбце Значение** для каждого элемента.
+
+> [!WARNING]
+> Не используйте кавычка, так как они не поддерживаются ни для столбца **value name,** ни для **столбца Value.**
+
+## <a name="powershell"></a>PowerShell
+
+> [!WARNING]
+> Если управлять компьютерами и устройствами с помощью Intune, Configuration Manager или другой платформы управления на корпоративном уровне, программное обеспечение управления перезаписает все противоречивые параметры PowerShell при запуске. Чтобы разрешить пользователям определять значение с помощью PowerShell, используйте параметр "User Defined" для правила в платформе управления.
+
+1. Введите **powershell** в меню Пуск, щелкните правой кнопкой мыши **Windows PowerShell** выберите **Выполнить в качестве администратора**.
+
+2. Введите следующий cmdlet:
+
+    ```PowerShell
+    Set-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Enabled
+    ```
+
+    Чтобы включить правила ASR в режиме аудита, используйте следующий cmdlet:
+
+    ```PowerShell
+    Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions AuditMode
+    ```
+
+    Чтобы отключить правила ASR, используйте следующий cmdlet:
+
+    ```PowerShell
+    Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Disabled
+    ```
+
+    > [!IMPORTANT]
+    > Необходимо указать состояние отдельно для каждого правила, но можно объединить правила и состояния в отдельном списке запятой.
+    >
+    > В следующем примере будут включены первые два правила, третье правило будет отключено, а четвертое правило будет включено в режиме аудита:
+    >
+    > ```PowerShell
+    > Set-MpPreference -AttackSurfaceReductionRules_Ids <rule ID 1>,<rule ID 2>,<rule ID 3>,<rule ID 4> -AttackSurfaceReductionRules_Actions Enabled, Enabled, Disabled, AuditMode
+    > ```
+
+    Для добавления новых правил в существующий список можно также использовать глагол `Add-MpPreference` PowerShell.
+
+    > [!WARNING]
+    > `Set-MpPreference` всегда переопишет существующий набор правил. Если вы хотите добавить к существующему набору, вместо этого следует `Add-MpPreference` использовать.
+    > Вы можете получить список правил и их текущего состояния с помощью `Get-MpPreference` .
+
+3. Чтобы исключить файлы и папки из правил ASR, используйте следующий cmdlet:
+
+    ```PowerShell
+    Add-MpPreference -AttackSurfaceReductionOnlyExclusions "<fully qualified path or resource>"
+    ```
+
+    Продолжайте использовать для добавления в список дополнительных файлов `Add-MpPreference -AttackSurfaceReductionOnlyExclusions` и папок.
+
+    > [!IMPORTANT]
+    > Используйте `Add-MpPreference` для добавления или добавления приложений в список. С помощью `Set-MpPreference` этого комлета будет переописывать существующий список.
+
+## <a name="related-articles"></a>Связанные статьи
+
+- [Уменьшение поверхностей атаки с помощью правил уменьшения поверхности атаки](attack-surface-reduction.md)
+
+- [Оценка уменьшения поверхности атаки](evaluate-attack-surface-reduction.md)
+
+- [FaQ уменьшения поверхности атаки](attack-surface-reduction.md)

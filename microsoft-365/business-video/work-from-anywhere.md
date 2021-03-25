@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор того, как Microsoft 365 помогает работать из любого места.
-ms.openlocfilehash: 7c3a0ee4b69f7fa4e07064f0adc108afe70bd54d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: f68c2f4b05437dd5cb29a3588a4878f464c5566a
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421685"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164565"
 ---
 # <a name="work-from-anywhere---overview"></a>Работа из любой точки — обзор
 
@@ -33,7 +33,11 @@ ms.locfileid: "50421685"
 
 **Совет Pro:** Следите за балансом между работой и жизнью, отключая уведомления для ваших приложений на личных устройствах.
 
-Используйте четыре советы ниже, чтобы работать, где бы вы ни были: Скачайте инфографику, чтобы получить советы по работе из любого места: [PDF,](https://go.microsoft.com/fwlink/?linkid=2079451) [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455)
+Используйте четыре советы ниже, чтобы работать, где бы вы ни были.
+
+Скачайте инфографику, чтобы получить советы по работе из любого места: 
+
+[PDF](https://go.microsoft.com/fwlink/?linkid=2079451)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455)
 
 **Думаете о том, чтобы регулярно работать из дома?**
 
