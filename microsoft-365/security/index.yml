@@ -3,7 +3,7 @@ title: Документация по безопасности Microsoft 365
 summary: Узнайте о надежных решениях и службах безопасности в Microsoft 365 для улучшения защиты вашей организации от разных направлений атак.
 metadata:
   title: Документация по безопасности Microsoft 365
-  description: Узнайте о надежных решениях и службах безопасности в Microsoft 365 для улучшения защиты вашей организации от разных направлений атак
+  description: Узнайте о Microsoft Defender для конечной точки — о том, как он защищает конечные точки от киберугроз и какие возможности предоставляет оперативным группам безопасности для устранения угроз.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -11,34 +11,34 @@ metadata:
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
-  ms.date: 09/13/2019
+  ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: 6a670287c98d185e4b9acfeb39715c5e1ddf177a
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: 7d8ccae1b9185beacef027e6e0c73db2a1fdd017
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50928980"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51052414"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
     - text: Что такое Microsoft 365 Defender?
-      url: mtp/microsoft-threat-protection.md
+      url: defender/microsoft-365-defender.md
     - text: Центр безопасности Microsoft 365
-      url: mtp/overview-security-center.md
+      url: defender/overview-security-center.md
 - title: Начало работы с бесплатными пробными версиями
   linkLists:
-  - linkListType: overview
+  - linkListType: get-started
     links:
     - text: Оценка Microsoft 365 Defender
-      url: mtp/mtp-evaluation.md
+      url: defender/m365d-evaluation.md
     - text: Сборник схем пилотного проекта Microsoft 365 Defender
-      url: mtp/mtp-pilot.md
+      url: defender/m365d-pilot.md
 - title: Защита удаленных сотрудников
   linkLists:
-  - linkListType: get-started
+  - linkListType: how-to-guide
     links:
     - text: Защита удаленных сотрудников
       url: /enterprise-mobility-security/remote-work/
@@ -55,10 +55,10 @@ landingContent:
   - linkListType: overview
     links:
     - text: Что такое Defender для Office 365?
-      url: office-365-security/office-365-atp.md
+      url: defender-365-security/defender-for-office-365.md
     - text: Описание службы Defender для Office 365
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Defender для конечной точки
+- title: Microsoft Defender для конечной точки
   linkLists:
   - linkListType: overview
     links:
@@ -87,7 +87,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: Оценка безопасности
-      url: mtp/microsoft-secure-score.md
+      url: defender/microsoft-secure-score.md
 - title: Azure Sentinel
   linkLists:
   - linkListType: overview
