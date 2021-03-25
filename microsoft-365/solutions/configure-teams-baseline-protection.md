@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как развернуть команды с базовым уровнем защиты.
-ms.openlocfilehash: 678e9824682339afda32342e70848492b738ec6d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: cd5a88069b9947bd4dcb01f6ca76620bb8ed9a52
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052509"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200297"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Настройка команд с базовым уровнем защиты
 
@@ -31,15 +31,15 @@ ms.locfileid: "51052509"
 
 ## <a name="initial-protections"></a>Начальная защита
 
-На первом этапе рекомендуется настроить базовые политики удостоверений и доступа к устройствам. Дополнительные сведения см. в статье [Рекомендации по политикам безопасности для чатов, групп и файлов Teams](../security/defender-365-security/teams-access-policies.md).
+На первом этапе рекомендуется настроить базовые политики удостоверений и доступа к устройствам. Дополнительные сведения см. в статье [Рекомендации по политикам безопасности для чатов, групп и файлов Teams](../security/office-365-security/teams-access-policies.md).
 
 Мы также рекомендуем включить основные функции Defender для Office 365 с целью защиты от вредоносных программ в документах, вложениях и ссылках. Рекомендуем включить все параметры, указанные в таблице ниже.
 
 |Параметр|Информация|
 |:------|:-----------|
-|Безопасные вложения для SPO, OneDrive и Teams|[Безопасные вложения](../security/defender-365-security/safe-attachments.md)<br>[Defender для Office 365 — SharePoint, OneDrive и Microsoft Teams](../security/defender-365-security/mdo-for-spo-odb-and-teams.md)|
-|Безопасные документы|[Безопасные документы в Microsoft Defender для Office 365](../security/defender-365-security/safe-docs.md)|
-|Безопасные ссылки для Teams|[Безопасные ссылки Office 365 в Teams](../security/defender-365-security/safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[Безопасные ссылки](../security/defender-365-security/safe-links.md)|
+|Безопасные вложения для SPO, OneDrive и Teams|[Безопасные вложения](../security/office-365-security/safe-attachments.md)<br>[Defender для Office 365 — SharePoint, OneDrive и Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)|
+|Безопасные документы|[Безопасные документы в Microsoft Defender для Office 365](../security/office-365-security/safe-docs.md)|
+|Безопасные ссылки для Teams|[Безопасные ссылки Office 365 в Teams](../security/office-365-security/safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[Безопасные ссылки](../security/office-365-security/safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Предоставление общего доступа гостям в Teams
 

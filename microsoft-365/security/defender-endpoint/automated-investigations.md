@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: d2effb44c145a4fbf1006446685dbcd703754e6e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7143a360fb7093f94c6f66373587e1c895dd3213
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166213"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200309"
 ---
 # <a name="overview-of-automated-investigations"></a>Обзор автоматизированных расследований
 
@@ -99,5 +99,5 @@ ms.locfileid: "51166213"
 ## <a name="see-also"></a>См. также
 
 - [Защита PUA](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Автоматическое расследование и ответ в Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-air)
+- [Автоматическое расследование и ответ в Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
 - [Автоматическое исследование и ответ в Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)

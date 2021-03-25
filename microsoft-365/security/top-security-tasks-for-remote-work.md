@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Защитите свою бизнес-почту и данные от киберугроз, в том числе программ-вымогателей, фишинга и вредоносных вложений.
-ms.openlocfilehash: 4bc465af99f02edf91dacceaae14d39b3156e103
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9d24381b5947049c506b19553a2ab3d77b95d7c8
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052426"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200321"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Топ-12 задач для групп безопасности для поддержки работы из дома
 
@@ -40,7 +40,7 @@ ms.locfileid: "51052426"
 
 ****
 
-|Действие|Задача|Все корпоративные планы Office 365|Microsoft 365 E3|Microsoft 365 E5|
+|Действие|Task|Все корпоративные планы Office 365|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
 |1|[Включить многофакторную проверку подлинности Azure AD (MFA)](#1-enable-azure-ad-multi-factor-authentication-mfa)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[Защита от угроз](#2-protect-against-threats)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -70,11 +70,11 @@ ms.locfileid: "51052426"
 
 ****
 
-|План|Рекомендация|
+|Планирование|Рекомендация|
 |---|---|
 |Планы Microsoft 365 (без Azure AD P1 или P2)|[Включите параметры безопасности, по умолчанию заданные в Azure AD](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.|
 |Microsoft 365 E3 (с Azure AD P1)|Используйте [Общие политики условного доступа](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br/>- [Обязательное использование MFA для администраторов](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br/>- [Обязательное использование MFA для всех пользователей](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br/> - [Блокирование традиционной проверки подлинности](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)|
-|Microsoft 365 E5 (с Azure AD P2)|Пользуйтесь преимуществами функции защиты идентификации Azure AD, начните применять [Рекомендуемый набор политики условного доступа и связанных с ней политик](./defender-365-security/identity-access-policies.md) (Майкрософт), создав две следующие политики.<br/> - [Обязательное использование MFA при среднем или высоком риске входа в систему](./defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](./defender-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br/>- [Необходимость смены пароля для пользователей с высоким риском](./defender-365-security/identity-access-policies.md#high-risk-users-must-change-password)|
+|Microsoft 365 E5 (с Azure AD P2)|Пользуйтесь преимуществами функции защиты идентификации Azure AD, начните применять [Рекомендуемый набор политики условного доступа и связанных с ней политик](./office-365-security/identity-access-policies.md) (Майкрософт), создав две следующие политики.<br/> - [Обязательное использование MFA при среднем или высоком риске входа в систему](./office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](./office-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br/>- [Необходимость смены пароля для пользователей с высоким риском](./office-365-security/identity-access-policies.md#high-risk-users-must-change-password)|
 |
 
 ## <a name="2-protect-against-threats"></a>2. Защита от угроз
@@ -86,7 +86,7 @@ ms.locfileid: "51052426"
 - Защита от фишинга
 - Защита от нежелательной почты
 
-Инструкции, которые можно использовать в качестве отправной точки, см. в статью Защита от угроз в [Office 365.](defender-365-security/protect-against-threats.md)
+Инструкции, которые можно использовать в качестве отправной точки, см. в статью Защита от угроз в [Office 365.](office-365-security/protect-against-threats.md)
 
 ## <a name="3-configure-microsoft-defender-for-office-365"></a>3. Настройка Microsoft Defender для Office 365
 
@@ -98,17 +98,17 @@ Microsoft Defender для Office 365:
 - Защищает организацию при совместной работе пользователей и совместном доступе к файлам, выявляя и блокируя вредоносные файлы на сайтах групп и библиотеках документов.
 - Применяет модели машинного обучения и расширенные алгоритмы обнаружения обезличения для предотвращения фишинговых атак.
 
-Обзор, включая сводку планов, см. в обзоре [Defender for Office 365.](./defender-365-security/defender-for-office-365.md)
+Обзор, включая сводку планов, см. в обзоре [Defender for Office 365.](./office-365-security/defender-for-office-365.md)
 
 Глобальный администратор может настроить эти средства защиты:
 
-- [Настройка политик безопасных ссылок](defender-365-security/set-up-safe-links-policies.md)
-- [Настройка глобальных параметров для безопасных ссылок](defender-365-security/configure-global-settings-for-safe-links.md)
-- [Настройка политик безопасных вложений](defender-365-security/set-up-safe-attachments-policies.md)
+- [Настройка политик безопасных ссылок](office-365-security/set-up-safe-links-policies.md)
+- [Настройка глобальных параметров для безопасных ссылок](office-365-security/configure-global-settings-for-safe-links.md)
+- [Настройка политик безопасных вложений](office-365-security/set-up-safe-attachments-policies.md)
 
 Вам потребуется работать с администратором Exchange Online и администратором SharePoint Online, чтобы настроить Defender для Office 365 для этих рабочих нагрузок:
 
-- [ATP для SharePoint, OneDrive и Microsoft Teams](defender-365-security/mdo-for-spo-odb-and-teams.md)
+- [ATP для SharePoint, OneDrive и Microsoft Teams](office-365-security/mdo-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4. Настройка Microsoft Defender для удостоверений
 
@@ -141,10 +141,10 @@ Microsoft Intune Mobile Application Management (MAM) позволяет упра
 
 Кроме того, Корпорация Майкрософт координирует эту структуру защиты приложений с набором условных политик доступа и связанных с ними политик, которые мы рекомендуем всем организациям использовать в качестве отправной точки. Если вы реализовали MFA с помощью руководства в этой статье, вы на полпути!
 
-Чтобы настроить защиту мобильных приложений, используйте руководство в общих политиках доступа к удостоверениям и [устройствам:](./defender-365-security/identity-access-policies.md)
+Чтобы настроить защиту мобильных приложений, используйте руководство в общих политиках доступа к удостоверениям и [устройствам:](./office-365-security/identity-access-policies.md)
 
- 1. Чтобы создать [политики для](./defender-365-security/identity-access-policies.md#apply-app-data-protection-policies) iOS и Android, используйте руководство По защите данных app. Уровень 2 (улучшенная защита данных) рекомендуется для базовой защиты.
- 2. Создайте правило условного доступа к [утвержденным приложениям и защите ПРИЛОЖЕНИЙ.](./defender-365-security/identity-access-policies.md#require-approved-apps-and-app-protection)
+ 1. Чтобы создать [политики для](./office-365-security/identity-access-policies.md#apply-app-data-protection-policies) iOS и Android, используйте руководство По защите данных app. Уровень 2 (улучшенная защита данных) рекомендуется для базовой защиты.
+ 2. Создайте правило условного доступа к [утвержденным приложениям и защите ПРИЛОЖЕНИЙ.](./office-365-security/identity-access-policies.md#require-approved-apps-and-app-protection)
 
 ## <a name="7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection"></a>7. Настройка MFA и условного доступа для гостей, включая защиту мобильных приложений Intune
 
@@ -155,7 +155,7 @@ Microsoft Intune Mobile Application Management (MAM) позволяет упра
 - Создайте новое правило условного доступа, которое будет требовать MFA всегда для гостей и внешних пользователей.
 - Обновление правила условного доступа к MFA на основе риска, чтобы исключить гостей и внешних пользователей.
 
-Используйте руководство в [Обновлении](./defender-365-security/identity-access-policies-guest-access.md) общих политик, чтобы разрешить и защитить гостевой и внешний доступ, чтобы понять, как работает гостевой доступ с Azure AD, а также обновить затронутые политики.
+Используйте руководство в [Обновлении](./office-365-security/identity-access-policies-guest-access.md) общих политик, чтобы разрешить и защитить гостевой и внешний доступ, чтобы понять, как работает гостевой доступ с Azure AD, а также обновить затронутые политики.
 
 Созданные политики защиты мобильных приложений Intune, а также правило условного доступа к утвержденным приложениям и защите ПРИЛОЖЕНИЙ применяются к учетным записям гостей и помогут защитить данные организации.
 
@@ -173,12 +173,12 @@ Microsoft Intune Mobile Application Management (MAM) позволяет упра
 - [Использование автопилота для регистрации устройств Windows в Intune](/mem/intune/enrollment/tutorial-use-autopilot-enroll-devices)
 - [Используйте функции регистрации корпоративных устройств Apple в Apple Business Manager (ABM) для регистрации устройств iOS/iPadOS в Intune](/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
 
-После регистрации устройств используйте руководство в [общих](./defender-365-security/identity-access-policies.md) политиках доступа к удостоверениям и устройствам для создания этих политик:
+После регистрации устройств используйте руководство в [общих](./office-365-security/identity-access-policies.md) политиках доступа к удостоверениям и устройствам для создания этих политик:
 
-- [Определите политики соответствия](./defender-365-security/identity-access-policies.md#define-device-compliance-policies) требованиям к устройствам . Рекомендуемые параметры для Windows 10 включают требования к антивирусной защите. Если у вас есть Microsoft 365 E5, используйте Microsoft Defender для конечной точки для мониторинга состояния устройств сотрудников. Убедитесь, что политики соответствия требованиям для других операционных систем включают антивирусную защиту и программное обеспечение для защиты конечной точки.
-- [Требуют совместимых компьютеров](./defender-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) — это условное правило доступа в Azure AD, которое обеспечивает соблюдение политик соответствия требованиям устройств.
+- [Определите политики соответствия](./office-365-security/identity-access-policies.md#define-device-compliance-policies) требованиям к устройствам . Рекомендуемые параметры для Windows 10 включают требования к антивирусной защите. Если у вас есть Microsoft 365 E5, используйте Microsoft Defender для конечной точки для мониторинга состояния устройств сотрудников. Убедитесь, что политики соответствия требованиям для других операционных систем включают антивирусную защиту и программное обеспечение для защиты конечной точки.
+- [Требуют совместимых компьютеров](./office-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) — это условное правило доступа в Azure AD, которое обеспечивает соблюдение политик соответствия требованиям устройств.
 
-Управлять устройством может только одна организация, поэтому не забудьте исключить учетные записи гостей из правила условного доступа в Azure AD. Если не исключать гостевых и внешних пользователей из политик, которые требуют соответствия требованиям устройств, эти политики будут блокировать этих пользователей. Дополнительные сведения см. в дополнительных сведениях Об обновлении [общих политик, позволяющих](./defender-365-security/identity-access-policies-guest-access.md)и защищая гостевой и внешний доступ.
+Управлять устройством может только одна организация, поэтому не забудьте исключить учетные записи гостей из правила условного доступа в Azure AD. Если не исключать гостевых и внешних пользователей из политик, которые требуют соответствия требованиям устройств, эти политики будут блокировать этих пользователей. Дополнительные сведения см. в дополнительных сведениях Об обновлении [общих политик, позволяющих](./office-365-security/identity-access-policies-guest-access.md)и защищая гостевой и внешний доступ.
 
 ## <a name="9-optimize-your-network-for-cloud-connectivity"></a>9. Оптимизация сети для облачных подключений
 
@@ -208,7 +208,7 @@ Microsoft 365 предоставляет следующие ресурсы, ко
 
 ****
 
-|Концепция|Ресурсы|
+|Понятие|Ресурсы|
 |---|---|
 |Microsoft 365|[Настраиваемые пути обучения](/office365/customlearning/) <p>Эти ресурсы помогут вам собрать обучение для конечных пользователей в организации|
 |Безопасность Microsoft 365|[Модуль обучения: защита организации встроенной и интеллектуальной безопасностью от Microsoft 365](/learn/modules/security-with-microsoft-365) <p>Этот модуль позволяет описать, как функции безопасности Microsoft 365 работают вместе, и сформулировать преимущества этих функций безопасности.|
