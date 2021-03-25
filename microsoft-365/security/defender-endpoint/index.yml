@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Документация Microsoft Defender для конечной точки
-summary: Microsoft Defender для конечной точки обеспечивает профилактическую защиту, обнаружение после нарушения, автоматическое расследование и ответ.
+title: Microsoft Defender для конечной точки — документация
+summary: Microsoft Defender для конечной точки обеспечивает превентивную защиту, обнаружение после взлома, автоматическое исследование и реагирование.
 metadata:
-  title: Документация Microsoft Defender для конечной точки
-  description: 'Узнайте о Microsoft Defender для конечной точки и максимально использовать встроенные возможности безопасности для защиты устройств, обнаружения вредоносных действий и устранения угроз # Required; описание статьи, отображаемое в результатах поиска. < 160 шаров.'
+  title: Microsoft Defender для конечной точки — документация
+  description: Изучите Microsoft Defender для конечной точки, чтобы максимально эффективно использовать встроенные функции безопасности для защиты устройств, обнаружения вредоносных действий и устранения угроз# Требуется; описание статьи, которое отображается в результатах поиска. < 160 символов.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: efa23f4c40021d95185203c22c8bba5009e15f2f
   ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 03/24/2021
   ms.locfileid: "51185747"
@@ -28,17 +28,17 @@ landingContent:
       url: microsoft-defender-endpoint.md
   - linkListType: whats-new
     links:
-    - text: Новые возможности в Microsoft Defender для конечной точки
+    - text: Новые возможности Microsoft Defender для конечной точки
       url: whats-new-in-microsoft-defender-atp.md
   - linkListType: video
     links:
-    - text: Обзор видео
+    - text: Обзорное видео
       url: https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0
-- title: Оценка & развертывания службы
+- title: Оценка и развертывание службы
   linkLists:
   - linkListType: get-started
     links:
-    - text: Оценка защитника Майкрософт для конечной точки
+    - text: Microsoft Defender для конечной точки
       url: evaluation-lab.md
     - text: Планирование развертывания
       url: deployment-strategy.md
@@ -46,7 +46,7 @@ landingContent:
     links:
     - text: Руководство по развертыванию
       url: deployment-phases.md
-    - text: Поддерживаемые на борту устройства
+    - text: Подключение поддерживаемых устройств
       url: onboard-configure.md
   - linkListType: how-to-guide
     links:
@@ -54,21 +54,21 @@ landingContent:
       url: migration-guides.md
   - linkListType: video
     links:
-    - text: Видео на борту
+    - text: Видео — подключение поддерживаемых устройств
       url: https://www.microsoft.com/en-us/videoplayer/embed/RE4bGqr
-- title: Операции, связанные с обеспечением безопасности
+- title: Операции обеспечения безопасности
   linkLists:
   - linkListType: overview
     links:
     - text: Обнаружение и устранение угроз на конечных точках
       url: overview-endpoint-detection-response.md
-    - text: Блокировка и сдерживание поведения
+    - text: Блокировка поведения и сдерживание
       url: behavioral-blocking-containment.md
-    - text: Автоматическое расследование и ответ (AIR)
+    - text: Автоматическое исследование и реагирование (AIR)
       url: automated-investigations.md
     - text: Расширенная охота на угрозы
       url: advanced-hunting-overview.md
-    - text: Microsoft Threat Experts
+    - text: Эксперты Майкрософт по угрозам
       url: microsoft-threat-experts.md
     - text: Аналитика угроз
       url: threat-analytics.md
@@ -84,21 +84,21 @@ landingContent:
       url: microsoft-defender-endpoint-linux.md
     - text: Microsoft Defender для конечной точки для Android
       url: microsoft-defender-endpoint-android.md
-- title: Справочные материалы
+- title: Справка
   linkLists:
   - linkListType: reference
     links:
     - text: Управление и API
       url: management-apis.md
-    - text: Интеграция партнеров
+    - text: Интеграция с партнерами
       url: partner-integration.md
 - title: Администрирование безопасности
   linkLists:
   - linkListType: overview
     links:
-    - text: Управление & уязвимостей
+    - text: Управление угрозами и уязвимостями.
       url: next-gen-threat-and-vuln-mgt.md
     - text: Сокращение направлений атак
       url: overview-attack-surface-reduction.md
-    - text: Защита следующего поколения
+    - text: Защита нового поколения
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10
