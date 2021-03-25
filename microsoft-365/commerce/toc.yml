@@ -6,8 +6,6 @@
   items:
     - name: Пробное использование или приобретение Microsoft 365
       href: try-or-buy-microsoft-365.md
-    - name: Продление пробной версии
-      href: extend-your-trial.md
     - name: Приобретение и управление надстройками
       href: buy-or-edit-an-add-on.md
     - name: Business Assist для Microsoft 365
