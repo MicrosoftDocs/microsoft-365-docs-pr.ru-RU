@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d54ab8eaa1e17be82752c480c963d3a24af56389
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a04f3be1f13fb57cd76cda7115d014f2ba3aa8d6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187581"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198841"
 ---
 # <a name="create-indicators"></a>Создание индикаторов
 
@@ -33,13 +33,14 @@ ms.locfileid: "51187581"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
+> [!TIP]
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 Индикатор компрометации (IoCs) является важной функцией в каждом решении по защите конечной точки. Эта возможность позволяет SecOps устанавливать список индикаторов для обнаружения и блокировки (предотвращение и реагирование).
 
 Создание индикаторов, определяющих обнаружение, предотвращение и исключение сущностями. Можно определить действие, которое необходимо принять, а также продолжительность применения действия, а также область действия группы устройств для его применения.
 
-В настоящее время поддерживаемые источники — это двигатель обнаружения облаков Defender для конечной точки, автоматизированный механизм исследования и устранения последствий, а также двигатель предотвращения конечных точек (Microsoft Defender AV).
+В настоящее время поддерживаемые источники — это двигатель обнаружения облаков Defender для конечной точки, автоматизированный механизм исследования и устранения последствий, а также двигатель предотвращения конечных точек (антивирус Microsoft Defender).
 
 **Движок обнаружения облаков**<br>
 Механизм обнаружения облаков Defender для конечной точки регулярно сканирует собранные данные и пытается соответствовать установленным индикаторам. При совпадении действие будет приниматься в соответствии с настройками, указанными для IoC.
@@ -63,8 +64,8 @@ ms.locfileid: "51187581"
 - [Сертификаты](indicator-certificates.md)
 
 
->[!NOTE]
->Существует ограничение в 15 000 показателей на одного клиента.
+> [!NOTE]
+> Существует ограничение в 15 000 показателей на одного клиента. Индикаторы файлов и сертификатов не блокируют [исключения, определенные для антивируса Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Индикаторы не поддерживаются в антивирусе Microsoft Defender в пассивном режиме. 
 
 
 ## <a name="related-topics"></a>Статьи по теме

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Установите разрешения и роли пользователей Microsoft Compliance Manager и настройте автоматическое тестирование действий. Управление историей пользователей и фильтрация представления панели мониторинга.
-ms.openlocfilehash: 08a62a12e5f412781595ba7d54c3b63a03ae19aa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3b32ac5a82bbc726c5bf61859266e0561ca7f53c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052137"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199222"
 ---
 # <a name="get-started-with-compliance-manager"></a>Начало работы с диспетчером соответствия требованиям
 
@@ -72,7 +72,7 @@ ms.locfileid: "51052137"
 
 ##### <a name="more-about-the-office-365-security--compliance-center"></a>Дополнительные информацию о Центре обеспечения безопасности Office 365 & соответствия требованиям
 
-Дополнительные новости о разрешениях в Центре обеспечения безопасности [Office 365 &.](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)
+Дополнительные новости о разрешениях в Центре обеспечения безопасности [Office 365 &.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 Если у вас нет доступа к Центру безопасности и соответствия требованиям Office 365 или вам необходимо получить доступ к классической версии диспетчера соответствия требованиям[](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users)на портале доверия Службы Майкрософт, параметры администратора на портале доверия службы предоставляют другой способ назначения ролей (см. инструкции). Следует помнить, что такие роли более ограничены в их функциональных возможностях.
 

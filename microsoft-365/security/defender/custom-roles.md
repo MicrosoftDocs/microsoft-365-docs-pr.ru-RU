@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 17d55a434cc0499b9b24039f19ec7ed3c94310e8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6582e4e940dc9910e7d341c92b525379b924f35b
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51068931"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199961"
 ---
 # <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>Настраиваемые роли в области управления доступом на основе ролей для Защитника Microsoft 365
 
@@ -53,7 +53,7 @@ ms.locfileid: "51068931"
 Настраиваемые роли и разрешения можно создавать и индивидуально управлять через каждый из следующих порталов безопасности: 
 
 - Защитник Microsoft для конечной точки — [изменение ролей в Microsoft Defender для конечной точки](../defender-endpoint/user-roles.md)
-- Microsoft Defender для Office 365 — разрешения в Центре [& безопасности](../defender-365-security/permissions-in-the-security-and-compliance-center.md?preserve-view=true&view=o365-worldwide)
+- Microsoft Defender для Office 365 — разрешения в Центре [& безопасности](../office-365-security/permissions-in-the-security-and-compliance-center.md?preserve-view=true&view=o365-worldwide)
 - Microsoft Cloud App Security — [управление доступом к администратору](/cloud-app-security/manage-admins)
 
 Каждая настраиваемая роль, созданная через отдельный портал, позволяет получить доступ к данным соответствующего портала продуктов. Например, настраиваемая роль, созданная через Microsoft Defender для конечной точки, позволит получить доступ только к данным Defender для конечных точек.

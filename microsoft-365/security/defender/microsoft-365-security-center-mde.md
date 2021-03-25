@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: dbbe692b3339a316f924ae4858753bbb961dd70c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b580c6f20ed3b242fc0bc239a49fe89ccc09d013
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165625"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199199"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Защитник Microsoft для конечной точки в центре безопасности Microsoft 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "51165625"
 
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [Microsoft Defender для Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 
 Улучшенный [центр безопасности Microsoft 365](overview-security-center.md) объединяет возможности безопасности, которые защищают, обнаруживают, исследуют и реагируют на угрозы электронной почты, совместной работы, удостоверений и [https://security.microsoft.com](https://security.microsoft.com) устройств. Этот центр безопасности объединяет функциональные возможности существующих порталов безопасности Майкрософт, включая Центр безопасности Защитника Майкрософт и Центр безопасности Office 365 & соответствия требованиям.
 
@@ -94,7 +94,7 @@ Microsoft Defender для конечной точки в центре безоп
 |---------|---------|
 | Отчеты  | См. отчеты о конечных точках и &, включая защиту от угроз, здоровье и соответствие требованиям устройств, а также уязвимые устройства. |
 | Здравоохранение  |  В настоящее время ссылки на страницу "Здоровье службы" в центре администрирования [Microsoft 365.](https://admin.microsoft.com/) |
-| Параметры |  Управление настройками центра безопасности Microsoft 365, Защитника Microsoft 365, конечных точек, электронной почты & совместной работы, удостоверений и обнаружения устройств.   |
+| Settings |  Управление настройками центра безопасности Microsoft 365, Защитника Microsoft 365, конечных точек, электронной почты & совместной работы, удостоверений и обнаружения устройств.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Навигация и возможности безопасности Microsoft 365
 

@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/01/2021
-ms.openlocfilehash: c91e5152fc7a64c8d26363383192d6b8d74611b8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d958f2787b9d66e42a32b8858139f7d13e83ddef
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186765"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199601"
 ---
 # <a name="the-action-center"></a>Центр уведомлений
 
@@ -61,7 +61,7 @@ ms.locfileid: "51186765"
 Вы можете использовать единый центр действий, если у вас есть соответствующие разрешения и одна или несколько следующих подписок:
 
 - [Defender для конечной точки](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Defender для Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 
 > [!TIP]
@@ -113,11 +113,11 @@ ms.locfileid: "51186765"
 | Значение источника действия | Описание |
 |:-----|:---|
 | **Действие ручного устройства** | Ручное действие, принятое на устройстве. Примеры включают [изоляцию устройства](../defender-endpoint/respond-machine-alerts.md#isolate-devices-from-the-network) [или карантин файлов.](../defender-endpoint/respond-file-alerts.md#stop-and-quarantine-files) |
-| **Действие электронной почты вручную** | Ручное действие, принятое по электронной почте. Пример включает в себя мягкое удаление сообщений электронной почты или [исправление сообщения электронной почты.](../defender-365-security/remediate-malicious-email-delivered-office-365.md) |
+| **Действие электронной почты вручную** | Ручное действие, принятое по электронной почте. Пример включает в себя мягкое удаление сообщений электронной почты или [исправление сообщения электронной почты.](../office-365-security/remediate-malicious-email-delivered-office-365.md) |
 | **Автоматическое действие устройства** | Автоматические действия, принятые в отношении объекта, например файла или процесса. Примеры автоматизированных действий включают отправку файла на карантин, остановку процесса и удаление ключа реестра. (См. [действия по исправлению в Microsoft Defender для конечной точки.)](../defender-endpoint/manage-auto-investigation.md#remediation-actions) |
-| **Автоматическое действие электронной почты** | Автоматические действия, принятые в отношении контента электронной почты, например сообщения электронной почты, вложения или URL-адреса. Примеры автоматизированных действий включают мягкое удаление сообщений электронной почты, блокировку URL-адресов и отключение внешней пересылаемой почты. (См. [действия по исправлению в Microsoft Defender для Office 365.)](../defender-365-security/air-remediation-actions.md) |
+| **Автоматическое действие электронной почты** | Автоматические действия, принятые в отношении контента электронной почты, например сообщения электронной почты, вложения или URL-адреса. Примеры автоматизированных действий включают мягкое удаление сообщений электронной почты, блокировку URL-адресов и отключение внешней пересылаемой почты. (См. [действия по исправлению в Microsoft Defender для Office 365.)](../office-365-security/air-remediation-actions.md) |
 | **Расширенные действия охоты** | Действия, принятые на устройствах или электронной почте с [расширенным поиском](./advanced-hunting-overview.md). |
-| **Действие Explorer** | Действия, принятые в отношении контента электронной почты с [помощью Explorer.](../defender-365-security/threat-explorer.md) |
+| **Действие Explorer** | Действия, принятые в отношении контента электронной почты с [помощью Explorer.](../office-365-security/threat-explorer.md) |
 | **Ручное действие живого ответа** | Действия, принятые на устройстве с [живой реакцией.](../defender-endpoint/live-response.md) Примеры включают удаление файла, остановку процесса и удаление запланированной задачи. |
 | **Действие live response** | Действия, принятые на устройстве [с API Microsoft Defender для конечных точек.](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis) Примеры действий включают изолирование устройства, запуск антивирусного сканирования и получение сведений о файле. |
 
@@ -128,7 +128,7 @@ ms.locfileid: "51186765"
 |Действие по исправлению |Обязательные роли и разрешения |
 |--|----|
 |Microsoft Defender для устранения конечных точек (устройства) |Роль **администратора безопасности**, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- или ---<br/>**Роль активных действий по исправлению,** назначенная в Microsoft Defender для конечной точки <br/> <br/> Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Создание ролей для управления доступом на основе ролей (Microsoft Defender для конечной точки)](../defender-endpoint/user-roles.md)  |
-|Microsoft Defender для восстановления Office 365 (содержимое Office и электронная почта)  |Роль **администратора безопасности**, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- и --- <br/>**Роль поиска и очистки,** назначенная Центру & безопасности ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**ВАЖНО:** Если роль  администратора безопасности назначена только в Центре обеспечения безопасности Office 365 & (), вы не сможете получить доступ к возможностям Центра действий или [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. Роль администратора **безопасности** должна быть назначена в Azure Active Directory или центре администрирования Microsoft 365. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в Центре & безопасности](/microsoft-365/security/defender-365-security/permissions-in-the-security-and-compliance-center) |
+|Microsoft Defender для восстановления Office 365 (содержимое Office и электронная почта)  |Роль **администратора безопасности**, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- и --- <br/>**Роль поиска и очистки,** назначенная Центру & безопасности ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**ВАЖНО:** Если роль  администратора безопасности назначена только в Центре обеспечения безопасности Office 365 & (), вы не сможете получить доступ к возможностям Центра действий или [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. Роль администратора **безопасности** должна быть назначена в Azure Active Directory или центре администрирования Microsoft 365. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в Центре & безопасности](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!TIP]
 > Пользователи, которым назначена роль **Глобальный администратор** в Azure Active Directory, могут утвердить или отклонить любые ожидающие действия в центре уведомлений. Однако в качестве наилучшей практики организация должна ограничить число людей, которым назначена роль **глобального** администратора. Рекомендуется использовать роли **администратора** **безопасности,** активные  действия по исправлению и роли поиска и очистки, перечисленные в предыдущей таблице разрешений центра действий.

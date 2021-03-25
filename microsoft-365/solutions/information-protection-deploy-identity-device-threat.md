@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Предотвращение нарушений персональных данных службами идентификации, устройств и защиты от угроз Microsoft 365.
-ms.openlocfilehash: 145b8a59f7eafb95adf71dc24613ee15ef1c2cca
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5e08ef574e199769e572b3836b3323dc88fc4bbd
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052354"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199469"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Использование удостоверений, устройств и защиты от угроз для регулирования конфиденциальности данных
 
@@ -70,7 +70,7 @@ Microsoft 365 предоставляет ряд возможностей для 
 - Требовать от мобильных устройств блокировки неактивности.
 - Требуется, чтобы мобильные устройства стирались при нескольких сбоях при входе.
 
-Используйте [Exchange Online Protection и Microsoft Defender для Office 365](../security/defender-365-security/defender-for-office-365.md) для категории Protect Against **Threats,** с помощью которых можно:
+Используйте [Exchange Online Protection и Microsoft Defender для Office 365](../security/office-365-security/defender-for-office-365.md) для категории Protect Against **Threats,** с помощью которых можно:
 
 - Включить проверку подлинности отправитель (SPF, DMARC и DKIM).
 - Настройка антифишинговых политик Microsoft Defender для Office 365.
@@ -81,8 +81,8 @@ Microsoft 365 предоставляет ряд возможностей для 
 
 ### <a name="references"></a>Ссылки:
 
-- [Основные политики доступа для удостоверений и устройств](../security/defender-365-security/identity-access-policies.md)
+- [Основные политики доступа для удостоверений и устройств](../security/office-365-security/identity-access-policies.md)
 - [Защита от угроз в Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [Безопасные вложения](../security/defender-365-security/safe-attachments.md)
-- [Безопасные ссылки](../security/defender-365-security/safe-links.md)
-- [Безопасные документы](../security/defender-365-security/safe-docs.md)
+- [Безопасные вложения](../security/office-365-security/safe-attachments.md)
+- [Безопасные ссылки](../security/office-365-security/safe-links.md)
+- [Безопасные документы](../security/office-365-security/safe-docs.md)

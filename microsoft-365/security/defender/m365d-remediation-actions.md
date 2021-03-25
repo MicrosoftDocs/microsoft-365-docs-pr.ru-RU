@@ -22,12 +22,12 @@ ms.custom: autoir
 ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: fa73756aa9f350793c00a7e4a960c215627b712f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c81f824a0faaca1c228aa650c003576cce210a67
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072750"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199211"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Действия по исправлению в Microsoft 365 Defender
 
@@ -45,7 +45,7 @@ ms.locfileid: "51072750"
 > Независимо от того, принимаются ли действия по исправлению автоматически или только после утверждения, зависит от определенных параметров, например от уровня автоматизации. Дополнительные статьи см. в следующих статьях:
 > - [Настройка возможностей автоматического расследования и ответа в Microsoft 365 Defender](m365d-configure-auto-investigation-response.md)
 > - [Устранение угроз на устройствах](../defender-endpoint/automated-investigations.md)
-> - [Угрозы и действия по исправлению в контенте совместной & электронной почты](../defender-365-security/air-remediation-actions.md#threats-and-remediation-actions)
+> - [Угрозы и действия по исправлению в контенте совместной & электронной почты](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
 В следующей таблице подводятся итоги действий по исправлению, которые в настоящее время поддерживаются в Microsoft 365 Defender: 
 
@@ -76,7 +76,7 @@ ms.locfileid: "51072750"
 - Действие ручного устройства, например изоляция устройства или карантин файлов.
 - Ручное действие электронной почты, например мягкое удаление сообщений электронной почты. 
 - [Расширенные действия по охоте](../defender-endpoint/advanced-hunting-overview.md) на устройствах или электронной почте.
-- [Действие обозревателя](../defender-365-security/threat-explorer.md) по контенту электронной почты, например перенос электронной почты на нежелательное, электронное письмо с мягким удалением или жесткое удаление электронной почты.
+- [Действие обозревателя](../office-365-security/threat-explorer.md) по контенту электронной почты, например перенос электронной почты на нежелательное, электронное письмо с мягким удалением или жесткое удаление электронной почты.
 - Действие [живого ответа](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) вручную, например удаление файла, остановка процесса и удаление запланированной задачи.
 - Live response action with [Microsoft Defender for Endpoint API](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis), such as isolating a device, running an antivirus scan, and getting information about a file. 
 

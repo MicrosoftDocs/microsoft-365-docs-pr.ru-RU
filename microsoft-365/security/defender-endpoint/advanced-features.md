@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 41c97d122362ec1fa945fc012ab7a1da46a43b68
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ed6f6b42570a908a1f4a83d46ef5b2de0c558692
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165589"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199745"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Настройка расширенных функций в Defender для конечной точки
 
@@ -141,7 +141,7 @@ ms.locfileid: "51165589"
 > [!NOTE]
 > Чтобы включить эту функцию, вам потребуется соответствующая лицензия.
 
-Чтобы получить контекстную интеграцию устройств в Office 365 Threat Intelligence, необходимо включить параметры Defender для конечной точки в панели мониторинга & соответствия требованиям. Дополнительные сведения см. в [дополнительных сведениях о расследовании угрозы и ответах.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-ti)
+Чтобы получить контекстную интеграцию устройств в Office 365 Threat Intelligence, необходимо включить параметры Defender для конечной точки в панели мониторинга & соответствия требованиям. Дополнительные сведения см. в [дополнительных сведениях о расследовании угрозы и ответах.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
 
 ## <a name="microsoft-threat-experts"></a>Microsoft Threat Experts
 

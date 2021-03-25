@@ -22,12 +22,12 @@ ms.custom: autoir
 ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: c12937c016875c26a7212117e41aac4349cb540d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8ed6f1ccd6587d6c618974a123f0d5d42a44e753
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073941"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199637"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Автоматическое исследование и ответ в Microsoft 365 Defender
 
@@ -41,7 +41,7 @@ ms.locfileid: "51073941"
 В этой статье представлен обзор air и ссылки на последующие действия и дополнительные ресурсы.
 
 > [!TIP]
-> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) или запустить [пилотный проект в производстве.](m365d-pilot.md?ocid=cx-evalpilot)
+> Хотите попробовать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) или [запустить пилотный проект в производственной среде](m365d-pilot.md?ocid=cx-evalpilot).
 
 ## <a name="how-automated-investigation-and-self-healing-works"></a>Как работает автоматизированное исследование и самовосстановления
 
@@ -90,7 +90,7 @@ ms.locfileid: "51073941"
 |Объекты |Службы защиты от угроз  |
 |:---------|:---------|
 |Устройства (также именуемые конечными точками и иногда именуемые машинами)     |[Microsoft Defender для конечной точки](../defender-endpoint/automated-investigations.md)<br/>[Microsoft Defender для удостоверений](/azure-advanced-threat-protection/what-is-atp) |      
-|Содержимое электронной почты (сообщения электронной почты, которые могут содержать файлы и URL-адреса)     |[Microsoft Defender для Office 365](../defender-365-security/defender-for-office-365.md)         |
+|Содержимое электронной почты (сообщения электронной почты, которые могут содержать файлы и URL-адреса)     |[Microsoft Defender для Office 365](../office-365-security/defender-for-office-365.md)         |
 
 > [!NOTE]
 > Не каждое оповещение вызывает автоматическое расследование, и не каждое расследование приводит к автоматическим действиям по исправлению. это зависит от настройки автоматического расследования и ответа для вашей организации. Подробнее о настройке возможностей автоматического расследования и ответа см. [в microsoft 365 Defender.](m365d-configure-auto-investigation-response.md)

@@ -583,3 +583,7 @@
 #### [Устранение проблем с уменьшением поверхности атаки]()
 ##### [Защита сети](troubleshoot-np.md)
 ##### [Правила сокращения направлений атак](troubleshoot-asr.md)
+
+# [Безопасность в Microsoft 365](../index.yml)
+# [Microsoft 365 Defender](../defender/index.yml)
+# [Defender для Office 365](../office-365-security/overview.md)

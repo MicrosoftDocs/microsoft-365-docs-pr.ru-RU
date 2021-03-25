@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 399da6fd54145f73ac72fdac04e8d25148f76507
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 18564b2a5a47b2cf4a8bbd94a3e3a315c8f269ec
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186753"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200261"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Включив защитник Microsoft 365
 
@@ -96,7 +96,7 @@ Microsoft 365 Defender будет хранить и обрабатывать д�
 - [Развертывание поддерживаемых служб](deploy-supported-services.md)
 - [Обзор Защитника Microsoft 365](microsoft-365-defender.md)
 - [Обзор Microsoft Defender для конечной точки](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Обзор Defender для Office 365](../defender-365-security/defender-for-office-365.md)
+- [Обзор Defender для Office 365](../office-365-security/defender-for-office-365.md)
 - [Обзор Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)
 - [Обзор Microsoft Defender для удостоверений](/azure-advanced-threat-protection/what-is-atp)
 - [Microsoft Defender для хранения данных конечной точки](../defender-endpoint/data-storage-privacy.md)

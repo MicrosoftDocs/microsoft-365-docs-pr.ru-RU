@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a5ff570439dfecd287a5a5975358262af71d8025
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bd7c98f5888f8dc93a8aa341b186ea744d5b2882
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051022"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199937"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Настройка возможностей защиты от угроз в Microsoft 365
 
@@ -42,13 +42,13 @@ ms.locfileid: "51051022"
 
 ![Процесс развертывания базовой защиты](../media/deploy-threat-protection/deploy-threat-protection-identity-access-steps.png) 
 
-1. [Настройка необходимых условий, включая защиту удостоверений Azure AD.](../security/defender-365-security/identity-access-prerequisites.md)
-2. [Настройка общих политик доступа к](../security/defender-365-security/identity-access-policies.md) удостоверениям и устройствам для базовой защиты.
-3. Настройка политик для [гостевых пользователей,](../security/defender-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/defender-365-security/teams-access-policies.md) [Exchange Online](../security/defender-365-security/secure-email-recommended-policies.md)и [SharePoint Online и OneDrive.](../security/defender-365-security/sharepoint-file-access-policies.md)
+1. [Настройка необходимых условий, включая защиту удостоверений Azure AD.](../security/office-365-security/identity-access-prerequisites.md)
+2. [Настройка общих политик доступа к](../security/office-365-security/identity-access-policies.md) удостоверениям и устройствам для базовой защиты.
+3. Настройка политик для [гостевых пользователей,](../security/office-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/office-365-security/teams-access-policies.md) [Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)и [SharePoint Online и OneDrive.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 ### <a name="more-information-about-protecting-identities"></a>Дополнительные сведения о защите удостоверений
 
-- [Конфигурации доступа для удостоверений и устройств](../security/defender-365-security/microsoft-365-policies-configurations.md)
+- [Конфигурации доступа для удостоверений и устройств](../security/office-365-security/microsoft-365-policies-configurations.md)
 - [Руководство по безопасности для Azure MFA](/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
 ## <a name="step-2-configure-microsoft-defender-for-identity"></a>Шаг 2. Настройка Microsoft Defender для удостоверений
@@ -96,11 +96,11 @@ Microsoft 365 Defender объединяет оповещения, инциден
 
 ## <a name="step-4-configure-microsoft-defender-for-office-365"></a>Шаг 4. Настройка Microsoft Defender для Office 365
 
-[Microsoft Defender для Office 365](../security/defender-365-security/defender-for-office-365.md) защищает организацию от вредоносных угроз в сообщениях электронной почты (вложениях и URL-адресах), документах Office и средствах совместной работы. В следующей таблице перечислены функции и возможности Microsoft Defender для Office 365, включенные в Microsoft 365 E5:
+[Microsoft Defender для Office 365](../security/office-365-security/defender-for-office-365.md) защищает организацию от вредоносных угроз в сообщениях электронной почты (вложениях и URL-адресах), документах Office и средствах совместной работы. В следующей таблице перечислены функции и возможности Microsoft Defender для Office 365, включенные в Microsoft 365 E5:
 
 |Возможности настройки, защиты и обнаружения|Возможности автоматизации, исследования, восстановления и образования|
 |---|---|
-|[Безопасные вложения](../security/defender-365-security/safe-attachments.md)<br/>[Безопасные ссылки](../security/defender-365-security/safe-links.md)<br/>[Безопасные документы](../security/defender-365-security/safe-docs.md)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](../security/defender-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Защита от фишинга в Defender для Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[Трекеры угроз](../security/defender-365-security/threat-trackers.md)<br/>[Обозреватель угроз](../security/defender-365-security/threat-explorer.md)<br/>[Автоматизированный анализ угроз и реагирование на них](../security/defender-365-security/office-365-air.md)<br/>[Эмулятор атак](../security/defender-365-security/attack-simulator.md)|
+|[Безопасные вложения](../security/office-365-security/safe-attachments.md)<br/>[Безопасные ссылки](../security/office-365-security/safe-links.md)<br/>[Безопасные документы](../security/office-365-security/safe-docs.md)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Защита от фишинга в Defender для Office 365](../security/office-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[Трекеры угроз](../security/office-365-security/threat-trackers.md)<br/>[Обозреватель угроз](../security/office-365-security/threat-explorer.md)<br/>[Автоматизированный анализ угроз и реагирование на них](../security/office-365-security/office-365-air.md)<br/>[Эмулятор атак](../security/office-365-security/attack-simulator.md)|
 |
 
 С помощью Microsoft Defender для Office 365 люди в вашей организации могут более безопасно общаться и сотрудничать с помощью защиты от угроз для контента электронной почты и документов Office.
@@ -109,14 +109,14 @@ Microsoft 365 Defender объединяет оповещения, инциден
 
 ![Процесс развертывания Microsoft Defender для Office 365](../media/deploy-threat-protection/deploy-office365-atp-steps.png) 
 
-1. [Настройка и настройка политик Microsoft Defender для Office 365.](../security/defender-365-security/protect-against-threats.md)
-2. [Просмотр и использование отчетов Microsoft Defender для Office 365.](../security/defender-365-security/view-reports-for-mdo.md)
-3. [Используйте возможности расследования и реагирования на угрозы.](../security/defender-365-security/office-365-ti.md)
+1. [Настройка и настройка политик Microsoft Defender для Office 365.](../security/office-365-security/protect-against-threats.md)
+2. [Просмотр и использование отчетов Microsoft Defender для Office 365.](../security/office-365-security/view-reports-for-mdo.md)
+3. [Используйте возможности расследования и реагирования на угрозы.](../security/office-365-security/office-365-ti.md)
 
 ### <a name="more-information-about-microsoft-defender-for-office-365"></a>Дополнительные сведения о Microsoft Defender для Office 365
 
-- [Обзор Microsoft Defender для Office 365](../security/defender-365-security/defender-for-office-365.md)
-- [Новые возможности в Microsoft Defender для Office 365](../security/defender-365-security/whats-new-in-defender-for-office-365.md)
+- [Обзор Microsoft Defender для Office 365](../security/office-365-security/defender-for-office-365.md)
+- [Новые возможности в Microsoft Defender для Office 365](../security/office-365-security/whats-new-in-defender-for-office-365.md)
 
 ## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>Шаг 5. Настройка Microsoft Defender для конечной точки
 
@@ -184,7 +184,7 @@ Microsoft 365 Defender объединяет оповещения, инциден
 
 Microsoft 365 предоставляет следующие ресурсы, которые помогут информировать пользователей в вашей организации:
 
-|Концепция  |Ресурсы  |
+|Понятие  |Ресурсы  |
 |---------|---------|
 |Microsoft 365     |[Настраиваемые пути обучения](/office365/customlearning/) <p>Эти ресурсы помогут вам собрать обучение для конечных пользователей в организации        |
 |Безопасность Microsoft 365 |[Модуль обучения: защита организации встроенной и интеллектуальной безопасностью от Microsoft 365](/learn/modules/security-with-microsoft-365) <p>Этот модуль позволяет описать, как функции безопасности Microsoft 365 работают вместе, и сформулировать преимущества этих функций безопасности. |
