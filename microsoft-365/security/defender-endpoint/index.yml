@@ -1,0 +1,104 @@
+### YamlMime:Landing
+title: Документация Microsoft Defender для конечной точки
+summary: Microsoft Defender для конечной точки обеспечивает профилактическую защиту, обнаружение после нарушения, автоматическое расследование и ответ.
+metadata:
+  title: Документация Microsoft Defender для конечной точки
+  description: 'Узнайте о Microsoft Defender для конечной точки и максимально использовать встроенные возможности безопасности для защиты устройств, обнаружения вредоносных действий и устранения угроз # Required; описание статьи, отображаемое в результатах поиска. < 160 шаров.'
+  services: office-365-security-compliance
+  ms.service: O365-seccomp
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: m365-security-compliance
+  author: mjcaparas
+  ms.author: macapara
+  ms.date: 02/5/2021
+  localization_priority: Priority
+  ms.openlocfilehash: a183f4d09b596f6dbecf2dc0636ff516b1b26eb6
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51075758"
+landingContent:
+- title: Microsoft Defender для конечной точки
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Microsoft Defender для конечной точки?
+      url: microsoft-defender-advanced-threat-protection.md
+  - linkListType: whats-new
+    links:
+    - text: Новые возможности в Microsoft Defender для конечной точки
+      url: whats-new-in-microsoft-defender-atp.md
+  - linkListType: video
+    links:
+    - text: Обзор видео
+      url: https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0
+- title: Оценка & развертывания службы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Оценка защитника Майкрософт для конечной точки
+      url: evaluation-lab.md
+    - text: Планирование развертывания
+      url: deployment-strategy.md
+  - linkListType: deploy
+    links:
+    - text: Руководство по развертыванию
+      url: deployment-phases.md
+    - text: Поддерживаемые на борту устройства
+      url: onboard-configure.md
+  - linkListType: how-to-guide
+    links:
+    - text: Руководство по миграции
+      url: migration-guides.md
+  - linkListType: video
+    links:
+    - text: Видео на борту
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4bGqr
+- title: Операции, связанные с обеспечением безопасности
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Обнаружение и устранение угроз на конечных точках
+      url: overview-endpoint-detection-response.md
+    - text: Блокировка и сдерживание поведения
+      url: behavioral-blocking-containment.md
+    - text: Автоматическое расследование и ответ (AIR)
+      url: automated-investigations.md
+    - text: Расширенная охота на угрозы
+      url: advanced-hunting-overview.md
+    - text: Microsoft Threat Experts
+      url: microsoft-threat-experts.md
+    - text: Аналитика угроз
+      url: threat-analytics.md
+- title: Использование Microsoft Defender для конечной точки на других платформах
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Microsoft Defender для конечной точки для Mac
+      url: microsoft-defender-endpoint-mac.md
+    - text: Microsoft Defender для конечной точки для iOS
+      url: microsoft-defender-endpoint-ios.md
+    - text: Microsoft Defender для конечной точки для Linux
+      url: microsoft-defender-endpoint-linux.md
+    - text: Microsoft Defender для конечной точки для Android
+      url: microsoft-defender-endpoint-android.md
+- title: Справка
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Управление и API
+      url: management-apis.md
+    - text: Интеграция партнеров
+      url: partner-integration.md
+- title: Администрирование безопасности
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Управление & уязвимостей
+      url: next-gen-threat-and-vuln-mgt.md
+    - text: Сокращение направлений атак
+      url: overview-attack-surface-reduction.md
+    - text: Защита следующего поколения
+      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10

@@ -1,0 +1,60 @@
+---
+title: Таблица DeviceInfo в продвинутой схеме охоты
+description: Сведения об ОС, имени компьютера и других сведениях об устройстве в таблице DeviceInfo в продвинутой схеме охоты
+keywords: передовая охота, охота на угрозы, поиск, запрос, телеметрия, справочная схема, кусто, таблица, столбец, тип данных, описание, deviceinfo, устройство, ОС, платформа, пользователи, DeviceInfo
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: lomayor
+author: lomayor
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.technology: mde
+ms.openlocfilehash: e86cba39663e96beffc00aa94d6cbcdf7a6e1e42
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51075102"
+---
+# <a name="deviceinfo"></a>DeviceInfo
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**Область применения:**
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+
+
+>Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
+
+Таблица в продвинутой схеме охоты содержит сведения о устройствах в организации, включая их версию ОС, активных пользователей `DeviceInfo` и имя компьютера. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из таблицы.
+
+Сведения о других таблицах в продвинутой схеме охоты см. в справке [о схеме охоты.](advanced-hunting-schema-reference.md)
+
+| Имя столбца | Тип данных | Описание |
+|-------------|-----------|-------------|
+| `Timestamp` | datetime | Дата и время записи события |
+| `DeviceId` | string | Уникальный идентификатор устройства в службе |
+| `DeviceName` | строка | Полное доменное имя (FQDN) устройства |
+| `ClientVersion` | строка | Версия агента конечной точки или датчика, запущенного на устройстве |
+| `PublicIP` | строка | Общедоступный IP-адрес, используемый на бортовом устройстве для подключения к службе Defender для конечных точек. Это может быть IP-адрес самого устройства, устройство NAT или прокси-сервер |
+| `OSArchitecture` | строка | Архитектура операционной системы, запущенной на устройстве |
+| `OSPlatform` | строка | Платформа операционной системы, запущенной на устройстве. Это указывает на определенные операционные системы, в том числе варианты в одной семье, например Windows 10 и Windows 7. |
+| `OSBuild` | строка | Сборка версии операционной системы, запущенной на устройстве |
+| `IsAzureADJoined` | boolean | Индикатор Boolean о том, присоединяется ли устройство к Azure Active Directory |
+| `LoggedOnUsers` | строка | Список всех пользователей, зарегистрированных на устройстве во время события в формате массива JSON |
+| `RegistryDeviceTag` | строка | Тег устройства, добавленный в реестр |
+| `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
+| `OSVersion` | строка | Версия операционной системы, запущенной на устройстве |
+| `MachineGroup` | строка | Машинная группа машины. Эта группа используется управлением доступом на основе ролей для определения доступа к машине |
+
+## <a name="related-topics"></a>Статьи по теме
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Изучение языка запросов](advanced-hunting-query-language.md)
+- [Сведения о схеме](advanced-hunting-schema-reference.md)
