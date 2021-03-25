@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Этапы миграции служб Федерации active Directory (AD FS) для миграции из Microsoft Cloud Deutschland.
-ms.openlocfilehash: 146f476a43e46925d87763a800467bf52adc73e5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 12465acf5b4afe7e252586ddd076250628b57dd3
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918910"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165661"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>Этапы миграции AD FS для миграции из Microsoft Cloud Deutschland
 
@@ -59,11 +59,11 @@ ms.locfileid: "50918910"
 
 8. Для AD FS 2012: В правилах разрешения  на выдачу выберите разрешить всем пользователям доступ к выбранной стороне и нажмите **кнопку Далее**. 
 
-8. Для AD FS 2016 и AD FS 2019: на странице **Выбор** политики управления доступом выберите соответствующую политику управления доступом и нажмите **кнопку Далее**. Если ни один из них не выбран, доверение доверяющих сторон **не будет** работать.
+9. Для AD FS 2016 и AD FS 2019: на странице **Выбор** политики управления доступом выберите соответствующую политику управления доступом и нажмите **кнопку Далее**. Если ни один из них не выбран, доверение доверяющих сторон **не будет** работать.
 
-9. Нажмите **кнопку Далее** на **странице Готово добавить доверие,** чтобы завершить мастер.
+10. Нажмите **кнопку Далее** на **странице Готово добавить доверие,** чтобы завершить мастер.
 
-10. Нажмите **Кнопку Закрыть** на **финишной** странице.
+11. Нажмите **Кнопку Закрыть** на **финишной** странице.
 
 Закрыв мастера, устанавливается доверяющий участник с глобальной службой Office 365. Однако правила преобразования выдачи пока не настроены.
 
@@ -74,7 +74,19 @@ ms.locfileid: "50918910"
 
 1. Запустите **создание утверждений** в [AD FS Help](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) и скопируйте скрипт PowerShell с помощью параметра **Copy** в правом верхнем углу скрипта.
 
-2. Следуйте шагам, описанным в справке [AD FS о](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) том, как запустить сценарий PowerShell в ферме AD FS для создания глобального доверяемой группы доверия.
+2. Следуйте шагам, описанным в справке [AD FS о](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) том, как запустить сценарий PowerShell в ферме AD FS для создания глобального доверяемой группы доверия. Перед запуском скрипта замените следующие строки кода в сгенерированной скрипте, как описано ниже:
+
+   ```powershell
+   # AD FS Help generated value
+   $claims = Get-AdfsRelyingPartyTrust -Identifier $(Get-RpIdentifier) | Select-Object IssuanceTransformRules;
+   # replace with
+   $claims = Get-AdfsRelyingPartyTrust -Identifier urn:federation:MicrosoftOnline | Select-Object IssuanceTransformRules;
+
+   # AD FS Help generated value
+   Set-AdfsRelyingPartyTrust -TargetIdentifier $(Get-RpIdentifier) -IssuanceTransformRules $RuleSet.ClaimRulesString;
+   # replace with
+   Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:MicrosoftOnline -IssuanceTransformRules $RuleSet.ClaimRulesString;
+   ```
 
 3. Убедитесь, что присутствуют два полагаться partyTtrusts; один для Microsoft Cloud Deutschland и один для глобальной службы Office 365. Для проверки можно использовать следующую команду. Он должен возвращать две строки и соответствующие имена и идентификаторы.
 
@@ -86,9 +98,7 @@ ms.locfileid: "50918910"
 
 5. В то время как клиент находится в миграции, регулярно убедитесь, что проверка подлинности AD FS работает с облаком Microsoft Cloud Deutschland и Microsoft Global в различных поддерживаемых шагах миграции.
 
-
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>Аварийное восстановление AD FS (база данных WID)
-
 
 Чтобы восстановить ферму AD FS в аварийной ситуации, необходимо использовать средство быстрого восстановления [AD FS.](/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) Поэтому необходимо скачать средство и перед началом миграции создать и безопасно хранить резервное копирование. В этом примере были запущены следующие команды для обратного запуска фермы в базе данных WID:
 
@@ -112,7 +122,6 @@ ms.locfileid: "50918910"
 
 4. Безопасно храните резервную копию в нужном месте.
 
-
 ### <a name="restore-an-ad-fs-farm"></a>Восстановление фермы AD FS
 
 Если ферма полностью сбой и нет способа вернуться к старой ферме, делайте следующее. 
@@ -126,7 +135,6 @@ ms.locfileid: "50918910"
    ```
 
 3. Указать новые записи DNS или балансировку нагрузки на новые серверы AD FS.
-
 
 ## <a name="more-information"></a>Дополнительная информация
 

@@ -22,12 +22,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/02/2021
-ms.openlocfilehash: c11d9cd1ce4c2ca49315ec62b51c23ef981555f4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b66640736e9dc3835919e39d482b2d38b0c9dcc7
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075365"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183685"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Сведения и результаты автоматического расследования
 
@@ -38,7 +38,7 @@ ms.locfileid: "51075365"
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) Страница Единое исследование
 
-Страница расследования недавно была обновлена, чтобы включить сведения на устройствах, электронной почте и совместном контенте. Новая страница единого исследования определяет общий язык и предоставляет унифицированный опыт для автоматических расследований в [Microsoft Defender для конечной](microsoft-defender-advanced-threat-protection.md) точки и [Microsoft Defender для Office 365.](/microsoft-365/security/defender-365-security/office-365-atp) 
+Страница расследования недавно была обновлена, чтобы включить сведения на устройствах, электронной почте и совместном контенте. Новая страница единого исследования определяет общий язык и предоставляет унифицированный опыт для автоматических расследований в [Microsoft Defender для конечной](microsoft-defender-endpoint.md) точки и [Microsoft Defender для Office 365.](/microsoft-365/security/defender-365-security/office-365-atp) 
 
 > [!TIP]
 > Дополнительные информацию о том, что меняется, см. в см. [(NEW!) Страница Единое исследование](/microsoft-365/security/mtp/mtp-autoir-results).
