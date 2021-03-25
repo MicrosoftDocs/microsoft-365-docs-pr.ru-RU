@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ed6f6b42570a908a1f4a83d46ef5b2de0c558692
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 059cfbf37c79ff9f99b5e46c8d4329c203aa9665
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199745"
+ms.locfileid: "51215539"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Настройка расширенных функций в Defender для конечной точки
 
@@ -206,7 +206,7 @@ Defender for Endpoint можно интегрировать с [Microsoft Intune
 
 Перенаправление оповещений о безопасности конечной точки и их состояния в Центр соответствия требованиям Майкрософт, что позволяет повысить внутреннюю политику управления рисками с помощью оповещений и устранять внутренние риски, прежде чем они причинят вред. Переададные данные обрабатываются и хранятся в том же месте, что и данные Office 365.
 
-После настройки [](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-settings.md#indicators) индикаторов нарушений политики безопасности в параметрах управления рисками, оповещения Defender for Endpoint будут совместно использовать для управления рисками для соответствующих пользователей.
+После настройки [](/microsoft-365/compliance/insider-risk-management-settings#indicators) индикаторов нарушений политики безопасности в параметрах управления рисками, оповещения Defender for Endpoint будут совместно использовать для управления рисками для соответствующих пользователей.
 
 ## <a name="related-topics"></a>Статьи по теме
 

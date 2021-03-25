@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут узнать, как просматривать и управлять карантинными сообщениями для всех пользователей в Exchange Online Protection (EOP). Администраторы организаций с Microsoft Defender для Office 365 также могут управлять карантинными файлами в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c606daccfd037cad4d894ab7f33ff02fcf172b5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3dee441a3442454c5f2978422d18a2084f8377f3
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205348"
+ms.locfileid: "51215542"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Управление сообщениями и файлами, помещенными в карантин, в качестве администратора в EOP
 
@@ -197,6 +197,8 @@ ms.locfileid: "51205348"
 
 - **Загрузка сообщения**: В появившейся всплывающей панели выберите **Я понимаю риски, связанные с загрузкой этого сообщения**, чтобы сохранить локальную копию сообщения в формате .eml.
 
+- **Блок отправитель**. Это блокирует отправитель от отправки сообщений электронной почты в почтовый ящик получателя администратора.
+
 - **Отправка сообщения.** В области вылетов, которая появится, выберите следующие параметры:
 
   - **Тип объекта:** **электронная почта** (по умолчанию), **URL-адрес** или **вложение.**
@@ -307,6 +309,6 @@ ms.locfileid: "51205348"
 
 - [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage.](/powershell/module/exchange/preview-quarantinemessage)Обратите внимание, что этот командлет только для сообщений, а не вредоносных файлов из безопасных вложений для SharePoint, OneDrive и Microsoft Teams.
+- [Preview-QuarantineMessage.](/powershell/module/exchange/preview-quarantinemessage)Обратите внимание, что этот командлет только для сообщений, а не для карантинов файлов из безопасных вложений для SharePoint, OneDrive и Microsoft Teams.
 
 - [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)
