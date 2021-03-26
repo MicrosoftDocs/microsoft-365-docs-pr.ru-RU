@@ -58,8 +58,6 @@
       items:
         - name: Обзор Центра администрирования
           href: admin-overview/about-the-admin-center.md
-        - name: Сведения о новом Центре администрирования
-          href: microsoft-365-admin-center-preview.md
         - name: Роли администраторов
           href: add-users/about-admin-roles.md
         - name: Мобильное приложение для администрирования
