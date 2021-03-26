@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Узнайте, как установить отдельные пароли пользователей, чтобы никогда не истекал срок действия, используя Windows PowerShell.
-ms.openlocfilehash: 564ea3338fcb11d699d385a40c9594f34964edf7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c70fce1c3ea9cb1dea66982a27ddb24e2b2de255
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903644"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222068"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
@@ -35,7 +35,7 @@ ms.locfileid: "50903644"
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
-Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md) 
+Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) 
 
 Для выполнения этих [действий](about-admin-roles.md) необходимо быть глобальным администратором или администратором паролей.
 

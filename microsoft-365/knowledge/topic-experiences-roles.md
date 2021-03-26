@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Узнайте о ролях пользователей в Viva Topics.
-ms.openlocfilehash: 6d93046a96b60779c3cd3bd6c6aa600cb443118f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e91eda6807634ad27bf6c15c2dd0d1c9434ce299
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917360"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222771"
 ---
 # <a name="microsoft-viva-topics-roles"></a>Роли тем Microsoft Viva 
 
@@ -49,7 +49,7 @@ ms.locfileid: "50917360"
 Чтобы создать и изменить тему, пользователю необходимо:
 
 -   [Получить лицензию Viva Topics от](./set-up-topic-experiences.md#assign-licenses) администратора Microsoft 365.
--   [Вам назначены разрешения на создание и редактирование тем.](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center) Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
+-   [Вам назначены разрешения на создание и редактирование тем.](./topic-experiences-user-permissions.md) Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
 
 ## <a name="knowledge-managers"></a>Менеджеры знаний
 
@@ -64,7 +64,7 @@ ms.locfileid: "50917360"
 
 Чтобы управлять темами, пользователю необходимо:
 -   [Получить лицензию Viva Topics от](./set-up-topic-experiences.md#assign-licenses) администратора Microsoft 365.
--   [Быть назначены разрешения для управления темами](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center)). Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
+-   [Быть назначены разрешения для управления темами](./topic-experiences-user-permissions.md)). Эта задача делается администратором знаний на странице Параметры Viva Topics в центре администрирования Microsoft 365.
 
 Пользователи, хорошо осведомленные о вашем бизнесе, могут быть хорошими кандидатами на роль менеджера знаний. Такие люди могут не только знать, являются ли темы допустимы или нет, но также могут знать людей в компании, которые связаны с этими темами.
 

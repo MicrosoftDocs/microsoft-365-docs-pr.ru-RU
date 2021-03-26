@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Просмотрите ответы на частые вопросы о централизованном развертывании из центра администрирования Microsoft 365.
-ms.openlocfilehash: 9f4841508701d4dd5878e99fcc51a436bc5824e2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 06e3b7973a209cdf40446c5a9511713d779373b8
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915474"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51221839"
 ---
 # <a name="centralized-deployment-faq"></a>Вопросы и ответы о централизованном развертывании
 
@@ -72,7 +72,7 @@ ms.locfileid: "50915474"
 
 Да. Администраторы могут загружать новый файл манифеста для поддержки изменений метаданных для надстройок LOB, развернутых администратором. Надстройка обновляется при следующем старте приложений Office. Веб-приложение может изменяться в любое время.  
  
-Дополнительные сведения см. [в добавлении line-of-business.](./manage-addins-in-the-admin-center.md#more-about-office-add-ins-security)  
+Дополнительные сведения см. [в добавлении line-of-business.](./manage-addins-in-the-admin-center.md)  
 
 ## <a name="can-admins-turn-off-add-ins"></a>Могут ли администраторы отключить надстройки?  
 

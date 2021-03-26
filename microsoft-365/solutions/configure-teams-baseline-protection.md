@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как развернуть команды с базовым уровнем защиты.
-ms.openlocfilehash: cd5a88069b9947bd4dcb01f6ca76620bb8ed9a52
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 728a41bd521ed32c57c981be576e46eaee344099
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200297"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222747"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Настройка команд с базовым уровнем защиты
 
@@ -39,7 +39,7 @@ ms.locfileid: "51200297"
 |:------|:-----------|
 |Безопасные вложения для SPO, OneDrive и Teams|[Безопасные вложения](../security/office-365-security/safe-attachments.md)<br>[Defender для Office 365 — SharePoint, OneDrive и Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)|
 |Безопасные документы|[Безопасные документы в Microsoft Defender для Office 365](../security/office-365-security/safe-docs.md)|
-|Безопасные ссылки для Teams|[Безопасные ссылки Office 365 в Teams](../security/office-365-security/safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[Безопасные ссылки](../security/office-365-security/safe-links.md)|
+|Безопасные ссылки для Teams|[Безопасные ссылки Office 365 в Teams](../security/office-365-security/safe-links.md)<br>[Безопасные ссылки](../security/office-365-security/safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Предоставление общего доступа гостям в Teams
 

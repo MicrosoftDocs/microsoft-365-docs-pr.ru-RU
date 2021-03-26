@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4e216f841c8728b1cabd98a931e7326f53344a74
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3edc7e52e93bc08d46536a520bf57735983f493b
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072717"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222627"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Управление инцидентами в Microsoft 365 Defender
 
@@ -82,4 +82,4 @@ ms.locfileid: "51072717"
 Добавленные комментарии сразу же появляются в соответствующей области.
 
 ## <a name="add-incident-tags"></a>Добавление тегов инцидента
-К инциденту можно добавить пользовательские теги, например, чтобы пометить группу инцидентов с общими характеристиками. Впоследствии из очереди тегов можно будет выделить все инциденты, которые содержат определенный тег.
+К инциденту можно добавить настраиваемые теги, например для флага группы инцидентов с общей характеристикой. Впоследствии из очереди тегов можно будет выделить все инциденты, которые содержат определенный тег.

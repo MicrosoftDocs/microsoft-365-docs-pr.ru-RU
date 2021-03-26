@@ -1,5 +1,5 @@
 ---
-title: Сброс паролей
+title: Сбрасывайте пароли
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -27,20 +27,20 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Узнайте, как сбросить пароль для пользователя в Microsoft 365 для подписки на бизнес.
-ms.openlocfilehash: 985b9fbae68f12c3f6a23fe8a3e1add4a86df716
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: da2f2b7aced29cd121f7d597af5a518462d2623d
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903704"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222055"
 ---
-# <a name="reset-passwords"></a>Сброс паролей
+# <a name="reset-passwords"></a>Сбрасывайте пароли
 
 В этой статье рассказывается, как сбросить пароли для себя и для пользователей, если у вас есть подписка microsoft 365 для бизнеса.
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
-Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md)
+Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)
 
 Для выполнения этих [действий](about-admin-roles.md) необходимо быть глобальным администратором или администратором паролей.
 

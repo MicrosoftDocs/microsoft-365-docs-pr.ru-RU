@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: da70bbfe5c4dfa4f9eda16adec709826de1247b7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c94b387bbd73e2c4f9b3de243131ae023ddb4cb8
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200021"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222529"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Для удостоверения и за его пределами— точка зрения одного архитектора
 
@@ -231,7 +231,7 @@ Azure AD имеет подробные [возможности аудита и](
 
 В этом смысле это эволюция модели групп ролей Exchange. Однако у Exchange Online есть собственный интерфейс [управления группой](/exchange/permissions-exo) ролей. Некоторые группы ролей в Exchange Online заблокированы и управляются из Azure AD или Центра & безопасности, но другие могут иметь те же или аналогичные имена и управляются в Exchange Online (добавление путаницы). Рекомендуется избегать использования пользовательского интерфейса Exchange Online, если для управления Exchange не нужны области.
 
-Нельзя создавать настраиваемые роли. Роли определяются службами, созданными Корпорацией Майкрософт, и будут расти по мере создания новых служб. В концепции это похоже на [роли, определенные приложениями](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) в Azure AD. При включении новых служб часто необходимо создавать новые группы ролей, чтобы предоставить или [](../compliance/insider-risk-management-configure.md?view=o365-worldwide#step-1-required-enable-permissions-for-insider-risk-management)делегировать доступ к этим службам (например, к управлению рисками изнутри).
+Нельзя создавать настраиваемые роли. Роли определяются службами, созданными Корпорацией Майкрософт, и будут расти по мере создания новых служб. В концепции это похоже на [роли, определенные приложениями](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) в Azure AD. При включении новых служб часто необходимо создавать новые группы ролей, чтобы предоставить или [](../compliance/insider-risk-management-configure.md?view=o365-worldwide)делегировать доступ к этим службам (например, к управлению рисками изнутри).
 
 Эти группы ролей также требуют прямого членства и не могут содержать группы Azure AD. К сожалению, сегодня эти группы ролей не поддерживаются PIM Azure AD. Как и роли Azure AD, я склонен рекомендовать управление ими с помощью API или продукта управления партнером, например Saviynt или других.
 

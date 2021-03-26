@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 370048586c5ddfa6fa9ea265e929608357adf5df
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4aab7f12b250c1415ad65a9e706edf6b68050b2f
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186885"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222661"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Функции предварительного просмотра в Microsoft Defender для конечной точки
 
@@ -40,9 +40,6 @@ ms.locfileid: "51186885"
 
 
 Служба Defender for Endpoint постоянно обновляется, чтобы включить новые возможности и возможности.
-
-> [!TIP]
-> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-abovefoldlink)
 
 Узнайте о новых функциях в выпуске предварительного просмотра Defender для конечной точки и одними из первых попробуйте новые функции, включив функцию предварительного просмотра.
 
@@ -68,15 +65,6 @@ ms.locfileid: "51186885"
 - [Фильтрация веб-контента](web-content-filtering.md) <br> Фильтрация веб-контента является частью возможностей веб-защиты в Microsoft Defender для конечной точки. Это позволяет организации отслеживать и регулировать доступ к веб-сайтам в зависимости от их категорий контента. Многие из этих веб-сайтов, хотя и не являются вредоносными, могут быть проблематичными из-за правил соответствия требованиям, использования пропускной способности или других проблем.
 
 - [Отчет о состоянии и соответствии требованиям к устройству](machine-reports.md) <br/> Отчет о состоянии устройств и соответствие требованиям предоставляет информацию на высоком уровне о устройствах в вашей организации.
-
-- [Защита информации](information-protection-in-windows-overview.md)<BR>
-Защита информации является неотъемлемой частью пакета Microsoft 365 Enterprise, обеспечивая интеллектуальную защиту для обеспечения безопасности конфиденциальных данных, обеспечивая при этом производительность на рабочем месте. Microsoft Defender для конечной точки интегрирована в Microsoft Threat Protection, чтобы обеспечить полное и комплексное решение по предотвращению потери данных (DLP) для устройств Windows.
-
-    >[!NOTE]
-    >Частично доступна в Windows 10 версии 1809.
-
-- [На борту Windows Server 2019](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-version-1803-and-windows-server-2019) <BR> Microsoft Defender для конечной точки теперь добавляет поддержку Windows Server 2019. Вы сможете использовать Windows Server 2019 в том же методе, который доступен для клиентских устройств Windows 10.
-
 
 > [!TIP] 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-belowfoldlink)  

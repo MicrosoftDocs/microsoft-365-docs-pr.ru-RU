@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Узнайте, как устанавливать политику срока действия паролей для организации в Центре администрирования Microsoft 365.
-ms.openlocfilehash: ffe3ca74ce901eef359e1bcb80c4044ce4bf9ad7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 74b23b4a1b67ecd5c9199388985e8e38c3231239
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915078"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51221827"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Установка политики срока действия паролей в организации
 
@@ -41,7 +41,7 @@ ms.locfileid: "50915078"
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
-Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md)
+Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)
 
 Эти действия может выполнять только [глобальный администратор](../add-users/about-admin-roles.md).
 

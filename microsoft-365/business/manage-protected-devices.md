@@ -21,19 +21,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - seo-marvel-mar
-- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Узнайте, как удалить данные компании с устройств, управляемых с помощью политик защиты, а также сбросить устройства Windows 10 в заводские параметры.
-ms.openlocfilehash: 8c5472eada4cded3a6869c031ab902928876095f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5bedcdc95a8d0f67c7db73d84f530a0518a07216
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913221"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222326"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Управление защищенными устройствами с помощью Microsoft 365 Business Premium
 

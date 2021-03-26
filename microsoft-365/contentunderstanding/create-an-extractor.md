@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте, как создать средство извлечения в Microsoft SharePoint Syntex.
-ms.openlocfilehash: 8218d04d2f5cb4e8f8f67bdcd744b7f1a4a4d18a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e95df00c2601bccc5041f96c745048adc8dfc91f
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905816"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222795"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Создание средства извлечения в Microsoft SharePoint Syntex
 
@@ -91,7 +91,7 @@ ms.locfileid: "50905816"
 
 ### <a name="use-the-explanation-library"></a>Использование библиотеки объяснений
 
-Для создания объяснений для таких элементов, как даты, проще [использовать библиотеку объяснений](./explanation-types-overview.md#use-the-explanation-library), чем вручную вводить все варианты. Библиотека объяснений представляет собой набор предварительно созданных объяснений фраз и шаблонов. Библиотека пытается предоставить все форматы для общих списков фраз или шаблонов, таких как даты, номера телефонов, почтовые индексы и многие другие. 
+Для создания объяснений для таких элементов, как даты, проще [использовать библиотеку объяснений](./explanation-types-overview.md), чем вручную вводить все варианты. Библиотека объяснений представляет собой набор предварительно созданных объяснений фраз и шаблонов. Библиотека пытается предоставить все форматы для общих списков фраз или шаблонов, таких как даты, номера телефонов, почтовые индексы и многие другие. 
 
 Для примера *Дата начала службы* более эффективно использовать предварительно созданное объяснение для *даты* в библиотеке объяснений:
 

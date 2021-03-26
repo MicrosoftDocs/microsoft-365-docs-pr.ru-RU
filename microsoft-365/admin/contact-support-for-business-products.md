@@ -22,12 +22,12 @@ search.appverid:
 description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов с помощью указанных телефонных номеров для вашей страны или региона, или отправьте запросы на обслуживание через Интернет.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: aa843f0c81f38e53b525b6e56d7f3fa69696de79
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6e355a07584d45a85c363956d1bb4e45eae708be
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907042"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222043"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Способы обращения в службу поддержки продуктов для бизнеса. Справка для администраторов
 
@@ -42,7 +42,7 @@ ms.locfileid: "50907042"
 
 Экономьте время, создавая запросы на обслуживание через Интернет. Мы поможем вам найти решение или подключиться к службе технической поддержки.
 
-1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Если появляется сообщение "У вас нет разрешения на доступ к этой странице или на выполнение этого действия", это означает, что вы не являетесь администратором. [У кого в моей организации есть разрешения администратора?](admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
+1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Если появляется сообщение "У вас нет разрешения на доступ к этой странице или на выполнение этого действия", это означает, что вы не являетесь администратором. [У кого в моей организации есть разрешения администратора?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?#who-has-admin-permissions-in-my-business)
 
 2. Нажмите кнопку **Нужна помощь?**
 

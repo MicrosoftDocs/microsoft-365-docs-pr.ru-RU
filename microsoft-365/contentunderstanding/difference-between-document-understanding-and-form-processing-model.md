@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: В этой статье рассказывается об основных различиях между моделями осмысления документации и моделями обработки форм.
-ms.openlocfilehash: 9640b028e4b5a9cbd914b183e61de9b8a7ba00bc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f12cc46e1ffcbc610f50ba327e22ad46a2591521
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905794"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222273"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Различия между моделями осмысления документации и моделями обработки форм 
 
@@ -34,7 +34,7 @@ ms.locfileid: "50905794"
 Хотя обе модели обычно используются для одной и той же цели, приводимые ниже ключевые различия определяют, какие из них можно использовать.
 
 > [!NOTE]
-> Дополнительные сведения о примерах сценариев обработки форм и осмысления документации см. в статье [Внедрение SharePoint Syntex: руководство по началу работы](./adoption-getstarted.md#form-processing-scenario-example).
+> Дополнительные сведения о примерах сценариев обработки форм и осмысления документации см. в статье [Внедрение SharePoint Syntex: руководство по началу работы](./adoption-getstarted.md).
 
 
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Структурированные и неструктурированные, а также частично структурированные материалы

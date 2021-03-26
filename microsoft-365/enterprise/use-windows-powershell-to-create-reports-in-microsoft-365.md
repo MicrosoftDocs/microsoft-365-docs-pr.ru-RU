@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: Сводка. Используйте PowerShell для Microsoft 365 для создания отчетов, которые нельзя создавать в центре администрирования Microsoft 365.
-ms.openlocfilehash: 12cba74d114ea03804741335bd34ece403926033
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dc183ae8a315bf788befc85474d0647802ac91ee
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924700"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222783"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>Создание отчетов для Microsoft 365 с помощью PowerShell
 
@@ -33,7 +33,7 @@ ms.locfileid: "50924700"
   
 - Начало работы с отчетами с помощью PowerShell для Microsoft 365:
     
-  - [Зачем использовать PowerShell для Microsoft 365](./why-you-need-to-use-microsoft-365-powershell.md#reveal)
+  - [Зачем использовать PowerShell для Microsoft 365](./why-you-need-to-use-microsoft-365-powershell.md)
     
     
 - Отчеты для пользовательских учетных записей и лицензий:

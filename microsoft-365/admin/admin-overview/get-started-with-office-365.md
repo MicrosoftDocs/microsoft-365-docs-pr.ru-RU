@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: Узнайте, как настроить и использовать Microsoft 365 на компьютере, телефоне и планшете.
-ms.openlocfilehash: 8df5170190a464c71030c938be61df591032c45c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 74821886832e699a90d9a54a9b8c7ce9a8cfab75
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906292"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222031"
 ---
 # <a name="get-started"></a>Начало работы
 
@@ -60,7 +60,7 @@ ms.locfileid: "50906292"
   
 - [Обучение для администраторов.](../index.yml)Получите ссылки на бесплатные онлайн-классы для администраторов.
     
-- [Справка](./admin-overview.md)администратора: получение информации о главных задачах, начало работы с средствами администрирования и устранение неполадок.
+- [Справка](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)администратора: получение информации о главных задачах, начало работы с средствами администрирования и устранение неполадок.
     
 - [Поддержка контактов . Справка администратора:](../contact-support-for-business-products.md) позвоните нам, откройте запрос в Интернете или позвольте сообществу помочь. 
     
