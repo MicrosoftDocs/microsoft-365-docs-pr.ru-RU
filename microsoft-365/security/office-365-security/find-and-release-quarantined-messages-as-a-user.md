@@ -20,12 +20,12 @@ ms.custom:
 description: Пользователи могут узнать о том, как просматривать сообщения, помещенные на карантин в Exchange Online Protection (EOP), и управлять ими.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 961912427f9c343f8235f0ed8e990431669ff9e5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: cc904132bc12f068571cfd86d9f5eb629d7f53f2
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205588"
+ms.locfileid: "51215520"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Поиск и разблокирование сообщений, находящихся на карантине, для пользователя в EOP
 
@@ -155,6 +155,8 @@ ms.locfileid: "51205588"
   - **Текстовое представление**: показывает текст сообщения в виде простого текста.
 
 - **Удалить из карантина**: После нажатия кнопки **Да** в появившемся предупреждении сообщение немедленно удаляется.
+
+- **Блокировать отправителя**: запрещает указанному отправителю отправлять вам сообщения.
 
 Когда закончите, нажмите кнопку **Закрыть**.
 

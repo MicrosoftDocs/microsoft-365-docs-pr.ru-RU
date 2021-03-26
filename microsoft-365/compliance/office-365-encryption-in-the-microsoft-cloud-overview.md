@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: В этой статье ознакомьтесь с обзором различных форм шифрования, используемых для обеспечения безопасности данных клиентов в облаке Майкрософт.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8e184fbe722de674db6f9bcc47e2ab5aa0723d1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4a351215b7773574d5932b936e30c5d5ca7aa116
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926226"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222284"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Шифрование в Microsoft Cloud
 
@@ -57,7 +57,7 @@ FIPS 140-2 — это стандарт, разработанный специа�
 - [Шифрование в Azure](office-365-azure-encryption.md)
 - [BitLocker и распределенный диспетчер ключей (DKM) для шифрования](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)
 - [Шифрование служб Office 365](office-365-service-encryption.md)
-- [Шифрование Office 365 для бизнеса, OneDrive для бизнеса, SharePoint Online и Exchange Online](./n/compliance/assurance/assurance-encryption-for-microsoft-365-services)
+- [Шифрование Office 365 для бизнеса, OneDrive для бизнеса, SharePoint Online и Exchange Online](https://docs.microsoft.com/compliance/assurance/assurance-encryption-for-microsoft-365-services) 
 - [Шифрование транзитных данных](/compliance/assurance/assurance-encryption-in-transit)
 - [Возможности шифрования под управлением клиента](office-365-customer-managed-encryption-features.md)
 - [Риски шифрования и средства защиты](office-365-encryption-risks-and-protections.md)
