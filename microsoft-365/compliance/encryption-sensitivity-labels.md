@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Настройте метки конфиденциальности для шифрования, чтобы защитить данные, ограничив доступ к ним и их использование.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e8080a282ef734490214dc5f2b9e18a1946b314c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f670a3cdefb7b6cd78d24a17fc2e6276274efff3
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185830"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222422"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования
 
@@ -232,7 +232,7 @@ ms.locfileid: "51185830"
 
 Вы можете использовать следующие варианты, чтобы позволить пользователям назначать разрешения, когда они вручную применяют метку конфиденциальности к содержимому.
 
-- В Outlook пользователь может выбрать ограничения, эквивалентные параметру [Не пересылать](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) или [Только шифрование](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) (развертывается в настоящее время) для определенных получателей.
+- В Outlook пользователь может выбрать ограничения, эквивалентные параметру [Не пересылать](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) или [Только шифрование](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) для определенных получателей.
     
     Параметр "Не пересылать" поддерживается всеми почтовыми клиентами, которые поддерживают метки конфиденциальности. Однако применение параметра **Только шифрование** с меткой конфиденциальности — это недавно выпущенная возможность, которая поддерживается только встроенными метками, но не клиентом унифицированных меток Azure Information Protection. В почтовых клиентах, не поддерживающих эту возможность, метка не отображается.
     
