@@ -140,7 +140,7 @@
 ###### [Обзор управления устройством](mac-device-control-overview.md)
 ###### [Примеры JAMF](mac-device-control-jamf.md)
 ###### [Примеры Intune](mac-device-control-intune.md)
-##### [Планирование проверок](mac-schedule-scan-atp.md)
+##### [Планирование проверок](mac-schedule-scan.md)
 
 #### [Устранение неполадок]()
 ##### [Устранение неполадок при установке](mac-support-install.md)
@@ -354,7 +354,7 @@
 #### [Общие]()
 ##### [Проверка местоположения хранилища данных и обновление параметров хранения данных](data-retention-settings.md)
 ##### [Настройка уведомлений оповещений](configure-email-notifications.md)
-##### [Настройка дополнительных функций](advanced-features.md
+##### [Настройка дополнительных функций](advanced-features.md)
 
 #### [Разрешения]()
 ##### [Использование основных разрешений для доступа к порталу](basic-permissions.md)
@@ -587,5 +587,5 @@
 ##### [Правила сокращения направлений атак](troubleshoot-asr.md)
 
 # [Безопасность в Microsoft 365](../index.yml)
-# [Microsoft 365 Defender](../defender/index.yml)
+# [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 # [Defender для Office 365](../office-365-security/overview.md)

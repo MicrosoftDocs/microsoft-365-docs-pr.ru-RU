@@ -697,6 +697,8 @@
               href: email-threading-in-advanced-ediscovery.md
             - name: Темы
               href: themes-in-advanced-ediscovery.md
+            - name: Модуль прогнозирующего кодирования (предварительная версия)
+              href: predictive-coding-overview.md
             - name: Использование модуля релевантности для анализа контента
               href: using-relevance.md
             - name: Вывод из эксплуатации модуля релевантности
