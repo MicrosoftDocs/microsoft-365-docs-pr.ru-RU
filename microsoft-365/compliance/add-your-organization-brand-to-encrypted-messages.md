@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Узнайте, как глобальные администраторы Office 365 могут применять брендинг организации к зашифрованным сообщениям электронной почты & содержимого портала шифрования.
-ms.openlocfilehash: 3c5dc089363a7dfe895e79f03e5a01cb57c2ad57
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2898e12ad00d11cd9eb2f3be5d817ef113607e79
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923509"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394717"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Добавление бренда организации в microsoft 365 для зашифрованных сообщений шифрования бизнес-сообщений
 
@@ -121,14 +121,13 @@ ms.locfileid: "50923509"
 
    В следующей таблице описываются параметры настройки шифрования по умолчанию.
 
-   **Сброс функции шифрования к тексту и изображению по умолчанию**|**Используйте эти команды**|
+   |Сброс функции шифрования к тексту и изображению по умолчанию|Используйте эти команды|
    |:-----|:-----|
-   |Текст по умолчанию, который поставляется с зашифрованными сообщениями электронной почты  <br/> Текст по умолчанию, отображающийся над инструкциями по просмотру зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
+   |Текст по умолчанию, который поставляется с зашифрованными сообщениями электронной почты.  Текст по умолчанию, отображающийся над инструкциями по просмотру зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
    |Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
    |Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **Пример, возвращающийся к умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
    |Логотип|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **Пример, возвращающийся к умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
    |Цвет фона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **Пример, возвращающийся к умолчанию:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
-   |
 
 ## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>Удаление пользовательского шаблона брендинга (предварительное шифрование сообщений)
 

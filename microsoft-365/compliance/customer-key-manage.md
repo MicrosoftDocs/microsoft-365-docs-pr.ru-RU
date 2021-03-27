@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: После настройка ключа клиента узнайте, как управлять им, восстановив ключи AKV, а также управляя разрешениями и политиками шифрования данных.
-ms.openlocfilehash: 8f55667254ce7f5cbd9d4de274623ca4a3c4aa9d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 284a8ff24fef2f7e8b807477c99e20aaf593552e
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909951"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394675"
 ---
 # <a name="manage-customer-key"></a>Управление ключом клиента
 
@@ -32,7 +32,7 @@ ms.locfileid: "50909951"
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-Пример:
+Например:
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -50,7 +50,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-Пример:
+Например:
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -62,7 +62,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-Пример:
+Например:
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com
@@ -168,9 +168,11 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
 
   - **Прокатка:** В настоящее время продолжается перекат ключей. Если ключ для геоската катится, вам также будет показана информация о том, какой процент сайтов завершил операцию рулона ключа, чтобы можно было отслеживать ход выполнения.
 
-## <a name="unassign-a-dep-from-a-mailbox"></a>Отогнать deP из почтового ящика
+## <a name="roll-back-from-customer-key-to-microsoft-managed-keys"></a>Откат от ключа клиента к управляемым клавишам Майкрософт
 
-Вы отожмести deP из почтового ящика с помощью набора почтовых ящиков PowerShell и установите `DataEncryptionPolicy` параметр `$NULL` . При запуске этого cmdlet ненастоящается назначенное в настоящее время deP и повторное шифрование почтового ящика с помощью DEP, связанного с управляемыми ключами Майкрософт по умолчанию. Нельзя отоименить deP, используемый управляемыми ключами Майкрософт. Если вы не хотите использовать управляемые ключи Майкрософт, вы можете назначить другому deP почтовый ящик.
+Для ключа клиента на уровне клиента необходимо связаться с Корпорацией Майкрософт с запросом на "отключение" из клиентского ключа. Запрос будет обрабатываться командой инженерии по вызову.
+
+Для ключа клиента на уровне приложения это необходимо сделать, отогнав deP из почтовых ящиков с помощью комлета Set-mailbox PowerShell и задав значение `DataEncryptionPolicy` `$NULL` . При запуске этого cmdlet ненастоящается назначенное в настоящее время deP и повторное шифрование почтового ящика с помощью DEP, связанного с управляемыми ключами Майкрософт по умолчанию. Нельзя отоименить deP, используемый управляемыми ключами Майкрософт. Если вы не хотите использовать управляемые ключи Майкрософт, вы можете назначить в почтовый ящик еще один DEP ключа клиента.
 
 Чтобы отогнать deP из почтового ящика с помощью Set-Mailbox PowerShell, выполните эти действия.
 
@@ -184,7 +186,7 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
 
 ## <a name="revoke-your-keys-and-start-the-data-purge-path-process"></a>Отзовите ключи и запустите процесс очистки данных
 
-Вы контролируете отзыв всех корневых ключей, включая ключ доступности. Ключ клиента обеспечивает контроль за аспектом планирования выхода из системы нормативных требований для вас. Если вы решите отопустить ключи для очистки данных и выхода из службы, служба удаляет ключ доступности после завершения процесса очистки данных.
+Вы контролируете отзыв всех корневых ключей, включая ключ доступности. Ключ клиента обеспечивает контроль за аспектом планирования выхода из системы нормативных требований для вас. Если вы решите отопустить ключи для очистки данных и выхода из службы, служба удаляет ключ доступности после завершения процесса очистки данных. Вы не можете выполнить очистку данных для политики уровня клиента.
 
 Microsoft 365 проверяет и проверяет путь очистки данных. Дополнительные сведения см. в отчете SSAE 18 SOC 2, доступном на [портале доверия к службам.](https://servicetrust.microsoft.com/) Кроме того, Корпорация Майкрософт рекомендует следующие документы:
 
