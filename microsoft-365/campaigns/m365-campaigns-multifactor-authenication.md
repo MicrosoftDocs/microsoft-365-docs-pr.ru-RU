@@ -2,10 +2,10 @@
 title: Настройка многофакторной проверки подлинности
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -24,21 +24,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка многофакторной проверки подлинности.
-ms.openlocfilehash: 35f96bc41eba9a903bdb3d377a523e2b82e8c428
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 2a0c8b8fb8451d3d8868c493ad5e1f65adc30b6c
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044436"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398209"
 ---
 # <a name="set-up-multifactor-authentication"></a>Настройка многофакторной проверки подлинности
 
-Многофакторная проверка подлинности обеспечивает больше безопасности для вашего бизнеса. После того как администратору потребуется использовать MFA, вы можете настроить приложение Microsoft Authenticator, чтобы вы могли безопасно входить в ключевые приложения с помощью телефона. 
+Многофакторная проверка подлинности обеспечивает больше безопасности для бизнеса. После того как администратор потребовал от вас использовать MFA, вы можете настроить приложение Microsoft Authenticator, чтобы позволить вам безопасно войти в ключевые приложения с помощью телефона. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR]
 
-Дополнительные [см. в настройках многофакторной проверки подлинности в Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
+Дополнительные [ссылки на настройка многофакторной проверки подлинности в Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
 
 ## <a name="use-the-outlook-app-in-your-devices"></a>Использование приложения Outlook на устройствах
 
-После того как администратору потребуется использовать MFA и вы настроили приложение для проверки подлинности как вторую форму проверки подлинности, рекомендуем установить и использовать только приложение Outlook для доступа к электронной почте Microsoft 365. Узнайте, [как установить](../business/set-up-mobile-devices.md) приложения Office, в том числе Outlook, на мобильном устройстве.
+После того как администратор потребовал от вас использовать MFA и вы настроили приложение-аутентификацию в качестве второй формы проверки подлинности, рекомендуется установить и использовать приложение Outlook только для доступа к электронной почте Microsoft 365. Настройка [мобильных устройств](../business/set-up-mobile-devices.md) для установки приложений Office, в том числе Outlook, на телефоне.

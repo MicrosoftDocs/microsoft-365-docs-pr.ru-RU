@@ -5,64 +5,67 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_TOC
-- commerce
 ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
+- okr_smb
+- commerce
 search.appverid:
 - MET150
 description: Узнайте, как отогнать лицензии из учетных записей пользователей.
 ms.date: 07/01/2020
-ms.openlocfilehash: 858daaf0069ecba3e6ff65ce957462764b45c22c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 550136c2cfa8d81a31e52a4313dc9c967a55d56e
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915198"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398197"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 Лицензии можно отогнать от пользователей на странице **Активные** пользователи или на странице **Лицензии.** Метод, который вы используете, зависит от того, хотите ли вы отогнать лицензии на продукт от определенных пользователей или отогнать лицензии пользователей от конкретного продукта.
 
-::: moniker-end
+> [!NOTE]
+> Как администратор вы не можете назначить или отозначить лицензии для подписки на покупку самостоятельной службы, купленной пользователем в вашей организации. Вы можете [взять на себя подписку на](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription)покупку самообслужива, а затем назначить или отозначить лицензии.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 - Чтобы отогнать лицензии, необходимо быть администратором глобальной лицензии, лицензии и пользователя. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../add-users/about-admin-roles.md).
 - Вы можете [удалить лицензии из учетных записей пользователей с помощью Office 365 PowerShell](../../enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell.md).
 - Вы также можете [удалить учетные записи пользователей,](../add-users/delete-a-user.md) которые были назначены лицензии, чтобы сделать их лицензию доступной для других пользователей. При удалении учетной записи пользователя их лицензия сразу же доступна для назначения другому пользователю.
 
-::: moniker range="o365-worldwide"
-
 ## <a name="use-the-licenses-page-to-unassign-licenses"></a>Использование страницы Лицензии для ненамеряния лицензий
 
 При использовании страницы **Лицензии** для отозвал лицензии, вы отозвал лицензии для определенного продукта для до 20 пользователей.
 
+::: moniker range="o365-worldwide"
+
 1. В Центре администрирования выберите **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В центре <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">администрирования</a>перейдите на страницу **Биллинг** > **Лицензии.**
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В центре <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">администрирования</a>перейдите на страницу **Биллинг** > **Лицензии.**
+
+::: moniker-end
+
 2. Выберите продукт, для которого необходимо отогнать лицензии.
 3. Выберите пользователей, для которых необходимо отогнать лицензии.
 4. Выберите **лицензии unassign**.
 5. В поле **Unassign licenses** выберите **Unassign**.
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 ## <a name="use-the-active-users-page-to-unassign-licenses"></a>Используйте страницу Активные пользователи для ненамеряния лицензий
 
@@ -70,71 +73,52 @@ ms.locfileid: "50915198"
 
 ### <a name="unassign-licenses-from-one-user"></a>Unassign licenses from one user
   
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+::: moniker range="o365-worldwide"
+
+1. В Центре администрирования откройте страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В центре <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">администрирования</a>перейдите на страницу Активные пользователи **Биллинга.** > 
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В центре <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">администрирования</a>перейдите на страницу Активные пользователи **Биллинга.** > 
+
+::: moniker-end
+
 2. Выберите строку пользователя, для чего необходимо отогнать лицензию.
 3. В области справа выберите **Лицензии и приложения**.
 4. **Расширите раздел Лицензии,** очистите поля для лицензий, которые необходимо отостановить, а затем выберите **Сохранить изменения.**
 
+###  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
+
+::: moniker range="o365-worldwide"
+
+1. В Центре администрирования откройте страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-## <a name="unassign-licenses-from-one-user"></a>Unassign licenses from one user
-
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
-2. Выберите пользователя, для который необходимо отогнать лицензию.
-3. Справа в строке **Лицензии продукта** выберите **Изменить**.
-4. В области **лицензий** продуктов переключите переключатель в положение **Off** для лицензии, которая будет отменить для пользователя. Например, если отключить лицензию Office 365 Enterprise E3, она отключит лицензию и все службы в соответствии с этой лицензией для этого пользователя.
-5. В нижней части области **Лицензии на продукты** последовательно нажмите **Сохранить** \> **Закрыть** \> **Закрыть**.
+1. В центре <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">администрирования</a>перейдите на страницу Активные пользователи **Биллинга.** > 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-## <a name="unassign-licenses-from-one-user"></a>Unassign licenses from one user
-
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
-2. Выберите пользователя, для который необходимо отогнать лицензию.
-3. Справа в строке **Лицензии продукта** выберите **Изменить**.
-4. В области **лицензий** продуктов переключите переключатель в положение **Off** для лицензии, которая будет отменить для пользователя. Например, если отключить лицензию Office 365 Enterprise E3, она отключит лицензию и все службы в соответствии с этой лицензией для этого пользователя.
-5. В нижней части области **Лицензии на продукты** последовательно нажмите **Сохранить** \> **Закрыть** \> **Закрыть**.
+1. В центре <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">администрирования</a>перейдите на страницу Активные пользователи **Биллинга.** > 
 
 ::: moniker-end
 
-::: moniker range="o365-worldwide"
-###  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
-
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
 2. Выберите круги рядом с именами пользователей, для которых необходимо отогнать лицензии.
 3. Нажмите вверху **Дополнительные параметры (...)** и выберите **Управление лицензиями на продукты**.
 4. В области **Управление лицензиями на продукты** выберите **Заменить имеющиеся назначения лицензий на продукты** \> **Далее**.
 5. В нижней части области **Заменить** существующие продукты выберите удалить все лицензии на продукты из выбранного окна пользователей, а затем выберите **заменить**  \> **закрыть**.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-##  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
-
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
-2. Выберите поля рядом с именами пользователей, для которых необходимо отогнать все лицензии.
-3. В области **Массовые действия** выберите **Изменить лицензии продуктов**.
-4. In the **Replace existing products** pane, select **Replace existing product license assignments** \> **Next**.
-5. В нижней части области **Заменяйте**  существующие продукты, выберите удалить все лицензии на продукты из выбранного окна пользователей, а затем выберите **Замените** \> **закрыть** \> .
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-##  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
-  
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
-2. Выберите поля рядом с именами пользователей, для которых необходимо отогнать все лицензии.
-3. В области **Массовые действия** выберите **Изменить лицензии продуктов**.
-4. In the **Replace existing products** pane, select **Replace existing product license assignments** \> **Next**.
-5. В нижней части области **Заменяйте**  существующие продукты, выберите удалить все лицензии на продукты из выбранного окна пользователей, а затем выберите **Замените** \> **закрыть** \> .
-
-::: moniker-end
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>Что происходит с данными пользователя при удале лицензии?
 

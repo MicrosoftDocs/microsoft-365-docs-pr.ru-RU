@@ -33,7 +33,7 @@
 #### [Этап 2. Настройка](mcafee-to-microsoft-defender-setup.md)
 #### [Этап 3. Подключение](mcafee-to-microsoft-defender-onboard.md)
 ### [Переключение из Symantec в Microsoft Defender для конечной точки]()
-#### [Обзор миграции](symantec-to-microsoft-defender-atp-migration.md)
+#### [Обзор миграции](symantec-to-microsoft-defender-endpoint-migration.md)
 #### [Этап 1. Подготовка](symantec-to-microsoft-defender-atp-prepare.md)
 #### [Этап 2. Настройка](symantec-to-microsoft-defender-atp-setup.md)
 #### [Этап 3. Подключение](symantec-to-microsoft-defender-atp-onboard.md)
@@ -115,7 +115,7 @@
 ##### [Включить контролируемый доступ к папкам](enable-controlled-folders.md)
 ##### [Настройка контролируемого доступа к папкам](customize-controlled-folders.md)
 
-### [Расширенная защита от угроз в Microsoft Defender для Mac]()
+### [Microsoft Defender для конечной точки для Mac]()
 #### [Обзор Microsoft Defender для конечной точки для Mac](microsoft-defender-endpoint-mac.md)
 #### [Новые возможности](mac-whatsnew.md)
 
@@ -378,6 +378,8 @@
 ##### [Отключение устройств](offboard-machines.md)
 
 #### [Настройка параметров часового пояса Центра безопасности в Microsoft Defender](time-settings.md)
+
+### [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)
 
 ### [Настройка интеграции с другими решениями Майкрософт]()
 #### [Настройка условного доступа](configure-conditional-access.md)

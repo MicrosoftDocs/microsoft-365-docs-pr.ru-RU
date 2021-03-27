@@ -2,11 +2,11 @@
 title: Обзор установки для Microsoft 365 Бизнес Премиум
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
 ms.date: 9/20/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Обзор установки для Microsoft 365 Бизнес Премиум для кампаний или других предприятий
-ms.openlocfilehash: fee9391d7a6375f14f0e38f8c6a349fe4ec11619
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e612771ca4e967462f190c41396f16c6faf9d195
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912110"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398269"
 ---
 # <a name="set-up-microsoft-365"></a>Настройка Microsoft 365
 
@@ -61,7 +61,7 @@ ms.locfileid: "50912110"
 Для ключевых сотрудников рекомендуется использовать [управляемые устройства для](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) еще большей защиты. Для всех устройств необходимо настроить многофакторную [проверку подлинности.](m365-campaigns-multifactor-authenication.md)
 3. Все пользователи должны научиться защищать себя и свою кампанию, узнав о фишинге [и других атаках.](m365-campaigns-phishing-and-attacks.md) Эта [инфографика](m365-campaigns-protect-campaign-infographic.md) также поможет пользователям понять, как защитить кампанию от угроз в Интернете.
 
-## <a name="contact-support"></a>Обращение в службу поддержки
+## <a name="contact-support"></a>Обратитесь в службу поддержки
 
  **Если вам нужно обратиться в службу поддержки:**
   

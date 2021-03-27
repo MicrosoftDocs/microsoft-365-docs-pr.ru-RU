@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender для конечной точки для государственных клиентов США
+title: Microsoft Defender для конечной точки для государственных служб США
 description: Узнайте о доступных требованиях и возможностях Microsoft Defender для конечной точки для государственных клиентов США
 keywords: правительство, gcc, высокая, требования, возможности, защитник, защитник atp, mdatp, конечная точка, dod
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 089614fab57950af5f60181ce7ed2116046ad347
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 320913058f1d3cab36b3a279996443c2e4ef117f
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379374"
+ms.locfileid: "51382917"
 ---
-# <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender для конечной точки для государственных клиентов США
+# <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender для конечной точки для государственных служб США
 
 **Область применения:**
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -100,7 +100,7 @@ iOS | ![Нет](images/svg/check-no.svg) На неополненном техн�
 > Попытка на борту устройств Windows старше Windows 10 или Windows Server 2019 с помощью [агента мониторинга Майкрософт?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) Вам необходимо выбрать "Azure US Government" в "Azure Cloud", если с [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) помощью мастера настройки [или](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)с помощью командной строки или скрипта [задан](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) параметр "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" до 1.
 
 > [!NOTE]
-> Для Linux потребуется версия 101.25.72 и выше, а для macOS версии 101.25.69 и выше. Пока мы в предварительном просмотре, эти версии можно использовать только в канале "Insider Fast". См. в этой ссылке Настройка [репозитория](linux-install-manually.md#configure-the-linux-software-repository) программного обеспечения Linux или настройка имени канала [(macOS)](mac-updates.md#set-the-channel-name) для инструкций.
+> Для Linux потребуется версия 101.25.72 и выше, а для macOS версии 101.25.69 и выше. Во время предварительного просмотра эти версии можно использовать только в канале "Insider Fast". См. в этой ссылке Настройка [репозитория](linux-install-manually.md#configure-the-linux-software-repository) программного обеспечения Linux или настройка имени канала [(macOS)](mac-updates.md#set-the-channel-name) для инструкций.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>Версии ОС при использовании Azure Defender для серверов
 При использовании Azure Defender для серверов поддерживаются следующие версии [ОС:](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
@@ -168,12 +168,12 @@ Defender for Endpoint для государственных клиентов С�
 Уведомления по электронной почте | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Лаборатория оценки | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Управление и API: отчет о состоянии устройств и соблюдении требований | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Управление и API: интеграция с сторонними продуктами | ![Нет](images/svg/check-no.svg) Развертывание | ![Нет](images/svg/check-no.svg) Развертывание | ![Нет](images/svg/check-no.svg) Развертывание
+Управление и API: интеграция с сторонними продуктами | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Управление и API: потоковый API | ![Да](images/svg/check-yes.svg) | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Управление и API: отчет о защите от угроз | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Управление угрозами и уязвимостями. | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Аналитика угроз | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Фильтрация веб-контента | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
+Фильтрация веб-содержимого | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Интеграция: Azure Sentinel | ![Да](images/svg/check-yes.svg) | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Интеграция: безопасность облачных приложений Майкрософт | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
 Интеграция: Microsoft Compliance Manager | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
