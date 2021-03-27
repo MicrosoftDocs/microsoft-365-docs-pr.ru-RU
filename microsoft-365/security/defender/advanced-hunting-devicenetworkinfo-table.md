@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1c8a3f3ab91add9e057c4661677997e658f42386
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9a3806d3e2bff66e04f4adb50217fc1c6f267364
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071549"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382607"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -46,18 +46,18 @@ ms.locfileid: "51071549"
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
+| `NetworkAdapterName` | string | Имя сетевого адаптер |
+| `MacAddress` | Строка | MAC-адрес сетевого адаптер |
+| `NetworkAdapterType` | Строка | Тип сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
+| `NetworkAdapterStatus` | Строка | Состояние сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
+| `TunnelType` | Строка | Протокол туннеля, если интерфейс используется для этой цели, например 6to4, Teredo, ISATAP, PPTP, SSTP и SSH. |
+| `ConnectedNetworks` | Строка | Сети, к которые подключен адаптер. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
+| `DnsAddresses` | Строка | Адреса DNS-серверов в формате массива JSON |
+| `IPv4Dhcp` | Строка | IPv4 адрес сервера DHCP |
+| `IPv6Dhcp` | Строка | IPv6 адрес сервера DHCP |
+| `DefaultGateways` | Строка | Адреса шлюзов по умолчанию в формате массива JSON |
+| `IPAddresses` | Строка | Массив JSON, содержащий все IP-адреса, присвоенные адаптеру, а также соответствующий префикс подсети и пространство IP-адресов, таких как общедоступный, частный или ссылка-локальный. |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
-| `NetworkAdapterName` | строка | Имя сетевого адаптер |
-| `MacAddress` | строка | MAC-адрес сетевого адаптер |
-| `NetworkAdapterType` | строка | Тип сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
-| `NetworkAdapterStatus` | строка | Состояние сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
-| `TunnelType` | строка | Протокол туннеля, если интерфейс используется для этой цели, например 6to4, Teredo, ISATAP, PPTP, SSTP и SSH. |
-| `ConnectedNetworks` | строка | Сети, к которые подключен адаптер. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
-| `DnsAddresses` | строка | Адреса DNS-серверов в формате массива JSON |
-| `IPv4Dhcp` | строка | IPv4 адрес сервера DHCP |
-| `IPv6Dhcp` | строка | IPv6 адрес сервера DHCP |
-| `DefaultGateways` | строка | Адреса шлюзов по умолчанию в формате массива JSON |
-| `IPAddresses` | строка | Массив JSON, содержащий все IP-адреса, присвоенные адаптеру, а также соответствующий префикс подсети и пространство IP-адресов, таких как общедоступный, частный или ссылка-локальный. |
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 059cfbf37c79ff9f99b5e46c8d4329c203aa9665
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 684025441c8400775f469515df1bcd0423d6460b
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215539"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394750"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Настройка расширенных функций в Defender для конечной точки
 
@@ -63,6 +63,14 @@ ms.locfileid: "51215539"
 ## <a name="live-response-unsigned-script-execution"></a>Live response unsigned script execution
 
 Включение этой функции позволяет запускать неподписаные скрипты в сеансе живого ответа.
+
+
+## <a name="restrict-correlation-to-within-scoped-device-groups"></a>Ограничение корреляции для групп устройств с масштабами
+При включении этого параметра оповещения сопоставляются с отдельными инцидентами в зависимости от их группы устройств с охватом. По умолчанию корреляция инцидентов происходит во всей области клиента.
+
+>[!NOTE]
+>Изменение этого параметра влияет только на будущие корреляции оповещений.
+
 
 ## <a name="autoresolve-remediated-alerts"></a>Автоматическое исправление оповещений
 
@@ -143,7 +151,7 @@ ms.locfileid: "51215539"
 
 Чтобы получить контекстную интеграцию устройств в Office 365 Threat Intelligence, необходимо включить параметры Defender для конечной точки в панели мониторинга & соответствия требованиям. Дополнительные сведения см. в [дополнительных сведениях о расследовании угрозы и ответах.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
 
-## <a name="microsoft-threat-experts"></a>Microsoft Threat Experts
+## <a name="microsoft-threat-experts"></a>Эксперты Майкрософт по угрозам
 
 Из двух компонентов Microsoft Threat Expert целевое уведомление об атаке в общем доступе. Возможности экспертов по запросу по-прежнему находятся в предварительном просмотре. Вы можете использовать возможности экспертов по запросу только в том случае, если вы подали заявку на предварительное просмотр и ваше приложение было утверждено. При настройке можно получать целевые уведомления об атаке от экспертов Microsoft Threat с помощью панели оповещений портала Защитник для конечных точек и по электронной почте.
 

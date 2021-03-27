@@ -1,6 +1,6 @@
 ---
-title: Ручное развертывание для ATP Защитника Майкрософт для macOS
-description: Установите ATP Microsoft Defender для macOS вручную из командной строки.
+title: Ручное развертывание для Microsoft Defender для конечной точки для macOS
+description: Установите Microsoft Defender для конечной точки для macOS вручную из командной строки.
 keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2629eb3d13e6eb908644dfcade46a7ac2768637
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 044a3d48dc350a5663a27ab3c16c2da7a5e3f3f1
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187449"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379470"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Ручное развертывание для Microsoft Defender для конечной точки для macOS
 
@@ -64,20 +64,20 @@ ms.locfileid: "51187449"
 
 1. Перейдите к скачаемой wdav.pkg в Finder и откройте его.
 
-    ![Снимок экрана установки приложения1](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-28-appinstall)
+    ![Снимок экрана установки приложения1](images/mdatp-28-appinstall.png)
 
 2. Выберите **Продолжить,** согласитесь с условиями лицензии и введите пароль при запросе.
 
-    ![Скриншот установки приложения2](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-29-appinstalllogin)
+    ![Скриншот установки приложения2](images/mdatp-29-appinstalllogin.png)
 
    > [!IMPORTANT]
    > Вам будет предложено разрешить установку драйвера из Microsoft (либо "Расширение системы заблокировано", либо "Установка заблокирована" или оба. Необходимо разрешить установку драйвера.
 
-   ![Снимок экрана установки приложения3](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-30-systemextension)
+   ![Снимок экрана установки приложения3](images/mdatp-30-systemextension.png)
 
 3. Выберите **параметры Open Security Preferences** или **Open System Preferences > безопасности & конфиденциальности.** Выберите **Разрешить:**
 
-    ![Снимок экрана окна безопасности и конфиденциальности](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-31-securityprivacysettings)
+    ![Снимок экрана окна безопасности и конфиденциальности](images/mdatp-31-securityprivacysettings.png)
 
    Продолжается установка.
 
@@ -119,7 +119,7 @@ ms.locfileid: "51187449"
 
 1. Скопируйте wdav.pkg и MicrosoftDefenderATPOnboardingMacOs.py на устройство, на котором развернут Microsoft Defender для конечной точки для macOS.
 
-    Устройство клиента не связано с orgId. Обратите внимание, что *атрибут orgId* пустой.
+    Клиентские устройства не связаны с orgId. Обратите внимание, что *атрибут orgId* пустой.
 
     ```bash
     mdatp health --field org_id
@@ -139,7 +139,7 @@ ms.locfileid: "51187449"
 
 После установки вы увидите значок Microsoft Defender в панели состояния macOS в правом верхнем углу.
 
-   ![Значок Microsoft Defender в скриншоте панели состояния](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-icon-bar)
+   ![Значок Microsoft Defender в скриншоте панели состояния](images/mdatp-icon-bar.png)
    
 
 ## <a name="how-to-allow-full-disk-access"></a>Как разрешить полный доступ к диску

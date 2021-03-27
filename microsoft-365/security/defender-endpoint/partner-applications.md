@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79db436c2017c00e1b5d669797c5fb025f651a8a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 563dd2a5102ec66a1e953ae6ab30d56ea4f99036
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186237"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382940"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>Партнерские приложения в Microsoft Defender для конечной точки 
 
@@ -98,6 +98,7 @@ Microsoft Defender для конечной точки легко интегри�
 ![Изображение логотипа Aruba ClearPass Policy Manager](images/aruba-logo.png) | [Менеджер политики ClearPass Aruba](https://go.microsoft.com/fwlink/?linkid=2127544) | Убедитесь, что Defender для конечной точки установлен и обновляется на каждой конечной точке, прежде чем разрешить доступ к сети
 ![Изображение логотипа Blue Hexagon для сети](images/bluehexagon-logo.png) | [Blue Hexagon for Network](https://go.microsoft.com/fwlink/?linkid=2104613) | Blue Hexagon построила первую в отрасли платформу глубокого обучения в режиме реального времени для защиты от сетевых угроз
 ![Изображение логотипа CyberMDX](images/cybermdx-logo.png) | [CyberMDX](https://go.microsoft.com/fwlink/?linkid=2135620) | Cyber MDX интегрирует всеобъемлющую видимость активов здравоохранения, предотвращение угроз и отработку в среде Defender for Endpoint
+![Изображение логотипа HYAS Protect](images/hyas-logo.png) | [Защита HYAS](https://go.microsoft.com/fwlink/?linkid=2156763) | Защита HYAS использует авторитетные знания инфраструктуры злоумышленников для активной защиты конечных точек Microsoft Defender для конечных точек конечных точек от кибератак
 ![Изображение логотипа vectra Network Detection and Response (NDR)](images/vectra-logo.png) |[Обнаружение и реагирование сети Vectra (NDR)](https://go.microsoft.com/fwlink/?linkid=866934)| Vectra применяет исследования & безопасности для обнаружения и реагирования на кибератаки в режиме реального времени
 
 

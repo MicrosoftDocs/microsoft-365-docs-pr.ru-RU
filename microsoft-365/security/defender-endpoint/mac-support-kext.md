@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок с расширением ядра в ATP Microsoft Defender для Mac
-description: Устранение неполадок, связанных с расширением ядра в MICROSOFT Defender ATP для Mac.
+title: Устранение неполадок с расширением ядра в Microsoft Defender для конечной точки для Mac
+description: Устранение неполадок, связанных с расширением ядра в Microsoft Defender для конечной точки для Mac.
 keywords: Microsoft, defender, atp, mac, kernel, extension
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bdd5c6309a19863339b00e846c1c2670fc4f261b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 877cc619d3ba048cdf6ecc8149f073461d9eac8e
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187605"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379520"
 ---
 # <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-for-mac"></a>Устранение неполадок с расширением ядра в Microsoft Defender для конечной точки для Mac
 
@@ -40,11 +40,11 @@ ms.locfileid: "51187605"
 
 В этой статье данная статья содержит сведения о том, как устранить проблемы с расширением ядра, которое установлено в рамках Microsoft Defender для конечной точки для Mac.
 
-Начиная с macOS High Sierra (10.13), macOS требует явного утверждения всех расширений ядра, прежде чем они будут разрешены для запуска на устройстве.
+Начиная с macOS High Sierra (10.13), macOS требует явного утверждения всех расширений ядра до того, как они будут разрешены для запуска на устройстве.
 
 Если вы не одобрили расширение ядра во время развертывания и установки Microsoft Defender для конечной точки для Mac, приложение отображает баннер, в результате чего вы сможете включить его:
 
-   ![Снимок экрана отключенного RTP](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-32-main-app-fix)
+   ![Снимок экрана отключенного RTP](images/mdatp-32-main-app-fix.png)
 
 Вы также можете запустить ```mdatp health``` . Он сообщает, включена ли защита в режиме реального времени, но недоступна. Это означает, что расширение ядра не утверждено для запуска на устройстве.
 
@@ -73,7 +73,7 @@ real_time_protection_available              : true
 
 Если вы не видите эту подсказку, это означает, что прошло 30 или более минут, и расширение ядра еще не было утверждено для запуска на устройстве:
 
-![Окно безопасности и конфиденциальности после оперативного экрана с истекшим сроком действия](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-33-securityprivacysettings-noprompt)
+![Окно безопасности и конфиденциальности после оперативного экрана с истекшим сроком действия](images/mdatp-33-securityprivacysettings-noprompt.png)
 
 В этом случае необходимо выполнить следующие действия, чтобы снова вызвать поток утверждения.
 

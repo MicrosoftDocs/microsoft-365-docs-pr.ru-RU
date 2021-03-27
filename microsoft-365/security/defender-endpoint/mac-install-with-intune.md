@@ -1,5 +1,5 @@
 ---
-title: Развертывание на основе intune для ATP Microsoft Defender для Mac
+title: Развертывание на основе intune для Microsoft Defender для конечной точки для Mac
 description: Установите Microsoft Defender для конечной точки для Mac с помощью Microsoft Intune.
 keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 08cb16f6ae6e259d1bc92e7d2bed96f093a435f0
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: bd74f3a487de4febecb2086cb126c50b8432c342
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222517"
+ms.locfileid: "51379633"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-for-mac"></a>Развертывание на основе intune для Microsoft Defender для конечной точки для Mac
 
@@ -62,7 +62,7 @@ ms.locfileid: "51222517"
 | [Предоставление полного доступа к диску Microsoft Defender для конечной точки](#create-system-configuration-profiles-step-8) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
 | [Политика расширения сети](#create-system-configuration-profiles-step-9) | MDATP_NetExt.xml | Недоступно |
 | [Настройка Microsoft AutoUpdate (MAU)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-updates#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
-| [Microsoft Defender для параметров конфигурации конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-preferences#intune-profile-1)<br/><br/> **Примечание:** Если вы планируете запустить сторонний AV для macOS, установите `passiveMode` . `true` | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
+| [Microsoft Defender для параметров конфигурации конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-preferences#intune-profile-1)<br/><br/> **Примечание:** Если вы планируете запустить сторонний AV для macOS, задай `passiveMode` . `true` | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
 | [Настройка уведомлений Microsoft Defender для конечной точки и ms AutoUpdate (MAU)](#create-system-configuration-profiles-step-10) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 или com.microsoft.wdav.tray |
 
 ## <a name="download-installation-and-onboarding-packages"></a>Загрузка пакетов установки и загрузки
@@ -133,13 +133,15 @@ ms.locfileid: "51222517"
 
 ## <a name="client-device-setup"></a>Установка клиентских устройств
 
-Вам не требуется специальная подготовка для устройства Mac за пределами стандартной [установки портала компании.](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp)
+Вам не требуется специальная подготовка для устройства Mac за пределами стандартной установки [портала компании.](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp)
 
 1. Подтверждение управления устройствами.
 
+   ![Подтверждение экрана управления устройствами](images/mdatp-3-confirmdevicemgmt.png)
+
     Выберите **параметры Open System Preferences,** найдите **профиль** управления в списке и выберите **Утверждение...**. Ваш профиль управления будет отображаться как **Проверенный:**
 
-    ![Снимок экрана профиля управления](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-4-managementprofile)
+    ![Снимок экрана профиля управления](images/mdatp-4-managementprofile.png)
 
 2. Выберите **Продолжить** и завершить регистрацию.
 
@@ -148,7 +150,7 @@ ms.locfileid: "51222517"
 3. В Intune откройте **управление**  >  **устройствами**  >  **все устройства.** Здесь вы можете увидеть ваше устройство среди перечисленных ниже.
 
    > [!div class="mx-imgBorder"]
-   > ![Добавление экрана устройства](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-5-alldevices)
+   > ![Добавление экрана устройства](images/mdatp-5-alldevices.png)
 
 ## <a name="approve-system-extensions"></a>Утверждение расширений системы
 
@@ -184,7 +186,7 @@ ms.locfileid: "51222517"
 
 4. Нажмите кнопку **ОК**.
 
-    ![Импорт конфигурации из файла для настраиваемого профиля конфигурации](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-6-systemconfigurationprofiles)
+    ![Импорт конфигурации из файла для настраиваемого профиля конфигурации](images/mdatp-6-systemconfigurationprofiles.png)
 
 5. Выберите **управление**  >  **назначениями.** На **вкладке Включить** выберите Назначение всем пользователям & **всех устройств.**
 
@@ -208,7 +210,7 @@ ms.locfileid: "51222517"
 После распространения изменений Intune на зарегистрированные устройства вы можете увидеть их, перечисленные в состоянии **Monitor**  >  **Device:**
 
 > [!div class="mx-imgBorder"]
-> ![Просмотр состояния устройства в мониторе](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-7-devicestatusblade.png)
+> ![Просмотр состояния устройства в мониторе](images/mdatp-7-devicestatusblade.png)
 
 ## <a name="publish-application"></a>Публикация приложения
 
@@ -230,43 +232,43 @@ ms.locfileid: "51222517"
     > Если версия, загруженная Intune, ниже, чем версия на устройстве, то будет установлена более низкая версия, что фактически понизит рейтинг Microsoft Defender для endpoint. Это может привести к не функционируют приложения. Дополнительные сведения об обновлении продукта см. в [веб-сайте Deploy updates for Microsoft Defender for Endpoint for Mac.](mac-updates.md) Если вы развернули Microsoft Defender  для конечной точки с набором **"Нет"** версии приложения, измените ее на **Да.** Если Microsoft Defender для конечной точки по-прежнему не может быть установлен на клиентских устройствах, удалить Microsoft Defender для конечной точки и нажмите обновленную политику.
      
     > [!div class="mx-imgBorder"]
-    > ![Отображение сведений о приложении в добавлении Приложения](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-8-intuneappinfo)
+    > ![Отображение сведений о приложении в добавлении Приложения](images/mdatp-8-intuneappinfo.png)
 
 7. Выберите **ОК** и **Добавьте**.
 
     > [!div class="mx-imgBorder"]
-    > ![Состояние устройства, показанное в окне Уведомлений](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-9-intunepkginfo)
+    > ![Состояние устройства, показанное в окне Уведомлений](images/mdatp-9-intunepkginfo.png)
 
 8. Загрузка пакета может занять несколько минут. После этого выберите пакет из списка и перейдите в **группу "Назначения"** **и "Добавить".**
 
     > [!div class="mx-imgBorder"]
-    > ![Снимок экрана клиентских приложений](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-10-clientapps)
+    > ![Снимок экрана клиентских приложений](images/mdatp-10-clientapps.png)
 
 9. Изменение **типа назначения** на **Required**.
 
 10. Выберите **включенные группы.** Выберите **Make this app required for all devices=Yes.** Выберите **группу Выберите, чтобы** включить и добавить группу, которая содержит пользователей, на которые нужно нацелить. Выберите **ОК** и **сохранить**.
 
     > [!div class="mx-imgBorder"]
-    > ![Снимок экрана информации о назначениях Intune](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-11-assignments)
+    > ![Снимок экрана информации о назначениях Intune](images/mdatp-11-assignments.png)
 
 11. Через некоторое время приложение будет опубликовано на всех зарегистрированных устройствах. Вы можете увидеть его, перечисленные в **Монитор**  >  **устройства**, в **состоянии установки устройства**:
 
     > [!div class="mx-imgBorder"]
-    > ![Скриншот состояния устройства Intune](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-12-deviceinstall)
+    > ![Скриншот состояния устройства Intune](images/mdatp-12-deviceinstall.png)
 
 ## <a name="verify-client-device-state"></a>Проверка состояния клиентского устройства
 
 1. После развертывания профилей конфигурации на устройствах откройте **профили** системных  >  **предпочтений** на устройстве Mac.
 
-    ![Снимок экрана "Параметры системы"](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-13-systempreferences)<br/>
-    ![Снимок экрана профилей системных предпочтений](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-14-systempreferencesprofiles)
+    ![Снимок экрана "Параметры системы"](images/mdatp-13-systempreferences.png)<br/>
+    ![Снимок экрана профилей системных предпочтений](images/mdatp-14-systempreferencesprofiles.png)
 
-2. Убедитесь, что следующие профили конфигурации присутствуют и устанавливаются. Профиль **управления должен** быть профилем системы Intune. _Wdav-config_ и _wdav-kext_ — это профили конфигурации системы, добавленные в Intune: ![ Скриншот профилей](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-15-managementprofileconfig)
+2. Убедитесь, что следующие профили конфигурации присутствуют и устанавливаются. Профиль **управления должен** быть профилем системы Intune. _Wdav-config_ и _wdav-kext_ — это профили конфигурации системы, добавленные в Intune: ![ Скриншот профилей](images/mdatp-15-managementprofileconfig.png)
 
 3. Вы также должны увидеть значок Microsoft Defender в правом верхнем углу:
 
     > [!div class="mx-imgBorder"]
-    > ![Значок Microsoft Defender в скриншоте панели состояния](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-icon-bar)
+    > ![Значок Microsoft Defender в скриншоте панели состояния](images/mdatp-icon-bar.png)
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 

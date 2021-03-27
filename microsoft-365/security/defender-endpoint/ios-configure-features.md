@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 90e65c57321fa05a62bc94f4f56d92062d0826a1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 18fbc13614753ae57856a124d76bbad682ab88e5
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186705"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379362"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-for-ios-features"></a>Настройка Microsoft Defender для конечной точки для функций iOS
 
@@ -102,3 +102,9 @@ Defender for Endpoint для iOS позволяет администратора
 ## <a name="report-unsafe-site"></a>Сообщить о небезопасном сайте
 
 Фишинговые веб-сайты выдают себя за надежные веб-сайты с целью получения личной или финансовой информации. Если вы хотите сообщить о веб-сайте, который может быть фишинг-сайтом, посетите страницу Provide feedback about [network](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) protection page.
+
+## <a name="battery-consumption-issues-on-ios-when-microsoft-defender-for-endpoint-is-installed"></a>Проблемы с потреблением батареи на iOS при установке Microsoft Defender для конечной точки
+
+Использование батареи приложением вычисляется Apple на основе множества факторов, включая использование ЦП и сети. Microsoft Defender для конечной точки использует локальный VPN-сервер в фоновом режиме для проверки веб-трафика на любые вредоносные веб-сайты или подключения. Сетевые пакеты из любого приложения проходят эту проверку, что приводит к неправильному вычислению использования батареи Microsoft Defender для конечной точки. Это создает ложное впечатление для пользователя. Фактическое потребление батареи в Microsoft Defender для конечной точки меньше, чем показано на странице Параметры батареи на устройстве. Это основано на проведенных тестах, проведенных в приложении Microsoft Defender for Endpoint для понимания потребления батареи.
+
+Кроме того, используемый VPN является локальным VPN и в отличие от традиционных VPN, сетевой трафик не отправляется за пределы устройства.

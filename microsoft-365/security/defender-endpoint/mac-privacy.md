@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 83a56a74ff949b23843417942923d2b4b810b4ee
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1386809778edeb92521a8656e9ece78591a682a4
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185935"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382905"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Конфиденциальность для Microsoft Defender для конечной точки для Mac
 
@@ -156,6 +156,18 @@ ms.locfileid: "51185935"
 | reason           | Сообщение об ошибке, если обновлено. |
 
 #### <a name="product-and-service-performance-data-events"></a>События, связанные с данными о производительности продуктов и служб
+
+**Непредвиденный выход из приложения (сбой)**
+
+Собирает системные сведения и состояние приложения при неожиданном выходе приложения.
+
+Собираются указанные ниже поля.
+
+| Поле                          | Описание |
+| ------------------------------ | ----------- |
+| v1_crash_count                 | Количество случаев сбоя процесса двигателя V1 каждый час на клиентской машине  |
+| v2_crash_count                 | Количество случаев сбоя процесса двигателя V2 каждый час на клиентской машине  |
+| EDR_crash_count                | Количество случаев сбоя процесса EDR каждый час на клиентской машине        |
 
 **Статистика расширения ядра**
 

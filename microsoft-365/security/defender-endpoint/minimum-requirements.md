@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c6afa48fcee80c0b8fb7ed0563264932566b6321
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6a8e1091490cb9f3fe1eedadec0b76a56ada936e
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185795"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379494"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Минимальные требования к Microsoft Defender для конечной точки
 
@@ -31,12 +31,10 @@ ms.locfileid: "51185795"
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
 
 
 Для бортовых устройств к службе существует несколько минимальных требований. Узнайте о требованиях к лицензированию, оборудованию и программному обеспечению и других параметрах конфигурации для бортовых устройств службы.
-
-> Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
 
 > [!TIP]
 > - Узнайте о последних усовершенствованиях в сообществе Защитник для конечной точки: [Защитник для конечной точки.](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced)
@@ -80,7 +78,6 @@ Microsoft Defender для конечной точки для серверов т
 Доступ к Защитнику для конечной точки делается через браузер, поддерживая следующие браузеры:
 
 - Microsoft Edge
-- Internet Explorer версии 11
 - Google Chrome
 
 > [!NOTE]
@@ -121,11 +118,12 @@ Microsoft Defender для конечной точки для серверов т
 
 ### <a name="other-supported-operating-systems"></a>Другие поддерживаемые операционные системы
 - Android
+- iOS
 - Linux
 - macOS
 
 > [!NOTE]
-> Вам необходимо знать точные дистрибутивы Linux и версии Android и macOS, совместимые с Defender для конечной точки для работы интеграции.
+> Вам потребуется подтвердить дистрибутивы Linux и версии Android, iOS и macOS, совместимые с Defender для конечной точки для работы интеграции.
 
 
 
@@ -164,7 +162,7 @@ Microsoft Defender для конечной точки для серверов т
    ![Результат команды sc-запроса для diagtrack](images/windefatp-sc-qc-diagtrack.png)
 
 
-Необходимо настроить службу для автоматического запуска,  если START_TYPE не установлено **AUTO_START**.
+Необходимо настроить службу для автоматического запуска,  если START_TYPE не установлено AUTO_START **.**
 
 
 **Чтобы автоматически запустить службу диагностических данных Windows 10, используйте командную строку:**
@@ -207,7 +205,7 @@ Microsoft Defender для конечной точки для серверов т
 
 Если ваша организация отключил антивирус Microsoft Defender с помощью групповой политики или других методов, устройства, которые находятся на борту, должны быть исключены из этой групповой политики.
 
-Если вы находитесь на бортовых серверах, а антивирус Microsoft Defender не является активным антивирусным программным обеспечением на ваших серверах, антивирус Microsoft Defender необходимо либо настроить, чтобы перейти в пассивный режим, либо отсеять. Конфигурация зависит от версии сервера. Дополнительные сведения см. в [веб-сайте Совместимость антивирусных программ Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
+Если вы на бортовых серверах, а антивирус Microsoft Defender не является активным антивирусным обеспечением на серверах, антивирус Microsoft Defender необходимо настроить, чтобы перейти в пассивный режим или отсеять. Конфигурация зависит от версии сервера. Дополнительные сведения см. в [веб-сайте Совместимость антивирусных программ Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
 
 > [!NOTE]
 > Обычная политика группы не применяется к защите от тамперов, и изменения параметров антивируса Microsoft Defender будут игнорироваться при внесения в нее защиты.

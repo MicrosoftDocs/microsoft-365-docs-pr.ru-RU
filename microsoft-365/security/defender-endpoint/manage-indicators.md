@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a04f3be1f13fb57cd76cda7115d014f2ba3aa8d6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 670c6449c1121bc329b1dfb37cd1d9948c99a3f8
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198841"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379302"
 ---
 # <a name="create-indicators"></a>Создание индикаторов
 
@@ -65,7 +65,7 @@ ms.locfileid: "51198841"
 
 
 > [!NOTE]
-> Существует ограничение в 15 000 показателей на одного клиента. Индикаторы файлов и сертификатов не блокируют [исключения, определенные для антивируса Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Индикаторы не поддерживаются в антивирусе Microsoft Defender в пассивном режиме. 
+> Существует ограничение в 15 000 показателей на одного клиента. Индикаторы файлов и сертификатов не блокируют [исключения, определенные для антивируса Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Индикаторы не поддерживаются в антивирусе Microsoft Defender, когда он находится в пассивном режиме. 
 
 
 ## <a name="related-topics"></a>Статьи по теме

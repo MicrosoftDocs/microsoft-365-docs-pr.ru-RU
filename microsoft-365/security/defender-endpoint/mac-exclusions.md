@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ce77d55ece955fbf97b5c9f32859514b55acb5a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: fb0cffb9716b2d0940e816dc69217486fd51a21d
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187653"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379333"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-for-mac"></a>Настройка и проверка исключений для Microsoft Defender для конечной точки для Mac
 
@@ -79,7 +79,7 @@ Folder | Все файлы в указанной папке (повторно) |
 
 Откройте приложение Defender для конечной точки и перейдите **к** управлению настройками Добавить или Удалить исключение... , как показано на следующем  >  скриншоте:
 
-![Управление скриншотом исключений](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-37-exclusions)
+![Управление скриншотом исключений](images/mdatp-37-exclusions.png)
 
 Выберите тип исключения, который необходимо добавить и следовать подсказкам.
 

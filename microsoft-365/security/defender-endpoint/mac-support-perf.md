@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок с производительностью atP Microsoft Defender для Mac
-description: Устранение неполадок с производительностью в ATP Microsoft Defender для Mac.
+title: Устранение неполадок с производительностью для Microsoft Defender для конечной точки для Mac
+description: Устранение неполадок с производительностью в Microsoft Defender для конечной точки для Mac.
 keywords: Microsoft, defender, atp, mac, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f6dd5681dfafd069a4c52f72e1dc1733584283a2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 87190d9e0bb62d42642374bd7c9f6f3acad3c80a
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185913"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379390"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Устранение неполадок с производительностью для Microsoft Defender для конечной точки для Mac
 
@@ -52,7 +52,7 @@ ms.locfileid: "51185913"
 
     - Из пользовательского интерфейса. Откройте Microsoft Defender для конечной точки для Mac и перейдите к **управлению настройками.**
 
-      ![Управление скриншотом защиты в режиме реального времени](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-36-rtp)
+      ![Управление скриншотом защиты в режиме реального времени](images/mdatp-36-rtp.png)
 
     - Из терминала. В целях безопасности эта операция требует высоты.
 

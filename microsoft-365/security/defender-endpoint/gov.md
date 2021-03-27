@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 059ff9ca6f0c93c6adbac3b1d552cbedcf308759
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 089614fab57950af5f60181ce7ed2116046ad347
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222711"
+ms.locfileid: "51379374"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender для конечной точки для государственных клиентов США
 
@@ -52,7 +52,7 @@ GCC | GCC High | DoD
 Microsoft Defender для GCC конечного сервера | Microsoft Defender для конечного сервера для GCC High | Защитник Microsoft для конечного сервера для DOD
 Защитник Azure для серверов | Защитник Azure для серверов — правительство | Защитник Azure для серверов — правительство
 
-<br>
+<br />
 
 ## <a name="portal-urls"></a>URL-адреса портала
 Ниже приводится URL-адрес портала Microsoft Defender для конечных точек для государственных клиентов США:
@@ -63,7 +63,7 @@ GCC | https://gcc.securitycenter.microsoft.us
 GCC High | https://securitycenter.microsoft.us
 DoD | https://securitycenter.microsoft.us
 
-<br>
+<br />
 
 ## <a name="endpoint-versions"></a>Версии конечной точки
 
@@ -78,8 +78,8 @@ Windows 10, версия 1909 (с [KB4586819)](https://support.microsoft.com/hel
 Windows 10, версия 1903 (с [KB4586819)](https://support.microsoft.com/help/4586819) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 10, версия 1809 (с [KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 10, версия 1803 (с [KB4598245)](https://support.microsoft.com/help/4598245) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 10, версия 1709 | ![Нет](images/svg/check-no.svg)<br>Примечание. Не будет поддерживаться | ![Да ](images/svg/check-yes.svg) с [KB4499147](https://support.microsoft.com/help/4499147)<br>Примечание: [Deprecated](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709), пожалуйста, обновление | ![Нет](images/svg/check-no.svg)<br>Примечание. Не будет поддерживаться
-Windows 10, версия 1703 и ранее | ![Нет](images/svg/check-no.svg)<br>Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br>Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br>Примечание. Не будет поддерживаться
+Windows 10, версия 1709 | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Да ](images/svg/check-yes.svg) с [KB4499147](https://support.microsoft.com/help/4499147)<br />Примечание: [Deprecated](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709), пожалуйста, обновление | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
+Windows 10, версия 1703 и ранее | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
 Windows Server 2019 [(с KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
@@ -88,8 +88,8 @@ Windows 8.1 Корпоративная | ![Да](images/svg/check-yes.svg) | ![�
 Windows 8 профессиональная | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 7 SP1 Enterprise | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 7 SP1 Pro | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Linux | ![Нет](images/svg/check-no.svg) Развертывание | ![Нет](images/svg/check-no.svg) Развертывание | ![Нет](images/svg/check-no.svg) Развертывание
-macOS | ![Нет](images/svg/check-no.svg) Развертывание | ![Нет](images/svg/check-no.svg) Развертывание | ![Нет](images/svg/check-no.svg) Развертывание
+Linux | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже
+macOS | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже
 Android | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
 iOS | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
 
@@ -98,6 +98,9 @@ iOS | ![Нет](images/svg/check-no.svg) На неополненном техн�
 
 > [!NOTE]
 > Попытка на борту устройств Windows старше Windows 10 или Windows Server 2019 с помощью [агента мониторинга Майкрософт?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) Вам необходимо выбрать "Azure US Government" в "Azure Cloud", если с [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) помощью мастера настройки [или](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)с помощью командной строки или скрипта [задан](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) параметр "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" до 1.
+
+> [!NOTE]
+> Для Linux потребуется версия 101.25.72 и выше, а для macOS версии 101.25.69 и выше. Пока мы в предварительном просмотре, эти версии можно использовать только в канале "Insider Fast". См. в этой ссылке Настройка [репозитория](linux-install-manually.md#configure-the-linux-software-repository) программного обеспечения Linux или настройка имени канала [(macOS)](mac-updates.md#set-the-channel-name) для инструкций.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>Версии ОС при использовании Azure Defender для серверов
 При использовании Azure Defender для серверов поддерживаются следующие версии [ОС:](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
@@ -108,7 +111,7 @@ Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/ch
 Windows Server 2012 R2 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2008 R2 с пакетом обновления 1 (SP1) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 
-<br>
+<br />
 
 ## <a name="required-connectivity-settings"></a>Необходимые параметры подключения
 Если прокси-сервер или брандмауэр блокирует весь трафик по умолчанию и пропускает только определенные домены, добавьте домены, перечисленные в загружаемой электронной таблице, в список разрешенных доменов.
@@ -117,7 +120,7 @@ Windows Server 2008 R2 с пакетом обновления 1 (SP1) | ![Да](
 
 Таблица списка доменов | Описание
 :-----|:-----
-![Изображение пальца для таблицы URL-адресов Microsoft Defender для конечных точек](images/mdatp-urls.png)<br/> | Таблица определенных DNS-записей для расположения служб, географических местоположений и ОС. <br><br>[Скачайте таблицу здесь.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
+![Изображение пальца для таблицы URL-адресов Microsoft Defender для конечных точек](images/mdatp-urls.png)<br/> | Таблица определенных DNS-записей для расположения служб, географических местоположений и ОС. <br /><br />[Скачайте таблицу здесь.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
 Дополнительные сведения см. в [перенастройке](configure-proxy-internet.md)параметров прокси-сервера устройства и подключения к Интернету.
 
@@ -140,10 +143,10 @@ Defender for Endpoint для государственных клиентов С�
 > [!NOTE]
 > В качестве облачного решения диапазоны IP-адресов могут изменяться. Рекомендуется перейти к правилам, основанным на DNS.
 
-<br>
+<br />
 
 ## <a name="api"></a>API
-Вместо общедоступных URL-адресов, перечисленных в документации [API,](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)необходимо использовать следующие URL-адреса:
+Вместо общедоступных URL-адресов, перечисленных в документации [API,](apis-intro.md)необходимо использовать следующие URL-адреса:
 
 Тип конечной точки | GCC | GCC High & DoD
 :---|:---|:---
@@ -151,7 +154,7 @@ Defender for Endpoint для государственных клиентов С�
 Защитник для API конечной точки | `https://api-gcc.securitycenter.microsoft.us` | `https://api-gov.securitycenter.microsoft.us`
 SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https://wdatp-alertexporter-us.securitycenter.windows.us`
 
-<br>
+<br />
 
 ## <a name="feature-parity-with-commercial"></a>Паритет функций с коммерческими
 Defender for Endpoint для государственных клиентов США не имеет полного паритета с коммерческим предложением. Хотя наша цель заключается в том, чтобы предоставить все коммерческие функции и функции нашим государственным клиентам США, есть некоторые возможности, которые еще не доступны, которые мы хотим выделить.

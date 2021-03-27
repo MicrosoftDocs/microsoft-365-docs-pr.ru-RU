@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: b31e7aeb9178cb6021434319e55ddef927d7c263
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7bee6c99d2c1c5ad3cec8f2e317b729a0a4e1f8b
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165877"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379482"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Обнаружение конечных точек и ответ (EDR) в режиме блокировки
 
@@ -132,6 +132,9 @@ EDR в режиме блокировки не влияет на сторонну
 2. Тип `sc query windefend`.
 
 3. В списке результатов в строке **STATE** подтвердим, что служба запущена.
+
+### <a name="how-much-time-does-it-take-for-edr-in-block-mode-to-be-disabled"></a>Сколько времени необходимо для отключения EDR в режиме блокировки?
+Если вы решили отключить EDR в режиме блокировки, это может занять до 30 минут для системы, чтобы отключить эту возможность.
 
 ## <a name="see-also"></a>См. также
 

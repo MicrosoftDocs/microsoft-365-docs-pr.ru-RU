@@ -1,0 +1,60 @@
+### YamlMime:Landing
+title: Управление доменами
+summary: Ознакомьтесь с этими ресурсами с общими задачами доменов или ознакомьтесь с областью навигации слева для полного списка.
+metadata:
+  title: Управление доменами
+  description: Управление всеми аспектами доменов в Microsoft 365.
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: pebaum
+  ms.author: pebaum
+  ms.date: 03/25/2021
+  localization_priority: Priority
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: 2ca0bc79cc70ce738603dcdb7cb09ea1d238e4c9
+  ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/26/2021
+  ms.locfileid: "51379717"
+landingContent:
+- title: Управление доменами
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Домены, часто задавающие вопросы (часто задаваемые вопросы)
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq
+  - linkListType: how-to-guide
+    links:
+    - text: Добавление домена
+      url: https://docs.microsoft.com/microsoft-365/admin/setup/add-domain
+    - text: Приобретение имени домена
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name
+    - text: Удаление домена
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/remove-a-domain
+- title: Передача домена
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Передача домена из Microsoft другому хосту
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host
+- title: Пилот Microsoft 365
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Тестирование Microsoft 365 с личного домена
+      url: https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain
+- title: Инструкции для конкретных узлов
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Изменение серверов имен в любом узле DNS
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar
+    - text: Создание записей DNS в любом узле DNS
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider
+- title: Устранение неполадок
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Поиск и устранение неполадок после добавления домена и записей DNS
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-and-fix-issues
