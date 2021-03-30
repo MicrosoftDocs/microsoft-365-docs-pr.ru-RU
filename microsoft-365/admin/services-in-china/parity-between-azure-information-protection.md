@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: Дополнительные сведения о Azure Information Protection (AIP) для Office 365, выполняемой 21Vianet, и о настройке ее для клиентов в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 77790249cbd544b2f11e9a16dd77bab297cac509
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bddba69ecc8b7b80d2b2c7c48d820ec22d293362
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914322"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418036"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>Поддержка azure information Protection для Office 365, выполняемая 21Vianet
 
@@ -122,7 +122,7 @@ ms.locfileid: "50914322"
 
 Скачайте клиент единой метки AIP из [Центра загрузки Майкрософт.](https://www.microsoft.com/download/details.aspx?id=53018)
 
-Дополнительные сведения см. в статьях:
+Дополнительные сведения см. в указанных ниже статьях.
 
 - [Документация по AIP](/azure/information-protection/)
 - [История и политика поддержки версий AIP](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
@@ -148,16 +148,24 @@ ms.locfileid: "50914322"
 
 Установка локального сканера AIP для сканирования сетевых и контентных акций для конфиденциальных данных, а также применения меток классификации и защиты в зависимости от политики организации.
 
-При установке сканера и управлении заданиями сканирования контента используйте следующие cmdlets вместо интерфейса портала Azure, который используется коммерческими предложениями:<br><br>
+- При создании и настройке приложений Azure AD для команды [Set-AIPAuthentication](/powershell/module/azureinformationprotection/set-aipauthentication) в области  разрешений API запросов  показана таблица **API,** которая используется моей организацией вместо вкладки API Microsoft. Выберите **API, которые использует моя организация,** чтобы затем выбрать **службы управления** правами Azure.
 
-| Командлет | Описание |
-|--|--|
-| [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | Добавляет новый репозиторий в задание проверки контента. |
-| [Get-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/get-aipscannercontentscanjob) | Получает сведения о работе по проверке контента. |
-| [Get-AIPScannerRepository](/powershell/module/azureinformationprotection/get-aipscannerrepository) | Получает сведения о репозиториях, определенных для задания сканирования контента. |
-| [Remove-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/remove-aipscannercontentscanjob) | Удаляет задание сканирования контента. |
-| [Remove-AIPScannerRepository](/powershell/module/azureinformationprotection/remove-aipscannerrepository) | Удаляет репозиторий из задания проверки контента. |
-| [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | Определяет параметры задания сканирования контента. |
-| [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Определяет параметры существующего репозитория в заданиях проверки контента. |
+- При установке сканера и управлении заданиями сканирования контента используйте следующие cmdlets вместо интерфейса портала Azure, который используется коммерческими предложениями:<br><br>
 
+    | Командлет | Описание |
+    |--|--|
+    | [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | Добавляет новый репозиторий в задание проверки контента. |
+    | [Get-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/get-aipscannercontentscanjob) | Получает сведения о работе по проверке контента. |
+    | [Get-AIPScannerRepository](/powershell/module/azureinformationprotection/get-aipscannerrepository) | Получает сведения о репозиториях, определенных для задания сканирования контента. |
+    | [Remove-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/remove-aipscannercontentscanjob) | Удаляет задание сканирования контента. |
+    | [Remove-AIPScannerRepository](/powershell/module/azureinformationprotection/remove-aipscannerrepository) | Удаляет репозиторий из задания проверки контента. |
+    | [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | Определяет параметры задания сканирования контента. |
+    | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Определяет параметры существующего репозитория в заданиях проверки контента. |
+    | | |
+
+> [!TIP]
+> При [установке сканера](/azure/information-protection/deploy-aip-scanner-configure-install#install-the-scanner)используйте одно и то же имя кластера в команде [Install-AIPScanner,](/powershell/module/azureinformationprotection/install-aipscanner) чтобы связать несколько узлов сканера с тем же кластером. Использование одного и того же кластера для нескольких узлов сканера позволяет нескольким сканерам работать вместе для выполнения сканирования.
+> 
+> Чтобы получить сведения о кластере, используйте комлет [Get-AIPScannerConfiguration.](/powershell/module/azureinformationprotection/get-aipscannerconfiguration)
+> 
 Дополнительные сведения см. в том, что такое сканер единой маркировки [Azure Information Protection?](/azure/information-protection/deploy-aip-scanner) и управление заданиями сканирования контента только [с помощью PowerShell.](/azure/information-protection/deploy-aip-scanner-prereqs#use-powershell-with-a-disconnected-computer)

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf903bd1b09370dd7de2706b078778137ea029fb
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 98b568206d4263a574c8de653fe5345dd344ba43
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187821"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408551"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Развертывание Microsoft Defender для конечной точки для Linux вручную
 
@@ -87,7 +87,7 @@ ms.locfileid: "51187821"
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    Например, если вы работаете в CentOS 7 и хотите развернуть MDE для Linux из *прод-канала:*
+    Например, если вы работаете с CentOS 7 и хотите развернуть Defender for Endpoint для Linux из *прод-канала:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
@@ -383,6 +383,27 @@ Options:
 ## <a name="operating-system-upgrades"></a>Обновления операционной системы
 
 При обновлении операционной системы до новой основной версии необходимо сначала удалить Defender для конечной точки для Linux, установить обновление и, наконец, перенастроить Defender для конечной точки для Linux на вашем устройстве.
+
+## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>Миграция из Insiders-Fast в канал Production
+
+1. Удалить версию MDE для macOS с "Insiders-Fast channel".
+
+    ``
+    sudo yum remove mdatp
+    ``
+
+1. Отключение репо MDE для Linux Insiders-Fast  ``
+    sudo yum repolist
+    ``
+
+    > [!NOTE]
+    > Вывод должен показывать "packages-microsoft-com-fast-prod".
+
+    ``
+    sudo yum-config-manager --disable packages-microsoft-com-fast-prod
+    ``
+1. Передиплой MDE для Linux с помощью "Производственного канала".
+
 
 ## <a name="uninstallation"></a>Uninstallation
 

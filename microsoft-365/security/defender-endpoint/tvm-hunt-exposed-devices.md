@@ -1,5 +1,5 @@
 ---
-title: Охота на выставленные устройства
+title: Поиск представленных устройств
 description: Узнайте, как управление угрозами и уязвимостью может использоваться для совместной работы администраторов безопасности, ИТ-администраторов и secOps.
 keywords: сценарии mdatp-tvm, сценарии mdatp, tvm, tvm, снижение уязвимости & угрозы, снижение угрозы и уязвимости, улучшение конфигурации безопасности, увеличение показателей безопасности Microsoft для устройств, повышение & уязвимости Microsoft Secure Score для устройств, Microsoft Secure Score для устройств, оценка экспозиции, средства управления безопасностью
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9af7464d9cae06dc53abb019aa0b189d6e72e749
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 99e59005bc01a113567e64c921ddcdc1d66785d2
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51068992"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408295"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>Hunt for exposed devices - threat and vulnerability management
 
@@ -43,11 +43,11 @@ ms.locfileid: "51068992"
 
 ### <a name="schema-tables"></a>Таблицы схем
 
-- [DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md) — инвентаризация программного обеспечения, установленного на устройствах, включая сведения о версии и состояние конечной поддержки
+- [DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md) — инвентаризация программного обеспечения, установленного на устройствах, включая сведения о версии и состояние конечной поддержки.
 
 - [DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md) — уязвимости программного обеспечения, найденные на устройствах, и список доступных обновлений безопасности, которые могут быть доступны для каждой уязвимости.
 
-- [DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md) — база знаний об открытых уязвимостях, включая общедоступный код эксплойта
+- [DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md) — база знаний об открытых уязвимостях, в том числе о том, доступен ли код эксплойта.
 
 - [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) — события оценки угроз и уязвимостей, указывающие на состояние различных конфигураций безопасности на устройствах.
 
@@ -81,5 +81,5 @@ DeviceName=any(DeviceName) by DeviceId, AlertId
 - [Рекомендации по безопасности](tvm-security-recommendation.md)
 - [Интерфейсы API](next-gen-threat-and-vuln-mgt.md#apis)
 - [Настройка доступа к данным для ролей управления угрозами и уязвимостями](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group)
-- [Обзор расширенной охоты на угрозы](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+- [Обзор расширенной охоты](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
 - [Все расширенные таблицы охоты](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference.md)

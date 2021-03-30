@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ed28d3b5b7bafaea2d72b7a8c45f66bf69033bc2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a8595bae216911350d3f18fcceef729ef020a424
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187797"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408169"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-for-linux"></a>Настройка предпочтений для Microsoft Defender для конечной точки для Linux
 
@@ -61,6 +61,7 @@ ms.locfileid: "51187797"
 | **Раздел** | antivirusEngine |
 | **Тип данных** | Словарь (вложенные предпочтения) |
 | **Comments** | В следующих разделах описано содержимое словаря. |
+|||
 
 #### <a name="enable--disable-real-time-protection"></a>Включить и отключить защиту в режиме реального времени
 
@@ -71,6 +72,7 @@ ms.locfileid: "51187797"
 | **Раздел** | enableRealTimeProtection |
 | **Тип данных** | Логический |
 | **Возможные значения** | true (по умолчанию) <br/> false |
+|||
 
 #### <a name="enable--disable-passive-mode"></a>Включить и отключить пассивный режим
 
@@ -87,6 +89,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | Логический |
 | **Возможные значения** | false (по умолчанию) <br/> true |
 | **Comments** | Доступно в Защитнике для конечной точки версии 100.67.60 или выше. |
+|||
 
 #### <a name="exclusion-merge-policy"></a>Политика слияния исключений
 
@@ -98,6 +101,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | String |
 | **Возможные значения** | слияние (по умолчанию) <br/> admin_only |
 | **Comments** | Доступно в Защитнике для конечной точки версии 100.83.73 или выше. |
+|||
 
 #### <a name="scan-exclusions"></a>Исключения сканирования
 
@@ -108,6 +112,7 @@ ms.locfileid: "51187797"
 | **Раздел** | исключения |
 | **Тип данных** | Словарь (вложенные предпочтения) |
 | **Comments** | В следующих разделах описано содержимое словаря. |
+|||
 
 **Тип исключения**
 
@@ -118,6 +123,7 @@ ms.locfileid: "51187797"
 | **Раздел** | $type |
 | **Тип данных** | String |
 | **Возможные значения** | excludedPath <br/> excludedFileExtension <br/> excludedFileName |
+|||
 
 **Путь к исключению контента**
 
@@ -129,6 +135,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | String |
 | **Возможные значения** | допустимые пути |
 | **Comments** | Применимо только если *$type* *исключенPath* |
+|||
 
 **Тип пути (файл / каталог)**
 
@@ -140,6 +147,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | Логический |
 | **Возможные значения** | false (по умолчанию) <br/> true |
 | **Comments** | Применимо только если *$type* *исключенPath* |
+|||
 
 **Расширение файла, исключено из сканирования**
 
@@ -151,6 +159,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | String |
 | **Возможные значения** | допустимые расширения файлов |
 | **Comments** | Применимо только если *$type* *исключеноFileExtension* |
+|||
 
 **Процесс, исключенный из сканирования**
 
@@ -162,6 +171,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | String |
 | **Возможные значения** | любая строка |
 | **Comments** | Применимо только *если $type* *исключеноFileName* |
+|||
 
 #### <a name="allowed-threats"></a>Разрешенные угрозы
 
@@ -171,6 +181,7 @@ ms.locfileid: "51187797"
 |:---|:---|
 | **Раздел** | allowedThreats |
 | **Тип данных** | Массив строк |
+|||
 
 #### <a name="disallowed-threat-actions"></a>Действия с неустановляемой угрозой
 
@@ -182,6 +193,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | Массив строк |
 | **Возможные значения** | разрешить (ограничивает пользователей от допуска угроз) <br/> восстановление (ограничивает пользователей от восстановления угроз из карантина) |
 | **Comments** | Доступно в Защитнике для конечной точки версии 100.83.73 или выше. |
+|||
 
 #### <a name="threat-type-settings"></a>Параметры типа угроз
 
@@ -192,6 +204,7 @@ ms.locfileid: "51187797"
 | **Раздел** | threatTypeSettings |
 | **Тип данных** | Словарь (вложенные предпочтения) |
 | **Comments** | В следующих разделах описано содержимое словаря. |
+|||
 
 **Тип угрозы**
 
@@ -202,6 +215,7 @@ ms.locfileid: "51187797"
 | **Раздел** | ключа |
 | **Тип данных** | String |
 | **Возможные значения** | potentially_unwanted_application <br/> archive_bomb |
+|||
 
 **Действие**
 
@@ -216,6 +230,7 @@ ms.locfileid: "51187797"
 | **Раздел** | значение |
 | **Тип данных** | String |
 | **Возможные значения** | аудит (по умолчанию) <br/> block <br/> Off |
+|||
 
 #### <a name="threat-type-settings-merge-policy"></a>Параметры типа угрозы объединяют политику слияния
 
@@ -227,6 +242,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | String |
 | **Возможные значения** | слияние (по умолчанию) <br/> admin_only |
 | **Comments** | Доступно в Защитнике для конечной точки версии 100.83.73 или выше. |
+|||
 
 #### <a name="antivirus-scan-history-retention-in-days"></a>Хранение истории антивирусного сканирования (в днях)
 
@@ -238,6 +254,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | String |
 | **Возможные значения** | 90 (по умолчанию). Допустимые значения от 1 дня до 180 дней. |
 | **Comments** | Доступно в Защитнике для конечной точки версии 101.04.76 или выше. |
+|||
 
 #### <a name="maximum-number-of-items-in-the-antivirus-scan-history"></a>Максимальное количество элементов в истории антивирусного сканирования
 
@@ -249,6 +266,7 @@ ms.locfileid: "51187797"
 | **Тип данных** | String |
 | **Возможные значения** | 10000 (по умолчанию). Допустимые значения : от 5000 элементов до 15000 элементов. |
 | **Comments** | Доступно в Защитнике для конечной точки версии 101.04.76 или выше. |
+|||
 
 ### <a name="cloud-delivered-protection-preferences"></a>Параметры защиты с облачной доставкой
 
@@ -259,6 +277,7 @@ ms.locfileid: "51187797"
 | **Раздел** | cloudService |
 | **Тип данных** | Словарь (вложенные предпочтения) |
 | **Comments** | В следующих разделах описано содержимое словаря. |
+|||
 
 #### <a name="enable--disable-cloud-delivered-protection"></a>Включить и отключить защиту от облачной доставки
 
@@ -269,6 +288,7 @@ ms.locfileid: "51187797"
 | **Раздел** | включено |
 | **Тип данных** | Логический |
 | **Возможные значения** | true (по умолчанию) <br/> false |
+|||
 
 #### <a name="diagnostic-collection-level"></a>Уровень диагностической коллекции
 
@@ -279,6 +299,7 @@ ms.locfileid: "51187797"
 | **Раздел** | diagnosticLevel |
 | **Тип данных** | String |
 | **Возможные значения** | необязательный (по умолчанию) <br/> Обязательный |
+|||
 
 #### <a name="enable--disable-automatic-sample-submissions"></a>Включить и отключить автоматические отправки образцов
 
@@ -293,6 +314,7 @@ ms.locfileid: "51187797"
 | **Раздел** | automaticSampleSubmissionConsent |
 | **Тип данных** | String |
 | **Возможные значения** | нет <br/> безопасный (по умолчанию) <br/> все |
+|||
 
 #### <a name="enable--disable-automatic-security-intelligence-updates"></a>Включить и отключить автоматические обновления сведении о безопасности
 
@@ -303,6 +325,7 @@ ms.locfileid: "51187797"
 | **Раздел** | automaticDefinitionUpdateEnabled |
 | **Тип данных** | Логический |
 | **Возможные значения** | true (по умолчанию) <br/> false |
+|||
 
 ## <a name="recommended-configuration-profile"></a>Рекомендуемый профиль конфигурации
 
@@ -339,6 +362,7 @@ ms.locfileid: "51187797"
       "automaticDefinitionUpdateEnabled":true,
       "automaticSampleSubmissionConsent":"safe",
       "enabled":true
+      "proxy":"http://proxy.server:port/"
    }
 }
 ```
@@ -399,6 +423,7 @@ ms.locfileid: "51187797"
       "diagnosticLevel":"optional",
       "automaticSampleSubmissionConsent":"safe",
       "automaticDefinitionUpdateEnabled":true
+      "proxy": "http://proxy.server:port/"
    }
 }
 ```
@@ -412,6 +437,17 @@ python -m json.tool mdatp_managed.json
 ```
 
 Если JSON хорошо сформирован, вышеуказанная команда выводит его обратно в терминал и возвращает код выхода `0` . В противном случае отображается ошибка, описываемая проблемой, и команда возвращает код выхода `1` .
+
+## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>Проверка того, mdatp_managed.jsфайл работает как ожидалось
+Чтобы убедиться, что ваш /etc/opt/microsoft/mdatp/managed/mdatp_managed.jsработает должным образом, рядом с этими настройками следует увидеть "[managed]":  
+- cloud_enabled
+- cloud_automatic_sample_submission_consent
+- passice_mode_enabled
+- real_time_protection_enabled
+- automatic_definition_update_enabled
+
+> [!NOTE]
+> Чтобы mdatp_managed.jsвступил в силу, перезагрузка wdavdaemon не требуется.
 
 ## <a name="configuration-profile-deployment"></a>Развертывание профиля конфигурации
 

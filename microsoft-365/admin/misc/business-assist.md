@@ -1,5 +1,5 @@
 ---
-title: Бизнес-помощь для Microsoft 365
+title: Business Assist для Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -15,19 +15,19 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Узнайте о программе Microsoft Business Assist и о том, как она может помочь вашей организации с помощью и использованием для Microsoft 365 для бизнеса.
-ms.openlocfilehash: eb0309ae68bf4569d4cba8dd8501343304389e80
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+description: Узнайте о программе бизнес-помощи и о том, как она может помочь вашей организации с помощью и использованием для Microsoft 365 для бизнеса.
+ms.openlocfilehash: 4531c841b4856e22b364906c180aa336cb8fd04a
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034325"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408529"
 ---
-# <a name="business-assist-for-microsoft-365"></a>Бизнес-помощь для Microsoft 365
+# <a name="business-assist-for-microsoft-365"></a>Business Assist для Microsoft 365
 
 Получите большую часть подписки с помощью экспертных советов от специалистов малого бизнеса.
 
-**Business Assist для Microsoft 365** — это служба, специально разработанная для предприятий с менее чем 5 пользователями, чтобы предоставить вам и вашим сотрудникам круглосуточное доступ к специалистам малого бизнеса по мере развития бизнеса, начиная с бортового доступа и до повседневного использования.
+Бизнес-помощь для **Microsoft 365** предназначена для предприятий с менее чем 5 пользователями, чтобы предоставить вам и вашим сотрудникам круглосуточное доступ к специалистам малого бизнеса по мере развития бизнеса, от бортового использования до повседневного использования.
 
 ## <a name="business-assist-services"></a>Службы бизнес-помощи
 
@@ -38,7 +38,7 @@ ms.locfileid: "51034325"
 | | | |
 
 > [!div class="nextstepaction"]
-> [Купить сейчас](https://go.microsoft.com/fwlink/p/?linkid=868433)
+> [Купить сейчас](https://go.microsoft.com/fwlink/p/?linkid=2158423)
 
 ## <a name="eligibility-for-business-assist"></a>Право на получение бизнес-помощи
 
@@ -58,4 +58,4 @@ ms.locfileid: "51034325"
 :::image type="content" source="../../media/projectgenie-purchase services.png" alt-text="Screeenshot: Помощь в покупке бизнеса из раздела Надстройки на странице Службы покупки":::
 
 > [!div class="nextstepaction"]
-> [Купить сейчас](https://go.microsoft.com/fwlink/p/?linkid=868433)
+> [Купить сейчас](https://go.microsoft.com/fwlink/p/?linkid=2158423)

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 84d85b723d4dcbdfc07a074c40241242c57bc390
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 08bb4c73cb9df429c4b07194f1c7615f44d745d8
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185591"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408341"
 ---
 # <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender для конечной точки для Linux
 
@@ -43,7 +43,7 @@ ms.locfileid: "51185591"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Установка Microsoft Defender для конечной точки для Linux
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Необходимые условия
 
 - Доступ к порталу Центра безопасности Защитника Майкрософт
 - Дистрибуция Linux с [помощью системного системного](https://systemd.io/) диспетчера
@@ -83,6 +83,11 @@ ms.locfileid: "51185591"
   > Запуск Defender для конечной точки для Linux бок о бок с другими решениями безопасности на основе не `fanotify` поддерживается. Это может привести к непредсказуемым результатам, в том числе к висячим операционной системе.
 
 - Пространство диска: 1 ГБ
+- /opt/microsoft/mdatp/sbin/wdavdaemon требует исполняемого разрешения. Дополнительные сведения см. в рублях "Убедитесь, что у daemon есть исполняемые разрешения" в выпуске проблем с установкой неполадок для [Microsoft Defender ATP для Linux.](/microsoft-365/security/defender-endpoint/linux-support-install)
+- Память: 1 ГБ
+    > [!NOTE]
+    > Убедитесь, что у вас есть свободное пространство диска в /var.
+
 - В настоящее время решение обеспечивает защиту в режиме реального времени для следующих типов файловой системы:
 
   - `btrfs`
