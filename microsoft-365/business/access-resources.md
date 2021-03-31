@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Узнайте, как получить доступ к локальному ресурсу, например к линейке бизнес-приложений, файлам и принтерам с устройства Azure Active Directory, присоединенного к Устройству Windows 10.
-ms.openlocfilehash: b78509d72cbd9b3c121039c4965625bf5c21c7e0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1bca0beb3ccc78e670ad33ce446b9b3f7c372ba7
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913529"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445355"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Доступ к локальному ресурсу с устройства Azure AD в Microsoft 365 Business Premium
 
@@ -64,3 +64,7 @@ ms.locfileid: "50913529"
 - Возможно, пользователи не смогут проверить подлинность приложений, которые зависят от проверки подлинности Active Directory. Оцените устаревшее приложение и по возможности обновим приложение, использующее современный auth.
 
 - Обнаружение принтера Active Directory не будет работать. Вы можете предоставить прямой путь принтера для всех пользователей или использовать [универсальный шрифт](/universal-print/).
+
+### <a name="related-articles"></a>Связанные статьи
+
+[Необходимые условия для подключения Azure AD](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)

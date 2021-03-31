@@ -1,18 +1,23 @@
 ---
 title: Этапы регистрации устройств для партнеров
 description: Как партнеры могут регистрировать устройства, чтобы управлять ими с помощью Microsoft Managed Desktop
-ms.prod: w10
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
+ms.service: m365-md
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
-ms.localizationpriority: medium
-ms.openlocfilehash: be314b20573cecfdb020caf778e51a684a9b6df8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
+manager: laurawi
+ms.topic: article
+audience: Admin
+ms.openlocfilehash: baf15ca4b83052af84d2b22b3d2604c6022ac900
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909074"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445594"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>Этапы регистрации устройств для партнеров
 

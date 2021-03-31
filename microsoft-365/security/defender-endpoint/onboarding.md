@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 56645553c43289995012d53d7caf879874e65c8a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 56a62ca4ebbd140f507d1735c663924014ca4771
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186933"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445736"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>На борту службы Microsoft Defender для конечных точек
 
@@ -40,7 +40,7 @@ ms.locfileid: "51186933"
 
 Развертывание Defender для конечной точки — это трех этапный процесс:
 
-| [![этап развертывания — подготовка](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Этап 1. Подготовка](prepare-deployment.md) | [![этап развертывания — установка](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Этап 2. Установка](production-deployment.md) | ![этап развертывания — на борту](images/phase-diagrams/onboard.png)<br>Этап 3. На борту |
+| [![этап развертывания — подготовка](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Этап 1. Подготовка](prepare-deployment.md) | [![этап развертывания — установка](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Этап 2. Настройка](production-deployment.md) | ![этап развертывания — на борту](images/phase-diagrams/onboard.png)<br>Этап 3. Подключение |
 | ----- | ----- | ----- |
 | | |*Вы здесь!*|
 
@@ -86,8 +86,8 @@ ms.locfileid: "51186933"
 В этом руководстве по развертыванию мы назначим вам использование двух средств развертывания для конечных точек на борту и настройку возможностей.
 
 Средства в примере развертывания:
-- [Onboarding using Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
-- [Onboarding using Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Подключение с помощью Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
+- [Подключение с помощью Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
 
 Используя указанные выше средства развертывания, вы будете руководствоваться настройкой следующих возможностей Defender для конечных точек:
 - Конфигурация обнаружения конечных точек и ответов
@@ -95,5 +95,6 @@ ms.locfileid: "51186933"
 - Конфигурация уменьшения поверхности атаки
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Onboarding using Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
-- [Onboarding using Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Подключение с помощью Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
+- [Подключение с помощью Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Безопасные документы в Microsoft 365 E5](../office-365-security/safe-docs.md)

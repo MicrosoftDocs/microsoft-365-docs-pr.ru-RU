@@ -1,20 +1,23 @@
 ---
 title: Работа с консультационными службами Майкрософт
-description: подготовка и последующие действия для работы с MCS для упаковки приложений
-keywords: Microsoft Managed Desktop, Microsoft 365, служба, документация, приложения, MCS, упаковка
+description: Подготовка и последующие действия для работы с MCS для упаковки приложений
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
+f1.keywords:
+- NOCSH
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 04b0c7905c83be2afa46abcfb2d4bb5cd9735e06
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 1441ca3305a5f3e5a83ddd5e1547812f08d7d96b
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909230"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445700"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Работа с консультационными службами Майкрософт
 
@@ -31,7 +34,7 @@ ms.locfileid: "50909230"
 **McS будет заботиться о таких действиях:**
 
 - Проверка запрета или ограничения приложения в среде Microsoft Managed Desktop.
-- Тестирование установки, запуска и деинсталлации приложения для обеспечения совместимости с Windows 10. Если MCS обнаружит проблему совместимости, приложение будет отдано в программу для обеспечения безопасности настольных приложений для устранения. [](/fasttrack/win-10-desktop-app-assure)
+- Тестирование установки, запуска и деинсталлации приложения для обеспечения совместимости с Windows 10. Если mcS обнаружит проблему совместимости, приложение будет отдано в программу [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure) для устранения.
 - Упаковка приложения в спецификацию, а затем тестирование развертывания приложения с помощью Microsoft Intune.
 
 ## <a name="app-delivery-schedule"></a>Расписание доставки приложений

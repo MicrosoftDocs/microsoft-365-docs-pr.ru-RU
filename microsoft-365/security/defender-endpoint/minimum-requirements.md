@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6a8e1091490cb9f3fe1eedadec0b76a56ada936e
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 1b203a29083aaa4a1f86abcd7e2c7b24bd63f186
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379494"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445748"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Минимальные требования к Microsoft Defender для конечной точки
 
@@ -54,6 +54,7 @@ Microsoft Defender для конечной точки требует одно и
 > [!NOTE]
 > Лицензированные пользователи могут использовать Microsoft Defender для конечной точки на пяти одновременном устройстве.
 > Microsoft Defender для конечной точки также доступен для покупки у поставщика облачных решений (CSP).
+> Для VMs RDSH не требуется отдельная лицензия Defender для конечной точки.
 
 Microsoft Defender для конечной точки для серверов требует одного из следующих вариантов лицензирования:
 

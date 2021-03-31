@@ -1,6 +1,6 @@
 ---
-title: Поддерживаемые регионы и языки
-description: Регионы и языки, поддерживаемые Microsoft Managed Desktop
+title: Поддерживаемые регионы
+description: Регионы, поддерживаемые Microsoft Managed Desktop
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -12,25 +12,22 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 5fbf18247626bdfcfe5dcb04c8ba892ffa7a140f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 99f44398bc95958ca890ddcd4203b50ff95034b4
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163475"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445314"
 ---
-# <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Поддерживаемые Microsoft Managed Desktop регионы и языки
+# <a name="microsoft-managed-desktop-supported-regions"></a>Регионы, поддерживаемые Microsoft Managed Desktop
 
-В этой статье данная статья содержит сведения о регионах и языках, поддерживаемых Microsoft Managed Desktop, и регионах, в которых вы можете использовать его.
+В этой статье данная статья содержит сведения о регионах, в которых можно использовать microsoft Managed Desktop и где она поддерживается. Дополнительные сведения о языках, поддерживаемых Microsoft Managed Desktop для пользовательского интерфейса, см. в сайте [Localize devices for users.](../get-started/localization.md)
 
-## <a name="supported-languages"></a>Поддерживаемые языки
+Вы по-прежнему можете использовать управляемые устройства за пределами этих регионов, не прерывая работу службы microsoft Managed Desktop. Например, сотрудник из Великобритании может безопасно работать и получать обновления на управляемом устройстве во время путешествий по Азии, Европе или Южной Америке.
 
-Английский — это единственный язык, доступный пользователям microsoft Managed Desktop. Эта политика включает все пользовательские интерфейсы для пользователей и администраторов, а также все взаимодействия с поддержкой [администратора](../working-with-managed-desktop/admin-support.md) и [поддержкой пользователей.](../working-with-managed-desktop/end-user-support.md)
+Дополнительные сведения о языках, поддерживаемых Microsoft Managed Desktop для пользователей и администраторов, см. в сайте [Localize the user experience.](../get-started/localization.md)
 
-
-Вы по-прежнему можете использовать управляемые устройства за пределами англоязычных регионов, не прерывая работу службы управляемых настольных компьютеров Майкрософт. Например, сотрудник из Великобритании может безопасно работать и получать обновления на управляемом устройстве во время поездок в Азию, Европу или Южную Америку. 
-
-Дополнительные сведения о поддержке пользователей с управляемым рабочим столом Microsoft см. в ссылке [Support for Microsoft Managed Desktop.](./support.md)
+Дополнительные сведения о поддержке пользователей с управляемым рабочим столом Microsoft см. в ссылке [Support for Microsoft Managed Desktop.](support.md)
 
 ## <a name="availability-of-the-service"></a>Доступность службы
 
@@ -51,4 +48,3 @@ ms.locfileid: "51163475"
 - Австралия
 - Новая Зеландия
 
-Как пользователи, так и администраторы в этих регионах должны использовать английский язык для своих устройств и средств управления.

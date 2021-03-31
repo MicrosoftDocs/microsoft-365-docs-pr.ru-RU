@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Узнайте, как изменить схему edm для использования настраиваемого совпадения.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e00466e4648ebe93f0658383515d1543f858e1b0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dea641072983163c6fbbcc5888d5ee6ea91f6990
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919376"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408318"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>Изменение схемы точного соответствия данных для использования настраиваемого совпадения
 
@@ -102,6 +102,9 @@ ms.locfileid: "50919376"
 - \,
 
 6. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell).
+
+> [!NOTE]
+> Если ваша организация настроила [ключ клиента для Microsoft 365 на уровне клиента (общедоступная предварительная версия)](customer-key-tenant-level.md#overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview), точное соответствие данных будет автоматически использовать его функцию шифрования. Эта возможность доступна только лицензированным клиентам E5 в коммерческом облаке.
 
 7. Обновите схему, запустив эти командлеты по очереди:
 

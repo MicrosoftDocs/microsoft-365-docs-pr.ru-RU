@@ -1,18 +1,23 @@
 ---
 title: Самостоятельная регистрация новых устройств
 description: Зарегистрируйте устройства самостоятельно, чтобы управлять ими с помощью Microsoft Managed Desktop
-ms.prod: w10
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
+ms.service: m365-md
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
-ms.localizationpriority: medium
-ms.openlocfilehash: 8dc9412de7b682c34a48ae64b676e4b0313dea35
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
+manager: laurawi
+ms.topic: article
+audience: Admin
+ms.openlocfilehash: 3aff3bdc1260e9aa2a23760020aeabd71d6b28fd
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920684"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445582"
 ---
 # <a name="register-new-devices-yourself"></a>Самостоятельная регистрация новых устройств
 
@@ -83,7 +88,7 @@ Microsoft Managed Desktop идентифицирует каждое устрой
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-Выполните следующие действия.
+Выполните приведенные ниже действия.
 
 1. В **файле отправки** у вас есть путь к созданному ранее CSV-файлу.
 3. Выберите **устройства Register.** Система добавит устройства в список устройств на **устройствах,** помеченных как **Registration Pending**. Регистрация обычно занимает менее 10 минут, и при успешном запуске устройство будет показываться как **Готовое** для пользователя, что означает, что оно готово и ожидает, когда пользователь начнет использовать.

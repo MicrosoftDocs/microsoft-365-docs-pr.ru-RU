@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d8b68e6b6dc42de5730aa634386406d4762b1fa2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0d9e63c5d89b13b02dfcf116c1555c8db319d23f
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163687"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445368"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-atp"></a>Настройка оповещений в ATP Защитника Майкрософт
 
@@ -51,9 +51,9 @@ ms.locfileid: "51163687"
 Можно создавать правила, определяя серьезности устройств и оповещения для отправки уведомлений электронной почты для получателей и получателей уведомлений.
 
 
-1. В области навигации выберите **уведомления "Параметры**  >  **оповещений".**
+1. В области навигации выберите **параметры уведомлений**  >  **электронной почты**.
 
-2. Нажмите **кнопку Добавить правило уведомления**.
+2. Нажмите **кнопку Добавить элемент**.
 
 3. Укажите общие сведения:
     - **Имя правила** . Укажите имя правила уведомлений.
@@ -103,4 +103,4 @@ ms.locfileid: "51163687"
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обновление параметров хранения данных](data-retention-settings.md)
-- [Настройка расширенных функций](advanced-features.md)
+- [Настройка дополнительных функций](advanced-features.md)
