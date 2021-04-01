@@ -90,7 +90,7 @@
           items:
             - name: Обзор
               href: defender/get-started.md
-            - name: Включение Защиты от угроз (Майкрософт)
+            - name: Включение Microsoft 365 Defender
               href: defender/m365d-enable.md
             - name: Развертывание поддерживаемых служб
               href: defender/deploy-supported-services.md
@@ -140,6 +140,12 @@
                       href: defender/investigate-users.md
                 - name: Получение уведомлений по электронной почте
                   href: defender/get-incident-notifications.md
+            - name: Эксперты Майкрософт по угрозам
+              items:
+                - name: Обзор экспертов Майкрософт по угрозам
+                  href: mtp/microsoft-threat-experts.md
+                - name: Настройка возможностей экспертов Майкрософт по угрозам и управление ими
+                  href: mtp/configure-microsoft-threat-experts.md
             - name: Автоматическое исследование и реагирование
               items:
                 - name: Обзор автоматического исследования и реагирования
@@ -422,7 +428,7 @@
             - name: Защита по умолчанию
               href: ./office-365-security/secure-by-default.md
             - name: Настройка политик защиты от фишинга в Microsoft Defender для Office 365
-              href: ./office-365-security/configure-atp-anti-phishing-policies.md
+              href: ./office-365-security/configure-mdo-anti-phishing-policies.md
             - name: Настройка политик защиты от вредоносных программ
               href: ./office-365-security/configure-anti-malware-policies.md
             - name: Настройка политик защиты от нежелательной почты

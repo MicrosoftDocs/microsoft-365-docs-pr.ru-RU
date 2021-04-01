@@ -145,6 +145,7 @@
 #### [Устранение неполадок]()
 ##### [Устранение неполадок при установке](mac-support-install.md)
 ##### [Устранение неполадок с производительностью](mac-support-perf.md)
+##### [Устранение неполадок с облачными подключениями](troubleshoot-cloud-connect-mdemac.md)
 ##### [Устранение неполадок с расширением ядра](mac-support-kext.md)
 ##### [Устранение неполадок с лицензиями](mac-support-license.md)
 
@@ -586,6 +587,7 @@
 #### [Устранение неполадок сокращения направлений атак]()
 ##### [Защита сети](troubleshoot-np.md)
 ##### [Правила сокращения направлений атак](troubleshoot-asr.md)
+##### [Переход на правила сокращения направлений атак](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
 # [Defender для Office 365](../office-365-security/overview.md)
