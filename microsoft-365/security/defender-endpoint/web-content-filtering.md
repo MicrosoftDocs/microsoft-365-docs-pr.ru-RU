@@ -1,5 +1,5 @@
 ---
-title: Фильтрация веб-контента
+title: Фильтрация веб-содержимого
 description: Используйте фильтрацию веб-контента в ATP Защитника Майкрософт для отслеживания и регулирования доступа к веб-сайтам в зависимости от их категорий контента.
 keywords: веб-защита, защита от веб-угроз, просмотр веб-сайтов, мониторинг, отчеты, карты, список доменов, безопасность, фишинг, вредоносные программы, эксплойт, веб-сайты, защита сети, Edge, Internet Explorer, Chrome, Firefox, веб-браузер
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a8ab1ba1f0dc1bb629e438380b7b77e1ed221f08
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 16f0d96b75ec7035ca133f75a83df1f284ee5c4b
+ms.sourcegitcommit: 847b0920016ae20c82a0501bda6019cd940482df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186033"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51484748"
 ---
-# <a name="web-content-filtering"></a>Фильтрация веб-контента
+# <a name="web-content-filtering"></a>Фильтрация веб-содержимого
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -60,7 +60,7 @@ ms.locfileid: "51186033"
 
 Перед тем как попробовать эту функцию, убедитесь, что у вас есть следующие требования:
 
-- Windows 10 Корпоративная E5 лицензия или Microsoft 365 E3 + Microsoft 365 E5 Надстройка безопасности.
+- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security add-on or the Microsoft Defender for Endpoint standalone license. 
 - Доступ к порталу Центра безопасности Microsoft Defender
 - Устройства под управлением Юбилейного обновления Windows 10 (версия 1607) или более поздней версии с последним обновлением MoCAMP.
 
@@ -160,9 +160,11 @@ ms.locfileid: "51186033"
 
 - Ненаверенные устройства будут иметь неправильные данные, показанные в отчете. В отчете > групп устройств можно увидеть строку с пустым полем группы устройств. Эта группа содержит ненаписаные устройства перед их вложением в указанную группу. В отчете для этой строки может не содержаться точное количество устройств или количество доступа.
 
+- Отчеты по фильтрации веб-контента в настоящее время ограничены отображением 5000 записей. Например, в отчете "Домены" будет показываться максимум 5000 доменов для данного запроса фильтра, если это применимо. 
+
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор веб-защиты](web-protection-overview.md)
 - [Защита от веб-угроз](web-threat-protection.md)
-- [Мониторинг веб-безопасности](web-protection-monitoring.md)
+- [Мониторинг безопасности в Интернете](web-protection-monitoring.md)
 - [Реагирование на веб-угрозы](web-protection-response.md)

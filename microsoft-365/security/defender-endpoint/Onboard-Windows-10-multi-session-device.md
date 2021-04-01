@@ -1,5 +1,5 @@
 ---
-title: Onboard Windows 10 multi-session devices in Windows Virtual Desktop
+title: Подключение многосеансовых устройств Windows 10 на виртуальном рабочем столе Windows
 description: Дополнительные статьи о многосерийных устройствах Windows 10 в Windows Virtual Desktop
 keywords: Windows Virtual Desktop, WVD, microsoft defender, endpoint, onboard
 search.product: eADQiWindows 10XVcnh
@@ -13,24 +13,20 @@ ms.topic: article
 author: dansimp
 ms.author: dansimp
 ms.custom: nextgen
-ms.date: 09/10/2020
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: bfd447120e171fed063b3224e3a47c2ef38f0f16
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 3f925fdc514c5e53b50f748d991f54d20fb49bd0
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222615"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488149"
 ---
-# <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboard Windows 10 multi-session devices in Windows Virtual Desktop 
+# <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Подключение многосеансовых устройств Windows 10 на виртуальном рабочем столе Windows 
 6 минут для чтения 
 
 Применимо к: 
 - Много сеансы Windows 10, работающие на виртуальном рабочем столе Windows (WVD) 
-
-> [!WARNING]
-> Поддержка Microsoft Defender для конечных точек для сценариев нескольких сеансов Windows Virtual Desktop в настоящее время находится в режиме предварительного просмотра и ограничена до 25 сеансов одновременно на один хост/VM. Однако сценарии одного сеанса на виртуальном рабочем столе Windows полностью поддерживаются.
 
 Microsoft Defender для конечной точки поддерживает мониторинг сеансов виртуального компьютера и виртуального рабочего стола Windows. В зависимости от потребностей организации вам может потребоваться реализовать сеансы виртуального компьютера vDI или Windows Virtual Desktop, чтобы помочь сотрудникам получать доступ к корпоративным данным и приложениям из неугодного устройства, удаленного расположения или аналогичного сценария. С помощью Microsoft Defender для конечной точки вы можете отслеживать эти виртуальные машины для аномальной активности.
 
