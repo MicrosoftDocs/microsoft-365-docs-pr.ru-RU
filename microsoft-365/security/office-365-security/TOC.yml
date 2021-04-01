@@ -95,7 +95,7 @@
         - name: Защита по умолчанию
           href: secure-by-default.md
         - name: Настройка политик защиты от фишинга в Microsoft Defender для Office 365
-          href: configure-atp-anti-phishing-policies.md
+          href: configure-mdo-anti-phishing-policies.md
         - name: Настройка политик защиты от вредоносных программ
           href: configure-anti-malware-policies.md
         - name: Настройка политик защиты от нежелательной почты
