@@ -15,7 +15,7 @@
     - name: 'Описание услуги предоставления компьютеров, управляемых Майкрософт'
       href: service-description/index.md
       items:
-        - name: Поддерживаемые регионы и языки
+        - name: Поддерживаемые регионы
           href: service-description/regions-languages.md
         - name: Жизненный цикл продукта
           href: service-description/device-lifecycle.md
@@ -96,6 +96,8 @@
           href: get-started/company-portal.md
         - name: Включение службы Enterprise State Roaming
           href: get-started/enterprise-state-roaming.md
+        - name: Локализация пользовательского интерфейса
+          href: get-started/localization.md
         - name: Настройка устройств
           href: get-started/set-up-devices.md
           items:

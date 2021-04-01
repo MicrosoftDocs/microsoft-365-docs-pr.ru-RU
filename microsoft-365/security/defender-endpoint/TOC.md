@@ -390,6 +390,7 @@
 ## Справка
 ### [Управление и интерфейсы API]()
 #### [Обзор управления и интерфейсов API](management-apis.md)
+#### [Заметки о выпуске API](api-release-notes.md)
 #### [API Microsoft Defender для конечной точки]()
 ##### [Начало работы]()
 ###### [Лицензия и условия API Microsoft Defender для конечной точки](api-terms-of-use.md)
@@ -586,6 +587,5 @@
 ##### [Защита сети](troubleshoot-np.md)
 ##### [Правила сокращения направлений атак](troubleshoot-asr.md)
 
-# [Безопасность в Microsoft 365](../index.yml)
-# [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+# [Microsoft 365 Defender](../index.yml)
 # [Defender для Office 365](../office-365-security/overview.md)
