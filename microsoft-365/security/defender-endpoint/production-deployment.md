@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8965594789c3c96c043e3cd1a8922d9ba996ef47
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7abf1c9e4115c928ae581da3789270fd8ed036d3
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222445"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476314"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>Настройка microsoft Defender для развертывания конечных точек
 
@@ -39,7 +39,7 @@ ms.locfileid: "51222445"
 
 Развертывание Defender для конечной точки — это трех этапный процесс:
 
-| [![этап развертывания — подготовка](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Этап 1. Подготовка](prepare-deployment.md) | ![этап развертывания — установка](images/phase-diagrams/setup.png)<br>Этап 2. Установка | [![этап развертывания — на борту](images/phase-diagrams/onboard.png)](onboarding.md)<br>[Этап 3. На борту](onboarding.md) |
+| [![этап развертывания — подготовка](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Этап 1. Подготовка](prepare-deployment.md) | ![этап развертывания — установка](images/phase-diagrams/setup.png)<br>Этап 2. Настройка | [![этап развертывания — на борту](images/phase-diagrams/onboard.png)](onboarding.md)<br>[Этап 3. Подключение](onboarding.md) |
 | ----- | ----- | ----- |
 | | *Вы здесь!*||
 
@@ -124,7 +124,7 @@ ms.locfileid: "51222445"
 
 -   Протокол автообнаружия веб-прокси (WPAD)
 
-Если в топологии сети реализован прозрачный прокси или WPAD, нет необходимости в специальных параметрах конфигурации. Дополнительные сведения об исключениях URL-адресов Microsoft Defender [](production-deployment.md#proxy-service-urls) для конечной точки в прокси-сервере см. в разделе URL-адреса прокси-службы в этом документе для списка url-адресов URL-адресов URL-адресов или параметры настройки прокси-сервера устройства и параметров подключения к [Интернету.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)
+Если в топологии сети реализован прозрачный прокси или WPAD, нет необходимости в специальных параметрах конфигурации. Дополнительные сведения об исключениях URL-адресов Microsoft Defender [](production-deployment.md#proxy-service-urls) для конечной точки в прокси-сервере см. в разделе URL-адреса прокси-службы в этом документе для url-адресов, разрешаемых URL-адресами, или в настройках параметров прокси-сервера и подключения к [Интернету.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)
 
 **Конфигурация статического прокси вручную:**
 

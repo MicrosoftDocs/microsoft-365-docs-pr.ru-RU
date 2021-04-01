@@ -20,21 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Научитесь создавать, редактировать или удалять группу безопасности.
-ms.openlocfilehash: d2cc749acaf7b2e23674156f6ad9a200ec7b386d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4ea97683e47f7f0ef8f196db32df8e22f9b1a0b9
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915822"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470981"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Создание, редактирование или удаление группы безопасности в центре администрирования Microsoft 365
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 На странице Microsoft 365 **Groups** можно создать группы учетных записей пользователей, которые можно использовать для назначения тех же разрешений в SharePoint Online и CRM Online. Например, администратор может создать группу безопасности, чтобы предоставить определенной группе людей доступ к сайту SharePoint. Только администраторы глобального и управления пользователями имеют разрешения на создание, редактирование или удаление групп безопасности; Дополнительные сведения о ролях администратора см. в [дополнительных сведениях о назначении ролей администратора.](../add-users/assign-admin-roles.md) 
   

@@ -20,25 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Узнайте, как начать сбор данных для клиента с помощью приложения шаблона Microsoft 365 Use Analytics в Power BI.
-ms.openlocfilehash: 1ef50380041650763961ffbe6e01c63b26800ee3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 734712994d47fcb234ba988bb4d185d09f3267d0
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913878"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471061"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Включение аналитики использования Microsoft 365
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-
 Аналитика использования Microsoft 365 пока недоступна для сообщества microsoft 365 для правительства США.
   
-## <a name="steps-to-enable-microsoft-365-usage-analytics"></a>Действия, позволяющие аналитике использования Microsoft 365
+## <a name="steps-to-enable-microsoft-365-usage-analytics"></a>Инструкции по активации аналитики использования Microsoft 365
 
 Чтобы начать работу с аналитикой использования Microsoft 365, необходимо сначала сделать данные доступными в центре администрирования Microsoft 365, а затем инициировать приложение шаблона в Power BI.
   

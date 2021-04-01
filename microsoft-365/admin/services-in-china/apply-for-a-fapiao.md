@@ -21,17 +21,14 @@ search.appverid:
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: Узнайте, как отправить запрос Fapiao в систему управления 21Vianet Fapiao после оплаты в Office 365, выполняемой 21Vianet в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 681d2d79c510c773d7597c62811256458e3d166d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d9f75dfd00bb547e9d2e0f53826e5bc50926de39
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914478"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470957"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Применение для Fapiao для Office 365, выполняемой 21Vianet
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 Вы можете отправить запрос Fapiao в систему управления 21Vianet Fapiao примерно через три дня после оплаты. После отправки запроса Fapiao он будет обработан в течение двух дней.
   
@@ -43,7 +40,7 @@ ms.locfileid: "50914478"
   
 1. После оплаты на веб-сайте Office 365, выполняемом веб-сайтом 21Vianet, вы получите сообщение о подтверждении заказа с номером заказа и ссылкой на систему управления Fapiao. Вы можете использовать ссылку в электронной почте для создания учетной записи в системе управления информацией <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao.</a>
 
-    или
+    ИЛИ
 
 2. Вы можете подать заявление на fapiao из центра <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">администрирования.</a>
 

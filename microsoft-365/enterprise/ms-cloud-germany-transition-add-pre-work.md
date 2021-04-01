@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Предварительная работа при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: fb352c17d9868cf5c42034e198be63b6e0543dbb
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 9f5a38eae6d42f992879f97b8e8e1e8e6c4d56c3
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445606"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476353"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Предварительная работа по миграции из Microsoft Cloud Deutschland
 
@@ -102,12 +102,13 @@ nslookup -querytype=CNMAE msoid.contoso.com
 
 <!-- before phase 5 -->
 
-**Применяется к** клиентам Exchange Online, которые включили общий календарь и пространство адресов доступности<br>
+**Применяется к** клиентам Exchange Online<br>
 **При применении:** в любое время до окончания 9-го этапа
 
 | Step(s) | Описание | Влияние |
 |:-------|:-------|:-------|
-| Уведомлять внешних партнеров о предстоящем переходе на службы Office 365. | Конфигурации адресов доступности позволяют обмениваться бесплатными сведениями и сведениями о занятости в Office 365. | Невыполнение этого может привести к сбою службы или клиента на более позднем этапе миграции клиентов. |
+| Уведомлять внешних партнеров о предстоящем переходе на службы Office 365. |  Клиенты должны уведомить своих партнеров, с которыми они включили общий доступ к календарю и конфигурации адресов доступности (разрешить совместное использование бесплатных и загруженных сведений в Office 365). Конфигурация доступности должна перейти к использованию конечных точек [Office 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) по всему миру после завершения миграции Exchange Online. | Невыполнение этого может привести к сбою службы или клиента на более позднем этапе миграции клиентов. |
+| Уведомлять пользователей о необходимых изменениях клиента IMAP4/POP3/SMTP. | Пользователи, подключенные к конечным точкам Microsoft Cloud Deutschland для клиентских протоколов IMAP4, POP3, SMTP, должны вручную обновлять свои клиентские устройства, чтобы перейти на конечные точки [Office 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)по всему миру. | Перед тем, как донести эту зависимость до пользователей этих протоколов, убедитесь, что они либо переключаются на использование outlook mobile или Outlook в Интернете во время этой миграции. Если клиентские конечные точки не будут обновлены, при миграции почтовых ящиков пользователей будут сбои в работе с microsoft Cloud Deutschland. |
 ||||
 
 ### <a name="exchange-online-hybrid-configuration"></a>Гибридная конфигурация Exchange Online

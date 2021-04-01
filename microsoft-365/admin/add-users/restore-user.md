@@ -23,21 +23,14 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Узнайте, как восстановить удаленные учетные записи пользователей и все связанные данные.
-ms.openlocfilehash: f3986ed1ba007dcac87bdfb9322ba5c5bf081b35
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 75e664c68dec13b857e4bd308d49e5b58d5edfc8
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903716"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471017"
 ---
 # <a name="restore-a-user"></a>Восстановление пользователя
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
    
 Если вы восстановите учетную запись пользователя в течение 30 дней после ее удаления, будут восстановлены сама учетная запись и все связанные с ней данные. Пользователь сможет войти с той же рабочей или учебной учетной записью. Его почтовый ящик будет полностью восстановлен. Если вам нужно узнать, сколько времени осталось до момента, когда определенную учетную запись уже невозможно будет восстановить, [свяжитесь с нами](../contact-support-for-business-products.md).
   

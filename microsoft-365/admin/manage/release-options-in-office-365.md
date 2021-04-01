@@ -22,21 +22,14 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Узнайте, как настроить параметр выпуска для новых продуктов и обновлений компонентов в центре администрирования Microsoft 365.
-ms.openlocfilehash: e909cdf35ba9dd8282540783f7c362e5ae49212e
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 6c5d505f0ece47b0a47df8b7ed1dc015afe93e82
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034083"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470575"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Настройка стандартных или целевых параметров выпуска
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 > [!IMPORTANT]
 > Обновления Microsoft 365, описанные в этой статье, применяются к Microsoft 365, SharePoint Online и Exchange Online. Эти параметры выпуска являются целевыми, наилучшими способами для выпуска изменений в Microsoft 365, но не могут быть гарантированы во все времена или для всех обновлений. Они не применяются к приложениям Microsoft 365, Skype для бизнеса, Microsoft Teams и связанным службам. Сведения о вариантах выпуска приложений Microsoft 365 см. в обзоре каналов обновления [для приложений Microsoft 365.](/deployoffice/overview-update-channels)

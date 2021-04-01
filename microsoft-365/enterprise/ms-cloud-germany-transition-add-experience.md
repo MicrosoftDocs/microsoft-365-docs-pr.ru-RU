@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Дополнительные сведения о клиентском опыте при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: ecc549ca4d0bb8122de3bf092c004c919e958d5e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 8e28b9d6c8cc23e128234973039a4873b327e9fd
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165649"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476372"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>Миграция фазы действий и последствий для миграции из Microsoft Cloud Deutschland (расширенный)
 
-Миграции клиентов из Microsoft Cloud Deutschland в немецкий регион служб Microsoft Office 365 выполняются в наборе этапов и их настроенных действий для каждой рабочей нагрузки. На этом рисунке показаны девять этапов миграции в новые немецкие центр обработки данных.
+Миграции клиентов из Microsoft Cloud Deutschland в немецкий регион служб Microsoft Office 365 выполняются в наборе этапов и их настроенных действий для каждой рабочей нагрузки. На этом рисунке показаны десять этапов миграции в новые немецкие центра обработки данных.
 
-![Девять этапов миграции в новые центр обработки данных в Германии](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+![Десять этапов миграции в новые центр обработки данных в Германии](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
 
 В следующих разделах приводится дополнительная информация о клиентских впечатлениях при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
 
@@ -138,7 +138,7 @@ ms.locfileid: "51165649"
 
 [Понимание действий и последствий этапов миграции](ms-cloud-germany-transition-phases.md)
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 Начало работы:
 

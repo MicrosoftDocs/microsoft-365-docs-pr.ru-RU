@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7c0e8adde9b1ed66e401348d998ae5c1ad8a7442
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b83e6682ce0c11d076e0bbef60fdef365c9be564
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166009"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471105"
 ---
 # <a name="verify-data-storage-location-and-update-data-retention-settings-for-microsoft-defender-for-endpoint"></a>Проверка расположения хранилища данных и обновление параметров хранения данных для Microsoft Defender для конечной точки
 
@@ -46,6 +46,8 @@ ms.locfileid: "51166009"
 
 ## <a name="update-data-retention-settings"></a>Обновление параметров хранения данных
 
+Вы можете обновить параметры хранения данных. По умолчанию период хранения составляет 180 дней. 
+
 1. В области навигации выберите **параметры хранения**  >  **данных.**
 
 2. Выберите продолжительность хранения данных из выпадаемого списка.
@@ -59,4 +61,4 @@ ms.locfileid: "51166009"
 ## <a name="related-topics"></a>Статьи по теме
 - [Обновление параметров хранения данных](data-retention-settings.md)
 - [Настройка оповещений в Defender для конечной точки](configure-email-notifications.md)
-- [Настройка расширенных функций](advanced-features.md)
+- [Настройка дополнительных функций](advanced-features.md)

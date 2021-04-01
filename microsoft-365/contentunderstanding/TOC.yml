@@ -16,8 +16,14 @@
       href: create-a-content-center.md
     - name: Создание классификатора
       href: create-a-classifier.md
+    - name: Дублирование модели
+      href: duplicate-a-model.md
+    - name: Переименование модели
+      href: rename-a-model.md
     - name: Создание средства извлечения
       href: create-an-extractor.md
+    - name: Переименование средства извлечения
+      href: rename-an-extractor.md
     - name: Типы объяснений
       href: explanation-types-overview.md
     - name: Применение модели

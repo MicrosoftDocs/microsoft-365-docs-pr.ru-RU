@@ -379,8 +379,6 @@
               href: move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
             - name: Управление ролевыми группами в автономной службе EOP
               href: manage-admin-role-group-permissions-in-eop.md
-    - name: "Безопасность Microsoft\_365"
-      href: ../index.yml
     - name: Microsoft 365 Defender
       href: ../index.yml
     - name: Microsoft Defender для конечной точки

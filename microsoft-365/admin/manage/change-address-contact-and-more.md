@@ -21,21 +21,14 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Узнайте, как внести изменения в профиль организации, такие как имя организации, адрес, телефон, технический контакт и электронная почта.
-ms.openlocfilehash: 9813e7a959579223f27efa082b1ef11efe6ed06d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 93f0777ba5f1cd20cca6e286a4b4366c403fc9da
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915426"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470563"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Изменение адреса организации и других данных профиля
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
   
 Вы можете внести изменения в профиль организации, например имя организации, адрес, телефон и технический контакт. **Для обновления этих сведений вы должны быть глобальным администратором.**
   

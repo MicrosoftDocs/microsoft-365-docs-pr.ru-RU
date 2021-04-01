@@ -22,21 +22,14 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Узнайте, как можно использовать несколько адресов электронной почты, называемых псевдонимом электронной почты, связанных с учетной записью Microsoft 365 для бизнеса. '
-ms.openlocfilehash: 590782f7b22b1d26abef83f884d45da567f0425c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a44271cdbf52136e61702697a960cc3cbcd8119d
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915954"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471005"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Добавление дополнительных псевдонимов электронной почты для пользователя
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
   
 Эта статья для администраторов Microsoft 365, у которых есть бизнес-подписки. Она не предназначена для домашних пользователей.
   

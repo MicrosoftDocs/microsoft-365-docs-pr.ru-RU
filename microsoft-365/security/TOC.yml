@@ -28,26 +28,14 @@
           href: ./office-365-security/sharepoint-file-access-policies.md
         - name: Рекомендуемые политики MCAS для приложений SaaS
           href: ./office-365-security/mcas-saas-access-policies.md
-    - name: Центр безопасности Microsoft 365
-      href: defender/overview-security-center.md
-    - name: Оценка безопасности (Майкрософт)
-      items:
-        - name: Обзор оценки безопасности
-          href: defender/microsoft-secure-score.md
-        - name: Оценка уровня безопасности
-          href: defender/microsoft-secure-score-improvement-actions.md
-        - name: Отслеживание истории оценок и достижение целей
-          href: defender/microsoft-secure-score-history-metrics-trends.md
-        - name: Что вскоре появится
-          href: defender/microsoft-secure-score-whats-coming.md
-        - name: Новые возможности
-          href: defender/microsoft-secure-score-whats-new.md
     - name: Microsoft 365 Defender
       items:
         - name: Обзор
           items:
             - name: Что такое Microsoft 365 Defender?
               href: defender/microsoft-365-defender.md
+            - name: "Центр безопасности Microsoft\_365"
+              href: defender/overview-security-center.md
             - name: Новые возможности Microsoft 365 Defender
               href: defender/whats-new.md
             - name: Microsoft Defender для конечной точки в Центре безопасности Microsoft 365
@@ -116,6 +104,18 @@
               href: defender/m365d-pilot.md
             - name: Включение вопросов и ответов
               href: defender/m365d-enable-faq.md
+            - name: Оценка безопасности (Майкрософт)
+              items:
+                - name: Обзор оценки безопасности
+                  href: defender/microsoft-secure-score.md
+                - name: Оценка уровня безопасности
+                  href: defender/microsoft-secure-score-improvement-actions.md
+                - name: Отслеживание истории оценок и достижение целей
+                  href: defender/microsoft-secure-score-history-metrics-trends.md
+                - name: Что вскоре появится
+                  href: defender/microsoft-secure-score-whats-coming.md
+                - name: Новые возможности
+                  href: defender/microsoft-secure-score-whats-new.md
             - name: Аналитика угроз
               items:
                 - name: Обзор аналитики угроз

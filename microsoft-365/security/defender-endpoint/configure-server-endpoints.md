@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5013d94277eeba7d1df100d2850cb950fe2e0742
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 1757160b37500e97586fbb6dfb16d81303bc54e4
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379359"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476485"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -204,7 +204,7 @@ Defender for Endpoint может интегрироваться с Центро�
 - Автоматическая бортовая запись — датчик Defender для конечной точки автоматически включен на серверах Windows, которые находятся на борту в Центр безопасности Azure. Дополнительные сведения о в центре безопасности Azure см. в таблице [Onboarding to Azure Security Center Standard for enhanced security.](https://docs.microsoft.com/azure/security-center/security-center-onboarding)
 
     > [!NOTE]
-    > Автоматическая бортовая система применяется только для Windows Server 2008 R2 SP1, Windows Server 2012 R2 и Windows Server 2016.
+    > Интеграция Между Azure Defender для серверов и Microsoft Defender для конечной точки была расширена для поддержки [Windows Server 2019 и Windows Virtual Desktop (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
 
 - Windows servers monitored by Azure Security Center will also be available in Defender for Endpoint - Azure Security Center seamlessly connects to the Defender for Endpoint tenant, providing a single view across customers and servers.  Кроме того, оповещения Defender для конечной точки будут доступны на консоли Azure Security Center.
 - Исследование сервера . Клиенты Центра безопасности Azure могут получить доступ к Центру безопасности Защитника Майкрософт, чтобы выполнить подробное исследование, чтобы выявить область потенциального нарушения.
@@ -283,8 +283,8 @@ Defender for Endpoint может интегрироваться с Центро�
 <br>
 
 ## <a name="related-topics"></a>Статьи по теме
-- [На борту устройств с Windows 10](configure-endpoints.md)
-- [Onboard non-Windows devices](configure-endpoints-non-windows.md)
-- [Настройка параметров прокси и подключения к Интернету](configure-proxy-internet.md)
+- [Подключение устройств Windows 10](configure-endpoints.md)
+- [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)
+- [Настройка параметров прокси-сервера и соединения с Интернетом](configure-proxy-internet.md)
 - [Запустите тест обнаружения на недавно висячем устройстве Defender для конечных точек](run-detection-test.md)
 - [Устранение неполадок с учетом проблем с бортовой точкой Microsoft Defender для конечной точки](troubleshoot-onboarding.md)

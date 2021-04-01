@@ -25,22 +25,15 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Выполните этот контрольный список, чтобы удалить сотрудника из Microsoft 365 и обеспечить безопасность данных. '
-ms.openlocfilehash: 2372056cd6bee2387842c74dc2a35d71b88fae9e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d67ac65f4f3e6600b942b4f7d56826da35735b5c
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904400"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470873"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>Удаление или удаление бывшего сотрудника
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-  
 ## <a name="sign-out-now"></a>Немедленный выход
 
 ::: moniker range="o365-worldwide"

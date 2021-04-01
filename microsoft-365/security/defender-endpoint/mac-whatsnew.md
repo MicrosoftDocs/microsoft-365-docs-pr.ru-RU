@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be906baca3a54183e22fa3b4ee424a9d8fc6957a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 16d78cf014e775ecb98a59d90b5734836eb3cbf2
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198697"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476629"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Новые возможности в Microsoft Defender для конечной точки для Mac
 
@@ -39,7 +39,12 @@ ms.locfileid: "51198697"
 > В macOS 11 (Big Sur) Microsoft Defender для конечной точки требует дополнительных профилей конфигурации. Если вы существующий клиент, обновляющийся из более ранних версий macOS, не забудьте развернуть дополнительные профили конфигурации, перечисленные [на этой странице.](mac-sysext-policies.md)
 
 > [!IMPORTANT]
-> Поддержка macOS 10.13 (High Sierra) будет прекращена 15 февраля 2021 г.
+> Поддержка macOS 10.13 (High Sierra) прекращена 15 февраля 2021 г.
+
+## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
+
+- Добавлен новый параметр в средство командной строки для просмотра сведений о последнем проверке по запросу. Чтобы просмотреть сведения о последнем проверке по запросу, запустите `mdatp health --details antivirus`
+- Улучшения производительности & исправлений ошибок
 
 ## <a name="1012279-20121012122790"></a>101.22.79 (20.121012.12279.0)
 

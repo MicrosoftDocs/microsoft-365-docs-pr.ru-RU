@@ -20,21 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Научитесь настраивать отчеты в браузере и Power BI Desktop.
-ms.openlocfilehash: 18b4352d3aaa2fd16b74f78e1f80da3ee98367a6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d36e07a19b0ebda0d154b11723630e38b746eb8d
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914010"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471093"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Настройка отчетов в аналитике использования Microsoft 365
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Аналитика использования Microsoft 365 предоставляет панель мониторинга в Power BI, которая предоставляет сведения о том, как пользователи принимают и используют Microsoft 365. Панель мониторинга  это отправная точка для анализа данных об использовании. Отчеты можно настроить для получения именно тех сведений, которые нужны вам.
   
