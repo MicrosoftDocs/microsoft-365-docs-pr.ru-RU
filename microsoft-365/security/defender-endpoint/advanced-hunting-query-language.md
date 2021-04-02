@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 21cea1f661de294aea41ea2c4db21b1aca8a0eec
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: af612a051f133e4846e04033ab35ea39769d0193
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073165"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499546"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -179,8 +179,8 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 Подробные сведения о языке запросов см. в документации [по языку запросов Kusto.](https://docs.microsoft.com/azure/kusto/query/)
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Сведения о схеме](advanced-hunting-schema-reference.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)

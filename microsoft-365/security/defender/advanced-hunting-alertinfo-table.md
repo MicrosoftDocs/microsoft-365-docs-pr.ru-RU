@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bc81c9c8406a6e70df6ec38e3896ef9977a120e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1386830a4b3e05009b19a7d0e3a4ea62ce3321f2
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071645"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499827"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -49,13 +49,13 @@ ms.locfileid: "51071645"
 | `Category` | string | Тип индикатора угрозы или нарушения, определенного оповещением |
 | `Severity` | string | Указывает возможное воздействие (высокое, среднее или низкое) индикатора угрозы или нарушения, определенного оповещением |
 | `ServiceSource` | string | Продукт или служба, которые предоставили сведения об оповещении |
-| `DetectionSource` | строка | Технология обнаружения или датчик, которые определили заметный компонент или действие |
-| `AttackTechniques` | строка | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
+| `DetectionSource` | string | Технология обнаружения или датчик, которые определили заметный компонент или действие |
+| `AttackTechniques` | string | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)

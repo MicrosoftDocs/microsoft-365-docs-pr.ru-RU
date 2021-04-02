@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: df96b57b9898dd973fab053918d763d1972bd50d
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 3aee0a210b9381174650a4a817be510bcfaa00c2
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382809"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498530"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Обучение экспертов по продвинутой охоте
 
@@ -89,10 +89,10 @@ AppFileEvents
 ```
      
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Познакомьтесь с языком запросов расширенной охоты](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)

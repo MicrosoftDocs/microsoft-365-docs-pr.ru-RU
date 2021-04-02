@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Сведения для ИТ-администраторов об управлении метками конфиденциальности в приложениях Office для настольных компьютеров, мобильных устройств и в Интернете.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72b5422de2ee4b01e3209ec78ea0c10f1285d682
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 5a82eba3801509ed2e8ffb46ab32045466204fab
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034198"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498819"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Управление метками конфиденциальности в приложениях Office
 
@@ -119,7 +119,7 @@ Office для iOS и Office для Android: метки конфиденциал�
 
 ### <a name="office-built-in-labeling-client-and-the-azure-information-protection-client"></a>Встроенный клиент меток Office и клиент Azure Information Protection
 
-Если у пользователей установлен один из клиентов Azure Information Protection ([клиент унифицированных меток](/azure/information-protection/rms-client/aip-clientv2) или [классический клиент](/azure/information-protection/rms-client/aip-client)), по умолчанию встроенный клиент меток отключен в приложениях Office. 
+Если у пользователей [установлен клиент Azure Information Protection](/azure/information-protection/rms-client/aip-clientv2), встроенный клиент меток отключен в приложениях Office по умолчанию. 
 
 Чтобы использовать встроенные метки вместо клиента Azure Information Protection для приложений Office, рекомендуется использовать параметр групповой политики **Список управляемых надстроек**, как описано в разделе [Не загружено ни одной надстройки из-за параметров групповой политики для программ Office 2013 и Office 2016](https://support.microsoft.com/help/2733070/no-add-ins-loaded-due-to-group-policy-settings-for-office-2013-and-off).
 

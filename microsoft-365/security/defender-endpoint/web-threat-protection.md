@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7754fa586b24fdedaa9691b45f5da4654c882a5b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: aeeea02ca1ef2d37623e9ab434b162237c2f4946
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185985"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499897"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>Защита организации от веб-угроз
 
@@ -36,9 +36,9 @@ ms.locfileid: "51185985"
 Защита веб-угроз является частью [веб-защиты](web-protection-overview.md) в Defender for Endpoint. Он использует [сетевую защиту](network-protection.md) для защиты устройств от веб-угроз. Благодаря интеграции с Microsoft Edge и популярными сторонними браузерами, например Chrome и Firefox, защита от веб-угроз останавливает веб-угрозы без прокси-сервера и может защитить устройства во время их езды или на месте. Защита от веб-угроз останавливает доступ к фишинг-сайтам, векторам вредоносных программ, сайтам эксплойтов, сайтам с недоверием или низкой репутации, а также сайтам, заблокированным в настраиваемом списке [индикаторов.](manage-indicators.md)
 
 >[!Note]
->Для получения новых индикаторов клиентов устройствам может занять до часа.
+>Получение новых настраиваемых индикаторов для устройств может занять до часа.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Необходимые условия
 Веб-защита использует защиту сети для обеспечения безопасности просмотра веб-страниц в Microsoft Edge и сторонних веб-браузерах.
 
 Чтобы включить защиту сети на устройствах:
@@ -52,6 +52,6 @@ ms.locfileid: "51185985"
 
 - [Обзор веб-защиты](web-protection-overview.md)
 - [Защита от веб-угроз](web-threat-protection.md)
-- [Мониторинг веб-безопасности](web-protection-monitoring.md)
+- [Мониторинг безопасности в Интернете](web-protection-monitoring.md)
 - [Реагирование на веб-угрозы](web-protection-response.md)
 - [Защита сети](network-protection.md)

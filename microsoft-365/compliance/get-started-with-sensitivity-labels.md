@@ -18,13 +18,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: a6b04bcce7d0fe505173a807fbc2d4105831419c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: Вы готовы развернуть метки конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
+ms.openlocfilehash: d685b050d32ea7bf482a39ad8d72abe3ee74567d
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051891"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499688"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -32,9 +32,7 @@ ms.locfileid: "51051891"
 
 Сведения о том, что такое метки конфиденциальности и как они могут защитить данные организации, см. в статье [Сведения о метках конфиденциальности](sensitivity-labels.md).
 
-Если у вас есть [Azure Information Protection](/azure/information-protection/what-is-information-protection), определите, нужно ли перенести метки на единую платформу меток, а также какой клиент меток использовать:
-- [Как определить, находится ли мой клиент на единой платформе меток?](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
-- [Выбор решения для применения меток в Windows](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
+Если вы используете [Azure Information Protection](/azure/information-protection/what-is-information-protection) и по-прежнему применяете метки Azure Information Protection, управляемые с портала Azure, требуется перенести эти метки на [платформу унифицированных меток](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform). На компьютерах с Windows можно [выбрать используемый клиент](/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) для опубликованных меток конфиденциальности.
 
 Если вы готовы приступить к защите данных своей организации с помощью меток конфиденциальности, выполните следующие действия.
 
@@ -64,7 +62,7 @@ ms.locfileid: "51051891"
 
 Вместо использования стандартных ролей вы можете создать новую группу ролей и добавить в нее роль **Администратор меток конфиденциальности** или **Конфигурация организации**. Чтобы применить роль только для чтения, используйте вариант **Читатель меток конфиденциальности**. 
 
-Инструкции по добавлению пользователей в стандартные роли или создание собственных групп ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md).
+Инструкции по добавлению пользователей в стандартные роли или создание собственных групп ролей см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Эти разрешения необходимы только для создания и настройки меток конфиденциальности и соответствующих политик меток. Они не требуются для применения меток в приложениях или службах. Если для определенных конфигураций, связанных с метками конфиденциальности, требуются дополнительные разрешения, эти разрешения будут указаны в соответствующих инструкциях.
 

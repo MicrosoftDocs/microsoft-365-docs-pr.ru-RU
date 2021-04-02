@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4c90441bb7a492ac38c5fcb560d9246b3a0005b0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ee35bcc29ef8a283b6b04cb34ab97705d5dd15f4
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072765"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498226"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Принять меры по расширенным результатам запроса на охоту
 
@@ -42,7 +42,7 @@ ms.locfileid: "51072765"
 - Различные действия на устройствах
 - Файлы карантина
 
-## <a name="required-permissions"></a>Необходимые разрешения
+## <a name="required-permissions"></a>Обязательные разрешения
 Чтобы иметь возможность действовать с помощью продвинутой охоты, вам потребуется роль в Microsoft Defender для конечной точки с разрешениями на отправку действий по исправлению на [устройствах.](/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) Если вы не можете принять меры, обратитесь к глобальному администратору, чтобы получить следующее разрешение:
 
 *Активные действия по исправлению > управления угрозами и уязвимостью — обработка исправлений*
@@ -80,7 +80,7 @@ ms.locfileid: "51072765"
 Каждое действие индивидуально записывают в [центре](m365d-action-center.md) действий в статье **История** центра действий  >   [(security.microsoft.com/action-center/history).](https://security.microsoft.com/action-center/history) Перейдите в центр действий, чтобы проверить состояние каждого действия.
  
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

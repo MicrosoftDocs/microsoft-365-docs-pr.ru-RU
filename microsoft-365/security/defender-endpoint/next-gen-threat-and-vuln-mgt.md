@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: d1402d8486725559335a5edc5ee13c78a0125932
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 0c3c5ebbcd4483cae159fe9b46a6f4c376443be3
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186429"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499067"
 ---
 # <a name="threat-and-vulnerability-management"></a>Управление угрозами и уязвимостями
 
@@ -88,9 +88,9 @@ ms.locfileid: "51186429"
 **Панель мониторинга**   | Получите высокоуровневый обзор оценки воздействия организации, microsoft Secure Score для устройств, распределения экспозиции устройств, рекомендаций по безопасности, программного обеспечения с высоким уровнем уязвимости, действий по исправлению и топовых данных устройств.
 [**Рекомендации по безопасности**](tvm-security-recommendation.md) | См. список рекомендаций по безопасности и связанных с ними сведений об угрозах. При выборе элемента из списка открывается панель вылетов с сведениями об уязвимости, ссылкой на открытие страницы программного обеспечения, а также вариантами исправлений и исключений. Вы также можете открыть билет в Intune, если ваши устройства подключены через Azure Active Directory, и вы включили подключение Intune в Defender for Endpoint.
 [**Исправление**](tvm-remediation.md) | См. действия по исправлению, созданные вами, и исключения рекомендаций.
-[**Перечень программного обеспечения**](tvm-software-inventory.md) | См. список уязвимых программ в организации, а также сведения о слабости и угрозе.
+[**Инвентаризация программного обеспечения**](tvm-software-inventory.md) | См. список уязвимых программ в организации, а также сведения о слабости и угрозе.
 [**Недостатки**](tvm-weaknesses.md) | Список распространенных уязвимостей и воздействий (CVEs) в вашей организации.
-[**Временная шкала событий**](threat-and-vuln-mgt-event-timeline.md) | Просмотр событий, которые могут повлиять на риск организации.
+[**Временная шкала события**](threat-and-vuln-mgt-event-timeline.md) | Просмотр событий, которые могут повлиять на риск организации.
 
 ## <a name="apis"></a>Интерфейсы API
 
@@ -98,13 +98,13 @@ ms.locfileid: "51186429"
 
 См. следующие статьи для связанных API:
 
-- [Поддерживаемые API-API Microsoft Defender для конечных точек](exposed-apis-list.md)
+- [Поддерживаемые API Microsoft Defender для конечной точки](exposed-apis-list.md)
 - [API машины](machine.md)
 - [API рекомендации](vulnerability.md)
 - [API показателей](score.md)
 - [API программного обеспечения](software.md)
 - [API уязвимости](vulnerability.md)
-- [Список уязвимостей с помощью компьютера и программного обеспечения](get-all-vulnerabilities-by-machines.md)
+- [Список уязвимостей по компьютерам и программному обеспечению](get-all-vulnerabilities-by-machines.md)
 
 ## <a name="see-also"></a>См. также
 

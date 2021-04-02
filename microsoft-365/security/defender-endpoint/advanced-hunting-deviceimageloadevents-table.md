@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: aad270a101e7052e04e4530e661e0e86c2db70d2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b47996da16b131d1739acd26519447b9167870ec
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075109"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498792"
 ---
 # <a name="deviceimageloadevents"></a>DeviceImageLoadEvents
 
@@ -41,31 +41,31 @@ ms.locfileid: "51075109"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор устройства в службе |
-| `DeviceName` | строка | Полное доменное имя (FQDN) устройства |
-| `ActionType` | строка | Тип действий, которые вызвали событие |
+| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
+| `ActionType` | string | Тип действий, которые вызвали событие |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
 | `FolderPath` | string | Папка, содержащая файл, к котором было применено записано действие |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `MD5` | string | Hash MD5 файла, к который было применено записано действие |
-| `InitiatingProcessAccountDomain` | строка | Домен учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountName` | строка | Имя пользователя учетной записи, которая запустила процесс, ответственный за событие |
-| `InitiatingProcessAccountSid` | строка | Идентификатор безопасности (SID) учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessIntegrityLevel` | строка | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам, основанным на определенных характеристиках, например, если они были запущены из скачивания в Интернете. Эти уровни целостности влияют на разрешения на ресурсы |
-| `InitiatingProcessTokenElevation` | строка | Тип маркера, указывающий на наличие или отсутствие высоты привилегий управления пользовательским доступом (UAC), применяемой к процессу, инициировал событие. |
-| `InitiatingProcessSHA1` | строка | SHA-1 процесса (файла изображений), который инициировал событие |
-| `InitiatingProcessMD5` | строка | AD5 hash of the process (image file), that initiated the event |
-| `InitiatingProcessFileName` | строка | Имя процесса, который инициировал событие |
+| `InitiatingProcessAccountDomain` | string | Домен учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, которая запустила процесс, ответственный за событие |
+| `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessIntegrityLevel` | string | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам, основанным на определенных характеристиках, например, если они были запущены из скачивания в Интернете. Эти уровни целостности влияют на разрешения на ресурсы |
+| `InitiatingProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие высоты привилегий управления пользовательским доступом (UAC), применяемой к процессу, инициировал событие. |
+| `InitiatingProcessSHA1` | string | SHA-1 процесса (файла изображений), который инициировал событие |
+| `InitiatingProcessMD5` | string | AD5 hash of the process (image file), that initiated the event |
+| `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
 | `InitiatingProcessId` | int | Процесс ID (PID) процесса, который инициировал событие |
-| `InitiatingProcessCommandLine` | строка | Командная строка, используемая для запуска процесса, инициированного событием |
+| `InitiatingProcessCommandLine` | string | Командная строка, используемая для запуска процесса, инициированного событием |
 | `InitiatingProcessCreationTime` | datetime | Дата и время начала процесса запуска события |
-| `InitiatingProcessFolderPath` | строка | Папка, содержащая процесс (файл изображений), который инициировал событие |
+| `InitiatingProcessFolderPath` | string | Папка, содержащая процесс (файл изображений), который инициировал событие |
 | `InitiatingProcessParentId` | int | Process ID (PID) родительского процесса, который породил процесс, ответственный за событие |
-| `InitiatingProcessParentFileName` | строка | Имя родительского процесса, который породил процесс, ответственный за событие |
+| `InitiatingProcessParentFileName` | string | Имя родительского процесса, который породил процесс, ответственный за событие |
 | `InitiatingProcessParentCreationTime` | datetime | Дата и время запуска родительского процесса, ответственного за событие |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться совместно с `DeviceName` `Timestamp` столбцами и |
-| `AppGuardContainerId` | строка | Идентификатор виртуализированного контейнера, используемого службой Application Guard для изоляции активности браузера |
+| `AppGuardContainerId` | string | Идентификатор виртуализированного контейнера, используемого службой Application Guard для изоляции активности браузера |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-reference.md)

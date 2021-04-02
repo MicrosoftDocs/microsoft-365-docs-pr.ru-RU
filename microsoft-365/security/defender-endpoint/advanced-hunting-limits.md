@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 127ebc8c0eaba433710bc272a2cf602e7c9a9730
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8a9279d1dd2a6465553b576609bb81cdf4e03fa0
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075982"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499529"
 ---
 # <a name="advanced-hunting-service-limits"></a>Расширенные ограничения службы охоты
 
@@ -50,5 +50,5 @@ ms.locfileid: "51075982"
 
 - [Передовые методы охоты](advanced-hunting-best-practices.md)
 - [Обработка ошибок, совершенных в области охоты](advanced-hunting-errors.md)
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Правила настраиваемой диагностики](custom-detection-rules.md)

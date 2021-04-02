@@ -9,20 +9,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 599eab29628d11d67843f89a0eb59bb4db1e66ad
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 2ebc826e21246381d3220855f7e8cb01741f12e9
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185459"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499376"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Понимание отчета аналитики в аналитике угроз
 
@@ -51,7 +51,7 @@ _Раздел аналитических отчетов отчета об ана
 | Методы MITRE ATT&CK | Как наблюдаемые методы соотносят с структурой атак [MITRE ATT&CK](https://attack.mitre.org/) | 
 | [Смягчение последствий](#apply-additional-mitigations) | Рекомендации, которые могут остановить или уменьшить влияние угрозы. В этом разделе также содержатся меры по смягчению последствий, которые динамически не отслеживаются в отчете аналитики угроз. |
 | [Сведения об обнаружении](#understand-how-each-threat-can-be-detected) | Конкретные и общие обнаружения, предоставляемые решениями безопасности Майкрософт, которые могут выявлять действия или компоненты, связанные с угрозой. | 
-| [Расширенная охота на угрозы](#find-subtle-threat-artifacts-using-advanced-hunting) | [Расширенные запросы на охоту](advanced-hunting-overview.md) для упреждающего определения возможной активности угрозы. Большинство запросов предоставляется для дополнительного обнаружения, особенно для обнаружения потенциально вредоносных компонентов или поведения, которые не могут быть динамически оценены как вредоносные. | 
+| [Расширенная охота](#find-subtle-threat-artifacts-using-advanced-hunting) | [Расширенные запросы на охоту](advanced-hunting-overview.md) для упреждающего определения возможной активности угрозы. Большинство запросов предоставляется для дополнительного обнаружения, особенно для обнаружения потенциально вредоносных компонентов или поведения, которые не могут быть динамически оценены как вредоносные. | 
 | Ссылки | Microsoft и сторонние публикации, на которые ссылались аналитики при создании отчета. Контент аналитики угроз основан на данных, проверенных исследователями Майкрософт. Информация из общедоступных сторонних источников четко идентифицирована как таковая. | 
 | Журнал изменений | Время публикации отчета и внесение значительных изменений в отчет. |
 

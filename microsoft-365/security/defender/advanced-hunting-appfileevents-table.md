@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f25570916692c4568a6d09d92faaf57b0c155029
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b8b3b34e1b8535772d19f8ddd9f52c5c0a89292b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071638"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499340"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -47,39 +47,39 @@ ms.locfileid: "51071638"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
 | `ActionType` | string | Тип действий, которые вызвали событие. Подробные [сведения см. в](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) справке по схеме на портале |
-| `Application` | строка | Приложение, которое выполнило записанную акцию |
+| `Application` | string | Приложение, которое выполнило записанную акцию |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
 | `FolderPath` | string | Папка, содержащая файл, к котором было применено записано действие |
-| `PreviousFileName` | строка | Исходное имя файла, переименованного в результате действия |
-| `PreviousFolderPath` | строка | Оригинальная папка, содержащая файл перед примененным действием |
-| `Protocol` | строка | Используемый сетевой протокол |
-| `AccountName` | строка | Имя пользователя учетной записи |
-| `AccountDomain` | строка | Домен учетной записи |
-| `AccountSid` | строка | Идентификатор безопасности (SID) учетной записи |
-| `AccountUpn` | строка | Основное имя пользователя (UPN) учетной записи |
-| `AccountObjectId` | строка | Уникальный идентификатор учетной записи в Azure AD |
-| `AccountDisplayName` | строка | Имя пользователя учетной записи, отображаемого в адресной книге. Как правило, сочетание данной или имени, среднего посвящения и фамилии или фамилии. |
-| `DeviceName` | строка | Полное доменное имя (FQDN) устройства |
-| `DeviceType` | строка | Тип устройства | 
-| `OSPlatform` | строка | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
+| `PreviousFileName` | string | Исходное имя файла, переименованного в результате действия |
+| `PreviousFolderPath` | string | Оригинальная папка, содержащая файл перед примененным действием |
+| `Protocol` | string | Используемый сетевой протокол |
+| `AccountName` | string | Имя пользователя учетной записи |
+| `AccountDomain` | string | Домен учетной записи |
+| `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
+| `AccountUpn` | string | Основное имя пользователя (UPN) учетной записи |
+| `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure AD |
+| `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемого в адресной книге. Как правило, сочетание данной или имени, среднего посвящения и фамилии или фамилии. |
+| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
+| `DeviceType` | string | Тип устройства | 
+| `OSPlatform` | string | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
 | `IPAddress` | string | IP-адрес, присвоенный конечной точке и используемый во время связанных сетевых коммуникаций |
-| `Port` | строка | Порт TCP, используемый во время связи  |
-| `DestinationDeviceName` | строка | Имя устройства под управлением серверного приложения, обрабатываемого записанным действием |
-| `DestinationIPAddress` | строка | IP-адрес устройства под управлением серверного приложения, обработав записанное действие |
-| `DestinationPort` | строка | Порт назначения связанных сетевых коммуникаций |
-| `Location` | строка | Город, страна или другое географическое расположение, связанное с событием |
-| `Isp` | строка | Поставщик интернет-услуг (ISP), связанный с IP-адресом конечной точки |
+| `Port` | string | Порт TCP, используемый во время связи  |
+| `DestinationDeviceName` | string | Имя устройства под управлением серверного приложения, обрабатываемого записанным действием |
+| `DestinationIPAddress` | string | IP-адрес устройства под управлением серверного приложения, обработав записанное действие |
+| `DestinationPort` | string | Порт назначения связанных сетевых коммуникаций |
+| `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
+| `Isp` | string | Поставщик интернет-услуг (ISP), связанный с IP-адресом конечной точки |
 | `ReportId` | long | Уникальный идентификатор события |
-| `AdditionalFields` | строка | Дополнительные сведения об объекте или событии |
+| `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
 
 >[!TIP]
 > Подробные сведения о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в центре безопасности.
 
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)

@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a9ca0af0c522205309ffdcbfd1ac28638bd197c7
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: ea4f22b70e607b42155342dde1ac16b1ad640981
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382797"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498452"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -41,20 +41,20 @@ ms.locfileid: "51382797"
 |------------|---------------|-------------|
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `SHA256` | string | SHA-256 файла, к который было применено записанное действие |
-| `MD5` | Строка | Hash MD5 файла, к который было применено записано действие |
+| `MD5` | string | Hash MD5 файла, к который было применено записано действие |
 | `FileSize` | int | Размер файла в bytes |
 | `GlobalPrevalence` | int | Количество экземпляров объекта, наблюдаемого Корпорацией Майкрософт во всем мире |
 | `GlobalFirstSeen` | datetime | Дата и время, когда сущность впервые была замечена Корпорацией Майкрософт во всем мире |
 | `GlobalLastSeen` | datetime | Дата и время, когда объект в последний раз наблюдался Корпорацией Майкрософт во всем мире |
-| `Signer` | Строка | Сведения о подписывщике файла |
-| `Issuer` | Строка | Сведения о полномочиях по выдаче сертификатов (CA) |
-| `SignerHash` | Строка | Уникальное значение hash, определяющие подписавщика |
+| `Signer` | string | Сведения о подписывщике файла |
+| `Issuer` | string | Сведения о полномочиях по выдаче сертификатов (CA) |
+| `SignerHash` | string | Уникальное значение hash, определяющие подписавщика |
 | `IsCertificateValid` | boolean | Допустим ли сертификат, используемый для подписи файла |
 | `IsRootSignerMicrosoft` | boolean | Указывает, является ли подписатель корневого сертификата Корпорацией Майкрософт |
-| `SignatureState` | Строка | Состояние подписи файла: SignedValid — файл подписывался с действительной подписью, SignedInvalid — файл подписывался, но сертификат недействителен, Неподписанное — файл не подписан, Неизвестный — сведения о файле не могут быть извлечены.
+| `SignatureState` | string | Состояние подписи файла: SignedValid — файл подписывался с действительной подписью, SignedInvalid — файл подписывался, но сертификат недействителен, Неподписанное — файл не подписан, Неизвестный — сведения о файле не могут быть извлечены.
 | `IsExecutable` | boolean | Является ли файл портативным исполняемым (PE) файлом |
-| `ThreatName` | Строка | Имя обнаружения любых найденных вредоносных программ или других угроз |
-| `Publisher` | Строка | Имя организации, которая опубликовала файл |
+| `ThreatName` | string | Имя обнаружения любых найденных вредоносных программ или других угроз |
+| `Publisher` | string | Имя организации, которая опубликовала файл |
 | `SoftwareName` | string | Название программного продукта |
 
 ## <a name="syntax"></a>Синтаксис
@@ -95,7 +95,7 @@ DeviceFileEvents
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Дополнительные примеры запросов](advanced-hunting-shared-queries.md)

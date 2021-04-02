@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4926b6e742be273637150ebe2fa700e5d4e6f54e
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 9b9023ae87fed452396501980d719be3a2e207b3
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382881"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498644"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -54,57 +54,57 @@ ms.locfileid: "51382881"
 | `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `MD5` | string | Hash MD5 файла, к который было применено записано действие |
 | `FileSize` | long | Размер файла в bytes |
-| `AccountDomain` | Строка | Домен учетной записи |
-| `AccountName` | Строка | Имя пользователя учетной записи |
-| `AccountSid` | Строка | Идентификатор безопасности (SID) учетной записи |
+| `AccountDomain` | string | Домен учетной записи |
+| `AccountName` | string | Имя пользователя учетной записи |
+| `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
 | `RemoteUrl` | string | URL-адрес или полное доменное имя, к которому выполнено подключение |
 | `RemoteDeviceName` | string | Имя машины, которая выполняла удаленную операцию на пораженной машине. В зависимости от сообщаемого события это имя может быть полностью квалифицированным доменным именем (FQDN), именем NetBIOS или хост-именем без сведений о домене. |
 | `ProcessId` | int | ID процесса (PID) вновь созданного процесса |
-| `ProcessCommandLine` | Строка | Командная строка, используемая для создания нового процесса |
+| `ProcessCommandLine` | string | Командная строка, используемая для создания нового процесса |
 | `ProcessCreationTime` | datetime | Дата и время создания процесса |
-| `ProcessTokenElevation` | Строка | Тип маркера, указывающий на наличие или отсутствие высоты привилегий управления доступом пользователей (UAC), применяемой к вновь созданному процессу |
-| `LogonId` | Строка | Идентификатор для сеанса логотипа. Этот идентификатор уникален на одной машине только между перезапусками |
-| `RegistryKey` | Строка | Ключ реестра, к который было применено записано действие |
-| `RegistryValueName` | Строка | Имя значения реестра, к которое было применено записанное действие |
-| `RegistryValueData` | Строка | Данные о значении реестра, которое было применено к зарегистрированным действиям |
+| `ProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие высоты привилегий управления доступом пользователей (UAC), применяемой к вновь созданному процессу |
+| `LogonId` | string | Идентификатор для сеанса логотипа. Этот идентификатор уникален на одной машине только между перезапусками |
+| `RegistryKey` | string | Ключ реестра, к который было применено записано действие |
+| `RegistryValueName` | string | Имя значения реестра, к которое было применено записанное действие |
+| `RegistryValueData` | string | Данные о значении реестра, которое было применено к зарегистрированным действиям |
 | `RemoteIP` | string | IP-адрес, к которому выполнено подключение |
 | `RemotePort` | int | TCP-порт на удаленном устройстве, подключенного к |
-| `LocalIP` | Строка | IP-адрес, присвоенный локальной машине, используемой во время связи |
+| `LocalIP` | string | IP-адрес, присвоенный локальной машине, используемой во время связи |
 | `LocalPort` | int | Порт TCP на локальной машине, используемой во время связи |
-| `FileOriginUrl` | Строка | URL-адрес, в котором файл был загружен из |
-| `FileOriginIP` | Строка | IP-адрес, на который был загружен файл с |
-| `InitiatingProcessSHA1` | Строка | SHA-1 процесса (файла изображений), который инициировал событие |
-| `InitiatingProcessSHA256` | Строка | SHA-256 процесса (файла изображений), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
+| `FileOriginUrl` | string | URL-адрес, в котором файл был загружен из |
+| `FileOriginIP` | string | IP-адрес, на который был загружен файл с |
+| `InitiatingProcessSHA1` | string | SHA-1 процесса (файла изображений), который инициировал событие |
+| `InitiatingProcessSHA256` | string | SHA-256 процесса (файла изображений), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `InitiatingProcessMD5` | string | AD5 hash of the process (image file), that initiated the event |
-| `InitiatingProcessFileName` | Строка | Имя процесса, который инициировал событие |
+| `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
 | `InitiatingProcessFileSize` | long | Размер файла, который запустил процесс, ответственный за событие |
-| `InitiatingProcessFolderPath` | Строка | Папка, содержащая процесс (файл изображений), который инициировал событие |
+| `InitiatingProcessFolderPath` | string | Папка, содержащая процесс (файл изображений), который инициировал событие |
 | `InitiatingProcessId` | int | Процесс ID (PID) процесса, который инициировал событие |
-| `InitiatingProcessCommandLine` | Строка | Командная строка, используемая для запуска процесса, инициированного событием |
+| `InitiatingProcessCommandLine` | string | Командная строка, используемая для запуска процесса, инициированного событием |
 | `InitiatingProcessCreationTime` | datetime | Дата и время начала процесса запуска события |
-| `InitiatingProcessAccountDomain` | Строка | Домен учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountName` | Строка | Имя пользователя учетной записи, которая запустила процесс, ответственный за событие |
-| `InitiatingProcessAccountSid` | Строка | Идентификатор безопасности (SID) учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountUpn` | Строка | Основное имя пользователя (UPN) учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountObjectId` | Строка | ID объекта Azure AD учетной записи пользователя, которая запустила процесс, ответственный за событие |
-| `InitiatingProcessVersionInfoCompanyName` | Строка | Название компании из сведений о версии процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoProductName` | Строка | Имя продукта из сведений о версии процесса (файл изображений), ответственных за событие |
-| `InitiatingProcessVersionInfoProductVersion` | Строка | Версия продукта из сведений о версии процесса (файла изображений), ответственного за событие |
-|` InitiatingProcessVersionInfoInternalFileName` | Строка | Имя внутреннего файла из сведений о версии процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoOriginalFileName` | Строка | Исходное имя файла из версии данных процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoFileDescription` | Строка | Описание из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessAccountDomain` | string | Домен учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, которая запустила процесс, ответственный за событие |
+| `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountUpn` | string | Основное имя пользователя (UPN) учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountObjectId` | string | ID объекта Azure AD учетной записи пользователя, которая запустила процесс, ответственный за событие |
+| `InitiatingProcessVersionInfoCompanyName` | string | Название компании из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoProductName` | string | Имя продукта из сведений о версии процесса (файл изображений), ответственных за событие |
+| `InitiatingProcessVersionInfoProductVersion` | string | Версия продукта из сведений о версии процесса (файла изображений), ответственного за событие |
+|` InitiatingProcessVersionInfoInternalFileName` | string | Имя внутреннего файла из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoOriginalFileName` | string | Исходное имя файла из версии данных процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoFileDescription` | string | Описание из сведений о версии процесса (файла изображений), ответственного за событие |
 | `InitiatingProcessParentId` | int | Process ID (PID) родительского процесса, который породил процесс, ответственный за событие |
-| `InitiatingProcessParentFileName` | Строка | Имя родительского процесса, который породил процесс, ответственный за событие |
+| `InitiatingProcessParentFileName` | string | Имя родительского процесса, который породил процесс, ответственный за событие |
 | `InitiatingProcessParentCreationTime` | datetime | Дата и время запуска родительского процесса, ответственного за событие |
-| `InitiatingProcessLogonId` | Строка | Идентификатор для сеанса логотипа процесса, который инициировал событие. Этот идентификатор уникален на одной машине только между перезапусками |
+| `InitiatingProcessLogonId` | string | Идентификатор для сеанса логотипа процесса, который инициировал событие. Этот идентификатор уникален на одной машине только между перезапусками |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
-| `AppGuardContainerId` | Строка | Идентификатор виртуализированного контейнера, используемого службой Application Guard для изоляции активности браузера |
-| `AdditionalFields` | Строка | Дополнительные сведения о событии в формате массива JSON |
+| `AppGuardContainerId` | string | Идентификатор виртуализированного контейнера, используемого службой Application Guard для изоляции активности браузера |
+| `AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)

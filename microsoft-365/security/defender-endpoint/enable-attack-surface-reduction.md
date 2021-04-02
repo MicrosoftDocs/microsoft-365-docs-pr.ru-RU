@@ -1,5 +1,5 @@
 ---
-title: Включить правила уменьшения поверхности атаки
+title: Включить правила сокращения направлений атак
 description: Включить правила уменьшения поверхности атаки для защиты устройств от атак с использованием макросов, скриптов и распространенных методов впрыскивания.
 keywords: Уменьшение поверхности атаки, бедра, система предотвращения вторжения на хост, правила защиты, антиэкспозиция, антиэкспплойт, эксплойт, профилактика инфекции, включить, включить
 search.product: eADQiWindows 10XVcnh
@@ -14,14 +14,14 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 1deec767c6af777b23ab5a91c9e719f690e0c048
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: bf4fa88b3fbbf5d977d54a78c480129665049b23
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165145"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499406"
 ---
-# <a name="enable-attack-surface-reduction-rules"></a>Включить правила уменьшения поверхности атаки
+# <a name="enable-attack-surface-reduction-rules"></a>Включить правила сокращения направлений атак
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -137,7 +137,7 @@ ms.locfileid: "51165145"
 
 2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и выберите **административные шаблоны.**
 
-3. Расширь дерево до **компонентов Microsoft** Defender Antivirus Защитник Windows с уменьшением поверхности  >    >  **атаки guard.**  >  
+3. Расширь дерево до **компонентов**  >  **Windows, антивирус Microsoft Defender** Microsoft Defender Exploit Guard  >    >  **Attack.**
 
 4. Выберите **Настройка правил уменьшения поверхности атаки и** выберите **Включено.** Затем можно установить отдельное состояние для каждого правила в разделе параметры.
 
@@ -205,10 +205,10 @@ ms.locfileid: "51165145"
     > [!IMPORTANT]
     > Используйте `Add-MpPreference` для добавления или добавления приложений в список. С помощью `Set-MpPreference` этого комлета будет переописывать существующий список.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Уменьшение поверхностей атаки с помощью правил уменьшения поверхности атаки](attack-surface-reduction.md)
 
 - [Оценка уменьшения поверхности атаки](evaluate-attack-surface-reduction.md)
 
-- [FaQ уменьшения поверхности атаки](attack-surface-reduction.md)
+- [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction.md)

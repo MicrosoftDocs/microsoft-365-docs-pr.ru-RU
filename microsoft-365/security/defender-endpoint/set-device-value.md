@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 33692ddf62153c0a6aa8f84568d69803af113bc6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 76df62243db837ec91819497980ff1de2295e3b6
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185567"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498307"
 ---
 # <a name="set-device-value-api"></a>Набор API значения устройства
 
@@ -58,7 +58,7 @@ ms.locfileid: "51185567"
 Тип разрешения |    Разрешение    |    Имя отображения разрешений
 :---|:---|:---
 Приложение |    Machine.ReadWrite.All |    'Read and write all machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -76,7 +76,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{machineId}/setDevice
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 Content-Type | string | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса

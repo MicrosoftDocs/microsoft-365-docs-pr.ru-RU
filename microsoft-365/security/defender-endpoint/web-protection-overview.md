@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 059f960bae8a5a00f678bb6f52ef217b4f8ed7d6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4c04ce3479ac995e59c3bdfa9a2bdcca87eca17b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185997"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499922"
 ---
 # <a name="web-protection"></a>Веб-защита
 
@@ -47,7 +47,7 @@ ms.locfileid: "51185997"
 - Возможности исследования действий с угрозами, связанными с веб-сайтом, с помощью оповещений и комплексных профилей URL-адресов и устройств, которые имеют доступ к этим URL-адресам.
 - Полный набор функций безопасности, отслеживает общие тенденции доступа к вредоносным и нежелательным веб-сайтам
 
-## <a name="web-content-filtering"></a>Фильтрация веб-контента
+## <a name="web-content-filtering"></a>Фильтрация веб-содержимого
 
 Карты, которые включают фильтрацию веб-контента, это веб-активность по категориям, сводка фильтрации веб-контента **и** **сводка веб-активности.**
 
@@ -61,4 +61,4 @@ ms.locfileid: "51185997"
 Статья | Описание
 :---|:---
 [Защита от веб-угроз](web-threat-protection.md) | Остановите доступ к фишинг-сайтам, векторам вредоносных программ, сайтам эксплойтов, сайтам с недоверием или низкой репутации, а также заблокированным сайтам.
-[Фильтрация веб-контента](web-content-filtering.md) | Отслеживание и регулирование доступа к веб-сайтам в зависимости от категорий контента.
+[Фильтрация веб-содержимого](web-content-filtering.md) | Отслеживание и регулирование доступа к веб-сайтам в зависимости от категорий контента.

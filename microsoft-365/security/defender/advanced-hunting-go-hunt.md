@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 242c15bdd2f28f7277b93781d521c5414b9e90cf
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 392db06aa517e3e970f85ccc971c3a6a6bc6e548
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076366"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498291"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Быстрая охота за сведениями о сущности или событиях с помощью go hunt
 
@@ -73,7 +73,7 @@ and DeviceName == deviceName
 ### <a name="supported-entity-types"></a>Поддерживаемые типы сущности
 Вы можете использовать *go hunt* после выбора любого из этих типов сущности:
 
-- Files
+- Файлы
 - Сообщения электронной почты
 - Кластеры электронной почты
 - Почтовые ящики
@@ -108,7 +108,7 @@ Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 - [Создание настраиваемой нормы обнаружения](custom-detection-rules.md)
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Правила настраиваемого обнаружения](custom-detection-rules.md)

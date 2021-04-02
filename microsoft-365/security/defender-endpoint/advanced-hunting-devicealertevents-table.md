@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: c22e4b754f9d28156c3d26c567581572e59d718d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 66ecdc8fbcde04d78f2deede5f4e296a7f051ef0
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072429"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499163"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 
@@ -44,7 +44,7 @@ ms.locfileid: "51072429"
 | `AlertId` | string | Уникальный идентификатор оповещения |
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор устройства в службе |
-| `DeviceName` | строка | Полное доменное имя (FQDN) устройства |
+| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
 | `Severity` | string | Указывает возможное воздействие (высокое, среднее или низкое) индикатора угрозы или нарушения, определенного оповещением |
 | `Category` | string | Тип индикатора угрозы или нарушения, определенного оповещением |
 | `Title` | string | Название оповещения |
@@ -52,11 +52,11 @@ ms.locfileid: "51072429"
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `RemoteUrl` | string | URL-адрес или полное доменное имя, к которому выполнено подключение |
 | `RemoteIP` | string | IP-адрес, к которому выполнено подключение |
-| `AttackTechniques` | строка | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
+| `AttackTechniques` | string | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться совместно с `DeviceName` `Timestamp` столбцами и |
 | `Table` | string | Таблица, содержащая сведения о событии |
 
 ## <a name="related-topics"></a>См. также
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-reference.md)

@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: acb259088717b2772ec9798027545f2ff6dbc5e0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ab6bdefb457fb31df98d829ee801b72f4c8ae70a
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076709"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499691"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Advanced hunting schema - Naming changes
 
@@ -65,7 +65,7 @@ ms.locfileid: "51076709"
 | `DetectionSource` | AzureATP |    Microsoft Defender для удостоверений | Ребрендинг |
 | `DetectionSource` | CustomDetection   | Настраиваемый обнаружение | Ребрендинг |
 | `DetectionSource` | Автоматическаяинвестигация |Автоматическое расследование | Ребрендинг |
-| `DetectionSource` | ThreatExperts | Microsoft Threat Experts | Ребрендинг |
+| `DetectionSource` | ThreatExperts | Эксперты Майкрософт по угрозам | Ребрендинг |
 | `DetectionSource` | TI третьей стороны | Датчики 3-й стороны | Ребрендинг |
 | `ServiceSource` | ATP в Microsoft Defender — это| Microsoft Defender для конечной точки | Ребрендинг |
 |`ServiceSource` |Защита от угроз (Майкрософт)   | Microsoft 365 Defender | Ребрендинг |
@@ -105,5 +105,5 @@ ms.locfileid: "51076709"
 
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

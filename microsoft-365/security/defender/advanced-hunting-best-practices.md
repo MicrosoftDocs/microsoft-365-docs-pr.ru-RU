@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 53ec8146080e88b913de1f58d16750ffa766a1b2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e0744a01fc599b66f371b01194579f4845ed19fb
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071629"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498731"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -254,7 +254,7 @@ SHA256,ThreatTypes,DetectionMethods
 ### <a name="parse-strings"></a>Строки parse
 Существуют различные функции, которые можно использовать для эффективного обработки строк, которые нуждаются в размыве или преобразовании. 
 
-| Строка | Функция | Пример использования |
+| String | Функция | Пример использования |
 |--|--|--|
 | Командные строки | [parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) | Извлекать команду и все аргументы. | 
 | Пути | [parse_path()](/azure/data-explorer/kusto/query/parsepathfunction) | Извлечение разделов пути файла или папки. |
@@ -268,5 +268,5 @@ SHA256,ThreatTypes,DetectionMethods
 - [Документация по языку запросов Kusto](/azure/data-explorer/kusto/query/)
 - [Квоты и параметры использования](advanced-hunting-limits.md)
 - [Обработка ошибок, совершенных в области охоты](advanced-hunting-errors.md)
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)

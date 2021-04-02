@@ -7,19 +7,19 @@ ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: c90854b043674a61c4996456c9d718b3c25afd1c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e5d84a3eadab85713779dd70848bc11d27484dcc
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51197794"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499392"
 ---
 # <a name="get-missing-kbs-by-software-id"></a>Отсутствие KBs по программному ИД
 
@@ -41,8 +41,8 @@ ms.locfileid: "51197794"
 
 Тип разрешения |   Разрешение   |   Имя отображения разрешений
 :---|:---|:---
-Application |Software.Read.All |   'Read Threat and Vulnerability Management Software information'
-Делегированное (рабочая или учебная учетная запись) | Software.Read |   'Read Threat and Vulnerability Management Software information'
+Приложение |Software.Read.All |   'Read Threat and Vulnerability Management Software information'
+Делегированные (рабочая или учебная учетная запись) | Software.Read |   'Read Threat and Vulnerability Management Software information'
 
 ## <a name="http-request"></a>HTTP-запрос
 
@@ -54,7 +54,7 @@ GET /api/Software/{Id}/getmissingkbs
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
 

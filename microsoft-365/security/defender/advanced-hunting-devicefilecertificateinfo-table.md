@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 00e10c84c4bcb20f2e018bf05033b5b2235fd9ae
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: eafe84e2d08ce15fe2c3a7cbfafb0822a2f38666
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071574"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498634"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -46,13 +46,13 @@ ms.locfileid: "51071574"
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `IsSigned` | boolean | Указывает, подписан ли файл |
-| `SignatureType` | строка | Указывает, была ли информация подписи прочитана как встроенное содержимое в самом файле или считывается из внешнего файла каталога. |
-| `Signer` | строка | Сведения о подписывщике файла |
-| `SignerHash` | строка | Уникальное значение hash, определяющие подписавщика |
-| `Issuer` | строка | Сведения о полномочиях по выдаче сертификатов (CA) |
-| `IssuerHash` | строка | Уникальное значение hash identifying issuing certificate authority (CA) |
-| `CertificateSerialNumber` | строка | Идентификатор сертификата, который является уникальным для органа по выдаче сертификатов (CA) |
-| `CrlDistributionPointUrls` | строка |  Массив JSON с перечислением URL-адресов сетевых акций, содержащих сертификаты и списки отзывов сертификатов (CRLs) |
+| `SignatureType` | string | Указывает, была ли информация подписи прочитана как встроенное содержимое в самом файле или считывается из внешнего файла каталога. |
+| `Signer` | string | Сведения о подписывщике файла |
+| `SignerHash` | string | Уникальное значение hash, определяющие подписавщика |
+| `Issuer` | string | Сведения о полномочиях по выдаче сертификатов (CA) |
+| `IssuerHash` | string | Уникальное значение hash identifying issuing certificate authority (CA) |
+| `CertificateSerialNumber` | string | Идентификатор сертификата, который является уникальным для органа по выдаче сертификатов (CA) |
+| `CrlDistributionPointUrls` | string |  Массив JSON с перечислением URL-адресов сетевых акций, содержащих сертификаты и списки отзывов сертификатов (CRLs) |
 | `CertificateCreationTime` | datetime | Дата и время создания сертификата |
 | `CertificateExpirationTime` | datetime | Дата и время истечения срока действия сертификата |
 | `CertificateCountersignatureTime` | datetime | Дата и время, когда сертификат был подписан |
@@ -61,9 +61,9 @@ ms.locfileid: "51071574"
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. | 
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)

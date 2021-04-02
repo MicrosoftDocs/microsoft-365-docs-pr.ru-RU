@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4ba3e81163cdbba54bf718dca929e2df3b39a1c3
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e63af4153804a09424c36fb03ac715da5f6d9485
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075093"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499138"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -40,21 +40,21 @@ ms.locfileid: "51075093"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор устройства в службе |
-| `DeviceName` | строка | Полное доменное имя (FQDN) устройства |
+| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться совместно с `DeviceName` `Timestamp` столбцами и |
-| `NetworkAdapterName` | строка | Имя сетевого адаптер |
-| `MacAddress` | строка | MAC-адрес сетевого адаптер |
-| `NetworkAdapterType` | строка | Тип сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2&preserve-view=true) |
-| `NetworkAdapterStatus` | строка | Состояние сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2&preserve-view=true) |
-| `TunnelType` | строка | Протокол туннеля, если интерфейс используется для этой цели, например 6to4, Teredo, ISATAP, PPTP, SSTP и SSH. |
-| `ConnectedNetworks` | строка | Сети, к которые подключен адаптер. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
-| `DnsAddresses` | строка | Адреса DNS-серверов в формате массива JSON |
-| `IPv4Dhcp` | строка | IPv4 адрес сервера DHCP |
-| `IPv6Dhcp` | строка | IPv6 адрес сервера DHCP |
-| `DefaultGateways` | строка | Адреса шлюзов по умолчанию в формате массива JSON |
-| `IPAddresses` | строка | Массив JSON, содержащий все IP-адреса, присвоенные адаптеру, а также соответствующий префикс подсети и пространство IP-адресов, таких как общедоступный, частный или ссылка-локальный. |
+| `NetworkAdapterName` | string | Имя сетевого адаптер |
+| `MacAddress` | string | MAC-адрес сетевого адаптер |
+| `NetworkAdapterType` | string | Тип сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2&preserve-view=true) |
+| `NetworkAdapterStatus` | string | Состояние сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2&preserve-view=true) |
+| `TunnelType` | string | Протокол туннеля, если интерфейс используется для этой цели, например 6to4, Teredo, ISATAP, PPTP, SSTP и SSH. |
+| `ConnectedNetworks` | string | Сети, к которые подключен адаптер. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
+| `DnsAddresses` | string | Адреса DNS-серверов в формате массива JSON |
+| `IPv4Dhcp` | string | IPv4 адрес сервера DHCP |
+| `IPv6Dhcp` | string | IPv6 адрес сервера DHCP |
+| `DefaultGateways` | string | Адреса шлюзов по умолчанию в формате массива JSON |
+| `IPAddresses` | string | Массив JSON, содержащий все IP-адреса, присвоенные адаптеру, а также соответствующий префикс подсети и пространство IP-адресов, таких как общедоступный, частный или ссылка-локальный. |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-reference.md)

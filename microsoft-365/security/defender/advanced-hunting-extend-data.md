@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eaa0068fe52119bfd9dc2381b253b259cb8df907
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1fc4635b71e68bb56fa7ec54c9c7b1263b83446b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070125"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498236"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Расширение расширенного охвата охоты с помощью правильных параметров
 
@@ -54,5 +54,5 @@ ms.locfileid: "51070125"
 | Контроллер домена | Данные из локального Active Directory, отправленные в Microsoft Defender для удостоверений, обогащая сведения, связанные с удостоверениями, такие как сведения об учетной записи, действия логотипа и запросы Active Directory | Несколько таблиц, включая [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)и [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [Установка сенсора Microsoft Defender для удостоверений](/azure-advanced-threat-protection/install-atp-step4)<br>- [Включим соответствующие события Windows](/azure-advanced-threat-protection/configure-event-collection) |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: 668b3fe503268c46e4a1313f0c4cfb8a6a3dd602
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6c828418d27db24cbd6e87f040486b3abc45e6c6
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076006"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499552"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -34,20 +34,20 @@ ms.locfileid: "51076006"
 Column | Тип данных | Описание
 -|-|-
 SHA1 | string | SHA-1 файла, к которому было применено записанное действие
-SHA256 | строка | SHA-256 файла, к который было применено записанное действие
-MD5 | строка | Hash MD5 файла, к который было применено записано действие
+SHA256 | string | SHA-256 файла, к который было применено записанное действие
+MD5 | string | Hash MD5 файла, к который было применено записано действие
 FileSize | int | Размер файла в bytes
 GlobalPrevalence | int | Количество экземпляров объекта, наблюдаемого Корпорацией Майкрософт во всем мире
 GlobalFirstSeen | datetime | Дата и время, когда сущность впервые была замечена Корпорацией Майкрософт во всем мире
 GlobalLastSeen | datetime | Дата и время, когда объект в последний раз наблюдался Корпорацией Майкрософт во всем мире
-Signer | строка | Сведения о подписывщике файла
-Издатель | строка | Сведения о полномочиях по выдаче сертификатов (CA)
-SignerHash | строка | Уникальное значение hash, определяющие подписавщика
+Signer | string | Сведения о подписывщике файла
+Издатель | string | Сведения о полномочиях по выдаче сертификатов (CA)
+SignerHash | string | Уникальное значение hash, определяющие подписавщика
 IsCertificateValid | boolean | Допустим ли сертификат, используемый для подписи файла
 IsRootSignerMicrosoft | boolean | Указывает, является ли подписатель корневого сертификата Корпорацией Майкрософт
 IsExecutable | boolean | Является ли файл портативным исполняемым (PE) файлом
-ThreatName | строка | Имя обнаружения любых найденных вредоносных программ или других угроз
-Publisher | строка | Имя организации, которая опубликовала файл
+ThreatName | string | Имя обнаружения любых найденных вредоносных программ или других угроз
+Publisher | string | Имя организации, которая опубликовала файл
 SoftwareName | string | Название программного продукта
 
 ## <a name="syntax"></a>Синтаксис
@@ -85,6 +85,6 @@ DeviceFileEvents
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-reference.md)

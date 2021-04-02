@@ -11,8 +11,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc534b7bec27784ccf25f92ab0282fdbecdc9196
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f916137be71dffeaed7e3718286032a17c9f8e04
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074773"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498481"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Понимание отчета аналитики в аналитике угроз
 
@@ -35,7 +35,7 @@ ms.locfileid: "51074773"
 **Область применения:**
 - Microsoft 365 Defender
 
-> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) или запустить [пилотный проект в производстве.](m365d-pilot.md?ocid=cx-evalpilot)
+> Хотите попробовать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) или [запустить пилотный проект в производственной среде](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -56,7 +56,7 @@ _Раздел аналитических отчетов отчета об ана
 | Методы MITRE ATT&CK | Как наблюдаемые методы соотносят с структурой атак [MITRE ATT&CK](https://attack.mitre.org/) | 
 | [Смягчение последствий](#apply-additional-mitigations) | Рекомендации, которые могут остановить или уменьшить влияние угрозы. В этом разделе также содержатся меры по смягчению последствий, которые динамически не отслеживаются в отчете аналитики угроз. |
 | [Сведения об обнаружении](#understand-how-each-threat-can-be-detected) | Конкретные и общие обнаружения, предоставляемые решениями безопасности Майкрософт, которые могут выявлять действия или компоненты, связанные с угрозой. | 
-| [Расширенная охота на угрозы](#find-subtle-threat-artifacts-using-advanced-hunting) | [Расширенные запросы на охоту](advanced-hunting-overview.md) для упреждающего определения возможной активности угрозы. Большинство запросов предоставляется для дополнительного обнаружения, особенно для обнаружения потенциально вредоносных компонентов или поведения, которые не могут быть динамически оценены как вредоносные. | 
+| [Расширенная охота](#find-subtle-threat-artifacts-using-advanced-hunting) | [Расширенные запросы на охоту](advanced-hunting-overview.md) для упреждающего определения возможной активности угрозы. Большинство запросов предоставляется для дополнительного обнаружения, особенно для обнаружения потенциально вредоносных компонентов или поведения, которые не могут быть динамически оценены как вредоносные. | 
 | Ссылки | Microsoft и сторонние публикации, на которые ссылались аналитики при создании отчета. Контент аналитики угроз основан на данных, проверенных исследователями Майкрософт. Информация из общедоступных сторонних источников четко идентифицирована как таковая. | 
 | Журнал изменений | Время публикации отчета и внесение значительных изменений в отчет. |
 

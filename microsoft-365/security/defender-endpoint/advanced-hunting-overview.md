@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f3dac57961308cc10bdb53a01745e6659bfaaded
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4883a4f04f06774d02aa0d942edc841867eb36b6
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075974"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499521"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Активная охота на угрозы с расширенным поиском
 
@@ -43,7 +43,7 @@ ms.locfileid: "51075974"
 Вы можете использовать одни и те же запросы на поиск угроз для создания пользовательских правил обнаружения. Эти правила запускаются автоматически для проверки и реагирования на предполагаемые нарушения, неправильного устройства и других выводов.
 
 >[!TIP]
->Используйте [расширенный](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview) метод охоты в Microsoft Threat Protection для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включив защитник Microsoft 365](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
+>Используйте [расширенный](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview) метод охоты в Microsoft Threat Protection для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включение Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
 
 ## <a name="get-started-with-advanced-hunting"></a>Начало работы с расширенным выслеживанием
 
@@ -80,5 +80,5 @@ ms.locfileid: "51075974"
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Сведения о схеме](advanced-hunting-schema-reference.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)
 - [Обзор настраиваемых обнаружений](overview-custom-detections.md)

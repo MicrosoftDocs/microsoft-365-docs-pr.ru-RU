@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 326e508fbf5a0e968e890f5727a6ae542de437c2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 629e18c7387f6063254f3482f93a5e17023c7316
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186009"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499948"
 ---
 # <a name="monitor-web-browsing-security"></a>Мониторинг безопасности просмотра веб-страниц
 
@@ -69,6 +69,6 @@ ms.locfileid: "51186009"
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор веб-защиты](web-protection-overview.md)
-- [Фильтрация веб-контента](web-content-filtering.md)
+- [Фильтрация веб-содержимого](web-content-filtering.md)
 - [Защита от веб-угроз](web-threat-protection.md)
 - [Реагирование на веб-угрозы](web-protection-response.md)

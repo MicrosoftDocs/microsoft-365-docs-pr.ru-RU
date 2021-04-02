@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ mms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 43e861d43e6e98f1e17d737f431bb72c42f3f4f6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 84d0c1fd256b013291e3df33dc5d7a0524741685
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073958"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498926"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -47,21 +47,21 @@ ms.locfileid: "51073958"
 | `NetworkMessageId` | string | Уникальный идентификатор для электронной почты, созданный Корпорацией Майкрософт 365 |
 | `SenderFromAddress` | string | Адрес электронной почты отправителя в заголовке "ОТ", который получатели электронной почты видят в своих почтовых клиентах |
 | `SenderDisplayName` | string | Имя отправитель, отображаемого в адресной книге, как правило, сочетание заданного или имени, среднего начального и фамилии |
-| `SenderObjectId` | строка | Уникальный идентификатор учетной записи отправитель в Azure AD |
+| `SenderObjectId` | string | Уникальный идентификатор учетной записи отправитель в Azure AD |
 | `RecipientEmailAddress` | string | Адрес электронной почты получателя или адрес электронной почты получателя после расширения списка рассылки |
 | `RecipientObjectId` | string | Уникальный идентификатор получателя электронной почты в Azure AD |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
 | `FileType` | string | Тип расширения файла |
 | `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `ThreatTypes` | string | Вердикт из стека фильтрации электронной почты о том, содержит ли электронная почта вредоносные программы, фишинг или другие угрозы |
-| `ThreatNames` | строка | Обнаружено имя обнаружения вредоносных программ или других найденных угроз |
-| `DetectionMethods` | строка | Методы обнаружения вредоносных программ, фишинга или других угроз, обнаруженных в электронной почте |
+| `ThreatNames` | string | Обнаружено имя обнаружения вредоносных программ или других найденных угроз |
+| `DetectionMethods` | string | Методы обнаружения вредоносных программ, фишинга или других угроз, обнаруженных в электронной почте |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)

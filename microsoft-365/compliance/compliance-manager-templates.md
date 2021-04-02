@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Понимание использования и управления шаблонами для оценки соответствия требованиям в Microsoft Compliance Manager. Создание и изменение шаблонов с помощью форматного файла Excel.
-ms.openlocfilehash: 2d95aa4172d80a81e8c635edb01ab56579513c53
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ac5fe5f0a62c3b20021a9829499d8cec9339f72a
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922789"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499020"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>Работа с шаблонами оценки в диспетчере соответствия требованиям
 
@@ -38,17 +38,17 @@ ms.locfileid: "50922789"
 
 #### <a name="included-and-premium-templates"></a>Включенные и премиум-шаблоны
 
-Шаблоны, доступные для использования, основаны на лицензионном соглашении организации[(см. сведения о лицензировании).](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) Существует две категории шаблонов: включаемая и премиум-категория.
+Шаблоны, доступные для использования, основаны на лицензионном соглашении организации[(см. сведения о лицензировании).](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager) Существует две категории шаблонов: включаемая и премиум-категория.
 
 1. **Включенные шаблоны** доступны для использования в рамках лицензионного соглашения вашей организации.
-2. **Для создания** оценок из них необходимо приобрести шаблоны премиум-класса. После покупки можно создать столько оценок из шаблона, сколько необходимо.
+2. **Для создания** оценок из них необходимо приобрести шаблоны премиум-класса. После покупки можно создать столько оценок из шаблона, сколько необходимо. [Узнайте, как можно приобрести шаблоны премиум-класса.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 
 #### <a name="active-and-inactive-templates"></a>Активные и неактивные шаблоны
 
 В шаблонах будет отображаться состояние активации как активного, так и неактивного:
 
 - Шаблон считается активным **после** создания оценки из этого шаблона.
-- Шаблон считается **неактивным,** если организация не использует его в качестве основы для оценки.
+- Шаблон считается **неактивным,** если организация не использует его для оценки.
 
 При покупке шаблона премиум-класса и создании из него оценки этот шаблон активен в течение одного года. Покупка автоматически возобновляется, если не отменять продление.
 
@@ -60,7 +60,7 @@ ms.locfileid: "50922789"
 
 Если счетчик показывает 5/2, это означает, что ваша организация превышает свои ограничения и должна приобрести 3 из используемого шаблона премиум-класса.
 
-Дополнительные [сведения см.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) в руководстве по лицензированию диспетчера соответствия требованиям.
+Дополнительные [сведения см.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager) в руководстве по лицензированию диспетчера соответствия требованиям.
 
 ## <a name="viewing-and-managing-templates-from-the-assessment-templates-page"></a>Просмотр и управление шаблонами со страницы шаблонов оценки
 
@@ -220,7 +220,7 @@ ms.locfileid: "50922789"
 
 #### <a name="change-an-improvement-actions-name"></a>Изменение имени действия по улучшению
 
-Если вы хотите изменить имя действия по улучшению, необходимо четко узначить в таблице, что вы заменяете существующее имя новым именем. Выполните следующие действия.
+Если вы хотите изменить имя действия по улучшению, необходимо четко узначить в таблице, что вы заменяете существующее имя новым именем. Выполните приведенные ниже действия.
 
 1. На **вкладке Действия** таблицы добавьте новый столбец в таблицу после столбца A.
 2. В этом новом столбце, который в настоящее время является столбцом B, в качестве загона в строке 1 помещаем в строку 1: **oldActionTitle**.

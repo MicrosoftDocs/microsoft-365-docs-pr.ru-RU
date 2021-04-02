@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d56710f4933a8971230c78d7b3570f14b9bda335
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: b5baf4adf9c9abaf746c1d6c3ea1c29c3b471b0b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382629"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498601"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -47,18 +47,18 @@ ms.locfileid: "51382629"
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `ClientVersion` | string | Версия агента конечной точки или датчика, запущенного на компьютере |
-| `PublicIP` | Строка | Общедоступный IP-адрес, используемый бортовой машиной для подключения к службе Microsoft Defender для конечных точек. Это может быть IP-адрес самой машины, устройство NAT или прокси-сервер |
+| `PublicIP` | string | Общедоступный IP-адрес, используемый бортовой машиной для подключения к службе Microsoft Defender для конечных точек. Это может быть IP-адрес самой машины, устройство NAT или прокси-сервер |
 | `OSArchitecture` | string | Архитектура операционной системы, используемой на компьютере |
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Это указывает на определенные операционные системы, в том числе варианты в одной семье, например Windows 10 и Windows 7. |
-| `OSBuild` | Строка | Сборка версии операционной системы, запущенной на компьютере |
+| `OSBuild` | string | Сборка версии операционной системы, запущенной на компьютере |
 | `IsAzureADJoined` | boolean | Индикатор Boolean о том, присоединяется ли машина к Azure Active Directory |
-| `AadObjectId` | Строка | Уникальный идентификатор устройства в Azure AD |
-| `LoggedOnUsers` | Строка | Список всех пользователей, зарегистрированных на компьютере во время события в формате массива JSON |
-| `RegistryDeviceTag` | Строка | Тег машины, добавленный в реестр |
+| `AadObjectId` | string | Уникальный идентификатор устройства в Azure AD |
+| `LoggedOnUsers` | string | Список всех пользователей, зарегистрированных на компьютере во время события в формате массива JSON |
+| `RegistryDeviceTag` | string | Тег машины, добавленный в реестр |
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
 | `MachineGroup` | string | Машинная группа машины. Эта группа используется управлением доступом на основе ролей для определения доступа к машине |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
-|`AdditionalFields` | Строка | Дополнительные сведения о событии в формате массива JSON |
+|`AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
 
 В таблице содержится информация об устройстве на основе пульса, которые являются периодическими отчетами или `DeviceInfo` сигналами с устройства. Каждые 15 минут устройство отправляет частичное сердцебиение, которое содержит часто меняющиеся атрибуты, такие как `LoggedOnUsers` . Один раз в день отправляется полное сердцебиение, содержащее атрибуты устройства.
 
@@ -72,9 +72,9 @@ DeviceInfo
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)
