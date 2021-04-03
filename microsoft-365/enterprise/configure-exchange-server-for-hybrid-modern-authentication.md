@@ -17,16 +17,16 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить локальное Exchange Server для использования гибридной современной проверки подлинности (HMA), предлагая более безопасную проверку подлинности и авторизацию пользователей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46646f35d3b41821424269f66721fbf829d339f7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9393b457c219fb03ae2e8a35c3f795c324919f27
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928206"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579726"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Как настроить локальное развертывание Exchange Server для использования гибридной современной проверки подлинности
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Гибридная современная проверка подлинности (HMA) — это метод управления удостоверениями, который обеспечивает более безопасную проверку подлинности и авторизацию пользователей и доступен для локального гибридного развертывания сервера Exchange.
 
@@ -50,7 +50,7 @@ ms.locfileid: "50928206"
 
 1. Так **как** для Skype для бизнеса и Exchange используется множество необходимых условий, обзор гибридной современной проверки подлинности и необходимые условия для его использования на локальном сервере Skype для бизнеса и [Exchange.](hybrid-modern-auth-overview.md) Сделайте это, прежде чем приступить к любым шагам в этой статье.
 
-1. Добавление URL-адресов веб-служб локальной службы в качестве имен основных служб **(SPNs)** в Azure AD.
+1. Добавление URL-адресов веб-служб локальной службы в качестве имен основных служб **(SPNs)** в Azure AD. В том случае, если EXCH гибридна с несколькими клиентами, эти URL-адреса веб-службы локального уровня должны быть добавлены в качестве URL-адресов в Azure AD всех клиентов, которые находятся в гибридной связи с EXCH.
 
 1. Обеспечение включения всех виртуальных каталогов для HMA
 
@@ -58,7 +58,9 @@ ms.locfileid: "50928206"
 
 1. Включение HMA в EXCH.
 
- **Примечание** Поддерживает ли ваша версия Ma Office? Узнайте, как работает современная проверка подлинности для клиентских приложений [Office 2013 и Office 2016.](modern-auth-for-office-2013-and-2016.md)
+> [!NOTE]
+> Поддерживает ли ваша версия Ma Office? Узнайте, как работает современная проверка подлинности для клиентских приложений [Office 2013 и Office 2016.](modern-auth-for-office-2013-and-2016.md)
+
 
 ## <a name="make-sure-you-meet-all-the-prerequisites"></a>Убедитесь, что вы соответствуете всем необходимым требованиям
 
@@ -79,11 +81,12 @@ Get-AutodiscoverVirtualDirectory | FL server,*url*
 Get-OutlookAnywhere | FL server,*url*
 ```
 
-Убедитесь, что клиенты URL-адресов могут подключаться к числу основных имен служб HTTPS в AAD.
+Убедитесь, что клиенты URL-адресов могут подключаться к числу основных имен служб HTTPS в AAD. В случае, если EXCH гибридна с несколькими **арендаторами,** эти VPN HTTPS должны быть добавлены в AAD всех клиентов в гибриде с EXCH.
 
 1. Во-первых, подключите К AAD с [этими инструкциями.](connect-to-microsoft-365-powershell.md)
 
-   **Примечание** Чтобы использовать приведенную ниже команду, необходимо использовать параметр _Connect-MsolService_ на этой странице.
+    > [!NOTE]
+    > Чтобы использовать приведенную ниже команду, необходимо использовать параметр _Connect-MsolService_ на этой странице.
 
 2. Для URL-адресов, связанных с Exchange, введите следующую команду:
 
@@ -140,6 +143,9 @@ Get-AuthServer | where {$_.Name -eq "EvoSts"}
 
 На выходе должен быть показываться AuthServer имени EvoSts, а состояние "Включено" должно быть True. Если этого не видно, следует скачать и запустить новейшую версию мастера гибридной конфигурации.
 
+> [!NOTE]
+> В том случае, если EXCH гибридна с несколькими арендаторами, на выходе должен быть по одному AuthServer name EvoSts — {GUID} для каждого клиента в гибриде с EXCH, а состояние "Включено" должно быть true для всех этих объектов AuthServer.
+
  **Важно** Если вы работаете в среде Exchange 2010, поставщик проверки подлинности EvoSTS не будет создан.
 
 ## <a name="enable-hma"></a>Включить HMA
@@ -151,23 +157,35 @@ Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
 
+Если версия EXCH exchange 2016 (CU18 или выше) или Exchange 2019 (CU7 или выше) и гибридная настроена с HCW, загруженным после сентября 2020 г., запустите следующую команду в командной оболочке Exchange, локально:
+
+```powershell
+Set-AuthServer -Identity "EvoSTS - {GUID}" -Domain "Tenant Domain" -IsDefaultAuthorizationEndpoint $true
+Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
+```
+
+> [!NOTE]
+> Если EXCH гибридна с несколькими арендаторами, в EXCH присутствует несколько объектов AuthServer с доменами, соответствующими каждому клиенту.  Флаг **IsDefaultAuthorizationEndpoint** должен быть задан для true (с помощью **cmdlet IsDefaultAuthorizationEndpoint)** для любого из этих объектов AuthServer. Этот флаг не может быть задан для всех объектов Authserver и HMA будет включен, даже если один из этих объектов AuthServer **isDefaultAuthorizationEndpoint** флаг установлен для true.
+
 ## <a name="verify"></a>Проверка
 
 После встраив HMA, следующий вход клиента будет использовать новый поток auth. Обратите внимание, что включение HMA не вызовет повторной оценки для любого клиента. Клиенты повторно обнародуются в зависимости от срока службы маркеров auth и/или сертификатов, которые у них есть.
 
 Кроме того, необходимо придержать клавишу CTRL, щелкнув правой кнопкой мыши значок для клиента Outlook (также в подносе Уведомлений Windows) и нажмите кнопку "Состояние подключения". Иском адрес SMTP клиента в отношении типа 'Authn' 'Bearer', который представляет маркер носители, используемый \* в OAuth.
 
- **Примечание** Необходимо настроить Skype для бизнеса с помощью HMA? Вам потребуется две статьи: одна из них, которая перечисляет поддерживаемые [топологии,](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)и одна, которая показывает, как [сделать конфигурацию.](configure-skype-for-business-for-hybrid-modern-authentication.md)
+> [!NOTE]
+> Необходимо настроить Skype для бизнеса с помощью HMA? Вам потребуется две статьи: одна из них, которая перечисляет поддерживаемые [топологии,](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)и одна, которая показывает, как [сделать конфигурацию.](configure-skype-for-business-for-hybrid-modern-authentication.md)
+
 
 ## <a name="using-hybrid-modern-authentication-with-outlook-for-ios-and-android"></a>Гибридная современная проверка подлинности в случае Outlook для iOS и Android
 
-Если вы локальное клиент, использующее сервер Exchange на TCP 443, обходить обработку трафика для следующих диапазонов IP:
+Если вы — локальное клиент, использующее сервер Exchange на TCP 443, обходить обработку трафика для следующих диапазонов IP-адресов:
 
-```text
+```
 52.125.128.0/20
 52.127.96.0/23
 ```
 
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Статьи по теме
 
 [Современные требования к конфигурации проверки подлинности для перехода с Office 365 dedicated/ITAR на vNext](/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)

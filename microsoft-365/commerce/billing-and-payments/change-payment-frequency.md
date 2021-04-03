@@ -21,21 +21,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как изменить, как часто вы выставлены счета за подписку на бизнес.
-ms.openlocfilehash: ae3e3b4d0231fc5992215d243e141fb643d13626
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a7d2f60e25611025e5b06d4e78555d59c486626d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911894"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579798"
 ---
 # <a name="change-your-billing-frequency"></a>Изменение частоты вы выставления счета
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 При покупке подписки вы выбираете ежемесячный или ежегодный выставление счета. Чтобы изменить, как часто вы выставлены счета за подписку, используйте следующие действия.
 

@@ -19,21 +19,14 @@ search.appverid:
 - MET150
 description: Узнайте, как читать и знакомиться со счетом, выставленным за продукты Microsoft для бизнеса.
 keywords: учетные записи выставления счетов, сведения об организации, счета
-ms.openlocfilehash: 98c42bf480db8be3d750ab9788e407b7064335a9
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3752254fc6068381cd6effed0be4d5b8295f8a27
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164490"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579762"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Ознакомление со счетом
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 В счете содержится сводка ваших расходов и инструкции по оплате. [Просмотреть онлайн-счет](#view-your-online-invoice) можно в Центре администрирования Microsoft 365. Счет также можно скачать в формате PDF (.pdf) для отправки по электронной почте.
 

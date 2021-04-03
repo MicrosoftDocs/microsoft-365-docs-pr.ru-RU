@@ -1,7 +1,7 @@
 ---
 title: Отчеты Microsoft 365 в центре администрирования — действия пользователей Microsoft Teams
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как получить отчет о действиях пользователей Microsoft Teams и получить сведения о действиях Teams в вашей организации.
-ms.openlocfilehash: 41403bcda1d1485798ac5eefe8f3386a314aea1b
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: a4f8cd995d1559da3846fbb38cc5a9441358da72
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406186"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579618"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия пользователей Microsoft Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "50406186"
 
 Чтобы обеспечить качество данных, мы выполняем ежедневные проверки проверки данных в течение последних трех дней и заполняем все обнаруженные пробелы. Во время процесса можно заметить различия в исторических данных.
 
-|Элемент|Описание|
+|Item|Описание|
 |:-----|:-----|
 |**Метрика**|**Определение**|
 |Имя пользователя  <br/> |Электронный адрес пользователя. Здесь может отображаться фактический электронный адрес или анонимный идентификатор (при соответствующей настройке).   <br/> |

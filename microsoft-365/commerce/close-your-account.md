@@ -17,25 +17,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как закрыть учетную запись в Корпорации Майкрософт.
-ms.openlocfilehash: 19e9a92a90f7c88cc150844ab451bc71d63e4c4a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0ee0a649a9adb93ecdbb1cd9dbedbc04dfb46ba0
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911666"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579750"
 ---
 # <a name="close-your-account"></a>Закрытие учетной записи
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-
 Когда вы закрываете свою учетную запись в Microsoft, вся информация, связанная с вашей учетной записью, удаляется. Эта информация включает в себя подписки, лицензии, способы оплаты, пользователей и пользовательские данные.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Перед началом этого процесса обязательно сделайте резервную копию любых данных, которые вы хотите сохранить.
 

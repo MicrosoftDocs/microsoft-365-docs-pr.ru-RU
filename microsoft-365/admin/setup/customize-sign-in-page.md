@@ -2,8 +2,8 @@
 title: Добавление фирменого знака вашей компании на страницу Вход в
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Настройка страницы регистрации Microsoft 365 с помощью Azure Active Directory. На страницу входного знака можно добавить иллюстрацию, логотип и текст.
-ms.openlocfilehash: 1bd9a60c9c3bbe839652785deb2eb52d5b385673
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9947d57e4bf35ef0a3409db58f2c663959c2dd49
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914166"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579126"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>Добавление фирменого знака вашей компании на страницу Вход в
 

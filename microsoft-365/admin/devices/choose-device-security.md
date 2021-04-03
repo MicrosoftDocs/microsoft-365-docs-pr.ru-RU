@@ -2,8 +2,8 @@
 title: Сравнение различных методов защиты данных устройств и приложений
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Выберите между различными методами MDM и MAM.
-ms.openlocfilehash: c4928f272c0bdd8a7b6883f506cebf9a153e9c49
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 462fe28b1240681380d6a1d26ae362575c0d7c86
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50910538"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579366"
 ---
 # <a name="options-for-protecting-your-devices-and-app-data"></a>Параметры защиты устройств и данных приложений
 
@@ -44,7 +44,7 @@ ms.locfileid: "50910538"
  
 - **Microsoft Intune —** это автономный план, который также включается в некоторые планы Microsoft 365 для бизнеса или предприятия. Если у вас есть Intune как автономный или часть подписки, он обеспечивает возможность тонкой настройки устройства и управления данными приложений. Дополнительные сведения о доступности в Microsoft 365 см. в [сайте Наличие Intune.](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune)
 
-    Microsoft Intune — это облачная служба, которая фокусируется на управлении мобильными устройствами (MDM) и управлении мобильными приложениями (MAM). Вы контролируете использование устройств организации, включая мобильные телефоны, планшеты и ноутбуки. Вы также можете настроить определенные политики для управления приложениями. Дополнительные сведения см. [в документации Microsoft Intune.](/mem/intune/)
+    Microsoft Intune — это облачная служба, которая предназначена для управления мобильными устройствами (MDM) и мобильными приложениями (MAM). Вы контролируете использование устройств организации, включая мобильные телефоны, планшеты и ноутбуки. Вы также можете настроить определенные политики для управления приложениями. Дополнительные сведения см. [в документации Microsoft Intune.](/mem/intune/)
 
 - **Премиум-планы Azure Active Directory (AD)** — это автономные планы, которые также имеют некоторые планы Microsoft 365 для бизнеса и предприятий. Дополнительные сведения см. в [расценки Azure AD.](https://azure.microsoft.com/pricing/details/active-directory/)
 

@@ -2,8 +2,8 @@
 title: Создание подписи для всей организации
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как создать подписи электронной почты в масштабе всей компании.
-ms.openlocfilehash: 22676ef6464e15e63efbe77d6dd6e88b4e494896
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: a1a85826be2a799b56cf3d06b6416778470a116f
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422811"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578955"
 ---
 # <a name="create-a-company-wide-email-signature"></a>Создание подписи электронной почты для всей компании
 

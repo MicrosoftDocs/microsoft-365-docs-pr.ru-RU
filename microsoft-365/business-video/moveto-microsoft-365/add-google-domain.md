@@ -2,8 +2,8 @@
 title: Добавление домена Google Workspace
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: twerner
+author: twernermsft
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -15,39 +15,38 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как переместить домен из Google Workspace в Microsoft 365 для бизнеса.
-ms.openlocfilehash: 23ca451cfdcb67898a10935101efedcdf360ef91
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Узнайте, как переместить домен из Рабочей области Google в Microsoft 365 для бизнеса.
+ms.openlocfilehash: 814e714527467bb6e7008ea141989f3117ddcdd8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925006"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578775"
 ---
 # <a name="add-your-google-workspace-domain-to-microsoft-365"></a>Добавление домена Google Workspace в Microsoft 365
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LWKT?autoplay=false]
 
-Добавьте домен Google Workspace в Microsoft 365 для бизнеса, чтобы вы могли продолжать использовать свой адрес электронной почты.
+Добавьте домен Google Workspace в Microsoft 365 для бизнеса, чтобы вы могли использовать бизнес-адрес электронной почты.
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
-1. Перейдите в [Центр администрирования Microsoft 365.](https://admin.microsoft.com)
-1. In the Microsoft 365 Admin Center, in the left nav, select **Show all**, **Settings** and then **Domains**.
-1. Choose **Add domain**, enter your domain name then select Use this **domain**. 
-1. Choose, **Add a TXT record to the domains DNS records,** select **Continue**, and copy the TXT value. 
-1. Go back to the [Google Admin Console,](https://admin.google.com)choose **Domains**, Manage **domains**, **View Details**, **Manage domain**, **DNS**, and then scroll down to **Custom resource records**. 
-1. Откройте в drop-down тип записи, выберите **TXT,** введите значение TXT, скопированные, а затем выберите **"Добавить".** 
+1. Перейдите в [центр администрирования Microsoft 365](https://admin.microsoft.com).
+1. В центре администрирования Microsoft 365 в левом nav выберите **Показать** все **параметры** и **домены.**
+1. Выберите **Добавить домен,** введите доменное имя, а затем **выберите Используйте этот домен.** 
+1. Выберите, **добавьте запись TXT в** записи DNS доменов, выберите **Продолжить** и скопируйте значение TXT. 
+1. Возвращайся к [консоли администратора Google,](https://admin.google.com)выберите домены, управление доменами, просмотр сведений, управление доменом,  **DNS,** а затем прокрутите до пользовательских **записей ресурсов.**  
+1. Откройте падение типа записи, выберите **TXT,** введите скопированные значения TXT, а затем выберите **Добавить**. 
 
-    Обновление обычно занимает несколько минут, но может занять до 48 часов. 
-1. Вернись в Центр администрирования Microsoft 365, выберите **"Проверить"** и **"Закрыть".** 
-1. Чтобы настроить домен в качестве основного сообщения электронной почты для пользователей, в левой области nav выберите **"Активные**  >  **пользователи".** 
-1. Выберите пользователя, выберите **"Управление иным** пользователем" и "Электронная почта", "Изменить", "Выберите свой домен" в выпадаке, а затем выберите "Готово" **и** **"Сохранить изменения".** 
+    Обновление обычно принимает факт в течение нескольких минут, но может занять до 48 часов. 
+1. Вернись в Центр администрирования Microsoft 365, выберите **Проверить** и **закрыть**. 
+1. Чтобы настроить домен в качестве основной электронной почты для пользователей, в левом nav выберите **пользователей Users**  >  **Active.** 
+1. Выберите пользователя, выберите **Управление** и имя пользователя и электронную почту, **изменить,** выбрать домен из отсев, а затем выбрать **Сделано** **и сохранить изменения**. 
 1. Повторите этот процесс для каждого пользователя. 
 
-    После завершения вы будете готовы установить приложения Office и перенести элементы электронной почты и календаря в Microsoft 365. 
+    По завершению вы будете готовы установить приложения Office и перенести элементы электронной почты и календаря в Microsoft 365. 

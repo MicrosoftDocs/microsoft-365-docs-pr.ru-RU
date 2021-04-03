@@ -2,8 +2,8 @@
 title: Добавление, смена и удаление партнера-консультанта по подпискам
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Узнайте, как добавить партнера-консультанта по подписке в качестве партнера записи во время покупки Microsoft 365, изменить партнера или удалить партнера из подписки.
-ms.openlocfilehash: 9734ee5f23af24ec701b8ae1fbd448d6bedb63fb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 913b0e14e1bc08cfd4037775aa4b72b7280c704c
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914934"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579234"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Добавление, смена и удаление партнера-консультанта по подпискам
 
@@ -102,7 +102,7 @@ ms.locfileid: "50914934"
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 2. На **вкладке Продукты** выберите подписку, которую необходимо изменить.
 3. На странице сведения о подписке, в **соответствии с сведениями о партнере,** введите **ID партнерской сети**. Вы можете получить ИД партнерской сети Майкрософт, запросив его у партнера.
-4. Нажмите **Добавить**.
+4. Нажмите кнопку **Add** (Добавить).
 
 ::: moniker-end
 
@@ -136,7 +136,7 @@ ms.locfileid: "50914934"
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 2. На странице подробные сведения о подписках, в **соответствии с сведениями о партнере,** выберите **Удалить**.
 3. Введите **ID партнерской сети Майкрософт** для нового партнера. Идентификатор партнера Майкрософт вы можете узнать у своего партнера.
-4. Нажмите **Добавить**.
+4. Нажмите кнопку **Add** (Добавить).
   
 ::: moniker-end
 

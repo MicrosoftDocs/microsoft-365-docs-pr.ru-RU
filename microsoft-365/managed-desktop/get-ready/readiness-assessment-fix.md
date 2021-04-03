@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 75c2967037ae83abca2aaa3cd02d1f6b2ae14caa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 5a22996ce9e39dc16191ddddc6aa9393de557bbc
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925920"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579414"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Исправление проблем, обнаруженных средством проверки готовности
 
@@ -328,7 +329,7 @@ Windows Hello для бизнеса не настроена. Включить е
 
 Пользователи управляемых настольных компьютеров Майкрософт не будут иметь локальные привилегии администратора на своих управляемых настольных устройствах Майкрософт после регистрации.
 
-## <a name="microsoft-365-apps-for-enterprise"></a>Приложения Microsoft 365 для предприятий
+## <a name="microsoft-365-apps-for-enterprise"></a>Приложения Microsoft 365 для предприятий
 
 ### <a name="onedrive"></a>OneDrive
 

@@ -22,19 +22,14 @@ search.appverid:
 - MET150
 description: Узнайте, как управлять методами оплаты в Центре администрирования Microsoft 365.
 ms.date: ''
-ms.openlocfilehash: 2a53ae0bfb4806a85e03f293f58e1b575e8bcf90
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1d28d082c0a7c123aadaa2230930326139fdcb8e
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911846"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579786"
 ---
 # <a name="manage-payment-methods"></a>Управление методами оплаты
-
-::: moniker range="o365-21vianet"
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-::: moniker-end
 
 При покупке бизнес-продуктов или услуг у корпорации Майкрософт можно использовать имеющийся метод оплаты или добавить новый. Оплатить покупки можно с помощью кредитной или дебетовой карты, а также с помощью банковского счета.
 
