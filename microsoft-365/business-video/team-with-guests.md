@@ -2,8 +2,8 @@
 title: Создание команды с доступом для гостей
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как создать команду с гостями в Microsoft Teams.
-ms.openlocfilehash: 795e236ca94a8ac585b3c5ba3be90cf56ecb0751
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: a6d30684bed3a750a11e311f4e47d88940adbd0f
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421791"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578595"
 ---
 # <a name="create-a-team-with-guests"></a>Создание команды с доступом для гостей
 

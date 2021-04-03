@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Расширенный аудит в Microsoft 365 предоставляет новые функции аудита, помогающие организации при расследованиях и анализе соответствия требованиям.
-ms.openlocfilehash: 0a77a5c54ce328a3966a952fc8fef08553f42462
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 88308d173df79f55f38aba4b70d4b561667941bf
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923489"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574658"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Расширенный аудит в Microsoft 365
 
@@ -153,7 +153,7 @@ ms.locfileid: "50923489"
 В Exchange Online PowerShell также можно выполнить [Search-UnifiedAuditLog -Operations SearchQueryInitiatedSharePoint](/powershell/module/exchange/search-unifiedauditlog).
 
 > [!NOTE]
-> В Exchange Online PowerShell необходимо выполнить указанную ниже команду, чтобы события SearchQueryInitiatedExchange, выполненные указанным пользователем E5, были включены в результаты поиска в журнале аудита: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
+> В Exchange Online PowerShell необходимо выполнить указанную ниже команду, чтобы события SearchQueryInitiatedSharePoint, выполненные указанным пользователем E5, были включены в результаты поиска в журнале аудита: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
 В среде с поддержкой нескольких регионов необходимо выполнить команду **Set-Mailbox** в лесу, в котором находится почтовый ящик пользователя. Чтобы определить расположение почтового ящика пользователя, выполните следующую команду: `Get-Mailbox <user identity> | FL MailboxLocations`.
 Если команда `Set-Mailbox -AuditOwner @{Add="SearchQueryInitiated"}` ранее выполнялась в лесу, отличном от того, в котором находится почтовый ящик пользователя, то необходимо удалить значение SearchQueryInitiated из почтового ящика пользователя (запустив `Set-Mailbox -AuditOwner @{Remove="SearchQueryInitiated"}`), а затем добавить его в почтовый ящик пользователя в лес, в котором находится почтовый ящик пользователя.
 

@@ -1,6 +1,6 @@
 ---
 title: Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт
-description: certs/wifi/lan
+description: Требования сертификата и подключение к Wi-Fi
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -11,12 +11,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9f4490711c1ea051afe9d8efb081a2f7a141f8ba
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: a59add6f6821824f189703b3dedd35fda313ec31
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909122"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574587"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт  
  
@@ -86,3 +87,14 @@ ms.locfileid: "50909122"
 4. Создайте профиль для каждого корпоративного VPN (см. параметры устройств Windows 10 и Windows Holographic для добавления VPN-подключений [с помощью Intune).](/intune/vpn-settings-windows-10)
 5. Отправьте запрос на поддержку под названием "Развертывание сертификатов" или "Развертывание профилей Wi-Fi" в ИТ-операции Microsoft Managed Desktop с помощью портала администрирования управляемых настольных компьютеров Майкрософт, чтобы просмотреть и развернуть профиль конфигурации в "Современные устройства на рабочем месте — тест". Управление ИТ-операциями Microsoft Managed Desktop позволит вам узнать, когда запрос был выполнен с помощью запроса на поддержку на портале Администрирование. 
  
+## <a name="steps-to-get-ready"></a>Действия, которые необходимо сделать, чтобы быть готовыми
+
+1. Просмотрите [необходимые условия для управляемого рабочего стола Майкрософт.](prerequisites.md)
+2. Используйте [средства оценки готовности.](readiness-assessment-tool.md)
+3. [Предварительные требования для гостевых учетных записей](guest-accounts.md)
+4. [Конфигурация сети для компьютеров, управляемых Майкрософт](network.md)
+5. [Подготовка сертификатов и сетевых профилей для microsoft Managed Desktop](certs-wifi-lan.md) (Эта статья)
+6. [Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт](authentication.md)
+7. [Приложения на компьютерах, управляемых Майкрософт](apps.md)
+8. [Подготовка подключенных дисков для компьютеров, управляемых Майкрософт](mapped-drives.md)
+9. [Подготовка ресурсов печати для компьютеров, управляемых Майкрософт](printing.md) 

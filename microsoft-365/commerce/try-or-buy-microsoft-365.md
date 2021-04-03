@@ -19,21 +19,14 @@ search.appverid:
 - MET150
 description: Узнайте, как получить бесплатную пробную версия или купить подписку на Microsoft 365 для бизнеса.
 ms.date: 08/07/2020
-ms.openlocfilehash: 05ac30ae25f4748751eee04c34d049b07d5b7511
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9daa7022007aa3c71dc7291f592d3b166a2c45a5
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198441"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576905"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Попробуйте или купите Microsoft 365 для бизнес-подписки
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../admin/microsoft-365-admin-center-preview.md?view=o365-21vianet).
-
-::: moniker-end
 
 Microsoft 365 для бизнеса — это служба подписки, которая позволяет запускать организацию в облаке, пока Корпорация Майкрософт заботится о ИТ для вас. Корпорация Майкрософт управляет устройствами, защищает от реальных угроз и предоставляет организации новейшее программное обеспечение для бизнеса. Вы можете подписаться на бесплатную пробную подписку для Microsoft 365 Business Standard, Microsoft 365 Business Premium или Microsoft 365 Apps для бизнеса и попробовать его в течение 30 дней.
 
@@ -110,6 +103,21 @@ Microsoft 365 для бизнеса — это служба подписки, к
 
 > [!NOTE]
 > Необходимо переместить пользователей из бесплатной пробной подписки в новую, прежде чем закончится 90-дневный льготный период по истечении срока действия пробной подписки. При этом вы храните данные, учетные записи и конфигурацию. В противном случае эта информация удаляется.
+
+::: moniker range="o365-21vianet"
+## <a name="payment-options"></a>Варианты оплаты
+
+Оплатить подписку можно по:
+
+- Счет
+
+- Онлайн-оплата с помощью Alipay или China UnionPay
+
+Подтверждение оплаты будет предоставлено в виде Fapiaos. Вы можете отправить запрос Fapiao в нашу систему [Fapiao](https://go.microsoft.com/fwlink/p/?LinkId=395314) через три (3) дня после оплаты. Дополнительные сведения см. в [дополнительных сведениях: Apply for a Fapiao for Office 365 operated by 21Vianet.](../admin/services-in-china/apply-for-a-fapiao.md)
+
+> [!NOTE]
+>  Международные кредитные карты не принимаются.
+::: moniker-end
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

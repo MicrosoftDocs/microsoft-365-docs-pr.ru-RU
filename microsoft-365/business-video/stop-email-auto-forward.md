@@ -2,8 +2,8 @@
 title: Отмена автоматической переадресации электронной почты
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как остановить автопродажа электронных писем.
-ms.openlocfilehash: ca4383a3f9d64a123955ebe005d0fad5819d3a5d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: b6715cfdf8622521d977e0746cb9a340a8f70a5c
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421803"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578607"
 ---
 # <a name="stop-email-auto-forward"></a>Остановка автопродажа электронной почты
 

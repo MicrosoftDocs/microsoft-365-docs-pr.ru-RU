@@ -2,8 +2,8 @@
 title: Обзор безопасности Microsoft 365 Бизнес Премиум
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте о функции безопасности, включенные в Microsoft 365 для бизнеса.
-ms.openlocfilehash: e21dc1a9f27f9b5896ace2f09ebb936b8189fdd3
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 5274d54fb39cfbeee8ce9abd7fb738543aaacc53
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422331"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578739"
 ---
 # <a name="overview-of-security"></a>Обзор безопасности
 

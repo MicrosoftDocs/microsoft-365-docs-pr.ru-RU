@@ -20,21 +20,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как профили выставления счетов поддерживают счета-фактуры.
-ms.openlocfilehash: 2f56b9a3edbbbe14927df64bed8b699a68826c9e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7f4c0aed1bccd0e5df5b09e15e6201933e937993
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911870"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576953"
 ---
 # <a name="understand-billing-profiles"></a>Общие сведения о профилях выставления счетов
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Для коммерческих клиентов, которые покупают продукты и службы в Microsoft, профили выставления счетов могут настраивать элементы, включенные в ваш счет, и оплату счетов.
 

@@ -23,28 +23,21 @@ search.appverid:
 - MET150
 description: Научитесь добавлять и уменьшать хранение файлов в подписке Microsoft 365. С помощью дополнительного хранилища файлов можно хранить больше контента в SharePoint Online и OneDrive.
 ms.date: ''
-ms.openlocfilehash: b170924f40d517cb6bbdf8635ad3e163eadc8643
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d65677b9c078026343410b53acd48932258cb4b1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911930"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576965"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Добавление пространства для хранения для подписки
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Если у вас заканчивается нехватка хранилища для ваших семейств сайтов SharePoint Online, вы можете добавить хранилище к своей подписке, если ваш план соответствует критериям. Если в списке доступных надстройок нет хранилища дополнительных файлов **Office 365,** это означает, что ваш план не имеет права. Дополнительные сведения см. в [статью Имеет ли право мой план?](#is-my-plan-eligible-for-office-365-extra-file-storage)
 
 > [!NOTE]
 > Если вы приобрели подписку с помощью корпоративного лицензирования или CSP, вы не можете купить Дополнительные хранилища файлов **Office 365** для вашей организации напрямую у Корпорации Майкрософт. Обратитесь за помощью к представителю или партнеру.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Вы должны быть глобальным администратором или администратором SharePoint для выполнения задач в этой статье. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).
 
@@ -111,5 +104,5 @@ ms.locfileid: "50911930"
 
 ## <a name="related-content"></a>Связанные материалы
 
-[Управление ограничениями хранения сайтов](ttps://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) (статья)\
+[Управление ограничениями хранения сайтов](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) (статья)\
 Установите пространство хранения по умолчанию [для пользователей OneDrive](/onedrive/set-default-storage-space)(статья)

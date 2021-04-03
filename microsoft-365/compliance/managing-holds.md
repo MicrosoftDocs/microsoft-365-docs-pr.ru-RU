@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: Узнайте, как разместить хранения на хранителях и их источниках данных, чтобы сохранить релевантный контент для вашего дела advanced eDiscovery.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07edcb2707d1dffecfa5a2aac6c4340ac6cbe53f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 70390a933de788a6b1190e42b5087b85a175b9a2
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926377"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570593"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Управление удерживает в advanced eDiscovery
 
@@ -76,8 +76,6 @@ ms.locfileid: "50926377"
       > При нажатии кнопки **Выберите пользователей, групп** или групп, чтобы указать почтовые ящики для удержания, отображаемая выборка почтовых ящиков пуста. Это вызвано мерами по повышению скорости работы. Чтобы добавить людей в этот список, введите имя (минимум 3 символа) в поле поиска.
 
    1. **Сайты SharePoint** - Выберите **сайты** и нажмите кнопку **Выберите** сайты снова, чтобы указать сайты SharePoint и OneDrive для бизнеса, чтобы разместить на удержание. Укажите URL-адрес каждого сайта, который вы хотите поставить на удержание. Вы также можете добавить URL-адрес сайта SharePoint для группы Microsoft 365 или microsoft Team. Нажмите **кнопку Выберите,** а затем нажмите **кнопку Готово**.
-    
-      Советы по приодержите Microsoft 365 Groups и Microsoft Teams, см. в разделе **FaQ.**
 
       > [!NOTE]
       > URL-адрес учетной записи OneDrive пользователя включает основное имя пользователя (UPN) `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` (например). В редких случаях изменения upN человека url-адрес OneDrive также изменится, чтобы включить новый upN. Если учетная запись OneDrive пользователя является частью удержания, не удерживаемого, и его upN изменен, необходимо обновить удержание и указать на новый URL-адрес OneDrive. Дополнительные сведения см. в разделе [Как изменения UPN влияют на URL-адрес OneDrive](/onedrive/upn-changes).
@@ -118,7 +116,7 @@ ms.locfileid: "50926377"
 
 ## <a name="place-a-hold-on-microsoft-teams-and-office-365-groups"></a>Поместите удержание на группы Microsoft Teams и Office 365
 
-Microsoft Teams построена на Группах Office 365. Поэтому размещение их на удержание в advanced eDiscovery очень похоже. 
+Microsoft Teams построена на Группах Office 365. Поэтому размещение их на удержание в advanced eDiscovery очень похоже.
 
 - **Как сооставить дополнительный сайт Microsoft 365 Groups или Microsoft Teams с хранителями? А как насчет размещения неконтлидентального удержания в Microsoft 365 Groups и Microsoft Teams?** Microsoft Teams построена на Microsoft 365 Groups. Таким образом, размещение их на удержание в случае с электронным открытием очень похоже. При размещении групп Microsoft 365 и Microsoft Teams следует помнить о следующих вещах.
   - Чтобы разместить контент, расположенный в Microsoft 365 Groups и Microsoft Teams, необходимо указать почтовый ящик и сайт SharePoint, связанные с группой или группой.

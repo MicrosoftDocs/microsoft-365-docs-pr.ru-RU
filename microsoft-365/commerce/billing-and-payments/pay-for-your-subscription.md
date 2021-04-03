@@ -21,21 +21,14 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 44cb7b09c76ee5e49d2f556df104e55150212f30
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 582ecb0f9b46d877c30aa29334b30b9209c93993
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911786"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576941"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Оплата подписки
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Оплатить подписку можно с помощью кредитной или дебетовой карты, а также с помощью банковского счета. В некоторых случаях оплату можно оплатить с помощью счета-фактуры, используя чек или электронный платеж (EFT). При наличии профиля выставления счетов параметры будут отличаться. Дополнительные сведения см. в статье [Оплата подписки с помощью профиля выставления счетов](pay-for-subscription-billing-profile.md). Если вы не знаете, есть ли у вашей учетной записи профиль выставления счетов, см. статью [Общие сведения о профилях выставления счетов](manage-billing-profiles.md).
 

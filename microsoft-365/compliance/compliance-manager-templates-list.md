@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Compliance Manager предоставляет шаблоны для оценки зданий, которые соответствуют национальным, региональным и отраслевым нормам, стандартам и законам.
-ms.openlocfilehash: b83ad63de34217ac7c469dc784ca85644f6a5e3d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8cdeb6da09a42ad0331690b843ab4f039a5c2bf6
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922823"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570571"
 ---
 # <a name="compliance-manager-templates-list"></a>Список шаблонов диспетчера соответствия требованиям
 
@@ -60,7 +60,7 @@ ms.locfileid: "50922823"
 - NIST 800-53 Rev.4
 
 > [!NOTE]
-> Для клиентов с умеренным и высоким уровнем GCC для правительственных сообществ США в дополнение к перечисленным выше шаблонам включены шаблоны сертификации моделей зрелости кибербезопасности (CMMC) уровней от 1 до 5.
+> Для клиентов государственного сообщества США (GCC) в умеренных, GCC High и Department of Defense (DoD) включены шаблоны сертификации модели зрелости кибербезопасности (CMMC) уровней от 1 до 5, а также перечисленные выше шаблоны.
 
 ## <a name="premium-templates"></a>Шаблоны премиум-класса
 

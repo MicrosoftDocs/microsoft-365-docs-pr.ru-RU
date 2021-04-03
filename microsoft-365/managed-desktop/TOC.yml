@@ -57,23 +57,6 @@
       items:
         - name: 'Предварительные условия для компьютеров, управляемых Майкрософт'
           href: get-ready/prerequisites.md
-        - name: Подготовка сети
-          href: get-ready/network.md
-        - name: Подготовка доступа к локальным ресурсам
-          href: get-ready/authentication.md
-        - name: Подготовка подключенных дисков
-          href: get-ready/mapped-drives.md
-        - name: Подготовка сертификатов и сетевых профилей
-          href: get-ready/certs-wifi-lan.md
-        - name: Предварительные требования для гостевых учетных записей
-          href: get-ready/guest-accounts.md
-        - name: Подготовка ресурсов для печати
-          href: get-ready/printing.md
-        - name: Подготовка приложений
-          href: get-ready/apps.md
-          items:
-            - name: Работа с консультационными службами Майкрософт
-              href: get-ready/apps-MCS.md
         - name: Использование средств оценки готовности
           href: get-ready/readiness-assessment-tool.md
           items:
@@ -81,6 +64,23 @@
               href: get-ready/readiness-assessment-fix.md
             - name: Загружаемое средство проверки оценки готовности
               href: get-ready/readiness-assessment-downloadable.md
+        - name: Предварительные требования для гостевых учетных записей
+          href: get-ready/guest-accounts.md
+        - name: Подготовка сети
+          href: get-ready/network.md
+        - name: Подготовка сертификатов и сетевых профилей
+          href: get-ready/certs-wifi-lan.md
+        - name: Подготовка доступа к локальным ресурсам
+          href: get-ready/authentication.md
+        - name: Подготовка приложений
+          href: get-ready/apps.md
+          items:
+            - name: Работа с консультационными службами Майкрософт
+              href: get-ready/apps-MCS.md
+        - name: Подготовка подключенных дисков
+          href: get-ready/mapped-drives.md
+        - name: Подготовка ресурсов для печати
+          href: get-ready/printing.md
     - name: 'Начало работы с компьютерами, управляемыми Майкрософт'
       href: get-started/index.md
       items:

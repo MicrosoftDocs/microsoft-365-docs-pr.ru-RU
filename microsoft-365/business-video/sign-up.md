@@ -2,8 +2,8 @@
 title: Зарегистрив подписку на Microsoft 365 Бизнес Премиум
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как зарегистрироваться в Microsoft 365 Бизнес Премиум.
-ms.openlocfilehash: 5faf34aa1cf5afb86ee935766bd91b4c3fc92d77
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: dcc6fd42b2aab073e027135cb5e939867b2bdc9d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421825"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578619"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium-subscription"></a>Зарегистрив подписку на Microsoft 365 Бизнес Премиум
 

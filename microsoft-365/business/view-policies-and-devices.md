@@ -2,8 +2,8 @@
 title: Просмотр политик и устройств
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,32 +22,32 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: Просмотр политик и действий устройств путем входа в Microsoft 365 для бизнеса с учетными данными глобального администратора.
-ms.openlocfilehash: 49e878ae6d4e1a6c55dbd7bc65532f94295412a8
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Просмотр политик и действий устройств, во время входа в Microsoft 365 для бизнеса с глобальными учетными данными администратора.
+ms.openlocfilehash: 39d88e8fa84055e4bac62899a1b84bdf42f366a2
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470602"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578034"
 ---
-# <a name="view-and-manage-policies-and-devices"></a>Просмотр политик и устройств и управление ими
+# <a name="view-and-manage-policies-and-devices"></a>Просмотр и управление политиками и устройствами
 
-Эта статья относится к Microsoft 365 бизнес премиум.
+Эта статья применима к Microsoft 365 Бизнес Премиум.
 
 ## <a name="view-and-edit-device-policies"></a>Просмотр и изменение политик устройств
 
 1.  Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
-2. On the left nav, choose **Devices** \> **Policies**.
+2. Слева от nav выберите **политики** \> **устройств.**
 
     На этой странице можно создать, изменить, изменить целевую группу или удалить политику.
 
     ![Screenshot of the Policies page](../media/devicepolicies.png)
   
-## <a name="view-and-manage-devices"></a>Просмотр устройств и управление ими
+## <a name="view-and-manage-devices"></a>Просмотр и управление устройствами
 
-1. On the left nav, choose **Devices** \> **Manage**. 
+1. В левом nav выберите **Управление** \> **устройствами.** 
     
     На этой странице можно выбрать одно или несколько устройств и удалить данные компании. Для устройств с Windows 10, для которых уже настроены параметры защиты, также можно восстановить заводские параметры.
   
-   ![Страница "Управление устройствами"](../media/devicesmanage.png)
+   ![Управление страницей устройств](../media/devicesmanage.png)
 

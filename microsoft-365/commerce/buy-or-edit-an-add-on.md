@@ -19,21 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - Commerce
-ms.openlocfilehash: ea9cdb6edf3aaac1575b1d2b14790bd28876ee26
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b470fb727ed55ba066cd0371e2e707c72b50ae99
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911651"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576929"
 ---
 # <a name="buy-or-manage-add-ons"></a>Приобретение и управление надстройками
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Многие Microsoft 365 для бизнес-планов имеют надстройки, которые можно купить для подписки. Надстройки предоставляют дополнительные возможности для улучшения работы с подпиской.
 

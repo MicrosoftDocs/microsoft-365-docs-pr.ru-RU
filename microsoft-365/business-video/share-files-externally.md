@@ -2,8 +2,8 @@
 title: Легко обмениваться файлами за пределами бизнеса
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как легко обмениваться бизнес-файлами внешне.
-ms.openlocfilehash: cde983fee8b4dbf2d03ff8b2fac77bdf20ee2eda
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 469e4b16277b048a539767f6fc9fd54d2ea2e6cf
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421863"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578631"
 ---
 # <a name="easily-share-files-externally"></a>Простой общий доступ к файлам для людей вне организации
 

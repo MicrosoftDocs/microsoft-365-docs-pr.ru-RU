@@ -2,8 +2,8 @@
 title: Регистрация в Microsoft 365 бизнес премиум
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -26,12 +26,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, что входит в microsoft 365 Business Premium, и получите пошаговую инструкцию по регистрации на Microsoft 365 Business Premium.
-ms.openlocfilehash: 54a8e92ccced24f446e73a96f75e4aa1531a95aa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4aa1ae9ea48863434c960da69e41ffb2d3a0a89
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912517"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578114"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium"></a>Регистрация в Microsoft 365 бизнес премиум
 
@@ -42,7 +42,7 @@ ms.locfileid: "50912517"
 - **Для партнеров Корпорации** Майкрософт: Если вы партнер, см. в записи [Get Microsoft 365 Business Premium от Центра партнеров Майкрософт.](get-microsoft-365-business.md)
 - **Получите помощь в магазине Майкрософт:** перенахайм в [магазин Microsoft Store.](https://go.microsoft.com/fwlink/?linkid=2109652) Магазины Майкрософт могут помочь вам с вопросами о планах, помочь вам приобрести план, который соответствует вашим бизнес-потребностям, и помочь вам завершить настройку.
 
-**Нужно что-то другое?** Вы можете выполнить указанные ниже действия.
+**Нужно что-то другое?** Вы получаете перечисленные ниже возможности.
 - [Обновление плана Office 365 до Microsoft 365 Бизнес Премиум](migrate-to-microsoft-365-business.md).
 - [Получите бесплатную пробную](https://go.microsoft.com/fwlink/p/?linkid=2102309) версию Microsoft 365 Бизнес Премиум в течение одного месяца.
 - [Зарегистрируйтесь в Microsoft 365 Business Standard,](https://go.microsoft.com/fwlink/p/?LinkID=510935) если вам нужен план с большим количеством функций. Узнайте, что включает каждый [бизнес-план в products.office.com](https://go.microsoft.com/fwlink/?linkid=2109397).
