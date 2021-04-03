@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Узнайте, как использовать сеть доставки контента Office 365 (CDN) для ускорения доставки ресурсов SharePoint Online.
-ms.openlocfilehash: 17c80b8718ea46c9dfba9f803093974e8ce3e706
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 6819f627d3590cd2739b36cb1bc303f197d6aaa5
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222687"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570409"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>Использование сети доставки содержимого Office 365 с SharePoint Online
 
@@ -130,19 +130,29 @@ CDN извлекает ваши активы из расположения, на
 + Ресурсы, предоставляемые из общедоступного источника, доступны всем анонимно.
     > [!IMPORTANT]
     > Никогда не следует разместить ресурсы, содержащие сведения о пользователях или которые считаются конфиденциальными для организации в публичном происхождении.
+
 + Если удалить ресурс из общедоступного источника, он может оставаться доступным в кэше до 30 дней. Однако ссылки на ресурс в сети CDN станут недействительными в течение 15 минут.
+
 + При размещении таблиц стилей (CSS-файлов) в общедоступном источнике можно использовать в коде относительные пути и URI. Это означает, что вы можете ссылаться на расположение фоновых изображений и других объектов относительно расположения ресурса, который вызывает его.
-+ Хотя вы можете создать URL-адрес общего происхождения, следует действовать с осторожностью и убедиться, что вы используете свойство контекста страницы и следуйте указаниям для этого. Это связано с тем, что если сеть CDN станет недоступна, то URL-адрес не будет автоматически указывать на вашу организацию в SharePoint Online, что может привести к неработоспособности ссылок и другим ошибкам. URL-адрес также подлежит изменению, поэтому он не должен быть жестко закодироваться к текущему значению.
+
++ Хотя вы можете создать URL-адрес общего происхождения, следует действовать с осторожностью и убедиться, что вы используете свойство контекста страницы и следуйте указаниям для этого. Это связано с тем, что если сеть CDN станет недоступна, то URL-адрес не будет автоматически указывать на вашу организацию в SharePoint Online, что может привести к неработоспособности ссылок и другим ошибкам. Url-адрес также подлежит изменению, поэтому он не должен быть просто жестко закодироваться к текущему значению.
+
 + Типы файлов по умолчанию, включенные для общедоступных истоков, являются .css, .eot, .gif, .ico, .jpeg, .jpg, .js, .map, .png, .svg, .ttf, .woff и .woff2. Можно указать дополнительные типы файлов.
+
 + Можно настроить политику, чтобы исключить активы, которые были определены в классификациях сайтов, которые указаны. Например, вы можете исключать все ресурсы, отмеченные как "конфиденциальные" или "с ограниченным доступом", даже если они относятся к разрешенным типам файлов и находятся в общедоступном источнике.
 
 #### <a name="attributes-and-advantages-of-hosting-assets-in-private-origins"></a>Атрибуты и преимущества размещения активов в частном происхождении
 
 + Частные истоки можно использовать только для активов SharePoint Online.
+
 + Пользователи могут получить доступ к активам частного происхождения только в том случае, если у них есть разрешения на доступ к контейнеру. Анонимный доступ к таким ресурсам запрещен.
+
 + Активы частного происхождения должны быть переданы из клиента SharePoint Online. Прямой доступ к частным cdN-активам не работает.
+
 + Если вы удалите актив из частного происхождения, актив может оставаться доступным в течение часа из кэша; однако в течение 15 минут после удаления актива ссылки на актив в CDN будут признаны недействительными.
+
 + По умолчанию для частных источников включены типы файлов GIF, ICO, JPEG, JPG, JS и PNG. Можно указать дополнительные типы файлов.
+
 + Как и с общедоступными истоками, можно настроить политику, чтобы исключить активы, которые были определены классификациями сайтов, которые вы указываете, даже если вы используете поддиальды, чтобы включить все активы в папку или библиотеку документов.
 
 Дополнительные сведения о том, зачем использовать CDN Office 365, общие концепции CDN и другие CDN Майкрософт, которые можно использовать с клиентом Office 365, см. в статью [Content Delivery Networks.](content-delivery-networks.md)
@@ -179,13 +189,13 @@ CDN извлекает ваши активы из расположения, на
 
 Прежде чем вносить изменения в параметры CDN клиента, необходимо получить текущее состояние закрытой конфигурации CDN в клиенте Office 365. Подключение к клиенту с помощью оболочки управления SharePoint Online:
 
-``` powershell
+```powershell
 Connect-SPOService -Url https://contoso-admin.sharepoint.com
 ```
 
 Теперь используйте **комлет Get-SPOTenantCdnEnabled** для получения параметров состояния CDN у клиента:
 
-``` powershell
+```powershell
 Get-SPOTenantCdnEnabled -CdnType <Public | Private>
 ```
 
@@ -193,21 +203,21 @@ Get-SPOTenantCdnEnabled -CdnType <Public | Private>
 
 Используйте **комлет Set-SPOTenantCdnEnabled,** чтобы позволить организации использовать CDN Office 365. Вы можете включить организацию для использования общедоступных истоков, частных и одновременно обоих. Можно также настроить CDN, чтобы пропустить настройку истоков по умолчанию при его впусте. Вы всегда можете добавить эти истоки позже, как описано в этой теме.
   
-В Windows Powershell для SharePoint Online:
+В Windows PowerShell SharePoint Online:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType <Public | Private | Both> -Enable $true
 ```
 
 Например, чтобы позволить организации использовать общедоступные и частные истоки, введите следующую команду:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Both -Enable $true
 ```
 
 Чтобы позволить организации использовать как общедоступные, так и частные истоки, но пропустить настройку истоков по умолчанию, введите следующую команду:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Both -Enable $true -NoDefaultOrigins
 ```
 
@@ -215,13 +225,13 @@ Set-SPOTenantCdnEnabled -CdnType Both -Enable $true -NoDefaultOrigins
 
 Чтобы позволить организации использовать общедоступные истоки, введите следующую команду:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Public -Enable $true
 ```
 
 Чтобы позволить организации использовать частные истоки, введите следующую команду:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Private -Enable $true
 ```
 
@@ -237,19 +247,19 @@ Set-SPOTenantCdnEnabled -CdnType Private -Enable $true
 
 В Windows PowerShell SharePoint Online:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnPolicy -CdnType <Public | Private> -PolicyType IncludeFileExtensions -PolicyValue "<Comma-separated list of file types >"
 ```
 
 Например, чтобы включить CDN для хозяйских файлов .css и .png, необходимо ввести команду:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnPolicy -CdnType Private -PolicyType IncludeFileExtensions -PolicyValue "CSS,PNG"
 ```
 
 Чтобы узнать, какие типы файлов в настоящее время разрешены CDN, используйте **cmdlet Get-SPOTenantCdnPolicies:**
 
-``` powershell
+```powershell
 Get-SPOTenantCdnPolicies -CdnType <Public | Private>
 ```
 
@@ -265,13 +275,13 @@ Get-SPOTenantCdnPolicies -CdnType <Public | Private>
 
 В Windows PowerShell SharePoint Online:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnPolicy -CdnType <Public | Private> -PolicyType ExcludeRestrictedSiteClassifications  -PolicyValue "<Comma-separated list of site classifications >"
 ```
 
 Чтобы узнать, какие классификации сайтов в настоящее время ограничены, используйте см. в **рубриках Get-SPOTenantCdnPolicies:**
 
-``` powershell
+```powershell
 Get-SPOTenantCdnPolicies -CdnType <Public | Private>
 ```
 
@@ -296,13 +306,13 @@ Get-SPOTenantCdnPolicies -CdnType <Public | Private>
 > [!IMPORTANT]
 > Никогда не следует разместить ресурсы, содержащие сведения о пользователях или которые считаются конфиденциальными для организации в публичном происхождении.
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path>
 ```
 
 Значение пути _—_ это относительный путь к библиотеке или папке, которая содержит активы. Помимо относительных путей, можно использовать подстановочные знаки. Origins поддерживает подкарды, предварительно заранее заранее примыкает к URL-адресу. Это позволяет создавать истоки, охватывающие несколько сайтов. Например, чтобы включить все активы в папку masterpages для всех сайтов в качестве общедоступных в cdN, введите следующую команду:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 ```
 
@@ -313,23 +323,23 @@ Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 
 В этом примере добавляется частное происхождение библиотеки siteassets на определенном сайте:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
 В этом примере добавляется частное происхождение _папки1_ в библиотеке ресурсов сайтов коллекции сайтов:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder1
 ```
 
 Если на пути есть пробел, можно либо окружить путь двойными кавычками, либо заменить пространство url-адресом, кодировка которого составляет %20. В следующих примерах добавлено частное происхождение папки _1_ в библиотеке ресурсов сайтов коллекции сайтов:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder%201
 ```
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder 1"
 ```
 
@@ -347,13 +357,13 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
   
 + Чтобы определить библиотеку стилей как публичное происхождение, используйте смедлет **Add-SPOTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */style%20library
   ```
 
 + Для определения магистральных страниц как общедоступных страниц используйте смедлет **Add-SPOTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
   ```
 
@@ -366,19 +376,19 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 
 + Чтобы определить папку активов сайта как частное происхождение, используйте смлет **Add-SPOTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl */siteassets
   ```
 
 + Чтобы определить папку страниц сайта как частное происхождение, используйте кодлет **Add-SPOTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl */sitepages
   ```
 
 + Чтобы определить папку изображений публикации как частное происхождение, используйте кодлет **Add-SPOTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl */publishingimages
   ```
 
@@ -389,9 +399,9 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 <a name="ExamplePrivateOriginSiteCollection"> </a>
 ### <a name="example-configure-a-private-origin-for-a-site-collection-for-sharepoint-online"></a>Пример: Настройка частного происхождения для коллекции сайтов для SharePoint Online
 
-Чтобы определить коллекцию сайтов как частное происхождение, используйте смлет **Add-SPOTenantCdnOrigin.** Пример:
+Чтобы определить коллекцию сайтов как частное происхождение, используйте смлет **Add-SPOTenantCdnOrigin.** Например,
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
@@ -416,7 +426,7 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 
 Вы можете удалить доступ к папке или библиотеке SharePoint, которые были определены в качестве источника. Для этого используйте комлет **Remove-SPOTenantCdnOrigin.**
 
-``` powershell
+```powershell
 Remove-SPOTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
 ```
 
@@ -434,13 +444,13 @@ Remove-SPOTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
   
 Чтобы отключить использование общедоступных истоков в CDN, введите следующую команду:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Public -Enable $false
 ```
 
 Чтобы отключить использование личных истоков в CDN, введите следующую команду:
 
-``` powershell
+```powershell
 Set-SPOTenantCdnEnabled -CdnType Private -Enable $false
 ```
 
@@ -462,13 +472,13 @@ Set-SPOTenantCdnEnabled -CdnType Private -Enable $false
 
 Прежде чем вносить изменения в параметры CDN клиента, необходимо получить текущее состояние закрытой конфигурации CDN в клиенте Office 365. Подключение к клиенту с помощью PnP PowerShell:
 
-``` powershell
+```powershell
 Connect-PnPOnline -Url https://contoso-admin.sharepoint.com -UseWebLogin
 ```
 
 Теперь используйте **комлет Get-PnPTenantCdnEnabled** для получения параметров состояния CDN у клиента:
 
-``` powershell
+```powershell
 Get-PnPTenantCdnEnabled -CdnType <Public | Private>
 ```
 
@@ -478,19 +488,19 @@ Get-PnPTenantCdnEnabled -CdnType <Public | Private>
   
 В PnP PowerShell:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType <Public | Private | Both> -Enable $true
 ```
 
 Например, чтобы позволить организации использовать общедоступные и частные истоки, введите следующую команду:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Both -Enable $true
 ```
 
 Чтобы позволить организации использовать как общедоступные, так и частные истоки, но пропустить настройку истоков по умолчанию, введите следующую команду:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Both -Enable $true -NoDefaultOrigins
 ```
 
@@ -498,13 +508,13 @@ Set-PnPTenantCdnEnabled -CdnType Both -Enable $true -NoDefaultOrigins
 
 Чтобы позволить организации использовать общедоступные истоки, введите следующую команду:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Public -Enable $true
 ```
 
 Чтобы позволить организации использовать частные истоки, введите следующую команду:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Private -Enable $true
 ```
 
@@ -520,19 +530,19 @@ Set-PnPTenantCdnEnabled -CdnType Private -Enable $true
 
 В PnP PowerShell:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnPolicy -CdnType <Public | Private> -PolicyType IncludeFileExtensions -PolicyValue "<Comma-separated list of file types >"
 ```
 
 Например, чтобы включить CDN для хозяйских файлов .css и .png, необходимо ввести команду:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnPolicy -CdnType Private -PolicyType IncludeFileExtensions -PolicyValue "CSS,PNG"
 ```
 
 Чтобы узнать, какие типы файлов в настоящее время разрешены CDN, используйте **cmdlet Get-PnPTenantCdnPolicies:**
 
-``` powershell
+```powershell
 Get-PnPTenantCdnPolicies -CdnType <Public | Private>
 ```
 
@@ -548,13 +558,13 @@ Get-PnPTenantCdnPolicies -CdnType <Public | Private>
 
 В PnP PowerShell:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnPolicy -CdnType <Public | Private> -PolicyType ExcludeRestrictedSiteClassifications  -PolicyValue "<Comma-separated list of site classifications>"
 ```
 
 Чтобы узнать, какие классификации сайтов в настоящее время ограничены, используйте **кодлет Get-PnPTenantCdnPolicies:**
 
-``` powershell
+```powershell
 Get-PnPTenantCdnPolicies -CdnType <Public | Private>
 ```
 
@@ -579,13 +589,13 @@ Get-PnPTenantCdnPolicies -CdnType <Public | Private>
 > [!IMPORTANT]
 > Никогда не следует разместить ресурсы, содержащие сведения о пользователях или которые считаются конфиденциальными для организации в публичном происхождении.
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path>
 ```
 
 Значение пути _—_ это относительный путь к библиотеке или папке, которая содержит активы. Помимо относительных путей, можно использовать подстановочные знаки. Origins поддерживает подкарды, предварительно заранее заранее примыкает к URL-адресу. Это позволяет создавать истоки, охватывающие несколько сайтов. Например, чтобы включить все активы в папку masterpages для всех сайтов в качестве общедоступных в cdN, введите следующую команду:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 ```
 
@@ -596,23 +606,23 @@ Add-PnPTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 
 В этом примере добавляется частное происхождение библиотеки ресурсов сайта на определенном сайте:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
 В этом примере добавляется частное происхождение _папки1_ в библиотеке ресурсов сайтов коллекции сайтов:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder1
 ```
 
 Если на пути есть пробел, можно либо окружить путь двойными кавычками, либо заменить пространство url-адресом, кодировка которого составляет %20. В следующих примерах добавлено частное происхождение папки _1_ в библиотеке ресурсов сайтов коллекции сайтов:
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder%201
 ```
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder 1"
 ```
 
@@ -630,13 +640,13 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
   
 + Чтобы определить библиотеку стилей как общедоступный, используйте кодлет **Add-PnPTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Public -OriginUrl */style%20library
   ```
 
 + Для определения магистральных страниц как общедоступных страниц используйте кодлет **Add-PnPTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
   ```
 
@@ -649,19 +659,19 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 
 + Чтобы определить папку активов сайта как частное происхождение, используйте кодлет **Add-PnPTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl */siteassets
   ```
 
 + Чтобы определить папку страниц сайта как частное происхождение, используйте кодлет **Add-PnPTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl */sitepages
   ```
 
 + Чтобы определить папку изображений публикации как частное происхождение, используйте кодлет **Add-PnPTenantCdnOrigin.**
 
-``` powershell
+  ```powershell
   Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl */publishingimages
   ```
 
@@ -672,9 +682,9 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 <a name="ExamplePrivateOriginSiteCollectionPnPPosh"> </a>
 ### <a name="example-configure-a-private-origin-for-a-site-collection-for-sharepoint-online"></a>Пример: Настройка частного происхождения для коллекции сайтов для SharePoint Online
 
-Чтобы определить коллекцию сайтов как частное происхождение, используйте кодлет **Add-PnPTenantCdnOrigin.** Пример:
+Чтобы определить коллекцию сайтов как частное происхождение, используйте кодлет **Add-PnPTenantCdnOrigin.** Например,
 
-``` powershell
+```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
@@ -699,7 +709,7 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 
 Вы можете удалить доступ к папке или библиотеке SharePoint, которые были определены в качестве источника. Для этого используйте комлет **Remove-PnPTenantCdnOrigin.**
 
-``` powershell
+```powershell
 Remove-PnPTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
 ```
 
@@ -717,13 +727,13 @@ Remove-PnPTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
   
 Чтобы отключить использование общедоступных истоков в CDN, введите следующую команду:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Public -Enable $false
 ```
 
 Чтобы отключить использование личных истоков в CDN, введите следующую команду:
 
-``` powershell
+```powershell
 Set-PnPTenantCdnEnabled -CdnType Private -Enable $false
 ```
 
@@ -747,13 +757,13 @@ Set-PnPTenantCdnEnabled -CdnType Private -Enable $false
 
 Чтобы включить в клиенте общедоступную сеть CDN Office 365, выполните следующую команду:
 
-```sh
+```cli
 spo cdn set --type Public --enabled true
 ```
 
 Чтобы включить CDN SharePoint Office 365, выполните:
 
-```sh
+```cli
 spo cdn set --type Private --enabled true
 ```
 
@@ -763,7 +773,7 @@ spo cdn set --type Private --enabled true
 
 Чтобы проверить, включена ли общедоступная сеть CDN Office 365, выполните следующую команду:
 
-```sh
+```cli
 spo cdn get --type Public
 ```
 
@@ -771,7 +781,7 @@ spo cdn get --type Public
 
 Чтобы просмотреть список настроенных в данный момент общедоступных источников CDN Office 365, выполните следующую команду:
 
-```sh
+```cli
 spo cdn origin list --type Public
 ```
 
@@ -784,7 +794,7 @@ spo cdn origin list --type Public
 
 Чтобы определить источник CDN, используйте команду [spo cdn origin add](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn-origin-add/). Вы можете определить несколько источников. Источник — это URL-адрес, указывающий на библиотеку или папку в SharePoint, содержащую ресурсы, которые требуется размещать в сети CDN.
 
-```sh
+```cli
 spo cdn origin add --type [Public | Private] --origin <path>
 ```
 
@@ -792,13 +802,13 @@ spo cdn origin add --type [Public | Private] --origin <path>
 
 Чтобы включить все активы в **Галерею основных** страниц всех сайтов как общедоступные, выполните:
 
-```sh
+```cli
 spo cdn origin add --type Public --origin */masterpage
 ```
 
 Чтобы настроить частный источник для определенного семейства веб-сайтов, выполните следующую команду:
 
-```sh
+```cli
 spo cdn origin add --type Private --origin sites/site1/siteassets
 ```
 
@@ -811,7 +821,7 @@ spo cdn origin add --type Private --origin sites/site1/siteassets
 
 Чтобы удалить общедоступный источник из конфигурации CDN, выполните:
 
-```sh
+```cli
 spo cdn origin remove --type Public --origin */masterpage
 ```
 
@@ -831,7 +841,7 @@ spo cdn origin remove --type Public --origin */masterpage
 
 Чтобы добавить _тип файла JSON_ в список типов файлов по умолчанию, включенных в общедоступный CDN, выполните:
 
-```sh
+```cli
 spo cdn policy set --type Public --policy IncludeFileExtensions --value "CSS,EOT,GIF,ICO,JPEG,JPG,JS,MAP,PNG,SVG,TTF,WOFF,JSON"
 ```
 
@@ -844,7 +854,7 @@ spo cdn policy set --type Public --policy IncludeFileExtensions --value "CSS,EOT
 
 Чтобы исключить сайты, классифицируются _как HBI_ из общедоступных CDN, выполните
 
-```sh
+```cli
 spo cdn policy set --type Public --policy ExcludeRestrictedSiteClassifications --value "HBI"
 ```
 
@@ -852,7 +862,7 @@ spo cdn policy set --type Public --policy ExcludeRestrictedSiteClassifications -
 
 Чтобы отключить сеть CDN Office 365, используйте команду `spo cdn set`. Пример:
 
-```sh
+```cli
 spo cdn set --type Public --enabled false
 ```
 
@@ -890,7 +900,7 @@ spo cdn set --type Public --enabled false
 > [!NOTE]
 > В общем, не следует жестко кодировать URL-адреса непосредственно к активам в CDN. Однако при необходимости можно вручную создавать URL-адреса для активов в общедоступных источниках. Дополнительные сведения см. в [выпуске Url-адресов CDN hardcoding для общедоступных активов.](use-microsoft-365-cdn-with-spo.md)
 
-Чтобы узнать о том, как проверить, обслуживаются ли активы из CDN, см. в разделе Как подтвердить, что ресурсы обслуживаются [cdN?](use-microsoft-365-cdn-with-spo.md#CDNConfirm) в разделе Устранение неполадок в разделе [CdN Office 365.](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting)
+Чтобы узнать о том, как убедиться в том, что ресурсы обслуживаются из CDN, см. в руб. Как подтвердить, что ресурсы обслуживаются [cdN?](use-microsoft-365-cdn-with-spo.md#CDNConfirm) в деле устранения неполадок [cdN Office 365.](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting)
 
 ### <a name="using-assets-in-public-origins"></a>Использование ресурсов в общедоступных источниках
 
@@ -924,15 +934,16 @@ spo cdn set --type Public --enabled false
 
 Для общедоступных ресурсов CDN формат URL-адресов будет выглядеть следующим образом:
 
-``` html
+```http
 https://publiccdn.sharepointonline.com/<TenantHostName>/sites/site/library/asset.png
 ```
 
 Замените **TenantHostName** именем клиента. Пример.
 
-``` html
+```http
 https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library/asset.png
 ```
+
 > [!NOTE]
 > Свойство контекста страницы должно использоваться для построения префикса вместо жесткого кодирования https://publiccdn.sharepointonline.com ". URL-адрес подлежит изменению и не должен быть жестко закодироваться. Если вы используете шаблоны отображения с помощью Classic SharePoint Online, вы можете использовать свойство "window._spPageContextInfo.publicCdnBaseUrl" в шаблоне отображения для префикса URL-адреса. Если вы являетсяе веб-частями SPFx для современной и классической SharePoint, вы можете использовать свойство this.context.pageContext.legacyPageContext.publicCdnBaseUrl" (this.context.pageContext.legacyPageContext.publicCdnBaseUrl). При этом будет предоставляться префикс, чтобы если он был изменен, то реализация обновляется вместе с ним. В качестве примера для SPFx URL-адрес можно построить с помощью свойства "this.context.pageContext.legacyPageContext.publicCdnBaseUrl" + "/" + "host" + "relativeURL для элемента". См. [в тексте Использование CDN в клиентском коде,](https://youtu.be/IH1RbQlbhIA) который является частью серии производительности [1 сезона](https://aka.ms/sppnp-perfvideos)
 
@@ -951,9 +962,9 @@ https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library
 
 Доступ к активам частного происхождения в CDN Office 365 предоставляется маркерами, созданными SharePoint Online. Пользователям, у которых уже есть разрешение на доступ к папке или библиотеке, назначенной происхождением, автоматически выдают маркеры, которые позволяют пользователю получать доступ к файлу на основе уровня разрешений. Эти маркеры доступа действительны в течение 30-90 минут после их получения, чтобы предотвратить атаки повтора маркеров.
 
-После получения маркера доступа SharePoint Online возвращает клиенту настраиваемый URI, содержащий два параметра авторизации _(маркер_ авторизации края) и _овсяный_ (маркер авторизации происхождения). Структура каждого маркера —< времени действия в формате времени эпохи _>__<'secure signature'>_. Пример:
+После получения маркера доступа SharePoint Online возвращает клиенту настраиваемый URI, содержащий два параметра авторизации _(маркер_ авторизации края) и _овсяный_ (маркер авторизации происхождения). Структура каждого маркера —< времени действия в формате времени эпохи _>__<'secure signature'>_. Например,
 
-``` html
+```http
 https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/library1/folder1/image1.jpg?eat=1486154359_cc59042c5c55c90b26a2775323c7c8112718431228fe84d568a3795a63912840&oat=1486154359_7d73c2e3ba4b7b1f97242332900616db0d4ffb04312
 ```
 
@@ -1005,25 +1016,25 @@ https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/libra
 
 Вы можете проверить, какие истоки присутствуют со следующей командой PowerShell:
 
-``` powershell
+```powershell
 Get-SPOTenantCdnOrigins -CdnType Public
 ```
 
 Или вы можете проверить cLI Office 365:
 
-``` powershell
+```cli
 spo cdn origin list
 ```
 
 Чтобы добавить начало в PowerShell:
 
-``` powershell
+```powershell
 Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */CLIENTSIDEASSETS
 ```
 
 Чтобы добавить источник в CLI Office 365:
 
-``` powershell
+```cli
 spo cdn origin add --origin */CLIENTSIDEASSETS
 ```
 

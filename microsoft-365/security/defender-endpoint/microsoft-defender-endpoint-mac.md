@@ -1,8 +1,8 @@
 ---
-title: AtP Защитника Майкрософт для Mac
+title: Microsoft Defender для конечной точки для Mac
 ms.reviewer: ''
 description: Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки для Mac.
-keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, big sur, catalina, mojave
+keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, big sur, catalina, mojave, mde for mac
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34150088379445d66006c757b2c8ea607865bf4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 22d35a42eb7fb7eadbba686c292729772951c05c
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198997"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500692"
 ---
 # <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender для конечной точки для Mac
 
@@ -39,11 +39,11 @@ ms.locfileid: "51198997"
 В этом разделе описано, как установить, настроить, обновить и использовать Defender для конечной точки для Mac.
 
 > [!CAUTION]
-> Запуск других сторонних продуктов защиты конечных точек наряду с Defender for Endpoint для Mac может привести к проблемам с производительностью и непредсказуемым побочным эффектам. Если защита конечной точки от Microsoft является абсолютным требованием в вашей среде, вы можете безопасно использовать функции MDATP для Mac EDR после настройки функции MDATP для антивируса Mac для запуска в пассивном режиме [.](mac-preferences.md#enable--disable-passive-mode)
+> Запуск других сторонних продуктов защиты конечной точки наряду с Microsoft Defender для конечной точки для Mac может привести к проблемам с производительностью и непредсказуемым побочным эффектам. Если защита конечной точки не microsoft является абсолютным требованием в вашей среде, вы можете безопасно использовать функции Defender для endpoint для Mac EDR после настройки функции антивируса для запуска в пассивном [режиме.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>Новые возможности последнего выпуска
 
-[Новые возможности в Microsoft Defender для конечной точки](whats-new-in-microsoft-defender-atp.md)
+[Новые возможности Microsoft Defender для конечной точки](whats-new-in-microsoft-defender-atp.md)
 
 [Новые возможности в Microsoft Defender для конечной точки для Mac](mac-whatsnew.md)
 
@@ -54,7 +54,7 @@ ms.locfileid: "51198997"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-for-mac"></a>Установка Microsoft Defender для конечной точки для Mac
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Необходимые условия
 
 - Подписка на конечную точку Defender и доступ к порталу Центра безопасности Защитника Майкрософт
 - Опыт начального уровня в скриптах macOS и BASH

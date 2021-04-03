@@ -1,5 +1,5 @@
 ---
-title: Включить управляемый доступ к папкам
+title: Включить контролируемый доступ к папкам
 keywords: Управляемый доступ к папкам, Windows 10, защитник Windows, вымогатели, защита, файлы, папки, включить, включить, использовать
 description: Узнайте, как защитить важные файлы, включив доступ к управляемой папке
 search.product: eADQiWindows 10XVcnh
@@ -9,19 +9,19 @@ ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6d07e2a21bb01794990160cf02837fc524008098
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: ee87ac3bdfe88596a5f1625904af53499488f35f
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218764"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51571012"
 ---
-# <a name="enable-controlled-folder-access"></a>Включить управляемый доступ к папкам
+# <a name="enable-controlled-folder-access"></a>Включить контролируемый доступ к папкам
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -74,7 +74,7 @@ ms.locfileid: "51218764"
 
 4. Перейдите **к настройке Защитник Windows** доступа к  >  **управляемой** папке Exploit Guard  >    >  **Enable**.
 
-5. Введите путь к каждому приложению, которое имеет доступ к защищенным папкам, и путь к любой дополнительной папке, которая нуждается в защите. Нажмите кнопку **Добавить**.<br/> ![Включить управляемый доступ к папкам в Intune](/microsoft-365/security/defender-endpoint/images/enable-cfa-intune)<br/>
+5. Введите путь к каждому приложению, которое имеет доступ к защищенным папкам, и путь к любой дополнительной папке, которая нуждается в защите. Нажмите кнопку **Add** (Добавить).<br/> ![Включить управляемый доступ к папкам в Intune](/microsoft-365/security/defender-endpoint/images/enable-cfa-intune)<br/>
 
    > [!NOTE]
    > Wilcard поддерживается для приложений, но не для папок. Подмостки не защищены. Разрешенные приложения будут продолжать запускать события, пока они не будут перезапущены.
@@ -140,5 +140,5 @@ ms.locfileid: "51218764"
 ## <a name="see-also"></a>См. также
 
 * [Защита важных папок с управляемым доступом к папкам](controlled-folders.md)
-* [Настройка управляемого доступа к папкам](customize-controlled-folders.md)
-* [Оценка защитника Майкрософт для конечной точки](evaluate-mde.md)
+* [Настройка контролируемого доступа к папкам](customize-controlled-folders.md)
+* [Microsoft Defender для конечной точки](evaluate-mde.md)

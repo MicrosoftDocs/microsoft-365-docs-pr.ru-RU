@@ -1,5 +1,5 @@
 ---
-title: Настройка правил уменьшения поверхности атаки
+title: Настройка правил сокращения направлений атак
 description: Индивидуально устанавливайте правила в режимах аудита, блокировки или отключения, добавляйте файлы и папки, которые следует исключить из правил уменьшения поверхности атаки
 keywords: Уменьшение поверхности атаки, бедра, система предотвращения вторжения на хост, правила защиты, антиэкспозиция, антиэкспплойт, эксплойт, профилактика инфекции, настройка, настройка, исключение
 search.product: eADQiWindows 10XVcnh
@@ -8,19 +8,19 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 99a88a869c8a79f79cbc3a16fc73bf556416c51a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 52a51b1035f1aa0fb152cf17dc9561cce378d59d
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163304"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570355"
 ---
-# <a name="customize-attack-surface-reduction-rules"></a>Настройка правил уменьшения поверхности атаки
+# <a name="customize-attack-surface-reduction-rules"></a>Настройка правил сокращения направлений атак
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -116,6 +116,6 @@ ms.locfileid: "51163304"
 ## <a name="related-topics"></a>Статьи по теме
 
 * [Уменьшение поверхностей атаки с помощью правил уменьшения поверхности атаки](attack-surface-reduction.md)
-* [Включить правила уменьшения поверхности атаки](enable-attack-surface-reduction.md)
-* [Оценка правил уменьшения поверхности атаки](evaluate-attack-surface-reduction.md)
-* [FaQ уменьшения поверхности атаки](attack-surface-reduction.md)
+* [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
+* [Оценка правил сокращения направлений атак](evaluate-attack-surface-reduction.md)
+* [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction.md)

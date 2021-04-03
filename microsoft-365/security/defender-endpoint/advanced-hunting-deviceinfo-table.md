@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e86cba39663e96beffc00aa94d6cbcdf7a6e1e42
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e6a11af94a5d2b2099d14b660cf65c846532ebd1
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075102"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500836"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -41,20 +41,20 @@ ms.locfileid: "51075102"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор устройства в службе |
-| `DeviceName` | строка | Полное доменное имя (FQDN) устройства |
-| `ClientVersion` | строка | Версия агента конечной точки или датчика, запущенного на устройстве |
-| `PublicIP` | строка | Общедоступный IP-адрес, используемый на бортовом устройстве для подключения к службе Defender для конечных точек. Это может быть IP-адрес самого устройства, устройство NAT или прокси-сервер |
-| `OSArchitecture` | строка | Архитектура операционной системы, запущенной на устройстве |
-| `OSPlatform` | строка | Платформа операционной системы, запущенной на устройстве. Это указывает на определенные операционные системы, в том числе варианты в одной семье, например Windows 10 и Windows 7. |
-| `OSBuild` | строка | Сборка версии операционной системы, запущенной на устройстве |
+| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
+| `ClientVersion` | string | Версия агента конечной точки или датчика, запущенного на устройстве |
+| `PublicIP` | string | Общедоступный IP-адрес, используемый на бортовом устройстве для подключения к службе Defender для конечных точек. Это может быть IP-адрес самого устройства, устройство NAT или прокси-сервер |
+| `OSArchitecture` | string | Архитектура операционной системы, запущенной на устройстве |
+| `OSPlatform` | string | Платформа операционной системы, запущенной на устройстве. Это указывает на определенные операционные системы, в том числе варианты в одной семье, например Windows 10 и Windows 7. |
+| `OSBuild` | string | Сборка версии операционной системы, запущенной на устройстве |
 | `IsAzureADJoined` | boolean | Индикатор Boolean о том, присоединяется ли устройство к Azure Active Directory |
-| `LoggedOnUsers` | строка | Список всех пользователей, зарегистрированных на устройстве во время события в формате массива JSON |
-| `RegistryDeviceTag` | строка | Тег устройства, добавленный в реестр |
+| `LoggedOnUsers` | string | Список всех пользователей, зарегистрированных на устройстве во время события в формате массива JSON |
+| `RegistryDeviceTag` | string | Тег устройства, добавленный в реестр |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
-| `OSVersion` | строка | Версия операционной системы, запущенной на устройстве |
-| `MachineGroup` | строка | Машинная группа машины. Эта группа используется управлением доступом на основе ролей для определения доступа к машине |
+| `OSVersion` | string | Версия операционной системы, запущенной на устройстве |
+| `MachineGroup` | string | Машинная группа машины. Эта группа используется управлением доступом на основе ролей для определения доступа к машине |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-reference.md)

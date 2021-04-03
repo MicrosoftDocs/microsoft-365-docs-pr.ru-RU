@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f249fda9c7aed50d1a55d7c88fe6162e1240d665
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d23ec690194f87046e6c5f2ab859201bbf2dede9
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072662"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569807"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Что происходит в Microsoft Secure Score
 
@@ -42,6 +42,6 @@ Microsoft Secure Score можно найти в https://security.microsoft.com/s
 ## <a name="related-resources"></a>Связанные ресурсы
 
 - [Обзор результатов microsoft Secure Score](microsoft-secure-score.md)
-- [Оценка уровня безопасности](microsoft-secure-score-improvement-actions.md)
+- [Доступ к состоянию безопасности](microsoft-secure-score-improvement-actions.md)
 - [Отслеживание истории microsoft Secure Score и достижения целей](microsoft-secure-score-history-metrics-trends.md)
 - [Новые возможности](microsoft-secure-score-whats-new.md)

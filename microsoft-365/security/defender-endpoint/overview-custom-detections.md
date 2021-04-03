@@ -9,20 +9,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c5de642d2fd22301b5cef1cf3674e60529455d5e
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 20bd70653f535bb732c252224c1e6efd5cf65035
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186921"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500650"
 ---
 # <a name="custom-detections-overview"></a>Обзор настраиваемых обнаружений
 
@@ -46,4 +46,4 @@ ms.locfileid: "51186921"
 ## <a name="related-topics"></a>Статьи по теме
 - [Создание правил обнаружения](custom-detection-rules.md)
 - [Просмотр и управление правилами обнаружения](custom-detections-manage.md)
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)

@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.openlocfilehash: e1ccd4404eb94193695239def7f26ba64e70d51d
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 93e900423fcef1fd357ca50db70e250ef6082dc7
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476577"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570582"
 ---
 # <a name="configure-and-manage-microsoft-threat-experts-capabilities-through-microsoft-365-defender"></a>Настройка и управление возможностями экспертов microsoft Threat Experts с помощью Microsoft 365 Defender
 
@@ -28,7 +28,7 @@ ms.locfileid: "51476577"
 **Область применения:**
 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
 
@@ -168,4 +168,4 @@ ms.locfileid: "51476577"
 
 ## <a name="see-also"></a>См. также
 
-- [Обзор экспертов по угрозам Майкрософт](microsoft-threat-experts.md)
+- [Обзор экспертов Майкрософт по угрозам](microsoft-threat-experts.md)

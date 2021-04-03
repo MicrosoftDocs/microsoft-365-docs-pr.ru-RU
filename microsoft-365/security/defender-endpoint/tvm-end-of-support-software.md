@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7a1ee326540ec4baab19a266a4e570fd6a364306
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 29adf8a542d97a981a07dac167343f3774aa5af4
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076741"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500156"
 ---
 # <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Планирование конечных версий программного обеспечения и программного обеспечения с управлением угрозами и уязвимостью
 
@@ -74,4 +74,4 @@ End-of-support (EOS), иначе известный как end-of-life (EOL), д
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)
-- [Перечень программного обеспечения](tvm-software-inventory.md)
+- [Инвентаризация программного обеспечения](tvm-software-inventory.md)

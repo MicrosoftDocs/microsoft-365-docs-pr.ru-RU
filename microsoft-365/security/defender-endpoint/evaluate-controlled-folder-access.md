@@ -1,5 +1,5 @@
 ---
-title: Оценка доступа к управляемой папке
+title: Оценка контролируемого доступа к папкам
 description: Узнайте, как управляемый доступ к папкам помогает защитить файлы от изменения вредоносными приложениями.
 keywords: Защита от эксплойтов, Windows 10, защитник Windows, вымогателей, защита, оценка, тестирование, демонстрация, попытка
 search.product: eADQiWindows 10XVcnh
@@ -8,19 +8,19 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e965e1a882dadfb565231074165507a6727b45c1
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: f996a8fdaf630c8ea389ac9648369cc955a6e95d
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218752"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569909"
 ---
-# <a name="evaluate-controlled-folder-access"></a>Оценка доступа к управляемой папке
+# <a name="evaluate-controlled-folder-access"></a>Оценка контролируемого доступа к папкам
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -76,5 +76,5 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
 ## <a name="see-also"></a>См. также
 
 * [Защита важных папок с управляемым доступом к папкам](controlled-folders.md)
-* [Оценка защитника Майкрософт для конечной точки](evaluate-mde.md)
-* [Использование режима аудита](audit-windows-defender.md)
+* [Microsoft Defender для конечной точки](evaluate-mde.md)
+* [Использовать режим аудита](audit-windows-defender.md)

@@ -1,5 +1,5 @@
 ---
-title: Получить оценку экспозиции
+title: Получить показатель уязвимости
 description: Извлекает оценку экспозиции организации.
 keywords: apis, graph api, supported apis, get, exposure score, organizational exposure score
 search.product: eADQiWindows 10XVcnh
@@ -7,22 +7,22 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e7037e49a7f750597af15cfb16e1552aeb98859a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: c6b3f965c7abb1cb9208f0bfa157c1fd8aa3f891
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166860"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500714"
 ---
-# <a name="get-exposure-score"></a>Получить оценку экспозиции
+# <a name="get-exposure-score"></a>Получить показатель уязвимости
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -48,7 +48,7 @@ ms.locfileid: "51166860"
 Тип разрешения | Разрешение | Имя отображения разрешений
 :---|:---|:---
 Приложение | Score.Read.All | 'Read Threat and Vulnerability Management score'
-Делегированное (рабочая или учебная учетная запись) | Score.Read | 'Read Threat and Vulnerability Management score'
+Делегированные (рабочая или учебная учетная запись) | Score.Read | 'Read Threat and Vulnerability Management score'
 
 ## <a name="http-request"></a>HTTP-запрос
 
@@ -60,7 +60,7 @@ GET /api/exposureScore
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
 

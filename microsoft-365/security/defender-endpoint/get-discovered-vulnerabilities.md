@@ -1,5 +1,5 @@
 ---
-title: Обнаружение уязвимостей
+title: Получить обнаруженные уязвимости
 description: Извлекает коллекцию обнаруженных уязвимостей, связанных с данным ID устройства.
 keywords: apis, api graph, supported apis, get, list, file, information, discovered vulnerabilities, threat & vulnerability management api, mdatp tvm api
 search.product: eADQiWindows 10XVcnh
@@ -7,22 +7,22 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 08fa910c8d4c7130fdb3ed564a97cdbd2f31d233
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 73b8fe5140ff635791e7d42358024bb7fb4ee926
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166872"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570331"
 ---
-# <a name="get-discovered-vulnerabilities"></a>Обнаружение уязвимостей
+# <a name="get-discovered-vulnerabilities"></a>Получить обнаруженные уязвимости
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -48,8 +48,8 @@ ms.locfileid: "51166872"
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 :---|:---|:---
-Приложение |Vulnerability.Read.All | 'Read Threat and Vulnerability Management vulnerability information'
-Делегированное (рабочая или учебная учетная запись) | Vulnerability.Read | 'Read Threat and Vulnerability Management vulnerability information'
+Для приложений |Vulnerability.Read.All | 'Read Threat and Vulnerability Management vulnerability information'
+Делегированные (рабочая или учебная учетная запись) | Vulnerability.Read | 'Read Threat and Vulnerability Management vulnerability information'
 
 ## <a name="http-request"></a>HTTP-запрос
 
@@ -61,7 +61,7 @@ GET /api/machines/{machineId}/vulnerabilities
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
 

@@ -1,5 +1,5 @@
 ---
-title: AtP Защитника Майкрософт для Linux
+title: Microsoft Defender для конечной точки для Linux
 ms.reviewer: ''
 description: Описывает установку и использование ATP Microsoft Defender для Linux.
 keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 08bb4c73cb9df429c4b07194f1c7615f44d745d8
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: cc2f5be700395f6d88c05481d74501f4d9d92b76
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408341"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500673"
 ---
 # <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender для конечной точки для Linux
 
@@ -39,7 +39,7 @@ ms.locfileid: "51408341"
 В этом разделе описывается установка, настройка, обновление и использование Microsoft Defender для конечной точки для Linux.
 
 > [!CAUTION]
-> Запуск других сторонних продуктов защиты конечных точек наряду с Microsoft Defender для конечной точки для Linux может привести к проблемам с производительностью и непредсказуемым системным ошибкам.
+> Запуск других сторонних продуктов защиты конечной точки наряду с Microsoft Defender для конечной точки для Linux может привести к проблемам с производительностью и непредсказуемым побочным эффектам. Если защита конечной точки от Microsoft является абсолютным требованием в вашей среде, вы можете безопасно использовать функции Defender для конечной точки для Linux EDR после настройки функции антивируса для запуска в пассивном [режиме.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Установка Microsoft Defender для конечной точки для Linux
 
@@ -110,8 +110,8 @@ ms.locfileid: "51408341"
 После включения службы может потребоваться настроить сеть или брандмауэр, чтобы разрешить исходящие подключения между ней и конечными точками.
 
 - Необходимо включить структуру `auditd` аудита ().
-  >[!NOTE]
-  > События системы, запечатленные в правилах, добавляются в журналы аудита и могут повлиять на аудит хостов `audit.logs` и коллекцию upstream. События, добавленные Microsoft Defender для Endopoint для Linux, будут помечены `mdatp` ключом.
+  > [!NOTE]
+  > События системы, запечатленные правилами, добавлены в (s) и могут повлиять на аудит хостов `/etc/audit/rules.d/` `audit.log` и коллекцию upstream. События, добавленные Microsoft Defender для конечной точки для Linux, будут помечены `mdatp` ключом.
 
 ### <a name="network-connections"></a>Сетевые соединения.
 

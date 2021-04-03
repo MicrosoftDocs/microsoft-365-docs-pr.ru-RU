@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 70b20755de836d3fce2469da00bd41520e70ca57
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e97ec0c970ed767edd30419c14db8b1073da64c8
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072670"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51571036"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Отслеживание истории microsoft Secure Score и достижения целей
 
@@ -98,6 +98,6 @@ ms.locfileid: "51072670"
 ## <a name="related-resources"></a>Связанные ресурсы
 
 - [Обзор результатов microsoft Secure Score](microsoft-secure-score.md)
-- [Оценка уровня безопасности](microsoft-secure-score-improvement-actions.md)
+- [Доступ к состоянию безопасности](microsoft-secure-score-improvement-actions.md)
 - [Что вскоре появится](microsoft-secure-score-whats-coming.md)
 - [Новые возможности](microsoft-secure-score-whats-new.md)

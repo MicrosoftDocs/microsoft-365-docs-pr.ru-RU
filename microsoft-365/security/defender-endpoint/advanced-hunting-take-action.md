@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: 79d720a8b996f826548b79834e5d5c2048e28c2b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d1dbe226cef5e94b36fcd6c35b839118b200f85e
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075453"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500534"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Принять меры по расширенным результатам запроса на охоту
 
@@ -36,7 +36,7 @@ ms.locfileid: "51075453"
 - Различные действия на устройствах
 - Файлы карантина
 
-## <a name="required-permissions"></a>Необходимые разрешения
+## <a name="required-permissions"></a>Обязательные разрешения
 
 Чтобы иметь возможность действовать с помощью продвинутой охоты, вам потребуется роль в Defender для конечной точки с разрешениями на отправку действий по исправлению на [устройствах.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/user-roles#permission-options) Если вы не можете принять меры, обратитесь к глобальному администратору, чтобы получить следующее разрешение:
 
@@ -80,9 +80,9 @@ ms.locfileid: "51075453"
  
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-reference.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)
 - [Обзор настраиваемых обнаружений](overview-custom-detections.md)

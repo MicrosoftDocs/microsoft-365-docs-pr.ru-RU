@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5532e9058d7a49033f651e3fbee605e5ae39d05a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 90a124f9b0bf9ef775141e359224fde566c61c8d
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076845"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501198"
 ---
 # <a name="event-timeline---threat-and-vulnerability-management"></a>Временная шкала событий — управление угрозами и уязвимостью
 
@@ -134,8 +134,8 @@ ms.locfileid: "51076845"
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Панель мониторинга](tvm-dashboard-insights.md)
-- [Оценка экспозиции](tvm-exposure-score.md)
+- [Показатель уязвимости](tvm-exposure-score.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)
-- [Исправление уязвимостей](tvm-remediation.md)
-- [Перечень программного обеспечения](tvm-software-inventory.md)
+- [Устранение уязвимостей](tvm-remediation.md)
+- [Инвентаризация программного обеспечения](tvm-software-inventory.md)
 

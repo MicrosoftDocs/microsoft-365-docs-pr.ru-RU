@@ -1,5 +1,5 @@
 ---
-title: Оценка правил уменьшения поверхности атаки
+title: Оценка правил сокращения направлений атак
 description: Узнайте, как уменьшение поверхности атаки блокирует и предотвращает атаки с помощью настраиваемой демонстрации.
 keywords: Уменьшение поверхности атаки, бедра, система предотвращения вторжений на хост, правила защиты, антиэкспозиция, антиэкспплойт, эксплойт, профилактика инфекции, оценка, тестирование, демонстрация
 search.product: eADQiWindows 10XVcnh
@@ -8,19 +8,19 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 13b1ac5f71f2bc24ad6f52af6722e12fab935270
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 07573fd92643ce5fdf3e9140031bf5f15ae8f7aa
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075830"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570343"
 ---
-# <a name="evaluate-attack-surface-reduction-rules"></a>Оценка правил уменьшения поверхности атаки
+# <a name="evaluate-attack-surface-reduction-rules"></a>Оценка правил сокращения направлений атак
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -76,7 +76,7 @@ Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReduct
  1121 | Событие, когда правило уменьшения поверхности атаки загореется в режиме блокировки
  1122 | Событие, когда правило уменьшения поверхности атаки загореется в режиме аудита
 
-## <a name="customize-attack-surface-reduction-rules"></a>Настройка правил уменьшения поверхности атаки
+## <a name="customize-attack-surface-reduction-rules"></a>Настройка правил сокращения направлений атак
 
 Во время оценки может потребоваться настроить каждое правило по отдельности или исключить возможность оценки определенных файлов и процессов этой функцией.
 
@@ -86,4 +86,4 @@ Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReduct
 
 * [Уменьшение поверхностей атаки с помощью правил уменьшения поверхности атаки](attack-surface-reduction.md)
 * [Используйте режим аудита для оценки Защитник Windows](audit-windows-defender.md)
-* [FaQ уменьшения поверхности атаки](attack-surface-reduction.md)
+* [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction.md)

@@ -17,12 +17,12 @@ ms.custom:
 description: Администраторы могут узнать о политиках защиты от фишинга, доступных в Exchange Online Protection (EOP) и Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 64defeaa1e8cf4a08610742571a01ea527163d14
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 44472d49936f400ee16227f3f29141738ad28daa
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205624"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51571024"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "51205624"
 
 Политики настройки параметров защиты от фишинга доступны в организациях Microsoft 365 с почтовыми ящиками Exchange Online, автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online и Microsoft Defender для организаций Office 365.
 
-Политики защиты от фишинга в Microsoft Defender для Office 365 доступны только в организациях, имеющих Defender для Office 365. Пример.
+Политики защиты от фишинга в Microsoft Defender для Office 365 доступны только в организациях, имеющих Defender для Office 365. Например,
 
 - Microsoft 365 Enterprise E5, Microsoft 365 Education A5 и т. д.
 - [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -93,7 +93,7 @@ ms.locfileid: "51205624"
 
 ## <a name="spoof-settings"></a>Параметры Spoof
 
-Спуфинг — это когда адрес From в сообщении электронной почты (адрес отправитель, который показывается в клиентах электронной почты) не соответствует домену источника электронной почты. Дополнительные сведения о подмене см. в сайте [Anti-spoofing protection in Microsoft 365.](anti-spoofing-protection.md)
+Спуфинг — это когда адрес From в сообщении электронной почты (адрес отправитель, показанный в клиентах электронной почты) не соответствует домену источника электронной почты. Дополнительные сведения о подмене см. в сайте [Anti-spoofing protection in Microsoft 365.](anti-spoofing-protection.md)
 
 Следующие параметры подмены доступны в политиках защиты от фишинга в EOP и Microsoft Defender для Office 365:
 

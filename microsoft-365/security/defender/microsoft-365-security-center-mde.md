@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: b580c6f20ed3b242fc0bc239a49fe89ccc09d013
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 5f90e9f666e2befcfcee5ec424327228b2d1ad11
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199199"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569887"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Защитник Microsoft для конечной точки в центре безопасности Microsoft 365
 
@@ -94,7 +94,7 @@ Microsoft Defender для конечной точки в центре безоп
 |---------|---------|
 | Отчеты  | См. отчеты о конечных точках и &, включая защиту от угроз, здоровье и соответствие требованиям устройств, а также уязвимые устройства. |
 | Здравоохранение  |  В настоящее время ссылки на страницу "Здоровье службы" в центре администрирования [Microsoft 365.](https://admin.microsoft.com/) |
-| Settings |  Управление настройками центра безопасности Microsoft 365, Защитника Microsoft 365, конечных точек, электронной почты & совместной работы, удостоверений и обнаружения устройств.   |
+| Параметры |  Управление настройками центра безопасности Microsoft 365, Защитника Microsoft 365, конечных точек, электронной почты & совместной работы, удостоверений и обнаружения устройств.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Навигация и возможности безопасности Microsoft 365
 

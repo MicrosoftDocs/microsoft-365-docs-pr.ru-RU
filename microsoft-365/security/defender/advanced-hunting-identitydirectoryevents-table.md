@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ba63bdeb215c24e68d0e507d99e026c5b2695cb0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 73018bb65c011d10234ec9c02fc61bfb93fa125a
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076365"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501129"
 ---
 # <a name="identitydirectoryevents"></a>IdentityDirectoryEvents
 
@@ -46,32 +46,32 @@ ms.locfileid: "51076365"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
 | `ActionType` | string | Тип действий, которые вызвали событие. Подробные [сведения см. в](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) справке по схеме на портале |
-| `Application` | строка | Приложение, которое выполнило записанную акцию |
-| `TargetAccountUpn` | строка | Основное имя пользователя (UPN) учетной записи, к |
-| `TargetAccountDisplayName` | строка | Отображение имени учетной записи, к которую было применено записанное действие |
-| `TargetDeviceName` | строка | Полное доменное имя (FQDN) устройства, на которое было применено записанное действие |
-| `DestinationDeviceName` | строка | Имя устройства под управлением серверного приложения, обрабатываемого записанным действием |
-| `DestinationIPAddress` | строка | IP-адрес устройства под управлением серверного приложения, обработав записанное действие |
-| `DestinationPort` | строка | Порт назначения действия |
-| `Protocol` | строка | Протокол, используемый во время связи |
-| `AccountName` | строка | Имя пользователя учетной записи |
-| `AccountDomain` | строка | Домен учетной записи |
-| `AccountUpn` | строка | Основное имя пользователя (UPN) учетной записи |
-| `AccountSid` | строка | Идентификатор безопасности (SID) учетной записи |
-| `AccountObjectId` | строка | Уникальный идентификатор учетной записи в Azure Active Directory |
-| `AccountDisplayName` | строка | Имя пользователя учетной записи, отображаемого в адресной книге. Как правило, сочетание данной или имени, среднего посвящения и фамилии или фамилии. |
-| `DeviceName` | строка | Полное доменное имя (FQDN) устройства |
-| `IPAddress` | строка | IP-адрес, присвоенный устройству во время связи |
-| `Port` | строка | Порт TCP, используемый во время связи |
-| `Location` | строка | Город, страна или другое географическое расположение, связанное с событием |
-| `ISP` | строка | Поставщик интернет-услуг, связанный с IP-адресом |
+| `Application` | string | Приложение, которое выполнило записанную акцию |
+| `TargetAccountUpn` | string | Основное имя пользователя (UPN) учетной записи, к |
+| `TargetAccountDisplayName` | string | Отображение имени учетной записи, к которую было применено записанное действие |
+| `TargetDeviceName` | string | Полное доменное имя (FQDN) устройства, на которое было применено записанное действие |
+| `DestinationDeviceName` | string | Имя устройства под управлением серверного приложения, обрабатываемого записанным действием |
+| `DestinationIPAddress` | string | IP-адрес устройства под управлением серверного приложения, обработав записанное действие |
+| `DestinationPort` | string | Порт назначения действия |
+| `Protocol` | string | Протокол, используемый во время связи |
+| `AccountName` | string | Имя пользователя учетной записи |
+| `AccountDomain` | string | Домен учетной записи |
+| `AccountUpn` | string | Основное имя пользователя (UPN) учетной записи |
+| `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
+| `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure Active Directory |
+| `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемого в адресной книге. Как правило, сочетание данной или имени, среднего посвящения и фамилии или фамилии. |
+| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
+| `IPAddress` | string | IP-адрес, присвоенный устройству во время связи |
+| `Port` | string | Порт TCP, используемый во время связи |
+| `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
+| `ISP` | string | Поставщик интернет-услуг, связанный с IP-адресом |
 | `ReportId` | long | Уникальный идентификатор события |
-| `AdditionalFields` | строка | Дополнительные сведения об объекте или событии |
+| `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
+- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)

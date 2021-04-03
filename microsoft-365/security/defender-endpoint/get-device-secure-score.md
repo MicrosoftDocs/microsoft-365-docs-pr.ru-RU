@@ -1,5 +1,5 @@
 ---
-title: Оценка безопасности устройства
+title: Получить оценку безопасности устройства
 description: Извлекает безопасную оценку для устройства организации.
 keywords: apis, graph api, supported apis, get, alerts, recent
 search.product: eADQiWindows 10XVcnh
@@ -7,22 +7,22 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 921334c937e3f211b032a5d24d4244d9a6fb3d61
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: db4682d0d2fccd7504eb46d9099a9783408cfb73
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166884"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570940"
 ---
-# <a name="get-device-secure-score"></a>Оценка безопасности устройства
+# <a name="get-device-secure-score"></a>Получить оценку безопасности устройства
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,8 +47,8 @@ ms.locfileid: "51166884"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Приложение |   Score.Read.Alll |   'Read Threat and Vulnerability Management score'
-Делегированное (рабочая или учебная учетная запись) | Score.Read | 'Read Threat and Vulnerability Management score'
+Для приложений |   Score.Read.Alll |   'Read Threat and Vulnerability Management score'
+Делегированные (рабочая или учебная учетная запись) | Score.Read | 'Read Threat and Vulnerability Management score'
 
 ## <a name="http-request"></a>HTTP-запрос
 
@@ -60,7 +60,7 @@ GET /api/configurationScore
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
 

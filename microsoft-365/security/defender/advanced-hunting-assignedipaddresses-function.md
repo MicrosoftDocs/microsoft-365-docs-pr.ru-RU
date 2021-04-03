@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3760ff84e6abfbe05d9e4605d64087d0077300e3
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: be638141e205946be18d6a718470e7b92b18b1e7
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071637"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500410"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -42,8 +42,8 @@ ms.locfileid: "51071637"
 | Column | Тип данных | Описание |
 |------------|-------------|-------------|
 | `Timestamp` | datetime | Последний раз, когда устройство было замечено с помощью IP-адреса |
-| `IPAddress` | строка | IP-адрес, используемый устройством |
-| `IPType` | строка | Указывает, является ли IP-адрес общедоступным или частным. |
+| `IPAddress` | string | IP-адрес, используемый устройством |
+| `IPType` | string | Указывает, является ли IP-адрес общедоступным или частным. |
 | `NetworkAdapterType` | int | Тип сетевого адаптер, используемый устройством, которое было назначено IP-адресу. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.networkinterfacetype) |
 | `ConnectedNetworks` | int | Сети, к которые подключен адаптер с заявляемом IP-адресом. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
 
@@ -82,6 +82,6 @@ AssignedIPAddresses(DeviceName, Date)
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

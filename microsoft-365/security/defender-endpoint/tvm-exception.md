@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c8ad69930ce4faecbffbc6d2fab59bbe2cac06fa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 13ac09b1ad918ed945edec6167fd57ea02b616ea
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071805"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500185"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Создание и просмотр исключений для рекомендаций по безопасности — управление угрозами и уязвимостью
 
@@ -141,7 +141,7 @@ ms.locfileid: "51071805"
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
-- [Исправление уязвимостей](tvm-remediation.md)
+- [Устранение уязвимостей](tvm-remediation.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)
-- [Оценка экспозиции](tvm-exposure-score.md)
-- [Microsoft Secure Score для устройств](tvm-microsoft-secure-score-devices.md)
+- [Показатель уязвимости](tvm-exposure-score.md)
+- [Оценка безопасности (Майкрософт) для устройств](tvm-microsoft-secure-score-devices.md)

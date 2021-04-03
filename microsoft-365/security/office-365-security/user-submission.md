@@ -17,12 +17,12 @@ ms.collection:
 description: Администраторы могут научиться настраивать почтовый ящик для сбора нежелательной почты и фишинга, о которых сообщают пользователи.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d3f2640752f2dae152ef4be8b9ac2d2996c802a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d86c79f0f0ab74d1dfbb88e7803f4ee4d691ea73
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206056"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501182"
 ---
 # <a name="user-submissions-policy"></a>Политика отправки пользователей
 
@@ -119,6 +119,9 @@ ms.locfileid: "51206056"
 
         > [!NOTE]
         > Правительственные организации США (GCC, GCC-H и DoD) могут настраивать только **настраиваемый почтовый ящик.** Два других параметра отключены.
+
+        > [!NOTE]
+        > Если организации настроены на отправку только в настраиваемый почтовый ящик, сообщения не будут отправляться на rescan и результаты на портале сообщений пользователя всегда будут пустыми.
 
       Когда вы закончите, нажмите кнопку **Подтвердить**.
 

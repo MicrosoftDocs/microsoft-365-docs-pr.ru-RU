@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создайте оценки в Microsoft Compliance Manager, чтобы вы могли соответствовать требованиям правил и сертификаций, которые важны для вашей организации.
-ms.openlocfilehash: ff2aa41b91f3cb019dbed542c422d61c79c4ecb5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b8051a036f2ffda2f3a2840880318466a2ec71af
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908599"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500637"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>Создание и управление оценками в диспетчере соответствия требованиям
 
@@ -53,7 +53,7 @@ ms.locfileid: "50908599"
 3. [Создайте собственную настраиваемую оценку.](#create-your-own-custom-assessment)
 
 > [!NOTE]
-> Создавать и изменять оценки могут только пользователи, которые занимают роль глобального администратора или администратора соответствия требованиям. Дополнительные новости [о ролях и разрешениях.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
+> Создавать и изменять оценки могут только пользователи, которые занимают роль глобального администратора, администратора соответствия требованиям или руководителя по оценке соответствия требованиям. Дополнительные новости [о ролях и разрешениях.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
 
 **Использование предварительной оценки**
 

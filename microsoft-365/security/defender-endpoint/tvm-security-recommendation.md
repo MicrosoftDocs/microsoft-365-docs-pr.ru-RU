@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1bc8fb7dad16d141d6da3efc55200fce40a76900
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 97d496271c1ef7185419f7d39956da0429f070aa
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072869"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500489"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>Рекомендации по безопасности — управление угрозами и уязвимостью
 
@@ -159,12 +159,12 @@ ms.locfileid: "51072869"
 
 4. Выберите **Отправить**. Ваши отзывы немедленно отправляются специалистам по управлению угрозами и уязвимостями.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Панель мониторинга](tvm-dashboard-insights.md)
-- [Оценка экспозиции](tvm-exposure-score.md)
-- [Microsoft Secure Score для устройств](tvm-microsoft-secure-score-devices.md)
-- [Исправление уязвимостей](tvm-remediation.md)
+- [Показатель уязвимости](tvm-exposure-score.md)
+- [Оценка безопасности (Майкрософт) для устройств](tvm-microsoft-secure-score-devices.md)
+- [Устранение уязвимостей](tvm-remediation.md)
 - [Создание и просмотр исключений для рекомендаций по безопасности](tvm-exception.md)
-- [Временная шкала событий](threat-and-vuln-mgt-event-timeline.md)
+- [Временная шкала события](threat-and-vuln-mgt-event-timeline.md)

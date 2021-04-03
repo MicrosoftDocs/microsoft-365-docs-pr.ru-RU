@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ea0990e5f30aa45ec48bb2e6a7c957c187c74ebb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: d970ac1a28c62703f648e4fbf6f66e2f825a6188
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922948"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574623"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Приложения на компьютерах, управляемых Майкрософт
 
@@ -75,3 +76,16 @@ ms.locfileid: "50922948"
 ## <a name="deploying-apps"></a>Развертывание приложений
 
 Независимо от метода, используемого для упаковки приложений, после завершения выполнения вы будете готовы следовать шагам в развертывании приложений на [устройствах Microsoft Managed Desktop.](../get-started/deploy-apps.md)
+
+
+## <a name="steps-to-get-ready"></a>Действия, которые необходимо сделать, чтобы быть готовыми
+
+1. Просмотрите [необходимые условия для управляемого рабочего стола Майкрософт.](prerequisites.md)
+2. Используйте [средства оценки готовности.](readiness-assessment-tool.md)
+3. [Предварительные требования для гостевых учетных записей](guest-accounts.md)
+4. [Конфигурация сети для компьютеров, управляемых Майкрософт](network.md)
+5. [Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт](certs-wifi-lan.md)
+6. [Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт](authentication.md)
+7. [Приложения в Microsoft Managed Desktop](apps.md) (Эта статья)
+8. [Подготовка подключенных дисков для компьютеров, управляемых Майкрософт](mapped-drives.md)
+9. [Подготовка ресурсов печати для компьютеров, управляемых Майкрософт](printing.md)
