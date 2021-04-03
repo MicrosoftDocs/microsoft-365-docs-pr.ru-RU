@@ -2,8 +2,8 @@
 title: Получение справки или поддержки
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как получить помощь или поддержку администратора в Microsoft 365 Business Premium.
-ms.openlocfilehash: 852b931f4710ad4117560485002ebe10ef97d3ad
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 016e31ea12f1efeb50597cdb34391d324dc0f58d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422583"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580598"
 ---
 # <a name="get-help-or-support"></a>Получение справки или поддержки
 

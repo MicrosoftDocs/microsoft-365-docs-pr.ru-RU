@@ -2,8 +2,8 @@
 title: Настройка отчетов в аналитике использования Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Научитесь настраивать отчеты в браузере и Power BI Desktop.
-ms.openlocfilehash: d36e07a19b0ebda0d154b11723630e38b746eb8d
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 0ef2364c82318dfea93e8df4e64d53a66caa8d74
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471093"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580778"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Настройка отчетов в аналитике использования Microsoft 365
 

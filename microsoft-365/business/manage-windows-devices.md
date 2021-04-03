@@ -2,8 +2,8 @@
 title: Включить устройства Windows 10 с помощью домена, управляемые Microsoft 365 для бизнеса
 f1.keywords:
 - CSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как включить Microsoft 365 для защиты локальных устройств с Windows 10 с помощью Active-Directory всего за несколько шагов.
-ms.openlocfilehash: 82d4ac3f1d6aba9489f9ea153de3a3d2083b47ec
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8a45c6959bee368491c5c6424e3713300c443779
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913201"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580141"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Включить устройства с windows 10 с помощью домена, управляемые Microsoft 365 Business Premium
 

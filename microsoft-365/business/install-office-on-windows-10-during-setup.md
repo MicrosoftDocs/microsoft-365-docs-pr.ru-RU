@@ -2,8 +2,8 @@
 title: Установка Office на устройствах с Windows 10 во время настройки службы
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -25,18 +25,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Узнайте, как с помощью Microsoft 365 бизнес премиум вы можете автоматически убедиться, что у пользователей есть последняя версия Office на всех устройствах с Windows 10.
-ms.openlocfilehash: 1ca386f75743178aebaf0bfabbabcb74f4813685
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Узнайте, как с помощью Microsoft 365 Бизнес Премиум вы можете автоматически убедиться, что у пользователей есть последняя версия Office на всех устройствах с Windows 10.
+ms.openlocfilehash: d3c62eb42ea73c7af6df6012dbc9488828cd1ba8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400845"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580181"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Установка Office на устройствах с Windows 10 во время настройки службы
 
-![Баннер, на который указывают https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
+![Баннер, на который https://aka.ms/aboutM365preview указывают .](../media/m365admincenterchanging.png)
 
-По умолчанию этот параметр отключен. Вы можете включить его, чтобы убедиться, что на всех устройствах с Windows 10 у пользователей есть последняя версия Office, но сначала убедитесь, что выполнены все необходимые условия. Для этого параметра пользователи должны иметь лицензию на Microsoft 365 бизнес премиум, чтобы перенажать программное обеспечение на устройство в дополнение к другим требованиям, описанным в подготовьтесь к развертыванию клиента Office с помощью [Microsoft 365 бизнес премиум.](prepare-for-office-client-deployment.md)
+Этот параметр отключен по умолчанию. Вы можете включить его, чтобы убедиться, что пользователи имеют последнюю версию Office на всех своих устройствах с Windows 10, но сначала убедитесь, что все необходимые условия выполнены. Пользователи должны иметь лицензию для Microsoft 365 Бизнес Премиум для этого параметра, чтобы нажать программное обеспечение на устройство, в дополнение к другим требованиям, описанным в подготовке к развертыванию клиента Office Microsoft [365 Бизнес Премиум](prepare-for-office-client-deployment.md).
   
 Рекомендуется принять параметр по умолчанию во время установки.

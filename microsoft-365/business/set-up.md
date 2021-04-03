@@ -2,8 +2,8 @@
 title: Настройка Microsoft 365 бизнес премиум
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Откройте для себя этапы настройки для Microsoft 365 Business Premium, включая добавление домена и пользователей, настройку политик безопасности и т. д.
-ms.openlocfilehash: a06fb48ef5e1386a5c7b4df08500125f37943df6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c8e2ca94f4947d4f9c69915d2fef410a6075bfed
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198449"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579921"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 Бизнес Премиум в мастере установки
 

@@ -2,8 +2,8 @@
 title: Повышение защиты от угроз для Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Настройка Microsoft Defender для Office 365 и защита конфиденциальных данных от фишинга, вредоносных программ и других угроз.
-ms.openlocfilehash: 6526ed9a849e83f19f74656004978089ce367ea9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8fb2c3881876cabea6d8907a85bc9397212126dc
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198398"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580201"
 ---
 # <a name="increase-threat-protection"></a>Улучшение защиты от угроз
 
@@ -81,7 +81,7 @@ ms.locfileid: "51198398"
 
 6. Нажмите **Сохранить**.
 
-|Параметр|Предупреждение пользователей перед открытием вложений файлов Office||
+|Setting|Предупреждение пользователей перед открытием вложений файлов Office||
 |---|---|---|
 |Имя|Правило по борьбе с вымогателями: предупредить пользователей|
 |Применить это правило, если . . .|Любое вложение . . . Совпадения расширения файлов . . .|
@@ -113,7 +113,7 @@ ms.locfileid: "51198398"
 
 6. Нажмите **Сохранить**.
 
-|Параметр|Предупреждение пользователей перед открытием вложений файлов Office|
+|Setting|Предупреждение пользователей перед открытием вложений файлов Office|
 |---|---|
 |Имя|Предотвращение автоматической отправки электронной почты во внешние домены|
 |Применить это правило, если ...|Отправитель . . . внешний/внутренний . . . Внутри организации|

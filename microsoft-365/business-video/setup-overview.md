@@ -2,8 +2,8 @@
 title: Обзор установки Microsoft 365 Бизнес Премиум
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, что необходимо для настройка Microsoft 365 Бизнес Премиум.
-ms.openlocfilehash: ac13ab8a932c76c000873866a7feae3b6b0c9d7f
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 70d0bf00afaa1a504097ac80598f9c1b1a184b05
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421899"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580406"
 ---
 # <a name="overview-of-microsoft-365-business-premium-setup"></a>Обзор установки Microsoft 365 Бизнес Премиум
 

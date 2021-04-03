@@ -2,8 +2,8 @@
 title: Перемещение файлов в OneDrive для бизнеса
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,17 +23,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Узнайте, как переместить личные и конфиденциальные файлы компании в OneDrive для бизнеса всего за несколько простых действий.
-ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Узнайте, как переместить личные файлы и конфиденциальные файлы компании в OneDrive для бизнеса всего за несколько простых действий.
+ms.openlocfilehash: d6bcf2b41f1052c521fda50557aac4bf6a3800fa
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785919"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580081"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Перемещение файлов в OneDrive для бизнеса
 
-Посмотрите короткое видео о перемещении файлов в OneDrive для бизнеса.<br><br>
+Просмотрите короткое видео о перемещении файлов в OneDrive для бизнеса.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
@@ -44,7 +44,7 @@ ms.locfileid: "44785919"
 
 Если на компьютере пользователя хранится множество личных файлов, вам следует сначала переместить их в OneDrive для бизнеса.
   
-1. Перейдите portal.office.com и войдите с помощью учетных данных Пользователя в Microsoft 365 для бизнеса.
+1. Перейдите portal.office.com и войдите в microsoft 365 пользователя для бизнес-учетных данных.
 
 2. Откройте средство запуска приложений ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) и выберите OneDrive. 
     
@@ -52,6 +52,6 @@ ms.locfileid: "44785919"
     
 Для передачи профиля пользователя и важных данных также можно использовать сторонние программы, например ForensiT. Итоговые файлы тоже нужно добавить в OneDrive для бизнеса.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Подробнее о настройке и использовании Microsoft 365 для бизнеса
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Дополнительные дополнительные работы по настройке и использованию Microsoft 365 для бизнеса
 
 [Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
