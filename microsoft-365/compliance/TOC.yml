@@ -710,6 +710,8 @@
               href: download-documents-from-review-set.md
             - name: Экспорт документов из набора для проверки
               href: export-documents-from-review-set.md
+            - name: Экспорт документов в учетную запись службы хранилища Azure
+              href: download-export-jobs.md
         - name: Управление заданиями
           href: managing-jobs-ediscovery20.md
         - name: Настройка параметров дела
