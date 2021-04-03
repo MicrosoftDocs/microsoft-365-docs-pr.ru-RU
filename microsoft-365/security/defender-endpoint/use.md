@@ -1,5 +1,5 @@
 ---
-title: Обзор Центра безопасности Защитника Майкрософт
+title: Обзор Центра безопасности Microsoft Defender
 description: Узнайте об особенностях центра безопасности Microsoft Defender, включая работу оповещений, а также рекомендации по расследованию возможных нарушений и атак.
 keywords: панель мониторинга, оповещения очереди, управление оповещениями, расследование, расследование оповещений, исследование устройств, отправка файлов, глубокий анализ, высокая, средняя, низкая, серьезность, ioc, ioa
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b490159d12bebdb95b6f168671393f8939da33be
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ee6fd4bd8d60f828bb474fc80cb987f4f94edcbe
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076710"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581098"
 ---
-# <a name="overview-of-microsoft-defender-security-center"></a>Обзор Центра безопасности Защитника Майкрософт
+# <a name="overview-of-microsoft-defender-security-center"></a>Обзор Центра безопасности Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -46,7 +46,7 @@ ms.locfileid: "51076710"
 ## <a name="microsoft-defender-for-endpoint-interactive-guide"></a>Интерактивное руководство Microsoft Defender для конечной точки
 В этом интерактивном руководстве вы узнаете, как исследовать угрозы для организации с помощью Microsoft Defender для конечной точки. Вы увидите, как Microsoft Defender для конечной точки может помочь вам выявлять подозрительные действия, исследовать риски для организации и устранять угрозы.
 
-> [!VIDEO https://aka.ms/MSDE-IG]
+[Ознакомьтесь с интерактивным руководством](https://aka.ms/MSDE-IG)
 
 ### <a name="in-this-section"></a>В этом разделе
 

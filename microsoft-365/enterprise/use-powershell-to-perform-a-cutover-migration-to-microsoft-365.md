@@ -1,7 +1,7 @@
 ---
 title: Прямая миграция в Microsoft 365 с помощью PowerShell
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -15,16 +15,16 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: b468cb4b-a35c-43d3-85bf-65446998af40
 description: Узнайте, как использовать PowerShell для перемещения контента из системы электронной почты из источника одновременно, выполняя переход на переход в Microsoft 365.
-ms.openlocfilehash: 60bd3cb246e04aba37be06f7a951abbf25708412
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6e59ac4d590208e0faed22e94cabe05601b17f18
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924808"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581062"
 ---
 # <a name="use-powershell-to-perform-a-cutover-migration-to-microsoft-365"></a>Прямая миграция в Microsoft 365 с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Вы можете перенести содержимое почтовых ящиков пользователей из системы исходных сообщений электронной почты в Microsoft 365 одновременно с помощью переноса нареза. В этой статье описаны задачи, которые выполняются при прямой миграции электронной почты с помощью Exchange Online PowerShell.
 

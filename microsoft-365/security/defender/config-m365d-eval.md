@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8bb80e032fd2eb4c618b60f4ab46829d5cf11b6d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9b192a029704d1354867b169efdf0d489345030e
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199233"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580970"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Настройка столбов Microsoft 365 Defender для пробной лаборатории или пилотной среды
 
@@ -39,7 +39,7 @@ ms.locfileid: "51199233"
 
 Создание пробной лаборатории или пилотной среды Microsoft 365 Defender и ее развертывание — это трех этапный процесс:
 
-|[![Этап 1. Подготовка](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Этап 1. Подготовка](prepare-m365d-eval.md) |[![Этап 2. Настройка](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Этап 2. Настройка](setup-m365deval.md) |![Этап 3. На борту](../../media/phase-diagrams/onboard.png)<br/>Этап 3. На борту | [![Назад к пилоту](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Вернуться к экспериментальной книге воспроизведения](m365d-pilot.md) |
+|[![Этап 1. Подготовка](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Этап 1. Подготовка](prepare-m365d-eval.md) |[![Этап 2. Настройка](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Этап 2. Настройка](setup-m365deval.md) |![Этап 3. Подключение](../../media/phase-diagrams/onboard.png)<br/>Этап 3. Подключение | [![Назад к пилоту](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Вернуться к экспериментальной книге воспроизведения](m365d-pilot.md) |
 |--|--|--|--|
 || |*Вы здесь!* | |
 
@@ -285,8 +285,7 @@ Microsoft 365 Defender состоит из четырех столпов. Хот
 
 Поздравляем! Вы только что создали пробную лабораторию Или пилотную среду Microsoft 365 Defender! Теперь вы можете ознакомиться с пользовательским интерфейсом Microsoft 365 Defender! Узнайте, что можно узнать из следующего интерактивного руководства Microsoft 365 Defender и узнайте, как использовать каждую панель мониторинга для выполнения задач ежедневной работы с безопасностью.
 
-
->[!VIDEO https://aka.ms/MTP-Interactive-Guide]
+[Ознакомьтесь с интерактивным руководством](https://aka.ms/MTP-Interactive-Guide)
 
 Далее можно смоделировать атаку и увидеть, как возможности кросс-продукта обнаруживают, создают оповещения и автоматически реагируют на без файловую атаку на конечной точке.
 

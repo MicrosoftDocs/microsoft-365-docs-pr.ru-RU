@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут узнать, как использовать портал Отправки в Центре соответствия требованиям & безопасности для отправки подозрительных сообщений электронной почты, подозрительных фишинговых сообщений, нежелательной почты и других потенциально вредных сообщений, URL-адресов и файлов в Корпорацию Майкрософт для сканирования.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6f1294335be5a82ef7219ef9096d84d840271c5b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 96a5469b1093c71997747b2c4c3b49bc1964f72b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499333"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581074"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Использование функции отправки администратором для отправки подозрительного спама, фишинговых сообщений, URL-адресов и файлов в корпорацию Майкрософт
 
@@ -55,7 +55,7 @@ ms.locfileid: "51499333"
 
 - Чтобы отправить сообщения и файлы в Корпорацию Майкрософт, необходимо быть членом одной из следующих групп ролей:
 
-  - **Управление организацией** или **Администратор безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+  - **Управление организацией** или **чтение** безопасности в Центре [& безопасности](permissions-in-the-security-and-compliance-center.md).
 
   - **Управление организацией** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 

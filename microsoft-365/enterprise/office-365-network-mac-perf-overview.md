@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Обзор сетевого подключения в Центре администрирования Microsoft 365 (предварительный просмотр)
-ms.openlocfilehash: 2b80dd001bd2ee5d5725ea67c73aa34b4eb8816c
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: dd97a6d5cc9662f01854e1432660784358bce7b8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408409"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581134"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Подключение к сети в Центре администрирования Microsoft 365 (предварительный просмотр)
 
@@ -205,6 +205,10 @@ Microsoft имеет существующие сетевые измерения 
 ### <a name="what-is-an-internet-egress-location"></a>Что такое расположение egress Интернета?
 
 Расположение выхода из Интернета — это расположение, в котором сетевой трафик выходит из корпоративной сети и подключается к Интернету. Это также определено как место, где у вас есть устройство сетевого перевода адресов (NAT) и обычно, где вы подключаетсяе к поставщику интернет-служб (ISP). Если вы видите расстояние между расположением и расположением отступа к Интернету, это может указывать на значительный откат WAN.
+
+### <a name="what-license-is-needed-for-this-capability"></a>Какая лицензия нужна для этой возможности?
+
+Требуется лицензия, которая предоставляет доступ к центру администрирования Microsoft 365.
 
 ## <a name="related-topics"></a>Статьи по теме
 

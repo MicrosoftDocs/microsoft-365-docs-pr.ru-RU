@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5b5fb7185bb696bb6daae0a67a209cf3f7e77655
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: fcfddadf13e000156fa5431cc30bc72f4f3537e2
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924568"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581050"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Предварительные условия для компьютеров, управляемых Майкрософт
 
@@ -47,7 +48,7 @@ Microsoft 365 | OneDrive для бизнеса должен быть включ
 - Microsoft Intune 
 - Windows 10 Корпоративная  
 - Microsoft Defender для конечной точки
-- Приложения Microsoft 365 для предприятий
+- Приложения Microsoft 365 для предприятий
 - Microsoft Teams
 - [SharePoint Online (план 2)](https://www.microsoft.com/microsoft-365/sharepoint/compare-sharepoint-plans)
 - [Exchange Online (план 2)](https://www.microsoft.com/microsoft-365/exchange/compare-microsoft-exchange-online-plans) 
@@ -55,3 +56,15 @@ Microsoft 365 | OneDrive для бизнеса должен быть включ
 
 > [!TIP]
 > Менеджер учетной записи Майкрософт поможет вам просмотреть текущие лицензии и планы обслуживания и найти наиболее эффективный способ получения дополнительных лицензий или планов служб, которые могут потребоваться, избегая дублирования.
+
+## <a name="steps-to-get-ready"></a>Действия, которые необходимо сделать, чтобы быть готовыми
+
+1. Просмотрите [необходимые условия для управляемого рабочего стола Майкрософт.](prerequisites.md) (В этой статье)
+2. Используйте [средства оценки готовности.](readiness-assessment-tool.md)
+3. [Предварительные требования для гостевых учетных записей](guest-accounts.md)
+4. [Конфигурация сети для компьютеров, управляемых Майкрософт](network.md)
+5. [Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт](certs-wifi-lan.md)
+6. [Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт](authentication.md)
+7. [Приложения на компьютерах, управляемых Майкрософт](apps.md)
+8. [Подготовка подключенных дисков для компьютеров, управляемых Майкрософт](mapped-drives.md)
+9. [Подготовка ресурсов печати для компьютеров, управляемых Майкрософт](printing.md)

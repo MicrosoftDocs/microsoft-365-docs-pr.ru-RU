@@ -20,21 +20,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как перейти на другой план.
-ms.openlocfilehash: 5f853dcd0d247a6422489cbe5d0287765bfd72a6
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 79ca18df28505c457e085dbd73c2fbd04eff53ca
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164453"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580982"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Переход на другой план
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 При смене бизнеса или необходимости в дополнительных функциях можно обновить планы. Самый простой способ сделать это — использовать вкладку **Upgrade** в центре администрирования. Однако использование вкладки **Upgrade** поддерживается не во всех ситуациях. В некоторых случаях можно изменить планы вручную.
 
@@ -179,7 +172,7 @@ ms.locfileid: "51164453"
 
 [Вызов службы поддержки Майкрософт](../../admin/contact-support-for-business-products.md)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Изменение планов вручную](change-plans-manually.md)
 
