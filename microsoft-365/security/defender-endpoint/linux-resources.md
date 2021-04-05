@@ -16,15 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ab5400a197a1f0ac61c8b298a06165d217f44fd1
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: a4f2324bc47bdee38e1cdeed1e21b5f9063e9a5c
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394738"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587068"
 ---
 # <a name="resources"></a>Ресурсы
 
@@ -121,8 +120,8 @@ ms.locfileid: "51394738"
 |Конфигурация         |Включив защиту PUA                                  |`mdatp threat policy set --type potentially_unwanted_application --action block` |
 |Конфигурация         |Отключение защиты PUA                                 |`mdatp threat policy set --type potentially_unwanted_application --action off` |
 |Конфигурация         |Включим режим аудита для защиты PUA                   |`mdatp threat policy set --type potentially_unwanted_application --action audit` |
-|Diagnostics           |Изменение уровня журнала                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
-|Diagnostics           |Создание журналов диагностики                                |`mdatp diagnostic create --path [directory]`                           |
+|Диагностика           |Изменение уровня журнала                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
+|Диагностика           |Создание журналов диагностики                                |`mdatp diagnostic create --path [directory]`                           |
 |Здравоохранение                |Проверка состояния продукта                              |`mdatp health`                                                         |
 |Защита            |Сканирование пути                                             |`mdatp scan custom --path [path] [--ignore-exclusions]`                |
 |Защита            |Быстрое сканирование                                         |`mdatp scan quick`                                                     |

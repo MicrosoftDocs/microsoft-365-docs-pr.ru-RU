@@ -15,17 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea6beba2d17b72f100703d26dd4106d0537c6fa6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a72b742d8f4a69d2e38cf4fa234ba5b7e2961ac6
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071662"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587615"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Новые возможности в Microsoft Defender для конечной точки
+# <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Новые возможности Microsoft Defender для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -109,7 +108,7 @@ ms.locfileid: "51071662"
 
 - [Лаборатория оценки](evaluation-lab.md) <BR> Лаборатория оценки Microsoft Defender для конечной точки предназначена для устранения сложностей конфигурации устройства и среды, чтобы вы могли сосредоточиться на оценке возможностей платформы, запуске имитаций и обнаружении функций предотвращения, обнаружения и восстановления в действии.
 
-- [Windows Server 2008 R2 SP1](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016) <BR> Теперь вы можете использовать Windows Server 2008 R2 SP1.
+- [Windows Server 2008 R2 с пакетом обновления 1 (SP1)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016) <BR> Теперь вы можете использовать Windows Server 2008 R2 SP1.
 
 
 ## <a name="june-2019"></a>Июнь 2019 г.
@@ -123,7 +122,7 @@ ms.locfileid: "51071662"
 - [Отчеты о защите от угроз](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/threat-protection-reports-windows-defender-advanced-threat-protection)<BR>В отчете о защите от угроз содержится информация на высоком уровне о оповещениях, созданных в организации. 
 
 
-- [Microsoft Threat Experts](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)<BR> Microsoft Threat Experts — это новая служба управляемой охоты на угрозы в Microsoft Defender for Endpoint, которая обеспечивает активную охоту, приоритеты и дополнительные сведения о контексте и дополнительных сведениях, которые расширяют возможности центров операций безопасности (SOCs) для быстрого и точного реагирования на угрозы. Он предоставляет дополнительный уровень знаний и оптики, которые клиенты Майкрософт могут использовать для расширения возможностей операций безопасности в рамках Microsoft 365.  
+- [Эксперты Майкрософт по угрозам](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)<BR> Microsoft Threat Experts — это новая служба управляемой охоты на угрозы в Microsoft Defender for Endpoint, которая обеспечивает активную охоту, приоритеты и дополнительные сведения о контексте и дополнительных сведениях, которые расширяют возможности центров операций безопасности (SOCs) для быстрого и точного реагирования на угрозы. Он предоставляет дополнительный уровень знаний и оптики, которые клиенты Майкрософт могут использовать для расширения возможностей операций безопасности в рамках Microsoft 365.  
 
 - [Индикаторы](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/ti-indicator) <BR> API для индикаторов теперь доступны в общем доступе. 
 
@@ -134,20 +133,20 @@ ms.locfileid: "51071662"
 ## <a name="april-2019"></a>Апрель 2019 г.
 - [Эксперты microsoft Threat Targeted Attack Notification capability](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts#targeted-attack-notification) <BR> Оповещений экспертов по целевым атакам Майкрософт с учетом организаций, которые предоставляют как можно больше информации, чем можно быстро доставить, тем самым привлекая внимание к критическим угрозам в их сети, включая хронологию, область нарушения и методы вторжения.
 
-- [Microsoft Defender для API конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro) <BR> Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API позволят автоматизировать рабочий процесс и инновациям на основе возможностей Microsoft Defender для конечных точек. 
+- [API Microsoft Defender для конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro) <BR> Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API позволят автоматизировать рабочий процесс и инновациям на основе возможностей Microsoft Defender для конечных точек. 
 
 
 
 ## <a name="february-2019"></a>Февраль 2019 г.
 - [Инциденты](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/incidents-queue) <BR> Incident — это новая сущность в Microsoft Defender для конечной точки, которая объединяет все соответствующие оповещения и связанные с ними сущности, чтобы рассказать более широкую историю атак, что позволяет аналитикам лучше точки зрения на аспекты сложных угроз. 
 
-- [На борту предыдущих версий Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> Поддерживаемые на борту версии устройств Windows, чтобы они могли отправлять данные датчиков в датчик Microsoft Defender для конечной точки.
+- [Подключение предыдущих версий Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> Поддерживаемые на борту версии устройств Windows, чтобы они могли отправлять данные датчиков в датчик Microsoft Defender для конечной точки.
 
 
 ## <a name="october-2018"></a>Октябрь 2018 г.
 - [Правила сокращения направлений атак](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>Все правила уменьшения поверхности атаки теперь поддерживаются на Windows Server 2019.
 
-- [Управляемый доступ к папкам](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR> Управляемый доступ к папкам теперь поддерживается на Windows Server 2019.
+- [Контролируемый доступ к папкам](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR> Управляемый доступ к папкам теперь поддерживается на Windows Server 2019.
 
 - [Настраиваемый обнаружение](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-custom-detections)<BR>С помощью настраиваемого обнаружения можно создавать настраиваемые запросы для мониторинга событий для любого вида поведения, например подозрительных или возникающих угроз. Это можно сделать, используя полномочия передовой охоты путем создания пользовательских правил обнаружения. 
 
@@ -174,7 +173,7 @@ Threat Analytics — это набор интерактивных отчетов
 
   
 ## <a name="march-2018"></a>Март 2018 г.
-- [Расширенный охота](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) <BR>
+- [Расширенная охота](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) <BR>
 Запрос данных с помощью продвинутой охоты в Microsoft Defender для конечной точки.
 
 - [Правила сокращения направлений атак](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
@@ -195,10 +194,10 @@ Threat Analytics — это набор интерактивных отчетов
 - [Microsoft Defender для центра сообщества конечных точек](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/community-windows-defender-advanced-threat-protection)<BR> 
     Центр сообщества Microsoft Defender для конечных точек — это место, где члены сообщества могут учиться, сотрудничать и обмениваться опытом о продукте. 
 
-- [Управляемый доступ к папкам](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR>
+- [Контролируемый доступ к папкам](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR>
 Теперь вы можете блокировать ненарушимые процессы от записи до дисковых секторов с помощью управляемого доступа к папкам.
 
-- [Onboard non-Windows devices](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
+- [Подключение устройствах, отличных от Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
     Microsoft Defender для конечной точки предоставляет централизованную службу безопасности как для Windows, так и для неконтроционных платформ. Вы сможете видеть оповещения из различных поддерживаемых операционных систем (ОС) в Центре безопасности Microsoft Defender и лучше защищать сеть организации.
 
 - [Управление доступом на основе ролей (RBAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)<BR>

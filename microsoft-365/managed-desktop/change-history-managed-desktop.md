@@ -13,16 +13,38 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 9176bfbbd015243266ba1c8cbad9d04787f6a6cc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5e57f21690372b16c86a65fcfe4d00cb5c907391
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909254"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587531"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации по компьютерам, управляемым Майкрософт
 
 В этой статье перечислены новые и обновленные статьи в [документации Microsoft Managed Desktop.](index.yml) В "Обновленных" статьях имеются материальные дополнения или исправления , такие незначительные исправления, как исправление опечаток, стилей или проблем форматирования, не перечислены. Вы всегда можете просмотреть историю определенных коммитов (включая сведения о любых изменениях), посетив репо [на GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="march-2021"></a>Март 2021 г.
+Новая или измененная статья | Описание
+--- | ---
+[Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная статья
+[Первый запуск с помощью Autopilot и страницы состояния регистрации](get-started/esp-first-run.md) | Обновленная статья
+[Служба определения местоположения в Windows 10](get-started/device-location.md) | Новая статья
+[Изображения устройства](service-description/device-images.md) | Новая статья
+[Регионы, поддерживаемые Microsoft Managed Desktop](service-description/regions-languages.md) | Обновленная статья
+[Локализация пользовательского интерфейса](get-started/localization.md) | Новая статья
+
+## <a name="february-2021"></a>Февраль 2021 г.
+Новая или измененная статья | Описание
+--- | ---
+[Доступ к порталу администрирования](get-started/access-admin-portal.md) | Обновленная статья
+[Технологии компьютеров, управляемых Майкрософт](intro/technologies.md) | Обновленная статья
+[Требования к устройству](service-description/device-requirements.md) | Обновленная статья
+[Исправление проблем, обнаруженных средством проверки готовности](get-ready/readiness-assessment-fix.md) | Обновленная статья
+[Microsoft OneDrive](get-started/onedrive.md) | Новая статья
+[Соответствие требованиям](intro/compliance.md) | Обновлено
+[Приложения Microsoft 365 для предприятий](get-started/m365-apps.md) | Обновленная статья
+[Средства оценки готовности](get-ready/readiness-assessment-tool.md) | Обновленная статья
 
 ## <a name="january-2021"></a>Январь 2021 г.
 Новая или измененная статья | Описание

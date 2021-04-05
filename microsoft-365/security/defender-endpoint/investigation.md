@@ -1,6 +1,6 @@
 ---
 title: Тип ресурса исследования
-description: Объект исследования ATP Защитника Майкрософт.
+description: Объект Microsoft Defender для исследования конечных точек.
 keywords: apis, graph api, supported apis, get, alerts, investigations
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 36adf0fa5c0de79fe0616f1216118a98ba2005a4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 3872976717a5b472ab8d471db7eff9975dbc2258
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187352"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587687"
 ---
 # <a name="investigation-resource-type"></a>Тип ресурса исследования
 
@@ -46,21 +46,21 @@ ms.locfileid: "51187352"
 :---|:---|:---
 [Исследования списка](get-investigation-collection.md) | Коллекция исследований | Get collection of Investigation
 [Получить одно исследование](get-investigation-object.md) | Объект исследования | Получает одно целое исследование.
-[Начало расследования](initiate-autoir-investigation.md) | Объект исследования | Запускает исследование на устройстве.
+[Начать исследование](initiate-autoir-investigation.md) | Объект исследования | Запускает исследование на устройстве.
 
 
 ## <a name="properties"></a>Свойства
 Свойство |  Тип    |   Описание
 :---|:---|:---
-id | Строка | Удостоверение объекта расследования. 
+id | String | Удостоверение объекта расследования. 
 startTime | DateTime Nullable | Дата и время создания расследования. 
 endTime | DateTime Nullable | Дата и время завершения расследования. 
-cancelledBy | Строка | ID пользователя или приложения, отменив это расследование. 
+cancelledBy | String | ID пользователя или приложения, отменив это расследование. 
 investigationState | Перечисление | Текущее состояние расследования. Возможные значения: "Unknown", "Terminated", "SuccessfullyRemediated", 'Benign', 'Failed', 'PartiallyRemediated', "Running", "PendingApproval", "PendingResource", "PartiallyInvestigated", "TerminatedByUser", "TerminatedBySystem", "Queued", "InnerFailure", "PreexistingAlert", "UnsupportedAlert", "SuppressedAlert".
-statusDetails | Строка | Дополнительные сведения о состоянии расследования.
-machineId | Строка | ID устройства, на котором выполняется расследование.
-computerDnsName | Строка | Имя устройства, на котором выполняется расследование.
-triggeringAlertId | Строка | ID оповещений, которые вызвали расследование.
+statusDetails | String | Дополнительные сведения о состоянии расследования.
+machineId | String | ID устройства, на котором выполняется расследование.
+computerDnsName | String | Имя устройства, на котором выполняется расследование.
+triggeringAlertId | String | ID оповещений, которые вызвали расследование.
 
 
 ## <a name="json-representation"></a>Представление Json

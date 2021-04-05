@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте о политиках истечения срока действия групп Microsoft 365.
-ms.openlocfilehash: 65a746751cd523a5dadce3eca573e6a9bfce0166
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: fdef06918ec2c35547c084e5f431aa7bef8d6a8c
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052306"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587627"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Политика истечения срока действия группы Microsoft 365
 
@@ -63,7 +63,7 @@ ms.locfileid: "51052306"
 
 Если у группы нет владельца, письма по истечении срока действия будут отправлены указанному администратору.
 
-Вы можете установить политику для всех групп, только выбранных групп, или отключить ее полностью, выбрав **None**. Обратите внимание, что в настоящее время для разных групп не может быть различных политик.
+Вы можете установить политику для всех групп, только выбранных групп (до 500), или отключить ее полностью, выбрав **None**. Обратите внимание, что в настоящее время для разных групп не может быть различных политик.
 
 ![Снимок экрана параметров истечения срока действия групп в Azure Active Directory](../media/azure-groups-expiration-settings.png)
 

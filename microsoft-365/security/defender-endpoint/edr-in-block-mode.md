@@ -1,7 +1,7 @@
 ---
 title: Обнаружение конечных точек и реагирование в режиме блокировки
 description: Узнайте об обнаружении конечных точек и ответе в режиме блокировки
-keywords: AtP Защитника Microsoft, EDR в режиме блокирования, блокировка пассивного режима
+keywords: ATP, mde, EDR в режиме блокировки, блокировка пассивного режима
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 7bee6c99d2c1c5ad3cec8f2e317b729a0a4e1f8b
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: e492d57d8a7e10a1fff57980408ed8234bbeead0
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379482"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587207"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Обнаружение конечных точек и ответ (EDR) в режиме блокировки
 
@@ -139,6 +139,6 @@ EDR в режиме блокировки не влияет на сторонну
 ## <a name="see-also"></a>См. также
 
 - [Блог сообщества tech: Введение EDR в режиме блокировки: остановка атак в их треках](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/introducing-edr-in-block-mode-stopping-attacks-in-their-tracks/ba-p/1596617)
-- [Блокировка и сдерживание поведения](behavioral-blocking-containment.md)
+- [Блокировка с учетом поведения и автономность](behavioral-blocking-containment.md)
 - [Лучше вместе: антивирус Microsoft Defender и Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/why-use-microsoft-antivirus)
 

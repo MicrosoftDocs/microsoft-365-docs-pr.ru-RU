@@ -1,6 +1,6 @@
 ---
-title: Блокировка и сдерживание поведения
-description: Узнайте о возможностях блокировки и сдерживания поведения в ATP Microsoft Defender
+title: Блокировка с учетом поведения и автономность
+description: Узнайте о возможностях блокировки и сдерживания поведения в Microsoft Defender для конечной точки
 keywords: AtP Защитника Microsoft, EDR в режиме блокирования, блокировка пассивного режима
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -19,14 +19,14 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: dcad3b7233f2efd444d41c15916eaae195634c8c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7cea65292c427cb953e2e8e3ca866c89f83128b1
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166237"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587171"
 ---
-# <a name="behavioral-blocking-and-containment"></a>Блокировка и сдерживание поведения
+# <a name="behavioral-blocking-and-containment"></a>Блокировка с учетом поведения и автономность
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "51166237"
 
 Возможности поведенческой блокировки и сдерживания могут помочь определить и остановить угрозы, основываясь на их поведении и деревьях обработки даже при выполнении угрозы. Компоненты и функции защиты следующего поколения, EDR и Defender для конечных точек работают вместе в возможностях блокировки и сдерживания поведения. 
 
-:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="Блокировка и сдерживание поведения":::
+:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="Блокировка с учетом поведения и автономность":::
 
 Возможности блокировки и сдерживания поведения работают с несколькими компонентами и функциями Defender для конечной точки, чтобы немедленно остановить атаки и предотвратить их продвижение.
 

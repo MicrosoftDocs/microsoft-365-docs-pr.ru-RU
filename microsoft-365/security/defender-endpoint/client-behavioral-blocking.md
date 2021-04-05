@@ -1,6 +1,6 @@
 ---
-title: Блокировка поведения клиента
-description: Блокировка поведения клиента является частью возможностей блокировки и сдерживания поведения в ATP Microsoft Defender
+title: Блокировка с учетом поведения клиента
+description: Блокировка поведения клиента является частью возможностей поведенческой блокировки и сдерживания в Microsoft Defender for Endpoint
 keywords: поведенческая блокировка, быстрая защита, поведение клиентов, ATP Защитника Майкрософт
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -19,14 +19,14 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: c37a1180f9def51daa4229418b05abe7cf787aa3
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 9fcff96b2583c6ef6bec05429ec50a71f3872e43
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165265"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587111"
 ---
-# <a name="client-behavioral-blocking"></a>Блокировка поведения клиента
+# <a name="client-behavioral-blocking"></a>Блокировка с учетом поведения клиента
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -91,9 +91,9 @@ ms.locfileid: "51165265"
 
 - [Защита нового поколения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-microsoft-defender-antivirus-features) (антивирус)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
-- [Блокировка и сдерживание поведения](behavioral-blocking-containment.md)
+- [Блокировка с учетом поведения и автономность](behavioral-blocking-containment.md)
 
 - [Блокировка циклов обратной связи](feedback-loop-blocking.md)
 

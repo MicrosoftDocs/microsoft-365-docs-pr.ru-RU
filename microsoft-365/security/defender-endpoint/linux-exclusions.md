@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 484869535c466435ab997f32bf858dd1ad52c841
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f5e9c237f53351df0249f0a12d08b8ba61572f7e
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187497"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587087"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-for-linux"></a>Настройка и проверка исключений для Microsoft Defender для конечной точки для Linux
 
@@ -55,7 +54,7 @@ ms.locfileid: "51187497"
 Исключения | Определение | Примеры
 ---|---|---
 Расширение файла | Все файлы с расширением в любом месте на устройстве | `.test`
-Файл | Определенный файл, определенный по полному пути | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+File | Определенный файл, определенный по полному пути | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
 Folder | Все файлы в указанной папке (повторно) | `/var/log/`<br/>`/var/*/`
 Процесс | Определенный процесс (указанный полным путем или именем файла) и все файлы, открытые в нем. | `/bin/cat`<br/>`cat`<br/>`c?t`
 

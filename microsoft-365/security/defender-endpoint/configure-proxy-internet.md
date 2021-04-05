@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ce8599556b1d0c8efbd020d525b30ed2cedaa9cb
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b529b1c7fa5c4f9f81cb6bfbb5f1a6bd7823a9ad
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165469"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587603"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и подключения к Интернету
 
@@ -89,9 +88,9 @@ ms.locfileid: "51165469"
 
 1. Откройте командную строку с повышенными правами:
 
-    а) В меню **Пуск** введите **cmd**.
+    а. В меню **Пуск** введите **cmd**.
 
-    б) Щелкните правой кнопкой мыши пункт **Командная строка** и выберите команду **Запуск от имени администратора**.
+    б. Щелкните правой кнопкой мыши пункт **Командная строка** и выберите команду **Запуск от имени администратора**.
 
 2. Введите следующую команду и нажмите клавишу **ВВОД**:
 
@@ -182,9 +181,9 @@ netsh winhttp reset proxy
 
 3. Откройте командную строку с повышенными правами:
 
-    а) В меню **Пуск** введите **cmd**.
+    а. В меню **Пуск** введите **cmd**.
 
-    б)  Щелкните правой кнопкой мыши пункт **Командная строка** и выберите команду **Запуск от имени администратора**.
+    б.  Щелкните правой кнопкой мыши пункт **Командная строка** и выберите команду **Запуск от имени администратора**.
 
 4. Введите следующую команду и нажмите клавишу **ВВОД**:
 
@@ -225,5 +224,5 @@ netsh winhttp reset proxy
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [На борту устройств с Windows 10](configure-endpoints.md)
+- [Подключение устройств Windows 10](configure-endpoints.md)
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](troubleshoot-onboarding.md)

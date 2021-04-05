@@ -1,7 +1,7 @@
 ---
-title: Развертывание ATP защитника Майкрософт для Android с помощью Microsoft Intune
-description: Описание развертывания ATP Microsoft Defender для Android с помощью Microsoft Intune
-keywords: Microsoft, defender, atp, android, installation, deploy, uninstallation,
+title: Развертывание Microsoft Defender для конечной точки для Android с помощью Microsoft Intune
+description: Описывает развертывание Microsoft Defender для конечной точки для Android с помощью Microsoft Intune
+keywords: Microsoft, defender, atp, mde, android, installation, deploy, uninstallation,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e557f60346b2f68354df621b6e4812eac775d812
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: fdfc6e63945e15ce2d1f1a293c377f641eeb9bc4
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165673"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587699"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Развертывание Microsoft Defender для конечной точки для Android с помощью Microsoft Intune 
 
@@ -56,7 +55,7 @@ ms.locfileid: "51165673"
 
 2. На странице **Добавление приложения** и в разделе Сведения *о приложении* введите: 
 
-   - **Название** 
+   - **Name** 
    - **Описание**
    - **Издатель** в качестве Microsoft.
    - **URL-адрес магазина приложений** как (URL-адрес магазина https://play.google.com/store/apps/details?id=com.microsoft.scmx Приложений Для конечной точки в Google Play Store) 
@@ -262,4 +261,4 @@ Defender for Endpoint поддерживает политики конфигур
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор Microsoft Defender для конечной точки для Android](microsoft-defender-endpoint-android.md)
-- [Настройка Функций Microsoft Defender для конечной точки для Android](android-configure.md)
+- [Настройка функций Microsoft Defender для конечной точки для Android](android-configure.md)

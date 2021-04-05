@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1386809778edeb92521a8656e9ece78591a682a4
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: d1d4aa871438e10aed86ddd436757072fb6b5cc4
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382905"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587507"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Конфиденциальность для Microsoft Defender для конечной точки для Mac
 

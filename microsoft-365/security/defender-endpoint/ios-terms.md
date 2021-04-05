@@ -16,16 +16,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: 177367da49ab741ee6544b6cfefe63898005d009
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ba39eea9730b38b7666fe53c0c128fc53cae3a78
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072302"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587195"
 ---
 # <a name="microsoft-defender-for-endpoint-for-ios-application-license-terms"></a>Microsoft Defender для конечной точки для условий лицензии на приложения для iOS
 
@@ -125,8 +124,8 @@ ms.locfileid: "51072302"
 
 Он также применяется, даже если:
 
-а)  Ремонт, замена или возврат средств для приложения не полностью компенсирует потери; или
+а.  Ремонт, замена или возврат средств для приложения не полностью компенсирует потери; или
 
-б)  Охваченные Стороны знали или должны были знать о возможности ущерба.
+б.  Охваченные Стороны знали или должны были знать о возможности ущерба.
 
 Вышеуказанное ограничение или исключение могут не применяться к вам, поскольку ваша страна не может разрешить исключение или ограничение случайного, последовательного или другого ущерба.

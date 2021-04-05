@@ -1,5 +1,5 @@
 ---
-title: Исследование учетной записи пользователя в ATP Защитника Майкрософт
+title: Исследование учетной записи пользователя в Microsoft Defender для конечной точки
 description: Во время расследования изучите учетную запись пользователя на возможные скомпрометированные учетные данные или поворот на связанной учетной записи пользователя.
 keywords: исследование, учетная запись, пользователь, сущность пользователя, оповещение, atp защитника Майкрософт
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: e79e558a7d256c46178e91b89bff27bfa6893ce9
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 672867d107d005004201caab7d6497ceb048ac97
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186717"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587711"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>Исследование учетной записи пользователя в Microsoft Defender для конечной точки
 
@@ -94,7 +94,7 @@ ms.locfileid: "51186717"
 - 1 день
 - за 3 дня;
 - 7 дней
-- 30 дней
+- 30 дней
 - 6 месяцев
 
 ## <a name="related-topics"></a>Статьи по теме
