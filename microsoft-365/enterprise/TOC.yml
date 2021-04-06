@@ -274,15 +274,15 @@
           items:
             - name: Обзор
               href: ms-cloud-germany-transition.md
+            - name: Что изменится
+              href: ms-cloud-germany-transition-experience.md
             - name: Согласие на миграцию
               href: ms-cloud-germany-migration-opt-in.md
-            - name: Изменения
-              href: ms-cloud-germany-transition-experience.md
-            - name: Предварительная подготовка
+            - name: Перед миграцией
               href: ms-cloud-germany-transition-add-pre-work.md
-            - name: Действия и влияние этапов миграции (общие)
+            - name: Действия и влияние этапов миграции
               href: ms-cloud-germany-transition-phases.md
-            - name: Действия и влияние этапов миграции (дополнительные)
+            - name: После миграции
               href: ms-cloud-germany-transition-add-experience.md
             - name: Дополнительные сведения
               items:
@@ -292,6 +292,8 @@
                   href: ms-cloud-germany-transition-add-devices.md
                 - name: Шаги миграции AD FS
                   href: ms-cloud-germany-transition-add-adfs.md
+                - name: Обнаружение электронных данных
+                  href: ms-cloud-germany-transition-add-scc.md
 - name: Удостоверение
   items:
     - name: Стратегия
