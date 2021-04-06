@@ -19,17 +19,17 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Сводка. '
-ms.openlocfilehash: 190b020ac683bcb97317a281c520b7f1ac92c721
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7b99238b588363203f7aac07b3fb056d7a37e19f
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50910922"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592076"
 ---
-# <a name="how-to-opt-in-for-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Как дать согласие на миграцию с Microsoft Cloud для Германии (Microsoft Cloud Deutschland) в службы Office 365 в новых регионах центров обработки данных в Германии
+# <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Как выбрать новую миграцию из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новых немецких регионах центра обработки данных
 
->[!Note]
->Эта статья применяется только к клиентам Microsoft Cloud Germany (Microsoft Cloud Deutschland).
+> [!NOTE]
+> Эта статья применяется только к клиентам Microsoft Cloud Germany (Microsoft Cloud Deutschland).
 >
 
 ## <a name="how-to-request-migration"></a>Запрос на миграцию

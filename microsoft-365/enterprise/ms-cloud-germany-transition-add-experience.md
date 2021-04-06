@@ -1,5 +1,5 @@
 ---
-title: Миграция фазы действий и последствий для миграции из Microsoft Cloud Deutschland (расширенный)
+title: Действия после миграции для миграции из Microsoft Cloud Deutschland
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -17,48 +17,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
-description: Сводка. Дополнительные сведения о клиентском опыте при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 8e28b9d6c8cc23e128234973039a4873b327e9fd
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+description: Сводка. Действия после миграции после перехода из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
+ms.openlocfilehash: 745589c1c997540094fc4a770e437de89015f88a
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476372"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591760"
 ---
-# <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>Миграция фазы действий и последствий для миграции из Microsoft Cloud Deutschland (расширенный)
+# <a name="post-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Действия после миграции для миграции из Microsoft Cloud Deutschland
 
-Миграции клиентов из Microsoft Cloud Deutschland в немецкий регион служб Microsoft Office 365 выполняются в наборе этапов и их настроенных действий для каждой рабочей нагрузки. На этом рисунке показаны десять этапов миграции в новые немецкие центра обработки данных.
+В следующих разделах предусматриваются действия после миграции для нескольких служб после перехода из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
 
-![Десять этапов миграции в новые центр обработки данных в Германии](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+## <a name="azure-ad"></a>Azure AD
 
-В следующих разделах приводится дополнительная информация о клиентских впечатлениях при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-
-## <a name="office-365-portal-services-between-phase-2-and-phase-3"></a>Службы портала Office 365 между этапом 2 и этапом 3
-
-Между этапом 2 и этапом 3 портал партнеров может быть недоступным. В течение этого времени партнер может не получить доступ к сведениям клиента на портале партнеров. Так как каждая миграция отличается, продолжительность доступности может быть в часах.
-
-### <a name="ediscovery-phase-4-to-the-end-of-phase-9"></a>этап eDiscovery 4 до конца 9-й фазы
-
-**Применяется к:** Все клиенты, использующие eDiscovery
-
-| Step(s) | Описание | Влияние |
-|:-------|:-------|:-------|
-| С начала 4-го этапа и до завершения 9-го этапа поиски электронных обнаружений сбой или возвращение 0 результатов для sharePoint Online, OneDrive для бизнеса и Exchange Online, которые были перенесены. | Во время миграции клиенты могут продолжать создавать случаи, удерживания, поиски и экспорты в Центре & [безопасности,](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)включая [поиск контента.](https://docs.microsoft.com/microsoft-365/compliance/search-for-content) Однако поиски в местах SharePoint Online, OneDrive для бизнеса и Exchange Online, которые были перенесены, возвращают результаты 0 или создают ошибку. Для восстановления см. столбец _Impact._ | В случае, если поиск возвращает нулевые результаты или ошибку во время миграции, примите следующие действия для SharePoint Online: <ul><li>Скачайте сайты непосредственно с сайта SharePoint Online или OneDrive для бизнеса, следуя инструкциям по загрузке файлов и папок [из OneDrive или SharePoint.](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05) Для этого метода потребуются разрешения администратора SharePoint Online или разрешения только для чтения на сайте.</li><li>Если ограничения превышены, как поясняется в файле загрузки и папках из OneDrive или [SharePoint,](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)клиенты могут использовать клиент синхронизации OneDrive для бизнеса, следуя указаниям в файлах [Sync SharePoint](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88)и Teams с компьютером.</li><li>Дополнительные сведения см.  [в Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/ediscovery/ediscovery) |
-||||
-
-## <a name="exchange-online-set-userphoto-during-phase-5"></a>Exchange Online Set-UserPhoto на этапе 5
-
-**Применяется к:** Все клиенты, хранимые фотографии пользователей в Exchange Online и **использующие Set-UserPhoto:**
-
-| Step(s) | Описание | Влияние |
-|:-------|:-------|:-------|
-| Новый регион "Германия" добавляется в существующую организацию Exchange Online, а почтовые ящики перемещаются в службы Office 365. | Конфигурация Exchange Online добавляет новый локальный немецкий регион в организацию перехода. Этот регион служб Office 365 заданной как по умолчанию, что позволяет внутренней службе балансировки нагрузки перераспределять почтовые ящики в соответствующий регион по умолчанию в службах Office 365. В этом переходе пользователи с обеих сторон (службы Германии или Office 365) находятся в одной организации и могут использовать конечную точку URL-адреса. | Если почтовый ящик пользователя был перенесен, а почтовый ящик администратора не был перенесен, или наоборот, администраторы не смогут запускать **set-UserPhoto**— комдлет PowerShell. В этой ситуации администратор должен передать дополнительную строку во время подключения, настроенного с `ConnectionUri` помощью следующего синтаксиса: <br> `https://outlook.office.de/PowerShell-LiveID?email=<user_email>` <br> где является местообнамерщиком электронной почты пользователя, фотографию которого необходимо изменить с помощью `<user_email>` **Set-UserPhoto.** |
-||||
-
-## <a name="post-migration"></a>После миграции
-
-### <a name="azure-ad-phase-9"></a>Этап 9 Azure AD
-
+### <a name="azure-ad-connect"></a>Azure AD Connect
 **Применяется к:** Все клиенты синхронизируются с подключением Azure AD
 
 | Step(s) | Описание | Влияние |
@@ -66,7 +39,8 @@ ms.locfileid: "51476372"
 | Обновление Azure AD Connect. | После завершения сокращения до Azure AD организация полностью использует службы Office 365 и больше не подключена к Microsoft Cloud Deutschland. На этом этапе клиенту необходимо убедиться, что процесс синхронизации дельты завершен, и после этого измените значение строки `AzureInstance` от 3 (Microsoft Cloud Deutschland) до 0 в пути реестра. `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` | Измените значение `AzureInstance` ключа реестра. Если этого не сделать, объекты не будут синхронизированы после того, как конечные точки Microsoft Cloud Deutschland перестанут быть доступны. |
 |||||
 
-**Применяется к:** Все клиенты, использующие федератированную проверку подлинности с помощью ADFS
+### <a name="azure-ad-federated-authentication-with-ad-fs"></a>Федерарная проверка подлинности Azure AD с помощью AD FS
+**Применяется к:** Все клиенты, использующие федератированную проверку подлинности с помощью AD FS
 
 | Step(s) | Описание | Влияние |
 |:-------|:-------|:-------|
@@ -77,6 +51,7 @@ ms.locfileid: "51476372"
     Question from ckinder
     The following paragraph is not clear
 -->
+### <a name="group-approvals"></a>Утверждения группы
 **Применяется к:** Конечные пользователи, запросы на утверждение группы Azure AD не были утверждены за последние 30 дней до миграции 
 
 | Step(s) | Описание | Влияние |
@@ -88,6 +63,7 @@ ms.locfileid: "51476372"
     Question from ckinder
     The following paragraph is not clear
 -->
+## <a name="custom-dns-updates"></a>Настраиваемые обновления DNS
 **Применяется к:**  Все клиенты, управляющие своими зонами DNS
 
 | Step(s) | Описание | Влияние |
@@ -95,6 +71,7 @@ ms.locfileid: "51476372"
 | Обновление локальной службы DNS для конечных точек служб Office 365. | Записи DNS, управляемые клиентом, указывающие на Microsoft Cloud Deutschland, необходимо обновить, чтобы указать на конечные точки глобальных служб Office 365. | Невыполнение этого может привести к сбою службы или клиентов программного обеспечения. |
 ||||
 
+## <a name="third-party-services"></a>Сторонние службы
 **Применяется к:** Клиенты, использующие сторонние службы для конечных точек служб Office 365
 
 | Step(s) | Описание | Влияние |
@@ -102,7 +79,8 @@ ms.locfileid: "51476372"
 | Обновление партнеров и сторонних служб для конечных точек служб Office 365. | <ul><li>Сторонние службы и партнеры, которые указывают на Office 365 в Германии, необходимо обновить, чтобы указать конечные точки служб Office 365. Пример. Перерегистрируйтесь в соответствии с вашими поставщиками и партнерами, если это доступно, версия приложения-галереи. </li><li>Указать все настраиваемые приложения, которые используют API Graph от `graph.microsoft.de` до `graph.microsoft.com` . Другие API с измененными конечными точками также должны быть обновлены, если они будут заемными. </li><li>Измените все непредназначимые корпоративные приложения, чтобы перенаправить их на конечные точки по всему миру. </li></ul>| Обязательное действие. Невыполнение этого может привести к сбою службы или клиентов программного обеспечения. |
 ||||
 
-### <a name="sharepoint-online-post-migration"></a>Перенос сообщений SharePoint Online
+## <a name="sharepoint-online"></a>SharePoint Online
+**Применяется к**: Клиенты, использующие рабочий процесс SharePoint 2013
 
 | Step(s) | Описание | Влияние |
 |:-------|:-------|:-------|
@@ -110,51 +88,9 @@ ms.locfileid: "51476372"
 | Доля элементов через Outlook | Совместное использование элементов в SharePoint Online и OneDrive для бизнеса через Outlook больше не работает после сокращения клиентов. |<ul><li>В SharePoint Online и OneDrive для бизнеса можно обмениваться элементами через Outlook. После нажатия кнопки Outlook создается совместное сообщение, которое будет перенажато в новое сообщение в Outlook Web App.</li><li>После сокращения клиента этот метод обмена не будет работать. Мы признаем, что это известная проблема. Однако, так как эта функция Outlook находится на пути амортизации, исправление проблемы не планируется до тех пор, пока не будет откат. </li></ul>|
 ||||
 
-### <a name="exchange-online-post-migration"></a>Миграция сообщений Exchange Online
-
-Если вы используете гибридную конфигурацию Exchange:
+## <a name="exchange-online"></a>Exchange Online
+**Применяется к**: Клиенты, использующие гибридную конфигурацию Exchange
 
 | Step(s) | Описание | Влияние |
 |:-------|:-------|:-------|
 | Повторное повторе мастера гибридной конфигурации (HCW) в отношении служб Office 365. | Существующая конфигурация HCW предназначена для поддержки Microsoft Cloud Deutschland. С завершением миграции служб Exchange мы отожмем локальное расположение от Microsoft Cloud Deutschland. |<ul><li>Обязательное действие. Невыполнение этого может привести к сбою службы или клиентов программного обеспечения. Перед началом миграции почтовых ящиков Exchange (с 5 или более днями уведомления) уведомляйте клиентов о том, что они должны остановить и удалить любые перемещения почтовых ящиков.  Если этого не делать, они будут видеть ошибки в запросах на перемещение. </li><li>После завершения миграции почтовых ящиков Exchange уведомите клиентов о том, что они могут возобновить перемещение бортовых и отсоедом. <br> Запуск **test-MigrationServerAvailabiilty**— это комдлет PowerShell во время переноса служб Exchange из Microsoft Cloud Deutschland в службы Office 365 может не работать. Однако после завершения миграции она будет работать правильно. </li><li>Если у клиентов после переноса почтовых ящиков могут быть проблемы с учетными данными или авторизацией, пользователи могут повторно входить в конечную точку миграции, используя панель управления `Set-MigrationEndpoint endpointName -Credential $(Get-Credential)` Exchange (ECP). </li></ul>|
-
-### <a name="ediscovery-post-migration"></a>миграция сообщений об обнаружении
-
-**Применяется к:** Все клиенты, которые используют eDiscovery
-
-| Step(s) | Описание | Влияние |
-|:-------|:-------|:-------|
-|  Все расположения SharePoint Online, OneDrive для бизнеса и Exchange Online были перенесены вместе с Центром безопасности и соответствия требованиям (SCC). | Все действия по обнаружению электронных обнаружений должны запускаться от клиента по всему миру. Поиск теперь будет на 100% успешным.  Любые сбои или ошибки должны следовать обычным каналам поддержки. | Нет |
-||||
-
-**Применяется к:**  Все клиенты, применявшие политику хранения в рамках этапов предварительной миграции
-
-| Step(s) | Описание | Влияние |
-|:-------|:-------|:-------|
-| Удаление политик хранения по всей организации, созданных во время этапов предварительной миграции | Клиенты могут удалить политики хранения на всей организации, созданные во время работы перед миграцией клиентов. | Нет |
-||||
-
-## <a name="next-step"></a>Следующий шаг
-
-[Понимание действий и последствий этапов миграции](ms-cloud-germany-transition-phases.md)
-
-## <a name="more-information"></a>Дополнительные сведения
-
-Начало работы:
-
-- [Миграция из Microsoft Cloud Deutschland в службы Office 365 в новых регионах центра обработки данных в Германии](ms-cloud-germany-transition.md)
-- [Помощь по миграции Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
-- [Как принять участие в миграции](ms-cloud-germany-migration-opt-in.md)
-- [Опыт работы с клиентами во время миграции](ms-cloud-germany-transition-experience.md)
-
-Перемещение по переходу:
-
-- [Действия и влияние этапов миграции](ms-cloud-germany-transition-phases.md)
-- [Дополнительная предварительная работа](ms-cloud-germany-transition-add-pre-work.md)
-- Дополнительные сведения [для Azure AD,](ms-cloud-germany-transition-azure-ad.md) [устройств,](ms-cloud-germany-transition-add-devices.md) [опытом](ms-cloud-germany-transition-add-experience.md)и [AD FS.](ms-cloud-germany-transition-add-adfs.md)
-
-Облачные приложения:
-
-- [Сведения о программе миграции Dynamics 365](/dynamics365/get-started/migrate-data-german-region)
-- [Сведения о программе миграции Power BI](/power-bi/admin/service-admin-migrate-data-germany)
-- [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here)

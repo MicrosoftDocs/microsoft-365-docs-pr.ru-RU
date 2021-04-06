@@ -20,14 +20,13 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 01/29/2021
 ms.technology: m365d
-ms.openlocfilehash: d78bf3689020b5a24863e5a0f1ec817af50178ad
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7106f5d2e740d2b4cacbcaeb0b9391095bbeb356
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073942"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592028"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Просмотр и управление действиями в центре действий
 
@@ -52,8 +51,11 @@ ms.locfileid: "51073942"
 ![Утверждение или отклонение действия](../../media/air-actioncenter-itemselected.png)
 
 1. Перейдите на страницу [https://security.microsoft.com](https://security.microsoft.com) и войдите. 
+
 2. В панели навигации щелкните **Центр уведомлений**. 
+
 3. В центре уведомлений на вкладке **Ожидание** выберите элемент в списке. Откроется его поле для вылетов.
+
 4. Просмотрите сведения в области вылетов и примите один из следующих действий:
    - Выберите **страницу Open investigation,** чтобы просмотреть дополнительные сведения о расследовании.
    - Выберите **Утверждение,** чтобы инициировать ожидающих действий.
@@ -71,19 +73,25 @@ ms.locfileid: "51073942"
 ### <a name="undo-one-remediation-action"></a>Отмена одного действия по исправлению
 
 1. Перейдите в центр действий [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () и войдите.
+
 2. На **вкладке История** выберите действие, которое необходимо отменить.
+
 3. В области справа от экрана выберите **Отмена**.
 
 ### <a name="undo-multiple-remediation-actions"></a>Отмена нескольких действий по исправлению
 
 1. Перейдите в центр действий https://security.microsoft.com/action-center) (и войдите.
+
 2. На **вкладке История** выберите действия, которые необходимо отменить. Убедитесь, что выберите элементы с одинаковым типом действия. Открывается поле для вылетов.
+
 3. В области вылетов выберите **Отмена**.
 
 ### <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Удаление файла из карантина на нескольких устройствах 
 
 1. Перейдите в центр действий [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () и войдите.
+
 2. На **вкладке История** выберите файл с карантиным файлом типа **Action.**
+
 3. В области справа от экрана выберите **Применить** к X дополнительные экземпляры этого файла, а затем **отменить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия

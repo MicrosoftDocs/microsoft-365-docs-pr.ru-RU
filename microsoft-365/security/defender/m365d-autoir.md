@@ -19,15 +19,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.custom: autoir
-ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 8ed6f1ccd6587d6c618974a123f0d5d42a44e753
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: be0423b0af8251347420d9e970dcfe10db0bb72b
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199637"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591927"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Автоматическое исследование и ответ в Microsoft 365 Defender
 
@@ -94,6 +93,11 @@ ms.locfileid: "51199637"
 
 > [!NOTE]
 > Не каждое оповещение вызывает автоматическое расследование, и не каждое расследование приводит к автоматическим действиям по исправлению. это зависит от настройки автоматического расследования и ответа для вашей организации. Подробнее о настройке возможностей автоматического расследования и ответа см. [в microsoft 365 Defender.](m365d-configure-auto-investigation-response.md)
+
+## <a name="viewing-a-list-of-investigations"></a>Просмотр списка расследований
+
+Чтобы просмотреть расследования, перейдите на страницу **Происшествия.** Выберите инцидент и выберите вкладку **"Исследования".** Дополнительные сведения см. [в материале Details and results of an automated investigation.](m365d-autoir-results.md)
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

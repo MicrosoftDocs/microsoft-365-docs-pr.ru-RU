@@ -1,5 +1,5 @@
 ---
-title: Сведения и результаты автоматического расследования
+title: Просмотр сведений и результатов автоматического исследования
 description: Во время и после автоматического исследования вы можете просматривать результаты и основные выводы
 keywords: автоматически, исследование, результаты, анализ, сведения, исправление, автоматизированный анализ угроз и реакция на них
 search.appverid: met150
@@ -21,15 +21,14 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/02/2021
-ms.openlocfilehash: 57a515fec2baabba7146959a43737771ef5c8cfe
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8ecf39090d368427c103c7ec78e22bc13f7c339f
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197773"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591772"
 ---
-# <a name="details-and-results-of-an-automated-investigation"></a>Сведения и результаты автоматического расследования
+# <a name="view-the-details-and-results-of-an-automated-investigation"></a>Просмотр сведений и результатов автоматического исследования
 
 **Область применения:**
 - Microsoft Defender для конечной точки

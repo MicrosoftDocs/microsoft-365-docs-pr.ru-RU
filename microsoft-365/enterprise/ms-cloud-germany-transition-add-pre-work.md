@@ -1,5 +1,5 @@
 ---
-title: Предварительная работа по миграции из Microsoft Cloud Deutschland
+title: Действия по предварительной миграции для миграции из Microsoft Cloud Deutschland
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -18,28 +18,32 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Предварительная работа при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 9f5a38eae6d42f992879f97b8e8e1e8e6c4d56c3
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: e04246626088d9fca653c98246fd4a5b81bc1d30
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476353"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591878"
 ---
-# <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Предварительная работа по миграции из Microsoft Cloud Deutschland
+# <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Действия по предварительной миграции для миграции из Microsoft Cloud Deutschland
 
-Используйте эти ссылки, чтобы получить предварительные действия, соответствующие организации:
+Используйте эти ссылки, чтобы добраться до этапов предварительной миграции, соответствующих организации.
 
-- Для **всех клиентов,** использующих Office 365 в Microsoft Cloud Deutschland, сделайте [эти действия.](#general-tenant-migration-considerations)
-- Для **изменений DNS** сделайте [этот шаг.](#dns)
-- Если вы используете **службы Федерации Active Directory** на месте, сделайте [эти действия.](#active-directory-federation-services-ad-fs)
-- Если вы используете **SharePoint Online,** сделайте [этот шаг.](#sharepoint-online)
-- Если вы используете гибрид **Exchange Online или** **Exchange,** сделайте [этот шаг.](#exchange-online)
-- Если вы используете **Skype для бизнеса в Интернете,** сделайте этот [шаг](#skype-for-business-online)
-- Если вы используете решение для управления сторонними мобильными устройствами (MDM), сделайте [этот шаг.](#mobile-device-management)
-- Если вы используете  сторонние службы или **бизнес-приложения,** интегрированные с Office 365, сделайте [этот шаг.](#line-of-business-apps)
-- Если вы также используете **Dynamics 365,** сделайте [этот шаг.](#dynamics365)
-- Если вы также используете **Power BI,** сделайте [этот шаг](#power-bi).
-- Если вы также используете **службы Azure** с подпиской на Office 365, сделайте [этот шаг.](#microsoft-azure)
+Если вы используете
+
+- **Office 365 в Microsoft Cloud Deutschland**, сделать [эти шаги](#general-tenant-migration-considerations).
+- **Настраиваемые домены**, сделать [этот шаг](#dns-entries-for-custom-domains).
+
+- **SharePoint Online**, сделать [этот шаг](#sharepoint-online).
+- **Exchange Online** или **Exchange Hybrid**, сделать [этот шаг](#exchange-online).
+- **Skype для бизнеса Online**, сделать [этот шаг](#skype-for-business-online).
+- **Dynamics 365**, сделать [этот шаг](#dynamics365).
+- **Power BI**, сделать [этот шаг](#power-bi).
+
+- **Службы Федерации Active Directory** для Azure AD Connect, сделайте [эти действия.](#active-directory-federation-services-ad-fs)
+- **Сторонние службы** или **бизнес-приложения,** интегрированные с Office 365, делают [этот шаг.](#line-of-business-apps)
+- Решение для управления мобильными устройствами сторонних пользователей (MDM) должно [сделать этот шаг.](#mobile-device-management)
+- **Службы Azure с** подпиской на Office 365 делают [этот шаг.](#microsoft-azure)
 
 ## <a name="general-tenant-migration-considerations"></a>Общие соображения миграции клиента
 
@@ -59,7 +63,7 @@ ms.locfileid: "51476353"
 | Создайте политики хранения [по всей организации,](https://docs.microsoft.com/microsoft-365/compliance/retention) чтобы защитить от непреднамеренного удаления контента во время миграции.  |<ul><li>Чтобы содержимое не было случайно удалено конечными пользователями во время миграции, клиенты могут включить политику хранения по всей организации. </li><li>Хотя хранение не требуется, так как удержания, размещенные в любое время во время миграции, должны работать так, как ожидалось, политика хранения является механизмом обеспечения безопасности. В то же время политика хранения может использоваться не всеми клиентами, особенно теми, кто обеспокоен сохранением.</li></ul>| Применение политики хранения, как описано в ["Подробнее о политиках хранения и метки хранения".](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) Сбои службы или клиентского программного обеспечения могут возникнуть, если это не будет сделано до этапа 4 из 9. </li></ul>|
 |||||
 
-## <a name="dns"></a>DNS
+## <a name="dns-entries-for-custom-domains"></a>Записи DNS для пользовательских доменов
 
 <!-- before phase 9 -->
 
@@ -72,7 +76,7 @@ ms.locfileid: "51476353"
 Чтобы убедиться, что в пространстве имен DNS установлен CNAME, выполните действия ниже _и замените_ contoso.com своим доменным именем:
 
 ```console
-nslookup -querytype=CNMAE msoid.contoso.com
+nslookup -querytype=CNAME msoid.contoso.com
 ```
 
 Если командная строка возвращает запись DNS, удалите _msoid_ CNAME из домена.
@@ -215,7 +219,7 @@ Office 365 Germany customers who have Azure subscriptions under the same identit
 - A Message center notification will signal the point at which customer-led migration can begin.
 -->
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Начало работы:
 

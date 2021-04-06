@@ -1,6 +1,6 @@
 ---
 title: Сведения и результаты автоматического расследования
-description: Во время и после автоматического исследования вы можете просматривать результаты и основные выводы
+description: Просмотр результатов и ключевых выводов автоматического расследования в Microsoft 365 Defender
 keywords: автоматически, исследование, результаты, анализ, сведения, исправление, автоматизированный анализ угроз и реакция на них
 search.appverid: met150
 ms.prod: m365-security
@@ -21,13 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/08/2021
-ms.openlocfilehash: 05208dd8ba893d65db50430861ad5dd5ad9d34fb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ca023ea49a8d92123467be640a097a72233d3198
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198973"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592124"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Сведения и результаты автоматического расследования
 
@@ -61,8 +60,11 @@ ms.locfileid: "51198973"
 > У вас должны [быть определенные разрешения на](m365d-action-center.md#required-permissions-for-action-center-tasks) утверждение, отклонение или отмену действий.
 
 1. Перейдите на страницу [https://security.microsoft.com](https://security.microsoft.com) и войдите. 
+
 2. В панели навигации щелкните **Центр уведомлений**. 
+
 3. На вкладке **Ожидание** или **Журнал** выберите элемент. Откроется его поле для вылетов.
+
 4. Просмотрите сведения в области вылетов и примите один из следующих действий:
    - Выберите **страницу Open investigation,** чтобы просмотреть дополнительные сведения о расследовании.
    - Выберите **Утверждение,** чтобы инициировать ожидающих действий.
@@ -76,9 +78,13 @@ ms.locfileid: "51198973"
 ![Сведения об инциденте](../../media/mtp-incidentdetails-tabs.png)
 
 1. Перейдите на страницу [https://security.microsoft.com](https://security.microsoft.com) и войдите. 
+
 2. В области навигации выберите **Инциденты & оповещений**  >  **Об инцидентах**. 
+
 3. Выберите элемент в списке, а затем выберите страницу **Открытый инцидент**.
+
 4. Выберите **вкладку Исследования** и выберите исследование в списке. Откроется его поле для вылетов.
+
 5. Выберите **страницу Open investigation**. 
 
 ## <a name="investigation-details"></a>Сведения об исследовании

@@ -1,6 +1,6 @@
 ---
 title: Устранение неполадок с обслуживанием Microsoft 365 Defender
-description: Поиск решений и работа с известными вопросами Microsoft 365 Defender
+description: Поиск решений и обходных решений известных проблем Microsoft 365 Defender
 keywords: устранение неполадок Microsoft Threat Protection, устранение неполадок, ATP Azure, проблемы, надстройка, страница параметров
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8d8083cbba3582c41ca91c57978675987822d0d9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a2cd27bf7bf8b1c4931b9d768f3a6b5e5f2a0d93
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073934"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592040"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Устранение неполадок с обслуживанием Microsoft 365 Defender
 
@@ -49,6 +49,12 @@ ms.locfileid: "51073934"
 
 Дополнительные сведения см. в [веб-сайте Microsoft Defender для интеграции удостоверений.](/cloud-app-security/mdi-integration)
 
-## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Где страница параметров для включаемой службы?
+## <a name="where-is-the-settings-page-for-turning-on-the-service"></a>Где страница параметров для включаемой службы?
 
 Чтобы включить Microsoft 365 Defender, необходимо получить доступ **к** настройкам с области навигации в центре безопасности Microsoft 365. Этот элемент навигации виден только в том случае, если у вас есть необходимые разрешения [и лицензии.](m365d-enable.md#check-license-eligibility-and-required-permissions)
+
+## <a name="how-do-i-create-an-exception-for-my-fileurl"></a>Как создать исключение для файла или URL-адреса?
+
+Ложный срабатывка — это файл или URL-адрес, который обнаруживается как вредоносный, но не представляет угрозы. Можно создавать индикаторы и определять исключения для разблокировки и допуска определенных файлов и URL-адресов. См. [адрес ложных срабатыва-срабатыва-минусов в Защитнике для конечной точки.](/microsoft-365/security/defender-endpoint/defender-endpoint-false-positives-negatives)
+
+

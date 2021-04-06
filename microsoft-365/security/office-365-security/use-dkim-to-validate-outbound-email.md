@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 10/8/2019
+ms.date: 04/05/2021
 audience: ITPro
 ms.topic: article
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.custom:
 description: Узнайте, как использовать технологию DomainKeys Identified Mail (DKIM) для Microsoft 365, чтобы обеспечить доверие конечных почтовых систем к сообщениям, отправленным из вашего личного домена.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df380c739724ed285401af4af451b610129c382c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 5b5122984969113ec0c0533952ea3bf18bff5e5c
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206116"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592112"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена
 
@@ -60,11 +60,11 @@ Microsoft 365 автоматически настраивает DKIM для св
 
 - [Как DKIM работает лучше, чем один SPF, для предотвращения злонамеренного подмены](use-dkim-to-validate-outbound-email.md#HowDKIMWorks)
 
-- [Обновление 1024-разрядных ключей до 2048-разрядных ключей шифрования DKIM вручную](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
+- [Шаги по обновлению 1024-разрядных ключей до 2048-разрядных ключей шифрования DKIM вручную](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
 
-- [Шаги, которые необходимо сделать, чтобы вручную настроить DKIM](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
+- [Шаги для настройки DKIM вручную](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
 
-- [Чтобы настроить DKIM для нескольких пользовательских доменов](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
+- [Шаги для настройки DKIM для нескольких личных доменов](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
 
 - [Отключение политики подписи DKIM для пользовательского домена](use-dkim-to-validate-outbound-email.md#DisableDKIMSigningPolicy)
 
@@ -85,7 +85,7 @@ Microsoft 365 автоматически настраивает DKIM для св
 
 Подробности: DKIM использует закрытый ключ для вставки зашифрованной подписи в заголовки сообщений. Имя подписывающего домена (или домена исходящей почты) вставляется в заголовок в качестве значения поля **d=**. Проверяющий домен (или домен получателя) затем использует поле **d=** для поиска открытого ключа в DNS и проверки подлинности сообщения. Так сообщение проходит проверку DKIM.
 
-## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Обновление 1024-разрядных ключей до 2048-разрядных ключей шифрования DKIM вручную
+## <a name="steps-to-manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Шаги по обновлению 1024-разрядных ключей до 2048-разрядных ключей шифрования DKIM вручную
 <a name="1024to2048DKIM"> </a>
 
 Так как ключи DKIM могут быть 1024- и 2048-разрядными, эти инструкции предназначены для обновления 1024-разрядных ключей до 2048-разрядных в [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Описанные ниже действия относятся к двум вариантам использования. Выберите вариант, подходящий для вашей конфигурации.
@@ -192,7 +192,7 @@ TTL:                3600
 > Важно создать вторую запись, но только один из селекторов может быть доступен во время создания. По сути, второй селектор может указывать на адрес, который еще не создан. Мы все же рекомендуем создать вторую запись CNAME, так как ротация ключей будет беспроблемной.
 
 
-### <a name="enable-dkim-signing-for-your-custom-domain"></a>Включите подпись DKIM для вашего пользовательского домена
+### <a name="steps-to-enable-dkim-signing-for-your-custom-domain"></a>Шаги по включению подписи DKIM для личного домена
 <a name="EnableDKIMinO365"> </a>
 
 После публикации записей CNAME в DNS вы готовы включить подпись DKIM через Microsoft 365. Это можно сделать в Центре администрирования Microsoft 365 или с помощью PowerShell.
@@ -201,13 +201,13 @@ TTL:                3600
 
 1. [Войдите в Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4), используя свою рабочую или учебную учетную запись.
 
-2. В левом верхнем углу щелкните значок средства запуска приложений и выберите **Администратор**.
+2. Перейдите на сайт [protection.office.com](https://protection.office.com) или [security.microsoft.com](https://security.microsoft.com) в зависимости от того, какой портал вы используете, и следуйте пути, указанному ниже.
 
-3. В области навигации слева внизу разверните узел **Администратор** и выберите элемент **Exchange**.
+|protection.office.com  |security.microsoft.com  |
+|---------|---------|
+| Управление угрозами > Политика > Дополнительные политики > DKIM     | Сообщение электронной почты и совместная работа > Политики и правила > Политики в отношении угроз > Дополнительные политики > DKIM        | 
 
-4. Перейдите в раздел **Защита** \> **dkim**.
-
-5. Выберите домен, для которого требуется включить DKIM, а затем в разделе **Добавлять подписи DKIM в сообщения для этого домена** нажмите **Включить**. Повторите этот шаг для каждого личного домена.
+3. Выберите домен, для которого требуется включить DKIM, а затем в разделе **Добавлять подписи DKIM в сообщения для этого домена** нажмите **Включить**. Повторите этот шаг для каждого личного домена.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>Как включить подпись с помощью DKIM для личного домена, используя PowerShell
 

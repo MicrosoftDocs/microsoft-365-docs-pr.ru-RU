@@ -11,7 +11,6 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 01/29/2021
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -22,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 851fd05f0fec4b8d113e515783092eed0114db0f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: f57e68ba88879ed78170e6348ecdbce4db82b668
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199117"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592064"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Обработка ложных срабатыва-
 
@@ -74,4 +73,4 @@ ms.locfileid: "51199117"
 
 - [Просмотр сведений и результатов автоматического исследования](m365d-autoir-results.md)
 - [Активная охота на угрозы с расширенным поиском в Microsoft 365 Defender](advanced-hunting-overview.md)
-- [Устранение ложных срабатыва-минусов в Microsoft Defender для конечной точки](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)
+- [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)

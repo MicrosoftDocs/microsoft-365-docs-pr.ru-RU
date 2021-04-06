@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f6b085f200d3b0c71bb3608f8e5ba9ed85632676
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a6c7e7e920d18d9d8bf29d71d317008ea0c37bbf
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500328"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592100"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Расследование инцидентов в Microsoft 365 Defender
 
@@ -85,6 +85,10 @@ Microsoft 365 Defender агрегирует все связанные опове
 ![Изображение вкладки "Компьютеры" инцидента](../../media/incident-machines.png)
 
 Если выбрать вкладку "Временная шкала", можно прокрутить временную шкалу компьютера и просмотреть все события и поведение на компьютере в хронологическом порядке вместе с оповещениями.
+
+> [!TIP]
+> Вы можете делать проверки по запросу на странице устройства. В центре безопасности Microsoft 365 выберите **инвентаризацию устройств.** Выберите устройство с оповещениями, а затем запустите антивирусное сканирование. Действия, например антивирусное сканирование, отслеживаются и видны на странице **инвентаризации** устройств. Дополнительные дополнительные результаты см. в [веб-сайте Run Microsoft Defender Antivirus scan on devices.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)
+
 
 ## <a name="users"></a>Пользователи
 
