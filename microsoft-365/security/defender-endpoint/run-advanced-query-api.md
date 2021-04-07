@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: caf7a1bacfd726c560356d542bec3cf56c6b39d4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 40487143ff18cedb76c9f3f33c52cab24687c282
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200201"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604385"
 ---
 # <a name="advanced-hunting-api"></a>Расширенный API охоты
 
@@ -37,21 +37,27 @@ ms.locfileid: "51200201"
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 ## <a name="limitations"></a>Ограничения
+
 1. Запрос по данным можно выполнить только за последние 30 дней.
+
 2. Результаты будут включать не более 100 000 строк.
+
 3. Количество исполняемой работы ограничено для каждого клиента:
-   - Вызовы API: до 45 вызовов в минуту.
+   - Вызовы API: до 45 вызовов в минуту, до 1500 вызовов в час.
    - Время выполнения: 10 минут времени работы каждый час и 3 часа в день.
+
 4. Максимальное время выполнения одного запроса — 10 минут.
+
 5. Ответ 429 будет представлять достижение ограничения квоты по количеству запросов или по ЦП. Прочитайте текст ответа, чтобы понять, какой предел был достигнут. 
 
 ## <a name="permissions"></a>Разрешения
+
 Для вызова этого API требуется одно из следующих разрешений. Дополнительные дополнительные информации, в том числе о выборе разрешений, см. в этой [ссылке: Использование API endpoint Defender для Microsoft Defender](apis-intro.md)
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   AdvancedQuery.Read.All |    'Run advanced queries'
-Делегированное (рабочая или учебная учетная запись) | AdvancedQuery.Read | 'Run advanced queries'
+Приложение |   AdvancedQuery.Read.All |    'Run advanced queries'
+Делегированные (рабочая или учебная учетная запись) | AdvancedQuery.Read | 'Run advanced queries'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -59,7 +65,8 @@ Application |   AdvancedQuery.Read.All |    'Run advanced queries'
 >- Пользователь должен иметь доступ к устройству на основе параметров группы устройств (см. дополнительные сведения о создании и управлении [группами](machine-groups.md) устройств).
 
 ## <a name="http-request"></a>HTTP-запрос
-```
+
+```http
 POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 ```
 
@@ -71,6 +78,7 @@ POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 Content-Type    | application/json
 
 ## <a name="request-body"></a>Текст запроса
+
 В теле запроса поставляем объект JSON со следующими параметрами:
 
 Параметр | Тип    | Описание
@@ -78,12 +86,13 @@ Content-Type    | application/json
 Запрос | Текст |  Запрос для выполнения. **Обязательное поле**.
 
 ## <a name="response"></a>Отклик
+
 В случае успешного выполнения этот метод возвращает 200 ОК и _объект QueryResponse_ в теле отклика.
 
 
 ## <a name="example"></a>Пример
 
-Запрос
+##### <a name="request"></a>Запрос
 
 Ниже приведен пример запроса.
 
@@ -101,7 +110,7 @@ POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 }
 ```
 
-Отклик
+##### <a name="response"></a>Отклик
 
 Ниже приведен пример отклика.
 
@@ -145,7 +154,8 @@ POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 }
 ```
 
-## <a name="related-topic"></a>Связанная тема
+## <a name="related-topics"></a>Статьи по теме
+
 - [Microsoft Defender для внедрения API конечных точек](apis-intro.md)
 - [Расширенный поиск с портала](advanced-hunting-query-language.md)
-- [Расширенный метод охоты с помощью PowerShell](run-advanced-query-sample-powershell.md)
+- [Расширенная охота с помощью PowerShell](run-advanced-query-sample-powershell.md)

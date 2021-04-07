@@ -15,12 +15,12 @@ ms.custom:
 description: Администраторы в автономных организациях Exchange Online Protection (EOP) могут научиться создавать, изменять и удалять группы рассылки и группы безопасности с поддержкой почты в центре администрирования Exchange (EAC) и в автономных powerShell Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3b97e3fac0840753edada964252875a6e3a4fa04
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b9d83f2fb59ee8f8d2d3035045ed438d5ba45851
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205058"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599573"
 ---
 # <a name="manage-groups-in-eop"></a>Управление группами в EOP
 
@@ -102,7 +102,7 @@ ms.locfileid: "51205058"
 
 3. На открываемой странице свойств групп рассылки щелкните одну из следующих вкладок, чтобы просмотреть или изменить свойства.
 
-   Когда закончите, нажмите кнопку **Сохранить**.
+   По завершении нажмите кнопку **Сохранить**.
 
 #### <a name="general"></a>Общие
 
@@ -216,7 +216,7 @@ $CurrentMemberNames += "Tyson Fawcett"
 Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMemberNames
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [set-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/set-eopdistributiongroup) и [Update-EOPDistributionGroupMember.](https://docs.microsoft.com/powershell/module/exchange/update-eopdistributiongroupmember)
+Подробные сведения о синтаксисах и параметрах см. в [set-EOPDistributionGroup](/powershell/module/exchange/set-eopdistributiongroup) и [Update-EOPDistributionGroupMember.](/powershell/module/exchange/update-eopdistributiongroupmember)
 
 ### <a name="remove-a-group-using-remote-windows-powershell"></a>Удалите группу с помощью удаленного Windows PowerShell
 
@@ -226,7 +226,7 @@ Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMem
 Remove-EOPDistributionGroup -Identity "IT Administrators"
 ```
 
-Подробные сведения о синтаксисах и параметрах см. в [инструкции Remove-EOPDistributionGroup.](https://docs.microsoft.com/powershell/module/exchange/remove-eopdistributiongroup)
+Подробные сведения о синтаксисах и параметрах см. в [инструкции Remove-EOPDistributionGroup.](/powershell/module/exchange/remove-eopdistributiongroup)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 

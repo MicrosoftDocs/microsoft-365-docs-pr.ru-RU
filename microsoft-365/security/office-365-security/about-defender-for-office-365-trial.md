@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Администраторы могут узнать о пробном режиме Microsoft Defender для Office 365
-ms.openlocfilehash: c2c1e44741a8604ce60586a85a28d32851285403
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1a86a73dbdb8f2549fb5dc03ece56497c5ff0b1e
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206738"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599799"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>О пробной пробной записи Microsoft Defender для Office 365
 
@@ -98,7 +98,7 @@ Defender for Office 365 помогает организациям обеспеч
 - [Обнаружение обозревателя угроз и обнаружения в режиме реального времени](threat-explorer.md)
 - [Отчеты в режиме реального времени в Defender для Office 365](view-reports-for-mdo.md)
 - [Отслеживание угроз — новые и заслуживающие внимания](threat-trackers.md)
-- Интеграция [с Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)
+- Интеграция [с Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 ### <a name="response-and-remediation"></a>Реагирование и исправление
 

@@ -19,12 +19,12 @@ description: Используйте обнаружение explorer и в реж
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c5935115d7496aca22c3941f34983cddebe7b46
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 7c601169d76fe92ac3038ccb25c5c50aa390f714
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570988"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599891"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обнаружение обозревателя угроз и обнаружения в режиме реального времени
 
@@ -113,7 +113,7 @@ ms.locfileid: "51570988"
 > [!div class="mx-imgBorder"]
 > ![ТЕГИ URL-адресов](../../media/tags-urls.png)
 > 
-Узнайте больше, просмотрев [это видео.](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4) 
+Узнайте больше, посмотрев [это](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4) видео. 
 
 ## <a name="improvements-to-the-threat-hunting-experience-upcoming"></a>Улучшения в области охоты на угрозы (предстоящие)
 
@@ -206,7 +206,7 @@ ms.locfileid: "51570988"
 
 - Показать полный щелкнув URL-адрес (в том числе все параметры запроса, которые являются частью URL-адреса) в разделе **Щелчки** в флажок URL-адрес. В настоящее время домен URL-адреса и путь отображаются в панели заголовков. Мы расширяем эту информацию, чтобы показать полный URL-адрес.
 
-- Исправление фильтров URL-адресов *(URL-адрес* и URL-адрес, а также URL-адрес домена и *пути):* Обновления влияют на поиск сообщений, содержащих URL-адрес и нажмите кнопку вердикт.  Мы включили поддержку для протокольного агностика поиска, поэтому вы можете искать URL-адрес без использования `http` . По умолчанию url-карты поиска для http, если явно не указано другое значение. Например,
+- Исправление фильтров URL-адресов *(URL-адрес* и URL-адрес, а также URL-адрес домена и *пути):* Обновления влияют на поиск сообщений, содержащих URL-адрес и нажмите кнопку вердикт.  Мы включили поддержку для протокольного агностика поиска, поэтому вы можете искать URL-адрес без использования `http` . По умолчанию url-карты поиска для http, если явно не указано другое значение. Например:
 
    -  Поиск с префиксом и без него в полях `http://` **фильтрации** URL-адресов, **URL-адресов** и **URL-адресов.** Результаты поиска должны быть одинаковыми.
 
@@ -520,7 +520,7 @@ Url-сигнал ZAP обычно используется для сценари
 - [Просмотр вредоносных файлов, обнаруженных в SharePoint Online, OneDrive и Microsoft Teams](./mdo-for-spo-odb-and-teams.md)
 - [Обзор представлений в Обозревателе угроз (и обнаружения в режиме реального времени)](threat-explorer-views.md)
 - [отчет о состоянии защиты от угроз](view-email-security-reports.md#threat-protection-status-report);
-- [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](../defender/m365d-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>Обязательные лицензии и разрешения
 

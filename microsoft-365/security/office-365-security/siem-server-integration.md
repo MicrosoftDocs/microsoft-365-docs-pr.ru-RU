@@ -18,12 +18,12 @@ ms.custom:
 description: Получение обзора интеграции серверов служб безопасности и управления событиями (SIEM) с облачными службами и приложениями Microsoft 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d060b3c12304f6a23ad9421bb43e54c4cd561af5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: bea8aa3914da4b813f3928eddbb6df9c98ef6605
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206818"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599951"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция серверов системы безопасности и управления событиями (SIEM) с службами и приложениями Microsoft 365
 
@@ -58,7 +58,7 @@ ms.locfileid: "51206818"
 |Служба Или приложение Microsoft 365|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
 |---|---|---|
 |[Microsoft Defender для Office 365](defender-for-office-365.md)|Журналы аудита|[Интеграция SIEM с Microsoft Defender для Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)|Конечная точка HTTPS, организованная в Azure <p> REST API|[Вытащать оповещения в инструменты SIEM](../defender-endpoint/configure-siem.md)|
+|[Microsoft Defender для конечной точки](/windows/security/threat-protection/)|Конечная точка HTTPS, организованная в Azure <p> REST API|[Вытащать оповещения в инструменты SIEM](../defender-endpoint/configure-siem.md)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|Интеграция журнала|[Интеграция SIEM с безопасностью облачных приложений Майкрософт](/cloud-app-security/siem)|
 |
 

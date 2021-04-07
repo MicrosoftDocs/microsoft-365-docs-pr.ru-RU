@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1460deef11a87044530c54c8b10637284829a0cd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6dfa22b2afb33c318eae8937888b5b75a1742938
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206678"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599470"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Автоматическое исследование и ответ (AIR) в Microsoft Defender для Office 365
 
@@ -81,11 +81,9 @@ AIR позволяет вашей группе операций безопасн
 - [Политики antimalware](protect-against-threats.md#part-1---anti-malware-protection)
 - [Защита от антифашинга](protect-against-threats.md#part-2---anti-phishing-protection)
 - [Защита от нежелательной почты](protect-against-threats.md#part-3---anti-spam-protection)
-- [Защита от антифашинга](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-2---anti-phishing-protection)
-- [Защита от нежелательной почты](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-3---anti-spam-protection)
-- [Безопасные ссылки и безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
-- [Безопасные вложения для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
-- [Автоматическая очистка нулевого часа для электронной почты](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop)
+- [Безопасные ссылки и безопасные вложения](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
+- [Безопасные вложения для SharePoint, OneDrive и Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
+- [Автоматическая очистка нулевого часа для электронной почты](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
 
 Кроме того, обязательно просмотрите политики оповещения вашей [организации,](../../compliance/alert-policies.md)особенно политики по умолчанию в категории [управление угрозами.](../../compliance/alert-policies.md#default-alert-policies)
 
@@ -94,7 +92,7 @@ AIR позволяет вашей группе операций безопасн
 Microsoft 365 предоставляет множество встроенных политик оповещения, которые помогают выявлять злоупотребления разрешениями администратора Exchange, активность вредоносных программ, потенциальные внешние и внутренние угрозы, а также риски управления информацией. Несколько политик [оповещений по](../../compliance/alert-policies.md#default-alert-policies) умолчанию могут вызывать автоматические расследования. В следующей таблице описываются оповещения, запускаемые автоматическими расследованиями, их серьезность в центре безопасности Microsoft 365, а также то, как они создаются:
 
 |Оповещение|Severity|Как создается оповещение|
-|:---|:---|:---|
+|---|---|---|
 |Обнаружен потенциально вредоносный URL-адрес|**Высокий**|Это оповещение создается при следующем: <ul><li>Пользователь, защищенный [безопасными ссылками](safe-links.md) в организации, щелкает вредоносную ссылку</li><li>Изменения вердикта для URL-адресов определены Microsoft Defender для Office 365</li><li>Пользователи переопределяют страницы предупреждения о безопасных ссылках (в зависимости от политики [безопасных ссылок организации).](set-up-safe-links-policies.md)</li></ul> <p> Дополнительные сведения о событиях, которые вызывают это оповещение, см. в дополнительных сведениях [о политиках "Настройка безопасных ссылок".](set-up-safe-links-policies.md)|
 |Сообщение электронной почты сообщается пользователем как вредоносные программы или фишинг|**Информационная**|Это предупреждение создается, когда пользователи в организации сообщают сообщения в качестве фишинговой электронной почты с помощью надстройки [Report Message](enable-the-report-message-add-in.md) или надстройки [Report Phishing.](enable-the-report-phish-add-in.md)|
 |Сообщения электронной почты, содержащие вредоносные программы, удаляются после доставки|**Информационная**|Это предупреждение создается при доставке любых сообщений электронной почты, содержащих вредоносные программы, в почтовые ящики в организации. Если это событие происходит, Корпорация Майкрософт удаляет зараженные сообщения из почтовых ящиков Exchange Online с помощью автоматической очистки нулевого [часа](zero-hour-auto-purge.md).|
@@ -113,7 +111,7 @@ Microsoft 365 предоставляет множество встроенных
 |Task|Роль(ы) требуется|
 |---|---|
 |Настройка функций AIR|Одна из следующих ролей: <ul><li>Глобальный администратор</li><li>Администратор безопасности</li></ul> <p> Эти роли могут быть назначены в [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в Центре [& безопасности.](permissions-in-the-security-and-compliance-center.md)|
-|Запуск автоматического расследования <p> --- или --- <p> Утверждение или отклонение рекомендуемых действий|Одна из следующих ролей, назначенная в [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в Центре [& безопасности:](permissions-in-the-security-and-compliance-center.md) <ul><li>Глобальный администратор</li><li>Администратор безопасности</li><li>Оператор безопасности</li><li>Читатель сведений о безопасности <br> --- и --- </li><li>Поиск и очистка (эта роль назначена только в центре [& безопасности.](permissions-in-the-security-and-compliance-center.md) Возможно, вам придется создать там новую группу ролей и добавить роль Поиска и очистки в эту новую группу ролей.</li></ul>|
+|Запуск автоматического исследования <p> --- или --- <p> Утверждение или отклонение рекомендуемых действий|Одна из следующих ролей, назначенная в [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в Центре [& безопасности:](permissions-in-the-security-and-compliance-center.md) <ul><li>Глобальный администратор</li><li>Администратор безопасности</li><li>Оператор безопасности</li><li>Читатель сведений о безопасности <br> --- и --- </li><li>Поиск и очистка (эта роль назначена только в центре [& безопасности.](permissions-in-the-security-and-compliance-center.md) Возможно, вам придется создать там новую группу ролей и добавить роль Поиска и очистки в эту новую группу ролей.</li></ul>|
 
 ## <a name="required-licenses"></a>Необходимые лицензии
 
@@ -121,8 +119,7 @@ Microsoft 365 предоставляет множество встроенных
 
 - Администраторы безопасности (в том числе глобальные администраторы)
 - Группа операций по безопасности организации (в том числе читатели безопасности и те, кто играет роль **поиска и очистки)**
-- Конечные пользователи
-
+- Пользователи
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>В ближайшее время в центре безопасности будут внесены изменения
 
@@ -152,9 +149,9 @@ Microsoft 365 предоставляет множество встроенных
 |**Вкладка Entities**|Вкладка **Entities** имеет стиль вкладки в вкладке, который включает представление всей сводки и возможность фильтрации по типу сущности. Вкладка **Entities** теперь включает в себя параметр **Go hunting** в дополнение к **параметру Open in Explorer.** Теперь можно использовать обозреватель [угроз](threat-explorer.md) или [расширенный](../defender-endpoint/advanced-hunting-overview.md) поиск для поиска сущностями и угрозами и фильтрации результатов.|
 |**Вкладка Действия**|Обновленная **вкладка Действия** теперь включает вкладку **Ожидающих** действий и вкладку **история действий.** Действия могут быть утверждены (или отклонены) в боковой области, открываемой при выборе ожидающих действий.|
 |**Вкладка "Доказательства"**|На новой **вкладке Evidence** показаны результаты ключевых элементов, связанных с действиями. Действия, связанные с каждым фрагментом доказательств, могут быть утверждены (или отклонены) в боковой области, открываемой при выборе ожидающих действий.|
-|**Центр уведомлений**|Обновленный центр **действий** () объединяет ожидающих и завершенных действий [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) по электронной почте, устройствам и удостоверениям. Дополнительные дополнительные действия см. в центре действий. Подробнее см. в центре [действий.)](https://docs.microsoft.com/microsoft-365/security/defender/mtp-action-center)
-|**Страница Инциденты**|Теперь **страница Incidents** сопоставляет несколько расследований, чтобы обеспечить более консолидированное представление о расследованиях. ([Дополнительные новости об инцидентах.)](https://docs.microsoft.com/microsoft-365/security/defender/incidents-overview)
-
+|**Центр уведомлений**|Обновленный центр **действий** () объединяет ожидающих и завершенных действий [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) по электронной почте, устройствам и удостоверениям. Дополнительные дополнительные действия см. в центре действий. Подробнее см. в центре [действий.)](../defender/m365d-action-center.md)|
+|**Страница Инциденты**|Теперь **страница Incidents** сопоставляет несколько расследований, чтобы обеспечить более консолидированное представление о расследованиях. ([Дополнительные новости об инцидентах.)](../defender/incidents-overview.md)|
+|
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

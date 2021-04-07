@@ -20,19 +20,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 5a705444c81d884c10b99e5f0d2bfbb9e4f057e2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c5f5837f4e4069a67bc080178fefd10bd2a08629
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206548"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599855"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
 
 **Область применения**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Microsoft Defender для Office 365 (план 1 и план 2)](defender-for-office-365.md)
-
 
 В этой статье описано, как реализовать рекомендуемые политики доступа к удостоверениям и устройствам для защиты корпоративных клиентов электронной почты и электронной почты, поддерживаюющих современную проверку подлинности и условный доступ. Это руководство строится на [общих](identity-access-policies.md) политиках доступа к удостоверениям и устройствам, а также содержит несколько дополнительных рекомендаций.
 
@@ -103,7 +102,7 @@ ms.locfileid: "51206548"
 
 Чтобы пользователи устройств с iOS и Android могли получать доступ только к работе или школьному контенту с помощью Outlook для iOS и Android, необходима политика условного доступа, ориентированная на этих потенциальных пользователей.
 
-Действия по настройке этой политики см. в обзоре Управление доступом к совместной работе с сообщениями с [помощью Outlook для iOS и Android.]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
+Действия по настройке этой политики см. в обзоре Управление доступом к совместной работе с сообщениями с [помощью Outlook для iOS и Android.](/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
 
 ## <a name="set-up-message-encryption"></a>Настройка шифрования сообщений
 

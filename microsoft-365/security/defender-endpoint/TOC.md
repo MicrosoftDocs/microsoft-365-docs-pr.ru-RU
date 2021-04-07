@@ -115,6 +115,8 @@
 ##### [Включить контролируемый доступ к папкам](enable-controlled-folders.md)
 ##### [Настройка контролируемого доступа к папкам](customize-controlled-folders.md)
 
+### [Сетевые устройства](network-devices.md)
+
 ### [Microsoft Defender для конечной точки для Mac]()
 #### [Обзор Microsoft Defender для конечной точки для Mac](microsoft-defender-endpoint-mac.md)
 #### [Новые возможности](mac-whatsnew.md)

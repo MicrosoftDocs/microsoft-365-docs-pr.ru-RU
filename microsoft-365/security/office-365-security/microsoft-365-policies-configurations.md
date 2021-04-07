@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: cb3c6bf6e19088be2771747af12932fa4e80431a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9d7170ff261a53ba5755134973a912221363b3c8
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206938"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599811"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
@@ -43,14 +43,13 @@ ms.locfileid: "51206938"
 Эти возможности и их рекомендации:
 
 - Поддерживаются в Microsoft 365 E3 и Microsoft 365 E5.
-- Выровнены с [показателем microsoft Secure Score,](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score) а также показателем удостоверений [в Azure AD](/azure/active-directory/fundamentals/identity-secure-score)и увеличит эти баллы для вашей организации.
+- Выровнены с [показателем microsoft Secure Score,](../defender/microsoft-secure-score.md) а также показателем удостоверений [в Azure AD](/azure/active-directory/fundamentals/identity-secure-score)и увеличит эти баллы для вашей организации.
 - Это поможет вам реализовать эти [пять шагов по обеспечению безопасности инфраструктуры удостоверений.](/azure/security/azure-ad-secure-steps)
 
 Если в организации есть уникальные требования к среде или сложности, используйте эти рекомендации в качестве отправной точки. Однако большинство организаций могут выполнять эти рекомендации по назначению.
 
 Просмотрите это видео для быстрого обзора конфигураций удостоверений и доступа к устройствам для Microsoft 365 для предприятия.
-<br>
-<br>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxEDQ]
 
 > [!NOTE]

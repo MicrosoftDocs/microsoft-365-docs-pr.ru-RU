@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить локальное Exchange Server для использования гибридной современной проверки подлинности (HMA), предлагая более безопасную проверку подлинности и авторизацию пользователей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9393b457c219fb03ae2e8a35c3f795c324919f27
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e0a0e521f4ac81a8aa113b2e945045d31f2c1952
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579726"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599503"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Как настроить локальное развертывание Exchange Server для использования гибридной современной проверки подлинности
 
@@ -65,6 +65,9 @@ ms.locfileid: "51579726"
 ## <a name="make-sure-you-meet-all-the-prerequisites"></a>Убедитесь, что вы соответствуете всем необходимым требованиям
 
 Так как для Skype для бизнеса и Exchange используется множество необходимых условий, просмотрите обзор гибридной современной проверки подлинности и необходимые условия для его использования на локальном сервере Skype для бизнеса и [Exchange.](hybrid-modern-auth-overview.md) Сделайте  *это,*  прежде чем приступить к любым шагам в этой статье.
+
+> [!NOTE]
+> Outlook Web App и Панель управления Exchange не работают с гибридной современной проверкой подлинности.
 
 ## <a name="add-on-premises-web-service-urls-as-spns-in-azure-ad"></a>Добавление URL-адресов веб-службы на локальной основе в качестве SPNs в Azure AD
 
@@ -185,6 +188,8 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 52.125.128.0/20
 52.127.96.0/23
 ```
+
+Приложение Outlook для iOS и Android разработано как оптимальный способ работы с Microsoft 365 или Office 365 на мобильном устройстве с помощью служб Майкрософт для поиска, планирования и приоритетов вашей повседневной жизни и работы. Дополнительные сведения можно получить в ссылке Использование гибридной современной проверки подлинности [с Outlook для iOS и Android.](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)
 
 ## <a name="related-topics"></a>Статьи по теме
 

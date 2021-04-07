@@ -20,12 +20,12 @@ description: Пользователям необходимо получить р
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 16dbbe81d1131821dfdbf75caff5b5121f8cc45b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7cd36ac0dec20851a423acd58e5ad7d38cb65d93
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206307"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599927"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Предоставление пользователям доступа к Центру безопасности и соответствия требованиям
 
@@ -60,11 +60,11 @@ ms.locfileid: "51206307"
 
 4. Когда вы выбрали всех пользователей, которые необходимо добавить в группу ролей, нажмите **кнопку добавить \> и** затем **ОК**.
 
-5. Когда закончите, нажмите кнопку **Сохранить**.
+5. По завершении нажмите кнопку **Сохранить**.
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Используйте центр & безопасности PowerShell, чтобы предоставить другому пользователю доступ к Центру & безопасности
 
-1. [Подключение к Центру безопасности и соответствия требованиям Windows PowerShell](/powershell/exchange/connect-to-scc-powershell).
+1. [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell).
 
 2. Используйте следующий синтаксис:
 
@@ -80,7 +80,7 @@ ms.locfileid: "51206307"
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-Подробные вопросы синтаксиса и параметров см. в [добавлении-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)
+Подробные вопросы синтаксиса и параметров см. в [добавлении-RoleGroupMember](/powershell/module/exchange/add-rolegroupmember)
 
 ### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 

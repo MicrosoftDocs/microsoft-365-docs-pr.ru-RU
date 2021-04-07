@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Узнайте, как настроить приложения Microsoft 365, такие как Teams, OneDrive и SharePoint для совместной работы с людьми за пределами организации.
-ms.openlocfilehash: 359e72c12c43ca1ea984f93d87ab4868e6d1eb66
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 85aa77982fa15adb62bd587856546d2828edb942
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916398"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599823"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Совместная работа с людьми, находящимися за пределами организации
 
@@ -33,6 +33,8 @@ ms.locfileid: "50916398"
 
 - **Включить общий** доступ . Настройка элементов управления совместной деятельностью в Azure Active Directory, Teams, Microsoft 365 Groups и SharePoint, чтобы разрешить уровень общего доступа, который необходимо для вашей организации.
 - **Включить** дополнительную безопасность . Хотя основные функции общего доступа можно настроить, чтобы требовать от пользователей вне организации проверки подлинности, Microsoft 365 предоставляет множество дополнительных функций безопасности и соответствия требованиям, которые помогут защитить данные и сохранить политики управления при внешнем совместном использовании.
+
+Ознакомьтесь с разделом Настройка безопасной совместной работы с [Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams) и Microsoft Teams, чтобы узнать, как внешний общий доступ связан с общим руководством по совместной работе Microsoft 365.
 
 ## <a name="enable-sharing"></a>Включить общий доступ
 
@@ -60,7 +62,7 @@ ms.locfileid: "50916398"
 
 Если некоторые функции общего доступа в Microsoft 365 конфликтуют с политиками управления, см. в разделе Limit [sharing in Microsoft 365,](microsoft-365-limit-sharing.md) чтобы узнать о вариантах ограничения общего доступа.
 
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Статьи по теме
 
 [Интро для совместной работы с файлами в Microsoft 365](/sharepoint/intro-to-file-collaboration)
 
