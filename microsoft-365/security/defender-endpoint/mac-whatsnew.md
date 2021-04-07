@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 16d78cf014e775ecb98a59d90b5734836eb3cbf2
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 5cd1f64d006b5462634dd47df9083e1a89db0e8c
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476629"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615223"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Новые возможности в Microsoft Defender для конечной точки для Mac
 
@@ -38,8 +38,10 @@ ms.locfileid: "51476629"
 > [!IMPORTANT]
 > В macOS 11 (Big Sur) Microsoft Defender для конечной точки требует дополнительных профилей конфигурации. Если вы существующий клиент, обновляющийся из более ранних версий macOS, не забудьте развернуть дополнительные профили конфигурации, перечисленные [на этой странице.](mac-sysext-policies.md)
 
-> [!IMPORTANT]
-> Поддержка macOS 10.13 (High Sierra) прекращена 15 февраля 2021 г.
+## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
+
+- Microsoft Defender для конечной точки для Mac теперь доступен в предварительной версии для государственных клиентов США. Дополнительные сведения см. в [веб-сайте Microsoft Defender for Endpoint для государственных клиентов США.](gov.md)
+- Улучшения производительности (в частности, для ситуации, когда используется приложение XCode Simulator) & исправлений ошибок
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
 

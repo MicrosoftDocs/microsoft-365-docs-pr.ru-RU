@@ -24,81 +24,31 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Поймите причины, по которым иногда переключение планов должно быть сделано вручную или с помощью службы поддержки.
-ms.openlocfilehash: 0880337e4879c093119b98f4d0108ca65c17e705
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 41cc0511b1c04249a6c359054b2fdc829ca40713
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164465"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615331"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Почему нельзя переключить Microsoft 365 на бизнес-планы?
 
-::: moniker range="o365-worldwide"
 > [!NOTE]
 > Эта статья применяется к старому центру администрирования. Чтобы просмотреть статью о центре администрирования (предварительная версия), см. в статье Почему я не могу обновить [планы?.](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) Предварительный просмотр доступен для всех администраторов Microsoft 365,  вы можете выбрать, выбрав переопробовку, расположенную в верхней части домашней страницы. Дополнительные сведения см. в статье [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
-::: moniker-end
 
 Если вы не видите кнопку **Переключатель планов,** ваш план не может быть включен автоматически. В некоторых случаях можно разрешить проблему так, чтобы можно было использовать кнопку **Switch plans,** или вместо этого можно было переключать планы [вручную.](switch-plans-manually.md) Расположите мышь над значком информации, чтобы просмотреть сообщение, объясняя, почему кнопка **Switch plans** недоступна. Чтобы устранить проблему, используйте сведения в этой статье.
-  
-::: moniker range="o365-worldwide"
 
  **Нужно выполнить другую задачу?** [Покупка другой подписки](../try-or-buy-microsoft-365.md)  |  [Отмена подписки](cancel-your-subscription.md)  |  [Подписки и выставление счета](../index.yml)  |  [Поддержка вызовов](../../admin/contact-support-for-business-products.md)
-::: moniker-end
-
-::: moniker range="o365-germany"
-
- **Нужно выполнить другую задачу?** [Покупка другой подписки](../try-or-buy-microsoft-365.md)  |  [Отмена подписки](cancel-your-subscription.md)  |  [Подписки и выставление счета](../index.yml)  |  [Поддержка вызовов](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
- **Нужно выполнить другую задачу?** [Покупка или попытка подписки на Office 365, выполняемые 21Vianet](../../admin/services-in-china/buy-or-try-subscriptions.md)  |  [Отмена подписки](cancel-your-subscription.md)  |  [Поддержка вызовов](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
 
 ## <a name="why-isnt-the-switch-plans-button-available-for-my-subscription"></a>Почему кнопка переключения планов недоступна для моей подписки?
 
 ### <a name="you-cant-switch-subscriptions-now-because-you-have-more-users-than-licenses"></a>Вы не можете сменить подписку, так как у вас больше пользователей, чем лицензий.
 
-::: moniker range="o365-worldwide"
-
 Для автоматического переключения планов с помощью кнопки **Переключить планы** всем вашим пользователям должны быть назначены действующие лицензии. Если вы назначили больше лицензий, чем приобрели, на странице <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a> появляется предупреждение о конфликте лицензирования, который необходимо устранить. [Узнайте, как устранить конфликты лицензий](../../commerce/licenses/buy-licenses.md). После устранения всех конфликтов лицензий вы должны увидеть кнопку **Переключить планы**. Если нет, можно [переключать планы вручную](switch-plans-manually.md)или [вызывать службу поддержки.](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Для автоматического переключения планов с помощью кнопки **Переключить планы** всем вашим пользователям должны быть назначены действующие лицензии. Если вы назначили больше лицензий, чем приобрели, на странице <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Лицензии</a> появляется предупреждение о конфликте лицензирования, который необходимо устранить. [Узнайте, как устранить конфликты лицензий](../../commerce/licenses/buy-licenses.md). После устранения всех конфликтов лицензий вы должны увидеть кнопку **Переключить планы**. Если нет, можно [переключать планы вручную](switch-plans-manually.md)или [вызывать службу поддержки.](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-Для автоматического переключения планов с помощью кнопки **Переключить планы** всем вашим пользователям должны быть назначены действующие лицензии. Если вы назначили больше лицензий, чем приобрели, на странице <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Лицензии</a> появляется предупреждение о конфликте лицензирования, который необходимо устранить. [Узнайте, как устранить конфликты лицензий](../../commerce/licenses/buy-licenses.md). После устранения всех конфликтов лицензий вы должны увидеть кнопку **Переключить планы**. Если нет, можно [переключать планы вручную](switch-plans-manually.md)или [вызывать службу поддержки.](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
 
 ### <a name="you-cant-switch-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>Вы не можете сменить подписку, так как она настроена не до конца или служба недоступна.
 
-
-::: moniker range="o365-worldwide"
-
 Чтобы узнать, есть ли проблемы с обеспечением или обслуживанием, <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank"></a> в центре администрирования перейдите на страницу здоровья службы или выберите состояние  \> **службы здравоохранения.**
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Чтобы узнать, имеются ли проблемы с обеспечением или обслуживанием, в центре <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank"></a> администрирования Microsoft  365 перейдите на страницу здоровья службы или выберите состояние \> **службы здравоохранения.**
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-Чтобы узнать, имеются ли проблемы с обеспечением или обслуживанием, в центре <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank"></a> администрирования Microsoft  365 перейдите на страницу здоровья службы или выберите состояние \> **службы здравоохранения.**
-
-::: moniker-end
 
 Если окажется, что работоспособность службы ограничена или имеются другие проблемы с ее работой, подождите несколько часов, пока доступность службы восстановится, и попробуйте еще раз. Если у вас все еще есть проблемы, обратитесь [в службу поддержки](../../admin/contact-support-for-business-products.md).
   

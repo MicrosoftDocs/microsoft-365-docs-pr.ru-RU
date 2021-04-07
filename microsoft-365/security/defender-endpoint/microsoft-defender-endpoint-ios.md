@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 72c3cfd51e472bbbda61f0084e131c4298633193
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 7d4bc095a9fbc0b9cd166d3133ed291a2c8c01da
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186993"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615427"
 ---
 # <a name="microsoft-defender-for-endpoint-for-ios"></a>Microsoft Defender для конечной точки для iOS
 
@@ -78,7 +78,7 @@ ms.locfileid: "51186993"
 
 ## <a name="resources"></a>Ресурсы
 
-- Будьте в курсе предстоящих выпусков, посетив наш [блог](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS).
+- Будьте в курсе предстоящих выпусков, посетив новые возможности [в Microsoft Defender для конечной](ios-whatsnew.md) точки для iOS или в нашем [блоге.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
 
 - Предоставление обратной связи через систему обратной связи в приложении или через [портал SecOps](https://securitycenter.microsoft.com)
 

@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: ce87b6e9e462ba5bd1bab1542c41ac72092dabd4
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 38fe205227089acaec1ba0cbecffdfb76acf6a24
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500592"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615475"
 ---
-# <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
+# <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>Понимание схемы расширенных схем охоты в Microsoft Defender для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -75,6 +75,9 @@ ms.locfileid: "51500592"
 | **[DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md)** | События по оценке контроля угроз и уязвимостей, указывающие состояние различных конфигураций безопасности на устройствах |
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)** | База знаний различных конфигураций безопасности, используемых системой контроля угроз и уязвимостей для оценки устройств; включает в себя сопоставления с различными стандартами и контрольными показателями |
 
+>[!TIP]
+>Используйте расширенный метод охоты в [Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включение Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable)<br><br>
+Узнайте больше о том, как переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde).
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)

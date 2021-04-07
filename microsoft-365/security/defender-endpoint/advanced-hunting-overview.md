@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4883a4f04f06774d02aa0d942edc841867eb36b6
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 9e5f29874ae42f2b82906a5ac0d2e615009d499f
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499521"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615487"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Активная охота на угрозы с расширенным поиском
 
@@ -43,7 +43,8 @@ ms.locfileid: "51499521"
 Вы можете использовать одни и те же запросы на поиск угроз для создания пользовательских правил обнаружения. Эти правила запускаются автоматически для проверки и реагирования на предполагаемые нарушения, неправильного устройства и других выводов.
 
 >[!TIP]
->Используйте [расширенный](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview) метод охоты в Microsoft Threat Protection для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включение Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
+>Используйте расширенный метод охоты в [Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включи Microsoft 365 Defender.](/microsoft-365/security/defender/m365d-enable)<br><br>
+Узнайте больше о том, как переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde).
 
 ## <a name="get-started-with-advanced-hunting"></a>Начало работы с расширенным выслеживанием
 

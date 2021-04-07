@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 0baefab441b17aa4a9527536cead181bae8f8948
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 4ce52c40e622f55b0fd231ec634c4897fea1d6f5
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599999"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615499"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>Политики для допуска гостевого доступа и внешнего доступа к пользователю B2B
 
@@ -82,10 +82,12 @@ Microsoft Teams определяет следующих пользователе
 
 ## <a name="next-step"></a>Следующий шаг
 
-![Шаг 4. Политики для облачных приложений Microsoft 365](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![Шаг 4. Политики для облачных приложений Microsoft 365 и безопасности облачных приложений Майкрософт](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 Настройка политик условного доступа для:
 
 - [Microsoft Teams](teams-access-policies.md)
 - [Exchange Online](secure-email-recommended-policies.md)
 - [SharePoint](sharepoint-file-access-policies.md)
+- [Microsoft Cloud App Security](mcas-saas-access-policies.md)
+ 
