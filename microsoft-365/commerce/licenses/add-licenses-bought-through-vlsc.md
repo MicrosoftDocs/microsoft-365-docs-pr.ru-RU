@@ -22,44 +22,34 @@ search.appverid:
 - BEA160
 ms.assetid: 82ba88fa-ebdf-4d44-a7b3-cea82b25d71a
 ROBOTS: NOINDEX
-description: Узнайте, как добавить лицензии в подписку на Microsoft 365, приобретенную у сторонного партнера, распознаемого корпорацией Майкрософт.
-ms.openlocfilehash: 7670a7eb8fffbb3aef8cc3e20f2170c1b2674bd4
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Узнайте, как добавить лицензии в подписку Microsoft 365, приобретенную через сторонного партнера, признанного корпорацией Майкрософт.
+ms.openlocfilehash: 6a20955e83a05a46c1ac52c63dda374ec9d83f51
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638247"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615343"
 ---
-# <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a><span data-ttu-id="336d0-103">Добавление лицензий для подписки, приобретенной в Центре обслуживания для корпоративного лицензирования</span><span class="sxs-lookup"><span data-stu-id="336d0-103">Add licenses to a subscription purchased through the Volume Licensing Service Center</span></span>
+# <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a><span data-ttu-id="c45df-103">Добавление лицензий для подписки, приобретенной в Центре обслуживания для корпоративного лицензирования</span><span class="sxs-lookup"><span data-stu-id="c45df-103">Add licenses to a subscription purchased through the Volume Licensing Service Center</span></span>
 
-<span data-ttu-id="336d0-104">Если вы приобрели план Microsoft 365 для бизнеса или Office 365 корпоративный у сторонного партнера, вам необходимо приобрести дополнительные лицензии у этого партнера.</span><span class="sxs-lookup"><span data-stu-id="336d0-104">If you purchased your Microsoft 365 for business or Office 365 Enterprise plan through a third party partner, you must buy additional licenses through that partner.</span></span> <span data-ttu-id="336d0-105">Если Майкрософт известно о партнере, у которого была приобретена подписка, вы можете узнать, как связаться с ним, выполнив следующие действия.</span><span class="sxs-lookup"><span data-stu-id="336d0-105">If the partner that the subscription was purchased from is known by Microsoft, you can find out how to contact your partner using the following procedure.</span></span>
-
-::: moniker range="o365-worldwide"
+<span data-ttu-id="c45df-104">Если вы приобрели microsoft 365 для бизнеса или корпоративный план Office 365 через сторонного партнера, необходимо приобрести дополнительные лицензии через этого партнера.</span><span class="sxs-lookup"><span data-stu-id="c45df-104">If you purchased your Microsoft 365 for business or Office 365 Enterprise plan through a third party partner, you must buy additional licenses through that partner.</span></span> <span data-ttu-id="c45df-105">Если Майкрософт известно о партнере, у которого была приобретена подписка, вы можете узнать, как связаться с ним, выполнив следующие действия.</span><span class="sxs-lookup"><span data-stu-id="c45df-105">If the partner that the subscription was purchased from is known by Microsoft, you can find out how to contact your partner using the following procedure.</span></span>
   
-1. <span data-ttu-id="336d0-106">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="336d0-106">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+::: moniker range="o365-worldwide"
 
-2. <span data-ttu-id="336d0-107">Выберите подписку, в которую вы хотите добавить лицензии, а затем выберите ссылку на Центр обслуживания корпоративного лицензирования **(VLSC).**</span><span class="sxs-lookup"><span data-stu-id="336d0-107">Select the subscription to which you want to add licenses, then select the **Volume Licensing Service Center (VLSC)** link.</span></span>
-
-3. <span data-ttu-id="336d0-108">Выполните действия, описанные в VLSC, для завершения покупки.</span><span class="sxs-lookup"><span data-stu-id="336d0-108">Follow the steps in the VLSC to complete your purchase.</span></span>
-
+1. <span data-ttu-id="c45df-106">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="c45df-106">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="336d0-109">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="336d0-109">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
-
-2. <span data-ttu-id="336d0-110">На странице "Подписки" выберите подписку, в которую вы хотите добавить лицензии, а затем выберите ссылку на Центр обслуживания корпоративного лицензирования **(VLSC).**</span><span class="sxs-lookup"><span data-stu-id="336d0-110">On the Subscriptions page, select the subscription to which you want to add licenses, then select the **Volume Licensing Service Center (VLSC)** link.</span></span>
-
-3. <span data-ttu-id="336d0-111">Выполните действия, описанные в VLSC, для завершения покупки.</span><span class="sxs-lookup"><span data-stu-id="336d0-111">Follow the steps in the VLSC to complete your purchase.</span></span> 
+1. <span data-ttu-id="c45df-107">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="c45df-107">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="336d0-112">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="336d0-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
-
-2. <span data-ttu-id="336d0-113">На странице "Подписки" выберите подписку, в которую вы хотите добавить лицензии, а затем выберите ссылку на Центр обслуживания корпоративного лицензирования **(VLSC).**</span><span class="sxs-lookup"><span data-stu-id="336d0-113">On the Subscriptions page, select the subscription to which you want to add licenses, then select the **Volume Licensing Service Center (VLSC)** link.</span></span>
-
-3. <span data-ttu-id="336d0-114">Выполните действия, описанные в VLSC, для завершения покупки.</span><span class="sxs-lookup"><span data-stu-id="336d0-114">Follow the steps in the VLSC to complete your purchase.</span></span>
-
+1. <span data-ttu-id="c45df-108">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="c45df-108">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
 ::: moniker-end
+
+2. <span data-ttu-id="c45df-109">Выберите подписку, на которую необходимо добавить лицензии, а затем выберите ссылку Центр службы лицензирования тома **(VLSC).**</span><span class="sxs-lookup"><span data-stu-id="c45df-109">Select the subscription to which you want to add licenses, then select the **Volume Licensing Service Center (VLSC)** link.</span></span>
+
+3. <span data-ttu-id="c45df-110">Выполните действия, описанные в VLSC, для завершения покупки.</span><span class="sxs-lookup"><span data-stu-id="c45df-110">Follow the steps in the VLSC to complete your purchase.</span></span>
