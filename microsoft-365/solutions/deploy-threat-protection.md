@@ -1,6 +1,6 @@
 ---
 title: Развертывание возможностей защиты от угроз в Microsoft 365
-description: Обзор служб защиты от угроз и безопасности в Microsoft 365 E5.
+description: Обзор служб защиты от угроз и возможностей безопасности в Microsoft 365 E5. Защитите учетные записи пользователей, устройства, содержимое электронной почты и другие материалы с помощью Microsoft 365 E5.
 keywords: защита от угроз, безопасность, E5, кибератака, вредоносные программы, M365, решение
 ms.author: deniseb
 author: denisebmsft
@@ -17,16 +17,20 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 922e7b7ea8bceced7085af49485b3479a671d5cd
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 806c97a55b3cbe46d597566425cf71476586ecee
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599963"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604382"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Развертывание возможностей защиты от угроз в Microsoft 365 E5
 
-[Вредоносные](/windows/security/threat-protection/intelligence/understanding-malware)программы и сложные кибератаки, такие как [угрозы](/windows/security/threat-protection/intelligence/fileless-threats)без файлов, являются распространенным явлением. Предприятиям необходимо защитить себя и своих клиентов эффективными возможностями ИТ-безопасности. Кибератаки могут вызвать серьезные проблемы для организации, начиная от потери доверия до финансовых проблем, простоев, угрожающих бизнесу, и т. д. Защита от угроз имеет важное значение, но может быть сложно определить, где сосредоточить время, усилия и ресурсы организации. 
+Это решение описывает мощные возможности защиты от угроз в Microsoft 365 E5. Ознакомьтесь с этим решением, чтобы получить представление о том, что включено, как оно работает и как начать развертывание этих возможностей в организации.
+
+## <a name="why-protecting-against-threats-is-important"></a>Почему важна защита от угроз 
+
+[Вредоносные](/windows/security/threat-protection/intelligence/understanding-malware)программы и сложные кибератаки, такие как [угрозы](/windows/security/threat-protection/intelligence/fileless-threats)без файлов, являются распространенным явлением. Предприятиям необходимо защитить себя и своих клиентов эффективными возможностями ИТ-безопасности. Кибератаки могут вызвать серьезные проблемы для организации, начиная от потери доверия до финансовых проблем, простоев, угрожающих бизнесу, и т. д. Защита от угроз имеет важное значение, но может быть сложно определить, где сосредоточить время, усилия и ресурсы организации. Microsoft 365 E5 может помочь. 
 
 Решения для обеспечения безопасности Майкрософт встроены в наши продукты и службы. Возможности автоматизации и машинного обучения уменьшают нагрузку на группы безопасности, чтобы убедиться, что нужные элементы будут устранены. А сила решений microsoft security построена на триллионах сигналов, которые мы обработать каждый день в нашем [интеллектуальном графике безопасности.](/graph/security-concept-overview) Решения для безопасности Microsoft [365 включают Microsoft 365 Defender](../security/defender/microsoft-365-defender.md), решение, которое объединяет сигналы по электронной почте, данным, устройствам и удостоверениям, чтобы нарисовать картину расширенных угроз в отношении вашей организации.
 
@@ -45,11 +49,13 @@ ms.locfileid: "51599963"
 
 Microsoft 365 Defender объединяет сигналы и данные в единый центр безопасности [Microsoft 365.](/microsoft-365/security/defender/overview-security-center) 
 
-![Концептуальная иллюстрация панели мониторинга Microsoft 365 Defender](../media/deploy-threat-protection/deploy-threat-protection-across-m365-mtp.png)
+> [!div class="mx-imgBorder"]
+> ![Концептуальная иллюстрация панели мониторинга Microsoft 365 Defender](../media/deploy-threat-protection/deploy-threat-protection-across-m365-mtp.png)
 
 На следующей иллюстрации показан рекомендуемый путь для развертывания этих отдельных возможностей. 
 
-![Сигналы защиты от угроз M365](../media/deploy-threat-protection/deploy-threat-protection-across-m365.png)
+> [!div class="mx-imgBorder"]
+> ![Сигналы защиты от угроз M365](../media/deploy-threat-protection/deploy-threat-protection-across-m365.png)
 
 |Решение/возможности  |Описание  |
 |---------|---------|
@@ -62,29 +68,27 @@ Microsoft 365 Defender объединяет сигналы и данные в е
 > [!TIP]
 > Организации с несколькими группами безопасности могут реализовать эти возможности параллельно. 
 
-## <a name="deploy-your-threat-protection-solution"></a>Развертывание решения по защите от угроз
+## <a name="plan-to-deploy-your-threat-protection-solution"></a>Планирование развертывания решения по защите от угроз
 
- Следующая схема иллюстрирует процесс развертывания возможностей защиты от угроз на высоком уровне. 
+Следующая схема иллюстрирует процесс развертывания возможностей защиты от угроз на высоком уровне. 
 
 ![Процесс развертывания возможностей защиты от угроз](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
 
-Чтобы убедиться, что ваша организация обладает максимальной защитой, настройка и развертывание решения безопасности с помощью процесса, который включает следующие действия:
+Чтобы убедиться, что ваша организация обладает максимальной защитой, настройка и развертывание решения безопасности с помощью процесса, который включает в себя следующие действия:
 
-1. [Настройка многофакторной проверки подлинности и политики условного доступа](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
-2. [Настройка Microsoft Defender для удостоверений](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
-3. [Включение Microsoft 365 Defender](deploy-threat-protection-configure.md#step-3-turn-on-microsoft-365-defender)
-4. [Настройка Defender для Office 365](deploy-threat-protection-configure.md#step-4-configure-microsoft-defender-for-office-365)
-5. [Настройка Microsoft Defender для конечной точки](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint)
-6. [Настройка безопасности облачных приложений Майкрософт](deploy-threat-protection-configure.md#step-6-configure-microsoft-cloud-app-security)
-7. [Мониторинг состояния и действия](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
-8. [Обучение пользователей](deploy-threat-protection-configure.md#step-8-train-users)
+1. [Настройка многофакторной проверки подлинности и политики условного доступа.](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
+2. [Настройка Microsoft Defender для удостоверений.](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
+3. [Включи Microsoft 365 Defender.](deploy-threat-protection-configure.md#step-3-turn-on-microsoft-365-defender)
+4. [Настройка Defender для Office 365](deploy-threat-protection-configure.md#step-4-configure-microsoft-defender-for-office-365).
+5. [Настройка Microsoft Defender для конечной точки](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint).
+6. [Настройка безопасности облачных приложений Майкрософт.](deploy-threat-protection-configure.md#step-6-configure-microsoft-cloud-app-security)
+7. [Отслеживайте состояние и принимайте меры.](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
+8. [Обучение пользователей](deploy-threat-protection-configure.md#step-8-train-users).
 
 Функции защиты от угроз можно настраивать параллельно, поэтому если у вас есть несколько групп сетевой безопасности, отвечающих за различные службы, они могут настроить функции защиты организации одновременно.
 
 ## <a name="next-step"></a>Следующий шаг
 
+Приступить [к настройке возможностей защиты от угроз в Microsoft 365](deploy-threat-protection-configure.md).
 
-![Процесс развертывания возможностей защиты от угроз](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
-
-Настройка [возможностей защиты от угроз в Microsoft 365](deploy-threat-protection-configure.md)
 

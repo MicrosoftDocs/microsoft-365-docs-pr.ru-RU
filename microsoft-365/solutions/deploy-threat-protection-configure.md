@@ -1,6 +1,6 @@
 ---
 title: Действия по настройке возможностей защиты от угроз в Microsoft 365
-description: Используйте эту статью в качестве руководства для реализации решения по защите от угроз. Узнайте, как развернуть службы и возможности защиты от угроз в Microsoft 365 E5.
+description: Используйте эту статью в качестве руководства для реализации решения по защите от угроз. Развертывание служб и возможностей защиты от угроз в Microsoft 365 E5.
 keywords: безопасность, настройка, конфигурация, Microsoft 365 E5, расширенные средства защиты от угроз
 ms.author: deniseb
 author: denisebmsft
@@ -17,17 +17,16 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 925c62e1c6201c54fcf09d0dd98b06906d9e057f
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 847dd2d090fb26c5558d4a3496a79cf4829881fb
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599867"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604397"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Настройка возможностей защиты от угроз в Microsoft 365
 
 Выполните следующие действия, чтобы настроить защиту от угроз в Microsoft 365.
-
 
 ## <a name="step-1-set-up-multi-factor-authentication-and-conditional-access-policies"></a>Шаг 1. Настройка многофакторной проверки подлинности и политики условного доступа
 
@@ -100,8 +99,8 @@ Microsoft 365 Defender объединяет оповещения, инциден
 [Microsoft Defender для Office 365](../security/office-365-security/defender-for-office-365.md) защищает организацию от вредоносных угроз в сообщениях электронной почты (вложениях и URL-адресах), документах Office и средствах совместной работы. В следующей таблице перечислены функции и возможности Microsoft Defender для Office 365, включенные в Microsoft 365 E5:
 
 |Возможности настройки, защиты и обнаружения|Возможности автоматизации, исследования, восстановления и образования|
-|---|---|
-|[Безопасные вложения](../security/office-365-security/safe-attachments.md)<br/>[Безопасные ссылки](../security/office-365-security/safe-links.md)<br/>[Безопасные документы](../security/office-365-security/safe-docs.md)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Защита от фишинга в Defender для Office 365](../security/office-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[Трекеры угроз](../security/office-365-security/threat-trackers.md)<br/>[Обозреватель угроз](../security/office-365-security/threat-explorer.md)<br/>[Автоматизированный анализ угроз и реагирование на них](../security/office-365-security/office-365-air.md)<br/>[Эмулятор атак](../security/office-365-security/attack-simulator.md)|
+|:---|:---|
+|[Безопасные вложения](../security/office-365-security/safe-attachments.md)<br/>[Безопасные ссылки](../security/office-365-security/safe-links.md)<br/>[Безопасные документы](../security/office-365-security/safe-docs.md)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)<br/> [Защита от фишинга в Microsoft 365](../security/office-365-security/anti-phishing-protection.md)|[Трекеры угроз](../security/office-365-security/threat-trackers.md)<br/>[Обозреватель угроз](../security/office-365-security/threat-explorer.md)<br/>[Автоматизированный анализ угроз и реагирование на них](../security/office-365-security/office-365-air.md)<br/>[Эмулятор атак](../security/office-365-security/attack-simulator.md)|
 |
 
 С помощью Microsoft Defender для Office 365 люди в вашей организации могут более безопасно общаться и сотрудничать с помощью защиты от угроз для контента электронной почты и документов Office.
@@ -128,15 +127,18 @@ Microsoft 365 Defender объединяет оповещения, инциден
 
 ![Процесс развертывания Microsoft Defender для конечной точки](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
 
-1. [Подготовка среды для microsoft Defender для развертывания конечных точек.](/windows/security/threat-protection/microsoft-defender-atp/deployment-phases)
-2. [Настройка microsoft Defender для развертывания конечных точек.](/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
-3. [На борту службы Microsoft Defender для конечных точек](/windows/security/threat-protection/microsoft-defender-atp/onboarding).
-4. [Выполните ваши главные административные задачи по обеспечению безопасности.](/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation)
+1. [Подготовка среды для Microsoft Defender для конечной точки](../security/defender-endpoint/deployment-phases.md).
+
+2. [Развертывание Microsoft Defender для конечной точки](../security/defender-endpoint/production-deployment.md).
+
+3. [На борту службы Microsoft Defender для конечных точек](../security/defender-endpoint/onboarding.md).
+
+4. [Выполните ваши главные административные задачи по обеспечению безопасности.](../security/defender-endpoint/tvm-security-recommendation.md)
 
 ### <a name="more-information-about-microsoft-defender-for-endpoint"></a>Дополнительные сведения о Microsoft Defender для конечной точки
 
-- [Дополнительные информацию о Microsoft Defender для конечной точки](/windows/security/threat-protection).
-- [Попробуйте лабораторию оценки Microsoft Defender для конечной точки.](/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab)
+- [Дополнительные информацию о Microsoft Defender для конечной точки](../security/defender-endpoint/microsoft-defender-endpoint.md).
+- [Попробуйте лабораторию оценки Microsoft Defender для конечной точки.](../security/defender-endpoint/evaluation-lab.md)
 
 ## <a name="step-6-configure-microsoft-cloud-app-security"></a>Шаг 6. Настройка безопасности облачных приложений Майкрософт
 
@@ -147,8 +149,11 @@ Microsoft 365 Defender объединяет оповещения, инциден
 ![Процесс развертывания microsoft Cloud App Security](../media/deploy-threat-protection/deploy-mcas-steps.png) 
 
 1. [Настройка портала и других основных требований.](/cloud-app-security/general-setup)
+
 2. [Настройка обнаружения облаков и подключение](/cloud-app-security/set-up-cloud-discovery) [приложений.](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
+
 3. [Развертывание элементов управления приложениями условного доступа для рекомендуемых приложений.](/cloud-app-security/proxy-deployment-aad)
+
 4. [Используйте средства расследования и панели мониторинга.](/cloud-app-security/investigate)
 
 ### <a name="more-information-about-microsoft-cloud-app-security"></a>Дополнительные сведения о Microsoft Cloud App Security
@@ -164,9 +169,9 @@ Microsoft 365 Defender объединяет оповещения, инциден
 
 Центр безопасности Microsoft 365 предназначен для администраторов безопасности и групп операций безопасности. В центре безопасности Microsoft 365 можно:
 - Просмотр общего состояния безопасности организации с помощью [secure Score.](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score)
-- [Мониторинг и просмотр отчетов](https://docs.microsoft.com/microsoft-365/security/defender/monitoring-and-reporting) о состоянии удостоверений, данных, устройств, приложений и инфраструктуры.
+- [Мониторинг и просмотр отчетов](../security/defender-endpoint/threat-protection-reports.md) о состоянии удостоверений, данных, устройств, приложений и инфраструктуры.
 - Соедините точки оповещений с [помощью инцидентов.](https://docs.microsoft.com/microsoft-365/security/defender/incident-queue)
-- Для [устранения угроз](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir) используйте автоматическое расследование и исправление.
+- Для [устранения угроз](../security/defender/m365d-autoir.md) используйте автоматическое расследование и исправление.
 - [Активная охота на угрозы,](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview)такие как попытки вторжения или нарушения, влияющие на вашу электронную почту, данные, устройства и удостоверения.
 - [С помощью аналитики угроз](https://docs.microsoft.com/microsoft-365/security/defender/latest-attack-campaigns) вы поймете последние кампании и методы атак.
 - ... и больше!
