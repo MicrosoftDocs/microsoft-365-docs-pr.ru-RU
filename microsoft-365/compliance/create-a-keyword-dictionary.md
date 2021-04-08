@@ -18,28 +18,56 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Ознакомьтесь с основными шагами по созданию словаря ключевых слов в Центре безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: ff96eda71857b4b0f802462da96e4f4abbaf05f4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b70deed531204f2ffe85253bd9ae2073dad291ec
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908393"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632195"
 ---
 # <a name="create-a-keyword-dictionary"></a>Создание словаря ключевых слов
 
 Служба защиты от потери данных позволяет обнаруживать, отслеживать и защищать конфиденциальные элементы.. Для обнаружения конфиденциальных элементов иногда требуется поиск по ключевым словам, в частности при обнаружении стандартного контента (например, обмена данными, касающимися здравоохранения), а также неуместной или нецензурной лексики. Хотя вы можете создавать списки ключевых слов в типах конфиденциальной информации, они ограничены по размеру и требуют изменения XML-кода для их создания или изменения. Словари ключевых слов обеспечивают более простое и масштабное управление ключевыми словами, поддерживая до 1МБ терминов (после сжатия) в словаре и любой язык. Ограничение клиента также составляет 1МБ после сжатия. Ограничение в 1 МБ после сжатия означает, что все словари, объединенные в клиенте, могут содержать до 1 миллиона символов.
-  
-> [!NOTE]
-> Существует ограничение в 50 слов для словаря ключевых слов на основе типов конфиденциальной информации, которые можно создать для каждого клиента.
 
-> [!NOTE]
-> Служба защиты информации Microsoft 365 теперь поддерживает в предварительный версии языки с  	набором двухбайтовых символов:
-> - Китайский (упрощенное письмо)
-> - Китайский (традиционное письмо)
-> - Корейский
-> - Японский
->
->Эта поддержка доступна для конфиденциальных типов информации. Дополнительные сведения см. в статье [Заметки о выпуске: поддержка защиты информации для наборов двухбайтовых символов (предварительная версия)](mip-dbcs-relnotes.md).
+## <a name="keyword-dictionary-limits"></a>Ограничения словаря ключевых слов
+
+Существует ограничение в 50 слов для словаря ключевых слов на основе типов конфиденциальной информации, которые можно создать для каждого клиента. Чтобы выяснить количество словарей ключевых слов в своем клиенте, запустите этот сценарий PowerShell для клиента.
+
+```powershell
+$rawFile = $env:TEMP + "\rule.xml"
+
+$kd = Get-DlpKeywordDictionary
+$ruleCollections = Get-DlpSensitiveInformationTypeRulePackage
+Set-Content -path $rawFile -Encoding Byte -Value $ruleCollections.SerializedClassificationRuleCollection
+$UnicodeEncoding = New-Object System.Text.UnicodeEncoding
+$FileContent = [System.IO.File]::ReadAllText((Resolve-Path $rawFile), $unicodeEncoding)
+
+if($kd.Count -gt 0)
+{
+$count = 0
+$entities = $FileContent -split "Entity id"
+for($j=1;$j -lt $entities.Count;$j++)
+{
+for($i=0;$i -lt $kd.Count;$i++)
+{
+$Matches = Select-String -InputObject $entities[$j] -Pattern $kd[$i].Identity -AllMatches
+$count = $Matches.Matches.Count + $count
+if($Matches.Matches.Count -gt 0) {break}
+}
+}
+
+Write-Output "Total Keyword Dictionary SIT:"
+$count
+}
+else
+{
+$Matches = Select-String -InputObject $FileContent -Pattern $kd.Identity -AllMatches
+Write-Output "Total Keyword Dictionary SIT:"
+$Matches.Matches.Count
+}
+
+Remove-Item $rawFile
+```
 
 ## <a name="basic-steps-to-creating-a-keyword-dictionary"></a>Основные этапы создания словаря ключевых слов
 
@@ -237,3 +265,12 @@ Get-DlpKeywordDictionary -Name "Diseases"
       </Resource>
     </LocalizedStrings>
 ```
+
+> [!NOTE]
+> Служба защиты информации Microsoft 365 поддерживает в предварительной версии языки с двухбайтовой кодировкой:
+> - Китайский (упрощенное письмо)
+> - Китайский (традиционное письмо)
+> - Корейский
+> - Японский
+>
+>Эта поддержка доступна для конфиденциальных типов информации. Дополнительные сведения см. в статье [Заметки о выпуске: поддержка защиты информации для наборов двухбайтовых символов (предварительная версия)](mip-dbcs-relnotes.md).

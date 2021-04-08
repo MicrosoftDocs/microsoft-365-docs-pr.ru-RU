@@ -16,12 +16,12 @@ ms.collection:
 description: Администраторы могут узнать, как определить определенные группы пользователей с тегами пользователей в Microsoft Defender для Office 365 Plan 2. Фильтрация тегов доступна для оповещений, отчетов и расследований в Microsoft Defender для Office 365, чтобы быстро идентифицировать помеченных пользователей.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6f98dcfe3e8c44e852134e7a12def4ff78c1bcdd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4c439dcb91831475bc10da4a01d0fa29e7aae359
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206258"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632206"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Теги пользователей в Microsoft Defender для Office 365
 
@@ -34,6 +34,9 @@ ms.locfileid: "51206258"
 - **Настраиваемые теги.** Вы создаете эти теги пользователя самостоятельно.
 
 Если в вашей организации есть Defender для Office 365 Plan 2 (включен в подписку или в качестве надстройки), можно создать пользовательские теги в дополнение к использованию тега учетных записей приоритета.
+
+> [!NOTE]
+> В настоящее время теги пользователей можно применять только к пользователям почтовых ящиков.
 
 После применения системных тегов или пользовательских тегов для пользователей эти теги можно использовать в качестве фильтров в оповещениях, отчетах и исследованиях:
 
@@ -64,6 +67,8 @@ ms.locfileid: "51206258"
   - Управление тегами пользователя контролируется ролями **Reader и** **Tag Manager.**
 
 - Вы также можете управлять и отслеживать учетные записи приоритетов в центре администрирования Microsoft 365. Инструкции см. в [инструкции Управление и мониторинг учетных записей приоритетов.](../../admin/setup/priority-accounts.md)
+
+- Сведения о защите привилегированных _учетных записей_ (учетных записей администратора) см. [в этом разделе.](/azure/architecture/framework/security/critical-impact-accounts)
 
 ## <a name="use-the-security--compliance-center-to-create-user-tags"></a>Используйте Центр & безопасности для создания тегов пользователей
 
