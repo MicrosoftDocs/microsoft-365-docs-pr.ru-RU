@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 3aa964f8e213d64f583738d8957899c1b7b5146c
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 3532fd461fff02fac54e96e0a1a1e69c39c16907
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501090"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51657023"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Активная охота на угрозы с расширенным поиском в Microsoft 365 Defender
 
@@ -54,6 +54,17 @@ ms.locfileid: "51501090"
 - Microsoft Defender для удостоверений
 
 Чтобы использовать передовую охоту, [включи Microsoft 365 Defender.](m365d-enable.md)
+
+### <a name="before-you-begin"></a>Прежде чем начать
+
+Пользователям нужен один из следующих уровней разрешений для доступа к Microsoft Defender:
+
+- Полный доступ (чтение и записи)
+- Доступ только для чтения
+
+**Полный доступ.** Пользователи с полным доступом могут сохранять, изменять и делиться запросом. Назначение прав полного доступа требует добавления пользователей в встроенные роли "Администратор безопасности" или "Глобальный администратор" в Azure Active Directory (AAD).
+
+**Доступ только для чтения.** Пользователи с доступом только для чтения могут войти и просмотреть все оповещения и связанные сведения. Они не смогут сохранить, изменить или поделиться запросом. Назначение прав доступа только для чтения требует добавления пользователей в встроенную роль "Читатель безопасности" в AAD.
 
 ## <a name="get-started-with-advanced-hunting"></a>Начало работы с расширенным выслеживанием
 

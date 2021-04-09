@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: 'Узнайте, что происходит с данными при окончании срока действия, отключении или отмене подписки на Microsoft 365 для бизнеса. '
-ms.openlocfilehash: ee83e237d17dc2de60b08b8d4dbdc46c98fc8251
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 8f853000ebd20ab8f6625df9f773bbb182bdb7fd
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615403"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644660"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Что происходит с данными и возможностями доступа при окончании срока действия подписки на Microsoft 365 для бизнеса?
 
@@ -68,6 +68,9 @@ ms.locfileid: "51615403"
 > [!IMPORTANT]
 > Если вам нужно, чтобы данные вашей подписки были удалены до истечения стандартной стадии отключения, вы можете [закрыть свою учетную запись](../close-your-account.md).
   
+> [!NOTE]
+> Если вы явно удаляете подписку, она пропускает этапы "Просрочено" и "Отключено", и данные и содержимое SharePoint Online, включая OneDrive, удаляются немедленно.
+
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Что делать, если завершается срок действия моей подписки?
 
 Пока подписка активна, вы и ваши конечные пользователи можете без проблем получать доступ к данным и службам, таким как электронная почта и OneDrive для бизнеса, а также к приложениям Office. Когда приблизится дата завершения срока действия подписки, администратор получит ряд соответствующих уведомлений по электронной почте и в Центре администрирования.

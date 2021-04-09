@@ -263,6 +263,8 @@
           href: manage/manage-microsoft-rewards.md
         - name: Управление сообщениями Центра сообщений
           href: manage/manage-messages.md
+        - name: Управление отзывами Майкрософт в организации
+          href: /admin/manage/manage-feedback-ms-org.md
         - name: Настройка вариантов получения выпусков
           href: manage/release-options-in-office-365.md
         - name: Отображение и скрытие новых функций

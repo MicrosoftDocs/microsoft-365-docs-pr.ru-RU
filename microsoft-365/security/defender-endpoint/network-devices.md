@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 06b52e937dd0260a50883c45c36389a6a955ad0e
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: d0ae82c2e284235d96531c04dc2240063d4e4183
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604534"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51657045"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>Обнаружение сетевых устройств и управление уязвимостью
 
@@ -46,7 +46,7 @@ ms.locfileid: "51604534"
 
 Назначенное устройство Microsoft Defender для конечных точек будет использоваться в каждом сетевом сегменте для выполнения периодического проверки подлинности предварительно заранее заверяемых сетевых устройств. После обнаружения возможности управления угрозами и уязвимостью Defender for Endpoint предоставляют интегрированные процессы для защиты обнаруженных переключателей, маршрутизаторов, контроллеров WLAN, брандмауэров и шлюзов VPN.  
 
-После обнаружения и классификации сетевых устройств администраторы безопасности смогут получать последние рекомендации по безопасности и рассматривать обнаруженные недавно уязвимости для сетевых устройств, развернутых в их организациях.
+После обнаружения и классификации сетевых устройств администраторы безопасности смогут получать последние рекомендации по безопасности и рассматривать обнаруженные недавно уязвимости на сетевых устройствах, развернутых в их организациях.
 
 ## <a name="approach"></a>Способ
 
@@ -95,9 +95,9 @@ ms.locfileid: "51604534"
     - login.windows.net  
     - *.securitycenter.windows.com
     - login.microsoftonline.com
-    - *.blob.core.windows.net/networkscannerstable/*
+    - *.blob.core.windows.net/networkscannerstable/ *
 
-    Примечание. Эти URL-адреса не указаны в документированном списке разрешенного сбора данных Defender for Endpoint.
+    Примечание. Не все URL-адреса не указаны в документированном списке разрешенного сбора данных Defender for Endpoint.
 
 ## <a name="permissions"></a>Разрешения
 
