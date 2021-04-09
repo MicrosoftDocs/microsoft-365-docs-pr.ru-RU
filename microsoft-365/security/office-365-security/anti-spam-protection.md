@@ -21,12 +21,12 @@ ms.custom:
 description: Администраторы могут узнать о параметрах и фильтрах для защиты от нежелательной почты, которые помогут предотвратить спам в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5f19330d7af9c4a6601baa9562766eb5a6e7052a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: eaff771d6fa0490819ec076b5a9a43ac843cf207
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206867"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650270"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Защита от нежелательной почты в EOP
 
@@ -91,7 +91,7 @@ ms.locfileid: "51206867"
 
   - **DMARC.** Проверка подлинности, отчетности и соответствия на основе доменных сообщений помогает системам адресной электронной почты определять, что делать с сообщениями, которые не проверяют SPF или DKIM, и обеспечивает другой уровень доверия для ваших партнеров по электронной почте. Дополнительные сведения см. в [веб-сайте Использование DMARC для проверки](use-dmarc-to-validate-email.md)электронной почты в Microsoft 365.
 
-- **Проверка** параметров массовой электронной почты: пороговое значение уровня BCL, которое настраивается в политиках по борьбе со спамом, определяет, помечена ли массовая электронная почта (также известная как "серая почта"). Параметр _MarkAsSpamBulkMail_ только для PowerShell по умолчанию также вносит свой вклад в результаты. Дополнительные сведения см. в [сообщении Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
+- **Проверка** насыпных параметров электронной почты: пороговое значение уровня массовой жалобы (BCL), которое настраивается в политиках по борьбе со спамом, определяет, помечена ли массовая электронная почта (также известная как "серая почта"). Параметр _MarkAsSpamBulkMail_ только для PowerShell по умолчанию также вносит свой вклад в результаты. Дополнительные сведения см. в [сообщении Configure anti-spam policies in Microsoft 365.](configure-your-spam-filter-policies.md)
 
 ### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>Предотвращение доставки нежелательной почты в папку "Входящие"
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b529b1c7fa5c4f9f81cb6bfbb5f1a6bd7823a9ad
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 97d1d50e2557cbb760248738b1f096614873958f
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587603"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644708"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и подключения к Интернету
 
@@ -57,6 +57,13 @@ ms.locfileid: "51587603"
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>Настройка прокси-сервера вручную с использованием статического прокси-сервера на основе реестра
 
 Настройка статического прокси-сервера на основе реестра, чтобы позволить только датчику Defender для конечных точек сообщать диагностические данные и общаться с службами Defender для конечных точек, если компьютеру не разрешено подключение к Интернету.
+
+> [!NOTE]
+> - При использовании этого параметра в Windows 10 или Windows Server 2019 рекомендуется использовать следующие (или более поздние) сборки и накопительные обновления:</br>
+> Windows 10, версия 1909 — https://support.microsoft.com/kb/4601380</br>
+> Windows 10, версия 2004 — https://support.microsoft.com/kb/4601382</br>
+> Windows 10, версия 20H2 — https://support.microsoft.com/kb/4601382</br>
+> Эти обновления улучшают подключение и надежность канала CnC (Command and Control).</br>
 
 Статический прокси-сервер можно настроить с помощью групповой политики (GP). Групповые политики можно найти в следующих статьях:
 
@@ -115,7 +122,7 @@ netsh winhttp reset proxy
 В следующей загружаемой таблице перечислены службы и связанные с ними URL-адреса, к которые должна подключаться ваша сеть. Необходимо убедиться, что нет правил фильтрации брандмауэра или сети, которые бы  отказывали в доступе к этим URL-адресам, или вам может потребоваться создать правило разрешить специально для них.
 
 
-|**Таблица списка доменов**|**Описание**|
+|**Таблица списка доменов**|**Description**|
 |:-----|:-----|
 |![Изображение пальца для таблицы URL-адресов Microsoft Defender для конечных точек](images/mdatp-urls.png)<br/>  | Таблица определенных DNS-записей для расположения служб, географических местоположений и ОС. <br><br>[Скачайте таблицу здесь.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 

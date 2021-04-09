@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 228a8813bcfff052c7f861dcd2962a94cb58c0fb
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: e19c64c01c892a8a5f47f5892882feab1242f897
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165973"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644492"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Microsoft Defender для хранения данных конечных точек и конфиденциальности
 
@@ -94,6 +94,9 @@ Defender for Endpoint работает в центрах обработки да
 
 **При расторжении или истечении контракта**<br>
 Ваши данные будут храниться и будут доступны вам, пока лицензия находится в льготном периоде или в приостановленном режиме. По истечении этого периода эти данные будут стираться из систем Майкрософт, чтобы сделать их невозвратными, не позднее чем через 180 дней после расторжения или истечения срока действия контракта.
+
+**Расширенные данные охоты**<br>
+Расширенное выслеживание— это средство для выслеживания угроз на основе запросов, которое позволяет изучать необработанные данные за период до 30 дней.
 
 
 ## <a name="can-microsoft-help-us-maintain-regulatory-compliance"></a>Может ли Корпорация Майкрософт помочь нам поддерживать соблюдение нормативных требований?

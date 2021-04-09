@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 91dda662b12893fb010e8bb46541a87ea4a8cd27
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c695eb0d786e73da5adb95bbca5c1747243d6203
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587675"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644744"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Развертывание Microsoft Defender для конечной точки для Linux вручную
 
@@ -385,7 +385,7 @@ Options:
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>Миграция из Insiders-Fast в канал Production
 
-1. Удалить версию MDE для macOS с "Insiders-Fast channel".
+1. Удалить версию MDE для Linux "Insiders-Fast channel".
 
     ``
     sudo yum remove mdatp

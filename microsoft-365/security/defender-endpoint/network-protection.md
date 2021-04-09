@@ -17,12 +17,12 @@ ms.custom: asr
 ms.technology: mde
 ms.date: 03/08/2021
 ms.topic: how-to
-ms.openlocfilehash: be98bf810d00b6e39ba9d2674604a9fd2128a8cc
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2ef3fbeec65be512dfe07f1d533df4d8e9b31532
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198661"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644504"
 ---
 # <a name="protect-your-network"></a>Защита сети
 
@@ -90,6 +90,16 @@ DeviceEvents
 | 5007 | Событие при смене параметров |
 | 1125 | Событие, когда защита сети загорелась в режиме аудита |
 | 1126 | Событие, когда защита сети загорелась в режиме блокировки |
+
+## <a name="network-protection-troubleshooting"></a>Устранение неполадок в сетевой защите
+
+Из-за среды, в которой выполняется защита сети, Microsoft может не обнаруживать параметры прокси-сервера операционной системы. В некоторых случаях клиенты Network Protection не могут добраться до облачной службы. Чтобы устранить проблему подключения, клиенты с лицензиями E5 должны настроить один из следующих ключей реестра Defender:
+
+```console
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
+
+```
 
 ## <a name="related-articles"></a>Статьи по теме
 

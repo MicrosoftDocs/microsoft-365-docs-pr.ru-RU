@@ -16,19 +16,18 @@ ms.collection:
 description: Узнайте о безопасных документах в Microsoft 365 E5 или Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 78ae99158e30046923d24897e7ab9b45adff31d0
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 1186c7856d0b979c483cf6dd1c0a010ab582e2ce
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445400"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644756"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Безопасные документы в Microsoft 365 E5
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
-- [Microsoft Defender для Office 365 (план 2)](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 Безопасные документы — это функция в Microsoft 365 E5 или Microsoft 365 E5 Security, которая использует [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) [Microsoft Defender для](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) конечной точки для сканирования документов и файлов, открытых в защищенном представлении или в Службе безопасности приложений [для Office.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
@@ -71,7 +70,7 @@ ms.locfileid: "51445400"
 
    - **Разрешить** пользователям щелкнуть защищенный просмотр, даже если "Безопасные документы" идентифицируют файл как вредоносный. Рекомендуется оставить этот параметр отключенным (оставьте переключенку слева: отключите). ![ ](../../media/scc-toggle-off.png)
 
-   Когда закончите, нажмите кнопку **Сохранить**.
+   По завершении нажмите кнопку **Сохранить**.
 
    ![Параметры Безопасные документы после выбора глобальных параметров на странице Безопасные вложения.](../../media/safe-docs.png)
 

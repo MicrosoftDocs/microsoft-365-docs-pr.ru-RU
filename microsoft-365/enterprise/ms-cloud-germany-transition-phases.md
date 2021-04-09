@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Сведения о действиях и последствиях перехода из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 0cf1358b4170b69d3506062c336a1cf67a2da2de
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e3ed1d76a755ce6326ac6ae53b990136a10b564a
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591736"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644720"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Миграция фазы действий и последствий для миграции из Microsoft Cloud Deutschland
 
@@ -128,7 +128,7 @@ ms.locfileid: "51591736"
 
 **Применяется к:** Все клиенты, использующие Exchange Online
 
-Если вы используете гибрид Exchange Online: администраторы Exchange Online Hybrid должны выполнить мастер гибридной конфигурации  **(HCW)** несколько раз в рамках этого перехода. Применить [предварительную работу Exchange перед](ms-cloud-germany-transition-add-pre-work.md#exchange-online-hybrid-configuration) началом этапа **миграции 5.** Гибридные клиенты Exchange Online должны запустить последнюю версию мастера гибридной конфигурации Exchange (HCW) в режиме "Office 365 Germany" для подготовки локальной конфигурации для перехода на глобальные службы Office 365.
+Если вы используете гибрид Exchange Online: администраторы Exchange Online Hybrid должны выполнить мастер гибридной конфигурации  **(HCW)** несколько раз в рамках этого перехода. Применить [предварительную работу Exchange перед](ms-cloud-germany-transition-add-pre-work.md#exchange-online-hybrid-customers) началом этапа **миграции 5.** Гибридные клиенты Exchange Online должны запустить последнюю версию мастера гибридной конфигурации Exchange (HCW) в режиме "Office 365 Germany" для подготовки локальной конфигурации для перехода на глобальные службы Office 365.
 
 После завершения этапа **миграции 9** (когда будет опубликовано уведомление Центра сообщений), необходимо снова запустить HCW с помощью параметров Office 365 По всему миру, чтобы указать свои локальной системы на глобальные службы Office 365.
 
