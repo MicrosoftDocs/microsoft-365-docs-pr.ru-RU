@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 37d31fe93a849871e7da92fff521b6a75beac531
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 71ebe48fdbb8f9995ef2f3429cb8a824ed76f244
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187641"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689645"
 ---
-# <a name="resources-for-microsoft-defender-for-endpoint-for-mac"></a>Ресурсы для Microsoft Defender для конечной точки для Mac
+# <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Ресурсы для Microsoft Defender для конечной точки на macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -80,7 +80,7 @@ ms.locfileid: "51187641"
 
 ## <a name="uninstalling"></a>Uninstalling
 
-Существует несколько способов удалить Microsoft Defender для конечной точки для Mac. Обратите внимание, что, несмотря на то, что централизованный централизованный отмывок доступен в JAMF, он еще не доступен для Microsoft Intune.
+Существует несколько способов удалить Microsoft Defender для конечной точки на macOS. Обратите внимание, что, несмотря на то, что централизованный централизованный отмывок доступен в JAMF, он еще не доступен для Microsoft Intune.
 
 ### <a name="interactive-uninstallation"></a>Интерактивная деинсталлация
 
@@ -95,7 +95,7 @@ ms.locfileid: "51187641"
 
 Из командной строки можно выполнять важные задачи, такие как управление настройками продуктов и сканы по запросу.
 
-|Группа        |Сценарий                                   |Команда                                                                           |
+|Group        |Сценарий                                   |Команда                                                                           |
 |-------------|-------------------------------------------|----------------------------------------------------------------------------------|
 |Конфигурация|Включите/отключите защиту в режиме реального времени           |`mdatp config real-time-protection --value [enabled/disabled]`                    |
 |Конфигурация|Включите/отключите облачную защиту               |`mdatp config cloud --value [enabled/disabled]`                                   |
@@ -108,8 +108,8 @@ ms.locfileid: "51187641"
 |Конфигурация|Отключение защиты PUA                    |`mdatp threat policy set --type potentially_unwanted_application -- action off`   |
 |Конфигурация|Включим режим аудита для защиты PUA      |`mdatp threat policy set --type potentially_unwanted_application -- action audit` |
 |Конфигурация|Включите/отключите passiveMode                    |`mdatp config passive-mode --value enabled [enabled/disabled]`                    |
-|Diagnostics  |Изменение уровня журнала                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
-|Diagnostics  |Создание журналов диагностики                   |`mdatp diagnostic create --path [directory]`                                      |
+|Диагностика  |Изменение уровня журнала                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
+|Диагностика  |Создание журналов диагностики                   |`mdatp diagnostic create --path [directory]`                                      |
 |Здравоохранение       |Проверка состояния продукта                 |`mdatp health`                                                                    |
 |Здравоохранение       |Проверка атрибута spefic product       |`mdatp health --field [attribute: healthy/licensed/engine_version...]`            |
 |Защита   |Сканирование пути                                |`mdatp scan custom --path [path] [--ignore-exclusions]`                           |
@@ -143,7 +143,7 @@ echo "source /Applications/Microsoft\ Defender\ ATP.app/Contents/Resources/Tools
    echo "autoload -Uz compinit && compinit" >> ~/.zshrc
    ```
 
-- Запустите следующие команды, чтобы включить автозаполнение для Microsoft Defender для конечной точки для Mac и перезапустить сеанс Терминала:
+- Запустите следующие команды, чтобы включить автозаполнение для Microsoft Defender для конечной точки на macOS и перезапустить сеанс Терминала:
 
    ```zsh
    sudo mkdir -p /usr/local/share/zsh/site-functions

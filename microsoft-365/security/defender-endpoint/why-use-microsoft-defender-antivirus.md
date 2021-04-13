@@ -1,0 +1,59 @@
+---
+title: Почему необходимо использовать антивирус Microsoft Defender вместе с Microsoft Defender для конечной точки
+description: Для наилучших результатов используйте антивирус Microsoft Defender вместе с другими предложениями Майкрософт.
+keywords: защитник windows, антивирус, сторонний av
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: manage
+ms.sitesec: library
+ms.localizationpriority: medium
+audience: ITPro
+ms.topic: article
+author: denisebmsft
+ms.author: deniseb
+ms.custom: nextgen
+ms.reviewer: ''
+manager: dansimp
+ms.technology: mde
+ms.openlocfilehash: b4cf7d553534d1c2b935f4f07fc7ae0d95d15b22
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51691199"
+---
+# <a name="better-together-microsoft-defender-antivirus-and-microsoft-defender-for-endpoint"></a>Лучше вместе: антивирус Microsoft Defender и Microsoft Defender для конечной точки
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+
+**Область применения:**
+
+- [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint)
+
+Антивирус Microsoft Defender — это компонент защиты нового поколения [в Microsoft Defender для конечной](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint) точки (Microsoft Defender для конечной точки). 
+
+Несмотря на то, что с Microsoft Defender для Endpoint можно использовать антивирусное решение, не в microsoft, есть преимущества использования антивируса Microsoft Defender вместе с Defender for Endpoint. Антивирус Microsoft Defender не только является отличным антивирусным решением следующего поколения, но и [](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) в сочетании с другими возможностями Defender для конечных точек, такими как обнаружение конечных точек и ответ, а также автоматическое расследование и исправление, [](/microsoft-365/security/defender-endpoint/automated-investigations)вы получите лучшую защиту, которая координируется между продуктами и службами. 
+
+## <a name="11-reasons-to-use-microsoft-defender-antivirus-together-with-microsoft-defender-for-endpoint"></a>11 причин использования антивируса Microsoft Defender вместе с Microsoft Defender для конечной точки
+
+|# |Преимущество  |Почему это важно |
+|--|--|--|
+|1|Обмен антивирусными сигналами |Приложения и службы Майкрософт делятся сигналами по всей организации предприятия, обеспечивая более мощную единую платформу. См. сведения из&CK оценки [Microsoft Defender для конечной точки MITRE ATT.](https://www.microsoft.com/security/blog/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/) |
+|2|Аналитика угроз и оценка для устройств |Антивирус Microsoft Defender собирает данные системы, [](/microsoft-365/security/defender-endpoint/threat-analytics) используемые аналитикой угроз и [Microsoft Secure Score для устройств.](/microsoft-365/security/defender-endpoint/tvm-microsoft-secure-score-devices) Это предоставляет группе безопасности организации более значимую информацию, например рекомендации и возможности для повышения уровня безопасности организации. |
+|3|Производительность |Microsoft Defender для конечной точки предназначен для работы с антивирусом Microsoft Defender, поэтому при совместном использовании этих предложений вы получите лучшую производительность. [Оцените антивирус Microsoft Defender](evaluate-microsoft-defender-antivirus.md) и [Microsoft Defender для конечной точки.](/microsoft-365/security/defender-endpoint/evaluate-mde)|
+|4 |Сведения о заблокированных вредоносных программах |Дополнительные сведения и действия для заблокированных вредоносных программ доступны с антивирусом Microsoft Defender и Microsoft Defender для конечной точки. [Понимание вредоносных программ & других угроз.](/windows/security/threat-protection/intelligence/understanding-malware)|
+|5 |Защита сети |Группа безопасности организации может защитить сеть, блокируя определенные URL-адреса и IP-адреса. [Защитите сеть.](/microsoft-365/security/defender-endpoint/network-protection)|
+|6 |Блокировка файлов |Группа безопасности организации может блокировать определенные файлы. [Остановка и карантин файлов в сети.](/microsoft-365/security/defender-endpoint/respond-file-alerts#stop-and-quarantine-files-in-your-network)|
+|7 |Уменьшение поверхности атаки |Группа безопасности организации может уменьшить ваши уязвимости (поверхности атак), предоставляя злоумышленникам меньше способов выполнения атак. Уменьшение поверхности атаки использует облачную защиту для ряда правил. [Получите обзор уменьшения поверхности атаки.](/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction)|
+|8 |События аудита |Сигналы событий аудита доступны в [средствах обнаружения конечных](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)точек и ответов. (Эти сигналы недоступны для антивирусных решений, не в microsoft.) |
+|9 |Географические данные |В соответствии с isO 270001 и хранением данных географические данные предоставляются в соответствии с выбранным географическим суверенитетом вашей организации. См. предложения по обеспечению [соответствия требованиям: стандарты управления информационной безопасностью ISO/IEC 27001:2013.](/microsoft-365/compliance/offering-iso-27001) |
+|10 |Восстановление файлов с помощью OneDrive |Если вы используете антивирус Microsoft Defender вместе с [Office 365,](/Office365/Enterprise)а ваше устройство атаковано программой-вымогателями, ваши файлы защищены и восстанавливаются. [OneDrive Files Restore и Защитник Windows защиту](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/OneDrive-Files-Restore-and-Windows-Defender-takes-ransomware/ba-p/188001)вымогателей на шаг дальше.|
+|11|Техническая поддержка |Используя Microsoft Defender для конечной точки вместе с антивирусом Microsoft Defender, у вас есть одна компания, которая будет вызывать техническую поддержку. [Устранение неполадок и](/microsoft-365/security/defender-endpoint/troubleshoot-mde) проверка журналов событий и кодов ошибок [с помощью антивируса Microsoft Defender.](troubleshoot-microsoft-defender-antivirus.md) |
+
+
+## <a name="learn-more"></a>Подробнее
+
+[Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
+
+[Управление & уязвимостей](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)

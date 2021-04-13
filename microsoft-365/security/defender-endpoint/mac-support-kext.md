@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок с расширением ядра в Microsoft Defender для конечной точки для Mac
-description: Устранение неполадок, связанных с расширением ядра в Microsoft Defender для конечной точки для Mac.
+title: Устранение неполадок с расширением ядра в Microsoft Defender для конечной точки на macOS
+description: Устранение неполадок, связанных с расширением ядра в Microsoft Defender для конечной точки на macOS.
 keywords: Microsoft, defender, atp, mac, kernel, extension
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,31 +18,31 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 877cc619d3ba048cdf6ecc8149f073461d9eac8e
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 32a4819f7a607c69b4dbf45b3284b2f4ea66ffc4
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379520"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689657"
 ---
-# <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-for-mac"></a>Устранение неполадок с расширением ядра в Microsoft Defender для конечной точки для Mac
+# <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-on-macos"></a>Устранение неполадок с расширением ядра в Microsoft Defender для конечной точки на macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Область применения:**
 
-- [Microsoft Defender для конечной точки для Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender для конечной точки на macOS](microsoft-defender-endpoint-mac.md)
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-В этой статье данная статья содержит сведения о том, как устранить проблемы с расширением ядра, которое установлено в рамках Microsoft Defender для конечной точки для Mac.
+В этой статье приводится информация о том, как устранить проблемы с расширением ядра, которое установлено в рамках Microsoft Defender для конечной точки на macOS.
 
 Начиная с macOS High Sierra (10.13), macOS требует явного утверждения всех расширений ядра до того, как они будут разрешены для запуска на устройстве.
 
-Если вы не одобрили расширение ядра во время развертывания и установки Microsoft Defender для конечной точки для Mac, приложение отображает баннер, в результате чего вы сможете включить его:
+Если вы не одобрили расширение ядра во время развертывания и установки Microsoft Defender для конечной точки на macOS, приложение отображает баннер, который будет предложено включить его:
 
    ![Снимок экрана отключенного RTP](images/mdatp-32-main-app-fix.png)
 
@@ -58,7 +58,7 @@ real_time_protection_available              : true
 ...
 ```
 
-В следующих разделах указаны инструкции по решению этой проблемы в зависимости от метода, используемого для развертывания Microsoft Defender для конечной точки для Mac.
+В следующих разделах указаны инструкции по решению этой проблемы в зависимости от метода, используемого для развертывания Microsoft Defender для конечной точки на macOS.
 
 ## <a name="managed-deployment"></a>Управляемое развертывание
 
