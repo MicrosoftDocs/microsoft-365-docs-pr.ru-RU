@@ -1,6 +1,6 @@
 ---
 title: Обновление API объекта оповещения
-description: Узнайте, как обновить оповещение ATP защитника Майкрософт с помощью этого API. Можно обновить свойства status, determination, classification и assignedTo.
+description: Узнайте, как обновить оповещение Microsoft Defender для конечных точек с помощью этого API. Можно обновить свойства status, determination, classification и assignedTo.
 keywords: apis, api graph, supported apis, get, alert, information, id
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7dd3ab3da34efa6cb954db2a596d7a1e48efedf1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 94be185bd30cd36f456a66d5ae30a4361abc0c48
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199313"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688253"
 ---
 # <a name="update-alert"></a>Обновление оповещения
 
@@ -53,8 +53,8 @@ ms.locfileid: "51199313"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   Alerts.ReadWrite.All |  'Read and write all alerts'
-Делегированное (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
+Для приложений |   Alerts.ReadWrite.All |  'Read and write all alerts'
+Делегированные (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -70,7 +70,7 @@ PATCH /api/alerts/{id}
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 Content-Type | String | application/json. **Обязательное поле**.
 
 
@@ -84,7 +84,7 @@ Content-Type | String | application/json. **Обязательное поле**.
 status | String | Указывает текущее состояние оповещений. Значения свойств: "New", "InProgress" и "Resolved".
 assignedTo | String | Владелец оповещений
 classification | String | Указывает спецификацию оповещений. Значения свойств: "Неизвестный", "FalsePositive", "TruePositive". 
-определение | Строка | Указывает определение оповещений. Значения свойств: "NotAvailable", "Apt", "Malware", "SecurityPersonnel", "SecurityTesting", "UnwantedSoftware", "Other"
+определение | String | Указывает определение оповещений. Значения свойств: "NotAvailable", "Apt", "Malware", "SecurityPersonnel", "SecurityTesting", "UnwantedSoftware", "Other"
 comment | String | Комментарий, который необходимо добавить в оповещение.
 
 ## <a name="response"></a>Отклик

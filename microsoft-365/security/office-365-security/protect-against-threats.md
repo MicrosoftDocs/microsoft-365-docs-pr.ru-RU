@@ -20,12 +20,12 @@ description: Администраторы могут узнать о защит�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2df88df9f1f0e2c14c0adcf0d5772189a1276e9d
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: b55391247bf7d21c68c67e29f93bac1b7088b035
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650234"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687091"
 ---
 # <a name="protect-against-threats"></a>Защита от угроз
 
@@ -41,7 +41,7 @@ ms.locfileid: "51650234"
 > [!IMPORTANT]
 > **Начальные рекомендуемые** параметры включены для каждого вида политики; однако доступны многие параметры, и вы можете настроить параметры для удовлетворения потребностей конкретной организации. Разрешить примерно 30 минут для политик или изменений, чтобы работать свой путь через центр обработки данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Подписки
 
@@ -60,8 +60,8 @@ ms.locfileid: "51650234"
 |Защита от нежелательной почты|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Автоматическая очистка нулевого часа (для электронной почты)|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Защита от вредоносных URL-адресов и файлов в документах электронной почты и Office (безопасные ссылки и безопасные вложения)|[Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|Включим безопасные вложения для рабочих нагрузок SharePoint, OneDrive и Microsoft Teams|[Defender для Office 365](turn-on-mdo-for-spo-odb-and-teams.md)|
-|Расширенные средства защиты от фишинга|[Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Включим безопасные вложения для рабочих нагрузок SharePoint, OneDrive и Microsoft Teams|[Microsoft Defender для Office 365](turn-on-mdo-for-spo-odb-and-teams.md)|
+|Расширенные средства защиты от фишинга|[Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Роли и разрешения
 

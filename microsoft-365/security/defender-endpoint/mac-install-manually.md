@@ -1,6 +1,6 @@
 ---
-title: Ручное развертывание для Microsoft Defender для конечной точки для macOS
-description: Установите Microsoft Defender для конечной точки для macOS вручную из командной строки.
+title: Ручное развертывание для Microsoft Defender для конечной точки на macOS
+description: Установите Microsoft Defender для конечной точки на macOS вручную из командной строки.
 keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a9e75441a8c4a336e8c657d27330c118fcac4788
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 0e8faf95df6691828558175412a1de8aa844d93f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476321"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688601"
 ---
-# <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Ручное развертывание для Microsoft Defender для конечной точки для macOS
+# <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Ручное развертывание для Microsoft Defender для конечной точки на macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51476321"
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-В этом разделе описывается, как развернуть Microsoft Defender для конечной точки для macOS вручную. Успешное развертывание требует выполнения всех следующих действий:
+В этом разделе описывается, как вручную развертывать Microsoft Defender для конечной точки на macOS. Успешное развертывание требует выполнения всех следующих действий:
 - [Загрузка пакетов установки и загрузки](#download-installation-and-onboarding-packages)
 - [Установка приложения (macOS 10.15 и более старые версии)](#application-installation-macos-1015-and-older-versions)
 - [Установка приложения (macOS 11 и более новые версии)](#application-installation-macos-11-and-newer-versions)
@@ -43,7 +43,7 @@ ms.locfileid: "51476321"
 
 ## <a name="prerequisites-and-system-requirements"></a>Необходимые условия и требования к системе
 
-Перед началом работы см. на главной странице [Microsoft Defender for Endpoint для macOS](microsoft-defender-endpoint-mac.md) описание необходимых условий и системных требований для текущей версии программного обеспечения.
+Перед началом работы см. в главной странице [Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) на странице macOS описание необходимых условий и системных требований к текущей версии программного обеспечения.
 
 ## <a name="download-installation-and-onboarding-packages"></a>Загрузка пакетов установки и загрузки
 
@@ -105,9 +105,9 @@ ms.locfileid: "51476321"
 
     ![Параметры безопасности расширения системы1](images/big-sur-install-3.png)
 
-5. Повторите действия 3 & 4 для всех расширений системы, распространяемых с помощью Microsoft Defender для конечной точки для Mac.
+5. Повторите действия 3 & 4 для всех расширений системы, распространяемых с Помощью Microsoft Defender для конечной точки на Mac.
 
-6. В рамках возможностей обнаружения конечных точек и ответов Microsoft Defender for Endpoint для Mac проверяет трафик розетки и передает эти сведения на портал Центра безопасности Microsoft Defender. Если вам предложено предоставить разрешения Microsoft Defender для конечной точки для фильтрации сетевого трафика, выберите **Разрешить**.
+6. В рамках возможностей обнаружения конечных точек и ответов Microsoft Defender для конечной точки на Mac проверяет трафик розетки и передает эти сведения на портал Центра безопасности Microsoft Defender. Если вам предложено предоставить разрешения Microsoft Defender для конечной точки для фильтрации сетевого трафика, выберите **Разрешить**.
 
     ![Параметры безопасности расширения системы2](images/big-sur-install-4.png)
 
@@ -117,7 +117,7 @@ ms.locfileid: "51476321"
 
 ## <a name="client-configuration"></a>Конфигурация клиента
 
-1. Скопируйте wdav.pkg и MicrosoftDefenderATPOnboardingMacOs.py на устройство, на котором развернут Microsoft Defender для конечной точки для macOS.
+1. Скопируйте wdav.pkg и MicrosoftDefenderATPOnboardingMacOs.py на устройство, на котором развернут Microsoft Defender для конечной точки на macOS.
 
     Клиентские устройства не связаны с org_id. Обратите внимание, *что org_id* является пустым.
 

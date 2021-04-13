@@ -1,6 +1,6 @@
 ---
-title: Запустите тест обнаружения на недавно созданном устройстве ATP Microsoft Defender
-description: Запустите сценарий обнаружения на недавно созданном устройстве, чтобы убедиться, что он правильно вошел в службу ATP Microsoft Defender.
+title: Запустите тест обнаружения на недавно созданном устройстве Microsoft Defender для конечных точек
+description: Запустите сценарий обнаружения на недавно созданном устройстве, чтобы убедиться, что он правильно вошел в службу Microsoft Defender для конечной точки.
 keywords: тест обнаружения, обнаружение, powerhell, script, verify, onboarding, microsoft defender для onboarding конечной точки, клиенты, серверы, тест
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 10154a734bb4c3d8b26fffb8618484aeb11f907a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 89b8ac7d99cfcd4c5e5e647e5ba54e14184ef0bd
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074133"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688121"
 ---
 # <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>Запустите тест обнаружения на недавно созданном устройстве Microsoft Defender для конечных точек 
 
@@ -61,6 +61,6 @@ ms.locfileid: "51074133"
 Окно Командная подсказка закрывается автоматически. В случае успешного завершения тест обнаружения будет отмечен как завершенный, и через 10 минут на портале для бортового устройства появится новое оповещение.
 
 ## <a name="related-topics"></a>Статьи по теме
-- [На борту устройств с Windows 10](configure-endpoints.md)
+- [Подключение устройств Windows 10](configure-endpoints.md)
 - [Серверы на борту](configure-server-endpoints.md)
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)

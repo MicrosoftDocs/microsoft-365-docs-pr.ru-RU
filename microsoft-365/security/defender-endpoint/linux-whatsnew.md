@@ -1,6 +1,6 @@
 ---
-title: Новые возможности в Microsoft Defender для конечной точки для Linux
-description: Список основных изменений для ATP Защитника Microsoft для Linux.
+title: Новые возможности в Microsoft Defender для конечной точки в Linux
+description: Список основных изменений для ATP Защитника Microsoft на Linux.
 keywords: Microsoft, defender, atp, Linux, Whatsnew, release
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,21 +18,21 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7a55d254c20506913d0995bffc941a67bb34a38e
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 2866cd0c9ee9b40aa9c08c4ff7dce64f745d3d03
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615439"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688637"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-linux"></a>Новые возможности в Microsoft Defender для конечной точки для Linux
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Новые возможности в Microsoft Defender для конечной точки в Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 ## <a name="1012572-30121022125630"></a>101.25.72 (30.121022.12563.0)
 
-- Microsoft Defender для конечной точки для Linux теперь доступна в предварительном режиме для государственных клиентов США. Дополнительные сведения см. в [веб-сайте Microsoft Defender for Endpoint для государственных клиентов США.](gov.md)
-- Исправлена проблема, из-за которой использование Microsoft Defender для конечной точки Для Linux в системах с файлами FUSE привело к зависаю ОС
+- Microsoft Defender для конечной точки на Linux теперь доступен в предварительном просмотре для государственных клиентов США. Дополнительные сведения см. в [веб-сайте Microsoft Defender for Endpoint для государственных клиентов США.](gov.md)
+- Исправлена проблема, из-за которой использование Microsoft Defender для конечной точки в Linux в системах с файлами FUSE привело к зависаю ОС
 - Улучшения производительности & других исправлений ошибок
 
 ## <a name="1012563-30121022125630"></a>101.25.63 (30.121022.12563.0)

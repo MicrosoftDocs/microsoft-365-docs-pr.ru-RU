@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок в atP защитника Microsoft в прямом эфире
-description: Устранение неполадок, которые могут возникнуть при использовании живого ответа в ATP Microsoft Defender
+title: Устранение неполадок в Microsoft Defender для проблем с ответом в прямом эфире endpoint
+description: Устранение неполадок, которые могут возникнуть при использовании живого ответа в Microsoft Defender для endpoint
 keywords: устранение неполадок живой отклик, живой, ответ, заблокирован, файл
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 62525548be777a3187cea5ed4be622ac9d42079b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 2601001687fc22da98ca3cd81010237d12705ea4
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183826"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687415"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-live-response-issues"></a>Устранение неполадок в Microsoft Defender для проблем с ответом в прямом эфире endpoint
 

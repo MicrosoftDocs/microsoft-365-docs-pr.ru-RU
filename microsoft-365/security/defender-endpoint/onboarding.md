@@ -1,6 +1,6 @@
 ---
-title: Onboard to the Microsoft Defender ATP service
-description: Узнайте, как переназначить конечные точки в службу ATP Защитника Майкрософт
+title: На борту службы Microsoft Defender для конечных точек
+description: Узнайте, как переназначить конечные точки в службу Microsoft Defender для конечных точек
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 56a62ca4ebbd140f507d1735c663924014ca4771
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: cc538c887397d5bbea78f63c8a8acd318ec7fe9f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445736"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689537"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>На борту службы Microsoft Defender для конечных точек
 
@@ -71,7 +71,7 @@ ms.locfileid: "51445736"
 
 | Endpoint     | Параметры инструмента                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Локальный скрипт (до 10 устройств)](configure-endpoints-script.md) <br>  [Групповая политика](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Скрипты VDI](configure-endpoints-vdi.md)   |
+| **Windows**  |  [Локальный скрипт (до 10 устройств)](configure-endpoints-script.md) <br>  [Групповая политика](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Скрипты VDI](configure-endpoints-vdi.md) <br> [Центр безопасности Azure](configure-server-endpoints.md#integration-with-azure-security-center) |
 | **macOS**    | [Локальные сценарии](mac-install-manually.md) <br> [Менеджер конечных точек Майкрософт](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Управление мобильными устройствами](mac-install-with-other-mdm.md) |
 | **Linux Server** | [Локальный скрипт](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [На основе приложения](ios-install.md)                                |

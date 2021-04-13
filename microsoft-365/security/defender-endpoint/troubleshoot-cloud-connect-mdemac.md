@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок с облачным подключением для Microsoft Defender для конечной точки для Mac
-description: В этом разделе описывается устранение неполадок с облачными подключениями для Microsoft Defender для конечной точки для Mac
+title: Устранение неполадок с облачными подключениями для Microsoft Defender для конечной точки на macOS
+description: В этом разделе описывается устранение неполадок с облачными подключениями для Microsoft Defender для конечной точки на macOS
 keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e522495fa86b5a71faa9f25cc863c29cc5d124c0
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: a8871274cabae0762cecc2ff513afe93c2d4811f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476717"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688505"
 ---
-# <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Устранение неполадок с облачным подключением для Microsoft Defender для конечной точки для Mac
+# <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Устранение неполадок с облачными подключениями для Microsoft Defender для конечной точки на macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51476717"
 
 **MacOS** платформы
 
-В этом разделе описывается, как устранить проблемы с облачным подключением для Microsoft Defender для конечной точки для Mac.
+В этом разделе описывается, как устранить проблемы с облачным подключением для Microsoft Defender для конечной точки на macOS.
 
 ## <a name="run-the-connectivity-test"></a>Запуск теста подключения
 Чтобы проверить, может ли Защитник для конечной точки Для Mac взаимодействовать с облаком с текущими сетевыми настройками, запустите тест на подключение из командной строки:
@@ -72,7 +72,7 @@ Testing connection with https://v20.events.data.microsoft.com/ping ... [OK]
 Если прокси-сервер или брандмауэр блокирует анонимный трафик, убедитесь, что анонимный трафик разрешен в указанных ранее URL-адресах.
 
 > [!WARNING]
-> Прокси-прокси с проверкой подлинности не поддерживаются. Убедитесь, что используется только PAC, WPAD или статический прокси. Проверка SSL и перехват прокси также не поддерживаются по соображениям безопасности. Настройте исключение для проверки SSL и прокси-сервера, чтобы напрямую передавать данные из Microsoft Defender для Конечной точки для Mac в соответствующие URL-адреса без перехвата. Добавление сертификата перехвата в глобальный магазин не позволяет перехватывать.
+> Прокси-прокси с проверкой подлинности не поддерживаются. Убедитесь, что используется только PAC, WPAD или статический прокси. Проверка SSL и перехват прокси также не поддерживаются по соображениям безопасности. Настройте исключение для проверки SSL и прокси-сервера, чтобы напрямую передавать данные из Microsoft Defender для конечной точки на macOS в соответствующие URL-адреса без перехвата. Добавление сертификата перехвата в глобальный магазин не позволяет перехватывать.
 Проверка того, что подключение не заблокировано: в браузере, например Microsoft Edge для Mac или Safari, открываются https://x.cp.wd.microsoft.com/api/report и https://cdn.x.cp.wd.microsoft.com/ping .
 
 Необязательно в Терминале запустите следующую команду:

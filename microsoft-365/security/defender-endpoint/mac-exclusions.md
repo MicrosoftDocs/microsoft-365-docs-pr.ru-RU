@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fb0cffb9716b2d0940e816dc69217486fd51a21d
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: b1282543a68ce4cb5c322423656d33c5db12b97b
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379333"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688589"
 ---
-# <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-for-mac"></a>Настройка и проверка исключений для Microsoft Defender для конечной точки для Mac
+# <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>Настройка и проверка исключений для Microsoft Defender для конечной точки на macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -55,7 +55,7 @@ ms.locfileid: "51379333"
 Исключения | Определение | Примеры
 ---|---|---
 Расширение файла | Все файлы с расширением в любом месте на компьютере | `.test`
-Файл | Определенный файл, определенный по полному пути | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+File | Определенный файл, определенный по полному пути | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
 Folder | Все файлы в указанной папке (повторно) | `/var/log/`<br/>`/var/*/`
 Процесс | Определенный процесс (указанный полным путем или именем файла) и все файлы, открытые в нем. | `/bin/cat`<br/>`cat`<br/>`c?t`
 

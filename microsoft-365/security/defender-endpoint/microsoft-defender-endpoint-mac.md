@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender для конечной точки для Mac
+title: Microsoft Defender для конечной точки на Mac
 ms.reviewer: ''
-description: Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки для Mac.
+description: Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на Mac.
 keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, big sur, catalina, mojave, mde for mac
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 22d35a42eb7fb7eadbba686c292729772951c05c
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 406a0e699ea563670f41355d122aa54ba8667a0e
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500692"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687749"
 ---
-# <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender для конечной точки для Mac
+# <a name="microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender для конечной точки на Mac
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,25 +36,25 @@ ms.locfileid: "51500692"
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-В этом разделе описано, как установить, настроить, обновить и использовать Defender для конечной точки для Mac.
+В этом разделе описывается установка, настройка, обновление и использование Defender для конечной точки на Mac.
 
 > [!CAUTION]
-> Запуск других сторонних продуктов защиты конечной точки наряду с Microsoft Defender для конечной точки для Mac может привести к проблемам с производительностью и непредсказуемым побочным эффектам. Если защита конечной точки не microsoft является абсолютным требованием в вашей среде, вы можете безопасно использовать функции Defender для endpoint для Mac EDR после настройки функции антивируса для запуска в пассивном [режиме.](mac-preferences.md#enable--disable-passive-mode)
+> Запуск других сторонних продуктов защиты конечной точки наряду с Microsoft Defender для конечной точки на Mac может привести к проблемам с производительностью и непредсказуемым побочным эффектам. Если защита конечной точки не microsoft является абсолютным требованием в вашей среде, вы можете безопасно использовать функции Defender для конечной точки на Mac EDR после настройки функции антивируса для запуска в пассивном [режиме.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>Новые возможности последнего выпуска
 
 [Новые возможности Microsoft Defender для конечной точки](whats-new-in-microsoft-defender-atp.md)
 
-[Новые возможности в Microsoft Defender для конечной точки для Mac](mac-whatsnew.md)
+[Новые возможности в Microsoft Defender для конечной точки на Mac](mac-whatsnew.md)
 
 > [!TIP]
-> Если у вас есть какие-либо отзывы, которые вы хотели бы поделиться, отправьте его, открыв Microsoft Defender для конечной точки для Mac на устройстве и навигации, чтобы **помочь**  >  **отправить обратную связь**.
+> Если у вас есть какие-либо отзывы, которые вы хотели бы поделиться, отправьте его, открыв Microsoft Defender для конечной точки на Mac на устройстве и навигации, чтобы **помочь**  >  **отправить обратную связь**.
 
 Чтобы получить последние функции, в том числе возможности предварительного просмотра (например, обнаружение конечных точек и ответы для устройств Mac), настройте устройство macOS под управлением Microsoft Defender для endpoint как устройство "Insider".
 
-## <a name="how-to-install-microsoft-defender-for-endpoint-for-mac"></a>Установка Microsoft Defender для конечной точки для Mac
+## <a name="how-to-install-microsoft-defender-for-endpoint-on-mac"></a>Установка Microsoft Defender для конечной точки на Mac
 
-### <a name="prerequisites"></a>Необходимые условия
+### <a name="prerequisites"></a>Предварительные условия
 
 - Подписка на конечную точку Defender и доступ к порталу Центра безопасности Защитника Майкрософт
 - Опыт начального уровня в скриптах macOS и BASH
@@ -62,7 +62,7 @@ ms.locfileid: "51500692"
 
 ### <a name="installation-instructions"></a>Инструкции по установке
 
-Существует несколько методов и средств развертывания, которые можно использовать для установки и настройки Defender для конечной точки для Mac.
+Существует несколько методов и средств развертывания, которые можно использовать для установки и настройки Defender для конечной точки на Mac.
 
 - Средства управления сторонними средствами управления:
     - [Развертывание на основе Microsoft Intune](mac-install-with-intune.md)
@@ -91,7 +91,7 @@ ms.locfileid: "51500692"
 
 ### <a name="licensing-requirements"></a>Требования к лицензированию
 
-Microsoft Defender для конечной точки для Mac требует одно из следующих предложений microsoft Volume Licensing:
+Microsoft Defender для конечной точки на Mac требует одно из следующих предложений по лицензированию объемов Microsoft:
 
 - Microsoft 365 E5 (M365 E5)
 - Безопасность Microsoft 365 E5
@@ -107,7 +107,7 @@ Microsoft Defender для конечной точки для Mac требует 
 
 
 
-|**Таблица списка доменов**|**Описание**|
+|**Таблица списка доменов**|**Description**|
 |:-----|:-----|
 |![Изображение пальца для таблицы URL-адресов Microsoft Defender для конечных точек](images/mdatp-urls.png)<br/>  | Таблица определенных DNS-записей для расположения служб, географических местоположений и ОС. <br><br>Скачайте таблицу здесь: [mdatp-urls.xlsx](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx).
 
@@ -121,7 +121,7 @@ Microsoft Defender для конечной точки может открыть 
 > [!WARNING]
 > Прокси-прокси с проверкой подлинности не поддерживаются. Убедитесь, что используется только PAC, WPAD или статический прокси.
 >
-> Проверка SSL и перехват прокси также не поддерживаются по соображениям безопасности. Настройте исключение для проверки SSL и прокси-сервера, чтобы напрямую передавать данные из Microsoft Defender для Конечной точки для Mac в соответствующие URL-адреса без перехвата. Добавление сертификата перехвата в глобальный магазин не позволяет перехватывать.
+> Проверка SSL и перехват прокси также не поддерживаются по соображениям безопасности. Настройте исключение для проверки SSL и прокси-сервера, чтобы напрямую передавать данные из Microsoft Defender для конечной точки на macOS в соответствующие URL-адреса без перехвата. Добавление сертификата перехвата в глобальный магазин не позволяет перехватывать.
 
 Чтобы проверить, не заблокировано ли подключение, откройте [https://x.cp.wd.microsoft.com/api/report](https://x.cp.wd.microsoft.com/api/report) и [https://cdn.x.cp.wd.microsoft.com/ping](https://cdn.x.cp.wd.microsoft.com/ping) в браузере.
 
@@ -145,20 +145,20 @@ curl -w ' %{url_effective}\n' 'https://x.cp.wd.microsoft.com/api/report' 'https:
 mdatp connectivity test
 ```
 
-## <a name="how-to-update-microsoft-defender-for-endpoint-for-mac"></a>Обновление Microsoft Defender для конечной точки для Mac
+## <a name="how-to-update-microsoft-defender-for-endpoint-on-mac"></a>Обновление Microsoft Defender для конечной точки на Mac
 
-Корпорация Майкрософт регулярно публикует обновления программного обеспечения для повышения производительности, безопасности и предоставления новых функций. Для обновления Microsoft Defender для конечной точки для Mac используется программа с именем Microsoft AutoUpdate (MAU). Дополнительные новости см. в дополнительных подробной информации о развертывании [обновлений для Microsoft Defender для конечной точки для Mac.](mac-updates.md)
+Корпорация Майкрософт регулярно публикует обновления программного обеспечения для повышения производительности, безопасности и предоставления новых функций. Для обновления Microsoft Defender для конечной точки на Mac используется программа с именем Microsoft AutoUpdate (MAU). Дополнительные новости см. в дополнительных подробной информации о развертывании обновлений [для Microsoft Defender для конечной точки на Mac.](mac-updates.md)
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-for-mac"></a>Настройка Microsoft Defender для конечной точки для Mac
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-mac"></a>Настройка Microsoft Defender для конечной точки на Mac
 
-Инструкции по настройке продукта в корпоративных средах доступны в наборе предпочтений [для Microsoft Defender для конечной](mac-preferences.md)точки для Mac.
+Инструкции по настройке продукта в корпоративных средах доступны в наборе предпочтений [Для Microsoft Defender для конечной](mac-preferences.md)точки на Mac .
 
 ## <a name="macos-kernel-and-system-extensions"></a>ядра macOS и расширения системы
 
-В соответствии с эволюцией macOS мы готовим обновление Microsoft Defender для конечной точки для Mac, которое использует расширения системы вместо расширений ядра. Соответствующие сведения см. [в материале "Что нового в Microsoft Defender для конечной точки для Mac".](mac-whatsnew.md)
+В соответствии с эволюцией macOS мы готовим обновление Microsoft Defender для конечной точки на Mac, которое использует расширения системы вместо расширений ядра. Соответствующие сведения см. [в материале "Что нового в Microsoft Defender для конечной точки на Mac".](mac-whatsnew.md)
 
 ## <a name="resources"></a>Ресурсы
 
-- Дополнительные сведения о журнале, uninstalling или других темах см. в [разделе Ресурсы для Microsoft Defender для конечной](mac-resources.md)точки для Mac.
+- Дополнительные сведения о журнале, uninstalling или других темах см. в [разделе Ресурсы для Microsoft Defender для конечной](mac-resources.md)точки на Mac.
 
-- [Конфиденциальность для Microsoft Defender для конечной точки для Mac](mac-privacy.md).
+- [Конфиденциальность для Microsoft Defender для конечной точки на Mac](mac-privacy.md).

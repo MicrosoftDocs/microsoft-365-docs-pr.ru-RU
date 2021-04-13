@@ -18,27 +18,27 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 645c3657bdd1540ac95b68460b4dff6d25627c2c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 69dd85394837bb7f37e7d277110c8a5dbf7b6506
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185934"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689117"
 ---
-# <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Устранение неполадок с лицензиями для Microsoft Defender для конечной точки для Mac
+# <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Устранение неполадок с лицензиями для Microsoft Defender для конечной точки на macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Область применения:**
 
-- [Microsoft Defender для конечной точки для Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender для конечной точки на macOS](microsoft-defender-endpoint-mac.md)
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-При проверке microsoft [Defender для конечной](microsoft-defender-endpoint-mac.md) точки для Mac и [ручного](mac-install-manually.md) тестирования развертывания или проверки концепции (PoC) вы можете получить следующую ошибку:
+Во время проверки развертывания [macOS](microsoft-defender-endpoint-mac.md) и [](mac-install-manually.md) ручного развертывания в Microsoft Defender для конечной точки или проверки концепции (PoC) вы можете получить следующую ошибку:
 
 ![Изображение ошибки лицензии](images/no-license-found.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "51185934"
 
 **Причина:** 
 
-Вы развернули и/или установили Microsoft Defender для конечной точки для пакета macOS ("Пакет установки загрузки"), но, возможно, вы запустите сценарий конфигурации ("Скачайте пакет onboarding").
+Вы развернули и/или установили microsoft Defender для конечной точки на пакете macOS ("Пакет установки загрузки"), но, возможно, вы запустите сценарий конфигурации ("Скачайте пакет onboarding").
 
 **Решение:**
 

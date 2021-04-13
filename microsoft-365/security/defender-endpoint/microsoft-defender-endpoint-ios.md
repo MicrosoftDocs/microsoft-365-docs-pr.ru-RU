@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7d4bc095a9fbc0b9cd166d3133ed291a2c8c01da
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 6bf9691f390173ec86dcadd19707c980aa66336f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615427"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687773"
 ---
-# <a name="microsoft-defender-for-endpoint-for-ios"></a>Microsoft Defender для конечной точки для iOS
+# <a name="microsoft-defender-for-endpoint-on-ios"></a>Защитник Microsoft для конечной точки на iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "51615427"
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-**Microsoft Defender для конечной точки для iOS** будет предлагать защиту от фишинга и небезопасных сетевых подключений с веб-сайтов, электронной почты и приложений. Все оповещения будут доступны с помощью единой области стекла в Центре безопасности Защитника Майкрософт. Портал предоставляет группам безопасности централизованное представление угроз на устройствах iOS наряду с другими платформами.
+**Microsoft Defender для конечной точки на iOS** будет предлагать защиту от фишинга и небезопасных сетевых подключений с веб-сайтов, электронной почты и приложений. Все оповещения будут доступны с помощью единой области стекла в Центре безопасности Защитника Майкрософт. Портал предоставляет группам безопасности централизованное представление угроз на устройствах iOS наряду с другими платформами.
 
 > [!CAUTION]
 > Запуск других сторонних продуктов защиты конечных точек наряду с Defender for Endpoint для iOS может привести к проблемам с производительностью и непредсказуемым системным ошибкам.
@@ -58,7 +58,7 @@ ms.locfileid: "51615427"
 - Доступ к порталу Центра безопасности Защитника Майкрософт.
 
     > [!NOTE]
-    > Microsoft Intune является единственным поддерживаемым решением управления мобильными устройствами (MDM) для развертывания Microsoft Defender для конечной точки для iOS. В настоящее время поддерживаются только зарегистрированные устройства для принудительного выполнения политик соответствия требованиям Defender для конечной точки для iOS, связанных с устройствами в Intune.
+    > Microsoft Intune — единственное поддерживаемое решение для управления мобильными устройствами (MDM) для развертывания Microsoft Defender для конечной точки в iOS. В настоящее время поддерживаются только зарегистрированные устройства для принудительного выполнения политик соответствия требованиям Defender для конечной точки для iOS, связанных с устройствами в Intune.
 
 - Доступ к [центру администрирования Microsoft Endpoint Manager,](https://go.microsoft.com/fwlink/?linkid=2109431)чтобы развернуть приложение для зарегистрированных групп пользователей в вашей организации.
 
@@ -74,15 +74,15 @@ ms.locfileid: "51615427"
 ## <a name="installation-instructions"></a>Инструкции по установке
 
 Развертывание конечной точки Microsoft Defender для iOS осуществляется с помощью Microsoft Intune (MDM), и поддерживаются как контролируемые, так и неконтролные устройства.
-Дополнительные сведения см. в [веб-сайте Deploy Microsoft Defender for Endpoint for iOS.](ios-install.md)
+Дополнительные сведения см. в [сайте Deploy Microsoft Defender for Endpoint on iOS.](ios-install.md)
 
 ## <a name="resources"></a>Ресурсы
 
-- Будьте в курсе предстоящих выпусков, посетив новые возможности [в Microsoft Defender для конечной](ios-whatsnew.md) точки для iOS или в нашем [блоге.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
+- Будьте в курсе предстоящих выпусков, посетив новые возможности [в Microsoft Defender для конечной](ios-whatsnew.md) точки на iOS или в нашем [блоге.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
 
 - Предоставление обратной связи через систему обратной связи в приложении или через [портал SecOps](https://securitycenter.microsoft.com)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Развертывание Microsoft Defender для конечной точки для iOS](ios-install.md)
+- [Развертывание Microsoft Defender для конечной точки на iOS](ios-install.md)
 - [Настройка Microsoft Defender для конечной точки для функций iOS](ios-configure-features.md)

@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b56e8a74875b3377b6f3228bbefb339680dbc6e1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: aaf537c84adaba3d632367567cc569069650d21a
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187785"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688361"
 ---
-# <a name="privacy-for-microsoft-defender-for-endpoint-for-linux"></a>Конфиденциальность для Microsoft Defender для конечной точки для Linux
+# <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Конфиденциальность для Microsoft Defender для конечной точки на Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "51187785"
 
 В этом разделе описываются элементы управления конфиденциальностью, доступные в продукте, управление этими средствами управления с помощью параметров политики, а также дополнительные сведения о собранных событиях данных.
 
-## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-for-linux"></a>Обзор элементов управления конфиденциальностью в Microsoft Defender для конечной точки для Linux
+## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-on-linux"></a>Обзор элементов управления конфиденциальностью в Microsoft Defender для конечной точки на Linux
 
 В этом разделе описываются элементы управления конфиденциальностью для различных типов данных, собранных Defender для конечной точки для Linux.
 

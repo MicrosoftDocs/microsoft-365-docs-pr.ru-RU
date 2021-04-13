@@ -16,16 +16,16 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b4c2e4d80628dab40de9e99abb27237176b9f171
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a967333a58f74938ea70e32e0c48d2decb597e98
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070502"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688805"
 ---
-# <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>Запланировать обновление конечной точки Microsoft Defender (Linux)
+# <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>Планирование обновления Microsoft Defender для конечной точки для Linux
 
-Чтобы запустить обновление в Microsoft Defender для конечной точки для Linux, см. в статью Развертывание обновлений [для Microsoft Defender для конечной](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-updates)точки для Linux.
+Чтобы запустить обновление в Microsoft Defender для конечной точки в Linux, см. в статью Развертывание обновлений для [Microsoft Defender для конечной](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-updates)точки в Linux.
 
 Linux (и Unix) имеют средство **crontab** (аналогично планиру задач) для выполнения запланированных задач.
 

@@ -1,7 +1,7 @@
 ---
 title: Инвентаризация программного обеспечения в управлении угрозами и уязвимостью
-description: На странице инвентаризации программного обеспечения для управления угрозами и уязвимостями в Microsoft Defender показано, сколько недостатков и уязвимостей было обнаружено в программном обеспечении.
-keywords: Управление угрозами и уязвимостью, atp защитника Майкрософт, инвентаризация программного обеспечения atp microsoft defender, управление уязвимостей mdatp &, инвентаризация программного обеспечения управления угрозами mdatp &, инвентаризация программного обеспечения mdatp tvm, инвентаризация программного обеспечения tvm
+description: На странице инвентаризации программного обеспечения для microsoft Defender для управления угрозами и уязвимостями Endpoint показано, сколько недостатков и уязвимостей было обнаружено в программном обеспечении.
+keywords: управление угрозами и уязвимостью, microsoft defender для конечной точки, защитник Microsoft для инвентаризации программного обеспечения конечной точки, управление угрозами mdatp &, инвентаризация программного обеспечения управления угрозами mdatp &, инвентаризация программного обеспечения mdatp tvm, инвентаризация программного обеспечения tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 02d7810ef27b495e69fd6d8ca72baf40df13ee93
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a4ceb7cc4d39dbddbb4cd325491c16f4503bfc52
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500449"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689381"
 ---
 # <a name="software-inventory---threat-and-vulnerability-management"></a>Инвентаризация программного обеспечения — управление угрозами и уязвимостью
 

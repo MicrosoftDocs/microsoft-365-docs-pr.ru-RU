@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be01d5908e4c79f642cdbbddd75115f6ebc2c713
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 9b00d81d3d51c343565ec4eb743181baa2750b01
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499595"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687737"
 ---
-# <a name="set-up-the-microsoft-defender-for-endpoint-for-macos-policies-in-jamf-pro"></a>Настройка конечной точки Microsoft Defender для политик macOS в Jamf Pro
+# <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Настройка конечной точки Microsoft Defender для политик macOS в Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -56,9 +56,9 @@ ms.locfileid: "51499595"
 
 9. [Настройка расширения сети](#step-9-configure-network-extension)
 
-10. [Расписание сканирования с помощью Microsoft Defender для конечной точки для Mac](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+10. [Расписание сканирования с помощью Microsoft Defender для конечной точки на macOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
-11. [Развертывание Microsoft Defender для конечной точки для macOS](#step-11-deploy-microsoft-defender-for-endpoint-for-macos)
+11. [Развертывание Microsoft Defender для конечной точки на macOS](#step-11-deploy-microsoft-defender-for-endpoint-on-macos)
 
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>Шаг 1. Получить пакет onboarding Microsoft Defender для конечной точки
@@ -360,7 +360,7 @@ ms.locfileid: "51499595"
         - **Метод рассылки:** Установка автоматически *(по умолчанию)*
         - **Уровень**: Уровень компьютера *(по умолчанию)*
 
-        ![Изображение параметров конфигурации mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![Изображение параметров профилей конфигурации mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
     - Tab **Notifications,** **нажмите кнопку Добавить** и введите следующие значения:
         - **Bundle ID:**`com.microsoft.wdav.tray`
@@ -468,7 +468,7 @@ ms.locfileid: "51499595"
    
      ![Изображение scopetab настройки конфигурации](images/10ab98358b2d602f3f67618735fa82fb.png)
 
-13. Нажмите кнопку **Add** (Добавить).
+13. Нажмите кнопку **Добавить**.
     
     ![Изображение параметра конфигурации addimg1](images/56e6f6259b9ce3c1706ed8d666ae4947.png)
 
@@ -559,7 +559,7 @@ ms.locfileid: "51499595"
 
     ![Изображение параметра конфигурации contoso machinegrp](images/368d35b3d6179af92ffdbfd93b226b69.png)
 
-15. Нажмите кнопку **Add** (Добавить). 
+15. Нажмите кнопку **Добавить**. 
 
 16. Нажмите **Сохранить**. 
     
@@ -681,7 +681,7 @@ ms.locfileid: "51499595"
 
 ## <a name="step-9-configure-network-extension"></a>Шаг 9. Настройка расширения сети
 
-В рамках возможностей обнаружения конечных точек и ответов Microsoft Defender for Endpoint для Mac проверяет трафик розетки и передает эти сведения на портал Центра безопасности Microsoft Defender. Следующая политика позволяет сетевому расширению выполнять эту функцию.
+В рамках возможностей обнаружения конечных точек и ответов Microsoft Defender for Endpoint на macOS проверяет трафик розетки и передает эти сведения на портал Центра безопасности Microsoft Defender. Следующая политика позволяет сетевому расширению выполнять эту функцию.
 
 Эти действия применимы к macOS 10.15 (Catalina) или более новым.
 
@@ -707,7 +707,7 @@ ms.locfileid: "51499595"
 
         Обратите **внимание, что идентификатор,** **фильтр socket и** **фильтр socket** назначенные точные значения требования, указанные выше.
 
-        ![Изображение параметров конфигурации mdatpmdav](images/netext-create-profile.png)
+        ![Изображение параметра конфигурации mdatpmdav](images/netext-create-profile.png)
 
 3. Выберите **вкладку Область.**
 
@@ -731,10 +731,10 @@ ms.locfileid: "51499595"
 
 Кроме того, вы можете скачать [netfilter.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) и загрузить его в профили конфигурации JAMF, как описано в развертывании пользовательских профилей конфигурации с помощью [Jamf Pro| Метод 2. Загрузите профиль конфигурации в Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
-## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-for-mac"></a>Шаг 10. Расписание сканирования в Microsoft Defender для конечной точки для Mac
-Следуйте инструкциям по [проверке расписания с помощью Microsoft Defender для конечной точки для Mac](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp).
+## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>Шаг 10. Расписание сканирования с помощью Microsoft Defender для конечной точки на macOS
+Следуйте инструкциям по [проверке расписания с помощью Microsoft Defender для конечной точки на macOS.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
-## <a name="step-11-deploy-microsoft-defender-for-endpoint-for-macos"></a>Шаг 11. Развертывание Microsoft Defender для конечной точки для macOS
+## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>Шаг 11. Развертывание Microsoft Defender для конечной точки на macOS
 
 1. Перейдите к сохраненным `wdav.pkg` местам.
 
@@ -830,7 +830,7 @@ ms.locfileid: "51499595"
 
     **Scope**
     
-    Нажмите кнопку **Add** (Добавить).
+    Нажмите кнопку **Добавить**.
     
     ![Изображение параметров конфигурации ad1img](images/1c08d097829863778d562c10c5f92b67.png)
 

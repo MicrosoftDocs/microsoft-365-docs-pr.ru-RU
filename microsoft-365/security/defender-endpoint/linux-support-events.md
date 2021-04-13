@@ -18,20 +18,20 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e489d5bece292065ad2e82a7eb9011747733b4f6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5981cb75b4c835390e27d902b5950e3c68305200
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073742"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687458"
 ---
-# <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-for-linux"></a>Устранение неполадок с отсутствующих событиями или оповещений о проблемах для Microsoft Defender для конечной точки для Linux
+# <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Устранение неполадок с отсутствующих событиями или оповещений о проблемах для Microsoft Defender для конечной точки в Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
 
-- [Microsoft Defender для конечной точки для Linux](microsoft-defender-endpoint-linux.md)
+- [Microsoft Defender для конечной точки на Linux](microsoft-defender-endpoint-linux.md)
 
 В этой статье приводится ряд общих действий по снижению отсутствующих событий или оповещений на [портале центра](https://securitycenter.windows.com/) безопасности.
 

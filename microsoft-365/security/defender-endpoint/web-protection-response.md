@@ -1,5 +1,5 @@
 ---
-title: Реагирование на веб-угрозы в ATP Защитника Майкрософт
+title: Реагирование на веб-угрозы в Microsoft Defender для конечной точки
 description: Откликайся на оповещения, связанные с вредоносными и нежелательными веб-сайтами. Понимание того, как защита от веб-угроз информирует конечных пользователей через их веб-браузеры и уведомления Windows
 keywords: веб-защита, защита от веб-угроз, просмотр веб-страниц, оповещения, ответы, безопасность, фишинг, вредоносные программы, эксплойт, веб-сайты, защита сети, Edge, Internet Explorer, Chrome, Firefox, веб-браузер, уведомления, конечные пользователи, уведомления Windows, страница блокировки,
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b0e6bb0d71c14bf7742f8d6508fbb95b76b10a34
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 110b379863b4c6e23c947c56faf831e136231237
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498355"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688481"
 ---
 # <a name="respond-to-web-threats"></a>Реагирование на веб-угрозы
 

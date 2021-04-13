@@ -1,6 +1,6 @@
 ---
-title: Мониторинг безопасности просмотра веб-страниц в ATP Защитника Майкрософт
-description: Использование веб-защиты в ATP Защитника Майкрософт для мониторинга безопасности просмотра веб-страниц
+title: Мониторинг безопасности просмотра веб-страниц в Microsoft Defender для конечной точки
+description: Использование веб-защиты в Microsoft Defender для конечной точки для мониторинга безопасности просмотра веб-страниц
 keywords: веб-защита, защита от веб-угроз, просмотр веб-сайтов, мониторинг, отчеты, карты, список доменов, безопасность, фишинг, вредоносные программы, эксплойт, веб-сайты, защита сети, Edge, Internet Explorer, Chrome, Firefox, веб-браузер
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 629e18c7387f6063254f3482f93a5e17023c7316
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: ee6388c779d2c5bc09a82f5e9064d1b981e885cb
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499948"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687427"
 ---
 # <a name="monitor-web-browsing-security"></a>Мониторинг безопасности просмотра веб-страниц
 

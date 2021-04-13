@@ -1,5 +1,5 @@
 ---
-title: Развертывание Microsoft Defender для конечной точки для Linux вручную
+title: Развертывание Microsoft Defender для конечной точки на Linux вручную
 ms.reviewer: ''
 description: Описывает, как вручную развернуть ATP Microsoft Defender для Linux из командной строки.
 keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c695eb0d786e73da5adb95bbca5c1747243d6203
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 78ea8b106253098791d71ef9ff788b7cf1df4ec7
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644744"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688409"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Развертывание Microsoft Defender для конечной точки для Linux вручную
+# <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Развертывание Microsoft Defender для конечной точки на Linux вручную
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,9 +36,9 @@ ms.locfileid: "51644744"
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-В этой статье описывается, как развернуть Microsoft Defender для конечной точки для Linux вручную. Успешное развертывание требует выполнения всех следующих задач:
+В этой статье описывается, как развернуть Microsoft Defender для конечной точки на Linux вручную. Успешное развертывание требует выполнения всех следующих задач:
 
-- [Развертывание Microsoft Defender для конечной точки для Linux вручную](#deploy-microsoft-defender-for-endpoint-for-linux-manually)
+- [Развертывание Microsoft Defender для конечной точки на Linux вручную](#deploy-microsoft-defender-for-endpoint-on-linux-manually)
   - [Необходимые условия и требования к системе](#prerequisites-and-system-requirements)
   - [Настройка репозитория программного обеспечения Linux](#configure-the-linux-software-repository)
     - [RHEL и варианты (CentOS и Oracle Linux)](#rhel-and-variants-centos-and-oracle-linux)
@@ -54,7 +54,7 @@ ms.locfileid: "51644744"
 
 ## <a name="prerequisites-and-system-requirements"></a>Необходимые условия и требования к системе
 
-Перед началом работы см. в [веб-сайте Microsoft Defender for Endpoint for Linux](microsoft-defender-endpoint-linux.md) описание необходимых условий и системных требований к текущей версии программного обеспечения.
+Перед началом работы см. в [веб-сайте Microsoft Defender для конечной](microsoft-defender-endpoint-linux.md) точки на Linux описание необходимых условий и системных требований для текущей версии программного обеспечения.
 
 ## <a name="configure-the-linux-software-repository"></a>Настройка репозитория программного обеспечения Linux
 

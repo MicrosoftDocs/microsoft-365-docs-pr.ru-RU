@@ -1,7 +1,7 @@
 ---
-title: Что нового в ATP Защитника Майкрософт
-description: Узнайте, какие функции обычно доступны (GA) в последнем выпуске ATP Microsoft Defender, а также функции безопасности в Windows 10 и Windows Server.
-keywords: что нового в atp, ga защитника Майкрософт, как правило, доступно, возможности, доступные, новые
+title: Новые возможности Microsoft Defender для конечной точки
+description: Узнайте, какие функции обычно доступны (GA) в последнем выпуске Microsoft Defender для конечной точки, а также функции безопасности в Windows 10 и Windows Server.
+keywords: что нового в защитнике Microsoft для конечной точки, ga, как правило, доступны, возможности, доступные, новые
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a72b742d8f4a69d2e38cf4fa234ba5b7e2961ac6
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c9f4c0689739224b00c9c14db1482d54faab3512
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587615"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688241"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Новые возможности Microsoft Defender для конечной точки
 
@@ -52,22 +52,22 @@ ms.locfileid: "51587615"
 - [Виртуальный рабочий стол Windows](https://azure.microsoft.com/services/virtual-desktop/) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для виртуального рабочего стола Windows.
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
-- [Microsoft Defender для конечной точки для iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для iOS. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки для iOS.
+- [Защитник Microsoft для конечной точки на iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для iOS. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на iOS.
 
 ## <a name="september-2020"></a>Сентябрь 2020 г.
-- [Microsoft Defender для конечной точки для Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для Android. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки для Android.
+- [Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для Android. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на Android.
 - [Поддержка macOS управления угрозами и уязвимостью](tvm-supported-os.md)<br> Управление угрозами и уязвимостями для macOS в настоящее время находится в общедоступных версиях и будет постоянно обнаруживать уязвимости на устройствах macOS, чтобы помочь вам определить приоритеты в исправлении, сосредоточившись на риске. Узнайте больше из этого [блога сообщества Microsoft Tech.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint-adds-depth-and-breadth-to-threat/ba-p/1695824)
 
 
 ## <a name="august-2020"></a>Август 2020 г.
-- [Microsoft Defender для конечной точки для Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для Android. Узнайте, как установить, настроить и использовать Microsoft Defender для конечной точки для Android.
+- [Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для Android. Узнайте, как установить, настроить и использовать Microsoft Defender для конечной точки на Android.
 
 
 ## <a name="july-2020"></a>Июль 2020 г.
 - [Создание индикаторов для сертификатов](manage-indicators.md) <br> Создание индикаторов для допуска или блокировки сертификатов. 
 
 ## <a name="june-2020"></a>Июнь 2020 г.
-- [Microsoft Defender для конечной точки для Linux](microsoft-defender-endpoint-linux.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку Для Linux. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки для Linux.
+- [Microsoft Defender для конечной точки на Linux](microsoft-defender-endpoint-linux.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку Для Linux. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на Linux.
 
 - [Симуляторы атак в лаборатории оценки](evaluation-lab.md#threat-simulator-scenarios) <br> Microsoft Defender для конечной точки имеет партнерские отношения с различными платформами моделирования угроз, чтобы предоставить вам удобный доступ для проверки возможностей платформы прямо из портала.
 
@@ -78,7 +78,7 @@ ms.locfileid: "51587615"
 
 ## <a name="november-december-2019"></a>November-December 2019 г.
 
-- [Microsoft Defender для конечной точки для Mac](microsoft-defender-endpoint-mac.md) <BR> Microsoft Defender для конечной точки для Mac обеспечивает защиту следующего поколения на устройствах Mac. Основные компоненты единой платформы безопасности конечных точек теперь будут доступны для устройств Mac, включая обнаружение конечных точек [и ответ.](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender для конечной точки на macOS](microsoft-defender-endpoint-mac.md) <BR> Microsoft Defender для конечной точки на macOS обеспечивает защиту следующего поколения на устройствах Mac. Основные компоненты единой платформы безопасности конечных точек теперь будут доступны для устройств Mac, включая обнаружение конечных точек [и ответ.](microsoft-defender-endpoint-mac.md)
  
 - [Сведения & управления уязвимостью и версии приложений](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation) <BR>Приложения и версии приложений, которые достигли их окончания, помечены или помечены как таковой, чтобы вы знали, что они больше не будут поддерживаться, и могут принимать меры для их отменить или заменить. Это поможет уменьшить риски, связанные с различными воздействиями уязвимости из-за неокрепленных приложений.
 

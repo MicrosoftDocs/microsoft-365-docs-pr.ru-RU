@@ -15,12 +15,12 @@ ms.custom:
 description: Узнайте, как Exchange Online Protection (EOP) может защитить организацию локальной электронной почты в автономных и гибридных средах.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3df7b376d559535e168bfa21d2a8770b19569c4f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b699c0d6353d725b8d03cf4cf556a3e2ac798041
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206778"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687057"
 ---
 # <a name="exchange-online-protection-overview"></a>Обзор Exchange Online Protection
 
@@ -70,6 +70,9 @@ Exchange Online Protection (EOP) — это облачная служба фил
 - **Exchange Enterprise CAL с** службами. Если у вас есть локальное предприятие Exchange, в котором вы приобрели дополнительные лицензии Exchange Enterprise CAL с лицензиями на услуги, EOP является частью включенных служб.
 
 Сведения о требованиях, важных ограничениях и доступности функций во всех планах подписки на EOP см. в описании [службы Exchange Online Protection.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+
+> [!NOTE]
+> Если у вас есть **подписка на Office 365 E3, она включает EOP**. Сведения о действиях по настройкам функции безопасности EOP в подписке, а также сведения о добавленной безопасности, которую может предоставить подписка Microsoft Defender для Office 365, см. в статью Защита от [угроз.](protect-against-threats.md) Рекомендуемые параметры для установки функции EOP можно найти в статье [Рекомендации,](best-practices-for-configuring-eop.md) где параметры EOP специально вызволены.
 
 ## <a name="setting-up-eop-for-on-premises-email-organizations"></a>Настройка EOP для локальной организации электронной почты
 

@@ -1,6 +1,6 @@
 ---
 title: Фильтрация веб-содержимого
-description: Используйте фильтрацию веб-контента в ATP Защитника Майкрософт для отслеживания и регулирования доступа к веб-сайтам в зависимости от их категорий контента.
+description: Использование фильтрации веб-контента в Microsoft Defender для конечной точки для отслеживания и регулирования доступа к веб-сайтам в зависимости от их категорий контента.
 keywords: веб-защита, защита от веб-угроз, просмотр веб-сайтов, мониторинг, отчеты, карты, список доменов, безопасность, фишинг, вредоносные программы, эксплойт, веб-сайты, защита сети, Edge, Internet Explorer, Chrome, Firefox, веб-браузер
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c5f44b4ab8354330ec9701261e8fb0dcc2e9fe52
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: c9a069deded237c5ded6bcd9f6c6a77f644e65a2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499971"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689345"
 ---
 # <a name="web-content-filtering"></a>Фильтрация веб-содержимого
 
@@ -56,7 +56,7 @@ ms.locfileid: "51499971"
 
 Для более удобной работы в браузере рассмотрите возможность использования Microsoft Edge.
 
-## <a name="prerequisites"></a>Необходимые условия
+## <a name="prerequisites"></a>Предварительные условия
 
 Перед тем как попробовать эту функцию, убедитесь, что у вас есть следующие требования:
 

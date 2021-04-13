@@ -1,6 +1,6 @@
 ---
 title: Защита организации от веб-угроз
-description: Узнайте о веб-защите в ATP Microsoft Defender и о том, как она может защитить организацию.
+description: Узнайте о веб-защите в Microsoft Defender для конечной точки и о том, как она может защитить организацию.
 keywords: веб-защита, защита от веб-угроз, просмотр веб-сайтов, безопасность, фишинг, вредоносные программы, эксплойт, веб-сайты, защита сети, Edge, Internet Explorer, Chrome, Firefox, веб-браузер
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: aeeea02ca1ef2d37623e9ab434b162237c2f4946
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0c42c05e318390741b94b6d7d1b5394fca961714
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499897"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688949"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>Защита организации от веб-угроз
 
@@ -38,7 +38,7 @@ ms.locfileid: "51499897"
 >[!Note]
 >Получение новых настраиваемых индикаторов для устройств может занять до часа.
 
-## <a name="prerequisites"></a>Необходимые условия
+## <a name="prerequisites"></a>Предварительные условия
 Веб-защита использует защиту сети для обеспечения безопасности просмотра веб-страниц в Microsoft Edge и сторонних веб-браузерах.
 
 Чтобы включить защиту сети на устройствах:

@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок с интеграцией средств SIEM в ATP Защитника Майкрософт
-description: Устранение неполадок, которые могут возникнуть при использовании инструментов SIEM с atP Microsoft Defender.
+title: Устранение неполадок с интеграцией средств SIEM в Microsoft Defender для конечной точки
+description: Устранение неполадок, которые могут возникнуть при использовании средств SIEM с Помощью Microsoft Defender для конечной точки.
 keywords: устранение неполадок, siem, секрет клиента, секрет
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: c1c8fdb0b6e84d4265defb95d91b59a584b7f4c2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 60220d00ca1b612564b72103b9206e3d6d89dc60
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185783"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689453"
 ---
-# <a name="troubleshoot-siem-tool-integration-issues"></a>Устранение неполадок в интеграции инструментов SIEM
+# <a name="troubleshoot-siem-tool-integration-issues"></a>Устранение неполадок с интеграцией средства SIEM
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -53,7 +53,7 @@ ms.locfileid: "51185783"
 
 5. Выберите **раздел Клавиши,** затем укажите описание ключа и укажите длительность действия ключа.
 
-6. Нажмите кнопку **Сохранить**. Отображается ключевое значение.
+6. Щелкните **Сохранить**. Отображается ключевое значение.
 
 7. Скопируйте значение и сохраните его в безопасном месте.
 
@@ -74,7 +74,7 @@ ms.locfileid: "51185783"
    - Для Соединенного Королевства: `https://winatpmanagement-uk.securitycenter.windows.com/UserAuthenticationCallback`
    - Для Соединенных Штатов:  `https://winatpmanagement-us.securitycenter.windows.com/UserAuthenticationCallback` .
  
-6. Нажмите кнопку **Сохранить**.
+6. Щелкните **Сохранить**.
 
 ## <a name="error-while-enabling-the-siem-connector-application"></a>Ошибка при включении приложения соединиттеля SIEM
 Если вы столкнулись с ошибкой при попытке включить соединителем SIEM-приложение, проверьте параметры блокатора всплывающее окна в браузере. Это может быть блокировка открываемого окна при вскрывии возможности.

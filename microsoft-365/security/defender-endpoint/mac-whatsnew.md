@@ -1,6 +1,6 @@
 ---
-title: Новые возможности в Microsoft Defender для конечной точки для Mac
-description: Узнайте о главных изменениях для предыдущих версий Microsoft Defender для конечной точки для Mac.
+title: Новые возможности в Microsoft Defender для конечной точки на Mac
+description: Узнайте о главных изменениях для предыдущих версий Microsoft Defender для конечной точки на Mac.
 keywords: Microsoft, defender, atp, mac, installation, macos, Whatsnew
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5cd1f64d006b5462634dd47df9083e1a89db0e8c
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 67bbc987dc339c0e1f0354e07d6d2db8c39ec8b9
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615223"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689045"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Новые возможности в Microsoft Defender для конечной точки для Mac
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Новые возможности в Microsoft Defender для конечной точки на Mac
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "51615223"
 
 ## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
 
-- Microsoft Defender для конечной точки для Mac теперь доступен в предварительной версии для государственных клиентов США. Дополнительные сведения см. в [веб-сайте Microsoft Defender for Endpoint для государственных клиентов США.](gov.md)
+- Microsoft Defender для конечной точки на macOS теперь доступен в предварительном просмотре для клиентов правительства США. Дополнительные сведения см. в [веб-сайте Microsoft Defender for Endpoint для государственных клиентов США.](gov.md)
 - Улучшения производительности (в частности, для ситуации, когда используется приложение XCode Simulator) & исправлений ошибок
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
@@ -61,7 +61,7 @@ ms.locfileid: "51615223"
 > [!NOTE]
 > Старый синтаксис средства командной строки был обесценит с помощью этого выпуска. Сведения о новом синтаксисе см. в [сайте Resources](mac-resources.md#configuring-from-the-command-line).
 
-- Добавлен новый переключатель командной строки, чтобы отключить расширение сети: `mdatp system-extension network-filter disable` . Эта команда может быть полезна для устранения проблем с сетью, которые могут быть связаны с Microsoft Defender для конечной точки для Mac
+- Добавлен новый переключатель командной строки, чтобы отключить расширение сети: `mdatp system-extension network-filter disable` . Эта команда может быть полезна для устранения проблем с сетью, которые могут быть связаны с Microsoft Defender для конечной точки на Mac
 - Улучшения производительности & исправлений ошибок
 
 ## <a name="1011921-20120101119210"></a>101.19.21 (20.120101.11921.0)
@@ -94,7 +94,7 @@ ms.locfileid: "51615223"
 
 - Эта версия продукта была проверена на macOS Big Sur 11 бета-версии 9
 
-- Новый синтаксис для средства `mdatp` командной строки теперь является по умолчанию. Дополнительные сведения о новом синтаксисе см. в сайте [Resources for Microsoft Defender for Endpoint for Mac.](mac-resources.md#configuring-from-the-command-line)
+- Новый синтаксис для средства `mdatp` командной строки теперь является по умолчанию. Дополнительные сведения о новом синтаксисе см. в ссылке [Ресурсы для Microsoft Defender для конечной точки на macOS](mac-resources.md#configuring-from-the-command-line)
 
   > [!NOTE]
   > Старый синтаксис средства командной строки будет удален из продукта 1 января **2021 г.**
@@ -159,7 +159,7 @@ ms.locfileid: "51615223"
 
 ## <a name="1009027"></a>100.90.27
 
-- Теперь можно установить [канал обновления](mac-updates.md#set-the-channel-name) для Microsoft Defender для конечной точки для Mac, который отличается от канала обновления по всей системе.
+- Теперь вы можете [установить канал](mac-updates.md#set-the-channel-name) обновления для Microsoft Defender для конечной точки на macOS, который отличается от канала обновления для всей системы.
 - Значок нового продукта
 - Другие улучшения пользовательского интерфейса
 - Исправление ошибок
@@ -196,7 +196,7 @@ ms.locfileid: "51615223"
 
 ## <a name="1007942"></a>100.79.42
 
-- Исправлена проблема, из-за которой Microsoft Defender для конечной точки для Mac иногда вмешивалась в машину времени
+- Исправлена проблема, из-за которой Microsoft Defender для конечной точки на Mac иногда вмешивалась в машину времени
 - Добавлен новый переключатель в службу командной строки для тестирования подключения к службе backend
   ```bash
   mdatp connectivity test

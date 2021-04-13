@@ -1,7 +1,7 @@
 ---
 title: Создание и просмотр исключений для рекомендаций по безопасности — управление угрозами и уязвимостью
 description: Создание и мониторинг исключений для рекомендаций по безопасности в управлении угрозами и уязвимостью.
-keywords: Microsoft defender atp tvm remediation, mdatp tvm, threat and vulnerability management, threat & vulnerability management, threat & vulnerability management remediation, tvm remediation intune, tvm remediation sccm
+keywords: Защитник Microsoft для устранения конечной точки tvm, mdatp tvm, управления угрозами и уязвимостей, управления угрозами & уязвимостей, устранения угрозы & устранения уязвимостей, tm remediation intune, tvm remediation sccm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 13ac09b1ad918ed945edec6167fd57ea02b616ea
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 4f37300a742ab8cac32e95863cb706f1fd5f5d66
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500185"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689417"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Создание и просмотр исключений для рекомендаций по безопасности — управление угрозами и уязвимостью
 
@@ -84,7 +84,7 @@ ms.locfileid: "51500185"
 
 ### <a name="global-exceptions"></a>Глобальные исключения
 
-Если у вас есть глобальные разрешения администратора (так называемый администратор ATP Microsoft Defender), вы сможете создать и отменить глобальное исключение. Она затрагивает **все текущие** и будущие группы устройств в вашей организации, и изменить ее сможет только пользователь с аналогичным разрешением. Состояние рекомендации изменится с "active" на "полное исключение".
+Если у вас есть глобальные разрешения администратора, вы сможете создать и отменить глобальное исключение. Она затрагивает **все текущие** и будущие группы устройств в вашей организации, и изменить ее сможет только пользователь с аналогичным разрешением. Состояние рекомендации изменится с "active" на "полное исключение".
 
 ![Отображение глобального варианта исключения.](images/tvm-exception-global.png)
 

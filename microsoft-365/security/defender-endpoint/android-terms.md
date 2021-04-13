@@ -18,14 +18,14 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: b957147d8a4b0606159669ded2cafca5568daf71
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 2bcc8c1f977a6060ac94dc3a634f075a5c1ee041
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166225"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687953"
 ---
-# <a name="microsoft-defender-for-endpoint-for-android-application-license-terms"></a>Условия лицензии Microsoft Defender для конечной точки для android-приложений
+# <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Microsoft Defender для конечной точки на условиях лицензии на приложения Для Android
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -131,8 +131,8 @@ ms.locfileid: "51166225"
 
 Он также применяется, даже если:
 
-а)  Ремонт, замена или возврат средств для приложения не полностью компенсирует потери; или
+а.  Ремонт, замена или возврат средств для приложения не полностью компенсирует потери; или
 
-б)  Охваченные Стороны знали или должны были знать о возможности ущерба.
+б.  Охваченные Стороны знали или должны были знать о возможности ущерба.
 
 Вышеуказанное ограничение или исключение могут не применяться к вам, поскольку ваша страна не может разрешить исключение или ограничение случайного, последовательного или другого ущерба.

@@ -22,16 +22,16 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: В этой статье вы узнаете о требованиях к маршрутике Azure ExpressRoute, цепях и доменах маршрутов для использования в Office 365.
-ms.openlocfilehash: 9d3c381cfb6e24c1c87ef3dcfb83a9b93f991b93
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: b455ed7e53b3018babb1abd58919a077fb9d0685
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222411"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687173"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Маршрутизация с использованием ExpressRoute для Office 365
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Чтобы правильно понять маршрутику трафика в Office 365 с помощью Azure ExpressRoute, вам потребуется твердое понимание основных требований к маршрутике [ExpressRoute,](/azure/expressroute/expressroute-routing) а также цепей [ExpressRoute](/azure/expressroute/expressroute-circuit-peerings)и доменов маршрутов. В них излагаются основные принципы использования ExpressRoute, на которые будут полагаться клиенты Office 365.
   
@@ -106,7 +106,7 @@ ms.locfileid: "51222411"
 
 Обычно файлы PAC предназначены для отправки сетевых запросов в рекламируемые конечные точки ExpressRoute непосредственно в цепи и все другие сетевые запросы в прокси-сервер. При настройке файла PAC составить файл PAC в следующем порядке:
   
-1. Включите sub-FQDNs из столбца 2 в вышеуказанной таблице в верхней части файла PAC, отправив трафик в прокси-сервер. Мы создали пример файла PAC для использования в нашей статье по управлению конечными точками [Office 365.](./managing-expressroute-for-connectivity.md)
+1. Включите sub-FQDNs из столбца 2 в вышеуказанной таблице в верхней части файла PAC, отправив трафик в прокси-сервер. Мы создали пример файла PAC для использования в нашей статье по управлению конечными точками [Office 365.](./managing-office-365-endpoints.md)
 
 2. Включите все FQDNs, объявленные [](./urls-and-ip-address-ranges.md) в ExpressRoute, в этой статье ниже первого раздела, отправив трафик непосредственно в схему ExpressRoute.
 

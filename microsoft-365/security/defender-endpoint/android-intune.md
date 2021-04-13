@@ -1,6 +1,6 @@
 ---
-title: Развертывание Microsoft Defender для конечной точки для Android с помощью Microsoft Intune
-description: Описывает развертывание Microsoft Defender для конечной точки для Android с помощью Microsoft Intune
+title: Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune
+description: Описывает развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune
 keywords: Microsoft, defender, atp, mde, android, installation, deploy, uninstallation,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fdfc6e63945e15ce2d1f1a293c377f641eeb9bc4
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 350345acbaadcdd6bc8ef901f03c419a7f8decff
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587699"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687725"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Развертывание Microsoft Defender для конечной точки для Android с помощью Microsoft Intune 
+# <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -104,7 +104,7 @@ Defender for Endpoint для Android поддерживает зарегистр
 
 **В настоящее время для развертывания поддерживаются лично управляемые устройства с профилем работы и полностью управляемыми пользовательскими устройствами.**
 
-## <a name="add-microsoft-defender-for-endpoint-for-android-as-a-managed-google-play-app"></a>Добавление Microsoft Defender для конечной точки для Android в качестве управляемого приложения Google Play
+## <a name="add-microsoft-defender-for-endpoint-on-android-as-a-managed-google-play-app"></a>Добавление Microsoft Defender для конечной точки на Android в качестве управляемого приложения Google Play
 
 Выполните ниже шаги, чтобы добавить приложение Microsoft Defender для конечной точки в управляемое приложение Google Play.
 
@@ -240,7 +240,7 @@ Defender for Endpoint поддерживает политики конфигур
 
 ## <a name="complete-onboarding-and-check-status"></a>Полное состояние onboarding и проверки
 
-1. Подтвердить состояние установки Microsoft Defender для конечной точки для Android, нажав на состояние **установки устройства.** Убедитесь, что устройство отображается здесь.
+1. Подтвердить состояние установки Microsoft Defender для конечной точки на Android, нажав на состояние **установки устройства.** Убедитесь, что устройство отображается здесь.
 
     > [!div class="mx-imgBorder"]
     > ![Изображение состояния установки устройства](images/900c0197aa59f9b7abd762ab2b32e80c.png)
@@ -260,5 +260,5 @@ Defender for Endpoint поддерживает политики конфигур
 
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Обзор Microsoft Defender для конечной точки для Android](microsoft-defender-endpoint-android.md)
-- [Настройка функций Microsoft Defender для конечной точки для Android](android-configure.md)
+- [Обзор Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md)
+- [Настройка Microsoft Defender для конечной точки на android-функции](android-configure.md)

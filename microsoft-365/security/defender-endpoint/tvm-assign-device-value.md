@@ -1,7 +1,7 @@
 ---
 title: Назначение значения устройства — управления угрозами и уязвимостью
 description: Узнайте, как назначить устройству низкое, нормальное или высокое значение, чтобы помочь вам различать приоритеты активов.
-keywords: Microsoft defender atp device value, threat and vulnerability management device value, high value devices, device value exposure score
+keywords: Защитник Microsoft для значения конечного устройства, значения устройства управления угрозами и уязвимостями, устройств с высоким значением, оценки экспозиции значения устройства
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3cecee8b80f179f67cb48f62e1d9238a51825bfd
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 1f5d90190418f84795bdd899ea0e48ac25831a96
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500205"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689393"
 ---
 # <a name="assign-device-value---threat-and-vulnerability-management"></a>Назначение значения устройства — управления угрозами и уязвимостью
 

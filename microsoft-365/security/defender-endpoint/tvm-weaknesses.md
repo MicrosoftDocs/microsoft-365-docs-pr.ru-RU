@@ -1,6 +1,6 @@
 ---
 title: Уязвимости в организации — управление угрозами и уязвимостями
-description: Списки распространенных уязвимостей и уязвимостей (CVE) ID слабых мест, найденных в программном обеспечении, запущенного в вашей организации. Обнаружено с помощью возможности управления угрозами и уязвимостью ATP Защитника Майкрософт.
+description: Списки распространенных уязвимостей и уязвимостей (CVE) ID слабых мест, найденных в программном обеспечении, запущенного в вашей организации. Обнаружено возможностями управления угрозами и уязвимостью Microsoft Defender для конечных точек.
 keywords: mdatp threat &, threat and vulnerability management, mdatp tvm weaknesses page, finding weaknesses through tvm, tvm vulnerability list, vulnerability details in tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 775592cd2ed9c29df79b04e07cb53efb7bea82d6
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0f573b2425764876e877de44555691979a0e1fcf
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501233"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689405"
 ---
 # <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>Уязвимости в организации — управление угрозами и уязвимостями
 

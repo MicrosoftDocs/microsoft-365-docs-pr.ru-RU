@@ -17,14 +17,14 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 64a19e9dd3d373c8092553ca9d60c711bfb500bc
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 7d9dd82d8c1beee77ea1f95b11a12bcddf01115f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186417"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688337"
 ---
-# <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender для конечной точки для не-платформ Windows
+# <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender для конечной точки на других платформах
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -71,7 +71,7 @@ Microsoft Defender для конечной точки на iOS — это наш
 
 Клиенты могут получить Microsoft Defender для конечной точки на macOS с помощью автономных лицензий Microsoft Defender для конечной точки в составе Microsoft 365 A5/E5 или Microsoft 365 Security.
 
-Недавно объявленные возможности Microsoft Defender для конечной точки для Android и iOS включены в указанные выше предложения в составе пяти квалифицированных устройств для лицензированных пользователей.
+Недавно объявленные возможности Microsoft Defender для конечной точки на Android и iOS включены в указанные выше предложения в составе пяти квалифицированных устройств для лицензированных пользователей.
 
 Defender for Endpoint on Linux доступен через SKU Defender for Endpoint Server, который доступен как для коммерческих, так и для образовательных клиентов.
 

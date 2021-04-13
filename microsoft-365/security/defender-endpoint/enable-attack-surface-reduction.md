@@ -11,15 +11,16 @@ localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.reviewer: ''
+ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 84947057abbd456dee5cbf5d0c6fea37f679d9ad
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.topic: how-to
+ms.openlocfilehash: e6f3d6da2424b2b3b6b7c1f2c9973e4046d6e27f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570952"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689176"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Включить правила сокращения направлений атак
 
@@ -29,7 +30,8 @@ ms.locfileid: "51570952"
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 [Правила уменьшения поверхности](attack-surface-reduction.md) атаки (правила ASR) помогают предотвратить действия, которые вредоносные программы часто используют для компрометации устройств и сетей. Вы можете установить правила ASR для устройств, работающих с любыми из следующих выпусков и версий Windows:
 - Windows 10 Pro, [версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
@@ -37,11 +39,15 @@ ms.locfileid: "51570952"
 - Windows Server, [версия 1803 (полугодовой канал)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
-Каждое правило ASR содержит один из трех параметров:
+Каждое правило ASR содержит один из четырех параметров:
 
-- Не настроено: отключить правило ASR
-- Блок: Включить правило ASR
-- Аудит. Оцените, как правило ASR повлияет на организацию, если включено
+- **Не настроен:** отключить правило ASR
+- **Блок**: Включить правило ASR
+- **Аудит.** Оцените, как правило ASR повлияет на организацию, если включено
+- **Предупреждение.** Включить правило ASR, но обойти блокировку конечному пользователю
+
+> [!IMPORTANT]
+> В настоящее время режим предупреждения не поддерживается для трех правил ASR при настройке правил ASR в Microsoft Endpoint Manager (MEM). Дополнительные дополнительные информации см. [в том, как не](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)поддерживается режим предупреждения.
 
 Настоятельно рекомендуется использовать правила ASR с лицензией Windows E5 (или аналогичный SKU лицензирования), чтобы использовать расширенные возможности мониторинга и отчетности, доступные в Microsoft Defender for Endpoint (Defender for [Endpoint).](https://docs.microsoft.com/windows/security/threat-protection) Однако для других лицензий, таких как Windows Professional или E3, которые не имеют доступа к расширенным возможностям мониторинга и отчетности, можно разработать собственные средства мониторинга и отчетности в верхней части событий, которые создаются на каждой конечной точке при запуске правил ASR (например, переадмиссии событий).
 
@@ -97,11 +103,12 @@ ms.locfileid: "51570952"
 
 `Value: 75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=2|3B576869-A4EC-4529-8536-B80A7769E899=1|D4F940AB-401B-4EfC-AADC-AD5F3C50688A=2|D3E037E1-3EB8-44C8-A917-57927947596D=1|5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=0|BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=1`
 
-Значения, которые необходимо включить, отключить или включить в режиме аудита:
+Значения, которые необходимо включить (Block), отключить, предупредить или включить в режиме аудита:
 
-- Отключение = 0
-- Блок (включить правило ASR) = 1
-- Аудит = 2
+- 0. Отключение (отключение правила ASR)
+- 1. Блок (Включить правило ASR)
+- 2. Аудит (Оцените, как правило ASR повлияет на организацию, если включено)
+- 6. Предупреждение (Включить правило ASR, но разрешить конечному пользователю обойти блок)
 
 Для добавления исключений используйте поставщика служб конфигурации [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions.](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions)
 
@@ -143,11 +150,12 @@ ms.locfileid: "51570952"
 
    Выберите **Показать...** и введите ID правила в столбце **Имя** значения и выбранное состояние в столбце **Значение** следующим образом:
 
-   - Отключение = 0
-   - Блок (включить правило ASR) = 1
-   - Аудит = 2
+   - 0. Отключение (отключение правила ASR)
+   - 1. Блок (Включить правило ASR)
+   - 2. Аудит (Оцените, как правило ASR повлияет на организацию, если включено)
+   - 6. Предупреждение (Включить правило ASR, но разрешить конечному пользователю обойти блок)
 
-   ![Параметр групповой политики, показывающий пустой ID правила уменьшения поверхности атаки и значение 1](/microsoft-365/security/defender-endpoint/images/asr-rules-gp)
+   :::image type="content" source="images/asr-rules-gp.png" alt-text="Правила ASR в групповой политике":::
 
 5. Чтобы исключить файлы и папки из правил ASR, выберите исключить файлы и пути из настройки правил уменьшения поверхности **Атаки** и установите параметр **Включено**. Выберите **Показать и** ввести каждый файл или папку в столбце Имя **значения.** Введите **0** в **столбце Значение** для каждого элемента.
 
@@ -173,6 +181,12 @@ ms.locfileid: "51570952"
     Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions AuditMode
     ```
 
+    Чтобы включить правила ASR в режиме предупреждения, используйте следующий cmdlet:
+
+    ```PowerShell
+    Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Warn
+    ```
+
     Чтобы отключить правила ASR, используйте следующий cmdlet:
 
     ```PowerShell
@@ -191,7 +205,7 @@ ms.locfileid: "51570952"
     Для добавления новых правил в существующий список можно также использовать глагол `Add-MpPreference` PowerShell.
 
     > [!WARNING]
-    > `Set-MpPreference` всегда переопишет существующий набор правил. Если вы хотите добавить к существующему набору, вместо этого следует `Add-MpPreference` использовать.
+    > `Set-MpPreference` всегда переопишет существующий набор правил. Если вы хотите добавить к существующему набору, используйте `Add-MpPreference` вместо этого.
     > Вы можете получить список правил и их текущего состояния с помощью `Get-MpPreference` .
 
 3. Чтобы исключить файлы и папки из правил ASR, используйте следующий cmdlet:
