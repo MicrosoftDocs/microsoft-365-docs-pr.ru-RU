@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 1d332f6b0d6338d18c5a85dcf737f968f00f275f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b42a33d975e1368ad25d4a7102ef44bf8b9824a8
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689525"
+ms.locfileid: "51698284"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Миграция из Symantec — этап 3: на борту в Microsoft Defender для конечной точки
 
@@ -89,7 +89,7 @@ ms.locfileid: "51689525"
    - [Uninstall Symantec Endpoint Protection](https://knowledge.broadcom.com/external/article/156148/uninstall-symantec-endpoint-protection.html)
    - Устройства Windows: вручную удалить клиенты [endpoint Protection 14 в Windows](https://knowledge.broadcom.com/external/article?articleId=170040)
    - macOS-компьютеры: [удаление программного обеспечения Symantec для Mac с помощью RemoveSymantecMacFiles](https://knowledge.broadcom.com/external/article?articleId=151387)
-   - Устройства Linux: [часто задающие вопросы для защиты конечных точек для Linux](https://knowledge.broadcom.com/external/article?articleId=162054)
+   - Устройства Linux: [часто задающие вопросы для защиты конечных точек на Linux](https://knowledge.broadcom.com/external/article?articleId=162054)
 
 ## <a name="make-sure-microsoft-defender-for-endpoint-is-in-active-mode"></a>Убедитесь, что Microsoft Defender для конечной точки находится в активном режиме
 

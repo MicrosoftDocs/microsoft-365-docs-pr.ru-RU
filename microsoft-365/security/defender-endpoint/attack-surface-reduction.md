@@ -11,17 +11,17 @@ localization_priority: Normal
 audience: ITPro
 author: denisebmsft
 ms.author: deniseb
-ms.reviewer: sugamar, jcedola
+ms.reviewer: oogunrinde, sugamar, jcedola
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: d88da04e91875e24b13478b17d6a1e3862e1062e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8790d959dc41e3edea684c66e556a2ec67f85ae1
+ms.sourcegitcommit: 0fe5989b7ee2f7ae0181f2781e31db7f58689441
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197665"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697531"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
@@ -80,7 +80,7 @@ ms.locfileid: "51197665"
 
 ### <a name="cases-where-warn-mode-is-not-supported"></a>Случаи, когда режим предупреждения не поддерживается
 
-Режим Warn не поддерживается для следующих правил уменьшения поверхности атаки:
+Режим Warn не поддерживается для трех правил уменьшения поверхности атаки при настройке их в Microsoft Endpoint Manager. (Если вы используете групповую политику для настройки правил уменьшения поверхности атаки, поддерживается режим предупреждения.) Три правила, которые не поддерживают режим предупреждения при настройке их в Microsoft Endpoint Manager, являются следующими:
 
 - [Блокировка JavaScript или VBScript при запуске загружаемого исполняемого контента](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) `d3e037e1-3eb8-44c8-a917-57927947596d` (GUID)
 - [Блокировка сохраняемости через подписку на](#block-persistence-through-wmi-event-subscription) события WMI (GUID) `e6db77e5-3df2-4cf1-b95a-636979351e5b`
@@ -466,7 +466,7 @@ GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
 ## <a name="see-also"></a>См. также
 
-- [FaQ уменьшения поверхности атаки](attack-surface-reduction-faq.md)
-- [Включить правила уменьшения поверхности атаки](enable-attack-surface-reduction.md)
-- [Оценка правил уменьшения поверхности атаки](evaluate-attack-surface-reduction.md)
+- [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction-faq.md)
+- [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
+- [Оценка правил сокращения направлений атак](evaluate-attack-surface-reduction.md)
 - [Совместимость антивируса Microsoft Defender с другими решениями для антивирусного и антивирусного обеспечения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)

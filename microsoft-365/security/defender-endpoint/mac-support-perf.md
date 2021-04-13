@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 18bde560543fd1344a64cf1edd64f02f12831c25
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8dfaf1dbf2c3742cc97060c7f9e811c83d0cb023
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689105"
+ms.locfileid: "51698224"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Устранение неполадок с производительностью для Microsoft Defender для конечной точки на macOS
 
@@ -149,7 +149,7 @@ ms.locfileid: "51689105"
         125  CrashPlanService 164
       ```
 
-      Чтобы повысить производительность Defender для конечной точки для Mac, найдите точку с самым высоким номером в строке Total files scanned и добавьте исключение для него. Дополнительные сведения см. в [дополнительных сведениях: Настройка и проверка исключений для Defender для конечной точки для Linux.](linux-exclusions.md)
+      Чтобы повысить производительность Defender для конечной точки на Mac, найдите точку с самым высоким номером в строке Total files scanned и добавьте исключение для него. Дополнительные сведения см. в [дополнительных сведениях: Настройка и проверка исключений для Defender для конечной точки в Linux.](linux-exclusions.md)
 
       > [!NOTE]
       > Приложение хранит статистику в памяти и отслеживает активность файлов только с момента ее начала и включения защиты в режиме реального времени. Процессы, запущенные до или во время отключения защиты в режиме реального времени, не учитываются. Кроме того, учитываются только события, которые вызвали сканирование.

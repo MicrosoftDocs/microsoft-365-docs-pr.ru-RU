@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3ad31e385ed1a3c32a261286b91912c7b2562f87
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: c5e6edb40254ab905ef5ef3ddef9bf8bf54fc54b
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650294"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51698272"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Настройка расширенных функций в Defender для конечной точки
 
@@ -228,6 +228,10 @@ Defender for Endpoint можно интегрировать с [Microsoft Intune
 
 > [!NOTE]
 > Классическая политика ЦС, созданная Intune, отличается от современных политик условного [доступа,](https://docs.microsoft.com/azure/active-directory/conditional-access/overview/)которые используются для настройки конечных точек.
+
+
+## <a name="device-discovery"></a>Обнаружение устройства
+Помогает находить неустановленные устройства, подключенные к корпоративной сети без необходимости дополнительных устройств или громоздких изменений процесса. С помощью бортовых устройств можно найти неугодные устройства в сети и оценить уязвимости и риски. Дополнительные сведения см. в [дополнительных сведениях об обнаружении устройства.](device-discovery.md)
 
 ## <a name="preview-features"></a>Предварительные функции
 
