@@ -1,5 +1,5 @@
 ---
-title: Антивирус Microsoft Defender на Windows Server
+title: Антивирусная программа в Microsoft Defender в Windows Server
 description: Узнайте, как включить и настроить антивирус Microsoft Defender на Windows Server 2016 и Windows Server 2019.
 keywords: защитник windows, сервер, scep, защита конечных точек центра системы, сервер 2016, текущая ветвь, сервер 2012
 search.product: eADQiWindows 10XVcnh
@@ -7,20 +7,20 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3415d0caf0192b202cc4f471d5a9bf9051c3878d
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d9452b6d2eeaad3880894b9ec66c8bc71797b429
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690989"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764607"
 ---
-# <a name="microsoft-defender-antivirus-on-windows-server"></a>Антивирус Microsoft Defender на Windows Server
+# <a name="microsoft-defender-antivirus-on-windows-server"></a>Антивирусная программа в Microsoft Defender в Windows Server
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

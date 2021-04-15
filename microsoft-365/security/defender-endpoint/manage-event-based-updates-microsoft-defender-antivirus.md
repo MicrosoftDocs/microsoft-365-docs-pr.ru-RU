@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,14 +15,14 @@ ms.date: 09/17/2018
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b9f09878c645d54aadca21fe01749a0e73939c5f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 78a04105fce0a3a1f9f7ea3f9ee993dd53750f3f
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691044"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764559"
 ---
-# <a name="manage-event-based-forced-updates"></a>Управление вынужденными обновлениями на основе событий
+# <a name="manage-event-based-forced-updates"></a>Управление принудительными обновлениями на основе событий
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -164,5 +164,5 @@ Microsoft Defender AV может вносить изменения в свою �
 - [Управление обновлениями антивируса Microsoft Defender и применение базовых показателей](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Управление загрузкой и приложением обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md)
 - [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [Управление обновлениями для мобильных устройств и виртуальных машин (виртуальных машин)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+- [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

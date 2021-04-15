@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 58e3b14dcb80db961f01b92f038ce4d32da7e2e8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3343eb433a6ae5c708651abf298bd4f061817543
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689710"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764137"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>Развертывание с другой системой управления мобильными устройствами (MDM) для Microsoft Defender для конечной точки на macOS
 
@@ -40,9 +40,11 @@ ms.locfileid: "51689710"
 
 Перед началом работы см. в главной странице [Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) на странице macOS описание необходимых условий и системных требований к текущей версии программного обеспечения.
 
+
 ## <a name="approach"></a>Способ
 
 > [!CAUTION]
+
 > В настоящее время Корпорация Майкрософт официально поддерживает только Intune и JAMF для развертывания и управления Microsoft Defender для конечной точки на macOS. Корпорация Майкрософт не предоставляет никаких гарантий, экспресс-или подразумеваемых, в отношении сведений, предоставленных ниже.
 
 Если в организации используется решение управления мобильными устройствами (MDM), которое не поддерживается официально, это не означает, что вы не можете развернуть или запустить Microsoft Defender для конечной точки на macOS.
@@ -72,7 +74,9 @@ Microsoft Defender для конечной точки на macOS не завис
 
 ### <a name="license-settings"></a>Параметры лицензии
 
-Настройка [профиля конфигурации системы.](mac-install-with-jamf.md) Решение MDM может называться как "Пользовательский профиль параметров", так как Microsoft Defender для конечной точки на macOS не является частью macOS.
+Настройка [профиля конфигурации системы.](mac-install-with-jamf.md) 
+
+Решение MDM может называться как "Пользовательский профиль параметров", так как Microsoft Defender для конечной точки на macOS не является частью macOS.
 
 Используйте список свойств jamf/WindowsDefenderATPOnboarding.plist, который можно извлечь из бортового пакета, загруженного из Центра безопасности [Microsoft Defender.](mac-install-with-jamf.md)
 Система может поддерживать произвольный список свойств в формате XML. В этом случае можно загрузить файл jamf/WindowsDefenderATPOnboarding.plist.

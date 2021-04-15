@@ -7,21 +7,21 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 625c84e79efe53cae2bc8f511726ad3f384ea505
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 72d5024446e56cc7fa1d94a7b9402cbe898db2a8
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691069"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764859"
 ---
-# <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Настройка параметров антивирусного сканирования Microsoft Defender
+# <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Настройка параметров сканирования антивирусной программы в Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -92,9 +92,9 @@ PST-файлы, используемые в Outlook 2003 или более ст�
 - Тема письма
 - Имя вложения
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Настройка, инициирование и проверка результатов проверки и устранения антивирусных программ Microsoft Defender](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Настройка и запуск антивирусных сканов Microsoft Defender по запросу](run-scan-microsoft-defender-antivirus.md)
+- [Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию](run-scan-microsoft-defender-antivirus.md).
 - [Настройка запланированных антивирусных сканов Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

@@ -1,24 +1,26 @@
 ---
-title: Настройка исключений для проверки av Microsoft Defender
+title: Настройка исключений для проверки антивируса Microsoft Defender
 description: Вы можете исключить проверку файлов (в том числе файлов, измененных указанными процессами) и папок с помощью microsoft Defender AV. Проверка исключений с помощью PowerShell.
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: ''
+ms.reviewer: ksarens
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 47db9b4451a885c92ca4fda0f87f0150415d3338
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: 08f7f9d4a6e9e70d3ef071f30712b2ae53f4ea52
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691506"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764667"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>Настройка и проверка исключений для проверки антивирусных программ Microsoft Defender
 
@@ -40,7 +42,8 @@ ms.locfileid: "51691506"
 - [Настройка и проверка исключений для файлов, открытых процессами.](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md) Это позволяет исключить файлы из сканов, открытых определенным процессом.
 
 ## <a name="recommendations-for-defining-exclusions"></a>Рекомендации по определению исключений
-
+[!IMPORTANT]
+Антивирус Microsoft Defender включает множество автоматических исключений, основанных на известных действиях операционной системы и типичных файлах управления, например используемых в управлении предприятиями, управлении базами данных и других корпоративных сценариях и ситуациях.  
 Определение исключений снижает защиту, предложенную антивирусом Microsoft Defender. Всегда следует оценивать риски, связанные с реализацией исключений, и следует исключить только те файлы, которые, как вы уверены, не являются вредоносными.
 
 Ниже приводится список рекомендаций, которые следует иметь в виду при определении исключений:  
@@ -56,4 +59,4 @@ ms.locfileid: "51691506"
 ## <a name="related-articles"></a>Статьи по теме
 
 - [Исключения антивируса Microsoft Defender на Windows Server 2016](configure-server-exclusions-microsoft-defender-antivirus.md)
-- [Распространенные ошибки, которые следует избегать при определении исключений](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+- [Распространенные ошибки, которых следует избегать при определении исключений](common-exclusion-mistakes-microsoft-defender-antivirus.md)

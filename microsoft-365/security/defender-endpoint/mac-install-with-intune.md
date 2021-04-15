@@ -18,14 +18,15 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7486bde0886506a5966a95cdb0b85fc009858801
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: dbb4e3a558256f19594ab0aa4efbd2c9eed6b7f8
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689753"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764219"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Развертывание на основе intune для Microsoft Defender для конечной точки на macOS
+
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +37,7 @@ ms.locfileid: "51689753"
 
 **Область применения:**
 
-- [Microsoft Defender для конечной точки на macOS](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md)
 
 В этом разделе описывается развертывание Microsoft Defender для конечной точки на macOS через Intune. Успешное развертывание требует выполнения всех следующих действий:
 
@@ -50,9 +51,10 @@ ms.locfileid: "51689753"
 
 Перед началом работы см. в главной странице [Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) на странице macOS описание необходимых условий и системных требований к текущей версии программного обеспечения.
 
+
 ## <a name="overview"></a>Обзор
 
-В следующей таблице подводятся итоги действий, которые необходимо предпринять для развертывания и управления Microsoft Defender для конечных точек для Mac с помощью Intune. Более подробные действия доступны ниже.
+В следующей таблице подводятся итоги действий, которые необходимо предпринять для развертывания и управления Microsoft Defender для конечной точки на Mac с помощью Intune. Более подробные действия доступны ниже.
 
 | Действие | Примеры имен файлов | BundleIdentifier |
 |-|-|-|

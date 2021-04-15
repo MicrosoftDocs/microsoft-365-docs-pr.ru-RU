@@ -1,24 +1,24 @@
 ---
-title: Облачная защита и антивирус Microsoft Defender
+title: Облачная защита и антивирусная программа в Microsoft Defender
 description: Узнайте о облачной защите и антивирусе Microsoft Defender
 keywords: Антивирус Microsoft Defender, технологии следующего поколения, av следующего поколения, машинное обучение, антивирусное программное обеспечение, безопасность, защитник, облако, защита от облачных решений
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: shwjha
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: f69c66652d86977e5731a61014d5d37377779efd
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: e967cb9efe03fc180bda531f192f3143c311796d
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691119"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764763"
 ---
 # <a name="use-next-generation-technologies-in-microsoft-defender-antivirus-through-cloud-delivered-protection"></a>Использование технологий следующего поколения в антивирусе Microsoft Defender с помощью облачной защиты
 

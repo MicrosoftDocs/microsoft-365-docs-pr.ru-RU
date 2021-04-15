@@ -11,16 +11,16 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: v-maave
 author: martyav
-ms.localizationpriority: medium
+localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.openlocfilehash: 617e6a31a304407d28925e7ab273b712d8d5d9db
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: a545794e0ca5739f0b65513edce0c61bb649ad82
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569735"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764427"
 ---
 # <a name="microsoft-threat-experts-in-microsoft-365-overview"></a>Эксперты по угрозам Майкрософт в обзоре Microsoft 365
 

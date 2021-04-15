@@ -9,18 +9,18 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.date: 02/10/2021
-ms.openlocfilehash: 555daac32b202b0b9f46c4f19fa6e4b04bcadda3
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 507edb980f671b2f39403cc41e540150f5e82891
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690854"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764345"
 ---
 # <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Настройка исключений антивируса Microsoft Defender на Windows Server
 
@@ -339,6 +339,6 @@ DisableAutoExclusions
 - [Настройка и проверка исключений для проверки антивирусных программ Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений на основе имени, расширения и расположения папки](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений для файлов, открытых процессами](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Распространенные ошибки, которые следует избегать при определении исключений](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+- [Распространенные ошибки, которых следует избегать при определении исключений](common-exclusion-mistakes-microsoft-defender-antivirus.md)
 - [Настройка, инициирование и проверка результатов проверки и устранения антивирусных программ Microsoft Defender](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

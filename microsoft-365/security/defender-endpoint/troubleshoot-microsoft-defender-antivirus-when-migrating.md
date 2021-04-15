@@ -1,12 +1,12 @@
 ---
-title: Устранение неполадок антивируса Microsoft Defender при миграции из сторонного решения
+title: Устранение неполадок с антивирусной программой в Microsoft Defender при миграции из сторонного решения
 description: Устранение распространенных ошибок при переходе на антивирус Microsoft Defender
 keywords: событие, код ошибки, ведение журнала, устранение неполадок, антивирус защитника Майкрософт, антивирус защитника Windows, миграция
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: martyav
 ms.author: v-maave
 ms.custom: nextgen
@@ -14,14 +14,14 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 2ca486b86c24e18ae08753b5e88f2eb42986dddf
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3fcc79e767edb533a20402a2f92ba4abc7d8386a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691362"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764595"
 ---
-# <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>Устранение неполадок антивируса Microsoft Defender при миграции из сторонного решения
+# <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>Устранение неполадок с антивирусной программой в Microsoft Defender при миграции из сторонного решения
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,7 +50,7 @@ ms.locfileid: "51691362"
 
  Идентификатор события | Имя журнала | Описание | Source
 -|-|-|-
-15  | Для приложений | Обновленный Защитник Windows успешно для SECURITY_PRODUCT_STATE_OFF. | Центр безопасности
+15  | Приложение | Обновленный Защитник Windows успешно для SECURITY_PRODUCT_STATE_OFF. | Центр безопасности
 5007 | Microsoft-Windows-Защитник Windows/Operational | Защитник Windows конфигурация антивирусов изменилась.  Если это неожиданное событие, необходимо просмотреть параметры, так как это может быть результатом вредоносных программ.<br /><br />**Старое значение:** Default\IsServiceRunning = 0x0<br />**Новое значение:** HKLM\SOFTWARE\Microsoft\Защитник Windows\IsServiceRunning = 0x1 | Защитник Windows
 5010 | Microsoft-Windows-Защитник Windows/Operational | Защитник Windows антивирусное сканирование для программ-шпионов и других потенциально нежелательных программ отключено. | Защитник Windows
 

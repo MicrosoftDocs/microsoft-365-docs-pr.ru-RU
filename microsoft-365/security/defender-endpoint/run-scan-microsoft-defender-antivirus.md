@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,14 +15,14 @@ ms.date: 11/13/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 2f60bdb0bbd8b87895547e608b5c3c92414ea834
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 976531e1b7e1b87c4cd2dd2af66f294f68c5d4f1
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691174"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764403"
 ---
-# <a name="configure-and-run-on-demand-microsoft-defender-antivirus-scans"></a>Настройка и запуск антивирусных сканов Microsoft Defender по запросу
+# <a name="configure-and-run-on-demand-microsoft-defender-antivirus-scans"></a>Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию.
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -98,6 +98,6 @@ Start-MpScan
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Настройка параметров антивирусного сканирования Microsoft Defender](configure-advanced-scan-types-microsoft-defender-antivirus.md)
+- [Настройка параметров сканирования антивирусной программы в Microsoft Defender](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [Настройка запланированных антивирусных сканов Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
