@@ -27,7 +27,7 @@ ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755622"
+ms.locfileid: "51759412"
 ---
 # <a name="about-admin-roles"></a>Роли администраторов
 

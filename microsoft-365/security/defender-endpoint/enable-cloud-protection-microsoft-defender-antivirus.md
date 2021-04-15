@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.date: 11/13/2020
@@ -14,14 +14,14 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: cfaf4563e96568ae26bd990678462836b9202656
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9f949a4cb54ca5dd64a2648bb05a5cb9ad50e44d
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691477"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764967"
 ---
-# <a name="turn-on-cloud-delivered-protection"></a>Включаем облачную защиту
+# <a name="turn-on-cloud-delivered-protection"></a>Включить облачную защиту
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -147,9 +147,9 @@ SubmitSamplesConsent
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Настройка периода ожидания облачного блока](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
+- [Настройка времени ожидания блокировки облака](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
 - [Настройка блока с первого взгляда](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-- [Используйте cmdlets PowerShell для управления антивирусной программой Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+- [Использование командлетов PowerShell для управления антивирусной программой в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Помощь в обеспечении безопасности компьютеров Windows с помощью защиты конечных точек для Microsoft Intune](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)]
 - [Cmdlets Defender](/powershell/module/defender/)
 - [Использование облачной защиты Microsoft в антивирусе Microsoft Defender](cloud-protection-microsoft-defender-antivirus.md)

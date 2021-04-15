@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: ae7dbea7d476e8a8f6198378e1d1bb29e24c37a2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 95c87330eec3cb557e5fea96148d626b7e0ee4b3
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688349"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768918"
 ---
 # <a name="protect-your-network"></a>Защита сети
 
@@ -37,7 +37,7 @@ ms.locfileid: "51688349"
 
 Защита сети поддерживается в Windows, начиная с Windows 10 версии 1709. Защита сети еще не поддерживается в других операционных системах, но веб-защита поддерживается с помощью нового Microsoft Edge на основе Chromium. Дополнительные информации см. в [веб-защите.](web-protection-overview.md)
 
-защита сети расширяет защиту в [веб-защите](web-protection-overview.md) до уровня операционной системы. Он предоставляет функции веб-защиты в Edge для других поддерживаемых браузеров и не браузерных приложений. Кроме того, защита сети обеспечивает видимость и блокировку индикаторов компрометации (IOCs) при их обнаружении и реагировании на [конечные точки.](overview-endpoint-detection-response.md) Например, защита сети работает с [настраиваемой индикаторами.](manage-indicators.md)
+Защита сети расширяет защиту в [веб-защите](web-protection-overview.md) до уровня операционной системы. Он предоставляет функции веб-защиты в Edge для других поддерживаемых браузеров и не браузерных приложений. Кроме того, защита сети обеспечивает видимость и блокировку индикаторов компрометации (IOCs) при их обнаружении и реагировании на [конечные точки.](overview-endpoint-detection-response.md) Например, защита сети работает с [настраиваемой индикаторами.](manage-indicators.md)
 
 Дополнительные сведения о том, как включить защиту сети, см. в дополнительных [сведениях о том, как включить защиту сети.](enable-network-protection.md) Используйте групповой политики, PowerShell или MDM CSPs для обеспечения и управления сетевой защитой в сети.
 
@@ -50,7 +50,7 @@ ms.locfileid: "51688349"
 
 Вы также можете использовать [режим аудита](audit-windows-defender.md) для оценки влияния сетевой защиты на организацию, если она включена.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 Защита сети требует защиты Windows 10 Pro или Enterprise и антивируса Microsoft Defender в режиме реального времени.
 

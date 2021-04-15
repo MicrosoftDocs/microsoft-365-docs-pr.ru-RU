@@ -7,19 +7,19 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: tewchen, pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 8eb52e277f7987477114db9333c3f90bb581ebb5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 131b9970572b1034ba5c9907a001f0497d450339
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690974"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765447"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Совместимость антивируса Microsoft Defender
 
@@ -43,10 +43,10 @@ ms.locfileid: "51690974"
 
 | Версия Windows   | Защита от вредоносных программ  | Microsoft Defender для регистрации конечной точки | Состояние антивируса Microsoft Defender     |
 |------|------|-------|-------|
-| Windows 10  | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Да  | Пассивный режим  |
-| Windows 10  | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Нет   | Автоматически отключенный режим     |
-| Windows 10  | Антивирус Microsoft Defender | Да  | Активный режим | 
-| Windows 10  | Антивирус Microsoft Defender | Нет   | Активный режим |
+| Windows 10  | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Да  | Пассивный режим  |
+| Windows 10  | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Нет   | Автоматически отключенный режим     |
+| Windows 10  | Антивирус Microsoft Defender | Да  | Активный режим | 
+| Windows 10  | Антивирус Microsoft Defender | Нет   | Активный режим |
 | Windows Server, версия 1803 или более новая или Windows Server 2019 | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Да  | Необходимо настроить пассивный режим (вручную) <sup> [[1](#fn1)]<sup>  | 
 | Windows Server, версия 1803 или более новая или Windows Server 2019 | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Нет  | Необходимо отключить (вручную) <sup> [[2](#fn2)]<sup></sup>  |
 | Windows Server, версия 1803 или более новая или Windows Server 2019 | Антивирус Microsoft Defender  | Да |         Активный режим  |
@@ -125,7 +125,7 @@ ms.locfileid: "51690974"
 ## <a name="see-also"></a>См. также
 
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Антивирус Microsoft Defender на Windows Server](microsoft-defender-antivirus-on-windows-server.md)
+- [Антивирусная программа в Microsoft Defender в Windows Server](microsoft-defender-antivirus-on-windows-server.md)
 - [EDR в режиме блокировки](edr-in-block-mode.md)
 - [Настройка защиты конечных точек](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
 - [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)

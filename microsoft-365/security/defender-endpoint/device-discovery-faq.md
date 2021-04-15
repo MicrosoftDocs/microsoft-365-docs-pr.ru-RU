@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-ms.localizationpriority: medium
+localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 7165d943fd39e298894531f1dabdec408144898d
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: b3fef3479fa2d36806e6657b31f5152c54b9251f
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698471"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765003"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>Обнаружение устройств часто задают вопросы
 
@@ -70,7 +70,7 @@ ms.locfileid: "51698471"
  Поскольку при обнаружении устройств в сети используются пассивные методы обнаружения устройств, любое устройство, которое взаимодействует с вашими бортовых устройствами в корпоративной сети, может быть обнаружено и перечислено в инвентаре. Вы можете исключить устройства только из активного прорабаты.
 
 ## <a name="how-frequent-is-the-active-probing"></a>Как часто активное прорабывение?
- Устройства будут активно зондироваться при наблюдении за изменениями в характеристиках устройств и один раз в неделю, чтобы убедиться, что существующая информация является текущей.
+ Устройства будут активно зондироваться при наблюдении за изменениями в характеристиках устройств (каждые 1-3 недели), чтобы убедиться, что существующая информация является необходимой.
 
 ## <a name="my-security-tool-raised-alert-on-unicastscannerps1-or-port-scanning-activity-initiated-by-it-what-should-i-do"></a>Мой инструмент безопасности поднял оповещение о UnicastScanner.ps1 или при проверке порта, инициированной этим инструментом, что мне делать?
  Сценарии активного прорабаки подписывались Корпорацией Майкрософт и являются безопасными. В список исключений можно добавить следующий путь: `C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\*.ps`

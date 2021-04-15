@@ -245,6 +245,8 @@
               href: dlp-on-premises-scanner-learn.md
             - name: Сведения о расширении соответствия требованиям Майкрософт (предварительная версия)
               href: dlp-chrome-learn-about.md
+            - name: Сведения о панели мониторинга оповещений для защиты от потери данных
+              href: dlp-alerts-dashboard-learn.md
         - name: Начало работы с защитой от потери данных
           items:
             - name: Начало работы с политикой защиты от потери данных по умолчанию
@@ -261,6 +263,8 @@
               href: endpoint-dlp-configure-proxy.md
             - name: Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)
               href: dlp-chrome-get-started.md
+            - name: Начало работы с панелью мониторинга оповещений для защиты от потери данных
+              href: dlp-alerts-dashboard-get-started.md
             - name: Средства и методы подключения DLP в конечной точке для устройств с Windows 10
               items:
                 - name: Средства и методы подключения для устройств с Windows 10
@@ -594,6 +598,8 @@
               href: ediscovery-decryption.md
             - name: Сбор диагностических сведений об обнаружении электронных данных
               href: ediscovery-diagnostic-info.md
+            - name: Устранение ошибок удержания электронных данных
+              href: hold-distribution-errors.md
             - name: Устранение распространенных проблем с обнаружением электронных данных
               href: ediscovery-troubleshooting-common-issues.md
             - name: Повторение неудачного поиска
@@ -748,6 +754,8 @@
               href: what-is-stored-in-exo-mailbox.md
             - name: Расшифровка в средствах обнаружения электронных данных
               href: ediscovery-decryption.md
+            - name: Устранение ошибок удержания электронных данных
+              href: hold-distribution-errors.md
             - name: Сбор диагностических сведений об обнаружении электронных данных
               href: ediscovery-diagnostic-info.md
             - name: Поиск действий по обнаружению электронных данных в журнале аудита
@@ -766,6 +774,8 @@
       href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
     - name: Увеличение квоты для папки "Элементы с возможностью восстановления" для почтовых ящиков на удержании
       href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
+    - name: Устранение ошибок удержания электронных данных
+      href: hold-distribution-errors.md
     - name: Сохранение скрытых копий и получателей расширенной группы рассылки
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Управление политиками аудита и оповещений

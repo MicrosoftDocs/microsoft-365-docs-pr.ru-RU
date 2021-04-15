@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 18422f74d87bbadf014de24849235ce5c25bd614
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: baaebd185389e7ac1f2173aed092141067a5629f
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920472"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768894"
 ---
 # <a name="device-requirements"></a>Требования к устройству
 
@@ -38,7 +38,7 @@ Microsoft Managed Desktop регулярно оценивает требован
 - Dell
 - HP
 - Lenovo
-- Microsoft
+- Корпорация Майкрософт
 
 
 ### <a name="installed-software"></a>Установленное программное обеспечение
@@ -46,7 +46,7 @@ Microsoft Managed Desktop регулярно оценивает требован
 На устройстве должно быть предустановлено это программное обеспечение:
 
 - Выпуск Windows 10 Enterprise, Pro или Pro Workstation
-- 64-битная версия Microsoft Office для запуска 
+- 64-битная версия Приложений Microsoft 365 для предприятия 
 - Все применимые драйверы устройств
 
 
@@ -57,7 +57,7 @@ Microsoft Managed Desktop регулярно оценивает требован
 - Включен для безопасной загрузки UEFI 
 - Доверенный модуль платформы 2.0 
 - Безопасность на основе виртуализации 
-- Поддерживает целостность кода с защитой Hypervisor 
+- [Целостность кода с защитой гипервизора,](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) поддерживаемая BIOS
 
 Дополнительные данные об этих возможностях и связанных с ними технологиях, используемых службой, см. в сайте [Microsoft Managed Desktop technologies.](../intro/technologies.md)
 
@@ -72,12 +72,13 @@ Microsoft Managed Desktop регулярно оценивает требован
 
 Если устройство было сделано после 1 июля 2020 г., оно также должно иметь ИК-камеру, сканер отпечатков пальцев или оба устройства для поддержки [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 
-## <a name="recommended-requirements"></a>Рекомендуемые требования
+## <a name="recommended-features"></a>Рекомендуемые функции
 
-Несмотря на то, что они не являются абсолютными требованиями, ваши пользователи будут иметь гораздо лучший опыт, если вы выбираете устройства, которые имеют эти функции:
+Ваши пользователи будут иметь гораздо больше возможностей, если вы выбираете устройства, которые имеют эти функции:
 
 - Процессор Intel vPro-platform или процессор AMD Ryzen Pro
 - Загрузочный диск типа SSD с емкостью не менее 256 ГБ
+- Внутренняя память устройства (оперативная память) не менее 16 ГБ
 - Поддержка современного ожидания
 - Устройство имеет тип ПК с защищенным ядром
 - Поддерживает защиту DMA ядра

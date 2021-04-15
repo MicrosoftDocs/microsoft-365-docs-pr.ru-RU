@@ -25,7 +25,7 @@ ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755564"
+ms.locfileid: "51759922"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Удаление пользователя из организации
   

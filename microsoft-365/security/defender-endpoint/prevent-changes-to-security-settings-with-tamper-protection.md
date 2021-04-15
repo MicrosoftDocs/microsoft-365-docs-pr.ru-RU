@@ -1,5 +1,5 @@
 ---
-title: Защита параметров безопасности с помощью защиты от взлома
+title: Защита параметров безопасности с помощью защиты от подделки
 ms.reviewer: shwjha, hayhov
 manager: dansimp
 description: Используйте защиту от взлома, чтобы предотвратить изменение важных параметров безопасности вредоносными приложениями.
@@ -9,20 +9,20 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 audience: ITPro
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 147247435564133502f33d33799d05ef809e0427
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 84864965d7a18902a01307c1dcf373fa7c0534e8
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691381"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765579"
 ---
-# <a name="protect-security-settings-with-tamper-protection"></a>Защита параметров безопасности с помощью защиты от взлома
+# <a name="protect-security-settings-with-tamper-protection"></a>Защита параметров безопасности с помощью защиты от подделки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "51691381"
 
 Защита от взлома доступна для устройств с одной из следующих версий Windows:
 
-- Windows 10
+- Windows 10
 - Windows Server 2019
 - Windows Server, версия 1803 или более поздней версии
 - Windows Server 2016
@@ -90,7 +90,7 @@ ms.locfileid: "51691381"
 - Вы должны иметь соответствующие [разрешения,](/microsoft-365/security/defender-endpoint/assign-portal-access)такие как глобальный администратор, администратор безопасности или операции безопасности.
 
 - На устройствах Windows должна быть запущена одна из следующих версий Windows:
-   - Windows 10
+   - Windows 10
    - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
    - Windows Server, версия [1803 или](/windows/release-health/status-windows-10-1803) более поздней версии
    - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
@@ -297,4 +297,4 @@ Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/wi
 
 [Получить обзор Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint)
 
-[Лучше вместе: антивирус Microsoft Defender и Microsoft Defender для конечной точки](why-use-microsoft-defender-antivirus.md)
+[Вместе лучше: антивирусная программа в Microsoft Defender и Microsoft Defender для конечной точки](why-use-microsoft-defender-antivirus.md)

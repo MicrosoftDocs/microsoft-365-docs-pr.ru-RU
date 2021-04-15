@@ -1,5 +1,5 @@
 ---
-title: Настройка обнаружения устройства
+title: Настройка обнаружения устройств
 description: Узнайте, как настроить обнаружение устройств в Microsoft 365 Defender с помощью базового или стандартного обнаружения
 keywords: базовый, стандартный, настройка обнаружения конечной точки, обнаружения устройств
 search.product: eADQiWindows 10XVcnh
@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-ms.localizationpriority: medium
+localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 711a3188c49269b2ecedf0cccb6b27986742b048
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 0d722b4f4bef5b4d178edc5f2142c887690d4c63
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698476"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765255"
 ---
-# <a name="configure-device-discovery"></a>Настройка обнаружения устройства
+# <a name="configure-device-discovery"></a>Настройка обнаружения устройств
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

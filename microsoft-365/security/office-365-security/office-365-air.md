@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6dfa22b2afb33c318eae8937888b5b75a1742938
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 9850506771f53b125c08b1df2149ee024191d823
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599470"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768870"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Автоматическое исследование и ответ (AIR) в Microsoft Defender для Office 365
 
@@ -119,11 +119,11 @@ Microsoft 365 предоставляет множество встроенных
 
 - Администраторы безопасности (в том числе глобальные администраторы)
 - Группа операций по безопасности организации (в том числе читатели безопасности и те, кто играет роль **поиска и очистки)**
-- Пользователи
+- Конечные пользователи
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>В ближайшее время в центре безопасности будут внесены изменения
 
-Если вы уже используете возможности AIR в Microsoft Defender для Office 365, вы увидите некоторые изменения в улучшенном центре безопасности [Microsoft 365.](../defender/overview-security-center.md) 
+Если вы уже используете возможности AIR в Microsoft Defender для Office 365, вы увидите некоторые изменения в улучшенном центре безопасности [Microsoft 365.](../defender/overview-security-center.md)
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Центр единого действия":::
 

@@ -21,7 +21,7 @@ ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755802"
+ms.locfileid: "51760168"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки
 
@@ -454,7 +454,7 @@ WinHTTP не зависит от параметров прокси-сервер�
     ![Изображение конфигурации конечной точки Майкрософт30](images/mecm-30.png)
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Устранение неполадок Microsoft Defender для конечной точки](troubleshoot-mdatp.md)
 - [Бортовых устройств](onboard-configure.md)

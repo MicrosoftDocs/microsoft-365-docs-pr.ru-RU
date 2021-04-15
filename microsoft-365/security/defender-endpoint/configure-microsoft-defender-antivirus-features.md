@@ -1,5 +1,5 @@
 ---
-title: Настройка функций антивируса Microsoft Defender
+title: Настройка функций антивирусной программы в Microsoft Defender
 description: Можно настроить антивирусные функции Microsoft Defender с помощью Intune, Microsoft Endpoint Configuration Manager, Group Policy и PowerShell.
 keywords: Антивирус Microsoft Defender, антивирус, защита, защита, настройка, конфигурация, Config Manager, Microsoft Endpoint Configuration Manager, SCCM, Intune, MDM, управление мобильными устройствами, GP, групповой политики, PowerShell
 search.product: eADQiWindows 10XVcnh
@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,14 +15,14 @@ ms.date: 11/18/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3dcf0ab24541a8837fbab91049fed0157b7f1fc9
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8503bb5bdd6337ec60390ef1d8e59f6f506fbce2
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690819"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765171"
 ---
-# <a name="configure-microsoft-defender-antivirus-features"></a>Настройка функций антивируса Microsoft Defender
+# <a name="configure-microsoft-defender-antivirus-features"></a>Настройка функций антивирусной программы в Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,7 +50,7 @@ ms.locfileid: "51690819"
 |Статья  |Описание  |
 |---------|---------|
 |[Использование антивирусной защиты Microsoft Defender с облачным обеспечением](cloud-protection-microsoft-defender-antivirus.md)     | Использование облачной защиты для быстрого и надежного обнаружения антивирусов.        |
-|[Настройка поведенческой, севристической и защиты в режиме реального времени](configure-protection-features-microsoft-defender-antivirus.md)     |Включить антивирусную защиту на основе поведения, а также защиту от вирусов в режиме реального времени.         |
+|[Настройка поведенческой, эвристической защиты и защиты в режиме реального времени](configure-protection-features-microsoft-defender-antivirus.md)     |Включить антивирусную защиту на основе поведения, а также защиту от вирусов в режиме реального времени.         |
 |[Настройка взаимодействия между конечными пользователями с антивирусом Microsoft Defender](configure-end-user-interaction-microsoft-defender-antivirus.md) | Настройте, как конечные пользователи в организации взаимодействуют с антивирусом Microsoft Defender, какие уведомления они видят и могут ли они переопределять параметры. |
 
 > [!TIP]

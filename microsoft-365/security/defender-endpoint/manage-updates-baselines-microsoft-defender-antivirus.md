@@ -7,19 +7,19 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: bf027dd7f5fad032d57d2dd0b686ccd129f568c7
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b70cf96cde7d4dff8e2a4db6ce2469090dba7eb1
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690979"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765615"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Управление обновлениями антивируса Microsoft Defender и применение базовых показателей
 
@@ -565,5 +565,5 @@ ms.locfileid: "51690979"
 |[Управление загрузкой и приложением обновлений защиты](manage-protection-updates-microsoft-defender-antivirus.md) | Обновления защиты могут быть доставлены из многих источников. |
 |[Управление загрузкой и приложением обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md) | Можно запланировать загрузку обновлений защиты. |
 |[Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md) | Если конечная точка пропустит обновление или запланированное сканирование, вы можете принудить к обновлению или сканировать при следующем взявке пользователя. |
-|[Управление вынужденными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) | Можно установить обновления защиты для скачивания при запуске или после определенных событий защиты с облачной доставкой. |
-|[Управление обновлениями для мобильных устройств и виртуальных машин (виртуальных машин)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)| Можно указать параметры, например, следует ли обновлять заряд батареи, которые особенно полезны для мобильных устройств и виртуальных машин. |
+|[Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) | Можно установить обновления защиты для скачивания при запуске или после определенных событий защиты с облачной доставкой. |
+|[Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)| Можно указать параметры, например, следует ли обновлять заряд батареи, которые особенно полезны для мобильных устройств и виртуальных машин. |

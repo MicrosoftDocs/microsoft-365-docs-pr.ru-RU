@@ -8,21 +8,21 @@ search.appverid: met150
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e4ba9a438ff4640a556a236b50b0be6e816fc7e8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 327974c4db4166301820cf148811aceda1700513
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691029"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765351"
 ---
-# <a name="manage-the-schedule-for-when-protection-updates-should-be-downloaded-and-applied"></a>Управление расписанием загрузки и приложения обновлений защиты
+# <a name="manage-the-schedule-for-when-protection-updates-should-be-downloaded-and-applied"></a>Управление расписанием загрузки и применения обновлений защиты
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -104,6 +104,6 @@ SignatureUpdateInterval
 - [Развертывание антивируса Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
 - [Управление обновлениями антивируса Microsoft Defender и применение базовых показателей](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [Управление вынужденными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md)
-- [Управление обновлениями для мобильных устройств и виртуальных машин (виртуальных машин)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+- [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md)
+- [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

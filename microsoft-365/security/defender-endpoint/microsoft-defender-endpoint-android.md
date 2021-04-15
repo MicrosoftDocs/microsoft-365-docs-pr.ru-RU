@@ -1,7 +1,7 @@
 ---
-title: ATP Защитника Майкрософт на Android
+title: Microsoft Defender для конечной точки на Android
 ms.reviewer: ''
-description: Описание установки и использования ATP Microsoft Defender для Android
+description: Описание установки и использования Microsoft Defender для конечной точки на Android
 keywords: Microsoft, defender, atp, android, installation, deploy, uninstallation, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8311cb703bc5232e1421d19892fec9cdbc94b052
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 8a78fc7e07f89c2e13a698ee526403989f26dd65
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698200"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768846"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender для конечной точки на Android
 
@@ -44,7 +44,7 @@ ms.locfileid: "51698200"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Установка Microsoft Defender для конечной точки на Android
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Необходимые компоненты
 
 -   **Для конечных пользователей**
 
@@ -89,7 +89,7 @@ Microsoft Defender для конечной точки на Android поддер�
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune](android-intune.md)
-- [Настройка Microsoft Defender для конечной точки на android-функции](android-configure.md)
+- [Настройка функций Microsoft Defender для конечной точки на Android](android-configure.md)
 

@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a513013c4b5f41cf95b876648882cb56ba818b32
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 5c7a2d943ec1813623065e70330b914a3911d1eb
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571000"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51769002"
 ---
 # <a name="turn-on-network-protection"></a>Включить защиту сети
 
@@ -28,20 +28,24 @@ ms.locfileid: "51571000"
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 [Защита сети](network-protection.md) помогает предотвратить использование сотрудниками любого приложения для доступа к опасным доменам, в которые могут быть организованы фишинговые атаки, эксплойты и другой вредоносный контент в Интернете. Вы можете [проверить защиту сети](evaluate-network-protection.md) в тестовой среде, чтобы просмотреть, какие приложения будут заблокированы, прежде чем включить ее.
 
-[Дополнительные информацию о параметрах конфигурации фильтрации сети](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
+[Дополнительные информацию о параметрах конфигурации фильтрации сети](/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
 
 ## <a name="check-if-network-protection-is-enabled"></a>Проверьте, включена ли защита сети
 
 Проверьте, включена ли защита сети на локальном устройстве с помощью редактора реестра.
 
 1. Выберите **кнопку Начните** в панели задач и введите **regedit** для открытия редактора реестра
-1. Выберите **HKEY_LOCAL_MACHINE** из бокового меню
-1. Перейдите через вложенные меню к политикам программного обеспечения Microsoft  >    >    >  **Защитник Windows**  >  **Защитник Windows Защита сети guard**  >  
-1. Выберите **EnableNetworkProtection,** чтобы увидеть текущее состояние сетевой защиты на устройстве
+
+2. Выберите **HKEY_LOCAL_MACHINE** из бокового меню
+
+3. Перейдите через вложенные меню к политикам программного обеспечения Microsoft  >    >    >  **Защитник Windows**  >  **Защитник Windows Защита сети guard**  >  
+
+4. Выберите **EnableNetworkProtection,** чтобы увидеть текущее состояние сетевой защиты на устройстве
 
     * 0 или **off**
     * 1 или **On**
@@ -83,9 +87,9 @@ ms.locfileid: "51571000"
 
 1. Вход в центр администрирования microsoft Endpoint Manager (https://endpoint.microsoft.com)
 
-2. Создание или изменение профиля конфигурации [защиты конечной точки](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-configure)
+2. Создание или изменение профиля конфигурации [защиты конечной точки](/mem/intune/protect/endpoint-protection-configure)
 
-3. В статье "Параметры конфигурации" в потоке профилей перейдите в **microsoft Defender Exploit Guard Network**  >  **filtering Network** protection  >    >  **Enable** or **Audit only**
+3. В **статье Параметры конфигурации** в потоке профилей перейдите в **microsoft Defender Exploit Guard Network**  >  **filtering Network protection**  >    >  **Enable** or Audit **only**
 
 ### <a name="group-policy"></a>Групповая политика
 
@@ -116,7 +120,7 @@ ms.locfileid: "51571000"
 
 1. Выберите **regedit Начните и** введите, чтобы открыть **редактор реестра.** 
 
-2. Перейдите **кHKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection**
+2. Перейдите **кHKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**
 
 3. Выберите **EnableNetworkProtection** и подтвердите значение:
    * 0=Off

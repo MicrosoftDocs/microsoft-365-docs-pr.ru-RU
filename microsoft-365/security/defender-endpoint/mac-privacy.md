@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 93715f761beded95cfaa91b4747a2e4b5a3c61c1
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: bf837dca5f05310045c06178b8fc587f3fc55137
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689681"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765783"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>Конфиденциальность для Защитника Майкрософт для конечной точки на macOS
 
@@ -33,7 +33,6 @@ ms.locfileid: "51689681"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
-
 
 Корпорация Майкрософт обязуется предоставить вам сведения и элементы управления, необходимые для выбора того, как собираются и используются данные при использовании Microsoft Defender для конечной точки на macOS.
 

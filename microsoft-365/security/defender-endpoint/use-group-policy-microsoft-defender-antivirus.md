@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: b8122807b8e26a848781f9f66f8e13032345f3fd
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: e8d3cbd58b80d6c393b8d7173c61509b26a29b4a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51749918"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765663"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Настройка и управление антивирусной программой Microsoft Defender с помощью параметров групповой политики
 
@@ -64,8 +64,8 @@ ms.locfileid: "51749918"
 | MAPS | Присоединяйтесь к Microsoft MAPS | [Включить облачную защиту](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | MAPS | Отправка образцов файлов при необходимости дополнительного анализа | [Включить облачную защиту](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | MAPS | Настройка переопределения локального параметра для отчетов в Microsoft MAPS | [Предотвращение или разрешение пользователям локально изменять параметры политики](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
-| MpEngine | Настройка расширенной облачной проверки | [Настройка периода ожидания облачного блока](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
-| MpEngine | Выберите уровень облачной защиты | [Укажите уровень облачной защиты](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
+| MpEngine | Настройка расширенной облачной проверки | [Настройка времени ожидания блокировки облака](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
+| MpEngine | Выберите уровень облачной защиты | [Указать уровень облачной защиты](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
 | Система сетевого контроля | Укажите дополнительные наборы определений для проверки сетевого трафика | Больше не релевантно |
 | Система сетевого контроля | Включив выход на пенсию определения | Больше не релевантно |
 | Система сетевого контроля | Включив распознавание протокола | Больше не релевантно |
@@ -98,7 +98,7 @@ ms.locfileid: "51749918"
 | Root | Отключение плановых исправлений | [Настройка исправлений для проверки антивируса Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md) |
 | Root | Рандомизация запланированного времени задач | [Настройка запланированных сканов антивируса Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Проверка | Разрешить пользователям приостанавлить сканирование | [Запретить пользователям видеть и взаимодействовать с пользовательским](prevent-end-user-interaction-microsoft-defender-antivirus.md) интерфейсом антивируса Microsoft Defender (не поддерживается в Windows 10) |
-| Проверка | Проверьте последние определения вирусов и программ-шпионов перед запуском запланированного сканирования | [Управление вынужденными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Проверка | Проверьте последние определения вирусов и программ-шпионов перед запуском запланированного сканирования | [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Проверка | Определение количества дней, после которых принудительное сканирование догонять | [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Проверка | Включите полное сканирование | [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Проверка | Включите быстрое сканирование | [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
@@ -126,17 +126,17 @@ ms.locfileid: "51749918"
 | Проверка | Укажите время ежедневного быстрого сканирования | [Настройка запланированных сканов антивируса Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Проверка | Укажите время суток для запуска запланированного сканирования | [Настройка запланированных сканов антивируса Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Проверка | Запуск запланированного сканирования только в том случае, если компьютер находится на компьютере, но не используется | [Настройка запланированных сканов антивируса Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
-| Обновления аналитики безопасности | Разрешить обновления сведений о безопасности из Обновления Майкрософт | [Управление обновлениями для мобильных устройств и виртуальных машин (виртуальных машин)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
-| Обновления аналитики безопасности | Разрешить обновления сведении о безопасности при работе с питанием от батареи | [Управление обновлениями для мобильных устройств и виртуальных машин (виртуальных машин)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
-| Обновления аналитики безопасности | Разрешить уведомления для отключения отчетов на основе определений в Microsoft MAPS | [Управление вынужденными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
-| Обновления аналитики безопасности | Разрешить обновления сведений о безопасности в режиме реального времени на основе отчетов в Microsoft MAPS | [Управление вынужденными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
-| Обновления аналитики безопасности | Проверка последних определений вирусов и программ-шпионов при запуске | [Управление вынужденными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Обновления аналитики безопасности | Разрешить обновления сведений о безопасности из Обновления Майкрософт | [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
+| Обновления аналитики безопасности | Разрешить обновления сведении о безопасности при работе с питанием от батареи | [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
+| Обновления аналитики безопасности | Разрешить уведомления для отключения отчетов на основе определений в Microsoft MAPS | [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Обновления аналитики безопасности | Разрешить обновления сведений о безопасности в режиме реального времени на основе отчетов в Microsoft MAPS | [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Обновления аналитики безопасности | Проверка последних определений вирусов и программ-шпионов при запуске | [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Обновления аналитики безопасности | Определение файловой доли для скачивания обновлений разведки безопасности | [Управление обновлениями антивирусной защиты и сведении о безопасности в Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md) |
 | Обновления аналитики безопасности | Определите количество дней, после которых требуется обновление сведений о безопасности | [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Обновления аналитики безопасности | Определение количества дней до того, как определения программ-шпионов считаются устарели | [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Обновления аналитики безопасности | Определение количества дней до того, как определения вирусов считаются устарели | [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Обновления аналитики безопасности | Определение порядка источников для скачивания обновлений разведки безопасности | [Управление обновлениями антивирусной защиты и сведении о безопасности в Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md) |
-| Обновления аналитики безопасности | Инициировать обновление сведении о безопасности при запуске | [Управление вынужденными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Обновления аналитики безопасности | Инициировать обновление сведении о безопасности при запуске | [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Обновления аналитики безопасности | Укажите день недели для проверки обновлений разведки безопасности | [Управление загрузкой и приложением обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md) |
 | Обновления аналитики безопасности | Укажите интервал для проверки обновлений разведки безопасности | [Управление загрузкой и приложением обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md) |
 | Обновления аналитики безопасности | Укажите время проверки обновлений разведки безопасности | [Управление загрузкой и приложением обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md) |

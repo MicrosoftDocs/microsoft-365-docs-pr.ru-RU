@@ -7,21 +7,21 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f67330e1ccd7361c3982b76a6ab8754db23bd110
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 826e1456de2aadf4031a91e30925a1e771d44f70
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690984"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765591"
 ---
-# <a name="manage-updates-for-mobile-devices-and-virtual-machines-vms"></a>Управление обновлениями для мобильных устройств и виртуальных машин (виртуальных машин)
+# <a name="manage-updates-for-mobile-devices-and-virtual-machines-vms"></a>Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "51690984"
 В таких ситуациях также могут быть полезны следующие статьи:
 - [Настройка запланированных и доголовных сканов](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
 - [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [Руководство по развертыванию антивируса Microsoft Defender в среде виртуальной инфраструктуры настольных компьютеров (VDI)](deployment-vdi-microsoft-defender-antivirus.md)
+- [Руководство по развертыванию антивирусной программы в Microsoft Defender в среде инфраструктуры виртуальных рабочих столов (VDI)](deployment-vdi-microsoft-defender-antivirus.md)
 
 ## <a name="opt-in-to-microsoft-update-on-mobile-computers-without-a-wsus-connection"></a>В приложении Microsoft Update на мобильных компьютерах без подключения wSUS
 
