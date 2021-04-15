@@ -20,18 +20,22 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: В этой статье вы найдете конечные точки, которые являются понятными для клиентов, использующих Office 365 в Германии.
 hideEdit: true
-ms.openlocfilehash: 8d3e8bfe2a52027b412aff87e063f2458ca47f74
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d96300e77c67ac05ea18ab23d63c01d4f840dfb
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923994"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759898"
 ---
 # <a name="office-365-germany-endpoints"></a>Конечные точки Office 365 Germany
 
  *Применяется к: Администратор Office 365*
 
 Office 365 требует подключения к Интернету. Конечные точки ниже должны быть недоступны только для клиентов, использующих планы **Office 365 в** Германии.
+
+> [!NOTE]
+> Для клиентов, которые переходят в новый центр обработки данных Microsoft 365 в Германии, конечные точки изменятся.
+> Дополнительные сведения можно получить в службе Миграция из [Microsoft Cloud Deutschland в службы Office 365](ms-cloud-germany-transition.md)в новых регионах центра обработки данных в Германии.
   
  **Конечные точки Office 365:**[ по всему миру (включая GCC)](urls-and-ip-address-ranges.md)  | [Office 365, предоставляемый 21 Vianet](urls-and-ip-address-ranges-21vianet.md)  | *Office 365 Germany* | [Office 365 для DoD государственных организаций США](microsoft-365-u-s-government-dod-endpoints.md) | [Office 365 для GCC High государственных организаций США](microsoft-365-u-s-government-gcc-high-endpoints.md)  |
   

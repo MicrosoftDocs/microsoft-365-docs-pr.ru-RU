@@ -15,12 +15,14 @@ ms.date: 07/23/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 912136a7229ec55b7f1644aebc946f63acb68040
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: 0fd1e6b2eec1be722af58e0753e158c050b56c6b
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691285"
+ms.locfileid: "51749882"
 ---
 # <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>Используйте cmdlets PowerShell для настройки и управления антивирусом Microsoft Defender
 
@@ -67,4 +69,4 @@ Get-Help <cmdlet> -Online
 
 - [Справочные темы для средств управления и конфигурации](configuration-management-reference-microsoft-defender-antivirus.md)
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Антивирусные кодлеты Microsoft Defender](/powershell/module/defender/?view=win10-ps)
+- [Антивирусные кодлеты Microsoft Defender](/powershell/module/defender)

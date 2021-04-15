@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 4599741f501e9b55bc73e0eb8def9208bc988957
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 193e7e634ecf8407816db10c820edcd241b94b12
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689669"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755802"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки
 
@@ -292,8 +292,9 @@ WinHTTP не зависит от параметров прокси-сервер�
     ![Изображение ключа реестра антивируса Microsoft Defender](images/atp-disableantispyware-regkey.png)
 
    > [!NOTE]
-   > Кроме того, необходимо убедиться, что wdfilter.sys и wdboot.sys по умолчанию устанавливаются значения старта по умолчанию в "0".
+   > Все Защитник Windows (wdboot, wdfilter, wdnisdrv, wdnissvc и windefend) должны быть в состоянии по умолчанию. Изменение запуска этих служб является неподтвердимым и может заставить вас повторное изменение системы.
    >
+   > Пример конфигураций по умолчанию для WdBoot и WdFilter:
    > - `<Key Path="SYSTEM\CurrentControlSet\Services\WdBoot"><KeyValue Value="0" ValueKind="DWord" Name="Start"/></Key>`
    > - `<Key Path="SYSTEM\CurrentControlSet\Services\WdFilter"><KeyValue Value="0" ValueKind="DWord" Name="Start"/></Key>`
 

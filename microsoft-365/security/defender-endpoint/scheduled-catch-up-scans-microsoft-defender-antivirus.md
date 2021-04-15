@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,14 +15,14 @@ ms.date: 11/02/2020
 ms.reviewer: pauhijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 66907fca7a117eeba7ca0b9bd95d59af24c31341
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: bfa616423fc0c097b9909df8abf5b9c414490383
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691302"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764091"
 ---
-# <a name="configure-scheduled-quick-or-full-microsoft-defender-antivirus-scans"></a>Настройка запланированных быстрых или полных антивирусных сканов Microsoft Defender
+# <a name="configure-scheduled-quick-or-full-microsoft-defender-antivirus-scans"></a>Настройка запланированного быстрого или полного сканирования антивирусной программы в Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -241,8 +241,8 @@ ScanScheduleQuickScanTime
 
 ## <a name="see-also"></a>См. также
 - [Предотвращение или разрешение пользователям локально изменять параметры политики](configure-local-policy-overrides-microsoft-defender-antivirus.md)
-- [Настройка и запуск антивирусных сканов Microsoft Defender по запросу](run-scan-microsoft-defender-antivirus.md)
-- [Настройка параметров антивирусного сканирования Microsoft Defender](configure-advanced-scan-types-microsoft-defender-antivirus.md)
+- [Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию](run-scan-microsoft-defender-antivirus.md).
+- [Настройка параметров сканирования антивирусной программы в Microsoft Defender](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [Управление обновлениями антивируса Microsoft Defender и применение базовых показателей](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Управление загрузкой и приложением обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md) 
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

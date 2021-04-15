@@ -23,23 +23,16 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: Узнайте, как настроить и использовать Microsoft 365 на компьютере, телефоне и планшете.
-ms.openlocfilehash: 74821886832e699a90d9a54a9b8c7ce9a8cfab75
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0bc2478375cdec231a00bade933680cb69578126
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222031"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755646"
 ---
 # <a name="get-started"></a>Начало работы
 
 Ваша организация недавно получила Microsoft 365, и теперь вам нужно использовать его, чтобы вы могли начать чтение электронной почты, общий доступ к документам и другие. Узнайте, как настроить и использовать Microsoft 365 на компьютере, телефоне и планшете.
-  
-::: moniker range="o365-worldwide"
-
-****
-
-
-::: moniker-end
 
 ## <a name="training-resources-for-your-users"></a>Учебные ресурсы для пользователей
 

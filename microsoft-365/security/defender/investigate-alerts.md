@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 989574a860bea798c48e077f5633c31eb857e85e
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 601a8674327c424592c65014793599dc19b2bcd3
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500935"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51759436"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Исследование оповещений в Microsoft 365 Defender
 
@@ -35,8 +35,6 @@ ms.locfileid: "51500935"
 
 **Область применения:**
 - Microsoft 365 Defender
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 Оповещения являются основой всех инцидентов и указывают на возникновение вредоносных или подозрительных событий в вашей среде. Оповещения обычно являются частью более широкой атаки и предоставляют подсказки об инциденте.
 
@@ -98,8 +96,8 @@ ms.locfileid: "51500935"
 Можно также фильтровать оповещения по различным критериям:
 
 - Severity
-- Состояние
-- Категория
+- Статус
+- Category
 - Источник обнаружения
 - Политика
 - Влияние активов

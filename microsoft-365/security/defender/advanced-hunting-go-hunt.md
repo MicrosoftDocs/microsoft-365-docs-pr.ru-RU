@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 392db06aa517e3e970f85ccc971c3a6a6bc6e548
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0f09f74a1cefad5a9b6b438752ebe57e583397c7
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498291"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759982"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Быстрая охота за сведениями о сущности или событиях с помощью go hunt
 
@@ -39,7 +39,7 @@ ms.locfileid: "51498291"
 
 Действие *охоты на перейти* доступно в различных разделах центра безопасности всякий раз, когда отображаются сведения о событии или объекте. Например, можно использовать go *hunt* из следующих разделов:
 
-- На странице [инцидента](investigate-incidents.md#incident-overview)можно просмотреть сведения о пользователях, устройствах и многих других сущностях, связанных с инцидентом. При выборе объекта вы получаете дополнительные сведения, а также различные действия, которые можно принять для этого объекта. В приведенной ниже примере выбирается почтовый ящик, в котором отображаются сведения о почтовом ящике, а также возможность охоты за дополнительными сведениями о почтовом ящике.
+- На странице [инцидента](investigate-incidents.md#summary)можно просмотреть сведения о пользователях, устройствах и многих других сущностях, связанных с инцидентом. При выборе объекта вы получаете дополнительные сведения, а также различные действия, которые можно принять для этого объекта. В приведенной ниже примере выбирается почтовый ящик, в котором отображаются сведения о почтовом ящике, а также возможность охоты за дополнительными сведениями о почтовом ящике.
 
     ![Изображение, на котором показаны сведения о почтовом ящике с помощью параметра go hunt](../../media/mtp-ah/go-hunt-email.png)
 
@@ -107,7 +107,7 @@ Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 - [Просмотр результатов в качестве диаграмм](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
 - [Создание настраиваемой нормы обнаружения](custom-detection-rules.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

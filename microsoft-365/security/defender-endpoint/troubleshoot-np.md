@@ -11,26 +11,26 @@ localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.date: 01/26/2021
-ms.reviewer: ''
+ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 34bebddcf052a643529f1d2b8a8a869a0ffe4a91
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.topic: how-to
+ms.openlocfilehash: 9efc42441c2cb30f35abf658071088f7f7bbaf00
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183827"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760102"
 ---
 # <a name="troubleshoot-network-protection"></a>Защита сети от неполадок
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **Область применения:**
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+> [!TIP]
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "51183827"
 > - [Включена облачная](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) защита.
 > - Режим аудита не включен. Используйте [групповую](enable-network-protection.md#group-policy) политику, чтобы установить правило **отключено** (значение: **0).**
 
-## <a name="use-audit-mode"></a>Использование режима аудита
+## <a name="use-audit-mode"></a>Использовать режим аудита
 
 Вы можете включить защиту сети в режиме аудита, а затем посетить веб-сайт, созданный для демонстрации этой функции. Все подключения к веб-сайту будут разрешены с помощью сетевой защиты, но событие будет включено в журнал, чтобы указать любое подключение, которое было бы заблокировано, если бы была включена защита сети.
 
@@ -103,9 +103,29 @@ ms.locfileid: "51183827"
    mpcmdrun -getfiles
    ```
 
-3. По умолчанию они сохраняются в C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab. Прикрепить файл к форме отправки.
+3. Прикрепить файл к форме отправки. По умолчанию диагностические журналы сохраняются на `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` уровне . 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="resolve-connectivity-issues-with-network-protection-for-e5-customers"></a>Устранение проблем с подключением с помощью защиты сети (для клиентов E5)
+
+Из-за среды, в которой выполняется защита сети, Корпорация Майкрософт не может видеть параметры прокси-сервера операционной системы. В некоторых случаях клиенты сетевой защиты не могут добраться до облачной службы. Чтобы устранить проблемы с подключением с помощью сетевой защиты, настройте один из следующих ключей реестра, чтобы защита сети знала о конфигурации прокси:
+
+```powershell
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
+```
+
+---OR---
+
+
+```powershell
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
+```
+
+Ключ реестра можно настроить с помощью PowerShell, Microsoft Endpoint Manager или групповой политики. Вот некоторые ресурсы, которые помогут:
+- [Работа с ключами реестра](/powershell/scripting/samples/working-with-registry-keys)
+- [Настройка настраиваемых параметров клиента для защиты конечных точек](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
+- [Использование параметров групповой политики для управления защитой конечных точек](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
+
+## <a name="see-also"></a>См. также
 
 - [Защита сети](network-protection.md)
 - [Оценка защиты сети](evaluate-network-protection.md)

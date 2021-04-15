@@ -85,6 +85,65 @@
 ##### [Настройка правил сокращения направлений атак](customize-attack-surface-reduction.md)
 ##### [Просмотр событий сокращения направлений атак](event-views.md)
 
+### Защита нового поколения
+#### [Обзор антивирусной программы в Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md)
+#### [Антивирусная программа в Microsoft Defender в Windows Server](microsoft-defender-antivirus-on-windows-server.md)
+#### [Вместе лучше: антивирусная программа в Microsoft Defender и Microsoft Defender для конечной точки](why-use-microsoft-defender-antivirus.md)
+#### [Вместе лучше: антивирусная программа в Microsoft Defender и Office 365](office-365-microsoft-defender-antivirus.md)
+#### [Облачная защита и антивирусная программа в Microsoft Defender](cloud-protection-microsoft-defender-antivirus.md)
+#### [Оценка антивирусной программы в Microsoft Defender](evaluate-microsoft-defender-antivirus.md)
+#### [Настройка функций антивирусной программы в Microsoft Defender](configure-microsoft-defender-antivirus-features.md)
+##### [Включить облачную защиту](enable-cloud-protection-microsoft-defender-antivirus.md)
+##### [Указать уровень облачной защиты](specify-cloud-protection-level-microsoft-defender-antivirus.md)
+##### [Настройка и проверка сетевого подключения антивирусной программы в Microsoft Defender](configure-network-connections-microsoft-defender-antivirus.md)
+##### [Защита параметров безопасности с помощью защиты от подделки](prevent-changes-to-security-settings-with-tamper-protection.md)
+##### [Включить блокировку при первом появлении](configure-block-at-first-sight-microsoft-defender-antivirus.md)
+##### [Настройка времени ожидания блокировки облака](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
+##### [Настройка поведенческой, эвристической защиты и защиты в режиме реального времени](configure-protection-features-microsoft-defender-antivirus.md)
+##### [Обнаружение и блокировка потенциально нежелательных приложений](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
+##### [Включение и настройка постоянной защиты антивирусной программы в Microsoft Defender в групповой политике](configure-real-time-protection-microsoft-defender-antivirus.md)
+##### [Настройка исправления для обнаружения антивирусной программы в Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md)
+##### [Настройка запланированного быстрого или полного сканирования антивирусной программы в Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+##### [Использование ограниченного периодического сканирования в антивирусной программе в Microsoft Defender](limited-periodic-scanning-microsoft-defender-antivirus.md)
+#### [Совместимость с другими продуктами безопасности](microsoft-defender-antivirus-compatibility.md)
+
+#### [Получите обновления антивирусной и антивредоносной программ](manage-updates-baselines-microsoft-defender-antivirus.md)
+##### [Управление источниками обновлений антивирусной программы в Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md)
+##### [Управление расписанием загрузки и применения обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+##### [Управление обновлениями и проверками устаревших конечных точек антивирусной программы в Microsoft Defender](manage-outdated-endpoints-microsoft-defender-antivirus.md)
+##### [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md)
+##### [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+
+#### [Управление антивирусной программой в Microsoft Defender для организации](configuration-management-reference-microsoft-defender-antivirus.md)
+##### [Использование Microsoft Endpoint Manager для управления антивирусной программой в Microsoft Defender](use-intune-config-manager-microsoft-defender-antivirus.md)
+##### [Использование параметров групповой политики для управления антивирусной программой в Microsoft Defender](use-group-policy-microsoft-defender-antivirus.md)
+##### [Использование командлетов PowerShell для управления антивирусной программой в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+##### [Использование инструментария управления Windows (WMI) для управления антивирусной программой в Microsoft Defender](use-wmi-microsoft-defender-antivirus.md)
+##### [Использование средства mpcmdrun.exe для управления антивирусной программой в Microsoft Defender](command-line-arguments-microsoft-defender-antivirus.md)
+
+#### [Развертывание антивирусной программы в Microsoft Defender и создание отчетов](deploy-manage-report-microsoft-defender-antivirus.md)
+##### [Развертывание и включение антивирусной программы в Microsoft Defender](deploy-microsoft-defender-antivirus.md)
+##### [Руководство по развертыванию антивирусной программы в Microsoft Defender в среде инфраструктуры виртуальных рабочих столов (VDI)](deployment-vdi-microsoft-defender-antivirus.md)
+##### [Отчет об антивирусной программе в Microsoft Defender](report-monitor-microsoft-defender-antivirus.md)
+
+#### [Проверки и исправление](review-scan-results-microsoft-defender-antivirus.md)
+##### [Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию](run-scan-microsoft-defender-antivirus.md).
+##### [Запуск и просмотр результатов проверки в автономном Microsoft Defender](microsoft-defender-offline.md)
+##### [Настройка параметров сканирования антивирусной программы в Microsoft Defender](configure-advanced-scan-types-microsoft-defender-antivirus.md)
+##### [Восстановление файлов в карантине в антивирусной программе в Microsoft Defender](restore-quarantined-files-microsoft-defender-antivirus.md)
+
+#### [Исключения антивирусной программы в Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+##### [Исключения на основе расширения файла и расположения папки](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
+##### [Исключения для файлов, открытых процессами](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
+##### [Исключения для Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+##### [Распространенные ошибки, которых следует избегать при определении исключений](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+
+#### Устранение неполадок антивирусной программы в Microsoft Defender
+##### [Устранение неполадок с отчетами антивирусной программы в Microsoft Defender в соответствии с требованиями обновлений](troubleshoot-reporting.md)
+##### [Просмотр журналов событий и кодов ошибок для устранения неполадок с антивирусной программой в Microsoft Defender](troubleshoot-microsoft-defender-antivirus.md)
+##### [Устранение неполадок с антивирусной программой в Microsoft Defender при миграции из сторонного решения](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
+
+
 #### [Аппаратная изоляция]()
 ##### [Аппаратная изоляция в Windows 10](overview-hardware-based-isolation.md)
 
@@ -115,16 +174,23 @@
 ##### [Включить контролируемый доступ к папкам](enable-controlled-folders.md)
 ##### [Настройка контролируемого доступа к папкам](customize-controlled-folders.md)
 
+
+### [Обнаружение устройств]()
+#### [Обзор обнаружения устройств](device-discovery.md)
+#### [Настройка обнаружения устройств](configure-device-discovery.md)
+#### [Обнаружение устройств: вопросы и ответы](device-discovery-faq.md)
+
+
 ### [Сетевые устройства](network-devices.md)
 
-### [Microsoft Defender для конечной точки для Mac]()
-#### [Обзор Microsoft Defender для конечной точки для Mac](microsoft-defender-endpoint-mac.md)
+### [Microsoft Defender для конечной точки в macOS]()
+#### [Обзор Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md)
 #### [Новые возможности](mac-whatsnew.md)
 
 #### [Развертывание]()
 ##### [Развертывание на основе Microsoft Intune](mac-install-with-intune.md)
 ##### [Развертывание на основе JAMF Pro]()
-###### [Развертывание Microsoft Defender для конечной точки для macOS с помощью Jamf Pro](mac-install-with-jamf.md)
+###### [Развертывание Microsoft Defender для конечной точки в macOS с помощью Jamf Pro](mac-install-with-jamf.md)
 ###### [Вход в Jamf Pro](mac-install-jamfpro-login.md)
 ###### [Настройка групп устройств](mac-jamfpro-device-groups.md)
 ###### [Настройка политик](mac-jamfpro-policies.md)
@@ -154,19 +220,19 @@
 #### [Конфиденциальность](mac-privacy.md)
 #### [Ресурсы](mac-resources.md)
 
-### [Microsoft Defender для конечной точки для iOS]()
-#### [Обзор Microsoft Defender для конечной точки для iOS](microsoft-defender-endpoint-ios.md)
+### [Microsoft Defender для конечной точки в iOS]()
+#### [Обзор Microsoft Defender для конечной точки в iOS](microsoft-defender-endpoint-ios.md)
 
 #### [Развертывание]()
-##### [Развертывание Microsoft Defender для конечной точки для iOS с помощью Intune](ios-install.md)
+##### [Развертывание Microsoft Defender для конечной точки в iOS с помощью Intune](ios-install.md)
 
 #### [Настройка]()
 ##### [Настройка функций iOS](ios-configure-features.md)
 #### [Конфиденциальность](ios-privacy.md)
 
 
-### [Microsoft Defender для конечной точки для Linux]()
-#### [Обзор Microsoft Defender для конечной точки для Linux](microsoft-defender-endpoint-linux.md)
+### [Microsoft Defender для конечной точки в Linux]()
+#### [Обзор Microsoft Defender для конечной точки в Linux](microsoft-defender-endpoint-linux.md)
 #### [Новые возможности](linux-whatsnew.md)
 #### [Развертывание]()
 ##### [Ручное развертывание](linux-install-manually.md)
@@ -180,7 +246,7 @@
 ##### [Конфигурация статического прокси-сервера](linux-static-proxy-configuration.md)
 ##### [Настройка параметров](linux-preferences.md)
 ##### [Обнаружение и блокировка потенциально нежелательных приложений](linux-pua.md)
-##### [Планирование проверок с помощью Microsoft Defender для конечной точки для Linux](linux-schedule-scan-atp.md)
+##### [Планирование проверок с помощью Microsoft Defender для конечной точки в Linux](linux-schedule-scan-atp.md)
 ##### [Планирование обновления Microsoft Defender для конечной точки для Linux](linux-update-MDE-Linux.md)
 
 #### [Устранение неполадок]()
@@ -192,17 +258,17 @@
 #### [Конфиденциальность](linux-privacy.md)
 #### [Ресурсы](linux-resources.md)
 
-### [Microsoft Defender для конечной точки для Android]()
-#### [Обзор Microsoft Defender для конечной точки для Android](microsoft-defender-endpoint-android.md)
+### [Microsoft Defender для конечной точки на Android]()
+#### [Обзор Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md)
 
 #### [Развертывание]()
-##### [Развертывание Microsoft Defender для конечной точки для Android с помощью Microsoft Intune](android-intune.md)
+##### [Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune](android-intune.md)
 
 #### [Настройка]()
-##### [Настройка функций Microsoft Defender для конечной точки для Android](android-configure.md)
+##### [Настройка функций Microsoft Defender для конечной точки на Android](android-configure.md)
 
 #### [Конфиденциальность]()
-##### [Microsoft Defender для конечной точки для Android — сведения о конфиденциальности](android-privacy.md)
+##### [Microsoft Defender для конечной точки на Android — сведения о конфиденциальности](android-privacy.md)
 
 #### [Устранение неполадок]()
 ##### [Поиск и устранение неполадок](android-support-signin.md)

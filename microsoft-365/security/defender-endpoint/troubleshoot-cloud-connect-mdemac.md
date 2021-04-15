@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a8871274cabae0762cecc2ff513afe93c2d4811f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: fbe9d0006a2f1779e1bad60dc283a5a40429dbdd
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688505"
+ms.locfileid: "51750020"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Устранение неполадок с облачными подключениями для Microsoft Defender для конечной точки на macOS
 
@@ -38,7 +38,7 @@ ms.locfileid: "51688505"
 В этом разделе описывается, как устранить проблемы с облачным подключением для Microsoft Defender для конечной точки на macOS.
 
 ## <a name="run-the-connectivity-test"></a>Запуск теста подключения
-Чтобы проверить, может ли Защитник для конечной точки Для Mac взаимодействовать с облаком с текущими сетевыми настройками, запустите тест на подключение из командной строки:
+Чтобы проверить, может ли Defender для конечной точки на Mac взаимодействовать с облаком с текущими сетевыми настройками, запустите тест на подключение из командной строки:
 
 ```Bash
 mdatp connectivity test

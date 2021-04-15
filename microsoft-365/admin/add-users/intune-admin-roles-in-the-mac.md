@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Роли администратора соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования. Например, администратор служб создает запросы в службу поддержки Майкрософт.
-ms.openlocfilehash: 7f733dab02ab3ff33131be96a96451d7d1c14f55
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 60a1f21e65df007e78077d8c3bb22161313c1073
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904412"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755730"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Роли администраторов Intune в Центре администрирования Microsoft 365
 
@@ -31,11 +31,7 @@ ms.locfileid: "50904412"
 
 Подробнее о назначении ролей в центре администрирования Microsoft 365 см. статью [Назначение ролей администратора](assign-admin-roles.md).
 
-::: moniker range="o365-worldwide"
-
 В Центре администрирования Microsoft 365 можно перейти к разделу **Роли** и выбрать любую роль, чтобы открыть ее область сведений. Перейдите на вкладку **Разрешения**, чтобы просмотреть подробный список разрешений, которые дает эта роль администратора. Чтобы добавить пользователей в роли, выберите **Назначенные** или **Назначенные администраторы**.
-
-::: moniker-end
 
 ## <a name="microsoft-intune-roles-available-in-the-microsoft-365-admin-center"></a>Роли Microsoft Intune, доступные в Центре администрирования Microsoft 365
 

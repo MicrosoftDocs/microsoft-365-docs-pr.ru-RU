@@ -10,16 +10,18 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 03/31/2021
+ms.date: 04/13/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6c411507b834bd7f09f4688bda11e3ece9f6d7c8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: b8122807b8e26a848781f9f66f8e13032345f3fd
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691297"
+ms.locfileid: "51749918"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Настройка и управление антивирусной программой Microsoft Defender с помощью параметров групповой политики
 
@@ -87,9 +89,9 @@ ms.locfileid: "51691297"
 | Исправление | Укажите время суток для выполнения запланированного полного сканирования, чтобы завершить исправление | [Настройка запланированных антивирусных сканов Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Отчётность | Отключение расширенных уведомлений | [Настройка уведомлений, которые отображаются в конечных точках](configure-notifications-microsoft-defender-antivirus.md)
 | Root | Отключение антивируса Microsoft Defender | Не используется (Этот параметр  должен быть настроен не для обеспечения правильной работы любых установленных сторонних антивирусных приложений)
-| Root | Определение адресов для обхода прокси-сервера | Больше не релевантно |
-| Root | Определение прокси-автоконфига (.pac) для подключения к сети | Больше не релевантно |
-| Root | Определение прокси-сервера для подключения к сети | Больше не релевантно |
+| Root | Определение адресов для обхода прокси-сервера | Не используется |
+| Root | Определение прокси-автоконфига (.pac) для подключения к сети | Не используется |
+| Root | Определение прокси-сервера для подключения к сети | Не используется |
 | Root | Настройка поведения локального администратора для объединения списков | [Предотвращение или разрешение пользователям локально изменять параметры политики](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | Root | Разрешить запуск службы антивирусных программ с обычным приоритетом | [Настройка исправлений для проверки антивируса Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md) |
 | Root | Разрешить всегда работать службе антивирусных программ | [Настройка исправлений для проверки антивируса Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md) |

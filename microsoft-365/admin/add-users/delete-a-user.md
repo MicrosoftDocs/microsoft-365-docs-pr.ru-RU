@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Узнайте, как удалить учетную запись пользователя. Определите, что делать с электронной почтой пользователя и контентом OneDrive. И решите, сохранять ли лицензию на продукт или перестать платить за нее.
-ms.openlocfilehash: 5c647d353f807f20a35c889ba1d6f7715343c5cb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0069577b83c318fa57eaceddccc93b5832e634e0
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904448"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755564"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Удаление пользователя из организации
   
@@ -59,15 +59,21 @@ ms.locfileid: "50904448"
 Так как руководство по работе проходит по шагам по удалите пользователя, вот как начать работу.
 
 ::: moniker range="o365-worldwide"
+
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+
+ 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+
+ 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+
 ::: moniker-end
 
 2. Выберите пользователя, который необходимо удалить, а затем выберите **удалить пользователя**.

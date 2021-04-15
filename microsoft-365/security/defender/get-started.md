@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a6fe207773d2682ab68392269ac915030c67fa4b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f408ed0fe77034f69fc6e51ada75012f752ee2e7
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071478"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51759826"
 ---
 # <a name="get-started-with-microsoft-365-for-defender"></a>Начало работы с Microsoft 365 для Defender
 
@@ -32,8 +32,6 @@ ms.locfileid: "51071478"
 
 **Область применения:**
 - Microsoft 365 Defender
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 Microsoft 365 Defender — это единая система мониторинга и управления безопасностью на предприятии. С помощью интегрированных оповещений между удостоверениями, конечными точками, данными, приложениями, электронной почтой и средствами совместной работы в центре обработки и реагирования на угрозы. 
 
