@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Документация по безопасности Microsoft 365
-summary: Узнайте о надежных решениях и службах безопасности в Microsoft 365 для улучшения защиты вашей организации от разных направлений атак.
+title: Документация Microsoft Defender для Office 365
+summary: Узнайте о надежных решениях безопасности в Defender для Office 365, чтобы лучше защитить средства электронной почты и совместной работы.
 metadata:
-  title: Документация по безопасности Microsoft 365
-  description: Узнайте о надежных решениях и службах безопасности в Microsoft 365 для улучшения защиты вашей организации от разных направлений атак
+  title: Документация по безопасности Microsoft Defender для Office 365
+  description: Узнайте о надежных решениях безопасности в Defender для Office 365, чтобы лучше защитить средства электронной почты и совместной работы.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -11,74 +11,118 @@ metadata:
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
-  ms.date: 09/13/2019
+  ms.date: 04/13/2021
   localization_priority: Priority
-  ms.openlocfilehash: 82fe9cabd7fc5ff3c9b9be1b11db66eb0bea7dde
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+  ms.openlocfilehash: a646d52b903a1ab16d2f552b456793492462c44b
+  ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51205031"
+  ms.lasthandoff: 04/14/2021
+  ms.locfileid: "51760264"
 landingContent:
-- title: Microsoft 365 Defender
+- title: Defender для Office 365 & Exchange Online Protection
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое Microsoft 365 Defender?
-      url: ../defender/microsoft-365-defender.md
-    - text: Центр безопасности Microsoft 365
-      url: ../defender/overview-security-center.md
-- title: Начало работы с бесплатными пробными версиями
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Оценка Microsoft 365 Defender
-      url: ../defender/m365d-evaluation.md
-    - text: Сборник схем пилотного проекта Microsoft 365 Defender
-      url: ../defender/m365d-pilot.md
-- title: Защита удаленных сотрудников
+    - text: Обзор безопасности Office 365
+      url: overview.md
+    - text: Настройка политик безопасности preset в EOP и Defender для Office 365
+      url: preset-security-policies.md
+- title: Начало работы с Defender для Office 365
   linkLists:
   - linkListType: get-started
     links:
-    - text: Защита удаленных сотрудников
-      url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
-- title: Microsoft Defender для удостоверений
+    - text: Защита от угроз
+      url: protect-against-threats.md
+    - text: Предустановленные политики безопасности в EOP и Microsoft Defender для Office 365
+      url: preset-security-policies.md
+    - text: Новые возможности в Microsoft Defender для Office 365
+      url: whats-new-in-defender-for-office-365.md
+- title: Оценка Defender для Office 365
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Оценка Defender для Office 365
+      url: office-365-evaluation.md
+    - text: Переход на exchange Online Protection
+      url: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
+- title: Настройка защиты от проверки подлинности электронной почты
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка SPF для предотвращения спуфинга
+      url: set-up-spf-in-office-365-to-help-prevent-spoofing.md
+    - text: Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена
+      url: use-dkim-to-validate-outbound-email.md
+    - text: Проверка почты с помощью DMARC
+      url: use-dmarc-to-validate-email.md
+- title: Настройка Exchange Online Protection
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое Microsoft Defender для удостоверений?
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
-    - text: Архитектура Microsoft Defender для удостоверений
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
-- title: Defender для Office 365
+    - text: Обзор Exchange Online Protection
+      url: exchange-online-protection-overview.md
+    - text: Рекомендуемые параметры безопасности EOP и Microsoft Defender для Office 365 для настройки
+      url: recommended-settings-for-eop-and-office365.md
+- title: Предотвращение
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое Defender для Office 365?
-      url: defender-for-office-365.md
-    - text: Описание службы Defender для Office 365
-      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Defender для конечной точки
+    - text: Настройка клиента Microsoft 365 для повышения безопасности
+      url: tenant-wide-setup-for-increased-security.md
+    - text: Анализатор конфигурации в EOP и Defender для Office 365
+      url: configuration-analyzer-for-security-policies.md
+    - text: Получение аналитики с помощью обучения имитации атаки
+      url: attack-simulation-training-insights.md
+- title: Обнаружение
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое Microsoft Defender для конечной точки?
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-    - text: Обзор возможностей
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
-- title: Azure Defender
+    - text: Правила потока почты (правила транспорта) в автономной службе EOP
+      url: mail-flow-rules-transport-rules-0.md
+    - text: Журналы учета угроз
+      url: threat-trackers.md
+    - text: Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
+      url: reports-and-insights-in-security-and-compliance.md
+- title: Исследование
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое Azure Defender?
-      url: https://docs.microsoft.com/azure/security-center/security-center-intro
-    - text: Поддерживаемые функции
-      url: https://docs.microsoft.com/azure/security-center/security-center-services
-- title: Microsoft Cloud App Security
+    - text: Представления в Обозревателе угроз и обнаружения в режиме реального времени
+      url: threat-explorer-views.md
+    - text: Представления кампании в Microsoft Defender для Office 365
+      url: campaigns.md
+    - text: Расследование вредоносных сообщений электронной почты, доставленных в Office 365
+      url: investigate-malicious-email-that-was-delivered.md
+    - text: Просмотр отчетов Defender для Office 365
+      url: view-reports-for-mdo.md
+- title: Исследование в EOP
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое Microsoft Cloud App Security?
-      url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
-    - text: Начало работы с Microsoft Cloud App Security
-      url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
+    - text: Отчеты и трассировка сообщений в EOP
+      url: reporting-and-message-trace-in-exchange-online-protection.md
+    - text: Просмотр журнала аудита администратора в автономной службе EOP
+      url: view-the-admin-audit-log-eop.md
+- title: Реагирование
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Исправление вредоносной электронной почты, доставленной в Office 365
+      url: remediate-malicious-email-delivered-office-365.md
+    - text: Ответ на скомпрометированную учетную запись электронной почты
+      url: responding-to-a-compromised-email-account.md
+    - text: Исправление правил Outlook и пользовательских вбросов форм
+      url: detect-and-remediate-outlook-rules-forms-attack.md
+    - text: Отправка ложных срабатыва-
+      url: admin-submission.md
+- title: Автоматизация
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Как автоматизированные исследования и ответы (AIR) работает в Defender для Office 365
+      url: automated-investigation-response-office.md
+    - text: Начало работы с AIR в Defender для Office 365
+      url: office-365-air.md
+    - text: Адрес учетных записей пользователей с помощью AIR
+      url: address-compromised-users-quickly.md

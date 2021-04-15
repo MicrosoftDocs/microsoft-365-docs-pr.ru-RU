@@ -22,64 +22,78 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 72d368cd92739e191dcb292000b8429a472aa981
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 2d2bf18c6cacb377e710f34b74ec8f83bb77d3b1
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498440"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760072"
 ---
-# <a name="manage-incidents-in-microsoft-365-defender"></a><span data-ttu-id="1bf18-104">Управление инцидентами в Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="1bf18-104">Manage incidents in Microsoft 365 Defender</span></span>
+# <a name="manage-incidents-in-microsoft-365-defender"></a><span data-ttu-id="9513e-104">Управление инцидентами в Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="9513e-104">Manage incidents in Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="1bf18-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="1bf18-105">**Applies to:**</span></span>
-- <span data-ttu-id="1bf18-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="1bf18-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="9513e-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="9513e-105">**Applies to:**</span></span>
+- <span data-ttu-id="9513e-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="9513e-106">Microsoft 365 Defender</span></span>
 
+<span data-ttu-id="9513e-107">Управление инцидентами имеет решающее значение для обеспечения сдерживания и решения угроз.</span><span class="sxs-lookup"><span data-stu-id="9513e-107">Incident management is critical in ensuring that threats are contained and addressed.</span></span>
 
+<span data-ttu-id="9513e-108">Вы управляете инцидентами из & оповещения **> инцидентов** при быстром запуске центра безопасности Microsoft 365 [(security.microsoft.com).](https://security.microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="9513e-108">You manage incidents from **Incidents & alerts > Incidents** on the quick launch of the Microsoft 365 security center ([security.microsoft.com](https://security.microsoft.com)).</span></span> <span data-ttu-id="9513e-109">Ниже приведен пример.</span><span class="sxs-lookup"><span data-stu-id="9513e-109">Here's an example.</span></span>
 
-<span data-ttu-id="1bf18-107">Управление инцидентами крайне важно, чтобы обеспечить локализацию и устранение угроз.</span><span class="sxs-lookup"><span data-stu-id="1bf18-107">Managing incidents is critical in ensuring that threats are contained and addressed.</span></span> <span data-ttu-id="1bf18-108">В Microsoft 365 Defender у вас есть доступ к управлению инцидентами на устройствах, пользователях и почтовых ящиках.</span><span class="sxs-lookup"><span data-stu-id="1bf18-108">In Microsoft 365 Defender, you have access to managing incidents on devices, users, and mailboxes.</span></span> 
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Пример очереди инцидента":::
 
+<span data-ttu-id="9513e-111">Вот способы, которыми можно управлять своими инцидентами:</span><span class="sxs-lookup"><span data-stu-id="9513e-111">Here are the ways you can manage your incidents:</span></span>
 
-<span data-ttu-id="1bf18-109">Для управления инцидентами выберите инцидент в **очереди инцидентов**.</span><span class="sxs-lookup"><span data-stu-id="1bf18-109">You can manage incidents by selecting an incident from the **Incidents queue**.</span></span> 
+- <span data-ttu-id="9513e-112">Изменение имени инцидента</span><span class="sxs-lookup"><span data-stu-id="9513e-112">Change the incident name</span></span>
+- <span data-ttu-id="9513e-113">Добавление тегов инцидентов.</span><span class="sxs-lookup"><span data-stu-id="9513e-113">Add incident tags.</span></span>
+- <span data-ttu-id="9513e-114">Назначение инцидента учетной записи пользователя</span><span class="sxs-lookup"><span data-stu-id="9513e-114">Assign the incident to a user account</span></span>
+- <span data-ttu-id="9513e-115">Их устранение</span><span class="sxs-lookup"><span data-stu-id="9513e-115">Resolve them</span></span> 
+- <span data-ttu-id="9513e-116">Настройка классификации и определения</span><span class="sxs-lookup"><span data-stu-id="9513e-116">Set its classification and determination</span></span>
+- <span data-ttu-id="9513e-117">Добавление комментариев.</span><span class="sxs-lookup"><span data-stu-id="9513e-117">Add comments.</span></span>
 
-<span data-ttu-id="1bf18-110">Здесь можно изменить имя инцидента, устранить его, задать его классификацию и определение.</span><span class="sxs-lookup"><span data-stu-id="1bf18-110">You can edit the name of an incident, resolve it, set its classification and determination.</span></span> <span data-ttu-id="1bf18-111">Вы также можете назначить инцидент себе, добавить теги и примечания.</span><span class="sxs-lookup"><span data-stu-id="1bf18-111">You can also assign the incident to yourself, add incident tags and comments.</span></span>
+<span data-ttu-id="9513e-118">Вы можете управлять инцидентами из области **Управление** инцидентами для инцидента.</span><span class="sxs-lookup"><span data-stu-id="9513e-118">You can manage incidents from the **Manage incident** pane for an incident.</span></span> <span data-ttu-id="9513e-119">Ниже приведен пример.</span><span class="sxs-lookup"><span data-stu-id="9513e-119">Here's an example.</span></span>
 
-<span data-ttu-id="1bf18-112">Если при расследовании инцидента необходимо перенести оповещения из одного сегмента в другой, это также можно сделать на вкладке "Оповещения", создавая крупные или меньшие инциденты, в которых есть все необходимые оповещения.</span><span class="sxs-lookup"><span data-stu-id="1bf18-112">In cases where while investigating you would like to move alerts from one incident to another you can also do so from the Alerts tab, thus creating a larger or smaller incident that include all relevant alerts.</span></span>
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-manage.png" alt-text="Пример области управления инцидентом инцидента":::
 
-## <a name="edit-incident-name"></a><span data-ttu-id="1bf18-113">Изменение имени инцидента</span><span class="sxs-lookup"><span data-stu-id="1bf18-113">Edit incident name</span></span>
-<span data-ttu-id="1bf18-114">Инцидентам автоматически назначено имя на основе атрибутов оповещений, таких как количество затронутых конечных точек, затронутых пользователей, источников обнаружения или категорий.</span><span class="sxs-lookup"><span data-stu-id="1bf18-114">Incidents are automatically assigned a name based on alert attributes such as the number of endpoints affected, users affected, detection sources or categories.</span></span> <span data-ttu-id="1bf18-115">Это позволяет быстро понять масштаб инцидента.</span><span class="sxs-lookup"><span data-stu-id="1bf18-115">This allows you to quickly understand the scope of the incident.</span></span>
+<span data-ttu-id="9513e-121">Эту области можно отобразить в ссылке **Управление инцидентами** по ссылке:</span><span class="sxs-lookup"><span data-stu-id="9513e-121">You can display this pane from the **Manage incident** link on the:</span></span>
 
-<span data-ttu-id="1bf18-116">Например: *многоэтапный инцидент на нескольких конечных точках, сообщаемой несколькими источниками.*</span><span class="sxs-lookup"><span data-stu-id="1bf18-116">For example: *Multi-stage incident on multiple endpoints reported by multiple sources.*</span></span>
+- <span data-ttu-id="9513e-122">Области свойств инцидента в очереди инцидента.</span><span class="sxs-lookup"><span data-stu-id="9513e-122">Properties pane of an incident in the incident queue.</span></span>
+- <span data-ttu-id="9513e-123">**Сводная** страница инцидента.</span><span class="sxs-lookup"><span data-stu-id="9513e-123">**Summary** page of an incident.</span></span>
 
-<span data-ttu-id="1bf18-117">Имя инцидента можно изменить для лучшего соответствия используемому вами соглашению об именовании.</span><span class="sxs-lookup"><span data-stu-id="1bf18-117">You can modify the incident name to better align with your preferred naming convention.</span></span>
+<span data-ttu-id="9513e-124">В тех случаях, когда при расследовании вы хотите переместить оповещения из одного инцидента в другой, вы также можете сделать это со вкладки **Оповещения,** создав таким образом больший или меньший инцидент, который включает все соответствующие оповещения.</span><span class="sxs-lookup"><span data-stu-id="9513e-124">In cases where, while investigating you would like to move alerts from one incident to another, you can also do so from the **Alerts** tab, thus creating a larger or smaller incident that includes all relevant alerts.</span></span>
+
+## <a name="edit-the-incident-name"></a><span data-ttu-id="9513e-125">Изменение имени инцидента</span><span class="sxs-lookup"><span data-stu-id="9513e-125">Edit the incident name</span></span>
+
+<span data-ttu-id="9513e-126">Инцидентам автоматически назначено имя на основе атрибутов оповещений, таких как количество затронутых конечных точек, затронутых пользователей, источников обнаружения или категорий.</span><span class="sxs-lookup"><span data-stu-id="9513e-126">Incidents are automatically assigned a name based on alert attributes such as the number of endpoints affected, users affected, detection sources or categories.</span></span> <span data-ttu-id="9513e-127">Это позволяет быстро понять масштаб инцидента.</span><span class="sxs-lookup"><span data-stu-id="9513e-127">This allows you to quickly understand the scope of the incident.</span></span> <span data-ttu-id="9513e-128">Например: *многоэтапный инцидент на нескольких конечных точках, сообщаемой несколькими источниками.*</span><span class="sxs-lookup"><span data-stu-id="9513e-128">For example: *Multi-stage incident on multiple endpoints reported by multiple sources.*</span></span>
+
+<span data-ttu-id="9513e-129">Имя инцидента можно изменить в поле **Имя** инцидента на области **Управление инцидентами.**</span><span class="sxs-lookup"><span data-stu-id="9513e-129">You can edit the incident name from the **Incident name** field on the **Manage incident** pane.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1bf18-118">Инциденты, существовающие до выкатки функции автоматического именования инцидентов, будут сохранять свое имя.</span><span class="sxs-lookup"><span data-stu-id="1bf18-118">Incidents that existed prior the rollout of the automatic incident naming feature will retain their name.</span></span>
+> <span data-ttu-id="9513e-130">Инциденты, существовающие до выкатки функции автоматического именования инцидентов, будут сохранять свое имя.</span><span class="sxs-lookup"><span data-stu-id="9513e-130">Incidents that existed prior the rollout of the automatic incident naming feature will retain their name.</span></span>
 
+## <a name="add-incident-tags"></a><span data-ttu-id="9513e-131">Добавление тегов инцидента</span><span class="sxs-lookup"><span data-stu-id="9513e-131">Add incident tags</span></span>
 
+<span data-ttu-id="9513e-132">К инциденту можно добавить настраиваемые теги, например для флага группы инцидентов с общей характеристикой.</span><span class="sxs-lookup"><span data-stu-id="9513e-132">You can add custom tags to an incident, for example to flag a group of incidents with a common characteristic.</span></span> <span data-ttu-id="9513e-133">Позже можно отфильтровать очередь инцидентов для всех инцидентов, содержащих определенный тег.</span><span class="sxs-lookup"><span data-stu-id="9513e-133">You can later filter the incident queue for all incidents that contain a specific tag.</span></span>
 
-## <a name="assign-incidents"></a><span data-ttu-id="1bf18-119">Назначение инцидентов</span><span class="sxs-lookup"><span data-stu-id="1bf18-119">Assign incidents</span></span>
-<span data-ttu-id="1bf18-120">Если инцидент еще не назначен, вы можете выбрать **Назначить мне**, чтобы назначить инцидент себе.</span><span class="sxs-lookup"><span data-stu-id="1bf18-120">If an incident has not yet been assigned, you can select **Assign to me** to assign the incident to yourself.</span></span> <span data-ttu-id="1bf18-121">При этом передается не только владение инцидентом, но и все связанные с ним оповещения.</span><span class="sxs-lookup"><span data-stu-id="1bf18-121">Doing so assumes ownership of not just the incident, but also all the alerts associated with it.</span></span>
+<span data-ttu-id="9513e-134">Когда вы начинаете печатать, у вас есть возможность выбрать из списка выбранных тегов.</span><span class="sxs-lookup"><span data-stu-id="9513e-134">When you start typing, you have the option to select from a list of selected tags.</span></span>
 
-## <a name="set-status-and-classification"></a><span data-ttu-id="1bf18-122">Установка статуса и классификации</span><span class="sxs-lookup"><span data-stu-id="1bf18-122">Set status and classification</span></span>
-### <a name="incident-status"></a><span data-ttu-id="1bf18-123">Статус инцидента</span><span class="sxs-lookup"><span data-stu-id="1bf18-123">Incident status</span></span>
-<span data-ttu-id="1bf18-124">Инциденты можно распределять по категориям (например, **Активно** или **Устранено**), изменяя его статус в ходе расследования.</span><span class="sxs-lookup"><span data-stu-id="1bf18-124">You can categorize incidents (as **Active**, or **Resolved**) by changing their status as your investigation progresses.</span></span> <span data-ttu-id="1bf18-125">Это помогает организовать обработку инцидентов вашей группой и управлять ею.</span><span class="sxs-lookup"><span data-stu-id="1bf18-125">This helps you organize and manage how your team can respond to incidents.</span></span>
+## <a name="assign-incidents"></a><span data-ttu-id="9513e-135">Назначение инцидентов</span><span class="sxs-lookup"><span data-stu-id="9513e-135">Assign incidents</span></span>
 
-<span data-ttu-id="1bf18-126">Например, ваш аналитик SOC может просмотреть срочные инциденты со статусом **Активно**, появившиеся за день, и назначить их себе для расследования.</span><span class="sxs-lookup"><span data-stu-id="1bf18-126">For example, your SOC analyst can review the urgent **Active** incidents for the day, and decide to assign them to herself for investigation.</span></span>
+<span data-ttu-id="9513e-136">Если инцидент еще не назначен, можно выбрать **Назначение** и указать учетную запись пользователя.</span><span class="sxs-lookup"><span data-stu-id="9513e-136">If an incident has not yet been assigned, you can select **Assign to** and specify the user account.</span></span> <span data-ttu-id="9513e-137">При этом назначается право собственности на инцидент и все связанные с ним оповещения.</span><span class="sxs-lookup"><span data-stu-id="9513e-137">Doing so assigns ownership of the incident and all the alerts associated with it.</span></span>
 
-<span data-ttu-id="1bf18-127">Или же аналитик SOC может дать инциденту статус **Устранено**, если он был ликвидирован.</span><span class="sxs-lookup"><span data-stu-id="1bf18-127">Alternatively, your SOC analyst might set the incident as **Resolved** if the incident has been remediated.</span></span> <span data-ttu-id="1bf18-128">При устранении инцидента все оповещения, которые относятся к этому инциденту и еще открыты, автоматически закрываются.</span><span class="sxs-lookup"><span data-stu-id="1bf18-128">Resolving an incident will automatically close all alerts that are part of the incident and still open.</span></span> 
+## <a name="resolve-incident"></a><span data-ttu-id="9513e-138">Устранение инцидента</span><span class="sxs-lookup"><span data-stu-id="9513e-138">Resolve incident</span></span>
 
-### <a name="classification-and-determination"></a><span data-ttu-id="1bf18-129">Классификация и определение</span><span class="sxs-lookup"><span data-stu-id="1bf18-129">Classification and determination</span></span>
-<span data-ttu-id="1bf18-130">Можно не задавать классификацию, а также указать, будет ли инцидент истинным или ложным.</span><span class="sxs-lookup"><span data-stu-id="1bf18-130">You can choose not to set a classification, or decide to specify whether an incident is true or false.</span></span> <span data-ttu-id="1bf18-131">Это поможет заметить закономерности в инцидентах и изучить их.</span><span class="sxs-lookup"><span data-stu-id="1bf18-131">Doing so helps the team see patterns and learn from them.</span></span> 
+<span data-ttu-id="9513e-139">Если инцидент был исправлен, выберите  разрешить инцидент, чтобы переместить перегной вправо.</span><span class="sxs-lookup"><span data-stu-id="9513e-139">If the incident has been remediated, select **Resolve incident** to move the toggle to the right.</span></span> <span data-ttu-id="9513e-140">Обратите внимание, что устранение инцидента также устраняет все связанные и активные оповещения, связанные с инцидентом.</span><span class="sxs-lookup"><span data-stu-id="9513e-140">Note that resolving an incident also resolves all the linked and active alerts related to the incident.</span></span>
 
-## <a name="add-comments"></a><span data-ttu-id="1bf18-132">Добавление примечаний</span><span class="sxs-lookup"><span data-stu-id="1bf18-132">Add comments</span></span>
-<span data-ttu-id="1bf18-133">К инциденту можно добавить комментарии, а также просмотреть историю связанных с ним событий, чтобы узнать об изменениях, ранее внесенных в него.</span><span class="sxs-lookup"><span data-stu-id="1bf18-133">You can add comments and view historical events about an incident to see previous changes made to it.</span></span>
+<span data-ttu-id="9513e-141">Инцидент, который не разрешен, отображается как **Active**.</span><span class="sxs-lookup"><span data-stu-id="9513e-141">An incident that is not resolved displays as **Active**.</span></span>
 
-<span data-ttu-id="1bf18-134">Каждое изменение или комментарий к оповещению записывается в раздел комментариев и журнал.</span><span class="sxs-lookup"><span data-stu-id="1bf18-134">Whenever a change or comment is made to an alert, it is recorded in the Comments and history section.</span></span>
+## <a name="set-the-classification-and-determination"></a><span data-ttu-id="9513e-142">Настройка классификации и определения</span><span class="sxs-lookup"><span data-stu-id="9513e-142">Set the classification and determination</span></span>
 
-<span data-ttu-id="1bf18-135">Добавленные комментарии сразу же появляются в соответствующей области.</span><span class="sxs-lookup"><span data-stu-id="1bf18-135">Added comments instantly appear on the pane.</span></span>
+<span data-ttu-id="9513e-143">Классификация инцидентов — это истинное оповещение или ложное оповещение, которое настраивается из поля **Классификация.**</span><span class="sxs-lookup"><span data-stu-id="9513e-143">The incident classification is whether it was a true alert or a false alert, which you configure from the **Classification** field.</span></span> 
 
-## <a name="add-incident-tags"></a><span data-ttu-id="1bf18-136">Добавление тегов инцидента</span><span class="sxs-lookup"><span data-stu-id="1bf18-136">Add incident tags</span></span>
-<span data-ttu-id="1bf18-137">К инциденту можно добавить настраиваемые теги, например для флага группы инцидентов с общей характеристикой.</span><span class="sxs-lookup"><span data-stu-id="1bf18-137">You can add custom tags to an incident, for example to flag a group of incidents with a common characteristic.</span></span> <span data-ttu-id="1bf18-138">Впоследствии из очереди тегов можно будет выделить все инциденты, которые содержат определенный тег.</span><span class="sxs-lookup"><span data-stu-id="1bf18-138">You can later filter the incidents queue for all incidents that contain a specific tag.</span></span>
+<span data-ttu-id="9513e-144">Если это было настоящее оповещение, необходимо также указать тип угрозы с **полем Определения.**</span><span class="sxs-lookup"><span data-stu-id="9513e-144">If it was a true alert, you should also specify what type of threat it was with the **Determination** field.</span></span> <span data-ttu-id="9513e-145">Указание типа угрозы помогает группе безопасности видеть шаблоны угроз и защищать организацию от них.</span><span class="sxs-lookup"><span data-stu-id="9513e-145">Specifying the threat type helps your security team see threat patterns and act to defend your organization from them.</span></span> 
+
+## <a name="add-comments"></a><span data-ttu-id="9513e-146">Добавление примечаний</span><span class="sxs-lookup"><span data-stu-id="9513e-146">Add comments</span></span>
+
+<span data-ttu-id="9513e-147">Вы можете добавить несколько комментариев к инциденту с **полем Комментарий.**</span><span class="sxs-lookup"><span data-stu-id="9513e-147">You can add multiple comments to an incident with the **Comment** field.</span></span> <span data-ttu-id="9513e-148">Каждый комментарий добавляется к историческим событиям инцидента.</span><span class="sxs-lookup"><span data-stu-id="9513e-148">Each comment is added to the historical events of the incident.</span></span> <span data-ttu-id="9513e-149">Комментарии и история инцидента см. в разделе **Комментарии** и история на странице **Сводка.**</span><span class="sxs-lookup"><span data-stu-id="9513e-149">You can see the comments and history of an incident from the **Comments and history** link on the **Summary** page.</span></span>
