@@ -222,6 +222,7 @@
 
 ### [Microsoft Defender для конечной точки в iOS]()
 #### [Обзор Microsoft Defender для конечной точки в iOS](microsoft-defender-endpoint-ios.md)
+#### [Новые возможности](ios-whatsnew.md)
 
 #### [Развертывание]()
 ##### [Развертывание Microsoft Defender для конечной точки в iOS с помощью Intune](ios-install.md)
@@ -631,4 +632,5 @@
 ##### [Переход на правила сокращения направлений атак](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
-# [Defender для Office 365](../office-365-security/overview.md)
+# [Defender для Office 365](../office-365-security/index.yml)
+# [Defender для удостоверений](https://docs.microsoft.com/defender-for-identity/)
