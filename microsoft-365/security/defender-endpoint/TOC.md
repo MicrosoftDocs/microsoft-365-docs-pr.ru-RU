@@ -140,6 +140,7 @@
 
 #### Устранение неполадок антивирусной программы в Microsoft Defender
 ##### [Устранение неполадок с отчетами антивирусной программы в Microsoft Defender в соответствии с требованиями обновлений](troubleshoot-reporting.md)
+##### [Устранение неполадок с производительностью](troubleshoot-performance-issues.md)
 ##### [Просмотр журналов событий и кодов ошибок для устранения неполадок с антивирусной программой в Microsoft Defender](troubleshoot-microsoft-defender-antivirus.md)
 ##### [Устранение неполадок с антивирусной программой в Microsoft Defender при миграции из сторонного решения](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
 
@@ -249,6 +250,7 @@
 ##### [Обнаружение и блокировка потенциально нежелательных приложений](linux-pua.md)
 ##### [Планирование проверок с помощью Microsoft Defender для конечной точки в Linux](linux-schedule-scan-atp.md)
 ##### [Планирование обновления Microsoft Defender для конечной точки для Linux](linux-update-MDE-Linux.md)
+##### [Развертывание Defender для конечной точки в Linux с помощью Chef](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [Устранение неполадок]()
 ##### [Устранение неполадок при установке](linux-support-install.md)
