@@ -1,9 +1,11 @@
 - name: Безопасность Office 365
-  href: overview.md
+  href: index.yml
   expanded: true
   items:
     - name: Обзор
       items:
+        - name: Обзор безопасности Office 365
+          href: overview.md
         - name: Defender для Office 365
           href: defender-for-office-365.md
         - name: Пошаговая защита от угроз в Defender для Office 365
@@ -385,3 +387,5 @@
       href: ../index.yml
     - name: Microsoft Defender для конечной точки
       href: ../defender-endpoint/index.yml
+    - name: Microsoft Defender для удостоверений
+      href: 'https://docs.microsoft.com/defender-for-identity/'

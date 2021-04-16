@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Документация по безопасности Microsoft 365
-summary: Узнайте о надежных решениях и службах безопасности в Microsoft 365 для улучшения защиты вашей организации от разных направлений атак.
+summary: Центр безопасности Microsoft 365 объединяет несколько технологий безопасности в одной консоли администрирования с улучшениями для защиты вашего предприятия.
 metadata:
   title: Документация по безопасности Microsoft 365
   description: Узнайте о Microsoft Defender для конечной точки — о том, как он защищает конечные точки от киберугроз и какие возможности предоставляет оперативным группам безопасности для устранения угроз.
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: c7ec3e0bb970d74d9e33c3d74eb0cd18aaf8d16c
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+  ms.openlocfilehash: a8d2e2c5ec41436bba7f013304daa8f259db9444
+  ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51200357"
+  ms.lasthandoff: 04/15/2021
+  ms.locfileid: "51768558"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:

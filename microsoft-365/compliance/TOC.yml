@@ -301,7 +301,7 @@
               href: how-dlp-works-between-admin-centers.md
             - name: Настройка и просмотр оповещений для политик DLP (предварительная версия)
               href: dlp-configure-view-alerts-policies.md
-            - name: Использование меток конфиденциальности в качестве условия в политиках защиты от потери данных (предварительная версия)
+            - name: Использование меток конфиденциальности в качестве условия в политиках защиты от потери данных
               href: dlp-sensitivity-label-as-condition.md
             - name: Использование политик защиты от потери данных для облачных приложений сторонних поставщиков (не Майкрософт)
               href: dlp-use-policies-non-microsoft-cloud-apps.md
@@ -385,8 +385,12 @@
           items:
             - name: CellTrust
               href: archive-celltrust-data.md
-            - name: Cisco Jabber
+            - name: Cisco Jabber в MS SQL
               href: archive-ciscojabberonmssql-data.md
+            - name: Cisco Jabber в Oracle (предварительная версия)
+              href: archive-ciscojabberonoracle-data.md
+            - name: Cisco Jabber в PostgreSQL (предварительная версия)
+              href: archive-ciscojabberonpostgresql-data.md
             - name: EML
               href: archive-eml-data.md
             - name: FX Connect
