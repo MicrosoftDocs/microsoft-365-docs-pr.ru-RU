@@ -1,6 +1,6 @@
 ---
-title: Поддерживаемые поставщики управляемых служб безопасности
-description: См. список MSSP, с помощью который интегрируется ATP Защитника Майкрософт
+title: Поддерживаемые управляемые поставщики службы безопасности
+description: См. список MSSP, с помощью который интегрируется Microsoft Defender для конечной точки
 keywords: поставщик управляемых служб безопасности, mssp, настройка, интеграция
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 16b238a1d38e1aad70a4286d4ce8ecae1aae9a21
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 71db42f4bd651f4e9d4236e1f4d794aeb99dfa9f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186609"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862155"
 ---
-# <a name="supported-managed-security-service-providers"></a>Поддерживаемые поставщики управляемых служб безопасности
+# <a name="supported-managed-security-service-providers"></a>Поддерживаемые управляемые поставщики службы безопасности
 
 **Область применения:**
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -55,5 +55,5 @@ ms.locfileid: "51186609"
 ![Изображение облачного логотипа SOC Wortell](images/wortell-logo.png)| [Облачный SOC Wortell](https://go.microsoft.com/fwlink/?linkid=2108415) | 24x7 управляемый защитник для конечной точки службы для мониторинга & ответа
 ![Изображение логотипа платформы аналитики Zero Trust (ZTAP)](images/ztap-logo.png)| [Платформа аналитики нулевого доверия (ZTAP)](https://go.microsoft.com/fwlink/?linkid=2090971) | Уменьшение на 99% оповещений и доступ к полному диапазону возможностей безопасности с мобильных устройств
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Настройка интеграции поставщиков управляемых служб безопасности](configure-mssp-support.md)

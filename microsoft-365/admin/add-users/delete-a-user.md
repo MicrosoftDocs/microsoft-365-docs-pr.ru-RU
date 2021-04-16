@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Узнайте, как удалить учетную запись пользователя. Определите, что делать с электронной почтой пользователя и контентом OneDrive. И решите, сохранять ли лицензию на продукт или перестать платить за нее.
-ms.openlocfilehash: 0069577b83c318fa57eaceddccc93b5832e634e0
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: d40f70534499b08073278ffc2bed2b098ae1c4da
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759922"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860741"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Удаление пользователя из организации
   
@@ -155,7 +155,7 @@ ms.locfileid: "51759922"
 
 ## <a name="delete-many-users-at-the-same-time"></a>Удаление одновременно многих пользователей
 
-См. [в см. в рубке "Удалить-MsolUser](https://go.microsoft.com/fwlink/p/?linkid=842230) PowerShell".
+См. [в см. в рубке "Удалить-MsolUser](https://docs.microsoft.com/powershell/module/msonline/remove-msoluser) PowerShell".
 
 ## <a name="fix-issues-with-deleting-a-user"></a>Устранение проблем с удалением пользователя
 

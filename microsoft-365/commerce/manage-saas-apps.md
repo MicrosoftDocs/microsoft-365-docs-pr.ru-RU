@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Узнайте, как активировать и управлять сторонними приложениями в центре администрирования Microsoft 365.
-ms.openlocfilehash: 974ce99b55dcb078286d7f6dba35166e51ce62a7
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 457545282801829ca34de0318dd9eb7791866214
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576917"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860539"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Управление подписками сторонних приложений для организации
 
@@ -31,7 +31,7 @@ ms.locfileid: "51576917"
 
 Существует несколько способов приобретения сторонних приложений.
 
-- **Прямая покупка** — клиенты могут напрямую приобретать подписки в [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)или [AppSource.](https://www.appsource.com/)
+- **Прямая покупка** — клиенты могут напрямую приобретать подписки в [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)или [AppSource.](https://appsource.microsoft.com/)
 - **Покупка партнера** . Работа с партнером через Центр партнеров для покупки подписки.
 - **Предложение Майкрософт** . Отклик на предложение от Microsoft Sales, которое включает сторонние приложения.
 

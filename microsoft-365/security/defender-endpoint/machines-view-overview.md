@@ -1,5 +1,5 @@
 ---
-title: Просмотр и организация списка устройств ATP Защитника Майкрософт
+title: Просмотр и организация списка устройств Microsoft Defender для конечных точек
 description: Узнайте о доступных функций, которые можно использовать из списка Устройств, таких как сортировка, фильтрация и экспорт списка для расширения исследований.
 keywords: сортировка, фильтрация, экспорт, csv, имя устройства, домен, последний увиденный, внутренний IP, состояние здоровья, активные оповещения, активные обнаружения вредоносных программ, категория угроз, оповещения о просмотре, сеть, подключение, вредоносные программы, тип, похититель паролей, вымогатель, эксплойт, угроза, общее вредоносное ПО, нежелательное программное обеспечение
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9068983b5f61305b1f3da4d076e99e71974e8df4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a031a35929f319e87a9ad1a9ca48d6bf95a3ef72
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185675"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861579"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>Просмотр и организация списка конечных устройств Microsoft Defender для конечных точек
 
@@ -111,6 +111,6 @@ ms.locfileid: "51185675"
 
 Фильтрация списка на основе группировки и тегов, добавленных на отдельные устройства. См. [в рубке Создание и управление тегами устройств,](machine-tags.md) [а также создание и управление группами устройств.](machine-groups.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Исследование устройств в списке Устройств конечных точек Microsoft Defender для конечных точек](investigate-machines.md)

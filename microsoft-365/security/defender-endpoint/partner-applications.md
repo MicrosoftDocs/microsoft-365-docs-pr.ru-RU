@@ -1,5 +1,5 @@
 ---
-title: Партнерские приложения в ATP Защитника Майкрософт
+title: Партнерские приложения в Microsoft Defender для конечной точки
 ms.reviewer: ''
 description: Просмотр поддерживаемых приложений-партнеров для повышения возможностей обнаружения, расследования и разведки угроз платформы
 keywords: партнеры, приложения, сторонние подключения, sentinelone, lookout, bitdefender, corrata, morphisec, paloalto, ziften, better mobile
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 563dd2a5102ec66a1e953ae6ab30d56ea4f99036
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 60a2eca25090f60414e91eacfed090bc86a4cf93
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382940"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862215"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>Партнерские приложения в Microsoft Defender для конечной точки 
 

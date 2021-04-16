@@ -1,6 +1,6 @@
 ---
 title: Расписание сканирования с помощью MDATP для macOS
-description: Узнайте, как запланировать автоматическое время сканирования atP Microsoft Defender в macOS, чтобы лучше защитить активы организации.
+description: Узнайте, как запланировать автоматическое время сканирования для Microsoft Defender для конечной точки в macOS, чтобы лучше защитить активы организации.
 keywords: Microsoft, defender, atp, mac, scans, antivirus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ecfae62bdc092a0b2544bf6f6a76dad1e86b8ab4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 71576c777f58aa193f2a73db7edea832d29a97c6
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689603"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860935"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>Расписание сканирования с помощью Microsoft Defender для конечной точки на macOS
 

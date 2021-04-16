@@ -1,7 +1,7 @@
 ---
-title: ATP Защитника Майкрософт на iOS
+title: Microsoft Defender для конечной точки в iOS
 ms.reviewer: ''
-description: Описание установки и использования ATP Microsoft Defender для iOS
+description: Описание установки и использования Microsoft Defender для конечной точки для iOS
 keywords: Microsoft, defender, atp, ios, overview, installation, deploy, uninstallation, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bc28c40443a6cae2815ad97126073df4579c494c
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: a04d939d5c25341f07090ac896cfb80b43ab1a1c
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768786"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861387"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender для конечной точки в iOS
 

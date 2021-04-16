@@ -1,6 +1,6 @@
 ---
-title: Настройка ATP защитника Майкрософт для политик macOS в Jamf Pro
-description: Узнайте, как настроить ATP Защитника Майкрософт для политик macOS в Jamf Pro
+title: Настройка конечной точки Microsoft Defender для политик macOS в Jamf Pro
+description: Узнайте, как настроить конечную точку Microsoft Defender для политик macOS в Jamf Pro
 keywords: политики, microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79f5837ae6bae6e6a9d952d90605f4cf7b31262e
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 1a00d1c0863db7f4f5f853312f202b5e985b1512
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765135"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862275"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Настройка конечной точки Microsoft Defender для политик macOS в Jamf Pro
 
@@ -360,7 +360,7 @@ ms.locfileid: "51765135"
         - **Метод рассылки:** Установка автоматически *(по умолчанию)*
         - **Уровень**: Уровень компьютера *(по умолчанию)*
 
-        ![Изображение параметров профилей конфигурации mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![Изображение нового экрана профиля конфигурации macOS](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
     - Tab **Notifications,** **нажмите кнопку Добавить** и введите следующие значения:
         - **Bundle ID:**`com.microsoft.wdav.tray`

@@ -1,7 +1,7 @@
 ---
 title: Управление угрозами и уязвимостями
 description: Эта новая возможность использует подход к обнаружению, приоритетизации и исправлению уязвимостей конечных точек и неправильной оценки с учетом изменения рисков.
-keywords: управление & уязвимостей, управление угрозами и уязвимостями, MDATP TVM, MDATP-TVM, управление уязвимостями, оценка уязвимостей, сканирование угроз и уязвимостей, оценка безопасной конфигурации, atp защитника Майкрософт, atp защитника Майкрософт, уязвимости конечных точек, следующее поколение
+keywords: управление & уязвимостей, управление угрозами и уязвимостями, MDATP TVM, MDATP-TVM, управление уязвимостями, оценка уязвимостей, сканирование угроз и уязвимостей, оценка безопасной конфигурации, защита microsoft для конечной точки, защита microsoft defender atp, уязвимости конечной точки, следующее поколение
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: 0c3c5ebbcd4483cae159fe9b46a6f4c376443be3
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: e9c575aa8968b8cab2c5d91b9fe0b1cb46b292d3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499067"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860765"
 ---
 # <a name="threat-and-vulnerability-management"></a>Управление угрозами и уязвимостями
 

@@ -1,8 +1,8 @@
 ---
 title: Обзор возможностей обнаружения конечных точек и ответов
 ms.reviewer: ''
-description: Узнайте о возможностях обнаружения конечных точек и ответов в ATP Microsoft Defender
-keywords: ''
+description: Узнайте о возможностях обнаружения конечных точек и ответов в Microsoft Defender для конечной точки
+keywords: защитник Microsoft для конечной точки, обнаружения конечных точек и ответа, ответа, обнаружения, кибербезопасности, защиты
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0a5a665fac1883016ac222197ba8322f78e2558f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 138a6afde9e8c601fd41811928580644b85bf2e2
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186177"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861723"
 ---
 # <a name="overview-of-endpoint-detection-and-response"></a>Обзор обнаружения конечных точек и ответа
 
@@ -46,7 +46,7 @@ ms.locfileid: "51186177"
 Функции реагирования позволяют быстро устранять угрозы, выполняя действия над затронутыми объектами.
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Панель мониторинга операций безопасности](security-operations-dashboard.md)
 - [Очередь инцидентов](view-incidents-queue.md)
 - [Очередь оповещений](alerts-queue.md)

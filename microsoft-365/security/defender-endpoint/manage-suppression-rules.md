@@ -1,6 +1,6 @@
 ---
 title: Управление правилами подавления конечных точек в Microsoft Defender
-description: Возможно, вам потребуется предотвратить появляние оповещений на портале с помощью правил подавления. Узнайте, как управлять правилами подавления в ATP Microsoft Defender.
+description: Возможно, вам потребуется предотвратить появляние оповещений на портале с помощью правил подавления. Узнайте, как управлять правилами подавления в Microsoft Defender для конечной точки.
 keywords: управление подавлением, правилами, именем правила, областью, действием, оповещениями, включите, отключите
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d2ff8fa1f07f82c3cc719f49f50ee25937aea243
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f1549512a02fe3af71d32c6b33c69cc705de99a8
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187569"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862131"
 ---
 # <a name="manage-suppression-rules"></a>Управление правилами подавления
 
@@ -53,6 +53,6 @@ ms.locfileid: "51187569"
 
 2. Щелкните имя правила. Отображаются сведения о правиле. Вы увидите сведения о правилах, таких как состояние, область, действие, количество совпадающих оповещений, созданных по и дате создания правила. Вы также можете просматривать связанные оповещения и условия правил.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Управление оповещениями](manage-alerts.md)

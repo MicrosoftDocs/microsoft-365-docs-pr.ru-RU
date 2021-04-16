@@ -1,5 +1,5 @@
 ---
-title: Включив опыт предварительного просмотра в ATP Защитника Майкрософт
+title: Включив опыт предварительного просмотра в Microsoft Defender для конечной точки
 description: Включив опыт предварительного просмотра в Microsoft Defender для конечной точки, чтобы попробовать предстоящие функции.
 keywords: расширенные функции, параметры, блок-файл
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 00e492ce155fd39532d9fa04ebc09b3029931d1c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 9e8b5a2cf26c3ba99b528695c3296f7a83d5bc22
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186141"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861087"
 ---
 # <a name="turn-on-the-preview-experience-in-microsoft-defender-for-endpoint"></a>Включив опыт предварительного просмотра в Microsoft Defender для конечной точки
 
@@ -43,7 +43,7 @@ ms.locfileid: "51186141"
 
 2. Переключите параметр между **параметром "Включай** и **выключи"** и выберите **параметр Сохранить предпочтения.**
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обновление общих параметров в Microsoft Defender для конечной точки](data-retention-settings.md)
 - [Включив расширенные функции в Microsoft Defender для конечной точки](advanced-features.md)
 - [Настройка уведомлений электронной почты в Microsoft Defender для конечной точки](configure-email-notifications.md)

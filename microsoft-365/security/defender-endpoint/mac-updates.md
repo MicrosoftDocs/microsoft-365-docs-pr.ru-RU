@@ -1,6 +1,6 @@
 ---
-title: Развертывание обновлений для ATP Защитника Майкрософт для Mac
-description: Управление обновлениями для ATP Microsoft Defender для Mac в корпоративных средах.
+title: Развертывание обновлений для Microsoft Defender для конечной точки для Mac
+description: Управление обновлениями для Microsoft Defender для конечной точки для Mac в корпоративных средах.
 keywords: Microsoft, defender, atp, mac, updates, deploy
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3321c1bd181b89c53e2618fc20fa7f733a20cfc1
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9d373594771efe4eb647c007db3a26efe83e330e
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689057"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860319"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Развертывание обновлений для Microsoft Defender для конечной точки на macOS
 
@@ -32,7 +32,7 @@ ms.locfileid: "51689057"
 
 **Область применения:**
 
-- [Microsoft Defender для конечной точки на macOS](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md)
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -78,7 +78,7 @@ MAU включает средство командной строки, назы�
 
 |Section|Значение|
 |:--|:--|
-| **Домен** | com.microsoft.autoupdate2 |
+| **Домен** | `com.microsoft.autoupdate2` |
 | **Key** | ChannelName |
 | **Тип данных** | String |
 | **Возможные значения** | Бета-версия <br/> Предварительная версия <br/> Current |
@@ -96,7 +96,7 @@ MAU включает средство командной строки, назы�
 
 |Section|Значение|
 |:--|:--|
-| **Домен** | com.microsoft.autoupdate2 |
+| **Домен** | `com.microsoft.autoupdate2` |
 | **Key** | UpdateCheckFrequency |
 | **Тип данных** | Целое число |
 | **Значение, используемое по умолчанию** | 720 (минут) |
@@ -109,7 +109,7 @@ MAU включает средство командной строки, назы�
 
 |Section|Значение|
 |:--|:--|
-| **Домен** | com.microsoft.autoupdate2 |
+| **Домен** | `com.microsoft.autoupdate2` |
 | **Key** | HowToCheck |
 | **Тип данных** | String |
 | **Возможные значения** | Вручную <br/> AutomaticCheck <br/> AutomaticDownload |
@@ -122,7 +122,7 @@ MAU включает средство командной строки, назы�
 
 |Section|Значение|
 |:--|:--|
-| **Домен** | com.microsoft.autoupdate2 |
+| **Домен** | `com.microsoft.autoupdate2` |
 | **Key** | EnableCheckForUpdatesButton |
 | **Тип данных** | Логический |
 | **Возможные значения** | True (по умолчанию) <br/> False |
@@ -134,7 +134,7 @@ MAU включает средство командной строки, назы�
 
 |Section|Значение|
 |:--|:--|
-| **Домен** | com.microsoft.autoupdate2 |
+| **Домен** | `com.microsoft.autoupdate2` |
 | **Key** | DisableInsiderCheckbox |
 | **Тип данных** | Логический |
 | **Возможные значения** | False (по умолчанию) <br/> Верно |
@@ -146,7 +146,7 @@ MAU включает средство командной строки, назы�
 
 |Section|Значение|
 |:--|:--|
-| **Домен** | com.microsoft.autoupdate2 |
+| **Домен** | `com.microsoft.autoupdate2` |
 | **Key** | SendAllTelemetryEnabled |
 | **Тип данных** | Логический |
 | **Возможные значения** | True (по умолчанию) <br/> False |

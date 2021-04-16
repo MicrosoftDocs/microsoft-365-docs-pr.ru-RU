@@ -1,5 +1,5 @@
 ---
-title: Onboard devices to the Microsoft Defender ATP service
+title: Onboard devices to the Microsoft Defender for Endpoint service
 description: На борту устройств Windows 10, серверов, устройств без Windows и узнайте, как выполнить тест обнаружения.
 keywords: onboarding, microsoft defender for endpoint onboarding, windows atp onboarding, sccm, group policy, mdm, local script, detection test
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9b7a225e29b4b79b2e6caf95332cb91da3dade7f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4aa3e30f34e7d9dc362cc0bbb277aaee5834b4fe
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186957"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861379"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Onboard devices to the Microsoft Defender for Endpoint service
 
@@ -63,12 +63,12 @@ ms.locfileid: "51186957"
 ## <a name="in-this-section"></a>В этом разделе
 Статья | Описание
 :---|:---
-[На борту предыдущих версий Windows](onboard-downlevel.md)| На борту устройств Windows 7 и Windows 8.1 в Defender для конечной точки. 
-[На борту устройств с Windows 10](configure-endpoints.md) | Чтобы сообщить об этом службе Defender для конечной точки, необходимо иметь бортовые устройства. Узнайте о средствах и методах, которые можно использовать для настройки устройств в вашем предприятии.
+[Подключение предыдущих версий Windows](onboard-downlevel.md)| На борту устройств Windows 7 и Windows 8.1 в Defender для конечной точки. 
+[Подключение устройств Windows 10](configure-endpoints.md) | Чтобы сообщить об этом службе Defender для конечной точки, необходимо иметь бортовые устройства. Узнайте о средствах и методах, которые можно использовать для настройки устройств в вашем предприятии.
 [Серверы на борту](configure-server-endpoints.md) |  На борту Windows Server 2008 R2 sp1, Windows Server 2012 R2, Windows Server 2016, Windows Server (SAC) версии 1803 и более поздней версии Windows Server 2019 и более поздней версии, а также основного выпуска Windows Server 2019 в Defender for Endpoint.
-[Onboard non-Windows devices](configure-endpoints-non-windows.md) | Defender for Endpoint предоставляет централизованные операции безопасности как для Windows, так и для неконтроционных платформ. Вы сможете видеть оповещения из различных поддерживаемых операционных систем (ОС) в Центре безопасности Microsoft Defender и лучше защищать сеть организации. Этот опыт использует данные датчиков сторонних продуктов безопасности. 
-[Запустите тест обнаружения на новом устройстве](run-detection-test.md) | Запустите скрипт на новом устройстве, чтобы убедиться, что он должным образом сообщается службе Defender для конечных точек.
+[Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md) | Defender for Endpoint предоставляет централизованные операции безопасности как для Windows, так и для неконтроционных платформ. Вы сможете видеть оповещения из различных поддерживаемых операционных систем (ОС) в Центре безопасности Microsoft Defender и лучше защищать сеть организации. Этот опыт использует данные датчиков сторонних продуктов безопасности. 
+[Запуск теста обнаружения на новом подключенном устройстве](run-detection-test.md) | Запустите скрипт на новом устройстве, чтобы убедиться, что он должным образом сообщается службе Defender для конечных точек.
 [Настройка параметров прокси и Интернета](configure-proxy-internet.md)| Включить связь с облачной службой Defender для конечной точки путем настройки параметров прокси-сервера и подключения к Интернету.
-[Устранение неполадок с бортовой проблемой](troubleshoot-onboarding.md) | Узнайте об устранении проблем, которые могут возникнуть во время бортовой платы.
+[Устранение неполадок с подключением](troubleshoot-onboarding.md) | Узнайте об устранении проблем, которые могут возникнуть во время бортовой платы.
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)

@@ -1,5 +1,5 @@
 ---
-title: Управление инцидентами ATP защитника Майкрософт
+title: Управление microsoft Defender для инцидентов конечной точки
 description: Управление инцидентами путем назначения, обновления состояния или настройки классификации.
 keywords: инциденты, управление, назначение, состояние, классификация, истинное оповещение, ложное оповещение
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b8b5e806d09f08a12c090a1055f2c165f25b7ea1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: abb538972b48f8790286c0a546eecdd69fc83fb5
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185819"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862143"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>Управление microsoft Defender для инцидентов конечной точки
 
@@ -80,7 +80,7 @@ ms.locfileid: "51185819"
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Очередь инцидентов](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
-- [Просмотр и организация очереди Инциденты](view-incidents-queue.md)
+- [Просмотр и организация очереди инцидентов](view-incidents-queue.md)
 - [Исследование инцидентов](investigate-incidents.md)

@@ -1,7 +1,7 @@
 ---
 title: На борту службы Microsoft Defender для конечных точек
 description: Узнайте, как переназначить конечные точки в службу Microsoft Defender для конечных точек
-keywords: ''
+keywords: защитник Microsoft для конечной точки, на борту, развертывание
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: cc538c887397d5bbea78f63c8a8acd318ec7fe9f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 2a3325a290dc985bdb99a5a843b4b9e1f642a62b
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689537"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861807"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>На борту службы Microsoft Defender для конечных точек
 
@@ -94,7 +94,7 @@ ms.locfileid: "51689537"
 - Конфигурация защиты следующего поколения
 - Конфигурация уменьшения поверхности атаки
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Подключение с помощью Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
 - [Подключение с помощью Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
 - [Безопасные документы в Microsoft 365 E5](../office-365-security/safe-docs.md)

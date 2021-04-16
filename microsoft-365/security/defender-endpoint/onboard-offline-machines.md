@@ -1,7 +1,7 @@
 ---
 title: На борту устройств без доступа к Интернету в Microsoft Defender для конечной точки
 ms.reviewer: ''
-description: Бортовых устройств без доступа к Интернету, чтобы они могли отправлять данные датчиков в датчик ATP Защитника Майкрософт
+description: Бортовые устройства без доступа в Интернет, чтобы они могли отправлять данные датчиков в датчик Microsoft Defender для конечной точки
 keywords: onboard, servers, vm, on-premise, oms gateway, log analytics, azure log analytics, mma
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b31705a4e6dc8cdd480c8b43c2154a2d6ddacddd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: fb5a9a4d35af2d400cdff1e417727e662738514e
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186945"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861351"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>На борту устройств без доступа к Интернету в Microsoft Defender для конечной точки
 
@@ -48,7 +48,7 @@ ms.locfileid: "51186945"
 > - Дополнительные сведения об обновлении CTLs в автономном режиме см. в странице Настройка файла или веб-сервера для загрузки [CTL-файлов.](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265983(v=ws.11)#configure-a-file-or-web-server-to-download-the-ctl-files)
 
 Дополнительные сведения о методах бортового управления см. в следующих статьях:
-- [На борту предыдущих версий Windows](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel)
+- [Подключение предыдущих версий Windows](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel)
 - [Бортовые серверы службы Microsoft Defender для конечных точек](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016)
 - [Настройка параметров прокси-сервера устройства и подключения к Интернету](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#configure-the-proxy-server-manually-using-a-registry-based-static-proxy)
 

@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 95c87330eec3cb557e5fea96148d626b7e0ee4b3
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: a22cab9185b2ece2e8e30c00ea747cca823f4920
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768918"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861159"
 ---
 # <a name="protect-your-network"></a>Защита сети
 
@@ -42,7 +42,7 @@ ms.locfileid: "51768918"
 Дополнительные сведения о том, как включить защиту сети, см. в дополнительных [сведениях о том, как включить защиту сети.](enable-network-protection.md) Используйте групповой политики, PowerShell или MDM CSPs для обеспечения и управления сетевой защитой в сети.
 
 > [!TIP]
-> Узнайте, как работает защита сети, demo.wd.microsoft.com на [сайте тестового поля ATP](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) Защитника Майкрософт.
+> Узнайте, как работает защита сети, на demo.wd.microsoft.com сайте microsoft Defender [for](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) Endpoint.
 
 Защита сети лучше всего работает с [Microsoft Defender для конечной](microsoft-defender-endpoint.md)точки , которая предоставляет подробные отчеты о событиях и блоках защиты от эксплуатации в рамках сценариев расследования [оповещения.](investigate-alerts.md)
 
@@ -54,7 +54,7 @@ ms.locfileid: "51768918"
 
 Защита сети требует защиты Windows 10 Pro или Enterprise и антивируса Microsoft Defender в режиме реального времени.
 
-| Версия Windows | Антивирус Microsoft Defender |
+| Версия Windows | Антивирусная программа в Microsoft Defender |
 |:---|:---|
 | Windows 10 версии 1709 или более поздней версии <p>Windows Server 1803 или более поздней версии | [Антивирус Microsoft Defender в режиме реального времени и](configure-real-time-protection-microsoft-defender-antivirus.md) [облачная](enable-cloud-protection-microsoft-defender-antivirus.md) защита должны быть включены |
 
@@ -82,7 +82,7 @@ DeviceEvents
 
 1. [Скопируйте XML напрямую.](event-views.md)
 
-2. Нажмите кнопку **ОК**.
+2. Нажмите **ОК**.
 
 Эта процедура создает настраиваемую точку зрения, которая фильтрует только следующие события, связанные с защитой сети:
 

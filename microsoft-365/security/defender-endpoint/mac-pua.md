@@ -1,6 +1,6 @@
 ---
-title: Обнаружение и блокировка потенциально нежелательных приложений с помощью ATP Microsoft Defender для Mac
-description: Обнаружение и блокировка потенциально нежелательных приложений (PUA) с помощью ATP Microsoft Defender для Mac.
+title: Обнаружение и блокировка потенциально нежелательных приложений с помощью Microsoft Defender для конечной точки для Mac
+description: Обнаружение и блокировка потенциально нежелательных приложений (PUA) с помощью Microsoft Defender для конечной точки для Mac.
 keywords: Microsoft, defender, atp, mac, pua, pus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf61c6a501a53ac03d3c4cc28068f7af4c0f88d6
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 93462b37c9150f1e38239a0ca70b96ad8d07830f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688109"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862227"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-on-macos"></a>Обнаружение и блокировка потенциально нежелательных приложений с помощью Microsoft Defender для конечной точки на macOS
 
@@ -73,6 +73,6 @@ mdatp threat policy set --type potentially_unwanted_application --action [off|au
 
 В вашем предприятии можно настроить защиту PUA с консоли управления, например JAMF или Intune, аналогично настройке других параметров продукта. Дополнительные сведения см. в разделе [Параметры](mac-preferences.md#threat-type-settings) типа угрозы в разделе Настройка предпочтений для Microsoft Defender для конечной точки в [разделе MacOS.](mac-preferences.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Настройка предпочтений для Microsoft Defender для конечной точки на macOS](mac-preferences.md)

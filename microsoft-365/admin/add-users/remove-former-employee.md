@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Выполните этот контрольный список, чтобы удалить сотрудника из Microsoft 365 и обеспечить безопасность данных. '
-ms.openlocfilehash: d67ac65f4f3e6600b942b4f7d56826da35735b5c
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 50355a20e0d0e8ff782deebd9be65fdabf875bb2
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470873"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860777"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>Удаление или удаление бывшего сотрудника
 
@@ -344,7 +344,7 @@ ms.locfileid: "51470873"
   
 Подробнее об удалении и восстановлении учетной записи пользователя в Active Directory см. в публикации [Delete a User Account.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))
   
-Если вы используете Azure Active Directory, см. в этой ленте подстановка [Remove-MsolUser](https://go.microsoft.com/fwlink/?linkid=842230) PowerShell.
+Если вы используете Azure Active Directory, см. в этой ленте подстановка [Remove-MsolUser](https://docs.microsoft.com/powershell/module/msonline/remove-msoluser) PowerShell.
   
 ## <a name="what-you-need-to-know-about-terminating-an-employees-email-session"></a>Что нужно знать о завершении почтового сеанса сотрудника
 

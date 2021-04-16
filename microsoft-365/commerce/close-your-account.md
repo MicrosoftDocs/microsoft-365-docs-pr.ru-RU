@@ -17,18 +17,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как закрыть учетную запись в Корпорации Майкрософт.
-ms.openlocfilehash: 0ee0a649a9adb93ecdbb1cd9dbedbc04dfb46ba0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 44428654946d31ad249bfd3e7a3609da3e3634a6
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579750"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860551"
 ---
 # <a name="close-your-account"></a>Закрытие учетной записи
 
 Когда вы закрываете свою учетную запись в Microsoft, вся информация, связанная с вашей учетной записью, удаляется. Эта информация включает в себя подписки, лицензии, способы оплаты, пользователей и пользовательские данные.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка к работе
 
 Перед началом этого процесса обязательно сделайте резервную копию любых данных, которые вы хотите сохранить.
 
@@ -42,7 +42,7 @@ ms.locfileid: "51579750"
 
 Чтобы удалить пользователей, см. <a href="/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">в публикации Администратор управления пользователями. Удалите одного или несколько пользователей.</a>
 
-Вы также можете использовать комдлет <a href="https://go.microsoft.com/fwlink/?linkid=842230">Remove-MsolUser</a> PowerShell для удаления пользователей оптом.
+Вы также можете использовать комдлет <a href="https://docs.microsoft.com/powershell/module/msonline/remove-msoluser">Remove-MsolUser</a> PowerShell для удаления пользователей оптом.
 
 Если в организации используется Active Directory, синхронизируются с Microsoft Azure Active Directory (Azure AD), удалите учетную запись пользователя из Active Directory. Инструкции см. в <a href="/azure/active-directory/users-groups-roles/users-bulk-delete">публикации Bulk delete users in Azure Active Directory.</a>
 

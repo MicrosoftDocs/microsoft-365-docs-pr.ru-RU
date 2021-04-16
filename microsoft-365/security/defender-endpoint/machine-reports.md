@@ -1,5 +1,5 @@
 ---
-title: Отчет о состоянии и соблюдении требований к устройству в ATP Защитника Майкрософт
+title: Отчет о состоянии устройств и соответствия требованиям в Microsoft Defender для конечной точки
 description: Отслеживание обнаружения состояния состояния устройства, состояния антивируса, платформы ОС и версий Windows 10 с помощью отчета о состоянии и соответствии требованиям к устройству
 keywords: состояние здоровья, антивирус, платформа ос, версия Windows 10, версия, здоровье, соответствие требованиям, состояние
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5229ba068672035c2dce3afee1919f9c2d7f9e44
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 35100a4b8bdaee23c427816450e948ced9ed3191
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186453"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860295"
 ---
 # <a name="device-health-and-compliance-report-in-microsoft-defender-for-endpoint"></a>Отчет о состоянии устройств и соответствия требованиям в Microsoft Defender для конечной точки
 
@@ -39,7 +39,7 @@ ms.locfileid: "51186453"
 
 Панель мониторинга структурирована в два раздела: ![ Изображение отчета об устройстве](images/device-reports.png)
  
-Раздел | Описание
+Section | Описание
 :---|:---
 1 | Тенденции устройства
 2 | Сводка устройств (текущий день)

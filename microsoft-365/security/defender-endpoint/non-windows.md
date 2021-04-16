@@ -1,6 +1,6 @@
 ---
-title: AtP Защитника Майкрософт для не-платформ Windows
-description: Узнайте о возможностях ATP защитника Майкрософт для не windows-платформ
+title: Microsoft Defender для конечной точки на других платформах
+description: Узнайте о возможностях Microsoft Defender для конечных точек для не windows-платформ
 keywords: без окон, mac, macos, Linux, Android
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7d9dd82d8c1beee77ea1f95b11a12bcddf01115f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: dce9a3d41d8a9d7c260cda8a930867da8c2ae8ac
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688337"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862251"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender для конечной точки на других платформах
 
@@ -41,13 +41,13 @@ ms.locfileid: "51688337"
 
 С помощью Microsoft Defender для конечной точки клиенты получают единое представление всех угроз и оповещений в Центре безопасности Защитника Майкрософт, на платформах Windows и вне Windows, что позволяет им получить полное представление о том, что происходит в их среде, что позволяет им быстрее оценивать угрозы и реагировать на них.
 
-## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender для конечной точки на macOS 
+## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender для конечной точки в macOS 
 
 Microsoft Defender для конечной точки на macOS предлагает возможности обнаружения антивирусных и конечных точек и ответа (EDR) для трех последних выпущенных версий macOS. Клиенты могут развертывать и управлять решением через Microsoft Endpoint Manager и Jamf. Как и Microsoft Office на macOS, microsoft Auto Update используется для управления обновлениями Microsoft Defender для конечной точки на Mac. Сведения о ключевых особенностях и преимуществах ознакомьтесь с нашими [объявлениями.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
 
 Дополнительные сведения о том, как начать работу, посетите конечную точку Defender в документации [macOS.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac)
 
-## <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender для конечной точки на Linux
+## <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender для конечной точки в Linux
 
 Microsoft Defender для конечной точки на Linux предлагает профилактические (AV) возможности для серверов Linux. Это включает полный опыт командной строки для настройки и управления агентом, инициирования сканов и управления угрозами. Мы поддерживаем последние версии шести наиболее распространенных дистрибутивов Linux Server: RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS или более высоких LTS, SLES 12+, Debian 9+, и Oracle Linux 7.2. Microsoft Defender для конечной точки на Linux можно развернуть и настроить с помощью Puppet, Ansible или с помощью существующего средства управления конфигурацией Linux. Сведения о ключевых особенностях и преимуществах ознакомьтесь с нашими [объявлениями.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux)
 
@@ -59,7 +59,7 @@ Microsoft Defender для конечной точки на Android — это н
 
 Дополнительные сведения о том, как начать работу, посетите документацию Microsoft Defender для конечной точки [на](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-android)Android.
 
-## <a name="microsoft-defender-for-endpoint-on-ios"></a>Защитник Microsoft для конечной точки на iOS
+## <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender для конечной точки в iOS
 
 Microsoft Defender для конечной точки на iOS — это наше решение для защиты от мобильных угроз для устройств с iOS 11.0 и выше. Поддерживаются как контролируемые, так и неподконтрольные устройства. На iOS мы предлагаем веб-защиту, которая включает в себя защиту от фишинга, блокировку небезопасных подключений и настройку настраиваемого индикатора. Дополнительные сведения о ключевых особенностях и преимуществах читайте в наших [объявлениях.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/iOS) 
 

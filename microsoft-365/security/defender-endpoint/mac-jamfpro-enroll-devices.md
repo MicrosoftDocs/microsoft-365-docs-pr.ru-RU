@@ -1,6 +1,6 @@
 ---
-title: Регистрация ATP Защитника Майкрософт для macOS-устройств в Jamf Pro
-description: Регистрация ATP Защитника Майкрософт для macOS-устройств в Jamf Pro
+title: Регистрация Microsoft Defender для конечной точки для macOS-устройств в Jamf Pro
+description: Регистрация Microsoft Defender для конечной точки для macOS-устройств в Jamf Pro
 keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea71875dedf7e8706c9022420abd63bc5eb20c69
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: e832493159649cb6721320da53c25f57855baa4f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689729"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861651"
 ---
 # <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>Регистрация Microsoft Defender для конечной точки на устройствах macOS в Jamf Pro 
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender для конечной точки
 description: Microsoft Defender для конечной точки — это платформа безопасности конечной точки предприятия, которая помогает защититься от сложных постоянных угроз.
-keywords: введение в Microsoft Defender для конечной точки, введение в Microsoft Defender Advanced Threat Protection, введение в Microsoft Defender ATP, кибербезопасность, расширенные постоянные угрозы, безопасность предприятия, датчик поведения машины, облачная безопасность, аналитика, разведка угроз, уменьшение поверхности атак, защита от атак следующего поколения, автоматическое расследование и исправление, эксперты microsoft threat, безопасный результат, расширенный уровень охоты, защита от угроз Майкрософт, охота на киберугрозы
+keywords: введение в Microsoft Defender для конечной точки, введение в Microsoft Defender Advanced Threat Protection, введение в Microsoft Defender для конечной точки, кибербезопасность, расширенные постоянные угрозы, корпоративная безопасность, датчик поведения машин, облачная безопасность, аналитика, разведка угроз, уменьшение поверхности атак, защита от атак следующего поколения, автоматическое расследование и исправление, эксперты по угрозам Microsoft, оценка безопасности, расширенный уровень охоты, защита от угроз Майкрософт, охота на киберугрозы
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8c5d02a4d76ae7e031ad9f3af0db282cc4cb45ed
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: adc7d780c1af73d8cb4fe229720ac2ed74f90251
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187319"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861831"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender для конечной точки
 
@@ -89,7 +89,7 @@ Defender for Endpoint использует следующую комбинаци
 
 <a name="ngp"></a>
 
-**[Защита следующего поколения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
+**[Защита нового поколения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
 Чтобы еще больше усилить периметр безопасности сети, Microsoft Defender для конечной точки использует защиту следующего поколения, предназначенную для улавливания всех типов возникающих угроз.
 
 <a name="edr"></a>
@@ -104,13 +104,13 @@ Defender for Endpoint использует следующую комбинаци
 
 <a name="ss"></a>
 
-**[Microsoft Secure Score для устройств](tvm-microsoft-secure-score-devices.md)**<br>
+**[Оценка безопасности (Майкрософт) для устройств](tvm-microsoft-secure-score-devices.md)**<br>
 
 Defender for Endpoint включает microsoft Secure Score for Devices, чтобы помочь вам динамически оценить состояние безопасности корпоративной сети, определить незащищенные системы и принять рекомендуемые действия для повышения общей безопасности организации.
 
 <a name="mte"></a>
 
-**[Microsoft Threat Experts](microsoft-threat-experts.md)**<br>
+**[Эксперты Майкрософт по угрозам](microsoft-threat-experts.md)**<br>
 Новая служба управляемой охоты на угрозы Microsoft Defender для конечной точки обеспечивает активную охоту, приоритеты и дополнительные сведения, которые расширяют возможности центров операций безопасности (SOCs) для быстрого и точного реагирования на угрозы.
 
 >[!IMPORTANT]

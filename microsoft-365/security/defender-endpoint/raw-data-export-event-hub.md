@@ -1,6 +1,6 @@
 ---
 title: Поток событий Microsoft Defender для конечных точек в концентраторы событий Azure
-description: Узнайте, как настроить ATP Защитника Майкрософт для потоковой передачи событий предварительной охоты в центр событий.
+description: Узнайте, как настроить Microsoft Defender для конечной точки для потоковой передачи событий advanced Hunting в центр событий.
 keywords: экспорт необработанных данных, потоковый API, API, концентраторы событий Azure, хранилище Azure, учетная запись хранилища, расширенный доступ к данным, обмен необработанные данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 231ba79e1d66eee263b6c1a4335f0a7b54eeb75d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: df305c9fcc7fb9249f2387567600adb899f8c49a
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071909"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861051"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Настройка Microsoft Defender для конечной точки для потоковой передачи событий предварительной охоты в центры событий Azure
 
@@ -102,7 +102,7 @@ ms.locfileid: "51071909"
 
   ![Изображение Id2 ресурса концентратора событий](images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенных охоты](advanced-hunting-overview.md)
 - [Microsoft Defender для API потоковой передачи конечных точек](raw-data-export.md)
 - [Поток событий Microsoft Defender для событий конечной точки в учетную запись хранилища Azure](raw-data-export-storage.md)

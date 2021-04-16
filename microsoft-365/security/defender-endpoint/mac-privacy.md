@@ -1,6 +1,6 @@
 ---
-title: Конфиденциальность для ATP Защитника Майкрософт для Mac
-description: Управление конфиденциальностью, настройка параметров политики, которые влияют на конфиденциальность и сведения о диагностических данных, собранных в Microsoft Defender ATP для Mac.
+title: Конфиденциальность для Microsoft Defender для конечной точки для Mac
+description: Управление конфиденциальностью, настройка параметров политики, которые влияют на конфиденциальность и сведения о диагностических данных, собранных в Microsoft Defender для конечной точки для Mac.
 keywords: Microsoft, defender, atp, mac, privacy, diagnostic
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bf837dca5f05310045c06178b8fc587f3fc55137
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 26ae83dc8a8b3bb7d686e3674437a12999b5146f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765783"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862239"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>Конфиденциальность для Защитника Майкрософт для конечной точки на macOS
 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender для конечной точки на Linux
+title: Microsoft Defender для конечной точки в Linux
 ms.reviewer: ''
-description: Описывает установку и использование ATP Microsoft Defender для Linux.
+description: Описывает, как установить и использовать Microsoft Defender для конечной точки для Linux.
 keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0fea9d4dd46be2a77ea27728787a43b5273f92f5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f67dd28902e8b45a5401b60c027faa89d7467cd8
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687761"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861399"
 ---
-# <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender для конечной точки на Linux
+# <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender для конечной точки в Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -83,7 +83,7 @@ ms.locfileid: "51687761"
   > Запуск Defender для конечной точки для Linux бок о бок с другими решениями безопасности на основе не `fanotify` поддерживается. Это может привести к непредсказуемым результатам, в том числе к висячим операционной системе.
 
 - Пространство диска: 1 ГБ
-- /opt/microsoft/mdatp/sbin/wdavdaemon требует исполняемого разрешения. Дополнительные сведения см. в рублях "Убедитесь, что у daemon есть исполняемые разрешения" в выпуске проблем с установкой неполадок для [Microsoft Defender ATP для Linux.](/microsoft-365/security/defender-endpoint/linux-support-install)
+- /opt/microsoft/mdatp/sbin/wdavdaemon требует исполняемого разрешения. Дополнительные сведения см. в рублях "Убедитесь, что у daemon есть исполняемые разрешения" в выпуске проблем с установкой неполадок для [Microsoft Defender для конечной](/microsoft-365/security/defender-endpoint/linux-support-install)точки для Linux.
 - Память: 1 ГБ
     > [!NOTE]
     > Убедитесь, что у вас есть свободное пространство диска в /var.

@@ -1,7 +1,7 @@
 ---
-title: Обзор управления и API
+title: Обзор управления и интерфейсов API
 ms.reviewer: ''
-description: Узнайте о средствах управления и категориях API в ATP Защитника Майкрософт
+description: Узнайте о средствах управления и категориях API в Microsoft Defender for Endpoint
 keywords: onboarding, api, siem, rbac, access, portal, integration, investigation, response, entities, entity, user context, application context, streaming
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 94cfe1cc053be896c137e0c0b9ee02ea53dd2717
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 9e54fb5f2105f0a77c4b63e8d880135005c17168
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187557"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862095"
 ---
-# <a name="overview-of-management-and-apis"></a>Обзор управления и API 
+# <a name="overview-of-management-and-apis"></a>Обзор управления и интерфейсов API 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -82,8 +82,8 @@ API потоковой передачи необработанных данны�
 ## <a name="siem-api"></a>SIEM API
 При включении интеграции сведений о безопасности и управлении событиями (SIEM) это позволяет извлекть обнаружения из Центра безопасности Microsoft Defender с помощью решения SIEM или напрямую подключаясь к API REST обнаружения. Это активирует раздел сведений о доступе к соединителем SIEM с предварительно заселяемыми значениями, и приложение создается под клиентом Azure Active Directory (Azure AD). Дополнительные сведения см. в [см. в деле интеграции SIEM.](enable-siem-integration.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Доступ к API конечных точек Microsoft Defender ](apis-intro.md)
 - [Поддерживаемые API](exposed-apis-list.md)
-- [Возможности технического партнера](partner-integration.md)
+- [Возможности для технических партнеров](partner-integration.md)
 

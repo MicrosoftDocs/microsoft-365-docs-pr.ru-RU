@@ -1,5 +1,5 @@
 ---
-title: Создание и управление группами устройств в ATP Защитника Майкрософт
+title: Создание и управление группами устройств в Microsoft Defender для конечной точки
 description: Создайте группы устройств и установите на них уровни автоматического устранения, настроив правила, применимые к группе.
 keywords: группы устройств, группы, исправление, уровень, правила, группа aad, роль, назначение, ранж
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dfc7c04bbde2b7061c92f5a25115b75a2f5b47b5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: acd24e5c87a74bbb32835ec170a121c5c0b6bb33
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074341"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860307"
 ---
-# <a name="create-and-manage-device-groups"></a>Создание и управление группами устройств
+# <a name="create-and-manage-device-groups"></a>Создание групп устройств и управление ими
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -91,8 +91,8 @@ ms.locfileid: "51074341"
 >[!NOTE]
 > Применение изменений в конфигурации группы устройств может занять до нескольких минут.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Управление доступом к порталу с помощью управления доступом на основе ролей](rbac.md)
-- [Создание и управление тегами устройств](machine-tags.md)
+- [Создание тегов устройств и управление ими](machine-tags.md)
 - [Получите список групп устройств клиента с помощью API Graph](https://docs.microsoft.com/graph/api/device-list-memberof)

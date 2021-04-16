@@ -1,6 +1,6 @@
 ---
-title: Настройка предпочтений для ATP Защитника Майкрософт для Mac
-description: Настройка ATP Microsoft Defender для Mac в корпоративных организациях.
+title: Настройка предпочтений для Microsoft Defender для конечной точки для Mac
+description: Настройка Microsoft Defender для конечной точки для Mac в корпоративных организациях.
 keywords: Microsoft, defender, atp, mac, management, preferences, enterprise, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 951c51c767ba09ebc6056481b4fac45da09c5671
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d2bea469031e2c5932e859fbad7d442ebe4d34ed
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688553"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860927"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Настройка предпочтений для Microsoft Defender для конечной точки на macOS
 
@@ -32,7 +32,7 @@ ms.locfileid: "51688553"
 
 **Область применения:**
 
-- [Microsoft Defender для конечной точки на macOS](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md)
 
 >[!IMPORTANT]
 >В этой статье содержатся инструкции по выбору предпочтений для Microsoft Defender для конечной точки на macOS в корпоративных организациях. Чтобы настроить Microsoft Defender для конечной точки на macOS с помощью интерфейса командной строки, см. [в пункте Ресурсы.](mac-resources.md#configuring-from-the-command-line)
@@ -829,7 +829,7 @@ com.microsoft.wdav.plist: OK
 
 5. Откройте профиль конфигурации и загрузите `com.microsoft.wdav.xml` файл. (Этот файл был создан в шаге 3.)
 
-6. Нажмите кнопку **ОК**.
+6. Нажмите **ОК**.
 
 7. Выберите **управление**  >  **назначениями.** На **вкладке Включить** выберите Назначение всем пользователям & **всех устройств.**
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP для Mac — расширения системы (Предварительный просмотр)
-description: В этой статье содержатся инструкции по оценению функций расширения системы ATP Microsoft Defender для Mac. Эта функция в настоящее время находится в публичном предварительном просмотре.
+title: Microsoft Defender для конечной точки для Mac — расширения системы (Предварительная версия)
+description: В этой статье содержатся инструкции по о попытке расширения системы функции Microsoft Defender для конечной точки для Mac. Эта функция в настоящее время находится в публичном предварительном просмотре.
 keywords: Microsoft, defender, atp, mac, kernel, system, extensions, catalina
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 0e89977c10de04d8c3331733cd1432525ac3196d
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 0b593aa0046a28e558523c2f3ebc7da9976f62d3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689069"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860331"
 ---
 # <a name="microsoft-defender-for-endpoint-on-macos---system-extensions-public-preview"></a>Microsoft Defender для конечной точки на macOS — общедоступный предварительный просмотр расширений системы)
 
@@ -62,7 +62,7 @@ ms.locfileid: "51689069"
   defaults write com.microsoft.autoupdate2 ChannelName -string Beta
   ```
 
-  Кроме того, если вы в управляемой среде (JAMF или Intune), вы можете настроить канал обновления удаленно. Дополнительные сведения см. в [ссылке Развертывание обновлений для ATP Microsoft Defender для Mac: Установите имя канала.](mac-updates.md#set-the-channel-name)
+  Кроме того, если вы в управляемой среде (JAMF или Intune), вы можете настроить канал обновления удаленно. Дополнительные сведения см. в [ссылке Развертывание обновлений для Microsoft Defender для конечной точки для Mac: Установите имя канала.](mac-updates.md#set-the-channel-name)
 
 ## <a name="deployment-steps"></a>Действия по развертыванию
 

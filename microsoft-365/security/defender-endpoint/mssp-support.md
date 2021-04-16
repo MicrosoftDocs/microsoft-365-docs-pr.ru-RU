@@ -1,6 +1,6 @@
 ---
 title: Возможности партнерства поставщика управляемых служб безопасности (MSSP)
-description: Понимание интеграции ATP Защитника Майкрософт с управляемыми поставщиками служб безопасности (MSSP)
+description: Понимание интеграции Microsoft Defender для endpoint с управляемыми поставщиками служб безопасности (MSSP)
 keywords: mssp, интеграция, управление, безопасность, служба, поставщик
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a3f357553e259075b3a47d6866faee06c98036a8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 790abaad5506a77b70cb8d772e83289d8dbd791f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186585"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860789"
 ---
 # <a name="managed-security-service-provider-partnership-opportunities"></a>Возможности партнерства поставщиков управляемых служб безопасности
 
@@ -49,7 +49,7 @@ Defender for Endpoint добавляет возможности партнерс
 
 
 ## <a name="related-topic"></a>Связанная тема
-- [Настройка интеграции поставщиков управляемых служб безопасности](configure-mssp-support.md)
+- [Настройка интеграции управляемого поставщика службы безопасности](configure-mssp-support.md)
 
 
 

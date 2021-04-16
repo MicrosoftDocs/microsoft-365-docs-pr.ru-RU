@@ -1,6 +1,6 @@
 ---
-title: Onboard previous versions of Windows on Microsoft Defender ATP
-description: На борту поддерживали предыдущие версии устройств Windows, чтобы они могли отправлять данные датчиков в датчик ATP Защитника Майкрософт
+title: На борту предыдущих версий Windows в Microsoft Defender для конечной точки
+description: На борту поддерживали предыдущие версии устройств Windows, чтобы они могли отправлять данные датчиков в датчик Microsoft Defender для конечной точки.
 keywords: onboard, windows, 7, 81, oms, sp1, enterprise, pro, down level
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b180e7555bb3339324d3b99956d8f8ad73dc13c3
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 945645e0f20f316c094f746adb6ba193f6806f86
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186393"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861363"
 ---
-# <a name="onboard-previous-versions-of-windows"></a>На борту предыдущих версий Windows
+# <a name="onboard-previous-versions-of-windows"></a>Подключение предыдущих версий Windows
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -63,7 +63,7 @@ Defender for Endpoint интегрируется с системой Center Endp
 
 ## <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>Установка и настройка агента мониторинга Microsoft (MMA) для передачи данных датчиков в Microsoft Defender для конечной точки
 
-### <a name="before-you-begin"></a>Прежде чем начать
+### <a name="before-you-begin"></a>Подготовка к работе
 Просмотрите следующие сведения, чтобы проверить минимальные требования к системе:
 - Установка [ежемесячного обновления в феврале 2018 г.](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
   
@@ -102,7 +102,7 @@ Defender for Endpoint интегрируется с системой Center Endp
 
 После завершения работы в течение часа на портале должны быть понастройки конечных точек.
 
-### <a name="configure-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси и подключения к Интернету
+### <a name="configure-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера и соединения с Интернетом
  
 - Каждая конечная точка Windows должна иметь возможность подключения к Интернету с помощью HTTPS. Это подключение может быть прямым, с помощью прокси или через [шлюз OMS.](https://docs.microsoft.com/azure/log-analytics/log-analytics-oms-gateway)
 - Если прокси-сервер или брандмауэр блокируют весь трафик по умолчанию и позволяют просматривать только определенные домены или проверку HTTPS (проверка SSL), убедитесь, что вы включаете доступ к URL-адресам службы [Defender для](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)конечных точек.

@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Узнайте, как обновить Microsoft Office до последнего клиента Office для пользователей в организации.
-ms.openlocfilehash: 14be8d63b2acb3e4838640dc399595c0ba3f97f5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3d2d5e54506d06662c6c2feef0d142f1e195163f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913998"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860575"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Обновление Microsoft 365 для бизнес-пользователей до последнего клиента Office
 
@@ -91,7 +91,7 @@ Office 2010 вышел на конец поддержки 13 октября 2020
 
 **Вариант 2. Покупка отдельных, разовые покупки Office или покупка Office с помощью лицензии на объем**
 
- - Купите индивидуальную, разовую покупку Office. См. [в деле Office Home &amp; Business](https://products.office.com/home-and-business) или [Office Professional](https://products.office.com/professional)
+ - Купите индивидуальную, разовую покупку Office. См. [в деле Office Home &amp; Business](https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products-b) или [Office Professional](https://www.microsoft.com/microsoft-365/p/office-professional-2019/CFQ7TTC0K7C5/)
 
      ИЛИ
 
