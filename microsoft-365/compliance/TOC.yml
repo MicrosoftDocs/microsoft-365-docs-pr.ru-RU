@@ -208,7 +208,7 @@
             - name: Сравнение версий OME
               href: ome-version-comparison.md
             - name: Вопросы и ответы по шифрованию сообщений Office 365
-              href: ome-faq.md
+              href: ome-faq.yml
             - name: Как Exchange Online защищает секреты вашей электронной почты
               href: exchange-online-secures-email-secrets.md
             - name: Использование протокола TLS службой Exchange Online для защиты электронной почты в Office 365
@@ -305,8 +305,10 @@
               href: dlp-sensitivity-label-as-condition.md
             - name: Использование политик защиты от потери данных для облачных приложений сторонних поставщиков (не Майкрософт)
               href: dlp-use-policies-non-microsoft-cloud-apps.md
-            - name: Условия и исключения политики защиты от потери данных (предварительная версия)
+            - name: Условия и исключения политики защиты от потери данных
               href: dlp-conditions-and-exceptions.md
+            - name: Справочник по подсказкам политики защиты от потери данных
+              href: dlp-policy-tips-reference.md
 - name: Организация управления информацией
   items:
     - name: Управление данными

@@ -201,7 +201,7 @@
           href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: Вопросы и ответы о доменах
           href: setup/domains-faq.yml
-        - name: Инструкции для конкретных узлов
+        - name: Инструкции по DNS
           items:
             - name: Изменение серверов имен в любом узле DNS
               href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
