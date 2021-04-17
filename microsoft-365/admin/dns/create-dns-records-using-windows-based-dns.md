@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в DNS для Microsoft на основе Windows.
-ms.openlocfilehash: 9e5e42f847e740571944ea3db205282ec9a7a0e6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fd7c56b6db9fe5f5dbb0637ad5abcb40a64bef8f
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916050"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876353"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Создание записей DNS для Microsoft с помощью DNS на основе Windows
 
@@ -76,14 +76,14 @@ ms.locfileid: "50916050"
     - Имя хозяина: sip
     - Тип: CNAME
     - Адрес: sipdir.online.lync.com
-- Нажмите **OK**.
+- Нажмите **ОК**.
 
 Добавьте запись автообнаружения CNAME для Skype для бизнеса online.  
 - На странице Диспетчер DNS для домена перейдите к **действию** \> **CNAME (CNAME).** В **диалоговом окне Запись** новых ресурсов убедитесь, что поля задают следующие значения:  
     - Имя хозяина: lyncdiscover
     - Тип: CNAME
     - Адрес: webdir.online.lync.com
-- Нажмите **OK**.
+- Нажмите **ОК**.
    
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Добавление двух записей CNAME для управления мобильными устройствами (MDM) для Microsoft
 
@@ -97,7 +97,7 @@ ms.locfileid: "50916050"
 - Имя хозяина: корпоративная регистрация
 - Тип: CNAME
 - Адрес: enterpriseregistration.windows.net
-- Нажмите **OK**. 
+- Нажмите **ОК**. 
 
 Добавьте запись CNAME MDM Enterpriseenrollment. 
 -  На странице Диспетчер DNS для домена перейдите к **действию** \> **CNAME (CNAME).** 
@@ -105,7 +105,7 @@ ms.locfileid: "50916050"
     - Имя хозяина: enterpriseenrollment
     - Тип: CNAME
     - Адрес: enterpriseenrollment-s.manage.microsoft.com
-- Нажмите **OK**.
+- Нажмите **ОК**.
    
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
@@ -125,7 +125,7 @@ ms.locfileid: "50916050"
 -  Тип записи: TXT
 -  Адрес: v=spf1 include:spf.protection.outlook.com -all 
          
--  Нажмите **OK**.
+-  Нажмите **ОК**.
    
 ## <a name="add-srv-records"></a>Добавление SRV-записей
 <a name="BKMK_add_SRV"> </a>
@@ -142,7 +142,7 @@ ms.locfileid: "50916050"
     -  Вес: 1
     -  Порт: 443
     -  Target (Hostname): sipdir.online.lync.com
--  Нажмите **OK**. 
+-  Нажмите **ОК**. 
 
 
 Добавьте запись SRV SIP для федерации Skype для бизнеса online.  
@@ -155,7 +155,7 @@ ms.locfileid: "50916050"
     -  Вес: 1
     -  Порт: 5061
     -  Target (Hostname): sipfed.online.lync.com
--  Нажмите **OK**. 
+-  Нажмите **ОК**. 
    
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Добавление записи для подтверждения владения доменом, если это еще не сделано
 <a name="BKMK_verify"> </a>
@@ -205,3 +205,11 @@ ms.locfileid: "50916050"
   
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
+
+## <a name="related-content"></a>См. также:
+
+[Передача домена из Micrsoft 365 другому хосту](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host) (статья)
+
+[Пилот Microsoft 365 из моего настраиваемого домена](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain) (статья)
+
+[FaQ доменов](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) (статья)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d38d7a54aa860049e1968e5b92c801107bea0514
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 79f8882e21f23e75d85813cde03260ef17adf246
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687965"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876113"
 ---
 #  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender для конечной точки на Android — сведения о конфиденциальности
 
@@ -32,7 +32,9 @@ ms.locfileid: "51687965"
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-Defender for Endpoint для Android собирает сведения с настроенных android-устройств и хранит их в том же клиенте, где у вас есть Defender for Endpoint.
+Defender for Endpoint для Android собирает сведения с настроенных android-устройств и хранит их в том же клиенте, где у вас есть Defender for Endpoint. Сведения собираются, чтобы защитить Defender для конечной точки для iOS в соответствии с ожидаемым сроком выполнения, а также поддерживать службу.
+
+Дополнительные сведения о хранении данных см. в [веб-сайте Microsoft Defender для хранения и конфиденциальности данных конечной точки.](data-storage-privacy.md)
 
 Сведения собираются, чтобы защитить Defender для конечной точки для Android в соответствии с ожидаемым сроком выполнения и поддерживать службу.
 
@@ -42,7 +44,7 @@ Defender for Endpoint для Android собирает сведения с нас
 
 ### <a name="app-information"></a>Сведения о приложении
 
-Сведения о пакетах приложений для Android (APKs) на устройстве, включая
+Сведения о **вредоносных** пакетах приложений для Android (APKs) на устройстве, включая
 
 -  Источник установки
 -  Расположение хранилища (путь файла) apK
@@ -50,7 +52,7 @@ Defender for Endpoint для Android собирает сведения с нас
 
 ### <a name="web-page--network-information"></a>Веб-страница / Сведения о сети
 
-- Полный URL-адрес (в поддерживаемых браузерах) при нажатии
+- Полный URL-адрес веб-сайта только при обнаружении вредоносного подключения или веб-страницы.
 - Сведения о подключении
 - Тип протокола (например, HTTP, HTTPS и т.д.)
 
@@ -73,6 +75,9 @@ Defender for Endpoint для Android собирает сведения с нас
     -   Имя пользователя — ID электронной почты пользователя
 
 ### <a name="product-and-service-usage-data"></a>Данные об использовании продуктов и служб
+
+Следующие сведения собираются только для приложения Microsoft Defender for Endpoint, установленного на устройстве. 
+
 -   Сведения о пакете приложений, включая имя, версию и состояние обновления приложения
 
 -   Действия, выполняемые в приложении
