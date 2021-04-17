@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор оценки производительности (Майкрософт).
-ms.openlocfilehash: d818bd766f76f3df6c67a740d6ad1994a2be66de
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0eac22eadd099ebe4c7efbdf1198f6dc576dc080
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914586"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876135"
 ---
 # <a name="microsoft-productivity-score"></a>Оценка производительности (Майкрософт) 
 
@@ -155,3 +155,11 @@ ms.locfileid: "50914586"
 ## <a name="we-want-to-hear-from-you"></a>Мы ждем ваших отзывов!
 
 Поделитесь своим мнением об оценке производительности и о том, как можно ее улучшить. Используйте раздел **Отзывы и предложения** на странице продукта и (или) свяжитесь с командой по оценке производительности по адресу: prodscorefeedback@microsoft.com.
+
+## <a name="related-content"></a>См. также:
+
+[Отслеживание действий в Microsoft 365 с помощью отчетов](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) (статья)
+
+[Включение аналитики использования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics) (статья)
+
+[Обзор Центра администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) (видео)
