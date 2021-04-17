@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f24f519ec3bb12622d74c1d02fbc0bb017aa2b24
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: d52a0ca4a2dc9b799a32f70962416ffe190e16db
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476413"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876191"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Миграция почтовых ящиков с перекрестным клиентом (предварительный просмотр)
 
@@ -436,6 +436,10 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 
 Да, следует обновить targetAddress (RemoteRoutingAddress/ExternalEmailAddress) локального источника пользователей, когда исходный почтовый ящик клиента перемещается в целевой клиент.  В то время как маршрутия почты может следовать рефералам для нескольких пользователей почты с различными targetAddresses, бесплатные/загруженные запросы для пользователей почты должны быть ориентированы на расположение пользователя почтового ящика. Free/Busy lookups не будет преследовать несколько перенаправлений. 
 
+**Переносят ли собрания Teams меж клиента?**  
+
+Собрания будут перемещаться, однако URL-адрес собрания Teams не обновляется при переносе элементов между клиентом. Так как URL-адрес будет недействительным в целевом клиенте, необходимо удалить и воссоздать собрания Teams.
+
 **Переносит ли содержимое папки чата Teams перекрестный клиент?**  
 
 Нет, содержимое папки чата Teams не переносит перекрестный клиент.  
@@ -542,7 +546,7 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
 
 Миграция почтовых ящиков между клиентами требует, чтобы значение LegacyExchangeDN объекта исходных почтовых ящиков было штампована как адрес электронной почты x500 на целевом объекте MailUser.  
 
-Пример.  
+Пример:  
 ```powershell
 LegacyExchangeDN value on source mailbox is:  
 /o=First Organization/ou=Exchange Administrative Group(FYDIBOHF23SPDLT)/cn=Recipients/cn=d11ec1a2cacd4f81858c81907273f1f9Lara  
