@@ -3,7 +3,7 @@ title: Дополнительные конечные точки не включ�
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/29/2020
+ms.date: 04/19/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: Сводка. В новой веб-службе конечных точек отсутствует небольшое количество конечных точек для определенных сценариев.
 hideEdit: true
-ms.openlocfilehash: e9c9f28749691a8a2585c0865895718ea86d7141
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6c545b6060b44ebe234baaebd3ae1eb2fdb0fb89
+ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927010"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51887213"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Дополнительные конечные точки не включены в веб-службу IP-адресов и URL-адресов Office 365
 
@@ -46,7 +46,7 @@ ms.locfileid: "50927010"
 | Строка | Назначение | Назначение | Тип |
 |:-----|:-----|:-----|:-----|
 | 1  | [Служба импорта](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6) для приема PST- и других файлов | Дополнительные требования см. в статье [Служба импорта](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6). | Редкий сценарий исходящего трафика |
-| 2  | [Помощник по поддержке и восстановлению для Office 365 (Майкрософт)](https://diagnostics.office.com/#/)  | https<span>://</span>autodiscover.outlook.com <BR> <span>https://</span>officecdn.microsoft.com <BR> <span>https://</span>api.diagnostics.office.com <BR> <span>https://</span>apibasic.diagnostics.office.com <BR> <span>https://</span>autodiscover-s.outlook.com <BR> <span>https://</span>cloudcheckenabler.azurewebsites.net <BR> <span>https://</span>dcs-staging.azure-api.net <BR> <span>https://</span>login.live.com <BR> <span>https://</span>login.microsoftonline.com <BR> <span>https://</span>login.windows.net <BR> <span>https://</span>o365diagtelemetry.trafficmanager.net <BR> <span>https://</span>odc.officeapps.live.com <BR> <span>https://</span>offcatedge.azureedge.net <BR> <span>https://</span>officeapps.live.com <BR> <span>https://</span>outlook.office365.com <BR> <span>https://</span>outlookdiagnostics.azureedge.net | Исходящий серверный трафик |
+| 2  | [Помощник по поддержке и восстановлению для Office 365 (Майкрософт)](https://diagnostics.office.com/#/)  | https<span>://</span>autodiscover.outlook.com <BR> <span>https://</span>officecdn.microsoft.com <BR> <span>https://</span>api.diagnostics.office.com <BR> <span>https://</span>apibasic.diagnostics.office.com <BR> <span>https://</span>autodiscover-s.outlook.com <BR> <span>https://</span>cloudcheckenabler.azurewebsites.net <BR> <span>https://</span>login.live.com <BR> <span>https://</span>login.microsoftonline.com <BR> <span>https://</span>login.windows.net <BR> <span>https://</span>o365diagtelemetry.trafficmanager.net <BR> <span>https://</span>odc.officeapps.live.com <BR> <span>https://</span>offcatedge.azureedge.net <BR> <span>https://</span>officeapps.live.com <BR> <span>https://</span>outlook.office365.com <BR> <span>https://</span>outlookdiagnostics.azureedge.net | Исходящий серверный трафик |
 | 3  | Azure AD Connect (с возможностью единого входа) — WinRM и удаленная оболочка PowerShell | Клиентская среда службы маркеров безопасности (сервер AD FS и прокси-сервер AD FS) \| TCP-порты 80 и 443 | Входящий серверный трафик |
 | 4   | Служба маркеров безопасности, например прокси-серверы AD FS (только для федеративных клиентов) | Служба маркеров безопасности клиента (например, прокси-сервер AD FS) \| TCP-порты 443 или 49443 с клиентским TLS | Входящий серверный трафик |
 | 5   | [Интеграция единой службы обмена сообщениями Exchange Online с SBC](/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers) | Двунаправленный обмен между локальным пограничным контроллером сеансов и *. um.outlook.com | Только исходящий серверный трафик |
@@ -57,7 +57,7 @@ ms.locfileid: "50927010"
 | 10   | Служба AutoDetect используется в сценариях [гибридного развертывания Exchange](/exchange/exchange-deployment-assistant) с [гибридной современной проверкой подлинности в Outlook для iOS и Android](/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) <BR> <BR> ```*.acompli.net``` <BR> <BR> ```*.outlookmobile.com``` <BR> <BR> ```*.outlookmobile.us``` <BR> <BR> ```52.125.128.0/20``` <BR> ```52.127.96.0/23``` <BR> | Локальный сервер Exchange клиента на TCP 443 | Входящий серверный трафик |
 | 11  | Гибридная проверка подлинности Azure AD Exchange | *.msappproxy.net | Исходящие серверы TCP только трафик |
 | 12   | Skype для бизнеса в Office 2016 включает демонстрацию экрана с видео, для которой используются порты UDP. Более ранние клиенты Skype для бизнеса в Office 2013 и предшествовавших версий использовали RDP через порт 443 TCP. | Порт 443 TCP открыт для 52.112.0.0/14 | Более ранние версии клиента Skype для бизнеса в Office 2013 и предшествующих версиях |
-| 13   | Возможность подключения гибридного локального сервера Skype для бизнеса к службе Skype для бизнеса Online | 13.107.64.0/18, 52.112.0.0/14  <BR> Порты UDP 50 000–59 999 <BR>  Порты TCP 50 000–59 999; 5061 | Возможность исходящего подключения к локальному серверу Skype для бизнеса |
+| 13  | Возможность подключения гибридного локального сервера Skype для бизнеса к службе Skype для бизнеса Online | 13.107.64.0/18, 52.112.0.0/14  <BR> Порты UDP 50 000–59 999 <BR>  Порты TCP 50 000–59 999; 5061 | Возможность исходящего подключения к локальному серверу Skype для бизнеса |
 | 14   | Облачной ТСОП с возможностью гибридного локального подключения требуется поддержка подключения сети к локальным узлам. Дополнительные сведения о гибридных конфигурациях Skype для бизнеса Online  | См. статью [Планирование гибридного соединения Skype для бизнеса Server и Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). | Гибридное входящее локальное подключение Skype для бизнеса |
 | 15   | **FQDN для проверки подлинности и идентификации** <br> Для функционирования полное доменное имя ```secure.aadcdn.microsoftonline-p.com``` должно находиться в зоне надежных сайтов Internet Explorer (IE) или Microsoft Edge. |  | Надежные сайты |
 | 16   |  **Полные доменные имена Microsoft Teams** <br> Если вы используете Internet Explorer или Microsoft Edge, вам нужно разрешить основные и сторонние файлы cookie, а также добавить полные доменные имена Teams в список надежных сайтов (в дополнение к полным доменным именам для всего набора, CDN и телеметрии, перечисленной в строке 14). Дополнительные сведения см. в статье [Известные проблемы Microsoft Teams](/microsoftteams/known-issues). |  | Надежные сайты |
@@ -74,7 +74,7 @@ ms.locfileid: "50927010"
 
 [Управление конечными точками Office 365](managing-office-365-endpoints.md)
   
-[Проверка подключения Microsoft 365](./monitor-connectivity.md?view=o365-worldwide)
+[Проверка подключения Microsoft 365](./monitor-connectivity.md)
   
 [Подключение клиентских компьютеров](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   
