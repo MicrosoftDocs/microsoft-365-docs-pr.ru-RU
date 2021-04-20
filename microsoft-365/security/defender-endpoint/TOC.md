@@ -175,6 +175,9 @@
 ##### [Включить контролируемый доступ к папкам](enable-controlled-folders.md)
 ##### [Настройка контролируемого доступа к папкам](customize-controlled-folders.md)
 
+#### [Управление устройством]()
+##### [Отчеты управления устройством](device-control-report.md)
+##### [Управление USB-устройствами](control-usb-devices-using-intune.md)
 
 ### [Обнаружение устройств]()
 #### [Обзор обнаружения устройств](device-discovery.md)
