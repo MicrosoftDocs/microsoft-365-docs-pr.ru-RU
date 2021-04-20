@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/06/2020
 ms.technology: mde
-ms.openlocfilehash: a24dc4ef23d32b19de9d2871b7d87aae90d05828
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3a26951a796d72237f992e520e1b793654e467e3
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073734"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893405"
 ---
 # <a name="fix-unhealthy-sensors-in-microsoft-defender-for-endpoint"></a>Исправление нездоровых датчиков в Microsoft Defender для конечной точки
 
@@ -55,7 +55,7 @@ ms.locfileid: "51073734"
 
 Ожидаете ли вы, что устройство будет в состоянии "Active"? [Откройте билет поддержки.](https://support.microsoft.com/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16055&ccsid=636206786382823561)
 
-## <a name="misconfigured-devices"></a>Неправильно сконфигуративные устройства
+## <a name="misconfigured-devices"></a>Неправильно настроенные устройства
 Неправильное устройство можно далее классифицировать так:
 - Нарушение связи
 - Нет данных датчика
@@ -68,7 +68,7 @@ ms.locfileid: "51073734"
 - [Убедитесь, что устройство подключено к Интернету](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
   Датчик ATP защитника окна требует от Microsoft Windows HTTP (WinHTTP) сообщать данные датчиков и общаться с службой Microsoft Defender для конечных точек.
 
-- [Проверка подключения клиента к URL-адресам службы Microsoft Defender для конечных точек](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)</br>
+- [Проверка подключения клиента к URL-адресам службы Microsoft Defender для конечных точек](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Убедитесь, что конфигурация прокси успешно завершена, что WinHTTP может обнаруживаться и общаться через прокси-сервер в вашей среде, и что прокси-сервер позволяет трафик на URL-адреса службы Microsoft Defender для конечной точки.
 
 Если вы приняли меры по исправлению и состояние устройства по-прежнему неправильно сконфигурировали, [откройте билет поддержки.](https://go.microsoft.com/fwlink/?LinkID=761093&clcid=0x409)
@@ -80,7 +80,7 @@ ms.locfileid: "51073734"
 - [Убедитесь, что устройство подключено к Интернету](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
   Датчик ATP защитника окна требует от Microsoft Windows HTTP (WinHTTP) сообщать данные датчиков и общаться с службой Microsoft Defender для конечных точек.
 
-- [Проверка подключения клиента к URL-адресам службы Microsoft Defender для конечных точек](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)</br>
+- [Проверка подключения клиента к URL-адресам службы Microsoft Defender для конечных точек](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Убедитесь, что конфигурация прокси успешно завершена, что WinHTTP может обнаруживаться и общаться через прокси-сервер в вашей среде, и что прокси-сервер позволяет трафик на URL-адреса службы Microsoft Defender для конечной точки.
 
 - [Убедитесь, что служба диагностических данных включена](troubleshoot-onboarding.md#ensure-the-diagnostics-service-is-enabled)</br>

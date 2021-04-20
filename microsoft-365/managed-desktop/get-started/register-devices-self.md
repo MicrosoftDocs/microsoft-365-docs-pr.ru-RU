@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 4de1d173a26005d32fb07117d93ee78582b77d54
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b2976fc643eb433039d9595bc8e9632fd8cb60ea
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689213"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893477"
 ---
 # <a name="register-new-devices-yourself"></a>Самостоятельная регистрация новых устройств
 
@@ -77,7 +77,7 @@ Microsoft Managed Desktop идентифицирует каждое устрой
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
 
-#### <a name="register-devices-by-using-the-admin-portal"></a>Регистрация устройств с помощью портала администрирования
+### <a name="register-devices-by-using-the-admin-portal"></a>Регистрация устройств с помощью портала администрирования
 
 В [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)выберите **Устройства** в левой области навигации. Выберите раздел Microsoft Managed Desktop в меню и выберите **Устройства.** В рабочей области управляемых настольных устройств Майкрософт Выберите **+ Регистрируйте** устройства, которые открывают флайер для регистрации новых устройств.
 
@@ -103,7 +103,7 @@ Microsoft Managed Desktop идентифицирует каждое устрой
 | Регистрация в ожидании | Регистрация еще не завершена. Проверьте позже. |
 | Регистрация не удалась | Регистрация не может быть завершена. Дополнительные [сведения обратитесь к регистрации](#troubleshooting-device-registration) устройств для устранения неполадок. |
 | Готово для пользователя | Регистрация была успешной, и теперь устройство готово к доставке пользователю. Microsoft Managed Desktop будет направлять их по первой настройкам, так что вам не нужно делать какие-либо дополнительные подготовительные работы. |
-| Активна | Устройство доставлено пользователю и зарегистрировано у клиента. Это состояние также указывает, что они регулярно используют устройство. |
+| Активное | Устройство доставлено пользователю и зарегистрировано у клиента. Это состояние также указывает, что они регулярно используют устройство. |
 | Неактивный | Устройство доставлено пользователю и зарегистрировано у клиента. Однако они не использовали устройство в последнее время (за последние 7 дней).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Устранение неполадок при регистрации устройств

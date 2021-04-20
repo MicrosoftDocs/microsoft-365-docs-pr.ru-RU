@@ -1,6 +1,6 @@
 ---
 title: Onboard non-Windows devices to the Microsoft Defender for Endpoint service
-description: Настройте устройства без Windows, чтобы они могли отправлять данные датчиков в службу ATP Microsoft Defender.
+description: Настройте устройства без Windows, чтобы они могли отправлять данные датчиков в службу Microsoft Defender для конечных точек.
 keywords: onboard non-Windows devices, macos, Linux, device management, configure Windows ATP devices, configure Microsoft Defender for Endpoint devices
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71f230f557792d75659dc4dbfc5911811514d5ea
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: c78779cd4a8a329864b6ac7e0debfc30ca0b3a56
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687881"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893593"
 ---
 # <a name="onboard-non-windows-devices"></a>Подключение устройствах, отличных от Windows
 
@@ -48,7 +48,7 @@ Defender for Endpoint предоставляет централизованны�
 Необходимо предпринять следующие действия на бортовых устройствах без Windows:
 1. Выберите предпочтительный метод бортовой работы:
 
-   - Для устройств macOS вы можете выбрать бортовой вариант с помощью ATP Microsoft Defender или через сторонное решение. Дополнительные сведения см. [в веб-сайте Microsoft Defender для конечной точки для Mac.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
+   - Для устройств macOS вы можете выбрать бортовой вариант через Microsoft Defender для конечной точки или через сторонное решение. Дополнительные сведения см. [в веб-сайте Microsoft Defender для конечной точки для Mac.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
    - Для других устройств, не в том что касается Windows, выберите **onboard non-Windows devices через сторонную интеграцию.**   
     1. В области навигации выберите **Партнеров по интероперабельности.**  >   Убедитесь, что в списке находится сторонное решение.
@@ -70,7 +70,7 @@ Defender for Endpoint предоставляет централизованны�
    4. Выберите **кнопку Удалить.**
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Подключение устройств Windows 10](configure-endpoints.md)
 - [Серверы на борту](configure-server-endpoints.md)
 - [Настройка параметров прокси-сервера и соединения с Интернетом](configure-proxy-internet.md)

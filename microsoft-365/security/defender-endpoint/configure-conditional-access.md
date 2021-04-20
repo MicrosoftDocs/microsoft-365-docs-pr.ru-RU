@@ -1,5 +1,5 @@
 ---
-title: Настройка условного доступа в ATP Защитника Майкрософт
+title: Настройка условного доступа в Microsoft Defender для конечной точки
 description: Узнайте о действиях, которые необходимо выполнить в Intune, Microsoft Defender Security Center и Azure для реализации условного доступа
 keywords: условный доступ, условный, доступ, риск устройства, уровень риска, интеграция, интеграция intune
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0185d7875ac149909ef088d041383a1cf36a8a3a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 482f86d4a0a181b72a0a33eeb1a857dce0664584
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165865"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893653"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Настройка условного доступа в Microsoft Defender для конечной точки
 
@@ -35,7 +35,7 @@ ms.locfileid: "51165865"
 
 В этом разделе вы сможете выполнить все необходимые действия для правильной реализации условного доступа.
 
-### <a name="before-you-begin"></a>Перед началом работы
+### <a name="before-you-begin"></a>Подготовка к работе
 >[!WARNING]
 >Важно отметить, что зарегистрированные устройства Azure AD не поддерживаются в этом сценарии.</br>
 >Поддерживаются только зарегистрированные устройства Intune.

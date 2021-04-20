@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: b477f302855cb5d4b00e0502bcfa9aa3aeb6b5c2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3550bec28945ab888efbe2ca46f12ca7f96aab4a
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165577"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892867"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>Подключение устройств Windows 10 с помощью Configuration Manager
 
@@ -85,7 +85,7 @@ ms.locfileid: "51165577"
 
 3. Развертывание пакета, следуя шагам в статье [Packages and Programs System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
 
-    а) Выберите предопределяемую коллекцию устройств для развертывания пакета.
+    а. Выберите предопределяемую коллекцию устройств для развертывания пакета.
 
 > [!NOTE]
 > Защитник для конечной точки не поддерживает вовне на этапе [Out-Of-Box Experience (OOBE).](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) Убедитесь, что пользователи заполняют OOBE после установки Или обновления Windows.
@@ -160,7 +160,7 @@ Value: 0 or 1
 Перед включением сетевой защиты в режиме аудита или блокировки убедитесь, что вы установили обновление платформы антивирусных программ, которое можно получить на странице [поддержки.](https://support.microsoft.com/en-us/help/4560203/windows-defender-anti-malware-platform-binaries-are-missing)
 
 
-**Управляемый доступ к папкам**<br>
+**Контролируемый доступ к папкам**<br>
 Включить функцию в режиме аудита не менее 30 дней. После этого периода просмотрите обнаружения и создайте список приложений, которые могут записываться в защищенные каталоги.
 
 Дополнительные сведения см. в [дополнительных сведениях о доступе к управляемым папкам.](evaluate-controlled-folder-access.md)
@@ -193,7 +193,7 @@ Value: 0 or 1
 
 3. Развертывание пакета, следуя шагам в статье [Packages and Programs System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
 
-    а) Выберите предопределяемую коллекцию устройств для развертывания пакета.
+    а. Выберите предопределяемую коллекцию устройств для развертывания пакета.
 
 > [!IMPORTANT]
 > Отключение приводит к тому, что устройство перестает отправлять данные датчиков на портал, но данные с устройства, включая ссылки на все оповещения, которые у него были, будут храниться до 6 месяцев.
@@ -223,7 +223,7 @@ Value: 0 or 1
 
     ![Диспетчер конфигурации, показывающий успешное развертывание без ошибок](images/sccm-deployment.png)
 
-### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-atp-service"></a>Убедитесь, что устройства соответствуют службе ATP Microsoft Defender
+### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-for-endpoint-service"></a>Убедитесь, что устройства соответствуют службе Microsoft Defender для конечных точек.
 
 Вы можете установить правило соответствия требованиям для элемента конфигурации в System Center 2012 R2 Configuration Manager для мониторинга развертывания.
 
@@ -239,10 +239,10 @@ Value: "1"
 
 Дополнительные сведения см. в введении параметров соответствия требованиям [в System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [На борту устройств Windows 10 с использованием групповой политики](configure-endpoints-gp.md)
 - [Подключение устройств Windows 10 с помощью средств управления мобильными устройствами](configure-endpoints-mdm.md)
 - [Подключение устройств Windows 10 с помощью локального сценария](configure-endpoints-script.md)
 - [Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)](configure-endpoints-vdi.md)
-- [Запустите тест обнаружения на недавно созданном устройстве ATP Microsoft Defender](run-detection-test.md)
+- [Запустите тест обнаружения на недавно созданном устройстве Microsoft Defender для конечных точек](run-detection-test.md)
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](troubleshoot-onboarding.md)

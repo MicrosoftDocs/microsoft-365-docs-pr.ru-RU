@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings часто задают вопросы.
-ms.openlocfilehash: d357ae83d7fe6fdd9f3d0bff724b037e82a3f5d0
-ms.sourcegitcommit: 1df94f04f138ccf1a2356d26174335c44de7052b
+ms.openlocfilehash: 5338d710fa58ff9eba88b068f4fb412cecb83ae1
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999533"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892921"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Часто задамые вопросы о резервированиях Майкрософт
 
@@ -118,7 +118,7 @@ Bookings — это онлайн-служба, поэтому вам не нуж
 
 ### <a name="how-do-i-get-microsoft-bookings"></a>Как получить заказы Microsoft Bookings?
 
-Заказы доступны в Microsoft 365 для клиентов с лицензиями Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 и E5, а также с приложением-компаньоном для iOS и Android. Бронирование не доступно в качестве автономных приложений. Outlook Web App Outlook в Интернете необходимо включить резервирование, так как оно хранит данные в Outlook.
+Бронирование доступно для клиентов с Office 365 A3, A5, E3 и E5, а также Microsoft 365 Business Standard, Microsoft 365 Business Premium, A3, A5, E3 и E5. Вы можете использовать Bookings с приложением-компаньоном для iOS и Android. Бронирование не доступно в качестве автономных приложений. Outlook Web App Outlook в Интернете необходимо включить резервирование, так как оно хранит данные в Outlook.
 
 Лицензия Bookings предоставляет продукту полные функциональные возможности, включая создание и управление календарями. Он также позволяет пользователям просматривать и изменять существующие календари, если эти пользователи добавляются в качестве сотрудников в роли администратора или просмотра.
 

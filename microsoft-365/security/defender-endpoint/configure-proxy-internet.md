@@ -1,6 +1,6 @@
 ---
 title: Настройка параметров прокси-сервера устройства и подключения к Интернету
-description: Настройте прокси-сервер и параметры AtP Защитника Майкрософт, чтобы включить связь с облачной службой.
+description: Настройте прокси-сервер Microsoft Defender для прокси-серверов и параметров Интернета, чтобы включить связь с облачной службой.
 keywords: настройка, прокси,интернет, подключение к Интернету, параметры, параметры прокси, netsh, winhttp, прокси-сервер
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 97d1d50e2557cbb760248738b1f096614873958f
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: ebfff7721bc61012811a66146079ac9758889594
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644708"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893605"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и подключения к Интернету
 
@@ -122,7 +122,7 @@ netsh winhttp reset proxy
 В следующей загружаемой таблице перечислены службы и связанные с ними URL-адреса, к которые должна подключаться ваша сеть. Необходимо убедиться, что нет правил фильтрации брандмауэра или сети, которые бы  отказывали в доступе к этим URL-адресам, или вам может потребоваться создать правило разрешить специально для них.
 
 
-|**Таблица списка доменов**|**Description**|
+|**Таблица списка доменов**|**Описание**|
 |:-----|:-----|
 |![Изображение пальца для таблицы URL-адресов Microsoft Defender для конечных точек](images/mdatp-urls.png)<br/>  | Таблица определенных DNS-записей для расположения служб, географических местоположений и ОС. <br><br>[Скачайте таблицу здесь.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
@@ -178,7 +178,7 @@ netsh winhttp reset proxy
 > [!NOTE]
 > В случае использования в центре безопасности Azure (ASC) может использоваться несколько областей работы. Вам потребуется выполнить процедуру TestCloudConnection.exe на бортовом компьютере из каждого рабочего пространства (чтобы определить, есть ли какие-либо изменения url-адресов *.blob.core.windows.net между рабочей областью).
 
-## <a name="verify-client-connectivity-to-microsoft-defender-atp-service-urls"></a>Проверка подключения клиента к URL-адресам службы ATP Microsoft Defender
+## <a name="verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls"></a>Проверка подключения клиента к URL-адресам службы Microsoft Defender для конечных точек
 
 Убедитесь в том, что настройка прокси-сервера выполнена успешно, служба WinHTTP может обнаружить и передать данные через прокси-сервер в вашей среде, а прокси-сервер разрешает трафик на URL-адреса службы Защитника для конечных точек.
 
@@ -229,7 +229,7 @@ netsh winhttp reset proxy
 > [!NOTE]
 > При наборе TelemetryProxyServer в реестре или через групповую политику защитник для конечной точки отпадет на прямую, если не может получить доступ к определенному прокси-серверу.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Подключение устройств Windows 10](configure-endpoints.md)
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](troubleshoot-onboarding.md)

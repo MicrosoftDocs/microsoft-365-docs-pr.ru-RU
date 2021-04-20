@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender для хранения данных конечных точек и конфиденциальности
 description: Узнайте, как Microsoft Defender для конечной точки обрабатывает конфиденциальность и собираемые данные.
-keywords: Microsoft Defender for Endpoint, Microsoft Defender ATP, хранение данных и конфиденциальность, хранение, конфиденциальность, лицензирование, геолокация, хранение данных, данные
+keywords: Microsoft Defender для конечной точки, Microsoft Defender для конечной точки, хранение данных и конфиденциальность, хранение, конфиденциальность, лицензирование, геолокация, хранение данных, данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e19c64c01c892a8a5f47f5892882feab1242f897
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 2b191c4a24ce170d23fc3d9e43293cc7bbe59e80
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644492"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892822"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Microsoft Defender для хранения данных конечных точек и конфиденциальности
 

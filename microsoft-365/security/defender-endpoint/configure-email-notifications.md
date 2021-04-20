@@ -1,7 +1,7 @@
 ---
 title: Настройка оповещений в Microsoft Defender для конечной точки
 description: Вы можете использовать Microsoft Defender для конечной точки для настройки параметров уведомлений электронной почты для оповещений о безопасности в зависимости от серьезности и других критериев.
-keywords: уведомления электронной почты, настройка уведомлений оповещений, уведомления atp защитника Майкрософт, оповещения atp защитника Майкрософт, windows 10 корпоративный, windows 10 education
+keywords: уведомления электронной почты, настройка оповещений, защитник Майкрософт для конечной точки, защитник Майкрософт для уведомлений конечной точки, защитник Майкрософт для оповещений конечных точек, windows 10 корпоративный, windows 10 образования
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d5a19464b9d5d1b9659d7bfae2d853f7a640a00b
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b629d6a90931026ce28ce241e74d490ce67c6962
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687893"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893638"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Настройка оповещений в Microsoft Defender для конечной точки
 
@@ -101,6 +101,6 @@ ms.locfileid: "51687893"
 2. Убедитесь, что продукт безопасности электронной почты не блокирует уведомления электронной почты из Defender для конечной точки.
 3. Проверьте правила приложения электронной почты, которые могут отлавлить и перемещать уведомления электронной почты Defender для конечной точки.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обновление параметров хранения данных](data-retention-settings.md)
 - [Настройка дополнительных функций](advanced-features.md)

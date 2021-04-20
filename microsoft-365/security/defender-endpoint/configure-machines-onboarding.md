@@ -1,6 +1,6 @@
 ---
-title: Запись устройств в ATP Защитника Майкрософт
-description: Отслеживание встройки устройств, управляемых intune, в АТП Microsoft Defender и увеличение скорости в составе.
+title: Запись устройств в Microsoft Defender для конечной точки
+description: Отслеживайте учет устройств, управляемых intune, в Microsoft Defender для конечной точки и увеличение скорости в составе.
 keywords: управление intune, MDATP, WDATP, Microsoft Defender, Защитник Windows, расширенные средства защиты от угроз, управление конфигурацией
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6145acd5e8e2743ff42dce3cf01af0128e8ca225
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5e20c424f15561c8b6f0544b80aca6e30c56409d
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166093"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893333"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>Запись устройств в Microsoft Defender для конечной точки
 
@@ -73,7 +73,7 @@ Defender for Endpoint предоставляет несколько удобны
 
 >Хотите испытать ATP Защитника Майкрософт? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
-## <a name="related-topics"></a>Статьи по теме
-- [Убедитесь, что устройства настроены правильно](configure-machines.md)
+## <a name="related-topics"></a>Похожие темы
+- [Убедитесь, что ваши устройства настроены правильно](configure-machines.md)
 - [Повышение соответствия базовому стандарту безопасности Defender для конечной точки](configure-machines-security-baseline.md)
-- [Оптимизация развертывания и обнаружения правил ASR](configure-machines-asr.md)
+- [Оптимизация развертывания и обнаружений правил сокращения направлений атак](configure-machines-asr.md)

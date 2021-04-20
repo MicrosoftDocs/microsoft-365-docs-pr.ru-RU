@@ -14,12 +14,12 @@ ms.custom: nextgen
 ms.reviewer: tewchen, pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 131b9970572b1034ba5c9907a001f0497d450339
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 8e179135f12ad6f4ea765eaf975a40534446b51f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765447"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893393"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Совместимость антивируса Microsoft Defender
 
@@ -45,14 +45,14 @@ ms.locfileid: "51765447"
 |------|------|-------|-------|
 | Windows 10  | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Да  | Пассивный режим  |
 | Windows 10  | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Нет   | Автоматически отключенный режим     |
-| Windows 10  | Антивирус Microsoft Defender | Да  | Активный режим | 
-| Windows 10  | Антивирус Microsoft Defender | Нет   | Активный режим |
+| Windows 10  | Антивирусная программа в Microsoft Defender | Да  | Активный режим | 
+| Windows 10  | Антивирусная программа в Microsoft Defender | Нет   | Активный режим |
 | Windows Server, версия 1803 или более новая или Windows Server 2019 | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Да  | Необходимо настроить пассивный режим (вручную) <sup> [[1](#fn1)]<sup>  | 
 | Windows Server, версия 1803 или более новая или Windows Server 2019 | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Нет  | Необходимо отключить (вручную) <sup> [[2](#fn2)]<sup></sup>  |
-| Windows Server, версия 1803 или более новая или Windows Server 2019 | Антивирус Microsoft Defender  | Да |         Активный режим  |
-| Windows Server, версия 1803 или более новая или Windows Server 2019 | Антивирус Microsoft Defender | Нет  | Активный режим |
-| Windows Server 2016 | Антивирус Microsoft Defender | Да | Активный режим |
-| Windows Server 2016 | Антивирус Microsoft Defender | Нет | Активный режим |
+| Windows Server, версия 1803 или более новая или Windows Server 2019 | Антивирусная программа в Microsoft Defender  | Да |         Активный режим  |
+| Windows Server, версия 1803 или более новая или Windows Server 2019 | Антивирусная программа в Microsoft Defender | Нет  | Активный режим |
+| Windows Server 2016 | Антивирусная программа в Microsoft Defender | Да | Активный режим |
+| Windows Server 2016 | Антивирусная программа в Microsoft Defender | Нет | Активный режим |
 | Windows Server 2016 | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Да | Необходимо отключить (вручную) <sup> [[2](#fn2)]<sup> |
 | Windows Server 2016 | Сторонний продукт, который не предлагается или не разрабатывается Корпорацией Майкрософт | Нет | Необходимо отключить (вручную) <sup> [[2](#fn2)]<sup> |
 
@@ -60,7 +60,7 @@ ms.locfileid: "51765447"
 
 Если вы используете Windows Server, версию 1803 или более новую версию или Windows Server 2019, можно настроить антивирус Microsoft Defender в пассивный режим, установив следующий ключ реестра:
 - Путь: `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`
-- Имя: `ForcePassiveMode`
+- Имя: `ForceDefenderPassiveMode`
 - Тип: `REG_DWORD`
 - Значение: `1`
 

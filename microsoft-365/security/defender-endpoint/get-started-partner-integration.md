@@ -1,7 +1,7 @@
 ---
-title: Стать партнером Microsoft Defender для конечной точки
+title: Станьте партнером Microsoft Defender для конечной точки
 ms.reviewer: ''
-description: Узнайте о действиях и требованиях по интеграции решения с ATP Microsoft Defender и стать партнером
+description: Узнайте о действиях и требованиях для интеграции решения с Microsoft Defender для конечной точки и стать партнером
 keywords: партнер, интеграция, проверка решений, сертификация, требования, член, misa, портал приложений
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: ea7ebe1656c0173395df158b8f934ab388bea4ba
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35ba1fe85fa9b62770142636d46303b37534b976
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072221"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893321"
 ---
-# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>Стать партнером Microsoft Defender для конечной точки
+# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>Станьте партнером Microsoft Defender для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -58,7 +58,7 @@ Microsoft Defender for Endpoint поддерживает обнаружение 
 5.  Если вы используете многоканальный подход Azure AD, нам потребуется имя приложения Azure AD для отслеживания использования приложения.
 6. Включай User-Agent поля в каждый вызов API, сделанный в Microsoft Defender для общедоступных API конечных точек или API безопасности Graph. Это будет использоваться для статистических целей, устранения неполадок и распознавания партнеров. Кроме того, этот шаг является требованием для членства в Microsoft Intelligent Security Association (MISA).
 
-    Выполните следующие действия.
+    Выполните приведенные ниже действия.
     
     - Установите поле User-Agent в каждом заглавном заготке http-запроса в нижеформатном формате.
 
@@ -70,5 +70,5 @@ Microsoft Defender for Endpoint поддерживает обнаружение 
 
 Партнерские отношения с Microsoft Defender для конечной точки помогают нашим взаимным клиентам дополнительно упорядочить, интегрировать и организовать защиту. Мы рады, что вы решили стать партнером Microsoft Defender для конечных точек и добиться нашей общей цели эффективной защиты клиентов и их активов путем предотвращения и совместного реагирования на современные угрозы.
 
-## <a name="related-topics"></a>Статьи по теме
-- [Возможности технического партнера](partner-integration.md)
+## <a name="related-topics"></a>Похожие темы
+- [Возможности для технических партнеров](partner-integration.md)

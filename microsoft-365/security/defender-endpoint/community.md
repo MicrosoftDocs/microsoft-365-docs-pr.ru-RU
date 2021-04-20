@@ -1,6 +1,6 @@
 ---
-title: Доступ к Центру сообщества конечных точек Microsoft Defender для конечных точек
-description: Для обмена опытом, вовлечения и получения информации о продукте вы можете получить доступ к центру сообщества ATP Защитника Майкрософт.
+title: Получение доступа к Центру сообщества Microsoft Defender для конечной точки
+description: Для обмена опытом, вовлечения и получения информации о продукте вы можете получить доступ к центру сообщества Microsoft Defender для конечных точек.
 keywords: сообщество, центр сообщества, техническое сообщество, беседа, объявления
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 71dc2a004f188eac34258afb2200cfd4e67f47ab
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ef1076fb5b8bfc38090374671998460190faaba9
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165241"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893429"
 ---
-# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>Доступ к Центру сообщества конечных точек Microsoft Defender для конечных точек
+# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>Получение доступа к Центру сообщества Microsoft Defender для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

@@ -1,7 +1,7 @@
 ---
-title: Повышение соответствия базовому стандарту безопасности ATP Защитника Microsoft Defender
-description: Базовый базовый уровень безопасности ATP Защитника Майкрософт задает элементы управления безопасностью ATP Защитника Майкрософт для обеспечения оптимальной защиты.
-keywords: Управление intune, MDATP, WDATP, Microsoft Defender, advanced threat protection ASR, базовый уровень безопасности
+title: Повышение соответствия базовому стандарту безопасности Microsoft Defender для конечной точки
+description: Базовый уровень безопасности Microsoft Defender для конечной точки задает элементы управления безопасностью, чтобы обеспечить оптимальную защиту.
+keywords: Управление intune, MDATP, WDATP, MDE, Microsoft Defender для endpoint, advanced threat protection ASR, базовый уровень безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 74073441ad7be89e0af278ff1e371133251b5ea7
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 19a2276955b253a23ee1552a3f1d4d0345dfe247
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163403"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893545"
 ---
 # <a name="increase-compliance-to-the-microsoft-defender-for-endpoint-security-baseline"></a>Повышение соответствия базовому стандарту безопасности Microsoft Defender для конечной точки
 
@@ -41,11 +41,11 @@ ms.locfileid: "51163403"
 - [Регистрация устройств в управление Intune](configure-machines.md#enroll-devices-to-intune-management)
 - [Убедитесь, что у вас есть необходимые разрешения](configure-machines.md#obtain-required-permissions)
 
-## <a name="compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines"></a>Сравнение базовых показателей безопасности Microsoft Defender и Windows Intune
+## <a name="compare-the-microsoft-defender-for-endpoint-and-the-windows-intune-security-baselines"></a>Сравните базовые показатели безопасности Microsoft Defender для конечной точки и Windows Intune
 Базовый уровень безопасности Windows Intune предоставляет полный набор рекомендуемых параметров, необходимых для безопасной настройки устройств под управлением Windows, включая параметры браузера, параметры PowerShell, а также параметры некоторых функций безопасности, таких как антивирус Microsoft Defender. В отличие от этого, в базовой версии Defender для конечной точки предусмотрены параметры, оптимизируют все элементы управления безопасностью в стеке Defender для конечной точки, включая параметры обнаружения конечных точек и ответа (EDR), а также параметры, также найденные в базовой версии безопасности Windows Intune. Дополнительные сведения о каждом базовом сценарии см. в.
 
 - [Базовые параметры безопасности Windows для Intune](https://docs.microsoft.com/intune/security-baseline-settings-windows)
-- [Базовые параметры ATP Защитника Майкрософт для Intune](https://docs.microsoft.com/intune/security-baseline-settings-defender-atp)
+- [Базовые параметры Microsoft Defender для конечной точки для Intune](https://docs.microsoft.com/intune/security-baseline-settings-defender-atp)
 
 В идеале устройства, на борту с защитником для конечной точки, развернуты оба базовых плана: базовый уровень безопасности Windows Intune для первоначальной безопасности Windows, а затем базовый уровень безопасности Defender для конечной точки на уровне сверху, чтобы оптимально настроить элементы управления безопасностью Defender для конечной точки. Чтобы воспользоваться последними данными о рисках и угрозах и свести к минимуму конфликты по мере развития базовых показателей, всегда применяйте новейшие версии базовых показателей во всех продуктах, как только они будут выпущены.
 
@@ -106,7 +106,7 @@ ms.locfileid: "51163403"
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
-## <a name="related-topics"></a>Статьи по теме
-- [Убедитесь, что устройства настроены правильно](configure-machines.md)
+## <a name="related-topics"></a>Похожие темы
+- [Убедитесь, что ваши устройства настроены правильно](configure-machines.md)
 - [Запись устройств в Microsoft Defender для конечной точки](configure-machines-onboarding.md)
-- [Оптимизация развертывания и обнаружения правил ASR](configure-machines-asr.md)
+- [Оптимизация развертывания и обнаружений правил сокращения направлений атак](configure-machines-asr.md)

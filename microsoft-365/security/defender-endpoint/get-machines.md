@@ -1,6 +1,6 @@
 ---
 title: API машин списка
-description: Узнайте, как использовать API машин Списка для получения коллекции машин, которые взаимодействовали с облаком ATP Microsoft Defender.
+description: Узнайте, как использовать API машин Списка для получения коллекции машин, которые связывались с облаком Microsoft Defender для конечных точек.
 keywords: apis, graph api, supported apis, get, devices
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 23997cf4997ccfea8ee89a9b9ec5cc991dfa1ed0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 01e36427116ad7bd845901e7da7f5aa152bd44f9
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200381"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893357"
 ---
 # <a name="list-machines-api"></a>API машин списка
 
@@ -50,10 +50,10 @@ ms.locfileid: "51200381"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   Machine.Read.All |  'Read all machine profiles'
-Application |   Machine.ReadWrite.All | 'Read and write all machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
+Для приложений |   Machine.Read.All |  'Read all machine profiles'
+Для приложений |   Machine.ReadWrite.All | 'Read and write all machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -70,7 +70,7 @@ GET https://api.securitycenter.microsoft.com/api/machines
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | Строка | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса
@@ -125,5 +125,5 @@ Content-type: application/json
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Запросы OData в Microsoft Defender для конечной точки](exposed-apis-odata-samples.md)

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ead616b7af3df05f4c0c5755ad779f0251555734
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2382281fbb975daa18ec21aabaf5acf8d3fbfb2f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074582"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893441"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Лаборатория оценки Microsoft Defender для конечной точки
 
@@ -52,7 +52,7 @@ ms.locfileid: "51074582"
  Установите предпочтительный симулятор, запустите сценарии в лаборатории оценки и сразу же посмотрите, как выполняется платформа — все удобно доступно без дополнительных затрат для вас. Вы также будете иметь удобный доступ к широкому спектру имитаций, к которым можно получить доступ и запустить из каталога моделирования.
     
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка к работе
 Чтобы получить доступ к [](minimum-requirements.md#licensing-requirements) лаборатории оценки, необходимо выполнить требования лицензирования или получить пробный доступ к Microsoft Defender для конечной точки.
 
 Необходимо иметь разрешения на управление **настройками** безопасности, чтобы:
@@ -74,10 +74,10 @@ ms.locfileid: "51074582"
 ![Изображение лаборатории оценки в меню](images/evaluation-lab-menu.png)
 
 >[!NOTE]
->- Каждая среда содержит ограниченный набор тестовых устройств.
 >- В зависимости от выбранной структуры среды устройства будут доступны в течение указанного количества часов со дня активации.
->- Когда вы использовали готовые устройства, новые устройства не предоставляются. Удаленное устройство не обновляет доступное количество тестовых устройств.
->- Учитывая ограниченные ресурсы, рекомендуется использовать устройства с осторожностью.
+>- Каждая среда содержит ограниченный набор тестовых устройств. Когда вы использовали готовые устройства, новые устройства не предоставляются. Удаленное устройство не обновляет доступное количество тестовых устройств.
+>- Вы больше не можете использовать лабораторию при использовании ресурсов. Он не сбрасывается и не обновляется.
+>- Рекомендуется тщательно использовать ресурсы. Ресурсы лаборатории ограничены. Они не сброшены и не обновляются. 
 
 Уже есть лаборатория? Убедитесь в том, чтобы включить новые симуляторы угроз и иметь активные устройства.
 
@@ -124,11 +124,11 @@ ms.locfileid: "51074582"
 
 - [Сокращение направлений атак](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
 - [Блок с первого взгляда](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
-- [Управляемый доступ к папкам](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
+- [Контролируемый доступ к папкам](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
 - [Защита от эксплойтов](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
 - [Защита сети](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
 - [Обнаружение потенциально нежелательных приложений](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Защита с облачным доставкой](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
+- [Облачная защита](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
 - [SmartScreen защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
 
 >[!NOTE]
