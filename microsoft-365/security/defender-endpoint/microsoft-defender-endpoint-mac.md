@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 406a0e699ea563670f41355d122aa54ba8667a0e
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 705b1fffbc38282441f66e0dc411cf09699cb3f9
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687749"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903770"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender для конечной точки на Mac
 
@@ -87,6 +87,8 @@ ms.locfileid: "51687749"
 
 Бета-версии macOS не поддерживаются.
 
+устройства macOS с процессорами M1 не поддерживаются.
+
 После включения службы может потребоваться настроить сеть или брандмауэр, чтобы разрешить исходящие подключения между ней и конечными точками.
 
 ### <a name="licensing-requirements"></a>Требования к лицензированию
@@ -107,7 +109,7 @@ Microsoft Defender для конечной точки на Mac требует о
 
 
 
-|**Таблица списка доменов**|**Description**|
+|**Таблица списка доменов**|**Описание**|
 |:-----|:-----|
 |![Изображение пальца для таблицы URL-адресов Microsoft Defender для конечных точек](images/mdatp-urls.png)<br/>  | Таблица определенных DNS-записей для расположения служб, географических местоположений и ОС. <br><br>Скачайте таблицу здесь: [mdatp-urls.xlsx](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx).
 

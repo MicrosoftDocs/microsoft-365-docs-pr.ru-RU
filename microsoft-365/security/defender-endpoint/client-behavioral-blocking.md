@@ -1,7 +1,7 @@
 ---
 title: Блокировка с учетом поведения клиента
 description: Блокировка поведения клиента является частью возможностей поведенческой блокировки и сдерживания в Microsoft Defender for Endpoint
-keywords: поведенческая блокировка, быстрая защита, поведение клиентов, ATP Защитника Майкрософт
+keywords: поведенческая блокировка, быстрая защита, поведение клиентов, ATP Защитника Майкрософт, защитник Майкрософт для конечной точки
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 9fcff96b2583c6ef6bec05429ec50a71f3872e43
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 48929d0e2b0c932d37cb5d29783712d00b17117f
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587111"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904156"
 ---
 # <a name="client-behavioral-blocking"></a>Блокировка с учетом поведения клиента
 
@@ -65,7 +65,7 @@ ms.locfileid: "51587111"
 |Эскалация привилегий   | Поведение:Win32/PrivilegeEscalation.*!ml |
 |Уклонение от защиты    | Поведение:Win32/DefenseEvasion.*!ml |
 |Доступ к учетным данным  | Поведение:Win32/CredentialAccess.*!ml |
-|Обнаружение  | Поведение:Win32/Discovery.*!ml |
+|Discovery  | Поведение:Win32/Discovery.*!ml |
 |Lateral Movement | Поведение:Win32/LateralMovement.*!ml |
 |Collection |   Поведение:Win32/Collection.*!ml |
 |Команда и управление | Поведение:Win32/CommandAndControl.*!ml |

@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 8350db473580fd4d1728c3473742da5b63196c52
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 808eff2074dfe1573708264590b401f3d38db982
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893581"
+ms.locfileid: "51904014"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications"></a>Обнаружение и блокировка потенциально нежелательных приложений
 
@@ -61,7 +61,7 @@ ms.locfileid: "51893581"
 > [!TIP]
 > Если вы работаете в Microsoft Edge (на основе Chromium), вы можете безопасно изучить функцию блокировки URL-адресов защиты от потенциально нежелательных приложений, протестировав ее на одной из наших [демонстрационных страниц фильтра SmartScreen в Microsoft Defender](https://demo.smartscreen.msft.net/).
 
-### <a name="blocking-urls-with-microsoft-defender-smartscreen"></a>Блокировка URL-адресов с помощью фильтра SmartScreen в Microsoft Defender
+### <a name="block-urls-with-microsoft-defender-smartscreen"></a>Блокировка URL-адресов с помощью SmartScreen защитника Майкрософт
 
 В Edge на основе Chromium с включенной защитой от потенциально нежелательных приложений фильтр SmartScreen в Microsoft Defender защищает вас от URL-адресов, связанных с потенциально нежелательными приложениями.
 
@@ -69,9 +69,9 @@ ms.locfileid: "51893581"
 
 Несмотря на то, что Microsoft Defender для конечной точки имеет собственный блоклист на основе набора данных, управляемых Корпорацией Майкрософт, этот список можно настроить на основе собственных сведений об угрозах. При [создании и управлении индикаторами](manage-indicators.md) на портале Microsoft Defender для конечной точки, SmartScreen в Microsoft Defender учитывает новые параметры.
 
-## <a name="microsoft-defender-antivirus"></a>Антивирусная программа в Microsoft Defender
+## <a name="microsoft-defender-antivirus-and-pua-protection"></a>Антивирус Microsoft Defender и защита PUA
 
-Функция защиты от потенциально нежелательных приложений (PUA) в антивирусной программе в Microsoft Defender может обнаруживать и блокировать потенциально нежелательные приложения на конечных точках в вашей сети.
+Функция защиты потенциально нежелательного приложения (PUA) в антивирусе Microsoft Defender может обнаруживать и блокировать PUA в конечных точках сети.
 
 > [!NOTE]
 > Эта функция доступна в Windows 10, Windows Server 2019 и Windows Server 2016.
@@ -80,7 +80,7 @@ ms.locfileid: "51893581"
 
 Уведомление отображается в обычном [списке карантина в приложении "Безопасность Windows"](microsoft-defender-security-center-antivirus.md).
 
-### <a name="configure-pua-protection-in-microsoft-defender-antivirus"></a>Настройка защиты от потенциально нежелательных приложений в антивирусной программе в Microsoft Defender
+## <a name="configure-pua-protection-in-microsoft-defender-antivirus"></a>Настройка защиты от потенциально нежелательных приложений в антивирусной программе в Microsoft Defender
 
 Защиту от потенциально нежелательных приложений можно включить с помощью [Microsoft Intune](/mem/intune/protect/device-protect), [Microsoft Endpoint Configuration Manager](/mem/configmgr/protect/deploy-use/endpoint-protection), [групповой политики](/azure/active-directory-domain-services/manage-group-policy) или с помощью [командлетов PowerShell](/powershell/module/defender/?preserve-view=true&view=win10-ps).
 
@@ -91,11 +91,11 @@ ms.locfileid: "51893581"
 
 Защита от потенциально нежелательных приложений в режиме аудита полезна, если ваша организация проводит внутреннюю проверку соответствия требованиям безопасности программного обеспечения, и вы хотите избежать ложных срабатываний.
 
-#### <a name="use-intune-to-configure-pua-protection"></a>Настройка защиты от потенциально нежелательных приложений с помощью Intune
+### <a name="use-intune-to-configure-pua-protection"></a>Настройка защиты от потенциально нежелательных приложений с помощью Intune
 
 Дополнительные сведения см. в статьях [Настройка параметров ограничения устройств в Microsoft Intune](/intune/device-restrictions-configure) и [Параметры ограничений устройств антивирусной программы в Microsoft Defender для Windows 10 в Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus).
 
-#### <a name="use-configuration-manager-to-configure-pua-protection"></a>Настройка защиты от потенциально нежелательных приложений с помощью Configuration Manager
+### <a name="use-configuration-manager-to-configure-pua-protection"></a>Настройка защиты от потенциально нежелательных приложений с помощью Configuration Manager
 
 Защита от потенциально нежелательных приложений по умолчанию включена в Microsoft Endpoint Manager (Current Branch).
 
@@ -106,7 +106,7 @@ ms.locfileid: "51893581"
 > [!NOTE]
 > События PUA, заблокированные антивирусной программой в Microsoft Defender, отображаются в средстве просмотра событий Windows, а не в Microsoft Endpoint Configuration Manager.
 
-#### <a name="use-group-policy-to-configure-pua-protection"></a>Настройка защиты от потенциально нежелательных приложений с помощью групповой политики
+### <a name="use-group-policy-to-configure-pua-protection"></a>Настройка защиты от потенциально нежелательных приложений с помощью групповой политики
 
 1. Скачивание и установка [административных шаблонов (.ADMX) для обновления Windows 10 за октябрь 2020 г. (20H2)](https://www.microsoft.com/download/details.aspx?id=102157)
 
@@ -126,9 +126,9 @@ ms.locfileid: "51893581"
 
 9. Разверните объект групповой политики, как обычно.
 
-#### <a name="use-powershell-cmdlets-to-configure-pua-protection"></a>Настройка защиты от потенциально нежелательных приложений с помощью командлетов PowerShell
+### <a name="use-powershell-cmdlets-to-configure-pua-protection"></a>Настройка защиты от потенциально нежелательных приложений с помощью командлетов PowerShell
 
-##### <a name="to-enable-pua-protection"></a>Чтобы включить защиту от потенциально нежелательных приложений:
+#### <a name="to-enable-pua-protection"></a>Чтобы включить защиту от потенциально нежелательных приложений:
 
 ```PowerShell
 Set-MpPreference -PUAProtection Enabled
@@ -136,7 +136,7 @@ Set-MpPreference -PUAProtection Enabled
 
 Настройка значения для этого комлета включает `Enabled` функцию, если она отключена.
 
-##### <a name="to-set-pua-protection-to-audit-mode"></a>Чтобы настроить защиту от потенциально нежелательных приложений в режиме аудита:
+#### <a name="to-set-pua-protection-to-audit-mode"></a>Чтобы настроить защиту от потенциально нежелательных приложений в режиме аудита:
 
 ```PowerShell
 Set-MpPreference -PUAProtection AuditMode
@@ -144,7 +144,7 @@ Set-MpPreference -PUAProtection AuditMode
 
 Установите `AuditMode` для обнаружения потенциально нежелательных приложений, не блокируя их.
 
-##### <a name="to-disable-pua-protection"></a>Чтобы отключить защиту от потенциально нежелательных приложений:
+#### <a name="to-disable-pua-protection"></a>Чтобы отключить защиту от потенциально нежелательных приложений:
 
 Рекомендуем не отключать защиту от потенциально нежелательных приложений. Однако её можно отключить с помощью следующего командлета:
 
@@ -154,9 +154,9 @@ Set-MpPreference -PUAProtection Disabled
 
 Настройка значения для этого комлета, чтобы `Disabled` отключить функцию, если она включена.
 
-Дополнительные сведения об использовании PowerShell с антивирусной программой в Microsoft Defender см. в разделах [Использование командлетов PowerShell для настройки и запуска антивирусной программы в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md) и [Командлеты Defender](/powershell/module/defender/index).
+Дополнительные сведения см. в дополнительных сведениях, которые [см.](/powershell/module/defender/index)в см. в рублях [Использование cmdlets PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md) для настройки и запуска антивирусных и защитников Microsoft Defender.
 
-## <a name="view-pua-events"></a>Просмотр событий PUA
+## <a name="view-pua-events-using-powershell"></a>Просмотр событий PUA с помощью PowerShell
 
 О событиях PUA сообщается в средстве просмотра событий Windows, но не в Microsoft Endpoint Manager или в Intune. Вы также можете использовать командлет `Get-MpThreat` для просмотра угроз, обработанных антивирусной программой в Microsoft Defender. Пример:
 
@@ -175,11 +175,15 @@ TypeID           : 0
 PSComputerName   :
 ```
 
+## <a name="get-email-notifications-about-pua-detections"></a>Получать уведомления электронной почты об обнаружении PUA
+
 Вы можете включить уведомления по электронной почте, чтобы получать сообщения об обнаружении потенциально нежелательных приложений.
 
 Дополнительные сведения о просмотре событий Microsoft Defender Antivirus см. в разделе [Устранение неполадок с событиями идентификаторов](troubleshoot-microsoft-defender-antivirus.md). События PUA записываются в соответствии с идентификатором события **1160**.
 
-Если вы используете Microsoft Defender для конечной точки, для просмотра событий PUA можно использовать расширенный запрос на охоту. Вот пример запроса:
+## <a name="view-pua-events-using-advanced-hunting"></a>Просмотр событий PUA с помощью продвинутой охоты
+
+Если вы используете [Microsoft Defender для конечной](microsoft-defender-endpoint.md)точки, для просмотра событий PUA можно использовать расширенный запрос на охоту. Вот пример запроса:
 
 ```console
 DeviceEvents
@@ -190,7 +194,9 @@ DeviceEvents
 | project Timestamp, DeviceName, FolderPath, FileName, SHA256, ThreatName, WasExecutingWhileDetected, WasRemediated
 ```
 
-## <a name="excluding-files"></a>Исключение файлов
+Дополнительные дополнительные новости о продвинутой охоте см. в этой ссылке в активной охоте на [угрозы с помощью продвинутой охоты.](advanced-hunting-overview.md)
+
+## <a name="exclude-files-from-pua-protection"></a>Исключение файлов из защиты PUA
 
 Иногда файл ошибочно блокируется защитой от потенциально нежелательных приложений или для выполнения задачи требуется функция PUA. В таких случаях файл можно добавить в список исключений.
 

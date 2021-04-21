@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4187cc69acba30ae5cbcad093d91ec291b42bca5
-  ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+  ms.openlocfilehash: 1085b54a4b879a316b57cad89e138a73c871370e
+  ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/26/2021
-  ms.locfileid: "51382499"
+  ms.lasthandoff: 04/20/2021
+  ms.locfileid: "51904180"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -26,8 +26,64 @@ landingContent:
     links:
     - text: Что такое Microsoft 365 Defender?
       url: ../defender/microsoft-365-defender.md
-    - text: Центр безопасности Microsoft 365
-      url: ../defender/overview-security-center.md
+  - linkListType: whats-new
+    links:
+    - text: Что нового в iMicrosoft 365 Defender
+      url: ../defender/whats-new.md
+  - linkListType: video
+    links:
+    - text: Обзорное видео
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4Bzww
+- title: Оценка возможностей
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Создание испытательной лаборатории
+      url: m365d-evaluation.md
+    - text: Запуск пилотного проекта в производстве
+      url: m365d-pilot.md
+- title: Начало работы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Начало работы с Microsoft 365 Defender
+      url: get-started.md
+  - linkListType: deploy
+    links:
+    - text: Включение Microsoft 365 Defender
+      url: m365d-enable.md
+    - text: Развертывание поддерживаемых служб
+      url: deploy-supported-services.md
+- title: Microsoft Defender для удостоверений
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Microsoft Defender для удостоверений?
+      url: /azure-advanced-threat-protection/what-is-atp
+    - text: Архитектура Microsoft Defender для удостоверений
+      url: /azure-advanced-threat-protection/atp-architecture
+- title: Microsoft Defender для Office 365
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Defender для Office 365?
+      url: /office-365-security/defender-for-office-365
+    - text: Описание службы Defender для Office 365
+      url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+    - text: Defender for Office 365 в Microsoft 365 Defender
+      url: /defender/microsoft-365-security-center-mdo
+    - text: Перенаправление защитника для Office 365 в Microsoft 365 Defender
+      url: /defender/microsoft-365-security-mdo-redirection
+- title: Microsoft Defender для конечной точки
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Microsoft Defender для конечной точки?
+      url: /defender-endpoint/microsoft-defender-endpoint
+    - text: Защитник для конечной точки в Microsoft 365 Defender
+      url: /defender/microsoft-365-security-cente
+    - text: Перенаправление защитника для конечной точки в Microsoft 365 Defender
+      url: /defender/microsoft-365-security-mde-redirection
 - title: Центр безопасности Microsoft 365
   linkLists:
   - linkListType: overview
@@ -38,13 +94,29 @@ landingContent:
       url: microsoft-365-security-center-mde.md
     - text: Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
       url: ../defender/microsoft-365-security-center-mdo.md
+- title: Microsoft Cloud App Security
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Microsoft Cloud App Security?
+      url: /cloud-app-security/what-is-cloud-app-security
+    - text: Начало работы с Microsoft Cloud App Security
+      url: /cloud-app-security/getting-started-with-cloud-app-security
 - title: Управление инцидентами и оповещениями
   linkLists:
   - linkListType: overview
     links:
     - text: Исследование инцидентов
       url: investigate-incidents.md
+    - text: Отслеживание и реагирование на возникающие угрозы
+      url: threat-analytics.md
     - text: Автоматическое исследование и реагирование
       url: m365d-autoir.md
     - text: Охота на угрозы
       url: advanced-hunting-overview.md
+- title: Справочные материалы
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: API защитника Microsoft 365 (предварительный просмотр)
+      url: api-overview.md

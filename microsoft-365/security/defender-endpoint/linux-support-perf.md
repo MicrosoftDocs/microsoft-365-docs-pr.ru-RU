@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок с производительностью для Microsoft Defender для конечной точки для Linux
-description: Устранение неполадок в конечной точке Microsoft Defender для Linux.
+title: Устранение неполадок с производительностью для Microsoft Defender для конечной точки в Linux
+description: Устранение неполадок в конечной точке Microsoft Defender на Linux.
 keywords: Microsoft, defender, atp, linux, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb43fd383606ab26ba2688ad5704bb7653e82a7f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5aaa95ef8202f3d0957113d8f20a39e4d3840227
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860343"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903990"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Устранение неполадок с производительностью для Microsoft Defender для конечной точки в Linux
 
@@ -145,6 +145,6 @@ ms.locfileid: "51860343"
     >[!NOTE]
     > Приложение хранит статистику в памяти и отслеживает активность файлов только с момента ее начала и включения защиты в режиме реального времени. Процессы, запущенные до или во время отключения защиты в режиме реального времени, не учитываются. Кроме того, учитываются только события, которые вызвали сканирование.
 
-5. Настройка ATP Microsoft Defender для Linux с исключениями для процессов или расположения дисков, которые способствуют повышению производительности и повторной защите в режиме реального времени.
+5. Настройте конечную точку Microsoft Defender на Linux с исключениями для процессов или расположения дисков, которые способствуют повышению производительности и повторной защите в режиме реального времени.
 
-    Дополнительные сведения см. в [выпуске Настройка и проверка исключений для Microsoft Defender ATP для Linux.](linux-exclusions.md)
+    Дополнительные сведения см. в [выпуске Настройка и проверка исключений для Microsoft Defender для конечной точки для Linux.](linux-exclusions.md)

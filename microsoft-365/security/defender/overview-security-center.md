@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: d89e5dc29bfe7f980d40a9a5b139884750a966bc
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 2e1553b231692d184146897ddc05e11930ed1bf0
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760018"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903978"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Обзор единого центра безопасности Microsoft 365
 
@@ -149,6 +149,9 @@ ms.locfileid: "51760018"
 > В верхней части центра обучения Центра безопасности Microsoft 365 есть полезные фильтры, которые будут позволять выбирать между продуктами (в настоящее время Microsoft 365 Defender, Microsoft Defender для конечной точки и Microsoft Defender для Office 365).  Обратите внимание, что перечислены ресурсы обучения для каждого раздела, которые могут помочь обучающимся отслеживать количество имеющихся у них ресурсов для обучения и обучения.
 >
 > Наряду с фильтром продуктов перечислены актуальные темы, типы ресурсов (от видео до веб-сайтов), уровни ознакомления или опыта с областями безопасности, роли безопасности и функции продукта.
+
+> [!TIP]
+> Есть много других возможностей обучения в [Microsoft Learn](https://docs.microsoft.com/e/learn/). Вы найдете обучение сертификации, например [Курс MS-500T02-A: реализация Microsoft 365 Threat Protection.](https://docs.microsoft.com/learn/certifications/courses/ms-500t02)
 
 ## <a name="send-us-your-feedback"></a>Отправьте нам свои отзывы
 

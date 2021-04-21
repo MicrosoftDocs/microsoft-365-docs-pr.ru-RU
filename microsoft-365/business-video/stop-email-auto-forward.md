@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как остановить автопродажа электронных писем.
-ms.openlocfilehash: b6715cfdf8622521d977e0746cb9a340a8f70a5c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f8bd599c7c8bca8d4789188acbcd3574b7473dcb
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578607"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903686"
 ---
 # <a name="stop-email-auto-forward"></a>Остановка автопродажа электронной почты
 
@@ -47,3 +47,7 @@ ms.locfileid: "51578607"
 1. Прокрутите вниз и выберите **Сохранить**.
 
     Ваше правило создано, и хакеры больше не смогут автоматически отправлять сообщения.
+
+## <a name="related-content"></a>См. также:
+
+[Добавьте еще один](https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user) псевдоним электронной почты для пользователя (статья) Настройка переададки электронной почты в [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding) (статья) Поиск и устранение проблем с доставкой электронной почты в [качестве Office 365](https://docs.microsoft.com/exchange/troubleshoot/email-delivery/email-delivery-issues) для администратора бизнеса (статья)

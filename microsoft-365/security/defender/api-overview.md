@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 14553f3891fd81a672b62fa0575f6c253fbb0224
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 496ad5695d9cd491817bad5daf3c76a02addefd1
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51068979"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904192"
 ---
 # <a name="overview-of--microsoft-365-defender-apis"></a>Обзор API Защитника Microsoft 365
 
@@ -47,6 +47,11 @@ Microsoft 365 Defender построен на платформе, готовой 
 - **[Межпродукционная](api-advanced-hunting.md)** охота на угрозы — использование организационных знаний группы безопасности для охоты за признаками компромисса, создав собственные пользовательские запросы для просеки необработанных данных, собранных в нескольких продуктах защиты.
 
 Наряду с этими API, определенными для Microsoft 365 Defender, каждый из наших других продуктов безопасности предоставляет дополнительные [API,](api-articles.md) которые помогут вам воспользоваться их уникальными возможностями.
+
+
+> [!NOTE]
+> Переход на единый портал не должен влиять на панели мониторинга PowerBi на основе API Microsoft Defender для конечных точек. Вы можете продолжать работать с существующими API независимо от интерактивного перехода портала.
+
 
 ## <a name="learn-more"></a>Подробнее
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 482f86d4a0a181b72a0a33eeb1a857dce0664584
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: e68a8c35fb1028fa8e60cf52a8e8bb411a534b19
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893653"
+ms.locfileid: "51903782"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Настройка условного доступа в Microsoft Defender для конечной точки
 
@@ -98,7 +98,7 @@ ms.locfileid: "51893653"
 
 ### <a name="step-4-assign-the-policy"></a>Шаг 4. Назначение политики
 1. На [портале Azure](https://portal.azure.com)выберите **все службы,** фильтруем **на Intune** и выберите **Microsoft Intune.**
-2. Выберите **политики соответствия** требованиям> политики соответствия требованиям Microsoft Defender  >   ATP.
+2. Выберите **политики соответствия** требованиям> microsoft Defender для политики соответствия требованиям  >   конечных точек.
 3. Выберите **Назначения**.
 4. Включите или исключите группы Azure AD, чтобы назначить им политику.
 5. Чтобы развернуть политику в группы, выберите **Сохранить**. Пользовательские устройства, на которые ориентирована политика, оцениваются на соответствие требованиям.
@@ -114,6 +114,6 @@ ms.locfileid: "51893653"
 
 6. Выберите **политику Включить,** а **затем создайте для** сохранения изменений.
 
-Дополнительные сведения см. в [ссылке Включить ATP Защитника Майкрософт с условным доступом в Intune.](https://docs.microsoft.com/intune/advanced-threat-protection)
+Дополнительные сведения см. в [сайте Enforce compliance for Microsoft Defender for Endpoint with Conditional Access intune.](https://docs.microsoft.com/intune/advanced-threat-protection)
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-belowfoldlink)

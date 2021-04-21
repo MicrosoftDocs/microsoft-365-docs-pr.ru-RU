@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как позволить пользователям сбросить собственные пароли в Microsoft 365 Business Premium.
-ms.openlocfilehash: 3ba46529dcbb8d5af7343aafbb9e5a5863b9139f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 62f82f106327c5378310bac0d41fde8462449329
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580430"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903710"
 ---
 # <a name="set-up-self-service-password-reset"></a>Настройка самостоятельного сброса пароля
 
@@ -42,3 +42,7 @@ ms.locfileid: "51580430"
 1. Выберите **Все,** чтобы включить сброс пароля самообслуживки, а затем выберите **Сохранить**.
 
 В следующий раз, когда пользователь войдет в свою учетную запись, он запросит свой пользовательский код и пароль. Они выбирают **Далее,** а затем выбрать, следует ли проверить подлинность с помощью телефона, электронной почты или обоих. Они введите получаемый код, выберите **Проверка** и затем выберите **Finish**. После этого они могут сбросить собственный пароль.
+
+## <a name="related-content"></a>См. также: 
+
+[Установите политику истечения](https://docs.microsoft.com/microsoft-365/admin/manage/set-password-expiration-policy) срока действия пароля для организации (статья) [](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire) Установите пароль отдельного пользователя, который никогда не истекает (статья) Отключите сильные требования к паролям для пользователей (статья) [](https://docs.microsoft.com/microsoft-365/admin/add-users/strong-password)

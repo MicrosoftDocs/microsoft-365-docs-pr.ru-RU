@@ -1,5 +1,5 @@
 ---
-title: Рекомендации по политике предотвращения потери данных
+title: Справочник по подсказкам политики защиты от потери данных
 f1.keywords: CSH
 ms.author: chrfox
 author: chrfox
@@ -18,14 +18,14 @@ ms.collection:
 - SPO_Content
 description: Узнайте, как добавить подсказку политики в политику предотвращения потери данных (DLP), уведомив пользователя о том, что он работает с контентом, который противоречит политике DLP.
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 693f511b6303fb07d393c62efb4a61631b844474
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 36e4d4f96146b51e0b31731c9e93222eed767045
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876826"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903806"
 ---
-# <a name="data-loss-prevention-policy-tips-reference"></a>Рекомендации по политике предотвращения потери данных
+# <a name="data-loss-prevention-policy-tips-reference"></a>Справочник по подсказкам политики защиты от потери данных
 
 Рекомендации по политике DLP в Outlook Web Access поддерживаются для всех условий, исключений и действий, применимых к рабочей нагрузке Exchange в политике DLP, за исключением следующих:
 
@@ -63,7 +63,6 @@ ms.locfileid: "51876826"
 - Добавление отказов в HTML
 - Предварительная тема электронной почты
 - Удаление шифрования сообщений o365 и защиты прав
-- Удалить
 
 ## <a name="outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions"></a>Outlook 2013 и более поздние поддерживает демонстрацию советов по политике только для некоторых условий и исключений
 
@@ -72,11 +71,11 @@ ms.locfileid: "51876826"
 - Содержимое содержит (работает только для типов конфиденциальной информации. Метки конфиденциальности не поддерживаются)
 - Общий доступ к контенту
 
-Обратите внимание, что все условия работают для сообщений электронной почты, которые созданы в клиентских приложениях Outlook, где они будут соответствовать контенту и применять защитные меры к контенту. Однако отображение советов по политике пользователям еще не поддерживается для любых условий, которые используются отдельно от указанных выше.
+Обратите внимание, что все условия работают для сообщений электронной почты, которые созданы в клиентских приложениях Outlook, где они будут соответствовать контенту и применять защитные меры к контенту. Однако отображение советов по политике пользователям не поддерживается для любых условий, которые используются отдельно от указанных выше.
 
-## <a name="outlook-2013-and-later-supports-showing-policy-tips-for-only-some-sensitive-information-types"></a>Outlook 2013 и более поздние рекомендации по политике поддерживают только некоторые типы конфиденциальной информации
+## <a name="outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types"></a>Outlook 2013 и более поздние приложения и приложения Office на настольных компьютерах, показывающие советы по политике только для некоторых типов конфиденциальной информации
 
-Список готовых типов конфиденциальной информации, которые будут обнаружены для демонстрации советов по политике DLP в Outlook on Desktop (2013 и более поздней версии):
+Список доступных типов конфиденциальных сведений, которые будут обнаружены для демонстрации советов по политике DLP в Outlook on Desktop (2013 и более поздний срок) и приложениях Office (Word, Excel, PowerPoint) на рабочем столе:
 
 - Код банка ABA
 - Номер внутреннего удостоверения личности для Аргентины (DNI)
@@ -180,7 +179,7 @@ ms.locfileid: "51876826"
 
 Обратите внимание, что пользовательские типы конфиденциальной информации также поддерживаются для советов по политике DLP в дополнение к перечисленным выше типам конфиденциальной информации.
 
-## <a name="data-loss-prevention-on-endpoint-supports-policy-tips-for-only-some-sensitive-information-types"></a>Предотвращение потери данных в конечной точке поддерживает рекомендации по политике только для некоторых типов конфиденциальной информации
+## <a name="data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types"></a>Предотвращение потери данных на конечных устройствах поддерживает советы по политике только для некоторых типов конфиденциальной информации
 
 Список готовых типов конфиденциальной информации, которые будут обнаруживаться в документах, проживающих на конечных устройствах, следующим образом:
 
@@ -395,16 +394,16 @@ ms.locfileid: "51876826"
 |**Приложение и платформа**|**Поддержка отзывов политики DLP**|**Поддерживаемые типы конфиденциальной информации**|**Предикаты и поддерживаемые действия**|**Комментарии**|
 |:--|:--|:--|:--|:--|
 |**Outlook Web Access**.|:::image type="icon" source="../media/rightmrk.png" border="false":::|Все|Subset|См. ссылку на рекомендации по [предотвращению потери данных](#data-loss-prevention-policy-tips-reference)|
-|**Outlook Win32 (Outlook 2013 и более)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|См. в outlook [2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) и более поздних поддержках рекомендаций по политике только для некоторых условий и исключений и [Outlook 2013,](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-sensitive-information-types) а затем поддерживает демонстрацию советов по политике только для некоторых типов конфиденциальной информации для получения сведений о поддержке типов конфиденциальной информации и условий DLP и действий, поддерживаемых для демонстрации советов по политике DLP в Outlook Win32.|
+|**Outlook Win32 (Outlook 2013 и более)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|См. в обзоре [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) и более поздних поддержках рекомендаций по политике только для некоторых условий и исключений, а также в приложениях [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) и более поздних версий, а также в приложениях Office на настольных компьютерах с советами по политике для некоторых типов конфиденциальной информации для получения сведений о поддержке типов конфиденциальной информации и условий DLP и действий, поддерживаемых для демонстрации советов по политике DLP в Outlook Win32.|
 |**Outlook Mobile (iOS, Android)/Outlook Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет|Советы по политике DLP не поддерживаются на мобильных устройствах Outlook|
 |**Sharepoint Online/One Drive для бизнес-веб-клиента**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Все|Все предикаты и действия SPO/ODB в DLP||
 |**Клиент Sharepoint Win32/One Drive для бизнеса Win32**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет|Советы по политике DLP не поддерживаются в клиентских приложениях Sharepoint или OneDrive|
-|**Word, Excel, Powerpoint Web Client**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Все|Все предикаты и действия SPO/ODB в DLP|Совет политики DLP поддерживается, если документ размещен в веб-приложении SPO или ODB и политика DLP уже штамповка.|
-|**Word, Excel, Powerpoint Mobile Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет|Советы по политике DLP не поддерживаются в мобильных приложениях для Office.|
+|**Word, Excel, PowerPoint Web Client**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Все|Все предикаты и действия SPO/ODB в DLP|Совет политики DLP поддерживается, если документ размещен в веб-приложении SPO или ODB и политика DLP уже штамповка.|
+|**Word, Excel, PowerPoint Mobile Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет|Советы по политике DLP не поддерживаются в мобильных приложениях для Office.|
 |**Teams Web/ Teams Desktop/ Teams Mobile/ Teams Mac**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Все|Все команды предикат в политике DLP|Советы политики покажут, когда сообщение помечено как "Это сообщение помечено. Что я могу сделать? При нажатии ссылки пользователь может просмотреть типы конфиденциальной информации, обнаруженные и переопределить или сообщить о проблеме, если это разрешено администратором. Обратите внимание, что советы политики не показаны для файлов. Когда получатель пытается получить доступ к документу, ему может быть отказано в доступе, если это запрещено.|
-|**Устройства конечных точек Win32**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Все предикаты ИПД конечной точки и действия в политике DLP|См. в руб. Предупреждение потери данных [в конечной точке поддерживает советы по политике только для некоторых типов конфиденциальной информации](#data-loss-prevention-on-endpoint-supports-policy-tips-for-only-some-sensitive-information-types)|
-|**Устройства Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет|Предотвращение потери данных не может применяться на устройствах Mac в настоящее время|
-|**Облачные приложения 3-й стороны**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет|Защита от потери данных|
+|**Устройства конечных точек Win32**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Все предикаты ИПД конечной точки и действия в политике DLP|См. в руб. Предупреждение потери данных [в конечной точке поддерживает советы по политике только для некоторых типов конфиденциальной информации](#data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types)|
+|**Устройства Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет|Политики предотвращения потери данных не могут применяться на устройствах Mac сегодня|
+|**Облачные приложения 3-й стороны**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет|Советы по предотвращению потери данных не поддерживаются в облачных приложениях третьей стороны|
 |**On-prem**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Нет|Нет||
-|**Клиент Word, Excel, Powerpoint Win32**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Subset|Subset|Советы по политике для клиентских приложений WXP будут работать для документов, хранимых в Sharepoint Online или One Drive для бизнес-сайтов для всех политик DLP, которые имеют точное ниже или подмножество условий или действий в политике DLP:</br> <ul><li>Содержимое содержит типы конфиденциальной информации</li><li>Область доступа (содержимое является общим внутренним или внешним)</li><li>Уведомление пользователя (советы по политике и уведомления пользователей)</li><li>Блокировка всех</li><li>Отчеты об инцидентах</li></ul></br> Если имеется любое другое условие или действие, подсказка политики DLP для этой политики не будет отображаться в настольных приложениях Word, Excel или PowerPoint.|
+|**Клиент Word, Excel, PowerPoint Win32**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Subset|Subset|См. [в обзоре Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) и более поздних версий и приложения Office в службе поддержки настольных компьютеров с советами по политике только для некоторых типов конфиденциальной информации для списка поддерживаемых типов конфиденциальной информации.</br></br>Советы по политике для клиентских приложений WXP будут работать для документов, хранимых в Sharepoint Online или One Drive для бизнес-сайтов для всех политик DLP, которые имеют точное ниже или подмножество условий или действий в политике DLP:</br> <ul><li>Содержимое содержит типы конфиденциальной информации</li><li>Область доступа (содержимое является общим внутренним или внешним)</li><li>Уведомление пользователя (советы по политике и уведомления пользователей)</li><li>Блокировка всех</li><li>Отчеты об инцидентах</li></ul></br> Если имеется любое другое условие или действие, подсказка политики DLP для этой политики не будет отображаться в настольных приложениях Word, Excel или PowerPoint.</br>Дополнительные сведения см. в советах по политике [в Excel, PowerPoint и Word](use-notifications-and-policy-tips.md#policy-tips-in-excel-powerpoint-and-word)|
 ||||||

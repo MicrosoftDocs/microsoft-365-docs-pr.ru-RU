@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a7d13da6abfb2cd6c829b6fd04fdf94de8cd20b8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 06028f64a3340aeeef52269bc8a1e739d18e6db7
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186873"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903122"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>Pull Microsoft Defender for Endpoint detections using SIEM REST API
 
@@ -63,7 +63,7 @@ Microsoft Defender для конечной  точки  поддерживает
 >[!NOTE]
 >Центр безопасности Microsoft Defender объединяет аналогичные обнаружения оповещений в единое оповещение. Этот API извлекает обнаружение оповещений в сыром виде на основе заданных параметров запроса, что позволяет применять собственную группировку и фильтрацию. 
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка к работе
 - Прежде чем вызывать конечную точку Microsoft Defender для конечной точки для обнаружения, необходимо включить приложение интеграции SIEM в Azure Active Directory (AAD). Дополнительные сведения см. в [веб-сайте Включить интеграцию SIEM в Microsoft Defender для конечной точки.](enable-siem-integration.md)
 
 - Запишите указанные ниже значения при регистрации приложения Azure. Эти значения понадобятся для настройки потока OAuth в вашей службе или управляющей программе.
@@ -106,14 +106,14 @@ resource=https%3A%2F%2Fgraph.windows.net&client_id=35e0f735-5fe4-4693-9e68-3de80
 С помощью маркера доступа ваше приложение может делать запросы на проверку подлинности в API Microsoft Defender for Endpoint. Приложение должно добавлять токен доступа в заголовок Authorization каждого запроса.
 
 ### <a name="request-syntax"></a>Запрос синтаксиса
-Метод | Запрос URI
+Method | Запрос URI
 :---|:---|
 GET| Используйте URI, применимый к вашему региону. <br><br> **Для ЕС**: `https://wdatp-alertexporter-eu.windows.com/api/alerts` </br> **Для США**: `https://wdatp-alertexporter-us.windows.com/api/alerts` <br> **Для Великобритании**: `https://wdatp-alertexporter-uk.windows.com/api/alerts` 
 
 ### <a name="request-header"></a>Заготвка запроса
-Верхний колонтитул | Тип | Описание|
+Заголовок | Тип | Описание|
 :--|:--|:--
-Authorization | string | Обязательное. Маркер доступа Azure AD в маркере **Bearer** &lt; *формы.* &gt; |
+Authorization | string | Обязательный. Маркер доступа Azure AD в маркере **Bearer** &lt; *формы.* &gt; |
 
 ### <a name="request-parameters"></a>Параметры запроса
 
@@ -123,11 +123,11 @@ Authorization | string | Обязательное. Маркер доступа A
 :---|:---|:---
 sinceTimeUtc | DateTime | Определяет меньшее время, связанное оповещений извлекаются из, на основе поля: <br> `LastProcessedTimeUtc` <br> Диапазон времени будет: от времени sinceTimeUtc до текущего времени. <br><br> **ПРИМЕЧАНИЕ.** Если не указано, все оповещения, созданные за последние два часа, извлекаются.
 untilTimeUtc | DateTime | Определяет, как извлекаются оповещений, связанных с верхним временем. <br> Диапазон времени будет: `sinceTimeUtc` время от `untilTimeUtc` времени. <br><br> **ПРИМЕЧАНИЕ.** Если не указано, значение по умолчанию будет текущим.
-ago | строка | Время от времени вытягивает оповещений в следующем `(current_time - ago)` `current_time` диапазоне времени. <br><br> Значение должно быть установлено в соответствии **с форматом длительности ISO 8601** <br> Пример: `ago=PT10M` будет тянуть оповещения, полученные в течение последних 10 минут.
+ago | Строка | Время от времени вытягивает оповещений в следующем `(current_time - ago)` `current_time` диапазоне времени. <br><br> Значение должно быть установлено в соответствии **с форматом длительности ISO 8601** <br> Пример: `ago=PT10M` будет тянуть оповещения, полученные в течение последних 10 минут.
 limit | int | Определяет количество извлеченных оповещений. Последние оповещений будут извлечены на основе определенного числа.<br><br> **ПРИМЕЧАНИЕ.** Если не указано, все оповещения, доступные в диапазоне времени, будут извлечены.
-машинные группы | строка | Указывает группы устройств, чтобы вывести оповещения из. <br><br> **ПРИМЕЧАНИЕ.** Если не указано, оповещения из всех групп устройств будут извлечены. <br><br> Пример. <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/Alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
-DeviceCreatedMachineTags | строка | Тег одного устройства из реестра.
-CloudCreatedMachineTags | строка | Теги устройств, созданные в Центре безопасности Защитника Майкрософт.
+машинные группы | Строка | Указывает группы устройств, чтобы вывести оповещения из. <br><br> **ПРИМЕЧАНИЕ.** Если не указано, оповещения из всех групп устройств будут извлечены. <br><br> Пример: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
+DeviceCreatedMachineTags | Строка | Тег одного устройства из реестра.
+CloudCreatedMachineTags | Строка | Теги устройств, созданные в Центре безопасности Защитника Майкрософт.
 
 ### <a name="request-example"></a>Пример запроса
 В следующем примере показано, как получить все обнаружения в организации.
@@ -328,15 +328,15 @@ echo $apiResponse
 ## <a name="error-codes"></a>Коды ошибок
 API rest API Для защитника Конечной точки возвращает следующие коды ошибок, вызванные недействительным запросом.
 
-Код ошибки HTTP | Описание
+Код ошибки HTTP | Description
 :---|:---
 401 | Недействительный запрос или недействительный маркер.
 403 | Несанкционированное исключение — любой из доменов не управляется администратором клиента или состоянием клиента удаляется.
 500 | Ошибка в службе.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Включение интеграции SIEM в Microsoft Defender для конечной точки](enable-siem-integration.md)
 - [Настройте ArcSight, чтобы вытащить Microsoft Defender для обнаружения конечных точек](configure-arcsight.md)
 - [Притягивать обнаружения к средствам SIEM](configure-siem.md)
 - [Microsoft Defender для полей обнаружения конечных точек](api-portal-mapping.md)
-- [Устранение неполадок в интеграции инструментов SIEM](troubleshoot-siem.md)
+- [Устранение неполадок с интеграцией средства SIEM](troubleshoot-siem.md)

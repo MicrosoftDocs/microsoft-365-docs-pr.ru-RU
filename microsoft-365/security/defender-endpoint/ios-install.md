@@ -1,7 +1,7 @@
 ---
-title: Развертывание на основе приложений для ATP Защитника Microsoft для iOS
+title: Развертывание на основе приложений для Microsoft Defender для конечной точки на iOS
 ms.reviewer: ''
-description: Описание развертывания ATP Защитника Майкрософт для iOS с помощью приложения
+description: Описывает развертывание Microsoft Defender для конечной точки на iOS с помощью приложения
 keywords: Microsoft, defender, atp, ios, app, installation, deploy, uninstallation, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6cfd2953e752ed9c96f7f16a3ec7ea1fd8862ab2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 4ddaf8759fa0f2ffb4ed3eb3bb940426dfb3da2c
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689741"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904062"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Развертывание Microsoft Defender для конечной точки на iOS
 
@@ -37,14 +37,14 @@ ms.locfileid: "51689741"
 
 В этом разделе описывается развертывание устройств Defender для конечной точки для iOS на зарегистрированных устройствах портала компаний Intune. Дополнительные сведения о регистрации устройств Intune см. в записи [устройств iOS/iPadOS в Intune.](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll)
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка к работе
 
 - Убедитесь, что у вас есть доступ к центру администрирования [менеджеров конечных точек Майкрософт.](https://go.microsoft.com/fwlink/?linkid=2109431)
 
 - Убедитесь, что регистрация на iOS будет сделана для пользователей. Пользователям необходимо иметь лицензию Defender для конечной точки, чтобы использовать Defender для конечной точки для iOS. Обратитесь [к назначению лицензий пользователям](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) для получения инструкций по назначению лицензий.
 
 > [!NOTE]
-> AtP защитника Microsoft (Microsoft Defender для конечной точки) для iOS теперь доступен в [Магазине приложений Apple.](https://aka.ms/mdatpiosappstore)
+> Microsoft Defender для конечной точки на iOS теперь доступен в [Магазине приложений Apple.](https://aka.ms/mdatpiosappstore)
 
 ## <a name="deployment-steps"></a>Действия по развертыванию
 

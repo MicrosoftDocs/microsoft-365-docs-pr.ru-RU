@@ -1,6 +1,6 @@
 ---
-title: Настройка и проверка исключений для ATP Защитника Майкрософт для Linux
-description: Предоставление и проверка исключений для ATP Microsoft Defender для Linux. Исключения могут быть установлены для файлов, папок и процессов.
+title: Настройка и проверка исключений для Microsoft Defender для конечной точки на Linux
+description: Предоставление и проверка исключений для Microsoft Defender для конечной точки на Linux. Исключения могут быть установлены для файлов, папок и процессов.
 keywords: Microsoft, defender, atp, linux, exclusions, scans, antivirus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fbc8fe7ef6f9af86debdeb0826865c88e86b2c6a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 56fe152532b77f7f04c9edd52998fea83493adfe
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688193"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903944"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Настройка и проверка исключений для Microsoft Defender для конечной точки на Linux
 

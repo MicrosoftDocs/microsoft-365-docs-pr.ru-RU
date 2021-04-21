@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 362222e4737b1a8dd6b8a0a284bf3bfb1903c288
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: aa699aae24b1e6383f5a2afbe7fce31e0f53805c
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861454"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903932"
 ---
-# <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Развертывание Defender для конечной точки на Linux с помощью шеф-повара
+# <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Развертывание Defender для конечной точки в Linux с помощью Chef
 
 Подготовка:
 
@@ -110,7 +110,7 @@ end
 
 Обязательно обновим имя пути к расположению бортового файла.
 Чтобы протестировать развертывание на рабочей станции Chef, просто запустите ``sudo chef-client -z -o mdatp`` .
-После развертывания следует подумать о создании и развертывании файла конфигурации на серверах на основе набора предпочтений  [для ATP Microsoft Defender для Linux - windows security | Microsoft Docs](/windows/security/threat-protection/microsoft-defender-atp/linux-preferences).  
+После развертывания следует рассмотреть возможность создания и развертывания файла конфигурации на серверах на основе набора предпочтений  [для Microsoft Defender для конечной](/linux-preferences.md)точки в Linux.  
 После создания и тестирования файла конфигурации вы можете поместить его в папку cookbook/mdatp/files, где вы также разместили пакет onboarding.  Затем вы можете создать файл settings_mdatp.rb в папке mdatp/recipies и добавить этот текст:
 
 ```powershell

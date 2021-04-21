@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как присоединиться к команде в качестве гостя в Microsoft Teams.
-ms.openlocfilehash: 9e60882907021c11d906ce9cd778a0f1eef32beb
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 0260365e8a064dd96cda75c9becf9f82bc6871a3
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578859"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903722"
 ---
 # <a name="join-a-team-as-a-guest"></a>Присоединение к команде в качестве гостя
 
@@ -48,3 +48,7 @@ ms.locfileid: "51578859"
 
 1. Просто откройте приложение Microsoft Teams и выберите  **Да,**  чтобы перейти в команду, в который вы приглашены.  Теперь вы можете совместно работать над проектом в Teams.
 2. Чтобы вернуться в команду вашей компании, выберите  ее из отсевной организации.
+
+## <a name="related-content"></a>См. также:
+
+[Гостевой опыт в Teams](https://docs.microsoft.com/microsoftteams/guest-experience) (статья) Управление настройками [Microsoft Teams](https://docs.microsoft.com/microsoftteams/enable-features-office-365) для организации (статья) Использование гостевого доступа и внешнего доступа для совместной работы с людьми за [пределами](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations) организации (статья)

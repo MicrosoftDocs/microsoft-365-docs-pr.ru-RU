@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5e20c424f15561c8b6f0544b80aca6e30c56409d
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 09ca9fb466efd7764f7459a4754cfb30c8100bdb
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893333"
+ms.locfileid: "51904144"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>Запись устройств в Microsoft Defender для конечной точки
 
@@ -55,8 +55,8 @@ Defender for Endpoint предоставляет несколько удобны
 
 С **бортовой карты** выберите  дополнительные устройства для создания и назначения профиля в Intune. Ссылка приводит вас на страницу соответствия требованиям устройств в Intune, которая предоставляет аналогичный обзор состояния бортового устройства.
 
-![Страница соответствия требованиям устройств ATP Microsoft Defender для управления устройствами Intune](images/secconmgmt_onboarding_1deviceconfprofile.png)<br>
-   *Страница соответствия требованиям устройств ATP Microsoft Defender для управления устройствами Intune*
+![Страница Microsoft Defender для соответствия требованиям для конечных устройств в управлении устройствами Intune](images/secconmgmt_onboarding_1deviceconfprofile.png)<br>
+   *Страница Microsoft Defender для соответствия требованиям для конечных устройств в управлении устройствами Intune*
 
 >[!TIP]
 >Кроме того, вы можете перейти на страницу соответствия требованиям для конечной точки Defender для конечной точки на портале [Microsoft Azure](https://portal.azure.com/) из всех служб **> Intune >** устройств > Microsoft Defender ATP .

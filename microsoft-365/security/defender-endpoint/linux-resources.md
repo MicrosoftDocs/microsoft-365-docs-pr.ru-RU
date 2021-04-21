@@ -1,7 +1,7 @@
 ---
-title: AtP Защитника Майкрософт для ресурсов Linux
+title: Microsoft Defender для конечной точки на ресурсах Linux
 ms.reviewer: ''
-description: Описывает ресурсы atP Microsoft Defender для Linux, в том числе, как удалить его, как собирать диагностические журналы, команды CLI и известные проблемы с продуктом.
+description: Описывает ресурсы для Microsoft Defender для конечной точки в Linux, в том числе, как удалить ее, как собирать диагностические журналы, команды CLI и известные проблемы с продуктом.
 keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a4f2324bc47bdee38e1cdeed1e21b5f9063e9a5c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: de2602bdc94507d27236b939553a6567b2587f36
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587068"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903146"
 ---
 # <a name="resources"></a>Ресурсы
 
@@ -101,7 +101,7 @@ ms.locfileid: "51587068"
 
 В следующей таблице перечислены команды для некоторых наиболее распространенных сценариев. Запустите `mdatp help` из терминала, чтобы просмотреть полный список поддерживаемых команд.
 
-|Группа                 |Сценарий                                                |Команда                                                                |
+|Group                 |Сценарий                                                |Команда                                                                |
 |----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
 |Конфигурация         |Включите/отключите защиту в режиме реального времени                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
 |Конфигурация         |Включите/отключите мониторинг поведения                         |`mdatp config behavior-monitoring --value [enabled\|disabled]` 

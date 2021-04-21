@@ -1,5 +1,5 @@
 ---
-title: Расследование инцидентов в ATP Защитника Майкрософт
+title: Расследование инцидентов в Microsoft Defender для конечной точки
 description: См. связанные оповещения, управление инцидентом и метаданные оповещений, которые помогут вам исследовать инцидент
 keywords: расследование, инциденты, оповещения, метаданные, риск, источник обнаружения, затронутые устройства, шаблоны, корреляция
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5a74da55d733d690cb218c78b87b67d6eba6b9d2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1d8f4452273047684a30db3b18d1281f40f46378
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186057"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903302"
 ---
 # <a name="investigate-incidents-in-microsoft-defender-for-endpoint"></a>Расследование инцидентов в Microsoft Defender для конечной точки
 
@@ -91,7 +91,7 @@ Microsoft Defender для конечной точки агрегируется �
 
 ![Изображение сведений об инцидентах](images/atp-incident-graph-details.png)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Очередь инцидентов](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [Расследование инцидентов в Microsoft Defender для конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-incidents)
 - [Управление microsoft Defender для инцидентов конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-incidents)

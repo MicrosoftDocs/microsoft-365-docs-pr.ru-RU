@@ -1,6 +1,6 @@
 ---
 title: Исследование событий подключения, происходящих за прокси-серверами переадресации.
-description: Узнайте, как использовать расширенный мониторинг уровня HTTP с помощью защиты сети в ATP Microsoft Defender, который является реальной целью, а не прокси-сервером.
+description: Узнайте, как использовать расширенный мониторинг уровня HTTP с помощью защиты сети в Microsoft Defender для конечной точки, которая является реальной целью, а не прокси-сервером.
 keywords: прокси, защита сети, прокси-серверы, сетевые события, аудит, блок, доменные имена, домен
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 28d8a113ed77e9624bd914571b1af4a7ece2aa5c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 47be07759a72a080a3687ed3bb50cef9d0a959b7
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587567"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904050"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>Исследование событий подключения, происходящих за прокси-серверами переадресации.
 
@@ -93,5 +93,5 @@ DeviceNetworkEvents
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Применение защиты сети с помощью GP - CSP политики](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)
