@@ -1,7 +1,7 @@
 ---
 title: Совместимость антивируса Microsoft Defender с Защитником для конечной точки
 description: Узнайте, как Защитник Windows с Microsoft Defender для endpoint и как он функционирует при работе с сторонним клиентом антивирусных программ.
-keywords: Совместимость защитника Windows, защитника, защитника Microsoft atp, защитника конечной точки, антивируса, mde
+keywords: совместимость защитника windows, защитника, защитника Microsoft для конечной точки, защитника конечной точки, антивируса, mde
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 63dca2694dae5dee924c9a0a02a660003907c42b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: a8dca4a80385fabcdc64a5584474214d05be4a6c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165963"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935381"
 ---
 # <a name="microsoft-defender-antivirus-compatibility-with-microsoft-defender-for-endpoint"></a>Совместимость антивируса Microsoft Defender с Microsoft Defender для конечной точки
 

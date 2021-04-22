@@ -1,7 +1,7 @@
 ---
 title: Устранение проблем с правилами уменьшения поверхности атаки
 description: Ресурсы и пример кода для устранения неполадок с правилами уменьшения поверхности атаки в Microsoft Defender для конечной точки.
-keywords: устранение неполадок, ошибка, исправление, защитник Windows, например, asr, правила, бедра, устранение неполадок, аудит, исключение, ложное срабатывательство, нарушение, блокировка, защитник Майкрософт для конечной точки, защита от угроз microsoft defender
+keywords: устранение неполадок, ошибка, исправление, защита windows, например, asr, правила, бедра, устранение неполадок, аудит, исключение, ложное срабатыважение, нарушение, блокировка, Microsoft Defender для Endpoint
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: d483c098f221e2d4d2e61a10393154b8f5d1498d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9ff00c706b0fb336c178e227b1cb33eff9e9ebbc
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198745"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935225"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>Правила устранения неполадок в области уменьшения поверхности атаки
 
@@ -124,6 +124,6 @@ ms.locfileid: "51198745"
 
 - [Правила сокращения направлений атак](attack-surface-reduction.md)
 
-- [Включить правила уменьшения поверхности атаки](enable-attack-surface-reduction.md)
+- [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
 
-- [Оценка правил уменьшения поверхности атаки](evaluate-attack-surface-reduction.md)
+- [Оценка правил сокращения направлений атак](evaluate-attack-surface-reduction.md)

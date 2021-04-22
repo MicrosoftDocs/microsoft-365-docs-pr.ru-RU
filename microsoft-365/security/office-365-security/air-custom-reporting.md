@@ -1,6 +1,6 @@
 ---
 title: Настраиваемые решения для отчетов с автоматическим расследованием и ответом
-keywords: SIEM, API, AIR, autoIR, ATP, automated investigation, integration, custom report
+keywords: SIEM, API, AIR, autoIR, Microsoft Defender for Endpoint, automated investigation, integration, custom report
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -21,12 +21,12 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 82f3b38e5b6e31313c94f5ac389e883f6b076540
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4a7ccc0f07691c5183b9cb7a6e5b3f512f35f76b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206718"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935405"
 ---
 # <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Пользовательские или сторонние решения отчетности для Microsoft Defender для Office 365
 
@@ -38,7 +38,7 @@ ms.locfileid: "51206718"
 
 В [Microsoft Defender для Office 365](defender-for-office-365.md)вы получите подробные сведения об [автоматизированных расследованиях.](air-view-investigation-results.md) Однако в некоторых организациях также используется настраиваемая или сторонная отчетность. Если ваша организация хочет интегрировать сведения об автоматизированных расследованиях с таким решением, вы можете использовать API управления Office 365.
 
-|Ресурс|Описание|
+|Resource|Описание|
 |:---|:---|
 |[Обзор API управления Office 365](/office/office-365-management-api/office-365-management-apis-overview)|API управления Office 365 предоставляет сведения о различных действиях пользователя, администратора, системы и политик и событиях из журналов действий Microsoft 365 и Azure Active Directory.|
 |[Начало работы с API управления Office 365](/office/office-365-management-api/get-started-with-office-365-management-apis)|API управления Office 365 использует Azure AD для предоставления служб проверки подлинности для приложения для доступа к данным Microsoft 365. Выполните действия в этой статье, чтобы настроить это.|

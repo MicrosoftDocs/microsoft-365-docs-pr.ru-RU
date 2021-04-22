@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3ad23e030048506784edd8f1988fa33263a085ae
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 25b70f91824db2a6d05db5d3981dd50f4f2b477a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861339"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934745"
 ---
 # <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>Настройка и управление возможностями Microsoft Defender для конечных точек
 
@@ -49,5 +49,5 @@ ms.locfileid: "51861339"
 [Настройка возможностей уменьшения поверхности атаки](configure-attack-surface-reduction.md) | Настройте возможности уменьшения поверхности атаки, чтобы убедиться, что параметры правильно применены, и заданная техника смягчения последствий.
 [Настройка защиты следующего поколения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-microsoft-defender-antivirus-features) | Настройте защиту следующего поколения, чтобы ловить все типы возникающих угроз.
 [Настройка возможностей экспертов по угрозам Майкрософт](configure-microsoft-threat-experts.md) | Настройка и управление сведениями об угрозах кибербезопасности от экспертов Microsoft Threat.
-[Настройка интеграции Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/threat-protection-integration) | Настройка других решений, интегрируемых с Defender для конечной точки.
+[Настройка интеграции Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/threat-protection-integration) | Настройка других решений, интегрируемых с Defender для конечной точки.
 [Поддержка управления и API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/management-apis) | Извлеките оповещения в службу управления сведениями о безопасности и событиями (SIEM) или используйте API для создания настраиваемой оповещений. Создание и создание отчетов Power BI.

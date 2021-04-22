@@ -1,7 +1,7 @@
 ---
 title: Таблица DeviceAlertEvents в продвинутой схеме охоты
 description: Узнайте о событиях генерации оповещений в таблице DeviceAlertEvents продвинутой схемы охоты
-keywords: передовая охота, охота на угрозы, охота на киберугрозы, mdatp, microsoft defender atp, wdatp search, query, telemetry, schema reference, kusto, table, column, data type, description, DeviceAlertEvents, alert, severity, category
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft Defender для конечной точки, поиск, запрос, телеметрия, ссылка схемы, kusto, таблица, столбец, тип данных, описание, DeviceAlertEvents, предупреждение, серьезность, категория
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: 66ecdc8fbcde04d78f2deede5f4e296a7f051ef0
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: bb2350fed5fadee359695743989e02a3b3e44fb2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499163"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935345"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 
@@ -44,7 +44,7 @@ ms.locfileid: "51499163"
 | `AlertId` | string | Уникальный идентификатор оповещения |
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор устройства в службе |
-| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
+| `DeviceName` | Строка | Полное доменное имя (FQDN) устройства |
 | `Severity` | string | Указывает возможное воздействие (высокое, среднее или низкое) индикатора угрозы или нарушения, определенного оповещением |
 | `Category` | string | Тип индикатора угрозы или нарушения, определенного оповещением |
 | `Title` | string | Название оповещения |
@@ -52,7 +52,7 @@ ms.locfileid: "51499163"
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `RemoteUrl` | string | URL-адрес или полное доменное имя, к которому выполнено подключение |
 | `RemoteIP` | string | IP-адрес, к которому выполнено подключение |
-| `AttackTechniques` | string | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
+| `AttackTechniques` | Строка | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться совместно с `DeviceName` `Timestamp` столбцами и |
 | `Table` | string | Таблица, содержащая сведения о событии |
 

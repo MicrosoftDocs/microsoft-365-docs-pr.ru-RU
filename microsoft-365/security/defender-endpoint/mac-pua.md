@@ -1,7 +1,7 @@
 ---
-title: Обнаружение и блокировка потенциально нежелательных приложений с помощью Microsoft Defender для конечной точки для Mac
-description: Обнаружение и блокировка потенциально нежелательных приложений (PUA) с помощью Microsoft Defender для конечной точки для Mac.
-keywords: Microsoft, defender, atp, mac, pua, pus
+title: Обнаружение и блокировка потенциально нежелательных приложений с помощью Microsoft Defender для конечной точки на Mac
+description: Обнаружение и блокировка потенциально нежелательных приложений (PUA) с помощью Microsoft Defender на конечной точке для Mac.
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, mac, pua, pua
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 93462b37c9150f1e38239a0ca70b96ad8d07830f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 2d32dd96cd506ebf1752e48d2b7c66208b1abc11
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862227"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934541"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-on-macos"></a>Обнаружение и блокировка потенциально нежелательных приложений с помощью Microsoft Defender для конечной точки на macOS
 

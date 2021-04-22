@@ -1,7 +1,7 @@
 ---
 title: Настройка конечной точки Microsoft Defender для политик macOS в Jamf Pro
-description: Узнайте, как настроить конечную точку Microsoft Defender для политик macOS в Jamf Pro
-keywords: политики, microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
+description: Узнайте, как настроить конечную точку Microsoft Defender для политики macOS в Jamf Pro
+keywords: политики, Microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1a00d1c0863db7f4f5f853312f202b5e985b1512
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 84d0b37632dc23615a37bbbd73c17fe509dedae5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862275"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934685"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Настройка конечной точки Microsoft Defender для политик macOS в Jamf Pro
 
@@ -772,7 +772,7 @@ ms.locfileid: "51862275"
 
 7. Выберите **Открыть**. Установите имя **отображения в** Microsoft **Defender Advanced Threat Protection и антивирус Microsoft Defender.**
 
-    **Файл Manifest не** требуется. Расширенные средства защиты от угроз Microsoft Defender работают без файла Манифеста.
+    **Файл Manifest не** требуется. Microsoft Defender для конечной точки работает без Файла Манифеста.
     
     **Вкладка с параметрами**<br> Сохранение значений по умолчанию.
 

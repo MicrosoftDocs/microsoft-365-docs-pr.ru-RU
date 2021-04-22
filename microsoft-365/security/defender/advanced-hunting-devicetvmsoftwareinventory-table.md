@@ -1,7 +1,7 @@
 ---
 title: DeviceTvmSoftwareInventory table in the advanced hunting schema
 description: Узнайте о инвентаризации программного обеспечения на устройствах в таблице DeviceTvmSoftwareInventory продвинутой схемы охоты.
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, software, inventory, vulnerabilities, CVE ID, OS DeviceTvmSoftwareInventoryVulnerabilities
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, software, inventory, vulnerabilities, CVE ID, OS DeviceTvmSoftwareInventoryVulnerabilities
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cf899dc52450d2cab47eb0207eef46ac83eb01e3
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c83217df5427b72eeeb4276ad95d160dc6765c75
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071493"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934853"
 ---
 # <a name="devicetvmsoftwareinventory"></a>DeviceTvmSoftwareInventory
 
@@ -57,7 +57,7 @@ ms.locfileid: "51071493"
 | `SoftwareName` | string | Название программного продукта |
 | `SoftwareVersion` | string | Номер версии программного продукта |
 | `EndOfSupportStatus` | string | Указывает этап жизненного цикла программного продукта относительно указанной даты окончания поддержки (EOS) или даты окончания срока службы (EOL). |
-| `EndOfSupportDate` | строка | Дата окончания службы поддержки (EOS) или даты окончания срока службы программного продукта |
+| `EndOfSupportDate` | Строка | Дата окончания службы поддержки (EOS) или даты окончания срока службы программного продукта |
 
 
 

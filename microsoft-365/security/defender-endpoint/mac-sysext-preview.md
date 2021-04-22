@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender для конечной точки для Mac — расширения системы (Предварительная версия)
-description: В этой статье содержатся инструкции по о попытке расширения системы функции Microsoft Defender для конечной точки для Mac. Эта функция в настоящее время находится в публичном предварительном просмотре.
-keywords: Microsoft, defender, atp, mac, kernel, system, extensions, catalina
+title: Microsoft Defender для конечной точки на Mac — расширения системы (Предварительный просмотр)
+description: В этой статье содержатся инструкции по оценке функций расширения системы Microsoft Defender для конечной точки на Mac. Эта функция в настоящее время находится в публичном предварительном просмотре.
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, mac, kernel, system, extensions, catalina
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 0b593aa0046a28e558523c2f3ebc7da9976f62d3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: cc148bcc0b2623eaaa8d31ef50708174264fa3b2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860331"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934949"
 ---
 # <a name="microsoft-defender-for-endpoint-on-macos---system-extensions-public-preview"></a>Microsoft Defender для конечной точки на macOS — общедоступный предварительный просмотр расширений системы)
 
@@ -34,7 +34,7 @@ ms.locfileid: "51860331"
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-В соответствии с эволюцией macOS мы готовим обновление Defender for Endpoint для Mac, которое использует расширения системы вместо расширения ядра. Это обновление будет применяться только к macOS Catalina (10.15.4) и более поздним версиям macOS.
+В соответствии с эволюцией macOS мы готовим обновление Defender для endpoint на Mac, которое использует расширения системы вместо расширения ядра. Это обновление будет применяться только к macOS Catalina (10.15.4) и более поздним версиям macOS.
 
 Эта функция в настоящее время находится в публичном предварительном просмотре. В этой статье описывается, как включить эту функцию на вашем устройстве. Вы можете попробовать эту функцию локально на своем устройстве или настроить ее удаленно с помощью средства управления.
 
@@ -62,7 +62,7 @@ ms.locfileid: "51860331"
   defaults write com.microsoft.autoupdate2 ChannelName -string Beta
   ```
 
-  Кроме того, если вы в управляемой среде (JAMF или Intune), вы можете настроить канал обновления удаленно. Дополнительные сведения см. в [ссылке Развертывание обновлений для Microsoft Defender для конечной точки для Mac: Установите имя канала.](mac-updates.md#set-the-channel-name)
+  Кроме того, если вы в управляемой среде (JAMF или Intune), вы можете настроить канал обновления удаленно. Дополнительные сведения см. в [ссылке Развертывание обновлений для Microsoft Defender для конечной](mac-updates.md#set-the-channel-name)точки на Mac: Установите имя канала.
 
 ## <a name="deployment-steps"></a>Действия по развертыванию
 
@@ -74,7 +74,7 @@ ms.locfileid: "51860331"
 
 1. После того как все необходимые условия развертывания будут выполнены, перезапустите устройство, чтобы запустить процесс утверждения и активации расширения системы.
 
-   Вы увидите серию системных подсказок для утверждения расширений системы Defender для конечных точек. Необходимо утвердить **все** подсказки из серии, так как macOS требует явного утверждения для каждого расширения, которое defender for Endpoint для Mac устанавливает на устройстве.
+   Вы увидите серию системных подсказок для утверждения расширений системы Defender для конечных точек. Необходимо утвердить **все** подсказки из серии, так как macOS требует явного утверждения для каждого расширения, которое defender for Endpoint на Mac устанавливает на устройстве.
    
    Для каждого утверждения выберите **параметры Open Security Preferences** и выберите **Разрешить** разрешить запуск расширения системы.
 

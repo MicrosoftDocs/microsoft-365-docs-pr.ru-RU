@@ -1,7 +1,7 @@
 ---
 title: Список распространения версий программного обеспечения
 description: Извлечение списка распространения программной версии вашей организации
-keywords: apis, graph api, supported apis, get, software version distribution, mdatp tvm api
+keywords: apis, graph api, supported apis, get, software version distribution, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 88f446ddd87768817099c1a206bab17aa8be5b7b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e47a97477500491f634e3f5134a32241bd68985b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198581"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935297"
 ---
 # <a name="list-software-version-distribution"></a>Список распространения версий программного обеспечения 
 
@@ -42,8 +42,8 @@ ms.locfileid: "51198581"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application | Software.Read.All | 'Read Threat and Vulnerability Management Software information'
-Делегированное (рабочая или учебная учетная запись) | Software.Read | 'Read Threat and Vulnerability Management Software information'
+Приложение | Software.Read.All | 'Read Threat and Vulnerability Management Software information'
+Делегированные (рабочая или учебная учетная запись) | Software.Read | 'Read Threat and Vulnerability Management Software information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -54,7 +54,7 @@ GET /api/Software/{Id}/distributions
 
 | Имя        | Тип | Описание
 |:--------------|:-------|:--------------|
-| Авторизация | Строка | Bearer {token}. **Обязательно**.
+| Authorization | String | Bearer {token}. **Обязательно**.
 
 ## <a name="request-body"></a>Текст запроса
 переменная Empty
@@ -97,6 +97,6 @@ GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/distr
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Инвентаризация программного обеспечения & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)

@@ -1,7 +1,7 @@
 ---
 title: Таблица AppFileEvents в продвинутой схеме охоты
 description: Узнайте о событиях, связанных с файлами, связанных с облачными приложениями и службами, в таблице AppFileEvents продвинутой схемы охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AppFileEvents, Cloud App App Security, MCAS
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AppFileEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b8b3b34e1b8535772d19f8ddd9f52c5c0a89292b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 861a04eb168190f2bb64bbb0258de6767c619e1b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499340"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934721"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -47,36 +47,36 @@ ms.locfileid: "51499340"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
 | `ActionType` | string | Тип действий, которые вызвали событие. Подробные [сведения см. в](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) справке по схеме на портале |
-| `Application` | string | Приложение, которое выполнило записанную акцию |
+| `Application` | Строка | Приложение, которое выполнило записанную акцию |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
 | `FolderPath` | string | Папка, содержащая файл, к котором было применено записано действие |
-| `PreviousFileName` | string | Исходное имя файла, переименованного в результате действия |
-| `PreviousFolderPath` | string | Оригинальная папка, содержащая файл перед примененным действием |
-| `Protocol` | string | Используемый сетевой протокол |
-| `AccountName` | string | Имя пользователя учетной записи |
-| `AccountDomain` | string | Домен учетной записи |
-| `AccountSid` | string | Идентификатор безопасности (SID) учетной записи |
-| `AccountUpn` | string | Основное имя пользователя (UPN) учетной записи |
-| `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure AD |
-| `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемого в адресной книге. Как правило, сочетание данной или имени, среднего посвящения и фамилии или фамилии. |
-| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
-| `DeviceType` | string | Тип устройства | 
-| `OSPlatform` | string | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
+| `PreviousFileName` | Строка | Исходное имя файла, переименованного в результате действия |
+| `PreviousFolderPath` | Строка | Оригинальная папка, содержащая файл перед примененным действием |
+| `Protocol` | Строка | Используемый сетевой протокол |
+| `AccountName` | Строка | Имя пользователя учетной записи |
+| `AccountDomain` | Строка | Домен учетной записи |
+| `AccountSid` | Строка | Идентификатор безопасности (SID) учетной записи |
+| `AccountUpn` | Строка | Основное имя пользователя (UPN) учетной записи |
+| `AccountObjectId` | Строка | Уникальный идентификатор учетной записи в Azure AD |
+| `AccountDisplayName` | Строка | Имя пользователя учетной записи, отображаемого в адресной книге. Как правило, сочетание данной или имени, среднего посвящения и фамилии или фамилии. |
+| `DeviceName` | Строка | Полное доменное имя (FQDN) устройства |
+| `DeviceType` | Строка | Тип устройства | 
+| `OSPlatform` | Строка | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
 | `IPAddress` | string | IP-адрес, присвоенный конечной точке и используемый во время связанных сетевых коммуникаций |
-| `Port` | string | Порт TCP, используемый во время связи  |
-| `DestinationDeviceName` | string | Имя устройства под управлением серверного приложения, обрабатываемого записанным действием |
-| `DestinationIPAddress` | string | IP-адрес устройства под управлением серверного приложения, обработав записанное действие |
-| `DestinationPort` | string | Порт назначения связанных сетевых коммуникаций |
-| `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
-| `Isp` | string | Поставщик интернет-услуг (ISP), связанный с IP-адресом конечной точки |
+| `Port` | Строка | Порт TCP, используемый во время связи  |
+| `DestinationDeviceName` | Строка | Имя устройства под управлением серверного приложения, обрабатываемого записанным действием |
+| `DestinationIPAddress` | Строка | IP-адрес устройства под управлением серверного приложения, обработав записанное действие |
+| `DestinationPort` | Строка | Порт назначения связанных сетевых коммуникаций |
+| `Location` | Строка | Город, страна или другое географическое расположение, связанное с событием |
+| `Isp` | Строка | Поставщик интернет-услуг (ISP), связанный с IP-адресом конечной точки |
 | `ReportId` | long | Уникальный идентификатор события |
-| `AdditionalFields` | string | Дополнительные сведения об объекте или событии |
+| `AdditionalFields` | Строка | Дополнительные сведения об объекте или событии |
 
 >[!TIP]
 > Подробные сведения о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в центре безопасности.
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

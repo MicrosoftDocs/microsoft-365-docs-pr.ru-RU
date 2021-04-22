@@ -1,7 +1,7 @@
 ---
 title: Оценка Microsoft Defender для Office 365
 description: Defender for Office 365 в режиме оценки создает политики электронной почты Defender для Office 365, которые регистрют вердикты, например вредоносные программы, но не действуют на сообщения.
-keywords: оценка Office 365, Microsoft Defender для Office 365, оценка Office 365, попытка Office 365, Microsoft Defender, ATP
+keywords: оценка Office 365, Microsoft Defender для Office 365, оценка Office 365, попытка Office 365, Microsoft Defender, Microsoft Defender для endpoint
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5862361dbd3a220e4b37400dbb6515af91eaa959
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 86433ef505cd1b9afca100dc731f1885e22c8401
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768810"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935141"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Оценка Microsoft Defender для Office 365
 

@@ -2,7 +2,7 @@
 title: Microsoft Defender для конечной точки на Android
 ms.reviewer: ''
 description: Описание установки и использования Microsoft Defender для конечной точки на Android
-keywords: Microsoft, defender, atp, android, installation, deploy, uninstallation, intune
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Android, installation, deploy, uninstallation, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8a78fc7e07f89c2e13a698ee526403989f26dd65
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 35a43aa7bfcd9ed8c83d10c2ec44a974b03bca72
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768846"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935573"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender для конечной точки на Android
 
@@ -44,7 +44,7 @@ ms.locfileid: "51768846"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Установка Microsoft Defender для конечной точки на Android
 
-### <a name="prerequisites"></a>Необходимые компоненты
+### <a name="prerequisites"></a>Предварительные условия
 
 -   **Для конечных пользователей**
 
@@ -62,7 +62,7 @@ ms.locfileid: "51768846"
     -   Доступ к порталу Центра безопасности Защитника Майкрософт.
 
         > [!NOTE]
-        > Microsoft Intune является единственным поддерживаемым решением управления мобильными устройствами (MDM) для развертывания Microsoft Defender для конечной точки на Android. В настоящее время поддерживаются только зарегистрированные устройства для принудительного выполнения политик соответствия требованиям Defender для конечной точки для Android, связанных с устройствами в Intune. 
+        > Microsoft Intune является единственным поддерживаемым решением управления мобильными устройствами (MDM) для развертывания Microsoft Defender для конечной точки на Android. В настоящее время поддерживаются только зарегистрированные устройства для принудительного выполнения политики соответствия требованиям Defender для конечной точки для Android, связанных с устройствами в Intune. 
 
     -   Доступ [к центру администрирования Microsoft Endpoint Manager,](https://go.microsoft.com/fwlink/?linkid=2109431)чтобы развернуть приложение для зарегистрированных групп пользователей в вашей организации.
 
@@ -89,7 +89,7 @@ Microsoft Defender для конечной точки на Android поддер�
 
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Похожие темы
 - [Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune](android-intune.md)
 - [Настройка функций Microsoft Defender для конечной точки на Android](android-configure.md)
 

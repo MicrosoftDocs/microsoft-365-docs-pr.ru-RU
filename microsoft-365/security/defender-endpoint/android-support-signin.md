@@ -1,7 +1,7 @@
 ---
 title: Устранение неполадок в Microsoft Defender для конечной точки на Android
 description: Устранение неполадок для Microsoft Defender для конечной точки на Android
-keywords: Microsoft, defender, atp, mde, android, cloud, connectivity, communication
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, mde, android, cloud, connectivity, communication
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1a19582073565a958aab444541381f5772b6f4f1
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 5f57d14427ef68280a065489e068955db9e5045a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687607"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934805"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Устранение неполадок в Microsoft Defender для конечной точки на Android
 

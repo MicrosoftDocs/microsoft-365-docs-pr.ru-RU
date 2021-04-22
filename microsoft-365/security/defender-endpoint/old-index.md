@@ -1,7 +1,7 @@
 ---
 title: Защита от угроз (Windows 10)
 description: Microsoft Defender для конечной точки — это унифицированная платформа безопасности для конечных точек, которая обеспечивает превентивную защиту, обнаружение после взлома, автоматическое исследования и реагирование.
-keywords: защита от угроз, расширенный уровень защиты от угроз Microsoft Defender, уменьшение поверхности атаки, защита следующего поколения, обнаружение конечных точек и реагирование, автоматическое расследование и реагирование, эксперты microsoft threat, Microsoft Secure Score для устройств, передовая охота, охота на киберугрозы, защита от веб-угроз
+keywords: защита от угроз, Microsoft Defender для конечной точки, уменьшение поверхности атаки, защита следующего поколения, обнаружение конечных точек и реагирование, автоматическое расследование и реагирование, эксперты microsoft threat, Microsoft Secure Score для устройств, расширенный поиск, охота на киберугрозы, защита от веб-угроз
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 4206519d62feb82bbc297659e01b0cc3902b83dc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3098c2786874650ad14d226beacd5ec760decef0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51069207"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934937"
 ---
 # <a name="threat-protection"></a>Защита от угроз
 [Microsoft Defender для конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection) — это унифицированная платформа безопасности для конечных точек, которая обеспечивает превентивную защиту, обнаружение после взлома, автоматическое исследования и реагирование. Defender for Endpoint защищает конечные точки от киберугроз, обнаруживает расширенные атаки и нарушения данных, автоматизирует инциденты с безопасностью и улучшает осанку безопасности.
@@ -52,14 +52,14 @@ ms.locfileid: "51069207"
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4obJq]
 
-**[Управление & уязвимостей](next-gen-threat-and-vuln-mgt.md)**<br>
+**[Управление контролем угроз и уязвимостями](next-gen-threat-and-vuln-mgt.md)**<br>
 Эта встроенная возможность использует подход к обнаружению, приоритетизации и исправлению уязвимостей конечной точки и неправильной оценки с учетом изменения рисков на основе игры.
 
 - [Обзор управления & уязвимостей](next-gen-threat-and-vuln-mgt.md)
 - [Начало работы](tvm-prerequisites.md)
 - [Доступ к вашей позе безопасности](tvm-dashboard-insights.md)
 - [Улучшение осанки безопасности и снижение риска](tvm-security-recommendation.md)
-- [Понимание уязвимостей на устройствах](tvm-software-inventory.md)
+- [Общие сведения об уязвимостях на ваших устройствах](tvm-software-inventory.md)
 
 <a name="asr"></a>
 
@@ -68,16 +68,16 @@ ms.locfileid: "51069207"
 
 - [Изолирование на основе оборудования](overview-hardware-based-isolation.md)
 - [Элемент управления приложениями](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
-- [Управление устройствами](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Управление устройством](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Защита от эксплойтов](exploit-protection.md)
 - [Защита сети,](network-protection.md) [веб-защита](web-protection-overview.md)
-- [Управляемый доступ к папкам](controlled-folders.md)
+- [Контролируемый доступ к папкам](controlled-folders.md)
 - [Брандмауэр сети](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)
 - [Правила сокращения направлений атак](attack-surface-reduction.md)
 
 <a name="ngp"></a>
 
-**[Защита следующего поколения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
+**[Защита нового поколения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
 Чтобы еще больше усилить периметр безопасности сети, Microsoft Defender для конечной точки использует защиту следующего поколения, предназначенную для улавливания всех типов возникающих угроз.
 
 - [Мониторинг поведения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
@@ -97,8 +97,8 @@ ms.locfileid: "51069207"
 - [Коллекция судебной экспертизы](respond-machine-alerts.md#collect-investigation-package-from-devices)
 - [Сведения об угрозах](threat-indicator-concepts.md)
 - [Расширенные службы детонации и анализа](respond-file-alerts.md#deep-analysis)
-- [Расширенная охота на угрозы](advanced-hunting-overview.md)
-    - [Настраиваемое обнаружение](overview-custom-detections.md)
+- [Расширенная охота](advanced-hunting-overview.md)
+    - [Настраиваемые обнаружения](overview-custom-detections.md)
 
 <a name="ai"></a>
 
@@ -111,7 +111,7 @@ ms.locfileid: "51069207"
 
 <a name="mte"></a>
 
-**[Microsoft Threat Experts](microsoft-threat-experts.md)**<br>
+**[Эксперты Майкрософт по угрозам](microsoft-threat-experts.md)**<br>
 Новая служба управляемой охоты на угрозы в Microsoft Defender для Endpoint предоставляет активную охоту, приоритеты и дополнительные сведения и контекст. Эксперты Microsoft Threat также наделяет центры операций безопасности (SOCs) возможностями для быстрого и точного реагирования на угрозы.
 
 - [Целевое уведомление об атаке](microsoft-threat-experts.md)

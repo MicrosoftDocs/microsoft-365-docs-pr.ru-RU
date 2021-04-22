@@ -1,8 +1,8 @@
 ---
-title: Развертывание обновлений для Microsoft Defender для конечной точки для Linux
+title: Развертывание обновлений для Microsoft Defender для конечной точки в Linux
 ms.reviewer: ''
-description: Описывает развертывание обновлений для Microsoft Defender для конечной точки для Linux в корпоративных средах.
-keywords: Microsoft, defender, atp, Linux, updates, deploy
+description: Описывает развертывание обновлений для Microsoft Defender для конечной точки на Linux в корпоративных средах.
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, updates, deploy
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 77b428e359596e73e08dc04f15190ecf68db29be
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 9cb0c7375b538f502cf6165f13c68fd4b2fdcc64
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861151"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934757"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Развертывание обновлений для Microsoft Defender для конечной точки в Linux
 
@@ -40,12 +40,12 @@ ms.locfileid: "51861151"
 Корпорация Майкрософт регулярно публикует обновления программного обеспечения для повышения производительности, безопасности и предоставления новых функций.
 
 > [!WARNING]
-> Каждая версия Defender для конечной точки для Linux имеет срок действия, после которого он больше не будет продолжать защищать ваше устройство. Необходимо обновить продукт до этой даты. Чтобы проверить срок действия, запустите следующую команду:
+> Каждая версия Defender для конечной точки на Linux имеет срок действия, после которого оно больше не будет продолжать защищать ваше устройство. Необходимо обновить продукт до этой даты. Чтобы проверить срок действия, запустите следующую команду:
 > ```bash
 > mdatp health --field product_expiration
 > ```
 
-Чтобы обновить defender for Endpoint для Linux вручную, выполните одну из следующих команд:
+Чтобы обновить Defender для конечной точки на Linux вручную, выполните одну из следующих команд:
 
 ## <a name="rhel-and-variants-centos-and-oracle-linux"></a>RHEL и варианты (CentOS и Oracle Linux)
 

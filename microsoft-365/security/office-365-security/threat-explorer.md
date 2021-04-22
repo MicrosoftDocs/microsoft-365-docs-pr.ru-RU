@@ -19,12 +19,12 @@ description: Используйте обнаружение explorer и в реж
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c601169d76fe92ac3038ccb25c5c50aa390f714
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 0dcda063fc544c88157cff21b8a28f7a84a6a6fb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599891"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934709"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обнаружение обозревателя угроз и обнаружения в режиме реального времени
 
@@ -520,7 +520,7 @@ Url-сигнал ZAP обычно используется для сценари
 - [Просмотр вредоносных файлов, обнаруженных в SharePoint Online, OneDrive и Microsoft Teams](./mdo-for-spo-odb-and-teams.md)
 - [Обзор представлений в Обозревателе угроз (и обнаружения в режиме реального времени)](threat-explorer-views.md)
 - [отчет о состоянии защиты от угроз](view-email-security-reports.md#threat-protection-status-report);
-- [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](../defender/m365d-autoir.md)
+- [Автоматическое исследование и ответ в Microsoft 365 Defender](../defender/m365d-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>Обязательные лицензии и разрешения
 

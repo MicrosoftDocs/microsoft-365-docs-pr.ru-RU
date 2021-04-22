@@ -2,7 +2,7 @@
 title: Развертывание Microsoft Defender для конечной точки на Linux с помощью Puppet
 ms.reviewer: ''
 description: Описывает развертывание Microsoft Defender для конечной точки на Linux с помощью Puppet.
-keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 413f8113d2f782c0a57d648a6db8178f2e522270
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: d54732134e91b87b2639634c365556beda5312b0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903886"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934577"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Развертывание Microsoft Defender для конечной точки на Linux с помощью Puppet
 
@@ -36,7 +36,7 @@ ms.locfileid: "51903886"
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-В этой статье описывается развертывание Defender для конечной точки для Linux с помощью Puppet. Успешное развертывание требует выполнения всех следующих задач:
+В этой статье описывается развертывание Defender для конечной точки на Linux с помощью Puppet. Успешное развертывание требует выполнения всех следующих задач:
 
 - [Скачайте пакет onboarding](#download-the-onboarding-package)
 - [Создание манифеста Puppet](#create-a-puppet-manifest)
@@ -45,7 +45,7 @@ ms.locfileid: "51903886"
 
 ## <a name="prerequisites-and-system-requirements"></a>Необходимые условия и требования к системе
 
- Описание необходимых условий и системных требований к текущей версии программного обеспечения см. на главной странице [Defender for Endpoint для Linux.](microsoft-defender-endpoint-linux.md)
+ Описание необходимых условий и системных требований к текущей версии программного обеспечения см. в главной странице [Defender for Endpoint на странице Linux.](microsoft-defender-endpoint-linux.md)
 
 Кроме того, для развертывания Puppet необходимо ознакомиться с задачами администрирования Puppet, настроить puppet и уметь развертывать пакеты. Puppet имеет множество способов выполнения одной и той же задачи. В этих инструкциях предполагается наличие поддерживаемых модулей Puppet, например *apt,* которые помогут развернуть пакет. Ваша организация может использовать другой рабочий процесс. Подробные сведения можно найти в [документации Puppet.](https://puppet.com/docs)
 
@@ -79,7 +79,7 @@ ms.locfileid: "51903886"
 
 ## <a name="create-a-puppet-manifest"></a>Создание манифеста Puppet
 
-Необходимо создать манифест Puppet для развертывания Defender для конечной точки для Linux на устройствах, управляемых сервером Puppet. В этом примере используются модули *apt* и *yumrepo,* доступные из кукольных плит, и предполагается, что модули были установлены на сервере Puppet.
+Необходимо создать манифест Puppet для развертывания Defender для конечной точки на Linux на устройствах, управляемых сервером Puppet. В этом примере используются модули *apt* и *yumrepo,* доступные из кукольных плит, и предполагается, что модули были установлены на сервере Puppet.
 
 Создание папок *install_mdatp файлов* и *install_mdatp/манифестов* в папке модулей установки Puppet. Эта папка обычно расположена в */etc/puppetlabs/code/environments/production/modules* на сервере Puppet. Скопируйте mdatp_onboard.jsна созданном выше файле в *папку install_mdatp/файлов.* Создание *init.pp* файл, содержащий инструкции по развертыванию:
 
@@ -103,7 +103,7 @@ install_mdatp
 
 ### <a name="contents-of-install_mdatpmanifestsinitpp"></a>Содержимое файла `install_mdatp/manifests/init.pp`
 
-Защитник для конечной точки для Linux можно развернуть с одного из следующих каналов (обозначается ниже как *[канал]):* *инсайдеры-быстрые,* инсайдеры-медленные или *prod*.  Каждый из этих каналов соответствует репозиторию программного обеспечения Linux.
+Защитник для конечной точки на Linux можно развернуть с одного из следующих каналов (обозначается ниже как *[канал]):* *инсайдеры-быстрые,* инсайдеры-медленные или *prod*.  Каждый из этих каналов соответствует репозиторию программного обеспечения Linux.
 
 Выбор канала определяет тип и частоту обновлений, предлагаемых вашему устройству. Устройства в *инсайдерской* быстрой являются первыми, которые получают обновления и новые функции, а затем инсайдеры *медленно* и, *наконец, prod*.
 
@@ -238,7 +238,7 @@ mdatp health --field healthy
 
 ## <a name="operating-system-upgrades"></a>Обновления операционной системы
 
-При обновлении операционной системы до новой основной версии необходимо сначала удалить Defender для конечной точки для Linux, установить обновление и, наконец, перенастроить Defender для конечной точки для Linux на вашем устройстве.
+При обновлении операционной системы до новой основной версии необходимо сначала удалить Defender для конечной точки на Linux, установить обновление и, наконец, перенастроить Defender для конечной точки на Linux на вашем устройстве.
 
 ## <a name="uninstallation"></a>Uninstallation
 

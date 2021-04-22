@@ -1,7 +1,7 @@
 ---
-title: Onboarding using Microsoft Endpoint Manager
+title: Подключение с помощью Microsoft Endpoint Manager
 description: Узнайте, как учиться в Microsoft Defender для конечной точки с помощью Microsoft Endpoint Manager
-keywords: onboarding, configuration, deploy, deployment, endpoint manager, mdatp, advanced threat protection, collection creation, endpoint detection response, next generation protection, attack surface reduction, Microsoft endpoint manager
+keywords: onboarding, configuration, deploy, deployment, endpoint manager, Microsoft Defender for Endpoint, collection creation, endpoint detection response, next generation protection, attack surface reduction, Microsoft endpoint manager
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,14 +18,14 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9edcceca2f6cc7c2377eb388d7394a23dfbae99d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: e744262cfd63383e69abf02be9fbf91d2d229db2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186261"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935261"
 ---
-# <a name="onboarding-using-microsoft-endpoint-manager"></a>Onboarding using Microsoft Endpoint Manager
+# <a name="onboarding-using-microsoft-endpoint-manager"></a>Подключение с помощью Microsoft Endpoint Manager
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -127,7 +127,7 @@ ms.locfileid: "51186261"
 
 Затем вы продолжите создание нескольких различных типов политик безопасности конечных точек:
 
-- [Защита следующего поколения](#next-generation-protection)
+- [Защита нового поколения](#next-generation-protection)
 - [Сокращение направлений атак](#attack-surface-reduction--attack-surface-reduction-rules)
 
 ### <a name="endpoint-detection-and-response"></a>Обнаружение и устранение угроз на конечных точках
@@ -178,7 +178,7 @@ ms.locfileid: "51186261"
     > [!div class="mx-imgBorder"]
     > ![Изображение портала Microsoft Endpoint Manager11](images/5a568b6878be8243ea2b9d82d41ed297.png)
 
-### <a name="next-generation-protection"></a>Защита следующего поколения
+### <a name="next-generation-protection"></a>Защита нового поколения
 
 1.  Откройте портал MEM.
 
@@ -373,7 +373,7 @@ ms.locfileid: "51186261"
     > [!div class="mx-imgBorder"]
     > [![Изображение Центра безопасности Защитника Майкрософт ](images/df0c64001b9219cfbd10f8f81a273190.png)](images/df0c64001b9219cfbd10f8f81a273190.png#lightbox)
 
-### <a name="next-generation-protection"></a>Защита следующего поколения
+### <a name="next-generation-protection"></a>Защита нового поколения
 
 1.  Прежде чем применять политику на тестовом устройстве, вы должны иметь возможность вручную управлять настройками, как показано ниже.
 

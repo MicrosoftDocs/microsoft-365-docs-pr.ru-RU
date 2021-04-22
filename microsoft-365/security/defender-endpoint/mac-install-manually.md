@@ -1,7 +1,7 @@
 ---
 title: Ручное развертывание для Microsoft Defender для конечной точки на macOS
 description: Установите Microsoft Defender для конечной точки на macOS вручную из командной строки.
-keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e8faf95df6691828558175412a1de8aa844d93f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d8458f1bacc6577d83878a94c24e649371d90038
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688601"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935333"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Ручное развертывание для Microsoft Defender для конечной точки на macOS
 
@@ -164,7 +164,7 @@ ms.locfileid: "51688601"
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    1. Файл должен был быть карантин для Защитника для конечной точки для Mac. Чтобы перечислить все обнаруженные угрозы, используйте следующую команду:
+    1. Файл должен был быть карантин для Защитника для конечной точки на Mac. Чтобы перечислить все обнаруженные угрозы, используйте следующую команду:
 
         ```bash
         mdatp threat list
@@ -207,7 +207,7 @@ ms.locfileid: "51688601"
 
     Система должна отображать следующее сообщение:
 
-    > Microsoft Defender ATP — тестовый файл macOS EDR DIY<br/>
+    > Microsoft Defender для конечной точки — тестовый файл macOS EDR DIY<br/>
     > Соответствующее оповещение будет доступно на портале MDATP.
 
 11. Нажмите кнопку **Open** (Открыть).
@@ -228,4 +228,4 @@ ms.locfileid: "51688601"
 
 ## <a name="uninstallation"></a>Uninstallation
 
-Сведения о том, как удалить Microsoft Defender для конечной точки для macOS с клиентских устройств, см. в материале [Uninstalling.](mac-resources.md#uninstalling)
+Сведения о том, как удалить Microsoft Defender для конечной точки на macOS с клиентских устройств, см. в материале [Uninstalling.](mac-resources.md#uninstalling)

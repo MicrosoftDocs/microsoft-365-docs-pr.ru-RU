@@ -1,7 +1,7 @@
 ---
 title: Получить установленное программное обеспечение
 description: Извлекает коллекцию установленного программного обеспечения, связанного с данным ID устройства.
-keywords: apis, api graph, supported apis, get, list, file, information, software inventory, installed software per device, threat & vulnerability management api, mdatp tvm api
+keywords: apis, api графика, поддерживаемые apis, get, list, file, information, software inventory, installed software per device, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6164020ef05561563fe0434bd2edac8c7b3e689a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ebd689fd53dd804f857c6bec7a412c27988835d0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166812"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935117"
 ---
 # <a name="get-installed-software"></a>Получить установленное программное обеспечение
 
@@ -46,7 +46,7 @@ ms.locfileid: "51166812"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |Software.Read.All |    'Read Threat and Vulnerability Management Software information'
-Делегированное (рабочая или учебная учетная запись) | Software.Read |    'Read Threat and Vulnerability Management Software information'
+Делегированные (рабочая или учебная учетная запись) | Software.Read |    'Read Threat and Vulnerability Management Software information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -57,7 +57,7 @@ GET /api/machines/{machineId}/software
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

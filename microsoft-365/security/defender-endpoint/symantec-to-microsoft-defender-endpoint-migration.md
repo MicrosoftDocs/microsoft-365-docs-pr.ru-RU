@@ -1,7 +1,7 @@
 ---
 title: Перенос из Symantec в Microsoft Defender для конечной точки
 description: Сведения о том, как перейти из Symantec в Microsoft Defender для конечной точки
-keywords: миграция, защита от угроз защитника Windows, atp, edr
+keywords: миграция, Microsoft Defender для конечной точки, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 6517359c805bb449d075e401283a79a791461630
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: 587cf49ddc8d6135047fbb5e0207ed0f94d1dbe0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218804"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934733"
 ---
 # <a name="migrate-from-symantec-to-microsoft-defender-for-endpoint"></a>Перенос из Symantec в Microsoft Defender для конечной точки
 Если вы планируете перейти с Symantec Endpoint Protection (Symantec) на [Microsoft Defender для](https://docs.microsoft.com/windows/security/threat-protection) конечной точки (Microsoft Defender для конечной точки), вы находитесь в правильном месте. Используйте эту статью в качестве руководства.
@@ -58,12 +58,12 @@ ms.locfileid: "51218804"
 
 | Feature/Capability | Описание |
 |---|---|
-| [Управление & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | Возможности управления & уязвимостей помогают выявлять, оценивать и устранять недостатки в конечных точках (например, устройствах). |
+| [Управление контролем угроз и уязвимостями](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | Возможности управления & уязвимостей помогают выявлять, оценивать и устранять недостатки в конечных точках (например, устройствах). |
 | [Сокращение направлений атак](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction) | Правила уменьшения поверхности атаки помогают защитить устройства и приложения организации от киберугроз и атак. |
-| [Защита следующего поколения](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) | Защита следующего поколения включает антивирус Microsoft Defender, который помогает блокировать угрозы и вредоносные программы. |
+| [Защита нового поколения](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) | Защита следующего поколения включает антивирус Microsoft Defender, который помогает блокировать угрозы и вредоносные программы. |
 | [Обнаружение и устранение угроз на конечных точках](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) | Возможности обнаружения и реагирования конечной точки обнаруживают, исследуют и реагируют на попытки вторжения и активные нарушения.  |
-| [Расширенная охота на угрозы](advanced-hunting-overview.md) | Расширенные возможности охоты позволяют группе операций безопасности находить индикаторы и объекты известных или потенциальных угроз. |
-| [Блокировка и сдерживание поведения](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | Возможности поведенческой блокировки и сдерживания помогают выявлять и останавливать угрозы, основываясь на их поведении и деревьях обработки даже при выполнении угрозы. |
+| [Расширенная охота](advanced-hunting-overview.md) | Расширенные возможности охоты позволяют группе операций безопасности находить индикаторы и объекты известных или потенциальных угроз. |
+| [Блокировка с учетом поведения и автономность](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | Возможности поведенческой блокировки и сдерживания помогают выявлять и останавливать угрозы, основываясь на их поведении и деревьях обработки даже при выполнении угрозы. |
 | [Автоматическое исследование и защита](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations) | Возможности автоматического расследования и реагирования проверяют оповещения и принимают незамедлительных действий по устранению нарушений. |
 | [Служба охоты на угрозы](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts) (Эксперты по угрозам Майкрософт) | Службы охоты на угрозы предоставляют группам операций безопасности мониторинг и анализ на уровне экспертов, а также для обеспечения того, чтобы критические угрозы не были пропущены. |
 

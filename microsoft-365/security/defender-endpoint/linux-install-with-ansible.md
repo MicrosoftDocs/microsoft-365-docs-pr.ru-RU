@@ -2,7 +2,7 @@
 title: Развертывание Microsoft Defender для конечной точки на Linux с помощью Ansible
 ms.reviewer: ''
 description: Описывает, как развернуть Microsoft Defender для конечной точки на Linux с помощью Ansible.
-keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 697fcddad595c6883fe1e1f7258ca6154c48b94d
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 15ee02d90e81c48bf5ec718e669bf8f88f6424ff
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903908"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934781"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Развертывание Microsoft Defender для конечной точки на Linux с помощью Ansible
 
@@ -36,7 +36,7 @@ ms.locfileid: "51903908"
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-В этой статье описывается развертывание Defender для конечной точки для Linux с помощью Ansible. Успешное развертывание требует выполнения всех следующих задач:
+В этой статье описывается развертывание Defender для конечной точки на Linux с помощью Ansible. Успешное развертывание требует выполнения всех следующих задач:
 
 - [Скачайте пакет onboarding](#download-the-onboarding-package)
 - [Создание файлов YaML ansible](#create-ansible-yaml-files)
@@ -45,7 +45,7 @@ ms.locfileid: "51903908"
 
 ## <a name="prerequisites-and-system-requirements"></a>Необходимые условия и требования к системе
 
-Перед началом работы см. на главной странице [Defender for Endpoint для Linux](microsoft-defender-endpoint-linux.md) описание необходимых условий и системных требований к текущей версии программного обеспечения.
+Перед началом работы см. в главной странице [Defender for Endpoint](microsoft-defender-endpoint-linux.md) на странице Linux описание необходимых условий и системных требований к текущей версии программного обеспечения.
 
 Кроме того, для развертывания Ansible необходимо ознакомиться с задачами администрирования Ansible, настроить ansible и уметь развертывать книги и задачи. Ansible имеет множество способов выполнения одной и той же задачи. Эти инструкции предполагают доступность поддерживаемых модулей Ansible, таких как *apt* и *unarchive* для развертывания пакета. Ваша организация может использовать другой рабочий процесс. Дополнительные сведения можно найти в [документации Ansible.](https://docs.ansible.com/)
 
@@ -129,7 +129,7 @@ ms.locfileid: "51903908"
 
 - Добавьте репозиторий Defender для конечной точки и ключ.
 
-    Защитник для конечной точки для Linux можно развернуть с одного из следующих каналов (обозначается ниже как *[канал]):* *инсайдеры-быстрые,* инсайдеры-медленные или *prod*.  Каждый из этих каналов соответствует репозиторию программного обеспечения Linux.
+    Защитник для конечной точки на Linux можно развернуть с одного из следующих каналов (обозначается ниже как *[канал]):* *инсайдеры-быстрые,* инсайдеры-медленные или *prod*.  Каждый из этих каналов соответствует репозиторию программного обеспечения Linux.
 
     Выбор канала определяет тип и частоту обновлений, предлагаемых вашему устройству. Устройства в *инсайдерской* быстрой являются первыми, которые получают обновления и новые функции, а затем инсайдеры *медленно* и, *наконец, prod*.
 
@@ -271,7 +271,7 @@ ms.locfileid: "51903908"
 
 ## <a name="operating-system-upgrades"></a>Обновления операционной системы
 
-При обновлении операционной системы до новой основной версии необходимо сначала удалить Defender для конечной точки для Linux, установить обновление и, наконец, перенастроить Defender для конечной точки для Linux на вашем устройстве.
+При обновлении операционной системы до новой основной версии необходимо сначала удалить Defender для конечной точки на Linux, установить обновление и, наконец, перенастроить Defender для конечной точки на Linux на вашем устройстве.
 
 ## <a name="references"></a>Ссылки
 

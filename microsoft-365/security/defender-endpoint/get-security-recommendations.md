@@ -1,7 +1,7 @@
 ---
 title: Получить рекомендации по безопасности
 description: Извлекает коллекцию рекомендаций по безопасности, связанных с данным ID устройства.
-keywords: apis, api графа, поддерживаемые apis, get, list, file, information, security recommendation per device, threat & vulnerability management api, mdatp tvm api
+keywords: apis, graph api, supported apis, get, list, file, information, security recommendation per device, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6c65926985c7c8a194ab87c44c3fc269488c463c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bc209687d51b3e05bfcfd6028042ba5912b877f6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199774"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935309"
 ---
 # <a name="get-security-recommendations"></a>Получить рекомендации по безопасности
 
@@ -42,8 +42,8 @@ ms.locfileid: "51199774"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application | SecurityRecommendation.Read.All | 'Read Threat and Vulnerability Management security recommendation information'
-Делегированное (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
+Приложение | SecurityRecommendation.Read.All | 'Read Threat and Vulnerability Management security recommendation information'
+Делегированные (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -54,7 +54,7 @@ GET /api/machines/{machineId}/recommendations
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса
@@ -109,6 +109,6 @@ GET https://api.securitycenter.microsoft.com/api/machines/ac233fa6208e1579620bf4
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Рекомендация по & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation)

@@ -1,7 +1,7 @@
 ---
 title: Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune
 description: Описывает развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune
-keywords: Microsoft, defender, atp, mde, android, installation, deploy, uninstallation,
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, mde, android, installation, deploy, uninstallation,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 350345acbaadcdd6bc8ef901f03c419a7f8decff
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f14d79d98bfffda675cd71b96068b179f30f059e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687725"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934637"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune 
 
@@ -34,18 +34,18 @@ ms.locfileid: "51687725"
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
-Узнайте, как развернуть устройства Для Конечной точки Defender для Android на зарегистрированных устройствах портала компаний Intune. Дополнительные сведения о регистрации устройств Intune см. в [записи устройства.](https://docs.microsoft.com/mem/intune/user-help/enroll-device-android-company-portal)
+Узнайте, как развернуть Defender для конечной точки на Android на зарегистрированных устройствах портала компаний Intune. Дополнительные сведения о регистрации устройств Intune см. в [записи устройства.](https://docs.microsoft.com/mem/intune/user-help/enroll-device-android-company-portal)
 
 > [!NOTE]
-> **Защитник для конечной точки для Android теперь доступен в [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.scmx)** <br>
+> **Защитник для конечной точки на Android теперь доступен в [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.scmx)** <br>
 > Вы можете подключиться к Google Play из Intune, чтобы развернуть приложение Defender for Endpoint в режимах entrollment администратора устройств и Android Enterprise.
 Обновления приложения автоматически обновляются с помощью Google Play.
 
 ## <a name="deploy-on-device-administrator-enrolled-devices"></a>Развертывание на зарегистрированных устройствах администратора устройств
 
-**Развертывание Defender для конечной точки для Android на портале компании Intune — устройства администратора устройств**
+**Развертывание Defender для конечной точки на Android на портале компании Intune — устройства администратора устройств**
 
-Узнайте, как развернуть устройства Defender для конечной точки для Android на портале компании Intune — устройства администратора устройств. 
+Узнайте, как развернуть Defender для конечной точки на Android на портале компании Intune — устройствах администратора устройств. 
 
 ### <a name="add-as-android-store-app"></a>Добавление приложения в магазине Android
 
@@ -55,7 +55,7 @@ ms.locfileid: "51687725"
 
 2. На странице **Добавление приложения** и в разделе Сведения *о приложении* введите: 
 
-   - **Name** 
+   - **Название** 
    - **Описание**
    - **Издатель** в качестве Microsoft.
    - **URL-адрес магазина приложений** как (URL-адрес магазина https://play.google.com/store/apps/details?id=com.microsoft.scmx Приложений Для конечной точки в Google Play Store) 
@@ -64,7 +64,7 @@ ms.locfileid: "51687725"
 
    ![Изображение Центра администрирования конечных точек Microsoft Endpoint Manager добавить сведения о приложениях](images/mda-addappinfo.png)
 
-3. В разделе *Назначения* перейдите в **необходимый** раздел и выберите **группу Добавить.** Затем вы можете выбрать группу пользователей, которую вы хотите использовать для приложения Defender для конечной точки для Android. Выберите **Выберите и** затем **далее**.
+3. В разделе *Назначения* перейдите в **необходимый** раздел и выберите **группу Добавить.** Затем можно выбрать группу пользователей, которую вы хотите нацелить на Defender для конечной точки на Android-приложении. Выберите **Выберите и** затем **далее**.
 
     >[!NOTE]
     >Выбранная группа пользователей должна состоять из зарегистрированных пользователей Intune.
@@ -86,11 +86,11 @@ ms.locfileid: "51687725"
 
 ### <a name="complete-onboarding-and-check-status"></a>Полное состояние onboarding и проверки
 
-1. После установки защитника для конечной точки для Android на устройстве вы увидите значок приложения.
+1. После установки защитника для конечной точки на Android на устройстве вы увидите значок приложения.
 
     ![Значок на мобильном устройстве](images/7cf9311ad676ec5142002a4d0c2323ca.jpg)
 
-2. Нажмите значок приложения ATP Защитника Майкрософт и выполните инструкции на экране для завершения работы над приложением. Подробные сведения включают принятие конечным пользователем разрешений на Android, необходимых Defender для конечной точки для Android.
+2. Нажмите значок приложения Microsoft Defender для конечной точки и выполните инструкции на экране для завершения работы над приложением. Подробные сведения включают принятие конечным пользователем разрешений на Android, необходимых Defender для конечной точки на Android.
 
 3. После успешного взбора устройство начнет появляться в списке Устройств в Центре безопасности Microsoft Defender.
 
@@ -98,7 +98,7 @@ ms.locfileid: "51687725"
 
 ## <a name="deploy-on-android-enterprise-enrolled-devices"></a>Развертывание на устройствах, зарегистрированных на Android Enterprise
 
-Defender for Endpoint для Android поддерживает зарегистрированные устройства Android Enterprise.
+Defender for Endpoint на Android поддерживает зарегистрированные устройства Android Enterprise.
 
 Дополнительные сведения о вариантах регистрации, поддерживаемых Intune, см. в дополнительных [сведениях о параметрах регистрации.](https://docs.microsoft.com/mem/intune/enrollment/android-enroll)
 
@@ -126,7 +126,7 @@ Defender for Endpoint для Android поддерживает зарегистр
 
     ![Снимок экрана утверждения приложения предварительного просмотра Defender для конечной точки](images/206b3d954f06cc58b3466fb7a0bd9f74.png)
 
-5. Вам будет представлена страница Параметры утверждения. Страница подтверждает ваше предпочтение обработки разрешений на новые приложения, которые может спросить Defender for Endpoint для Android. Просмотрите выбор и выберите предпочтительный вариант. Нажмите кнопку **Готово**.
+5. Вам будет представлена страница Параметры утверждения. Страница подтверждает ваше предпочтение обработки разрешений на новые приложения, которые может спросить Defender для конечной точки на Android. Просмотрите выбор и выберите предпочтительный вариант. Нажмите кнопку **Готово**.
 
     По умолчанию управляемый Google Play выбирает *Keep approved, когда приложение запрашивает новые разрешения.*
 
@@ -142,7 +142,7 @@ Defender for Endpoint для Android поддерживает зарегистр
 
     ![Изображение приложения Android](images/9fc07ffc150171f169dc6e57fe6f1c74.png)
 
-8. Выберите **кнопку Обновить** на экране приложений Android, а в списке приложений должна быть видна atP Microsoft Defender.
+8. Выберите **кнопку "Обновление"** на экране приложений Android, а Microsoft Defender для конечной точки должна быть видна в списке приложений.
 
     > [!div class="mx-imgBorder"]
     > ![Изображение списка приложений для Android](images/fa4ac18a6333335db3775630b8e6b353.png)
@@ -155,7 +155,7 @@ Defender for Endpoint для Android поддерживает зарегистр
 
     1. На странице **Создание политики конфигурации приложений** введите следующие сведения:
     
-        - Имя: ATP Защитника Майкрософт.
+        - Имя: Microsoft Defender для конечной точки.
         - Выберите **Android Enterprise в** качестве платформы.
         - Выберите **профиль работы только** в виде типа профиля.
         - Щелкните **Выберите приложение,** выберите **ATP Защитника Microsoft,** выберите **ОК** и **далее**.
@@ -223,9 +223,9 @@ Defender for Endpoint поддерживает политики конфигур
 - Включай установку **VPN-клиента always-on** в профиле работы для автоматического подключения и подключения к VPN по мере возможности. Только один VPN-клиент может быть настроен для всегда на VPN на заданных устройствах, поэтому не забудьте иметь не более одной политики VPN, развернутой на одном устройстве. 
 - Выберите **Настраиваемый** в списке выпаданий vpn-клиентов Настраиваемый VPN, в данном случае это VPN Defender for Endpoint, который используется для предоставления функции веб-защиты. 
     > [!NOTE]
-    > Приложение ATP Защитника Майкрософт должно быть установлено на устройстве пользователя для функционирования автоматической установки этого VPN.
+    > Приложение Microsoft Defender для конечной точки должно быть установлено на устройстве пользователя для функционирования автоматической установки этого VPN.
 
-- Введите **ID пакета** приложения ATP Microsoft Defender в магазине Google Play. Для URL-адреса приложения Defender ID пакета https://play.google.com/store/apps/details?id=com.microsoft.scmx **— com.microsoft.scmx**  
+- Введите **ID пакета** приложения Microsoft Defender для конечной точки в магазине Google Play. Для URL-адреса приложения Defender ID пакета https://play.google.com/store/apps/details?id=com.microsoft.scmx **— com.microsoft.scmx**  
 - **Режим блокировки** Не настроен (по умолчанию) 
 
      ![Изображение профиля конфигурации устройств позволяет всегда на VPN](images/3autosetupofvpn.png)
@@ -254,11 +254,11 @@ Defender for Endpoint поддерживает политики конфигур
 
     ![Изображение мобильного устройства с приложением Microsoft Defender для конечной точки](images/mda-devicesafe.png)
 
-4. На данном этапе устройство успешно вошел в Defender для конечной точки для Android. Это можно проверить в [Центре безопасности Защитника Майкрософт,](https://securitycenter.microsoft.com) перенаходив на страницу **Устройства.**
+4. На данном этапе устройство успешно вмеется в Defender для конечной точки на Android. Это можно проверить в [Центре безопасности Защитника Майкрософт,](https://securitycenter.microsoft.com) перенаходив на страницу **Устройства.**
 
     ![Изображение портала Microsoft Defender для конечных точек](images/9fe378a1dce0f143005c3aa53d8c4f51.png)
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md)
-- [Настройка Microsoft Defender для конечной точки на android-функции](android-configure.md)
+- [Настройка функций Microsoft Defender для конечной точки на Android](android-configure.md)

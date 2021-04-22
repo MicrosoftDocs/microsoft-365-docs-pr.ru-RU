@@ -1,8 +1,8 @@
 ---
-title: Условия лицензии Microsoft Defender ATP для Android-приложений
+title: Microsoft Defender для конечной точки на условиях лицензии android-приложения
 ms.reviewer: ''
-description: Описывает условия лицензии Microsoft Defender для Android
-keywords: Microsoft, defender, atp, android,license, terms, application, use, installation, service, feedback, scope,
+description: Описывает термины Лицензии Microsoft Defender для конечной точки на Android
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Android, license, terms, application, use, installation, service, feedback, scope,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: 2bcc8c1f977a6060ac94dc3a634f075a5c1ee041
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d73ddb3a8defb7697a995c2593d6a240a59c9cfe
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687953"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934625"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Microsoft Defender для конечной точки на условиях лицензии на приложения Для Android
 
@@ -105,7 +105,7 @@ ms.locfileid: "51687953"
 
     2.  Соответствующий поставщик магазинов приложений и его дочерние компании являются сторонними бенефициарами этих Терминов, и после принятия этих Условий поставщик магазина приложений (ы) будет иметь право непосредственно применять и полагаться на любое положение этих Терминов, которое предоставляет им преимущества или права.
 
-9.  **УВЕДОМЛЕНИЯ ТОРГОВОЙ МАРКИ.** Microsoft, Microsoft Defender ATP, MDATP и Microsoft 365 зарегистрированы или являются обычными товарными знаками корпорации Майкрософт в США и/или других странах.
+9.  **УВЕДОМЛЕНИЯ ТОРГОВОЙ МАРКИ.** Microsoft, Microsoft Defender для конечной точки и Microsoft 365 зарегистрированы или зарегистрированы товарными знаками корпорации Майкрософт в США и/или других странах.
 
 10. **ENTIRE AGREEMENT.** Это соглашение и условия для добавок, обновлений, интернет-служб и служб поддержки, которые вы используете, являются всем соглашением для служб приложения и поддержки.
 

@@ -1,7 +1,7 @@
 ---
 title: Список всех рекомендаций
 description: Извлекает список всех рекомендаций по безопасности, влияющих на организацию.
-keywords: apis, graph api, supported apis, get, security recommendations, mdatp tvm api, threat and vulnerability management, threat and vulnerability management api
+keywords: apis, graph api, supported apis, get, security recommendations, Microsoft Defender for Endpoint tvm api, threat and vulnerability management, threat and vulnerability management api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5fb68572ee1b154be1db5eb5a092013a1c1a257e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0cb0a1f8a42b419db960e5097667c335bf7f7877
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166915"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935021"
 ---
 # <a name="list-all-recommendations"></a>Список всех рекомендаций
 
@@ -47,7 +47,7 @@ ms.locfileid: "51166915"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |   SecurityRecommendation.Read.All |   'Read Threat and Vulnerability Management security recommendation information'
-Делегированное (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
+Делегированные (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -58,7 +58,7 @@ GET /api/recommendations
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

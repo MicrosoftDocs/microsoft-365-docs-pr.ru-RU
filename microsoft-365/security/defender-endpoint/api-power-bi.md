@@ -1,5 +1,5 @@
 ---
-title: Подключение API API ДЛЯ AP Защитника Майкрософт к Power BI
+title: Microsoft Defender для подключения API конечных точек к Power BI
 ms.reviewer: ''
 description: Создайте отчет Power Business Intelligence (BI) поверх API Microsoft Defender для конечных точек.
 keywords: apis, поддерживаемые apis, Power BI, отчеты
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 696782ca03e5494c3fc5ca08943d1079c5d78f8a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7c99267d75c89b3484d207cd763131e4bcc91527
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167035"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935045"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Создание настраиваемой отчетности с помощью Power BI
 
@@ -141,7 +141,7 @@ ms.locfileid: "51167035"
 Дополнительные сведения см. в шаблонах [отчетов Power BI.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>Примеры отчетов
-Просмотреть примеры отчетов о power BI Microsoft Defender ATP Power. Дополнительные сведения см. в [обзоре примеров кода.](https://docs.microsoft.com/samples/browse/?products=mdatp)
+Просмотр примеров отчетов Microsoft Defender для конечной точки power BI. Дополнительные сведения см. в [обзоре примеров кода.](https://docs.microsoft.com/samples/browse/?products=mdatp)
 
 
 ## <a name="related-topic"></a>Связанная тема

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/06/2020
 ms.technology: mde
-ms.openlocfilehash: 3a26951a796d72237f992e520e1b793654e467e3
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: c4cdc80170b49a111f476d2d17222c41e2b5c55f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893405"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935369"
 ---
 # <a name="fix-unhealthy-sensors-in-microsoft-defender-for-endpoint"></a>Исправление нездоровых датчиков в Microsoft Defender для конечной точки
 
@@ -66,7 +66,7 @@ ms.locfileid: "51893405"
 Следующие предлагаемые действия могут помочь устранить проблемы, связанные с неправильно сконфигурованным устройством с нарушениями связи:
 
 - [Убедитесь, что устройство подключено к Интернету](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
-  Датчик ATP защитника окна требует от Microsoft Windows HTTP (WinHTTP) сообщать данные датчиков и общаться с службой Microsoft Defender для конечных точек.
+  Для использования датчика Microsoft Defender для конечной точки требуется Microsoft Windows HTTP (WinHTTP), чтобы передавать данные датчика и общаться со службой Microsoft Defender для конечной точки.
 
 - [Проверка подключения клиента к URL-адресам службы Microsoft Defender для конечных точек](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Убедитесь, что конфигурация прокси успешно завершена, что WinHTTP может обнаруживаться и общаться через прокси-сервер в вашей среде, и что прокси-сервер позволяет трафик на URL-адреса службы Microsoft Defender для конечной точки.
@@ -78,7 +78,7 @@ ms.locfileid: "51893405"
 Выполните действия по исправлению известных проблем, связанных с неправильно сконфигурованным устройством со статусом "Нет данных датчика":
 
 - [Убедитесь, что устройство подключено к Интернету](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
-  Датчик ATP защитника окна требует от Microsoft Windows HTTP (WinHTTP) сообщать данные датчиков и общаться с службой Microsoft Defender для конечных точек.
+  Для использования датчика Microsoft Defender для конечной точки требуется Microsoft Windows HTTP (WinHTTP), чтобы передавать данные датчика и общаться со службой Microsoft Defender для конечной точки.
 
 - [Проверка подключения клиента к URL-адресам службы Microsoft Defender для конечных точек](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Убедитесь, что конфигурация прокси успешно завершена, что WinHTTP может обнаруживаться и общаться через прокси-сервер в вашей среде, и что прокси-сервер позволяет трафик на URL-адреса службы Microsoft Defender для конечной точки.

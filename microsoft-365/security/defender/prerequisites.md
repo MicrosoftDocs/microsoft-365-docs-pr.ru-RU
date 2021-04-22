@@ -1,7 +1,7 @@
 ---
 title: Предпосылки Microsoft 365 Defender
 description: Узнайте о требованиях к лицензированию, оборудованию и программному обеспечению и других параметрах конфигурации для Microsoft 365 Defender
-keywords: требования, необходимые условия, оборудование, программное обеспечение, браузер, MTP, M365, лицензия, E5, A5, EMS, покупка
+keywords: требования, необходимые условия, оборудование, программное обеспечение, браузер, Microsoft 365 Defender, M365, лицензия, E5, A5, EMS, покупка
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f9904ecb5b9ab0a0f634903a5dc0ee3049d06b38
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 930a3de078d6d003241bb6fcd5df71bc9f301962
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074782"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935609"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Предпосылки Microsoft 365 Defender
 
@@ -60,7 +60,7 @@ ms.locfileid: "51074782"
 >[!NOTE]
 > Для получения сведений о  лицензии  вам необходимо на должность администратора биллинга или глобального читателя в [Azure AD.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.
 
-## <a name="required-permissions"></a>Необходимые разрешения
+## <a name="required-permissions"></a>Обязательные разрешения
 Вы должны быть глобальным **администратором** или **администратором** безопасности в Azure Active Directory, чтобы включить Microsoft 365 Defender. Список ролей, необходимых для использования защитника Microsoft 365, а также сведения о регулировании доступа к данным, читайте в материале Об управлении доступом к [Microsoft 365 Defender.](m365d-permissions.md)
 
 ## <a name="browser-requirements"></a>Требования к браузеру
@@ -73,7 +73,7 @@ ms.locfileid: "51074782"
 - Министерство обороны США
 - Все государственные учреждения США с коммерческими лицензиями
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор Защитника Microsoft 365](microsoft-365-defender.md)
-- [Включив защитник Microsoft 365](m365d-enable.md)
+- [Включение Microsoft 365 Defender](m365d-enable.md)
 - [Управление доступом и разрешениями](m365d-permissions.md)

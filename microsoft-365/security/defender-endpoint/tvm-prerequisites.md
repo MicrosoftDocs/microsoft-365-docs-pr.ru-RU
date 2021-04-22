@@ -1,7 +1,7 @@
 ---
 title: Необходимые & разрешения — управление угрозами и уязвимостью
 description: Прежде чем приступить к использованию управления угрозами и уязвимостями, убедитесь, что у вас есть соответствующие конфигурации и разрешения.
-keywords: Необходимые & управления уязвимостями, необходимые для управления разрешениями на угрозы и уязвимости, предварительные условия разрешений MDATP TVM, управление уязвимостями
+keywords: необходимые & для управления рисками уязвимостей, необходимые условия для управления разрешениями на угрозы и уязвимости, предварительные условия разрешений Microsoft Defender для endpoint TVM, управление уязвимостями
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1d9c3233f72541ccd0463eefef93bde5e7d9900f
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0df348e3a5564720468d95d7b23578f9dcad9294
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499964"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935189"
 ---
 # <a name="prerequisites--permissions---threat-and-vulnerability-management"></a>Необходимые & разрешения — управление угрозами и уязвимостью
 

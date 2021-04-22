@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb5a9a4d35af2d400cdff1e417727e662738514e
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ee06f927579445825a2b2813e483c24357d2ed78
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861351"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934925"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>На борту устройств без доступа к Интернету в Microsoft Defender для конечной точки
 
@@ -73,7 +73,7 @@ ms.locfileid: "51861351"
       - Настройка IP-адреса Azure Log Analytics в качестве прокси-сервера
       - Ключ рабочего пространства azure Log Analytics & ID
 
-    - Центр безопасности Azure (ASC)
+    - Azure Defender
       - [Рабочее пространство \> журнала журналов политики безопасности](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
       - [Обнаружение угроз \> позволяет защитнику конечной точки получать доступ к моим данным](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
 

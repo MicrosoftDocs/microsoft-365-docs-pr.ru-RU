@@ -1,7 +1,7 @@
 ---
 title: Symantec в Microsoft Defender для конечной точки — этап 2, настройка
 description: Это этап 2, установка, переноса из Symantec в Microsoft Defender для конечной точки
-keywords: миграция, защита от угроз защитника Windows, atp, edr
+keywords: миграция, Microsoft Defender для конечной точки, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 6d45e3aa0d3bf938e43201aca969613876ef1f31
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: 755eb54f848e0cc5da3ca1b7b613a951c77d0b4c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218716"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935237"
 ---
 # <a name="migrate-from-symantec---phase-2-set-up-microsoft-defender-for-endpoint"></a>Миграция из Symantec — этап 2. Настройка Microsoft Defender для конечной точки
 
@@ -34,7 +34,7 @@ ms.locfileid: "51218716"
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-|[![Этап 1. Подготовка](images/phase-diagrams/prepare.png)](symantec-to-microsoft-defender-atp-prepare.md)<br/>[Этап 1. Подготовка](symantec-to-microsoft-defender-atp-prepare.md) |![Этап 2. Настройка](images/phase-diagrams/setup.png)<br/>Этап 2. Настройка |[![Этап 3. На борту](images/phase-diagrams/onboard.png)](symantec-to-microsoft-defender-atp-onboard.md)<br/>[Этап 3. На борту](symantec-to-microsoft-defender-atp-onboard.md) |
+|[![Этап 1. Подготовка](images/phase-diagrams/prepare.png)](symantec-to-microsoft-defender-atp-prepare.md)<br/>[Этап 1. Подготовка](symantec-to-microsoft-defender-atp-prepare.md) |![Этап 2. Настройка](images/phase-diagrams/setup.png)<br/>Этап 2. Настройка |[![Этап 3. Подключение](images/phase-diagrams/onboard.png)](symantec-to-microsoft-defender-atp-onboard.md)<br/>[Этап 3. Подключение](symantec-to-microsoft-defender-atp-onboard.md) |
 |--|--|--|
 ||*Вы здесь!* | |
 
@@ -74,7 +74,7 @@ ms.locfileid: "51218716"
 
    > [!NOTE]
    > При использовании команды DISM в последовательности задач под управлением PS требуется следующий путь к cmd.exe.
-   > Пример.<br/>
+   > Пример:<br/>
    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<br/>
    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
 3. Чтобы убедиться, что антивирус Microsoft Defender запущен, используйте следующий cmdlet PowerShell: <br/>
@@ -87,7 +87,7 @@ ms.locfileid: "51218716"
 `mpcmdrun -wdenable`
 
 > [!TIP]
-> Требуется дополнительная помощь? См. [антивирус Microsoft Defender на Windows Server 2016 и 2019](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016).
+> Остались вопросы? См. [антивирус Microsoft Defender на Windows Server 2016 и 2019](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016).
 
 ### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>Установите антивирус Microsoft Defender в пассивный режим на Windows Server
 
@@ -115,7 +115,7 @@ ms.locfileid: "51218716"
 |---------|---------|
 |[Intune](https://docs.microsoft.com/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**ПРИМЕЧАНИЕ.** Intune теперь является Microsoft Endpoint Manager. |1. Перейдите в центр администрирования [конечной](https://go.microsoft.com/fwlink/?linkid=2109431) точки Microsoft Manager и войдите.<br/>2. **Выберите профили конфигурации** устройств и выберите тип профиля, который  >  необходимо настроить. Если вы еще не  создали тип профиля ограничения устройств или хотите создать новый, см. в странице Настройка параметров ограничения устройств в [Microsoft Intune.](https://docs.microsoft.com/intune/device-restrictions-configure)<br/>3. Выберите **свойства,** а затем выберите **параметры конфигурации: Изменить**.<br/>4. Расширение **антивируса Microsoft Defender**. <br/>5. Включить **облачную защиту.**<br/>6. В **запросных пользователях перед** отсевом образца отправки выберите отправку всех **образцов автоматически.**<br/>7. При **обнаружении потенциально нежелательных** приложений при отсеве выберите **Включить** или **Аудит.**<br/>8. **Выберите обзор + сохранить,** а затем выберите **Сохранить**.<br/>Дополнительные сведения о профилях устройств Intune, в том числе о создании и настройке параметров, см. в странице [What are Microsoft Intune device profiles?.](https://docs.microsoft.com/intune/device-profiles)|
 |Панель управления в Windows     |Следуйте указаниям здесь: [Включи антивирус Microsoft Defender](https://docs.microsoft.com/mem/intune/user-help/turn-on-defender-windows). <br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.*        |
-|[Расширенное управление групповыми политиками](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) <br/>или<br/>[Консоль управления групповой политикой](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  |1. Перейдите к `Computer configuration > Administrative templates > Windows components > Microsoft Defender Antivirus` . <br/>2. Найди политику, называемую **отключением антивируса Microsoft Defender.**<br/>3. **Выберите параметр политики редактирования** и убедитесь, что политика отключена. Это позволяет антивирус Microsoft Defender. <br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.* |
+|[Расширенное управление групповыми политиками](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) <br/>Кроме того:<br/>[Консоль управления групповой политикой](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  |1. Перейдите к `Computer configuration > Administrative templates > Windows components > Microsoft Defender Antivirus` . <br/>2. Найди политику, называемую **отключением антивируса Microsoft Defender.**<br/>3. **Выберите параметр политики редактирования** и убедитесь, что политика отключена. Это позволяет антивирус Microsoft Defender. <br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.* |
 
 ### <a name="verify-that-microsoft-defender-antivirus-is-in-passive-mode"></a>Убедитесь, что антивирус Microsoft Defender находится в пассивном режиме
 

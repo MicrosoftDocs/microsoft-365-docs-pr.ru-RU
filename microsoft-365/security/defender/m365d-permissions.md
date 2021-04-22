@@ -1,7 +1,7 @@
 ---
 title: Управление доступом к данным Microsoft 365 Defender в центре безопасности Microsoft 365
 description: Узнайте, как управлять разрешениями на данные в Microsoft 365 Defender
-keywords: доступ, разрешения, MTP, Защита от угроз (Майкрософт), Microsoft 365, безопасность, MCAS, MDATP, Cloud App Security, Advanced Threat Protection в Microsoft Defender, область, определение области, RBAC
+keywords: доступ, разрешения, Microsoft 365 Defender, M365, security, MCAS, Cloud App Security, Microsoft Defender for Endpoint, scope, scoping, RBAC
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e1be2cf4d5510b2a31a61f848d7d99d6a6704d49
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 52e4e9fc8c73d1adca0c24c5bebb50f9dcf7ac6f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076653"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935633"
 ---
 # <a name="manage-access-to-microsoft-365-defender-with-azure-active-directory-global-roles"></a>Управление доступом к Microsoft 365 Defender с глобальными ролями Azure Active Directory
 
@@ -66,7 +66,7 @@ ms.locfileid: "51076653"
 ### <a name="microsoft-cloud-app-security-access-controls"></a>Элементы управления доступом в Microsoft Cloud App Security
 Во время предварительного просмотра Microsoft 365 Defender не применяет элементы управления доступом на основе параметров безопасности облачных приложений. На доступ к данным Microsoft 365 Defender эти параметры не влияют.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Настраиваемые роли в области управления доступом на основе ролей для Защитника Microsoft 365](custom-roles.md)
 - [Роли Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 - [Microsoft Defender для endpoint RBAC](/windows/security/threat-protection/microsoft-defender-atp/rbac)

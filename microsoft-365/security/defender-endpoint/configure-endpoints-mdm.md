@@ -1,7 +1,7 @@
 ---
 title: Подключение устройств Windows 10 с помощью средств управления мобильными устройствами
 description: Используйте средства управления мобильными устройствами для развертывания пакета конфигурации на устройствах, чтобы они были размещены в службе.
-keywords: бортовые устройства с использованием mdm, управления устройствами, бортовых устройств ATP Windows, бортовых устройств Microsoft Defender для конечных точек, mdm
+keywords: бортовые устройства с использованием mdm, управления устройствами, на борту устройств Microsoft Defender для конечных точек, mdm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f3042ef9ced11ebc5439308d2781528d5267975f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 951b0f33356ab99485f09ccc4147691e13ed3c6e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893617"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935009"
 ---
 # <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>Подключение устройств Windows 10 с помощью средств управления мобильными устройствами
 
@@ -37,7 +37,7 @@ ms.locfileid: "51893617"
 
 Дополнительные сведения об использовании CSP Defender для конечных точек см. в [CSP WindowsAdvancedThreatProtection и](https://msdn.microsoft.com/library/windows/hardware/mt723296(v=vs.85).aspx) [DDF WindowsAdvancedThreatProtection.](https://msdn.microsoft.com/library/windows/hardware/mt723297(v=vs.85).aspx)
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Прежде чем начать
 Если вы используете Microsoft Intune, необходимо зарегистрироваться на устройстве MDM. В противном случае параметры не будут успешно применены. 
 
 Дополнительные сведения о включаемом MDM в Microsoft Intune см. в записи [устройства (Microsoft Intune).](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)

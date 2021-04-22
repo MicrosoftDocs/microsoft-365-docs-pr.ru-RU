@@ -1,7 +1,7 @@
 ---
 title: Symantec в Microsoft Defender для конечной точки — этап 3, onboarding
 description: Это этап 3, онбординг, миграции из Symantec в Microsoft Defender для конечной точки
-keywords: миграция, защита от угроз защитника Windows, atp, edr
+keywords: миграция, Microsoft Defender для конечной точки, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: b42a33d975e1368ad25d4a7102ef44bf8b9824a8
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 63c870c5682e963e6ab29160218c7405cabb0838
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698284"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935549"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Миграция из Symantec — этап 3: на борту в Microsoft Defender для конечной точки
 
@@ -57,12 +57,12 @@ ms.locfileid: "51698284"
  
 Методы развертывания различаются в зависимости от выбранной операционной системы. Обратитесь к ресурсам, перечисленным в таблице ниже, чтобы получить помощь в включении.
 
-|Операционная система  |Method  |
+|Операционная система  |Метод  |
 |---------|---------|
-|Windows 10     |- [Групповой политики](configure-endpoints-gp.md)<br/>- [Диспетчер конфигурации](configure-endpoints-sccm.md)<br/>- [Управление мобильными устройствами (Intune)](configure-endpoints-mdm.md)<br/>- [Локальный скрипт](configure-endpoints-script.md) <br/><br/>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.         |
+|Windows 10     |- [Групповой политики](configure-endpoints-gp.md)<br/>- [Диспетчер конфигурации](configure-endpoints-sccm.md)<br/>- [Управление мобильными устройствами (Intune)](configure-endpoints-mdm.md)<br/>- [Локальный скрипт](configure-endpoints-script.md) <br/><br/>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.         |
 |- Windows 8.1 Корпоративная <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Агент мониторинга Майкрософт](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint)<br/><br/>**ПРИМЕЧАНИЕ.** Агент мониторинга Майкрософт теперь является агентом Аналитики журналов Azure. Дополнительные сведения см. в обзоре агента [log Analytics.](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent)        |
 |- Windows Server 2019 и более поздний <br/>- Основное издание Windows Server 2019 <br/>- Windows Server версии 1803 и более поздней версии |- [Локальный скрипт](configure-endpoints-script.md) <br/>- [Групповой политики](configure-endpoints-gp.md) <br/>- [Диспетчер конфигурации](/configure-endpoints-sccm.md) <br/>- [Диспетчер конфигурации центра системы](configure-endpoints-sccm.md#onboard-devices-using-system-center-configuration-manager)<br/>- [Скрипты на борту VDI для нестандартных устройств](configure-endpoints-vdi.md) <br/><br/>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.    |
-|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Центр безопасности Защитника Майкрософт](configure-server-endpoints.md)<br/>- [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
+|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Центр безопасности Защитника Майкрософт](configure-server-endpoints.md)<br/>- [Защитник Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
 |macOS<br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave)<br/>- 10.13 (Высокая сьерра)<br/><br/>iOS<br/><br/>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS или более высокий LTS<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
 
 ## <a name="run-a-detection-test"></a>Выполнить тест обнаружения
@@ -96,7 +96,7 @@ ms.locfileid: "51698284"
 Теперь, когда у вас есть uninstalled Symantec, следующим шагом будет убедиться, что антивирус Microsoft Defender и Microsoft Defender для конечной точки включены и в активном режиме.
 
 Для этого посетите веб-сайт демонстрационных сценариев Microsoft Defender for Endpoint [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) (). Попробуйте один или несколько демонстрационных сценариев на этой странице, включая по крайней мере следующие:
-- Защита с облачным доставкой
+- Облачная защита
 - Потенциально нежелательные приложения (PUA)
 - Защита сети (NP)
 

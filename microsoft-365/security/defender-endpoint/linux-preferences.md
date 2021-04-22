@@ -2,7 +2,7 @@
 title: Настройка предпочтений для Microsoft Defender для конечной точки в Linux
 ms.reviewer: ''
 description: Описывает, как настроить Microsoft Defender для конечной точки на Linux на предприятиях.
-keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2c162d652656afb61f1d74bad9ec963825d25a14
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 7f3dd65aea0efa570ec5d6a1d27479b787e16831
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903874"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935285"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Настройка предпочтений для Microsoft Defender для конечной точки в Linux
 
@@ -37,9 +37,9 @@ ms.locfileid: "51903874"
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 >[!IMPORTANT]
->В этом разделе содержатся инструкции по набору предпочтений для Defender для конечной точки для Linux в корпоративных средах. Если вы заинтересованы в настройке продукта на устройстве из командной строки, см. [в этой строке Ресурсы.](linux-resources.md#configure-from-the-command-line)
+>В этом разделе содержатся инструкции по выбору предпочтений для Defender для конечной точки в Linux в корпоративных средах. Если вы заинтересованы в настройке продукта на устройстве из командной строки, см. [в этой строке Ресурсы.](linux-resources.md#configure-from-the-command-line)
 
-В корпоративных средах управление защитником конечной точки для Linux можно с помощью профиля конфигурации. Этот профиль развернут из средства управления по вашему выбору. Предпочтения, управляемые предприятием, имеют приоритет над предпочтениями, установленными локально на устройстве. Другими словами, пользователи в вашем предприятии не могут изменять предпочтения, задав этот профиль конфигурации.
+В корпоративных средах управление Защитником для конечной точки на Linux можно с помощью профиля конфигурации. Этот профиль развернут из средства управления по вашему выбору. Предпочтения, управляемые предприятием, имеют приоритет над предпочтениями, установленными локально на устройстве. Другими словами, пользователи в вашем предприятии не могут изменять предпочтения, задав этот профиль конфигурации.
 
 В этой статье описывается структура этого профиля (включая рекомендуемый профиль, который можно использовать для начала работы) и инструкции по развертыванию профиля.
 
@@ -450,4 +450,4 @@ python -m json.tool mdatp_managed.json
 
 ## <a name="configuration-profile-deployment"></a>Развертывание профиля конфигурации
 
-После создания профиля конфигурации для предприятия его можно развернуть с помощью средства управления, используемом вашим предприятием. Защитник для конечной точки для Linux читает управляемой конфигурации из */etc/opt/microsoft/mdatp/managed/mdatp_managed.jsв* файле.
+После создания профиля конфигурации для предприятия его можно развернуть с помощью средства управления, используемом вашим предприятием. Защитник для конечной точки на Linux читает управляемой конфигурации из */etc/opt/microsoft/mdatp/managed/mdatp_managed.jsв* файле.

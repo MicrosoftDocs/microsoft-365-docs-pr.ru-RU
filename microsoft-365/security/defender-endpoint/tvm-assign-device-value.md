@@ -1,7 +1,7 @@
 ---
 title: Назначение значения устройства — управления угрозами и уязвимостью
 description: Узнайте, как назначить устройству низкое, нормальное или высокое значение, чтобы помочь вам различать приоритеты активов.
-keywords: Защитник Microsoft для значения конечного устройства, значения устройства управления угрозами и уязвимостями, устройств с высоким значением, оценки экспозиции значения устройства
+keywords: Microsoft Defender для значения устройств конечной точки, значения устройства управления угрозами и уязвимостями, устройств с высоким значением, оценки экспозиции значения устройства
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1f5d90190418f84795bdd899ea0e48ac25831a96
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: ca6c88b08b331eb65035387a9c070d0914b1651d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689393"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935201"
 ---
 # <a name="assign-device-value---threat-and-vulnerability-management"></a>Назначение значения устройства — управления угрозами и уязвимостью
 
@@ -45,9 +45,9 @@ ms.locfileid: "51689393"
 
 Параметры значения устройства:
 
-- Низкие
+- Низкая
 - С обычными интервалами (по умолчанию)
-- Высокие
+- Высокая
 
 Примеры устройств, которые должны быть назначены с высоким значением:
 
@@ -76,7 +76,7 @@ ms.locfileid: "51689393"
 - Устройства с высоким значением имеют вес NumberOfAssets / 10.
     - Если у вас 100 устройств, каждое устройство с высоким значением будет иметь вес 10 (100/10)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Оценка экспозиции](tvm-exposure-score.md)

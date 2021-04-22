@@ -1,7 +1,7 @@
 ---
 title: Функция AssignedIPAddresses() в продвинутой охоте для Microsoft 365 Defender
 description: Узнайте, как использовать функцию AssignedIPAddresses() для получения последних IP-адресов, присвоенных устройству
-keywords: передовая охота, охота на угрозы, поиск киберугроз, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, ссылка схемы, kusto, FileProfile, профиль файла, функция, обогащение
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, FileProfile, file Profile, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: be638141e205946be18d6a718470e7b92b18b1e7
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: d3ebd301d6c79bf5286d9293e04e4073b99d1e35
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500410"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934913"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -42,8 +42,8 @@ ms.locfileid: "51500410"
 | Column | Тип данных | Описание |
 |------------|-------------|-------------|
 | `Timestamp` | datetime | Последний раз, когда устройство было замечено с помощью IP-адреса |
-| `IPAddress` | string | IP-адрес, используемый устройством |
-| `IPType` | string | Указывает, является ли IP-адрес общедоступным или частным. |
+| `IPAddress` | Строка | IP-адрес, используемый устройством |
+| `IPType` | Строка | Указывает, является ли IP-адрес общедоступным или частным. |
 | `NetworkAdapterType` | int | Тип сетевого адаптер, используемый устройством, которое было назначено IP-адресу. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.networkinterfacetype) |
 | `ConnectedNetworks` | int | Сети, к которые подключен адаптер с заявляемом IP-адресом. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
 
@@ -81,7 +81,7 @@ AssignedIPAddresses(DeviceName, Date)
 | where Timestamp between ((AssignedTime - 1h) .. (AssignedTime + 1h))
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

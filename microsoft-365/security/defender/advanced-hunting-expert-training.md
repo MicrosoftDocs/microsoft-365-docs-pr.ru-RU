@@ -1,7 +1,7 @@
 ---
 title: Обучение экспертов по продвинутой охоте
 description: Бесплатное обучение и руководство от специалистов по продвинутым охотам
-keywords: продвинутая охота, охота на угрозы, охота на киберугрозы, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, язык, обучение, сценарии, базовые для расширенных, видео, пошаговой шаг
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, language, training, scenarios, basic to advanced, videos, step-by-step
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3aee0a210b9381174650a4a817be510bcfaa00c2
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: aee2d3204a5d30005c15199baa3af08f5e583a33
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498530"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935441"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Обучение экспертов по продвинутой охоте
 
@@ -37,7 +37,7 @@ ms.locfileid: "51498530"
 
 Быстро повысить знания о продвинутой охоте с помощью _отслеживания_ противника , серии веб-трансляций для новых аналитиков безопасности и опытных охотников за угрозами. В этой серии вы сможете с помощью основных элементов создать собственные сложные запросы. Начните с первого видео по основам или перейти к более продвинутым видео, которые подходят вашему уровню опыта.
 
-| Должность | Описание | Часы | Запросы | 
+| Название | Описание | Часы | Запросы | 
 |--|--|--|--|
 | Эпизод 1. Основы KQL | В этом выпуске освещаются основы продвинутой охоты в Microsoft 365 Defender. Сведения о доступных расширенных данных охоты и основных синтаксисах и операторах KQL. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [CSL-файл](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
 | Эпизод 2. Присоединяется | Продолжить изучение данных в области предварительной охоты и совместной работы с таблицами. Узнайте о `inner` , `outer` и `unique` `semi` присоединяется, и понять нюансы по умолчанию kusto `innerunique` присоединиться. | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [CSL-файл](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
@@ -47,7 +47,7 @@ ms.locfileid: "51498530"
 
 Получите дополнительные профессиональные навыки с *помощью L33TSP3AK:* расширенная охота в Microsoft 365 Defender , серия веб-трансляций для аналитиков, которые ищут возможности для расширения своих технических знаний и практических навыков в проведении расследований безопасности с помощью расширенной охоты в Microsoft 365 Defender. 
 
-| Должность | Описание | Часы | Запросы | 
+| Название | Описание | Часы | Запросы | 
 |--|--|--|--|
 | Эпизод 1  | В этом выпуске вы узнаете различные методы работы с расширенными запросами на охоту. Среди затронутых тем: оптимизация запросов, использование расширенных запросов для вымогателей, обработка JSON как динамического типа и работа с внешними операторами данных. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [CSL-файл](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.csl)
 
@@ -88,7 +88,7 @@ AppFileEvents
 | sort by Timestamp desc
 ```
      
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Познакомьтесь с языком запросов расширенной охоты](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

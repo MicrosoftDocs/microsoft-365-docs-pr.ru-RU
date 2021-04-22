@@ -1,7 +1,7 @@
 ---
 title: Настройка пробной лаборатории или пилотной среды Microsoft 365 Defender
 description: Доступ к Центру безопасности Microsoft 365 затем настройка среды пробной лаборатории Защитника Microsoft 365
-keywords: Установка пробной установки Microsoft Threat Protection, пилотная установка Microsoft Threat Protection, настройка лаборатории оценки Microsoft Threat Protection
+keywords: Пробная установка Microsoft 365 Defender, пилотная установка Microsoft 365 Defender, попробуйте установку лаборатории оценки Microsoft 365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 976f6a1ec010348e8a281c251064acdd7a26748b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ae81f6be0a83d5d0141f0f0c8c89f8f2207cc56c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074774"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935429"
 ---
 # <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Настройка среды пробной лаборатории Microsoft 365 Defender 
 
@@ -37,7 +37,7 @@ ms.locfileid: "51074774"
 
 Создание пробной лаборатории или пилотной среды Microsoft 365 Defender и ее развертывание — это трех этапный процесс:
 
-|[![Этап 1. Подготовка](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Этап 1. Подготовка](prepare-m365d-eval.md) |![Этап 2. Настройка](../../media/phase-diagrams/setup.png)<br/>Этап 2. Настройка |[![Этап 3. На борту](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Этап 3. На борту](config-m365d-eval.md) | [![Назад к пилоту](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Вернуться к экспериментальной книге воспроизведения](m365d-pilot.md) |
+|[![Этап 1. Подготовка](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Этап 1. Подготовка](prepare-m365d-eval.md) |![Этап 2. Настройка](../../media/phase-diagrams/setup.png)<br/>Этап 2. Настройка |[![Этап 3. Подключение](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Этап 3. Подключение](config-m365d-eval.md) | [![Назад к пилоту](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Вернуться к экспериментальной книге воспроизведения](m365d-pilot.md) |
 |--|--|--|--|
 ||*Вы здесь!*  | | |
 

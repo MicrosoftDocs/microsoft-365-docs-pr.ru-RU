@@ -1,7 +1,7 @@
 ---
 title: Обработка ошибок в продвинутой охоте для Защитника Microsoft 365
 description: Понимание ошибок, отображаемой при использовании расширенных методов охоты
-keywords: передовая охота, охота на угрозы, охота на киберугрозы, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, схема, кусто, время, ресурсы, ошибки, неизвестная ошибка, ограничения, квота, параметр, распределение
+keywords: продвинутая охота, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, схема, кусто, времяпрепровода, ресурсы, ошибки, неизвестная ошибка, ограничения, квота, параметр, распределение
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 83f2603b00062633ce61a3a8f364e33cbc5b029d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: d8d165f39c45bd235800dc951d50934b47dd7ff5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499731"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935453"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Обработка ошибок, совершенных в области охоты
 
@@ -44,7 +44,7 @@ ms.locfileid: "51499731"
 | Чрезмерное потребление ресурсов | Запрос потреблял чрезмерное количество ресурсов и был остановлен до завершения. В некоторых случаях передовая охота определяет конкретного оператора, который не был оптимизирован. | [Оптимизация запроса](advanced-hunting-best-practices.md) | -`Query stopped due to excessive resource consumption.`<br>-`Query stopped. Adjust use of the <operator name> operator to avoid excessive resource consumption.` |
 | Неизвестные ошибки | Запрос не удалось из-за неизвестной причины. | Попробуйте снова запускать запрос. Свяжитесь с Корпорацией Майкрософт через портал, если запросы продолжают возвращать неизвестные ошибки. | `An unexpected error occurred during query execution. Please try again in a few minutes.`
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Передовые методы охоты](advanced-hunting-best-practices.md)
 - [Квоты и параметры использования](advanced-hunting-limits.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
