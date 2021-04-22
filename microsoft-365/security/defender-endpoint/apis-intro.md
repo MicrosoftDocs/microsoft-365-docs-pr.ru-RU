@@ -2,7 +2,7 @@
 title: Доступ к API Microsoft Defender для конечной точки
 ms.reviewer: ''
 description: Узнайте, как можно использовать API для автоматизации рабочего процесса и инновация на основе возможностей Microsoft Defender для конечных точек
-keywords: apis, api, Microsoft Defender for Endpoint, open api, Microsoft Defender for Endpoint api, public api, supported apis, alerts, device, user, domain, ip, file, advanced hunting, query
+keywords: apis, api, wdatp, open api, microsoft defender for endpoint api, microsoft defender atp, public api, supported apis, alerts, device, user, domain, ip, file, advanced hunting, query
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,70 +16,70 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 87dce8ff4fde505eb8d4e458c8d9fb56556f4d78
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 843bd953b97f29a5b9c80fc44a9b19fae60a6fa7
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935111"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939770"
 ---
-# <a name="access-the-microsoft-defender-for-endpoint-apis"></a><span data-ttu-id="97862-104">Доступ к API Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="97862-104">Access the Microsoft Defender for Endpoint APIs</span></span> 
+# <a name="access-the-microsoft-defender-for-endpoint-apis"></a><span data-ttu-id="03780-104">Доступ к API Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="03780-104">Access the Microsoft Defender for Endpoint APIs</span></span> 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="97862-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="97862-105">**Applies to:**</span></span>
-- [<span data-ttu-id="97862-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="97862-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="97862-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="97862-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="03780-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="03780-105">**Applies to:**</span></span>
+- [<span data-ttu-id="03780-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="03780-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="03780-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="03780-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-<span data-ttu-id="97862-108">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="97862-108">**Applies to:**</span></span> 
-- [<span data-ttu-id="97862-109">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="97862-109">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+<span data-ttu-id="03780-108">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="03780-108">**Applies to:**</span></span> 
+- [<span data-ttu-id="03780-109">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="03780-109">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> <span data-ttu-id="97862-110">Хотите испытать Microsoft Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="97862-110">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="97862-111">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="97862-111">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="03780-110">Хотите испытать Microsoft Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="03780-110">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="03780-111">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="03780-111">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
 
-<span data-ttu-id="97862-112">Defender for Endpoint предоставляет большую часть своих данных и действий с помощью набора программных API.</span><span class="sxs-lookup"><span data-stu-id="97862-112">Defender for Endpoint exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="97862-113">Эти API позволят автоматизировать рабочий процесс и инновациям на основе возможностей Defender для конечных точек.</span><span class="sxs-lookup"><span data-stu-id="97862-113">Those APIs will enable you to automate workflows and innovate based on Defender for Endpoint capabilities.</span></span> <span data-ttu-id="97862-114">Доступ к API требует проверки подлинности OAuth2.0.</span><span class="sxs-lookup"><span data-stu-id="97862-114">The API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="97862-115">Дополнительные сведения см. в [тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)</span><span class="sxs-lookup"><span data-stu-id="97862-115">For more information, see [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
+<span data-ttu-id="03780-112">Defender for Endpoint предоставляет большую часть своих данных и действий с помощью набора программных API.</span><span class="sxs-lookup"><span data-stu-id="03780-112">Defender for Endpoint exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="03780-113">Эти API позволят автоматизировать рабочий процесс и инновациям на основе возможностей Defender для конечных точек.</span><span class="sxs-lookup"><span data-stu-id="03780-113">Those APIs will enable you to automate workflows and innovate based on Defender for Endpoint capabilities.</span></span> <span data-ttu-id="03780-114">Доступ к API требует проверки подлинности OAuth2.0.</span><span class="sxs-lookup"><span data-stu-id="03780-114">The API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="03780-115">Дополнительные сведения см. в [тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)</span><span class="sxs-lookup"><span data-stu-id="03780-115">For more information, see [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
 
-<span data-ttu-id="97862-116">Просмотрите это видео для краткого обзора API Defender для API endpoint.</span><span class="sxs-lookup"><span data-stu-id="97862-116">Watch this video for a quick overview of Defender for Endpoint's APIs.</span></span> 
+<span data-ttu-id="03780-116">Просмотрите это видео для краткого обзора API Defender для API endpoint.</span><span class="sxs-lookup"><span data-stu-id="03780-116">Watch this video for a quick overview of Defender for Endpoint's APIs.</span></span> 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4d73M]
 
-<span data-ttu-id="97862-117">В общем, для использования API необходимо предпринять следующие действия:</span><span class="sxs-lookup"><span data-stu-id="97862-117">In general, you’ll need to take the following steps to use the APIs:</span></span>
-- <span data-ttu-id="97862-118">Создание приложения AAD</span><span class="sxs-lookup"><span data-stu-id="97862-118">Create an AAD application</span></span>
-- <span data-ttu-id="97862-119">Получение маркера доступа с помощью этого приложения</span><span class="sxs-lookup"><span data-stu-id="97862-119">Get an access token using this application</span></span>
-- <span data-ttu-id="97862-120">Использование маркера для доступа к API Defender для endpoint</span><span class="sxs-lookup"><span data-stu-id="97862-120">Use the token to access Defender for Endpoint API</span></span>
+<span data-ttu-id="03780-117">В общем, для использования API необходимо предпринять следующие действия:</span><span class="sxs-lookup"><span data-stu-id="03780-117">In general, you’ll need to take the following steps to use the APIs:</span></span>
+- <span data-ttu-id="03780-118">Создание приложения AAD</span><span class="sxs-lookup"><span data-stu-id="03780-118">Create an AAD application</span></span>
+- <span data-ttu-id="03780-119">Получение маркера доступа с помощью этого приложения</span><span class="sxs-lookup"><span data-stu-id="03780-119">Get an access token using this application</span></span>
+- <span data-ttu-id="03780-120">Использование маркера для доступа к API Defender для endpoint</span><span class="sxs-lookup"><span data-stu-id="03780-120">Use the token to access Defender for Endpoint API</span></span>
 
 
-<span data-ttu-id="97862-121">Вы можете получить доступ к API Defender для конечной точки с **помощью контекста приложений** или **пользовательского контекста.**</span><span class="sxs-lookup"><span data-stu-id="97862-121">You can access Defender for Endpoint API with **Application Context** or **User Context**.</span></span>
+<span data-ttu-id="03780-121">Вы можете получить доступ к API Defender для конечной точки с **помощью контекста приложений** или **пользовательского контекста.**</span><span class="sxs-lookup"><span data-stu-id="03780-121">You can access Defender for Endpoint API with **Application Context** or **User Context**.</span></span>
 
-- <span data-ttu-id="97862-122">**Контекст приложения: (Рекомендуется)**</span><span class="sxs-lookup"><span data-stu-id="97862-122">**Application Context: (Recommended)**</span></span> <br>
-    <span data-ttu-id="97862-123">Используется приложениями, которые работают без участия пользователя.</span><span class="sxs-lookup"><span data-stu-id="97862-123">Used by apps that run without a signed-in user present.</span></span> <span data-ttu-id="97862-124">например, приложения, которые работают в качестве фоновых служб или daemons.</span><span class="sxs-lookup"><span data-stu-id="97862-124">for example, apps that run as background services or daemons.</span></span>
+- <span data-ttu-id="03780-122">**Контекст приложения: (Рекомендуется)**</span><span class="sxs-lookup"><span data-stu-id="03780-122">**Application Context: (Recommended)**</span></span> <br>
+    <span data-ttu-id="03780-123">Используется приложениями, которые работают без участия пользователя.</span><span class="sxs-lookup"><span data-stu-id="03780-123">Used by apps that run without a signed-in user present.</span></span> <span data-ttu-id="03780-124">например, приложения, которые работают в качестве фоновых служб или daemons.</span><span class="sxs-lookup"><span data-stu-id="03780-124">for example, apps that run as background services or daemons.</span></span>
 
-    <span data-ttu-id="97862-125">Действия, которые необходимо предпринять для доступа к API Defender для конечной точки с контекстом приложения:</span><span class="sxs-lookup"><span data-stu-id="97862-125">Steps that need to be taken to access Defender for Endpoint API with application context:</span></span>
+    <span data-ttu-id="03780-125">Действия, которые необходимо предпринять для доступа к API Defender для конечной точки с контекстом приложения:</span><span class="sxs-lookup"><span data-stu-id="03780-125">Steps that need to be taken to access Defender for Endpoint API with application context:</span></span>
 
-  1. <span data-ttu-id="97862-126">Создание веб-приложения AAD.</span><span class="sxs-lookup"><span data-stu-id="97862-126">Create an AAD Web-Application.</span></span>
-  2. <span data-ttu-id="97862-127">Назначьте нужное разрешение приложению, например, "Read Alerts", "Isolate Machines".</span><span class="sxs-lookup"><span data-stu-id="97862-127">Assign the desired permission to the application, for example, 'Read Alerts', 'Isolate Machines'.</span></span> 
-  3. <span data-ttu-id="97862-128">Создайте ключ для этого приложения.</span><span class="sxs-lookup"><span data-stu-id="97862-128">Create a key for this Application.</span></span>
-  4. <span data-ttu-id="97862-129">Получение маркера с помощью приложения с его ключом.</span><span class="sxs-lookup"><span data-stu-id="97862-129">Get token using the application with its key.</span></span>
-  5. <span data-ttu-id="97862-130">С помощью маркера можно получить доступ к API Endpoint Defender для Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="97862-130">Use the token to access Microsoft Defender for Endpoint API</span></span>
+  1. <span data-ttu-id="03780-126">Создание веб-приложения AAD.</span><span class="sxs-lookup"><span data-stu-id="03780-126">Create an AAD Web-Application.</span></span>
+  2. <span data-ttu-id="03780-127">Назначьте нужное разрешение приложению, например, "Read Alerts", "Isolate Machines".</span><span class="sxs-lookup"><span data-stu-id="03780-127">Assign the desired permission to the application, for example, 'Read Alerts', 'Isolate Machines'.</span></span> 
+  3. <span data-ttu-id="03780-128">Создайте ключ для этого приложения.</span><span class="sxs-lookup"><span data-stu-id="03780-128">Create a key for this Application.</span></span>
+  4. <span data-ttu-id="03780-129">Получение маркера с помощью приложения с его ключом.</span><span class="sxs-lookup"><span data-stu-id="03780-129">Get token using the application with its key.</span></span>
+  5. <span data-ttu-id="03780-130">С помощью маркера можно получить доступ к API Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="03780-130">Use the token to access the Microsoft Defender for Endpoint API</span></span>
 
-     <span data-ttu-id="97862-131">Дополнительные сведения см. в [приложении Get access with application context.](exposed-apis-create-app-webapp.md)</span><span class="sxs-lookup"><span data-stu-id="97862-131">For more information, see [Get access with application context](exposed-apis-create-app-webapp.md).</span></span>
-
-
-- <span data-ttu-id="97862-132">**Контекст пользователя:**</span><span class="sxs-lookup"><span data-stu-id="97862-132">**User Context:**</span></span> <br>
-    <span data-ttu-id="97862-133">Используется для выполнения действий в API от имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="97862-133">Used to perform actions in the API on behalf of a user.</span></span>
-
-    <span data-ttu-id="97862-134">Действия, которые необходимо предпринять для доступа к API Defender для конечной точки с контекстом приложения:</span><span class="sxs-lookup"><span data-stu-id="97862-134">Steps to take to access Defender for Endpoint API with application context:</span></span>
-
-  1. <span data-ttu-id="97862-135">Создание приложения AAD.</span><span class="sxs-lookup"><span data-stu-id="97862-135">Create AAD Native-Application.</span></span>
-  2. <span data-ttu-id="97862-136">Назначьте нужное разрешение приложению, например"Read Alerts", "Isolate Machines" и т.д.</span><span class="sxs-lookup"><span data-stu-id="97862-136">Assign the desired permission to the application, e.g 'Read Alerts', 'Isolate Machines' etc.</span></span> 
-  3. <span data-ttu-id="97862-137">Получение маркера с помощью приложения с учетными данными пользователей.</span><span class="sxs-lookup"><span data-stu-id="97862-137">Get token using the application with user credentials.</span></span>
-  4. <span data-ttu-id="97862-138">С помощью маркера можно получить доступ к API Endpoint Defender для Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="97862-138">Use the token to access Microsoft Defender for Endpoint API</span></span>
-
-     <span data-ttu-id="97862-139">Дополнительные сведения см. в [ссылке Получить доступ к пользовательскому контексту.](exposed-apis-create-app-nativeapp.md)</span><span class="sxs-lookup"><span data-stu-id="97862-139">For more information, see [Get access with user context](exposed-apis-create-app-nativeapp.md).</span></span>
+     <span data-ttu-id="03780-131">Дополнительные сведения см. в [приложении Get access with application context.](exposed-apis-create-app-webapp.md)</span><span class="sxs-lookup"><span data-stu-id="03780-131">For more information, see [Get access with application context](exposed-apis-create-app-webapp.md).</span></span>
 
 
-## <a name="related-topics"></a><span data-ttu-id="97862-140">Похожие темы</span><span class="sxs-lookup"><span data-stu-id="97862-140">Related topics</span></span>
-- [<span data-ttu-id="97862-141">Microsoft Defender для API конечных точек</span><span class="sxs-lookup"><span data-stu-id="97862-141">Microsoft Defender for Endpoint APIs</span></span>](exposed-apis-list.md)
-- [<span data-ttu-id="97862-142">Доступ к Microsoft Defender для конечной точки с контекстом приложений</span><span class="sxs-lookup"><span data-stu-id="97862-142">Access Microsoft Defender for Endpoint with application context</span></span>](exposed-apis-create-app-webapp.md)
-- [<span data-ttu-id="97862-143">Доступ к Microsoft Defender для конечной точки с пользовательским контекстом</span><span class="sxs-lookup"><span data-stu-id="97862-143">Access Microsoft Defender for Endpoint with user context</span></span>](exposed-apis-create-app-nativeapp.md)
+- <span data-ttu-id="03780-132">**Контекст пользователя:**</span><span class="sxs-lookup"><span data-stu-id="03780-132">**User Context:**</span></span> <br>
+    <span data-ttu-id="03780-133">Используется для выполнения действий в API от имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="03780-133">Used to perform actions in the API on behalf of a user.</span></span>
+
+    <span data-ttu-id="03780-134">Действия, которые необходимо предпринять для доступа к API Defender для конечной точки с контекстом приложения:</span><span class="sxs-lookup"><span data-stu-id="03780-134">Steps to take to access Defender for Endpoint API with application context:</span></span>
+
+  1. <span data-ttu-id="03780-135">Создание приложения AAD.</span><span class="sxs-lookup"><span data-stu-id="03780-135">Create AAD Native-Application.</span></span>
+  2. <span data-ttu-id="03780-136">Назначьте нужное разрешение приложению, например"Read Alerts", "Isolate Machines" и т.д.</span><span class="sxs-lookup"><span data-stu-id="03780-136">Assign the desired permission to the application, e.g 'Read Alerts', 'Isolate Machines' etc.</span></span> 
+  3. <span data-ttu-id="03780-137">Получение маркера с помощью приложения с учетными данными пользователей.</span><span class="sxs-lookup"><span data-stu-id="03780-137">Get token using the application with user credentials.</span></span>
+  4. <span data-ttu-id="03780-138">С помощью маркера можно получить доступ к API Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="03780-138">Use the token to access the Microsoft Defender for Endpoint API</span></span>
+
+     <span data-ttu-id="03780-139">Дополнительные сведения см. в [ссылке Получить доступ к пользовательскому контексту.](exposed-apis-create-app-nativeapp.md)</span><span class="sxs-lookup"><span data-stu-id="03780-139">For more information, see [Get access with user context](exposed-apis-create-app-nativeapp.md).</span></span>
+
+
+## <a name="related-topics"></a><span data-ttu-id="03780-140">Похожие темы</span><span class="sxs-lookup"><span data-stu-id="03780-140">Related topics</span></span>
+- [<span data-ttu-id="03780-141">Microsoft Defender для API конечных точек</span><span class="sxs-lookup"><span data-stu-id="03780-141">Microsoft Defender for Endpoint APIs</span></span>](exposed-apis-list.md)
+- [<span data-ttu-id="03780-142">Доступ к Microsoft Defender для конечной точки с контекстом приложений</span><span class="sxs-lookup"><span data-stu-id="03780-142">Access Microsoft Defender for Endpoint with application context</span></span>](exposed-apis-create-app-webapp.md)
+- [<span data-ttu-id="03780-143">Доступ к Microsoft Defender для конечной точки с пользовательским контекстом</span><span class="sxs-lookup"><span data-stu-id="03780-143">Access Microsoft Defender for Endpoint with user context</span></span>](exposed-apis-create-app-nativeapp.md)
