@@ -1,7 +1,7 @@
 ---
-title: Onboarding using Microsoft Endpoint Configuration Manager
+title: Подключение с помощью Microsoft Endpoint Configuration Manager
 description: Узнайте, как учиться в Microsoft Defender для конечной точки с помощью Microsoft Endpoint Configuration Manager
-keywords: onboarding, configuration, deploy, deployment, endpoint configuration manager, mdatp, advanced threat protection, collection creation, endpoint detection response, next generation protection, attack surface reduction, Microsoft endpoint configuration manager
+keywords: onboarding, configuration, deploy, deployment, endpoint configuration manager, Microsoft Defender for Endpoint, collection creation, endpoint detection response, next generation protection, attack surface reduction, Microsoft endpoint configuration manager
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,14 +18,14 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 31c946ccad84aca3b2fc86c95655cea9e66e182f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 84273ce3e060eb86ee246a5cc6a8cae3cba743b5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186405"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934493"
 ---
-# <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Onboarding using Microsoft Endpoint Configuration Manager
+# <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Подключение с помощью Microsoft Endpoint Configuration Manager
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -118,12 +118,12 @@ ms.locfileid: "51186405"
 В этом разделе приводится руководство по настройке следующих возможностей с помощью Microsoft Endpoint Configuration Manager на устройствах Windows:
 
 - [**Обнаружение и устранение угроз на конечных точках**](#endpoint-detection-and-response)
-- [**Защита следующего поколения**](#next-generation-protection)
+- [**Защита нового поколения**](#next-generation-protection)
 - [**Сокращение направлений атак**](#attack-surface-reduction)
 
 
 ### <a name="endpoint-detection-and-response"></a>Обнаружение и устранение угроз на конечных точках
-#### <a name="windows-10"></a>Windows 10
+#### <a name="windows-10"></a>Windows 10
 В центре безопасности Microsoft Defender можно скачать политику ".onboarding", которая может быть использована для создания политики в system Center Configuration Manager и развертывания этой политики на устройствах Windows 10.
 
 1. На портале Центра безопасности Защитника Майкрософт выберите [параметры и затем входящего](https://securitycenter.windows.com/preferences2/onboarding)в него.
@@ -200,7 +200,7 @@ ms.locfileid: "51186405"
 
     -   Windows 8.1
 
-    -   Windows 7
+    -   Windows 7
 
     -   Windows Server 2016
 
@@ -389,4 +389,4 @@ ms.locfileid: "51186405"
 Теперь вы успешно настраивали управляемый доступ к папкам в режиме аудита.
 
 ## <a name="related-topic"></a>Связанная тема
-- [Onboarding using Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Подключение с помощью Microsoft Endpoint Manager](onboarding-endpoint-manager.md)

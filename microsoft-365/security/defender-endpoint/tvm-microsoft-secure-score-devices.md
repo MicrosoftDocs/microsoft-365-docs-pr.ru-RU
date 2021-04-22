@@ -1,7 +1,7 @@
 ---
 title: Оценка безопасности (Майкрософт) для устройств
 description: В вашей оценке для устройств показано общее состояние конфигурации устройств в приложениях, операционной системе, сети, учетных записях и средствах управления безопасностью.
-keywords: Microsoft Secure Score for Devices, mdatp Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
+keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fcf33b309045b9ca763b0d3cabc44fb13505ee0b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: f2c799d477c400482c16b09b4d8a5cdc01106dfa
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500052"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934085"
 ---
 # <a name="microsoft-secure-score-for-devices"></a>Оценка безопасности (Майкрософт) для устройств
 
@@ -108,7 +108,7 @@ Forward Microsoft Defender for Endpoint signals, giving Microsoft Secure Score v
 >1. Перейдите [в каталог обновлений Майкрософт](https://www.catalog.update.microsoft.com/home.aspx).
 >2. Вйдите в номер КБ обновления безопасности, который необходимо скачать, а затем нажмите **кнопку Поиск**.  
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Панель мониторинга](tvm-dashboard-insights.md)

@@ -1,7 +1,7 @@
 ---
 title: Поиск представленных устройств
 description: Узнайте, как управление угрозами и уязвимостью может использоваться для совместной работы администраторов безопасности, ИТ-администраторов и secOps.
-keywords: сценарии mdatp-tvm, сценарии mdatp, tvm, tvm, снижение уязвимости & угрозы, снижение угрозы и уязвимости, улучшение конфигурации безопасности, увеличение показателей безопасности Microsoft для устройств, повышение & уязвимости Microsoft Secure Score для устройств, Microsoft Secure Score для устройств, оценка экспозиции, средства управления безопасностью
+keywords: Сценарии Microsoft Defender для endpoint-tvm, сценарии Microsoft Defender для конечной точки, tvm, сценарии твм, снижение воздействия уязвимости & угрозы, снижение уровня угрозы и уязвимости, улучшение конфигурации безопасности, увеличение показателей безопасности Microsoft & для устройств, повышение степени уязвимости Microsoft Secure Score для устройств, оценка безопасности Microsoft для устройств, оценка экспозиции, контроль безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b8e3a80e73d9847837ae0a1542e7d16ee8ae0f29
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a9a8ebcc89c3009cd93fbb42f2a74bbb9ffcc31b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500094"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934097"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>Hunt for exposed devices - threat and vulnerability management
 
@@ -75,7 +75,7 @@ DeviceName=any(DeviceName) by DeviceId, AlertId
 | order by NumOfVulnerabilities desc
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)

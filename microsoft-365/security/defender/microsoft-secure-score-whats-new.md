@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 5a868904a43e17952368e097c0b0e963252d5bed
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: b3f86dfbc1ae89eff61c680737061b01998a527b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570367"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933869"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Новые возможности в Microsoft Secure Score
 
@@ -50,7 +50,7 @@ Microsoft Secure Score можно найти в https://security.microsoft.com/s
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 
-### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Добавлено шесть действий по улучшению учетных записей для Microsoft Defender для конечной точки (ранее ATP Защитника Майкрософт):
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>Добавлено шесть действий по улучшению учетных записей для Microsoft Defender для конечной точки:
 
 - Установите "Минимальная длина пароля" до "14 или более символов"
 - Установите "Принудить историю паролей" к '24 или более паролей (s)'
@@ -65,7 +65,7 @@ Microsoft Secure Score можно найти в https://security.microsoft.com/s
 
 Возможность создания билетов ServiceNow с помощью secure Score с **помощью share > ServiceNow** больше недоступна. Благодарим вас за отзывы и поддержку, пока мы определяем дальнейшие действия.
 
-### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Добавлены три действия по улучшению, связанные с службами для Microsoft Defender для конечной точки (ранее ATP Защитника Майкрософт):
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>Добавлены три действия по улучшению, связанные с службами, для Microsoft Defender для конечной точки:
 
 - Исправление пути неквалификации службы Windows
 - Изменение исполняемого пути службы в общее защищенное расположение

@@ -2,7 +2,7 @@
 title: Лучшие результаты в отраслевых тестах — Microsoft 365 Defender
 ms.reviewer: ''
 description: Просмотрите последние оценки и анализ Microsoft 365 Defender. Это решение постоянно достигает высоких результатов в независимых тестах (AV-TEST, AV Comparatives, SE Labs, MITRE ATT&CK). Просмотрите последние оценки и анализ.
-keywords: Антивирусная программа в Microsoft Defender, антивирусная программа "Защитник Windows", антивирусная программа, оценки антивирусных программ, тестирование антивирусной программы, тест антивируса, последние оценки антивирусной программы, оценки обнаружения, тестирование продукта обеспечения безопасности, отраслевые тесты безопасности, отраслевые тесты антивирусной программы, лучшая антивирусная программа, av-test, av-comparatives, SE labs, MITRE ATT&CK, платформа защиты конечных точек, EPP, обнаружение и нейтрализация атак на конечные точки, EDR, Windows 10, антивирусная программа в Microsoft Defender, WDAV, MDATP, Защита от угроз (Майкрософт), безопасность, вредоносная программа, антивирус, антивирусная программа, оценки, оценивание, защита нового поколения, рейтинг, успех
+keywords: Антивирусная программа в Microsoft Defender, антивирусная программа "Защитник Windows", обзоры антивирусной программы, тестирование антивирусной программы, тест антивируса, последние оценки антивирусной программы, оценки обнаружения, тестирование продукта обеспечения безопасности, отраслевые тесты безопасности, отраслевые тесты антивирусной программы, лучшая антивирусная программа, av-test, av-comparatives, SE labs, MITRE ATT&CK, платформа защиты конечных точек, EPP, обнаружение и нейтрализация атак на конечные точки, EDR, Windows 10, антивирусная программа в Microsoft Defender, WDAV, Microsoft Defender для конечной точки, Microsoft 365 Defender, безопасность, вредоносная программа, АВ, антивирус, оценки, оценивание, защита нового поколения, рейтинг, успех
 ms.prod: m365-security
 ms.mktglfcycl: secure
 ms.sitesec: library
@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 1f649af2ca6089d1366cc6e080a430a6a00fc300
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: a49fb83f9186541094910ec8842a09b5121ffb5b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569868"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934397"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Лучшие результаты в отраслевых тестах
 

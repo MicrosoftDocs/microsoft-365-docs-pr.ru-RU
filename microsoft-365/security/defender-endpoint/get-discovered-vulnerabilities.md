@@ -1,7 +1,7 @@
 ---
 title: Получить обнаруженные уязвимости
 description: Извлекает коллекцию обнаруженных уязвимостей, связанных с данным ID устройства.
-keywords: apis, api graph, supported apis, get, list, file, information, discovered vulnerabilities, threat & vulnerability management api, mdatp tvm api
+keywords: apis, graph api, supported apis, get, list, file, information, discovered vulnerabilities, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 73b8fe5140ff635791e7d42358024bb7fb4ee926
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 133a8525a2e561062a492f7148de97a77d37444e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570331"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934325"
 ---
 # <a name="get-discovered-vulnerabilities"></a>Получить обнаруженные уязвимости
 
@@ -48,7 +48,7 @@ ms.locfileid: "51570331"
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 :---|:---|:---
-Для приложений |Vulnerability.Read.All | 'Read Threat and Vulnerability Management vulnerability information'
+Приложение |Vulnerability.Read.All | 'Read Threat and Vulnerability Management vulnerability information'
 Делегированные (рабочая или учебная учетная запись) | Vulnerability.Read | 'Read Threat and Vulnerability Management vulnerability information'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -61,7 +61,7 @@ GET /api/machines/{machineId}/vulnerabilities
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | String | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
 

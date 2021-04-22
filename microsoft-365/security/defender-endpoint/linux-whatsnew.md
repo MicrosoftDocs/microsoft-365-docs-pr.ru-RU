@@ -1,7 +1,7 @@
 ---
 title: Новые возможности в Microsoft Defender для конечной точки в Linux
 description: Список основных изменений для Microsoft Defender для конечной точки на Linux.
-keywords: Microsoft, defender, atp, Linux, Whatsnew, release
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, Whatsnew, release
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 999463f92c014e061bc4e2fdc22eedcd8f680a72
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 6aaf370ef0222c6c4a7f920a2a5ed8951f988839
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903818"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933569"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Новые возможности в Microsoft Defender для конечной точки в Linux
 

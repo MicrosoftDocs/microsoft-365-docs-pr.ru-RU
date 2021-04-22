@@ -1,7 +1,7 @@
 ---
 title: Управление microsoft Defender для конечной точки с помощью объектов групповой политики
 description: Узнайте, как управлять Microsoft Defender для конечной точки с помощью объектов групповой политики
-keywords: после переноса, управления, операций, обслуживания, использования, PowerShell, защиты от угроз, atp, edr
+keywords: после миграции, управления, операций, обслуживания, использования, PowerShell, Microsoft Defender для endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 6d10bd932d9414f1460076d3fe7ca8dbed8041a6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1b8f2e7c7435f2161f7261722795b35ca848ec2f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185663"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934241"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-group-policy-objects"></a>Управление защитником Майкрософт для конечной точки с помощью объектов групповой политики
 
@@ -47,7 +47,7 @@ ms.locfileid: "51185663"
 
 В следующей таблице перечислены различные задачи, которые можно выполнить для настройки Microsoft Defender для конечной точки с объектами групповой политики.
 
-|Задача  |Дополнительные ресурсы  |
+|Task  |Дополнительные ресурсы  |
 |---------|---------|
 |**Управление настройками объектов пользователя и компьютера** <br/><br/>*Настройка встроенных объектов групповой политики или создание настраиваемых объектов групповой политики и организационных подразделений в соответствии с вашими организационными потребностями.*     |[Администрирование групповой политики в управляемом домене Azure Active Directory Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)   |
 |**Настройка антивируса Microsoft Defender** <br/><br/>*Настройка функций антивирусного &, включая параметры политики, исключения, исправление и плановые проверки на устройствах организации (также именуемые конечными точками).*   |[Настройка и управление антивирусной программой Microsoft Defender с помощью параметров групповой политики](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus) <br/><br/>[Использование групповой политики для обеспечения облачной защиты](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-group-policy-to-enable-cloud-delivered-protection)      |

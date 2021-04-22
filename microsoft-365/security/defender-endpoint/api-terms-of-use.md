@@ -1,5 +1,5 @@
 ---
-title: Лицензия API и условия использования Microsoft Defender ATP
+title: Лицензия Microsoft Defender для API конечной точки и условия использования
 description: Описание лицензии и условий использования API Microsoft Defender
 keywords: лицензия, термины, apis, юридические, уведомления, кодекс поведения
 search.product: eADQiWindows 10XVcnh
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3b8842214301d4933432f376c872f8da7322a63e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: f737f5a9aeb9bc45e0cf40c3be0cfdde2bde3779
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164793"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933617"
 ---
 # <a name="microsoft-defender-for-endpoint-api-license-and-terms-of-use"></a>Лицензия Microsoft Defender для API конечной точки и условия использования
 

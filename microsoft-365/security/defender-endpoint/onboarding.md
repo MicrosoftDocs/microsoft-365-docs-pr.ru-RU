@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2a3325a290dc985bdb99a5a843b4b9e1f642a62b
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: f63b4f81f454fec60a26c7cb063d66bed4a2bead
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861807"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933545"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>На борту службы Microsoft Defender для конечных точек
 
@@ -71,7 +71,7 @@ ms.locfileid: "51861807"
 
 | Endpoint     | Параметры инструмента                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Локальный скрипт (до 10 устройств)](configure-endpoints-script.md) <br>  [Групповая политика](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Скрипты VDI](configure-endpoints-vdi.md) <br> [Центр безопасности Azure](configure-server-endpoints.md#integration-with-azure-security-center) |
+| **Windows**  |  [Локальный скрипт (до 10 устройств)](configure-endpoints-script.md) <br>  [Групповая политика](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Скрипты VDI](configure-endpoints-vdi.md) <br> [Интеграция с Защитником Azure](configure-server-endpoints.md#integration-with-azure-defender) |
 | **macOS**    | [Локальные сценарии](mac-install-manually.md) <br> [Менеджер конечных точек Майкрософт](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Управление мобильными устройствами](mac-install-with-other-mdm.md) |
 | **Linux Server** | [Локальный скрипт](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [На основе приложения](ios-install.md)                                |

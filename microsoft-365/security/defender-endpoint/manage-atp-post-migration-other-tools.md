@@ -1,7 +1,7 @@
 ---
 title: Управление Microsoft Defender для конечной точки с помощью PowerShell, WMI и MPCmdRun.exe
 description: Узнайте, как управлять Microsoft Defender для конечной точки с помощью PowerShell, WMI и MPCmdRun.exe
-keywords: после миграции, управления, операций, обслуживания, использования, PowerShell, WMI, MPCmdRun.exe, защита от угроз защитника Windows, atp, edr
+keywords: после миграции, управления, операций, обслуживания, использования, PowerShell, WMI, MPCmdRun.exe, Microsoft Defender для endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 5f0e94360cfaa0c66aedec400e81adc85f4f5450
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 98b192551a351b58709185022cf311174052592b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185877"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934469"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-powershell-wmi-and-mpcmdrunexe"></a>Управление Microsoft Defender для конечной точки с помощью PowerShell, WMI и MPCmdRun.exe
 
@@ -52,7 +52,7 @@ ms.locfileid: "51185877"
 
 С помощью PowerShell можно управлять антивирусом Microsoft Defender, использовать защиту и правила уменьшения поверхности атак.
 
-|Задача  |Дополнительные ресурсы  |
+|Task  |Дополнительные ресурсы  |
 |---------|---------|
 |**Управление антивирусной программой Microsoft Defender** <br/><br/>*Просмотр состояния защиты от антивирусных программ, настройка предпочтений для & обновлений и внесение других изменений в антивирусную защиту.*    |[Используйте cmdlets PowerShell для настройки и управления антивирусом Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-powershell-cmdlets-microsoft-defender-antivirus)  <br/><br/>[Использование cmdlets PowerShell для обеспечения облачной защиты](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-powershell-cmdlets-to-enable-cloud-delivered-protection)       |
 |**Настройка защиты от эксплойтов** для смягчения угроз на устройствах организации<br/><br/> *Рекомендуется сначала использовать защиту от [эксплойтов в режиме](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/evaluate-exploit-protection#powershell) аудита. Таким образом можно увидеть, как защита от эксплойтов влияет на приложения, которые использует ваша организация.*     | [Настройка защиты от эксплойтов](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection)<br/><br/>[Cmdlets PowerShell для защиты от эксплойтов](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection#powershell-reference)        |
@@ -66,7 +66,7 @@ ms.locfileid: "51185877"
 
 WMI — это интерфейс скриптов, который позволяет извлекать, изменять и обновлять параметры. Дополнительные дополнительные информации см. [в см. в этой ленте Using WMI.](https://docs.microsoft.com/windows/win32/wmisdk/using-wmi) 
 
-|Задача  |Дополнительные ресурсы  |
+|Task  |Дополнительные ресурсы  |
 |---------|---------|
 |**Включить облачную защиту** на устройстве    |[Использование инструкции по управлению Windows (WMI) для обеспечения облачной защиты](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-windows-management-instruction-wmi-to-enable-cloud-delivered-protection)       |
 |**Извлечение, изменение и обновление параметров** антивируса Microsoft Defender     | [Использование WMI для настройки и управления антивирусом Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-wmi-microsoft-defender-antivirus)<br/><br/>[Просмотрите список доступных классов WMI и сценариев примера](https://docs.microsoft.com/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal) <br/><br/>Также см. архивные [Защитник Windows WMIv2 Provider](https://docs.microsoft.com/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal?redirectedfrom=MSDN)   |
@@ -76,7 +76,7 @@ WMI — это интерфейс скриптов, который позвол�
 
 На отдельном устройстве можно выполнить сканирование, начать диагностику, проверить обновления сведений о безопасности и другие сведения с помощью средства mpcmdrun.exe командной строки. Вы можете найти утилиту `%ProgramFiles%\Windows Defender\MpCmdRun.exe` в . Запустите его из командной подсказки.
 
-|Задача  |Дополнительные ресурсы  |
+|Task  |Дополнительные ресурсы  |
 |---------|---------|
 |**Управление антивирусной программой Microsoft Defender**  |[Настройка и управление антивирусом Microsoft Defender с помощью mpcmdrun.exe](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/command-line-arguments-microsoft-defender-antivirus)        |
 

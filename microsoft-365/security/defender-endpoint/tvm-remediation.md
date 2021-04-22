@@ -1,7 +1,7 @@
 ---
 title: Устранение уязвимостей с помощью управления угрозами и уязвимостями
 description: Устранение недостатков безопасности, обнаруженных с помощью рекомендаций по безопасности, и создание исключений при необходимости в управлении угрозами и уязвимостью.
-keywords: Защитник Microsoft для устранения конечной точки tvm, mdatp tvm, управления угрозами и уязвимостей, управления угрозами & уязвимостей, устранения угрозы & устранения уязвимостей, tm remediation intune, tvm remediation sccm
+keywords: Исправление microsoft Defender для конечного твма, microsoft Defender для endpoint tvm, управление угрозами и уязвимостью, управление рисками & уязвимостей, исправление угрозы & уязвимостей, intune устранения tvm, sccm исправлений tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be24528c2337c5d2616eb1bf69906f60ae7b4375
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 56b6c809e31285bbfae47a5fdcc0446890919e8b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689369"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934073"
 ---
 # <a name="remediate-vulnerabilities-with-threat-and-vulnerability-management"></a>Устранение уязвимостей с помощью управления угрозами и уязвимостями
 

@@ -1,7 +1,7 @@
 ---
 title: Рекомендации по безопасности с помощью управления угрозами и уязвимостями
 description: В управлении угрозами и уязвимостью получите рекомендации по безопасности, которые можно использовать в качестве приоритета с помощью угрозы, вероятности нарушения и значения.
-keywords: управление угрозами и уязвимостью, рекомендация по безопасности mdatp tvm, рекомендация по кибербезопасности, рекомендация по обеспечению безопасности
+keywords: Управление угрозами и уязвимостью, рекомендация по безопасности microsoft Defender для endpoint tvm, рекомендация по кибербезопасности, рекомендация по безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 97d496271c1ef7185419f7d39956da0429f070aa
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: af22bac911339de9c2e02df24a77c1889a33d43a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500489"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933737"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>Рекомендации по безопасности — управление угрозами и уязвимостью
 

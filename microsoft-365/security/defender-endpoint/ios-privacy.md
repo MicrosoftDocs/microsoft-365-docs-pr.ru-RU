@@ -2,7 +2,7 @@
 title: Сведения о конфиденциальности — Microsoft Defender для конечной точки на iOS
 ms.reviewer: ''
 description: Описывает сведения о конфиденциальности для Microsoft Defender для конечной точки на iOS
-keywords: Microsoft, defender, atp, ios, policy, overview
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, ios, policy, overview
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f5598df8a9e3493a1c4922f672468dd54e84c31e
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688205"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934289"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>Сведения о конфиденциальности — Microsoft Defender для конечной точки на iOS
 
@@ -34,15 +34,15 @@ ms.locfileid: "51688205"
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 > [!NOTE]
-> Защитник для конечной точки для iOS использует VPN для предоставления функции веб-защиты. Это не обычный VPN и локальный или самоциклинг VPN, который не принимает трафик за пределами устройства. **Корпорация Майкрософт или ваша организация не видят действий для просмотра.**
+> Защитник для конечной точки на iOS использует VPN для предоставления функции веб-защиты. Это не обычный VPN и локальный или самоциклинг VPN, который не принимает трафик за пределами устройства. **Корпорация Майкрософт или ваша организация не видят действий для просмотра.**
 
-Defender for Endpoint для iOS собирает сведения с настроенных устройств iOS и хранит их в том же клиенте, где у вас есть Defender for Endpoint. Сведения собираются, чтобы защитить Defender для конечной точки для iOS в соответствии с ожидаемым сроком выполнения, а также поддерживать службу.
+Defender for Endpoint на iOS собирает сведения с настроенных устройств iOS и хранит их в том же клиенте, где у вас есть Defender for Endpoint. Сведения собираются для обеспечения безопасности Defender for Endpoint на iOS в соответствии с ожидаемым сроком выполнения и поддержки службы.
 
 Дополнительные сведения о хранении данных см. в [веб-сайте Microsoft Defender для хранения и конфиденциальности данных конечной точки.](data-storage-privacy.md)
 
 ## <a name="required-data"></a>Необходимые данные 
 
-Необходимые данные состоят из данных, необходимых для работы Defender для конечной точки для iOS, как и ожидалось. Эти данные необходимы для работы службы и могут включать данные, связанные с конечным пользователем, организацией, устройством и приложениями. 
+Необходимые данные состоят из данных, необходимых для того, чтобы Защитник для конечной точки на iOS работал так, как ожидалось. Эти данные необходимы для работы службы и могут включать данные, связанные с конечным пользователем, организацией, устройством и приложениями. 
 
 Вот список типов собираемой информации: 
 

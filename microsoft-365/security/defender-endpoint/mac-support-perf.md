@@ -1,7 +1,7 @@
 ---
 title: Устранение неполадок с производительностью для Microsoft Defender для конечной точки на macOS
 description: Устранение неполадок с производительностью в Microsoft Defender для конечной точки на macOS.
-keywords: Microsoft, defender, atp, mac, performance
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, mac, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8dfaf1dbf2c3742cc97060c7f9e811c83d0cb023
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 623717e7b1a3149dbccf07d32200820a7f9083cb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698224"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934253"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Устранение неполадок с производительностью для Microsoft Defender для конечной точки на macOS
 
@@ -32,7 +32,7 @@ ms.locfileid: "51698224"
 
 **Область применения:**
 
-- [Microsoft Defender для конечной точки на macOS](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md)
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -66,7 +66,7 @@ ms.locfileid: "51698224"
 
 2. Откройте finder и перейдите **к**  >  **утилитам приложений**. Откройте **монитор активности** и проанализируйте, какие приложения используют ресурсы в вашей системе. Типичные примеры включают обновление программного обеспечения и компиляторы.
 
-1. Чтобы найти приложения, запускающие наибольшее сканировать, можно использовать статистику в режиме реального времени, собранную Defender для конечной точки для Mac.
+1. Чтобы найти приложения, запускающие наибольшее сканировать, можно использовать статистику в режиме реального времени, собранную Defender для конечной точки на Mac.
 
       > [!NOTE]
       > Эта функция доступна в версии 100.90.70 или более новой версии.

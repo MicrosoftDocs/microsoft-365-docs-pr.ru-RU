@@ -1,7 +1,7 @@
 ---
 title: Onboard devices to the Microsoft Defender for Endpoint service
 description: На борту устройств Windows 10, серверов, устройств без Windows и узнайте, как выполнить тест обнаружения.
-keywords: onboarding, microsoft defender for endpoint onboarding, windows atp onboarding, sccm, group policy, mdm, local script, detection test
+keywords: onboarding, Microsoft Defender for Endpoint onboarding, sccm, group policy, mdm, local script, detection test
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4aa3e30f34e7d9dc362cc0bbb277aaee5834b4fe
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 05cc5770df5bb05687bb8be69ad89a7abd6875ed
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861379"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933557"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Onboard devices to the Microsoft Defender for Endpoint service
 

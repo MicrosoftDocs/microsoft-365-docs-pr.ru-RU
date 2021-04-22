@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender
 description: Microsoft 365 Defender — это скоординированное решение защиты от угроз, предназначенное для защиты устройств, удостоверений, данных и приложений.
-keywords: введение в Microsoft Threat Protection, кибербезопасность, расширенные постоянные угрозы, корпоративная безопасность, устройства, устройства, удостоверения, пользователи, данные, приложения, инциденты, автоматическое расследование и исправление, расширенный поиск
+keywords: введение в MMicrosoft 365 Defender, кибербезопасность, расширенные постоянные угрозы, корпоративная безопасность, устройства, устройства, удостоверения, пользователи, данные, приложения, инциденты, автоматическое расследование и исправление, расширенный поиск
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 86bc6ef03438b637f62cf0e2a46e418dbea7a3c1
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 32defdf459ec65ba0fd268a5a7c84851e9014efa
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650282"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934049"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 

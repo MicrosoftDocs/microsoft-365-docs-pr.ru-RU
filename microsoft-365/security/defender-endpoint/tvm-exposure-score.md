@@ -1,7 +1,7 @@
 ---
 title: Оценка экспозиции в управлении угрозами и уязвимостью
 description: Оценка воздействия на управление рисками и уязвимостями отражает уязвимость организации к угрозам кибербезопасности.
-keywords: оценка экспозиции, оценка экспозиции mdatp, оценка экспозиции mdatp tvm, оценка экспозиции организации, оценка экспозиции организации tvm, управление угрозами и уязвимостью, Microsoft Defender для Endpoint
+keywords: оценка экспозиции, оценка экспозиции Microsoft Defender для конечной точки, оценка экспозиции Microsoft Defender для endpoint tvm, оценка экспозиции организации, оценка экспозиции в организации tvm, управление угрозами и уязвимостью, Microsoft Defender для Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34c3122b017b14605fdbb3358f31f73e26361a4d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: fcea240fe1dc0ce97a2800391320b04c39c84336
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500127"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934109"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>Оценка экспозиции — управление угрозами и уязвимостью
 
@@ -61,7 +61,7 @@ ms.locfileid: "51500127"
 
 Снижение воздействия угрозы и уязвимости путем устранения [рекомендаций по безопасности.](tvm-security-recommendation.md) Сделайте наибольшее влияние на оценку экспозиции, изменив верхние рекомендации по безопасности, которые можно просмотреть в панели управления угрозами и [уязвимостями.](tvm-dashboard-insights.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Оценка безопасности (Майкрософт) для устройств](tvm-microsoft-secure-score-devices.md)

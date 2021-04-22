@@ -1,7 +1,7 @@
 ---
 title: Миграция из сторонних HIPS в правила ASR
 description: Описывает, как подходить к миграции из сторонного решения системы предотвращения вторжений на хост (HIPS) в правила ASR.
-keywords: Правила уменьшения поверхности атаки, правила asr, asr, hips, система защиты от вторжения, правила защиты, антиэкспозиция, антиэксплойт, эксплойт, профилактика инфекций, Microsoft Defender for Endpoint, Microsoft Defender ATP
+keywords: Правила уменьшения поверхности атаки, правила asr, asr, hips, система защиты от вторжения, правила защиты, антиэкспозиция, антиэксплойт, эксплойт, профилактика инфекций, Microsoft Defender для endpoint
 search.product: eADQiWindows 10XVcnh
 ms.topic: article
 ms.prod: m365-security
@@ -15,12 +15,12 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: 5b2c6c12de7b87a045a81a552e3fe74b4829e94d
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: de65c134560ecca219de9174ff222d31dd578d31
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764787"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933785"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>Миграция из сторонних HIPS в правила ASR
 
@@ -41,7 +41,7 @@ ms.locfileid: "51764787"
 - **Применяется к**. - Все процессы
 - **Процессы**- N/A
 - **Operation**— Изменения реестра
-- **Примеры файлов и папок, ключей и** значений реестра, процессов, служб -  *\Software*,HKCU\Environment\UserInitMprLogonScript,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\StartExe,*HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options*\Debugger,HKEY_CURRENT_USER\Software\Microsoft\HtmlHelp Author\location,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcesExit*\MonitorProcess
+- **Примеры файлов и папок, ключей и** значений реестра, процессов, служб -  *\Software*,HKCU\Environment\UserInitMprLogonScript,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs\StartExe,*HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options \Debugger,* HKEY_CURRENT_USER\Software\Microsoft\HtmlHelp Author\location, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcesExit*\MonitorProcess
 - **Правила уменьшения поверхности** атаки — правила ASR блокируют методы атаки, а не индикаторы компромисса (МОК). Блокировка определенного расширения файла не всегда полезна, так как не мешает устройству идти на компромисс. Это лишь частично препятствует атаке, пока злоумышленники не создадут новый тип расширения для полезной нагрузки.
 - **Рекомендуется использовать другие** рекомендуемые функции : включено av-устройство Microsoft Defender, а также анализ облачной защиты и поведения. Рекомендуется использовать дополнительную профилактику, например правило ASR "Использование дополнительной защиты от вымогателей". Это обеспечивает более высокий уровень защиты от атак вымогателей. Кроме того, некоторые из этих ключей реестра отслеживаются Microsoft Defender для конечной точки, например методы ASEP, которые будут вызывать определенные оповещения. Кроме того, для используемых ключей реестра необходимо изменить минимум привилегий локального администратора или доверенного установщика. Рекомендуется использовать заблокированную среду с минимальными административными учетными записями или правами. Можно включить другие конфигурации системы, в том числе "Отключить SeDebug для не требуемой роли", которые являются частью наших более широких рекомендаций по безопасности.
 
@@ -59,7 +59,7 @@ ms.locfileid: "51764787"
 - **Применяется к**- Mshta
 - **Процессы**— mshta.exe
 - **Операция**— выполнение процесса
-- **Примеры файлов и папок, ключей и** значений реестра, процессов, служб — powershell.exe, cmd.exe, regsvr32.exe
+- **Примеры файлов и папок,** ключей и значений реестра, процессов, служб — powershell.exe, cmd.exe, regsvr32.exe
 - **Правила уменьшения поверхности** атаки — правила ASR не содержат каких-либо определенных правил для предотвращения "mshta.exe". Этот контроль находится в области защиты от эксплойтов или Защитник Windows управления приложениями.
 - **Другие рекомендуемые** функции — включить Защитник Windows управления приложениями, чтобы предотвратить mshta.exe выполнения. Если организации требуется "mshta.exe" для линейки бизнес-приложений, настройте определенное правило Защитник Windows exploit Protection, чтобы предотвратить mshta.exe запуска детских процессов.
 
@@ -69,7 +69,7 @@ ms.locfileid: "51764787"
 - **Процессы**— outlook.exe
 - **Операция**— выполнение процесса
 - **Примеры файлов и папок, ключей и** значений реестра, процессов, служб — powershell.exe
-- Правила уменьшения поверхности атаки **.** Правила ASR имеют встроенное правило, чтобы запретить приложениям связи Office (Outlook, Skype и Teams) запускать детские процессы: "Заблокировать приложение связи Office от создания детских процессов", GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
+- Правила уменьшения поверхности атаки **—** правила ASR имеют встроенное правило, чтобы запретить приложениям связи Office (Outlook, Skype и Teams) запускать детские процессы: "Заблокировать приложение связи Office от создания детских процессов", GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
 - **Другие рекомендуемые функции**. Рекомендуется включить режим с ограниченным языком PowerShell, чтобы свести к минимуму поверхность атаки от PowerShell.
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "51764787"
 - **Применяется к**— Office
 - **Процессы**— winword.exe, powerpnt.exe, excel.exe
 - **Операция**— создание файлов
-- **Примеры файлов и папок, ключей и** значений реестра, процессов, служб - C:\Users *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp.com,**C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData .scf,** C:\Users\Public*.exe, C:\Users*\Desktop**.exe
+- **Примеры файлов и папок, ключей и** значений реестра, процессов, служб — C:\Users *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp.com,**C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData .scf,** C:\Users\Public*.exe, C:\Users*\Desktop**.exe
 - **Правила уменьшения поверхности** атаки — N/A.
 
 ### <a name="block-wscript-from-reading-certain-types-of-files"></a>Блокировка Wscript чтения определенных типов файлов
@@ -137,14 +137,14 @@ ms.locfileid: "51764787"
 - **Правила уменьшения поверхности** атаки . В целом правила ASR не предназначены для работы в качестве диспетчера приложений.
 - **Другие рекомендуемые** функции . Чтобы запретить пользователям запускать определенные процессы или программы, рекомендуется использовать Защитник Windows управления приложениями. Индикаторы Microsoft Defender для конечного файла и cert можно использовать в сценарии реагирования на инциденты (не следует рассматривать как механизм управления приложениями).
     
-### <a name="block-unauthorized-changes-to-mdatp-av-configurations"></a>Блокировка несанкционированных изменений конфигураций AV MDATP
+### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>Блокировка несанкционированных изменений конфигураций антивируса Microsoft Defender
 
 - **Применяется к**. - Все процессы
 - **Процессы**- *
 - **Operation**— Изменения реестра
 - Примеры файлов и папок, ключей реестра/значений, **процессов,** служб - HKLM\SOFTWARE\Policies\Microsoft\Защитник Windows\DisableAntiSpyware, HKLM\SOFTWARE\Policies\Microsoft\Защитник Windows\Policy Manager\AllowRealTimeMonitoring и т. д.
 - **Правила уменьшения поверхности** атаки — правила ASR не охватывают эти сценарии, так как они являются частью встроенной защиты Microsoft Defender для конечной точки.
-- Другие рекомендуемые функции **—** Tamper Protection (оповещание, управление от Intune) предотвращает несанкционированные изменения в средствах disableAntiVirus, DisableAntiSpyware, DisableRealtimeMonitoring, DisableOnAccessProtection, DisableBehaviorMonitoring и DisableIOAVProtection (и т. п.).
+- Другие рекомендуемые функции **—** Tamper Protection (оповещание, управление от Intune) предотвращает несанкционированные изменения в disableAntiVirus, DisableAntiSpyware, DisableRealtimeMonitoring, DisableOnAccessProtection, DisableBehaviorMonitoring и disableIOAVProtection registry keys (и т. п.).
 
 См. также
 

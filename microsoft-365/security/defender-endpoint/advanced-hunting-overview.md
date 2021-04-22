@@ -1,7 +1,7 @@
 ---
-title: Обзор продвинутой охоты в ATP Защитника Майкрософт
-description: Используйте возможности охоты на угрозы в ATP Microsoft Defender для создания запросов, которые находят угрозы и недостатки в сети
-keywords: передовая охота, охота на угрозы, охота на киберугрозы, mdatp, microsoft defender atp, wdatp, search, query, telemetry, custom detections, schema, kusto, time zone, UTC
+title: Обзор продвинутой охоты в Microsoft Defender для конечной точки
+description: Используйте возможности охоты на угрозы в Microsoft Defender для конечной точки для создания запросов, которые находят угрозы и недостатки в сети
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft Defender для конечной точки, поиск, запрос, телеметрия, пользовательские обнаружения, схема, кусто, часовой пояс, UTC
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9e5f29874ae42f2b82906a5ac0d2e615009d499f
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 114c0192f77411016fcb13ec2b912f4440ffa6e0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615487"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934361"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Активная охота на угрозы с расширенным поиском
 

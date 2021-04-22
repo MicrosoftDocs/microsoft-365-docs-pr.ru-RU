@@ -1,7 +1,7 @@
 ---
 title: Запуск пилотного проекта Microsoft 365 Defender
 description: Запустите пилотный проект Microsoft 365 Defender в производстве, чтобы эффективно определить преимущества и принятие Microsoft 365 Defender.
-keywords: Пилот microsoft Threat Protection, запуск пилотного проекта Microsoft Threat Protection, оценка microsoft Threat Protection в производстве, пилотный проект Microsoft Threat Protection, кибербезопасность, расширенные постоянные угрозы, безопасность предприятия, устройства, устройства, удостоверения, пользователи, данные, приложения, инциденты, автоматическое расследование и исправление, продвинутая охота
+keywords: Пилот Microsoft 365 Defender, пилотный проект Microsoft 365 Defender, оценка Microsoft 365 Defender в производстве, пилотный проект Microsoft 365 Defender, кибербезопасность, расширенные угрозы, безопасность предприятия, устройства, устройства, удостоверения, пользователи, данные, приложения, инциденты, автоматическое расследование и исправление, продвинутая охота
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1dd310d962cbce2b339cf09d5be6317c227d3f13
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b1616b39597a90ff8e8f7b4c92f29f75c62fea18
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076286"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934433"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Запуск пилотного проекта Microsoft 365 Defender 
 
@@ -50,9 +50,9 @@ ms.locfileid: "51076286"
 В этом руководстве представлен обзор инструкций по пошаговой работы с Защитником Microsoft 365 и инструкций по настройкам пилотного проекта. 
 
 Microsoft 365 Defender — это единый пакет защиты предприятия до и после нарушения, который в основном координирует защиту, обнаружение, предотвращение, расследование и ответные действия между конечными точками, удостоверениями, электронной почтой и приложениями для обеспечения комплексной защиты от сложных атак. Это делается путем объединения и оркестровки следующих возможностей в единое решение безопасности:
-  - Microsoft Defender для конечной точки — новое имя для расширенных угроз (конечные точки) для Microsoft Defender Advanced Threat Protection (конечные точки)
-  - Microsoft Defender для Office 365 — новое имя ATP Office 365 (электронная почта) 
-  - Microsoft Defender for Identity — новое имя для Azure ATP (удостоверение) 
+  - Защитник Microsoft для конечной точки (конечные точки)
+  - Microsoft Defender для Office 365 (электронная почта) 
+  - Защитник Microsoft для удостоверений (удостоверение) 
   - Microsoft Cloud App Security (apps)
 
 ![Решение of_Microsoft 365 Defender для пользователей, Microsoft Defender for Identity, для конечных точек Microsoft Defender для конечной точки, для облачных приложений, microsoft Cloud App Security и для данных, Microsoft Defender для Office 365](../../media/mtp/m365pillars.png)

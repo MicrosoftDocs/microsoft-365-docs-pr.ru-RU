@@ -1,5 +1,5 @@
 ---
-title: Поля API API обнаружения API для Защитника Microsoft Defender
+title: Поля API для обнаружения конечных точек Microsoft Defender
 description: Понимание того, как поля API обнаружения соотносят со значениями центра безопасности Microsoft Defender
 keywords: обнаружения, обнаружения полей, полей, api, полей, обнаружения тяги, api отдыха, запроса, ответа
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e304d731409c4cd0fac722d492b3fab5ed28fd35
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d6d2ad9abe88d0099b58dd2df486120082bb22c1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164885"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933641"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>Поля API для обнаружения конечных точек Microsoft Defender
 
@@ -52,7 +52,7 @@ ms.locfileid: "51164885"
 > | Метка портала   | Имя поля SIEM           | Поле ArcSight      | Пример значения                                                                      | Описание                                                                                                                                                                    |
 > |------------------|---------------------------|---------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 > | 1                | AlertTitle                | name                | Microsoft Defender AV обнаружил вредоносные программы с высокой степенью серьезности "Mikatz" | Значение, доступное для каждого обнаружения.                                                                                                                                               |
-> | 2                | Severity                  | deviceSeverity      | Высокий                                                                             | Значение, доступное для каждого обнаружения.                                                                                                                                               |
+> | 2                | Severity                  | deviceSeverity      | Высокая                                                                             | Значение, доступное для каждого обнаружения.                                                                                                                                               |
 > | 3                | Category                  | deviceEventCategory | Вредоносные программы                                                               | Значение, доступное для каждого обнаружения.                                                                                                                                               |
 > | 4                 | Источник обнаружения                    | sourceServiceName   | Защита от вирусов                                                                 | Антивирус Microsoft Defender или Defender для конечной точки. Значение, доступное для каждого обнаружения.                                                                                         |
 > | 5                 | MachineName               | sourceHostName      | desktop-4a5ngd6                                                                           | Значение, доступное для каждого обнаружения.                                                                                                                                               |
@@ -101,8 +101,8 @@ ms.locfileid: "51164885"
 ![Предупреждение об актере изображения](images/atp-mapping7.png)
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Включение интеграции SIEM в Microsoft Defender для конечной точки](enable-siem-integration.md)
 - [Настройте ArcSight, чтобы вытащить Microsoft Defender для обнаружения конечных точек](configure-arcsight.md)
 - [Pull Microsoft Defender для обнаружения конечных точек с помощью API REST](pull-alerts-using-rest-api.md)
-- [Устранение неполадок в интеграции инструментов SIEM](troubleshoot-siem.md)
+- [Устранение неполадок с интеграцией средства SIEM](troubleshoot-siem.md)

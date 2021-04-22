@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 84caa39b44a4e0706b1fe4a103d8a8a14c52daed
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 6465be53de38872e3eb1d7b70dc3efbb9154aace
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892979"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934205"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки
 
@@ -251,7 +251,7 @@ ms.locfileid: "51892979"
 
 ### <a name="ensure-the-device-has-an-internet-connection"></a>Обеспечение подключения к Интернету на устройстве
 
-Датчик ATP защитника окна требует от Microsoft Windows HTTP (WinHTTP) сообщать данные датчиков и общаться с службой Microsoft Defender для конечных точек.
+Для использования датчика Microsoft Defender для конечной точки требуется Microsoft Windows HTTP (WinHTTP), чтобы передавать данные датчика и общаться со службой Microsoft Defender для конечной точки.
 
 WinHTTP не зависит от параметров прокси-сервера для просмотра в Интернете и других приложений контекста пользователя и должен иметь возможность обнаруживать прокси-серверы, доступные в конкретной среде.
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
-ms.openlocfilehash: 1b8454107b6a2737f1236a066c3a24a2b9c776cb
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: a8b7268e89470a85a34015967b69abb1818fe64f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222660"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933845"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>Просмотр событий и ошибок с помощью viewer событий
 
@@ -59,7 +59,7 @@ ms.locfileid: "51222660"
 <th>Идентификатор события</th>
 <th>Сообщение</th>
 <th>Описание</th>
-<th>Действие</th>
+<th>Action</th>
 </tr>
 <tr>
 <td>1</td>
@@ -301,13 +301,13 @@ ms.locfileid: "51222660"
 </tr>
 <tr>
 <td>42</td>
-<td>Компонент Microsoft Defender для конечной точки WDATP не выполнил действий. Компонент: %1, Действие: %2, Тип исключения: %3, Сообщение об исключении: %4</td>
+<td>Компонент Microsoft Defender для конечной точки не выполнил действий. Компонент: %1, Действие: %2, Тип исключения: %3, Сообщение об исключении: %4</td>
 <td>Внутренняя ошибка. Не удалось запустить службу.</td>
 <td>Если эта ошибка сохраняется, обратитесь в службу поддержки.</td>
 </tr>
 <tr>
 <td>43</td>
-<td>Компонент Microsoft Defender для конечной точки WDATP не выполнил действий. Компонент: %1, Действие: %2, Тип исключения: %3, Ошибка исключения: %4, Сообщение об исключении: %5</td>
+<td>Компонент Microsoft Defender для конечной точки не выполнил действий. Компонент: %1, Действие: %2, Тип исключения: %3, Ошибка исключения: %4, Сообщение об исключении: %5</td>
 <td>Внутренняя ошибка. Не удалось запустить службу.</td>
 <td>Если эта ошибка сохраняется, обратитесь в службу поддержки.</td>
 </tr>
@@ -482,13 +482,13 @@ ms.locfileid: "51222660"
 </tr>
 <tr>
    <td>81</td>
-   <td>Не удалось создать автологгер Защитник Windows защиты от угроз ETW. Код отказа: %1</td>
+   <td>Не удалось создать автологгер Microsoft Defender для конечной точки ETW. Код отказа: %1</td>
    <td>Не удалось создать сеанс ETW.</td>
    <td>Перезагрузка устройства. Если эта ошибка сохраняется, обратитесь в службу поддержки.</td>
 </tr>
 <tr>
    <td>82</td>
-   <td>Не удалось удалить Защитник Windows advanced Threat Protection ETW autologger. Код отказа: %1</td>
+   <td>Не удалось удалить автологгер Microsoft Defender для конечной точки ETW. Код отказа: %1</td>
    <td>Не удалось удалить сеанс ETW.</td>
    <td>Поддержка контактов.</td>
 </tr>
@@ -500,7 +500,7 @@ ms.locfileid: "51222660"
 </tr>
 <tr>
    <td>85</td>
-   <td>Не удалось вызвать Защитник Windows advanced Threat Protection. Код отказа: %1</td>
+   <td>Не удалось вызвать Microsoft Defender для конечной точки, исполняемой. Код отказа: %1</td>
    <td>Выполнение SenseIR в главной роли не удалось.</td>
    <td>Перезагрузка устройства. Если эта ошибка сохраняется, обратитесь в службу поддержки.</td>
 </tr>
@@ -554,19 +554,19 @@ ms.locfileid: "51222660"
 </tr>
 <tr>
    <td>94</td>
-   <td>Защитник Windows запущена передовая защита от угроз</td>
+   <td>Начался microsoft Defender для исполняемой конечной точки</td>
    <td>Начался исполняемый SenseCE.</td>
    <td>Нормальное операционное уведомление; никаких действий.</td>
 </tr>
 <tr>
    <td>95</td>
-   <td>Защитник Windows выполнение advanced Threat Protection завершено</td>
+   <td>Microsoft Defender для исполняемой конечной точки завершилась</td>
    <td>Исполняемый SenseCE завершился.</td>
    <td>Нормальное операционное уведомление; никаких действий.</td>
 </tr>
 <tr>
    <td>96</td>
-   <td>Защитник Windows advanced Threat Protection Init вызвал. Код результата: %2</td>
+   <td>Microsoft Defender для endpoint Init вызвал. Код результата: %2</td>
    <td>Исполняемый SenseCE вызвал инициализацию MCE.</td>
    <td>Нормальное операционное уведомление; никаких действий.</td>
 </tr>
@@ -590,19 +590,19 @@ ms.locfileid: "51222660"
 </tr>
 <tr>
    <td>100</td>
-   <td>Защитник Windows advanced Threat Protection, исполняемый не удалось запустить. Код отказа: %1</td>
+   <td>Не удалось запустить Microsoft Defender для конечной точки. Код отказа: %1</td>
    <td>Не удалось запустить исполняемый SenseCE.</td>
    <td>Перезагрузка устройства. Если эта ошибка сохраняется, обратитесь в службу поддержки.</td>
 </tr>
 <tr>
    <td>102</td>
-   <td>Защитник Windows запущена передовая система обнаружения и реагирования на угрозы</td>
+   <td>Начался microsoft Defender для обнаружения конечных точек сети и выполнения ответных действий</td>
    <td>Начался исполняемый SenseNdr.</td>
    <td>Нормальное операционное уведомление; никаких действий.</td>
 </tr>
 <tr>
    <td>103</td>
-   <td>Защитник Windows advanced Threat Protection Network Detection and Response executable has ended</td>
+   <td>Microsoft Defender для обнаружения конечных точек сети и выполнения ответов завершен</td>
    <td>Выполнение SenseNdr завершено.</td>
    <td>Нормальное операционное уведомление; никаких действий.</td>
 </tr>
@@ -611,7 +611,7 @@ ms.locfileid: "51222660"
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-eventerrorcodes-belowfoldlink)
 
-## <a name="related-topics"></a>Статьи по теме
-- [На борту устройств с Windows 10](configure-endpoints.md)
+## <a name="related-topics"></a>Похожие темы
+- [Подключение устройств Windows 10](configure-endpoints.md)
 - [Настройка параметров прокси-сервера устройства и подключения к Интернету](configure-proxy-internet.md)
 - [Устранение неполадок Microsoft Defender для конечной точки](troubleshoot-onboarding.md)

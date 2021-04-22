@@ -1,7 +1,7 @@
 ---
 title: Отсутствие KBs по ID устройства
 description: Извлечение отсутствующих обновлений безопасности по ID устройства
-keywords: apis, api graph, supported apis, get, list, file, information, device id, threat & vulnerability management api, mdatp tvm api
+keywords: apis, graph api, supported apis, get, list, file, information, device id, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4364e6a38d4597a95d4d9a1f05dcce6fce5797ef
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: aa22b90b95788d9f5a65d54c7a335a2e0f4c3091
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500702"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933581"
 ---
 # <a name="get-missing-kbs-by-device-id"></a>Отсутствие KBs по ID устройства
 
@@ -91,7 +91,7 @@ GET https://api.securitycenter.microsoft.com/api/machines/2339ad14a01bd0299afb93
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Инвентаризация программного обеспечения & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)

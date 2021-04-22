@@ -1,7 +1,7 @@
 ---
 title: Расширенный справочник схемы охоты
 description: Сведения о таблицах в продвинутой схеме охоты, чтобы понять данные, на которые можно запускать запросы на поиск угроз.
-keywords: расширенный поиск, охота на угрозы, охота на киберугрозы, mdatp, защита microsoft atp, поиск wdatp, запрос, телеметрия, ссылка схемы, кусто, таблица, данные
+keywords: продвинутая охота, охота на угрозы, охота на киберугрозы, Microsoft Defender для конечной точки, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: 38fe205227089acaec1ba0cbecffdfb76acf6a24
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: b35cc32f776083b58bc6467be43508a805d92d9c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615475"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934349"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>Понимание схемы расширенных схем охоты в Microsoft Defender для конечной точки
 
@@ -79,7 +79,7 @@ ms.locfileid: "51615475"
 >Используйте расширенный метод охоты в [Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включение Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable)<br><br>
 Узнайте больше о том, как переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

@@ -1,7 +1,7 @@
 ---
 title: DeviceFileCertificateInfo table in the advanced hunting schema
 description: Сведения о подписании файлов в таблице DeviceFileCertificateInfo в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, digital signature, certificate, file signing, DeviceFileCertificateInfo
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, digital signature, certificate, file signing, DeviceFileCertificateInfo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eafe84e2d08ce15fe2c3a7cbfafb0822a2f38666
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 272896c745386f13fc0e36301c5c16f5f24dbb42
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498634"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933677"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -46,13 +46,13 @@ ms.locfileid: "51498634"
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `IsSigned` | boolean | Указывает, подписан ли файл |
-| `SignatureType` | string | Указывает, была ли информация подписи прочитана как встроенное содержимое в самом файле или считывается из внешнего файла каталога. |
-| `Signer` | string | Сведения о подписывщике файла |
-| `SignerHash` | string | Уникальное значение hash, определяющие подписавщика |
-| `Issuer` | string | Сведения о полномочиях по выдаче сертификатов (CA) |
-| `IssuerHash` | string | Уникальное значение hash identifying issuing certificate authority (CA) |
-| `CertificateSerialNumber` | string | Идентификатор сертификата, который является уникальным для органа по выдаче сертификатов (CA) |
-| `CrlDistributionPointUrls` | string |  Массив JSON с перечислением URL-адресов сетевых акций, содержащих сертификаты и списки отзывов сертификатов (CRLs) |
+| `SignatureType` | Строка | Указывает, была ли информация подписи прочитана как встроенное содержимое в самом файле или считывается из внешнего файла каталога. |
+| `Signer` | Строка | Сведения о подписывщике файла |
+| `SignerHash` | Строка | Уникальное значение hash, определяющие подписавщика |
+| `Issuer` | Строка | Сведения о полномочиях по выдаче сертификатов (CA) |
+| `IssuerHash` | Строка | Уникальное значение hash identifying issuing certificate authority (CA) |
+| `CertificateSerialNumber` | Строка | Идентификатор сертификата, который является уникальным для органа по выдаче сертификатов (CA) |
+| `CrlDistributionPointUrls` | Строка |  Массив JSON с перечислением URL-адресов сетевых акций, содержащих сертификаты и списки отзывов сертификатов (CRLs) |
 | `CertificateCreationTime` | datetime | Дата и время создания сертификата |
 | `CertificateExpirationTime` | datetime | Дата и время истечения срока действия сертификата |
 | `CertificateCountersignatureTime` | datetime | Дата и время, когда сертификат был подписан |
@@ -60,7 +60,7 @@ ms.locfileid: "51498634"
 | `IsRootSignerMicrosoft` | boolean | Указывает, является ли подписатель корневого сертификата Корпорацией Майкрософт |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. | 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

@@ -1,7 +1,7 @@
 ---
 title: Список программного обеспечения
 description: Извлечение списка инвентаризации программного обеспечения
-keywords: apis, api graph, supported apis, get, list, file, information, software inventory, threat & vulnerability management api, mdatp tvm api
+keywords: apis, api graph, supported apis, get, list, file, information, software inventory, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 867fb57f61bd98b7c0afabd20b27e68d6bf45ef7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6522b546dfde7447a03b3c417be93d288e261908
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198569"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934013"
 ---
 # <a name="list-software-inventory-api"></a>Список API инвентаризации программного обеспечения
 
@@ -40,8 +40,8 @@ ms.locfileid: "51198569"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |Software.Read.All |    'Read Threat and Vulnerability Management Software information'
-Делегированное (рабочая или учебная учетная запись) | Software.Read |    'Read Threat and Vulnerability Management Software information'
+Приложение |Software.Read.All |    'Read Threat and Vulnerability Management Software information'
+Делегированные (рабочая или учебная учетная запись) | Software.Read |    'Read Threat and Vulnerability Management Software information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -52,7 +52,7 @@ GET /api/Software
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса
@@ -96,6 +96,6 @@ GET https://api.securitycenter.microsoft.com/api/Software
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Инвентаризация программного обеспечения & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)

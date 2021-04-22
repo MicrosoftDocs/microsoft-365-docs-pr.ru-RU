@@ -1,7 +1,7 @@
 ---
 title: Защитник Microsoft для конечной точки в центре безопасности Microsoft 365
 description: Узнайте об изменениях из Центра безопасности Защитника Майкрософт в центр безопасности Microsoft 365
-keywords: Начало работы с центром безопасности Microsoft 365, OATP, MDATP, MDO, MDE, единой области стекла, конвергентного портала, портала безопасности, портала безопасности защитника
+keywords: Начало работы с центром безопасности Microsoft 365, Microsoft Defender для Office 365, Microsoft Defender для endpoint, MDO, MDE, единой области стекла, конвергентного портала, портала безопасности, портала безопасности защитника
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: edf0baa369142f6a0aafc86794a47ab0be6e345a
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: c8e38e3f22b48b58ea7fb1a4a6f000c80c170675
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760054"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934409"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Защитник Microsoft для конечной точки в центре безопасности Microsoft 365
 

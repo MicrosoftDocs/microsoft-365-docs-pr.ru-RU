@@ -2,7 +2,7 @@
 title: Обзор сокращения направлений атак
 ms.reviewer: ''
 description: Узнайте о возможностях уменьшения поверхности атаки в Microsoft Defender для конечной точки.
-keywords: asr, уменьшение поверхности атаки, atp защитника Майкрософт, защитник Microsoft для конечной точки, защитник Майкрософт, антивирус, av, защитник Windows
+keywords: asr, уменьшение поверхности атаки, Microsoft Defender для endpoint, защитник Майкрософт, антивирус, av, защитник Windows
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 60efae91e4b65c5977bd2aebf111d9174d7c1042
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 68c9bad95e36863a57d27d49adc2ad46744cbd4a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893557"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933533"
 ---
 # <a name="overview-of-attack-surface-reduction"></a>Обзор сокращения направлений атак
 

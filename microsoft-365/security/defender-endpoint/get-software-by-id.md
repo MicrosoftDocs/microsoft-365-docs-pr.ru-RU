@@ -1,7 +1,7 @@
 ---
-title: Получить программное обеспечение по ID
+title: Получить программное обеспечение по ИД
 description: Извлекает список результатов воздействия по группе устройств.
-keywords: apis, graph api, supported apis, get, software, mdatp tvm api
+keywords: apis, graph api, supported apis, get, software, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 57d6ccd2c5387d478b75cfb6fb32a5b1052e491c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 31203e83570dbeb2404c9f1578301b5d6c18223c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198593"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934313"
 ---
-# <a name="get-software-by-id"></a>Получить программное обеспечение по ID
+# <a name="get-software-by-id"></a>Получить программное обеспечение по ИД
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -42,8 +42,8 @@ ms.locfileid: "51198593"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application | Software.Read.All | 'Read Threat and Vulnerability Management Software information'
-Делегированное (рабочая или учебная учетная запись) | Software.Read | 'Read Threat and Vulnerability Management Software information'
+Приложение | Software.Read.All | 'Read Threat and Vulnerability Management Software information'
+Делегированные (рабочая или учебная учетная запись) | Software.Read | 'Read Threat and Vulnerability Management Software information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -54,7 +54,7 @@ GET /api/Software/{Id}
 
 | Имя        | Тип | Описание
 |:--------------|:-------|:--------------|
-| Авторизация | Строка | Bearer {token}. **Обязательно**.
+| Authorization | String | Bearer {token}. **Обязательно**.
 
 ## <a name="request-body"></a>Текст запроса
 переменная Empty
@@ -92,6 +92,6 @@ GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Инвентаризация программного обеспечения & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)

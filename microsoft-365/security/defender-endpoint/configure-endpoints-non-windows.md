@@ -1,7 +1,7 @@
 ---
 title: Onboard non-Windows devices to the Microsoft Defender for Endpoint service
 description: Настройте устройства без Windows, чтобы они могли отправлять данные датчиков в службу Microsoft Defender для конечных точек.
-keywords: onboard non-Windows devices, macos, Linux, device management, configure Windows ATP devices, configure Microsoft Defender for Endpoint devices
+keywords: onboard non-Windows devices, macos, Linux, device management, configure Microsoft Defender for Endpoint devices
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c78779cd4a8a329864b6ac7e0debfc30ca0b3a56
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 1c10576b72793ab3833f2e9027e3814a449334ee
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893593"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933929"
 ---
 # <a name="onboard-non-windows-devices"></a>Подключение устройствах, отличных от Windows
 
@@ -48,7 +48,7 @@ Defender for Endpoint предоставляет централизованны�
 Необходимо предпринять следующие действия на бортовых устройствах без Windows:
 1. Выберите предпочтительный метод бортовой работы:
 
-   - Для устройств macOS вы можете выбрать бортовой вариант через Microsoft Defender для конечной точки или через сторонное решение. Дополнительные сведения см. [в веб-сайте Microsoft Defender для конечной точки для Mac.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
+   - Для устройств macOS вы можете выбрать бортовой вариант через Microsoft Defender для конечной точки или через сторонное решение. Дополнительные сведения см. [в сайте Microsoft Defender для конечной точки на Mac.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
    - Для других устройств, не в том что касается Windows, выберите **onboard non-Windows devices через сторонную интеграцию.**   
     1. В области навигации выберите **Партнеров по интероперабельности.**  >   Убедитесь, что в списке находится сторонное решение.

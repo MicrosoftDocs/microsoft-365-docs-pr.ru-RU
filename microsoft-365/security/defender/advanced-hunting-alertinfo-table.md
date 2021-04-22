@@ -1,7 +1,7 @@
 ---
 title: Таблица AlertInfo в продвинутой схеме охоты
 description: Узнайте о событиях генерации оповещений в таблице AlertInfo в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, severity, category, MITRE, ATT&CK, Microsoft Defender ATP, MDATP, Office 365 ATP, Microsoft Cloud App Security, MCAS, and Azure ATP
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, data type, description, AlertInfo, alert, severity, category, MITRE, ATT&CK, Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security, MCAS, and Microsoft Defender for Identity
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1386830a4b3e05009b19a7d0e3a4ea62ce3321f2
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 69c9201dbc3458cd4ad09a72f2ea0d7ea3bb2d2a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499827"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933701"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -49,10 +49,10 @@ ms.locfileid: "51499827"
 | `Category` | string | Тип индикатора угрозы или нарушения, определенного оповещением |
 | `Severity` | string | Указывает возможное воздействие (высокое, среднее или низкое) индикатора угрозы или нарушения, определенного оповещением |
 | `ServiceSource` | string | Продукт или служба, которые предоставили сведения об оповещении |
-| `DetectionSource` | string | Технология обнаружения или датчик, которые определили заметный компонент или действие |
-| `AttackTechniques` | string | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
+| `DetectionSource` | Строка | Технология обнаружения или датчик, которые определили заметный компонент или действие |
+| `AttackTechniques` | Строка | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

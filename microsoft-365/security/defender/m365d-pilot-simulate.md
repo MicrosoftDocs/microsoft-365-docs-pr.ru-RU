@@ -1,7 +1,7 @@
 ---
 title: Запуск имитации атак Microsoft 365 Defender
 description: Запустите имитацию атак для пилотного проекта Microsoft 365 Defender, чтобы узнать, как он разворачивается и быстро устраняется.
-keywords: Имитация пилотной атаки Microsoft Threat Protection, запуск имитации пилотной атаки Microsoft Threat Protection, имитация атаки в Microsoft Threat Protection, пилотный проект Microsoft Threat Protection, кибербезопасность, расширенные постоянные угрозы, безопасность предприятия, устройства, устройства, удостоверения, пользователи, данные, приложения, инциденты, автоматическое расследование и исправление, продвинутая охота
+keywords: Имитация пилотной атаки Microsoft 365 Defender, запуск имитации пилотной атаки Microsoft 365 Defender, имитация атаки в пилотном проекте Microsoft 365 Defender, microsoft 365 Defender, кибербезопасность, расширенные постоянные угрозы, безопасность предприятия, устройства, устройства, удостоверения, пользователи, данные, приложения, инциденты, автоматическое расследование и исправление, продвинутая охота
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: bb6472fdd52cdab0ab649fbb76b1ff6a683d6c80
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 767a7ea4c4c7604d1d4b227f08e4ca32c62737c5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076293"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934481"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Запуск имитации атак Microsoft 365 Defender
 
@@ -281,9 +281,9 @@ Microsoft 365 Defender сопоставляет аналитику и совме
 
 1. Убедитесь, что клиент включил [Microsoft 365 Defender.](m365d-enable.md#confirm-that-the-service-is-on)
 2. Определите целевой почтовый ящик, который будет использоваться для получения электронной почты.
-    а) Этот почтовый ящик должен контролироваться Microsoft Defender для Office 365 b. Устройство из требования 3 должно получить доступ к этому почтовому ящику
+    а. Этот почтовый ящик должен контролироваться Microsoft Defender для Office 365 b. Устройство из требования 3 должно получить доступ к этому почтовому ящику
 3. Настройка тестового устройства: a. Убедитесь, что вы используете Windows 10 версии 1903 или более поздней версии.
-    б) Присоединитесь к тестовом устройству в тестовом домене.
+    б. Присоединитесь к тестовом устройству в тестовом домене.
     в. [Включи Защитник Windows антивирус](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Если у вас возникли проблемы с включением Защитник Windows антивируса, см. в этом разделе [устранение неполадок.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)
     г. [На борту в Microsoft Defender для конечной точки](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
@@ -437,7 +437,7 @@ Microsoft 365 Defender сопоставляет аналитику и совме
 > [!NOTE]
 > Будьте готовы с помощью собственной учетной записи GitHub выполнить запросы на охоту в среде экспериментальной лаборатории тестирования.
 
-|Должность|Описание|Загрузка MP4|Смотреть на YouTube|CSL-файл для использования|
+|Название|Описание|Загрузка MP4|Смотреть на YouTube|CSL-файл для использования|
 |---|---|---|---|---|
 |Эпизод 1. Основы KQL|Мы покроем основы расширенных возможностей охоты в Microsoft 365 Defender. Сведения о доступных расширенных данных охоты и основных синтаксисах и операторах KQL.|[MP4](https://aka.ms/MTP15JUL20_MP4)|[YouTube](https://youtu.be/0D9TkGjeJwM)|[Эпизод 1. CSL-файл в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl)|
 |Эпизод 2. Присоединяется|Мы продолжим изучение данных в области предварительной охоты и совместной работы с таблицами. Узнайте о внутренних, внешних, уникальных и полусемейных присоединяется, а также нюансы присоединиться по умолчанию Kusto innerunique.|[MP4](https://aka.ms/MTP22JUL20_MP4)|[YouTube](https://youtu.be/LMrO6K5TWOU)|[Эпизод 2. CSL-файл в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl)|

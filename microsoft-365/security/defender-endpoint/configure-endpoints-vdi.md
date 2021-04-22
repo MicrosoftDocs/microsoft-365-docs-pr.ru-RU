@@ -1,7 +1,7 @@
 ---
 title: Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)
 description: Развертывание пакета конфигурации на устройстве виртуальной инфраструктуры настольных компьютеров (VDI), чтобы они были размещены в службе Microsoft Defender для конечных точек.
-keywords: настройка устройства виртуальной инфраструктуры настольных компьютеров, vdi, управления устройствами, настройка конечных точек ATP Windows, настройка конечных точек Microsoft Defender для конечных точек endpoint
+keywords: настройка устройства виртуальной инфраструктуры настольных компьютеров, vdi, управления устройствами, настройки Microsoft Defender для конечных точек, конечных точек
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 1e970be7967e221c29017be804a98770a778654f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 3872be343e51c4e28f946192256932b048a23791
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892797"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933905"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)
 

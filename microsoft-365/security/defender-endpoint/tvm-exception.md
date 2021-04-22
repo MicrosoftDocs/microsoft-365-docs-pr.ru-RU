@@ -1,7 +1,7 @@
 ---
 title: Создание и просмотр исключений для рекомендаций по безопасности — управление угрозами и уязвимостью
 description: Создание и мониторинг исключений для рекомендаций по безопасности в управлении угрозами и уязвимостью.
-keywords: Защитник Microsoft для устранения конечной точки tvm, mdatp tvm, управления угрозами и уязвимостей, управления угрозами & уязвимостей, устранения угрозы & устранения уязвимостей, tm remediation intune, tvm remediation sccm
+keywords: Исправление microsoft Defender для конечного твма, microsoft Defender для endpoint tvm, управление угрозами и уязвимостью, управление рисками & уязвимостей, исправление угрозы & уязвимостей, intune устранения tvm, sccm исправлений tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4f37300a742ab8cac32e95863cb706f1fd5f5d66
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1af8e5ec9d3aef560c739de5212e8118cf89cd7a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689417"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933749"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Создание и просмотр исключений для рекомендаций по безопасности — управление угрозами и уязвимостью
 
@@ -138,7 +138,7 @@ ms.locfileid: "51689417"
 
 ![Отображение столбцов в таблице.](images/tvm-after-exceptions-table.png)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Устранение уязвимостей](tvm-remediation.md)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9c77cb19731e55976058ce2f628baf4026639949
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 34ca51c066eddb65f2df0cf8a5d85732bd84a9c0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903794"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934373"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Настройка расширенных функций в Defender для конечной точки
 
@@ -151,7 +151,7 @@ ms.locfileid: "51903794"
 
 ## <a name="microsoft-defender-for-identity-integration"></a>Microsoft Defender для интеграции удостоверений
 
-Интеграция с Azure Advanced Threat Protection позволяет напрямую перейти в другой продукт безопасности Microsoft Identity. Расширенная защита от угроз Azure дополняет расследование дополнительными сведениями о предполагаемой скомпрометированной учетной записи и связанных с ней ресурсах. Включив эту функцию, вы обогатите возможности исследования на основе устройств, выключив по сети с точки зрения идентификации.
+Интеграция с Microsoft Defender для identity позволяет напрямую перейти в другой продукт безопасности Microsoft Identity. Microsoft Defender for Identity дополняет расследование дополнительными сведениями о предполагаемой взломаемой учетной записи и связанных с ней ресурсах. Включив эту функцию, вы обогатите возможности исследования на основе устройств, выключив по сети с точки зрения идентификации.
 
 > [!NOTE]
 > Чтобы включить эту функцию, вам потребуется соответствующая лицензия.
@@ -160,7 +160,7 @@ ms.locfileid: "51903794"
 
 Эта функция доступна только при наличии активной надстройки Office 365 E5 или надстройки Threat Intelligence. Дополнительные сведения см. на странице продукта Office 365 Enterprise E5.
 
-При включив эту функцию, вы сможете включить данные из Office 365 Advanced Threat Protection в Центр безопасности Microsoft Defender для проведения комплексного расследования безопасности на почтовых ящиках Office 365 и устройствах Windows.
+При включив эту функцию, вы сможете включить данные из Microsoft Defender для Office 365 в Центр безопасности Microsoft Defender, чтобы провести комплексное исследование безопасности на почтовых ящиках Office 365 и устройствах Windows.
 
 > [!NOTE]
 > Чтобы включить эту функцию, вам потребуется соответствующая лицензия.

@@ -1,7 +1,7 @@
 ---
 title: Настройка оповещений в Microsoft Defender для конечной точки
 description: Вы можете использовать Microsoft Defender для конечной точки для настройки параметров уведомлений электронной почты для оповещений о безопасности в зависимости от серьезности и других критериев.
-keywords: уведомления электронной почты, настройка оповещений, защитник Майкрософт для конечной точки, защитник Майкрософт для уведомлений конечной точки, защитник Майкрософт для оповещений конечных точек, windows 10 корпоративный, windows 10 образования
+keywords: уведомления электронной почты, настройка уведомлений оповещений, Microsoft Defender для конечной точки, уведомления Microsoft Defender для конечных точек, оповещения Microsoft Defender для конечных точек, windows 10 корпоративный, windows 10 образования
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b629d6a90931026ce28ce241e74d490ce67c6962
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: c60bed1fb2cc17c9f5dfbd1289ae5f5b5e13faec
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893638"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933953"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Настройка оповещений в Microsoft Defender для конечной точки
 

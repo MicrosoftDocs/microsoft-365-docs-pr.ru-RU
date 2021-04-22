@@ -1,6 +1,6 @@
 ---
 title: Offboard machine API
-description: Узнайте, как использовать API для отключения устройства из Защитник Windows advanced Threat Protection (WDATP).
+description: Узнайте, как использовать API для отключения устройства из Microsoft Defender для конечной точки.
 keywords: apis, graph api, supported apis, collect investigation package
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0b3fa5a5daba1aa09eef0f733c7439848ce66a2c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 03a1ef11224021703a6f33f82fa2c4f135a317a7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187344"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934181"
 ---
 # <a name="offboard-machine-api"></a>Offboard machine API
 
@@ -58,7 +58,7 @@ Offboard device from Defender for Endpoint.
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |   Machine.Offboard |  'Offboard machine'
-Делегированное (рабочая или учебная учетная запись) |    Machine.Offboard |  'Offboard machine'
+Делегированные (рабочая или учебная учетная запись) |    Machine.Offboard |  'Offboard machine'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -74,7 +74,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/offboard
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 Content-Type | string | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса

@@ -1,7 +1,7 @@
 ---
 title: Планирование конечных версий программного обеспечения и программного обеспечения
 description: Откройте и запланируйте для версий программного обеспечения и программного обеспечения, которые больше не поддерживаются и не будут получать обновления безопасности.
-keywords: управление угрозами и уязвимостью, рекомендация по безопасности mdatp tvm, рекомендация по кибербезопасности, рекомендация по обеспечению безопасности
+keywords: Управление угрозами и уязвимостью, рекомендация по безопасности microsoft Defender для endpoint tvm, рекомендация по кибербезопасности, рекомендация по безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 29adf8a542d97a981a07dac167343f3774aa5af4
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 8e8fc228b8856df03b580e748bf00efc8d4333c3
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500156"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934133"
 ---
 # <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Планирование конечных версий программного обеспечения и программного обеспечения с управлением угрозами и уязвимостью
 
@@ -70,7 +70,7 @@ End-of-support (EOS), иначе известный как end-of-life (EOL), д
 
 После того как вы определите, какие версии программного обеспечения и программного обеспечения уязвимы из-за их состояния поддержки, необходимо решить, обновлять или удалять их из организации. Это позволит снизить уровень уязвимостей и постоянных угроз для организаций.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)

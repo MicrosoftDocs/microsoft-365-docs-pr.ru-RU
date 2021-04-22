@@ -1,7 +1,7 @@
 ---
 title: Сведения о панели мониторинга — управление угрозами и уязвимостью
 description: Панель мониторинга управления угрозами и уязвимостями может помочь администраторам SecOps и безопасности в устранении угроз кибербезопасности и повысить устойчивость организации к безопасности.
-keywords: mdatp-tvm, панель мониторинга mdatp-tvm, управление & угрозами, управление угрозами и уязвимостями, управление рисками & уязвимостей, конфигурация безопасности, Microsoft Secure Score для устройств, оценка экспозиции
+keywords: Microsoft Defender для Endpoint-tvm, панель мониторинга Microsoft Defender для endpoint-tvm, управление & уязвимостей, управление угрозами и уязвимостями, управление рисками & уязвимостей, конфигурация безопасности, Оценка безопасности Microsoft для устройств, оценка экспозиции
 search.appverid: met150
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 35dd300d828bfa48ad753d7c65f36b2555cf4f60
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 82b6123a99eb406918708c6bf23b870ef3bc3d79
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500176"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934145"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>Сведения о панели мониторинга — управление угрозами и уязвимостью
 
@@ -76,7 +76,7 @@ ms.locfileid: "51500176"
 Дополнительные сведения о значках, используемых на портале, см. в [иконах Microsoft Defender для конечных точек.](portal-overview.md#microsoft-defender-for-endpoint-icons)
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Показатель уязвимости](tvm-exposure-score.md)

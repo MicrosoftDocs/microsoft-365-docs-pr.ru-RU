@@ -1,7 +1,7 @@
 ---
-title: Устранение неполадок в Microsoft Defender для проблем службы конечных точек
+title: Устранение неполадок службы Microsoft Defender для конечных точек
 description: Поиск решений и обходных решений известных проблем, таких как ошибки сервера при попытке доступа к службе.
-keywords: устранение неполадок защитника Майкрософт для конечной точки, устранение неполадок в Windows ATP, ошибка сервера, отказ в доступе, недействительные учетные данные, отсутствие данных, портал мониторинга, разрешить, просмотр событий
+keywords: устранение неполадок Microsoft Defender для конечной точки, ошибка сервера, отказ в доступе, недействительные учетные данные, отсутствие данных, портал панели мониторинга, разрешить, просмотр событий
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 112f682836da37ddfb51c103282518ff74563727
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 81f1b4154de25f6186679adc5b1f24f78f302415
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186021"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933761"
 ---
-# <a name="troubleshoot-service-issues"></a>Проблемы службы устранения неполадок
+# <a name="troubleshoot-service-issues"></a>Устранение неполадок службы
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -80,12 +80,12 @@ ms.locfileid: "51186021"
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troubleshoot-belowfoldlink)
 
 ## <a name="microsoft-defender-for-endpoint-tenant-was-automatically-created-in-europe"></a>Клиент Microsoft Defender для конечной точки был автоматически создан в Европе
-При использовании Центра безопасности Azure для мониторинга серверов автоматически создается клиент Microsoft Defender для конечных точек. Данные Microsoft Defender для конечных точек хранятся в Европе по умолчанию.
+При использовании Azure Defender для мониторинга серверов автоматически создается клиент Microsoft Defender для конечных точек. Данные Microsoft Defender для конечных точек хранятся в Европе по умолчанию.
 
 
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](troubleshoot-onboarding.md)
 - [Просмотр событий и ошибок с помощью viewer событий](event-error-codes.md)

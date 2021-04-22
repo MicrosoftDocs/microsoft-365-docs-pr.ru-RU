@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender для конечной точки для государственных служб США
 description: Узнайте о доступных требованиях и возможностях Microsoft Defender для конечной точки для государственных клиентов США
-keywords: правительство, gcc, высокая, требования, возможности, защитник, защитник atp, mdatp, конечная точка, dod
+keywords: правительство, GCC, высокая, требования, возможности, защитник, Защитник Microsoft для конечной точки, конечная точка, dod
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 320913058f1d3cab36b3a279996443c2e4ef117f
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 16a7d289889940754a6d56058544a675b31192be
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382917"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934001"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender для конечной точки для государственных служб США
 

@@ -1,7 +1,7 @@
 ---
 title: Управление Microsoft Defender для конечной точки с помощью Intune
 description: Узнайте, как управлять Microsoft Defender для конечной точки с помощью Intune
-keywords: после переноса, управления, операций, обслуживания, использования, intune, защиты от расширенных угроз защитника Windows, atp, edr
+keywords: после переноса, управления, операций, обслуживания, использования, intune, Microsoft Defender для конечной точки, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 01936eb323060190f2e785df04c3d317f7999d08
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d8396c352e593f9922b11e23119f7d9718eaf752
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185889"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934229"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Управление microsoft Defender для конечной точки с помощью Intune
 
@@ -61,7 +61,7 @@ ms.locfileid: "51185889"
 
 В следующей таблице перечислены различные задачи, которые можно выполнить для настройки Microsoft Defender для конечной точки с помощью Intune. Вам не нужно настраивать все сразу; выберите задачу, прочитайте соответствующие ресурсы и приступим.
 
-|Задача  |Дополнительные ресурсы  |
+|Task  |Дополнительные ресурсы  |
 |---------|---------|
 |**Управление устройствами организации с помощью Intune** для защиты этих устройств и данных, хранимых на них     |[Защита устройств с помощью Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/device-protect)         |
 |**Интеграция Microsoft Defender для конечной точки с Intune** в качестве решения для защиты от мобильных угроз <br/>*(для устройств и устройств с Windows 10 или более поздней версии)*   |[Обеспечение соответствия требованиям для Microsoft Defender для конечной точки с условным доступом в Intune](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)         |
