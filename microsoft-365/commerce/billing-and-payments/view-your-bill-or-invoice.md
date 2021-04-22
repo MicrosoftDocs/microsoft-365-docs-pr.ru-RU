@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
 ms.date: 07/31/2020
-ms.openlocfilehash: 395c9773d4bc67ed466d7b3f8d568cecedddfd36
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b117071fa708ad9d425d578833d8b0ad85537151
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911652"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939490"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счета
 
@@ -55,6 +55,22 @@ ms.locfileid: "50911652"
 2. На вкладке **Счета** выберите диапазон дат из раскрывающегося списка, а затем выберите порядок, который вы хотите просмотреть.
 3. На странице сводных данных можно просмотреть элементы, количество, цену, скидку и итог по всем позициям в счете.
 4. Чтобы напечатать или сохранить копию счета в формате PDF, выберите пункт **скачать PDF-файл**.
+
+::: moniker region="o365-21vianet"
+
+## <a name="request-a-fapiao"></a>Запросить фапяо
+
+Вы можете отправить запрос на фапяо в нашу [систему управления Fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465) приблизительно через 3 дня после оплаты.
+
+1. В <a href=”https://go.microsoft.com/fwlink/p/?linkid=850627” target=”_blank”>центре администрирования</a> перейдите на страницу **Выставление счетов** > **Счета и платежи**.
+
+2. Найдите нужный счет, затем выберите **Получить фапяо**.
+
+> [!NOTE]
+
+> Для доступа к [системе управления фапяо](https://go.microsoft.com/fwlink/p/?linkid=837465) требуется зарегистрированная учетная запись. Если вы еще не настроили учетную запись, см. статью [Получение фапяо для Office 365 под управлением 21Vianet](../../admin/services-in-china/apply-for-a-fapiao.md).
+
+::: moniker-end
 
 ## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>Получение копии выписки по счету по электронной почте
 

@@ -10,6 +10,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
+ms.date: 04/21/2021
 audience: ITPro
 ms.topic: article
 search.appverid:
@@ -18,12 +19,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: c8e38e3f22b48b58ea7fb1a4a6f000c80c170675
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bad31160bb27c79f672ddd28a5fced3bf8c2ee1b
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934409"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51943045"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Защитник Microsoft для конечной точки в центре безопасности Microsoft 365
 
@@ -85,6 +86,9 @@ Microsoft Defender для конечной точки в центре безоп
 
 > [!NOTE]
 > **Автоматическое расследование и исправление** теперь являются частью инцидентов. События автоматического расследования и исправлений можно увидеть **на вкладке Incident > Investigation.**
+
+> [!TIP]
+> Поиск устройства делается из конечных точек > поиска.
 
 ### <a name="access-and-reporting"></a>Доступ и отчеты
 

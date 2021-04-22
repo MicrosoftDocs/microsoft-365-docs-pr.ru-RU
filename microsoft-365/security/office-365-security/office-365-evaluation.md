@@ -7,6 +7,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
+ms.date: 04/21/2021
 audience: ITPro
 ms.topic: article
 localization_priority: Normal
@@ -18,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 86433ef505cd1b9afca100dc731f1885e22c8401
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 005c1f6ad7806c8d1ba1d38e4e82edd25034075d
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935141"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51942997"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Оценка Microsoft Defender для Office 365
 
@@ -32,11 +33,14 @@ ms.locfileid: "51935141"
 > [!IMPORTANT]
 > Оценка Microsoft Defender для Office 365 находится в режиме предварительного просмотра. Эта версия предварительного просмотра предоставляется без соглашения об уровне обслуживания. Некоторые функции могут не поддерживаться или иметь ограниченные возможности.
 
-Проведение комплексной оценки продукта безопасности может помочь вам принять обоснованные решения по обновлениям и покупкам. Это помогает опробовыть возможности продукта безопасности, чтобы оценить, как он может помочь вашей команде по работе с безопасностью в повседневных задачах.
+Проведение тщательной оценки продукта безопасности может помочь вам принять обоснованные решения по обновлениям и покупкам. Это помогает опробовыть возможности продукта безопасности, чтобы оценить, как он может помочь вашей команде по работе с безопасностью в повседневных задачах.
 
 Опыт [оценки Microsoft Defender для Office 365](defender-for-office-365.md) предназначен для устранения сложностей конфигурации устройства и среды, чтобы вы могли сосредоточиться на оценке возможностей Microsoft Defender для Office 365. В режиме оценки все сообщения, отправленные в почтовые ящики Exchange Online, можно оценить, не указав записи MX в Microsoft. Эта функция применяется только к защите электронной почты, а не к клиентам Office, например Word, SharePoint или Teams.
 
 Если у вас еще нет лицензии, которая поддерживает Microsoft Defender для Office 365, вы можете начать бесплатную [30-дневную](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) оценку и протестировать возможности в центре обеспечения безопасности Office 365 & соответствия требованиям ( https://protection.office.com/homepage) . . Вы будете наслаждаться быстрой настройка, и вы можете легко отключить его, если это необходимо.
+
+> [!NOTE]
+> Если вы на едином портале безопасности Microsoft 365 (security.microsoft.com), вы можете запустить оценку Defender for Office 365 здесь: Email & Collaboration > Policies & Rules > Threat Policies > Additional Policies.
 
 ## <a name="how-the-evaluation-works"></a>Как работает оценка
 

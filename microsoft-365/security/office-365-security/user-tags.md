@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: ''
+ms.date: 04/21/2021
 audience: ITPro
 ms.topic: how-to
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 description: Администраторы могут узнать, как определить определенные группы пользователей с тегами пользователей в Microsoft Defender для Office 365 Plan 2. Фильтрация тегов доступна для оповещений, отчетов и расследований в Microsoft Defender для Office 365, чтобы быстро идентифицировать помеченных пользователей.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4c439dcb91831475bc10da4a01d0fa29e7aae359
-ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
+ms.openlocfilehash: 2c1dc426bae77cd35b567bf166032855327a8ffe
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51632206"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51943015"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Теги пользователей в Microsoft Defender для Office 365
 
@@ -49,6 +49,9 @@ ms.locfileid: "51632206"
 В этой статье рассказывается о настройке тегов пользователей в Центре & безопасности. В Центре обеспечения безопасности не & командлетов для управления тегами пользователей.
 
 Чтобы узнать, как теги пользователей являются частью стратегии защиты учетных записей пользователей с высокими последствиями, см. в рекомендациях по безопасности для учетных записей приоритетов [в Microsoft 365.](security-recommendations-for-priority-accounts.md)
+
+> [!NOTE]
+> Если вы используете единый центр безопасности Microsoft 365, вы можете установить теги здесь: https://security.microsoft.com/userTags .
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
