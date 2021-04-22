@@ -457,6 +457,7 @@
 ####### [Список оповещений](get-alerts.md)
 ####### [Создание оповещения](create-alert-by-reference.md)
 ####### [Обновление оповещения](update-alert.md)
+####### [Пакетное обновление оповещений](batch-update-alerts.md)
 ####### [Получить сведения об оповещении по ИД](get-alert-info-by-id.md)
 ####### [Получить сведения о доменах, связанных с оповещениями](get-alert-related-domain-info.md)
 ####### [Получить сведения о файле, связанном с оповещением](get-alert-related-files-info.md)
@@ -501,6 +502,7 @@
 
 ###### [Индикаторы]()
 ####### [Методы и свойства индикаторов](ti-indicator.md)
+####### [Импорт индикаторов](import-ti-indicators.md)
 ####### [Индикатор отправки](post-ti-indicator.md)
 ####### [Список индикаторов](get-ti-indicators-collection.md)
 ####### [Удалить индикатор](delete-ti-indicator-by-id.md)

@@ -129,15 +129,15 @@
                   href: defender/incidents-overview.md
                 - name: Управление приоритетом инцидентов
                   href: defender/incident-queue.md
-                - name: Исследование инцидентов
+                - name: Управление инцидентами
+                  href: defender/manage-incidents.md
+                - name: Реагирование на инциденты
                   items:
-                    - name: Исследование инцидентов
+                    - name: Анализ инцидентов
                       href: defender/investigate-incidents.md
-                    - name: Управление инцидентами
-                      href: defender/manage-incidents.md
-                    - name: Исследование оповещений
+                    - name: Анализ оповещений
                       href: defender/investigate-alerts.md
-                    - name: "Исследование пользователей в Центре безопасности Microsoft\_365"
+                    - name: Анализ пользователей
                       href: defender/investigate-users.md
                 - name: Получение уведомлений по электронной почте
                   href: defender/get-incident-notifications.md
