@@ -1,7 +1,7 @@
 ---
 title: Изменения именования в схеме предварительной охоты Microsoft 365 Defender
 description: Отслеживание и проверка именования изменений таблиц и столбцов в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, data, naming changes, rename, Microsoft Threat Protection
+keywords: расширенный поиск, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка на схему, кусто, таблица, данные, изменения имен, переименование
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ab6bdefb457fb31df98d829ee801b72f4c8ae70a
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 22d26dac6b7ee502d6934349d22b1d40532f575f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499691"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935777"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Advanced hunting schema - Naming changes
 
@@ -104,6 +104,6 @@ ms.locfileid: "51499691"
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

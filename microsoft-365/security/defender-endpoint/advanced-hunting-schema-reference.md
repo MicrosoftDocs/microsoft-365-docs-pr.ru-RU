@@ -1,7 +1,7 @@
 ---
 title: Расширенный справочник схемы охоты
 description: Сведения о таблицах в продвинутой схеме охоты, чтобы понять данные, на которые можно запускать запросы на поиск угроз.
-keywords: продвинутая охота, охота на угрозы, охота на киберугрозы, Microsoft Defender для конечной точки, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, данные
+keywords: продвинутая охота, охота на угрозы, поиск киберугроз, mdatp, защита microsoft atp, защитник Майкрософт для конечной точки, поиск wdatp, запрос, телеметрия, ссылка схемы, кусто, таблица, данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: b35cc32f776083b58bc6467be43508a805d92d9c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fa111197dfd68cfcca40ce8a39befe20b97d1be8
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934349"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939640"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>Понимание схемы расширенных схем охоты в Microsoft Defender для конечной точки
 

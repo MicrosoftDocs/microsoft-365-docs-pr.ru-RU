@@ -1,8 +1,8 @@
 ---
 title: Microsoft Defender для конечной точки в Linux
 ms.reviewer: ''
-description: Описывает, как установить и использовать Microsoft Defender для конечной точки для Linux.
-keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+description: Описывает, как установить и использовать Microsoft Defender для конечной точки на Linux.
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f67dd28902e8b45a5401b60c027faa89d7467cd8
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 34274e260da2e8acc8088fcff6d324b6b31fc2ef
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861399"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935945"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender для конечной точки в Linux
 
@@ -39,7 +39,7 @@ ms.locfileid: "51861399"
 В этом разделе описывается установка, настройка, обновление и использование Microsoft Defender для конечной точки в Linux.
 
 > [!CAUTION]
-> Запуск других сторонних продуктов защиты конечной точки наряду с Microsoft Defender для конечной точки на Linux может привести к проблемам с производительностью и непредсказуемым побочным эффектам. Если защита конечной точки от Microsoft является абсолютным требованием в вашей среде, вы можете безопасно использовать функции Defender для конечной точки для Linux EDR после настройки функции антивируса для запуска в пассивном [режиме.](linux-preferences.md#enable--disable-passive-mode)
+> Запуск других сторонних продуктов защиты конечной точки наряду с Microsoft Defender для конечной точки на Linux может привести к проблемам с производительностью и непредсказуемым побочным эффектам. Если защита конечной точки от Microsoft является абсолютным требованием в вашей среде, вы можете безопасно использовать функции Defender для конечной точки в Linux EDR после настройки функции антивируса для запуска в пассивном [режиме.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Установка Microsoft Defender для конечной точки на Linux
 
@@ -80,10 +80,10 @@ ms.locfileid: "51861399"
 - Минимальная версия ядра 3.10.0-327
 - Параметр `fanotify` ядра должен быть включен
   > [!CAUTION]
-  > Запуск Defender для конечной точки для Linux бок о бок с другими решениями безопасности на основе не `fanotify` поддерживается. Это может привести к непредсказуемым результатам, в том числе к висячим операционной системе.
+  > Запуск Defender для конечной точки на Linux бок о бок с другими решениями безопасности на основе данных `fanotify` не поддерживается. Это может привести к непредсказуемым результатам, в том числе к висячим операционной системе.
 
 - Пространство диска: 1 ГБ
-- /opt/microsoft/mdatp/sbin/wdavdaemon требует исполняемого разрешения. Дополнительные сведения см. в рублях "Убедитесь, что у daemon есть исполняемые разрешения" в выпуске проблем с установкой неполадок для [Microsoft Defender для конечной](/microsoft-365/security/defender-endpoint/linux-support-install)точки для Linux.
+- /opt/microsoft/mdatp/sbin/wdavdaemon требует исполняемого разрешения. Дополнительные сведения см. в рублях "Убедитесь, что у daemon есть исполняемые разрешения" в проблемах с установкой неполадок для [Microsoft Defender для конечной](/microsoft-365/security/defender-endpoint/linux-support-install)точки в Linux.
 - Память: 1 ГБ
     > [!NOTE]
     > Убедитесь, что у вас есть свободное пространство диска в /var.
@@ -117,7 +117,7 @@ ms.locfileid: "51861399"
 
 В следующей загружаемой таблице перечислены службы и связанные с ними URL-адреса, к которые должна подключаться ваша сеть. Необходимо убедиться, что нет правил фильтрации брандмауэра или сети, которые бы отказывали в доступе к этим URL-адресам. Если они есть, может потребоваться создать правило разрешить специально для них. 
 
-|**Таблица списка доменов**|**Description**|
+|**Таблица списка доменов**|**Описание**|
 |:-----|:-----|
 |![Изображение пальца для таблицы URL-адресов Microsoft Defender для конечных точек](images/mdatp-urls.png)<br/>  | Таблица определенных DNS-записей для расположения служб, географических местоположений и ОС. <br><br>[Скачайте таблицу здесь.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 

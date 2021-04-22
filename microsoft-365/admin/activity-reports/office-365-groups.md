@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Получите отчет о группах Microsoft 365, чтобы узнать о группах и их действиях.
-ms.openlocfilehash: 9ab034531099b5572c42eb3a48ec28d99487ac99
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d123e3beb55ba6e636084fabe995f4dd0ff56707
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579558"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939142"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Отчеты Microsoft 365 в центре администрирования — группы Microsoft 365
 
@@ -60,4 +60,5 @@ ms.locfileid: "51579558"
 |10,  <br/> |Выберите или нажмите **кнопку More Actions** Mobile OWA More Actions рядом с заголовком столбца, чтобы добавить или удалить ![ ](../../media/80044eef-2368-4c7e-8d31-7155b029e0cf.png) столбцы из отчета.  <br/> ![Отчет группы — выберите столбцы](../../media/d7fb95d6-2a2e-4144-b80d-581223e48043.png)|
 |11,  <br/> |Вы также можете экспортировать данные отчета в файл Excel .csv, выбрав ссылку **Экспорт.** При этом данные всех пользователей будут экспортированы в формат, позволяющий сортировать и фильтровать их для дальнейшего анализа. Если у вас менее 2000 пользователей, вы можете сортировать и фильтровать значения в самой таблице отчета. Если пользователей больше 2000, для фильтрации и сортировки потребуется экспортировать данные.  <br/> |
 |||
-   
+
+

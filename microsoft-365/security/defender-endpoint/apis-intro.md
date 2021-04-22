@@ -2,7 +2,7 @@
 title: Доступ к API Microsoft Defender для конечной точки
 ms.reviewer: ''
 description: Узнайте, как можно использовать API для автоматизации рабочего процесса и инновация на основе возможностей Microsoft Defender для конечных точек
-keywords: apis, api, Microsoft Defender for Endpoint, open api, Microsoft Defender for Endpoint api, public api, supported apis, alerts, device, user, domain, ip, file, advanced hunting, query
+keywords: apis, api, wdatp, open api, microsoft defender for endpoint api, microsoft defender atp, public api, supported apis, alerts, device, user, domain, ip, file, advanced hunting, query
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 87dce8ff4fde505eb8d4e458c8d9fb56556f4d78
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 843bd953b97f29a5b9c80fc44a9b19fae60a6fa7
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935111"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939770"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-apis"></a>Доступ к API Microsoft Defender для конечной точки 
 
@@ -61,7 +61,7 @@ Defender for Endpoint предоставляет большую часть св�
   2. Назначьте нужное разрешение приложению, например, "Read Alerts", "Isolate Machines". 
   3. Создайте ключ для этого приложения.
   4. Получение маркера с помощью приложения с его ключом.
-  5. С помощью маркера можно получить доступ к API Endpoint Defender для Microsoft Defender
+  5. С помощью маркера можно получить доступ к API Microsoft Defender для конечной точки
 
      Дополнительные сведения см. в [приложении Get access with application context.](exposed-apis-create-app-webapp.md)
 
@@ -74,7 +74,7 @@ Defender for Endpoint предоставляет большую часть св�
   1. Создание приложения AAD.
   2. Назначьте нужное разрешение приложению, например"Read Alerts", "Isolate Machines" и т.д. 
   3. Получение маркера с помощью приложения с учетными данными пользователей.
-  4. С помощью маркера можно получить доступ к API Endpoint Defender для Microsoft Defender
+  4. С помощью маркера можно получить доступ к API Microsoft Defender для конечной точки
 
      Дополнительные сведения см. в [ссылке Получить доступ к пользовательскому контексту.](exposed-apis-create-app-nativeapp.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Поддерживаемые API Microsoft 365 Defender
 description: Поддерживаемые API Microsoft 365 Defender
-keywords: MTP, API, api
+keywords: Microsoft 365 Defender, API, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b2239b960106d756cbd29504af05af77a553067d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f2c66dca326589807f5712c5548c177a0d08ade0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51068974"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935729"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>Поддерживаемые API Microsoft 365 Defender 
 
@@ -56,9 +56,9 @@ ms.locfileid: "51068974"
 
 Все API на `/api` пути используют [протокол OData;](/odata/overview) https://api.security.microsoft.com/api/incidents например.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Обзор API защитника Microsoft 365](api-overview.md)
-- [Доступ к API microsoft Threat Protection](api-access.md)
+- [Доступ к API защитника Microsoft 365](api-access.md)
 - [Узнайте о ограничениях API и лицензировании](api-terms.md)
 - [Понимание кодов ошибок](api-error-codes.md)

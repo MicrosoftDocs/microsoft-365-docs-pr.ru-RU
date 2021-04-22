@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как включить Microsoft 365 для защиты локальных устройств с Windows 10 с помощью Active-Directory всего за несколько шагов.
-ms.openlocfilehash: 8a45c6959bee368491c5c6424e3713300c443779
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c9f5a21d993200abcf9ecf1fa236879245e1c153
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580141"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939509"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Включить устройства с windows 10 с помощью домена, управляемые Microsoft 365 Business Premium
 
@@ -116,3 +116,7 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 6.  Если у вас есть несколько контроллеров домена, подождите, пока SYSVOL будет реплицировать доступные политики. Эта процедура будет работать и для любой будущей версии административных шаблонов.
 
 На этом этапе вы сможете увидеть политику Включить автоматическую регистрацию **MDM** с помощью доступных учетных данных Azure AD по умолчанию.
+
+## <a name="related-content"></a>Связанные материалы
+
+Синхронизация пользователей домена с [Microsoft 365](manage-domain-users.md) (статья) [](../admin/create-groups/create-groups.md) Создание группы в центре администрирования (статья) [Руководство: Настройка](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) гибридного лазурного активного каталога для управляемых доменов (статья)

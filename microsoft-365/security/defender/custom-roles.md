@@ -1,7 +1,7 @@
 ---
 title: Настраиваемые роли для управления доступом на основе ролей
 description: Узнайте, как управлять настраиваемой ролью в центре безопасности Microsoft 365
-keywords: доступ, разрешения, MTP, Microsoft Threat Protection, M365, security, MCAS, MDATP, Cloud App Security, Microsoft Defender Advanced Threat Protection, scope, scoping, RBAC, доступ на основе ролей, пользовательский доступ на основе ролей, auth на основе ролей, RBAC в MDO, роли, группы ролей, наследование разрешений, мелкозернистые разрешения
+keywords: доступ, разрешения, Microsoft 365 Defender, M365, security, MCAS, Cloud App Security, Microsoft Defender for Endpoint, область, scoping, RBAC, доступ на основе ролей, пользовательский доступ на основе ролей, auth на основе ролей, RBAC в MDO, роли, группы ролей, разрешения наследования, мелкозернистые разрешения
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6582e4e940dc9910e7d341c92b525379b924f35b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9dfa9f113c0a7d57360c2da6105cbfa07fcf6a99
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199961"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935693"
 ---
 # <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>Настраиваемые роли в области управления доступом на основе ролей для Защитника Microsoft 365
 
@@ -99,6 +99,6 @@ ms.locfileid: "51199961"
 - Администратор безопасности
 - Получатели только для просмотра
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Управление доступом к защитнику Microsoft 365](m365d-permissions.md)
 - [Управление доступом администратора для MCAS](/cloud-app-security/manage-admins)

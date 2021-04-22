@@ -17,19 +17,18 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2ebc826e21246381d3220855f7e8cb01741f12e9
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 6529f0badd94d6ca4d95dfbb562a9d352fedb76a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499376"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935897"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Понимание отчета аналитики в аналитике угроз
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
-- [Microsoft Defender Advanced Threat Protection (ATP в Microsoft Defender)](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -89,7 +88,7 @@ _Раздел аналитических отчетов отчета об ана
 Расширенные запросы на охоту в аналитических отчетах были засвеятены аналитиками Майкрософт и готовы к запуску в [редакторе предварительного запроса на охоту.](https://securitycenter.windows.com/advanced-hunting) Запросы также можно использовать для создания настраиваемой системы [обнаружения,](custom-detection-rules.md) которая вызывает оповещения для будущих совпадений.
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор аналитики угроз](threat-analytics.md)
 - [Упреждающий поиск угроз с помощью продвинутой охоты](advanced-hunting-overview.md) 
 - [Правила настраиваемого обнаружения](custom-detection-rules.md)

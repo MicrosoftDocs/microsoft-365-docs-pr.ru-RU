@@ -1,7 +1,7 @@
 ---
-title: Получать уведомления об инцидентах в Microsoft 365 Defender
+title: Получать уведомления об инцидентах по электронной почте в Microsoft 365 Defender
 description: Узнайте, как создать правила получения уведомлений электронной почты об инцидентах в Microsoft 365 Defender
-keywords: incident, email, email notfications, configure, users, mailbox, email, incidents
+keywords: incident, email, email notfications, configure, users, mailbox, email, incidents, analyse, response
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 72a1f8fe71efcfa7f4f73671611576a454b508e6
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 7ba21e08f72760654993335764df00e78abc87b2
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861321"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939722"
 ---
 # <a name="get-incident-notifications-by-email"></a>Получать уведомления об инцидентах по электронной почте
 
@@ -43,7 +43,7 @@ ms.locfileid: "51861321"
 - Группа устройств.
 - Только при первом обновлении за один инцидент.
 
-Уведомление электронной почты содержит важные сведения об инциденте, такие как имя инцидента, серьезность и категории, в частности. Вы также можете перейти непосредственно к инциденту и сразу же начать расследование. Дополнительные сведения см. в [дополнительных сведениях.](investigate-incidents.md)
+Уведомление электронной почты содержит важные сведения об инциденте, такие как имя инцидента, серьезность и категории, в частности. Вы также можете перейти непосредственно к инциденту и сразу же начать анализ. Дополнительные сведения см. в [руб. Анализ инцидентов.](investigate-incidents.md)
 
 Вы можете добавить или удалить получателей в уведомлениях электронной почты. Новые получатели получают уведомления об инцидентах после их добавления. 
 
@@ -77,4 +77,4 @@ ms.locfileid: "51861321"
 ## <a name="see-also"></a>См. также
 - [Обзор инцидентов](incidents-overview.md)
 - [Управление приоритетом инцидентов](incident-queue.md)
-- [Исследование инцидентов](investigate-incidents.md)
+- [Анализ инцидентов](investigate-incidents.md)

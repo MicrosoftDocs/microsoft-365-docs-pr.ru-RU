@@ -20,19 +20,16 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как перейти на другой план.
-ms.openlocfilehash: 79ca18df28505c457e085dbd73c2fbd04eff53ca
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c8d71e6ab79bfea35334f2c034dbc13f60397227
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580982"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939176"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Переход на другой план
 
 При смене бизнеса или необходимости в дополнительных функциях можно обновить планы. Самый простой способ сделать это — использовать вкладку **Upgrade** в центре администрирования. Однако использование вкладки **Upgrade** поддерживается не во всех ситуациях. В некоторых случаях можно изменить планы вручную.
-
-> [!NOTE]
-> Эта статья применима к новому центру администрирования. Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы. Чтобы просмотреть статью о старом центре администрирования, см. в статье [Switch to a different Microsoft 365 for business plan.](switch-to-a-different-plan.md)
 
 ## <a name="use-the-upgrade-tab"></a>Используйте вкладку Upgrade
 

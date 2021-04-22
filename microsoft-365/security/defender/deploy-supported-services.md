@@ -1,7 +1,7 @@
 ---
 title: Развертывание служб, поддерживаемых Microsoft 365 Defender
 description: Узнайте о службах безопасности Майкрософт, которые могут быть интегрированы защитником Microsoft 365, их лицензионных требованиях и процедурах развертывания
-keywords: развертывание, лицензии, поддерживаемые службы, подготовка, настройка Microsoft Threat Protection, M365, право на лицензию, Microsoft Defender ATP, MDATP, Office 365 ATP, Azure ATP, Microsoft Cloud App Security, MCAS, advanced threat protection, E5, A5, EMS
+keywords: развертывание, лицензии, поддерживаемые службы, подготовка, настройка Microsoft 365 Defender, M365, право на лицензию, Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Defender for Identity, Microsoft Cloud App Security, MCAS, E5, A5, EMS
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 434c318be404ffb04cac7a05664c8f001bb46507
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4e1b36423974e46a485727f7e1f158dc6163d834
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198865"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935681"
 ---
 # <a name="deploy-supported-services"></a>Развертывание поддерживаемых служб
 
@@ -84,10 +84,10 @@ Microsoft 365 Defender обеспечивает лучшую видимость,
 
 После развертывания поддерживаемых служб включим [Microsoft 365 Defender.](m365d-enable.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор Защитника Microsoft 365](microsoft-365-defender.md)
-- [Включив защитник Microsoft 365](m365d-enable.md)
+- [Включение Microsoft 365 Defender](m365d-enable.md)
 - [Обзор Microsoft Defender для конечной точки](../defender-endpoint/microsoft-defender-endpoint.md)
 - [Обзор Microsoft Defender для Office 365](../office-365-security/defender-for-office-365.md)
 - [Обзор Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)

@@ -1,7 +1,7 @@
 ---
 title: Функция FileProfile() в продвинутой охоте для Microsoft 365 Defender
 description: Узнайте, как использовать FileProfile() для обогащения сведений о файлах в результатах запроса на расширенные запросы на охоту
-keywords: передовая охота, охота на угрозы, поиск киберугроз, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, ссылка схемы, kusto, FileProfile, профиль файла, функция, обогащение
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, FileProfile, file Profile, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ea4f22b70e607b42155342dde1ac16b1ad640981
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 67295529cdb7b8a3e93e663f2a8a28d27a8f6737
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498452"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935849"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -41,20 +41,20 @@ ms.locfileid: "51498452"
 |------------|---------------|-------------|
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `SHA256` | string | SHA-256 файла, к который было применено записанное действие |
-| `MD5` | string | Hash MD5 файла, к который было применено записано действие |
+| `MD5` | Строка | Hash MD5 файла, к который было применено записано действие |
 | `FileSize` | int | Размер файла в bytes |
 | `GlobalPrevalence` | int | Количество экземпляров объекта, наблюдаемого Корпорацией Майкрософт во всем мире |
 | `GlobalFirstSeen` | datetime | Дата и время, когда сущность впервые была замечена Корпорацией Майкрософт во всем мире |
 | `GlobalLastSeen` | datetime | Дата и время, когда объект в последний раз наблюдался Корпорацией Майкрософт во всем мире |
-| `Signer` | string | Сведения о подписывщике файла |
-| `Issuer` | string | Сведения о полномочиях по выдаче сертификатов (CA) |
-| `SignerHash` | string | Уникальное значение hash, определяющие подписавщика |
+| `Signer` | Строка | Сведения о подписывщике файла |
+| `Issuer` | Строка | Сведения о полномочиях по выдаче сертификатов (CA) |
+| `SignerHash` | Строка | Уникальное значение hash, определяющие подписавщика |
 | `IsCertificateValid` | boolean | Допустим ли сертификат, используемый для подписи файла |
 | `IsRootSignerMicrosoft` | boolean | Указывает, является ли подписатель корневого сертификата Корпорацией Майкрософт |
-| `SignatureState` | string | Состояние подписи файла: SignedValid — файл подписывался с действительной подписью, SignedInvalid — файл подписывался, но сертификат недействителен, Неподписанное — файл не подписан, Неизвестный — сведения о файле не могут быть извлечены.
+| `SignatureState` | Строка | Состояние подписи файла: SignedValid — файл подписывался с действительной подписью, SignedInvalid — файл подписывался, но сертификат недействителен, Неподписанное — файл не подписан, Неизвестный — сведения о файле не могут быть извлечены.
 | `IsExecutable` | boolean | Является ли файл портативным исполняемым (PE) файлом |
-| `ThreatName` | string | Имя обнаружения любых найденных вредоносных программ или других угроз |
-| `Publisher` | string | Имя организации, которая опубликовала файл |
+| `ThreatName` | Строка | Имя обнаружения любых найденных вредоносных программ или других угроз |
+| `Publisher` | Строка | Имя организации, которая опубликовала файл |
 | `SoftwareName` | string | Название программного продукта |
 
 ## <a name="syntax"></a>Синтаксис
@@ -94,7 +94,7 @@ DeviceFileEvents
 | where GlobalPrevalence < 15
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

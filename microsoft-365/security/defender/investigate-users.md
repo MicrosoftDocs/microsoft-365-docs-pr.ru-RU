@@ -1,7 +1,7 @@
 ---
-title: Исследование пользователей в Центре безопасности Microsoft 365
-description: исследование пользователей в центре безопасности Microsoft 365
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, удостоверения, данные, устройства, приложения
+title: Анализ пользователей в центре безопасности Microsoft 365
+description: Анализ пользователей в центре безопасности Microsoft 365
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, удостоверения, данные, устройства, приложения, инциденты, анализ, ответ
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 68fc924ee14932ebdf92ef76306ba00e352b6030
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 1fb5a4eee41384ef1afc9b46e5bf538344718fe9
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861277"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939734"
 ---
-# <a name="investigate-users-in-microsoft-365-security-center"></a>Исследование пользователей в Центре безопасности Microsoft 365
+# <a name="analyze-users-in-microsoft-365-security-center"></a>Анализ пользователей в центре безопасности Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "51861277"
 
 - Microsoft 365 Defender
 
-Часть расследования инцидента может включать учетные записи пользователей. Начните со вкладки **"Пользователи"** об инциденте из & оповещений о > *>* **пользователи**. 
+Часть анализа инцидентов может включать учетные записи пользователей. Начните со вкладки **"Пользователи"** об инциденте из & оповещений о > *>* **пользователи**. 
 
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Пример страницы &quot;Пользователи&quot; для инцидента":::
 

@@ -1,7 +1,7 @@
 ---
 title: Управление инцидентами в Microsoft 365 Defender
 description: Узнайте, как назначать, обновлять статус,
-keywords: инцидент, инциденты, оповещения, коррелированные оповещения, назначить, обновить, состояние, управление, классификация, Microsoft, 365, m365
+keywords: инциденты, инциденты, анализ, ответ, оповещения, сопоставленные оповещения, назначение, обновление, состояние, управление, классификация, Microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: da5a2190a53dfe7f8dd0cc3cf7b410af92ca4ec5
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5f66189979f401430353f4c15978a85276b48840
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861735"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939758"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Управление инцидентами в Microsoft 365 Defender
 
@@ -61,7 +61,7 @@ ms.locfileid: "51861735"
 - Области свойств инцидента в очереди инцидента.
 - **Сводная** страница инцидента.
 
-В тех случаях, когда при расследовании вы хотите переместить оповещения из одного инцидента в другой, вы также можете сделать это со вкладки **Оповещения,** создав таким образом больший или меньший инцидент, который включает все соответствующие оповещения.
+В тех случаях, когда при анализе вы хотите переместить оповещения из одного инцидента в другой, вы также можете сделать это со вкладки **Alerts,** тем самым создав более крупный или меньший инцидент, который включает все соответствующие оповещения.
 
 ## <a name="edit-the-incident-name"></a>Изменение имени инцидента
 
@@ -102,4 +102,4 @@ Microsoft 365 Defender автоматически назначает имя на
 
 - [Обзор инцидентов](incidents-overview.md)
 - [Управление приоритетом инцидентов](incident-queue.md)
-- [Исследование инцидентов](investigate-incidents.md)
+- [Анализ инцидентов](investigate-incidents.md)

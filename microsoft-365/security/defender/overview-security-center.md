@@ -1,5 +1,5 @@
 ---
-title: Обзор Центра безопасности Microsoft 365
+title: Обзор центра безопасности Microsoft 365, объединяющий MDO, MDE, MDI и MCAS
 description: Преимущества центра безопасности Microsoft 365, объединяющего Microsoft Defender для Office 365 (MDO) и Microsoft Defender для конечной точки (MDE), с Microsoft Defender for Identity (MDI) и Microsoft Cloud App Security (MCAS). В этой статье описаны достижения центра безопасности Microsoft 365 для администраторов.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, удостоверения, данные, устройства, приложения
 ms.prod: m365-security
@@ -7,7 +7,7 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.date: 04/07/2021
+ms.date: 04/21/2021
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 2e1553b231692d184146897ddc05e11930ed1bf0
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: f3920942925efbe334df84370c61fbe6a98ad49f
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903978"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939268"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Обзор единого центра безопасности Microsoft 365
 
@@ -68,6 +68,9 @@ ms.locfileid: "51903978"
 - Общая терминология
 - Общие сущности
 - Паритет функций с другими рабочими нагрузками
+
+> [!NOTE]
+> Единый центр безопасности Microsoft 365 будет доступен без необходимости для клиентов, чтобы предпринять шаги по миграции или приобрести новую лицензию. Например, этот новый портал будет доступен администраторам с подпиской на E3, как и для тех, кто имеет Microsoft Defender для Office 365 Plan 1 и Plan 2; Однако клиенты Exchange Online Protection или MDO Plan 1 будут видеть только функции безопасности, поддерживаемые лицензией на подписку. Цель нового центра — централизовать безопасность.
 
 ## <a name="unified-investigations"></a>Объединенные расследования
 

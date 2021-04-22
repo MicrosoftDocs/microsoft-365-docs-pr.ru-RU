@@ -1,7 +1,7 @@
 ---
 title: Создание и управление пользовательскими правилами обнаружения в Microsoft 365 Defender
 description: Узнайте, как создавать и управлять пользовательскими правилами обнаружения на основе расширенных запросов на охоту
-keywords: передовая охота, охота на угрозы, охота на киберугрозы, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, пользовательские обнаружения, правила, схема, кусто, Microsoft 365, Microsoft Threat Protection, RBAC, разрешения, ATP Защитника Майкрософт
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, custom detections, rules, schema, kusto, RBAC, permissions, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bfc8724f8dc27aa2475c293e7370488b2ea392b8
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: bcb31b904f8e6156d644864f03143e9fc37ae34b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903758"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935717"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Создание и управление пользовательскими правилами обнаружения
 

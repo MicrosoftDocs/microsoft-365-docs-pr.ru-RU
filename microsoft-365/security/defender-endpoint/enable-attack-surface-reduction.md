@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: e6f3d6da2424b2b3b6b7c1f2c9973e4046d6e27f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 7aeda679d5ce350ef64a2758359390adc4a280f0
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689176"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939246"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Включить правила сокращения направлений атак
 
@@ -38,6 +38,15 @@ ms.locfileid: "51689176"
 - Windows 10 Enterprise, [версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
 - Windows Server, [версия 1803 (полугодовой канал)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+**Требования** Вы можете установить правила уменьшения поверхности атаки для устройств, которые работают с любыми из следующих выпусков и версий Windows:
+
+- Windows 10 Pro, версия 1709 или более поздней версии
+- Windows 10 Enterprise, версия 1709 или более поздней версии
+- Windows Server, версия 1803 (полугодовой канал) или более поздней версии
+- Windows Server 2019
+
+Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5, если у вас есть Windows E5, вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в Defender для конечной точки, а также возможности отчетности и конфигурации в центре безопасности Microsoft 365. Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы просмотра событий и антивирусных журналов Microsoft Defender для просмотра событий правил уменьшения поверхности атаки.
 
 Каждое правило ASR содержит один из четырех параметров:
 
@@ -108,11 +117,11 @@ ms.locfileid: "51689176"
 - 0. Отключение (отключение правила ASR)
 - 1. Блок (Включить правило ASR)
 - 2. Аудит (Оцените, как правило ASR повлияет на организацию, если включено)
-- 6. Предупреждение (Включить правило ASR, но разрешить конечному пользователю обойти блок)
+- 6. Предупреждение (Включить правило ASR, но разрешить конечному пользователю обойти блок). Режим Warn теперь доступен для большинства правил ASR.
 
 Для добавления исключений используйте поставщика служб конфигурации [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions.](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions)
 
-Пример.
+Пример:
 
 `OMA-URI path: ./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions`
 
@@ -142,7 +151,7 @@ ms.locfileid: "51689176"
 
 1. На компьютере управления групповой политикой откройте консоль управления групповой политикой [правой](https://technet.microsoft.com/library/cc731212.aspx)кнопкой мыши объект групповой политики, который необходимо настроить, и выберите **Изменить**.
 
-2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и выберите **административные шаблоны.**
+2. В **редакторе управления групповыми политиками** перейдите к **конфигурации компьютера** и выберите **Административные шаблоны**.
 
 3. Расширь дерево до **компонентов**  >  **Windows, антивирус Microsoft Defender** Microsoft Defender Exploit Guard  >    >  **Attack.**
 
@@ -159,8 +168,8 @@ ms.locfileid: "51689176"
 
 5. Чтобы исключить файлы и папки из правил ASR, выберите исключить файлы и пути из настройки правил уменьшения поверхности **Атаки** и установите параметр **Включено**. Выберите **Показать и** ввести каждый файл или папку в столбце Имя **значения.** Введите **0** в **столбце Значение** для каждого элемента.
 
-> [!WARNING]
-> Не используйте кавычка, так как они не поддерживаются ни для столбца **value name,** ни для **столбца Value.**
+   > [!WARNING]
+   > Не используйте кавычка, так как они не поддерживаются ни для столбца **value name,** ни для **столбца Value.**
 
 ## <a name="powershell"></a>PowerShell
 

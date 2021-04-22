@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Узнайте, как получить бесплатную пробную версия или купить подписку на Microsoft 365 для бизнеса.
 ms.date: 08/07/2020
-ms.openlocfilehash: 9daa7022007aa3c71dc7291f592d3b166a2c45a5
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 505ce060b9b40d72a54adbfffbcb2b3cf47a66e6
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576905"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939188"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Попробуйте или купите Microsoft 365 для бизнес-подписки
 
@@ -32,6 +32,16 @@ Microsoft 365 для бизнеса — это служба подписки, к
 
 > [!NOTE]
 > При регистрации для бесплатной пробной карты необходимо использовать кредитную карту. В конце бесплатного пробного периода пробная подписка автоматически преобразуется в платную подписку. Ваша кредитная карта не выставлена на счет до конца пробного периода.
+
+
+::: moniker region="o365-21vianet"
+
+> [!IMPORTANT]
+> **Параметры оплаты для Office 365, выполняемые 21Vianet в Китае** Международные кредитные карты не принимаются. Оплатить подписку можно по:
+> - Счет
+> - Online payment using Alipay or China UnionPay Proof of payment will be provided in the form of Fapiaos. Вы можете отправить запрос Fapiao в нашу систему [Fapiao](https://go.microsoft.com/fwlink/p/?LinkId=395314) через три (3) дня после оплаты. Дополнительные сведения см. в [дополнительных сведениях: Apply for a Fapiao for Office 365 operated by 21Vianet.](../admin/services-in-china/apply-for-a-fapiao.md)
+
+::: moniker-end
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
