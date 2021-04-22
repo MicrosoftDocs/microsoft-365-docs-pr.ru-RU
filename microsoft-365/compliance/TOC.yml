@@ -138,6 +138,8 @@
           href: data-classification-content-explorer.md
         - name: Начало работы с обозревателем действий
           href: data-classification-activity-explorer.md
+        - name: 'Действия с метками, указываемые в обозревателе действий'
+          href: data-classification-activity-explorer-available-events.md
         - name: Заметки о выпуске классификации данных
           href: data-classification-pub-preview-relnotes.md
     - name: Метки конфиденциальности

@@ -475,6 +475,7 @@
 ####### [Получить рекомендации по безопасности](get-security-recommendations.md)
 ####### [Добавление и удаление тегов компьютера](add-or-remove-machine-tags.md)
 ####### [Поиск компьютеров по протоколу IP](find-machines-by-ip.md)
+####### [Поиск компьютеров по тегу](find-machines-by-tag.md)
 ####### [Получить недостающие КБ](get-missing-kbs-machine.md)
 ####### [Установить значение устройства](set-device-value.md)
 
