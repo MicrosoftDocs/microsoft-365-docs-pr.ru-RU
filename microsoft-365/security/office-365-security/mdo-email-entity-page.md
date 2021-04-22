@@ -14,13 +14,13 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Клиенты Microsoft Defender для Office 365 E5 и ATP P1 и ATP P2 теперь могут получать 360-градусное представление каждой электронной почты со страницей сущности электронной почты.
-ms.openlocfilehash: e96e83ce5e3af9e61599ab67ce9f91ac797cc6db
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+description: Клиенты Microsoft Defender для Office 365 E5 и P1 и P2 теперь могут получать 360-градусное представление каждой электронной почты со страницей сущности электронной почты.
+ms.openlocfilehash: 8b531980852336679aad5f2013d63269c238e49c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768762"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933365"
 ---
 # <a name="the-email-entity-page"></a>Страница сущности "Электронная почта"
 
@@ -36,10 +36,10 @@ ms.locfileid: "51768762"
 
 Любой из существующих центров безопасности и соответствия требованиям Office (protection.office.com) или новый центр безопасности Microsoft 365 (security.microsoft.com) позволит вам увидеть и использовать страницу сущности электронной почты..
 
-|Center|URL-адрес|Навигация|
+|Center|URL|Навигация|
 |---|---|---|
 |Безопасность и соответствие требованиям |protection.office.com|Обозреватель управления \> угрозами|
-|Центр безопасности Microsoft 365 |security.microsoft.com|Обозреватель & \> совместной работы|
+|Центр безопасности Microsoft 365 |security.microsoft.com|Обозреватель & \> совместной работы|
 
 В Обозревателе угроз выберите объект электронной почты, которое вы изучаете. Золотая слитка будет отображаться в верхней части вылетной почты для этой почты. Это приглашение на новую страницу считывания "Попробуйте нашу новую страницу сущности электронной почты с обогащенными данными...". Выберите для просмотра новой страницы.
 

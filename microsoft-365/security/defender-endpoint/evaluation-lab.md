@@ -1,7 +1,7 @@
 ---
 title: Лаборатория оценки Microsoft Defender для конечной точки
 description: Узнайте о возможностях Microsoft Defender для конечных точек, запустите имитацию атак и узнайте, как он предотвращает, обнаруживает и устраняет угрозы.
-keywords: оценка mdatp, оценка, лаборатория, моделирование, Windows 10, windows server 2019, лаборатория оценки
+keywords: оценка Microsoft Defender для конечной точки, оценка, лаборатория, моделирование, Windows 10, windows server 2019, лаборатория оценки
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2382281fbb975daa18ec21aabaf5acf8d3fbfb2f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: ed2165c0102170256f50964180a550d8eccbce8c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893441"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932791"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Лаборатория оценки Microsoft Defender для конечной точки
 
@@ -52,7 +52,7 @@ ms.locfileid: "51893441"
  Установите предпочтительный симулятор, запустите сценарии в лаборатории оценки и сразу же посмотрите, как выполняется платформа — все удобно доступно без дополнительных затрат для вас. Вы также будете иметь удобный доступ к широкому спектру имитаций, к которым можно получить доступ и запустить из каталога моделирования.
     
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Прежде чем начать
 Чтобы получить доступ к [](minimum-requirements.md#licensing-requirements) лаборатории оценки, необходимо выполнить требования лицензирования или получить пробный доступ к Microsoft Defender для конечной точки.
 
 Необходимо иметь разрешения на управление **настройками** безопасности, чтобы:

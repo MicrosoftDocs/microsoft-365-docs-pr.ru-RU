@@ -2,7 +2,7 @@
 title: Обзор возможностей обнаружения конечных точек и ответов
 ms.reviewer: ''
 description: Узнайте о возможностях обнаружения конечных точек и ответов в Microsoft Defender для конечной точки
-keywords: защитник Microsoft для конечной точки, обнаружения конечных точек и ответа, ответа, обнаружения, кибербезопасности, защиты
+keywords: Защитник Microsoft для конечной точки, обнаружение конечных точек и ответ, ответ, обнаружение, кибербезопасность, защита
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 138a6afde9e8c601fd41811928580644b85bf2e2
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: b00bef611a3e4b33bf15a5366b09a96f68d4c1a2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861723"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933521"
 ---
 # <a name="overview-of-endpoint-detection-and-response"></a>Обзор обнаружения конечных точек и ответа
 

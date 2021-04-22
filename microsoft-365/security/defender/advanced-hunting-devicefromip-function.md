@@ -1,7 +1,7 @@
 ---
 title: Функция DeviceFromIP() в продвинутой охоте для Microsoft 365 Defender
 description: Узнайте, как использовать функцию DeviceFromIP() для получения устройств, которые были назначены определенному IP-адресу
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, device, devicefromIP, function, enrichment
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, device, devicefromIP, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d2996021a84186adc6656927dbdc910db4d037de
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3ea951e35555721a989001b2a5235df5b89a8a55
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071573"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933185"
 ---
 # <a name="devicefromip"></a>DeviceFromIP()
 
@@ -46,7 +46,7 @@ ms.locfileid: "51071573"
 | Column | Тип данных | Описание |
 |------------|-------------|-------------|
 | `IP` | string | IP-адрес  |
-| `DeviceId` | строка | Уникальный идентификатор устройства в службе |
+| `DeviceId` | Строка | Уникальный идентификатор устройства в службе |
 
 
 ## <a name="syntax"></a>Синтаксис
@@ -74,7 +74,7 @@ DeviceNetworkEvents
 | invoke DeviceFromIP()
 ```
 
-## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+## <a name="related-topics"></a>Похожие темы
+- [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

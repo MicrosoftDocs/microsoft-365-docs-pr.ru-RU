@@ -1,7 +1,7 @@
 ---
 title: Новые возможности Microsoft 365 Defender
 description: Списки новых функций и функций в Microsoft 365 Defender
-keywords: что нового в microsoft threat protection, ga, как правило, доступно, возможности, доступные, новые
+keywords: что нового в Microsoft 365 Defender, ga, как правило, доступны, возможности, доступные, новые
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: e75cfe445f62860f8bdb1480fcf9029daa8ac6ea
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9f4cc36172b0ac598b2719bee8ce56bf0f8a1b84
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076278"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933389"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Новые возможности Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Хотите испытать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) или запустить [пилотный проект в производстве.](m365d-pilot.md?ocid=cx-evalpilot)
+> Хотите попробовать Microsoft 365 Defender? Вы можете [оценить его в лабораторной среде](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) или [запустить пилотный проект в производственной среде](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
 Следующие функции обычно доступны (GA) в последнем выпуске Microsoft 365 Defender.
@@ -59,7 +59,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 - [Проверка записей в продвинутой охоте](advanced-hunting-query-results.md#drill-down-from-query-results) <br> Быстро проверьте записи в результатах запроса с помощью новой панели сведений.
 
 ## <a name="may-2020"></a>Май 2020 г.
-- [Настраиваемое обнаружение](custom-detections-overview.md) <br> Используйте расширенные запросы для охоты, чтобы создать настраиваемые правила обнаружения, которые автоматически отслеживают события и состояния системы безопасности и реагируют на них.
+- [Настраиваемые обнаружения](custom-detections-overview.md) <br> Используйте расширенные запросы для охоты, чтобы создать настраиваемые правила обнаружения, которые автоматически отслеживают события и состояния системы безопасности и реагируют на них.
 
 ## <a name="february-2020"></a>Февраль 2020 г.
 - [Инциденты](incidents-overview.md) <br> Точное сведения о том, где началась атака, и другие сведения, которые помогут вам увидеть масштабы атаки.
@@ -69,4 +69,4 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="march-2019"></a>Март 2019 г.
 - Расширенная охота на угрозы <br> Страница для разных возможностей охоты, которая позволит вам активно находить угрозы, влияющие на электронную почту, данные, устройства и удостоверения.
 - [Оценка безопасности (Майкрософт)](microsoft-secure-score.md) <br> Измерение позы безопасности организации с более высоким числом, указывающее на дополнительные действия по улучшению. Следуя рекомендациям по оценке безопасности, вы сможете защитить организацию от угроз. 
-- [Отчеты](overview-security-center.md) <br>  Содержит множество карт, охватывающих различные области, которые аналитики и администраторы безопасности отслеживают в рамках своей ежедневной работы.
+- [Reports](overview-security-center.md) <br>  Содержит множество карт, охватывающих различные области, которые аналитики и администраторы безопасности отслеживают в рамках своей ежедневной работы.

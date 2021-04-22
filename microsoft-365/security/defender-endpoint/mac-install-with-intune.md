@@ -1,7 +1,7 @@
 ---
-title: Развертывание на основе intune для Microsoft Defender для конечной точки на macOS
-description: Установите Microsoft Defender для конечной точки на macOS с помощью Microsoft Intune.
-keywords: Microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
+title: Развертывание на основе intune для Microsoft Defender для конечной точки на Mac
+description: Установите Microsoft Defender для конечной точки на Mac с помощью Microsoft Intune.
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dbb4e3a558256f19594ab0aa4efbd2c9eed6b7f8
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: c98ce17b7b71f2d05aeffe66dbb1e08f9046f463
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764219"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933149"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Развертывание на основе intune для Microsoft Defender для конечной точки на macOS
 
@@ -186,7 +186,7 @@ ms.locfileid: "51764219"
 
 3. Откройте профиль конфигурации и загрузите intune/kext.xml. Этот файл был создан в одном из предыдущих разделов.
 
-4. Нажмите кнопку **ОК**.
+4. Нажмите **ОК**.
 
     ![Импорт конфигурации из файла для настраиваемого профиля конфигурации](images/mdatp-6-systemconfigurationprofiles.png)
 

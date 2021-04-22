@@ -1,7 +1,7 @@
 ---
 title: Получите все уязвимости с помощью компьютера и программного обеспечения
 description: Извлекает список всех уязвимостей, влияющих на организацию машиной и программным обеспечением
-keywords: apis, graph api, supported apis, get, vulnerability information, mdatp tvm api
+keywords: apis, api graph, supported apis, get, vulnerability information, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f7d67948e3b3e7a1a878386a397d2f4a6e8e998e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 229c1f9e77a0cb85744155e82934b48dd63052b2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166903"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933413"
 ---
-# <a name="list-vulnerabilities-by-machine-and-software"></a>Список уязвимостей с помощью компьютера и программного обеспечения
+# <a name="list-vulnerabilities-by-machine-and-software"></a>Список уязвимостей по компьютерам и программному обеспечению
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -51,7 +51,7 @@ ms.locfileid: "51166903"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |   Vulnerability.Read.All |    'Read Threat and Vulnerability Management vulnerability information'
-Делегированное (рабочая или учебная учетная запись) | Vulnerability.Read |   'Read Threat and Vulnerability Management vulnerability information'
+Делегированные (рабочая или учебная учетная запись) | Vulnerability.Read |   'Read Threat and Vulnerability Management vulnerability information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -62,7 +62,7 @@ GET /api/vulnerabilities/machinesVulnerabilities
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

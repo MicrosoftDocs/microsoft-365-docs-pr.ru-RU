@@ -1,7 +1,7 @@
 ---
 title: Оценка Microsoft 365 Defender
 description: Установите пробную лабораторию или пилотную среду Microsoft 365 Defender, чтобы опробовыть и испытать решение безопасности, предназначенное для защиты устройств, удостоверений, данных и приложений в организации.
-keywords: Microsoft Threat Protection trial, try Microsoft Threat Protection, assessment Microsoft Threat Protection, Microsoft Threat Protection assessment lab, Microsoft Threat Protection pilot, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
+keywords: Пробная версия Microsoft 365 Defender, попробуйте Microsoft 365 Defender, оцените Microsoft 365 Defender, лабораторию оценки Microsoft 365 Defender, пилот Microsoft 365 Defender, кибербезопасность, расширенные угрозы, безопасность предприятий, устройства, устройства, удостоверения, пользователей, данные, приложения, инциденты, автоматическое расследование и исправление, продвинутая охота
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2ea829e0e2697facd2522dbf16ced7d620662eee
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1c260588b80d8325567b74148a7a62586cfbc707
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076654"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933173"
 ---
 # <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Создание пробной лаборатории или пилотной среды Для Защитника Microsoft 365 
 
@@ -64,7 +64,7 @@ ms.locfileid: "51076654"
 |Этап | Описание | 
 |:-------|:-----|
 |[Этап 1. Подготовка](prepare-m365d-eval.md)| Узнайте, что необходимо учитывать при развертывании Microsoft 365 Defender в пробной лаборатории или пилотной среде: <br><br>- Заинтересованные лица и вход <br> - Соображения среды <br>- Доступ <br>- Установка Azure Active Directory <br> - Порядок конфигурации
-|[Этап 2. Установка](setup-m365deval.md)|  Сначала необходимо получить доступ к Центру безопасности Microsoft 365, чтобы настроить пробную лабораторию или пилотную среду Microsoft 365 Defender. Вы будете руководствоваться:<br><br>- Зарегистриройся на microsoft 365 E5 Trial <br>  - Настройка домена<br>- Назначение лицензий Microsoft 365 E5<br>- Завершите мастер установки на портале|
+|[Этап 2. Настройка](setup-m365deval.md)|  Сначала необходимо получить доступ к Центру безопасности Microsoft 365, чтобы настроить пробную лабораторию или пилотную среду Microsoft 365 Defender. Вы будете руководствоваться:<br><br>- Зарегистриройся на microsoft 365 E5 Trial <br>  - Настройка домена<br>- Назначение лицензий Microsoft 365 E5<br>- Завершите мастер установки на портале|
 |[Этап 3. Настройка & на борту](config-m365d-eval.md) | Настройка каждого столба и конечных точек Microsoft 365 Defender. Вы будете руководствоваться:<br><br>- Настройка Microsoft Defender для Office 365<br>- Настройка безопасности облачных приложений Майкрософт<br>- Настройка Microsoft Defender для удостоверений<br>- Настройка Microsoft Defender для конечной точки
 
 

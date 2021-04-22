@@ -1,7 +1,7 @@
 ---
-title: Убедитесь, что устройства настроены правильно
+title: Убедитесь, что ваши устройства настроены правильно
 description: Правильно настраивайте устройства, чтобы повысить общую устойчивость к угрозам и повысить возможности обнаружения и реагирования на атаки.
-keywords: onboard, управление Intune, MDATP, WDATP, Microsoft Defender, Защитник Windows, расширенные средства защиты от угроз, уменьшение поверхности атаки, ASR, базовый уровень безопасности
+keywords: onboard, Управление Intune, Microsoft Defender для endpoint, Microsoft Defender, Защитник Windows, уменьшение поверхности атаки, ASR, базовый уровень безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e7b00ceafc2761f42c316f434a27acf7c551e7cf
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3fd58ee17b2cb86c0bcc858b9b0fd57c12ac501e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163367"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932815"
 ---
-# <a name="ensure-your-devices-are-configured-properly"></a>Убедитесь, что устройства настроены правильно
+# <a name="ensure-your-devices-are-configured-properly"></a>Убедитесь, что ваши устройства настроены правильно
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -85,6 +85,6 @@ ms.locfileid: "51163367"
 :---|:---
 [Получить устройства на борту в Defender для конечной точки](configure-machines-onboarding.md)| Отслеживание состояния onboarding устройств, управляемых intune, и дополнительных устройств на борту через Intune. 
 [Повышение соответствия базовому стандарту безопасности Defender для конечной точки](configure-machines-security-baseline.md) | Отслеживание базового соответствия и несоответствия. Развертывание базовой базы безопасности на более управляемых intune устройствах.
-[Оптимизация развертывания и обнаружения правил ASR](configure-machines-asr.md) | Просмотрите развертывание правил и настройка обнаружения с помощью средств анализа воздействия в центре безопасности Microsoft 365.
+[Оптимизация развертывания и обнаружений правил сокращения направлений атак](configure-machines-asr.md) | Просмотрите развертывание правил и настройка обнаружения с помощью средств анализа воздействия в центре безопасности Microsoft 365.
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)

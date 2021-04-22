@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 154ecd66399b031ef2e60eef16227bb9bc2f8785
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c1e572910ad311daba18a8b0f5eeb546ffe36956
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587723"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929113"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Исследование устройств в списке Устройств конечных точек Microsoft Defender для конечных точек
 
@@ -172,12 +172,12 @@ ms.locfileid: "51587723"
 
 ### <a name="active-alerts"></a>Активные оповещения
 
-На **карточке Advanced Threat Protection** Azure будет отображаться высокоуровневый обзор оповещений, связанных с устройством и уровнем риска, если вы включили функцию ATP Azure и есть активные оповещений. Дополнительные сведения можно получить в упражнении "Оповещение".
+На **карточке Advanced Threat Protection** Azure будет отображаться высокоуровневый обзор оповещений, связанных с устройством и уровнем риска, если вы включили функцию Microsoft Defender для удостоверений и есть активные оповещений. Дополнительные сведения можно получить в упражнении "Оповещение".
 
 ![Изображение карты активных оповещений](images/risk-level-small.png)
 
 >[!NOTE]
->Необходимо включить интеграцию в Azure ATP и Defender для конечной точки, чтобы использовать эту функцию. В Defender for Endpoint вы можете включить эту функцию в расширенных функциях. Дополнительные сведения о том, как включить расширенные функции, см. в дополнительных [сведениях.](advanced-features.md)
+>Для использования этой функции необходимо включить интеграцию в Microsoft Defender for Identity и Defender for Endpoint. В Defender for Endpoint вы можете включить эту функцию в расширенных функциях. Дополнительные сведения о том, как включить расширенные функции, см. в дополнительных [сведениях.](advanced-features.md)
 
 ### <a name="logged-on-users"></a>Вход в систему пользователей
 
@@ -191,7 +191,7 @@ ms.locfileid: "51587723"
 
 ![Изображение карты оценки безопасности](images/security-assessments.png)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Просмотр и организация очереди оповещений Microsoft Defender для конечных точек](alerts-queue.md)
 - [Управление оповещениями Защитника Майкрософт для конечных точек](manage-alerts.md)

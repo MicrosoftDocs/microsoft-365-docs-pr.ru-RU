@@ -1,7 +1,7 @@
 ---
-title: Оптимизация развертывания и обнаружения правил ASR
+title: Оптимизация развертывания и обнаружений правил сокращения направлений атак
 description: Оптимизируйте правила уменьшения поверхности атаки для выявления и предотвращения типичных эксплойтов вредоносных программ.
-keywords: onboard, управление Intune, MDATP, WDATP, Microsoft Defender, Защитник Windows, расширенные средства защиты от угроз, уменьшение поверхности атаки, ASR, базовый уровень безопасности
+keywords: onboard, Управление Intune, Microsoft Defender для endpoint, Microsoft Defender, Защитник Windows, уменьшение поверхности атаки, ASR, базовый уровень безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a5ce39bb3ff0bf3eea4ac4e89c554de43499b15f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 91295135c833c6b403078bdfd517c7b84ec7d630
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165481"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932851"
 ---
-# <a name="optimize-asr-rule-deployment-and-detections"></a>Оптимизация развертывания и обнаружения правил ASR
+# <a name="optimize-asr-rule-deployment-and-detections"></a>Оптимизация развертывания и обнаружений правил сокращения направлений атак
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -56,6 +56,6 @@ ms.locfileid: "51165481"
 
 **Связанные темы**
 
-* [Убедитесь, что устройства настроены правильно](configure-machines.md)
+* [Убедитесь, что ваши устройства настроены правильно](configure-machines.md)
 * [Запись устройств в Microsoft Defender для конечной точки](configure-machines-onboarding.md)
 * [Отслеживание соответствия базовому стандарту безопасности Microsoft Defender для конечной точки](configure-machines-security-baseline.md)

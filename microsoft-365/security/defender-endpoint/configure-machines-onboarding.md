@@ -1,7 +1,7 @@
 ---
 title: Запись устройств в Microsoft Defender для конечной точки
 description: Отслеживайте учет устройств, управляемых intune, в Microsoft Defender для конечной точки и увеличение скорости в составе.
-keywords: управление intune, MDATP, WDATP, Microsoft Defender, Защитник Windows, расширенные средства защиты от угроз, управление конфигурацией
+keywords: управление intune, Microsoft Defender для конечной точки, Microsoft Defender, Защитник Windows, управление конфигурацией
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 09ca9fb466efd7764f7459a4754cfb30c8100bdb
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: e0d5a13b0c33516209bd2d18361a1de6ab9245c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904144"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932945"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>Запись устройств в Microsoft Defender для конечной точки
 
@@ -71,7 +71,7 @@ Defender for Endpoint предоставляет несколько удобны
 
 Дополнительные сведения см. в материале Об использовании профилей конфигурации устройств Intune на бортовых устройствах [в Defender для конечной точки.](https://docs.microsoft.com/intune/advanced-threat-protection#onboard-devices-by-using-a-configuration-profile)
 
->Хотите испытать ATP Защитника Майкрософт? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
+>Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>Похожие темы
 - [Убедитесь, что ваши устройства настроены правильно](configure-machines.md)

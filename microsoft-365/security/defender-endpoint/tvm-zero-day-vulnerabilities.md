@@ -1,7 +1,7 @@
 ---
 title: Уменьшение уязвимостей нулевого дня — управление угрозами и уязвимостью
 description: Узнайте, как находить и устранять уязвимости нулевого дня в среде с помощью управления угрозами и уязвимостями.
-keywords: mdatp tvm zero day vulnerabilities, tvm, threat & vulnerability management, zero day, 0-day, mitigate 0 day vulnerabilities, vulnerable CVE
+keywords: Уязвимости Microsoft Defender для конечного твма нулевого дня, tvm, управление & угрозами, нулевой день, 0-дневный, смягчение уязвимостей 0 дней, уязвимый CVE
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 941e4989dcb91ff9240131f5980d0e1eced2b21d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: be508e646a67f01887814a0e72170e438ee86212
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501225"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933065"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>Уменьшение уязвимостей нулевого дня — управление угрозами и уязвимостью
 

@@ -2,7 +2,7 @@
 title: Microsoft Defender для конечной точки на ресурсах Linux
 ms.reviewer: ''
 description: Описывает ресурсы для Microsoft Defender для конечной точки в Linux, в том числе, как удалить ее, как собирать диагностические журналы, команды CLI и известные проблемы с продуктом.
-keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: de2602bdc94507d27236b939553a6567b2587f36
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 176ee89c8d60a1515855296e2565f0649f908a33
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903146"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933329"
 ---
 # <a name="resources"></a>Ресурсы
 
@@ -81,7 +81,7 @@ ms.locfileid: "51903146"
 
 ## <a name="uninstall"></a>Uninstall
 
-Существует несколько способов удалить Defender для конечной точки для Linux. Если вы используете средство конфигурации, например Puppet, выполните инструкции по деинсталлации пакета для средства конфигурации.
+Существует несколько способов удалить Defender для конечной точки в Linux. Если вы используете средство конфигурации, например Puppet, выполните инструкции по деинсталлации пакета для средства конфигурации.
 
 ### <a name="manual-uninstallation"></a>Ручная отмывка
 

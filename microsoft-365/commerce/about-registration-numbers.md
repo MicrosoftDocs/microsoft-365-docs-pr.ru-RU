@@ -19,12 +19,12 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: a9625b391260d27610bb304b0ae3788b541b7709
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9f6489425a924c15d1a5cddb8c9a7d3d7812e5f0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912012"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930237"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>О регистрационных номерах и уведомлениях о просмотре
 
@@ -36,7 +36,7 @@ ms.locfileid: "50912012"
 
 Для стран, где регистрационный номер является обязательным, метка над текстовым полем указывает, какой тип номера необходим.
 
-Например, на следующем скриншоте метка указывает, что необходим регистрационный номер CNPJ.
+Например, на следующем скриншоте метка указывает, что необходим регистрационный номер CNPJ (Бразильский).
 
 :::image type="content" source="../media/macregnum-cnpj-screenshot-400.png" alt-text="Снимок экрана поля номеров регистрации для номера C N P J.":::
 

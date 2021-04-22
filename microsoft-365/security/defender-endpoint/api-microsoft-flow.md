@@ -1,7 +1,7 @@
 ---
-title: Соединителет потока ATP Защитника Майкрософт
+title: Соединители потока конечных точек Microsoft Defender для конечных точек
 ms.reviewer: ''
-description: Чтобы автоматизировать безопасность и создать поток, который будет активироваться в любое время, когда на клиенте будет возникать новое оповещение, используйте соединители потока ATP Защитника Майкрософт.
+description: Используйте соединители Потока конечных точек Microsoft Defender для автоматизации безопасности и создания потока, который будет запускаться в любое время, когда в клиенте будет возникать новое оповещение.
 keywords: поток, поддерживаемые api, api, поток Майкрософт, запрос, автоматизация
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6fd210ddfb8e3ab6e4f1f4ffc0635c8b813e3a07
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 33a7c7b1907ac761dfdde43a70bfb8f515235150
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163391"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929303"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate (ранее Microsoft Flow) и Azure Functions
 

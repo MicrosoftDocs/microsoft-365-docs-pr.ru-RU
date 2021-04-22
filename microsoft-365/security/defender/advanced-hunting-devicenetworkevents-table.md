@@ -1,7 +1,7 @@
 ---
 title: Таблица DeviceNetworkEvents в продвинутой схеме охоты
 description: Узнайте о событиях подключения к сети, которые можно запросить в таблице DeviceNetworkEvents в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, Microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, devicenetworkevents, NetworkCommunicationEvents, network Connection, remote ip, local ip
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, devicenetworkevents, NetworkCommunicationEvents, networkCommunicationEvents, network connection, remote ip, local ip
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 64b6a1ea80bdb37a6fc4477cd18946bd23f8bfb4
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 38cc354429649d1380a3a823e53054267f4b869d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498512"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932575"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -55,39 +55,39 @@ ms.locfileid: "51498512"
 | `RemoteUrl` | string | URL-адрес или полное доменное имя, к которому выполнено подключение |
 | `LocalIP` | string | IP-адрес, присвоенный локальной машине, используемой во время связи |
 | `LocalPort` | int | Порт TCP на локальной машине, используемой во время связи |
-| `Protocol` | string | Протокол, используемый во время связи |
-| `LocalIPType` | string | Тип IP-адресов, например public, Private, Reserved, Loopback, Teredo, FourToSixMapping и Broadcast |
-| `RemoteIPType` | string | Тип IP-адресов, например public, Private, Reserved, Loopback, Teredo, FourToSixMapping и Broadcast |
-| `InitiatingProcessSHA1` | string | SHA-1 процесса (файла изображений), который инициировал событие |
-| `InitiatingProcessSHA256` | string | SHA-256 процесса (файла изображений), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
+| `Protocol` | Строка | Протокол, используемый во время связи |
+| `LocalIPType` | Строка | Тип IP-адресов, например public, Private, Reserved, Loopback, Teredo, FourToSixMapping и Broadcast |
+| `RemoteIPType` | Строка | Тип IP-адресов, например public, Private, Reserved, Loopback, Teredo, FourToSixMapping и Broadcast |
+| `InitiatingProcessSHA1` | Строка | SHA-1 процесса (файла изображений), который инициировал событие |
+| `InitiatingProcessSHA256` | Строка | SHA-256 процесса (файла изображений), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `InitiatingProcessMD5` | string | AD5 hash of the process (image file), that initiated the event |
-| `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
+| `InitiatingProcessFileName` | Строка | Имя процесса, который инициировал событие |
 | `InitiatingProcessFileSize` | long | Размер файла, который запустил процесс, ответственный за событие |
-| `InitiatingProcessVersionInfoCompanyName` | string | Название компании из сведений о версии процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoProductName` | string | Имя продукта из сведений о версии процесса (файл изображений), ответственных за событие |
-| `InitiatingProcessVersionInfoProductVersion` | string | Версия продукта из сведений о версии процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoInternalFileName` | string | Имя внутреннего файла из сведений о версии процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoOriginalFileName` | string | Исходное имя файла из версии данных процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoFileDescription` | string | Описание из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoCompanyName` | Строка | Название компании из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoProductName` | Строка | Имя продукта из сведений о версии процесса (файл изображений), ответственных за событие |
+| `InitiatingProcessVersionInfoProductVersion` | Строка | Версия продукта из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoInternalFileName` | Строка | Имя внутреннего файла из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoOriginalFileName` | Строка | Исходное имя файла из версии данных процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoFileDescription` | Строка | Описание из сведений о версии процесса (файла изображений), ответственного за событие |
 | `InitiatingProcessId` | int | Процесс ID (PID) процесса, который инициировал событие |
-| `InitiatingProcessCommandLine` | string | Командная строка, используемая для запуска процесса, инициированного событием |
+| `InitiatingProcessCommandLine` | Строка | Командная строка, используемая для запуска процесса, инициированного событием |
 | `InitiatingProcessCreationTime` | datetime | Дата и время начала процесса запуска события |
-| `InitiatingProcessFolderPath` | string | Папка, содержащая процесс (файл изображений), который инициировал событие |
-| `InitiatingProcessParentFileName` | string | Имя родительского процесса, который породил процесс, ответственный за событие |
+| `InitiatingProcessFolderPath` | Строка | Папка, содержащая процесс (файл изображений), который инициировал событие |
+| `InitiatingProcessParentFileName` | Строка | Имя родительского процесса, который породил процесс, ответственный за событие |
 | `InitiatingProcessParentId` | int | Process ID (PID) родительского процесса, который породил процесс, ответственный за событие |
 | `InitiatingProcessParentCreationTime` | datetime | Дата и время запуска родительского процесса, ответственного за событие |
-| `InitiatingProcessAccountDomain` | string | Домен учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, которая запустила процесс, ответственный за событие |
-| `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountUpn` | string | Основное имя пользователя (UPN) учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountObjectId` | string | ID объекта Azure AD учетной записи пользователя, которая запустила процесс, ответственный за событие |
-| `InitiatingProcessIntegrityLevel` | string | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам, основанным на определенных характеристиках, например, если они были запущены из скачивания в Интернете. Эти уровни целостности влияют на разрешения на ресурсы |
-| `InitiatingProcessTokenElevation` | string | Тип маркера, указывающий на наличие или отсутствие высоты привилегий управления пользовательским доступом (UAC), применяемой к процессу, инициировал событие. |
+| `InitiatingProcessAccountDomain` | Строка | Домен учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountName` | Строка | Имя пользователя учетной записи, которая запустила процесс, ответственный за событие |
+| `InitiatingProcessAccountSid` | Строка | Идентификатор безопасности (SID) учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountUpn` | Строка | Основное имя пользователя (UPN) учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountObjectId` | Строка | ID объекта Azure AD учетной записи пользователя, которая запустила процесс, ответственный за событие |
+| `InitiatingProcessIntegrityLevel` | Строка | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам, основанным на определенных характеристиках, например, если они были запущены из скачивания в Интернете. Эти уровни целостности влияют на разрешения на ресурсы |
+| `InitiatingProcessTokenElevation` | Строка | Тип маркера, указывающий на наличие или отсутствие высоты привилегий управления пользовательским доступом (UAC), применяемой к процессу, инициировал событие. |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
-| `AppGuardContainerId` | string | Идентификатор виртуализированного контейнера, используемого службой Application Guard для изоляции активности браузера |
-| `AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
+| `AppGuardContainerId` | Строка | Идентификатор виртуализированного контейнера, используемого службой Application Guard для изоляции активности браузера |
+| `AdditionalFields` | Строка | Дополнительные сведения о событии в формате массива JSON |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

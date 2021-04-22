@@ -1,7 +1,7 @@
 ---
 title: Onboard Windows servers to the Microsoft Defender for Endpoint service
 description: На борту серверов Windows, чтобы они могли отправлять данные датчиков в датчик Microsoft Defender для конечной точки.
-keywords: сервер, сервер, 2012r2, 2016, 2019, бортовой сервер, управление устройствами, настройка серверов ATP Windows, сервер Microsoft Defender для серверов конечных точек, на борту серверов Microsoft Defender для серверов endpoint
+keywords: бортовой сервер, сервер, 2012r2, 2016, 2019, бортовой сервер, управление устройствами, настройка Microsoft Defender для серверов конечных точек, на борту серверов Microsoft Defender для конечных точек, на борту серверов Microsoft Defender для серверов endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f2660f19d4b6b0d5f8e2dbf48843002a2bfb7f1d
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 4eea2931196c192620812c1609c506e1fb99093d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769102"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932957"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -55,7 +55,7 @@ Defender for Endpoint расширяет поддержку и включает 
 После выполнения действий по настройке и обновлению клиенты [System Center Endpoint Protection](#configure-and-update-system-center-endpoint-protection-clients)необходимо настроить и обновить.
 
 > [!NOTE]
-> Защитник для автономных серверов Конечной точки требуется для каждого узла для того, чтобы на борту сервера Windows через агента мониторинга Майкрософт (вариант 1) или через Microsoft Endpoint Manager (вариант 3). Кроме того, требуется лицензия Azure Defender for Servers для каждого узла для того, чтобы на борту сервера Windows через Центр безопасности Azure (вариант 2) см. поддерживаемые функции, доступные в Центре безопасности [Azure.](https://docs.microsoft.com/azure/security-center/security-center-services)
+> Защитник для автономных серверов Конечной точки требуется для каждого узла для того, чтобы на борту сервера Windows через агента мониторинга Майкрософт (вариант 1) или через Microsoft Endpoint Manager (вариант 3). Кроме того, требуется лицензия Azure Defender for Servers для каждого узла для того, чтобы на борту сервера Windows через Центр безопасности Azure (вариант 2) см. поддерживаемые функции, доступные в [Azure Defender.](https://docs.microsoft.com/azure/security-center/security-center-services)
 
 ### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>Вариант 1. На борту путем установки и настройки агента мониторинга Майкрософт (MMA)
 
@@ -127,13 +127,13 @@ Defender for Endpoint расширяет поддержку и включает 
 
 3. Нажмите **кнопку Onboard Servers в Центре безопасности Azure.**
 
-4. Следуйте инструкциям по интеграции в Microsoft Defender для конечной точки в Центре безопасности [Azure,](https://docs.microsoft.com/azure/security-center/security-center-wdatp) а если вы используете Azure ARC, следуйте инструкциям в области включения интеграции [Microsoft Defender для](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)конечной точки.
+4. Следуйте инструкциям по интеграции в [Microsoft Defender для](https://docs.microsoft.com/azure/security-center/security-center-wdatp) конечной точки с помощью Azure Defender и Если вы используете Azure ARC, выполните инструкции по включению интеграции Microsoft Defender для конечной [точки.](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)
 
 После выполнения действий по настройке и обновлению клиенты [System Center Endpoint Protection](#configure-and-update-system-center-endpoint-protection-clients)необходимо настроить и обновить.
 
 > [!NOTE]
 >
-> - Для работы с помощью Azure Defender for Servers (ранее Стандартная версия Центра безопасности Azure) сервер должен иметь соответствующее рабочее пространство и ключ, настроенный в параметрах Агента мониторинга Майкрософт (MMA).
+> - Для работы с помощью Azure Defender для серверов серверы должны иметь соответствующее рабочее пространство и ключ, настроенный в параметрах Агент мониторинга Майкрософт (MMA).
 > - После настройки на компьютере развертывается соответствующий пакет управления облаками, а процесс сенсора (MsSenseS.exe) будет развернут и запущен.
 > - Это также необходимо, если сервер настроен на использование сервера шлюза OMS в качестве прокси-сервера.
 
@@ -188,26 +188,25 @@ Defender for Endpoint расширяет поддержку и включает 
 
     Сведения о том, как использовать групповую политику для настройки и управления антивирусом Microsoft Defender на серверах Windows, см. в см. в руб. Параметры групповой политики для настройки и управления антивирусом [Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)
 
-## <a name="integration-with-azure-security-center"></a>Интеграция с Центром безопасности Azure
+## <a name="integration-with-azure-defender"></a>Интеграция с Защитником Azure
 
-Defender for Endpoint может интегрироваться с Центром безопасности Azure, чтобы предоставить комплексное решение по защите серверов Windows. С помощью этой интеграции Центр безопасности Azure может использовать силу Defender для конечной точки для улучшения обнаружения угроз для Windows Servers.
+Defender for Endpoint может интегрироваться с Azure Defender, чтобы предоставить комплексное решение по защите серверов Windows. С помощью этой интеграции Azure Defender может использовать силу Defender для конечной точки, чтобы обеспечить улучшенное обнаружение угроз для Windows Servers.
 
 В эту интеграцию включены следующие возможности:
 
-- Автоматическая бортовая запись — датчик Defender для конечной точки автоматически включен на серверах Windows, которые находятся на борту в Центр безопасности Azure. Дополнительные сведения о в центре безопасности Azure см. в таблице [Onboarding to Azure Security Center Standard for enhanced security.](https://docs.microsoft.com/azure/security-center/security-center-onboarding)
+- Автоматическая бортовая запись — датчик Defender для конечной точки автоматически включен на Серверах Windows, которые включены в Azure Defender. Дополнительные сведения о onboarding Azure Defender см. в таблице [Onboarding to Azure Defender Standard for enhanced security.](https://docs.microsoft.com/azure/security-center/security-center-onboarding)
 
     > [!NOTE]
     > Интеграция Между Azure Defender для серверов и Microsoft Defender для конечной точки была расширена для поддержки [Windows Server 2019 и Windows Virtual Desktop (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
 
-- Windows servers monitored by Azure Security Center will also be available in Defender for Endpoint - Azure Security Center seamlessly connects to the Defender for Endpoint tenant, providing a single view across customers and servers.  Кроме того, оповещения Defender для конечной точки будут доступны на консоли Azure Security Center.
-- Исследование сервера . Клиенты Центра безопасности Azure могут получить доступ к Центру безопасности Защитника Майкрософт, чтобы выполнить подробное исследование, чтобы выявить область потенциального нарушения.
+- Серверы Windows, под наблюдением Azure Defender, также будут доступны в Защитнике для конечной точки . Azure Defender без проблем подключается к клиенту Defender для конечных точек, обеспечивая единое представление между клиентами и серверами.  Кроме того, оповещения Defender для конечной точки будут доступны в консоли Azure Defender.
+- Исследование сервера . Клиенты Azure Defender могут получить доступ к Центру безопасности Защитника Майкрософт, чтобы выполнить подробное исследование, чтобы выявить область потенциального нарушения.
 
 > [!IMPORTANT]
->
-> - При использовании Центра безопасности Azure для мониторинга серверов автоматически создается клиент Defender for Endpoint (в США для пользователей США, в ЕС для европейских и британских пользователей).
+> - При использовании Azure Defender для мониторинга серверов автоматически создается клиент Defender для конечных точек (в США для пользователей США, в ЕС для европейских и британских пользователей).<br>
 Данные, собранные Defender для конечной точки, хранятся в географическом расположении клиента, как определено во время предварительной обработки.
-> - Если вы используете Defender для конечной точки перед использованием Центра безопасности Azure, ваши данные будут храниться в указанном вами месте при создания клиента, даже если вы интегрируете его в Центр безопасности Azure в более позднее время.
-> - После настройки невозможно изменить расположение, в котором хранятся данные. Если необходимо переместить данные в другое расположение, необходимо обратиться в службу поддержки Майкрософт для сброса клиента.
+> - Если вы используете Defender для конечной точки перед использованием Azure Defender, ваши данные будут храниться в указанном вами расположении при создания клиента, даже если вы интегрируете с Azure Defender позднее.
+> - После настройки невозможно изменить расположение, в котором хранятся данные. Если необходимо переместить данные в другое расположение, необходимо обратиться в службу поддержки Майкрософт для сброса клиента. <br>
 Мониторинг конечной точки сервера с использованием этой интеграции отключен для клиентов GCC Office 365.
 
 ## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>Настройка и обновление клиентов system Center Endpoint Protection
@@ -364,7 +363,7 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
 
 Проверьте, присутствуют ли ЦБ перед Windows Server 2008 R2 этот процесс позволяет использовать все серверы, если у вас нет диспетчера конфигурации, управляющего серверами.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Похожие темы
 
 - [Подключение устройств Windows 10](configure-endpoints.md)
 - [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)

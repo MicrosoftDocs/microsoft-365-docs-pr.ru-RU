@@ -1,7 +1,7 @@
 ---
 title: Работа с расширенным запросом на охоту приводит к microsoft 365 Defender
 description: Сделайте большую часть результатов запроса, возвращенных расширенным поиском в Microsoft 365 Defender
-keywords: передовая охота, охота на угрозы, охота на киберугрозы, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, настраиваемые обнаружения, схема, кусто, Microsoft 365, Microsoft Threat Protection, визуализация, диаграмма, фильтры, сверла
+keywords: расширенный поиск, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, настраиваемые обнаружения, схема, кусто, визуализация, диаграмма, фильтры, сверла
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7086108febc25c4ecaaa3015c1d9a49f9d8ee642
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 34880c870cdf398ab1565f7f532ac95a6fde475d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500917"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932933"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Работа с расширенными результатами запроса на охоту
 

@@ -1,7 +1,7 @@
 ---
 title: Устранение неполадок с обслуживанием Microsoft 365 Defender
 description: Поиск решений и обходных решений известных проблем Microsoft 365 Defender
-keywords: устранение неполадок Microsoft Threat Protection, устранение неполадок, ATP Azure, проблемы, надстройка, страница параметров
+keywords: устранение неполадок в Microsoft 365 Defender, устранение неполадок, microsoft Defender для удостоверений, проблемы, надстройка, страница параметров
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: a2cd27bf7bf8b1c4931b9d768f3a6b5e5f2a0d93
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 0c933edfe80275dbfa60464ff862a7609b269332
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592040"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933401"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Устранение неполадок с обслуживанием Microsoft 365 Defender
 

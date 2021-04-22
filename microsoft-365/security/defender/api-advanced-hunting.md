@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender расширенный API охоты
 description: Узнайте, как запускать расширенные запросы на охоту с помощью API microsoft 365 Defender для охоты
-keywords: Advanced Hunting, APIs, api, MTP, M365 Defender, Microsoft 365 Defender
+keywords: Advanced Hunting, APIs, api, M365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 482801bb47429ae370e06cfcbcf26bacfb8b2a92
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c988a609a329c8f7f8988314e56aae942beebac5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074798"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932897"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender Advanced hunting API
 
@@ -33,7 +33,7 @@ ms.locfileid: "51074798"
 
 **Область применения:**
 
-- Защита от угроз (Майкрософт)
+- Microsoft 365 Defender
 
 > [!IMPORTANT]
 > Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.
@@ -62,7 +62,7 @@ ms.locfileid: "51074798"
 Тип разрешения | Разрешение | Имя отображения разрешений
 -|-|-
 Приложение | AdvancedHunting.Read.All | Запуск расширенных запросов
-Делегированное (рабочая или учебная учетная запись) | AdvancedHunting.Read | Запуск расширенных запросов
+Делегированные (рабочая или учебная учетная запись) | AdvancedHunting.Read | Запуск расширенных запросов
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -178,9 +178,9 @@ Content-Type | application/json
 }
 ```
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Доступ к API защитника Microsoft 365](api-access.md)
 - [Узнайте о ограничениях API и лицензировании](api-terms.md)
 - [Понимание кодов ошибок](api-error-codes.md)
-- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты](advanced-hunting-overview.md)

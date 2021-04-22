@@ -10,7 +10,6 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
-- M365-subscription-management
 - Adm_O365
 - Adm_TOC
 ms.custom:
@@ -22,12 +21,12 @@ search.appverid:
 description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов с помощью указанных телефонных номеров для вашей страны или региона, или отправьте запросы на обслуживание через Интернет.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 6e355a07584d45a85c363956d1bb4e45eae708be
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7e9f324bca8614e8e5b644c529802030778509b5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222043"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929077"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Способы обращения в службу поддержки продуктов для бизнеса. Справка для администраторов
 

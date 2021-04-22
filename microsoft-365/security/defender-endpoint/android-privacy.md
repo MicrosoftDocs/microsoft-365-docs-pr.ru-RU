@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP для Android — сведения о конфиденциальности
-description: Управление конфиденциальностью, настройка параметров политики, которые влияют на конфиденциальность и сведения о диагностических данных, собранных в MICROSOFT Defender ATP для Android.
-keywords: Microsoft, defender, atp, Android, privacy, diagnostic
+title: Microsoft Defender для конечной точки на Android — сведения о конфиденциальности
+description: Управление конфиденциальностью, настройка параметров политики, которые влияют на конфиденциальность и сведения о диагностических данных, собранных в Microsoft Defender для конечной точки на Android.
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Android, privacy, diagnostic
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79f8882e21f23e75d85813cde03260ef17adf246
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 415a1f555e1a33c103894221086b783aa754cf32
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876113"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930141"
 ---
 #  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender для конечной точки на Android — сведения о конфиденциальности
 
@@ -32,7 +32,7 @@ ms.locfileid: "51876113"
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-Defender for Endpoint для Android собирает сведения с настроенных android-устройств и хранит их в том же клиенте, где у вас есть Defender for Endpoint. Сведения собираются, чтобы защитить Defender для конечной точки для iOS в соответствии с ожидаемым сроком выполнения, а также поддерживать службу.
+Защитник для конечной точки на Android собирает сведения с настроенных устройств Android и хранит их в том же клиенте, где у вас есть Защитник для конечной точки. Эти сведения собираются, чтобы защитить Defender для конечной точки для Android в соответствии с ожидаемым сроком выполнения, а также поддерживать службу.
 
 Дополнительные сведения о хранении данных см. в [веб-сайте Microsoft Defender для хранения и конфиденциальности данных конечной точки.](data-storage-privacy.md)
 

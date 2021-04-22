@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ebfff7721bc61012811a66146079ac9758889594
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: a3885a462265368bc42c758ee5a8fd1c673ec08c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893605"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932803"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и подключения к Интернету
 
@@ -176,7 +176,7 @@ netsh winhttp reset proxy
 Конечная точка URL blob.core.windows.net *.blob.core.windows.net может быть заменена URL-адресами, показанными в разделе "Правило брандмауэра: *.blob.core.windows.net" результатов тестирования. 
 
 > [!NOTE]
-> В случае использования в центре безопасности Azure (ASC) может использоваться несколько областей работы. Вам потребуется выполнить процедуру TestCloudConnection.exe на бортовом компьютере из каждого рабочего пространства (чтобы определить, есть ли какие-либо изменения url-адресов *.blob.core.windows.net между рабочей областью).
+> В случае висячего использования через Azure Defender может использоваться несколько пространств работы. Вам потребуется выполнить процедуру TestCloudConnection.exe на бортовом компьютере из каждого рабочего пространства (чтобы определить, есть ли какие-либо изменения url-адресов *.blob.core.windows.net между рабочей областью).
 
 ## <a name="verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls"></a>Проверка подключения клиента к URL-адресам службы Microsoft Defender для конечных точек
 

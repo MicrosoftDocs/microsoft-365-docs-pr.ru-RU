@@ -2,7 +2,7 @@
 title: Развертывание Microsoft Defender для конечной точки на Linux вручную
 ms.reviewer: ''
 description: Описывает, как развернуть Microsoft Defender для конечной точки на Linux вручную из командной строки.
-keywords: Microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2beb46c62de2e9720d1626e0e1e5ce806a6d7e19
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0374c1a44a4d942ea631d97f51fa48df15d3ec13
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903920"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929089"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Развертывание Microsoft Defender для конечной точки на Linux вручную
 
@@ -58,7 +58,7 @@ ms.locfileid: "51903920"
 
 ## <a name="configure-the-linux-software-repository"></a>Настройка репозитория программного обеспечения Linux
 
-Защитник для конечной точки для Linux можно развернуть с одного из следующих каналов (обозначается ниже как *[канал]):* *инсайдеры-быстрые,* инсайдеры-медленные или *prod*.  Каждый из этих каналов соответствует репозиторию программного обеспечения Linux. Ниже приведены инструкции по настройке устройства для использования одного из этих репозиториев.
+Защитник для конечной точки на Linux можно развернуть с одного из следующих каналов (обозначается ниже как *[канал]):* *инсайдеры-быстрые,* инсайдеры-медленные или *prod*.  Каждый из этих каналов соответствует репозиторию программного обеспечения Linux. Ниже приведены инструкции по настройке устройства для использования одного из этих репозиториев.
 
 Выбор канала определяет тип и частоту обновлений, предлагаемых вашему устройству. Устройства в *инсайдерской* быстрой являются первыми, которые получают обновления и новые функции, а затем инсайдеры *медленно* и, *наконец, prod*.
 
@@ -86,7 +86,7 @@ ms.locfileid: "51903920"
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    Например, если вы работаете с CentOS 7 и хотите развернуть Defender for Endpoint для Linux из *прод-канала:*
+    Например, если вы работаете с CentOS 7 и хотите развернуть Defender для конечной точки на Linux из *прод-канала:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
@@ -328,7 +328,7 @@ ms.locfileid: "51903920"
     > ```bash
     > mdatp health --field definitions_status
     > ```
-    > Обратите внимание, что после завершения начальной установки может потребоваться настроить прокси-сервер. См. в публикации Configure Defender for Endpoint for Linux для обнаружения статического [прокси-сервера: конфигурация после установки.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration)
+    > Обратите внимание, что после завершения начальной установки может потребоваться настроить прокси-сервер. См. в публикации Configure Defender for Endpoint on Linux для обнаружения статического [прокси-сервера: конфигурация после установки.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration)
 
 5. Запустите тест обнаружения, чтобы убедиться, что устройство правильно на борту, и сообщить об этом службе. Выполните следующие действия на недавно созданном устройстве:
 
@@ -344,7 +344,7 @@ ms.locfileid: "51903920"
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    - Файл должен был быть на карантине в Defender для конечной точки для Linux. Чтобы перечислить все обнаруженные угрозы, используйте следующую команду:
+    - Файл должен был быть карантином для Defender для конечной точки на Linux. Чтобы перечислить все обнаруженные угрозы, используйте следующую команду:
 
         ```bash
         mdatp threat list
@@ -381,7 +381,7 @@ Options:
 
 ## <a name="operating-system-upgrades"></a>Обновления операционной системы
 
-При обновлении операционной системы до новой основной версии необходимо сначала удалить Defender для конечной точки для Linux, установить обновление и, наконец, перенастроить Defender для конечной точки для Linux на вашем устройстве.
+При обновлении операционной системы до новой основной версии необходимо сначала удалить Defender для конечной точки на Linux, установить обновление и, наконец, перенастроить Defender для конечной точки на Linux на вашем устройстве.
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>Миграция из Insiders-Fast в канал Production
 
@@ -406,4 +406,4 @@ Options:
 
 ## <a name="uninstallation"></a>Uninstallation
 
-Сведения о том, как удалить Defender для конечной точки для Linux с клиентских устройств, см. в материале [Uninstall.](linux-resources.md#uninstall)
+Сведения о том, как удалить Defender для конечной точки на Linux с клиентских устройств, см. в материале [Uninstall.](linux-resources.md#uninstall)

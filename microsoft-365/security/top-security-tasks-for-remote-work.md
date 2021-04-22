@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Защитите свою бизнес-почту и данные от киберугроз, в том числе программ-вымогателей, фишинга и вредоносных вложений.
-ms.openlocfilehash: 9d24381b5947049c506b19553a2ab3d77b95d7c8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 109ba05b21ce9c1355be73dbdfb000d6eb8c4e4d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200321"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930475"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Топ-12 задач для групп безопасности для поддержки работы из дома
 
@@ -46,7 +46,7 @@ ms.locfileid: "51200321"
 |2|[Защита от угроз](#2-protect-against-threats)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3|[Настройка Microsoft Defender для Office 365](#3-configure-microsoft-defender-for-office-365)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[Настройка Microsoft Defender для удостоверений](#4-configure-microsoft-defender-for-identity)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|5 |[Включив защитник Microsoft 365](#5-turn-on-microsoft-365-defender)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|5 |[Включение Microsoft 365 Defender](#5-turn-on-microsoft-365-defender)|||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[Настройка защиты мобильных приложений Intune для телефонов и планшетов](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[Настройка MFA и условного доступа для гостей, включая защиту приложений Intune](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[Регистрация компьютеров в управление устройствами и требуют совместимых компьютеров](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -108,7 +108,7 @@ Microsoft Defender для Office 365:
 
 Вам потребуется работать с администратором Exchange Online и администратором SharePoint Online, чтобы настроить Defender для Office 365 для этих рабочих нагрузок:
 
-- [ATP для SharePoint, OneDrive и Microsoft Teams](office-365-security/mdo-for-spo-odb-and-teams.md)
+- [Защитник Microsoft для конечной точки для SharePoint, OneDrive и Microsoft Teams](office-365-security/mdo-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4. Настройка Microsoft Defender для удостоверений
 

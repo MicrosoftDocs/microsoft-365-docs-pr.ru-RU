@@ -1,7 +1,7 @@
 ---
 title: Часто задающие вопросы при включив Microsoft 365 Defender
 description: Получение ответов на наиболее часто задамые вопросы о лицензировании, разрешениях, начальных параметрах и других продуктах и службах, связанных с включением Microsoft 365 Defender
-keywords: часто задаваемые вопросы, GCC, начало работы, включить MTP, Microsoft Threat Protection, M365, безопасность, расположение данных, необходимые разрешения, право на лицензию, страницу параметров
+keywords: часто задаваемые вопросы, GCC, привнося начало, включить Microsoft 365 Defender, Microsoft 365 Defender, M365, безопасность, расположение данных, необходимые разрешения, право на лицензию, страницу параметров
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7482bf614e7cb3ffad6596f3c5d8bc554d46d912
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 55c1a3807fe8e28ca12f4f638c1ab2ca717523ed
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076686"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933437"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>Часто задающие вопросы при включив Microsoft 365 Defender
 
@@ -96,7 +96,7 @@ Microsoft 365 Defender доступен в центре безопасности
 ## <a name="is-microsoft-365-defender-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>Доступен ли Microsoft 365 Defender для облачных правительственных сообществ США (GCC) или GCC High?
 В настоящее время она недоступна.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор Защитника Microsoft 365](microsoft-365-defender.md)
 - [Включи Microsoft 365 Defender.](m365d-enable.md)

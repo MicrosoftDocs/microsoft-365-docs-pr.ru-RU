@@ -1,7 +1,7 @@
 ---
 title: Примеры политик управления устройствами для JAMF
 description: Узнайте, как использовать политики управления устройствами с помощью примеров, которые можно использовать в JAMF.
-keywords: Microsoft, defender, endpoint, atp, mac, device, control, usb, removable, media, jamf
+keywords: Microsoft, defender, endpoint, Microsoft Defender for Endpoint, mac, device, control, usb, removable, media, jamf
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8990979024c033d4142b595d6fef94f7b872e7c9
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: b9ce161a472366d11b267824c9bd08ceccf285aa
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187689"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933461"
 ---
 # <a name="examples-of-device-control-policies-for-jamf"></a>Примеры политик управления устройствами для JAMF
 
@@ -221,6 +221,6 @@ ms.locfileid: "51187689"
 </plist> 
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления устройствами для macOS](mac-device-control-overview.md)

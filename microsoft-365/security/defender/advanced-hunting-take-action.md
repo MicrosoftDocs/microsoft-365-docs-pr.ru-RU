@@ -1,7 +1,7 @@
 ---
 title: Действие по расширенным запросам на охоту в Microsoft 365 Defender
 description: Быстрое устранение угроз и затронутых активов в результатах предварительного запроса на охоту
-keywords: передовая охота, охота на угрозы, охота на киберугрозы, защита от угроз Майкрософт, Microsoft 365, mtp, m365, поиск, запрос, телеметрия, принять меры
+keywords: расширенный поиск, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, принять меры
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ee35bcc29ef8a283b6b04cb34ab97705d5dd15f4
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0c088375cd784b411fdce417d77b1ea176bcee26
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498226"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932909"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Принять меры по расширенным результатам запроса на охоту
 
@@ -79,7 +79,7 @@ ms.locfileid: "51498226"
 ## <a name="review-actions-taken"></a>Проверка принятых действий
 Каждое действие индивидуально записывают в [центре](m365d-action-center.md) действий в статье **История** центра действий  >   [(security.microsoft.com/action-center/history).](https://security.microsoft.com/action-center/history) Перейдите в центр действий, чтобы проверить состояние каждого действия.
  
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

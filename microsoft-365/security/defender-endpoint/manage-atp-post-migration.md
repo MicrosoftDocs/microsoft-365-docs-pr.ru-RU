@@ -1,7 +1,7 @@
 ---
 title: Управление миграцией столба в конечной точке в Microsoft Defender для конечной точки
 description: Теперь, когда вы перешли на Microsoft Defender для конечной точки, следующим шагом будет управление функциями защиты от угроз.
-keywords: после переноса, управления, операций, обслуживания, использования, защиты от расширенных угроз защитника Windows, atp, edr
+keywords: после переноса, управления, операций, обслуживания, использования, Microsoft Defender для конечной точки, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 01/26/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 54302f38f0fd63560ecd1c5545efa4621c6b9bbd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: eedd13030fd6a649985dc7280dc256e4ab35089a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185865"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933197"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-post-migration"></a>Управление защитником Майкрософт для конечной точки, после переноса
 
@@ -52,4 +52,4 @@ ms.locfileid: "51185865"
 
 ## <a name="see-also"></a>См. также
 
-- [Устранение ложных срабатыва-минусов в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)
+- [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)

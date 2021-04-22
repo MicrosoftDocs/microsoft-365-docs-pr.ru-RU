@@ -2,7 +2,7 @@
 title: Устранение неполадок с облачными подключениями для Microsoft Defender для конечной точки в Linux
 ms.reviewer: ''
 description: Устранение неполадок с облачными подключениями для Microsoft Defender для конечной точки в Linux
-keywords: Microsoft, defender, atp, linux, cloud, connectivity, communication
+keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, cloud, connectivity, communication
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 985e4c39c60600da892c010b6ee26e9c98bb0611
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0345d7f88d147abb750e66a5e61f516abf38d553
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903170"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933113"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Устранение неполадок с облачными подключениями для Microsoft Defender для конечной точки в Linux
 
@@ -37,7 +37,7 @@ ms.locfileid: "51903170"
 
 ## <a name="run-the-connectivity-test"></a>Запуск теста подключения
 
-Чтобы проверить, может ли Защитник для конечной точки Для Linux взаимодействовать с облаком с текущими сетевыми настройками, запустите тест на подключение из командной строки:
+Чтобы проверить, может ли Defender для конечной точки в Linux общаться с облаком с текущими сетевыми настройками, запустите тест на подключение из командной строки:
 
 ```bash
 mdatp connectivity test
@@ -86,7 +86,7 @@ OK https://cdn.x.cp.wd.microsoft.com/ping
 > [!WARNING]
 > Прокси-панели PAC, WPAD и прокси-устройства с проверкой подлинности не поддерживаются. Убедитесь, что используется только статичный прокси или прозрачный прокси.
 >
-> Проверка SSL и перехват прокси также не поддерживаются по соображениям безопасности. Настройте исключение для проверки SSL и прокси-сервера, чтобы напрямую передавать данные из Defender for Endpoint для Linux в соответствующие URL-адреса без перехвата. Добавление сертификата перехвата в глобальный магазин не позволяет перехватывать.
+> Проверка SSL и перехват прокси также не поддерживаются по соображениям безопасности. Настройте исключение для проверки SSL и прокси-сервера, чтобы напрямую передавать данные из Defender для конечной точки на Linux в соответствующие URL-адреса без перехвата. Добавление сертификата перехвата в глобальный магазин не позволяет перехватывать.
 
 Если требуется статичный прокси-сервер, добавьте прокси-параметр в вышеуказанную команду, где соответствует прокси-адрес `proxy_address:port` и порт:
 
@@ -107,7 +107,7 @@ curl -x http://proxy_address:port -w ' %{url_effective}\n' 'https://x.cp.wd.micr
 
 Кроме того, убедитесь, что для замены заполняется правильный статичный прокси-адрес. `address:port`
 
-Если этот файл является правильным, попробуйте запускать следующую команду в терминале, чтобы перезагрузить Defender для конечной точки для Linux и распространять параметр:
+Если этот файл является правильным, попробуйте запускать следующую команду в терминале, чтобы перезагрузить Defender для конечной точки на Linux и распространять параметр:
 
 ```bash
 sudo systemctl daemon-reload; sudo systemctl restart mdatp

@@ -1,7 +1,7 @@
 ---
 title: Новые возможности Microsoft Defender для конечной точки
 description: Узнайте, какие функции обычно доступны (GA) в последнем выпуске Microsoft Defender для конечной точки, а также функции безопасности в Windows 10 и Windows Server.
-keywords: что нового в защитнике Microsoft для конечной точки, ga, как правило, доступны, возможности, доступные, новые
+keywords: что нового в Microsoft Defender для конечной точки, ga, как правило, доступны, возможности, доступные, новые
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c9f4c0689739224b00c9c14db1482d54faab3512
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: abb20fe79077eda5c50c9aa36829e0dd45e756b8
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688241"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932623"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Новые возможности Microsoft Defender для конечной точки
 
@@ -52,7 +52,7 @@ ms.locfileid: "51688241"
 - [Виртуальный рабочий стол Windows](https://azure.microsoft.com/services/virtual-desktop/) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для виртуального рабочего стола Windows.
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
-- [Защитник Microsoft для конечной точки на iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для iOS. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на iOS.
+- [Microsoft Defender для конечной точки в iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для iOS. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на iOS.
 
 ## <a name="september-2020"></a>Сентябрь 2020 г.
 - [Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку для Android. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на Android.
@@ -67,7 +67,7 @@ ms.locfileid: "51688241"
 - [Создание индикаторов для сертификатов](manage-indicators.md) <br> Создание индикаторов для допуска или блокировки сертификатов. 
 
 ## <a name="june-2020"></a>Июнь 2020 г.
-- [Microsoft Defender для конечной точки на Linux](microsoft-defender-endpoint-linux.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку Для Linux. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на Linux.
+- [Microsoft Defender для конечной точки в Linux](microsoft-defender-endpoint-linux.md) <br> Microsoft Defender для конечной точки теперь добавляет поддержку Для Linux. Узнайте, как установить, настроить, обновить и использовать Microsoft Defender для конечной точки на Linux.
 
 - [Симуляторы атак в лаборатории оценки](evaluation-lab.md#threat-simulator-scenarios) <br> Microsoft Defender для конечной точки имеет партнерские отношения с различными платформами моделирования угроз, чтобы предоставить вам удобный доступ для проверки возможностей платформы прямо из портала.
 
@@ -78,7 +78,7 @@ ms.locfileid: "51688241"
 
 ## <a name="november-december-2019"></a>November-December 2019 г.
 
-- [Microsoft Defender для конечной точки на macOS](microsoft-defender-endpoint-mac.md) <BR> Microsoft Defender для конечной точки на macOS обеспечивает защиту следующего поколения на устройствах Mac. Основные компоненты единой платформы безопасности конечных точек теперь будут доступны для устройств Mac, включая обнаружение конечных точек [и ответ.](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md) <BR> Microsoft Defender для конечной точки на macOS обеспечивает защиту следующего поколения на устройствах Mac. Основные компоненты единой платформы безопасности конечных точек теперь будут доступны для устройств Mac, включая обнаружение конечных точек [и ответ.](microsoft-defender-endpoint-mac.md)
  
 - [Сведения & управления уязвимостью и версии приложений](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation) <BR>Приложения и версии приложений, которые достигли их окончания, помечены или помечены как таковой, чтобы вы знали, что они больше не будут поддерживаться, и могут принимать меры для их отменить или заменить. Это поможет уменьшить риски, связанные с различными воздействиями уязвимости из-за неокрепленных приложений.
 
@@ -150,7 +150,7 @@ ms.locfileid: "51688241"
 
 - [Настраиваемый обнаружение](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-custom-detections)<BR>С помощью настраиваемого обнаружения можно создавать настраиваемые запросы для мониторинга событий для любого вида поведения, например подозрительных или возникающих угроз. Это можно сделать, используя полномочия передовой охоты путем создания пользовательских правил обнаружения. 
 
-- [Интеграция с Центром безопасности Azure](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> Microsoft Defender для конечной точки интегрируется с Центром безопасности Azure для предоставления комплексного решения по защите серверов. С помощью этой интеграции Центр безопасности Azure может использовать возможности Microsoft Defender для конечной точки, чтобы обеспечить улучшенное обнаружение угроз для Windows Servers.
+- [Интеграция с защитником AAzure](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> Microsoft Defender для конечной точки интегрируется с Azure Defender, чтобы обеспечить комплексное решение для защиты сервера. С помощью этой интеграции Azure Defender может использовать возможности Microsoft Defender для конечной точки, чтобы обеспечить улучшенное обнаружение угроз для Windows Servers.
 
 - [Поддержка поставщика управляемых служб безопасности (MSSP)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/mssp-support-windows-defender-advanced-threat-protection)<BR> Microsoft Defender для конечной точки добавляет поддержку этому сценарию, предоставляя интеграцию MSSP. Интеграция позволит MSSP принять следующие действия: получить доступ к порталу центра безопасности Microsoft Defender клиента MSSP, получать уведомления электронной почты и получать оповещения с помощью средств управления сведениями о безопасности и событиями (SIEM).
 
@@ -165,7 +165,7 @@ Threat Analytics — это набор интерактивных отчетов
   - Блокировка Adobe Reader от создания детских процессов
   - Блокировка приложения связи Office от создания детских процессов.
   
-- [Антивирус Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
+- [Антивирусная программа в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
     - Интерфейс сканирования антивирусного программного обеспечения (AMSI) был расширен и для макрос Office VBA. [Office VBA + AMSI: размыв завесу на вредоносных макросах.](https://cloudblogs.microsoft.com/microsoftsecure/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/)
     - Антивирус Microsoft Defender, новый в Windows 10 версии 1809, теперь может работать в песочнице [(предварительный](https://www.microsoft.com/security/blog/2018/10/26/windows-defender-antivirus-can-now-run-in-a-sandbox) просмотр), что увеличивает его безопасность.
     - [Настройка параметров приоритета ЦП для](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus) проверки антивирусов Microsoft Defender.
@@ -204,7 +204,7 @@ Threat Analytics — это набор интерактивных отчетов
     С помощью управления доступом на основе ролей (RBAC) можно создавать роли и группы в группе операций безопасности, чтобы предоставить соответствующий доступ к порталу.
 
 
-- [Антивирус Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)<BR>
+- [Антивирусная программа в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)<BR>
 Антивирус Microsoft Defender теперь делится состоянием обнаружения между службами M365 и взаимодействиями с Microsoft Defender для конечной точки. Дополнительные сведения см. в дополнительных сведениях: Использование технологий следующего поколения в [антивирусе Microsoft Defender с помощью облачной защиты.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
 
     Блок на первый взгляд теперь может блокировать не переносимые исполняемые файлы (такие как JS, VBS или макрос), а также исполняемые файлы. Дополнительные сведения см. в [поле Включить блок с первого взгляда.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)

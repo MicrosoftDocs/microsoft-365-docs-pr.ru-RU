@@ -1,6 +1,6 @@
 ---
 title: Предоставление доступа к поставщику управляемых служб безопасности (MSSP)
-description: Предпринять необходимые действия для настройки интеграции MSSP с ATP Защитника Майкрософт
+description: Предпринять необходимые действия для настройки интеграции MSSP с Microsoft Defender для конечной точки
 keywords: поставщик управляемых служб безопасности, mssp, настройка, интеграция
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1bb7bc3565bbb7c05f165c5649f3672ff33bb18b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 320355f838db5dbb1540350e95e4cc0645acd805
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165457"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932755"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>Предоставление доступа к поставщику управляемых служб безопасности (MSSP) (предварительный просмотр)
 
@@ -134,10 +134,10 @@ ms.locfileid: "51165457"
 
     На этом этапе был предусмотрен доступ аналитика, и каждый аналитик должен иметь доступ к Центру безопасности Microsoft Defender клиента: `https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
 
-## <a name="related-topics"></a>Статьи по теме
-- [Доступ к порталу клиентов MSSP](access-mssp-portal.md)
+## <a name="related-topics"></a>Похожие темы
+- [Получение доступа к порталу клиентов MSSP](access-mssp-portal.md)
 - [Настройка уведомлений оповещений](configure-mssp-notifications.md)
-- [Извлечение оповещений от клиента-клиента](fetch-alerts-mssp.md)
+- [Получение оповещений от владельца клиента](fetch-alerts-mssp.md)
 
 
 

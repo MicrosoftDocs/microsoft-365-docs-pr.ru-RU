@@ -1,7 +1,7 @@
 ---
 title: Хронология событий в управлении угрозами и уязвимостью
 description: Временная шкала событий — это лента новостей о рисках, которая позволяет интерпретировать, как вводится риск в организацию и какие меры по ее снижению были смягчаемы.
-keywords: временной шкале событий, временной шкале событий mdatp, временной шкале событий mdatp tvm, управлению угрозами и уязвимостью, Microsoft Defender для Endpoint
+keywords: Хронология событий, сроки событий Microsoft Defender для конечных точек, шкала событий Microsoft Defender для конечных точек твм, управление угрозами и уязвимостью, Microsoft Defender для Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 90a124f9b0bf9ef775141e359224fde566c61c8d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 64362598ff4b0512eb110917071e6d32abb8ede9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501198"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933485"
 ---
 # <a name="event-timeline---threat-and-vulnerability-management"></a>Временная шкала событий — управление угрозами и уязвимостью
 
@@ -130,7 +130,7 @@ ms.locfileid: "51501198"
 
 ![Страница программного обеспечения со вкладками Временной шкалы событий](images/tvm-event-timeline-software-pages.png)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
 - [Панель мониторинга](tvm-dashboard-insights.md)

@@ -1,7 +1,7 @@
 ---
 title: Расширенные квоты охоты и параметры использования в Microsoft 365 Defender
 description: Разграничить различные квоты и параметры использования (ограничения службы), которые будут отвечать на запросы передовой службы охоты.
-keywords: передовая охота, охота на угрозы, охота на киберугрозы, microsoft threat protection, microsoft 365, mtp, m365, поиск, запрос, телеметрия, схема, кусто, ограничение ЦП, ограничение запросов, ресурсы, максимальные результаты, квота, параметры, распределение
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema, kusto, CPU limit, query limit, resources, maximum results, quota, parameters, allocation
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ca79abfa95feb65f98ec32ae8dbc0093e34d58e6
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: c9526363b0430514455db1fbdf12cfb7a18229f1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498432"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932993"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>Расширенные квоты на охоту и параметры использования
 
@@ -49,7 +49,7 @@ ms.locfileid: "51498432"
 >[!NOTE] 
 >Отдельный набор квот и параметров применяется к расширенным запросам на охоту, выполняемым через API. [Ознакомьтесь с расширенными API охоты](./api-advanced-hunting.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 - [Передовые методы охоты](advanced-hunting-best-practices.md)
 - [Обработка ошибок, совершенных в области охоты](advanced-hunting-errors.md)

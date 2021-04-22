@@ -1,7 +1,7 @@
 ---
 title: Порталы безопасности Майкрософт и центры администрирования
 description: Найдите нужный центр администрирования Майкрософт или портал для управления различными службами, связанными с безопасностью Microsoft 365
-keywords: безопасность, порталы, Microsoft 365, M365, центр безопасности, центр администрирования, URL-адрес, ссылка, MTP, Microsoft Defender ATP, Центр безопасности Защитника Майкрософт, AtP Azure, Office 365 ATP, MCAS, WDSI, SCC, Intune, MDM, MEM, ASC, OATP, AATP, Cloud App Security, Azure AD, security & compliance center
+keywords: безопасность, порталы, Microsoft 365, M365, центр безопасности, центр администрирования, URL-адрес, ссылка, Защитник Microsoft 365, Microsoft Defender для конечной точки, Центр безопасности Microsoft Defender, Microsoft Defender для удостоверений, Microsoft Defender для Office 365, MCAS, WDSI, SCC, Intune, MDM, MEM, ASC, Cloud App Security, Azure AD, центр обеспечения безопасности & безопасности
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 66e1bfa8007a972a1963745857a25e1e255634b6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c304d8badd9bde11ad0f483b482628503569dc26
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200189"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51931939"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Порталы безопасности Майкрософт и центры администрирования
 
@@ -40,7 +40,7 @@ ms.locfileid: "51200189"
 
 | Имя портала | Описание | Ссылка |
 |---|---|---| 
-| Центр безопасности Microsoft 365 | Мониторинг и реагирование на угрозы и усиление защиты в удостоверениях, электронной почте, данных, конечных точках и приложениях с [Помощью Microsoft 365 Defender](microsoft-365-defender.md) | [security.microsoft.com](https://security.microsoft.com/) |
+| Центр безопасности Microsoft 365 | Мониторинг и реагирование на угрозы и усиление защиты в удостоверениях, электронной почте, данных, конечных точках и приложениях с [Помощью Microsoft 365 Defender](microsoft-365-defender.md) | [security.microsoft.com](https://security.microsoft.com/) |
 | Центр безопасности Защитника Майкрософт | Мониторинг и реагирование на действия угроз на конечных точках с помощью возможностей, предоставляемых [с помощью Microsoft Defender для endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
 | Центр безопасности и соответствия требованиям | Управление [exchange Online Protection](../office-365-security/exchange-online-protection-overview.md?view=o365-worldwide) и Microsoft Defender для Office [365](/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide) для защиты служб электронной почты и совместной работы и обеспечения соответствия различным правилам обработки данных | [protection.office.com](https://protection.office.com) |
 | Портал Azure Defender | Использование [Azure Defender](/azure/security-center/security-center-intro) для укрепления безопасности центров обработки данных и гибридных рабочих нагрузок в облаке | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
@@ -56,7 +56,7 @@ ms.locfileid: "51200189"
 | Имя портала | Описание | Ссылка | 
 |---|---|---| 
 | Портал Azure | Просмотр и управление [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) и все ресурсы [Azure](/azure/azure-resource-manager/management/overview)  | [portal.azure.com](https://portal.azure.com/) |
-| Центр соответствия требованиям Microsoft 365 | Управление политиками обработки данных и обеспечение [соответствия нормативным требованиям](/compliance/regulatory/offering-home?view=o365-worldwide) | [compliance.microsoft.com](https://compliance.microsoft.com/) |
+| Центр соответствия требованиям Microsoft 365 | Управление политиками обработки данных и обеспечение [соответствия нормативным требованиям](/compliance/regulatory/offering-home?view=o365-worldwide) | [compliance.microsoft.com](https://compliance.microsoft.com/) |
 | Центр администрирования Microsoft 365 | Настройка служб Microsoft 365; управление ролями, лицензиями и отслеживанием обновлений для служб Microsoft 365 | [admin.microsoft.com](https://admin.microsoft.com/) |
 | Центр администрирования Microsoft Endpoint Manager | Используйте [Microsoft Endpoint Manager для](/mem/configmgr/) управления и защиты устройств с помощью объединенных возможностей Intune и Configuration Manager | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
 | Портал Microsoft Intune | Используйте [Microsoft Intune для](/intune/fundamentals/what-is-intune) развертывания политик устройств и мониторинга устройств для обеспечения соответствия требованиям | [endpoint.microsoft.com](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/overview)

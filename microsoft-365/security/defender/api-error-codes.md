@@ -1,7 +1,7 @@
 ---
 title: Общие коды ошибок API API Defender REST 365 Defender
 description: Узнайте об общих кодах ошибок API API Rest Защитника Майкрософт 365
-keywords: api, error, codes, common errors, mtp, api error codes
+keywords: api, error, codes, common errors, Microsoft 365 Defender, api error codes
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ab564ddb0263b501b6aca979f2148dfb5cf92758
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e621b79d37a2c3a22394bd51e0493334eff461c7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076694"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932885"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Общие коды ошибок API API Defender REST 365 Defender
 
@@ -33,7 +33,7 @@ ms.locfileid: "51076694"
 
 **Область применения:**
 
-- Защита от угроз (Майкрософт)
+- Microsoft 365 Defender
 
 > [!IMPORTANT]
 > Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.
@@ -97,7 +97,7 @@ InternalServerError | Ошибка внутреннего сервера (500) |
 
 Каждый ответ на ошибку содержит уникальный параметр ID для отслеживания. Имя свойства этого параметра является *целевым.* При контакте с нами об ошибке, присоединение этого ID поможет нам найти корневую причину проблемы.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Обзор API защитника Microsoft 365](api-overview.md)
 - [Поддерживаемые API Microsoft 365 Defender](api-supported.md)

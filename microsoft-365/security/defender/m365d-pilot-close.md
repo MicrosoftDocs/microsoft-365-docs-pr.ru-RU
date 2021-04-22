@@ -1,7 +1,7 @@
 ---
 title: Подводя итоги пилотного проекта Microsoft 365 Defender
 description: Завершите пилотный проект Microsoft 365 Defender, заполнив свою карту показателей, проанализировав результаты отчета и решив, как двигаться вперед.
-keywords: Пилот microsoft Threat Protection определите, что делать после пилотного проекта Microsoft Threat Protection, что делать после оценки microsoft Threat Protection в производстве, перехода от пилота Microsoft Threat Protection к развертыванию, кибербезопасности, передовой постоянной угрозы, корпоративной безопасности, устройств, устройств, удостоверений, пользователей, данных, приложений, инцидентов, автоматического расследования и исправлений, продвинутой охоты
+keywords: Пилот Microsoft 365 Defender, определите, что делать дальше после пилотного проекта Microsoft 365 Defender, что делать после оценки Microsoft 365 Defender в производстве, перехода от пилота Microsoft 365 Defender к развертыванию, кибербезопасности, расширенных постоянных угроз, корпоративной безопасности, устройств, устройств, удостоверений, пользователей, данных, приложений, инцидентов, автоматического расследования и исправлений, продвинутой охоты
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2553e88992b7eca906b4697edee4cdf632929444
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 64cdb37b64780a651b2689e68e21c5a385df5ba9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076646"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932873"
 ---
 # <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Закрытие и обобщение пилотного проекта Microsoft 365 Defender  
 
