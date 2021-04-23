@@ -20,64 +20,68 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0194a752a0050fe68c5372bbfc93ea5f17d1d8e6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 83c78f9df5560c75e40a171d770e994b86049204
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935765"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952588"
 ---
-# <a name="use-shared-queries-in-advanced-hunting"></a><span data-ttu-id="eb6ef-105">Использование общих запросов в расширенной охоте</span><span class="sxs-lookup"><span data-stu-id="eb6ef-105">Use shared queries in advanced hunting</span></span>
+# <a name="use-shared-queries-in-advanced-hunting"></a><span data-ttu-id="93219-105">Использование общих запросов в расширенной охоте</span><span class="sxs-lookup"><span data-stu-id="93219-105">Use shared queries in advanced hunting</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="eb6ef-106">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="eb6ef-106">**Applies to:**</span></span>
-- <span data-ttu-id="eb6ef-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="eb6ef-107">Microsoft 365 Defender</span></span>
+<span data-ttu-id="93219-106">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="93219-106">**Applies to:**</span></span>
+- <span data-ttu-id="93219-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="93219-107">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="93219-108">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="93219-108">Microsoft Defender for Endpoint</span></span>
 
 
 
-<span data-ttu-id="eb6ef-108">Запросами [расширенной охоты](advanced-hunting-overview.md) можно делиться с пользователями одной организации.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-108">[Advanced hunting](advanced-hunting-overview.md) queries can be shared among users in the same organization.</span></span> <span data-ttu-id="eb6ef-109">Вы также можете найти общедоступные запросы в GitHub.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-109">You can also find queries shared publicly on GitHub.</span></span> <span data-ttu-id="eb6ef-110">Эти запросы позволяют быстро реализовывать сценарии охоты на угрозы, не создавая запросы с нуля.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-110">These queries let you quickly pursue specific threat hunting scenarios without having to write queries from scratch.</span></span>
+<span data-ttu-id="93219-109">Запросами [расширенной охоты](advanced-hunting-overview.md) можно делиться с пользователями одной организации.</span><span class="sxs-lookup"><span data-stu-id="93219-109">[Advanced hunting](advanced-hunting-overview.md) queries can be shared among users in the same organization.</span></span> <span data-ttu-id="93219-110">Вы также можете найти общедоступные запросы в GitHub.</span><span class="sxs-lookup"><span data-stu-id="93219-110">You can also find queries shared publicly on GitHub.</span></span> <span data-ttu-id="93219-111">Эти запросы позволяют быстро реализовывать сценарии охоты на угрозы, не создавая запросы с нуля.</span><span class="sxs-lookup"><span data-stu-id="93219-111">These queries let you quickly pursue specific threat hunting scenarios without having to write queries from scratch.</span></span>
 
 ![Изображение общих запросов](../../media/advanced-hunting-shared-queries.png)
 
-## <a name="save-modify-and-share-a-query"></a><span data-ttu-id="eb6ef-112">Сохранение и изменение запроса и предоставление к нему общего доступа</span><span class="sxs-lookup"><span data-stu-id="eb6ef-112">Save, modify, and share a query</span></span>
-<span data-ttu-id="eb6ef-113">Вы можете сохранить новый или существующий запрос, чтобы он был доступен только вам, или поделиться им с пользователями своей организации.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-113">You can save a new or existing query so that it is only accessible to you or shared with other users in your organization.</span></span> 
+## <a name="save-modify-and-share-a-query"></a><span data-ttu-id="93219-113">Сохранение и изменение запроса и предоставление к нему общего доступа</span><span class="sxs-lookup"><span data-stu-id="93219-113">Save, modify, and share a query</span></span>
+<span data-ttu-id="93219-114">Вы можете сохранить новый или существующий запрос, чтобы он был доступен только вам, или поделиться им с пользователями своей организации.</span><span class="sxs-lookup"><span data-stu-id="93219-114">You can save a new or existing query so that it is only accessible to you or shared with other users in your organization.</span></span> 
 
-1. <span data-ttu-id="eb6ef-114">Создание или изменение запроса</span><span class="sxs-lookup"><span data-stu-id="eb6ef-114">Create or modify a query.</span></span> 
+1. <span data-ttu-id="93219-115">Создание или изменение запроса</span><span class="sxs-lookup"><span data-stu-id="93219-115">Create or modify a query.</span></span> 
 
-2. <span data-ttu-id="eb6ef-115">Нажмите разворачивающуюся кнопку **Сохранить запрос** и выберите параметр **Сохранить как**.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-115">Click the **Save query** drop-down button and select **Save as**.</span></span>
+2. <span data-ttu-id="93219-116">Нажмите разворачивающуюся кнопку **Сохранить запрос** и выберите параметр **Сохранить как**.</span><span class="sxs-lookup"><span data-stu-id="93219-116">Click the **Save query** drop-down button and select **Save as**.</span></span>
     
-3. <span data-ttu-id="eb6ef-116">Введите имя запроса.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-116">Enter a name for the query.</span></span> 
+3. <span data-ttu-id="93219-117">Введите имя запроса.</span><span class="sxs-lookup"><span data-stu-id="93219-117">Enter a name for the query.</span></span> 
 
    ![Изображение сохранения запроса](../../media/advanced-hunting-save-query.png)
 
-4. <span data-ttu-id="eb6ef-118">Выберите папку, в которую нужно сохранить запрос.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-118">Select the folder where you'd like to save the query.</span></span>
-    - <span data-ttu-id="eb6ef-119">**Общие запросы** — общие для всех пользователей вашей организации</span><span class="sxs-lookup"><span data-stu-id="eb6ef-119">**Shared queries** — shared to all users your organization</span></span>
-    - <span data-ttu-id="eb6ef-120">**Мои запросы** — доступны только для вас</span><span class="sxs-lookup"><span data-stu-id="eb6ef-120">**My queries** — accessible only to you</span></span>
+4. <span data-ttu-id="93219-119">Выберите папку, в которую нужно сохранить запрос.</span><span class="sxs-lookup"><span data-stu-id="93219-119">Select the folder where you'd like to save the query.</span></span>
+    - <span data-ttu-id="93219-120">**Общие запросы** — общие для всех пользователей вашей организации</span><span class="sxs-lookup"><span data-stu-id="93219-120">**Shared queries** — shared to all users your organization</span></span>
+    - <span data-ttu-id="93219-121">**Мои запросы** — доступны только для вас</span><span class="sxs-lookup"><span data-stu-id="93219-121">**My queries** — accessible only to you</span></span>
     
-5. <span data-ttu-id="eb6ef-121">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-121">Select **Save**.</span></span> 
+5. <span data-ttu-id="93219-122">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="93219-122">Select **Save**.</span></span> 
 
-## <a name="delete-or-rename-a-query"></a><span data-ttu-id="eb6ef-122">Удаление или переименование запроса</span><span class="sxs-lookup"><span data-stu-id="eb6ef-122">Delete or rename a query</span></span>
-1. <span data-ttu-id="eb6ef-123">Щелкните правой кнопкой мыши запрос, который нужно переименовать или удалить.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-123">Right-click on a query you want to rename or delete.</span></span>
+## <a name="delete-or-rename-a-query"></a><span data-ttu-id="93219-123">Удаление или переименование запроса</span><span class="sxs-lookup"><span data-stu-id="93219-123">Delete or rename a query</span></span>
+1. <span data-ttu-id="93219-124">Щелкните правой кнопкой мыши запрос, который нужно переименовать или удалить.</span><span class="sxs-lookup"><span data-stu-id="93219-124">Right-click on a query you want to rename or delete.</span></span>
 
     ![Изображение удаления запроса](../../media/advanced_hunting_delete_rename.png)
 
-2. <span data-ttu-id="eb6ef-125">Нажмите кнопку **Удалить** и подтвердите удаление.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-125">Select **Delete** and confirm deletion.</span></span> <span data-ttu-id="eb6ef-126">Или нажмите кнопку **Переименовать** и введите новое имя запроса.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-126">Or select **Rename** and provide a new name for the query.</span></span>
+2. <span data-ttu-id="93219-126">Нажмите кнопку **Удалить** и подтвердите удаление.</span><span class="sxs-lookup"><span data-stu-id="93219-126">Select **Delete** and confirm deletion.</span></span> <span data-ttu-id="93219-127">Или нажмите кнопку **Переименовать** и введите новое имя запроса.</span><span class="sxs-lookup"><span data-stu-id="93219-127">Or select **Rename** and provide a new name for the query.</span></span>
 
-## <a name="create-a-direct-link-to-a-query"></a><span data-ttu-id="eb6ef-127">Создание прямой ссылки на запрос</span><span class="sxs-lookup"><span data-stu-id="eb6ef-127">Create a direct link to a query</span></span>
-<span data-ttu-id="eb6ef-128">Чтобы создать ссылку, открываемую запрос непосредственно в редакторе предварительного запроса охоты, завершите запрос и выберите **ссылку Share.**</span><span class="sxs-lookup"><span data-stu-id="eb6ef-128">To generate a link that opens your query directly in the advanced hunting query editor, finalize your query and select **Share link**.</span></span>
+## <a name="create-a-direct-link-to-a-query"></a><span data-ttu-id="93219-128">Создание прямой ссылки на запрос</span><span class="sxs-lookup"><span data-stu-id="93219-128">Create a direct link to a query</span></span>
+<span data-ttu-id="93219-129">Чтобы создать ссылку, открываемую запрос непосредственно в редакторе предварительного запроса охоты, завершите запрос и выберите **ссылку Share.**</span><span class="sxs-lookup"><span data-stu-id="93219-129">To generate a link that opens your query directly in the advanced hunting query editor, finalize your query and select **Share link**.</span></span>
 
-## <a name="access-queries-in-the-github-repository"></a><span data-ttu-id="eb6ef-129">Доступ к запросам в репозитории GitHub</span><span class="sxs-lookup"><span data-stu-id="eb6ef-129">Access queries in the GitHub repository</span></span>  
-<span data-ttu-id="eb6ef-130">Исследователи безопасности Майкрософт часто делятся запросами расширенной охоты в [специальном общедоступном репозитории в GitHub](https://aka.ms/hunting-queries).</span><span class="sxs-lookup"><span data-stu-id="eb6ef-130">Microsoft security researchers regularly share advanced hunting queries in a [designated public repository on GitHub](https://aka.ms/hunting-queries).</span></span> <span data-ttu-id="eb6ef-131">Этот репозиторий открыт для участия.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-131">This repository is open to contributions.</span></span> <span data-ttu-id="eb6ef-132">Чтобы внести свой вклад, [бесплатно присоединяйтесь к GitHub](https://github.com/).</span><span class="sxs-lookup"><span data-stu-id="eb6ef-132">To contribute, [join GitHub for free](https://github.com/).</span></span>
+## <a name="access-queries-in-the-github-repository"></a><span data-ttu-id="93219-130">Доступ к запросам в репозитории GitHub</span><span class="sxs-lookup"><span data-stu-id="93219-130">Access queries in the GitHub repository</span></span>  
+<span data-ttu-id="93219-131">Исследователи безопасности Майкрософт часто делятся запросами расширенной охоты в [специальном общедоступном репозитории в GitHub](https://aka.ms/hunting-queries).</span><span class="sxs-lookup"><span data-stu-id="93219-131">Microsoft security researchers regularly share advanced hunting queries in a [designated public repository on GitHub](https://aka.ms/hunting-queries).</span></span> <span data-ttu-id="93219-132">Этот репозиторий открыт для участия.</span><span class="sxs-lookup"><span data-stu-id="93219-132">This repository is open to contributions.</span></span> <span data-ttu-id="93219-133">Чтобы внести свой вклад, [бесплатно присоединяйтесь к GitHub](https://github.com/).</span><span class="sxs-lookup"><span data-stu-id="93219-133">To contribute, [join GitHub for free](https://github.com/).</span></span>
 
 >[!tip]
-><span data-ttu-id="eb6ef-133">Исследователи безопасности Майкрософт также предоставляют запросы расширенной охоты, которые можно использовать для обнаружения действий и индикаторов, связанных с возникающими угрозами.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-133">Microsoft security researchers also provide advanced hunting queries that you can use to locate activities and indicators associated with emerging threats.</span></span> <span data-ttu-id="eb6ef-134">Эти запросы предоставляются в рамках отчетов [аналитики угроз](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) в Центре безопасности в Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="eb6ef-134">These queries are provided as part of the [threat analytics](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) reports in Microsoft Defender Security Center.</span></span>
+><span data-ttu-id="93219-134">Исследователи безопасности Майкрософт также предоставляют запросы расширенной охоты, которые можно использовать для обнаружения действий и индикаторов, связанных с возникающими угрозами.</span><span class="sxs-lookup"><span data-stu-id="93219-134">Microsoft security researchers also provide advanced hunting queries that you can use to locate activities and indicators associated with emerging threats.</span></span> <span data-ttu-id="93219-135">Эти запросы предоставляются в рамках отчетов [аналитики угроз](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) в Центре безопасности в Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="93219-135">These queries are provided as part of the [threat analytics](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) reports in Microsoft Defender Security Center.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="eb6ef-135">См. также</span><span class="sxs-lookup"><span data-stu-id="eb6ef-135">Related topics</span></span>
-- [<span data-ttu-id="eb6ef-136">Обзор расширенной охоты</span><span class="sxs-lookup"><span data-stu-id="eb6ef-136">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="eb6ef-137">Изучение языка запросов</span><span class="sxs-lookup"><span data-stu-id="eb6ef-137">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="eb6ef-138">Работа с результатами запросов</span><span class="sxs-lookup"><span data-stu-id="eb6ef-138">Work with query results</span></span>](advanced-hunting-query-results.md)
-- [<span data-ttu-id="eb6ef-139">Охота на различных устройствах, в письмах, приложениях и удостоверениях</span><span class="sxs-lookup"><span data-stu-id="eb6ef-139">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="eb6ef-140">Сведения о схеме</span><span class="sxs-lookup"><span data-stu-id="eb6ef-140">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="eb6ef-141">Применение рекомендаций по использованию запросов</span><span class="sxs-lookup"><span data-stu-id="eb6ef-141">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+>[!NOTE]
+><span data-ttu-id="93219-136">Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки.</span><span class="sxs-lookup"><span data-stu-id="93219-136">Some tables in this article might not be available in Microsoft Defender for Endpoint.</span></span> <span data-ttu-id="93219-137">[Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных.</span><span class="sxs-lookup"><span data-stu-id="93219-137">[Turn on Microsoft 365 Defender](m365d-enable.md) to hunt for threats using more data sources.</span></span> <span data-ttu-id="93219-138">Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .</span><span class="sxs-lookup"><span data-stu-id="93219-138">You can move your advanced hunting workflows from Microsoft Defender for Endpoint to Microsoft 365 Defender by following the steps in [Migrate advanced hunting queries from Microsoft Defender for Endpoint](advanced-hunting-migrate-from-mde.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="93219-139">Похожие темы</span><span class="sxs-lookup"><span data-stu-id="93219-139">Related topics</span></span>
+- [<span data-ttu-id="93219-140">Обзор расширенной охоты</span><span class="sxs-lookup"><span data-stu-id="93219-140">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="93219-141">Изучение языка запросов</span><span class="sxs-lookup"><span data-stu-id="93219-141">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="93219-142">Работа с результатами запросов</span><span class="sxs-lookup"><span data-stu-id="93219-142">Work with query results</span></span>](advanced-hunting-query-results.md)
+- [<span data-ttu-id="93219-143">Охота на различных устройствах, в письмах, приложениях и удостоверениях</span><span class="sxs-lookup"><span data-stu-id="93219-143">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="93219-144">Сведения о схеме</span><span class="sxs-lookup"><span data-stu-id="93219-144">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="93219-145">Применение рекомендаций по использованию запросов</span><span class="sxs-lookup"><span data-stu-id="93219-145">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
