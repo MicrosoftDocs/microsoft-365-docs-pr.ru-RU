@@ -20,16 +20,21 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d8d165f39c45bd235800dc951d50934b47dd7ff5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 32d50103c6476a89f24568edeea75a206e37e227
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935453"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952684"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Обработка ошибок, совершенных в области охоты
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
+**Область применения:**
+- Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 
 Расширенный поиск отображает ошибки, чтобы уведомить о ошибках синтаксиса и всякий раз, когда запросы поразят заданные квоты и [параметры использования.](advanced-hunting-limits.md) В приведенной ниже таблице приведены советы по устранению ошибок или их устранению.
@@ -43,6 +48,8 @@ ms.locfileid: "51935453"
 | Превышено ограничение размера результатов  | Совокупный размер набора результатов для запроса превысил максимальный размер. Эта ошибка может возникнуть, если набор результатов настолько велик, что порезка с ограничением в 10 000 записей не может уменьшить его до приемлемого размера. Результаты с несколькими столбцами с большим содержимым с большей вероятностью будут влиять на эту ошибку. | [Оптимизация запроса](advanced-hunting-best-practices.md) | `Result size limit exceeded. Use "summarize" to aggregate results, "project" to drop uninteresting columns, or "take" to truncate results.` |
 | Чрезмерное потребление ресурсов | Запрос потреблял чрезмерное количество ресурсов и был остановлен до завершения. В некоторых случаях передовая охота определяет конкретного оператора, который не был оптимизирован. | [Оптимизация запроса](advanced-hunting-best-practices.md) | -`Query stopped due to excessive resource consumption.`<br>-`Query stopped. Adjust use of the <operator name> operator to avoid excessive resource consumption.` |
 | Неизвестные ошибки | Запрос не удалось из-за неизвестной причины. | Попробуйте снова запускать запрос. Свяжитесь с Корпорацией Майкрософт через портал, если запросы продолжают возвращать неизвестные ошибки. | `An unexpected error occurred during query execution. Please try again in a few minutes.`
+
+
 
 ## <a name="related-topics"></a>Похожие темы
 - [Передовые методы охоты](advanced-hunting-best-practices.md)

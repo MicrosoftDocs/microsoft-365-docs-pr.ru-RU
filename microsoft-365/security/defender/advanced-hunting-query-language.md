@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e7bae0577b83deed26b0a3beb0f16efc80bb5846
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 14287fb6dea9dda8accb580246b383f0427c3b3f
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935789"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952624"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935789"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 Расширенный поиск основывается на [языке запросов Kusto](/azure/kusto/query/). Вы можете использовать операторы Kusto и операторы для создания запросов, которые размещают сведения в специализированной [схеме.](advanced-hunting-schema-tables.md) Чтобы лучше понять эти концепции, запустите ваш первый запрос.
 
@@ -181,7 +182,10 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 Дополнительные сведения о языке запросов Kusto и поддерживаемых операторах см. в статье [Документация по языку запросов Kusto](/azure/kusto/query/).
 
-## <a name="related-topics"></a>См. также
+>[!NOTE]
+>Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
+
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

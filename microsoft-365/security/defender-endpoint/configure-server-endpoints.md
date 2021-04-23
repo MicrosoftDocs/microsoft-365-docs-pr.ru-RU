@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4eea2931196c192620812c1609c506e1fb99093d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 17aca5fb388aef26504902ee63b22410420c8827
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932957"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952492"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -194,7 +194,7 @@ Defender for Endpoint может интегрироваться с Azure Defende
 
 В эту интеграцию включены следующие возможности:
 
-- Автоматическая бортовая запись — датчик Defender для конечной точки автоматически включен на Серверах Windows, которые включены в Azure Defender. Дополнительные сведения о onboarding Azure Defender см. в таблице [Onboarding to Azure Defender Standard for enhanced security.](https://docs.microsoft.com/azure/security-center/security-center-onboarding)
+- Автоматическая бортовая запись — датчик Defender для конечной точки автоматически включен на Серверах Windows, которые включены в Azure Defender. Дополнительные сведения о встроенной платформе Azure Defender см. в таблице Использование интегрированной лицензии [Microsoft Defender для конечных точек.](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
 
     > [!NOTE]
     > Интеграция Между Azure Defender для серверов и Microsoft Defender для конечной точки была расширена для поддержки [Windows Server 2019 и Windows Virtual Desktop (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
@@ -293,7 +293,7 @@ Defender for Endpoint может интегрироваться с Azure Defende
     > [!NOTE]
     > В этой статье предполагается, что вы используете серверы на основе x64 (MMA Agent .exe x64 [New SHA-2 compliant version)](https://go.microsoft.com/fwlink/?LinkId=828603)
 
-**Шаг-2. Создание имени файла DeployMMA.cmd (с помощью блокнота)** Добавьте в файл cmd следующие строки. Обратите внимание, что вам потребуется ваш WORKSPACE ID и KEY.
+**Шаг-2. Создание имени файла DeployMMA.cmd (с помощью блокнота)** Добавьте в файл cmd следующие строки. Обратите внимание, что вам потребуется свой ID и KEY WORKSPACE.
 
 ```dos
 @echo off 
@@ -338,12 +338,13 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
 
 :::image type="content" source="images/startupprops.png" alt-text="свойства запуска":::
 
-Имя файла для запуска здесь c:\windows\MMA\DeployMMA.cmd После перезапуска сервера в процессе запуска он установит обновление для работы с клиентами и диагностическую телеметрию КБ, а затем установит MMAAgent, задав код рабочего пространства и ключ, и сервер будет на борту.
+Имя файла, который будет работать здесь, — c:\windows\MMA\DeployMMA.cmd.
+После перезапуска сервера в процессе запуска он установит обновление для работы с клиентами и диагностическую телеметрию КБ, а затем установит агента MMA, задав при этом ID рабочего пространства и ключ, и сервер будет на борту.
 
 Вы также можете  использовать немедленную задачу для запуска deployMMA.cmd, если вы не хотите перезагрузки всех серверов.
 Это можно сделать в два этапа. Сначала **создайте файлы** и папку в GPO — дайте системе время для обеспечения того, чтобы GPO была применена, и все серверы имеют файлы установки. Затем добавьте немедленную задачу. Это приведет к такому же результату, не требуя перезагрузки.
 
-Так как сценарий имеет метод выхода и не будет повторно запускаться, если ммА установлен, вы также можете использовать ежедневную запланированную задачу для достижения того же результата. Как и политика соответствия требованиям диспетчера конфигурации, она будет ежедневно проверять, чтобы убедиться, что ммА присутствует.
+Так как сценарий имеет метод выхода и не будет повторно запускаться, если ммА установлен, вы также можете использовать ежедневную запланированную задачу для достижения того же результата. Как и политика соответствия требованиям диспетчера конфигурации, она будет проверяться ежедневно, чтобы убедиться, что ммА присутствует.
 
 :::image type="content" source="images/schtask.png" alt-text="задача расписания":::
 

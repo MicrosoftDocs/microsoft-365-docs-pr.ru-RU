@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bf635ed03cb0d99d54fc94b622bf244447b32a80
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 748b3534ef1f6ca5736667fc3910bb9fa96d23ff
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935705"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952540"
 ---
 # <a name="custom-detections-overview"></a>Обзор настраиваемых обнаружений
 
@@ -32,6 +32,7 @@ ms.locfileid: "51935705"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 С помощью настраиваемого обнаружения можно активно отслеживать различные события и состояния системы и реагировать на них, в том числе заподозрить нарушения и неправильные конечные точки. Это делается возможным благодаря настраиваемым правилам обнаружения, которые автоматически запускают оповещения, а также действия реагирования.
 

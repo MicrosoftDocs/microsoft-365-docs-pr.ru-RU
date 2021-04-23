@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0c088375cd784b411fdce417d77b1ea176bcee26
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 15eebbba102640a92f9c7712194aaef685a96cfb
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932909"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952612"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Принять меры по расширенным результатам запроса на охоту
 
@@ -34,6 +34,7 @@ ms.locfileid: "51932909"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -79,6 +80,9 @@ ms.locfileid: "51932909"
 ## <a name="review-actions-taken"></a>Проверка принятых действий
 Каждое действие индивидуально записывают в [центре](m365d-action-center.md) действий в статье **История** центра действий  >   [(security.microsoft.com/action-center/history).](https://security.microsoft.com/action-center/history) Перейдите в центр действий, чтобы проверить состояние каждого действия.
  
+>[!NOTE]
+>Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
+
 ## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)

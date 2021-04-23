@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 51d33ea9a372b5bfe017f4c3544e0d6413d53001
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a78f37d8c1fed1063095e25f19136f0362f17db7
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935837"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952660"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Быстрая охота за сведениями о сущности или событиях с помощью go hunt
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935837"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 С помощью *действия go hunt* можно быстро исследовать события и различные типы сущности с помощью мощных расширенных возможностей охоты на основе запросов. [](advanced-hunting-overview.md) Это действие автоматически запускает расширенный запрос на поиск соответствующих сведений о выбранном событии или объекте.
 
@@ -106,6 +107,9 @@ Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 Помимо изменения запроса, чтобы получить более релевантные результаты, вы также можете:
 - [Просмотр результатов в качестве диаграмм](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
 - [Создание настраиваемой нормы обнаружения](custom-detection-rules.md)
+
+>[!NOTE]
+>Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
 
 ## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)

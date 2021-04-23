@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Узнайте, как начать сбор данных для клиента с помощью приложения шаблона Microsoft 365 Use Analytics в Power BI.
-ms.openlocfilehash: 7c92fb643f9be6b5f1474f08df659c4f488a9a41
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d9cadcc8258478fd1d5dbc0d9ae6bf4e814a8435
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579066"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957519"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Включение аналитики использования Microsoft 365
 
@@ -53,11 +53,11 @@ ms.locfileid: "51579066"
   
 Дополнительные [сведения см. в дополнительных](../add-users/about-admin-roles.md) сведениях о ролях администратора. 
   
-1. В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы. 
+1. В центре администрирования перейдите на вкладку  \> **Settings Org** \> **Services Services.** 
     
-2. На странице **Использование** найдите карточку аналитики использования **Microsoft 365** и выберите **Начало работы.**
+2. На **вкладке Services** выберите  **Отчеты**.
     
-3. На открываемой панели Отчеты установите Make **data available to Microsoft 365 use analytics for Power BI** to **On** \> **Save.** 
+3. На открываемой панели Отчеты установите Make **report data available to Microsoft 365 use analytics for Power BI** to **On** \> **Save.** 
   
 Процесс сбора данных будет завершен через 2-48 часов в зависимости от размера клиента. После завершения сбора данных будет включена кнопка **Go to Power BI** (более не серая). 
     

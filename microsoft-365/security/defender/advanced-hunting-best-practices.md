@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7db7607d3ed9d6f1b215fb842d5b6dd2415a770a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: abc6b561c2fca8106397b1656432628c983e2ece
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934901"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952696"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -263,6 +263,9 @@ SHA256,ThreatTypes,DetectionMethods
 | Адреса IPv6 | [parse_ipv6()](/azure/data-explorer/kusto/query/parse-ipv6function)  | Преобразование адреса IPv4 или IPv6 в каноническую нотацию IPv6. Чтобы сравнить адреса IPv6, используйте [ipv6_compare()](/azure/data-explorer/kusto/query/ipv6-comparefunction). |
 
 Чтобы узнать обо всех поддерживаемых функциях размыва, [ознакомьтесь с функциями строк Kusto.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
+
+>[!NOTE]
+>Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
 
 ## <a name="related-topics"></a>Похожие темы
 - [Документация по языку запросов Kusto](/azure/data-explorer/kusto/query/)

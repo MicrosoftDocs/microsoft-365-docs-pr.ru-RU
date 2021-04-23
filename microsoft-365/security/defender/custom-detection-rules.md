@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bcb31b904f8e6156d644864f03143e9fc37ae34b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f37cc63c958331f7c03e09689de92c73fd06b4d4
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935717"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952564"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Создание и управление пользовательскими правилами обнаружения
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935717"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 Настраиваемые правила обнаружения — это правила, которые можно разработать и настроить с помощью [расширенных запросов](advanced-hunting-overview.md) на охоту. Эти правила позволяет активно отслеживать различные события и состояния системы, в том числе предполагаемые нарушения и неправильные конечные точки. Вы можете настроить их для запуска с регулярными интервалами, создавая оповещения и принимая ответные действия при совпадениях.
 
@@ -219,6 +220,9 @@ DeviceEvents
 
 >[!TIP]
 >Чтобы быстро просмотреть сведения и принять меры по элементу в таблице, используйте столбец выбора [&#10003;] слева от таблицы.
+
+>[!NOTE]
+>Некоторые столбцы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
 
 ## <a name="see-also"></a>См. также
 - [Обзор настраиваемых обнаружений](custom-detections-overview.md)

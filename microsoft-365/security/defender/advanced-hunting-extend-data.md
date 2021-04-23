@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 40cec28bf88445df13f78e672c4289d440b2b848
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f4b1399b77583e95b109575a9577d8b1af89e6ad
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935861"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952672"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Расширение расширенного охвата охоты с помощью правильных параметров
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935861"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 [Расширенный поиск](advanced-hunting-overview.md) зависит от данных из различных источников, включая устройства, рабочее пространство Office 365, Azure AD и Microsoft Defender for Identity. Чтобы получить наиболее исчерпывающие данные, убедитесь, что у вас есть правильные параметры в соответствующих источниках данных.
 
@@ -52,6 +53,9 @@ ms.locfileid: "51935861"
 | Data | Описание | Таблица схемы | Способ настройки |
 | --- | --- | --- | --- |
 | Контроллер домена | Данные из локального Active Directory, отправленные в Microsoft Defender для удостоверений, обогащая сведения, связанные с удостоверениями, такие как сведения об учетной записи, действия логотипа и запросы Active Directory | Несколько таблиц, включая [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)и [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [Установка сенсора Microsoft Defender для удостоверений](/azure-advanced-threat-protection/install-atp-step4)<br>- [Включим соответствующие события Windows](/azure-advanced-threat-protection/configure-event-collection) |
+
+>[!NOTE]
+>Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
 
 ## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a3885a462265368bc42c758ee5a8fd1c673ec08c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c8f25b924109823951c331fe744b548d372eaf11
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932803"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957621"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и подключения к Интернету
 
@@ -60,6 +60,7 @@ ms.locfileid: "51932803"
 
 > [!NOTE]
 > - При использовании этого параметра в Windows 10 или Windows Server 2019 рекомендуется использовать следующие (или более поздние) сборки и накопительные обновления:</br>
+> Windows 10, версия 1809 или Windows Server 2019 — https://support.microsoft.com/kb/5001384 <br>
 > Windows 10, версия 1909 — https://support.microsoft.com/kb/4601380</br>
 > Windows 10, версия 2004 — https://support.microsoft.com/kb/4601382</br>
 > Windows 10, версия 20H2 — https://support.microsoft.com/kb/4601382</br>
