@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 34ca51c066eddb65f2df0cf8a5d85732bd84a9c0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 15909684d07bac46fd42163cee545bc4752b61d4
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934373"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995013"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Настройка расширенных функций в Defender для конечной точки
 
@@ -127,6 +127,8 @@ ms.locfileid: "51934373"
 Во время некоторых видов кибератак злоумышленники пытаются отключить функции безопасности, такие как антивирусная защита, на компьютерах. Злоумышленникам нравится отключать функции безопасности, чтобы упростить доступ к данным, установить вредоносные программы или иным образом использовать данные, удостоверения и устройства.
 
 Защита от взлома блокирует антивирус Microsoft Defender и предотвращает изменения параметров безопасности с помощью приложений и методов.
+
+Эта функция доступна, если в организации используется антивирус Microsoft Defender и включена облачная защита. Дополнительные сведения см. в дополнительных сведениях: Использование технологий следующего поколения в [антивирусе Microsoft Defender с помощью облачной защиты.](cloud-protection-microsoft-defender-antivirus.md)
 
 Сохраняйте включенную защиту от взлома, чтобы предотвратить нежелательные изменения в решении безопасности и его основных функций.
 

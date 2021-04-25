@@ -8,25 +8,27 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: normal
+audience: ITPro
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b70cf96cde7d4dff8e2a4db6ce2469090dba7eb1
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ae17aa6e2cb0cefd460ef0db0730570af8c84bb8
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765615"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995037"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Управление обновлениями антивируса Microsoft Defender и применение базовых показателей
 
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
-- Антивирус Microsoft Defender
+- Антивирусная программа в Microsoft Defender
 
 Существует два типа обновлений, связанных с обновлением антивируса Microsoft Defender:
 
@@ -34,7 +36,8 @@ ms.locfileid: "51765615"
 - Обновления продукта
 
 > [!IMPORTANT]
-> Обновление антивируса Microsoft Defender имеет решающее значение для обеспечения того, чтобы устройства были оснащены новейшими технологиями и функциями, необходимыми для защиты от новых вредоносных программ и методов атак.  
+> Обновление антивируса Microsoft Defender имеет решающее значение для обеспечения того, чтобы устройства были оснащены новейшими технологиями и функциями, необходимыми для защиты от новых вредоносных программ и методов атак.
+> 
 > Не забудьте обновить антивирусную защиту, даже если антивирус Microsoft Defender работает в [пассивном режиме.](./microsoft-defender-antivirus-compatibility.md)
 > 
 > Чтобы увидеть наиболее актуальные даты движка, платформы и подписи, посетите обновления аналитики безопасности для антивируса Microsoft Defender и других [антивирусных программ Майкрософт.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
@@ -147,7 +150,7 @@ ms.locfileid: "51765615"
 &ensp;Выпущено: **03 декабря 2020 г.**  
 &ensp;Платформа: **4.18.2011.6**  
 &ensp;Двигатель: **1.1.17700.4**  
-&ensp;Этап поддержки: **безопасность и критически важные обновления**
+&ensp;Этап поддержки: **техническая поддержка обновления (только)**
     
 ### <a name="whats-new"></a>Новые возможности
 
@@ -163,7 +166,7 @@ ms.locfileid: "51765615"
 &ensp;Выпущено: **29 октября 2020 г.**  
 &ensp;Платформа: **4.18.2010.7**  
 &ensp;Двигатель: **1.1.17600.5**  
-&ensp;Этап поддержки: **безопасность и критически важные обновления**
+&ensp;Этап поддержки: **техническая поддержка обновления (только)**
     
 ### <a name="whats-new"></a>Новые возможности
 

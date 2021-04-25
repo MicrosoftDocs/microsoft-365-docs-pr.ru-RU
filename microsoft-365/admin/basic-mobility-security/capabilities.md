@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Базовая мобильность и безопасность могут помочь вам обеспечить безопасность и управление мобильными устройствами.
-ms.openlocfilehash: 468f06edf16eb6ea00fd4d26c716bc145474dd25
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 60de4e3f36427a69ecf0bf52e5dfd34f089991f3
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904280"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994977"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>Возможности Basic Mobility + Security
 
@@ -47,11 +47,9 @@ Basic Mobility and Security позволяет обеспечить безопа
 
 <sup>1</sup> Управление доступом для устройств Windows 8.1 RT ограничено Exchange ActiveSync.
 
-<sup>2</sup> Управление доступом для устройств Windows 8.1 RT ограничено Exchange ActiveSync.
-Для управления доступом для Windows 10 требуется подписка, которая включает Azure AD Premium, и устройство должно быть присоединено к Azure Active Directory.
+<sup>2</sup> Для управления доступом для Windows 10 требуется подписка, которая включает Azure AD Premium, и устройство должно быть присоединено к Azure Active Directory.
 
-<sup>3</sup> Управление доступом для устройств Windows 8.1 RT ограничено Exchange ActiveSync.
-После июня 2020 г. версии Android позднее 9 не могут управлять настройками паролей, за исключением устройств Samsung Knox.
+<sup>3</sup> После июня 2020 г. версии Android позднее 9 не могут управлять настройками паролей, за исключением устройств Samsung Knox.
 
 >[!NOTE]
 >Устройства, уже зарегистрированные с более ранними версиями ОС, продолжают функционировать, хотя возможности могут изменяться без уведомления.
@@ -62,7 +60,7 @@ Basic Mobility and Security позволяет обеспечить безопа
 
 Поддерживаемые приложения для различных типов мобильных устройств в следующей таблице побуждают пользователей зарегистрироваться в Basic Mobility and Security, где существует новая политика управления мобильными устройствами, применяемая к устройству пользователя, и пользователь еще не зарегистрировал устройство. Если устройство пользователя не соответствует политике, в зависимости от того, как вы настроили политику, пользователю может быть заблокирован доступ к ресурсам Microsoft 365 в этих приложениях, или у них может быть доступ, но Microsoft 365 сообщает о нарушении политики.
 
-|**Продукт**|**iOS 10.0 или более поздней**|**Android 5.0 или более поздний**|
+|**Product**|**iOS 10.0 или более поздней**|**Android 5.0 или более поздний**|
 |:-----|:-----|:-----|
 |**Exchange** Exchange ActiveSync включает встроенные приложения электронной почты и сторонние приложения, такие как TouchDown, которые Exchange ActiveSync версии 14.1 или более поздней версии. |Почта |Электронная почта |
 |**Office**   и  **OneDrive для бизнеса** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**На телефонах и планшетах:**<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **Только на телефонах** <br/> Office Mobile |
@@ -240,7 +238,7 @@ Basic Mobility and Security позволяет обеспечить безопа
 
 Дополнительные сведения см. в [приложении Wipe a mobile device in Basic Mobility and Security.](wipe-mobile-device.md)
 
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Похожие темы
 
 [Обзор базовой мобильности и безопасности для Microsoft 365](overview.md)
 

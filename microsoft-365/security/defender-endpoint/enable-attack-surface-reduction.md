@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 7aeda679d5ce350ef64a2758359390adc4a280f0
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: df77a3d6c1f66882600a200b83b3b2585473f42b
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939246"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995073"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Включить правила сокращения направлений атак
 
@@ -33,27 +33,23 @@ ms.locfileid: "51939246"
 > [!TIP]
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-[Правила уменьшения поверхности](attack-surface-reduction.md) атаки (правила ASR) помогают предотвратить действия, которые вредоносные программы часто используют для компрометации устройств и сетей. Вы можете установить правила ASR для устройств, работающих с любыми из следующих выпусков и версий Windows:
-- Windows 10 Pro, [версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
-- Windows 10 Enterprise, [версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
-- Windows Server, [версия 1803 (полугодовой канал)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+[Правила уменьшения поверхности](attack-surface-reduction.md) атаки (правила ASR) помогают предотвратить действия, которые вредоносные программы часто используют для компрометации устройств и сетей.
 
 **Требования** Вы можете установить правила уменьшения поверхности атаки для устройств, которые работают с любыми из следующих выпусков и версий Windows:
 
-- Windows 10 Pro, версия 1709 или более поздней версии
-- Windows 10 Enterprise, версия 1709 или более поздней версии
-- Windows Server, версия 1803 (полугодовой канал) или более поздней версии
-- Windows Server 2019
+- Windows 10 Pro, [версия 1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- Windows 10 Enterprise, [версия 1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- Windows Server, [версия 1803 (полугодовой канал)](/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5, если у вас есть Windows E5, вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в Defender для конечной точки, а также возможности отчетности и конфигурации в центре безопасности Microsoft 365. Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы просмотра событий и антивирусных журналов Microsoft Defender для просмотра событий правил уменьшения поверхности атаки.
+Хотя правила уменьшения поверхности атаки не требуют лицензии [Windows E5,](/windows/deployment/deploy-enterprise-licenses)если у вас есть Windows E5, вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)конечной точки, а также возможности отчетности и конфигурации в центре безопасности [Microsoft 365](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true). Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы просмотра событий и антивирусных журналов Microsoft Defender для просмотра событий правил уменьшения поверхности атаки.
 
 Каждое правило ASR содержит один из четырех параметров:
 
 - **Не настроен:** отключить правило ASR
 - **Блок**: Включить правило ASR
 - **Аудит.** Оцените, как правило ASR повлияет на организацию, если включено
-- **Предупреждение.** Включить правило ASR, но обойти блокировку конечному пользователю
+- **Предупреждение.** Включить правило ASR, но разрешить конечному пользователю обойти блокировку
 
 > [!IMPORTANT]
 > В настоящее время режим предупреждения не поддерживается для трех правил ASR при настройке правил ASR в Microsoft Endpoint Manager (MEM). Дополнительные дополнительные информации см. [в том, как не](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)поддерживается режим предупреждения.

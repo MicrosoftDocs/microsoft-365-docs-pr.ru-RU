@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 5175d630dd5d80b62451b3a1eafc4c2f6350ac32
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 71c2391361c645d26cdaddff0bff86796da50391
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876341"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995085"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>Устранение неполадок, связанных с защитой в режиме реального времени
 
@@ -33,7 +33,7 @@ ms.locfileid: "51876341"
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
  
-Если у вашей системы высокие показатели использования ЦП или производительности, связанные со службой защиты в режиме реального времени в Microsoft Defender для конечной точки, вы можете отправить билет в службу поддержки Майкрософт. Выполните действия в [области сбора диагностических данных Microsoft Defender AV.](/collect-diagnostic-data.md)
+Если у вашей системы высокие показатели использования ЦП или производительности, связанные со службой защиты в режиме реального времени в Microsoft Defender для конечной точки, вы можете отправить билет в службу поддержки Майкрософт. Выполните действия по [сбору диагностических данных антивируса Microsoft Defender.](collect-diagnostic-data.md)
 
 В качестве администратора вы также можете устранить эти проблемы самостоятельно. 
 
@@ -132,7 +132,6 @@ Process Monitor (ProcMon) — это расширенный инструмент
  
     >[!TIP] 
     >Подождите, пока проблема будет полностью воспроизведена, а затем обратите внимание на время начала трассировки.
-    
 
 10. После двух-четырех минут обработки при высоком условии использования ЦП остановите захват, выбрав значок увеличительного стекла.
 
@@ -250,7 +249,7 @@ WPR является частью набора windows Assessment and Deployment
 
 1. Скачайте профиль анализа Microsoft Defender для **[конечной](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** точки для отслеживания производительности в файл с именем в локальном `WD.wprp` каталоге, например `C:\traces` .
 
-3. Щелкните правой кнопкой кнопку **Пуск** меню и выберите **Windows Powershell (Admin)** или Командный запрос **(Администратор),** чтобы открыть окно командной команды администратора.
+3. Щелкните правой кнопкой кнопку **Пуск** меню и выберите Windows PowerShell **(Администратор)** или Командный запрос **(Администратор),** чтобы открыть окно командной команды администратора.
 
 4. Когда появится диалоговое окно управления учетной записью пользователя, выберите **Да**.
 
@@ -280,5 +279,5 @@ WPR является частью набора windows Assessment and Deployment
 
 ## <a name="see-also"></a>См. также
 
-- [Сбор диагностических данных Microsoft Defender AV](collect-diagnostic-data.md)
+- [Сбор диагностических данных антивируса Microsoft Defender](collect-diagnostic-data.md)
 - [Настройка и проверка исключений для проверки антивирусных программ Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
