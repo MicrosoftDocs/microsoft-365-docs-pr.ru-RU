@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Настройка понимания содержимого в Project Cortex
-ms.openlocfilehash: cc6fbfbfc130cc6e64b5d7c30e0a9db5f39036ac
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2f9fd4e035152a127f9f1c254f4c489a6ca4c976
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051571"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994710"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
@@ -59,7 +59,9 @@ ms.locfileid: "51051571"
 
 Вы можете оценить мощность AI Builder, которая подходит именно вам, с помощью [калькулятора AI Builder](https://powerapps.microsoft.com/ai-builder-calculator).
 
-Чтобы проверить титры и использование, перейдите в [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com/resources/capacity).
+Если вы планируете использовать настраиваемую среду Power Platform, необходимо [выделить кредиты для этой среды](/power-platform/admin/capacity-add-on).
+
+Чтобы проверить кредиты и использование, перейдите в [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com/resources/capacity).
 
 ## <a name="to-set-up-sharepoint-syntex"></a>Чтобы настроить SharePoint Syntex, выполните следующие действия:
 
@@ -80,11 +82,21 @@ ms.locfileid: "51051571"
       - **Не в библиотеках SharePoint**, если вы не хотите, чтобы он был доступен для всех сайтов (после настройки вы можете изменить эту настройку).
 
    > [!div class="mx-imgBorder"]
-   > ![Настройка обработки форм](../media/content-understanding/admin-configforms.png)
+   > ![Настройка параметров сайта обработки форм](../media/content-understanding/admin-configforms.png)
 
    > [!Note]
    > Удаление сайта после его включения, не влияет на существующие модели, применяемые к библиотекам на этом сайте, или на возможность применять модели понимания документов к библиотеке. 
     
+    Если настроено несколько сред Power Platform, можно выбрать одну из них для обработки форм. (Этот параметр не будет отображаться, если у вас только одна среда.)
+
+    ![Настройка параметров Power Platform для обработки форм](../media/content-understanding/setup-power-platform-env.png)
+
+    Для **среды Power Platform** можно выбрать:
+    - **Использование стандартной среды**, чтобы использовать среду Power Platform по умолчанию.
+    - **Использование настраиваемой среды**, чтобы использовать настраиваемую среду. Выберите в списке среду для использования. Перед созданием моделей обработки форм необходимо установить приложение *AI Builder для Project Cortex* в этой среде и выделить ему кредиты AI Builder.
+
+    Нажмите **Далее**.
+
 5. На странице **Создание Центра содержимого** можно создать сайт Центра содержимого SharePoint, на котором пользователи смогут создавать и управлять моделями понимания документов.
 
     1. В поле **Имя сайта** введите имя, которое вы хотите дать сайту Центра содержимого.
@@ -126,3 +138,5 @@ ms.locfileid: "51051571"
 [Обзор модели обработки форм](/ai-builder/form-processing-model-overview)
 
 [Пошаговые инструкции: Создание модели понимания документа (видео)](https://www.youtube.com/watch?v=DymSHObD-bg)
+
+[Создание сред и управление ими в Центре администрирования Power Platform](/power-platform/admin/create-environment)
