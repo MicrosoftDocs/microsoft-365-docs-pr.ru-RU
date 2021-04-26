@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 86d1ac6f816fae667e64ac4806db40d6e8e002ca
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 87c0b1aace9d1d3950fef1f8375b4668aeaaef21
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551288"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024077"
 ---
 # <a name="payment-information-for-finland"></a>Сведения об оплате для Финляндии
 
@@ -42,3 +42,5 @@ ms.locfileid: "50551288"
 Код IBAN: IE97CITI99005170000127\
 Номер учетной записи: 70000127\
 Имя учетной записи: MICROSOFT
+
+Счета, выдаваемых в локальной дочерней корпорации Майкрософт, выдаются со стандартной ставкой НДС/налога на продажу/GST и считаются внутренним предложением услуг для целей НДС/Налог с продаж/GST.

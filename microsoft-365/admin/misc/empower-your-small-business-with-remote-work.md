@@ -15,12 +15,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Узнайте последние сведения, советы, ресурсы и рекомендации по удаленной работе для предприятий с помощью Microsoft 365.
-ms.openlocfilehash: 3ef8bb3527e6be258eda8d745d841e8bd81cdd6c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5bdff59f3d07c59951c6da87d7b28432fb7c5878
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860587"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023741"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>Расширение возможностей малого бизнеса с помощью удаленной работы
 
@@ -37,9 +37,9 @@ ms.locfileid: "51860587"
 
 В свете вспышки COVID-19 (новый коронавирус) многие владельцы бизнеса находятся с полностью удаленным штатом работы. Вот что можно сделать, чтобы сделать переход на удаленную работу безопасной, безопасной и продуктивной.
 
-Дополнительные сведения см. в [сайте Начало работы с Microsoft Teams в вашем малом бизнесе.](https://support.microsoft.com/office/get-started-with-microsoft-teams-in-your-small-business-184f1aba-2f91-43f0-86e1-9fae607e24f6)
+Дополнительные сведения см. в [сайте Начало работы с Microsoft Teams в вашем малом бизнесе.](../../business-video/get-started-teams-small-business.md)
 
-Уже есть подписка, но нужно настроить? См. [в рубке Microsoft 365 для малого бизнеса.](https://support.microsoft.com/office/set-up-your-small-business-6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+Уже есть подписка, но нужно настроить? См. [в рубке Microsoft 365 для малого бизнеса.](../../business-video/index.yml)
 
 ## <a name="connect-with-employees-and-customers"></a>Связь с сотрудниками и клиентами
 
@@ -49,19 +49,19 @@ ms.locfileid: "51860587"
 
 Хост аудио, видео и веб-встречи с сотрудниками, клиентами или партнерами через Microsoft Teams.
 
-Дополнительные сведения см. в [сайте Host online meetings](https://support.microsoft.com/topic/host-online-meetings-for-your-business-d5101f5c-30e3-4097-bb10-6d2fdeb9cf53) and [Chat with employees and customers.](https://support.microsoft.com/office/chat-with-employees-and-customers-65748808-a403-462c-a6e1-b169e5bc6c92)
+Дополнительные сведения см. в [сайте Host online meetings](../../business-video/start-and-pin-chats.md) and [Chat with employees and customers.](https://support.microsoft.com/office/chat-with-employees-and-customers-65748808-a403-462c-a6e1-b169e5bc6c92)
 
 ### <a name="store-and-share-files"></a>Хранение и совместное хранение файлов
 
 Поместите бизнес-документы в облако и делитесь ими безопасно как внутри, так и извне.
 
-Дополнительные сведения см. в разделе Обзор общего доступа к [бизнес-файлам](https://support.microsoft.com/topic/share-your-business-files-overview-6725104a-6df7-4778-99c4-c06217dffecc) и отправки и общего доступа к [файлам.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
+Дополнительные сведения см. в разделе Обзор общего доступа к [бизнес-файлам](../../business-video/overview-file-sharing.md) и отправки и общего доступа к [файлам.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
 
 ### <a name="collaborate-with-customers"></a>Сотрудничество с клиентами
 
 Пригласите сотрудников и клиентов в группу, чтобы вы могли напрямую работать с ними для координации и совместной работы в одном месте.
 
-Дополнительные сведения см. в [дополнительных сведениях: Создание группы и](https://support.microsoft.com/office/create-a-team-with-guests-11fbb083-52ee-434d-8c6e-63711fdafac7) [включить гостевой доступ.](https://docs.microsoft.com/MicrosoftTeams/guest-joins)
+Дополнительные сведения см. в [дополнительных сведениях: Создание группы и](../../business-video/team-with-guests.md) [включить гостевой доступ.](/MicrosoftTeams/guest-access)
 
 ## <a name="manage-and-secure-your-business-to-run-remotely"></a>Управление и защита бизнеса для удаленного запуска
 
@@ -71,13 +71,13 @@ ms.locfileid: "51860587"
 
 Для защиты данных и устройств используйте многофакторную проверку подлинности.
 
-Дополнительные сведения см. в [дополнительных сведениях, включив многофакторную проверку подлинности.](https://support.microsoft.com/office/secure-employee-accounts-with-mfa-in-microsoft-365-business-e12187b8-216a-4490-9e3b-df34a06fb787)
+Дополнительные сведения см. в [дополнительных сведениях, включив многофакторную проверку подлинности.](../../business-video/turn-on-mfa.md)
 
 ### <a name="secure-your-devices"></a>Защита устройств
 
 Удаленное управление компьютерами и телефонами и обеспечение их защиты и даты. Требуется Microsoft 365 Бизнес.
 
-Дополнительные сведения см. в см. в ["Управление устройствами".](https://support.microsoft.com/office/manage-policies-for-windows-10-pcs-5b5aec9e-e267-463a-bc39-54753375e579)
+Дополнительные сведения см. в см. в ["Управление устройствами".](../../business-video/secure-win-10-pro-devices.md)
 
 ### <a name="more-for-admins-and-partners"></a>Дополнительные для администраторов и партнеров
 

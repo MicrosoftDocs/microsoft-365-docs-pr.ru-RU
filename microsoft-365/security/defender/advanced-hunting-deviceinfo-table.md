@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e3686099606ec1cdab756bd4991cf61289299b43
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f97947c2c9f02720facae4f0c3c29ff702416261
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934889"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023133"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -34,6 +34,7 @@ ms.locfileid: "51934889"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 
 
@@ -47,18 +48,18 @@ ms.locfileid: "51934889"
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `ClientVersion` | string | Версия агента конечной точки или датчика, запущенного на компьютере |
-| `PublicIP` | Строка | Общедоступный IP-адрес, используемый бортовой машиной для подключения к службе Microsoft Defender для конечных точек. Это может быть IP-адрес самой машины, устройство NAT или прокси-сервер |
+| `PublicIP` | String | Общедоступный IP-адрес, используемый бортовой машиной для подключения к службе Microsoft Defender для конечных точек. Это может быть IP-адрес самой машины, устройство NAT или прокси-сервер |
 | `OSArchitecture` | string | Архитектура операционной системы, используемой на компьютере |
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Это указывает на определенные операционные системы, в том числе варианты в одной семье, например Windows 10 и Windows 7. |
-| `OSBuild` | Строка | Сборка версии операционной системы, запущенной на компьютере |
+| `OSBuild` | String | Сборка версии операционной системы, запущенной на компьютере |
 | `IsAzureADJoined` | boolean | Индикатор Boolean о том, присоединяется ли машина к Azure Active Directory |
-| `AadObjectId` | Строка | Уникальный идентификатор устройства в Azure AD |
-| `LoggedOnUsers` | Строка | Список всех пользователей, зарегистрированных на компьютере во время события в формате массива JSON |
-| `RegistryDeviceTag` | Строка | Тег машины, добавленный в реестр |
+| `AadObjectId` | String | Уникальный идентификатор устройства в Azure AD |
+| `LoggedOnUsers` | String | Список всех пользователей, зарегистрированных на компьютере во время события в формате массива JSON |
+| `RegistryDeviceTag` | String | Тег машины, добавленный в реестр |
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
 | `MachineGroup` | string | Машинная группа машины. Эта группа используется управлением доступом на основе ролей для определения доступа к машине |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
-|`AdditionalFields` | Строка | Дополнительные сведения о событии в формате массива JSON |
+|`AdditionalFields` | String | Дополнительные сведения о событии в формате массива JSON |
 
 В таблице содержится информация об устройстве на основе пульса, которые являются периодическими отчетами или `DeviceInfo` сигналами с устройства. Каждые 15 минут устройство отправляет частичное сердцебиение, которое содержит часто меняющиеся атрибуты, такие как `LoggedOnUsers` . Один раз в день отправляется полное сердцебиение, содержащее атрибуты устройства.
 
@@ -71,7 +72,7 @@ DeviceInfo
 | summarize arg_max(Timestamp, *) by DeviceId 
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

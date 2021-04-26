@@ -21,12 +21,12 @@ description: Центр администрирования Microsoft 365 — у�
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 0c17c6840d73c5b0a2714c6c6a832c154e2a9640
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 90f75b0c1ea38833325c51399108551286f55e92
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768725"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024197"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Новые возможности центра администрирования Microsoft 365
 
@@ -231,7 +231,7 @@ ms.locfileid: "51768725"
 
 ### <a name="docs-training-and-videos-june"></a>Документы, обучение и видео (июнь)
 
-- [Начало работы с Teams](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
+- [Начало работы с Teams](../business-video/get-started-teams-small-business.md)
 
 ## <a name="may-2020"></a>Май 2020 г.
 
@@ -333,19 +333,19 @@ ms.locfileid: "51768725"
 
 #### <a name="for-your-users"></a>Для пользователей
 
-- [Расписание собрания](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
+- [Расписание собрания](../business-video/schedule-guest-meeting.md)
 - [Присоединиться к собранию Teams](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Создание команды для всей организации](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [Создание команды с гостями](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
-- [Присоединиться к команде в качестве гостя](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Создание адреса электронной почты группы](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
+- [Создание команды для всей организации](../business-video/org-wide-team.md)
+- [Создание команды с гостями](../business-video/team-with-guests.md)
+- [Присоединиться к команде в качестве гостя](../business-video/join-team-guest.md)
+- [Создание адреса электронной почты группы](../business-video/group-email.md)
 
 #### <a name="for-admins-and-business-owners"></a>Для администраторов и владельцев бизнеса
 
 - [Расширение возможностей малого бизнеса с помощью удаленной работы](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
-- [Запуск удаленного малого бизнеса](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Подпишитесь на Microsoft Business Basic](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Настройка двух-факторного входного знака](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Запуск удаленного малого бизнеса](../business-video/sign-up.md)
+- [Подпишитесь на Microsoft Business Basic](../business-video/sign-up.md)
+- [Настройка двух-факторного входного знака](../business-video/sign-up.md)
 
 ## <a name="march-2020"></a>Март 2020 г.
 
@@ -382,10 +382,10 @@ ms.locfileid: "51768725"
 |Текущее имя |Новое название  |
 |---------|---------|
 |Office 365 бизнес базовый     |   Microsoft 365 бизнес базовый      |
-|Office 365 бизнес премиум     |    Microsoft 365 бизнес стандарт     |
+|Office 365 бизнес премиум     |    Microsoft 365 бизнес стандарт     |
 |Microsoft 365 бизнес     |    Microsoft 365 бизнес премиум     |
 |Office 365 бизнес     |    Приложения Microsoft 365 для бизнеса       |
-|Office 365 профессиональный плюс    |   Приложения Microsoft 365 для предприятия      |
+|Office 365 профессиональный плюс    |   Приложения Microsoft 365 для предприятия      |
 
 ### <a name="videos-training-and-docs"></a>Видео, обучение и документы
 

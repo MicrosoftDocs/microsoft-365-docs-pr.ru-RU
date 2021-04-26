@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Узнайте, как восстановить удаленные учетные записи пользователей и все связанные данные.
-ms.openlocfilehash: 75e664c68dec13b857e4bd308d49e5b58d5edfc8
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 4893f7468a8ab5919dd3be1cce233917323f2076
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471017"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023969"
 ---
 # <a name="restore-a-user"></a>Восстановление пользователя
    
@@ -38,7 +38,7 @@ ms.locfileid: "51471017"
   
 - Убедитесь, что лицензии доступны для назначения учетной записи.
     
-- Если в вашей организации используется служба Active Directory, см. инструкции по восстановлению учетной записи пользователя в статье [Устранение неполадок с удаленными учетными записями пользователей в Office 365](https://support.microsoft.com/kb/2619308). 
+- Если в вашей организации используется служба Active Directory, см. инструкции по восстановлению учетной записи пользователя в статье [Устранение неполадок с удаленными учетными записями пользователей в Office 365](/office365/troubleshoot/active-directory/restore-deleted-user-accounts.md). 
     
 ## <a name="restore-one-or-more-user-accounts"></a>Восстановление одной или нескольких учетных записей пользователей
 

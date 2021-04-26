@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Узнайте, как вручную передавать данные между двумя учетными записями Microsoft 365 при смене плана или имени компании или совмещении нескольких подписок в одну.
-ms.openlocfilehash: 9916da50f4589f949d35466ca6aa8f1d79cc40ea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b240ffbbdbfb6ed7d20a9ead9b1ee90a3af4570d
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915510"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023837"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Перенос данных вручную между двумя учетными записями
 
@@ -91,11 +91,11 @@ ms.locfileid: "50915510"
   
 - Вы можете сохранить старый сайт как шаблон и импортировать его на новый сайт.
 
-- Чтобы передать документы, сначала вручную воссоздайте иерархию на новом сайте. Затем вы можете открыть одновременно оба сайта группы SharePoint, открыть обе библиотеки документов с помощью Обозревателя Windows, а также скопировать и вклеить документы. См. [видео. Скопируйте или переместите файлы библиотеки с помощью Open with Explorer.](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790)
+- Чтобы передать документы, сначала вручную воссоздайте иерархию на новом сайте. Затем вы можете открыть одновременно оба сайта группы SharePoint, открыть обе библиотеки документов с помощью Обозревателя Windows, а также скопировать и вклеить документы. См. [видео. Скопируйте или переместите файлы библиотеки с помощью Open with Explorer.](../../business-video/store-files.md)
 
 - Для переноса данных списков можно сохранить [шаблон списка](https://support.microsoft.com/office/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393) и воссоздать с помощью него список на новом сайте.
 
-- Чтобы сохранить библиотеку документов или содержимое списка из среды SharePoint Online (OneDrive для бизнеса или сайтов группы) для файла акций или локального компьютера, см. в раздел Сведения о переносе контента [SharePoint Online](https://support.microsoft.com/kb/2783484)вручную.
+- Чтобы сохранить библиотеку документов или содержимое списка из среды SharePoint Online (OneDrive для бизнеса или сайтов группы) для файла акций или локального компьютера, см. в раздел Сведения о переносе контента [SharePoint Online](/sharepoint/troubleshoot/migration-tool/content-manual-migration)вручную.
 
 ## <a name="transfer-users-data-between-subscriptions"></a>Перенос данных пользователей из одной подписки в другую
 

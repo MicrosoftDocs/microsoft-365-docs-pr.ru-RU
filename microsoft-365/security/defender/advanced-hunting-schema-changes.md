@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 22d26dac6b7ee502d6934349d22b1d40532f575f
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: eb6dfa628488239e3953d19d5e78b338e76f50a2
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935777"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023789"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Advanced hunting schema - Naming changes
 
@@ -99,11 +99,12 @@ ms.locfileid: "51935777"
 | `DeviceEvents` | `UsbDriveUnmount` | `UsbDriveUnmounted` | Отзывы пользователей |
 | `DeviceEvents` | `WriteProcessMemoryApiCall` | `WriteToLsassProcessMemory` | Отзывы пользователей |
 
+## <a name="march-2021"></a>Март 2021 г.
+
+Таблица `DeviceTvmSoftwareInventoryVulnerabilities` обесценилась. Его заменяют `DeviceTvmSoftwareInventory` таблицы `DeviceTvmSoftwareVulnerabilities` и таблицы.
 
 
 
-
-
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

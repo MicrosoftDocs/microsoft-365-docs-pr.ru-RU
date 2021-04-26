@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Узнайте, как сбросить пароли с помощью средства сброса паролей самообслуживной службы.
-ms.openlocfilehash: f43c409e98aa98e942bd7c7cbb15302422df241d
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0842430eda8c96647dd12d0da6d0c9e0481346dc
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222127"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023765"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
@@ -52,7 +52,7 @@ ms.locfileid: "51222127"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>Действия. Пусть люди сбрасывают собственные пароли
 
@@ -94,4 +94,4 @@ ms.locfileid: "51222127"
 
 [Установка бессрочных пользовательских паролей](set-password-to-never-expire.md)
 
-[учебные видео по Microsoft 365 бизнес](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[учебные видео по Microsoft 365 бизнес](../../business-video/index.yml)

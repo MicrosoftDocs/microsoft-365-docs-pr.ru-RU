@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b241e1261c35c95c15aeca325807993074477e7f
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: bfe86d639b3532fabd56957262160255db994098
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551516"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024089"
 ---
 # <a name="payment-information-for-denmark"></a>Сведения об оплате для Дании
 
@@ -35,10 +35,12 @@ ms.locfileid: "50551516"
 Номер учетной записи: 12207613\
 Имя учетной записи: MICROSOFT
 
-Если с 1 марта 2021 г. на счету **Microsoft Danmark ApS** выставлен счет за заказы и потребление, используйте эту банковскую информацию:
+Если с 1 марта 2021 г. на счету **Microsoft Denmark ApS** выставлен счет за заказы и потребление, используйте эту банковскую информацию:
 
 Банк: Citibank Europe plc\
 КОД SWIFT: CITIIE2X\
 Код IBAN: IE27CITI99005170000126\
 Номер учетной записи: 70000126\
 Имя учетной записи: MICROSOFT
+
+Счета, выдаваемых в локальной дочерней корпорации Майкрософт, выдаются со стандартной ставкой НДС/налога на продажу/GST и считаются внутренним предложением услуг для целей НДС/Налог с продаж/GST.

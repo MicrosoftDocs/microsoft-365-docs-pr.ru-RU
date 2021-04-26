@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Получите приложение администрирования Microsoft 365 и научитесь управлять организацией в Интернете с телефона или планшета.
-ms.openlocfilehash: eba3783e3673efe84bdb823da2a14e06c06c5fbe
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 20a44501db43b8cba7f31bcfded039b00f3ab341
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826127"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023945"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>О мобильном приложении администратора Microsoft 365
 
@@ -116,6 +116,6 @@ ms.locfileid: "50826127"
 
 Электронная [feedback365@microsoft.com](mailto:feedback365@microsoft.com) сообщить о проблеме с приложением. Или вы можете дать обратную связь в нижней части этой статьи.
   
-## <a name="see-also"></a>См. также
+## <a name="related-content"></a>Связанные материалы 
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 для видео обучения бизнесу](../../business-video/index.yml) (ссылки)

@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: de34ca4897f0fb1e9e2564bbe12282fdea6c8162
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: a6515942517e8d91f8372ed99ff414fb80fd7739
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542576"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024029"
 ---
 # <a name="payment-information-for-sweden"></a>Сведения об оплате для Швеции
 
@@ -42,3 +42,5 @@ ms.locfileid: "50542576"
 Код IBAN: IE86CITI99005170000131\
 Номер учетной записи: 70000131\
 Имя учетной записи: MICROSOFT
+
+Счета, выдаваемых в локальной дочерней корпорации Майкрософт, выдаются со стандартной ставкой НДС/налога на продажу/GST и считаются внутренним предложением услуг для целей НДС/Налог с продаж/GST.

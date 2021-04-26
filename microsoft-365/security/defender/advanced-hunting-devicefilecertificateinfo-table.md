@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 272896c745386f13fc0e36301c5c16f5f24dbb42
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1f894f3fc8cff2113004ff9c9e34ec2ca0144799
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933677"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023217"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -34,6 +34,7 @@ ms.locfileid: "51933677"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 Таблица `DeviceFileCertificateInfo` в [продвинутой схеме охоты](advanced-hunting-overview.md) содержит сведения о сертификатах подписи файлов. В этой таблице используются данные, полученные в ходе регулярной проверки сертификатов в файлах конечных точек.
 
@@ -46,13 +47,13 @@ ms.locfileid: "51933677"
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `IsSigned` | boolean | Указывает, подписан ли файл |
-| `SignatureType` | Строка | Указывает, была ли информация подписи прочитана как встроенное содержимое в самом файле или считывается из внешнего файла каталога. |
-| `Signer` | Строка | Сведения о подписывщике файла |
-| `SignerHash` | Строка | Уникальное значение hash, определяющие подписавщика |
-| `Issuer` | Строка | Сведения о полномочиях по выдаче сертификатов (CA) |
-| `IssuerHash` | Строка | Уникальное значение hash identifying issuing certificate authority (CA) |
-| `CertificateSerialNumber` | Строка | Идентификатор сертификата, который является уникальным для органа по выдаче сертификатов (CA) |
-| `CrlDistributionPointUrls` | Строка |  Массив JSON с перечислением URL-адресов сетевых акций, содержащих сертификаты и списки отзывов сертификатов (CRLs) |
+| `SignatureType` | String | Указывает, была ли информация подписи прочитана как встроенное содержимое в самом файле или считывается из внешнего файла каталога. |
+| `Signer` | String | Сведения о подписывщике файла |
+| `SignerHash` | String | Уникальное значение hash, определяющие подписавщика |
+| `Issuer` | String | Сведения о полномочиях по выдаче сертификатов (CA) |
+| `IssuerHash` | String | Уникальное значение hash identifying issuing certificate authority (CA) |
+| `CertificateSerialNumber` | String | Идентификатор сертификата, который является уникальным для органа по выдаче сертификатов (CA) |
+| `CrlDistributionPointUrls` | String |  Массив JSON с перечислением URL-адресов сетевых акций, содержащих сертификаты и списки отзывов сертификатов (CRLs) |
 | `CertificateCreationTime` | datetime | Дата и время создания сертификата |
 | `CertificateExpirationTime` | datetime | Дата и время истечения срока действия сертификата |
 | `CertificateCountersignatureTime` | datetime | Дата и время, когда сертификат был подписан |
@@ -60,7 +61,7 @@ ms.locfileid: "51933677"
 | `IsRootSignerMicrosoft` | boolean | Указывает, является ли подписатель корневого сертификата Корпорацией Майкрософт |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. | 
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

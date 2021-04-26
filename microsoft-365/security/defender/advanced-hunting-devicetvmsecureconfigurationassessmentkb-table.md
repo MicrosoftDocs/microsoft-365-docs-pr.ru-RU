@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a387d917e5ae93a6289aa2af527d52f1ce1195f4
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1dfa710b86afdcfd8a5643555564a0f34c7b4702
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934874"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024245"
 ---
 # <a name="devicetvmsecureconfigurationassessmentkb"></a>DeviceTvmSecureConfigurationAssessmentKB
 
@@ -34,6 +34,7 @@ ms.locfileid: "51934874"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 
 
@@ -52,7 +53,7 @@ ms.locfileid: "51934874"
 | `ConfigurationSubcategory` | string |Подкатегория или подгруппа, к которой относится настройка. Во многих случаях здесь описываются конкретные возможности или функции. |
 | `ConfigurationBenchmarks` | string | Список отраслевых контрольных показателей с рекомендациями по аналогичной или схожей настройке |
 | `Tags` | string | Метки, представляющие различные атрибуты, используемые для определения или классификации конфигурации безопасности |
-| `RemediationOptions` | Строка | Рекомендуемые действия по снижению или устранению связанных рисков |
+| `RemediationOptions` | String | Рекомендуемые действия по снижению или устранению связанных рисков |
 
 ## <a name="related-topics"></a>Статьи по теме
 

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Часто задамые вопросы о базовой мобильности и безопасности.
-ms.openlocfilehash: a538c0b3f9fa6a4bf1861734fc9dea94030760a3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 14e12678ec210325f63914594fb6debcf7abb880
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906268"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023897"
 ---
 # <a name="basic-mobility-and-security-frequently-asked-questions-faq"></a>Вопросы базовой мобильности и безопасности, часто задаваемые (часто задаваемые вопросы)
 
@@ -51,7 +51,7 @@ ms.locfileid: "50906268"
 
 ## <a name="im-trying-to-set-up-basic-mobility-and-security-but-it-seems-stuck-the-microsoft-365-service-health-has-been-showing-provisioning-for-a-while-what-can-i-do"></a>Я пытаюсь настроить основные мобильности и безопасности, но кажется, застрял. Microsoft 365 Service Health уже некоторое время демонстрирует "подготовка". Что я могу сделать?
 
-Может потребоваться некоторое время, чтобы получить службу готовой для вас. После завершения подготовки вы увидите страницу Basic Mobility and Security. Если вы прождали 24 часа и состояние еще находится в состоянии подготовка, обратитесь в службу поддержки, и мы поможем выяснить, в чем проблема. О вариантах поддержки см. [в справке "По-прежнему нужна помощь".](https://support.microsoft.com/office/frequently-asked-questions-about-basic-mobility-and-security-3871f99c-c9db-4a23-86f9-902c1b02f58d#bkmk_needhelp)
+Может потребоваться некоторое время, чтобы получить службу готовой для вас. После завершения подготовки вы увидите страницу Basic Mobility and Security. Если вы прождали 24 часа и состояние еще находится в состоянии подготовка, обратитесь в службу поддержки, и мы поможем выяснить, в чем проблема.
 
 ## <a name="what-can-i-do-if-device-enrollment-fails"></a>Что делать в случае сбой регистрации устройства?
 
@@ -73,7 +73,7 @@ ms.locfileid: "50906268"
 
 ## <a name="how-do-policies-work-for-basic-mobility-and-security-how-do-i-set-them-up-disable-them"></a>Как работают политики для базовой мобильности и безопасности? Как настроить их? Отключить их?
 
-После завершения начальной настройки базовой мобильности и безопасности вы создаете политики и применяйте их к группам пользователей в Центре & соответствия требованиям. Политики требуют, чтобы пользователи политик зарегистрировались на своих устройствах в Basic Mobility and Security, прежде чем устройство можно было использовать для доступа к данным Microsoft 365. Политики, которые вы настраивали, определяют параметры для мобильных устройств, например, как часто необходимо сбросить пароли или требуется ли шифрование данных. Дополнительные сведения см. в [веб-сайте Create device security policies in Basic Mobility and Security](create-device-security-policies.md)and Microsoft   [365 compliance center.](https://support.microsoft.com/office/7e696a40-b86b-4a20-afcc-559218b7b1b8)
+После завершения начальной настройки базовой мобильности и безопасности вы создаете политики и применяйте их к группам пользователей в Центре & соответствия требованиям. Политики требуют, чтобы пользователи политик зарегистрировались на своих устройствах в Basic Mobility and Security, прежде чем устройство можно было использовать для доступа к данным Microsoft 365. Политики, которые вы настраивали, определяют параметры для мобильных устройств, например, как часто необходимо сбросить пароли или требуется ли шифрование данных. Дополнительные сведения см. в [веб-сайте Create device security policies in Basic Mobility and Security](create-device-security-policies.md)and Microsoft   [365 compliance center.](../../compliance/microsoft-365-compliance-center.md)
 
 Пошаговая инструкция по созданию и развертыванию политик устройств см. в инструкции [Create device security policies in Basic Mobility and Security.](create-device-security-policies.md)
 

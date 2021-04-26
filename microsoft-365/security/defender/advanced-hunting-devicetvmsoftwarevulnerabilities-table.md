@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 24da8f556fe9f8a3b8172afe87ea9a87e4522d44
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 17faffc45cfd1f472dec3f423681aaa3f64944a3
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934829"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023813"
 ---
 # <a name="devicetvmsoftwarevulnerabilities"></a>DeviceTvmSoftwareVulnerabilities
 
@@ -34,6 +34,7 @@ ms.locfileid: "51934829"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 >[!IMPORTANT]
 > Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.
@@ -58,7 +59,7 @@ ms.locfileid: "51934829"
 | `CveId` | string | Уникальный идентификатор, назначенный уязвимости в системе общеизвестных уязвимостей и рисков (CVE) |
 | `VulnerabilitySeverityLevel` | string | Уровень серьезности, назначенный уязвимости безопасности на основе оценки CVSS и динамических коэффициентов, на которые влияет обстановка с угрозами |
 | `RecommendedSecurityUpdate` | string | Имя или описание обновления безопасности, предоставляемого поставщиком программного обеспечения для устранения уязвимости |
-| `RecommendedSecurityUpdateId` | Строка | Идентификатор применимых обновлений или идентификаторов безопасности для соответствующих статей руководства или базы знаний (KB). |
+| `RecommendedSecurityUpdateId` | String | Идентификатор применимых обновлений или идентификаторов безопасности для соответствующих статей руководства или базы знаний (KB). |
 
 
 

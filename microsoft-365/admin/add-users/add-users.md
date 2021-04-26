@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Узнайте, как одновременно добавлять пользователей и назначать лицензии для Microsoft 365.
 ms.date: 07/01/2020
-ms.openlocfilehash: a7c5fcf1a129a1d434b6e641688ce4c5d234817d
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 97b7118f4052d4ab4e0ffe8ecec96f32e4042108
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760006"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024017"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Одновременное добавление пользователей и назначение лицензий
 
@@ -85,7 +85,7 @@ ms.locfileid: "51760006"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-После добавления пользователя вы получите уведомление по электронной почте от корпорации Майкрософт. Сообщение будет содержать идентификатор пользователя и пароль для входа в Microsoft 365. Для этого следуйте стандартной процедуре передачи паролей. Поделитесь [Кратким руководством сотрудника](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) с новыми пользователями для настройки таких элементов, как [Скачивание и установка приложений Office на компьютере или Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) и [Настройка приложений Office и электронной почты на мобильном устройстве](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
+После добавления пользователя вы получите уведомление по электронной почте от корпорации Майкрософт. Сообщение будет содержать идентификатор пользователя и пароль для входа в Microsoft 365. Для этого следуйте стандартной процедуре передачи паролей. Поделитесь [Кратким руководством сотрудника](../../business-video/employee-quick-setup.md) с новыми пользователями для настройки таких элементов, как [Скачивание и установка приложений Office на компьютере или Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) и [Настройка приложений Office и электронной почты на мобильном устройстве](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
 
 ## <a name="related-content"></a>См. также:
 

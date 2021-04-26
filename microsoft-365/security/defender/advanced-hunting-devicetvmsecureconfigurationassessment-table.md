@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e128eabc43c73949b5c747e51f3b59ac8b9a0ac5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2e3e649911cb2ce63c2a49be0ebc93e35e8055d6
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933029"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024221"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -34,6 +34,7 @@ ms.locfileid: "51933029"
 
 **Область применения:**
 - Microsoft 365 Defender
+- Microsoft Defender для конечной точки
 
 
 
@@ -44,8 +45,8 @@ ms.locfileid: "51933029"
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `DeviceId` | string | Уникальный идентификатор устройства в службе |
-| `DeviceName` | Строка | Полное доменное имя (FQDN) устройства |
-| `OSPlatform` | Строка | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7.|
+| `DeviceName` | String | Полное доменное имя (FQDN) устройства |
+| `OSPlatform` | String | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7.|
 | `Timestamp` | datetime | Дата и время создания записи |
 | `ConfigurationId` | string | Уникальный идентификатор определенной настройки |
 | `ConfigurationCategory` | string | Категория или группа, к которой относится настройка: приложение, ОС, сеть, учетные записи, элементы безопасности |
@@ -53,7 +54,7 @@ ms.locfileid: "51933029"
 | `ConfigurationImpact` | string | Оценка влияния настройки на общую оценку конфигурации (1–10) |
 | `IsCompliant` | boolean | Указывает, правильно ли настроена конфигурация или политика |
 | `IsApplicable` | boolean | Указывает, применима ли конфигурация или политика к устройству |
-| `Context` | Строка | Дополнительные контекстные сведения о конфигурации или политике |
+| `Context` | String | Дополнительные контекстные сведения о конфигурации или политике |
 | `IsExpectedUserImpact` | boolean | Указывает, будет ли влияние пользователя, если применяется конфигурация или политика |
 
 ## <a name="related-topics"></a>Статьи по теме
