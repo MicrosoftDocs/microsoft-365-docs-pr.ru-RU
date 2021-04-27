@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 291ee6d2f72579a6daf731c121265164b2aaa547
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c82e1abf9e539ad169bbc488ade9cd21bb8e6727
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074781"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029078"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Функции предварительного просмотра Защитника Microsoft 365
 
@@ -43,7 +43,7 @@ ms.locfileid: "51074781"
 
 Дополнительные сведения о новых возможностях, которые обычно доступны, см. в руб. Новые возможности [в Microsoft 365 Defender.](whats-new.md)
 
-## <a name="required-permissions"></a>Необходимые разрешения
+## <a name="required-permissions"></a>Обязательные разрешения
 
 Учетные записи, задав следующие роли Azure Active Directory (Azure AD), могут включить функции предварительного просмотра защитника Microsoft 365:
 
@@ -68,10 +68,6 @@ ms.locfileid: "51074781"
 
 В настоящий момент в предварительной версии доступны следующие функции и улучшения.
 
-### <a name="improved-microsoft-365-security-center"></a>Улучшенный центр безопасности Microsoft 365
-Улучшенный [Центр безопасности Microsoft 365](https://security.microsoft.com) теперь доступен в общедоступной предварительной версии. Этот новый интерфейс Центра безопасности Microsoft 365 объединяет Defender для конечной точки, Defender для Office 365, Microsoft 365 Defender и другие решения. Это новый дом для управления средствами управления безопасностью. [Узнайте о новых возможностях](./overview-security-center.md).
-
-- Отчет об аналитике угроз **[в Microsoft 365 Defender](threat-analytics.md)** . Аналитика угроз помогает вам реагировать на активные атаки и свести к минимуму их влияние. Вы также можете узнать о попытках атаки, заблокированных решениями Microsoft 365 Defender, и принять превентивные меры, которые смягчают риск дальнейшего воздействия и повышения устойчивости. В рамках единой системы безопасности аналитика угроз теперь доступна для владельцев лицензий Microsoft Defender для конечной точки и Microsoft Defender для владельцев лицензий Office E5.
 - **[API Защитника Microsoft 365](api-overview.md)** — API верхнего уровня Microsoft 365 Defender позволит автоматизировать рабочий процесс на основе общих таблиц инцидента и расширенных таблиц охоты. 
 - **[Примите меры в продвинутой охоте](advanced-hunting-take-action.md)**— быстро сдержать угрозы или адресовать скомпрометированные активы, которые находятся в [продвинутой охоте.](advanced-hunting-overview.md)
 - **[Ссылка на схему на портале](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**— сведения о таблицах расширенных схем охоты непосредственно в центре безопасности. Помимо описаний таблиц и столбцов, эта ссылка включает поддерживаемые типы событий `ActionType` (значения) и примеры запросов.

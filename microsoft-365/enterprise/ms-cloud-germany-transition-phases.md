@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Сведения о действиях и последствиях перехода из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 8e3e6fb228445823481b52d27e5a7b6c623349e2
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 5764b5cedf17487320fbfd05885120de86da3a84
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995025"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029066"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Миграция фазы действий и последствий для миграции из Microsoft Cloud Deutschland
 
@@ -33,7 +33,7 @@ ms.locfileid: "51995025"
 
 Процесс миграции будет завершен в течение многих недель в зависимости от общего размера и сложности организации. В то время как миграция продолжается, пользователи и администраторы могут продолжать использовать службы с заметными изменениями, подробными в этой документации. График и таблица определяют этапы и действия во время миграции.
 
-|Действие|Duration|Ответственная сторона|Описание|
+|Шаг|Duration|Ответственная сторона|Описание|
 |:--------|:--------|:--------|:--------|
 |Opt-In|Часы|Клиент|Выбор организации в миграции.|
 |Предварительная работа|Days|Клиент|Выполните работу, необходимую для подготовки пользователей, рабочих станций и сети к миграции.|
@@ -166,7 +166,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **Применяется к:** Администраторы Exchange Online с помощью Exchange Online PowerShell
 
-На этапе миграции с помощью cmdlets PowerShell **New-MigrationEndpoint,** **Set-MigrationEndpoint** и **Test-MigrationsServerAvailability** могут привести к ошибкам (ошибка в прокси-сервере). Это происходит, когда почтовый ящик арбитража мигрирует во всем мире, но почтовый ящик администратора не имеет или наоборот. Чтобы устранить это, создав сеанс PowerShell клиента, используйте почтовый ящик арбитража в качестве подсказки маршрутивки **в ConnectionUri**. Например,
+На этапе миграции с помощью cmdlets PowerShell **New-MigrationEndpoint,** **Set-MigrationEndpoint** и **Test-MigrationsServerAvailability** могут привести к ошибкам (ошибка в прокси-сервере). Это происходит, когда почтовый ящик арбитража мигрирует во всем мире, но почтовый ящик администратора не имеет или наоборот. Чтобы устранить это, создав сеанс PowerShell клиента, используйте почтовый ящик арбитража в качестве подсказки маршрутивки **в ConnectionUri**. Например:
 
 ```powershell
 New-PSSession 
@@ -226,7 +226,7 @@ Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outl
 - Контакты и собрания будут перенесены в Microsoft Teams.
 - Пользователи не смогут войти в Skype для бизнеса между переходами службы времени на службы Office 365 и только после завершения записей DNS клиента.
 - Контакты и существующие собрания будут по-прежнему функционировать в качестве собраний Skype для бизнеса.
-- Версия веб-браузера Microsoft Teams не будет работать после завершения 9-го этапа.
+- Версия веб-браузера Microsoft Teams не будет работать до завершения 9-го этапа.
 
 Если после завершения 9-го этапа миграции необходимо подключиться к Skype для бизнеса Online с Помощью PowerShell, используйте следующий код PowerShell для подключения:
 

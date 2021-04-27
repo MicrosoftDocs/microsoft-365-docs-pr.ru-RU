@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
 ms.author: josephd
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Обеспечьте удаленным сотрудникам доступ к локальным ресурсам, одновременно оптимизируя доступ к облачным службам Microsoft 365.
-ms.openlocfilehash: ae86013ea1235c6dfd9929fd329cb0b2dba0fb93
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9fea86bb9c564a37a519d2c7e0ef2e2fd0a59470
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918354"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029138"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Этап 2. Обеспечение удаленного доступа к локальным приложениям и службам
 

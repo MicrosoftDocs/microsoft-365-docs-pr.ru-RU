@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-manager: laurawi
+manager: dansimp
 ms.date: 08/14/2020
 audience: ITPro
 ms.topic: overview
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: Сводка. Как Contoso использовала команду с изолированностью безопасности для совершенно секретного проекта для разработки нового набора продуктов и служб.
-ms.openlocfilehash: d5ab2808251ff6a53f8975ea868431691d3301e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 751bf3972d148219a6cc341067c0bf34cd581447
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051010"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029020"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Изолированная команда для совершенно секретного проекта корпорации Contoso
 
@@ -40,7 +40,7 @@ ms.locfileid: "51051010"
 
 ## <a name="step-1-created-a-private-team"></a>Шаг 1. Созданная частная команда
 
-Во-первых, чтобы защитить доступ к основному сайту SharePoint для группы, ИТ-администраторы Contoso настроили рекомендуемые политики доступа [к SharePoint.](../security/defender-365-security/sharepoint-file-access-policies.md)
+Во-первых, чтобы защитить доступ к основному сайту SharePoint для группы, ИТ-администраторы Contoso настроили рекомендуемые политики доступа [к SharePoint.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Затем ИТ-администратор Contoso создал новую частную команду с именем Project 2X и добавил учетные записи пользователей сотрудников Project 2X в качестве членов. Они также настраивали команду так, чтобы только владельцы команд Project 2X могли создавать частные каналы.
 
@@ -64,7 +64,7 @@ ms.locfileid: "51051010"
 
 ## <a name="step-3-configured-the-underlying-sharepoint-site"></a>Шаг 3. Настройка на основном сайте SharePoint
 
-Во-первых, чтобы защитить доступ к основному сайту SharePoint для группы, ИТ-администраторы Contoso настроили рекомендуемые политики доступа [к SharePoint.](../security/defender-365-security/sharepoint-file-access-policies.md)
+Во-первых, чтобы защитить доступ к основному сайту SharePoint для группы, ИТ-администраторы Contoso настроили рекомендуемые политики доступа [к SharePoint.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Затем они настроили дополнительные параметры разрешений для сайта:
 
