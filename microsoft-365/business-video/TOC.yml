@@ -127,6 +127,8 @@
           href: act-on-report.md
         - name: Добавление еще одного домена
           href: add-domain.md
+        - name: Настройка нового рабочего адреса электронной почты
+          href: set-up-a-new-business-email-address.md
     - name: Управление устройствами
       items:
         - name: Защита устройств с Windows 10 Pro
