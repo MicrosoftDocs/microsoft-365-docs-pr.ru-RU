@@ -20,18 +20,20 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Обновите номер телефона администратора и адрес электронной почты в центре администрирования. Вам потребуется эта информация, если вы хотите сбросить собственный пароль администратора.
-ms.openlocfilehash: 39b68905c0d43608a0d0ce1d37167fd7d9aff8fb
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 49e3cd3e861499d41107b9c76da175a95e74bb0e
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470921"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073781"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>Обновление номера телефона администратора и адреса электронной почты
 
 В этой статье рассказывается, как администратор может изменить бизнес-телефон и адрес электронной почты в Microsoft 365.
   
 Если вам нужны сведения о том, как изменить данные профиля компании, например название компании, адрес, основной номер телефона компании и данные контакта для связи по техническим вопросам, см. статью [Изменение адреса организации и других данных профиля](change-address-contact-and-more.md).
+
+Дополнительные сведения об изменении контактных данных пользователей или удалении бывших сотрудников см. в [материалах Related content.](#related-content)
   
 ## <a name="to-update-your-phone-number-and-email-address"></a>Обновление номера телефона и адреса электронной почты
 
@@ -53,3 +55,13 @@ ms.locfileid: "51470921"
 - [Изменение адресов вы выставления счета для Microsoft 365 для бизнеса](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
 - [Управление методами оплаты](../../commerce/billing-and-payments/manage-payment-methods.md)
+
+## <a name="related-content"></a>Связанные материалы
+
+[Изменение имени пользователя и адреса электронной почты](../add-users/change-a-user-name-and-email-address.md) (видео)
+
+[Добавление нового сотрудника](../add-users/add-new-employee.md) (видео)
+
+[Удаление бывшего сотрудника](../add-users/remove-former-employee.md) (видео)
+
+[Доступ и обратное](../add-users/get-access-to-and-back-up-a-former-user-s-data.md) доступ к данным бывшего пользователя (статья)
