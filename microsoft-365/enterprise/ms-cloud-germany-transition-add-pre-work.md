@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Предварительная работа при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: ce7aad932482d7a9d1681957c06b85ab22a82149
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9c3aff56f5d85cd1b98747ef5b747720af74fe02
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760396"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073941"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Действия по предварительной миграции для миграции из Microsoft Cloud Deutschland
 
@@ -33,7 +33,7 @@ ms.locfileid: "51760396"
 
 - **Office 365 в Microsoft Cloud Deutschland**, сделать [эти шаги](#general-tenant-migration-considerations).
 - **Настраиваемые домены**, сделать [этот шаг](#dns-entries-for-custom-domains).
-
+- **Приложения Office,** рассмотрим [этот шаг](#office-apps).
 - **SharePoint Online**, сделать [этот шаг](#sharepoint-online).
 - **Exchange Online** или **Exchange Hybrid**, сделать [этот шаг](#exchange-online).
 - **Skype для бизнеса Online**, сделать [этот шаг](#skype-for-business-online).
@@ -83,6 +83,19 @@ nslookup -querytype=CNAME msoid.contoso.com
 
 > [!NOTE]
 > Если вы используете настраиваемый домен для Exchange Online, вам потребуется доступ к поставщику хостинга DNS. Пожалуйста, убедитесь, что вы можете получить доступ и изменить параметры DNS, вы будете изменять записи DNS во время миграции.
+
+## <a name="office-apps"></a>Приложения Office
+
+**Применяется к**: Клиенты, использующие приложения Office, особенно для клиентов Windows <br>
+**При применении:** в любое время до начала этапа 9
+
+Клиенты Office 365, переехав в регион "Германия", требуют, чтобы все пользователи закрыли, вышли из Office 365 и вернулись для всех настольных приложений Office (Word, Excel, PowerPoint, Outlook и т.д.) и OneDrive для бизнеса после того, как миграция клиента достигла этапа 9. Вход и вход позволяет службам Office получать новые маркеры проверки подлинности из глобальной службы Azure AD.
+
+Это необходимо для всех клиентов. Чтобы обеспечить плавную миграцию, настоятельно рекомендуется заблаговременно и на ранней стадии информировать и инструктировать всех пострадавших пользователей об этом предстоящем действии.
+
+Клиенты с управляемыми клиентами Windows могут подготовить компьютеры Windows с помощью средства сокращения клиентских операций [Office (OCCT).](https://github.com/microsoft/OCCT) OCCT предназначен для периодических запусков на клиентах Windows до тех пор, пока клиент не достиг этапа 9 миграции. По завершению 9-го этапа OCCT автоматически выполняет все необходимые изменения на компьютере без взаимодействия с пользователем.
+
+OCCT можно развернуть на клиентах Windows в любое время до 9-го этапа. Если OCCT поддерживает процесс миграции, рекомендуется как можно скорее начать развертывание, чтобы оборудовать максимальное число клиентов.
 
 ## <a name="active-directory-federation-services-ad-fs"></a>Службы федерации Active Directory (AD FS)
 
