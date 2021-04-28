@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
 ms.date: 07/31/2020
-ms.openlocfilehash: b117071fa708ad9d425d578833d8b0ad85537151
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: d391d99f5d5870d964fc4c420a105f25032e3640
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939490"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060971"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счета
 
@@ -62,7 +62,7 @@ ms.locfileid: "51939490"
 
 Вы можете отправить запрос на фапяо в нашу [систему управления Fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465) приблизительно через 3 дня после оплаты.
 
-1. В <a href=”https://go.microsoft.com/fwlink/p/?linkid=850627” target=”_blank”>центре администрирования</a> перейдите на страницу **Выставление счетов** > **Счета и платежи**.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> перейдите на страницу **Выставление счетов** > **Счета и платежи**.
 
 2. Найдите нужный счет, затем выберите **Получить фапяо**.
 
