@@ -15,12 +15,12 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 84864965d7a18902a01307c1dcf373fa7c0534e8
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ff98b78d113a67ad6bd816753c691e8afe71dd77
+ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765579"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52065077"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Защита параметров безопасности с помощью защиты от подделки
 
@@ -51,7 +51,7 @@ ms.locfileid: "51765579"
 - Отключение облачной защиты
 - Удаление обновлений разведки безопасности
 
-### <a name="how-it-works"></a>Принципы работы
+### <a name="how-it-works"></a>Как это работает
 
 Защита от взлома по сути блокирует антивирус Microsoft Defender и предотвращает изменения параметров безопасности с помощью приложений и методов, таких как:
 
@@ -60,6 +60,8 @@ ms.locfileid: "51765579"
 - Редактирование или удаление параметров безопасности с помощью групповых политик
 
 Защита от взлома не мешает вам просматривать параметры безопасности. Защита от взлома не влияет на регистрацию сторонних антивирусных приложений в приложении Windows Security. Если ваша организация использует Windows 10 Enterprise E5, отдельные пользователи не могут изменить параметр защиты от взлома; в этих случаях защита от взлома управляется вашей командой безопасности.
+
+
 
 ### <a name="what-do-you-want-to-do"></a>Что нужно сделать
 
@@ -73,6 +75,19 @@ ms.locfileid: "51765579"
 | Просмотрите рекомендации по безопасности | [Обзор рекомендаций по безопасности](#review-your-security-recommendations) |
 | Просмотрите список часто задаваемого вопроса (часто задаваемой вопросы) | [Просмотр задаваемой темы](#view-information-about-tampering-attempts) |
 
+В зависимости от метода или средства управления, используемого для обеспечения защиты Tamper, может иметься зависимость от MAPS (облачной защиты). 
+
+В следующей таблице приводится подробная информация о методах, средствах и зависимостях.
+
+
+
+|     Как включена защита tamper                                         |     Зависимость от MAPS (облачная защита)    |
+|------------------------------------------------------------------------------|--------------------------------------------------------|
+|     Microsoft Intune                                                         |     Нет                                                 |
+| Microsoft Endpoint Configuration Manager + Tenant Attach                     |     Нет                                                 |
+|     Портал Microsoft Defender для конечных точек (securitycenter.microsoft.com)    |     Да                                                |
+|     Портал Microsoft 365 Defender (security.microsoft.com)                   |     Да                                                |
+
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Управление защитой от взлома для организации с помощью Центра безопасности Защитника Майкрософт
 
 Защита от взлома может быть включена или отключена для клиента с помощью Центра безопасности Защитника Майкрософт ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). Вот несколько моментов, которые необходимо иметь в виду:
@@ -84,6 +99,9 @@ ms.locfileid: "51765579"
 - При управлении защитой от взлома в Центре безопасности Защитника Microsoft параметр применяется широко, затрагивая все устройства с Windows 10, Windows Server 2016 или Windows Server 2019. Чтобы настроить защиту от взлома (например, на некоторых устройствах есть защита от взлома, но отключена для других), используйте [intune](#manage-tamper-protection-for-your-organization-using-intune) или Configuration Manager с присоединением [клиента.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - Если у вас гибридная среда, параметры защиты от взлома, настроенные в Intune, имеют приоритет над настройками, настроенными в Центре безопасности Защитника Майкрософт. 
+
+
+
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-defender-security-center"></a>Требования по управлению защитой от взлома в Центре безопасности Защитника Майкрософт
 
