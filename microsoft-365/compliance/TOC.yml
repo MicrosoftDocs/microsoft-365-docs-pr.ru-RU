@@ -362,7 +362,7 @@
         - name: Фильтрация данных при импорте PST-файлов
           href: filter-data-when-importing-pst-files.md
         - name: Вопросы и ответы об импорте PST-файлов
-          href: faqimporting-pst-files-to-office-365.md
+          href: faqimporting-pst-files-to-office-365.yml
     - name: Архивация сторонних данных
       items:
         - name: Обзор архивации сторонних данных
