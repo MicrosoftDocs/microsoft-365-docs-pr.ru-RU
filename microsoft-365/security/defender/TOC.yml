@@ -1,0 +1,308 @@
+- name: Microsoft 365 Defender
+  href: index.yml
+  expanded: true
+  items:
+    - name: Обзор
+      items:
+        - name: Что такое Microsoft 365 Defender?
+          href: microsoft-365-defender.md
+        - name: "Центр безопасности Microsoft\_365"
+          href: overview-security-center.md
+        - name: Новые возможности Microsoft 365 Defender
+          href: whats-new.md
+        - name: Microsoft Defender для конечной точки в Центре безопасности Microsoft 365
+          href: microsoft-365-security-center-mde.md
+        - name: Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
+          href: microsoft-365-security-center-mdo.md
+        - name: Перенаправление Microsoft Defender для конечной точки в Центр безопасности Microsoft 365
+          href: microsoft-365-security-mde-redirection.md
+        - name: Перенаправление Defender для Office 365 в Центр безопасности Microsoft 365
+          href: microsoft-365-security-mdo-redirection.md
+        - name: Предварительные функции
+          href: preview.md
+        - name: Устранение неполадок
+          href: ./troubleshoot.md
+        - name: Отраслевые тесты
+          href: ./top-scoring-industry-tests.md
+    - name: Планирование
+      items:
+        - name: Предварительные условия
+          href: prerequisites.md
+        - name: Безопасность и конфиденциальность данных
+          href: data-privacy.md
+        - name: Порталы безопасности Майкрософт
+          href: portals.md
+    - name: Оценка возможностей
+      items:
+        - name: Создание испытательной лаборатории
+          items:
+            - name: Обзор испытательной лаборатории
+              href: m365d-evaluation.md
+            - name: Подготовка
+              href: prepare-m365d-eval.md
+            - name: Настройка
+              href: setup-m365deval.md
+            - name: Принципы настройки и внедрение Microsoft 365 Defender
+              href: config-m365d-eval.md
+            - name: Создание тестового оповещения
+              href: generate-test-alert.md
+        - name: Запуск пилотного проекта в рабочей среде
+          items:
+            - name: Обзор пилотного проекта
+              href: m365d-pilot.md
+            - name: План
+              href: m365d-pilot-plan.md
+            - name: Подготовка
+              href: prepare-m365d-eval.md
+            - name: Имитация атаки
+              href: m365d-pilot-simulate.md
+            - name: Закрытие и итоги
+              href: m365d-pilot-close.md
+    - name: Начало работы
+      items:
+        - name: Обзор
+          href: get-started.md
+        - name: Включение Microsoft 365 Defender
+          href: m365d-enable.md
+        - name: Развертывание поддерживаемых служб
+          href: deploy-supported-services.md
+        - name: Вопросы и ответы по включению Microsoft 365 Defender
+          href: m365d-enable-faq.md
+    - name: Защита от угроз
+      items:
+        - name: Оценка безопасности (Майкрософт)
+          items:
+            - name: Обзор оценки безопасности
+              href: microsoft-secure-score.md
+            - name: Оценка уровня безопасности
+              href: microsoft-secure-score-improvement-actions.md
+            - name: Отслеживание истории оценок и достижение целей
+              href: microsoft-secure-score-history-metrics-trends.md
+            - name: Что вскоре появится
+              href: microsoft-secure-score-whats-coming.md
+            - name: Новые возможности
+              href: microsoft-secure-score-whats-new.md
+    - name: Исследование и реагирование на угрозы
+      items:
+        - name: Инциденты
+          items:
+            - name: Обзор
+              href: incidents-overview.md
+            - name: Управление приоритетом инцидентов
+              href: incident-queue.md
+            - name: Управление инцидентами
+              href: manage-incidents.md
+            - name: Реагирование на инциденты
+              items:
+                - name: Анализ инцидентов
+                  href: investigate-incidents.md
+                - name: Анализ оповещений
+                  href: investigate-alerts.md
+                - name: Анализ пользователей
+                  href: investigate-users.md
+            - name: Получение уведомлений по электронной почте
+              href: get-incident-notifications.md
+        - name: Автоматическое исследование и реагирование
+          items:
+            - name: Обзор автоматического исследования и реагирования
+              href: m365d-autoir.md
+            - name: Настройка возможностей автоматического исследования и реагирования
+              href: m365d-configure-auto-investigation-response.md
+            - name: Действия по исправлению
+              href: m365d-remediation-actions.md
+            - name: Посещение Центра уведомлений
+              href: m365d-action-center.md
+            - name: Утверждение или отклонение ожидающих действий по исправлению
+              href: m365d-autoir-actions.md
+            - name: Просмотр сведений и результатов автоматических исследований
+              href: m365d-autoir-results.md
+            - name: Отчет о ложных положительных/отрицательных срабатываниях
+              href: m365d-autoir-report-false-positives-negatives.md
+        - name: Расширенная охота на угрозы
+          items:
+            - name: Обзор расширенной охоты на угрозы
+              href: advanced-hunting-overview.md
+            - name: 'Учеба, обучение и получение примеров'
+              items:
+                - name: Сведения о языке запросов
+                  href: advanced-hunting-query-language.md
+                - name: Учебные курсы для экспертов
+                  href: advanced-hunting-expert-training.md
+                - name: Использование общих запросов
+                  href: advanced-hunting-shared-queries.md
+                - name: 'Охота на различных устройствах, в письмах, приложениях и удостоверениях'
+                  href: advanced-hunting-query-emails-devices.md
+                - name: Охота на программу-шантажиста
+                  href: advanced-hunting-find-ransomware.md
+                - name: Переход с Defender для конечной точки
+                  href: advanced-hunting-migrate-from-mde.md
+            - name: Работа с результатами запросов
+              href: advanced-hunting-query-results.md
+            - name: Выполнение действий с результатами запроса
+              href: advanced-hunting-take-action.md
+            - name: Запуск слежения
+              href: advanced-hunting-go-hunt.md
+            - name: Оптимизация и обработка ошибок
+              items:
+                - name: Применение рекомендаций по использованию запросов
+                  href: advanced-hunting-best-practices.md
+                - name: Обработка ошибок
+                  href: advanced-hunting-errors.md
+                - name: Квоты и параметры использования
+                  href: advanced-hunting-limits.md
+                - name: Расширение охвата данных
+                  href: advanced-hunting-extend-data.md
+                - name: Схема данных
+                  items:
+                    - name: Сведения о схеме
+                      href: advanced-hunting-schema-tables.md
+                    - name: Изменения именования схемы
+                      href: advanced-hunting-schema-changes.md
+                    - name: AADSignInEventsBeta
+                      href: advanced-hunting-aadsignineventsbeta-table.md
+                    - name: AADSpnSignInEventsBeta
+                      href: advanced-hunting-aadspnsignineventsbeta-table.md
+                    - name: AlertEvidence
+                      href: advanced-hunting-alertevidence-table.md
+                    - name: AlertInfo
+                      href: advanced-hunting-alertinfo-table.md
+                    - name: AppFileEvents
+                      href: advanced-hunting-appfileevents-table.md
+                    - name: CloudAppEvents
+                      href: advanced-hunting-cloudappevents-table.md
+                    - name: DeviceEvents
+                      href: advanced-hunting-deviceevents-table.md
+                    - name: DeviceFileCertificateInfo
+                      href: advanced-hunting-devicefilecertificateinfo-table.md
+                    - name: DeviceFileEvents
+                      href: advanced-hunting-devicefileevents-table.md
+                    - name: DeviceImageLoadEvents
+                      href: advanced-hunting-deviceimageloadevents-table.md
+                    - name: DeviceInfo
+                      href: advanced-hunting-deviceinfo-table.md
+                    - name: DeviceLogonEvents
+                      href: advanced-hunting-devicelogonevents-table.md
+                    - name: DeviceNetworkEvents
+                      href: advanced-hunting-devicenetworkevents-table.md
+                    - name: DeviceNetworkInfo
+                      href: advanced-hunting-devicenetworkinfo-table.md
+                    - name: DeviceProcessEvents
+                      href: advanced-hunting-deviceprocessevents-table.md
+                    - name: DeviceRegistryEvents
+                      href: advanced-hunting-deviceregistryevents-table.md
+                    - name: DeviceTvmSecureConfigurationAssessment
+                      href: advanced-hunting-devicetvmsecureconfigurationassessment-table.md
+                    - name: DeviceTvmSecureConfigurationAssessmentKB
+                      href: advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md
+                    - name: DeviceTvmSoftwareInventory
+                      href: advanced-hunting-devicetvmsoftwareinventory-table.md
+                    - name: DeviceTvmSoftwareVulnerabilities
+                      href: advanced-hunting-devicetvmsoftwarevulnerabilities-table.md
+                    - name: DeviceTvmSoftwareVulnerabilitiesKB
+                      href: advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md
+                    - name: EmailAttachmentInfo
+                      href: advanced-hunting-emailattachmentinfo-table.md
+                    - name: EmailEvents
+                      href: advanced-hunting-emailevents-table.md
+                    - name: EmailPostDeliveryEvents
+                      href: advanced-hunting-emailpostdeliveryevents-table.md
+                    - name: EmailUrlInfo
+                      href: advanced-hunting-emailurlinfo-table.md
+                    - name: IdentityDirectoryEvents
+                      href: advanced-hunting-identitydirectoryevents-table.md
+                    - name: IdentityInfo
+                      href: advanced-hunting-identityinfo-table.md
+                    - name: IdentityLogonEvents
+                      href: advanced-hunting-identitylogonevents-table.md
+                    - name: IdentityQueryEvents
+                      href: advanced-hunting-identityqueryevents-table.md
+                - name: Функции
+                  items:
+                    - name: AssignedIPAddresses()
+                      href: advanced-hunting-assignedipaddresses-function.md
+                    - name: DeviceFromIP()
+                      href: advanced-hunting-devicefromip-function.md
+                    - name: FileProfile()
+                      href: advanced-hunting-fileprofile-function.md
+                - name: Настраиваемое обнаружение
+                  items:
+                    - name: Обзор настраиваемых обнаружений
+                      href: custom-detections-overview.md
+                    - name: Создание и управление правилами обнаружения
+                      href: custom-detection-rules.md
+        - name: Эксперты Майкрософт по угрозам
+          items:
+            - name: Обзор экспертов Майкрософт по угрозам
+              href: ../mtp/microsoft-threat-experts.md
+            - name: Настройка возможностей экспертов Майкрософт по угрозам и управление ими
+              href: ../mtp/configure-microsoft-threat-experts.md
+    - name: Практические руководства
+      items:
+        - name: Создание испытательной лабораторной или пилотной среды
+          href: m365d-evaluation.md
+        - name: Сборник схем по запуску пилотного проекта
+          href: m365d-pilot.md
+        - name: Включение вопросов и ответов
+          href: m365d-enable-faq.md
+    - name: Справочные материалы
+      items:
+        - name: Разрешения и параметры
+          items:
+            - name: Управление доступом
+              href: m365d-permissions.md
+            - name: Настраиваемые роли в доступе на основе ролей
+              href: custom-roles.md
+            - name: Установка часового пояса
+              href: m365d-time-zone.md
+            - name: Просмотр профилей устройств
+              href: device-profile.md
+            - name: Предоставление отзывов
+              href: feedback.md
+            - name: Предоставление доступа к поставщику управляемой службы (MSSP)
+              href: mssp-access.md
+            - name: Создание запросов и задач ServiceNow
+              items:
+                - name: Общие сведения об интеграции с ServiceNow
+                  href: ./tickets.md
+            - name: API Microsoft 365 Defender (предварительная версия)
+              items:
+                - name: Обзор API Microsoft 365 Defender (предварительная версия)
+                  href: api-overview.md
+                - name: Начало работы с API Microsoft 365 Defender (предварительная версия)
+                  items:
+                    - name: Лицензия и условия использования API Microsoft 365 Defender
+                      href: api-terms.md
+                    - name: Доступ к API Microsoft 365 Defender
+                      href: api-access.md
+                    - name: Пример Hello World
+                      href: api-hello-world.md
+                    - name: Получение доступа в контексте приложения
+                      href: api-create-app-web.md
+                    - name: Получение доступа в контексте пользователя
+                      href: api-create-app-user-context.md
+                    - name: Получение доступа для партнерских приложений
+                      href: api-partner-access.md
+                    - name: Другие ресурсы API
+                      href: api-articles.md
+                - name: Схема и API Microsoft 365 Defender (предварительная версия)
+                  items:
+                    - name: Поддерживаемые API Microsoft 365 Defender
+                      href: api-supported.md
+                    - name: Коды распространенных ошибок REST API
+                      href: api-error-codes.md
+                    - name: Программный интерфейс расширенной охоты
+                      href: api-advanced-hunting.md
+                    - name: 'Программные интерфейсы, относящиеся к инцидентам'
+                      items:
+                        - name: 'Методы и свойства, относящиеся к инцидентам'
+                          href: api-incident.md
+                        - name: Получение списка инцидентов
+                          href: api-list-incidents.md
+                        - name: Обновление данных об инциденте
+                          href: api-update-incidents.md
+    - name: Microsoft Defender для Office 365
+      href: ../office-365-security/index.yml
+    - name: Microsoft Defender для конечной точки
+      href: ../defender-endpoint/index.yml
+    - name: Microsoft Defender для удостоверений
+      href: /defender-for-identity

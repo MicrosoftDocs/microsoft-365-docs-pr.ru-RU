@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Сведения о действиях и последствиях перехода из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в службы Office 365 в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 5764b5cedf17487320fbfd05885120de86da3a84
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 481447fa291354b3377648089cff193a2ad6fc2a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029066"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061089"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Миграция фазы действий и последствий для миграции из Microsoft Cloud Deutschland
 
 Миграции клиента из Microsoft Cloud Deutschland (MCD) в регион "Германия" глобальных служб Microsoft Office 365 выполняются в наборе этапов и их настроенных действий для каждой рабочей нагрузки. На этом рисунке показаны десять этапов миграции в новые немецкие центра обработки данных.
 
-![Десять этапов миграции в новые центр обработки данных в Германии](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+[![Десять этапов миграции в новые центр обработки данных в Германии ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)](../media/ms-cloud-germany-migration-opt-in/migration-organization.png#lightbox)
 
 Процесс миграции будет завершен в течение многих недель в зависимости от общего размера и сложности организации. В то время как миграция продолжается, пользователи и администраторы могут продолжать использовать службы с заметными изменениями, подробными в этой документации. График и таблица определяют этапы и действия во время миграции.
 
@@ -125,7 +125,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 |:-------|:-----|:-------|
 | SharePoint и OneDrive переходят | На этом этапе SharePoint Online и OneDrive для бизнеса переносят из Microsoft Cloud Deutschland в глобальные службы Office 365.<br><ul><li>Существующие URL-адреса Microsoft Cloud Deutschland сохраняются (например, `contoso.sharepoint.de` ).</li><li>Существующие сайты сохраняются.</li><li>Маркеры проверки подлинности на стороне клиента, которые были выданы службой маркеров безопасности (STS) в экземпляре Microsoft Cloud Deutschland или Office 365 Global services, действительны во время перехода.</li></ul>|<ul><li>Содержимое будет читаться только в течение двух кратких периодов во время миграции. В течение этого времени следует ожидать баннера "Вы не можете изменить контент" в SharePoint.</li><li>Индекс поиска не будет сохранен и может потребоваться до 10 дней, чтобы восстановить его.</li><li>Контент SharePoint Online и OneDrive для бизнеса будет читаться только в течение двух кратких периодов во время миграции. В течение этого времени пользователи увидят баннер "You can't edit content".</li><li>По завершении миграции SharePoint Online результаты поиска контента SharePoint Online и OneDrive для бизнеса могут быть недоступны во время перестроеки индекса. В течение этого периода поисковые запросы могут не возвращать полные результаты. Функции, зависящие от индексов поиска, например SharePoint Online News, могут быть затронуты во время завершения повторного выполнения.</li><li>Рабочий процесс SharePoint 2013 будет нарушен во время миграции и должен быть переиздаван после миграции.</li></ul>
 |**Администратор SPO:** переопубликовка процессов SharePoint 2013| Администратор SharePoint Online переиздает рабочий процесс SharePoint 2013 после миграции.|Доступны рабочий процесс SharePoint 2013.
-|**PowerShell user:** Update to new module| Всем пользователям модуля Powerhell SharePoint Online необходимо обновить модуль/Microsoft.SharePointOnline.CSOM до версии 16.0.20717.12000 или более после завершения миграции SharePoint Online. Завершение сообщения передается в центре сообщений.| SharePoint Online с помощью PowerShell или клиентской объектной модели больше не будет сбой.
+|**PowerShell user:** Update to new module| Всем пользователям модуля PowerShell SharePoint Online необходимо обновить модуль/Microsoft.SharePointOnline.CSOM до версии 16.0.20717.12000 или более после завершения миграции SharePoint Online. Завершение сообщения передается в центре сообщений.| SharePoint Online с помощью PowerShell или клиентской объектной модели больше не будет сбой.
 ||||
 
 Дополнительные соображения:

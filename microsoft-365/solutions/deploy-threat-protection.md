@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: ea28e9c244b6b8faaeb9b1f3685d57169605cbb9
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 0edc3847d6b832f254c6f289355570a3a044b1f4
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650318"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061041"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Развертывание возможностей защиты от угроз в Microsoft 365 E5
 
-Это решение описывает мощные возможности защиты от угроз в Microsoft 365 E5. Ознакомьтесь с этим решением, чтобы получить представление о том, что включено, как оно работает и как начать развертывание этих возможностей в организации.
+В этом решении описываются мощные возможности защиты от угроз в Microsoft 365 E5 и то, почему эти возможности важны. Ознакомьтесь с этим решением, чтобы получить обзор того, что включено в Microsoft 365 E5, как работают возможности защиты от угроз и как настроить защиту от угроз в организации.
 
-## <a name="why-protecting-against-threats-is-important"></a>Почему важна защита от угроз 
+## <a name="why-threat-protection-is-important"></a>Почему защита от угроз важна 
 
 [Вредоносные](/windows/security/threat-protection/intelligence/understanding-malware)программы и сложные кибератаки, такие как [угрозы](/windows/security/threat-protection/intelligence/fileless-threats)без файлов, являются распространенным явлением. Предприятиям необходимо защитить себя и своих клиентов эффективными возможностями ИТ-безопасности. Кибератаки могут вызвать серьезные проблемы для организации, начиная от потери доверия до финансовых проблем, простоев, угрожающих бизнесу, и т. д. Защита от угроз имеет важное значение, но может быть сложно определить, где сосредоточить время, усилия и ресурсы организации. Microsoft 365 E5 может помочь. 
 

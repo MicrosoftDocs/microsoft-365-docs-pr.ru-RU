@@ -2,10 +2,10 @@
 title: Комплект лаборатории развертывания Windows и Office
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: greglin
+author: greg-lindsay
 manager: laurawi
-ms.date: 08/10/2020
+ms.date: 04/26/2021
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: efbcec6417b082311d3f094b0251702d8e0dbeac
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: c0cf3ce239ed91261bd6e53cf317a7053168509a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028668"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060877"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект лаборатории развертывания Windows и Office
 
@@ -104,23 +104,15 @@ ms.locfileid: "52028668"
 ## <a name="additional-guidance"></a>Дополнительные рекомендации
 
   - [Видеоролики серии "Развертывание компьютеров" от Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
-
   - [Развертывание ОС в Microsoft Endpoint Configuration Manager](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
-
   - [Планирование развертывания Windows 10](/windows/deployment/planning/index)
-
   - [Руководство по развертыванию Приложений Microsoft 365](/deployoffice/deployment-guide-microsoft-365-apps)
-
   - [Начало работы с Intune](/intune/get-started-evaluation)
 
 ## <a name="related-resources"></a>Связанные ресурсы
 
   - [Представляем Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)
-
   - [Office 365 для бизнеса](https://products.office.com/business/office)
-
   - [Представляем Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
-
   - [Windows 10 для предприятий](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise)
-
   - [Windows 10 для малого и среднего бизнеса](https://www.microsoft.com/WindowsForBusiness/windows-for-small-business)
