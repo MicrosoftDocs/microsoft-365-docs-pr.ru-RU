@@ -118,8 +118,6 @@
           href: create-a-keyword-dictionary.md
         - name: Создание отпечатка документа
           href: document-fingerprinting.md
-        - name: Функции защиты от потери данных для конфиденциальной информации
-          href: what-the-dlp-functions-look-for.md
     - name: Обучаемые классификаторы
       items:
         - name: Информация об обучаемых классификаторах
