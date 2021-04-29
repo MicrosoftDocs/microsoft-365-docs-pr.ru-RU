@@ -49,7 +49,163 @@
 #### [Объекты групповой политики](manage-atp-post-migration-group-policy-objects.md)
 #### [PowerShell, WMI и MPCmdRun.exe](manage-atp-post-migration-other-tools.md)
 
-## [Администрирование безопасности]()
+
+## [Настройка и внедрение устройств]()
+### [Microsoft Defender для конечной точки и сервер Windows]()
+#### [Подключение устройств к Microsoft Defender для конечной точки](onboard-configure.md)
+#### [Подключение предыдущих версий Windows](onboard-downlevel.md)
+#### [Подключение устройств Windows 10]()
+##### [Средства и методы подключения](configure-endpoints.md)
+##### [Подключение устройств с помощью групповой политики](configure-endpoints-gp.md)
+##### [Подключение устройств с помощью Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+##### [Подключение устройств с помощью средств управления мобильными устройствами](configure-endpoints-mdm.md)
+##### [Подключение устройств с помощью локального сценария](configure-endpoints-script.md)
+##### [Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)](configure-endpoints-vdi.md)
+##### [Подключение многосеансовых устройств Windows 10 на виртуальном рабочем столе Windows](Onboard-Windows-10-multi-session-device.md)
+#### [Подключение серверов Windows](configure-server-endpoints.md)
+
+#### [Подключение устройств без доступа к Интернету](onboard-offline-machines.md)
+#### [Запуск теста обнаружения на новом подключенном устройстве](run-detection-test.md)
+#### [Запуск имитации атак на устройствах](attack-simulations.md)
+#### [Настройка параметров прокси-сервера и соединения с Интернетом](configure-proxy-internet.md)
+#### [Создание правила уведомления о подключении или отключении](onboarding-notification.md)
+
+### [Microsoft Defender для конечной точки на других операционных системах]()
+#### [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)
+
+#### [Microsoft Defender для конечной точки в macOS]()
+##### [Обзор Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md)
+##### [Новые возможности](mac-whatsnew.md)
+ 
+##### [Развертывание]()
+###### [Развертывание на основе Microsoft Intune](mac-install-with-intune.md)
+###### [Развертывание на основе JAMF Pro]()
+####### [Развертывание Microsoft Defender для конечной точки в macOS с помощью Jamf Pro](mac-install-with-jamf.md)
+####### [Вход в Jamf Pro](mac-install-jamfpro-login.md)
+####### [Настройка групп устройств](mac-jamfpro-device-groups.md)
+####### [Настройка политик](mac-jamfpro-policies.md)
+####### [Регистрация устройств](mac-jamfpro-enroll-devices.md)
+ 
+###### [Развертывание с помощью другой системы управления мобильными устройствами (MDM)](mac-install-with-other-mdm.md)
+###### [Ручное развертывание](mac-install-manually.md)
+##### [Обновление](mac-updates.md)
+ 
+##### [Настройка]()
+###### [Настройка и проверка исключений](mac-exclusions.md)
+###### [Настройка параметров](mac-preferences.md)
+###### [Обнаружение и блокировка потенциально нежелательных приложений](mac-pua.md)
+###### [Управление устройством]()
+####### [Обзор управления устройством](mac-device-control-overview.md)
+####### [Примеры JAMF](mac-device-control-jamf.md)
+####### [Примеры Intune](mac-device-control-intune.md)
+###### [Планирование проверок](mac-schedule-scan.md)
+ 
+##### [Устранение неполадок]()
+###### [Устранение неполадок при установке](mac-support-install.md)
+###### [Устранение неполадок с производительностью](mac-support-perf.md)
+###### [Устранение неполадок с облачными подключениями](troubleshoot-cloud-connect-mdemac.md)
+###### [Устранение неполадок с расширением ядра](mac-support-kext.md)
+###### [Устранение неполадок с лицензиями](mac-support-license.md)
+ 
+##### [Конфиденциальность](mac-privacy.md)
+##### [Ресурсы](mac-resources.md)
+
+
+#### [Microsoft Defender для конечной точки в iOS]()
+##### [Обзор Microsoft Defender для конечной точки в iOS](microsoft-defender-endpoint-ios.md)
+##### [Новые возможности](ios-whatsnew.md)
+ 
+##### [Развертывание]()
+###### [Развертывание Microsoft Defender для конечной точки в iOS с помощью Intune](ios-install.md)
+ 
+##### [Настройка]()
+###### [Настройка функций iOS](ios-configure-features.md)
+##### [Конфиденциальность](ios-privacy.md)
+ 
+ 
+#### [Microsoft Defender для конечной точки в Linux]()
+##### [Обзор Microsoft Defender для конечной точки в Linux](microsoft-defender-endpoint-linux.md)
+##### [Новые возможности](linux-whatsnew.md)
+##### [Развертывание]()
+###### [Ручное развертывание](linux-install-manually.md)
+###### [Развертывание на основе Puppet](linux-install-with-puppet.md)
+###### [Развертывание на основе Ansible](linux-install-with-ansible.md)
+ 
+##### [Обновление](linux-updates.md)
+ 
+##### [Настройка]()
+###### [Настройка и проверка исключений](linux-exclusions.md)
+###### [Конфигурация статического прокси-сервера](linux-static-proxy-configuration.md)
+###### [Настройка параметров](linux-preferences.md)
+###### [Обнаружение и блокировка потенциально нежелательных приложений](linux-pua.md)
+###### [Планирование проверок с помощью Microsoft Defender для конечной точки в Linux](linux-schedule-scan-atp.md)
+###### [Планирование обновления Microsoft Defender для конечной точки для Linux](linux-update-MDE-Linux.md)
+###### [Развертывание Defender для конечной точки в Linux с помощью Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+ 
+##### [Устранение неполадок]()
+###### [Устранение неполадок при установке](linux-support-install.md)
+###### [Устранение неполадок с облачными подключениями](linux-support-connectivity.md)
+###### [Устранение неполадок с производительностью](linux-support-perf.md)
+###### [Устранение неполадок с отсутствующими событиями](linux-support-events.md)
+ 
+##### [Конфиденциальность](linux-privacy.md)
+##### [Ресурсы](linux-resources.md)
+ 
+#### [Microsoft Defender для конечной точки на Android]()
+##### [Обзор Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md)
+ 
+##### [Развертывание]()
+###### [Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune](android-intune.md)
+ 
+##### [Настройка]()
+###### [Настройка функций Microsoft Defender для конечной точки на Android](android-configure.md)
+ 
+##### [Конфиденциальность]()
+###### [Microsoft Defender для конечной точки на Android — сведения о конфиденциальности](android-privacy.md)
+ 
+##### [Устранение неполадок]()
+###### [Поиск и устранение неполадок](android-support-signin.md)
+
+### [Устранение неполадок с подключением]()
+#### [Устранение неполадок при подключении](troubleshoot-onboarding.md)
+#### [Устранение неполадок доступа к подписке и порталу](troubleshoot-onboarding-error-messages.md).
+
+
+
+
+### [Настройка параметров портала]()
+#### [Настройка параметров](preferences-setup.md)
+#### [Общие]()
+##### [Проверка местоположения хранилища данных и обновление параметров хранения данных](data-retention-settings.md)
+##### [Настройка уведомлений оповещений](configure-email-notifications.md)
+##### [Настройка дополнительных функций](advanced-features.md)
+
+#### [Разрешения]()
+##### [Использование основных разрешений для доступа к порталу](basic-permissions.md)
+##### [Управление доступом к порталу с помощью RBAC](rbac.md)
+###### [Создание ролей и управление ими](user-roles.md)
+###### [Создание групп устройств и управление ими](machine-groups.md)
+###### [Создание тегов устройств и управление ими](machine-tags.md)
+
+#### [Правила]()
+##### [Управление правилами подавления](manage-suppression-rules.md)
+##### [Создание индикаторов](manage-indicators.md)
+###### [Создание индикаторов для файлов](indicator-file.md)
+###### [Создание индикаторов для протоколов IP и URL-адресов или доменов](indicator-ip-domain.md)
+###### [Создание индикаторов для сертификатов](indicator-certificates.md)
+###### [Управление индикаторами](indicator-manage.md)
+##### [Управление отправкой файлов автоматизации](manage-automation-file-uploads.md)
+##### [Управление исключениями папок автоматизации](manage-automation-folder-exclusions.md)
+
+#### [Управление устройствами]()
+##### [Подключение устройств](onboard-configure.md)
+##### [Отключение устройств](offboard-machines.md)
+##### [Убедитесь, что ваши устройства настроены правильно](configure-machines.md)
+##### [Мониторинг и увеличение числа подключенных устройств](configure-machines-onboarding.md)
+
+#### [Настройка параметров часового пояса Центра безопасности в Microsoft Defender](time-settings.md)
+
+## [Обнаружение угроз и защита конечных точек]()
 ### [Управление контролем угроз и уязвимостями]()
 #### [Обзор](next-gen-threat-and-vuln-mgt.md)
 #### [Начало работы]()
@@ -73,6 +229,13 @@
 ##### [Отчет об уязвимых устройствах](tvm-vulnerable-devices-report.md)
 ##### [Поиск представленных устройств](tvm-hunt-exposed-devices.md)
 
+### [Обнаружение устройств]()
+#### [Обзор обнаружения устройств](device-discovery.md)
+#### [Настройка обнаружения устройств](configure-device-discovery.md)
+#### [Обнаружение устройств: вопросы и ответы](device-discovery-faq.md)
+
+### [Сетевые устройства](network-devices.md)
+
 ### [Сокращение направлений атак]()
 #### [Обзор сокращения направлений атак](overview-attack-surface-reduction.md)
 #### [Оценка правил сокращения направлений атак](evaluate-attack-surface-reduction.md)
@@ -84,6 +247,8 @@
 ##### [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
 ##### [Настройка правил сокращения направлений атак](customize-attack-surface-reduction.md)
 ##### [Просмотр событий сокращения направлений атак](event-views.md)
+
+#### [Использовать режим аудита](audit-windows-defender.md)
 
 ### Защита нового поколения
 #### [Обзор антивирусной программы в Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md)
@@ -179,112 +344,21 @@
 ##### [Отчеты управления устройством](device-control-report.md)
 ##### [Управление USB-устройствами](control-usb-devices-using-intune.md)
 
-### [Обнаружение устройств]()
-#### [Обзор обнаружения устройств](device-discovery.md)
-#### [Настройка обнаружения устройств](configure-device-discovery.md)
-#### [Обнаружение устройств: вопросы и ответы](device-discovery-faq.md)
+#### [Блокировка с учетом поведения и автономность]()
+##### [Блокировка с учетом поведения и автономность](behavioral-blocking-containment.md)
+##### [Блокировка с учетом поведения клиента](client-behavioral-blocking.md)
+##### [Блокировка циклов обратной связи](feedback-loop-blocking.md)
 
 
-### [Сетевые устройства](network-devices.md)
-
-### [Microsoft Defender для конечной точки в macOS]()
-#### [Обзор Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md)
-#### [Новые возможности](mac-whatsnew.md)
-
-#### [Развертывание]()
-##### [Развертывание на основе Microsoft Intune](mac-install-with-intune.md)
-##### [Развертывание на основе JAMF Pro]()
-###### [Развертывание Microsoft Defender для конечной точки в macOS с помощью Jamf Pro](mac-install-with-jamf.md)
-###### [Вход в Jamf Pro](mac-install-jamfpro-login.md)
-###### [Настройка групп устройств](mac-jamfpro-device-groups.md)
-###### [Настройка политик](mac-jamfpro-policies.md)
-###### [Регистрация устройств](mac-jamfpro-enroll-devices.md)
-
-##### [Развертывание с помощью другой системы управления мобильными устройствами (MDM)](mac-install-with-other-mdm.md)
-##### [Ручное развертывание](mac-install-manually.md)
-#### [Обновление](mac-updates.md)
-
-#### [Настройка]()
-##### [Настройка и проверка исключений](mac-exclusions.md)
-##### [Настройка параметров](mac-preferences.md)
-##### [Обнаружение и блокировка потенциально нежелательных приложений](mac-pua.md)
-##### [Управление устройством]()
-###### [Обзор управления устройством](mac-device-control-overview.md)
-###### [Примеры JAMF](mac-device-control-jamf.md)
-###### [Примеры Intune](mac-device-control-intune.md)
-##### [Планирование проверок](mac-schedule-scan.md)
-
-#### [Устранение неполадок]()
-##### [Устранение неполадок при установке](mac-support-install.md)
-##### [Устранение неполадок с производительностью](mac-support-perf.md)
-##### [Устранение неполадок с облачными подключениями](troubleshoot-cloud-connect-mdemac.md)
-##### [Устранение неполадок с расширением ядра](mac-support-kext.md)
-##### [Устранение неполадок с лицензиями](mac-support-license.md)
-
-#### [Конфиденциальность](mac-privacy.md)
-#### [Ресурсы](mac-resources.md)
-
-### [Microsoft Defender для конечной точки в iOS]()
-#### [Обзор Microsoft Defender для конечной точки в iOS](microsoft-defender-endpoint-ios.md)
-#### [Новые возможности](ios-whatsnew.md)
-
-#### [Развертывание]()
-##### [Развертывание Microsoft Defender для конечной точки в iOS с помощью Intune](ios-install.md)
-
-#### [Настройка]()
-##### [Настройка функций iOS](ios-configure-features.md)
-#### [Конфиденциальность](ios-privacy.md)
+### [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)
 
 
-### [Microsoft Defender для конечной точки в Linux]()
-#### [Обзор Microsoft Defender для конечной точки в Linux](microsoft-defender-endpoint-linux.md)
-#### [Новые возможности](linux-whatsnew.md)
-#### [Развертывание]()
-##### [Ручное развертывание](linux-install-manually.md)
-##### [Развертывание на основе Puppet](linux-install-with-puppet.md)
-##### [Развертывание на основе Ansible](linux-install-with-ansible.md)
-##### [Развертывание Defender для конечной точки в Linux с помощью Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+### [Управление конфигурацией устройства]()
 
+#### [Повышение соответствия требованиям базовой конфигурации безопасности](configure-machines-security-baseline.md)
+#### [Оптимизация развертывания и обнаружений правил сокращения направлений атак](configure-machines-asr.md)
 
-#### [Обновление](linux-updates.md)
-
-#### [Настройка]()
-##### [Настройка и проверка исключений](linux-exclusions.md)
-##### [Конфигурация статического прокси-сервера](linux-static-proxy-configuration.md)
-##### [Настройка параметров](linux-preferences.md)
-##### [Обнаружение и блокировка потенциально нежелательных приложений](linux-pua.md)
-##### [Планирование проверок с помощью Microsoft Defender для конечной точки в Linux](linux-schedule-scan-atp.md)
-##### [Планирование обновления Microsoft Defender для конечной точки для Linux](linux-update-MDE-Linux.md)
-
-#### [Устранение неполадок]()
-##### [Устранение неполадок при установке](linux-support-install.md)
-##### [Устранение неполадок с облачными подключениями](linux-support-connectivity.md)
-##### [Устранение неполадок с производительностью](linux-support-perf.md)
-##### [Устранение неполадок с отсутствующими событиями](linux-support-events.md)
-
-#### [Конфиденциальность](linux-privacy.md)
-#### [Ресурсы](linux-resources.md)
-
-### [Microsoft Defender для конечной точки на Android]()
-#### [Обзор Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md)
-
-#### [Развертывание]()
-##### [Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune](android-intune.md)
-
-#### [Настройка]()
-##### [Настройка функций Microsoft Defender для конечной точки на Android](android-configure.md)
-
-#### [Конфиденциальность]()
-##### [Microsoft Defender для конечной точки на Android — сведения о конфиденциальности](android-privacy.md)
-
-#### [Устранение неполадок]()
-##### [Поиск и устранение неполадок](android-support-signin.md)
-
-
-### [Настройка возможностей экспертов Майкрософт по угрозам и управление ими](configure-microsoft-threat-experts.md)
-
-## [Операции, связанные с обеспечением безопасности]()
-
+## [Изучение оповещений и реагирование на них]()
 ### [Обнаружение и устранение угроз на конечных точках]()
 #### [Обзор обнаружения и устранения угроз на конечных точках](overview-endpoint-detection-response.md)
 #### [Панель мониторинга операций безопасности](security-operations-dashboard.md)
@@ -347,96 +421,31 @@
 ##### [Отчеты о защите от угроз](threat-protection-reports.md)
 #### [Отчеты о работоспособности устройств и соответствии требованиям](machine-reports.md)
 
-### [Блокировка с учетом поведения и автономность]()
-#### [Блокировка с учетом поведения и автономность](behavioral-blocking-containment.md)
-#### [Блокировка с учетом поведения клиента](client-behavioral-blocking.md)
-#### [Блокировка циклов обратной связи](feedback-loop-blocking.md)
-#### [EDR в режиме блокировки](edr-in-block-mode.md)
+### [Расширенная охота]()
+#### [Обзор расширенной охоты](advanced-hunting-overview.md)
+#### [Сведения о схеме](advanced-hunting-schema-reference.md)
+#### [DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)
+
+### [Обзор аналитики угроз](threat-analytics.md)
+#### [Чтение аналитического отчета](threat-analytics-analyst-reports.md)
+
+### [EDR в режиме блокировки](edr-in-block-mode.md)
 
 ### [Автоматическое исследование и реагирование (AIR)]()
 #### [Обзор AIR](automated-investigations.md)
 #### [Уровни автоматизации в AIR](automation-levels.md)
 #### [Настройка возможностей AIR](configure-automated-investigations-remediation.md)
 
-### [Расширенная охота]()
-#### [Обзор расширенной охоты](advanced-hunting-overview.md)
-#### [Сведения о схеме](advanced-hunting-schema-reference.md)
-#### [DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)
+### [Эксперты Майкрософт по угрозам]()
+#### [Обзор экспертов Майкрософт по угрозам](microsoft-threat-experts.md)
+#### [Настройка возможностей экспертов Майкрософт по угрозам и управление ими](configure-microsoft-threat-experts.md)
 
-### [Эксперты Майкрософт по угрозам](microsoft-threat-experts.md)
 
-### [Обзор аналитики угроз](threat-analytics.md)
-#### [Чтение аналитического отчета](threat-analytics-analyst-reports.md)
 
-## [Практическое руководство]()
-### [Подключение устройств к службе]()
-#### [Подключение устройств к Microsoft Defender для конечной точки](onboard-configure.md)
-#### [Подключение предыдущих версий Windows](onboard-downlevel.md)
-#### [Подключение устройств Windows 10]()
-##### [Средства и методы подключения](configure-endpoints.md)
-##### [Подключение устройств с помощью групповой политики](configure-endpoints-gp.md)
-##### [Подключение устройств с помощью Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
-##### [Подключение устройств с помощью средств управления мобильными устройствами](configure-endpoints-mdm.md)
-##### [Подключение устройств с помощью локального сценария](configure-endpoints-script.md)
-##### [Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)](configure-endpoints-vdi.md)
-##### [Подключение многосеансовых устройств Windows 10 на виртуальном рабочем столе Windows](Onboard-Windows-10-multi-session-device.md)
-#### [Подключение серверов Windows](configure-server-endpoints.md)
-#### [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)
-#### [Подключение устройств без доступа к Интернету](onboard-offline-machines.md)
-#### [Запуск теста обнаружения на новом подключенном устройстве](run-detection-test.md)
-#### [Запуск имитации атак на устройствах](attack-simulations.md)
-#### [Настройка параметров прокси-сервера и соединения с Интернетом](configure-proxy-internet.md)
-#### [Создание правила уведомления о подключении или отключении](onboarding-notification.md)
- 
-#### [Устранение неполадок с подключением]()
-##### [Устранение неполадок при подключении](troubleshoot-onboarding.md)
-##### [Устранение неполадок доступа к подписке и порталу](troubleshoot-onboarding-error-messages.md).
-
-### [Управление конфигурацией устройства]()
-#### [Убедитесь, что ваши устройства настроены правильно](configure-machines.md)
-#### [Мониторинг и увеличение числа подключенных устройств](configure-machines-onboarding.md)
-#### [Повышение соответствия требованиям базовой конфигурации безопасности](configure-machines-security-baseline.md)
-#### [Оптимизация развертывания и обнаружений правил сокращения направлений атак](configure-machines-asr.md)
-
-### [Настройка параметров портала]()
-#### [Настройка параметров](preferences-setup.md)
-#### [Общие]()
-##### [Проверка местоположения хранилища данных и обновление параметров хранения данных](data-retention-settings.md)
-##### [Настройка уведомлений оповещений](configure-email-notifications.md)
-##### [Настройка дополнительных функций](advanced-features.md)
-
-#### [Разрешения]()
-##### [Использование основных разрешений для доступа к порталу](basic-permissions.md)
-##### [Управление доступом к порталу с помощью RBAC](rbac.md)
-###### [Создание ролей и управление ими](user-roles.md)
-###### [Создание групп устройств и управление ими](machine-groups.md)
-###### [Создание тегов устройств и управление ими](machine-tags.md)
-
-#### [Правила]()
-##### [Управление правилами подавления](manage-suppression-rules.md)
-##### [Создание индикаторов](manage-indicators.md)
-###### [Создание индикаторов для файлов](indicator-file.md)
-###### [Создание индикаторов для протоколов IP и URL-адресов или доменов](indicator-ip-domain.md)
-###### [Создание индикаторов для сертификатов](indicator-certificates.md)
-###### [Управление индикаторами](indicator-manage.md)
-##### [Управление отправкой файлов автоматизации](manage-automation-file-uploads.md)
-##### [Управление исключениями папок автоматизации](manage-automation-folder-exclusions.md)
-
-#### [Управление устройствами]()
-##### [Подключение устройств](onboard-configure.md)
-##### [Отключение устройств](offboard-machines.md)
-
-#### [Настройка параметров часового пояса Центра безопасности в Microsoft Defender](time-settings.md)
-
-### [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)
-
+## Справочные материалы
 ### [Настройка интеграции с другими решениями Майкрософт]()
 #### [Настройка условного доступа](configure-conditional-access.md)
 #### [Настройка интеграции Microsoft Cloud App Security](microsoft-cloud-app-security-config.md)
-
-### [Использовать режим аудита](audit-windows-defender.md)
-
-## Справка
 ### [Управление и интерфейсы API]()
 #### [Обзор управления и интерфейсов API](management-apis.md)
 #### [Заметки о выпуске API](api-release-notes.md)
