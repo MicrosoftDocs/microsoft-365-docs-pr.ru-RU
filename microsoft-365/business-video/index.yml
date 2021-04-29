@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Обучение по Microsoft 365 для малого бизнеса
-summary: Узнайте, как настроить и управлять Microsoft 365 для вашего бизнеса.
+summary: 'Узнайте, как настроить и управлять Microsoft 365 для вашего бизнеса.'
 brand: m365
 metadata:
   title: Обучение по Microsoft 365 для малого бизнеса
@@ -13,72 +13,66 @@ metadata:
   ms.date: 12/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 0c9ba8560c2ee64b8e0da4d14afe869006bd6ed8
-  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
-  ms.translationtype: MT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/02/2021
-  ms.locfileid: "51580574"
 productDirectory:
   items:
-  - title: Начало работы
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Планирование вашего перемещения в Microsoft 365 для бизнеса.
-    url: what-is-microsoft-365.md
-  - title: Настройка Microsoft 365 для бизнеса
-    imageSrc: https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg
-    summary: Добавление домена, добавление пользователей, настройка политик безопасности...
-    url: sign-up.md
-  - title: Настройка компьютеров
-    imageSrc: https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg
-    summary: Установка Office, настройка электронной почты, перенос файлов...
-    url: upgrade.md
-  - title: Настройка мобильных устройств
-    imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
-    summary: Установка приложений Office на мобильных устройствах.
-    url: work-from-anywhere.md
-  - title: Сотрудничество с другими людьми
-    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
-    summary: Работа с сотрудниками и клиентами в Teams.
-    url: collab-outlook-teams.md
-  - title: Хранение и совместное хранение файлов
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg
-    summary: Хранить файлы безопасно и получать доступ из любой точки.
-    url: overview-file-sharing.md
-  - title: Настройка бизнес-голоса
-    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
-    summary: Настройка телефонной службы и телефонных разговоров.
-    url: business-voice.md
-  - title: Настройка бизнес-приложений
-    imageSrc: https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg
-    summary: Настройка и информация о резервированиях, списках, задачах...
-    url: overview-bookings.md
-  - title: Управление подпиской
-    imageSrc: https://docs.microsoft.com/office/media/icons/settings.svg
-    summary: Управление пользователями, сброс паролей, просмотр счета...
-    url: what-is-admin.md
-  - title: Управление устройствами
-    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-blue.svg
-    summary: Настройка политик для личных и work devices.
-    url: secure-win-10-pro-devices.md
-  - title: Защита компании
-    imageSrc: https://docs.microsoft.com/office/media/icons/security-blue.svg
-    summary: Настройка функций безопасности и соответствия требованиям.
-    url: overview-m365-security.md
-  - title: Получение поддержки
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-blue.svg
-    summary: Получите помощь в Microsoft 365 для бизнеса.
-    url: find-help-answers.md
+    - title: Начало работы
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      summary: Планирование вашего перемещения в Microsoft 365 для бизнеса.
+      url: what-is-microsoft-365.md
+    - title: Настройка Microsoft 365 для бизнеса
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg'
+      summary: 'Добавление домена, добавление пользователей, настройка политик безопасности...'
+      url: sign-up.md
+    - title: Настройка компьютеров
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg'
+      summary: 'Установка Office, настройка электронной почты, перенос файлов...'
+      url: upgrade.md
+    - title: Настройка мобильных устройств
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg'
+      summary: Установка приложений Office на мобильных устройствах.
+      url: work-from-anywhere.md
+    - title: Сотрудничество с другими людьми
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/collaborate-blue.svg'
+      summary: Работа с сотрудниками и клиентами в Teams.
+      url: collab-outlook-teams.md
+    - title: Хранение и совместное хранение файлов
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg'
+      summary: Хранить файлы безопасно и получать доступ из любой точки.
+      url: overview-file-sharing.md
+    - title: Настройка бизнес-голоса
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/call-phone-blue.svg'
+      summary: Настройка телефонной службы и телефонных разговоров.
+      url: business-voice.md
+    - title: Настройка бизнес-приложений
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg'
+      summary: 'Настройка и информация о резервированиях, списках, задачах...'
+      url: overview-bookings.md
+    - title: Управление подпиской
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/settings.svg'
+      summary: 'Управление пользователями, сброс паролей, просмотр счета...'
+      url: what-is-admin.md
+    - title: Управление устройствами
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-blue.svg'
+      summary: Настройка политик для личных и work devices.
+      url: secure-win-10-pro-devices.md
+    - title: Защита компании
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/security-blue.svg'
+      summary: Настройка функций безопасности и соответствия требованиям.
+      url: overview-m365-security.md
+    - title: Получение поддержки
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-blue.svg'
+      summary: Получите помощь в Microsoft 365 для бизнеса.
+      url: find-help-answers.md
 additionalContent:
   sections:
-  - title: Подробнее
-    items:
-    - title: Узнайте о Office
-      summary: Узнайте, как использовать word, Excel, PowerPoint и другие приложения Office.
-      url: https://support.microsoft.com/training
-    - title: Переход с Google Workspace
-      summary: Узнайте, как перейти на Microsoft 365 для бизнеса.
-      url: moveto-microsoft-365/move-from-google-workspace-overview.md
-    - title: Дополнительные ресурсы администрирования
-      summary: Перейдите на сайт справки центра администрирования Microsoft 365.
-      url: ../admin/index.yml
+    - title: Дополнительная информация
+      items:
+        - title: Узнайте о Office
+          summary: 'Узнайте, как использовать word, Excel, PowerPoint и другие приложения Office.'
+          url: 'https://support.microsoft.com/training'
+        - title: Обучение для ITPros
+          summary: Выполните пути обучения для предприятий среднего и корпоративного бизнеса.
+          url: 'https://docs.microsoft.com/learn/m365/'
+        - title: Дополнительные ресурсы администрирования
+          summary: Перейдите на сайт справки центра администрирования Microsoft 365.
+          url: ../admin/index.yml
