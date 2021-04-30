@@ -647,6 +647,6 @@
 ##### [Правила сокращения направлений атак](troubleshoot-asr.md)
 ##### [Переход на правила сокращения направлений атак](migrating-asr-rules.md)
 
-# [Microsoft 365 Defender](../index.yml)
+# [Microsoft 365 Defender](../defender/index.yml)
 # [Defender для Office 365](../office-365-security/index.yml)
 # [Defender для удостоверений](https://docs.microsoft.com/defender-for-identity/)
