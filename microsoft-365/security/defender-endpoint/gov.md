@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 16a7d289889940754a6d56058544a675b31192be
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1f0005ed4614a8d01d2a64e8853be99a204825c8
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934001"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086820"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender для конечной точки для государственных служб США
 
@@ -30,10 +30,10 @@ ms.locfileid: "51934001"
 
 Защитник Microsoft для конечных точек для государственных клиентов США, построенный в среде правительственных служб Azure США, использует те же технологии, что и Defender for Endpoint в Azure Commercial.
 
-Это предложение доступно клиентам GCC, GCC High и DoD и основано на той же профилактике, обнаружении, расследовании и исправлении, что и коммерческая версия. Однако существуют некоторые различия в доступности возможностей для этого предложения.
+Это предложение доступно для GCC, GCC high и DoD и основано на той же профилактике, обнаружении, расследовании и исправлении, что и коммерческая версия. Однако существуют некоторые различия в доступности возможностей для этого предложения.
 
 > [!NOTE]
-> Если вы клиент GCC, использующий Defender для конечной точки в коммерческих целях, обратитесь к страницам общедоступных документов.
+> Если вы клиент GCC Defender для конечной точки в коммерческих целях, обратитесь к страницам общедоступных документов.
 
 ## <a name="licensing-requirements"></a>Требования к лицензированию
 Microsoft Defender для конечных точек для государственных клиентов США требует одно из следующих предложений по лицензированию томов Корпорации Майкрософт:
@@ -41,15 +41,15 @@ Microsoft Defender для конечных точек для государст�
 ### <a name="desktop-licensing"></a>Лицензирование настольных компьютеров
 GCC | GCC High | DoD
 :---|:---|:---
-Windows 10 Корпоративный GCC E5 | Windows 10 Enterprise E5 для GCC High | Windows 10 Enterprise E5 для DOD
+Windows 10 Корпоративная E5 GCC | Windows 10 Корпоративная E5 для GCC High | Windows 10 Корпоративная E5 для DOD
 | | Microsoft 365 E5 для GCC High | Microsoft 365 G5 для DOD
 | | Microsoft 365 G5 Security for GCC High | Microsoft 365 G5 Security for DOD
-Защитник Майкрософт для конечной точки — GCC | Microsoft Defender для конечной точки для GCC High | Microsoft Defender для конечной точки для DOD
+Защитник Microsoft для конечной точки — GCC | Microsoft Defender для конечной точки для GCC High | Microsoft Defender для конечной точки для DOD
 
 ### <a name="server-licensing"></a>Лицензирование сервера
 GCC | GCC High | DoD
 :---|:---|:---
-Microsoft Defender для GCC конечного сервера | Microsoft Defender для конечного сервера для GCC High | Защитник Microsoft для конечного сервера для DOD
+Microsoft Defender для конечных серверов GCC | Microsoft Defender для endpoint Server для GCC High | Защитник Microsoft для конечного сервера для DOD
 Защитник Azure для серверов | Защитник Azure для серверов — правительство | Защитник Azure для серверов — правительство
 
 <br />
@@ -72,22 +72,22 @@ DoD | https://securitycenter.microsoft.us
 
 Версия ОС | GCC | GCC High | DoD
 :---|:---|:---|:---
-Windows 10, версия 20H2 (с [KB4586853)](https://support.microsoft.com/help/4586853) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 10, версия 2004 (с [KB4586853)](https://support.microsoft.com/help/4586853) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 10, версия 1909 (с [KB4586819)](https://support.microsoft.com/help/4586819) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 10, версия 1903 (с [KB4586819)](https://support.microsoft.com/help/4586819) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 10, версия 1809 (с [KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 10, версия 1803 (с [KB4598245)](https://support.microsoft.com/help/4598245) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 10, версия 1709 | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Да ](images/svg/check-yes.svg) с [KB4499147](https://support.microsoft.com/help/4499147)<br />Примечание: [Deprecated](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709), пожалуйста, обновление | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
-Windows 10, версия 1703 и ранее | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
-Windows Server 2019 [(с KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 10 версии 20H2 (с [KB4586853)](https://support.microsoft.com/help/4586853) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 10 версии 2004 (с [KB4586853)](https://support.microsoft.com/help/4586853) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 10 версии 1909 (с [KB4586819)](https://support.microsoft.com/help/4586819) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 10 версии 1903 (с [KB4586819)](https://support.microsoft.com/help/4586819) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 10 версии 1809 (с [KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 10 версии 1803 (с [KB4598245)](https://support.microsoft.com/help/4598245) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 10 версии 1709 | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Да ](images/svg/check-yes.svg) с [KB4499147](https://support.microsoft.com/help/4499147)<br />Примечание: [Deprecated](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709), пожалуйста, обновление | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
+Windows 10 версии 1703 и более ранней версии | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
+Windows Server 2019 (с [KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2008 R2 с пакетом обновления 1 (SP1) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 8.1 Корпоративная | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 8 профессиональная | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 7 SP1 Enterprise | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 7 SP1 Pro | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 7 sp1 Enterprise | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows 7 sp1 Pro | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Linux | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже
 macOS | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже
 Android | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
@@ -97,16 +97,17 @@ iOS | ![Нет](images/svg/check-no.svg) На неополненном техн�
 > Если исправление задано, оно должно быть развернуто до встройки устройства, чтобы настроить Defender для конечной точки в правильную среду.
 
 > [!NOTE]
-> Попытка на борту устройств Windows старше Windows 10 или Windows Server 2019 с помощью [агента мониторинга Майкрософт?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) Вам необходимо выбрать "Azure US Government" в "Azure Cloud", если с [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) помощью мастера настройки [или](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)с помощью командной строки или скрипта [задан](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) параметр "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" до 1.
+> Попытка использовать Windows устройства старше Windows 10 или Windows Server 2019 [с Microsoft Monitoring Agent?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) Вам необходимо выбрать "Azure US Government" в "Azure Cloud", если с [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) помощью мастера настройки [или](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)с помощью командной строки или скрипта [задан](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) параметр "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" до 1.
 
 > [!NOTE]
-> Для Linux потребуется версия 101.25.72 и выше, а для macOS версии 101.25.69 и выше. Во время предварительного просмотра эти версии можно использовать только в канале "Insider Fast". См. в этой ссылке Настройка [репозитория](linux-install-manually.md#configure-the-linux-software-repository) программного обеспечения Linux или настройка имени канала [(macOS)](mac-updates.md#set-the-channel-name) для инструкций.
+> Для Linux потребуется версия 101.25.72 и выше, а для macOS версии 101.25.69 и выше.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>Версии ОС при использовании Azure Defender для серверов
 При использовании Azure Defender для серверов поддерживаются следующие версии [ОС:](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
 
 Версия ОС | GCC | GCC High | DoD
 :---|:---|:---|:---
+Windows Server 2019 | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2008 R2 с пакетом обновления 1 (SP1) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
@@ -159,28 +160,17 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 ## <a name="feature-parity-with-commercial"></a>Паритет функций с коммерческими
 Defender for Endpoint для государственных клиентов США не имеет полного паритета с коммерческим предложением. Хотя наша цель заключается в том, чтобы предоставить все коммерческие функции и функции нашим государственным клиентам США, есть некоторые возможности, которые еще не доступны, которые мы хотим выделить.
 
-Это известные пробелы по марту 2021 г.:
+Это известные пробелы по апрель 2021 г.:
 
 Функция | GCC | GCC High | DoD
 :---|:---|:---|:---
-Автоматическое расследование и исправление: живой ответ | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Автоматическое расследование и исправление: реагирование на оповещения Office 365 | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
-Уведомления по электронной почте | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Лаборатория оценки | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Управление и API: отчет о состоянии устройств и соблюдении требований | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Управление и API: интеграция с сторонними продуктами | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Управление и API: потоковый API | ![Да](images/svg/check-yes.svg) | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
-Управление и API: отчет о защите от угроз | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Управление угрозами и уязвимостями. | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Аналитика угроз | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Фильтрация веб-содержимого | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
-Интеграция: Azure Sentinel | ![Да](images/svg/check-yes.svg) | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
-Интеграция: безопасность облачных приложений Майкрософт | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
-Интеграция: Microsoft Compliance Manager | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
-Интеграция: Защитник Microsoft для удостоверений | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
-Интеграция: Microsoft Defender для Office 365 | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
-Интеграция: DLP конечной точки Майкрософт | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
+Интеграция: Azure Sentinel | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) Оповещения <br /> ![Нет](images/svg/check-no.svg) Инциденты & необработанные данные: в разработке | ![Да](images/svg/check-yes.svg) Оповещения <br /> ![Нет](images/svg/check-no.svg) Инциденты & необработанные данные: в разработке
+Интеграция: Microsoft Cloud App Security | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
+Интеграция: Microsoft Compliance Manager | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
+Интеграция: Защитник Microsoft для удостоверений | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
+Интеграция: DLP конечной точки Майкрософт | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
 Интеграция: Microsoft Intune | ![Да](images/svg/check-yes.svg) | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Интеграция: Microsoft Power Automate & Azure Logic Apps | ![Да](images/svg/check-yes.svg) | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
-Интеграция: Skype для бизнеса / Teams | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Эксперты Майкрософт по угрозам | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Сведения о типах групп, которые вы можете использовать.
-ms.openlocfilehash: 8565b567706a70bb014fab42b23e9c55fb0efc45
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7b67fa5e7dc661163ce6c2c8933ebdafd0a5940d
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908750"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023849"
 ---
 # <a name="compare-groups"></a>Сравнение групп
 
@@ -83,8 +83,8 @@ ms.locfileid: "50908750"
 
 В настоящее время невозможно перенести общий почтовый ящик в группу Microsoft 365. Это то, что вы искали? Дайте нам знать! **[Проголосуйте здесь!](https://go.microsoft.com/fwlink/?linkid=871518)**
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (статья)
 
-[Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+[Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (статья)
