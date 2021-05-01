@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Узнайте о доступных вариантах создания безопасной среды гостевого общего доступа в Microsoft 365, чтобы обеспечить гостевой доступ для улучшения совместной работы.
-ms.openlocfilehash: 0eb999d48bc0976d7c2bb32ff1bdba8d63409d81
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a04ee4a96b5e9124ca94a4ece16c32ccc6b072d1
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918470"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114310"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Создание безопасной среды гостевого общего доступа
 
@@ -256,7 +256,7 @@ ms.locfileid: "50918470"
 
 ## <a name="create-a-dlp-policy-to-remove-guest-access-to-highly-sensitive-files"></a>Создание политики DLP для запрета гостевого доступа к строго конфиденциальным файлам
 
-Можно использовать [защиту от потери данных (DLP)](../compliance/data-loss-prevention-policies.md), чтобы предотвратить нежелательное предоставление гостям доступа к конфиденциальному содержимому. Функция защиты от потери данных может действовать на основании метки конфиденциальности файла и запретить гостевой доступ.
+Можно использовать [защиту от потери данных (DLP)](../compliance/dlp-learn-about-dlp.md), чтобы предотвратить нежелательное предоставление гостям доступа к конфиденциальному содержимому. Функция защиты от потери данных может действовать на основании метки конфиденциальности файла и запретить гостевой доступ.
 
 Создание правила DLP
 

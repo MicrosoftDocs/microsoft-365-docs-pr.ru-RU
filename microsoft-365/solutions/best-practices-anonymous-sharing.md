@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: В этой статье вы ознакомитесь с рекомендациями по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности.
-ms.openlocfilehash: acc825a8fc445d224fbc91dd12dace2a5e1b25c8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1e696611d37cd1b57f881457025464dccea54496
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199529"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114322"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Рекомендации по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности
 
@@ -103,7 +103,7 @@ ms.locfileid: "51199529"
 
 ## <a name="prevent-unauthenticated-sharing-of-sensitive-content"></a>Предотвращение несанкционированного предоставления конфиденциального содержимого
 
-Чтобы предотвратить несанкционированное предоставление конфиденциального содержимого, вы можете использовать [защиту от потери данных](../compliance/data-loss-prevention-policies.md). Защита от потери данных может выполнять действия с учетом метки конфиденциальности или метки хранения файла, а также на основе конфиденциальной информации в самом файле.
+Чтобы предотвратить несанкционированное предоставление конфиденциального содержимого, вы можете использовать [защиту от потери данных](../compliance/dlp-learn-about-dlp.md). Защита от потери данных может выполнять действия с учетом метки конфиденциальности или метки хранения файла, а также на основе конфиденциальной информации в самом файле.
 
 Создание правила DLP
 1. В Центре соответствия требованиям Microsoft 365 перейдите на страницу [Защита от потери данных](https://compliance.microsoft.com/datalossprevention).
