@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
 description: Подробнее об изменениях из Центра безопасности и центра соответствия требованиям Office 365 в Центр безопасности Microsoft 365.
-keywords: Безопасность Microsoft 365, начало работы с центром безопасности Microsoft 365, Microsoft Defender для Office 365, Microsoft Defender для endpoint, MDO, MDE, единой области стекла, новым порталом безопасности, новым порталом безопасности защитника
+keywords: Microsoft 365 безопасности, начало работы с центром безопасности Microsoft 365, Microsoft Defender для Office 365, Microsoft Defender для endpoint, MDO, MDE, единой области стекла, новым порталом безопасности, новым порталом безопасности защитника
 ms.date: 02/21/2021
 ms.author: tracyp
 author: msfttracyp
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: b5decd562509d134899b85b380791087a913cd58
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: a0ab671f879119c1ab490bcb726f08224e59bfdd
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943069"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114416"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
 
@@ -66,7 +66,7 @@ ms.locfileid: "51943069"
 > Портал безопасности Microsoft 365 (https://security.microsoft.com) объединяет функции безопасности в https://securitycenter.windows.comи https://protection.office.com. Однако то, что вы увидите, зависит от вашей подписки. Если у вас есть только Microsoft Defender для Office 365 (план 1 или 2), например в качестве автономных подписок, вы не увидите функций безопасности для конечных точек, а клиенты Defender для Office (план 1) не увидят такие элементы, как Threat Analytics.
 
 > [!TIP]
->  Все функции Exchange Online Protection (EOP) будут включены в центр безопасности Microsoft 365, так как EOP является ключевым элементом Defender для Office 365.
+>  Все Exchange Online Protection (EOP) будут включены в центр безопасности Microsoft 365, так как EOP является основным элементом Defender для Office 365.
 
 ## <a name="microsoft-365-security-center-home-page"></a>Главная страница Центра безопасности Microsoft 365
 
@@ -74,7 +74,7 @@ ms.locfileid: "51943069"
 
 - рейтинги оценки безопасности
 - количество пользователей и устройств под угрозой
-- списки активных инцидентов
+- очередь активных инцидентов
 - списки привилегированных приложений OAuth
 - работоспособность устройств
 - твиты из веб-канала Twitter службы аналитики безопасности Майкрософт

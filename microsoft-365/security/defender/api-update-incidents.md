@@ -1,6 +1,6 @@
 ---
 title: Обновление API инцидентов
-description: Узнайте, как обновлять инциденты с помощью API защитника Microsoft 365
+description: Узнайте, как обновлять инциденты с Microsoft 365 API Defender
 keywords: обновление, API, инцидент
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 549f9bf2b9dc2ea5d1c734a809ad10a168c8123e
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d6872a7a4b1b2d2c131066076af02a65b4ef6d8a
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51068973"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107608"
 ---
 # <a name="update-incidents-api"></a>Обновление API инцидентов
 
@@ -51,12 +51,12 @@ ms.locfileid: "51068973"
 
 ## <a name="permissions"></a>Разрешения
 
-Для вызова этого API требуется одно из следующих разрешений. Дополнительные дополнительные возможности, в том числе выбор разрешений, см. в записи [Access the Microsoft 365 Defender API.](api-access.md)
+Для вызова этого API требуется одно из следующих разрешений. Дополнительные возможности, включая выбор разрешений, см. в Microsoft 365 [API Defender.](api-access.md)
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 -|-|-
 Приложение | Incident.ReadWrite.All | Чтение и написание всех инцидентов
-Делегированное (рабочая или учебная учетная запись) | Incident.ReadWrite | Чтение и написание инцидентов
+Делегированные (рабочая или учебная учетная запись) | Incident.ReadWrite | Чтение и написание инцидентов
 
 > [!NOTE]
 > При получении маркера с помощью учетных данных пользователей пользователю необходимо иметь разрешение на обновление инцидента на портале.
@@ -71,7 +71,7 @@ PATCH /api/incidents/{id}
 
 Имя | Тип | Описание
 -|-|-
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 Content-Type | String | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
@@ -80,10 +80,10 @@ Content-Type | String | application/json. **Обязательное поле**.
 
 Свойство | Тип | Описание
 -|-|-
-status | Перечисление | Указывает текущее состояние оповещений. Возможные значения: ```Active``` , ```Resolved``` и ```Redirected``` .
-assignedTo | строка | Владелец инцидента.
-classification | Перечисление | Спецификация оповещений. Возможные значения: ```Unknown```, ```FalsePositive```, ```TruePositive```.
-определение | Перечисление | Указывает определение оповещений. Возможные значения: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
+status | Перечисление | Указывает текущее состояние инцидента. Возможные значения: ```Active``` , ```Resolved``` и ```Redirected``` .
+assignedTo | string | Владелец инцидента.
+classification | Перечисление | Спецификация инцидента. Возможные значения: ```Unknown```, ```FalsePositive```, ```TruePositive```.
+определение | Перечисление | Указывает определение инцидента. Возможные значения: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
 tags | строка Список | Список тегов Инцидент.
 
 ## <a name="response"></a>Отклик
@@ -112,9 +112,9 @@ tags | строка Список | Список тегов Инцидент.
 }
 ```
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
-- [Доступ к API защитника Microsoft 365](api-access.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)
 - [Узнайте о ограничениях API и лицензировании](api-terms.md)
 - [Понимание кодов ошибок](api-error-codes.md)
 - [Программные интерфейсы, относящиеся к инцидентам](api-incident.md)

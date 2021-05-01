@@ -14,17 +14,20 @@ ms.collection:
 - Adm_O365
 search.appverid:
 - MET150
-description: Узнайте, как покупать и управлять надстройки для microsoft 365 для бизнес-подписки.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- Commerce
-ms.openlocfilehash: b470fb727ed55ba066cd0371e2e707c72b50ae99
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+- commerce_purchase
+- PPM_jmueller
+ms.reviewer: jkinma
+description: Узнайте, как покупать и управлять надстройки для вашей Microsoft 365 для бизнеса подписки.
+ms.date: 04/02/2021
+ms.openlocfilehash: c0b5a76f8690c64723782640738ac3817bc64714
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576929"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107440"
 ---
 # <a name="buy-or-manage-add-ons"></a>Приобретение и управление надстройками
 
@@ -70,7 +73,7 @@ ms.locfileid: "51576929"
 
 Вы не можете удалить традиционную надстройка. Если вы хотите удалить традиционную надстройка, обратитесь за помощью в [службу поддержки.](../admin/contact-support-for-business-products.md)
   
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Добавление пространства для хранения подписки](add-storage-space.md) (статья)\
 [Покупка или удаление лицензий на подписку](licenses/buy-licenses.md) (статья)\

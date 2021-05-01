@@ -10,25 +10,30 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - fwlink 2133922 to Delete subscription heading
+- commerce_subscription
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 description: Узнайте, как закрыть учетную запись в Корпорации Майкрософт.
-ms.openlocfilehash: 44428654946d31ad249bfd3e7a3609da3e3634a6
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.date: 04/02/2021
+ms.openlocfilehash: 4fa1366186f0a37d3319208224628332d958a0ea
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860551"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107476"
 ---
 # <a name="close-your-account"></a>Закрытие учетной записи
 
 Когда вы закрываете свою учетную запись в Microsoft, вся информация, связанная с вашей учетной записью, удаляется. Эта информация включает в себя подписки, лицензии, способы оплаты, пользователей и пользовательские данные.
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Перед началом этого процесса обязательно сделайте резервную копию любых данных, которые вы хотите сохранить.
 
@@ -38,13 +43,13 @@ ms.locfileid: "51860551"
 
 Удалите всех пользователей, за исключением одного глобального администратора. Глобальный администратор завершает действия по закрытию учетной записи. Перед удалением каталога в конце этого процесса необходимо удалить всех остальных пользователей.
 
-Если пользователи синхронизируются из локального, сначала отключите синхронизацию, а затем удалите пользователей в облачном каталоге с помощью портала Azure или cmdlets Azure PowerShell.
+Если пользователи синхронизируются из локального, сначала отключите синхронизацию, а затем удалите пользователей в облачном каталоге с помощью портала Azure или Azure PowerShell cmdlets.
 
-Чтобы удалить пользователей, см. <a href="/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">в публикации Администратор управления пользователями. Удалите одного или несколько пользователей.</a>
+Чтобы удалить пользователей, см. [в публикации Администратор управления пользователями. Удалите одного или несколько пользователей.](../admin/add-users/delete-a-user.md#user-management-admin-delete-one-or-more-users-from-office-365)
 
-Вы также можете использовать комдлет <a href="https://docs.microsoft.com/powershell/module/msonline/remove-msoluser">Remove-MsolUser</a> PowerShell для удаления пользователей оптом.
+Вы также можете использовать комдлет [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell для удаления пользователей оптом.
 
-Если в организации используется Active Directory, синхронизируются с Microsoft Azure Active Directory (Azure AD), удалите учетную запись пользователя из Active Directory. Инструкции см. в <a href="/azure/active-directory/users-groups-roles/users-bulk-delete">публикации Bulk delete users in Azure Active Directory.</a>
+Если в организации используется Active Directory, синхронизируются с Microsoft Azure Active Directory (Azure AD), удалите учетную запись пользователя из Active Directory. Инструкции см. в [публикации Bulk delete users in Azure Active Directory.](/azure/active-directory/users-groups-roles/users-bulk-delete)
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Шаг 2. Отмена всех активных подписок
 
@@ -64,7 +69,7 @@ ms.locfileid: "51860551"
 6. Для каждой отключенной подписки повторите действия от 3 до 5 до удаления всех подписок.
 
 > [!NOTE]
-> Если вы не можете немедленно удалить отключенную подписку, обратитесь <a href="/microsoft-365/Admin/contact-support-for-business-products" target="_blank">в службу поддержки</a>
+> Если вы не можете немедленно удалить отключенную подписку, обратитесь [в службу поддержки.](../admin/contact-support-for-business-products.md)
 
 ## <a name="step-4-disable-multi-factor-authentication"></a>Шаг 4. Отключение многофакторной проверки подлинности
 
@@ -73,7 +78,8 @@ ms.locfileid: "51860551"
 3. Выберите **многофакторную проверку подлинности.**
 4. На странице многофакторной проверки подлинности отключать все учетные записи, за исключением глобальной учетной записи администратора, которую вы используете в настоящее время.
 
-Вы также можете использовать PowerShell для отключения <a href="/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">многофакторной</a>проверки подлинности для нескольких пользователей.
+Вы также можете использовать PowerShell для отключения [многофакторной](/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell)проверки подлинности для нескольких пользователей.
+
 
 ## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Шаг 5. Удаление каталога в Azure Active Directory
 

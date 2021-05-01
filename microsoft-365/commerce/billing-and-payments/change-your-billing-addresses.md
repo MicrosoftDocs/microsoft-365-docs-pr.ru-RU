@@ -15,16 +15,19 @@ ms.collection:
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: tugu
 search.appverid:
 - MET150
-description: Узнайте, как обновить адреса вы выставления счета для Microsoft 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счета.
-ms.openlocfilehash: 5d6e9eac3ef1caccb2672bfc7f46e8e5b9ac3721
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+description: Узнайте, как обновить адреса для Microsoft 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счета.
+ms.date: 04/07/2021
+ms.openlocfilehash: ea212d79ef28d5d387bdb5503c267d7cd5113786
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615415"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107198"
 ---
 # <a name="change-your-billing-addresses"></a>Изменение адресов выставления счетов
 
@@ -108,7 +111,7 @@ ms.locfileid: "51615415"
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.
 
-    Если вы используете Office 365, эксплуатируемую 21Vianet в Китае, см. в обзоре счета или в службе [Fapiaos для Office 365, выполняемой 21Vianet.](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md)
+    Если вы используете Office 365 21Vianet в Китае, см. в обзоре счета или получения fapiaos для Office 365 [21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).
 
 ::: moniker-end
 
@@ -122,7 +125,7 @@ ms.locfileid: "51615415"
 
 По умолчанию уведомления о выставлении счета вашей организации отправляются на адрес электронной почты Майкрософт и альтернативный адрес электронной почты каждого глобального администратора и администратора биллинга в вашей организации. Каждый администратор может изменить свой запасной адрес электронной почты в данных своего профиля.
   
-1. Вопишитесь в Microsoft 365 со своей учетной записью работы или учебного заведения в качестве глобального [администратора. Узнайте, как войти.](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
+1. Вопишите Microsoft 365 с вашей учетной записью работы или учебного заведения в качестве глобального [администратора. Узнайте, как войти](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)в .
 
 2. Выберите **значок Пользователя,** а затем выберите **мою учетную запись.**
   
@@ -158,7 +161,7 @@ ms.locfileid: "51615415"
 
 3. В области **Изменить роли пользователей** введите альтернативный адрес электронной почты, который необходимо использовать, а затем выберите **Сохранить**.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Просмотр счета или счета](view-your-bill-or-invoice.md)\
 [Понимание счета или счета](understand-your-invoice2.md)\

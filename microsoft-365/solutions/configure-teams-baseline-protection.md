@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как развернуть команды с базовым уровнем защиты.
-ms.openlocfilehash: 728a41bd521ed32c57c981be576e46eaee344099
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: db1a58fd06a62240cbcfcc74f83ba6196f33df80
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222747"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114298"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Настройка команд с базовым уровнем защиты
 
@@ -96,7 +96,7 @@ ms.locfileid: "51222747"
 
 - Ваши гости должны согласиться с [условиями использования](/azure/active-directory/conditional-access/terms-of-use).
 - Настройте [политику времени ожидания сеанса](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) для гостей.
-- Создайте [типы конфиденциальной информации](../compliance/sensitive-information-type-learn-about.md) и используйте [защиту от потери данных](../compliance/data-loss-prevention-policies.md) для настройки политик доступа к конфиденциальной информации.
+- Создайте [типы конфиденциальной информации](../compliance/sensitive-information-type-learn-about.md) и используйте [защиту от потери данных](../compliance/dlp-learn-about-dlp.md) для настройки политик доступа к конфиденциальной информации.
 
 ## <a name="see-also"></a>См. также
 
