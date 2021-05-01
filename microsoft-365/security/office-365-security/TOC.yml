@@ -204,18 +204,10 @@
           href: ../../compliance/alert-policies.md
         - name: Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
           href: reports-and-insights-in-security-and-compliance.md
-        - name: Включение надстройки "Пожаловаться на сообщение"
-          href: enable-the-report-message-add-in.md
-        - name: Включение надстройки "Пожаловаться на фишинг"
-          href: enable-the-report-phish-add-in.md
-        - name: Установка и использование надстройки "Отчеты о нежелательной почте"
-          href: junk-email-reporting-add-in-for-microsoft-outlook.md
+        - name: Сообщайте о ложных срабатываниях и ложных отрицаниях в Outlook
+          href: report-false-positives-and-false-negatives.md
         - name: Правила потока почты (правила транспорта) в автономной службе EOP
           href: mail-flow-rules-transport-rules-0.md
-        - name: Сообщение о нежелательной почте и фишинге в Outlook в Интернете
-          href: report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
-        - name: Сообщение о нежелательной почте и фишинге в Outlook для iOS и Android
-          href: report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
         - name: Запуск отчета группы ролей администратора в автономной службе EOP
           href: run-an-administrator-role-group-report-in-eop-eop.md
     - name: Исследование
@@ -384,7 +376,7 @@
             - name: Управление ролевыми группами в автономной службе EOP
               href: manage-admin-role-group-permissions-in-eop.md
     - name: Microsoft 365 Defender
-      href: ../index.yml
+      href: ../defender/index.yml
     - name: Microsoft Defender для конечной точки
       href: ../defender-endpoint/index.yml
     - name: Microsoft Defender для удостоверений
