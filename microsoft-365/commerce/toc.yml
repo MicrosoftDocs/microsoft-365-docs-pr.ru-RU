@@ -40,6 +40,8 @@
       href: ../admin/manage/remove-licenses-from-users.md
     - name: Перевод пользователей на другую подписку
       href: subscriptions/move-users-different-subscription.md
+    - name: Управление лицензиями сторонних приложений
+      href: licenses/manage-third-party-app-licenses.md
     - name: Управление политиками автоматической заявки
       href: licenses/manage-auto-claim-policies.md
     - name: Общие сведения о подписках и лицензиях

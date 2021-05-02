@@ -235,8 +235,8 @@
       items:
         - name: О защите от потери данных
           items:
-            - name: О защите от потери данных
-              href: data-loss-prevention-policies.md
+            - name: Сведения о защите от потери данных
+              href: dlp-learn-about-dlp.md
             - name: Сведения о защите от потери данных в конечной точке
               href: endpoint-dlp-learn-about.md
             - name: Сведения о политике защиты от потери данных по умолчанию в Microsoft Teams (предварительная версия)
