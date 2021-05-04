@@ -15,20 +15,20 @@ search.appverid:
 ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
-description: Узнайте, как настроить управление правами на информацию (IRM) в Exchange Online для использования сервера службы управления правами active Directory (AD RMS).
+description: Узнайте, как настроить управление правами на информацию (IRM) в Exchange Online использовать сервер службы управления правами active Directory (AD RMS).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a520a3e55ae1137a0a4cc417dc68097d0793d978
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5e430f9c6ad5d377b568d22e9de53ab79d19165a
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908569"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876124"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>Настройка функции управления правами на доступ к данным для использования локального сервера служб AD RMS
   
-Для использования в локальном развертывании управление правами на информацию (IRM) в Exchange Online использует служба управления правами Active Directory (AD RMS), технологию защиты информации в Windows Server 2008 и более поздних версиях. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
+Для использования в локальном развертывании управление правами на информацию в Exchange Online использует службы Active Directory Rights Management (AD RMS), технологию защиты информации в Windows Server 2008 и более поздней. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
   
-В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с Помощью Azure Active Directory и Управления правами Azure см. в faQ шифрования сообщений [Office 365.](./ome-faq.md)
+В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей для шифрование сообщений Office 365 с Azure Active Directory и Управление правами Azure см. в шифрование сообщений Office 365 [FAQ](./ome-faq.yml).
   
 Дополнительные сведения об управлении правами на доступ к данным в Exchange Online см. в разделе [Управление правами на доступ к данным в Exchange Online](information-rights-management-in-exchange-online.md).
   
@@ -42,10 +42,10 @@ ms.locfileid: "50908569"
 
 - Сведения об установке и настройке Windows PowerShell и подключении к службе см. в разделе [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Сведения о ярлыках клавиатуры, которые могут применяться к процедурам в этом разделе, см. в разделе Клавишные ярлыки для центра администрирования Exchange в [Exchange Online.](/Exchange/accessibility/keyboard-shortcuts-in-admin-center)
+- Сведения о ярлыках клавиатуры, которые могут применяться к процедурам в этом разделе, см. в разделе [Клавишные](/Exchange/accessibility/keyboard-shortcuts-in-admin-center)ярлыки для центра администрирования Exchange в Exchange Online .
 
 > [!TIP]
-> Возникли проблемы? Обратитесь за помощью к участникам форумов Exchange. Посетите форумы по таким продуктам: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542) или [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351). 
+> Возникли проблемы? Обратитесь за помощью к участникам форумов, посвященных Exchange. Посетите форумы по таким продуктам: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542) или [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351). 
   
 ## <a name="how-do-you-do-this"></a>Как это сделать
 <a name="sectionSection1"> </a>
@@ -102,7 +102,7 @@ Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byt
   
 ### <a name="step-3-use-the-exchange-management-shell-to-distribute-an-ad-rms-rights-policy-template"></a>Действие 3. Распространите шаблон политики прав AD RMS с помощью командной консоли Exchange
 
-После импорта TPD необходимо распространить шаблон политики прав службы управления правами Active Directory. Распределенный шаблон виден пользователям Outlook в Интернете (ранее Outlook Web App), которые затем могут применить шаблоны к сообщению электронной почты.
+После импорта TPD необходимо распространить шаблон политики прав службы управления правами Active Directory. Распределенный шаблон отображается для Outlook веб-пользователей (ранее известных как Outlook Web App), которые затем могут применять шаблоны к сообщению электронной почты.
   
 Чтобы получить список всех шаблонов в TPD по умолчанию, выполните следующую команду.
   
@@ -110,7 +110,7 @@ Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byt
 Get-RMSTemplate -Type All | fl
 ```
 
-Если значение параметра  _Type_ равно  `Archived`, шаблон будет недоступен пользователям. В Outlook в Интернете доступны только распределенные шаблоны в TPD по умолчанию.
+Если значение параметра  _Type_ равно  `Archived`, шаблон будет недоступен пользователям. Только распределенные шаблоны в TPD по умолчанию доступны в Outlook в Интернете.
   
 Чтобы распространить шаблон, выполните следующую команду.
   
@@ -168,4 +168,4 @@ Set-IRMConfiguration -InternalLicensingEnabled $true
   
 - С помощью командлета **Test-IRMConfiguration** проверьте функциональные возможности IRM. Подробные сведения см. в примере 1 в разделе [Test-IRMConfiguration](/powershell/module/exchange/test-irmconfiguration).
 
-- Соберите новое сообщение в Outlook в Интернете и IRM-защита, выбрав параметр **Set permissions** из расширенного меню ![ (More Options ](../media/ITPro-EAC-MoreOptionsIcon.gif) Icon).
+- Соберите новое сообщение в Outlook веб-сайте и IRM-защита, выбрав параметр **Set permissions** из расширенного меню ![ (More Options ](../media/ITPro-EAC-MoreOptionsIcon.gif) Icon).

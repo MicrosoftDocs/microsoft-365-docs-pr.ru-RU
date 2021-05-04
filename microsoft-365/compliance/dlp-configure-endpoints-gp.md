@@ -13,35 +13,35 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Используйте групповую политику для развертывания пакета конфигурации на устройствах с Windows 10, чтобы они были размещены в службе.
-ms.openlocfilehash: b786d011a46f69e7bcac846e726e2aeb3031ae08
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Используйте групповую политику для развертывания пакета конфигурации на Windows 10 устройствах, чтобы они были размещены в службе.
+ms.openlocfilehash: 284de5169324b6da4038cfe0b50b2f2ffa40e3fd
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918025"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893290"
 ---
-# <a name="onboard-windows-10-devices-using-group-policy"></a>На борту устройств Windows 10 с использованием групповой политики 
+# <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10 с помощью групповой политики 
 
 **Область применения:**
 
-- [Предотвращение потери данных конечной точки Microsoft 365 (DLP)](./endpoint-dlp-learn-about.md)
+- [Microsoft 365 Предотвращение потери конечных данных (DLP)](./endpoint-dlp-learn-about.md)
 - Групповая политика
 
 > [!NOTE]
-> Чтобы использовать обновления групповой политики (GP) для развертывания пакета, необходимо быть на Windows Server 2008 R2 или позже.
+> Чтобы использовать обновления групповой политики (GP) для развертывания пакета, необходимо быть на Windows Server 2008 R2 или более поздней версии.
 
 > Для Windows Server 2019 может потребоваться заменить NT AUTHORITY\Well-Known-System-Account на NT AUTHORITY\SYSTEM XML-файла, который создается в предпочтениях групповой политики.
 
-## <a name="onboard-devices-using-group-policy"></a>На борту устройств с использованием групповой политики
+## <a name="onboard-devices-using-group-policy"></a>Подключение устройств с помощью групповой политики
 
-1. Откройте пакет конфигурации GP .zip file *(DeviceComplianceOnboardingPackage.zip), загруженный* из мастера бортового обслуживания. Вы также можете получить пакет из [Центра соответствия требованиям Майкрософт](https://compliance.microsoft.com/compliancesettings/deviceonboarding)
+1. Откройте пакет конфигурации GP .zip *(DeviceComplianceOnboardingPackage.zip),* который вы скачали из мастера бортового обслуживания. Вы также можете получить пакет из [Центра соответствия требованиям Майкрософт](https://compliance.microsoft.com/compliancesettings/deviceonboarding)
 
-2. В области навигации выберите **параметры**  >  **onboarding устройства**.
+2. В области навигации выберите **Параметры**  >  **устройства.**
 
 3. В поле **Метод развертывания** выберите **групповую политику.**
 
-4. Нажмите **кнопку Скачать пакет** и сохранить файл .zip.
+4. Нажмите **кнопку Загрузка** пакета и сохраните .zip файл.
 
 5. Извлечение содержимого файла .zip в общее, только для чтения расположение, которое можно получить на устройстве. У вас должна быть папка *OptionalParamsPolicy* и файл *DeviceComplianceLocalOnboardingScript.cmd.*
 
@@ -68,11 +68,11 @@ ms.locfileid: "50918025"
 
 1. Получите пакет offboarding из [Центра соответствия требованиям Майкрософт.](https://compliance.microsoft.com/compliancesettings/deviceonboarding)
 
-2. В области навигации выберите **Параметры**  >  **//Устройство, включающее**  >  **offboarding.**
+2. В области навигации выберите **Параметры**  >  **//Device**  >  **onboarding Offboarding**.
 
 3. В поле **Метод развертывания** выберите **групповую политику.**
 
-4. Нажмите **кнопку Скачать пакет** и сохранить файл .zip.
+4. Нажмите **кнопку Загрузка** пакета и сохраните .zip файл.
 
 5. Извлечение содержимого файла .zip в общее, только для чтения расположение, которое можно получить на устройстве. У вас должен быть *файл с DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd.*
 
@@ -106,10 +106,10 @@ ms.locfileid: "50918025"
 > Для начала показа устройств в списке Устройств может занять несколько **дней.** Это включает время, необходимое для распространения политик на устройство, время, необходимое для входа пользователя, и время, необходимое для начала отчетов конечной точкой.
 
 
-## <a name="related-topics"></a>Связанные статьи
-- [На борту устройств Windows 10 с помощью Microsoft Endpoint Configuration Manager](dlp-configure-endpoints-sccm.md)
+## <a name="related-topics"></a>Статьи по теме
+- [На борту Windows 10 устройства с Microsoft Endpoint Configuration Manager](dlp-configure-endpoints-sccm.md)
 - [Подключение устройств Windows 10 с помощью средств управления мобильными устройствами](dlp-configure-endpoints-mdm.md)
 - [Подключение устройств Windows 10 с помощью локального сценария](dlp-configure-endpoints-script.md)
 - [Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)](dlp-configure-endpoints-vdi.md)
-- [Запустите тест обнаружения на недавно созданных устройствах ATP Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [Устранение неполадок с бортовой защитой расширенных угроз Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Запустите тест обнаружения на недавно висячем устройствах Microsoft Defender для конечных точек](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
+- [Устранение неполадок Расширенная защита от угроз в Microsoft Defender бортовых проблем](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

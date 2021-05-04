@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Узнайте, как автоматизировать задачи поиска контента, такие как создание поиска и запуск отчетов с помощью скриптов PowerShell в Центре & соответствия требованиям в Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 615c6b59ea484a4a0cd5248ce5083e7ee7d817ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6155a0bf411cc83fd58291efe7797e7f68370708
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908313"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994966"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>Создание и удаление нескольких поисков содержимого, а также получение отчетов по ним
 
@@ -34,7 +34,7 @@ ms.locfileid: "50908313"
 
 - Для выполнения сценариев, описанных в этой теме, необходимо быть членом группы ролей диспетчера электронных данных в Центре & безопасности.
 
-- Чтобы собрать список URL-адресов сайтов OneDrive для бизнеса в организации, которые можно добавить в CSV-файл на шаге 1, см. в статью Создание списка всех местоположений [OneDrive](/onedrive/list-onedrive-urls)в организации.
+- Чтобы собрать список URL-адресов для сайтов OneDrive для бизнеса организации, которые можно добавить в CSV-файл в шаге 1, см. в статью Создание списка всех OneDrive расположения в [организации.](/onedrive/list-onedrive-urls)
 
 - Обязательно сохраните все файлы, которые вы создаете в этой теме, в одной папке. Это облегчит запуск скриптов.
 
@@ -44,9 +44,9 @@ ms.locfileid: "50908313"
 
 ## <a name="step-1-create-a-csv-file-that-contains-information-about-the-searches-you-want-to-run"></a>Шаг 1. Создание CSV-файла, который содержит сведения об поисковых запросах, которые необходимо выполнить
 
-Файл разделенного значения запятой (CSV), который вы создаете на этом шаге, содержит строку для каждого пользователя, который хочет искать. Вы можете искать почтовый ящик Exchange Online пользователя (который включает архивный почтовый ящик, если он включен) и сайт OneDrive для бизнеса. Или вы можете искать только почтовый ящик или сайт OneDrive для бизнеса. Вы также можете искать любой сайт в вашей организации SharePoint Online. Сценарий, который вы запустите в шаге 3, создаст отдельный поиск для каждой строки в CSV-файле.
+Файл разделенного значения запятой (CSV), который вы создаете на этом шаге, содержит строку для каждого пользователя, который хочет искать. Вы можете искать почтовый ящик Exchange Online пользователя (который включает почтовый ящик архива, если он включен) и OneDrive для бизнеса сайт. Или вы можете искать только почтовый ящик или OneDrive для бизнеса сайт. Вы также можете искать любой сайт в организации SharePoint Online. Сценарий, который вы запустите в шаге 3, создаст отдельный поиск для каждой строки в CSV-файле.
 
-1. Скопируйте и вклейте следующий текст в файл txt с помощью NotePad. Сохраните этот файл в папке на локальном компьютере. В этой папке также будут сохраняться другие скрипты.
+1. Скопируйте и вклейте следующий текст в .txt с помощью NotePad. Сохраните этот файл в папке на локальном компьютере. В этой папке также будут сохраняться другие скрипты.
 
    ```text
    ExchangeLocation,SharePointLocation,ContentMatchQuery,StartDate,EndDate
@@ -67,13 +67,13 @@ ms.locfileid: "50908313"
    |Параметр|Описание|
    |---|---|
    |`ExchangeLocation`|SMTP-адрес почтового ящика пользователя.|
-   |`SharePointLocation`|URL-адрес для сайта OneDrive для бизнеса пользователя или URL-адрес любого сайта в вашей организации. Для URL-адреса сайтов OneDrive для бизнеса используйте этот формат: ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com ` . Пример: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.|
+   |`SharePointLocation`|URL-адрес для веб-OneDrive для бизнеса пользователя или URL-адрес для любого сайта в организации. Для URL-адреса для OneDrive для бизнеса сайтов используйте этот формат: ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com ` . Пример: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.|
    |`ContentMatchQuery`|Поисковый запрос для поиска. Дополнительные сведения о создании запроса поиска см. в статье Ключевые запросы и условия [поиска для поиска контента.](keyword-queries-and-search-conditions.md)|
-   |`StartDate`|Для электронной почты датой или после того, как сообщение было получено получателем или отправлено отправителю. Для документов на сайтах SharePoint или OneDrive для бизнеса дата последнего изменения документа или после нее.|
-   |`EndDate`|Для электронной почты дата отправки или до отправки сообщения пользователем. Для документов на сайтах SharePoint или OneDrive для бизнеса дата последнего изменения документа.|
+   |`StartDate`|Для электронной почты датой или после того, как сообщение было получено получателем или отправлено отправителю. Для документов на SharePoint или OneDrive для бизнеса веб-сайтов дата последнего изменения документа или после нее.|
+   |`EndDate`|Для электронной почты дата отправки или до отправки сообщения пользователем. Для документов на SharePoint или OneDrive для бизнеса веб-сайтов дата последнего изменения документа или до нее.|
    |
 
-3. Сохраните файл Excel в качестве CSV-файла в папку на локальном компьютере. Сценарий, который вы создаете в шаге 3, будет использовать сведения в этом CSV-файле для создания поиска.
+3. Сохраните Excel как CSV-файл в папку на локальном компьютере. Сценарий, который вы создаете в шаге 3, будет использовать сведения в этом CSV-файле для создания поиска.
 
 ## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Шаг 2. Подключение к PowerShell в Центре безопасности и соответствия требованиям
 
@@ -85,7 +85,7 @@ ms.locfileid: "50908313"
 
 - **ID группы** поиска — это имя позволяет легко организовать поиск, созданный из CSV-файла. Каждый созданный поиск называется с ИД группы поиска, а затем к имени поиска примыкает номер. Например, если вы вводите **ContosoCase** для ID группы поиска, поиски именуются **ContosoCase_1,** **ContosoCase_2,** **ContosoCase_3** и т. д. Обратите внимание, что имя, которое вы введите, является чувствительным к делу. При использовании ID группы поиска в шаге 4 и шаге 5 необходимо использовать тот же случай, что и при его создания.
 
-- **CSV-файл** — имя файла CSV, созданного в шаге 1. Обязательно включив в него полное имя файла, включив расширение файла .csv; например,  `ContosoCase.csv` .
+- **CSV-файл** — имя файла CSV, созданного в шаге 1. Обязательно включай полное имя файла, включай расширение .csv; например,  `ContosoCase.csv` .
 
 Чтобы запустить сценарий, сделайте следующее:
 
@@ -101,24 +101,24 @@ ms.locfileid: "50908313"
    import-csv $csvFile |
      ForEach-Object{
 
-     $searchName = $searchGroup +'_' + $searchCounter
-     $search = Get-ComplianceSearch $searchName -EA SilentlyContinue
-     if ($search)
-     {
-        Write-Error "The Search Group ID conflicts with existing searches.  Please choose a search group name and restart the script."
-        return
-     }
-     $searchCounter++
+    $searchName = $searchGroup +'_' + $searchCounter
+    $search = Get-ComplianceSearch $searchName -EA SilentlyContinue
+    if ($search)
+    {
+       Write-Error "The Search Group ID conflicts with existing searches.  Please choose a search group name and restart the script."
+       return
+    }
+    $searchCounter++
    }
 
    $searchCounter = 1
    import-csv $csvFile |
      ForEach-Object{
 
-     # Create the query
-     $query = $_.ContentMatchQuery
-     if(($_.StartDate -or $_.EndDate))
-     {
+    # Create the query
+    $query = $_.ContentMatchQuery
+    if(($_.StartDate -or $_.EndDate))
+    {
           # Add the appropriate date restrictions.  NOTE: Using the Date condition property here because it works across Exchange, SharePoint, and OneDrive for Business.
           # For Exchange, the Date condition property maps to the Sent and Received dates; for SharePoint and OneDrive for Business, it maps to Created and Modified dates.
           if($query)
@@ -139,7 +139,7 @@ ms.locfileid: "50908313"
               $query += "Date <= " + $_.EndDate
           }
           $query += ")"
-     }
+    }
 
      # -ExchangeLocation can't be set to an empty string, set to null if there's no location.
      $exchangeLocation = $null
@@ -148,21 +148,21 @@ ms.locfileid: "50908313"
            $exchangeLocation = $_.ExchangeLocation
      }
 
-     # Create and run the search
-     $searchName = $searchGroup +'_' + $searchCounter
-     Write-Host "Creating and running search: " $searchName -NoNewline
-     $search = New-ComplianceSearch -Name $searchName -ExchangeLocation $exchangeLocation -SharePointLocation $_.SharePointLocation -ContentMatchQuery $query
+    # Create and run the search
+    $searchName = $searchGroup +'_' + $searchCounter
+    Write-Host "Creating and running search: " $searchName -NoNewline
+    $search = New-ComplianceSearch -Name $searchName -ExchangeLocation $exchangeLocation -SharePointLocation $_.SharePointLocation -ContentMatchQuery $query
 
-     # Start and wait for each search to complete
-     Start-ComplianceSearch $search.Name
-     while ((Get-ComplianceSearch $search.Name).Status -ne "Completed")
-     {
-        Write-Host " ." -NoNewline
-        Start-Sleep -s 3
-     }
-     Write-Host ""
+    # Start and wait for each search to complete
+    Start-ComplianceSearch $search.Name
+    while ((Get-ComplianceSearch $search.Name).Status -ne "Completed")
+    {
+       Write-Host " ." -NoNewline
+       Start-Sleep -s 3
+    }
+    Write-Host ""
 
-     $searchCounter++
+    $searchCounter++
    }
    ```
 
@@ -174,7 +174,7 @@ ms.locfileid: "50908313"
 
 3. В **запросе ID группы поиска** введите имя группы поиска и нажмите **кнопку Ввод;** например,  `ContosoCase` . Помните, что это имя является чувствительным к делу, поэтому на последующих действиях необходимо ввести его таким же образом.
 
-4. В **запросе файла Source CSV** введите имя файла CSV, включая расширение файла .csv; например,  `ContosoCase.csv` .
+4. В **запросе файла Source CSV** введите имя файла CSV, включая расширение .csv; например,  `ContosoCase.csv` .
 
 5. Нажмите **кнопку Ввод,** чтобы продолжить запуск скрипта.
 
@@ -249,7 +249,7 @@ ms.locfileid: "50908313"
 
 3. В **запросе ID группы поиска** введите имя группы поиска и нажмите **кнопку Ввод;** например  `ContosoCase` . Помните, что это имя является чувствительным к делу, поэтому его необходимо ввести так же, как и при 3-м этапе сценария.
 
-4. Чтобы сохранить отчет в **CSV-файле (оставьте** пустым только для отображения отчета) запрос, введите имя файла полного пути имя файла (включая расширение файла csv), если вы хотите сохранить отчет в CSV-файл. имя CSV-файла, в том числе расширения файла .csv. Например, можно ввести, чтобы сохранить его в текущем каталоге, или ввести, чтобы сохранить его  `ContosoCaseReport.csv`  `C:\Users\admin\OneDrive for Business\ContosoCase\ContosoCaseReport.csv` в другой папке. Вы также можете оставить запрос пустым, чтобы отобразить отчет, но не сохранить его в файле.
+4. Чтобы сохранить отчет в **CSV-файле (оставьте** пустым только для отображения отчета) запрос, введите имя файла полного пути имя файла (в том числе расширение .csv файла), если вы хотите сохранить отчет в CSV-файл. имя CSV-файла, включая расширение .csv файла. Например, можно ввести, чтобы сохранить его в текущем каталоге, или ввести, чтобы сохранить его  `ContosoCaseReport.csv`  `C:\Users\admin\OneDrive for Business\ContosoCase\ContosoCaseReport.csv` в другой папке. Вы также можете оставить запрос пустым, чтобы отобразить отчет, но не сохранить его в файле.
 
 5. Нажмите клавишу **ВВОД**.
 

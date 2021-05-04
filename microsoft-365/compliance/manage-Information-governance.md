@@ -6,20 +6,21 @@ ms.author: cabailey
 author: cabailey
 manager: laurawi
 audience: Admin
-ms.topic: hub-page
+ms.topic: overview
 ms.service: O365-seccomp
 ms.collection: m365-security-compliance
 localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
+recommendations: false
 description: Реализуйте возможности управления информацией (Майкрософт) для управления своими данными с целью соответствия требованиям или выполнения нормативных обязательств.
-ms.openlocfilehash: 8a104775cd9bfc75af5b5af9840274f5f84509f0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6a0db63f218db72dbda9afc510cb5ef5f5e13eaa
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903495"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107707"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Управление информацией (Майкрософт) в Microsoft 365
 

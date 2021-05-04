@@ -17,14 +17,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: В этой статье содержатся сведения о новых возможностях шифрования сообщений Office 365 (OME).
-ms.openlocfilehash: 947df41d15ef3ac3d98d425645857fbdd6fb2817
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: В этой статье содержатся сведения о новых возможностях шифрование сообщений Office 365 (OME).
+ms.openlocfilehash: ac6063b1765d65c3dafc3f296d9ae9c010ffd617
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908547"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876288"
 ---
 # <a name="configure-irm-to-use-azure-rights-management"></a>Настройка IRM для использования службы Azure Rights Management
 
-Благодаря выпуску новых возможностей для шифрования сообщений Office 365 (OME) больше не нужно настраивать IRM отдельно. Корпорация Майкрософт не рекомендует настраивать новые развертывания при использовании устаревших версий OME и IRM с Azure Rights Management. Дополнительные сведения о новых возможностях OME см. в статье [Вопросы и ответы: шифрование сообщений Office 365](./ome-faq.md). Если вы готовы применить новые возможности OME в организации, см. статью [Как настроить новые возможности шифрования сообщений Office 365 на базе Azure Information Protection](./set-up-new-message-encryption-capabilities.md).
+Благодаря выпуску новых возможностей для шифрования сообщений Office 365 (OME) больше не нужно настраивать IRM отдельно. Корпорация Майкрософт не рекомендует настраивать новые развертывания при использовании устаревших версий OME и IRM с Azure Rights Management. Дополнительные сведения о новых возможностях OME см. в статье [Вопросы и ответы: шифрование сообщений Office 365](./ome-faq.yml). Если вы готовы применить новые возможности OME в организации, см. статью [Как настроить новые возможности шифрования сообщений Office 365 на базе Azure Information Protection](./set-up-new-message-encryption-capabilities.md).

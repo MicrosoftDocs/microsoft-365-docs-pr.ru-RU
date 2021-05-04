@@ -1,5 +1,5 @@
 ---
-title: Функции защиты от потери данных (DLP)
+title: Какие функции по предотвращению потери данных (DLP)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,201 +17,202 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Узнайте, что изучить функции защиты от потери данных (DLP).
-ms.openlocfilehash: b77075b0b31ad5d6e6e2b7062c35e96649fa8365
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+recommendations: false
+description: Узнайте, какие функции по предотвращению потери данных (DLP) выполняются.
+ms.openlocfilehash: 47eda79470fd131939c493ac4f66af6efea01dd6
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841450"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086516"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>Сведения, для обнаружения которых используются функции защиты от потери данных
 
-Политики защиты от потери данных могут использовать типы конфиденциальной информации для идентификации конфиденциальных элементов. В качестве примеров типов конфиденциальной информации можно привести номер кредитной карты и номер банковской карты для ЕС. Типы конфиденциальной информации искать определенные шаблоны. Типы конфиденциальной информации проверяют данные, посмотрев на их формат, контрольные списки и насмотрев соответствующие ключевые слова или другую информацию. Для некоторых из этих проверок используются внешние функции. Например, тип конфиденциальной информации "Номер кредитной карты" использует функцию для искомых дат, отформатированные как дата окончания срока действия. Это помогает подтвердить, что номер является номером кредитной карты.
+Политики предотвращения потери данных (DLP) могут использовать типы конфиденциальной информации для идентификации конфиденциальных элементов. Номер кредитной карты и номер дебетовой карты ЕС являются примерами типов конфиденциальной информации. Типы конфиденциальных сведений искать определенные шаблоны. Типы конфиденциальных сведений проверяют данные, глядя на его формат, это контрольные списки, а также ищет соответствующие ключевые слова или другую информацию. Для некоторых из этих проверок используются внешние функции. Например, тип конфиденциальной информации о номере кредитной карты использует функцию, чтобы искать даты, форматированные как дата истечения срока действия. Это позволяет подтвердить, что номер — это номер кредитной карты.
   
-В этой статье объясняется, что искать эти функции, чтобы помочь вам понять, как работают предварительно определенные типы конфиденциальной информации. Дополнительные сведения [см.](sensitive-information-type-entity-definitions.md) в определениях сущности типа конфиденциальной информации
+В этой статье рассказывается о том, какие функции выполняют эти функции, чтобы понять, как работают предопределяемы типы конфиденциальной информации. Дополнительные сведения см. в виде определений сущности [типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)
   
 ## <a name="table-of-functions"></a>Таблица функций
 
-|имя функции  |действие функции  |является проверкой|
+|имя функции  |действие функции  |является валидатором|
 |---------|---------|---------|
-|Func_Argentina_Unique_Tax_Key|обнаруживает и проверяет уникальный налоговый ключ Для Аргентины|Нет|
-|Func_aba_routing|определяет номер маршрутки ABA| Да|
-|Func_alabama_drivers_license_number|определяет номер водительского удостоверения Алабамы|Нет|
-|Func_alaska_delaware_oregon_drivers_license_number|обнаруживает Номер водительского удостоверения в Орегоне, Деляве|Нет|
-|Func_alaska_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_alberta_drivers_license_number|определяет номер водительского удостоверения в Альбате|Нет|
-|Func_Argentina_Unique_Tax_Key|определяет уникальный налоговый ключ для Аргентины|Нет|
-|Func_arizona_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_arkansas_drivers_license_number|определяет номер водительского удостоверения Арканзаса|Нет|
-|Func_australian_business_number|определяет номер компании для Австралии|Нет|
-|Func_Australian_Company_Number|определяет номер компании для Австралии|Нет|
-|Func_australian_medical_account_number|определяет номер медицинской учетной записи Для Австралии|Нет|
-|Func_australian_tax_file_number|определяет номер налогового файла для Австралии|Да|
-|Func_austria_eu_ssn_or_equivalent|определяет номер социального обеспечения Для Австрия|Нет|
-|Func_austria_eu_tax_file_number|определяет номер налогового файла для Австрия|Нет|
-|Func_Austria_Value_Added_Tax|определяет налог на добавленную стоимость для Австрия|Нет|
-|Func_belgium_national_number|определяет номер для бельгийского национального номера|Нет|
-|Func_belgium_value_added_tax_number|определяет номер налога на добавленную стоимость в Бельгии|Нет|
-|Func_brazil_cnpj|определяет номер юридического лица для Бразилии (CNPJ)|Да|
-|Func_brazil_cpf|обнаруживает CPF для Бразилии|Да|
-|Func_brazil_rg|обнаруживает RG для Бразилии|Нет|
-|Func_british_columbia_drivers_license_number|определяет номер водительского удостоверения для Английской Колумбии|Нет|
-|Func_bulgaria_eu_national_id_card|определяет однородный номер для Болгарии|Нет|
-|Func_california_drivers_license_number|определяет номер водительского удостоверения в Калифорнии|Нет|
-|Func_canadian_sin|обнаруживает канадский сгреш|Да|
-|Func_chile_id_card|обнаруживает ИД-карту Чили|Нет|
-|Func_china_resident_id|определяет ИД резидента Китая|Нет|
-|Func_colorado_drivers_license_number|определяет номер водительского удостоверения "Климов".|Нет|
-|Func_connecticut_drivers_license_number|определяет номер водительского удостоверения Connecticut|Нет|
+|Func_Argentina_Unique_Tax_Key|обнаруживает и проверяет уникальный налоговый ключ Аргентины|нет|
+|Func_aba_routing|обнаруживает номер маршрутивки ABA| Да|
+|Func_alabama_drivers_license_number|обнаруживает номер лицензии водителя Алабамы|нет|
+|Func_alaska_delaware_oregon_drivers_license_number|обнаруживает номер лицензии на Аляску, Делавэр, Орегон|нет|
+|Func_alaska_drivers_license_number|обнаруживает номер лицензии водителя Аляски|нет|
+|Func_alberta_drivers_license_number|определяет номер водительских прав в Альберте|нет|
+|Func_Argentina_Unique_Tax_Key|обнаруживает уникальный налоговый ключ Аргентины|нет|
+|Func_arizona_drivers_license_number|определяет номер лицензии водителя Аризоны|нет|
+|Func_arkansas_drivers_license_number|обнаруживает номер лицензии водителя Arkansas|нет|
+|Func_australian_business_number|обнаруживает бизнес-номер Австралии|нет|
+|Func_Australian_Company_Number|определяет номер компании в Австралии|нет|
+|Func_australian_medical_account_number|обнаруживает номер медицинской учетной записи Австралии|нет|
+|Func_australian_tax_file_number|обнаруживает номер налогового файла Австралии|Да|
+|Func_austria_eu_ssn_or_equivalent|определяет номер социального обеспечения в Австрии|нет|
+|Func_austria_eu_tax_file_number|определяет номер налогового файла в Австрии|нет|
+|Func_Austria_Value_Added_Tax|определяет налог на добавленную стоимость в Австрии|нет|
+|Func_belgium_national_number|определяет национальный номер Бельгии|нет|
+|Func_belgium_value_added_tax_number|определяет номер налога на добавленную стоимость в Бельгии|нет|
+|Func_brazil_cnpj|обнаруживает номер юридического лица Бразилии (CNPJ)|Да|
+|Func_brazil_cpf|обнаруживает Бразилии CPF|Да|
+|Func_brazil_rg|обнаруживает RG Бразилии|нет|
+|Func_british_columbia_drivers_license_number|определяет номер водительских прав в Британской Колумбии|нет|
+|Func_bulgaria_eu_national_id_card|определяет единый гражданский номер Болгарии|нет|
+|Func_california_drivers_license_number|определяет номер лицензии пилота в Калифорнии|нет|
+|Func_canadian_sin|обнаруживает грех Канады|Да|
+|Func_chile_id_card|обнаруживает удостоверение личности Чили|нет|
+|Func_china_resident_id|обнаруживает ID резидента Китая|нет|
+|Func_colorado_drivers_license_number|обнаруживает номер водительских прав в Колорадо|нет|
+|Func_connecticut_drivers_license_number|определяет номер лицензии водителя Connecticut|нет|
 |Func_credit_card|обнаруживает кредитную карту|да|нет|
-|Func_croatia_id_card|обнаруживает ИД-карту Хорватии|Нет|
-|Func_croatia_oib_number|определяет номер OIB для Хорватии|Нет|
-|Func_cyprus_eu_tax_file_number|определяет номер налогового файла для Кипра|Нет|
-|Func_czech_id_card|обнаруживает чешскую ID-карту|Нет|
-|Func_czech_id_card_new_format|обнаруживает чешскую ID-карту в новом формате|Нет|
+|Func_croatia_id_card|обнаруживает удостоверение личности Хорватии|нет|
+|Func_croatia_oib_number|определяет номер OIB в Хорватии|нет|
+|Func_cyprus_eu_tax_file_number|обнаруживает номер кипрского налогового файла|нет|
+|Func_czech_id_card|обнаруживает чешскую ID-карту|нет|
+|Func_czech_id_card_new_format|обнаружение чешской ID-карты в новом формате|нет|
 |Func_dea_number|обнаруживает номер DEA|Да|
-|Func_denmark_eu_tax_file_number|определяет персональный идентификационный номер для Дании|Нет|
-|Func_district_of_columbia_drivers_license_number|определяет номер водительского удостоверения в округе Колумбия|Нет|
-|Func_estonia_eu_national_id_card|обнаруживает персональный идентификационный код Для Эстонии|Нет|
-|Func_eu_debit_card|определяет дебетовую карту ДЛЯ ЕС|Нет|
-|Func_finnish_national_id|обнаруживает национальный ИД Финляндии|Нет|
-|Func_florida_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_florida_maryland_michigan_minnesota_drivers_license_number|определяет номер водительского удостоверения "Вайт", "Мериленд", "Климен", "Штат О-ва"|Нет|
-|Func_formatted_itin|обнаруживает отформатированные US ITIN|Да|
-|Func_fr_insee|обнаруживает Францию INSEE|Нет|
-|Func_fr_passport|обнаруживает паспорт гражданина Франции|Нет|
-|Func_france_eu_tax_file_number|определяет номер налогового файла для Франции|Нет|
-|Func_france_value_added_tax_number|определяет номер налога на добавленную стоимость для Франции|Нет|
-|Func_french_drivers_license|определяет водительское удостоверение на французском языке|Нет|
-|Func_french_insee|обнаруживает французский INSEE|Нет|
-|Func_georgia_drivers_license_number|определяет номер водительского удостоверения для Джорджии|Нет|
-|Func_german_drivers_license|определяет водительское удостоверение для Германии|Нет|
-|Func_german_passport|обнаруживает паспорт гражданина Германии|Нет|
-|Func_german_passport_data|обнаруживает паспорт гражданина Германии|Нет|
-|Func_germany_eu_tax_file_number|определяет номер налогового файла для Германии|Нет|
-|Func_germany_value_added_tax_number|определяет номер налога на добавленную стоимость в Германии|Нет|
-|Func_greece_eu_ssn|обнаруживает грецияский сгреш (AMKA)|Нет|
-|Func_hawaii_drivers_license_number|определяет номер водительского удостоверения Для Острова|Нет|
-|Func_hong_kong_id_card |обнаруживает ИД-карту в Гонконге|Нет|
-|Func_hungarian_value_added_tax_number|определяет номер налога на добавленную стоимость для Венгрии|Нет|
-|Func_hungary_eu_national_id_card|определяет персональный идентификационный номер для Венгрии|Нет|
-|Func_hungary_eu_ssn_or_equivalent|определяет номер социального обеспечения Для Венгрии|Нет|
-|Func_hungary_eu_tax_file_number|определяет номер налогового файла для Венгрии|Нет|
-|Func_iban|определяет IBAN|Да|
-|Func_idaho_drivers_license_number|определяет номер водительского удостоверения Айдахо|Нет|
-|Func_illinois_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_india_aadhaar|detects India aadhaar|Да|
-|Func_indiana_drivers_license_number|определяет номер водительского удостоверения в Индии|Нет|
-|Func_iowa_drivers_license_number|определяет номер водительского удостоверения "|Нет|
-|Func_ireland_pps|обнаруживает PPS для Ирландии|Нет|
-|Func_israeli_national_id_number|обнаруживает номер национального ИД для Израиля|Нет|
-|Func_italy_eu_national_id_card |определяет финансовый код Для Италия|Нет|
-|Func_italy_value_added_tax_number|определяет номер налога на добавленную стоимость для Италия|Нет|
-|Func_japanese_my_number_corporate|обнаруживает Японию на моем корпоративном номере|Да|
-|Func_japanese_my_number_personal|обнаруживает в Японии мой личный номер|Да|
-|Func_jp_bank_account|обнаруживает банковский счет для Японии|Нет|
-|Func_jp_bank_account_branch_code|обнаруживает код филиала банковского счета для Японии|Нет|
-|Func_jp_drivers_license_number|определяет номер водительского удостоверения для Японии|Нет|
-|Func_jp_passport|обнаруживает паспорт гражданина Японии|Нет|
-|Func_jp_resident_registration_number|определяет номер регистрации для резидентов Японии|Нет|
-|Func_jp_sin|обнаруживает СИН Для Японии|Нет|
-|Func_jp_sin_pre_1997|обнаруживает японию до 1997 г.|Нет|
-|Func_kansas_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_kentucky_drivers_license_number|определяет номер водительского удостоверения "Не по номеру".|Нет|
-|Func_kentucky_massachusetts_virginia_drivers_license_number|определяет номер водительского удостоверения "Книжий", "Неугомя" и "Неавтон".|Нет|
-|Func_latvia_eu_national_id_card|обнаруживает персональный код Латвии|Нет|
-|Func_lithuania_eu_tax_file_number|обнаруживает персональный код Для Литвы|Нет|
-|Func_louisiana_drivers_license_number|определяет номер водительского удостоверения в Штате|Нет|
-|Func_luxemburg_eu_tax_file_number|обнаруживает национальный идентификационный номер (естественные лица) в Хымнюсе|Нет|
-|Func_luxemburg_eu_tax_file_number_non_natural|обнаруживает национальный идентификационный номер Химмнеса (не является естественным лицом)|Нет|
-|Func_maine_drivers_license_number|определяет номер водительского удостоверения Maine|Нет|
-|Func_manitoba_drivers_license_number|определяет номер водительского удостоверения Manitoba|Нет|
-|Func_maryland_drivers_license_number|определяет номер водительского удостоверения для штата Мариленд|Нет|
-|Func_massachusetts_drivers_license_number|определяет номер водительского удостоверения "|Нет|
-|Func_mexico_population_registry_code|обнаруживает код реестра для людей в Мексика|Нет|
-|Func_michigan_minnesota_drivers_license_number|обнаруживает номер водительского удостоверения «Кнолин, ШтатОм, ШтатОм).|Нет|
-|Func_minnesota_drivers_license_number|определяет номер водительского удостоверения в Штате|Нет|
-|Func_mississippi_oklahoma_drivers_license_number|определяет номер водительского удостоверения "Неугомя"|Нет|
-|Func_missouri_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_montana_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_nebraska_drivers_license_number|определяет номер водительского удостоверения Nebraska|Нет|
-|Func_netherlands_bsn|обнаруживает BSN Нидерландов|Нет|
-|Func_netherlands_eu_tax_file_number|определяет номер налогового файла для Нидерландов|Нет|
-|Func_netherlands_value_added_tax_number|определяет номер налога на добавленную стоимость для Нидерландов|Нет|
-|Func_nevada_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_new_brunswick_drivers_license_number|определяет номер водительского удостоверения New Bruns detects|Нет|
-|Func_new_hampshire_drivers_license_number|определяет номер водительского удостоверения в Нью-Хэмпшире|Нет|
-|Func_new_jersey_drivers_license_number |определяет номер водительского удостоверения в Нью-Джерси|Нет|
-|Func_new_mexico_drivers_license_number |определяет номер водительского удостоверения в Нью-Йорке|Нет|
-|Func_new_york_drivers_license_number   |определяет номер водительского удостоверения в Нью-Йорке|Нет|
-|Func_new_zealand_bank_account_number   |определяет номер банковского счета для Новой Зеландии|Нет|
-|Func_new_zealand_inland_revenue_number |определяет номер выручки для новой Зеландии в стране|Нет|
-|Func_new_zealand_ministry_of_health_number|обнаруживает номер медицинского номера для Новой Зеландии|Нет|
-|Func_newfoundland_labrador_drivers_license_number|определяет номер водительского удостоверения Newfoundland Lab detectr|Нет|
-|Func_newzealand_driver_license_number  |определяет номер водительского удостоверения для Новой Зеландии|Нет|
-|Func_newzealand_social_welfare_number  |определяет номер социальных сетей Новой Зеландии|Нет|
-|Func_north_carolina_drivers_license_number|определяет номер водительского удостоверения "Северная Восток".|Нет|
-|Func_north_dakota_drivers_license_number|определяет номер водительского удостоверения "Северная Дансия"|Нет|
-|Func_norway_id_number  |определяет номер ИД Норвегии|Нет|
-|Func_nova_scotia_drivers_license_number|определяет номер водительского удостоверения Nova Scotia|Нет|
-|Func_ohio_drivers_license_number   |определяет номер водительского удостоверения|Нет|
-|Func_ontario_drivers_license_number    |определяет номер водительского удостоверения|Нет|
-|Func_pennsylvania_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_pesel_identification_number   |обнаруживает национальный ИД для Польша (PESEL)|Нет|
-|Func_poland_eu_tax_file_number |определяет номер налогового файла для Германии|Нет|
-|Func_polish_national_id    |обнаруживает удостоверение личности для Польша|Нет|
-|Func_polish_passport_number    |определяет номер паспорта гражданина Польский|Нет|
-|Func_polish_regon_number   |определяет номер польского REGON|Нет|
-|Func_portugal_eu_tax_file_number|определяет идентификационный номер налога для Португалии|Нет|
-|Func_prince_edward_island_drivers_license_number|определяет номер водительского удостоверения "Острова Ковыл"|Нет|
-|Func_quebec_drivers_license_number |определяет номер водительского удостоверения|Нет|
-|Func_randomized_formatted_ssn  |обнаруживает случайно отформатированный SSN в США|Да|
-|Func_randomized_unformatted_ssn|обнаруживает случайное неформатированное SSN в США|Да|
-|Func_rhode_island_drivers_license_number|определяет номер водительского удостоверения на О-вЕ|Нет|
-|Func_romania_eu_national_id_card   |обнаруживает персональный числовой код Румынии (CNP)|Нет|
-|Func_saskatchewan_drivers_license_number|определяет номер водительского удостоверения Saskatchewan|Нет|
-|Func_slovakia_eu_national_id_card  |определяет персональный номер для Словакии|Нет|
-|Func_slovenia_eu_national_id_card  |определяет уникальный номер гражданина Словении|Нет|
-|Func_slovenia_eu_tax_file_number   |определяет номер налогового файла для Словении|Нет|
-|Func_south_africa_identification_number|определяет идентификационный номер для Южной Африки|Да|
-|Func_south_carolina_drivers_license_number|определяет номер водительского удостоверения "Южная Африка"|Нет|
-|Func_south_dakota_drivers_license_number|определяет номер водительского удостоверения "Южная Африка"|Нет|
-|Func_south_korea_resident_number   |определяет номер резидента Южной Республики Корея|Нет|
-|Func_spain_eu_DL_and_NI_number_citizen |обнаруживает испанского гражданина номеров DL и NI|Нет|
-|Func_spain_eu_DL_and_NI_number_foreigner|обнаружение номеров DL и NI в Испании|Нет|
-|Func_spain_eu_driver s_license_number  |определяет номер водительского удостоверения для Испании|Нет|
-|Func_spain_eu_tax_file_number  |определяет номер налогового файла для Испании|Нет|
-|Func_spanish_social_security_number|определяет номер социального обеспечения на испанском языке|Нет|
-|Func_ssn   |Функция для обнаружения нестандартного формата SSN в США|Да|
-|Func_sweden_eu_tax_file_number|определяет номер налогового файла для Швеции|Нет|
-|Func_swedish_national_identifier|обнаруживает шведский национальный идентификатор|Да|
-|Func_swiss_social_security_number_ahv|обнаруживает номер социального обеспечения (AHV) для Швейцарии|Нет|
-|Func_taiwanese_national_id |обнаруживает национальный ид тайваньского|Нет|
-|Func_tennessee_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_texas_drivers_license_number  |определяет номер водительского удостоверения в Техасе|Нет|
-|Func_Thai_Citizen_Id   |обнаруживает ИД тайских граждан|Нет|
-|Func_Turkish_National_Id|обнаруживает турецкий национальный ИД|Да|
-|Func_uk_drivers_license|определяет водительское удостоверение для Соединенного Королевства|Нет|
-|Func_uk_eu_tax_file_number|определяет уникальный номер налогоплательщика для Соединенного Королевства|Нет|
-|Func_uk_nhs_number |определяет номер NHS для Соединенного Королевства|Да|
-|Func_uk_nino   |определяет NINO для Соединенного Королевства|Нет|
-|Func_unformatted_canadian_sin|обнаруживает неформатированный канадский SIN|Нет|
-|Func_unformatted_itin  |обнаруживает неформатированные ИТ-11 для США|Да|
-|Func_unformatted_ssn   |обнаруживает нестандартное неформатированное неформатированное SSN сша|Да|
-|Func_usa_uk_passport   |обнаружение паспортов США и Соединенного Королевства|Да|
-|Func_utah_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_vermont_drivers_license_number|определяет номер водительского удостоверения Ver вершины|Нет|
-|Func_virginia_drivers_license_number|определяет номер водительского удостоверения|Нет|
-|Func_washington_drivers_license_number|определяет номер водительского удостоверения в Вашингтоне|Нет|
-|Func_west_virginia_drivers_license_number|определяет номер водительского удостоверения в Западной Востоке|Нет|
-|Func_wisconsin_drivers_license_number  |определяет номер водительского удостоверения|Нет|
-|Func_wyoming_drivers_license_number    |определяет номер водительского удостоверения Вайоминга|Нет|
+|Func_denmark_eu_tax_file_number|обнаруживает личный идентификационный номер Дании|нет|
+|Func_district_of_columbia_drivers_license_number|определяет номер водительских прав округа Колумбия|нет|
+|Func_estonia_eu_national_id_card|обнаружение кода идентификации личности в Эстонии|нет|
+|Func_eu_debit_card|обнаруживает дебетовую карту ЕС|нет|
+|Func_finnish_national_id|обнаружение финского национального ID|нет|
+|Func_florida_drivers_license_number|обнаруживает номер водительской лицензии Флориды|нет|
+|Func_florida_maryland_michigan_minnesota_drivers_license_number|обнаруживает номер водительских прав во Флориде, Мэриленде, Мичигане и Миннесоте|нет|
+|Func_formatted_itin|обнаруживает отформатированные ITIN США|Да|
+|Func_fr_insee|обнаруживает Францию INSEE|нет|
+|Func_fr_passport|обнаруживает паспорт Франции|нет|
+|Func_france_eu_tax_file_number|определяет номер налогового файла Франции|нет|
+|Func_france_value_added_tax_number|определяет номер налога на добавленную стоимость во Франции|нет|
+|Func_french_drivers_license|обнаруживает французские водительские права|нет|
+|Func_french_insee|обнаруживает французский INSEE|нет|
+|Func_georgia_drivers_license_number|определяет номер водительского удостоверения Джорджии|нет|
+|Func_german_drivers_license|обнаружение водительских прав в Германии|нет|
+|Func_german_passport|обнаруживает паспорт Германии|нет|
+|Func_german_passport_data|обнаруживает паспорт Германии|нет|
+|Func_germany_eu_tax_file_number|обнаруживает номер налогового файла Германии|нет|
+|Func_germany_value_added_tax_number|определяет номер налога на добавленную стоимость в Германии|нет|
+|Func_greece_eu_ssn|обнаруживает грех Греции (AMKA)|нет|
+|Func_hawaii_drivers_license_number|определяет номер водительских прав на Гавайях|нет|
+|Func_hong_kong_id_card |обнаруживает ID-карту Гонконга|нет|
+|Func_hungarian_value_added_tax_number|определяет номер налога на добавленную стоимость в Венгрии|нет|
+|Func_hungary_eu_national_id_card|обнаруживает личный идентификационный номер Венгрии|нет|
+|Func_hungary_eu_ssn_or_equivalent|определяет номер социального обеспечения в Венгрии|нет|
+|Func_hungary_eu_tax_file_number|обнаруживает номер налогового файла Венгрии|нет|
+|Func_iban|обнаруживает IBAN|Да|
+|Func_idaho_drivers_license_number|определяет номер лицензии водителя Айдахо|нет|
+|Func_illinois_drivers_license_number|определяет номер водительских прав штата Иллинойс|нет|
+|Func_india_aadhaar|обнаруживает Индию aadhaar|Да|
+|Func_indiana_drivers_license_number|обнаруживает номер водительских прав Индианы|нет|
+|Func_iowa_drivers_license_number|определяет номер лицензии водителя Айовы|нет|
+|Func_ireland_pps|обнаруживает PPS Ирландии|нет|
+|Func_israeli_national_id_number|обнаруживает номер национального ID Израиля|нет|
+|Func_italy_eu_national_id_card |обнаруживает финансовый код Италии|нет|
+|Func_italy_value_added_tax_number|определяет номер налога на добавленную стоимость в Италии|нет|
+|Func_japanese_my_number_corporate|обнаруживает Японию мой корпоративный номер|Да|
+|Func_japanese_my_number_personal|обнаруживает Японию мой личный номер|Да|
+|Func_jp_bank_account|обнаруживает банковский счет в Японии|нет|
+|Func_jp_bank_account_branch_code|обнаруживает код филиала учетной записи банка Японии|нет|
+|Func_jp_drivers_license_number|определяет номер водительских прав в Японии|нет|
+|Func_jp_passport|обнаруживает паспорт Японии|нет|
+|Func_jp_resident_registration_number|определяет регистрационный номер резидента Японии|нет|
+|Func_jp_sin|обнаруживает Син Японии|нет|
+|Func_jp_sin_pre_1997|обнаруживает Японию до 1997 г.|нет|
+|Func_kansas_drivers_license_number|определяет номер лицензии водителя в Канзасе|нет|
+|Func_kentucky_drivers_license_number|определяет номер водительских прав в Кентукки|нет|
+|Func_kentucky_massachusetts_virginia_drivers_license_number|определяет номер водительских прав в Кентукки, Массачусетсе и Вирджинии|нет|
+|Func_latvia_eu_national_id_card|обнаруживает личный код Латвии|нет|
+|Func_lithuania_eu_tax_file_number|обнаруживает личный код Литвы|нет|
+|Func_louisiana_drivers_license_number|обнаруживает номер лицензии водителя Луизианы|нет|
+|Func_luxemburg_eu_tax_file_number|обнаруживает национальный идентификационный номер Люксембурга (естественные лица)|нет|
+|Func_luxemburg_eu_tax_file_number_non_natural|обнаруживает номер национальной идентификации в Люксембурге (не естественное лицо)|нет|
+|Func_maine_drivers_license_number|определяет номер водительских прав в Maine|нет|
+|Func_manitoba_drivers_license_number|определяет номер водительских прав Manitoba|нет|
+|Func_maryland_drivers_license_number|обнаруживает номер водительских прав в Мэриленде|нет|
+|Func_massachusetts_drivers_license_number|обнаруживает номер водительских прав в Штате Массачусетс|нет|
+|Func_mexico_population_registry_code|обнаруживает код реестра населения Мексики|нет|
+|Func_michigan_minnesota_drivers_license_number|определяет номер лицензии водителя в Штате Миннесота|нет|
+|Func_minnesota_drivers_license_number|определяет номер водительских прав в Штате Миннесота|нет|
+|Func_mississippi_oklahoma_drivers_license_number|обнаруживает миссисипи, номер водительской лицензии Оклахомы|нет|
+|Func_missouri_drivers_license_number|определяет номер водительских прав в Штате Миссури|нет|
+|Func_montana_drivers_license_number|обнаруживает номер водительских прав в Монтане|нет|
+|Func_nebraska_drivers_license_number|определяет номер водительских прав Nebraska|нет|
+|Func_netherlands_bsn|обнаруживает Нидерланды BSN|нет|
+|Func_netherlands_eu_tax_file_number|обнаруживает номер налогового файла Нидерландов|нет|
+|Func_netherlands_value_added_tax_number|определяет номер налога на добавленную стоимость в Нидерландах|нет|
+|Func_nevada_drivers_license_number|определяет номер лицензии водителя Невады|нет|
+|Func_new_brunswick_drivers_license_number|обнаруживает номер лицензии водителя New Brunswick|нет|
+|Func_new_hampshire_drivers_license_number|обнаруживает номер водительских прав в Нью-Гемпшире|нет|
+|Func_new_jersey_drivers_license_number |обнаруживает номер лицензии водителя в Нью-Джерси|нет|
+|Func_new_mexico_drivers_license_number |обнаруживает номер водительских прав в Нью-Мексико|нет|
+|Func_new_york_drivers_license_number   |обнаруживает номер водительских прав в Нью-Йорке|нет|
+|Func_new_zealand_bank_account_number   |обнаруживает номер банковского счета в Новой Зеландии|нет|
+|Func_new_zealand_inland_revenue_number |определяет число внутренних доходов в Новой Зеландии|нет|
+|Func_new_zealand_ministry_of_health_number|обнаруживает номер министерства здравоохранения Новой Зеландии|нет|
+|Func_newfoundland_labrador_drivers_license_number|обнаруживает номер лицензии водителя Newfoundland Labrador|нет|
+|Func_newzealand_driver_license_number  |определяет номер водительского удостоверения Новой Зеландии|нет|
+|Func_newzealand_social_welfare_number  |определяет номер социального обеспечения в Новой Зеландии|нет|
+|Func_north_carolina_drivers_license_number|обнаруживает номер водительских прав в Северной Каролине|нет|
+|Func_north_dakota_drivers_license_number|определяет номер водительских прав в Северной Дакоте|нет|
+|Func_norway_id_number  |обнаруживает номер норвежского ID|нет|
+|Func_nova_scotia_drivers_license_number|обнаруживает номер водительских прав Nova Scotia|нет|
+|Func_ohio_drivers_license_number   |определяет номер водительских прав в Огайо|нет|
+|Func_ontario_drivers_license_number    |определяет номер водительских прав Онтарио|нет|
+|Func_pennsylvania_drivers_license_number|обнаруживает номер лицензии водителя Пенсильвании|нет|
+|Func_pesel_identification_number   |обнаружение польского национального ID (PESEL)|нет|
+|Func_poland_eu_tax_file_number |определяет номер налогового файла Польши|нет|
+|Func_polish_national_id    |обнаруживает удостоверение личности в Польше|нет|
+|Func_polish_passport_number    |определяет номер польского паспорта|нет|
+|Func_polish_regon_number   |обнаруживает польский номер REGON|нет|
+|Func_portugal_eu_tax_file_number|определяет номер идентификации налога в Португалии|нет|
+|Func_prince_edward_island_drivers_license_number|обнаруживает номер лицензии водителя острова Принца Эдуарда|нет|
+|Func_quebec_drivers_license_number |обнаруживает номер лицензии водителя Квебека|нет|
+|Func_randomized_formatted_ssn  |обнаруживает рандомизированный форматированный SSN США|Да|
+|Func_randomized_unformatted_ssn|обнаруживает рандомизированные неформатированные SSN США|Да|
+|Func_rhode_island_drivers_license_number|обнаруживает номер лицензии водителя Род-Айленда|нет|
+|Func_romania_eu_national_id_card   |обнаруживает личный числимый код Румынии (CNP)|нет|
+|Func_saskatchewan_drivers_license_number|обнаруживает номер водительских прав Saskatchewan|нет|
+|Func_slovakia_eu_national_id_card  |определяет личный номер Словакии|нет|
+|Func_slovenia_eu_national_id_card  |определяет уникальный номер гражданина Словении|нет|
+|Func_slovenia_eu_tax_file_number   |определяет номер налогового файла Словении|нет|
+|Func_south_africa_identification_number|обнаруживает идентификационный номер Южной Африки|Да|
+|Func_south_carolina_drivers_license_number|обнаруживает номер водительских прав в Южной Каролине|нет|
+|Func_south_dakota_drivers_license_number|определяет номер водительских прав в Южной Дакоте|нет|
+|Func_south_korea_resident_number   |определяет номер резидента Южной Кореи|нет|
+|Func_spain_eu_DL_and_NI_number_citizen |обнаруживает гражданина номеров Испании DL и NI|нет|
+|Func_spain_eu_DL_and_NI_number_foreigner|обнаруживает иностранцев номеров DL и NI в Испании|нет|
+|Func_spain_eu_driver s_license_number  |определяет номер водительских прав в Испании|нет|
+|Func_spain_eu_tax_file_number  |определяет номер налогового файла Испании|нет|
+|Func_spanish_social_security_number|обнаруживает номер испанского социального обеспечения|нет|
+|Func_ssn   |Функция обнаружения неадомизированных форматизированных SSN США|Да|
+|Func_sweden_eu_tax_file_number|обнаруживает номер налогового файла Швеции|нет|
+|Func_swedish_national_identifier|обнаружение национального идентификатора Швеции|Да|
+|Func_swiss_social_security_number_ahv|обнаруживает швейцарский номер социального обеспечения AHV|нет|
+|Func_taiwanese_national_id |обнаружение тайваньского национального ID|нет|
+|Func_tennessee_drivers_license_number|обнаруживает номер лицензии водителей Теннесси|нет|
+|Func_texas_drivers_license_number  |определяет номер лицензии водителя Техаса|нет|
+|Func_Thai_Citizen_Id   |обнаруживает ИД гражданина Таиланда|нет|
+|Func_Turkish_National_Id|обнаружение турецкого национального ID|Да|
+|Func_uk_drivers_license|обнаруживает водительские права Великобритании|нет|
+|Func_uk_eu_tax_file_number|определяет уникальный номер налогоплательщика Великобритании|нет|
+|Func_uk_nhs_number |detects UK NHS number|Да|
+|Func_uk_nino   |обнаруживает NINO Великобритании|нет|
+|Func_unformatted_canadian_sin|обнаружение неформатированной канадской sin|нет|
+|Func_unformatted_itin  |обнаруживает unformatted US ITIN|Да|
+|Func_unformatted_ssn   |обнаруживает не рандомизированные неформатированные SSN США|Да|
+|Func_usa_uk_passport   |обнаружение паспорта США и Великобритании|Да|
+|Func_utah_drivers_license_number|определяет номер водительских прав в штате Юта|нет|
+|Func_vermont_drivers_license_number|обнаруживает номер водительских прав Вермонта|нет|
+|Func_virginia_drivers_license_number|обнаруживает номер водительских прав в Штате Вирджиния|нет|
+|Func_washington_drivers_license_number|определяет номер водительских прав в Вашингтоне|нет|
+|Func_west_virginia_drivers_license_number|определяет номер лицензии водителя в Западной Вирджинии|нет|
+|Func_wisconsin_drivers_license_number  |обнаруживает номер водительских прав в Висконсине|нет|
+|Func_wyoming_drivers_license_number    |обнаруживает номер водительских прав в Вайоминге|нет|
 
 
 ## <a name="func_us_date"></a>Func_us_date
 
-Func_us_date ищет даты в общих форматах США. Распространенные форматы: "месяц/день/год", "месяц-день-год" и "месяц день год". Названия или сокращения месяцев не чувствительны к делу. 
+Func_us_date ищет даты в обычных американских форматах. Общие форматы: "месяц/день/год", "месяц-день-год" и "год дня месяца". Имена или аббревиатуры месяцев не являются чувствительными к делу. 
   
 Примеры:
   
@@ -219,7 +220,7 @@ Func_us_date ищет даты в общих форматах США. Распр
     
 - 2 декабря 2016 г.
     
-- 02.12.2016
+- dec 02 2016
     
 - 12/2/2016
     
@@ -233,13 +234,13 @@ Func_us_date ищет даты в общих форматах США. Распр
   
 - Английский
     
-  - Январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь
+  - Январь, февраль, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь
     
-  - Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.
+  - Январь. Февраль. Март. Apr. Май июнь июль авг. Сентябрь. Октябрь Nov. Dec.
     
 ## <a name="func_eu_date"></a>Func_eu_date
 
-Fund_eu_dates ищет даты в общем e.U. форматы (и большинство мест за пределами США), такие как "день/месяц/год", "день-месяц-год" и "день месяц год". Названия или сокращения месяцев не чувствительны к делу.
+Fund_eu_dates ищет даты в общем ЕАО. форматы (и большинство мест за пределами США), такие как "день/месяц/год", "день-месяц-год" и "день месяца года". Имена или аббревиатуры месяцев не являются чувствительными к делу.
   
 Примеры:
   
@@ -247,13 +248,13 @@ Fund_eu_dates ищет даты в общем e.U. форматы (и больш
     
 - 02 декабря 2016 г.
     
-- 2 декабря 16 г.
+- 2 декабря 16
     
 - 2/12/2016
     
 - 02/12/16
     
-- 2–Dec-2016
+- 2 декабря 2016 г.
     
 - 2-12-16
     
@@ -261,33 +262,33 @@ Fund_eu_dates ищет даты в общем e.U. форматы (и больш
   
 - Английский
     
-  - Январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь
+  - Январь, февраль, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь
     
-  - Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.
+  - Январь. Февраль. Март. Apr. Май июнь июль авг. Сентябрь. Октябрь Nov. Dec.
     
 - Голландский
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
-  - jan feb maart apr mei jun jul aug sep sept oct okt nov dec
+  - jan feb maart apr mei jun jul aug sep sept okt nov dec
     
 - Французский
     
-  - janvier, février, mars, avril, mai, juin juillet, aoгt, septembre, octobre, novembre, décembre
+  - janvier, février, mars, avril, mai, juin juillet, aoūt, septembre, octobre, novembre, décembre
     
-  - janv. févr. mars avril mai juin juil. ao антисайт. oct. nov. déc.
+  - janv. févr. Mars avril mai juin juil. aoūt sept. oct. nov. déc.
     
 - Немецкий
     
-  - jznuar, februar, mzrz, April, mai, juni juli, August, September, oktober, November, dezember
+  - jänuar, februar, märz, April, mai, juni juli, August, September, oktober, November, dezember
     
-  - Jan./J жеn. Feb. Mzrz Apr. Mai Juni Juli Aug. Sept. Okt. Nov. Dez.
+  - Jan./Jän. Feb. März Apr. Mai Juni Juli Aug. Sept. Okt. Nov. Dez.
     
 - Итальянский
     
   - gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
     
-  - genn. febbr. mar. apr. magg. giugno luglio ag. sett. ott. nov. dic.
+  - genn. febbr. mar. apr. magg. giugno luglio ag. sett. Отт. nov. dic.
     
 - Португальский
     
@@ -304,9 +305,9 @@ Fund_eu_dates ищет даты в общем e.U. форматы (и больш
 ## <a name="func_eu_date1-deprecated"></a>Func_eu_date1 (не рекомендуется)
 
 > [!NOTE]
-> Эта функция не поддерживается, так как она поддерживает только португальские названия месяцев, которые теперь включены в  `Func_eu_date` функцию выше. 
+> Эта функция отстает, так как поддерживает только имена португальских месяцев, которые теперь включены в  `Func_eu_date` вышеуказанную функцию. 
   
-Эта функция служит для поиска даты в формате, принятом в португальском языке. Формат для этой функции такой же, как и в языке,  `Func_eu_date` который используется.
+Эта функция служит для поиска даты в формате, принятом в португальском языке. Формат этой функции такой  `Func_eu_date` же, как и у используемого языка.
   
 Примеры:
   
@@ -335,9 +336,9 @@ Fund_eu_dates ищет даты в общем e.U. форматы (и больш
 ## <a name="func_eu_date2-deprecated"></a>Func_eu_date2 (не рекомендуется)
 
 > [!NOTE]
-> Эта функция не поддерживается, так как она поддерживает только имена месяцев на нидерландском языке, которые теперь включены в  `Func_eu_date` функцию выше. 
+> Эта функция отстает, так как поддерживает только имена нидерландских месяцев, которые теперь включены в  `Func_eu_date` вышеуказанную функцию. 
   
-Эта функция служит для поиска даты в формате, принятом в нидерландском языке. Формат для этой функции такой же, как и в языке,  `Func_eu_date` который используется.
+Эта функция служит для поиска даты в формате, принятом в нидерландском языке. Формат этой функции такой  `Func_eu_date` же, как и у используемого языка.
   
 Примеры:
   
@@ -365,7 +366,7 @@ Fund_eu_dates ищет даты в общем e.U. форматы (и больш
     
 ## <a name="func_expiration_date"></a>Func_expiration_date
 
-Func_expiration_date ищет даты в формате, обычно используемом кредитными и дебетовыми картами. Эта функция будет соответствовать датам в формате "месяц/год", "месяц-год", "[имя месяца] год" и "[аббревиатура месяца] год". Названия или сокращения месяцев не чувствительны к делу.
+Func_expiration_date ищет даты, которые находятся в форматах, обычно используемых кредитными и дебетовыми картами. Эта функция будет совпадать с датами в формате "месяц/год", "месяц-год", "[имя месяца] год" и "[месячная аббревиатура] год". Имена или аббревиатуры месяцев не являются чувствительными к делу.
   
 Примеры:
   
@@ -379,25 +380,25 @@ Func_expiration_date ищет даты в формате, обычно испо�
     
 Следующие форматы поддерживают ГГ или ГГГГ:
   
-- Month-YYYY — например, январь-2010 или январь-2010, янв-10 или январь-10
+- Month-YYYYY — например, январь-2010 или январь-2010 или январь-10 января
     
 - Месяц ГГГГ (например, "январь 2010", "янв 2010", "январь 10" или "янв 10");
     
 - МесяцГГГГ (например, "январь2010", "янв2010", "январь10" или "янв10");
     
-- Месяц/YYYY — например, "январь/2010", "Янв/2010", "январь/10" или "Янв/10"
+- Month/YYYY — например, "январь/2010", "Январь/2010", "январь/10" или "Январь/10"
     
 Принятые названия месяцев:
   
 - Английский
     
-  - Январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь
+  - Январь, февраль, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь
     
   - Jan Feb Mar Apr May June July Aug Sept Oct Nov Dec
     
 ## <a name="func_us_address"></a>Func_us_address
 
-Func_us_address ищет название штата США или название почтовой аббревиатуры, а затем допустимый почтовый индекс. Необходимо указать правильный почтовый индекс, соответствующий названию штата США или его аббревиатуре. Название штата США и почтовый индекс не должны разделяться знаками пунктуации или буквами.
+Func_us_address ищет имя или аббревиатура почтовых сообщений США, за которым следует допустимый почтовый индекс. Необходимо указать правильный почтовый индекс, соответствующий названию штата США или его аббревиатуре. Название штата США и почтовый индекс не должны разделяться знаками пунктуации или буквами.
   
 Примеры:
   

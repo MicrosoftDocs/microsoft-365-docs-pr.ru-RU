@@ -16,15 +16,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Узнайте об основных действиях по устранению неполадок, которые можно предпринять для устранения распространенных проблем в office 365 eDiscovery.
+description: Узнайте об основных действиях по устранению неполадок, которые можно предпринять для решения распространенных проблем в Office 365 eDiscovery.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a867ed2e55c73fe4bbd890273d78cf57f4bfbd2c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3d3d0830ac677ea812a0d09793de8214245d6b2a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926549"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060994"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Изучение, устранение неполадок и устранение распространенных проблем с электронным открытием
 
@@ -32,13 +32,13 @@ ms.locfileid: "50926549"
 
 ## <a name="errorissue-ambiguous-location"></a>Ошибка/проблема. Неоднозначное расположение
 
-Если вы пытаетесь добавить расположение почтового ящика пользователя для поиска, а в каталоге Exchange Online Protection (EOP) есть дублирующие или конфликтующие объекты с одинаковым пользовательским интерфейсом, вы получите эту ошибку: `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous` .
+Если вы пытаетесь добавить расположение почтового ящика пользователя для поиска, и в каталоге Exchange Online Protection EOP имеются дублирующиеся или конфликтующие объекты: `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous` .
 
 ### <a name="resolution"></a>Решение
 
 Проверьте, есть ли повторяющиеся пользователи или список рассылки с тем же ИД пользователя.
 
-1. Подключение к [центру & безопасности PowerShell.](/powershell/exchange/connect-to-scc-powershell)
+1. Подключение [службе безопасности & Центра соответствия требованиям PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 2. Запустите следующую команду, чтобы получить все экземпляры имени пользователя:
 
@@ -52,7 +52,7 @@ ms.locfileid: "50926549"
    > |Имя|RecipientType|
    > |---|---|
    > |Псевдоним, пользователь|MailUser|
-   > |Псевдоним, пользователь|Пользователь|
+   > |Псевдоним, пользователь|User|
 
 3. Если возвращается несколько пользователей, найдите и исправьте конфликтующий объект.
 
@@ -66,7 +66,7 @@ ms.locfileid: "50926549"
 
 Если вы получили эту ошибку, рекомендуется проверить расположения, которые не удалось в поиске, а затем повторного поиска только в неудались расположения.
 
-1. Подключись [к центру & безопасности PowerShell](/powershell/exchange/connect-to-scc-powershell) и запустите следующую команду:
+1. Подключение в Центр & безопасности [PowerShell,](/powershell/exchange/connect-to-scc-powershell) а затем запустите следующую команду:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -80,13 +80,13 @@ ms.locfileid: "50926549"
 
 ## <a name="errorissue-file-not-found"></a>Ошибка/проблема. Файл не найден
 
-При запуске поиска по обнаружению электронных данных, который включает расположения SharePoint Online и One Drive for Business, вы можете получить ошибку, хотя файл расположен `File Not Found` на сайте. Эта ошибка будет в предупреждениях об экспорте и errors.csv или пропущена items.csv. Это может произойти, если файл не может быть найден на сайте или если индекс устарел. Вот текст фактической ошибки (с добавленным акцентом).
+При запуске поиска по обнаружению электронных данных, включаемого в SharePoint Online и One Drive for Business, вы можете получить ошибку, хотя файл расположен `File Not Found` на сайте. Эта ошибка будет в предупреждениях об экспорте и errors.csv или пропущена items.csv. Это может произойти, если файл не может быть найден на сайте или если индекс устарел. Вот текст фактической ошибки (с добавленным акцентом).
 
-> 28.06.2019 10:02:19_FailedToExportItem_Failed скачать контент. Дополнительные диагностические сведения: Microsoft.Office.Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: Не удалось скачать из контента 6ea52149-91cd-4965-b5bb-82ca6a3ec9be документа типа. ID корреляции: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 ---> Microsoft.SharePoint.Client.ServerException: ***файл не найден***. в Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream) в Microsoft.SharePoint.Client.ClientRequest.ProcessResponse() --- Конец трассировки внутреннего стека исключений ---
+> 28.06.2019 10:02:19_FailedToExportItem_Failed скачать контент. Дополнительные диагностические сведения: Microsoft. Office. Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: Failed to download from content 6ea52149-91cd-4965-b5bb-82ca6a3ec9be of type Document. ID корреляции: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 ---> Microsoft. SharePoint. Client.ServerException: ***файл не найден.*** в Корпорации Майкрософт. SharePoint. Client.ClientRequest.ProcessResponseStream (Stream responseStream) в Корпорации Майкрософт. SharePoint. Client.ClientRequest.ProcessResponse() --- окончания трассировки внутреннего стека исключений ---
 
 ### <a name="resolution"></a>Решение
 
-1. Проверьте расположение, которое определено в поиске, чтобы убедиться в правильности расположения файла и его добавлении в расположениях поиска.
+1. Проверьте расположение, которое определено в поиске, чтобы убедиться, что файл находится правильно и добавлен в расположениях поиска.
 
 2. Используйте процедуры при ручном запросе обхода и повторной индексации [сайта,](/sharepoint/crawl-site-content) библиотеки или списка для повторного использования сайта.
 
@@ -98,7 +98,7 @@ ms.locfileid: "50926549"
 
 1. Подключитесь к [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Запустите следующую команду, чтобы проверить, синхронизирован ли пользователь с Exchange Online Protection:
+2. Запустите следующую команду, чтобы проверить, синхронизируется ли пользователь с Exchange Online Protection:
 
    ```powershell
    Get-Recipient <userId> | FL
@@ -112,7 +112,7 @@ ms.locfileid: "50926549"
 
 ### <a name="resolution"></a>Решение
 
-1. Подключись [к центру & безопасности PowerShell](/powershell/exchange/connect-to-scc-powershell) и запустите следующую команду:
+1. Подключение в Центр & безопасности [PowerShell,](/powershell/exchange/connect-to-scc-powershell) а затем запустите следующую команду:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -120,7 +120,7 @@ ms.locfileid: "50926549"
 
 2. Найдите количество данных, которые будут загружены в параметрах SearchResults и SearchStatistics.
 
-3. Выполните следующую команду:
+3. Запустите следующую команду:
 
    ```powershell
    Get-ComplianceSearchAction | FL
@@ -142,7 +142,7 @@ ms.locfileid: "50926549"
 
 1. Разорвать поиск на меньшие поиски и запустить поиск снова.  Попробуйте использовать меньший диапазон дат или ограничить количество поисковых местоположений.
 
-2. Подключись [к центру & безопасности PowerShell](/powershell/exchange/connect-to-scc-powershell) и запустите следующую команду:
+2. Подключение в Центр & безопасности [PowerShell,](/powershell/exchange/connect-to-scc-powershell) а затем запустите следующую команду:
 
    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
    Get-ComplianceSearch <searchname> | FL
@@ -162,7 +162,7 @@ ms.locfileid: "50926549"
 
 ### <a name="resolution"></a>Решение
 
-1. Подключись к центру & безопасности [PowerShell](/powershell/exchange/connect-to-scc-powershell) и запустите следующую команду для удержания дела об обнаружении электронных данных:
+1. Подключение [центр & PowerShell,](/powershell/exchange/connect-to-scc-powershell) а затем запустите следующую команду для удержания дела об обнаружении электронных данных:
 
    ```powershell
    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
@@ -196,7 +196,7 @@ ms.locfileid: "50926549"
 
 ## <a name="error-the-condition-specified-using-http-conditional-headers-is-not-met"></a>Ошибка: "Условие, указанное с помощью условного заголовка HTTP(ы) не выполнены"
 
-При скачивании результатов поиска с помощью экспортного средства eDiscovery можно получить следующую ошибку: это преходящая ошибка, которая обычно возникает в расположении `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` Azure Storage.
+При загрузке результатов поиска с помощью экспортного средства eDiscovery можно получить следующую ошибку: это преходящая ошибка, которая обычно возникает в служба хранилища Azure `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` расположении.
 
 ### <a name="resolution"></a>Решение
 
@@ -212,12 +212,14 @@ ms.locfileid: "50926549"
 
 1. Попробуйте скачать с помощью другого клиента или компьютера.
 
-2. Не забудьте скачать на локальный диск.
+2. Удалите старые поиски, которые больше не нужны с помощью командлета [Remove-ComplianceSearch][/powershell/module/exchange/remove-compliancesearch].
 
-3. Убедитесь, что сканер вирусов не запущен.
+3. Не забудьте скачать на локальный диск.
 
-4. Убедитесь, что ни один другой экспорт не загружается в ту же папку или в родительской папке.
+4. Убедитесь, что сканер вирусов не запущен.
 
-5. Если предыдущие действия не сработались, отключим отрезок и отключим дублирование.
+5. Убедитесь, что ни один другой экспорт не загружается в ту же папку или в родительской папке.
 
-6. Если это работает, то проблема вызвана локальным сканером вирусов или проблемой диска.
+6. Если предыдущие действия не сработались, отключим отрезок и отключим дублирование.
+
+7. Если это работает, то проблема вызвана локальным сканером вирусов или проблемой диска.

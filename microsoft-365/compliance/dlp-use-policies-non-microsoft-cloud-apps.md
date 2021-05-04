@@ -20,16 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как использовать политики dlp для облачных приложений, не в microsoft.
-ms.openlocfilehash: 6787add3ef8b2d6ded22bd05c0ff9658c4b7fbfc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4c5170cab01b1ca22701b13c7afbf4f2e0ba7da
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922085"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114137"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Используйте политики предотвращения потери данных для облачных приложений, не в microsoft (предварительный просмотр)
 
-Политики предотвращения потери данных (DLP) для не microsoft cloud apps являются частью пакета функций DLP Microsoft 365; С помощью этих функций можно обнаружить и защитить конфиденциальные элементы в службах Microsoft 365. Дополнительные сведения обо всех предложениях Microsoft DLP см. в [обзоре предотвращения потери данных.](./data-loss-prevention-policies.md?view=o365-worldwide)
+Политики предотвращения потери данных (DLP) для не microsoft cloud apps являются частью пакета функций Microsoft 365 DLP; С помощью этих функций можно обнаружить и защитить конфиденциальные элементы в Microsoft 365 службах. Дополнительные сведения обо всех предложениях Microsoft DLP см. в дополнительных сведениях [о предотвращении потери данных.](dlp-learn-about-dlp.md)
 
 Политики DLP можно использовать в облачных приложениях, не в microsoft, для мониторинга и обнаружения использования конфиденциальных элементов и их общего использования с помощью облачных приложений, не в microsoft. Использование этих политик обеспечивает видимость и контроль, необходимые для обеспечения правильного использования и защиты этих политик, а также позволяет предотвратить рискованное поведение, которое может привести к их угрозе.
 
@@ -37,37 +37,37 @@ ms.locfileid: "50922085"
 
 ### <a name="skusubscriptions-licensing"></a>Лицензирование SKU/подписки
 
-Прежде чем приступить к использованию политик DLP в облачных приложениях, не в microsoft, подтвердите подписку [на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) и любые надстройки. Чтобы получить доступ к этой функции и использовать ее, необходимо иметь одну из этих подписок или надстройок:
+Прежде чем приступить к использованию политик DLP в облачных приложениях, [не в](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) microsoft, Microsoft 365 подписку и все надстройки. Чтобы получить доступ к этой функции и использовать ее, необходимо иметь одну из этих подписок или надстройок:
 
 - Microsoft 365 E5
 - Соответствие требованиям Microsoft 365 E5
 - Безопасность Microsoft 365 E5
 
-### <a name="prepare-your-cloud-app-security-environment"></a>Подготовка среды безопасности облачных приложений
+### <a name="prepare-your-cloud-app-security-environment"></a>Подготовка среды Cloud App Security
 
-Политики DLP для не microsoft cloud apps используют возможности DLP безопасности облачных приложений. Чтобы использовать его, необходимо подготовить среду безопасности облачных приложений. Инструкции см. в [инструкции Set instant visibility, protection and governance actions for your apps.](/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps)
+Политики DLP для не microsoft cloud apps используют Cloud App Security DLP. Чтобы использовать его, необходимо подготовить Cloud App Security среду. Инструкции см. в [инструкции Set instant visibility, protection and governance actions for your apps.](/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps)
 
-### <a name="connect-a-non-microsoft-cloud-app"></a>Подключение облачного приложения, не в microsoft
+### <a name="connect-a-non-microsoft-cloud-app"></a>Подключение облачное приложение, не в microsoft
 
-Чтобы использовать политику DLP в определенном облачном приложении, не связанном с Microsoft, приложение должно быть подключено к облачной безопасности приложений. Дополнительные сведения см. в указанных ниже статьях.
+Чтобы использовать политику DLP в определенном облачном приложении, не связанном с Microsoft, приложение должно быть подключено к Cloud App Security. Дополнительные сведения см. в указанных ниже статьях.
 
-- [Соедините поле](/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
+- [Подключение Box](/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
 - [Подключение Dropbox](/cloud-app-security/connect-dropbox-to-microsoft-cloud-app-security)
 - [Подключение G-Suite](/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
 - [Подключение Salesforce](/cloud-app-security/connect-salesforce-to-microsoft-cloud-app-security)
 - [Подключение Cisco Webex](/cloud-app-security/connect-webex-to-microsoft-cloud-app-security)
 
-После подключения облачных приложений к облачной безопасности приложений можно создать для них политики DLP Microsoft 365.
+После подключения облачных приложений к Cloud App Security можно создать Microsoft 365 DLP-политики для них.
 
 >[!NOTE]
->Кроме того, можно использовать microsoft Cloud App Security для создания политик DLP в облачных приложениях Майкрософт. Однако рекомендуется использовать Microsoft 365 для создания и управления политиками DLP в облачных приложениях Майкрософт.
+>Кроме того, можно использовать Microsoft Cloud App Security для создания политик DLP в облачных приложениях Майкрософт. Однако рекомендуется использовать Microsoft 365 для создания и управления политиками DLP в облачных приложениях Майкрософт.
 
 ## <a name="create-a-dlp-policy-to-a-non-microsoft-cloud-app"></a>Создание политики DLP в облачном приложении, не в microsoft
 
-При выборе расположения для политики DLP включаем расположение **безопасности облачных** приложений Майкрософт.
+При выборе расположения для политики DLP включаем Microsoft Cloud App Security **расположение.**
 
 - Чтобы выбрать определенное приложение или экземпляр, выберите **выберите экземпляр .**
-- Если экземпляр не выбран, политика использует все подключенные приложения в клиенте Microsoft Cloud App Security.
+- Если экземпляр не выбран, политика использует все подключенные приложения в Microsoft Cloud App Security клиенте.
 
    ![Расположения для применения политики](../media/1-dlp-non-microsoft-cloud-app-choose-instance.png)
 

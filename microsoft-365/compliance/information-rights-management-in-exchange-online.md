@@ -15,23 +15,23 @@ search.appverid:
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 ms.custom:
 - seo-marvel-apr2020
-description: Узнайте, как настроить IRM Exchange Online для использования локальной службы управления правами Active Directory (AD RMS) для удовлетворения требований организации.
-ms.openlocfilehash: 6a9759fce102c60dd766dd86ba8c9e6d4a02d85b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Узнайте, как настроить Exchange Online IRM для использования локальной службы управления правами active Directory (AD RMS) для удовлетворения требований организации.
+ms.openlocfilehash: d98cf5c762cd4dac0cbad6d25a3cc766d5c5310a
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924993"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876278"
 ---
 # <a name="exchange-online-mail-encryption-with-ad-rms"></a>Шифрование почты Exchange Online с помощью AD RMS
 
-Чтобы предотвратить утечку информации, служба Exchange Online использует функцию управления правами на доступ к данным (IRM), которая обеспечивает защиту сообщений и вложений в сети и вне сети. Вы можете настроить IRM Exchange Online для использования локальной службы управления правами Active Directory (AD RMS), если это необходимо, для удовлетворения требований организации. Это нетипичный сценарий. Если у вас нет требования использовать AD RMS, используйте [шифрование сообщений Office 365.](ome.md) 
+Чтобы предотвратить утечку информации, служба Exchange Online использует функцию управления правами на доступ к данным (IRM), которая обеспечивает защиту сообщений и вложений в сети и вне сети. Вы можете настроить Exchange Online IRM для использования локальной службы управления правами active Directory (AD RMS), если это необходимо, для удовлетворения требований организации. Это нетипичный сценарий. Если у вас нет требования к использованию AD RMS, используйте [шифрование сообщений Office 365.](ome.md) 
 
 Защиту IRM могут применять пользователи (в Microsoft Outlook или Outlook в Интернете) и администраторы (с помощью правил защиты транспорта или правил защиты Outlook). IRM помогает администраторам и пользователям указывать, кто может открывать, пересылать, печатать и копировать конфиденциальные данные из электронной переписки.
   
 ## <a name="changes-to-how-irm-works-with-office-365-message-encryption-ome-and-azure-active-directory"></a>Изменения в работе IRM со службой шифрования сообщений Office 365 и Azure Active Directory
 
-Начиная с сентября 2017 г. IRM на основе Azure Rights Management (Azure RMS) настраивается вместе с новыми возможностями шифрования сообщений Office 365. Оно больше не настраивается отдельно. Шифрование сообщений и управление правами теперь работают как единое целое. Дополнительные сведения о новых возможностях см. в статье [Шифрование сообщений Office 365: вопросы и ответы](./ome-faq.md). Инструкции по настройке новых возможностей шифрования сообщений Office 365 см. в [этой статье](./set-up-new-message-encryption-capabilities.md).
+Начиная с сентября 2017 г. IRM на основе Azure Rights Management (Azure RMS) настраивается вместе с новыми возможностями шифрования сообщений Office 365. Оно больше не настраивается отдельно. Шифрование сообщений и управление правами теперь работают как единое целое. Дополнительные сведения о новых возможностях см. в статье [Шифрование сообщений Office 365: вопросы и ответы](./ome-faq.yml). Инструкции по настройке новых возможностей шифрования сообщений Office 365 см. в [этой статье](./set-up-new-message-encryption-capabilities.md).
   
 ## <a name="how-irm-works-with-exchange-online-and-active-directory-rights-management-services"></a>Взаимодействие IRM с Exchange Online и службами Active Directory Rights Management
 

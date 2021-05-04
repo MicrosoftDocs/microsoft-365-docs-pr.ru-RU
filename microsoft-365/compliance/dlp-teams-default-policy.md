@@ -1,5 +1,5 @@
 ---
-title: Сведения о политике предотвращения потери данных по умолчанию в Microsoft Teams (предварительный просмотр)
+title: Сведения о политике защиты от потери данных по умолчанию в Microsoft Teams (предварительная версия)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,20 +15,20 @@ ms.collection:
 search.appverid:
 - MET150
 description: Сведения о политике предотвращения потери данных по умолчанию в Microsoft Teams
-ms.openlocfilehash: 3992daf9431dbd87ed5e947a1e5a2b0acd20edce
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 0663c370373708009346d4f858729e17436f0f62
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826250"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114147"
 ---
-# <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Сведения о политике предотвращения потери данных по умолчанию в Microsoft Teams (предварительный просмотр)
+# <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Сведения о политике защиты от потери данных по умолчанию в Microsoft Teams (предварительная версия)
 
-[Возможности по предотвращению](data-loss-prevention-policies.md) потери данных (DLP) расширены, включив сообщения чатов и каналов Microsoft Teams, включая сообщения частных каналов. В рамках этого выпуска мы создали политику DLP по умолчанию для первых клиентов центра соответствия требованиям.
+[Возможности предотвращения](dlp-learn-about-dlp.md) потери данных были расширены для Microsoft Teams сообщений чата и каналов, включая сообщения частных каналов. В рамках этого выпуска мы создали политику DLP по умолчанию для первых клиентов центра соответствия требованиям.
 
 ## <a name="applies-to"></a>Область применения
 
-Любой клиент, который имеет лицензию с одной или более ниже лицензий и имеет активных пользователей Teams
+Любой клиент, который имеет одну или несколько лицензий ниже и имеет активных Teams пользователей
  
 - ME5, 
 - MA5, 
@@ -47,7 +47,7 @@ ms.locfileid: "50826250"
 
 
 > [!div class="mx-imgBorder"]
-> ![Политика DLP команд по умолчанию](../media/default-teams-dlp-policy.png)
+> ![политика Teams DLP](../media/default-teams-dlp-policy.png)
 
 ## <a name="edit-or-delete-the-default-policy"></a>Изменение или удаление политики по умолчанию
 
