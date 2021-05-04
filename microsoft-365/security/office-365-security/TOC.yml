@@ -204,7 +204,7 @@
           href: ../../compliance/alert-policies.md
         - name: Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
           href: reports-and-insights-in-security-and-compliance.md
-        - name: Сообщайте о ложных срабатываниях и ложных отрицаниях в Outlook
+        - name: Отчеты о ложных срабатываниях и ложных отрицаниях в Outlook
           href: report-false-positives-and-false-negatives.md
         - name: Правила потока почты (правила транспорта) в автономной службе EOP
           href: mail-flow-rules-transport-rules-0.md
