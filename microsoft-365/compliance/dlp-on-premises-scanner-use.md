@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте, как использовать локальный сканер для защиты от потери данных Microsoft 365 для сканирования неактивных данных и реализации защитных мер на локальных файловых ресурсах и в локальных папках и библиотеках документов SharePoint.
-ms.openlocfilehash: c46b67ca392732616329bad138166c892cd06640
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0abe36af5588c1828da106779a144b6e7f37d6a8
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917825"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114157"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Использование локального сканера для защиты от потери данных Microsoft 365 (предварительная версия)
 
@@ -32,7 +32,7 @@ ms.locfileid: "50917825"
 
 > [!IMPORTANT]
 > Эти сценарии локальной защиты от потери данных — не официальные процедуры для создания и настройки политик защиты от потери данных. Если вам нужно использовать политики защиты от потери данных в общих ситуациях, прочитайте эти статьи:
->- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+>- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 >- [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)
 >- [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)
 >- [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
@@ -80,6 +80,6 @@ ms.locfileid: "50917825"
 
 - [Сведения о локальном сканере защиты от потери данных (предварительная версия)](dlp-on-premises-scanner-learn.md)
 - [Начало работы с локальным сканером для защиты от потери данных (предварительная версия)](dlp-on-premises-scanner-get-started.md)
-- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)

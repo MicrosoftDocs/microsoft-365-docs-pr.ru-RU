@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Узнайте, как изменить схему edm для использования настраиваемого совпадения.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dea641072983163c6fbbcc5888d5ee6ea91f6990
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 7d470b986d4a94206935efb832deec7171f8e404
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408318"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114197"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>Изменение схемы точного соответствия данных для использования настраиваемого совпадения
 
@@ -133,6 +133,6 @@ ms.locfileid: "51408318"
 - [Создание пользовательского типа конфиденциальной информации с помощью классификации на основе точного совпадения данных](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md).
 - [Определения типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)
 - [Пользовательские типы конфиденциальной информации](./sensitive-information-type-learn-about.md)
-- [Обзор политик защиты от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Microsoft Cloud App Security](/cloud-app-security)
 - [New-DlpEdmSchema](/powershell/module/exchange/new-dlpedmschema)

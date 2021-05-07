@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте как настроить параметры прокси-сервера и подключения к Интернету для DLP в конечной точке
-ms.openlocfilehash: 4d1aa3b75ec0a0720f3d92c847bf7c6cde6d966f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 5da9161f2f59ef8a40ca8a7d302dc7de578dba39
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199278"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114127"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>Настройка параметров прокси-сервера и подключения к Интернету для DLP в конечной точке
 
@@ -142,7 +142,7 @@ Microsoft Endpoint DLP использует Microsoft Windows HTTP (WinHTTP) д�
 
 - [Сведения о защите от потери данных в конечной точке ](endpoint-dlp-learn-about.md)
 - [Использование защиты от потери данных в конечной точке ](endpoint-dlp-using.md)
-- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
 - [Microsoft Defender для конечной точки](/windows/security/threat-protection/)

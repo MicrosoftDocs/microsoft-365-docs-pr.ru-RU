@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Обозреватель содержимого позволяет легко просматривать элементы с присвоенными метками.
-ms.openlocfilehash: 19ad68d3c32046754e366919e8c4e66336945624
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: b39dd09012e7cde6c19ea88a0915154da84c712a
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080728"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114219"
 ---
 # <a name="get-started-with-content-explorer"></a>Начало работы с обозревателем контента
 
@@ -82,7 +82,7 @@ ms.locfileid: "50080728"
 
 ### <a name="sensitive-information-types"></a>Типы конфиденциальной информации
 
-[Политика защиты от потери данных](data-loss-prevention-policies.md) помогает защитить сведения, относящиеся к одному из **типов конфиденциальной информации**. Microsoft 365 содержит готовые к использованию [определения для многих распространенных типов конфиденциальной информации](sensitive-information-type-entity-definitions.md) из различных регионов.  Например, номера кредитных карт, номера банковских счетов, национальные идентификационные номера и номера службы Windows Live ID.
+[Политика защиты от потери данных](dlp-learn-about-dlp.md) помогает защитить сведения, относящиеся к одному из **типов конфиденциальной информации**. Microsoft 365 содержит готовые к использованию [определения для многих распространенных типов конфиденциальной информации](sensitive-information-type-entity-definitions.md) из различных регионов.  Например, номера кредитных карт, номера банковских счетов, национальные идентификационные номера и номера службы Windows Live ID.
 
 > [!NOTE]
 > В настоящий момент браузер контента не проверяет типы конфиденциальной информации в Exchange Online.
@@ -145,4 +145,4 @@ ms.locfileid: "50080728"
 - [Сведения о метках конфиденциальности](sensitivity-labels.md)
 - [Сведения о политиках и метках хранения](retention.md)
 - [Sensitive information type entity definitions.md](sensitive-information-type-entity-definitions.md)
-- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)

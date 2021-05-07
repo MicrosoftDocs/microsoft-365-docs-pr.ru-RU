@@ -16,16 +16,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 12a4e8873cb7212bfa7dde12bba9e98528cd859a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 01dd5feab17c68eed1da9d66c4310c50e90032c6
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919675"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114229"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Дополнительные сведения о типах конфиденциальной информации
 
-Определение и классификация конфиденциальных элементов, которые находятся под контролем организаций, является первым шагом в области защиты [информации.](./information-protection.md)  Microsoft 365 предоставляет три способа идентификации элементов, чтобы их можно было классифицировать:
+Определение и классификация конфиденциальных элементов, которые находятся под контролем организаций, является первым шагом в области защиты [информации.](./information-protection.md)  Microsoft 365 предоставляет три способа определения элементов, чтобы их можно было классифицировать:
 
 - вручную пользователями
 - автоматическое распознавание шаблонов, например типы конфиденциальной информации
@@ -35,9 +35,10 @@ ms.locfileid: "50919675"
 
 ## <a name="sensitive-information-types-are-used-in"></a>Типы конфиденциальной информации используются в
 
-- [Политики защиты от потери данных](data-loss-prevention-policies.md) 
+- [Политики предотвращения потери данных](dlp-learn-about-dlp.md) 
 - [Метки конфиденциальности](sensitivity-labels.md)
 - [Метки хранения](retention.md)
+- [Управление внутренними рисками](insider-risk-management.md)
 - [Соответствие требованиям к обмену данными](communication-compliance.md)
 - [Политики автоматической маркировки](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
@@ -103,7 +104,7 @@ ms.locfileid: "50919675"
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- Identity 
+- Удостоверение 
 - Удостоверение национальной идентификации 
 - DNI 
 - Национальный реестр лиц NIC 
@@ -143,7 +144,7 @@ ms.locfileid: "50919675"
 
 
 > [!NOTE]
-> Улучшенные уровни доверия доступны для немедленного использования в службах по предотвращению потери данных для служб Microsoft 365, Microsoft Information Protection для служб Microsoft 365, соответствия требованиям к коммуникациям, управлению информацией и управлению записями.
+> Улучшенные уровни доверия доступны для немедленного использования в рамках предотвращения потери данных для служб Microsoft 365, Microsoft Information Protection for Microsoft 365 services, Communication Compliance, Information Governance и Records Management.
 
 > Служба защиты информации Microsoft 365 теперь поддерживает в предварительный версии языки с  	набором двухбайтовых символов:
 > - Китайский (упрощенное письмо)

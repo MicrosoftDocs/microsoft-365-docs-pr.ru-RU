@@ -1,7 +1,7 @@
 ---
-title: Список выставленных устройств одного действия по исправлению
+title: Перечисление устройств, затрагиваемых одним действием по исправлению
 description: Возвращает сведения об открытых устройствах для указанной задачи по исправлению.
-keywords: apis, remediation, remediation api, get, remediation tasks,
+keywords: apis, remediation, remediation api, get, remediation tasks, remediation exposed devices
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 097d8d784ca7c02fce1fc0e9fc51bdc272951f4a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 92b5a93e86a20f36469d2b5cb606a8ddc2e97077
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061196"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241716"
 ---
-# <a name="list-exposed-devices-of-one-remediation-activity"></a>Список выставленных устройств одного действия по исправлению
+# <a name="list-exposed-devices-of-one-remediation-activity"></a>Перечисление устройств, затрагиваемых одним действием по исправлению
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -49,24 +49,33 @@ ms.locfileid: "52061196"
 
 **URL-адрес:** GET: /api/remediationTasks/ \{ id \} /machineReferences
 
-**Сведения о свойствах**
+## <a name="permissions"></a>Разрешения
+
+Для вызова этого API требуется одно из следующих разрешений. Дополнительные сведения, в том числе о выборе разрешений, см. в материале [Use Microsoft Defender for Endpoint API.](apis-intro.md)
+
+Тип разрешения | Разрешение | Имя отображения разрешений
+:---|:---|:---
+Для приложений | RemediationTask.Read.All | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
+Делегированные (рабочая или учебная учетная запись) | RemediationTask.Read.Read | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
+
+## <a name="properties-details"></a>Сведения о свойствах
 
 Свойство (id) | Тип данных | Описание | Пример
 :---|:---|:---|:---
-id | String | ID устройства | w2957837fwda8w9ae7f023dba081059dw8d94503
-computerDnsName | String | Имя устройства | PC-SRV2012R2Foo.UserNameVldNet.local
-osPlatform | String | Операционная система устройства | WindowsServer2012R2
-rbacGroupName | String | Имя группы устройств, с помощью которого связано это устройство | Servers
+id | Строка | ID устройства | w2957837fwda8w9ae7f023dba081059dw8d94503
+computerDnsName | Строка | Имя устройства | PC-SRV2012R2Foo.UserNameVldNet.local
+osPlatform | Строка | Операционная система устройства | WindowsServer2012R2
+rbacGroupName | Строка | Имя группы устройств, с помощью которого связано это устройство | Servers
 
 ## <a name="example"></a>Пример
 
-**Пример запроса**
+### <a name="request-example"></a>Пример запроса
 
 ```http
 GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-aecb-4c6e-b555-d6a97013844c/machinereferences
 ```
 
-**Пример ответа**
+### <a name="response-example"></a>Пример ответа
 
 ```json
 {
@@ -108,10 +117,10 @@ GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-ae
 
 - [Методы и свойства по исправлению](get-remediation-methods-properties.md)
 
-- [Получить одно действие по исправлению по ID](get-remediation-one-activity.md)
+- [Получение одного действия по исправлению по ИД](get-remediation-one-activity.md)
 
-- [Список всех действий по исправлению](get-remediation-all-activities.md)
+- [Перечисление всех действий по исправлению](get-remediation-all-activities.md)
 
-- [Управление рисками & уязвимостей](next-gen-threat-and-vuln-mgt.md)
+- [Риск на основе угрозы & управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 
 - [Уязвимости в организации](tvm-weaknesses.md)

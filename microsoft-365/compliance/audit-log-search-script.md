@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Чтобы выполнить поиск в журнале аудита, воспользуйтесь сценарием PowerShell, выполняющим командлет Search-UnifiedAuditLog в Exchange Online. Этот сценарий предназначен для возврата больших наборов записей аудита (до 50 000). Сценарий экспортирует эти записи в CSV-файл, который можно просмотреть или преобразовать с помощью Power Query в Excel.
-ms.openlocfilehash: 7ac3903abffc0bedb28363159c81b1f67a199f32
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: df5e675e5e36603a73078bd5ecf5e64bc7a76f95
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907767"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939569"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>Поиск в журнале аудита с помощью сценария PowerShell
 
@@ -45,14 +45,14 @@ ms.locfileid: "50907767"
   ```powershell
   Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
   ```
-  
+
   Значение `True` для свойства **UnifiedAuditLogIngestionEnabled** указывает на то, что поиск в журнале аудита включен.
 
 - Для запуска сценария вам должна быть назначена роль “Журналы аудита только для просмотра” или “Журналы аудита” в Exchange Online. Эти роли по умолчанию назначены группам ролей "Управление соответствием" и "Управление организацией" на странице Разрешения в Центре администрирования Exchange. Чтобы узнать больше, см. пункт "Требования для поиска в журнале аудита" в разделе [Поиск в журнале аудита в Центре соответствия требованиям](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log).
 
 - Выполнение сценария может занять много времени. Время выполнения зависит от диапазона дат и длины интервала, в котором сценарий ищет записи аудита. Большие диапазоны и малые интервалы увеличивают срок работы. Чтобы узнать больше о диапазонах дат и интервалах, см. таблицу на этапе 2.
 
-- Пример сценария, приведенный в данной статье, не поддерживается ни одной из стандартных программ и служб технической поддержки Microsoft. Пример сценария приводится в виде "как есть", без каких-либо гарантий. Кроме того, корпорация Microsoft отказывается от всех подразумеваемых гарантий, включая в том числе все подразумеваемые гарантии пригодности для продажи или определенной цели. Все риски, возникающие в результате использования примера сценария и документации, берет на себя пользователь. Корпорация Microsoft, ее штатные авторы и другие лица, принимающие участие в создании, подготовке и выпуске сценария, ни при каких обстоятельствах не несут ответственности за какой-либо ущерб (в том числе ущерб, вызванный потерей доходов предприятия, остановкой его работы, потерей бизнес-данных и другими материальными потерями), вызванный использованием или невозможностью использования примера сценария и документации, даже если корпорации Microsoft известно о возможности нанесения такого ущерба.
+- Пример сценария, содержащийся в этой статье, не поддерживается стандартными программами и службами поддержки Майкрософт. Он предоставляется как есть безо всяких гарантий. Кроме того, корпорация Майкрософт отказывается от всех подразумеваемых гарантий, включая, но не ограничиваясь указанным, все подразумеваемые гарантии пригодности для продажи или определенной цели. Все риски, возникающие в результате использования примера сценария и документации, берет на себя пользователь. Корпорация Майкрософт, авторы или другие люди, участвовавшие в создании, разработке и предоставлении сценариев, ни при каких обстоятельствах не несут ответственности за любой ущерб (включая, но не ограничиваясь указанным, ущерб в результате потери прибыли, перерыва в работе, потери бизнес-информации или другой материальный ущерб), вызванный использованием примера сценария или документации либо невозможностью их использовать, даже если корпорация Майкрософт была уведомлена о возможности такого ущерба.
 
 ## <a name="step-1-connect-to-exchange-online-powershell"></a>Этап 1. Подключение к Exchange Online PowerShell
 
@@ -62,84 +62,88 @@ ms.locfileid: "50907767"
 
 После подключения к Exchange Online PowerShell необходимо создать, изменить и запустить сценарий для получения данных аудита. Первые семь строк сценария поиска в журнале аудита содержат указанные ниже переменные, которые можно изменить для настройки поиска. Описание этих переменных см. в таблице на шаге 2.
 
-1. Сохраните приведенный ниже текст в сценарии Windows PowerShell, используя суффикс .ps1 в имени файла. Например, SearchAuditLog.ps1.
+1. Сохраните текст ниже в сценарий Windows PowerShell, используя расширение .ps1, например: SearchAuditLog.ps1.
 
-```powershell
-#Modify the values for the following variables to configure the audit log search.
-$logFile = "d:\AuditLogSearch\AuditLogSearchLog.txt"
-$outputFile = "d:\AuditLogSearch\AuditLogRecords.csv"
-[DateTime]$start = [DateTime]::UtcNow.AddDays(-1)
-[DateTime]$end = [DateTime]::UtcNow
-$record = "AzureActiveDirectory"
-$resultSize = 5000
-$intervalMinutes = 60
-
-#Start script
-[DateTime]$currentStart = $start
-[DateTime]$currentEnd = $start
-
-Function Write-LogFile ([String]$Message)
-{
-    $final = [DateTime]::Now.ToUniversalTime().ToString("s") + ":" + $Message
-    $final | Out-File $logFile -Append
-}
-
-Write-LogFile "BEGIN: Retrieving audit records between $($start) and $($end), RecordType=$record, PageSize=$resultSize."
-Write-Host "Retrieving audit records for the date range between $($start) and $($end), RecordType=$record, ResultsSize=$resultSize"
-
-$totalCount = 0
-while ($true)
-{
-    $currentEnd = $currentStart.AddMinutes($intervalMinutes)
-    if ($currentEnd -gt $end)
-    {
-        $currentEnd = $end
-    }
-
-    if ($currentStart -eq $currentEnd)
-    {
-        break
-    }
-
-    $sessionID = [Guid]::NewGuid().ToString() + "_" +  "ExtractLogs" + (Get-Date).ToString("yyyyMMddHHmmssfff")
-    Write-LogFile "INFO: Retrieving audit records for activities performed between $($currentStart) and $($currentEnd)"
-    Write-Host "Retrieving audit records for activities performed between $($currentStart) and $($currentEnd)"
-    $currentCount = 0
-
-    $sw = [Diagnostics.StopWatch]::StartNew()
-    do
-    {
-        $results = Search-UnifiedAuditLog -StartDate $currentStart -EndDate $currentEnd -RecordType $record -SessionId $sessionID -SessionCommand ReturnLargeSet -ResultSize $resultSize
-
-        if (($results | Measure-Object).Count -ne 0)
-        {
-            $results | export-csv -Path $outputFile -Append -NoTypeInformation
-
-            $currentTotal = $results[0].ResultCount
-            $totalCount += $results.Count
-            $currentCount += $results.Count
-            Write-LogFile "INFO: Retrieved $($currentCount) audit records out of the total $($currentTotal)"
-
-            if ($currentTotal -eq $results[$results.Count - 1].ResultIndex)
-            {
-                $message = "INFO: Successfully retrieved $($currentTotal) audit records for the current time range. Moving on!"
-                Write-LogFile $message
-                Write-Host "Successfully retrieved $($currentTotal) audit records for the current time range. Moving on to the next interval." -foregroundColor Yellow
-                ""
-                break
-            } 
-        }
-    }
-    while (($results | Measure-Object).Count -ne 0)
-
-    $currentStart = $currentEnd
-}
-
-Write-LogFile "END: Retrieving audit records between $($start) and $($end), RecordType=$record, PageSize=$resultSize, total count: $totalCount."
-Write-Host "Script complete! Finished retrieving audit records for the date range between $($start) and $($end). Total count: $totalCount" -foregroundColor Green
-```
+   ```powershell
+   #Modify the values for the following variables to configure the audit log search.
+   $logFile = "d:\AuditLogSearch\AuditLogSearchLog.txt"
+   $outputFile = "d:\AuditLogSearch\AuditLogRecords.csv"
+   [DateTime]$start = [DateTime]::UtcNow.AddDays(-1)
+   [DateTime]$end = [DateTime]::UtcNow
+   $record = "AzureActiveDirectory"
+   $resultSize = 5000
+   $intervalMinutes = 60
+   
+   #Start script
+   [DateTime]$currentStart = $start
+   [DateTime]$currentEnd = $start
+   
+   Function Write-LogFile ([String]$Message)
+   {
+       $final = [DateTime]::Now.ToUniversalTime().ToString("s") + ":" + $Message
+       $final | Out-File $logFile -Append
+   }
+   
+   Write-LogFile "BEGIN: Retrieving audit records between $($start) and $($end), RecordType=$record, PageSize=$resultSize."
+   Write-Host "Retrieving audit records for the date range between $($start) and $($end), RecordType=$record, ResultsSize=$resultSize"
+   
+   $totalCount = 0
+   while ($true)
+   {
+       $currentEnd = $currentStart.AddMinutes($intervalMinutes)
+       if ($currentEnd -gt $end)
+       {
+           $currentEnd = $end
+       }
+   
+       if ($currentStart -eq $currentEnd)
+       {
+           break
+       }
+   
+       $sessionID = [Guid]::NewGuid().ToString() + "_" +  "ExtractLogs" + (Get-Date).ToString("yyyyMMddHHmmssfff")
+       Write-LogFile "INFO: Retrieving audit records for activities performed between $($currentStart) and $($currentEnd)"
+       Write-Host "Retrieving audit records for activities performed between $($currentStart) and $($currentEnd)"
+       $currentCount = 0
+   
+       $sw = [Diagnostics.StopWatch]::StartNew()
+       do
+       {
+           $results = Search-UnifiedAuditLog -StartDate $currentStart -EndDate $currentEnd -RecordType $record -SessionId $sessionID -SessionCommand ReturnLargeSet -ResultSize $resultSize
+   
+           if (($results | Measure-Object).Count -ne 0)
+           {
+               $results | export-csv -Path $outputFile -Append -NoTypeInformation
+   
+               $currentTotal = $results[0].ResultCount
+               $totalCount += $results.Count
+               $currentCount += $results.Count
+               Write-LogFile "INFO: Retrieved $($currentCount) audit records out of the total $($currentTotal)"
+   
+               if ($currentTotal -eq $results[$results.Count - 1].ResultIndex)
+               {
+                   $message = "INFO: Successfully retrieved $($currentTotal) audit records for the current time range. Moving on!"
+                   Write-LogFile $message
+                   Write-Host "Successfully retrieved $($currentTotal) audit records for the current time range. Moving on to the next interval." -foregroundColor Yellow
+                   ""
+                   break
+               }
+           }
+       }
+       while (($results | Measure-Object).Count -ne 0)
+   
+       $currentStart = $currentEnd
+   }
+   
+   Write-LogFile "END: Retrieving audit records between $($start) and $($end), RecordType=$record, PageSize=$resultSize, total count: $totalCount."
+   Write-Host "Script complete! Finished retrieving audit records for the date range between $($start) and $($end). Total count: $totalCount" -foregroundColor Green
+   ```
 
 2. Для настройки параметров поиска изменяйте переменные, приведенные в таблице ниже. Для этих переменных в сценарии используются примеры значений, но их можно изменять (если не указано иначе) в соответствии с конкретными требованиями.
+
+   <br>
+
+   ****
 
    |Переменная|Пример значения|Описание|
    |---|---|---|

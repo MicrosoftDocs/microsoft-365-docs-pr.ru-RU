@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте о новых возможностях шифрования сообщений Office 365, позволяющих защитить переписку с людьми внутри и за пределами вашей организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1519748c4bd535e0a3ea1cc3ee653e2c81e807bd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cf37826c3e1e349947ab83fe211f9406a765e5ea
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919395"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876308"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений
 
@@ -44,7 +44,7 @@ ms.locfileid: "50919395"
 
 Дополнительные сведения см. в указанных ниже статьях.
 
-- [Какие подписки необходимо использовать для новых возможностей OME?](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities) Эта статья поможет вам убедиться, что ваш план подписки включает службу Azure Information Protection (которая включает функции Azure RMS).
+- [Какие подписки необходимо использовать для новых возможностей OME?](ome-faq.yml#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities-) Эта статья поможет вам убедиться, что ваш план подписки включает службу Azure Information Protection (которая включает функции Azure RMS).
 - Сведения о приобретении соответствующей подписки см. в статье [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).  
 
 ### <a name="manually-activating-azure-rights-management"></a>Активация службы управления правами Azure вручную

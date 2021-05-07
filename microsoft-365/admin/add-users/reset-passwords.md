@@ -1,5 +1,5 @@
 ---
-title: Сбрасывайте пароли
+title: Сброс паролей
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -27,16 +27,16 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Узнайте, как сбросить пароль для пользователя в Microsoft 365 для подписки на бизнес.
-ms.openlocfilehash: 24fc6581837f71659a2ecc0359c6967e3969d868
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: fa368c7f44d4df847cf007568853c11970e7adc1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023981"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241704"
 ---
-# <a name="reset-passwords"></a>Сбрасывайте пароли
+# <a name="reset-passwords"></a>Сброс паролей
 
-В этой статье рассказывается, как сбросить пароли для себя и для пользователей, если у вас есть подписка microsoft 365 для бизнеса.
+В этой статье рассказывается, как сбросить пароли для себя и для пользователей, если у вас есть Microsoft 365 для бизнеса подписки.
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
@@ -54,23 +54,7 @@ ms.locfileid: "52023981"
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>Действия: сброс бизнес-пароля для пользователя
 
-::: moniker range="o365-worldwide"
-
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
-
-::: moniker-end
 
 2. На странице **Активные пользователи** выберите пользователя и выберите **пароль Reset**.
 
@@ -84,7 +68,7 @@ ms.locfileid: "52023981"
 
 ## <a name="reset-my-admin-password"></a>Сброс пароля администратора
 
-Используйте эти действия, если забыли пароль, но можете войти в Microsoft 365, так как, например, пароль сохранен в браузере:
+Используйте эти действия, если вы забыли пароль, но можете войти в Microsoft 365, так как, например, пароль сохранен в браузере:
 
 1. Выберите имя (значок) в правом верхнем углу > **личной** информации моей  >  **учетной записи**.
 
@@ -126,13 +110,13 @@ ms.locfileid: "52023981"
   
 <!-- Here's a related article: [Set the passwords for multiple user accounts](/office365/enterprise/powershell/manage-office-365-with-office-365-powershell). -->
   
-Сведения об обзоре см. [в ссылке Управление Microsoft 365 с Помощью PowerShell.](../../enterprise/manage-microsoft-365-with-microsoft-365-powershell.md)
+Сведения об обзоре см. [в Microsoft 365 с PowerShell.](../../enterprise/manage-microsoft-365-with-microsoft-365-powershell.md)
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Принудительная смена паролей всех пользователей в организации
 
 Ознакомьтесь со следующей записью блога, опубликованной экспертом со статусом Microsoft MVP Василием Мичевым (Vasil Michev): [Принудительная смена паролей всех пользователей в Office 365](https://go.microsoft.com/fwlink/?linkid=853693).
   
-## <a name="i-dont-have-a-microsoft-365-for-business-subscription"></a>У меня нет подписки Microsoft 365 для бизнеса
+## <a name="i-dont-have-a-microsoft-365-for-business-subscription"></a>У меня нет Microsoft 365 подписки для бизнеса
 
 Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).
   

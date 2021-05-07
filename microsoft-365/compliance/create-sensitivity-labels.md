@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: 34cbea7199ed50de8e65a48f8087e6475fb41a50
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты данных организации.'
+ms.openlocfilehash: c34025d2b68eb0ee179c98ce9c97a59193f782e3
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926647"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994956"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Все решения Microsoft Information Protection (сокращенное название — MIP) реализуются с помощью [меток конфиденциальности](sensitivity-labels.md). Чтобы создать и опубликовать эти метки, перейдите в центр администрирования меток, например в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности Microsoft 365 или Центр безопасности и соответствия требованиям.
+Все решения Microsoft Information Protection (сокращенное название — MIP) реализуются с помощью [меток конфиденциальности](sensitivity-labels.md). Чтобы создать и опубликовать эти метки, перейдите в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности и соответствия требованиям Office 365.
 
 Сначала создайте и настройте метки конфиденциальности, которые должны быть доступны для приложений и других служб. Например, метки, которые пользователям нужно найти и применить из приложений Office. 
 
@@ -46,9 +46,6 @@ ms.locfileid: "50926647"
         - **Решения** > **Защита информации**
         
         Если этот параметр не отображается сразу, сначала выберите пункт **Показать все**. 
-    
-    - Центр безопасности Microsoft 365: 
-        - **Классификация** > **Метки конфиденциальности**
     
     - Центр безопасности и соответствия требованиям:
         - **Классификация** > **Метки конфиденциальности**
@@ -144,9 +141,6 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
         
         Если этот параметр не отображается сразу, сначала выберите пункт **Показать все**. 
     
-    - Центр безопасности Microsoft 365: 
-        - **Классификация** > **Метки конфиденциальности**
-    
     - Центр безопасности и соответствия требованиям:
         - **Классификация** > **Метки конфиденциальности**
 
@@ -192,7 +186,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) из [PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/scc-powershell).
 
-Только для клиента унифицированных меток Azure Information Protection вы также можете указать [дополнительные параметры](/azure/information-protection/rms-client/clientv2-admin-guide-customizations), включающие настройку другой метки по умолчанию для Outlook и внедрение всплывающих сообщений в Outlook для предупреждения, объяснения или блокирования отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для политик меток](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) этого руководства для администраторов клиента.
+Клиент унифицированных меток Azure Information Protection поддерживает множество [дополнительных параметров](/azure/information-protection/rms-client/clientv2-admin-guide-customizations), которые включают переход от других решений добавления меток и всплывающих сообщений в Outlook для предупреждения, объяснения или блокировки отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для политик меток](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) этого руководства для администраторов клиента.
 
 ## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>Использование PowerShell для меток конфиденциальности и соответствующих политик
 
@@ -225,7 +219,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 - Для Office в Интернете. Пользователи не видят имя метки в строке состояния или в столбце **Конфиденциальность**. Сведения о метке в метаданных сохраняются только в том случае, если метка не применяла шифрование. Если метка применяла шифрование и вы включили [метки конфиденциальности для SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md), сведения о метке в метаданных удаляются. Шифрование также удаляется. 
 
-При удалении метки чувствительности из политики меток, репликация внесенных изменений для всех пользователей и услуг может занять до одного часа.
+При удалении метки чувствительности из политики меток, репликация внесенных изменений для всех пользователей и услуг может занять до 24 часов.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

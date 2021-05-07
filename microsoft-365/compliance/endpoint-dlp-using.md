@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте, как настроить политики защиты от потери данных (DLP), чтобы использовать соответствующие расположения защиты от потери данных в конечной точке Microsoft 365.
-ms.openlocfilehash: 91e8a25c2a15e82cd7f286d1110b1c87bedf31d5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1b918346467f9878582dfb301f48e530bfb400f8
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926437"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114097"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Использование защиты от потери данных в конечной точке
 
@@ -122,7 +122,8 @@ ms.locfileid: "50926437"
 
 > [!IMPORTANT]
 > Эти сценарии защиты от потери данных — не официальные процедуры для создания и настройки политик защиты. Если вам нужно использовать политики защиты от потери данных в общих ситуациях, прочитайте эти статьи:
->- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+
+>- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 >- [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)
 >- [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)
 >- [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
@@ -216,7 +217,7 @@ ms.locfileid: "50926437"
 
 - [Сведения о защите от потери данных в конечной точке](endpoint-dlp-learn-about.md)
 - [Начало работы с функцией защиты от потери данных в конечной точке](endpoint-dlp-getting-started.md)
-- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
 - [Microsoft Defender для конечной точки](/windows/security/threat-protection/)

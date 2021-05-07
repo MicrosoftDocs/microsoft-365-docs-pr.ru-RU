@@ -1,17 +1,17 @@
 ---
-title: Обзор функции защиты от потери данных
+title: Справка о предотвращении потери данных
 f1.keywords:
 - CSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/12/2019
+ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Priority
+localization_priority: low
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -21,59 +21,68 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Получите сведения о том, как выявлять, отслеживать и автоматически защищать конфиденциальную информацию организации в Office 365.
-ms.openlocfilehash: 737e556972ca8ab0f82e1c4fe9e8602f09e91fc8
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
-ms.translationtype: HT
+description: справочный материал для предотвращения потери данных
+ms.openlocfilehash: a94dde0bba3fdfc869746f51687ed7709a96639a
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445433"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114405"
 ---
-# <a name="overview-of-data-loss-prevention"></a>Обзор функции защиты от потери данных
+# <a name="data-loss-prevention-reference"></a>Справка о предотвращении потери данных
+ 
+> [!IMPORTANT]
+> Эта справочная тема больше не является основным ресурсом для Microsoft 365 данных по предотвращению потери данных (DLP). Набор контента DLP обновляется и реструктуризуется. Темы, затронутые в этой статье, будут перемещены в новые, обновленные статьи. Дополнительные сведения о DLP см. в дополнительных сведениях [о предотвращении потери данных.](dlp-learn-about-dlp.md)
+
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
 > [!NOTE]
 > Функции защиты от потери данных были недавно добавлены в сообщения чата и каналов Microsoft Teams для пользователей с лицензиями на продукт Office 365 Advanced Compliance, который доступен в качестве отдельной функции и включен в планы Office 365 E5 и "Соответствие требованиям Microsoft 365 E5". Дополнительные сведения о требованиях к лицензированию см. в статье [Рекомендации по лицензированию служб на уровне клиента Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
-Чтобы соответствовать бизнес-стандартам и требованиям отраслевых нормативных актов, организациям необходимо защищать конфиденциальную информацию и не допускать ее раскрытия по неосторожности. Конфиденциальная информация может включать финансовые данные или личные сведения, например номера кредитных карт, номера социального страхования (SSN) или данные медицинских карт. Политика защиты от потери данных в Центре безопасности и соответствия требованиям Office 365 позволяет определять, отслеживать и автоматически защищать конфиденциальную информацию в Office 365.
+
+
+<!-- MOVED TO LEARN ABOUT To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or personally identifiable information (PII) such as credit card numbers, social security numbers, or health records. With a data loss prevention (DLP) policy in the Office 365 Security &amp; Compliance Center, you can identify, monitor, and automatically protect sensitive information across Office 365.
   
-Политика защиты от потери данных предоставляет указанные ниже возможности.
+With a DLP policy, you can:
   
-- **Выявление конфиденциальной информации во многих расположениях, например в Exchange Online, SharePoint Online, OneDrive для бизнеса и Microsoft Teams.**
+- **Identify sensitive information across many locations, such as Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft Teams.**
     
-    Например, вы можете обнаружить любой документ с номером кредитной карты, который хранится на каком-либо сайте OneDrive для бизнеса, а также отслеживать только сайты OneDrive определенных пользователей.
+    For example, you can identify any document containing a credit card number that's stored in any OneDrive for Business site, or you can monitor just the OneDrive sites of specific people.
     
-- **Предотвращение случайного разглашения конфиденциальной информации**. 
+- **Prevent the accidental sharing of sensitive information**. 
     
-    Например, вы можете находить документы с данными медицинских карт, доступ к которым был предоставлен пользователям за пределами вашей организации, а потом автоматически блокировать доступ к ним или запрещать отправку соответствующих электронных писем.
+    For example, you can identify any document or email containing a health record that's shared with people outside your organization, and then automatically block access to that document or block the email from being sent.
     
-- **Отслеживание и защита конфиденциальной информации в полных версиях Excel, PowerPoint и Word.**
+- **Monitor and protect sensitive information in the desktop versions of Excel, PowerPoint, and Word.**
     
-    В этих программах Office для компьютера есть точно такие же возможности по выявлению конфиденциальной информации и применению политик защиты от потери данных, как и в Exchange Online, SharePoint Online и OneDrive для бизнеса. Когда пользователи обмениваются контентом в этих программах Office, функции защиты от потери данных выполняют постоянный мониторинг.
+    Just like in Exchange Online, SharePoint Online, and OneDrive for Business, these Office desktop programs include the same capabilities to identify sensitive information and apply DLP policies. DLP provides continuous monitoring when people share content in these Office programs.
     
-- **Информирование пользователей о способах обеспечения соответствия требованиям без прерывания их рабочих процессов.**
+- **Help users learn how to stay compliant without interrupting their workflow.**
     
-    Вы можете рассказать пользователям о политиках защиты от потери данных и о том, что соответствие требованиям не будет мешать их работе. Например, если пользователь пытается предоставить доступ к документу, содержащему конфиденциальную информацию, политика защиты от потери данных может отправить ему уведомление по электронной почте либо в контексте библиотеки документов отобразить подсказку политики, которая позволяет переопределить политику при наличии веской деловой причины. Такие же подсказки политики отображаются и в Outlook в Интернете, в Outlook, Excel, PowerPoint и Word.
+    You can educate your users about DLP policies and help them remain compliant without blocking their work. For example, if a user tries to share a document containing sensitive information, a DLP policy can both send them an email notification and show them a policy tip in the context of the document library that allows them to override the policy if they have a business justification. The same policy tips also appear in Outlook on the web, Outlook, Excel, PowerPoint, and Word.
     
-- **Просмотр оповещений и отчетов защиты от потери данных со сведениями о контенте, который соответствует политикам защиты от потери данных вашей организации.**
+- **View DLP alerts and reports showing content that matches your organization’s DLP policies.**
     
-    Чтобы просмотреть оповещения и метаданные, связанные с политиками защиты от потери данных, можно использовать [Панель мониторинга для управления оповещениями защиты от потери данных](dlp-configure-view-alerts-policies.md). Можно также просмотреть отчеты о соответствии политике, чтобы оценить степень соответствия вашей организации политике защиты от потери данных. Если политика защиты от потери данных позволяет пользователю переопределять подсказки политики и помечать их как ложные срабатывания, вы также можете просматривать связанные с этим сообщения пользователей.
-    
+    To view alerts and metadata related to your DLP policies you can use the [DLP Alerts Management Dashboard](dlp-configure-view-alerts-policies.md). You can also view policy match reports to assess how your organization is complying with a DLP policy. If a DLP policy allows users to override a policy tip and report a false positive, you can also view what users have reported
+
+-->    
+## <a name="create-and-manage-dlp-policies"></a>Создание и управление политиками DLP
+
 На странице управления защитой от потери данных в Центре соответствия требованиям Microsoft 365 можно создавать политики и управлять ими.
   
 ![Страница управления защитой от потери данных в Центре безопасности и соответствия требованиям Office 365](../media/943fd01c-d7aa-43a9-846d-0561321a405e.png)
   
-## <a name="what-a-dlp-policy-contains"></a>Содержимое политики защиты от потери данных
+<!-- MOVED TO LEARN ABOUT ## What a DLP policy contains
 
-Политика защиты от потери данных содержит несколько основных правил:
+A DLP policy contains a few basic things:
   
-- Где защищать контент: в таких **расположениях**, как Exchange Online, SharePoint Online и сайты OneDrive для бизнеса, а также в сообщениях чата и каналов Microsoft Teams. 
+- Where to protect the content: **locations** such as Exchange Online, SharePoint Online, and OneDrive for Business sites, as well as Microsoft Teams chat and channel messages. 
     
-- Когда и как защищать контент путем применения **правил**, состоящих из указанных ниже элементов. 
+- When and how to protect the content by enforcing **rules** comprised of: 
     
-  - **Условия**, которым должен соответствовать контент, чтобы можно было применить правило. Например, можно настроить правило, согласно которому следует выполнять поиск только того контента, который содержит номера социального страхования (SSN), и передается за пределы организации. 
+  - **Conditions** the content must match before the rule is enforced. For example, a rule might be configured to look only for content containing Social Security numbers that's been shared with people outside your organization. 
     
-  - **Действия**, которые необходимо автоматически выполнять при обнаружении контента, соответствующего заданным условиям. Например, можно настроить правило для блокирования доступа к документу и отправки уведомления по электронной почте пользователю и лицу, ответственному за обеспечение соответствия требованиям. 
+  - **Actions** that you want the rule to take automatically when content matching the conditions is found. For example, a rule might be configured to block access to a document and send both the user and compliance officer an email notification. -->
     
 Вы можете использовать какое-либо правило для выполнения определенного требования защиты, а затем с помощью политики защиты от потери данных сгруппировать стандартные требования к защите, например все правила, необходимые для выполнения требований того или иного нормативного акта.
   
@@ -81,20 +90,20 @@ ms.locfileid: "51445433"
   
 ![Схема, на которой показано, что политика защиты от потери данных содержит сведения о расположениях и правила](../media/c006860c-2d00-42cb-aaa4-5b5638d139f7.png)
   
-### <a name="locations"></a>Расположения
+<!-- MOVED TO LEARN ABOUT ### Locations
 
-Политики защиты от потери данных применяются к конфиденциальным элементам в расположениях Microsoft 365, и могут быть расширены, как указано в этой таблице.
+DLP policies are applied to sensitive items across Microsoft 365 locations and can be further scoped as detailed in this table.
 
 
-|Расположение | Добавление и исключение по|
+|Location | Include/exclude by|
 |---------|---------|
-|электронная почта Exchange| группы рассылки|
-|сайты SharePoint |сайты |
-|учетные записи OneDrive |учетные записи |
-|сообщения в чатах и каналах Teams |учетные записи |
-|устройства с Windows 10 |пользователь или группа |
-|Microsoft Cloud App Security |экземпляр |
-
+|Exchange email| distribution groups|
+|SharePoint sites |sites |
+|OneDrive accounts |accounts |
+|Teams chat and channel messages |accounts |
+|Windows 10 devices |user or group |
+|Microsoft Cloud App Security |instance |
+ -->
 
 Если включить в Exchange определенные группы рассылки, политика защиты от потери данных будет распространяться только на участников этих групп. Аналогично, если исключить группу рассылки, все участники этой группы будут исключены из оценки политики. Вы можете применять политику ко всем участникам списков рассылки, динамических групп рассылки и групп безопасности. Политика защиты от потери данных может содержать до 50 таких инструкций по включению и исключению.
 
@@ -511,7 +520,7 @@ DLP сканирует электронную почту иначе, чем эл
 Система защиты от потери данных оценивает любой контент, который можно индексировать. Дополнительные сведения о типах файлов, для которых по умолчанию выполняется обход контента, см. в статье [Анализируемые типы файлов и расширения имен файлов для обхода по умолчанию в SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
 
 > [!NOTE]
-> Внешний общий доступ к новым файлам в SharePoint можно заблокировать по умолчанию, пока хотя бы одна политика защиты от потери данных не проверит новый элемент. Подробные сведения см. в статье [По умолчанию помечать новые файлы как конфиденциальные](/sharepoint/sensitive-by-default). 
+> Чтобы предотвратить распространение документов до того, как политики DLP имели возможность их анализировать, обмен новыми файлами в SharePoint может быть заблокирован до индексации контента. Подробные сведения см. в статье [По умолчанию помечать новые файлы как конфиденциальные](/sharepoint/sensitive-by-default). 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Оценка политик в Exchange Online, Outlook и Outlook в Интернете
 

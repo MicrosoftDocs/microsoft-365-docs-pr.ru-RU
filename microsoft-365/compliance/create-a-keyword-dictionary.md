@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Ознакомьтесь с основными шагами по созданию словаря ключевых слов в Центре безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: b70deed531204f2ffe85253bd9ae2073dad291ec
-ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
+ms.openlocfilehash: 94bacc2a2fe91fdc35aad753cc2e7db80a374e29
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51632195"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876080"
 ---
 # <a name="create-a-keyword-dictionary"></a>Создание словаря ключевых слов
 
@@ -31,7 +31,7 @@ ms.locfileid: "51632195"
 
 ## <a name="keyword-dictionary-limits"></a>Ограничения словаря ключевых слов
 
-Существует ограничение в 50 слов для словаря ключевых слов на основе типов конфиденциальной информации, которые можно создать для каждого клиента. Чтобы выяснить количество словарей ключевых слов в своем клиенте, запустите этот сценарий PowerShell для клиента.
+Существует ограничение в 50 слов для словаря ключевых слов на основе типов конфиденциальной информации, которые можно создать для каждого клиента. Чтобы узнать, сколько словарей ключевых слов находится в клиенте, подключите его с помощью процедур, указанных в статье[Подключение к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) для подключения к вашему клиенту и запуску этого сценария PowerShell.
 
 ```powershell
 $rawFile = $env:TEMP + "\rule.xml"
@@ -212,13 +212,13 @@ Save the dictionary locally by running the following:
 Set-Content $updatedTerms -Path "C:\myPath\terms.txt"
 ```
 
-Теперь просто откройте файл, добавьте нужные термины и сохраните его в кодировке Юникода (UTF-16). Затем мы отправим обновленные термины и обновим словарь на месте.
+Теперь откройте файл, добавьте другие термины и сохраните его в кодировке Юникода (UTF-16). Затем мы отправим обновленные термины и обновим словарь на месте.
   
 ```powershell
 PS> Set-DlpKeywordDictionary -Identity "Diseases" -FileData (Get-Content -Path "C:myPath\terms.txt" -Encoding Byte -ReadCount 0)
 ```
 
-Теперь словарь был обновлен на месте. Обратите внимание, что поле `Identity` принимает имя словаря. Если требуется изменить имя словаря, можно просто добавить в приведенный выше командлет `set-` параметр `-Name` с новым именем. 
+Словарь обновлен. В поле `Identity` указывается имя словаря. Если вы также хотите изменить имя словаря с помощью командлета `set-`, вам достаточно будет добавить параметр `-Name` с новым именем. 
   
 ## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a>Использование словарей ключевых слов в типах конфиденциальной информации и политиках защиты от потери данных
 
