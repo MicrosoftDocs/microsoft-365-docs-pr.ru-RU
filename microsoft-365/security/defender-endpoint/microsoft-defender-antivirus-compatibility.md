@@ -16,12 +16,12 @@ ms.topic: article
 manager: dansimp
 ms.technology: mde
 ms.date: 05/06/2021
-ms.openlocfilehash: 866a36828c5c83d833d66bd7ed7d32b3499cbbdf
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 885844b46d603dc318dbaf877cd445b5caaa4e46
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275160"
+ms.locfileid: "52280985"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>антивирусная программа в Microsoft Defender совместимости
 
@@ -80,7 +80,7 @@ ms.locfileid: "52275160"
 - Значение: `1`
 
 > [!NOTE]
-> Пассивный режим не поддерживается Windows Server 2016. Ключ `ForcePassiveMode` реестра не применим к Windows Server 2016. 
+> Пассивный режим не поддерживается Windows Server 2016. Ключ реестра можно использовать на Windows Server, версии 1803 или более новой `ForcePassiveMode` версии или Windows Server 2019, но не Windows Server 2016. 
 
 (<a id="fn2">2.</a>Windows Server 2016, если вы используете антивирусный продукт, не в Microsoft, вы не можете запускать антивирусная программа в Microsoft Defender в пассивном или активном режиме. В таких случаях [отключать или](microsoft-defender-antivirus-on-windows-server.md#are-you-using-windows-server-2016) антивирусная программа в Microsoft Defender вручную, чтобы предотвратить проблемы, вызванные установкой на сервер нескольких антивирусных продуктов.
 

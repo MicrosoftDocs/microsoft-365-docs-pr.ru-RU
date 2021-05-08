@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Обзор Viva Тем.
-ms.openlocfilehash: b37572087794055724cb9533246f83794d88fb93
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1d66751d55c0144149fa8325e89be404e3df19ed
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275202"
+ms.locfileid: "52281033"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Обзор Microsoft Viva Тем 
 
-Viva Темы используют технологию ИИ Microsoft, Microsoft 365, Microsoft Graph, поиск и другие компоненты и службы, чтобы доставлять информацию пользователям приложений Microsoft 365 повседневного использования, начиная с современных страниц SharePoint и Поиска (Майкрософт).
+Viva Topics использует технологию Microsoft AI, Microsoft 365, Microsoft Graph, поиск и другие компоненты и службы для обеспечения знаний пользователей в приложениях Microsoft 365, которые они используют каждый день, начиная с SharePoint современных страниц, Microsoft Search и Search in Word и PowerPoint.
 
 </br>
 
@@ -42,6 +42,7 @@ Viva Темы используют ИИ для автоматического п
 
    ![Выделение тем](../media/knowledge-management/saturn.png) 
 
+При использовании поиска в Word или PowerPoint в поле поиска или  при выборе поиска в контекстной меню отображаются результаты, которые также могут отображаться в сводке темы.
 
    ![Снимок экрана, показывающий поиск в Word через поле Поиска.](../media/knowledge-management/word-search-2.png)
 
