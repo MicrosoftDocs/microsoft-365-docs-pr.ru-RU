@@ -5,73 +5,73 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: micurn
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_TOC
-- commerce
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
-search.appverid:
-- MET150
+- commerce_subscriptions
+- PPM_nicholak
+search.appverid: MET150
 description: Узнайте, как перемещать пользователей между подписками.
 ms.date: 07/01/2020
-ms.openlocfilehash: e0c6aabbdfd50fa66d846c76d317d940dc0cd819
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 7adaa0eba1ccc06029ab5f4e1ada1d961155e66b
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615115"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280479"
 ---
-# <a name="move-users-to-a-different-subscription"></a><span data-ttu-id="03d77-103">Перевод пользователей на другую подписку</span><span class="sxs-lookup"><span data-stu-id="03d77-103">Move users to a different subscription</span></span>
+# <a name="move-users-to-a-different-subscription"></a><span data-ttu-id="ef5c8-103">Перевод пользователей на другую подписку</span><span class="sxs-lookup"><span data-stu-id="ef5c8-103">Move users to a different subscription</span></span>
 
-<span data-ttu-id="03d77-104">Если у вас несколько подписок, есть пользователи с лицензией на одну подписку, но вы хотите переместить их в другую подписку, вы можете заменить существующую лицензию другой.</span><span class="sxs-lookup"><span data-stu-id="03d77-104">If you have more than one subscription, have users with a license for one subscription, but want to move them to another subscription, you can replace their existing license with a different one.</span></span>
+<span data-ttu-id="ef5c8-104">Если у вас несколько подписок, есть пользователи с лицензией на одну подписку, но вы хотите переместить их в другую подписку, вы можете заменить существующую лицензию другой.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-104">If you have more than one subscription, have users with a license for one subscription, but want to move them to another subscription, you can replace their existing license with a different one.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="03d77-105">Прежде чем начать</span><span class="sxs-lookup"><span data-stu-id="03d77-105">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="ef5c8-105">Прежде чем начать</span><span class="sxs-lookup"><span data-stu-id="ef5c8-105">Before you begin</span></span>
 
-<span data-ttu-id="03d77-106">Чтобы назначать лицензии необходимо быть глобальным администратором либо администратором лицензией или пользователей.</span><span class="sxs-lookup"><span data-stu-id="03d77-106">You must be a Global, License, or User admin to assign licenses.</span></span> <span data-ttu-id="03d77-107">Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="03d77-107">For more information, see [About Microsoft 365 admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
+<span data-ttu-id="ef5c8-106">Чтобы назначать лицензии необходимо быть глобальным администратором либо администратором лицензией или пользователей.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-106">You must be a Global, License, or User admin to assign licenses.</span></span> <span data-ttu-id="ef5c8-107">Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="ef5c8-107">For more information, see [About Microsoft 365 admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
 
-## <a name="move-users-to-a-different-subscription"></a><span data-ttu-id="03d77-108">Перевод пользователей на другую подписку</span><span class="sxs-lookup"><span data-stu-id="03d77-108">Move users to a different subscription</span></span>
+## <a name="move-users-to-a-different-subscription"></a><span data-ttu-id="ef5c8-108">Перевод пользователей на другую подписку</span><span class="sxs-lookup"><span data-stu-id="ef5c8-108">Move users to a different subscription</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="03d77-109">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="03d77-109">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="ef5c8-109">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-109">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. <span data-ttu-id="03d77-110">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="03d77-110">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
+ 1. <span data-ttu-id="ef5c8-110">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-110">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. <span data-ttu-id="03d77-111">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="03d77-111">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
+ 1. <span data-ttu-id="ef5c8-111">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-111">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="03d77-112">Выберите круги рядом с именами пользователей, для которых необходимо заменить существующие лицензии.</span><span class="sxs-lookup"><span data-stu-id="03d77-112">Select the circles next to the names of the users that you want to replace existing licenses for.</span></span>
+2. <span data-ttu-id="ef5c8-112">Выберите круги рядом с именами пользователей, для которых необходимо заменить существующие лицензии.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-112">Select the circles next to the names of the users that you want to replace existing licenses for.</span></span>
 
-3. <span data-ttu-id="03d77-113">В верхней части выберите **Управление лицензиями на продукты.**</span><span class="sxs-lookup"><span data-stu-id="03d77-113">At the top, select **Manage product licenses**.</span></span>
+3. <span data-ttu-id="ef5c8-113">В верхней части выберите **Управление лицензиями на продукты.**</span><span class="sxs-lookup"><span data-stu-id="ef5c8-113">At the top, select **Manage product licenses**.</span></span>
 
-4. <span data-ttu-id="03d77-114">В области **Управление лицензиями на** продукты выберите **Замените**  и выберите лицензии, которые необходимо назначить пользователям.</span><span class="sxs-lookup"><span data-stu-id="03d77-114">In the **Manage product licenses** pane, select **Replace**  and select the licenses that you would like to assign to the users.</span></span>
+4. <span data-ttu-id="ef5c8-114">В области **Управление лицензиями на** продукты выберите **Замените**  и выберите лицензии, которые необходимо назначить пользователям.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-114">In the **Manage product licenses** pane, select **Replace**  and select the licenses that you would like to assign to the users.</span></span>
 
-5. <span data-ttu-id="03d77-115">В нижней части выберите **Сохранить изменения** \> **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="03d77-115">At the bottom, select **Save Changes** \> **Close**.</span></span>
+5. <span data-ttu-id="ef5c8-115">В нижней части выберите **Сохранить изменения** \> **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-115">At the bottom, select **Save Changes** \> **Close**.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="03d77-116">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="03d77-116">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="ef5c8-116">Следующие шаги</span><span class="sxs-lookup"><span data-stu-id="ef5c8-116">Next steps</span></span>
 
-<span data-ttu-id="03d77-117">Если вы не собираетесь перенаходить неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы не платить за больше лицензий, чем нужно.</span><span class="sxs-lookup"><span data-stu-id="03d77-117">If you’re not going to [reassign the unused licenses to other users](../../managed-desktop/get-started/assign-licenses.md), consider [removing the licenses from your subscription](../../commerce/licenses/buy-licenses.md) so that you’re not paying for more licenses than you need.</span></span>
+<span data-ttu-id="ef5c8-117">Если вы не собираетесь перенаходить неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы не платить за больше лицензий, чем нужно.</span><span class="sxs-lookup"><span data-stu-id="ef5c8-117">If you’re not going to [reassign the unused licenses to other users](../../managed-desktop/get-started/assign-licenses.md), consider [removing the licenses from your subscription](../../commerce/licenses/buy-licenses.md) so that you’re not paying for more licenses than you need.</span></span>
 
-## <a name="related-content"></a><span data-ttu-id="03d77-118">Связанные материалы</span><span class="sxs-lookup"><span data-stu-id="03d77-118">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="ef5c8-118">См. также:</span><span class="sxs-lookup"><span data-stu-id="ef5c8-118">Related content</span></span>
 
-<span data-ttu-id="03d77-119">[Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="03d77-119">[Assign licenses to users](../../admin/manage/assign-licenses-to-users.md) (article)</span></span>\
-<span data-ttu-id="03d77-120">[Удаление лицензий из подписки](../licenses/buy-licenses.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="03d77-120">[Remove licenses from your subscription](../licenses/buy-licenses.md) (article)</span></span>\
-<span data-ttu-id="03d77-121">[Изменение планов вручную](change-plans-manually.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="03d77-121">[Change plans manually](change-plans-manually.md) (article)</span></span>\
-<span data-ttu-id="03d77-122">[Понимание подписок и лицензий в Microsoft 365 для бизнеса](../licenses/subscriptions-and-licenses.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="03d77-122">[Understand subscriptions and licenses in Microsoft 365 for business](../licenses/subscriptions-and-licenses.md) (article)</span></span>\
-<span data-ttu-id="03d77-123">[Купить другой Microsoft 365 для подписки на бизнес](../try-or-buy-microsoft-365.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="03d77-123">[Buy another Microsoft 365 for business subscription](../try-or-buy-microsoft-365.md) (article)</span></span>
-
+<span data-ttu-id="ef5c8-119">[Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="ef5c8-119">[Assign licenses to users](../../admin/manage/assign-licenses-to-users.md) (article)</span></span>\
+<span data-ttu-id="ef5c8-120">[Удаление лицензий из подписки](../licenses/buy-licenses.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="ef5c8-120">[Remove licenses from your subscription](../licenses/buy-licenses.md) (article)</span></span>\
+<span data-ttu-id="ef5c8-121">[Изменение планов вручную](change-plans-manually.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="ef5c8-121">[Change plans manually](change-plans-manually.md) (article)</span></span>\
+<span data-ttu-id="ef5c8-122">[Понимание подписок и лицензий в Microsoft 365 для бизнеса](../licenses/subscriptions-and-licenses.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="ef5c8-122">[Understand subscriptions and licenses in Microsoft 365 for business](../licenses/subscriptions-and-licenses.md) (article)</span></span>\
+<span data-ttu-id="ef5c8-123">[Купить еще Microsoft 365 для подписки на бизнес](../try-or-buy-microsoft-365.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="ef5c8-123">[Buy another Microsoft 365 for business subscription](../try-or-buy-microsoft-365.md) (article)</span></span>
