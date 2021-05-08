@@ -26,12 +26,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Поймите, что нужно знать, прежде чем пройти процесс регистрации для Office 365.
 ms.date: 03/17/2021
-ms.openlocfilehash: 37cbe20a5cc1a7506e8db218c3e9ffe2b4e64478
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 77fe0252a267b13fda19a6842ce0e07b1b8307b1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107030"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244012"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Как зарегистрироваться - Справка администратора
 
@@ -136,4 +136,4 @@ Office 365 21Vianet предназначен для удовлетворения
 
 ## <a name="related-content"></a>См. также:
 
-[Microsoft 365 видео для бизнес-подготовки](../../business-video/index.yml) (ссылки)
+[Microsoft 365 для видео обучения бизнесу](../../business-video/index.yml) (страница ссылки)
