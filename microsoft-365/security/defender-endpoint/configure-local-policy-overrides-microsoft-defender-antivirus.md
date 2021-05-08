@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 02/13/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f3c2b7ae70f42cb7ffc2deef1786ad43e65f33b6
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 4a35c6717fd7a1834364df32cf5570c83a5b776e
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764643"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274524"
 ---
 # <a name="prevent-or-allow-users-to-locally-modify-microsoft-defender-antivirus-policy-settings"></a>Предотвращение или разрешение пользователям локально изменять параметры антивирусной политики Microsoft Defender
 
@@ -55,7 +56,7 @@ ms.locfileid: "51764643"
 
 5. Развертывание объекта групповой политики в обычном режиме.
 
-Расположение | Setting | Статья
+Location | Setting | Статья
 ---|---|---|---
 MAPS | Настройка переопределения локального параметра для отчетов в Microsoft MAPS | [Включить облачную защиту](enable-cloud-protection-microsoft-defender-antivirus.md)
 Карантин | Настройка переопределения локального параметра для удаления элементов из папки Карантина | [Настройка исправлений для сканирования](configure-remediation-microsoft-defender-antivirus.md)
@@ -94,7 +95,7 @@ MAPS | Настройка переопределения локального п
 > [!NOTE]
 > Если отключить локальное объединение списков, он переопределит параметры доступа к управляемым папкам. Кроме того, она переопределяет все защищенные папки или разрешенные приложения, заданные местным администратором. Дополнительные сведения о параметрах доступа к контролируемым папкам см. в приложении [Allow a blocked app in Windows Security.](https://support.microsoft.com/help/4046851/windows-10-allow-blocked-app-windows-security)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 - [Настройка взаимодействия между конечными пользователями с антивирусом Microsoft Defender](configure-end-user-interaction-microsoft-defender-antivirus.md)

@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Администраторы могут научиться использовать теги карантина для управления тем, что пользователи могут делать с их карантинными сообщениями.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 580cf2bad690d0fc6508d11178527ad218df763b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 512c589572502deacb5529ca9d6f2876861bf050
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205789"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274464"
 ---
 # <a name="quarantine-tags"></a>Теги карантина
 
@@ -42,6 +42,10 @@ EOP традиционно разрешает или предотвращает 
 - Полный доступ
 
 Доступные отдельные разрешения и то, что включено или не включено в предустановленные группы разрешений, описаны в следующей таблице:
+
+<br>
+
+****
 
 |Разрешение|Нет доступа|Ограниченный доступ|Полный доступ|
 |---|:---:|:---:|:---:|
@@ -126,6 +130,8 @@ New-QuarantineTag -Name "<UniqueName>" -EndUserQuarantinePermissionsValue <0 to 
 
 Необходимый порядок и значения для каждого отдельного разрешения в предустановленных группах разрешений описаны в следующей таблице:
 
+<br>
+
 ****
 
 |Разрешение|Нет доступа|Ограниченный доступ|Полный доступ|
@@ -140,6 +146,7 @@ New-QuarantineTag -Name "<UniqueName>" -EndUserQuarantinePermissionsValue <0 to 
 |PermissionToViewHeader<sup>\*</sup>|0|0|0|
 |Двоичное значение|00000000|01101010|11101100|
 |Десятичная значения для использования|0|106|236|
+|
 
 <sup>\*</sup> В настоящее время это значение всегда 0. Для PermissionToViewHeader значение 0 не скрывает кнопку Заголовок сообщения **View** в подробностях карантиного сообщения (кнопка всегда доступна).
 
@@ -225,6 +232,8 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 В _поддерживаемых_ средствах защиты, карантиных сообщениях или файлах (автоматически или в качестве настраиваемого действия), можно назначить карантинный тег доступным карантиным действиям. Функции карантиных сообщений и наличие тегов карантина описаны в следующей таблице:
 
+<br>
+
 ****
 
 |Функция|Поддерживаемые теги карантина?|Используемые теги карантина по умолчанию|
@@ -256,7 +265,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
    ![Выбор карантиных тегов в политике борьбы со спамом](../../media/quarantine-tags-in-anti-spam-policies.png)
 
-5. Когда закончите, нажмите кнопку **Сохранить**.
+5. Когда закончите, нажмите **Сохранить**.
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>Назначение тегов карантина в политиках по борьбе со спамом в PowerShell
 
@@ -311,7 +320,7 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
 3. В **открываемом** флаауте параметров уведомлений карантина настройте некоторые или все следующие параметры:
 
-   - **Используйте логотип моей компании.** Выберите этот параметр, чтобы заменить логотип Microsoft по умолчанию, который используется в верхней части уведомлений о нежелательной почте конечного пользователя. Прежде чем это сделать, необходимо следовать инструкциям в [Настройка темы Microsoft 365](../../admin/setup/customize-your-organization-theme.md) для вашей организации, чтобы загрузить свой пользовательский логотип.
+   - **Используйте логотип моей компании.** Выберите этот параметр, чтобы заменить логотип Microsoft по умолчанию, который используется в верхней части уведомлений о нежелательной почте конечного пользователя. Прежде чем это сделать, необходимо следовать инструкциям в [Настройка](../../admin/setup/customize-your-organization-theme.md) темы Microsoft 365 для вашей организации, чтобы загрузить свой пользовательский логотип.
 
      На следующем скриншоте показан настраиваемый логотип в уведомлении о нежелательной почте для конечных пользователей:
 
@@ -468,7 +477,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 #### <a name="allow-sender-permission"></a>Разрешить разрешение отправитель
 
-Разрешение **разрешить отправитель** _(PermissionToAllowSender)_ управляет доступом к кнопке, которая позволяет пользователям удобно добавлять отправитель сообщения, на карантин, в список безопасных отправителей.
+Разрешение **разрешить отправитель** _(PermissionToAllowSender)_ управляет доступом к кнопке, которая позволяет пользователям удобно добавлять отправитель сообщений, на карантин, в Сейф список отправителей.
 
 - **Сведения о карантине:**
   - **Разрешить разрешение отправитель** включен: **кнопка Разрешить отправитель** доступна.
@@ -476,7 +485,7 @@ Remove-QuarantineTag -Identity "<TagName>"
 
 - **Уведомления о нежелательной почте конечных пользователей.**
 
-Дополнительные сведения о списке "Безопасные отправители" см. в рублях Предотвращение блокировки доверенных отправителей и использование Exchange Online PowerShell для настройки коллекции safelist на [почтовом ящике.](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox) [](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666)
+Дополнительные сведения о списке Сейф отправителей [](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) см. в этой информации, чтобы предотвратить блокировку доверенных отправителей и использовать [Exchange Online PowerShell](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)для настройки коллекции safelist на почтовом ящике.
 
 #### <a name="block-sender-permission"></a>Разрешение отправитель блокировки
 
@@ -490,7 +499,7 @@ Remove-QuarantineTag -Identity "<TagName>"
   - **Отключено разрешение** отправитель блокировки. Кнопка **"Отправитель** блока" недоступна.
   - **Включено разрешение отправитель** блока. Кнопка **"Отправитель** блока" доступна.
 
-Дополнительные сведения о списке заблокированных отправителей см. в рублях [Block messages from someone](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) and Use Exchange Online [PowerShell to configure the safelist collection on a mailbox.](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)
+Дополнительные сведения о списке заблокированных [](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) отправителей см. в дополнительных сведениях о блокировке сообщений от кого-либо и использовании Exchange Online PowerShell для настройки коллекции safelist на [почтовом ящике.](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)
 
 #### <a name="delete-permission"></a>Разрешения на удаление
 

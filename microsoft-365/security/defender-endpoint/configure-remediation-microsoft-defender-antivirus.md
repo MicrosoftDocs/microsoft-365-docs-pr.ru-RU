@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 03/16/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 98bc079bcfd772ada52d699d5f873a187d4ab4c1
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 45886b94ec5ea11f01bfe23092eef4bd72691554
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765063"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274512"
 ---
 # <a name="configure-remediation-for-microsoft-defender-antivirus-detections"></a>Настройка исправления для обнаружения антивирусной программы в Microsoft Defender
 
@@ -49,7 +50,7 @@ ms.locfileid: "51765063"
 
 5. Нажмите кнопку **ОК**.
 
-|Расположение | Setting | Описание | Параметр по умолчанию (если не настроен) |
+|Location | Setting | Описание | Параметр по умолчанию (если не настроен) |
 |:---|:---|:---|:---|
 |Проверка | Создание точки восстановления системы | Каждый день перед попыткой очистки или сканирования будет создана точка восстановления системы | Отключена|
 |Проверка | Включаем удаление элементов из папки истории сканирования | Укажите, сколько дней элементов должно храниться в истории сканирования | 30 дней |

@@ -3,7 +3,7 @@ title: Обзор панели мониторинга безопасности
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: denisebmsft
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 description: Используйте новую панель мониторинга безопасности, чтобы просмотреть состояние office 365 в области защиты от угроз, а также просмотреть и действовать по оповещениям о безопасности.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7114776f686d25808c141a07b8cb2868cc67615d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8c9a49b9b8fc1edd9b2928250e8cae135acb75f4
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205645"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274416"
 ---
 # <a name="security-dashboard"></a>Панель мониторинга безопасности
 
@@ -87,7 +87,7 @@ ms.locfileid: "51205645"
 |---|---|
 |Отсканированные сообщения|Количество отсканированных сообщений электронной почты, умноженных на число получателей|
 |Угрозы остановлены|Количество сообщений электронной почты, идентифицированных как содержащих вредоносные программы, умноженных на число получателей|
-|Заблокировано [Defender для Office 365 ](defender-for-office-365.md)|Количество сообщений электронной почты, заблокированных Defender для Office 365, умножено на число получателей|
+|Заблокировано [Defender для Office 365](defender-for-office-365.md)|Количество сообщений электронной почты, заблокированных Defender для Office 365, умножено на число получателей|
 |Удалено после доставки|Количество сообщений, удаленных [путем](zero-hour-auto-purge.md) автоматической очистки с нулевой часовой отметкой, умноженное на число получателей|
 
 ## <a name="malware"></a>Вредоносные программы
@@ -96,7 +96,7 @@ ms.locfileid: "51205645"
 
 ![Тенденции вредоносных программ и типы семей](../../media/malwarewidgetatpe5.png)
 
-## <a name="insights"></a>Наблюдения
+## <a name="insights"></a>Аналитика
 
 Идеи не только поверхностные ключевые проблемы, которые необходимо рассмотреть, они также включают рекомендации и действия, которые следует учитывать.
 

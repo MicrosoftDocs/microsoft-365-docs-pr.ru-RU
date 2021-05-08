@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5f57d14427ef68280a065489e068955db9e5045a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 18afd4aa160ec345839d23719d1b3fcce21654ec
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934805"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246360"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Устранение неполадок в Microsoft Defender для конечной точки на Android
 
@@ -51,11 +51,11 @@ ms.locfileid: "51934805"
 
 **Причина:**
 
-На вашем устройстве установлена более старая версия приложения "Microsoft Authenticator".
+На вашем устройстве установлена более старая версия приложения Microsoft Authenticator "Microsoft Authenticator".
 
 **Решение:**
 
-Установите последнюю версию и [Microsoft Authenticator](https://play.google.com/store/apps/details?androidid=com.azure.authenticator) из магазина Google Play и попробуйте еще раз
+Установите последнюю версию и [Microsoft Authenticator](https://play.google.com/store/apps/details?androidid=com.azure.authenticator) в Магазине Google Play и попробуйте еще раз
 
 ## <a name="sign-in-failed---invalid-license"></a>Вход в сбой - недействительные лицензии
 
@@ -67,11 +67,15 @@ ms.locfileid: "51934805"
 
 **Причина:**
 
-Вам не назначена лицензия Microsoft 365 или у организации нет лицензии на подписку microsoft 365 Enterprise.
+У вас нет Microsoft 365 лицензии или у организации нет лицензии на Microsoft 365 корпоративный подписки.
 
 **Решение:**
 
 Обратитесь к системному администратору.
+
+## <a name="report-unsafe-site"></a>Сообщить о небезопасном сайте
+
+Фишинговые веб-сайты выдают себя за надежные веб-сайты с целью получения личной или финансовой информации. Если вы хотите сообщить о веб-сайте, который может быть фишинг-сайтом, посетите страницу Provide feedback about [network](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) protection page.
 
 ## <a name="phishing-pages-arent-blocked-on-some-oem-devices"></a>Фишинговые страницы не заблокированы на некоторых устройствах OEM
 

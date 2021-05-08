@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a91da48f27450d6f4a6fd2b9607aa979458ccf71
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 6e11c9394f250a6f3882183224f53954b1390a23
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765099"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274632"
 ---
 # <a name="configure-the-notifications-that-appear-on-endpoints"></a>Настройка уведомлений, которые отображаются в конечных точках
 
@@ -108,7 +109,7 @@ ms.locfileid: "51765099"
 
 5. Дважды нажмите **кнопку Подавляет уведомления о** перезагрузке и установите параметр **Включено**. Нажмите кнопку **ОК**. Это позволит избежать появления дополнительных уведомлений.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 - [Настройка взаимодействия между конечными пользователями с антивирусом Microsoft Defender](configure-end-user-interaction-microsoft-defender-antivirus.md)
