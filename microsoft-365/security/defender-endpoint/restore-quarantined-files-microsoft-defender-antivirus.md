@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 05/20/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3de9ddfc0cab12d2eea717c5d6b01e5b70b21213
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: e0253c4ac7d92c91e3fda45681568d721645f2b0
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765795"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275388"
 ---
 # <a name="restore-quarantined-files-in-microsoft-defender-av"></a>Восстановление карантинов файлов в microsoft Defender AV
 
@@ -31,9 +32,9 @@ ms.locfileid: "51765795"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Если антивирус Microsoft Defender настроен для обнаружения и устранения угроз на вашем устройстве, антивирусНая программа Microsoft Defender карантином засекает подозрительные файлы. Если вы уверены, что на карантин файл не представляет угрозы, его можно восстановить.
+Если антивирусная программа в Microsoft Defender настроена для обнаружения и устранения угроз на вашем устройстве, антивирусная программа в Microsoft Defender карантин подозрительных файлов. Если вы уверены, что на карантин файл не представляет угрозы, его можно восстановить.
 
-1. Откройте **безопасность Windows.**
+1. Откройте **Безопасность Windows**.
 2. Выберите **защиту & вирусов и** нажмите кнопку История **защиты.**
 3. В списке всех последних элементов фильтруем **пункты карантина.**
 4. Выберите элемент, который необходимо сохранить, и примите действие, например восстановление.
@@ -47,4 +48,4 @@ ms.locfileid: "51765795"
 - [Просмотр результатов сканирования](review-scan-results-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений на основе имени, расширения и расположения папки](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений для файлов, открытых процессами](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Настройка исключений антивируса Microsoft Defender на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Настройка антивирусная программа в Microsoft Defender исключений на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)

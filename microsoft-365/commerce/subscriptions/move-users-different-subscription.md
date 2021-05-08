@@ -5,27 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: micurn
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_TOC
-- commerce
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
-search.appverid:
-- MET150
+- commerce_subscriptions
+- PPM_nicholak
+search.appverid: MET150
 description: Узнайте, как перемещать пользователей между подписками.
 ms.date: 07/01/2020
-ms.openlocfilehash: e0c6aabbdfd50fa66d846c76d317d940dc0cd819
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 7adaa0eba1ccc06029ab5f4e1ada1d961155e66b
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615115"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280479"
 ---
 # <a name="move-users-to-a-different-subscription"></a>Перевод пользователей на другую подписку
 
@@ -63,15 +64,14 @@ ms.locfileid: "51615115"
 
 5. В нижней части выберите **Сохранить изменения** \> **Закрыть**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Если вы не собираетесь перенаходить неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы не платить за больше лицензий, чем нужно.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md) (статья)\
 [Удаление лицензий из подписки](../licenses/buy-licenses.md) (статья)\
 [Изменение планов вручную](change-plans-manually.md) (статья)\
 [Понимание подписок и лицензий в Microsoft 365 для бизнеса](../licenses/subscriptions-and-licenses.md) (статья)\
-[Купить другой Microsoft 365 для подписки на бизнес](../try-or-buy-microsoft-365.md) (статья)
-
+[Купить еще Microsoft 365 для подписки на бизнес](../try-or-buy-microsoft-365.md) (статья)

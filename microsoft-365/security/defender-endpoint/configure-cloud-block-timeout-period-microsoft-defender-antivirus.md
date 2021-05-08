@@ -1,25 +1,26 @@
 ---
-title: Настройка периода ожидания облачного блока антивирусной программы Microsoft Defender
-description: Можно настроить продолжительность блокировки антивируса Microsoft Defender файла в ожидании определения облачности.
-keywords: Антивирус Microsoft Defender, антивирусные программы, безопасность, защитник, облако, время ожидания, блок, период, секунд
+title: Настройка периода антивирусная программа в Microsoft Defender облачного блока
+description: Вы можете настроить срок, антивирусная программа в Microsoft Defender будет блокировать работу файла в ожидании определения облака.
+keywords: антивирусная программа в Microsoft Defender, antimalware, security, defender, cloud, timeout, block, period, seconds
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 372d679f45d6f87392b612f757e6bdf1c6c6b9ad
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 02b8ee1c73116718d771847a43d6334e0723bd5c
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765807"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275314"
 ---
 # <a name="configure-the-cloud-block-timeout-period"></a>Настройка времени ожидания блокировки облака
 
@@ -30,9 +31,9 @@ ms.locfileid: "51765807"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Когда антивирус Microsoft Defender находит подозрительный файл, он может запретить его работу во время запросов облачной службы [антивирусов Microsoft Defender.](cloud-protection-microsoft-defender-antivirus.md)
+Когда антивирусная программа в Microsoft Defender обнаруживает подозрительный файл, он может запретить его работу во время запроса облачной [службы антивирусная программа в Microsoft Defender.](cloud-protection-microsoft-defender-antivirus.md)
 
-Период блокировки файла по [](configure-block-at-first-sight-microsoft-defender-antivirus.md) умолчанию составляет 10 секунд. Можно указать дополнительный период времени для ожидания запуска файла. Это может помочь обеспечить достаточно времени для получения надлежащего определения от облачной службы антивирусной программы Microsoft Defender.
+Период блокировки файла по [](configure-block-at-first-sight-microsoft-defender-antivirus.md) умолчанию составляет 10 секунд. Можно указать дополнительный период времени для ожидания запуска файла. Это может помочь обеспечить достаточно времени для получения надлежащего определения от антивирусная программа в Microsoft Defender облачной службы.
 
 ## <a name="prerequisites-to-use-the-extended-cloud-block-timeout"></a>Необходимые условия для использования растянутой облачной блокировки
 
@@ -46,15 +47,15 @@ ms.locfileid: "51765807"
 
 2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и щелкните **административные шаблоны**.
 
-3. Расширь дерево до компонентов Windows > **Microsoft Defender > MpEngine**
+3. Расширение дерева до **Windows компонентов > антивирусная программа в Microsoft Defender > MpEngine**
 
 4. Дважды **щелкните Настройка расширенной облачной проверки** и убедитесь, что параметр включен. Укажите дополнительное время, чтобы не допустить запуска файла в ожидании определения облака. Вы можете указать дополнительное время в секундах от 1 секунды до 50 секунд. Это время будет добавлено к 10 секундам по умолчанию.
 
 5. Нажмите кнопку **ОК**.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 - [Использование антивирусных технологий нового поколения с помощью облачной защиты](cloud-protection-microsoft-defender-antivirus.md)
 - [Настройка блока с первого взгляда](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 - [Включить облачную защиту](enable-cloud-protection-microsoft-defender-antivirus.md)

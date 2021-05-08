@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -12,19 +13,22 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
-search.appverid:
-- MET150
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: Узнайте, как читать и знакомиться со счетом, выставленным за продукты Microsoft для бизнеса.
 keywords: учетные записи выставления счетов, сведения об организации, счета
-ms.openlocfilehash: 344877a4b97f5c77dc3381aa49d7bf0f60bd628e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/04/2021
+ms.openlocfilehash: 819db7eb999344d2736015dd766453c07f2ed86f
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244712"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280839"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Ознакомление со счетом
 
@@ -103,17 +107,13 @@ ms.locfileid: "52244712"
 Счета доступны в сети. Ссылка на онлайн-счет доступна в вашем счете в PDF-формате или в отправляемом по электронной почте уведомлении. Онлайн-счет может быть развернут, поэтому в нем можно просматривать расходы в счете и дополнительные сведения по каждому элементу. Онлайн-счет включает:
 
 - **Сведения о ценах**&mdash;Дополнительные сведения, включая информацию о скидках и ценах на продукты.
-
 - **Интернет-платеж**&mdash;Оплату интернет-платежом можно выбрать из счета.
-
 - **Управление затратами Azure**&mdash;Для клиентов Azure в онлайн-счета включена ссылка на управление затратами Azure.
 
 ### <a name="to-view-your-online-invoice"></a>Чтобы просмотреть онлайн-счет
 
 1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Счета и платежи</a>.
-
 2. Чтобы скачать версию .pdf вашего счета, выберите **Загрузить счет в формате PDF** в строке счета, который вы хотите просмотреть.
-
 3. Чтобы просмотреть онлайн-счет, выберите его из списка. Также файл .pdf можно скачать со страницы сведений о счете.
 
 ## <a name="invoice-faq"></a>Счет: вопросы и ответы
@@ -145,8 +145,8 @@ ms.locfileid: "52244712"
 
 Предоплата Azure доступна в качестве способа оплаты только для соответствующих продуктов и услуг Azure.
 
-## <a name="need-help-contact-support"></a>Нужна помощь? Обратитесь за поддержкой.
+## <a name="need-help-contact-support"></a>Нужна помощь? Обратитесь в службу поддержки
 
 Если у вас есть вопросы или вам нужна помощь с ежемесячной суммой денег на счете Azure, <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">создайте запрос в службу поддержки Azure</a>.
 
-Если у вас есть вопросы или вам нужна помощь с вашим счетом в Центре администрирования Microsoft 365, [обратитесь в службу поддержки для бизнес-продуктов](../../admin/contact-support-for-business-products.md).
+Если у вас есть вопросы или вам нужна помощь с вашим счетом в Центре администрирования Microsoft 365, [обратитесь в службу поддержки для бизнес-продуктов](../../business-video/get-help-support.md).

@@ -1,25 +1,26 @@
 ---
-title: Настройка параметров сканирования для microsoft Defender AV
-description: Вы можете настроить microsoft Defender AV для сканирования файлов хранения электронной почты, точек для архивирования или репараса, сетевых файлов и архивных файлов (например, файлов zip).
+title: Настройка параметров сканирования для антивирусная программа в Microsoft Defender
+description: Вы можете настроить microsoft Defender AV для сканирования файлов хранения электронной почты, точек архивирования или репараса, сетевых файлов и архивных файлов (например, .zip файлов).
 keywords: расширенные проверки, сканирование, электронная почта, архив, почтовый индекс, rar, архив, сканирование репара
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 72d5024446e56cc7fa1d94a7b9402cbe898db2a8
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 1efa72d5b8d204b6aec1cef05fe3c8afe1ca82f7
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764859"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275312"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Настройка параметров сканирования антивирусной программы в Microsoft Defender
 
@@ -30,9 +31,9 @@ ms.locfileid: "51764859"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-## <a name="use-microsoft-intune-to-configure-scanning-options"></a>Настройка параметров сканирования с помощью Microsoft Intune
+## <a name="use-microsoft-intune-to-configure-scanning-options"></a>Используйте Microsoft Intune для настройки параметров сканирования
 
-Дополнительные сведения см. в настройках параметров ограничения устройств [в Microsoft Intune](/intune/device-restrictions-configure) и [Microsoft Defender Antivirus device restriction settings for Windows 10 in Intune.](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+Дополнительные сведения см. в статьях [Настройка параметров ограничения устройств в Microsoft Intune](/intune/device-restrictions-configure) и [Параметры ограничений устройств антивирусной программы в Microsoft Defender для Windows 10 в Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus).
 
 ## <a name="use-microsoft-endpoint-manager-to-configure-scanning-options"></a>Используйте Microsoft Endpoint Manager для настройки параметров сканирования
 
@@ -46,7 +47,7 @@ ms.locfileid: "51764859"
 
 2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и щелкните **административные шаблоны**.
 
-3. Расширь дерево до компонентов **Windows > антивируса Microsoft Defender** и далее в указанном ниже расположении. 
+3. Расширь **дерево, Windows компоненты > антивирусная программа в Microsoft Defender,** а  затем расположение, указанное в таблице ниже.
 
 4. Дважды щелкните параметр **политики,** указанный в таблице ниже, и установите параметр в нужную конфигурацию. Нажмите **кнопку ОК** и повторите для любых других параметров.
 
@@ -55,9 +56,9 @@ ms.locfileid: "51764859"
 Сканирование электронной почты [См. ограничения сканирования электронной почты](#ref1)| Сканирование > включив сканирование электронной почты | Отключена | `-DisableEmailScanning`
 Точки [репаража сканирования](/windows/win32/fileio/reparse-points) | Сканирование > включив сканирование точеи репара | Отключена | Недоступно
 Сканирование сетевых дисков с картой | Сканирование > полное сканирование на картах сетевых дисков | Отключена | `-DisableScanningMappedNetworkDrivesForFullScan`
- Сканирование архивных файлов (например, файлов zip или .rar). Список [исключений расширений](configure-extension-file-exclusions-microsoft-defender-antivirus.md) будет иметь приоритет над этим параметром. | Сканирование > архивных файлов | Включено | `-DisableArchiveScanning`
+ Сканирование архивных файлов (например, .zip или .rar файлов). Список [исключений расширений](configure-extension-file-exclusions-microsoft-defender-antivirus.md) будет иметь приоритет над этим параметром. | Сканирование > архивных файлов | Включен | `-DisableArchiveScanning`
 Сканирование файлов в сети | Сканирование > сетевых файлов | Отключена | `-DisableScanningNetworkFiles`
-Сканирование упакованных исполняемых исполняемых | Сканирование > упакованных исполняемых исполняемых | Включено | Недоступно
+Сканирование упакованных исполняемых исполняемых | Сканирование > упакованных исполняемых исполняемых | Включен | Недоступно
 Сканирование съемных дисков только во время полного сканирования | Сканирование > съемных дисков | Отключена | `-DisableRemovableDriveScanning`
 Укажите уровень подмостки в папке архива для сканирования | Сканирование > укажите максимальную глубину для сканирования архивных файлов | 0 | Недоступно
  Укажите максимальную нагрузку ЦП (в процентах) во время сканирования. Примечание. Это не жесткий предел, а руководство для двигателя сканирования, чтобы не превышать этот максимум в среднем. | Сканирование > укажите максимальный процент использования ЦП во время сканирования | 50 |  `-ScanAvgCPULoadFactor`
@@ -69,7 +70,7 @@ ms.locfileid: "51764859"
 
 ## <a name="use-powershell-to-configure-scanning-options"></a>Настройка параметров сканирования с помощью PowerShell
 
-Дополнительные сведения о том, как использовать PowerShell с антивирусом [Microsoft](use-powershell-cmdlets-microsoft-defender-antivirus.md) Defender, см. в этой ссылке. [](/powershell/module/defender/)
+Дополнительные сведения о том, как использовать PowerShell с антивирусная программа в Microsoft Defender, см. в антивирусная программа в Microsoft Defender с помощью [cmdlets](/powershell/module/defender/) [PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md) и defender.
 
 ## <a name="use-wmi-to-configure-scanning-options"></a>Использование WMI для настройки параметров сканирования
 
@@ -85,16 +86,16 @@ ms.locfileid: "51764859"
 - MBX
 - MIME
 
-PST-файлы, используемые в Outlook 2003 или более старше (где тип архива задают не-юникод) также будут отсканированы, но Защитник Windows не могут устранять угрозы, обнаруженные в PST-файлах.
+PST-файлы, используемые Outlook 2003 года или старше (где тип архива задатки не юникода) также будут отсканированы, но Защитник Windows не могут устранять угрозы, обнаруженные в PST-файлах.
 
-Если антивирус Microsoft Defender обнаруживает угрозу внутри электронной почты, он покажет вам следующие сведения, которые помогут вам определить скомпрометированную электронную почту, чтобы вы могли устранять угрозу вручную:
+Если антивирусная программа в Microsoft Defender обнаруживает угрозу внутри электронной почты, в ней покажут следующие сведения, которые помогут вам определить скомпрометированную электронную почту, чтобы вы могли устранять угрозу вручную:
 
 - Тема письма
 - Имя вложения
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-- [Настройка, инициирование и проверка результатов проверки и устранения антивирусных программ Microsoft Defender](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
+- [Настройка, инициирование и проверка результатов антивирусная программа в Microsoft Defender и исправлений](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию](run-scan-microsoft-defender-antivirus.md).
-- [Настройка запланированных антивирусных сканов Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Настройка запланированных антивирусная программа в Microsoft Defender сканирования](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

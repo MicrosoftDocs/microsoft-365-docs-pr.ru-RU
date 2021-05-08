@@ -1,13 +1,13 @@
 ---
 title: Просмотр результатов проверки авт.) Microsoft Defender
-description: Просмотрите результаты сканирования с помощью Microsoft Endpoint Configuration Manager, Microsoft Intune или приложения безопасности Windows
+description: Просмотр результатов сканирования с помощью Microsoft Endpoint Configuration Manager, Microsoft Intune или Безопасность Windows приложения
 keywords: результаты сканирования, исправление, полное сканирование, быстрое сканирование
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,14 +15,15 @@ ms.date: 09/28/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3b8a299f41541be878a9e9023ab330ea973646fd
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: ec3dd2edc09d504af0ed76b17577130b1cdce1b7
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764149"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275376"
 ---
-# <a name="review-microsoft-defender-antivirus-scan-results"></a>Просмотр результатов проверки антивирусных программ Microsoft Defender
+# <a name="review-microsoft-defender-antivirus-scan-results"></a>Проверка антивирусная программа в Microsoft Defender результатов сканирования
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -31,12 +32,12 @@ ms.locfileid: "51764149"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-После завершения антивирусного сканирования Защитника Майкрософт, [](run-scan-microsoft-defender-antivirus.md) будь то проверка по запросу или запланированное, [](scheduled-catch-up-scans-microsoft-defender-antivirus.md)результаты записывают, и вы можете просмотреть результаты. 
+После завершения антивирусная программа в Microsoft Defender проверки, будь то по [](run-scan-microsoft-defender-antivirus.md) требованию или запланированное [сканирование,](scheduled-catch-up-scans-microsoft-defender-antivirus.md)результаты записывают, и вы можете просмотреть результаты. 
 
 
 ## <a name="use-configuration-manager-to-review-scan-results"></a>Использование диспетчера конфигурации для проверки результатов сканирования
 
-Узнайте, [как отслеживать состояние защиты конечных точек.](/configmgr/protect/deploy-use/monitor-endpoint-protection)
+Узнайте, [как отслеживать состояние Endpoint Protection.](/configmgr/protect/deploy-use/monitor-endpoint-protection)
 
 ## <a name="use-powershell-cmdlets-to-review-scan-results"></a>Использование cmdlets PowerShell для проверки результатов сканирования
 
@@ -58,14 +59,14 @@ Get-MpThreat
 
 ![скриншот PowerShell](images/defender/wdav-get-mpthreat.png)
 
-Дополнительные сведения о том, как использовать [PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md) с антивирусным вирусом Microsoft Defender и [Defender,](/powershell/module/defender/) см. в этой ссылке.
+Дополнительные сведения об использовании PowerShell с антивирусной программой в Microsoft Defender см. в разделах [Использование командлетов PowerShell для настройки и запуска антивирусной программы в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md) и [Командлеты Defender](/powershell/module/defender/).
 
-## <a name="use-windows-management-instruction-wmi-to-review-scan-results"></a>Использование инструкции по управлению Windows (WMI) для проверки результатов сканирования
+## <a name="use-windows-management-instruction-wmi-to-review-scan-results"></a>Используйте Windows управления (WMI) для проверки результатов сканирования
 
 Используйте [ **метод Get** классов **MSFT_MpThreat** **MSFT_MpThreatDetection.**](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Настройка, инициирование и проверка результатов проверки и устранения антивирусных программ Microsoft Defender](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Настройка, инициирование и проверка результатов антивирусная программа в Microsoft Defender и исправлений](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
+- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

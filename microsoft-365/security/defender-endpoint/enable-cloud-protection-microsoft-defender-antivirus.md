@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.date: 04/30/2021
@@ -14,12 +14,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 5fcbd30eca3a6d0965fe65e13d2623ff54d1ff5f
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.topic: article
+ms.openlocfilehash: 2b3d22fc50335516e6c50a9dfef9f7835c00a95b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114252"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275268"
 ---
 # <a name="turn-on-cloud-delivered-protection"></a>Включить облачную защиту
 
@@ -96,7 +97,7 @@ ms.locfileid: "52114252"
 
 4. Расширение дерева до **Windows компонентов > антивирусная программа в Microsoft Defender > MAPS**
 
-5. Дважды щелкните **Присоединиться к Microsoft MAPS**. Убедитесь, что параметр включен и задарен **базовым картам или** **расширенным КАРТАм.** Нажмите **ОК**.
+5. Дважды щелкните **Присоединиться к Microsoft MAPS**. Убедитесь, что параметр включен и задарен **базовым картам или** **расширенным КАРТАм.** Нажмите кнопку **ОК**.
 
 6. Дважды **щелкните Отправить образцы файлов при необходимости дополнительного анализа.** Убедитесь, что для первого параметра установлен параметр **Включен,** а остальные параметры заме-
 
@@ -107,7 +108,7 @@ ms.locfileid: "52114252"
         > Параметр **Отправка безопасных образцов** (1) означает, что большинство образцов будут отправлены автоматически. Файлы, в которых могут содержаться персональные данные, будут по-прежнему подсказок и требуют дополнительного подтверждения.
         > Настройка параметра **Always Prompt** (0) снижает состояние защиты устройства. Настройка функции **Никогда** не отправлять (2) означает, что функция [Block at First Sight](configure-block-at-first-sight-microsoft-defender-antivirus.md) Microsoft Defender для конечной точки не будет работать.
 
-7. Нажмите **ОК**.
+7. Нажмите кнопку **ОК**.
 
 ## <a name="use-powershell-cmdlets-to-turn-on-cloud-delivered-protection"></a>Чтобы включить облачную защиту, используйте cmdlets PowerShell
 

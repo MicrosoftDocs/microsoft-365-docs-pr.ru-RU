@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,19 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Узнайте, какие варианты оплаты доступны для оплаты подписки с помощью профиля вы выставления счета.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
-ms.openlocfilehash: be89c2d355202dd8ca8698ac735cbb384bb8ef06
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+- commerce_billing
+- PPM_jmueller
+ms.date: 04/02/2021
+ms.openlocfilehash: 00c1fdca0f1ba227dcd10dffb7c46b03618593e7
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579774"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280863"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>Оплата подписки с помощью профиля вы выставления счета
 
@@ -62,6 +64,7 @@ ms.locfileid: "51579774"
  **Выберите в раскрывающемся меню ниже страну или регион выставления счета.**
 
 > [!div class="op_single_selector"]
+>
 > - **Выберите свою страну или регион**
 > - [Афганистан](../pay/afghanistan.md)
 > - [Албания](../pay/albania.md)
@@ -217,7 +220,7 @@ ms.locfileid: "51579774"
 
 ## <a name="can-i-pay-my-invoice-online"></a>Можно ли оплачивать счета через Интернет?
 
-Если для вашего профиля выставления счетов отключается повторная выставления счетов, вы можете использовать кредитную карту для оплаты счета в Интернете. Чтобы сделать платеж, используйте кнопку **Pay now** on your invoice в центре администрирования Microsoft 365. Чтобы найти счет, [см. в обзоре счет или счет.](view-your-bill-or-invoice.md)
+Если для вашего профиля выставления счетов отключается повторная выставления счетов, вы можете использовать кредитную карту для оплаты счета в Интернете. Чтобы сделать оплату, используйте кнопку **Pay now** on your invoice в центре Microsoft 365 администрирования. Чтобы найти счет, [см. в обзоре счет или счет.](view-your-bill-or-invoice.md)
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Можно ли изменить текущий метод оплаты на оплату с помощью счета-фактуры?
 
@@ -227,7 +230,7 @@ ms.locfileid: "51579774"
 
 Если ваш профиль выставления счетов основан на оплате счетов, вы не можете изменить способ оплаты. Вы можете использовать кнопку **Pay now** на счете для оплаты с помощью кредитной или дебетовой карты или с помощью чека или EFT.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Управление методами оплаты](manage-payment-methods.md) (статья)\
 [Просмотр счета](view-your-bill-or-invoice.md) (статья)\

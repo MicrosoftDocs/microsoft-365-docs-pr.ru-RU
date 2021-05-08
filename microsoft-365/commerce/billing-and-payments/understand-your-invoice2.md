@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,25 +13,21 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - TopSMBIssues
 - okr_smb
 - AdminSurgePortfolio
-search.appverid:
-- BCS160
-- MET150
-- MOE150
-- BEA160
-ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: Узнайте, как разобраться в расходах, выставлении счетов и данных об оплате по счету за Microsoft 365 для бизнеса и как изменить номер заказа на покупку.
-ms.openlocfilehash: b89ca38bf5d7b1d82982668dcd98e9979f1657be
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/04/2021
+ms.openlocfilehash: 9eb9d063b3634269600d5f6566e9e5f373ab08c2
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245020"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280491"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Общие сведения о счетах за Microsoft 365 для бизнеса
 
@@ -96,7 +93,7 @@ ms.locfileid: "52245020"
 |Адрес использования службы|Адрес, по которому используется служба; обычно совпадает с адресом покупателя. Сведения об изменении адреса использования службы см. в статье [Изменение адреса выставления счетов](change-your-billing-addresses.md).|
 |Покупатель|Название и адрес организации. Сведения о том, как изменить эти данные, см. в статье [Изменение адреса организации и других данных профиля](../../admin/manage/change-address-contact-and-more.md).  |
 |Промежуточный итог|Данные для каждой подписки в счете указаны на отдельной строке в столбцах "Отчисления", "Скидки", "Кредиты", "Промежуточный итог", "Налог" и "Итого".|
-|Налог|На странице 1 счета указана общая сумма налога. На странице 2 указана применимая ставка налога, а также общая сумма налога для каждой позиции. Если счет содержит налоги, но ваша организация освобождена от их уплаты, [обратитесь в службу поддержки](../../admin/contact-support-for-business-products.md).  |
+|Налог|На странице 1 счета указана общая сумма налога. На странице 2 указана применимая ставка налога, а также общая сумма налога для каждой позиции. Если счет содержит налоги, но ваша организация освобождена от их уплаты, [обратитесь в службу поддержки](../../business-video/get-help-support.md).  |
 |Итого|Сумма к оплате по счету за расчетный период.|
 
 ## <a name="change-your-purchase-order-number"></a>Изменение номера заказа на покупку
@@ -109,6 +106,7 @@ ms.locfileid: "52245020"
 ::: moniker range="o365-worldwide"
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -120,16 +118,16 @@ ms.locfileid: "52245020"
 ::: moniker range="o365-21vianet"
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.
+
 ::: moniker-end
 
 1. На вкладке **Продукты** выберите подписку, которую хотите изменить.
 
-1. На странице подробные сведения о подписке в разделе **Параметры** подписки и параметров оплаты выберите **Счет редактирования**. 
+1. На странице подробные сведения о подписке в разделе **Параметры** подписки и параметров оплаты выберите **Счет редактирования**.
 
 1. В нижней части сведений **Об** редактировании для оплаты голосовой строкой введите номер PO и выберите **Сохранить**.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-content"></a>См. также:
 
-[Оплата подписки на Microsoft 365 для бизнеса](pay-for-your-subscription.md)
-
-[Варианты оплаты Minecraft: Education Edition](/education/windows/school-get-minecraft)
+[Оплата Microsoft 365 подписки](pay-for-your-subscription.md) на бизнес (статья)\
+[Варианты оплаты Minecraft: Education Edition](/education/windows/school-get-minecraft) (статья)
