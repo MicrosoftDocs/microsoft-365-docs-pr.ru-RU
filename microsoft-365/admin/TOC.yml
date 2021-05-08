@@ -107,16 +107,30 @@
               href: create-groups/manage-guest-access-in-groups.md
             - name: Изменение имени пользователя и адреса электронной почты
               href: add-users/change-a-user-name-and-email-address.md
-            - name: Удаление бывшего сотрудника
-              href: add-users/remove-former-employee.md
-            - name: Доступ к данным бывшего пользователя и создание их резервной копии
-              href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: Восстановление пользователя
               href: add-users/restore-user.md
             - name: Создание шаблона для добавления пользователей
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: Перевод пользователей на последние версии приложений
               href: setup/upgrade-users-to-latest-office-client.md
+        - name: Удаление бывшего сотрудника
+          items:
+            - name: Обзор
+              href: add-users/remove-former-employee.md
+            - name: Этап 1. Запрет входа в систему для сотрудника и блокировка доступа к службам Microsoft 365
+              href: add-users/remove-former-employee-step-1.md
+            - name: "Этап\_2. Сохранение содержимого почтового ящика бывшего сотрудника"
+              href: add-users/remove-former-employee-step-2.md
+            - name: "Этап\_3. Переадресация электронной почты бывшего сотрудника другому сотруднику или преобразование в общий почтовый ящик"
+              href: add-users/remove-former-employee-step-3.md
+            - name: "Этап\_4. Предоставление другому сотруднику доступ к данным OneDrive и Outlook"
+              href: add-users/remove-former-employee-step-4.md
+            - name: Этап 5. Очистка и блокирование мобильного устройства бывшего сотрудника
+              href: add-users/remove-former-employee-step-5.md
+            - name: Этап 6. Удаление лицензии на Microsoft 365 у бывшего сотрудника
+              href: add-users/remove-former-employee-step-6.md
+            - name: "Этап\_7. Удаление учетной записи бывшего сотрудника"
+              href: add-users/remove-former-employee-step-7.md
         - name: Группы
           items:
             - name: Обзор групп

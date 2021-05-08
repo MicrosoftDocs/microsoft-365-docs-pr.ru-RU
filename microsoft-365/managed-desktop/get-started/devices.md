@@ -1,6 +1,6 @@
 ---
-title: Заказ устройств на компьютерах, управляемых Майкрософт
-description: ''
+title: Заказать устройства в компьютеры, управляемые Майкрософт
+description: Как заказать устройства
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
@@ -9,18 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 75514dfc3c5de3c579cc051b830ebdc92a93e531
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 693ee9e6c9835c73c10ced059b627a902daa523e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529533"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245412"
 ---
-# <a name="order-microsoft-managed-desktop-devices"></a><span data-ttu-id="41090-103">Заказ настольных устройств, управляемых Майкрософт</span><span class="sxs-lookup"><span data-stu-id="41090-103">Order Microsoft Managed Desktop devices</span></span>
+# <a name="order-microsoft-managed-desktop-devices"></a><span data-ttu-id="a7572-104">Заказ компьютеры, управляемые Майкрософт устройств</span><span class="sxs-lookup"><span data-stu-id="a7572-104">Order Microsoft Managed Desktop devices</span></span>
 
-<span data-ttu-id="41090-104">Мы рекомендуем работать с одним из наших утвержденных партнеров по устройствам.</span><span class="sxs-lookup"><span data-stu-id="41090-104">We recommend working with one of our approved device partners.</span></span> <span data-ttu-id="41090-105">Для получения дополнительной помощи по настройке связи с устройством вы можете обратиться к контактной записи Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="41090-105">You can work with your Microsoft account contact for more help setting up a device partnership.</span></span>
+<span data-ttu-id="a7572-105">Рекомендуется работать с одним из наших утвержденных партнеров по устройству.</span><span class="sxs-lookup"><span data-stu-id="a7572-105">We recommend working with one of our approved device partners.</span></span> <span data-ttu-id="a7572-106">Вы можете работать с вашим контактом учетной записи Майкрософт, чтобы получить дополнительные справки по настройке партнерских отношений с устройствами.</span><span class="sxs-lookup"><span data-stu-id="a7572-106">You can work with your Microsoft account contact for more help setting up a device partnership.</span></span>
 
-<span data-ttu-id="41090-106">В то же время вы можете [](../service-description/device-list.md) просмотреть список утвержденных в настоящее время устройств, которые поддерживаются для использования с компьютерами, управляемыми Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="41090-106">In the meantime, you can review the list of [currently approved devices](../service-description/device-list.md) that are supported for use with Microsoft Managed Desktop.</span></span>
-
-
+<span data-ttu-id="a7572-107">компьютеры, управляемые Майкрософт больше не требуется, чтобы модели устройств были из списка [утвержденных в настоящее время устройств.](../service-description/device-list.md)</span><span class="sxs-lookup"><span data-stu-id="a7572-107">Microsoft Managed Desktop no longer requires device models be from the list of [currently approved devices](../service-description/device-list.md).</span></span> <span data-ttu-id="a7572-108">С 3 мая 2021 г. все устройства от утвержденного производителя должны соответствовать нашим требованиям к оборудованию и программному обеспечению.</span><span class="sxs-lookup"><span data-stu-id="a7572-108">As of May 3, 2021, all devices from an approved manufacturer should meet our posted hardware and software requirements.</span></span> <span data-ttu-id="a7572-109">Вы можете продолжать использовать устройства в этом списке с уверенностью, но вы можете найти больше устройств, рекомендуемых для компьютеры, управляемые Майкрософт на сайте Windows 10 Pro [бизнес-устройств.](https://www.microsoft.com/windowsforbusiness/view-all-devices)</span><span class="sxs-lookup"><span data-stu-id="a7572-109">You can continue to use devices on that list with confidence, but you can find more devices recommended for Microsoft Managed Desktop on the [Shop Windows 10 Pro business devices](https://www.microsoft.com/windowsforbusiness/view-all-devices) site.</span></span> <span data-ttu-id="a7572-110">На этом сайте просмотреть рекомендуемые устройства, расширив функции в **фильтре** по области, а затем **выбрав компьютеры, управляемые Майкрософт**. </span><span class="sxs-lookup"><span data-stu-id="a7572-110">At that site, view the recommended devices by expanding **Features** in the **Filter by** area, and then selecting **Microsoft Managed Desktop**.</span></span> <span data-ttu-id="a7572-111">При первом планировании регистрации определенной модели устройства в службе необходимо проверить пример, чтобы убедиться, что она обеспечит ожидающееся пользователем впечатление.</span><span class="sxs-lookup"><span data-stu-id="a7572-111">Anytime you plan to enroll a particular device model in the service for the first time, you should test an example to ensure it'll deliver the user experience you expect.</span></span> <span data-ttu-id="a7572-112">Дополнительные сведения см. в [дополнительных сведениях о проверке новых устройств.](../get-started/validate-device.md)</span><span class="sxs-lookup"><span data-stu-id="a7572-112">For more information, see [Validate new devices](../get-started/validate-device.md).</span></span>
 
